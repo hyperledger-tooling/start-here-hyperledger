@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/771" class=".btn">#771</a>
+            </td>
+            <td>
+                <b>
+                    Improve compiler diagnostics
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Ensure that `now > startTime` gives error about block.timestamp
+Improve error for old `function()` syntax
+Ensure bad expression errors are surfaced for overloaded function calls
+
+See #744
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-28 08:19:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/770" class=".btn">#770</a>
             </td>
             <td>
@@ -290,38 +320,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2022-04-21 14:30:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/759" class=".btn">#759</a>
-            </td>
-            <td>
-                <b>
-                    Fix assigning to array subscript when array element is array
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Dereferencing an array did not make the array writable.
-
-Fixes issue found here:
-
-https://stackoverflow.com/questions/71789212/solang-panicked-at-type-not-allowed
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-21 11:00:55 +0000 UTC
     </div>
 </div>
 

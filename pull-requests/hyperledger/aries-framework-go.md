@@ -14,37 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3232" class=".btn">#3232</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3233" class=".btn">#3233</a>
             </td>
             <td>
                 <b>
-                    feat: add HealthCheck for remote kms
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-27 13:42:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3231" class=".btn">#3231</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps): bump axios from 0.23.0 to 0.27.1 in /cmd/aries-js-worker
+                    chore(deps): bump axios from 0.23.0 to 0.27.2 in /cmd/aries-js-worker
                 </b>
             </td>
         </tr>
@@ -53,11 +27,19 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [axios](https://github.com/axios/axios) from 0.23.0 to 0.27.1.
+                Bumps [axios](https://github.com/axios/axios) from 0.23.0 to 0.27.2.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/axios/axios/releases">axios's releases</a>.</em></p>
 <blockquote>
+<h2>v0.27.2</h2>
+<h3>0.27.2 (April 27, 2022)</h3>
+<p>Fixes and Functionality:</p>
+<ul>
+<li>Fixed FormData posting in browser environment by reverting <a href="https://github-redirect.dependabot.com/axios/axios/issues/3785">#3785</a> (<a href="https://github-redirect.dependabot.com/axios/axios/pull/4640">#4640</a>)</li>
+<li>Enhanced protocol parsing implementation (<a href="https://github-redirect.dependabot.com/axios/axios/pull/4639">#4639</a>)</li>
+<li>Fixed bundle size</li>
+</ul>
 <h2>v0.27.1</h2>
 <h3>0.27.1 (April 26, 2022)</h3>
 <p>Fixes and Functionality:</p>
@@ -104,15 +86,6 @@ permalink: /pull-requests/hyperledger/aries-framework-go
 </ul>
 <h2>v0.26.0</h2>
 <h3>0.26.0 (February 13, 2022)</h3>
-<p>Fixes and Functionality:</p>
-<ul>
-<li>Fixed The timeoutErrorMessage property in config not work with Node.js (<a href="https://github-redirect.dependabot.com/axios/axios/pull/3581">#3581</a>)</li>
-<li>Added errors to be displayed when the query parsing process itself fails (<a href="https://github-redirect.dependabot.com/axios/axios/pull/3961">#3961</a>)</li>
-<li>Fix/remove url required (<a href="https://github-redirect.dependabot.com/axios/axios/pull/4426">#4426</a>)</li>
-<li>Update follow-redirects dependency due to Vulnerability (<a href="https://github-redirect.dependabot.com/axios/axios/pull/4462">#4462</a>)</li>
-<li>Bump karma from 6.3.11 to 6.3.14 (<a href="https://github-redirect.dependabot.com/axios/axios/pull/4461">#4461</a>)</li>
-<li>Bump follow-redirects from 1.14.7 to 1.14.8 (<a href="https://github-redirect.dependabot.com/axios/axios/pull/4473">#4473</a>)</li>
-</ul>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -121,6 +94,13 @@ permalink: /pull-requests/hyperledger/aries-framework-go
 <summary>Changelog</summary>
 <p><em>Sourced from <a href="https://github.com/axios/axios/blob/master/CHANGELOG.md">axios's changelog</a>.</em></p>
 <blockquote>
+<h3>0.27.2 (April 27, 2022)</h3>
+<p>Fixes and Functionality:</p>
+<ul>
+<li>Fixed FormData posting in browser environment by reverting <a href="https://github-redirect.dependabot.com/axios/axios/issues/3785">#3785</a> (<a href="https://github-redirect.dependabot.com/axios/axios/pull/4640">#4640</a>)</li>
+<li>Enhanced protocol parsing implementation (<a href="https://github-redirect.dependabot.com/axios/axios/pull/4639">#4639</a>)</li>
+<li>Fixed bundle size</li>
+</ul>
 <h3>0.27.1 (April 26, 2022)</h3>
 <p>Fixes and Functionality:</p>
 <ul>
@@ -169,13 +149,6 @@ permalink: /pull-requests/hyperledger/aries-framework-go
 <li>Added errors to be displayed when the query parsing process itself fails (<a href="https://github-redirect.dependabot.com/axios/axios/pull/3961">#3961</a>)</li>
 <li>Fix/remove url required (<a href="https://github-redirect.dependabot.com/axios/axios/pull/4426">#4426</a>)</li>
 <li>Update follow-redirects dependency due to Vulnerability (<a href="https://github-redirect.dependabot.com/axios/axios/pull/4462">#4462</a>)</li>
-<li>Bump karma from 6.3.11 to 6.3.14 (<a href="https://github-redirect.dependabot.com/axios/axios/pull/4461">#4461</a>)</li>
-<li>Bump follow-redirects from 1.14.7 to 1.14.8 (<a href="https://github-redirect.dependabot.com/axios/axios/pull/4473">#4473</a>)</li>
-</ul>
-<h3>0.25.0 (January 18, 2022)</h3>
-<p>Breaking changes:</p>
-<ul>
-<li>Fixing maxBodyLength enforcement (<a href="https://github-redirect.dependabot.com/axios/axios/pull/3786">#3786</a>)</li>
 </ul>
 <!-- raw HTML omitted -->
 </blockquote>
@@ -184,23 +157,23 @@ permalink: /pull-requests/hyperledger/aries-framework-go
 <details>
 <summary>Commits</summary>
 <ul>
+<li><a href="https://github.com/axios/axios/commit/bc733fec78326609e751187c9d453cee9bf1993a"><code>bc733fe</code></a> Releasing v0.27.2</li>
+<li><a href="https://github.com/axios/axios/commit/b9e9fb4fa0ab1e0f4bc9ac8d8cf493f5f8507dc3"><code>b9e9fb4</code></a> Enhanced protocol parsing implementation to fix <a href="https://github-redirect.dependabot.com/axios/axios/issues/4633">#4633</a>; (<a href="https://github-redirect.dependabot.com/axios/axios/issues/4639">#4639</a>)</li>
+<li><a href="https://github.com/axios/axios/commit/76432c18bee20e2cbd9e673af8a3bf43641ad115"><code>76432c1</code></a> Fixed FormData posting in browser environment by reverting <a href="https://github-redirect.dependabot.com/axios/axios/issues/3785">#3785</a>; (<a href="https://github-redirect.dependabot.com/axios/axios/issues/4640">#4640</a>)</li>
+<li><a href="https://github.com/axios/axios/commit/82fd15f3d4d0af5c965701d05deed98c6c056e94"><code>82fd15f</code></a> Combined build process and cleaned it up a bit</li>
+<li><a href="https://github.com/axios/axios/commit/1d82af1a504dd85925738a80c125209ecc178752"><code>1d82af1</code></a> Fixing issues with bundle sizes</li>
+<li><a href="https://github.com/axios/axios/commit/bcb166e6e8fe5425d480c967750a103216f9ba22"><code>bcb166e</code></a> Fixed incorrect date in changelog</li>
 <li><a href="https://github.com/axios/axios/commit/838f53b4bb6616d8ec8efdae0612c9c74b8c3804"><code>838f53b</code></a> Merge branch 'master' of github.com:axios/axios</li>
 <li><a href="https://github.com/axios/axios/commit/cb9c534963a99292f1d0c6137a7d32d9c859f6d5"><code>cb9c534</code></a> Releasing v0.27.1</li>
 <li><a href="https://github.com/axios/axios/commit/91d21fc5fb0eeb4c60f6a75ab6db303c5d23f3c5"><code>91d21fc</code></a> Releasing v0.72.1</li>
 <li><a href="https://github.com/axios/axios/commit/167cb8b8e7dbef7acd0be9b05bd50e4af2335291"><code>167cb8b</code></a> Remove eslint-g package as this seems have been added in error</li>
-<li><a href="https://github.com/axios/axios/commit/4f7e3e3a7a9b91579faa328964c3d5fe30e661d7"><code>4f7e3e3</code></a> Removed import of url module in browser build due to significant size overhea...</li>
-<li><a href="https://github.com/axios/axios/commit/cdd7add9b05c2c651de197a54d6a51172a6655a3"><code>cdd7add</code></a> Fixed date on chnagelog</li>
-<li><a href="https://github.com/axios/axios/commit/f94dda9c76442ac097923fdfc02199e72c20f083"><code>f94dda9</code></a> Bump async from 2.6.3 to 2.6.4 (<a href="https://github-redirect.dependabot.com/axios/axios/issues/4615">#4615</a>)</li>
-<li><a href="https://github.com/axios/axios/commit/008dd9d466167e97727bdba13f4937bb9d7f3baa"><code>008dd9d</code></a> Releaseing version 0.27.0</li>
-<li><a href="https://github.com/axios/axios/commit/ee151a7356ec4498af045dd830312822637890c9"><code>ee151a7</code></a> Revert some changes that are only required when we actually release</li>
-<li><a href="https://github.com/axios/axios/commit/499d3bee543b55877b8458aeb56ce71969720333"><code>499d3be</code></a> follow-redirects to ^1.14.9 (<a href="https://github-redirect.dependabot.com/axios/axios/issues/4562">#4562</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/axios/axios/compare/v0.23.0...v0.27.1">compare view</a></li>
+<li>Additional commits viewable in <a href="https://github.com/axios/axios/compare/v0.23.0...v0.27.2">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=axios&package-manager=npm_and_yarn&previous-version=0.23.0&new-version=0.27.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=axios&package-manager=npm_and_yarn&previous-version=0.23.0&new-version=0.27.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -231,7 +204,33 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-26 08:17:47 +0000 UTC
+        Created At 2022-04-28 08:19:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3232" class=".btn">#3232</a>
+            </td>
+            <td>
+                <b>
+                    feat: add HealthCheck for remote kms
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-27 13:42:45 +0000 UTC
     </div>
 </div>
 
