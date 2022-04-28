@@ -608,33 +608,3 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3344" class=".btn">#3344</a>
-            </td>
-            <td>
-                <b>
-                    Replace inclusive language statement
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Replace the existing inclusive language statement in the Fabric
-doc contribution guide with the inclusive language statement recommended by Hyperledger TSC.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-21 04:33:31 +0000 UTC
-    </div>
-</div>
-
