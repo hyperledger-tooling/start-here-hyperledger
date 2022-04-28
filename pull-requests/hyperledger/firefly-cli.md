@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/165" class=".btn">#165</a>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/183" class=".btn">#183</a>
             </td>
             <td>
                 <b>
-                    Unique topics for multiple connectors against same ethconnect
+                    Point ERC20/ERC721 connector at deployed contract address
                 </b>
             </td>
         </tr>
@@ -27,21 +27,68 @@ permalink: /pull-requests/hyperledger/firefly-cli
                 
             </td>
             <td>
-                Few changes here:
+                This includes multiple changes to how the `docker-compose.yml` file is handled:
 
-1. We already set the topic to be unique per node in the CLI, but we don't do the same for token connectors.
-    - This means if you request use of multiple token connectors of the same type, or are using the CLI to aid deployment against a remote EthConnect (such as in Kaleido), you can't be sure to have unique topics.
-2. Log the API call that failed, when logging errors
-3. Allow a `--contract-address` to be specified at `init`, which bypasses the contract deploy step at `start`. This can be combined with `--core-config` to use a remotely hosted EthConnect with a separately deployed contract (for example Kaleido smart contract management)
-4. Remove registration of a REST API for the FireFly smart contract across all EthConnect instances, in all cases. This is no longer required.
-5. Do deployment of the FireFly contract in the same way that all other deployment is now done (without any use of the `/abis` REST API functionality in FireFly)
-    - Partially addresses a `Deprecated` function usage in the code - ERC-1155 still has debt to address
-    - Requires https://github.com/hyperledger/firefly/pull/624
+* `docker-compose.yml` has moved back up to the root directory of the stack (instead of being placed in "init" and "runtime" subfolders). A simple migration check will copy it out of "runtime" into the parent folder if needed.
+* The `docker-compose.yml` file will now be rewritten after first-time setup is complete. This allows it to pick up on new things such as deployed contracts. It is notated at the top with comments indicating it is a generated file and should not be edited.
+* For overriding Docker configuration values, users are now directed to edit a `docker-compose.override.yml` file, as [supported by docker-compose](https://docs.docker.com/compose/extends).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-23 18:35:24 +0000 UTC
+        Created At 2022-04-27 16:50:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/182" class=".btn">#182</a>
+            </td>
+            <td>
+                <b>
+                    Make ERC-20 / ERC-721 default
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR makes the ERC-20 / ERC-721 token connector the default. It also deploys the newly packaged TokenFactory contract (in FireFly v1.0.0-rc.6) to streamline the process for users being able to experiment with tokens with external wallets like Metamask.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-26 15:17:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/180" class=".btn">#180</a>
+            </td>
+            <td>
+                <b>
+                    Add corsdomain clause to support local development
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                @nguyer Suggested I might make a project contribution to allow remix to be better supported. Looking forward to feedback.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-25 02:00:52 +0000 UTC
     </div>
 </div>
 

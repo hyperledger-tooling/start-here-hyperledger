@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1024" class=".btn">#1024</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1026" class=".btn">#1026</a>
             </td>
             <td>
                 <b>
-                    Document post-merge blockheader behavior
+                    Document IPC for JSON-RPC
                 </b>
             </td>
         </tr>
@@ -42,11 +42,11 @@ Make sure that:
 - [x] You've [previewed your changes locally](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation).
 
 ## Describe the change
-Document post merge changes to block header fields.
+Document IPC transport for JSON-RPC
 <!-- Add a clear and concise description of what your PR changes in the documentation. -->
 
 ## Issue fixed
-Fixes #1015 
+Fixes #1025 
 <!-- Link to the GitHub issue that your PR addresses.
 
 Add "fixes #{your issue number}" to close the issue automatically when the PR is merged.
@@ -94,7 +94,7 @@ where {your PR number} is replaced by the number of this PR.
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-18 20:28:43 +0000 UTC
+        Created At 2022-04-27 20:50:38 +0000 UTC
     </div>
 </div>
 

@@ -346,32 +346,3 @@ The old code was firing all the import orderer node reqs at once, this PR will s
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/184" class=".btn">#184</a>
-            </td>
-            <td>
-                <b>
-                    fix merge logic - missing channel if the last node didnt have it
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
-
-- Bug fix
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-20 19:37:43 +0000 UTC
-    </div>
-</div>
-

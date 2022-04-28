@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-perf-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/29" class=".btn">#29</a>
+                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/34" class=".btn">#34</a>
             </td>
             <td>
                 <b>
-                    Add heartbeating to FF perf CLI
+                    Extra podLabels for NetworkPolicies
                 </b>
             </td>
         </tr>
@@ -27,18 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-perf-cli
                 
             </td>
             <td>
-                We saw a case where FireFly got an `EOF` on the WebSocket from the perf CLI:
-
-```
-[2022-03-29T17:48:00.375Z] ERROR node_0: Read failed: websocket: close 1006 (abnormal closure): unexpected EOF websocket=8a267d00-60bb-479f-b5d0-870718776047
-```
-
-... but there were no corresponding errors on the perf CLI side. I found that heartbeats were not configured.
+                Signed-off-by: hfuss <haydenfuss@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-29 18:17:35 +0000 UTC
+        Created At 2022-04-26 15:46:45 +0000 UTC
     </div>
 </div>
 
@@ -46,11 +40,11 @@ permalink: /pull-requests/hyperledger/firefly-perf-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/28" class=".btn">#28</a>
+                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/33" class=".btn">#33</a>
             </td>
             <td>
                 <b>
-                    Message time fixes and delinquent message actions
+                    Multiple Workers per Test Case
                 </b>
             </td>
         </tr>
@@ -59,42 +53,14 @@ permalink: /pull-requests/hyperledger/firefly-perf-cli
                 
             </td>
             <td>
-                This PR adds a couple of fixes for tracking the time of messages and also adds a command line flag to exit the test runner if it detects delinquent messages. 
-
-**The default behavior is to exit the test.** If you wish to simply log the delinquent messages and continue testing, use the `--delinquent log` flag.
+                * Updates README and `prep.sh` to work with the new test configuration format that allows defining multiple instances and multiple test cases per instance with a varying number of workers per test case
+* Removes `monitoring/k8s.json` since its going to be tracked via https://github.com/hyperledger/firefly-helm-charts/pull/43 going forward
+* Refactors config structs to better reflect the test concepts of: performance test, runner, instance, test case, and worker.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-25 20:17:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/27" class=".btn">#27</a>
-            </td>
-            <td>
-                <b>
-                    firefly-perfnode and ffperf Chart
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Used for install FireFly nodes onto K8s for performance testing and then running distributed instances of `ffperf` against them
-
-Related to #26 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-24 12:54:47 +0000 UTC
+        Created At 2022-04-25 15:33:18 +0000 UTC
     </div>
 </div>
 
