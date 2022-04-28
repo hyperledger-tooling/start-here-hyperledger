@@ -94,29 +94,3 @@ This also changes to use a multi-stage Docker build which significantly cuts dow
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/50" class=".btn">#50</a>
-            </td>
-            <td>
-                <b>
-                    Wrap ethconnect errors in Nest errors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                See https://github.com/hyperledger/firefly/issues/753
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-21 17:46:39 +0000 UTC
-    </div>
-</div>
-

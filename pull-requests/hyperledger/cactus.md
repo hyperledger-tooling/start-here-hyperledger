@@ -246,35 +246,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1986" class=".btn">#1986</a>
-            </td>
-            <td>
-                <b>
-                    docs(readme): replaced rocketchat link with discord link in README
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span>
-            </td>
-            <td>
-                Since the migration from RocketChat to Discord we had our chat platform
-link in the readme outdated and basically dead. This change remedies that.
-
-Fixes: #1937
-
-Signed-off-by: Emerson Shoichet-Bartus <emersonfieldstone@gmail.com>
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-21 17:13:13 +0000 UTC
-    </div>
-</div>
-

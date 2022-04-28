@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/26" class=".btn">#26</a>
+            </td>
+            <td>
+                <b>
+                    Split up index.ts file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-28 14:10:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/25" class=".btn">#25</a>
             </td>
             <td>
@@ -85,34 +111,6 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     </table>
     <div class="right-align">
         Created At 2022-04-27 14:59:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/21" class=".btn">#21</a>
-            </td>
-            <td>
-                <b>
-                    Extract and wrap FireFly error messages
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                If an error reply from FireFly has the form `{"error": "Something bad"}`, extract only the error message from the JSON and throw it as a new `FireFlyError` type. If the error message cannot be parsed, use the whole body text.
-
-See https://github.com/hyperledger/firefly/issues/753
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-21 16:42:24 +0000 UTC
     </div>
 </div>
 

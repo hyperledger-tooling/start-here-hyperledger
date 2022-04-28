@@ -14,6 +14,119 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2164" class=".btn">#2164</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #2161: generate FFI functions for `data_model`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Marin Veršić <marin.versic101@gmail.com><!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+You can find a description here: #1973 
+
+There is a possibility `iroha_data_model_derive` will have to be made into a crate accessible by `iroha_crypto` as well
+
+### Wasm linking issue:
+The smart contract fails to import the `__indirect_function_table` table. Presumably because of the following limitation:
+* A table import's minimum length is required to be at most the imported table's minimum length.
+* A table import is required to have a maximum length if the imported table has a maximum length.
+* If present, a table import's maximum length is required to be at least the imported table's maximum length.
+
+### TODO:
+* conversions in the FFI function body
+* tests - most of all compile tests
+
+### Issue
+
+Closes #2161 
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests *[optional]*
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-28 16:16:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2162" class=".btn">#2162</a>
+            </td>
+            <td>
+                <b>
+                    [documentation] #1991: Add readme to Kura inspector
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ### Description of the Change
+
+Add readme for Kura Inspector
+
+### Issue
+
+Resolves #1991
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-28 13:55:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2160" class=".btn">#2160</a>
             </td>
             <td>
@@ -570,7 +683,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             </td>
             <td>
                 <b>
-                    [draft] Chain refactor / solution to #1737
+                    [fix] #1737: Blockchain by reference instead of cloning.
                 </b>
             </td>
         </tr>
@@ -597,7 +710,7 @@ Replace dashmap with spinlock based mutex in order to support referencing into t
 
 ### Issue
 
-#1737
+#1737 and #1974
 <!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
 More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
 
