@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/1996" class=".btn">#1996</a>
+            </td>
+            <td>
+                <b>
+                    refactor(cmd-api-server): clean up configuration parameters #720
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes: #720
+
+Parameters that are cleaned up are: cactusNodeId, consortiumId, keychainSuffixKeyPairPem
+Parameter keyPairPem cannot be remove as it results to an error in running the api server.
+
+Cleaning the three mentioned parameter are backwards compatible with tags versions:
+v1.0.0-rc.3 and v1.0.0
+The latest tag being used as of this change is v1.0.0-25-gdda3f00c
+
+Signed-off-by: ruzell22 <ruzell.vince.aquino@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-28 10:05:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/1994" class=".btn">#1994</a>
             </td>
             <td>

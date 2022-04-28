@@ -151,7 +151,7 @@ Is there any task from the Todo list I should look at even before merging?
             </td>
             <td>
                 <b>
-                    feat: Delete events
+                    feat: delete events
                 </b>
             </td>
         </tr>
