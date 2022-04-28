@@ -114,29 +114,3 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/69" class=".btn">#69</a>
-            </td>
-            <td>
-                <b>
-                    Wrap ethconnect errors in Nest errors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                See https://github.com/hyperledger/firefly/issues/753
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-21 18:00:54 +0000 UTC
-    </div>
-</div>
-

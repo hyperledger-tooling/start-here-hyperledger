@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1752" class=".btn">#1752</a>
+            </td>
+            <td>
+                <b>
+                    Fixing the intro paragraph and heading in the changelog of this 0.7.4RC1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-28 18:16:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1751" class=".btn">#1751</a>
+            </td>
+            <td>
+                <b>
+                    fix: Resolve Revocation Notification environment variable name collision
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                `--monitor-revocation-notification` and `--notify-revocation` have a
+name conflict with their corresponding environment variables. Now they
+don't have a conflict.
+
+Signed-off-by: Colton Wolkins (Indicio work address) <colton@indicio.tech>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-28 15:56:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1749" class=".btn">#1749</a>
             </td>
             <td>

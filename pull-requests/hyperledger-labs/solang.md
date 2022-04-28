@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/774" class=".btn">#774</a>
+            </td>
+            <td>
+                <b>
+                    solc accepts an 256 bit type as a size argument to new
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                We should do the same, but warn about this because it is not efficient
+code.
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-28 14:06:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/772" class=".btn">#772</a>
+            </td>
+            <td>
+                <b>
+                    Fix associativity of power
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1 ** 2 ** 3 should be parsed like 1 ** (2 ** 3), not (1 ** 2) ** 3.
+
+See https://github.com/foundry-rs/foundry/issues/781#issuecomment-1112109532
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-28 13:19:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/771" class=".btn">#771</a>
             </td>
             <td>
@@ -294,32 +353,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2022-04-22 13:36:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/760" class=".btn">#760</a>
-            </td>
-            <td>
-                <b>
-                    Do not allow yul suffixes on certain variables
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                While working with YUL code generation, I found out that we were not detecting if the usage of suffixes was correct for Solidity local variables. This PR fixes this bug that I found.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-21 14:30:27 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/74" class=".btn">#74</a>
+            </td>
+            <td>
+                <b>
+                    Decimals
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ![image](https://user-images.githubusercontent.com/17093033/165796809-562d1016-3b8d-4f2f-9c4f-b058809ad6fc.png)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-28 16:10:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/73" class=".btn">#73</a>
             </td>
             <td>
@@ -313,34 +340,6 @@ Examples:
     </table>
     <div class="right-align">
         Created At 2022-04-21 19:42:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/60" class=".btn">#60</a>
-            </td>
-            <td>
-                <b>
-                    Add error handling for FireFlyError
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Depends on an SDK release with https://github.com/hyperledger/firefly-sdk-nodejs/pull/21
-
-See https://github.com/hyperledger/firefly/issues/753
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-21 16:43:37 +0000 UTC
     </div>
 </div>
 

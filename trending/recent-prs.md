@@ -1,13 +1,13 @@
 
-[389](https://github.com/hyperledger-labs/orion-server/pull/389) Start server while on-boarding
+[1752](https://github.com/hyperledger/aries-cloudagent-python/pull/1752) Fixing the intro paragraph and heading in the changelog of this 0.7.4RC1
 
-[113](https://github.com/hyperledger/aries-framework-javascript-ext/pull/113) fix(react-hooks): Update providers on delete events
+[536](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/536) Bump async from 2.6.3 to 2.6.4 in /open-offsets-directory/react
 
-[387](https://github.com/hyperledger-labs/orion-server/pull/387) GetClusterConfig accessibility test
+[535](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/535) get code up to date
 
-[1996](https://github.com/hyperledger/cactus/pull/1996) refactor(cmd-api-server): clean up configuration parameters #720
+[2164](https://github.com/hyperledger/iroha/pull/2164) [feature] #2161: generate FFI functions for `data_model`
 
-[3772](https://github.com/hyperledger/besu/pull/3772) update version and changelog
+[390](https://github.com/hyperledger-labs/orion-server/pull/390) Dynamic cluster - simple add test
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
