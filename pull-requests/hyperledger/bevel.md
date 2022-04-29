@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/1925" class=".btn">#1925</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1933" class=".btn">#1933</a>
             </td>
             <td>
                 <b>
-                    [quorum] Change or add ImagePullPolicy to be IfNotPresent
+                    [fabric] fixed vault secret path hardcoding issues
                 </b>
             </td>
         </tr>
@@ -27,28 +27,18 @@ permalink: /pull-requests/hyperledger/bevel
                 
             </td>
             <td>
-                Signed-off-by: mgCepeda <marina.gomez.cepeda@accenture.com>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
 
 **Changelog**
-
-- Update node_constellacion, node_quorum, node_quorum_member, node_quorum_validator and node_tessera
- charts. Added or changed field, imagePullPolicy: IfNotPresent
-
- 
+- Fix vault secret path hard coded in some roles and chart
 
 **Reviewed by**
-@suvajit-sarkar
-@jagpreetsinghsasan
- 
-
-**Linked issue**
-#1883 
-
+@jagpreetsinghsasan 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-22 11:20:30 +0000 UTC
+        Created At 2022-04-29 09:52:57 +0000 UTC
     </div>
 </div>
 

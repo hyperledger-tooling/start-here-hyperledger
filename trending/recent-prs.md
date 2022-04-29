@@ -1,13 +1,13 @@
 
-[229](https://github.com/hyperledger-labs/fabric-token-sdk/pull/229) fix tests
+[686](https://github.com/hyperledger/fabric-docs-i18n/pull/686) [it_IT] Translate Introduction > Privacy and Confidentiality
 
-[3776](https://github.com/hyperledger/besu/pull/3776) Remove Leading Zeros from TransactionPendingResult
+[572](https://github.com/hyperledger/fabric-sdk-node/pull/572) Add support for Node 14 and 16 (release-1.4)
 
-[3774](https://github.com/hyperledger/besu/pull/3774) adding codeql to besu to check for quality
+[778](https://github.com/hyperledger-labs/solang/pull/778) feat(parser): event on source unit level isn't allowed
 
-[305](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/305) Bump cross-fetch from 3.1.4 to 3.1.5 in /core
+[571](https://github.com/hyperledger/fabric-sdk-node/pull/571) Add support for Node 16 (release-2.2)
 
-[3237](https://github.com/hyperledger/aries-framework-go/pull/3237) feat: Use new EDV add index endpoint when setting store config
+[570](https://github.com/hyperledger/fabric-sdk-node/pull/570) Update supported Node versions (main)
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
