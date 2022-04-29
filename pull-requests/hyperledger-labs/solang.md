@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/775" class=".btn">#775</a>
+            </td>
+            <td>
+                <b>
+                    Only local function pointers should support suffixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Function pointers saved as state variables should no support suffixes "address" and "selector". Only Solidity local variables of type external function pointer support them.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-28 19:06:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/774" class=".btn">#774</a>
             </td>
             <td>

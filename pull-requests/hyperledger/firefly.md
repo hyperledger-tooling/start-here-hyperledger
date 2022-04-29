@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/775" class=".btn">#775</a>
+            </td>
+            <td>
+                <b>
+                    Clean up API spec for token approvals
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-28 20:56:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/774" class=".btn">#774</a>
             </td>
             <td>
@@ -421,75 +447,6 @@ closes #757
     </table>
     <div class="right-align">
         Created At 2022-04-22 20:00:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/752" class=".btn">#752</a>
-            </td>
-            <td>
-                <b>
-                    Remove server-side HTML sanitization of error messages
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Errors may be displayed or used in many contexts. If they are displayed in HTML,
-it should be the responsibility of the HTML client to sanitize them. Doing the
-sanitization server-side makes the messages less readable in all non-HTML
-contexts.
-
-I want to be conscious about XSS and security, but I'd say that doing
-an HTML-escaping pass on these errors before writing them to the database
-is putting the processing in the wrong place. Characters such as `<` and `"`
-become much less readable when they're converted to HTML entities.
-
-And arguably this encourages bad design on an HTML client - as the client page would have
-to pipe the values into the HTML _without_ sanitizing them client-side, in order
-to have the HTML entities render back into readable characters.
-
-One good discussion of this (anti-)pattern:
-https://security.stackexchange.com/questions/42498/which-is-the-best-way-to-sanitize-user-input-in-php/42521#42521
-
-Also see https://github.com/hyperledger/firefly/issues/753
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-21 19:07:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/751" class=".btn">#751</a>
-            </td>
-            <td>
-                <b>
-                    Add first step of FireFly Transaction Manager support - separate URL for submit
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-21 18:59:19 +0000 UTC
     </div>
 </div>
 

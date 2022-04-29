@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/726" class=".btn">#726</a>
+            </td>
+            <td>
+                <b>
+                    fix: optional fields in did document
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This changes the logic for the did document to not set default values for the did document. This seemed convenient to me at first, but in the end it causes problems when you need to get the original form of the did document.
+
+This PR also removes the `DidPeer` class. I thought this would be convenient (and it was for a part), but it added way to much complexity. Especially as I tried to fix the issue with `did:peer:1` method and needing the raw json bytes (to consistently calculate the hash). I now replaced it with simple methods such as `keyToNumAlgo0DidDocument` or `didDocumentJsonToNumAlgo1Did`.
+
+@jakubkoci this affects your PR because you can't use the `DidPeer` class anymore. Please take a look at `peer-did.test.ts` on how to use it without `DidPeer`. I didn't want to add more work, but the consistent hashing is quite important for interop with other agents down the line. You should make sure that when parsing a num algo 1 (`did:peer:1`) that is received from another agent we parse the json variant of the did document (`didDocumentJsonToNumAlgo1Did`) as the transformation to the `DidDocument` class can make the resulting document structure different.
+
+BREAKING CHANGE: The `DidDocument` class doesn't set empty array values anymore for optional fields. This means you now have to check the value exists before being able to use it. This would mean that e.g. `didDocument.authentication.map()` would become `didDocument.authentication?.map()` to deal with the optionality of the field. This change was introduced to keep the class representation of a did document more in line with the actual representation of a did document.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-28 21:10:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/721" class=".btn">#721</a>
             </td>
             <td>
@@ -72,7 +104,7 @@ Signed-off-by: Dinkar Jain <62498436+dinkar-jain@users.noreply.github.com>
             </td>
             <td>
                 <b>
-                    feat/jsonld-credentials
+                    feat: jsonld-credentials
                 </b>
             </td>
         </tr>
@@ -81,7 +113,14 @@ Signed-off-by: Dinkar Jain <62498436+dinkar-jain@users.noreply.github.com>
                 
             </td>
             <td>
-                > I'm reopening this PR (this time originating from the Animo fork) because I wasn't able to push to upstream anymore all of a sudden. This PR is identical to the previous `feat/jsonld-credentials` PR (apart from a few extra commits).
+                Adds the low-level functionality that is required for the issuance and verification of JSON-LD based credentials (W3C).
+
+The key features this PR includes are:
+- The `W3cCredentialService` that can be used for signing and verifying JSON-LD based credentials and presentations.
+- The `W3cCredentialRepository` that handles storage for JSON-LD based credentials.
+- The `Ed25519Signature2018` signature suite that adds support for signing and verifying Ed255192018 signatures.
+- The `BbsBlsSignature2020` signature suite that adds support for signing and verifying BbsBls2020 signatures.
+- The `BbsBlsSignatureProof2020` signature suite that adds support for deriving, signing and verifying proofs of BbsBls2020 signed credentials.
             </td>
         </tr>
     </table>
