@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1399" class=".btn">#1399</a>
+            </td>
+            <td>
+                <b>
+                    Add support for `data_change_id`s
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">main</span>
+            </td>
+            <td>
+                This adds support for looking up batches by `data_change_id` to batch
+    tracking operations that take a batch ID as an argument.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-28 19:41:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1398" class=".btn">#1398</a>
             </td>
             <td>

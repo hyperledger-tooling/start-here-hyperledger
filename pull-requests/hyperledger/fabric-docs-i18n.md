@@ -465,29 +465,3 @@ Signed-off-by: Satomi Tsujita <satomi.t.sora@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/665" class=".btn">#665</a>
-            </td>
-            <td>
-                <b>
-                    [it_IT] Translate Introduction > Smart Contracts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Francesco Urbano <scrivimi@francescourbano.it>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-21 18:42:52 +0000 UTC
-    </div>
-</div>
-

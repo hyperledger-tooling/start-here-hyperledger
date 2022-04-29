@@ -1,13 +1,13 @@
 
-[1752](https://github.com/hyperledger/aries-cloudagent-python/pull/1752) Fixing the intro paragraph and heading in the changelog of this 0.7.4RC1
+[19](https://github.com/hyperledger-labs/yui-docs/pull/19) Bump cross-fetch from 3.1.4 to 3.1.5 in /docsrcs/yui-ibc-solidity
 
-[536](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/536) Bump async from 2.6.3 to 2.6.4 in /open-offsets-directory/react
+[726](https://github.com/hyperledger/aries-framework-javascript/pull/726) fix: optional fields in did document
 
-[535](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/535) get code up to date
+[775](https://github.com/hyperledger/firefly/pull/775) Clean up API spec for token approvals
 
-[2164](https://github.com/hyperledger/iroha/pull/2164) [feature] #2161: generate FFI functions for `data_model`
+[1028](https://github.com/hyperledger/besu-docs/pull/1028) Update helm to remove dev and prod references
 
-[390](https://github.com/hyperledger-labs/orion-server/pull/390) Dynamic cluster - simple add test
+[1399](https://github.com/hyperledger/grid/pull/1399) Add support for `data_change_id`s
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

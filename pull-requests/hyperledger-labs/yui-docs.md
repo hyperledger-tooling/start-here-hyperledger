@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-docs/pull/18" class=".btn">#18</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-docs/pull/19" class=".btn">#19</a>
             </td>
             <td>
                 <b>
-                    Bump minimist from 1.2.5 to 1.2.6 in /docsrcs/yui-ibc-solidity
+                    Bump cross-fetch from 3.1.4 to 3.1.5 in /docsrcs/yui-ibc-solidity
                 </b>
             </td>
         </tr>
@@ -27,21 +27,43 @@ permalink: /pull-requests/hyperledger-labs/yui-docs
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [minimist](https://github.com/substack/minimist) from 1.2.5 to 1.2.6.
+                Bumps [cross-fetch](https://github.com/lquixada/cross-fetch) from 3.1.4 to 3.1.5.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/lquixada/cross-fetch/releases">cross-fetch's releases</a>.</em></p>
+<blockquote>
+<h2>v3.1.5</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>chore: updated node-fetch version to 2.6.7 by <a href="https://github.com/dlafreniere"><code>@​dlafreniere</code></a> in <a href="https://github-redirect.dependabot.com/lquixada/cross-fetch/pull/124">lquixada/cross-fetch#124</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/dlafreniere"><code>@​dlafreniere</code></a> made their first contribution in <a href="https://github-redirect.dependabot.com/lquixada/cross-fetch/pull/124">lquixada/cross-fetch#124</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/lquixada/cross-fetch/compare/v3.1.4...v3.1.5">https://github.com/lquixada/cross-fetch/compare/v3.1.4...v3.1.5</a></p>
+</blockquote>
+</details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/substack/minimist/commit/7efb22a518b53b06f5b02a1038a88bd6290c2846"><code>7efb22a</code></a> 1.2.6</li>
-<li><a href="https://github.com/substack/minimist/commit/ef88b9325f77b5ee643ccfc97e2ebda577e4c4e2"><code>ef88b93</code></a> security notice for additional prototype pollution issue</li>
-<li><a href="https://github.com/substack/minimist/commit/c2b981977fa834b223b408cfb860f933c9811e4d"><code>c2b9819</code></a> isConstructorOrProto adapted from PR</li>
-<li><a href="https://github.com/substack/minimist/commit/bc8ecee43875261f4f17eb20b1243d3ed15e70eb"><code>bc8ecee</code></a> test from prototype pollution PR</li>
-<li>See full diff in <a href="https://github.com/substack/minimist/compare/1.2.5...1.2.6">compare view</a></li>
+<li><a href="https://github.com/lquixada/cross-fetch/commit/c6089dfafc1fd6253b4d204d37c0439eea631cd0"><code>c6089df</code></a> chore(release): 3.1.5</li>
+<li><a href="https://github.com/lquixada/cross-fetch/commit/a3b3a9481091ddd06b8f83784ba9c4e034dc912a"><code>a3b3a94</code></a> chore: updated node-fetch version to 2.6.7 (<a href="https://github-redirect.dependabot.com/lquixada/cross-fetch/issues/124">#124</a>)</li>
+<li><a href="https://github.com/lquixada/cross-fetch/commit/efed703489d591eee76a15d12b088538d04f668b"><code>efed703</code></a> chore: updated node-fetch version to 2.6.5</li>
+<li><a href="https://github.com/lquixada/cross-fetch/commit/694ff77b367cff4be7e16366988b394016717e88"><code>694ff77</code></a> refactor: removed ora from dependencies</li>
+<li><a href="https://github.com/lquixada/cross-fetch/commit/efc5956f740440cf4684e982fd4ceef85f2a2c67"><code>efc5956</code></a> refactor: added .vscode to .gitignore</li>
+<li><a href="https://github.com/lquixada/cross-fetch/commit/da605d5ab026e7986f6633307fbd3018f1eebb58"><code>da605d5</code></a> refactor: renamed test/fetch/ to test/fetch-api/ and test/module/ to test/mod...</li>
+<li><a href="https://github.com/lquixada/cross-fetch/commit/0f0d51de7f07f5202ee9de472d88c71911da9cb9"><code>0f0d51d</code></a> chore: updated minor and patch versions of dev dependencies</li>
+<li><a href="https://github.com/lquixada/cross-fetch/commit/c6e34ead1bb70845eccf9ec83c3144ccf4a73f2e"><code>c6e34ea</code></a> refactor: removed sinon.js</li>
+<li><a href="https://github.com/lquixada/cross-fetch/commit/f524a522ecda60db99f57798beac8e7af3349580"><code>f524a52</code></a> fix: yargs was incompatible with node 10</li>
+<li><a href="https://github.com/lquixada/cross-fetch/commit/7906fcf4c2d3fa300690baa72dc6b8fa30ac02ea"><code>7906fcf</code></a> chore: updated dev dependencies</li>
+<li>Additional commits viewable in <a href="https://github.com/lquixada/cross-fetch/compare/v3.1.4...v3.1.5">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=minimist&package-manager=npm_and_yarn&previous-version=1.2.5&new-version=1.2.6)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=cross-fetch&package-manager=npm_and_yarn&previous-version=3.1.4&new-version=3.1.5)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -77,7 +99,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-01 18:07:15 +0000 UTC
+        Created At 2022-04-29 01:05:32 +0000 UTC
     </div>
 </div>
 

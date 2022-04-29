@@ -66,29 +66,3 @@ Send Credential on the Issuer Interface for AATH agents was giving an error on t
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/49" class=".btn">#49</a>
-            </td>
-            <td>
-                <b>
-                    updated docs to include sauce connect tunnel
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-21 19:29:59 +0000 UTC
-    </div>
-</div>
-
