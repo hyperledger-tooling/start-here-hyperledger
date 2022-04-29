@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/686" class=".btn">#686</a>
+            </td>
+            <td>
+                <b>
+                    [it_IT] Translate Introduction > Privacy and Confidentiality
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-29 11:41:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/685" class=".btn">#685</a>
+            </td>
+            <td>
+                <b>
+                    [it_IT] Translate CONTRIBUTING: Making Feature/Enhancement Proposals
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-29 08:31:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/684" class=".btn">#684</a>
             </td>
             <td>
@@ -410,58 +462,6 @@ Signed-off-by: Satomi Tsujita <satomi.t.sora@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-04-22 16:20:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/667" class=".btn">#667</a>
-            </td>
-            <td>
-                <b>
-                    Update README.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Change chat to Discord
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-22 11:36:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/666" class=".btn">#666</a>
-            </td>
-            <td>
-                <b>
-                    [it_IT] Translate CONTRIBUTING > until Getting LF account
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-22 09:17:17 +0000 UTC
     </div>
 </div>
 
