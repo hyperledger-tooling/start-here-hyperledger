@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/336" class=".btn">#336</a>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/337" class=".btn">#337</a>
             </td>
             <td>
                 <b>
-                    Release 0.9.1
+                    Multi ledger
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/go-perun
                 
             </td>
             <td>
-                Changelog. Afterwards set tag on merge commit.
+                Enables multi-ledger channels.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-14 14:23:07 +0000 UTC
+        Created At 2022-04-29 13:29:18 +0000 UTC
     </div>
 </div>
 

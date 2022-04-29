@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/56" class=".btn">#56</a>
+            </td>
+            <td>
+                <b>
+                    Fix approval event transformation for ERC721
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #55
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-29 17:08:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/54" class=".btn">#54</a>
             </td>
             <td>

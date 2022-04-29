@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/ursa-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/ursa-rfcs/pull/28" class=".btn">#28</a>
+                PR <a href="https://github.com/hyperledger/ursa-rfcs/pull/29" class=".btn">#29</a>
             </td>
             <td>
                 <b>
-                    zk framework ppt
+                    Update CODEOWNERS
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/ursa-rfcs
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-05 06:48:45 +0000 UTC
+        Created At 2022-04-29 15:14:13 +0000 UTC
     </div>
 </div>
 

@@ -1,20 +1,20 @@
 ---
 layout: default
-title: ursa
+title: ursa-python
 parent: Hyperledger
 grand_parent: Pull Requests
 has_children: false
-permalink: /pull-requests/hyperledger/ursa
+permalink: /pull-requests/hyperledger/ursa-python
 ---
 
-# ursa <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/ursa){: .btn .mr-4 }</span>
+# ursa-python <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/ursa-python){: .btn .mr-4 }</span>
 
 
 <div>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/ursa/pull/205" class=".btn">#205</a>
+                PR <a href="https://github.com/hyperledger/ursa-python/pull/8" class=".btn">#8</a>
             </td>
             <td>
                 <b>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/ursa
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-29 15:15:36 +0000 UTC
+        Created At 2022-04-29 15:15:20 +0000 UTC
     </div>
 </div>
 

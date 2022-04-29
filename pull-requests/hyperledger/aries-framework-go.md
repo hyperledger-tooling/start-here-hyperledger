@@ -387,34 +387,3 @@ So this PR allows us to import `startcmd` and leverage a couple new functions:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3227" class=".btn">#3227</a>
-            </td>
-            <td>
-                <b>
-                    refactor: web-redirector with underscore
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Following this DIDcomm V2 spec udpate:
-https://github.com/decentralized-identity/didcomm-messaging/pull/363
-web-redirect is now web_redirect.
-
-Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-22 13:35:59 +0000 UTC
-    </div>
-</div>
-

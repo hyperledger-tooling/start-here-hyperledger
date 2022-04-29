@@ -59,7 +59,7 @@ Signed-off-by: ruzell22 <ruzell.vince.aquino@accenture.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">API_Server</span>
             </td>
             <td>
                 fixes: #1877
