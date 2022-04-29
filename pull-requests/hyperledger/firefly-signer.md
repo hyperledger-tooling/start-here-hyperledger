@@ -42,10 +42,10 @@ Leaving in draft for now as there are some additional parts of the initial contr
     - [x] Configuration and logging in FireFly Microservice framework
     - [ ] HTTPS JSON/RPC server
     - [ ] `eth_sendTransaction` intercept
+    - [ ]  Simple `eth_getTransactionCount` support for missing Nonce
     - [ ] Address lookup to Keystore V3 file
     - [ ] WebSockets support
     - [ ] Batch JSON/RPC support
-    - [ ] Codebase extensibility to additional enterprise signing options
             </td>
         </tr>
     </table>

@@ -89,33 +89,3 @@ permalink: /pull-requests/hyperledger/transact
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/327" class=".btn">#327</a>
-            </td>
-            <td>
-                <b>
-                    InTransaction Back-end implementations for both Postgres and Sqlite
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Implements Sql backends that wrap connection references, instead of owning a connection pool.  This requires that the SqlMerkleState for these backends can only implement the state traits v2, as they cannot be sync or send.
-
-
- 
-(Replaces PR #325)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-22 16:05:31 +0000 UTC
-    </div>
-</div>
-

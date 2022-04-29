@@ -1,13 +1,13 @@
 
-[686](https://github.com/hyperledger/fabric-docs-i18n/pull/686) [it_IT] Translate Introduction > Privacy and Confidentiality
+[184](https://github.com/hyperledger/firefly-ui/pull/184) [token-index-slide] adding token index and subject to tokens pages
 
-[572](https://github.com/hyperledger/fabric-sdk-node/pull/572) Add support for Node 14 and 16 (release-1.4)
+[306](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/306) Shore up animations
 
-[778](https://github.com/hyperledger-labs/solang/pull/778) feat(parser): event on source unit level isn't allowed
+[1400](https://github.com/hyperledger/grid/pull/1400) Clean up `BatchTrackingStore` tests
 
-[571](https://github.com/hyperledger/fabric-sdk-node/pull/571) Add support for Node 16 (release-2.2)
+[376](https://github.com/hyperledger/fabric-test/pull/376) Bump async from 2.6.3 to 2.6.4 in /tools/chaincode-integration
 
-[570](https://github.com/hyperledger/fabric-sdk-node/pull/570) Update supported Node versions (main)
+[196](https://github.com/hyperledger-labs/fabric-operations-console/pull/196) add more upgrade warnings around fabric versions
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

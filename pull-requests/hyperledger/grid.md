@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1400" class=".btn">#1400</a>
+            </td>
+            <td>
+                <b>
+                    Clean up `BatchTrackingStore` tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport-triage</span><span class="chip">main</span>
+            </td>
+            <td>
+                This cleans up the batch tracking store tests by putting repetitive,
+    shared code into functions.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-29 18:17:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1399" class=".btn">#1399</a>
             </td>
             <td>

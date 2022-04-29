@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/777" class=".btn">#777</a>
+            </td>
+            <td>
+                <b>
+                    Update Tokens Tutorials
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds two brand new tutorials for ERC-20 and ERC-721 as well as how to use Metamask with them. It also includes some updates to the ERC-1155 tutorial to include approvals.
+
+A live preview of the new docs pages can be found at: https://nguyer.github.io/firefly/tutorials/tokens
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-29 17:02:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/776" class=".btn">#776</a>
+            </td>
+            <td>
+                <b>
+                    [ui-v1.0.1] manifest
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Echelberger <eberger727@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-29 15:43:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/775" class=".btn">#775</a>
             </td>
             <td>

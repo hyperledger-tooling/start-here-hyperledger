@@ -90,29 +90,3 @@ Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/40" class=".btn">#40</a>
-            </td>
-            <td>
-                <b>
-                    Added reactive event handler
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-22 14:15:23 +0000 UTC
-    </div>
-</div>
-
