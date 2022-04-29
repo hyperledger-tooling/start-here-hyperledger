@@ -30,8 +30,22 @@ permalink: /pull-requests/hyperledger/firefly-signer
                 See the README.md in the change for information.
 
 Leaving in draft for now as there are some additional parts of the initial contribution pending:
-- More complete RLP encoding
-- Contribution of an existing JSON/RPC server framework for `eth_sendTransaction` based signing
+- [x] README detailing references / credits
+- [x] secp256k1 cryptography wrapper (ISC License)
+- [x] Keystore V3 implementation (Scrypt + pbkdf2 derived keys, with AES/128/CTR encryption)
+- [x] RLP encoding / decoding
+- [x] Ethereum Transaction Encoding/Signing
+    - [x] Original
+    - [x] EIP-155
+    - [x] EIP-1559 
+- [ ] Contribution of an existing JSON/RPC server framework for `eth_sendTransaction` based signing
+    - [x] Configuration and logging in FireFly Microservice framework
+    - [ ] HTTPS JSON/RPC server
+    - [ ] `eth_sendTransaction` intercept
+    - [ ] Address lookup to Keystore V3 file
+    - [ ] WebSockets support
+    - [ ] Batch JSON/RPC support
+    - [ ] Codebase extensibility to additional enterprise signing options
             </td>
         </tr>
     </table>

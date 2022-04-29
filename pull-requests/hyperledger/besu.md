@@ -14,6 +14,87 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3776" class=".btn">#3776</a>
+            </td>
+            <td>
+                <b>
+                    Remove Leading Zeros from TransactionPendingResult
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span>
+            </td>
+            <td>
+                ## PR description
+
+Currently, there is an issue with the way `TransactionPendingResult` gets serialized by in the JSON-RPC subsystem. Specifically, when responding to `eth_getTransactionByHash,` the `gasPrice`, `maxFeePerGas`, and `maxPriorityFeePerGas` values should be Quantities without leading zeros like so:
+
+```
+    "gas" : "0x11e63",
+    "gasPrice" : "0x77359407",
+    "maxPriorityFeePerGas" : "0x77359400",
+    "maxFeePerGas" : "0xd09dc3000",
+```
+
+This is the official behavior defined in the spec and the behavior demonstrated by Geth and Nethermind.
+
+However, in Besu, they are treated like 32-byte arrays and serialized with the leading zeros in place:
+
+```
+    "gas" : "0x10c83",
+    "gasPrice" : "0x0000000000000000000000000000000000000000000000000000000ab5d04c00",
+    "maxFeePerGas" : "0x0000000000000000000000000000000000000000000000000000000ab5d04c00",
+```
+
+This is a simple oversight caused by using `Wei.toHexString()` instead of `Wei.toShortHexString()`, which this PR addresses.
+
+@frankisawesome has offered to fix the relevant unit tests that were unable to catch this, and will attach the fixes to this PR when they are ready.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-29 05:24:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3774" class=".btn">#3774</a>
+            </td>
+            <td>
+                <b>
+                    adding codeql to besu to check for quality
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Adding codeql scans to HLF Besu
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-29 05:21:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3773" class=".btn">#3773</a>
             </td>
             <td>
@@ -690,9 +771,9 @@ Signed-off-by: Diego López León <dieguitoll@gmail.com>
                 
             </td>
             <td>
-                Fixes https://github.com/hyperledger/besu/issues/3721
+                Removed one-way aspect of MergeConfigOptions.setMergeEnabled to enable switching feature off between unit tests
 
-Unit tests this will fail due to a known issue with MergeConfigOptions.setMergeEnabled
+Fixes https://github.com/hyperledger/besu/issues/3721
             </td>
         </tr>
     </table>
