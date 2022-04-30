@@ -62,30 +62,3 @@ permalink: /pull-requests/hyperledger/transact
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/328" class=".btn">#328</a>
-            </td>
-            <td>
-                <b>
-                    Implement state traits v2 for kv::MerkleState
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change implements the "V2" state trait over the key-value MerkleState implementation.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-22 19:50:09 +0000 UTC
-    </div>
-</div>
-

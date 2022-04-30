@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1401" class=".btn">#1401</a>
+            </td>
+            <td>
+                <b>
+                    Make `TrackingBatch` `service_id` an `Option`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport-triage</span><span class="chip">main</span>
+            </td>
+            <td>
+                This makes the `service_id` field on the `TrackingBatch` struct an
+    `Option`. This is in support of work on the batch queuer.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-29 19:47:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1400" class=".btn">#1400</a>
             </td>
             <td>

@@ -38,14 +38,14 @@ Leaving in draft for now as there are some additional parts of the initial contr
     - [x] Original
     - [x] EIP-155
     - [x] EIP-1559 
-- [ ] Contribution of an existing JSON/RPC server framework for `eth_sendTransaction` based signing
+- [x] Contribution of an existing JSON/RPC server framework for `eth_sendTransaction` based signing
     - [x] Configuration and logging in FireFly Microservice framework
-    - [ ] HTTPS JSON/RPC server
-    - [ ] `eth_sendTransaction` intercept
-    - [ ]  Simple `eth_getTransactionCount` support for missing Nonce
-    - [ ] Address lookup to Keystore V3 file
-    - [ ] WebSockets support
-    - [ ] Batch JSON/RPC support
+    - [x] HTTPS JSON/RPC server
+    - [x] `eth_sendTransaction` intercept
+    - [x]  Simple `eth_getTransactionCount` support for missing Nonce
+    - [x] Address lookup to Keystore V3 file
+    - [x] Batch JSON/RPC support
+
             </td>
         </tr>
     </table>

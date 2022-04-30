@@ -38,31 +38,3 @@ behave.ini now has a `print_page_source_on_failure` option. If this is True, whe
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/51" class=".btn">#51</a>
-            </td>
-            <td>
-                <b>
-                    Fixed send cred issue in AATH interface
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-Send Credential on the Issuer Interface for AATH agents was giving an error on the default credential with the new externalized data code added. Now fixed. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-22 19:30:39 +0000 UTC
-    </div>
-</div>
-

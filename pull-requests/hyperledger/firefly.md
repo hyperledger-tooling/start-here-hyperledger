@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/778" class=".btn">#778</a>
+            </td>
+            <td>
+                <b>
+                    Fix bugs with token approvals
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport-candidate</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-29 18:46:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/777" class=".btn">#777</a>
             </td>
             <td>
@@ -471,36 +497,6 @@ closes #757
     </table>
     <div class="right-align">
         Created At 2022-04-25 19:01:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/755" class=".btn">#755</a>
-            </td>
-            <td>
-                <b>
-                    Firefly E2E Test updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Refactor tests to specify a Firefly namespace to run tests against 
-- Create namespace test suite to use without identity tests 
-- Fix string comparison in objectCheck
-- Remove TestE2EContractEvents() test 
-- Set pool name to random int instead of using len - len causes issues when completing more than 25 test runs on the same stack and will always make the poolname pool26
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-22 20:00:29 +0000 UTC
     </div>
 </div>
 
