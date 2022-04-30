@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/731" class=".btn">#731</a>
+            </td>
+            <td>
+                <b>
+                    feat: 0.2.0 connection migration script
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds migration script for the breaking changes introduced in 0.2.0 with the addition of out of band protocol and `did:peer` dids.
+
+This should be merged after #717 is merged ( I will update the target to main then ), as it depends on those Changes. Keeping it as separate PR to not make the PR  bigger.
+
+I think there's some issues with the transformation of the invitations and did documents that we should address, but that can be address separately. This PR just leans on the methods for transformation already provided in PR #717
+
+There's one FIXME left because I wasn't 100% sure on how it worked. @jakubkoci maybe you can help me answer. When creating an oob record that is reusable, is it correct that all connections will have the same oob id? If that's true I need to make some small tweaks to the script.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-30 14:30:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/726" class=".btn">#726</a>
             </td>
             <td>
@@ -65,34 +98,6 @@ BREAKING CHANGE: The `DidDocument` class doesn't set empty array values anymore 
     </table>
     <div class="right-align">
         Created At 2022-04-27 08:59:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/720" class=".btn">#720</a>
-            </td>
-            <td>
-                <b>
-                    feat: Updated initPublicDid method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR reuses the public did instead of generating a new every time the wallet is opened.
-
-Signed-off-by: Dinkar Jain <62498436+dinkar-jain@users.noreply.github.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-23 16:55:35 +0000 UTC
     </div>
 </div>
 
