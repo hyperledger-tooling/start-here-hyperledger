@@ -185,10 +185,12 @@ None
 ### Description of the Change
 
 You can find a description here: #1973 
+#### Limitations:
+1. mutable references are not supported for input arguments, except for the self argument, i.e. handle
 
 There is a possibility `iroha_data_model_derive` will have to be made into a crate accessible by `iroha_crypto` as well
 
-### TODO:
+#### TODO:
 * conversions in the FFI function body
 * tests - most of all compile tests
 

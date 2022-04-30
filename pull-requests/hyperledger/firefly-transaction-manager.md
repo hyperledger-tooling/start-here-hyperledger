@@ -44,30 +44,3 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/4" class=".btn">#4</a>
-            </td>
-            <td>
-                <b>
-                    Do not expect txHash until send, and keep history of errors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - `TransactionHash` can only be known at the `send` phase
-- It's really helpful for debug to keep a rolling list of errors from the policy manager in the `Operation`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-22 22:39:58 +0000 UTC
-    </div>
-</div>
-
