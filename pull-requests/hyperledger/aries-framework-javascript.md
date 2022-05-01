@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/732" class=".btn">#732</a>
+            </td>
+            <td>
+                <b>
+                    refactor: unify connection record state and role
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Unify connection record state and role by only levering did exchange states and roles. The did exchange states are more explicit so I thought we use that. Also added an `rfc0160State` getter to the connection record for convenience.
+
+Can be merged into #717 or merged into main after that PR is merged
+
+Migration script is addressed in #731 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-30 19:36:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/731" class=".btn">#731</a>
             </td>
             <td>

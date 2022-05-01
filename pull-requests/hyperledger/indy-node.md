@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1743" class=".btn">#1743</a>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1745" class=".btn">#1745</a>
             </td>
             <td>
                 <b>
-                    Remove Pip Imports for ubuntu20
+                    Upgrade zmq
                 </b>
             </td>
         </tr>
@@ -27,16 +27,40 @@ permalink: /pull-requests/hyperledger/indy-node
                 
             </td>
             <td>
-                Removal of Pip Imports for ubuntu20
-and 
-version bump for indy-sdk (getting rid of pip complaining about wrong indy-sdk versions, which was fixed)
-
-Signed-off-by: pSchlarb <p.schlarb@esatus.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-20 14:27:07 +0000 UTC
+        Created At 2022-04-30 19:48:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1744" class=".btn">#1744</a>
+            </td>
+            <td>
+                <b>
+                    Unpin pip
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - The project is no longer dependent on pip<10.0.0.
+
+Signed-off-by: Wade Barnes <wade@neoterictech.ca>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-04-30 19:20:20 +0000 UTC
     </div>
 </div>
 
