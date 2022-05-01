@@ -1,13 +1,13 @@
 
-[79](https://github.com/hyperledger-labs/hlf-operator/pull/79) Added image pull secret flag in the plugin
+[1745](https://github.com/hyperledger/indy-node/pull/1745) Upgrade zmq
 
-[731](https://github.com/hyperledger/aries-framework-javascript/pull/731) feat: 0.2.0 connection migration script
+[1589](https://github.com/hyperledger/indy-plenum/pull/1589) Upgrade zmq
 
-[3370](https://github.com/hyperledger/fabric/pull/3370) Remove the old ledger doc topic
+[732](https://github.com/hyperledger/aries-framework-javascript/pull/732) refactor: unify connection record state and role
 
-[782](https://github.com/hyperledger-labs/solang/pull/782) Rust 1.59.0 is now required
+[1744](https://github.com/hyperledger/indy-node/pull/1744) Unpin pip
 
-[76](https://github.com/hyperledger/firefly-sandbox/pull/76) Add more token pool details
+[779](https://github.com/hyperledger/firefly/pull/779) Update manifest for ERC-20/ERC-721 and EthConnect
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
