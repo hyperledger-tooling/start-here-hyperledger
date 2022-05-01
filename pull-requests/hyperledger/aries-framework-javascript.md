@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/733" class=".btn">#733</a>
+            </td>
+            <td>
+                <b>
+                    fix: always encode keys according to RFCs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Keys were not encoded in services according to the RFCs. This is quite complex TBH as there's three different service types with three different encodings.... 
+
+The biggest problem was the encoding of the `did-communciation` used in did documents, those should use did references local to the did, not did:key dids and not raw public keys. 
+
+This PR updates a lot of places to pass around keys so we have a consistent format to pass around keys in the framework, which made it a lot easier to work with the different formats (we never know which of the three encodings recipientKey of type string means).
+
+A lot more changes than I initially anticipated, but this is an important fix to adhere to the RFCs.
+
+Dependant on #717. We can merge that PR first or merge this PR into #717 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-01 16:15:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/732" class=".btn">#732</a>
             </td>
             <td>
