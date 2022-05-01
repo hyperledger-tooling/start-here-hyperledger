@@ -73,43 +73,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/778" class=".btn">#778</a>
-            </td>
-            <td>
-                <b>
-                    feat(parser): event on source unit level isn't allowed
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                It's not allowed to have an `EventDefinition` on source unit level according to the [doc]( https://docs.soliditylang.org/en/v0.8.13/grammar.html#a4.SolidityParser.sourceUnit) and `solc` output:
-```bash
-echo 'event A();' | solc -
-
-Error: Expected pragma, import directive or contract/interface/library/struct/enum/constant/function definition.
- --> <stdin>:1:1:
-  |
-1 | event A();
-  | ^^^^^
-```
-
-@seanyoung I'm not sure it's the best to disallow it because of backward compatibility. We can add a diagnostic message instead. If you're ok with that change, I'll fix the tests.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-29 11:15:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/775" class=".btn">#775</a>
             </td>
             <td>
