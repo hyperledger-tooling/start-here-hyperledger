@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/735" class=".btn">#735</a>
+            </td>
+            <td>
+                <b>
+                    ci: add node 18 to test matrix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds node v18 to the test matrix. Once this is merged we can look at removing support for node 12 (https://github.com/hyperledger/aries-framework-javascript/issues/734).
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-02 12:07:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/733" class=".btn">#733</a>
             </td>
             <td>
