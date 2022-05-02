@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/394" class=".btn">#394</a>
+            </td>
+            <td>
+                <b>
+                    provenance queries test: historical data api
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This commit covers all historical data apis
+1. GetAllValues()
+2. GetValueAt()
+3. GetNextValues()
+4. GetPreviousValues()
+5. GetMostRecentValueAtOrBelow()
+
+Signed-off-by: senthil <cendhu@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-02 03:01:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/393" class=".btn">#393</a>
             </td>
             <td>
