@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/91" class=".btn">#91</a>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/93" class=".btn">#93</a>
             </td>
             <td>
                 <b>
-                    feat(js): React Native
+                    feat: Complete JavaScript wrapper
                 </b>
             </td>
         </tr>
@@ -27,18 +27,22 @@ permalink: /pull-requests/hyperledger/indy-vdr
                 
             </td>
             <td>
-                Builds on top of #88 
+                - indy-vdr-shared
+  - Shared functionality that builds and executes the requests
+- indy-vdr-react-native
+  - Native functionality, call libindy_vdr, for React Native
+- indy-vdr-nodejs
+  - Native functionality, call libindy_vdr, for React Native
 
-- React Native wrapper implementation
-- Uses TurboModules for improved performance and sync behaviour
-- Has not been used in production yet, but it will be integrated and tested in AFJ
-
-@TimoGlastra Do you think it is smart if you review the TypeScript side?
+- No release pipeline yet
+- Minor documentation about the generic structure
+- Tests in NodeJS (React Native will get a test application when expo releases their newest SDK. This would allow for a very small test application)
+- Resolved @TimoGlastra comments from the previous pr
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-25 09:36:23 +0000 UTC
+        Created At 2022-05-02 12:50:50 +0000 UTC
     </div>
 </div>
 

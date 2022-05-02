@@ -53,7 +53,7 @@ Signed-off-by: André Augusto <andre.augusto@tecnico.ulisboa.pt>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">Polkadot</span>
             </td>
             <td>
                 This PR adds a long-term effort to adding preliminary support to Substrate-based chains. Most work wonderfully done by @CatarinaPedreira
@@ -297,32 +297,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2022-04-25 21:03:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1988" class=".btn">#1988</a>
-            </td>
-            <td>
-                <b>
-                    test: jestify jwt socketio endpoint authorization
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                packages/cactus-cmd-api-server/src/test/typescript/integration/jwt-socketio-endpoint-authorization.test.ts; WIP
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-25 12:45:53 +0000 UTC
     </div>
 </div>
 

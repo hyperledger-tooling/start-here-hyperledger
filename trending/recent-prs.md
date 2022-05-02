@@ -1,13 +1,13 @@
 
-[49](https://github.com/hyperledger-labs/acapy-java-client/pull/49) revocation event state enum
+[332](https://github.com/hyperledger/grid-docs/pull/332) Update BatchTrackingStore planning docs
 
-[735](https://github.com/hyperledger/aries-framework-javascript/pull/735) ci: add node 18 to test matrix
+[1747](https://github.com/hyperledger/indy-node/pull/1747) Add warning filter
 
-[1999](https://github.com/hyperledger/cactus/pull/1999) feat(odap-plugin): backup gateway implementation
+[307](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/307) Various miscellaneous fixes
 
-[1029](https://github.com/hyperledger/besu-docs/pull/1029) Update links and text description
+[781](https://github.com/hyperledger/firefly/pull/781) Update manifest.json
 
-[788](https://github.com/hyperledger-labs/solang/pull/788) feat(parser): Gwei unit
+[93](https://github.com/hyperledger/indy-vdr/pull/93) feat: Complete JavaScript wrapper
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

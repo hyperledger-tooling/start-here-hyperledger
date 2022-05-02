@@ -127,7 +127,6 @@ This should be merged after #717 is merged ( I will update the target to main th
 I think there's some issues with the transformation of the invitations and did documents that we should address, but that can be address separately. This PR just leans on the methods for transformation already provided in PR #717
 
 There's one FIXME left because I wasn't 100% sure on how it worked. @jakubkoci maybe you can help me answer. When creating an oob record that is reusable, is it correct that all connections will have the same oob id? If that's true I need to make some small tweaks to the script.
-
             </td>
         </tr>
     </table>
