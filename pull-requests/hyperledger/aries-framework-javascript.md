@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">OOB - DidExchange</span>
             </td>
             <td>
                 Keys were not encoded in services according to the RFCs. This is quite complex TBH as there's three different service types with three different encodings.... 
@@ -60,7 +60,7 @@ Dependant on #717. We can merge that PR first or merge this PR into #717
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">OOB - DidExchange</span>
             </td>
             <td>
                 Unify connection record state and role by only levering did exchange states and roles. The did exchange states are more explicit so I thought we use that. Also added an `rfc0160State` getter to the connection record for convenience.
@@ -90,7 +90,7 @@ Migration script is addressed in #731
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">OOB - DidExchange</span>
             </td>
             <td>
                 Adds migration script for the breaking changes introduced in 0.2.0 with the addition of out of band protocol and `did:peer` dids.
@@ -123,7 +123,7 @@ There's one FIXME left because I wasn't 100% sure on how it worked. @jakubkoci m
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">OOB - DidExchange</span>
             </td>
             <td>
                 This changes the logic for the did document to not set default values for the did document. This seemed convenient to me at first, but in the end it causes problems when you need to get the original form of the did document.
