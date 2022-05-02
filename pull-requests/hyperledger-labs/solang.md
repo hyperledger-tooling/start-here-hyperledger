@@ -62,21 +62,18 @@ Currently, it breaks tests with such unique errors:
 "bigint error occurred: invalid digit found in string"
 "expected number after decimal point"
 "unexpected end of file, expecting \"(\", \"[\", \"abstract\", \"address\", \"bool\", \"byte\", \"bytes\", \"case\", \"constructor\", \"contract\", \"default\", \"enum\", \"error\", \"event\", \"fallback\", \"false\", \"function\", \"import\", \"interface\", \"leave\", \"library\", \"mapping\", \"modifier\", \"payable\", \"pragma\", \"receive\", \"string\", \"struct\", \"switch\", \"this\", \"true\", \"type\", Bytes, DocComment, Int, Uint, address, hexnumber, hexstring, identifier, number, rational, string"
-"unrecognised token ')', expected \"++\", \"--\", \".\", \"[\", \"days\", \"ether\", \"finney\", \"hours\", \"minutes\", \"seconds\", \"szabo\", \"weeks\", \"wei\""
+"unrecognised token ')', expected \"++\", \"--\", \".\", \"[\", \"days\", \"ether\", \"finney\", \"gwei\", \"hours\", \"minutes\", \"seconds\", \"szabo\", \"weeks\", \"wei\""
 "unrecognised token ')', expected \"address\", \"bool\", \"byte\", \"return\", \"revert\", identifier"
 "unrecognised token '.', expected \"(\""
 "unrecognised token '.', expected \"(\", \",\", \";\", \"case\", \"constant\", \"default\", \"error\", \"external\", \"internal\", \"leave\", \"override\", \"payable\", \"private\", \"public\", \"pure\", \"return\", \"returns\", \"revert\", \"switch\", \"view\", \"virtual\", \"{\", identifier"
 "unrecognised token '.', expected \"for\""
 "unrecognised token ';', expected \"(\""
 "unrecognised token 'data', expected \"else\""
-"unrecognised token 'gwei', expected \")\", \",\", \"]\""
-"unrecognised token 'gwei', expected \";\""
-"unrecognised token 'immutable', expected \"!=\", \"%\", \"%=\", \"&\", \"&&\", \"&=\", \")\", \"*\", \"**\", \"*=\", \"+\", \"++\", \"+=\", \",\", \"-\", \"--\", \"-=\", \".\", \"/\", \"/=\", \":\", \";\", \"<\", \"<<\", \"<<=\", \"<=\", \"=\", \"==\", \"=>\", \">\", \">=\", \">>\", \">>=\", \"?\", \"[\", \"]\", \"^\", \"^=\", \"calldata\", \"case\", \"constant\", \"days\", \"default\", \"error\", \"ether\", \"external\", \"finney\", \"hours\", \"indexed\", \"internal\", \"leave\", \"memory\", \"minutes\", \"payable\", \"private\", \"public\", \"pure\", \"revert\", \"seconds\", \"storage\", \"switch\", \"szabo\", \"view\", \"weeks\", \"wei\", \"{\", \"|\", \"|=\", \"||\", \"}\", identifier"
+"unrecognised token 'immutable', expected \"!=\", \"%\", \"%=\", \"&\", \"&&\", \"&=\", \")\", \"*\", \"**\", \"*=\", \"+\", \"++\", \"+=\", \",\", \"-\", \"--\", \"-=\", \".\", \"/\", \"/=\", \":\", \";\", \"<\", \"<<\", \"<<=\", \"<=\", \"=\", \"==\", \"=>\", \">\", \">=\", \">>\", \">>=\", \"?\", \"[\", \"]\", \"^\", \"^=\", \"calldata\", \"case\", \"constant\", \"days\", \"default\", \"error\", \"ether\", \"external\", \"finney\", \"gwei\", \"hours\", \"indexed\", \"internal\", \"leave\", \"memory\", \"minutes\", \"payable\", \"private\", \"public\", \"pure\", \"revert\", \"seconds\", \"storage\", \"switch\", \"szabo\", \"view\", \"weeks\", \"wei\", \"{\", \"|\", \"|=\", \"||\", \"}\", identifier"
 "unrecognised token 'return', expected \"else\""
 "unrecognised token 'using', expected \"(\", \";\", \"[\", \"abstract\", \"address\", \"bool\", \"byte\", \"bytes\", \"case\", \"contract\", \"default\", \"enum\", \"error\", \"event\", \"false\", \"function\", \"import\", \"interface\", \"leave\", \"library\", \"mapping\", \"payable\", \"pragma\", \"string\", \"struct\", \"switch\", \"this\", \"true\", \"type\", Bytes, DocComment, Int, Uint, address, hexnumber, hexstring, identifier, number, rational, string"
 "unrecognised token '{', expected \"!\", \"(\", \")\", \"+\", \"++\", \"-\", \"--\", \"[\", \"address\", \"bool\", \"byte\", \"bytes\", \"case\", \"default\", \"delete\", \"error\", \"false\", \"function\", \"leave\", \"mapping\", \"new\", \"payable\", \"revert\", \"string\", \"switch\", \"this\", \"true\", \"type\", \"~\", Bytes, Int, Uint, address, hexnumber, hexstring, identifier, number, rational, string"
 "unrecognised token '{', expected \"case\", \"default\", \"error\", \"leave\", \"revert\", \"switch\", identifier"
-
 ```
 
 @seanyoung I guess we can fix these errors at first, and only then merge this PR, so we won't have broken tests in the main branch.
@@ -136,7 +133,7 @@ Signed-off-by: Sean Young <sean@mess.org>
                 
             </td>
             <td>
-                Fixes https://github.com/hyperledger-labs/solang/issues/780.
+                See https://github.com/hyperledger-labs/solang/issues/780.
 
 Signed-off-by: Sean Young <sean@mess.org>
             </td>
@@ -459,37 +456,6 @@ Fixes #762
     </table>
     <div class="right-align">
         Created At 2022-04-26 11:09:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/763" class=".btn">#763</a>
-            </td>
-            <td>
-                <b>
-                    Remove Expression::FunctionArg from ast
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This expression type does not belong in the ast. It is used in the
-implicit accessor functions of public storage variables. Rather than
-using a codegen-like expression, create a proper symbol table entries
-for the arguments and retrieve them.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-25 16:24:30 +0000 UTC
     </div>
 </div>
 

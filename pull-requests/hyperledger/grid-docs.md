@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/331" class=".btn">#331</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/332" class=".btn">#332</a>
             </td>
             <td>
                 <b>
-                    Add research doc for one-round parallel queuer
+                    Update BatchTrackingStore planning docs
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger/grid-docs
                 
             </td>
             <td>
-                Adds a doc to community/planning that examines the feasibility and practicality of one-round parallel queuing strategies.
+                This updates the BatchTrackingStore planning docs to bring them
+up-to-date with some minor changes that happened while implementing.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-12 19:20:07 +0000 UTC
+        Created At 2022-05-02 17:05:51 +0000 UTC
     </div>
 </div>
 

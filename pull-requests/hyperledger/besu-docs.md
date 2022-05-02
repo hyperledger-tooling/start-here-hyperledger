@@ -73,17 +73,16 @@ For tool changes:
 
 Make sure that:
 
-- [ ] You've fixed any issues raised by the tests.
-- [ ] You've [previewed your changes on Read the Docs](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation)
+- [x] You've fixed any issues raised by the tests.
+- [x] You've [previewed your changes on Read the Docs](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation)
   and added a [preview link](#preview).
 
 ## Preview
 
-<!-- Add the link to preview your changes on Read the Docs.
-
-The link format is "https://hyperledger-besu--{your PR number}.org.readthedocs.build/en/{your PR number}/",
-where {your PR number} is replaced by the number of this PR.
--->
+- https://hyperledger-besu--1029.org.readthedocs.build/en/1029/Tutorials/Kubernetes/Deploy-Charts/
+- https://hyperledger-besu--1029.org.readthedocs.build/en/1029/Tutorials/Kubernetes/Maintenance/
+- https://hyperledger-besu--1029.org.readthedocs.build/en/1029/Tutorials/Kubernetes/Overview/
+- https://hyperledger-besu--1029.org.readthedocs.build/en/1029/Tutorials/Kubernetes/Production/
 
             </td>
         </tr>

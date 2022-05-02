@@ -482,38 +482,3 @@ if it can be link to previous doc change commit, that is better.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3354" class=".btn">#3354</a>
-            </td>
-            <td>
-                <b>
-                    Update scripts to latest fabric and fabric-ca release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: D <d_kelsey@uk.ibm.com>
-
-#### Type of change
-
-- Bug fix
-
-
-#### Description
-Update the bootstrap scripts to the latest available fabric/fabric-ca
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-25 15:54:06 +0000 UTC
-    </div>
-</div>
-

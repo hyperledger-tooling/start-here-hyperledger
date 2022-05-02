@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/781" class=".btn">#781</a>
+            </td>
+            <td>
+                <b>
+                    Update manifest.json
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-02 13:07:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/780" class=".btn">#780</a>
             </td>
             <td>
@@ -33,32 +59,6 @@ permalink: /pull-requests/hyperledger/firefly
     </table>
     <div class="right-align">
         Created At 2022-05-01 18:14:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/779" class=".btn">#779</a>
-            </td>
-            <td>
-                <b>
-                    Update manifest for ERC-20/ERC-721 and EthConnect
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Peter Broadhurst <peter.broadhurst@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-30 19:08:04 +0000 UTC
     </div>
 </div>
 
