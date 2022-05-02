@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/788" class=".btn">#788</a>
+            </td>
+            <td>
+                <b>
+                    feat(parser): Gwei unit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Support for `gwei` unit was added in Solidity 0.6.11: https://github.com/ethereum/solidity/blob/develop/Changelog.md#0611-2020-07-07
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-02 08:37:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/787" class=".btn">#787</a>
             </td>
             <td>
@@ -27,7 +53,33 @@ permalink: /pull-requests/hyperledger-labs/solang
                 
             </td>
             <td>
-                Signed-off-by: Alexey Shekhirin <a.shekhirin@gmail.com>
+                Official Solidity repo contains [semantic tests](https://github.com/ethereum/solidity/tree/develop/test/libsolidity/semanticTests) that we can use to test the support for all languages features i.e. whether Solang can parse any valid Solidity code.
+
+Currently, it breaks tests with such unique errors:
+```bash
+➜  solang-parser git:(solidity-semantic-tests) cargo test test_solidity_semantic_tests 2>/dev/null | grep -E '^\s+Diagnostic' | awk -F'message: ' '{ print $2 }' | awk -F', notes' '{ print $1 }' | sort -u
+
+"bigint error occurred: invalid digit found in string"
+"expected number after decimal point"
+"unexpected end of file, expecting \"(\", \"[\", \"abstract\", \"address\", \"bool\", \"byte\", \"bytes\", \"case\", \"constructor\", \"contract\", \"default\", \"enum\", \"error\", \"event\", \"fallback\", \"false\", \"function\", \"import\", \"interface\", \"leave\", \"library\", \"mapping\", \"modifier\", \"payable\", \"pragma\", \"receive\", \"string\", \"struct\", \"switch\", \"this\", \"true\", \"type\", Bytes, DocComment, Int, Uint, address, hexnumber, hexstring, identifier, number, rational, string"
+"unrecognised token ')', expected \"++\", \"--\", \".\", \"[\", \"days\", \"ether\", \"finney\", \"hours\", \"minutes\", \"seconds\", \"szabo\", \"weeks\", \"wei\""
+"unrecognised token ')', expected \"address\", \"bool\", \"byte\", \"return\", \"revert\", identifier"
+"unrecognised token '.', expected \"(\""
+"unrecognised token '.', expected \"(\", \",\", \";\", \"case\", \"constant\", \"default\", \"error\", \"external\", \"internal\", \"leave\", \"override\", \"payable\", \"private\", \"public\", \"pure\", \"return\", \"returns\", \"revert\", \"switch\", \"view\", \"virtual\", \"{\", identifier"
+"unrecognised token '.', expected \"for\""
+"unrecognised token ';', expected \"(\""
+"unrecognised token 'data', expected \"else\""
+"unrecognised token 'gwei', expected \")\", \",\", \"]\""
+"unrecognised token 'gwei', expected \";\""
+"unrecognised token 'immutable', expected \"!=\", \"%\", \"%=\", \"&\", \"&&\", \"&=\", \")\", \"*\", \"**\", \"*=\", \"+\", \"++\", \"+=\", \",\", \"-\", \"--\", \"-=\", \".\", \"/\", \"/=\", \":\", \";\", \"<\", \"<<\", \"<<=\", \"<=\", \"=\", \"==\", \"=>\", \">\", \">=\", \">>\", \">>=\", \"?\", \"[\", \"]\", \"^\", \"^=\", \"calldata\", \"case\", \"constant\", \"days\", \"default\", \"error\", \"ether\", \"external\", \"finney\", \"hours\", \"indexed\", \"internal\", \"leave\", \"memory\", \"minutes\", \"payable\", \"private\", \"public\", \"pure\", \"revert\", \"seconds\", \"storage\", \"switch\", \"szabo\", \"view\", \"weeks\", \"wei\", \"{\", \"|\", \"|=\", \"||\", \"}\", identifier"
+"unrecognised token 'return', expected \"else\""
+"unrecognised token 'using', expected \"(\", \";\", \"[\", \"abstract\", \"address\", \"bool\", \"byte\", \"bytes\", \"case\", \"contract\", \"default\", \"enum\", \"error\", \"event\", \"false\", \"function\", \"import\", \"interface\", \"leave\", \"library\", \"mapping\", \"payable\", \"pragma\", \"string\", \"struct\", \"switch\", \"this\", \"true\", \"type\", Bytes, DocComment, Int, Uint, address, hexnumber, hexstring, identifier, number, rational, string"
+"unrecognised token '{', expected \"!\", \"(\", \")\", \"+\", \"++\", \"-\", \"--\", \"[\", \"address\", \"bool\", \"byte\", \"bytes\", \"case\", \"default\", \"delete\", \"error\", \"false\", \"function\", \"leave\", \"mapping\", \"new\", \"payable\", \"revert\", \"string\", \"switch\", \"this\", \"true\", \"type\", \"~\", Bytes, Int, Uint, address, hexnumber, hexstring, identifier, number, rational, string"
+"unrecognised token '{', expected \"case\", \"default\", \"error\", \"leave\", \"revert\", \"switch\", identifier"
+
+```
+
+@seanyoung I guess we can fix these errors at first, and only then merge this PR, so we won't have broken tests in the main branch.
             </td>
         </tr>
     </table>
