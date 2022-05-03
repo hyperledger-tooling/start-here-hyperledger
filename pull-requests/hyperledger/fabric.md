@@ -379,33 +379,3 @@ Finally, you can contact us on https://mergify.com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3359" class=".btn">#3359</a>
-            </td>
-            <td>
-                <b>
-                    Documentation: Update network (Key Concepts) page
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Waleed Mortaja <waleedmortaja@protonmail.com>
-
-#### Type of change
-
-- Documentation update
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-26 16:27:32 +0000 UTC
-    </div>
-</div>
-

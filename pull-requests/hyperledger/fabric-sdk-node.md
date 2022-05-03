@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/573" class=".btn">#573</a>
+            </td>
+            <td>
+                <b>
+                    Update package versions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also:
+
+- Use latest @grpc/grpc-js.
+- Move service aggregation fabric.proto file up one level within fabric-protos to ease updating of protos.
+
+Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-03 13:00:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/572" class=".btn">#572</a>
             </td>
             <td>
@@ -192,37 +223,6 @@ Finally, you can contact us on https://mergify.com
     </table>
     <div class="right-align">
         Created At 2022-04-27 10:23:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/565" class=".btn">#565</a>
-            </td>
-            <td>
-                <b>
-                    Define endorseTimeout value in fabric-sdk-node v1.4(Issue #552)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In fabric-sdk-node v1.4, as well as in v2.2, define "endorseTimeout" value and use it instead of commitTimeout.
-
-Co-Authored-by: Shinsuke Hasegawa <shinsuke.hasegawa.fc@hitachi.com>
-Signed-off-by: takayuki-nagai <takayuki.nagai.nu@hitachi.com>
-
-Closes #552 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-26 15:16:43 +0000 UTC
     </div>
 </div>
 

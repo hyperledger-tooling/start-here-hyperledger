@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/786" class=".btn">#786</a>
+            </td>
+            <td>
+                <b>
+                    update init logging branding
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-03 16:02:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/785" class=".btn">#785</a>
+            </td>
+            <td>
+                <b>
+                    update cobra short and long descriptions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-03 13:28:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/784" class=".btn">#784</a>
             </td>
             <td>
@@ -82,7 +134,7 @@ Fix url in `CONTRIBUTING.md`
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">backport-candidate</span>
             </td>
             <td>
                 <nil>
@@ -134,7 +186,7 @@ Fix url in `CONTRIBUTING.md`
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">backport-candidate</span>
             </td>
             <td>
                 <nil>
@@ -214,7 +266,7 @@ A live preview of the new docs pages can be found at: https://nguyer.github.io/f
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">backport-candidate</span>
             </td>
             <td>
                 Signed-off-by: David Echelberger <eberger727@gmail.com>
@@ -240,7 +292,7 @@ A live preview of the new docs pages can be found at: https://nguyer.github.io/f
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">backport-candidate</span>
             </td>
             <td>
                 <nil>
@@ -301,60 +353,6 @@ A live preview of the new docs pages can be found at: https://nguyer.github.io/f
     </table>
     <div class="right-align">
         Created At 2022-04-26 19:12:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/771" class=".btn">#771</a>
-            </td>
-            <td>
-                <b>
-                    [ui-v1.0.0] manifest
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: David Echelberger <eberger727@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-26 15:35:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/770" class=".btn">#770</a>
-            </td>
-            <td>
-                <b>
-                    Omit "connector" from token transfer/approval inputs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This should always be inferred from the token pool.
-
-Fixes #768
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-26 14:39:44 +0000 UTC
     </div>
 </div>
 
