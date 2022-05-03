@@ -409,34 +409,3 @@ Finally, you can contact us on https://mergify.com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3357" class=".btn">#3357</a>
-            </td>
-            <td>
-                <b>
-                    Node 16 and v1.4 libraries
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Clarify notes on the v1.4 Chaincode with Node16
-
-Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-26 08:40:57 +0000 UTC
-    </div>
-</div>
-

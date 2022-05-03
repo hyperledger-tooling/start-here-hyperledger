@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/309" class=".btn">#309</a>
+            </td>
+            <td>
+                <b>
+                    Fix casing of theme in App.tsx
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sergi Garreta Serra <garretaserra@gmail.com>
+
+# Summary of Changes
+
+The code won't compile unless this casing change is made
+
+
+# Pull Request Checklist
+
+Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
+
+- [X] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [X] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [X] Updated documentation as needed for changed code and new or modified features;
+- [X] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-03 10:20:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/308" class=".btn">#308</a>
             </td>
             <td>
