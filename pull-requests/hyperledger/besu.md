@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3780" class=".btn">#3780</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] code cleanup - Lists.emptyList
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - changed some Longs to long where they were statically intialized
+- changed random.nextLong() to random.nextInt(Integer.MAX_VALUE) to avoid the edge case of long minimum value which gives a negative value when passed into abs()
+- replace deprecated Lists.emptyList() with Collections.emptyList()
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-03 11:58:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3778" class=".btn">#3778</a>
             </td>
             <td>
@@ -528,55 +565,6 @@ Execution failed for task ':besu:Besu.main()'.
     </table>
     <div class="right-align">
         Created At 2022-04-27 01:17:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3761" class=".btn">#3761</a>
-            </td>
-            <td>
-                <b>
-                    Fix heal stall issue
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-This PR is a candidate fix for the healing that was stuck.
-The problem only came when we had a pivot block change. In some cases we were creating new tasks with the old pivot block which could block the node in an endless cycle of request in error on a bad pivot block.
-
-Tested on goerli (ok)
-Mainnet test in progress
-
-
-## Fixed Issue(s)
-fixes https://github.com/hyperledger/besu/issues/3742
-
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-26 08:53:37 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/688" class=".btn">#688</a>
+            </td>
+            <td>
+                <b>
+                    [it_IT] Translate Introduction > Privacy and Confidentiality (continued)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-03 08:22:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/687" class=".btn">#687</a>
             </td>
             <td>
@@ -218,58 +244,6 @@ Signed-off-by: e-maekawa <maekawaemi555@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-04-26 18:19:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/679" class=".btn">#679</a>
-            </td>
-            <td>
-                <b>
-                    [it_IT] Translate Introduction > A New Approach (continued)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-26 09:19:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/678" class=".btn">#678</a>
-            </td>
-            <td>
-                <b>
-                    Until Project Governance > Maintainers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I especially have a doubt on how to translate "maintainers": best guess is "responsabili".
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-26 08:24:41 +0000 UTC
     </div>
 </div>
 
