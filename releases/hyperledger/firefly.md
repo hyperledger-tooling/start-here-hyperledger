@@ -26,7 +26,36 @@ permalink: /releases/hyperledger/firefly
                 </span>
             </td>
             <td>
-                ## What's Changed
+                ## Summary
+
+Version 1.0.0 🎉
+
+This release includes lots of major hardening, performance improvements, and bug fixes, as well as more complete documentation and OpenAPI specifications.
+
+* Massive performance improvements across the board
+* Up-to-date documentation and fully annotated OpenAPI specification
+* Overhaul of UI
+* Cleaner logs and error messages
+* Lots of bug fixes and miscellaneous enhancements
+
+You can view the release notes for each release candidate for more details: [rc.1](https://github.com/hyperledger/firefly/releases/tag/v1.0.0-rc.1) [rc.2](https://github.com/hyperledger/firefly/releases/tag/v1.0.0-rc.2) [rc.3](https://github.com/hyperledger/firefly/releases/tag/v1.0.0-rc.3) [rc.4](https://github.com/hyperledger/firefly/releases/tag/v1.0.0-rc.4) [rc.5](https://github.com/hyperledger/firefly/releases/tag/v1.0.0-rc.5) [rc.6](https://github.com/hyperledger/firefly/releases/tag/v1.0.0-rc.6)
+
+## Breaking Changes and Migrations
+
+* **firefly-dataexchange-https** must be upgraded to 1.0.0 alongside FireFly core, as the ack event [has been renamed](https://github.com/hyperledger/firefly/pull/656) from "commit" to "ack". Upgrading dependencies alongside FireFly is always recommended, but running mismatched versions of FireFly and dataexchange in this case will cause event processing to stall completely.
+* Some of the APIs for creating contract listeners have changed - see #685
+* Some field names under TokenPool, TokenTransfer, and TokenApproval have been adjusted - see #709
+
+## Updated Dependencies
+
+* firefly-ethconnect [v3.1.8](https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.1.8)
+* firefly-fabconnect [v0.9.14](https://github.com/hyperledger/firefly-fabconnect/releases/tag/v0.9.14)
+* firefly-dataexchange-https [v1.0.0](https://github.com/hyperledger/firefly-dataexchange-https/releases/tag/v1.0.0)
+* firefly-tokens-erc1155 [v1.0.0](https://github.com/hyperledger/firefly-tokens-erc1155/releases/tag/v1.0.0)
+* firefly-tokens-erc20-erc721 [v1.0.0](https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v1.0.0)
+* firefly-ui [v1.0.0](https://github.com/hyperledger/firefly-ui/releases/tag/v1.0.0)
+
+## What's Changed
 * Cache blockchain events for event enrichment by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/638
 * Add index on message_id for token transfers by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/639
 * Update txType in private message schema by @gabriel-indik in https://github.com/hyperledger/firefly/pull/637
@@ -154,7 +183,22 @@ permalink: /releases/hyperledger/firefly
                 </span>
             </td>
             <td>
-                ## What's Changed
+                ## Summary
+
+* Better formatting of errors reported by plugins
+* JSON formatter for logs
+* Misc bug fixes and cleanup
+* Documentation updates
+
+## Updated Dependencies
+* firefly-ethconnect [v3.1.8](https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.1.8)
+* firefly-fabconnect [v0.9.14](https://github.com/hyperledger/firefly-fabconnect/releases/tag/v0.9.14)
+* firefly-dataexchange-https [v1.0.0](https://github.com/hyperledger/firefly-dataexchange-https/releases/tag/v1.0.0)
+* firefly-tokens-erc1155 [v1.0.0](https://github.com/hyperledger/firefly-tokens-erc1155/releases/tag/v1.0.0)
+* firefly-tokens-erc20-erc721 [v1.0.0](https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v1.0.0)
+* firefly-ui [v1.0.0](https://github.com/hyperledger/firefly-ui/releases/tag/v1.0.0)
+
+## What's Changed
 * Resolve pool activation operations more cleanly by @awrichar in https://github.com/hyperledger/firefly/pull/746
 * Remove server-side HTML sanitization of error messages by @awrichar in https://github.com/hyperledger/firefly/pull/752
 * Rename docs pages for better hierarchy by @nguyer in https://github.com/hyperledger/firefly/pull/750
