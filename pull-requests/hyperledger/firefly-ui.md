@@ -252,34 +252,3 @@ permalink: /pull-requests/hyperledger/firefly-ui
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/168" class=".btn">#168</a>
-            </td>
-            <td>
-                <b>
-                    [decimals] decimal support for token balance amounts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds support for decimals for token amounts in balances and transfers tables
-
-https://user-images.githubusercontent.com/17093033/165197947-605d29a7-a3f1-40fe-b307-b76caa48741c.mov
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-26 00:57:40 +0000 UTC
-    </div>
-</div>
-

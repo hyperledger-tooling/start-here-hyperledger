@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/736" class=".btn">#736</a>
+            </td>
+            <td>
+                <b>
+                    fix: mediation record checks for pickup v2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds checks in the mediation recipient service for mediation record state and role. Also splits up the sending of the status request message to be more in line with separation of service/module in the rest of the framework. 
+
+Finally, this updates the processing of the message to be using the event emitter. We also use this approach for pickup v1 and it was causing issues in the oob branch due to circular dependencies.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-02 22:03:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/735" class=".btn">#735</a>
             </td>
             <td>

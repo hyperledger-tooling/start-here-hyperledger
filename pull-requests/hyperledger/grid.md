@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1403" class=".btn">#1403</a>
+            </td>
+            <td>
+                <b>
+                    Finish implementing boxed batch tracking store
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport-triage</span><span class="chip">main</span>
+            </td>
+            <td>
+                This "finishes" implementation of the batch tracking store by
+    implementing the methods for the implementation of the boxed batch
+    tracking store. These were previously left as unimplemented for ease of
+    updating the operations as they were being implemented.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-02 18:41:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1402" class=".btn">#1402</a>
+            </td>
+            <td>
+                <b>
+                    Update batch tracking store doc comments
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport-triage</span><span class="chip">main</span>
+            </td>
+            <td>
+                This updates the doc comments for the batch tracking store methods to be
+    up to date with the current implementation.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-02 18:33:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1401" class=".btn">#1401</a>
             </td>
             <td>

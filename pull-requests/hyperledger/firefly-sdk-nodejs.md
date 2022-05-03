@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/29" class=".btn">#29</a>
+            </td>
+            <td>
+                <b>
+                    Update package.json version (for testing releases)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-02 17:19:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/28" class=".btn">#28</a>
+            </td>
+            <td>
+                <b>
+                    Add eberger727 as a code owner
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                @eberger727 is listed as a maintainer already, but somehow missed getting added to CODEOWNERS so he can review PRs.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-02 14:32:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/27" class=".btn">#27</a>
             </td>
             <td>

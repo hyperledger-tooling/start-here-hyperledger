@@ -74,16 +74,18 @@ Test Amazon ACCP implementation
                 Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
 
 Where int was being compared with long. Mostly int being used to iterate over values which could be long.
-Not sure about this one - FlexiblePrivacyGroupContract.java
+Not sure about these 2 since they are dealing with uint
+- FlexiblePrivacyGroupContract
+- FlexiblePrivacyGroupContract
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>

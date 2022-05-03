@@ -272,31 +272,3 @@ Signed-off-by: aldousalvarez <aldousss.alvarez@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1989" class=".btn">#1989</a>
-            </td>
-            <td>
-                <b>
-                    ci: add yaml workflow file for semantic-pull-request action
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1987
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-25 21:03:19 +0000 UTC
-    </div>
-</div>
-
