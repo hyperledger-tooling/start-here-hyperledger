@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/sawtooth-core
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2424" class=".btn">#2424</a>
+            </td>
+            <td>
+                <b>
+                    Correct minor typo in docs/source/app_developers_guide/intro_xo_transaction_family.rst
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Joseph Livesey <52332499+suchapalaver@users.noreply.github.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-02 20:04:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2423" class=".btn">#2423</a>
             </td>
             <td>

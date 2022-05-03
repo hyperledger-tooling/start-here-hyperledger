@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/729" class=".btn">#729</a>
+            </td>
+            <td>
+                <b>
+                    Run the Kube Test Network on Rancher / k3s
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR enables users of the Kube Test Network to set up a Fabric network based on k3s / [Rancher Desktop](https://rancherdesktop.io)
+
+- Fixes #728 
+- Upgrades Nginx ingress to 1.1.2 
+- Aligns both KIND and Rancher runtimes to use the local-path provisioner
+
+Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-02 20:05:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/727" class=".btn">#727</a>
             </td>
             <td>

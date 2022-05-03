@@ -117,33 +117,3 @@ Note currently only used for `SendTransaction` API calls when set.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/51" class=".btn">#51</a>
-            </td>
-            <td>
-                <b>
-                    Compile contracts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds a compiled TokenFactory contract to the docker image, as well as the source (and dependencies) that were used to compile it. This accomplishes two things:
-- Allows the FireFly CLI to deploy the compiled token factory
-- Allows the FireFly CLI to point the end user at the source code for the contract that it deployed
-
-This also changes to use a multi-stage Docker build which significantly cuts down on the final image size.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-25 20:58:38 +0000 UTC
-    </div>
-</div>
-

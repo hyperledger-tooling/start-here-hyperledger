@@ -273,31 +273,3 @@ Signed-off-by: e-maekawa <maekawaemi555@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/677" class=".btn">#677</a>
-            </td>
-            <td>
-                <b>
-                    [ja_JP] Translate "configtx.rst" into Japanese
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">jaJP-docs-ongoing</span>
-            </td>
-            <td>
-                This patch translates "configtx.rst" into Japanese.
-
-Resolves #582
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-26 00:01:57 +0000 UTC
-    </div>
-</div>
-

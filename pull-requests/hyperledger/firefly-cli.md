@@ -66,29 +66,3 @@ permalink: /pull-requests/hyperledger/firefly-cli
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/180" class=".btn">#180</a>
-            </td>
-            <td>
-                <b>
-                    Add corsdomain clause to support local development
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                @nguyer Suggested I might make a project contribution to allow remix to be better supported. Looking forward to feedback.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-25 02:00:52 +0000 UTC
-    </div>
-</div>
-

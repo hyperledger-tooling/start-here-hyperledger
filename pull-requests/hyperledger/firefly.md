@@ -14,6 +14,90 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/784" class=".btn">#784</a>
+            </td>
+            <td>
+                <b>
+                    Adde custom onchain logic docs for Fabric plus refactoring
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-02 22:06:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/783" class=".btn">#783</a>
+            </td>
+            <td>
+                <b>
+                    Fix link to contributing documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Problem
+
+404 when clicking on link to contributing docs.
+
+# Action
+
+Fix url in `CONTRIBUTING.md`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-02 20:30:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/782" class=".btn">#782</a>
+            </td>
+            <td>
+                <b>
+                    Default for token approvals should be "approved: true"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-02 18:44:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/781" class=".btn">#781</a>
             </td>
             <td>
@@ -271,284 +355,6 @@ Fixes #768
     </table>
     <div class="right-align">
         Created At 2022-04-26 14:39:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/769" class=".btn">#769</a>
-            </td>
-            <td>
-                <b>
-                    Add prefix for signer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Peter Broadhurst <peter.broadhurst@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-26 01:26:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/767" class=".btn">#767</a>
-            </td>
-            <td>
-                <b>
-                    Update architecture diagram to include OpenAPI generator and fix link
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I noticed a dead link when you click the image before, because it was pointing at a branch.
-
-Also tweaked the diagram to make the OpenAPI generator for custom smart contracts more visible.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-25 21:10:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/766" class=".btn">#766</a>
-            </td>
-            <td>
-                <b>
-                    "decimals" is not a valid input
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is currently a read-only field.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-25 20:16:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/765" class=".btn">#765</a>
-            </td>
-            <td>
-                <b>
-                    add additional event enrichment
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                 - TokenPoolOpFailed
- - BlockchainInvokeOpSucceeded
- - BlockchainInvokeOpFailed
-
-closes #736 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-25 20:13:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/764" class=".btn">#764</a>
-            </td>
-            <td>
-                <b>
-                    Add change events to operations, by adding namespace to ResolveOperation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Supersedes #739
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-25 19:58:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/763" class=".btn">#763</a>
-            </td>
-            <td>
-                <b>
-                    Version Command
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #132, resurrects #586. Uses new preferred way of versioning with module fields in the `cmd` package rather than an `internal` package, see https://github.com/hyperledger/firefly-cli/pull/164 for original implementation of this approach.
-
-Example "default" usage:
-```
-make build
-./firefly version
-{
-  "Version": "(devel)",
-  "Date": "2022-04-25T19:52:28Z",
-  "License": "Apache-2.0"
-}
-
-./firefly version -o yaml
-Date: "2022-04-25T19:52:28Z"
-License: Apache-2.0
-Version: (devel)
-
-./firefly version --short
-(devel)
-
-make docker
-docker run -it --entrypoint /bin/sh hyperledger/firefly
-/firefly # firefly version
-{
-  "Version": "(devel)",
-  "Date": "2022-04-25T19:45:02Z",
-  "License": "Apache-2.0"
-}
-/firefly # firefly version -o yaml
-Date: "2022-04-25T19:45:02Z"
-License: Apache-2.0
-Version: (devel)
-
-/firefly # firefly version --short
-(devel)
-
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-25 19:49:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/762" class=".btn">#762</a>
-            </td>
-            <td>
-                <b>
-                    Fill in blockchain TX ID for contract listener events
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #761
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-25 19:35:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/760" class=".btn">#760</a>
-            </td>
-            <td>
-                <b>
-                    remove rocketchat from docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ✂️ 
-
-closes #757 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-25 19:09:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/759" class=".btn">#759</a>
-            </td>
-            <td>
-                <b>
-                    Token approvals should return empty array instead of nil
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #758
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-25 19:01:04 +0000 UTC
     </div>
 </div>
 
