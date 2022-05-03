@@ -76,7 +76,7 @@ Test Amazon ACCP implementation
 Where int was being compared with long. Mostly int being used to iterate over values which could be long.
 Not sure about these 2 since they are dealing with uint
 - FlexiblePrivacyGroupContract
-- FlexiblePrivacyGroupContract
+- FlexiblePrivacyGroupController
 
 ## Documentation
 

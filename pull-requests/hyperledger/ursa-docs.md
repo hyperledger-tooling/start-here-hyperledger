@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/ursa-docs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/ursa-docs/pull/19" class=".btn">#19</a>
-            </td>
-            <td>
-                <b>
-                    add proof for proving n is a product of two safe primes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: CamP <caeparra@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-26 01:39:46 +0000 UTC
-    </div>
-</div>
-
