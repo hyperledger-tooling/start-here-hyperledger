@@ -200,29 +200,3 @@ permalink: /pull-requests/hyperledger/firefly-ui
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/171" class=".btn">#171</a>
-            </td>
-            <td>
-                <b>
-                    [v1.0.0]
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: David Echelberger <eberger727@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-26 15:20:47 +0000 UTC
-    </div>
-</div>
-

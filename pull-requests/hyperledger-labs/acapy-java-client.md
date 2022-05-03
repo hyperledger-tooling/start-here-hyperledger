@@ -38,31 +38,3 @@ Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/46" class=".btn">#46</a>
-            </td>
-            <td>
-                <b>
-                    okhttp logging interceptor 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Alternative to https://github.com/hyperledger-labs/acapy-java-client/pull/43
-
-Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-26 13:51:17 +0000 UTC
-    </div>
-</div>
-

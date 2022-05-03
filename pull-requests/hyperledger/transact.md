@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/330" class=".btn">#330</a>
+                PR <a href="https://github.com/hyperledger/transact/pull/331" class=".btn">#331</a>
             </td>
             <td>
                 <b>
-                    Backport 0-4: InTransaction Back-end implementations for both Postgres and Sqlite
+                    Backport 0-4: Implement state traits v2 for kv::MerkleState
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/transact
                 
             </td>
             <td>
-                Backport of #327 
+                Backport of #328 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-26 18:13:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/329" class=".btn">#329</a>
-            </td>
-            <td>
-                <b>
-                    Backport 0-4: Experimental State Traits v2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Backport of PR #326 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-26 15:30:16 +0000 UTC
+        Created At 2022-05-03 16:28:56 +0000 UTC
     </div>
 </div>
 

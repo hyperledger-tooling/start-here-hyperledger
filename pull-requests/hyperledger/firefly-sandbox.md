@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/78" class=".btn">#78</a>
+            </td>
+            <td>
+                <b>
+                    Decimals bug
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Removing spinners when they are not needed
+- Decimals are defaulted to 0
+- Run button does not stay in loading state if a token pool has no data field
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-03 15:53:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/77" class=".btn">#77</a>
             </td>
             <td>
@@ -146,32 +174,6 @@ Will require a new SDK release with https://github.com/hyperledger/firefly-sdk-n
     </table>
     <div class="right-align">
         Created At 2022-04-26 21:12:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/72" class=".btn">#72</a>
-            </td>
-            <td>
-                <b>
-                    make datatype optional for json message
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Anastasia Lalamentik <anastasia.lalamentik@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-26 15:55:40 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/790" class=".btn">#790</a>
+            </td>
+            <td>
+                <b>
+                    Remove ambiguity from reaching definitions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The reaching definition implementation is ambiguous. In statements like `int a, int b = func.call()`, both `a` and `b` have the same definition, because our definition only tracks the block number and the instruction number, leading to errors in optimizations as the one seen in issue #728. 
+
+The eliminate such an ambiguity, I introduced a third dimension in our `Def` structure: the assignment number. This way, in function calls and AbiDecode statements, different variables have different definitions.
+
+This PR fixes issue #728 and improve the reaching definitions implementation from file `reaching_definitions.rs`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-03 12:48:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/788" class=".btn">#788</a>
             </td>
             <td>
@@ -354,60 +384,6 @@ Will just give the diagnostic:
     </table>
     <div class="right-align">
         Created At 2022-04-27 09:01:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/766" class=".btn">#766</a>
-            </td>
-            <td>
-                <b>
-                    Refactor diagnostics
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR refactors the diagnostics vectors inside `Namespace`. Now, we have a data structure to handle diagnostics. It helps us keep track of the quantity of warnings and errors we have, without needing to traverse the entire vector. We should only manage the `Vec<Diagnostic>` using the `struct Diagnostics` because we keep track of the existence of errors in the vector. This way, all attributes of the aforementioned struct are private.
-
-In addition, we only emit warnings for unused variables and events if there is no error in the contract. This avoids false positives.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-26 17:23:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/765" class=".btn">#765</a>
-            </td>
-            <td>
-                <b>
-                    Yul suffixes for call data arrays should consider the last dimension
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is a bug I found while working on the the code generation for Yul. The suffixes for call data dynamic arrays should consider the array's last dimension only.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-26 12:47:18 +0000 UTC
     </div>
 </div>
 

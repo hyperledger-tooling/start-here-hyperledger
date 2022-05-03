@@ -28,6 +28,11 @@ permalink: /pull-requests/hyperledger-labs/go-perun
             </td>
             <td>
                 Enables multi-ledger channels.
+
+The following changes are applied:
+- Implement special Asset type that contains `LedgerID`.
+- Implement multi funder (adjudicator) that contain a set of funders (adjudicators) which are called depending on which assets a channel has.
+- Revise watcher: The watcher ensures that in case of a multi-ledger channel, all watched ledgers are kept synchronized.
             </td>
         </tr>
     </table>

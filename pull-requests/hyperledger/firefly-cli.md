@@ -40,29 +40,3 @@ permalink: /pull-requests/hyperledger/firefly-cli
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/182" class=".btn">#182</a>
-            </td>
-            <td>
-                <b>
-                    Make ERC-20 / ERC-721 default
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR makes the ERC-20 / ERC-721 token connector the default. It also deploys the newly packaged TokenFactory contract (in FireFly v1.0.0-rc.6) to streamline the process for users being able to experiment with tokens with external wallets like Metamask.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-26 15:17:12 +0000 UTC
-    </div>
-</div>
-
