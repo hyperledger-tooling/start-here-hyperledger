@@ -151,29 +151,3 @@ Will require a new SDK release with https://github.com/hyperledger/firefly-sdk-n
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/73" class=".btn">#73</a>
-            </td>
-            <td>
-                <b>
-                    [info-fields] helper fields for forms
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds helper text to form fields
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-26 21:12:52 +0000 UTC
-    </div>
-</div>
-

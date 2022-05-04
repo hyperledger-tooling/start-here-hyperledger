@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/789" class=".btn">#789</a>
+            </td>
+            <td>
+                <b>
+                    Remove non-definition items from DefinitionHandler
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves #614
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-03 18:49:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/786" class=".btn">#786</a>
             </td>
             <td>
@@ -327,32 +353,6 @@ A live preview of the new docs pages can be found at: https://nguyer.github.io/f
     </table>
     <div class="right-align">
         Created At 2022-04-27 17:17:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/772" class=".btn">#772</a>
-            </td>
-            <td>
-                <b>
-                    Update manifest.json for v1.0.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-26 19:12:46 +0000 UTC
     </div>
 </div>
 
