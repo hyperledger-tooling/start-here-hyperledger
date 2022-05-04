@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/217" class=".btn">#217</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/218" class=".btn">#218</a>
             </td>
             <td>
                 <b>
-                    Iroha-216: Java 8 support
+                    Iroha-210: refactoring
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                <nil>
+                - CompletableFuture has been replaced (except Java intended classes)
+- ktor version has been updated
+- async client classes for usage in Java
+- findDomainKeyValueByIdAndKey impl
+- some refactoring
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-27 08:10:03 +0000 UTC
+        Created At 2022-05-04 07:26:41 +0000 UTC
     </div>
 </div>
 
