@@ -171,32 +171,3 @@ permalink: /pull-requests/hyperledger/firefly-ui
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/176" class=".btn">#176</a>
-            </td>
-            <td>
-                <b>
-                    Minor cosmetics
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Pool details page spacing
-- Filter update
-- Scrollbar theme
-- Responsiveness
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-27 03:19:17 +0000 UTC
-    </div>
-</div>
-
