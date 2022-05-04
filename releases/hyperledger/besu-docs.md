@@ -15,41 +15,36 @@ permalink: /releases/hyperledger/besu-docs
         <tr>
             <td colspan="2">
                 <b>
-                    22.1.3
+                    22.4.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    22.1.3
+                    22.4.0
                 </span>
             </td>
             <td>
                 ### Breaking Changes
-- Remove the experimental flag for bonsai tries CLI options `--data-storage-format` and `--bonsai-maximum-back-layers-to-load` [#3578](https://github.com/hyperledger/besu/pull/3578)
+- Version 22.4.x will be the last series to support Java 11. Version 22.7.0 will require Java 17 to build and run.
+- In the Besu EVM Library all references to SHA3 have been renamed to the more accurate name Keccak256, including class names and comment. [#3749](https://github.com/hyperledger/besu/pull/3749)
 
-### Deprecations
-- `--tx-pool-hashes-max-size` is now deprecated and has no more effect and it will be removed in a future release.
-
-### Additions and Improvements
-- Tune transaction synchronization parameter to adapt to mainnet traffic [#3610](https://github.com/hyperledger/besu/pull/3610)
-- Improve eth/66 support [#3616](https://github.com/hyperledger/besu/pull/3616)
-- Avoid reprocessing remote transactions already seen [#3626](https://github.com/hyperledger/besu/pull/3626)
-- Upgraded jackson-databind dependency version [#3647](https://github.com/hyperledger/besu/pull/3647)
+### Bug Fixes
+- Fix nullpointer on snapsync [#3773](https://github.com/hyperledger/besu/pull/3773)
+- Introduce RocksDbSegmentIdentifier to avoid changing the storage plugin [#3755](https://github.com/hyperledger/besu/pull/3755)
 
 ## Download Links
- - https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/22.1.3/besu-22.1.3.zip /  SHA256 9dafb80f2ec9ce8d732fd9e9894ca2455dd02418971c89cd6ccee94c53354d5d
-
- - https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/22.1.3/besu-22.1.3.tar.gz / SHA256 f9f8d37353aa4b5d12e87c08dd86328c1cffc591c6fc9e076c0f85a1d4663dfe
+- https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/22.4.0/besu-22.4.0.zip / SHA256 d89e102a1941e70be31c176a6dd65cd5f3d69c4c
+- https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/22.4.0/besu-22.4.0.tar.gz / SHA256 868e38749dd40debe028624f8267f1fce7587010
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/besu-docs/releases/tag/22.1.3" class=".btn">
+    <a href="https://github.com/hyperledger/besu-docs/releases/tag/22.4.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-03-30 17:17:35 +0000 UTC
+        Created At 2022-05-02 13:44:06 +0000 UTC
     </span>
 </div>
 
