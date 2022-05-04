@@ -197,29 +197,3 @@ BREAKING CHANGE: The `DidDocument` class doesn't set empty array values anymore 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/721" class=".btn">#721</a>
-            </td>
-            <td>
-                <b>
-                    refactor: replace message type constant with string literal
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jakub Koci <jakub.koci@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-27 08:59:31 +0000 UTC
-    </div>
-</div>
-
