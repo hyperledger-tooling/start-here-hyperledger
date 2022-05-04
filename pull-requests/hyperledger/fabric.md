@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3380" class=".btn">#3380</a>
+            </td>
+            <td>
+                <b>
+                    Bump CouchDB to 3.2.2 (#3369)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update CouchDB to 3.2.2.
+Update CouchDB doc refererences to 'stable' so that the links
+don't point to outdated CouchDB versions.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-04 17:07:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3379" class=".btn">#3379</a>
             </td>
             <td>

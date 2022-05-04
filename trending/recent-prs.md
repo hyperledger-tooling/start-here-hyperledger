@@ -1,13 +1,13 @@
 
-[272](https://github.com/hyperledger-labs/fabric-smart-client/pull/272) Add a note on disabling the logger or modifying its configuration
+[311](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/311) Fix snapshots missed in previous PR.
 
-[749](https://github.com/hyperledger-labs/business-partner-agent/pull/749) return partnerId in invitations post response
+[82](https://github.com/hyperledger/firefly-sandbox/pull/82) formatting
 
-[41](https://github.com/hyperledger/iroha-2-docs/pull/41) Experimental style improvement
+[3380](https://github.com/hyperledger/fabric/pull/3380) Bump CouchDB to 3.2.2 (#3369)
 
-[331](https://github.com/hyperledger/fabric-chaincode-node/pull/331) Allow jsdoc push to fail
+[81](https://github.com/hyperledger/firefly-sandbox/pull/81) use wss
 
-[3379](https://github.com/hyperledger/fabric/pull/3379) Properly handle concurrent building of chaincode packages
+[50](https://github.com/hyperledger-labs/acapy-java-client/pull/50) dif types in v2 presentation exchange record
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

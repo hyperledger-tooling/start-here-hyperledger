@@ -14,6 +14,91 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/794" class=".btn">#794</a>
+            </td>
+            <td>
+                <b>
+                    infrastructure we need for spl-token and calls to rust contracts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                We need to be able to:
+ - Specify the AccountMetas for calls
+ - Encode the arguments using a struct
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-04 14:58:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/793" class=".btn">#793</a>
+            </td>
+            <td>
+                <b>
+                    Add support for functions without parameters
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                While working on code generation for Yul statements, I found that the parser did not support yul functions declared without parameters. This PR updates the parser to support this.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-04 13:35:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/792" class=".btn">#792</a>
+            </td>
+            <td>
+                <b>
+                    Dead storage incorrect merge of storage load at the same slot
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Loading the length of an array and the array itself should not be
+merged.
+
+Fixes #776.
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-04 13:16:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/790" class=".btn">#790</a>
             </td>
             <td>
