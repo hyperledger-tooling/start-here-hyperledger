@@ -14,6 +14,113 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/82" class=".btn">#82</a>
+            </td>
+            <td>
+                <b>
+                    formatting
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: jebonfig <joe.bonfiglio@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-04 17:34:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/81" class=".btn">#81</a>
+            </td>
+            <td>
+                <b>
+                    use wss
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: jebonfig <joe.bonfiglio@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-04 16:53:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/80" class=".btn">#80</a>
+            </td>
+            <td>
+                <b>
+                    Fabric support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Supports fabric templating
+- If firefly has no token plugins, the tokens tab is disabled
+- Header bar now has a dropdown with buttons
+- Links to fabric docs
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-04 14:54:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/79" class=".btn">#79</a>
+            </td>
+            <td>
+                <b>
+                    Tokens with message fixes and tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-04 12:59:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/78" class=".btn">#78</a>
             </td>
             <td>

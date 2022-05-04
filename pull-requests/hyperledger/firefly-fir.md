@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/firefly-fir
             </td>
             <td>
                 <b>
-                    Namespaced Plugins
+                    Namespace Isolation
                 </b>
             </td>
         </tr>

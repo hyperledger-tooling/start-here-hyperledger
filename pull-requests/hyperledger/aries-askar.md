@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/43" class=".btn">#43</a>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/44" class=".btn">#44</a>
             </td>
             <td>
                 <b>
-                    Reliability improvements
+                    fix: fix transactions to rollback on failure
                 </b>
             </td>
         </tr>
@@ -27,18 +27,12 @@ permalink: /pull-requests/hyperledger/aries-askar
                 
             </td>
             <td>
-                - Fix intermittent Not Found error when repeatedly updating existing rows (Postgres / Sqlite)
-- Fix occasional memory access errors when using the Python wrapper
-- Add unit tests for contention between transactions
-- Add connection options for Sqlite backend (locking mode, journal mode, synchronized flag)
-- Update to sqlx 0.5.12
-- Update version to 0.2.5
-
+                When we have a transaction fail we should roll back the transaction.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-15 00:11:29 +0000 UTC
+        Created At 2022-05-04 16:33:35 +0000 UTC
     </div>
 </div>
 

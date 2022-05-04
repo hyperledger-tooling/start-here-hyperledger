@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/790" class=".btn">#790</a>
+            </td>
+            <td>
+                <b>
+                    Split definition methods out of Broadcast Manager into new Definition Sender
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Not totally crazy about the names `defsender.Sender` and `defhandler.DefinitionHandler`, but they need to be separate packages and this is where I landed...
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-04 15:37:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/789" class=".btn">#789</a>
             </td>
             <td>
@@ -327,32 +353,6 @@ A live preview of the new docs pages can be found at: https://nguyer.github.io/f
     </table>
     <div class="right-align">
         Created At 2022-04-28 20:56:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/774" class=".btn">#774</a>
-            </td>
-            <td>
-                <b>
-                    Add E2E test for contract APIs and fix postgres migration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR fixes a PostgreSQL migration issue and adds an additional E2E test to cover that scenario
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-27 17:17:38 +0000 UTC
     </div>
 </div>
 
