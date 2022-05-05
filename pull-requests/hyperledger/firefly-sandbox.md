@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/87" class=".btn">#87</a>
+            </td>
+            <td>
+                <b>
+                    include credentials on POST and set fetch URL to strip any basic auth
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: jebonfig <joe.bonfiglio@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-05 16:50:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/86" class=".btn">#86</a>
+            </td>
+            <td>
+                <b>
+                    [interface-fix] contract interface dropdown bug
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Echelberger <eberger727@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-05 14:22:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/85" class=".btn">#85</a>
             </td>
             <td>
@@ -306,33 +358,6 @@ Will require a new SDK release with https://github.com/hyperledger/firefly-sdk-n
     </table>
     <div class="right-align">
         Created At 2022-04-29 19:27:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/74" class=".btn">#74</a>
-            </td>
-            <td>
-                <b>
-                    Decimals
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ![image](https://user-images.githubusercontent.com/17093033/165796809-562d1016-3b8d-4f2f-9c4f-b058809ad6fc.png)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-28 16:10:05 +0000 UTC
     </div>
 </div>
 

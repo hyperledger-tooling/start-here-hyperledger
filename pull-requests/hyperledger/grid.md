@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1415" class=".btn">#1415</a>
+            </td>
+            <td>
+                <b>
+                    Add `batch_submission` mod and `url_resolver`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport-triage</span><span class="chip">main</span>
+            </td>
+            <td>
+                Adds the url_resolver submitter subcomponent and the batch_submission
+module structure that contains it.
+
+Dependencies: #1413
+Resolves: #1414
+
+Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-05 16:19:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1413" class=".btn">#1413</a>
             </td>
             <td>

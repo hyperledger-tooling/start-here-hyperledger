@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/52" class=".btn">#52</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/54" class=".btn">#54</a>
             </td>
             <td>
                 <b>
-                    added printing page source on failure option
+                    Test calibration to bc wallet build 164
                 </b>
             </td>
         </tr>
@@ -29,12 +29,12 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
             <td>
                 Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
 
-behave.ini now has a `print_page_source_on_failure` option. If this is True, when the scenario fails, it will print a dump of the screen elements in the app. Good for debugging locator changes.
+This PR will contain updates to the full suite of bc wallet tests to support changed in build 164
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-23 20:15:17 +0000 UTC
+        Created At 2022-05-05 15:38:15 +0000 UTC
     </div>
 </div>
 
