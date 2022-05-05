@@ -122,29 +122,3 @@ Signed-off-by: Colton Wolkins (Indicio work address) <colton@indicio.tech>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1749" class=".btn">#1749</a>
-            </td>
-            <td>
-                <b>
-                    Added async with for mediator record delete
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-28 09:20:10 +0000 UTC
-    </div>
-</div>
-
