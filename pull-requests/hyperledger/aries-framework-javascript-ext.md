@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/114" class=".btn">#114</a>
+            </td>
+            <td>
+                <b>
+                    chore: add revocation notification event listening for react-hooks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Made it so Revocation Notification events will also trigger the CredentialProvider listener.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-04 22:33:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/113" class=".btn">#113</a>
             </td>
             <td>

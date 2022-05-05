@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3788" class=".btn">#3788</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] fixed some errors from CodeQL
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * dereferenced variable is always null in log message
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-04 23:04:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3784" class=".btn">#3784</a>
             </td>
             <td>
@@ -461,32 +496,6 @@ Fixes a bug that caused Besu to not restart healing properly when changing pivot
     </table>
     <div class="right-align">
         Created At 2022-04-28 08:57:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3768" class=".btn">#3768</a>
-            </td>
-            <td>
-                <b>
-                    Set mainnet default gasLimit to 30M. Fixed #3767
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update default gasLimit in preparation for The Merge™. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-27 18:47:11 +0000 UTC
     </div>
 </div>
 
