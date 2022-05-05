@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2178" class=".btn">#2178</a>
+            </td>
+            <td>
+                <b>
+                    [documentation] #2177: Clean up gitchangelog output
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Documentation</span>
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+
+### Description of the Change
+
+Addressed Aleksandr's input about changelog
+
+- Added the script to remove the names at the end of log messages after the log is built
+- Updated gitchangelog config to automatically remove signed-off part of the commit and the PR number.
+- Updated gitchangelog to ignore commits about codeowners
+- Cleaned up the logs (partially), mainly addressing the issue with nested lists of changes.
+
+[gitchangelog output](https://github.com/outoftardis/iroha/blob/doc-changelog/CHANGELOG.rst)
+
+### Issue
+
+Fixes #2177 
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-05 02:53:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2174" class=".btn">#2174</a>
             </td>
             <td>

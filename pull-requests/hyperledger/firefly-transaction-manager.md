@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/5" class=".btn">#5</a>
+                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/6" class=".btn">#6</a>
             </td>
             <td>
                 <b>
-                    Block based receipt detection in confirmation mgr, and optional change listener
+                    Move ffcapi to firefly-common, and build config docs
                 </b>
             </td>
         </tr>
@@ -27,20 +27,21 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
                 
             </td>
             <td>
-                In PR chain with #4 
+                - Moves over all dependences to `firefly-common` that are now there
+- Deletes `ffcapi` now that is has moved
+- Uses new `core` package for object definitions still in FireFly Core
+- Moves the config prefix to `FF21` to give an extra digit (1000 rather than 100 total error msgs)
+- Adds `config.md` auto-generation and link from `README.md`
 
-- Adds `transactionHashes` to block info on `ffcapi`
-- Moves receipt detection to confirmation manager
-  - Checks once explicitly when TX added to confirmation manager
-  - Then by detecting inclusion in block hashes
-- Makes the change listener optional
-  - Not needed when FFTM is the only component updating these operations in FF Core (common case)
-- Updates the config for clarity for above
+Depends on (go.mod pulls these in directly):
+- https://github.com/hyperledger/firefly-common/pull/4
+- https://github.com/hyperledger/firefly/pull/791
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-26 17:47:41 +0000 UTC
+        Created At 2022-05-05 01:33:19 +0000 UTC
     </div>
 </div>
 

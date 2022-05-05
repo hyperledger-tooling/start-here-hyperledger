@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/46" class=".btn">#46</a>
+                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/48" class=".btn">#48</a>
             </td>
             <td>
                 <b>
-                    Latest versions for Firefly 1.0.0
+                    Add necessary config for allowing extra volumes
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Cari Albritton <carialbritton1@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-27 13:03:15 +0000 UTC
+        Created At 2022-05-05 04:22:56 +0000 UTC
     </div>
 </div>
 
