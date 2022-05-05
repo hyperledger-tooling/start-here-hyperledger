@@ -344,33 +344,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/771" class=".btn">#771</a>
-            </td>
-            <td>
-                <b>
-                    Improve compiler diagnostics
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Ensure that `now > startTime` gives error about block.timestamp
-Improve error for old `function()` syntax
-Ensure bad expression errors are surfaced for overloaded function calls
-
-See #744
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-28 08:19:45 +0000 UTC
-    </div>
-</div>
-
