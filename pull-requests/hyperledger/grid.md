@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1413" class=".btn">#1413</a>
+            </td>
+            <td>
+                <b>
+                    Add scope_id and specific batch structs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport-triage</span><span class="chip">main</span>
+            </td>
+            <td>
+                Adds the `ScopeId` trait and the `GlobalScopeId` and `ServiceScopeId` structs. Also adds batch structs specific to the scope IDs and code from Splinter 0.6 for `FullyQualifiedServiceId`.
+
+These will be required in future sub-components.
+
+Resolves: #1406 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-04 21:50:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1411" class=".btn">#1411</a>
             </td>
             <td>
@@ -170,37 +200,6 @@ permalink: /pull-requests/hyperledger/grid
     </table>
     <div class="right-align">
         Created At 2022-04-28 19:41:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1398" class=".btn">#1398</a>
-            </td>
-            <td>
-                <b>
-                    Add `clean_stale_records` operation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">main</span>
-            </td>
-            <td>
-                This adds an operation to clean batch tracking records that were created
-    before a specified time. This works by removing batch records with a
-    `created_at` value less than the specified timestamp. As the other
-    batch tracking tables all use foreign keys derived from the batch_id and
-    that use cascading deletes, this will remove the batch record and any
-    associated "child" records.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-27 20:44:28 +0000 UTC
     </div>
 </div>
 

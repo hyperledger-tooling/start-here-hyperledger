@@ -116,31 +116,3 @@ permalink: /pull-requests/hyperledger/firefly-ui
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/179" class=".btn">#179</a>
-            </td>
-            <td>
-                <b>
-                    [group-hash] group hashes to batch and message tables
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                https://user-images.githubusercontent.com/17093033/165621951-78a7856c-ff6c-4d47-babc-aa3b4195916c.mov
-
->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-27 20:05:29 +0000 UTC
-    </div>
-</div>
-

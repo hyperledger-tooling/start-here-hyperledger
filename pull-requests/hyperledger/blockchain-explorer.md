@@ -52,30 +52,3 @@ Signed-off-by: kaushikkumarbora <kaushikkumarbora@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/blockchain-explorer/pull/296" class=".btn">#296</a>
-            </td>
-            <td>
-                <b>
-                    Update CODEOWNERS
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-27 21:47:11 +0000 UTC
-    </div>
-</div>
-
