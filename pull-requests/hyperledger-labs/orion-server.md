@@ -102,29 +102,3 @@ Signed-off-by: Yoav Tock <tock@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/390" class=".btn">#390</a>
-            </td>
-            <td>
-                <b>
-                    Dynamic cluster - simple add test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: tohar-ayash <toharayash1@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-28 16:11:30 +0000 UTC
-    </div>
-</div>
-

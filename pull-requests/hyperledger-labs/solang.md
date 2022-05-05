@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/796" class=".btn">#796</a>
+            </td>
+            <td>
+                <b>
+                    Add keccak hash for addresses
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The constant folding pass calculates the Keccak256 hash for number literals, however it was ignoring such calculation for literals of type address. This PR fixes this and solves issue #777.
+
+When this PR is merged, we can also close issue #780 because the contract I posted there builds correctly after this fix.
+
+PS: Contracts for ewasm does not fail after this fix, however the ewasm target still doesn't work, because the emit stage is no implement.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-05 14:04:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/794" class=".btn">#794</a>
             </td>
             <td>
@@ -282,65 +312,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2022-04-28 19:06:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/774" class=".btn">#774</a>
-            </td>
-            <td>
-                <b>
-                    solc accepts an 256 bit type as a size argument to new
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                We should do the same, but warn about this because it is not efficient
-code.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-28 14:06:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/772" class=".btn">#772</a>
-            </td>
-            <td>
-                <b>
-                    Fix associativity of power
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1 ** 2 ** 3 should be parsed like 1 ** (2 ** 3), not (1 ** 2) ** 3.
-
-See https://github.com/foundry-rs/foundry/issues/781#issuecomment-1112109532
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-28 13:19:02 +0000 UTC
     </div>
 </div>
 

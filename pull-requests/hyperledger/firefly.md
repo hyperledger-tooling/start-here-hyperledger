@@ -27,17 +27,27 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                This is a proof of concept - only implemented for one route, and probably not as clean as it could be. Essentially the proposal is to tweak our route generation so that namespaced routes will actually generate _two_ versions of the route:
+                Proposal to tweak our route generation so that namespaced routes will actually generate _two_ versions of the route:
 * a base route like `/data` that implies use of the default namespace
 * a namespaced route like `/namespaces/{ns}/data` that allows you to specify the namespace
 
----
-
-<img width="1724" alt="Swagger_UI" src="https://user-images.githubusercontent.com/1993829/166816835-b944d674-d46e-469c-a560-3f45361ffc8f.png">
+To reduce clutter on the Swagger UI page, routes will also now be grouped into 3 category buckets.
 
 ---
 
-<img width="1633" alt="Swagger_UI" src="https://user-images.githubusercontent.com/1993829/166816904-2742a7fb-c7b8-442f-bd0b-cdba6eb76946.png">
+<img width="1852" alt="Swagger_UI" src="https://user-images.githubusercontent.com/1993829/166966999-5204cbf8-92d9-4762-9038-fd5ea21f4562.png">
+
+---
+
+<img width="1849" alt="Swagger_UI" src="https://user-images.githubusercontent.com/1993829/166967145-f1331a45-b5a9-44c6-8bb4-81ff0775fd21.png">
+
+---
+
+<img width="1847" alt="Swagger_UI" src="https://user-images.githubusercontent.com/1993829/166967227-0d996e36-4474-48f0-9ee9-5dec105b9f17.png">
+
+---
+
+<img width="1851" alt="Swagger_UI" src="https://user-images.githubusercontent.com/1993829/166967307-12ad9f93-1fcf-4f42-a5ba-435fbf0c0e75.png">
             </td>
         </tr>
     </table>
