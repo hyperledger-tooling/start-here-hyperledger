@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2180" class=".btn">#2180</a>
+            </td>
+            <td>
+                <b>
+                    [documentation] #2113: Document features in Cargo.toml files
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Documentation</span>
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+
+### Description of the Change
+
+Provide descriptions of features in `Cargo.toml` files
+
+### Issue
+
+Closes #2113 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-06 06:10:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2178" class=".btn">#2178</a>
             </td>
             <td>
