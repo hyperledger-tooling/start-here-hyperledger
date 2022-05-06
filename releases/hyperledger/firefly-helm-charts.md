@@ -15,31 +15,33 @@ permalink: /releases/hyperledger/firefly-helm-charts
         <tr>
             <td colspan="2">
                 <b>
-                    v0.4.1
+                    v0.5.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.4.1
+                    v0.5.0
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Extra Containers / PVCs Support by @hfuss in https://github.com/hyperledger/firefly-helm-charts/pull/34
-* Bump FF core version and erc1155 version by @drewmarshburn in https://github.com/hyperledger/firefly-helm-charts/pull/36
+* Latest versions for v0.5.0 using FireFly v1.0.0 by @hfuss in https://github.com/hyperledger/firefly-helm-charts/pull/38
+* Latest versions for ERC1155 and ERC20-721 by @calbritt in https://github.com/hyperledger/firefly-helm-charts/pull/42
+* Latest versions for Firefly 1.0.0 by @calbritt in https://github.com/hyperledger/firefly-helm-charts/pull/46
+* Add necessary config for allowing extra volumes by @calbritt in https://github.com/hyperledger/firefly-helm-charts/pull/48
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-helm-charts/compare/v0.4.0...v0.4.1
+**Full Changelog**: https://github.com/hyperledger/firefly-helm-charts/compare/v0.4.1...v0.5.0
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-helm-charts/releases/tag/v0.4.1" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-helm-charts/releases/tag/v0.5.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-04-08 15:12:11 +0000 UTC
+        Created At 2022-05-05 18:57:25 +0000 UTC
     </span>
 </div>
 

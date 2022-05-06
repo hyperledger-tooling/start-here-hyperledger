@@ -26,7 +26,11 @@ permalink: /releases/hyperledger/firefly-tokens-erc20-erc721
                 </span>
             </td>
             <td>
-                ## What's Changed
+                ## Breaking Changes
+
+New versions of this connector will assume "no data" support if you create a token pool against an older version of the sample smart contracts - see #57 
+
+## What's Changed
 * Use ERC-165 to query "with data" support from contract by @awrichar in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/57
 * Fix approval event transformation for ERC721 by @awrichar in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/56
 * Add FFTM_URL config option by @peterbroadhurst in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/54
