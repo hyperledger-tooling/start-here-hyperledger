@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/806" class=".btn">#806</a>
+            </td>
+            <td>
+                <b>
+                    allow base contracts and libraries to be specified via import object
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A contract can be imported via an import object. For example, say you have
+a file called a.sol:
+
+	contract A {}
+	library L {}
+
+Now, another file can import this via an import object:
+
+	import 'a.sol' as IMP;
+
+	contract C is IMP.A {
+		using IMP.L for *;
+		constructor() IMP.A() {}
+	}
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-06 10:22:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/805" class=".btn">#805</a>
             </td>
             <td>
@@ -266,15 +307,14 @@ Currently, it breaks tests with such unique errors:
 "expected number after decimal point"
 "unexpected end of file, expecting \"(\", \"[\", \"abstract\", \"address\", \"bool\", \"byte\", \"bytes\", \"case\", \"constructor\", \"contract\", \"default\", \"enum\", \"error\", \"event\", \"fallback\", \"false\", \"function\", \"import\", \"interface\", \"leave\", \"library\", \"mapping\", \"modifier\", \"payable\", \"pragma\", \"receive\", \"string\", \"struct\", \"switch\", \"this\", \"true\", \"type\", Bytes, DocComment, Int, Uint, address, hexnumber, hexstring, identifier, number, rational, string"
 "unrecognised token ')', expected \"++\", \"--\", \".\", \"[\", \"days\", \"ether\", \"finney\", \"gwei\", \"hours\", \"minutes\", \"seconds\", \"szabo\", \"weeks\", \"wei\""
-"unrecognised token ')', expected \"address\", \"bool\", \"byte\", \"return\", \"revert\", identifier"
 "unrecognised token '.', expected \"(\""
 "unrecognised token '.', expected \"(\", \",\", \";\", \"case\", \"constant\", \"default\", \"error\", \"external\", \"internal\", \"leave\", \"override\", \"payable\", \"private\", \"public\", \"pure\", \"return\", \"returns\", \"revert\", \"switch\", \"view\", \"virtual\", \"{\", identifier"
 "unrecognised token '.', expected \"for\""
 "unrecognised token ';', expected \"(\""
 "unrecognised token 'data', expected \"else\""
+"unrecognised token 'global', expected \"++\", \"--\", \".\", \";\", \"[\", \"days\", \"ether\", \"finney\", \"gwei\", \"hours\", \"minutes\", \"seconds\", \"szabo\", \"weeks\", \"wei\""
 "unrecognised token 'immutable', expected \"!=\", \"%\", \"%=\", \"&\", \"&&\", \"&=\", \")\", \"*\", \"**\", \"*=\", \"+\", \"++\", \"+=\", \",\", \"-\", \"--\", \"-=\", \".\", \"/\", \"/=\", \":\", \";\", \"<\", \"<<\", \"<<=\", \"<=\", \"=\", \"==\", \"=>\", \">\", \">=\", \">>\", \">>=\", \"?\", \"[\", \"]\", \"^\", \"^=\", \"calldata\", \"case\", \"constant\", \"days\", \"default\", \"error\", \"ether\", \"external\", \"finney\", \"gwei\", \"hours\", \"indexed\", \"internal\", \"leave\", \"memory\", \"minutes\", \"payable\", \"private\", \"public\", \"pure\", \"revert\", \"seconds\", \"storage\", \"switch\", \"szabo\", \"view\", \"weeks\", \"wei\", \"{\", \"|\", \"|=\", \"||\", \"}\", identifier"
 "unrecognised token 'return', expected \"else\""
-"unrecognised token 'using', expected \"(\", \";\", \"[\", \"abstract\", \"address\", \"bool\", \"byte\", \"bytes\", \"case\", \"contract\", \"default\", \"enum\", \"error\", \"event\", \"false\", \"function\", \"import\", \"interface\", \"leave\", \"library\", \"mapping\", \"payable\", \"pragma\", \"string\", \"struct\", \"switch\", \"this\", \"true\", \"type\", Bytes, DocComment, Int, Uint, address, hexnumber, hexstring, identifier, number, rational, string"
 "unrecognised token '{', expected \"!\", \"(\", \")\", \"+\", \"++\", \"-\", \"--\", \"[\", \"address\", \"bool\", \"byte\", \"bytes\", \"case\", \"default\", \"delete\", \"error\", \"false\", \"function\", \"leave\", \"mapping\", \"new\", \"payable\", \"revert\", \"string\", \"switch\", \"this\", \"true\", \"type\", \"~\", Bytes, Int, Uint, address, hexnumber, hexstring, identifier, number, rational, string"
 "unrecognised token '{', expected \"case\", \"default\", \"error\", \"leave\", \"revert\", \"switch\", identifier"
 ```
