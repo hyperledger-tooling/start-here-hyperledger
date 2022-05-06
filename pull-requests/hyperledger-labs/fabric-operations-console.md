@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/200" class=".btn">#200</a>
+            </td>
+            <td>
+                <b>
+                    remove the confusing part of the error message
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+Remove the part of the error message that only applies if you were using the APIs.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-05 18:52:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/199" class=".btn">#199</a>
             </td>
             <td>
@@ -124,41 +161,6 @@ Upgrades that will throw an error:
     </table>
     <div class="right-align">
         Created At 2022-04-29 17:14:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/195" class=".btn">#195</a>
-            </td>
-            <td>
-                <b>
-                    prevent fabric upgrades that can break chaincode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-Upgrading fabric from 1.4 to 2.4 is dangerous. This PR prevents it on the UI and on APIs. Also shows the warning/description.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-28 18:27:58 +0000 UTC
     </div>
 </div>
 

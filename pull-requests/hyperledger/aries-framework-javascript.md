@@ -165,35 +165,3 @@ There's one FIXME left because I wasn't 100% sure on how it worked. @jakubkoci m
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/726" class=".btn">#726</a>
-            </td>
-            <td>
-                <b>
-                    fix: optional fields in did document
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">OOB - DidExchange</span>
-            </td>
-            <td>
-                This changes the logic for the did document to not set default values for the did document. This seemed convenient to me at first, but in the end it causes problems when you need to get the original form of the did document.
-
-This PR also removes the `DidPeer` class. I thought this would be convenient (and it was for a part), but it added way to much complexity. Especially as I tried to fix the issue with `did:peer:1` method and needing the raw json bytes (to consistently calculate the hash). I now replaced it with simple methods such as `keyToNumAlgo0DidDocument` or `didDocumentJsonToNumAlgo1Did`.
-
-@jakubkoci this affects your PR because you can't use the `DidPeer` class anymore. Please take a look at `peer-did.test.ts` on how to use it without `DidPeer`. I didn't want to add more work, but the consistent hashing is quite important for interop with other agents down the line. You should make sure that when parsing a num algo 1 (`did:peer:1`) that is received from another agent we parse the json variant of the did document (`didDocumentJsonToNumAlgo1Did`) as the transformation to the `DidDocument` class can make the resulting document structure different.
-
-BREAKING CHANGE: The `DidDocument` class doesn't set empty array values anymore for optional fields. This means you now have to check the value exists before being able to use it. This would mean that e.g. `didDocument.authentication.map()` would become `didDocument.authentication?.map()` to deal with the optionality of the field. This change was introduced to keep the class representation of a did document more in line with the actual representation of a did document.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-28 21:10:06 +0000 UTC
-    </div>
-</div>
-

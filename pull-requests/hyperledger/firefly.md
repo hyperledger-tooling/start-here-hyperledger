@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/794" class=".btn">#794</a>
+            </td>
+            <td>
+                <b>
+                    Do not init apiserver config, until after config reset
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                CORS defaults were not being applied any more, after #791 moved the initialization to be alongside all the rest of the HTTP server config.
+
+We were initializing those config prefixes, before we were calling `coreconfig.Reset()`
+
+![image](https://user-images.githubusercontent.com/6660217/167027739-9275f639-fa3e-4d8a-9ea9-a9e722ebabb4.png)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-05 21:22:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/793" class=".btn">#793</a>
+            </td>
+            <td>
+                <b>
+                    Fix links in documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I deleted the previous branch when i noticed my git credentials had not been updated in my signed commits.
+This PR still addresses the two links.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-05 20:17:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/792" class=".btn">#792</a>
             </td>
             <td>
@@ -31,7 +88,9 @@ permalink: /pull-requests/hyperledger/firefly
 * a base route like `/data` that implies use of the default namespace
 * a namespaced route like `/namespaces/{ns}/data` that allows you to specify the namespace
 
-To reduce clutter on the Swagger UI page, routes will also now be grouped into 3 category buckets.
+To reduce clutter on the Swagger UI page, routes will also now be grouped into 3 category buckets. I'm open to names for these categories, but I've proposed "Global", "Default Namespace", and "Non-Default Namespace".
+
+The main functional changes are in `internal/apiserver/routes.go`.
 
 ---
 
@@ -230,38 +289,6 @@ To reduce clutter on the Swagger UI page, routes will also now be grouped into 3
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/783" class=".btn">#783</a>
-            </td>
-            <td>
-                <b>
-                    Fix link to contributing documentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Problem
-
-404 when clicking on link to contributing docs.
-
-# Action
-
-Fix url in `CONTRIBUTING.md`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-02 20:30:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/782" class=".btn">#782</a>
             </td>
             <td>
@@ -376,7 +403,7 @@ Fix url in `CONTRIBUTING.md`
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">backport-candidate</span>
             </td>
             <td>
                 This PR adds two brand new tutorials for ERC-20 and ERC-721 as well as how to use Metamask with them. It also includes some updates to the ERC-1155 tutorial to include approvals.
@@ -413,32 +440,6 @@ A live preview of the new docs pages can be found at: https://nguyer.github.io/f
     </table>
     <div class="right-align">
         Created At 2022-04-29 15:43:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/775" class=".btn">#775</a>
-            </td>
-            <td>
-                <b>
-                    Clean up API spec for token approvals
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-candidate</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-28 20:56:54 +0000 UTC
     </div>
 </div>
 
