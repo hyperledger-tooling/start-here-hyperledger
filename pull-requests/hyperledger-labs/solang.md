@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/800" class=".btn">#800</a>
+            </td>
+            <td>
+                <b>
+                    Permit immutable on function type contract variables
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Attributes on contract variables have special handling due to function
+types, and function types never had immutable implemented.
+
+Fixes https://github.com/hyperledger-labs/solang/issues/799
+Found in https://github.com/hyperledger-labs/solang/pull/787
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-05 21:11:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/796" class=".btn">#796</a>
             </td>
             <td>
@@ -286,32 +318,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2022-04-29 16:36:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/775" class=".btn">#775</a>
-            </td>
-            <td>
-                <b>
-                    Only local function pointers should support suffixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Function pointers saved as state variables should no support suffixes "address" and "selector". Only Solidity local variables of type external function pointer support them.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-28 19:06:18 +0000 UTC
     </div>
 </div>
 

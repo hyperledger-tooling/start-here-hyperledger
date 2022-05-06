@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1416" class=".btn">#1416</a>
+            </td>
+            <td>
+                <b>
+                    Add REST API batch submitter trait
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport-triage</span><span class="chip">main</span>
+            </td>
+            <td>
+                This adds a trait for a component resource of the REST API to build and submit batches to an upstream URL. This will be used by endpoints that accept batches, in order to process generic `TransactionPayload`s. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-05 22:21:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1415" class=".btn">#1415</a>
             </td>
             <td>
@@ -205,33 +231,6 @@ Resolves: #1406
     </table>
     <div class="right-align">
         Created At 2022-04-29 18:17:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1399" class=".btn">#1399</a>
-            </td>
-            <td>
-                <b>
-                    Add support for `data_change_id`s
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">main</span>
-            </td>
-            <td>
-                This adds support for looking up batches by `data_change_id` to batch
-    tracking operations that take a batch ID as an argument.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-28 19:41:38 +0000 UTC
     </div>
 </div>
 
