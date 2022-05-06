@@ -15,6 +15,40 @@ permalink: /releases/hyperledger/firefly-common
         <tr>
             <td colspan="2">
                 <b>
+                    v0.1.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.1.3
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* add SubPrefix method to ConfigArrayPrefix by @awrichar in https://github.com/hyperledger/firefly-common/pull/5
+
+## New Contributors
+* @awrichar made their first contribution in https://github.com/hyperledger/firefly-common/pull/5
+
+**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v0.1.2...v0.1.3
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v0.1.3" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-05-05 21:32:32 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v0.1.2
                 </b>
             </td>
