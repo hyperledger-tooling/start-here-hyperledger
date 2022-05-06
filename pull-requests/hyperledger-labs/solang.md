@@ -359,31 +359,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/781" class=".btn">#781</a>
-            </td>
-            <td>
-                <b>
-                    Ensure that virtual functions in abstract contracts can be called
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                See https://github.com/hyperledger-labs/solang/issues/780.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-29 16:36:34 +0000 UTC
-    </div>
-</div>
-
