@@ -328,34 +328,3 @@ Currently, it breaks tests with such unique errors:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/782" class=".btn">#782</a>
-            </td>
-            <td>
-                <b>
-                    Rust 1.59.0 is now required
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                solang uses tower-lsp, which depends on dashmap. The latest version of
-dashmap requires rust 1.59.0.
-
-dashmap uses `std::thread::available_parallelism()`.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-30 07:45:39 +0000 UTC
-    </div>
-</div>
-
