@@ -142,29 +142,3 @@ Implements #77
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/79" class=".btn">#79</a>
-            </td>
-            <td>
-                <b>
-                    Added image pull secret flag in the plugin
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added image pull secret flag in the kubectl plugin
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-30 17:07:44 +0000 UTC
-    </div>
-</div>
-
