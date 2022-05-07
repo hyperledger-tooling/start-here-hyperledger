@@ -42,35 +42,3 @@ permalink: /releases/hyperledger/firefly-ethconnect
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v3.2.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v3.2.0
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* FFAPI implementation by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/213
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.1.8...v3.2.0
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.2.0" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-04-30 18:20:20 +0000 UTC
-    </span>
-</div>
-
