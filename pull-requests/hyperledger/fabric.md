@@ -546,35 +546,3 @@ aignature --> signature
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3370" class=".btn">#3370</a>
-            </td>
-            <td>
-                <b>
-                    Remove the old ledger doc topic
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Remove the old ledger.rst doc topic.
-It has been replaced by the ledger/ledger.md topic in the Key Concepts guide.
-
-Resolves #3351.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-30 12:30:19 +0000 UTC
-    </div>
-</div>
-
