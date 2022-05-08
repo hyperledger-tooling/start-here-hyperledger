@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/438" class=".btn">#438</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/441" class=".btn">#441</a>
             </td>
             <td>
                 <b>
-                    Refine HLF node status
+                    [#issue-439] Fix the issue of long debug info in http response body.
                 </b>
             </td>
         </tr>
@@ -27,14 +27,29 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                Change HLF node status according to docker container's status.
+                [#issue-439] Fix the issue of long debug info in http response body.
 
-Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
+Cause of issue:
+
+```python3
+# at src/dashboard/src/utils/request.js
+Line 48: err(e), status=status.HTTP_409_CONFLICT
+
+```
+err(e) contains all the debug information, and should be replaced with a better error message.
+
+Solution:
+replace object e with better error messages like 'Email Aleady exists!'.
+
+Additional Features:
+I implemented notifications for login and register error message in dashboard.
+
+Signed-off-by: ada2468 <jx2161@nyu.edu>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-22 03:43:36 +0000 UTC
+        Created At 2022-05-07 02:10:24 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,92 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/748" class=".btn">#748</a>
+            </td>
+            <td>
+                <b>
+                    fix: do not import from src dir
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Some files had `src` in their path meaning the files couldn't actually be found when published to NPM. 
+
+We should probably look to run the tests (at least the root `tests`) using the built files so we can make sure the npm version will work.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-07 09:25:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/746" class=".btn">#746</a>
+            </td>
+            <td>
+                <b>
+                    fix: do not import test logger in src
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also updates the ci to add the build script (in addition to check types) so this doesn't happen again.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-06 15:36:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/745" class=".btn">#745</a>
+            </td>
+            <td>
+                <b>
+                    feat: add issue credential v2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Mike Richardson <mike.richardson@northernblock.io>
+
+BEGIN_COMMIT_OVERRIDE
+feat: add issue credential v2
+
+BREAKING CHANGE: the issue credential module has been extended to support both v1 and v2 of protocol. See [Migrating from AFJ 0.1.0 to 0.2.x](https://github.com/hyperledger/aries-framework-javascript/blob/main/docs/migration/0.1-to-0.2.md) for a detailed migration instructions.
+END_COMMIT_OVERRIDE
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-06 13:02:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/736" class=".btn">#736</a>
             </td>
             <td>
@@ -64,104 +150,6 @@ Finally, this updates the processing of the message to be using the event emitte
     </table>
     <div class="right-align">
         Created At 2022-05-02 12:07:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/733" class=".btn">#733</a>
-            </td>
-            <td>
-                <b>
-                    fix: always encode keys according to RFCs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">OOB - DidExchange</span>
-            </td>
-            <td>
-                Keys were not encoded in services according to the RFCs. This is quite complex TBH as there's three different service types with three different encodings.... 
-
-The biggest problem was the encoding of the `did-communciation` used in did documents, those should use did references local to the did, not did:key dids and not raw public keys. 
-
-This PR updates a lot of places to pass around keys so we have a consistent format to pass around keys in the framework, which made it a lot easier to work with the different formats (we never know which of the three encodings recipientKey of type string means).
-
-A lot more changes than I initially anticipated, but this is an important fix to adhere to the RFCs.
-
-Dependant on #717. We can merge that PR first or merge this PR into #717 
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-01 16:15:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/732" class=".btn">#732</a>
-            </td>
-            <td>
-                <b>
-                    refactor: unify connection record state and role
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">OOB - DidExchange</span>
-            </td>
-            <td>
-                Unify connection record state and role by only levering did exchange states and roles. The did exchange states are more explicit so I thought we use that. Also added an `rfc0160State` getter to the connection record for convenience.
-
-Can be merged into #717 or merged into main after that PR is merged
-
-Migration script is addressed in #731 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-30 19:36:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/731" class=".btn">#731</a>
-            </td>
-            <td>
-                <b>
-                    feat: 0.2.0 connection migration script
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">OOB - DidExchange</span>
-            </td>
-            <td>
-                Adds migration script for the breaking changes introduced in 0.2.0 with the addition of out of band protocol and `did:peer` dids.
-
-This should be merged after #717 is merged ( I will update the target to main then ), as it depends on those Changes. Keeping it as separate PR to not make the PR  bigger.
-
-I think there's some issues with the transformation of the invitations and did documents that we should address, but that can be address separately. This PR just leans on the methods for transformation already provided in PR #717
-
-There's one FIXME left because I wasn't 100% sure on how it worked. @jakubkoci maybe you can help me answer. When creating an oob record that is reusable, is it correct that all connections will have the same oob id? If that's true I need to make some small tweaks to the script.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-30 14:30:50 +0000 UTC
     </div>
 </div>
 
