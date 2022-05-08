@@ -69,36 +69,3 @@ Signed-off-by: senthil <cendhu@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/393" class=".btn">#393</a>
-            </td>
-            <td>
-                <b>
-                    Restart after reconfig: add node
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span>
-            </td>
-            <td>
-                After adding a node, and restarting the server, the block replicator needs
-to avoid re-committing a block that was created during membership config changes,
-but apply the 'ConfChangeV2' to the raft state machine. This may happen when:
- - existing nodes apply a config change but then restart from a snapshot prior to the config change;
- - a node joins an existing cluster, as on-boarding brings all the ledger from a remote peer, and then we start raft.
-
- must avoid re-committing the block,
-Signed-off-by: Yoav Tock <tock@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-01 15:03:16 +0000 UTC
-    </div>
-</div>
-

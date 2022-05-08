@@ -14,6 +14,228 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2184" class=".btn">#2184</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #2159: Improve `parity_scale_decoder` tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Refactor</span><span class="chip">Tests</span>
+            </td>
+            <td>
+                Signed-off-by: Daniil Polyakov <arjentix@gmail.com>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+Previously `parity_scale_decoder` tests were using hardcoded string to compare with the result. Now objects are stored instead. It's easier to read and update.
+
+I can't use `serde_json` here (as proposed in the issue), because this program output isn't exactly *json*. It's the output of `Debug` trait which has type name for every field.
+ 
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Issue
+
+* Closes #2159 
+
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+* Easier to read
+* Easier to update
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+
+None
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests
+
+```bash
+cargo test --package parity_scale_decoder --bin parity_scale_decoder -- tests --nocapture
+```
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs
+
+We can change `parity_scale_decoder` implementation to use `serde::de::Serialize` instead of `Debug`. But I don't think we need it. This approeach will decrease the number of supported types and probably will give less info about a type
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-06 21:37:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2183" class=".btn">#2183</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #1883: Remove embedded configuration files.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Aleksandr Petrosyan <a-p-petrosyan@yandex.ru>
+
+### Description of the Change
+
+Removed sample configurations from the docker file. Adjusted docker compose to work from the root of the repository clone. 
+
+### Issue
+
+Closes #1883 
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+No problems with unspecified or incorrectly specified configuraion/genesis. 
+
+### Possible Drawbacks
+
+More involved process of running an iroha peer. 
+
+### Usage Examples or Tests *[optional]*
+
+```
+docker compose up
+```
+
+Inside existing docker compose fields, please add a line with the following: 
+
+```
+volumes: 
+ - <path-to-config-and-genesis>:config
+```
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-06 09:19:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2182" class=".btn">#2182</a>
+            </td>
+            <td>
+                <b>
+                    Remove launch from comment
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: safinsaf <safinsaft@gmail.com>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+Remove potential injection
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Issue
+
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests *[optional]*
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-06 08:36:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2180" class=".btn">#2180</a>
             </td>
             <td>
@@ -217,10 +439,10 @@ The changelog shall be generated soon.
 - [ ] Iroha lasted for five days at the longevity stand
 - [x] Standard benchmarks are ran and the results are recorded in the repository
 - [ ] Iroha documentation and tutorial are up to date. 
-- [ ] SDKs compiled successfully using the schema from latest branch (Hash: [94f75ba2465da8bc4b602c3be892a68f0c030ecc](https://github.com/hyperledger/iroha/commit/94f75ba2465da8bc4b602c3be892a68f0c030ecc))
-  - [ ] Java
-  - [ ] JavaScript
-  - [ ] Swift (N/A)
+- [x] SDKs compiled successfully using the schema from latest branch (Hash: [94f75ba2465da8bc4b602c3be892a68f0c030ecc](https://github.com/hyperledger/iroha/commit/94f75ba2465da8bc4b602c3be892a68f0c030ecc))
+  - [x] Java
+  - [x] JavaScript
+  - [x] Swift (N/A)
 - [ ] All SDK tests pass
   - [ ] Java
   - [ ] JavaScript
@@ -262,150 +484,6 @@ Add Ekaterina (the tech writer for the project) to the list of codeowners
     </table>
     <div class="right-align">
         Created At 2022-05-02 07:42:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2169" class=".btn">#2169</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #2163: Detailed logging.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Aleksandr Petrosyan <a-p-petrosyan@yandex.ru>
-
-<!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-Adds  a new trait `LoggedError`, that allows quickly logging errors when they occur. 
-
-### Issue
-
-Addresses #2163 
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-More logging information
-
-### Possible Drawbacks
-
-Performance regression possible. 
-
-### Usage Examples or Tests *[optional]*
-
-TODO
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-29 10:22:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2168" class=".btn">#2168</a>
-            </td>
-            <td>
-                <b>
-                    [ci]: Fix deploy pipeline.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Aleksandr Petrosyan <a-p-petrosyan@yandex.ru>
-
-<!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-Added missing dependencies to the `Dockerfile`
-
-### Issue
-
-None
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-29 10:10:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2166" class=".btn">#2166</a>
-            </td>
-            <td>
-                <b>
-                    [ci] #2153: Fix #2154
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ### Description of the Change
-- Add a step to add `llvm-tools-preview` component
-
-### Issue
-- Closes #2153
-- Opens #2165
-
-### Benefits
-- Enables the coverage by fixing [the error](https://github.com/hyperledger/iroha/runs/6213237858?check_suite_focus=true#step:6:8) that #2154 did not resolve
-
-### Possible Drawbacks
-- CI cost by the duplicated step which [should have been done in the container](https://github.com/hyperledger/iroha/blob/7e338a5c762f7e0e25b79937e6215c10ae53b290/Dockerfile.ci#L51), which could be cut off
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-29 06:41:37 +0000 UTC
     </div>
 </div>
 

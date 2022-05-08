@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/27" class=".btn">#27</a>
-            </td>
-            <td>
-                <b>
-                    Add more calls for transactions/operations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In a chain with #26
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-29 22:13:50 +0000 UTC
-    </div>
-</div>
-

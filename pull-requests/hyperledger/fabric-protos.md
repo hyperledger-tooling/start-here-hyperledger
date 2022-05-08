@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/83" class=".btn">#83</a>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/84" class=".btn">#84</a>
             </td>
             <td>
                 <b>
-                    [WIP] Publish node module
+                    Update node publish
                 </b>
             </td>
         </tr>
@@ -27,7 +27,37 @@ permalink: /pull-requests/hyperledger/fabric-protos
                 
             </td>
             <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+                Make module public and tag with latest
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-06 14:44:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/83" class=".btn">#83</a>
+            </td>
+            <td>
+                <b>
+                    Publish node module
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix main ci workflow and add workflow to publish the node bindings
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
         </tr>
     </table>

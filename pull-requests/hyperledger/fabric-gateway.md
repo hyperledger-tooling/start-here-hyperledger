@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/429" class=".btn">#429</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/432" class=".btn">#432</a>
             </td>
             <td>
                 <b>
-                    Looser checks for required Node engines
+                    Use OptionalLong for Java checkpoint block number
                 </b>
             </td>
         </tr>
@@ -27,14 +27,72 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Specify only the minimum required Node version, below which the code will not run. Allows more flexibility for consumers to pick a preferred Node runtime versions, including non-LTS versions. The documented supported versions still specify the Node versions tested and for which bugs will be addressed.
+                Block number will not be set in the initial checkpointer state, and
+previously logic to detect this required that the block number be set to
+zero and the transaction ID (which already uses an Optional) unset. This
+can be simplified by using an Optional to indicate whether the block
+number has a value.
+
+Signed-off-by: Mark S. Lewis <Mark.S.Lewis@outlook.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-08 17:34:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/431" class=".btn">#431</a>
+            </td>
+            <td>
+                <b>
+                    Update Java dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Includes updates to isecurity vulnerability scanning and checkstyle.
 
 Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-29 12:38:52 +0000 UTC
+        Created At 2022-05-06 10:54:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/430" class=".btn">#430</a>
+            </td>
+            <td>
+                <b>
+                    Pr426
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-06 08:55:06 +0000 UTC
     </div>
 </div>
 

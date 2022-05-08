@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/692" class=".btn">#692</a>
+            </td>
+            <td>
+                <b>
+                    [it_IT] Translate CONTRIBUTING: Install prerequisites + Getting help
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-06 17:58:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/690" class=".btn">#690</a>
             </td>
             <td>
@@ -111,58 +137,6 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     </table>
     <div class="right-align">
         Created At 2022-05-02 07:51:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/686" class=".btn">#686</a>
-            </td>
-            <td>
-                <b>
-                    [it_IT] Translate Introduction > Privacy and Confidentiality
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-29 11:41:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/685" class=".btn">#685</a>
-            </td>
-            <td>
-                <b>
-                    [it_IT] Translate CONTRIBUTING: Making Feature/Enhancement Proposals
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-29 08:31:40 +0000 UTC
     </div>
 </div>
 

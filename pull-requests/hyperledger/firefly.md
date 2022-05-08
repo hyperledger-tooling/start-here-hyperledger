@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/796" class=".btn">#796</a>
+            </td>
+            <td>
+                <b>
+                    Backport fixes for 1.0.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backport the following PRs from main in preparation for a patch release:
+
+#775
+#776
+#777
+#778
+#780
+#782
+
+Also includes updates to the token connectors (only) in manifest.json.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-06 16:09:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/794" class=".btn">#794</a>
             </td>
             <td>
@@ -334,112 +369,6 @@ The main functional changes are in `internal/apiserver/routes.go`.
     </table>
     <div class="right-align">
         Created At 2022-05-02 13:07:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/780" class=".btn">#780</a>
-            </td>
-            <td>
-                <b>
-                    Token transfer/approval protocolId should be unique for each connector
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-candidate</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-01 18:14:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/778" class=".btn">#778</a>
-            </td>
-            <td>
-                <b>
-                    Fix bugs with token approvals
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-candidate</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-29 18:46:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/777" class=".btn">#777</a>
-            </td>
-            <td>
-                <b>
-                    Update Tokens Tutorials
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-candidate</span>
-            </td>
-            <td>
-                This PR adds two brand new tutorials for ERC-20 and ERC-721 as well as how to use Metamask with them. It also includes some updates to the ERC-1155 tutorial to include approvals.
-
-A live preview of the new docs pages can be found at: https://nguyer.github.io/firefly/tutorials/tokens
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-29 17:02:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/776" class=".btn">#776</a>
-            </td>
-            <td>
-                <b>
-                    [ui-v1.0.1] manifest
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-candidate</span>
-            </td>
-            <td>
-                Signed-off-by: David Echelberger <eberger727@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-29 15:43:57 +0000 UTC
     </div>
 </div>
 

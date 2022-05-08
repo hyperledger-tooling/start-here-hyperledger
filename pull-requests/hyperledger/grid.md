@@ -18,13 +18,13 @@ permalink: /pull-requests/hyperledger/grid
             </td>
             <td>
                 <b>
-                    Add REST API batch submitter trait
+                    Add REST API batch submission handler trait
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">backport-triage</span><span class="chip">main</span>
+                <span class="chip">main</span>
             </td>
             <td>
                 This adds a trait for a component resource of the REST API to build and submit batches to an upstream URL. This will be used by endpoints that accept batches, in order to process generic `TransactionPayload`s. 
@@ -177,60 +177,6 @@ Resolves: #1406
     </table>
     <div class="right-align">
         Created At 2022-05-02 18:33:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1401" class=".btn">#1401</a>
-            </td>
-            <td>
-                <b>
-                    Make `TrackingBatch` `service_id` an `Option`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-triage</span><span class="chip">main</span>
-            </td>
-            <td>
-                This makes the `service_id` field on the `TrackingBatch` struct an
-    `Option`. This is in support of work on the batch queuer.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-29 19:47:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1400" class=".btn">#1400</a>
-            </td>
-            <td>
-                <b>
-                    Clean up `BatchTrackingStore` tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-triage</span><span class="chip">main</span>
-            </td>
-            <td>
-                This cleans up the batch tracking store tests by putting repetitive,
-    shared code into functions.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-29 18:17:33 +0000 UTC
     </div>
 </div>
 
