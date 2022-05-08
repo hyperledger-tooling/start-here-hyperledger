@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/814" class=".btn">#814</a>
+            </td>
+            <td>
+                <b>
+                    Permit function list in using syntax
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is new syntax introduced with solc 0.8.13.
+
+	function foo(int) {};
+	function foo2(int) {};
+
+	contract c {
+		using {foo,foo2} for int;
+
+		function test(int c) public {
+			c.foo();
+			c.foo2();
+		}
+	}
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-07 19:04:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/806" class=".btn">#806</a>
             </td>
             <td>
