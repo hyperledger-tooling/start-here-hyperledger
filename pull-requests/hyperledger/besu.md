@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3809" class=".btn">#3809</a>
+            </td>
+            <td>
+                <b>
+                    Stop the BlockPropagationManager when it receives the TTD reached event
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #3797
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-09 17:43:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3808" class=".btn">#3808</a>
             </td>
             <td>
@@ -64,7 +108,7 @@ Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
             </td>
             <td>
                 <b>
-                    Extend the PeerDiscovery error filtering to handle native errors
+                    Filter Netty native lib errors likewise the pure Java implementation
                 </b>
             </td>
         </tr>
@@ -80,18 +124,22 @@ Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
 
 ## PR description
 
+Since version `22.4.0` Netty prefers the native lib implementation, instead of the pure Java implementation, and this causes warn log messages in case IPv6 is not enable or configured. These error messages are intercepted and logged at debug when thrown by the pure Java implementation, but the native lib implementation triggers a different exception, so the scope of this PR is to extend the error filtering logic to intercept and log at debug the equivalent errors thrown by the native lib implementation
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
 
+fixes #3798 
+
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -208,38 +256,6 @@ This test is consistently passing locally but failing in CI. Ticket here to figu
     </table>
     <div class="right-align">
         Created At 2022-05-08 23:31:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3802" class=".btn">#3802</a>
-            </td>
-            <td>
-                <b>
-                    allow synchronizer to just stop block propagation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Delays ttd callback till after controllers are built, so it can close over a handle to the block propagation manager.
-
-fixes #3797 
-
-Signed-off-by: Justin Florentine <justin+github@florentine.us>
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-08 20:51:40 +0000 UTC
     </div>
 </div>
 

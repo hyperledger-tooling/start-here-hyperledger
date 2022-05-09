@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabex
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabex/pull/107" class=".btn">#107</a>
+                PR <a href="https://github.com/hyperledger-labs/fabex/pull/108" class=".btn">#108</a>
             </td>
             <td>
                 <b>
-                    Archive lab
+                    Up to Go 1.18, del vendor, update dependencies
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabex
                 
             </td>
             <td>
-                Archived labs are read-only, and they can be moved back out of the archives, if there is interest in reviving them.
-
-Signed-off-by: Ry Jones <ry@linux.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-06 18:15:25 +0000 UTC
+        Created At 2022-05-09 14:09:46 +0000 UTC
     </div>
 </div>
 
