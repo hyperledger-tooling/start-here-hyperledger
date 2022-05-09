@@ -44,32 +44,3 @@ Signed-off-by: Lee Bradley <bradley@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/332" class=".btn">#332</a>
-            </td>
-            <td>
-                <b>
-                    Update BatchTrackingStore planning docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This updates the BatchTrackingStore planning docs to bring them
-up-to-date with some minor changes that happened while implementing.
-
-Signed-off-by: Davey Newhall <newhall@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-02 17:05:51 +0000 UTC
-    </div>
-</div>
-

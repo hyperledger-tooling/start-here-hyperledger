@@ -14,6 +14,71 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/817" class=".btn">#817</a>
+            </td>
+            <td>
+                <b>
+                    body of for loop may be if without else
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This particular syntax was not parsed:
+
+	for (;;) if (false) return 0;
+
+Fixes https://github.com/hyperledger-labs/solang/issues/798
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-09 14:27:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/816" class=".btn">#816</a>
+            </td>
+            <td>
+                <b>
+                    Parse revert statements with named arguments
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                	revert Foo({bar: 1});
+
+These can only be used with custom errors, which are not supported yet.
+However, amend the parser so that we can give a nicer error message.
+
+Found in #787 
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-09 13:13:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/815" class=".btn">#815</a>
             </td>
             <td>

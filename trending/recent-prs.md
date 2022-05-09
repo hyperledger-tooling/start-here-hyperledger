@@ -1,13 +1,13 @@
 
-[815](https://github.com/hyperledger-labs/solang/pull/815) doccomment are allowed anywhere
+[309](https://github.com/hyperledger-labs/fablo/pull/309) Add version config for fabric-nodeenv, update Node version warnings
 
-[3808](https://github.com/hyperledger/besu/pull/3808) Backward Sync should remember recent finalized blocks.
+[3809](https://github.com/hyperledger/besu/pull/3809) Stop the BlockPropagationManager when it receives the TTD reached event
 
-[3807](https://github.com/hyperledger/besu/pull/3807) Extend the PeerDiscovery error filtering to handle native errors
+[733](https://github.com/hyperledger/fabric-samples/pull/733) Update marbles_chaincode.go example
 
-[754](https://github.com/hyperledger/aries-framework-javascript/pull/754) chore!: update indy-sdk-react-native version to 0.2.0
+[340](https://github.com/hyperledger/transact/pull/340) Add spaces before API doc on State trait
 
-[85](https://github.com/hyperledger/fabric-protos/pull/85) [WIP] Fix missing node module content
+[3240](https://github.com/hyperledger/aries-framework-go/pull/3240) feat: EDV provider - query for multiple tags using AND operators
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

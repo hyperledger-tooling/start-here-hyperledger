@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3237" class=".btn">#3237</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3240" class=".btn">#3240</a>
             </td>
             <td>
                 <b>
-                    feat: Use new EDV add index endpoint when setting store config
+                    feat: EDV provider - query for multiple tags using AND operators
                 </b>
             </td>
         </tr>
@@ -27,16 +27,44 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 
             </td>
             <td>
-                closes #2492
-
-Also updated TrustBloc EDV image used for tests and removed some out-of-date comments.
-
-Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+                Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-29 01:31:36 +0000 UTC
+        Created At 2022-05-09 16:22:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3239" class=".btn">#3239</a>
+            </td>
+            <td>
+                <b>
+                    [WIP- do not merge] refactor: set DIDcomm V1 VS V2 Endpoint support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change sets back the original DIDComm V1's Endpoint logic that was supperceded with the Endpoint struct update for DIDComm V2.
+With this change, both ServiceEndpoint structures for V1 and V2 are not supported.
+
+closes #3219
+
+Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-09 14:02:51 +0000 UTC
     </div>
 </div>
 

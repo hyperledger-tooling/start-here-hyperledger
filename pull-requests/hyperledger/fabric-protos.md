@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-protos
             </td>
             <td>
                 <b>
-                    [WIP] Fix missing node module content
+                    Fix missing node module content
                 </b>
             </td>
         </tr>
@@ -27,7 +27,11 @@ permalink: /pull-requests/hyperledger/fabric-protos
                 
             </td>
             <td>
-                Need to share the generated content between jobs in the GitHub actions workflow
+                The generated content was not shared between jobs in the GitHub actions workflow
+
+These changes keep the whole node build and publish in a single job since uploading/downloading generated artifacts between jobs is time consuming
+
+The new structure also means that the Java build can run independently
 
 Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
