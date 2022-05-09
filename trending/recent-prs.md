@@ -1,13 +1,13 @@
 
-[693](https://github.com/hyperledger/fabric-docs-i18n/pull/693) [ja_JP] Update "private_data_tutorial.rst"
+[815](https://github.com/hyperledger-labs/solang/pull/815) doccomment are allowed anywhere
 
-[3806](https://github.com/hyperledger/besu/pull/3806) added missing breaking change to 22.4.0
+[3808](https://github.com/hyperledger/besu/pull/3808) Backward Sync should remember recent finalized blocks.
 
-[3805](https://github.com/hyperledger/besu/pull/3805) add a separate test for the IP enode when DNS is enabled
+[3807](https://github.com/hyperledger/besu/pull/3807) Extend the PeerDiscovery error filtering to handle native errors
 
-[2009](https://github.com/hyperledger/cactus/pull/2009) test: fix jest out of memory errors on Node v16.14.2
+[754](https://github.com/hyperledger/aries-framework-javascript/pull/754) chore!: update indy-sdk-react-native version to 0.2.0
 
-[3803](https://github.com/hyperledger/besu/pull/3803) ignore failing test
+[85](https://github.com/hyperledger/fabric-protos/pull/85) [WIP] Fix missing node module content
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

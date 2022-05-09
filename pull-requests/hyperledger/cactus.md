@@ -91,32 +91,3 @@ Signed-off-by: johnhomantaring <john.h.o.mantaring@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/1999" class=".btn">#1999</a>
-            </td>
-            <td>
-                <b>
-                    feat(odap-plugin): backup gateway implementation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * Addition of backup gateways allowed field
-* New test where a backup gateway is allowed to replace one that crashed
-
-Signed-off-by: André Augusto <andre.augusto@tecnico.ulisboa.pt>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-02 11:35:12 +0000 UTC
-    </div>
-</div>
-

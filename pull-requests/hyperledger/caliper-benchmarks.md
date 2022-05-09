@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/195" class=".btn">#195</a>
+                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/197" class=".btn">#197</a>
             </td>
             <td>
                 <b>
-                    Fixed Fabric Smallbank Benchmark
+                    Fixed Asset: set endorsement policy explicitly on collections-config 
                 </b>
             </td>
         </tr>
@@ -27,12 +27,18 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
                 
             </td>
             <td>
-                Signed-off-by: fraVlaca <ocsenarf@outlook.com>
+                Closes #196 
+Closes #153 
+
+- Set an explicit endorsement policy collections config for fixed asset private data 
+- Updated all node chaincodes to use 2.2 shim and contract-apis
+
+Signed-off-by: fraVlaca <ocsenarf@outlook.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-29 14:54:27 +0000 UTC
+        Created At 2022-05-09 10:31:02 +0000 UTC
     </div>
 </div>
 
