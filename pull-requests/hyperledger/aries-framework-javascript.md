@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/754" class=".btn">#754</a>
+            </td>
+            <td>
+                <b>
+                    chore!: update indy-sdk-react-native version to 0.2.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Amit <amit@northernblock.io>
+
+Update indy-sdk-react-native version to 0.2.0 to support
+
+- chore!: update indy SDK version to 1.16 for android
+- chore(deps): bump plist from 3.0.4 to 3.0.5
+- chore(deps): bump async from 2.6.3 to 2.6.4
+- chore: update indy framework source link
+- 
+
+Issue - https://github.com/hyperledger/aries-framework-javascript/issues/752
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-09 10:46:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/748" class=".btn">#748</a>
             </td>
             <td>
@@ -123,33 +161,6 @@ Finally, this updates the processing of the message to be using the event emitte
     </table>
     <div class="right-align">
         Created At 2022-05-02 22:03:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/735" class=".btn">#735</a>
-            </td>
-            <td>
-                <b>
-                    ci: add node 18 to test matrix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds node v18 to the test matrix. Once this is merged we can look at removing support for node 12 (https://github.com/hyperledger/aries-framework-javascript/issues/734).
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-02 12:07:05 +0000 UTC
     </div>
 </div>
 

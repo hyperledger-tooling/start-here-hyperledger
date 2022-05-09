@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/694" class=".btn">#694</a>
+            </td>
+            <td>
+                <b>
+                    [it_IT] Translate CONTRIBUTING: Reporting bugs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                NOTE: I've also fixed a little typo in the previous paragraph, so please ignore it
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-09 08:28:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/693" class=".btn">#693</a>
             </td>
             <td>
@@ -144,32 +170,6 @@ Signed-off-by: Taku Shimosawa <taku.shimosawa.uf@hitachi.com>
     </table>
     <div class="right-align">
         Created At 2022-05-03 08:22:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/687" class=".btn">#687</a>
-            </td>
-            <td>
-                <b>
-                    [it_IT] Translate CONTRIBUTING: Contributor meeting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-02 07:51:22 +0000 UTC
     </div>
 </div>
 

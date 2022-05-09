@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/815" class=".btn">#815</a>
+            </td>
+            <td>
+                <b>
+                    doccomment are allowed anywhere
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                	contract c {}
+	/// foo
+
+The comment foo is not attached to anything.
+
+This fixes https://github.com/hyperledger-labs/solang/issues/812
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-09 11:40:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/814" class=".btn">#814</a>
             </td>
             <td>
@@ -291,32 +324,6 @@ This PR fixes issue #728 and improve the reaching definitions implementation fro
     </table>
     <div class="right-align">
         Created At 2022-05-03 12:48:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/788" class=".btn">#788</a>
-            </td>
-            <td>
-                <b>
-                    feat(parser): Gwei unit
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Support for `gwei` unit was added in Solidity 0.6.11: https://github.com/ethereum/solidity/blob/develop/Changelog.md#0611-2020-07-07
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-02 08:37:59 +0000 UTC
     </div>
 </div>
 

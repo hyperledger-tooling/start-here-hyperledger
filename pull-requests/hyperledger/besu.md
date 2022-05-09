@@ -14,6 +14,96 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3808" class=".btn">#3808</a>
+            </td>
+            <td>
+                <b>
+                    Backward Sync should remember recent finalized blocks.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When syncing using BWS we now consider finalized blocks reported by consensus layer.
+When no finalized block is specified, nothing strange will go on. When finalized block is specified
+But Besu is not aware of any finalized block yet, we will sync as usual until the finalized block is about to get imported.
+
+A new invariant is introduced when importing blocks using BWS.
+All imported blocks have to descent from latest finalized block or a TTD block if we did not finalize yet.
+
+* Importing a finalized block updates the information in Besu Mutable Blockchain.
+* It is no longer possible to import blocks into the blockchain below a previously finalized block when using BWS
+* When a new finalized block gets announced while BWS is in progress and Besu already has it imported the Mutable Blockchain gets updated, and the chain gets checked for possible pruning
+* When trying to import blocks of equal height as newly announced finalized block, then only the new announced finalized block will be possible to import using BWS
+* When importing a new block using BWS after finalized, we can now guarantee that the block descends from latest finalized block
+
+Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-09 10:56:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3807" class=".btn">#3807</a>
+            </td>
+            <td>
+                <b>
+                    Extend the PeerDiscovery error filtering to handle native errors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-09 10:54:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3806" class=".btn">#3806</a>
             </td>
             <td>
