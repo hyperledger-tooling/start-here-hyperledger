@@ -14,29 +14,28 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1589" class=".btn">#1589</a>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1590" class=".btn">#1590</a>
             </td>
             <td>
                 <b>
-                    Upgrade zmq
+                    New Release Workflow
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">Ubuntu 20.04</span>
             </td>
             <td>
-                - Upgrade to the latest version of `pyzmq`, and update warning filters to ignore the new format of the unclosed socket messages.
-- Clean up PAIR sockets as best as possible.
-- Fix issue with building the deb for `pyzmq`.
+                https://github.com/hyperledger/indy-shared-gha/pull/4 needs to be merged first for this PR to work.
 
-Signed-off-by: Wade Barnes <wade@neoterictech.ca>
+![release-workflow](https://user-images.githubusercontent.com/87540518/167628915-ef944775-2f28-4289-966b-60df97ab1888.png)
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-30 19:44:57 +0000 UTC
+        Created At 2022-05-10 12:41:32 +0000 UTC
     </div>
 </div>
 

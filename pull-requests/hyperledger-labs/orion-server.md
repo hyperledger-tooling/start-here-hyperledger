@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/403" class=".btn">#403</a>
+            </td>
+            <td>
+                <b>
+                    Ledger test: path
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-10 15:17:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/402" class=".btn">#402</a>
             </td>
             <td>
@@ -28,6 +54,7 @@ permalink: /pull-requests/hyperledger-labs/orion-server
             </td>
             <td>
                 Support requesting the ledger path from a block to itself.
+When start block is zero the server entered to an endless loop.
 
 Signed-off-by: Yoav Tock <tock@il.ibm.com>
             </td>
@@ -88,7 +115,7 @@ key node.
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">testing</span>
             </td>
             <td>
                 Signed-off-by: tohar-ayash <toharayash1@gmail.com>
