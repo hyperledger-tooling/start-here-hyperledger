@@ -14,6 +14,89 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/826" class=".btn">#826</a>
+            </td>
+            <td>
+                <b>
+                    Don't run the linux-arm64 tests on PRs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                These tests are run on a single traverse ten64, and this takes 38
+minutes. This is too long is holding up PR merges and test completion.
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-10 18:15:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/825" class=".btn">#825</a>
+            </td>
+            <td>
+                <b>
+                    Do not load from storage when reference is needed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes #789. We were loading a value from storage whenever we encountered a storage reference. However, we should not load if we want the reference, not the value.
+
+To solve this, modified `fn destructure_load` and renamed it to `fn cast_and_try_load`. Another option would be merging such a function with `codegen::Expression::cast`, however I am not sure if the cast function should be allowed to manage the CFG.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-10 17:01:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/824" class=".btn">#824</a>
+            </td>
+            <td>
+                <b>
+                    WIP: Partial support for Yul
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR enables partial support for Yul in code generation. Tests are still missing.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-10 13:29:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/823" class=".btn">#823</a>
             </td>
             <td>
@@ -56,7 +139,7 @@ Fixes #819
                 
             </td>
             <td>
-                Ensure that `42.double()` work with using.
+                Ensure that `42.double()` works with using.
 ```
 function double(int x) pure returns (int) { return x * 2; }
 
@@ -426,36 +509,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2022-05-04 13:16:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/790" class=".btn">#790</a>
-            </td>
-            <td>
-                <b>
-                    Remove ambiguity from reaching definitions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The reaching definition implementation is ambiguous. In statements like `int a, int b = func.call()`, both `a` and `b` have the same definition, because our definition only tracks the block number and the instruction number, leading to errors in optimizations as the one seen in issue #728. 
-
-The eliminate such an ambiguity, I introduced a third dimension in our `Def` structure: the assignment number. This way, in function calls and AbiDecode statements, different variables have different definitions.
-
-This PR fixes issue #728 and improve the reaching definitions implementation from file `reaching_definitions.rs`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-03 12:48:48 +0000 UTC
     </div>
 </div>
 
