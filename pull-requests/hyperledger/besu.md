@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3780" class=".btn">#3780</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/3782" class=".btn">#3782</a>
             </td>
             <td>
                 <b>
-                    [MINOR] code cleanup - Lists.emptyList
+                    [MINOR] Typos
                 </b>
             </td>
         </tr>
@@ -27,9 +27,7 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                - changed some Longs to long where they were statically intialized
-- changed random.nextLong() to random.nextInt(Integer.MAX_VALUE) to avoid the edge case of long minimum value which gives a negative value when passed into abs()
-- replace deprecated Lists.emptyList() with Collections.emptyList()
+                fixed typos
 
 ## Documentation
 
@@ -43,7 +41,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-03 11:58:43 +0000 UTC
+        Created At 2022-05-04 00:28:25 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/87" class=".btn">#87</a>
+            </td>
+            <td>
+                <b>
+                    Updated kubectl hlf plugin commands help
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I updated most of the hlf plugin help tooltips, they should now indicate a bit better what do they mean
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-10 09:53:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/85" class=".btn">#85</a>
             </td>
             <td>
@@ -87,32 +113,6 @@ Implements #77
     </table>
     <div class="right-align">
         Created At 2022-05-03 18:01:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/81" class=".btn">#81</a>
-            </td>
-            <td>
-                <b>
-                    Getting started docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #57
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-03 06:30:43 +0000 UTC
     </div>
 </div>
 
