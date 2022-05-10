@@ -14,6 +14,73 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/823" class=".btn">#823</a>
+            </td>
+            <td>
+                <b>
+                    Permit negative components in scientific notation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                200e-2 is a NumberLiteral (2)
+2e-2 is a RationalNumber(0.02)
+
+Fixes #819
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-10 11:52:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/822" class=".btn">#822</a>
+            </td>
+            <td>
+                <b>
+                    Ensure that method on number literal works correctly.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Ensure that `42.double()` work with using.
+```
+function double(int x) pure returns (int) { return x * 2; }
+
+using {double} for int;
+
+contract C {
+	function foo() pure public returns (int) {
+		return 42.double();
+	}
+}
+```
+Fixes https://github.com/hyperledger-labs/solang/issues/820
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-10 09:08:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/817" class=".btn">#817</a>
             </td>
             <td>
