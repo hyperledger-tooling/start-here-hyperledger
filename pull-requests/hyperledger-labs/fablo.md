@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/312" class=".btn">#312</a>
+            </td>
+            <td>
+                <b>
+                    Attach fabric-ca-server-config.yaml as a volume
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ❗ ❗  Should be merge after https://github.com/hyperledger-labs/fablo/pull/308
+
+Signed-off-by: Grzegorz Hejduk <grzegorz.hejduk@softwaremill.com>
+
+#168
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-11 05:53:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fablo/pull/311" class=".btn">#311</a>
             </td>
             <td>

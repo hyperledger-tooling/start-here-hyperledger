@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3784" class=".btn">#3784</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/3788" class=".btn">#3788</a>
             </td>
             <td>
                 <b>
-                    Preparing for next version and 22.4.0 Changelog
+                    [MINOR] fixed one more error from CodeQL
                 </b>
             </td>
         </tr>
@@ -27,43 +27,21 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                ## PR description
+                * dereferenced variable is always null in log message
 
-- Preparing for next release
-- 22.4.0 changelog
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-04 05:13:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3783" class=".btn">#3783</a>
-            </td>
-            <td>
-                <b>
-                    Release 22.4.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Release 22.4.0
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-04 05:06:22 +0000 UTC
+        Created At 2022-05-04 23:04:08 +0000 UTC
     </div>
 </div>
 
