@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/90" class=".btn">#90</a>
+            </td>
+            <td>
+                <b>
+                    Fix getting-started (Add command for cleaning up the chaincode).
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I think adding this will improve docs.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-11 13:25:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/88" class=".btn">#88</a>
             </td>
             <td>
