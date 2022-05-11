@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/405" class=".btn">#405</a>
+            </td>
+            <td>
+                <b>
+                    Fix missing db in operation provenance
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-11 16:33:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/403" class=".btn">#403</a>
             </td>
             <td>
@@ -98,32 +124,6 @@ key node.
     </table>
     <div class="right-align">
         Created At 2022-05-09 07:27:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/398" class=".btn">#398</a>
-            </td>
-            <td>
-                <b>
-                    Dynamic cluster - remove node tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span>
-            </td>
-            <td>
-                Signed-off-by: tohar-ayash <toharayash1@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-04 13:09:48 +0000 UTC
     </div>
 </div>
 

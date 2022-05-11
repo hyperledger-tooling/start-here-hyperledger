@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/205" class=".btn">#205</a>
+            </td>
+            <td>
+                <b>
+                    rebuild safelist when validating create-peer api
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+When creating a component the hostname safelist will be recalculated before API validation. 
+
+This will fix the problem when a user creates a peer and the hostname of the CA for the peer's enrollment is not known to all instances of the console.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-11 18:09:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/204" class=".btn">#204</a>
             </td>
             <td>
