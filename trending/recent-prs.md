@@ -1,5 +1,5 @@
 
-[312](https://github.com/hyperledger-labs/fablo/pull/312) Attach fabric-ca-server-config.yaml as a volume
+[313](https://github.com/hyperledger-labs/fablo/pull/313) Attach fabric-ca-server-config.yaml as a volume
 
 [204](https://github.com/hyperledger-labs/fabric-operations-console/pull/204) allow zero length admin array for org
 

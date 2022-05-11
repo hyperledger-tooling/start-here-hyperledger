@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/312" class=".btn">#312</a>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/313" class=".btn">#313</a>
             </td>
             <td>
                 <b>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fablo
                 
             </td>
             <td>
-                ❗ ❗  Should be merge after https://github.com/hyperledger-labs/fablo/pull/308
-
-Signed-off-by: Grzegorz Hejduk <grzegorz.hejduk@softwaremill.com>
-
-#168
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-11 05:53:02 +0000 UTC
+        Created At 2022-05-11 11:23:55 +0000 UTC
     </div>
 </div>
 
