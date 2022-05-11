@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/204" class=".btn">#204</a>
+            </td>
+            <td>
+                <b>
+                    allow zero length admin array for org
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
+
+#### Type of change
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+Historically Fabric required admin certs for an organization... somewhere around 1.4 when Node OU was introduced, admin certs in the orgs were no longer required. Adjusting the code to accommodate that
+
+https://github.com/hyperledger-labs/fabric-operations-console/issues/203
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-10 22:55:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/201" class=".btn">#201</a>
             </td>
             <td>
@@ -112,43 +148,6 @@ The audit notification button was styled in a way that made it invisible.
     </table>
     <div class="right-align">
         Created At 2022-05-05 17:58:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/197" class=".btn">#197</a>
-            </td>
-            <td>
-                <b>
-                    do not run k8s sync w/cached deployer data
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-The cached deployer data cannot be used to synchronize the state of the component. It should be skipped, unless the real (up-to-date) data was obtained.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-03 19:25:57 +0000 UTC
     </div>
 </div>
 
