@@ -76,35 +76,3 @@ permalink: /releases/hyperledger/firefly-common
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v0.1.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v0.1.2
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* Move FFCAPI definitions and client to firefly-common by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/4
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v0.1.1...v0.1.2
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v0.1.2" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-05-05 18:41:26 +0000 UTC
-    </span>
-</div>
-
