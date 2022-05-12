@@ -1,13 +1,13 @@
 
-[3241](https://github.com/hyperledger/aries-framework-go/pull/3241) feat: add an option to disable required properties for CredentialParse.
+[835](https://github.com/hyperledger-labs/solang/pull/835) Fix external call on Solana
 
-[2201](https://github.com/hyperledger/iroha/pull/2201) [schema]: Expose `RegistrableBox` as a `Value` variant.
+[834](https://github.com/hyperledger-labs/solang/pull/834) Use IdentifierPath instead of Expression in solang-parser
 
-[314](https://github.com/hyperledger-labs/fablo/pull/314) Support TLS for CA
+[1539](https://github.com/hyperledger/burrow/pull/1539) Bump simple-get from 2.8.1 to 2.8.2 in /vent/test/eth
 
-[340](https://github.com/hyperledger-labs/go-perun/pull/340) Dispute test: Use e.Version instead e.State.Version
+[1538](https://github.com/hyperledger/burrow/pull/1538) Bump node-fetch from 2.6.1 to 2.6.7 in /docs/example/basic-app
 
-[3828](https://github.com/hyperledger/besu/pull/3828) Return Invalid forkchoice state if fcU contains invalid finalizedBlockHash or safeBlockHash
+[1537](https://github.com/hyperledger/burrow/pull/1537) Bump node-fetch from 2.6.1 to 2.6.7 in /docs/example/basic-app-website
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

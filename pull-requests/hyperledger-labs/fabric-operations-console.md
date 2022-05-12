@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/207" class=".btn">#207</a>
+            </td>
+            <td>
+                <b>
+                    add query param to login link from logout panel
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+
+After a logout there is a log back in link. Sometimes this link fails to send the user to the login page. It spins. This pr attempts to fix that by making the link a un-cachable link.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-12 15:14:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/206" class=".btn">#206</a>
+            </td>
+            <td>
+                <b>
+                    Added check for IBM Cloud login - w3id login
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ketul Shah <shah.ketul@ibm.com>
+
+#### Type of change
+- Test update
+
+#### Description
+Added check for IBM Cloud login - w3id login
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-12 15:00:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/205" class=".btn">#205</a>
             </td>
             <td>
@@ -119,41 +189,6 @@ Remove the part of the error message that only applies if you were using the API
     </table>
     <div class="right-align">
         Created At 2022-05-05 18:52:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/199" class=".btn">#199</a>
-            </td>
-            <td>
-                <b>
-                    restyle audit button so its not invisible
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-The audit notification button was styled in a way that made it invisible.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-05 17:58:15 +0000 UTC
     </div>
 </div>
 

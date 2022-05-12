@@ -62,31 +62,3 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/338" class=".btn">#338</a>
-            </td>
-            <td>
-                <b>
-                    Remove go-ethereum dependency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Relates to #335 
-
-When moving the Ethereum backend to a separate repository we missed one usage of go-ethereum, so that it was still among the dependencies. This PR changes that.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-05 16:47:28 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/PerformanceSandBox
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/56" class=".btn">#56</a>
+            </td>
+            <td>
+                <b>
+                    update document with minikube
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sam Yuan <yy19902439@126.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-12 13:54:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/55" class=".btn">#55</a>
             </td>
             <td>
