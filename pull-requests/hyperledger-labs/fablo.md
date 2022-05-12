@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/315" class=".btn">#315</a>
+            </td>
+            <td>
+                <b>
+                    Node16 dco + merges
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-12 13:21:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fablo/pull/314" class=".btn">#314</a>
             </td>
             <td>
@@ -59,61 +85,6 @@ permalink: /pull-requests/hyperledger-labs/fablo
     </table>
     <div class="right-align">
         Created At 2022-05-11 11:23:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/311" class=".btn">#311</a>
-            </td>
-            <td>
-                <b>
-                    Add version config for fabric-nodeenv, update Node version warnings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Note- replaces previous pull request #309. I used git rebase to add DCO statements and amend multiple commits, so pushed a new branch rather than rewriting history on an already-published branch. 
-
-https://github.com/hyperledger-labs/fablo/issues/274 Update Node.js runtime compatibility
-
-The compatibility information in fabric-chaincode-node
-(https://github.com/hyperledger/fabric-chaincode-node/blob/main/COMPATIBILITY.md)
-lists an environment variable that can be used on a peer that
-hosts chaincode to alter the Node.js runtime used.
-
-This commit adds support for setting that environment variable
-to the fablo global config. It also updates fablo to support fabric version 2.4.2.
-
-Based on some recent patches to fabric-chaincode-node:
-
-https://github.com/hyperledger/fabric-chaincode-node/commit/d9cfc3d0b35fad4ed7e72b8ced370bef32f1d0b9
-https://github.com/hyperledger/fabric-chaincode-node/blob/main/release_notes/v2.4.2.txt
-"This release corrects the 2.4 nodeenv docker image to be Node 16, and ..."
-
-A node version mapping was added similar to the existing javaenv
-mapping to used the fixed fabric-nodeenv docker image if
-2.4 or 2.4.1 are supplied.
-(src/extend-config/extendGlobal.ts)
-Probabably "2.4" should be removed from this mapping at such
-time that that image incorporates the fix released in 2.4.2,
-but for now it was added to potentially avoid cases
-where Node v12 is still being unexpected used on the peers.
-
-The Node.js warning message is also updated to recommend 16
-if the fabric version is 2.4 or higher, and 12 otherwise.
-Referenced existing github issue 274 for this fix. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-10 21:37:20 +0000 UTC
     </div>
 </div>
 

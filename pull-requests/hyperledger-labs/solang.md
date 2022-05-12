@@ -14,6 +14,97 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/835" class=".btn">#835</a>
+            </td>
+            <td>
+                <b>
+                    Fix external call on Solana
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes issue #773. The code generation for external function calls from function pointers was not correctly implemented, making Solang panic.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-12 18:05:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/834" class=".btn">#834</a>
+            </td>
+            <td>
+                <b>
+                    Use IdentifierPath instead of Expression in solang-parser
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                [Using expression provides an unnecessary overhead to matching against fairly simple identifier paths, and this change seeks to simplify that](https://github.com/hyperledger-labs/solang/pull/833)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-12 16:57:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/832" class=".btn">#832</a>
+            </td>
+            <td>
+                <b>
+                    v0.1.11: Nuremberg release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Added
+- Added support for Solidity user types
+- Support `using` syntax on file scope
+- Support binding functions with `using`
+- Implemented parsing and semantic analysis of yul (code generation is to
+  follow)
+- The language server uses the `--import` and `--importmap` arguments
+- On Solana, it is possible to set the accounts during CPI using the
+  `accounts:` call argument.
+
+### Fixed
+- Fixed associativity of the power operator
+- A huge amount of fixes improving compatibility with solc
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-12 15:21:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/831" class=".btn">#831</a>
             </td>
             <td>
@@ -424,36 +515,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2022-05-05 21:11:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/796" class=".btn">#796</a>
-            </td>
-            <td>
-                <b>
-                    Add keccak hash for addresses
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The constant folding pass calculates the Keccak256 hash for number literals, however it was ignoring such calculation for literals of type address. This PR fixes this and solves issue #777.
-
-When this PR is merged, we can also close issue #780 because the contract I posted there builds correctly after this fix.
-
-PS: Contracts for ewasm does not fail after this fix, however the ewasm target still doesn't work, because the emit stage is no implement.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-05 14:04:09 +0000 UTC
     </div>
 </div>
 

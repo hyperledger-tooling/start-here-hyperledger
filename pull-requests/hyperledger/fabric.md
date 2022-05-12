@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3408" class=".btn">#3408</a>
+            </td>
+            <td>
+                <b>
+                    Fix doc to handle $PWD containing whitepaces (backport #2298)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A backport of pull requset #2298
+
+Note: the file `docs/source/peer-chaincode-devmode.md` does not exist in release-2.2, so I deleted it from the commit.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-12 14:39:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3406" class=".btn">#3406</a>
+            </td>
+            <td>
+                <b>
+                    Update README build badge link
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Documentation update
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-12 13:18:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3404" class=".btn">#3404</a>
             </td>
             <td>
@@ -247,32 +302,6 @@ Checklist (DELETE AFTER READING):
     </table>
     <div class="right-align">
         Created At 2022-05-10 05:43:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3397" class=".btn">#3397</a>
-            </td>
-            <td>
-                <b>
-                    Update "main" branch references to "release-2.2"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Waleed Mortaja <waleedmortaja@protonmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-09 22:18:11 +0000 UTC
     </div>
 </div>
 
