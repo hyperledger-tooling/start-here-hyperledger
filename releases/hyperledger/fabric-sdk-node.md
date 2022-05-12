@@ -15,30 +15,42 @@ permalink: /releases/hyperledger/fabric-sdk-node
         <tr>
             <td colspan="2">
                 <b>
-                    v1.4.19
+                    v1.4.20
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.4.19
+                    v1.4.20
                 </span>
             </td>
             <td>
-                This is a maintenance release that updates the [jsrsasign](https://www.npmjs.com/package/jsrsasign) dependency version to address a security vulnerability in RSA signature validation:
+                ## Changes
 
-- [CVE-2021-30246](https://github.com/advisories/GHSA-27fj-mc8w-j9wg)
+This is a maintenance release containing the following enhancements:
 
-Note that the Node SDK does not perform RSA signature validation and so should not have been impacted by this vulnerability.
+- Support for Node 14 and 16.
+- Loosened Node engines requirements to versions >=10.13.0.
+- Add configurable `eventHandlerOptions.endorseTimeout` property to the Gateway connect options.
+
+## Security fixes
+
+The following security vulnerability is addressed:
+
+- [CVE-2022-21803](https://nvd.nist.gov/vuln/detail/CVE-2022-21803)
+
+## New Contributors
+* @takayuki-nagai made their first contribution in https://github.com/hyperledger/fabric-sdk-node/pull/565
+
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-sdk-node/releases/tag/v1.4.19" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-sdk-node/releases/tag/v1.4.20" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-01-19 07:55:03 +0000 UTC
+        Created At 2022-05-12 06:56:59 +0000 UTC
     </span>
 </div>
 
