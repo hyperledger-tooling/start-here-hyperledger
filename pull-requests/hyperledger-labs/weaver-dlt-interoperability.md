@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/243" class=".btn">#243</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/258" class=".btn">#258</a>
             </td>
             <td>
                 <b>
-                    Minor Fixes in workflows and dependabot updates
+                    Changes to accommodate various lock (hash) methods
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                1. Added Dependabot updates in this PR.
-2. Fixed Deploy Docs workflow.
-3. Added workflow to publish corda packages.
-4. Added another job in fabric workflow tests, to test interopcc changes without publishing.
-5. Fix Corda-Interop-App not able to build in case of github packages.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-20 06:54:26 +0000 UTC
+        Created At 2022-05-12 04:31:11 +0000 UTC
     </div>
 </div>
 

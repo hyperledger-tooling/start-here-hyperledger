@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3790" class=".btn">#3790</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/3794" class=".btn">#3794</a>
             </td>
             <td>
                 <b>
-                    separate list for non-code maintainers
+                    Fix for node returns 5 nodes in 4 node network
                 </b>
             </td>
         </tr>
@@ -27,25 +27,12 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Separate the non-code maintainers out and add comments indicating which github group they need to be in.
-
-Since this PR is a formatting change, not a membership change, I propose that the 2 week notice period is not required.
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+                This change needs to be tested against a test net and maybe mainnet before it can be merged into main.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-05 03:15:20 +0000 UTC
+        Created At 2022-05-06 05:16:45 +0000 UTC
     </div>
 </div>
 
@@ -53,11 +40,11 @@ Since this PR is a formatting change, not a membership change, I propose that th
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3789" class=".btn">#3789</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/3793" class=".btn">#3793</a>
             </td>
             <td>
                 <b>
-                    add constraint for jnr-posix dependency
+                    Add code hash check to fast sync
                 </b>
             </td>
         </tr>
@@ -66,23 +53,30 @@ Since this PR is a formatting change, not a membership change, I propose that th
                 
             </td>
             <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
-add constraint to upgrade jnr-posix transitive dependency
+## PR description
+
+add  a check in CodeNodeDataRequest to ensure code is not only present, but matches the expected hash.  This is necessary for bonsai databases since the code is stored by account hash rather than code hash.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
 
 ## Documentation
 
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-05 01:38:38 +0000 UTC
+        Created At 2022-05-05 22:28:48 +0000 UTC
     </div>
 </div>
 
