@@ -1,13 +1,13 @@
 
-[258](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/258) Changes to accommodate various lock (hash) methods
+[3241](https://github.com/hyperledger/aries-framework-go/pull/3241) feat: add an option to disable required properties for CredentialParse.
 
-[1535](https://github.com/hyperledger/burrow/pull/1535) Archive Burrow
+[2201](https://github.com/hyperledger/iroha/pull/2201) [schema]: Expose `RegistrableBox` as a `Value` variant.
 
-[205](https://github.com/hyperledger-labs/fabric-operations-console/pull/205) rebuild safelist when validating create-peer api
+[314](https://github.com/hyperledger-labs/fablo/pull/314) Support TLS for CA
 
-[405](https://github.com/hyperledger-labs/orion-server/pull/405) Fix missing db in operation provenance
+[340](https://github.com/hyperledger-labs/go-perun/pull/340) Dispute test: Use e.Version instead e.State.Version
 
-[55](https://github.com/hyperledger-labs/PerformanceSandBox/pull/55) resolve #50
+[3828](https://github.com/hyperledger/besu/pull/3828) Return Invalid forkchoice state if fcU contains invalid finalizedBlockHash or safeBlockHash
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

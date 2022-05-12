@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/mirbft
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/107" class=".btn">#107</a>
+                PR <a href="https://github.com/hyperledger-labs/mirbft/pull/108" class=".btn">#108</a>
             </td>
             <td>
                 <b>
-                    Clean up go.mod
+                    Research
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/mirbft
                 
             </td>
             <td>
-                Signed-off-by: Matej Pavlovic <matopavlovic@gmail.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-13 12:53:53 +0000 UTC
+        Created At 2022-05-12 08:37:55 +0000 UTC
     </div>
 </div>
 

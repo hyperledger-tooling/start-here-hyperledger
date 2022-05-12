@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/216" class=".btn">#216</a>
+                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/217" class=".btn">#217</a>
             </td>
             <td>
                 <b>
-                    Replace dep on fftm+core with new firefly-common package
+                    Add fly-id based idempotency for LevelDB (as implemented for MongoDB)
                 </b>
             </td>
         </tr>
@@ -27,21 +27,18 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
                 
             </td>
             <td>
-                We ended up pulling in a huge tree of dependencies  by the definitions for the FFCAPI being FireFly Transaction Manager, which depends then on FireFly Core for types. Now everything has moved to FireFly Common, we have a much slimmer set of deps to pull in.
+                The `fly-id` (/`kld-id`) query param for idempotent submission of transactions, using an external ID combined with `fly-acktype=receipt` (/`kld-acktype`), functions based on the DB requiring uniquness.
 
-Also renamed `ffc` package to `ffcapiconnector` on feedback that `ffc` was too vague.
+LevelDB doesn't have this as a first class construct, so we need to implement it at the ethconnect code layer.
+ 
+Solving this e2e meant implementing an `overwrite` option through the stack, to pick between "keep trying to insert, with overwrite" functionality when storing the final reply, vs. "try inserting, and fail immediately" functionality when storing the initial `acktype=receipt`.
 
-Depends on (go.mod pulls these in directly):
-- https://github.com/hyperledger/firefly-common/pull/4
-- https://github.com/hyperledger/firefly/pull/791
-
-Also see:
-- https://github.com/hyperledger/firefly-transaction-manager/pull/6
+I also found an unrelated issue with the in-memory receipt store, where it was not retaining _any_ history by default when configured via YAML. A real pain for FireFly CLI based environments.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-05 01:47:29 +0000 UTC
+        Created At 2022-05-11 00:38:14 +0000 UTC
     </div>
 </div>
 
