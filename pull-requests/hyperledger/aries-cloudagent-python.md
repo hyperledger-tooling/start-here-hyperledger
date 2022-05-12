@@ -14,6 +14,86 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1771" class=".btn">#1771</a>
+            </td>
+            <td>
+                <b>
+                    0.7.4-rc2 update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-11 18:27:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1770" class=".btn">#1770</a>
+            </td>
+            <td>
+                <b>
+                    Some ReadTheDocs File updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-11 16:59:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1769" class=".btn">#1769</a>
+            </td>
+            <td>
+                <b>
+                    feat: event and webhook on keylist update stored
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds emission of an event and webhook on keylist update stored. This event simply completes the feedback loop for mediation related actions and enables the controller to keep track of mediation routing state.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-11 13:47:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1761" class=".btn">#1761</a>
             </td>
             <td>
@@ -33,34 +113,6 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     </table>
     <div class="right-align">
         Created At 2022-05-05 18:37:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1757" class=".btn">#1757</a>
-            </td>
-            <td>
-                <b>
-                    Prover - verification outcome from presentation ack message
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: shaangill025 <gill.shaanjots@gmail.com>
-- resolve #1754 
-- Both v1 and v2
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-03 16:01:53 +0000 UTC
     </div>
 </div>
 

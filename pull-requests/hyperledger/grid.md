@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1420" class=".btn">#1420</a>
+            </td>
+            <td>
+                <b>
+                    Add submission struct
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport-triage</span><span class="chip">main</span>
+            </td>
+            <td>
+                Adds the struct that represents a batch submission. This will be used by
+the future submitter and queuer components.
+
+Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-11 22:04:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1419" class=".btn">#1419</a>
+            </td>
+            <td>
+                <b>
+                    Use actix-rt library for testing actix async
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport-triage</span><span class="chip">main</span>
+            </td>
+            <td>
+                Switch from tokio to actix-rt for actix async tests so the versions
+don't clash with tokio's version.
+
+Signed-off-by: Lee Bradley <bradley@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-09 21:25:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1416" class=".btn">#1416</a>
             </td>
             <td>
@@ -27,7 +85,7 @@ permalink: /pull-requests/hyperledger/grid
                 <span class="chip">main</span>
             </td>
             <td>
-                This adds a trait for a component resource of the REST API to build and submit batches to an upstream URL. This will be used by endpoints that accept batches, in order to process generic `TransactionPayload`s. 
+                This adds a trait for a component of the REST API that submits batches. It will take in a generic bytes representation of the batch to be submitted (or batch list) and other information pertaining to the batch to be persisted by Grid. This will be used by endpoints that accept batches, in order to process generic `TransactionPayload`s to store them as batches in Grid's DB, or to send them to an upstream server for further handling. 
             </td>
         </tr>
     </table>
@@ -56,7 +114,6 @@ permalink: /pull-requests/hyperledger/grid
                 Adds the url_resolver submitter subcomponent and the batch_submission
 module structure that contains it.
 
-Dependencies: #1413
 Resolves: #1414
 
 Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
@@ -65,118 +122,6 @@ Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2022-05-05 16:19:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1413" class=".btn">#1413</a>
-            </td>
-            <td>
-                <b>
-                    Add scope_id and specific batch structs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-triage</span><span class="chip">main</span>
-            </td>
-            <td>
-                Adds the `ScopeId` trait and the `GlobalScopeId` and `ServiceScopeId` structs. Also adds batch structs specific to the scope IDs and code from Splinter 0.6 for `FullyQualifiedServiceId`.
-
-These will be required in future sub-components.
-
-Resolves: #1406 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-04 21:50:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1411" class=".btn">#1411</a>
-            </td>
-            <td>
-                <b>
-                    Lint dockerfiles
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-triage</span><span class="chip">main</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-03 18:42:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1403" class=".btn">#1403</a>
-            </td>
-            <td>
-                <b>
-                    Finish implementing boxed batch tracking store
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-triage</span><span class="chip">main</span>
-            </td>
-            <td>
-                This "finishes" implementation of the batch tracking store by
-    implementing the methods for the implementation of the boxed batch
-    tracking store. These were previously left as unimplemented for ease of
-    updating the operations as they were being implemented.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-02 18:41:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1402" class=".btn">#1402</a>
-            </td>
-            <td>
-                <b>
-                    Update batch tracking store doc comments
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-triage</span><span class="chip">main</span>
-            </td>
-            <td>
-                This updates the doc comments for the batch tracking store methods to be
-    up to date with the current implementation.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-02 18:33:31 +0000 UTC
     </div>
 </div>
 

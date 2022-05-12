@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/220" class=".btn">#220</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/221" class=".btn">#221</a>
             </td>
             <td>
                 <b>
-                    Added MIME type image/png for credential attributes
+                    Support non revoked on attribute level
                 </b>
             </td>
         </tr>
@@ -28,14 +28,11 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
             </td>
             <td>
                 **Short description of what this resolves:**
-
-With this PR, credentials with attributes of MIME type 'image/png' can now be stored and retrieved.
+Added support for proof request with non revoked on attribute level.
 
 **Changes proposed in this pull request:**
-
-- Added Support for MIME type image/png.
-- Value of attributes with MIME type 'image/png' is the image encoded in base64.
-- Added Test for storing credential with attributes of MIME type 'image/png'.
+Adjusted "BuildRevocationStatesAsync" function of "DefaultProofService".
+Adjusted test in "RevocationTests"
 
 **Fixes**: #
 
@@ -43,7 +40,7 @@ With this PR, credentials with attributes of MIME type 'image/png' can now be st
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-17 13:54:50 +0000 UTC
+        Created At 2022-05-11 08:36:51 +0000 UTC
     </div>
 </div>
 

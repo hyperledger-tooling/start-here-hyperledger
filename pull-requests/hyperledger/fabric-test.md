@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-test
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/377" class=".btn">#377</a>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/379" class=".btn">#379</a>
             </td>
             <td>
                 <b>
-                    Bump CouchDB to v3.2
+                    Update CODEOWNERS
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-test
                 
             </td>
             <td>
-                Update CouchDB docker images to v3.2.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+                Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-03 15:49:07 +0000 UTC
+        Created At 2022-05-11 18:45:32 +0000 UTC
     </div>
 </div>
 

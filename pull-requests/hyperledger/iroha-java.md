@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/218" class=".btn">#218</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/220" class=".btn">#220</a>
             </td>
             <td>
                 <b>
-                    Iroha-210: refactoring
+                    Fix/iroha 213
                 </b>
             </td>
         </tr>
@@ -27,16 +27,18 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                - CompletableFuture has been replaced (except Java intended classes)
-- ktor version has been updated
-- async client classes for usage in Java
-- findDomainKeyValueByIdAndKey impl
-- some refactoring
+                Changes:
+1. Register event trigger refactoring
+2. Cherry-pick iroha-219 issue schema changes
+3. Added in-memory changes to iroha_data_model types that contains "data::filters" before generating code. For example this:
+iroha_data_model::events::data::filters::FilterOpt<iroha_data_model::events::data::filters::IdFilter<iroha_data_model::account::Id>>
+Becomes:
+iroha_data_model::events::data::filters::FilterOptIdFilterAccountId
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-04 07:26:41 +0000 UTC
+        Created At 2022-05-11 12:10:55 +0000 UTC
     </div>
 </div>
 

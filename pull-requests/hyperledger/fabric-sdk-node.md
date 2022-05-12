@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/574" class=".btn">#574</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/576" class=".btn">#576</a>
             </td>
             <td>
                 <b>
-                    Update dependencies
+                    Revert to snapshot publishing following release
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-05 10:13:58 +0000 UTC
+        Created At 2022-05-12 07:52:21 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/573" class=".btn">#573</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/575" class=".btn">#575</a>
             </td>
             <td>
                 <b>
-                    Update package versions
+                    Release v1.4.20
                 </b>
             </td>
         </tr>
@@ -53,17 +53,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                Also:
-
-- Use latest @grpc/grpc-js.
-- Move service aggregation fabric.proto file up one level within fabric-protos to ease updating of protos.
-
-Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
+                Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-03 13:00:28 +0000 UTC
+        Created At 2022-05-11 16:46:46 +0000 UTC
     </div>
 </div>
 

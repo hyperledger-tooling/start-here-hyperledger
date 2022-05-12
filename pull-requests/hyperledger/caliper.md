@@ -14,6 +14,97 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1332" class=".btn">#1332</a>
+            </td>
+            <td>
+                <b>
+                    Upgraded node-sdk binding for fabric-v1-lts from 1.4.19 to 1.4.20
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Node SDK v1.4.20 relaxes the Node version check to >=10.13.0, so should be happy with any later Node version, even though only the LTS releases are “supported”
+
+This upgrade will help remove all the warnings about node versions on caliper.
+
+Signed-off-by: fraVlaca <ocsenarf@outlook.com>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-12 10:39:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1331" class=".btn">#1331</a>
+            </td>
+            <td>
+                <b>
+                    disable logging debug to file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                To ensure that caliper manager and workers are at their most performant
+out of the box, this disables logging debug output to a file
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-11 16:12:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1330" class=".btn">#1330</a>
+            </td>
+            <td>
+                <b>
+                    [Doc] document the new peers property in fabric network config file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also remove references to `type: local` from benchmark files
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-10 16:03:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1329" class=".btn">#1329</a>
             </td>
             <td>
@@ -61,76 +152,6 @@ Documentation still to be provided
     </table>
     <div class="right-align">
         Created At 2022-05-06 15:08:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1328" class=".btn">#1328</a>
-            </td>
-            <td>
-                <b>
-                    Ensure that connector errors finishes caliper transactions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                A Scenario was discovered where if you send a single txn and the
-connector throws an error then that single txn never finishes and the
-worker loops forever waiting for that transaction to finish.
-
-eg in the workload
-
-```
-invokerIdentity: 'unknownuser'
-```
-
-example benchmark
-```
-test:
-  name: fixed-asset-test
-  description: >-
-    This is a test yaml for the existing fixed-asset benchmarks
-  workers:
-    type: local
-    number: 1
-  rounds:
-    - label: empty-contract-evaluate
-      chaincodeID: fixed-asset
-      txNumber: 1
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 2
-      workload:
-        module: benchmarks/api/fabric/workloads/empty-contract.js
-        arguments:
-          chaincodeID: fixed-asset
-          consensus: false
-```
-
-In the wider support for connectors though the caliper framework should
-ensure that connectors that either don't handle errors or throw errors
-should make sure that the submission is registered as a failure (which
-is what a connector would do if it did catch an error)
-
-This fix ensures that any error received will mark a transaction as
-finished
-
-closes #1068
-
-Signed-off-by: D <d_kelsey@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-04 08:43:37 +0000 UTC
     </div>
 </div>
 

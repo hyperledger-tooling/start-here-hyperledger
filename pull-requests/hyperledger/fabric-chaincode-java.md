@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/236" class=".btn">#236</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/239" class=".btn">#239</a>
             </td>
             <td>
                 <b>
-                    upgrade otel to latest version
+                    Update README.md
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
+                Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-12 00:33:04 +0000 UTC
+        Created At 2022-05-11 18:04:07 +0000 UTC
     </div>
 </div>
 
