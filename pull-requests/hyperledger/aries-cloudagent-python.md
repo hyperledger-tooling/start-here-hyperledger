@@ -90,29 +90,3 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1761" class=".btn">#1761</a>
-            </td>
-            <td>
-                <b>
-                    Use default wallet type askar for alice/faber demo and bdd tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-05 18:37:58 +0000 UTC
-    </div>
-</div>
-

@@ -14,61 +14,17 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2201" class=".btn">#2201</a>
-            </td>
-            <td>
-                <b>
-                    [schema]: Expose `RegistrableBox` as a `Value` variant.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Aleksandr Petrosyan <a-p-petrosyan@yandex.ru>
-
-
-
-### Description of the Change
-
-Add `Value::RegistrableBox`
-
-### Issue
-
-None
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-SDK
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-12 12:13:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2198" class=".btn">#2198</a>
             </td>
             <td>
                 <b>
-                    Iroha2 dev
+                    DCO fix
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">iroha2</span><span class="chip">CI</span>
             </td>
             <td>
                 <!-- You will not see HTML commented line in Pull Request body -->
@@ -617,7 +573,7 @@ Maybe non-trivial for multi-files smartcontracts
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">Refactor</span>
             </td>
             <td>
                 Signed-off-by: Aleksandr Petrosyan <a-p-petrosyan@yandex.ru>
@@ -635,17 +591,28 @@ Maybe non-trivial for multi-files smartcontracts
 
 ### Description of the Change
 
-Small PR to address #2149. 
+- Expose `Mintable` and `MintabilityError` in `prelude`. 
+- Replace `#[log]` annotations with explicit trace instructions. 
+- Add `Transfer` implementations for `Asset`s of `Fixed` and `u128` types. 
+- Refactor `Error` implementations. 
+- Refactor `data_model`. 
+
 
 ### Issue
 
-Closes 2149
+Closes #2149
+Closes #2036
+Closes #2186 
 
 <!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
 
 ### Benefits
 
 Smaller code.
+
+### Drawbacks
+
+None. 
             </td>
         </tr>
     </table>
@@ -800,40 +767,6 @@ volumes:
     </table>
     <div class="right-align">
         Created At 2022-05-06 09:19:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2180" class=".btn">#2180</a>
-            </td>
-            <td>
-                <b>
-                    [documentation] #2113: Document features in Cargo.toml files
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">Documentation</span>
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-### Description of the Change
-
-Provide descriptions of features in `Cargo.toml` files
-
-### Issue
-
-Closes #2113 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-06 06:10:58 +0000 UTC
     </div>
 </div>
 
