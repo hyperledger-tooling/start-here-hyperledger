@@ -486,35 +486,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/800" class=".btn">#800</a>
-            </td>
-            <td>
-                <b>
-                    Permit immutable on function type contract variables
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Attributes on contract variables have special handling due to function
-types, and function types never had immutable implemented.
-
-Fixes https://github.com/hyperledger-labs/solang/issues/799
-Found in https://github.com/hyperledger-labs/solang/pull/787
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-05 21:11:29 +0000 UTC
-    </div>
-</div>
-
