@@ -150,31 +150,3 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/83" class=".btn">#83</a>
-            </td>
-            <td>
-                <b>
-                    Publish node module
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix main ci workflow and add workflow to publish the node bindings
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-05 16:54:02 +0000 UTC
-    </div>
-</div>
-

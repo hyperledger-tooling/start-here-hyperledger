@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1335" class=".btn">#1335</a>
+            </td>
+            <td>
+                <b>
+                    upgraded node-sdk binding for fabric-v2-lts from 2.2.11 to 2.2.12
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                upgraded to new 2.2 node-sdk that specifies node 16
+
+Signed-off-by: fraVlaca <ocsenarf@outlook.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-12 16:46:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1332" class=".btn">#1332</a>
             </td>
             <td>

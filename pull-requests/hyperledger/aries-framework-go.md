@@ -33,7 +33,7 @@ permalink: /pull-requests/hyperledger/aries-framework-go
 Add an option for CredentialParse to use customized vc default schema.
 
 **Description:**
-[[Link to the GitHub issue it solves (if any)]](https://github.com/trustbloc/vcs/issues/725)
+https://github.com/trustbloc/vcs/issues/725
 
 **Summary:**
 

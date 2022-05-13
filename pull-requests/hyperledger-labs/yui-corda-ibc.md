@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/27" class=".btn">#27</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/29" class=".btn">#29</a>
             </td>
             <td>
                 <b>
-                    Bump up Corda version to v4.8.5
+                    Repair flows test
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
                 
             </td>
             <td>
-                close #28 
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-27 07:26:39 +0000 UTC
+        Created At 2022-05-13 03:52:57 +0000 UTC
     </div>
 </div>
 
