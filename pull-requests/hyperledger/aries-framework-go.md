@@ -83,7 +83,7 @@ CreateDefaultSchema function added to simplify the creation of custom default sc
             </td>
             <td>
                 <b>
-                    [WIP- do not merge] refactor: set DIDcomm V1 VS V2 Endpoint support
+                    refactor: set DIDcomm V1 VS V2 Endpoint support
                 </b>
             </td>
         </tr>
