@@ -73,7 +73,7 @@ Note: the file `docs/source/peer-chaincode-devmode.md` does not exist in release
             </td>
             <td>
                 <b>
-                    Bump Go to 1.18.1
+                    Bump Go to 1.18.2
                 </b>
             </td>
         </tr>
@@ -82,7 +82,11 @@ Note: the file `docs/source/peer-chaincode-devmode.md` does not exist in release
                 
             </td>
             <td>
-                Bump Go to 1.18.1
+                Bump Go to 1.18.2
+
+Update staticcheck to a version that works with Go 1.18.
+Fix code issues with the new staticcheck.
+Fix unit test for new TLS messages and assertion changes in Go 1.18.
 
 Signed-off-by: David Enyeart <enyeart@us.ibm.com>
 
