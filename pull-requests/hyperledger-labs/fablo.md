@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/316" class=".btn">#316</a>
+            </td>
+            <td>
+                <b>
+                    Download binaries
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Grzegorz Hejduk <grzegorz.hejduk@softwaremill.com>
+
+#245
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-13 11:03:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fablo/pull/315" class=".btn">#315</a>
             </td>
             <td>

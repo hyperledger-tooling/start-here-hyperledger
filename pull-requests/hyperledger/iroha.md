@@ -14,17 +14,17 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2198" class=".btn">#2198</a>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2209" class=".btn">#2209</a>
             </td>
             <td>
                 <b>
-                    DCO fix
+                    I2 dco
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span><span class="chip">CI</span>
+                <span class="chip">iroha2</span>
             </td>
             <td>
                 <!-- You will not see HTML commented line in Pull Request body -->
@@ -77,7 +77,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-12 06:53:56 +0000 UTC
+        Created At 2022-05-13 08:58:35 +0000 UTC
     </div>
 </div>
 
@@ -237,7 +237,7 @@ Add documentation for metrics: https://github.com/outoftardis/iroha/blob/doc-met
 
 ### Issue
 
-Closes #1280 
+Partially addresses #1280 
             </td>
         </tr>
     </table>
@@ -708,65 +708,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2022-05-06 21:37:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2183" class=".btn">#2183</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #1883: Remove embedded configuration files.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Aleksandr Petrosyan <a-p-petrosyan@yandex.ru>
-
-### Description of the Change
-
-Removed sample configurations from the docker file. Adjusted docker compose to work from the root of the repository clone. 
-
-### Issue
-
-Closes #1883 
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-No problems with unspecified or incorrectly specified configuraion/genesis. 
-
-### Possible Drawbacks
-
-More involved process of running an iroha peer. 
-
-### Usage Examples or Tests *[optional]*
-
-```
-docker compose up
-```
-
-Inside existing docker compose fields, please add a line with the following: 
-
-```
-volumes: 
- - <path-to-config-and-genesis>:config
-```
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-06 09:19:06 +0000 UTC
     </div>
 </div>
 
