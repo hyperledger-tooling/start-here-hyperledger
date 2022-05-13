@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/339" class=".btn">#339</a>
-            </td>
-            <td>
-                <b>
-                    App channel test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds an app-channel test to go-perun core, which was previously only run in the Ethereum backend.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-06 12:19:41 +0000 UTC
-    </div>
-</div>
-

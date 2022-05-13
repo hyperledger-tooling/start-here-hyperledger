@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1593" class=".btn">#1593</a>
+            </td>
+            <td>
+                <b>
+                    Fixes #1592 & removal of old build scripts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1592 & removal of old build scripts
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-13 08:45:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-plenum/pull/1590" class=".btn">#1590</a>
             </td>
             <td>
