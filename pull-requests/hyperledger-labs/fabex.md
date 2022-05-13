@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabex
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabex/pull/109" class=".btn">#109</a>
+            </td>
+            <td>
+                <b>
+                    Refactoring merge (draft)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-13 16:06:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabex/pull/108" class=".btn">#108</a>
             </td>
             <td>

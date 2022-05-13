@@ -47,34 +47,3 @@ New Release Workflow:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1748" class=".btn">#1748</a>
-            </td>
-            <td>
-                <b>
-                    fix importlib-metadata dependency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Ubuntu 20.04</span>
-            </td>
-            <td>
-                This should fix the wrong dependency in the indy-node .deb package.
-
-> The following packages have unmet dependencies:
->  indy-node : Depends: importlib-metadata (< 3.0) but it is not installable
-
-Signed-off-by: mgmgwi <guido.wischrop@mgm-tp.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-06 12:52:41 +0000 UTC
-    </div>
-</div>
-

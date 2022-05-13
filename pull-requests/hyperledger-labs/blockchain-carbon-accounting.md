@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/543" class=".btn">#543</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/548" class=".btn">#548</a>
             </td>
             <td>
                 <b>
-                    Merge latest changes from Opentaps
+                    Latest changes
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-05 01:58:33 +0000 UTC
+        Created At 2022-05-13 14:24:10 +0000 UTC
     </div>
 </div>
 

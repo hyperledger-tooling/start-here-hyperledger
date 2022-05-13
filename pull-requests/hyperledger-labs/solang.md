@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/836" class=".btn">#836</a>
+            </td>
+            <td>
+                <b>
+                    Parse `(new ty){value: 1}(args)`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                solc accepts this syntax, so should we.
+    
+Fixes https://github.com/hyperledger-labs/solang/issues/818
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-13 13:13:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/835" class=".btn">#835</a>
             </td>
             <td>

@@ -14,6 +14,72 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/739" class=".btn">#739</a>
+            </td>
+            <td>
+                <b>
+                    Feature/fabric builder k8s
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This (DRAFT) PR adds support for the [fabric-builder-k8s](https://github.com/hyperledgendary/fabric-builder-k8s) in the Kube Test Network.
+
+fabric-builder-k8s is the missing "easy button" for working with Hyperledger Fabric Chaincode.  The builder is triggered by the existing "external builder" peer lifecycle events, managing the lifecycle of CC routines as pods under an RBAC-enabled service account.
+
+With the k8s builder approach, chaincode ... "just works." 
+
+### Background Context 
+
+- [fabric-builder-k8s](https://github.com/hyperledgendary/fabric-builder-k8) - general overview
+- Fabric Community Contributor Call [11 March ](https://wiki.hyperledger.org/download/attachments/62234113/20220511_contributors_meeting.mp4?api=v2) (> 0:11:00) k8s builder feature playback. 
+- Fabric GitHub Discussion #3407 : [Default External Builder Approach for Kubernetes](https://github.com/hyperledger/fabric/discussions/3407)
+
+
+### Installation / Activation
+```
+export TEST_NETWORK_CHAINCODE_BUILDER="k8s"
+
+network kind 
+network cluster init
+network up 
+network channel create
+...
+```
+
+### Sample Chaincode Activation
+
+- Set up the Kube test network as above 
+- Install conga-nft-contract, starting at [running-peer-commands](https://github.com/hyperledgendary/fabric-builder-k8s/blob/main/docs/TEST_NETWORK_K8S.md#running-peer-commands)
+
+
+### Open Items (this PR)
+
+- E2E / functional test: 
+  - build a KIND cluster, Fabric network, and channel 
+  - compile chaincode sample (asset transfer) and docker image 
+  - prepare a CC package referencing the CC docker image 
+  - use `peer` CLI commands to instantiate, invoke, and query the CC 
+
+- Improve the "release management" aspects of the builder source binaries: 
+  - install via [pre-built binaries](https://github.com/hyperledgendary/fabric-builder-k8s/releases/tag/v0.1.0)?  (exec 'wget' in peer pod?)
+  - install via [pre-built image](test-network-k8s/kube/org1/org1-install-k8s-builder.yaml)? (k8s job w/ copy to PV)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-13 16:42:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/738" class=".btn">#738</a>
             </td>
             <td>
@@ -211,38 +277,6 @@ Signed-off-by: Obadah Hammoud <obadah.hammoud@outlook.com>
     </table>
     <div class="right-align">
         Created At 2022-05-09 17:06:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/731" class=".btn">#731</a>
-            </td>
-            <td>
-                <b>
-                    Updated ERC tokens samples
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - added check for math oveflow where necessary - Closes #701
-- added name, symbol and default token options to all go erc sample that were missing these options
-- renamed `SetOptions()` to `Initialize()`
-- made sure that you need to initialize contract and its options (call `Initialize()`) first before calling any contract functions
-- made sure `Inizialized()` can be called only once
-
-Signed-off-by: fraVlaca <ocsenarf@outlook.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-06 16:42:10 +0000 UTC
     </div>
 </div>
 
