@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/441" class=".btn">#441</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/443" class=".btn">#443</a>
             </td>
             <td>
                 <b>
-                    [#issue-439] Fix the issue of long debug info in http response body.
+                    Fix (security) : Path Traversal Bug
                 </b>
             </td>
         </tr>
@@ -27,29 +27,16 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                [#issue-439] Fix the issue of long debug info in http response body.
-
-Cause of issue:
-
-```python3
-# at src/dashboard/src/utils/request.js
-Line 48: err(e), status=status.HTTP_409_CONFLICT
-
-```
-err(e) contains all the debug information, and should be replaced with a better error message.
-
-Solution:
-replace object e with better error messages like 'Email Aleady exists!'.
-
-Additional Features:
-I implemented notifications for login and register error message in dashboard.
-
-Signed-off-by: ada2468 <jx2161@nyu.edu>
+                Unsanitized input from ```r.headers``` and ```content_type = r.headers["content-type"]
+    extension = mimetypes.guess_extension(content_type)
+    file_name = "%s%s" % (uuid4().hex, extension)
+    target_file = os.path.join(target_dir, secure(file_name))``` resource  flows into ```open(target_file, "wb").write(r.content)```, where it is used as a path. This may result in a Path Traversal vulnerability and allow an attacker to write arbitrary files.
+Signed-off-by: Bhaskar <dev@bhaskar.email>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-07 02:10:24 +0000 UTC
+        Created At 2022-05-14 14:46:35 +0000 UTC
     </div>
 </div>
 
