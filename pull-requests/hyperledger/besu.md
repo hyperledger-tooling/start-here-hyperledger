@@ -14,6 +14,57 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3835" class=".btn">#3835</a>
+            </td>
+            <td>
+                <b>
+                    Ref tests 10.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+## PR description
+Upgrade reference Tests to 10.3
+
+10.3 revision of reference tests has notable changes
+
+* Nonce can be up to 2^64-1, with some opcode and validity interactions 
+  specced in eip-2681
+* Wei fields can be up to 2^256, tests check for rollover
+* VM Tests were removed
+* Legacy Tests were removed
+
+Includes changes from PR #3747 
+ 
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [X] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-14 07:28:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3834" class=".btn">#3834</a>
             </td>
             <td>
@@ -978,43 +1029,6 @@ Part of #3659
     </table>
     <div class="right-align">
         Created At 2022-05-08 12:40:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3799" class=".btn">#3799</a>
-            </td>
-            <td>
-                <b>
-                    Log host and port when starting metrics service.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-The metrics service start message was logging the port twice, rather than the host and port as expected.  This changes the log message to print the correct information in standard host:port format.
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-07 11:04:34 +0000 UTC
     </div>
 </div>
 
