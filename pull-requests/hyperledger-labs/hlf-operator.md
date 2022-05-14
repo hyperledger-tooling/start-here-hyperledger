@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/85" class=".btn">#85</a>
-            </td>
-            <td>
-                <b>
-                    Change goreleaser org
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Change organization to release the organization from `kfsoftware` to `hyperledger-labs`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-06 20:15:44 +0000 UTC
-    </div>
-</div>
-
