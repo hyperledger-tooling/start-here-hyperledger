@@ -472,29 +472,3 @@ Signed-off-by: Ry Jones <ry@linux.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/burrow/pull/1534" class=".btn">#1534</a>
-            </td>
-            <td>
-                <b>
-                    add config go fuzz to docker
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-07 12:00:11 +0000 UTC
-    </div>
-</div>
-
