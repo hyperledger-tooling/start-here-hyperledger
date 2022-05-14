@@ -167,34 +167,3 @@ permalink: /releases/hyperledger-labs/hlf-operator
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    Version 1.6.3-beta4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v1.6.3-beta4
-                </span>
-            </td>
-            <td>
-                ## Changelog
-* 375a596 change goreleaser repo (#85)
-
-
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger-labs/hlf-operator/releases/tag/v1.6.3-beta4" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-05-06 20:16:34 +0000 UTC
-    </span>
-</div>
-
