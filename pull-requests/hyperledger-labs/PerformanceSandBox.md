@@ -166,29 +166,3 @@ permalink: /pull-requests/hyperledger-labs/PerformanceSandBox
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/48" class=".btn">#48</a>
-            </td>
-            <td>
-                <b>
-                    fix up with badge
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sam Yuan <yy19902439@126.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-07 12:46:14 +0000 UTC
-    </div>
-</div>
-
