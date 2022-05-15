@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/orion-server
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">replication</span>
             </td>
             <td>
                 Signed-off-by: Yoav Tock <tock@il.ibm.com>
