@@ -14,11 +14,67 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2216" class=".btn">#2216</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #2215: Make nightly-2022-04-20 optional for `cargo build`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Aleksandr Petrosyan <a-p-petrosyan@yandex.ru>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+Removed the requirement for having the `nightly-2022-04-20` installed with the right components for building Iroha. The client test with the WASM smartcontract is now only ran if the `+nightly` toolchain was used to run cargo. 
+
+### Issue
+
+Closes #2215
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+Easier to compile for users. 
+
+### Possible Drawbacks
+
+None
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-16 13:21:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2214" class=".btn">#2214</a>
             </td>
             <td>
                 <b>
-                    Added query for `FindAssetDefinitionById`
+                    [feature] #2125: Add query for `FindAssetDefinitionById`
                 </b>
             </td>
         </tr>
@@ -814,68 +870,6 @@ Maybe non-trivial for multi-files smartcontracts
     </table>
     <div class="right-align">
         Created At 2022-05-09 19:22:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2185" class=".btn">#2185</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #2186: Add transfer instructions for all asset types
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">Refactor</span>
-            </td>
-            <td>
-                Signed-off-by: Aleksandr Petrosyan <a-p-petrosyan@yandex.ru>
-
-<!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-- Expose `Mintable` and `MintabilityError` in `prelude`. 
-- Replace `#[log]` annotations with explicit trace instructions. 
-- Add `Transfer` implementations for `Asset`s of `Fixed` and `u128` types. 
-- Refactor `Error` implementations. 
-- Refactor `data_model`. 
-
-
-### Issue
-
-Closes #2149
-Closes #2036
-Closes #2186 
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-Smaller code.
-
-### Drawbacks
-
-None. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-09 14:06:14 +0000 UTC
     </div>
 </div>
 

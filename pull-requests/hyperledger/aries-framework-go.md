@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3242" class=".btn">#3242</a>
+            </td>
+            <td>
+                <b>
+                    feat: Add multi-tag support to mem DB
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The mem DB now supports queries with multiple tags using the '&&' operator.
+
+Signed-off-by: Bob Stasyszyn <Bob.Stasyszyn@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-16 14:49:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3241" class=".btn">#3241</a>
             </td>
             <td>
@@ -46,64 +75,6 @@ CreateDefaultSchema function added to simplify the creation of custom default sc
     </table>
     <div class="right-align">
         Created At 2022-05-12 12:34:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3240" class=".btn">#3240</a>
-            </td>
-            <td>
-                <b>
-                    feat: EDV provider - query for multiple tags using AND operators
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-09 16:22:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3239" class=".btn">#3239</a>
-            </td>
-            <td>
-                <b>
-                    refactor: set DIDcomm V1 VS V2 Endpoint support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change sets back the original DIDComm V1's Endpoint logic that was supperceded with the Endpoint struct update for DIDComm V2.
-With this change, both ServiceEndpoint structures for V1 and V2 are not supported.
-
-closes #3219
-
-Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-09 14:02:51 +0000 UTC
     </div>
 </div>
 
