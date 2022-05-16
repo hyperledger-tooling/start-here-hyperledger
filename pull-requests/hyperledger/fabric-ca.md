@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/288" class=".btn">#288</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/290" class=".btn">#290</a>
             </td>
             <td>
                 <b>
-                    Make the debug flag visible in --help and docs
+                    escape special charecters that can be set through the command line ar…
                 </b>
             </td>
         </tr>
@@ -27,18 +27,26 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                #### Type of change
+                …guments
 
-- Documentation update
+Signed-off-by: Rohan Shrothrium <rohan.shrothrium@intellecteu.com>
+
+#### Type of change
+
+- Bug fix
 
 #### Description
 
-The `-d` flag is used by default in test/demo materials such as hyperledger/fabric-samples, so having the the flag be hidden from the documentation causes confusion. Remove 'hide'; add a warning for why users might not want to use it, since those drawbacks were probably the primary reason it was hidden before.
+When we initialise a fabric ca server with an admin and adminpw, if they have special characters the ca behaves not as expected.
+These special characters can be in anything that can be passed through the command line arguments.
+This PR is meant to escape these special characters in the `yml` file.
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-14 18:32:42 +0000 UTC
+        Created At 2022-05-15 19:16:44 +0000 UTC
     </div>
 </div>
 

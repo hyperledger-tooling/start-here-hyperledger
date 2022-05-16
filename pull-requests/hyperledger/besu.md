@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3837" class=".btn">#3837</a>
+            </td>
+            <td>
+                <b>
+                    Fcu verify payload attributes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Adds payload attributes checks to EngineForkchoiceUpdated and returns INVALID_PAYLOAD_ATTRIBUTES error if any of them should be invalid.
+
+## Fixed Issue(s)
+"fixes #3836 "
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-15 22:19:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3835" class=".btn">#3835</a>
             </td>
             <td>
@@ -756,7 +796,7 @@ Fixes #3801
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamRevenant</span>
             </td>
             <td>
                 Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
@@ -948,43 +988,6 @@ Copied from 22.4.0-RC1 for visibility
     </table>
     <div class="right-align">
         Created At 2022-05-09 03:10:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3803" class=".btn">#3803</a>
-            </td>
-            <td>
-                <b>
-                    ignore failing test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-This test is consistently passing locally but failing in CI. Ticket here to figure it out - but in the meantime, ignoring it to unblock other PRs. 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-08 23:31:13 +0000 UTC
     </div>
 </div>
 
