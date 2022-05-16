@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-go/pull/42" class=".btn">#42</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-go/pull/43" class=".btn">#43</a>
             </td>
             <td>
                 <b>
-                    Bump google.golang.org/grpc from 1.23.0 to 1.46.0
+                    Bump google.golang.org/grpc from 1.23.0 to 1.46.2
                 </b>
             </td>
         </tr>
@@ -27,11 +27,17 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [google.golang.org/grpc](https://github.com/grpc/grpc-go) from 1.23.0 to 1.46.0.
+                Bumps [google.golang.org/grpc](https://github.com/grpc/grpc-go) from 1.23.0 to 1.46.2.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/grpc/grpc-go/releases">google.golang.org/grpc's releases</a>.</em></p>
 <blockquote>
+<h2>Release v1.46.2</h2>
+<h1>Bug Fixes</h1>
+<ul>
+<li>client: fix potential panic during RPC retries (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5323">#5323</a>)</li>
+<li>xds: fix leak of deleted CDS resources from CSDS view (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5339">#5339</a>)</li>
+</ul>
 <h2>Release 1.46.0</h2>
 <h1>New Features</h1>
 <ul>
@@ -98,10 +104,6 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
 </li>
 </ul>
 <h1>Behavior Changes</h1>
-<ul>
-<li>server: convert context errors returned by service handlers to status with the correct status code (<code>Canceled</code> or <code>DeadlineExceeded</code>), instead of <code>Unknown</code> (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5156">#5156</a>)</li>
-</ul>
-<h1>New Features</h1>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -109,23 +111,23 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
 <details>
 <summary>Commits</summary>
 <ul>
+<li><a href="https://github.com/grpc/grpc-go/commit/46da11bc8bf12ea2b86d0783cd92e098ba0ccc99"><code>46da11b</code></a> update version to 1.46.2</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/10b610c0beafee6e13e5a1a518ad24b2cad33625"><code>10b610c</code></a> xdsclient/csds: fix leaked metadata (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5339">#5339</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/1303098b8521eea74c76e55dcde0cb3c4712be65"><code>1303098</code></a> client: fix potential panic during RPC retries (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5323">#5323</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/beb2eafa906da5eba1d0d7d80e906c6ad0b46c13"><code>beb2eaf</code></a> Change version to 1.46.1-dev (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5297">#5297</a>)</li>
 <li><a href="https://github.com/grpc/grpc-go/commit/e8d06c51a523ba75f052cfaa56a1b8e0583ac589"><code>e8d06c5</code></a> Change version to 1.46.0 (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5296">#5296</a>)</li>
 <li><a href="https://github.com/grpc/grpc-go/commit/efbd542a4f9947d6b1392f538e3b0dd3d1c94b90"><code>efbd542</code></a> gcp/observability: correctly test this module in presubmit tests (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5300">#5300</a>) (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5307">#5307</a>)</li>
 <li><a href="https://github.com/grpc/grpc-go/commit/4467a29dbb390764f9792ce61af53017d621eb7c"><code>4467a29</code></a> gcp/observability: implement logging via binarylog (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5196">#5196</a>)</li>
 <li><a href="https://github.com/grpc/grpc-go/commit/18fdf542fab01f909e600763267ef13770a222d5"><code>18fdf54</code></a> cmd/protoc-gen-go-grpc: allow hooks to modify client structs and service hand...</li>
 <li><a href="https://github.com/grpc/grpc-go/commit/337b815c4150a12d15349cb9be5f22fb391918de"><code>337b815</code></a> interop: build client without timeout; add logs to help debug failures (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5294">#5294</a>)</li>
 <li><a href="https://github.com/grpc/grpc-go/commit/e583b196ce4717fdc024dd9432f8e4b229cc76e7"><code>e583b19</code></a> xds: Add RLS in xDS e2e test (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5281">#5281</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/0066bf69deb33b0e5bee4de69090c3ef8f6991aa"><code>0066bf6</code></a> grpc: perform graceful switching of LB policies in the <code>ClientConn</code> by defaul...</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/3cccf6a43b55b4a089e832213b0e34df859e1978"><code>3cccf6a</code></a> xdsclient: always backoff between new streams even after successful stream (#...</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/4e780933f85a4d0f6903d1a5bb57bb7c882e611d"><code>4e78093</code></a> xds: ignore routes with unsupported cluster specifiers (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5269">#5269</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/99aae3442dbe8495247dda07a6b1c8cda98accca"><code>99aae34</code></a> cluster manager: Add Graceful Switch functionality to Cluster Manager (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5265">#5265</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/grpc/grpc-go/compare/v1.23.0...v1.46.0">compare view</a></li>
+<li>Additional commits viewable in <a href="https://github.com/grpc/grpc-go/compare/v1.23.0...v1.46.2">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=google.golang.org/grpc&package-manager=go_modules&previous-version=1.23.0&new-version=1.46.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=google.golang.org/grpc&package-manager=go_modules&previous-version=1.23.0&new-version=1.46.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -156,7 +158,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-25 04:34:14 +0000 UTC
+        Created At 2022-05-16 04:30:15 +0000 UTC
     </div>
 </div>
 
