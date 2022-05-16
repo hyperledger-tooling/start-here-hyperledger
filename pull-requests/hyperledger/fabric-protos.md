@@ -14,6 +14,122 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/95" class=".btn">#95</a>
+            </td>
+            <td>
+                <b>
+                    Addressed lint warnings in Blockattestation service
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Addressed protobuf lint wanring in Blockattestation proto file.
+
+
+Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-16 10:57:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/94" class=".btn">#94</a>
+            </td>
+            <td>
+                <b>
+                    Publish generated API documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Previous attempt failed with…
+
+ssh: Could not resolve hostname publish-pages: Temporary failure in name resolution
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-16 10:13:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/93" class=".btn">#93</a>
+            </td>
+            <td>
+                <b>
+                    Add comment to buf.yaml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Linting rules should not be ingnored in new files
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-16 09:21:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/92" class=".btn">#92</a>
+            </td>
+            <td>
+                <b>
+                    New service and messages for block attestation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                New block attestation service for BFT block replication and verification feature. 
+
+Issue: https://github.com/hyperledger/fabric/issues/3413
+
+Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-16 07:25:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-protos/pull/91" class=".btn">#91</a>
             </td>
             <td>
@@ -312,38 +428,6 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-05-10 10:13:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/85" class=".btn">#85</a>
-            </td>
-            <td>
-                <b>
-                    Fix missing node module content
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The generated content was not shared between jobs in the GitHub actions workflow
-
-These changes keep the whole node build and publish in a single job since uploading/downloading generated artifacts between jobs is time consuming
-
-The new structure also means that the Java build can run independently
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-09 10:31:22 +0000 UTC
     </div>
 </div>
 

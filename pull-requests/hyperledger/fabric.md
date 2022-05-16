@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3420" class=".btn">#3420</a>
+            </td>
+            <td>
+                <b>
+                    Log proposal response differences
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In the gateway, if proposal responses from different endorsing peers don’t match, then it’s very difficult for the end user to diagnose why.  This commit adds extra logging to help identify the cause of the mismatch.
+
+If the log level is set to ‘debug’ for the ‘gateway’, then the proposal response payloads are unmarshalled and analysed to log specific differences between individual key/values in the read/write sets, SBE policy write differences, event differences and chaincode response differences.  For private collections, only the hashes are logged if they are different.
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-16 12:06:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3418" class=".btn">#3418</a>
             </td>
             <td>

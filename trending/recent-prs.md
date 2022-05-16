@@ -1,13 +1,13 @@
 
-[43](https://github.com/hyperledger/fabric-chaincode-go/pull/43) Bump google.golang.org/grpc from 1.23.0 to 1.46.2
+[2214](https://github.com/hyperledger/iroha/pull/2214) Added query for `FindAssetDefinitionById`
 
-[444](https://github.com/hyperledger/cello/pull/444) Support M1 chip development.
+[3420](https://github.com/hyperledger/fabric/pull/3420) Log proposal response differences
 
-[3837](https://github.com/hyperledger/besu/pull/3837) Fcu verify payload attributes
+[221](https://github.com/hyperledger/iroha-java/pull/221) Iroha-219: update to iroha2:stable
 
-[290](https://github.com/hyperledger/fabric-ca/pull/290) escape special charecters that can be set through the command line ar…
+[101](https://github.com/hyperledger/iroha-javascript/pull/101) misc: update scripts so `data-model-schema` package should be published
 
-[2213](https://github.com/hyperledger/iroha/pull/2213) [feature] #2056: Add a derive proc macro crate for AssetValueType enum
+[239](https://github.com/hyperledger-labs/fabric-token-sdk/pull/239) tokengen: make GeneratorFunc independent from the global variables #238
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
