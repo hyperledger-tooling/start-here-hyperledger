@@ -143,39 +143,3 @@ Signed-off-by: Yoav Tock <tock@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/399" class=".btn">#399</a>
-            </td>
-            <td>
-                <b>
-                    fix backward link to deleted key in provenance
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span>
-            </td>
-            <td>
-                When the key is deleted from the world state in
-a one block and the same key is added in the future
-block, there should be two links (previous/next) between old deleted
-value and the new value. Due to a mistake in the unit-test,
-we missed to detect the bug in the production code.
-
-Now with the integration test, we could detect this bug.
-To get the last deleted value to construct the next/previous
-link with the new value, we need to pass the correct key. The
-existing code passes the incorrect key to find the last deleted
-key node.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-09 07:27:34 +0000 UTC
-    </div>
-</div>
-

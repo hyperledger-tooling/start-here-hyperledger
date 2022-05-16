@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2214" class=".btn">#2214</a>
+            </td>
+            <td>
+                <b>
+                    Added query for `FindAssetDefinitionById`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Fixes #2125 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-16 12:11:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2213" class=".btn">#2213</a>
             </td>
             <td>
@@ -175,6 +201,70 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2022-05-13 17:41:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2210" class=".btn">#2210</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #2103: support querying for blocks and transactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+Added `FindAllBlocks` and `FindAllTransactions` queries as described in #2103 
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Issue
+
+No way to query for e.g. block explorer to query for older blocks
+
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+Support querying for list of all blocks and transactions
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+
+As implemented in this PR, FindAllBlocks query introduces a block representation in `iroha_data_schema` parallel to one already present in `iroha_core`.
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, ### Possible Drawbacksexplicitly mention this (write None) -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-13 15:34:14 +0000 UTC
     </div>
 </div>
 
@@ -377,6 +467,103 @@ Closes #2119
     </table>
     <div class="right-align">
         Created At 2022-05-11 15:45:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2195" class=".btn">#2195</a>
+            </td>
+            <td>
+                <b>
+                    [documentation] #1280: Document Iroha metrics
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Documentation</span>
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+
+### Description of the Change
+
+Add documentation for metrics: https://github.com/outoftardis/iroha/blob/doc-metrics/docs/source/guides/metrics.md
+
+### Issue
+
+Partially addresses #1280 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-11 14:40:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2194" class=".btn">#2194</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #1149: Block amount.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+Take what was the previous file name, prepend with zeroes, then interpret that as dir + file name. So block files are ex 2/003, 0/032 et cetera.
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Issue
+
+#1149 
+
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+Most operating systems will freak out if there are too many files in a directory. This solves that.
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+
+We still iterate over all existing files to figure out which block file we want to edit/create. I think this needs to change in the long run. We should using a simple formula map from block number to block file number. That way you only touch the the file you want to operate on. That is a seperate issue from #1149 though, so the point is irrelevant for this PR.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-11 12:16:31 +0000 UTC
     </div>
 </div>
 
@@ -627,6 +814,68 @@ Maybe non-trivial for multi-files smartcontracts
     </table>
     <div class="right-align">
         Created At 2022-05-09 19:22:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2185" class=".btn">#2185</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #2186: Add transfer instructions for all asset types
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">Refactor</span>
+            </td>
+            <td>
+                Signed-off-by: Aleksandr Petrosyan <a-p-petrosyan@yandex.ru>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+- Expose `Mintable` and `MintabilityError` in `prelude`. 
+- Replace `#[log]` annotations with explicit trace instructions. 
+- Add `Transfer` implementations for `Asset`s of `Fixed` and `u128` types. 
+- Refactor `Error` implementations. 
+- Refactor `data_model`. 
+
+
+### Issue
+
+Closes #2149
+Closes #2036
+Closes #2186 
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+Smaller code.
+
+### Drawbacks
+
+None. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-09 14:06:14 +0000 UTC
     </div>
 </div>
 

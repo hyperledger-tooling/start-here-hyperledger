@@ -374,36 +374,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/815" class=".btn">#815</a>
-            </td>
-            <td>
-                <b>
-                    doccomment are allowed anywhere
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                	contract c {}
-	/// foo
-
-The comment foo is not attached to anything.
-
-This fixes https://github.com/hyperledger-labs/solang/issues/812
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-09 11:40:05 +0000 UTC
-    </div>
-</div>
-
