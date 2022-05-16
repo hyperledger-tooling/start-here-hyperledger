@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/218" class=".btn">#218</a>
+            </td>
+            <td>
+                <b>
+                    Perform the address book lookup and cached RPC healthcheck in parallel
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently the addressbook lookup is performed on the single-threaded processing, before we dispatch a concurrent worker to the `inflight` action. As there is a JSON/RPC healthcheck call that is part of this (`net_version`) this is inefficient.
+
+So this PR moves it to the concurrent worker, after `inflight` is generated.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-16 15:47:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/217" class=".btn">#217</a>
             </td>
             <td>

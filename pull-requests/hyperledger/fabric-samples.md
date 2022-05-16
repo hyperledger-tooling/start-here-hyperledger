@@ -252,31 +252,3 @@ Finally, you can contact us on https://mergify.com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/733" class=".btn">#733</a>
-            </td>
-            <td>
-                <b>
-                    Update marbles_chaincode.go example
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Running examples should work off-the-shelf. CouchDB now forces to use user_name & password for authentication. This patch fixes an existing example (marbles_chaincode) to work with the current requirements of CouchDB.
-
-Signed-off-by: Obadah Hammoud <obadah.hammoud@outlook.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-09 17:06:34 +0000 UTC
-    </div>
-</div>
-

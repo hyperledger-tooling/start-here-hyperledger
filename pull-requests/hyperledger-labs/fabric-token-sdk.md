@@ -54,7 +54,8 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             </td>
             <td>
                 - broken links fixed
-- additional documentation to fungible
+- additional documentation to fungible, including configuration description and how to use embed the stack in an already existing application node.
+- added new GitHub action to check the links in the md files
 
 Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>

@@ -76,7 +76,7 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
             <td>
                 <b>
-                    Add comment to buf.yaml
+                    Update build
                 </b>
             </td>
         </tr>
@@ -85,7 +85,10 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
                 
             </td>
             <td>
-                Linting rules should not be ingnored in new files
+                Update linting rules to exclude PACKAGE_VERSION_SUFFIX and add comment
+that new files should not be excluded from remaining rules
+
+Add specific has to run breaking change detection against until there is a better release process
 
 Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
