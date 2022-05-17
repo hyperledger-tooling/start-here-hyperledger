@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1346" class=".btn">#1346</a>
+            </td>
+            <td>
+                <b>
+                    Replaced bit.ly link with reference to bootstrap.sh
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Replaced bit.ly with reference bootstrap.sh as per the build (but without the -k option)
+Signed-off-by: fraVlaca <ocsenarf@outlook.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-17 13:00:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1345" class=".btn">#1345</a>
             </td>
             <td>
@@ -216,35 +243,6 @@ Signed-off-by: D <d_kelsey@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-05-11 16:12:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1330" class=".btn">#1330</a>
-            </td>
-            <td>
-                <b>
-                    [Doc] document the new peers property in fabric network config file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also remove references to `type: local` from benchmark files
-
-Signed-off-by: D <d_kelsey@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-10 16:03:10 +0000 UTC
     </div>
 </div>
 

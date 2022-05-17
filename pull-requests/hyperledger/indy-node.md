@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1754" class=".btn">#1754</a>
+            </td>
+            <td>
+                <b>
+                    Pinned indy-shared-gha reference
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                https://github.com/hyperledger/indy-shared-gha/issues/8 needs to be done first.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-17 14:17:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-node/pull/1752" class=".btn">#1752</a>
             </td>
             <td>
@@ -37,43 +63,6 @@ Signed-off-by: Philipp Schlarb <p.schlarb@esatus.com>
     </table>
     <div class="right-align">
         Created At 2022-05-16 10:29:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1749" class=".btn">#1749</a>
-            </td>
-            <td>
-                <b>
-                    New Release Workflow & Gha refactoring
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Ubuntu 20.04</span>
-            </td>
-            <td>
-                Refactoring of GHA Workflows and New Release Workflow.
-PR and Push flows now only trigger, when python files have changed.
-
-WIP: 
-+ Workflow for automated node upgrades after plenum updates
-+ indy-test-automation integration
-
-New Release Workflow:
-![release-workflow](https://user-images.githubusercontent.com/87540518/167651914-06c07b62-b685-4cca-adf3-f007b34346e3.png)
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-10 14:29:40 +0000 UTC
     </div>
 </div>
 

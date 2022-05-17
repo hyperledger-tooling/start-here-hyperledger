@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/837" class=".btn">#837</a>
+            </td>
+            <td>
+                <b>
+                    Refactor emit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In order to solve #807, I need to implement changes in Binary. This PR removes Binary from `emit/mod.rs`, so that I can work on it without modifying the `TargetRuntime`.
+
+The issue of LLVM renaming our types happens because we load the stdlib multiple times. Instead, we must load it once, build an LLVM module and link this same module to all other ones we create. Once this PR is merged, I'll submit my changes.
+
+In addition, I split the contract test into three functions, so that they run in parallel and make our testing faster. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-17 12:41:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/836" class=".btn">#836</a>
             </td>
             <td>
@@ -27,8 +57,14 @@ permalink: /pull-requests/hyperledger-labs/solang
                 
             </td>
             <td>
-                solc accepts this syntax, so should we.
-    
+                Three different parse tree for callargs:
+
+	(new D{value: 1})();
+	(new D){value: 1}();
+	new D{value: 1}();
+
+solc accepts this syntax, so should we.
+
 Fixes https://github.com/hyperledger-labs/solang/issues/818
             </td>
         </tr>
@@ -156,89 +192,6 @@ Fixes #829
     </table>
     <div class="right-align">
         Created At 2022-05-11 13:43:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/826" class=".btn">#826</a>
-            </td>
-            <td>
-                <b>
-                    Don't run the linux-arm64 tests on PRs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                These tests are run on a single traverse ten64, and this takes 38
-minutes. This is too long is holding up PR merges and test completion.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-10 18:15:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/825" class=".btn">#825</a>
-            </td>
-            <td>
-                <b>
-                    Do not load from storage when reference is needed
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR fixes #789. We were loading a value from storage whenever we encountered a storage reference. However, we should not load if we want the reference, not the value.
-
-To solve this, modified `fn destructure_load` and renamed it to `fn cast_and_try_load`. Another option would be merging such a function with `codegen::Expression::cast`, however I am not sure if the cast function should be allowed to manage the CFG.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-10 17:01:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/824" class=".btn">#824</a>
-            </td>
-            <td>
-                <b>
-                    WIP: Partial support for Yul
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR enables partial support for Yul in code generation. Tests are still missing.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-10 13:29:40 +0000 UTC
     </div>
 </div>
 

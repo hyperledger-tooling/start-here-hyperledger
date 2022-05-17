@@ -1,13 +1,13 @@
 
-[2220](https://github.com/hyperledger/iroha/pull/2220) [documentation] #2193: Update Kagami documentation
+[210](https://github.com/hyperledger-labs/fabric-operations-console/pull/210) add support for stitch to decode utf8 characters
 
-[1345](https://github.com/hyperledger/caliper/pull/1345) Peer Gateway Connector Txs Error messsage: added output of err.details array
+[2223](https://github.com/hyperledger/iroha/pull/2223) [ci] #2222: Combine `coverage` job and unit tests
 
-[3426](https://github.com/hyperledger/fabric/pull/3426) New Block Attestation Orderer GRPC service
+[319](https://github.com/hyperledger-labs/fablo/pull/319) Use nvm (if present) to set valid node version for chaincode build
 
-[1344](https://github.com/hyperledger/caliper/pull/1344) Explicitly bind grpc-js for fabric 2.4 connector
+[206](https://github.com/hyperledger/fabric-sdk-java/pull/206) Update docs
 
-[2219](https://github.com/hyperledger/iroha/pull/2219) [documentation] #2192: Review contributing guidelines
+[742](https://github.com/hyperledger/fabric-samples/pull/742) ERC token samples: Added final fixes to erc token samples and documentation
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
