@@ -14,6 +14,99 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1345" class=".btn">#1345</a>
+            </td>
+            <td>
+                <b>
+                    Peer Gateway Connector Txs Error messsage: added output of err.details array
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #1339 
+
+Signed-off-by: fraVlaca <ocsenarf@outlook.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-17 11:04:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1344" class=".btn">#1344</a>
+            </td>
+            <td>
+                <b>
+                    Explicitly bind grpc-js for fabric 2.4 connector
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #1338 
+Signed-off-by: fraVlaca <ocsenarf@outlook.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-17 10:16:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1342" class=".btn">#1342</a>
+            </td>
+            <td>
+                <b>
+                    Fixes caliper hang of unfinished transactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This addresses a long standing issue in caliper where a round will hang
+waiting for unfinished transactions that have actually finished but not
+been recorded.
+
+It also addresses an issue where the fabric connectors try to change the
+time_create value of a TxStatus but in fact actually doesn't change the
+creation time.
+
+closes #1068
+closes #1340
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-17 07:43:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1336" class=".btn">#1336</a>
             </td>
             <td>
