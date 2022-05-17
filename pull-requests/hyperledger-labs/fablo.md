@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/316" class=".btn">#316</a>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/319" class=".btn">#319</a>
             </td>
             <td>
                 <b>
-                    Download binaries
+                    Use nvm (if present) to set valid node version for chaincode build
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fablo
                 
             </td>
             <td>
-                Signed-off-by: Grzegorz Hejduk <grzegorz.hejduk@softwaremill.com>
-
-#245
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-13 11:03:34 +0000 UTC
+        Created At 2022-05-17 16:34:32 +0000 UTC
     </div>
 </div>
 

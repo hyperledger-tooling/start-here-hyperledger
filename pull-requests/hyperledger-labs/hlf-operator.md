@@ -64,29 +64,3 @@ Add link to discord for discussions and questions
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/88" class=".btn">#88</a>
-            </td>
-            <td>
-                <b>
-                    Add krew release bot
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Automatic release of kubectl plugin to krew-index.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-10 17:50:24 +0000 UTC
-    </div>
-</div>
-

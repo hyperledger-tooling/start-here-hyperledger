@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1595" class=".btn">#1595</a>
+            </td>
+            <td>
+                <b>
+                    Pinned indy-shared-gha reference
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                https://github.com/hyperledger/indy-shared-gha/issues/8 needs to be done first.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-17 14:07:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-plenum/pull/1594" class=".btn">#1594</a>
             </td>
             <td>
@@ -61,35 +88,6 @@ Signed-off-by: Philipp Schlarb <p.schlarb@esatus.com>
     </table>
     <div class="right-align">
         Created At 2022-05-13 08:45:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1590" class=".btn">#1590</a>
-            </td>
-            <td>
-                <b>
-                    New Release Workflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Ubuntu 20.04</span>
-            </td>
-            <td>
-                https://github.com/hyperledger/indy-shared-gha/pull/4 needs to be merged first for this PR to work.
-
-![release-workflow](https://user-images.githubusercontent.com/87540518/167628915-ef944775-2f28-4289-966b-60df97ab1888.png)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-10 12:41:32 +0000 UTC
     </div>
 </div>
 
