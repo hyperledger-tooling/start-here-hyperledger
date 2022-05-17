@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3844" class=".btn">#3844</a>
+            </td>
+            <td>
+                <b>
+                    settle down panda
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Justin Florentine <justin+github@florentine.us>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-17 01:02:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3840" class=".btn">#3840</a>
+            </td>
+            <td>
+                <b>
+                    don't wrap and re-throw, pollutes logs and causing exception is handl…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …ed correctly
+
+Signed-off-by: Justin Florentine <justin+github@florentine.us>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-16 20:03:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3839" class=".btn">#3839</a>
             </td>
             <td>
@@ -825,40 +880,6 @@ Fixes #3801
     </table>
     <div class="right-align">
         Created At 2022-05-10 08:22:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3811" class=".btn">#3811</a>
-            </td>
-            <td>
-                <b>
-                    [MAINTAINERS] new non-code maintainers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamRevenant</span>
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-I propose adding Helen George and Matt Nelson to Besu non-code maintainers. They have started helping manage, categorize bugs and other Github issues for Besu, as well as collaborating with the existing maintainers to help coordinate the development and roadmap planning of Besu.
-
-Becoming non-code maintainers, they will be able to label bugs and close relevant tickets, helping to keep the project tidy.
-
-Voting ends two weeks from today.
-
-For more information on this process see the Becoming a non-code Maintainer section in the MAINTAINERS.md file.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-09 23:17:31 +0000 UTC
     </div>
 </div>
 
