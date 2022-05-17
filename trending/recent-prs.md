@@ -1,13 +1,13 @@
 
-[24](https://github.com/hyperledger-labs/yui-docs/pull/24) Bump cross-fetch from 2.2.5 to 2.2.6 in /contracts/minitoken/solidity
+[2220](https://github.com/hyperledger/iroha/pull/2220) [documentation] #2193: Update Kagami documentation
 
-[25](https://github.com/hyperledger-labs/yui-docs/pull/25) Bump ejs from 3.1.6 to 3.1.8 in /samples/minitoken-besu-ethereum
+[1345](https://github.com/hyperledger/caliper/pull/1345) Peer Gateway Connector Txs Error messsage: added output of err.details array
 
-[22](https://github.com/hyperledger-labs/yui-docs/pull/22) Bump cross-fetch from 2.2.5 to 2.2.6 in /samples/minitoken-besu-ethereum
+[3426](https://github.com/hyperledger/fabric/pull/3426) New Block Attestation Orderer GRPC service
 
-[23](https://github.com/hyperledger-labs/yui-docs/pull/23) Bump ejs from 3.1.6 to 3.1.8 in /contracts/minitoken/solidity
+[1344](https://github.com/hyperledger/caliper/pull/1344) Explicitly bind grpc-js for fabric 2.4 connector
 
-[3848](https://github.com/hyperledger/besu/pull/3848) fix manifestDocker develop tag
+[2219](https://github.com/hyperledger/iroha/pull/2219) [documentation] #2192: Review contributing guidelines
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
