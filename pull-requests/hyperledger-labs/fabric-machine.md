@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-machine
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-machine/pull/25" class=".btn">#25</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-machine/pull/26" class=".btn">#26</a>
             </td>
             <td>
                 <b>
-                    VM Creation Setup
+                    Setup for Fabric v2.2 support
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-machine
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-22 04:45:50 +0000 UTC
+        Created At 2022-05-18 09:12:30 +0000 UTC
     </div>
 </div>
 

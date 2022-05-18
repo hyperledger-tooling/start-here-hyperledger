@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger-labs/fablo
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/313" class=".btn">#313</a>
-            </td>
-            <td>
-                <b>
-                    Attach fabric-ca-server-config.yaml as a volume
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-11 11:23:55 +0000 UTC
-    </div>
-</div>
-
