@@ -48,7 +48,7 @@ permalink: /pull-requests/hyperledger/iroha
 
 ### Benefits
 - [ ] Revival of the coverage
-- [x] Strict check if coverage is actually passed
+- [ ] Strict check if coverage is actually passed
 - [ ] Accuracy of cover rate #1683 #2148
 - [ ] Analysis and durability against flaky tests #2136
 - [ ] CI optimization #2222
