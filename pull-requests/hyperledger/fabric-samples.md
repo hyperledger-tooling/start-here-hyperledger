@@ -14,6 +14,86 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/746" class=".btn">#746</a>
+            </td>
+            <td>
+                <b>
+                    Update README.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #740 
+
+Signed-off-by: Ry Jones <ry@linux.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-18 15:07:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/745" class=".btn">#745</a>
+            </td>
+            <td>
+                <b>
+                    fix to replace 443 with NGINX_HTTPS_PORT
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                this fix replace hardcoded port 443 with NGINX_HTTPS_PORT which is useful in case ingress is installed on non conventional ports
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-18 13:53:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/744" class=".btn">#744</a>
+            </td>
+            <td>
+                <b>
+                    Fix typo in asset-transfer-basic
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Tommy TIAN <xtianae@connect.ust.hk>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-18 13:09:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/742" class=".btn">#742</a>
             </td>
             <td>
@@ -128,32 +208,6 @@ network channel create
     </table>
     <div class="right-align">
         Created At 2022-05-13 10:06:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/736" class=".btn">#736</a>
-            </td>
-            <td>
-                <b>
-                    Off-chain data sample using Fabric Gateway client API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-11 14:45:22 +0000 UTC
     </div>
 </div>
 
