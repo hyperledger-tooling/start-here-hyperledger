@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/23" class=".btn">#23</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/24" class=".btn">#24</a>
             </td>
             <td>
                 <b>
-                    Updated Readme as multiple topics now supported for data ingestion
+                    add capabilities config to channel creation
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
                 
             </td>
             <td>
-                Signed-off-by: Abhay Kishore <abhay.kishore@walmart.com>
+                Signed-off-by: weihong-ou <weihong.ou@walmart.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-14 11:56:14 +0000 UTC
+        Created At 2022-05-17 21:39:40 +0000 UTC
     </div>
 </div>
 

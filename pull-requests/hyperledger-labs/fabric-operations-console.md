@@ -225,39 +225,3 @@ This will fix the problem when a user creates a peer and the hostname of the CA 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/204" class=".btn">#204</a>
-            </td>
-            <td>
-                <b>
-                    allow zero length admin array for org
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
-
-#### Type of change
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-Historically Fabric required admin certs for an organization... somewhere around 1.4 when Node OU was introduced, admin certs in the orgs were no longer required. Adjusting the code to accommodate that
-
-https://github.com/hyperledger-labs/fabric-operations-console/issues/203
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-10 22:55:16 +0000 UTC
-    </div>
-</div>
-
