@@ -15,30 +15,31 @@ permalink: /releases/hyperledger-labs/hlf-operator
         <tr>
             <td colspan="2">
                 <b>
-                    Version 1.6.4
+                    Version 1.6.5-beta2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.6.4
+                    v1.6.5-beta2
                 </span>
             </td>
             <td>
                 ## Changelog
-* b74df24 Add krew release bot (#88)
-* 53da9bd Updated kubectl hlf plugin commands help (#87)
+* c9c050a fix helm chart deployment template
+* 5a29eb3 Update README.md (#92)
+* c98bff2 Fix getting-started (Add command for cleaning up the chaincode). (#90)
 
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/hlf-operator/releases/tag/v1.6.4" class=".btn">
+    <a href="https://github.com/hyperledger-labs/hlf-operator/releases/tag/v1.6.5-beta2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-05-10 17:51:19 +0000 UTC
+        Created At 2022-05-18 12:46:49 +0000 UTC
     </span>
 </div>
 
