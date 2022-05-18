@@ -157,33 +157,3 @@ network channel create
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/735" class=".btn">#735</a>
-            </td>
-            <td>
-                <b>
-                    test-network-k8s: Add CC debugging procedures for Linux
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In chaincode debugging guidance, using the Docker host alias `host.docker.internal` is assumed.
-But, the alias is not yet supported for Linux.
-So, this patch adds its alternate procedure for Linux.
-
-Signed-off-by: Tatsuya Sato <tatsuya.sato.so@hitachi.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-11 01:54:16 +0000 UTC
-    </div>
-</div>
-
