@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2224" class=".btn">#2224</a>
+            </td>
+            <td>
+                <b>
+                    [documentation] #2193: Update Parity Scale Decoder Tool documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Documentation</span>
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+
+### Description of the Change
+
+Updated README for Parity Scale Decoder Tool: https://github.com/outoftardis/iroha/tree/doc-psd/tools/parity_scale_decoder#parity-scale-decoder-tool
+
+### Issue
+
+Partially addresses #2193 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-18 07:23:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2223" class=".btn">#2223</a>
             </td>
             <td>
@@ -29,16 +63,21 @@ permalink: /pull-requests/hyperledger/iroha
             <td>
                 ### Description of the Change
 - [x] Escape workflow jobs for convenience during the draft
-- [x] Add `llvm-tools-preview` component to nightly channel @ `coverage`
-- [ ] Make `coverage` job fail when any inner step fails
-- [ ] Refactor from `grcov` to `cargo-llvm-cov`
-- [ ] Exclude integration tests from coverage profiling @ `coverage` #1683
-- [ ] Include UI tests to coverage profiling @ `coverage` #2148
-- [ ] Switch to `nextest` @ `coverage`
-- [ ] Switch to `nextest` @ `test` #2136
+- [x] Add `llvm-tools-preview` component to nightly channel in `coverage` job
+- [x] Make `coverage` job fail when any inner step fails
+<!-- - [x] Drop a component to confirm that `coverage` job fails -->
+<!-- - [x] Revert the drop -->
+- [x] Refactor from `grcov` to `cargo-llvm-cov`
+- [x] Exclude integration tests from coverage profiling #1683
+- [x] Switch to use stable channel in `coverage` job
+- [x] Include UI tests to coverage profiling #2148
+<!-- - [x] Drop a component to confirm that `coverage` job fails -->
+<!-- - [x] Revert the drop -->
+- [ ] Switch to `nextest` in `coverage` job
+- [ ] Switch to `nextest` in `test` job #2136
 - [ ] Combine `coverage` job and unit tests #2222
-- [ ] Switch to use stable channel?
 - [ ] Apply changes to other workflows than `I2::Dev::Tests`
+- [ ] Revert the escape
 
 ### Issue
 - Closes #1683
@@ -48,8 +87,8 @@ permalink: /pull-requests/hyperledger/iroha
 
 ### Benefits
 - [x] Revival of the coverage
-- [ ] Strict check if coverage is actually passed
-- [ ] Accuracy of cover rate #1683 #2148
+- [x] Strict check if coverage is actually passed
+- [x] Accuracy of cover rate #1683 #2148
 - [ ] Analysis and durability against flaky tests #2136
 - [ ] CI optimization #2222
 
@@ -807,104 +846,6 @@ Partially addresses #1280
     </table>
     <div class="right-align">
         Created At 2022-05-11 14:40:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2194" class=".btn">#2194</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #1149: Block amount.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                <!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-Take what was the previous file name, prepend with zeroes, then interpret that as dir + file name. So block files are ex 2/003, 0/032 et cetera.
-
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-### Issue
-
-#1149 
-
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-Most operating systems will freak out if there are too many files in a directory. This solves that.
-
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks
-
-We still iterate over all existing files to figure out which block file we want to edit/create. I think this needs to change in the long run. We should using a simple formula map from block number to block file number. That way you only touch the the file you want to operate on. That is a seperate issue from #1149 though, so the point is irrelevant for this PR.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-11 12:16:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2190" class=".btn">#2190</a>
-            </td>
-            <td>
-                <b>
-                    [documentation] #2181: Review README
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-### Description of the Change
-
-Review README. View file: https://github.com/outoftardis/iroha/tree/doc-readme-review#hyperledger-iroha
-
-### Issue
-
-Addresses #2181 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-11 07:56:45 +0000 UTC
     </div>
 </div>
 
