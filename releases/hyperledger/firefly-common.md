@@ -15,30 +15,33 @@ permalink: /releases/hyperledger/firefly-common
         <tr>
             <td colspan="2">
                 <b>
-                    v0.1.4
+                    v0.1.5
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.1.4
+                    v0.1.5
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Rename config.Prefix to config.Section by @awrichar in https://github.com/hyperledger/firefly-common/pull/6
+* Add support for config with arrays of arrays by @awrichar in https://github.com/hyperledger/firefly-common/pull/8
+* Add language tag to FFM, FFE, FFC, etc by @nguyer in https://github.com/hyperledger/firefly-common/pull/7
 
+## New Contributors
+* @nguyer made their first contribution in https://github.com/hyperledger/firefly-common/pull/7
 
-**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v0.1.3...v0.1.4
+**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v0.1.4...v0.1.5
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v0.1.4" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v0.1.5" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-05-06 16:05:03 +0000 UTC
+        Created At 2022-05-18 19:01:54 +0000 UTC
     </span>
 </div>
 
