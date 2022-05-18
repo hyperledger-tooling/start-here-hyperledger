@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/405" class=".btn">#405</a>
-            </td>
-            <td>
-                <b>
-                    Fix missing db in operation provenance
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-11 16:33:49 +0000 UTC
-    </div>
-</div>
-

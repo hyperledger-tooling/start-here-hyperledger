@@ -45,29 +45,3 @@ Updated the tutorial documentation (and also reformatted notes in various pages)
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/258" class=".btn">#258</a>
-            </td>
-            <td>
-                <b>
-                    Changes to accommodate various lock (hash) methods
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-12 04:31:11 +0000 UTC
-    </div>
-</div>
-

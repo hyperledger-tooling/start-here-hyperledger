@@ -14,6 +14,71 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2229" class=".btn">#2229</a>
+            </td>
+            <td>
+                <b>
+                    [refactor]: Move `TriggerSet` to `data_model`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Refactor</span>
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+Initially it suppose to close #1889 but in the middle of work it was decided to wait until we get dynamic wasm linking. Dynamic linking is important, cause it will remove `no_std` limitations from `data_model` and `TriggerSet` is not compatible with `no_std`.
+So this PR contains only `TriggerSet` moving to `data_model`. It should be useful for the future.
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Issue
+
+None
+
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+* `TriggerSet` now is stored there it should be
+* Errors produced by `TriggerSet` make more sense
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+
+None
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-18 15:54:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2224" class=".btn">#2224</a>
             </td>
             <td>
@@ -52,47 +117,41 @@ Partially addresses #2193
             </td>
             <td>
                 <b>
-                    [ci] #2222: Combine `coverage` job and unit tests
+                    [ci] #2222: Split tests by whether it involves coverage or not
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">iroha2</span><span class="chip">CI</span>
             </td>
             <td>
                 ### Description of the Change
-- [x] Escape workflow jobs for convenience during the draft
-- [x] Add `llvm-tools-preview` component to nightly channel in `coverage` job
-- [x] Make `coverage` job fail when any inner step fails
-<!-- - [x] Drop a component to confirm that `coverage` job fails -->
-<!-- - [x] Revert the drop -->
-- [x] Refactor from `grcov` to `cargo-llvm-cov`
-- [x] Exclude integration tests from coverage profiling #1683
-- [x] Switch to use stable channel in `coverage` job
-- [x] Include UI tests to coverage profiling #2148
-<!-- - [x] Drop a component to confirm that `coverage` job fails -->
-<!-- - [x] Revert the drop -->
-- [ ] Switch to `nextest` in `coverage` job
-- [ ] Switch to `nextest` in `test` job #2136
-- [ ] Combine `coverage` job and unit tests #2222
-- [ ] Apply changes to other workflows than `I2::Dev::Tests`
-- [ ] Revert the escape
+- Split tests into 3 jobs
+  - `checks`
+    - script checks
+    - Wasm build check
+  - `tests_with_coverage`
+    - unit tests #2222
+    - integration tests (in a broad sense; crate/tests/) except for client/tests/integration/
+  - `integration_tests` #1683
+    - integration tests (in a narrow sense; client/tests/integration/)
+- Move from `grcov` to `cargo-llvm-cov`
+- Include UI tests to coverage profiling #2148
 
 ### Issue
 - Closes #1683
-- Closes #2136
 - Closes #2148
 - Closes #2222
 
 ### Benefits
-- [x] Revival of the coverage
-- [x] Strict check if coverage is actually passed
-- [x] Accuracy of cover rate #1683 #2148
-- [ ] Analysis and durability against flaky tests #2136
-- [ ] CI optimization #2222
+- Revival of coverage
+- Visible coverage failure
+- Accuracy of cover rate by #1683 #2148
+- CI optimization by #2222
 
 ### Possible Drawbacks
+- Appearance of 5% or more regression in coverage due to the strict new standard
             </td>
         </tr>
     </table>
@@ -336,6 +395,7 @@ Removed the requirement for having the `nightly-2022-04-20` installed with the r
 ### Issue
 
 Closes #2215
+Opens #2225 
 
 <!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
 
@@ -778,74 +838,6 @@ cargo test --package iroha_client --test mod -- integration::queries::account::f
     </table>
     <div class="right-align">
         Created At 2022-05-11 20:32:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2196" class=".btn">#2196</a>
-            </td>
-            <td>
-                <b>
-                    [documentation] #2119: Add guidance on how to hot reload Iroha in a Docker container
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">Documentation</span>
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-### Description of the Change
-
-Add guidance on how to hot reload Iroha in a Docker container: https://github.com/outoftardis/iroha/blob/doc-hot-reload-guide/docs/source/guides/hot-reload.md
-
-### Issue
-
-Closes #2119 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-11 15:45:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2195" class=".btn">#2195</a>
-            </td>
-            <td>
-                <b>
-                    [documentation] #1280: Document Iroha metrics
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">Documentation</span>
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-### Description of the Change
-
-Add documentation for metrics: https://github.com/outoftardis/iroha/blob/doc-metrics/docs/source/guides/metrics.md
-
-### Issue
-
-Partially addresses #1280 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-11 14:40:00 +0000 UTC
     </div>
 </div>
 

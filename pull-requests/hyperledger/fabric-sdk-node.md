@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/575" class=".btn">#575</a>
-            </td>
-            <td>
-                <b>
-                    Release v1.4.20
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-11 16:46:46 +0000 UTC
-    </div>
-</div>
-

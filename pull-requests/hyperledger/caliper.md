@@ -14,6 +14,87 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1351" class=".btn">#1351</a>
+            </td>
+            <td>
+                <b>
+                    [Release 0.5.0] Documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-18 14:44:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1350" class=".btn">#1350</a>
+            </td>
+            <td>
+                <b>
+                    [Release 0.5.0] Update Changelog
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-18 14:44:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1349" class=".btn">#1349</a>
+            </td>
+            <td>
+                <b>
+                    [Release 0.5.0] Publish official release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-18 14:44:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1348" class=".btn">#1348</a>
             </td>
             <td>
@@ -246,36 +327,6 @@ Signed-off-by: fraVlaca <ocsenarf@outlook.com>
     </table>
     <div class="right-align">
         Created At 2022-05-12 10:39:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1331" class=".btn">#1331</a>
-            </td>
-            <td>
-                <b>
-                    disable logging debug to file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                To ensure that caliper manager and workers are at their most performant
-out of the box, this disables logging debug output to a file
-
-Signed-off-by: D <d_kelsey@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-11 16:12:32 +0000 UTC
     </div>
 </div>
 

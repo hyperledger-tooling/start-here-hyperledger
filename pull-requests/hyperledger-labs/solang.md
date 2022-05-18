@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/838" class=".btn">#838</a>
+            </td>
+            <td>
+                <b>
+                    Load stdlib only once
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes #807. We are now only loading the stdlib module only once and linking it against any other modules we create. Although LLVM types are global, I believe LLVM adds a `.0` to the end of the type name for disambiguation, because it does not check if two types of equal names represent the same structure in the memory. In this sense, whenever we load stdlib again, LLVM understands that is a totally new module and tries to disambiguate type names.
+
+Please, @seanyoung check if I did not remove any necessary pointer cast.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-18 14:31:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/837" class=".btn">#837</a>
             </td>
             <td>
@@ -162,36 +190,6 @@ Fixes https://github.com/hyperledger-labs/solang/issues/818
     </table>
     <div class="right-align">
         Created At 2022-05-12 15:21:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/831" class=".btn">#831</a>
-            </td>
-            <td>
-                <b>
-                    uint[1.111111E1111111111111] causes compiler to go into infinite loop
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The lexer tries to calculate 10^1111111111111 which will be a very large number. This will take a long time.
-    
-The lexer should not try to calculate numbers from strings, as this might fail and we do not want the lexer to give up, as no parsing and semantic analysis will be done.
-
-Fixes #829
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-11 13:43:32 +0000 UTC
     </div>
 </div>
 
