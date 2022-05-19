@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1352" class=".btn">#1352</a>
+            </td>
+            <td>
+                <b>
+                    Bump to 0.5.1-unstable release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-19 15:47:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1351" class=".btn">#1351</a>
             </td>
             <td>
@@ -267,34 +294,6 @@ Signed-off-by: D <d_kelsey@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-05-13 10:06:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1335" class=".btn">#1335</a>
-            </td>
-            <td>
-                <b>
-                    upgraded node-sdk binding for fabric-v2-lts from 2.2.11 to 2.2.12
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                upgraded to new 2.2 node-sdk that specifies node 16
-
-Signed-off-by: fraVlaca <ocsenarf@outlook.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-12 16:46:03 +0000 UTC
     </div>
 </div>
 

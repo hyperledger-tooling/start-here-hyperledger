@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
             </td>
             <td>
                 <b>
-                    Carbon tracker
+                    Carbon tracker merge
                 </b>
             </td>
         </tr>

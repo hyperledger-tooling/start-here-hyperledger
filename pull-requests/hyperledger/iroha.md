@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2236" class=".btn">#2236</a>
+            </td>
+            <td>
+                <b>
+                    [documentation] #2193: Update README for macro crate
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Documentation</span>
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+
+### Description of the Change
+
+Updated `macro` readme: https://github.com/outoftardis/iroha/tree/doc-macro/macro#iroha-macros
+
+### Issue
+
+Partially addresses #2193 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-19 14:09:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2235" class=".btn">#2235</a>
             </td>
             <td>
