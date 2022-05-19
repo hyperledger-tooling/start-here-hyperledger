@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/96" class=".btn">#96</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Add binding generation for Go apiv2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-17 16:11:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-protos/pull/95" class=".btn">#95</a>
             </td>
             <td>
@@ -76,7 +102,7 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
             <td>
                 <b>
-                    Update build
+                    Update repository documentation and lint rules
                 </b>
             </td>
         </tr>
@@ -88,7 +114,7 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
                 Update linting rules to exclude PACKAGE_VERSION_SUFFIX and add comment
 that new files should not be excluded from remaining rules
 
-Add specific has to run breaking change detection against until there is a better release process
+Add specific hash to run breaking change detection against until there is a better release process
 
 Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
@@ -351,86 +377,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2022-05-13 06:50:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/88" class=".btn">#88</a>
-            </td>
-            <td>
-                <b>
-                    [WIP] Release Java bindings to Maven Central Repository
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-10 15:34:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/87" class=".btn">#87</a>
-            </td>
-            <td>
-                <b>
-                    Fix Mavan publish
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix missing working directory in publish step
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-10 10:39:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/86" class=".btn">#86</a>
-            </td>
-            <td>
-                <b>
-                    Publish Java bindings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-10 10:13:41 +0000 UTC
     </div>
 </div>
 

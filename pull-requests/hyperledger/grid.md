@@ -36,32 +36,3 @@ permalink: /pull-requests/hyperledger/grid
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1420" class=".btn">#1420</a>
-            </td>
-            <td>
-                <b>
-                    Add submission struct
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-triage</span><span class="chip">main</span>
-            </td>
-            <td>
-                Adds the struct that represents a batch submission. This will be used by
-the future submitter and queuer components.
-
-Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-11 22:04:40 +0000 UTC
-    </div>
-</div>
-

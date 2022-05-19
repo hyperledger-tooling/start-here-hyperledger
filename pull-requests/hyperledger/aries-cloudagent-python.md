@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1771" class=".btn">#1771</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1777" class=".btn">#1777</a>
             </td>
             <td>
                 <b>
-                    0.7.4-rc2 update
+                    fix: add a close statement to ensure session is closed on error
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
+                Askar, on error, would end up not returning connections to the connection pool because aca-py left the connections open.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-11 18:27:18 +0000 UTC
+        Created At 2022-05-18 01:47:32 +0000 UTC
     </div>
 </div>
 
@@ -41,11 +40,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1770" class=".btn">#1770</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1776" class=".btn">#1776</a>
             </td>
             <td>
                 <b>
-                    Some ReadTheDocs File updates
+                    Adds `transport_id` variable assignment back to outbound enqueue method
                 </b>
             </td>
         </tr>
@@ -54,13 +53,12 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
+                Signed-off-by: Akiff Manji <akiff.manji@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-11 16:59:31 +0000 UTC
+        Created At 2022-05-17 23:05:08 +0000 UTC
     </div>
 </div>
 
@@ -68,25 +66,28 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1769" class=".btn">#1769</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1774" class=".btn">#1774</a>
             </td>
             <td>
                 <b>
-                    feat: event and webhook on keylist update stored
+                    Replace async workaround within document loader
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">0.7.4</span>
             </td>
             <td>
-                This PR adds emission of an event and webhook on keylist update stored. This event simply completes the feedback loop for mediation related actions and enables the controller to keep track of mediation routing state.
+                After talking with Timo, the document loader uses a separate thread due to the fact that PyLD is synchronous code and calls 
+into the document loader (which requires asynchronous code). When swapping out the cache with (for example) a Redis based cache, the exception `got Future attached to a different loop` may arise due to the current separate thread/event loop based implementation.
+
+Switching to `nest_asyncio` over using a separate thread/event loop resolves the issues that were observed.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-11 13:47:22 +0000 UTC
+        Created At 2022-05-17 16:02:13 +0000 UTC
     </div>
 </div>
 
