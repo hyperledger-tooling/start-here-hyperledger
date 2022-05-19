@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3429" class=".btn">#3429</a>
+            </td>
+            <td>
+                <b>
+                    Fix some errors in the tutorial
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Documentation update
+
+#### Description
+
+This is a backport of the commit 318510f80a to release-2.2.
+
+Signed-off-by: Satoshi Ito <satoshi.ito.tf@hitachi.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-19 04:15:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3428" class=".btn">#3428</a>
             </td>
             <td>
