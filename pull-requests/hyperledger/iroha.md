@@ -14,6 +14,150 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2235" class=".btn">#2235</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #1413: Add API version endpoint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Ilia Churin <churin.ilya@gmail.com>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+Added a new endpoint that gives back the current API version as a JSON string. 
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Issue
+Resolves #1413.
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+As we're about to introduce versioning, this will allow end users to check if their client and our API versions match.
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+Set to grab the version from the genesis block, so the endpoint should be usable at all times when a minimal network is up. `ChainIterator` in `wsv`'s `blocks()` method was mentioning possible deadlock, but it should be safe in this case in all I can tell.
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests
+Added some documentation describing the change in `api_spec.md`.
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-19 11:03:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2234" class=".btn">#2234</a>
+            </td>
+            <td>
+                <b>
+                    [documentation] #2193: Update Iroha Client and Iroha CLI Client documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Documentation</span>
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+
+### Description of the Change
+
+Updates readmes for:
+
+- Iroha Client: https://github.com/outoftardis/iroha/tree/doc-client/client#iroha-client
+- Iroha CLI Client: https://github.com/outoftardis/iroha/tree/doc-client/client_cli#iroha-cli-client
+
+### Issue
+
+Partially addresses #2193 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-19 09:52:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2230" class=".btn">#2230</a>
+            </td>
+            <td>
+                <b>
+                    [documentation] #2193: Update benchmarks documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Documentation</span>
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+
+### Description of the Change
+
+Updated readme in `client/benches/tps`: https://github.com/outoftardis/iroha/tree/doc-tps-bench/client/benches/tps#benchmarks-transactions-per-second-tps
+
+### Issue
+
+Partially addresses #2193 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-19 07:45:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2229" class=".btn">#2229</a>
             </td>
             <td>
@@ -151,7 +295,7 @@ Partially addresses #2193
 - CI optimization by #2222
 
 ### Possible Drawbacks
-- Appearance of 5% or more regression in coverage due to the strict new standard
+- Appearance of 10% or more regression in coverage due to the strict new standard
             </td>
         </tr>
     </table>

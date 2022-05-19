@@ -14,43 +14,17 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/408" class=".btn">#408</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/412" class=".btn">#412</a>
             </td>
             <td>
                 <b>
-                    Run initial campaign on new cluster
+                    integration test: Json queries
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">replication</span>
-            </td>
-            <td>
-                Signed-off-by: Yoav Tock <tock@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-12 10:25:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/406" class=".btn">#406</a>
-            </td>
-            <td>
-                <b>
-                    Operation provenance
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span>
+                
             </td>
             <td>
                 <nil>
@@ -58,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/orion-server
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-12 07:01:43 +0000 UTC
+        Created At 2022-05-19 07:27:54 +0000 UTC
     </div>
 </div>
 

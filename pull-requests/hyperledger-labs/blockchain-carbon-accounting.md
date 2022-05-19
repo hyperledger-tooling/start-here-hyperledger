@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/549" class=".btn">#549</a>
+            </td>
+            <td>
+                <b>
+                    Carbon tracker
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                PR to merge latest updates to carbon-tracker branch into main.
+Please drop the outdated CarbonTracker branch.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-19 08:23:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/548" class=".btn">#548</a>
             </td>
             <td>

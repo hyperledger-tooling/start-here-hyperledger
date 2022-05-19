@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/fablo
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/314" class=".btn">#314</a>
-            </td>
-            <td>
-                <b>
-                    Support TLS for CA
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-12 11:54:01 +0000 UTC
-    </div>
-</div>
-

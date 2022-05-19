@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/211" class=".btn">#211</a>
+            </td>
+            <td>
+                <b>
+                    Added logging for login failures in pipeline execution
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ketul Shah <shah.ketul@ibm.com>
+
+#### Type of change
+- Test update
+
+#### Description
+Added logging for login failures in pipeline execution
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-19 11:28:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/210" class=".btn">#210</a>
             </td>
             <td>
