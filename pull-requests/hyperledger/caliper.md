@@ -298,35 +298,3 @@ Signed-off-by: fraVlaca <ocsenarf@outlook.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1332" class=".btn">#1332</a>
-            </td>
-            <td>
-                <b>
-                    Upgraded node-sdk binding for fabric-v1-lts from 1.4.19 to 1.4.20
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Node SDK v1.4.20 relaxes the Node version check to >=10.13.0, so should be happy with any later Node version, even though only the LTS releases are “supported”
-
-This upgrade will help remove all the warnings about node versions on caliper.
-
-Signed-off-by: fraVlaca <ocsenarf@outlook.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-12 10:39:08 +0000 UTC
-    </div>
-</div>
-

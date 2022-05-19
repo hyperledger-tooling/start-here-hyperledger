@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/340" class=".btn">#340</a>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/341" class=".btn">#341</a>
             </td>
             <td>
                 <b>
-                    Dispute test: Use e.Version instead e.State.Version
+                    Client tests: fail on error
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/go-perun
                 
             </td>
             <td>
-                This removes the dependency on the availability of `e.State` in the app channel tests, which is a feature otherwise only necessary for the virtual channel protocol.
+                Client tests involve concurrency. t.FailNow is not available there.
+That's why we often used assert instead of require. Now we can use
+role.Require.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-12 11:48:21 +0000 UTC
+        Created At 2022-05-19 09:41:53 +0000 UTC
     </div>
 </div>
 

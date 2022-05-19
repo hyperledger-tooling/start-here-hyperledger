@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/50" class=".btn">#50</a>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/52" class=".btn">#52</a>
             </td>
             <td>
                 <b>
-                    dif types in v2 presentation exchange record
+                    fix dif presentation exchange models
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
                 
             </td>
             <td>
-                added handler methods for dif types in the v2 presentation exchange record.
+                only one uri type for now
 
 Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-04 16:43:25 +0000 UTC
+        Created At 2022-05-19 10:31:11 +0000 UTC
     </div>
 </div>
 
