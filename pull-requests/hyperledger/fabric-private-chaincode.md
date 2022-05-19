@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/671" class=".btn">#671</a>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/672" class=".btn">#672</a>
             </td>
             <td>
                 <b>
-                    Go upgrade
+                    Fixing irb experiment Make file and removing tf dependence
                 </b>
             </td>
         </tr>
@@ -27,37 +27,7 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
                 
             </td>
             <td>
-                Current build fails to an incompatibility of one of our go tools.
-
-This PR upgrade to go 1.17.5, which is currently also used by Fabric. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-12 14:26:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/670" class=".btn">#670</a>
-            </td>
-            <td>
-                <b>
-                    Fix shim.go link in readme
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: munapower <mmunaro@hotmail.com>
-
-<!--  Thanks for sending a pull request!  Here are some tips for you:
+                <!--  Thanks for sending a pull request!  Here are some tips for you:
 
 1. If this is your first time, please read our code of conduct and contributor guidelines: 
      https://github.com/hyperledger/fabric-private-chaincode/blob/main/CONTRIBUTING.md
@@ -87,14 +57,13 @@ Fixes #
   If no, you can delete this section
   If yes, describe what changes and/or what breaks ..
 -->
-Fixes a link in readme documentation of go support preview that instead of taking you to shim.go returns a 404 error.
 ```
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-12 13:57:44 +0000 UTC
+        Created At 2022-05-19 17:43:26 +0000 UTC
     </div>
 </div>
 

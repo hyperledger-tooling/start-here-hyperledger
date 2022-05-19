@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/fablo
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/315" class=".btn">#315</a>
-            </td>
-            <td>
-                <b>
-                    Node16 dco + merges
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-12 13:21:07 +0000 UTC
-    </div>
-</div>
-

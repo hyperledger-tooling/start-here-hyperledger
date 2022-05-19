@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/212" class=".btn">#212</a>
+            </td>
+            <td>
+                <b>
+                    always get all msps on channel details page
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+    - cannot remove consenter from channel details page, msp drop down is empty.
+
+#### Description
+
+- from the channel details page the MSP data was only being retrieved if `isTLSCertMismatchFound` was true. This PR removes that condition and will always populate the MSP data. This data is required for the removed-consenter flow.
+- also fixes the description text on the remove-consenter flow
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-19 17:32:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/211" class=".btn">#211</a>
             </td>
             <td>
@@ -145,76 +184,6 @@ Same fix as https://github.com/hyperledger-labs/fabric-operations-console/pull/2
     </table>
     <div class="right-align">
         Created At 2022-05-17 14:47:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/207" class=".btn">#207</a>
-            </td>
-            <td>
-                <b>
-                    add query param to login link from logout panel
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-
-After a logout there is a log back in link. Sometimes this link fails to send the user to the login page. It spins. This pr attempts to fix that by making the link a un-cachable link.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-12 15:14:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/206" class=".btn">#206</a>
-            </td>
-            <td>
-                <b>
-                    Added check for IBM Cloud login - w3id login
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ketul Shah <shah.ketul@ibm.com>
-
-#### Type of change
-- Test update
-
-#### Description
-Added check for IBM Cloud login - w3id login
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-12 15:00:57 +0000 UTC
     </div>
 </div>
 
