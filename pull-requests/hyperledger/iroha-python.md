@@ -14,29 +14,25 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/97" class=".btn">#97</a>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/99" class=".btn">#99</a>
             </td>
             <td>
                 <b>
-                    cherry-pick new features from develop -> main
+                    Update Iroha 2 client to work with latest Iroha release
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span><span class="chip">iroha1</span>
+                
             </td>
             <td>
-                1. I've updated `develop` to contain all new features from `main`: https://github.com/hyperledger/iroha-python/pull/83
-2. I've updated protobufs to be compatible with iroha 1.4 in `develop` branch: https://github.com/hyperledger/iroha-python/pull/96
-3. In the current PR I'm cherry-picking features which are not in `main` but they should be:
-    - 2. from above
-    - https://github.com/hyperledger/iroha-python/pull/77
+                Work in progress
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-28 19:58:12 +0000 UTC
+        Created At 2022-05-19 21:04:01 +0000 UTC
     </div>
 </div>
 
