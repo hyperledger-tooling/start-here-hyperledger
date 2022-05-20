@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1424" class=".btn">#1424</a>
+            </td>
+            <td>
+                <b>
+                    Add submitter and observer traits
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport-triage</span><span class="chip">main</span>
+            </td>
+            <td>
+                Adds the public traits for the submitter and submitter observer. These will be used in future implementations.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-20 16:27:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1423" class=".btn">#1423</a>
             </td>
             <td>

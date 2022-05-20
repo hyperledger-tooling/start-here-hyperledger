@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3844" class=".btn">#3844</a>
+            </td>
+            <td>
+                <b>
+                    settle down panda
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Justin Florentine <justin+github@florentine.us>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-17 01:02:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3840" class=".btn">#3840</a>
             </td>
             <td>
@@ -173,52 +199,6 @@ Includes changes from PR #3747
     </table>
     <div class="right-align">
         Created At 2022-05-14 07:28:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3834" class=".btn">#3834</a>
-            </td>
-            <td>
-                <b>
-                    3619 unify rpc ports
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-- Introduces new JsonRPCService that handles both http and websockets
-- Removes websocket specific configs
-- renames WebSocketRequestHandler to WebSocketMessageHandler to be more in line with websocket semantics.
-
-## Fixed Issue(s)
-
-fixes #3619 
-
-## Documentation
-
-- [X] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-13 16:07:51 +0000 UTC
     </div>
 </div>
 

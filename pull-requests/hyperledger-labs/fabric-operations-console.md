@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/214" class=".btn">#214</a>
+            </td>
+            <td>
+                <b>
+                    add support for stitch to decode utf8 characters - input
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Improvement 
+
+#### Description
+Add support for decoding utf8 characters in fabric transaction  * inputs *.  Similar to https://github.com/hyperledger-labs/fabric-operations-console/pull/210
+
+fixes https://github.com/hyperledger-labs/fabric-operations-console/issues/198
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-20 13:15:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/213" class=".btn">#213</a>
             </td>
             <td>
@@ -121,7 +160,7 @@ Added logging for login failures in pipeline execution
             </td>
             <td>
                 <b>
-                    add support for stitch to decode utf8 characters
+                    add support for stitch to decode utf8 characters - outputs
                 </b>
             </td>
         </tr>
