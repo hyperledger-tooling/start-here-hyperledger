@@ -14,6 +14,172 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3840" class=".btn">#3840</a>
+            </td>
+            <td>
+                <b>
+                    don't wrap and re-throw, pollutes logs and causing exception is handl…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …ed correctly
+
+Signed-off-by: Justin Florentine <justin+github@florentine.us>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-16 20:03:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3839" class=".btn">#3839</a>
+            </td>
+            <td>
+                <b>
+                    Fix: getMixHashOrPrevRandao to return the value present in the block header
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …he block header
+
+Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-16 16:39:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3837" class=".btn">#3837</a>
+            </td>
+            <td>
+                <b>
+                    Fcu verify payload attributes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Adds payload attributes checks to EngineForkchoiceUpdated and returns INVALID_PAYLOAD_ATTRIBUTES error if any of them should be invalid.
+
+## Fixed Issue(s)
+"fixes #3836 "
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-15 22:19:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3835" class=".btn">#3835</a>
+            </td>
+            <td>
+                <b>
+                    Ref tests 10.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span>
+            </td>
+            <td>
+                
+## PR description
+Upgrade reference Tests to 10.3
+
+10.3 revision of reference tests has notable changes
+
+* Nonce can be up to 2^64-1, with some opcode and validity interactions 
+  specced in eip-2681
+* Wei fields can be up to 2^256, tests check for rollover
+* VM Tests were removed
+* Legacy Tests were removed
+
+Includes changes from PR #3747 
+ 
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [X] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-14 07:28:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3834" class=".btn">#3834</a>
             </td>
             <td>
@@ -53,125 +219,6 @@ fixes #3619
     </table>
     <div class="right-align">
         Created At 2022-05-13 16:07:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3832" class=".btn">#3832</a>
-            </td>
-            <td>
-                <b>
-                    Reduce EVM library dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Reduce the runtime dependencies of the EVM module by moving a
-class used by a single class out of util to the owned module (QosTimer)
-and them removing un-used dependencies from EVM and dependant modules.
-
-Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
-
-## Documentation
-
-- [X] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-13 02:33:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3831" class=".btn">#3831</a>
-            </td>
-            <td>
-                <b>
-                    Added Metrics for number of open RPC connections[#3781]
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dev experience</span>
-            </td>
-            <td>
-                Added Metrics for number of open RPC connections - besu_rpc_active_http_connection_count, besu_rpc_active_ws_connection_count
-
-Signed-off-by: Sharad Gulati sharad.develop@gmail.com
-
-## Fixed Issue(s)
-fixes #3781 
-
-## Documentation
-
-- [ x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-Documentation might need to be updated due to additional metrics
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-13 01:55:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3830" class=".btn">#3830</a>
-            </td>
-            <td>
-                <b>
-                    quorum ATs can run on medium executor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Change quorum ATs (nightly) from XL to medium executor. 
-
-The job ran successfully on medium executor https://app.circleci.com/pipelines/github/hyperledger/besu/14864/workflows/e1c2b5d0-44b1-45aa-a5c6-f46eeca7f4bc/jobs/85796
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-13 01:41:24 +0000 UTC
     </div>
 </div>
 
