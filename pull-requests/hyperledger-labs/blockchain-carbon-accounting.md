@@ -37,29 +37,3 @@ Please drop the outdated CarbonTracker branch.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/548" class=".btn">#548</a>
-            </td>
-            <td>
-                <b>
-                    Latest changes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-13 14:24:10 +0000 UTC
-    </div>
-</div>
-

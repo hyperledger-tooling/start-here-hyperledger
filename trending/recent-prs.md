@@ -1,13 +1,13 @@
 
-[749](https://github.com/hyperledger/fabric-samples/pull/749) Java off-chain data store sample using Fabric Gateway
+[1424](https://github.com/hyperledger/grid/pull/1424) Add submitter and observer traits
 
-[842](https://github.com/hyperledger-labs/solang/pull/842) Fix parse location of FunctionCallBlock
+[54](https://github.com/hyperledger-labs/acapy-java-client/pull/54) create sub wallet clients when creating the sub wallet
 
-[841](https://github.com/hyperledger-labs/solang/pull/841) Parse assembly statement flags
+[2244](https://github.com/hyperledger/iroha/pull/2244) [documentation] #2193: Update Iroha CLI documentation
 
-[840](https://github.com/hyperledger-labs/solang/pull/840) Parse override(list) syntax on variable definition
+[214](https://github.com/hyperledger-labs/fabric-operations-console/pull/214) add support for stitch to decode utf8 characters - input
 
-[3433](https://github.com/hyperledger/fabric/pull/3433) [Doc] Remove text for a broken link
+[2243](https://github.com/hyperledger/iroha/pull/2243) Fix/rdb burrow storage tests
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
