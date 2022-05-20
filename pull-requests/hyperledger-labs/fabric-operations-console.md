@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/213" class=".btn">#213</a>
+            </td>
+            <td>
+                <b>
+                    Removed extra logging added
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ketul Shah <shah.ketul@ibm.com>
+
+#### Type of change
+- Test update
+
+#### Description
+Removed extra logging added
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-20 07:37:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/212" class=".btn">#212</a>
             </td>
             <td>

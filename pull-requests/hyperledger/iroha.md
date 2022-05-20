@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2240" class=".btn">#2240</a>
+            </td>
+            <td>
+                <b>
+                    [documentation] #2193: Update README for wasm crate
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Documentation</span>
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+
+### Description of the Change
+
+Reviewed readme: https://github.com/outoftardis/iroha/tree/doc-wasm/wasm
+
+### Issue
+
+Partially addresses #2193 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-20 07:36:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2239" class=".btn">#2239</a>
             </td>
             <td>
@@ -24,7 +58,7 @@ permalink: /pull-requests/hyperledger/iroha
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">UI</span>
             </td>
             <td>
                 Signed-off-by: Daniil Polyakov <arjentix@gmail.com>
@@ -420,9 +454,11 @@ Partially addresses #2193
     - Wasm build check
   - `tests_with_coverage`
     - unit tests #2222
-    - integration tests (in a broad sense; crate/tests/) except for client/tests/integration/
+    - integration tests (in a broad sense; crate/tests/*) except for those to be tested in `integration_tests` job
   - `integration_tests` #1683
-    - integration tests (in a narrow sense; client/tests/integration/)
+    - client/tests/integration
+    - core/test_network/tests/integration
+    - p2p/tests/integration
 - Move from `grcov` to `cargo-llvm-cov`
 - Include UI tests to coverage profiling #2148
 
@@ -430,6 +466,7 @@ Partially addresses #2193
 - Closes #1683
 - Closes #2148
 - Closes #2222
+- Opens #2242
 
 ### Benefits
 - Revival of coverage
@@ -438,7 +475,7 @@ Partially addresses #2193
 - CI optimization by #2222
 
 ### Possible Drawbacks
-- Appearance of 10% or more regression in coverage due to the strict new standard
+- Appearance of 10% or more regression in coverage due to excluding some integration tests
             </td>
         </tr>
     </table>
@@ -716,7 +753,7 @@ None
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">help wanted</span><span class="chip">iroha2</span>
             </td>
             <td>
                 Fixes #2125 
@@ -957,77 +994,6 @@ As implemented in this PR, FindAllBlocks query introduces a block representation
     </table>
     <div class="right-align">
         Created At 2022-05-13 15:34:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2209" class=".btn">#2209</a>
-            </td>
-            <td>
-                <b>
-                    I2 dco
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                <!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-### Issue
-
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests *[optional]*
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-13 08:58:35 +0000 UTC
     </div>
 </div>
 

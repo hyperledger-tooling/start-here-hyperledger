@@ -271,29 +271,3 @@ Signed-off-by: D <d_kelsey@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1336" class=".btn">#1336</a>
-            </td>
-            <td>
-                <b>
-                    Changed all 'bit.ly' links with a direct link
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: fraVlaca <ocsenarf@outlook.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-13 10:06:06 +0000 UTC
-    </div>
-</div>
-

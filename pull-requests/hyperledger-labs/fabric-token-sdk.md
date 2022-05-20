@@ -65,33 +65,3 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/237" class=".btn">#237</a>
-            </td>
-            <td>
-                <b>
-                    sample documentation update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - broken links fixed
-- additional documentation to fungible, including configuration description and how to use embed the stack in an already existing application node.
-- added new GitHub action to check the links in the md files
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-13 06:43:01 +0000 UTC
-    </div>
-</div>
-
