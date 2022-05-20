@@ -136,7 +136,7 @@ Signed-off-by: fraVlaca <ocsenarf@outlook.com>
                 
             </td>
             <td>
-                This (DRAFT) PR adds support for the [fabric-builder-k8s](https://github.com/hyperledgendary/fabric-builder-k8s) in the Kube Test Network.
+                This PR adds support for the [fabric-builder-k8s](https://github.com/hyperledgendary/fabric-builder-k8s) in the Kube Test Network.
 
 fabric-builder-k8s is the missing "easy button" for working with Hyperledger Fabric Chaincode.  The builder is triggered by the existing "external builder" peer lifecycle events, managing the lifecycle of CC routines as pods under an RBAC-enabled service account.
 
@@ -144,7 +144,7 @@ With the k8s builder approach, chaincode ... "just works."
 
 ### Background Context 
 
-- [fabric-builder-k8s](https://github.com/hyperledgendary/fabric-builder-k8) - general overview
+- [fabric-builder-k8s](https://github.com/hyperledgendary/fabric-builder-k8s) - general overview
 - Fabric Community Contributor Call [11 March ](https://wiki.hyperledger.org/download/attachments/62234113/20220511_contributors_meeting.mp4?api=v2) (> 0:11:00) k8s builder feature playback. 
 - Fabric GitHub Discussion #3407 : [Default External Builder Approach for Kubernetes](https://github.com/hyperledger/fabric/discussions/3407)
 
@@ -157,26 +157,18 @@ network kind
 network cluster init
 network up 
 network channel create
-...
 ```
 
-### Sample Chaincode Activation
+```
+network chaincode deploy asset-transfer-basic ../asset-transfer-basic/chaincode-java
+```
 
-- Set up the Kube test network as above 
-- Install conga-nft-contract, starting at [running-peer-commands](https://github.com/hyperledgendary/fabric-builder-k8s/blob/main/docs/TEST_NETWORK_K8S.md#running-peer-commands)
+```
+network chaincode query asset-transfer-basic '{"Args":["org.hyperledger.fabric:GetMetadata"]}'  | jq
+```
 
 
-### Open Items (this PR)
-
-- E2E / functional test: 
-  - build a KIND cluster, Fabric network, and channel 
-  - compile chaincode sample (asset transfer) and docker image 
-  - prepare a CC package referencing the CC docker image 
-  - use `peer` CLI commands to instantiate, invoke, and query the CC 
-
-- Improve the "release management" aspects of the builder source binaries: 
-  - install via [pre-built binaries](https://github.com/hyperledgendary/fabric-builder-k8s/releases/tag/v0.1.0)?  (exec 'wget' in peer pod?)
-  - install via [pre-built image](test-network-k8s/kube/org1/org1-install-k8s-builder.yaml)? (k8s job w/ copy to PV)
+That's it.  Chaincode "just works." 
             </td>
         </tr>
     </table>
