@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3433" class=".btn">#3433</a>
+            </td>
+            <td>
+                <b>
+                    [Doc] Remove text for a broken link
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: D <d_kelsey@uk.ibm.com>
+
+#### Type of change
+
+- Documentation update
+
+#### Description
+
+Remove text and broken link
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-20 08:16:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3432" class=".btn">#3432</a>
+            </td>
+            <td>
+                <b>
+                    Remove duplicated line
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Documentation update
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-20 06:50:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3431" class=".btn">#3431</a>
             </td>
             <td>
