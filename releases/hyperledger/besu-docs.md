@@ -15,36 +15,35 @@ permalink: /releases/hyperledger/besu-docs
         <tr>
             <td colspan="2">
                 <b>
-                    22.4.0
+                    22.4.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    22.4.0
+                    22.4.1
                 </span>
             </td>
             <td>
-                ### Breaking Changes
-- Version 22.4.x will be the last series to support Java 11. Version 22.7.0 will require Java 17 to build and run.
-- In the Besu EVM Library all references to SHA3 have been renamed to the more accurate name Keccak256, including class names and comment. [#3749](https://github.com/hyperledger/besu/pull/3749)
+                ### Additions and Improvements
+- GraphQL - allow null log topics in queries which match any topic [#3662](https://github.com/hyperledger/besu/pull/3662)
+- multi-arch docker builds for amd64 and arm64 [#2954](https://github.com/hyperledger/besu/pull/2954)
+- Filter Netty native lib errors likewise the pure Java implementation [#3807](https://github.com/hyperledger/besu/pull/3807)
+- Add ropsten terminal total difficulty config [#3871](https://github.com/hyperledger/besu/pull/3871)
 
 ### Bug Fixes
-- Fix nullpointer on snapsync [#3773](https://github.com/hyperledger/besu/pull/3773)
-- Introduce RocksDbSegmentIdentifier to avoid changing the storage plugin [#3755](https://github.com/hyperledger/besu/pull/3755)
+- Stop the BlockPropagationManager when it receives the TTD reached event [#3809](https://github.com/hyperledger/besu/pull/3809)
+- Correct getMixHashOrPrevRandao to return the value present in the block header [#3839](https://github.com/hyperledger/besu/pull/3839)
 
-## Download Links
-- https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/22.4.0/besu-22.4.0.zip / SHA256 d89e102a1941e70be31c176a6dd65cd5f3d69c4c
-- https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/22.4.0/besu-22.4.0.tar.gz / SHA256 868e38749dd40debe028624f8267f1fce7587010
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/besu-docs/releases/tag/22.4.0" class=".btn">
+    <a href="https://github.com/hyperledger/besu-docs/releases/tag/22.4.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-05-02 13:44:06 +0000 UTC
+        Created At 2022-05-16 17:19:27 +0000 UTC
     </span>
 </div>
 
