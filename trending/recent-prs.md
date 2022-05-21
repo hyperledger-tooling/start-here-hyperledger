@@ -1,13 +1,13 @@
 
-[1424](https://github.com/hyperledger/grid/pull/1424) Add submitter and observer traits
+[3437](https://github.com/hyperledger/fabric/pull/3437) bump Go to 1.18.2 (release-2.2) 3 of 3
 
-[54](https://github.com/hyperledger-labs/acapy-java-client/pull/54) create sub wallet clients when creating the sub wallet
+[3436](https://github.com/hyperledger/fabric/pull/3436) bump golang.org/x/crypto and golang.org/x/tools (release-2.2) 2 of 3
 
-[2244](https://github.com/hyperledger/iroha/pull/2244) [documentation] #2193: Update Iroha CLI documentation
+[3435](https://github.com/hyperledger/fabric/pull/3435) bump go-dockerclient (release-2.2) 1 of 3
 
-[214](https://github.com/hyperledger-labs/fabric-operations-console/pull/214) add support for stitch to decode utf8 characters - input
+[216](https://github.com/hyperledger-labs/fabric-operations-console/pull/216) add option to create system channel-less orderers
 
-[2243](https://github.com/hyperledger/iroha/pull/2243) Fix/rdb burrow storage tests
+[1425](https://github.com/hyperledger/grid/pull/1425) Update Grid to use `actix_web` 4
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
