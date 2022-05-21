@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1425" class=".btn">#1425</a>
+            </td>
+            <td>
+                <b>
+                    Update Grid to use `actix_web` 4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">main</span>
+            </td>
+            <td>
+                This updates grid to use `actix_web` v4. Both v3 and 4 cannot be supported in Grid due to conflicting re-exports of tokio structs/traits from the libraries. Therefore, all rest api code and tests in the Grid SDK, Griddle, and the Grid Daemon is updated to use actix_web 4.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-20 19:16:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1424" class=".btn">#1424</a>
             </td>
             <td>
