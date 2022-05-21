@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/fabex
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabex/pull/110" class=".btn">#110</a>
-            </td>
-            <td>
-                <b>
-                    new proto
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                add _channelid_ field to _RequestRange_ msg
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-14 10:41:19 +0000 UTC
-    </div>
-</div>
-
