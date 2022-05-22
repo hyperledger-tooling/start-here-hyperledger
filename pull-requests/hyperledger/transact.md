@@ -14,6 +14,162 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/350" class=".btn">#350</a>
+            </td>
+            <td>
+                <b>
+                    Fix typo in rustdoc comment for InTransactionPostgresBackend
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-20 20:34:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/349" class=".btn">#349</a>
+            </td>
+            <td>
+                <b>
+                    Update publish dockerfile
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-20 20:19:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/348" class=".btn">#348</a>
+            </td>
+            <td>
+                <b>
+                    BACKPORT 0-4: Add GHA for publishing tagged releases to crates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-20 18:08:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/347" class=".btn">#347</a>
+            </td>
+            <td>
+                <b>
+                    Backport 0-4: stabilize state traits
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backport of #344 (though not the commit which removes the feature)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-20 16:04:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/346" class=".btn">#346</a>
+            </td>
+            <td>
+                <b>
+                    Add GHA for 0-4 nightly builds
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-19 21:20:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/345" class=".btn">#345</a>
+            </td>
+            <td>
+                <b>
+                    Backport 0-4: Add missing v2 state trait implementations for SqlMerkleState
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backport of PR #343 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-19 17:48:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/344" class=".btn">#344</a>
             </td>
             <td>
