@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2246" class=".btn">#2246</a>
+            </td>
+            <td>
+                <b>
+                    [documentation]: Written up results of flakyness test.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Aleksandr Petrosyan <a-p-petrosyan@yandex.ru>
+
+
+
+
+### Description of the Change
+
+Updated `flakyness.org` (lightweight markup language rendered by GitHub, which has support for spreadsheets, and execution like an `ipython` notebook). 
+
+### Issue
+None
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+Data
+
+### Possible Drawbacks
+
+Takes long to gather. 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-22 09:11:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2244" class=".btn">#2244</a>
             </td>
             <td>

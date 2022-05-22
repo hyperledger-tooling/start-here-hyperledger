@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/PerformanceSandBox
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/62" class=".btn">#62</a>
+            </td>
+            <td>
+                <b>
+                    update for Throught put metrics
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                resolve #44 
+resolve #43
+
+Signed-off-by: Sam Yuan <yy19902439@126.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-22 12:15:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/60" class=".btn">#60</a>
             </td>
             <td>
