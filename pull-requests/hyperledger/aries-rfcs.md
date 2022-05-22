@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/736" class=".btn">#736</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/737" class=".btn">#737</a>
             </td>
             <td>
                 <b>
-                    docs: push notifications fcm android
+                    docs(0699): mention  of pickup v2
                 </b>
             </td>
         </tr>
@@ -27,13 +27,15 @@ permalink: /pull-requests/hyperledger/aries-rfcs
                 
             </td>
             <td>
-                - The same PR basically as #699 but for Android
-- Should be merged at the same time as #699 because they refer to each other.
+                Fix as discussed in the previous WG call.
+
+Signed-off-by: blu3beri <berend@animo.id>
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-12 08:53:43 +0000 UTC
+        Created At 2022-05-19 18:05:06 +0000 UTC
     </div>
 </div>
 
