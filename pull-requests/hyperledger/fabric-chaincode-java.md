@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/239" class=".btn">#239</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/242" class=".btn">#242</a>
             </td>
             <td>
                 <b>
-                    Update README.md
+                    Regular Maintenance Task
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
+                - Update dependencies
+- Confirm local build instructions are valid
+- Any code warngins/linting errors that can be removed?
+
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-11 18:04:07 +0000 UTC
+        Created At 2022-05-23 11:01:08 +0000 UTC
     </div>
 </div>
 
