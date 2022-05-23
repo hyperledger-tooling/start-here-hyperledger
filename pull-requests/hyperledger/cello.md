@@ -43,32 +43,3 @@ Signed-off-by: Yuanmao Zhu <yuanmaozhu@ualberta.ca>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/444" class=".btn">#444</a>
-            </td>
-            <td>
-                <b>
-                    Support M1 chip development.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Use docker built-in functionality to support for Multi-Platform Docker Builds.
-So cello project can develop with the m1 chips.
-
-Signed-off-by: Yuanmao Zhu <yuanmaozhu@ualberta.ca>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-15 23:20:58 +0000 UTC
-    </div>
-</div>
-
