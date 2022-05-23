@@ -29,7 +29,7 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
             <td>
                 - Update dependencies
 - Confirm local build instructions are valid
-- Any code warngins/linting errors that can be removed?
+- Increased timeout of 'server' test for reliability
 
 Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>

@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/846" class=".btn">#846</a>
+            </td>
+            <td>
+                <b>
+                    Do not raise warning for function parameters saved in storage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is a minor issue I found while working on issue #813.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-23 17:04:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/844" class=".btn">#844</a>
+            </td>
+            <td>
+                <b>
+                    Refactor Solang docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR splits the old `language.rst` file into multiple files so that the user can see the sections on the navigation bar. I also re-organized the order of items in the bar.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-23 14:29:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/843" class=".btn">#843</a>
             </td>
             <td>

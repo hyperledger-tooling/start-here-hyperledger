@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/PerformanceSandBox
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/64" class=".btn">#64</a>
+            </td>
+            <td>
+                <b>
+                    Update ReadLatency.md for a typo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A typo? I'm not sure if you means 'pure'
+
+Signed-off-by: sc1000y <sc1000y@qq.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-23 13:53:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/62" class=".btn">#62</a>
             </td>
             <td>
@@ -36,36 +64,6 @@ Signed-off-by: Sam Yuan <yy19902439@126.com>
     </table>
     <div class="right-align">
         Created At 2022-05-22 12:15:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/60" class=".btn">#60</a>
-            </td>
-            <td>
-                <b>
-                    update document for online session
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                We are going to have online session, update document for context/content preview.
-
-Any feedback is welcome.
-
-Signed-off-by: Sam Yuan <yy19902439@126.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-16 15:31:34 +0000 UTC
     </div>
 </div>
 
