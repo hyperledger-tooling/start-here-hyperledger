@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/259" class=".btn">#259</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/262" class=".btn">#262</a>
             </td>
             <td>
                 <b>
-                    Support for end-to-end confidentiality in the data sharing protocol
+                    changes to support various hash mechanisms
                 </b>
             </td>
         </tr>
@@ -27,21 +27,52 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                Updated RFC specification:
-- https://github.com/VRamakrishna/weaver-dlt-interoperability/blob/main/rfcs/models/security/confidentiality.md
-- https://github.com/VRamakrishna/weaver-dlt-interoperability/blob/main/rfcs/models/security/confidentiality-design-choices.md
-
-Implemented the feature for Fabric networks according to the above specification: common protos, Fabric Interoperation Chaincode, Fabric Node SDK, Relay.
-
-Tested the feature by running integrated local tests: Fabric CLI, Fabric testnets.
-
-Updated the tutorial documentation (and also reformatted notes in various pages):
-- To view the rendered docs, see https://vramakrishna.github.io/weaver-dlt-interoperability/docs/external/introduction
+                Signed-off-by: Krishnasuri Narayanam <knaraya3@in.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-12 12:40:02 +0000 UTC
+        Created At 2022-05-23 07:44:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/261" class=".btn">#261</a>
+            </td>
+            <td>
+                <b>
+                    Making Interop SDK Hash Extensible
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Feature addition:
+1. Added interface to Fabric interop SDK for Hash. Implemented default SHA256.
+2. Updated Fabric-cli as per the above hash interface.
+3. Update fabric-cli exchange-step command, and replaced with different lock, claim, and unlock commands.
+4. Docs updated as per above changes.
+5. Updated SDK unit tests as per above change.
+
+RFC:
+1. Added API specs for relay.
+2. Added message specs used for data sharing.
+
+Others:
+1. Version bump v1.2.9 for all fabric modules, and protos.
+2. Access control logs added to corda interop app.
+3. Fixed makefiles for interopcc, interop sdk, and fabric-cli.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-23 06:50:46 +0000 UTC
     </div>
 </div>
 
