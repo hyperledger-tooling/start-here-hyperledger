@@ -15,33 +15,33 @@ permalink: /releases/hyperledger/indy-node-container
         <tr>
             <td colspan="2">
                 <b>
-                    First Release within Hyperledger
+                    Ubuntu 20 update
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.0.0
+                    v1.0.1
                 </span>
             </td>
             <td>
-                Images for node `1.12.4` based on
-- Ubuntu 16
-- Ubuntu 18
-- Debian Buster
-- Debian Bullseye
-are working and maintain mutual consensus. 
+                Updated the Ubuntu 20 image to the latest Indy Node version from the [ubuntu20 branch](https://github.com/hyperledger/indy-node/commit/28c5882a02f3b17f956f831472200fd39a3fb786).
 
-The Ubuntu 20 Image running node `1.13.0~dev206` works and can be started in a network together with the other nodes but will run into consensus problems with them, most likely due to the newer libsodium/libssl version.
+The new release also updates all base images which should fix some security issues.
+
+Images:
+- [Indy Node](https://github.com/hyperledger/indy-node-container/pkgs/container/indy-node-container%2Findy_node)
+- [Indy Node Controller](https://github.com/hyperledger/indy-node-container/pkgs/container/indy-node-container%2Findy_node_controller)
+
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/indy-node-container/releases/tag/v1.0.0" class=".btn">
+    <a href="https://github.com/hyperledger/indy-node-container/releases/tag/v1.0.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-02-25 10:14:22 +0000 UTC
+        Created At 2022-05-23 11:11:51 +0000 UTC
     </span>
 </div>
 
