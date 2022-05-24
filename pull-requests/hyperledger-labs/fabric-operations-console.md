@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/217" class=".btn">#217</a>
+            </td>
+            <td>
+                <b>
+                    add a restart progress bar when changing settings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Improvements to settings panel
+
+#### Description
+- added progress bar to indicate the server restart is still in progress when saving new settings
+- allow user to select a log level without selecting the log-to-file option
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-23 21:43:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/216" class=".btn">#216</a>
             </td>
             <td>

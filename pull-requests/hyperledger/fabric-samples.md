@@ -29,7 +29,7 @@ permalink: /pull-requests/hyperledger/fabric-samples
             <td>
                 Also minor implementation changes to TypeScript sample for better consistency between implementations.
 
-Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
+Contributes to hyperledger/fabric-gateway#190
             </td>
         </tr>
     </table>

@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3442" class=".btn">#3442</a>
+            </td>
+            <td>
+                <b>
+                    Fix some errors in the tutorial
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Documentation update
+
+#### Description
+
+This patch is a solution for errors that occur in the tutorial "Using CouchDB".
+First, we added environment variables as in the other tutorials.
+Second, we added information to authenticate when using CouchDB.
+
+Signed-off-by: Satoshi Ito <satoshi.ito.tf@hitachi.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-24 00:40:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3441" class=".btn">#3441</a>
             </td>
             <td>
@@ -510,36 +546,6 @@ Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-05-17 10:20:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3423" class=".btn">#3423</a>
-            </td>
-            <td>
-                <b>
-                    Bump Go to 1.18.2 (release-2.4)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update staticcheck to a version that works with Go 1.18.
-Fix code issues with the new staticcheck.
-Fix unit test for new TLS messages and assertion changes in Go 1.18.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-16 19:45:36 +0000 UTC
     </div>
 </div>
 

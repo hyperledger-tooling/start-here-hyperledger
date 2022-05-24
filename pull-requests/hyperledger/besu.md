@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3851" class=".btn">#3851</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade Errorprone
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Upgrade errorprone to 2.13.1.  Like all errorprone upgrades there are
+new checks requiring code changes.
+
+* Unused methods now cause compilation errors
+* fields must be static and final
+* Effectively constant booleans must now be returned as true/false.
+* longs should not auto-cast to double.
+
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [X] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-17 22:19:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3850" class=".btn">#3850</a>
             </td>
             <td>
@@ -133,61 +185,6 @@ This PR adds circle-ci branch define to dockerManifest task to fix multi-arch `d
     </table>
     <div class="right-align">
         Created At 2022-05-17 04:39:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3844" class=".btn">#3844</a>
-            </td>
-            <td>
-                <b>
-                    settle down panda
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Justin Florentine <justin+github@florentine.us>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-17 01:02:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3840" class=".btn">#3840</a>
-            </td>
-            <td>
-                <b>
-                    don't wrap and re-throw, pollutes logs and causing exception is handl…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                …ed correctly
-
-Signed-off-by: Justin Florentine <justin+github@florentine.us>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-16 20:03:25 +0000 UTC
     </div>
 </div>
 
