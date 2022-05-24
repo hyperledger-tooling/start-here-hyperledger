@@ -14,6 +14,72 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2258" class=".btn">#2258</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #2132: Add `endpointN` proc macro
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Ilia Churin <churin.ilya@gmail.com>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+Replaced the declarative macro generating `endpointN` functions with a procedural one in a separate crate.
+
+### Issue
+Resolves #2132.
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+Improved readability and extensibility.
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+As the macro expansion uses `WarpResult` wrapper defined in `cli/src/torii/utils.rs`, all the users of macro should reexport that struct as well. Alternatively, the macro implementation could be amended to ditch the use of that altogether.
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-24 08:16:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2255" class=".btn">#2255</a>
             </td>
             <td>
@@ -141,32 +207,19 @@ Updated the readme in `/hooks` and added a reference to it from the contributing
 
 ### Description of the Change
 
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+By the architecture of CLI seems the root task that other tasks depend on is spawning Torii's server so I just added a graceful shutdown for the Torii's server. Also I use [Notify](https://docs.rs/tokio/latest/tokio/sync/struct.Notify.html) primitive to notify that the application has received an OS signal because [oneshot channel](https://docs.rs/tokio/latest/tokio/sync/oneshot/index.html) doesn't support multiple receivers.
 
 ### Issue
 
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+Resolves #1926
 
 ### Benefits
 
-<!-- What benefits will be realized by the code change? -->
+Correct completion of all tasks before closing
 
 ### Possible Drawbacks
 
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests *[optional]*
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
+None
 
 <!--
 NOTE: User may want skip pull request and push workflows with [skip ci]
@@ -867,133 +920,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2022-05-17 13:26:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2220" class=".btn">#2220</a>
-            </td>
-            <td>
-                <b>
-                    [documentation] #2193: Update Kagami documentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">Documentation</span>
-            </td>
-            <td>
-                ### Description of the Change
-
-Update the readme for Kagami: https://github.com/outoftardis/iroha/tree/doc-kagami/tools/kagami
-
-### Issue
-
-Partially addresses #2193 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-17 12:27:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2219" class=".btn">#2219</a>
-            </td>
-            <td>
-                <b>
-                    [documentation] #2192: Review contributing guidelines
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">Documentation</span>
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-### Description of the Change
-
-Update the structure and wording of the CONTRIBUTING guide
-
-https://github.com/outoftardis/iroha/blob/doc-contributing-review/CONTRIBUTING.md
-
-### Issue
-
-Addresses #2192 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-17 08:37:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2218" class=".btn">#2218</a>
-            </td>
-            <td>
-                <b>
-                    Minor fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">1.6</span>
-            </td>
-            <td>
-                ### Description of the Change
-1. No cache synchronization on round switch
-2. Send/Recv packets size become 128 Mb.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-17 07:30:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2217" class=".btn">#2217</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #2215: Make nightly optional for building Iroha.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                April release<!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-See #2216 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-17 06:36:23 +0000 UTC
     </div>
 </div>
 

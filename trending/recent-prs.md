@@ -1,13 +1,13 @@
 
+[184](https://github.com/hyperledger/sawtooth-sabre/pull/184) BACKPORT 0-8: Fix Clippy Lint introduced 1.59.0
+
+[28](https://github.com/hyperledger-labs/hlf-connector/pull/28) Handle updates in Data connectors
+
+[415](https://github.com/hyperledger-labs/orion-server/pull/415) Integration testing: cluster tx redirection
+
+[2258](https://github.com/hyperledger/iroha/pull/2258) [feature] #2132: Add `endpointN` proc macro
+
 [203](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/203) Transparency in the Interoperability of the National Electronic Toll(ETC) network
-
-[202](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/202) Update and rename proposal-template.md to labs/electronic-toll-collec…
-
-[3442](https://github.com/hyperledger/fabric/pull/3442) Fix some errors in the tutorial
-
-[217](https://github.com/hyperledger-labs/fabric-operations-console/pull/217) add a restart progress bar when changing settings
-
-[345](https://github.com/hyperledger-labs/go-perun/pull/345) Settle channel when funding fails
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
