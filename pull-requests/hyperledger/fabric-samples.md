@@ -146,32 +146,3 @@ Signed-off-by: Ry Jones <ry@linux.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/742" class=".btn">#742</a>
-            </td>
-            <td>
-                <b>
-                    ERC token samples: Added final fixes to erc token samples and documentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - added a final fix to the go contract check for overflow
-- added documentation for initialization of the contract in the READMEs
-- include typos and idiomatic code fixes highlighted from comments of the last pr
-Signed-off-by: fraVlaca <ocsenarf@outlook.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-17 15:54:10 +0000 UTC
-    </div>
-</div>
-

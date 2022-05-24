@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1427" class=".btn">#1427</a>
+            </td>
+            <td>
+                <b>
+                    Add `TrackingBatchResourceBuilder` for constructing batches from generic transactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">main</span>
+            </td>
+            <td>
+                This change adds a struct, `TrackingBatchResourceBuilder`, that will be used by endpoints to construct a batch from a generic list of transactions. This struct also takes identifying information for the batch, including the service ID, any data change IDs, and the signer's public key. 
+
+This struct is serializable/deserializable, as it will be used to pass batches across the API to be persisted in Grid's database.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-24 13:47:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1425" class=".btn">#1425</a>
             </td>
             <td>
@@ -50,7 +78,7 @@ permalink: /pull-requests/hyperledger/grid
         </tr>
         <tr>
             <td>
-                <span class="chip">backport-triage</span><span class="chip">main</span>
+                <span class="chip">main</span>
             </td>
             <td>
                 Adds the public traits for the submitter and submitter observer. These will be used in future implementations.
