@@ -65,9 +65,10 @@ RFC:
 2. Added message specs used for data sharing.
 
 Others:
-1. Version bump v1.2.9 for all fabric modules, and protos.
+1. Version bump v1.3.0 for all fabric modules, relay and protos.
 2. Access control logs added to corda interop app.
 3. Fixed makefiles for interopcc, interop sdk, and fabric-cli.
+4. Made semi-local tests in workflows use locally built docker images.
             </td>
         </tr>
     </table>

@@ -514,38 +514,3 @@ Finally, you can contact us on https://mergify.com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3426" class=".btn">#3426</a>
-            </td>
-            <td>
-                <b>
-                    New Block Attestation Orderer GRPC service
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-- New feature
-
-#### Description
-New RPC service for block attestation is added. It will be used by BFT block replication
-
-#### Related issues
-#3413 
-
-Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-17 10:20:25 +0000 UTC
-    </div>
-</div>
-
