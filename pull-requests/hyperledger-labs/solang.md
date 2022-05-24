@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/846" class=".btn">#846</a>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/848" class=".btn">#848</a>
             </td>
             <td>
                 <b>
-                    Do not raise warning for function parameters saved in storage
+                    Ensure the documentation can be built
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/solang
                 
             </td>
             <td>
-                This is a minor issue I found while working on issue #813.
+                Add CI test for the docs
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-23 17:04:22 +0000 UTC
+        Created At 2022-05-24 15:13:11 +0000 UTC
     </div>
 </div>
 
@@ -259,36 +259,6 @@ Please, @seanyoung check if I did not remove any necessary pointer cast.
     </table>
     <div class="right-align">
         Created At 2022-05-18 14:31:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/837" class=".btn">#837</a>
-            </td>
-            <td>
-                <b>
-                    Refactor emit
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In order to solve #807, I need to implement changes in Binary. This PR removes Binary from `emit/mod.rs`, so that I can work on it without modifying the `TargetRuntime`.
-
-The issue of LLVM renaming our types happens because we load the stdlib multiple times. Instead, we must load it once, build an LLVM module and link this same module to all other ones we create. Once this PR is merged, I'll submit my changes.
-
-In addition, I split the contract test into three functions, so that they run in parallel and make our testing faster. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-17 12:41:32 +0000 UTC
     </div>
 </div>
 

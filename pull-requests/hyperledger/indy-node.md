@@ -40,29 +40,3 @@ Signed-off-by: pSchlarb <p.schlarb@esatus.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1754" class=".btn">#1754</a>
-            </td>
-            <td>
-                <b>
-                    Pinned indy-shared-gha reference
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                https://github.com/hyperledger/indy-shared-gha/issues/8 needs to be done first.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-17 14:17:18 +0000 UTC
-    </div>
-</div>
-

@@ -88,32 +88,3 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1774" class=".btn">#1774</a>
-            </td>
-            <td>
-                <b>
-                    Replace async workaround within document loader
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">0.7.4</span>
-            </td>
-            <td>
-                After talking with Timo, the document loader uses a separate thread due to the fact that PyLD is synchronous code and calls 
-into the document loader (which requires asynchronous code). When swapping out the cache with (for example) a Redis based cache, the exception `got Future attached to a different loop` may arise due to the current separate thread/event loop based implementation.
-
-Switching to `nest_asyncio` over using a separate thread/event loop resolves the issues that were observed.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-17 16:02:13 +0000 UTC
-    </div>
-</div>
-

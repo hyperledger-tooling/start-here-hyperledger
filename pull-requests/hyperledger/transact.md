@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/351" class=".btn">#351</a>
+            </td>
+            <td>
+                <b>
+                    Stabilize "state-merkle-sql-in-transaction"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR stabilizes the feature "state-merkle-sql-in-transaction", first by moving it to the stable meta feature, and then removing it - to be included under the "state-merkle-sql" feature. 
+
+The first commit will be back-ported to 0-4
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-23 18:49:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/350" class=".btn">#350</a>
             </td>
             <td>
@@ -243,33 +271,6 @@ For the main branch, these feature is removed.  The commits related to the renam
     </table>
     <div class="right-align">
         Created At 2022-05-17 21:10:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/341" class=".btn">#341</a>
-            </td>
-            <td>
-                <b>
-                    Merge state-trait subfeatures into state-trait
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change merges all of the state-trait subfeatures into the state-trait, to be stabilized together.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-17 16:09:21 +0000 UTC
     </div>
 </div>
 
