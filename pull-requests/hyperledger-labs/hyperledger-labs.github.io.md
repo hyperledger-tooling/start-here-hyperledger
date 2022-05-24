@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/201" class=".btn">#201</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/203" class=".btn">#203</a>
             </td>
             <td>
                 <b>
-                    Media Tracking Platform to Tackle Online Piracy
+                    Transparency in the Interoperability of the National Electronic Toll(ETC) network
                 </b>
             </td>
         </tr>
@@ -27,16 +27,60 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                Copyright infringement is a big issue in today's world, where intellectual property is often worth more than a physical one. When piracy websites distribute copyrighted media by some other entity, it makes that entity lose money, and as a result, even governments lose their share of taxes. Such infringements lead to more minor purchases of the copyrighted content through legal means, and it also lowers the income of industries that produce such content.
+                ## Checklist for Hyperledger Lab Proposal PR
 
-Encryption and device restrictions are often not enough to limit piracy; another way to limit it would be to target websites that distribute copyright content illegally.
+- [ ] Read [README.md](https://github.com/hyperledger-labs/hyperledger-labs.github.io/blob/master/README.md) carefully
+- [ ] Make sure your changes are committed with the proper sign-off
+- [ ] Use the labs name as the PR title
+- [ ] Copy the short description of the proposal as the description of the PR
+- [ ] Remove this checklist section
+- [ ] Submit your PR and the labs stewards will review your proposal
+- [ ] Ask your sponsor to confirm sponsorship by stating so in a comment to the PR
 
-Our system is a distributed system with a blockchain ledger maintaining information on the copyrighted content provided by the legal owner of such content that could be accessed by our crawler as a sample to identify content similar to it on unauthorized websites. The crawler will index the URL and IP address of the platform hosting the content illegally. It notifies the concerned owner of the content, who verifies whether the content belongs to them. Post verification, the illegal distributor or the content can be taken down from the internet.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-26 12:11:44 +0000 UTC
+        Created At 2022-05-24 05:53:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/202" class=".btn">#202</a>
+            </td>
+            <td>
+                <b>
+                    Update and rename proposal-template.md to labs/electronic-toll-collec…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …tion-system.md
+
+Signed-off-by: Ozymandias <gasram@hotmail.com>
+
+## Checklist for Hyperledger Lab Proposal PR
+
+- [ ] Read [README.md](https://github.com/hyperledger-labs/hyperledger-labs.github.io/blob/master/README.md) carefully
+- [ ] Make sure your changes are committed with the proper sign-off
+- [ ] Use the labs name as the PR title
+- [ ] Copy the short description of the proposal as the description of the PR
+- [ ] Remove this checklist section
+- [ ] Submit your PR and the labs stewards will review your proposal
+- [ ] Ask your sponsor to confirm sponsorship by stating so in a comment to the PR
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-24 05:41:09 +0000 UTC
     </div>
 </div>
 
