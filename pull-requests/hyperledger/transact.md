@@ -248,29 +248,3 @@ For the main branch, these feature is removed.  The commits related to the renam
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/342" class=".btn">#342</a>
-            </td>
-            <td>
-                <b>
-                    Backport 0-4: Merge state trait features and supporting commits
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Backports commits from #334, #337, #338, and #341
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-17 21:10:07 +0000 UTC
-    </div>
-</div>
-
