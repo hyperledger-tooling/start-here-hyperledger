@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/850" class=".btn">#850</a>
+            </td>
+            <td>
+                <b>
+                    refactor(arguments): Replace -O command line option
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Replace llvm-like -O command with gcc-like
+optimization
+commands
+according
+to
+https://llvm.org/doxygen/CodeGen_8h_source.html
+
+Limit the command
+to
+only one argument
+(one type of optimization)
+
+Add basic help for the
+-O
+command to improve usability
+
+BREAKING CHANGE: Optimization command -O now takes GCC-like arguments
+(0,1,2 or s and 3)
+
+Closes #534
+
+Signed-off-by: Saladino Belisario <SaladinoBelisario@protonmail.ch>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-25 00:15:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/848" class=".btn">#848</a>
             </td>
             <td>
