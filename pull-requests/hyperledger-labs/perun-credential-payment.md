@@ -1,33 +1,33 @@
 ---
 layout: default
-title: yui-ibc-solidity
+title: perun-credential-payment
 parent: Hyperledger Labs
 grand_parent: Pull Requests
 has_children: false
-permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
+permalink: /pull-requests/hyperledger-labs/perun-credential-payment
 ---
 
-# yui-ibc-solidity <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger-labs/yui-ibc-solidity){: .btn .mr-4 }</span>
+# perun-credential-payment <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger-labs/perun-credential-payment){: .btn .mr-4 }</span>
 
 
 <div>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/86" class=".btn">#86</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-credential-payment/pull/2" class=".btn">#2</a>
             </td>
             <td>
                 <b>
-                    Bump github.com/ethereum/go-ethereum from 1.9.25 to 1.10.17
+                    Bump github.com/ethereum/go-ethereum from 1.10.12 to 1.10.17
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span><span class="chip">go</span>
+                <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [github.com/ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) from 1.9.25 to 1.10.17.
+                Bumps [github.com/ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) from 1.10.12 to 1.10.17.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/ethereum/go-ethereum/releases">github.com/ethereum/go-ethereum's releases</a>.</em></p>
@@ -93,13 +93,13 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
 <li><a href="https://github.com/ethereum/go-ethereum/commit/eb3ebceaa112dc62bbe5751e721c1d6c90bc50fb"><code>eb3ebce</code></a> internal/build: exit sftp upload (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/issues/24590">#24590</a>)</li>
 <li><a href="https://github.com/ethereum/go-ethereum/commit/d1c243f84100f7d5e2291ec0e731c54b0ec9d2be"><code>d1c243f</code></a> internal/build: prevent travis timeout during ppa upload (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/issues/24589">#24589</a>)</li>
 <li><a href="https://github.com/ethereum/go-ethereum/commit/19b9cf714ff1aeb044e67e8eb8f1e3cb4f965e7d"><code>19b9cf7</code></a> internal/build: show ppa upload process stdout on stdout (<a href="https://github-redirect.dependabot.com/ethereum/go-ethereum/issues/24588">#24588</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/ethereum/go-ethereum/compare/v1.9.25...v1.10.17">compare view</a></li>
+<li>Additional commits viewable in <a href="https://github.com/ethereum/go-ethereum/compare/v1.10.12...v1.10.17">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/ethereum/go-ethereum&package-manager=go_modules&previous-version=1.9.25&new-version=1.10.17)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/ethereum/go-ethereum&package-manager=go_modules&previous-version=1.10.12&new-version=1.10.17)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -128,14 +128,14 @@ You can trigger Dependabot actions by commenting on this PR:
 - `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
 - `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
 
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/yui-ibc-solidity/network/alerts).
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/perun-credential-payment/network/alerts).
 
 </details>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-24 20:56:27 +0000 UTC
+        Created At 2022-05-24 20:56:59 +0000 UTC
     </div>
 </div>
 

@@ -118,36 +118,3 @@ permalink: /pull-requests/hyperledger/caliper
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1348" class=".btn">#1348</a>
-            </td>
-            <td>
-                <b>
-                    Fix #536 Update error messages for 'caliper-cli' package
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Partially fixes #536 
-- The error messages are clear and consistent.
-- All the error messages are checked and updated.
-
-
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-17 18:26:14 +0000 UTC
-    </div>
-</div>
-

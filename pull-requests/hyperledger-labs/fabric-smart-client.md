@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/280" class=".btn">#280</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/282" class=".btn">#282</a>
             </td>
             <td>
                 <b>
-                    fabric-sdk: add keep alive config support #279
+                    fix db memory data race
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+                see ticket https://github.com/hyperledger-labs/fabric-smart-client/issues/276
+
+Signed-off-by: Mathilde Ffrench <mathilde.ffrench@fr.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-11 14:31:54 +0000 UTC
+        Created At 2022-05-24 19:16:37 +0000 UTC
     </div>
 </div>
 
