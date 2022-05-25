@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/221" class=".btn">#221</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/224" class=".btn">#224</a>
             </td>
             <td>
                 <b>
-                    Iroha-219: update to iroha2:stable
+                    Feature/wasm trigger
                 </b>
             </td>
         </tr>
@@ -27,15 +27,15 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                - Updated to schema from iroha2:stable version
-- Implemented structures sorting by `sorted` and `sorted_by_key` flags from schema
-- Trigger queries
-- Codegen refactoring
+                1.Added wasm trigger registration
+2.Fixed Short to Int in scale codec reader
+3.Added test smart contract source in rust
+4.Added compiled wasm to resources
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-16 11:34:17 +0000 UTC
+        Created At 2022-05-25 10:03:09 +0000 UTC
     </div>
 </div>
 

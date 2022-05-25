@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3447" class=".btn">#3447</a>
+            </td>
+            <td>
+                <b>
+                    Use any peer to evaluate system chaincode transactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Cherry-pick of d0e209309ce412a66b7a20a6348327f1b2f6ee23 from main branch.
+
+System chaincodes are not included in the installed chaincodes returned by service discovery. The Gateway service was relying on discovery results to find peers on which to evaluate transactions and so failed to evaluate system chaincode transaction functions. Now the Gateway service uses any network peer to evaluate transactions invoked on known built-in system chaincodes.
+
+Also added a system test to confirm that the Gateway service can endorse system chaincode transaction functions.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-25 10:10:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3446" class=".btn">#3446</a>
             </td>
             <td>

@@ -14,25 +14,25 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/101" class=".btn">#101</a>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/105" class=".btn">#105</a>
             </td>
             <td>
                 <b>
-                    misc: update scripts so `data-model-schema` package should be published
+                    Fix packages deps & files; rebuild crypto; use Jake
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                
             </td>
             <td>
-                Resolves #97 
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-16 11:31:53 +0000 UTC
+        Created At 2022-05-25 08:24:11 +0000 UTC
     </div>
 </div>
 

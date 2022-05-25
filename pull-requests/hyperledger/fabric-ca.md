@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/290" class=".btn">#290</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/291" class=".btn">#291</a>
             </td>
             <td>
                 <b>
-                    escape special charecters that can be set through the command line ar…
+                    Nominate Josh and Mark as maintainers
                 </b>
             </td>
         </tr>
@@ -27,26 +27,16 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                …guments
+                Josh and Mark have both worked on PRs to improve and maintain
+Fabric CA recently.
 
-Signed-off-by: Rohan Shrothrium <rohan.shrothrium@intellecteu.com>
-
-#### Type of change
-
-- Bug fix
-
-#### Description
-
-When we initialise a fabric ca server with an admin and adminpw, if they have special characters the ca behaves not as expected.
-These special characters can be in anything that can be passed through the command line arguments.
-This PR is meant to escape these special characters in the `yml` file.
-
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-15 19:16:44 +0000 UTC
+        Created At 2022-05-25 12:14:38 +0000 UTC
     </div>
 </div>
 

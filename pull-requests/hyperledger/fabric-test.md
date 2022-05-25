@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-test
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/379" class=".btn">#379</a>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/381" class=".btn">#381</a>
             </td>
             <td>
                 <b>
-                    Update CODEOWNERS
+                    Update maintainers
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger/fabric-test
                 
             </td>
             <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
+                Retire Dongming due to inactivity.
+Nominate Matthew White and David Kelsey since they have been active the last 6 months.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-11 18:45:32 +0000 UTC
+        Created At 2022-05-25 11:50:23 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/851" class=".btn">#851</a>
+            </td>
+            <td>
+                <b>
+                    Ensure that contracts tests also emit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                WIP:
+
+Now the test fails on tests/contract_testcases/solana/account_meta.sol
+The codegen generated a double load on the pubkey in the return (I
+think).
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-25 10:24:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/850" class=".btn">#850</a>
             </td>
             <td>
