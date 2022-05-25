@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/218" class=".btn">#218</a>
+            </td>
+            <td>
+                <b>
+                    update release notes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Documentation update
+
+#### Description
+Added release notes for 1.0.3-11
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-25 17:59:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/217" class=".btn">#217</a>
             </td>
             <td>

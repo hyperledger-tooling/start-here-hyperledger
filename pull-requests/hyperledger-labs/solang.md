@@ -313,31 +313,3 @@ I was thinking we could use something like an r* tree but this is a bit heavy fo
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/838" class=".btn">#838</a>
-            </td>
-            <td>
-                <b>
-                    Load stdlib only once
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR fixes #807. We are now only loading the stdlib module only once and linking it against any other modules we create. Although LLVM types are global, I believe LLVM adds a `.0` to the end of the type name for disambiguation, because it does not check if two types of equal names represent the same structure in the memory. In this sense, whenever we load stdlib again, LLVM understands that is a totally new module and tries to disambiguate type names.
-
-Please, @seanyoung check if I did not remove any necessary pointer cast.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-18 14:31:44 +0000 UTC
-    </div>
-</div>
-
