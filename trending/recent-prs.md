@@ -1,13 +1,13 @@
 
-[291](https://github.com/hyperledger/fabric-ca/pull/291) Nominate Josh and Mark as maintainers
+[218](https://github.com/hyperledger-labs/fabric-operations-console/pull/218) update release notes
 
-[381](https://github.com/hyperledger/fabric-test/pull/381) Update maintainers
+[2265](https://github.com/hyperledger/iroha/pull/2265) [feature] #2125: Add FindAssetDefinitionById query
 
-[45](https://github.com/hyperledger/fabric-chaincode-go/pull/45) PurgePrivateData Implementation
+[2264](https://github.com/hyperledger/iroha/pull/2264) [feature] #2257: Revoke<Role> emits RoleRevoked event
 
-[851](https://github.com/hyperledger-labs/solang/pull/851) Ensure that contracts tests also emit
+[3448](https://github.com/hyperledger/fabric/pull/3448) Support PurgePrivateData from the Chaincode
 
-[3447](https://github.com/hyperledger/fabric/pull/3447) Use any peer to evaluate system chaincode transactions
+[346](https://github.com/hyperledger-labs/go-perun/pull/346) Update CHANGELOG v0.10.0
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

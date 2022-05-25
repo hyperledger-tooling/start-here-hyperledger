@@ -14,6 +14,97 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2265" class=".btn">#2265</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #2125: Add FindAssetDefinitionById query
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+Add a new query to get `AssetDefinitionId` as input and find `AssetDefinition`. 
+
+### Issue
+
+Resolves #2125 
+
+### Benefits
+
+New possibilities for get asset definition.
+
+### Possible Drawbacks
+
+None
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-25 16:18:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2264" class=".btn">#2264</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #2257: Revoke<Role> emits RoleRevoked event
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ### Description of the Change
+This PR makes `Revoke` role emit `RoleRevoked` instead of `Permission` event. 
+### Issue
+`Revoke` role emits `Permission` events which is a misleading since roles are a collection of permission events.
+### Benefits
+More accurate information about the user.
+### Possible Drawbacks
+Not sure about drawbacks because I am new to the codebase.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-25 16:10:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2261" class=".btn">#2261</a>
             </td>
             <td>
@@ -213,7 +304,7 @@ Updated the readme in `/hooks` and added a reference to it from the contributing
             </td>
             <td>
                 <b>
-                    [feature] #1926: Added signal handling and graceful shutdown
+                    [feature] #1926: Add signal handling and graceful shutdown
                 </b>
             </td>
         </tr>
@@ -724,71 +815,6 @@ Partially addresses #2193
     </table>
     <div class="right-align">
         Created At 2022-05-19 07:45:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2229" class=".btn">#2229</a>
-            </td>
-            <td>
-                <b>
-                    [refactor]: Move `TriggerSet` to `data_model`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">Refactor</span>
-            </td>
-            <td>
-                <!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-Initially it suppose to close #1889 but in the middle of work it was decided to wait until we get dynamic wasm linking. Dynamic linking is important, cause it will remove `no_std` limitations from `data_model` and `TriggerSet` is not compatible with `no_std`.
-So this PR contains only `TriggerSet` moving to `data_model`. It should be useful for the future.
-
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-### Issue
-
-None
-
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-* `TriggerSet` now is stored there it should be
-* Errors produced by `TriggerSet` make more sense
-
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks
-
-None
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-18 15:54:27 +0000 UTC
     </div>
 </div>
 
