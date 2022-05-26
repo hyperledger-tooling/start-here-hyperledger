@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2273" class=".btn">#2273</a>
+            </td>
+            <td>
+                <b>
+                    [test] #2272: Add tests for 'FindAssetDefinitionById' query
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+Add some tests for 'FindAssetDefinitionById' query.
+
+### Issue
+
+Resolves #2272 
+
+### Benefits
+
+It tests the query.
+
+### Possible Drawbacks
+
+None
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-26 14:39:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2271" class=".btn">#2271</a>
             </td>
             <td>
@@ -95,7 +153,11 @@ None
 WIP. 
 - [x] Add traits to track common filter paradigms. 
 - [x] Add module `predicate` for various filters
-- [ ] Add sensible `fmt::Display` implementations to various structs. 
+- [x] Add sensible `fmt::Display` implementations to various structs. 
+- [ ] Add accessor enum
+- [ ] Add processor enum
+- [ ] Add predicate enum
+- [ ] Add logic (optional)
 - [ ] Add filtering step before pagination
 - [ ] Add unit tests to cover filter behaviour
 - [ ] Add integration tests 
@@ -780,41 +842,6 @@ The reason for the problem is that the toolchain is incorrect here:
     </table>
     <div class="right-align">
         Created At 2022-05-19 18:49:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2236" class=".btn">#2236</a>
-            </td>
-            <td>
-                <b>
-                    [documentation] #2193: Update README for macro crate
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">Documentation</span>
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-### Description of the Change
-
-Updated `macro` readme: https://github.com/outoftardis/iroha/tree/doc-macro/macro#iroha-macros
-
-### Issue
-
-Partially addresses #2193 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-19 14:09:04 +0000 UTC
     </div>
 </div>
 
