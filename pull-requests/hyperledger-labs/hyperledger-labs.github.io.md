@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/202" class=".btn">#202</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/203" class=".btn">#203</a>
             </td>
             <td>
                 <b>
-                    Update and rename proposal-template.md to labs/electronic-toll-collec…
+                    Transparency in the Interoperability of the National Electronic Toll(ETC) network
                 </b>
             </td>
         </tr>
@@ -27,11 +27,7 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                …tion-system.md
-
-Signed-off-by: Ozymandias <gasram@hotmail.com>
-
-## Checklist for Hyperledger Lab Proposal PR
+                ## Checklist for Hyperledger Lab Proposal PR
 
 - [ ] Read [README.md](https://github.com/hyperledger-labs/hyperledger-labs.github.io/blob/master/README.md) carefully
 - [ ] Make sure your changes are committed with the proper sign-off
@@ -45,7 +41,7 @@ Signed-off-by: Ozymandias <gasram@hotmail.com>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-24 05:41:09 +0000 UTC
+        Created At 2022-05-24 05:53:03 +0000 UTC
     </div>
 </div>
 
