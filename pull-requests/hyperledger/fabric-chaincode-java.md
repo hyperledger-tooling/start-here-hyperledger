@@ -31,6 +31,8 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
 
 Resolves #240
 
+Fabric Issue https://github.com/hyperledger/fabric/issues/3020
+
 Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
         </tr>
