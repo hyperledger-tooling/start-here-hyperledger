@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2269" class=".btn">#2269</a>
+            </td>
+            <td>
+                <b>
+                    Fix/add patches from support branches
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Description of the Change
+Fixes from v1.4 and 1.2.1 support branches.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-26 05:56:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2265" class=".btn">#2265</a>
             </td>
             <td>
