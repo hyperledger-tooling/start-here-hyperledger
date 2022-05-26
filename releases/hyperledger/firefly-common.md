@@ -15,33 +15,35 @@ permalink: /releases/hyperledger/firefly-common
         <tr>
             <td colspan="2">
                 <b>
-                    v0.1.5
+                    v0.1.6
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.1.5
+                    v0.1.6
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Add support for config with arrays of arrays by @awrichar in https://github.com/hyperledger/firefly-common/pull/8
-* Add language tag to FFM, FFE, FFC, etc by @nguyer in https://github.com/hyperledger/firefly-common/pull/7
+* Update README with Go ref links by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/9
+* Add prefix for EVMConnect by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/10
+* Do not assume exec output is an array by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/11
+* @peterbroadhurst Missing interface function for GetFloat64  by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/13
+* Fix nav in docs site by @nguyer in https://github.com/hyperledger/firefly-common/pull/12
+* Better handling of subarray defaults by @awrichar in https://github.com/hyperledger/firefly-common/pull/14
 
-## New Contributors
-* @nguyer made their first contribution in https://github.com/hyperledger/firefly-common/pull/7
 
-**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v0.1.4...v0.1.5
+**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v0.1.5...v0.1.6
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v0.1.5" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v0.1.6" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-05-18 19:01:54 +0000 UTC
+        Created At 2022-05-26 16:01:23 +0000 UTC
     </span>
 </div>
 
