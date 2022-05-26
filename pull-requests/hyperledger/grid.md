@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1429" class=".btn">#1429</a>
+            </td>
+            <td>
+                <b>
+                    Retire chenette and eloaverona
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport-triage</span><span class="chip">main</span>
+            </td>
+            <td>
+                This change retires @chenette and @eloaverona as maintainers and
+codeowners for Grid.
+
+Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-26 14:46:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1428" class=".btn">#1428</a>
+            </td>
+            <td>
+                <b>
+                    Make Chris Eckhardt a Grid maintainer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">main</span>
+            </td>
+            <td>
+                Signed-off-by: Shannyn Telander <telander@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-26 13:50:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1427" class=".btn">#1427</a>
             </td>
             <td>
@@ -87,74 +142,6 @@ This struct is serializable/deserializable, as it will be used to pass batches a
     </table>
     <div class="right-align">
         Created At 2022-05-20 16:27:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1423" class=".btn">#1423</a>
-            </td>
-            <td>
-                <b>
-                    Backport 0-3: Use `find` instead of `find_map`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The `find` Iterator method takes a closure, which returns a boolean, and
-the method then returns the first object that evaluates to true as an
-Option, otherwise it returns None. Previously, we were doing this
-specification manually in the `find_map` method.
-
-This issue was caught by clippy, for more information on this lint,
-see: https://rust-lang.github.io/rust-clippy/master/index.html#unnecessary_find_map
-
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-19 17:17:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1422" class=".btn">#1422</a>
-            </td>
-            <td>
-                <b>
-                    Use `find` instead of `find_map`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Backport-0-3</span><span class="chip">main</span>
-            </td>
-            <td>
-                The `find` Iterator method takes a closure, which returns a boolean, and
-the method then returns the first object that evaluates to true as an
-Option, otherwise it returns None. Previously, we were doing this
-specification manually in the `find_map` method.
-
-This issue was caught by clippy, for more information on this lint,
-see: https://rust-lang.github.io/rust-clippy/master/index.html#unnecessary_find_map
-
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-19 16:22:52 +0000 UTC
     </div>
 </div>
 
