@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/245" class=".btn">#245</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/249" class=".btn">#249</a>
             </td>
             <td>
                 <b>
-                    chore: update to latest sidetree
+                    feat: Changes to MongoDB custom method parameters
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
                 
             </td>
             <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+                Changed the MongoDB CustomQuery method's filter parameter to be an interface{} to match the type used by the underlying driver. This allows the caller more flexibility in their queries.
+
+Changed the MongoDB CustomQuery method's return parameter to be the specific MongoDB Iterator object instead of the storage interface's iterator type so that the caller can directly use the ValueAsRawMap method without doing a type assertion.
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-28 15:55:24 +0000 UTC
+        Created At 2022-05-27 00:45:31 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +44,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/244" class=".btn">#244</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/248" class=".btn">#248</a>
             </td>
             <td>
                 <b>
-                    chore: update to latest aries
+                    feat: Added find options to MongoDB CustomQuery method
                 </b>
             </td>
         </tr>
@@ -53,12 +57,14 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
                 
             </td>
             <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+                This will give the caller the ability to have more control over custom queries in MongoDB.
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-28 15:26:46 +0000 UTC
+        Created At 2022-05-20 18:54:03 +0000 UTC
     </div>
 </div>
 

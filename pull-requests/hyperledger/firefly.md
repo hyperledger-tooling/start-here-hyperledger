@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/796" class=".btn">#796</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/835" class=".btn">#835</a>
             </td>
             <td>
                 <b>
-                    Backport fixes for 1.0.1
+                    Update README with missing links, and bit of a restructure
                 </b>
             </td>
         </tr>
@@ -27,21 +27,12 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                Backport the following PRs from main in preparation for a patch release:
-
-#775
-#776
-#777
-#778
-#780
-#782
-
-Also includes updates to the token connectors (only) in manifest.json.
+                I found a few links were missing, and given how many repos we've grown to I proposed a bit of organization too.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-06 16:09:47 +0000 UTC
+        Created At 2022-05-25 03:18:40 +0000 UTC
     </div>
 </div>
 
@@ -49,11 +40,11 @@ Also includes updates to the token connectors (only) in manifest.json.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/794" class=".btn">#794</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/834" class=".btn">#834</a>
             </td>
             <td>
                 <b>
-                    Do not init apiserver config, until after config reset
+                    Backport docs generation and versioning code for 1.0 stream
                 </b>
             </td>
         </tr>
@@ -62,16 +53,20 @@ Also includes updates to the token connectors (only) in manifest.json.
                 
             </td>
             <td>
-                CORS defaults were not being applied any more, after #791 moved the initialization to be alongside all the rest of the HTTP server config.
+                This PR backports several things into the 1.0 release stream for generating new docs pages going forward:
 
-We were initializing those config prefixes, before we were calling `coreconfig.Reset()`
+- Structural changes to the docs site, including embedding the theme
+- The new GitHub action which builds and publishes docs versions
+- The new docs internationalization support
+- The new Go code to generate reference docs pages
+- All the description includes for reference types
 
-![image](https://user-images.githubusercontent.com/6660217/167027739-9275f639-fa3e-4d8a-9ea9-a9e722ebabb4.png)
+There is no new code in this PR. Just porting over existing code from `main` onto the `release-1.0` branch.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-05 21:22:01 +0000 UTC
+        Created At 2022-05-24 17:04:07 +0000 UTC
     </div>
 </div>
 
@@ -79,11 +74,11 @@ We were initializing those config prefixes, before we were calling `coreconfig.R
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/793" class=".btn">#793</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/833" class=".btn">#833</a>
             </td>
             <td>
                 <b>
-                    Fix links in documentation
+                    Namespace config validation
                 </b>
             </td>
         </tr>
@@ -92,13 +87,24 @@ We were initializing those config prefixes, before we were calling `coreconfig.R
                 
             </td>
             <td>
-                I deleted the previous branch when i noticed my git credentials had not been updated in my signed commits.
-This PR still addresses the two links.
+                Adding additional configuration validation to the namespace manager, as specified in [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12)
+
+
+* `name` must be unique on this node
+ * for historical reasons, "ff_system" is a reserved string and cannot be used as a `name` or `remoteName`
+ * a `database` plugin is required for every namespace
+ * if `mode: multiparty` is specified, plugins _must_ include one each of `blockchain`,
+  `dataexchange`, and `sharedstorage`
+ * if `mode: gateway` is speicified, plugins _must not_ include `dataexchange` or `sharedstorage`
+ * at most one of each type of plugin is allowed per namespace, except for tokens (which
+  may have many per namespace)
+
+depends on changes in https://github.com/hyperledger/firefly-common/pull/14
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-05 20:17:11 +0000 UTC
+        Created At 2022-05-24 15:42:32 +0000 UTC
     </div>
 </div>
 
@@ -106,255 +112,11 @@ This PR still addresses the two links.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/792" class=".btn">#792</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/832" class=".btn">#832</a>
             </td>
             <td>
                 <b>
-                    Allow namespace to be omitted from URLs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Proposal to tweak our route generation so that namespaced routes will actually generate _two_ versions of the route:
-* a base route like `/data` that implies use of the default namespace
-* a namespaced route like `/namespaces/{ns}/data` that allows you to specify the namespace
-
-To reduce clutter on the Swagger UI page, routes will also now be grouped into 3 category buckets. I'm open to names for these categories, but I've proposed "Global", "Default Namespace", and "Non-Default Namespace".
-
-The main functional changes are in `internal/apiserver/routes.go`.
-
----
-
-<img width="1852" alt="Swagger_UI" src="https://user-images.githubusercontent.com/1993829/166966999-5204cbf8-92d9-4762-9038-fd5ea21f4562.png">
-
----
-
-<img width="1849" alt="Swagger_UI" src="https://user-images.githubusercontent.com/1993829/166967145-f1331a45-b5a9-44c6-8bb4-81ff0775fd21.png">
-
----
-
-<img width="1847" alt="Swagger_UI" src="https://user-images.githubusercontent.com/1993829/166967227-0d996e36-4474-48f0-9ee9-5dec105b9f17.png">
-
----
-
-<img width="1851" alt="Swagger_UI" src="https://user-images.githubusercontent.com/1993829/166967307-12ad9f93-1fcf-4f42-a5ba-435fbf0c0e75.png">
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-04 20:04:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/791" class=".btn">#791</a>
-            </td>
-            <td>
-                <b>
-                    Refactor to move common utility code out to firefly-common
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Moves base `pkg/fftypes` (time, numeric, bytes etc.) out to `firefly-common`
-- Moves all FireFly Core data types from `pkg/fftypes` to `pkg/core`
-- Removes the following packages that all moved to `firefly-common`:
-  - `pkg/config`
-  - `pkg/ffresty`
-  - `pkg/httpserver`
-  - `pkg/i18n`
-  - `pkg/log`
-  - `pkg/retry`
-  - `pkg/wsclient`
-- Only functional change: `api.shutdownTimeout` moved to be consistent with the other `httpserver` config, so is now split into three separate configurations:
-   - `api.shutdownTimeout`
-   - `admin.shutdownTimeout`
-   - `metrics.shutdownTimeout`
-- I decided to keep `cors.` as a global config shared across `api`/`admin`/`metrics` - which means initializing the HTTP Server now passes in two separate config prefixes
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-04 19:44:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/790" class=".btn">#790</a>
-            </td>
-            <td>
-                <b>
-                    Split definition methods out of Broadcast Manager into new Definition Sender
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Not totally crazy about the names `defsender.Sender` and `defhandler.DefinitionHandler`, but they need to be separate packages and this is where I landed...
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-04 15:37:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/789" class=".btn">#789</a>
-            </td>
-            <td>
-                <b>
-                    Remove non-definition items from DefinitionHandler
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves #614
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-03 18:49:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/786" class=".btn">#786</a>
-            </td>
-            <td>
-                <b>
-                    update init logging branding
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-03 16:02:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/785" class=".btn">#785</a>
-            </td>
-            <td>
-                <b>
-                    update cobra short and long descriptions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-03 13:28:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/784" class=".btn">#784</a>
-            </td>
-            <td>
-                <b>
-                    Adde custom onchain logic docs for Fabric plus refactoring
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-02 22:06:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/782" class=".btn">#782</a>
-            </td>
-            <td>
-                <b>
-                    Default for token approvals should be "approved: true"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-candidate</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-02 18:44:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/781" class=".btn">#781</a>
-            </td>
-            <td>
-                <b>
-                    Update manifest.json
+                    Fix relative links in reference descriptions docs
                 </b>
             </td>
         </tr>
@@ -368,7 +130,105 @@ The main functional changes are in `internal/apiserver/routes.go`.
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-02 13:07:31 +0000 UTC
+        Created At 2022-05-24 15:26:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/831" class=".btn">#831</a>
+            </td>
+            <td>
+                <b>
+                    Fix link to events reference
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Peter Broadhurst <peter.broadhurst@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-23 21:04:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/830" class=".btn">#830</a>
+            </td>
+            <td>
+                <b>
+                    Add version support to docs site
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds significant new functionality to the docs GitHub action to manage versions of the docs site. This will create a directory tree that ends up looking like this:
+
+```
++ / (latest release)
+|-- v1.0.0
+|-- v1.0.1
+|-- ...
+|-- head (current commit in main)
+```
+
+It will also build a JSON file that contains the full list of all these versions to build the dropdown menu that shows up in the docs rendered pages (with the addition of a `latest` link that links to `/`).
+
+These changes allow us to always keep the docs up to date with the code in the same commit, but users navigating to the docs site will see the latest release by default. They can also use the dropdown menu to browse older release as well.
+
+> **NOTE** There will be a one time manual action necessary to generate docs for older versions. I can take care of this after this PR is approved and merged.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-23 20:06:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/829" class=".btn">#829</a>
+            </td>
+            <td>
+                <b>
+                    Possible to see clash on port 6000 for metrics server
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Saw a build failure in https://github.com/hyperledger/firefly/runs/6530517574?check_suite_focus=true
+
+```
+Error: FF00151: Unable to start listener on 127.0.0.1:6000: %!s(MISSING): listen tcp 127.0.0.1:6000: bind: address already in use
+```
+
+We have config to get a dynamically assigned port for these tests for `debug` and `http`, but not for `metrics`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-23 13:04:41 +0000 UTC
     </div>
 </div>
 

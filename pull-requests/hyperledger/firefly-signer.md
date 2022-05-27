@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-signer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-signer/pull/4" class=".btn">#4</a>
+                PR <a href="https://github.com/hyperledger/firefly-signer/pull/5" class=".btn">#5</a>
             </td>
             <td>
                 <b>
-                    ABI encoder and decoder
+                    Update common, and defer parsing of from address
                 </b>
             </td>
         </tr>
@@ -27,68 +27,16 @@ permalink: /pull-requests/hyperledger/firefly-signer
                 
             </td>
             <td>
-                - [x] JSON parser for ABI defintion
-- [x] Modeling and verification for of all elemental types, arrays, and tuple types
-  - [x] `int<M>`
-  - [x] `uint<M>`
-  - [x] `address`
-  - [x] `bool`
-  - [x] `fixed<M>x<N>`
-  - [x] `ufixed<M>x<N>`
-  - [x] `bytes` / `bytes<M>`
-  - [x] `function`
-  - [x] `string`
-  - [x] `tuple`
-  - [x]  fixed arrays `T[k]`
-  - [x] variable arrays `T[]`
-  - [x] API access to parsed type tree for features such as Swagger/OpenAPI generation
-- [x] External input data mapping to ABI structure
-  - [x] JSON types
-  - [x] Go types
-  - [x] Object style `{"arg1": 123}` input for function parameters/nested-tuples
-  - [x] Array style `[123]` input for function parameters/nested-tuples
-  - [x] API access to parsed value tree, mapped against type tree
-- [x] ABI data encoding / serialization
-   - [x] Unit tests for all examples in https://docs.soliditylang.org/en/v0.8.13/abi-spec.html 
-- [ ] ABI data decoding / parsing
-- [ ] JSON data serialization from value tree
-- [ ] README updates
+                The `Transaction` definition in the `ethsigner` package is very useful, but it is currently opinionated that the `from` field must be an ethereum address, which in some situations in other packages might not be true.
+
+So this changes the field to be a `json.RawMessage` to defer parsing, and now only code that explicitly needs that value to be an address performs the parsing.
+
+This PR also updates the dependencies - including migrating the config to the new `Section` (vs `Prefix`) terminology in `firefly-common`.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-08 22:03:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-signer/pull/3" class=".btn">#3</a>
-            </td>
-            <td>
-                <b>
-                    Move to firefly-common dependency, and add config docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Moves over all dependences to `firefly-common` that are now there
-- Adds `config.md` auto-generation and link from `README.md`
-
-Depends on (go.mod pulls these in directly):
-- https://github.com/hyperledger/firefly-common/pull/4
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-05 12:25:02 +0000 UTC
+        Created At 2022-05-24 14:55:26 +0000 UTC
     </div>
 </div>
 

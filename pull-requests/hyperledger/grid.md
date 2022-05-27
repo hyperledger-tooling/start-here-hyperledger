@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1432" class=".btn">#1432</a>
+            </td>
+            <td>
+                <b>
+                    Update `/batches` endpoint to correctly return errors from Splinter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport-triage</span><span class="chip">main</span>
+            </td>
+            <td>
+                This PR closes #1430 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-26 20:17:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1431" class=".btn">#1431</a>
+            </td>
+            <td>
+                <b>
+                    Remove slack alerts from pull request workflows
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                These were introduced inadvertently as a copy/paste error. Not only would
+this behavior be undesired, but because the workflow runs in the context
+of the forked repository there is no access to the secrets required.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-26 19:53:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1429" class=".btn">#1429</a>
             </td>
             <td>
@@ -24,7 +80,7 @@ permalink: /pull-requests/hyperledger/grid
         </tr>
         <tr>
             <td>
-                <span class="chip">backport-triage</span><span class="chip">main</span>
+                <span class="chip">main</span>
             </td>
             <td>
                 This change retires @chenette and @eloaverona as maintainers and

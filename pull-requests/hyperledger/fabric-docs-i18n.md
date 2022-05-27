@@ -14,70 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/694" class=".btn">#694</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/711" class=".btn">#711</a>
             </td>
             <td>
                 <b>
-                    [it_IT] Translate CONTRIBUTING: Reporting bugs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                NOTE: I've also fixed a little typo in the previous paragraph, so please ignore it
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-09 08:28:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/693" class=".btn">#693</a>
-            </td>
-            <td>
-                <b>
-                    [ja_JP] Update "private_data_tutorial.rst"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This patch synchronizes the "private_data_tutorial.rst" to the latest
-version of the original document.
-
-Resolves #534
-
-Commmit: 029e6ed2aea4db27953243efe7a7937000e1671a
-
-Signed-off-by: Taku Shimosawa <taku.shimosawa.uf@hitachi.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-09 03:17:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/692" class=".btn">#692</a>
-            </td>
-            <td>
-                <b>
-                    [it_IT] Translate CONTRIBUTING: Install prerequisites + Getting help
+                    [it_IT] Translate Introduction > Performance and Scalability
                 </b>
             </td>
         </tr>
@@ -91,7 +32,7 @@ Signed-off-by: Taku Shimosawa <taku.shimosawa.uf@hitachi.com>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-06 17:58:11 +0000 UTC
+        Created At 2022-05-26 07:06:08 +0000 UTC
     </div>
 </div>
 
@@ -99,11 +40,11 @@ Signed-off-by: Taku Shimosawa <taku.shimosawa.uf@hitachi.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/690" class=".btn">#690</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/710" class=".btn">#710</a>
             </td>
             <td>
                 <b>
-                    [it_IT] translate Glossary, ACL
+                    [it_IT] Translate CONTRIBUTING: What makes a good pull request? (partial)
                 </b>
             </td>
         </tr>
@@ -117,7 +58,7 @@ Signed-off-by: Taku Shimosawa <taku.shimosawa.uf@hitachi.com>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-03 17:41:09 +0000 UTC
+        Created At 2022-05-25 17:56:19 +0000 UTC
     </div>
 </div>
 
@@ -125,51 +66,29 @@ Signed-off-by: Taku Shimosawa <taku.shimosawa.uf@hitachi.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/689" class=".btn">#689</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/709" class=".btn">#709</a>
             </td>
             <td>
                 <b>
-                    [it_IT] Translate CONTRIBUTING: Release roadmap + Communications
+                    [ja_JP] Translate "ordererdeploy.md" into Japanese
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">jaJP-docs-ongoing</span>
             </td>
             <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-03 14:32:22 +0000 UTC
-    </div>
-</div>
+                This patch translates deployorderer/ordererdeploy.md into Japanese.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/688" class=".btn">#688</a>
-            </td>
-            <td>
-                <b>
-                    [it_IT] Translate Introduction > Privacy and Confidentiality (continued)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
+Resolves #602
+
+Signed-off-by: Satomi Tsujita <satomi.t.sora@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-03 08:22:07 +0000 UTC
+        Created At 2022-05-22 21:29:46 +0000 UTC
     </div>
 </div>
 
