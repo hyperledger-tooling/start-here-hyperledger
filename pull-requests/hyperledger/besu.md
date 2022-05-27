@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3908" class=".btn">#3908</a>
+            </td>
+            <td>
+                <b>
+                    Added unit test for EthGetTransactionByHash
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-27 04:50:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3907" class=".btn">#3907</a>
             </td>
             <td>
@@ -78,7 +104,7 @@ Updated eth_getTransactionByHash, to always return blockNumber, blockHash or tra
 Null in this case.
 
 ## Fixed Issue(s)
-"fixes#3868"
+fixes #3868
 
 ## Documentation
 
@@ -619,130 +645,6 @@ fixes #3842
     </table>
     <div class="right-align">
         Created At 2022-05-20 17:32:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3880" class=".btn">#3880</a>
-            </td>
-            <td>
-                <b>
-                    fixed manifest generation for latest docker tag
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-double quotes
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-20 06:16:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3879" class=".btn">#3879</a>
-            </td>
-            <td>
-                <b>
-                    Prepare for version 22.4.2-SNAPSHOT
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Prepare for version 22.4.2-SNAPSHOT
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-20 05:30:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3878" class=".btn">#3878</a>
-            </td>
-            <td>
-                <b>
-                    Release 22.4.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Release 22.4.1
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-20 05:04:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3877" class=".btn">#3877</a>
-            </td>
-            <td>
-                <b>
-                    Attempt to fix CodeQL OOM
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added a custom config file and exclude some directories
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-20 02:02:44 +0000 UTC
     </div>
 </div>
 

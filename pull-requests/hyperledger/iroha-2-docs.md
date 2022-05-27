@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/64" class=".btn">#64</a>
+            </td>
+            <td>
+                <b>
+                    [documentation]: Review ISI and WASM topics
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+
+Reviewed topics on ISI and WASM, addressing #43
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-27 05:39:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/63" class=".btn">#63</a>
             </td>
             <td>
