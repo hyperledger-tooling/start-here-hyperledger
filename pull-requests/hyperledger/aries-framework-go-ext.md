@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/252" class=".btn">#252</a>
+            </td>
+            <td>
+                <b>
+                    fix: sidetree vdr serivce endpoint logic
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-27 18:22:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/251" class=".btn">#251</a>
+            </td>
+            <td>
+                <b>
+                    chore: update to latest aries for vdr orb
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-27 17:56:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/250" class=".btn">#250</a>
+            </td>
+            <td>
+                <b>
+                    chore: update to latest aries for sidetree vdr
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-27 15:18:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/249" class=".btn">#249</a>
             </td>
             <td>

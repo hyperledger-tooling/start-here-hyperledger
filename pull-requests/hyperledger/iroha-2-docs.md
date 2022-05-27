@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">documentation</span>
             </td>
             <td>
                 Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>

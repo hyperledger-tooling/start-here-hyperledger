@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/218" class=".btn">#218</a>
+                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/220" class=".btn">#220</a>
             </td>
             <td>
                 <b>
-                    Updates for parallel processing
+                    Correct the Upsert syntax for MongoDB overwrite
                 </b>
             </td>
         </tr>
@@ -27,18 +27,18 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
                 
             </td>
             <td>
-                Three related changes from analysis of some performance tests:
+                If a still using Mongo DB (rather than the lighter weight / faster LevelDB option) for receipt stores, they will see the following error when receipts are inserted into the store, after upgrading to https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.2.2:
 
-1. The `sendConcurrency` setting is not currently providing the full concurrency support it was intended to. This is because the `concurrencySlots` channel was being allocated in the constructor of the `TxnProcessor` which is before `SetConf` is called. So we need to allocated it in `Init()`. This results in us using pipelining between the `Send` and in-flight nonce allocation, but not performing multiple `Send` calls in parallel. 
-
-2. In the case that a `Send` fails due to an intermittent error, such as a timeout, this is problem for end-users because they do not know if the transaction was submitted or not. However, in cases where EthConnect is in control of the `nonce` it is safe for EthConnect to retry. So this PR introduces an option for retries, and enables these by default (with a small number - 5) to deal with glitches without pushing those errors all the way back to the requester.
-
-3. Currently the addressbook lookup is performed on the single-threaded processing, before we dispatch a concurrent worker to the `inflight` action. As there is a JSON/RPC healthcheck call that is part of this (`net_version`) this is inefficient. So this PR moves it to the concurrent worker, after `inflight` is generated.
+```
+[2022-05-27T10:53:11.175-04:00]  INFO Received reply message. requestId='5fcc8464-17f5-4d8a-78ad-da554a7d388d' reqOffset='' type='TransactionFailure': 0xa8c748db42ca12662a4a94f3a23c4123712378e150ef847201a8c72980eb131a
+[2022-05-27T10:53:11.175-04:00] ERROR 5fcc8464-17f5-4d8a-78ad-da554a7d388d: addReceipt attempt: 1 failed, err: reflect.Value.Interface: cannot return value obtained from unexported field or method
+[2022-05-27T10:53:11.175-04:00]  INFO 5fcc8464-17f5-4d8a-78ad-da554a7d388d: Waiting 0.50s before re-attempt:1 mongo write
+```
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-16 15:47:23 +0000 UTC
+        Created At 2022-05-27 14:59:42 +0000 UTC
     </div>
 </div>
 

@@ -114,29 +114,3 @@ permalink: /pull-requests/hyperledger/aries-vcx
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/487" class=".btn">#487</a>
-            </td>
-            <td>
-                <b>
-                    Change oob version to 1.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">hotfix</span><span class="chip">breaking</span>
-            </td>
-            <td>
-                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-20 10:14:13 +0000 UTC
-    </div>
-</div>
-

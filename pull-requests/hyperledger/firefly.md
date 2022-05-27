@@ -14,6 +14,88 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/838" class=".btn">#838</a>
+            </td>
+            <td>
+                <b>
+                    set message header type for broadcast/private
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport-candidate</span>
+            </td>
+            <td>
+                FireFly now sets the message type for any broadcast or private messages
+sent via the API.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-27 18:12:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/837" class=".btn">#837</a>
+            </td>
+            <td>
+                <b>
+                    Use firefly-signer library and allow numbers expressed as strings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR introduces `firefly-signer`'s ABI parsing functions and uses them in FireFly's ABI -> FFI generation code. It also replaces any existing ABI data structures that were originally copied over from Ethconnect, with those of `firefly-signer`.
+
+This PR also makes some enhancements to the ABI -> FFI generation code itself to allow numbers to be expressed in a JSON string or a JSON number. This is reflected in the generated OpenAPI Spec for custom contracts, including a description in the Swagger UI that describes this.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-27 17:48:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/836" class=".btn">#836</a>
+            </td>
+            <td>
+                <b>
+                    default fabconnect calls to async
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport-candidate</span>
+            </td>
+            <td>
+                The fabconnect default for `/transactions` is synchronous. The fabric plugin currently expects async responses, so adding the `x-firefly-sync` header.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-27 17:27:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/835" class=".btn">#835</a>
             </td>
             <td>

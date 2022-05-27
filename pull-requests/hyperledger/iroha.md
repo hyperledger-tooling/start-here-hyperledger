@@ -14,6 +14,51 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2281" class=".btn">#2281</a>
+            </td>
+            <td>
+                <b>
+                    [refactor]: Refactor around `QueryError`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Refactor</span>
+            </td>
+            <td>
+                ### Description of the Change
+- [refactor]
+    - d9e4712f3ce44bf6f3b62861e8a30e607e21c306 Remove unused `query::Error` variants
+    - 3554726991d421c6800e93a7a7428aac4c9f9308 Remove recovery from useless `Rejection`
+    - 1f1028045b91b27bcd07aafb295e241624a47742 Un-implement unused `Clone`
+    - 770168c69a4f6215f73f258d06ade747830f12ae Replace `#[source]` in a single field with `#[from]`
+- minor [test]
+    - 30f262e2aa669a6b127d5e203ab437a0f55896ee Add to `torii::tests`
+- minor [fix]
+    - ab382ddbbf1e112ec5484ba0721133e7fbbec7f0 Resolve apparent mismatch between `VersionedPaginatedQueryResult` and `VersionedQueryResult`
+- minor [documentation]
+    - ab492d748334d7caeb2d15bdb8f505856524f2fb Fix description for `Status` response
+### Issue
+None
+
+### Benefits
+Trimmed code
+
+### Possible Drawbacks
+None
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-27 17:57:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2278" class=".btn">#2278</a>
             </td>
             <td>
@@ -322,10 +367,13 @@ WIP.
 - [x] Add traits to track common filter paradigms. 
 - [x] Add module `predicate` for various filters
 - [x] Add sensible `fmt::Display` implementations to various structs. 
-- [ ] Add accessor enum
-- [ ] Add processor enum
-- [ ] Add predicate enum
-- [ ] Add logic (optional)
+- [x] Add enum to process strings by `contains`, `is` and `starts/ends_with`
+- [x] Add enum to target `Identifiables`, 
+- [ ] Add enum for Display
+- [ ] Add enum to target metadata keys
+- [x] Add predicate enum
+- [x] Add combinator enum (optional) (and/or/not)
+- [ ] Add timestamp enum
 - [ ] Add filtering step before pagination
 - [ ] Add unit tests to cover filter behaviour
 - [ ] Add integration tests 
@@ -807,67 +855,6 @@ Takes long to gather.
     </table>
     <div class="right-align">
         Created At 2022-05-22 09:11:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2244" class=".btn">#2244</a>
-            </td>
-            <td>
-                <b>
-                    [documentation] #2193: Update Iroha CLI documentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">Documentation</span>
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-### Description of the Change
-
-Updated readme: https://github.com/outoftardis/iroha/tree/doc-cli/cli#iroha-cli
-
-### Issue
-
-Partially addresses #2193
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-20 15:25:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2243" class=".btn">#2243</a>
-            </td>
-            <td>
-                <b>
-                    Fix/rdb burrow storage tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### Description of the Change
-Burrow storage tests fixes.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-20 13:07:09 +0000 UTC
     </div>
 </div>
 
