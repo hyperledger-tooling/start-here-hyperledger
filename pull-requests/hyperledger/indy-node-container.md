@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node-container
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node-container/pull/88" class=".btn">#88</a>
+                PR <a href="https://github.com/hyperledger/indy-node-container/pull/90" class=".btn">#90</a>
             </td>
             <td>
                 <b>
-                    Ip tables
+                    update to latest indy node from ubuntu20 branch
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-node-container
                 
             </td>
             <td>
-                improved iptables script + removed ID IPs file, see https://wiki.hyperledger.org/pages/viewpage.action?pageId=62245960
+                This includes all changes from the indy node ubuntu20 branch.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-01 08:16:48 +0000 UTC
+        Created At 2022-05-23 07:42:02 +0000 UTC
     </div>
 </div>
 

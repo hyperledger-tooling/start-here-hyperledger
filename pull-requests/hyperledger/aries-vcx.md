@@ -14,73 +14,17 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/480" class=".btn">#480</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/494" class=".btn">#494</a>
             </td>
             <td>
                 <b>
-                    Fix ci: caching, mysql test build, nodejs
+                    Separate rotate verkey into two steps
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">ci</span>
-            </td>
-            <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-25 22:14:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/479" class=".btn">#479</a>
-            </td>
-            <td>
-                <b>
-                    Logging/adjust
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                - lift log level to `info` for write/udpate/important-and-rare operations
-- lift log level from `trace` to `debug` for potentially useful debugging operations
-- simplified implementations of some of the`to_string` functions
-- adjust log'error message content
-- delete dead code
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-25 21:57:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/478" class=".btn">#478</a>
-            </td>
-            <td>
-                <b>
-                    Expose verkey rotation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
+                
             </td>
             <td>
                 Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
@@ -88,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-25 20:22:25 +0000 UTC
+        Created At 2022-05-26 15:56:36 +0000 UTC
     </div>
 </div>
 
@@ -96,11 +40,37 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/477" class=".btn">#477</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/491" class=".btn">#491</a>
             </td>
             <td>
                 <b>
-                    Npm/upgrade
+                    Parametrize issuance with rev reg
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-23 20:59:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/490" class=".btn">#490</a>
+            </td>
+            <td>
+                <b>
+                    Fix codecov build
                 </b>
             </td>
         </tr>
@@ -109,12 +79,12 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 <span class="chip">ci</span>
             </td>
             <td>
-                <nil>
+                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-25 19:10:49 +0000 UTC
+        Created At 2022-05-23 15:09:46 +0000 UTC
     </div>
 </div>
 
@@ -122,25 +92,51 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/476" class=".btn">#476</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/489" class=".btn">#489</a>
             </td>
             <td>
                 <b>
-                    Try to fix intermittent testing fail in nodejs
+                    Wrappers: update state with message v2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">ci</span>
+                <span class="chip">wrappers</span>
             </td>
             <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-25 19:10:41 +0000 UTC
+        Created At 2022-05-23 14:11:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/487" class=".btn">#487</a>
+            </td>
+            <td>
+                <b>
+                    Change oob version to 1.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">hotfix</span><span class="chip">breaking</span>
+            </td>
+            <td>
+                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-20 10:14:13 +0000 UTC
     </div>
 </div>
 

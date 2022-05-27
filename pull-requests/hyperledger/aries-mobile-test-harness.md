@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/54" class=".btn">#54</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/57" class=".btn">#57</a>
             </td>
             <td>
                 <b>
-                    Test calibration to bc wallet build 164
+                    Proof tests calibrated up to new testIDs in build 186
                 </b>
             </td>
         </tr>
@@ -29,12 +29,12 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
             <td>
                 Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
 
-This PR will contain updates to the full suite of bc wallet tests to support changed in build 164
+Proof tests should now all pass for build 186 and up. Android still having issues on connectivity, but that is a separate issue, these proof tests will all pass on iOS. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-05 15:38:15 +0000 UTC
+        Created At 2022-05-26 21:21:15 +0000 UTC
     </div>
 </div>
 

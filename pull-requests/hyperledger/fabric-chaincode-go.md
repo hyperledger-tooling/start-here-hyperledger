@@ -30,6 +30,7 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
                 - Impelment the PurgePrivateData API
 
 Resolves #44
+Fabric Issue https://github.com/hyperledger/fabric/issues/3020
 
 Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>

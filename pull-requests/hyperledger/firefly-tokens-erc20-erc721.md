@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/57" class=".btn">#57</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/58" class=".btn">#58</a>
             </td>
             <td>
                 <b>
-                    Use ERC-165 to query "with data" support from contract
+                    Add instructions to deploy
                 </b>
             </td>
         </tr>
@@ -27,39 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
                 
             </td>
             <td>
-                Do not require the user to specify - query to see if the contract supports the
-"IERC20WithData" or "IERC721WithData" interface.
+                Noticed there wasn't a readme here to deploy
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-29 18:49:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/56" class=".btn">#56</a>
-            </td>
-            <td>
-                <b>
-                    Fix approval event transformation for ERC721
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #55
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-04-29 17:08:56 +0000 UTC
+        Created At 2022-05-25 12:32:01 +0000 UTC
     </div>
 </div>
 

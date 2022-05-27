@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/6" class=".btn">#6</a>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/14" class=".btn">#14</a>
             </td>
             <td>
                 <b>
-                    Rename config.Prefix to config.Section
+                    Better handling of subarray defaults
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/firefly-common
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-06 15:46:56 +0000 UTC
+        Created At 2022-05-25 20:01:50 +0000 UTC
     </div>
 </div>
 
@@ -40,63 +40,11 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/5" class=".btn">#5</a>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/13" class=".btn">#13</a>
             </td>
             <td>
                 <b>
-                    add SubPrefix method to ConfigArrayPrefix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-05 19:29:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/4" class=".btn">#4</a>
-            </td>
-            <td>
-                <b>
-                    Move FFCAPI definitions and client to firefly-common
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Moving the FFCAPI definitions and client out of FireFly Transaction Manager, so that connectors only need to pull in common.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-04 21:19:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/3" class=".btn">#3</a>
-            </td>
-            <td>
-                <b>
-                    Fix message prefix on common messages
+                    @peterbroadhurst Missing interface function for GetFloat64 
                 </b>
             </td>
         </tr>
@@ -110,7 +58,7 @@ permalink: /pull-requests/hyperledger/firefly-common
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-04 19:17:17 +0000 UTC
+        Created At 2022-05-24 21:30:51 +0000 UTC
     </div>
 </div>
 
@@ -118,11 +66,11 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/2" class=".btn">#2</a>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/12" class=".btn">#12</a>
             </td>
             <td>
                 <b>
-                    Initial commit - port of code from FireFly Core
+                    Fix nav in docs site
                 </b>
             </td>
         </tr>
@@ -131,12 +79,12 @@ permalink: /pull-requests/hyperledger/firefly-common
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-04 15:10:28 +0000 UTC
+        Created At 2022-05-24 19:58:53 +0000 UTC
     </div>
 </div>
 
@@ -144,11 +92,11 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/1" class=".btn">#1</a>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/11" class=".btn">#11</a>
             </td>
             <td>
                 <b>
-                    Settings
+                    Do not assume exec output is an array
                 </b>
             </td>
         </tr>
@@ -157,12 +105,64 @@ permalink: /pull-requests/hyperledger/firefly-common
                 
             </td>
             <td>
-                <nil>
+                The `ExecQueryResponse` (which hasn't been relied upon by any downstream code) had assumed `output` was an array, but in reality it is more likely to be a named key-value map.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-04 14:51:53 +0000 UTC
+        Created At 2022-05-24 18:50:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/10" class=".btn">#10</a>
+            </td>
+            <td>
+                <b>
+                    Add prefix for EVMConnect
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Peter Broadhurst <peter.broadhurst@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-24 12:24:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/9" class=".btn">#9</a>
+            </td>
+            <td>
+                <b>
+                    Update README with Go ref links
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I noticed that the FFCAPI was missing from the README, and overall it was missing links to the API docs.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-23 17:38:19 +0000 UTC
     </div>
 </div>
 
