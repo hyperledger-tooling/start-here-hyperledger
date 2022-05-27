@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2049" class=".btn">#2049</a>
+            </td>
+            <td>
+                <b>
+                    test: jestify invoke contract in connector besu
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Migrate Tap to Jest
+
+File Path:
+packages/cactus-plugin-ledger-connector-besu/
+src/test/typescript/
+integration/plugin-ledger-connector-besu/
+deploy-contract/
+invoke-contract.test.ts
+
+This is a PARTIAL resolution to issue #238
+
+Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-27 13:18:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/2048" class=".btn">#2048</a>
             </td>
             <td>
@@ -499,53 +536,6 @@ Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
     </table>
     <div class="right-align">
         Created At 2022-05-22 20:46:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2033" class=".btn">#2033</a>
-            </td>
-            <td>
-                <b>
-                    feat(secret): remove Validator/Verifier secret keys from repository
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependent</span>
-            </td>
-            <td>
-                - Remove validator sample CA keys hardcoded inside the repository.
-- Generate fresh ECDSA keys when starting up electricity-trade
-  or discounted-asset-trade sample apps.
-- Add support for RSA CA keys in fabric-socketio validator.
-  I couldn't find any trivial way of generating ECDSA self-signed certificate
-  (without calling openssl cmdline, which seems poor from functional test perspective),
-  so I've added support for RSA keys to simplify the tests.
-- Allow selection of jwt algorithm in  fabric-socketio validator.
-  It must correspond to the key used.
-- Update the READMEs, add short description of SSL config option of fabric-socketio validator.
-
-Closes: #2016
-Closes: #2017
-
-Depends on #1977
-Depends on #2030
-
-Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
-
---------------
-
-I've included commits from the dependencies to simplify the review before they're merged to main. Please review only the last commit: [feat(secret): remove Validator/Verifier secret keys from repository](https://github.com/hyperledger/cactus/commit/037100e992328cb49213b4138d9324fe419c0630)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-20 10:37:29 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,114 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/810" class=".btn">#810</a>
+            </td>
+            <td>
+                <b>
+                    fix: set credentials to [] by default in CredentialExchangeRecord
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-27 14:36:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/809" class=".btn">#809</a>
+            </td>
+            <td>
+                <b>
+                    fix(routing): updating mediator pickupStrategy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixed bug with updating mediator pickupStrategy
+
+Fixes https://github.com/hyperledger/aries-framework-javascript/issues/807
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-27 14:15:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/808" class=".btn">#808</a>
+            </td>
+            <td>
+                <b>
+                    fix(routing): also use pickup strategy from config
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+
+Fixes #807 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-27 14:11:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/805" class=".btn">#805</a>
+            </td>
+            <td>
+                <b>
+                    feat: present proof v2 Indy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Worked on Present Proof V2 to work with Indy credentials
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-27 11:49:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/804" class=".btn">#804</a>
             </td>
             <td>
@@ -47,7 +155,7 @@ Other contributors who assisted: @reflectivedevelopment, @TheTreek, @amanji
             </td>
             <td>
                 <b>
-                    fix: Async ledger connection issues on iOS
+                    fix(indy): async ledger connection issues on iOS
                 </b>
             </td>
         </tr>
@@ -288,61 +396,6 @@ Signed-off-by: Karim <karim@animo.id>
     </table>
     <div class="right-align">
         Created At 2022-05-23 12:09:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/787" class=".btn">#787</a>
-            </td>
-            <td>
-                <b>
-                    fix(routing): sending of trustping in pickup v2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                There was a bug discovered that would cause the first message in the pick up queue to be delivered when the trust ping was sent to create the web socket connection. This PR addresses that by only sending the trust ping when the request status receives a status of zero, then indicating to the mediator that we are ready to actively receive messages. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-20 16:36:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/786" class=".btn">#786</a>
-            </td>
-            <td>
-                <b>
-                    fix: invalid injection symbols in W3cCredService
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixed invalid injection symbols for Wallet and Logger in the W3cCredentialService.
-
-Signed-off-by: Karim <karim@animo.id>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-20 12:58:36 +0000 UTC
     </div>
 </div>
 

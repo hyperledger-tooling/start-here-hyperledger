@@ -102,7 +102,7 @@ Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
             </td>
             <td>
                 <b>
-                    Persist Proposal, Transaction and Commit Object 
+                    Persist Proposal, Transaction, Commit and Event Objects (Node JS)
                 </b>
             </td>
         </tr>
