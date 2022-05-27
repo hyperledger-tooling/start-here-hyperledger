@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/28" class=".btn">#28</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/29" class=".btn">#29</a>
             </td>
             <td>
                 <b>
-                    Handle updates in Data connectors
+                    The following changes have been implemented:
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
                 
             </td>
             <td>
-                <nil>
+                1. Refresh bean when the configuration is updated
+2. Integration testcases for actuator/refresh endpoint and @refreshScope
+
+Signed-off-by: k0k07q2 <Kamini.Kamal@Walmart.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-24 10:43:40 +0000 UTC
+        Created At 2022-05-27 12:03:31 +0000 UTC
     </div>
 </div>
 

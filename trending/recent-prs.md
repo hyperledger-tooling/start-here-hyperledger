@@ -1,13 +1,13 @@
 
-[64](https://github.com/hyperledger/iroha-2-docs/pull/64) [documentation]: Review ISI and WASM topics
+[3451](https://github.com/hyperledger/fabric/pull/3451) Update write_first_app.rst
 
-[3908](https://github.com/hyperledger/besu/pull/3908) Added unit test for EthGetTransactionByHash
+[29](https://github.com/hyperledger-labs/hlf-connector/pull/29) The following changes have been implemented:
 
-[249](https://github.com/hyperledger/aries-framework-go-ext/pull/249) feat: Changes to MongoDB custom method parameters
+[2278](https://github.com/hyperledger/iroha/pull/2278) DOPS-1789 Update Dockerfiles
 
-[3907](https://github.com/hyperledger/besu/pull/3907) Bugfix treatment of genesis overrides.  
+[2275](https://github.com/hyperledger/iroha/pull/2275) Update Develop
 
-[339](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/339) Fix chmod
+[2505](https://github.com/hyperledger/indy-sdk/pull/2505) allow issuance of multiple cred at same revocation index
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
