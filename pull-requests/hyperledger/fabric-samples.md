@@ -37,31 +37,3 @@ Signed-off-by: fraVlaca <ocsenarf@outlook.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/749" class=".btn">#749</a>
-            </td>
-            <td>
-                <b>
-                    Java off-chain data store sample using Fabric Gateway
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also minor implementation changes to TypeScript sample for better consistency between implementations.
-
-Contributes to hyperledger/fabric-gateway#190
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-20 12:23:45 +0000 UTC
-    </div>
-</div>
-
