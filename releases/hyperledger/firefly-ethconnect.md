@@ -15,6 +15,38 @@ permalink: /releases/hyperledger/firefly-ethconnect
         <tr>
             <td colspan="2">
                 <b>
+                    v3.2.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v3.2.3
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Correct the Upsert syntax for MongoDB overwrite by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/220
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.2.2...v3.2.3
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.2.3" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-05-27 15:04:39 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v3.2.2
                 </b>
             </td>
