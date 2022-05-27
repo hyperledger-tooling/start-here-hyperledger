@@ -65,31 +65,3 @@ Contributes to hyperledger/fabric-gateway#190
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/748" class=".btn">#748</a>
-            </td>
-            <td>
-                <b>
-                    Update setOrgEnv.sh
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Typo found and fixed in line 36 of setOrgEnv.sh file
-
-Signed-off-by: Zakaria Hossain Foysal <zakaria15-9556@diu.edu.bd>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-20 05:30:44 +0000 UTC
-    </div>
-</div>
-
