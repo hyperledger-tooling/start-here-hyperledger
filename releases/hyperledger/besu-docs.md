@@ -15,35 +15,33 @@ permalink: /releases/hyperledger/besu-docs
         <tr>
             <td colspan="2">
                 <b>
-                    22.4.1
+                    22.4.2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    22.4.1
+                    22.4.2
                 </span>
             </td>
             <td>
                 ### Additions and Improvements
-- GraphQL - allow null log topics in queries which match any topic [#3662](https://github.com/hyperledger/besu/pull/3662)
-- multi-arch docker builds for amd64 and arm64 [#2954](https://github.com/hyperledger/besu/pull/2954)
-- Filter Netty native lib errors likewise the pure Java implementation [#3807](https://github.com/hyperledger/besu/pull/3807)
-- Add ropsten terminal total difficulty config [#3871](https://github.com/hyperledger/besu/pull/3871)
+- Engine API Update: Replace deprecated INVALID_TERMINAL_BLOCK with INVALID last valid hash 0x0 https://github.com/hyperledger/besu/pull/3882
+- Deprecate experimental merge flag and engine-rpc-enabled flag https://github.com/hyperledger/besu/pull/3875
+- update besu-native dependencies to 0.5.0 for linux arm64 support
 
 ### Bug Fixes
-- Stop the BlockPropagationManager when it receives the TTD reached event [#3809](https://github.com/hyperledger/besu/pull/3809)
-- Correct getMixHashOrPrevRandao to return the value present in the block header [#3839](https://github.com/hyperledger/besu/pull/3839)
-
+- Stop backward sync if genesis block has been reached https://github.com/hyperledger/besu/pull/3869
+- Allow to backward sync to request headers back to last finalized block if present or genesis https://github.com/hyperledger/besu/pull/3888
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/besu-docs/releases/tag/22.4.1" class=".btn">
+    <a href="https://github.com/hyperledger/besu-docs/releases/tag/22.4.2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-05-16 17:19:27 +0000 UTC
+        Created At 2022-05-26 20:34:57 +0000 UTC
     </span>
 </div>
 
