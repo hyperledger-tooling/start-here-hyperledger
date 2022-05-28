@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1434" class=".btn">#1434</a>
+            </td>
+            <td>
+                <b>
+                    BACKPORT 0-2: Remove slack alerts from pull request workflows
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-27 20:47:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1433" class=".btn">#1433</a>
+            </td>
+            <td>
+                <b>
+                    BACKPORT 0-3: Remove slack alerts from pull request workflows
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                These were introduced inadvertently as a copy/paste error. Not only would
+this behavior be undesired, but because the workflow runs in the context
+of the forked repository there is no access to the secrets required.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-27 20:47:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1432" class=".btn">#1432</a>
             </td>
             <td>
@@ -146,32 +202,6 @@ This struct is serializable/deserializable, as it will be used to pass batches a
     </table>
     <div class="right-align">
         Created At 2022-05-24 13:47:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1425" class=".btn">#1425</a>
-            </td>
-            <td>
-                <b>
-                    Update Grid to use `actix_web` 4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">main</span>
-            </td>
-            <td>
-                This updates grid to use `actix_web` v4. Both v3 and 4 cannot be supported in Grid due to conflicting re-exports of tokio structs/traits from the libraries. Therefore, all rest api code and tests in the Grid SDK, Griddle, and the Grid Daemon is updated to use actix_web 4.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-20 19:16:24 +0000 UTC
     </div>
 </div>
 

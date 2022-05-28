@@ -1,13 +1,13 @@
 
-[252](https://github.com/hyperledger/aries-framework-go-ext/pull/252) fix: sidetree vdr serivce endpoint logic
+[2284](https://github.com/hyperledger/iroha/pull/2284) [refactor]: Remove generics from `IsAllowedBoxed`
 
-[838](https://github.com/hyperledger/firefly/pull/838) set message header type for broadcast/private
+[2283](https://github.com/hyperledger/iroha/pull/2283) [fix] #2282: improve FFI derives from getset implementation
+
+[1434](https://github.com/hyperledger/grid/pull/1434) BACKPORT 0-2: Remove slack alerts from pull request workflows
+
+[1433](https://github.com/hyperledger/grid/pull/1433) BACKPORT 0-3: Remove slack alerts from pull request workflows
 
 [2281](https://github.com/hyperledger/iroha/pull/2281) [refactor]: Refactor around `QueryError`
-
-[251](https://github.com/hyperledger/aries-framework-go-ext/pull/251) chore: update to latest aries for vdr orb
-
-[837](https://github.com/hyperledger/firefly/pull/837) Use firefly-signer library and allow numbers expressed as strings
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
