@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2285" class=".btn">#2285</a>
+            </td>
+            <td>
+                <b>
+                    [enhancement] #2276: Include current Block hash into BlockHeaderValue
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                
+### Description of the Change
+This PR introduces `current_block_hash` field to `BlockHeaderValue`. This field contains the hash of the latest `VersionComittedBlock`. 
+### Issue
+When we query for block headers we cannot reliably compute the hash of the block, since it's computed from the byte representation of the block and can be architecture dependent.
+### Benefits
+The Hash of a block will no longer be architecture dependent. 
+### Possible Drawbacks
+Not that I know of.
+<!--### Usage Examples or Tests *[optional]*-->
+<!--### Alternate Designs *[optional]*-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-28 16:06:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2284" class=".btn">#2284</a>
             </td>
             <td>
@@ -519,11 +556,11 @@ WIP.
 - [x] Add sensible `fmt::Display` implementations to various structs. 
 - [x] Add enum to process strings by `contains`, `is` and `starts/ends_with`
 - [x] Add enum to target `Identifiables`, 
-- [ ] Add enum for Display
-- [ ] Add enum to target metadata keys
+- [x] Add enum for Display
+- [x] Add enum variant to target metadata values
 - [x] Add predicate enum
 - [x] Add combinator enum (optional) (and/or/not)
-- [ ] Add timestamp enum
+- [x] Add timestamp enum
 - [ ] Add filtering step before pagination
 - [ ] Add unit tests to cover filter behaviour
 - [ ] Add integration tests 
