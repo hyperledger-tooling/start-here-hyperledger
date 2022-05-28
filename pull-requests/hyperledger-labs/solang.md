@@ -141,33 +141,3 @@ Signed-off-by: Saladino Belisario <SaladinoBelisario@protonmail.ch>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/843" class=".btn">#843</a>
-            </td>
-            <td>
-                <b>
-                    Allow types to be called error
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                solc allows this too.
-
-Found in https://github.com/hyperledger-labs/solang/pull/787
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-21 07:45:44 +0000 UTC
-    </div>
-</div>
-
