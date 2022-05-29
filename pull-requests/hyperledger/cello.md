@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/448" class=".btn">#448</a>
+            </td>
+            <td>
+                <b>
+                    Nominate yuanmao as new maintainer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Yuanmao continues contributing to the Cello project after his intern for
+more than 3 months. He is working mainly on the API-engine component,
+and the agent. Yuanmao is also very active in proposing features and
+resolving implementation issues.
+
+Retire inactive maintainer Qiang Xu, thanks for his past contributions!
+
+Signed-off-by: Baohua Yang <yangbaohua@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-29 14:28:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/447" class=".btn">#447</a>
             </td>
             <td>

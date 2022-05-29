@@ -250,7 +250,7 @@ None
             </td>
             <td>
                 <b>
-                    DOPS-1789 Update Dockerfiles
+                    [ci]: DOPS-1789 Update Dockerfiles
                 </b>
             </td>
         </tr>
