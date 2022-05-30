@@ -1,13 +1,13 @@
 
-[550](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/550) Updates from opentaps
+[2291](https://github.com/hyperledger/iroha/pull/2291) [feature] #1638: `configuration` return doc subtree
 
-[3920](https://github.com/hyperledger/besu/pull/3920) add scheduler for reload heal step
+[854](https://github.com/hyperledger-labs/solang/pull/854) Fix links in diagnostics
 
-[2289](https://github.com/hyperledger/iroha/pull/2289) Check reevaluation error
+[348](https://github.com/hyperledger-labs/go-perun/pull/348) 📝 channel: Improve Data documentation
 
-[2286](https://github.com/hyperledger/iroha/pull/2286) Fix permissions for windows build job
+[347](https://github.com/hyperledger-labs/go-perun/pull/347) :art: client/test: Reduce setup complexity
 
-[449](https://github.com/hyperledger/cello/pull/449) Remove child dependency from requirements.txt
+[225](https://github.com/hyperledger/iroha-java/pull/225) Iroha-223: Update TransactionBuilder
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

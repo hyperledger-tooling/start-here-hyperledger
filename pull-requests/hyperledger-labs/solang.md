@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/854" class=".btn">#854</a>
+            </td>
+            <td>
+                <b>
+                    Fix links in diagnostics
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Links to documentation in diagnostics were broken by a documentation reorg
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-30 13:58:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/853" class=".btn">#853</a>
             </td>
             <td>
@@ -138,32 +164,6 @@ Signed-off-by: Saladino Belisario <SaladinoBelisario@protonmail.ch>
     </table>
     <div class="right-align">
         Created At 2022-05-24 15:13:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/844" class=".btn">#844</a>
-            </td>
-            <td>
-                <b>
-                    Refactor Solang docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR splits the old `language.rst` file into multiple files so that the user can see the sections on the navigation bar. I also re-organized the order of items in the bar.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-23 14:29:28 +0000 UTC
     </div>
 </div>
 
