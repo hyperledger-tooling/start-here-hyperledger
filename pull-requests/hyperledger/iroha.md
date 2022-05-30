@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    [enhancement] #2276: Include current Block hash into BlockHeaderValue
+                    [feature] #2276: Include current Block hash into BlockHeaderValue
                 </b>
             </td>
         </tr>
@@ -211,7 +211,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span><span class="chip">Refactor</span>
+                <span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">Refactor</span>
             </td>
             <td>
                 ### Description of the Change
