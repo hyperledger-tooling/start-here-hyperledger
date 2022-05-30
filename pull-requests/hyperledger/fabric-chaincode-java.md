@@ -42,33 +42,3 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/242" class=".btn">#242</a>
-            </td>
-            <td>
-                <b>
-                    Regular Maintenance Task
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Update dependencies
-- Confirm local build instructions are valid
-- Increased timeout of 'server' test for reliability
-
-Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-23 11:01:08 +0000 UTC
-    </div>
-</div>
-
