@@ -26,7 +26,10 @@ permalink: /releases/hyperledger/firefly
                 </span>
             </td>
             <td>
-                ## What's Changed
+                ## Summary
+Fix invocations on custom Fabric chaincode, which were not properly reporting success/failure status back to FireFly (along with other minor bugfixes).
+
+## What's Changed
 * De-duplicate existing token approvals in database migration by @awrichar in https://github.com/hyperledger/firefly/pull/809
 * Backport docs generation and versioning code for 1.0 stream by @nguyer in https://github.com/hyperledger/firefly/pull/834
 * default fabconnect calls to async by @shorsher in https://github.com/hyperledger/firefly/pull/836
