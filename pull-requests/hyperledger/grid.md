@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1435" class=".btn">#1435</a>
+            </td>
+            <td>
+                <b>
+                    Update Grid rest api to use actix web 4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport-triage</span><span class="chip">main</span>
+            </td>
+            <td>
+                This updates the rest api code in Grid's SDK, Griddle, and the Grid
+Daemon to use Actix Web 4. This replaces actix web 3 in this codebase as
+both versions can't be supported due to conflicting re-exports of tokio
+structs/traits.
+
+Signed-off-by: Davey Newhall <newhall@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-31 15:57:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1434" class=".btn">#1434</a>
             </td>
             <td>
@@ -174,34 +205,6 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2022-05-26 13:50:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1427" class=".btn">#1427</a>
-            </td>
-            <td>
-                <b>
-                    Add `TrackingBatchResourceBuilder` for constructing batches from generic transactions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">main</span>
-            </td>
-            <td>
-                This change adds a struct, `TrackingBatchResourceBuilder`, that will be used by endpoints to construct a batch from a generic list of transactions. This struct also takes identifying information for the batch, including the service ID, any data change IDs, and the signer's public key. 
-
-This struct is serializable/deserializable, as it will be used to pass batches across the API to be persisted in Grid's database.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-24 13:47:40 +0000 UTC
     </div>
 </div>
 

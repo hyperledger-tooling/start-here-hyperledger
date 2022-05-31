@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1962" class=".btn">#1962</a>
+            </td>
+            <td>
+                <b>
+                    [chore] merge develop on feature/flux-v2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-31 13:03:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1961" class=".btn">#1961</a>
+            </td>
+            <td>
+                <b>
+                    [indy] update image pull policy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+- Update image pull policy to IfNotPresent
+
+
+ 
+
+**Linked issue**
+#1885 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-31 12:47:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/1959" class=".btn">#1959</a>
             </td>
             <td>
@@ -115,44 +176,6 @@ Signed-off-by: Prasanth Sundaravelu <prasanth.s@spydra.app>
     </table>
     <div class="right-align">
         Created At 2022-05-25 03:51:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/1956" class=".btn">#1956</a>
-            </td>
-            <td>
-                <b>
-                    [fabric]  Add orderer/peer update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: mgCepeda <marina.gomez.cepeda@accenture.com>
-
-**Changelog**
-
-- Update platforms/hyperledger-fabric/configuration/add-orderer.yaml and platforms/hyperledger-fabric/configuration/add-peer.yaml: 
-
- 
-
-**Reviewed by**
-@suvajit-sarkar
-@jagpreetsinghsasan
-
- 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-24 15:54:35 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/353" class=".btn">#353</a>
+            </td>
+            <td>
+                <b>
+                    Backport 0-4: Stabilize "state-merkle-sql-in-transaction"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backport of #351 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-31 16:05:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/352" class=".btn">#352</a>
             </td>
             <td>

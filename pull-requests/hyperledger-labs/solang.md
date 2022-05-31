@@ -167,29 +167,3 @@ Signed-off-by: Saladino Belisario <SaladinoBelisario@protonmail.ch>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/848" class=".btn">#848</a>
-            </td>
-            <td>
-                <b>
-                    Ensure the documentation can be built
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add CI test for the docs
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-24 15:13:11 +0000 UTC
-    </div>
-</div>
-

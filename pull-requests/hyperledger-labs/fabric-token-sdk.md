@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/243" class=".btn">#243</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/244" class=".btn">#244</a>
             </td>
             <td>
                 <b>
-                    auditdb: extended transaction tracking #242
+                    add func to register issuance wallets
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 
             </td>
             <td>
-                - introducing transaction tracking
-- some refactoring
-- added code comments
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+                Signed-off-by: Mathilde Ffrench <mathilde.ffrench@fr.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-23 14:52:33 +0000 UTC
+        Created At 2022-05-31 16:22:46 +0000 UTC
     </div>
 </div>
 
