@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/226" class=".btn">#226</a>
+            </td>
+            <td>
+                <b>
+                    iroha-211: added query pagination
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added query pagination
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-31 08:35:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-java/pull/225" class=".btn">#225</a>
             </td>
             <td>
