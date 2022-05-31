@@ -15,31 +15,35 @@ permalink: /releases/hyperledger/aries-framework-javascript-ext
         <tr>
             <td colspan="2">
                 <b>
-                    @aries-framework/push-notifications push-notifications-v0.2.1
+                    @aries-framework/push-notifications push-notifications-v0.3.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    push-notifications-v0.2.1
+                    push-notifications-v0.3.0
                 </span>
             </td>
             <td>
                 
 
-### Bug Fixes
+### ⚠ BREAKING CHANGES
 
-* **push-notifications:** add [@id](https://www.github.com/id) to messages ([4378ca6](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/4378ca6bbcab5369f9b49917707417b32d1cf443))
+* **pn:** PushNotificationsModule does not exist anymore. You now have to use one that is specific to your service, e.g. PushNotificationsApnsModule or PushNotificationsFcmModule
+
+### Features
+
+* **pn:** more services ([#115](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/115)) ([dac5932](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/dac59321b40bbf4b5dc488212b8c6a13eb1d4d19))
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/push-notifications-v0.2.1" class=".btn">
+    <a href="https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/push-notifications-v0.3.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-04-14 13:59:51 +0000 UTC
+        Created At 2022-05-31 10:03:18 +0000 UTC
     </span>
 </div>
 
