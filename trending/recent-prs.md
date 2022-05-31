@@ -1,5 +1,5 @@
 
-[2293](https://github.com/hyperledger/iroha/pull/2293) Update index.rst
+[2293](https://github.com/hyperledger/iroha/pull/2293) [documentation] Updated the git branch reference from "master" to "main"
 
 [2291](https://github.com/hyperledger/iroha/pull/2291) [feature] #1638: `configuration` return doc subtree
 

@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    Update index.rst
+                    [documentation] Updated the git branch reference from "master" to "main"
                 </b>
             </td>
         </tr>
