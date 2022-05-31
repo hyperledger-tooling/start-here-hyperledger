@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/homebrew-besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/77" class=".btn">#77</a>
+                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/78" class=".btn">#78</a>
             </td>
             <td>
                 <b>
-                    updated for besu 22.4.1
+                    22.4.2 release
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/homebrew-besu
                 
             </td>
             <td>
-                updated for besu 22.4.1 release
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-20 07:34:37 +0000 UTC
+        Created At 2022-05-27 21:38:12 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,38 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/810" class=".btn">#810</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/819" class=".btn">#819</a>
             </td>
             <td>
                 <b>
-                    fix: set credentials to [] by default in CredentialExchangeRecord
+                    refactor(credentials): separate offer interfaces
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is to avoid having connection and connection id in the same object and be able to remove protocol version
+from the accept proposal / create offer functionality
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-31 09:32:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/818" class=".btn">#818</a>
+            </td>
+            <td>
+                <b>
+                    merge main into 0.3.0-pre
                 </b>
             </td>
         </tr>
@@ -32,7 +59,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-27 14:36:51 +0000 UTC
+        Created At 2022-05-31 05:55:20 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +67,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/809" class=".btn">#809</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/816" class=".btn">#816</a>
             </td>
             <td>
                 <b>
-                    fix(routing): updating mediator pickupStrategy
+                    fix(credentials): default for credentials in exchange record
                 </b>
             </td>
         </tr>
@@ -53,14 +80,108 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                Fixed bug with updating mediator pickupStrategy
-
-Fixes https://github.com/hyperledger/aries-framework-javascript/issues/807
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-27 14:15:18 +0000 UTC
+        Created At 2022-05-31 05:48:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/815" class=".btn">#815</a>
+            </td>
+            <td>
+                <b>
+                    docs: add ontario copyright license
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Mostafa <mostafa.youssef@ontario.ca>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-31 02:55:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/814" class=".btn">#814</a>
+            </td>
+            <td>
+                <b>
+                    fix(oob): check service is string instance
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+
+Adds a check whether the service is instanceof String as mentioned in  #812. this is needed due to the class-validator logic sadly.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-30 11:15:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/813" class=".btn">#813</a>
+            </td>
+            <td>
+                <b>
+                    fix(core): allow JSON as input for indy attributes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Right now, you have to create an instance of the class `CredentialPreviewAttribute` in the public API, like so:
+
+```typescript
+const attribute = new CredentialPreview({name: 'foo', value: 'bar'})
+```
+
+This PR will still allow for this but it is extended to also include:
+
+```typescript
+const attribute = { name: 'foo', value: 'bar' }
+```
+
+And it will tranform this into a class instance.
+
+The reason for this PR is that is very weird for a public API to accept a class that only adds a `toJSON` method.
+
+(I did not pickup the proofs module, as V2 is not merged and we can include it in there or I will pick it up after the merge).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-30 11:11:35 +0000 UTC
     </div>
 </div>
 
@@ -161,7 +282,7 @@ Other contributors who assisted: @reflectivedevelopment, @TheTreek, @amanji
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">Waiting on Author</span>
             </td>
             <td>
                 Change `connectToPools` function to sequentially connect to pools. Previously there were [issues on iOS](https://github.com/hyperledger/aries-framework-javascript/issues/647) because of too many open sockets on this function.
@@ -336,66 +457,6 @@ Signed-off-by: Berend Sliedrecht <berend@animo.id>
     </table>
     <div class="right-align">
         Created At 2022-05-25 11:48:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/790" class=".btn">#790</a>
-            </td>
-            <td>
-                <b>
-                    fix: extract indy did from peer did in indy credential request
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Amit-Padmani <amit.padmani@ontario.ca>
-
-- Fetch publicKeyBase58 from did document,  generate the indy did and use for createRequest
-
-Issue - [alpha76] Accept Offer Credential v1 not working [#780](https://github.com/hyperledger/aries-framework-javascript/issues/780)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-23 15:02:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/789" class=".btn">#789</a>
-            </td>
-            <td>
-                <b>
-                    fix: add BBS context to DidDoc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                BBS context was missing in the DidDocumentBuilder, resulting in some value being dropped during frameing. This PR adds the context.
-
-Signed-off-by: Karim <karim@animo.id>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-23 12:09:45 +0000 UTC
     </div>
 </div>
 

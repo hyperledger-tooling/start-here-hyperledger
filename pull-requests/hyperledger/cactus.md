@@ -14,6 +14,119 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2053" class=".btn">#2053</a>
+            </td>
+            <td>
+                <b>
+                    test(connector-go-ethereum-socketio): add functional test, bug fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependent</span>
+            </td>
+            <td>
+                - Add functional test of all functions from go-ethereum-socketio validator.
+- Refactor go-ethereum validator to allow importing as a module, to simplify the functional test.
+- Fix sendRawTransaction to work with Verifier protocol.
+  It couldn't be reached by any client library until now, so I consider this as "private" interface.
+- Add common web3 client object in openethereum test ledger helper class.
+- Add few new functions to ethereum test ledger helper class:
+  newEthPersonalAccount, transferAssetFromCoinbase, deployContract.
+
+Depends on #2051
+Depends on #2047
+
+Closes: #2052
+
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+
+-------------
+
+Please consider only the last commit - `test(connector-go-ethereum-socketio): add functional test, bug fix`. The rest are the dependencies that should be merged by separate PRs.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-31 09:57:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2051" class=".btn">#2051</a>
+            </td>
+            <td>
+                <b>
+                    refactor(connector-go-ethereum-socketio): fix strict flag warnings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                cactus-plugin-ledger-connector-go-ethereum-socketio will compile with global strict flag.
+
+Related issue: #1671
+
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-31 08:56:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2050" class=".btn">#2050</a>
+            </td>
+            <td>
+                <b>
+                    build(openapi): generate kotlin client
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Commit to be reviewed
+---------------------------------
+
+build(openapi): generate kotlin client
+
+    Primary Changes
+    ---------------
+    1. Updated the root package.json and cactus-plugin-ledger-connector-corda
+ 	   package.json to incorporate generate-clients script
+    2. Created a git action workflow to generate version-tagged client artifacts
+
+Fixes #2000
+
+Signed-off-by: jagpreetsinghsasan <jagpreet.singh.sasan@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-31 07:44:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/2049" class=".btn">#2049</a>
             </td>
             <td>
@@ -437,105 +550,6 @@ Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
     </table>
     <div class="right-align">
         Created At 2022-05-24 12:57:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2036" class=".btn">#2036</a>
-            </td>
-            <td>
-                <b>
-                    fix(security): close DDoS vulnerability in eth tx consistenty strategy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #2001
-
-Signed-off-by: aldousalvarez <aldousss.alvarez@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-23 03:25:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2035" class=".btn">#2035</a>
-            </td>
-            <td>
-                <b>
-                    test: jestify containers in test tooling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                File Path:
-packages/cactus-test-
-tooling/src/test/
-typescript/integration/
-common/
-containers.test.ts
-
-This is a PARTIAL resolution to issue #238
-
-Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-22 23:58:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2034" class=".btn">#2034</a>
-            </td>
-            <td>
-                <b>
-                    test: jestify jvm kotlin spring server
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Migrate Tap to Jest
-
-File Path:
-packages/cactus-plugin-ledger-connector-
-corda/src/test/typescript/
-integration/
-jvm-kotlin-spring-server.test.ts
-
-This is a PARTIAL resolution to issue #238
-
-Signed-off-by: Youngone Lee <youngone.lee@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-22 20:46:24 +0000 UTC
     </div>
 </div>
 
