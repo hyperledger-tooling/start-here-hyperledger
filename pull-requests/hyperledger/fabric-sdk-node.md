@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/578" class=".btn">#578</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/584" class=".btn">#584</a>
             </td>
             <td>
                 <b>
-                    Revert to snapshot publishing following release
+                    Update dependencies
                 </b>
             </td>
         </tr>
@@ -27,38 +27,18 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-12 15:57:57 +0000 UTC
-    </div>
-</div>
+                Cherry-pick of 989ed5fa4e49b93533b7ab22a833a981023fadd3 from main branch.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/577" class=".btn">#577</a>
-            </td>
-            <td>
-                <b>
-                    Release v2.2.12
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
+Also some code tidy-up, in particular Node 10 / TypeScript imports and use of Long package from gRPC/protobuf.
+    
+Downgrade some eslint packages to versions that explicitly support Node 10 while Node 10 is still a supported Node version.
+
+Closes #581
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-12 13:20:10 +0000 UTC
+        Created At 2022-05-31 14:44:25 +0000 UTC
     </div>
 </div>
 

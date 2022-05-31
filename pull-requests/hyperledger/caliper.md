@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1352" class=".btn">#1352</a>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1362" class=".btn">#1362</a>
             </td>
             <td>
                 <b>
-                    Bump to 0.5.1-unstable release
+                    Fix #536 Update error messages for 'caliper-core' package
                 </b>
             </td>
         </tr>
@@ -27,13 +27,15 @@ permalink: /pull-requests/hyperledger/caliper
                 
             </td>
             <td>
-                Signed-off-by: D <d_kelsey@uk.ibm.com>
+                - Partially fixes # 536. (Intentionally not linked this PR to the issue because as of now it only partially fixes it)
+- The error messages are clear and consistent.
+- All the error messages i.e. at debug level, error level, and info level are checked and updated.
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-19 15:47:14 +0000 UTC
+        Created At 2022-05-31 18:16:46 +0000 UTC
     </div>
 </div>
 

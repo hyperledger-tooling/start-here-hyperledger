@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3245" class=".btn">#3245</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3247" class=".btn">#3247</a>
             </td>
             <td>
                 <b>
-                    refactor: set DIDcomm V1 VS V2 Endpoint support
+                    chore: create didcomm v1 and v2 keys in mediator service
                 </b>
             </td>
         </tr>
@@ -27,17 +27,12 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 
             </td>
             <td>
-                This change sets back the original DIDComm V1's Endpoint logic that was supperceded with the Endpoint struct update for DIDComm V2.
-With this change, both ServiceEndpoint structures for V1 and V2 are not supported.
-
-closes #3219
-
-Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-22 08:41:44 +0000 UTC
+        Created At 2022-05-31 16:44:00 +0000 UTC
     </div>
 </div>
 

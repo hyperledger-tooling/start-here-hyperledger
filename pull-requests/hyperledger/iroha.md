@@ -1070,30 +1070,3 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2260" class=".btn">#2260</a>
-            </td>
-            <td>
-                <b>
-                    Feature/forks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### Description of the Change
-Forks for proposals and voting processes.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-24 13:47:57 +0000 UTC
-    </div>
-</div>
-

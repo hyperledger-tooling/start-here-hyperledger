@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/199" class=".btn">#199</a>
+                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/203" class=".btn">#203</a>
             </td>
             <td>
                 <b>
-                    Changed all 'bit.ly' links with a direct link
+                    fixed 'fixed-asset-base' go contract
                 </b>
             </td>
         </tr>
@@ -27,14 +27,13 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
                 
             </td>
             <td>
-                Disable java builds beacuse of a bug (more work on java required)
-
+                Closes #202 
 Signed-off-by: fraVlaca <ocsenarf@outlook.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-13 09:58:30 +0000 UTC
+        Created At 2022-05-31 15:56:07 +0000 UTC
     </div>
 </div>
 
