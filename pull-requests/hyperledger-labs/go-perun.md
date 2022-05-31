@@ -92,29 +92,3 @@ role and the changes to the setup function parameters are reverted.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/345" class=".btn">#345</a>
-            </td>
-            <td>
-                <b>
-                    Settle channel when funding fails
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #344.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-23 18:46:30 +0000 UTC
-    </div>
-</div>
-

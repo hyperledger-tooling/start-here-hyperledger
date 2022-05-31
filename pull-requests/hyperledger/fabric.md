@@ -342,39 +342,3 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3442" class=".btn">#3442</a>
-            </td>
-            <td>
-                <b>
-                    Fix some errors in the tutorial
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Documentation update
-
-#### Description
-
-This patch is a solution for errors that occur in the tutorial "Using CouchDB".
-First, we added environment variables as in the other tutorials.
-Second, we added information to authenticate when using CouchDB.
-
-Signed-off-by: Satoshi Ito <satoshi.ito.tf@hitachi.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-24 00:40:24 +0000 UTC
-    </div>
-</div>
-
