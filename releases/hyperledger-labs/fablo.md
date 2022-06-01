@@ -15,26 +15,26 @@ permalink: /releases/hyperledger-labs/fablo
         <tr>
             <td colspan="2">
                 <b>
-                    1.0.2
+                    1.0.3-unstable
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    1.0.2
+                    1.0.3-unstable
                 </span>
             </td>
             <td>
-                * Expose peer and orderer Prometheus metrics
+                
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/fablo/releases/tag/1.0.2" class=".btn">
+    <a href="https://github.com/hyperledger-labs/fablo/releases/tag/1.0.3-unstable" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-04-05 11:50:44 +0000 UTC
+        Created At 2022-05-12 14:47:35 +0000 UTC
     </span>
 </div>
 

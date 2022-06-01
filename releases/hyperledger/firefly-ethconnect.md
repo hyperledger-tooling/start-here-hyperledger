@@ -42,36 +42,3 @@ permalink: /releases/hyperledger/firefly-ethconnect
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v3.2.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v3.2.2
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* Add fly-id based idempotency for LevelDB (as implemented for MongoDB) by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/217
-* Updates for parallel processing by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/218
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.2.1...v3.2.2
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.2.2" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-05-18 03:34:31 +0000 UTC
-    </span>
-</div>
-
