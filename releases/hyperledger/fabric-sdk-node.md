@@ -15,32 +15,28 @@ permalink: /releases/hyperledger/fabric-sdk-node
         <tr>
             <td colspan="2">
                 <b>
-                    v2.2.12
+                    v2.2.13
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.2.12
+                    v2.2.13
                 </span>
             </td>
             <td>
-                This is a maintenance release containing big fixes and the following enhancements:
+                This is a maintenance release containing dependency updates to address security vulnerability CVE-2021-43138.
 
-- Numeric and boolean configuration properties can be set using environment variables.
-- Support for Node 16 LTS.
-- Looser Node version requirements.
-
-**Full Changelog**: https://github.com/hyperledger/fabric-sdk-node/compare/v2.2.11...v2.2.12
+**Full Changelog**: https://github.com/hyperledger/fabric-sdk-node/compare/v2.2.12...v2.2.13
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-sdk-node/releases/tag/v2.2.12" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-sdk-node/releases/tag/v2.2.13" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-05-12 15:30:17 +0000 UTC
+        Created At 2022-06-01 12:03:21 +0000 UTC
     </span>
 </div>
 
