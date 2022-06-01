@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/416" class=".btn">#416</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/417" class=".btn">#417</a>
             </td>
             <td>
                 <b>
-                    config tx test in server_test.go
+                    Dynamic cluster - add & remove test
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/orion-server
                 
             </td>
             <td>
-                Signed-off-by: tohar-ayash <toharayash1@gmail.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-24 14:04:18 +0000 UTC
+        Created At 2022-06-01 09:19:09 +0000 UTC
     </div>
 </div>
 

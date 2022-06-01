@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3460" class=".btn">#3460</a>
+            </td>
+            <td>
+                <b>
+                    Small typo fix in Ordering Service
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Saniyat Al Ahmed <32844821+saniyat013@users.noreply.github.com>
+
+<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Documentation update
+
+#### Description
+
+There was a small typo in the Ordering Service page of the documentation, in the Raft vs Kafka differences section.
+The word "Raft" was used, while it will be "Kafka"
+
+<!---
+#### Release Note
+If change impacts current users, uncomment Release Note heading and provide
+release note text.
+Also, copy release note text into the release specific /release_notes file.
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-01 08:08:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3459" class=".btn">#3459</a>
             </td>
             <td>
@@ -472,36 +521,6 @@ Checklist (DELETE AFTER READING):
     </table>
     <div class="right-align">
         Created At 2022-05-25 13:35:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3447" class=".btn">#3447</a>
-            </td>
-            <td>
-                <b>
-                    Use any peer to evaluate system chaincode transactions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Cherry-pick of d0e209309ce412a66b7a20a6348327f1b2f6ee23 from main branch.
-
-System chaincodes are not included in the installed chaincodes returned by service discovery. The Gateway service was relying on discovery results to find peers on which to evaluate transactions and so failed to evaluate system chaincode transaction functions. Now the Gateway service uses any network peer to evaluate transactions invoked on known built-in system chaincodes.
-
-Also added a system test to confirm that the Gateway service can endorse system chaincode transaction functions.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-25 10:10:50 +0000 UTC
     </div>
 </div>
 

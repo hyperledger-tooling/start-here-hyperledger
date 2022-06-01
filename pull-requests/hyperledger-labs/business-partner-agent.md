@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/752" class=".btn">#752</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/755" class=".btn">#755</a>
             </td>
             <td>
                 <b>
-                    refactor using vue refs in copy schema id to clipboard method
+                    wallet type askar 2
                 </b>
             </td>
         </tr>
@@ -27,16 +27,14 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
                 
             </td>
             <td>
-                Signed-off-by: Christian M <chriamue@gmail.com>
+                Needed to test https://github.com/hyperledger/aries-cloudagent-python/issues/1724
 
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/752"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
+Will not be merged.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-09 16:01:39 +0000 UTC
+        Created At 2022-06-01 09:33:11 +0000 UTC
     </div>
 </div>
 

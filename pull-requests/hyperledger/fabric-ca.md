@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/291" class=".btn">#291</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/293" class=".btn">#293</a>
             </td>
             <td>
                 <b>
-                    Nominate Josh and Mark as maintainers
+                    [WIP] Make idemix use Mathlib instead of AMCL directly
                 </b>
             </td>
         </tr>
@@ -27,16 +27,13 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                Josh and Mark have both worked on PRs to improve and maintain
-Fabric CA recently.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+                Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-25 12:14:38 +0000 UTC
+        Created At 2022-06-01 07:46:12 +0000 UTC
     </div>
 </div>
 
