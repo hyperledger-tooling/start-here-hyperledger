@@ -1,13 +1,13 @@
 
-[push-notifications-v0.3.0](https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/push-notifications-v0.3.0) @aries-framework/push-notifications push-notifications-v0.3.0
+[common/protos-go/v1.3.1](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/common/protos-go/v1.3.1) v1.3.1 - GO Weaver Protos - Jun 01, 2022
 
-[v0.10.0](https://github.com/hyperledger-labs/go-perun/releases/tag/v0.10.0) Janus
+[core/network/fabric-interop-cc/contracts/interop/v1.3.0](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/contracts/interop/v1.3.0) v1.3.0 - GO Fabric Interop Chaincode - Jun 01, 2022
 
-[22.4.2](https://github.com/hyperledger/besu/releases/tag/22.4.2) 22.4.2
+[core/network/fabric-interop-cc/interfaces/asset-mgmt/v1.3.1](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/interfaces/asset-mgmt/v1.3.1) v1.3.1 - GO Fabric Asset Management Interface - Jun 01, 2022
 
-[v1.0.2](https://github.com/hyperledger/firefly/releases/tag/v1.0.2) v1.0.2
+[core/network/fabric-interop-cc/libs/assetexchange/v1.3.1](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/libs/assetexchange/v1.3.1) v1.3.1 - GO Fabric Library for Asset Exchange - Jun 01, 2022
 
-[v0.1.10](https://github.com/hyperledger/firefly-sandbox/releases/tag/v0.1.10) v0.1.10
+[core/network/fabric-interop-cc/libs/utils/v1.3.1](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/libs/utils/v1.3.1) v1.3.1 - GO Fabric Utils Library for Interoperation - Jun 01, 2022
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
