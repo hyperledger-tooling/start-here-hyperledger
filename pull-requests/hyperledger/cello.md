@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/452" class=".btn">#452</a>
+            </td>
+            <td>
+                <b>
+                    Fix security vulnerabilities in package.json file of dashboard module.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Upgrade validator library to v13.7.0
+
+Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-01 01:56:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/451" class=".btn">#451</a>
             </td>
             <td>

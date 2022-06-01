@@ -14,6 +14,126 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3459" class=".btn">#3459</a>
+            </td>
+            <td>
+                <b>
+                    Add -buildvcs=false for building binaries
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Go 1.18 tries to pull git version control information into the binaries that it builds,
+based on the presence of .git directory. 'git' is not available when building
+the Fabric docker images however, and therefore the build fails.
+
+This change adds -buildvcs=false to the builds to suppress the Go 1.18 behavior change.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-01 04:21:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3457" class=".btn">#3457</a>
+            </td>
+            <td>
+                <b>
+                    Add -buildvcs=false for building binaries (backport #3450)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is an automatic backport of pull request #3450 done by [Mergify](https://mergify.com).
+
+
+---
+
+
+<details>
+<summary>Mergify commands and options</summary>
+
+<br />
+
+More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
+
+You can also trigger Mergify actions by commenting on this pull request:
+
+- `@Mergifyio refresh` will re-evaluate the rules
+- `@Mergifyio rebase` will rebase this PR on its base branch
+- `@Mergifyio update` will merge the base branch into this PR
+- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
+
+Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
+
+- look at your merge queues
+- generate the Mergify configuration with the config editor.
+
+Finally, you can contact us on https://mergify.com
+</details>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-01 04:12:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3456" class=".btn">#3456</a>
+            </td>
+            <td>
+                <b>
+                    Fix typo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Waleed Mortaja <waleedmortaja@protonmail.com>
+
+#### Type of change
+- Documentation update
+
+#### Description
+
+Duplicated symbols
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-01 03:45:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3455" class=".btn">#3455</a>
             </td>
             <td>

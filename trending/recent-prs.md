@@ -1,13 +1,13 @@
 
-[3455](https://github.com/hyperledger/fabric/pull/3455) Update 'Using Private Data in Fabric' tutorial (Backport #1875)
+[1966](https://github.com/hyperledger/bevel/pull/1966) [fabric] Update sample configuration files
 
-[42](https://github.com/hyperledger-labs/fabric-opssc/pull/42) docs(*): Fix chat Info from RocketChat to Discord
+[1965](https://github.com/hyperledger/bevel/pull/1965) [quorum] update quorum helm value templates for flux v2
 
-[1363](https://github.com/hyperledger/caliper/pull/1363) Fix #536 Update error messages for 'caliper-ethereum' package
+[1964](https://github.com/hyperledger/bevel/pull/1964) [chore] update molecule fix
 
-[2297](https://github.com/hyperledger/iroha/pull/2297) [fix] #2295: Fix unregister trigger bug
+[3930](https://github.com/hyperledger/besu/pull/3930) Async stateroot investigation
 
-[857](https://github.com/hyperledger-labs/solang/pull/857) Fix cast to address
+[3459](https://github.com/hyperledger/fabric/pull/3459) Add -buildvcs=false for building binaries
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
