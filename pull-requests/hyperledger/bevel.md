@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1963" class=".btn">#1963</a>
+            </td>
+            <td>
+                <b>
+                    molecule fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+**Changelog**
+- Fix missing variable in converge.yaml
+
+ 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-31 19:23:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/1962" class=".btn">#1962</a>
             </td>
             <td>
