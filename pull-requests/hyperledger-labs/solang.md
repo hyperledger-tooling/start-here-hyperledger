@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/857" class=".btn">#857</a>
+            </td>
+            <td>
+                <b>
+                    Fix cast to address
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                There was a small mistake when casting from integer to address. The type we pass on to `SingExt` and `ZeroExt` was wrong. This PR fix this and resolves issue #813.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-31 20:02:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/855" class=".btn">#855</a>
             </td>
             <td>
@@ -117,53 +143,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2022-05-25 10:24:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/850" class=".btn">#850</a>
-            </td>
-            <td>
-                <b>
-                    refactor(arguments): Replace -O command line option
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Replace llvm-like -O command with gcc-like
-optimization
-commands
-according
-to
-https://llvm.org/doxygen/CodeGen_8h_source.html
-
-Limit the command
-to
-only one argument
-(one type of optimization)
-
-Add basic help for the
--O
-command to improve usability
-
-BREAKING CHANGE: Optimization command -O now takes GCC-like arguments
-(0,1,2 or s and 3)
-
-Closes #534
-
-Signed-off-by: Saladino Belisario <SaladinoBelisario@protonmail.ch>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-25 00:15:12 +0000 UTC
     </div>
 </div>
 
