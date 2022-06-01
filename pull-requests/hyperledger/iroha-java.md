@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/229" class=".btn">#229</a>
+            </td>
+            <td>
+                <b>
+                    feature: added unregister trigger
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                added unregister trigger instruction and test
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-01 08:35:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-java/pull/227" class=".btn">#227</a>
             </td>
             <td>
@@ -27,7 +53,7 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                <nil>
+                + setKeyValue by definitionId
             </td>
         </tr>
     </table>
@@ -85,35 +111,6 @@ permalink: /pull-requests/hyperledger/iroha-java
     </table>
     <div class="right-align">
         Created At 2022-05-30 13:30:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/224" class=".btn">#224</a>
-            </td>
-            <td>
-                <b>
-                    Feature/wasm trigger
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1.Added wasm trigger registration
-2.Fixed Short to Int in scale codec reader
-3.Added test smart contract source in rust
-4.Added compiled wasm to resources
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-25 10:03:09 +0000 UTC
     </div>
 </div>
 
