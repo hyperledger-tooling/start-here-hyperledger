@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/110" class=".btn">#110</a>
+            </td>
+            <td>
+                <b>
+                    Release v2.2.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-01 14:13:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/109" class=".btn">#109</a>
             </td>
             <td>

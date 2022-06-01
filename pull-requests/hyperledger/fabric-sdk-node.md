@@ -53,7 +53,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                <nil>
+                Also fix placeholder GitHub Actions workflow so PR builds can pass.
             </td>
         </tr>
     </table>

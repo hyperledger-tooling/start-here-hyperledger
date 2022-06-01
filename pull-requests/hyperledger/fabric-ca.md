@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-ca
             </td>
             <td>
                 <b>
-                    [WIP] Make idemix use Mathlib instead of AMCL directly
+                    Make idemix use Mathlib instead of AMCL directly
                 </b>
             </td>
         </tr>
@@ -27,7 +27,21 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
+                This commit makes Fabric-CA use Mathlib instead of AMCL.
+Mathlib supports several curves, and they can now be configured by setting:
+ - 'curveID' key in the server config
+ - 'idemixCurveID' key in the client config
+    
+It's also possible to set the curve in the fabric-ca-client via setting IDEMIX_CURVE_ID env var.
+    
+The possible values for curve identifiers are: 'amcl.Fp256bn', 'gurvy.Bn254', 'amcl.Fp256Miraclbn'
+    
+If not specified, it fallbacks to the first one in the list
+    
+More details on the rational can be found in https://github.com/hyperledger/fabric-ca/issues/292
+
+
+Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
 
             </td>
         </tr>
