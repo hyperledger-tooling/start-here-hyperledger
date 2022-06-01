@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3461" class=".btn">#3461</a>
+            </td>
+            <td>
+                <b>
+                    Gateway support for chaincode event checkpointing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backport of c55b7eed46da67098f9393dbb23df4167a53ebff and 2f2e5aa3f9858928003969282a0b56b271e3ec9c from main branch.
+
+Gateway service will use an `AfterTransactionId` field in a ChaincodeEventsRequest message to locate the exact chaincode event from which eventing should be resumed. Provides server-side support for client checkpointing of chaincode events in Fabric Gateway client API v1.1.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-01 17:35:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3460" class=".btn">#3460</a>
             </td>
             <td>
@@ -441,86 +469,6 @@ Finally, you can contact us on https://mergify.com
     </table>
     <div class="right-align">
         Created At 2022-05-25 18:43:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3448" class=".btn">#3448</a>
-            </td>
-            <td>
-                <b>
-                    Support PurgePrivateData from the Chaincode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - added handler support for the purgePrivateData
-- empty message added to the TxSimulator
-
-DRAFT PR
-
-Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-
-<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
-
-<!--- Provide a descriptive summary of your changes in the Title above. -->
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-- New feature
-- Improvement (improvement to code, performance, etc)
-- Test update
-- Documentation update
-
-#### Description
-
-<!--- Describe your changes in detail, including motivation. -->
-
-#### Additional details
-
-<!--- Additional implementation details or comments to reviewers. -->
-<!--- Summarize how the pull request was tested (if not obvious from commit). -->
-
-#### Related issues
-
-<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
-
-<!---
-#### Release Note
-If change impacts current users, uncomment Release Note heading and provide
-release note text.
-Also, copy release note text into the release specific /release_notes file.
--->
-
-<!--
-Checklist (DELETE AFTER READING):
-
-- `Signed-off-by` added to commits (required for DCO check to pass)
-- Tests have been added/updated (required for bug fixes and features)
-- Unit and/or integration tests pass locally
-- Run linters and checks locally using 'make checks'
-- If change requires documentation updates, make updates in pull request,
-  or open a separate issue and provide link
-- Squash commits into a single commit, unless a stack of commits is
-  intentional to assist reviewers or to preserve review comments.
-- For additional contribution guidelines see the project's CONTRIBUTING.md file
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-25 13:35:08 +0000 UTC
     </div>
 </div>
 

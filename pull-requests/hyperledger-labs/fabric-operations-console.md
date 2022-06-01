@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/218" class=".btn">#218</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/220" class=".btn">#220</a>
             </td>
             <td>
                 <b>
-                    update release notes
+                    Added 2FA code, removed console logs and failure fixes
                 </b>
             </td>
         </tr>
@@ -27,23 +27,21 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
                 
             </td>
             <td>
-                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+                Added 2FA code, removed console logs and failure fixes
+
+Signed-off-by: Ketul Shah <shah.ketul@ibm.com>
 
 #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Documentation update
+- Test update
 
 #### Description
-Added release notes for 1.0.3-11
-
+Added 2FA code, removed console logs and failure fixes from pipeline executions
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-25 17:59:38 +0000 UTC
+        Created At 2022-06-01 14:03:06 +0000 UTC
     </div>
 </div>
 

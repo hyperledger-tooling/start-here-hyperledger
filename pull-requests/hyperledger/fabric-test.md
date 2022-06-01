@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-test
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/381" class=".btn">#381</a>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/384" class=".btn">#384</a>
             </td>
             <td>
                 <b>
-                    Update maintainers
+                    Bump Go to 1.18.2.
                 </b>
             </td>
         </tr>
@@ -27,15 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-test
                 
             </td>
             <td>
-                Retire Dongming due to inactivity.
-Nominate Matthew White and David Kelsey since they have been active the last 6 months.
+                Bump Go to 1.18.2.
 
 Signed-off-by: David Enyeart <enyeart@us.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-25 11:50:23 +0000 UTC
+        Created At 2022-06-01 15:40:44 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,115 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/826" class=".btn">#826</a>
+            </td>
+            <td>
+                <b>
+                    fix: process ws return route messages serially
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                We were already processing messages serially for pickup v1 and v2. This pr updates to also use this for websocket inbound transport. This can help prevent some race conditions and is consistent with the other pickup approaches
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-01 15:53:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/825" class=".btn">#825</a>
+            </td>
+            <td>
+                <b>
+                    fix(oob): legacy invitation with multiple endpoint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                more issues with interop testing in AATH.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-01 15:00:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/824" class=".btn">#824</a>
+            </td>
+            <td>
+                <b>
+                    docs: using postgres storage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added documentation for usage and setup of Postgres plugin setup
+- [x] Linux
+- [x] Mac
+- [ ] Windows (Not able to build Postgres plugin on windows yet, getting an error regarding **libsodium-sys 0.0.16** )
+
+#758 #771 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-01 13:37:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/823" class=".btn">#823</a>
+            </td>
+            <td>
+                <b>
+                    fix(connections): didexchange to connection state
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                small issue I discovered in updating AATH
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-01 13:20:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/819" class=".btn">#819</a>
             </td>
             <td>
@@ -319,144 +428,6 @@ This doesn't change anything about the functionality. It's just relocation, and 
     </table>
     <div class="right-align">
         Created At 2022-05-26 09:51:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/799" class=".btn">#799</a>
-            </td>
-            <td>
-                <b>
-                    ci: run ci on -pre branches
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Run ci on pre branches so we also have this enabled for the 0.3.0-pre (and others in the future) branches
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-25 14:18:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/798" class=".btn">#798</a>
-            </td>
-            <td>
-                <b>
-                    fix(credentials): add missing issue credential v1 proposal attributes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-25 12:58:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/797" class=".btn">#797</a>
-            </td>
-            <td>
-                <b>
-                    refactor(credentials): minor refactor of CredentialMessageBuilder
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Mainly to make it more consistent with the rest of AFJ
-- Cleaned up the `CredentialMesssageBuilder` a small bit
-- Mainly removed unnecessary types and checks for undefined values
-- Not completely done (will continue later in other PRs) 
-
-Signed-off-by: Berend Sliedrecht <berend@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-25 12:50:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/796" class=".btn">#796</a>
-            </td>
-            <td>
-                <b>
-                    fix(core): expose CredentialPreviewAttribute
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - file rename from `CredentialPreviewAttributes` to `CredentialPreviewAttribute`
-- export `CredentialPreviewAttribute` to the framework user for building a credential offer
-
-Signed-off-by: Berend Sliedrecht <berend@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-25 12:18:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/795" class=".btn">#795</a>
-            </td>
-            <td>
-                <b>
-                    feat: Issue Credentials V2: W3C/ jsonld credentials
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Merge of jsonld-credentials -> 0.3.0-pre
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-25 11:48:47 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1436" class=".btn">#1436</a>
+            </td>
+            <td>
+                <b>
+                    BACKPORT 0-3: Update `/batches` endpoint to correctly return errors from Splinter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backport of: https://github.com/hyperledger/grid/pull/1432
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-01 14:31:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1435" class=".btn">#1435</a>
             </td>
             <td>
