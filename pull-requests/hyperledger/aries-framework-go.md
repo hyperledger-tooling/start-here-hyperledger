@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3250" class=".btn">#3250</a>
+            </td>
+            <td>
+                <b>
+                    fix: did doc parsing to properly distinguish V1 vs V2 types
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Signed-off-by: Baha Shaaban [baha.shaaban@securekey.com](mailto:baha.shaaban@securekey.com)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-02 16:03:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3249" class=".btn">#3249</a>
             </td>
             <td>

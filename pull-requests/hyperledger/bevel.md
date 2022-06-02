@@ -29,7 +29,7 @@ permalink: /pull-requests/hyperledger/bevel
             <td>
                 **Changelog**
 
-Just defined what the  Distributed Ledger Transaction means before the initialism is used. Makes reading the docs easier for nubes like me :)
+Just defined what the  Distributed Ledger Technology means before the initialism is used. Makes reading the docs easier for nubes like me :)
 
  
 **Reviewed by**

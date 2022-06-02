@@ -1,13 +1,13 @@
 
-[829](https://github.com/hyperledger/aries-framework-javascript/pull/829) refactor: Reuse cred def id and attributes from Proposal message in Indy Format Service
+[1758](https://github.com/hyperledger/indy-node/pull/1758) Adjust workflow triggers.
 
-[828](https://github.com/hyperledger/aries-framework-javascript/pull/828) fix(oob): export messages in oob
+[1598](https://github.com/hyperledger/indy-plenum/pull/1598) Adjust workflow triggers.
 
-[230](https://github.com/hyperledger/iroha-java/pull/230) double domain register test
+[349](https://github.com/hyperledger-labs/go-perun/pull/349) Draft: Settle channel when funding fails
 
-[276](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/276) Go Modules Local Build Change
+[831](https://github.com/hyperledger/aries-framework-javascript/pull/831) feat: support advanced wallet query
 
-[321](https://github.com/hyperledger-labs/fablo/pull/321) Bugfix: In Linux 'nvm' needs additional import
+[2429](https://github.com/hyperledger/sawtooth-core/pull/2429) BACKPORT 1-1: Add CODEOWNERS file
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

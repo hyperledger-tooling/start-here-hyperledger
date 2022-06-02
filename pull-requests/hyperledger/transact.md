@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/transact
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/352" class=".btn">#352</a>
-            </td>
-            <td>
-                <b>
-                    Fix SqlMerkleState pruning
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-26 16:22:36 +0000 UTC
-    </div>
-</div>
-

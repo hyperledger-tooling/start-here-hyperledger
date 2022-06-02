@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1437" class=".btn">#1437</a>
+            </td>
+            <td>
+                <b>
+                    Add release notes for v0.3.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">0-3</span>
+            </td>
+            <td>
+                Signed-off-by: Lee Bradley <bradley@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-02 14:42:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1436" class=".btn">#1436</a>
             </td>
             <td>
@@ -81,7 +107,7 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">0-2</span>
             </td>
             <td>
                 <nil>
@@ -107,7 +133,7 @@ Signed-off-by: Davey Newhall <newhall@bitwise.io>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">0-3</span>
             </td>
             <td>
                 These were introduced inadvertently as a copy/paste error. Not only would
@@ -176,61 +202,6 @@ Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
     </table>
     <div class="right-align">
         Created At 2022-05-26 19:53:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1429" class=".btn">#1429</a>
-            </td>
-            <td>
-                <b>
-                    Retire chenette and eloaverona
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">main</span>
-            </td>
-            <td>
-                This change retires @chenette and @eloaverona as maintainers and
-codeowners for Grid.
-
-Signed-off-by: Shannyn Telander <telander@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-26 14:46:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1428" class=".btn">#1428</a>
-            </td>
-            <td>
-                <b>
-                    Make Chris Eckhardt a Grid maintainer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">main</span>
-            </td>
-            <td>
-                Signed-off-by: Shannyn Telander <telander@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-26 13:50:58 +0000 UTC
     </div>
 </div>
 

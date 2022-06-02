@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/221" class=".btn">#221</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/224" class=".btn">#224</a>
             </td>
             <td>
                 <b>
-                    Support non revoked on attribute level
+                    Initial oob implementation with handshake reuse
                 </b>
             </td>
         </tr>
@@ -27,20 +27,19 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
                 
             </td>
             <td>
-                **Short description of what this resolves:**
-Added support for proof request with non revoked on attribute level.
+                Signed-off-by: Sebastian Bickerle <sebastian.bickerle@main-incubator.com>
 
-**Changes proposed in this pull request:**
-Adjusted "BuildRevocationStatesAsync" function of "DefaultProofService".
-Adjusted test in "RevocationTests"
+#### Short description of what this resolves:
+This adds initial support for the out-of-band protocol. This should enable agents to process out-of-band invitations with handshake protocols and enables the usage of the DidExchange protocol with out-of-band invitations.
 
-**Fixes**: #
+#### Changes proposed in this pull request:
+- Add DefaultOutOfBandService and OutOfBandHandler to process OutOfBand messages
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-11 08:36:51 +0000 UTC
+        Created At 2022-06-02 14:25:26 +0000 UTC
     </div>
 </div>
 

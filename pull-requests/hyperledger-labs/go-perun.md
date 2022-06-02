@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/349" class=".btn">#349</a>
+            </td>
+            <td>
+                <b>
+                    Draft: Settle channel when funding fails
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is the second implementation variant where the `ProposeChannel` method does not automatically settle the channel after a failed funding but the client itself has to take care of this.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-02 17:28:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/348" class=".btn">#348</a>
             </td>
             <td>
