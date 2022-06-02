@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/829" class=".btn">#829</a>
+            </td>
+            <td>
+                <b>
+                    refactor: Reuse cred def id and attributes from Proposal message in Indy Format Service
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                See Issue #837 https://github.com/hyperledger/aries-framework-javascript/issues/827
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-02 12:27:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/828" class=".btn">#828</a>
+            </td>
+            <td>
+                <b>
+                    fix(oob): export messages in oob
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Noticed that the `OutofBandInvitation` was not exported to the public and it can be quite useful to have
+
+- Exported the `messages` folder inside the `oob` module
+- There might be more items we want to export from here, but I am not too sure about which.
+
+Signed-off-by: Berend Sliedrecht <berend@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-02 12:25:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/826" class=".btn">#826</a>
             </td>
             <td>
@@ -400,34 +457,6 @@ Other contributors who assisted: @reflectivedevelopment, @TheTreek, @amanji
     </table>
     <div class="right-align">
         Created At 2022-05-26 19:25:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/801" class=".btn">#801</a>
-            </td>
-            <td>
-                <b>
-                    refactor: move signatures suites to vc module
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This moves the signature suites, the jsonld util and other files to the vc module. This will help with the separation of credential formats we're going to look at soon. It also fixes an issue with type files being places outside of the src directory causing build issues. We didn't catch this because CI was not enabled on the 0.3.0 branch. CI is now enabled which gives us more assurance when merging PRs.
-
-This doesn't change anything about the functionality. It's just relocation, and fixing of type issues.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-26 09:51:48 +0000 UTC
     </div>
 </div>
 

@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
             </td>
             <td>
                 <b>
-                    status change listener
+                    notify commit/discard tx events #283
                 </b>
             </td>
         </tr>
