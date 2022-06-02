@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/319" class=".btn">#319</a>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/321" class=".btn">#321</a>
             </td>
             <td>
                 <b>
-                    Use nvm (if present) to set valid node version for chaincode build
+                    Bugfix: In Linux 'nvm' needs additional import
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fablo
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Piotr Hejwowski <piotr.hejwowski@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-17 16:34:32 +0000 UTC
+        Created At 2022-06-02 09:47:59 +0000 UTC
     </div>
 </div>
 

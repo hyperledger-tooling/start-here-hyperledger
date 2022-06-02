@@ -1,13 +1,13 @@
 
-[554](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/554) Bump simple-plist from 1.3.0 to 1.3.1 in /open-offsets-directory/react
+[829](https://github.com/hyperledger/aries-framework-javascript/pull/829) refactor: Reuse cred def id and attributes from Proposal message in Indy Format Service
 
-[553](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/553) Move CarbonTracker contract and set RegisterIndustry controls
+[828](https://github.com/hyperledger/aries-framework-javascript/pull/828) fix(oob): export messages in oob
 
-[26](https://github.com/hyperledger-labs/yui-docs/pull/26) Bump eventsource from 1.1.0 to 1.1.1 in /docsrcs/yui-ibc-solidity
+[230](https://github.com/hyperledger/iroha-java/pull/230) double domain register test
 
-[756](https://github.com/hyperledger-labs/business-partner-agent/pull/756) Bump eventsource from 1.1.0 to 1.1.1 in /frontend
+[276](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/276) Go Modules Local Build Change
 
-[2306](https://github.com/hyperledger/iroha/pull/2306) [fix] #2225: Fix benchmarks
+[321](https://github.com/hyperledger-labs/fablo/pull/321) Bugfix: In Linux 'nvm' needs additional import
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
