@@ -58,10 +58,12 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
             <td>
                 This commit makes Fabric-CA use Mathlib instead of AMCL.
 Mathlib supports several curves, and they can now be configured by setting:
- - 'curveID' key in the server config
- - 'idemixCurveID' key in the client config
-    
-It's also possible to set the curve in the fabric-ca-client via setting IDEMIX_CURVE_ID env var.
+- idemix.curve' key in the server config file
+ - 'idemix.curve' key in the client config file
+- --idemix.curve flag when running the fabric-ca-client binary
+- --idemix.curve flag when running the fabric-ca-server binary
+
+  
     
 The possible values for curve identifiers are: 'amcl.Fp256bn', 'gurvy.Bn254', 'amcl.Fp256Miraclbn'
     

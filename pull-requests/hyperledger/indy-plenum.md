@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1596" class=".btn">#1596</a>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1598" class=".btn">#1598</a>
             </td>
             <td>
                 <b>
-                    Addition of StatusCheck for branch protection
+                    Adjust workflow triggers.
                 </b>
             </td>
         </tr>
@@ -27,14 +27,15 @@ permalink: /pull-requests/hyperledger/indy-plenum
                 
             </td>
             <td>
-                Added `StatusCheck` Status for the branch protection rules.
-After merge a dummy PR needs to be created so that that Status is being set.
-After that the `StatusCheck` will be available for the branch protection rules. 
+                - Fix error in releasepr.yaml
+- Ensure the triggers on PR.yaml and releasepr.yaml are mutually exclusive.
+
+Signed-off-by: Wade Barnes <wade@neoterictech.ca>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-23 11:23:50 +0000 UTC
+        Created At 2022-06-02 17:41:02 +0000 UTC
     </div>
 </div>
 

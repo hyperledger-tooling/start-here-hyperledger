@@ -561,38 +561,3 @@ relates to #3859 and [besu-native #57](https://github.com/hyperledger/besu-nativ
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3903" class=".btn">#3903</a>
-            </td>
-            <td>
-                <b>
-                    new ropsten ttd
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The problem the beacon chain is not yet ready on Ropsten. It is planned to go up on Monday and will make the fork to Bellatrix  3 days later. So we would run into a scenario where the EL clients make the transition tomorrow, but the CL clients wouldn't do it around 6 days later. So Ropsten would be stalled for around 6 days and we could have a gigantic reorg once the Merge happens, because it is assumed that some people would not have updated their clients and just continue with PoW.
-
-In practice, this means:
-1. Users who already upgraded their nodes need to do a TTD override (including most of the genesis beacon chain validators, but these are controlled by clients/testing teams)
-2. Clients need to put out a new release with the 100000000000000000000000 (twice the current mainnet TD) TTD value
-3. We announce this in a blog post early next week, and tell users they will need to do a TTD override ~1 week from then
-4. After Bellatrix, we pick a new TTD value we expect to hit around June 8ish and communicate it to users.
-
-Signed-off-by: Justin Florentine <justin+github@florentine.us>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-26 16:41:24 +0000 UTC
-    </div>
-</div>
-

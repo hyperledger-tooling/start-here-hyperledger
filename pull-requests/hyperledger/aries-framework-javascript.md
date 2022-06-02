@@ -14,6 +14,80 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/831" class=".btn">#831</a>
+            </td>
+            <td>
+                <b>
+                    feat: support advanced wallet query
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds support for some of the most important wallet query features as defined by the indy-sdk (and aries-askar). https://hyperledger-indy.readthedocs.io/projects/sdk/en/latest/docs/design/011-wallet-query-language/README.html
+
+Currently only added support for `$and`, `$or` and `$not`, which is enough for most use cases. We need this in particular for querying credentials based on a DIF presentation definition. 
+
+Fixes https://github.com/hyperledger/aries-framework-javascript/issues/739
+
+@blu3beri I just used the default syntax for this, so you'd use it like this:
+
+```ts
+const query: Query<TheRecord> = {
+  $and: [
+	{ $or: [{ expandedTypes: 'https://url1.com' }, { context: 'https://url1.com' }] },
+	{ $or: [{ expandedTypes: 'https://url2.com' }, { context: 'https://url2.com' }] },
+  ]
+}
+```
+
+We can look at a builder, but not sure what that would look like exactly? 
+
+@NB-PrasadKatkar this should unblock you for the presentation exchange work
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-02 16:30:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/830" class=".btn">#830</a>
+            </td>
+            <td>
+                <b>
+                    WIP: feat: wip add validation to JSON transformer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                WIP
+
+closes #742 
+Signed-off-by: Moriarty <moritz@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-02 13:23:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/829" class=".btn">#829</a>
             </td>
             <td>

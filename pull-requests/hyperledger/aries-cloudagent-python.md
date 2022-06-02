@@ -38,29 +38,3 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1785" class=".btn">#1785</a>
-            </td>
-            <td>
-                <b>
-                    Fix tails server upload multi-ledger mode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">0.7.4</span>
-            </td>
-            <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-26 16:22:27 +0000 UTC
-    </div>
-</div>
-
