@@ -15,35 +15,62 @@ permalink: /releases/hyperledger/firefly-common
         <tr>
             <td colspan="2">
                 <b>
-                    v0.1.6
+                    v0.1.8
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.1.6
+                    v0.1.8
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Update README with Go ref links by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/9
-* Add prefix for EVMConnect by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/10
-* Do not assume exec output is an array by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/11
-* @peterbroadhurst Missing interface function for GetFloat64  by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/13
-* Fix nav in docs site by @nguyer in https://github.com/hyperledger/firefly-common/pull/12
-* Better handling of subarray defaults by @awrichar in https://github.com/hyperledger/firefly-common/pull/14
+* Remove FFCAPI for updated architecture by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/15
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v0.1.5...v0.1.6
+**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v0.1.7...v0.1.8
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v0.1.6" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v0.1.8" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-05-26 16:01:23 +0000 UTC
+        Created At 2022-06-02 19:39:32 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    v0.1.7
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.1.7
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Add API framework and Swagger generator, plus enum support by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/16
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v0.1.6...v0.1.7
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v0.1.7" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-06-02 18:04:32 +0000 UTC
     </span>
 </div>
 
