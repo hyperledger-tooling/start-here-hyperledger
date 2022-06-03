@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/834" class=".btn">#834</a>
+            </td>
+            <td>
+                <b>
+                    fix(oob): expose parseinvitation publicly
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Quite a nice function to have outside of the framework for parsing qrcodes.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-03 11:37:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/833" class=".btn">#833</a>
             </td>
             <td>
@@ -478,32 +504,6 @@ Fixes #807
     </table>
     <div class="right-align">
         Created At 2022-05-27 14:11:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/805" class=".btn">#805</a>
-            </td>
-            <td>
-                <b>
-                    feat: present proof v2 Indy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Worked on Present Proof V2 to work with Indy credentials
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-27 11:49:25 +0000 UTC
     </div>
 </div>
 
