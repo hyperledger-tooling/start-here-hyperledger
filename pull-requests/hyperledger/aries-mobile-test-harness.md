@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/57" class=".btn">#57</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/59" class=".btn">#59</a>
             </td>
             <td>
                 <b>
-                    Proof tests calibrated up to new testIDs in build 186
+                    working revocation test for BC Wallet
                 </b>
             </td>
         </tr>
@@ -29,12 +29,38 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
             <td>
                 Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
 
-Proof tests should now all pass for build 186 and up. Android still having issues on connectivity, but that is a separate issue, these proof tests will all pass on iOS. 
+Working Revocation test for BC Wallet along with support for revocation in the AATH Issuer Interface.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-26 21:21:15 +0000 UTC
+        Created At 2022-06-02 23:18:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/58" class=".btn">#58</a>
+            </td>
+            <td>
+                <b>
+                    Fix/connection in ci
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-27 21:45:49 +0000 UTC
     </div>
 </div>
 

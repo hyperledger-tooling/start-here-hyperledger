@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/29" class=".btn">#29</a>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/31" class=".btn">#31</a>
             </td>
             <td>
                 <b>
-                    Update package.json version (for testing releases)
+                    Only ack messages if handler promise is successful
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
                 
             </td>
             <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+                This reverts #30 in favor of a less breaking change.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-02 17:19:21 +0000 UTC
+        Created At 2022-05-31 19:37:04 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/28" class=".btn">#28</a>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/30" class=".btn">#30</a>
             </td>
             <td>
                 <b>
-                    Add eberger727 as a code owner
+                    Allow application to send ack
                 </b>
             </td>
         </tr>
@@ -53,12 +53,12 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
                 
             </td>
             <td>
-                @eberger727 is listed as a maintainer already, but somehow missed getting added to CODEOWNERS so he can review PRs.
+                Signed-off-by: Gabriel Indik <gabriel.indik@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-02 14:32:07 +0000 UTC
+        Created At 2022-05-31 18:51:44 +0000 UTC
     </div>
 </div>
 
