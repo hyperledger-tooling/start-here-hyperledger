@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/19" class=".btn">#19</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/20" class=".btn">#20</a>
             </td>
             <td>
                 <b>
-                    Bump the versions of the dependencies and Hyperledger Fabric
+                    Bump versions of the dependencies
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
                 
             </td>
             <td>
-                This PR updates the dependencies and Hyperledger Fabric used in the integration tests.
+                This patch updates the dependent libraries to the latest version.
+
+Signed-off-by: Taku Shimosawa <taku.shimosawa.uf@hitachi.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-11 04:23:50 +0000 UTC
+        Created At 2022-06-03 06:03:32 +0000 UTC
     </div>
 </div>
 
