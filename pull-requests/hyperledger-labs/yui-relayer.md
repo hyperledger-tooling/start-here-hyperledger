@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/62" class=".btn">#62</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/63" class=".btn">#63</a>
             </td>
             <td>
                 <b>
-                    build(deps): bump ejs from 3.1.6 to 3.1.8 in /tests/chains/ethereum/contract
+                    build(deps): bump protobufjs from 6.11.2 to 6.11.3 in /tests/chains/ethereum/contract
                 </b>
             </td>
         </tr>
@@ -27,37 +27,49 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [ejs](https://github.com/mde/ejs) from 3.1.6 to 3.1.8.
+                Bumps [protobufjs](https://github.com/protobufjs/protobuf.js) from 6.11.2 to 6.11.3.
 <details>
 <summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/mde/ejs/releases">ejs's releases</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/protobufjs/protobuf.js/releases">protobufjs's releases</a>.</em></p>
 <blockquote>
-<h2>v3.1.8</h2>
-<p>Version 3.1.8</p>
-<h2>v3.1.7</h2>
-<p>Version 3.1.7</p>
+<h2>v6.11.3</h2>
+<h3><a href="https://github.com/protobufjs/protobuf.js/compare/v6.11.2...v6.11.3">6.11.3</a> (2022-05-20)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li><strong>deps:</strong> use eslint 8.x (<a href="https://github-redirect.dependabot.com/protobufjs/protobuf.js/issues/1728">#1728</a>) (<a href="https://github.com/protobufjs/protobuf.js/commit/a8681ceab4763e706a848121a2dde56791b89eea">a8681ce</a>)</li>
+<li>do not let setProperty change the prototype (<a href="https://github-redirect.dependabot.com/protobufjs/protobuf.js/issues/1731">#1731</a>) (<a href="https://github.com/protobufjs/protobuf.js/commit/b5f1391dff5515894830a6570e6d73f5511b2e8f">b5f1391</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/protobufjs/protobuf.js/blob/v6.11.3/CHANGELOG.md">protobufjs's changelog</a>.</em></p>
+<blockquote>
+<h3><a href="https://github.com/protobufjs/protobuf.js/compare/v6.11.2...v6.11.3">6.11.3</a> (2022-05-20)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li><strong>deps:</strong> use eslint 8.x (<a href="https://github-redirect.dependabot.com/protobufjs/protobuf.js/issues/1728">#1728</a>) (<a href="https://github.com/protobufjs/protobuf.js/commit/a8681ceab4763e706a848121a2dde56791b89eea">a8681ce</a>)</li>
+<li>do not let setProperty change the prototype (<a href="https://github-redirect.dependabot.com/protobufjs/protobuf.js/issues/1731">#1731</a>) (<a href="https://github.com/protobufjs/protobuf.js/commit/b5f1391dff5515894830a6570e6d73f5511b2e8f">b5f1391</a>)</li>
+</ul>
 </blockquote>
 </details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/mde/ejs/commit/5126ff57aafbbd732ae00dd268d89cba85a5b71a"><code>5126ff5</code></a> Version 3.1.8</li>
-<li><a href="https://github.com/mde/ejs/commit/7d5a1c6a2191d34f92b1e60847bf87fc4fcc0e0d"><code>7d5a1c6</code></a> Merge branch 'main' of github.com:mde/ejs into main</li>
-<li><a href="https://github.com/mde/ejs/commit/551949d8618bd164a23f8ae36a752081ee1a760f"><code>551949d</code></a> Minor mitigation</li>
-<li><a href="https://github.com/mde/ejs/commit/66f7471d82ce93727397f3a03d0ae8fc503f2683"><code>66f7471</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/mde/ejs/issues/664">#664</a> from netcode/patch-1</li>
-<li><a href="https://github.com/mde/ejs/commit/820855ad75034e303be82c482c5eb8c6616da5c5"><code>820855a</code></a> Version 3.1.7</li>
-<li><a href="https://github.com/mde/ejs/commit/076dcb643c5aed2e10c2847639c98fd923b72854"><code>076dcb6</code></a> Don't use template literal</li>
-<li><a href="https://github.com/mde/ejs/commit/faf8b849a4e46db21fa813a08a7cbe00256a188a"><code>faf8b84</code></a> Skip test -- error message vary depending on JS runtime</li>
-<li><a href="https://github.com/mde/ejs/commit/c028c343c127859f7189c3feee1e5239c199fec9"><code>c028c34</code></a> Update packages</li>
-<li><a href="https://github.com/mde/ejs/commit/839ad20fd21a32c09463f9ab17f4e3e9ac470ee0"><code>839ad20</code></a> Update SECURITY.md</li>
-<li><a href="https://github.com/mde/ejs/commit/c0401802035d154daabe7156e666239102386c57"><code>c040180</code></a> Update README.md</li>
-<li>Additional commits viewable in <a href="https://github.com/mde/ejs/compare/v3.1.6...v3.1.8">compare view</a></li>
+<li><a href="https://github.com/protobufjs/protobuf.js/commit/b130dfd4f06b642d4b7c3ccc9f3f9fb6a6e6ed0d"><code>b130dfd</code></a> chore(6.x): release 6.11.3 (<a href="https://github-redirect.dependabot.com/protobufjs/protobuf.js/issues/1737">#1737</a>)</li>
+<li><a href="https://github.com/protobufjs/protobuf.js/commit/c2c17ae66810378fbad616964d80894794f1dad1"><code>c2c17ae</code></a> build: publish to main</li>
+<li><a href="https://github.com/protobufjs/protobuf.js/commit/b2c6a5c76eccd4bbe445d13e3a04b949f344dd63"><code>b2c6a5c</code></a> build: run tests if ci label added (<a href="https://github-redirect.dependabot.com/protobufjs/protobuf.js/issues/1734">#1734</a>)</li>
+<li><a href="https://github.com/protobufjs/protobuf.js/commit/a8681ceab4763e706a848121a2dde56791b89eea"><code>a8681ce</code></a> fix(deps): use eslint 8.x (<a href="https://github-redirect.dependabot.com/protobufjs/protobuf.js/issues/1728">#1728</a>)</li>
+<li><a href="https://github.com/protobufjs/protobuf.js/commit/b5f1391dff5515894830a6570e6d73f5511b2e8f"><code>b5f1391</code></a> fix: do not let setProperty change the prototype (<a href="https://github-redirect.dependabot.com/protobufjs/protobuf.js/issues/1731">#1731</a>)</li>
+<li><a href="https://github.com/protobufjs/protobuf.js/commit/7afd0a39f41d6df5fda6fa10c319cdf829027d3e"><code>7afd0a3</code></a> build: configure 6.x as default branch</li>
+<li><a href="https://github.com/protobufjs/protobuf.js/commit/37285d0cdc8b20acacd0227daa2e577921de46a7"><code>37285d0</code></a> build: configure backports</li>
+<li>See full diff in <a href="https://github.com/protobufjs/protobuf.js/compare/v6.11.2...v6.11.3">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=ejs&package-manager=npm_and_yarn&previous-version=3.1.6&new-version=3.1.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=protobufjs&package-manager=npm_and_yarn&previous-version=6.11.2&new-version=6.11.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -93,151 +105,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-17 01:39:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/61" class=".btn">#61</a>
-            </td>
-            <td>
-                <b>
-                    build(deps): bump simple-get from 2.8.1 to 2.8.2 in /tests/chains/ethereum/contract
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">javascript</span>
-            </td>
-            <td>
-                Bumps [simple-get](https://github.com/feross/simple-get) from 2.8.1 to 2.8.2.
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/feross/simple-get/commit/4e156b6bb19e11ccfad05fad310ea799d63f890d"><code>4e156b6</code></a> 2.8.2</li>
-<li><a href="https://github.com/feross/simple-get/commit/43c272db3e4b1383cb03d80338dba3e08c451641"><code>43c272d</code></a> Bug fix: Thirdparty cookie leak</li>
-<li>See full diff in <a href="https://github.com/feross/simple-get/compare/v2.8.1...v2.8.2">compare view</a></li>
-</ul>
-</details>
-<details>
-<summary>Maintainer changes</summary>
-<p>This version was pushed to npm by <a href="https://www.npmjs.com/~linusu">linusu</a>, a new releaser for simple-get since your current version.</p>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=simple-get&package-manager=npm_and_yarn&previous-version=2.8.1&new-version=2.8.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
-- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
-- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
-- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
-
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/yui-relayer/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-17 01:39:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/60" class=".btn">#60</a>
-            </td>
-            <td>
-                <b>
-                    build(deps): bump cross-fetch from 2.2.5 to 2.2.6 in /tests/chains/ethereum/contract
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">javascript</span>
-            </td>
-            <td>
-                Bumps [cross-fetch](https://github.com/lquixada/cross-fetch) from 2.2.5 to 2.2.6.
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/lquixada/cross-fetch/commit/bfe5fe2d9c64fe96e69e21f4d71c8260e4dca563"><code>bfe5fe2</code></a> 2.2.6</li>
-<li><a href="https://github.com/lquixada/cross-fetch/commit/1a89b6607ecbc14e3180426bdf4f0512dd990bec"><code>1a89b66</code></a> added caret range to whatwg-fetch.</li>
-<li><a href="https://github.com/lquixada/cross-fetch/commit/695a888532403e71d5ee9ba43e00c0aac4b9660d"><code>695a888</code></a> removed and disabled package-lock.json.</li>
-<li><a href="https://github.com/lquixada/cross-fetch/commit/eac6c00e9b24fec78475b15c2c3af44d1e454c31"><code>eac6c00</code></a> Update away from vulnerable version of node-fetch (<a href="https://github-redirect.dependabot.com/lquixada/cross-fetch/issues/135">#135</a>)</li>
-<li>See full diff in <a href="https://github.com/lquixada/cross-fetch/compare/v2.2.5...v2.2.6">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=cross-fetch&package-manager=npm_and_yarn&previous-version=2.2.5&new-version=2.2.6)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
-- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
-- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
-- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
-
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/yui-relayer/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-17 01:39:34 +0000 UTC
+        Created At 2022-06-03 00:07:19 +0000 UTC
     </div>
 </div>
 
