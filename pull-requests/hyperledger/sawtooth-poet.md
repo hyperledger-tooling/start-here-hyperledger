@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-poet
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-poet/pull/62" class=".btn">#62</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-poet/pull/63" class=".btn">#63</a>
             </td>
             <td>
                 <b>
-                    Add Hyperledger code of conduct
+                    Uncommit docs
                 </b>
             </td>
         </tr>
@@ -27,43 +27,15 @@ permalink: /pull-requests/hyperledger/sawtooth-poet
                 
             </td>
             <td>
-                Required as a part of the Hyperledger common repo structure
-
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-01-28 18:05:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-poet/pull/61" class=".btn">#61</a>
-            </td>
-            <td>
-                <b>
-                    Pin bandit version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The 1.7.2 release of Bandit drops support for python 3.6, which is the latest
-available for ubuntu bionic.
+                Sawtooth docs content has been moved into the sawtooth-docs repo at
+https://github.com/hyperledger/sawtooth-docs
 
 Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-26 21:12:53 +0000 UTC
+        Created At 2022-06-02 20:13:20 +0000 UTC
     </div>
 </div>
 

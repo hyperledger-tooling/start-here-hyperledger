@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3252" class=".btn">#3252</a>
+            </td>
+            <td>
+                <b>
+                    feat: Full EDV provider support for AND+OR multiple tag queries
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The EDV storage provider can now do full AND+OR tag querying. The SetStoreConfig method no longer calls the "add index" endpoint as it won't be added to the spec (indexing will be automatically by the EDV server).
+
+Also updated storage interface documentation for the Query method to accommodate the new functionality.
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-02 22:24:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3251" class=".btn">#3251</a>
+            </td>
+            <td>
+                <b>
+                    chore: add is did comm v2 method to service endpoint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-02 19:01:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3250" class=".btn">#3250</a>
             </td>
             <td>

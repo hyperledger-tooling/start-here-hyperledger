@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/833" class=".btn">#833</a>
+            </td>
+            <td>
+                <b>
+                    fix: clone record before emitting event
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Clone records before emitting them in events to avoid mutation later on. 
+
+Fixes #832 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-02 19:02:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/831" class=".btn">#831</a>
             </td>
             <td>
@@ -476,61 +504,6 @@ Fixes #807
     </table>
     <div class="right-align">
         Created At 2022-05-27 11:49:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/804" class=".btn">#804</a>
-            </td>
-            <td>
-                <b>
-                    docs: add ios ledger troubleshooting information
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                These docs address issues found with multiple ledgers in iOS release environments found in #647. The solutions present in the docs have been tested in Bifold [PR #336](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/336).
-
-
-Other contributors who assisted: @reflectivedevelopment, @TheTreek, @amanji
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-26 19:35:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/803" class=".btn">#803</a>
-            </td>
-            <td>
-                <b>
-                    fix(indy): async ledger connection issues on iOS
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Waiting on Author</span>
-            </td>
-            <td>
-                Change `connectToPools` function to sequentially connect to pools. Previously there were [issues on iOS](https://github.com/hyperledger/aries-framework-javascript/issues/647) because of too many open sockets on this function.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-26 19:25:29 +0000 UTC
     </div>
 </div>
 
