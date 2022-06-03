@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/438" class=".btn">#438</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/443" class=".btn">#443</a>
             </td>
             <td>
                 <b>
-                    Per-call and default gRPC options in Java client
+                    Clean up Node dependencies
                 </b>
             </td>
         </tr>
@@ -27,14 +27,13 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                New API for specifying default gRPC call options that allows the use of the gRPC API to specify all options rather than providing a complete set of corresponding calls in the Fabric Gateway client API. The old API for setting default timeouts is still available, reimplemented using the new API, but is marked as deprecated.
-
-Closes #289 
+                - Remove some unused dev dependencies
+- Update dependency versions
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-26 12:24:43 +0000 UTC
+        Created At 2022-06-03 09:28:45 +0000 UTC
     </div>
 </div>
 
@@ -42,11 +41,11 @@ Closes #289
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/437" class=".btn">#437</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/442" class=".btn">#442</a>
             </td>
             <td>
                 <b>
-                    Allow per-call gRPC call options to be specified in Go client
+                    Java changes for deserialization 
                 </b>
             </td>
         </tr>
@@ -55,70 +54,68 @@ Closes #289
                 
             </td>
             <td>
-                Contributes to #289
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-25 14:31:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/436" class=".btn">#436</a>
-            </td>
-            <td>
-                <b>
-                    Minor refactor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Change checkpointer.ts to checkpointer.d.ts since it contains only typings and no code. Avoid a spurious JavaScript module being generated and imported.
-- Remove redundant async modifier on Elliptic Curve signing function.
-- Change .eslintrc files from YAML to JavaScript to allow tsconfig directory to be correctly resolved. This removed the need for project subdirectories to be explicitly added to VS Code workspaces so they appear as a root directory in order to resolve the tsconfig correctly during linting.
-
-Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-24 11:21:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/435" class=".btn">#435</a>
-            </td>
-            <td>
-                <b>
-                    Persist Proposal, Transaction, Commit and Event Objects (Node JS)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Contributes to  #394 
+                Contributes to #394 
 
 Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-24 11:16:14 +0000 UTC
+        Created At 2022-06-01 11:20:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/441" class=".btn">#441</a>
+            </td>
+            <td>
+                <b>
+                    Go changes for deserialization of data
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
+
+Contributes to #394 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-31 10:20:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/440" class=".btn">#440</a>
+            </td>
+            <td>
+                <b>
+                    Update Go dependencies to address CVE-2022-28948
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-28 18:11:46 +0000 UTC
     </div>
 </div>
 

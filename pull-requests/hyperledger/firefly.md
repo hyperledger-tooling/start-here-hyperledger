@@ -14,38 +14,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/838" class=".btn">#838</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/851" class=".btn">#851</a>
             </td>
             <td>
                 <b>
-                    set message header type for broadcast/private
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-candidate</span>
-            </td>
-            <td>
-                FireFly now sets the message type for any broadcast or private messages
-sent via the API.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-27 18:12:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/837" class=".btn">#837</a>
-            </td>
-            <td>
-                <b>
-                    Use firefly-signer library and allow numbers expressed as strings
+                    Use API framework newly moved to cmomon with extension points
                 </b>
             </td>
         </tr>
@@ -54,14 +27,18 @@ sent via the API.
                 
             </td>
             <td>
-                This PR introduces `firefly-signer`'s ABI parsing functions and uses them in FireFly's ABI -> FFI generation code. It also replaces any existing ABI data structures that were originally copied over from Ethconnect, with those of `firefly-signer`.
+                In https://github.com/hyperledger/firefly-common/pull/16 the API framework was made general for re-use in other microservices.
 
-This PR also makes some enhancements to the ABI -> FFI generation code itself to allow numbers to be expressed in a JSON string or a JSON number. This is reflected in the generated OpenAPI Spec for custom contracts, including a description in the Swagger UI that describes this.
+Specifically [FFTM](https://github.com/hyperledger/firefly-transaction-manager), which needs REST APIs for subscriptions and event streams.
+
+The Swagger has changed a tiny bit in this:
+- Fixed a typo in a description
+- The formatting of the default `request-timeout` header is now `2m0s` rather than `120s`
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-27 17:48:56 +0000 UTC
+        Created At 2022-06-02 20:17:41 +0000 UTC
     </div>
 </div>
 
@@ -69,38 +46,11 @@ This PR also makes some enhancements to the ABI -> FFI generation code itself to
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/836" class=".btn">#836</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/850" class=".btn">#850</a>
             </td>
             <td>
                 <b>
-                    default fabconnect calls to async
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-candidate</span>
-            </td>
-            <td>
-                The fabconnect default for `/transactions` is synchronous. The fabric plugin currently expects async responses, so adding the `x-firefly-sync` header.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-27 17:27:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/835" class=".btn">#835</a>
-            </td>
-            <td>
-                <b>
-                    Update README with missing links, and bit of a restructure
+                    Remove unneeded BatchManager references
                 </b>
             </td>
         </tr>
@@ -109,12 +59,12 @@ This PR also makes some enhancements to the ABI -> FFI generation code itself to
                 
             </td>
             <td>
-                I found a few links were missing, and given how many repos we've grown to I proposed a bit of organization too.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-25 03:18:40 +0000 UTC
+        Created At 2022-06-02 18:55:16 +0000 UTC
     </div>
 </div>
 
@@ -122,11 +72,11 @@ This PR also makes some enhancements to the ABI -> FFI generation code itself to
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/834" class=".btn">#834</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/849" class=".btn">#849</a>
             </td>
             <td>
                 <b>
-                    Backport docs generation and versioning code for 1.0 stream
+                    Enhancements to migration/network version behavior
                 </b>
             </td>
         </tr>
@@ -135,20 +85,14 @@ This PR also makes some enhancements to the ABI -> FFI generation code itself to
                 
             </td>
             <td>
-                This PR backports several things into the 1.0 release stream for generating new docs pages going forward:
+                Network version is loaded during blockchain plugin init, instead of lazily. This is (soon) going to be needed at manager initialization time, so might as well load it once upfront.
 
-- Structural changes to the docs site, including embedding the theme
-- The new GitHub action which builds and publishes docs versions
-- The new docs internationalization support
-- The new Go code to generate reference docs pages
-- All the description includes for reference types
-
-There is no new code in this PR. Just porting over existing code from `main` onto the `release-1.0` branch.
+Since we currently have a single blockchain plugin that services all namespaces, any termination/migration event is recorded against ALL namespaces (rather than arbitrarily recording it against ff_system only).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-24 17:04:07 +0000 UTC
+        Created At 2022-06-02 17:36:26 +0000 UTC
     </div>
 </div>
 
@@ -156,49 +100,11 @@ There is no new code in this PR. Just porting over existing code from `main` ont
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/833" class=".btn">#833</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/845" class=".btn">#845</a>
             </td>
             <td>
                 <b>
-                    Namespace config validation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adding additional configuration validation to the namespace manager, as specified in [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12)
-
-
-* `name` must be unique on this node
- * for historical reasons, "ff_system" is a reserved string and cannot be used as a `name` or `remoteName`
- * a `database` plugin is required for every namespace
- * if `mode: multiparty` is specified, plugins _must_ include one each of `blockchain`,
-  `dataexchange`, and `sharedstorage`
- * if `mode: gateway` is speicified, plugins _must not_ include `dataexchange` or `sharedstorage`
- * at most one of each type of plugin is allowed per namespace, except for tokens (which
-  may have many per namespace)
-
-depends on changes in https://github.com/hyperledger/firefly-common/pull/14
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-24 15:42:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/832" class=".btn">#832</a>
-            </td>
-            <td>
-                <b>
-                    Fix relative links in reference descriptions docs
+                    Update dependency versions
                 </b>
             </td>
         </tr>
@@ -212,7 +118,7 @@ depends on changes in https://github.com/hyperledger/firefly-common/pull/14
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-24 15:26:00 +0000 UTC
+        Created At 2022-05-31 17:43:18 +0000 UTC
     </div>
 </div>
 
@@ -220,11 +126,11 @@ depends on changes in https://github.com/hyperledger/firefly-common/pull/14
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/831" class=".btn">#831</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/844" class=".btn">#844</a>
             </td>
             <td>
                 <b>
-                    Fix link to events reference
+                    Allow extra options to pass through to blockchain connectors
                 </b>
             </td>
         </tr>
@@ -233,12 +139,30 @@ depends on changes in https://github.com/hyperledger/firefly-common/pull/14
                 
             </td>
             <td>
-                Signed-off-by: Peter Broadhurst <peter.broadhurst@kaleido.io>
+                This PR adds the ability to pass additional options through to blockchain connectors. This is useful for controlling other parameters when submitting a blockchain transaction besides the specific arguments that a smart contract function takes. For example, this can now be used to set a custom gas price
+
+<img width="2537" alt="Screen Shot 2022-05-31 at 11 39 25 AM" src="https://user-images.githubusercontent.com/2530008/171214094-4fb58412-eb32-4748-a223-5bd37d007be6.png">
+
+Anywhere that a smart contract can be invoked or queried a new `options` JSON object (treated as a `map[string]interface{}` in Go) can be optionally specified. Any fields in this structure will be included in the request to the blockchain connector.
+
+Overriding existing fields in the request is **not** allowed. For example, if using Ethconnect, the following request body would be rejected because `headers` is a field that FireFly itself needs to set:
+
+```json
+{
+  "input": {
+    "newValue": "x"
+  },
+  "options": {
+    "headers": "not allowed"
+  }
+}
+```
+This would result in an HTTP 400 with an error message indicating which option was not allowed.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-23 21:04:05 +0000 UTC
+        Created At 2022-05-31 15:46:41 +0000 UTC
     </div>
 </div>
 
@@ -246,11 +170,11 @@ depends on changes in https://github.com/hyperledger/firefly-common/pull/14
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/830" class=".btn">#830</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/843" class=".btn">#843</a>
             </td>
             <td>
                 <b>
-                    Add version support to docs site
+                    Verify namespace for all broadcast/private message requests
                 </b>
             </td>
         </tr>
@@ -259,26 +183,12 @@ depends on changes in https://github.com/hyperledger/firefly-common/pull/14
                 
             </td>
             <td>
-                This PR adds significant new functionality to the docs GitHub action to manage versions of the docs site. This will create a directory tree that ends up looking like this:
-
-```
-+ / (latest release)
-|-- v1.0.0
-|-- v1.0.1
-|-- ...
-|-- head (current commit in main)
-```
-
-It will also build a JSON file that contains the full list of all these versions to build the dropdown menu that shows up in the docs rendered pages (with the addition of a `latest` link that links to `/`).
-
-These changes allow us to always keep the docs up to date with the code in the same commit, but users navigating to the docs site will see the latest release by default. They can also use the dropdown menu to browse older release as well.
-
-> **NOTE** There will be a one time manual action necessary to generate docs for older versions. I can take care of this after this PR is approved and merged.
+                Fixes #817
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-23 20:06:16 +0000 UTC
+        Created At 2022-05-31 14:45:58 +0000 UTC
     </div>
 </div>
 
@@ -286,11 +196,11 @@ These changes allow us to always keep the docs up to date with the code in the s
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/829" class=".btn">#829</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/842" class=".btn">#842</a>
             </td>
             <td>
                 <b>
-                    Possible to see clash on port 6000 for metrics server
+                    Move /admin/api to /spi and PUT->PATCH
                 </b>
             </td>
         </tr>
@@ -299,18 +209,87 @@ These changes allow us to always keep the docs up to date with the code in the s
                 
             </td>
             <td>
-                Saw a build failure in https://github.com/hyperledger/firefly/runs/6530517574?check_suite_focus=true
+                > Leaving this as a draft until the updates to FFTM are complete, because otherwise early adopters trying out the feature will not have a functioning combination.
 
-```
-Error: FF00151: Unable to start listener on 127.0.0.1:6000: %!s(MISSING): listen tcp 127.0.0.1:6000: bind: address already in use
-```
+- [x] Rename the `/admin/api/v1` API to `/spi/v1`
+- [x] `PUT`s change to `PATCH`s, because there are race conditions between delete/update that mean PUT semantics wouldn't be safe without optimistic concurrency locking
+- [x] Make sure all APIs FFTM needs to function are on this API, so it doesn't need to use two
+  - [x] `GET` `/spi/v1/operations`
+  - [x] `GET` `/spi/v1/operations/{ns}/{opid}`
+  - [x] `PATCH` `/spi/v1/operations/{ns}/{opid}`
+  - [x] `GET` `/spi/v1/namespaces`
+  - [x] `GET` `/spi/v1/namespaces/{ns}`
+- [x]  Continue to allow FFTM to use cross-namespace calls on the internal API
+- [x] Add namespaces to the API that FFTM has
 
-We have config to get a dynamically assigned port for these tests for `debug` and `http`, but not for `metrics`
+> Previously we discussed additional changes, to allow event listeners hosted in FFTM to be stateless - and avoid the
+> need to have a REST API + LevelDB in FFTM to manage listeners/checkpoints. This worked out to be too complex
+> to change right now. Specifically because:
+> 1. BatchPin is not tracked as a listener
+> 2. Token connectors use the APIs of EthConnect today to directly create event streams
+
+Note thread in discord: https://discord.com/channels/905194001349627914/979733575496790086
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-23 13:04:41 +0000 UTC
+        Created At 2022-05-27 23:24:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/841" class=".btn">#841</a>
+            </td>
+            <td>
+                <b>
+                    fabconnect async calls + setting broadcast/private message header types
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport-candidate</span><span class="chip">backport-complete</span>
+            </td>
+            <td>
+                This PR adds two changes included in future release `1.0.2` into upstream firefly.
+
+https://github.com/hyperledger/firefly/pull/838
+https://github.com/hyperledger/firefly/pull/836
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-27 20:48:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/839" class=".btn">#839</a>
+            </td>
+            <td>
+                <b>
+                    Disable external link checking when building docs, due to unreliable external servers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-05-27 18:23:58 +0000 UTC
     </div>
 </div>
 

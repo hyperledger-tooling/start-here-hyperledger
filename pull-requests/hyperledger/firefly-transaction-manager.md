@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/6" class=".btn">#6</a>
+                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/7" class=".btn">#7</a>
             </td>
             <td>
                 <b>
-                    Move ffcapi to firefly-common, and build config docs
+                    Refactor FFCAPI to a local API interace, and FFTM to a utility package
                 </b>
             </td>
         </tr>
@@ -27,21 +27,20 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
                 
             </td>
             <td>
-                - Moves over all dependences to `firefly-common` that are now there
-- Deletes `ffcapi` now that is has moved
-- Uses new `core` package for object definitions still in FireFly Core
-- Moves the config prefix to `FF21` to give an extra digit (1000 rather than 100 total error msgs)
-- Adds `config.md` auto-generation and link from `README.md`
+                This is quite a big change.
 
-Depends on (go.mod pulls these in directly):
-- https://github.com/hyperledger/firefly-common/pull/4
-- https://github.com/hyperledger/firefly/pull/791
-
+- Removes the Docker build from this package - this means the existing builds will stay for those using them
+- Reinstates the FFCAPI definition here, which was recently moved to FF common, and now removed in https://github.com/hyperledger/firefly-common/pull/15
+- Refactors the FFCAPI to be a local interface, rather than remote
+   - This is because it's just too complex to having the potential of state mismatch in event state between the FFCAPI and the FFTM, and build a clean interface
+ - Removes the `fftm` and `cmd` directories
+ - Moves the `internal/manager` to be `pkg/fftm` for use by FFCAPI connectors
+   - They will inject their implementation into the `fftm.Manager` to start their server
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-05 01:33:19 +0000 UTC
+        Created At 2022-06-02 02:56:14 +0000 UTC
     </div>
 </div>
 

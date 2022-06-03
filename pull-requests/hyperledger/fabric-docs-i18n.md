@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/711" class=".btn">#711</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/714" class=".btn">#714</a>
             </td>
             <td>
                 <b>
-                    [it_IT] Translate Introduction > Performance and Scalability
+                    ordering service diagrams
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Ksenia Tagirova <tagirovaksenia@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-26 07:06:08 +0000 UTC
+        Created At 2022-06-03 12:33:54 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/710" class=".btn">#710</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/713" class=".btn">#713</a>
             </td>
             <td>
                 <b>
-                    [it_IT] Translate CONTRIBUTING: What makes a good pull request? (partial)
+                    RU ordering_service.md
                 </b>
             </td>
         </tr>
@@ -53,12 +53,12 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Ksenia Tagirova <tagirovaksenia@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-25 17:56:19 +0000 UTC
+        Created At 2022-06-03 12:13:27 +0000 UTC
     </div>
 </div>
 
@@ -66,29 +66,25 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/709" class=".btn">#709</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/712" class=".btn">#712</a>
             </td>
             <td>
                 <b>
-                    [ja_JP] Translate "ordererdeploy.md" into Japanese
+                    RU whatis.md
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">jaJP-docs-ongoing</span>
+                
             </td>
             <td>
-                This patch translates deployorderer/ordererdeploy.md into Japanese.
-
-Resolves #602
-
-Signed-off-by: Satomi Tsujita <satomi.t.sora@gmail.com>
+                Signed-off-by: Ksenia Tagirova <tagirovaksenia@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-22 21:29:46 +0000 UTC
+        Created At 2022-06-03 12:04:27 +0000 UTC
     </div>
 </div>
 

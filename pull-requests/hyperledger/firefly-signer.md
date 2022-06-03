@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-signer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-signer/pull/5" class=".btn">#5</a>
+                PR <a href="https://github.com/hyperledger/firefly-signer/pull/7" class=".btn">#7</a>
             </td>
             <td>
                 <b>
-                    Update common, and defer parsing of from address
+                    Fix aes-128-ctr cipher name
                 </b>
             </td>
         </tr>
@@ -27,16 +27,38 @@ permalink: /pull-requests/hyperledger/firefly-signer
                 
             </td>
             <td>
-                The `Transaction` definition in the `ethsigner` package is very useful, but it is currently opinionated that the `from` field must be an ethereum address, which in some situations in other packages might not be true.
-
-So this changes the field to be a `json.RawMessage` to defer parsing, and now only code that explicitly needs that value to be an address performs the parsing.
-
-This PR also updates the dependencies - including migrating the config to the new `Section` (vs `Prefix`) terminology in `firefly-common`.
+                The commit message was bigger than the diff. But an important fix, nonetheless. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-24 14:55:26 +0000 UTC
+        Created At 2022-06-02 20:00:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-signer/pull/6" class=".btn">#6</a>
+            </td>
+            <td>
+                <b>
+                    Add JSON function to WalletFile for serialization
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds an exposed `JSON()` function to the `WalletFile` interface so that code using `keystorev3` as a package can serialize wallet files and write them to disk. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-01 19:58:12 +0000 UTC
     </div>
 </div>
 

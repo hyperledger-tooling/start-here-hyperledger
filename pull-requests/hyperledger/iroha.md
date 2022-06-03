@@ -44,6 +44,7 @@ permalink: /pull-requests/hyperledger/iroha
 
 I've found that often times I need to traverse the type and produce conversions from source to FFI compliant type and vice versa.
 There have been a lot of code duplication and convoluted logic which this PR aims to resolve
+Added `catch_unwind` to prevent UB when panicking over FFI
 
 ### Issue
 
@@ -183,7 +184,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             </td>
             <td>
                 <b>
-                    [test] #2081: Grant and find roles
+                    [fix] #2081: Fix the test case to grant the role
                 </b>
             </td>
         </tr>
@@ -199,12 +200,11 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
 - Closes #2081
 
 ### Benefits
+- Prevent regressions in the future
 - Show a minimum example of how to grant roles
-- May prevent regressions in the future
 
 ### Possible Drawbacks
 None
-
             </td>
         </tr>
     </table>
@@ -1135,51 +1135,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2022-05-27 20:57:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2281" class=".btn">#2281</a>
-            </td>
-            <td>
-                <b>
-                    [refactor]: Refactor around `QueryError`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">Refactor</span>
-            </td>
-            <td>
-                ### Description of the Change
-- [refactor]
-    - d9e4712f3ce44bf6f3b62861e8a30e607e21c306 Remove unused `query::Error` variants
-    - 3554726991d421c6800e93a7a7428aac4c9f9308 Remove recovery from useless `Rejection`
-    - 1f1028045b91b27bcd07aafb295e241624a47742 Un-implement unused `Clone`
-    - 770168c69a4f6215f73f258d06ade747830f12ae Replace `#[source]` in a single field with `#[from]`
-- minor [test]
-    - 30f262e2aa669a6b127d5e203ab437a0f55896ee Add to `torii::tests`
-- minor [fix]
-    - ab382ddbbf1e112ec5484ba0721133e7fbbec7f0 Resolve apparent mismatch between `VersionedPaginatedQueryResult` and `VersionedQueryResult`
-- minor [documentation]
-    - ab492d748334d7caeb2d15bdb8f505856524f2fb Fix description for `Status` response
-### Issue
-None
-
-### Benefits
-Trimmed code
-
-### Possible Drawbacks
-None
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-27 17:57:23 +0000 UTC
     </div>
 </div>
 

@@ -29,6 +29,10 @@ permalink: /pull-requests/hyperledger/fabric-ca
             <td>
                 Bump Go to 1.18.2.
 
+Update FVT tests to use sha256 since Go 1.18 does not accept certs signed with sha1.
+
+Build gendoc utility from a commit of Fabric main branch that supports Go 1.18. gendoc is used in 'make docs' for metrics doc generation. This change also updates the metrics doc to use the latest formatting from Fabric.
+
 Signed-off-by: David Enyeart <enyeart@us.ibm.com>
 
             </td>

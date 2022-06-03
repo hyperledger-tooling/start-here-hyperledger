@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
             </td>
             <td>
                 <b>
-                    fix(oob): expose parseinvitation publicly
+                    fix(oob): expose parseInvitation publicly
                 </b>
             </td>
         </tr>
@@ -117,7 +117,7 @@ We can look at a builder, but not sure what that would look like exactly?
             </td>
             <td>
                 <b>
-                    WIP: feat: wip add validation to JSON transformer
+                    feat: add validation to JSON transformer
                 </b>
             </td>
         </tr>
@@ -476,34 +476,6 @@ The reason for this PR is that is very weird for a public API to accept a class 
     </table>
     <div class="right-align">
         Created At 2022-05-30 11:11:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/808" class=".btn">#808</a>
-            </td>
-            <td>
-                <b>
-                    fix(routing): also use pickup strategy from config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-
-Fixes #807 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-27 14:11:46 +0000 UTC
     </div>
 </div>
 
