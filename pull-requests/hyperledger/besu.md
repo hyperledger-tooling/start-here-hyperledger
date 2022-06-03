@@ -14,11 +14,55 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3935" class=".btn">#3935</a>
+            </td>
+            <td>
+                <b>
+                    Added exception message details to error message, when read db fails
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                See ##3526
+Signed-off-by: Sharad Gulati sharad.develop@gmail.com
+
+Signed-off-by: Sharad Gulati <sharad.develop@gmail.com>
+
+## PR description
+Better error reporting when unable to write to path. Added exception message details to error message, when read db fails
+
+## Fixed Issue(s)
+fixes #3526 
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-03 03:08:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3934" class=".btn">#3934</a>
             </td>
             <td>
                 <b>
-                    besu-dockerhub-ro context not used
+                    Remove besu-dockerhub-ro context - not used
                 </b>
             </td>
         </tr>
@@ -389,32 +433,6 @@ Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
     </table>
     <div class="right-align">
         Created At 2022-05-27 17:43:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3908" class=".btn">#3908</a>
-            </td>
-            <td>
-                <b>
-                    Added unit test for EthGetTransactionByHash
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-27 04:50:29 +0000 UTC
     </div>
 </div>
 
