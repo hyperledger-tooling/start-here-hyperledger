@@ -965,7 +965,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">help wanted</span><span class="chip">iroha2</span>
             </td>
             <td>
                 
