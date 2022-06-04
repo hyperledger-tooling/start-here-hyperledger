@@ -15,23 +15,20 @@ permalink: /releases/hyperledger/indy-plenum
         <tr>
             <td colspan="2">
                 <b>
-                    v1.13.1-rc1
+                    v1.13.1-rc2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.13.1-rc1
+                    v1.13.1-rc2
                 </span>
             </td>
             <td>
-                [v1.13.1-rc1] 
+                [v1.13.1-rc2] 
 
 ## What's Changed
-* Check test suit preparation exit code by @dsurnin in https://github.com/hyperledger/indy-plenum/pull/547
-* [INDY-1019] sdk integration by @ArtObr in https://github.com/hyperledger/indy-plenum/pull/525
-* reset last_ordered_3PC for future views during view change. by @anikitinDSR in https://github.com/hyperledger/indy-plenum/pull/548
 * fix KeyError for "services" when pool ledger contains node update txns by @lovesh in https://github.com/hyperledger/indy-plenum/pull/549
 * INDY-1112: change primeries election procedure for backup instances. by @sergey-shilov in https://github.com/hyperledger/indy-plenum/pull/539
 * INDY-1113: Node disconnection, view change tests by @spivachuk in https://github.com/hyperledger/indy-plenum/pull/551
@@ -854,6 +851,8 @@ permalink: /releases/hyperledger/indy-plenum
 * [v1.13.1rc0] - Update Version Number for Release by @sovbot in https://github.com/hyperledger/indy-plenum/pull/1599
 * fixed GHA variable format errors by @pSchlarb in https://github.com/hyperledger/indy-plenum/pull/1600
 * [v1.13.1-rc1] - Update Version Number for Release by @sovbot in https://github.com/hyperledger/indy-plenum/pull/1601
+* Fix missing component in publish release workflow. by @WadeBarnes in https://github.com/hyperledger/indy-plenum/pull/1602
+* [v1.13.1-rc2] - Update Version Number for Release by @sovbot in https://github.com/hyperledger/indy-plenum/pull/1603
 
 ## New Contributors
 * @vimmerru made their first contribution in https://github.com/hyperledger/indy-plenum/pull/639
@@ -872,15 +871,15 @@ permalink: /releases/hyperledger/indy-plenum
 * @devinleighsmith made their first contribution in https://github.com/hyperledger/indy-plenum/pull/1528
 * @pSchlarb made their first contribution in https://github.com/hyperledger/indy-plenum/pull/1580
 
-**Full Changelog**: https://github.com/hyperledger/indy-plenum/commits/v1.13.1-rc1
+**Full Changelog**: https://github.com/hyperledger/indy-plenum/commits/v1.13.1-rc2
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/indy-plenum/releases/tag/v1.13.1-rc1" class=".btn">
+    <a href="https://github.com/hyperledger/indy-plenum/releases/tag/v1.13.1-rc2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-06-03 17:24:49 +0000 UTC
+        Created At 2022-06-04 11:39:18 +0000 UTC
     </span>
 </div>
 
