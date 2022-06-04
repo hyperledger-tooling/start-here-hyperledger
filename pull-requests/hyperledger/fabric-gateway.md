@@ -93,29 +93,3 @@ Contributes to #394
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/440" class=".btn">#440</a>
-            </td>
-            <td>
-                <b>
-                    Update Go dependencies to address CVE-2022-28948
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-28 18:11:46 +0000 UTC
-    </div>
-</div>
-
