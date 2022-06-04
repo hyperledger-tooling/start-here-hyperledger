@@ -14,6 +14,93 @@ permalink: /pull-requests/hyperledger/fabric-test
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/391" class=".btn">#391</a>
+            </td>
+            <td>
+                <b>
+                    Fix branches for hsm docker images
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix branches for hsm docker images to use release-2.4.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-03 20:23:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/390" class=".btn">#390</a>
+            </td>
+            <td>
+                <b>
+                    Turn off test-release pipeline for release-2.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Turn off test-release pipeline for release-2.0
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-03 20:18:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/389" class=".btn">#389</a>
+            </td>
+            <td>
+                <b>
+                    Run interop and daily pipelines on supported releases
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Only run interop and daily pipelines on:
+        - main
+        - release-2.4
+        - release-2.2
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-03 20:13:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-test/pull/388" class=".btn">#388</a>
             </td>
             <td>

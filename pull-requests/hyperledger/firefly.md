@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/852" class=".btn">#852</a>
+            </td>
+            <td>
+                <b>
+                    Fix github.ref in prereleased action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-03 19:06:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/851" class=".btn">#851</a>
             </td>
             <td>
@@ -189,107 +215,6 @@ This would result in an HTTP 400 with an error message indicating which option w
     </table>
     <div class="right-align">
         Created At 2022-05-31 14:45:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/842" class=".btn">#842</a>
-            </td>
-            <td>
-                <b>
-                    Move /admin/api to /spi and PUT->PATCH
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                > Leaving this as a draft until the updates to FFTM are complete, because otherwise early adopters trying out the feature will not have a functioning combination.
-
-- [x] Rename the `/admin/api/v1` API to `/spi/v1`
-- [x] `PUT`s change to `PATCH`s, because there are race conditions between delete/update that mean PUT semantics wouldn't be safe without optimistic concurrency locking
-- [x] Make sure all APIs FFTM needs to function are on this API, so it doesn't need to use two
-  - [x] `GET` `/spi/v1/operations`
-  - [x] `GET` `/spi/v1/operations/{ns}/{opid}`
-  - [x] `PATCH` `/spi/v1/operations/{ns}/{opid}`
-  - [x] `GET` `/spi/v1/namespaces`
-  - [x] `GET` `/spi/v1/namespaces/{ns}`
-- [x]  Continue to allow FFTM to use cross-namespace calls on the internal API
-- [x] Add namespaces to the API that FFTM has
-
-> Previously we discussed additional changes, to allow event listeners hosted in FFTM to be stateless - and avoid the
-> need to have a REST API + LevelDB in FFTM to manage listeners/checkpoints. This worked out to be too complex
-> to change right now. Specifically because:
-> 1. BatchPin is not tracked as a listener
-> 2. Token connectors use the APIs of EthConnect today to directly create event streams
-
-Note thread in discord: https://discord.com/channels/905194001349627914/979733575496790086
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-27 23:24:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/841" class=".btn">#841</a>
-            </td>
-            <td>
-                <b>
-                    fabconnect async calls + setting broadcast/private message header types
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-candidate</span><span class="chip">backport-complete</span>
-            </td>
-            <td>
-                This PR adds two changes included in future release `1.0.2` into upstream firefly.
-
-https://github.com/hyperledger/firefly/pull/838
-https://github.com/hyperledger/firefly/pull/836
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-27 20:48:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/839" class=".btn">#839</a>
-            </td>
-            <td>
-                <b>
-                    Disable external link checking when building docs, due to unreliable external servers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-27 18:23:58 +0000 UTC
     </div>
 </div>
 
