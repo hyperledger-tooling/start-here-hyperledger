@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabex
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabex/pull/111" class=".btn">#111</a>
+                PR <a href="https://github.com/hyperledger-labs/fabex/pull/112" class=".btn">#112</a>
             </td>
             <td>
                 <b>
-                    Refactoring merge (#2)
+                    Rm Cassandra storage and up Mongo lib ver
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabex
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-16 14:52:59 +0000 UTC
+        Created At 2022-06-05 08:16:06 +0000 UTC
     </div>
 </div>
 
