@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/354" class=".btn">#354</a>
+            </td>
+            <td>
+                <b>
+                    Backport 0-4: Fix SQL State Pruning
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backport of #352 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-06 15:48:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/353" class=".btn">#353</a>
             </td>
             <td>

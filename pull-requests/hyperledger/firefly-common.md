@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/17" class=".btn">#17</a>
+            </td>
+            <td>
+                <b>
+                    Add PATCH to swagger
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                We were missing `PATCH` operations from swagger generation
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-06 16:01:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-common/pull/16" class=".btn">#16</a>
             </td>
             <td>

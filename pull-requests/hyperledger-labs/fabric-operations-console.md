@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/226" class=".btn">#226</a>
+            </td>
+            <td>
+                <b>
+                    check that admin cert is from one of the root CAs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
+
+#### Type of change
+- Bug fix
+
+#### Description
+If you upload an admin cert into MSP that did not come from one of the root CAs, when the cert gets uploaded to the peer, the peer will crash. Ensure that the admin certs are from one of the root (or intermediate) CAs
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-06 14:07:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/225" class=".btn">#225</a>
             </td>
             <td>

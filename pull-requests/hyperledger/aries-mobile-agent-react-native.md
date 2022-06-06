@@ -14,6 +14,83 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/351" class=".btn">#351</a>
+            </td>
+            <td>
+                <b>
+                    Bump follow-redirects from 1.14.7 to 1.15.1 in /core
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span>
+            </td>
+            <td>
+                Bumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.14.7 to 1.15.1.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/62a551cbf7d4d3917c532d0b87ca77ef983f44c1"><code>62a551c</code></a> Release version 1.15.1 of the npm package.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/7fe0779c23b80ed7417517075e9239bfc220e528"><code>7fe0779</code></a> Use for ... of.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/948c30c18b4495663cb8e9c39f83fafd369a089e"><code>948c30c</code></a> Fix redirecting to relative URL when using proxy</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/22e81fc37132941fb83939d1dc4c2282b5c69521"><code>22e81fc</code></a> Release version 1.15.0 of the npm package.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/96a3947f52a027f71819a7a05771f00a007dafc1"><code>96a3947</code></a> Add headers to request details</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/24dcb20d123140c5370c603b87792f0e8a77d924"><code>24dcb20</code></a> Pass status &amp; request details to beforeRedirect (<a href="https://github-redirect.dependabot.com/follow-redirects/follow-redirects/issues/198">#198</a>)</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/7abae9bc4769afc41c24e024b22cc54b02dde448"><code>7abae9b</code></a> Test on Node 18.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/79d0d8d440c2747deb380399572d0f68b43e5b51"><code>79d0d8d</code></a> refactor: replace deprecated String.prototype.substr() (<a href="https://github-redirect.dependabot.com/follow-redirects/follow-redirects/issues/196">#196</a>)</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/13136e95bbe23cabbeaeb74bd0c933aa98dd9b96"><code>13136e9</code></a> Release version 1.14.9 of the npm package.</li>
+<li><a href="https://github.com/follow-redirects/follow-redirects/commit/2ec9b0ba850b932e82cf7fdc835e5136d0d0c8ad"><code>2ec9b0b</code></a> Keep headers when upgrading from HTTP to HTTPS.</li>
+<li>Additional commits viewable in <a href="https://github.com/follow-redirects/follow-redirects/compare/v1.14.7...v1.15.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=follow-redirects&package-manager=npm_and_yarn&previous-version=1.14.7&new-version=1.15.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-mobile-agent-react-native/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-06 16:50:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/350" class=".btn">#350</a>
             </td>
             <td>

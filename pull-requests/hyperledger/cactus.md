@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2068" class=".btn">#2068</a>
+            </td>
+            <td>
+                <b>
+                    Migitate : Cross site scripting attack (XSS)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Unsanitized input from exception flows into `res.send`, where it is used to render an HTML page returned to the user. This may result in a Cross-Site Scripting attack (XSS).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-06 12:51:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/2066" class=".btn">#2066</a>
             </td>
             <td>
