@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/835" class=".btn">#835</a>
+            </td>
+            <td>
+                <b>
+                    fix: support pre-aip2 please ack decorator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The update to the please ack decorator broke for pre-aip 2 ack decorators. This adds some sane defaults to make sure AFJ doesn't break with old please ack decorators
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-06 08:15:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/834" class=".btn">#834</a>
             </td>
             <td>
@@ -406,76 +432,6 @@ from the accept proposal / create offer functionality
     </table>
     <div class="right-align">
         Created At 2022-05-31 02:55:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/814" class=".btn">#814</a>
-            </td>
-            <td>
-                <b>
-                    fix(oob): check service is string instance
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-
-Adds a check whether the service is instanceof String as mentioned in  #812. this is needed due to the class-validator logic sadly.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-30 11:15:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/813" class=".btn">#813</a>
-            </td>
-            <td>
-                <b>
-                    fix(core): allow JSON as input for indy attributes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Right now, you have to create an instance of the class `CredentialPreviewAttribute` in the public API, like so:
-
-```typescript
-const attribute = new CredentialPreview({name: 'foo', value: 'bar'})
-```
-
-This PR will still allow for this but it is extended to also include:
-
-```typescript
-const attribute = { name: 'foo', value: 'bar' }
-```
-
-And it will tranform this into a class instance.
-
-The reason for this PR is that is very weird for a public API to accept a class that only adds a `toJSON` method.
-
-(I did not pickup the proofs module, as V2 is not merged and we can include it in there or I will pick it up after the merge).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-30 11:11:35 +0000 UTC
     </div>
 </div>
 
