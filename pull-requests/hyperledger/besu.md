@@ -14,6 +14,90 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3941" class=".btn">#3941</a>
+            </td>
+            <td>
+                <b>
+                    ropsten ttd selected by ef
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Justin Florentine <justin+github@florentine.us>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-06 17:06:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3940" class=".btn">#3940</a>
+            </td>
+            <td>
+                <b>
+                    fix Invalid column family specified in write batch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+I analyzed the behavior of this error and it seems to appear every time when we change the pivot block.
+
+When we do this we are in effect deleting the columns from the flat database to recreate  a new one. It seem that this has an impact on the writing of the data because it point to the old columns that we have deleted.
+
+I saw that the rocksdb code allows to ignore writes that point to an inexisting column
+https://github.com/facebook/rocksdb/blob/49628c9a83d337ea7b01f7ad3bdffa340e013913/db/write_batch.cc#L1707
+
+Knowing that this column is no longer useful it does not matter to not write on this column anymore but it is important to write on the others and this feature is doing what we want https://javadoc.io/static/org.rocksdb/rocksdbjni/5.13.3/org/rocksdb/WriteOptions.html#ignoreMissingColumnFamilies() 
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+fixes https://github.com/hyperledger/besu/issues/3933
+fixes https://github.com/hyperledger/besu/issues/3924
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-06 13:52:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3937" class=".btn">#3937</a>
             </td>
             <td>
@@ -207,7 +291,7 @@ We aren't using this context any more (was added in #1501)
             </td>
             <td>
                 <b>
-                    Async stateroot investigation
+                    Async stateroot investigation 1
                 </b>
             </td>
         </tr>
@@ -222,8 +306,6 @@ We aren't using this context any more (was added in #1501)
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-WIP .
-
 *  remove superfluous world state commit
 
 ## Fixed Issue(s)

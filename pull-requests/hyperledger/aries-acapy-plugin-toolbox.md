@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/130" class=".btn">#130</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/132" class=".btn">#132</a>
             </td>
             <td>
                 <b>
-                    Test/int/connection reuse
+                    feat: Upgrade to ACA-Py 0.7.4-rc2
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
                 
             </td>
             <td>
-                This PR adds integration tests for the connection reuse feature with both a single out-of-band public invitation and multiple out-of-band public invitations using the field `use_existing_connection`. 
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-15 01:55:32 +0000 UTC
+        Created At 2022-06-06 15:23:11 +0000 UTC
     </div>
 </div>
 
