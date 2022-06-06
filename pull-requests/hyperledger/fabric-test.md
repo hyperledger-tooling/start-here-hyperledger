@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric-test
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/392" class=".btn">#392</a>
+            </td>
+            <td>
+                <b>
+                    Disable daily test for release-2.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                release-2.3 will not be updated to Go 1.18, therefore disable
+the test to suppress failures related to Go 1.18.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-06 11:17:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-test/pull/391" class=".btn">#391</a>
             </td>
             <td>

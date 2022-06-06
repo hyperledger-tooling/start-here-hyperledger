@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/444" class=".btn">#444</a>
+            </td>
+            <td>
+                <b>
+                    Cleanup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+* Removed samples in go, node and java
+* Updated Makefile and CI pipelines
+
+Resolves #439 
+
+Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-06 09:09:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/443" class=".btn">#443</a>
             </td>
             <td>

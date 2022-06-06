@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1973" class=".btn">#1973</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] Fix Install chaincode doesn't fail when invalid git details are provided
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+
+- Fix install chaincode doesn't fail when invalid git details are provided
+
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar
+@jagpreetsinghsasan 
+
+ 
+
+**Linked issue**
+#1952 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-06 11:27:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/1968" class=".btn">#1968</a>
             </td>
             <td>
