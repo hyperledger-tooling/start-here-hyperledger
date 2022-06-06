@@ -90,31 +90,3 @@ Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/449" class=".btn">#449</a>
-            </td>
-            <td>
-                <b>
-                    Remove child dependency from requirements.txt
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Remove pyjwt library.
-
-Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-29 20:26:50 +0000 UTC
-    </div>
-</div>
-
