@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/855" class=".btn">#855</a>
-            </td>
-            <td>
-                <b>
-                    Yul documentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds documentation for Yul. Changes in `docs/conf.py` were necessary to support a new linter for both Solidity and Yul.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-31 12:09:33 +0000 UTC
-    </div>
-</div>
-

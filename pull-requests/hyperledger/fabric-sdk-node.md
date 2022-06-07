@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/590" class=".btn">#590</a>
+            </td>
+            <td>
+                <b>
+                    Fix for scenario test failure 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
+
+Resolves #589 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-07 06:50:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/588" class=".btn">#588</a>
             </td>
             <td>
