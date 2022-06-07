@@ -1,13 +1,13 @@
 
-[559](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/559) monorepo refactoring
+[3463](https://github.com/hyperledger/fabric/pull/3463) Document GetStateByRangeWithPagination behavior
 
-[3941](https://github.com/hyperledger/besu/pull/3941) ropsten ttd selected by ef
+[278](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/278) Bump tokio from 0.2.21 to 1.8.4 in /core/relay
 
-[351](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/351) Bump follow-redirects from 1.14.7 to 1.15.1 in /core
+[2528](https://github.com/hyperledger/indy-sdk/pull/2528) Bump regex from 1.1.0 to 1.5.6 in /libnullpay
 
-[3255](https://github.com/hyperledger/aries-framework-go/pull/3255) feat: Update EDV provider version for wallet
+[2527](https://github.com/hyperledger/indy-sdk/pull/2527) Bump regex from 1.3.7 to 1.5.5 in /vcx/libvcx
 
-[186](https://github.com/hyperledger/firefly-ui/pull/186) Fix status, org, and node parsing with latest core
+[2526](https://github.com/hyperledger/indy-sdk/pull/2526) Bump regex from 1.3.1 to 1.5.5 in /vcx/dummy-cloud-agent
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
