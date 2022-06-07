@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/131" class=".btn">#131</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/134" class=".btn">#134</a>
             </td>
             <td>
                 <b>
-                    test - add user admin
+                    group reads/writes provenance response by db
                 </b>
             </td>
         </tr>
@@ -27,12 +27,18 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
                 
             </td>
             <td>
-                Signed-off-by: tohar-ayash <toharayash1@gmail.com>
+                For GetValuesReadBy() and GetValuesWritten() APIs,
+we have to group keys by databases. In the past, there
+was a bug at the server which did not group keys by databases.
+As now the bug has been fixed at the server side, we are
+updating the client APIs in this commit.
+
+Signed-off-by: senthil <cendhu@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-31 15:17:34 +0000 UTC
+        Created At 2022-06-07 04:37:34 +0000 UTC
     </div>
 </div>
 
