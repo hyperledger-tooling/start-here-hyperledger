@@ -34,7 +34,7 @@ permalink: /releases/hyperledger/fabric-protos
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-06-07 15:46:28 +0000 UTC
+        Created At 2022-06-08 13:19:24 +0000 UTC
     </span>
 </div>
 
