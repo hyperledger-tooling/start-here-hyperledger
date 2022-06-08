@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/go-perun
             </td>
             <td>
                 <b>
-                    Settle channel when funding fails (Variant B)
+                    Settle channel when funding fails
                 </b>
             </td>
         </tr>
