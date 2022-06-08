@@ -68,29 +68,3 @@ Signed-off-by: senthil <cendhu@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/418" class=".btn">#418</a>
-            </td>
-            <td>
-                <b>
-                    Integration testing - cluster security TLS
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: tohar-ayash <toharayash1@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-01 14:01:42 +0000 UTC
-    </div>
-</div>
-

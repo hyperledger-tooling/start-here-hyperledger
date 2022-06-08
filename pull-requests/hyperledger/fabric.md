@@ -65,31 +65,3 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3461" class=".btn">#3461</a>
-            </td>
-            <td>
-                <b>
-                    Gateway support for chaincode event checkpointing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Backport of c55b7eed46da67098f9393dbb23df4167a53ebff and 2f2e5aa3f9858928003969282a0b56b271e3ec9c from main branch.
-
-Gateway service will use an `AfterTransactionId` field in a ChaincodeEventsRequest message to locate the exact chaincode event from which eventing should be resumed. Provides server-side support for client checkpointing of chaincode events in Fabric Gateway client API v1.1.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-01 17:35:43 +0000 UTC
-    </div>
-</div>
-
