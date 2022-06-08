@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/452" class=".btn">#452</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/454" class=".btn">#454</a>
             </td>
             <td>
                 <b>
-                    Fix security vulnerabilities in package.json file of dashboard module.
+                    Fix `dict` object has no attribute `urls` error in the get nodes endpoint
                 </b>
             </td>
         </tr>
@@ -27,14 +27,15 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                Upgrade validator library to v13.7.0
+                Remove node conversion because we upgraded urls field from deprecated
+JSON field to django4.0 supported one.
 
 Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-01 01:56:51 +0000 UTC
+        Created At 2022-06-08 02:59:10 +0000 UTC
     </div>
 </div>
 
