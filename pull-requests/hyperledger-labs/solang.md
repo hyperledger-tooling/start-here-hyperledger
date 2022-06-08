@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/857" class=".btn">#857</a>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/862" class=".btn">#862</a>
             </td>
             <td>
                 <b>
-                    Fix cast to address
+                    Move to latest solana-rbpf crate
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/solang
                 
             </td>
             <td>
-                There was a small mistake when casting from integer to address. The type we pass on to `SingExt` and `ZeroExt` was wrong. This PR fix this and resolves issue #813.
+                This crate is used for solana tests. The version used before this commit has an security issue:
+
+Solana solana_rbpf before 0.2.29 has an addition integer overflow via invalid ELF program headers. elf.rs has a panic via a malformed eBPF program.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-31 20:02:48 +0000 UTC
+        Created At 2022-06-08 09:01:37 +0000 UTC
     </div>
 </div>
 

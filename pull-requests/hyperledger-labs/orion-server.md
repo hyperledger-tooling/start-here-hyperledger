@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/420" class=".btn">#420</a>
+            </td>
+            <td>
+                <b>
+                    range queries with pagination
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This commit adds range query on a given database.
+`GET database?startkey=k1&endkey=k2` would be used
+by the client to range over a set of keys. If the
+query record limit is reached, the response would
+include the next start key.
+
+Signed-off-by: senthil <cendhu@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-08 11:08:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/419" class=".btn">#419</a>
             </td>
             <td>
@@ -59,32 +91,6 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     </table>
     <div class="right-align">
         Created At 2022-06-01 14:01:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/417" class=".btn">#417</a>
-            </td>
-            <td>
-                <b>
-                    Dynamic cluster - add & remove test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-01 09:19:09 +0000 UTC
     </div>
 </div>
 
