@@ -390,33 +390,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/276" class=".btn">#276</a>
-            </td>
-            <td>
-                <b>
-                    Go Modules Local Build Change
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. Change the way go modules are built locally (use `go mod vendor` instead of separate go.mod.local file).
-2. Enable github packages workflow tests.
-3. Add workflow to test build status of docker images of weaver.
-4. Removed semi-local tests from workflows as local tests will be sufficient now.
-5. Bump protos-java-kt to v1.3.1
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-02 10:40:17 +0000 UTC
-    </div>
-</div>
-
