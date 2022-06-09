@@ -135,33 +135,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/553" class=".btn">#553</a>
-            </td>
-            <td>
-                <b>
-                    Move CarbonTracker contract and set RegisterIndustry controls
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Move CabronTracker out of Governance directory
-Restrict RegisterIndustry function in NET to Admin (safe) and Dealer roles
-Fix merge issues in react dapp for Tracker/Product forms and listings.
-
-Signed-off-by: brioux <Bertrand.rioux@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-02 01:18:08 +0000 UTC
-    </div>
-</div>
-

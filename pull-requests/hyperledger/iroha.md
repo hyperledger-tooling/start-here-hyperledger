@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2305" class=".btn">#2305</a>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2312" class=".btn">#2312</a>
             </td>
             <td>
                 <b>
-                    [refactor] #1896: Simplify `produce_event` implementation
+                    [fix] #2081: Fix the test case to grant the role
                 </b>
             </td>
         </tr>
@@ -27,7 +27,44 @@ permalink: /pull-requests/hyperledger/iroha
                 <span class="chip">iroha2</span>
             </td>
             <td>
-                Signed-off-by: Shanin Roman <shanin1000@yandex.ru>
+                ### Description of the Change
+- Edit `register_metadata_role` test to represent #2081 case, renaming to `register_and_grant_role_for_metadata_access`
+
+### Issue
+- Describes #2081
+
+### Benefits
+- Prevent regressions in the future
+- Show a minimum example of how to grant roles
+
+### Possible Drawbacks
+None
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-03 07:55:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2311" class=".btn">#2311</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #2303: Fix docker-compose' peers doesn't get gracefully shut down
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Vladimir Pesterev <pesterev@pm.me>
 
 <!-- You will not see HTML commented line in Pull Request body -->
 <!-- Optional sections may be omitted. Just remove them or write None -->
@@ -42,58 +79,19 @@ permalink: /pull-requests/hyperledger/iroha
 
 ### Description of the Change
 
-Issue #1896 occured because `produce_event` function has misleading statement: 
-
-```rust
-return warn!("wsv does not equip an events sender");
-```
-So to avoid confusion it was decided to refactor `produce_event`.
-
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+[The comment](https://github.com/hyperledger/iroha/issues/2303#issuecomment-1144872465) explains why
 
 ### Issue
 
-Resolves #1896.
-
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+Resolves #2303 
 
 ### Benefits
 
-No confusion.
-
-<!-- What benefits will be realized by the code change? -->
+Peer's graceful shutdown will works with `docker-compose.yml` config.
 
 ### Possible Drawbacks
 
-None.
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Alternate Designs
-
-Firstly alternative `produce_event` implementation was considered, but clippy rejects it.
-
-Clippy error: ```error: use Option::map_or_else instead of an if let/else```
-
-Alternative implementation: 
-
-```rust
-/// Send [`Event`]s to known subscribers.
-fn produce_event(&self, event: impl Into<Event>) {
-    if let Some(events_sender) = &self.events_sender {
-        drop(events_sender.send(event.into()));
-    } else {
-        warn!("wsv does not equip an events sender");
-    }
-}
-```
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
+Possibly `init` config affects performance.
 
 <!--
 NOTE: User may want skip pull request and push workflows with [skip ci]
@@ -105,7 +103,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-01 18:36:59 +0000 UTC
+        Created At 2022-06-02 13:36:43 +0000 UTC
     </div>
 </div>
 
