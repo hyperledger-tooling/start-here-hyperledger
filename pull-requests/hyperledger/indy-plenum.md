@@ -140,32 +140,3 @@ permalink: /pull-requests/hyperledger/indy-plenum
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1598" class=".btn">#1598</a>
-            </td>
-            <td>
-                <b>
-                    Adjust workflow triggers.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Fix error in releasepr.yaml
-- Ensure the triggers on PR.yaml and releasepr.yaml are mutually exclusive.
-
-Signed-off-by: Wade Barnes <wade@neoterictech.ca>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-02 17:41:02 +0000 UTC
-    </div>
-</div>
-
