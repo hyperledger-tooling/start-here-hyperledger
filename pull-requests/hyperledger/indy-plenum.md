@@ -114,29 +114,3 @@ permalink: /pull-requests/hyperledger/indy-plenum
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1599" class=".btn">#1599</a>
-            </td>
-            <td>
-                <b>
-                    [v1.13.1rc0] - Update Version Number for Release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                [v1.13.1rc0] - Update Version number for Release
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-03 08:32:53 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/592" class=".btn">#592</a>
+            </td>
+            <td>
+                <b>
+                    Added eventListener to fix unhandledRejection
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
+
+Resolves #582 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-10 12:12:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/591" class=".btn">#591</a>
             </td>
             <td>
@@ -35,34 +63,6 @@ Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-06-08 17:06:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/590" class=".btn">#590</a>
-            </td>
-            <td>
-                <b>
-                    Fix for scenario test failure 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
-
-Resolves #589 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-07 06:50:54 +0000 UTC
     </div>
 </div>
 
