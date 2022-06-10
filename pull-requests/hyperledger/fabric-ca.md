@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/294" class=".btn">#294</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/296" class=".btn">#296</a>
             </td>
             <td>
                 <b>
-                    Bump Go to 1.18.2
+                    Update Fabric CA Readme
                 </b>
             </td>
         </tr>
@@ -27,11 +27,7 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                Bump Go to 1.18.2.
-
-Update FVT tests to use sha256 since Go 1.18 does not accept certs signed with sha1.
-
-Build gendoc utility from a commit of Fabric main branch that supports Go 1.18. gendoc is used in 'make docs' for metrics doc generation. This change also updates the metrics doc to use the latest formatting from Fabric.
+                Add additional context and references in the Fabric CA Readme for users that navigate to the repository.
 
 Signed-off-by: David Enyeart <enyeart@us.ibm.com>
 
@@ -39,7 +35,7 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-01 18:30:01 +0000 UTC
+        Created At 2022-06-09 20:53:57 +0000 UTC
     </div>
 </div>
 
