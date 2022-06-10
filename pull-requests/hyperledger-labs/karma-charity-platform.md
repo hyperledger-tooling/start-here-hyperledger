@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/karma-charity-platform
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/karma-charity-platform/pull/11" class=".btn">#11</a>
+            </td>
+            <td>
+                <b>
+                    Fixing building the chaincode image from Dockerfile
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Alexander Zemtsov <a.zemtsov@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-10 13:18:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/karma-charity-platform/pull/10" class=".btn">#10</a>
             </td>
             <td>
