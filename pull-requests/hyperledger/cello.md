@@ -27,8 +27,8 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                Change `Node.objects.get() method` to `Node.objects.filter()` to support
-multiple peer nodes case.
+                Change `Node.objects.get()` method to `Node.objects.filter()` to support
+multiple peer nodes use case.
 
 Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
             </td>
