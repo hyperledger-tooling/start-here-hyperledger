@@ -1,13 +1,13 @@
 
-[455](https://github.com/hyperledger/cello/pull/455) Fix : (Security) Migitate Path Traversal Bug
+[16](https://github.com/hyperledger-labs/karma-charity-platform/pull/16) Bump protobufjs from 6.11.2 to 6.11.3 in /chaincode
 
-[254](https://github.com/hyperledger-labs/fabric-token-sdk/pull/254) fix AuditDB redeem bug
+[15](https://github.com/hyperledger-labs/karma-charity-platform/pull/15) Bump url-parse from 1.5.4 to 1.5.10 in /explorer/backend
 
-[3475](https://github.com/hyperledger/fabric/pull/3475) Fix Ginkgo deprecation warning
+[14](https://github.com/hyperledger-labs/karma-charity-platform/pull/14) Bump minimist from 1.2.5 to 1.2.6 in /explorer/backend
 
-[11](https://github.com/hyperledger-labs/karma-charity-platform/pull/11) Fixing building the chaincode image from Dockerfile
+[13](https://github.com/hyperledger-labs/karma-charity-platform/pull/13) Bump protobufjs from 6.11.2 to 6.11.3 in /explorer/backend
 
-[592](https://github.com/hyperledger/fabric-sdk-node/pull/592) Added eventListener to fix unhandledRejection
+[12](https://github.com/hyperledger-labs/karma-charity-platform/pull/12) Bump nconf from 0.11.3 to 0.11.4 in /explorer/backend
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

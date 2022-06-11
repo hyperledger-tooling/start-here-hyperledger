@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/207" class=".btn">#207</a>
+            </td>
+            <td>
+                <b>
+                    Fabric Operator Labs Proposal
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                DRAFT - DO NOT MERGE
+
+This PR is a lab proposal for **fabric-operator**, a cloud-native operator for building, administering, and maintaining Hyperledger Fabric networks on Kubernetes.
+
+This PR will retain DRAFT header until we can track down and include contact information, attribution, and salutations for the Committers and project Sponsors.
+
+Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-10 21:28:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/206" class=".btn">#206</a>
             </td>
             <td>
