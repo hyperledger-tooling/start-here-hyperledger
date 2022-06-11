@@ -30,6 +30,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 Currently, AuditDB fails to record redeem transactions because it does consider only the enrollment IDs of the outputs.
 In a redeem, the output has no enrollment ID.
 To make sure the fix works, we augment the CheckBalance function in the integration test to enforce that the holding of the party, at the auditor, is the same as the balance at the party.
+We also introduce additional checks for the current spending.
 
 Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
