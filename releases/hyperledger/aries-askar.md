@@ -15,27 +15,27 @@ permalink: /releases/hyperledger/aries-askar
         <tr>
             <td colspan="2">
                 <b>
-                    v0.2.6
+                    v0.2.7
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.2.6
+                    v0.2.7
                 </span>
             </td>
             <td>
-                - Fix an issue with transaction rollback on errors
-- Minor fixes in Python wrapper
+                - Fix JWK serialization in Python wrapper
+- FIx rare lock contention issue with Store instance via FFI
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-askar/releases/tag/v0.2.6" class=".btn">
+    <a href="https://github.com/hyperledger/aries-askar/releases/tag/v0.2.7" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-05-07 02:09:51 +0000 UTC
+        Created At 2022-06-11 00:56:33 +0000 UTC
     </span>
 </div>
 
