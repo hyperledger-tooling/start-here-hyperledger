@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/869" class=".btn">#869</a>
+            </td>
+            <td>
+                <b>
+                    Fix clippy warnings when using upcoming rust 1.62
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                rust 1.62 will be released on the 30th of June. This PR fixes the clippy warnings that will appear when that version is used.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-12 08:40:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/866" class=".btn">#866</a>
             </td>
             <td>
