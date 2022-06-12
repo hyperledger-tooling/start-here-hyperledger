@@ -234,29 +234,3 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3462" class=".btn">#3462</a>
-            </td>
-            <td>
-                <b>
-                    Fixed Found Typos (Backport #2939)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Backport of PR #2939
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-05 17:39:59 +0000 UTC
-    </div>
-</div>
-
