@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/758" class=".btn">#758</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/761" class=".btn">#761</a>
             </td>
             <td>
                 <b>
-                    latest working node version
+                    Fix not all exchanges being removed on partner delete
                 </b>
             </td>
         </tr>
@@ -27,42 +27,12 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
                 
             </td>
             <td>
-                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/758"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-02 15:17:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/757" class=".btn">#757</a>
-            </td>
-            <td>
-                <b>
-                    Fix Frontend Build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                build does not work any more with latest node version 16.15.1 with npm 8.11 as it breaks the whole dependency tree. The attached changes fix the build, but introduce loads of unneeded dependencies. The proper fix is properly the upgrade to vue3 as we have many very old dependencies lying around.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-02 14:52:53 +0000 UTC
+        Created At 2022-06-13 13:28:54 +0000 UTC
     </div>
 </div>
 
