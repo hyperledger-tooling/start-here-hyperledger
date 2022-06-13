@@ -15,31 +15,31 @@ permalink: /releases/hyperledger/firefly-fabconnect
         <tr>
             <td colspan="2">
                 <b>
-                    v0.9.14
+                    v0.9.15
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.9.14
+                    v0.9.15
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Update docker release build GitHub action by @nguyer in https://github.com/hyperledger/firefly-fabconnect/pull/84
-* Fix release GitHub action by @nguyer in https://github.com/hyperledger/firefly-fabconnect/pull/86
+* Event client internal caching fix to restart reliably, by @jimthematrix, https://github.com/hyperledger/firefly-fabconnect/pull/87
+* Fabric client internal caching to be purged on identity enroll or re-enroll, by @jimthematrix, https://github.com/hyperledger/firefly-fabconnect/pull/88
+* Support `isInit` when using the gateway mode, by @jimthematrix, https://github.com/hyperledger/firefly-fabconnect/pull/90
 
-
-**Full Changelog**: https://github.com/hyperledger/firefly-fabconnect/compare/v0.9.12...v0.9.14
+**Full Changelog**: https://github.com/hyperledger/firefly-fabconnect/compare/v0.9.14...v0.9.15
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-fabconnect/releases/tag/v0.9.14" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-fabconnect/releases/tag/v0.9.15" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-04-26 18:54:26 +0000 UTC
+        Created At 2022-06-10 20:09:52 +0000 UTC
     </span>
 </div>
 
