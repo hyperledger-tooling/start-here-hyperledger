@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1976" class=".btn">#1976</a>
+            </td>
+            <td>
+                <b>
+                    [shared][fabric] updated role paths to relative paths from plabook_dir
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+**Changelog**
+- Update paths
+- Fixed new line causing molecule to fail
+
+ 
+
+**Reviewed by**
+@jagpreetsinghsasan 
+
+ 
+
+**Linked issue**
+#1931 
+#1929 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-14 06:05:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/1975" class=".btn">#1975</a>
             </td>
             <td>
