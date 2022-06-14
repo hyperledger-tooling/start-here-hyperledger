@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/95" class=".btn">#95</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/99" class=".btn">#99</a>
             </td>
             <td>
                 <b>
-                    1.7.0 release
+                    Use user defined peer capacity
                 </b>
             </td>
         </tr>
@@ -27,41 +27,12 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
                 
             </td>
             <td>
-                - Filter by orderers #93
-- implement #86 docs 
-
-Signed-off-by: dviejokfs <dviejo@kungfusoftware.es>
+                Previously the value was hardcoded, even though the parameter existed - changed to use the passed parameter
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-21 19:31:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/94" class=".btn">#94</a>
-            </td>
-            <td>
-                <b>
-                    Fix envVars for Orderer nodes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix a templating issue when environment variables were added to a orderer.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-21 19:29:30 +0000 UTC
+        Created At 2022-06-14 08:50:50 +0000 UTC
     </div>
 </div>
 

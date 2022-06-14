@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/100" class=".btn">#100</a>
+            </td>
+            <td>
+                <b>
+                    Publish Go apiv2 bindings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Push a generated Go bindings commit to hyperledger/fabric-protos-go-apiv2 repo for every push to the fabric-protos main branch
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-14 11:32:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-protos/pull/99" class=".btn">#99</a>
             </td>
             <td>
