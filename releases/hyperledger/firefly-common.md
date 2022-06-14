@@ -42,35 +42,3 @@ permalink: /releases/hyperledger/firefly-common
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v0.1.9
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v0.1.9
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* Add PATCH to swagger by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/17
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v0.1.8...v0.1.9
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v0.1.9" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-06-06 20:49:42 +0000 UTC
-    </span>
-</div>
-
