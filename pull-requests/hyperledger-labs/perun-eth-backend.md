@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-backend
             </td>
             <td>
                 <b>
-                    Update to abigen v1.10.15
+                    Revise generate script and upgrade abigen
                 </b>
             </td>
         </tr>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/852" class=".btn">#852</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/853" class=".btn">#853</a>
             </td>
             <td>
                 <b>
-                    feat: present proof v2
+                    Merge MAIN -> PPV2
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                I coudn't see any conflicts when I merged this...
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-14 09:37:44 +0000 UTC
+        Created At 2022-06-14 10:00:04 +0000 UTC
     </div>
 </div>
 
@@ -379,34 +379,6 @@ In addition I made some smaller changes:
     </table>
     <div class="right-align">
         Created At 2022-06-08 14:43:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/838" class=".btn">#838</a>
-            </td>
-            <td>
-                <b>
-                    fix: send message to service
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixed issue where message sender would incorrectly return early from loop (inside `sendMessage`) even if service was unable to be satisfied by outbound transports.
-
-Signed-off-by: Niall Shaw <niall.shaw@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-07 15:24:47 +0000 UTC
     </div>
 </div>
 

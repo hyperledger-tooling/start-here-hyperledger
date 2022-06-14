@@ -88,33 +88,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/289" class=".btn">#289</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade libp2p
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - upgrade libp2p v0.20.1
-- integrate api changes
-- fix issue with streams mutex
-
-Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-07 13:34:47 +0000 UTC
-    </div>
-</div>
-
