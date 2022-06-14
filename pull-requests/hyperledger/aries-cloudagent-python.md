@@ -14,7 +14,33 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1792" class=".btn">#1792</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1804" class=".btn">#1804</a>
+            </td>
+            <td>
+                <b>
+                    Adjust revocation registry update procedure to shorten transactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-13 21:52:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1802" class=".btn">#1802</a>
             </td>
             <td>
                 <b>
@@ -27,14 +53,72 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 <span class="chip">0.7.4</span>
             </td>
             <td>
-                Signed-off-by: shaangill025 <gill.shaanjots@gmail.com>
-- resolve #1790
+                Signed-off-by: shaangill025 [gill.shaanjots@gmail.com](mailto:gill.shaanjots@gmail.com)
+
+- resolve #1790 
 - resolve #1791
+
+Closed original PR #1792 due to merge issues.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-01 14:12:01 +0000 UTC
+        Created At 2022-06-10 18:06:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1800" class=".btn">#1800</a>
+            </td>
+            <td>
+                <b>
+                    Fix: Duplicated schema and cred_def - Askar and Postgres
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">0.7.4</span>
+            </td>
+            <td>
+                Signed-off-by: shaangill025 <gill.shaanjots@gmail.com>
+
+- resolve #1786 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-10 14:45:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1797" class=".btn">#1797</a>
+            </td>
+            <td>
+                <b>
+                    feat: Add filter param to connection list for invitations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">0.7.4</span>
+            </td>
+            <td>
+                As mentioned in #1789, there is no way to currently filter for connections/invited created via the OOB handler. This commit adds a filter query parameter to filter with the invitation message ID.
+- resolve #1789 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-08 13:39:23 +0000 UTC
     </div>
 </div>
 

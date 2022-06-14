@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/243" class=".btn">#243</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/244" class=".btn">#244</a>
             </td>
             <td>
                 <b>
-                    PurgePrivateData
+                    Add test for Logger.debug
                 </b>
             </td>
         </tr>
@@ -27,18 +27,21 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                - Implements the purgePrivateData API in the stub
+                Hey 😊
+I want to contribute the following test:
 
-Resolves #240
+Test that calling `Logger.getLogger(LoggerTest.class).debug("debug message")` does not throw an exception.
+This tests the method [`Logger.debug`](https://github.com/hyperledger/fabric-chaincode-java/blob/d1d093b42324230f55410fda3c9efb1663859380/fabric-chaincode-shim/src/main/java/org/hyperledger/fabric/Logger.java#L45).
+This test is based on the test [`logger`](https://github.com/hyperledger/fabric-chaincode-java/blob/d1d093b42324230f55410fda3c9efb1663859380/fabric-chaincode-shim/src/test/java/org/hyperledger/fabric/LoggerTest.java#L19).
 
-Fabric Issue https://github.com/hyperledger/fabric/issues/3020
+Curious to hear what you think!
 
-Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+(I wrote this test as part of a research study at TU Delft. [Find out more](https://github.com/lacinoire/lacinoire/blob/main/README.md))
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-25 09:51:33 +0000 UTC
+        Created At 2022-06-09 08:47:32 +0000 UTC
     </div>
 </div>
 

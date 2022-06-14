@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-go/pull/46" class=".btn">#46</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-go/pull/48" class=".btn">#48</a>
             </td>
             <td>
                 <b>
-                    Bump google.golang.org/grpc from 1.23.0 to 1.47.0
+                    Bump github.com/stretchr/testify from 1.7.0 to 1.7.2
                 </b>
             </td>
         </tr>
@@ -27,105 +27,27 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [google.golang.org/grpc](https://github.com/grpc/grpc-go) from 1.23.0 to 1.47.0.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/grpc/grpc-go/releases">google.golang.org/grpc's releases</a>.</em></p>
-<blockquote>
-<h2>Release 1.47.0</h2>
-<h1>New Features</h1>
-<ul>
-<li>xds: add support for RBAC metadata invert matchers (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5345">#5345</a>)</li>
-</ul>
-<h1>Bug Fixes</h1>
-<ul>
-<li>client: fix a context leaked if a connection to an address is lost before it is fully established (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5337">#5337</a>)
-<ul>
-<li>Special Thanks: <a href="https://github.com/carzil"><code>@​carzil</code></a></li>
-</ul>
-</li>
-<li>client: fix potential panic during RPC retries (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5323">#5323</a>)</li>
-<li>xds/client: fix a potential concurrent map read/write in load reporting (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5331">#5331</a>)</li>
-<li>client/SubConn: do not recreate addrConn if UpdateAddresses is called with the same addresses (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5373">#5373</a>)</li>
-<li>xds/eds: resources containing duplicate localities with the same priority will be rejected (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5303">#5303</a>)</li>
-<li>server: return Canceled or DeadlineExceeded status code when writing headers to a stream that is already closed (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5292">#5292</a>)
-<ul>
-<li>Special Thanks: <a href="https://github.com/idiamond-stripe"><code>@​idiamond-stripe</code></a></li>
-</ul>
-</li>
-</ul>
-<h1>Behavior Changes</h1>
-<ul>
-<li>xds/priority: start the init timer when a child switches to Connecting from non-failure states (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5334">#5334</a>)</li>
-<li>server: respond with HTTP Status 405 and gRPC status INTERNAL if the method sent to server is not POST (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5364">#5364</a>)</li>
-</ul>
-<h1>Documentation</h1>
-<ul>
-<li>server: clarify documentation around setting and sending headers and ServerStream errors (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5302">#5302</a>)</li>
-</ul>
-<h2>Release v1.46.2</h2>
-<h1>Bug Fixes</h1>
-<ul>
-<li>client: fix potential panic during RPC retries (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5323">#5323</a>)</li>
-<li>xds: fix leak of deleted CDS resources from CSDS view (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5339">#5339</a>)</li>
-</ul>
-<h2>Release 1.46.0</h2>
-<h1>New Features</h1>
-<ul>
-<li>server: Support setting <code>TCP_USER_TIMEOUT</code> on <code>grpc.Server</code> connections using <code>keepalive.ServerParameters.Time</code> (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5219">#5219</a>)
-<ul>
-<li>Special Thanks: <a href="https://github.com/bonnefoa"><code>@​bonnefoa</code></a></li>
-</ul>
-</li>
-<li>client: perform graceful switching of LB policies in the <code>ClientConn</code> by default (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5285">#5285</a>)</li>
-<li>all: improve logging by including channelz identifier in log messages (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5192">#5192</a>)</li>
-</ul>
-<h1>API Changes</h1>
-<ul>
-<li>grpc: delete <code>WithBalancerName()</code> API, deprecated over 4 years ago in <a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/1697">#1697</a> (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5232">#5232</a>)</li>
-<li>balancer: change BuildOptions.ChannelzParentID to an opaque identifier instead of int (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5192">#5192</a>)
-<ul>
-<li>Note: the balancer package is labeled as EXPERIMENTAL, and we don't believe users were using this field.</li>
-</ul>
-</li>
-</ul>
-<h1>Behavior Changes</h1>
-<ul>
-<li>client: change connectivity state to <code>TransientFailure</code> in <code>pick_first</code> LB policy when all addresses are removed (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5274">#5274</a>)
-<ul>
-<li>This is a minor change that brings grpc-go's behavior in line with the intended behavior and how C and Java behave.</li>
-</ul>
-</li>
-<li>metadata: add client-side validation of HTTP-invalid metadata before attempting to send (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/4886">#4886</a>)
-<ul>
-<li>Special Thanks: <a href="https://github.com/Patrick0308"><code>@​Patrick0308</code></a></li>
-</ul>
-</li>
-</ul>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
+                Bumps [github.com/stretchr/testify](https://github.com/stretchr/testify) from 1.7.0 to 1.7.2.
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/grpc/grpc-go/commit/5b509df1e30a25b14dba119c09295924c9e17abe"><code>5b509df</code></a> Change version to 1.47.0 (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5377">#5377</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/ed7522591b3485c919a04205094a07c2d96456ce"><code>ed75225</code></a> Don't call cmp in non testing file (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5370">#5370</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/081c688437c76dc60b2f6aec68c1804de5f32945"><code>081c688</code></a> client: fix hctx leakage in addrConn.createTransport (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5337">#5337</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/30b9d59a766858a4b51148e47edb3af2766ab617"><code>30b9d59</code></a> client/SubConn: do not recreate addrConn if UpdateAddresses is called with th...</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/459729d6672eb555ada1060ceddf470ff8b1ec82"><code>459729d</code></a> xds/priority: avoid sending duplicate updates to children (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5374">#5374</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/9f4b31a11cc4deba7f5c542399d5ec71fab3a053"><code>9f4b31a</code></a> Added HTTP status and grpc status to POST check (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5364">#5364</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/333a441e27395b34f666e7d8f0ba871fae2ed53b"><code>333a441</code></a> xds/ringhash: update connectivity state aggregation, and make sure at least o...</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/e23132c6575e004c7ae416186d97d40057f0b928"><code>e23132c</code></a> Added support for metadata matcher invert (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5345">#5345</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/d9b952b1706072a434320115194b98687bfeaffe"><code>d9b952b</code></a> xds/resolver: use correct resource name in log message (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5357">#5357</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/db79903af928ca8307700d83123a7702881c4e3c"><code>db79903</code></a> xds/priority: start the init timer when a child switch to Connecting from non...</li>
-<li>Additional commits viewable in <a href="https://github.com/grpc/grpc-go/compare/v1.23.0...v1.47.0">compare view</a></li>
+<li><a href="https://github.com/stretchr/testify/commit/41453c009af9a942261b7a25a88521d0d6804e7f"><code>41453c0</code></a> Update gopkg.in/yaml.v3</li>
+<li><a href="https://github.com/stretchr/testify/commit/285adcc5ced0bb267a7c874cfa3ca238266ce14f"><code>285adcc</code></a> Update go versions in build matrix</li>
+<li><a href="https://github.com/stretchr/testify/commit/6e7fab43fc3294f4e7c079e260746edcf8d66639"><code>6e7fab4</code></a> Bump actions/setup-go from 2 to 3.1.0</li>
+<li><a href="https://github.com/stretchr/testify/commit/106ec21d14df07d4c33ec1155328800300c28c7f"><code>106ec21</code></a> use RWMutex</li>
+<li><a href="https://github.com/stretchr/testify/commit/a409ccf19e17d8a90156521ce71c5e8ef8f6bca8"><code>a409ccf</code></a> fix data race in the suit</li>
+<li><a href="https://github.com/stretchr/testify/commit/35864782d21250c3ff66874e87e5fdc9c79e0be1"><code>3586478</code></a> assert: fix typo</li>
+<li><a href="https://github.com/stretchr/testify/commit/77977386932ab1866a4b9556a7af1ae347531786"><code>7797738</code></a> Update versions supported to include <code>go 1.16</code></li>
+<li><a href="https://github.com/stretchr/testify/commit/083ff1c0449867d0d8d456483ee5fab8e0c0e1e6"><code>083ff1c</code></a> Fixed didPanic to now detect panic(nil).</li>
+<li><a href="https://github.com/stretchr/testify/commit/1e36bfe10404cb77c12f6dfc8665564f3a41ad7e"><code>1e36bfe</code></a> Use cross Go version compatible build tag syntax</li>
+<li><a href="https://github.com/stretchr/testify/commit/e798dc2763edab11eadc45df377ff160c6c86fd1"><code>e798dc2</code></a> Add docs on 1.17 build tags</li>
+<li>Additional commits viewable in <a href="https://github.com/stretchr/testify/compare/v1.7.0...v1.7.2">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=google.golang.org/grpc&package-manager=go_modules&previous-version=1.23.0&new-version=1.47.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/stretchr/testify&package-manager=go_modules&previous-version=1.7.0&new-version=1.7.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -156,7 +78,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-01 07:44:35 +0000 UTC
+        Created At 2022-06-07 04:31:20 +0000 UTC
     </div>
 </div>
 

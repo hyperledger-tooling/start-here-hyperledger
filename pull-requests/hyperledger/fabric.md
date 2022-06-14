@@ -279,32 +279,3 @@ Checklist (DELETE AFTER READING):
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3463" class=".btn">#3463</a>
-            </td>
-            <td>
-                <b>
-                    Document GetStateByRangeWithPagination behavior
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Document GetStateByRangeWithPagination behavior including
-the difference between leveldb and couchdb that was identified in #3229.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-06 23:04:26 +0000 UTC
-    </div>
-</div>
-

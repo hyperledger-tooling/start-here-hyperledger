@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/52" class=".btn">#52</a>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/54" class=".btn">#54</a>
             </td>
             <td>
                 <b>
-                    feat: auto commit txn on aexit
+                    Update version to 0.2.7
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/aries-askar
                 
             </td>
             <td>
-                This is an attempt to visualize what #51 would look like. I think it's this simple?
-
-As implemented, instead of an effective "rollback by default", it will rollback if the transaction exits with an exception but otherwise commit by default. The user may still choose to manually call `rollback` before the context is exited.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-05 02:20:29 +0000 UTC
+        Created At 2022-06-10 23:42:47 +0000 UTC
     </div>
 </div>
 
@@ -42,11 +40,11 @@ As implemented, instead of an effective "rollback by default", it will rollback 
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/50" class=".btn">#50</a>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/53" class=".btn">#53</a>
             </td>
             <td>
                 <b>
-                    Use lock_arc instead of try_lock_arc when borrowing store
+                    Add P-384 support; refactor 'any' key support
                 </b>
             </td>
         </tr>
@@ -55,12 +53,12 @@ As implemented, instead of an effective "rollback by default", it will rollback 
                 
             </td>
             <td>
-                Fixes #48 
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-02 20:02:09 +0000 UTC
+        Created At 2022-06-10 23:06:25 +0000 UTC
     </div>
 </div>
 

@@ -14,25 +14,25 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/68" class=".btn">#68</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/70" class=".btn">#70</a>
             </td>
             <td>
                 <b>
-                    [documentation]: Review Installation chapter
+                    [documentation]: Review language-specific guides
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">documentation</span>
+                
             </td>
             <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-02 08:29:28 +0000 UTC
+        Created At 2022-06-07 10:59:41 +0000 UTC
     </div>
 </div>
 
@@ -40,39 +40,11 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/67" class=".btn">#67</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/69" class=".btn">#69</a>
             </td>
             <td>
                 <b>
-                    [documentation]: Review the Iroha 2 vs. Iroha 1 chapter
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span>
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-Mostly addressed #43 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-02 05:43:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/66" class=".btn">#66</a>
-            </td>
-            <td>
-                <b>
-                    [documentation]: Review the Queries chapter
+                    [documentation]: Review Iroha on bare metal chapter
                 </b>
             </td>
         </tr>
@@ -86,35 +58,7 @@ Mostly addressed #43
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-02 05:15:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/65" class=".btn">#65</a>
-            </td>
-            <td>
-                <b>
-                    [documentation]: Review the Triggers chapter
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span>
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-Addresses #43 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-01 08:07:57 +0000 UTC
+        Created At 2022-06-07 07:43:41 +0000 UTC
     </div>
 </div>
 

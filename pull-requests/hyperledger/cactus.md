@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2068" class=".btn">#2068</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2075" class=".btn">#2075</a>
             </td>
             <td>
                 <b>
-                    Migitate : Cross site scripting attack (XSS)
+                    fix: fixed 2 lint errors that were the any type error for Typescript
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/cactus
                 
             </td>
             <td>
-                Unsanitized input from exception flows into `res.send`, where it is used to render an HTML page returned to the user. This may result in a Cross-Site Scripting attack (XSS).
+                fixed 2 lint errors that were the any type error for Typescript and removed Node
+
+Signed-off-by: Alec Phong <alecphong@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-06 12:51:03 +0000 UTC
+        Created At 2022-06-13 19:01:32 +0000 UTC
     </div>
 </div>
 
@@ -40,80 +42,27 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2066" class=".btn">#2066</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2072" class=".btn">#2072</a>
             </td>
             <td>
                 <b>
-                    build(deps): bump eventsource from 1.1.0 to 1.1.1
+                    docs(build): add text build steps for Linux, Mac and Windows
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span><span class="chip">javascript</span>
+                
             </td>
             <td>
-                Bumps [eventsource](https://github.com/EventSource/eventsource) from 1.1.0 to 1.1.1.
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/EventSource/eventsource/blob/master/HISTORY.md">eventsource's changelog</a>.</em></p>
-<blockquote>
-<h1><a href="https://github.com/EventSource/eventsource/compare/v1.1.0...v1.1.1">1.1.1</a></h1>
-<ul>
-<li>Do not include authorization and cookie headers on redirect to different origin (<a href="https://github-redirect.dependabot.com/EventSource/eventsource/pull/273">#273</a> Espen Hovlandsdal)</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/EventSource/eventsource/commit/aa7a40843a978f42c0babdec125bf9e0a83bf515"><code>aa7a408</code></a> 1.1.1</li>
-<li><a href="https://github.com/EventSource/eventsource/commit/56d489ef853a891deca121bbd463c732fee94dce"><code>56d489e</code></a> chore: rebuild polyfill</li>
-<li><a href="https://github.com/EventSource/eventsource/commit/4a951e58b04118c9c4d3da3d27d454972a1b4b8d"><code>4a951e5</code></a> docs: update history for 1.1.1</li>
-<li><a href="https://github.com/EventSource/eventsource/commit/f9f6416567bff62c1af2f4314be51d9870e94bc2"><code>f9f6416</code></a> fix: strip sensitive headers on redirect to different origin</li>
-<li>See full diff in <a href="https://github.com/EventSource/eventsource/compare/v1.1.0...v1.1.1">compare view</a></li>
-</ul>
-</details>
-<br />
+                Issue: #1963
 
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=eventsource&package-manager=npm_and_yarn&previous-version=1.1.0&new-version=1.1.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
-- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
-- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
-- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
-
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/cactus/network/alerts).
-
-</details>
+Signed-off-by: Abhinav Srivastava (abhinavmir#1898 on Discord)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-01 22:29:31 +0000 UTC
+        Created At 2022-06-10 02:13:32 +0000 UTC
     </div>
 </div>
 
@@ -121,11 +70,11 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2053" class=".btn">#2053</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2071" class=".btn">#2071</a>
             </td>
             <td>
                 <b>
-                    test(connector-go-ethereum-socketio): add functional test, bug fix
+                    feat(fabric-socketio-connector): sending transactions signed on the client-side
                 </b>
             </td>
         </tr>
@@ -134,99 +83,35 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 <span class="chip">dependent</span>
             </td>
             <td>
-                - Add functional test of all functions from go-ethereum-socketio validator.
-- Refactor go-ethereum validator to allow importing as a module, to simplify the functional test.
-- Fix sendRawTransaction to work with Verifier protocol.
-  It couldn't be reached by any client library until now, so I consider this as "private" interface.
-- Add common web3 client object in openethereum test ledger helper class.
-- Add few new functions to ethereum test ledger helper class:
-  newEthPersonalAccount, transferAssetFromCoinbase, deployContract.
+                - Add functions to support entire process of sending transaction to the ledger without sharing
+  any private key with the connector.
+- Add test cases to check the new functionalities.
+- Adjust asset-trade sample app to use new logic that doesn't send the private key to the connector.
+- Move fabric signing utils to a separate file.
+- Add fabric protobuf serializers and deserializers, so they can be send back and forth
+  between connector and BLP without loosing type information.
+- Add an option to FabricTestLedgerV1 to allow attaching to already running ledger container.
+  This can speed up test development/troubleshoot process.
+- Improve fabric-all-in-one ledger healthcheck, so that it waits for basic chaincode intialization.
+  This is not strictly needed by current tests, but may be expected by future tests.
+- Refactor duplicated logic in fabric-connector.
+- Fix fabric-socketio module entry points (minor fix).
 
-Depends on #2051
+Closes: #2070
+
 Depends on #2047
-
-Closes: #2052
 
 Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
 
 -------------
 
-Please consider only the last commit - `test(connector-go-ethereum-socketio): add functional test, bug fix`. The rest are the dependencies that should be merged by separate PRs.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-31 09:57:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2051" class=".btn">#2051</a>
-            </td>
-            <td>
-                <b>
-                    refactor(connector-go-ethereum-socketio): fix strict flag warnings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                cactus-plugin-ledger-connector-go-ethereum-socketio will compile with global strict flag.
-
-Related issue: #1671
-
-Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+As always, please review only the last commit. Remaining ones are just dependencies, that will be squashed before an actual merge.
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-31 08:56:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2050" class=".btn">#2050</a>
-            </td>
-            <td>
-                <b>
-                    build(openapi): generate kotlin client
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Commit to be reviewed
----------------------------------
-
-build(openapi): generate kotlin client
-
-    Primary Changes
-    ---------------
-    1. Updated the root package.json and cactus-plugin-ledger-connector-corda
- 	   package.json to incorporate generate-clients script
-    2. Created a git action workflow to generate version-tagged client artifacts
-
-Fixes #2000
-
-Signed-off-by: jagpreetsinghsasan <jagpreet.singh.sasan@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-31 07:44:33 +0000 UTC
+        Created At 2022-06-07 15:48:30 +0000 UTC
     </div>
 </div>
 

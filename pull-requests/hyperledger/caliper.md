@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1363" class=".btn">#1363</a>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1364" class=".btn">#1364</a>
             </td>
             <td>
                 <b>
-                    Fix #536 Update error messages for 'caliper-ethereum' package
+                    Port the unit test workflow to GitHub Actions
                 </b>
             </td>
         </tr>
@@ -27,44 +27,20 @@ permalink: /pull-requests/hyperledger/caliper
                 
             </td>
             <td>
-                - Partially fixes # 536. 
-- The error messages are clear and consistent.
-- All the error messages i.e. at debug level, error level, and info level are checked and updated.
+                In this PR:
+* The unit test workflow which exists in Azure Pipelines is ported over to GitHub Actions
+* A badge is added to the README for the workflow
 
+Closes #1359 
+
+#### Some additional notes:
+
+* Package lock is added to help keep track of the dependency cache (It is also recommended to commit the lock file to source control in the official NodeJS guide https://nodejs.dev/learn/the-package-lock-json-file)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-31 20:54:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1362" class=".btn">#1362</a>
-            </td>
-            <td>
-                <b>
-                    Fix #536 Update error messages for 'caliper-core' package
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Partially fixes # 536. (Intentionally not linked this PR to the issue because as of now it only partially fixes it)
-- The error messages are clear and consistent.
-- All the error messages i.e. at debug level, error level, and info level are checked and updated.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-31 18:16:46 +0000 UTC
+        Created At 2022-06-08 12:12:07 +0000 UTC
     </div>
 </div>
 

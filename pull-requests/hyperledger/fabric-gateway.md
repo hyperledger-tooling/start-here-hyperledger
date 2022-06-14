@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/444" class=".btn">#444</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/451" class=".btn">#451</a>
             </td>
             <td>
                 <b>
-                    Cleanup
+                    Upgrade scenario test network to 3 raft orderers
                 </b>
             </td>
         </tr>
@@ -27,18 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                
-* Removed samples in go, node and java
-* Updated Makefile and CI pipelines
-
-Resolves #439 
-
-Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
+                Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-06 09:09:37 +0000 UTC
+        Created At 2022-06-10 13:43:01 +0000 UTC
     </div>
 </div>
 
@@ -46,66 +40,11 @@ Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/443" class=".btn">#443</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/450" class=".btn">#450</a>
             </td>
             <td>
                 <b>
-                    Clean up Node dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Remove some unused dev dependencies
-- Update dependency versions
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-03 09:28:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/442" class=".btn">#442</a>
-            </td>
-            <td>
-                <b>
-                    Java changes for deserialization 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Contributes to #394 
-
-Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-01 11:20:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/441" class=".btn">#441</a>
-            </td>
-            <td>
-                <b>
-                    Go changes for deserialization of data
+                    Added strict flag to cucumber
                 </b>
             </td>
         </tr>
@@ -115,13 +54,145 @@ Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
             </td>
             <td>
                 Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
-
-Contributes to #394 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-31 10:20:58 +0000 UTC
+        Created At 2022-06-10 11:34:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/449" class=".btn">#449</a>
+            </td>
+            <td>
+                <b>
+                    Use ipv4 style for gRPC endpoint address in scenario tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This allows the gRPC implementation to handle fail-over between Gateway peers.
+
+Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-10 10:32:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/448" class=".btn">#448</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade from CodeQL Action v1 to v2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                CodeQL Action v1 will be deprecated on December 7th, 2022. See https://github.blog/changelog/2022-04-27-code-scanning-deprecation-of-codeql-action-v1/
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-09 13:11:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/447" class=".btn">#447</a>
+            </td>
+            <td>
+                <b>
+                    Use GitHub Actions for nightly security vulnerability scan
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Contributes to #361
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-09 12:38:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/446" class=".btn">#446</a>
+            </td>
+            <td>
+                <b>
+                    Remove system channel from scenario test network
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update network config in scenario tests to use channel participation API and remove system channel, for compatability with future versions of Fabric.
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-08 12:14:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/445" class=".btn">#445</a>
+            </td>
+            <td>
+                <b>
+                    Docs Cleanup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-07 07:12:43 +0000 UTC
     </div>
 </div>
 

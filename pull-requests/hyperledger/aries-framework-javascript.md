@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/835" class=".btn">#835</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/849" class=".btn">#849</a>
             </td>
             <td>
                 <b>
-                    fix: support pre-aip2 please ack decorator
+                    feat: wip add choice for taa mechanism
                 </b>
             </td>
         </tr>
@@ -27,140 +27,16 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                The update to the please ack decorator broke for pre-aip 2 ack decorators. This adds some sane defaults to make sure AFJ doesn't break with old please ack decorators
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-06 08:15:17 +0000 UTC
-    </div>
-</div>
+                todos:
+* tests
+* ensure this is complete and correct
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/834" class=".btn">#834</a>
-            </td>
-            <td>
-                <b>
-                    fix(oob): expose parseInvitation publicly
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Quite a nice function to have outside of the framework for parsing qrcodes.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-03 11:37:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/833" class=".btn">#833</a>
-            </td>
-            <td>
-                <b>
-                    fix: clone record before emitting event
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Clone records before emitting them in events to avoid mutation later on. 
-
-Fixes #832 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-02 19:02:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/831" class=".btn">#831</a>
-            </td>
-            <td>
-                <b>
-                    feat: support advanced wallet query
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds support for some of the most important wallet query features as defined by the indy-sdk (and aries-askar). https://hyperledger-indy.readthedocs.io/projects/sdk/en/latest/docs/design/011-wallet-query-language/README.html
-
-Currently only added support for `$and`, `$or` and `$not`, which is enough for most use cases. We need this in particular for querying credentials based on a DIF presentation definition. 
-
-Fixes https://github.com/hyperledger/aries-framework-javascript/issues/739
-
-@blu3beri I just used the default syntax for this, so you'd use it like this:
-
-```ts
-const query: Query<TheRecord> = {
-  $and: [
-	{ $or: [{ expandedTypes: 'https://url1.com' }, { context: 'https://url1.com' }] },
-	{ $or: [{ expandedTypes: 'https://url2.com' }, { context: 'https://url2.com' }] },
-  ]
-}
-```
-
-We can look at a builder, but not sure what that would look like exactly? 
-
-@NB-PrasadKatkar this should unblock you for the presentation exchange work
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-02 16:30:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/830" class=".btn">#830</a>
-            </td>
-            <td>
-                <b>
-                    feat: add validation to JSON transformer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                WIP
-
-closes #742 
 Signed-off-by: Moriarty <moritz@animo.id>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-02 13:23:17 +0000 UTC
+        Created At 2022-06-13 11:26:11 +0000 UTC
     </div>
 </div>
 
@@ -168,11 +44,11 @@ Signed-off-by: Moriarty <moritz@animo.id>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/829" class=".btn">#829</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/848" class=".btn">#848</a>
             </td>
             <td>
                 <b>
-                    refactor: Reuse cred def id and attributes from Proposal message in Indy Format Service
+                    fix(proof): allow duplicates in proof attributes
                 </b>
             </td>
         </tr>
@@ -181,12 +57,17 @@ Signed-off-by: Moriarty <moritz@animo.id>
                 
             </td>
             <td>
-                See Issue #837 https://github.com/hyperledger/aries-framework-javascript/issues/827
+                This is a partial fix for https://github.com/hyperledger/aries-framework-javascript/issues/837
+The check is limited to duplicates between predicates and attributes only. Duplicit attributes should be allowed as they don't cause any error during proof creation.
+Still todo: Either
+* parse and validate based on `restrictions`, whether the items collide or not
+or
+* completely rethink the check and validate only at the point of `ProofsModule.acceptRequest` (which is the actual problem)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-02 12:27:51 +0000 UTC
+        Created At 2022-06-10 13:58:41 +0000 UTC
     </div>
 </div>
 
@@ -194,11 +75,11 @@ Signed-off-by: Moriarty <moritz@animo.id>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/828" class=".btn">#828</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/847" class=".btn">#847</a>
             </td>
             <td>
                 <b>
-                    fix(oob): export messages in oob
+                    docs(samples): fix extension module sample
                 </b>
             </td>
         </tr>
@@ -207,17 +88,12 @@ Signed-off-by: Moriarty <moritz@animo.id>
                 
             </td>
             <td>
-                Noticed that the `OutofBandInvitation` was not exported to the public and it can be quite useful to have
-
-- Exported the `messages` folder inside the `oob` module
-- There might be more items we want to export from here, but I am not too sure about which.
-
-Signed-off-by: Berend Sliedrecht <berend@animo.id>
+                Signed-off-by: Timo Glastra <timo@animo.id>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-02 12:25:34 +0000 UTC
+        Created At 2022-06-10 10:51:56 +0000 UTC
     </div>
 </div>
 
@@ -225,11 +101,11 @@ Signed-off-by: Berend Sliedrecht <berend@animo.id>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/826" class=".btn">#826</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/846" class=".btn">#846</a>
             </td>
             <td>
                 <b>
-                    fix: process ws return route messages serially
+                    docs: remove signed off by lines from changelog
                 </b>
             </td>
         </tr>
@@ -238,12 +114,12 @@ Signed-off-by: Berend Sliedrecht <berend@animo.id>
                 
             </td>
             <td>
-                We were already processing messages serially for pickup v1 and v2. This pr updates to also use this for websocket inbound transport. This can help prevent some race conditions and is consistent with the other pickup approaches
+                Signed-off-by: Timo Glastra <timo@animo.id>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-01 15:53:59 +0000 UTC
+        Created At 2022-06-10 09:36:03 +0000 UTC
     </div>
 </div>
 
@@ -251,11 +127,11 @@ Signed-off-by: Berend Sliedrecht <berend@animo.id>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/825" class=".btn">#825</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/845" class=".btn">#845</a>
             </td>
             <td>
                 <b>
-                    fix(oob): legacy invitation with multiple endpoint
+                    refactor: adds custom rxjs operator to filter record events by record type
                 </b>
             </td>
         </tr>
@@ -264,12 +140,14 @@ Signed-off-by: Berend Sliedrecht <berend@animo.id>
                 
             </td>
             <td>
-                more issues with interop testing in AATH.
+                Adds custom rxjs operator to filter record events by record type. To be used in hooks extension.
+
+Signed-off-by: Akiff Manji <akiff.manji@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-01 15:00:08 +0000 UTC
+        Created At 2022-06-09 21:52:29 +0000 UTC
     </div>
 </div>
 
@@ -277,11 +155,11 @@ Signed-off-by: Berend Sliedrecht <berend@animo.id>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/824" class=".btn">#824</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/844" class=".btn">#844</a>
             </td>
             <td>
                 <b>
-                    docs: using postgres storage
+                    chore(migration): add credentials migration script
                 </b>
             </td>
         </tr>
@@ -290,17 +168,15 @@ Signed-off-by: Berend Sliedrecht <berend@animo.id>
                 
             </td>
             <td>
-                Added documentation for usage and setup of Postgres plugin setup
-- [x] Linux
-- [x] Mac
-- [ ] Windows (Not able to build Postgres plugin on windows yet, getting an error regarding **libsodium-sys 0.0.16** )
+                Adds migration script for updating credential records to 0.2.0 structure. 
 
-#758 #771 
+Fixes #738
+Supersedes #843 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-01 13:37:17 +0000 UTC
+        Created At 2022-06-09 20:56:11 +0000 UTC
     </div>
 </div>
 
@@ -308,11 +184,11 @@ Signed-off-by: Berend Sliedrecht <berend@animo.id>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/823" class=".btn">#823</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/842" class=".btn">#842</a>
             </td>
             <td>
                 <b>
-                    fix(connections): didexchange to connection state
+                    feat(core): generic repository events
                 </b>
             </td>
         </tr>
@@ -321,12 +197,14 @@ Signed-off-by: Berend Sliedrecht <berend@animo.id>
                 
             </td>
             <td>
-                small issue I discovered in updating AATH
+                Closes #723 
+
+Added generic `RecordSavedEvent`, `RecordUpdatedEvent`, and `RecordDeletedEvent` emitted from `Repository`.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-01 13:20:23 +0000 UTC
+        Created At 2022-06-09 15:03:31 +0000 UTC
     </div>
 </div>
 
@@ -334,11 +212,11 @@ Signed-off-by: Berend Sliedrecht <berend@animo.id>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/819" class=".btn">#819</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/841" class=".btn">#841</a>
             </td>
             <td>
                 <b>
-                    refactor(credentials): separate offer interfaces
+                    refactor(credentials): generic credentials module
                 </b>
             </td>
         </tr>
@@ -347,13 +225,82 @@ Signed-off-by: Berend Sliedrecht <berend@animo.id>
                 
             </td>
             <td>
-                This is to avoid having connection and connection id in the same object and be able to remove protocol version
-from the accept proposal / create offer functionality
+                This PR overhauls the credentials module to make it ready for modularization. This PR became a lot bigger than anticipated, but it are mostly consistency and cosmetic changes that don't change the behaviour. It also doesn't change the public api of the agent, except for a few interface fixes (e.g. removing a property that shouldn't have been exposed in the first place)
+
+Main item addressed in this PR:
+
+### Dynamic Interfaces for credential formats
+
+Instead of creating interfaces for each method defining the supported credential formats.
+
+```ts
+interface ProposeCredentialOptions {
+  credentialFormats: {
+    indy: IndyProposePayload
+  }
+}
+```
+
+We can now dynamically configure the services and credential formats. This will make it possible to extract the formats and services out of core while still keeping a fully typed interface.
+
+You can declare which services and formats you use like this (currently not needed as it has defaults, this will later be automatically detected based on your agent configuration):
+
+
+```ts
+// v1 and v2 for indy
+CredentialsModule<[IndyCredentialFormatService], [V1CredentialService, V2CredentialService]>
+```
+
+Now when I use the agent it will restrict which protocol versions I can use and which credentialFormats
+
+```ts
+agent.credentials.proposeCredentials({
+  /* other options */
+  protocolVersion: 'v3' // will error
+  credentialFormats: {
+    // indy is allowed and will have typing because we registered the interface.
+    indy: {
+    }
+  }
+})
+```
+
+So even though everything is still in core, it's fullly decoupled now.
+
+You define a format like this:
+
+```ts
+export interface IndyCredentialFormat extends CredentialFormat {
+  formatKey: 'indy'
+  credentialRecordType: 'indy'
+  credentialFormats: {
+    createProposal: IndyProposeCredentialFormat
+    acceptProposal: IndyAcceptProposalFormat
+    createOffer: IndyOfferCredentialFormat
+    acceptOffer: IndyAcceptOfferFormat
+    createRequest: never // cannot start from createRequest
+    acceptRequest: Record<string, never> // empty object
+    createCredential: IndyIssueCredentialFormat
+  }
+}
+```
+
+To make sure this won't cause issues with extensions later on I've extended the api a bit to make a bit more generic and less focused on the indy use case (adding interface method we don't need right now).
+
+In addition I made some smaller changes:
+- Remove `CredentialProtocolVersion`. You now need to use string values. Because we can dynamically register new versions, an enum doesn't really work.
+- move all indy related models to the indy format directory
+- create separate interfaces for each method in the module, service and format service. The interfaces were reused between layers, which helps with duplication, but makes consistency and overview harder. This will also help with separating into multiple packages and will keep us sharper on responsiblity of each layer.
+- order all methods in the module,service,format service based on the public/private interface order and the topic order (group all proposal methods at top, then all offer methods, etc..).
+- removed requirement to pass values to accept methods (this should 
+- removed all places where we modify the input options object to pass to a lower serivce. Options are now always unique.
+- move all tests to the correct folder (v1 and v2 tests were being mixed in the v1 and v2 directories)
+- extract revocation notification into separate revocation-notification protocol directory.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-31 09:32:53 +0000 UTC
+        Created At 2022-06-08 22:02:11 +0000 UTC
     </div>
 </div>
 
@@ -361,11 +308,11 @@ from the accept proposal / create offer functionality
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/818" class=".btn">#818</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/840" class=".btn">#840</a>
             </td>
             <td>
                 <b>
-                    merge main into 0.3.0-pre
+                    Feature/shortenedUrl
                 </b>
             </td>
         </tr>
@@ -374,12 +321,12 @@ from the accept proposal / create offer functionality
                 
             </td>
             <td>
-                <nil>
+                Adds support for attempting to parse a URL as a shortened URL after failing to parse a URL normally, This follows the most recent changes to the [`out-of-band` rfc](https://github.com/hyperledger/aries-rfcs/tree/main/features/0434-outofband) with the known caveats involved.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-31 05:55:20 +0000 UTC
+        Created At 2022-06-08 18:16:17 +0000 UTC
     </div>
 </div>
 
@@ -387,11 +334,11 @@ from the accept proposal / create offer functionality
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/816" class=".btn">#816</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/839" class=".btn">#839</a>
             </td>
             <td>
                 <b>
-                    fix(credentials): default for credentials in exchange record
+                    fix(oob): expose oob record
                 </b>
             </td>
         </tr>
@@ -400,12 +347,12 @@ from the accept proposal / create offer functionality
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Berend Sliedrecht <berend@animo.id>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-31 05:48:31 +0000 UTC
+        Created At 2022-06-08 14:43:56 +0000 UTC
     </div>
 </div>
 
@@ -413,11 +360,11 @@ from the accept proposal / create offer functionality
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/815" class=".btn">#815</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/838" class=".btn">#838</a>
             </td>
             <td>
                 <b>
-                    docs: add ontario copyright license
+                    fix: send message to service
                 </b>
             </td>
         </tr>
@@ -426,12 +373,14 @@ from the accept proposal / create offer functionality
                 
             </td>
             <td>
-                Signed-off-by: Mostafa <mostafa.youssef@ontario.ca>
+                Fixed issue where message sender would incorrectly return early from loop (inside `sendMessage`) even if service was unable to be satisfied by outbound transports.
+
+Signed-off-by: Niall Shaw <niall.shaw@absa.africa>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-31 02:55:46 +0000 UTC
+        Created At 2022-06-07 15:24:47 +0000 UTC
     </div>
 </div>
 
