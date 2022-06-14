@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2357" class=".btn">#2357</a>
+            </td>
+            <td>
+                <b>
+                    Feature/proposal batches
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Description of the Change
+Safe implementation of batched proposals processing.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-14 06:18:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2354" class=".btn">#2354</a>
             </td>
             <td>
@@ -929,57 +956,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2022-06-07 08:48:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2326" class=".btn">#2326</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #2301: Add transaction's block hash when querying it
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">help wanted</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: omkar-mohanty <franzohouser@gmail.com>
-
-### Description of the Change
-This PR introduces `TransactionQueryResult` struct. This struct holds the data of individual transaction as well as the hash of the block to which the transaction belongs to.
-### Issue
-
-Closes #2301 
-In the Iroha Explorer, we fetch transactions with FindAllTransactions query, and we want to know to what block each of them belongs to.
-### Benefits
-We know which transaction belongs to which block.
-### Possible Drawbacks
-Additional struct to maintain  
-### Alternate Designs *[optional]*
-As proposed by @0x009922 
-1. Extend `Transaction` or `RejectedTransaction` structures with `block_hash` field 
-2. Extend general TransactionValue with block_hash field (i.e. make it struct instead of enum)
-#### Possible Drawbacks as seen by  @[appetrosyan](https://github.com/appetrosyan)
-
-> Extend `Transaction` or `RejectedTransaction` structures with `block_hash` field 
-
-This could lead to an OOM attack
-
-> Extend general TransactionValue with block_hash field (i.e. make it struct instead of enum) 
-
-Problematic in terms of memory 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-07 04:29:57 +0000 UTC
     </div>
 </div>
 
