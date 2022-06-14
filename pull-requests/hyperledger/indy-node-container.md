@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node-container
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node-container/pull/90" class=".btn">#90</a>
+                PR <a href="https://github.com/hyperledger/indy-node-container/pull/92" class=".btn">#92</a>
             </td>
             <td>
                 <b>
-                    update to latest indy node from ubuntu20 branch
+                    Added network-build and network-run directories
                 </b>
             </td>
         </tr>
@@ -27,12 +27,40 @@ permalink: /pull-requests/hyperledger/indy-node-container
                 
             </td>
             <td>
-                This includes all changes from the indy node ubuntu20 branch.
+                Updates to the README.md are pending
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-23 07:42:02 +0000 UTC
+        Created At 2022-06-08 22:03:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-node-container/pull/91" class=".btn">#91</a>
+            </td>
+            <td>
+                <b>
+                    Ubuntu20 image based on ubuntu20 RC2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Based on 
+- https://github.com/hyperledger/indy-node/releases/v1.13.1-rc2 
+- https://github.com/hyperledger/indy-plenum/releases/v1.13.1-rc2
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-08 13:52:25 +0000 UTC
     </div>
 </div>
 

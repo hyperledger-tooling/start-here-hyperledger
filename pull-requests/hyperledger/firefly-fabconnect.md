@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/89" class=".btn">#89</a>
+                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/90" class=".btn">#90</a>
             </td>
             <td>
                 <b>
-                    Use defer to unlock mutex
+                    Support isInit in the gateway client
                 </b>
             </td>
         </tr>
@@ -27,40 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
                 
             </td>
             <td>
-                <nil>
+                Note the usage of the go.mod `replace` to point to the `is-init` branch on the `kaleido-io` fork, as we expect the PR (https://github.com/hyperledger/fabric-sdk-go/pull/236) to take some time to be reviewed and merged. This is only temporary and will be removed once the PR is merged.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-02 20:28:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/88" class=".btn">#88</a>
-            </td>
-            <td>
-                <b>
-                    Fix clients cache when identity is enrolled or re-enrolled
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When an identity is enrolled or re-enrolled, the clients object for the ledger, channel, gateway and event should be invalidated in the cache.
-
-Also added unit tests for the identity handler functions
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-01 18:50:39 +0000 UTC
+        Created At 2022-06-10 15:04:10 +0000 UTC
     </div>
 </div>
 

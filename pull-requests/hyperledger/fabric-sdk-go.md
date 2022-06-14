@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/230" class=".btn">#230</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/236" class=".btn">#236</a>
             </td>
             <td>
                 <b>
-                    wallets with custom walletstores as backends
+                    Add SubmitInit() to support chaincodes that require init
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
                 
             </td>
             <td>
-                As the Wallet struct's store field is unexported it cannot be set outside the gateway package. This pull request adds a simple function to make it possible to have a custom WalletStore's.
+                Even though the latest recommendation from the Fabric team is to step away from requiring `init`, a lot of customers still use this approach, and the official docs for Fabric chaincode lifecycle still describes the `--init-required` parameter, finally the `fabric-samples` that is used widely by tire-kickers still implements `InitLedger()`.
+
+Added a new `SubmitInit()` instead of modifying the existing signature to allow backward compatibility
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-13 10:05:08 +0000 UTC
+        Created At 2022-06-10 14:19:47 +0000 UTC
     </div>
 </div>
 

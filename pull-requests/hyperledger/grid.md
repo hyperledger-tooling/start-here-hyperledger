@@ -14,63 +14,11 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1440" class=".btn">#1440</a>
+                PR <a href="https://github.com/hyperledger/grid/pull/1442" class=".btn">#1442</a>
             </td>
             <td>
                 <b>
-                    Add release notes for v0.3.5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-06 14:03:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1439" class=".btn">#1439</a>
-            </td>
-            <td>
-                <b>
-                    BACKPORT 0-3: Test grid-ui docker build in CI 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">0-3</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-03 00:20:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1438" class=".btn">#1438</a>
-            </td>
-            <td>
-                <b>
-                    Test grid-ui docker build in CI
+                    Use ephemeral EC2 runners for building multi-arch docker images
                 </b>
             </td>
         </tr>
@@ -79,95 +27,12 @@ permalink: /pull-requests/hyperledger/grid
                 <span class="chip">Backport-0-3</span><span class="chip">main</span>
             </td>
             <td>
-                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-02 21:36:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1437" class=".btn">#1437</a>
-            </td>
-            <td>
-                <b>
-                    Add release notes for v0.3.4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">0-3</span>
-            </td>
-            <td>
-                Signed-off-by: Lee Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-02 14:42:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1436" class=".btn">#1436</a>
-            </td>
-            <td>
-                <b>
-                    BACKPORT 0-3: Update `/batches` endpoint to correctly return errors from Splinter
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Backport of: https://github.com/hyperledger/grid/pull/1432
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-01 14:31:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1435" class=".btn">#1435</a>
-            </td>
-            <td>
-                <b>
-                    Update Grid rest api to use actix web 4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-triage</span><span class="chip">main</span>
-            </td>
-            <td>
-                This updates the rest api code in Grid's SDK, Griddle, and the Grid
-Daemon to use Actix Web 4. This replaces actix web 3 in this codebase as
-both versions can't be supported due to conflicting re-exports of tokio
-structs/traits.
-
-Signed-off-by: Davey Newhall <newhall@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-31 15:57:02 +0000 UTC
+        Created At 2022-06-11 14:19:16 +0000 UTC
     </div>
 </div>
 

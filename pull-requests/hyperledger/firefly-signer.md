@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-signer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-signer/pull/7" class=".btn">#7</a>
+                PR <a href="https://github.com/hyperledger/firefly-signer/pull/8" class=".btn">#8</a>
             </td>
             <td>
                 <b>
-                    Fix aes-128-ctr cipher name
+                    Expose ABI Parameter on TypeComponent
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-signer
                 
             </td>
             <td>
-                The commit message was bigger than the diff. But an important fix, nonetheless. 
+                While writing the code in FireFly core to traverse the component tree, these three fields present on the `abi` are needed as well. I solved this by attaching the original `Parameter` to the `TypeComponent` struct/interface.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-02 20:00:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-signer/pull/6" class=".btn">#6</a>
-            </td>
-            <td>
-                <b>
-                    Add JSON function to WalletFile for serialization
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds an exposed `JSON()` function to the `WalletFile` interface so that code using `keystorev3` as a package can serialize wallet files and write them to disk. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-01 19:58:12 +0000 UTC
+        Created At 2022-06-09 17:55:35 +0000 UTC
     </div>
 </div>
 

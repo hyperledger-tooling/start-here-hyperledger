@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/495" class=".btn">#495</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/499" class=".btn">#499</a>
             </td>
             <td>
                 <b>
-                    Include @id on forward message
+                    Release 0.36.0
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-06 09:46:54 +0000 UTC
+        Created At 2022-06-07 13:41:59 +0000 UTC
     </div>
 </div>
 

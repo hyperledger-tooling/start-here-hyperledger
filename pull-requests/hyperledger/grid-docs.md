@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/336" class=".btn">#336</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/338" class=".btn">#338</a>
             </td>
             <td>
                 <b>
-                    Fix links to Sawtooth documentation
+                    Add batch tracking sequence diagrams
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/grid-docs
                 
             </td>
             <td>
-                The Sawtooth docs site recently underwent a reorganization. This PR fixes the existing links for the updated Sawtooth docs.
+                Closes #339 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-18 17:24:22 +0000 UTC
+        Created At 2022-06-13 19:15:21 +0000 UTC
     </div>
 </div>
 

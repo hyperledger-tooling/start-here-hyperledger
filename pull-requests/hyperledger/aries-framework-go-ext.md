@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/258" class=".btn">#258</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/261" class=".btn">#261</a>
             </td>
             <td>
                 <b>
-                    chore: update to latest aries
+                    fix: Use tags prefix only if not using raw JSON
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
                 
             </td>
             <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+                Signed-off-by: Bob Stasyszyn <Bob.Stasyszyn@securekey.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-02 18:00:37 +0000 UTC
+        Created At 2022-06-09 19:03:03 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/257" class=".btn">#257</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/260" class=".btn">#260</a>
             </td>
             <td>
                 <b>
-                    chore: update to latest orb image
+                    chore: Return an interface from QueryCustom instead of struct
                 </b>
             </td>
         </tr>
@@ -53,12 +53,44 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
                 
             </td>
             <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+                Returning an interface from QueryCustom so that it's easier for clients to mock out the iterator in unit tests.
+
+Signed-off-by: Bob Stasyszyn <Bob.Stasyszyn@securekey.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-02 12:51:55 +0000 UTC
+        Created At 2022-06-08 22:00:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/259" class=".btn">#259</a>
+            </td>
+            <td>
+                <b>
+                    feat: Added GetBulkAsRawMap function to the MongoDB API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                GetBulkAsRawMap returns a slice of 'raw' maps, one for each of the specified keys.
+
+Also exposed PrepareFilter and CreateMongoDBFindOptions so that clients may prepare queries for use with the QueryCustom function.
+
+Signed-off-by: Bob Stasyszyn <Bob.Stasyszyn@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-08 17:17:39 +0000 UTC
     </div>
 </div>
 

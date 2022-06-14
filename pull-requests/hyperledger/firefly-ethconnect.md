@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/221" class=".btn">#221</a>
+                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/222" class=".btn">#222</a>
             </td>
             <td>
                 <b>
-                    return a slice of length 0
+                    return a slice of length 0 - signed-off
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
                 
             </td>
             <td>
-                done a small change to return a slice of 0 length 
-![Screenshot from 2022-06-03 13-40-18](https://user-images.githubusercontent.com/49410636/171816537-8922599c-ae64-49fe-a043-7d6dd5b63eb5.png)
-
+                Signed-off-by: ShubhamSolanki24 <shubham24071999@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-03 08:18:39 +0000 UTC
+        Created At 2022-06-07 21:18:28 +0000 UTC
     </div>
 </div>
 
