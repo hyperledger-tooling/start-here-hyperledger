@@ -14,6 +14,91 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1067" class=".btn">#1067</a>
+            </td>
+            <td>
+                <b>
+                    remove context and branch cache
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">DocOps</span>
+            </td>
+            <td>
+                ## Pull request checklist
+
+Use the following list to make sure your PR fits the Besu documentation quality standard.
+
+### Before creating the pull request
+
+Make sure that:
+
+- [x] [All commits in this PR are signed off for the DCO](https://wiki.hyperledger.org/display/BESU/DCO).
+- [x] You've read the [contribution guidelines](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [x] You've [previewed your changes locally](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation).
+
+## Describe the change
+
+<!-- Add a clear and concise description of what your PR changes in the documentation. -->
+
+- Remove context from CI config as context was removed from Circle CI project config, making jobs fail.
+- remove branch from cache key as it prevents it to be reused between
+  branches when they could be similar most of the time.
+  This was unnecessary zealous engineering.
+
+## Issue fixed
+
+<!-- Link to the GitHub issue that your PR addresses.
+
+failing https://app.circleci.com/pipelines/github/hyperledger/besu-docs/4189/workflows/b247a0e6-2495-4177-8cf2-2c85a0f82a1e
+
+Add "fixes #{your issue number}" to close the issue automatically when the PR is merged.
+
+If your PR doesn't completely fix the issue, add "see #{your issue number}" to link to the issue
+without automatically closing it. -->
+
+## Impacted parts
+
+<!-- Check the item from the following lists that your PR impacts. You can check multiple boxes. -->
+
+For content changes:
+
+- [ ] Documentation content
+- [ ] Documentation page organization
+
+For tool changes:
+
+- [x] CircleCI workflow
+- [ ] Build and QA tools (for example, lint or vale)
+- [ ] MkDocs templates
+- [ ] MkDocs configuration
+- [ ] Python dependencies
+- [ ] Node dependencies and JavaScript
+- [ ] Read the Docs configuration
+- [ ] GitHub integration
+
+## After creating your PR and tests have finished
+
+Make sure that:
+
+- [ ] You've fixed any issues raised by the tests.
+- [ ] You've [previewed your changes on Read the Docs](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation)
+  and added a [preview link](#preview).
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-14 09:02:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1065" class=".btn">#1065</a>
             </td>
             <td>
@@ -484,189 +569,6 @@ where {your PR number} is replaced by the number of this PR.
     </table>
     <div class="right-align">
         Created At 2022-06-07 15:13:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1058" class=".btn">#1058</a>
-            </td>
-            <td>
-                <b>
-                    Update CI cache on CI change
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Pull request checklist
-
-Use the following list to make sure your PR fits the Besu documentation quality standard.
-
-### Before creating the pull request
-
-Make sure that:
-
-- [x] [All commits in this PR are signed off for the DCO](https://wiki.hyperledger.org/display/BESU/DCO).
-- [x] You've read the [contribution guidelines](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [x] You've [previewed your changes locally](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation).
-
-## Describe the change
-
-<!-- Add a clear and concise description of what your PR changes in the documentation. -->
-
-- Update CI cache on CI change
-- make it sticky to a branch (allowing PRs to update CI)
-
-## Issue fixed
-
-Build failing because of update of the Python docker image but not of the cache
-https://app.circleci.com/pipelines/github/hyperledger/besu-docs/4150/workflows/a2912bb5-8ad1-4d49-addf-9f290c619618/jobs/18078
-
-<!-- Link to the GitHub issue that your PR addresses.
-
-Add "fixes #{your issue number}" to close the issue automatically when the PR is merged.
-
-If your PR doesn't completely fix the issue, add "see #{your issue number}" to link to the issue
-without automatically closing it. -->
-
-## Impacted parts
-
-<!-- Check the item from the following lists that your PR impacts. You can check multiple boxes. -->
-
-For content changes:
-
-- [ ] Documentation content
-- [ ] Documentation page organization
-
-For tool changes:
-
-- [x] CircleCI workflow
-- [ ] Build and QA tools (for example, lint or vale)
-- [ ] MkDocs templates
-- [ ] MkDocs configuration
-- [ ] Python dependencies
-- [ ] Node dependencies and JavaScript
-- [ ] Read the Docs configuration
-- [ ] GitHub integration
-
-## After creating your PR and tests have finished
-
-Make sure that:
-
-- [x] You've fixed any issues raised by the tests.
-- [x] You've [previewed your changes on Read the Docs](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation)
-  and added a [preview link](#preview).
-
-## Preview
-
-<!-- Add the link to preview your changes on Read the Docs.
-
-The link format is "https://hyperledger-besu--{your PR number}.org.readthedocs.build/en/{your PR number}/",
-where {your PR number} is replaced by the number of this PR.
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-07 10:10:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1057" class=".btn">#1057</a>
-            </td>
-            <td>
-                <b>
-                    updating images and remove creds
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Pull request checklist
-
-Use the following list to make sure your PR fits the Besu documentation quality standard.
-
-### Before creating the pull request
-
-Make sure that:
-
-- [x] [All commits in this PR are signed off for the DCO](https://wiki.hyperledger.org/display/BESU/DCO).
-- [x] You've read the [contribution guidelines](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [x] You've [previewed your changes locally](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation).
-
-## Describe the change
-
-<!-- Add a clear and concise description of what your PR changes in the documentation. -->
-
-- Update Circle CI docker images as previous ones were deprecated
-- remove credentials as context provided one rotated and are not suitable anymore. Replicating Besu repos setup.
-
-## Issue fixed
-
-<!-- Link to the GitHub issue that your PR addresses.
-
-Add "fixes #{your issue number}" to close the issue automatically when the PR is merged.
-
-If your PR doesn't completely fix the issue, add "see #{your issue number}" to link to the issue
-without automatically closing it. -->
-
-Builds failing on main branches.
-
-## Impacted parts
-
-<!-- Check the item from the following lists that your PR impacts. You can check multiple boxes. -->
-
-For content changes:
-
-- [ ] Documentation content
-- [ ] Documentation page organization
-
-For tool changes:
-
-- [x] CircleCI workflow
-- [ ] Build and QA tools (for example, lint or vale)
-- [ ] MkDocs templates
-- [ ] MkDocs configuration
-- [ ] Python dependencies
-- [ ] Node dependencies and JavaScript
-- [ ] Read the Docs configuration
-- [ ] GitHub integration
-
-## After creating your PR and tests have finished
-
-Make sure that:
-
-- [ ] You've fixed any issues raised by the tests.
-- [ ] You've [previewed your changes on Read the Docs](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation)
-  and added a [preview link](#preview).
-
-## Preview
-
-<!-- Add the link to preview your changes on Read the Docs.
-
-The link format is "https://hyperledger-besu--{your PR number}.org.readthedocs.build/en/{your PR number}/",
-where {your PR number} is replaced by the number of this PR.
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-07 09:42:21 +0000 UTC
     </div>
 </div>
 

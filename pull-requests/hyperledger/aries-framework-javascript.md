@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/852" class=".btn">#852</a>
+            </td>
+            <td>
+                <b>
+                    feat: present proof v2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I coudn't see any conflicts when I merged this...
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-14 09:37:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/849" class=".btn">#849</a>
             </td>
             <td>
@@ -48,7 +74,7 @@ Signed-off-by: Moriarty <moritz@animo.id>
             </td>
             <td>
                 <b>
-                    fix(proof): allow duplicates in proof attributes
+                    fix(proofs): allow duplicates in proof attributes
                 </b>
             </td>
         </tr>

@@ -63,29 +63,3 @@ Moving hsm-samples from gateway repo  to  fabric-samples
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/758" class=".btn">#758</a>
-            </td>
-            <td>
-                <b>
-                    ERC1155 Multi Token Standard Java chaincode implementation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is the ERC1155 multi-token standard java chaincode implementation.  This chaincode follows existing golang erc1155 chaincode logic.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-07 09:19:27 +0000 UTC
-    </div>
-</div>
-

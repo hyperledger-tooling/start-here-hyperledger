@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/241" class=".btn">#241</a>
+            </td>
+            <td>
+                <b>
+                    [documentation] #232: Add doc comments for filters
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Documentation</span><span class="chip">2.0.0-pre-rc.5-lts</span>
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-14 10:00:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/240" class=".btn">#240</a>
+            </td>
+            <td>
+                <b>
+                    [documentation] #232: Review doc comments in test-tools and testcontainers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Documentation</span><span class="chip">2.0.0-pre-rc.5-lts</span>
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-14 08:23:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-java/pull/239" class=".btn">#239</a>
             </td>
             <td>

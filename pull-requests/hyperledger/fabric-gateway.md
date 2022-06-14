@@ -170,29 +170,3 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/445" class=".btn">#445</a>
-            </td>
-            <td>
-                <b>
-                    Docs Cleanup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-07 07:12:43 +0000 UTC
-    </div>
-</div>
-
