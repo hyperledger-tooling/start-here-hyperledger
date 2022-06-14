@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/764" class=".btn">#764</a>
+            </td>
+            <td>
+                <b>
+                    ERC:721 Check for Intitialized changed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Rajat Sharma <connecttorajat@outlook.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-14 12:45:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/760" class=".btn">#760</a>
             </td>
             <td>
@@ -33,33 +59,6 @@ permalink: /pull-requests/hyperledger/fabric-samples
     </table>
     <div class="right-align">
         Created At 2022-06-09 16:37:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/759" class=".btn">#759</a>
-            </td>
-            <td>
-                <b>
-                    Added hsm Samples using Gateway
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
-Moving hsm-samples from gateway repo  to  fabric-samples
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-07 16:43:56 +0000 UTC
     </div>
 </div>
 

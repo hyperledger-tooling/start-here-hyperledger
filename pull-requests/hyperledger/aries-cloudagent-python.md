@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">0.7.4</span>
             </td>
             <td>
                 <nil>

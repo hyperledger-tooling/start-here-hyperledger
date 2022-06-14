@@ -31,11 +31,9 @@ permalink: /pull-requests/hyperledger/caliper
 * The unit test workflow which exists in Azure Pipelines is ported over to GitHub Actions
 * A badge is added to the README for the workflow
 
+The migration is complete. Optimizations like cache management will be tackled later.
+
 Closes #1359 
-
-#### Some additional notes:
-
-* Package lock is added to help keep track of the dependency cache (It is also recommended to commit the lock file to source control in the official NodeJS guide https://nodejs.dev/learn/the-package-lock-json-file)
             </td>
         </tr>
     </table>

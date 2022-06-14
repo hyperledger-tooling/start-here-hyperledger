@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/363" class=".btn">#363</a>
+            </td>
+            <td>
+                <b>
+                    Backport 0-4: Add remove_pruned_entries to in-txn variants
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backport of #362 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-14 15:07:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/transact/pull/362" class=".btn">#362</a>
             </td>
             <td>
@@ -190,35 +216,6 @@ permalink: /pull-requests/hyperledger/transact
     </table>
     <div class="right-align">
         Created At 2022-06-08 14:18:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/355" class=".btn">#355</a>
-            </td>
-            <td>
-                <b>
-                    Remove parent state root reference
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change fixes an issue during state pruning in SQLite where the parent_state_root for change logs was not being unlinked. This causes a foreign key constraint violation when cleaning up pruned items.
-
-The postgres implementation already has this unlinking code.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-07 17:38:46 +0000 UTC
     </div>
 </div>
 

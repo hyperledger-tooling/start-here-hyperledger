@@ -546,29 +546,3 @@ where {your PR number} is replaced by the number of this PR.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1059" class=".btn">#1059</a>
-            </td>
-            <td>
-                <b>
-                    Fix cache fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fix of two missing updates in #1058
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-07 15:13:41 +0000 UTC
-    </div>
-</div>
-

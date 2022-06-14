@@ -14,6 +14,93 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1978" class=".btn">#1978</a>
+            </td>
+            <td>
+                <b>
+                    [shared] python, ansible, openshift version upgrade
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+**Changelog**
+- Version upgrades
+  - python 3.8
+  - ansible [core 2.12.6]
+  - openshift 0.13.1
+- Updated docs with version change
+- Updated bevel-build docker images
+
+ 
+
+**Reviewed by**
+@jagpreetsinghsasan 
+
+ 
+
+**Linked issue**
+#1951 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-14 16:44:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1977" class=".btn">#1977</a>
+            </td>
+            <td>
+                <b>
+                    [chore] Update k8s_facts to k8s_info
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: mgCepeda <marina.gomez.cepeda@accenture.com>
+
+**Changelog**
+
+- Update k8s_facts to k8s_info because in more updated versions of ansible the error shown in the screenshot occurred
+
+![image](https://user-images.githubusercontent.com/83813093/173606055-81874991-3887-4fb9-b131-b239c920d112.png)
+
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar @jagpreetsinghsasan 
+
+ 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-14 14:44:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/1976" class=".btn">#1976</a>
             </td>
             <td>

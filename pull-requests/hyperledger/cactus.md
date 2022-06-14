@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2076" class=".btn">#2076</a>
+            </td>
+            <td>
+                <b>
+                    fix: fixed lint errors pt2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixed Lint errors throughout quourum-test-ledger.ts, also fixed a try catch error. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-14 17:39:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/2075" class=".btn">#2075</a>
             </td>
             <td>
@@ -63,55 +89,6 @@ Signed-off-by: Abhinav Srivastava (abhinavmir#1898 on Discord)
     </table>
     <div class="right-align">
         Created At 2022-06-10 02:13:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2071" class=".btn">#2071</a>
-            </td>
-            <td>
-                <b>
-                    feat(fabric-socketio-connector): sending transactions signed on the client-side
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependent</span>
-            </td>
-            <td>
-                - Add functions to support entire process of sending transaction to the ledger without sharing
-  any private key with the connector.
-- Add test cases to check the new functionalities.
-- Adjust asset-trade sample app to use new logic that doesn't send the private key to the connector.
-- Move fabric signing utils to a separate file.
-- Add fabric protobuf serializers and deserializers, so they can be send back and forth
-  between connector and BLP without loosing type information.
-- Add an option to FabricTestLedgerV1 to allow attaching to already running ledger container.
-  This can speed up test development/troubleshoot process.
-- Improve fabric-all-in-one ledger healthcheck, so that it waits for basic chaincode intialization.
-  This is not strictly needed by current tests, but may be expected by future tests.
-- Refactor duplicated logic in fabric-connector.
-- Fix fabric-socketio module entry points (minor fix).
-
-Closes: #2070
-
-Depends on #2047
-
-Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
-
--------------
-
-As always, please review only the last commit. Remaining ones are just dependencies, that will be squashed before an actual merge.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-07 15:48:30 +0000 UTC
     </div>
 </div>
 

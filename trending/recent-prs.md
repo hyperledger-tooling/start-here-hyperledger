@@ -1,13 +1,13 @@
 
-[119](https://github.com/hyperledger/aries-framework-javascript-ext/pull/119) feat(redux-store): update to AFJ 0.2.0
+[2076](https://github.com/hyperledger/cactus/pull/2076) fix: fixed lint errors pt2
 
-[100](https://github.com/hyperledger/fabric-protos/pull/100) Publish Go apiv2 bindings
+[357](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/357) Refresh cache and pin npm version in quality check
 
-[241](https://github.com/hyperledger/iroha-java/pull/241) [documentation] #232: Add doc comments for filters
+[1978](https://github.com/hyperledger/bevel/pull/1978) [shared] python, ansible, openshift version upgrade
 
-[852](https://github.com/hyperledger/aries-framework-javascript/pull/852) feat: present proof v2
+[356](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/356) Add record loading animation
 
-[2359](https://github.com/hyperledger/iroha/pull/2359) [fix] #2358: Add release with debug profile
+[101](https://github.com/hyperledger/fabric-protos/pull/101) Use deploy key to publish Go apiv2 bindings
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
