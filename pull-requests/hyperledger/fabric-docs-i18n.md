@@ -96,31 +96,3 @@ Signed-off-by: Yuki Kondo <yuki.kondo.ob@hitachi.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/723" class=".btn">#723</a>
-            </td>
-            <td>
-                <b>
-                    [ja_JP] Translate "upgrade_to_newest_version.md" into Japanese
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This patch translates "Upgrading to the latest release >> Considerations for getting to v2.x" (upgrade_to_newest_version.md) into Japanese.
-
-Signed-off-by: Taku Shimosawa <taku.shimosawa.uf@hitachi.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-07 23:53:54 +0000 UTC
-    </div>
-</div>
-

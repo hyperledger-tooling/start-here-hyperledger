@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/862" class=".btn">#862</a>
+            </td>
+            <td>
+                <b>
+                    Remove namespace from identity manager, network map, and group manager calls
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12)
+
+Each manager is initialized for a single namespace and can assume all calls
+are scoped within that namespace.
+
+The one exception is for "network version 1", where identities may have been
+registered on the legacy "ff_system" namespace. In this case, the identity
+manager will query "ff_system" instead of its assigned namespace (noting that
+this will only work if "ff_system" shares a database with that namespace).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-14 19:06:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/861" class=".btn">#861</a>
             </td>
             <td>
@@ -28,6 +62,8 @@ permalink: /pull-requests/hyperledger/firefly
             </td>
             <td>
                 ~~This is in a PR chain with the (massive) #855, so that should be reviewed and merged first. Only the last 2 commits are new.~~
+
+Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12)
 
 This is the counterpart to https://github.com/hyperledger/firefly-tokens-erc1155/pull/78 and https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/59.
             </td>

@@ -1,13 +1,13 @@
 
-[2076](https://github.com/hyperledger/cactus/pull/2076) fix: fixed lint errors pt2
+[282](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/282) Bump net2 from 0.2.34 to 0.2.37 in /core/relay
 
-[357](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/357) Refresh cache and pin npm version in quality check
+[1808](https://github.com/hyperledger/aries-cloudagent-python/pull/1808) Fix put_file when the server returns a redirect
 
-[1978](https://github.com/hyperledger/bevel/pull/1978) [shared] python, ansible, openshift version upgrade
+[2533](https://github.com/hyperledger/indy-sdk/pull/2533) Bump net2 from 0.2.33 to 0.2.37 in /vcx/dummy-cloud-agent
 
-[356](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/356) Add record loading animation
+[2532](https://github.com/hyperledger/indy-sdk/pull/2532) Bump net2 from 0.2.34 to 0.2.37 in /vcx/libvcx
 
-[101](https://github.com/hyperledger/fabric-protos/pull/101) Use deploy key to publish Go apiv2 bindings
+[102](https://github.com/hyperledger/fabric-protos/pull/102) Bind secrets everywhere
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

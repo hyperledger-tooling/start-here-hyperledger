@@ -279,7 +279,7 @@ Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
         </tr>
         <tr>
             <td>
-                <span class="chip">doc-change-required</span><span class="chip">mainnet</span>
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 
@@ -336,56 +336,6 @@ fixes #3947
     </table>
     <div class="right-align">
         Created At 2022-06-08 03:10:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3944" class=".btn">#3944</a>
-            </td>
-            <td>
-                <b>
-                    3890 disconnect pow net
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-- Takes note of the total difficulty of the final PoW block, pow_d.
-- Upon receipt of the second finalized block, disconnect any peers that have a total difficulty over pow_d (likely not many).
-- Upon receipt of the second finalized block, disconnect incoming new peers that have a total difficulty over pow_d.
-- Upon receipt of the second finalized block, start rejecting connections from peers sending NEW_BLOCK or NEW_BLOCK_HASH messages.
-- Upon receipt of the second finalized block, stop all block propagation.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #3890 
-fixes #3943 
-
-## Documentation
-
-- [X] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-07 21:15:39 +0000 UTC
     </div>
 </div>
 
