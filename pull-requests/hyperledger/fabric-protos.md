@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/108" class=".btn">#108</a>
+            </td>
+            <td>
+                <b>
+                    Allow release builds to be re-run manually
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                It would be useful to rerun the release build using the workflow_dispatch event, however this does not currently work because the workflows are checking the github ref for a v* version tag.
+
+It’s not safe to always publish for a manual build and all the language bindings at a particular version should be published from the same commit, so this PR adds a job to the ci-checks workflow to look for the required version tag on the commit being built.
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 15:17:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/107" class=".btn">#107</a>
+            </td>
+            <td>
+                <b>
+                    Allow Maven after Github fails
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ry Jones <ry@linux.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 13:20:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-protos/pull/106" class=".btn">#106</a>
             </td>
             <td>
@@ -205,34 +261,6 @@ Signed-off-by: Ry Jones <ry@linux.com>
     </table>
     <div class="right-align">
         Created At 2022-06-13 21:37:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/98" class=".btn">#98</a>
-            </td>
-            <td>
-                <b>
-                    Update builds to run for version tags
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Release builds will be triggered by creating a new tag, e.g. v0.1.0
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-08 13:13:02 +0000 UTC
     </div>
 </div>
 

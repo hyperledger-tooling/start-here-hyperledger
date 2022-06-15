@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/243" class=".btn">#243</a>
+            </td>
+            <td>
+                <b>
+                    Feature/iroha 231
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                New schema changes
+Added query predicates support to filter queries
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 15:25:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-java/pull/242" class=".btn">#242</a>
             </td>
             <td>

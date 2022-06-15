@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/596" class=".btn">#596</a>
+            </td>
+            <td>
+                <b>
+                    Use GitHub Actions for PR and scheduled builds (release-1.4)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 14:37:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/595" class=".btn">#595</a>
+            </td>
+            <td>
+                <b>
+                    Use GitHub Actions for PR and scheduled builds (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 13:12:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/592" class=".btn">#592</a>
             </td>
             <td>
@@ -35,34 +87,6 @@ Resolves #582
     </table>
     <div class="right-align">
         Created At 2022-06-10 12:12:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/591" class=".btn">#591</a>
-            </td>
-            <td>
-                <b>
-                    Use only GitHub Actions for PR and scheduled builds
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Azure Pipelines now only triggers on pushes when a PR is merged, to deal with publishing, until this can be migrated to GitHub Actions.
-
-Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-08 17:06:30 +0000 UTC
     </div>
 </div>
 
