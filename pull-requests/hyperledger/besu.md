@@ -312,30 +312,3 @@ fixes #3947
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3945" class=".btn">#3945</a>
-            </td>
-            <td>
-                <b>
-                    This makes some changes to how we onboard a new EthPeer into EthPeers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stefan <stefan.pingel@consensys.net>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-08 03:10:24 +0000 UTC
-    </div>
-</div>
-

@@ -68,29 +68,3 @@ Signed-off-by: senthil <cendhu@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/419" class=".btn">#419</a>
-            </td>
-            <td>
-                <b>
-                    Tx proof test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-08 06:10:24 +0000 UTC
-    </div>
-</div>
-
