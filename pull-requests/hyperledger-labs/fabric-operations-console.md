@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/230" class=".btn">#230</a>
+            </td>
+            <td>
+                <b>
+                    Increased timeout as per staging environment execution
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ketul Shah <shah.ketul@ibm.com>
+
+#### Type of change
+- Test update
+
+#### Description
+Increased timeout as per pipeline execution failures / timeout errors
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 14:28:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/228" class=".btn">#228</a>
             </td>
             <td>

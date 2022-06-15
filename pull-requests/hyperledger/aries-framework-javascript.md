@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/864" class=".btn">#864</a>
+            </td>
+            <td>
+                <b>
+                    fix(credentials): store revocation identifiers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #863 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 13:37:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/862" class=".btn">#862</a>
             </td>
             <td>
@@ -433,58 +459,6 @@ In addition I made some smaller changes:
     </table>
     <div class="right-align">
         Created At 2022-06-08 22:02:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/840" class=".btn">#840</a>
-            </td>
-            <td>
-                <b>
-                    feat(oob): support fetching shortened invitation urls
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds support for attempting to parse a URL as a shortened URL after failing to parse a URL normally, This follows the most recent changes to the [`out-of-band` rfc](https://github.com/hyperledger/aries-rfcs/tree/main/features/0434-outofband) with the known caveats involved.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-08 18:16:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/839" class=".btn">#839</a>
-            </td>
-            <td>
-                <b>
-                    fix(oob): expose oob record
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Berend Sliedrecht <berend@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-08 14:43:56 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1811" class=".btn">#1811</a>
+            </td>
+            <td>
+                <b>
+                    Fix: present-proof v1 send-proposal flow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">0.7.4</span>
+            </td>
+            <td>
+                - resolve #1809 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 17:41:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1808" class=".btn">#1808</a>
             </td>
             <td>
@@ -24,7 +50,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">0.7.4</span>
             </td>
             <td>
                 I believe this fix only applies to tails file uploads at the moment. Previously, aiohttp would encounter an error because it closed the tails file after the first attempt.
@@ -118,33 +144,6 @@ Closed original PR #1792 due to merge issues.
     </table>
     <div class="right-align">
         Created At 2022-06-10 14:45:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1797" class=".btn">#1797</a>
-            </td>
-            <td>
-                <b>
-                    feat: Add filter param to connection list for invitations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">0.7.4</span>
-            </td>
-            <td>
-                As mentioned in #1789, there is no way to currently filter for connections/invited created via the OOB handler. This commit adds a filter query parameter to filter with the invitation message ID.
-- resolve #1789 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-08 13:39:23 +0000 UTC
     </div>
 </div>
 

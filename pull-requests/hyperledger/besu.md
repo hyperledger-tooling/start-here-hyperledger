@@ -102,7 +102,7 @@ Signed-off-by: Ameziane H. <ameziane.hamlat@consensys.net>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>

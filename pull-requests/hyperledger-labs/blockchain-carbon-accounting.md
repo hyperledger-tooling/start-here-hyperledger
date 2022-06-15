@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/559" class=".btn">#559</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/560" class=".btn">#560</a>
             </td>
             <td>
                 <b>
-                    monorepo refactoring
+                    refactoring of directories
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
                 
             </td>
             <td>
-                <nil>
+                Not all done yet but made a lot of progress so far.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-06 17:18:56 +0000 UTC
+        Created At 2022-06-15 17:13:08 +0000 UTC
     </div>
 </div>
 
