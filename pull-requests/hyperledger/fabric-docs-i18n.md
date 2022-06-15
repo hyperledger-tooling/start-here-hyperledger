@@ -66,33 +66,3 @@ Signed-off-by: Yuki Kondo <yuki.kondo.ob@hitachi.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/724" class=".btn">#724</a>
-            </td>
-            <td>
-                <b>
-                    [ja_JP] Translate "idemix.rst" into Japanese
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">jaJP-docs-ongoing</span>
-            </td>
-            <td>
-                This patch translates source/idemix.rst into Japanese.
-
-Resolves #586
-
-Signed-off-by: Yuki Kondo <yuki.kondo.ob@hitachi.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-08 05:43:17 +0000 UTC
-    </div>
-</div>
-

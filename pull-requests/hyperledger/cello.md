@@ -65,32 +65,3 @@ Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/454" class=".btn">#454</a>
-            </td>
-            <td>
-                <b>
-                    Fix `dict` object has no attribute `urls` error in the get nodes endpoint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Remove node conversion because we upgraded urls field from deprecated
-JSON field to django4.0 supported one.
-
-Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-08 02:59:10 +0000 UTC
-    </div>
-</div>
-
