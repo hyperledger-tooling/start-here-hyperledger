@@ -59,6 +59,7 @@ permalink: /pull-requests/hyperledger/besu
 - Set format_version to 5
 - set optimize_filters_for_memory to true
 - Increase block size to 32K
+- set cache_index_and_filter_blocks to true (this may have a big impact on performances)
 
 Signed-off-by: Ameziane H. <ameziane.hamlat@consensys.net>
 

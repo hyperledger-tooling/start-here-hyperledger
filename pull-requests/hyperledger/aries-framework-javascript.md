@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/853" class=".btn">#853</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/862" class=".btn">#862</a>
             </td>
             <td>
                 <b>
-                    Merge MAIN -> PPV2
+                    fix(credentials): indy cred attachment format
                 </b>
             </td>
         </tr>
@@ -27,12 +27,116 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Timo Glastra <timo@animo.id>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-14 10:00:04 +0000 UTC
+        Created At 2022-06-15 10:43:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/861" class=".btn">#861</a>
+            </td>
+            <td>
+                <b>
+                    fix(credentials): parse and validate preview @type
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 10:25:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/857" class=".btn">#857</a>
+            </td>
+            <td>
+                <b>
+                    fix(node): only send 500 if no headers sent yet
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                If an error occurred after a message has been sent in response in the http inbound transport it would error out because we can't return a response twice in http. This just checks if the response is already sent
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 08:56:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/856" class=".btn">#856</a>
+            </td>
+            <td>
+                <b>
+                    fix(credentials): use interface in module api
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                My previous PR to generalize the crdentials module undid some of the changes to only allow interfaces.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 08:45:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/855" class=".btn">#855</a>
+            </td>
+            <td>
+                <b>
+                    fix(credentials): proposal preview attribute 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In the v2 preview `credential_proposal` should be `credential_preview`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 08:06:28 +0000 UTC
     </div>
 </div>
 
@@ -44,7 +148,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
             </td>
             <td>
                 <b>
-                    feat: wip add choice for taa mechanism
+                    feat(indy): add choice for taa mechanism
                 </b>
             </td>
         </tr>
@@ -58,6 +162,8 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
 * ensure this is complete and correct
 
 Signed-off-by: Moriarty <moritz@animo.id>
+
+BREAKING CHANGE: the transaction author agreement acceptance mechanism was previously automatically the first acceptance mechanism from the acceptance mechanism list. With this addition, the framework never automatically selects the acceptance mechanism anymore and it needs to be specified in the `transactionAuthorAgreement` in the `indyLedgers` agent config array.
             </td>
         </tr>
     </table>
@@ -338,7 +444,7 @@ In addition I made some smaller changes:
             </td>
             <td>
                 <b>
-                    Feature/shortenedUrl
+                    feat(oob): support fetching shortened invitation urls
                 </b>
             </td>
         </tr>

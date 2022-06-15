@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/257" class=".btn">#257</a>
+            </td>
+            <td>
+                <b>
+                    Namespace is always zkat even if it was changed in the node config #256
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When invoking token.GetManagementService() without any additional option, the token-api tries to load the default TMS. What does this mean? The token-api checks if there is a default fabric or orion network configuration, if yes it consider that the default. For the channel, it is the same. For the namespace, the issue is that there can be multiple token namespaces in the same <network, channel>. So, the code currently uses the default namespace zkat.
+
+So, the solution we can put forth is the following: The code checks the configuration and if there is a unique tuple <network, channel, namespace>, the code will use that one, otherwise it will return an error.
+
+Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 07:22:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/254" class=".btn">#254</a>
             </td>
             <td>
@@ -90,58 +120,6 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-06-08 16:48:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/249" class=".btn">#249</a>
-            </td>
-            <td>
-                <b>
-                    filter metadata by recipient identity #212
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-08 09:18:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/248" class=".btn">#248</a>
-            </td>
-            <td>
-                <b>
-                    CI go1.17
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-08 07:41:51 +0000 UTC
     </div>
 </div>
 

@@ -1,13 +1,13 @@
 
-[282](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/282) Bump net2 from 0.2.34 to 0.2.37 in /core/relay
+[871](https://github.com/hyperledger-labs/solang/pull/871) Bump clap version
 
-[1808](https://github.com/hyperledger/aries-cloudagent-python/pull/1808) Fix put_file when the server returns a redirect
+[862](https://github.com/hyperledger/aries-framework-javascript/pull/862) fix(credentials): indy cred attachment format
 
-[2533](https://github.com/hyperledger/indy-sdk/pull/2533) Bump net2 from 0.2.33 to 0.2.37 in /vcx/dummy-cloud-agent
+[861](https://github.com/hyperledger/aries-framework-javascript/pull/861) fix(credentials): parse and validate preview @type
 
-[2532](https://github.com/hyperledger/indy-sdk/pull/2532) Bump net2 from 0.2.34 to 0.2.37 in /vcx/libvcx
+[106](https://github.com/hyperledger/fabric-protos/pull/106) Use base64 encoded deploy key
 
-[102](https://github.com/hyperledger/fabric-protos/pull/102) Bind secrets everywhere
+[105](https://github.com/hyperledger/fabric-protos/pull/105) Explicitly install and use Go 1.18 in GitHub Actions
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

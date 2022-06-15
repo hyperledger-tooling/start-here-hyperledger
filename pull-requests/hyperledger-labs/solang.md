@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/871" class=".btn">#871</a>
+            </td>
+            <td>
+                <b>
+                    Bump clap version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently CI tests are failing. Fix this
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 11:39:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/870" class=".btn">#870</a>
             </td>
             <td>
@@ -177,34 +203,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2022-06-08 17:47:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/862" class=".btn">#862</a>
-            </td>
-            <td>
-                <b>
-                    Move to latest solana-rbpf crate
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This crate is used for solana tests. The version used before this commit has an security issue:
-
-Solana solana_rbpf before 0.2.29 has an addition integer overflow via invalid ELF program headers. elf.rs has a panic via a malformed eBPF program.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-08 09:01:37 +0000 UTC
     </div>
 </div>
 
