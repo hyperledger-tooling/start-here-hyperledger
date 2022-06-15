@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1808" class=".btn">#1808</a>
+            </td>
+            <td>
+                <b>
+                    Fix put_file when the server returns a redirect
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I believe this fix only applies to tails file uploads at the moment. Previously, aiohttp would encounter an error because it closed the tails file after the first attempt.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 00:40:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1804" class=".btn">#1804</a>
             </td>
             <td>

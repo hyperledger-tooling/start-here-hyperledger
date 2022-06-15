@@ -254,29 +254,3 @@ index 60d2df2..c8ec720 100644
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/738" class=".btn">#738</a>
-            </td>
-            <td>
-                <b>
-                    Url shortening clarifications
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This solely focuses on clarifying the processing of shortened URLs and some complications found in development, specifically with certain HTTP libraries and languages behaving in an unexpected way.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-07 23:14:29 +0000 UTC
-    </div>
-</div>
-

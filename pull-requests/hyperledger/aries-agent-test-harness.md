@@ -42,29 +42,3 @@ Fixes #503
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/508" class=".btn">#508</a>
-            </td>
-            <td>
-                <b>
-                    Update services for cleaner execution and afgo-acapy interop support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-07 21:07:16 +0000 UTC
-    </div>
-</div>
-
