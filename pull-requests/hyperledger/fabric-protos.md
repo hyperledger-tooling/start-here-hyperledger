@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/102" class=".btn">#102</a>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/106" class=".btn">#106</a>
             </td>
             <td>
                 <b>
-                    Bind secrets everywhere
+                    Use base64 encoded deploy key
                 </b>
             </td>
         </tr>
@@ -27,12 +27,100 @@ permalink: /pull-requests/hyperledger/fabric-protos
                 
             </td>
             <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
+                The key works locally but fails in the build for some reason…
+
+```
+Load key "/home/runner/.ssh/fabric-protos-go-apiv2_deploy_key": invalid format
+```
+
+Try using a base64 encoded key instead
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-14 22:13:52 +0000 UTC
+        Created At 2022-06-15 10:14:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/105" class=".btn">#105</a>
+            </td>
+            <td>
+                <b>
+                    Explicitly install and use Go 1.18 in GitHub Actions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 10:01:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/104" class=".btn">#104</a>
+            </td>
+            <td>
+                <b>
+                    Bump version to 0.1.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 08:20:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/103" class=".btn">#103</a>
+            </td>
+            <td>
+                <b>
+                    Fix path to installDeployKey.sh script
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Build failed to find the script due to working-directory being publish-apiv2
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 08:20:03 +0000 UTC
     </div>
 </div>
 

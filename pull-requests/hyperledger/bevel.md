@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1979" class=".btn">#1979</a>
+            </td>
+            <td>
+                <b>
+                    [corda] Update Corda helm value templates for flux v2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: mgCepeda <marina.gomez.cepeda@accenture.com>
+
+**Changelog**
+
+- Update corda tpl for flux v2
+- Update Update k8s_facts to k8s_info
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar @jagpreetsinghsasan 
+
+ 
+
+**Linked issue**
+#1971 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 08:54:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/1978" class=".btn">#1978</a>
             </td>
             <td>
