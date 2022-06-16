@@ -275,29 +275,3 @@ This PR only contains changes to Markdown files. There will be another PR for do
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/235" class=".btn">#235</a>
-            </td>
-            <td>
-                <b>
-                    iroha-123: added permission and refactored string to enum
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                added permission and refactored string to enum
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-09 13:25:54 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/873" class=".btn">#873</a>
+            </td>
+            <td>
+                <b>
+                    build: update node version to 16LTS and remove support for 12
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                wip - needs testing
+
+Signed-off-by: Moriarty <moritz@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-16 12:45:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/872" class=".btn">#872</a>
             </td>
             <td>
@@ -72,7 +100,7 @@ Signed-off-by: Moriarty <moritz@animo.id>
             </td>
             <td>
                 <b>
-                    feat: delete associated didCommMessages when deleting credential records
+                    feat(credentials): delete associated didCommMessages
                 </b>
             </td>
         </tr>
@@ -443,34 +471,6 @@ Supersedes #843
     </table>
     <div class="right-align">
         Created At 2022-06-09 20:56:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/842" class=".btn">#842</a>
-            </td>
-            <td>
-                <b>
-                    feat(core): generic repository events
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #723 
-
-Added generic `RecordSavedEvent`, `RecordUpdatedEvent`, and `RecordDeletedEvent` emitted from `Repository`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-09 15:03:31 +0000 UTC
     </div>
 </div>
 

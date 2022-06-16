@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
             </td>
             <td>
                 <b>
-                    Add SubmitInit() to support chaincodes that require init
+                    Add WithInit() to support chaincodes that require init
                 </b>
             </td>
         </tr>
