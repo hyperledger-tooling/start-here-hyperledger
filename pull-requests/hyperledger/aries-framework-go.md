@@ -77,35 +77,3 @@ Data models are validated against their JSON LD context before being saved into 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3259" class=".btn">#3259</a>
-            </td>
-            <td>
-                <b>
-                    refactor: remote cryptobox URLs renamed to /wrap and /unwrap
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                this change updates the remote CryptoBox api URIs to point to remote KMS's key /wrap and /unwrap to match ECDH-ES and ECDH-1PU key wrapping.
-
-This change requires the KMS server to udpate /easy to /wrap, /easyOpen and /sealOpen to /unwrap
-
-Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-09 17:38:06 +0000 UTC
-    </div>
-</div>
-

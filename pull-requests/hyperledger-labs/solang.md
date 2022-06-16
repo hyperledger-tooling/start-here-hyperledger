@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/880" class=".btn">#880</a>
+            </td>
+            <td>
+                <b>
+                    cast struct member reference to wrong type causes panic
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This should be detected during sema.
+
+Fixes https://github.com/hyperledger-labs/solang/issues/867
+Fixes https://github.com/hyperledger-labs/solang/issues/868
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-16 14:45:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/879" class=".btn">#879</a>
+            </td>
+            <td>
+                <b>
+                    Using storage variables does not mean a function reads from storage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A function only has to be view if it loads from storage.
+
+Fixes https://github.com/hyperledger-labs/solang/issues/827
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-16 14:43:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/873" class=".btn">#873</a>
             </td>
             <td>
