@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/12" class=".btn">#12</a>
+            </td>
+            <td>
+                <b>
+                    Push to right place
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ry Jones <ry@linux.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 18:25:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/11" class=".btn">#11</a>
             </td>
             <td>
@@ -165,35 +191,6 @@ Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-06-09 22:43:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/5" class=".btn">#5</a>
-            </td>
-            <td>
-                <b>
-                    Update Orderer --connTimeout
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add orderer timeout on chaincode calls.
-Remove orderer flags on "peer channel join" since no connection to orderer is made.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-08 22:16:13 +0000 UTC
     </div>
 </div>
 

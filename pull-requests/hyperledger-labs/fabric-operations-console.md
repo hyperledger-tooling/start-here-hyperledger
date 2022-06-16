@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/231" class=".btn">#231</a>
+            </td>
+            <td>
+                <b>
+                    update license headers in all files
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Documentation update
+
+#### Description
+Looks like a big pr, but its just a license update we had to do.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 21:24:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/230" class=".btn">#230</a>
             </td>
             <td>
@@ -75,44 +110,6 @@ Npm dependency updates
     </table>
     <div class="right-align">
         Created At 2022-06-09 20:00:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/227" class=".btn">#227</a>
-            </td>
-            <td>
-                <b>
-                    remove hardcoded title text, use product label str
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-- The base text for the browser tab title was hard coded. This fixes that and uses the product string.
-- npm dep updates
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-08 19:09:31 +0000 UTC
     </div>
 </div>
 

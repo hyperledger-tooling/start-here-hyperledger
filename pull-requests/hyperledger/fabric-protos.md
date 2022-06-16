@@ -14,7 +14,33 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/108" class=".btn">#108</a>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/110" class=".btn">#110</a>
+            </td>
+            <td>
+                <b>
+                    Bump version to 0.1.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 20:14:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/109" class=".btn">#109</a>
             </td>
             <td>
                 <b>
@@ -36,7 +62,7 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-15 15:17:02 +0000 UTC
+        Created At 2022-06-15 20:03:54 +0000 UTC
     </div>
 </div>
 

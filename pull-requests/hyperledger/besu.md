@@ -14,6 +14,113 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3970" class=".btn">#3970</a>
+            </td>
+            <td>
+                <b>
+                    WIP: fixing the sonarcloud building in gha
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Joshua Fernandes <joshua.fernandes@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-16 00:59:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3969" class=".btn">#3969</a>
+            </td>
+            <td>
+                <b>
+                    Have consistent warning between CLI, ENV and TOML config
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Add additional check of option in environment variables and config file for detecting ignored dependent config warning.
+
+## Fixed Issue(s)
+fixes #2069 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-16 00:30:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3967" class=".btn">#3967</a>
+            </td>
+            <td>
+                <b>
+                    Create sonarcloud.yml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Joshua Fernandes <joshua.fernandes@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Adding in sonarcloud via Github Actions
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 21:24:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3965" class=".btn">#3965</a>
             </td>
             <td>
@@ -45,7 +152,7 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 <b>
-                    [DOT NOT MERGE] Apply RocksDB documentation suggestions to reduce memory usage
+                    Apply RocksDB documentation suggestions to reduce memory usage
                 </b>
             </td>
         </tr>
