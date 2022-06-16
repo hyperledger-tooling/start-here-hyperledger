@@ -1,13 +1,13 @@
 
-[29](https://github.com/hyperledger-labs/yui-docs/pull/29) Fix typos in docs
+[3483](https://github.com/hyperledger/fabric/pull/3483) Add logging for identity, policy, and signature troubleshooting (2.2)
 
-[3972](https://github.com/hyperledger/besu/pull/3972) set merge flag false for tests that need it
+[872](https://github.com/hyperledger/aries-framework-javascript/pull/872) docs: accessing rust logs
 
-[1813](https://github.com/hyperledger/aries-cloudagent-python/pull/1813) Refactoring of revocation registry creation
+[112](https://github.com/hyperledger/fabric-protos/pull/112) [WIP] Bump version to 0.1.3
 
-[1812](https://github.com/hyperledger/aries-cloudagent-python/pull/1812) Fix external Outbound Transport loading code
+[111](https://github.com/hyperledger/fabric-protos/pull/111) [WIP] Only tag release versions as latest
 
-[3970](https://github.com/hyperledger/besu/pull/3970) WIP: fixing the sonarcloud building in gha
+[871](https://github.com/hyperledger/aries-framework-javascript/pull/871) docs: update developer readme
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

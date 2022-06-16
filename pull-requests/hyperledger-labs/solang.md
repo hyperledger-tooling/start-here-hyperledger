@@ -151,29 +151,3 @@ See https://docs.rs/solang/latest/solang/ for example
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/866" class=".btn">#866</a>
-            </td>
-            <td>
-                <b>
-                    Submodules are now required to run tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-09 07:19:03 +0000 UTC
-    </div>
-</div>
-

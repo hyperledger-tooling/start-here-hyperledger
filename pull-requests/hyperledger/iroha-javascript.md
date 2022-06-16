@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/105" class=".btn">#105</a>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/107" class=".btn">#107</a>
             </td>
             <td>
                 <b>
-                    Fix packages deps & files; rebuild crypto; use Jake
+                    Release Candidate 5
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-javascript
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-25 08:24:11 +0000 UTC
+        Created At 2022-06-16 09:30:17 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/597" class=".btn">#597</a>
+            </td>
+            <td>
+                <b>
+                    #589 fix for 2.2 release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Contributes to #589 
+
+Cherry picked fix from main branch
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-16 08:46:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/596" class=".btn">#596</a>
             </td>
             <td>
