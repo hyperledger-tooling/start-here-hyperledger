@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/292" class=".btn">#292</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/294" class=".btn">#294</a>
             </td>
             <td>
                 <b>
-                    Improve identity cache default
+                    extract IPs from discovery #293
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                Signed-off-by: Mathilde Ffrench <mathilde.ffrench@fr.ibm.com>
+                This enhancement is tested here: https://github.com/hyperledger-labs/fabric-token-sdk/pull/260
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-08 16:35:45 +0000 UTC
+        Created At 2022-06-16 08:13:27 +0000 UTC
     </div>
 </div>
 

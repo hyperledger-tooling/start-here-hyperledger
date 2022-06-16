@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/422" class=".btn">#422</a>
+            </td>
+            <td>
+                <b>
+                    Async tx proof test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-16 08:29:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/421" class=".btn">#421</a>
             </td>
             <td>

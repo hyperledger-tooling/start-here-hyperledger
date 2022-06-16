@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/112" class=".btn">#112</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Bump version to 0.1.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-16 11:54:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/111" class=".btn">#111</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Only tag release versions as latest
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The node module should only be tagged with “latest” for released versions, and “unstable” otherwise
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-16 11:49:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-protos/pull/110" class=".btn">#110</a>
             </td>
             <td>

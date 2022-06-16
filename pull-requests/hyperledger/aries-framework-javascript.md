@@ -14,6 +14,114 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/872" class=".btn">#872</a>
+            </td>
+            <td>
+                <b>
+                    docs: accessing rust logs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Niall Shaw <niall.shaw@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-16 12:09:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/871" class=".btn">#871</a>
+            </td>
+            <td>
+                <b>
+                    docs: update developer readme
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                adds some hints for debugging running tests
+
+Signed-off-by: Moriarty <moritz@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-16 10:24:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/870" class=".btn">#870</a>
+            </td>
+            <td>
+                <b>
+                    feat: delete associated didCommMessages when deleting credential records
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Moriarty <moritz@animo.id>
+
+closes #728 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-16 10:15:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/869" class=".btn">#869</a>
+            </td>
+            <td>
+                <b>
+                    Mjrmergemain ppv2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-16 07:42:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/864" class=".btn">#864</a>
             </td>
             <td>
