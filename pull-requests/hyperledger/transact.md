@@ -140,30 +140,3 @@ permalink: /pull-requests/hyperledger/transact
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/358" class=".btn">#358</a>
-            </td>
-            <td>
-                <b>
-                    Remove use of immediate_transaction
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change removes the use of immediate_transaction for sqlite operations, as this function does not interact well within existing transactions.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-08 20:45:16 +0000 UTC
-    </div>
-</div>
-
