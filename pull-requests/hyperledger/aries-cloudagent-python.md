@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1820" class=".btn">#1820</a>
+            </td>
+            <td>
+                <b>
+                    Fix: Present Proof v2 - check_proof_vs_proposal update to support proof request with restrictions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">0.7.4</span>
+            </td>
+            <td>
+                - resolve #1755 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-17 14:10:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1818" class=".btn">#1818</a>
             </td>
             <td>
@@ -221,65 +247,6 @@ Also, the tails file is now uploaded after the registry definition is posted and
     </table>
     <div class="right-align">
         Created At 2022-06-13 21:52:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1802" class=".btn">#1802</a>
-            </td>
-            <td>
-                <b>
-                    Fix: Inbound Transport is_external attribute
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">0.7.4</span>
-            </td>
-            <td>
-                Signed-off-by: shaangill025 [gill.shaanjots@gmail.com](mailto:gill.shaanjots@gmail.com)
-
-- resolve #1790 
-- resolve #1791
-
-Closed original PR #1792 due to merge issues.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-10 18:06:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1800" class=".btn">#1800</a>
-            </td>
-            <td>
-                <b>
-                    Fix: Duplicated schema and cred_def - Askar and Postgres
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">0.7.4</span>
-            </td>
-            <td>
-                Signed-off-by: shaangill025 <gill.shaanjots@gmail.com>
-
-- resolve #1786 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-10 14:45:26 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/206" class=".btn">#206</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/207" class=".btn">#207</a>
             </td>
             <td>
                 <b>
-                    Update docs
+                    Performance improvement for CryptoPrimitives
                 </b>
             </td>
         </tr>
@@ -27,16 +27,16 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
                 
             </td>
             <td>
-                Fixes #203
-Fixes #204
-Fixes #205
+                Every request required a creation of a new BouncyCastleProvider which is a very expensive operation.
 
-Signed-off-by: Ry Jones <ry@linux.com>
+Furthermore, certificates were re-parsed and their chains re-validated on every reques. Again this is a very expensive operation.
+
+Taken together these factors caused excessive delays in interacting with the Fabric block chain.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-17 16:04:51 +0000 UTC
+        Created At 2022-06-17 12:51:08 +0000 UTC
     </div>
 </div>
 

@@ -69,29 +69,3 @@ Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/455" class=".btn">#455</a>
-            </td>
-            <td>
-                <b>
-                    Fix : (Security) Migitate Path Traversal Bug
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                bug fixes
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-10 14:44:48 +0000 UTC
-    </div>
-</div>
-

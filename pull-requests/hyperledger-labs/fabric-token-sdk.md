@@ -14,32 +14,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/262" class=".btn">#262</a>
-            </td>
-            <td>
-                <b>
-                    add UID func to wallet
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Mathilde Ffrench <mathilde.ffrench@fr.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-17 12:09:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/260" class=".btn">#260</a>
             </td>
             <td>
@@ -117,37 +91,6 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-06-15 07:22:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/254" class=".btn">#254</a>
-            </td>
-            <td>
-                <b>
-                    fix AuditDB redeem bug
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span>
-            </td>
-            <td>
-                Currently, AuditDB fails to record redeem transactions because it does consider only the enrollment IDs of the outputs.
-In a redeem, the output has no enrollment ID.
-To make sure the fix works, we augment the CheckBalance function in the integration test to enforce that the holding of the party, at the auditor, is the same as the balance at the party.
-We also introduce additional checks for the current spending.
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-10 14:41:51 +0000 UTC
     </div>
 </div>
 

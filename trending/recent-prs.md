@@ -1,13 +1,13 @@
 
-[1981](https://github.com/hyperledger/bevel/pull/1981) [fabric] Fail the pod when init container fails due to Vault access issues/missing credential
+[16](https://github.com/hyperledger-labs/fabric-operator/pull/16) Bump fabric version to 2.4.4; CA to 1.5.4
 
-[262](https://github.com/hyperledger-labs/fabric-token-sdk/pull/262) add UID func to wallet
+[3490](https://github.com/hyperledger/fabric/pull/3490) Updates in main for release v2.4.4
 
-[882](https://github.com/hyperledger-labs/solang/pull/882) Fix mapping inside struct
+[3989](https://github.com/hyperledger/besu/pull/3989) issue #3986 -  Changed [file path init fail error message] clearer
 
-[47](https://github.com/hyperledger/indy-sdk-react-native/pull/47) Changed example demo project
+[3489](https://github.com/hyperledger/fabric/pull/3489) test: use `T.TempDir` to create temporary test directory
 
-[30](https://github.com/hyperledger-labs/yui-docs/pull/30) Fix typo
+[295](https://github.com/hyperledger-labs/fabric-smart-client/pull/295) Cleanup and upgrade
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
