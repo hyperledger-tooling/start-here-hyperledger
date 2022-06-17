@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/tsc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/tsc/pull/37" class=".btn">#37</a>
+                PR <a href="https://github.com/hyperledger/tsc/pull/39" class=".btn">#39</a>
             </td>
             <td>
                 <b>
-                    Rename CII to OpenSSF Best Practices Badge
+                    Add responsibility to approve new lab stewards.
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/tsc
                 
             </td>
             <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
+                Signed-off-by: Tracy Kuhrt <tracy.a.kuhrt@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-27 18:53:30 +0000 UTC
+        Created At 2022-06-16 18:25:50 +0000 UTC
     </div>
 </div>
 

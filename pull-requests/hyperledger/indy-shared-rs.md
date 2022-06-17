@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-shared-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/13" class=".btn">#13</a>
+                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/15" class=".btn">#15</a>
             </td>
             <td>
                 <b>
-                    Feature/gen did with version
+                    feat: initial implementation of the indy-credx golang wrapper
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger/indy-shared-rs
                 
             </td>
             <td>
-                Adds optional parameter `version` to `generate_did` method. 
-
-if `version == None | 1` : DID will be self-certified according to did:sov convention
-if `version == 2`: DID will be self-certified according to did:indy specification
+                This is a basic implementation of a `indy-credx` golang wrapper. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-29 12:32:42 +0000 UTC
+        Created At 2022-06-16 11:51:08 +0000 UTC
     </div>
 </div>
 

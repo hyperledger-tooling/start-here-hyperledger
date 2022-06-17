@@ -14,6 +14,74 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3985" class=".btn">#3985</a>
+            </td>
+            <td>
+                <b>
+                    Apply some RocksDB documentation suggestions to reduce memory usage.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Apply some [RocksDB documentation suggestions](https://github.com/facebook/rocksdb/wiki/Memory-usage-in-RocksDB) to reduce memory usage.
+
+- Set format_version to 5
+- set optimize_filters_for_memory to true
+- Increase block size to 32K
+- set cache_index_and_filter_blocks to true 
+
+There is almost 1,5 GiB difference in memory consumption between this version and version 22.4.2 on a 16 GB RAM VM after 1 day of syncing (the green line represents the metrics of this PR). 
+
+<img width="824" alt="Screenshot 2022-06-17 at 10 27 59" src="https://user-images.githubusercontent.com/5099602/174259124-fa8d8eef-fa51-424e-96f3-3a3d3bc71b07.png">
+
+Sync time is equivalent between the two versions.
+
+<img width="1620" alt="Screenshot 2022-06-17 at 10 35 02" src="https://user-images.githubusercontent.com/5099602/174260539-792ae296-8bef-42f0-b47d-94a08ec3271c.png">
+
+Disk usage, CPU consumption and the number of open file descriptors is quite similar for tho instances.
+
+<img width="815" alt="Screenshot 2022-06-17 at 10 30 44" src="https://user-images.githubusercontent.com/5099602/174259784-e458ec70-7cfc-4f87-a587-4f4375915d4a.png">
+<img width="1624" alt="Screenshot 2022-06-17 at 10 30 59" src="https://user-images.githubusercontent.com/5099602/174259780-1052143e-a5b2-492e-8805-7b4ed56542df.png">
+<img width="816" alt="Screenshot 2022-06-17 at 10 31 18" src="https://user-images.githubusercontent.com/5099602/174259775-0d1e536c-6751-46de-b923-fa2ae1486749.png">
+
+
+
+
+Signed-off-by: Ameziane H <ameziane.hamlat@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-17 08:36:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3984" class=".btn">#3984</a>
             </td>
             <td>
@@ -467,57 +535,6 @@ Adding in sonarcloud via Github Actions
     </table>
     <div class="right-align">
         Created At 2022-06-14 15:41:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3963" class=".btn">#3963</a>
-            </td>
-            <td>
-                <b>
-                    Apply RocksDB documentation suggestions to reduce memory usage
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Apply some [RocksDB documentation suggestions](https://github.com/facebook/rocksdb/wiki/Memory-usage-in-RocksDB) to reduce memory usage.
-
-- Set format_version to 5
-- set optimize_filters_for_memory to true
-- Increase block size to 32K
-- set cache_index_and_filter_blocks to true (this may have a big impact on performances)
-
-Signed-off-by: Ameziane H. <ameziane.hamlat@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-13 12:25:13 +0000 UTC
     </div>
 </div>
 
