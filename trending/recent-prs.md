@@ -1,13 +1,13 @@
 
-[3978](https://github.com/hyperledger/besu/pull/3978) Release 22.4.3
+[2083](https://github.com/hyperledger/cactus/pull/2083) build(deps-dev): bump electron from 13.6.6 to 15.5.5
 
-[1071](https://github.com/hyperledger/besu-docs/pull/1071) Add `finalized` and `safe` tags to Block parameter
+[287](https://github.com/hyperledger/aries-toolbox/pull/287) chore(deps-dev): Bump electron from 13.6.6 to 15.5.5
 
-[1817](https://github.com/hyperledger/aries-cloudagent-python/pull/1817) Changelog, version and ReadTheDocs updates for 0.7.4-rc3 release
+[285](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/285) Bump futures-task from 0.3.5 to 0.3.21 in /core/relay
 
-[3486](https://github.com/hyperledger/fabric/pull/3486) [WIP] Add purge private data integration tests
+[284](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/284) Bump futures-util from 0.3.5 to 0.3.21 in /core/relay
 
-[2366](https://github.com/hyperledger/iroha/pull/2366) Fix/single send state creation
+[2537](https://github.com/hyperledger/indy-sdk/pull/2537) Bump crossbeam-queue from 0.2.1 to 0.2.3 in /vcx/libvcx
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -168,29 +168,3 @@ Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/6" class=".btn">#6</a>
-            </td>
-            <td>
-                <b>
-                    Feature/rancher
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds README notes on sample-network configurations for [Rancher Desktop](https://rancherdesktop.io) clusters and the vagrant-based [fabric-devenv](https://github.com/hyperledgendary/fabric-devenv) virtual machine. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-09 22:43:46 +0000 UTC
-    </div>
-</div>
-
