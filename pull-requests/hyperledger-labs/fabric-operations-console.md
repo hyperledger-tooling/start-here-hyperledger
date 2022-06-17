@@ -78,38 +78,3 @@ Increased timeout as per pipeline execution failures / timeout errors
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/228" class=".btn">#228</a>
-            </td>
-            <td>
-                <b>
-                    npm updates for stitch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
-
-#### Type of change
-
-- Dep updates
-
-#### Description
-Npm dependency updates
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-09 20:00:35 +0000 UTC
-    </div>
-</div>
-

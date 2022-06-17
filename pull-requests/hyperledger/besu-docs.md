@@ -43,6 +43,8 @@ Make sure that:
 
 ## Describe the change
 Adds the tags `finalized` and `safe` to block parameter used by `eth_getBlockByNumber`.
+
+Remove eth.wiki references, as it's deprecated in favor of ethereum.org. 
 <!-- Add a clear and concise description of what your PR changes in the documentation. -->
 
 ## Issue fixed
