@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/120" class=".btn">#120</a>
+            </td>
+            <td>
+                <b>
+                    REST API Upgrade to AFJ 0.2.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 23:02:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/119" class=".btn">#119</a>
             </td>
             <td>
@@ -37,62 +63,6 @@ BREAKING CHANGE: The thunks that exposed all module methods from AFJ are now rem
     </table>
     <div class="right-align">
         Created At 2022-06-14 11:57:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/118" class=".btn">#118</a>
-            </td>
-            <td>
-                <b>
-                    ci: run on afj next branches
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-10 08:28:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/117" class=".btn">#117</a>
-            </td>
-            <td>
-                <b>
-                    fix(rest): changed webhook event topic to type
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Fixed webhook event
-- Updated dependencies
-- Typo
-
-Signed-off-by: Jan <60812202+janrtvld@users.noreply.github.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-08 13:27:09 +0000 UTC
     </div>
 </div>
 

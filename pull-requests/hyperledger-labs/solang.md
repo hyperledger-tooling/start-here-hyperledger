@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/882" class=".btn">#882</a>
+            </td>
+            <td>
+                <b>
+                    Fix mapping inside struct
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Solang crashes when we try to access a mapping that is a member of a struct. There was a bug during code generation, in which we were not considering that struct members can be mappings. This PR should fix a problem raised in #785.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-17 10:53:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/880" class=".btn">#880</a>
             </td>
             <td>

@@ -14,11 +14,37 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/70" class=".btn">#70</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/72" class=".btn">#72</a>
             </td>
             <td>
                 <b>
-                    [documentation]: Review language-specific guides
+                    [CI]: target `main` branch in GitHub workflows
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: 0x009922 <a.marcius26@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-16 15:03:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/71" class=".btn">#71</a>
+            </td>
+            <td>
+                <b>
+                    Migrate to Vitepress 1
                 </b>
             </td>
         </tr>
@@ -32,33 +58,7 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-07 10:59:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/69" class=".btn">#69</a>
-            </td>
-            <td>
-                <b>
-                    [documentation]: Review Iroha on bare metal chapter
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span>
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-07 07:43:41 +0000 UTC
+        Created At 2022-06-16 14:59:32 +0000 UTC
     </div>
 </div>
 

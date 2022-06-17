@@ -245,33 +245,3 @@ Added query predicates support to filter queries
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/236" class=".btn">#236</a>
-            </td>
-            <td>
-                <b>
-                    [documentation] #232: Update READMEs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">Documentation</span><span class="chip">2.0.0-pre-rc.5-lts</span>
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-Partially addresses #232 
-
-This PR only contains changes to Markdown files. There will be another PR for doc comments in code.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-10 07:24:15 +0000 UTC
-    </div>
-</div>
-

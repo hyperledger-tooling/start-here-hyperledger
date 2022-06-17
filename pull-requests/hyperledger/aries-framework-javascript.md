@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
             </td>
             <td>
                 <b>
-                    build: update node version to 16LTS and remove support for 12
+                    build!: remove support for node 12
                 </b>
             </td>
         </tr>
@@ -362,58 +362,6 @@ or
     </table>
     <div class="right-align">
         Created At 2022-06-10 13:58:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/847" class=".btn">#847</a>
-            </td>
-            <td>
-                <b>
-                    docs(samples): fix extension module sample
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-10 10:51:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/846" class=".btn">#846</a>
-            </td>
-            <td>
-                <b>
-                    docs: remove signed off by lines from changelog
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-10 09:36:03 +0000 UTC
     </div>
 </div>
 

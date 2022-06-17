@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/730" class=".btn">#730</a>
+            </td>
+            <td>
+                <b>
+                    Rus peers md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Vladimir Chechetkin <chechetkinvv@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-16 08:30:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/729" class=".btn">#729</a>
+            </td>
+            <td>
+                <b>
+                    Rus ledger rst
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Vladimir Chechetkin <chechetkinvv@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-16 08:26:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/728" class=".btn">#728</a>
+            </td>
+            <td>
+                <b>
+                    Rus questions rst
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Vladimir Chechetkin <chechetkinvv@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-16 08:22:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/726" class=".btn">#726</a>
             </td>
             <td>
@@ -37,32 +115,6 @@ Signed-off-by: Yuki Kondo <yuki.kondo.ob@hitachi.com>
     </table>
     <div class="right-align">
         Created At 2022-06-13 06:20:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/725" class=".btn">#725</a>
-            </td>
-            <td>
-                <b>
-                    [it_IT] Translate CONTRIBUTING: What makes a good pull request? (cont.) 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-09 17:43:53 +0000 UTC
     </div>
 </div>
 

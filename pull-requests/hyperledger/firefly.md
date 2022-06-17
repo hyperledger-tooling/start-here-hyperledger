@@ -14,6 +14,131 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/865" class=".btn">#865</a>
+            </td>
+            <td>
+                <b>
+                    Create firefly subscription per namespace
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Each namespace now has a unique firefly contract subscription
+
+To support a subscription per namespace, the `fireflyContract` config section has been replaced with the `contracts` array section under the `multiparty` config.
+
+Example:
+```
+blockchain:
+- name: blockchain0
+  type: ethereum
+  ethereum:
+    ethconnect:
+      url: http://ethconnect_0:8080
+      topic: "0"
+      
+namespaces:
+  default: default
+  predefined:
+  - name: default
+    remoteName: default
+    description: Default predefined namespace
+    plugins: [database0, blockchain0, dataexchange0, sharedstorage0, erc20_erc721]
+    multiparty:
+      enabled: true
+      org:
+        name: org0
+        description: org0
+        key: 0x123456
+      contract:
+        - location:
+            address: 0x4ae50189462b0e5d52285f59929d037f790771a6 
+          firstEvent: oldest
+```
+
+ * location is a yaml object containing blockchain plugin configuration
+ * `firstEvent` is replacing `fromBlock`, supporting values of newest or oldest
+
+This PR also introduces a new component, multiparty manager, that is responsible for managing the active firefly contract and interfacing with the blockchain plugin on behalf of that contract.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 21:00:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/864" class=".btn">#864</a>
+            </td>
+            <td>
+                <b>
+                    Further cleanup of namespace params to managers and database plugin
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12)
+In a chain with #862
+
+Each manager is specific to a namespace, which should be received and stored during init. All operations conducted by that manager should use that namespace, and therefore no manager methods should accept a namespace as a parameter.
+
+The database plugin, on the other hand, may potentially service multiple namespaces. Therefore, all query operations should take a namespace parameter to ensure that only results from a single namespace are returned.
+
+This PR makes these true for many cases, but others are still to be addressed with a follow-up PR.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 15:24:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/863" class=".btn">#863</a>
+            </td>
+            <td>
+                <b>
+                    Move event plugin init to namespace manager
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12)
+
+The event plugins should be singletons, but subscription manager is initialized once per namespace. A single websocket connection may facilitate listeners to multiple subscriptions (and therefore multiple namespaces), and the events need to be delivered to the correct subscription manager.
+
+Current tests should pass, but additional unit test coverage is still pending.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 15:19:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/862" class=".btn">#862</a>
             </td>
             <td>
@@ -29,13 +154,9 @@ permalink: /pull-requests/hyperledger/firefly
             <td>
                 Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12)
 
-Each manager is initialized for a single namespace and can assume all calls
-are scoped within that namespace.
+Each manager is initialized for a single namespace and can assume all calls are scoped within that namespace This PR tackles identity manager, network manager, and group manager so they store and use that single namespace.
 
-The one exception is for "network version 1", where identities may have been
-registered on the legacy "ff_system" namespace. In this case, the identity
-manager will query "ff_system" instead of its assigned namespace (noting that
-this will only work if "ff_system" shares a database with that namespace).
+The one exception is for "network version 1", where identities may have been registered on the legacy "ff_system" namespace. In this case, the identity manager will query "ff_system" instead of its assigned namespace (noting that this will only work if "ff_system" shares a database with that namespace).
             </td>
         </tr>
     </table>
@@ -155,69 +276,6 @@ Currently the right way to find the payload reference, is to look at the upload/
     </table>
     <div class="right-align">
         Created At 2022-06-10 17:19:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/856" class=".btn">#856</a>
-            </td>
-            <td>
-                <b>
-                    Add namespace to pins
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">migration_consideration</span>
-            </td>
-            <td>
-                Existing pins will all be categorized against "ff_system", just so the field has a non-null value.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-09 16:37:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/855" class=".btn">#855</a>
-            </td>
-            <td>
-                <b>
-                    Use a separate orchestrator for each namespace
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Changed in this PR:
-- Namespace manager is now the root manager in the system
-- There is a separate orchestrator for each namespace, along with a separate instance of (almost) every manager
-- Config for including different plugins in each namespace is now honored
-- Each plugin supports multiple listeners, and each listener function (mostly on event manager) will filter out events from just the one namespace to which it's assigned
-
-Broken in this PR:
-- You cannot have multiple namespaces that point at the same blockchain FireFly contract, or the same token pool. They will end up sharing an event stream and therefore only one of them will process events. Fixing this will require splitting a lot of the contract/event stream logic out of the blockchain plugins into a new per-namespace component.
-- Performance of event processing degrades almost linearly with the number of created namespaces, due to the fact that most events are fired to _all_ instances of the event manager and then examined in order to process or ignore them. In the future, we can push namespace knowledge down into lower layers to make this decision earlier and avoid this extra overhead.
-- SPI route for "get all operations" is moved from `/operations` to `/namespaces/{ns}/operations`, which represents a breaking change against FFTM.
-
-~~Also includes the changes from #856.~~
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-09 01:36:56 +0000 UTC
     </div>
 </div>
 

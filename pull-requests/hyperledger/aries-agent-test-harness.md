@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/510" class=".btn">#510</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/513" class=".btn">#513</a>
             </td>
             <td>
                 <b>
-                    fix(afj): connection controller after oob
+                    Changes by create-pull-request action
                 </b>
             </td>
         </tr>
@@ -27,18 +27,40 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
                 
             </td>
             <td>
-                this fixes creating connections in AFJ. There's some added complexity as AFJ doesn't return a connectionId anymore (only an oob id) when creating an invitation, but only when a request is received. I've fixed this for now by just returning the out of band id, and then looking for a connection based on the out of band id later on. 
-
-This also adds an javascript-arm dockerfile that allows to run the AFJ container on m1 macs. Tried to create one for ACA-Py but didn't succeed yet.
-
-Next up is tests for DIDExchange (which won't work with ACA-Py yet sadly) and ICv2 with indy credentials (which should work with ACA-Py!)
-
-Fixes #503 
+                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-08 08:25:13 +0000 UTC
+        Created At 2022-06-16 04:13:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/512" class=".btn">#512</a>
+            </td>
+            <td>
+                <b>
+                    feat(afj): add v2 credential controller
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add issue credential v2 tests for AFJ and also adds tests for ICv2 interop between AFJ <-> ACA-Py.
+
+Had to extend the ICv2 tests a bit to support using 0160 connections as we don't have didexchange tests yet
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-15 10:59:32 +0000 UTC
     </div>
 </div>
 

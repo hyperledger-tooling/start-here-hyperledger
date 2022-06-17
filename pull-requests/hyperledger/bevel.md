@@ -14,6 +14,79 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1981" class=".btn">#1981</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] Fail the pod when init container fails due to Vault access issues/missing credential
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: mgCepeda <marina.gomez.cepeda@accenture.com>
+
+**Changelog**
+
+- Update function validateVaultResponse for cases when curl returns status as 0 even though the HTTP response is not 200, and VAULT_TOKEN empty
+
+- Update /charts/generate_cacerts
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar @jagpreetsinghsasan 
+
+ 
+
+**Linked issue**
+#1922 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-17 12:24:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1980" class=".btn">#1980</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] Added support for gcp
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+**Changelog**
+- Add GCP storageclass template for Fabric
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-17 08:57:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/1979" class=".btn">#1979</a>
             </td>
             <td>
@@ -178,46 +251,6 @@ permalink: /pull-requests/hyperledger/bevel
     </table>
     <div class="right-align">
         Created At 2022-06-14 06:05:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/1975" class=".btn">#1975</a>
-            </td>
-            <td>
-                <b>
-                    [besu] update platform besu helm value templates for flux v2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: manikanta-darsi <manikanta.darsi@accenture.com>
-
-**Changelog**
-- Update  update platform besu helm value templates for flux v2
-
- 
-
-**Reviewed by**
-@sownak @suvajit-sarkar @jagpreetsinghsasan 
-
- 
-
-**Linked issue**
-#1969 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-10 10:19:35 +0000 UTC
     </div>
 </div>
 
