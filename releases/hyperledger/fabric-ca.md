@@ -15,30 +15,37 @@ permalink: /releases/hyperledger/fabric-ca
         <tr>
             <td colspan="2">
                 <b>
-                    v1.5.3
+                    v1.5.4
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.5.3
+                    v1.5.4
                 </span>
             </td>
             <td>
-                v1.5.3 Release Notes - April 7, 2022
+                v1.5.4 Release Notes - June 17, 2022
 ====================================
 
-Release v1.5.3 updates Fabric CA to be compatible with Go 1.17.8.
+Release v1.5.4 updates Fabric CA to use https://github.com/IBM/idemix for the Identity Mixer implementation,
+making it possible to issue credentials using various Identity Mixer curves.
+The Identity Mixer curve can be configured in the Fabric CA server and client configuration yaml file:
 
-Additionally, packages that shifted from exported to unexported in v1.5.0 are now exported again.
+```
+# Specifies the Elliptic Curve used by Identity Mixer.
+# It can be any of: {"amcl.Fp256bn", "gurvy.Bn254", "amcl.Fp256Miraclbn"}.
+# If unspecified, it defaults to 'amcl.Fp256bn'.
+curve: amcl.Fp256bn
+```
 
 Dependencies
 ------------
 
-Fabric CA v1.5.3 has been tested with the following dependencies:
-- Go 1.17.8
-- Alpine 3.14 (for Docker images)
+Fabric CA v1.5.4 has been tested with the following dependencies:
+- Go 1.18.2
+- Alpine 3.16 (for Docker images)
 
 
 Changes, Known Issues, and Workarounds
@@ -73,26 +80,33 @@ None.
 
 ## Changes:
 
-* 2061c8df7eda8516ea64a37471797852c92c2e61 Release commit for v1.5.3
-* 8651918aea1b83bd7c64ddd943af5b62d29efc86 Undo breaking changes to exported packages
-* c025d5ea5243d74d919df2d442975bd60386c37c Bump Go to 1.17.8
-* 077518e71fb25b6beca91aca804997ebfafc0b36 Fix FVT intermediateca test
-* 655a0f97c76b61c72e89a5669ad4cee58ad27262 Remove redundant assignment
-* bb858908d0356edb678ee2be1ca8345f24d641d0 Bump fvt mysql to 0.8.22-1
-* 62026907484c33f3ba599a283ebbccc54043882f Make server config.go and serverconfig.rst consistent
-* 4c5d2ef98f6109ecceaa02e7b04aebe02fdff86f Fixes for CA deployment guide
-* fc42d91b57b2f425b4985babfee8969e841572b7 fix expired root.pem certificate - was breaking 8-10 unit test cases
-* 19cdbf5d1396dca57acdf378ae1964190c262ea7 Prepare for next release v1.5.3
+* 076f37bb68814b8dc4464d768b4263045ff32bc0 Release commit for v1.5.4
+* 60ae815406b0b143859530999555e3a272ba9929 Run "go mod tidy" (#301)
+* 9dbdf809e832b8b81dc1e95b4bda85c2c497fb71 Bump Alpine to 3.16 (#300)
+* a0ab17964d1dd4e3fded074b9af1ec5222b1284f Update vendor for sys/unix
+* e45e34725c62ed9f5a4bfa1b962846b3c9d46068 Update Fabric CA Readme (#296)
+* dd6a104ff856a0dc2e5ac2bdceb321d6914cf70c Bump Go to 1.18.2 (#294)
+* 78e1f1adad257e8bd7e5454d29d328cb757532b1 Make idemix use Mathlib instead of AMCL directly
+* 6a9e85f9ee4079f295b0c9e19624076a5a59f742 Nominate Josh and Mark as maintainers
+* 7405422b689940643e613eaf3045020b4a1e7b30 Add OpenAPI Documentation 
+* 2e79a3e704f501a536748540e1e0776a6ed2e541 Fix swagger issues
+<details><summary><b>See More</b></summary>
 
-This list of changes was [auto generated](https://dev.azure.com/Hyperledger/Fabric/_build/results?buildId=50654&view=logs).
+* 90e53e33661c36735708408c27a4054c57c754fa Wrong path
+* d0e0abab810ba27c3be77ba1b25aa320eda03968 Minor type
+* c6bbc4b865d87c28205c81776ddbde96b9db2507 test: use `T.TempDir` to create temporary test directory
+* 8b815daa5620516fd5ff0bd58d35e802cc468f24 Prepare for v1.5.4 release
+* e960bb96bd23febfa38178aa8f512bd33c4a2c45 Cleanup maintainers list
+
+This list of changes was [auto generated](https://dev.azure.com/Hyperledger/Fabric/_build/results?buildId=53830&view=logs).</details>
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-ca/releases/tag/v1.5.3" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-ca/releases/tag/v1.5.4" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-04-07 21:40:50 +0000 UTC
+        Created At 2022-06-17 16:29:22 +0000 UTC
     </span>
 </div>
 
