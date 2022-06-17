@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3984" class=".btn">#3984</a>
+            </td>
+            <td>
+                <b>
+                    DO NOT MERGE - Spike external db
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Please do not merge.
+
+This is a spike for the storing the chain data in an external db instead of the local rocksdb database. I've only made this a draft PR so I more easily create builds for testing.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-17 05:44:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3983" class=".btn">#3983</a>
+            </td>
+            <td>
+                <b>
+                    update the docker container versions for Tessera and GoQuorum
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                On my new M1 mac book the Tessera docker wouldn't start. Updating the Tessera docker version fixed that.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-17 02:24:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3979" class=".btn">#3979</a>
             </td>
             <td>
