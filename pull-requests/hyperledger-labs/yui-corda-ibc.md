@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/35" class=".btn">#35</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/36" class=".btn">#36</a>
             </td>
             <td>
                 <b>
-                    build(deps): bump tokio from 1.9.0 to 1.13.1 in /rust
+                    build(deps): bump hyper from 0.14.11 to 0.14.15 in /rust
                 </b>
             </td>
         </tr>
@@ -27,56 +27,116 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
                 <span class="chip">dependencies</span><span class="chip">rust</span>
             </td>
             <td>
-                Bumps [tokio](https://github.com/tokio-rs/tokio) from 1.9.0 to 1.13.1.
+                Bumps [hyper](https://github.com/hyperium/hyper) from 0.14.11 to 0.14.15.
 <details>
 <summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/tokio-rs/tokio/releases">tokio's releases</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/hyperium/hyper/releases">hyper's releases</a>.</em></p>
 <blockquote>
-<h2>Tokio v1.13.1</h2>
-<h1>1.13.1 (November 15, 2021)</h1>
-<p>This release fixes a data race when sending and receiving on a
-closed <code>oneshot</code> channel (<a href="https://rustsec.org/advisories/RUSTSEC-2021-0124.html">RUSTSEC-2021-0124</a>).</p>
-<h3>Fixed</h3>
+<h2>v0.14.15</h2>
+<h2>Bug Fixes</h2>
 <ul>
-<li>sync: fix a data race between <code>oneshot::Sender::send</code> and awaiting a
-<code>oneshot::Receiver</code> when the oneshot has been closed (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4226">#4226</a>)</li>
+<li><strong>client:</strong> cancel blocking DNS lookup if <code>GaiFuture</code> is dropped (<a href="https://github.com/hyperium/hyper/commit/174b553d">174b553d</a>)</li>
 </ul>
-<h2>Tokio v1.13.0</h2>
-<h1>1.13.0 (October 29, 2021)</h1>
-<h3>Fixed</h3>
+<h2>Features</h2>
 <ul>
-<li>sync: fix <code>Notify</code> to clone the waker before locking its waiter list (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4129">#4129</a>)</li>
-<li>tokio: add riscv32 to non atomic64 architectures (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4185">#4185</a>)</li>
+<li><strong>http1:</strong> add <code>http1_writev(bool)</code> options to Client and Server builders, to allow forcing vectored writes (<a href="https://github.com/hyperium/hyper/commit/80627141">80627141</a>)</li>
+<li><strong>upgrade:</strong> allow http upgrades with any body type (<a href="https://github.com/hyperium/hyper/commit/ab469eb3c6cd5e7a035d734f3d21ff4d2d6a21ab">ab469eb3</a>)</li>
 </ul>
-<h3>Added</h3>
+<h2>New Contributors</h2>
 <ul>
-<li>net: add <code>poll_{recv,send}_ready</code> methods to <code>udp</code> and <code>uds_datagram</code> (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4131">#4131</a>)</li>
-<li>net: add <code>try_*</code>, <code>readable</code>, <code>writable</code>, <code>ready</code>, and <code>peer_addr</code> methods to split halves (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4120">#4120</a>)</li>
-<li>sync: add <code>blocking_lock</code> to <code>Mutex</code> (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4130">#4130</a>)</li>
-<li>sync: add <code>watch::Sender::send_replace</code> (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/3962">#3962</a>, <a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4195">#4195</a>)</li>
-<li>sync: expand <code>Debug</code> for <code>Mutex&lt;T&gt;</code> impl to unsized <code>T</code> (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4134">#4134</a>)</li>
-<li>tracing: instrument time::Sleep (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4072">#4072</a>)</li>
-<li>tracing: use structured location fields for spawned tasks (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4128">#4128</a>)</li>
+<li><a href="https://github.com/luqmana"><code>@​luqmana</code></a> made their first contribution in <a href="https://github-redirect.dependabot.com/hyperium/hyper/pull/2680">hyperium/hyper#2680</a></li>
+<li><a href="https://github.com/whentze"><code>@​whentze</code></a> made their first contribution in <a href="https://github-redirect.dependabot.com/hyperium/hyper/pull/2688">hyperium/hyper#2688</a></li>
+<li><a href="https://github.com/ahmedsobeh"><code>@​ahmedsobeh</code></a> made their first contribution in <a href="https://github-redirect.dependabot.com/hyperium/hyper/pull/2689">hyperium/hyper#2689</a></li>
 </ul>
-<h3>Changed</h3>
+<h2>v0.14.14</h2>
+<h2>Bug Fixes</h2>
 <ul>
-<li>io: add assert in <code>copy_bidirectional</code> that <code>poll_write</code> is sensible (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4125">#4125</a>)</li>
-<li>macros: use qualified syntax when polling in <code>select!</code> (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4192">#4192</a>)</li>
-<li>runtime: handle <code>block_on</code> wakeups better (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4157">#4157</a>)</li>
-<li>task: allocate callback on heap immediately in debug mode (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4203">#4203</a>)</li>
-<li>tokio: assert platform-minimum requirements at build time (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/3797">#3797</a>)</li>
-</ul>
-<h3>Documented</h3>
+<li><strong>client:</strong>
 <ul>
-<li>docs: conversion of doc comments to indicative mood (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4174">#4174</a>)</li>
-<li>docs: add returning on the first error example for <code>try_join!</code> (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4133">#4133</a>)</li>
-<li>docs: fixing broken links in <code>tokio/src/lib.rs</code> (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4132">#4132</a>)</li>
-<li>signal: add example with background listener (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4171">#4171</a>)</li>
-<li>sync: add more oneshot examples (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4153">#4153</a>)</li>
-<li>time: document <code>Interval::tick</code> cancel safety (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4152">#4152</a>)</li>
+<li>make ResponseFuture implement Sync (<a href="https://github.com/hyperium/hyper/commit/bd6c35b98f9513f14ed9cecad933bc7fdb8635ea">bd6c35b9</a>)</li>
+<li>remove ipv6 square brackets before resolving (<a href="https://github.com/hyperium/hyper/commit/910e02687df3245aae4bc519fb0bd7eb6a34db7d">910e0268</a>)</li>
 </ul>
-<p><a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/3797">#3797</a>: <a href="https://github-redirect.dependabot.com/tokio-rs/tokio/pull/3797">tokio-rs/tokio#3797</a>
-<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/3962">#3962</a>: <a href="https://github-redirect.dependabot.com/tokio-rs/tokio/pull/3962">tokio-rs/tokio#3962</a></p>
+</li>
+</ul>
+<h2>Features</h2>
+<ul>
+<li><strong>http2:</strong> always include original h2 error on broken pipe (<a href="https://github.com/hyperium/hyper/commit/6169db250c932dd012d391389826cd34833077b4">6169db25</a>)</li>
+<li><strong>server:</strong> Remove Send + Sync requirement for Body in with_graceful_shutdown (<a href="https://github.com/hyperium/hyper/commit/1d553e52c6953ea3b039f5c3f89d35cb56e2436a">1d553e52</a>)</li>
+</ul>
+<h2>v0.14.13</h2>
+<h2>Bug Fixes</h2>
+<ul>
+<li><strong>client:</strong> don't reuse a connection while still flushing (<a href="https://github.com/hyperium/hyper/commit/c88011da4ed5b5ca9107c4a2339a7ab054c5f27f">c88011da</a>)</li>
+<li><strong>server:</strong> convert panic to error if Connection::without_shutdown called on HTTP/2 conn (<a href="https://github.com/hyperium/hyper/commit/ea3e228287e714b97aa44c840a487abd3a915e15">ea3e2282</a>)</li>
+</ul>
+<h2>Features</h2>
+<ul>
+<li><strong>ffi:</strong> add hyper_request_set_uri_parts (<a href="https://github.com/hyperium/hyper/commit/a54689b921ca16dd0f29b3f4a74feae60218db34">a54689b9</a>)</li>
+<li><strong>lib:</strong>
+<ul>
+<li>Export more things with Cargo features (server, !http1, !http2) (<a href="https://github.com/hyperium/hyper/commit/0a4b56acb82ef41a3336f482b240c67c784c434f">0a4b56ac</a>)</li>
+<li>Export rt module independently of Cargo features (<a href="https://github.com/hyperium/hyper/commit/cf6f62c71eda3b3a8732d86387e4ed8711cf9a86">cf6f62c7</a>)</li>
+</ul>
+</li>
+</ul>
+<h2>v0.14.12</h2>
+<h2>Bug Fixes</h2>
+<ul>
+<li><strong>ffi:</strong> on_informational callback had no headers (<a href="https://github.com/hyperium/hyper/commit/39b6d01aa0e520077bb25e16811f5ece00a224d6">39b6d01a</a>)</li>
+<li><strong>http1:</strong> apply header title case for consecutive dashes (<a href="https://github-redirect.dependabot.com/hyperium/hyper/issues/2613">#2613</a>) (<a href="https://github.com/hyperium/hyper/commit/684f2fa76d44fa2b1b063ad0443a1b0d16dfad0e">684f2fa7</a>)</li>
+<li><strong>http2:</strong> improve errors emitted by HTTP2 <code>Upgraded</code> stream shutdown (<a href="https://github-redirect.dependabot.com/hyperium/hyper/issues/2622">#2622</a>) (<a href="https://github.com/hyperium/hyper/commit/be08648e8298cdb13e9879ee761a73f827268962">be08648e</a>)</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/hyperium/hyper/blob/master/CHANGELOG.md">hyper's changelog</a>.</em></p>
+<blockquote>
+<h3>v0.14.15 (2021-11-16)</h3>
+<h4>Bug Fixes</h4>
+<ul>
+<li><strong>client:</strong> cancel blocking DNS lookup if <code>GaiFuture</code> is dropped (<a href="https://github.com/hyperium/hyper/commit/174b553d">174b553d</a></li>
+</ul>
+<h4>Features</h4>
+<ul>
+<li><strong>http1:</strong> add <code>http1_writev(bool)</code> options to Client and Server builders, to allow forcing vectored writes (<a href="https://github.com/hyperium/hyper/commit/80627141">80627141</a>)</li>
+<li><strong>upgrade:</strong> allow http upgrades with any body type (<a href="https://github.com/hyperium/hyper/commit/ab469eb3c6cd5e7a035d734f3d21ff4d2d6a21ab">ab469eb3</a>)</li>
+</ul>
+<h3>v0.14.14 (2021-10-22)</h3>
+<h4>Bug Fixes</h4>
+<ul>
+<li><strong>client:</strong>
+<ul>
+<li>make ResponseFuture implement Sync (<a href="https://github.com/hyperium/hyper/commit/bd6c35b98f9513f14ed9cecad933bc7fdb8635ea">bd6c35b9</a>)</li>
+<li>remove ipv6 square brackets before resolving (<a href="https://github.com/hyperium/hyper/commit/910e02687df3245aae4bc519fb0bd7eb6a34db7d">910e0268</a>)</li>
+</ul>
+</li>
+</ul>
+<h4>Features</h4>
+<ul>
+<li><strong>h2:</strong> always include original h2 error on broken pipe (<a href="https://github.com/hyperium/hyper/commit/6169db250c932dd012d391389826cd34833077b4">6169db25</a>)</li>
+<li><strong>server:</strong> Remove Send + Sync requirement for Body in with_graceful_shutdown (<a href="https://github.com/hyperium/hyper/commit/1d553e52c6953ea3b039f5c3f89d35cb56e2436a">1d553e52</a>)</li>
+</ul>
+<h3>v0.14.13 (2021-09-16)</h3>
+<h4>Bug Fixes</h4>
+<ul>
+<li><strong>client:</strong> don't reuse a connection while still flushing (<a href="https://github.com/hyperium/hyper/commit/c88011da4ed5b5ca9107c4a2339a7ab054c5f27f">c88011da</a>)</li>
+<li><strong>server:</strong> convert panic to error if Connection::without_shutdown called on HTTP/2 conn (<a href="https://github.com/hyperium/hyper/commit/ea3e228287e714b97aa44c840a487abd3a915e15">ea3e2282</a>)</li>
+</ul>
+<h4>Features</h4>
+<ul>
+<li><strong>ffi:</strong> add hyper_request_set_uri_parts (<a href="https://github.com/hyperium/hyper/commit/a54689b921ca16dd0f29b3f4a74feae60218db34">a54689b9</a>)</li>
+<li><strong>lib:</strong>
+<ul>
+<li>Export more things with Cargo features (server, !http1, !http2) (<a href="https://github.com/hyperium/hyper/commit/0a4b56acb82ef41a3336f482b240c67c784c434f">0a4b56ac</a>)</li>
+<li>Export rt module independently of Cargo features (<a href="https://github.com/hyperium/hyper/commit/cf6f62c71eda3b3a8732d86387e4ed8711cf9a86">cf6f62c7</a>)</li>
+</ul>
+</li>
+</ul>
+<h3>v0.14.12 (2021-08-24)</h3>
+<h4>Bug Fixes</h4>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -84,23 +144,23 @@ closed <code>oneshot</code> channel (<a href="https://rustsec.org/advisories/RUS
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/tokio-rs/tokio/commit/2a3c803dd1c487868eabcef547066952cc07624e"><code>2a3c803</code></a> chore: prepare Tokio v1.13.1 (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4235">#4235</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/7d8de50482a077349db721c7cad3034b093a0083"><code>7d8de50</code></a> oneshot: document UnsafeCell invariants  (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4229">#4229</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/ab0e60ddeaf1b617ed4990901d2410ef810f1a61"><code>ab0e60d</code></a> sync: fix racy <code>UnsafeCell</code> access on a closed oneshot (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4226">#4226</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/ac89d8926d0c06eeb62936b0843a5278cd98ade0"><code>ac89d89</code></a> chore: prepare Tokio v1.13.0 (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4196">#4196</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/e184205421e7a5e6d397805adb516e661819240c"><code>e184205</code></a> chore: prepare tokio-macros 1.6.0 (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4197">#4197</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/44a1aad8df43bef416ac91dfc4b9b5614c3d34fd"><code>44a1aad</code></a> task: allocate callback on heap immediately in debug mode (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4203">#4203</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/75c07770bfbfea4e5fd914af819c741ed9c3fc36"><code>75c0777</code></a> sync: make <code>watch::send_replace</code> infallible (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4195">#4195</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/268ed5e73e39c907e0252791cf58daa41980b61b"><code>268ed5e</code></a> task: add more tips + links to <code>spawn_blocking</code> docs (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4150">#4150</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/0c68b89452c6b978002aefe1b3daa391f2125616"><code>0c68b89</code></a> codec: update stream impl for Framed to return <code>None</code> after <code>Err</code> (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4166">#4166</a>)</li>
-<li><a href="https://github.com/tokio-rs/tokio/commit/827694a9e368b0d339a5b9eeb4fc0fb3c3e7df26"><code>827694a</code></a> ci: fix nightly version for cirrus ci (<a href="https://github-redirect.dependabot.com/tokio-rs/tokio/issues/4200">#4200</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/tokio-rs/tokio/compare/tokio-1.9.0...tokio-1.13.1">compare view</a></li>
+<li><a href="https://github.com/hyperium/hyper/commit/d0b1d9ed3a10013ab356bc7d9b283e179857a672"><code>d0b1d9e</code></a> v0.14.15</li>
+<li><a href="https://github.com/hyperium/hyper/commit/a1502e1067d28b5fc1883e48ac7daacf2fbe4b9e"><code>a1502e1</code></a> docs(http1): clarify HTTP1 preserve case option</li>
+<li><a href="https://github.com/hyperium/hyper/commit/a12db28542e2ecd6f67459b4777a24cb71b9bdc8"><code>a12db28</code></a> docs(upgrade): add module documentation for HTTP upgrades</li>
+<li><a href="https://github.com/hyperium/hyper/commit/7f5e853dd86b641aa9927f02105bf130d8aaaca3"><code>7f5e853</code></a> refactor(benches): make benchmark names more consistent</li>
+<li><a href="https://github.com/hyperium/hyper/commit/174b553d2d877a332090b0df43375e7edb685671"><code>174b553</code></a> fit(client): cancel blocking DNS lookup if GaiFuture dropped (<a href="https://github-redirect.dependabot.com/hyperium/hyper/issues/2689">#2689</a>)</li>
+<li><a href="https://github.com/hyperium/hyper/commit/913be88f7155ea4695c7f8098d968bf1f340f8be"><code>913be88</code></a> docs(client): fix missing feature attrs in another doctest</li>
+<li><a href="https://github.com/hyperium/hyper/commit/3221f573d2dc6162dcf12f02ee68e4c4cbaf149d"><code>3221f57</code></a> docs(body) fix doctest failing due to missing features</li>
+<li><a href="https://github.com/hyperium/hyper/commit/80627141ede3cdaf37b833ee91d08be0af0f5c84"><code>8062714</code></a> feat(http1): Add <code>http1_writev(bool)</code> to client and server Builders</li>
+<li><a href="https://github.com/hyperium/hyper/commit/ab469eb3c6cd5e7a035d734f3d21ff4d2d6a21ab"><code>ab469eb</code></a> feat(upgrade): allow http upgrades with any body type</li>
+<li><a href="https://github.com/hyperium/hyper/commit/b5022f3854d1f9ed3e76233dd63f319efc3b8f47"><code>b5022f3</code></a> v0.14.14</li>
+<li>Additional commits viewable in <a href="https://github.com/hyperium/hyper/compare/v0.14.11...v0.14.15">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=tokio&package-manager=cargo&previous-version=1.9.0&new-version=1.13.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=hyper&package-manager=cargo&previous-version=0.14.11&new-version=0.14.15)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -136,121 +196,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-06 19:48:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/34" class=".btn">#34</a>
-            </td>
-            <td>
-                <b>
-                    build(deps): bump prost-types from 0.7.0 to 0.8.0 in /rust
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">rust</span>
-            </td>
-            <td>
-                Bumps [prost-types](https://github.com/tokio-rs/prost) from 0.7.0 to 0.8.0.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/tokio-rs/prost/releases">prost-types's releases</a>.</em></p>
-<blockquote>
-<h2>v0.8.0</h2>
-<p><em>PROST!</em> is a <a href="https://developers.google.com/protocol-buffers/">Protocol Buffers</a> implementation for the <a href="https://www.rust-lang.org/">Rust Language</a>. <code>prost</code> generates simple, idiomatic Rust code from <code>proto2</code> and <code>proto3</code> files.</p>
-<p><em>NOTE: This version contains a security fix for <code>prost-types</code> and is recommend that you upgrade to it from &lt;0.7.</em></p>
-<p><code>prost</code> 0.8.0 includes breaking changes:</p>
-<ul>
-<li><code>Timestamp</code>'s <code>From</code> implementation for converting into <code>SystemTime</code> has been converted to a fallible <code>TryFrom</code> implementation.</li>
-<li><code>prost-build</code>'s <code>compile_protos</code> now takes <code>impl AsRef&lt;Path&gt;</code> to allow each parameter to use its own generic type.</li>
-<li>Bundled <code>protoc</code> version bumped to <code>3.15.8</code></li>
-</ul>
-<p>As well as many new (non-breaking) changes:</p>
-<ul>
-<li><a href="https://github.com/pluth"><code>@​pluth</code></a> enabled zero-copy support for <code>Bytes</code> based fields.</li>
-<li><a href="https://github.com/sfackler"><code>@​sfackler</code></a> for fixing message optionals and oneofs in <code>prost-build</code>.</li>
-<li><a href="https://github.com/rubdos"><code>@​rubdos</code></a> for adding the ability to encode prost messages directly to a <code>Vec&lt;u8&gt;</code>.</li>
-</ul>
-<p>and numerous smaller fixes. Many thanks to the generous contributors who have helped out since 0.7:</p>
-<ul>
-<li><a href="https://github.com/dfreese"><code>@​dfreese</code></a></li>
-<li><a href="https://github.com/carols10cents"><code>@​carols10cents</code></a></li>
-<li><a href="https://github.com/pluth"><code>@​pluth</code></a></li>
-<li><a href="https://github.com/jfornoff"><code>@​jfornoff</code></a></li>
-<li><a href="https://github.com/sphw"><code>@​sphw</code></a></li>
-<li><a href="https://github.com/bpowers"><code>@​bpowers</code></a></li>
-<li><a href="https://github.com/sfackler"><code>@​sfackler</code></a></li>
-<li><a href="https://github.com/koushiro"><code>@​koushiro</code></a></li>
-<li><a href="https://github.com/dbrgn"><code>@​dbrgn</code></a></li>
-<li><a href="https://github.com/argv-minus-one"><code>@​argv-minus-one</code></a></li>
-<li><a href="https://github.com/nagisa"><code>@​nagisa</code></a></li>
-<li><a href="https://github.com/evanj"><code>@​evanj</code></a></li>
-<li><a href="https://github.com/aquarhead"><code>@​aquarhead</code></a></li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/tokio-rs/prost/commit/998f288fe09a2e457fe23b54f61b1f106c608fb2"><code>998f288</code></a> release 0.8.0</li>
-<li><a href="https://github.com/tokio-rs/prost/commit/edb1464b71528286a6ce74278af05f19c3e0e820"><code>edb1464</code></a> derive: Fix unstable fn name collision warning (<a href="https://github-redirect.dependabot.com/tokio-rs/prost/issues/499">#499</a>)</li>
-<li><a href="https://github.com/tokio-rs/prost/commit/4ae66ccca65c3c348c577860bca0df0df821516d"><code>4ae66cc</code></a> Remove path type generic for better ergonomic (<a href="https://github-redirect.dependabot.com/tokio-rs/prost/issues/496">#496</a>)</li>
-<li><a href="https://github.com/tokio-rs/prost/commit/5d93c55426d9c219fb1fb065adfa8fd3e43833a1"><code>5d93c55</code></a> Bundled protoc only if the interpreter exists (<a href="https://github-redirect.dependabot.com/tokio-rs/prost/issues/459">#459</a>)</li>
-<li><a href="https://github.com/tokio-rs/prost/commit/fdc319c8f118f91cbc73752a30238273204dabc8"><code>fdc319c</code></a> prost-build lib.rs: Minor doc comment edits (<a href="https://github-redirect.dependabot.com/tokio-rs/prost/issues/498">#498</a>)</li>
-<li><a href="https://github.com/tokio-rs/prost/commit/d8cb390d606638e0bb24208a56996b680e9d21b4"><code>d8cb390</code></a> Add encode to Vec&lt;u8&gt; (<a href="https://github-redirect.dependabot.com/tokio-rs/prost/issues/378">#378</a>)</li>
-<li><a href="https://github.com/tokio-rs/prost/commit/59f2a7311dd6540696bfd0145f5281ce495f4385"><code>59f2a73</code></a> Fix <a href="https://github-redirect.dependabot.com/tokio-rs/prost/issues/438">#438</a>: Check for overflow in <code>Duration</code> and <code>Timestamp</code> processing (<a href="https://github-redirect.dependabot.com/tokio-rs/prost/issues/439">#439</a>)</li>
-<li><a href="https://github.com/tokio-rs/prost/commit/0833d467bd55ee7ff427e0484fc299366ad9ab7d"><code>0833d46</code></a> Add afl fuzz tests (<a href="https://github-redirect.dependabot.com/tokio-rs/prost/issues/272">#272</a>)</li>
-<li><a href="https://github.com/tokio-rs/prost/commit/c8691b701a5e2e542e52122a73af1f696c437a09"><code>c8691b7</code></a> Update repository &amp; author references to tokio-rs (<a href="https://github-redirect.dependabot.com/tokio-rs/prost/issues/489">#489</a>)</li>
-<li><a href="https://github.com/tokio-rs/prost/commit/6cf97ea422b09d98de34643c4dda2d4f8b7e23e6"><code>6cf97ea</code></a> Update outdated dependencies (<a href="https://github-redirect.dependabot.com/tokio-rs/prost/issues/474">#474</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/tokio-rs/prost/compare/v0.7.0...v0.8.0">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=prost-types&package-manager=cargo&previous-version=0.7.0&new-version=0.8.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
-- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
-- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
-- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
-
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/yui-corda-ibc/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-06 19:25:58 +0000 UTC
+        Created At 2022-06-17 01:36:29 +0000 UTC
     </div>
 </div>
 
