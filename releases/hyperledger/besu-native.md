@@ -15,27 +15,29 @@ permalink: /releases/hyperledger/besu-native
         <tr>
             <td colspan="2">
                 <b>
-                    0.4.3
+                    0.5.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.4.3
+                    0.5.0
                 </span>
             </td>
             <td>
-                - Use non-blocking PRNG to generate secp256k1 context #51
-- Padding R and S components if smaller than 31 bytes in SECP256R1 keys #52
+                * Add linux-arm64 native support [#61](https://github.com/hyperledger/besu-native/pull/61)
+* Add ipa-multipoint library support [#56](https://github.com/hyperledger/besu-native/pull/56)
+
+
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/besu-native/releases/tag/0.4.3" class=".btn">
+    <a href="https://github.com/hyperledger/besu-native/releases/tag/0.5.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-01-27 04:27:10 +0000 UTC
+        Created At 2022-05-26 18:30:38 +0000 UTC
     </span>
 </div>
 
