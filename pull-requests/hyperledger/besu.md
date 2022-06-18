@@ -53,44 +53,6 @@ fixes #3986
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3987" class=".btn">#3987</a>
-            </td>
-            <td>
-                <b>
-                    [Minor] Add minBuild gradle task
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Add a gradle task `minBuild` that builds without running tests.  This is useful for local development so that minor issues can be caught quickly. 
-
-**Note to Reviewers**: I'm open to other ideas on how to implement this - I am not a gradle expert. 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-17 15:59:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3985" class=".btn">#3985</a>
             </td>
             <td>

@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger/transact
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/360" class=".btn">#360</a>
-            </td>
-            <td>
-                <b>
-                    Backport 0-4: Clean Pruned Elements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Backport of #356 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-10 20:44:33 +0000 UTC
-    </div>
-</div>
-

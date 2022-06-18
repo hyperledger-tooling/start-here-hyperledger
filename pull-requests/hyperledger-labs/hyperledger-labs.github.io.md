@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/214" class=".btn">#214</a>
+            </td>
+            <td>
+                <b>
+                    Volunteering to be Lab Steward
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Volunteering to be Lab Steward
+Name: Anand Banik
+TSC Sponsor - @arsulegai.
+Signed-off-by: Anand Banik <anand.banik@walmart.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-17 18:34:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/213" class=".btn">#213</a>
             </td>
             <td>
@@ -225,35 +255,6 @@ Signed-off-by: Tracy Kuhrt <tracy.a.kuhrt@accenture.com>
     </table>
     <div class="right-align">
         Created At 2022-06-16 18:36:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/207" class=".btn">#207</a>
-            </td>
-            <td>
-                <b>
-                    Fabric Operator Labs Proposal
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR is a lab proposal for **fabric-operator**, a cloud-native operator for building, administering, and maintaining Hyperledger Fabric networks on Kubernetes.
-
-Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-10 21:28:57 +0000 UTC
     </div>
 </div>
 
