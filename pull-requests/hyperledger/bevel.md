@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1982" class=".btn">#1982</a>
+            </td>
+            <td>
+                <b>
+                    [corda]: update platform r3 corda-ent helm value templates for fluxv2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+
+Signed-off-by: manikanta-darsi <manikanta.darsi@accenture.com>
+
+**Changelog**
+- Update platform r3 corda-ent helm value templates for fluxv2
+
+ 
+
+**Reviewed by**
+@sownak @suvajit-sarkar @jagpreetsinghsasan 
+
+ 
+
+**Linked issue**
+#1972 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-17 15:14:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/1981" class=".btn">#1981</a>
             </td>
             <td>
