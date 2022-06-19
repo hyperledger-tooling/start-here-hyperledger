@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1824" class=".btn">#1824</a>
+            </td>
+            <td>
+                <b>
+                    Update POST /present-proof/send-request to POST /present-proof-2.0/send-request
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+
+I got error messages when following the instructions and tried the updated version, which worked.
+
+Signed-off-by: lineko <36633510+lineko@users.noreply.github.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-19 17:58:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1820" class=".btn">#1820</a>
             </td>
             <td>
