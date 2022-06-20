@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/transact
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/361" class=".btn">#361</a>
-            </td>
-            <td>
-                <b>
-                    Add release notes for 0.4.5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Peter Schwarz <pschwarz@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-13 16:50:37 +0000 UTC
-    </div>
-</div>
-
