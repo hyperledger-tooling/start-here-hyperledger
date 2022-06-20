@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/886" class=".btn">#886</a>
+            </td>
+            <td>
+                <b>
+                    feat: delete w3c credential record
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds a method to the W3cCredentialService to remove a credential record from storage. I also renamed a few properties and methods because their previous names were somewhat misleading.
+
+- feat: add method to remove w3c credential
+- refactor: rename methods and props for consistancy
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-19 18:49:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/882" class=".btn">#882</a>
             </td>
             <td>
