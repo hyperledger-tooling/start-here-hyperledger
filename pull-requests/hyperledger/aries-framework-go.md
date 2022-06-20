@@ -41,39 +41,3 @@ Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3261" class=".btn">#3261</a>
-            </td>
-            <td>
-                <b>
-                    feat: validate data model of objects saved in a wallet.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Volodymyr Kubiv <volodymyr.kubiv@euristiq.com>
-
-**Title:**
-VC Wallet Data Model validation
-
-**Description:**
-https://github.com/hyperledger/aries-framework-go/issues/3260
-
-**Summary:**
-Data models are validated against their JSON LD context before being saved into the wallet content store.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-13 08:33:34 +0000 UTC
-    </div>
-</div>
-

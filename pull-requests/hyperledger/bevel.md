@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1983" class=".btn">#1983</a>
+            </td>
+            <td>
+                <b>
+                    [docs] update roadmap, and verify guide links
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+**Changelog**
+- Update roadmap, compatibility metrics
+- Added troubleshooting links 
+
+
+
+**Linked issue**
+#1927 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-20 09:47:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/1982" class=".btn">#1982</a>
             </td>
             <td>

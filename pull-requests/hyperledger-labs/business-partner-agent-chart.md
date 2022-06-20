@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/50" class=".btn">#50</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/51" class=".btn">#51</a>
             </td>
             <td>
                 <b>
-                    enabling strict security config by default
+                    multi ledger support
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
                 
             </td>
             <td>
-                - [ ] needs new bpa release
-
-Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+                - [ ] merge when 0.7.4 version of acapy is released
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-31 13:15:39 +0000 UTC
+        Created At 2022-06-20 08:32:45 +0000 UTC
     </div>
 </div>
 

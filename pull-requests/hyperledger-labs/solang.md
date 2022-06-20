@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/884" class=".btn">#884</a>
+            </td>
+            <td>
+                <b>
+                    Do not give up resolving a file if any errors were found in any file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently, if there are any errors found in any file, then we do not
+resolve anything beyond the types.
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-20 11:20:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/882" class=".btn">#882</a>
             </td>
             <td>
@@ -181,32 +210,6 @@ See https://docs.rs/solang/latest/solang/ for example
     </table>
     <div class="right-align">
         Created At 2022-06-15 11:39:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/870" class=".btn">#870</a>
-            </td>
-            <td>
-                <b>
-                    Bump @solana/solidity
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-13 11:35:55 +0000 UTC
     </div>
 </div>
 
