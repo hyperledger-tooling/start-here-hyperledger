@@ -14,6 +14,81 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3993" class=".btn">#3993</a>
+            </td>
+            <td>
+                <b>
+                    Additional testings on ignored option warning 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamGroot</span>
+            </td>
+            <td>
+                ## PR description
+Add tests on options configured through ENV
+
+## Fixed Issue(s)
+Follow-up PR to address comments from https://github.com/hyperledger/besu/pull/3969 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-20 05:16:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/3992" class=".btn">#3992</a>
+            </td>
+            <td>
+                <b>
+                    Added ARM tasks to CI config
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: mark-terry <mark.terry@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Added ARM CircleCI tasks to verify compatibility.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-20 01:37:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3989" class=".btn">#3989</a>
             </td>
             <td>
