@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2087" class=".btn">#2087</a>
+            </td>
+            <td>
+                <b>
+                    fix: Lint Warnings resolved for batch 7/26 #1356 : Commit to be reviewed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fix: batch 7/26 of lint warning fixes #1356(fixed 5 warnings, partial solution): 
+
+Changes made:
+- Fixed lint warnings associated with any-type for truthyness and nonBlankString checking
+- Fixed lint warnings associated with Unexpected any, edited type-aliases in logger
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-20 09:37:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2086" class=".btn">#2086</a>
+            </td>
+            <td>
+                <b>
+                    refactor(cmd-api-server): clean up configuration parameters gitguardi…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …an scanner test
+
+test
+
+Signed-off-by: ruzell22 <ruzell.vince.aquino@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-20 06:31:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/2085" class=".btn">#2085</a>
             </td>
             <td>

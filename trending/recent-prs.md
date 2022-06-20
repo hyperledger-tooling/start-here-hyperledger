@@ -1,13 +1,13 @@
 
-[3993](https://github.com/hyperledger/besu/pull/3993) Additional testings on ignored option warning 
+[296](https://github.com/hyperledger-labs/fabric-smart-client/pull/296) Changed go version requirement in README
 
-[3992](https://github.com/hyperledger/besu/pull/3992) Added ARM tasks to CI config
+[884](https://github.com/hyperledger-labs/solang/pull/884) Do not give up resolving a file if any errors were found in any file
 
-[2374](https://github.com/hyperledger/iroha/pull/2374) [feature] #2053: Add tests to the asset-related queries in private blockchain
+[772](https://github.com/hyperledger/fabric-samples/pull/772) added last fixes for asset-transfer-secured-agreement
 
-[1824](https://github.com/hyperledger/aries-cloudagent-python/pull/1824) Update POST /present-proof/send-request to POST /present-proof-2.0/send-request
+[3493](https://github.com/hyperledger/fabric/pull/3493) Update secured-private-asset-tranfer documentation and tutorial
 
-[771](https://github.com/hyperledger/fabric-samples/pull/771) GetID to return clientId in base64 form
+[1983](https://github.com/hyperledger/bevel/pull/1983) [docs] update roadmap, and verify guide links
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

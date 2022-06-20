@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/296" class=".btn">#296</a>
+            </td>
+            <td>
+                <b>
+                    Changed go version requirement in README
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
+
+Updated go version from 1.16 to 1.17 in the readme file. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-20 12:25:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/295" class=".btn">#295</a>
             </td>
             <td>

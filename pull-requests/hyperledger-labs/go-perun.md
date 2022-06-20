@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/349" class=".btn">#349</a>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/350" class=".btn">#350</a>
             </td>
             <td>
                 <b>
-                    Settle channel when funding fails
+                    Separate wire address
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger-labs/go-perun
                 
             </td>
             <td>
-                This is the second implementation variant where the `ProposeChannel` method does not automatically settle the channel after a failed funding but the client itself has to take care of this.
+                Closes #234.
+
+In general, this PR will ensure that `wire.Address` and `wallet.Address` are distinct. Before, `wire.Address` was a synonym for `wallet.Address`, which caused some problems, in particular, mixing up `wire.Address` and `wallet.Address` and adding functionality to `wallet.Address` which was specific to the use case of `wire.Address` (concretely, the `Cmp` function).
+
+In this PR we assign both their own type.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-02 17:28:23 +0000 UTC
+        Created At 2022-06-20 07:49:31 +0000 UTC
     </div>
 </div>
 
