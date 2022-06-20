@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1364" class=".btn">#1364</a>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1376" class=".btn">#1376</a>
             </td>
             <td>
                 <b>
-                    Port the unit test workflow to GitHub Actions
+                    Port the integration test workflow to GitHub Actions
                 </b>
             </td>
         </tr>
@@ -28,17 +28,18 @@ permalink: /pull-requests/hyperledger/caliper
             </td>
             <td>
                 In this PR:
-* The unit test workflow which exists in Azure Pipelines is ported over to GitHub Actions
-* A badge is added to the README for the workflow
 
-The migration is complete. Optimizations like cache management will be tackled later.
+* The integration test workflow which exists in Azure Pipelines is ported over to GitHub Actions.
+* A badge is added to the README for the workflow.
+* The migration is complete. Optimizations like cache management will be tackled later.
+* The `package-lock.json` file which was earlier removed from `.gitignore` is added back.
 
-Closes #1359 
+Closes #1366 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-08 12:12:07 +0000 UTC
+        Created At 2022-06-20 12:45:23 +0000 UTC
     </div>
 </div>
 

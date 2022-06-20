@@ -1,13 +1,13 @@
 
-[296](https://github.com/hyperledger-labs/fabric-smart-client/pull/296) Changed go version requirement in README
+[2377](https://github.com/hyperledger/iroha/pull/2377) Develop
 
-[884](https://github.com/hyperledger-labs/solang/pull/884) Do not give up resolving a file if any errors were found in any file
+[1449](https://github.com/hyperledger/grid/pull/1449) Add Shutdown trait
 
-[772](https://github.com/hyperledger/fabric-samples/pull/772) added last fixes for asset-transfer-secured-agreement
+[1448](https://github.com/hyperledger/grid/pull/1448) Add copyright to Griddle's Cargo.toml file
 
-[3493](https://github.com/hyperledger/fabric/pull/3493) Update secured-private-asset-tranfer documentation and tutorial
+[562](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/562) complete refactoring of directories
 
-[1983](https://github.com/hyperledger/bevel/pull/1983) [docs] update roadmap, and verify guide links
+[1447](https://github.com/hyperledger/grid/pull/1447) Update maintainer name
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

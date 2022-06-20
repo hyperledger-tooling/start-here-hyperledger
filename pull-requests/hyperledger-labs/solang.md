@@ -30,7 +30,9 @@ permalink: /pull-requests/hyperledger-labs/solang
                 Currently, if there are any errors found in any file, then we do not
 resolve anything beyond the types.
 
-Signed-off-by: Sean Young <sean@mess.org>
+This is a step towards solang not giving up early when there are errors in the file; we should always continue and resolve as much as possible.
+
+Fixes #830 
             </td>
         </tr>
     </table>
