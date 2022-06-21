@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1827" class=".btn">#1827</a>
+            </td>
+            <td>
+                <b>
+                    Fix IssuerCredRevRecord state update on revocation publish
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1823 broken in #1804
+
+Ran against integration tests T002-TAA and T003-TAA which were previously failing.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-20 22:16:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1824" class=".btn">#1824</a>
             </td>
             <td>
@@ -251,32 +279,6 @@ Also, the tails file is now uploaded after the registry definition is posted and
     </table>
     <div class="right-align">
         Created At 2022-06-15 00:40:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1804" class=".btn">#1804</a>
-            </td>
-            <td>
-                <b>
-                    Adjust revocation registry update procedure to shorten transactions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">0.7.4</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-13 21:52:49 +0000 UTC
     </div>
 </div>
 

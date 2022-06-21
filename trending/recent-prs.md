@@ -1,13 +1,13 @@
 
-[2377](https://github.com/hyperledger/iroha/pull/2377) Develop
+[13](https://github.com/hyperledger/transact-rfcs/pull/13) Update MAINTAINERS.md
 
-[1449](https://github.com/hyperledger/grid/pull/1449) Add Shutdown trait
+[208](https://github.com/hyperledger/fabric-sdk-java/pull/208) Update MAINTAINERS.md
 
-[1448](https://github.com/hyperledger/grid/pull/1448) Add copyright to Griddle's Cargo.toml file
+[237](https://github.com/hyperledger/fabric-sdk-go/pull/237) Update MAINTAINERS.md
 
-[562](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/562) complete refactoring of directories
+[246](https://github.com/hyperledger/fabric-chaincode-java/pull/246) Update MAINTAINERS.md
 
-[1447](https://github.com/hyperledger/grid/pull/1447) Update maintainer name
+[598](https://github.com/hyperledger/fabric-sdk-node/pull/598) Update MAINTAINERS.rst
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

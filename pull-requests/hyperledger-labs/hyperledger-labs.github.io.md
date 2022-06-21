@@ -53,7 +53,7 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
             </td>
             <td>
                 <b>
-                    Volunteering to be Lab Steward
+                    Add Anand Banik as a Lab Steward
                 </b>
             </td>
         </tr>

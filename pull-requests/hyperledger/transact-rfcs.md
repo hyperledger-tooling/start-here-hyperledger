@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/transact-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact-rfcs/pull/12" class=".btn">#12</a>
+                PR <a href="https://github.com/hyperledger/transact-rfcs/pull/13" class=".btn">#13</a>
             </td>
             <td>
                 <b>
-                    Add State Traits V2 RFC
+                    Update MAINTAINERS.md
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/transact-rfcs
                 
             </td>
             <td>
-                This change adds the RFC for new state traits. This RFC defines new versions of the state traits which are more flexible and with more consistent associated types.
+                Retire Gari, remove old chat reference
 
-[Rendered](https://github.com/Cargill/transact-rfcs/blob/pschwarz-state-traits-v2/text/0000-state-traits-v2.md)
+Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-21 15:33:03 +0000 UTC
+        Created At 2022-06-20 23:23:28 +0000 UTC
     </div>
 </div>
 

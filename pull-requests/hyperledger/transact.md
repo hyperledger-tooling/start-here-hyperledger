@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/transact
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/362" class=".btn">#362</a>
-            </td>
-            <td>
-                <b>
-                    Add remove_pruned_entries to in-txn variants
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change adds the remove_pruned_entries function to the InTransaction- variants of SqlMerklState.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-13 18:24:05 +0000 UTC
-    </div>
-</div>
-
