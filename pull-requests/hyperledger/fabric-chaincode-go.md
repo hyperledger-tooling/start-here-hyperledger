@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-go/pull/48" class=".btn">#48</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-go/pull/49" class=".btn">#49</a>
             </td>
             <td>
                 <b>
-                    Bump github.com/stretchr/testify from 1.7.0 to 1.7.2
+                    Bump github.com/stretchr/testify from 1.7.0 to 1.7.4
                 </b>
             </td>
         </tr>
@@ -27,27 +27,27 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [github.com/stretchr/testify](https://github.com/stretchr/testify) from 1.7.0 to 1.7.2.
+                Bumps [github.com/stretchr/testify](https://github.com/stretchr/testify) from 1.7.0 to 1.7.4.
 <details>
 <summary>Commits</summary>
 <ul>
+<li><a href="https://github.com/stretchr/testify/commit/48391ba5eb8c5f49132138e67ec112d180b88f63"><code>48391ba</code></a> Fix panic in AssertExpectations for mocks without expectations (<a href="https://github-redirect.dependabot.com/stretchr/testify/issues/1207">#1207</a>)</li>
+<li><a href="https://github.com/stretchr/testify/commit/840cb801497147a6d30a568e0874dfefb10867a9"><code>840cb80</code></a> arrays value types in a zero-initialized state are considered empty (<a href="https://github-redirect.dependabot.com/stretchr/testify/issues/1126">#1126</a>)</li>
+<li><a href="https://github.com/stretchr/testify/commit/07dc7ee5abe6d1c0ef6449f731ca9bf08e1787f8"><code>07dc7ee</code></a> Bump actions/setup-go from 3.1.0 to 3.2.0 (<a href="https://github-redirect.dependabot.com/stretchr/testify/issues/1191">#1191</a>)</li>
+<li><a href="https://github.com/stretchr/testify/commit/c33fc8d30db6f6d2c5d270c5023eb0f2181bbab5"><code>c33fc8d</code></a> Bump actions/checkout from 2 to 3 (<a href="https://github-redirect.dependabot.com/stretchr/testify/issues/1163">#1163</a>)</li>
+<li><a href="https://github.com/stretchr/testify/commit/3c33e07c4c233bf61e1414f5acb3cda06ffef1d1"><code>3c33e07</code></a> Added Go 1.18.1 as a build/supported version (<a href="https://github-redirect.dependabot.com/stretchr/testify/issues/1182">#1182</a>)</li>
+<li><a href="https://github.com/stretchr/testify/commit/e2b56b3a384eb40136b2cff13e07e932dd95bf28"><code>e2b56b3</code></a> Bump github.com/stretchr/objx from 0.1.0 to 0.4.0</li>
 <li><a href="https://github.com/stretchr/testify/commit/41453c009af9a942261b7a25a88521d0d6804e7f"><code>41453c0</code></a> Update gopkg.in/yaml.v3</li>
 <li><a href="https://github.com/stretchr/testify/commit/285adcc5ced0bb267a7c874cfa3ca238266ce14f"><code>285adcc</code></a> Update go versions in build matrix</li>
 <li><a href="https://github.com/stretchr/testify/commit/6e7fab43fc3294f4e7c079e260746edcf8d66639"><code>6e7fab4</code></a> Bump actions/setup-go from 2 to 3.1.0</li>
 <li><a href="https://github.com/stretchr/testify/commit/106ec21d14df07d4c33ec1155328800300c28c7f"><code>106ec21</code></a> use RWMutex</li>
-<li><a href="https://github.com/stretchr/testify/commit/a409ccf19e17d8a90156521ce71c5e8ef8f6bca8"><code>a409ccf</code></a> fix data race in the suit</li>
-<li><a href="https://github.com/stretchr/testify/commit/35864782d21250c3ff66874e87e5fdc9c79e0be1"><code>3586478</code></a> assert: fix typo</li>
-<li><a href="https://github.com/stretchr/testify/commit/77977386932ab1866a4b9556a7af1ae347531786"><code>7797738</code></a> Update versions supported to include <code>go 1.16</code></li>
-<li><a href="https://github.com/stretchr/testify/commit/083ff1c0449867d0d8d456483ee5fab8e0c0e1e6"><code>083ff1c</code></a> Fixed didPanic to now detect panic(nil).</li>
-<li><a href="https://github.com/stretchr/testify/commit/1e36bfe10404cb77c12f6dfc8665564f3a41ad7e"><code>1e36bfe</code></a> Use cross Go version compatible build tag syntax</li>
-<li><a href="https://github.com/stretchr/testify/commit/e798dc2763edab11eadc45df377ff160c6c86fd1"><code>e798dc2</code></a> Add docs on 1.17 build tags</li>
-<li>Additional commits viewable in <a href="https://github.com/stretchr/testify/compare/v1.7.0...v1.7.2">compare view</a></li>
+<li>Additional commits viewable in <a href="https://github.com/stretchr/testify/compare/v1.7.0...v1.7.4">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/stretchr/testify&package-manager=go_modules&previous-version=1.7.0&new-version=1.7.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/stretchr/testify&package-manager=go_modules&previous-version=1.7.0&new-version=1.7.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -78,7 +78,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-07 04:31:20 +0000 UTC
+        Created At 2022-06-21 04:36:22 +0000 UTC
     </div>
 </div>
 
