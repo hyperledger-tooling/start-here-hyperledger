@@ -742,30 +742,3 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2357" class=".btn">#2357</a>
-            </td>
-            <td>
-                <b>
-                    Feature/proposal batches
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### Description of the Change
-Safe implementation of batched proposals processing.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-14 06:18:52 +0000 UTC
-    </div>
-</div>
-
