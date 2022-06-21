@@ -44,29 +44,3 @@ Signed-off-by: Shannyn Telander <telander@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/338" class=".btn">#338</a>
-            </td>
-            <td>
-                <b>
-                    Add batch tracking sequence diagrams
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #339 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-13 19:15:21 +0000 UTC
-    </div>
-</div>
-

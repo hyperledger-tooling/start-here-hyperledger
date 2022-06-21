@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3494" class=".btn">#3494</a>
+            </td>
+            <td>
+                <b>
+                    Check if inner consensus message is missing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                An orderer to orderer consensus message that contains an empty inner message crashes the node because it attempts to figure out its type and the mere action of determining the type of a nil pointer, causes a panic. 
+
+This commit ensures the inner message is not nil. 
+
+Change-Id: I06b466e6ff6d43f2b9804dd21185241716356050
+Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-20 20:58:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3493" class=".btn">#3493</a>
             </td>
             <td>
