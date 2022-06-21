@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/321" class=".btn">#321</a>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/330" class=".btn">#330</a>
             </td>
             <td>
                 <b>
-                    Bugfix: In Linux 'nvm' needs additional import
+                    Apple m1 support
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fablo
                 
             </td>
             <td>
-                Signed-off-by: Piotr Hejwowski <piotr.hejwowski@gmail.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-02 09:47:59 +0000 UTC
+        Created At 2022-06-21 11:32:02 +0000 UTC
     </div>
 </div>
 
