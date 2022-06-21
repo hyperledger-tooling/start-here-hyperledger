@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/774" class=".btn">#774</a>
+            </td>
+            <td>
+                <b>
+                    Bump chaincode builder to v0.6.0 : +couchdb indexes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR updates the k8s chaincode builder for the sample network to use [v0.6.0](https://github.com/hyperledgendary/fabric-builder-k8s/releases/tag/v0.6.0), including support for couchbase index configuration for chaincode packages with `type=k8s` 
+
+Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-21 17:32:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/773" class=".btn">#773</a>
+            </td>
+            <td>
+                <b>
+                    token samples: added fixes to documentation and readmes 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                tokens docs fix update + small fix to erc721 and erc 20 java chaincode gradle.settings
+Closes #762 
+
+Signed-off-by: fraVlaca <ocsenarf@outlook.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-21 17:00:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/772" class=".btn">#772</a>
             </td>
             <td>
@@ -116,32 +173,6 @@ Signed-off-by: Rajat Sharma <connecttorajat@outlook.com>
     </table>
     <div class="right-align">
         Created At 2022-06-16 14:30:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/764" class=".btn">#764</a>
-            </td>
-            <td>
-                <b>
-                    ERC:721 Check for Intitialized changed
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Rajat Sharma <connecttorajat@outlook.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-14 12:45:15 +0000 UTC
     </div>
 </div>
 

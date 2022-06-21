@@ -260,31 +260,3 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/101" class=".btn">#101</a>
-            </td>
-            <td>
-                <b>
-                    Use deploy key to publish Go apiv2 bindings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Previous publish failed with permission denied
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-14 16:28:27 +0000 UTC
-    </div>
-</div>
-

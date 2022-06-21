@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3500" class=".btn">#3500</a>
+            </td>
+            <td>
+                <b>
+                    Check if inner consensus message is missing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                An orderer to orderer consensus message that contains an empty inner message crashes the node because it attempts to figure out its type and the mere action of determining the type of a nil pointer, causes a panic.
+
+This commit ensures the inner message is not nil.
+
+Change-Id: I06b466e6ff6d43f2b9804dd21185241716356050
+Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-21 15:53:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3498" class=".btn">#3498</a>
             </td>
             <td>
@@ -78,152 +110,6 @@ Checklist (DELETE AFTER READING):
     </table>
     <div class="right-align">
         Created At 2022-06-21 11:43:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3497" class=".btn">#3497</a>
-            </td>
-            <td>
-                <b>
-                    Check if inner consensus message is missing (backport #3494)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">conflicts</span>
-            </td>
-            <td>
-                This is an automatic backport of pull request #3494 done by [Mergify](https://mergify.com).
-Cherry-pick of 6e5e693a2d12aabee4bcf103ab7de3df4ccc49f9 has failed:
-```
-On branch mergify/bp/release-1.4/pr-3494
-Your branch is up to date with 'origin/release-1.4'.
-
-You are currently cherry-picking commit 6e5e693a2.
-  (fix conflicts and run "git cherry-pick --continue")
-  (use "git cherry-pick --skip" to skip this patch)
-  (use "git cherry-pick --abort" to cancel the cherry-pick operation)
-
-Changes to be committed:
-	modified:   orderer/common/cluster/comm_test.go
-
-Unmerged paths:
-  (use "git add <file>..." to mark resolution)
-	both modified:   orderer/common/cluster/service.go
-
-```
-
-
-To fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/github/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-21 08:23:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3496" class=".btn">#3496</a>
-            </td>
-            <td>
-                <b>
-                    Check if inner consensus message is missing (backport #3494)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">conflicts</span>
-            </td>
-            <td>
-                This is an automatic backport of pull request #3494 done by [Mergify](https://mergify.com).
-Cherry-pick of 6e5e693a2d12aabee4bcf103ab7de3df4ccc49f9 has failed:
-```
-On branch mergify/bp/release-2.2/pr-3494
-Your branch is up to date with 'origin/release-2.2'.
-
-You are currently cherry-picking commit 6e5e693a2.
-  (fix conflicts and run "git cherry-pick --continue")
-  (use "git cherry-pick --skip" to skip this patch)
-  (use "git cherry-pick --abort" to cancel the cherry-pick operation)
-
-Changes to be committed:
-	modified:   orderer/common/cluster/comm_test.go
-
-Unmerged paths:
-  (use "git add <file>..." to mark resolution)
-	both modified:   orderer/common/cluster/service.go
-
-```
-
-
-To fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/github/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-21 08:23:33 +0000 UTC
     </div>
 </div>
 
