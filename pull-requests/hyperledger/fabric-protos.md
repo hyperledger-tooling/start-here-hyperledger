@@ -14,11 +14,53 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/114" class=".btn">#114</a>
+            </td>
+            <td>
+                <b>
+                    Update Java binding build
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix errors and warnings from maven publish, i.e.
+
+```
+Repository "orghyperledger-1045" failures
+  Rule "sources-staging" failures
+   * Missing: no sources jar found in folder '/org/hyperledger/fabric/fabric-protos/0.1.2'
+  Rule "javadoc-staging" failures
+   * Missing: no javadoc jar found in folder '/org/hyperledger/fabric/fabric-protos/0.1.2'
+```
+
+and
+
+```
+'build.plugins.plugin.version' for org.apache.maven.plugins:maven-gpg-plugin is missing.
+```
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-22 14:58:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-protos/pull/112" class=".btn">#112</a>
             </td>
             <td>
                 <b>
-                    [WIP] Bump version to 0.1.3
+                    Bump version to 0.1.3
                 </b>
             </td>
         </tr>
@@ -44,7 +86,7 @@ permalink: /pull-requests/hyperledger/fabric-protos
             </td>
             <td>
                 <b>
-                    [WIP] Only tag release versions as latest
+                    Only tag release versions as latest
                 </b>
             </td>
         </tr>
@@ -117,32 +159,6 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-06-15 20:03:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/107" class=".btn">#107</a>
-            </td>
-            <td>
-                <b>
-                    Allow Maven after Github fails
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-15 13:20:30 +0000 UTC
     </div>
 </div>
 

@@ -33,7 +33,7 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
 - [ ] Make sure your changes are committed with the proper sign-off
 - [ ] Use the labs name as the PR title
 - [ ] Copy the short description of the proposal as the description of the PR
-- [ ] Remove this checklist section
+- [x] Remove this checklist section
 - [ ] Submit your PR and the labs stewards will review your proposal
 - [ ] Ask your sponsor to confirm sponsorship by stating so in a comment to the PR
 

@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/233" class=".btn">#233</a>
+            </td>
+            <td>
+                <b>
+                    set default value for osnadmin_feats_enabled as true
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- New feature
+
+#### Description
+set default value for `osnadmin_feats_enabled` as `true`, was `false`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-22 13:37:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/232" class=".btn">#232</a>
             </td>
             <td>
@@ -82,39 +119,6 @@ Looks like a big pr, but its just a license update we had to do.
     </table>
     <div class="right-align">
         Created At 2022-06-15 21:24:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/230" class=".btn">#230</a>
-            </td>
-            <td>
-                <b>
-                    Increased timeout as per staging environment execution
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ketul Shah <shah.ketul@ibm.com>
-
-#### Type of change
-- Test update
-
-#### Description
-Increased timeout as per pipeline execution failures / timeout errors
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-15 14:28:19 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1450" class=".btn">#1450</a>
+            </td>
+            <td>
+                <b>
+                    Add config object for Griddle
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport-triage</span><span class="chip">main</span>
+            </td>
+            <td>
+                This change adds a 'config' module to Griddle (currently unused) that will be utilized to build the Griddle daemon to run. This allows for config values to be collected from various sources, currently including environment vars, default values, and clap arguments. 
+
+TO-DOs: 
+- Add tests 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-22 15:37:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1449" class=".btn">#1449</a>
             </td>
             <td>

@@ -28,6 +28,10 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
             </td>
             <td>
                 https://github.com/hyperledger-labs/business-partner-agent/issues/762
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/769"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
             </td>
         </tr>
     </table>
