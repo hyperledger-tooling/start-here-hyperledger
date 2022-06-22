@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/ursa-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/ursa-python/pull/8" class=".btn">#8</a>
+                PR <a href="https://github.com/hyperledger/ursa-python/pull/9" class=".btn">#9</a>
             </td>
             <td>
                 <b>
-                    Update CODEOWNERS
+                    Enable pip-audit
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/ursa-python
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-29 15:15:20 +0000 UTC
+        Created At 2022-06-21 22:08:21 +0000 UTC
     </div>
 </div>
 

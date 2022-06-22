@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-py
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-py/pull/164" class=".btn">#164</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-py/pull/171" class=".btn">#171</a>
             </td>
             <td>
                 <b>
-                    Change the chaincode lifecycle to make it compatible with fabric v2.x
+                    Enable pip-audit
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-py
                 
             </td>
             <td>
-                Signed-off-by: Rohan Shrothrium <rohan.shrothrium@intellecteu.com>
+                Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-07 18:28:38 +0000 UTC
+        Created At 2022-06-21 22:09:01 +0000 UTC
     </div>
 </div>
 
