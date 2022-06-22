@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1833" class=".btn">#1833</a>
+            </td>
+            <td>
+                <b>
+                    Improve typing of settings and add plugin settings object
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR implements some minor improvements on the type hints for the Settings classes and adds a class for `PluginSettings`. While working with plugins with configuration stored in ACA-Py's settings object, we often find ourselves needing to write lines like the following:
+
+```python
+value = cast(dict, context.settings.get(
+    "plugin_config", {}
+)).get(
+    "my_plugin", {}
+).get("value", DEFAULT_VALUE)
+```
+
+With this PR, we can now use:
+
+```python
+value = context.settings.for_plugin("my_plugin").get("value", DEFAULT_VALUE)
+```
+Or
+```python
+settings = context.settings.for_plugin("my_plugin")
+value = settings.get("value", DEFAULT_VALUE)
+```
+
+The plugin settings object is immutable. This decision was made to encourage plugin authors to handle mutable values through either objects injected into the context on startup or by storing values in a record.
+
+It's a minor quality of life tweak but this adds more structure to plugin configuration and value retrieval that I think was previously lacking while also improving readability.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-22 17:06:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1831" class=".btn">#1831</a>
             </td>
             <td>
@@ -306,32 +355,6 @@ Also, the tails file is now uploaded after the registry definition is posted and
     </table>
     <div class="right-align">
         Created At 2022-06-16 02:13:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1811" class=".btn">#1811</a>
-            </td>
-            <td>
-                <b>
-                    Fix: present-proof v1 send-proposal flow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">0.7.4</span>
-            </td>
-            <td>
-                - resolve #1809 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-15 17:41:37 +0000 UTC
     </div>
 </div>
 

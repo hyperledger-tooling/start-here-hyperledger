@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/888" class=".btn">#888</a>
+            </td>
+            <td>
+                <b>
+                    Clarify MacOS installation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I added a few new lines to the documentation to clarify the procedure to download and use the pre-compiled binary on MacOS.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-22 13:20:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/887" class=".btn">#887</a>
             </td>
             <td>
@@ -207,69 +233,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2022-06-16 14:43:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/873" class=".btn">#873</a>
-            </td>
-            <td>
-                <b>
-                    WIP: Create test with simple auction contract
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Taken from https://docs.soliditylang.org/en/v0.8.3/solidity-by-example.html#voting
-
-This test is broken in many ways. This PR is just a start.
-
-- [ ] calling bid() fails without any useful error. Ensure that the error is presented in node (I think there is an account missing from the call)
-- [ ] make bid function work
-- [ ] make the withdraw function work/collecting of winnings
-- [ ] deploy auction contract with PDA
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-15 15:30:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/872" class=".btn">#872</a>
-            </td>
-            <td>
-                <b>
-                    Do not re-export solang_parser from solang crate
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                No reason re-export.
-
-We're exporting far too much right now. This is just a simple start.
-
-See https://docs.rs/solang/latest/solang/ for example
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-15 15:01:42 +0000 UTC
     </div>
 </div>
 

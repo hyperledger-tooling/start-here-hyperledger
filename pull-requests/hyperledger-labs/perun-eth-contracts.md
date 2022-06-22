@@ -14,32 +14,6 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-contracts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-eth-contracts/pull/28" class=".btn">#28</a>
-            </td>
-            <td>
-                <b>
-                    Draft/test slither
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-22 10:14:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/perun-eth-contracts/pull/25" class=".btn">#25</a>
             </td>
             <td>

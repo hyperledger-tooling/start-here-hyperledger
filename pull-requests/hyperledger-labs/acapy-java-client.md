@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/54" class=".btn">#54</a>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/55" class=".btn">#55</a>
             </td>
             <td>
                 <b>
-                    create sub wallet clients when creating the sub wallet
+                    improved dif models
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
                 
             </td>
             <td>
-                see: https://github.com/hyperledger-labs/acapy-java-client/issues/51
-
-Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-20 15:45:33 +0000 UTC
+        Created At 2022-06-22 15:08:11 +0000 UTC
     </div>
 </div>
 

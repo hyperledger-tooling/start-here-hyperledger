@@ -240,29 +240,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/karma-charity-platform/pull/17" class=".btn">#17</a>
-            </td>
-            <td>
-                <b>
-                    building hlf explorer api
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Alexander Zemtsov <a.zemtsov@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-15 18:06:44 +0000 UTC
-    </div>
-</div>
-

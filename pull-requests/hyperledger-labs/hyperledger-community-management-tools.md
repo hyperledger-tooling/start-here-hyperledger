@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-community-management-tool
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/77" class=".btn">#77</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/78" class=".btn">#78</a>
             </td>
             <td>
                 <b>
-                    Remove EOL projects
+                    Add action to run old-repos
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-community-management-tool
                 
             </td>
             <td>
-                Avalon, Burrow, and Explorer are EOL
-
-Signed-off-by: Ry Jones <ry@linux.com>
+                Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-18 19:04:47 +0000 UTC
+        Created At 2022-06-22 18:00:36 +0000 UTC
     </div>
 </div>
 
