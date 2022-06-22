@@ -15,30 +15,31 @@ permalink: /releases/hyperledger/firefly-common
         <tr>
             <td colspan="2">
                 <b>
-                    v0.1.10
+                    v0.1.11
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.1.10
+                    v0.1.11
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Add PreTranslatedDescription field to API Route by @nguyer in https://github.com/hyperledger/firefly-common/pull/18
+* Allow use of FF object schema generator in custom schema defs for anyOf by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/20
+* Move FFI Code from Core by @nguyer in https://github.com/hyperledger/firefly-common/pull/19
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v0.1.9...v0.1.10
+**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v0.1.10...v0.1.11
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v0.1.10" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v0.1.11" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-06-13 15:31:06 +0000 UTC
+        Created At 2022-06-22 15:40:23 +0000 UTC
     </span>
 </div>
 
