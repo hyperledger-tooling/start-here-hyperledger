@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/100" class=".btn">#100</a>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/101" class=".btn">#101</a>
             </td>
             <td>
                 <b>
-                    More updates
+                    Enable pip-audit
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-python
                 
             </td>
             <td>
-                - Reverted iroha dependencies to upstream
-- Wrapped and fixed some more classes
-- Expanded example
-- Fixed docker-compose for example
+                Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-02 20:53:23 +0000 UTC
+        Created At 2022-06-21 22:09:26 +0000 UTC
     </div>
 </div>
 

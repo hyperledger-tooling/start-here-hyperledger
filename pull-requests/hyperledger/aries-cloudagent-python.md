@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1831" class=".btn">#1831</a>
+            </td>
+            <td>
+                <b>
+                    Enable pip-audit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ry Jones <ry@linux.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-21 22:09:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1830" class=".btn">#1830</a>
+            </td>
+            <td>
+                <b>
+                    Update changelog and version for 0.7.4-rc4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-21 22:02:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1829" class=".btn">#1829</a>
             </td>
             <td>
@@ -279,32 +332,6 @@ Also, the tails file is now uploaded after the registry definition is posted and
     </table>
     <div class="right-align">
         Created At 2022-06-15 17:41:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1808" class=".btn">#1808</a>
-            </td>
-            <td>
-                <b>
-                    Fix put_file when the server returns a redirect
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">0.7.4</span>
-            </td>
-            <td>
-                I believe this fix only applies to tails file uploads at the moment. Previously, aiohttp would encounter an error because it closed the tails file after the first attempt.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-15 00:40:53 +0000 UTC
     </div>
 </div>
 
