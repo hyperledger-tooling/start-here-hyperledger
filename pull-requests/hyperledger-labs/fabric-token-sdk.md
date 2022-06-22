@@ -14,6 +14,114 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/271" class=".btn">#271</a>
+            </td>
+            <td>
+                <b>
+                    unit-test for register identity (idemix, gurvy)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR checks that the credentials produced by fabric-ca using gurvy are loaded correctly.
+
+Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-22 11:04:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/270" class=".btn">#270</a>
+            </td>
+            <td>
+                <b>
+                    Logging cleanup and samples gitignore
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-22 08:16:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/269" class=".btn">#269</a>
+            </td>
+            <td>
+                <b>
+                    Update old idemix references
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - use github.com/IBM/idemix
+
+Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-22 08:11:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/268" class=".btn">#268</a>
+            </td>
+            <td>
+                <b>
+                    TokenSDK Config: returns all TMS configurations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-22 07:35:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/266" class=".btn">#266</a>
             </td>
             <td>
@@ -70,7 +178,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             </td>
             <td>
                 <b>
-                    htlc exchange services
+                    htlc #255
                 </b>
             </td>
         </tr>
@@ -113,62 +221,6 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-06-16 08:20:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/259" class=".btn">#259</a>
-            </td>
-            <td>
-                <b>
-                    htlc basic integration test infrastructure
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Hagar Meir <hagar.meir@ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-16 08:06:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/257" class=".btn">#257</a>
-            </td>
-            <td>
-                <b>
-                    Namespace is always zkat even if it was changed in the node config #256
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When invoking token.GetManagementService() without any additional option, the token-api tries to load the default TMS. What does this mean? The token-api checks if there is a default fabric or orion network configuration, if yes it consider that the default. For the channel, it is the same. For the namespace, the issue is that there can be multiple token namespaces in the same <network, channel>. So, the code currently uses the default namespace zkat.
-
-So, the solution we can put forth is the following: The code checks the configuration and if there is a unique tuple <network, channel, namespace>, the code will use that one, otherwise it will return an error.
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-15 07:22:15 +0000 UTC
     </div>
 </div>
 

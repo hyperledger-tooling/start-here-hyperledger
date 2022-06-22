@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/769" class=".btn">#769</a>
+            </td>
+            <td>
+                <b>
+                    proof template for json-ld/dif presentation requests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                https://github.com/hyperledger-labs/business-partner-agent/issues/762
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-22 10:48:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/768" class=".btn">#768</a>
+            </td>
+            <td>
+                <b>
+                    acapy-rc4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/768"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-22 07:20:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/766" class=".btn">#766</a>
             </td>
             <td>
@@ -121,38 +177,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2022-06-17 02:00:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/765" class=".btn">#765</a>
-            </td>
-            <td>
-                <b>
-                    fix duplicated api calls on credential request
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-
-Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/765"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-15 08:59:38 +0000 UTC
     </div>
 </div>
 

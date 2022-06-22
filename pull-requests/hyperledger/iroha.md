@@ -637,7 +637,7 @@ Minor optimization
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">iroha2</span><span class="chip">Optimization</span><span class="chip">Unsafe</span>
             </td>
             <td>
                 <!-- You will not see HTML commented line in Pull Request body -->

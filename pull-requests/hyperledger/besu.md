@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4001" class=".btn">#4001</a>
+            </td>
+            <td>
+                <b>
+                    EthPeers unique
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stefan <stefan.pingel@consensys.net>
+
+## PR description
+
+To fix some issues that have been reported this PR makes sure that in EthPeers only has one EthPeer for each individual peer. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-22 09:32:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4000" class=".btn">#4000</a>
             </td>
             <td>

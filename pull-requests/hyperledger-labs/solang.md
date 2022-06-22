@@ -14,11 +14,39 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/887" class=".btn">#887</a>
+            </td>
+            <td>
+                <b>
+                    Ensure push and subscript works on multi-dimensional arrays
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes https://github.com/hyperledger-labs/solang/issues/860
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-22 09:47:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/886" class=".btn">#886</a>
             </td>
             <td>
                 <b>
-                    Ensure storing array literal in storage works correctly on substrate
+                    Ensure storing array literal in storage works correctly on substrate and ewasm
                 </b>
             </td>
         </tr>
@@ -242,32 +270,6 @@ See https://docs.rs/solang/latest/solang/ for example
     </table>
     <div class="right-align">
         Created At 2022-06-15 15:01:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/871" class=".btn">#871</a>
-            </td>
-            <td>
-                <b>
-                    Bump clap version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Currently CI tests are failing. Fix this
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-15 11:39:10 +0000 UTC
     </div>
 </div>
 
