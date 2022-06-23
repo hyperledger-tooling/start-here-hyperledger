@@ -38,31 +38,3 @@ permalink: /releases/hyperledger/fabric-protos
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v0.1.2 pre-release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v0.1.2
-                </span>
-            </td>
-            <td>
-                This is an experimental release to publish Java bindings
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/fabric-protos/releases/tag/v0.1.2" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-06-16 06:41:48 +0000 UTC
-    </span>
-</div>
-
