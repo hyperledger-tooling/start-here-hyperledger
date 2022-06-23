@@ -15,66 +15,61 @@ permalink: /releases/hyperledger-labs/business-partner-agent
         <tr>
             <td colspan="2">
                 <b>
-                    0.10.0 🌈
+                    0.11.0 🌈
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.10.0
+                    0.11.0
                 </span>
             </td>
             <td>
                 ## Features
-- import json-ld schema
-- request/receive w3c credentials
-- send credential offer in invitation
-- option to send notifications via email (backend)
-- send, receive revocation notifications
 
-## Breaking Changes
-
-- proof templates and related exchanges will be wiped clean during the upgrade, because of an incompatible change in the data structure
+- Support for DIF/W3C presentation exchanges
+  - Holder: Send proposal to verifier
+  - Verifier: Auto respond (request/validate) to proposal from holder
+- Issue JSON-LD credentials + frontend support
+- Server side paging for tables
+- Frontend code full TypeScript conversion
+- Frontend partner invitation copy button
 
 ## Changes
 
-- clean proof templates @etschelp (#728)
-- Feature/UI connectionless @schlagtim (#723)
-- small backend fix for PR: 723 @etschelp (#724)
-- updated chat badge to point to discord @etschelp (#721)
-- w3c interoperability fixes @etschelp (#718)
-- Bump url-parse from 1.5.7 to 1.5.10 in /frontend @dependabot (#719)
-- issue, request and receive w3c credentials @etschelp (#701)
-- Bump url-parse from 1.5.3 to 1.5.7 in /frontend @dependabot (#717)
-- added single quotes on file patterns in prettify command for frontend @chriamue (#716)
-- Update licenses @schlagtim (#715)
-- Bump markdown-it from 12.2.0 to 12.3.2 in /frontend @dependabot (#712)
-- Bump follow-redirects from 1.14.5 to 1.14.8 in /frontend @dependabot (#714)
-- Bump shelljs from 0.8.4 to 0.8.5 in /frontend @dependabot (#713)
-- JSON-LD schema import UI @schlagtim (#711)
-- fix v2 credentials not being shown in wallet @etschelp (#710)
-- adding arm support to the build pipeline @etschelp (#709)
-- send mesages on event @etschelp (#707)
-- cleanup backend package structure @etschelp (#706)
-- create and receive oob invitation with attached credential offer @etschelp (#705)
-- upgrade to java 17 @etschelp (#694)
-- codeql warnings - locale in register did script @etschelp (#703)
-- aca-py 0.7.3 @etschelp (#695)
-- Test Setup @schlagtim (#700)
-- Delete milestones.yml @frank-bee (#699)
-- latest log4j version @etschelp (#698)
-- Feature/nodejs update @schlagtim (#697)
-- Fix gitpod download URL @schlagtim (#696)
+- add --legacy-peer-deps flag to all pipelines @etschelp (#771)
+- UI: Issue JSON-LD credential @schlagtim (#748)
+- acapy-rc4 @etschelp (#768)
+- Bump undici from 5.4.0 to 5.5.1 in /frontend @dependabot (#766)
+- fix duplicated api calls on credential request @etschelp (#765)
+- Fix not all exchanges being removed on partner delete @etschelp (#761)
+- support for dif presentation exchanges @etschelp (#751)
+- latest working node version @etschelp (#758)
+- Bump eventsource from 1.1.0 to 1.1.1 in /frontend @dependabot (#756)
+- refactor using vue refs in copy schema id to clipboard method @chriamue (#752)
+- added copy to clipboard button for created invitation @chriamue (#750)
+- Bump lodash from 4.17.10 to 4.17.15 in /frontend @dependabot (#729)
+- Bump set-value from 0.4.3 to 2.0.1 in /frontend @dependabot (#727)
+- Bump shelljs from 0.7.8 to 0.8.5 in /frontend @dependabot (#726)
+- Bump follow-redirects from 1.5.8 to 1.14.9 in /frontend @dependabot (#725)
+- return partnerId in invitations post response @chriamue (#749)
+- issue ld credential fixes @etschelp (#742)
+- server side paging @etschelp (#730)
+- gitpod 2 @etschelp (#739)
+- fix exchange logo via sysprops @etschelp (#738)
+- gitpod fixes @etschelp (#737)
+- fix for issue 731 @etschelp (#733)
+- fix security audit findings @etschelp (#722)
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/business-partner-agent/releases/tag/0.10.0" class=".btn">
+    <a href="https://github.com/hyperledger-labs/business-partner-agent/releases/tag/0.11.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-03-14 15:23:57 +0000 UTC
+        Created At 2022-06-23 10:34:08 +0000 UTC
     </span>
 </div>
 
