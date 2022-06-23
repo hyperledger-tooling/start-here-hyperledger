@@ -14,6 +14,96 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4005" class=".btn">#4005</a>
+            </td>
+            <td>
+                <b>
+                    reduce clique block time in ATs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-23 02:53:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4004" class=".btn">#4004</a>
+            </td>
+            <td>
+                <b>
+                    Version Upgrades for 22.7.0-RC1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update versions
+
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-23 02:04:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4003" class=".btn">#4003</a>
             </td>
             <td>
@@ -77,9 +167,9 @@ Signed-off-by: Simon Dudley <simon.dudley@consensys.net>
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-PR #2485 introduced a limit on eth subprotocol message sizes.  However, there is no logic to limit outgoing messages to conform with this size limit.  As a result of this asymmetry, a new node trying to sync with other besu nodes may end up disconnecting many of its peers for exceeding this limit.  This can cause nodes to get stuck during the sync process. 
+PR #2485 introduced a limit on incoming `eth` subprotocol message sizes.  However, there is no logic to force outgoing messages to conform to this size limit.  As a result of this asymmetry, a new node trying to sync with other besu nodes may end up disconnecting many of its peers for exceeding this limit.  This can cause nodes to get stuck during the sync process. 
 
-This PR makes the max message size configurable.  This provides a workaround for nodes that are stuck in this way.  
+This PR makes the max message size configurable via a hidden option: `--Xeth-max-message-size`.  This provides a workaround for nodes that are stuck in this way.  
 
 Remaining TODOs (to be handled in follow-up PRs):
 * Handle message size limit consistently by enforcing limits on outbound messages
@@ -89,12 +179,12 @@ This partially addresses the issue described in #3867.
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -802,43 +892,6 @@ Signed-off-by: Justin Florentine <justin+github@florentine.us>
     </table>
     <div class="right-align">
         Created At 2022-06-16 12:51:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3972" class=".btn">#3972</a>
-            </td>
-            <td>
-                <b>
-                    set merge flag false for tests that need it
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Since we currently have a static config object, if tests are run in a different order or in parallel, this can break the tests. Quick fix - set the flag to false for the tests that got broke.
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-16 05:43:48 +0000 UTC
     </div>
 </div>
 
