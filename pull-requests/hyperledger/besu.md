@@ -14,6 +14,98 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4009" class=".btn">#4009</a>
+            </td>
+            <td>
+                <b>
+                    Support dropping rocksdb column families
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+unsafe feature which allows dropping of column families.
+
+Do not merge at present.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-23 15:41:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4008" class=".btn">#4008</a>
+            </td>
+            <td>
+                <b>
+                    try updater protection
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-23 13:39:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4006" class=".btn">#4006</a>
             </td>
             <td>
@@ -725,215 +817,6 @@ This is a spike for the storing the chain data in an external db instead of the 
     </table>
     <div class="right-align">
         Created At 2022-06-16 18:34:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3978" class=".btn">#3978</a>
-            </td>
-            <td>
-                <b>
-                    Release 22.4.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                reverts PR for disconnecting from the pow network. Updates version number.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-16 17:09:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3977" class=".btn">#3977</a>
-            </td>
-            <td>
-                <b>
-                    Thread Safe Bonsai World State Updater Facade
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Recent problems with world state mismatch on bonsai are most probably caused by synchronization issues.
-
-Bonsai data structure is not inherently tread safe as compared to how forest works. 
-
-Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-16 14:48:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3976" class=".btn">#3976</a>
-            </td>
-            <td>
-                <b>
-                    adds ttd block to sepolia config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Justin Florentine <justin+github@florentine.us>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-16 13:50:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3975" class=".btn">#3975</a>
-            </td>
-            <td>
-                <b>
-                    Remove check in fcU if new blocks are descendants of the previous finalized block
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
-
-## Fixed Issue(s)
-fixes #3966 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-16 13:47:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3974" class=".btn">#3974</a>
-            </td>
-            <td>
-                <b>
-                    fix ThreadBesuNodeRunner missing engineRpcConfiguration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Acceptance test fail to run with `ThreadBesuNodeRunner` when `systemProperty 'acctests.runBesuAsProcess = false'`. This PR adds missing configurations to ThreadBesuRunner for engine RPC API. 
-
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Failure Example:
-```
-./gradlew acceptanceTest --tests="*ExecutionEngine*"
-
-Cannot parse null string
-java.lang.NumberFormatException: Cannot parse null string
-	at java.base/java.lang.Integer.parseInt(Integer.java:630)
-	at java.base/java.lang.Integer.valueOf(Integer.java:999)
-	at org.hyperledger.besu.tests.acceptance.dsl.node.BesuNode.getEngineJsonRpcPort(BesuNode.java:372)
-	at org.hyperledger.besu.tests.acceptance.dsl.node.BesuNode.engineRpcUrl(BesuNode.java:309)
-	at org.hyperledger.besu.tests.acceptance.jsonrpc.ExecutionEngineAcceptanceTest.test(ExecutionEngineAcceptanceTest.java:83)
-```
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-16 13:26:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3973" class=".btn">#3973</a>
-            </td>
-            <td>
-                <b>
-                    adds websocket methods, test coverage still lacking
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixes #3948 
-
-Signed-off-by: Justin Florentine <justin+github@florentine.us>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-16 12:51:15 +0000 UTC
     </div>
 </div>
 
