@@ -14,6 +14,99 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4003" class=".btn">#4003</a>
+            </td>
+            <td>
+                <b>
+                    Support zero gas networks using London fee market
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                If baseFeePerGas is configured to "0x0" in the genesis file, bypass the need for a transaction to have a gas price of > 7 Wei
+
+Signed-off-by: Simon Dudley <simon.dudley@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-23 00:41:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4002" class=".btn">#4002</a>
+            </td>
+            <td>
+                <b>
+                    [Issue 3867] Make eth subprotocol message size limit configurable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+PR #2485 introduced a limit on eth subprotocol message sizes.  However, there is no logic to limit outgoing messages to conform with this size limit.  As a result of this asymmetry, a new node trying to sync with other besu nodes may end up disconnecting many of its peers for exceeding this limit.  This can cause nodes to get stuck during the sync process. 
+
+This PR makes the max message size configurable.  This provides a workaround for nodes that are stuck in this way.  
+
+Remaining TODOs (to be handled in follow-up PRs):
+* Handle message size limit consistently by enforcing limits on outbound messages
+
+## Fixed Issue(s)
+This partially addresses the issue described in #3867. 
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-22 22:10:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4001" class=".btn">#4001</a>
             </td>
             <td>
@@ -746,113 +839,6 @@ Since we currently have a static config object, if tests are run in a different 
     </table>
     <div class="right-align">
         Created At 2022-06-16 05:43:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3970" class=".btn">#3970</a>
-            </td>
-            <td>
-                <b>
-                    WIP: fixing the sonarcloud building in gha
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Joshua Fernandes <joshua.fernandes@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-16 00:59:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3969" class=".btn">#3969</a>
-            </td>
-            <td>
-                <b>
-                    Have consistent warning between CLI, ENV and TOML config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Add additional check of option in environment variables and config file for detecting ignored dependent config warning.
-
-## Fixed Issue(s)
-fixes #2069 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-16 00:30:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3967" class=".btn">#3967</a>
-            </td>
-            <td>
-                <b>
-                    Create sonarcloud.yml
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Joshua Fernandes <joshua.fernandes@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Adding in sonarcloud via Github Actions
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-15 21:24:03 +0000 UTC
     </div>
 </div>
 
