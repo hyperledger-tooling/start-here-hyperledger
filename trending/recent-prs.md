@@ -1,13 +1,13 @@
 
-[82](https://github.com/hyperledger-labs/university-course/pull/82) chore(deps): bump shell-quote from 1.7.2 to 1.7.3 in /support/Lab06/b4s/organization/university/user-interface
+[115](https://github.com/hyperledger/fabric-protos/pull/115) Tag fabric-protos-go-apiv2 repo on release builds
 
-[331](https://github.com/hyperledger-labs/fablo/pull/331) Bump got from 11.8.2 to 11.8.5
+[273](https://github.com/hyperledger-labs/fabric-token-sdk/pull/273) wallets restructuring #272
 
-[4005](https://github.com/hyperledger/besu/pull/4005) reduce clique block time in ATs
+[891](https://github.com/hyperledger-labs/solang/pull/891) Wire up extcodesize for ewasm
 
-[4004](https://github.com/hyperledger/besu/pull/4004) Version Upgrades for 22.7.0-RC1
+[234](https://github.com/hyperledger-labs/fabric-operations-console/pull/234) Bump got from 11.8.2 to 11.8.5 in /packages/apollo
 
-[4003](https://github.com/hyperledger/besu/pull/4003) Support zero gas networks using London fee market
+[2389](https://github.com/hyperledger/iroha/pull/2389) #2008: Interning of common objects
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

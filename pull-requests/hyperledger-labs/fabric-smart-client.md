@@ -120,29 +120,3 @@ Updated go version from 1.16 to 1.17 in the readme file.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/294" class=".btn">#294</a>
-            </td>
-            <td>
-                <b>
-                    extract IPs from discovery #293
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This enhancement is tested here: https://github.com/hyperledger-labs/fabric-token-sdk/pull/260
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-16 08:13:27 +0000 UTC
-    </div>
-</div>
-
