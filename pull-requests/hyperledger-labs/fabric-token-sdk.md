@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/271" class=".btn">#271</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/273" class=".btn">#273</a>
             </td>
             <td>
                 <b>
-                    unit-test for register identity (idemix, gurvy)
+                    wallets restructuring #272
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 
             </td>
             <td>
-                This PR checks that the credentials produced by fabric-ca using gurvy are loaded correctly.
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-22 11:04:38 +0000 UTC
+        Created At 2022-06-23 11:13:06 +0000 UTC
     </div>
 </div>
 
@@ -193,34 +191,6 @@ Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-06-20 09:37:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/260" class=".btn">#260</a>
-            </td>
-            <td>
-                <b>
-                    update FSC dep to latest
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR updates the Token-SDK to the FSC version that offers enhanced discovery capabilities. (https://github.com/hyperledger-labs/fabric-smart-client/issues/293)
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-16 08:20:12 +0000 UTC
     </div>
 </div>
 
