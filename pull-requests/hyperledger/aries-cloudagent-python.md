@@ -14,6 +14,85 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1837" class=".btn">#1837</a>
+            </td>
+            <td>
+                <b>
+                    Allow setting a baseurl for the swagger urls
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When deploying different agents on same gateway url in service mesh there occures some problem cause static swagger path und swagger.json has no unique uri. This PR enables a baseurl to be set for the swagger urls mentioned via the environment variable ACA_PY_BASE_URL:
+Until now, the static swagger path and swagger.json path is always the default value set in setup_aiohttp_apispec (static/swagger for 'static_path' and /api/docs/swagger.json for 'url'). By setting the ACA_PY_BASE_URL, the path can now be adjusted so that the urls can be set to{ACA_PY_BASE_URL }/api/docs/swagger.json. The urls can then be easily resolved in the virtual service via unique urls.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-22 19:41:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1836" class=".btn">#1836</a>
+            </td>
+            <td>
+                <b>
+                    feat: make base wallet route access configurable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When adding admin routes through plugins, it makes sense for the plugin to be able to specify that those routes should be accessible to the base wallet when appropriate.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-22 19:14:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1834" class=".btn">#1834</a>
+            </td>
+            <td>
+                <b>
+                    Use local deps only
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ry Jones <ry@linux.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-22 18:52:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1833" class=".btn">#1833</a>
             </td>
             <td>

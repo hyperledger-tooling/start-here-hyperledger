@@ -87,38 +87,3 @@ set default value for `osnadmin_feats_enabled` as `true`, was `false`
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/231" class=".btn">#231</a>
-            </td>
-            <td>
-                <b>
-                    update license headers in all files
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Documentation update
-
-#### Description
-Looks like a big pr, but its just a license update we had to do.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-15 21:24:35 +0000 UTC
-    </div>
-</div>
-
