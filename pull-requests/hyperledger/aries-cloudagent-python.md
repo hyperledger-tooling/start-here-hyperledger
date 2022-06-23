@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1838" class=".btn">#1838</a>
+            </td>
+            <td>
+                <b>
+                    0.7.4-rc5 changelog, version and ReadTheDocs updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-23 17:47:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1837" class=".btn">#1837</a>
             </td>
             <td>
@@ -325,59 +352,6 @@ Signed-off-by: lineko <36633510+lineko@users.noreply.github.com>
     </table>
     <div class="right-align">
         Created At 2022-06-16 18:56:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1817" class=".btn">#1817</a>
-            </td>
-            <td>
-                <b>
-                    Changelog, version and ReadTheDocs updates for 0.7.4-rc3 release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-16 16:47:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1816" class=".btn">#1816</a>
-            </td>
-            <td>
-                <b>
-                    Fix missing webhook handler
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-16 13:44:58 +0000 UTC
     </div>
 </div>
 

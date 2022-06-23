@@ -175,30 +175,3 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/768" class=".btn">#768</a>
-            </td>
-            <td>
-                <b>
-                    ERC1155: subtraction overflow issue resolved
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This resolves issue #765.
-Signed-off-by: Rajat Sharma <connecttorajat@outlook.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-16 14:30:57 +0000 UTC
-    </div>
-</div>
-
