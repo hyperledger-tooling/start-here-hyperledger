@@ -1,13 +1,13 @@
 
-[19](https://github.com/hyperledger-labs/fabric-operator/pull/19) Suggested updates to the sample network readme
+[23](https://github.com/hyperledger/firefly-common/pull/23) Add number to list of allowed JSON input types
 
-[906](https://github.com/hyperledger/aries-framework-javascript/pull/906) feat(credentials): added credential sendProblemReport method
+[119](https://github.com/hyperledger/fabric-protos/pull/119) [WIP] Update releasing guide
 
-[893](https://github.com/hyperledger-labs/solang/pull/893) Ensure that codegen is correct for push/pop in if statements
+[880](https://github.com/hyperledger/firefly/pull/880) Collapse batchpin.Submitter into multiparty.Manager
 
-[4011](https://github.com/hyperledger/besu/pull/4011) Update reference tests to the latest version and include test for gray glacier
+[22](https://github.com/hyperledger/firefly-common/pull/22) Allow numbers and booleans to be expressed as strings
 
-[2098](https://github.com/hyperledger/cactus/pull/2098) fix: part 2 of lint warnings resolved for batch 7/26 #1356 : Commit to be reviewed
+[879](https://github.com/hyperledger/firefly/pull/879) surface URI as parameter for token mint
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

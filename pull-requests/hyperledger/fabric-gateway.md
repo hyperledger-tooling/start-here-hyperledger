@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/460" class=".btn">#460</a>
+            </td>
+            <td>
+                <b>
+                    gh-pages updates to reflect new functionality in v1.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-24 13:41:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/459" class=".btn">#459</a>
+            </td>
+            <td>
+                <b>
+                    Update fabric-gateway version in Maven/Gradle install docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Changes for v1.1 release.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-24 13:38:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/458" class=".btn">#458</a>
             </td>
             <td>
@@ -27,7 +79,9 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
+                Includes removing using of javax.json in scenario test code and standardising all JSON manipulation on Gson, which is used in the implementation code.
+    
+Also revert a change to the signature for the hash function to ensure compatibility.
             </td>
         </tr>
     </table>

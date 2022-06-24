@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">backport-candidate</span>
             </td>
             <td>
                 in a chain with https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/60
@@ -50,7 +50,7 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">backport-candidate</span>
             </td>
             <td>
                 The ERC721WithData contract now supports custom token URI's on mint.

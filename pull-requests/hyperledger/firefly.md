@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/880" class=".btn">#880</a>
+            </td>
+            <td>
+                <b>
+                    Collapse batchpin.Submitter into multiparty.Manager
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-24 15:42:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/879" class=".btn">#879</a>
+            </td>
+            <td>
+                <b>
+                    surface URI as parameter for token mint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport-candidate</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-24 15:03:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/878" class=".btn">#878</a>
             </td>
             <td>
@@ -27,7 +79,7 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                In a chain with #876
+                Needs cleanup, but should be (mostly) fully functional.
             </td>
         </tr>
     </table>
@@ -277,39 +329,6 @@ Also enhance all E2E test suites to check for stuck operations, as this seems to
     </table>
     <div class="right-align">
         Created At 2022-06-20 13:26:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/866" class=".btn">#866</a>
-            </td>
-            <td>
-                <b>
-                    Move FFI/ABI conversion code to signer and common
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR moves FFI related things out of core and into shared libraries so they can be used by other FireFly subprojects. Generic FFI types and validations have been moved to `firefly-common`. Ethereum specific FFI code has moved to `firefly-signer`.
-
-Prerequisites for merge:
-https://github.com/hyperledger/firefly-common/pull/19
-https://github.com/hyperledger/firefly-signer/pull/9
-
-TODO:
-- [ ] Update `go.mod` after release of `firefly-common` and `firefly-signer`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-17 14:03:46 +0000 UTC
     </div>
 </div>
 

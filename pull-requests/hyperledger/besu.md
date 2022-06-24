@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4013" class=".btn">#4013</a>
+            </td>
+            <td>
+                <b>
+                    Validate without saving2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-24 15:02:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4011" class=".btn">#4011</a>
             </td>
             <td>
@@ -580,58 +622,6 @@ process_release{version="besu/v22.4.1-dev-fe8ad2d5/linux-x86_64/openjdk-java-11"
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3994" class=".btn">#3994</a>
-            </td>
-            <td>
-                <b>
-                    When on PoS the head can be only be updated by ForkchoiceUpdate
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When executing a newPayload or build a new block, we do not need to move
-the chain head and update the world state, since this will be done by a
-following forkchoice update call, but we still need to validate the block
-and doing so we can also prepare everything for the future call, so we do
-not need to re-execute everything, but only update the pointers, so that the
-response to the forkchoice update call is quick.
-
-Moreover on block proposal do only a validation of the block without storing or remembering nothing, to avoid saving data that could be stale, for example the empty block that is always proposed, is useless if another better block is produced later.
-Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #3957
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-20 12:58:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/3993" class=".btn">#3993</a>
             </td>
             <td>
@@ -700,45 +690,6 @@ Added ARM CircleCI tasks to verify compatibility.
     </table>
     <div class="right-align">
         Created At 2022-06-20 01:37:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3989" class=".btn">#3989</a>
-            </td>
-            <td>
-                <b>
-                    issue #3986 -  Changed [file path init fail error message] clearer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Error message when the data path is not accessible was not clearly describing the actual error. So I made this error message more intuitive.    
-
-## Fixed Issue(s)
-fixes #3986 
-
-## Documentation
-
-- [X] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-17 17:15:30 +0000 UTC
     </div>
 </div>
 
