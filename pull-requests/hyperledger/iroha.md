@@ -674,29 +674,3 @@ But be carefull, because this is not how `Iroha 2` works by default. This may in
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2367" class=".btn">#2367</a>
-            </td>
-            <td>
-                <b>
-                    [ci] #1658: Add documentation check
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Sorry for omitting the PR template here, but the change is very little and clear. It just adds  documentation check (using `cargo doc`) to CI.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-16 21:55:49 +0000 UTC
-    </div>
-</div>
-

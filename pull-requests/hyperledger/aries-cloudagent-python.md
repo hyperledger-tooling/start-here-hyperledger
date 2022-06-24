@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1840" class=".btn">#1840</a>
+            </td>
+            <td>
+                <b>
+                    Set prefix for integration test demo agents; some code cleanup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Setting the prefix makes the test output much clearer:
+
+> Acme.agent | Received transaction message: transaction_endorsed
+> INFO:aiohttp.access:172.17.0.1 [23/Jun/2022:13:48:00 +0000] "POST /webhooks/topic/endorse_transaction/ HTTP/1.1" 200 149 "-" "Python/3.6 aiohttp/3.8.1"
+> Bob.agent  | Received transaction message: transaction_endorsed
+
+compared to:
+
+> Aries      | Received transaction message: transaction_endorsed
+> INFO:aiohttp.access:172.17.0.1 [23/Jun/2022:13:48:00 +0000] "POST /webhooks/topic/endorse_transaction/ HTTP/1.1" 200 149 "-" "Python/3.6 aiohttp/3.8.1"
+> Aries      | Received transaction message: transaction_endorsed
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-23 19:51:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1838" class=".btn">#1838</a>
             </td>
             <td>
@@ -325,33 +362,6 @@ Signed-off-by: lineko <36633510+lineko@users.noreply.github.com>
     </table>
     <div class="right-align">
         Created At 2022-06-17 14:10:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1818" class=".btn">#1818</a>
-            </td>
-            <td>
-                <b>
-                    Add troubleshooting document, include initial examples - ledger connection, out-of-sync RevReg
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-16 18:56:08 +0000 UTC
     </div>
 </div>
 
