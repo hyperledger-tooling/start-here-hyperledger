@@ -239,7 +239,7 @@ Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
             </td>
             <td>
                 <b>
-                    Support zero gas networks using London fee market
+                    Support free gas networks using London fee market
                 </b>
             </td>
         </tr>
@@ -791,32 +791,6 @@ This is a spike for the storing the chain data in an external db instead of the 
     </table>
     <div class="right-align">
         Created At 2022-06-17 02:24:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3979" class=".btn">#3979</a>
-            </td>
-            <td>
-                <b>
-                    updates version to prep for q3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Justin Florentine <justin+github@florentine.us>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-16 18:34:11 +0000 UTC
     </div>
 </div>
 
