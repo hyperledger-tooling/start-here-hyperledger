@@ -15,29 +15,30 @@ permalink: /releases/hyperledger-labs/hlf-operator
         <tr>
             <td colspan="2">
                 <b>
-                    Version 1.7.0-beta2
+                    Version 1.7.0-beta3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.7.0-beta2
+                    v1.7.0-beta3
                 </span>
             </td>
             <td>
                 ## Changelog
-* 1d3df6f create goreleaser beta for beta releases
+* 8a775e1 Add fabric-operations-console
+* f569099 create goreleaser beta for beta releases
 
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/hlf-operator/releases/tag/v1.7.0-beta2" class=".btn">
+    <a href="https://github.com/hyperledger-labs/hlf-operator/releases/tag/v1.7.0-beta3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-05-22 10:40:18 +0000 UTC
+        Created At 2022-06-14 21:56:12 +0000 UTC
     </span>
 </div>
 
