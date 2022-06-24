@@ -90,33 +90,3 @@ Updated go version from 1.16 to 1.17 in the readme file.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/295" class=".btn">#295</a>
-            </td>
-            <td>
-                <b>
-                    Cleanup and upgrade
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - replace some old fabric idemix deps
-- remove legacy zookeeper/kafka from integration test suite
-- remove dep pin for go-kit since we use a pretty old version
-- use latest fabric protos
-- use latest fabric (this is just for testing ... see if it works or explodes)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-17 16:50:10 +0000 UTC
-    </div>
-</div>
-

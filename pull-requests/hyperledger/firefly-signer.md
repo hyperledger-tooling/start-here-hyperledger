@@ -67,32 +67,3 @@ Note I filled in the gap on the floating point input, with a `oneOf` there, and 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-signer/pull/9" class=".btn">#9</a>
-            </td>
-            <td>
-                <b>
-                    Move FFI/ABI conversion logic from Core
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR moves all of the Ethereum specific FFI logic out of Core into `firefly-signer` so that it can be used by other FireFly subprojects without a dependency on the entire core. This includes Ethereum specific FFI metaschema, and FFI/ABI conversion logic.
-
-~TODO~ DONE:
-- [x] Update `go.mod` after `firefly-common` release
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-17 14:02:02 +0000 UTC
-    </div>
-</div>
-

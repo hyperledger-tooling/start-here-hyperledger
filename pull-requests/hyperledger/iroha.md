@@ -14,11 +14,47 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2394" class=".btn">#2394</a>
+            </td>
+            <td>
+                <b>
+                    [ci] #2393: Bump the version of the Docker base image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ### Description of the Change
+Version bump, which fixes the build failure. This is a stopgap until #2278 is merged
+
+### Issue
+- Closes #2393
+
+### Benefits
+- Docker can build
+
+### Possible Drawbacks
+- None
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-24 12:53:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2390" class=".btn">#2390</a>
             </td>
             <td>
                 <b>
-                    [refactor] #2360: Make `genesis.json` optional again
+                    [feature] #2360: Make `genesis.json` optional again
                 </b>
             </td>
         </tr>
