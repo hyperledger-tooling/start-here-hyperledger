@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/513" class=".btn">#513</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/516" class=".btn">#516</a>
             </td>
             <td>
                 <b>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-16 04:13:50 +0000 UTC
+        Created At 2022-06-19 04:34:33 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/512" class=".btn">#512</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/515" class=".btn">#515</a>
             </td>
             <td>
                 <b>
-                    feat(afj): add v2 credential controller
+                    Fix typo in afgo GHA script
                 </b>
             </td>
         </tr>
@@ -53,14 +53,13 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
                 
             </td>
             <td>
-                Add issue credential v2 tests for AFJ and also adds tests for ICv2 interop between AFJ <-> ACA-Py.
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
 
-Had to extend the ICv2 tests a bit to support using 0160 connections as we don't have didexchange tests yet
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-15 10:59:32 +0000 UTC
+        Created At 2022-06-17 17:20:57 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/454" class=".btn">#454</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/458" class=".btn">#458</a>
             </td>
             <td>
                 <b>
-                    Exclude unit test files from TypeScript build
+                    Tidy-up Java dependencies
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Previously there were being filtered from the build output at the npm packaging stage.
+                Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-16 13:12:42 +0000 UTC
+        Created At 2022-06-23 14:09:11 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/452" class=".btn">#452</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/457" class=".btn">#457</a>
             </td>
             <td>
                 <b>
-                    Use fabric-protos-go-apiv2 in Go client
+                    Install Go tools as part of make targets that require them
                 </b>
             </td>
         </tr>
@@ -53,14 +53,15 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Uses the v2 protocol buffer API and avoids direct usage of the deprecated v1 API.
+                - Remove explicit Go CLI command dependency install steps from Makefile and CI pipeline.
+- Add explicit `go install` commands in make targets that require CLI commands.
 
-Closes #363
+Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-15 11:37:44 +0000 UTC
+        Created At 2022-06-23 11:19:27 +0000 UTC
     </div>
 </div>
 
@@ -68,11 +69,11 @@ Closes #363
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/451" class=".btn">#451</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/456" class=".btn">#456</a>
             </td>
             <td>
                 <b>
-                    Upgrade scenario test network to 3 raft orderers
+                    Use fabric-protos package in Java client
                 </b>
             </td>
         </tr>
@@ -81,12 +82,42 @@ Closes #363
                 
             </td>
             <td>
-                Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+                No longer need to download and compile protobuf stubs to be bundled directly into fabric-gateway package.
+
+Closes #420
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-10 13:43:01 +0000 UTC
+        Created At 2022-06-22 17:10:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/455" class=".btn">#455</a>
+            </td>
+            <td>
+                <b>
+                    Add make target to install required Go tools
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Previously this was coded into the Azure Pipelines build script, and also documented for manual set up in the README.
+
+Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-22 16:50:58 +0000 UTC
     </div>
 </div>
 

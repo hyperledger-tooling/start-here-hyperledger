@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/458" class=".btn">#458</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/459" class=".btn">#459</a>
             </td>
             <td>
                 <b>
-                    [#issue-457]Modify node operation list
+                    Refine the setup doc
                 </b>
             </td>
         </tr>
@@ -27,16 +27,14 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                Modify node operation list, operation type
+                Add detailed instructions to the setup doc, add troubleshoot section for the potential problems and solutions.
 
-Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
-
-Close #457 
+Signed-off-by: xichen1 <xichen.pan@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-16 07:19:55 +0000 UTC
+        Created At 2022-06-24 02:21:19 +0000 UTC
     </div>
 </div>
 

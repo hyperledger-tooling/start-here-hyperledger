@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/865" class=".btn">#865</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/878" class=".btn">#878</a>
             </td>
             <td>
                 <b>
-                    Create firefly subscription per namespace
+                    Enable gateway-mode namespaces
                 </b>
             </td>
         </tr>
@@ -27,48 +27,12 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                Each namespace now has a unique firefly contract subscription
-
-To support a subscription per namespace, the `fireflyContract` config section has been replaced with the `contracts` array section under the `multiparty` config.
-
-Example:
-```
-blockchain:
-- name: blockchain0
-  type: ethereum
-  ethereum:
-    ethconnect:
-      url: http://ethconnect_0:8080
-      topic: "0"
-      
-namespaces:
-  default: default
-  predefined:
-  - name: default
-    remoteName: default
-    description: Default predefined namespace
-    plugins: [database0, blockchain0, dataexchange0, sharedstorage0, erc20_erc721]
-    multiparty:
-      enabled: true
-      org:
-        name: org0
-        description: org0
-        key: 0x123456
-      contract:
-        - location:
-            address: 0x4ae50189462b0e5d52285f59929d037f790771a6 
-          firstEvent: oldest
-```
-
- * location is a yaml object containing blockchain plugin configuration
- * `firstEvent` is replacing `fromBlock`, supporting values of newest or oldest
-
-This PR also introduces a new component, multiparty manager, that is responsible for managing the active firefly contract and interfacing with the blockchain plugin on behalf of that contract.
+                In a chain with #876
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-15 21:00:27 +0000 UTC
+        Created At 2022-06-23 18:34:55 +0000 UTC
     </div>
 </div>
 
@@ -76,11 +40,63 @@ This PR also introduces a new component, multiparty manager, that is responsible
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/864" class=".btn">#864</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/877" class=".btn">#877</a>
             </td>
             <td>
                 <b>
-                    Further cleanup of namespace params to managers and database plugin
+                    Remove "namespace" as a query param from all routes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-22 21:42:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/876" class=".btn">#876</a>
+            </td>
+            <td>
+                <b>
+                    Handle namespace validation at the route level rather than at data manager
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Data manager is already part of a namespace, so determination of whether the namespace is valid needs to happen earlier in the router, when we're attempting to lookup the proper orchestrator to handle the request.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-22 21:14:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/875" class=".btn">#875</a>
+            </td>
+            <td>
+                <b>
+                    Remove namespace param from remaining manager calls
                 </b>
             </td>
         </tr>
@@ -90,18 +106,14 @@ This PR also introduces a new component, multiparty manager, that is responsible
             </td>
             <td>
                 Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12)
-In a chain with #862
+Follow-on to #864
 
-Each manager is specific to a namespace, which should be received and stored during init. All operations conducted by that manager should use that namespace, and therefore no manager methods should accept a namespace as a parameter.
-
-The database plugin, on the other hand, may potentially service multiple namespaces. Therefore, all query operations should take a namespace parameter to ensure that only results from a single namespace are returned.
-
-This PR makes these true for many cases, but others are still to be addressed with a follow-up PR.
+This removes "namespace" as a param to remaining manager methods (since each manager is already assigned to a single namespace) and adds "namespace" as a param to most database queries (since all queries should be scoped to a single namespace).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-15 15:24:43 +0000 UTC
+        Created At 2022-06-22 20:09:37 +0000 UTC
     </div>
 </div>
 
@@ -109,11 +121,11 @@ This PR makes these true for many cases, but others are still to be addressed wi
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/863" class=".btn">#863</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/874" class=".btn">#874</a>
             </td>
             <td>
                 <b>
-                    Move event plugin init to namespace manager
+                    Convert more callback handlers to be namespace-specific
                 </b>
             </td>
         </tr>
@@ -122,16 +134,15 @@ This PR makes these true for many cases, but others are still to be addressed wi
                 
             </td>
             <td>
-                Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12)
+                Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12).
+Follow-up to #863.
 
-The event plugins should be singletons, but subscription manager is initialized once per namespace. A single websocket connection may facilitate listeners to multiple subscriptions (and therefore multiple namespaces), and the events need to be delivered to the correct subscription manager.
-
-Current tests should pass, but additional unit test coverage is still pending.
+Only the blockchain plugin remains, and will need to be addressed after #865.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-15 15:19:17 +0000 UTC
+        Created At 2022-06-22 14:40:15 +0000 UTC
     </div>
 </div>
 
@@ -139,11 +150,11 @@ Current tests should pass, but additional unit test coverage is still pending.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/862" class=".btn">#862</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/873" class=".btn">#873</a>
             </td>
             <td>
                 <b>
-                    Remove namespace from identity manager, network map, and group manager calls
+                    Use docker buildx for multiarch builds
                 </b>
             </td>
         </tr>
@@ -152,16 +163,14 @@ Current tests should pass, but additional unit test coverage is still pending.
                 
             </td>
             <td>
-                Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12)
+                This PR switches to the `docker buildx` command for building images for multiple CPU architectures. Currently, the build jobs are set up to build `linux/amd64` and `linux/arm64`. This is set in the `Makefile`. Because building a Docker image for a non-native CPU architecture is very slow (because it's emulated), mutiarch builds are not the default when running `make docker`. Instead a new command, `make docker-multiarch` has been added, which is used by our GitHub Actions.
 
-Each manager is initialized for a single namespace and can assume all calls are scoped within that namespace This PR tackles identity manager, network manager, and group manager so they store and use that single namespace.
-
-The one exception is for "network version 1", where identities may have been registered on the legacy "ff_system" namespace. In this case, the identity manager will query "ff_system" instead of its assigned namespace (noting that this will only work if "ff_system" shares a database with that namespace).
+> **NOTE:** From my testing `docker buildx` seems to return status 0, despite the fact that it may have failed to push to a repository. This can result in false positives for our GitHub Actions. I looked into this and it seems to be an open issue with `buildx` https://github.com/docker/buildx/issues/732
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-14 19:06:19 +0000 UTC
+        Created At 2022-06-22 14:12:36 +0000 UTC
     </div>
 </div>
 
@@ -169,11 +178,11 @@ The one exception is for "network version 1", where identities may have been reg
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/861" class=".btn">#861</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/872" class=".btn">#872</a>
             </td>
             <td>
                 <b>
-                    Push namespace info to token connector, handle batch events
+                    Resolve DX operations via requestID (not event ID)
                 </b>
             </td>
         </tr>
@@ -182,16 +191,14 @@ The one exception is for "network version 1", where identities may have been reg
                 
             </td>
             <td>
-                ~~This is in a PR chain with the (massive) #855, so that should be reviewed and merged first. Only the last 2 commits are new.~~
+                Fixes #871 
 
-Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12)
-
-This is the counterpart to https://github.com/hyperledger/firefly-tokens-erc1155/pull/78 and https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/59.
+Also enhance all E2E test suites to check for stuck operations, as this seems to be a recurring theme that slips through the cracks.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-14 16:07:49 +0000 UTC
+        Created At 2022-06-21 14:33:22 +0000 UTC
     </div>
 </div>
 
@@ -199,11 +206,11 @@ This is the counterpart to https://github.com/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/860" class=".btn">#860</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/869" class=".btn">#869</a>
             </td>
             <td>
                 <b>
-                    Updating Create Listener Docs to Use eventPath
+                    Add shorsher as a code owner
                 </b>
             </td>
         </tr>
@@ -212,12 +219,12 @@ This is the counterpart to https://github.com/hyperledger/firefly-tokens-erc1155
                 
             </td>
             <td>
-                Signed-off-by: hfuss <haydenfuss@gmail.com>
+                As he's a current Hyperledger FireFly maintainer and has over 100 commits to this repo, I think it's appropriate to add @shorsher as a code owner here to assist with reviewing and approving PRs.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-14 14:25:29 +0000 UTC
+        Created At 2022-06-20 22:20:14 +0000 UTC
     </div>
 </div>
 
@@ -225,11 +232,11 @@ This is the counterpart to https://github.com/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/858" class=".btn">#858</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/868" class=".btn">#868</a>
             </td>
             <td>
                 <b>
-                    Remove redundant payloadRef field on Batch Pin
+                    Update builder to go 1.17 and docs
                 </b>
             </td>
         </tr>
@@ -238,16 +245,12 @@ This is the counterpart to https://github.com/hyperledger/firefly-tokens-erc1155
                 
             </td>
             <td>
-                This field is not used by any code.
-
-There was a vision that storing the `payloadRef` on broadcast batches for reference, but this was never implementing. Meaning this field is cruft.
-
-Currently the right way to find the payload reference, is to look at the upload/download operations for the batch.
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-13 15:29:38 +0000 UTC
+        Created At 2022-06-20 20:26:33 +0000 UTC
     </div>
 </div>
 
@@ -255,11 +258,11 @@ Currently the right way to find the payload reference, is to look at the upload/
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/857" class=".btn">#857</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/867" class=".btn">#867</a>
             </td>
             <td>
                 <b>
-                    FAQ and FireFly Tutorial Updates
+                    Update token connector versions
                 </b>
             </td>
         </tr>
@@ -268,14 +271,45 @@ Currently the right way to find the payload reference, is to look at the upload/
                 
             </td>
             <td>
-                Two main changes in this PR:
-1- FAQ updates. Added some FAQs related to deploying smart contracts, connecting to Metamask, and how FireFly enables multi-chain applications
-2- FireFly tutorial updates. Fixed some links to swagger pages that were outdated, updated some instructions, added instructions and screenshots on using the FireFly sandbox in order to follow along some of the examples given in the tutorials
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-10 17:19:37 +0000 UTC
+        Created At 2022-06-20 13:26:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/866" class=".btn">#866</a>
+            </td>
+            <td>
+                <b>
+                    Move FFI/ABI conversion code to signer and common
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR moves FFI related things out of core and into shared libraries so they can be used by other FireFly subprojects. Generic FFI types and validations have been moved to `firefly-common`. Ethereum specific FFI code has moved to `firefly-signer`.
+
+Prerequisites for merge:
+https://github.com/hyperledger/firefly-common/pull/19
+https://github.com/hyperledger/firefly-signer/pull/9
+
+TODO:
+- [ ] Update `go.mod` after release of `firefly-common` and `firefly-signer`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-17 14:03:46 +0000 UTC
     </div>
 </div>
 

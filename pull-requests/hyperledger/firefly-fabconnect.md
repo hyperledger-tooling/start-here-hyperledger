@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/90" class=".btn">#90</a>
+                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/91" class=".btn">#91</a>
             </td>
             <td>
                 <b>
-                    Support isInit in the gateway client
+                    Update to use WithInit() based on the changes in the dependent PR in fabric-sdk-go
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
                 
             </td>
             <td>
-                Note the usage of the go.mod `replace` to point to the `is-init` branch on the `kaleido-io` fork, as we expect the PR (https://github.com/hyperledger/fabric-sdk-go/pull/236) to take some time to be reviewed and merged. This is only temporary and will be removed once the PR is merged.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-10 15:04:10 +0000 UTC
+        Created At 2022-06-17 17:00:16 +0000 UTC
     </div>
 </div>
 

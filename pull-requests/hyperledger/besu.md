@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4010" class=".btn">#4010</a>
+            </td>
+            <td>
+                <b>
+                    typo minimum
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+typo
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-24 05:34:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4009" class=".btn">#4009</a>
             </td>
             <td>
@@ -737,60 +774,6 @@ Signed-off-by: Ameziane H <ameziane.hamlat@consensys.net>
     </table>
     <div class="right-align">
         Created At 2022-06-17 08:36:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3984" class=".btn">#3984</a>
-            </td>
-            <td>
-                <b>
-                    DO NOT MERGE - Spike external db
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Please do not merge.
-
-This is a spike for the storing the chain data in an external db instead of the local rocksdb database. I've only made this a draft PR so I more easily create builds for testing.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-17 05:44:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3983" class=".btn">#3983</a>
-            </td>
-            <td>
-                <b>
-                    update the docker container versions for Tessera and GoQuorum
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                On my new M1 mac book the Tessera docker wouldn't start. Updating the Tessera docker version fixed that.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-17 02:24:39 +0000 UTC
     </div>
 </div>
 
