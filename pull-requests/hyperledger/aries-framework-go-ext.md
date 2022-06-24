@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/263" class=".btn">#263</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/267" class=".btn">#267</a>
             </td>
             <td>
                 <b>
-                    feat: MongoDB BulkWrite, multiple index creation, and doc helper func
+                    chore: update to latest orb and vct
                 </b>
             </td>
         </tr>
@@ -27,16 +27,68 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
                 
             </td>
             <td>
-                * Added a BulkWrite method that allows a caller to directly call the MongoDB BulkWrite function with their own custom models
-* Updated the CreateCustomIndex function to accept multiple index models at once (and updated the name to CreateCustomIndexes)
-* Exposed the PrepareDataForBSONStorage helper function
+                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-23 09:31:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/266" class=".btn">#266</a>
+            </td>
+            <td>
+                <b>
+                    chore: update sidetree-core-go in sidetree vdr
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-23 09:16:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/264" class=".btn">#264</a>
+            </td>
+            <td>
+                <b>
+                    feat: Remove MongoDB BatchAsJSON method
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Removed the BatchAsJSON method since the new BulkWrite method introduced in the previous commit can do the same thing but with more flexibility
+* Added a clarification on the PrepareDataForBSONStorage helper function (which is intended to be used with BulkWrite).
+* BulKWrite now returns a more accurate error message if an InsertOne model is being used.
 
 Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-15 15:22:09 +0000 UTC
+        Created At 2022-06-20 20:27:59 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-signer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-signer/pull/8" class=".btn">#8</a>
+                PR <a href="https://github.com/hyperledger/firefly-signer/pull/11" class=".btn">#11</a>
             </td>
             <td>
                 <b>
-                    Expose ABI Parameter on TypeComponent
+                    Proposal to standardize elementary type info in the abi package
                 </b>
             </td>
         </tr>
@@ -27,12 +27,72 @@ permalink: /pull-requests/hyperledger/firefly-signer
                 
             </td>
             <td>
-                While writing the code in FireFly core to traverse the component tree, these three fields present on the `abi` are needed as well. I solved this by attaching the original `Parameter` to the `TypeComponent` struct/interface.
+                Here's my proposal for how to address my suggestion in https://github.com/hyperledger/firefly-signer/pull/9#discussion_r905462373
+
+Note I filled in the gap on the floating point input, with a `oneOf` there, and this means the test fails due to `number` being missing from: https://github.com/hyperledger/firefly-common/blob/7f6b2eaf8066c146f377864981e92ea9e1f43903/pkg/fftypes/ffi_param_validator.go#L54-L58
+
+> PR submitted here for common: https://github.com/hyperledger/firefly-common/pull/21
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-09 17:55:35 +0000 UTC
+        Created At 2022-06-23 22:34:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-signer/pull/10" class=".btn">#10</a>
+            </td>
+            <td>
+                <b>
+                    [signature-hash] renaming GenerateID and adding signatureHash
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Renames `GenerateID()` to `GenerateFunctionSelector()`
+- Adds `SignatureHash()` as that computes the hash of a function signature
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-20 16:18:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-signer/pull/9" class=".btn">#9</a>
+            </td>
+            <td>
+                <b>
+                    Move FFI/ABI conversion logic from Core
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR moves all of the Ethereum specific FFI logic out of Core into `firefly-signer` so that it can be used by other FireFly subprojects without a dependency on the entire core. This includes Ethereum specific FFI metaschema, and FFI/ABI conversion logic.
+
+~TODO~ DONE:
+- [x] Update `go.mod` after `firefly-common` release
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-17 14:02:02 +0000 UTC
     </div>
 </div>
 

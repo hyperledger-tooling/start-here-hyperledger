@@ -14,48 +14,60 @@ permalink: /pull-requests/hyperledger/aries-acapy-controllers
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-controllers/pull/61" class=".btn">#61</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-controllers/pull/63" class=".btn">#63</a>
             </td>
             <td>
                 <b>
-                    Bump async from 2.6.3 to 2.6.4 in /AliceFaberAcmeDemo/controllers/alice-controller
+                    Bump Newtonsoft.Json from 12.0.3 to 13.0.1 in /AliceFaberAcmeDemo/controllers/faber-controller/FaberController
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span>
+                <span class="chip">dependencies</span><span class="chip">.NET</span>
             </td>
             <td>
-                Bumps [async](https://github.com/caolan/async) from 2.6.3 to 2.6.4.
+                Bumps [Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json) from 12.0.3 to 13.0.1.
 <details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/caolan/async/blob/v2.6.4/CHANGELOG.md">async's changelog</a>.</em></p>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/JamesNK/Newtonsoft.Json/releases">Newtonsoft.Json's releases</a>.</em></p>
 <blockquote>
-<h1>v2.6.4</h1>
+<h2>13.0.1</h2>
 <ul>
-<li>Fix potential prototype pollution exploit (<a href="https://github-redirect.dependabot.com/caolan/async/issues/1828">#1828</a>)</li>
+<li>New feature - Add JsonSelectSettings with configuration for a regex timeout</li>
+<li>Change - Remove portable assemblies from NuGet package</li>
+<li>Change - JsonReader and JsonSerializer MaxDepth defaults to 64</li>
+<li>Fix - Fixed throwing missing member error on ignored fields</li>
+<li>Fix - Fixed various nullable annotations</li>
+<li>Fix - Fixed annotations not being copied when tokens are cloned</li>
+<li>Fix - Fixed naming strategy not being used when deserializing dictionary enum keys</li>
+<li>Fix - Fixed serializing nullable struct dictionaries</li>
+<li>Fix - Fixed JsonWriter.WriteToken to allow null with string token</li>
+<li>Fix - Fixed missing error when deserializing JToken with a contract type mismatch</li>
+<li>Fix - Fixed JTokenWriter when writing comment to an object</li>
 </ul>
 </blockquote>
 </details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/caolan/async/commit/c6bdaca4f9175c14fc655d3783c6af6a883e6514"><code>c6bdaca</code></a> Version 2.6.4</li>
-<li><a href="https://github.com/caolan/async/commit/8870da9d5022bab310413041b4079e10db3980b7"><code>8870da9</code></a> Update built files</li>
-<li><a href="https://github.com/caolan/async/commit/4df6754ef4e96a742956df8782fee27242a2ea12"><code>4df6754</code></a> update changelog</li>
-<li><a href="https://github.com/caolan/async/commit/8f7f90342a6571ba1c197d747ebed30c368096d2"><code>8f7f903</code></a> Fix prototype pollution vulnerability (<a href="https://github-redirect.dependabot.com/caolan/async/issues/1828">#1828</a>)</li>
-<li>See full diff in <a href="https://github.com/caolan/async/compare/v2.6.3...v2.6.4">compare view</a></li>
+<li><a href="https://github.com/JamesNK/Newtonsoft.Json/commit/ae9fe44e1323e91bcbd185ca1a14099fba7c021f"><code>ae9fe44</code></a> Remove compiler package and update sourcelink (<a href="https://github-redirect.dependabot.com/JamesNK/Newtonsoft.Json/issues/2498">#2498</a>)</li>
+<li><a href="https://github.com/JamesNK/Newtonsoft.Json/commit/8ef662189dd7fc890c8fcd832d3e283edb90ef31"><code>8ef6621</code></a> Remove prerelease for 13.0.1</li>
+<li><a href="https://github.com/JamesNK/Newtonsoft.Json/commit/11331f50fd1c09dc1f44fe17ef26aba7c460b42c"><code>11331f5</code></a> Update SDK to 5.0.200 (<a href="https://github-redirect.dependabot.com/JamesNK/Newtonsoft.Json/issues/2495">#2495</a>)</li>
+<li><a href="https://github.com/JamesNK/Newtonsoft.Json/commit/c7e8abc09de751785355e3f972150f8a72379b02"><code>c7e8abc</code></a> Update to 13.0.1-beta2</li>
+<li><a href="https://github.com/JamesNK/Newtonsoft.Json/commit/1745d7c14ec7e4244a5ca1c7ddf5d955cf7d1f43"><code>1745d7c</code></a> Fix JTokenWriter when writing comment to an object (<a href="https://github-redirect.dependabot.com/JamesNK/Newtonsoft.Json/issues/2493">#2493</a>)</li>
+<li><a href="https://github.com/JamesNK/Newtonsoft.Json/commit/583eb120152f8b6332df2fe3d4b9f4c947c944d0"><code>583eb12</code></a> Fix missing error when deserializing JToken with a contract type mismatch (<a href="https://github-redirect.dependabot.com/JamesNK/Newtonsoft.Json/issues/2">#2</a>...</li>
+<li><a href="https://github.com/JamesNK/Newtonsoft.Json/commit/b6dc05be5a0f4808f06ec430f3bb59b24d3fbc3e"><code>b6dc05b</code></a> Change MaxDepth default to 64 (<a href="https://github-redirect.dependabot.com/JamesNK/Newtonsoft.Json/issues/2473">#2473</a>)</li>
+<li><a href="https://github.com/JamesNK/Newtonsoft.Json/commit/15525f1c44e0d99ef8fdee73430853e22239181d"><code>15525f1</code></a> Fix JsonWriter.WriteToken to allow null with string token (<a href="https://github-redirect.dependabot.com/JamesNK/Newtonsoft.Json/issues/2472">#2472</a>)</li>
+<li><a href="https://github.com/JamesNK/Newtonsoft.Json/commit/926d2f0f42292cfcdf07cdadeb501b73fd5b1d52"><code>926d2f0</code></a> Enable embed untracked sources (<a href="https://github-redirect.dependabot.com/JamesNK/Newtonsoft.Json/issues/2471">#2471</a>)</li>
+<li><a href="https://github.com/JamesNK/Newtonsoft.Json/commit/0a56633b6cd4fccc860a8486260ee67636f3fe90"><code>0a56633</code></a> Fixes <a href="https://github-redirect.dependabot.com/JamesNK/Newtonsoft.Json/issues/2372">#2372</a> - variable typos (<a href="https://github-redirect.dependabot.com/JamesNK/Newtonsoft.Json/issues/2465">#2465</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/JamesNK/Newtonsoft.Json/compare/12.0.3...13.0.1">compare view</a></li>
 </ul>
-</details>
-<details>
-<summary>Maintainer changes</summary>
-<p>This version was pushed to npm by <a href="https://www.npmjs.com/~hargasinski">hargasinski</a>, a new releaser for async since your current version.</p>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=async&package-manager=npm_and_yarn&previous-version=2.6.3&new-version=2.6.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=Newtonsoft.Json&package-manager=nuget&previous-version=12.0.3&new-version=13.0.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -91,7 +103,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-29 17:14:23 +0000 UTC
+        Created At 2022-06-22 23:31:58 +0000 UTC
     </div>
 </div>
 

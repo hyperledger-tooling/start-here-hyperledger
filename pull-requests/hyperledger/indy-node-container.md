@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node-container
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node-container/pull/92" class=".btn">#92</a>
+                PR <a href="https://github.com/hyperledger/indy-node-container/pull/94" class=".btn">#94</a>
             </td>
             <td>
                 <b>
-                    Added network-build and network-run directories
+                    Create trivy-all-slack.yml
                 </b>
             </td>
         </tr>
@@ -27,40 +27,21 @@ permalink: /pull-requests/hyperledger/indy-node-container
                 
             </td>
             <td>
-                Updates to the README.md are pending
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-08 22:03:53 +0000 UTC
-    </div>
-</div>
+                Commit text: workflow file for slack messages after weekly trivy scan, project context IDunion (Germany)
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node-container/pull/91" class=".btn">#91</a>
-            </td>
-            <td>
-                <b>
-                    Ubuntu20 image based on ubuntu20 RC2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Based on 
-- https://github.com/hyperledger/indy-node/releases/v1.13.1-rc2 
-- https://github.com/hyperledger/indy-plenum/releases/v1.13.1-rc2
+This file was created to get Slack notifications on the IDunion project Slack workspace channel 'docker_indy-node'. The workflow is doing a weekly trivy scan and filters all high and critical CVEs and publishes them to the mentioned Slack channel. For that to work a secret webhook URL needs to be included in this repo. The name of the secret needs to be
+
+SLACK_WEBHOOK_URL_IDU
+
+corresponding to the name in the file. The webhook URL needs to be a secret otherwise it will be disabled.
+
+Best regards
+Sebastian
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-08 13:52:25 +0000 UTC
+        Created At 2022-06-22 09:33:17 +0000 UTC
     </div>
 </div>
 

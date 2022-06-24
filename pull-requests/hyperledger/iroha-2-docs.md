@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/72" class=".btn">#72</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/74" class=".btn">#74</a>
             </td>
             <td>
                 <b>
-                    [CI]: target `main` branch in GitHub workflows
+                    [docs]: update version note in js guide
                 </b>
             </td>
         </tr>
@@ -32,33 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-16 15:03:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/71" class=".btn">#71</a>
-            </td>
-            <td>
-                <b>
-                    Migrate to Vitepress 1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-16 14:59:32 +0000 UTC
+        Created At 2022-06-23 07:56:45 +0000 UTC
     </div>
 </div>
 
