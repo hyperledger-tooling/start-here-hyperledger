@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/906" class=".btn">#906</a>
+            </td>
+            <td>
+                <b>
+                    feat(credentials): added credential sendProblemReport method
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Pavel Zarecky <zarecky@procivis.ch>
+
+Adding a convenience method to send problem report as part of RFC's 0036 and 0453 unhappy flow.
+It is a complementary implementation to the `agent.proofs.sendProblemReport`. But for credentials it was still missing.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-24 12:21:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/904" class=".btn">#904</a>
             </td>
             <td>
@@ -168,7 +197,7 @@ Image URL is missing in connection record [#895](https://github.com/hyperledger/
         </tr>
         <tr>
             <td>
-                <span class="chip">0.2.0</span>
+                
             </td>
             <td>
                 Fixes the flaky e2e test for icv2. We only start event listeners action the has been performed (sendProposal -> start proposal received listener) while we should be starting the listener before performing the action (start proposal received listener -> sendProposal) to prevent flaky tests.
@@ -452,7 +481,7 @@ Will add more detailed migration docs later on, but generally you have to update
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">ci-test</span>
             </td>
             <td>
                 Release version 0.2.0

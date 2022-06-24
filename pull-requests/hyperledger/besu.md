@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4011" class=".btn">#4011</a>
+            </td>
+            <td>
+                <b>
+                    Update reference tests to the latest version and include test for gray glacier
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span><span class="chip">mainnet</span>
+            </td>
+            <td>
+                The reference tests for Gray Glacier are included to ensure that our implementation is correct.
+
+Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-24 11:45:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4010" class=".btn">#4010</a>
             </td>
             <td>
@@ -162,14 +190,6 @@ Improve logging in NatService to clarify what's happening. Increase log severity
 
 Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
 
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -276,23 +296,36 @@ Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
             </td>
             <td>
                 <b>
-                    Support free gas networks using London fee market
+                    Support free gas networks when using London fee market
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">doc-change-required</span>
             </td>
             <td>
-                If baseFeePerGas is configured to "0x0" in the genesis file, bypass the need for a transaction to have a gas price of > 7 Wei
+                In order to support [free gas private networks](https://besu.hyperledger.org/en/stable/HowTo/Configure/FreeGas/) in a London/EIP1559 context, I propose that we support setting a zero baseFee.
 
-Signed-off-by: Simon Dudley <simon.dudley@consensys.net>
+If `baseFeePerGas` is overridden as 0 wei, then bypass the need for a transaction to have a gas price of >= 7 wei.
 
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+The genesis would look something like this:
+```
+{
+  "config": {
+    ...
+    "londonBlock": 0,
+    ...
+  },
+  "baseFeePerGas": "0x0",
+  "nonce": "0x0",
+  ...
+}
+```
 
-## PR description
+One potential downside is that once baseFeePerGas is set to 0, there's no going back for that chain. You can still use `--min-gas-price` to enforce _some_ gas, but the London base fee calculation will be forever opted out of as a consequence of the zero baseFee in the genesis block. This also means no ether would get burned since base fee will always be zero.
+
+This is currently blocking users with free gas networks from upgrading past the Berlin fork.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -303,12 +336,12 @@ Fixes https://github.com/hyperledger/besu/issues/3763
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -706,74 +739,6 @@ fixes #3986
     </table>
     <div class="right-align">
         Created At 2022-06-17 17:15:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3985" class=".btn">#3985</a>
-            </td>
-            <td>
-                <b>
-                    Apply some RocksDB documentation suggestions to reduce memory usage.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Apply some [RocksDB documentation suggestions](https://github.com/facebook/rocksdb/wiki/Memory-usage-in-RocksDB) to reduce memory usage.
-
-- Set format_version to 5
-- set optimize_filters_for_memory to true
-- Increase block size to 32K
-- set cache_index_and_filter_blocks to true 
-
-There is almost 1,5 GiB difference in memory consumption between this version and version 22.4.2 on a 16 GB RAM VM after 1 day of syncing (the green line represents the metrics of this PR). 
-
-<img width="824" alt="Screenshot 2022-06-17 at 10 27 59" src="https://user-images.githubusercontent.com/5099602/174259124-fa8d8eef-fa51-424e-96f3-3a3d3bc71b07.png">
-
-Sync time is equivalent between the two versions.
-
-<img width="1620" alt="Screenshot 2022-06-17 at 10 35 02" src="https://user-images.githubusercontent.com/5099602/174260539-792ae296-8bef-42f0-b47d-94a08ec3271c.png">
-
-Disk usage, CPU consumption and the number of open file descriptors is quite similar for tho instances.
-
-<img width="815" alt="Screenshot 2022-06-17 at 10 30 44" src="https://user-images.githubusercontent.com/5099602/174259784-e458ec70-7cfc-4f87-a587-4f4375915d4a.png">
-<img width="1624" alt="Screenshot 2022-06-17 at 10 30 59" src="https://user-images.githubusercontent.com/5099602/174259780-1052143e-a5b2-492e-8805-7b4ed56542df.png">
-<img width="816" alt="Screenshot 2022-06-17 at 10 31 18" src="https://user-images.githubusercontent.com/5099602/174259775-0d1e536c-6751-46de-b923-fa2ae1486749.png">
-
-
-
-
-Signed-off-by: Ameziane H <ameziane.hamlat@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-17 08:36:48 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/893" class=".btn">#893</a>
+            </td>
+            <td>
+                <b>
+                    Ensure that codegen is correct for push/pop in if statements
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A push or pop may result in a realloc, so we need a phi node for the
+array variable.
+
+See https://discord.com/channels/905194001349627914/905834552965103638/989739679320535050
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-24 12:01:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/891" class=".btn">#891</a>
             </td>
             <td>
@@ -205,32 +236,6 @@ Fixes #830
     </table>
     <div class="right-align">
         Created At 2022-06-20 11:20:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/882" class=".btn">#882</a>
-            </td>
-            <td>
-                <b>
-                    Fix mapping inside struct
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Solang crashes when we try to access a mapping that is a member of a struct. There was a bug during code generation, in which we were not considering that struct members can be mappings. This PR should fix a problem raised in #785.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-17 10:53:49 +0000 UTC
     </div>
 </div>
 
