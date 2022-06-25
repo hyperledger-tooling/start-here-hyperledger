@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly-signer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-signer/pull/12" class=".btn">#12</a>
+            </td>
+            <td>
+                <b>
+                    Add function for decoding event ABI data
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds an `Entry. DecodeEventData` function that takes a `topics` array, plus `data` bytes, and decodes into a value tree.
+
+Also updates a bit of spelling for consistency.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-24 21:12:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-signer/pull/11" class=".btn">#11</a>
             </td>
             <td>

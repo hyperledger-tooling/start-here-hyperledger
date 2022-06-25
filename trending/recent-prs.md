@@ -1,13 +1,13 @@
 
-[23](https://github.com/hyperledger/firefly-common/pull/23) Add number to list of allowed JSON input types
+[236](https://github.com/hyperledger-labs/fabric-operations-console/pull/236) warn about consenter issues when removing a systemless OSN
 
-[119](https://github.com/hyperledger/fabric-protos/pull/119) [WIP] Update releasing guide
+[518](https://github.com/hyperledger/aries-agent-test-harness/pull/518) Pin ACA-Py resolver to v0.1.0 until feature merged into ACA-Py
 
-[880](https://github.com/hyperledger/firefly/pull/880) Collapse batchpin.Submitter into multiparty.Manager
+[12](https://github.com/hyperledger/firefly-signer/pull/12) Add function for decoding event ABI data
 
-[22](https://github.com/hyperledger/firefly-common/pull/22) Allow numbers and booleans to be expressed as strings
+[881](https://github.com/hyperledger/firefly/pull/881) Move SubmitNetworkAction and RootOrg config to Multiparty Manager
 
-[879](https://github.com/hyperledger/firefly/pull/879) surface URI as parameter for token mint
+[62](https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/62) backport of custom uri suppport
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

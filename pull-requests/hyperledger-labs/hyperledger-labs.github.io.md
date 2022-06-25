@@ -45,33 +45,3 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/214" class=".btn">#214</a>
-            </td>
-            <td>
-                <b>
-                    Add Anand Banik as a Lab Steward
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Volunteering to be Lab Steward
-Name: Anand Banik
-TSC Sponsor - @arsulegai.
-Signed-off-by: Anand Banik <anand.banik@walmart.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-17 18:34:28 +0000 UTC
-    </div>
-</div>
-

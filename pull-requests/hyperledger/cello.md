@@ -27,7 +27,8 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                Add detailed instructions to the setup doc, add troubleshoot section for the potential problems and solutions.
+                Add detailed instructions to the setup doc, add troubleshoot section for the 
+potential problems and solutions.
 
 Signed-off-by: xichen1 <xichen.pan@gmail.com>
             </td>
