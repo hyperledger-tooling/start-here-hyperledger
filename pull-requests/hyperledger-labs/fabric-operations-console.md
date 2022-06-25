@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/236" class=".btn">#236</a>
+            </td>
+            <td>
+                <b>
+                    warn about consenter issues when removing a systemless OSN
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- New feature
+
+#### Description
+- when removing an ordering node that is not using a system channel, warn if its a consenter and prevent the delete unless the user overrides it.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-24 21:42:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/235" class=".btn">#235</a>
             </td>
             <td>
@@ -36,7 +73,8 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
 - New feature
 
 #### Description
-Added the ability to append ordering nodes to an existing cluster that are * not * using a system channel.
+- Added the ability to append ordering nodes to an existing cluster that are * not * using a system channel.
+- This also introduces some performance improvements by eliminating some redundant apis/spam
 
 
             </td>

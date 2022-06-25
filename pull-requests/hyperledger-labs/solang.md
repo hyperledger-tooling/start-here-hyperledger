@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/894" class=".btn">#894</a>
+            </td>
+            <td>
+                <b>
+                    Do not build clang for the release library
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                There is no need to build clang for the release LLVM binaries. We can compile and run Solang without clang. I was able to reduce the Linux x86 LLVM tarball from 305 MB to 170 MB.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-24 18:53:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/893" class=".btn">#893</a>
             </td>
             <td>
