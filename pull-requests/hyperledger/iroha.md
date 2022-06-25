@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2397" class=".btn">#2397</a>
+            </td>
+            <td>
+                <b>
+                    Simplify Kura
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+Removes most of the async from kura. Revamps the way blocks are stored on filesystem to a two file design. All communication *into* kura is composed of simple function calls.
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Issue
+
+#2376 
+
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+The code and design  are a lot better. They will allow easier development.
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-25 17:27:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2394" class=".btn">#2394</a>
             </td>
             <td>
@@ -628,85 +686,6 @@ None
     </table>
     <div class="right-align">
         Created At 2022-06-19 00:52:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2371" class=".btn">#2371</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #2081: Fix role granting bug
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">2.0.0-pre-rc.5-lts</span>
-            </td>
-            <td>
-                ### Bug description
-
-Our `IsGrantAllowed` validators was checking only for *permissions* and not for *roles* granting. This validators return `Err` if got something unexpected. That's why SDK-developers test was failing.
-
-Our integration tests was using `AllowAll` for instruction validation by default. That's why test introduced in #2312 haven't fully covered real world scenario.
-
-### Description of the Change
-
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-* Fixed bug with granting role. Before that it was only possible to grant permissions
-* Default instructions validator for integration tests was replaced with `default_permissions()`. This will reduce the gap between our integration tests and SDK-developers tests
-* `Role` registration process was unified with other things registration such as `Domain` and `Account`
-* Add more `const` to some functions
-
-### Issue
-
-* Closes #2081 
-* Opens and closes #2381
-* Opens #2368
-* Opens #2369
-* Opens #2370
-
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-* Closed bug request
-* Now it's possible to grant roles with `default_permissions()`, not only permissions
-* More consistency with SDK-developers test
-
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks
-
-Now tests by default are sensitive for instructions and signer (`alice@wonderland` right now). I.e. it's illegal now to mint roses, because noone can mint assets that was registered by another account.
-This can be bypassed by setting custom validators. Example:
-
-```rust
-let (_rt, _peer, mut test_client) = <PeerBuilder>::new()
-    .with_instruction_validator(AllowAll)
-    .start_with_runtime();
-```
-
-But be carefull, because this is not how `Iroha 2` works by default. This may introduce inconsistency between our and SDK-developers tests.
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-18 15:48:57 +0000 UTC
     </div>
 </div>
 
