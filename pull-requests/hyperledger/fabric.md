@@ -262,39 +262,3 @@ Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3492" class=".btn">#3492</a>
-            </td>
-            <td>
-                <b>
-                    Fix regex in install-fabric script
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-Running `./install-farbic.sh` or `./install-fabric.sh samples binary docker` should clone the samples, download the binaries, and download docker images, but it only clones the samples. The regex only took the first argument, so they are changed to take all arguments.
-
-Signed-off-by: Youngeon Lee <youngl@bu.edu>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-18 13:54:24 +0000 UTC
-    </div>
-</div>
-

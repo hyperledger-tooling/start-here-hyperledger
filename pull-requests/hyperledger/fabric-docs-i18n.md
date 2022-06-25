@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/737" class=".btn">#737</a>
+            </td>
+            <td>
+                <b>
+                    [ja_JP] Translate "txflow.rst" into Japanese
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">jaJP-docs-ongoing</span>
+            </td>
+            <td>
+                This patch translates txflow.rst into Japanese.
+
+Resolves #565
+
+Signed-off-by: Satomi Tsujita <satomi.t.sora@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-25 14:16:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/736" class=".btn">#736</a>
             </td>
             <td>
