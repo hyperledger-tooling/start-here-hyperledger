@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/907" class=".btn">#907</a>
+            </td>
+            <td>
+                <b>
+                    feat: initial plugin api
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">multitenancy</span><span class="chip">modularization</span>
+            </td>
+            <td>
+                Adds an initial (mostly internal for now) plugin API that will be used as part of modularization. The changes from this PR are also needed for multi-tenancy.
+
+I've not made breaking changes yet, so we can already get this merged and start releasing it, and we can do some clean up of the old custom module approach once we're ready to make the next breaking change release.
+
+As this doesn't contain any breaking changes, I think we should merge this before #881 and #898
+
+The biggest change in this PR is to move from a more implicit registration of services and modules, to a more explicit way to declare services and modules.
+
+Instead of declarating a class with `@scoped(Lifecycle.ContainerScoped)` it now just needs `@injectable` (which is exported from the `src/plugins` directory. Then you can define a plugin to register modules and services. There's currently tow types of plugins, where a module plugin extends a default plugin.
+
+A normal plugin is declared like below, this doesn't expose a public API through a module. We already use this internally for some services without public api (e.g. the indy plugin that adds the `IndyIssuerService`, etc..)
+
+```ts
+const myPlugin: Plugin = {
+  register(dependencyManager: DependencyManager) {
+    dependencyManager.registerSingleton(MyService)
+    dependencyManager.registerSingleton(MyRepository)
+  }
+}
+```
+
+The you have the module plugin which works the same but is declared directly on the module itself:
+
+```ts
+class MyModule {
+  register(dependencyManager: DependencyManager) {
+    dependencyManager.registerSingleton(MyService)
+    dependencyManager.registerSingleton(MyRepository)
+  }
+}
+```
+
+
+It's not mean to be used publicly yet (and will have breaking changes), but you can then register the module on the dependency manager:
+
+```ts
+dependencyManager.registerModulePlugins([MyModule])
+
+// or if no module
+dependencyManager.registerPlugins([myPlugin])
+```
+
+This will make sure the services are registered and in case of the module plugin the module is also registered. The reason why we need this for multitenancy is that we're going to create child container for each tenant agent, that share most of the services from the base agent, but will have some differences. The `@scoped(Lifecycle.ContainerScoped)` won't do the job anymore. 
+
+I've exported some of the tsyringe methods and wrote a simple DependencyManager class to abstract away most of the `TSyringe` functionality so that you don't need to import from that dependench to write plugins, the needed primivities are exported from AFJ itself.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-25 10:57:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/906" class=".btn">#906</a>
             </td>
             <td>
