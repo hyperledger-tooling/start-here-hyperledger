@@ -450,29 +450,3 @@ Related PR in https://github.com/animo/aries-javascript-docs/pull/30 (should be 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/882" class=".btn">#882</a>
-            </td>
-            <td>
-                <b>
-                    fix(connections): allow ; to convert legacy did
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">0.2.0</span>
-            </td>
-            <td>
-                Older dids use `;` as an identifier separator instead of the now used `#`. So an id of `did:sov:123;indy` would be normalized to `#did:sov:123;indy`. We now check when converting a legacy did doc to a new did doc whether an `;` character is in place and the `#` isn't and we will handle it correclty so it parses to `#indy`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-19 15:27:11 +0000 UTC
-    </div>
-</div>
-
