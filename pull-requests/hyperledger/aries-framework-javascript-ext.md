@@ -153,29 +153,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/126" class=".btn">#126</a>
-            </td>
-            <td>
-                <b>
-                    feat(push-notifications)!: update to afj 0.2.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updates push notifications module to afj 0.2.0. Only had to change the message type in the custom messages
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-19 15:10:40 +0000 UTC
-    </div>
-</div>
-

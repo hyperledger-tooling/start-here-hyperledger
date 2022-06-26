@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1391" class=".btn">#1391</a>
+            </td>
+            <td>
+                <b>
+                    Fix#1377 Change the generator binding from 2.2 to 1.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Tezas-6174 <jamdade.2@iitj.ac.in>
+
+- Fixes #1377.
+- Changed the generator binding from 2.2 to 1.4 in ``run.sh`` in generator-tests of ``caliper-test-integration`` package.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-26 15:19:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1390" class=".btn">#1390</a>
             </td>
             <td>
