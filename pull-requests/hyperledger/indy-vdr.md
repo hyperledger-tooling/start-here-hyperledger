@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/95" class=".btn">#95</a>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/96" class=".btn">#96</a>
             </td>
             <td>
                 <b>
-                    only create debug output for state_proof_key if it exists
+                    Address clippy code cleanup suggestions
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-vdr
                 
             </td>
             <td>
-                Fixes #94 
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-14 08:37:53 +0000 UTC
+        Created At 2022-06-27 16:51:44 +0000 UTC
     </div>
 </div>
 

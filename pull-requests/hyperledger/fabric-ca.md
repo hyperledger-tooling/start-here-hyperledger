@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/304" class=".btn">#304</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/306" class=".btn">#306</a>
             </td>
             <td>
                 <b>
-                    Idemix MSP Folder Structure incompatible with what Fabric expects #303
+                    Correct handling of CA VerifyOptions
                 </b>
             </td>
         </tr>
@@ -27,30 +27,20 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+                The verify options strucutre is global property - but the verify struture in the case
+of re-enroll is set back by 30 seconds.
 
-#### Type of change
+If this is the global structure - then that is not good.
 
-- Bug fix
+Duplicating the structure.  Many ways to solve this problem; but this the current approach is cleaner.
 
-#### Description
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
 
-Currently, Fabric-CA generates an Idemix MSP folder structure and file content that Fabric is not able to load.
-Namely:
-- The content of `SignerConfig` is encoded in json, Fabric expected proto
-- Fabric expects the revocation public key to be stored in a file named `RevocationPublicKey` and `IdemixRevocationPublicKey`.
-
-#### Additional details
-
-
-#### Related issues
-
-https://github.com/hyperledger/fabric-ca/issues/303
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-20 07:30:24 +0000 UTC
+        Created At 2022-06-27 13:08:41 +0000 UTC
     </div>
 </div>
 

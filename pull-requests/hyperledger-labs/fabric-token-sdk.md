@@ -142,29 +142,3 @@ Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/265" class=".btn">#265</a>
-            </td>
-            <td>
-                <b>
-                    Doc Correction
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-20 12:55:09 +0000 UTC
-    </div>
-</div>
-

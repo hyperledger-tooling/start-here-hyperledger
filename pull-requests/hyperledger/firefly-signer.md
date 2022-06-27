@@ -68,30 +68,3 @@ Note I filled in the gap on the floating point input, with a `oneOf` there, and 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-signer/pull/10" class=".btn">#10</a>
-            </td>
-            <td>
-                <b>
-                    [signature-hash] renaming GenerateID and adding signatureHash
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Renames `GenerateID()` to `GenerateFunctionSelector()`
-- Adds `SignatureHash()` as that computes the hash of a function signature
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-20 16:18:28 +0000 UTC
-    </div>
-</div>
-

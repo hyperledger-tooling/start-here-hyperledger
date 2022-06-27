@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/908" class=".btn">#908</a>
+            </td>
+            <td>
+                <b>
+                    ci: add correct version bump
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                We are using patch version for feature releases and minor versions for breaking releases, this change makes sure that's enforced. 
+
+This should be merged before all other PRs to make sure we aren't going to release 0.3.0-alpha.1 but 0.2.1-alpha.1
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-27 15:39:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/907" class=".btn">#907</a>
             </td>
             <td>
@@ -250,93 +278,6 @@ Image URL is missing in connection record [#895](https://github.com/hyperledger/
     </table>
     <div class="right-align">
         Created At 2022-06-21 11:56:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/893" class=".btn">#893</a>
-            </td>
-            <td>
-                <b>
-                    test(credentials): fix flaky tests with events
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes the flaky e2e test for icv2. We only start event listeners action the has been performed (sendProposal -> start proposal received listener) while we should be starting the listener before performing the action (start proposal received listener -> sendProposal) to prevent flaky tests.
-
-I've fixed it for one file now, but we should look at all ICv2 and PPv2 tests (that's where we use evens A LOT).
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-20 17:06:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/892" class=".btn">#892</a>
-            </td>
-            <td>
-                <b>
-                    fix(credentials): do not store offer attributes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">0.2.0</span>
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-
-Fixes #891 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-20 15:36:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/890" class=".btn">#890</a>
-            </td>
-            <td>
-                <b>
-                    chore: move to docs repo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">0.2.0</span>
-            </td>
-            <td>
-                Should not be merged until https://aries.js.org is live.
-
-Removes all docs that have been moved to the Aries JavaScript docs repo. Have kept some getting started docs in place until we can add sections for that in the aries javascript docs repo.
-
-Related PR in https://github.com/animo/aries-javascript-docs/pull/30 (should be merged first)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-20 14:02:31 +0000 UTC
     </div>
 </div>
 

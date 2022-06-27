@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-backend
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/3" class=".btn">#3</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/18" class=".btn">#18</a>
             </td>
             <td>
                 <b>
-                    Revise generate script and upgrade abigen
+                    Update go-perun
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-backend
                 
             </td>
             <td>
-                This PR updates the `generate.sh` script to use the latest abigen version (v1.10.15) and includes the changes regarding the different bindings creations.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-13 14:03:28 +0000 UTC
+        Created At 2022-06-27 13:38:31 +0000 UTC
     </div>
 </div>
 

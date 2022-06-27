@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/340" class=".btn">#340</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/342" class=".btn">#342</a>
             </td>
             <td>
                 <b>
-                    Update walkthrough of creating a circuit with splinter v0.6
+                    Update creating a circuit with Grid 0.3
                 </b>
             </td>
         </tr>
@@ -27,20 +27,16 @@ permalink: /pull-requests/hyperledger/grid-docs
                 
             </td>
             <td>
-                This change updates the walkthrough that explains how to make a Splinter
-circuit using the Grid docker-compose example. Grid's Splinter
-dependency was updated to v0.6, which changed the API slightly. Mainly,
-this removes the `--key` and `--url` options and updates the command
-output.
-
-This change also adds a copyright to the top of the file.
+                This change updates the main walkthrough for creating a splinter circuit
+to include directions for when one or both of the nodes are running Splinter
+0.6.
 
 Signed-off-by: Shannyn Telander <telander@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-16 19:49:44 +0000 UTC
+        Created At 2022-06-27 13:51:52 +0000 UTC
     </div>
 </div>
 
