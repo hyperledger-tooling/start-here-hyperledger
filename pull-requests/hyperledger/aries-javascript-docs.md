@@ -258,31 +258,3 @@ I think we should first move the repo to HL (but we can already merge this PR). 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/26" class=".btn">#26</a>
-            </td>
-            <td>
-                <b>
-                    docs: add afj updating guide
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds most of the documentation for migration to 0.2.0. Still need to do the credentials module.
-
-Are there any other breaking changes you have noticed that we shoiuld mention here? We can also add them later as we discover them, but would be good to cover as much as possible.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-19 19:54:00 +0000 UTC
-    </div>
-</div>
-
