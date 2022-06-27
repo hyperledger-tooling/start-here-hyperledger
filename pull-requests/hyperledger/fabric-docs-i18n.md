@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/738" class=".btn">#738</a>
+            </td>
+            <td>
+                <b>
+                    [ja_JP] capability_requirements.rst into Japanese(#566)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">jaJP-docs-ongoing</span>
+            </td>
+            <td>
+                [ja_JP] capability_requirements.rst into Japanese
+
+#566
+
+Signed-off-by: Daiki.Nakashima <Nakashima.Daiki@df.MitsubishiElectric.co.jp>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-27 03:15:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/737" class=".btn">#737</a>
             </td>
             <td>
