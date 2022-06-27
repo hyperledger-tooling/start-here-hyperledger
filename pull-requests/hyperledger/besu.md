@@ -658,33 +658,3 @@ process_release{version="besu/v22.4.1-dev-fe8ad2d5/linux-x86_64/openjdk-java-11"
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3993" class=".btn">#3993</a>
-            </td>
-            <td>
-                <b>
-                    Additional testings on ignored option warning 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span>
-            </td>
-            <td>
-                ## PR description
-Add tests on options configured through ENV
-
-## Fixed Issue(s)
-Follow-up PR to address comments from https://github.com/hyperledger/besu/pull/3969 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-20 05:16:45 +0000 UTC
-    </div>
-</div>
-
