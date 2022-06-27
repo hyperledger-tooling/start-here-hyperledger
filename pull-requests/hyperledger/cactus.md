@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2103" class=".btn">#2103</a>
+            </td>
+            <td>
+                <b>
+                    feat(cmd-socketio-server): support multiple BLP in single server
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependent</span>
+            </td>
+            <td>
+                - Add support for starting Cactus CMD SocketIO server with multiple Bussiness Logic Plugins (BLP).
+  All required TransactionManagement request should be routed to the correct BLP.
+- Add optional onListening callback when starting the cactus cmd socketio server, to simplify tests.
+- Fix some bugs and hard-coded BLP Ids in TransactionManagement.
+- Add new unit tests to check newly added functionalities.
+
+Closes #2102
+
+Depends on #2030
+
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-27 11:58:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/2099" class=".btn">#2099</a>
             </td>
             <td>
@@ -473,66 +509,6 @@ Please review only the last commit, the rest are dependencies that should be mer
     </table>
     <div class="right-align">
         Created At 2022-06-21 12:15:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2087" class=".btn">#2087</a>
-            </td>
-            <td>
-                <b>
-                    fix: Lint Warnings resolved for batch 7/26 #1356 : Commit to be reviewed
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fix: batch 7/26 of lint warning fixes #1356(fixed 5 warnings, partial solution): 
-
-Changes made:
-- Fixed lint warnings associated with any-type for truthyness and nonBlankString checking
-- Fixed lint warnings associated with Unexpected any, edited type-aliases in logger
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-20 09:37:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2086" class=".btn">#2086</a>
-            </td>
-            <td>
-                <b>
-                    refactor(cmd-api-server): clean up configuration parameters gitguardi…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                …an scanner test
-
-test
-
-Signed-off-by: ruzell22 <ruzell.vince.aquino@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-20 06:31:30 +0000 UTC
     </div>
 </div>
 

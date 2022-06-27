@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/43" class=".btn">#43</a>
+            </td>
+            <td>
+                <b>
+                    introductions and some context
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Hi everyone, I'm planning to do a larger PR to fill out the docs more, but wanted to make this smaller one to get some initial thoughts on writing style etc. 
+
+I'm also proposing to change the file names 'prerequisites' to 'installation' and 'installation' to 'set up' as it better reflects the written context. For example currently in the doc titled set up (but filename installation) it is said that "this guide assumes you have followed the install guides". 
+
+Didn't get around to it in this PR but wanted to mention it in any case. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-27 09:16:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/42" class=".btn">#42</a>
             </td>
             <td>
@@ -223,38 +253,6 @@ Fixes #25
     </table>
     <div class="right-align">
         Created At 2022-06-20 13:59:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/27" class=".btn">#27</a>
-            </td>
-            <td>
-                <b>
-                    ci: add aries.js.org CNAME
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds the aries.js.org CNAME for deployments as described by https://js.org. 
-
-Next step is to add the project to the js.org repo:
-
-> To finish the procedure, make a pull request in our GitHub [repository](https://github.com/js-org/js.org/tree/master) that adds your subdomain to the list of existing JS.ORG domains. Your new URL should go live within 24 hours (keep an eye on your pull request in case of a naming conflict or a question from our side).
-
-I think we should first move the repo to HL (but we can already merge this PR). Would like to have this al ready before the 0.2.0 release
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-20 11:25:13 +0000 UTC
     </div>
 </div>
 

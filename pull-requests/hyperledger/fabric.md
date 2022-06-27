@@ -235,30 +235,3 @@ Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3493" class=".btn">#3493</a>
-            </td>
-            <td>
-                <b>
-                    Update secured-private-asset-tranfer documentation and tutorial
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: fraVlaca <ocsenarf@outlook.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-20 09:47:11 +0000 UTC
-    </div>
-</div>
-
