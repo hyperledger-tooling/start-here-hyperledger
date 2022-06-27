@@ -14,6 +14,87 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1989" class=".btn">#1989</a>
+            </td>
+            <td>
+                <b>
+                    [fabric]: Attach CLI to already running peer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: manikanta-darsi <manikanta.darsi@accenture.com>
+
+**Changelog**
+- Add  CLI to already running peer
+
+
+ 
+
+**Reviewed by**
+@sownak @suvajit-sarkar @jagpreetsinghsasan 
+
+ 
+
+**Linked issue**
+#1226 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-27 10:16:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1988" class=".btn">#1988</a>
+            </td>
+            <td>
+                <b>
+                    [shared] provide custom bin install dir path for flux installation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+**Changelog**
+- Add custom bin install dir path for flux v2 installation
+- Remove flux v1 chart from the repository
+
+ 
+
+**Reviewed by**
+@jagpreetsinghsasan 
+ 
+
+**Linked issue**
+#1985 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-27 07:21:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/1987" class=".btn">#1987</a>
             </td>
             <td>
@@ -238,42 +319,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2022-06-20 22:43:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/1983" class=".btn">#1983</a>
-            </td>
-            <td>
-                <b>
-                    [docs] update roadmap, and verify guide links
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
-
-**Changelog**
-- Update roadmap, compatibility metrics
-- Added troubleshooting links 
-
-
-
-**Linked issue**
-#1927 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-20 09:47:06 +0000 UTC
     </div>
 </div>
 

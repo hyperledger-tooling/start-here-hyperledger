@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/355" class=".btn">#355</a>
+            </td>
+            <td>
+                <b>
+                    Abstract multiledger test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Makes the multi-ledger test abstract so that it can be reused in other backends.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-27 12:25:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/353" class=".btn">#353</a>
             </td>
             <td>
@@ -63,36 +89,6 @@ Closes #81
     </table>
     <div class="right-align">
         Created At 2022-06-24 07:21:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/350" class=".btn">#350</a>
-            </td>
-            <td>
-                <b>
-                    Separate wire address
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #234.
-
-In general, this PR will ensure that `wire.Address` and `wallet.Address` are distinct. Before, `wire.Address` was a synonym for `wallet.Address`, which caused some problems, in particular, mixing up `wire.Address` and `wallet.Address` and adding functionality to `wallet.Address` which was specific to the use case of `wire.Address` (concretely, the `Cmp` function).
-
-In this PR we assign both their own type.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-20 07:49:31 +0000 UTC
     </div>
 </div>
 

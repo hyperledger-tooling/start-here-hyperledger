@@ -28,6 +28,8 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
             </td>
             <td>
                 Signed-off-by: Swastika Gupta <gupta.swastika521@gmail.com>
+
+Fixes #198 
             </td>
         </tr>
     </table>

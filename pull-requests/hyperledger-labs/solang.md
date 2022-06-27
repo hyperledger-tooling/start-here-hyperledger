@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/896" class=".btn">#896</a>
+            </td>
+            <td>
+                <b>
+                    Ensure that parenthesis are added to the parse tree
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                forge fmt uses the solang-parser crate for formatting solidity code.
+However, currently parenthesis are not added to the parse tree, which
+makes reconstructing the source text difficult.
+
+This means that the parse tree for `(1 + 2) * 3` contains an explicit
+node for the parenthesis around the expression `1 + 2`.
+
+See https://discord.com/channels/900503503162724452/975868842125455390/990812142049566770
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-27 09:48:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/895" class=".btn">#895</a>
             </td>
             <td>
@@ -33,32 +68,6 @@ permalink: /pull-requests/hyperledger-labs/solang
     </table>
     <div class="right-align">
         Created At 2022-06-25 09:20:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/894" class=".btn">#894</a>
-            </td>
-            <td>
-                <b>
-                    Do not build clang for the release library
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                There is no need to build clang for the release LLVM binaries. We can compile and run Solang without clang. I was able to reduce the Linux x86 LLVM tarball from 305 MB to 170 MB.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-24 18:53:29 +0000 UTC
     </div>
 </div>
 
@@ -257,37 +266,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2022-06-21 08:14:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/884" class=".btn">#884</a>
-            </td>
-            <td>
-                <b>
-                    Do not give up resolving a file if any errors were found in any file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Currently, if there are any errors found in any file, then we do not
-resolve anything beyond the types.
-
-This is a step towards solang not giving up early when there are errors in the file; we should always continue and resolve as much as possible.
-
-Fixes #830 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-20 11:20:59 +0000 UTC
     </div>
 </div>
 
