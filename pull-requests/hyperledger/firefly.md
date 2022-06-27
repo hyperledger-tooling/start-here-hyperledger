@@ -96,7 +96,7 @@ permalink: /pull-requests/hyperledger/firefly
             </td>
             <td>
                 <b>
-                    Enable gateway-mode namespaces
+                    Enable "gateway-mode" namespaces
                 </b>
             </td>
         </tr>
@@ -329,32 +329,6 @@ Also enhance all E2E test suites to check for stuck operations, as this seems to
     </table>
     <div class="right-align">
         Created At 2022-06-20 20:26:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/867" class=".btn">#867</a>
-            </td>
-            <td>
-                <b>
-                    Update token connector versions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-20 13:26:10 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-shared-gha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-shared-gha/pull/12" class=".btn">#12</a>
+                PR <a href="https://github.com/hyperledger/indy-shared-gha/pull/13" class=".btn">#13</a>
             </td>
             <td>
                 <b>
-                    Use a consistent format for all gha variable substitutions
+                    hardened RC detection
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-shared-gha
                 
             </td>
             <td>
-                Signed-off-by: Wade Barnes <wade@neoterictech.ca>
+                Signed-off-by: pSchlarb <p.schlarb@esatus.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-03 13:08:30 +0000 UTC
+        Created At 2022-06-27 14:17:41 +0000 UTC
     </div>
 </div>
 

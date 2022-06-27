@@ -30,8 +30,6 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
                 Hi everyone, I'm planning to do a larger PR to fill out the docs more, but wanted to make this smaller one to get some initial thoughts on writing style etc. 
 
 I'm also proposing to change the file names 'prerequisites' to 'installation' and 'installation' to 'set up' as it better reflects the written context. For example currently in the doc titled set up (but filename installation) it is said that "this guide assumes you have followed the install guides". 
-
-Didn't get around to it in this PR but wanted to mention it in any case. 
             </td>
         </tr>
     </table>
@@ -148,111 +146,6 @@ Signed-off-by: Timo Glastra <timo@animo.id>
     </table>
     <div class="right-align">
         Created At 2022-06-21 19:48:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/35" class=".btn">#35</a>
-            </td>
-            <td>
-                <b>
-                    fix(updating): incorrect snippet in handler
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-20 17:12:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/33" class=".btn">#33</a>
-            </td>
-            <td>
-                <b>
-                    chore: formatting and type checking
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #31 
-Fixes #25 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-20 15:55:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/32" class=".btn">#32</a>
-            </td>
-            <td>
-                <b>
-                    fix: typo in update document
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-20 15:40:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/30" class=".btn">#30</a>
-            </td>
-            <td>
-                <b>
-                    chore: move docs from afj
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Moves some docs from AFJ to the docs repo so we can have all docs in one place. Some documents are still in the AFJ repo until we get the time to migrate them properly (mainly proofs and indy ledger documentation)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-20 13:59:50 +0000 UTC
     </div>
 </div>
 

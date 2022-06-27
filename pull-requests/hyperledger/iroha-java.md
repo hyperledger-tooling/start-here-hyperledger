@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/246" class=".btn">#246</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/248" class=".btn">#248</a>
             </td>
             <td>
                 <b>
-                    Iroha-228: repeated model names
+                    iroha-209: Remake register peer test
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-20 15:17:34 +0000 UTC
+        Created At 2022-06-27 15:09:10 +0000 UTC
     </div>
 </div>
 
