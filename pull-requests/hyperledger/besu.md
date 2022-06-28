@@ -14,6 +14,95 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4027" class=".btn">#4027</a>
+            </td>
+            <td>
+                <b>
+                    Return transaction type for legacy transactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span>
+            </td>
+            <td>
+                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
+
+## PR description
+
+Instead of omitting the transaction type when serializing a legacy transaction, we return the spec conform value of `0x0`.
+
+## Fixed Issue(s)
+
+fixes #4025 
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-28 13:38:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4026" class=".btn">#4026</a>
+            </td>
+            <td>
+                <b>
+                    Add terminal block hash and number to Ropsten genesis file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Add terminal block hash and number to Ropsten genesis file, and also require that peers on Ropsten must have that block
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-28 13:09:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4024" class=".btn">#4024</a>
             </td>
             <td>
@@ -203,7 +292,7 @@ Fixes #3884
             </td>
             <td>
                 <b>
-                    Validate without saving2
+                    When on PoS the head can be only be updated by ForkchoiceUpdate
                 </b>
             </td>
         </tr>
@@ -217,18 +306,31 @@ Fixes #3884
 
 ## PR description
 
+When executing a newPayload or build a new block, we do not need to move
+the chain head and update the world state, since this will be done by a
+following forkchoice update call, but we still need to validate the block
+and doing so we can also prepare everything for the future call, so we do
+not need to re-execute everything, but only update the pointers, so that the
+response to the forkchoice update call is quick.
+
+Moreover on block proposal do only a validation of the block without storing or remembering nothing, to avoid saving data that could be stale, for example the empty block that is always proposed, is useless if another better block is produced later.
+
+Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
 
+fixes #3957
+
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -644,32 +746,6 @@ Seeing periodic failures on the Quorum ATs which can pass after re-running. Chan
     </table>
     <div class="right-align">
         Created At 2022-06-22 00:02:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/3999" class=".btn">#3999</a>
-            </td>
-            <td>
-                <b>
-                    Backwards Sync now adding blocks to BadBlocksManager
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes: #3942
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-21 14:41:09 +0000 UTC
     </div>
 </div>
 

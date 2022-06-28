@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2402" class=".btn">#2402</a>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2403" class=".btn">#2403</a>
             </td>
             <td>
                 <b>
@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/iroha
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">iroha2</span>
             </td>
             <td>
                 This PR disallows to use empty strings for `iroha_data_model::Name`. Thus, it forbids empty `AccountId`, `DomainId` etc. In case of `Name`'s initialization from an empty string, an error is raised. For discussion see the linked issue (#2000).
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-28 12:33:06 +0000 UTC
+        Created At 2022-06-28 12:48:15 +0000 UTC
     </div>
 </div>
 
