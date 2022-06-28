@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1394" class=".btn">#1394</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Migrate to npm workspaces
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In this PR:
+* The repository is migrated from lerna to npm workspaces
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-28 14:03:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1393" class=".btn">#1393</a>
             </td>
             <td>
@@ -241,36 +269,6 @@ Closes #1360
     </table>
     <div class="right-align">
         Created At 2022-06-21 19:19:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1382" class=".btn">#1382</a>
-            </td>
-            <td>
-                <b>
-                    Disable unit and integration tests in Azure Pipelines
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In this PR:
-* The unit and integration test jobs in Azure pipelines are removed as they were migrated to GitHub Actions
-
-Closes #1367 
-Closes #1368 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-21 16:04:35 +0000 UTC
     </div>
 </div>
 

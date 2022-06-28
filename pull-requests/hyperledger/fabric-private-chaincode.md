@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">documentation</span><span class="chip">comp/samples</span>
             </td>
             <td>
                 
