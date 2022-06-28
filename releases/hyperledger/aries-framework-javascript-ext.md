@@ -15,14 +15,54 @@ permalink: /releases/hyperledger/aries-framework-javascript-ext
         <tr>
             <td colspan="2">
                 <b>
-                    @aries-framework/push-notifications push-notifications-v0.3.0
+                    @aries-framework/rest rest-v0.8.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    push-notifications-v0.3.0
+                    rest-v0.8.1
+                </span>
+            </td>
+            <td>
+                
+
+### Features
+
+* **rest:** added multi use param to create invitation ([#100](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/100)) ([d00f11d](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/d00f11d78e9f65de3907bd6bf94dd6c38e2ddc3b))
+* **rest:** improved class validation ([#108](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/108)) ([cb48752](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/cb48752f0e222080f46c0699528e901de1226211))
+
+
+### Bug Fixes
+
+* **rest:** changed webhook event topic to type ([#117](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/117)) ([fed645e](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/fed645ec4ba77313e092bce097444a96aa66cf6e))
+* **rest:** ledger not found error ([2374b42](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/2374b4232a0b11738fb57e23dd2a3ac1b81ad073))
+
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/rest-v0.8.1" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-06-28 15:33:05 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    @aries-framework/push-notifications push-notifications-v0.4.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    push-notifications-v0.4.0
                 </span>
             </td>
             <td>
@@ -30,20 +70,25 @@ permalink: /releases/hyperledger/aries-framework-javascript-ext
 
 ### ⚠ BREAKING CHANGES
 
-* **pn:** PushNotificationsModule does not exist anymore. You now have to use one that is specific to your service, e.g. PushNotificationsApnsModule or PushNotificationsFcmModule
+* **push-notifications:** update to afj 0.2.0 (#126)
 
 ### Features
 
-* **pn:** more services ([#115](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/115)) ([dac5932](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/dac59321b40bbf4b5dc488212b8c6a13eb1d4d19))
+* **push-notifications:** update to afj 0.2.0 ([#126](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/126)) ([196a323](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/196a3233f7284ed2acdba9d3724acc5c55cd2be4))
+
+
+### Bug Fixes
+
+* **push-notifications:** validation method ([f8b9c1b](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/f8b9c1b1d18780227b7db6a30efe11f407da5ef3))
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/push-notifications-v0.3.0" class=".btn">
+    <a href="https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/push-notifications-v0.4.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-05-31 10:03:18 +0000 UTC
+        Created At 2022-06-28 16:16:27 +0000 UTC
     </span>
 </div>
 
