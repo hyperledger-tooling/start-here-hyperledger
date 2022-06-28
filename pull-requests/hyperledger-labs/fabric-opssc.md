@@ -27,7 +27,18 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [jsrsasign](https://github.com/kjur/jsrsasign) from 10.5.24 to 10.5.25.
+                [//]: # (dependabot-start)
+⚠️  **Dependabot is rebasing this PR** ⚠️ 
+
+Rebasing might not happen immediately, so don't worry if this takes some time.
+
+Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
+
+---
+
+[//]: # (dependabot-end)
+
+Bumps [jsrsasign](https://github.com/kjur/jsrsasign) from 10.5.24 to 10.5.25.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/kjur/jsrsasign/releases">jsrsasign's releases</a>.</em></p>
