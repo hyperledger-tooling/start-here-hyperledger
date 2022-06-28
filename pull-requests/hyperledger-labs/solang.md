@@ -241,31 +241,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/885" class=".btn">#885</a>
-            </td>
-            <td>
-                <b>
-                    Replace curly quotes with ascii single quote
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                We use ascii quotes in diagnostics, these ones were missed.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-21 08:14:23 +0000 UTC
-    </div>
-</div>
-

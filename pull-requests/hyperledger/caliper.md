@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1393" class=".btn">#1393</a>
+            </td>
+            <td>
+                <b>
+                    Add DCI linting to CI of PRs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As recommended by the project update template and https://github.com/petermetz/gh-action-dci-lint
+Let's see whether the remnant phrases in the changelog and third-party artifacts will trigger the alarm before making this a branch protection rule.
+
+Signed-off-by: Attila Klenik <a.klenik@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-28 11:25:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1391" class=".btn">#1391</a>
             </td>
             <td>
