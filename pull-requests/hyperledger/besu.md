@@ -14,6 +14,82 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4019" class=".btn">#4019</a>
+            </td>
+            <td>
+                <b>
+                    allow upgrade whether websockets enabled or not
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span>
+            </td>
+            <td>
+                Signed-off-by: Justin Florentine <justin+github@florentine.us>
+fixes #3948 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-28 00:16:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4018" class=".btn">#4018</a>
+            </td>
+            <td>
+                <b>
+                    Updates to DNS discovery
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Diego López León <dieguitoll@gmail.com>
+
+## PR description
+This PR adds a new implementation for [EIP-14159](https://eips.ethereum.org/EIPS/eip-1459) replacing [DNSDaemon](https://github.com/apache/incubator-tuweni/blob/main/dns-discovery/src/main/kotlin/org/apache/tuweni/discovery/DNSDaemon.kt) from Tuweni with a new one, vert.x based.
+This new implementation provides the following benefits:
+- Random tree traversal
+- Batched discovery
+- Periodic traversal continues from last state
+- Non blocking implementation, based on vert.x DNS client 
+
+## Fixed Issue(s)
+Fixes #1707
+
+## Notes
+This is sent as a draft to gather feedback on this implementation. How often should we check the DNS for new peers? How many leaves should be attempted to connect per branch? Should this parameters need to be parameterized through the CLI? Based on the willingness to merge this proposal I would finish the specification by adding support to linked trees
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-27 19:33:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4017" class=".btn">#4017</a>
             </td>
             <td>
@@ -277,50 +353,6 @@ Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
     </table>
     <div class="right-align">
         Created At 2022-06-23 07:54:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4005" class=".btn">#4005</a>
-            </td>
-            <td>
-                <b>
-                    reduce clique block time in ATs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-23 02:53:30 +0000 UTC
     </div>
 </div>
 

@@ -341,31 +341,3 @@ It's a minor quality of life tweak but this adds more structure to plugin config
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1827" class=".btn">#1827</a>
-            </td>
-            <td>
-                <b>
-                    Fix IssuerCredRevRecord state update on revocation publish
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1823 broken in #1804
-
-Ran against integration tests T002-TAA and T003-TAA which were previously failing.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-20 22:16:33 +0000 UTC
-    </div>
-</div>
-

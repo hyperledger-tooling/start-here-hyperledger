@@ -174,31 +174,3 @@ Signed-off-by: Satomi Tsujita <satomi.t.sora@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/732" class=".btn">#732</a>
-            </td>
-            <td>
-                <b>
-                    [it_IT] Translate CONTRIBUTING: What makes a good pull request + Lega…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                …l stuff (start)
-
-Signed-off-by: FabrizioPe <fab.pellegr@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-20 19:06:47 +0000 UTC
-    </div>
-</div>
-
