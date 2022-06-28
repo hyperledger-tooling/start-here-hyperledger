@@ -14,11 +14,76 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2402" class=".btn">#2402</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #2000: Disallow empty names
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR disallows to use empty strings for `iroha_data_model::Name`. Thus, it forbids empty `AccountId`, `DomainId` etc. In case of `Name`'s initialization from an empty string, an error is raised. For discussion see the linked issue (#2000).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-28 12:33:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2401" class=".btn">#2401</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #1649: remove `spawn` from `do_send`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ### Description of the Change
+Deadlock described in #1649 is no longer reproducible. Tested under load for about an hour, periodically restarting and re-regestering peers.
+
+### Issue
+
+Closes #1649 
+
+### Benefits
+
+Performance
+
+### Possible Drawbacks
+
+None (if deadlock really is gone)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-28 11:29:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2397" class=".btn">#2397</a>
             </td>
             <td>
                 <b>
-                    Simplify Kura
+                    [fix] #2376: Simplified Kura, no async, two files
                 </b>
             </td>
         </tr>
