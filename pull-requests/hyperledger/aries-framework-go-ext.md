@@ -62,33 +62,3 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/264" class=".btn">#264</a>
-            </td>
-            <td>
-                <b>
-                    feat: Remove MongoDB BatchAsJSON method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * Removed the BatchAsJSON method since the new BulkWrite method introduced in the previous commit can do the same thing but with more flexibility
-* Added a clarification on the PrepareDataForBSONStorage helper function (which is intended to be used with BulkWrite).
-* BulKWrite now returns a more accurate error message if an InsertOne model is being used.
-
-Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-20 20:27:59 +0000 UTC
-    </div>
-</div>
-

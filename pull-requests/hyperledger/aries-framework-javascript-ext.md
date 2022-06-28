@@ -57,7 +57,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
 
 * Updates to latest AFJ version
 * Fixes validation warnings
-* Update credential provider hooks to listen for generic record events over specific state changed/revocation notification events
+* Update credential, proof and connection provider hooks to listen for generic record events over specific state changed/revocation notification events
             </td>
         </tr>
     </table>

@@ -34,6 +34,8 @@ If this is the global structure - then that is not good.
 
 Duplicating the structure.  Many ways to solve this problem; but this the current approach is cleaner.
 
+Fixes https://github.com/hyperledger/fabric-ca/issues/305
+
 Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
 
             </td>
