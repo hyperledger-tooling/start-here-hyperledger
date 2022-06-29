@@ -122,30 +122,3 @@ Signed-off-by: Timo Glastra <timo@animo.id>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/38" class=".btn">#38</a>
-            </td>
-            <td>
-                <b>
-                    docs: add contribution guidelines
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Karim Stekelenburg <karim@animo.id>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-22 12:42:50 +0000 UTC
-    </div>
-</div>
-

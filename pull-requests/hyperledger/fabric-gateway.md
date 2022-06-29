@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/462" class=".btn">#462</a>
+            </td>
+            <td>
+                <b>
+                    Improvements to eventing documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-29 13:22:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/461" class=".btn">#461</a>
             </td>
             <td>
@@ -144,62 +170,6 @@ Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-06-23 11:19:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/456" class=".btn">#456</a>
-            </td>
-            <td>
-                <b>
-                    Use fabric-protos package in Java client
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                No longer need to download and compile protobuf stubs to be bundled directly into fabric-gateway package.
-
-Closes #420
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-22 17:10:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/455" class=".btn">#455</a>
-            </td>
-            <td>
-                <b>
-                    Add make target to install required Go tools
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Previously this was coded into the Azure Pipelines build script, and also documented for manual set up in the README.
-
-Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-22 16:50:58 +0000 UTC
     </div>
 </div>
 

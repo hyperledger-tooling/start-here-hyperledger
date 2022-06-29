@@ -435,31 +435,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2095" class=".btn">#2095</a>
-            </td>
-            <td>
-                <b>
-                    fix: compile errors in the electricity-trade example
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This fix allows the cactus repository to configure without errors when `npm run configure` is run in the cactus root directory
-It enables various examples like the electricity-trade to work
-Signed-off-by: Jande Vincent [janvinsha@gmail.com](url) 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-22 16:41:12 +0000 UTC
-    </div>
-</div>
-

@@ -1,13 +1,13 @@
 
-[207](https://github.com/hyperledger/caliper-benchmarks/pull/207) Fixed-asset go contracts: added readWriteAssets (compositetx) function
+[344](https://github.com/hyperledger/grid-docs/pull/344) Update submitter design doc to match impl
 
-[781](https://github.com/hyperledger/fabric-samples/pull/781) Update secured asset transfer sample
+[1846](https://github.com/hyperledger/aries-cloudagent-python/pull/1846) Update the Supported RFCs document for 0.7.4 release
 
-[3503](https://github.com/hyperledger/fabric/pull/3503) Update secured asset transfer tutorial
+[740](https://github.com/hyperledger/fabric-docs-i18n/pull/740) [it_IT] Translate CONTRIBUTING: end of the section
 
-[430](https://github.com/hyperledger-labs/orion-server/pull/430) Destroys cluster environment when a test fails and avoid locking forever when waiting for a server after killing it
+[2415](https://github.com/hyperledger/iroha/pull/2415) [feature] #2395: Add panic if genesis cannot be applied
 
-[1991](https://github.com/hyperledger/bevel/pull/1991) [besu] updated network-proxy-none.yaml
+[269](https://github.com/hyperledger/aries-framework-go-ext/pull/269) Add Cheqd resolver and add unit test for checking Cheqd resolver
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
