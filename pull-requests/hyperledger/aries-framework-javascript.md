@@ -14,6 +14,93 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/911" class=".btn">#911</a>
+            </td>
+            <td>
+                <b>
+                    ci: fix next version bump output
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Last one I hope...
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-28 08:45:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/910" class=".btn">#910</a>
+            </td>
+            <td>
+                <b>
+                    ci: fix next version bump variable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                CI is hard...
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-28 08:06:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/909" class=".btn">#909</a>
+            </td>
+            <td>
+                <b>
+                    feat(routing): add routing service
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">multitenancy</span>
+            </td>
+            <td>
+                Adds a routing service that handles the creating of keys for routing and integrates with the mediation recipient service to add routing for the mediator.
+
+The extraction is just to make sure we don't have to depend on a mediator dependency all across the framework. 
+
+What this also adds is an event for when routing keys are created. This allows the tenant module to listen for created routing keys and can then create a mapping of it in the base wallet. I first started with a middleware approach (As described in the design document: https://hackmd.io/vGLVlxLvQR6jsEEjzNcL8g), but this added _ A LOT_ of complexity and didn't abstract away the mediator functionality as that is a part of the core API. So I went for the less generic but simpler API, that is just fine I think.
+
+Again no changes to the public api, so we can merge this without issues
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-28 07:46:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/908" class=".btn">#908</a>
             </td>
             <td>
@@ -68,8 +155,11 @@ Instead of declarating a class with `@scoped(Lifecycle.ContainerScoped)` it now 
 A normal plugin is declared like below, this doesn't expose a public API through a module. We already use this internally for some services without public api (e.g. the indy plugin that adds the `IndyIssuerService`, etc..)
 
 ```ts
-const myPlugin: Plugin = {
-  register(dependencyManager: DependencyManager) {
+import { plugin } from '@aries-framework/core'
+
+@plugin()
+class MyPlugin {
+  public static register(dependencyManager: DependencyManager) {
     dependencyManager.registerSingleton(MyService)
     dependencyManager.registerSingleton(MyRepository)
   }
@@ -79,8 +169,11 @@ const myPlugin: Plugin = {
 The you have the module plugin which works the same but is declared directly on the module itself:
 
 ```ts
+import { modulePlugin } from '@aries-framework/core'
+
+@modulePlugin()
 class MyModule {
-  register(dependencyManager: DependencyManager) {
+  public static register(dependencyManager: DependencyManager) {
     dependencyManager.registerSingleton(MyService)
     dependencyManager.registerSingleton(MyRepository)
   }
@@ -94,7 +187,7 @@ It's not mean to be used publicly yet (and will have breaking changes), but you 
 dependencyManager.registerModulePlugins([MyModule])
 
 // or if no module
-dependencyManager.registerPlugins([myPlugin])
+dependencyManager.registerPlugins([MyPlugin])
 ```
 
 This will make sure the services are registered and in case of the module plugin the module is also registered. The reason why we need this for multitenancy is that we're going to create child container for each tenant agent, that share most of the services from the base agent, but will have some differences. The `@scoped(Lifecycle.ContainerScoped)` won't do the job anymore. 
@@ -214,70 +307,6 @@ closes #859
     </table>
     <div class="right-align">
         Created At 2022-06-22 13:18:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/898" class=".btn">#898</a>
-            </td>
-            <td>
-                <b>
-                    feat!: add agent context provider
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">multitenancy</span>
-            </td>
-            <td>
-                > - Dependant on #881 (until that one is merged this is kinda hard to review)
-> - Design: https://hackmd.io/vGLVlxLvQR6jsEEjzNcL8g#Agent-Context-Provider
-
-Adds an `AgentContextProvider` with default `DefaultAgentContextProvider` implementation that always returns the same agent context (for a single tenant agent). 
-
-This allows the tenant module (will be added as a separate module) to implement its own `TenantAgentContextProvider` that will find provide the agent context for a specific tenant. This allows to keep the core lean, while providing more advanced usages of providing the agent context.
-
-I added a `contextCorrelationId` to the `AgentContext` interface. For now this is not really needed, but this will become really useful when we add tenants. The `contextCorrelationId` allows to correlate the context with an identifier to make it easier to provide the context for an incoming message. By default we find the tenant based on the recipient public keys of a message, but there's numerous cases where we are processing plaintext messages. By providing the contextCorrelationId we can use this in the `AgentContextProvider` to correlate the message to a specific context. In the case of the `TenantContextProvider` the `contextCorrelationId` will be the `tenantId`.
-
-
-BREAKING CHANGE: the `agent.receiveMessage` method should only be used if you want to process the message in the context of the current agent. This means it fine to use for e.g. processing plaintext connection-less messages, but it shouldn't be used anymore by outbound and inbound transports to process messages. Instead, inject the `MessageReceiver` class and call `receiveMessage` on that class instead.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-21 17:22:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/896" class=".btn">#896</a>
-            </td>
-            <td>
-                <b>
-                    fix(connections): set image url in create request
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Amit-Padmani <amit.padmani@ontario.ca>
-
-Image URL is missing in connection record [#895](https://github.com/hyperledger/aries-framework-javascript/issues/895)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-21 11:56:26 +0000 UTC
     </div>
 </div>
 

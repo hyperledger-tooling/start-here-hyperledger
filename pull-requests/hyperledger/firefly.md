@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/882" class=".btn">#882</a>
+            </td>
+            <td>
+                <b>
+                    Deprecate default value for "ffdx"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This default value will be totally removed in v1.1+ due to #878. Deprecating it on the v1.0.x train will give a cleaner migration path forward.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-28 19:35:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/881" class=".btn">#881</a>
             </td>
             <td>
@@ -96,16 +122,21 @@ permalink: /pull-requests/hyperledger/firefly
             </td>
             <td>
                 <b>
-                    Enable "gateway-mode" namespaces
+                    Enable non-multiparty namespaces
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">migration_consideration</span>
             </td>
             <td>
-                Needs cleanup, but should be (mostly) fully functional.
+                Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12).
+
+* Selectively disable managers and routes depending on the features available in a given namespace.
+* Move methods that create definitions into the `definitions` package (so it now has the definition "senders" alongside the definition "handlers"). When multiparty is disabled, the senders call directly to the matched handlers without an intermediate broadcast message.
+
+Potential migration-breaking change: the deprecated `dataexchange.type` key no longer has a default of `ffdx`. Older config files that omitted this key will fail to parse. See #882.
             </td>
         </tr>
     </table>
@@ -249,34 +280,6 @@ Only the blockchain plugin remains, and will need to be addressed after #865.
     </table>
     <div class="right-align">
         Created At 2022-06-22 14:12:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/872" class=".btn">#872</a>
-            </td>
-            <td>
-                <b>
-                    Resolve DX operations via requestID (not event ID)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #871 
-
-Also enhance all E2E test suites to check for stuck operations, as this seems to be a recurring theme that slips through the cracks.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-21 14:33:22 +0000 UTC
     </div>
 </div>
 

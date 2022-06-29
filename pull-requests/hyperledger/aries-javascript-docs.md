@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/44" class=".btn">#44</a>
+            </td>
+            <td>
+                <b>
+                    chore: add install commands to update guide
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-28 13:50:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/43" class=".btn">#43</a>
             </td>
             <td>
@@ -120,32 +146,6 @@ Signed-off-by: Timo Glastra <timo@animo.id>
     </table>
     <div class="right-align">
         Created At 2022-06-22 12:42:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/37" class=".btn">#37</a>
-            </td>
-            <td>
-                <b>
-                    chore: update links after transfer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-21 19:48:34 +0000 UTC
     </div>
 </div>
 
