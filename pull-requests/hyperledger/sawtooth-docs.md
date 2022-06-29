@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/190" class=".btn">#190</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/191" class=".btn">#191</a>
             </td>
             <td>
                 <b>
-                    Misc fixes
+                    Add search functionality
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-18 19:21:45 +0000 UTC
+        Created At 2022-06-28 18:27:22 +0000 UTC
     </div>
 </div>
 
