@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/1991" class=".btn">#1991</a>
+            </td>
+            <td>
+                <b>
+                    [besu] updated network-proxy-none.yaml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span><span class="chip">besu</span>
+            </td>
+            <td>
+                # Commit to be reviewed
+
+    fix(besu): updated network.yaml 
+    
+    Primary Changes
+    ---------------
+    1. Updated the genesis file path in platforms/hyperledger-besu/configuration/samples/network-proxy-none.yaml
+
+ 
+**Reviewed by**
+@suvajit-sarkar 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-29 07:19:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/1989" class=".btn">#1989</a>
             </td>
             <td>
@@ -88,46 +126,6 @@ permalink: /pull-requests/hyperledger/bevel
     </table>
     <div class="right-align">
         Created At 2022-06-27 07:21:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/1987" class=".btn">#1987</a>
-            </td>
-            <td>
-                <b>
-                    [indy]: update platform indy helm value templates for flux v2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: manikanta-darsi <manikanta.darsi@accenture.com>
-
-**Changelog**
-- Update platform indy helm value templates for flux v2
-
- 
-
-**Reviewed by**
-@sownak @suvajit-sarkar @jagpreetsinghsasan 
-
- 
-
-**Linked issue**
-#1984 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-21 11:16:49 +0000 UTC
     </div>
 </div>
 
