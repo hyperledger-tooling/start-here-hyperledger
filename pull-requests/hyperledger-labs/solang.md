@@ -244,29 +244,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/888" class=".btn">#888</a>
-            </td>
-            <td>
-                <b>
-                    Clarify MacOS installation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I added a few new lines to the documentation to clarify the procedure to download and use the pre-compiled binary on MacOS.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-22 13:20:28 +0000 UTC
-    </div>
-</div>
-

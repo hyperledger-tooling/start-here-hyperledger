@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/913" class=".btn">#913</a>
+            </td>
+            <td>
+                <b>
+                    feat: add method to fetch KeyType by proof type
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim <karim@animo.id>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-29 13:32:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/911" class=".btn">#911</a>
             </td>
             <td>
@@ -279,34 +306,6 @@ It is a complementary implementation to the `agent.proofs.sendProblemReport`. Bu
     </table>
     <div class="right-align">
         Created At 2022-06-23 13:38:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/900" class=".btn">#900</a>
-            </td>
-            <td>
-                <b>
-                    feat: Smart schema and credential definition registration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Moriarty <moritz@animo.id>
-
-closes #859 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-22 13:18:01 +0000 UTC
     </div>
 </div>
 

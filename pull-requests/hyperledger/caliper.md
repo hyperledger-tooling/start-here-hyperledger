@@ -127,33 +127,3 @@ Fixes #1389
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1387" class=".btn">#1387</a>
-            </td>
-            <td>
-                <b>
-                    Cache node modules across CI workflows
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In this PR:
-* The `node_modules` folder is cached across workflows using a method inspired by the workflow in [jupyterlab/extension-examples](https://github.com/jupyterlab/extension-examples/blob/master/.github/workflows/main.yml)
-
-Closes #1374
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-22 17:42:44 +0000 UTC
-    </div>
-</div>
-
