@@ -62,31 +62,3 @@ permalink: /pull-requests/hyperledger/fabric-protos
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/115" class=".btn">#115</a>
-            </td>
-            <td>
-                <b>
-                    Tag fabric-protos-go-apiv2 repo on release builds
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add version tags to the fabric-protos-go-apiv2 repository to match tagged releases in fabric-protos
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-23 12:22:13 +0000 UTC
-    </div>
-</div>
-

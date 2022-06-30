@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/771" class=".btn">#771</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/772" class=".btn">#772</a>
             </td>
             <td>
                 <b>
-                    add --legacy-peer-deps flag to all pipelines
+                    Feature/populate my did
                 </b>
             </td>
         </tr>
@@ -27,42 +27,21 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
                 
             </td>
             <td>
-                Related to: https://github.com/hyperledger-labs/business-partner-agent/issues/759
-- same build params everywhere
-- replaced version pinning with legacy param
-- fixed omit optional dependencies
-- only if developers change dependencies npm install should be used
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-23 07:32:25 +0000 UTC
-    </div>
-</div>
+                increase accessibility of org did and several few changes:
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/770" class=".btn">#770</a>
-            </td>
-            <td>
-                <b>
-                    Feature/rule engine test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
+- added did to org profile
+- added did icon to toolbar (next to logout)
+- changed clipboard copy function with more modern solution
+- status is now accessible in VUEX store
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/772"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-23 06:57:39 +0000 UTC
+        Created At 2022-06-30 12:27:09 +0000 UTC
     </div>
 </div>
 
