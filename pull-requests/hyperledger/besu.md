@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4031" class=".btn">#4031</a>
+            </td>
+            <td>
+                <b>
+                    Revert "Upgrade OpenTelemetry (#3675)"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This reverts commit 78717ade1d45902c13e77e84bc201338e159c3c4.
+
+Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+Issues with "Failed to connect" errors 
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-29 23:50:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4027" class=".btn">#4027</a>
             </td>
             <td>
@@ -570,115 +609,6 @@ Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-06-23 02:04:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4003" class=".btn">#4003</a>
-            </td>
-            <td>
-                <b>
-                    Support free gas networks when using London fee market
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">doc-change-required</span>
-            </td>
-            <td>
-                In order to support [free gas private networks](https://besu.hyperledger.org/en/stable/HowTo/Configure/FreeGas/) in a London/EIP1559 context, I propose that we support setting a zero baseFee.
-
-If `baseFeePerGas` is overridden as 0 wei, then bypass the need for a transaction to have a gas price of >= 7 wei.
-
-The genesis would look something like this:
-```
-{
-  "config": {
-    ...
-    "londonBlock": 0,
-    ...
-  },
-  "baseFeePerGas": "0x0",
-  "nonce": "0x0",
-  ...
-}
-```
-
-One potential downside is that once baseFeePerGas is set to 0, there's no going back for that chain. You can still use `--min-gas-price` to enforce _some_ gas, but the London base fee calculation will be forever opted out of as a consequence of the zero baseFee in the genesis block. This also means no ether would get burned since base fee will always be zero.
-
-This is currently blocking users with free gas networks from upgrading past the Berlin fork.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-Fixes https://github.com/hyperledger/besu/issues/3374
-Fixes https://github.com/hyperledger/besu/issues/3763
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-23 00:41:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4002" class=".btn">#4002</a>
-            </td>
-            <td>
-                <b>
-                    [Issue 3867] Make eth subprotocol message size limit configurable
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-PR #2485 introduced a limit on incoming `eth` subprotocol message sizes.  However, there is no logic to force outgoing messages to conform to this size limit.  As a result of this asymmetry, a new node trying to sync with other besu nodes may end up disconnecting many of its peers for exceeding this limit.  This can cause nodes to get stuck during the sync process. 
-
-This PR makes the max message size configurable via a hidden option: `--Xeth-max-message-size`.  This provides a workaround for nodes that are stuck in this way.  
-
-Remaining TODOs (to be handled in follow-up PRs):
-* Handle message size limit consistently by enforcing limits on outbound messages
-
-## Fixed Issue(s)
-This partially addresses the issue described in #3867. 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-22 22:10:30 +0000 UTC
     </div>
 </div>
 
