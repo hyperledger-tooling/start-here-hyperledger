@@ -40,32 +40,6 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/269" class=".btn">#269</a>
-            </td>
-            <td>
-                <b>
-                    Add Cheqd resolver and add unit test for checking Cheqd resolver
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-29 14:30:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/267" class=".btn">#267</a>
             </td>
             <td>
