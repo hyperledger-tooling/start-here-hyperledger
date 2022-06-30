@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-go/pull/50" class=".btn">#50</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-go/pull/52" class=".btn">#52</a>
             </td>
             <td>
                 <b>
-                    Bump github.com/stretchr/testify from 1.7.0 to 1.7.5
+                    Bump github.com/stretchr/testify from 1.7.0 to 1.8.0
                 </b>
             </td>
         </tr>
@@ -27,27 +27,27 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [github.com/stretchr/testify](https://github.com/stretchr/testify) from 1.7.0 to 1.7.5.
+                Bumps [github.com/stretchr/testify](https://github.com/stretchr/testify) from 1.7.0 to 1.8.0.
 <details>
 <summary>Commits</summary>
 <ul>
+<li><a href="https://github.com/stretchr/testify/commit/181cea6eab8b2de7071383eca4be32a424db38dd"><code>181cea6</code></a> impr: <code>CallerInfo</code> should print full paths to the terminal (<a href="https://github-redirect.dependabot.com/stretchr/testify/issues/1201">#1201</a>)</li>
+<li><a href="https://github.com/stretchr/testify/commit/cf1284f8dd6f0bf34eed4ab8808ef88f40f7d00f"><code>cf1284f</code></a> Allow mock expectations to be ordered (<a href="https://github-redirect.dependabot.com/stretchr/testify/issues/1106">#1106</a>)</li>
+<li><a href="https://github.com/stretchr/testify/commit/66eef0ef3adb4691cdc275620c9a129f2f98935a"><code>66eef0e</code></a> fix: assert.MapSubset (or just support maps in assert.Subset) (<a href="https://github-redirect.dependabot.com/stretchr/testify/issues/1178">#1178</a>)</li>
+<li><a href="https://github.com/stretchr/testify/commit/2fab6dffcf101c5a79fc8f3cd67a3541432db5fd"><code>2fab6df</code></a> Add WithinTimeRange method (<a href="https://github-redirect.dependabot.com/stretchr/testify/issues/1188">#1188</a>)</li>
 <li><a href="https://github.com/stretchr/testify/commit/b5ce16571001d6e96e1693ac891fed5c2510c651"><code>b5ce165</code></a> fixing panic in calls to assertion with nil m.mutex (<a href="https://github-redirect.dependabot.com/stretchr/testify/issues/1212">#1212</a>)</li>
 <li><a href="https://github.com/stretchr/testify/commit/c206b2e823e70c1e4e7ca8eded9e410acc8f71be"><code>c206b2e</code></a> Mock can be deadlocked by a panic (<a href="https://github-redirect.dependabot.com/stretchr/testify/issues/1157">#1157</a>)</li>
 <li><a href="https://github.com/stretchr/testify/commit/1b73601ae8d1c3e389e93092f595b1f6e3d68251"><code>1b73601</code></a> suite: correctly set stats on test panic (<a href="https://github-redirect.dependabot.com/stretchr/testify/issues/1195">#1195</a>)</li>
 <li><a href="https://github.com/stretchr/testify/commit/ba1076d8b3b67cdaf7bf92c95b3641636a039be2"><code>ba1076d</code></a> Add .Unset method to mock (<a href="https://github-redirect.dependabot.com/stretchr/testify/issues/982">#982</a>)</li>
 <li><a href="https://github.com/stretchr/testify/commit/c31ea0312f8a96ca55801db5ebdf62119800fb70"><code>c31ea03</code></a> Support comparing byte slice (<a href="https://github-redirect.dependabot.com/stretchr/testify/issues/1202">#1202</a>)</li>
 <li><a href="https://github.com/stretchr/testify/commit/48391ba5eb8c5f49132138e67ec112d180b88f63"><code>48391ba</code></a> Fix panic in AssertExpectations for mocks without expectations (<a href="https://github-redirect.dependabot.com/stretchr/testify/issues/1207">#1207</a>)</li>
-<li><a href="https://github.com/stretchr/testify/commit/840cb801497147a6d30a568e0874dfefb10867a9"><code>840cb80</code></a> arrays value types in a zero-initialized state are considered empty (<a href="https://github-redirect.dependabot.com/stretchr/testify/issues/1126">#1126</a>)</li>
-<li><a href="https://github.com/stretchr/testify/commit/07dc7ee5abe6d1c0ef6449f731ca9bf08e1787f8"><code>07dc7ee</code></a> Bump actions/setup-go from 3.1.0 to 3.2.0 (<a href="https://github-redirect.dependabot.com/stretchr/testify/issues/1191">#1191</a>)</li>
-<li><a href="https://github.com/stretchr/testify/commit/c33fc8d30db6f6d2c5d270c5023eb0f2181bbab5"><code>c33fc8d</code></a> Bump actions/checkout from 2 to 3 (<a href="https://github-redirect.dependabot.com/stretchr/testify/issues/1163">#1163</a>)</li>
-<li><a href="https://github.com/stretchr/testify/commit/3c33e07c4c233bf61e1414f5acb3cda06ffef1d1"><code>3c33e07</code></a> Added Go 1.18.1 as a build/supported version (<a href="https://github-redirect.dependabot.com/stretchr/testify/issues/1182">#1182</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/stretchr/testify/compare/v1.7.0...v1.7.5">compare view</a></li>
+<li>Additional commits viewable in <a href="https://github.com/stretchr/testify/compare/v1.7.0...v1.8.0">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/stretchr/testify&package-manager=go_modules&previous-version=1.7.0&new-version=1.7.5)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/stretchr/testify&package-manager=go_modules&previous-version=1.7.0&new-version=1.8.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -78,7 +78,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-24 04:35:57 +0000 UTC
+        Created At 2022-06-30 04:40:07 +0000 UTC
     </div>
 </div>
 
