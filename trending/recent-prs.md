@@ -1,13 +1,13 @@
 
+[4031](https://github.com/hyperledger/besu/pull/4031) Revert "Upgrade OpenTelemetry (#3675)"
+
+[1847](https://github.com/hyperledger/aries-cloudagent-python/pull/1847) Fix handling of non-revocable credential when timestamp is specified (askar/credx)
+
+[883](https://github.com/hyperledger/firefly/pull/883) Track blockchain callback handlers per namespace
+
+[270](https://github.com/hyperledger/aries-framework-go-ext/pull/270) fix: switch from math/rand to crypto/rand
+
 [344](https://github.com/hyperledger/grid-docs/pull/344) Update submitter design doc to match impl
-
-[1846](https://github.com/hyperledger/aries-cloudagent-python/pull/1846) Update the Supported RFCs document for 0.7.4 release
-
-[740](https://github.com/hyperledger/fabric-docs-i18n/pull/740) [it_IT] Translate CONTRIBUTING: end of the section
-
-[2415](https://github.com/hyperledger/iroha/pull/2415) [feature] #2395: Add panic if genesis cannot be applied
-
-[269](https://github.com/hyperledger/aries-framework-go-ext/pull/269) Add Cheqd resolver and add unit test for checking Cheqd resolver
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
