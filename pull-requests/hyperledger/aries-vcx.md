@@ -14,25 +14,27 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/502" class=".btn">#502</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/503" class=".btn">#503</a>
             </td>
             <td>
                 <b>
-                    Include @id on forward message
+                    Add test, remove extra quotes serialized into credential preview attribute values
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">hotfix</span>
+                
             </td>
             <td>
-                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+                
+
+Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-23 09:03:33 +0000 UTC
+        Created At 2022-06-30 13:56:01 +0000 UTC
     </div>
 </div>
 

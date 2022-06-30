@@ -1,13 +1,13 @@
 
-[772](https://github.com/hyperledger-labs/business-partner-agent/pull/772) Feature/populate my did
+[1076](https://github.com/hyperledger/besu-docs/pull/1076) Upgrade MkDocs Material theme
 
-[466](https://github.com/hyperledger/fabric-gateway/pull/466) Bump versions post-release
+[1075](https://github.com/hyperledger/besu-docs/pull/1075) Create dependabot.yml
 
-[465](https://github.com/hyperledger/fabric-gateway/pull/465) Javadoc links to gRPC API documentation
+[604](https://github.com/hyperledger/fabric-sdk-node/pull/604) Update jsrsasign dependency to address CVE-2022-25898 (release-1.4)
 
-[464](https://github.com/hyperledger/fabric-gateway/pull/464) Fix Java publishing
+[1849](https://github.com/hyperledger/aries-cloudagent-python/pull/1849) 0.7.4 Release Changelog and version update
 
-[463](https://github.com/hyperledger/fabric-gateway/pull/463) Release v1.1.0
+[2421](https://github.com/hyperledger/iroha/pull/2421) [fix] #2420: Fix "Permission already exists" bug
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4033" class=".btn">#4033</a>
+            </td>
+            <td>
+                <b>
+                    Move Taccat to Emeritus
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I propose moving Taccat from Active Maintainer to Emeritus Maintainer status, pursuant to the inactivity clause. Taccat has had no activity in the past 6 months, as identified by an automated report run by the Hyperledger Foundation:
+
+@taccatisid  - [last github action](https://github.com/ryjones/gal-besu/blob/main/reports/GAL-taccatisid.md) (a PR create) was 17 Dec 2021
+
+We very much appreciate their contributions but changing status to emeritus (and thus revoking PR approval privileges) is in the interest of an orderly project. If Taccat expresses in this PR that they intend to make contributions in the next quarter, then they will not be moved to emeritus status.
+
+I propose this vote be open until either an absolute majority of active maintainers (13) votes for the same outcome, or until two weeks has passed (14 July 2022), after which a voting majority will determine the outcome (with a tie resulting in no change).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-30 16:50:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4032" class=".btn">#4032</a>
+            </td>
+            <td>
+                <b>
+                    turns down logging output to debug
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span>
+            </td>
+            <td>
+                Signed-off-by: Justin Florentine <justin+github@florentine.us>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-30 14:22:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4031" class=".btn">#4031</a>
             </td>
             <td>
@@ -440,98 +498,6 @@ typo
     </table>
     <div class="right-align">
         Created At 2022-06-24 05:34:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4009" class=".btn">#4009</a>
-            </td>
-            <td>
-                <b>
-                    Support dropping rocksdb column families
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: garyschulte <garyschulte@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-unsafe feature which allows dropping of column families.
-
-Do not merge at present.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-23 15:41:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4008" class=".btn">#4008</a>
-            </td>
-            <td>
-                <b>
-                    try updater protection
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-23 13:39:19 +0000 UTC
     </div>
 </div>
 

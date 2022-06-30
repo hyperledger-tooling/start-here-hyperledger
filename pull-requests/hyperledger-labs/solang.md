@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/901" class=".btn">#901</a>
+            </td>
+            <td>
+                <b>
+                    Do not permit value transfers with external calls on Solana
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Solana does not offer a method of doing value/balance transfers with an external call/CPI.
+
+Mark this feature as unsupported and remove the code.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-30 13:33:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/900" class=".btn">#900</a>
             </td>
             <td>
