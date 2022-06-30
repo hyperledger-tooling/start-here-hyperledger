@@ -179,42 +179,28 @@ The biggest change in this PR is to move from a more implicit registration of se
 
 Instead of declarating a class with `@scoped(Lifecycle.ContainerScoped)` it now just needs `@injectable` (which is exported from the `src/plugins` directory. Then you can define a plugin to register modules and services. There's currently tow types of plugins, where a module plugin extends a default plugin.
 
-A normal plugin is declared like below, this doesn't expose a public API through a module. We already use this internally for some services without public api (e.g. the indy plugin that adds the `IndyIssuerService`, etc..)
+A module is declared like below:
 
 ```ts
-import { plugin } from '@aries-framework/core'
+import { module } from '@aries-framework/core'
 
-@plugin()
-class MyPlugin {
-  public static register(dependencyManager: DependencyManager) {
-    dependencyManager.registerSingleton(MyService)
-    dependencyManager.registerSingleton(MyRepository)
-  }
-}
-```
-
-The you have the module plugin which works the same but is declared directly on the module itself:
-
-```ts
-import { modulePlugin } from '@aries-framework/core'
-
-@modulePlugin()
+@module()
 class MyModule {
   public static register(dependencyManager: DependencyManager) {
+    dependencyManager.registerContextScoped(MyApi)
+
     dependencyManager.registerSingleton(MyService)
     dependencyManager.registerSingleton(MyRepository)
   }
 }
 ```
 
+For now all module classes declare the module itself, but as discussed previously the current module classes will be renamed to `xxxApi`, and a module will act as the combination off everything that module adds (so more than just the public api)
 
 It's not mean to be used publicly yet (and will have breaking changes), but you can then register the module on the dependency manager:
 
 ```ts
-dependencyManager.registerModulePlugins([MyModule])
-
-// or if no module
-dependencyManager.registerPlugins([MyPlugin])
+dependencyManager.registerModules(MyModule)
 ```
 
 This will make sure the services are registered and in case of the module plugin the module is also registered. The reason why we need this for multitenancy is that we're going to create child container for each tenant agent, that share most of the services from the base agent, but will have some differences. The `@scoped(Lifecycle.ContainerScoped)` won't do the job anymore. 

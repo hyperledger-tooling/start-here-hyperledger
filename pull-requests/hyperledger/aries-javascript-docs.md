@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/45" class=".btn">#45</a>
+            </td>
+            <td>
+                <b>
+                    feat(setup): snippified
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Fixes https://github.com/hyperledger/aries-framework-javascript/issues/912
+- Adds RN snippet
+Signed-off-by: Berend Sliedrecht <berend@animo.id>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-30 08:12:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/44" class=".btn">#44</a>
             </td>
             <td>

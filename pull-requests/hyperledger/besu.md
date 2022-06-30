@@ -535,34 +535,3 @@ Do not merge at present.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4006" class=".btn">#4006</a>
-            </td>
-            <td>
-                <b>
-                    Improve logging in NatService
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Improve logging in NatService to clarify what's happening. Increase log severity as it can cause peers to fail to connect when running in k8s.
-
-Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-23 07:54:41 +0000 UTC
-    </div>
-</div>
-
