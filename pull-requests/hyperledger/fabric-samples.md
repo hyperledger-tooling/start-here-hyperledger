@@ -55,7 +55,7 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
             </td>
             <td>
                 <b>
-                    WIP: Update Gateway samples for v1.1 release
+                    Update Gateway samples for v1.1 release
                 </b>
             </td>
         </tr>
@@ -64,7 +64,8 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
                 
             </td>
             <td>
-                <nil>
+                - Updated build to use Go 1.18 since Go 1.16 is no longer supported.
+- Use Java 11 in updated samples, and take advantage of new language features.
             </td>
         </tr>
     </table>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/600" class=".btn">#600</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/604" class=".btn">#604</a>
             </td>
             <td>
                 <b>
-                    test time taken
+                    Update jsrsasign dependency to address CVE-2022-25898 (release-1.4)
                 </b>
             </td>
         </tr>
@@ -27,12 +27,64 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-23 16:06:25 +0000 UTC
+        Created At 2022-06-30 17:16:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/603" class=".btn">#603</a>
+            </td>
+            <td>
+                <b>
+                    Update jsrsasign dependency to address CVE-2022-25898 (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-30 16:34:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/602" class=".btn">#602</a>
+            </td>
+            <td>
+                <b>
+                    Update jsrsasign dependency to address CVE-2022-25898
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-30 15:55:10 +0000 UTC
     </div>
 </div>
 

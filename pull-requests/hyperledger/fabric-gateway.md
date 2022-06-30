@@ -220,31 +220,3 @@ Signed-off-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/458" class=".btn">#458</a>
-            </td>
-            <td>
-                <b>
-                    Tidy-up Java dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Includes removing using of javax.json in scenario test code and standardising all JSON manipulation on Gson, which is used in the implementation code.
-    
-Also revert a change to the signature for the hash function to ensure compatibility.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-23 14:09:11 +0000 UTC
-    </div>
-</div>
-
