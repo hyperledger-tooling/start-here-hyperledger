@@ -15,38 +15,40 @@ permalink: /releases/hyperledger/fabric-gateway
         <tr>
             <td colspan="2">
                 <b>
-                    v1.0.1
+                    v1.1.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.0.1
+                    v1.1.0
                 </span>
             </td>
             <td>
-                This is a maintenance release containing bug fixes and dependency updates.
+                ## What's Changed
+* Block event listening (#377)
+* Event checkpointing to support resume with no loss or duplication of events (#362, #381)
+* Allow gRPC call options to be specified (#289)
+* Persistence of proposal, transaction and commit objects (#394)
+* Use new Fabric protobuf packages: https://hyperledger.github.io/fabric-protos/
+* Support for Go 1.18, Node 16 and Java 17 LTS releases
+* Go 1.16 no longer supported
 
-## Notable changes
-* Remove Go dependency on Fabric core protoutils by @bestbeforetoday in https://github.com/hyperledger/fabric-gateway/pull/371
-* Set correct channel name when getting named contract in Java client by @ppoffice in https://github.com/hyperledger/fabric-gateway/pull/379
-* Java 17 is tested and supported by @bestbeforetoday in https://github.com/hyperledger/fabric-gateway/pull/383
-* Node 16 is tested and supported by @bestbeforetoday in https://github.com/hyperledger/fabric-gateway/pull/384
+Note that Hyperledger Fabric v2.4.4 or later is required for full functionality.
 
+## New Contributors
+* @sapthasurendran made their first contribution in https://github.com/hyperledger/fabric-gateway/pull/398
 
-## New contributors
-* @ppoffice made their first contribution in https://github.com/hyperledger/fabric-gateway/pull/379
-
-**Full Changelog**: https://github.com/hyperledger/fabric-gateway/compare/v1.0.0...v1.0.1
+**Full Changelog**: https://github.com/hyperledger/fabric-gateway/compare/v1.0.1...v1.1.0
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-gateway/releases/tag/v1.0.1" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-gateway/releases/tag/v1.1.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-02-07 13:19:44 +0000 UTC
+        Created At 2022-06-30 11:02:21 +0000 UTC
     </span>
 </div>
 
