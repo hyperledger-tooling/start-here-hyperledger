@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1077" class=".btn">#1077</a>
+            </td>
+            <td>
+                <b>
+                    typo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+## Impacted parts
+
+<!-- Check the item from the following lists that your PR impacts. You can check multiple boxes. -->
+
+For content changes:
+
+- [x] Documentation content
+- [ ] Documentation page organization
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-06-30 22:56:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1076" class=".btn">#1076</a>
             </td>
             <td>

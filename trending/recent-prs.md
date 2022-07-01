@@ -1,13 +1,13 @@
 
-[1076](https://github.com/hyperledger/besu-docs/pull/1076) Upgrade MkDocs Material theme
+[1077](https://github.com/hyperledger/besu-docs/pull/1077) typo
 
-[1075](https://github.com/hyperledger/besu-docs/pull/1075) Create dependabot.yml
+[49](https://github.com/hyperledger/indy-sdk-react-native/pull/49) fix(android): maven plugin id
 
-[604](https://github.com/hyperledger/fabric-sdk-node/pull/604) Update jsrsasign dependency to address CVE-2022-25898 (release-1.4)
+[504](https://github.com/hyperledger/aries-vcx/pull/504) Release 0.37.0
 
-[1849](https://github.com/hyperledger/aries-cloudagent-python/pull/1849) 0.7.4 Release Changelog and version update
+[65](https://github.com/hyperledger/aries-mobile-test-harness/pull/65) Feature BC Wallet Connectionless & new Web Based Agent interfaces
 
-[2421](https://github.com/hyperledger/iroha/pull/2421) [fix] #2420: Fix "Permission already exists" bug
+[4035](https://github.com/hyperledger/besu/pull/4035) re-add a sync check before accepting/processing remote transactions
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
