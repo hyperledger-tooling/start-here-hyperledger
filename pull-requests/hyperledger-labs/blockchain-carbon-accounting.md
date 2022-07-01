@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/566" class=".btn">#566</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/568" class=".btn">#568</a>
             </td>
             <td>
                 <b>
-                    update documentation after refactoring
+                    Added documentation for Bevel
                 </b>
             </td>
         </tr>
@@ -32,7 +32,33 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-22 23:33:53 +0000 UTC
+        Created At 2022-07-01 16:30:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/567" class=".btn">#567</a>
+            </td>
+            <td>
+                <b>
+                    get code up to date
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-01 15:32:42 +0000 UTC
     </div>
 </div>
 

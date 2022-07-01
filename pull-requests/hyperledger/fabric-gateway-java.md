@@ -14,37 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/113" class=".btn">#113</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/116" class=".btn">#116</a>
             </td>
             <td>
                 <b>
-                    Remove scheduled vulnerability scan for Azure Pipelines build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Vulnerability scans are now driven by a scheduled GitHub Actions workflow in the main branch. See PR #111.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-15 17:26:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/111" class=".btn">#111</a>
-            </td>
-            <td>
-                <b>
-                    Use GitHub Actions for scheduled security vulnerability scan
+                    Ensure dependency-check report is stored if a vulnerability is detected
                 </b>
             </td>
         </tr>
@@ -58,7 +32,59 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-15 16:33:40 +0000 UTC
+        Created At 2022-07-01 15:32:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/115" class=".btn">#115</a>
+            </td>
+            <td>
+                <b>
+                    Suppress false positive for CVE-2022-33915 (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-01 15:28:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/114" class=".btn">#114</a>
+            </td>
+            <td>
+                <b>
+                    Suppress false positive for CVE-2022-33915
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-01 13:42:11 +0000 UTC
     </div>
 </div>
 
