@@ -15,29 +15,26 @@ permalink: /releases/hyperledger/indy-sdk-react-native
         <tr>
             <td colspan="2">
                 <b>
-                    Release 0.2.0
+                    Release 0.2.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.2.0
+                    0.2.1
                 </span>
             </td>
             <td>
-                * chore!: update indy SDK version to 1.16 for android (169d6e5)
-* chore(deps): bump plist from 3.0.4 to 3.0.5 (#41) (8b9c352)
-* chore(deps): bump async from 2.6.3 to 2.6.4 (#40) (5d4696f)
-* chore: update indy framework source link (#39) (5e93529)
+                * fix(android): maven plugin id (#49) (bfc645b)
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/indy-sdk-react-native/releases/tag/0.2.0" class=".btn">
+    <a href="https://github.com/hyperledger/indy-sdk-react-native/releases/tag/0.2.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-05-07 08:07:01 +0000 UTC
+        Created At 2022-07-01 12:13:30 +0000 UTC
     </span>
 </div>
 
