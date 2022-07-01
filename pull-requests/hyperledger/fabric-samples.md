@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/782" class=".btn">#782</a>
+            </td>
+            <td>
+                <b>
+                    Fix asset-transfer-events sample Java chaincode
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - chaincode-java Gradle project name did not match the instructions or the chaincode name used by the sample application code.
+- Added test of Java chaincode to CI pipeline.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-01 10:47:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/781" class=".btn">#781</a>
             </td>
             <td>
