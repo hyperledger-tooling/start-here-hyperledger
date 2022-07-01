@@ -66,32 +66,3 @@ Signed-off-by: Ry Jones <ry@linux.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/459" class=".btn">#459</a>
-            </td>
-            <td>
-                <b>
-                    Refine the setup doc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add detailed instructions to the setup doc, add troubleshoot section for the 
-potential problems and solutions.
-
-Signed-off-by: xichen1 <xichen.pan@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-24 02:21:19 +0000 UTC
-    </div>
-</div>
-

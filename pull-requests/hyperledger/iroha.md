@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2423" class=".btn">#2423</a>
+            </td>
+            <td>
+                <b>
+                    [release]: 2.0.0-pre-rc.6-lts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ### Long-term supported release 
+
+checklist: 
+- [ ] all CI checks pass
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-01 06:18:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2421" class=".btn">#2421</a>
             </td>
             <td>
