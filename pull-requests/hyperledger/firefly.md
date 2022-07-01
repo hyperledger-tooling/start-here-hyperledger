@@ -152,34 +152,3 @@ Unanswered question: how does ff_system "go away" cleanly when migrating to a V2
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/878" class=".btn">#878</a>
-            </td>
-            <td>
-                <b>
-                    Enable non-multiparty namespaces
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">migration_consideration</span>
-            </td>
-            <td>
-                Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12).
-
-* Selectively disable managers and routes depending on the features available in a given namespace.
-* Move methods that create definitions into the `definitions` package (so it now has the definition "senders" alongside the definition "handlers"). When multiparty is disabled, the senders call directly to the matched handlers without an intermediate broadcast message.
-
-Potential migration-breaking change: the deprecated `dataexchange.type` key no longer has a default of `ffdx`. Older config files that omitted this key will fail to parse. See #882.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-23 18:34:55 +0000 UTC
-    </div>
-</div>
-

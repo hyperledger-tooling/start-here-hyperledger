@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-sdk-react-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk-react-native/pull/47" class=".btn">#47</a>
+                PR <a href="https://github.com/hyperledger/indy-sdk-react-native/pull/49" class=".btn">#49</a>
             </td>
             <td>
                 <b>
-                    Changed example demo project
+                    fix(android): maven plugin id
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-sdk-react-native
                 
             </td>
             <td>
-                Example demo project was not able to run openPoolLedger function, the example provided does support this function.
+                Fixes #48 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-17 09:37:05 +0000 UTC
+        Created At 2022-06-30 22:18:15 +0000 UTC
     </div>
 </div>
 

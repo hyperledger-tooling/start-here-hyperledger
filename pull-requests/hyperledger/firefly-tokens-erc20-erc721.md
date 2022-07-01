@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/61" class=".btn">#61</a>
-            </td>
-            <td>
-                <b>
-                    update connector to support custom URI's
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-candidate</span>
-            </td>
-            <td>
-                in a chain with https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/60
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-23 21:19:15 +0000 UTC
-    </div>
-</div>
-

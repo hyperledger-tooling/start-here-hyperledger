@@ -394,35 +394,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/776" class=".btn">#776</a>
-            </td>
-            <td>
-                <b>
-                    Fix test-network-k8s docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This patch fixes errors in the document.
-Fix errors as follows:
-
-- Change shell script arguments
-- Correct display results
-
-Signed-off-by: Satoshi Ito <satoshi.ito.tf@hitachi.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-24 01:26:13 +0000 UTC
-    </div>
-</div>
-

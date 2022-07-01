@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/60" class=".btn">#60</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/65" class=".btn">#65</a>
             </td>
             <td>
                 <b>
-                    more revocation tests added
+                    Feature BC Wallet Connectionless & new Web Based Agent interfaces
                 </b>
             </td>
         </tr>
@@ -27,42 +27,14 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
                 
             </td>
             <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+                This PR includes a BC wallet Connectionless test scenario that works with the CANdy Unverified Persons Issuer and the Pan Canadian Chat for verification.
 
-3 new BC wallet revocation test scenarios. 
+In doing this, we now have examples of web based Issuer and Verifier agent interfaces. These interfaces use Selenium to drive the web based agents. This pattern can be followed by others needing a web based interfaces to their agents. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-03 20:58:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/59" class=".btn">#59</a>
-            </td>
-            <td>
-                <b>
-                    working revocation test for BC Wallet
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-Working Revocation test for BC Wallet along with support for revocation in the AATH Issuer Interface.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-02 23:18:59 +0000 UTC
+        Created At 2022-06-30 20:46:19 +0000 UTC
     </div>
 </div>
 
