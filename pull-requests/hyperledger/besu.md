@@ -14,6 +14,190 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4041" class=".btn">#4041</a>
+            </td>
+            <td>
+                <b>
+                    Fix candidate for bonsai state root mismatch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+The problem comes from concurrent access to Bonsai's storageToUpdate map. These concurrent accesses can lead to the overwriting of certain data in this map and impact the behavior when importing a block
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-01 16:49:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4040" class=".btn">#4040</a>
+            </td>
+            <td>
+                <b>
+                    checkpoint sync retry download block when we did not get receipts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Fixes a mostly benign error during checkpoint sync which causes the pipeline to pause and restart upon failure to import blocks.  If during the CheckpointDownloadBlockStep we fail to get receipts for the block we are importing, CheckpointBlockImportStep will throw an NPE when attempting to save receipts.
+
+```
+2022-07-01 15:14:59.361+00:00 | EthScheduler-Services-29 (importBlock) | ERROR | PipelineChainDownloader | Chain download failed. Restarting after short delay.
+java.util.concurrent.CompletionException: java.lang.NullPointerException
+...
+Caused by: java.lang.NullPointerException
+        at org.hyperledger.besu.ethereum.rlp.RLPOutput.writeList(RLPOutput.java:245)
+        at org.hyperledger.besu.ethereum.storage.keyvalue.KeyValueStoragePrefixedKeyBlockchainStorage$Updater.lambda$rlpEncode$2(KeyValueStoragePrefixedKeyBlockchainStorage.java:230)
+        at org.hyperledger.besu.ethereum.rlp.RLP.encode(RLP.java:85)
+        at org.hyperledger.besu.ethereum.storage.keyvalue.KeyValueStoragePrefixedKeyBlockchainStorage$Updater.rlpEncode(KeyValueStoragePrefixedKeyBlockchainStorage.java:230)
+        at org.hyperledger.besu.ethereum.storage.keyvalue.KeyValueStoragePrefixedKeyBlockchainStorage$Updater.putTransactionReceipts(KeyValueStoragePrefixedKeyBlockchainStorage.java:166)
+        at org.hyperledger.besu.ethereum.chain.DefaultBlockchain.unsafeImportBlock(DefaultBlockchain.java:355)
+        at org.hyperledger.besu.ethereum.eth.sync.checkpointsync.CheckpointBlockImportStep.lambda$accept$0(CheckpointBlockImportStep.java:43)
+        at java.base/java.util.Optional.ifPresent(Optional.java:183)
+        at org.hyperledger.besu.ethereum.eth.sync.checkpointsync.CheckpointBlockImportStep.accept(CheckpointBlockImportStep.java:41)
+        at org.hyperledger.besu.ethereum.eth.sync.checkpointsync.CheckpointBlockImportStep.accept(CheckpointBlockImportStep.java:24)
+        at org.hyperledger.besu.services.pipeline.CompleterStage.run(CompleterStage.java:37)
+        at org.hyperledger.besu.services.pipeline.Pipeline.lambda$runWithErrorHandling$3(Pipeline.java:152)
+        ... 5 more
+
+```
+
+This pr will cause the pipeline to retry the block download step if we were unable to get the receipts for the block.
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-01 16:15:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4039" class=".btn">#4039</a>
+            </td>
+            <td>
+                <b>
+                    jwt auth on websockets
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes #3990 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-01 13:51:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4038" class=".btn">#4038</a>
+            </td>
+            <td>
+                <b>
+                    Enable rocksDb metrics
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Enable RocksDB metrics to evaluate the overhead. 
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+#3369
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-01 13:48:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4037" class=".btn">#4037</a>
             </td>
             <td>
@@ -523,61 +707,6 @@ Fixes #3884
     </table>
     <div class="right-align">
         Created At 2022-06-27 01:16:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4013" class=".btn">#4013</a>
-            </td>
-            <td>
-                <b>
-                    When on PoS the head can be only be updated by ForkchoiceUpdate
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-When executing a newPayload or build a new block, we do not need to move
-the chain head and update the world state, since this will be done by a
-following forkchoice update call, but we still need to validate the block
-and doing so we can also prepare everything for the future call, so we do
-not need to re-execute everything, but only update the pointers, so that the
-response to the forkchoice update call is quick.
-
-Moreover on block proposal do only a validation of the block without storing or remembering nothing, to avoid saving data that could be stale, for example the empty block that is always proposed, is useless if another better block is produced later.
-
-Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-fixes #3957
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-24 15:02:00 +0000 UTC
     </div>
 </div>
 

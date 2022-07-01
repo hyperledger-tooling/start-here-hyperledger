@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/19" class=".btn">#19</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/21" class=".btn">#21</a>
             </td>
             <td>
                 <b>
-                    Suggested updates to the sample network readme
+                    prometheus operator support
                 </b>
             </td>
         </tr>
@@ -27,18 +27,21 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                Therese are some suggested updates to make the overall 'flow' of the
-readme.md better.  So it easier for Fred/Fiona to follow along.
+                - [x] add define in peer and orderer for metric provider
+- [ ] add unit test case for core_metric_provider logic
+- [ ] add unit test case for service monitor
+- [ ] add CI test case with prometheus operator
 
-Also added a way of 'cheating'  if you been through the tutorial before, then just a quick recap
-of the commands is useful
+additional founding
+1.  doc update
 
-Signed-off-by: mbw <matthew@mh-white.com>
+
+Signed-off-by: Sam Yuan <yy19902439@126.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-24 12:26:29 +0000 UTC
+        Created At 2022-07-01 14:12:14 +0000 UTC
     </div>
 </div>
 

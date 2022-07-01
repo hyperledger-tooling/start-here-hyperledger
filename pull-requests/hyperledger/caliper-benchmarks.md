@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/212" class=".btn">#212</a>
+            </td>
+            <td>
+                <b>
+                    Remove type: local from the various benchmark files
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #194 
+
+Signed-off-by: fraVlaca <ocsenarf@outlook.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-01 14:43:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/210" class=".btn">#210</a>
             </td>
             <td>
@@ -31,6 +59,7 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
 - created new benchmark for readwrite composte tx.and added itto test.yaml
 - added readwrite tx to node fixed asset and fixed-asset-base chaincodes
 
+Closes #201 
 Signed-off-by: fraVlaca <ocsenarf@outlook.com>
             </td>
         </tr>
