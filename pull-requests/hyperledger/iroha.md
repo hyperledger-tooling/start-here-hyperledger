@@ -14,6 +14,93 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2427" class=".btn">#2427</a>
+            </td>
+            <td>
+                <b>
+                    [ci] #2309: Re-enable doc tests in CI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Description of the Change
+- b92a5858 Add doc tests to `tests_with_coverage` job
+- f956b134, 4320aecd Fix doc tests
+- 8bb2a4a8 Add steps to test with `--no-default-features` to distinct std/no_std
+
+### Issue
+- Closes #2309
+
+### Benefits
+CI can test
+- examples in the documentation, which have not been tested since #2223
+- codebase with no default features, which has not been tested before
+### Possible Drawbacks
+CI time
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-01 09:20:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2424" class=".btn">#2424</a>
+            </td>
+            <td>
+                <b>
+                    [ci]: Fix docker build
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Aleksandr Petrosyan <a-p-petrosyan@yandex.ru><!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+- Remove cargo chef
+- Add workflow for LTS release
+- Add `cargo deny` configuration
+
+### Issue
+
+Closes #2345 
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-01 06:30:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2423" class=".btn">#2423</a>
             </td>
             <td>

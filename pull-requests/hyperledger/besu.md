@@ -14,6 +14,57 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4037" class=".btn">#4037</a>
+            </td>
+            <td>
+                <b>
+                    Enforce RocksDB to respect block cache size
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Enforce RocksDB to respect Block cache size, knowing that we can modify this block cache size with --Xplugin-rocksdb-cache-capacity.
+
+We can read from [RocksDB Documentation](https://github.com/facebook/rocksdb/wiki/Block-Cache) that :
+> strict_capacity_limit: In rare case, block cache size can go larger than its capacity. This is when ongoing reads or iterations over DB pin blocks in block cache, and the total size of pinned blocks exceeds the capacity. If there are further reads which try to insert blocks into block cache, if strict_capacity_limit=false(default), the cache will fail to respect its capacity limit and allow the insertion. This can create undesired OOM error that crashes the DB if the host don't have enough memory. Setting the option to true will reject further insertion to the cache and fail the read or iteration. The option works on per-shard basis, means it is possible one shard is rejecting insert when it is full, while another shard still have extra unpinned 
+
+
+
+Signed-off-by: Ameziane H <ameziane.hamlat@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-01 09:23:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4035" class=".btn">#4035</a>
             </td>
             <td>
@@ -527,34 +578,6 @@ fixes #3957
     </table>
     <div class="right-align">
         Created At 2022-06-24 15:02:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4011" class=".btn">#4011</a>
-            </td>
-            <td>
-                <b>
-                    Update reference tests to the latest version and include test for gray glacier
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span><span class="chip">mainnet</span>
-            </td>
-            <td>
-                The reference tests for Gray Glacier are included to ensure that our implementation is correct.
-
-Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-24 11:45:25 +0000 UTC
     </div>
 </div>
 

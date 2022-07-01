@@ -53,7 +53,7 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                <nil>
+                Possibility to lift several peers for test via `@WithIroha.amount` param
             </td>
         </tr>
     </table>

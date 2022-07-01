@@ -213,34 +213,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/893" class=".btn">#893</a>
-            </td>
-            <td>
-                <b>
-                    Ensure that codegen is correct for push/pop in if statements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                A push or pop may result in a realloc, so we need a phi node for the
-array variable.
-
-See https://discord.com/channels/905194001349627914/905834552965103638/989739679320535050
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-24 12:01:06 +0000 UTC
-    </div>
-</div>
-

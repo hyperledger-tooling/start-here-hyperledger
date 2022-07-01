@@ -214,32 +214,3 @@ I've exported some of the tsyringe methods and wrote a simple DependencyManager 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/906" class=".btn">#906</a>
-            </td>
-            <td>
-                <b>
-                    feat(credentials): added credential sendProblemReport method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Pavel Zarecky <zarecky@procivis.ch>
-
-Adding a convenience method to send problem report as part of RFC's 0036 and 0453 unhappy flow.
-It is a complementary implementation to the `agent.proofs.sendProblemReport`. But for credentials it was still missing.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-24 12:21:39 +0000 UTC
-    </div>
-</div>
-

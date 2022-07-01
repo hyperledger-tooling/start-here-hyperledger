@@ -366,34 +366,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2098" class=".btn">#2098</a>
-            </td>
-            <td>
-                <b>
-                    fix: part 2 of lint warnings resolved for batch 7/26 #1356 : Commit to be reviewed
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Solved remaining lint warnings issue:  style: 2021-09-20 linter warnings batch 7 / 26 #1356
-Part one of the solution submitted in #2087
-Changes made:
-- Fixed lint warnings associated with  non-any type in getAllMethodNames and getAllFieldNames
-- Fixes lint errors associated with unexpected any for private-public keypairs
-Signed-off-by: Akanksha Dixit <akanksha.dixit12@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-24 11:10:33 +0000 UTC
-    </div>
-</div>
-

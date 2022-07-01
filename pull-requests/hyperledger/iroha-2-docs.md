@@ -14,25 +14,27 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/74" class=".btn">#74</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/75" class=".btn">#75</a>
             </td>
             <td>
                 <b>
-                    [docs]: update version note in js guide
+                    Add FindTriggersByDomainId query
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">documentation</span><span class="chip">iroha2</span>
             </td>
             <td>
-                Signed-off-by: 0x009922 <a.marcius26@gmail.com>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+
+To be merged after https://github.com/hyperledger/iroha/pull/2418
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-23 07:56:45 +0000 UTC
+        Created At 2022-07-01 08:29:26 +0000 UTC
     </div>
 </div>
 
