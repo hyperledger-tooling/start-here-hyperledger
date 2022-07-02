@@ -1,5 +1,5 @@
 
-[240](https://github.com/hyperledger-labs/fabric-operations-console/pull/240) fix join channel - channel participation
+[241](https://github.com/hyperledger-labs/fabric-operations-console/pull/241) remove the identity drop down in the join flow
 
 [4042](https://github.com/hyperledger/besu/pull/4042) Hive engine suite conformance: Invalid Timestamp, Invalid Transition Payload
 

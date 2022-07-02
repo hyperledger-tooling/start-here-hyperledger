@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/240" class=".btn">#240</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/241" class=".btn">#241</a>
             </td>
             <td>
                 <b>
-                    fix join channel - channel participation
+                    remove the identity drop down in the join flow
                 </b>
             </td>
         </tr>
@@ -27,20 +27,25 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
                 
             </td>
             <td>
-                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
 
 - Bug fix
-Fix channel join issue without system channel
 
 #### Description
-Current code is not using the TLS certs for join APIs. Update the join code to use TLS cert
+
+- chooses the correct identity for the join osn flow, uses the same logic as the get-config-block code
+- removes the drop down to select an identity for the join osn flow
 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-01 23:32:48 +0000 UTC
+        Created At 2022-07-02 01:43:58 +0000 UTC
     </div>
 </div>
 
