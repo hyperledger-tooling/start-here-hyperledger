@@ -1,13 +1,13 @@
 
-[4041](https://github.com/hyperledger/besu/pull/4041) Fix candidate for bonsai state root mismatch
+[240](https://github.com/hyperledger-labs/fabric-operations-console/pull/240) fix join channel - channel participation
 
-[568](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/568) Added documentation for Bevel
+[4042](https://github.com/hyperledger/besu/pull/4042) Hive engine suite conformance: Invalid Timestamp, Invalid Transition Payload
 
-[4040](https://github.com/hyperledger/besu/pull/4040) checkpoint sync retry download block when we did not get receipts
+[187](https://github.com/hyperledger/sawtooth-sabre/pull/187) Replace hyper with reqwest
 
-[2428](https://github.com/hyperledger/iroha/pull/2428) [feature] #2228: Add Unauthorized variant to smartcontracts query error
+[186](https://github.com/hyperledger/sawtooth-sabre/pull/186) Fix linting from 1.62
 
-[567](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/567) get code up to date
+[3505](https://github.com/hyperledger/fabric/pull/3505) Release commit for v2.4.5
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

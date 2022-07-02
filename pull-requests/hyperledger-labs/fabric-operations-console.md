@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/240" class=".btn">#240</a>
+            </td>
+            <td>
+                <b>
+                    fix join channel - channel participation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
+
+- Bug fix
+Fix channel join issue without system channel
+
+#### Description
+Current code is not using the TLS certs for join APIs. Update the join code to use TLS cert
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-01 23:32:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/239" class=".btn">#239</a>
+            </td>
+            <td>
+                <b>
+                    Fix orderer node join to channel
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+- Fixes the join orderer to a channel panel when the orderer does not have a system channel.
+- Removed the join orderer to a channel code from the create wizard. the join-osn modal is now used instead.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-01 19:43:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/238" class=".btn">#238</a>
             </td>
             <td>
@@ -364,43 +434,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2022-06-25 07:25:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/236" class=".btn">#236</a>
-            </td>
-            <td>
-                <b>
-                    warn about consenter issues when removing a systemless OSN
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- New feature
-
-#### Description
-- when removing an ordering node that is not using a system channel, warn if its a consenter and prevent the delete unless the user overrides it.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-24 21:42:02 +0000 UTC
     </div>
 </div>
 
