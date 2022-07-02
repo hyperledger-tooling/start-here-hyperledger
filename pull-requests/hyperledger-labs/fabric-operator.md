@@ -56,9 +56,8 @@ Signed-off-by: Sam Yuan <yy19902439@126.com>
             </td>
             <td>
                 scope for integration fabric-operator with prometheus operator.
-- [ ] add define in peer and orderer for metric provider as prometheus
-- [ ] add logic to handle prometheus metric provider in configoverride
-- [ ] add unit test case for prometheus metric provider in configoverride
+- [x] add unit test case for prometheus metric provider in configoverride
+- [ ] add define in peer and orderer as prometheus operator
 - [ ] add unit test case for core_metric_provider logic
 - [ ] add unit test case for service monitor
 - [ ] add CI test case with prometheus operator
