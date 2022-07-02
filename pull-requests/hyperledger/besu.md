@@ -84,7 +84,7 @@ Addresses failures of hive engine test suite "Invalid Timestamp" and "Invalid Tr
 
 ## PR description
 
-The problem comes from concurrent access to Bonsai's storageToUpdate map. These concurrent accesses can lead to the overwriting of certain data in this map and impact the behavior when importing a block
+The problem comes from concurrent access to Bonsai's storageToUpdate map. These concurrent accesses can lead to the overwriting of certain data or just missing in this map and impact the behavior when importing a block
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->

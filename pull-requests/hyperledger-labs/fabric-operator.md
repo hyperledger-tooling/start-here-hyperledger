@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/22" class=".btn">#22</a>
+            </td>
+            <td>
+                <b>
+                    upgrade test cases to ginkgo v2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                upgrade test cases to ginkgo v2
+
+Signed-off-by: Sam Yuan <yy19902439@126.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-02 11:09:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/21" class=".btn">#21</a>
             </td>
             <td>
@@ -27,13 +55,17 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                - [x] add define in peer and orderer for metric provider
+                scope for integration fabric-operator with prometheus operator.
+- [ ] add define in peer and orderer for metric provider as prometheus
+- [ ] add logic to handle prometheus metric provider in configoverride
+- [ ] add unit test case for prometheus metric provider in configoverride
 - [ ] add unit test case for core_metric_provider logic
 - [ ] add unit test case for service monitor
 - [ ] add CI test case with prometheus operator
 
 additional founding
 1.  doc update
+2. ginkgo update in #22 
 
 
 Signed-off-by: Sam Yuan <yy19902439@126.com>
