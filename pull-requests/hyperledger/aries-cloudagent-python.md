@@ -172,35 +172,3 @@ Signed-off-by: Ry Jones <ry@linux.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1844" class=".btn">#1844</a>
-            </td>
-            <td>
-                <b>
-                    Fix a typo in DevReadMe.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                There is a typo in the example command to run the project using the docker container.
-
-```
-PORTS="5000:5000 8000:8000 1000:1000" ./scripts/run_docker start --inbound-transport http 0.0.0.0 10000 --outbound-transport http --debug --log-level DEBUG
-```
-
-It opens the port 1,000 for access instead of 10,000 which is specified as "inbound-transport". As a result, the agent wouldn't be accessible. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-25 18:12:05 +0000 UTC
-    </div>
-</div>
-
