@@ -15,35 +15,27 @@ permalink: /releases/hyperledger/fabric
         <tr>
             <td colspan="2">
                 <b>
-                    v2.4.4
+                    v2.4.5
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.4.4
+                    v2.4.5
                 </span>
             </td>
             <td>
-                v2.4.4 Release Notes - June 17, 2022
-====================================
+                v2.4.5 Release Notes - July 1, 2022
+===================================
 
-Improvements
-------------
+Fixes
+-----
 
-**peer - Add a "gateway.responsechecker" logger for logging endorsement response differences**
+**orderer - Handle malformed consensus request**
 
-To assist with troubleshooting when endorsement responses are different across multiple peers, the new "gateway.responsechecker" logger will log warnings indicating which parts of endorsement responses are different.
-
-**peer - Enable gateway service to invoke system chaincodes**
-
-The gateway service can now invoke system chaincodes such as QSCC when requested by a client application.
-
-**peer - Enable resume of chaincode event listening**
-
-Enables the client to (optionally) specify an AfterTransactionId property in addition to a start block number when requesting chaincode events, which causes chaincode events up to that transaction ID (inclusive) to be ignored and not returned to the client.
-This supports resume of chaincode event listening on client reconnect without duplicating or missing any events.
+If a consensus client sends a malformed consensus request to an orderer it may crash the orderer node.
+This fix checks for the malformed consensus request and returns an error to the consensus client.
 
 
 Dependencies
@@ -140,44 +132,18 @@ for chaincodes. For more details see the
 
 ## Changes:
 
-* 1473ecae6451d82a068aa943f8df8cf1a7ce4864 Release commit for v2.4.4 (#3487)
-* 6f4282b8149997129933bc2b967cd47fe758d270 Fix gossip unit test flake (#3215)
-* a914ec3d6e4be1a8991439e3e782f79ba7f904b5 Bump Alpine to 3.16 (release-2.4) (#3472)
-* 8ffd334ec5ec37228c26eae4881b317ef71d6a13 Locate correct block number for transaction ID in ChaincodeEvents (#3289)
-* f64eea25dc877cd13d87a81fb3ee6932c85db3fa Refactor of ChaincodeEvents service implementation to support resume (#3283)
-* 02d63c3bc1050758e6a50f0e8b7d57a3ff8e7466 Add -buildvcs=false for building binaries
-* 60638b5432f2c49a19de1e0e0cd25ab9bbc8c856 Improved gateway error for transient data failure [ #3328 ]
-* a6947faae11a9fffb9bc8b2ffe5666dbd01b200f Use any peer to evaluate system chaincode transactions (#3447)
-* 135c268e984bec95940c0aa0629fc5c2c0e30a12 Improve response mismatch logging
-* 29fea4f17c0c160656933690532d5faaa4335a8f Log proposal response differences (backport #3420)
-<details><summary><b>See More</b></summary>
+* 7e2a6b9ec3347731c80ab09f2ade0dd844f90ed8 Release commit for v2.4.5 (#3505)
+* 0f18359493bcbd5f9f9d1a9b05adabfe5da23b06 Check if inner consensus message is missing
 
-* 4c6ef91ddd217d17a709d2002298d35487be4e8d Bump CouchDB to 3.2.2 (#3369)
-* c8f83e45eaecec340af5958f801ead51950f921d caas review comments
-* 3c2c2f8d0ccaaa79bc4044d72bc1741ce0899e0e no mdash char supported
-* 24e6f347c9de847fec232b80a480807cc4c9789f new caas page
-* 6588ed27b679d1395e176a8844f64f5f74fa5ec9 Bump Go to 1.18.2 (#3423)
-* e5ad0ef6db94c98a5b5181409a8a8b380f87b519 Update chaincode language parameter name
-* ffbd37bf9c3a41a902f21e22f65bf63e85ad2aef Fix hyperlink
-* 566a1a652e0ddde1eb60d68041c08add21450ab9 Fix warning log printing
-* ae316aabbea95d6c323059a548f1b0cfc743e254 Properly handle concurrent building of chaincode packages
-* 37cca191fa59e02cdb982b61114d3f6eabf1e59a Update cc_service.md (#3355) (#3366)
-* 1c97ab14491756513250dc1d457f4f5683ba35f5 Node 16 and v1.4 libraries (#3357)
-* f6e83361c5a5bf8a075f30809ec857dac05893b8 certs mgmt guide (#3307)
-* f614fb5babe50fcc567211e3e35a7b00cf0225c6 Additional TLS troubleshooting information (#3346)
-* 1fb499abdcb80a6670b966e2f990fedceb7e6965 Handle empty policies when traversing the policy tree in discovery policy analysis (#3335)
-* 0396bf928709a434e4941ceccab497a5656fdb0e Ignore channel double creation during replication. [ #2931 ]
-* 458345aaf4341695439f674dcd11d622f0995b19 Add in the CCAAS builders to the tgz package
-
-This list of changes was [auto generated](https://dev.azure.com/Hyperledger/Fabric/_build/results?buildId=53819&view=logs).</details>
+This list of changes was [auto generated](https://dev.azure.com/Hyperledger/Fabric/_build/results?buildId=54410&view=logs).
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric/releases/tag/v2.4.4" class=".btn">
+    <a href="https://github.com/hyperledger/fabric/releases/tag/v2.4.5" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-06-17 14:19:47 +0000 UTC
+        Created At 2022-07-01 20:51:57 +0000 UTC
     </span>
 </div>
 
@@ -186,31 +152,32 @@ This list of changes was [auto generated](https://dev.azure.com/Hyperledger/Fabr
         <tr>
             <td colspan="2">
                 <b>
-                    v2.2.6
+                    v2.2.7
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.2.6
+                    v2.2.7
                 </span>
             </td>
             <td>
-                v2.2.6 Release Notes - June 17, 2022
+                v2.2.7 Release Notes - July 1, 2022
 ====================================
 
 Fixes
 -----
 
-**peer and orderer - Handle TLS CA certificate expiry**
+**orderer - Handle malformed consensus request**
 
-When any TLS CA certificate configured on a channel expired, peer and orderer nodes fail to start due to MSP initialization error "setting up the MSP manager failed: CA Certificate is not valid: certificate has expired or is not yet valid". MSP initialization now ignores TLS CA certificate expiration so that the peer or orderer can start up and receive channel configuration updates with renewed TLS CA certificates.
+If a consensus client sends a malformed consensus request to an orderer it may crash the orderer node.
+This fix checks for the malformed consensus request and returns an error to the consensus client.
 
 
 Dependencies
 ------------
-Fabric v2.2.6 has been tested with the following dependencies:
+Fabric v2.2.7 has been tested with the following dependencies:
 * Go 1.18.2
 * CouchDB v3.2.2
 
@@ -294,6 +261,8 @@ for chaincodes. For more details see the
 
 ## Changes:
 
+* 7f22e997ee4b7a02f301f28250207fed1d977555 Release commit for v2.2.7 (#3504)
+* 80bcc1896d0c324a4cdef61a391b4e320734903d Check if inner consensus message is missing
 * e7dc57d84d66f3288391bb436a247dbf977f970c Release commit for v2.2.6 (#3488)
 * 862ab4d82c1ef0206aa7593c52776e393b001372 Add logging for identity, policy, and signature troubleshooting (release-2.2) (#3483) [ #3006 ]
 * b7aaeb8591d1d3ffc6865413628f7b9122176138 Fix gossip unit test flake (#3215)
@@ -302,10 +271,10 @@ for chaincodes. For more details see the
 * b24f2c0b0fc4b106990030f2df9ba64a3aa8f46b Add -buildvcs=false for building binaries
 * dd3e96ef6b3d887ba209f4552ba770aa8dbb9979 Update 'Using Private Data in Fabric' tutorial (Backport #1875)
 * 61561ddb6b769a13d90ae2bd30871a2238b6a94b bump Go to 1.18.2 (release-2.2)
-* b17d01a723e8647f0ae29dd7c3424e2992c55736 bump golang.org/x/crypto and golang.org/x/tools (release-2.2) (#3436)
-* 21e522bf0c6c493b0e0502ebbca89c3102cadf49 bump go-dockerclient (release-2.2) (#3435) [ #2338 ]
 <details><summary><b>See More</b></summary>
 
+* b17d01a723e8647f0ae29dd7c3424e2992c55736 bump golang.org/x/crypto and golang.org/x/tools (release-2.2) (#3436)
+* 21e522bf0c6c493b0e0502ebbca89c3102cadf49 bump go-dockerclient (release-2.2) (#3435) [ #2338 ]
 * df783d63e2a9b45cd1820d9ed44b4b1e17922b27 Remove duplicated line
 * eabe68b19517d5cddd3a3820a4c318e00495aa44 Fix some errors in the tutorial
 * 4f618907fd509b94a1aeeaee1558856d3fb9c292 Bump CouchDB to 3.2.2 (release-2.2)
@@ -544,18 +513,16 @@ for chaincodes. For more details see the
 * c4e310d7f31ba771b22807014dd76cbf347b5708 Remove Use of Manifest Tool
 * 5f16da833f2fcb1d3061896e378fe2815bf9e51e Update RTD to Target Correct GH Release Branch
 * 6491f6a3c92f69690c6320bf74c83a7632744172 Fix and improve discovery TLS authentication comments in document
-* 50aea5e3468b6675ff3c09c4298c1680774ecfe1 Update doc to reflect change in FAB-18163 (#1729)
-* 25a5c4011aa7a20708af9b299681a4c528741712 FAB-18163 TLS Timeshift w/o Separate Cluster Port (#1724) (#1725)
 
-This list of changes was [auto generated](https://dev.azure.com/Hyperledger/Fabric/_build/results?buildId=53824&view=logs).</details>
+This list of changes was [auto generated](https://dev.azure.com/Hyperledger/Fabric/_build/results?buildId=54411&view=logs).</details>
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric/releases/tag/v2.2.6" class=".btn">
+    <a href="https://github.com/hyperledger/fabric/releases/tag/v2.2.7" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-06-17 14:31:24 +0000 UTC
+        Created At 2022-07-01 20:52:52 +0000 UTC
     </span>
 </div>
 

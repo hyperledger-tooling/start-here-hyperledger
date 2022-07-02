@@ -41,34 +41,3 @@ permalink: /releases/hyperledger-labs/hlf-operator
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    Version 1.7.0-beta4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v1.7.0-beta4
-                </span>
-            </td>
-            <td>
-                ## Changelog
-* c45a75e Fix error when inspect
-
-
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger-labs/hlf-operator/releases/tag/v1.7.0-beta4" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-06-24 21:41:42 +0000 UTC
-    </span>
-</div>
-
