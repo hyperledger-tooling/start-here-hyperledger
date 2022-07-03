@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/orion-server
             </td>
             <td>
                 <b>
-                    Destroys cluster environment when a test fails and avoid locking forever when waiting for a server after killing it
+                    Destroys cluster environment when a test fails
                 </b>
             </td>
         </tr>
@@ -32,8 +32,6 @@ permalink: /pull-requests/hyperledger-labs/orion-server
 This commit adds a `destroyClusterEnv()` method that closes all the nodes that were started and removes the environment directory.
 Each test, calls `defer destroyClusterEnv(t, env)` right after the environment is created to make sure it will be destroyed
 even in the case of test failure.
-
-It also adds timeout when waiting for a server in `(s *Server) shutdown()`.
 
 Signed-off-by: Liran Funaro <liran.funaro@gmail.com>
             </td>

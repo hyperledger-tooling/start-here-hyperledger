@@ -97,33 +97,3 @@ Signed-off-by: Attila Klenik <a.klenik@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1390" class=".btn">#1390</a>
-            </td>
-            <td>
-                <b>
-                    Pass secrets to CI workflow for publish
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In this PR:
-* Secrets are passed on from the parent workflow to the publish workflow as described in the GitHub Actions documentation
-
-Fixes #1389
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-26 11:16:07 +0000 UTC
-    </div>
-</div>
-
