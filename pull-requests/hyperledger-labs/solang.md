@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/904" class=".btn">#904</a>
+            </td>
+            <td>
+                <b>
+                    Bump solang-parser version for publish
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Foundry's forge-fmt needs a new solang-parser release.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-03 14:02:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/902" class=".btn">#902</a>
             </td>
             <td>

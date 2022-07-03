@@ -74,30 +74,3 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/779" class=".btn">#779</a>
-            </td>
-            <td>
-                <b>
-                    Update Gateway samples for v1.1 release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Updated build to use Go 1.18 since Go 1.16 is no longer supported.
-- Use Java 11 in updated samples, and take advantage of new language features.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-26 13:52:37 +0000 UTC
-    </div>
-</div>
-
