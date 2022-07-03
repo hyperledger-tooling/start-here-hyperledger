@@ -15,6 +15,34 @@ permalink: /releases/hyperledger/indy-sdk-react-native
         <tr>
             <td colspan="2">
                 <b>
+                    Release 0.2.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    0.2.2
+                </span>
+            </td>
+            <td>
+                * feat: add generate wallet key method (#50) (c130ae2)
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/indy-sdk-react-native/releases/tag/0.2.2" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-07-03 10:05:10 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     Release 0.2.1
                 </b>
             </td>
