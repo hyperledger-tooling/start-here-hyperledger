@@ -68,33 +68,3 @@ Signed-off-by: Liran Funaro <liran.funaro@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/427" class=".btn">#427</a>
-            </td>
-            <td>
-                <b>
-                    provenance acl: for operations APIs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Operations such as reads, writes, and deleted
-performed by an user can be retrieved either by
-the respective user or by the admin only.
-
-Signed-off-by: senthil <cendhu@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-27 10:03:48 +0000 UTC
-    </div>
-</div>
-
