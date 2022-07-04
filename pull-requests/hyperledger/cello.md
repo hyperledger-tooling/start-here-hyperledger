@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/464" class=".btn">#464</a>
+            </td>
+            <td>
+                <b>
+                    Add a feature that allows users to update their passwords
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Endpoint: POST `/api/v1/users/:user_id/password`
+Request Body:
+```
+{
+	"password": "foo2"
+}
+```
+
+Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-04 02:50:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/462" class=".btn">#462</a>
             </td>
             <td>
