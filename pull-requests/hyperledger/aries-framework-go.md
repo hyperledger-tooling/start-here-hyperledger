@@ -36,37 +36,3 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3264" class=".btn">#3264</a>
-            </td>
-            <td>
-                <b>
-                    refactor: separate didcomm from wallet.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Volodymyr Kubiv <volodymyr.kubiv@euristiq.com>
-
-**Title:**
-Separate DidComm code from Wallet
-
-**Description:**
-To make it possible to use Wallet with our DidComm functionality and required services, DidComm was separated from wallet
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-27 12:49:21 +0000 UTC
-    </div>
-</div>
-
