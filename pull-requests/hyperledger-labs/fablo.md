@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/333" class=".btn">#333</a>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/334" class=".btn">#334</a>
             </td>
             <td>
                 <b>
-                    Dev mode support for chaincodes
+                    Release 1.1
                 </b>
             </td>
         </tr>
@@ -32,33 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fablo
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-27 13:38:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/332" class=".btn">#332</a>
-            </td>
-            <td>
-                <b>
-                    Channel script fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-27 12:43:23 +0000 UTC
+        Created At 2022-07-04 14:35:40 +0000 UTC
     </div>
 </div>
 
