@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/905" class=".btn">#905</a>
+            </td>
+            <td>
+                <b>
+                    Parse tree should specify if string literal was unicode"foo" (#2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                PR #902 attempted to fix this, but only added this to the lexer, not
+the parse tree. This adds a boolean to the parse tree.
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-04 08:39:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/904" class=".btn">#904</a>
             </td>
             <td>
@@ -175,41 +204,6 @@ By considering the limit for dirty tracker as the `vartable.next_id`, we account
     </table>
     <div class="right-align">
         Created At 2022-06-28 13:38:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/896" class=".btn">#896</a>
-            </td>
-            <td>
-                <b>
-                    Ensure that parenthesis are added to the parse tree
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                forge fmt uses the solang-parser crate for formatting solidity code.
-However, currently parenthesis are not added to the parse tree, which
-makes reconstructing the source text difficult.
-
-This means that the parse tree for `(1 + 2) * 3` contains an explicit
-node for the parenthesis around the expression `1 + 2`.
-
-See https://discord.com/channels/900503503162724452/975868842125455390/990812142049566770
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-27 09:48:01 +0000 UTC
     </div>
 </div>
 

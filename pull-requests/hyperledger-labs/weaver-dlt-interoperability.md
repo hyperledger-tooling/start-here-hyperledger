@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/287" class=".btn">#287</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/289" class=".btn">#289</a>
             </td>
             <td>
                 <b>
-                    Base Structure for Identity Services
+                    Protos for events subscription added
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                Build the skeleton folder structure for the various decentralized identity components needed for interoperation.
-Built the base server logic for IIN Agents with build scripts.
-Minor updates to documentation and minor typo fixes.
+                Signed-off-by: sandeep.nishad1 <sandeep.nishad1@ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-22 14:42:48 +0000 UTC
+        Created At 2022-07-04 07:52:15 +0000 UTC
     </div>
 </div>
 

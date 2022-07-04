@@ -88,17 +88,18 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
                 ### Description of the Change
 - b92a5858 Add doc tests to `tests_with_coverage` job
 - f956b134, 4320aecd Fix doc tests
-- 8bb2a4a8 Add steps to test with `--no-default-features` to distinct std/no_std
+- 8bb2a4a8..c5646d3 Add tests with `--no-default-features` mainly for `no_std`
 
 ### Issue
 - Closes #2309
 
 ### Benefits
-CI can test
-- examples in the documentation, which have not been tested since #2223
-- codebase with no default features, which has not been tested before
+1. CI can test the examples in the documentation, which have not been tested since #2223
+2. CI can test the codebase with no default features, which has not been tested before
+
 ### Possible Drawbacks
-CI time
+1. Takes more CI time
+2. Consumes 2 more runners
             </td>
         </tr>
     </table>
@@ -295,7 +296,7 @@ The PR adds domain-scoped triggers that interact with entities within the same d
 
 - [x] Add API
 - [ ] Add restrictions to interaction with entities
-- [ ] Add docs, create an issue about `FindTriggersByDomainId` and a PR to `iroha2-docs`
+- [x] Add docs, create an issue about `FindTriggersByDomainId` and a PR to `iroha2-docs`
 
 ### Issue
 
