@@ -58,6 +58,8 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
 - Introduce tools/tools.go as a single place to collect all our tools we
   are using for building and testing. This structure allows us to keep
   these tool deps out our project go.mod file
+- Replace golint with staticchecks.
+- Enhance makefile structure
 
 Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
             </td>

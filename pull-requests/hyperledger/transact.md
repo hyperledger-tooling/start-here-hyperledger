@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/363" class=".btn">#363</a>
+                PR <a href="https://github.com/hyperledger/transact/pull/364" class=".btn">#364</a>
             </td>
             <td>
                 <b>
-                    Backport 0-4: Add remove_pruned_entries to in-txn variants
+                    Fix lint introduced with the release of Rust 1.62
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/transact
                 
             </td>
             <td>
-                Backport of #362 
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-14 15:07:16 +0000 UTC
+        Created At 2022-07-05 14:11:59 +0000 UTC
     </div>
 </div>
 

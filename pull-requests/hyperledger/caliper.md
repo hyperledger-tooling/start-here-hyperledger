@@ -72,31 +72,3 @@ Signed-off-by: Attila Klenik <a.klenik@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1394" class=".btn">#1394</a>
-            </td>
-            <td>
-                <b>
-                    [WIP] Migrate to npm workspaces
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In this PR:
-* The repository is migrated from lerna to npm workspaces
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-28 14:03:58 +0000 UTC
-    </div>
-</div>
-

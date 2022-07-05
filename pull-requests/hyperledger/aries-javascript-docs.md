@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/50" class=".btn">#50</a>
+            </td>
+            <td>
+                <b>
+                    docs: postgres plugin for nodejs on windows
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sai Ranjit Tummalapalli <sairanjit.tummalapalli@ayanworks.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-05 13:20:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/49" class=".btn">#49</a>
             </td>
             <td>
@@ -91,32 +117,6 @@ Signed-off-by: Berend Sliedrecht <berend@animo.id>
     </table>
     <div class="right-align">
         Created At 2022-06-30 08:12:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/44" class=".btn">#44</a>
-            </td>
-            <td>
-                <b>
-                    chore: add install commands to update guide
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-28 13:50:29 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,106 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/932" class=".btn">#932</a>
+            </td>
+            <td>
+                <b>
+                    feat(tenants): initial tenants module 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">multitenancy</span>
+            </td>
+            <td>
+                Initial version of the tenants module. This is not fully finished yet and ready for prime time, but it contains most of the things needed for multi-tenancy. It doesn't introduce any breaking changes (those were addressed in the PRs this PR depends on).
+
+Dependant on:
+- #920
+- #921 
+- #922 
+
+Until the modularization is fully here the API for registering module is not really nice, but I see that as a separate task that we can address after multi-tenancy has been merged. This is how you use it:
+
+```ts
+import { DependencyManager, Agent } from '@aries-framework/core'
+import { TenantsApi, TenantsModule } from '@aries-framework/module-tenants'
+import { agentDependencies } from '@aries-framework/node'
+
+// create dependency manager and register module
+const dependencyManager = new DependencyManager()
+dependencyManager.registerModules(TenantsModule)
+
+// create agent, and resolve tenants api
+const agent = new Agent({ /* config */, agentDependencies , dependencyManager)
+const tenantsApi = agent.dependencyManager.resolve(TenantsApi)
+
+const tenantRecord = await tenantsApi.createTenant({
+  config: {
+   label: 'Tenant 1',
+  },
+})
+
+const tenantAgent = await tenantsApi.getTenantAgent({
+  tenantId: tenantRecord.id,
+})
+
+// Create oob invitation in scope of tenant
+const outOfBandRecord = await tenantAgent.oob.createInvitation()
+```
+
+I would like to already merge so we can keep PRs reasonable (this is already getting quite large).
+
+Basically the only thing that's left to do is correctly managing the tenant lifecycle and managing tenant sessions (see https://hackmd.io/vGLVlxLvQR6jsEEjzNcL8g?view#Tenant-Lifecycle). Currently, wallets are being opened when needed and will not be closed afterwards. That means over time the number of open wallets keeps increasing. Correctly opening wallets and avoiding race conditions if two sessions would like to open the same wallet is handled (using `async-mutex` library). This does need some improvements in not waiting indefinitely.
+
+Concrete what's still todo:
+- Agent lifecycle. Currently you call `getTenantAgent` with no proper way to dispose of the agent (session count won't be reduced)
+- Check we're not using context after a process is complete (e.g. by setting an event listener). This should always start a new session instead of using the session from the upper scope
+
+I'm quite happy with how it turned out and how multi-tenancy is an optional addon without having the code in the core package.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-05 13:46:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/931" class=".btn">#931</a>
+            </td>
+            <td>
+                <b>
+                    fix(oob): support legacy prefix in attachments
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix issue of the oob module not being able to handle the legacy did sov prefix on attachment in oob invitations.
+
+Issue as reported on discord:
+
+> AFJ is throwing an error when i accept an oob invitation with a present-proof/credential-offer attachment from acapy,   Error msg: There is no message in requests~attach supported by agent.  It's due to LegacyDidSovPrefix in the message type.  It fails at this step : https://github.com/hyperledger/aries-framework-javascript/blob/main/packages/core/src/modules/oob/OutOfBandModule.ts#L599 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-05 13:22:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/930" class=".btn">#930</a>
             </td>
             <td>
@@ -147,7 +247,7 @@ Signed-off-by: Ariel Gentile <gentilester@gmail.com>
             </td>
             <td>
                 <b>
-                    refactor!: add agent context
+                    feat: add base agent class 
                 </b>
             </td>
         </tr>
@@ -158,7 +258,9 @@ Signed-off-by: Ariel Gentile <gentilester@gmail.com>
             <td>
                 This is the same PR as #919 , but based off the 0.3.0-pre branch instead of main. There's no changes compared to #919 
 
-Dependant on #920 and #921 
+Dependant on:
+- #920
+- #921 
 
 Signed-off-by: Timo Glastra <timo@animo.id>
             </td>
@@ -188,7 +290,8 @@ Signed-off-by: Timo Glastra <timo@animo.id>
             <td>
                 This is the same PR as #898, but based off the 0.3.0-pre branch instead of main. There's no changes compared to #898
 
-Dependant on #920
+Dependant on:
+- #920
 
 Signed-off-by: Timo Glastra <timo@animo.id>
             </td>
