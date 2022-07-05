@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1400" class=".btn">#1400</a>
+            </td>
+            <td>
+                <b>
+                    Add skeleton for development and proposal docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Draft PR showcasing the envisioned structure of the dev docs.
+
+Signed-off-by: Attila Klenik <a.klenik@gmail.com>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-04 20:18:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1394" class=".btn">#1394</a>
             </td>
             <td>
