@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/365" class=".btn">#365</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/366" class=".btn">#366</a>
             </td>
             <td>
                 <b>
-                    Added ui config file
+                    AFJ update to 0.2.0 
                 </b>
             </td>
         </tr>
@@ -27,24 +27,23 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
                 
             </td>
             <td>
-                Signed-off-by: ryankoch13 <ryan.koch13@gmail.com>
+                # Summary of Changes
 
-# Summary of Changes
-
-This PR adds a new uiConfig file to the core/configs directory. By default, this PR shouldn't change the app at all. If the flags are switched though, users are able to configure the app to use 5 tabs instead of 3, navigate to the chat screen upon a connection being made instead of waiting for a notification to come through, hide the tab labels, use the QR display screen, or remove the highlight circle around the Scan tab.
+* Update AFJ dependency to latest stable release (0.2.0)
+* Updates various imports and types in wallet required with newest changes to AFJ 
 
 # Related Issues
 
-n/a
+N/A
 
 # Pull Request Checklist
 
 Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
 
-- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
-- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
-- [x] Updated documentation as needed for changed code and new or modified features;
-- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+- [ ] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [ ] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [ ] Updated documentation as needed for changed code and new or modified features;
+- [ ] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
 
 If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
 
@@ -59,7 +58,7 @@ _PR template adapted from the Python attrs project._
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-27 13:48:01 +0000 UTC
+        Created At 2022-07-04 19:43:30 +0000 UTC
     </div>
 </div>
 

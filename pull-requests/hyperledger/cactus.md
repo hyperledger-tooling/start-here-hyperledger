@@ -14,35 +14,47 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2103" class=".btn">#2103</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2113" class=".btn">#2113</a>
             </td>
             <td>
                 <b>
-                    feat(cmd-socketio-server): support multiple BLP in single server
+                    test(cactus): remove flaky tests from main CI execution
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependent</span>
+                
             </td>
             <td>
-                - Add support for starting Cactus CMD SocketIO server with multiple Bussiness Logic Plugins (BLP).
-  All required TransactionManagement request should be routed to the correct BLP.
-- Add optional onListening callback when starting the cactus cmd socketio server, to simplify tests.
-- Fix some bugs and hard-coded BLP Ids in TransactionManagement.
-- Add new unit tests to check newly added functionalities.
+                - Remove flaky tests from main CI execution.
+- Add separate TAP and jest configuration for running only flaky tests.
+- Add test:*:flaky scripts in the main package.json
+- Add new step to github CI script to run flaky tests as optional (i.e. don't fail if flaky test fails)
 
-Closes #2102
+Closes: #2112
 
-Depends on #2030
+Related: #2104
+Related: #1626
+Related: #2019
+Related: #1625
+Related: #1543
+Related: #1598
+Related: #1528
+Related: #1521
+Related: #1495
+Related: #1485
+Related: #1473
+Related: #1471
+Related: #1469
+Related: #1150
 
 Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-27 11:58:53 +0000 UTC
+        Created At 2022-07-04 15:38:59 +0000 UTC
     </div>
 </div>
 
@@ -50,319 +62,105 @@ Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2099" class=".btn">#2099</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2111" class=".btn">#2111</a>
             </td>
             <td>
                 <b>
-                    build(deps): bump jsrsasign from 10.5.0 to 10.5.25
+                    test(connector-sawtooth-socketio): add functional test, bug fix
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span><span class="chip">javascript</span>
+                
             </td>
             <td>
-                Bumps [jsrsasign](https://github.com/kjur/jsrsasign) from 10.5.0 to 10.5.25.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/kjur/jsrsasign/releases">jsrsasign's releases</a>.</em></p>
-<blockquote>
-<h2>CVE-2022-25898 Security fix in JWS and JWT validation</h2>
-<ul>
-<li>Changes from 10.5.24 to 10.5.25 (2022-Jun-23)
-<ul>
-<li>src/jws.js
-<ul>
-<li>JWS.verify and JWS.verifyJWT
-<ul>
-<li>CVE-2022-25898 SECURITY FIX:
-verify and verifyJWT may accept signature with special characters
-or \number characters by mistake.
-Please see security advisory:
-<a href="https://github.com/kjur/jsrsasign/security/advisories/GHSA-3fvg-4v2m-98jf">https://github.com/kjur/jsrsasign/security/advisories/GHSA-3fvg-4v2m-98jf</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>src/base64x.js
-<ul>
-<li>function isBase64URLDot added</li>
-</ul>
-</li>
-<li>test/qunit-do-jwt-veri.html</li>
-</ul>
-</li>
-</ul>
-<h2>X509.getParam bugfix for v1 certificate</h2>
-<ul>
-<li>Changes from 10.5.23 to 10.5.24 (2022-Jun-04)
-<ul>
-<li>src/x509.js
-<ul>
-<li>X509.getParam bugfix for X.509v1 certificate without extension</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2>BitString parsing bug fix</h2>
-<ul>
-<li>Changes from 10.5.22 to 10.5.23 (2022-May-27)
-<ul>
-<li>src/base64x.js
-<ul>
-<li>bitstrtobinstr bugfix fix</li>
-</ul>
-</li>
-<li>src/asn1hex.js
-<ul>
-<li>ASN1HEX.parse change for bin string range</li>
-</ul>
-</li>
-<li>npm/lib/footers.js
-<ul>
-<li>add missed exports (bitstrtobinstr, binstrtobitstr,
-namearraytobinstr, extendClass)</li>
-</ul>
-</li>
-<li>test/qunit-do-{asn1hex-parse,base64x}.html
-<ul>
-<li>add and fix some test cases for above</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2>DERBitString, KeyUsage and  tsp PKIFailureInfo critical bug fix</h2>
-<ul>
-<li>Changes from 10.5.21 to 10.5.22 (2022-May-24)
-<ul>
-<li>src/asn1.js
-<ul>
-<li>DERBitString critical bugfix</li>
-</ul>
-</li>
-<li>src/asn1tsp.js
-<ul>
-<li>PKIFailureInfo critical bugfix</li>
-</ul>
-</li>
-<li>src/asn1x509.js
-<ul>
-<li>KeyUsage critical bugfix</li>
-</ul>
-</li>
-<li>src/base64.x
-<ul>
-<li>namearraytobinstr critical bugfix</li>
-</ul>
-</li>
-<li>test/qunit-do-{asn1,asn1tsp,asn1x509,base64x}.html
-<ul>
-<li>add and fix some test cases for above</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2>OCSP ResponderID object udpate</h2>
-<ul>
-<li>Changes from 10.5.19 to 10.5.20 (2022-Apr-25)
-<ul>
-<li>src/asn1ocsp.js
-<ul>
-<li>ResponderID class now also supports PEM certificate or
-X509 object for key and name field.</li>
-</ul>
-</li>
-<li>test/qunit-do-asn1ocsp.html
-<ul>
-<li>add some test cases and fix for above</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/kjur/jsrsasign/blob/master/ChangeLog.txt">jsrsasign's changelog</a>.</em></p>
-<blockquote>
-<p>ChangeLog for jsrsasign</p>
-<p>CVE-2022-25898 Security fix in JWS and JWT validation</p>
-<ul>
-<li>Changes from 10.5.24 to 10.5.25 (2022-Jun-23)
-<ul>
-<li>src/jws.js
-<ul>
-<li>JWS.verify and JWS.verifyJWT
-<ul>
-<li>CVE-2022-25898 SECURITY FIX:
-verify and verifyJWT may accept signature with special characters
-or \number characters by mistake.
-Please see security advisory:
-<a href="https://github.com/kjur/jsrsasign/security/advisories/GHSA-3fvg-4v2m-98jf">https://github.com/kjur/jsrsasign/security/advisories/GHSA-3fvg-4v2m-98jf</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>src/base64x.js
-<ul>
-<li>function isBase64URLDot added</li>
-</ul>
-</li>
-<li>test/qunit-do-jwt-veri.html</li>
-</ul>
-</li>
-</ul>
-<p>X509.getParam bugfix for v1 certificate</p>
-<ul>
-<li>Changes from 10.5.23 to 10.5.24 (2022-Jun-04)
-<ul>
-<li>src/x509.js
-<ul>
-<li>X509.getParam bugfix for X.509v1 certificate without extension</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>BitString parsing bug fix</p>
-<ul>
-<li>Changes from 10.5.22 to 10.5.23 (2022-May-27)
-<ul>
-<li>src/base64x.js
-<ul>
-<li>bitstrtobinstr bugfix fix</li>
-</ul>
-</li>
-<li>src/asn1hex.js
-<ul>
-<li>ASN1HEX.parse change for bin string range</li>
-</ul>
-</li>
-<li>npm/lib/footers.js
-<ul>
-<li>add missed exports (bitstrtobinstr, binstrtobitstr,
-namearraytobinstr, extendClass)</li>
-</ul>
-</li>
-<li>test/qunit-do-{asn1hex-parse,base64x}.html
-<ul>
-<li>add and fix some test cases for above</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>DERBitString, KeyUsage and  tsp PKIFailureInfo critical bug fix</p>
-<ul>
-<li>Changes from 10.5.21 to 10.5.22 (2022-May-24)
-<ul>
-<li>src/asn1.js
-<ul>
-<li>DERBitString critical bugfix</li>
-</ul>
-</li>
-<li>src/asn1tsp.js
-<ul>
-<li>PKIFailureInfo critical bugfix</li>
-</ul>
-</li>
-<li>src/asn1x509.js
-<ul>
-<li>KeyUsage critical bugfix</li>
-</ul>
-</li>
-<li>src/base64.x
-<ul>
-<li>namearraytobinstr critical bugfix</li>
-</ul>
-</li>
-<li>test/qunit-do-{asn1,asn1tsp,asn1x509,base64x}.html
-<ul>
-<li>add and fix some test cases for above</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>DERBitString, KeyUsage and  tsp PKIFailureInfo fix</p>
-<ul>
-<li>Changes from 10.5.20 to 10.5.21 (2022-May-23) <em>RELEASE RESIGNED</em>
-<ul>
-<li>src/asn1x509.js
-<ul>
-<li>KeyUsage bugfix, refactoring</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/kjur/jsrsasign/commit/4536a6e9e8bcf1a644ab7c07ed96e453347dae41"><code>4536a6e</code></a> CVE-2022-25898 Security fix in JWS and JWT validation</li>
-<li><a href="https://github.com/kjur/jsrsasign/commit/3edc0070846922daea98d9588978e91d855577ec"><code>3edc007</code></a> 10.5.24 release</li>
-<li><a href="https://github.com/kjur/jsrsasign/commit/f6b7916b551ff9962d6148f9a2a7720b144bb795"><code>f6b7916</code></a> 10.5.23 release</li>
-<li><a href="https://github.com/kjur/jsrsasign/commit/2613c64559768b91dde9793dfa318feacb7c3b8a"><code>2613c64</code></a> 10.5.22 release</li>
-<li><a href="https://github.com/kjur/jsrsasign/commit/4274a59818983958d9eb7b58d37eee98f823689b"><code>4274a59</code></a> 10.5.21 release</li>
-<li><a href="https://github.com/kjur/jsrsasign/commit/f11615a8c78b7cedabe00653948fadf65328261c"><code>f11615a</code></a> ResponderID API doc update</li>
-<li><a href="https://github.com/kjur/jsrsasign/commit/5efa282c82d1a34d8f6126eca60bb4c3416b1d01"><code>5efa282</code></a> 10.5.20 release</li>
-<li><a href="https://github.com/kjur/jsrsasign/commit/041564e2cb9ea0d0909467c2e9e88cd2c252c9dc"><code>041564e</code></a> 10.5.19 release</li>
-<li><a href="https://github.com/kjur/jsrsasign/commit/751ee07a30e77be9737476b79f8120a65b20f5eb"><code>751ee07</code></a> 10.5.18 release</li>
-<li><a href="https://github.com/kjur/jsrsasign/commit/52d2b5528d1174d0ee7ad591cb853d37874e98dd"><code>52d2b55</code></a> 10.5.17 release</li>
-<li>Additional commits viewable in <a href="https://github.com/kjur/jsrsasign/compare/10.5.0...10.5.25">compare view</a></li>
-</ul>
-</details>
-<br />
+                - Add functional test of all functions from sawtooth-socketio validator.
+- Refactor sawtooth validator to allow importing as a module, to simplify the functional test.
+- Add stopMonitor to terminate tests easily.
+- Allow multiple clients to monitor for blocks.
+- Fix parsing of URL from config so that it doesn't depend on trailing slash anymore.
 
+Closes: https://github.com/hyperledger/cactus/issues/2107
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=jsrsasign&package-manager=npm_and_yarn&previous-version=10.5.0&new-version=10.5.25)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+Depends on: https://github.com/hyperledger/cactus/pull/2109
+Depends on: https://github.com/hyperledger/cactus/pull/2110
+Depends on: https://github.com/hyperledger/cactus/pull/2047
 
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
-- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
-- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
-- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
-
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/cactus/network/alerts).
-
-</details>
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-25 07:29:21 +0000 UTC
+        Created At 2022-07-01 18:41:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2110" class=".btn">#2110</a>
+            </td>
+            <td>
+                <b>
+                    feat(sawtooth-ledger): add single sawtooth test ledger image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                feat(sawtooth-ledger): add single sawtooth test ledger image
+
+- Enclose starting sawtooth ledger into single container that will fetch and run the entire setup.
+- Remove reduntant files, update the readme.
+- Add SawtoothTestLedger class to simplify setting the test ledger in jest tests.
+- Refactor electricity-trade to generate usage without sawtooth shell patching.
+- Refactor electricity-trade to use new sawtooth ledger container and wait until it's healthy.
+
+Closes: https://github.com/hyperledger/cactus/issues/2108
+
+Depends on: https://github.com/hyperledger/cactus/pull/2030
+
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-01 18:27:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2109" class=".btn">#2109</a>
+            </td>
+            <td>
+                <b>
+                    refactor(connector-sawtooth-socketio): fix strict flag warnings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                cactus-plugin-ledger-connector-sawtooth-socketio will compile with global strict flag.
+
+Related issue: #1671
+
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-01 18:26:24 +0000 UTC
     </div>
 </div>
 
