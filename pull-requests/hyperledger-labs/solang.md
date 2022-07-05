@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/906" class=".btn">#906</a>
+            </td>
+            <td>
+                <b>
+                    WIP: Borsh encoding
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR is a work in progress for the Borsh Encoding. It will allow us to call Rust contracts on Solana.
+
+Task list:
+
+- [x] Implement the encoding
+- [ ] Create code generation tests
+- [ ] Create runtime tests
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-04 22:34:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/905" class=".btn">#905</a>
             </td>
             <td>
