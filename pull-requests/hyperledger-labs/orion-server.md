@@ -42,29 +42,3 @@ Signed-off-by: Liran Funaro <liran.funaro@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/429" class=".btn">#429</a>
-            </td>
-            <td>
-                <b>
-                    acl on Provenance data queries
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-28 10:27:30 +0000 UTC
-    </div>
-</div>
-

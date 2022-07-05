@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1402" class=".btn">#1402</a>
+            </td>
+            <td>
+                <b>
+                    Updated fabric bindings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updated fabric bindings: 
+- fabric-network@2.2.12 -> 2.2.13
+- @hyperledger/fabric-gateway@1.0.1 -> 1.1.0
+
+Closes #1396 
+
+Signed-off-by: fraVlaca <ocsenarf@outlook.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-05 10:56:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1400" class=".btn">#1400</a>
             </td>
             <td>
@@ -65,35 +97,6 @@ Signed-off-by: Attila Klenik <a.klenik@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-06-28 14:03:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1393" class=".btn">#1393</a>
-            </td>
-            <td>
-                <b>
-                    Add DCI linting to CI of PRs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As recommended by the project update template and https://github.com/petermetz/gh-action-dci-lint
-Let's see whether the remnant phrases in the changelog and third-party artifacts will trigger the alarm before making this a branch protection rule.
-
-Signed-off-by: Attila Klenik <a.klenik@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-28 11:25:30 +0000 UTC
     </div>
 </div>
 

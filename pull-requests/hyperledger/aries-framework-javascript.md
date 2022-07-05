@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/930" class=".btn">#930</a>
+            </td>
+            <td>
+                <b>
+                    feat: OOB public did
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Pavel Zarecky <zarecky@procivis.ch>
+
+First attempt to add support for receiving OOB invitations with public did.
+
+Currently this is working together with the aca-py agent, when  oob invitation is created using:
+```
+POST /out-of-band/create-invitation
+{
+  "handshake_protocols": [
+    "did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/connections/1.0"
+  ],
+  "use_public_did": true,
+  ...
+}
+```
+
+* refactored `OutOfBandInvitation.services` to tackle the issues with `String` coming from the transformer. Exposing only a getter `getServices` method to get simplified representation.
+* resolving public DID services procedure moved from the `MessageSender` into the `DidResolverService` as it needs to be performed when sending the connection request as well as handling the connection response
+  * We should maybe think about some caching to not run the resolution multiple times
+* The service `recipientKey` lookup procedure had to be adjusted, to work together with aca-py. There's a strange Ed25519/X25519 key specification historical convention (https://sovrin-foundation.github.io/sovrin/spec/did-method-spec-template.html#did-document-notes)
+
+TODO: 
+* check OOB invitation with `didexchange` protocol
+* fix tests
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-05 11:41:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/927" class=".btn">#927</a>
             </td>
             <td>
@@ -205,93 +254,6 @@ BREAKING CHANGE: To make AFJ multi-tenancy ready, all services and repositories 
     </table>
     <div class="right-align">
         Created At 2022-06-29 13:32:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/911" class=".btn">#911</a>
-            </td>
-            <td>
-                <b>
-                    ci: fix next version bump output
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Last one I hope...
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-28 08:45:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/910" class=".btn">#910</a>
-            </td>
-            <td>
-                <b>
-                    ci: fix next version bump variable
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                CI is hard...
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-28 08:06:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/909" class=".btn">#909</a>
-            </td>
-            <td>
-                <b>
-                    feat(routing): add routing service
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">multitenancy</span>
-            </td>
-            <td>
-                Adds a routing service that handles the creating of keys for routing and integrates with the mediation recipient service to add routing for the mediator.
-
-The extraction is just to make sure we don't have to depend on a mediator dependency all across the framework. 
-
-What this also adds is an event for when routing keys are created. This allows the tenant module to listen for created routing keys and can then create a mapping of it in the base wallet. I first started with a middleware approach (As described in the design document: https://hackmd.io/vGLVlxLvQR6jsEEjzNcL8g), but this added _ A LOT_ of complexity and didn't abstract away the mediator functionality as that is a part of the core API. So I went for the less generic but simpler API, that is just fine I think.
-
-Again no changes to the public api, so we can merge this without issues
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-28 07:46:12 +0000 UTC
     </div>
 </div>
 

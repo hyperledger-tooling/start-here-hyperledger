@@ -14,6 +14,89 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4056" class=".btn">#4056</a>
+            </td>
+            <td>
+                <b>
+                    Return lastest valid hash in case of bad block
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-05 12:22:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4055" class=".btn">#4055</a>
+            </td>
+            <td>
+                <b>
+                    fcU: Ignore newHead if it is an ancestor of chain head
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span>
+            </td>
+            <td>
+                ## PR description
+A forkchoice update will be ignored if `newHead` is an ancestor of chain head.
+
+## Fixed Issue(s)
+fixes #4051
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-05 09:39:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4049" class=".btn">#4049</a>
             </td>
             <td>
@@ -708,75 +791,6 @@ Add terminal block hash and number to Ropsten genesis file, and also require tha
     </table>
     <div class="right-align">
         Created At 2022-06-28 13:09:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4024" class=".btn">#4024</a>
-            </td>
-            <td>
-                <b>
-                    Add Sepolia TTD and DNS
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                ## PR description
-
-Adds the correct TTD and DNS config to the Sepolia config file
-
-## Fixed Issue(s)
-fixes #4021 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-28 09:06:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4023" class=".btn">#4023</a>
-            </td>
-            <td>
-                <b>
-                    Print full exception when NatService fails to configure automaticially
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                https://github.com/hyperledger/besu/issues/3787
-
-Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-28 08:56:09 +0000 UTC
     </div>
 </div>
 
