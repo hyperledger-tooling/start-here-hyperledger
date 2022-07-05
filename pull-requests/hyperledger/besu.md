@@ -14,17 +14,45 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4056" class=".btn">#4056</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/4058" class=".btn">#4058</a>
             </td>
             <td>
                 <b>
-                    Return lastest valid hash in case of bad block
+                    3943 stop blocks on finalized
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 
+            </td>
+            <td>
+                fixed #3943 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-05 17:32:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4056" class=".btn">#4056</a>
+            </td>
+            <td>
+                <b>
+                    Return the correct latest valid hash in case of bad block
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
@@ -34,18 +62,25 @@ permalink: /pull-requests/hyperledger/besu
 
 ## PR description
 
+In case a bad block is passed to `newPayload` or `forkchoiceUpdate` then response must contain the hash of the lastest valid block on the chain of the bad block, while now we just return the zero hash.
+
+To achieve that we also need to remove finalized checks in the backward sync, since EL should not enforce that rule.
+
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
 
+fixes #3893 
+
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -702,95 +737,6 @@ Issues with "Failed to connect" errors
     </table>
     <div class="right-align">
         Created At 2022-06-29 23:50:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4027" class=".btn">#4027</a>
-            </td>
-            <td>
-                <b>
-                    Return transaction type for legacy transactions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
-
-## PR description
-
-Instead of omitting the transaction type when serializing a legacy transaction, we return the spec conform value of `0x0`.
-
-## Fixed Issue(s)
-
-fixes #4025 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-28 13:38:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4026" class=".btn">#4026</a>
-            </td>
-            <td>
-                <b>
-                    Add terminal block hash and number to Ropsten genesis file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Add terminal block hash and number to Ropsten genesis file, and also require that peers on Ropsten must have that block
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-28 13:09:26 +0000 UTC
     </div>
 </div>
 

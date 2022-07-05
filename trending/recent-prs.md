@@ -1,13 +1,13 @@
 
-[4056](https://github.com/hyperledger/besu/pull/4056) Return lastest valid hash in case of bad block
+[1854](https://github.com/hyperledger/aries-cloudagent-python/pull/1854) python-3.7 update
 
-[3506](https://github.com/hyperledger/fabric/pull/3506) fix some typos
+[290](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/290) Minor Package Upgrades, Code Refactoring, and Bug Fixes
 
-[930](https://github.com/hyperledger/aries-framework-javascript/pull/930) feat: OOB public did
+[4058](https://github.com/hyperledger/besu/pull/4058) 3943 stop blocks on finalized
 
-[1402](https://github.com/hyperledger/caliper/pull/1402) Updated fabric bindings
+[82](https://github.com/hyperledger/firefly-tokens-erc1155/pull/82) Connector changes to support custom URI's
 
-[53](https://github.com/hyperledger/fabric-chaincode-go/pull/53) Add GHA support
+[146](https://github.com/hyperledger/sawtooth-lib/pull/146) Artifact store trait
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

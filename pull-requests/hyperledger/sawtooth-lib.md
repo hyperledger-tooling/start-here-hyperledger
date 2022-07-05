@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/146" class=".btn">#146</a>
+            </td>
+            <td>
+                <b>
+                    Artifact store trait
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-05 16:33:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/145" class=".btn">#145</a>
+            </td>
+            <td>
+                <b>
+                    Artifact trait
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-05 15:08:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/144" class=".btn">#144</a>
             </td>
             <td>
