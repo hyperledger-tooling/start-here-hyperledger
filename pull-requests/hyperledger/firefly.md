@@ -74,29 +74,3 @@ Unanswered question: how does ff_system "go away" cleanly when migrating to a V2
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/881" class=".btn">#881</a>
-            </td>
-            <td>
-                <b>
-                    Move SubmitNetworkAction and RootOrg config to Multiparty Manager
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also added new transaction and operation types for network action.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-24 20:17:12 +0000 UTC
-    </div>
-</div>
-

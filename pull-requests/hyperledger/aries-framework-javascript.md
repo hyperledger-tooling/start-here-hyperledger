@@ -14,6 +14,177 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/927" class=".btn">#927</a>
+            </td>
+            <td>
+                <b>
+                    fix: missing module exports
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ariel Gentile <gentilester@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-03 21:02:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/926" class=".btn">#926</a>
+            </td>
+            <td>
+                <b>
+                    feat(oob): allow to append attachments to invitations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds an optional `appendedAttachments` field for OOB invitations (and legacy Connection Invitation messages) that allows to append attachments as per [Aries RFC 0017](https://github.com/hyperledger/aries-rfcs/tree/main/concepts/0017-attachments#appending).
+
+Signed-off-by: Ariel Gentile <gentilester@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-03 20:34:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/924" class=".btn">#924</a>
+            </td>
+            <td>
+                <b>
+                    chore: update afj dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Just some housekeeping
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-03 13:38:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/922" class=".btn">#922</a>
+            </td>
+            <td>
+                <b>
+                    refactor!: add agent context
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">multitenancy</span>
+            </td>
+            <td>
+                This is the same PR as #919 , but based off the 0.3.0-pre branch instead of main. There's no changes compared to #919 
+
+Dependant on #920 and #921 
+
+Signed-off-by: Timo Glastra <timo@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-03 12:12:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/921" class=".btn">#921</a>
+            </td>
+            <td>
+                <b>
+                    feat: add agent context provider
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">multitenancy</span>
+            </td>
+            <td>
+                This is the same PR as #898, but based off the 0.3.0-pre branch instead of main. There's no changes compared to #898
+
+Dependant on #920
+
+Signed-off-by: Timo Glastra <timo@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-03 11:29:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/920" class=".btn">#920</a>
+            </td>
+            <td>
+                <b>
+                    refactor!: add agent context
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">multitenancy</span><span class="chip">breaking change</span>
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+
+This is the same PR as #881, but based off the 0.3.0-pre branch instead of main. There's no changes compared to #881 except for making it work with this branch (making the new w3c services stateless). Due to the breaking changes we don't want to have this in main just yet. 
+
+BREAKING CHANGE: To make AFJ multi-tenancy ready, all services and repositories have been made stateless. A new `AgentContext` is introduced that holds the current context, which is passed to each method call. The public API hasn't been affected, but due to the large impact of this change it is marked as breaking.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-03 11:12:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/913" class=".btn">#913</a>
             </td>
             <td>
@@ -121,96 +292,6 @@ Again no changes to the public api, so we can merge this without issues
     </table>
     <div class="right-align">
         Created At 2022-06-28 07:46:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/908" class=".btn">#908</a>
-            </td>
-            <td>
-                <b>
-                    ci: add correct version bump
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                We are using patch version for feature releases and minor versions for breaking releases, this change makes sure that's enforced. 
-
-This should be merged before all other PRs to make sure we aren't going to release 0.3.0-alpha.1 but 0.2.1-alpha.1
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-27 15:39:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/907" class=".btn">#907</a>
-            </td>
-            <td>
-                <b>
-                    feat: initial plugin api
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">multitenancy</span><span class="chip">modularization</span>
-            </td>
-            <td>
-                Adds an initial (mostly internal for now) plugin API that will be used as part of modularization. The changes from this PR are also needed for multi-tenancy.
-
-I've not made breaking changes yet, so we can already get this merged and start releasing it, and we can do some clean up of the old custom module approach once we're ready to make the next breaking change release.
-
-As this doesn't contain any breaking changes, I think we should merge this before #881 and #898
-
-The biggest change in this PR is to move from a more implicit registration of services and modules, to a more explicit way to declare services and modules.
-
-Instead of declarating a class with `@scoped(Lifecycle.ContainerScoped)` it now just needs `@injectable` (which is exported from the `src/plugins` directory. Then you can define a plugin to register modules and services. There's currently tow types of plugins, where a module plugin extends a default plugin.
-
-A module is declared like below:
-
-```ts
-import { module } from '@aries-framework/core'
-
-@module()
-class MyModule {
-  public static register(dependencyManager: DependencyManager) {
-    dependencyManager.registerContextScoped(MyApi)
-
-    dependencyManager.registerSingleton(MyService)
-    dependencyManager.registerSingleton(MyRepository)
-  }
-}
-```
-
-For now all module classes declare the module itself, but as discussed previously the current module classes will be renamed to `xxxApi`, and a module will act as the combination off everything that module adds (so more than just the public api)
-
-It's not mean to be used publicly yet (and will have breaking changes), but you can then register the module on the dependency manager:
-
-```ts
-dependencyManager.registerModules(MyModule)
-```
-
-This will make sure the services are registered and in case of the module plugin the module is also registered. The reason why we need this for multitenancy is that we're going to create child container for each tenant agent, that share most of the services from the base agent, but will have some differences. The `@scoped(Lifecycle.ContainerScoped)` won't do the job anymore. 
-
-I've exported some of the tsyringe methods and wrote a simple DependencyManager class to abstract away most of the `TSyringe` functionality so that you don't need to import from that dependench to write plugins, the needed primivities are exported from AFJ itself.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-25 10:57:29 +0000 UTC
     </div>
 </div>
 
