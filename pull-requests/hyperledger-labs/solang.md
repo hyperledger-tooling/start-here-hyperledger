@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/907" class=".btn">#907</a>
+            </td>
+            <td>
+                <b>
+                    solang version information missing when built outside of git
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The build.rs uses `git describe --tags` to get the version for `solang
+--version`. When built outside of git, use the crate version.
+
+This affects the brew build of solang.
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-05 10:35:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/906" class=".btn">#906</a>
             </td>
             <td>

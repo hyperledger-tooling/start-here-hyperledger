@@ -168,7 +168,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">iroha2</span><span class="chip">api-changes</span>
             </td>
             <td>
                 Closes #2228
@@ -441,6 +441,7 @@ The PR adds domain-scoped triggers that interact with entities within the same d
 - [x] Add API
 - [ ] Add restrictions to interaction with entities
 - [x] Add docs, create an issue about `FindTriggersByDomainId` and a PR to `iroha2-docs`
+- [ ] Add new `encode` command to the `parity_scale_decoder` 
 
 ### Issue
 
@@ -679,45 +680,6 @@ Changes for Iroha v1.6-rc.1
     </table>
     <div class="right-align">
         Created At 2022-06-28 12:48:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2401" class=".btn">#2401</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #1649: remove `spawn` from `do_send`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ### Description of the Change
-Deadlock described in #1649 is no longer reproducible. Tested under load for about an hour, periodically restarting and re-regestering peers.
-
-### Issue
-
-Closes #1649 
-
-### Benefits
-
-Performance
-
-### Possible Drawbacks
-
-None (if deadlock really is gone)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-28 11:29:07 +0000 UTC
     </div>
 </div>
 

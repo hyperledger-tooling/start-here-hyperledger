@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/214" class=".btn">#214</a>
+            </td>
+            <td>
+                <b>
+                    Update docs to include use of the new fabric gateway connector
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #156 
+
+Signed-off-by: fraVlaca <ocsenarf@outlook.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-05 10:05:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/212" class=".btn">#212</a>
             </td>
             <td>

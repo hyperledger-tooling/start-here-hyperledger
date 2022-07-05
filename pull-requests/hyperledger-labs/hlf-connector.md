@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/32" class=".btn">#32</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/33" class=".btn">#33</a>
             </td>
             <td>
                 <b>
-                    Fabric setup to run integration tests
+                    Channel status - get MSP details from Fabric
                 </b>
             </td>
         </tr>
@@ -27,13 +27,14 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
                 
             </td>
             <td>
-                1.Changes need to be made in `scripts/run-integration-tests.sh` so that we only run integration test through script.
-2. Single integration test is present to create channel, which is working as a standalone test.
+                This api is used for fetching the msp details from fabric to know which all orgs have joined the channel
+
+Signed-off-by: Abhay Kishore <abhay.kishore@walmart.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-09 11:11:11 +0000 UTC
+        Created At 2022-07-05 10:33:44 +0000 UTC
     </div>
 </div>
 
