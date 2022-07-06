@@ -1,13 +1,13 @@
 
-[1854](https://github.com/hyperledger/aries-cloudagent-python/pull/1854) python-3.7 update
+[2114](https://github.com/hyperledger/cactus/pull/2114) build(deps): bump parse-url from 6.0.0 to 6.0.2
 
-[290](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/290) Minor Package Upgrades, Code Refactoring, and Bug Fixes
+[51](https://github.com/hyperledger/indy-sdk-react-native/pull/51) chore(deps): bump parse-url from 6.0.0 to 6.0.2
 
-[4058](https://github.com/hyperledger/besu/pull/4058) 3943 stop blocks on finalized
+[884](https://github.com/hyperledger/firefly/pull/884) Stop orchestrator for ff_system when moving to network V2
 
-[82](https://github.com/hyperledger/firefly-tokens-erc1155/pull/82) Connector changes to support custom URI's
+[937](https://github.com/hyperledger/aries-framework-javascript/pull/937) build(deps): bump parse-url from 6.0.0 to 6.0.2
 
-[146](https://github.com/hyperledger/sawtooth-lib/pull/146) Artifact store trait
+[19](https://github.com/hyperledger/aries/pull/19) Update chat reference to Discord, not RocketChat
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

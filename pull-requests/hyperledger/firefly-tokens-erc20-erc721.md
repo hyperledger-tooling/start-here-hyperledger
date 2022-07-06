@@ -14,25 +14,25 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/62" class=".btn">#62</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/64" class=".btn">#64</a>
             </td>
             <td>
                 <b>
-                    backport of custom uri suppport
+                    add `config` to token transfer types
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">backport-candidate</span>
             </td>
             <td>
-                backport of https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/61 & https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/60
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-24 19:59:17 +0000 UTC
+        Created At 2022-07-05 21:26:49 +0000 UTC
     </div>
 </div>
 
