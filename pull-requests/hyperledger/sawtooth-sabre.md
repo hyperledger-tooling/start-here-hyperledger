@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/188" class=".btn">#188</a>
+            </td>
+            <td>
+                <b>
+                    Remove docs build from merge GHA workflow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This was inadvertently omitted in PR#119.
+
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-06 14:12:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/187" class=".btn">#187</a>
             </td>
             <td>

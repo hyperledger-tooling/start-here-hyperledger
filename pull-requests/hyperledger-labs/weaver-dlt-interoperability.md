@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/291" class=".btn">#291</a>
+            </td>
+            <td>
+                <b>
+                    Relay: Event Subscription Endpoints implemented
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Feature:
+1. Event subscription endpoints added in relay.
+2. Added new service in protos `relay/events` to make event subscription completely async in relay.
+3. Added new field in `EventMatcher`: `eventName`.
+4. Bump Relay version and Protos version to 1.4.0.
+
+Improvements:
+1. Moved all committed fabric-network artifacts to separate folder, which will be copied to `shared` folder during network start, and deleted when run `make clean`.
+2. Added workflow to test relay using dummy driver and dummy client.
+
+Close #267 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-06 17:36:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/290" class=".btn">#290</a>
             </td>
             <td>
