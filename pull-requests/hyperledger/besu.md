@@ -245,9 +245,6 @@ new RC1
 
 In case a bad block is passed to `newPayload` or `forkchoiceUpdate` then response must contain the hash of the lastest valid block on the chain of the bad block, while now we just return the zero hash.
 
-To achieve that we also need to remove finalized checks in the backward sync, since EL should not enforce that rule.
-
-
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->

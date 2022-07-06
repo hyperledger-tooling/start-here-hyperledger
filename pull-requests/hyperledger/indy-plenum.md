@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1603" class=".btn">#1603</a>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1604" class=".btn">#1604</a>
             </td>
             <td>
                 <b>
-                    [v1.13.1-rc2] - Update Version Number for Release
+                    [RC1-1.12.5] Release candidate for 1.12.5 stable
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-plenum
                 
             </td>
             <td>
-                [v1.13.1-rc2] - Update Version number for Release
+                Signed-off-by: Wade Barnes <wade@neoterictech.ca>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-03 20:15:47 +0000 UTC
+        Created At 2022-07-06 15:01:44 +0000 UTC
     </div>
 </div>
 

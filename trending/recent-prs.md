@@ -1,13 +1,13 @@
 
-[281](https://github.com/hyperledger-labs/fabric-token-sdk/pull/281) ttx: use default network identity if not specified
+[217](https://github.com/hyperledger/fabric-sdk-java/pull/217) Update chaincode dependencies to avoid dependabot alerts (release-2.2)
 
-[4065](https://github.com/hyperledger/besu/pull/4065) Update dev genesis
+[365](https://github.com/hyperledger/transact/pull/365) Jammy upgrade
 
-[280](https://github.com/hyperledger-labs/fabric-token-sdk/pull/280) Remove the need to specify the MSP-ID
+[291](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/291) Relay: Event Subscription Endpoints implemented
 
-[4064](https://github.com/hyperledger/besu/pull/4064) CHANGELOG added 22.7.0-RC1 download links
+[2447](https://github.com/hyperledger/iroha/pull/2447) [feature] #1889: Add a build script to the parity-scale-decoder tool
 
-[4063](https://github.com/hyperledger/besu/pull/4063) 22.7.0-RC2-snapshot
+[216](https://github.com/hyperledger/fabric-sdk-java/pull/216) Update chaincode dependencies to avoid dependabot alerts
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
