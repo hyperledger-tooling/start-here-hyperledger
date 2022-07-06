@@ -15,30 +15,30 @@ permalink: /releases/hyperledger/firefly-tokens-erc1155
         <tr>
             <td colspan="2">
                 <b>
-                    v1.0.2
+                    v1.0.3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.0.2
+                    v1.0.3
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Include poolId in ID for token approvals by @awrichar in https://github.com/hyperledger/firefly-tokens-erc1155/pull/75
+* back port of custom URI support for non-fungible tokens by @shorsher in https://github.com/hyperledger/firefly-tokens-erc1155/pull/83
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc1155/compare/v1.0.1...v1.0.2
+**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc1155/compare/v1.0.2...v1.0.3
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-tokens-erc1155/releases/tag/v1.0.2" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-tokens-erc1155/releases/tag/v1.0.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-05-02 12:50:46 +0000 UTC
+        Created At 2022-07-06 18:43:28 +0000 UTC
     </span>
 </div>
 

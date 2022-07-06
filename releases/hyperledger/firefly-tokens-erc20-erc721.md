@@ -15,36 +15,30 @@ permalink: /releases/hyperledger/firefly-tokens-erc20-erc721
         <tr>
             <td colspan="2">
                 <b>
-                    v1.0.1
+                    v1.0.2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.0.1
+                    v1.0.2
                 </span>
             </td>
             <td>
-                ## Breaking Changes
-
-New versions of this connector will assume "no data" support if you create a token pool against an older version of the sample smart contracts - see #57 
-
-## What's Changed
-* Use ERC-165 to query "with data" support from contract by @awrichar in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/57
-* Fix approval event transformation for ERC721 by @awrichar in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/56
-* Add FFTM_URL config option by @peterbroadhurst in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/54
+                ## What's Changed
+* back port of custom uri support for non fungible tokens by @shorsher in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/65
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc20-erc721/compare/v1.0.0...v1.0.1
+**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc20-erc721/compare/v1.0.1...v1.0.2
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v1.0.1" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v1.0.2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-04-30 14:59:41 +0000 UTC
+        Created At 2022-07-06 19:12:27 +0000 UTC
     </span>
 </div>
 
