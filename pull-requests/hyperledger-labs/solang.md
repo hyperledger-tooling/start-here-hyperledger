@@ -185,32 +185,3 @@ Mark this feature as unsupported and remove the code.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/900" class=".btn">#900</a>
-            </td>
-            <td>
-                <b>
-                    Array boundary
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1-Temporary creating is done in : statements.rs, whenever an AllocDynamic expression is made
-2-ArrayLength expressions are replaced in expression.rs, whenever an array subscript or array length is called/
-3- pops/pushes are handled in array_boundary.rs, there is a function that is called after every push or pull to modify the temp.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-28 22:36:48 +0000 UTC
-    </div>
-</div>
-

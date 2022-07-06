@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1454" class=".btn">#1454</a>
+            </td>
+            <td>
+                <b>
+                    Fix clippy lint introduced in 1.62.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport-triage</span><span class="chip">main</span>
+            </td>
+            <td>
+                This makes several changes necessary to remove all Clippy lint warnings introduced in the 1.62.0 rust release. The two main changes are: 
+
+1. Allowing unused lifetimes in Diesel macros. 
+2. Remove unnecessary allocations made when appending to an existing string
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-05 20:40:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1453" class=".btn">#1453</a>
             </td>
             <td>
@@ -43,32 +72,6 @@ This uses traits for any interactions with the REST API or the DB, which are par
     </table>
     <div class="right-align">
         Created At 2022-06-29 14:19:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1452" class=".btn">#1452</a>
-            </td>
-            <td>
-                <b>
-                    Clean up unused imports in scope_id tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-triage</span><span class="chip">main</span>
-            </td>
-            <td>
-                Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-28 22:37:34 +0000 UTC
     </div>
 </div>
 

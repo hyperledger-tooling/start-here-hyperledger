@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/522" class=".btn">#522</a>
-            </td>
-            <td>
-                <b>
-                    Try fix for error happening on GHA runs of generate results, and debugging for this case
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Not clear why the error is occurring -- perhaps something to do with Allure results. Added a potential fix and debug info.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-28 22:29:54 +0000 UTC
-    </div>
-</div>
-

@@ -14,29 +14,29 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/743" class=".btn">#743</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/744" class=".btn">#744</a>
             </td>
             <td>
                 <b>
-                    [ja_JP] Translate "orderer_deploy.md" into Japanese
+                    [ja_JP] Operations Guides >> Setting up an ordering node(#580)
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">jaJP-docs-ongoing</span>
+                
             </td>
             <td>
                 This patch translates orderer_deploy.md into Japanese.
 
-#580 
+#580
 
-Signed-off-by: Daiki Nakashima Nakashima.Daiki@df.MitsubishiElectric.co.jp
+Signed-off-by: Daiki.Nakashima <Nakashima.Daiki@df.MitsubishiElectric.co.jp>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-04 10:46:02 +0000 UTC
+        Created At 2022-07-06 00:22:43 +0000 UTC
     </div>
 </div>
 
