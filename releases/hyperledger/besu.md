@@ -15,48 +15,45 @@ permalink: /releases/hyperledger/besu
         <tr>
             <td colspan="2">
                 <b>
-                    22.4.3
+                    22.7.0-RC1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    22.4.3
+                    22.7.0-RC1
                 </span>
             </td>
             <td>
                 ### Additions and Improvements
-- \[EXPERIMENTAL\] Add checkpoint sync `--sync-mode="X_CHECKPOINT"` [#3849](https://github.com/hyperledger/besu/pull/3849)
-- Support `finalized` and `safe` as tags for the block parameter in RPC APIs [#3950](https://github.com/hyperledger/besu/pull/3950)
-- Added verification of payload attributes in ForkchoiceUpdated [#3837](https://github.com/hyperledger/besu/pull/3837)
-- Add support for Gray Glacier hardfork [#3961](https://github.com/hyperledger/besu/issues/3961)
+- Do not require a minimum block height when downloading headers or blocks [#3911](https://github.com/hyperledger/besu/pull/3911)
+- When on PoS the head can be only be updated by ForkchoiceUpdate [#3994](https://github.com/hyperledger/besu/pull/3994)
+- Version information available in metrics [#3997](https://github.com/hyperledger/besu/pull/3997)
+- Add TTD and DNS to Sepolia config [#4024](https://github.com/hyperledger/besu/pull/4024)
+- Add terminal block hash and number to Ropsten genesis file [#4026](https://github.com/hyperledger/besu/pull/4026)
+- Return `type` with value `0x0` when serializing legacy transactions [#4027](https://github.com/hyperledger/besu/pull/4027)
+- Ignore `ForkchoiceUpdate` if `newHead` is an ancestor of the chain head [#4055](https://github.com/hyperledger/besu/pull/4055)
 
 ### Bug Fixes
-- alias engine-rpc-port parameter with the former rpc param name [#3958](https://github.com/hyperledger/besu/pull/3958)
+- Fixed a snapsync issue that can sometimes block the healing step [#3920](https://github.com/hyperledger/besu/pull/3920)
+- Support free gas networks in the London fee market [#4003](https://github.com/hyperledger/besu/pull/4003)
+- Limit the size of outgoing eth subprotocol messages.  [#4034](https://github.com/hyperledger/besu/pull/4034)
+- Fixed a state root mismatch issue on bonsai that may appear occasionally [#4041](https://github.com/hyperledger/besu/pull/4041)
 
-As we develop new and required functionality for the Merge, the team has discovered some regressions. For transparency for our production users and testers, we have provided the following known issues below.
-
-### Known Issues:
-
-- Under certain circumstances your node may encounter a state root mismatch, a resync is required to fix this. We are actively looking at fixes. [#3891](https://github.com/hyperledger/besu/issues/3891)
-- On certain machines, RocksDB may cause an out of memory error. We are in the process of finalizing configuration changes to address these memory challenges. [#3963](https://github.com/hyperledger/besu/pull/3963)
-- Related to the peering issue, sometimes a SnapSync may fail to complete or hang. If your node appears stuck, a restart of the node will fix this issue and should continue the sync. We are looking at both fixes and improvements to the logs to help users understand what is happening during a sync. [#3746](https://github.com/hyperledger/besu/issues/3746)
-
-Most of the above issues can be solved with a restart, and are not specific to 22.4.3. If you are a tester and encounter these bugs and would like to help provide feedback, please reach out on Discord with your configuration and details. This may help us. As always, Hyperledger Besu is an open-source project and we are always looking for direct contributions. Thank you for your patience and support!
-
-https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/22.4.3/besu-22.4.3.tar.gz
-sha256: `f263e82c8dbe9aa23ac2863f82aea62a11b71d3deb9a415432e0fa604ff4a77c`
-https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/22.4.3/besu-22.4.3.zip
-sha256: `144f4c407193cb66897ac5999b215507333df6b418c84d607bd68e16a179ab64`
+### Download links
+https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/22.7.0-RC1/besu-22.7.0-RC1.tar.gz
+sha256: 60ad8b53402beb62c24ad791799d9cfe444623a58f6f6cf1d0728459cb641e63
+https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/22.7.0-RC1/besu-22.7.0-RC1.zip
+sha256: 7acfb3a73382bf70f6337e83cb7e9e472b4e5a9da88c5ed2fbd9e82fcf2046dc
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/besu/releases/tag/22.4.3" class=".btn">
+    <a href="https://github.com/hyperledger/besu/releases/tag/22.7.0-RC1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-06-16 18:04:18 +0000 UTC
+        Created At 2022-07-06 04:43:25 +0000 UTC
     </span>
 </div>
 
