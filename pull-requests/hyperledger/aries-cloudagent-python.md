@@ -156,30 +156,3 @@ Some additional notes:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1847" class=".btn">#1847</a>
-            </td>
-            <td>
-                <b>
-                    Fix handling of non-revocable credential when timestamp is specified (askar/credx)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Test output with the error (mixing revocable and non-revocable credentials in one proof): https://github.com/hyperledger/aries-cloudagent-python/pull/1761#issuecomment-1165468687
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-29 22:44:10 +0000 UTC
-    </div>
-</div>
-
