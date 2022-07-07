@@ -14,11 +14,60 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4066" class=".btn">#4066</a>
+            </td>
+            <td>
+                <b>
+                    After merge add a rule to check that the current block is more recent than its parent
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+In PoS current block timestamp must be greather than its parent block timestamp, so adding a new header validation rule to check that.
+There is also a fix in the `shouldUsePostMergeRules` that was not correctly checking for TD >= TTD.
+
+With this the Hive test *Invalid Ancestor Chain Re-Org, Invalid Timestamp, Invalid P9', Reveal using sync* passes.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-06 18:31:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4065" class=".btn">#4065</a>
             </td>
             <td>
                 <b>
-                    Update dev genesis
+                    Update dev genesis for anvil
                 </b>
             </td>
         </tr>
@@ -876,45 +925,6 @@ I propose this vote be open until either an absolute majority of active maintain
     </table>
     <div class="right-align">
         Created At 2022-06-30 14:22:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4031" class=".btn">#4031</a>
-            </td>
-            <td>
-                <b>
-                    Revert "Upgrade OpenTelemetry (#3675)"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This reverts commit 78717ade1d45902c13e77e84bc201338e159c3c4.
-
-Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-Issues with "Failed to connect" errors 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-29 23:50:54 +0000 UTC
     </div>
 </div>
 

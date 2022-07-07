@@ -63,7 +63,7 @@ Signed-off-by: Sean Young <sean@mess.org>
 Task list:
 
 - [x] Implement the encoding
-- [ ] Create code generation tests
+- [x] Create code generation tests
 - [ ] Create runtime tests
             </td>
         </tr>

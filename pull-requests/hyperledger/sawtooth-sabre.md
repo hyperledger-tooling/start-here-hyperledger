@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/189" class=".btn">#189</a>
+            </td>
+            <td>
+                <b>
+                    Remove docs dependency from publish artifacts step
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-07 00:16:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/188" class=".btn">#188</a>
             </td>
             <td>
