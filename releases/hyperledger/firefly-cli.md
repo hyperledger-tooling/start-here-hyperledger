@@ -15,34 +15,33 @@ permalink: /releases/hyperledger/firefly-cli
         <tr>
             <td colspan="2">
                 <b>
-                    v1.0.2
+                    v1.1.0-alpha.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.0.2
+                    v1.1.0-alpha.1
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Add support for FireFly Transaction Manager by @peterbroadhurst in https://github.com/hyperledger/firefly-cli/pull/178
-* Add debug to geth, and up the block gas limit for geth CLI dev chains by @peterbroadhurst in https://github.com/hyperledger/firefly-cli/pull/176
-* Run E2E latest tests on PRs by @nguyer in https://github.com/hyperledger/firefly-cli/pull/186
-* Replace "publicstorage" key with "sharedstorage" by @awrichar in https://github.com/hyperledger/firefly-cli/pull/190
-* Add --channel flag to select release channel by @nguyer in https://github.com/hyperledger/firefly-cli/pull/189
+* Use firefly-signer for wallet creation by @nguyer in https://github.com/hyperledger/firefly-cli/pull/193
+* SPI updates for new alpha by @peterbroadhurst in https://github.com/hyperledger/firefly-cli/pull/194
+* Spelling tweaks for non-multiparty features by @awrichar in https://github.com/hyperledger/firefly-cli/pull/196
+* Namespace isolation by @nguyer in https://github.com/hyperledger/firefly-cli/pull/195
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-cli/compare/v1.0.1...v1.0.2
+**Full Changelog**: https://github.com/hyperledger/firefly-cli/compare/v1.0.2...v1.1.0-alpha.1
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-cli/releases/tag/v1.0.2" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-cli/releases/tag/v1.1.0-alpha.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-05-18 18:09:05 +0000 UTC
+        Created At 2022-07-07 17:51:42 +0000 UTC
     </span>
 </div>
 
