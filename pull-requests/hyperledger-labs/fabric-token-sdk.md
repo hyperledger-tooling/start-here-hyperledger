@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/285" class=".btn">#285</a>
+            </td>
+            <td>
+                <b>
+                    the recipient to choose a wallet for the tokens to be issued in #284
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-07 08:03:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/281" class=".btn">#281</a>
             </td>
             <td>
@@ -81,7 +107,7 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
             <td>
                 <b>
-                    add htlc to fabtoken driver #255
+                    add htlc to driver #255
                 </b>
             </td>
         </tr>
