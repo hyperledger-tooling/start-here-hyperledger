@@ -15,33 +15,36 @@ permalink: /releases/hyperledger/firefly
         <tr>
             <td colspan="2">
                 <b>
-                    v1.1.0-alpha.2
+                    v1.0.3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.1.0-alpha.2
+                    v1.0.3
                 </span>
             </td>
             <td>
-                ## What's Changed
-* Use API framework newly moved to cmomon with extension points by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/851
-* Return definition rejection reasons as errors by @awrichar in https://github.com/hyperledger/firefly/pull/813
-* Move /admin/api to /spi and PUT->PATCH by @peterbroadhurst in https://github.com/hyperledger/firefly/pull/842
-* Restore FireFly contract version, update UI version by @awrichar in https://github.com/hyperledger/firefly/pull/853
+                ## Summary
+Adding support for custom URI's for non-fungible tokens and documentation updates.
+
+## What's Changed
+* Deprecate default value for "ffdx" by @awrichar in https://github.com/hyperledger/firefly/pull/882
+* back port of custom URI support for non-fungible tokens by @shorsher in https://github.com/hyperledger/firefly/pull/885
+* update token connector versions by @shorsher in https://github.com/hyperledger/firefly/pull/886
+* back port of "FAQ and FireFly Tutorial Updates" by @shorsher in https://github.com/hyperledger/firefly/pull/889
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly/compare/v1.1.0-alpha.1...v1.1.0-alpha.2
+**Full Changelog**: https://github.com/hyperledger/firefly/compare/v1.0.2...v1.0.3
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly/releases/tag/v1.1.0-alpha.2" class=".btn">
+    <a href="https://github.com/hyperledger/firefly/releases/tag/v1.0.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-06-08 14:47:59 +0000 UTC
+        Created At 2022-07-07 16:09:39 +0000 UTC
     </span>
 </div>
 
