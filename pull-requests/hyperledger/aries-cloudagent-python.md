@@ -129,30 +129,3 @@ Some additional notes:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1849" class=".btn">#1849</a>
-            </td>
-            <td>
-                <b>
-                    0.7.4 Release Changelog and version update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-30 17:12:03 +0000 UTC
-    </div>
-</div>
-

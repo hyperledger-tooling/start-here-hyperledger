@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
@@ -946,64 +946,6 @@ Fixes #3867
     </table>
     <div class="right-align">
         Created At 2022-06-30 20:40:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4033" class=".btn">#4033</a>
-            </td>
-            <td>
-                <b>
-                    Move Taccat to Emeritus
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I propose moving Taccat from Active Maintainer to Emeritus Maintainer status, pursuant to the inactivity clause. Taccat has had no activity in the past 6 months, as identified by an automated report run by the Hyperledger Foundation:
-
-@taccatisid  - [last github action](https://github.com/ryjones/gal-besu/blob/main/reports/GAL-taccatisid.md) (a PR create) was 17 Dec 2021
-
-We very much appreciate their contributions but changing status to emeritus (and thus revoking PR approval privileges) is in the interest of an orderly project. If Taccat expresses in this PR that they intend to make contributions in the next quarter, then they will not be moved to emeritus status.
-
-I propose this vote be open until either an absolute majority of active maintainers (13) votes for the same outcome, or until two weeks has passed (14 July 2022), after which a voting majority will determine the outcome (with a tie resulting in no change).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-30 16:50:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4032" class=".btn">#4032</a>
-            </td>
-            <td>
-                <b>
-                    turns down logging output to debug
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                Signed-off-by: Justin Florentine <justin+github@florentine.us>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-30 14:22:20 +0000 UTC
     </div>
 </div>
 

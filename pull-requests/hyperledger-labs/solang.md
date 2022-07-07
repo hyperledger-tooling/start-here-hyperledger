@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/909" class=".btn">#909</a>
+            </td>
+            <td>
+                <b>
+                    Reduce the number of public items in the crates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Reduce the number of public items in the crates
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-07 13:58:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/907" class=".btn">#907</a>
             </td>
             <td>
@@ -154,34 +180,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2022-06-30 20:32:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/901" class=".btn">#901</a>
-            </td>
-            <td>
-                <b>
-                    Do not permit value transfers with external calls on Solana
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Solana does not offer a method of doing value/balance transfers with an external call/CPI.
-
-Mark this feature as unsupported and remove the code.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-30 13:33:11 +0000 UTC
     </div>
 </div>
 
