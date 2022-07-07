@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2448" class=".btn">#2448</a>
+            </td>
+            <td>
+                <b>
+                    [documentation] #2446: improve issue templates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Description of the Change
+
+This PR adds detailed forms to fill into the issues. To see the issue form, open [this page](https://github.com/6r1d/iroha/issues/new/choose).
+
+### Issue
+
+This PR closes #2446 and covers all the items in it.
+
+### Benefits
+
+* Contributors sending the bug requests will fill the form with all the details that are needed for quicker debugging.
+* The supported branches of Iroha are immediately visible.
+* Contributors also see who to tag, so the issue gets resolved faster.
+* People who have questions will immediately see Discord and Telegram community links.
+
+### Possible Drawbacks
+
+* I am not sure where to redirect people who have an SDK problem. In addition to that, it is possible to add a link to SDK in `/issues/new/choose`. This detail needs to be considered before the merge.
+* The [Discord server link](https://discord.gg/hyperledger) with `#iroha` channel shows a Telegram bridge and little activity. Is it the current actual Discord for Iroha?
+* This PR still has `blank_issues_enabled` as `true` for now. I think this will need a bit of a discussion: should we have blank issues in addition to the "bug" issues?
+* The auto-filled tags may need a change; I have not seen an `LTS` tag.
+* I am not sure if [this](https://hyperledger.github.io/iroha-2-docs/guide/configure/peer-configuration.html#logger) is the correct documentation link for JSON logs. While all the details match, is it the correct doc to refer to?
+
+
+### Alternate Designs
+
+At a later date, there may be an internal command to collect most of the current Iroha environment data: LibC version, OS info, etc. I am not sure if this can be done reliably all the time, so I am thinking of implementing this at a later date.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-07 05:31:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2447" class=".btn">#2447</a>
             </td>
             <td>
