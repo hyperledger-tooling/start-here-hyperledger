@@ -15,30 +15,30 @@ permalink: /releases/hyperledger/indy-shared-gha
         <tr>
             <td colspan="2">
                 <b>
-                    v1.0.3
+                    v1.0.4
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.0.3
+                    v1.0.4
                 </span>
             </td>
             <td>
                 ## What's Changed
-* hardened RC detection by @pSchlarb in https://github.com/hyperledger/indy-shared-gha/pull/13
+* updated Docker Login Action by @pSchlarb in https://github.com/hyperledger/indy-shared-gha/pull/14
 
 
-**Full Changelog**: https://github.com/hyperledger/indy-shared-gha/compare/v1...v1.0.3
+**Full Changelog**: https://github.com/hyperledger/indy-shared-gha/compare/v1...v1.0.4
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/indy-shared-gha/releases/tag/v1.0.3" class=".btn">
+    <a href="https://github.com/hyperledger/indy-shared-gha/releases/tag/v1.0.4" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-06-27 14:36:38 +0000 UTC
+        Created At 2022-07-07 12:11:16 +0000 UTC
     </span>
 </div>
 
