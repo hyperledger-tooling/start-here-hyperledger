@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/306" class=".btn">#306</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/308" class=".btn">#308</a>
             </td>
             <td>
                 <b>
-                    Correct handling of CA VerifyOptions
+                    Revert "Idemix MSP Folder Structure incompatible with what Fabric expects #303" 
                 </b>
             </td>
         </tr>
@@ -27,22 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                The verify options strucutre is global property - but the verify struture in the case
-of re-enroll is set back by 30 seconds.
+                This PR reverts PR #304 
 
-If this is the global structure - then that is not good.
-
-Duplicating the structure.  Many ways to solve this problem; but this the current approach is cleaner.
-
-Fixes https://github.com/hyperledger/fabric-ca/issues/305
-
-Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-
+PR 304 introduced a regression into the various fabric CA client libraries, triggering errors in the automated integration test suites. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-27 13:08:41 +0000 UTC
+        Created At 2022-07-07 17:47:20 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/23" class=".btn">#23</a>
+            </td>
+            <td>
+                <b>
+                    Feature/net operator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR introduces a new action `network operator` which will launch only the operator in the target k8s namespace. 
+
+In addition, this bumps the k8s-builder revision to v0.6.0. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-07 15:23:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/22" class=".btn">#22</a>
             </td>
             <td>

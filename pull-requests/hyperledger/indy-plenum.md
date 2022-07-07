@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1605" class=".btn">#1605</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade to SovrinHelpers v2.2.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - SovrinHelpers v2.2.3 includes an update to fix dependency issues in `code-validation.dockerfile` affecting the CD pipeline.
+
+Signed-off-by: Wade Barnes <wade@neoterictech.ca>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-07 16:41:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-plenum/pull/1604" class=".btn">#1604</a>
             </td>
             <td>

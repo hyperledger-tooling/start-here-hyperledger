@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/309" class=".btn">#309</a>
+            </td>
+            <td>
+                <b>
+                    Rework github actions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Merge integration tests workflows in a single flow
+- The new test workflow first runs our `checks` target, if successful, the integration tests and unit tests are started in parallel using the github actions matrix features. Running the checks first gives as a fast fail without wasting github action resources on long unit/integration tests.
+- The job matrix features helps to configure a job with different configurations. That is, we don't need to create a workflow file per integration test we would like to run in parallel.
+- Docker images are only pulled for integration tests
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-07 14:40:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/308" class=".btn">#308</a>
+            </td>
+            <td>
+                <b>
+                    Refactor nwo docker support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR changes the use of docker in the NWO. The NWO uses docker to launch some components, such as Orion, Weaver, Monitoring. This refactoring has two goals: 
+First, remove the use of docker (use of docker client) during platform `init` function and move the corresponding logic to `postRun`. This allows a docker-free use of the fsccli artifactgen. 
+Second, reduce redundant and cluttered code. Docker related code is now located in a `docker.go` file per platform. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-07 14:14:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/307" class=".btn">#307</a>
             </td>
             <td>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/250" class=".btn">#250</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/252" class=".btn">#252</a>
             </td>
             <td>
                 <b>
-                    feature: added support for environment variables to set image name, t…
+                    feature: unregister domain
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                feature: added support for environment variables to set image name, tag and pull policy
+                Added unregister domain instruction
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-30 07:33:55 +0000 UTC
+        Created At 2022-07-07 13:05:58 +0000 UTC
     </div>
 </div>
 

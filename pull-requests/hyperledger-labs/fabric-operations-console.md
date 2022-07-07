@@ -14,6 +14,77 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/249" class=".btn">#249</a>
+            </td>
+            <td>
+                <b>
+                    fix get-channels logic if response is empty
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+
+- fixes the response to get-osn-channels when there are 0 channels. makes it an empty array instead of null.
+- fixes `system_channel_id` filed being set to null, should be empty string when there is no system channel
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-07 14:47:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/248" class=".btn">#248</a>
+            </td>
+            <td>
+                <b>
+                    Updated test case to create orderer with system channel
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ketul Shah <shah.ketul@ibm.com>
+
+#### Type of change
+- Test update
+
+#### Description
+Updated test case to create orderer with system channel
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-07 13:18:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/247" class=".btn">#247</a>
             </td>
             <td>

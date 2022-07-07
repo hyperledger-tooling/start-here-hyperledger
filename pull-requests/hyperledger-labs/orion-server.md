@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/430" class=".btn">#430</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/432" class=".btn">#432</a>
             </td>
             <td>
                 <b>
-                    Destroys cluster environment when a test fails
+                    range query test
                 </b>
             </td>
         </tr>
@@ -27,18 +27,12 @@ permalink: /pull-requests/hyperledger-labs/orion-server
                 
             </td>
             <td>
-                Solves #428 
-
-This commit adds a `destroyClusterEnv()` method that closes all the nodes that were started and removes the environment directory.
-Each test, calls `defer destroyClusterEnv(t, env)` right after the environment is created to make sure it will be destroyed
-even in the case of test failure.
-
-Signed-off-by: Liran Funaro <liran.funaro@gmail.com>
+                Signed-off-by: tohar-ayash <toharayash1@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-29 09:02:16 +0000 UTC
+        Created At 2022-07-07 14:18:36 +0000 UTC
     </div>
 </div>
 
