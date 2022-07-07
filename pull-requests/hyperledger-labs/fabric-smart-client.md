@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/307" class=".btn">#307</a>
+            </td>
+            <td>
+                <b>
+                    fabric-sdk: use orderers set in the config block
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently, the FSC node uses only the orderers defined
+in the configuration file. But, orderers can change
+with a configuration update.
+Thefore, this PR let the fabric-sdk to use the orderers
+defined in the configuration block.
+
+Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-07 07:20:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/306" class=".btn">#306</a>
             </td>
             <td>
