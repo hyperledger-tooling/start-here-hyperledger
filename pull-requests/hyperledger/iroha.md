@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2459" class=".btn">#2459</a>
+            </td>
+            <td>
+                <b>
+                    [documentation] hyperledger#2446 adds a spoiler to issue templates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: 6r1d <vic.6r1d@gmail.com>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+Adds a spoiler to issue templates, like in #2456.
+
+### Issue
+
+Fixes #2446
+
+### Benefits
+
+* Adds a spoiler with highlight as a default value, potentially improving readability
+* Asks user to format logs if formatting is broken for some reason
+* Hints a code highlight is needed for Rust MWE
+
+### Possible Drawbacks
+
+None
+
+### Usage Examples or Tests
+
+Creating an example issue in [this fork](https://github.com/6r1d/iroha/issues/new/choose) can show the current form.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-08 14:10:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2453" class=".btn">#2453</a>
             </td>
             <td>
@@ -626,64 +685,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2022-07-04 12:53:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2428" class=".btn">#2428</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #2228: Add Unauthorized variant to smartcontracts query error
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">api-changes</span>
-            </td>
-            <td>
-                Closes #2228
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-Added `iroha_core::smartcontracts::query::Error::Unauthorized` to better mirror semantics of unauthorized request (i.e. without an account in this case). Also, in case of querying without an account, **HTTP 401 UNAUTHORIZED** status is returned.
-
-### Issue
-
-Previously, in case of query without an account `FindError::Account` returned. And the corresponding **HTTP 404 NOT_FOUND** status code returned. That appeared to be semantically incorrect.
-
-### Benefits
-
-Now `POST /query` in case of request without an account returns `Error::Unauthorized` and **HTTP 401 UNAUTHORIZED** status code.
-
-### Alternate Designs *[optional]*
-
-At first glance, this can be moved to `Error::Permission` and the `Unauthorized` variant could be added to `DenialReason`, but it doesn't share semantics with **HTTP 401 UNAUTHORIZED** (it's **HTTP 403 FORBIDDEN** instead, [which is different](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403)).
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-01 16:12:03 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3517" class=".btn">#3517</a>
+            </td>
+            <td>
+                <b>
+                    Updates in main for Fabric CA release v1.5.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+
+#### Type of change
+
+- Documentation update
+
+#### Description
+
+This PR updates the documentation and client installation scripts to install the fabric CA v1.5.5 release binaries.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-08 12:38:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3516" class=".btn">#3516</a>
             </td>
             <td>

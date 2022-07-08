@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/69" class=".btn">#69</a>
+            </td>
+            <td>
+                <b>
+                    connectionless scenario fixed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+
+A soft assert is added on the credential offer flow in case the actual workflow is ahead of where the test thinks. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-08 17:59:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/67" class=".btn">#67</a>
+            </td>
+            <td>
+                <b>
+                    Shutdown the sauce connect tunnel container before connectionless test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-06 20:54:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/66" class=".btn">#66</a>
             </td>
             <td>
@@ -33,34 +87,6 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     </table>
     <div class="right-align">
         Created At 2022-07-05 20:39:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/65" class=".btn">#65</a>
-            </td>
-            <td>
-                <b>
-                    Feature BC Wallet Connectionless & new Web Based Agent interfaces
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR includes a BC wallet Connectionless test scenario that works with the CANdy Unverified Persons Issuer and the Pan Canadian Chat for verification.
-
-In doing this, we now have examples of web based Issuer and Verifier agent interfaces. These interfaces use Selenium to drive the web based agents. This pattern can be followed by others needing a web based interfaces to their agents. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-30 20:46:19 +0000 UTC
     </div>
 </div>
 

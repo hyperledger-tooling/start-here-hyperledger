@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3266" class=".btn">#3266</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3268" class=".btn">#3268</a>
             </td>
             <td>
                 <b>
-                    feat: vcwallet support for GNAP authorization
+                    feat: Legacy Anoncrypt(RFC-0019) DIDComm v1 implementation
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 
             </td>
             <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+                **Title:**
+Legacy Anoncrypt(RFC-0019) DIDComm v1 implementation
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-29 04:01:23 +0000 UTC
+        Created At 2022-07-08 14:06:56 +0000 UTC
     </div>
 </div>
 

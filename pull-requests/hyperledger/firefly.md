@@ -14,6 +14,216 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/893" class=".btn">#893</a>
+            </td>
+            <td>
+                <b>
+                    Add sqlite to Docker image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                It's helpful to have this handy when debugging database contents.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-08 16:19:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/892" class=".btn">#892</a>
+            </td>
+            <td>
+                <b>
+                    Fix logs from E2E test invocation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Disable parallelization and reduce test timeout to 1m.
+
+This re-enables streaming logs during E2E runs (which is disabled by default when running suites in parallel). No real impact since our test jobs are already divided such that they run 1 suite per job.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-08 16:18:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/891" class=".btn">#891</a>
+            </td>
+            <td>
+                <b>
+                    Custom contract subscriptions now utilize namespaces
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Now, both ethconnect and fabconnect subscription names contain the namespace name. This means that events will now be delivered only to the callback handler for that namespace, instead of every single callback handler. Older subscriptions will still be delivered to all handlers. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-07 22:45:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/890" class=".btn">#890</a>
+            </td>
+            <td>
+                <b>
+                    Change default contracts to network version 2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also rename the "namespace" parameter to "action" in V2, and handle accordingly.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-07 18:32:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/889" class=".btn">#889</a>
+            </td>
+            <td>
+                <b>
+                    back port of "FAQ and FireFly Tutorial Updates"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                back port of #857 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-07 01:18:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/887" class=".btn">#887</a>
+            </td>
+            <td>
+                <b>
+                    Add E2E tests for gateway mode
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-06 19:46:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/886" class=".btn">#886</a>
+            </td>
+            <td>
+                <b>
+                    update token connector versions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Alex Shorsher <alex.shorsher@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-06 19:42:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/885" class=".btn">#885</a>
+            </td>
+            <td>
+                <b>
+                    back port of custom URI support for non-fungible tokens
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                back port of https://github.com/hyperledger/firefly/pull/879 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-06 16:26:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/884" class=".btn">#884</a>
             </td>
             <td>
@@ -28,7 +238,7 @@ permalink: /pull-requests/hyperledger/firefly
             </td>
             <td>
                 Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12)
-In a chain with #883
+~~In a chain with #883~~
 
 Background: The legacy `ff_system` namespace is created (ie an orchestrator and managers are initialized) whenever the default namespace is a V1 multiparty network. The `ff_system` namespace is initialized with an exact duplicate of the default namespace config (same plugins, same contract addresses, etc).
 
@@ -40,46 +250,6 @@ This should allow legacy networks to cleanly migrate to V2 rules and retire `ff_
     </table>
     <div class="right-align">
         Created At 2022-07-06 01:13:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/883" class=".btn">#883</a>
-            </td>
-            <td>
-                <b>
-                    Track blockchain callback handlers per namespace
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12)
-
-For blockchain batch pin events, direct them to an appropriate namespace:
-* If the multiparty contract is V1, the namespace is passed explicitly
-* If the multiparty contract is V2+, the namespace is packed into the subscription name (and is not sent in the event)
-
-For blockchain network actions, direct them to an appropriate namespace:
-* If the multiparty contract is V1, send them to all handlers (the handler will filter based on whether the contract address matches the active contract)
-* If the multiparty contract is V2+, the namespace is packed into the subscription name
-
-Caveat for pre-existing subscriptions: Old subscription names will _not_ have a namespace included, so multiple namespaces will actually be sharing a single subscription. This is OK for V1 networks, as batch pin events always contain a namespace and network actions are sent to all handlers. A V2 network cannot function in this situation, so V2 contracts will be fundamentally incompatible with releases of FireFly prior to 1.1.
-
-Tokens are also subject to the same problem where pre-existing subscriptions will not include namespace information, so they always send events to all handlers if namespace is unset.
-
-Unanswered question: how does ff_system "go away" cleanly when migrating to a V2 contract? There is no entry for ff_system in the namespace config, so migration is weird and probably tied to the default namespace instead. UPDATE - see #884
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-29 19:04:07 +0000 UTC
     </div>
 </div>
 
