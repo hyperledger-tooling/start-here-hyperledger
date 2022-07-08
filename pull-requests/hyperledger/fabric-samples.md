@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/788" class=".btn">#788</a>
+            </td>
+            <td>
+                <b>
+                    Feature/ca v1.5.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR bumps the test network CA to 1.5.5, and Fabric to 2.4.4.
+
+In addition, it re-organizes the setup script default environment variable declarations to align on column boundaries.  The old format was causing some "eye bleeding" when looking at the script.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-08 12:28:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/784" class=".btn">#784</a>
             </td>
             <td>
@@ -40,33 +68,6 @@ Fix:
     </table>
     <div class="right-align">
         Created At 2022-07-04 09:53:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/782" class=".btn">#782</a>
-            </td>
-            <td>
-                <b>
-                    Fix asset-transfer-events sample Java chaincode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - chaincode-java Gradle project name did not match the instructions or the chaincode name used by the sample application code.
-- Added test of Java chaincode to CI pipeline.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-01 10:47:04 +0000 UTC
     </div>
 </div>
 

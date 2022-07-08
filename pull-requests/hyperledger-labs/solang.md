@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/910" class=".btn">#910</a>
+            </td>
+            <td>
+                <b>
+                    Allow free functions to be imported
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Free functions (ie. functions outside of contracts) where not imported.
+Fix this.
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-08 10:12:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/909" class=".btn">#909</a>
             </td>
             <td>

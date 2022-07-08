@@ -29,8 +29,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
             <td>
                 This PR introduces utility functions needed to address https://github.com/hyperledger-labs/fabric-token-sdk/issues/283 
 
-Enhacements:
+Enhancements:
 - add ability to retrive responder from the registry
+- additional logging
+
+Bug fix:
+- fabric-sdk: update orderers list when apply config blocks after a restart
 
 Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
@@ -239,32 +243,6 @@ Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-07-02 08:03:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/302" class=".btn">#302</a>
-            </td>
-            <td>
-                <b>
-                    RegisterResponder function needs to have two views that should be sent from two different applications #301
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-01 12:04:35 +0000 UTC
     </div>
 </div>
 

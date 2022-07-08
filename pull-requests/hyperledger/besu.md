@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4075" class=".btn">#4075</a>
+            </td>
+            <td>
+                <b>
+                    Otel take 2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Fixes the OpenTelemetry configuration so it doesn't initialize the global opentelemetry singleton when getting the tracer.
+
+## Documentation
+
+- [X] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-08 11:38:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4073" class=".btn">#4073</a>
             </td>
             <td>
@@ -30,7 +66,30 @@ permalink: /pull-requests/hyperledger/besu
                 Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
 
 SnapProtocolManager uses EthPeers so no need to handle connect/disconnect events here as well.
+Eliminates some duplicated peer-related logging.
+
 I have tested that Snap Sync works with this change
+
+Before this change
+```
+
+2022-07-08 09:51:47.899+10:00 | nioEventLoopGroup-3-10 | TRACE | EthProtocolManager | Process message eth/66, 0
+2022-07-08 09:51:47.899+10:00 | nioEventLoopGroup-3-10 | DEBUG | EthProtocolManager | Peer 0xd094aaee3baa666249... PeerReputation 100, validated? true, disconnected? false has mismatched network id: 128
+2022-07-08 09:51:47.900+10:00 | nioEventLoopGroup-3-10 | TRACE | EthPeer | handleDisconnect - peer... 0xd094aaee3baa666249, PeerReputation 100
+2022-07-08 09:51:47.900+10:00 | nioEventLoopGroup-3-10 | DEBUG | EthProtocolManager | Disconnect - Outbound - 0x10 SUBPROTOCOL_TRIGGERED - PeerInfo{version=5, clientId='Geth/v1.2.0-stable-9077473c/linux-amd64/go1.16.5', capabilities=[eth/65, eth/66, snap/1],
+ port=0, nodeId=0xd094aaee3baa6662498e8924e26c60557b27e216ce839622fc2c123a8ea9307e4bb5a1beb108288bddeb4f04167bdcce078e89e315a4b66d0b07718fdb7930f7} - 4 peers left
+2022-07-08 09:51:47.900+10:00 | nioEventLoopGroup-3-10 | DEBUG | SnapProtocolManager | Disconnect - Outbound - 0x10 SUBPROTOCOL_TRIGGERED - PeerInfo{version=5, clientId='Geth/v1.2.0-stable-9077473c/linux-amd64/go1.16.5', capabilities=[eth/65, eth/66, snap/1], port=0, nodeId=0xd094aaee3baa6662498e8924e26c60557b27e216ce839622fc2c123a8ea9307e4bb5a1beb108288bddeb4f04167bdcce078e89e315a4b66d0b07718fdb7930f7} - 4 peers left
+```
+
+After this change
+```
+
+2022-07-08 11:13:00.784+10:00 | nioEventLoopGroup-3-8 | TRACE | EthProtocolManager | Process message eth/66, 0
+2022-07-08 11:13:00.784+10:00 | nioEventLoopGroup-3-8 | DEBUG | EthProtocolManager | Peer 0xbfef556cec5aa40b3e... PeerReputation 100, validated? true, disconnected? false has mismatched network id: 128
+2022-07-08 11:13:00.784+10:00 | nioEventLoopGroup-3-8 | TRACE | EthPeer | handleDisconnect - peer... 0xbfef556cec5aa40b3e, PeerReputation 100
+2022-07-08 11:13:00.784+10:00 | nioEventLoopGroup-3-8 | DEBUG | EthProtocolManager | Disconnect - Outbound - 0x10 SUBPROTOCOL_TRIGGERED - PeerInfo{version=5, clientId='Geth/v1.2.0-stable-d31813dc/linux-amd64/go1.16.5', capabilities=[eth/65, eth/66, snap/1],
+port=0, nodeId=0xbfef556cec5aa40b3e02dd70afcac437e1689d31caaecbf68c3401f83ac9a86784c59443ff63e6e358ae7ac236f9726a620b94ba9676b899f97cb0e84a4ebcf0} - 3 peers left
+```
 
 ## Documentation
 
@@ -876,57 +935,6 @@ This pr will cause the pipeline to retry the block download step if we were unab
     </table>
     <div class="right-align">
         Created At 2022-07-01 13:48:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4037" class=".btn">#4037</a>
-            </td>
-            <td>
-                <b>
-                    Enforce RocksDB to respect block cache size
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Enforce RocksDB to respect Block cache size, knowing that we can modify this block cache size with --Xplugin-rocksdb-cache-capacity.
-
-We can read from [RocksDB Documentation](https://github.com/facebook/rocksdb/wiki/Block-Cache) that :
-> strict_capacity_limit: In rare case, block cache size can go larger than its capacity. This is when ongoing reads or iterations over DB pin blocks in block cache, and the total size of pinned blocks exceeds the capacity. If there are further reads which try to insert blocks into block cache, if strict_capacity_limit=false(default), the cache will fail to respect its capacity limit and allow the insertion. This can create undesired OOM error that crashes the DB if the host don't have enough memory. Setting the option to true will reject further insertion to the cache and fail the read or iteration. The option works on per-shard basis, means it is possible one shard is rejecting insert when it is full, while another shard still have extra unpinned 
-
-
-
-Signed-off-by: Ameziane H <ameziane.hamlat@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-01 09:23:58 +0000 UTC
     </div>
 </div>
 
