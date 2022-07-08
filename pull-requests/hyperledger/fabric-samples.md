@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                This PR bumps the test network CA to 1.5.5, and Fabric to 2.4.4.
+                This PR bumps the Kube test network to run with the latest patch build of Fabric (2.4) and Fabric CA (1.5) images. 
 
 In addition, it re-organizes the setup script default environment variable declarations to align on column boundaries.  The old format was causing some "eye bleeding" when looking at the script.
             </td>

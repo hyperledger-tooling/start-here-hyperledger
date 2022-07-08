@@ -103,29 +103,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk-react-native/pull/49" class=".btn">#49</a>
-            </td>
-            <td>
-                <b>
-                    fix(android): maven plugin id
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #48 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-30 22:18:15 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-shared-gha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-shared-gha/pull/13" class=".btn">#13</a>
+                PR <a href="https://github.com/hyperledger/indy-shared-gha/pull/14" class=".btn">#14</a>
             </td>
             <td>
                 <b>
-                    hardened RC detection
+                    updated Docker Login Action
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/indy-shared-gha
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-27 14:17:41 +0000 UTC
+        Created At 2022-07-07 12:07:58 +0000 UTC
     </div>
 </div>
 

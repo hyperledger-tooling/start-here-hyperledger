@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/941" class=".btn">#941</a>
+            </td>
+            <td>
+                <b>
+                    ci: fix changelog generation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I removed this last time, but seems it is needed after all to correctly generate the changelog. See the changelog in #940 for what's the issue
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-08 09:32:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/940" class=".btn">#940</a>
+            </td>
+            <td>
+                <b>
+                    chore(release): v0.2.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">ci-test</span>
+            </td>
+            <td>
+                Release version 0.2.1
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-08 09:24:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/938" class=".btn">#938</a>
+            </td>
+            <td>
+                <b>
+                    fix: clone record before emitting event
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-06 19:35:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/937" class=".btn">#937</a>
             </td>
             <td>
@@ -85,7 +163,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
             </td>
             <td>
                 <b>
-                    docs: contributing lessons learned from 0.2.0 release
+                    docs: initial contributing checklist
                 </b>
             </td>
         </tr>
@@ -454,33 +532,6 @@ BREAKING CHANGE: To make AFJ multi-tenancy ready, all services and repositories 
     </table>
     <div class="right-align">
         Created At 2022-07-03 11:12:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/913" class=".btn">#913</a>
-            </td>
-            <td>
-                <b>
-                    feat: add method to fetch KeyType by proof type
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Karim <karim@animo.id>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-29 13:32:56 +0000 UTC
     </div>
 </div>
 

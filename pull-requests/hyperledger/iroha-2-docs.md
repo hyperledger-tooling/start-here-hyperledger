@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/80" class=".btn">#80</a>
+            </td>
+            <td>
+                <b>
+                    Fix docker-compose command
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                While working on https://github.com/hyperledger/iroha/issues/1466, I've noted a "docker compose command". I don't think [Compose](https://docs.docker.com/compose/) is a part of default Docker distribution.
+
+If I will try to run it with just `docker` command, I'll see this:
+
+```bash
+$ docker compose up
+docker: 'compose' is not a docker command.
+See 'docker --help'
+```
+
+Versions:
+
+```
+Docker version 20.10.16, build aa7e414fdc
+docker-compose version 1.29.2, build 5becea4c
+```
+
+Signed-off-by: 6r1d <vic.6r1d@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-08 15:26:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/77" class=".btn">#77</a>
             </td>
             <td>
@@ -36,34 +79,6 @@ Closes #60 (`<!-- Check: a reference about future releases or work in progress -
     </table>
     <div class="right-align">
         Created At 2022-07-05 07:55:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/75" class=".btn">#75</a>
-            </td>
-            <td>
-                <b>
-                    Add FindTriggersByDomainId query
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-To be merged after https://github.com/hyperledger/iroha/pull/2418
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-01 08:29:26 +0000 UTC
     </div>
 </div>
 
