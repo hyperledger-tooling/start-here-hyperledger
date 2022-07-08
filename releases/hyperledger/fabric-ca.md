@@ -15,41 +15,34 @@ permalink: /releases/hyperledger/fabric-ca
         <tr>
             <td colspan="2">
                 <b>
-                    v1.5.4
+                    v1.5.5
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.5.4
+                    v1.5.5
                 </span>
             </td>
             <td>
-                v1.5.4 Release Notes - June 17, 2022
-====================================
+                v1.5.5 Release Notes - July 8, 2022
+===================================
 
-Release v1.5.4 updates Fabric CA to use https://github.com/IBM/idemix for the Identity Mixer implementation,
-making it possible to issue credentials using various Identity Mixer curves.
-The Identity Mixer curve can be configured in the Fabric CA server and client configuration yaml file:
+v1.5.5 is a maintenance release, providing updates for the following issues in the Fabric CA:
 
-```
-# Specifies the Elliptic Curve used by Identity Mixer.
-# It can be any of: {"amcl.Fp256bn", "gurvy.Bn254", "amcl.Fp256Miraclbn"}.
-# If unspecified, it defaults to 'amcl.Fp256bn'.
-curve: amcl.Fp256bn
-```
+- Closes [Issue #305](https://github.com/hyperledger/fabric-ca/issues/305) : Issue with re-enrolling certificates
 
 Dependencies
 ------------
 
-Fabric CA v1.5.4 has been tested with the following dependencies:
+Fabric CA v1.5.5 has been tested with the following dependencies:
 - Go 1.18.2
 - Alpine 3.16 (for Docker images)
 
-
 Changes, Known Issues, and Workarounds
 --------------------------------------
+
 None.
 
 Known Vulnerabilities
@@ -58,10 +51,10 @@ Known Vulnerabilities
 
   This vulnerability can be resolved in one of two ways:
 
-  1) Use HTTPS (TLS) so that the authorization header is not in clear text.
+    1) Use HTTPS (TLS) so that the authorization header is not in clear text.
 
-  2) The token generation/authentication mechanism was improved to optionally prevent
-  token reuse. As of v1.4 a more secure token can be used by setting environment variable:
+    2) The token generation/authentication mechanism was improved to optionally prevent
+       token reuse. As of v1.4 a more secure token can be used by setting environment variable:
 
   FABRIC_CA_SERVER_COMPATIBILITY_MODE_V1_3=false
 
@@ -80,33 +73,30 @@ None.
 
 ## Changes:
 
-* 076f37bb68814b8dc4464d768b4263045ff32bc0 Release commit for v1.5.4
-* 60ae815406b0b143859530999555e3a272ba9929 Run "go mod tidy" (#301)
-* 9dbdf809e832b8b81dc1e95b4bda85c2c497fb71 Bump Alpine to 3.16 (#300)
-* a0ab17964d1dd4e3fded074b9af1ec5222b1284f Update vendor for sys/unix
-* e45e34725c62ed9f5a4bfa1b962846b3c9d46068 Update Fabric CA Readme (#296)
-* dd6a104ff856a0dc2e5ac2bdceb321d6914cf70c Bump Go to 1.18.2 (#294)
-* 78e1f1adad257e8bd7e5454d29d328cb757532b1 Make idemix use Mathlib instead of AMCL directly
-* 6a9e85f9ee4079f295b0c9e19624076a5a59f742 Nominate Josh and Mark as maintainers
-* 7405422b689940643e613eaf3045020b4a1e7b30 Add OpenAPI Documentation 
-* 2e79a3e704f501a536748540e1e0776a6ed2e541 Fix swagger issues
+* 9d2a31238d9204b1093bb770daaf79b834e18397 Release commit for v1.5.5
+* 1f16304be0a3ed6ba5a5ae1dde7ae2df0ae839df Revert "Idemix MSP Folder Structure incompatible with what Fabric expects #303"
+* 98dfc86c8586fa986be99c3fcdcd83f65301f3c6 Revert "fixup! Idemix MSP Folder Structure incompatible with what Fabric expects #303"
+* f2fed4ddf529997bab850735f53bcc27fbc6bb68 Revert "create idemix `user` folder under root folder"
+* 65315b2ed52cef4e0c82b2d5b40f3dda0c3319ef Revert "fixup! create idemix `user` folder under root folder"
+* fac0ce6496ed4478f950389f2da09a91c49e18c8 Revert "fixup! create idemix `user` folder under root folder"
+* 77c54da58aaf85c3f6a71f8af968ffb01431aefb fixup! create idemix `user` folder under root folder
+* dfd29fe02e1e3cdb18b157dafc70e1df4040c048 fixup! create idemix `user` folder under root folder
+* 0fcf897b4f57cfc774ebe5d5e75e75e89582429d create idemix `user` folder under root folder
+* 29e083ecab02634beea6e9500ea4d86be3fa21a5 fixup! Idemix MSP Folder Structure incompatible with what Fabric expects #303
 <details><summary><b>See More</b></summary>
 
-* 90e53e33661c36735708408c27a4054c57c754fa Wrong path
-* d0e0abab810ba27c3be77ba1b25aa320eda03968 Minor type
-* c6bbc4b865d87c28205c81776ddbde96b9db2507 test: use `T.TempDir` to create temporary test directory
-* 8b815daa5620516fd5ff0bd58d35e802cc468f24 Prepare for v1.5.4 release
-* e960bb96bd23febfa38178aa8f512bd33c4a2c45 Cleanup maintainers list
+* acea74626c69f180dd60e67f35c0d2aa0e3d6394 Idemix MSP Folder Structure incompatible with what Fabric expects #303
+* 3be7a152bfb879e58b58f1bb53769519ddc00334 Correct handling of CA VerifyOptions (#306)
 
-This list of changes was [auto generated](https://dev.azure.com/Hyperledger/Fabric/_build/results?buildId=53830&view=logs).</details>
+This list of changes was [auto generated](https://dev.azure.com/Hyperledger/Fabric/_build/results?buildId=54593&view=logs).</details>
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-ca/releases/tag/v1.5.4" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-ca/releases/tag/v1.5.5" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-06-17 16:29:22 +0000 UTC
+        Created At 2022-07-08 09:07:56 +0000 UTC
     </span>
 </div>
 
