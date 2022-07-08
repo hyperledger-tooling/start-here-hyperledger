@@ -1,13 +1,13 @@
 
+[289](https://github.com/hyperledger-labs/fabric-token-sdk/pull/289) auditor and issuer are the same node #283
+
+[4073](https://github.com/hyperledger/besu/pull/4073) no need to register peers connect/disconnect for Snap as well
+
+[310](https://github.com/hyperledger-labs/fabric-smart-client/pull/310) view-sdk: enhancements 
+
+[3516](https://github.com/hyperledger/fabric/pull/3516) Update gateway.md
+
 [4072](https://github.com/hyperledger/besu/pull/4072) Loads uncached logs on cache miss.
-
-[253](https://github.com/hyperledger-labs/fabric-operations-console/pull/253) Bump moment from 2.29.2 to 2.29.4 in /packages/apollo
-
-[252](https://github.com/hyperledger-labs/fabric-operations-console/pull/252) npm dep updates
-
-[251](https://github.com/hyperledger-labs/fabric-operations-console/pull/251) add logs to debug comp status better
-
-[104](https://github.com/hyperledger/iroha-python/pull/104) Generated protobuf files with protobuf 3.12.4 on Ubuntu 21.04
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

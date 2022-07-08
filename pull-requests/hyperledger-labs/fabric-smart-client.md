@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/310" class=".btn">#310</a>
+            </td>
+            <td>
+                <b>
+                    view-sdk: enhancements 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR introduces utility functions needed to address https://github.com/hyperledger-labs/fabric-token-sdk/issues/283 
+
+Enhacements:
+- add ability to retrive responder from the registry
+
+Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-08 05:45:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/309" class=".btn">#309</a>
             </td>
             <td>
