@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-ca
             </td>
             <td>
                 <b>
-                    Release commit for v1.5.5 - DRAFT - DO NOT MERGE
+                    Release commit for v1.5.5
                 </b>
             </td>
         </tr>
