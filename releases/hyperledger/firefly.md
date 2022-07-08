@@ -27,7 +27,7 @@ permalink: /releases/hyperledger/firefly
             </td>
             <td>
                 ## Summary
-Adding support for custom URI's for non-fungible tokens and documentation updates.
+Adds support for custom URIs for non-fungible tokens, and documentation updates.
 
 ## What's Changed
 * Deprecate default value for "ffdx" by @awrichar in https://github.com/hyperledger/firefly/pull/882
