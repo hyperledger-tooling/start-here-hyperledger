@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3519" class=".btn">#3519</a>
+            </td>
+            <td>
+                <b>
+                    fix(security): Path Traversal Bug
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Unsanitized input from open tar file flows into os.Open, where it is used as a path. This may result in a Path Traversal vulnerability and allow an attacker to open arbitrary files.
+
+primary changes :
+	1.updates to archive.go
+
+Signed-off-by: Bhaskar <ram@hacker.ind.in>
+
+- Bug fix
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Unsanitized input from open tar file flows into os.Open, where it is used as a path. This may result in a Path Traversal vulnerability and allow an attacker to open arbitrary files.
+
+## Data flow:
+22 steps in 1 file
+vendor/github.com/docker/docker/pkg/archive/diff.go
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-09 14:44:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3517" class=".btn">#3517</a>
             </td>
             <td>
