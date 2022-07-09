@@ -14,6 +14,87 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/895" class=".btn">#895</a>
+            </td>
+            <td>
+                <b>
+                    Map namespace between local name and remote name
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Orchestrator is now aware of the namespace local name _and_ remote name, as are some of the managers. Plugins are intentionally not aware of the mapping, but are passed the local or remote namespace names as appropriate.
+
+The only two items which_record_ a remote namespace name are `messages` and `groups`. These now have an additional `localNamespace` field, which will be populated with the local namespace, and the existing `namespace` field will be populated with the remote namespace (because it is part of the hash in both of these cases, it must remain the same for all members). In addition, `batch` and `data` items will be populated with the remote namespace name for network transit (but will be stored with the local namespace name only). Beyond these, every other existing object simply continues to populate its `namespace` with a local namespace name.
+
+Some more notes on how the local namespace is filled for other items:
+* All definition types (datatypes, contract FFIs/APIs, identities, and token pools) are transmitted _without_ a namespace filled. Each receiving node will map the definition based on the enclosing message's namespace, and then will fill in the local namespace name before storing the item.
+* Token transfers and approvals continue to inherit their namespace from the associated token pool.
+* Contract listeners are still local-only, and blockchain events tied to them will inherit their namespace.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-08 20:39:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/894" class=".btn">#894</a>
+            </td>
+            <td>
+                <b>
+                    Add basic auth support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds basic auth support for:
+
+- HTTP listeners
+- All HTTP requests within a namespace (including WebSocket upgrades)
+- `start` requests over an open WebSocket connection
+
+Example config:
+
+```
+plugins:
+  auth:
+  - name: basicauth
+    type: basic
+      basic:
+        passwordfile: /etc/firefly/allowed_users
+```
+Where `passwordfile: /etc/firefly/allowed_users` is a file created with `htpasswd` using bcrypt hashed passwords. For example, you can create such a file by running: 
+```
+htpasswd -cB allowed_users firefly
+```
+
+Prerequisites for merge:
+- [ ] https://github.com/hyperledger/firefly-common/pull/24
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-08 19:19:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/893" class=".btn">#893</a>
             </td>
             <td>
@@ -78,7 +159,7 @@ This re-enables streaming logs during E2E runs (which is disabled by default whe
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">migration_consideration</span>
             </td>
             <td>
                 Now, both ethconnect and fabconnect subscription names contain the namespace name. This means that events will now be delivered only to the callback handler for that namespace, instead of every single callback handler. Older subscriptions will still be delivered to all handlers. 
