@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/108" class=".btn">#108</a>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/109" class=".btn">#109</a>
             </td>
             <td>
                 <b>
-                    Review readme files
+                    Update for RC6
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-javascript
                 
             </td>
             <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+                Signed-off-by: 0x009922 <a.marcius26@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-30 07:48:16 +0000 UTC
+        Created At 2022-07-09 07:13:15 +0000 UTC
     </div>
 </div>
 
