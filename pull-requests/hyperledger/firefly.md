@@ -29,7 +29,7 @@ permalink: /pull-requests/hyperledger/firefly
             <td>
                 Orchestrator is now aware of the namespace local name _and_ remote name, as are some of the managers. Plugins are intentionally not aware of the mapping, but are passed the local or remote namespace names as appropriate.
 
-The only two items which_record_ a remote namespace name are `messages` and `groups`. These now have an additional `localNamespace` field, which will be populated with the local namespace, and the existing `namespace` field will be populated with the remote namespace (because it is part of the hash in both of these cases, it must remain the same for all members). In addition, `batch` and `data` items will be populated with the remote namespace name for network transit (but will be stored with the local namespace name only). Beyond these, every other existing object simply continues to populate its `namespace` with a local namespace name.
+The only two items which _record_ a remote namespace name are `Message` and `Group`. These now have an additional `localNamespace` field, which will be populated with the local namespace, while the existing `namespace` field will be populated with the remote namespace (because it is part of the hash in both of these cases, it must remain the same for all members). In addition, `Batch` and `Data` items will be populated with the remote namespace name for network transit (but will be stored with the local namespace name only). Beyond these, every other existing object simply continues to populate its `namespace` with a local namespace name.
 
 Some more notes on how the local namespace is filled for other items:
 * All definition types (datatypes, contract FFIs/APIs, identities, and token pools) are transmitted _without_ a namespace filled. Each receiving node will map the definition based on the enclosing message's namespace, and then will fill in the local namespace name before storing the item.
@@ -188,7 +188,9 @@ This re-enables streaming logs during E2E runs (which is disabled by default whe
                 
             </td>
             <td>
-                Also rename the "namespace" parameter to "action" in V2, and handle accordingly.
+                Split out separate "pinBatch" and "networkAction" methods in the V2 contract, and make it the default. Adjust the blockchain plugins to handle both versions of the contract cleanly.
+
+Also fix some bugs found along the way with network actions being broken.
             </td>
         </tr>
     </table>
