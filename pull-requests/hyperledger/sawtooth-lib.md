@@ -168,29 +168,3 @@ new artifacts.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/144" class=".btn">#144</a>
-            </td>
-            <td>
-                <b>
-                    Fix rust 1.62 lint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-01 22:18:29 +0000 UTC
-    </div>
-</div>
-

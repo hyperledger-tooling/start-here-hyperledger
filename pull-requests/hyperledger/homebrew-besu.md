@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/homebrew-besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/79" class=".btn">#79</a>
+                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/80" class=".btn">#80</a>
             </td>
             <td>
                 <b>
-                    22.4.3
+                    release 22.4.4
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/homebrew-besu
                 
             </td>
             <td>
-                Updates homebrew formula to latest release.
+                Signed-off-by: garyschulte <garyschulte@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-16 18:51:17 +0000 UTC
+        Created At 2022-07-08 19:12:35 +0000 UTC
     </div>
 </div>
 
