@@ -64,31 +64,3 @@ In addition, this bumps the k8s-builder revision to v0.6.0.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/22" class=".btn">#22</a>
-            </td>
-            <td>
-                <b>
-                    upgrade test cases to ginkgo v2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                upgrade test cases to ginkgo v2
-
-Signed-off-by: Sam Yuan <yy19902439@126.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-02 11:09:29 +0000 UTC
-    </div>
-</div>
-
