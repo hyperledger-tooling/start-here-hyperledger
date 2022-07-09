@@ -34,10 +34,15 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
 5. Bump Relay version and Protos version to 1.4.0.
 6. (EDIT) Added event subscription api in fabric-sdk.
 7. (EDIT) Added sample command in fabric-cli to register for an event.
+8. (EDIT2) Added unsubscription endpoint in relay.
+9. (EDIT2) Relay now fetches sign and cert from driver on the subscription request.
+10. (EDIT2) Added unsubscribe api in weaver-sdk and sample command in fabric-cli. 
 
 Improvements:
 1. Moved all committed fabric-network artifacts to separate folder, which will be copied to `shared` folder during network start, and deleted when run `make clean`.
 2. Added workflow to test relay using dummy driver and dummy client.
+3. (EDIT2) Code reorganization in Relay to re-use existing code in different endpoints.
+4. (EDIT2) Fixed warnings in Relay compilation.
 
 Close #267 #272 #292 
 
