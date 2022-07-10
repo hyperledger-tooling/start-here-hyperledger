@@ -37,6 +37,8 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
 8. (EDIT2) Added unsubscription endpoint in relay.
 9. (EDIT2) Relay now fetches sign and cert from driver on the subscription request.
 10. (EDIT2) Added unsubscribe api in weaver-sdk and sample command in fabric-cli. 
+11. (EDIT3) Added get subscription status api in weaver SDK and sample command in fabric-cli.
+12. (EDIT3) Updated Subscription Status protos enum.
 
 Improvements:
 1. Moved all committed fabric-network artifacts to separate folder, which will be copied to `shared` folder during network start, and deleted when run `make clean`.
