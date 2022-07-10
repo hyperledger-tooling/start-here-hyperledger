@@ -168,32 +168,3 @@ closes #53
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/48" class=".btn">#48</a>
-            </td>
-            <td>
-                <b>
-                    fix: add indy-sdk-react-native dep
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-
-Fixes #47 
-Fixes https://github.com/hyperledger/aries-framework-javascript/issues/916
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-02 18:46:19 +0000 UTC
-    </div>
-</div>
-
