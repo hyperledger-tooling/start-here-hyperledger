@@ -415,29 +415,3 @@ Signed-off-by: Ariel Gentile <gentilester@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/924" class=".btn">#924</a>
-            </td>
-            <td>
-                <b>
-                    chore: update afj dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Just some housekeeping
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-03 13:38:11 +0000 UTC
-    </div>
-</div>
-
