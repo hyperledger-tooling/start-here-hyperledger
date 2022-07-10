@@ -107,38 +107,3 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/133" class=".btn">#133</a>
-            </td>
-            <td>
-                <b>
-                    feat(redux-store)!: update to afj 0.2.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updates redux store package to AFJ 0.2.0, removes most of the thunks (except get all to initialize the state) and updates the event listeners to the generic record events.
-
-Supersedes #119.
-
-MAKE SURE TO ADD THE FOLLOWING BREAKING CHANGES TO THE END OF THE SQUASHED COMMIT MESSAGE:
-
-BREAKING CHANGE: the state changed events listeners have been updated to the new generic record saved/updated/deleted events. Instead of using a listener for each of the record types, you only have to use the `startRecordsListeners` method now.
-
-BREAKING CHANGE: The thunks that exposed all module methods from AFJ are now removed. Instead of using the thunks, you should use the agent directly.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-03 13:20:33 +0000 UTC
-    </div>
-</div>
-
