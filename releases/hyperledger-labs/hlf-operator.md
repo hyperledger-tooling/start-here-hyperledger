@@ -15,29 +15,29 @@ permalink: /releases/hyperledger-labs/hlf-operator
         <tr>
             <td colspan="2">
                 <b>
-                    Version 1.7.0-beta5
+                    Version 1.7.0-beta7
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.7.0-beta5
+                    v1.7.0-beta7
                 </span>
             </td>
             <td>
                 ## Changelog
-* 824dd3a Add hlf-operator-ui as a CRD
+* 178a0db Ignore windows arm64
 
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/hlf-operator/releases/tag/v1.7.0-beta5" class=".btn">
+    <a href="https://github.com/hyperledger-labs/hlf-operator/releases/tag/v1.7.0-beta7" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-06-28 16:56:43 +0000 UTC
+        Created At 2022-07-11 11:14:05 +0000 UTC
     </span>
 </div>
 
