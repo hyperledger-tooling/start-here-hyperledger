@@ -1,13 +1,13 @@
 
-[1084](https://github.com/hyperledger/besu-docs/pull/1084) Use berlin milestone for private network examples
+[314](https://github.com/hyperledger-labs/fabric-smart-client/pull/314) Upgrade to CodeQL v2
 
-[433](https://github.com/hyperledger-labs/orion-server/pull/433) update expired sample crypto
+[292](https://github.com/hyperledger-labs/fabric-token-sdk/pull/292) Upgrade to CodeQL v2
 
-[1083](https://github.com/hyperledger/besu-docs/pull/1083) Update permissioning tutorials with correct ibftConfigFile contents
+[509](https://github.com/hyperledger/aries-vcx/pull/509) Fix: publishing rev-reg should update value of handle, not create new
 
-[468](https://github.com/hyperledger/cello/pull/468) Revert "Fix (security) : Path Traversal Bug"
+[3272](https://github.com/hyperledger/aries-framework-go/pull/3272) refactor: change type of Forward.Msg from byte array to Envelope stru…
 
-[467](https://github.com/hyperledger/cello/pull/467) Revert "Fix : (Security) Migitate Path Traversal Bug"
+[4080](https://github.com/hyperledger/besu/pull/4080) New payload: add invalid to bad blocks
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

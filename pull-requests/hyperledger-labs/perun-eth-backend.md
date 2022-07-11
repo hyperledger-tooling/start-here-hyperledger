@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-backend
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/18" class=".btn">#18</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/19" class=".btn">#19</a>
             </td>
             <td>
                 <b>
-                    Update go-perun
+                    Multi backend
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-backend
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-27 13:38:31 +0000 UTC
+        Created At 2022-07-11 09:49:30 +0000 UTC
     </div>
 </div>
 
