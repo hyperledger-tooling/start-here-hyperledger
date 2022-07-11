@@ -128,32 +128,3 @@ Task list:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/905" class=".btn">#905</a>
-            </td>
-            <td>
-                <b>
-                    Parse tree should specify if string literal was unicode"foo" (#2)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                PR #902 attempted to fix this, but only added this to the lexer, not
-the parse tree. This adds a boolean to the parse tree.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-04 08:39:19 +0000 UTC
-    </div>
-</div>
-

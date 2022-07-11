@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-test
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/395" class=".btn">#395</a>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/396" class=".btn">#396</a>
             </td>
             <td>
                 <b>
-                    Disable daily test release-2.1
+                    Add workflow dispatch to the get steps triggered
                 </b>
             </td>
         </tr>
@@ -27,70 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-test
                 
             </td>
             <td>
-                Disable daily test release-2.1.
+                (also move to the correct directory)
 
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-08 14:03:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/394" class=".btn">#394</a>
-            </td>
-            <td>
-                <b>
-                    Disable daily test release-2.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Disable daily test release-2.0
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-08 14:00:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/393" class=".btn">#393</a>
-            </td>
-            <td>
-                <b>
-                    Turn off nightly interop test for release-2.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Turn off nightly interop test for release-2.3
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-06-08 13:49:46 +0000 UTC
+        Created At 2022-07-11 08:47:14 +0000 UTC
     </div>
 </div>
 

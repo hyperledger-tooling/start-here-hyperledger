@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/509" class=".btn">#509</a>
+            </td>
+            <td>
+                <b>
+                    Fix: publishing rev-reg should update value of handle, not create new
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-11 12:16:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/506" class=".btn">#506</a>
             </td>
             <td>
@@ -94,7 +121,27 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 
             </td>
             <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+                Removed old libvcx approach to credential definitions and revocation registries, where these were tightly coupled together. Also removed respective node wrapper functions. 
+
+```
+vcx_credentialdef_create_and_store    | createAndStore
+vcx_credentialdef_rotate_rev_reg_def  | rotateRevRegDef
+vcx_credentialdef_publish_revocations | publishRevocations
+vcx_credentialdef_get_tails_hash      | getTailsHash
+vcx_credentialdef_get_rev_reg_id      | getRevRegId
+
+vcx_revocation_registry_rotate        | rotate
+
+vcx_issuer_send_credential_offer      | sendOffer
+vcx_issuer_build_credential_offer_msg | was removed
+```
+
+- Apart from removing the interface, updated `libvcx` tests to follow the new approach, creating and publishing credential definitions and revocation registries independently.
+- Few tests were deleted as they didn't no longer make sense or were not worth the effort
+- Additionally packed in 1 bugfix: Function `revocation_registry::publish` was creating new revocation registry handle, instead of updating value of the existing one.
+
+
+Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
             </td>
         </tr>
     </table>
