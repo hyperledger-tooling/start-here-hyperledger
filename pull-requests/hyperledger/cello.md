@@ -97,33 +97,3 @@ Signed-off-by: xichen1 <xichen.pan@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/465" class=".btn">#465</a>
-            </td>
-            <td>
-                <b>
-                    Improve observability on node and network creating process
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * Add logs for `ResourceNotExists` Error.
-* Create a command to remove all node containers.
-* Tweak `deep-clean` command so then it can clean HLF nodes as well. 
-
-Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-04 17:54:20 +0000 UTC
-    </div>
-</div>
-

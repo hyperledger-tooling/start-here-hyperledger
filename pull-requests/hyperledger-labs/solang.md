@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/911" class=".btn">#911</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Update seal debug message
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The `seal_println` runtime function was superseded by `seal_debug_message` in Substrate v3.0. This PR makes the `print("...")` builtin work again for current Substrate versions.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-11 13:31:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/910" class=".btn">#910</a>
             </td>
             <td>
