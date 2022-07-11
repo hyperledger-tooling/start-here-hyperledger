@@ -1,13 +1,13 @@
 
-[314](https://github.com/hyperledger-labs/fabric-smart-client/pull/314) Upgrade to CodeQL v2
+[573](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/573) Bump moment from 2.29.3 to 2.29.4
 
-[292](https://github.com/hyperledger-labs/fabric-token-sdk/pull/292) Upgrade to CodeQL v2
+[2469](https://github.com/hyperledger/iroha/pull/2469) [documentation]: Update test flakyness
 
-[509](https://github.com/hyperledger/aries-vcx/pull/509) Fix: publishing rev-reg should update value of handle, not create new
+[56](https://github.com/hyperledger/fabric-chaincode-go/pull/56) Update dependencies
 
-[3272](https://github.com/hyperledger/aries-framework-go/pull/3272) refactor: change type of Forward.Msg from byte array to Envelope stru…
+[572](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/572) Support Avalanche and Fuji testnet in Hardhat; add Fuji deployment
 
-[4080](https://github.com/hyperledger/besu/pull/4080) New payload: add invalid to bad blocks
+[571](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/571) data schema and loader for U.S. oil & gas assets
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

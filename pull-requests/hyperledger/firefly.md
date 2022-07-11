@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/896" class=".btn">#896</a>
+            </td>
+            <td>
+                <b>
+                    Support tokens only namespaces
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Now, multiparty-disabled namespaces can run without a blockchain plugin:
+ * All contract routes will be disabled
+ * Identity normalizations that rely on a blockchain plugin will either default to the specified input/default key or fail
+ * `aggregator` is not started within `EventManager`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-11 14:40:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/895" class=".btn">#895</a>
             </td>
             <td>
@@ -27,7 +56,9 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                Orchestrator is now aware of the namespace local name _and_ remote name, as are some of the managers. Plugins are intentionally not aware of the mapping, but are passed the local or remote namespace names as appropriate.
+                Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12)
+
+Orchestrator is now aware of the namespace local name _and_ remote name, as are some of the managers. Plugins are intentionally not aware of the mapping, but are passed the local or remote namespace names as appropriate.
 
 The only two items which _record_ a remote namespace name are `Message` and `Group`. These now have an additional `localNamespace` field, which will be populated with the local namespace, while the existing `namespace` field will be populated with the remote namespace (because it is part of the hash in both of these cases, it must remain the same for all members). In addition, `Batch` and `Data` items will be populated with the remote namespace name for network transit (but will be stored with the local namespace name only). Beyond these, every other existing object simply continues to populate its `namespace` with a local namespace name.
 
@@ -188,7 +219,9 @@ This re-enables streaming logs during E2E runs (which is disabled by default whe
                 
             </td>
             <td>
-                Split out separate "pinBatch" and "networkAction" methods in the V2 contract, and make it the default. Adjust the blockchain plugins to handle both versions of the contract cleanly.
+                Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12)
+
+Split out separate "pinBatch" and "networkAction" methods in the V2 contract, and make it the default. Adjust the blockchain plugins to handle both versions of the contract cleanly.
 
 Also fix some bugs found along the way with network actions being broken.
             </td>
@@ -322,6 +355,7 @@ Also fix some bugs found along the way with network actions being broken.
             <td>
                 Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12)
 ~~In a chain with #883~~
+In a chain with #890
 
 Background: The legacy `ff_system` namespace is created (ie an orchestrator and managers are initialized) whenever the default namespace is a V1 multiparty network. The `ff_system` namespace is initialized with an exact duplicate of the default namespace config (same plugins, same contract addresses, etc).
 
