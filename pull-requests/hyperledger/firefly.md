@@ -28,7 +28,7 @@ permalink: /pull-requests/hyperledger/firefly
             </td>
             <td>
                 Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12)
-Note: this is going to have a major merge conflict with #895 (at least in orchestrator)
+In a chain with #895
 
 Remove all remaining functionality related to broadcasting namespaces. It was already broken from previous commits, but this is now to confirm:
 - any previously-broadcast namespaces that are not spelled out in the config will cease to function in the next release

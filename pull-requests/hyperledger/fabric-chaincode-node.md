@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/337" class=".btn">#337</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/339" class=".btn">#339</a>
             </td>
             <td>
                 <b>
-                    Update README.md
+                    added purgePrivateData function with tests
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                Fixes #336
-
-Signed-off-by: Ry Jones <ry@linux.com>
+                Signed-off-by: fraVlaca <ocsenarf@outlook.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-18 15:04:51 +0000 UTC
+        Created At 2022-07-12 14:25:58 +0000 UTC
     </div>
 </div>
 

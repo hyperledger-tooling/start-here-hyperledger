@@ -36,30 +36,3 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/82" class=".btn">#82</a>
-            </td>
-            <td>
-                <b>
-                    Connector changes to support custom URI's
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-candidate</span><span class="chip">backport-complete</span>
-            </td>
-            <td>
-                * adds `uri` as a parameter to the `/mint` api
-* adds `baseUri` to `TokenPoolEventInfo` on contracts that support the custom uri interface
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-05 16:49:41 +0000 UTC
-    </div>
-</div>
-

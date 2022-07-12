@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/259" class=".btn">#259</a>
+            </td>
+            <td>
+                <b>
+                    fix empty channel list
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
+
+#### Type of change
+- Bug fix
+
+
+#### Description
+Channel list is empty when there are channels with empty OrdererAddresses
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-12 15:58:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/258" class=".btn">#258</a>
             </td>
             <td>

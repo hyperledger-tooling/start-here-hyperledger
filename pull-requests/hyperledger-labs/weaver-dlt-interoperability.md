@@ -87,36 +87,3 @@ Close #267 #272 #292
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/290" class=".btn">#290</a>
-            </td>
-            <td>
-                <b>
-                    Minor Package Upgrades, Code Refactoring, and Bug Fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Upgraded Weaver protos to version `1.3.2`.
-Removed `.npmrc` files containing private credentials from Docker container images.
-Updated Corda testnet compose files to work with the latest version of docker-compose.
-Updated Fabric testnet chaincode deployments to depend on latest and recent versions of Golang.
-Bug fixes and output formatting changes in Fabric chaincodes and CLI.
-Added more assets in Fabric CLI configuration files to enable more asset exchange test scenarios.
-Unlinked publishing of module packages from protos package in github workflows to avoid occasional test failures.
-Update instructions in tutorial docs.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-05 18:13:41 +0000 UTC
-    </div>
-</div>
-
