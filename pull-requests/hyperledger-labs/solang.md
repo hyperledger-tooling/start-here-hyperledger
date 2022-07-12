@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/914" class=".btn">#914</a>
+            </td>
+            <td>
+                <b>
+                    Documentation: Clarify that mock VM implementations may omit aspects …
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …not mattering in unit tests
+
+As discussed.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-12 10:29:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/913" class=".btn">#913</a>
+            </td>
+            <td>
+                <b>
+                    Fix vscode extension build
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Looks like @types/vscode 1.69.0 is broken. Do not use this version.
+
+vscode-test has been renamed to @vscode/test-electron, update this too.
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-12 09:10:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/912" class=".btn">#912</a>
             </td>
             <td>
@@ -117,37 +175,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2022-07-07 13:58:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/907" class=".btn">#907</a>
-            </td>
-            <td>
-                <b>
-                    solang version information missing when built outside of git
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The build.rs uses `git describe --tags` to get the version for `solang
---version`. When built outside of git, use the crate version.
-
-This affects the brew build of solang.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-05 10:35:20 +0000 UTC
     </div>
 </div>
 

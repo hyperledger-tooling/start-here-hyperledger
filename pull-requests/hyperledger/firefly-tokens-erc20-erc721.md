@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/66" class=".btn">#66</a>
+            </td>
+            <td>
+                <b>
+                    add `baseTokenUri` param to ERC721 hardhat deploy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Deploys ERC721WithData with `baseTokenUri` set to an empty string, so the contract will use the default base URI of `firefly://token/`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-12 09:47:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/65" class=".btn">#65</a>
             </td>
             <td>

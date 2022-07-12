@@ -90,36 +90,3 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-go/pull/53" class=".btn">#53</a>
-            </td>
-            <td>
-                <b>
-                    Add GHA support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add gh-actions workflow
-
-Update the one formatting, two lint and failing tests assertion that prevents the build from completing
-
-The assertion (assert.Equal) fixes should be a temporary solution as I believe we need to change the assertion library.
-To the one used by the main fabric repo - as that seems to be able to cope with equality of TLSConfig structures.   The current one here doesn't cope with objects with functions.
-
-Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-05 10:42:09 +0000 UTC
-    </div>
-</div>
-
