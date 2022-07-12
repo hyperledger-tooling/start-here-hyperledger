@@ -140,29 +140,3 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/215" class=".btn">#215</a>
-            </td>
-            <td>
-                <b>
-                    Disable Azure Pipelines build in main branch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-05 10:36:21 +0000 UTC
-    </div>
-</div>
-

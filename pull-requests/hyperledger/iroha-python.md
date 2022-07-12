@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/106" class=".btn">#106</a>
+            </td>
+            <td>
+                <b>
+                    [documentation] adds more details to the installation instruction
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Please review and add more detailed installation instructions for the [`iroha2`](https://github.com/hyperledger/iroha-python/tree/iroha2) branch.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-12 10:57:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-python/pull/104" class=".btn">#104</a>
             </td>
             <td>

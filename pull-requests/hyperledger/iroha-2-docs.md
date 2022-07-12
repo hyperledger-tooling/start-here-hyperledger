@@ -53,32 +53,3 @@ Signed-off-by: 6r1d <vic.6r1d@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/77" class=".btn">#77</a>
-            </td>
-            <td>
-                <b>
-                    #73, #60: Update info about roles, mark statements about the future
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-Closes #73 minor adjustments about role registration and role granting
-Closes #60 (`<!-- Check: a reference about future releases or work in progress -->` marks all statements that have to be checked regularly as they mention WIP or a future release)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-05 07:55:53 +0000 UTC
-    </div>
-</div>
-

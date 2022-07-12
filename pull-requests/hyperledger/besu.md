@@ -14,6 +14,88 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4086" class=".btn">#4086</a>
+            </td>
+            <td>
+                <b>
+                    Enclave public key length constraint removed for private transactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Removes the length constraint of 44 characters for the base64 version of an enclave public key for private transactions via Tessera. More details in the linked issue.
+
+Adapts the acceptance tests so this change could be validated against the target Tessera configuration (EC encryptor).
+
+Upgrades package `org.web3j:eea` to 4.9.3 (it was a transitive dependency before) since the same constraint was in that package and it is used for the acceptance tests. It is the only package upgraded from the web3j suite since there is a breaking change in `PrivateTransactionManager` ([this PR](https://github.com/web3j/web3j/pull/1602/files) got rid of the `PrivateTransactionEncoder` - issue yet to be created - will update this PR with that).
+
+## Fixed Issue(s)
+
+fixes #3819 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-12 10:50:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4085" class=".btn">#4085</a>
+            </td>
+            <td>
+                <b>
+                    checkpoint sync for merge
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-12 08:36:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4083" class=".btn">#4083</a>
             </td>
             <td>
@@ -604,93 +686,6 @@ new RC1
     </table>
     <div class="right-align">
         Created At 2022-07-05 17:32:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4056" class=".btn">#4056</a>
-            </td>
-            <td>
-                <b>
-                    Return the correct latest valid hash in case of bad block
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-In case a bad block is passed to `newPayload` or `forkchoiceUpdate` then response must contain the hash of the lastest valid block on the chain of the bad block, while now we just return the zero hash.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-fixes #3893 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-05 12:22:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4055" class=".btn">#4055</a>
-            </td>
-            <td>
-                <b>
-                    fcU: Ignore newHead if it is an ancestor of chain head
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                ## PR description
-A forkchoice update will be ignored if `newHead` is an ancestor of chain head.
-
-## Fixed Issue(s)
-fixes #4051
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-05 09:39:53 +0000 UTC
     </div>
 </div>
 
