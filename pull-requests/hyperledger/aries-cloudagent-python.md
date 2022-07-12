@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1854" class=".btn">#1854</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1856" class=".btn">#1856</a>
             </td>
             <td>
                 <b>
-                    python-3.7 update
+                    Githubaction publish docker image
                 </b>
             </td>
         </tr>
@@ -27,14 +27,23 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                # UNDER RAPID DEVELOPMENT!
-This draft PR updates ACA-PY to use python-3.7 along with dependency updates. 
-For questions during development please reach out to @burdettadam or @dbluhm.
+                Hi, @swcurran mentioned in today's AcaPug call that you would be interested in a pipeline for building and publishing AcaPy Docker images automatically for every tagged commit.
+
+The GitHub Action below should do this. It is triggered for every tagged commit and will build the docker image using the `docker/Dockerfile.run` file. The images are being published in the GitHub package registry of this repo.
+
+Example: If a commit is tagged with `0.7.4-rc6` an image will automatically be built and published with the following two tags:
+1. aries-cloudagent-python:latest
+2. aries-cloudagent-python:0.7.4-rc6
+
+You can also see the build image in my forked version of this repo: https://github.com/PaulWen/aries-cloudagent-python/pkgs/container/aries-cloudagent-python
+
+
+Let me know if this is of any help or if I misunderstood the requirements. I am happy to iterate over it and appreciate any feedback!
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-05 18:14:40 +0000 UTC
+        Created At 2022-07-12 17:25:03 +0000 UTC
     </div>
 </div>
 

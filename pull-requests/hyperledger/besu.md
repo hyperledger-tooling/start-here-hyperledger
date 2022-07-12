@@ -350,47 +350,6 @@ port=0, nodeId=0xbfef556cec5aa40b3e02dd70afcac437e1689d31caaecbf68c3401f83ac9a86
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4072" class=".btn">#4072</a>
-            </td>
-            <td>
-                <b>
-                    Loads uncached logs on cache miss.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-## PR description
-
-On a miss of the on-disk logs bloom cache, we check the uncached storage, and return that if available.
-
-## Fixed Issue(s)
-fixes #3921 
-
-## Documentation
-
-- [X] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-08 00:13:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4069" class=".btn">#4069</a>
             </td>
             <td>
@@ -658,34 +617,6 @@ new RC1
     </table>
     <div class="right-align">
         Created At 2022-07-05 22:13:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4058" class=".btn">#4058</a>
-            </td>
-            <td>
-                <b>
-                    3943 stop blocks on finalized
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixed #3943 
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-05 17:32:06 +0000 UTC
     </div>
 </div>
 
