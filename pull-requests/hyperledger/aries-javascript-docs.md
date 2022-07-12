@@ -142,29 +142,3 @@ closes #53
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/49" class=".btn">#49</a>
-            </td>
-            <td>
-                <b>
-                    fix: spelling correction
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Akias <namhainguyenminh@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-04 20:10:43 +0000 UTC
-    </div>
-</div>
-

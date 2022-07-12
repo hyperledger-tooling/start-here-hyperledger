@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/191" class=".btn">#191</a>
+            </td>
+            <td>
+                <b>
+                    Jammy upgrade
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-11 20:43:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/190" class=".btn">#190</a>
             </td>
             <td>
