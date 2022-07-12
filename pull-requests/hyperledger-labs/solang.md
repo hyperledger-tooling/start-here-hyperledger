@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/912" class=".btn">#912</a>
+            </td>
+            <td>
+                <b>
+                    Support length for storage strings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add support for retrieving the length of a string saved in storage. I implemented this to help me debug an issue with Borsh Encoding.
+
+Solc does not support this.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-11 20:19:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/911" class=".btn">#911</a>
             </td>
             <td>
@@ -120,38 +148,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2022-07-05 10:35:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/906" class=".btn">#906</a>
-            </td>
-            <td>
-                <b>
-                    WIP: Borsh encoding
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR is a work in progress for the Borsh Encoding. It will allow us to call Rust contracts on Solana.
-
-Task list:
-
-- [x] Implement the encoding
-- [x] Create code generation tests
-- [ ] Create runtime tests
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-04 22:34:28 +0000 UTC
     </div>
 </div>
 

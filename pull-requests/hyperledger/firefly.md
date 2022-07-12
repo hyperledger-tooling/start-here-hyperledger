@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/898" class=".btn">#898</a>
+            </td>
+            <td>
+                <b>
+                    Strip down namespace object and clean up APIs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">migration_consideration</span>
+            </td>
+            <td>
+                Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12)
+Note: this is going to have a major merge conflict with #895 (at least in orchestrator)
+
+Remove all remaining functionality related to broadcasting namespaces. It was already broken from previous commits, but this is now to confirm:
+- any previously-broadcast namespaces that are not spelled out in the config will cease to function in the next release
+- in the future, if we want to add back dynamic namespace capability, it will probably take the form of editing the config file and adding a local API that reloads the config dynamically
+
+Clean up the `/namespaces/{ns}` and `/namespaces/{ns}/status` APIs to be a little more organized.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-12 00:05:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/896" class=".btn">#896</a>
             </td>
             <td>

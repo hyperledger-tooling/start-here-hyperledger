@@ -14,6 +14,125 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2470" class=".btn">#2470</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #2467: Add account grant subcommand into iroha_client_cli
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">CLI</span>
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+* Added `grant` subcommand for `account` command
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Issue
+
+* Closes #2467
+
+
+### Benefits
+
+Now users can grant permissions using `iroha_client_cli`
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks 
+
+* Not a drawback of this PR, but still no support for roles
+* We might need to introduce server response cheking in `Client::submit_transaction()` so that user can see if something has failed on the server-side
+* I've mentioned that the documentation for `iroha_client_cli` tells about possibility to pass empty line for key when registering new account. This does not work now
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests
+
+1. Run docker compose:
+
+``` bash
+docker compose up
+```
+
+2. Open new terminal window and go to `configs/client_cli`
+
+3. Run this commands:
+
+```bash
+cargo run --bin iroha_client_cli -- domain register --id looking_glass
+cargo run --bin iroha_client_cli -- account register --id="mad_hatter@looking_glass" --key="ed01207233bfc89dcbd68c19fde6ce6158225298ec1131b6a130d1aeb454c1ab5183c0"
+cargo run --bin iroha_client_cli -- asset register --id tea#looking_glass --value-type Quantity
+```
+
+4. Then create file `premission_token.json` and paste the following:
+
+```json
+{
+    "name": "can_transfer_user_assets",
+    "params": {
+        "asset_id": {
+            "Id": {
+                "AssetId": {
+                    "definition_id": {
+                        "name": "tea",
+                        "domain_id": {
+                            "name": "looking_glass"
+                        }
+                    },
+                    "account_id": {
+                        "name": "mad_hatter",
+                        "domain_id": {
+                            "name": "looking_glass"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+```
+
+5. Open `config.json` in `configs/client_cli` directory and replace `alice` with `mad_hatter` and `wonderland` with `looking_glass`. This is needed because `alice` can't grant permissions to assets of another domain (I think so; I didn't checked if it's the real reason why it's not working without it)
+
+6. Run the final command:
+
+```bash
+cargo run --bin iroha_client_cli -- account grant --id "mad_hatter@looking_glass" --permission permission_token.json
+```
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-11 20:02:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2469" class=".btn">#2469</a>
             </td>
             <td>

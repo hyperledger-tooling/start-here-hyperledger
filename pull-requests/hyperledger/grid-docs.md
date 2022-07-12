@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/344" class=".btn">#344</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/345" class=".btn">#345</a>
             </td>
             <td>
                 <b>
-                    Update submitter design doc to match impl
+                    Add design doc for HA plan
                 </b>
             </td>
         </tr>
@@ -27,15 +27,15 @@ permalink: /pull-requests/hyperledger/grid-docs
                 
             </td>
             <td>
-                Adds implmentation details and diagrams to the batch submitter design
-doc.
+                Outlines the high availability plan for the submitter and queuer
+subcomponents. This is a first draft; the plan is subject to change.
 
 Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-29 18:06:30 +0000 UTC
+        Created At 2022-07-11 19:06:41 +0000 UTC
     </div>
 </div>
 
