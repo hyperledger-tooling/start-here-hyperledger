@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/246" class=".btn">#246</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/248" class=".btn">#248</a>
             </td>
             <td>
                 <b>
-                    Update MAINTAINERS.md
+                    Fix(security): Path Traversal Bug & Arbitrary Code Execution 
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
+                Primary Changes to ```/fabric-chaincode-integration-test/src/contracts/bare-maven/.mvn/wrapper/MavenWrapperDownloader.java```
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-20 23:16:37 +0000 UTC
+        Created At 2022-07-13 06:18:14 +0000 UTC
     </div>
 </div>
 
