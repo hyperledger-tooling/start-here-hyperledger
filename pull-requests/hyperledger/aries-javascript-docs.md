@@ -116,29 +116,3 @@ closes #53
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/52" class=".btn">#52</a>
-            </td>
-            <td>
-                <b>
-                    docs: ecosystem contributing links
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                See https://github.com/hyperledger/aries-javascript-docs/issues/51
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-06 15:15:27 +0000 UTC
-    </div>
-</div>
-

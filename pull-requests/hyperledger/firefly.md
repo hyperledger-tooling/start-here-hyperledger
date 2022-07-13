@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/901" class=".btn">#901</a>
+            </td>
+            <td>
+                <b>
+                    Only start each plugin once
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-13 14:56:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/900" class=".btn">#900</a>
             </td>
             <td>
@@ -402,32 +428,6 @@ Also fix some bugs found along the way with network actions being broken.
     </table>
     <div class="right-align">
         Created At 2022-07-06 19:42:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/885" class=".btn">#885</a>
-            </td>
-            <td>
-                <b>
-                    back port of custom URI support for non-fungible tokens
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                back port of https://github.com/hyperledger/firefly/pull/879 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-06 16:26:52 +0000 UTC
     </div>
 </div>
 

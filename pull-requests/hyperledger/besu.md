@@ -14,6 +14,105 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4098" class=".btn">#4098</a>
+            </td>
+            <td>
+                <b>
+                    Delegate all the block checks and validation to the block import phase
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span>
+            </td>
+            <td>
+                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Remove preventive checks during sync, since they will be performed always performed during the import phase later, where the block will be also flagged as bad block.
+With this the last failing Hive test (Invalid Ancestor Chain Re-Org, Invalid Number, Invalid P9', Reveal using sync) passes.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-13 14:36:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4097" class=".btn">#4097</a>
+            </td>
+            <td>
+                <b>
+                    Finalised blocks should not prevent reorgs in BWS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                We should allow reorgs bellow finalized blocks during Backwards Sync.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-13 14:00:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4096" class=".btn">#4096</a>
+            </td>
+            <td>
+                <b>
+                    Allow creating the Trie Log Layer objects outside of its package
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Small change to allow using the TrieLogLayer class outside its package.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-13 13:21:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4095" class=".btn">#4095</a>
             </td>
             <td>
@@ -24,7 +123,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
@@ -37,7 +136,7 @@ permalink: /pull-requests/hyperledger/besu
 Currently backward sync create the max number of retries ahead of time, and this could cause unneeded retries in case of non recoverable error like in this log 
 [backward-sync-retries.txt](https://github.com/hyperledger/besu/files/9101478/backward-sync-retries.txt)
 
-This PR rework the retry strategy to create them on demand and fast fail in case of a non recoverable exception.
+This PR rework the retry strategy to create retries on demand and fast fail in case of a non recoverable exception.
 
 
 ## Fixed Issue(s)
@@ -51,7 +150,7 @@ This PR rework the retry strategy to create them on demand and fast fail in case
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -87,6 +186,20 @@ This PR rework the retry strategy to create them on demand and fast fail in case
 when we remember block after the merge we must persist the trielog. because if we lose the trielog in the memory   (ex  restart besu) we can end up in a case where the block is saved but not the trielog. this can prevent the rollback or the rollforward to work because besu will consider that it can do it as the block is present but it will failed because trielog is missing. 
 
 may be one of the reasons for the problem found on a ropsten test node
+
+A possible edgecase description : 
+- the head is block 5
+- we remember block 6
+- as we remember block 6 , we save trielog 6 only in memory
+- CL is saying to go to block 7
+now we have
+- block5 in database + trielog 5 in database
+- block6 in database + trielog 6 in memory
+- block7 in database + trielog 7 in database
+- we have a reorg to block 6
+- we rollback 7 to 6 and we persist again block 6. as trielog 6 is not in the database we save invalid trielog 6 (7->6)
+
+ if we restart before the reorg trielog 6 is missing
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -168,7 +281,7 @@ Reverting this commit since it is causing error in the CL clients and needs to b
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>

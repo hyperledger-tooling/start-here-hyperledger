@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/744" class=".btn">#744</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/745" class=".btn">#745</a>
             </td>
             <td>
                 <b>
-                    [ja_JP] Operations Guides >> Setting up an ordering node(#580)
+                    RU kafka
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
                 
             </td>
             <td>
-                This patch translates orderer_deploy.md into Japanese.
-
-#580
-
-Signed-off-by: Daiki.Nakashima <Nakashima.Daiki@df.MitsubishiElectric.co.jp>
+                Signed-off-by: Alexander Zemtsov <a.zemtsov@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-06 00:22:43 +0000 UTC
+        Created At 2022-07-13 17:15:41 +0000 UTC
     </div>
 </div>
 
