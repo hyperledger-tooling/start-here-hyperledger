@@ -585,38 +585,3 @@ new RC1
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4059" class=".btn">#4059</a>
-            </td>
-            <td>
-                <b>
-                    Log message when path unavailable
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Replaces https://github.com/hyperledger/besu/pull/3989
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-05 22:13:04 +0000 UTC
-    </div>
-</div>
-

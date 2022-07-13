@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/606" class=".btn">#606</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/607" class=".btn">#607</a>
             </td>
             <td>
                 <b>
-                    Cherry pick fix for #582 to 2.2v
+                    Prevent race condition producing partial discovery results
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-01 10:57:38 +0000 UTC
+        Created At 2022-07-12 20:41:00 +0000 UTC
     </div>
 </div>
 

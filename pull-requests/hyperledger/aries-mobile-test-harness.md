@@ -64,29 +64,3 @@ A soft assert is added on the credential offer flow in case the actual workflow 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/66" class=".btn">#66</a>
-            </td>
-            <td>
-                <b>
-                    Fix/sl tunnel mediator direct
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                With the Sauce Labs Tunnel changed to set the Mediator direct, the Apps in Sauce Labs will now access the Mediator directly instead of through the tunnel. This was an issue on Android. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-05 20:39:11 +0000 UTC
-    </div>
-</div>
-

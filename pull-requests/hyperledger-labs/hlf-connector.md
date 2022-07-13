@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/33" class=".btn">#33</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/34" class=".btn">#34</a>
             </td>
             <td>
                 <b>
-                    Channel status - get MSP details from Fabric
+                    update default commit handler, refactor code
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
                 
             </td>
             <td>
-                This api is used for fetching the msp details from fabric to know which all orgs have joined the channel
-
-Signed-off-by: Abhay Kishore <abhay.kishore@walmart.com>
+                Signed-off-by: weihong-ou <weihong.ou@walmart.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-05 10:33:44 +0000 UTC
+        Created At 2022-07-12 20:33:46 +0000 UTC
     </div>
 </div>
 
