@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/946" class=".btn">#946</a>
+            </td>
+            <td>
+                <b>
+                    fix: no return routing and wait for ping
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds some improvements to return routing. Mainly it adds two things:
+1. Messages returned as a http response are now emitted using an event, meaning the sendMessage await won't wait for the returned message to be processed. This could lead to a chain of send / receive messages that would take a long time to resolve. Especially if the socket was kept open because no response was returned this could lead to unwanted behaviour. (see https://github.com/hyperledger/aries-cloudagent-python/pull/1853 for more context on socket staying open)
+2. Do not include the return route decorator if not response is expected. The return route decorator is automatically added if we don't have an endpoint. This only happens with the mediator in most cases. What would happen is that the trust ping was sent to complete the connection, and we didn't receive a response. This would lead to the socket staying open for 15 seconds, before the mediation request message was sent. Now if the return route is already set (in this case to none) we won't add it in the message sender.. 
+
+As mentioned in https://github.com/hyperledger/aries-cloudagent-python/pull/1853, this reduces the connection + request mediation flow time from ~17 seconds to around 1.5 seconds :)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-13 10:47:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/945" class=".btn">#945</a>
             </td>
             <td>

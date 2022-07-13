@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/917" class=".btn">#917</a>
+            </td>
+            <td>
+                <b>
+                    Add Cyrill to maintainers list
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also quickly made the github handles clickable :upside_down_face: 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-13 11:23:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/914" class=".btn">#914</a>
             </td>
             <td>
@@ -104,7 +130,7 @@ Solc does not support this.
             </td>
             <td>
                 <b>
-                    [WIP] Update seal debug message
+                    Update seal debug message
                 </b>
             </td>
         </tr>

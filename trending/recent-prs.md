@@ -1,13 +1,13 @@
 
-[248](https://github.com/hyperledger/fabric-chaincode-java/pull/248) Fix(security): Path Traversal Bug & Arbitrary Code Execution 
+[779](https://github.com/hyperledger-labs/business-partner-agent/pull/779) load tags into partner within PartnerRepository
 
-[30](https://github.com/hyperledger-labs/karma-charity-platform/pull/30) workflow for chaincode
+[225](https://github.com/hyperledger/firefly-ethconnect/pull/225) Update to Go 1.17
 
-[57](https://github.com/hyperledger/fabric-chaincode-go/pull/57) Bump google.golang.org/grpc from 1.23.0 to 1.48.0
+[434](https://github.com/hyperledger-labs/orion-server/pull/434) change server test port
 
-[2474](https://github.com/hyperledger/iroha/pull/2474) [fix] #2457: Fix tests flakiness related to shut down on panic
+[575](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/575) Add Avalanche testnet contract addresses to frontend
 
-[261](https://github.com/hyperledger-labs/fabric-operations-console/pull/261) 404 when joining channel
+[574](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/574) postgres emissionfactorApi 
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
