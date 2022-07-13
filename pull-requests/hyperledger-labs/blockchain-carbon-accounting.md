@@ -153,29 +153,3 @@ NetEmissionsTokenNetwork: 0x91883251A8964dDB40F07Bc55298284a07431d1d
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/570" class=".btn">#570</a>
-            </td>
-            <td>
-                <b>
-                    Remove redundant `admin` global variable from NetEmissionsTokenNetwork
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The NetEmissionsTokensNetwork contract inherits the AccessControl library, which uses the role `DEFAULT_ADMIN_ROLE`. The modifier `onlyAdmin()` uses this and `DEFAULT_ADMIN_ROLE` is used elsewhere in the contract. This commit removes the redundant `admin` variable which is never used after initializing the contract to save on storage/deployment cost.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-06 00:09:05 +0000 UTC
-    </div>
-</div>
-

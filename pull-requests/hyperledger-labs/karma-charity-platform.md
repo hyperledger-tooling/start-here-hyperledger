@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/karma-charity-platform
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/karma-charity-platform/pull/29" class=".btn">#29</a>
+            </td>
+            <td>
+                <b>
+                    Build explorer migrations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-12 18:56:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/karma-charity-platform/pull/28" class=".btn">#28</a>
             </td>
             <td>

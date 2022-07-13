@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/900" class=".btn">#900</a>
+            </td>
+            <td>
+                <b>
+                    Tokens plugins now support a remote name
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                 - introduce a new `remotename` config key for tokens plugins
+ - `remotename` must be unique
+ - If not provided, `remotename` will default to the plugin `name`
+ - `remotename` should never be stored in the local database.
+
+The definitions package now utilizes the `remotename` of tokens plugins. `defsender` will replace the local token plugin name with the remote name before broadcasting the definition. The `defhandler` will then replace the `remotename` with the local name after receiving a broadcast. 
+
+in a chain with #896 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-12 20:37:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/899" class=".btn">#899</a>
+            </td>
+            <td>
+                <b>
+                    Add E2E tests for contract termination
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12)
+In a chain with #890
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-12 19:32:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/898" class=".btn">#898</a>
             </td>
             <td>
@@ -35,6 +95,8 @@ Remove all remaining functionality related to broadcasting namespaces. It was al
 - in the future, if we want to add back dynamic namespace capability, it will probably take the form of editing the config file and adding a local API that reloads the config dynamically
 
 Clean up the `/namespaces/{ns}` and `/namespaces/{ns}/status` APIs to be a little more organized.
+
+Clean up all namespace database operations to happen from Namespace Manager. Pass a pointer to the namespace object to any other managers that need it.
             </td>
         </tr>
     </table>
@@ -146,7 +208,7 @@ htpasswd -cB allowed_users firefly
 ```
 
 Prerequisites for merge:
-- [ ] https://github.com/hyperledger/firefly-common/pull/24
+- [x] https://github.com/hyperledger/firefly-common/pull/24
             </td>
         </tr>
     </table>
@@ -366,40 +428,6 @@ Also fix some bugs found along the way with network actions being broken.
     </table>
     <div class="right-align">
         Created At 2022-07-06 16:26:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/884" class=".btn">#884</a>
-            </td>
-            <td>
-                <b>
-                    Stop orchestrator for ff_system when moving to network V2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12)
-~~In a chain with #883~~
-In a chain with #890
-
-Background: The legacy `ff_system` namespace is created (ie an orchestrator and managers are initialized) whenever the default namespace is a V1 multiparty network. The `ff_system` namespace is initialized with an exact duplicate of the default namespace config (same plugins, same contract addresses, etc).
-
-With this PR, if the default namespace (and therefore `ff_system`) migrates to V2 rules, the `ff_system` orchestrator will be stopped and removed, along with all its children.
-
-This should allow legacy networks to cleanly migrate to V2 rules and retire `ff_system`. Notable caveat: once the default namespace is on V2, no other V1 namespaces will be supported.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-06 01:13:35 +0000 UTC
     </div>
 </div>
 

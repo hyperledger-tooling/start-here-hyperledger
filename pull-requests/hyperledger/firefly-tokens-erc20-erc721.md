@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/64" class=".btn">#64</a>
-            </td>
-            <td>
-                <b>
-                    add `config` to token transfer types
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-candidate</span><span class="chip">backport-complete</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-05 21:26:49 +0000 UTC
-    </div>
-</div>
-
