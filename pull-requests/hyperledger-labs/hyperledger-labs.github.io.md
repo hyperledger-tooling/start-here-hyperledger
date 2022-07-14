@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/219" class=".btn">#219</a>
+            </td>
+            <td>
+                <b>
+                    Hyperledger Fabric Builder for Kubernetes proposal
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                External builder enabling Hyperledger Fabric peers to launch containerized chaincode using Kubernetes.
+
+Sponsor: @lehors 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-14 16:21:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/218" class=".btn">#218</a>
             </td>
             <td>

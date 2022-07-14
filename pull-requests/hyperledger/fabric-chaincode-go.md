@@ -205,29 +205,3 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-go/pull/54" class=".btn">#54</a>
-            </td>
-            <td>
-                <b>
-                    Remove azure pipelines
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-07 15:26:56 +0000 UTC
-    </div>
-</div>
-

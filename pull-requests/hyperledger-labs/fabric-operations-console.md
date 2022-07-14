@@ -14,6 +14,80 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/263" class=".btn">#263</a>
+            </td>
+            <td>
+                <b>
+                    update osn feature to false by default
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+- New feature
+- Improvement (improvement to code, performance, etc)
+- Test update
+- Documentation update
+
+#### Description
+<!--- Describe your changes in detail, including motivation. -->
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-14 16:00:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/262" class=".btn">#262</a>
+            </td>
+            <td>
+                <b>
+                    fix orderer detail crash
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
+
+#### Type of change
+- Bug fix
+
+
+#### Description
+orderer details crashes
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-14 15:39:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/261" class=".btn">#261</a>
             </td>
             <td>
@@ -503,77 +577,6 @@ Need more logs to see component status logic.
     </table>
     <div class="right-align">
         Created At 2022-07-07 19:11:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/249" class=".btn">#249</a>
-            </td>
-            <td>
-                <b>
-                    fix get-channels logic if response is empty
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-
-- fixes the response to get-osn-channels when there are 0 channels. makes it an empty array instead of null.
-- fixes `system_channel_id` filed being set to null, should be empty string when there is no system channel
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-07 14:47:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/248" class=".btn">#248</a>
-            </td>
-            <td>
-                <b>
-                    Updated test case to create orderer with system channel
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ketul Shah <shah.ketul@ibm.com>
-
-#### Type of change
-- Test update
-
-#### Description
-Updated test case to create orderer with system channel
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-07 13:18:36 +0000 UTC
     </div>
 </div>
 
