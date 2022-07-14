@@ -15,30 +15,30 @@ permalink: /releases/hyperledger/firefly-ethconnect
         <tr>
             <td colspan="2">
                 <b>
-                    v3.2.3
+                    v3.2.4
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v3.2.3
+                    v3.2.4
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Correct the Upsert syntax for MongoDB overwrite by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/220
+* Do not require the filter id to be numeric by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/224
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.2.2...v3.2.3
+**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.2.3...v3.2.4
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.2.3" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.2.4" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-05-27 15:04:39 +0000 UTC
+        Created At 2022-07-13 21:40:28 +0000 UTC
     </span>
 </div>
 
