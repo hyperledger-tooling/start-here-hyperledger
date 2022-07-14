@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2479" class=".btn">#2479</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #2473: parse rustc --version instead of RUSTUP_TOOLCHAIN
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Artemii Gerasimovich <gerasimovich@soramitsu.co.jp>
+
+### Description of the Change
+
+Buildscript for `client` relies on parsing `RUSTUP_TOOLCHAIN` to check whether we are using nightly, which fails for non-rustup rust installations. This changes it to parse output of `rustc --version`.
+
+### Issue
+
+#2473 
+
+### Benefits
+
+More build environments supported.
+
+### Possible Drawbacks
+
+None
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-13 23:56:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2476" class=".btn">#2476</a>
             </td>
             <td>
