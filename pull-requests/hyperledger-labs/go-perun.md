@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/355" class=".btn">#355</a>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/358" class=".btn">#358</a>
             </td>
             <td>
                 <b>
-                    Abstract multiledger test
+                    readme fix of pdf link to paper
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/go-perun
                 
             </td>
             <td>
-                Makes the multi-ledger test abstract so that it can be reused in other backends.
+                Signed-off-by: Dzmitry Lahoda <dzmitry@lahoda.pro>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-27 12:25:33 +0000 UTC
+        Created At 2022-07-14 06:54:13 +0000 UTC
     </div>
 </div>
 
