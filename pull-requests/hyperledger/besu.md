@@ -14,6 +14,89 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4103" class=".btn">#4103</a>
+            </td>
+            <td>
+                <b>
+                    Add experimental config option to enable v5 discovery
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Gabriel Trintinalia <gabriel.trintinalia@consensys.net>
+
+## PR description
+Add experimental config option to enable v5 discovery## 
+
+## Fixed Issue(s)
+fixes #4088
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-14 12:17:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4102" class=".btn">#4102</a>
+            </td>
+            <td>
+                <b>
+                    Ignore 2 tests that assume that the system language is English, if that should not be the case
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dev experience</span>
+            </td>
+            <td>
+                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
+
+## PR description
+2 of our tests that check error messages from the JVM assume that the system language is always English. If that is not the case, the JVM error messages will be localized and the tests will fail. This PR checks the system language before running those 2 tests and ignores them, if it is not English. If the system language is English the tests are executed like before.
+
+## Fixed Issue(s)
+
+fixes #2190
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-14 11:44:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4100" class=".btn">#4100</a>
             </td>
             <td>
@@ -731,85 +814,6 @@ port=0, nodeId=0xbfef556cec5aa40b3e02dd70afcac437e1689d31caaecbf68c3401f83ac9a86
     </table>
     <div class="right-align">
         Created At 2022-07-08 05:59:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4069" class=".btn">#4069</a>
-            </td>
-            <td>
-                <b>
-                    fix issue because parent world state is not available
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-We have this issue because we are replacing valid trielog by invalid trielog during a reorg. 
-
-Can explain this strange trie log layer
-
->  : 0xd77f7f8868f20835fdfc8c7e851f6f23ce9f651d
-   - StateTrieAccountValue{nonce=859, balance=0x00000000000000000000000000000000000000000000000006d141b0befb39fe, storageRoot=0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421, codeHash=0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470}
-   + StateTrieAccountValue{nonce=858, balance=0x00000000000000000000000000000000000000000000000006e96a274881e7b6, storageRoot=0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421, codeHash=0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470}
-
-The nonce comes from 859 to 858 and it’s not possible in a normal use case. 
-
-
-### How to reproduce it (it's an example)
-
-- We import block 5. we create a trie log for this block (4->5). A trie log it’s a diff between the previous block and the last one
-- We import block 6 bis. we create a trie log for this block (5->6bis)
-- We import block 7 bis. we create a trie log for this block (6bis->7bis)
-- We detect a reorg with 6third with a common ancestor == 4. Rollback to 4 and we persist block 4. But in this issue we replace the valid trie log layer (3-4) with an invalid trie log (7bis->4)
-- We import block 5 third. we create a trie log for this block (5 third ->6 third)
-- We import block 6 third. we create a trie log for this block (6 third ->7 third)
-- We detect a reorg with 6 with a common ancestor == 3. Rollback to 3 is failing because of the trie log == (7bis->4). 
-
-
-In the code the problem is here
-
-We persist after a rollback/rollfoward https://github.com/hyperledger/besu/blob/main/ethereum/core/src/main/java/org/hyperledger/besu/ethereum/bonsai/BonsaiWorldStateArchive.java#L247
-
-We replace the trie log 
-https://github.com/hyperledger/besu/blob/e79cf0e50724d7b5203708bf6b7abc24524f3dcb/ethereum/core/src/main/java/org/hyperledger/besu/ethereum/bonsai/BonsaiPersistedWorldState.java#L257
-
-
-⚠️ if we have this issue we need to resync besu . there is not way to recover
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-fixes #4068 
-fixes #4052
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-07 09:14:07 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/88" class=".btn">#88</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/92" class=".btn">#92</a>
             </td>
             <td>
                 <b>
-                    Add commitments packetReceipt and nextSequenceRecv
+                    Foundry integration
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
                 
             </td>
             <td>
-                Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
+                I propose the integration of [Foundry](https://github.com/foundry-rs/foundry) into the project.
+
+In particular, Forge contained in Foundry enables precise testing of contracts (including unit test) and analysis of gas costs.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-21 14:34:38 +0000 UTC
+        Created At 2022-07-14 08:25:27 +0000 UTC
     </div>
 </div>
 
