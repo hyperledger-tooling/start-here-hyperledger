@@ -38,29 +38,3 @@ A soft assert is added on the credential offer flow in case the actual workflow 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/67" class=".btn">#67</a>
-            </td>
-            <td>
-                <b>
-                    Shutdown the sauce connect tunnel container before connectionless test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-06 20:54:01 +0000 UTC
-    </div>
-</div>
-

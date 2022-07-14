@@ -87,7 +87,18 @@ in a chain with #896
             </td>
             <td>
                 Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12)
-In a chain with #890
+
+Adds a new E2E test which dynamically:
+* deploys two instances of the FireFly multiparty contract
+* dynamically adds a new namespace to the config of both nodes
+* restarts both nodes to read the config
+* sends one message on the first contract
+* performs a network migration
+* sends one message on the new contract
+
+Depends on https://github.com/hyperledger/firefly-cli/pull/197
+
+Also includes significant cleanup of the E2E REST client library, bringing it a few steps closer to being exportable as an actual Go client SDK.
             </td>
         </tr>
     </table>
@@ -114,7 +125,7 @@ In a chain with #890
             </td>
             <td>
                 Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12)
-In a chain with #895
+~~In a chain with #895~~
 
 Remove all remaining functionality related to broadcasting namespaces. It was already broken from previous commits, but this is now to confirm:
 - any previously-broadcast namespaces that are not spelled out in the config will cease to function in the next release
@@ -350,84 +361,6 @@ Also fix some bugs found along the way with network actions being broken.
     </table>
     <div class="right-align">
         Created At 2022-07-07 18:32:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/889" class=".btn">#889</a>
-            </td>
-            <td>
-                <b>
-                    back port of "FAQ and FireFly Tutorial Updates"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                back port of #857 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-07 01:18:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/887" class=".btn">#887</a>
-            </td>
-            <td>
-                <b>
-                    Add E2E tests for gateway mode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-06 19:46:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/886" class=".btn">#886</a>
-            </td>
-            <td>
-                <b>
-                    update token connector versions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Alex Shorsher <alex.shorsher@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-06 19:42:14 +0000 UTC
     </div>
 </div>
 

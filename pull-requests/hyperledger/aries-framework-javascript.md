@@ -226,29 +226,3 @@ const tenantAgent = await agent.tenants.withTenantAgent({ tenantId: 'tenant-id' 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/938" class=".btn">#938</a>
-            </td>
-            <td>
-                <b>
-                    fix: clone record before emitting event
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-06 19:35:03 +0000 UTC
-    </div>
-</div>
-
