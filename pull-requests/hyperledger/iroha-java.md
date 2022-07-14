@@ -140,29 +140,3 @@ permalink: /pull-requests/hyperledger/iroha-java
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/252" class=".btn">#252</a>
-            </td>
-            <td>
-                <b>
-                    feature: unregister domain
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added unregister domain instruction
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-07 13:05:58 +0000 UTC
-    </div>
-</div>
-

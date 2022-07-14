@@ -39,31 +39,3 @@ Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/308" class=".btn">#308</a>
-            </td>
-            <td>
-                <b>
-                    Revert "Idemix MSP Folder Structure incompatible with what Fabric expects #303" 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR reverts PR #304 
-
-PR 304 introduced a regression into the various fabric CA client libraries, triggering errors in the automated integration test suites. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-07 17:47:20 +0000 UTC
-    </div>
-</div>
-

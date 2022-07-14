@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3524" class=".btn">#3524</a>
+            </td>
+            <td>
+                <b>
+                    Fix(security):Cross Site Scripting Attack(XSS)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Unsanitized input from the request URL flows into fmt.Fprintf, where it is used to render an HTML page returned to the user. This may result in a Reflected Cross-Site Scripting attack (XSS).
+
+Signed-off-by: Bhaskar <ram@hacker.ind.in>
+
+#### Type of change
+
+- Bug fix
+
+#### Description
+
+Mitigate Cross Site Scripting Attack
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-14 14:08:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3522" class=".btn">#3522</a>
             </td>
             <td>
@@ -133,48 +170,6 @@ The kafka consensus protocol is no longer supported.
     </table>
     <div class="right-align">
         Created At 2022-07-10 13:31:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3519" class=".btn">#3519</a>
-            </td>
-            <td>
-                <b>
-                    fix(security): Path Traversal Bug
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Unsanitized input from open tar file flows into os.Open, where it is used as a path. This may result in a Path Traversal vulnerability and allow an attacker to open arbitrary files.
-
-primary changes :
-	1.updates to archive.go
-
-Signed-off-by: Bhaskar <ram@hacker.ind.in>
-
-- Bug fix
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-Unsanitized input from open tar file flows into os.Open, where it is used as a path. This may result in a Path Traversal vulnerability and allow an attacker to open arbitrary files.
-
-## Data flow:
-22 steps in 1 file
-vendor/github.com/docker/docker/pkg/archive/diff.go
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-09 14:44:28 +0000 UTC
     </div>
 </div>
 

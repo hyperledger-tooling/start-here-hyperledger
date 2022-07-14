@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3277" class=".btn">#3277</a>
+            </td>
+            <td>
+                <b>
+                    feat: add did document support for alsoKnownAs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Chris Abernethy <brownoxford@gmail.com>
+
+**Title:**
+Add `alsoKnownAs` support to DID document
+
+**Description:**
+Implement support for `alsoKnownAs` DID document element [as described in DID Core v1](https://www.w3.org/TR/did-core/#dfn-alsoknownas)
+
+**Summary:**
+Add `AlsoKnownAs` element to `did.Doc` and populate value in `did.ParseDocument()`
+Add `AlsoKnownAs` element to `did.rawDoc` and populate value in `did.Doc.JSONBytes()`
+Add `did.populateRawAlsoKnownAs()` helper function to convert `alsoKnownAs` from `[]string` to `[]interface{}`
+Add `alsoKnownAs` to schemas used for DID Schema Validation
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-14 16:44:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3276" class=".btn">#3276</a>
             </td>
             <td>
