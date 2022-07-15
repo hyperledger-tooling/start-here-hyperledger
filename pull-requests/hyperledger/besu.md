@@ -779,14 +779,14 @@ fixes #3819
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-
+For the merge the block of the checkpoint must not be after the deployment of the deposit contract 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
@@ -875,85 +875,6 @@ If a block is deemed invalid, because it did not descend from the terminal block
     </table>
     <div class="right-align">
         Created At 2022-07-11 10:53:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4078" class=".btn">#4078</a>
-            </td>
-            <td>
-                <b>
-                    Fix transition protocol schedule
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-08 17:15:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4077" class=".btn">#4077</a>
-            </td>
-            <td>
-                <b>
-                    Release 22.4.4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Release 22.4.4
-
-cherry picks from main:
-49e4fd860 -> worldstate not avail (#4069)
-6aa88129e -> stateroot mismatch (#4041)
-043191a40 -> jwt auth on websockets (#4039)
-90f891b78 -> do not move head on exec and propose (#4013)
-b5fa62c0b -> sync check before processing remote transactions (4035)
-3baa4da99 -> upgrade for websockets (#4019)
-5024c0788 -> sepolia TTD (#4024)
-5ee9be837 -> heal step in snap (#3920)
-261b1e03f -> remove peer block height requirements (#3911)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-08 15:32:53 +0000 UTC
     </div>
 </div>
 
