@@ -1,13 +1,13 @@
 
+[v0.2.2](https://github.com/hyperledger/aries-framework-javascript/releases/tag/v0.2.2) v0.2.2
+
+[redux-store-v0.3.1](https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/redux-store-v0.3.1) @aries-framework/redux-store redux-store-v0.3.1
+
+[react-hooks-v0.3.0](https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/react-hooks-v0.3.0) @aries-framework/react-hooks react-hooks-v0.3.0
+
 [v3.2.4](https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.2.4) v3.2.4
 
 [v0.1.14](https://github.com/hyperledger/firefly-common/releases/tag/v0.1.14) v0.1.14
-
-[v1.7.0-beta7](https://github.com/hyperledger-labs/hlf-operator/releases/tag/v1.7.0-beta7) Version 1.7.0-beta7
-
-[22.4.4](https://github.com/hyperledger/besu/releases/tag/22.4.4) 22.4.4
-
-[v0.2.1](https://github.com/hyperledger/aries-framework-javascript/releases/tag/v0.2.1) v0.2.1
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
