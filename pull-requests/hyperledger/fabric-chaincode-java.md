@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/248" class=".btn">#248</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/249" class=".btn">#249</a>
             </td>
             <td>
                 <b>
-                    Fix(security): Path Traversal Bug & Arbitrary Code Execution 
+                    Swap to using the published fabric-protos libraries
                 </b>
             </td>
         </tr>
@@ -27,12 +27,18 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                Primary Changes to ```/fabric-chaincode-integration-test/src/contracts/bare-maven/.mvn/wrapper/MavenWrapperDownloader.java```
+                Move the codebase to directly using the published protobuf libraries. The fabric-protos
+repo, as well as holding the 'main' copy of the protos, also publishes packages for each language
+These can then be pulled directly here; everything under version control.
+
+Removes the need to the copies of the protobufs held locally in this repo.
+
+Signed-off-by: fraVlaca <ocsenarf@outlook.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-13 06:18:14 +0000 UTC
+        Created At 2022-07-15 09:57:57 +0000 UTC
     </div>
 </div>
 

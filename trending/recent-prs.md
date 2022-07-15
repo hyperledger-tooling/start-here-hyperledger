@@ -1,13 +1,13 @@
 
-[4112](https://github.com/hyperledger/besu/pull/4112) Update GraphQL to be closer to executioon-api spec
+[2489](https://github.com/hyperledger/iroha/pull/2489) [fix] #2477: Fix bug when permissions from roles weren't counted (lts)
 
-[2484](https://github.com/hyperledger/iroha/pull/2484) [feature] #2252: Use errno for FFI error handling
+[2487](https://github.com/hyperledger/iroha/pull/2487) [fix] #2477: Fix bug when permissions from roles weren't counted
 
-[4107](https://github.com/hyperledger/besu/pull/4107) [README] Add GitPOAP Badge to Display Number of Minted GitPOAPs for Contributors
+[3526](https://github.com/hyperledger/fabric/pull/3526) Update link to Toturial in Style Guide
 
-[341](https://github.com/hyperledger/fabric-chaincode-node/pull/341) fixed nodeenv image used in fvtest to be the one built locally
+[3525](https://github.com/hyperledger/fabric/pull/3525) Extra checks for invalid args in gateway api
 
-[3277](https://github.com/hyperledger/aries-framework-go/pull/3277) feat: add did document support for alsoKnownAs
+[249](https://github.com/hyperledger/fabric-chaincode-java/pull/249) Swap to using the published fabric-protos libraries
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/788" class=".btn">#788</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/793" class=".btn">#793</a>
             </td>
             <td>
                 <b>
-                    Feature/ca v1.5.5
+                    Fix link in off_chain_data README
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                This PR bumps the Kube test network to run with the latest patch build of Fabric (2.4) and Fabric CA (1.5) images. 
-
-In addition, it re-organizes the setup script default environment variable declarations to align on column boundaries.  The old format was causing some "eye bleeding" when looking at the script.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-08 12:28:19 +0000 UTC
+        Created At 2022-07-15 09:34:54 +0000 UTC
     </div>
 </div>
 
