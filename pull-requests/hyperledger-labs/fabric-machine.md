@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-machine
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-machine/pull/32" class=".btn">#32</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-machine/pull/33" class=".btn">#33</a>
             </td>
             <td>
                 <b>
-                    Minor code changes
+                    Update documentation
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-machine
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Haris Javaid <79559099+harisj-xlnx@users.noreply.github.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-01 02:27:27 +0000 UTC
+        Created At 2022-07-15 07:38:08 +0000 UTC
     </div>
 </div>
 

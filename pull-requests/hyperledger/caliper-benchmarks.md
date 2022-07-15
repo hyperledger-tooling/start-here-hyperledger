@@ -51,29 +51,3 @@ Signed-off-by: fraVlaca <ocsenarf@outlook.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/219" class=".btn">#219</a>
-            </td>
-            <td>
-                <b>
-                    add good starter benchmarks for using caliper with hyperledger fabric
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: fraVlaca <ocsenarf@outlook.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-08 09:23:31 +0000 UTC
-    </div>
-</div>
-

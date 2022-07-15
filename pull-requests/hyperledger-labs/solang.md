@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/920" class=".btn">#920</a>
+            </td>
+            <td>
+                <b>
+                    Do not evaluate the arguments to overloaded functions/event emit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-15 08:20:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/919" class=".btn">#919</a>
             </td>
             <td>
@@ -198,35 +224,6 @@ Solc does not support this.
     </table>
     <div class="right-align">
         Created At 2022-07-11 13:31:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/910" class=".btn">#910</a>
-            </td>
-            <td>
-                <b>
-                    Allow free functions to be imported
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Free functions (ie. functions outside of contracts) where not imported.
-Fix this.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-08 10:12:05 +0000 UTC
     </div>
 </div>
 

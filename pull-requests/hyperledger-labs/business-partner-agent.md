@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
             </td>
             <td>
                 <b>
-                    update plugin repo url
+                    switch all url's to idu.network
                 </b>
             </td>
         </tr>

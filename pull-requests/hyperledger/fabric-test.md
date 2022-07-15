@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-test
             </td>
             <td>
                 <b>
-                    Fix chaincode test tool workflows again
+                    Update chaincode integration tool
                 </b>
             </td>
         </tr>
@@ -27,7 +27,13 @@ permalink: /pull-requests/hyperledger/fabric-test
                 
             </td>
             <td>
-                Should be `workflow_dispatch` with an underscore!
+                Various changes required for the tool to build and work
+
+- `workflow_dispatch` with an underscore in workflow files!
+- tests require fabric-samples test network and fabric binaries
+- require node 16
+- fix package-lock.json and fix audit failures
+- other minor changes
 
 Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>

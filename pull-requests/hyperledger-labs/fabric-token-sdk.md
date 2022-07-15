@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/296" class=".btn">#296</a>
+            </td>
+            <td>
+                <b>
+                    F252: token request clean up 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - add nil checks 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-15 08:48:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/294" class=".btn">#294</a>
             </td>
             <td>
