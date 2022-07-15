@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4112" class=".btn">#4112</a>
+            </td>
+            <td>
+                <b>
+                    Update GraphQL to be closer to executioon-api spec
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+## PR description
+
+Update GraphQL to be closer to execution-apis spec 
+
+Update the graphQL to be closer to the execution-api specs.
+This is a departure from EIP-1767 but the core devs have made it clear
+that the execution-apis repo is considered canonical, not the EIP.
+
+Major changes:
+* Add support for EIP-2930 access lists
+* Add support for EIP-1559 fees
+* Add transaction, block, receipt, and header raw rlp fields
+* Add chainID as base level query
+
+Some items are still fake (fee estimate, effective tip).
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-15 00:19:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4107" class=".btn">#4107</a>
             </td>
             <td>
@@ -716,7 +770,7 @@ fixes #3819
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamChupa</span>
             </td>
             <td>
                 Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
