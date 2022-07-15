@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/solang
             </td>
             <td>
                 <b>
-                    Do not evaluate the arguments to overloaded functions/event emit
+                    Do not resolve the arguments to overloaded functions/event emit twice
                 </b>
             </td>
         </tr>
@@ -27,7 +27,11 @@ permalink: /pull-requests/hyperledger-labs/solang
                 
             </td>
             <td>
-                Signed-off-by: Sean Young <sean@mess.org>
+                This covers to overloaded functions, constructors, methods, and event emit.
+
+This solves some issues wrt to slice support which is covered in a future PR.
+
+Fixes #779 
             </td>
         </tr>
     </table>

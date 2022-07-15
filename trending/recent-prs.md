@@ -1,13 +1,13 @@
 
-[2489](https://github.com/hyperledger/iroha/pull/2489) [fix] #2477: Fix bug when permissions from roles weren't counted (lts)
+[36](https://github.com/hyperledger-labs/hlf-connector/pull/36) change default commit handler
 
-[2487](https://github.com/hyperledger/iroha/pull/2487) [fix] #2477: Fix bug when permissions from roles weren't counted
+[39](https://github.com/hyperledger-labs/pluggable-hcs/pull/39) Un-archive lab
 
-[3526](https://github.com/hyperledger/fabric/pull/3526) Update link to Toturial in Style Guide
+[250](https://github.com/hyperledger/fabric-chaincode-java/pull/250) PurgePrivateData
 
-[3525](https://github.com/hyperledger/fabric/pull/3525) Extra checks for invalid args in gateway api
+[297](https://github.com/hyperledger-labs/fabric-token-sdk/pull/297) driver implementation extensibility 
 
-[249](https://github.com/hyperledger/fabric-chaincode-java/pull/249) Swap to using the published fabric-protos libraries
+[22](https://github.com/hyperledger-labs/perun-eth-backend/pull/22) Update contracts to multi-ledger version
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

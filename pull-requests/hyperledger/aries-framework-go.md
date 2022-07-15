@@ -365,37 +365,3 @@ Also I ran `go mod tidy -go=1.16 && go mod tidy -go=1.17` and updated the go.mod
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3268" class=".btn">#3268</a>
-            </td>
-            <td>
-                <b>
-                    feat: Legacy Anoncrypt(RFC-0019) DIDComm v1 implementation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Title:**
-Legacy Anoncrypt(RFC-0019) DIDComm v1 implementation
-
-**Description:**
-This is the PR to support legacy anoncrypt (pack/unpack) while DIDComm V1 is used.
-
-**Summary:**
-Add anoncrypt packing/unpacking using Chacha20 encryption algorithm
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-08 14:06:56 +0000 UTC
-    </div>
-</div>
-
