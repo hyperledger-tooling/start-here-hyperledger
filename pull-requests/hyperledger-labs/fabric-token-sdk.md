@@ -143,29 +143,3 @@ Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/289" class=".btn">#289</a>
-            </td>
-            <td>
-                <b>
-                    auditor and issuer are the same node #283
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-08 06:02:02 +0000 UTC
-    </div>
-</div>
-
