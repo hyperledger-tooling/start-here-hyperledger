@@ -27,7 +27,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                <nil>
+                Discovery results parsing makes use of partial results, but these should not be set on the discovery service itself during the parsing process to ensure no callers ever see partial discovery results.
+
+In combination with the above behaviour, the way the Contract obtained discovery results was prone to race conditions that could cause multiple discovery services to be created and invoked under load, and for partial discovery results to be obtained.
+
+Closes #601
             </td>
         </tr>
     </table>

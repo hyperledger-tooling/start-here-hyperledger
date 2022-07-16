@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/921" class=".btn">#921</a>
+            </td>
+            <td>
+                <b>
+                    Refactor strength reduce
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In my Borsh Encoding PR #906, strength reduce was overflowing the stack for some complex encoding cases. This PR decreases the stack size from 2KB to 768 bytes for the `reaching_values` function and from 9KB to 800 bytes for the `expression_values` function.
+
+This PR also includes a refactoring in the strength reduce files.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-15 18:45:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/920" class=".btn">#920</a>
             </td>
             <td>

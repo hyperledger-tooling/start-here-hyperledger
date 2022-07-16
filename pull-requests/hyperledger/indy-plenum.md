@@ -39,31 +39,3 @@ Signed-off-by: Wade Barnes <wade@neoterictech.ca>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1606" class=".btn">#1606</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade to SovrinHelpers v2.2.4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - SovrinHelpers v2.2.4 includes an update to fix dependency issues in `pypi-publish.dockerfile` and `pr-automerge.dockerfile` affecting the CD pipeline.
-
-Signed-off-by: Wade Barnes <wade@neoterictech.ca>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-08 19:42:04 +0000 UTC
-    </div>
-</div>
-

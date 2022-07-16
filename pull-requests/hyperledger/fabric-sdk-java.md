@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/220" class=".btn">#220</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/221" class=".btn">#221</a>
             </td>
             <td>
                 <b>
-                    Release v2.2.15
+                    Fix multi-branch scheduled GitHub Actions build
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-07 12:38:16 +0000 UTC
+        Created At 2022-07-15 22:51:34 +0000 UTC
     </div>
 </div>
 
