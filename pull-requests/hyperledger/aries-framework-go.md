@@ -255,7 +255,7 @@ CL Anoncreds Crypto API
             </td>
             <td>
                 <b>
-                    refactor: change type of Forward.Msg from byte array to Envelope stru…
+                    refactor: enable usage of legacy Anoncrypt packer. Make nested forwards while creating forward message. Add legacyForward model
                 </b>
             </td>
         </tr>
@@ -265,14 +265,15 @@ CL Anoncreds Crypto API
             </td>
             <td>
                 **Title:**
-Change Msg field of `Forward` model. Make nested packed forwards while creating forward message
+Enable legacy Anoncrypt packer. Make nested packed forwards while creating forward message
 
 **Summary:**
 
-- Change Msg field of `Forward` from byte array to `Envelope` structure as defined in [protocol](https://github.com/hyperledger/aries-rfcs/blob/main/concepts/0094-cross-domain-messaging/README.md#corerouting10forward)
-- Make nested packed forwards(for each routing key) while creating forward message
-
-
+- Add legacy Anoncrypt packer while creating packers
+- Add ability to create nested packed forwards (one nested forward for each routing key)
+- Check and convert msg field of Forward to Envelope in order to support DIDComm V1 Forward types
+- Revert part of 04bfea80427b3d2ae374ddad2ced84b77c70a179 commit related to generating keys inside mediator service. Because with previous changes (having two types of generated keys belonging to the same router) it breaks Route Coordination protocol (while creating nested forwards it will pack two times to the same mediator then mediator cannot handle second forward message
+- Remove test (which checks bad sender key)  due to forcing anoncrypt while calling createForwardMessage method
             </td>
         </tr>
     </table>
