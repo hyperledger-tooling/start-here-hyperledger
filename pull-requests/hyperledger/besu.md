@@ -14,6 +14,56 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4116" class=".btn">#4116</a>
+            </td>
+            <td>
+                <b>
+                    post-merge sync and peering fix 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+addresses two sources of problems when syncing a post-merge network:
+
+*  adds a merge-specific 'best peer' comparator rather than the PoW heaviest chain comparator.  This resolves a bug where besu would order its peers incorrectly and report that it did not have any peers with sufficient chain height: `No sync target with sufficient chain height, waiting for peers: {}`
+
+* ensures 'fast' syncs (snap, checkpoint, fast) set the syncState as having reached TTD to satisfy preconditions for backward sync capability.  This fixes a 'stuck' issue where a fast sync would complete and catch up to a post-merge finalized block, but backward sync was not able to backfill from head back to the finalized block, and besu would just sit at its final fast sync pivot block.
+ 
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+#3956
+#3329
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-16 08:44:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4112" class=".btn">#4112</a>
             </td>
             <td>
