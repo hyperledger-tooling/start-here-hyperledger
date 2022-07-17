@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3530" class=".btn">#3530</a>
+            </td>
+            <td>
+                <b>
+                    Insecure TLS Configuration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Insecure TLS Configuration
+
+Signed-off-by: Bhaskar <ram@hacker.ind.in>
+
+#### Type of change
+
+Insecure TLS configuration is found to be in use. MaxVersion is set to a deprecated SSL/TLS version
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-17 07:49:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3526" class=".btn">#3526</a>
             </td>
             <td>
@@ -71,43 +103,6 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-07-15 10:10:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3524" class=".btn">#3524</a>
-            </td>
-            <td>
-                <b>
-                    Fix(security):Cross Site Scripting Attack(XSS)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Unsanitized input from the request URL flows into fmt.Fprintf, where it is used to render an HTML page returned to the user. This may result in a Reflected Cross-Site Scripting attack (XSS).
-
-Signed-off-by: Bhaskar <ram@hacker.ind.in>
-
-#### Type of change
-
-- Bug fix
-
-#### Description
-
-Mitigate Cross Site Scripting Attack
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-14 14:08:55 +0000 UTC
     </div>
 </div>
 
