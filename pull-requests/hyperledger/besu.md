@@ -789,6 +789,35 @@ now we have
 - we rollback 7 to 6 and we persist again block 6. as trielog 6 is not in the database we save invalid trielog 6 (7->6)
 
  if we restart before the reorg trielog 6 is missing
+ 
+ this PR also fix an issue related to an invalid implementation of BonsaiInmemoryWorldstate
+ 
+```java 
+java.lang.AssertionError: Node hash 0x9289cda321472949c843ca0b1c6e08011c2608436898699468f49b72d2d8533e not equal to expected 0x03ac2557b39e96bc541432719417ca05360530f915ae8e53d8bf2591bee9c883
+	at org.hyperledger.besu.ethereum.trie.StoredNodeFactory.lambda$retrieve$1(StoredNodeFactory.java:103)
+	at java.base/java.util.Optional.map(Optional.java:265)
+	at org.hyperledger.besu.ethereum.trie.StoredNodeFactory.retrieve(StoredNodeFactory.java:97)
+	at org.hyperledger.besu.ethereum.trie.StoredNode.load(StoredNode.java:130)
+	at org.hyperledger.besu.ethereum.trie.StoredNode.accept(StoredNode.java:63)
+	at org.hyperledger.besu.ethereum.trie.StoredMerklePatriciaTrie.put(StoredMerklePatriciaTrie.java:142)
+	at org.hyperledger.besu.ethereum.bonsai.BonsaiPersistedWorldState.calculateRootHash(BonsaiPersistedWorldState.java:227)
+	at org.hyperledger.besu.ethereum.bonsai.BonsaiPersistedWorldState.calculateRootHash(BonsaiPersistedWorldState.java:104)
+	at org.hyperledger.besu.ethereum.bonsai.BonsaiInMemoryWorldState.rootHash(BonsaiInMemoryWorldState.java:34)
+	at org.hyperledger.besu.ethereum.MainnetBlockValidator.validateAndProcessBlock(MainnetBlockValidator.java:119)
+	at org.hyperledger.besu.consensus.merge.blockcreation.MergeCoordinator.validateBlock(MergeCoordinator.java:256)
+	at org.hyperledger.besu.consensus.merge.blockcreation.MergeCoordinator.rememberBlock(MergeCoordinator.java:272)
+	at org.hyperledger.besu.consensus.merge.blockcreation.TransitionCoordinator.rememberBlock(TransitionCoordinator.java:137)
+	at org.hyperledger.besu.ethereum.api.jsonrpc.internal.methods.engine.EngineNewPayload.syncResponse(EngineNewPayload.java:189)
+	at org.hyperledger.besu.ethereum.api.jsonrpc.internal.methods.ExecutionEngineJsonRpcMethod.lambda$response$0(ExecutionEngineJsonRpcMethod.java:62)
+	at io.vertx.core.impl.ContextImpl.lambda$null$0(ContextImpl.java:159)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:100)
+	at io.vertx.core.impl.ContextImpl.lambda$executeBlocking$1(ContextImpl.java:157)
+	at io.vertx.core.impl.TaskQueue.run(TaskQueue.java:76)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+```
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
