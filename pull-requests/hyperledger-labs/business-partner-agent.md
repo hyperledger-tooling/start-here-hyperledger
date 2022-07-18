@@ -74,34 +74,3 @@ This merge requests adds annotations to some other findBy functions to let the p
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/777" class=".btn">#777</a>
-            </td>
-            <td>
-                <b>
-                    Feature/fix local scenario
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Setup multiledger configuration to fix local scenario
-- Fix frontend dashboard which did not update its data
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/777"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-11 09:51:28 +0000 UTC
-    </div>
-</div>
-

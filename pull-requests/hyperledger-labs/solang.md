@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/925" class=".btn">#925</a>
+            </td>
+            <td>
+                <b>
+                    Fix parsing of `uint x = 1 /** foo */ + 2;`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                DocComments should not be stored in the parse tree.
+
+There are two commits, the first fixes an issue with  the existing doccomment parsing (and adjusts the test results).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-18 11:55:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/924" class=".btn">#924</a>
+            </td>
+            <td>
+                <b>
+                    Improve slice support and add `create_program_address()` solana builtin
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-18 08:09:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/921" class=".btn">#921</a>
             </td>
             <td>

@@ -27,7 +27,13 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                Signed-off-by: fraVlaca <ocsenarf@outlook.com>
+                Implements the purgePrivateData API in the stub
+
+Closes #240 
+
+Fabric Issue https://github.com/hyperledger/fabric/issues/3020
+
+Signed-off-by: fraVlaca <ocsenarf@outlook.com>
             </td>
         </tr>
     </table>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/297" class=".btn">#297</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/298" class=".btn">#298</a>
             </td>
             <td>
                 <b>
-                    driver implementation extensibility 
+                    Add receipt signature as acknowledgment 
                 </b>
             </td>
         </tr>
@@ -28,6 +28,35 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             </td>
             <td>
                 <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-18 07:32:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/297" class=".btn">#297</a>
+            </td>
+            <td>
+                <b>
+                    `token\core` improvements
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR brings the following improvements:
+- Simplified wallet management `core\identity`
+- extensible `zkatdlog\nogh` auditor implementation
+ 
             </td>
         </tr>
     </table>
@@ -111,61 +140,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     </table>
     <div class="right-align">
         Created At 2022-07-12 14:47:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/292" class=".btn">#292</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade to CodeQL v2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-11 12:19:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/291" class=".btn">#291</a>
-            </td>
-            <td>
-                <b>
-                    Fix gh actions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - restore workflow trigger behavior from prev workflows
-- fix go tests badge on readme
-
-Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-11 09:17:54 +0000 UTC
     </div>
 </div>
 
