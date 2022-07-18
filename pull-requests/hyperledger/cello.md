@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/468" class=".btn">#468</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/469" class=".btn">#469</a>
             </td>
             <td>
                 <b>
-                    Revert "Fix (security) : Path Traversal Bug"
+                    fix(security):Command Injection and Path Traversal Bugs
                 </b>
             </td>
         </tr>
@@ -27,42 +27,21 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                Revert #443 
+                ## Fix 1 - Path Traversal
 
-Signed-off-by: Yuanmao Zhu [yuanmao@ualberta.ca](mailto:yuanmao@ualberta.ca)
+Unsanitized input from the HTTP request body [request.data] flows into os.walk, where it is used as a path. This may result in a Path Traversal vulnerability and allow an attacker to read arbitrary files.
+
+## Fix 2 - Command Injection
+
+Unsanitized input from the HTTP request body [request.data] flows into os.system, where it is used as a path. This may result in a Path Traversal vulnerability and allow an attacker to read arbitrary files.
+
+
+Signed-off-by: Bhaskar <ram@hacker.ind.in>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-11 01:25:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/467" class=".btn">#467</a>
-            </td>
-            <td>
-                <b>
-                    Revert "Fix : (Security) Migitate Path Traversal Bug"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Reverts hyperledger/cello#455
-
-Signed-off-by: Yuanmao Zhu [yuanmao@ualberta.ca](mailto:yuanmao@ualberta.ca)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-11 00:58:47 +0000 UTC
+        Created At 2022-07-18 08:11:22 +0000 UTC
     </div>
 </div>
 

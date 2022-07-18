@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4122" class=".btn">#4122</a>
+            </td>
+            <td>
+                <b>
+                    Check status of block propagation manager before starting or stopping
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
+
+## PR description
+In `DefaultSynchronizer` check if the `BlockPropagationManager` is running before starting or stopping it. This avoids an exception or warning if it is started or stopped more than once respectively.
+
+## Fixed Issue(s)
+fixes #4121
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-18 12:26:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4120" class=".btn">#4120</a>
             </td>
             <td>
@@ -991,42 +1032,6 @@ fixes the parsing of host headers. adds test coverage for this case on both http
     </table>
     <div class="right-align">
         Created At 2022-07-11 20:50:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4080" class=".btn">#4080</a>
-            </td>
-            <td>
-                <b>
-                    New payload: add invalid to bad blocks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span><span class="chip">mainnet</span>
-            </td>
-            <td>
-                ## PR description
-If a block is deemed invalid, because it did not descend from the terminal block, we add it to our bad blocks. This is a fix for the failing Hive engine test `Transition to a Chain with Invalid Terminal Block, Lower Configured Total Difficulty (Transition Payload)`.
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-11 10:53:49 +0000 UTC
     </div>
 </div>
 
