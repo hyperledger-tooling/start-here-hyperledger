@@ -101,29 +101,3 @@ Signed-off-by: Yoav Tock <tock@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/433" class=".btn">#433</a>
-            </td>
-            <td>
-                <b>
-                    update expired sample crypto
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: senthil <cendhu@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-11 05:58:22 +0000 UTC
-    </div>
-</div>
-

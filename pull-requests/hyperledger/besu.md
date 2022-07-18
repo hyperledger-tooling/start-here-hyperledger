@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4120" class=".btn">#4120</a>
+            </td>
+            <td>
+                <b>
+                    increase the default max message size for p2p messages
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The current limit means that we are disconnecting useful peers during syncing.
+
+Signed-off-by: Stefan <stefan.pingel@consensys.net>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-18 06:01:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4118" class=".btn">#4118</a>
             </td>
             <td>

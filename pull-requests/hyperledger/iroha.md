@@ -14,6 +14,120 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2497" class=".btn">#2497</a>
+            </td>
+            <td>
+                <b>
+                    [refactor]: impl `Origin` instead of `Identifiable` for the data events
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ### Description of the Change
+
+The minimum change to [remove `Identifiable` implementation from events](https://github.com/hyperledger/iroha/pull/2476#issuecomment-1184107169)
+
+### Issue
+
+- Relates to #2476
+
+### Benefits
+
+- Less complexity to derive `Identifiable`
+- Rationality that an event should not be identified by its origin
+
+### Possible Drawbacks
+
+None
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-18 05:55:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2496" class=".btn">#2496</a>
+            </td>
+            <td>
+                <b>
+                    [docs] corrects some client_cli error messages
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                <!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+A tiny correction for the error messages, which seem to be copied previously; the error message ''Failed to get all **accounts**" was used for:
+
+```rust
+.request(client::domain::all())
+```
+
+and 
+
+```rust
+.request(client::asset::all())
+```
+
+### Issue
+
+I can open one if needed, but this is nothing more than a typo.
+
+### Benefits
+
+Error messages being displayed will be corrected.
+
+### Possible Drawbacks
+
+None
+
+### Usage Examples or Tests *[optional]*
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-18 04:37:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2495" class=".btn">#2495</a>
             </td>
             <td>
