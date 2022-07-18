@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/190" class=".btn">#190</a>
-            </td>
-            <td>
-                <b>
-                    Remove docs steps from Cron GHA workflows
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-11 14:56:19 +0000 UTC
-    </div>
-</div>
-

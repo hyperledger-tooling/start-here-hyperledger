@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/119" class=".btn">#119</a>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/120" class=".btn">#120</a>
             </td>
             <td>
                 <b>
-                    [WIP] Update releasing guide
+                    Bump version to 0.1.5
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/fabric-protos
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-24 16:16:54 +0000 UTC
+        Created At 2022-07-18 15:13:09 +0000 UTC
     </div>
 </div>
 
