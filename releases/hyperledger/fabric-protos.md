@@ -15,14 +15,14 @@ permalink: /releases/hyperledger/fabric-protos
         <tr>
             <td colspan="2">
                 <b>
-                    v0.1.3 pre-release
+                    v0.1.4 pre-release
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.1.3
+                    v0.1.4
                 </span>
             </td>
             <td>
@@ -30,11 +30,11 @@ permalink: /releases/hyperledger/fabric-protos
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-protos/releases/tag/v0.1.3" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-protos/releases/tag/v0.1.4" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-06-22 15:38:00 +0000 UTC
+        Created At 2022-07-18 10:59:29 +0000 UTC
     </span>
 </div>
 
