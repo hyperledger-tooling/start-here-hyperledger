@@ -14,6 +14,170 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4133" class=".btn">#4133</a>
+            </td>
+            <td>
+                <b>
+                    WIP Initial implementation of rollup_createBlock endpoint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Pedro Novais <jpvnovais@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-19 12:33:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4132" class=".btn">#4132</a>
+            </td>
+            <td>
+                <b>
+                    Update RocksDB default block cache size
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update RocksDB default block cache size to mitigate a performance regression from #3985.
+
+
+Signed-off-by: Ameziane H <ameziane.hamlat@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+We can see in the dashboard below that we have some blocks behind with the RocksDB block cache default value 8 MB, and Besu with block cache size 128 MB is performing better (no blocks behind).
+
+<img width="1672" alt="image" src="https://user-images.githubusercontent.com/5099602/179716882-198371bf-97d5-4ed2-a725-6a802830f4ac.png">
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+#4128
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-19 09:35:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4131" class=".btn">#4131</a>
+            </td>
+            <td>
+                <b>
+                    Fix post merge chain reog with invalid block
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
+
+## PR description
+
+This PR fixes the failing Hive2 engine test `Invalid Ancestor Chain Re-Org, Invalid ReceiptsRoot, Invalid P8', Reveal using sync`
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-19 08:53:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4130" class=".btn">#4130</a>
+            </td>
+            <td>
+                <b>
+                    Useful response improves reputation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently there is no way for peers improve their reputation. With this PR peers improve their reputation when they send a useful response.
+
+Signed-off-by: Stefan <stefan.pingel@consensys.net>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-19 07:18:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4126" class=".btn">#4126</a>
             </td>
             <td>
@@ -1020,88 +1184,6 @@ During the investigation of a Hive test that triggers backward sync, found some 
     </table>
     <div class="right-align">
         Created At 2022-07-13 09:07:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4086" class=".btn">#4086</a>
-            </td>
-            <td>
-                <b>
-                    Enclave public key length constraint removed for private transactions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Removes the length constraint of 44 characters for the base64 version of an enclave public key for private transactions via Tessera. More details in the linked issue.
-
-Adapts the acceptance tests so this change could be validated against the target Tessera configuration (EC encryptor).
-
-Upgrades package `org.web3j:eea` to 4.9.3 (it was a transitive dependency before) since the same constraint was in that package and it is used for the acceptance tests. It is the only package upgraded from the web3j suite since there is a breaking change in `PrivateTransactionManager` ([this PR](https://github.com/web3j/web3j/pull/1602/files) got rid of the `PrivateTransactionEncoder` - issue yet to be created - will update this PR with that).
-
-## Fixed Issue(s)
-
-fixes #3819 
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-12 10:50:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4085" class=".btn">#4085</a>
-            </td>
-            <td>
-                <b>
-                    checkpoint sync for merge
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamChupa</span>
-            </td>
-            <td>
-                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-For the merge the block of the checkpoint must not be after the deployment of the deposit contract 
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-12 08:36:03 +0000 UTC
     </div>
 </div>
 

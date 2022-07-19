@@ -286,7 +286,7 @@ None
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">Bug</span><span class="chip">iroha2</span>
             </td>
             <td>
                 Signed-off-by: Vladimir Pesterev <pesterev@pm.me>
@@ -426,7 +426,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">Bug</span><span class="chip">iroha2</span>
             </td>
             <td>
                 Signed-off-by: Vladimir Pesterev <pesterev@pm.me>
@@ -477,7 +477,7 @@ None
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">Bug</span><span class="chip">iroha2</span>
             </td>
             <td>
                 <!-- You will not see HTML commented line in Pull Request body -->
@@ -953,127 +953,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2022-07-12 22:45:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2472" class=".btn">#2472</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #2338: Add `cargo-all-features` instrumentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Aleksandr Petrosyan <a-p-petrosyan@yandex.ru><!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-- Bumped all versions to RC6
-- Removed redundant examples. 
-- Fixed all feature combinations to compile and have no warnings.
-- Added metadata to exclude redundant checks of different feature sets (double coverage)
-- Evaluated performance versus `cargo hack` (orders of magnitude faster). 
-
-### Issue
-
-Closes #2338 
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-Better feature consistency
-
-### Possible Drawbacks
-
-None
-
-### Usage Examples or Tests *[optional]*
-
-![image](https://user-images.githubusercontent.com/15856657/178465001-5cff3d49-0b60-40fa-ab6d-1ec3cbab5579.png)
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-12 10:00:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2471" class=".btn">#2471</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #1769: Optimize pub/sub messaging
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ### Description of the Change
-
-WIP.
-
-- Establish all the possible channels at the components initialization
-- Remove the broker
-
-### Issue
-
-- Closes #1769
-
-### Benefits
-
-- No broker access
-
-### Possible Drawbacks
-
-- Readability, if the boilerplate were pushed into macros
-
-### Usage Examples or Tests
-
-- 4082d4d1 implies the current implementation is not properly working
-- f8e4dc0d is a blueprint -- not working due to lack of implementations
-
-### Alternate Designs
-
-The broker stores a receiver of 1:n channel on the publish declaration and clones on the subscription request:
-
-```rust
-use tokio::sync::watch::Receiver;
-
-pub struct Broker {
-    receivers: Arc<DashSet<Receiver<Box<dyn Msg>>>>,
-}
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-12 09:24:43 +0000 UTC
     </div>
 </div>
 

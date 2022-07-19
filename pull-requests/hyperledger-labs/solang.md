@@ -55,10 +55,17 @@ There are two commits, the first fixes an issue with  the existing doccomment pa
                 
             </td>
             <td>
-                Todo:
- - [x] depends on #920 
- - [x] add documentation
- - [x] add test for `string` / `bytes` variable as seed argument.
+                Wire up `create_program_address` for Solana. 
+ - This solana system calls uses slices. The data pointer is 64 bit and and the length is also 64 bit
+ - This system call takes an array of slices, of any length. The length is another system call parameter
+ 
+So, we make the following changes:
+ - `bytes` can be implicitly cast to a slice of `bytes1`. This requires runtime code.
+ - a string or hex literal can be implicitly cast to a slice of `bytes1`
+ - We introduce a new array length "any fixed length", which we use a parameter type to the system call.
+ - We introduce a new system call which can be imported using `import {create_program_address} from 'solana';`
+ - Tests for this system call (both mock solana and against a running local node).
+
             </td>
         </tr>
     </table>
@@ -200,64 +207,6 @@ Fixes #779
     </table>
     <div class="right-align">
         Created At 2022-07-13 11:23:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/914" class=".btn">#914</a>
-            </td>
-            <td>
-                <b>
-                    Documentation: Clarify that mock VM implementations may omit aspects …
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                …not mattering in unit tests
-
-As discussed.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-12 10:29:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/913" class=".btn">#913</a>
-            </td>
-            <td>
-                <b>
-                    Fix vscode extension build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Looks like @types/vscode 1.69.0 is broken. Do not use this version.
-
-vscode-test has been renamed to @vscode/test-electron, update this too.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-12 09:10:39 +0000 UTC
     </div>
 </div>
 
