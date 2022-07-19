@@ -15,28 +15,32 @@ permalink: /releases/hyperledger/fabric-sdk-node
         <tr>
             <td colspan="2">
                 <b>
-                    v2.2.13
+                    v2.2.14
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.2.13
+                    v2.2.14
                 </span>
             </td>
             <td>
-                This is a maintenance release containing dependency updates to address security vulnerability CVE-2021-43138.
+                This is a maintenance release containing the following changes:
 
-**Full Changelog**: https://github.com/hyperledger/fabric-sdk-node/compare/v2.2.12...v2.2.13
+- Dependency updates to address security vulnerability CVE-2022-25898.
+- Resolve an issue that could cause partial discovery results to be obtained under high load, and subsequent transaction failures.
+- Resolve an issue that could cause an unhandled promise rejection with exceptionally short commit timeouts.
+
+**Full Changelog**: https://github.com/hyperledger/fabric-sdk-node/compare/v2.2.13...v2.2.14
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-sdk-node/releases/tag/v2.2.13" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-sdk-node/releases/tag/v2.2.14" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-06-01 12:03:21 +0000 UTC
+        Created At 2022-07-19 12:16:27 +0000 UTC
     </span>
 </div>
 
