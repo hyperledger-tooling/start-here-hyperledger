@@ -43,7 +43,7 @@ permalink: /pull-requests/hyperledger/iroha
 <!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
 <!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
 
-Replaces `String` with `ConstString` where possible in `data_model`. It's for `data_model` only because of the cyclic dependencies. The other part of the issue (replacing `ConstString` with `String` in `crypto`) is blocked until #2386 or #2392 resolved. 
+Replaces `String` with `ConstString` for types stored in the blockchain. It also encapsulates `iroha_data_primitives` into a shared crate.
 
 ### Issue
 
@@ -52,7 +52,7 @@ More information about this is available in GitHub documentation: https://docs.g
 
 <!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
 
-Related to #2073 
+Closes #2073 
 
 ### Benefits
 

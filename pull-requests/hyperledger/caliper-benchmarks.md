@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/220" class=".btn">#220</a>
+                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/223" class=".btn">#223</a>
             </td>
             <td>
                 <b>
-                    fixed paginatRichQuery and paginatedRangeQuery chaincode and benchmark
+                    Fix Besu docker compose network bug (#222)
                 </b>
             </td>
         </tr>
@@ -27,27 +27,18 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
                 
             </td>
             <td>
-                The node chaincode uses default parameters while the go one doesn't
+                Fixes #222 
 
-In the benchmark we do provide only the required parameters(2 out of 3 for rich query and 3 out of 4 for range query), which works for the node chaincode that has the last parameter as an optional default one while it does not work for the go one.
+* Remove custom Dockerfile for building the Besu node
+* Use the official image directly, and anchored to a specific version
+* Update CLI options (fixing rpc-ws-apis bug and adhering to inclusive language statement), essentially syncing it with the Caliper CI test
 
-However, if you try to actually set the third parameter (forth for range query) the go one works fine but the node one doesn't
-as far as I understood chaincode functions have a fixed signature with no optional parameters. This is an arbitrary choice since GRPC supports optional parameters by setting them to a default value if missing.
-
-I removed the optional parameter from the node chaincode and provide all of the arguments in the benchmark call.
-
-By reducing the number of assets created everything works fine. however, if we keep the current setting, creating 8000 assets for each worker and size, then around a third of query timeout.
-By looking at the couch db logs we see that they eventually finish but after more than 20 seconds.
-I solved the issue so that the builds can now pass without errors by reducing the number of asset created. I will close this issue #189 , but open a more specific one on the issues with Couchdb. 
-
-Closes #189
-
-Signed-off-by: fraVlaca <ocsenarf@outlook.com>
+Signed-off-by: Attila Klenik <a.klenik@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-08 15:44:48 +0000 UTC
+        Created At 2022-07-19 14:46:04 +0000 UTC
     </div>
 </div>
 

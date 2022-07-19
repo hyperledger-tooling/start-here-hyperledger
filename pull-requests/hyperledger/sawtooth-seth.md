@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-seth
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-seth/pull/124" class=".btn">#124</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-seth/pull/125" class=".btn">#125</a>
             </td>
             <td>
                 <b>
-                    Add Hyperledger code of conduct
+                    Archive repository
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/sawtooth-seth
                 
             </td>
             <td>
-                Required as a part of the Hyperledger common repo structure
+                The Sawtooth Team no longer has availability to maintain this repository.
 
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-28 18:59:41 +0000 UTC
+        Created At 2022-07-19 16:17:57 +0000 UTC
     </div>
 </div>
 

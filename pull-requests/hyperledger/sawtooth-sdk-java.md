@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-java/pull/46" class=".btn">#46</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-java/pull/48" class=".btn">#48</a>
             </td>
             <td>
                 <b>
-                    Add Hyperledger code of conduct
+                    Update protobuf version
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-java
                 
             </td>
             <td>
-                Required as a part of the Hyperledger common repo structure
+                This change updates the protobuf version to the latest as of the time of this commit.
 
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+This replaces PR's #44 and #45
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-28 18:15:56 +0000 UTC
+        Created At 2022-07-19 15:43:02 +0000 UTC
     </div>
 </div>
 
