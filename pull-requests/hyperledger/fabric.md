@@ -14,11 +14,41 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3534" class=".btn">#3534</a>
+            </td>
+            <td>
+                <b>
+                    [Release-2.2 BP FAB-2643]
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is a backport of pull request https://github.com/hyperledger/fabric/pull/2643
+
+Because we can't upgrade viper to `v1.1.1` in which the bug of shadowing a key is fixed and hooks are introduced, I had to find a workaround to simplify the backport as more as possible. 
+
+Also, I added a test and a short explanation for overriding the list of system chaincodes. The default approach with env var `CORE_CHAINCODE_SYSTEM_XXX: enabled` won't work due to a bug in viper in earlier versions. I agree that bumping it to v1.1.1 requires too many changes and might break the LTS release. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-19 14:03:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3533" class=".btn">#3533</a>
             </td>
             <td>
                 <b>
-                    WIP: Orderer v3: Kafka consesus remove
+                    Orderer v3: Kafka consesus remove
                 </b>
             </td>
         </tr>

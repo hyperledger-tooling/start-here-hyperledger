@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/iroha-java
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/256" class=".btn">#256</a>
-            </td>
-            <td>
-                <b>
-                    feature: change domain metadata
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added instruction to change domain metadata
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-12 16:12:19 +0000 UTC
-    </div>
-</div>
-

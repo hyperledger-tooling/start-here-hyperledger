@@ -14,6 +14,88 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/929" class=".btn">#929</a>
+            </td>
+            <td>
+                <b>
+                    Default last dimension as the dynamic one
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR defaults the last dimension of multidimensional arrays as the only one that can be dynamic. It fixes issue #903 only for Solana.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-19 18:22:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/928" class=".btn">#928</a>
+            </td>
+            <td>
+                <b>
+                    When pushing new element onto array, do not free existing data
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This data will be stale and may lead to corruption.
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-19 16:13:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/927" class=".btn">#927</a>
+            </td>
+            <td>
+                <b>
+                    codegen: print the require error string for target substrate
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Since we have now debug prints working in substrate, error strings from `require` assertions can be appended the debug message buffer. This should make debugging during contract development much easier.
+
+This should pass integration tests as soon as they use an up-to-date substrate version.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-19 13:28:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/925" class=".btn">#925</a>
             </td>
             <td>

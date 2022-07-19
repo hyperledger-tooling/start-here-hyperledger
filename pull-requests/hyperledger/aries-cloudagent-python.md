@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1865" class=".btn">#1865</a>
+            </td>
+            <td>
+                <b>
+                    fix: warnings in tests from IndySdkProfile
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR includes some minor tweaks to tests involving `IndySdkProfile`s to prevent them from emitting warnings. Based on my analysis, the warnings are a result of how the event loop is managed in asynchronous testing with pytest. The profile reference falls out of scope at the same time as the event loop is closed for a test and what results are `Coroutine never awaited` errors.
+
+This may not be the best solution (open to thoughts) but in most cases, I simply monkeypatched the `_make_finalizer` call where the behavior of the finalizer was not what was under test. Where it was under test, I opted to manually call the finalizer before the end of the test (or as a part of fixture clean up) and, therefore, before the event loop starts to close.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-19 17:04:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1864" class=".btn">#1864</a>
+            </td>
+            <td>
+                <b>
+                    RFC 0593 Compliance: Allow issuing JSON LD Credentials with credentialStatus
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Following the documentation for JSONLD Credentials, there is a parameter
+for adding `credentialStatus` to a credential:
+https://github.com/hyperledger/aries-rfcs/blob/main/features/0593-json-ld-cred-attach/README.md
+
+However, adding the parameter causes all flows to fail due to the
+credentialStatus never making it into the credential. I don't know the
+history of this parameter, but in order to follow RFC 0593 a bit more
+closely, I have fixed up the flow so that it doesn't fail issuance.
+
+Signed-off-by: Colton Wolkins (Indicio work address) <colton@indicio.tech>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-19 16:36:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1863" class=".btn">#1863</a>
             </td>
             <td>
@@ -59,43 +122,6 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     </table>
     <div class="right-align">
         Created At 2022-07-13 17:42:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1856" class=".btn">#1856</a>
-            </td>
-            <td>
-                <b>
-                    Githubaction publish docker image
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Hi, @swcurran mentioned in today's AcaPug call that you would be interested in a pipeline for building and publishing AcaPy Docker images automatically for every tagged commit.
-
-The GitHub Action below should do this. It is triggered for every tagged commit and will build the docker image using the `docker/Dockerfile.run` file. The images are being published in the GitHub package registry of this repo.
-
-Example: If a commit is tagged with `0.7.4-rc6` an image will automatically be built and published with the following two tags:
-1. aries-cloudagent-python:latest
-2. aries-cloudagent-python:0.7.4-rc6
-
-You can also see the build image in my forked version of this repo: https://github.com/PaulWen/aries-cloudagent-python/pkgs/container/aries-cloudagent-python
-
-
-Let me know if this is of any help or if I misunderstood the requirements. I am happy to iterate over it and appreciate any feedback!
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-12 17:25:03 +0000 UTC
     </div>
 </div>
 

@@ -244,29 +244,3 @@ permalink: /pull-requests/hyperledger-labs/karma-charity-platform
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/karma-charity-platform/pull/28" class=".btn">#28</a>
-            </td>
-            <td>
-                <b>
-                    update HLF explorer workflows
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Alexander Zemtsov <a.zemtsov@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-12 16:33:30 +0000 UTC
-    </div>
-</div>
-
