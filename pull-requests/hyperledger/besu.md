@@ -14,6 +14,89 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4126" class=".btn">#4126</a>
+            </td>
+            <td>
+                <b>
+                    alternative malloc implementation - jemalloc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Draft PR for testing jemalloc to better manage rocksdb memory usage.
+
+* add malloc arena max envar to besu startup
+* add jemalloc preload envar to besu startup
+* add jemalloc lib download to docker jvm images
+
+smoke tested and verified working on:
+ Linux x86_64
+ Docker linux aarch64 (on OSX M1)
+
+Native OSX (Big Sur +) is not loading jemalloc currently
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+potentially addresses:
+#4057
+
+## Documentation
+If we end up going with jemalloc as an alternative malloc implementation for besu, we should document the need to have jemalloc installed in your environment, how to do it for each platform.
+
+- [X] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-18 23:05:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4124" class=".btn">#4124</a>
+            </td>
+            <td>
+                <b>
+                    applies merge filtering to peers after 2 finalized
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Justin Florentine <justin+github@florentine.us>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-18 19:21:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4122" class=".btn">#4122</a>
             </td>
             <td>
@@ -1019,48 +1102,6 @@ For the merge the block of the checkpoint must not be after the deployment of th
     </table>
     <div class="right-align">
         Created At 2022-07-12 08:36:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4083" class=".btn">#4083</a>
-            </td>
-            <td>
-                <b>
-                    host header parse error
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-fixes the parsing of host headers. adds test coverage for this case on both http and websockets.
-
-## Fixed Issue(s)
-#4082 
-
-## Documentation
-
-- [X] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-11 20:50:12 +0000 UTC
     </div>
 </div>
 

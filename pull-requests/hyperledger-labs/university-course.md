@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/university-course
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/university-course/pull/82" class=".btn">#82</a>
+                PR <a href="https://github.com/hyperledger-labs/university-course/pull/83" class=".btn">#83</a>
             </td>
             <td>
                 <b>
-                    chore(deps): bump shell-quote from 1.7.2 to 1.7.3 in /support/Lab06/b4s/organization/university/user-interface
+                    chore(deps): bump thenify from 3.3.0 to 3.3.1 in /support/Lab06/b4s/organization/university/user-interface
                 </b>
             </td>
         </tr>
@@ -27,33 +27,30 @@ permalink: /pull-requests/hyperledger-labs/university-course
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [shell-quote](https://github.com/substack/node-shell-quote) from 1.7.2 to 1.7.3.
+                Bumps [thenify](https://github.com/thenables/thenify) from 3.3.0 to 3.3.1.
 <details>
 <summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/substack/node-shell-quote/blob/master/CHANGELOG.md">shell-quote's changelog</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/thenables/thenify/blob/master/History.md">thenify's changelog</a>.</em></p>
 <blockquote>
-<h2>1.7.3</h2>
+<h1>3.3.1 / 2020-06-18</h1>
+<p><strong>fixes</strong></p>
 <ul>
-<li>Fix a security issue where the regex for windows drive letters allowed some shell meta-characters
-to escape the quoting rules. (CVE-2021-42740)</li>
+<li>[<a href="http://github.com/thenables/thenify/commit/0d94a24eb933bc835d568f3009f4d269c4c4c17a"><code>0d94a24</code></a>] - fix: remove eval (<a href="https://github-redirect.dependabot.com/thenables/thenify/issues/30">#30</a>) (Yiyu He <!-- raw HTML omitted -->)</li>
 </ul>
 </blockquote>
 </details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/substack/node-shell-quote/commit/6a8a899c62a58a30fb128a7079f02826ed4faee0"><code>6a8a899</code></a> 1.7.3</li>
-<li><a href="https://github.com/substack/node-shell-quote/commit/5799416ed454aa4ec9afafc895b4e31760ea1abe"><code>5799416</code></a> fix for security issue with windows drive letter regex</li>
-<li><a href="https://github.com/substack/node-shell-quote/commit/c7de931fa4ed0975ea9756983c88334fe4b8cde5"><code>c7de931</code></a> Add security.md</li>
-<li><a href="https://github.com/substack/node-shell-quote/commit/414853f1fd98553368ce7507cd26ebae88d71b46"><code>414853f</code></a> Update readme.markdown (<a href="https://github-redirect.dependabot.com/substack/node-shell-quote/issues/43">#43</a>)</li>
-<li><a href="https://github.com/substack/node-shell-quote/commit/0fc4a978131ab68cace9c9a57cee245b6b70e595"><code>0fc4a97</code></a> use Github Actions (<a href="https://github-redirect.dependabot.com/substack/node-shell-quote/issues/42">#42</a>)</li>
-<li>See full diff in <a href="https://github.com/substack/node-shell-quote/compare/v1.7.2...1.7.3">compare view</a></li>
+<li><a href="https://github.com/thenables/thenify/commit/1d054b4d60e72087f4e804565e540258ecee7f0b"><code>1d054b4</code></a> Release 3.3.1</li>
+<li><a href="https://github.com/thenables/thenify/commit/0d94a24eb933bc835d568f3009f4d269c4c4c17a"><code>0d94a24</code></a> fix: remove eval (<a href="https://github-redirect.dependabot.com/thenables/thenify/issues/30">#30</a>)</li>
+<li>See full diff in <a href="https://github.com/thenables/thenify/compare/3.3.0...3.3.1">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=shell-quote&package-manager=npm_and_yarn&previous-version=1.7.2&new-version=1.7.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=thenify&package-manager=npm_and_yarn&previous-version=3.3.0&new-version=3.3.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -89,7 +86,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-23 05:11:32 +0000 UTC
+        Created At 2022-07-18 21:45:27 +0000 UTC
     </div>
 </div>
 
