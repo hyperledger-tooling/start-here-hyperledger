@@ -31,7 +31,7 @@ permalink: /pull-requests/hyperledger/besu
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-Draft PR for testing jemalloc to better manage rocksdb memory usage.
+Use jemalloc with linux runtimes to better manage rocksdb memory usage.
 
 * add malloc arena max envar to besu startup
 * add jemalloc preload envar to besu startup
@@ -41,7 +41,7 @@ smoke tested and verified working on:
  Linux x86_64
  Docker linux aarch64 (on OSX M1)
 
-Native OSX (Big Sur +) is not loading jemalloc currently
+Native OSX ([El Capitan +](https://developer.apple.com/forums/thread/13161https://developer.apple.com/forums/thread/13161)) is not loading jemalloc currently
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
