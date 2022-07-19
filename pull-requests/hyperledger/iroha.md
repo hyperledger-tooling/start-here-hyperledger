@@ -14,6 +14,81 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2505" class=".btn">#2505</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #2073: Prefer ConstString over String
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Refactor</span><span class="chip">Optimization</span>
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+Replaces `String` with `ConstString` where possible in `data_model`. It's for `data_model` only because of the cyclic dependencies. The other part of the issue (replacing `ConstString` with `String` in `crypto`) is blocked until #2386 or #2392 resolved. 
+
+### Issue
+
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+Related to #2073 
+
+### Benefits
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests *[optional]*
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-18 19:19:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2503" class=".btn">#2503</a>
             </td>
             <td>
@@ -229,7 +304,7 @@ None
 
 ### Description of the Change
 
-It adds a test that reproduces [this bug](https://github.com/hyperledger/iroha/issues/2492) and also changes that fix it.  
+It adds a test that reproduces [this bug](https://github.com/hyperledger/iroha/issues/2492) and also changes that fix it. Also [see](https://github.com/hyperledger/iroha/pull/2493) these changes to `iroha2-dev` branch.
 
 ### Issue
 
@@ -369,7 +444,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
 
 ### Description of the Change
 
-I've added a test that reproduces [this bug](https://github.com/hyperledger/iroha/issues/2492) and also changes that fix it.
+I've added a test that reproduces [this bug](https://github.com/hyperledger/iroha/issues/2492) and also changes that fix it. Also [see](https://github.com/hyperledger/iroha/pull/2495) these changes to `iroha2-lts` branch.
 
 ### Issue
 Fixes #2492 
@@ -999,127 +1074,6 @@ pub struct Broker {
     </table>
     <div class="right-align">
         Created At 2022-07-12 09:24:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2470" class=".btn">#2470</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #2467: Add account grant subcommand into iroha_client_cli
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">CLI</span>
-            </td>
-            <td>
-                <!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-* Added `grant` subcommand for `account` command
-* Added `list-permissions` subcommand for `account` command as @s8sato suggested
-
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-### Issue
-
-* Closes #2467
-
-
-### Benefits
-
-Now users can grant permissions using `iroha_client_cli`
-
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks 
-
-* Not a drawback of this PR, but still no support for roles
-* We might need to introduce server response cheking in `Client::submit_transaction()` so that user can see if something has failed on the server-side
-* I've mentioned that the documentation for `iroha_client_cli` tells about possibility to pass empty line for key when registering new account. This does not work now
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests
-
-1. Run docker compose:
-
-``` bash
-docker compose up
-```
-
-2. Open new terminal window and go to `configs/client_cli`
-
-3. Run this commands:
-
-```bash
-cargo run --bin iroha_client_cli -- domain register --id looking_glass
-cargo run --bin iroha_client_cli -- account register --id="mad_hatter@looking_glass" --key="ed01207233bfc89dcbd68c19fde6ce6158225298ec1131b6a130d1aeb454c1ab5183c0"
-cargo run --bin iroha_client_cli -- asset register --id tea#looking_glass --value-type Quantity
-```
-
-4. Then create file `premission_token.json` and paste the following:
-
-```json
-{
-    "name": "can_transfer_user_assets",
-    "params": {
-        "asset_id": {
-            "Id": {
-                "AssetId": {
-                    "definition_id": {
-                        "name": "tea",
-                        "domain_id": {
-                            "name": "looking_glass"
-                        }
-                    },
-                    "account_id": {
-                        "name": "mad_hatter",
-                        "domain_id": {
-                            "name": "looking_glass"
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-```
-
-5. Open `config.json` in `configs/client_cli` directory and replace `alice` with `mad_hatter` and `wonderland` with `looking_glass`. This is needed because `alice` can't grant permissions to assets of another domain (I think so; I didn't checked if it's the real reason why it's not working without it)
-
-6. Run the final commands:
-
-```bash
-cargo run --bin iroha_client_cli -- account grant --id "mad_hatter@looking_glass" --permission permission_token.json
-cargo run --bin iroha_client_cli -- account list-permissions --id "mad_hatter@looking_glass"
-```
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-11 20:02:23 +0000 UTC
     </div>
 </div>
 

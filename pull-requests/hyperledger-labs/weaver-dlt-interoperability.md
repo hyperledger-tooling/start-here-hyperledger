@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/294" class=".btn">#294</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/295" class=".btn">#295</a>
             </td>
             <td>
                 <b>
-                    Weaver Fabric Driver changes for events
+                    Transaction Listener Support in Fabric Driver
                 </b>
             </td>
         </tr>
@@ -27,16 +27,14 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                Changes address (pertaining to Fabric Driver):
-
-- Event subscription
-- Event unsubscription
-- Event listing
+                Added logic to the Fabric driver to start block or chaincode event listeners upon an event subscription request.
+Minor upgrades, bug fixes, CLI augmentation, and documentation enhancements.
+Fixes #269 and #270 .
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-11 14:47:44 +0000 UTC
+        Created At 2022-07-18 21:45:12 +0000 UTC
     </div>
 </div>
 
