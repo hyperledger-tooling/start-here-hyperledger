@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1410" class=".btn">#1410</a>
+            </td>
+            <td>
+                <b>
+                    Migrate Fabric integration tests to test network
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In this PR:
+* Fabric integration tests (fabric_tests, fabric_docker_local_tests and fabric_docker_distributed_tests) are migrated to use test network for standing up a Fabric network instead of a custom setup
+
+Closes #1408 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-19 20:57:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1407" class=".btn">#1407</a>
             </td>
             <td>

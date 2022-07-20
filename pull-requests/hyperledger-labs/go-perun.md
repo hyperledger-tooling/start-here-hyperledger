@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/360" class=".btn">#360</a>
+            </td>
+            <td>
+                <b>
+                    Fix local watcher deadlock
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In rare occasions, the local watcher was running into a deadlock when stopping and handling an event at the same time.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-19 21:22:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/359" class=".btn">#359</a>
             </td>
             <td>
