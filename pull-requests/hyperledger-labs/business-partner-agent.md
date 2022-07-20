@@ -14,6 +14,78 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/783" class=".btn">#783</a>
+            </td>
+            <td>
+                <b>
+                    Feature/vue3 upgrade
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Preparations for upgrading vue2 to vue3
+
+- upgrade vue, vue-cli-service and vue/cli-service plugins
+- use migration build 
+- fix compiler warnings (filters, v-bind, key on template tag, template without directives)
+
+- fix some errors by commenting problematic lines
+ 
+
+
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/783"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-20 09:18:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/782" class=".btn">#782</a>
+            </td>
+            <td>
+                <b>
+                    fixed genesis-url 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                genesis url is now defined in the genesis-transaction-list.yml
+
+
+Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/782"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-20 08:39:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/781" class=".btn">#781</a>
             </td>
             <td>
@@ -69,38 +141,6 @@ Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
     </table>
     <div class="right-align">
         Created At 2022-07-14 15:41:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/779" class=".btn">#779</a>
-            </td>
-            <td>
-                <b>
-                    load tags into partner within PartnerRepository
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When loading partner from PartnerRepository found by Id, the Partner object contains tags.
-When found by connection Id and other Ids, the partner does not contain tags.
-This merge requests adds annotations to some other findBy functions to let the partner contain tags.
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/779"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-13 12:25:14 +0000 UTC
     </div>
 </div>
 

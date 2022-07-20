@@ -82,7 +82,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 This PR brings the following improvements:
 - Simplified wallet management `core\identity`
 - extensible `zkatdlog\nogh` auditor implementation
+- token request metadata: add support for extra signers, in case a driver needs it.
+- add more logging to token processors
  
+Plus:
+- dvp test: added delay to wait for the network to be ready.
+- left a TODO to be addressed in a future PR
             </td>
         </tr>
     </table>

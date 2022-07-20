@@ -52,50 +52,6 @@ It may be better to not simulate columns since I think besu always uses globally
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4133" class=".btn">#4133</a>
-            </td>
-            <td>
-                <b>
-                    WIP Initial implementation of rollup_createBlock endpoint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Pedro Novais <jpvnovais@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-19 12:33:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4132" class=".btn">#4132</a>
             </td>
             <td>
@@ -816,7 +772,7 @@ fixes #2190
             </td>
             <td>
                 <b>
-                    WIP Peer disco
+                    WIP EthPeers - remove if disconnected
                 </b>
             </td>
         </tr>
@@ -825,7 +781,9 @@ fixes #2190
                 
             </td>
             <td>
-                Testing a theory with EthPeer disconnects
+                Testing a theory with EthPeer disconnects. From looking at logs, there's a spot in the code where it seems that duplicate connection is detected and disconnected, while the EthPeer is being created and added, so that by the time it is added, it's already disconnected.
+
+This may not be the most elegant solution but I'm running it up and it seems to work but does create an issue with the callbacks - but I think the callback issue might be there anyway.
 
 ## Documentation
 
@@ -980,248 +938,6 @@ With this the last failing Hive test (Invalid Ancestor Chain Re-Org, Invalid Num
     </table>
     <div class="right-align">
         Created At 2022-07-13 13:21:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4095" class=".btn">#4095</a>
-            </td>
-            <td>
-                <b>
-                    Create backward sync retries on demand
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Currently backward sync create the max number of retries ahead of time, and this could cause unneeded retries in case of non recoverable error like in this log 
-[backward-sync-retries.txt](https://github.com/hyperledger/besu/files/9101478/backward-sync-retries.txt)
-
-This PR rework the retry strategy to create retries on demand and fast fail in case of a non recoverable exception.
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-13 11:03:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4094" class=".btn">#4094</a>
-            </td>
-            <td>
-                <b>
-                    candidate fix for missing parent worldstate
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-when we remember block after the merge we must persist the trielog. because if we lose the trielog in the memory   (ex  restart besu) we can end up in a case where the block is saved but not the trielog. this can prevent the rollback or the rollforward to work because besu will consider that it can do it as the block is present but it will failed because trielog is missing. 
-
-may be one of the reasons for the problem found on a ropsten test node
-
-A possible edgecase description : 
-- the head is block 5
-- we remember block 6
-- as we remember block 6 , we save trielog 6 only in memory
-- CL is saying to go to block 7
-now we have
-- block5 in database + trielog 5 in database
-- block6 in database + trielog 6 in memory
-- block7 in database + trielog 7 in database
-- we have a reorg to block 6
-- we rollback 7 to 6 and we persist again block 6. as trielog 6 is not in the database we save invalid trielog 6 (7->6)
-
- if we restart before the reorg trielog 6 is missing
- 
- this PR also fix an issue related to an invalid implementation of BonsaiInmemoryWorldstate
- 
-```java 
-java.lang.AssertionError: Node hash 0x9289cda321472949c843ca0b1c6e08011c2608436898699468f49b72d2d8533e not equal to expected 0x03ac2557b39e96bc541432719417ca05360530f915ae8e53d8bf2591bee9c883
-	at org.hyperledger.besu.ethereum.trie.StoredNodeFactory.lambda$retrieve$1(StoredNodeFactory.java:103)
-	at java.base/java.util.Optional.map(Optional.java:265)
-	at org.hyperledger.besu.ethereum.trie.StoredNodeFactory.retrieve(StoredNodeFactory.java:97)
-	at org.hyperledger.besu.ethereum.trie.StoredNode.load(StoredNode.java:130)
-	at org.hyperledger.besu.ethereum.trie.StoredNode.accept(StoredNode.java:63)
-	at org.hyperledger.besu.ethereum.trie.StoredMerklePatriciaTrie.put(StoredMerklePatriciaTrie.java:142)
-	at org.hyperledger.besu.ethereum.bonsai.BonsaiPersistedWorldState.calculateRootHash(BonsaiPersistedWorldState.java:227)
-	at org.hyperledger.besu.ethereum.bonsai.BonsaiPersistedWorldState.calculateRootHash(BonsaiPersistedWorldState.java:104)
-	at org.hyperledger.besu.ethereum.bonsai.BonsaiInMemoryWorldState.rootHash(BonsaiInMemoryWorldState.java:34)
-	at org.hyperledger.besu.ethereum.MainnetBlockValidator.validateAndProcessBlock(MainnetBlockValidator.java:119)
-	at org.hyperledger.besu.consensus.merge.blockcreation.MergeCoordinator.validateBlock(MergeCoordinator.java:256)
-	at org.hyperledger.besu.consensus.merge.blockcreation.MergeCoordinator.rememberBlock(MergeCoordinator.java:272)
-	at org.hyperledger.besu.consensus.merge.blockcreation.TransitionCoordinator.rememberBlock(TransitionCoordinator.java:137)
-	at org.hyperledger.besu.ethereum.api.jsonrpc.internal.methods.engine.EngineNewPayload.syncResponse(EngineNewPayload.java:189)
-	at org.hyperledger.besu.ethereum.api.jsonrpc.internal.methods.ExecutionEngineJsonRpcMethod.lambda$response$0(ExecutionEngineJsonRpcMethod.java:62)
-	at io.vertx.core.impl.ContextImpl.lambda$null$0(ContextImpl.java:159)
-	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:100)
-	at io.vertx.core.impl.ContextImpl.lambda$executeBlocking$1(ContextImpl.java:157)
-	at io.vertx.core.impl.TaskQueue.run(TaskQueue.java:76)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-```
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-#4084
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-13 10:55:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4093" class=".btn">#4093</a>
-            </td>
-            <td>
-                <b>
-                    Revert "Add terminal block hash and number to Ropsten genesis file (#4026)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This reverts commit 27fc468624d4a19067b076567ea9e1578217d34e.
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Reverting this commit since it is causing error in the CL clients and needs to be implemented in a different way
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-13 09:16:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4092" class=".btn">#4092</a>
-            </td>
-            <td>
-                <b>
-                    Backward sync exception improvements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-During the investigation of a Hive test that triggers backward sync, found some improvements that could be applied to backward sync exceptions.
-
-1) Remove of recoursive exceptions nesting, that produces monster exception like this one
-[deeply-nested-exception.txt](https://github.com/hyperledger/besu/files/9100608/deeply-nested-exception.txt)
-
-2) Avoid to return `null` from `syncBackwardsUntil` methods in case the block is already trusted
-
-3) Log a warning for backward sync exception that are not recoverable, likewise it is already done for recoverable exceptions
-
-4) Rephrase the error messages when there is a validator error found during the backward sync, with the assumption that the child block is the invalid one, and the parent is correct, this makes clearer the error message for the Hive test
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-13 09:07:37 +0000 UTC
     </div>
 </div>
 
