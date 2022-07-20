@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/440" class=".btn">#440</a>
+            </td>
+            <td>
+                <b>
+                    data proof test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span>
+            </td>
+            <td>
+                Signed-off-by: tohar-ayash <toharayash1@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-20 14:21:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/439" class=".btn">#439</a>
             </td>
             <td>
@@ -72,32 +98,6 @@ Signed-off-by: Yoav Tock <tock@il.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-07-17 08:38:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/435" class=".btn">#435</a>
-            </td>
-            <td>
-                <b>
-                    fix remove node test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: tohar-ayash <toharayash1@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-13 14:04:12 +0000 UTC
     </div>
 </div>
 
