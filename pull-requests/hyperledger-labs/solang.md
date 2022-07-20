@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/solang
             </td>
             <td>
                 <b>
-                    Default last dimension as the dynamic one
+                    Arrays' outer dimension is the only one allowed to be dynamic
                 </b>
             </td>
         </tr>
@@ -263,32 +263,6 @@ Fixes #779
     </table>
     <div class="right-align">
         Created At 2022-07-13 13:48:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/917" class=".btn">#917</a>
-            </td>
-            <td>
-                <b>
-                    Add Cyrill to maintainers list
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also quickly made the github handles clickable :upside_down_face: 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-13 11:23:02 +0000 UTC
     </div>
 </div>
 
