@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/nft-auction
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/22" class=".btn">#22</a>
+                PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/26" class=".btn">#26</a>
             </td>
             <td>
                 <b>
-                    form reset on modal close
+                    Added env variable for node rest api
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger-labs/nft-auction
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: bharadwajambati1995 <bharadwaj.ambati@chainyard.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-31 10:32:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/21" class=".btn">#21</a>
-            </td>
-            <td>
-                <b>
-                    form reset
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sahinul Haque <sahinul.haque@itpeoplecorp.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-03-31 07:24:17 +0000 UTC
+        Created At 2022-07-19 19:37:36 +0000 UTC
     </div>
 </div>
 

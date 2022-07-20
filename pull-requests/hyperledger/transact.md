@@ -14,11 +14,37 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/365" class=".btn">#365</a>
+                PR <a href="https://github.com/hyperledger/transact/pull/367" class=".btn">#367</a>
             </td>
             <td>
                 <b>
-                    Jammy upgrade
+                    Add release notes for 0.4.6
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-19 21:04:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/transact/pull/366" class=".btn">#366</a>
+            </td>
+            <td>
+                <b>
+                    BACKPORT 0-4: Jammy Upgrade
                 </b>
             </td>
         </tr>
@@ -32,7 +58,7 @@ permalink: /pull-requests/hyperledger/transact
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-06 17:50:20 +0000 UTC
+        Created At 2022-07-19 19:07:55 +0000 UTC
     </div>
 </div>
 
