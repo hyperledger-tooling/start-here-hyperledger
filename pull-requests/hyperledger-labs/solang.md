@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/929" class=".btn">#929</a>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/931" class=".btn">#931</a>
             </td>
             <td>
                 <b>
-                    Arrays' outer dimension is the only one allowed to be dynamic
+                    [WIP] Update substrate integration test environment
                 </b>
             </td>
         </tr>
@@ -27,7 +27,35 @@ permalink: /pull-requests/hyperledger-labs/solang
                 
             </td>
             <td>
-                This PR defaults the last dimension of multidimensional arrays as the only one that can be dynamic. It fixes issue #903 only for Solana.
+                
+
+Signed-off-by: Cyrill Leutwiler <bigcyrill@hotmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-20 16:00:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/929" class=".btn">#929</a>
+            </td>
+            <td>
+                <b>
+                    Use the dims.last() to retrieve the outer dimension of a multidimensional array
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR changes `dims[0]` to `dims.last()` to retrieve the outer dimension of a multidimensional array. It fixes issue #903 only for Solana.
             </td>
         </tr>
     </table>
@@ -211,58 +239,6 @@ Fixes #779
     </table>
     <div class="right-align">
         Created At 2022-07-15 08:20:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/919" class=".btn">#919</a>
-            </td>
-            <td>
-                <b>
-                    Refactor size_of function
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The function `Type::size_of` is currently only used for calculation how much size a type occupies in storage. We do not utilize it to estimate the size of an item in the memory. This PR updates the function's name to properly represent what it returns and updates its description to encourage proper usage.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-13 15:16:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/918" class=".btn">#918</a>
-            </td>
-            <td>
-                <b>
-                    Fix load of vector of strings from storage on Solana
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Loading a vector of strings from storage was not working correctly. When we accessed the first element of the loaded array, we would get the wrong length, and consequently the wrong string. This PR fixes this problem.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-13 13:48:57 +0000 UTC
     </div>
 </div>
 

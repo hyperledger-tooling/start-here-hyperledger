@@ -131,29 +131,3 @@ Signed-off-by: Colton Wolkins (Indicio work address) <colton@indicio.tech>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1858" class=".btn">#1858</a>
-            </td>
-            <td>
-                <b>
-                    Unit test fixes for python 3.9
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This partially implements the updates in #1717, for the specific tests that were failing under 3.9. There is some overlap with #1854.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-13 17:42:16 +0000 UTC
-    </div>
-</div>
-

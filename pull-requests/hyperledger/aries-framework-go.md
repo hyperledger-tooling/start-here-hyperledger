@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3284" class=".btn">#3284</a>
+            </td>
+            <td>
+                <b>
+                    feat: Size computation for allocation may overflow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Performing calculations involving the size of potentially large strings or slices can result in an overflow (for signed integer types) or a wraparound (for unsigned types). An overflow causes the result of the calculation to become negative, while a wraparound results in a small (positive) number.
+
+This can cause further issues. If, for example, the result is then used in an allocation, it will cause a runtime panic if it is negative, and allocate an unexpectedly small buffer otherwise.
+
+Signed-off-by: Bhaskar <ram@hacker.ind.in>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-20 16:13:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3283" class=".btn">#3283</a>
             </td>
             <td>
@@ -531,51 +562,6 @@ Factor walletlite.Command form vcwallet.Command. It can now be used in the lite 
     </table>
     <div class="right-align">
         Created At 2022-07-14 11:10:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3275" class=".btn">#3275</a>
-            </td>
-            <td>
-                <b>
-                    feat: CL Anoncreds Crypto API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Title:**
-CL Anoncreds Crypto API
-
-**Description:**
-
-- This is the second PR to support CL in `af-go` [#180](https://github.com/hyperledger/aries-framework-go/issues/180)
-- This PR adds support for CL Anoncreds on Crypto API level (currently, for `tinkcrypto`)
-- This PR contains implementation of CL for `tinkcrypto`
-- `remotecrypto` changes will be introduced in the one of the latest PRs
-
-**Summary:**
-
-- Extended Crypto API with CL methods
-- Adopted `libursa` CL primitives for `tinkcrypto` implementation
-- Added `ursa` CL verifier functionality 
-- Added stubs for `remotecrypto` and `tinkcrypto` for the case where no `ursa` installed
-- Added unit tests
-- Minor refactoring
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-13 15:02:01 +0000 UTC
     </div>
 </div>
 
