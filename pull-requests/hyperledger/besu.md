@@ -14,6 +14,131 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4142" class=".btn">#4142</a>
+            </td>
+            <td>
+                <b>
+                    Peering logging
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span><span class="chip">peering</span>
+            </td>
+            <td>
+                Minor changes to logging. 
+* add a separate class to log "Process message" in EthProtocolManager, so logging can be tuned separately by class
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-21 01:15:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4139" class=".btn">#4139</a>
+            </td>
+            <td>
+                <b>
+                    22.7.0 snapshot
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Prep 22.7.0 release 
+
+Prep snapshot of 22.7.0
+
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-20 19:18:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4138" class=".btn">#4138</a>
+            </td>
+            <td>
+                <b>
+                    22.7.0 rc2 release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                22.7.0-RC2 release
+
+Release 22.7.0-RC2 of Hyperledger Besu
+
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-20 19:15:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4137" class=".btn">#4137</a>
+            </td>
+            <td>
+                <b>
+                    22.7.0 CHANGELOG.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                update changelog for release
+
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-20 19:12:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4136" class=".btn">#4136</a>
             </td>
             <td>
@@ -888,47 +1013,6 @@ This may not be the most elegant solution but I'm running it up and it seems to 
     </table>
     <div class="right-align">
         Created At 2022-07-14 03:56:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4099" class=".btn">#4099</a>
-            </td>
-            <td>
-                <b>
-                    Fix for RPC performance regression
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Diego López León <dieguitoll@gmail.com>
-
-## PR description
-PR #3695 uses [i.o.v.e.web.Route#blockingHandler](https://vertx.io/docs/apidocs/io/vertx/ext/web/Route.html#blockingHandler-io.vertx.core.Handler-) to attend JSON-RPC HTTP requests, but [according documentation](https://vertx.io/docs/vertx-web/java/#_using_blocking_handlers) it does it linearly. This PR adds `ordered=false` to let vert.x parallelize the processing.
-
-## Fixed Issue(s)
-fixes: #3959
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-13 20:26:31 +0000 UTC
     </div>
 </div>
 

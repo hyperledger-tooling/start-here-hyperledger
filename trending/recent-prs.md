@@ -1,13 +1,13 @@
 
-[4136](https://github.com/hyperledger/besu/pull/4136) logging additions for better engine visibility
+[4142](https://github.com/hyperledger/besu/pull/4142) Peering logging
 
-[1411](https://github.com/hyperledger/caliper/pull/1411) Remove channel and chaincode operations from Fabric v1 connector
+[1460](https://github.com/hyperledger/grid/pull/1460) Update ci-test just recipe so unit-tests pass in GHA
 
-[296](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/296) Added Event Publication to Relay
+[269](https://github.com/hyperledger-labs/fabric-operations-console/pull/269) prevent blank pending channel tile
 
-[3284](https://github.com/hyperledger/aries-framework-go/pull/3284) feat: Size computation for allocation may overflow
+[3285](https://github.com/hyperledger/aries-framework-go/pull/3285) chore(deps): bump terser from 4.8.0 to 4.8.1 in /cmd/aries-js-worker
 
-[931](https://github.com/hyperledger-labs/solang/pull/931) [WIP] Update substrate integration test environment
+[268](https://github.com/hyperledger-labs/fabric-operations-console/pull/268) create channel - show error if 0 orderers are in selected msps
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
