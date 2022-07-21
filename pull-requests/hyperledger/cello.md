@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/470" class=".btn">#470</a>
+            </td>
+            <td>
+                <b>
+                    Fix code format issues
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix the code format issues found by flake8 and eslint during `make check`.
+
+Signed-off-by: Xichen Pan [xichen.pan@gmail.com](mailto:xichen.pan@gmail.com)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-21 04:30:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/469" class=".btn">#469</a>
             </td>
             <td>
