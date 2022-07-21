@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/345" class=".btn">#345</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/346" class=".btn">#346</a>
             </td>
             <td>
                 <b>
-                    Add design doc for HA plan
+                    Update local build instructions to references deps
                 </b>
             </td>
         </tr>
@@ -27,15 +27,16 @@ permalink: /pull-requests/hyperledger/grid-docs
                 
             </td>
             <td>
-                Outlines the high availability plan for the submitter and queuer
-subcomponents. This is a first draft; the plan is subject to change.
+                Update the local build instructions in the Grid documentation so they
+always references the latest canonical list of prerequisites as outlined
+in the repo's README.md file.
 
-Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
+Signed-off-by: Amelia Bradley <bradley@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-11 19:06:41 +0000 UTC
+        Created At 2022-07-21 17:14:25 +0000 UTC
     </div>
 </div>
 

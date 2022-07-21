@@ -93,7 +93,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             </td>
             <td>
                 <b>
-                    [refactor] #2253: Add `Builder` trait to `data_model`
+                    [refactor] #2253: Add `Registrable` trait to `data_model`
                 </b>
             </td>
         </tr>
@@ -117,7 +117,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
 
 ### Description of the Change
 
-Introduce `Builder` trait to create unified interface for building objects.
+Introduce `Registrable` trait to create unified interface for building objects.
 
 <!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
 <!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->

@@ -14,32 +14,30 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/319" class=".btn">#319</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/320" class=".btn">#320</a>
             </td>
             <td>
                 <b>
-                    Generate connection.yaml
+                    Use time.NewTimer instead of time.After
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">enhancement</span>
+                
             </td>
             <td>
-                In order to use FSC NWO to setup and run a stand-alone Fabric
-network, applications based on the Fabric Client SDK require a
-connection file to connect to the network. This commit introduces
-the generation of such connection profiles.
+                Using time.After enqueues an entry in Go's runtime scheduler and doesn't garbage collect it even if the function the timer was fired from terminates.
+As a result, there can be a temporary high memory pressure and it degrades performance.
 
-Currently, it enabled with FPC only but can later extended.
+Replaced all places where time.After was used except in places that are used as samples or tests.
 
-Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
+Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-14 12:53:22 +0000 UTC
+        Created At 2022-07-21 15:46:23 +0000 UTC
     </div>
 </div>
 
