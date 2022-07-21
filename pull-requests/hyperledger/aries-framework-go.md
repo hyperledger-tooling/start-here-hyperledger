@@ -604,36 +604,3 @@ Add `alsoKnownAs` to schemas used for DID Schema Validation
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3276" class=".btn">#3276</a>
-            </td>
-            <td>
-                <b>
-                    Feat split wallet command
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Title:**
-Split wallet command.
-
-**Summary:**
-
-Factor walletlite.Command form vcwallet.Command. It can now be used in the lite version of an agent that does not require didcomm functionality.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-14 11:10:04 +0000 UTC
-    </div>
-</div>
-

@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/358" class=".btn">#358</a>
-            </td>
-            <td>
-                <b>
-                    readme fix of pdf link to paper
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Dzmitry Lahoda <dzmitry@lahoda.pro>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-14 06:54:13 +0000 UTC
-    </div>
-</div>
-

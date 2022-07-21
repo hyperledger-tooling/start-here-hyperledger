@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/740" class=".btn">#740</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/742" class=".btn">#742</a>
             </td>
             <td>
                 <b>
-                    README.md of Overlays Capture Architecture (OCA) : RFC 0013
+                    Extend requests with *pending_timeout* logic, declare problem-codes. 
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger/aries-rfcs
                 
             </td>
             <td>
-                - Updated the Author affiliation to The Human Colossus Foundation;
-- Updated the architecture name to Overlays Capture Architecture (OCA).
-
-Signed-off-by: Paul Knowles <44690468+pknowl@users.noreply.github.com>
+                Signed-off-by: Pavel Minenkov <minikspb@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-16 15:06:20 +0000 UTC
+        Created At 2022-07-21 12:28:25 +0000 UTC
     </div>
 </div>
 

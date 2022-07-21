@@ -32,6 +32,7 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
 3. Added sdk function for above endpoint, and sample command for it in fabric-cli.
 4. Added sample command in fabric-cli to start express server to listen to events.
 5. Added more status to `RequestState`, also added status `DELETED` for cleanup of db states in relay (not implemented yet, TODO).
+6. (EDIT) Added unit tests in relay for event publish.
             </td>
         </tr>
     </table>

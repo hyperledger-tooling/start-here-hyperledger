@@ -165,7 +165,8 @@ There are two commits, the first fixes an issue with  the existing doccomment pa
                 
             </td>
             <td>
-                Wire up `create_program_address` for Solana. 
+                Wire up `create_program_address` and `try_find_program_address` for Solana. 
+
  - This solana system calls uses slices. The data pointer is 64 bit and and the length is also 64 bit
  - This system call takes an array of slices, of any length. The length is another system call parameter
  
@@ -176,6 +177,7 @@ So, we make the following changes:
  - We introduce a new system call which can be imported using `import {create_program_address} from 'solana';`
  - Tests for this system call (both mock solana and against a running local node).
 
+We also add `tx.program_id` for Solana.
             </td>
         </tr>
     </table>
