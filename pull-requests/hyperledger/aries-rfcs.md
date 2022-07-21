@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/742" class=".btn">#742</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/744" class=".btn">#744</a>
             </td>
             <td>
                 <b>
-                    Extend requests with *pending_timeout* logic, declare problem-codes. 
+                    Extend requests with pending_timeout logic, declare problem-codes.
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-rfcs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-21 12:28:25 +0000 UTC
+        Created At 2022-07-21 12:58:41 +0000 UTC
     </div>
 </div>
 

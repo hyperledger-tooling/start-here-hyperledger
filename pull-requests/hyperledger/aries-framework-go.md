@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3286" class=".btn">#3286</a>
+            </td>
+            <td>
+                <b>
+                    test: interop jwt VCs tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change adds tests to ensure AFGO does support JWT VC parsing/verificaition by adding interop tests using VCs from external sources.
+Also part of this change: expose JWT needed jose verifiers and signers for external use.
+
+closes #3279
+
+Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-21 15:16:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3285" class=".btn">#3285</a>
             </td>
             <td>
@@ -561,46 +594,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2022-07-15 08:16:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3277" class=".btn">#3277</a>
-            </td>
-            <td>
-                <b>
-                    feat: add did document support for alsoKnownAs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Chris Abernethy <brownoxford@gmail.com>
-
-**Title:**
-Add `alsoKnownAs` support to DID document
-
-**Description:**
-Implement support for `alsoKnownAs` DID document element [as described in DID Core v1](https://www.w3.org/TR/did-core/#dfn-alsoknownas)
-
-**Summary:**
-Add `AlsoKnownAs` element to `did.Doc` and populate value in `did.ParseDocument()`
-Add `AlsoKnownAs` element to `did.rawDoc` and populate value in `did.Doc.JSONBytes()`
-Add `did.populateRawAlsoKnownAs()` helper function to convert `alsoKnownAs` from `[]string` to `[]interface{}`
-Add `alsoKnownAs` to schemas used for DID Schema Validation
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-14 16:44:41 +0000 UTC
     </div>
 </div>
 
