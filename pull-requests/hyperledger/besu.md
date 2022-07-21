@@ -149,7 +149,7 @@ Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: garyschulte <garyschulte@gmail.com>
@@ -277,7 +277,7 @@ It may be better to not simulate columns since I think besu always uses globally
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Update RocksDB default block cache size to mitigate a performance regression from #3985.
@@ -368,7 +368,7 @@ This PR fixes the failing Hive2 engine test `Invalid Ancestor Chain Re-Org, Inva
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">peering</span>
             </td>
             <td>
                 Currently there is no way for peers improve their reputation. With this PR peers improve their reputation when they send a useful response.
@@ -397,7 +397,7 @@ Signed-off-by: Stefan <stefan.pingel@consensys.net>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -480,7 +480,7 @@ If we end up going with jemalloc as an alternative malloc implementation for bes
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
@@ -521,7 +521,7 @@ fixes #4121
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">peering</span>
             </td>
             <td>
                 The current limit means that we are disconnecting useful peers during syncing.
@@ -623,7 +623,7 @@ Unclear if I should add a new record to the changelog. Please advise.
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">peering</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -786,7 +786,7 @@ Add GitPOAP badge to README.md
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
@@ -882,7 +882,7 @@ This PR remove the hash from the queue only when its successfully fetched
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 log execution errors at right level, stops transition message propagation post-merge sync
@@ -910,7 +910,7 @@ This PR remove the hash from the queue only when its successfully fetched
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">peering</span>
             </td>
             <td>
                 Signed-off-by: Gabriel Trintinalia <gabriel.trintinalia@consensys.net>
@@ -976,43 +976,6 @@ fixes #2190
     </table>
     <div class="right-align">
         Created At 2022-07-14 11:44:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4100" class=".btn">#4100</a>
-            </td>
-            <td>
-                <b>
-                    WIP EthPeers - remove if disconnected
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Testing a theory with EthPeer disconnects. From looking at logs, there's a spot in the code where it seems that duplicate connection is detected and disconnected, while the EthPeer is being created and added, so that by the time it is added, it's already disconnected.
-
-This may not be the most elegant solution but I'm running it up and it seems to work but does create an issue with the callbacks - but I think the callback issue might be there anyway.
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-14 03:56:41 +0000 UTC
     </div>
 </div>
 
