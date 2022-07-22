@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3290" class=".btn">#3290</a>
+            </td>
+            <td>
+                <b>
+                    test: interop jwt VCs tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change adds tests to ensure AFGO does support JWT VC parsing/verificaition by adding interop tests using VCs from external sources
+Also part of this change: expose JWT needed jose verifiers and signers for external use.
+
+closes #3279
+
+Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-22 15:08:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3286" class=".btn">#3286</a>
             </td>
             <td>

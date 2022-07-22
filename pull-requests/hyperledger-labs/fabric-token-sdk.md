@@ -152,37 +152,3 @@ Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/297" class=".btn">#297</a>
-            </td>
-            <td>
-                <b>
-                    `token\core` improvements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR brings the following improvements:
-- Simplified wallet management `core\identity`
-- extensible `zkatdlog\nogh` auditor implementation
-- token request metadata: add support for extra signers, in case a driver needs it.
-- add more logging to token processors
- 
-Plus:
-- dvp test: added delay to wait for the network to be ready.
-- left a TODO to be addressed in a future PR
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-15 13:50:20 +0000 UTC
-    </div>
-</div>
-
