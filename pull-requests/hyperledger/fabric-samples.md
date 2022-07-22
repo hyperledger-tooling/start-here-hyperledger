@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/800" class=".btn">#800</a>
+            </td>
+            <td>
+                <b>
+                    Understanding issue and Error fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Understanding issue found in fabric-samples/blob/main/token-erc-1155/chaincode-go/chaincode/contract.go
+Error found in this script fabric-samples/blob/main/hardware-security-module/scripts/generate-hsm-user.sh 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-22 11:44:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/797" class=".btn">#797</a>
             </td>
             <td>
@@ -452,32 +479,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2022-07-15 13:19:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/793" class=".btn">#793</a>
-            </td>
-            <td>
-                <b>
-                    Fix link in off_chain_data README
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-15 09:34:54 +0000 UTC
     </div>
 </div>
 
