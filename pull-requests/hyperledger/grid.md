@@ -66,7 +66,7 @@ test to fail. Removing unecessary prepopulated Docker images and some
 large android libraries ensures there's plenty of headroom for our builds.
 
 Link to list of pre-installed software:
-https://github.com/actions/virtual-environments/blob/main/images/linux/Ubuntu1804-Readme.md
+https://github.com/actions/virtual-environments/blob/main/images/linux/Ubuntu2004-Readme.md
 
 Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
             </td>
