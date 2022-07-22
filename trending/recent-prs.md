@@ -1,13 +1,13 @@
 
-[346](https://github.com/hyperledger/grid-docs/pull/346) Update local build instructions to references deps
+[588](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/588) Bump @openzeppelin/contracts from 4.6.0 to 4.7.1
 
-[1461](https://github.com/hyperledger/grid/pull/1461) Update Ubuntu / OS X build dependencies
+[587](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/587) Bump @openzeppelin/contracts-upgradeable from 4.6.0 to 4.7.1
 
-[368](https://github.com/hyperledger/transact/pull/368) Fix midpoint pruning
+[2517](https://github.com/hyperledger/iroha/pull/2517) [refactor] #2052: make permission token ids registrable
 
-[320](https://github.com/hyperledger-labs/fabric-smart-client/pull/320) Use time.NewTimer instead of time.After
+[369](https://github.com/hyperledger/transact/pull/369) Backport 0-4: fix midpoint pruning
 
-[4149](https://github.com/hyperledger/besu/pull/4149) Reduce RocksDB space amplification
+[2516](https://github.com/hyperledger/iroha/pull/2516) [feature] #1891: Validate trigger execution
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

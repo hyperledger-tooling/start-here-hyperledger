@@ -28,6 +28,7 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
             </td>
             <td>
                 Fixes #222 
+Fixes #172
 
 * Remove custom Dockerfile for building the Besu node
 * Use the official image directly, and anchored to a specific version
