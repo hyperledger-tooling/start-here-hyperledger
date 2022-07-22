@@ -62,35 +62,3 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/250" class=".btn">#250</a>
-            </td>
-            <td>
-                <b>
-                    PurgePrivateData
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Implements the purgePrivateData API in the stub
-
-Closes #240 
-
-Fabric Issue https://github.com/hyperledger/fabric/issues/3020
-
-Signed-off-by: fraVlaca <ocsenarf@outlook.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-15 16:08:04 +0000 UTC
-    </div>
-</div>
-
