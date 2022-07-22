@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4150" class=".btn">#4150</a>
+            </td>
+            <td>
+                <b>
+                    fix 1 byte long disconnect reason
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixing https://github.com/hyperledger/besu/issues/4071
+
+Signed-off-by: Stefan <stefan.pingel@consensys.net>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-22 09:18:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4149" class=".btn">#4149</a>
             </td>
             <td>

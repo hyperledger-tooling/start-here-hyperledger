@@ -221,33 +221,3 @@ This PR also includes a refactoring in the strength reduce files.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/920" class=".btn">#920</a>
-            </td>
-            <td>
-                <b>
-                    Do not resolve the arguments to overloaded functions/event emit twice
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This covers to overloaded functions, constructors, methods, and event emit.
-
-This solves some issues wrt to slice support which is covered in a future PR.
-
-Fixes #779 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-15 08:20:06 +0000 UTC
-    </div>
-</div>
-
