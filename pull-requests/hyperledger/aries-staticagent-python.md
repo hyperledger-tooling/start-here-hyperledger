@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-staticagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-staticagent-python/pull/90" class=".btn">#90</a>
+                PR <a href="https://github.com/hyperledger/aries-staticagent-python/pull/91" class=".btn">#91</a>
             </td>
             <td>
                 <b>
-                    chore(deps): Bump nokogiri from 1.12.5 to 1.13.6 in /docs
+                    chore(deps): Bump tzinfo from 1.2.7 to 1.2.10 in /docs
                 </b>
             </td>
         </tr>
@@ -27,122 +27,81 @@ permalink: /pull-requests/hyperledger/aries-staticagent-python
                 <span class="chip">dependencies</span><span class="chip">ruby</span>
             </td>
             <td>
-                Bumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.12.5 to 1.13.6.
+                Bumps [tzinfo](https://github.com/tzinfo/tzinfo) from 1.2.7 to 1.2.10.
 <details>
 <summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/sparklemotion/nokogiri/releases">nokogiri's releases</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/tzinfo/tzinfo/releases">tzinfo's releases</a>.</em></p>
 <blockquote>
-<h2>1.13.6 / 2022-05-08</h2>
-<h3>Security</h3>
+<h2>v1.2.10</h2>
 <ul>
-<li>[CRuby] Address <a href="https://nvd.nist.gov/vuln/detail/CVE-2022-29181">CVE-2022-29181</a>, improper handling of unexpected data types, related to untrusted inputs to the SAX parsers. See <a href="https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-xh29-r2w5-wx8m">GHSA-xh29-r2w5-wx8m</a> for more information.</li>
+<li>Fixed a relative path traversal bug that could cause arbitrary files to be loaded with require when used with <code>RubyDataSource</code>. Please refer to
+<a href="https://github.com/tzinfo/tzinfo/security/advisories/GHSA-5cm2-9h8c-rvfx">https://github.com/tzinfo/tzinfo/security/advisories/GHSA-5cm2-9h8c-rvfx</a> for details. CVE-2022-31163.</li>
+<li>Ignore the SECURITY file from Arch Linux's tzdata package. <a href="https://github-redirect.dependabot.com/tzinfo/tzinfo/issues/134">#134</a>.</li>
 </ul>
-<h3>Improvements</h3>
+<p><a href="https://rubygems.org/gems/tzinfo/versions/1.2.10">TZInfo v1.2.10 on RubyGems.org</a></p>
+<h2>v1.2.9</h2>
 <ul>
-<li><code>{HTML4,XML}::SAX::{Parser,ParserContext}</code> constructor methods now raise <code>TypeError</code> instead of segfaulting when an incorrect type is passed.</li>
+<li>Fixed an incorrect <code>InvalidTimezoneIdentifier</code> exception raised when loading a zoneinfo file that includes rules specifying an additional transition to the final defined offset (for example, Africa/Casablanca in version 2018e of the Time Zone Database). <a href="https://github-redirect.dependabot.com/tzinfo/tzinfo/issues/123">#123</a>.</li>
 </ul>
-<hr />
-<p>sha256:</p>
-<pre><code>58417c7c10f78cd1c0e1984f81538300d4ea98962cfd3f46f725efee48f9757a  nokogiri-1.13.6-aarch64-linux.gem
-a2b04ec3b1b73ecc6fac619b41e9fdc70808b7a653b96ec97d04b7a23f158dbc  nokogiri-1.13.6-arm64-darwin.gem
-4437f2d03bc7da8854f4aaae89e24a98cf5c8b0212ae2bc003af7e65c7ee8e27  nokogiri-1.13.6-java.gem
-99d3e212bbd5e80aa602a1f52d583e4f6e917ec594e6aa580f6aacc253eff984  nokogiri-1.13.6-x64-mingw-ucrt.gem
-a04f6154a75b6ed4fe2d0d0ff3ac02f094b54e150b50330448f834fa5726fbba  nokogiri-1.13.6-x64-mingw32.gem
-a13f30c2863ef9e5e11240dd6d69ef114229d471018b44f2ff60bab28327de4d  nokogiri-1.13.6-x86-linux.gem
-63a2ca2f7a4f6bd9126e1695037f66c8eb72ed1e1740ef162b4480c57cc17dc6  nokogiri-1.13.6-x86-mingw32.gem
-2b266e0eb18030763277b30dc3d64337f440191e2bd157027441ac56a59d9dfe  nokogiri-1.13.6-x86_64-darwin.gem
-3fa37b0c3b5744af45f9da3e4ae9cbd89480b35e12ae36b5e87a0452e0b38335  nokogiri-1.13.6-x86_64-linux.gem
-b1512fdc0aba446e1ee30de3e0671518eb363e75fab53486e99e8891d44b8587  nokogiri-1.13.6.gem
-</code></pre>
-<h2>1.13.5 / 2022-05-04</h2>
-<h3>Security</h3>
+<p><a href="https://rubygems.org/gems/tzinfo/versions/1.2.9">TZInfo v1.2.9 on RubyGems.org</a></p>
+<h2>v1.2.8</h2>
 <ul>
-<li>[CRuby] Vendored libxml2 is updated to address <a href="https://nvd.nist.gov/vuln/detail/CVE-2022-29824">CVE-2022-29824</a>. See <a href="https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-cgx6-hpwq-fhv5">GHSA-cgx6-hpwq-fhv5</a> for more information.</li>
+<li>Added support for handling &quot;slim&quot; format zoneinfo files that are produced by default by zic version 2020b and later. The POSIX-style TZ string is now used calculate DST transition times after the final defined transition in the file. The 64-bit section is now always used regardless of whether Time has support for 64-bit times. <a href="https://github-redirect.dependabot.com/tzinfo/tzinfo/issues/120">#120</a>.</li>
+<li>Rubinius is no longer supported.</li>
 </ul>
-<h3>Dependencies</h3>
-<ul>
-<li>[CRuby] Vendored libxml2 is updated from v2.9.13 to <a href="https://gitlab.gnome.org/GNOME/libxml2/-/releases/v2.9.14">v2.9.14</a>.</li>
-</ul>
-<h3>Improvements</h3>
-<ul>
-<li>[CRuby] The libxml2 HTML4 parser no longer exhibits quadratic behavior when recovering some broken markup related to start-of-tag and bare <code>&lt;</code> characters.</li>
-</ul>
-<h3>Changed</h3>
-<ul>
-<li>[CRuby] The libxml2 HTML4 parser in v2.9.14 recovers from some broken markup differently. Notably, the XML CDATA escape sequence <code>&lt;![CDATA[</code> and incorrectly-opened comments will result in HTML text nodes starting with <code>&amp;lt;!</code> instead of skipping the invalid tag. This behavior is a direct result of the <a href="https://gitlab.gnome.org/GNOME/libxml2/-/commit/798bdf1">quadratic-behavior fix</a> noted above. The behavior of downstream sanitizers relying on this behavior will also change. Some tests describing the changed behavior are in <a href="https://github.com/sparklemotion/nokogiri/blob/3ed5bf2b5a367cb9dc6e329c5a1c512e1dd4565d/test/html4/test_comments.rb#L187-L204"><code>test/html4/test_comments.rb</code></a>.</li>
-</ul>
-<!-- raw HTML omitted -->
+<p><a href="https://rubygems.org/gems/tzinfo/versions/1.2.8">TZInfo v1.2.8 on RubyGems.org</a></p>
 </blockquote>
-<p>... (truncated)</p>
 </details>
 <details>
 <summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/sparklemotion/nokogiri/blob/main/CHANGELOG.md">nokogiri's changelog</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/tzinfo/tzinfo/blob/master/CHANGES.md">tzinfo's changelog</a>.</em></p>
 <blockquote>
-<h2>1.13.6 / 2022-05-08</h2>
-<h3>Security</h3>
+<h2>Version 1.2.10 - 19-Jul-2022</h2>
 <ul>
-<li>[CRuby] Address <a href="https://nvd.nist.gov/vuln/detail/CVE-2022-29181">CVE-2022-29181</a>, improper handling of unexpected data types, related to untrusted inputs to the SAX parsers. See <a href="https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-xh29-r2w5-wx8m">GHSA-xh29-r2w5-wx8m</a> for more information.</li>
+<li>Fixed a relative path traversal bug that could cause arbitrary files to be
+loaded with <code>require</code> when used with <code>RubyDataSource</code>. Please refer to
+<a href="https://github.com/tzinfo/tzinfo/security/advisories/GHSA-5cm2-9h8c-rvfx">https://github.com/tzinfo/tzinfo/security/advisories/GHSA-5cm2-9h8c-rvfx</a> for
+details. CVE-2022-31163.</li>
+<li>Ignore the SECURITY file from Arch Linux's tzdata package. <a href="https://github-redirect.dependabot.com/tzinfo/tzinfo/issues/134">#134</a>.</li>
 </ul>
-<h3>Improvements</h3>
+<h2>Version 1.2.9 - 16-Dec-2020</h2>
 <ul>
-<li><code>{HTML4,XML}::SAX::{Parser,ParserContext}</code> constructor methods now raise <code>TypeError</code> instead of segfaulting when an incorrect type is passed.</li>
+<li>Fixed an incorrect <code>InvalidTimezoneIdentifier</code> exception raised when loading a
+zoneinfo file that includes rules specifying an additional transition to the
+final defined offset (for example, Africa/Casablanca in version 2018e of the
+Time Zone Database). <a href="https://github-redirect.dependabot.com/tzinfo/tzinfo/issues/123">#123</a>.</li>
 </ul>
-<h2>1.13.5 / 2022-05-04</h2>
-<h3>Security</h3>
+<h2>Version 1.2.8 - 8-Nov-2020</h2>
 <ul>
-<li>[CRuby] Vendored libxml2 is updated to address <a href="https://nvd.nist.gov/vuln/detail/CVE-2022-29824">CVE-2022-29824</a>. See <a href="https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-cgx6-hpwq-fhv5">GHSA-cgx6-hpwq-fhv5</a> for more information.</li>
+<li>Added support for handling &quot;slim&quot; format zoneinfo files that are produced by
+default by zic version 2020b and later. The POSIX-style TZ string is now used
+calculate DST transition times after the final defined transition in the file.
+The 64-bit section is now always used regardless of whether Time has support
+for 64-bit times. <a href="https://github-redirect.dependabot.com/tzinfo/tzinfo/issues/120">#120</a>.</li>
+<li>Rubinius is no longer supported.</li>
 </ul>
-<h3>Dependencies</h3>
-<ul>
-<li>[CRuby] Vendored libxml2 is updated from v2.9.13 to <a href="https://gitlab.gnome.org/GNOME/libxml2/-/releases/v2.9.14">v2.9.14</a>.</li>
-</ul>
-<h3>Improvements</h3>
-<ul>
-<li>[CRuby] The libxml2 HTML parser no longer exhibits quadratic behavior when recovering some broken markup related to start-of-tag and bare <code>&lt;</code> characters.</li>
-</ul>
-<h3>Changed</h3>
-<ul>
-<li>[CRuby] The libxml2 HTML parser in v2.9.14 recovers from some broken markup differently. Notably, the XML CDATA escape sequence <code>&lt;![CDATA[</code> and incorrectly-opened comments will result in HTML text nodes starting with <code>&amp;lt;!</code> instead of skipping the invalid tag. This behavior is a direct result of the <a href="https://gitlab.gnome.org/GNOME/libxml2/-/commit/798bdf1">quadratic-behavior fix</a> noted above. The behavior of downstream sanitizers relying on this behavior will also change. Some tests describing the changed behavior are in <a href="https://github.com/sparklemotion/nokogiri/blob/3ed5bf2b5a367cb9dc6e329c5a1c512e1dd4565d/test/html4/test_comments.rb#L187-L204"><code>test/html4/test_comments.rb</code></a>.</li>
-</ul>
-<h2>1.13.4 / 2022-04-11</h2>
-<h3>Security</h3>
-<ul>
-<li>Address <a href="https://nvd.nist.gov/vuln/detail/CVE-2022-24836">CVE-2022-24836</a>, a regular expression denial-of-service vulnerability. See <a href="https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-crjr-9rc5-ghw8">GHSA-crjr-9rc5-ghw8</a> for more information.</li>
-<li>[CRuby] Vendored zlib is updated to address <a href="https://nvd.nist.gov/vuln/detail/CVE-2018-25032">CVE-2018-25032</a>. See <a href="https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-v6gp-9mmm-c6p5">GHSA-v6gp-9mmm-c6p5</a> for more information.</li>
-<li>[JRuby] Vendored Xerces-J (<code>xerces:xercesImpl</code>) is updated to address <a href="https://nvd.nist.gov/vuln/detail/CVE-2022-23437">CVE-2022-23437</a>. See <a href="https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-xxx9-3xcr-gjj3">GHSA-xxx9-3xcr-gjj3</a> for more information.</li>
-<li>[JRuby] Vendored nekohtml (<code>org.cyberneko.html</code>) is updated to address <a href="https://nvd.nist.gov/vuln/detail/CVE-2022-24839">CVE-2022-24839</a>. See <a href="https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-gx8x-g87m-h5q6">GHSA-gx8x-g87m-h5q6</a> for more information.</li>
-</ul>
-<h3>Dependencies</h3>
-<ul>
-<li>[CRuby] Vendored zlib is updated from 1.2.11 to 1.2.12. (See <a href="https://github.com/sparklemotion/nokogiri/blob/v1.13.x/LICENSE-DEPENDENCIES.md#platform-releases">LICENSE-DEPENDENCIES.md</a> for details on which packages redistribute this library.)</li>
-<li>[JRuby] Vendored Xerces-J (<code>xerces:xercesImpl</code>) is updated from 2.12.0 to 2.12.2.</li>
-<li>[JRuby] Vendored nekohtml (<code>org.cyberneko.html</code>) is updated from a fork of 1.9.21 to 1.9.22.noko2. This fork is now publicly developed at <a href="https://github.com/sparklemotion/nekohtml">https://github.com/sparklemotion/nekohtml</a></li>
-</ul>
-<!-- raw HTML omitted -->
 </blockquote>
-<p>... (truncated)</p>
 </details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/b7817b6a62ac210203a451d1a691a824288e9eab"><code>b7817b6</code></a> version bump to v1.13.6</li>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/61b1a395cd512af2e0595a8e369465415e574fe8"><code>61b1a39</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/sparklemotion/nokogiri/issues/2530">#2530</a> from sparklemotion/flavorjones-check-parse-memory-ty...</li>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/83cc451c3f29df397caa890afc3b714eae6ab8f7"><code>83cc451</code></a> fix: {HTML4,XML}::SAX::{Parser,ParserContext} check arg types</li>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/22c9e5b300c27a377fdde37c17eb9d07dd7322d0"><code>22c9e5b</code></a> version bump to v1.13.5</li>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/615588192572f7cfcb43eabbb070a6e07bf9e731"><code>6155881</code></a> doc: update CHANGELOG for v1.13.5</li>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/c519a47ab11f5e8fce77328fcb01a7b3befc2b9e"><code>c519a47</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/sparklemotion/nokogiri/issues/2527">#2527</a> from sparklemotion/2525-update-libxml-2_9_14-v1_13_x</li>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/66c2886e78f6801def83a549c3e6581ac48e61e8"><code>66c2886</code></a> dep: update libxml2 to v2.9.14</li>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/b7c4cc35de38fcfdde4da1203d79ae38bc4324bf"><code>b7c4cc3</code></a> test: unpend the LIBXML_LOADED_VERSION test on freebsd</li>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/eac793487183a5e72464e53cccd260971d5f29b5"><code>eac7934</code></a> dev: require yaml</li>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/f3521ba3d38922d76dd5ed59705eab3988213712"><code>f3521ba</code></a> style(rubocop): pend Style/FetchEnvVar for now</li>
-<li>Additional commits viewable in <a href="https://github.com/sparklemotion/nokogiri/compare/v1.12.5...v1.13.6">compare view</a></li>
+<li><a href="https://github.com/tzinfo/tzinfo/commit/0814dcd6195f247cc90e62a46b86ff0b76e08ed6"><code>0814dcd</code></a> Fix the release date.</li>
+<li><a href="https://github.com/tzinfo/tzinfo/commit/fd05e2a61cc569cef81ebd1a90d0b57f69e401bd"><code>fd05e2a</code></a> Preparing v1.2.10.</li>
+<li><a href="https://github.com/tzinfo/tzinfo/commit/b98c32efd61289fe6f00a50ab8061e95962ea983"><code>b98c32e</code></a> Merge branch 'fix-directory-traversal-1.2' into 1.2</li>
+<li><a href="https://github.com/tzinfo/tzinfo/commit/ac3ee6828afd67e6a8ee981cba791ee34d20e9fb"><code>ac3ee68</code></a> Remove unnecessary escaping of + within regex character classes.</li>
+<li><a href="https://github.com/tzinfo/tzinfo/commit/9d49bf9728a6d42e55f822c497ebf362e86a65a6"><code>9d49bf9</code></a> Fix relative path loading tests.</li>
+<li><a href="https://github.com/tzinfo/tzinfo/commit/394c381eb6a16eaeafb81196270c363234cf1956"><code>394c381</code></a> Remove <code>private_constant</code> for consistency and compatibility.</li>
+<li><a href="https://github.com/tzinfo/tzinfo/commit/5e9f99086f820573eb43ffe242e074b9a8295027"><code>5e9f990</code></a> Exclude Arch Linux's SECURITY file from the time zone index.</li>
+<li><a href="https://github.com/tzinfo/tzinfo/commit/17fc9e1fa918c24ca8c1915419d4cc15f56b6729"><code>17fc9e1</code></a> Workaround for 'Permission denied - NUL' errors with JRuby on Windows.</li>
+<li><a href="https://github.com/tzinfo/tzinfo/commit/6bd7a5191d9c1ca48a97420652460b8c4dec865d"><code>6bd7a51</code></a> Update copyright years.</li>
+<li><a href="https://github.com/tzinfo/tzinfo/commit/9905ca93abf7bf3e387bd592406e403cd18334c7"><code>9905ca9</code></a> Fix directory traversal in Timezone.get when using Ruby data source</li>
+<li>Additional commits viewable in <a href="https://github.com/tzinfo/tzinfo/compare/v1.2.7...v1.2.10">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=nokogiri&package-manager=bundler&previous-version=1.12.5&new-version=1.13.6)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=tzinfo&package-manager=bundler&previous-version=1.2.7&new-version=1.2.10)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -178,7 +137,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-19 03:14:41 +0000 UTC
+        Created At 2022-07-22 05:05:32 +0000 UTC
     </div>
 </div>
 
