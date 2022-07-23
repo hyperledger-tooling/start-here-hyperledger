@@ -58,7 +58,7 @@ Current implementation assumes `@context` can only be `[]string`, but did-core v
             </td>
             <td>
                 <b>
-                    chore: change actions/checkout from 3 to 2
+                    fix: bdd test ci
                 </b>
             </td>
         </tr>
