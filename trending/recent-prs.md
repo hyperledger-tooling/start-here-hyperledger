@@ -1,13 +1,13 @@
 
-[2523](https://github.com/hyperledger/iroha/pull/2523) [refactor] #2468: Remove debug supertrait from permission validators
+[94](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/94) Bump glob-parent from 5.1.1 to 5.1.2
 
-[3290](https://github.com/hyperledger/aries-framework-go/pull/3290) test: interop jwt VCs tests
+[4161](https://github.com/hyperledger/besu/pull/4161) move some easy build jobs (DCO, Spotless) over to github
 
-[271](https://github.com/hyperledger-labs/fabric-operations-console/pull/271) Join orderer text
+[4160](https://github.com/hyperledger/besu/pull/4160) add goerli ttd
 
-[3539](https://github.com/hyperledger/fabric/pull/3539) V2.5 Capabilities For Purge Private Data
+[4158](https://github.com/hyperledger/besu/pull/4158) add sepolia mergeNetSplit block
 
-[4152](https://github.com/hyperledger/besu/pull/4152) Feature/test peers poc
+[80](https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/80) Add details
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
