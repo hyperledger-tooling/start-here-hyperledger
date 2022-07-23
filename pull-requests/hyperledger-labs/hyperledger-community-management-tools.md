@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-community-management-tool
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/78" class=".btn">#78</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/80" class=".btn">#80</a>
             </td>
             <td>
                 <b>
-                    Add action to run old-repos
+                    Add details
                 </b>
             </td>
         </tr>
@@ -27,12 +27,38 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-community-management-tool
                 
             </td>
             <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-22 18:00:36 +0000 UTC
+        Created At 2022-07-22 21:09:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/79" class=".btn">#79</a>
+            </td>
+            <td>
+                <b>
+                    Lab report
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-22 18:35:03 +0000 UTC
     </div>
 </div>
 

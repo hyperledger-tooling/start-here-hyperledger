@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3290" class=".btn">#3290</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3294" class=".btn">#3294</a>
             </td>
             <td>
                 <b>
-                    test: interop jwt VCs tests
+                    feat: implement did-core JSON-LD `@context` representation
                 </b>
             </td>
         </tr>
@@ -27,19 +27,78 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 
             </td>
             <td>
-                This change adds tests to ensure AFGO does support JWT VC parsing/verificaition by adding interop tests using VCs from external sources
-Also part of this change: expose JWT needed jose verifiers and signers for external use.
+                Signed-off-by: Chris Abernethy <brownoxford@gmail.com>
 
-closes #3279
+**Title:**
+Implement did-core JSON-LD `@context` representation
 
-Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+**Description:**
+Current implementation assumes `@context` can only be `[]string`, but did-core v1 defines `@context` for DID documents in JSON-LD representation to be either a string or a list containing maps and/or strings.
 
-
+**Summary:**
+* Created `type Context {}interface` to represent did document contexts with appropriate comment for IDE integration.
+* Modified `did.parseContext` to add parsing of `string` and `[]interface{}` context representations.
+* Added `LookupContextString` helper to search for context string through entire context (used by `requiresLegacyHandling`)
+* Added `LookupSchemaFromContext` helper to peek first string in context. Replaces direct references to `context[0]`
+* Modified existing tests to account for new context format
+* Added tests for new helper functions
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-22 15:08:04 +0000 UTC
+        Created At 2022-07-22 20:35:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3293" class=".btn">#3293</a>
+            </td>
+            <td>
+                <b>
+                    chore: change actions/checkout from 3 to 2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-22 19:21:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3291" class=".btn">#3291</a>
+            </td>
+            <td>
+                <b>
+                    feat: allow custom GNAP header signer in vcwallet command
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-22 19:10:40 +0000 UTC
     </div>
 </div>
 
