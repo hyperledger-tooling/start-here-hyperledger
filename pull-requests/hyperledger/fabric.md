@@ -355,35 +355,3 @@ This fix changes the way the condition for a new leader is checked.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3530" class=".btn">#3530</a>
-            </td>
-            <td>
-                <b>
-                    Insecure TLS Configuration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Insecure TLS Configuration
-
-Signed-off-by: Bhaskar <ram@hacker.ind.in>
-
-#### Type of change
-
-Insecure TLS configuration is found to be in use. MaxVersion is set to a deprecated SSL/TLS version
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-17 07:49:54 +0000 UTC
-    </div>
-</div>
-
