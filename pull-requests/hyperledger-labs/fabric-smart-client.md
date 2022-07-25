@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/321" class=".btn">#321</a>
+            </td>
+            <td>
+                <b>
+                    Removed simple gogo/protobuf/proto dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As part of issue #174, replaced most dependencies of gogo/protobuf/proto with golang/protobuf/proto. The remaining occurrences reside in p2p.go and their removal requires handling of the dependency from the package gogo/protobuf/io.
+
+Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-25 13:19:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/320" class=".btn">#320</a>
             </td>
             <td>

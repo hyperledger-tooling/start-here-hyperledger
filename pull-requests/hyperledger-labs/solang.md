@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/936" class=".btn">#936</a>
+            </td>
+            <td>
+                <b>
+                    Update roadmap
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR updates the road map for Solang and includes the newest additions and future features.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-25 13:13:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/931" class=".btn">#931</a>
             </td>
             <td>

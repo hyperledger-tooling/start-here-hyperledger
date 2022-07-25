@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/123" class=".btn">#123</a>
+            </td>
+            <td>
+                <b>
+                    Revert "New service and messages for block attestation (#92)"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This reverts commit 632b3efb5324c16d387b23f4d268515f9f3d53b9.
+
+Block attestation service was added to main for v3.0, it should be removed in the new release-2.5 branch.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-25 15:08:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-protos/pull/122" class=".btn">#122</a>
             </td>
             <td>
@@ -137,32 +167,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2022-07-20 08:43:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/120" class=".btn">#120</a>
-            </td>
-            <td>
-                <b>
-                    Bump version to 0.1.5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-18 15:13:09 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/590" class=".btn">#590</a>
+            </td>
+            <td>
+                <b>
+                    some small bug fixes 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-25 17:21:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/589" class=".btn">#589</a>
             </td>
             <td>
@@ -550,33 +576,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2022-07-21 06:21:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/583" class=".btn">#583</a>
-            </td>
-            <td>
-                <b>
-                    Api-oracle-branch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Achintya Kumar <ackintya@gmail.com>
-Added api-oracle and relevant documentation with tests
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-18 13:34:57 +0000 UTC
     </div>
 </div>
 

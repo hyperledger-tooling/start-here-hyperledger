@@ -1,13 +1,13 @@
 
-[3296](https://github.com/hyperledger/aries-framework-go/pull/3296) Interop jwt vc ecdsa
+[590](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/590) some small bug fixes 
 
-[3295](https://github.com/hyperledger/aries-framework-go/pull/3295) feat: Connection protocol (RFC-0160) DIDCommV1 implementation
+[2537](https://github.com/hyperledger/iroha/pull/2537) [feature] #2536: FFI `client `flag
 
-[2526](https://github.com/hyperledger/iroha/pull/2526) DevOps debug, do not merge
+[123](https://github.com/hyperledger/fabric-protos/pull/123) Revert "New service and messages for block attestation (#92)"
 
-[362](https://github.com/hyperledger-labs/go-perun/pull/362) Add Adjudicator Getter for Multi-Adjudicator
+[41](https://github.com/hyperledger-labs/hlf-connector/pull/41) Smart contract IT added and code correction for fetching sequence and package id for chaincode
 
-[95](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/95) Release/v0.1.0
+[363](https://github.com/hyperledger-labs/go-perun/pull/363) MockBackend: Remove context from subscription
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

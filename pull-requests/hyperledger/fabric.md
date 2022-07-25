@@ -14,6 +14,83 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3542" class=".btn">#3542</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: remove kafka from viperutil
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+#### Type of change
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Remove kafka from viperutil
+
+#### Related issues
+
+Epic: #3511 
+Issue: #3513 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-25 13:57:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3541" class=".btn">#3541</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: remove Kafka from localconfig
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Remove Kafka from orderer/localconfig package and orderer.yaml
+
+#### Related issues
+
+Epic: #3511 
+Issue: #3513 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-25 12:43:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3539" class=".btn">#3539</a>
             </td>
             <td>
