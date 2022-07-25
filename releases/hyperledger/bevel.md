@@ -15,61 +15,30 @@ permalink: /releases/hyperledger/bevel
         <tr>
             <td colspan="2">
                 <b>
-                    Bevel Release 0.11.0
+                    Bevel intermittent release v0.11.0.2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.11.0.0
+                    v0.11.0.2
                 </span>
             </td>
             <td>
-                ## What's new in Bevel
-- Hyperlederlabs Blockchain automation Framework (BAF) is now Hyperledger Bevel
-- R3 Corda enterprise platform automation now has `cenm-console` integrated with cenm services.
-- `fabric-operations-console` now can be setup using fabric platform automation
-- Quorum/Besu Tessera keys storage integrated with HashiCorp Vault
-- Addition of an org to an existing Indy consortium
-## New Features
-- HL Besu:
-  - Added Express app for supplychain application API endpoints
-  - Tessera and Besu versions upgraded
-- HL Fabric
-  - Generation of configtx.yaml with custom templates
-- R3 Corda Enterprise
-  - New cenm services integrated : Auth, Gateway and Zone Service
+                ## What's Changed
+* feature flux v2
+* k8s 1.21 support and update
 
-## Deprecation
-  - No active support for older versions of platforms. Check [compatibility matrix](https://blockchain-automation-framework.readthedocs.io/en/latest/compatibilitymatrix.html)
-## Major Bug Fixes
-  - Handle chaincode package install retries #1784 
-  - Vault root token is used to create secrets in Helmchart in Fabric #1730 
-  - Remove the use of vault root token in Corda OS containers #1713 
-  - Quorum deployment failing for raft consensus #1721 
-## Improvements
-- All platforms
-   - Added crypto storage checks and retries in helm charts
-- HL Besu
-  - Ansible decoupling of create/certificates/ambassador and vault_kubernetes role
-- Quorum
-  - Ansible decoupling of setup/vault_kubernetes role
-- HL Fabric
-  - Added crypto storage checks and retries in helm charts
-  - Vault-Kubernetes setup check done in helm charts
-  - Orderer/Peer `tls` certificate creation done via helm charts
-  - Handle chaincode package install retries
-- Documentation
-  - Updated name to Hyperledger Bevel
+**Full Changelog**: https://github.com/hyperledger/bevel/compare/v0.11.0.1...v0.11.0.2
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/bevel/releases/tag/v0.11.0.0" class=".btn">
+    <a href="https://github.com/hyperledger/bevel/releases/tag/v0.11.0.2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-04-14 08:49:34 +0000 UTC
+        Created At 2022-07-25 09:49:25 +0000 UTC
     </span>
 </div>
 
