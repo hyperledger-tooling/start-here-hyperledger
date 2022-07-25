@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/41" class=".btn">#41</a>
+            </td>
+            <td>
+                <b>
+                    Smart contract IT added and code correction for fetching sequence and package id for chaincode
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR includes :
+1. Smart contract IT and sample chaincode for deployment
+2. Code correction for fetching sequence and package id for chaincode
+3. Removed unnecessary files from fabric setup
+
+Signed-off-by: Abhay Kishore <abhay.kishore@walmart.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-25 14:31:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/39" class=".btn">#39</a>
             </td>
             <td>

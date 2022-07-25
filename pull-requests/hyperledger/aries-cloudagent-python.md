@@ -135,29 +135,3 @@ Signed-off-by: Colton Wolkins (Indicio work address) <colton@indicio.tech>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1863" class=".btn">#1863</a>
-            </td>
-            <td>
-                <b>
-                    fix: resolve dids following new endpoint rules
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Naive solution to the issue raised by @TimoGlastra in #1313.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-18 18:04:06 +0000 UTC
-    </div>
-</div>
-

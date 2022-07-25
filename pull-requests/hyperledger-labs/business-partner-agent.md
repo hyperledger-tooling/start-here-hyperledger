@@ -307,33 +307,3 @@ Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/781" class=".btn">#781</a>
-            </td>
-            <td>
-                <b>
-                    Add server side paging to presentation exchange tables
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">frontend</span><span class="chip">backend</span>
-            </td>
-            <td>
-                Signed-off-by: Driton Goxhufi <driton.goxhufi@bosch.io>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/781"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-18 12:55:10 +0000 UTC
-    </div>
-</div>
-
