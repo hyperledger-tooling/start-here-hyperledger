@@ -315,7 +315,7 @@ Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
             </td>
             <td>
                 <b>
-                    Add server side paging to the presentation exchange tables
+                    Add server side paging to presentation exchange tables
                 </b>
             </td>
         </tr>

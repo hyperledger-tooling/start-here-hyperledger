@@ -126,29 +126,3 @@ Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/298" class=".btn">#298</a>
-            </td>
-            <td>
-                <b>
-                    Add receipt signature as acknowledgment 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-18 07:32:59 +0000 UTC
-    </div>
-</div>
-

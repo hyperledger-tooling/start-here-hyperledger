@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+                [Status:  DRAFT]
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
@@ -48,14 +50,16 @@ TODO:  modify expected results for more tests, so that everything passes.
 <!-- Example: "fixes #2" -->
 Fixes #4114 
 
+
+
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -1068,47 +1072,6 @@ If we end up going with jemalloc as an alternative malloc implementation for bes
     </table>
     <div class="right-align">
         Created At 2022-07-18 19:21:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4122" class=".btn">#4122</a>
-            </td>
-            <td>
-                <b>
-                    Check status of block propagation manager before starting or stopping
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
-
-## PR description
-In `DefaultSynchronizer` check if the `BlockPropagationManager` is running before starting or stopping it. This avoids an exception or warning if it is started or stopped more than once respectively.
-
-## Fixed Issue(s)
-fixes #4121
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-18 12:26:10 +0000 UTC
     </div>
 </div>
 

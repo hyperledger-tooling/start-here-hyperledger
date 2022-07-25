@@ -68,38 +68,3 @@ Signed-off-by: Xichen Pan [xichen.pan@gmail.com](mailto:xichen.pan@gmail.com)
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/469" class=".btn">#469</a>
-            </td>
-            <td>
-                <b>
-                    fix(security):Command Injection and Path Traversal Bugs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Fix 1 - Path Traversal
-
-Unsanitized input from the HTTP request body [request.data] flows into os.walk, where it is used as a path. This may result in a Path Traversal vulnerability and allow an attacker to read arbitrary files.
-
-## Fix 2 - Command Injection
-
-Unsanitized input from the HTTP request body [request.data] flows into os.system, where it is used as a path. This may result in a Path Traversal vulnerability and allow an attacker to read arbitrary files.
-
-
-Signed-off-by: Bhaskar <ram@hacker.ind.in>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-18 08:11:22 +0000 UTC
-    </div>
-</div>
-
