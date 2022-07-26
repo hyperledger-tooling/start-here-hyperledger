@@ -171,7 +171,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">iroha2</span><span class="chip">Refactor</span>
             </td>
             <td>
                 Signed-off-by: Shanin Roman <shanin1000@yandex.ru>
