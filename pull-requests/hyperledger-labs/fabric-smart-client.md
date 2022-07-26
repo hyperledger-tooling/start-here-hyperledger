@@ -14,6 +14,94 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/324" class=".btn">#324</a>
+            </td>
+            <td>
+                <b>
+                    Optimize msp cache
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Applying changes from https://github.com/hyperledger-labs/fabric-token-sdk/pull/304
+
+Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-26 12:10:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/323" class=".btn">#323</a>
+            </td>
+            <td>
+                <b>
+                    Remove caches from badger and kvs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Remove GetCachedRangeIterator
+- Badger autoclean
+- Add simple badger benchmark
+- KVS: remove txstore cache
+
+Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-26 11:25:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/322" class=".btn">#322</a>
+            </td>
+            <td>
+                <b>
+                    Reduce staticcheck warnings (ST1005)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As part of issue #50, removed warnings related to:
+* ST1005: error string format
+
+Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-26 10:59:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/321" class=".btn">#321</a>
             </td>
             <td>
