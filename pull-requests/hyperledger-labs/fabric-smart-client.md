@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/325" class=".btn">#325</a>
+            </td>
+            <td>
+                <b>
+                    Reduce staticcheck warnings (ST1019, S1023)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As part of issue #50, removed warnings related to:
+* ST1019: imported more than once
+
+Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-26 12:51:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/324" class=".btn">#324</a>
             </td>
             <td>
