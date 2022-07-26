@@ -27,8 +27,9 @@ permalink: /releases/hyperledger/bevel
             </td>
             <td>
                 ## What's Changed
-* feature flux v2
-* k8s 1.21 support and update
+
+* flux-v2 updates
+* k8s 1.21 updates 
 
 **Full Changelog**: https://github.com/hyperledger/bevel/compare/v0.11.0.1...v0.11.0.2
             </td>
@@ -38,7 +39,7 @@ permalink: /releases/hyperledger/bevel
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-07-25 09:49:25 +0000 UTC
+        Created At 2022-07-26 08:22:54 +0000 UTC
     </span>
 </div>
 
