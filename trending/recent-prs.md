@@ -1,13 +1,13 @@
 
+[2538](https://github.com/hyperledger/iroha/pull/2538) [feature] #2490: Implement ffi_export for freestanding functions
+
+[274](https://github.com/hyperledger-labs/fabric-operations-console/pull/274) show success toast msg when orderer joins channel
+
+[273](https://github.com/hyperledger-labs/fabric-operations-console/pull/273) fix update channel wizard launch
+
+[3544](https://github.com/hyperledger/fabric/pull/3544) change params exec ginkgo v2
+
 [590](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/590) some small bug fixes 
-
-[2537](https://github.com/hyperledger/iroha/pull/2537) [feature] #2536: FFI `client `flag
-
-[123](https://github.com/hyperledger/fabric-protos/pull/123) Revert "New service and messages for block attestation (#92)"
-
-[41](https://github.com/hyperledger-labs/hlf-connector/pull/41) Smart contract IT added and code correction for fetching sequence and package id for chaincode
-
-[363](https://github.com/hyperledger-labs/go-perun/pull/363) MockBackend: Remove context from subscription
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
