@@ -307,7 +307,7 @@ Rather than not emitting useful information (like head, safe, and finalized bloc
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
@@ -388,7 +388,7 @@ Filters out the log message `Refreshing DNS records with...` which is printed on
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Fixing https://github.com/hyperledger/besu/issues/4071
@@ -987,89 +987,6 @@ Signed-off-by: Stefan <stefan.pingel@consensys.net>
     </table>
     <div class="right-align">
         Created At 2022-07-19 07:18:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4126" class=".btn">#4126</a>
-            </td>
-            <td>
-                <b>
-                    alternative malloc implementation - jemalloc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Use jemalloc with linux runtimes to better manage rocksdb memory usage.
-
-* add malloc arena max envar to besu startup
-* add jemalloc preload envar to besu startup
-* add jemalloc lib download to docker jvm images
-
-smoke tested and verified working on:
- Linux x86_64
- Docker linux aarch64 (on OSX M1)
-
-Native OSX ([El Capitan +](https://developer.apple.com/forums/thread/13161https://developer.apple.com/forums/thread/13161)) is not loading jemalloc currently
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-potentially addresses:
-#4057
-
-## Documentation
-If we end up going with jemalloc as an alternative malloc implementation for besu, we should document the need to have jemalloc installed in your environment, how to do it for each platform.
-
-- [X] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-18 23:05:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4124" class=".btn">#4124</a>
-            </td>
-            <td>
-                <b>
-                    applies merge filtering to peers after 2 finalized
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                Signed-off-by: Justin Florentine <justin+github@florentine.us>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-18 19:21:39 +0000 UTC
     </div>
 </div>
 
