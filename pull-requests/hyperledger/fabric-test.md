@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-test
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/400" class=".btn">#400</a>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/401" class=".btn">#401</a>
             </td>
             <td>
                 <b>
-                    Update integration test tool builds
+                    add the verbose flag to node test runs
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-test
                 
             </td>
             <td>
-                The tool failed to publish so updating actions to the latest version and adding a hyperledger scope for another attempt
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
+                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-18 10:38:38 +0000 UTC
+        Created At 2022-07-27 15:18:00 +0000 UTC
     </div>
 </div>
 
