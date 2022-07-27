@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/439" class=".btn">#439</a>
-            </td>
-            <td>
-                <b>
-                    Switch off provenance test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-20 08:31:48 +0000 UTC
-    </div>
-</div>
-

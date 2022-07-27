@@ -1,13 +1,13 @@
 
-[4175](https://github.com/hyperledger/besu/pull/4175) Add mechanism to retrieve missing blocks 
+[4178](https://github.com/hyperledger/besu/pull/4178) DNS peers handled the same as boot nodes
 
-[4174](https://github.com/hyperledger/besu/pull/4174) Add ZeroBaseFeeMarket to support post-London free gas networks
+[4177](https://github.com/hyperledger/besu/pull/4177) Allow to set any value for baseFeePerGas in the genesis file
 
-[4173](https://github.com/hyperledger/besu/pull/4173) Print warning for deprecated testnets
+[258](https://github.com/hyperledger/iroha-java/pull/258) Feature/query filters
 
-[747](https://github.com/hyperledger/aries-rfcs/pull/747) WIP: Credential Extras
+[2546](https://github.com/hyperledger/iroha/pull/2546) Iroha 1 | Fix print error in docker push stage
 
-[1463](https://github.com/hyperledger/grid/pull/1463) Add splinter saplings
+[328](https://github.com/hyperledger-labs/fabric-smart-client/pull/328) Reduce staticcheck warnings (SA1019)
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
