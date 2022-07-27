@@ -425,29 +425,3 @@ Issue: #3513
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3536" class=".btn">#3536</a>
-            </td>
-            <td>
-                <b>
-                    Unfreeze active nodes metrics once a consenter is evicted
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixed active nodes metrics for etcdraft when a node is evicted. Instead of being frozen we set it to 0 once halt is called. Tests.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-20 12:26:01 +0000 UTC
-    </div>
-</div>
-

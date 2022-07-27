@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
             </td>
             <td>
                 <b>
-                    Smart contract IT added and code correction for fetching sequence and package id for chaincode
+                    Code correction for fetching sequence and package id for chaincode and api for fetching chaincodes pending deployment for a org
                 </b>
             </td>
         </tr>
@@ -31,6 +31,7 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
 1. Smart contract IT and sample chaincode for deployment
 2. Code correction for fetching sequence and package id for chaincode
 3. Removed unnecessary files from fabric setup
+4. List of chaincodes requests pending deployment for a org
 
 Signed-off-by: Abhay Kishore <abhay.kishore@walmart.com>
             </td>

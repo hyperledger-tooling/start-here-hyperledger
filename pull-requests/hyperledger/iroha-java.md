@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/257" class=".btn">#257</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/258" class=".btn">#258</a>
             </td>
             <td>
                 <b>
-                    Iroha-251: schema update -> LTS
+                    Feature/query filters
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                <nil>
+                query filters object
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-14 09:10:52 +0000 UTC
+        Created At 2022-07-27 11:51:22 +0000 UTC
     </div>
 </div>
 
