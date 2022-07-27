@@ -451,30 +451,3 @@ Issue: #3513
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3535" class=".btn">#3535</a>
-            </td>
-            <td>
-                <b>
-                    ExternalBuilder PropagateEnvironment fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                While I was working on #3534 I realized that the master branch has also a potential issue with PropagateEnvorinment field.
-A different implementation/version of the unmarshaller might set `builder.PropagateEnvironment` to nil or empty slice. In the last case PropagateEnvironment won't have a correct value. The fix is to use a bulletproof check `builder.PropagateEnvironment == nil` => `len(builder.PropagateEnvironment) == 0`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-19 23:47:24 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,178 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4175" class=".btn">#4175</a>
+            </td>
+            <td>
+                <b>
+                    Add mechanism to retrieve missing blocks 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Gabriel Trintinalia <gabriel.trintinalia@consensys.net>
+
+## PR description
+Add mechanism to retrieve missing blocks when Pending Blocks Size is greater or equal than the threshold.
+
+- Threshold = 3
+
+## Fixed Issue(s)
+#3955
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-27 00:12:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4174" class=".btn">#4174</a>
+            </td>
+            <td>
+                <b>
+                    Add ZeroBaseFeeMarket to support post-London free gas networks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This allows private networks already using London fee market to start using free gas. Previously, since https://github.com/hyperledger/besu/pull/4003, it was only possible to start a free gas London network from genesis.
+
+Details on https://github.com/hyperledger/besu/issues/4061
+
+Fixes https://github.com/hyperledger/besu/issues/4061
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-26 22:53:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4173" class=".btn">#4173</a>
+            </td>
+            <td>
+                <b>
+                    Print warning for deprecated testnets
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span>
+            </td>
+            <td>
+                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Prints a deprecation warning for Ropsten, Kiln and Rinkeby
+
+## Fixed Issue(s)
+fixes #4163
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+The documentation should mention that Ropsten, Rinkeby and Kiln are deprecated
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-26 22:03:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4171" class=".btn">#4171</a>
+            </td>
+            <td>
+                <b>
+                    4169 dont recurse
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Replaces recursive implementation of isDescendentOf with a loop.
+
+## Fixed Issue(s)
+fixes #4169 
+
+## Documentation
+
+- [X] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-26 18:30:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4170" class=".btn">#4170</a>
             </td>
             <td>
@@ -24,7 +196,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 ## PR description
@@ -401,7 +573,7 @@ fixes #4157
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: garyschulte <garyschulte@gmail.com>
@@ -975,44 +1147,6 @@ configuration and code markings that were used to facilitate it.
     </table>
     <div class="right-align">
         Created At 2022-07-20 14:28:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4134" class=".btn">#4134</a>
-            </td>
-            <td>
-                <b>
-                    Add support for LevelDB
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Fairly quick and dirty implementation of a LevelDB plugin for Besu. It does pass the `AbstractKeyValueStorageTest` tests but is pretty lacking in unit tests otherwise currently.  LevelDB doesn't support columns by default but this adds support via a key prefix - code for that is taken from Teku (and we could pull over the unit tests for it if this is worth pursuing).
-
-It may be better to not simulate columns since I think besu always uses globally unique keys anyway (pruning needs the ability to iterate a single column but pruning isn't exactly useful anyway). That would likely simplify the implementation and may give different performance/space characteristics as well but I haven't tried it.
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-19 22:22:36 +0000 UTC
     </div>
 </div>
 
