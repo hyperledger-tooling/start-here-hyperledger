@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2550" class=".btn">#2550</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #2551: Remove the version specification of `archlinux:base-devel`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ### Description of the Change
+
+Remove the version specification from the base image of `iroha2:base`
+
+### Issue
+
+- Closes #2551
+
+### Benefits
+
+`iroha2:base` can be built
+
+### Possible Drawbacks
+
+Different images can be built at the same commit
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-27 16:25:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2546" class=".btn">#2546</a>
             </td>
             <td>
@@ -96,13 +136,11 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span>
             </td>
             <td>
                 <!-- You will not see HTML commented line in Pull Request body -->
 <!-- Optional sections may be omitted. Just remove them or write None -->
-
-# TBD
 
 <!-- ### Requirements -->
 <!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
@@ -116,6 +154,8 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
 
 <!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
 <!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+Make `ffi::derive::export::gen_ffi_fn` working with freestanding functions, so `ffi_export` macro could be used for such functions.
 
 ### Issue
 

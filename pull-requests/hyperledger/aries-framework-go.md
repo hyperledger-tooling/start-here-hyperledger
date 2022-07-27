@@ -53,7 +53,7 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 
             </td>
             <td>
-                <nil>
+                Part of #3289 
             </td>
         </tr>
     </table>
@@ -291,37 +291,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2022-07-20 20:50:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3284" class=".btn">#3284</a>
-            </td>
-            <td>
-                <b>
-                    feat: Size computation for allocation may overflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Performing calculations involving the size of potentially large strings or slices can result in an overflow (for signed integer types) or a wraparound (for unsigned types). An overflow causes the result of the calculation to become negative, while a wraparound results in a small (positive) number.
-
-This can cause further issues. If, for example, the result is then used in an allocation, it will cause a runtime panic if it is negative, and allocate an unexpectedly small buffer otherwise.
-
-Signed-off-by: Bhaskar <ram@hacker.ind.in>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-20 16:13:06 +0000 UTC
     </div>
 </div>
 

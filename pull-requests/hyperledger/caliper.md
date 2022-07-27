@@ -71,32 +71,3 @@ Signed-off-by: D <d_kelsey@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1411" class=".btn">#1411</a>
-            </td>
-            <td>
-                <b>
-                    Remove channel and chaincode operations from Fabric v1 connector
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In this PR:
-* The ability for caliper to be able to create channels, install and instantiate chaincode for fabric is removed.
-
-Closes #1204
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-20 17:16:08 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/329" class=".btn">#329</a>
+            </td>
+            <td>
+                <b>
+                    Issue50 reduce staticcheck issues - Not for review
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-27 12:53:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/328" class=".btn">#328</a>
             </td>
             <td>
@@ -104,7 +130,7 @@ Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
             </td>
             <td>
                 <b>
-                    Remove caches from badger and kvs
+                    Remove GetCachedStateRangeScanIterator
                 </b>
             </td>
         </tr>
@@ -113,10 +139,9 @@ Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
                 
             </td>
             <td>
-                - Remove GetCachedRangeIterator
+                - Remove GetCachedStateRangeScanIterator
 - Badger autoclean
 - Add simple badger benchmark
-- KVS: remove txstore cache
 
 Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
             </td>
