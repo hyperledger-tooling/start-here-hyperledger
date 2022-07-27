@@ -578,39 +578,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/264" class=".btn">#264</a>
-            </td>
-            <td>
-                <b>
-                    Filter orderer msps
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-- fix orderer msp drop down options, removes msps that do not have a known orderer
-- fixes update channel flow when system channel less orderer is used, prevents genesis block creation step from appearing
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-19 21:04:09 +0000 UTC
-    </div>
-</div>
-

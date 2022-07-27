@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/747" class=".btn">#747</a>
+            </td>
+            <td>
+                <b>
+                    WIP: Credential Extras
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">WIP</span>
+            </td>
+            <td>
+                Signed-off-by: Sam Curren <telegramsam@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-26 21:24:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-rfcs/pull/746" class=".btn">#746</a>
             </td>
             <td>
