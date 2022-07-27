@@ -30,9 +30,7 @@ permalink: /pull-requests/hyperledger/besu
                 Signed-off-by: Gabriel Trintinalia <gabriel.trintinalia@consensys.net>
 
 ## PR description
-Add mechanism to retrieve missing blocks when Pending Blocks Size is greater or equal than the threshold.
-
-- Threshold = 3
+Add mechanism to retrieve missing blocks when a pending block is saved
 
 ## Fixed Issue(s)
 #3955
