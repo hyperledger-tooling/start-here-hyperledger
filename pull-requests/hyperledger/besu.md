@@ -274,7 +274,7 @@ Fixes #4182 - switches info to trace on the three noisy Sync commands
 
 After a Geth<>Besu peerring test we found that sometimes we had "ENR request failed                       id=68f8eb309602c1a6 addr=3.16.90.60:30303      err=“RPC timeout”
 
-Besu does not respond to the ENR request. By investigating we found that sometimes ENR_REQUEST comes the PONG and so Besu ignores the request.
+Besu does not respond to the ENR request. By investigating we found that sometimes ENR_REQUEST comes before the PONG and so Besu ignores the request.
 
 This PR allows to cache the request if it arrives before the PONG to answer once the bond is done
 
@@ -1044,34 +1044,6 @@ Signed-off-by: Stefan <stefan.pingel@consensys.net>
     </table>
     <div class="right-align">
         Created At 2022-07-22 09:18:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4149" class=".btn">#4149</a>
-            </td>
-            <td>
-                <b>
-                    Reduce RocksDB space amplification
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Reduce RocksDB space amplification with level_compaction_dynamic_level_bytes option set to true. In this case, the size target of levels is changed dynamically based on the size of the last level.
-
-Signed-off-by: Ameziane H <ameziane.hamlat@consensys.net>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-21 15:27:04 +0000 UTC
     </div>
 </div>
 

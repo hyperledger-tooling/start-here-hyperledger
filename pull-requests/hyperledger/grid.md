@@ -91,36 +91,3 @@ Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1461" class=".btn">#1461</a>
-            </td>
-            <td>
-                <b>
-                    Update Ubuntu / OS X build dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-triage</span><span class="chip">main</span>
-            </td>
-            <td>
-                Replaced postgres with libpq / libpq-dev, as a full postgres
-installation is not strictly necessary.
-
-For Ubuntu: Replaced insufficient libprotobuf-dev with the more accurate
-protobuf-compiler dependency. Added required openssl, libsasl2-dev,
-libxml2-dev, libsqlite3-dev, pkg-config, and build-essential.
-
-Signed-off-by: Amelia Bradley <bradley@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-21 17:03:18 +0000 UTC
-    </div>
-</div>
-
