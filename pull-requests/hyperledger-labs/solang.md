@@ -14,6 +14,113 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/943" class=".btn">#943</a>
+            </td>
+            <td>
+                <b>
+                    Merge readbuffer builtins
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR merges all the `codegen::Builtin::Read<type>` builtin type with a single `codegen::Builitin::ReadFromBuffer`, because they are all implemented equally in emit. This streamlines the development of `abi.decode` with Borsh encoding.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-28 17:27:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/942" class=".btn">#942</a>
+            </td>
+            <td>
+                <b>
+                    Enable initialization of arrays with array literals
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR enables the initialization of both dynamic memory and dynamic storage arrays with array literals. The limitation is that this works only for single dimensional arrays. It fixes issue #810.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-28 14:40:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/941" class=".btn">#941</a>
+            </td>
+            <td>
+                <b>
+                    Deploy does not want the program account
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This was changed in @solana/solidity 0.0.20 but the example here was not
+updated.
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-28 13:52:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/940" class=".btn">#940</a>
+            </td>
+            <td>
+                <b>
+                    Update installation instructions for MacOS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds the new installation instructions for MacOS on our documentation and our readme file. It also adds a new item to the release checklist to remind us of updating the cask file at each new release.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-28 12:54:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/939" class=".btn">#939</a>
             </td>
             <td>

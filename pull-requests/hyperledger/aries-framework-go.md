@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3306" class=".btn">#3306</a>
+            </td>
+            <td>
+                <b>
+                    feat: Adding sqlite to mobile agent
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Title:**
+Adding sqlite to mobile agent
+
+**Description:**
+I created a component in the mobile agent that allows a user to use a storage provider that connects with SQLite.
+
+**Summary:**
+
+Using https://github.com/hyperledger/aries-framework-go-ext/blob/main/component/storage/mysql/store.go as reference I created a store provider that connects with SQLite. 
+Also, I implemented the TotalItems() method inside the storage wrapper.
+
+@DRK3 What do you think?
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-28 16:53:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3303" class=".btn">#3303</a>
             </td>
             <td>
@@ -186,39 +224,6 @@ Current implementation assumes `@context` can only be `[]string`, but did-core v
     </table>
     <div class="right-align">
         Created At 2022-07-22 19:10:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3286" class=".btn">#3286</a>
-            </td>
-            <td>
-                <b>
-                    test: interop jwt VCs tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change adds tests to ensure AFGO does support JWT VC parsing/verificaition by adding interop tests using VCs from external sources.
-Also part of this change: expose JWT needed jose verifiers and signers for external use.
-
-closes #3279
-
-Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-21 15:16:53 +0000 UTC
     </div>
 </div>
 
