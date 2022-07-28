@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-test
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/402" class=".btn">#402</a>
+            </td>
+            <td>
+                <b>
+                    Remove Kafka from orderer.yaml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Kafka was removed from the main branch of the fabric core
+
+Signed-off-by: yacovm <yacovm@users.noreply.github.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-28 12:17:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-test/pull/401" class=".btn">#401</a>
             </td>
             <td>

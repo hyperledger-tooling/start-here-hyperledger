@@ -272,18 +272,25 @@ Fixes #4182 - switches info to trace on the three noisy Sync commands
 
 ## PR description
 
+After a Geth<>Besu peerring test we found that sometimes we had "ENR request failed                       id=68f8eb309602c1a6 addr=3.16.90.60:30303      err=“RPC timeout”
+
+Besu does not respond to the ENR request. By investigating we found that sometimes ENR_REQUEST comes the PONG and so Besu ignores the request.
+
+This PR allows to cache the request if it arrives before the PONG to answer once the bond is done
+
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -1065,192 +1072,6 @@ Signed-off-by: Ameziane H <ameziane.hamlat@consensys.net>
     </table>
     <div class="right-align">
         Created At 2022-07-21 15:27:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4148" class=".btn">#4148</a>
-            </td>
-            <td>
-                <b>
-                    add enr peers to discovery layer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span><span class="chip">peering</span>
-            </td>
-            <td>
-                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-21 11:52:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4146" class=".btn">#4146</a>
-            </td>
-            <td>
-                <b>
-                    API Method: rollup_createPayload
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Adds a new api method `rollup_createPayloadV1` as an extension to [Engine API](https://github.com/ethereum/execution-apis/blob/main/src/engine/specification.md) in order to allow to use Besu a L2 execution engine for Rollups;
-
-This method allows to create a Payload with a given list of transactions, executed by it's given order. Invalid transactions are returned with error reason. Unprocessed transactions that don't fit within block gasLimit are returned as well.
-
-To enable this method and rollup behaviour, Besu should run with `--engine-rollup-extension-enabled=true` on CLI
-
-#### Request
-Arguments:
-- `parentBlockHash`: DATA, 32 Bytes - hash of parent block of this new payload;
-- `transactions`:  Array of DATA - Array of transaction objects, each object is a byte list (DATA) representing TransactionType || TransactionPayload or LegacyTransaction as defined in [EIP-2718](https://eips.ethereum.org/EIPS/eip-2718)
-- `prevRandao`: DATA, 32 Bytes - value for the prevRandao field of the new payload
-- `feeRecipient`: DATA, 20 Bytes - suggested value for the feeRecipient field of the new payload
-- `timestamp`: QUANTITY, 64 Bits - value for the timestamp field of the new payload
-
-```json
-{
-    "id": "100",
-    "jsonrpc": "2.0",
-    "method": "rollup_createPayloadV1",
-    "params": [
-        "0xa326af38b7ad1ba192c00b89675c450ffd8e30d83c128ef37a62da26b9f58b9d",
-        [
-            "0xf86180820bb88259d894f1a98bb35ff74fb6eb07c145c233434aee4f1f960a8026a0b7b0cc34f06e99da2a0eb3f290be06fa5982e5b7883b9d2a46e09ee03861955ba008972a7505395050eb78e332d811049c824534a46d751b8305e1b3f819533017",
-            "0xf8610a820bb88259d894f1a98bb35ff74fb6eb07c145c233434aee4f1f960a8025a09f0f2f41a2a7228d342b81f3937441a0767e5d78c25c86a8e5e5bec7e5fd3b33a02775ee8f94d673774f7f6fd090fa4ccd15b797a47236d59c0ad83549191660e4",
-            "0xf86a01820bb88259d894f1a98bb35ff74fb6eb07c145c233434aee4f1f96890ad78ebc5ac62000008025a0f6aee06079ff380ec5f0ef90f291b10450636698e9a8bf00484cb06d33713eaba01432b9e6739dcd50d4fbb0555be8a10c7aefb77364816b4493acbc608022deaf",
-            "0xf86301820bb88405f5e10094f1a98bb35ff74fb6eb07c145c233434aee4f1f960a8025a072d6b19aba780fdeb57fab5302bf142c5216f45c845267dca77f9d3e20910d44a05390bc4260c188e55a571f1d6a06ff9168391d4c8a7a498a2db49e41063f4b77",
-            "0xf86101820bb88259d894f1a98bb35ff74fb6eb07c145c233434aee4f1f960c8026a096f3751f75a5eeb8f2e27167619ae24efcbb26cf1f5ee6d501ace868398c27dca0740ebd0912eae820d99083c671cf6a483b229a06e28d5e7a215b617cad24f28f",
-            "0xf86180820bb88259d894f1a98bb35ff74fb6eb07c145c233434aee4f1f960a8026a0b7b0cc34f06e99da2a0eb3f290be06fa5982e5b7883b9d2a46e09ee03861955ba008972a7505395050eb78e332d811049c824534a46d751b8305e1b3f819533017"
-        ],
-        "0x284ae7412fa90216034852e4ecf953e69df541d323eb8c826442d7b71e5727f6",
-        "0xcefc6c8fde4967c755e0e10144914e6d5571b088",
-        "0x62d92263"
-    ]
-}
-```
-
-#### Response
-```json
-{
-  "jsonrpc" : "2.0",
-  "id" : "100",
-  "result" : {
-    "status" : "PROCESSED",
-    "payloadId" : "0x000000002c94e08a",
-    "executionPayload" : {
-      "parentHash" : "0xa326af38b7ad1ba192c00b89675c450ffd8e30d83c128ef37a62da26b9f58b9d",
-      "feeRecipient" : "0xcefc6c8fde4967c755e0e10144914e6d5571b088",
-      "stateRoot" : "0xbce737f398b50b7675f36498184deff0ed134097890fc1ed8ebc2126d49a5ef5",
-      "receiptsRoot" : "0xd95b673818fa493deec414e01e610d97ee287c9421c8eff4102b1647c1a184e4",
-      "logsBloom" : "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-      "prevRandao" : "0x284ae7412fa90216034852e4ecf953e69df541d323eb8c826442d7b71e5727f6",
-      "blockNumber" : "0x1",
-      "gasLimit" : "0x1c9c380",
-      "gasUsed" : "0xa410",
-      "timestamp" : "0x62d92263",
-      "extraData" : "0x",
-      "baseFeePerGas" : "0x7",
-      "blockHash" : "0x13b7dab1660352dad22bcbb7462d03baf3aec68e5cc51bf599daccb21a2b79f7",
-      "transactions" : [ "0xf86180820bb88259d894f1a98bb35ff74fb6eb07c145c233434aee4f1f960a8026a0b7b0cc34f06e99da2a0eb3f290be06fa5982e5b7883b9d2a46e09ee03861955ba008972a7505395050eb78e332d811049c824534a46d751b8305e1b3f819533017", "0xf86101820bb88259d894f1a98bb35ff74fb6eb07c145c233434aee4f1f960c8026a096f3751f75a5eeb8f2e27167619ae24efcbb26cf1f5ee6d501ace868398c27dca0740ebd0912eae820d99083c671cf6a483b229a06e28d5e7a215b617cad24f28f" ]
-    },
-    "unprocessedTransactions" : [ "0xf86301820bb88405f5e10094f1a98bb35ff74fb6eb07c145c233434aee4f1f960a8025a072d6b19aba780fdeb57fab5302bf142c5216f45c845267dca77f9d3e20910d44a05390bc4260c188e55a571f1d6a06ff9168391d4c8a7a498a2db49e41063f4b77" ],
-    "invalidTransactions" : [ {
-      "transaction" : "0xf8610a820bb88259d894f1a98bb35ff74fb6eb07c145c233434aee4f1f960a8025a09f0f2f41a2a7228d342b81f3937441a0767e5d78c25c86a8e5e5bec7e5fd3b33a02775ee8f94d673774f7f6fd090fa4ccd15b797a47236d59c0ad83549191660e4",
-      "reason" : "INCORRECT_NONCE",
-      "errorMessage" : "transaction nonce 10 does not match sender account nonce 1."
-    }, {
-      "transaction" : "0xf86a01820bb88259d894f1a98bb35ff74fb6eb07c145c233434aee4f1f96890ad78ebc5ac62000008025a0f6aee06079ff380ec5f0ef90f291b10450636698e9a8bf00484cb06d33713eaba01432b9e6739dcd50d4fbb0555be8a10c7aefb77364816b4493acbc608022deaf",
-      "reason" : "UPFRONT_COST_EXCEEDS_BALANCE",
-      "errorMessage" : "transaction up-front cost 0x00000000000000000000000000000000000000000000000ad78ebc5aca3cdb40 exceeds transaction sender account balance 0x00000000000000000000000000000000000000000000000ad78ebc5ac25eb236"
-    } ]
-  }
-}
-```
-
-
-## Fixed Issue(s)
-- #3760
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-21 10:09:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4145" class=".btn">#4145</a>
-            </td>
-            <td>
-                <b>
-                    logging changes for peering
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span><span class="chip">peering</span>
-            </td>
-            <td>
-                Signed-off-by: Stefan <stefan.pingel@consensys.net>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-21 07:20:25 +0000 UTC
     </div>
 </div>
 

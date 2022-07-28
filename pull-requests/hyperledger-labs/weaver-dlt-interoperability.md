@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/296" class=".btn">#296</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/298" class=".btn">#298</a>
             </td>
             <td>
                 <b>
-                    Added Event Publication to Relay
+                    Destination Driver endpoint for writing remote view to ledger
                 </b>
             </td>
         </tr>
@@ -27,17 +27,12 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                1. Implemented 2 endpoints in `EventPublish`, to handle event data from driver and remote-relay.
-2. Added an endpoint to fetch all received states: `GetEventStates` and protobuf message for output.
-3. Added sdk function for above endpoint, and sample command for it in fabric-cli.
-4. Added sample command in fabric-cli to start express server to listen to events.
-5. Added more status to `RequestState`, also added status `DELETED` for cleanup of db states in relay (not implemented yet, TODO).
-6. (EDIT) Added unit tests in relay for event publish.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-20 17:05:27 +0000 UTC
+        Created At 2022-07-28 11:25:50 +0000 UTC
     </div>
 </div>
 
