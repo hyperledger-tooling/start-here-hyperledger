@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/135" class=".btn">#135</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/138" class=".btn">#138</a>
             </td>
             <td>
                 <b>
-                    paginated range queries
+                    upgrade to the latest main with provenance acl
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: senthil <cendhu@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-13 08:33:22 +0000 UTC
+        Created At 2022-07-28 08:52:00 +0000 UTC
     </div>
 </div>
 

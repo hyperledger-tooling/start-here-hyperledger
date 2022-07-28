@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/330" class=".btn">#330</a>
+            </td>
+            <td>
+                <b>
+                    KVS extensions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Return the key when iterating 
+- Add support function for splitting keys
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-28 07:12:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/329" class=".btn">#329</a>
             </td>
             <td>
