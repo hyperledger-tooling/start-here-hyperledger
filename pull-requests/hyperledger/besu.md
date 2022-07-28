@@ -14,6 +14,90 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4186" class=".btn">#4186</a>
+            </td>
+            <td>
+                <b>
+                    Only stop block propagation, not tx handling.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+## PR description
+
+Since there is a Subscribers for each type of message handler in EthMessages, and only on handler, they all get a subscriber id of 1.  This changes the unsubscribe logic to require the caller to specify the message code handler being unsubscribed from, and removes it from the map of handlers.
+
+## Fixed Issue(s)
+fixes #3890 
+
+## Documentation
+
+- [X] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-27 22:48:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4185" class=".btn">#4185</a>
+            </td>
+            <td>
+                <b>
+                    Switching info to trace on several noisey logs during sync.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: matt-nelson-csi <matt.nelson@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+Fixes #4182 - switches info to trace on the three noisy Sync commands 
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-27 21:55:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4181" class=".btn">#4181</a>
             </td>
             <td>
@@ -76,7 +160,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">peering</span>
             </td>
             <td>
                 Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
@@ -120,7 +204,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">peering</span>
             </td>
             <td>
                 Peers discovered through the DNSDaemon are now added to the peerTable. These peers are potentially used (16 are randomly chosen from the peer table) in RecursivePeerRefreshStateas as the initial peers for bonding and then for finding neighbours, etc.
@@ -1065,131 +1149,6 @@ Arguments:
     </table>
     <div class="right-align">
         Created At 2022-07-21 07:20:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4142" class=".btn">#4142</a>
-            </td>
-            <td>
-                <b>
-                    Peering logging
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span><span class="chip">peering</span>
-            </td>
-            <td>
-                Minor changes to logging. 
-* add a separate class to log "Process message" in EthProtocolManager, so logging can be tuned separately by class
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-21 01:15:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4139" class=".btn">#4139</a>
-            </td>
-            <td>
-                <b>
-                    22.7.0 snapshot
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Prep 22.7.0 release 
-
-Prep snapshot of 22.7.0
-
-Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-20 19:18:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4138" class=".btn">#4138</a>
-            </td>
-            <td>
-                <b>
-                    22.7.0 rc2 release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                22.7.0-RC2 release
-
-Release 22.7.0-RC2 of Hyperledger Besu
-
-Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-20 19:15:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4137" class=".btn">#4137</a>
-            </td>
-            <td>
-                <b>
-                    22.7.0 CHANGELOG.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                update changelog for release
-
-Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-20 19:12:20 +0000 UTC
     </div>
 </div>
 
