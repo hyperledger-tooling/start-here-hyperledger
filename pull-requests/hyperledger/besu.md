@@ -14,6 +14,108 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4190" class=".btn">#4190</a>
+            </td>
+            <td>
+                <b>
+                    Feature/engine api override
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Allow besu to have the engine api enabled, when there are not merge configs.  includes:
+* un-hiding/un-deprecating `--engine-rpc-enabled`
+* remove old isMergeEnabled checks in a few block header validators
+* use merge-specific block header validator, rather than appending to MainnetBlockHeaderValidator
+
+Tested with Hive and Kurtosis since this affects block validation.  Both are 🟢 
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #4172 
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-28 04:48:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4189" class=".btn">#4189</a>
+            </td>
+            <td>
+                <b>
+                    Accept empty header set in range headers validation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+If a response to the get header P2P request only returns the header that
+is the start of the range we may need to trim it to an empty response,
+this is breaking the validation response. One client has started
+returning only the range header start in some circumstances (which is a
+valid response per spec). Because we sometimes request an overlapping
+header this results in an empty stream once we cut the duplicates.
+
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-28 04:33:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4186" class=".btn">#4186</a>
             </td>
             <td>
