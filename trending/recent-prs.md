@@ -1,13 +1,13 @@
 
-[4196](https://github.com/hyperledger/besu/pull/4196) Upgrade gradle to 7.5, silence the welcome message
+[110](https://github.com/hyperledger-labs/mirbft/pull/110) Research
 
-[4195](https://github.com/hyperledger/besu/pull/4195) upgrade spotless to 6.8.0
+[2568](https://github.com/hyperledger/iroha/pull/2568) [docs] #2564: Kagami algorithm options
 
-[4194](https://github.com/hyperledger/besu/pull/4194) Panda print only when crossing TTD the first time
+[41](https://github.com/hyperledger-labs/fabric-operator/pull/41) Bundle a localhost:5000 container registry for local CC development
 
-[3307](https://github.com/hyperledger/aries-framework-go/pull/3307) feat: Remove warning from secret lock and update documentation
+[339](https://github.com/hyperledger-labs/fablo/pull/339) Prepare a generator skeleton for Kubernetes Operators support
 
-[405](https://github.com/hyperledger/fabric-test/pull/405) Remove caliper daily test as it's broken anyway (backport #404)
+[334](https://github.com/hyperledger-labs/fabric-smart-client/pull/334) Reduce staticcheck warnings (SA1019)
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3308" class=".btn">#3308</a>
+            </td>
+            <td>
+                <b>
+                    fix: move resolve credential manifest from didcommwallet to vcwallet.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Volodymyr Kubiv <volodymyr.kubiv@euristiq.com>
+
+**Title:**
+Move ResolveCredentialManifest from didcommwallet to vcwallet.
+
+**Summary:**
+
+ResolveCredentialManifest is related to vcwallet.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-29 07:01:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3307" class=".btn">#3307</a>
             </td>
             <td>
