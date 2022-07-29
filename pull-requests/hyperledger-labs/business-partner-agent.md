@@ -14,6 +14,80 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/793" class=".btn">#793</a>
+            </td>
+            <td>
+                <b>
+                    multiple minor bug fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - toggle document visibility
+- not all exchanges deleted
+- not all matching credentials displayed
+- wrong relation mapping
+- w3c type not set in subject
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/793"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-29 09:52:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/792" class=".btn">#792</a>
+            </td>
+            <td>
+                <b>
+                    Server Side Paging everywhere
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                add server side paging in data tables according to issue #787 
+
+Order of importance:
+
+1. Event History
+2. Connections
+3. Proof Templates
+4. Schemas
+
+
+Closes #787
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/792"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-29 08:08:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/790" class=".btn">#790</a>
             </td>
             <td>
@@ -37,38 +111,6 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     </table>
     <div class="right-align">
         Created At 2022-07-28 12:40:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/789" class=".btn">#789</a>
-            </td>
-            <td>
-                <b>
-                    Feature/server side paging v2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                add server side paging in majority of the data tables according to issue #787 
-
-Closes #787
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/789"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-27 15:37:50 +0000 UTC
     </div>
 </div>
 

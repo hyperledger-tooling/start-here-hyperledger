@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/41" class=".btn">#41</a>
+            </td>
+            <td>
+                <b>
+                    Bundle a localhost:5000 container registry for local CC development
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR bundles an insecure docker container registry at localhost:5000.  
+
+During local build/edit/publish cycles for chaincode and gateway application development, the local registry can be used to publish docker images to k8s without uploading images to public / Internet-based registries. 
+
+Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-29 11:53:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/40" class=".btn">#40</a>
             </td>
             <td>

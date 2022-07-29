@@ -14,6 +14,139 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2568" class=".btn">#2568</a>
+            </td>
+            <td>
+                <b>
+                    [docs] #2564: Kagami algorithm options
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+Adds options for Kagami tool crypto algorithms:
+
+* `ed25519`
+* `secp256k1`
+* `bls_normal`
+* `bls_small`
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Issue
+
+Resolves https://github.com/hyperledger/iroha/issues/2564
+
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+Kagami tool's usability will improve
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+
+None
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests *[optional]*
+
+```bash
+cargo run --bin kagami  -- crypto --help
+```
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+None, this is simply an update to the Kagami docs
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-29 11:58:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2565" class=".btn">#2565</a>
+            </td>
+            <td>
+                <b>
+                    [ci] #2461: Move coverage uploading to a new workflow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">CI</span>
+            </td>
+            <td>
+                Signed-off-by: BAStos525 <jungle.vas@yandex.ru>
+
+### Description of the Change
+1. Move `upload_coverage` job to a separate workflow.
+2. Revert `I2::Dev::Deploy` workflow to `branch: push` trigger.
+3. Come back to `docker/login-action@v2`.
+
+### Issue
+We can not use secrets in `I2::Dev::Deploy` as it was changed to `pull_request: closed` trigger because of `upload_coverage` job. So, it means that we had failed step to login to Docker Hub.
+- Resolves partially #2461
+
+### Benefits
+1. Secrets should be accessible for `I2::Dev::Deploy` now.
+2. `docker/login-action@v2` should work now.
+
+### Possible Drawbacks
+Some unexpected fails on CI process could be.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-29 08:13:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2557" class=".btn">#2557</a>
             </td>
             <td>

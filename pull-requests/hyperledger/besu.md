@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4198" class=".btn">#4198</a>
+            </td>
+            <td>
+                <b>
+                    poc add to blacklist invalid nodes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-29 10:01:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4196" class=".btn">#4196</a>
             </td>
             <td>
@@ -1149,35 +1193,6 @@ Filters out the log message `Refreshing DNS records with...` which is printed on
     </table>
     <div class="right-align">
         Created At 2022-07-22 20:37:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4150" class=".btn">#4150</a>
-            </td>
-            <td>
-                <b>
-                    fix 1 byte long disconnect reason
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                Fixing https://github.com/hyperledger/besu/issues/4071
-
-Signed-off-by: Stefan <stefan.pingel@consensys.net>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-22 09:18:35 +0000 UTC
     </div>
 </div>
 
