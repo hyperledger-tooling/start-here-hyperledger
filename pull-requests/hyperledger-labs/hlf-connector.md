@@ -42,29 +42,3 @@ Signed-off-by: Abhay Kishore <abhay.kishore@walmart.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/39" class=".btn">#39</a>
-            </td>
-            <td>
-                <b>
-                    Add capability to init the chaincode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-22 04:09:33 +0000 UTC
-    </div>
-</div>
-
