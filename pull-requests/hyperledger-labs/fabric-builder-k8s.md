@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/55" class=".btn">#55</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Add sample contracts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-29 15:32:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/54" class=".btn">#54</a>
             </td>
             <td>

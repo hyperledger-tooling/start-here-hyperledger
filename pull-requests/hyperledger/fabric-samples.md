@@ -14,6 +14,93 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/804" class=".btn">#804</a>
+            </td>
+            <td>
+                <b>
+                    Update CHAINCODE_AS_A_SERVICE_TUTORIAL.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change fixes a few minor errors and adds a note to help the user.
+
+Signed-off-by: Arnaud J Le Hors <lehors@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-29 13:17:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/803" class=".btn">#803</a>
+            </td>
+            <td>
+                <b>
+                    Update podman support information
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change updates the test-network README with up-to-date information
+about using podman on Mac and improves support for podman in deployCCAAS.sh
+
+Signed-off-by: Arnaud J Le Hors <lehors@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-29 13:16:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/802" class=".btn">#802</a>
+            </td>
+            <td>
+                <b>
+                    Use alpine based gradle image to build basic transfer java CC container
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This changes the base image used to build the chaincode-as-a-service
+java container to the alpine version which is sufficient and less
+taxing than using the full gradle:jdk11 one.
+
+Signed-off-by: Arnaud J Le Hors <lehors@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-29 13:15:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/801" class=".btn">#801</a>
             </td>
             <td>
