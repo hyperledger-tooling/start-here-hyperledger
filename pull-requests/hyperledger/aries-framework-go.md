@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3307" class=".btn">#3307</a>
+            </td>
+            <td>
+                <b>
+                    feat: Remove warning from secret lock and update documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Removed a warning that would happen if trying to read in a master key using raw bytes, as this is actually a normal scenario. Also updated some related documentation to make it more clear that raw byte master keys are an expected use case.
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-28 20:45:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3306" class=".btn">#3306</a>
             </td>
             <td>

@@ -42,10 +42,16 @@ permalink: /pull-requests/hyperledger/iroha
 
 ### Description of the Change
 
-* small refactor of FFI crate
+* introduce `client` feature for FFI crate
+* introduce additional `ffi!` macro
+* rename `TryFromFfi` -> `TryFromReprC`
+* make `ffi` crate `no_std`
+* two disjoint feature flags `ffi_api` and `ffi`
+* refactor of FFI crate - reduce duplicated code
 * closes #2536 
 
-To make the change manageable, this PR only introduces the `client` flag. The flag does not expand to completely valid code yet. This is expected to be completed with #2231   
+# NOTE
+To make the change manageable, this PR only introduces the `client` flag. The flag does not expand to completely valid code yet and is commented out. This is expected to be completed with #2231 . I'm trying to get this merged so that @Erigara and I don't step on each other's toes anymore
 
 ### Issue
 
@@ -53,27 +59,6 @@ To make the change manageable, this PR only introduces the `client` flag. The fl
 More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
 
 <!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-### Possible Drawbacks
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests *[optional]*
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
             </td>
         </tr>
     </table>
@@ -559,181 +544,6 @@ Action not permitted: Validator ```Allow to set account metadata keys only for s
     </table>
     <div class="right-align">
         Created At 2022-07-22 17:09:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2517" class=".btn">#2517</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #2052: make permission token ids registrable
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Artemii Gerasimovich <gerasimovich@soramitsu.co.jp>
-
-### Description of the Change
-
-Make PermissionToken Ids Registrable (world-scoped by analogy to roles) and require registering PT id before granting it.
-Also add query to find all registered PermissionToken ids.
-
-### Issue
-
-#2052 
-
-### Benefits
-
-More consistent API, ability to query for all permission tokens.
-
-### Possible Drawbacks
-
-A bit more cumbersome to work with.
-
-### Alternate Designs
-
-As described in #2052, disallow creating PermissionTokens dynamically and parametrize iroha with strongly-typed list of available permission tokens.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-21 21:51:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2516" class=".btn">#2516</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #1891: Validate trigger execution
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Enhancement</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Ales Tsurko <ales.tsurko@gmail.com>
-
-<!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-Validation for trigger execution is added. Now triggers are allowed to be executed only by the register and technical accounts.
-
-### Issue
-
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-Closes #1891 
-
-### Benefits
-
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests *[optional]*
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-21 21:36:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2515" class=".btn">#2515</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #2501: Fixes the order of assets in queries with pagination
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Vladimir Pesterev <pesterev@pm.me>
-
-### Description of the Change
-
-Replaces the lexicographical order of assets with a timestamp-based order in `AssetsMap`.
-
-For example:
-
-Before: `1 (1658432537)`, `10 (1658432546)`, `2 (1658432538)`, `3 (1658432539)`, `4 (1658432540)`, `5 (1658432541)`, `6 (1658432542)`, `7 (1658432543)`, `8 (1658432544)`, `9 (1658432545)`.
-
-Now: `1 (1658432537)`, `2 (1658432538)`, `3 (1658432539)`, `4 (1658432540)`, `5 (1658432541)`, `6 (1658432542)`, `7 (1658432543)`, `8 (1658432544)`, `9 (1658432545)`, `10 (1658432546)`.
-
-Where `N` is Id and `T` is an insertion timestamp in `N (T)` format.
-
-### Issue
-
-Resolves #2501 
-
-### Benefits
-
-Order now depends on insertion timestamp.
-
-### Possible Drawbacks
-
-The queries that retrieve an asset will execute a bit slower because $O(\log n)$ (current implementation) and $O (\log n + \log n)$ (twice b-tree lookup) (impl in this PR).
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-21 19:46:22 +0000 UTC
     </div>
 </div>
 

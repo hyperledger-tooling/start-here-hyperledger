@@ -14,6 +14,100 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4195" class=".btn">#4195</a>
+            </td>
+            <td>
+                <b>
+                    upgrade spotless to 6.8.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Upgrade spotless to 6.8.0, removing workaround for JDK 17 support.
+
+## Documentation
+
+- [X] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-29 01:13:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4194" class=".btn">#4194</a>
+            </td>
+            <td>
+                <b>
+                    Panda print only when crossing TTD the first time
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span>
+            </td>
+            <td>
+                Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+ensure Pandas only print when we merge, not just when we initially set a new merge state (like on startup)
+
+* make panda printer static
+* add prior merge state to MergeStateHandler
+* move pandas into TransitionControllerBuilder's transition watcher
+*  before we print, ensure we are PoS AND the prior merge state was pre-merge
+
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+#3954 
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-28 23:47:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4190" class=".btn">#4190</a>
             </td>
             <td>
@@ -24,7 +118,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -35,6 +129,8 @@ Allow besu to have the engine api enabled, when there are not merge configs.  in
 * un-hiding/un-deprecating `--engine-rpc-enabled`
 * remove old isMergeEnabled checks in a few block header validators
 * use merge-specific block header validator, rather than appending to MainnetBlockHeaderValidator
+* disable all engine api methods except engine_exchangeTransitionConfigurationV1 in the absence of an engine-api-compatible coordinator
+* add "placeholder" TTD in the absence of a TTD configuration
 
 Tested with Hive and Kurtosis since this affects block validation.  Both are 🟢 
 
@@ -126,7 +222,7 @@ Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 
@@ -167,7 +263,7 @@ fixes #3890
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">logging</span>
             </td>
             <td>
                 Signed-off-by: matt-nelson-csi <matt.nelson@consensys.net>
@@ -394,7 +490,7 @@ fixes  Hive test `consensus/checkGasLimit_London`
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: Gabriel Trintinalia <gabriel.trintinalia@consensys.net>
@@ -521,7 +617,7 @@ The documentation should mention that Ropsten, Rinkeby and Kiln are deprecated
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
