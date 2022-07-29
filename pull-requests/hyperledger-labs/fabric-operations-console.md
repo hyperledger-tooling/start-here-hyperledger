@@ -384,39 +384,3 @@ If we failed to get a config block b/c of a 503 code, display a better error mes
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/271" class=".btn">#271</a>
-            </td>
-            <td>
-                <b>
-                    Join orderer text
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-- added text to pending channel tile
-- fliped osnadmin_feats_enabled feature flag to true
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-22 14:24:29 +0000 UTC
-    </div>
-</div>
-

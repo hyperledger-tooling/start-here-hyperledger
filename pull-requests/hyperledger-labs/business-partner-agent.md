@@ -27,8 +27,8 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
                 
             </td>
             <td>
-                - toggle document visibility
-- not all exchanges deleted
+                - toggle document visibility not working
+- not all exchanges deleted (needs new client)
 - not all matching credentials displayed
 - wrong relation mapping
 - w3c type not set in subject

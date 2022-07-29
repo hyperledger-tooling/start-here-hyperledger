@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">cleanup</span>
             </td>
             <td>
                 As part of issue #50, removed warnings related to:

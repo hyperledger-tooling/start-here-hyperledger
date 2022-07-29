@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/315" class=".btn">#315</a>
+            </td>
+            <td>
+                <b>
+                    Panic Seg Fault with Issue func
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                PR to solve issue #314: Panic Seg Fault with Issue func
+https://github.com/hyperledger-labs/fabric-token-sdk/issues/314
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-29 15:41:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/313" class=".btn">#313</a>
             </td>
             <td>
