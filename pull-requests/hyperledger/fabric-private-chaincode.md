@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
             </td>
             <td>
                 <b>
-                    Simulation support on Apple Silicon
+                    Simulation support for non-sgx platforms
                 </b>
             </td>
         </tr>
@@ -92,6 +92,7 @@ need for the dedicated `fpc-ccenv-go` image anymore as we can just use
 - Upgrade to ego v1.0.0
 - Remove fpc-ccenv-go
 - Upgrade `go.mod` to go 1.17
+- Fix staticcheck issues
             </td>
         </tr>
     </table>

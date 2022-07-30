@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1420" class=".btn">#1420</a>
+            </td>
+            <td>
+                <b>
+                    Update developer docs for setting up the repo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In this PR:
+* The developer docs for setting up the repository are updated with the instructions for utilising npm workspaces
+
+Closes #1416
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-30 12:07:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1419" class=".btn">#1419</a>
             </td>
             <td>
