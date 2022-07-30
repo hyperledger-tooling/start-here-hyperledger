@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-docs/pull/346" class=".btn">#346</a>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/348" class=".btn">#348</a>
             </td>
             <td>
                 <b>
-                    Update local build instructions to references deps
+                    Consolidate REST API planning documents and add plan for expected functionality
                 </b>
             </td>
         </tr>
@@ -27,16 +27,40 @@ permalink: /pull-requests/hyperledger/grid-docs
                 
             </td>
             <td>
-                Update the local build instructions in the Grid documentation so they
-always references the latest canonical list of prerequisites as outlined
-in the repo's README.md file.
-
-Signed-off-by: Amelia Bradley <bradley@bitwise.io>
+                This change moves the REST API design documents from community/planning/features into a rest-specific directory. Historical documents are linked from the top-level doc with descriptions on the proposed functionality. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-21 17:14:25 +0000 UTC
+        Created At 2022-07-29 21:41:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/grid-docs/pull/347" class=".btn">#347</a>
+            </td>
+            <td>
+                <b>
+                    Update the serial queue strategy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Clarifies the queuing logic and corrects small errors.
+
+Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-29 20:56:26 +0000 UTC
     </div>
 </div>
 

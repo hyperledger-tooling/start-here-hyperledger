@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3309" class=".btn">#3309</a>
+            </td>
+            <td>
+                <b>
+                    refactor: credential manifest enhancements to match wallet-rendering specs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+**Summary:**
+
+- Refactored credentialmanifest.go 
+  - moved everything related to resolving the different types into a separate file called resolve.go to make it clearer as to what is coming from the credential manifest and wallet rendering specs and what is needed for displaying 
+  - moved common functions to common.go
+- Changes to match specs:
+  - Fixed display mapping object to use text property if paths is empty 
+    - validateDisplayMappingObject to check for if both the text field and the paths field is empty
+    - update unit tests for this
+  - ValidateCredentialApplication 
+    - Added check for case where manifest's format is empty but credential application's is not (credential application's formats should be a subset of credential manifest's)
+    - Removed duplicate code for checking credential application against credential manifest
+    - update unit tests
+  - Added missing optional property to CredentialFulfillment
+  - Added missing optional properties to schema format
+
+Closes #3304 
+Closes #3274 
+Closes #3280 
+Closes #3281
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-29 18:26:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3308" class=".btn">#3308</a>
             </td>
             <td>
@@ -101,7 +147,7 @@ I created a component in the mobile agent that allows a user to use a storage pr
 Using https://github.com/hyperledger/aries-framework-go-ext/blob/main/component/storage/mysql/store.go as reference I created a store provider that connects with SQLite. 
 Also, I implemented the TotalItems() method inside the storage wrapper.
 
-@DRK3 What do you think?
+@DRK3, @sudeshrshetty, What do you think?
 
             </td>
         </tr>
@@ -195,98 +241,6 @@ closes https://github.com/hyperledger/aries-framework-go/issues/3299
     </table>
     <div class="right-align">
         Created At 2022-07-25 11:38:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3294" class=".btn">#3294</a>
-            </td>
-            <td>
-                <b>
-                    feat: implement did-core JSON-LD `@context` representation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Chris Abernethy <brownoxford@gmail.com>
-
-**Title:**
-Implement did-core JSON-LD `@context` representation
-
-**Description:**
-Current implementation assumes `@context` can only be `[]string`, but did-core v1 defines `@context` for DID documents in JSON-LD representation to be either a string or a list containing maps and/or strings.
-
-**Summary:**
-* Created `type Context {}interface` to represent did document contexts with appropriate comment for IDE integration.
-* Modified `did.parseContext` to add parsing of `string` and `[]interface{}` context representations.
-* Added `LookupContextString` helper to search for context string through entire context (used by `requiresLegacyHandling`)
-* Added `LookupSchemaFromContext` helper to peek first string in context. Replaces direct references to `context[0]`
-* Modified existing tests to account for new context format
-* Added tests for new helper functions
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-22 20:35:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3293" class=".btn">#3293</a>
-            </td>
-            <td>
-                <b>
-                    fix: bdd test ci
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-22 19:21:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3291" class=".btn">#3291</a>
-            </td>
-            <td>
-                <b>
-                    feat: allow custom GNAP header signer in vcwallet command
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-22 19:10:40 +0000 UTC
     </div>
 </div>
 

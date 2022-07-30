@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/282" class=".btn">#282</a>
+            </td>
+            <td>
+                <b>
+                    fix the orderer/cluster select options in join wiz
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+- the node options listed during a  systemless-channel orderer join were not as lax as they should be. this pr allows selecting nodes from any cluster that has the same MSP. 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-29 19:48:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/281" class=".btn">#281</a>
             </td>
             <td>
@@ -345,42 +380,6 @@ The update channel wizard button was launching the create channel wizard.
     </table>
     <div class="right-align">
         Created At 2022-07-25 20:29:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/272" class=".btn">#272</a>
-            </td>
-            <td>
-                <b>
-                    Improve msg failed config block
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Improvement (improvement to code, performance, etc)
-
-
-#### Description
-If we failed to get a config block b/c of a 503 code, display a better error message.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-22 20:05:00 +0000 UTC
     </div>
 </div>
 
