@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/589" class=".btn">#589</a>
-            </td>
-            <td>
-                <b>
-                    create `grantAdminRole` hardhat task 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jameson Hodge <contact@jamesonhodge.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-23 15:46:00 +0000 UTC
-    </div>
-</div>
-

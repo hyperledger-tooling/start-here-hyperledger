@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1421" class=".btn">#1421</a>
+            </td>
+            <td>
+                <b>
+                    Execute integration tests based on changes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In this PR:
+* The integration test workflow is modified to execute only tests that are relevant to the changes made
+
+Closes #1375
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-30 12:38:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1420" class=".btn">#1420</a>
             </td>
             <td>
