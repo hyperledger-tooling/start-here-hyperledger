@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/sawtooth-core
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2431" class=".btn">#2431</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2432" class=".btn">#2432</a>
             </td>
             <td>
                 <b>
@@ -48,12 +48,15 @@ build process.
 I suspect that using an updated version of lmdb resolved the memory
 leak.
 
+Note: This only updates the bionic docker-compose files, since we are
+only supporting bionic.
+
 Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-27 21:52:46 +0000 UTC
+        Created At 2022-07-29 20:19:19 +0000 UTC
     </div>
 </div>
 
