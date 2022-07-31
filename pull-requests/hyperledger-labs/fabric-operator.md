@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/43" class=".btn">#43</a>
+            </td>
+            <td>
+                <b>
+                    resolve #17
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                try to resolve #17, Metrics and observability with [Prometheus and Grafana](./docs/prometheus.md)
+
+Signed-off-by: Sam Yuan <yy19902439@126.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-31 13:17:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/42" class=".btn">#42</a>
             </td>
             <td>
