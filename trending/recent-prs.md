@@ -1,13 +1,13 @@
 
+[3557](https://github.com/hyperledger/fabric/pull/3557) Enable compilation on linux/arm64 platforms
+
+[112](https://github.com/hyperledger/iroha-javascript/pull/112) Fix ESM/CJS problems
+
+[43](https://github.com/hyperledger-labs/fabric-operator/pull/43) resolve #17
+
+[3556](https://github.com/hyperledger/fabric/pull/3556) Add -buildvcs=false for ccaasbuilder
+
 [1421](https://github.com/hyperledger/caliper/pull/1421) Execute integration tests based on changes
-
-[1420](https://github.com/hyperledger/caliper/pull/1420) Update developer docs for setting up the repo
-
-[2570](https://github.com/hyperledger/iroha/pull/2570) Bump mistune from 2.0.1 to 2.0.3 in /docs/source
-
-[348](https://github.com/hyperledger/grid-docs/pull/348) Consolidate REST API planning documents and add plan for expected functionality
-
-[347](https://github.com/hyperledger/grid-docs/pull/347) Update the serial queue strategy
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

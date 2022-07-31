@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3557" class=".btn">#3557</a>
+            </td>
+            <td>
+                <b>
+                    Enable compilation on linux/arm64 platforms
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                    Enable compilation on linux/arm64 platforms
+
+    While building the peer docker image, the location of the ccaasbuilder
+    binaries were hard-coded into the Dockerfile, though the output directory
+    is platform-dependent. Therefore this commit suggests two changes:
+
+    1. Prepare binary locations based on the architecture and copy them into
+       the temporal location hence it will become possible to generalize
+       file location inside Dockerfile
+
+    2. Suggest static binaries compilation to include all dependent
+       libraries in compile time, it turns out there are the different sets of
+       libraries between alpine:${ALPINE_VER} and
+       golang:${GO_VER}-alpine${ALPINE_VER} docker images which cause peer
+       to segfault on ARM64-based platforms.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-31 15:44:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3556" class=".btn">#3556</a>
+            </td>
+            <td>
+                <b>
+                    Add -buildvcs=false for ccaasbuilder
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                After #3315 was merged, the -buildvcs=false flag was mistakenly removed. This commit fixes the change and adds it back.
+
+Signed-off-by: Artem Barger <artem@bargr.net>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-31 12:49:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3554" class=".btn">#3554</a>
             </td>
             <td>
