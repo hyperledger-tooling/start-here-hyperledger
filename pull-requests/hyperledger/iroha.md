@@ -420,7 +420,7 @@ More information about this is available in GitHub documentation: https://docs.g
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">iroha2</span>
             </td>
             <td>
                 Signed-off-by: Sam H. Smith <sam.henning.smith@protonmail.com>
