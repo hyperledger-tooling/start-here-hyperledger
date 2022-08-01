@@ -1,13 +1,13 @@
 
-[3559](https://github.com/hyperledger/fabric/pull/3559) Add -buildvcs=false for ccaasbuilder (backport #3556)
+[1424](https://github.com/hyperledger/caliper/pull/1424) Add GitHub Actions workflow for docs
 
-[3558](https://github.com/hyperledger/fabric/pull/3558) Add -buildvcs=false for ccaasbuilder (backport #3556)
+[14](https://github.com/hyperledger-labs/weft/pull/14) chore(main): release 0.0.5
 
-[318](https://github.com/hyperledger-labs/fabric-token-sdk/pull/318) Panic Seg Fault on Issue
+[1423](https://github.com/hyperledger/caliper/pull/1423) Add workflow for gh-pages branch
 
-[366](https://github.com/hyperledger-labs/go-perun/pull/366) Fix Multi-Adjudicator Subscription
+[13](https://github.com/hyperledger-labs/weft/pull/13) Release
 
-[805](https://github.com/hyperledger/fabric-samples/pull/805) Update Node.js dockerfile
+[1881](https://github.com/hyperledger/aries-cloudagent-python/pull/1881) fix: didx request cannot be accepted
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                <span class="chip">doc-change-required</span>
+                <span class="chip">doc-change-required</span><span class="chip">TeamRevenant</span>
             </td>
             <td>
                 Added (experimental) CLI option for a lower bound for p2p peers. Similar to Teku's https://docs.teku.consensys.net/en/latest/Reference/CLI/CLI-Syntax/#p2p-peer-lower-bound
@@ -477,7 +477,7 @@ Fixes #4182 - switches info to trace on the three noisy Sync commands
         </tr>
         <tr>
             <td>
-                <span class="chip">mainnet</span><span class="chip">peering</span>
+                <span class="chip">mainnet</span><span class="chip">peering</span><span class="chip">TeamChupa</span>
             </td>
             <td>
                 Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
@@ -528,7 +528,7 @@ This PR allows to cache the request if it arrives before the PONG to answer once
         </tr>
         <tr>
             <td>
-                <span class="chip">mainnet</span><span class="chip">peering</span>
+                <span class="chip">TeamRevenant</span><span class="chip">mainnet</span><span class="chip">peering</span>
             </td>
             <td>
                 Peers discovered through the DNSDaemon are now added to the peerTable. These peers are potentially used (16 are randomly chosen from the peer table) in RecursivePeerRefreshStateas as the initial peers for bonding and then for finding neighbours, etc.

@@ -123,37 +123,3 @@ Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/39" class=".btn">#39</a>
-            </td>
-            <td>
-                <b>
-                    Feature/prom - Configure prometheus on the sample network 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                WORK IN PROGRESS - DO NOT MERGE 
-
-This PR launches prometheus-operator on the sample network k8s cluster.  An ingress for prometheus and grafana are created at https://prometheus.localho.st and https://grafana.localho.st with a self-signed TLS certificate.
-
-The test network includes a sample `ServiceMonitor` CRD for the org1-peer1.
-
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-25 13:20:03 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/945" class=".btn">#945</a>
+            </td>
+            <td>
+                <b>
+                    Implement assignment to selector and address in Yul
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR implements assignment to an external function's selector and address in Yul, using the existing infrastructure in Solang.
+The logic behind this is going to be used for Borsh decoding and brought up issue #944.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-01 13:31:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/943" class=".btn">#943</a>
             </td>
             <td>
@@ -142,32 +169,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2022-07-28 11:08:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/936" class=".btn">#936</a>
-            </td>
-            <td>
-                <b>
-                    Update roadmap
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR updates the road map for Solang and includes the newest additions and future features.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-25 13:13:08 +0000 UTC
     </div>
 </div>
 

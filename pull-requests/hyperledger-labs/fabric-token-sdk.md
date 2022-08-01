@@ -14,33 +14,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/318" class=".btn">#318</a>
-            </td>
-            <td>
-                <b>
-                    Panic Seg Fault on Issue
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Louis TIERCERY <louis.tiercery1@ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-01 12:18:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/315" class=".btn">#315</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/319" class=".btn">#319</a>
             </td>
             <td>
                 <b>
@@ -53,13 +27,14 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 
             </td>
             <td>
-                PR to solve issue #314: Panic Seg Fault with Issue func
-https://github.com/hyperledger-labs/fabric-token-sdk/issues/314
+                PR to solve issue https://github.com/hyperledger-labs/fabric-token-sdk/issues/314: Panic Seg Fault with Issue func
+
+Signed-off-by: Tiercery <louis.tiercery1@ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-29 15:41:31 +0000 UTC
+        Created At 2022-08-01 13:11:24 +0000 UTC
     </div>
 </div>
 
