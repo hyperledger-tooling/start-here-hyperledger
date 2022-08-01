@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/682" class=".btn">#682</a>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/683" class=".btn">#683</a>
             </td>
             <td>
                 <b>
-                    Simulation support for non-sgx platforms
+                    Fix path to SGX hardware
                 </b>
             </td>
         </tr>
@@ -42,6 +42,63 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
 -->
 
 **What this PR does / why we need it**:
+
+An error occurred when performing a FPC build in the go-support-preview branch on a DCsv2 instance of Microsoft Azure.
+I fixed it because the way the path to the SGX hardware in `integration/go_chaincode/utils/utils.go` was written was not an absolute path.
+
+
+**Which issue(s) this PR fixes**:
+
+None
+
+**Special notes for your reviewer**:
+
+None
+
+Signed-off-by: ikegawa-koshi <koshi.ikegawa.mf@hitachi.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-01 07:09:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/682" class=".btn">#682</a>
+            </td>
+            <td>
+                <b>
+                    Alternative simulation support for non-sgx platforms
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!--  Thanks for sending a pull request!  Here are some tips for you:
+
+1. If this is your first time, please read our code of conduct and contributor guidelines: 
+     https://github.com/hyperledger/fabric-private-chaincode/blob/main/CONTRIBUTING.md
+     https://github.com/hyperledger/fabric-private-chaincode/blob/main/CODE_OF_CONDUCT.md
+   In particular pay attention to the git workflows
+      https://docs.google.com/document/d/1sR7YV3pSYN3NEFiW-2fUqtpsJeJrpC0EWUVtEm0Blcg/edit#heading=h.kwcug3pkefak
+2. Fill out below sections.
+3. Label the PR with the label of any component this PR touches.
+4. ALso don't forget to sign your comments before submitting. 
+   Github will complain if there is no DCO but it's easier if we don't have to hunt you down to fix that :-)
+
+-->
+
+**What this PR does / why we need it**:
+
+This PR introduces an alternative simulation support for non-sgx platforms, such as Mac M1. 
+To make this work, both, the FPC chaincode and ercc can be compiled using pure go and without any SGX dependency, which allows playing with your FPC chaincode while developing on your non-sgx host. 
 
 **Which issue(s) this PR fixes**:
 <!--
