@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4200" class=".btn">#4200</a>
+            </td>
+            <td>
+                <b>
+                    lower bound peer limit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span>
+            </td>
+            <td>
+                Added (experimental) CLI option for a lower bound for p2p peers. Similar to Teku's https://docs.teku.consensys.net/en/latest/Reference/CLI/CLI-Syntax/#p2p-peer-lower-bound
+
+So we actively try to find more peers up to --Xp2p-peer-lower-bound, but still allow incoming connections until we hit --p2p-peer-upper-bound AKA --max-peers, only then we refuse incoming connections.
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-01 02:25:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4198" class=".btn">#4198</a>
             </td>
             <td>
@@ -871,62 +908,6 @@ Run on workflow dispatch on demand
     </table>
     <div class="right-align">
         Created At 2022-07-26 04:08:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4164" class=".btn">#4164</a>
-            </td>
-            <td>
-                <b>
-                    Fix logIndex offset bug
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-The ethereum json-rpc spec requires `logIndex` be a log's position within the block:
-https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getfilterchanges
-
-This is also what's described in the comments, but instead the current implementation of logIndex starts counting only from the beginning of the current transaction.  This PR brings public transaction logs into conformance with the spec.
-
-This does not include full support for changing logIndex to work the same way with private transactions, because this appears to require a change to the private state storage format.   Partial support has been included for review, but commented out due to non-existent privateStateStorage.getTransactionReceipts(blockHash) method.
-
-Maybe it's not possible to access other private tx's in the same block?
-
-TODO:  modify expected results for more tests, so that everything passes.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Fixes #4114 
-
-
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-25 06:16:27 +0000 UTC
     </div>
 </div>
 
