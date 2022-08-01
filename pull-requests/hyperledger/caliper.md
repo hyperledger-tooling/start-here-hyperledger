@@ -95,34 +95,3 @@ Closes #1416
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1414" class=".btn">#1414</a>
-            </td>
-            <td>
-                <b>
-                    Migrate generator tests to test network
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In this PR:
-* Generator integration tests are migrated to test network so that they don't rely on obsolete Caliper features.
-* Generator integration tests are moved to Fabric 2.2
-
-Fixes #1254
-Fixes #1413
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-25 06:07:57 +0000 UTC
-    </div>
-</div>
-
