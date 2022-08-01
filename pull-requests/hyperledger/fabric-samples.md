@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/805" class=".btn">#805</a>
+            </td>
+            <td>
+                <b>
+                    Update Node.js dockerfile
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Add options to stop permission issue with the npm cache (podman is quite strict here)
+- Add in platform for tini
+
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-01 11:18:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/804" class=".btn">#804</a>
             </td>
             <td>

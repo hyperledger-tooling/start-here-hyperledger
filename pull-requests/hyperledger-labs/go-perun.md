@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/366" class=".btn">#366</a>
+            </td>
+            <td>
+                <b>
+                    Fix Multi-Adjudicator Subscription
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #365.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-01 12:06:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/363" class=".btn">#363</a>
             </td>
             <td>
@@ -33,32 +59,6 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     </table>
     <div class="right-align">
         Created At 2022-07-25 14:29:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/362" class=".btn">#362</a>
-            </td>
-            <td>
-                <b>
-                    Add Adjudicator Getter for Multi-Adjudicator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #361.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-25 09:25:10 +0000 UTC
     </div>
 </div>
 
