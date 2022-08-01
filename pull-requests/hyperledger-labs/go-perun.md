@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/363" class=".btn">#363</a>
-            </td>
-            <td>
-                <b>
-                    MockBackend: Remove context from subscription
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR includes a small update to the mock subscription. Storing a context in a struct is disadvised and not needed here as we can just rely on the functionality of the events channel.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-25 14:29:00 +0000 UTC
-    </div>
-</div>
-
