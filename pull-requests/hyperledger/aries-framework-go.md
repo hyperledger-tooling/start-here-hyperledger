@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3312" class=".btn">#3312</a>
+            </td>
+            <td>
+                <b>
+                    feat: support of presentation exchange v2.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Volodymyr Kubiv <volodymyr.kubiv@euristiq.com>
+
+
+**Title:**
+Presentation exchange v2
+
+**Description:**
+https://github.com/hyperledger/aries-framework-go/issues/3297
+
+**Summary:**
+
+Added support of changes from the latest presentation exchange draft https://identity.foundation/presentation-exchange/
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-02 12:29:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3309" class=".btn">#3309</a>
             </td>
             <td>

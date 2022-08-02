@@ -64,31 +64,3 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/745" class=".btn">#745</a>
-            </td>
-            <td>
-                <b>
-                    feat: add push notifications expo protocol
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds push notification expo protocol to be used with [Expo's push notification service](https://docs.expo.dev/push-notifications/overview/)
-
-Similar to #736 and #699 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-26 10:22:27 +0000 UTC
-    </div>
-</div>
-

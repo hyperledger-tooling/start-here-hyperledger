@@ -29,6 +29,8 @@ permalink: /pull-requests/hyperledger/iroha-javascript
             <td>
                 ## List of changes
 
+- Fix `@iroha2/crypto-target-web` → `@iroha2/crypto-core` dependency - change `dev` to `prod`
+
 - Define packages exports with `exports` field too. Also use `.mjs` for ESM and `.cjs` for CJS bundles.
 
 - Drop API Extractor and esbuild. Use `rollup` for everything.
