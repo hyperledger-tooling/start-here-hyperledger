@@ -15,33 +15,31 @@ permalink: /releases/hyperledger/firefly-common
         <tr>
             <td colspan="2">
                 <b>
-                    v0.1.15
+                    v0.1.16
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.1.15
+                    v0.1.16
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Unmarshal empty string as nil UUID by @nguyer in https://github.com/hyperledger/firefly-common/pull/26
-* remove namespace check from FFI by @shorsher in https://github.com/hyperledger/firefly-common/pull/25
+* Utility for serializing structs into a JSON Map (or fftypes.JSONObject) by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/27
+* Add global config entries to common (so not required in other microservices by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/28
 
-## New Contributors
-* @shorsher made their first contribution in https://github.com/hyperledger/firefly-common/pull/25
 
-**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v0.1.14...v0.1.15
+**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v0.1.15...v0.1.16
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v0.1.15" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v0.1.16" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-07-22 19:12:31 +0000 UTC
+        Created At 2022-08-02 11:57:50 +0000 UTC
     </span>
 </div>
 
