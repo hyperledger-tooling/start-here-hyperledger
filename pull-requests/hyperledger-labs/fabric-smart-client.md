@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/340" class=".btn">#340</a>
+            </td>
+            <td>
+                <b>
+                    Reduce staticcheck warnings (S1000)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As part of issue #50, removed warnings related to:
+* S1000: removed redundant single-case selects for channels
+
+Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-02 12:11:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/336" class=".btn">#336</a>
+            </td>
+            <td>
+                <b>
+                    Enable staticcheck via make checks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Runs staticcheck with `make checks`.
+
+Currently, this is supposed to fail via CI until #50 is resolved.
+
+Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-02 07:06:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/334" class=".btn">#334</a>
             </td>
             <td>
@@ -202,93 +261,6 @@ Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-07-26 12:51:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/324" class=".btn">#324</a>
-            </td>
-            <td>
-                <b>
-                    Optimize msp cache
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Applying changes from https://github.com/hyperledger-labs/fabric-token-sdk/pull/304
-
-Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-26 12:10:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/323" class=".btn">#323</a>
-            </td>
-            <td>
-                <b>
-                    Remove GetCachedStateRangeScanIterator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Remove GetCachedStateRangeScanIterator
-- Badger autoclean
-- Add simple badger benchmark
-
-Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-26 11:25:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/322" class=".btn">#322</a>
-            </td>
-            <td>
-                <b>
-                    Reduce staticcheck warnings (ST1005)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As part of issue #50, removed warnings related to:
-* ST1005: error string format
-
-Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-26 10:59:20 +0000 UTC
     </div>
 </div>
 

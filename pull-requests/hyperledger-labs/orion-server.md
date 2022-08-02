@@ -14,17 +14,17 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/440" class=".btn">#440</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/446" class=".btn">#446</a>
             </td>
             <td>
                 <b>
-                    data proof test
+                    update acl on the user - test
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">testing</span>
+                
             </td>
             <td>
                 Signed-off-by: tohar-ayash <toharayash1@gmail.com>
@@ -32,7 +32,33 @@ permalink: /pull-requests/hyperledger-labs/orion-server
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-20 14:21:29 +0000 UTC
+        Created At 2022-08-02 09:48:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/445" class=".btn">#445</a>
+            </td>
+            <td>
+                <b>
+                    provenance test - ACLs on data and operations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: tohar-ayash <toharayash1@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-02 07:57:37 +0000 UTC
     </div>
 </div>
 
