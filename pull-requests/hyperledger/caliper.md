@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1425" class=".btn">#1425</a>
+            </td>
+            <td>
+                <b>
+                    Revert "Add workflow for gh-pages branch"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Reverts hyperledger/caliper#1423
+
+This is because the changes were superseded by #1424
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-02 02:37:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1424" class=".btn">#1424</a>
             </td>
             <td>
@@ -29,6 +57,7 @@ permalink: /pull-requests/hyperledger/caliper
             <td>
                 In this PR:
 * GitHub actions workflows are added to the gh-pages branch
+* Issues pointed out by DCI lint are fixed for the latest and vNext docs
 
 This is done because according to [GitHub Docs](https://docs.github.com/en/actions/using-workflows/triggering-a-workflow):
 > The following steps occur to trigger a workflow run:
