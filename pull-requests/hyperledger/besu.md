@@ -24,12 +24,15 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                <span class="chip">doc-change-required</span><span class="chip">TeamRevenant</span>
+                <span class="chip">doc-change-required</span><span class="chip">TeamRevenant</span><span class="chip">mainnet</span><span class="chip">peering</span>
             </td>
             <td>
                 Added (experimental) CLI option for a lower bound for p2p peers. Similar to Teku's https://docs.teku.consensys.net/en/latest/Reference/CLI/CLI-Syntax/#p2p-peer-lower-bound
 
 So we actively try to find more peers up to --Xp2p-peer-lower-bound, but still allow incoming connections until we hit --p2p-peer-upper-bound AKA --max-peers, only then we refuse incoming connections.
+
+* Note currently this PR changes the default for max-peers - happy to change this back once the plumbing for deploying canary nodes supports the "lower-bound" param
+* Timer refresh for the peer table `tableRefreshIntervalMs` is 30 minutes
 
 ## Documentation
 
