@@ -14,6 +14,100 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4207" class=".btn">#4207</a>
+            </td>
+            <td>
+                <b>
+                    Increase Gradle max heap size
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Diego López León <dieguitoll@gmail.com>
+
+## PR description
+This PR increases the maximum heap size for the Gradle build. [By default](https://docs.gradle.org/current/userguide/build_environment.html#sec:configuring_jvm_memory) it's set to 512 megabytes but it doesn't seem enough to run the build process from IntelliJ.
+Without this proposed property I could see this message in the Build console:
+```
+Expiring Daemon because JVM heap space is exhausted
+Daemon will be stopped at the end of the build after running out of JVM memory
+Expiring Daemon because JVM heap space is exhausted
+Expiring Daemon because JVM heap space is exhausted
+Expiring Daemon because JVM heap space is exhausted
+Daemon is stopping immediately JVM garbage collector thrashing and after running out of JVM memory
+```
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-02 17:58:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4206" class=".btn">#4206</a>
+            </td>
+            <td>
+                <b>
+                    Handle ConcurrentModificationException on ReattemptPendingPeerRequests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Gabriel Trintinalia <gabriel.trintinalia@consensys.net>
+
+## PR description
+A ConcurrentModificationExpetion happens when EthPeers reattempts to execute its Pending Requests and one  request causes a peer to disconnect.
+
+This PR logs the exception gracefully instead of letting the callback to handle the exception because:
+- If the peer is disconnected, the request  aborts.
+- The disconnection event will reattempts to execute any other Pending Requests that does not belong to the disconnected peer.
+
+Two test cases were created to test these assumption.
+
+## Fixed Issue(s)
+#3491
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-02 13:43:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4205" class=".btn">#4205</a>
             </td>
             <td>
@@ -867,44 +961,6 @@ fixes #4169
     </table>
     <div class="right-align">
         Created At 2022-07-26 18:30:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4170" class=".btn">#4170</a>
-            </td>
-            <td>
-                <b>
-                    Fixed desired gas limit setting in the reference tests service
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                ## PR description
-
-## Fixed Issue(s)
-FIxes #4167 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-26 15:47:51 +0000 UTC
     </div>
 </div>
 

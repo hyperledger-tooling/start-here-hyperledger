@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/590" class=".btn">#590</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/593" class=".btn">#593</a>
             </td>
             <td>
                 <b>
-                    some small bug fixes 
+                    Update Setup.md
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
                 
             </td>
             <td>
-                <nil>
+                Added Installation steps for PostgreSQL/IPFS/Node.
+
+Signed-off-by: mdxblocks <86596747+nandkprsiepl@users.noreply.github.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-25 17:21:37 +0000 UTC
+        Created At 2022-08-02 16:15:00 +0000 UTC
     </div>
 </div>
 

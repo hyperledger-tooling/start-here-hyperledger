@@ -91,29 +91,3 @@ Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1462" class=".btn">#1462</a>
-            </td>
-            <td>
-                <b>
-                    Add just recipe for fixing typos
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-triage</span><span class="chip">main</span>
-            </td>
-            <td>
-                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-26 17:01:59 +0000 UTC
-    </div>
-</div>
-
