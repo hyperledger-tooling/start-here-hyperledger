@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/947" class=".btn">#947</a>
+            </td>
+            <td>
+                <b>
+                    Allow seeds to be passed to external calls for program signing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This allows a program to sign for itself when calling another program. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-02 15:10:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/946" class=".btn">#946</a>
+            </td>
+            <td>
+                <b>
+                    Bump solang-parser version for crate publish
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Foundry would like a new version
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-02 15:03:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/945" class=".btn">#945</a>
             </td>
             <td>

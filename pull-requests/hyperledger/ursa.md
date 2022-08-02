@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/ursa
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/ursa/pull/205" class=".btn">#205</a>
+                PR <a href="https://github.com/hyperledger/ursa/pull/210" class=".btn">#210</a>
             </td>
             <td>
                 <b>
-                    Update CODEOWNERS
+                    Credential values json serialize/deserialize
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/ursa
                 
             </td>
             <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
+                * added cred vals serialization methods
+* added corresponding tests
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-29 15:15:36 +0000 UTC
+        Created At 2022-08-02 13:27:14 +0000 UTC
     </div>
 </div>
 

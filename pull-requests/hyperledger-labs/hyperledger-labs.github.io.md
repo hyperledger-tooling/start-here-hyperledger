@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/219" class=".btn">#219</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/220" class=".btn">#220</a>
             </td>
             <td>
                 <b>
-                    Hyperledger Fabric Builder for Kubernetes proposal
+                    Mosaique Decentralized Workflows
                 </b>
             </td>
         </tr>
@@ -27,14 +27,13 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                External builder enabling Hyperledger Fabric peers to launch containerized chaincode using Kubernetes.
+                Mosaique provides an approach to build decentralized workflows for permissioned blockchain applications. Mosaique has built-in governance workflows using mosaique itself. The systems uses state machines for the workflow logic and json templates to make those state machines data-driven. The goal is to allow non-programmers develop and analyze their decentralized workflows and to deploy without having to change smart contract code.
 
-Sponsor: @lehors 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-14 16:21:00 +0000 UTC
+        Created At 2022-08-02 14:34:14 +0000 UTC
     </div>
 </div>
 
