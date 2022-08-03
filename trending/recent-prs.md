@@ -1,13 +1,13 @@
 
-[534](https://github.com/hyperledger/aries-vcx/pull/534) Refactoring/separate handshake reuse
+[226](https://github.com/hyperledger/caliper-benchmarks/pull/226) Add path filters to benchmark workflow
 
-[279](https://github.com/hyperledger/aries-framework-go-ext/pull/279) chore: update to latest sidetree revision
+[37](https://github.com/hyperledger/firefly-perf-cli/pull/37) change default token connector to erc20_erc721
 
-[18](https://github.com/hyperledger-labs/weft/pull/18) Update install.sh
+[535](https://github.com/hyperledger/aries-vcx/pull/535) Inline value of recipient keys in ddo
 
-[3313](https://github.com/hyperledger/aries-framework-go/pull/3313) fix: change aries default wallet to didcommwallet.
+[82](https://github.com/hyperledger/homebrew-besu/pull/82) Release 22.7.0
 
-[17](https://github.com/hyperledger-labs/weft/pull/17) Updated install script
+[37](https://github.com/hyperledger-labs/fabric-machine/pull/37) Consolidates Fabric machine directory.
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

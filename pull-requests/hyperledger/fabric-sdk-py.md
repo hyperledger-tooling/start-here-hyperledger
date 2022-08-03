@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-py
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-py/pull/171" class=".btn">#171</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-py/pull/175" class=".btn">#175</a>
             </td>
             <td>
                 <b>
-                    Enable pip-audit
+                    Update to sphinx version
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-sdk-py
                 
             </td>
             <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
+                Some old affected versions of this package are vulnerable to Cross-site Scripting (XSS). Passing HTML from untrusted sources - even after sanitizing it - to one of jQuery's DOM manipulation methods (i.e. .html(), .append(), and others) may execute untrusted code.
+
+Signed-off-by: Bhaskar <ram@hacker.ind.in>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-21 22:09:01 +0000 UTC
+        Created At 2022-08-03 12:52:23 +0000 UTC
     </div>
 </div>
 

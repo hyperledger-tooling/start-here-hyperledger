@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
             </td>
             <td>
                 <b>
-                    [WIP] Add sample contracts
+                    Add sample contracts
                 </b>
             </td>
         </tr>
@@ -27,7 +27,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
                 
             </td>
             <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+                Add basic Dockerfile samples for Go, Java and Node.js
+
+Update build to publish samples
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
         </tr>
     </table>

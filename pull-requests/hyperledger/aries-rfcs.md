@@ -14,25 +14,25 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/747" class=".btn">#747</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/748" class=".btn">#748</a>
             </td>
             <td>
                 <b>
-                    WIP: Credential Extras
+                    Proposal of RFC for n-wise DID exchanging
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">WIP</span>
+                
             </td>
             <td>
-                Signed-off-by: Sam Curren <telegramsam@gmail.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-26 21:24:46 +0000 UTC
+        Created At 2022-08-03 14:45:44 +0000 UTC
     </div>
 </div>
 

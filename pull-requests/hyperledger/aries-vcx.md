@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/535" class=".btn">#535</a>
+            </td>
+            <td>
+                <b>
+                    Inline value of recipient keys in ddo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-03 17:29:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/534" class=".btn">#534</a>
             </td>
             <td>
@@ -168,7 +194,17 @@ Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
                 
             </td>
             <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+                - Previously, connection protocol state machine contained handling for trustping protocol. This doesn't make sense, because trustping is its own protocol and after connection is completed, trustping messages do not ever change state of connection itself.
+- With this PR, trustping is extracted out and is worked with on `Connection` handler level. This makes sense, because for trustping to happen, we only need to know the DDO of the counterparty - whether we are on invitee or inviter is irrelevant (more cases like this exist).
+- Changes are done in a way to improve `aries-vcx` API, but keeps `libvcx` same and backwards compatible 
+- On aries-vcx Connection handler level, we now distinguish 2 public functions 
+  - `update_state_with_message` - this is meant to progress the connection state
+  - `answer_message` (new) - this is meant to easily-answerable messages which do not progress connection state, such as if we receive `ping`, we can send response.
+- Overally this separates concerns, decreases duplication, improves composability
+
+Analogous changes will be done for `hadshake-reuse` and `handshake-reuse-accepted`, `query ` and `disclose`.
+
+Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
             </td>
         </tr>
     </table>
@@ -240,32 +276,6 @@ Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
     </table>
     <div class="right-align">
         Created At 2022-07-28 08:21:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/526" class=".btn">#526</a>
-            </td>
-            <td>
-                <b>
-                    Release 0.38.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-27 18:15:47 +0000 UTC
     </div>
 </div>
 

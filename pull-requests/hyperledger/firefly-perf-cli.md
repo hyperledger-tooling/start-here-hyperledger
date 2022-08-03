@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-perf-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/36" class=".btn">#36</a>
+                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/37" class=".btn">#37</a>
             </td>
             <td>
                 <b>
-                    [override-typo] fixing typo
+                    change default token connector to erc20_erc721
                 </b>
             </td>
         </tr>
@@ -27,42 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-perf-cli
                 
             </td>
             <td>
-                Signed-off-by: David Echelberger <eberger727@gmail.com>
+                 - now matches default connector in ff cli
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-03 15:24:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/35" class=".btn">#35</a>
-            </td>
-            <td>
-                <b>
-                    Fix prep.sh for docker-compose.yml and update getLogs.sh for 1 historical
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Fix `prep.sh` now that `docker-compose.yml` has moved back out of `init` to the base dir
-- Update `getLogs.sh` to:
-    - Get one historical log file for each container, as well as the base log
-    - Only get the last 100k lines from `ffperf.log`
-- Update `prep.sh` with the long-run defaults we have been using
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-05-03 12:38:03 +0000 UTC
+        Created At 2022-08-03 18:01:16 +0000 UTC
     </div>
 </div>
 

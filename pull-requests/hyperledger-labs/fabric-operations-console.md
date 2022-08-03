@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/284" class=".btn">#284</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/285" class=".btn">#285</a>
             </td>
             <td>
                 <b>
-                    Orderer Associate identity label change
+                    orderer associate admin identity label update
                 </b>
             </td>
         </tr>
@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
                 
             </td>
             <td>
-                #### Type of change
+                Signed-off-by: selvaprakash92 <selvaprakash92@gmail.com>
+
+#### Type of change
 
 <!--- What type of change? Pick one option and delete the others. -->
 
@@ -36,13 +38,13 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
 #### Description
 <!--- Describe your changes in detail, including motivation. -->
 
-Orderer Associate identity label change
+orderer associate admin identity label update
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-03 11:20:45 +0000 UTC
+        Created At 2022-08-03 14:28:57 +0000 UTC
     </div>
 </div>
 
@@ -196,79 +198,6 @@ A pending channel tile was listing the cluster names once per node, which is red
     </table>
     <div class="right-align">
         Created At 2022-07-27 19:09:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/279" class=".btn">#279</a>
-            </td>
-            <td>
-                <b>
-                    Join Channel Step 2 Next button validation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-<!--- Describe your changes in detail, including motivation. -->
-
-Join Channel Step 2 Next button validation
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-27 15:04:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/278" class=".btn">#278</a>
-            </td>
-            <td>
-                <b>
-                    use "bulk_add_components" for a systemless append
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-The systemless orderer append flow should use the `bulk_add_components` logic when onboarding and parsing deployer's create-orderer response. This is b/c deployer responds with an array of components and not an object for this route.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-27 13:50:26 +0000 UTC
     </div>
 </div>
 

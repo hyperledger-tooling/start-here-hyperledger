@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-machine
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-machine/pull/33" class=".btn">#33</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-machine/pull/37" class=".btn">#37</a>
             </td>
             <td>
                 <b>
-                    Update documentation
+                    Consolidates Fabric machine directory.
                 </b>
             </td>
         </tr>
@@ -27,12 +27,38 @@ permalink: /pull-requests/hyperledger-labs/fabric-machine
                 
             </td>
             <td>
-                Signed-off-by: Haris Javaid <79559099+harisj-xlnx@users.noreply.github.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-15 07:38:08 +0000 UTC
+        Created At 2022-08-03 16:52:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-machine/pull/36" class=".btn">#36</a>
+            </td>
+            <td>
+                <b>
+                    Bugfixes for Fabric v1.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-03 16:12:33 +0000 UTC
     </div>
 </div>
 
