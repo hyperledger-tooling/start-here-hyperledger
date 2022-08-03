@@ -50,7 +50,7 @@ permalink: /pull-requests/hyperledger/firefly
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">migration_consideration</span>
             </td>
             <td>
                 * Adds an E2E test for namespaces with only a `tokens` plugin
@@ -144,7 +144,7 @@ multi-tenant nodes alongside existing ones.
                 ~~In a chain with #915~~
 Depends on https://github.com/hyperledger/firefly-dataexchange-https/pull/62
 
-UPDATE: found a number of bugs while adding E2E tests - might make sense to simply review #918 (which contains these changes, additional fixes, and the E2E test)
+UPDATE: found a number of bugs while adding E2E tests - so #918 contains everything from this PR, some additional fixes, and an E2E test. The comments below are still relevant though.
 
 FireFly can now support many local namespaces that map to a single remote namespace (for multi-tenancy purposes). Each of these local namespaces may have their own "node" within FireFly, but they may all be sharing a single DX plugin. This change adds a "nodeName" qualifier to many of the dataexchange plugin calls, along with a specific implementation in the FFDX plugin code, to allow many nodes to exist behind a single DX.
 
@@ -269,38 +269,6 @@ https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/70
     </table>
     <div class="right-align">
         Created At 2022-07-28 17:56:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/911" class=".btn">#911</a>
-            </td>
-            <td>
-                <b>
-                    Properly handle remote->local namespace mapping in blockchain plugin
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In the "new world" (network version 2), the blockchain plugin (like other plugins) should only deal with the local namespace name.
-
-For network version 1, the (remote) namespace must be written on chain, so it's necessary to map back and forth from local to remote namespace name within the plugin. This does break the paradigm of keeping namespace mapping at a higher level only, but seems like the cleanest solution for old environments.
-
-Note that this also alters the subscription creation logic for V1 vs. V2. For V1, there will be a shared subscription for all namespaces on a given contract (which is how FireFly 1.0 already behaves - it was changed in #865, but it's actually easiest to keep the old behavior for V1 contracts). For V2+ only, there will be a separate subscription created per namespace.
-
-Includes a basic E2E test for namespace mapping.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-27 16:10:11 +0000 UTC
     </div>
 </div>
 

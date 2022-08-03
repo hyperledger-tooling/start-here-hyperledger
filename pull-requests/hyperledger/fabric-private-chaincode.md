@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/686" class=".btn">#686</a>
+            </td>
+            <td>
+                <b>
+                    Merge main into go-support-preview
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR get the go-support-preview up-to-date with main
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-03 16:37:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/683" class=".btn">#683</a>
             </td>
             <td>

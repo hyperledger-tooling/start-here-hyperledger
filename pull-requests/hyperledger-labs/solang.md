@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/951" class=".btn">#951</a>
+            </td>
+            <td>
+                <b>
+                    Add SPDX headers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Only for Rust files.
+
+Signed-off-by: Ry Jones <ry@linux.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-03 16:03:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/950" class=".btn">#950</a>
+            </td>
+            <td>
+                <b>
+                    Refactor builtin structs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR introduces a few changes to the builtin structs in Solang.
+
+1. `Type::Struct(usize)` has changed to `Type::Struct(StructType)` to encompass both user defined structs and builtin structs.
+2. Solana builtin structs are now held in a new data structure. We can easily retrieve their `StructDecl` data using `StructType::get_definition`. This works also for user defined structs.
+3. `codegen::Expression::ExternalFunction` has been eliminated, because I replaced it by a `StructLiteral` of `Type::Struct(StructType::ExternalFunction)`.
+4. External function was defined as a struct of `{address, selector}`. I changed it to `{selector, address}` to coincide with its encoding form.
+
+There was an idea to get rid of `Type::ExternalFunction` in favor of `Type::Struct(StructDecl::ExternalFunction)` in codegen, however, this would mean boilerplate code for converting types allowed in the AST to types allowed in codegen. In addition, a large refactoring in `cfg.vars` was needed to avoid mismatching types. Thus, this has not been done.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-03 12:40:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/949" class=".btn">#949</a>
             </td>
             <td>
