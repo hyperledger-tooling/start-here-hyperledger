@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/55" class=".btn">#55</a>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/60" class=".btn">#60</a>
             </td>
             <td>
                 <b>
-                    shrink unsafe block
+                    feat(js): wrapper JavaScript
                 </b>
             </td>
         </tr>
@@ -27,22 +27,19 @@ permalink: /pull-requests/hyperledger/aries-askar
                 
             </td>
             <td>
-                In this function you use the unsafe keyword for some safe expressions. However, I found that only 1 function are real unsafe operations (see the list below). 
+                - used cbindgen to create a header file
+- Nodejs wrapper + tests
+- React Native wrapper (for now without example app)
+- Build workflow for ios and android
 
-We need to mark unsafe operations more precisely using unsafe keyword. Keeping unsafe blocks small can bring many benefits. For example, when mistakes happen, we can locate any errors related to memory safety  within an unsafe block. This is the balance between Safe and Unsafe Rust. The separation is designed to make using Safe Rust as ergonomic as possible, but requires extra effort and care when writing Unsafe Rust. 
-**Real unsafe operation list:**
-1. the from_raw() function(unsafe function)
+This PR contains a lot of `@TS-ignores` and those will be fixed in the near future as a seperate PR. I mainly wanted to merge the working version and do cleanup afterwards so integration can happen faster. 
 
-Hope this PR can help you.
-Best regards.
-**References**
-https://doc.rust-lang.org/nomicon/safe-unsafe-meaning.html 
-https://doc.rust-lang.org/book/ch19-01-unsafe-rust.html 
+@andrewwhitehead is there any strategy for a PR like this? Its 18.7k lines with quite a bit of wrapper repitition.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-23 05:49:20 +0000 UTC
+        Created At 2022-08-01 09:00:19 +0000 UTC
     </div>
 </div>
 

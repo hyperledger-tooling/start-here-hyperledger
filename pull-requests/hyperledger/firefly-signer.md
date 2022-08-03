@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-signer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-signer/pull/13" class=".btn">#13</a>
+                PR <a href="https://github.com/hyperledger/firefly-signer/pull/15" class=".btn">#15</a>
             </td>
             <td>
                 <b>
-                    Fix oneOf FFI param schema
+                    Add function to get ABI constructor
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-signer
                 
             </td>
             <td>
-                After attempting to update FireFly Core to use the new version of this library, I realized the `oneOf` wasn't implemented quite correctly, given the JSON Schema library that we're using here. This PR corrects that.
+                Currently, constructors do not show up in the `Functions()` getter. This adds a public function to get the constructor from an ABI, which is needed by EVM connect for contract deployment.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-28 15:36:27 +0000 UTC
+        Created At 2022-08-02 18:24:11 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-ui
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/186" class=".btn">#186</a>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/188" class=".btn">#188</a>
             </td>
             <td>
                 <b>
-                    Fix status, org, and node parsing with latest core
+                    Update My Node and Orgs to honor selected namespace
                 </b>
             </td>
         </tr>
@@ -27,12 +27,38 @@ permalink: /pull-requests/hyperledger/firefly-ui
                 
             </td>
             <td>
-                Update UI to work with changes from https://github.com/hyperledger/firefly/pull/804
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-06 16:14:47 +0000 UTC
+        Created At 2022-07-28 15:22:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/187" class=".btn">#187</a>
+            </td>
+            <td>
+                <b>
+                    Fix namespace and status types
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-28 03:41:16 +0000 UTC
     </div>
 </div>
 

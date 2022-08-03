@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/270" class=".btn">#270</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/278" class=".btn">#278</a>
             </td>
             <td>
                 <b>
-                    fix: switch from math/rand to crypto/rand
+                    chore: Update sidetree-core (rename also-known-as patches)
                 </b>
             </td>
         </tr>
@@ -27,12 +27,76 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
                 
             </td>
             <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+                Update sidetree-core and orb
+
+Closes #277
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-29 18:58:41 +0000 UTC
+        Created At 2022-07-29 19:41:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/276" class=".btn">#276</a>
+            </td>
+            <td>
+                <b>
+                    feat: Add support for AlsoKnownAs to Orb VDR
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add support for AlsoKnownAs to Orb VDR
+
+Closes #274
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-28 16:39:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/275" class=".btn">#275</a>
+            </td>
+            <td>
+                <b>
+                    feat: Add support for AlsoKnownAs to Sidetree VDR
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add AlsoKnownAs support to Sidetree VDR
+
+Closes #273
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-28 14:30:27 +0000 UTC
     </div>
 </div>
 

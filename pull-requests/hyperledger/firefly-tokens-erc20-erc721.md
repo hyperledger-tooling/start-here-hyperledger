@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/67" class=".btn">#67</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/70" class=".btn">#70</a>
             </td>
             <td>
                 <b>
-                    optimize ERC165 lookups for custom URI's 
+                    Scrub "namespace" params in favor of more generic data
                 </b>
             </td>
         </tr>
@@ -27,38 +27,18 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
                 
             </td>
             <td>
-                in a chain with #66 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-12 14:18:39 +0000 UTC
-    </div>
-</div>
+                Partially reverts #59 because it was broken, but also makes the interface
+a bit more generic and extensible.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/66" class=".btn">#66</a>
-            </td>
-            <td>
-                <b>
-                    add `baseTokenUri` param to ERC721 hardhat deploy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Deploys ERC721WithData with `baseTokenUri` set to an empty string, so the contract will use the default base URI of `firefly://token/`
+Rather than dictating a namespace param, allow FireFly to pass a
+string of data during pool activation, which (if possible) will be stored
+locally and returned on all transfer/approval events from that pool. The
+behavior is optional and not guaranteed by the connector.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-12 09:47:24 +0000 UTC
+        Created At 2022-07-28 21:47:37 +0000 UTC
     </div>
 </div>
 

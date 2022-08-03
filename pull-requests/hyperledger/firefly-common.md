@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/24" class=".btn">#24</a>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/28" class=".btn">#28</a>
             </td>
             <td>
                 <b>
-                    Auth plugin framework
+                    Add global config entries to common (so not required in other microservices
                 </b>
             </td>
         </tr>
@@ -27,17 +27,43 @@ permalink: /pull-requests/hyperledger/firefly-common
                 
             </td>
             <td>
-                This PR adds the auth plugin framework and a simple basic auth plugin to the common library which can be used by each FireFly microservice. In the common library, it is applied at the HTTP listener level. However, other services can use the Authorize function however they need. For example, FireFly Core will also use the same function at a namespace level on HTTP requests, and WebSocket messages.
-
-The basic auth plugin expects a `passwordfile` config key to be set, which should point to a file created with htpasswd using bcrypt hashed passwords. For example, you can create such a file by running:
-```
-htpasswd -cB allowed_users firefly
-```
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-08 19:14:52 +0000 UTC
+        Created At 2022-08-02 02:17:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/27" class=".btn">#27</a>
+            </td>
+            <td>
+                <b>
+                    Utility for serializing structs into a JSON Map (or fftypes.JSONObject)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This utility lets you use the standard JSON serialization policy for fields in go structs, to write fields into a map.
+
+This has two uses in FireFly to avoid horrible JSON marshal/unmarshal loops:
+
+1. Combining multiple Go structures from plugins into an extensible JSON body - required in FFTM here https://github.com/hyperledger/firefly-transaction-manager/pull/14
+2. Converting from Go structs to an `fftypes.JSONObject`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-01 13:02:37 +0000 UTC
     </div>
 </div>
 

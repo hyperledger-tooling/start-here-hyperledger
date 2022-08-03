@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/151" class=".btn">#151</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/153" class=".btn">#153</a>
             </td>
             <td>
                 <b>
-                    Add new traits and structs for the new Publisher design
+                    Update the pool module feature guard
                 </b>
             </td>
         </tr>
@@ -27,25 +27,40 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
                 
             </td>
             <td>
-                The publisher is in charge of returning the next item to publish
-to the Supervisor and consensus. It will return the Artifact to
-agree upon, for example a block or a batch execution result.
-The publisher needs to be able to continue to publish until it is
-told to stop. The work may be canceled if the building Artifact
-will no longer be valid, for example if the current chain head has changed.
-
-The following design is done with the goal of defining Rust structs that
-takes a set of traits. These traits would allow the same publisher structs
- to be used in any situation (e.i. Scabbard or Sawtooth).
-
-A supervisor will use a PublishFactory that will be used to start
-the execution. Once started, a PublishHandle is returned that is used
-to finish or cancel the publishing.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-08 14:57:35 +0000 UTC
+        Created At 2022-08-02 21:49:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/152" class=".btn">#152</a>
+            </td>
+            <td>
+                <b>
+                    Import transact source
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR imports the transact codebase into the sawtooth library.
+
+Each original transact feature is maintained, but prefixed with `"transact-"`, as is the code maintained in a `sawtooth::transact` submodule.  The exception to this being `transact::error` and `transact::protos` as these duplicate what's already in sawtooth.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-28 16:30:42 +0000 UTC
     </div>
 </div>
 
