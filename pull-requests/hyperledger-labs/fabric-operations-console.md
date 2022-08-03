@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/284" class=".btn">#284</a>
+            </td>
+            <td>
+                <b>
+                    Orderer Associate identity label change
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+<!--- Describe your changes in detail, including motivation. -->
+
+Orderer Associate identity label change
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-03 11:20:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/283" class=".btn">#283</a>
             </td>
             <td>
@@ -233,79 +269,6 @@ The systemless orderer append flow should use the `bulk_add_components` logic wh
     </table>
     <div class="right-align">
         Created At 2022-07-27 13:50:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/277" class=".btn">#277</a>
-            </td>
-            <td>
-                <b>
-                    Generate Genesis Page Style updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-<!--- Describe your changes in detail, including motivation. -->
-
-- UI alignment fix
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-26 15:06:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/276" class=".btn">#276</a>
-            </td>
-            <td>
-                <b>
-                    fix route and body for appending to systemless os
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-#### Description
-Fixes the route and body to use for the request to append a new orderer node to an os without a system channel.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-26 14:23:39 +0000 UTC
     </div>
 </div>
 

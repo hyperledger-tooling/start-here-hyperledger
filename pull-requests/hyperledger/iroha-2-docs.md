@@ -92,29 +92,3 @@ Signed-off-by: 6r1d <vic.6r1d@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/91" class=".btn">#91</a>
-            </td>
-            <td>
-                <b>
-                    [docs] Update JS examples
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                After discussing JS connection with Dmitry, I feel like the examples need to be updated.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-27 12:08:11 +0000 UTC
-    </div>
-</div>
-

@@ -97,29 +97,3 @@ Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/40" class=".btn">#40</a>
-            </td>
-            <td>
-                <b>
-                    Adding changes for auto-cert renewal
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: asararatnakar <asara.ratnakar@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-26 13:38:23 +0000 UTC
-    </div>
-</div>
-

@@ -76,10 +76,14 @@ permalink: /pull-requests/hyperledger/besu-native
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
-                Derived from the BLAKE2 reference source code (https://github.com/BLAKE2/BLAKE2)
+                For Linux on x86_64 and aarch64 for now
+
+Derived from the BLAKE2 reference source code (https://github.com/BLAKE2/BLAKE2)
+
+fixes #19 
             </td>
         </tr>
     </table>

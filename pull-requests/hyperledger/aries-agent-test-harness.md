@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/539" class=".btn">#539</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/541" class=".btn">#541</a>
             </td>
             <td>
                 <b>
-                    [#538] Add general request logging for agent commands
+                    [#530] Add script for improved feature/scenario display
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-27 07:32:09 +0000 UTC
+        Created At 2022-08-03 11:18:09 +0000 UTC
     </div>
 </div>
 
