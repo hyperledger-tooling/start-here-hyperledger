@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/besu-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/71" class=".btn">#71</a>
+            </td>
+            <td>
+                <b>
+                    Add github build to replace circleCI build
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-03 06:15:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/70" class=".btn">#70</a>
+            </td>
+            <td>
+                <b>
+                    fix the dependency to the lib to a specific commit, d5590ef5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-03 05:05:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-native/pull/69" class=".btn">#69</a>
             </td>
             <td>

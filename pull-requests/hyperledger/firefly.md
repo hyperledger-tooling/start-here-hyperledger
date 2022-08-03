@@ -84,6 +84,12 @@ permalink: /pull-requests/hyperledger/firefly
                 In a chain with #916
 
 Includes additional fixes for separating messages/data on different namespaces.
+
+This also includes changes to the NextPins table to add a namespace column.
+While it's not possible to populate namespace on any existing entries, we make a best
+effort at migration by setting the namespace every time a row is updated. This will allow
+legacy environments to migrate over time, as long as they don't immediately add
+multi-tenant nodes alongside existing ones.
             </td>
         </tr>
     </table>

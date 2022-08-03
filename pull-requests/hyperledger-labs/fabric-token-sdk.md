@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/321" class=".btn">#321</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/323" class=".btn">#323</a>
             </td>
             <td>
                 <b>
-                    Testing workflow integration
+                    Issue317 warnings 1
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-02 11:27:55 +0000 UTC
+        Created At 2022-08-03 06:06:07 +0000 UTC
     </div>
 </div>
 

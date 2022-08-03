@@ -29,6 +29,8 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
             <td>
                 ... also removes the last vestige of a dependency on FF Core 🪶 
 
+Updates the reply processing to emit all updates - note that FF core will need to process a new `header.type` of `TransactionUpdate` (as well as `TransactionFailure` and `TransactionSuccess`).
+
 I've merged #15 into this branch
             </td>
         </tr>

@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/bevel
             </td>
             <td>
                 <b>
-                    feat(shared) Fixed network deletion for fluxv2
+                    [shared] Fixed network deletion for fluxv2
                 </b>
             </td>
         </tr>
