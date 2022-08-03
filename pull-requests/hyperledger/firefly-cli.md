@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/197" class=".btn">#197</a>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/198" class=".btn">#198</a>
             </td>
             <td>
                 <b>
-                    Use host mount instead of volume for firefly.core.yml
+                    lowercase `firstevent` json for ffcore parsing
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-cli
                 
             </td>
             <td>
-                This allows the file to be easily modified outside of the container.
+                until @awrichar's changes in https://github.com/spf13/viper/pull/1387 are released, `firstEvent` must be lowercase for ff core to parse successfully. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-13 20:21:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/196" class=".btn">#196</a>
-            </td>
-            <td>
-                <b>
-                    Spelling tweaks for non-multiparty features
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-07 15:02:34 +0000 UTC
+        Created At 2022-07-27 14:20:18 +0000 UTC
     </div>
 </div>
 

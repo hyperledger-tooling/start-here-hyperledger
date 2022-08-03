@@ -14,6 +14,51 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4209" class=".btn">#4209</a>
+            </td>
+            <td>
+                <b>
+                    Fix post-merge fast sync regression
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span>
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #4208
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-02 21:23:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4207" class=".btn">#4207</a>
             </td>
             <td>
@@ -71,7 +116,7 @@ Daemon is stopping immediately JVM garbage collector thrashing and after running
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: Gabriel Trintinalia <gabriel.trintinalia@consensys.net>
@@ -118,7 +163,7 @@ Two test cases were created to test these assumption.
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: garyschulte <garyschulte@gmail.com>
@@ -164,7 +209,7 @@ bugfix for #4172
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: garyschulte <garyschulte@gmail.com>
@@ -487,7 +532,7 @@ fixes #4172
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 
@@ -791,176 +836,6 @@ fixes  Hive test `consensus/checkGasLimit_London`
     </table>
     <div class="right-align">
         Created At 2022-07-27 11:54:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4175" class=".btn">#4175</a>
-            </td>
-            <td>
-                <b>
-                    Add mechanism to retrieve missing blocks 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                Signed-off-by: Gabriel Trintinalia <gabriel.trintinalia@consensys.net>
-
-## PR description
-Add mechanism to retrieve missing blocks when a pending block is saved
-
-## Fixed Issue(s)
-#3955
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-27 00:12:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4174" class=".btn">#4174</a>
-            </td>
-            <td>
-                <b>
-                    Add ZeroBaseFeeMarket to support post-London free gas networks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This allows private networks already using London fee market to start using free gas. Previously, since https://github.com/hyperledger/besu/pull/4003, it was only possible to start a free gas London network from genesis.
-
-Details on https://github.com/hyperledger/besu/issues/4061
-
-Fixes https://github.com/hyperledger/besu/issues/4061
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-26 22:53:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4173" class=".btn">#4173</a>
-            </td>
-            <td>
-                <b>
-                    Print warning for deprecated testnets
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">doc-change-required</span>
-            </td>
-            <td>
-                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Prints a deprecation warning for Ropsten, Kiln and Rinkeby
-
-## Fixed Issue(s)
-fixes #4163
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-The documentation should mention that Ropsten, Rinkeby and Kiln are deprecated
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-26 22:03:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4171" class=".btn">#4171</a>
-            </td>
-            <td>
-                <b>
-                    4169 dont recurse
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Replaces recursive implementation of isDescendentOf with a loop.
-
-## Fixed Issue(s)
-fixes #4169 
-
-## Documentation
-
-- [X] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-26 18:30:11 +0000 UTC
     </div>
 </div>
 

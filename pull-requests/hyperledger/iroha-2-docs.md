@@ -14,11 +14,38 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/80" class=".btn">#80</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/94" class=".btn">#94</a>
             </td>
             <td>
                 <b>
-                    Fix docker-compose command
+                    [docs] #79: Add block queries
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">documentation</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                Addresses #79.
+I am not sure if we should merge this before we figure out the versioning strategy (#89) for the tutorial.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-02 05:30:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/93" class=".btn">#93</a>
+            </td>
+            <td>
+                <b>
+                    [docs] update JS code samples
                 </b>
             </td>
         </tr>
@@ -27,29 +54,67 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
                 
             </td>
             <td>
-                While working on https://github.com/hyperledger/iroha/issues/1466, I've noted a "docker compose command". I don't think [Compose](https://docs.docker.com/compose/) is a part of default Docker distribution.
+                When working through the tutorial I've found some issues with code samples, I'm sharing updates that should work with recent iroha2. `roses#wonderland` are no longer mintable for alice (since she didn't create them, I think I saw some issue regarding this on the main repo), so I've changed it to `time` with a note that proper mintable type must be set.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-29 09:19:10 +0000 UTC
+    </div>
+</div>
 
-If I will try to run it with just `docker` command, I'll see this:
-
-```bash
-$ docker compose up
-docker: 'compose' is not a docker command.
-See 'docker --help'
-```
-
-Versions:
-
-```
-Docker version 20.10.16, build aa7e414fdc
-docker-compose version 1.29.2, build 5becea4c
-```
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/92" class=".btn">#92</a>
+            </td>
+            <td>
+                <b>
+                    [docs] Add a Kagami note
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I'd like to add a note on `kagami` tool to the account registration description.
+Related issue: https://github.com/hyperledger/iroha-2-docs/issues/82
 
 Signed-off-by: 6r1d <vic.6r1d@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-08 15:26:36 +0000 UTC
+        Created At 2022-07-28 05:37:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/91" class=".btn">#91</a>
+            </td>
+            <td>
+                <b>
+                    [docs] Update JS examples
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                After discussing JS connection with Dmitry, I feel like the examples need to be updated.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-07-27 12:08:11 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/92" class=".btn">#92</a>
+                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/95" class=".btn">#95</a>
             </td>
             <td>
                 <b>
-                    provide message type in *MessagBody utils
+                    fixing broken links
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
                 
             </td>
             <td>
-                Signed-off-by: Alex Shorsher <alex.shorsher@kaleido.io>
+                Signed-off-by: Chengxuan Xing <xcxncu@gmail.com>
+
+Fixing the broken links for sample smart contract and deployment
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-27 15:59:13 +0000 UTC
+        Created At 2022-07-31 22:56:40 +0000 UTC
     </div>
 </div>
 

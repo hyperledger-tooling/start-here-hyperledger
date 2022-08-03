@@ -14,11 +14,93 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/901" class=".btn">#901</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/920" class=".btn">#920</a>
             </td>
             <td>
                 <b>
-                    Only start each plugin once
+                    add E2E test for token plugins with remote names
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                in a chain with #919 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-02 22:11:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/919" class=".btn">#919</a>
+            </td>
+            <td>
+                <b>
+                    E2E test for tokens only namespaces
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Adds an E2E test for namespaces with only a `tokens` plugin
+* Moves `keynormalization` config under `namespaces.predefined[].assets.manager.keynormalization`
+* Adds common for code adding namespaces, resetting firefly, etc. to a common package
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-02 18:33:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/918" class=".btn">#918</a>
+            </td>
+            <td>
+                <b>
+                    Add multi-tenancy E2E test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In a chain with #916
+
+Includes additional fixes for separating messages/data on different namespaces.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-02 17:55:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/917" class=".btn">#917</a>
+            </td>
+            <td>
+                <b>
+                    Add admin and config fields to E2E testState
                 </b>
             </td>
         </tr>
@@ -32,7 +114,7 @@ permalink: /pull-requests/hyperledger/firefly
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-13 14:56:18 +0000 UTC
+        Created At 2022-08-02 12:57:04 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +122,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/900" class=".btn">#900</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/916" class=".btn">#916</a>
             </td>
             <td>
                 <b>
-                    Tokens plugins now support a remote name
+                    Add node-specific suffix to DX endpoint "id"
                 </b>
             </td>
         </tr>
@@ -53,19 +135,24 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                 - introduce a new `remotename` config key for tokens plugins
- - `remotename` must be unique
- - If not provided, `remotename` will default to the plugin `name`
- - `remotename` should never be stored in the local database.
+                ~~In a chain with #915~~
+Depends on https://github.com/hyperledger/firefly-dataexchange-https/pull/62
 
-The definitions package now utilizes the `remotename` of tokens plugins. `defsender` will replace the local token plugin name with the remote name before broadcasting the definition. The `defhandler` will then replace the `remotename` with the local name after receiving a broadcast. 
+UPDATE: found a number of bugs while adding E2E tests - might make sense to simply review #918 (which contains these changes, additional fixes, and the E2E test)
 
-in a chain with #896 
+FireFly can now support many local namespaces that map to a single remote namespace (for multi-tenancy purposes). Each of these local namespaces may have their own "node" within FireFly, but they may all be sharing a single DX plugin. This change adds a "nodeName" qualifier to many of the dataexchange plugin calls, along with a specific implementation in the FFDX plugin code, to allow many nodes to exist behind a single DX.
+
+Implementation outline:
+* For newly created nodes, the FFDX connector will append a suffix to the member ID advertised by the plugin before storing or broadcasting it. This means each node will have a unique verifier ID even if they are sharing a DX member ID and certificate. The FFDX connector and FFDX plugin have agreed on `/` as a separator.
+* The FFDX connector will ignore this suffix when routing messages (paying attention only to the member ID before the separator) - but will pass the full recipient string for further routing by FireFly on the far end.
+* FireFly will use the combination of the received message's remote namespace and recipient ID to route it uniquely to a single event manager.
+
+Should remain fully backwards compatible for nodes that were already broadcast/stored in the database with a non-suffixed peer ID.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-12 20:37:58 +0000 UTC
+        Created At 2022-08-01 17:44:54 +0000 UTC
     </div>
 </div>
 
@@ -73,11 +160,11 @@ in a chain with #896
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/899" class=".btn">#899</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/915" class=".btn">#915</a>
             </td>
             <td>
                 <b>
-                    Add E2E tests for contract termination
+                    Allow multiple copies of things on different namespaces
                 </b>
             </td>
         </tr>
@@ -86,24 +173,16 @@ in a chain with #896
                 
             </td>
             <td>
-                Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12)
+                Everything that can be sent (messages, data, all definition types) needs to only be unique within a namespace. The IDs can no longer be considered globally unique, and the database needs to reflect that.
 
-Adds a new E2E test which dynamically:
-* deploys two instances of the FireFly multiparty contract
-* dynamically adds a new namespace to the config of both nodes
-* restarts both nodes to read the config
-* sends one message on the first contract
-* performs a network migration
-* sends one message on the new contract
+Move "node" configuration to the "multiparty" section (next to "org"), as different namespaces may want to advertise different names for their local node.
 
-Depends on https://github.com/hyperledger/firefly-cli/pull/197
-
-Also includes significant cleanup of the E2E REST client library, bringing it a few steps closer to being exportable as an actual Go client SDK.
+Clean up operation handling in DX to make it consistent with other plugins.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-12 19:32:00 +0000 UTC
+        Created At 2022-07-30 17:35:10 +0000 UTC
     </div>
 </div>
 
@@ -111,46 +190,11 @@ Also includes significant cleanup of the E2E REST client library, bringing it a 
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/898" class=".btn">#898</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/914" class=".btn">#914</a>
             </td>
             <td>
                 <b>
-                    Strip down namespace object and clean up APIs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">migration_consideration</span>
-            </td>
-            <td>
-                Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12)
-~~In a chain with #895~~
-
-Remove all remaining functionality related to broadcasting namespaces. It was already broken from previous commits, but this is now to confirm:
-- any previously-broadcast namespaces that are not spelled out in the config will cease to function in the next release
-- in the future, if we want to add back dynamic namespace capability, it will probably take the form of editing the config file and adding a local API that reloads the config dynamically
-
-Clean up the `/namespaces/{ns}` and `/namespaces/{ns}/status` APIs to be a little more organized.
-
-Clean up all namespace database operations to happen from Namespace Manager. Pass a pointer to the namespace object to any other managers that need it.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-12 00:05:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/896" class=".btn">#896</a>
-            </td>
-            <td>
-                <b>
-                    Support tokens only namespaces
+                    Fix test coverage gaps in operations manager
                 </b>
             </td>
         </tr>
@@ -159,15 +203,12 @@ Clean up all namespace database operations to happen from Namespace Manager. Pas
                 
             </td>
             <td>
-                Now, multiparty-disabled namespaces can run without a blockchain plugin:
- * All contract routes will be disabled
- * Identity normalizations that rely on a blockchain plugin will either default to the specified input/default key or fail
- * `aggregator` is not started within `EventManager`
+                Introduced by #911
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-11 14:40:34 +0000 UTC
+        Created At 2022-07-29 13:44:51 +0000 UTC
     </div>
 </div>
 
@@ -175,11 +216,11 @@ Clean up all namespace database operations to happen from Namespace Manager. Pas
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/895" class=".btn">#895</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/913" class=".btn">#913</a>
             </td>
             <td>
                 <b>
-                    Map namespace between local name and remote name
+                    Use "poolData" instead of "namespace" in fftokens
                 </b>
             </td>
         </tr>
@@ -188,21 +229,14 @@ Clean up all namespace database operations to happen from Namespace Manager. Pas
                 
             </td>
             <td>
-                Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12)
-
-Orchestrator is now aware of the namespace local name _and_ remote name, as are some of the managers. Plugins are intentionally not aware of the mapping, but are passed the local or remote namespace names as appropriate.
-
-The only two items which _record_ a remote namespace name are `Message` and `Group`. These now have an additional `localNamespace` field, which will be populated with the local namespace, while the existing `namespace` field will be populated with the remote namespace (because it is part of the hash in both of these cases, it must remain the same for all members). In addition, `Batch` and `Data` items will be populated with the remote namespace name for network transit (but will be stored with the local namespace name only). Beyond these, every other existing object simply continues to populate its `namespace` with a local namespace name.
-
-Some more notes on how the local namespace is filled for other items:
-* All definition types (datatypes, contract FFIs/APIs, identities, and token pools) are transmitted _without_ a namespace filled. Each receiving node will map the definition based on the enclosing message's namespace, and then will fill in the local namespace name before storing the item.
-* Token transfers and approvals continue to inherit their namespace from the associated token pool.
-* Contract listeners are still local-only, and blockchain events tied to them will inherit their namespace.
+                Depends on:
+https://github.com/hyperledger/firefly-tokens-erc1155/pull/84
+https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/70
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-08 20:39:29 +0000 UTC
+        Created At 2022-07-28 21:51:55 +0000 UTC
     </div>
 </div>
 
@@ -210,11 +244,11 @@ Some more notes on how the local namespace is filled for other items:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/894" class=".btn">#894</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/912" class=".btn">#912</a>
             </td>
             <td>
                 <b>
-                    Add basic auth support
+                    Update UI version
                 </b>
             </td>
         </tr>
@@ -223,34 +257,12 @@ Some more notes on how the local namespace is filled for other items:
                 
             </td>
             <td>
-                This PR adds basic auth support for:
-
-- HTTP listeners
-- All HTTP requests within a namespace (including WebSocket upgrades)
-- `start` requests over an open WebSocket connection
-
-Example config:
-
-```
-plugins:
-  auth:
-  - name: basicauth
-    type: basic
-      basic:
-        passwordfile: /etc/firefly/allowed_users
-```
-Where `passwordfile: /etc/firefly/allowed_users` is a file created with `htpasswd` using bcrypt hashed passwords. For example, you can create such a file by running: 
-```
-htpasswd -cB allowed_users firefly
-```
-
-Prerequisites for merge:
-- [x] https://github.com/hyperledger/firefly-common/pull/24
+                UI is fully functional again with latest mainline code.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-08 19:19:43 +0000 UTC
+        Created At 2022-07-28 17:56:06 +0000 UTC
     </div>
 </div>
 
@@ -258,11 +270,11 @@ Prerequisites for merge:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/893" class=".btn">#893</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/911" class=".btn">#911</a>
             </td>
             <td>
                 <b>
-                    Add sqlite to Docker image
+                    Properly handle remote->local namespace mapping in blockchain plugin
                 </b>
             </td>
         </tr>
@@ -271,96 +283,18 @@ Prerequisites for merge:
                 
             </td>
             <td>
-                It's helpful to have this handy when debugging database contents.
+                In the "new world" (network version 2), the blockchain plugin (like other plugins) should only deal with the local namespace name.
+
+For network version 1, the (remote) namespace must be written on chain, so it's necessary to map back and forth from local to remote namespace name within the plugin. This does break the paradigm of keeping namespace mapping at a higher level only, but seems like the cleanest solution for old environments.
+
+Note that this also alters the subscription creation logic for V1 vs. V2. For V1, there will be a shared subscription for all namespaces on a given contract (which is how FireFly 1.0 already behaves - it was changed in #865, but it's actually easiest to keep the old behavior for V1 contracts). For V2+ only, there will be a separate subscription created per namespace.
+
+Includes a basic E2E test for namespace mapping.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-08 16:19:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/892" class=".btn">#892</a>
-            </td>
-            <td>
-                <b>
-                    Fix logs from E2E test invocation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Disable parallelization and reduce test timeout to 1m.
-
-This re-enables streaming logs during E2E runs (which is disabled by default when running suites in parallel). No real impact since our test jobs are already divided such that they run 1 suite per job.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-08 16:18:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/891" class=".btn">#891</a>
-            </td>
-            <td>
-                <b>
-                    Custom contract subscriptions now utilize namespaces
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">migration_consideration</span>
-            </td>
-            <td>
-                Now, both ethconnect and fabconnect subscription names contain the namespace name. This means that events will now be delivered only to the callback handler for that namespace, instead of every single callback handler. Older subscriptions will still be delivered to all handlers. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-07 22:45:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/890" class=".btn">#890</a>
-            </td>
-            <td>
-                <b>
-                    Change default contracts to network version 2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Part of [FIR-12](https://github.com/hyperledger/firefly-fir/pull/12)
-
-Split out separate "pinBatch" and "networkAction" methods in the V2 contract, and make it the default. Adjust the blockchain plugins to handle both versions of the contract cleanly.
-
-Also fix some bugs found along the way with network actions being broken.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-07 18:32:55 +0000 UTC
+        Created At 2022-07-27 16:10:11 +0000 UTC
     </div>
 </div>
 

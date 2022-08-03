@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/111" class=".btn">#111</a>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/114" class=".btn">#114</a>
             </td>
             <td>
                 <b>
-                    Update tx-example.py
+                    Fix CI errors
                 </b>
             </td>
         </tr>
@@ -27,14 +27,64 @@ permalink: /pull-requests/hyperledger/iroha-python
                 
             </td>
             <td>
-                Added correction to properly work with libursa.
-
-Signed-off-by: funkytorino <jmmartinezsf@gmail.com>
+                Signed-off-by: Artemii Gerasimovich <gerasimovich@soramitsu.co.jp>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-23 14:00:23 +0000 UTC
+        Created At 2022-08-03 01:14:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/113" class=".btn">#113</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Codegen refactor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Nothing to see here yet
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-03 00:45:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/112" class=".btn">#112</a>
+            </td>
+            <td>
+                <b>
+                    Fix CI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Artemii Gerasimovich <gerasimovich@soramitsu.co.jp>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-02 20:38:29 +0000 UTC
     </div>
 </div>
 

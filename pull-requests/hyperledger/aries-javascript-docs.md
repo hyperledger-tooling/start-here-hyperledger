@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/59" class=".btn">#59</a>
+                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/67" class=".btn">#67</a>
             </td>
             <td>
                 <b>
-                    Minor fixes to docs after running through in node
+                    docs: fix links to Node and React Native installation pages
                 </b>
             </td>
         </tr>
@@ -27,92 +27,14 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
                 
             </td>
             <td>
-                <nil>
+                I tried it locally and it worked.
+
+I also removed the mention of NodeJS as a prerequisite for mobile app development because that's already part of React Native prerequisites.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-13 11:09:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/57" class=".btn">#57</a>
-            </td>
-            <td>
-                <b>
-                    chore: add documentation request form
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-08 08:29:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/55" class=".btn">#55</a>
-            </td>
-            <td>
-                <b>
-                    feat: add social preview
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ana Goessens <ana@animo.id>
-
-closes #53 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-07 19:17:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/54" class=".btn">#54</a>
-            </td>
-            <td>
-                <b>
-                    docs: accessing rust logs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Niall Shaw [niall.shaw@absa.africa](mailto:niall.shaw@absa.africa)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-07 06:34:22 +0000 UTC
+        Created At 2022-07-31 11:32:59 +0000 UTC
     </div>
 </div>
 

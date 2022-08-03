@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/64" class=".btn">#64</a>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/69" class=".btn">#69</a>
             </td>
             <td>
                 <b>
-                    Prepare for next release
+                    Native implementation of the Blake2bf compress function for EIP152
                 </b>
             </td>
         </tr>
@@ -27,14 +27,40 @@ permalink: /pull-requests/hyperledger/besu-native
                 
             </td>
             <td>
-                Prepare for next release, 0.5.1-SNAPSHOT
+                Derived from the BLAKE2 reference source code (https://github.com/BLAKE2/BLAKE2)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-02 18:52:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/68" class=".btn">#68</a>
+            </td>
+            <td>
+                <b>
+                    update rust versions to 1.62.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update rust versions to 1.62.1 so that ipa-multipoint can compile.
 
 Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-17 20:30:51 +0000 UTC
+        Created At 2022-08-02 16:42:13 +0000 UTC
     </div>
 </div>
 

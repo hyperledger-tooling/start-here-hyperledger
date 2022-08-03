@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/83" class=".btn">#83</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/84" class=".btn">#84</a>
             </td>
             <td>
                 <b>
-                    back port of custom URI support for non-fungible tokens
+                    Scrub "namespace" params in favor of more generic data
                 </b>
             </td>
         </tr>
@@ -27,12 +27,18 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
                 
             </td>
             <td>
-                back port of https://github.com/hyperledger/firefly-tokens-erc1155/pull/80, https://github.com/hyperledger/firefly-tokens-erc1155/pull/81, and https://github.com/hyperledger/firefly-tokens-erc1155/pull/82
+                Partially reverts #78 because it was broken, but also makes the interface
+a bit more generic and extensible.
+
+Rather than dictating a namespace param, allow FireFly to pass a
+string of data during pool activation, which (if possible) will be stored
+locally and returned on all transfer/approval events from that pool. The
+behavior is optional and not guaranteed by the connector.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-06 16:08:18 +0000 UTC
+        Created At 2022-07-28 21:46:27 +0000 UTC
     </div>
 </div>
 
