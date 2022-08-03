@@ -62,31 +62,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/53" class=".btn">#53</a>
-            </td>
-            <td>
-                <b>
-                    Move from hyperledgendary to hyperledger-labs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update things for the new hyperledger-labs organisation
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-26 17:00:34 +0000 UTC
-    </div>
-</div>
-

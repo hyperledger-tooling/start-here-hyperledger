@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4210" class=".btn">#4210</a>
+            </td>
+            <td>
+                <b>
+                    Revert: mainnet blockheder validation merge check
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This is a stopgap revert to address a post-merge sync regression caused by #4190.  The correct fix for this will need to wait until after the 22.7.0 release
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+workaround for #4209 
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-03 07:34:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4209" class=".btn">#4209</a>
             </td>
             <td>
@@ -755,87 +801,6 @@ This PR allows to cache the request if it arrives before the PONG to answer once
     </table>
     <div class="right-align">
         Created At 2022-07-27 13:22:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4178" class=".btn">#4178</a>
-            </td>
-            <td>
-                <b>
-                    DNS peers handled the same as boot nodes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamRevenant</span><span class="chip">mainnet</span><span class="chip">peering</span>
-            </td>
-            <td>
-                Peers discovered through the DNSDaemon are now added to the peerTable. These peers are potentially used (16 are randomly chosen from the peer table) in RecursivePeerRefreshStateas as the initial peers for bonding and then for finding neighbours, etc.
-
-Signed-off-by: Stefan <stefan.pingel@consensys.net>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-27 12:28:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4177" class=".btn">#4177</a>
-            </td>
-            <td>
-                <b>
-                    Allow to set any value for baseFeePerGas in the genesis file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also made baseFeeFloor final.
-
-Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Even if not pratical on mainnet or main testnes, in theory in the genesis file, the `baseFeePerGas` field could be set to any Wei value, for example it could be 1 Wei, as done in the Hive test `consensus/checkGasLimit_London`.
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-fixes  Hive test `consensus/checkGasLimit_London`
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-27 11:54:10 +0000 UTC
     </div>
 </div>
 

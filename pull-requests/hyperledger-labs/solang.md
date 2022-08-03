@@ -66,7 +66,9 @@ Please describe the tests that you ran to verify your changes. Please also note 
                 
             </td>
             <td>
-                This allows a program to sign for itself when calling another program. 
+                This adds the seeds parameter to external calls. This does not enable creating PDA style contracts yet, that will come in another PR.
+
+This PR simply adds the seeds to `contract.function{seeds: [ [ seed1 ], [ [ seed2 ]}(arg1, arg2);`.
             </td>
         </tr>
     </table>

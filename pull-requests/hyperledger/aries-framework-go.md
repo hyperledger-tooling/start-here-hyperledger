@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3313" class=".btn">#3313</a>
+            </td>
+            <td>
+                <b>
+                    fix: change aries default wallet to didcommwallet.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Volodymyr Kubiv <volodymyr.kubiv@euristiq.com>
+
+**Title:**
+Change aries default wallet to didcommwallet.
+
+**Summary:**
+
+Didcomm functionality was moved from vcwallet to didcommwallet, to agent-sdk work properly default wallet should be changes to didcommwallet.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-03 12:16:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3312" class=".btn">#3312</a>
             </td>
             <td>

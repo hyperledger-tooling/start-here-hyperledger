@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/806" class=".btn">#806</a>
+            </td>
+            <td>
+                <b>
+                    Add getCreator() to parsed transaction in off_chain_data sample
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Example of how the client identity that submitted a transaction can be obtained.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-03 09:43:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/805" class=".btn">#805</a>
             </td>
             <td>
