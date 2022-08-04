@@ -15,30 +15,30 @@ permalink: /releases/hyperledger/firefly-helm-charts
         <tr>
             <td colspan="2">
                 <b>
-                    v0.5.2
+                    v0.5.3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.5.2
+                    v0.5.3
                 </span>
             </td>
             <td>
                 ## What's Changed
-* v0.5.2: Using FireFly v1.0.3 by @hfuss in https://github.com/hyperledger/firefly-helm-charts/pull/51
+* [v0.5.3] Latest ERC1155 Contracts and Images by @hfuss in https://github.com/hyperledger/firefly-helm-charts/pull/52
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-helm-charts/compare/v0.5.1...v0.5.2
+**Full Changelog**: https://github.com/hyperledger/firefly-helm-charts/compare/v0.5.2...v0.5.3
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-helm-charts/releases/tag/v0.5.2" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-helm-charts/releases/tag/v0.5.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-07-15 20:11:45 +0000 UTC
+        Created At 2022-08-04 11:42:38 +0000 UTC
     </span>
 </div>
 
