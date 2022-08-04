@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/339" class=".btn">#339</a>
+            </td>
+            <td>
+                <b>
+                    Reduce staticcheck warnings (SA4011)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As part of issue #317, removed warnings related to:
+* SA4011: Ineffective break statement
+
+Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-04 12:38:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/338" class=".btn">#338</a>
             </td>
             <td>

@@ -198,30 +198,3 @@ Closes #1416
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1419" class=".btn">#1419</a>
-            </td>
-            <td>
-                <b>
-                    Cache docker images across CI workflows
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In this PR:
-* Docker images are cached across CI workflows
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-28 16:58:51 +0000 UTC
-    </div>
-</div>
-

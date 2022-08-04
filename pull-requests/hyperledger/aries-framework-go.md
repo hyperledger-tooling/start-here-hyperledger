@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3315" class=".btn">#3315</a>
+            </td>
+            <td>
+                <b>
+                    feat: Add jwt-vc test suites supporting AFGO
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Mykhailo Sizov <mykhailo.sizov@securekey.com>
+
+**Title:**
+Add jwt-vc test suites supporting AFGO
+
+**Description:**
+https://github.com/hyperledger/aries-framework-go/issues/3288
+
+**Summary:**
+Added signer and verifier based on private/public key type.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-04 13:37:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3313" class=".btn">#3313</a>
             </td>
             <td>
@@ -190,44 +227,6 @@ Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
     </table>
     <div class="right-align">
         Created At 2022-07-28 20:45:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3306" class=".btn">#3306</a>
-            </td>
-            <td>
-                <b>
-                    feat: Adding sqlite to mobile agent
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Title:**
-Adding sqlite to mobile agent
-
-**Description:**
-I created a component in the mobile agent that allows a user to use a storage provider that connects with SQLite.
-
-**Summary:**
-
-Using https://github.com/hyperledger/aries-framework-go-ext/blob/main/component/storage/mysql/store.go as reference I created a store provider that connects with SQLite. 
-Also, I implemented the TotalItems() method inside the storage wrapper.
-
-@DRK3, @sudeshrshetty, What do you think?
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-28 16:53:32 +0000 UTC
     </div>
 </div>
 

@@ -38,33 +38,3 @@ Connecting to agents didn't work in the pipeline without the Sauce Connect Tunne
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/79" class=".btn">#79</a>
-            </td>
-            <td>
-                <b>
-                    Fixed bcw init timeout and try pipeline without tunnel
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-The BC Wallet test timeout check for initialization of the wallet was in the wrong location and would never get checked. 
-
-Also removes the Sauce Tunnel from the test pipeline to see if the android runs will work better on initialization. iOS has no issue. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-28 16:25:23 +0000 UTC
-    </div>
-</div>
-
