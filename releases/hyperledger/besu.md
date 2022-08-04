@@ -38,12 +38,14 @@ This update also includes tweaks and optimizations for memory management, RocksD
 - Empty headers are now accepted correctly (per Ethereum p2p Spec) when in a range of headers #4189 
 - Transaction handling will now function correctly when the TTD boundary has been crossed in a Merged network (used to require a restart) #4186 
 - Pandas will now only print once when Merging, not on every startup (sorry panda fans) #4194 
+- Fix for ENR request order handling when peering #4179 
 
 ### Optimizations, Features, & Improvements
 
 - New flag (`--engine-rpc-enabled`) for forcing the Engine API to be present on a network with no TTD set #4190 
 - Upgrade to Gradle 7.5 #4196 
 - Upgrade spotless to 6.8.0 #4195 
+- Changes to peer handling with DNS peers for peering improvements #4178
 
 **Download links**
 - https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/22.7.0/besu-22.7.0.tar.gz / sha256: `af21104a880c37706b660aa816e1c38b2b3f603a97420ddcbc889324b71aa50e`

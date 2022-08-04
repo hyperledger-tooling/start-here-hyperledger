@@ -15,6 +15,37 @@ permalink: /releases/hyperledger-labs/hlf-operator
         <tr>
             <td colspan="2">
                 <b>
+                    Version 1.7.0-beta10
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v1.7.0-beta10
+                </span>
+            </td>
+            <td>
+                ## Changelog
+* 18dc8fe Add node selector to peer/orderer/ca
+
+
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger-labs/hlf-operator/releases/tag/v1.7.0-beta10" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-08-03 21:25:41 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     Version 1.7.0-beta9
                 </b>
             </td>
