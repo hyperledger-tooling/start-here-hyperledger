@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1610" class=".btn">#1610</a>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1611" class=".btn">#1611</a>
             </td>
             <td>
                 <b>
-                    release 1.12.5
+                    Update default branch
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-plenum
                 
             </td>
             <td>
-                release 1.12.5
+                Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-20 19:32:42 +0000 UTC
+        Created At 2022-08-04 13:43:22 +0000 UTC
     </div>
 </div>
 

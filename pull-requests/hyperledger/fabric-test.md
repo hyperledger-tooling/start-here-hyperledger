@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/fabric-test
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/404" class=".btn">#404</a>
-            </td>
-            <td>
-                <b>
-                    Remove caliper daily test as it's broken anyway
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: D <d_kelsey@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-28 17:03:46 +0000 UTC
-    </div>
-</div>
-

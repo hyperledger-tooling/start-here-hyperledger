@@ -14,6 +14,110 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/930" class=".btn">#930</a>
+            </td>
+            <td>
+                <b>
+                    Update Viper to support camelCase nested keys
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Pull in a Viper snapshot containing https://github.com/spf13/viper/pull/1387
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-04 16:55:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/928" class=".btn">#928</a>
+            </td>
+            <td>
+                <b>
+                    Wait up to 1000ms to lock sqlite database
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Might fix #925
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-04 15:21:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/927" class=".btn">#927</a>
+            </td>
+            <td>
+                <b>
+                    Minor cleanup of namespace comments/struct descriptions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Couple of the minor follow-ups from #898
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-04 14:58:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/926" class=".btn">#926</a>
+            </td>
+            <td>
+                <b>
+                    Destroy sysmessaging package
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                It was created to stash random interfaces just to avoid circular dependencies - but all of these interfaces can be relocated now without introducing a circle.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-04 14:56:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/924" class=".btn">#924</a>
             </td>
             <td>
@@ -352,32 +456,6 @@ https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/70
     </table>
     <div class="right-align">
         Created At 2022-07-28 21:51:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/912" class=".btn">#912</a>
-            </td>
-            <td>
-                <b>
-                    Update UI version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                UI is fully functional again with latest mainline code.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-28 17:56:06 +0000 UTC
     </div>
 </div>
 

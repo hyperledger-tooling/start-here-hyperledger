@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1885" class=".btn">#1885</a>
+            </td>
+            <td>
+                <b>
+                    fix: schema class can set Meta.unknown
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR enables the Schema class of a model to determine the default `unknown` behavior. Without this, if you have a schema where you expect extra values to be present, every time `deserialize` or `serialize` is called, you must set `unknown=INCLUDE`. Now, in the `Meta` class of the Schema, `unknown` can be set to some value that will be respected as the default if not overrided by method parameter.
+
+While I was at it, I also touched up some of the typing. I'm not fond of using `@overload` but I think it's the best way to address typing a method where a bool flag impacts the return type.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-04 16:54:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1881" class=".btn">#1881</a>
             </td>
             <td>

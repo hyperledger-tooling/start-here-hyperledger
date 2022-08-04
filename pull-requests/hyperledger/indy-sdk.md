@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2546" class=".btn">#2546</a>
+                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2550" class=".btn">#2550</a>
             </td>
             <td>
                 <b>
-                    support socks_proxy config for indy_cli
+                    Update default branch
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/indy-sdk
                 
             </td>
             <td>
-                This pull request completes the **socks_proxy** support implemented in libindy with [PR 2400](https://github.com/hyperledger/indy-sdk/pull/2400) also for the **CLI**
-
-Signed-off-by: Vitalij Reicherdt <vitalij.reicherdt@commerzbank.com>
+                Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-27 07:49:49 +0000 UTC
+        Created At 2022-08-04 13:42:02 +0000 UTC
     </div>
 </div>
 
