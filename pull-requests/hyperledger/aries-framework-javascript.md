@@ -76,30 +76,3 @@ Ledger 'pool-localhost' rejected write transaction request: client request inval
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/966" class=".btn">#966</a>
-            </td>
-            <td>
-                <b>
-                    test(credentials): fix flaky tests with events
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Include similar fixes for other ice2e and ppe2e tests like @TimoGlastra
-started in https://github.com/hyperledger/aries-framework-javascript/pull/893
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-27 20:49:39 +0000 UTC
-    </div>
-</div>
-

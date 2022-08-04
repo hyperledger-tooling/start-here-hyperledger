@@ -18,13 +18,13 @@ permalink: /pull-requests/hyperledger/aries-vcx
             </td>
             <td>
                 <b>
-                    Inline value of recipient keys in ddo
+                    AFJ Interop: Inline value of recipient keys in ddo
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">interop</span>
             </td>
             <td>
                 Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
@@ -50,7 +50,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">refactoring</span>
             </td>
             <td>
                 <nil>
@@ -102,7 +102,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span>
             </td>
             <td>
                 - ConnectionResponse defines [signer](https://github.com/hyperledger/aries-rfcs/blob/main/features/0160-connection-protocol/README.md#2-connection-response) field, which should contain the key used for signing
@@ -131,7 +131,7 @@ Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">interop</span>
             </td>
             <td>
                 # Changes:
@@ -191,7 +191,7 @@ Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">refactoring</span>
             </td>
             <td>
                 - Previously, connection protocol state machine contained handling for trustping protocol. This doesn't make sense, because trustping is its own protocol and after connection is completed, trustping messages do not ever change state of connection itself.
@@ -227,7 +227,7 @@ Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">refactoring</span>
             </td>
             <td>
                 # Refactoring

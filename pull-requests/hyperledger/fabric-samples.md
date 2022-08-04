@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/809" class=".btn">#809</a>
+            </td>
+            <td>
+                <b>
+                    Run RCAADMIN registration on the host OS, not in k8s
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR changes the initial CA bootstrap enrollment to run on the _host_ OS, leaving an MSP folder structure on the local storage.  This greatly simplifies the process of registering additional node, client, and admin users with a local `fabric-ca-client` binary. 
+
+Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-03 22:44:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/808" class=".btn">#808</a>
             </td>
             <td>

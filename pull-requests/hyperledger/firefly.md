@@ -14,6 +14,87 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/923" class=".btn">#923</a>
+            </td>
+            <td>
+                <b>
+                    Updates for EVMConnect support (with EthConnect cross-compatibility)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Support the `TransactionUpdate` type of websocket payload - which just updates the operation, while leaving it in `Pending` status (rather than marking it success/fail)
+- Support events with an `0x12345:` address prefix on the signature
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-03 21:46:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/922" class=".btn">#922</a>
+            </td>
+            <td>
+                <b>
+                    Fixes Incorrect Route in the `broadcast_data`Tutorial
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Thank you :) 
+
+Signed-off-by: Jeff <60796676+JeffNeff@users.noreply.github.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-03 21:41:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/921" class=".btn">#921</a>
+            </td>
+            <td>
+                <b>
+                    Add the V1 migration test to integration runs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-03 21:00:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/920" class=".btn">#920</a>
             </td>
             <td>
