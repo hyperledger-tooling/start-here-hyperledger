@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/304" class=".btn">#304</a>
+            </td>
+            <td>
+                <b>
+                    Renew Fabric-certs for testnet
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. Renew fabric-certs
+2. Push latest tag for all docker images.
+3. Use latest tag in weaver testnet.
+4. Create docker image for fabric-interop-cc for K8s deployment.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-04 07:37:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/299" class=".btn">#299</a>
             </td>
             <td>
@@ -33,32 +62,6 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     </table>
     <div class="right-align">
         Created At 2022-08-01 13:59:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/298" class=".btn">#298</a>
-            </td>
-            <td>
-                <b>
-                    Destination Driver endpoint for writing remote view to ledger
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-28 11:25:50 +0000 UTC
     </div>
 </div>
 

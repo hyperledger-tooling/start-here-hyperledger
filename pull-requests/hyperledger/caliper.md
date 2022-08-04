@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1427" class=".btn">#1427</a>
+            </td>
+            <td>
+                <b>
+                    Distinguish different workers in Prometheus PushGateway
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In this PR:
+* The worker index of each worker is added as a label when pushing metrics to PushGateway to distinguish workers.
+
+Fixes #1354 
+
+### Results:
+
+#### /metrics endpoint of PushGateway
+![image](https://user-images.githubusercontent.com/36656347/182789819-de441ba3-db97-48e6-8343-c6ac4ff792ba.png)
+
+#### Grafana dashboard showing metrics from two workers simultaneously
+![image](https://user-images.githubusercontent.com/36656347/182790028-e23265f3-d2c2-4bdc-9123-e7b2bd8f0f70.png)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-04 07:34:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1425" class=".btn">#1425</a>
             </td>
             <td>
