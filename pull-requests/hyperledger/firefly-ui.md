@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/firefly-ui
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/187" class=".btn">#187</a>
-            </td>
-            <td>
-                <b>
-                    Fix namespace and status types
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-28 03:41:16 +0000 UTC
-    </div>
-</div>
-

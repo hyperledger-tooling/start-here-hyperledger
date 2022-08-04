@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/48" class=".btn">#48</a>
+                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/52" class=".btn">#52</a>
             </td>
             <td>
                 <b>
-                    Add necessary config for allowing extra volumes
+                    [v0.5.3] Latest ERC1155 Contracts and Images
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
                 
             </td>
             <td>
-                Signed-off-by: Cari Albritton <carialbritton1@gmail.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-05 04:22:56 +0000 UTC
+        Created At 2022-08-04 03:13:32 +0000 UTC
     </div>
 </div>
 
