@@ -63,32 +63,3 @@ I am not sure if we should merge this before we figure out the versioning strate
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/92" class=".btn">#92</a>
-            </td>
-            <td>
-                <b>
-                    [docs] Add a Kagami note
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I'd like to add a note on `kagami` tool to the account registration description.
-Related issue: https://github.com/hyperledger/iroha-2-docs/issues/82
-
-Signed-off-by: 6r1d <vic.6r1d@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-28 05:37:46 +0000 UTC
-    </div>
-</div>
-

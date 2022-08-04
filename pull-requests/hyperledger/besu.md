@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4217" class=".btn">#4217</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] typo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-04 03:13:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4214" class=".btn">#4214</a>
             </td>
             <td>
@@ -241,7 +269,7 @@ Daemon is stopping immediately JVM garbage collector thrashing and after running
             </td>
             <td>
                 <b>
-                    Handle ConcurrentModificationException on ReattemptPendingPeerRequests
+                    Fix ConcurrentModificationException on ReattemptPendingPeerRequests
                 </b>
             </td>
         </tr>
@@ -253,13 +281,9 @@ Daemon is stopping immediately JVM garbage collector thrashing and after running
                 Signed-off-by: Gabriel Trintinalia <gabriel.trintinalia@consensys.net>
 
 ## PR description
-A ConcurrentModificationExpetion happens when EthPeers reattempts to execute its Pending Requests and one  request causes a peer to disconnect.
+A ConcurrentModificationExpetion happens when EthPeers reattempts to execute its Pending Requests and one  request causes a peer to disconnect. This happens because RemoveIf on CopyOnWriteArrayList will test the filter for each item first and mark those who need to be removed and then throw the exception if the list was modified by any filter. 
 
-This PR logs the exception gracefully instead of letting the callback to handle the exception because:
-- If the peer is disconnected, the request  aborts.
-- The disconnection event will reattempts to execute any other Pending Requests that does not belong to the disconnected peer.
-
-Two test cases were created to test these assumption.
+Replacing removeIf with iterator seems to solve the issue.
 
 ## Fixed Issue(s)
 #3491
@@ -595,110 +619,6 @@ ensure Pandas only print when we merge, not just when we initially set a new mer
     </table>
     <div class="right-align">
         Created At 2022-07-28 23:47:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4190" class=".btn">#4190</a>
-            </td>
-            <td>
-                <b>
-                    Feature/engine api override
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Allow besu to have the engine api enabled, when there are not merge configs.  includes:
-* un-hiding/un-deprecating `--engine-rpc-enabled`
-* remove old isMergeEnabled checks in a few block header validators
-* use merge-specific block header validator, rather than appending to MainnetBlockHeaderValidator
-* disable all engine api methods except engine_exchangeTransitionConfigurationV1 in the absence of an engine-api-compatible coordinator
-* add "placeholder" TTD in the absence of a TTD configuration
-
-Tested with Hive and Kurtosis since this affects block validation.  Both are 🟢 
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #4172 
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-28 04:48:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4189" class=".btn">#4189</a>
-            </td>
-            <td>
-                <b>
-                    Accept empty header set in range headers validation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-If a response to the get header P2P request only returns the header that
-is the start of the range we may need to trim it to an empty response,
-this is breaking the validation response. One client has started
-returning only the range header start in some circumstances (which is a
-valid response per spec). Because we sometimes request an overlapping
-header this results in an empty stream once we cut the duplicates.
-
-Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-28 04:33:44 +0000 UTC
     </div>
 </div>
 
