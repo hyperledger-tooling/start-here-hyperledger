@@ -44,32 +44,3 @@ this PR fixes a few problems which were apparently introduced by #1710:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1880" class=".btn">#1880</a>
-            </td>
-            <td>
-                <b>
-                    Allow fully qualified class names for profile managers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix a small oversight that prevents specifying a qualified class name as
-wallet type.
-
-Signed-off-by: Clément Humbert <clement.humbert@sicpa.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-28 10:14:07 +0000 UTC
-    </div>
-</div>
-

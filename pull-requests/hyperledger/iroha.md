@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2591" class=".btn">#2591</a>
+            </td>
+            <td>
+                <b>
+                    [documentation]: Changelog for pre-rc.7
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Aleksandr Petrosyan <a-p-petrosyan@yandex.ru><!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+Add changelog
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-04 09:28:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2590" class=".btn">#2590</a>
             </td>
             <td>
@@ -887,53 +927,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2022-07-28 17:50:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2552" class=".btn">#2552</a>
-            </td>
-            <td>
-                <b>
-                    [ci] #2461: Reverse docker login ver
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">CI</span>
-            </td>
-            <td>
-                Signed-off-by: BAStos525 <jungle.vas@yandex.ru>
-
-
-### Description of the Change
-
-1. Revert to `docker/login-action@v1`
-2. Remove `Rename lcov report file` step in `upload_coverage` job
-
-### Issue
-`deploy` and `upload_coverage` jobs doesn't work in `I2::Dev::Deploy` workflow.
-
-- Resolves partially #2461
-
-### Benefits
-Hopefully to resolve the current `I2::Dev::Deploy` workflow failing.
-
-### Possible Drawbacks
-`I2::Dev::Deploy` might still to be failed.
-
-### Usage Examples or Tests *[optional]*
-1. [Upload coverage](https://codecov.io/gh/BAStos525/soramitsu-iroha/commit/630c2877f6abaf8e2642686b6b8539ce814307e4/build)
-2. [Uploaded iroha2 image from fork's runner](https://hub.docker.com/layers/iroha2/bastos525/iroha2/dev/images/sha256-593958d9ed760bfe864b7ee62a4a2c5a99bdb1c11e27316195a0eaacb4d384b2?context=explore)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-28 10:33:45 +0000 UTC
     </div>
 </div>
 

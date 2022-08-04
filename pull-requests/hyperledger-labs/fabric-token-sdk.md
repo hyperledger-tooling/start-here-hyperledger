@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/338" class=".btn">#338</a>
+            </td>
+            <td>
+                <b>
+                    Reduce staticcheck warnings (SA4022)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As part of issue #317, removed warnings related to:
+* SA4022: Removed redundant nil check
+
+Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-04 12:25:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/337" class=".btn">#337</a>
+            </td>
+            <td>
+                <b>
+                    Reduce staticcheck warnings (S1011)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As part of issue #317, removed warnings related to:
+* S1011: Replaced unnecessary loop for append
+
+Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-04 12:20:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/336" class=".btn">#336</a>
             </td>
             <td>
@@ -57,6 +115,8 @@ Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
             </td>
             <td>
                 FSC must be updated to return a message about the kind of error that happened.
+
+This PR depends on https://github.com/hyperledger-labs/fabric-smart-client/pull/353 
 
 Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
