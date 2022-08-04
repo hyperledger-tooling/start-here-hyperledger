@@ -36,32 +36,3 @@ permalink: /pull-requests/hyperledger/grid
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1464" class=".btn">#1464</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade sabre image version in sawtooth example
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-triage</span><span class="chip">main</span>
-            </td>
-            <td>
-                Updates the sawtooth example sabre image version to match the version
-used in Grid contracts.
-
-Signed-off-by: Chris Eckhardt <eckhardt@bitwise.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-27 21:24:49 +0000 UTC
-    </div>
-</div>
-
