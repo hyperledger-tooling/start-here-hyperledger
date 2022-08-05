@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/caliper
             </td>
             <td>
                 <b>
-                    Add coverage report step to unit tests workflow
+                    Add coverage report workflow
                 </b>
             </td>
         </tr>

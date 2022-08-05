@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2143" class=".btn">#2143</a>
+            </td>
+            <td>
+                <b>
+                    refactor(connector-besu): update base image to fix npm vulnerabilities
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #2142
+
+Signed-off-by: aldousalvarez <aldousss.alvarez@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-05 06:01:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/2140" class=".btn">#2140</a>
             </td>
             <td>
