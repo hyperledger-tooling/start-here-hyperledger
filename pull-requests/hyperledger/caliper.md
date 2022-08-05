@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1428" class=".btn">#1428</a>
+            </td>
+            <td>
+                <b>
+                    Add coverage report step to unit tests workflow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In this PR:
+* A step which reports coverage to Codecov is added to the unit tests workflow
+
+Fixes #1278
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-05 01:34:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1427" class=".btn">#1427</a>
             </td>
             <td>

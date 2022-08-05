@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                1. Renew fabric-certs
+                1. Renew fabric-certs. (EDIT) This time they have expiry of 10 years.
 2. Push latest tag for all docker images.
 3. Use latest tag in weaver testnet.
 4. Create docker image for fabric-interop-cc for K8s deployment.

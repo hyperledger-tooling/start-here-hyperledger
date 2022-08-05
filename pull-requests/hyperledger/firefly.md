@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/932" class=".btn">#932</a>
+            </td>
+            <td>
+                <b>
+                    Pin golangci-lint to v1.47.3 instead of latest
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Avoids surprising changes to linter rules.
+
+Also looks like the current "latest" version of golangci-lint is Go 1.19 only, and we don't want to upgrade just yet.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-04 19:12:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/930" class=".btn">#930</a>
             </td>
             <td>
@@ -96,7 +124,7 @@ permalink: /pull-requests/hyperledger/firefly
             </td>
             <td>
                 <b>
-                    Destroy sysmessaging package
+                    Destroy sysmessaging package 💥
                 </b>
             </td>
         </tr>
@@ -240,7 +268,9 @@ Signed-off-by: Jeff <60796676+JeffNeff@users.noreply.github.com>
                 
             </td>
             <td>
-                in a chain with #919 
+                Adds a new test suite for tokens plugins with remote names. 
+
+Fixes #929 
             </td>
         </tr>
     </table>
@@ -294,7 +324,7 @@ Signed-off-by: Jeff <60796676+JeffNeff@users.noreply.github.com>
                 
             </td>
             <td>
-                In a chain with #916
+                ~~In a chain with #916~~
 
 Includes additional fixes for separating messages/data on different namespaces.
 
@@ -428,34 +458,6 @@ Clean up operation handling in DX to make it consistent with other plugins.
     </table>
     <div class="right-align">
         Created At 2022-07-29 13:44:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/913" class=".btn">#913</a>
-            </td>
-            <td>
-                <b>
-                    Use "poolData" instead of "namespace" in fftokens
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Depends on:
-https://github.com/hyperledger/firefly-tokens-erc1155/pull/84
-https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/70
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-28 21:51:55 +0000 UTC
     </div>
 </div>
 
