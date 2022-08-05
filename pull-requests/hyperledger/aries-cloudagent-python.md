@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1886" class=".btn">#1886</a>
+            </td>
+            <td>
+                <b>
+                    Use did:key for recipient keys
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As part of #1859, I have made it so the coordinate-mediation protocol uses did:key representation. Apologies that this took as long as it did. Implementing this impacted more of ACA-Py than I realized it would while keeping it compatible with existing agents.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-04 18:58:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1885" class=".btn">#1885</a>
             </td>
             <td>

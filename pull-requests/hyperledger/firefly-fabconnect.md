@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/91" class=".btn">#91</a>
+                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/93" class=".btn">#93</a>
             </td>
             <td>
                 <b>
-                    Update to use WithInit() based on the changes in the dependent PR in fabric-sdk-go
+                    Improved args parsing to support JSON types and validation
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
                 
             </td>
             <td>
-                <nil>
+                Added tests for PinBatch
+Added tests for JSON types
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-17 17:00:16 +0000 UTC
+        Created At 2022-08-04 22:50:03 +0000 UTC
     </div>
 </div>
 
