@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/253" class=".btn">#253</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/254" class=".btn">#254</a>
             </td>
             <td>
                 <b>
-                    Bump version to 2.5.0
+                    Remove unrequired Maven wrapper directory
                 </b>
             </td>
         </tr>
@@ -27,38 +27,15 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-19 16:56:33 +0000 UTC
-    </div>
-</div>
+                Remove unrequired Maven wrapper directory
+Update Maven wrapper to latest version
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/252" class=".btn">#252</a>
-            </td>
-            <td>
-                <b>
-                    Bump version to 2.4.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-19 16:48:36 +0000 UTC
+        Created At 2022-08-05 16:40:23 +0000 UTC
     </div>
 </div>
 
