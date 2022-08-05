@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/55" class=".btn">#55</a>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/56" class=".btn">#56</a>
             </td>
             <td>
                 <b>
-                    improved dif models
+                    oob credential exchange v2
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-22 15:08:11 +0000 UTC
+        Created At 2022-08-05 15:38:57 +0000 UTC
     </div>
 </div>
 
