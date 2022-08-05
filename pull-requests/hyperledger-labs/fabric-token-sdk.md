@@ -495,29 +495,3 @@ Signed-off-by: Tiercery <louis.tiercery1@ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/313" class=".btn">#313</a>
-            </td>
-            <td>
-                <b>
-                    `token/services/ttx/endorse.go`: EndorseView should store transient immeditately
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Currently, the EndorseView replaces its transaction field with the received transaction before storing the medatada. Recall that, the sender might send reduced metadata due to filtering.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-29 08:58:24 +0000 UTC
-    </div>
-</div>
-

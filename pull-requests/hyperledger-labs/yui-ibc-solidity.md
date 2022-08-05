@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/95" class=".btn">#95</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/97" class=".btn">#97</a>
             </td>
             <td>
                 <b>
-                    Release/v0.1.0
+                    Add relay module
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-25 07:32:27 +0000 UTC
+        Created At 2022-08-05 09:00:55 +0000 UTC
     </div>
 </div>
 

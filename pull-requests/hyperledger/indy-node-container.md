@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node-container
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node-container/pull/94" class=".btn">#94</a>
+                PR <a href="https://github.com/hyperledger/indy-node-container/pull/97" class=".btn">#97</a>
             </td>
             <td>
                 <b>
-                    Create trivy-all-slack.yml
+                    fixed env variable name. Fixes #95
                 </b>
             </td>
         </tr>
@@ -27,21 +27,12 @@ permalink: /pull-requests/hyperledger/indy-node-container
                 
             </td>
             <td>
-                Commit text: workflow file for slack messages after weekly trivy scan, project context IDunion (Germany)
-
-This file was created to get Slack notifications on the IDunion project Slack workspace channel 'docker_indy-node'. The workflow is doing a weekly trivy scan and filters all high and critical CVEs and publishes them to the mentioned Slack channel. For that to work a secret webhook URL needs to be included in this repo. The name of the secret needs to be
-
-SLACK_WEBHOOK_URL_IDU
-
-corresponding to the name in the file. The webhook URL needs to be a secret otherwise it will be disabled.
-
-Best regards
-Sebastian
+                I have compared the [test docker compose](https://github.com/hyperledger/indy-node-container/blob/main/test/docker-compose.yaml) which is regularly tested to produce a working setup for the restart process, with the [production one](https://github.com/hyperledger/indy-node-container/blob/main/run/docker-compose.yml) to produce the changes
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-22 09:33:17 +0000 UTC
+        Created At 2022-08-05 08:44:06 +0000 UTC
     </div>
 </div>
 

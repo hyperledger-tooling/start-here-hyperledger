@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/99" class=".btn">#99</a>
+            </td>
+            <td>
+                <b>
+                    Update code snippet in Rust guide
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-05 07:12:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/94" class=".btn">#94</a>
             </td>
             <td>
@@ -34,32 +60,6 @@ I am not sure if we should merge this before we figure out the versioning strate
     </table>
     <div class="right-align">
         Created At 2022-08-02 05:30:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/93" class=".btn">#93</a>
-            </td>
-            <td>
-                <b>
-                    [docs] update JS code samples
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When working through the tutorial I've found some issues with code samples, I'm sharing updates that should work with recent iroha2. `roses#wonderland` are no longer mintable for alice (since she didn't create them, I think I saw some issue regarding this on the main repo), so I've changed it to `time` with a note that proper mintable type must be set.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-29 09:19:10 +0000 UTC
     </div>
 </div>
 

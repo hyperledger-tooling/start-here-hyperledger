@@ -61,6 +61,7 @@ permalink: /pull-requests/hyperledger/iroha-javascript
 
   new Client({ fetch })
   ```
+- E2e tests - Migrate to Cypress 10
             </td>
         </tr>
     </table>

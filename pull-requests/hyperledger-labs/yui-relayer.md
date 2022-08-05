@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/69" class=".btn">#69</a>
+            </td>
+            <td>
+                <b>
+                    develop -> main
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-05 08:24:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/68" class=".btn">#68</a>
+            </td>
+            <td>
+                <b>
+                    Remove chain modules
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - removes chain modules(fabric, ethereum and corda)
+- update go version to v1.18
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-05 08:23:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/67" class=".btn">#67</a>
             </td>
             <td>
