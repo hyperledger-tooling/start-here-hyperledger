@@ -36,33 +36,3 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/278" class=".btn">#278</a>
-            </td>
-            <td>
-                <b>
-                    chore: Update sidetree-core (rename also-known-as patches)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update sidetree-core and orb
-
-Closes #277
-
-Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-29 19:41:57 +0000 UTC
-    </div>
-</div>
-
