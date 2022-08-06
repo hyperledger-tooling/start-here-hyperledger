@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/937" class=".btn">#937</a>
+            </td>
+            <td>
+                <b>
+                    Update .gitignore: ignoring .idea path
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Kmilo Denis Glez <kmilo.denis.glez@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-06 16:51:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/935" class=".btn">#935</a>
             </td>
             <td>
@@ -560,36 +586,6 @@ Should remain fully backwards compatible for nodes that were already broadcast/s
     </table>
     <div class="right-align">
         Created At 2022-08-01 17:44:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/915" class=".btn">#915</a>
-            </td>
-            <td>
-                <b>
-                    Allow multiple copies of things on different namespaces
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Everything that can be sent (messages, data, all definition types) needs to only be unique within a namespace. The IDs can no longer be considered globally unique, and the database needs to reflect that.
-
-Move "node" configuration to the "multiparty" section (next to "org"), as different namespaces may want to advertise different names for their local node.
-
-Clean up operation handling in DX to make it consistent with other plugins.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-30 17:35:10 +0000 UTC
     </div>
 </div>
 

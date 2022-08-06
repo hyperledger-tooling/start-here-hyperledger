@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1435" class=".btn">#1435</a>
+            </td>
+            <td>
+                <b>
+                    Terminate Caliper workers on interrupting Caliper manager
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In this PR:
+* The SIGINT signal is handled in the manager to cleanly terminate workers when user tries to terminate Caliper manager.
+
+Fixes #1361
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-06 13:24:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1434" class=".btn">#1434</a>
             </td>
             <td>
@@ -245,35 +274,6 @@ Closes #1422
     </table>
     <div class="right-align">
         Created At 2022-08-01 16:51:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1421" class=".btn">#1421</a>
-            </td>
-            <td>
-                <b>
-                    Execute integration tests based on changes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In this PR:
-* The integration test workflow is modified to execute only tests that are relevant to the changes made
-
-Closes #1375
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-30 12:38:08 +0000 UTC
     </div>
 </div>
 
