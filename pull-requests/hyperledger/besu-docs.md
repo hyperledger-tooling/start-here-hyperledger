@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1115" class=".btn">#1115</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1119" class=".btn">#1119</a>
             </td>
             <td>
                 <b>
-                    Document migrating to Besu
+                    Fix JWT abbreviation.
                 </b>
             </td>
         </tr>
@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/besu-docs
                 
             </td>
             <td>
-                Signed-off-by: Roland Tyler <roland.tyler@consensys.net>
+                Signed-off-by: Alex March <alexmarch@fastmail.com>
 
 ## Pull request checklist
 
@@ -42,11 +42,12 @@ Make sure that:
 - [x] You've [previewed your changes locally](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation).
 
 ## Describe the change
-Document migrating to Besu from a different client
+Fixes #1118 
+
 <!-- Add a clear and concise description of what your PR changes in the documentation. -->
 
 ## Issue fixed
-Fixes #1090 
+
 <!-- Link to the GitHub issue that your PR addresses.
 
 Add "fixes #{your issue number}" to close the issue automatically when the PR is merged.
@@ -78,12 +79,13 @@ For tool changes:
 
 Make sure that:
 
-- [x] You've fixed any issues raised by the tests.
+- [ ] You've fixed any issues raised by the tests.
 - [x] You've [previewed your changes on Read the Docs](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation)
   and added a [preview link](#preview).
 
 ## Preview
-https://hyperledger-besu--1115.org.readthedocs.build/en/1115/HowTo/Get-Started/migrate-to-besu/
+https://hyperledger-besu--1119.org.readthedocs.build/en/1119/HowTo/Upgrade/Prepare-for-The-Merge/#2-configure-the-json-web-token
+
 <!-- Add the link to preview your changes on Read the Docs.
 
 The link format is "https://hyperledger-besu--{your PR number}.org.readthedocs.build/en/{your PR number}/",
@@ -94,7 +96,7 @@ where {your PR number} is replaced by the number of this PR.
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-27 19:19:29 +0000 UTC
+        Created At 2022-08-06 08:26:31 +0000 UTC
     </div>
 </div>
 
