@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3316" class=".btn">#3316</a>
+            </td>
+            <td>
+                <b>
+                    fix: small change in schema format for clearness
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Changed `mediatype` -> `contentMediaType`
+and `encoding` -> `contentEncoding` in schema for better clearness in credential manifests
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-05 19:50:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3315" class=".btn">#3315</a>
             </td>
             <td>
@@ -118,52 +145,6 @@ Added support of changes from the latest presentation exchange draft https://ide
     </table>
     <div class="right-align">
         Created At 2022-08-02 12:29:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3309" class=".btn">#3309</a>
-            </td>
-            <td>
-                <b>
-                    refactor: credential manifest enhancements to match wallet-rendering specs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-**Summary:**
-
-- Refactored credentialmanifest.go 
-  - moved everything related to resolving the different types into a separate file called resolve.go to make it clearer as to what is coming from the credential manifest and wallet rendering specs and what is needed for displaying 
-  - moved common functions to common.go
-- Changes to match specs:
-  - Fixed display mapping object to use text property if paths is empty 
-    - validateDisplayMappingObject to check for if both the text field and the paths field is empty
-    - update unit tests for this
-  - ValidateCredentialApplication 
-    - Added check for case where manifest's format is empty but credential application's is not (credential application's formats should be a subset of credential manifest's)
-    - Removed duplicate code for checking credential application against credential manifest
-    - update unit tests
-  - Added missing optional property to CredentialFulfillment
-  - Added missing optional properties to schema format
-
-Closes #3304 
-Closes #3274 
-Closes #3280 
-Closes #3281
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-29 18:26:13 +0000 UTC
     </div>
 </div>
 

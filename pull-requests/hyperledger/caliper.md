@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1433" class=".btn">#1433</a>
+            </td>
+            <td>
+                <b>
+                    Upload coverage reports on merge
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In this PR:
+* The coverage report workflow is run on merge as well so that the coverage of the main branch can be obtained and used as a basis for comparing the coverage of PRs.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-05 19:07:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1428" class=".btn">#1428</a>
             </td>
             <td>

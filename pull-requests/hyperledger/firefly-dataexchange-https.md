@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-dataexchange-https
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-dataexchange-https/pull/63" class=".btn">#63</a>
+                PR <a href="https://github.com/hyperledger/firefly-dataexchange-https/pull/66" class=".btn">#66</a>
             </td>
             <td>
                 <b>
-                    Destination verifications
+                    New destinations
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-dataexchange-https
                 
             </td>
             <td>
-                Signed-off-by: Gabriel Indik <gabriel.indik@kaleido.io>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-05 01:42:45 +0000 UTC
+        Created At 2022-08-05 19:40:26 +0000 UTC
     </div>
 </div>
 

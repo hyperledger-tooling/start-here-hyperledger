@@ -1,13 +1,13 @@
 
-[3571](https://github.com/hyperledger/fabric/pull/3571) V2.5 Capabilities For Purge Private Data (backport #3539)
+[396](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/396) fix: dark status bar on pin screens
 
-[254](https://github.com/hyperledger/fabric-chaincode-java/pull/254) Remove unrequired Maven wrapper directory
+[596](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/596) update code
 
-[934](https://github.com/hyperledger/firefly/pull/934) Create config migration script
+[395](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/395) feat: add camera disclosure notification
 
-[342](https://github.com/hyperledger-labs/fabric-token-sdk/pull/342) Add manual CI test trigger
+[935](https://github.com/hyperledger/firefly/pull/935) Always populate Operation namespace from Managers
 
-[56](https://github.com/hyperledger-labs/acapy-java-client/pull/56) oob credential exchange v2
+[16](https://github.com/hyperledger/firefly-signer/pull/16) Add features for performing recover for signature verification
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
