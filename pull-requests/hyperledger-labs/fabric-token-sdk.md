@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/343" class=".btn">#343</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/344" class=".btn">#344</a>
             </td>
             <td>
                 <b>
-                    F check ds 2
+                    Re-introduce -mod=mod go flag
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-07 11:51:06 +0000 UTC
+        Created At 2022-08-07 12:58:56 +0000 UTC
     </div>
 </div>
 
