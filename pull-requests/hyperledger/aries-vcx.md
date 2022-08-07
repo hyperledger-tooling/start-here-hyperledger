@@ -255,39 +255,3 @@ Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/529" class=".btn">#529</a>
-            </td>
-            <td>
-                <b>
-                    Extract out trust_ping, discovery, oob protocol out of connection protocol
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span>
-            </td>
-            <td>
-                - Previously, connection protocol state machine contained handling for trustping protocol. This doesn't make sense, because trustping is its own protocol and after connection is completed, trustping messages do not ever change state of connection itself.
-- With this PR, trustping is extracted out and is worked with on `Connection` handler level. This makes sense, because for trustping to happen, we only need to know the DDO of the counterparty - whether we are on invitee or inviter is irrelevant (more cases like this exist).
-- Changes are done in a way to improve `aries-vcx` API, but keeps `libvcx` same and backwards compatible 
-- On aries-vcx Connection handler level, we now distinguish 2 public functions 
-  - `update_state_with_message` - this is meant to progress the connection state
-  - `answer_message` (new) - this is meant to easily-answerable messages which do not progress connection state, such as if we receive `ping`, we can send response.
-- Overally this separates concerns, decreases duplication, improves composability
-
-Analogous changes will be done for `hadshake-reuse` and `handshake-reuse-accepted`, `query ` and `disclose`.
-
-Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-31 17:21:24 +0000 UTC
-    </div>
-</div>
-
