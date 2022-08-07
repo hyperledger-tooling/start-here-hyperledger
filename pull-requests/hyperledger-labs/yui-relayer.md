@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/72" class=".btn">#72</a>
+            </td>
+            <td>
+                <b>
+                    Add show modules command
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-07 11:14:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/71" class=".btn">#71</a>
+            </td>
+            <td>
+                <b>
+                    Fix bin name
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-07 10:38:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/69" class=".btn">#69</a>
             </td>
             <td>
@@ -27,7 +79,9 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
                 
             </td>
             <td>
-                <nil>
+                - https://github.com/hyperledger-labs/yui-relayer/pull/68 
+- https://github.com/hyperledger-labs/yui-relayer/pull/71
+- https://github.com/hyperledger-labs/yui-relayer/pull/72
             </td>
         </tr>
     </table>

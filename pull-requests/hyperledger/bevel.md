@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2000" class=".btn">#2000</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2002" class=".btn">#2002</a>
             </td>
             <td>
                 <b>
-                    [shared] Fixed network deletion for fluxv2
+                    fix(security):Cross Site Scripting Attack (XSS)
                 </b>
             </td>
         </tr>
@@ -27,27 +27,15 @@ permalink: /pull-requests/hyperledger/bevel
                 
             </td>
             <td>
-                Signed-off-by: manikanta-darsi <manikanta.darsi@accenture.com>
+                Unsanitized input from `req.body.trackingID` flows `trackingID` into `res.send`, where it is used to render an HTML page returned to the user. This may result in a Cross-Site Scripting attack (XSS).
 
-**Changelog**
-- Fix network deletion for fluxv2
-
-
- 
-
-**Reviewed by**
-@sownak @suvajit-sarkar @jagpreetsinghsasan 
-
- 
-
-**Linked issue**
-#issue_number
+Signed-off-by: Bhaskar Ram <bhaskarvilles@duck.com>
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-29 14:03:34 +0000 UTC
+        Created At 2022-08-07 07:04:21 +0000 UTC
     </div>
 </div>
 
