@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/yui-fabric-ibc
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-fabric-ibc/pull/46" class=".btn">#46</a>
+            </td>
+            <td>
+                <b>
+                    use single module
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-07 03:16:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-fabric-ibc/pull/45" class=".btn">#45</a>
             </td>
             <td>
@@ -54,7 +80,7 @@ permalink: /pull-requests/hyperledger-labs/yui-fabric-ibc
             </td>
             <td>
                 - https://github.com/hyperledger-labs/yui-fabric-ibc/pull/41
-- https://github.com/hyperledger-labs/yui-fabric-ibc/pull/42
+- https://github.com/hyperledger-labs/yui-fabric-ibc/pull/42 + https://github.com/hyperledger-labs/yui-fabric-ibc/pull/46
 - https://github.com/hyperledger-labs/yui-fabric-ibc/pull/45
             </td>
         </tr>

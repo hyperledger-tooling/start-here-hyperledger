@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
             </td>
             <td>
                 <b>
-                    Display Credential Offer Attributes
+                    fix: display credential offer attributes
                 </b>
             </td>
         </tr>
