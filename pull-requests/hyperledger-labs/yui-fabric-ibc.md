@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/yui-fabric-ibc
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-fabric-ibc/pull/45" class=".btn">#45</a>
+            </td>
+            <td>
+                <b>
+                    Add relay module
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-07 00:48:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-fabric-ibc/pull/43" class=".btn">#43</a>
             </td>
             <td>
@@ -27,9 +53,9 @@ permalink: /pull-requests/hyperledger-labs/yui-fabric-ibc
                 
             </td>
             <td>
-                - #41 
-- #42 
-- TODO: add relay module
+                - https://github.com/hyperledger-labs/yui-fabric-ibc/pull/41
+- https://github.com/hyperledger-labs/yui-fabric-ibc/pull/42
+- https://github.com/hyperledger-labs/yui-fabric-ibc/pull/45
             </td>
         </tr>
     </table>
