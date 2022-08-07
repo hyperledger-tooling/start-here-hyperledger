@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/974" class=".btn">#974</a>
+            </td>
+            <td>
+                <b>
+                    feat: Action Menu protocol (Aries RFC 0509) implementation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Implementation of module fully supporting [Aries RFC 0509](https://github.com/hyperledger/aries-rfcs/blob/main/features/0509-action-menu/README.md) for both `requester` and `responder` roles.
+
+Protocol states and information are stored in records of type `ActionMenuRecord`. As this protocol currently defines a single active menu per connection, there will be at most 2 records per connection (as theoretically is possible to serve as requester and responder at the same time). While this information could be stored also in Connection Metadata, specific records were created thinking in a future version/extension of this protocol where multiple menus could be deployed (e.g. a menu by thread).
+
+Still plenty of tests to do and fixes/support for error messages, as well as check compatibility with ACA-Py implementation.
+
+Solves #471 
+Signed-off-by: Ariel Gentile <gentilester@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-06 23:42:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/972" class=".btn">#972</a>
             </td>
             <td>
