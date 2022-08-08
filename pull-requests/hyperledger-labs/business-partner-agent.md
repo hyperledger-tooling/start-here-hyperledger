@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/796" class=".btn">#796</a>
+            </td>
+            <td>
+                <b>
+                    Support for oob exchanges with attachments
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backend:
+
+- [x] indy v1 credential offer
+- [x] indy v2 credential offer
+- [ ] dif credential offer
+- [x] indy v1 presentation request
+- [x] indy v2 presentation request
+- [x] dif presentation request
+
+Frontend:
+
+- [x] indy v1 credential offer
+- [x] indy v2 credential offer
+- [ ] dif credential offer
+- [ ] indy v1 presentation request
+- [ ] indy v2 presentation request
+- [ ] dif presentation request
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-08 14:14:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/794" class=".btn">#794</a>
             </td>
             <td>

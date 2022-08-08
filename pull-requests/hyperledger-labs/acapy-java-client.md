@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
             </td>
             <td>
                 <b>
-                    oob credential exchange v2
+                    helper classes for oob exchanges with attachments 
                 </b>
             </td>
         </tr>

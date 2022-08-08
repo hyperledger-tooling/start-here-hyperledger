@@ -14,6 +14,71 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/954" class=".btn">#954</a>
+            </td>
+            <td>
+                <b>
+                    Bug: Parse underscores in fractional component of Rational numbers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Solang parser fails to parse the following valid solidity
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+uint constant test = 1.2_3e2;
+```
+with the following diagnostic
+
+```rust
+Diagnostic { loc: File(0, 80, 84), level: Error, ty: ParserError, message: "unrecognised token '_3e2', expected \";\"", notes: [] }
+```
+
+This is because the Lexer doesn't include underscores in the rational part but underscores are valid https://docs.soliditylang.org/en/latest/grammar.html#a4.SolidityLexer.DecimalNumber
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-08 15:51:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/953" class=".btn">#953</a>
+            </td>
+            <td>
+                <b>
+                    Bump a few dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Let's keep our dependencies up to date
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-08 13:15:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/952" class=".btn">#952</a>
             </td>
             <td>
@@ -187,33 +252,6 @@ This PR simply adds the seeds to `contract.function{seeds: [ [ seed1 ], [ [ seed
     </table>
     <div class="right-align">
         Created At 2022-08-02 15:03:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/945" class=".btn">#945</a>
-            </td>
-            <td>
-                <b>
-                    Implement assignment to selector and address in Yul
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR implements assignment to an external function's selector and address in Yul, using the existing infrastructure in Solang.
-The logic behind this is going to be used for Borsh decoding and brought up issue #944.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-01 13:31:42 +0000 UTC
     </div>
 </div>
 

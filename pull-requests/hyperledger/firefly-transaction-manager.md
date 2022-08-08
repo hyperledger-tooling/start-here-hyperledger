@@ -96,31 +96,3 @@ So I've added a `blockState` that is created each time we do a cycle, that ensur
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/14" class=".btn">#14</a>
-            </td>
-            <td>
-                <b>
-                    Flatten event delivery JSON payload
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The JSON payload expected by FireFly (established by ethconnect) requires top-level fields for all the `info` content - both that which is mandated by the FFTM framework, and that which is extensible in the connector.
-
-This took a bit of faff to sort out, as Go doesn't have a trivial mechanism to merge custom fields into a structure with declared fields. So there's a utility function added (which could move to `common` in the future) to help with that merging, and a new custom `Unmarshal`/`Marshal` function on the `EventWithContext` struct - which also moved to `apitypes`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-01 12:45:58 +0000 UTC
-    </div>
-</div>
-

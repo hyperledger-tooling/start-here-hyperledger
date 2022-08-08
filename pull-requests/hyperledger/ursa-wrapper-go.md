@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/ursa-wrapper-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/ursa-wrapper-go/pull/38" class=".btn">#38</a>
+            </td>
+            <td>
+                <b>
+                    Fix CI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-08 14:12:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/ursa-wrapper-go/pull/36" class=".btn">#36</a>
             </td>
             <td>

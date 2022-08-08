@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/348" class=".btn">#348</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade Ginkgo v2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR upgrade Ginkgo to v2 and enables new features such as flaky test retry.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-08 14:25:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/347" class=".btn">#347</a>
             </td>
             <td>
@@ -572,34 +598,6 @@ Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-08-03 06:06:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/319" class=".btn">#319</a>
-            </td>
-            <td>
-                <b>
-                    Panic Seg Fault with Issue func
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                PR to solve issue https://github.com/hyperledger-labs/fabric-token-sdk/issues/314: Panic Seg Fault with Issue func
-
-Signed-off-by: Tiercery <louis.tiercery1@ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-01 13:11:24 +0000 UTC
     </div>
 </div>
 

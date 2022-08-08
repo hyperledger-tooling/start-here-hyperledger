@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/938" class=".btn">#938</a>
+            </td>
+            <td>
+                <b>
+                    update integration test to use new e2e suites
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-08 14:09:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/937" class=".btn">#937</a>
             </td>
             <td>
@@ -44,7 +70,7 @@ permalink: /pull-requests/hyperledger/firefly
             </td>
             <td>
                 <b>
-                    Always populate Operation namespace from Managers
+                    Fix bugs with Operations (and other minor fixes)
                 </b>
             </td>
         </tr>
@@ -53,7 +79,9 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                Also includes some misc cleanup identified while doing E2E and perf test runs.
+                * Always populate Operation namespace from Managers instead of from other objects
+* Actually store pending blob upload Operations
+* Other misc cleanup identified while doing E2E and perf test runs
             </td>
         </tr>
     </table>
@@ -548,44 +576,6 @@ multi-tenant nodes alongside existing ones.
     </table>
     <div class="right-align">
         Created At 2022-08-02 12:57:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/916" class=".btn">#916</a>
-            </td>
-            <td>
-                <b>
-                    Add node-specific suffix to DX endpoint "id"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ~~In a chain with #915~~
-Depends on https://github.com/hyperledger/firefly-dataexchange-https/pull/62
-
-UPDATE: found a number of bugs while adding E2E tests - so #918 contains everything from this PR, some additional fixes, and an E2E test. The comments below are still relevant though.
-
-FireFly can now support many local namespaces that map to a single remote namespace (for multi-tenancy purposes). Each of these local namespaces may have their own "node" within FireFly, but they may all be sharing a single DX plugin. This change adds a "nodeName" qualifier to many of the dataexchange plugin calls, along with a specific implementation in the FFDX plugin code, to allow many nodes to exist behind a single DX.
-
-Implementation outline:
-* For newly created nodes, the FFDX connector will append a suffix to the member ID advertised by the plugin before storing or broadcasting it. This means each node will have a unique verifier ID even if they are sharing a DX member ID and certificate. The FFDX connector and FFDX plugin have agreed on `/` as a separator.
-* The FFDX connector will ignore this suffix when routing messages (paying attention only to the member ID before the separator) - but will pass the full recipient string for further routing by FireFly on the far end.
-* FireFly will use the combination of the received message's remote namespace and recipient ID to route it uniquely to a single event manager.
-
-Should remain fully backwards compatible for nodes that were already broadcast/stored in the database with a non-suffixed peer ID.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-01 17:44:54 +0000 UTC
     </div>
 </div>
 
