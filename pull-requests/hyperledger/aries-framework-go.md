@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3318" class=".btn">#3318</a>
+            </td>
+            <td>
+                <b>
+                    Add RemoveCredentialByName to aries.js
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Function was available in the core but was missing from the JavaScript
+wrapper.
+
+Signed-off-by: Boran Car <boran.car@gmail.com>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-08 16:44:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3316" class=".btn">#3316</a>
             </td>
             <td>

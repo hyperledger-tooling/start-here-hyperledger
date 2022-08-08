@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4230" class=".btn">#4230</a>
+            </td>
+            <td>
+                <b>
+                    Introduce a cap to reputation score increase
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+#4130 introduced an way to increase reputation in case the peer is doing good, but there is no cap to the reputation score the peer can have.
+
+The log shows peers with very high reputation, for example:
+```
+FullSyncTargetManager","message":"Caught up to best peer: PeerId 0xb3e02a84270c590f562e2c8b8274930c54b0a00ae001d44bd790b55c3bbc578c70738e6d4a2d32df78b6cf27a071fe54a068f3192c42ac29bd81a6663fe4fa0f, reputation PeerReputation 561, validated? true, disconnected? false, client: Geth/v1.10.21-stable-67109427/linux-amd64/go1.18.5, connection 1312721736, enode enode://b3e02a84270c590f562e2c8b8274930c54b0a00ae001d44bd790b55c3bbc578c70738e6d4a2d32df78b6cf27a071fe54a068f3192c42ac29bd81a6663fe4fa0f@34.92.61.128:29888, chain state: ChainState{estimatedHeight=7369229, bestBlock=BestBlock{totalDifficulty=0x0000000000000000000000000000000000000000000000000000000000a45b44, blockHash=0xb7c2ba396d3f4561fe619796e7ef399080823161f4b831c5b3f48445e7bf13a1, number=7369228}}. Current peers: 3","throwable":""}
+```
+since there is no cap to how much the reputation can increase.
+
+I think make sense to have an upper bound, a peer can increase its repution until it reaches the default max again, otherwise a peer that is good for a long time, and start to be useless, will take a long time before its reputation goes below other more recent good peers
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-08 17:41:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4228" class=".btn">#4228</a>
             </td>
             <td>
@@ -24,7 +79,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamRevenant</span><span class="chip">mainnet</span><span class="chip">peering</span>
             </td>
             <td>
                 Signed-off-by: Stefan <stefan.pingel@consensys.net>
@@ -52,7 +107,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamRevenant</span>
             </td>
             <td>
                 Signed-off-by: Gabriel Trintinalia <gabriel.trintinalia@consensys.net>
@@ -96,7 +151,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamChupa</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
