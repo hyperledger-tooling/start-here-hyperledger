@@ -70,7 +70,7 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
             </td>
             <td>
                 <b>
-                    develop -> main
+                    Release v1.0.0
                 </b>
             </td>
         </tr>

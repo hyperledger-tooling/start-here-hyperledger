@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/975" class=".btn">#975</a>
+            </td>
+            <td>
+                <b>
+                    feat(routing): pickup v2 mediator role basic implementation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Basic implementation of the missing Mediator role for Pick Up V2 protocol ([Aries RFC 0685](https://github.com/hyperledger/aries-rfcs/tree/main/features/0685-pickup-v2)). In order to make this PR smaller and non-breaking, not all features from protocol are supported, but only those used currently by `Recipient` implementation in AFJ 0.2.x. 
+
+There are some refactoring here and there to start doing the split up suggested by #800, but attempting to maintain compatibility with current modules API.
+
+Note that current implementation of client side assumes that the mediator will use a WebSocket connection, which is not actually mandatory. This behaviour is not yet updated, but might require to update `WsInboundTransporter` to manage long-term WebSockets connections (e.g. use a heartbeat interval mechanism) in order to be really useful.
+
+Solves #956 and hopefully #475 and #727. 
+
+Signed-off-by: Ariel Gentile <gentilester@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-07 22:56:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/974" class=".btn">#974</a>
             </td>
             <td>

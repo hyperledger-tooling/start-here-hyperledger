@@ -45,7 +45,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    [documentation]: Changelog for pre-rc.7
+                    [feature] #2158: Update `parity_scale_codec`
                 </b>
             </td>
         </tr>
