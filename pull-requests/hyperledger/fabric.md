@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/fabric
                 
             </td>
             <td>
-                Unsanitized input from a CLI argument flows into io.ioutil.ReadFile, where it is used as a path. This may result in a Path Traversal vulnerability and allow an attacker to read arbitrary files.
+                Unsanitized input from CLI argument flows into `io.ioutil.ReadFile`, where it is used as a path. This may result in a Path Traversal vulnerability and allow an attacker to read arbitrary files.
 
 Signed-off-by: Bhaskar Ram <bhaskarvilles@duck.com>
 
