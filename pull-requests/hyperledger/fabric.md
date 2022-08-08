@@ -14,6 +14,78 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3574" class=".btn">#3574</a>
+            </td>
+            <td>
+                <b>
+                    fix minor unreachable code caused by t.Fatal
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Test update
+
+
+#### Description
+
+`t.Fatal` or `os.Exit` will make the subsequent code unreachable.
+
+https://pkg.go.dev/testing#T.Fatalf
+> Fatalf is equivalent to Logf followed by FailNow.
+
+
+
+#### Additional details
+
+see https://go.dev/play/p/I6MX-QOTC9n for `t.Fatal` example:
+
+```go
+package main
+
+import (
+	"testing"
+)
+
+func TestLastIndex(t *testing.T) {
+	t.Errorf("first line")
+	t.Errorf("second line")
+	t.Fatalf("t.Fatalf will cause exit")
+	t.Fatalf("so this line cant reach")
+}
+
+/* output:
+=== RUN   TestLastIndex
+    prog.go:8: first line
+    prog.go:9: second line
+    prog.go:10: t.Fatalf will cause exit
+--- FAIL: TestLastIndex (0.00s)
+FAIL
+
+Program exited.
+*/
+
+```
+
+#### Related issues
+
+#### Release Note
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-08 11:53:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3573" class=".btn">#3573</a>
             </td>
             <td>
@@ -435,112 +507,6 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-08-03 11:45:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3559" class=".btn">#3559</a>
-            </td>
-            <td>
-                <b>
-                    Add -buildvcs=false for ccaasbuilder (backport #3556)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #3556 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-01 12:29:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3558" class=".btn">#3558</a>
-            </td>
-            <td>
-                <b>
-                    Add -buildvcs=false for ccaasbuilder (backport #3556)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #3556 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-01 12:29:42 +0000 UTC
     </div>
 </div>
 

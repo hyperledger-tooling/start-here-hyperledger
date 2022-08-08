@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/67" class=".btn">#67</a>
+                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/69" class=".btn">#69</a>
             </td>
             <td>
                 <b>
-                    docs: fix links to Node and React Native installation pages
+                    chore: add maintainers.md file
                 </b>
             </td>
         </tr>
@@ -27,14 +27,15 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
                 
             </td>
             <td>
-                I tried it locally and it worked.
+                Fixes #68
 
-I also removed the mention of NodeJS as a prerequisite for mobile app development because that's already part of React Native prerequisites.
+Signed-off-by: Timo Glastra <timo@animo.id>
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-31 11:32:59 +0000 UTC
+        Created At 2022-08-08 11:43:55 +0000 UTC
     </div>
 </div>
 

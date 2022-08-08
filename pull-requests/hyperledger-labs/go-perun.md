@@ -66,29 +66,3 @@ Based on #369
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/366" class=".btn">#366</a>
-            </td>
-            <td>
-                <b>
-                    Fix Multi-Adjudicator Subscription
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #365.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-01 12:06:50 +0000 UTC
-    </div>
-</div>
-
