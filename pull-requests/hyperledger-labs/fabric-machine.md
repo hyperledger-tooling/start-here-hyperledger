@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-machine
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-machine/pull/39" class=".btn">#39</a>
+            </td>
+            <td>
+                <b>
+                    Add maintainers file.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-08 03:51:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-machine/pull/37" class=".btn">#37</a>
             </td>
             <td>
