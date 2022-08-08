@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/99" class=".btn">#99</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/107" class=".btn">#107</a>
             </td>
             <td>
                 <b>
-                    Use user defined peer capacity
+                    Krew
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
                 
             </td>
             <td>
-                Previously the value was hardcoded, even though the parameter existed - changed to use the passed parameter
+                - Remove unused krew-plugin.yaml
+- Remove freebsd from the krew plugin since it's not supported
+
+Signed-off-by: dviejokfs <dviejo@kungfusoftware.es>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-14 08:50:50 +0000 UTC
+        Created At 2022-08-08 07:29:55 +0000 UTC
     </div>
 </div>
 

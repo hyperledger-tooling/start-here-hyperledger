@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/447" class=".btn">#447</a>
+            </td>
+            <td>
+                <b>
+                    Fix response status code
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix response status code to unauthorized when the request is not signed properly
+
+Signed-off-by: Liran Funaro <liran.funaro@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-08 12:23:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/446" class=".btn">#446</a>
             </td>
             <td>
