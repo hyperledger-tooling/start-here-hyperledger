@@ -42,36 +42,3 @@ permalink: /releases/hyperledger/firefly-common
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v0.1.16
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v0.1.16
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* Utility for serializing structs into a JSON Map (or fftypes.JSONObject) by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/27
-* Add global config entries to common (so not required in other microservices by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/28
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v0.1.15...v0.1.16
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v0.1.16" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-08-02 11:57:50 +0000 UTC
-    </span>
-</div>
-
