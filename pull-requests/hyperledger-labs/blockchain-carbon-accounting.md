@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/599" class=".btn">#599</a>
+            </td>
+            <td>
+                <b>
+                    Scripts to load oil and gas /data
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add instructions to download oil_and_gas files to /data directory, and load into product table ([issue 581](https://github.com/hyperledger-labs/blockchain-carbon-accounting/issues/581))
+
+Move CarbonTracker deployment to separate file ([issue 592](https://github.com/hyperledger-labs/blockchain-carbon-accounting/issues/592))
+
+Signed-off-by: brioux <Bertrand.rioux@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-09 04:03:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/597" class=".btn">#597</a>
             </td>
             <td>
