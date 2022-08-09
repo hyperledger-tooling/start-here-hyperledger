@@ -57,7 +57,7 @@ This is because the Lexer doesn't include underscores in the rational part but u
             </td>
             <td>
                 <b>
-                    Bump a few dependencies
+                    Fix clippy warnings for upcoming rust 1.63 release
                 </b>
             </td>
         </tr>
@@ -66,7 +66,7 @@ This is because the Lexer doesn't include underscores in the rational part but u
                 
             </td>
             <td>
-                Let's keep our dependencies up to date
+                rust 1.63 should be released on the 11th of August 2022
             </td>
         </tr>
     </table>

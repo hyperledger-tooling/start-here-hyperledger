@@ -44,6 +44,10 @@ Frontend:
 - [ ] indy v1 presentation request
 - [ ] indy v2 presentation request
 - [ ] dif presentation request
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/796"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
             </td>
         </tr>
     </table>
