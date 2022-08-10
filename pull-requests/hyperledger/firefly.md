@@ -14,6 +14,144 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/948" class=".btn">#948</a>
+            </td>
+            <td>
+                <b>
+                    Store full details of EVMConnect/EthConnect updates for Token ops
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                See https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/72 for additional detail.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-10 03:37:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/947" class=".btn">#947</a>
+            </td>
+            <td>
+                <b>
+                    Replace namespace.remotename with namespace.multiparty.networkname
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is a proposed rename for discussion.
+
+Currently a namespace can have a `name` and a `remoteName` - `name` is how it's known locally (on APIs and most database objects), while `remoteName` is how it's written into objects that transmit the namespace in a multi-party system (specifically messages, batches, and groups on dataexchange, and the BatchPin method of the V1 blockchain contract).
+
+Since the thing we've called `remoteName` is entirely specific to multiparty networks, it could be renamed to `multiparty.networkNamespace`, which seems more accurate. It would still default to the value of the local namespace `name` if unset.
+
+Counterpoints:
+- These fields will continue to show as `localNamespace` and `namespace` on messages and groups when queried (and the latter can't easily be modified due to the way hashes are computed).
+- Tokens plugins have a similar `name` and `remoteName` (one is stored locally and one is sent in messages), so this would be a departure from that terminology.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-10 00:10:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/946" class=".btn">#946</a>
+            </td>
+            <td>
+                <b>
+                    Add deprecation warning for old node config
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-10 00:00:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/945" class=".btn">#945</a>
+            </td>
+            <td>
+                <b>
+                    Remove unneeded sleep from txcommon test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #618
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-09 20:04:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/942" class=".btn">#942</a>
+            </td>
+            <td>
+                <b>
+                    Advertise full node name (with suffix) to DX
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Depends on https://github.com/hyperledger/firefly-dataexchange-https/pull/67
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-08 20:38:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/938" class=".btn">#938</a>
             </td>
             <td>
@@ -109,7 +247,7 @@ permalink: /pull-requests/hyperledger/firefly
             <td>
                 The goal here is to have a script that can detect configuration which was deprecated in a particular version of FireFly and then convert it to the newest format. By progressively iterating through versions, a config file may be brought up to date with the latest expected format.
 
-The secondary goal is for this script to be as easy to maintain as possible. I've prototyped a partial solution in both Python and Go. Both have their advantages, so I'm looking for input on the final choice.
+The secondary goal is for this script to be as easy to maintain as possible. ~~I've prototyped a partial solution in both Python and Go. Both have their advantages, so I'm looking for input on the final choice.~~ In the end, the Python solution was not significantly simpler than the Go version, and would introduce a new language, packaging system, etc. I've decided to stick with Go.
             </td>
         </tr>
     </table>
@@ -460,122 +598,6 @@ Signed-off-by: Jeff <60796676+JeffNeff@users.noreply.github.com>
     </table>
     <div class="right-align">
         Created At 2022-08-03 21:00:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/920" class=".btn">#920</a>
-            </td>
-            <td>
-                <b>
-                    add E2E test for token plugins with remote names
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds a new test suite for tokens plugins with remote names. 
-
-Fixes #929 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-02 22:11:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/919" class=".btn">#919</a>
-            </td>
-            <td>
-                <b>
-                    E2E test for tokens only namespaces
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">migration_consideration</span>
-            </td>
-            <td>
-                * Adds an E2E test for namespaces with only a `tokens` plugin
-* Moves `keynormalization` config under `namespaces.predefined[].assets.manager.keynormalization`
-* Adds common for code adding namespaces, resetting firefly, etc. to a common package
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-02 18:33:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/918" class=".btn">#918</a>
-            </td>
-            <td>
-                <b>
-                    Add multi-tenancy E2E test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ~~In a chain with #916~~
-
-Includes additional fixes for separating messages/data on different namespaces.
-
-This also includes changes to the NextPins table to add a namespace column.
-While it's not possible to populate namespace on any existing entries, we make a best
-effort at migration by setting the namespace every time a row is updated. This will allow
-legacy environments to migrate over time, as long as they don't immediately add
-multi-tenant nodes alongside existing ones.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-02 17:55:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/917" class=".btn">#917</a>
-            </td>
-            <td>
-                <b>
-                    Add admin and config fields to E2E testState
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-02 12:57:04 +0000 UTC
     </div>
 </div>
 

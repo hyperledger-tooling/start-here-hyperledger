@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2003" class=".btn">#2003</a>
+            </td>
+            <td>
+                <b>
+                    [quorum] ansible decoupling raft crypto creation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: manikanta-darsi <manikanta.darsi@accenture.com>
+
+**Changelog**
+- Add ansible decoupling raft crypto creation
+
+ 
+
+**Reviewed by**
+@sownak @suvajit-sarkar @jagpreetsinghsasan 
+
+ 
+
+**Linked issue**
+#1835 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-10 11:43:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2002" class=".btn">#2002</a>
             </td>
             <td>

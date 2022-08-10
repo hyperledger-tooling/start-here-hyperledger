@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/54" class=".btn">#54</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/58" class=".btn">#58</a>
             </td>
             <td>
                 <b>
-                    fix seed generation and ledger registration
+                    add maintainers file
                 </b>
             </td>
         </tr>
@@ -27,20 +27,14 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
                 
             </td>
             <td>
-                see: https://github.com/hyperledger-labs/business-partner-agent-chart/issues/53
-
-- removed automatic seed generation.
-- had to keep a default value, because otherwise the tests will not run anymore. 
-- set acapy admin key. 
-- removed not needed acapy start params.
-- removed idu ledger registration because it is not portable
+                see https://github.com/hyperledger-labs/business-partner-agent-chart/issues/57
 
 Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-26 09:55:21 +0000 UTC
+        Created At 2022-08-10 10:43:40 +0000 UTC
     </div>
 </div>
 

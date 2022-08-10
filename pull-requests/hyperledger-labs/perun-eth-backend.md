@@ -38,29 +38,3 @@ Depends on https://github.com/hyperledger-labs/go-perun/pull/370.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/26" class=".btn">#26</a>
-            </td>
-            <td>
-                <b>
-                    Update go-perun to v0.10.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-03 06:34:10 +0000 UTC
-    </div>
-</div>
-

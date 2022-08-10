@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/221" class=".btn">#221</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/222" class=".btn">#222</a>
             </td>
             <td>
                 <b>
-                    Fix multi-branch scheduled GitHub Actions build
+                    Return an Idemix Enrollment as a Serialized String
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
                 
             </td>
             <td>
-                <nil>
+                Added an API to return an Identity Mixer Enrollment as a Serialized
+String
+
+Signed-off-by: Kavin <a.kavin24@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-15 22:51:34 +0000 UTC
+        Created At 2022-08-09 06:17:03 +0000 UTC
     </div>
 </div>
 

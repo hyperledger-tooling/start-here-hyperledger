@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1438" class=".btn">#1438</a>
+            </td>
+            <td>
+                <b>
+                    Collect Prometheus metrics in manager using messages
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Alternative implementation that works for both local and remote workers.
+(This is just a draft implementation, discussions are ongoing in Discord)
+
+## Checklist
+ - [x]  A link to the issue/user story that the pull request relates to
+ - [ ]  How to recreate the problem without the fix
+ - [ ]  Design of the fix
+ - [ ]  How to prove that the fix works
+ - [ ]  Automated tests that prove the fix keeps on working
+ - [ ]  Documentation - any JSDoc, website, or Stackoverflow answers?
+
+
+## Issue/User story
+#1353
+
+## Design of the fix
+WIP
+
+## Validation of the fix
+|Approach|Results|
+|:--:|:--:|
+|PushGateway with local workers and mqtt communication|![image](https://user-images.githubusercontent.com/36656347/183692152-be68eb1f-a34c-4b09-aeac-50ab29bfc03e.png)|
+|This PR (metrics communicated using messages) with local workers and mqtt communication|![image](https://user-images.githubusercontent.com/36656347/183691928-b704009f-f7dc-4dd6-8bbb-f0206ce0790a.png)|
+|PR #1434 (metrics communicated using IPC) with local workers and mqtt communication|![image](https://user-images.githubusercontent.com/36656347/183694509-08504e92-0584-46f2-a5e5-e220187cf6f7.png)|
+
+## Automated Tests
+WIP
+
+## What documentation has been provided for this pull request
+WIP
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-09 15:38:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1435" class=".btn">#1435</a>
             </td>
             <td>
@@ -182,34 +238,6 @@ Fixes #1354
     </table>
     <div class="right-align">
         Created At 2022-08-04 07:34:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1425" class=".btn">#1425</a>
-            </td>
-            <td>
-                <b>
-                    Revert "Add workflow for gh-pages branch"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Reverts hyperledger/caliper#1423
-
-This is because the changes were superseded by #1424
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-02 02:37:06 +0000 UTC
     </div>
 </div>
 
