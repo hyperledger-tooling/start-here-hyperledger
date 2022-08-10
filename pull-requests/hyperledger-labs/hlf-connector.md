@@ -14,25 +14,25 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/42" class=".btn">#42</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/43" class=".btn">#43</a>
             </td>
             <td>
                 <b>
-                    update springboot version
+                    Increment version after release
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">auto-version-increment</span>
             </td>
             <td>
-                Signed-off-by: weihong-ou <weihong.ou@walmart.com>
+                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-29 16:07:37 +0000 UTC
+        Created At 2022-08-09 10:59:11 +0000 UTC
     </div>
 </div>
 

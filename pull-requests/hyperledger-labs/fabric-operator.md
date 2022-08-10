@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/43" class=".btn">#43</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/45" class=".btn">#45</a>
             </td>
             <td>
                 <b>
-                    resolve #17
+                    Feature/bootstrap ca registration
                 </b>
             </td>
         </tr>
@@ -27,73 +27,16 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                try to resolve #17, Metrics and observability with [Prometheus and Grafana](./docs/prometheus.md)
+                This PR: 
 
-Signed-off-by: Sam Yuan <yy19902439@126.com>
+- Optionally exposes the KIND / local docker insecure registry on alternate NICs, e.g. 0.0.0.0:9999.  (This encourages "remote" development patterns when building chaincode and gateway images locally on a host OS, then uploading into the k8s cluster without publishing to a public repo.)
+
+- Runs a bootstrap `rcaadmin` client enrollment when setting up the CAs.  This allows a remote `fabric-ca-client` to register and enroll new user IDs directly at the org CA, without using the console GUI or ansible playbooks. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-31 13:17:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/42" class=".btn">#42</a>
-            </td>
-            <td>
-                <b>
-                    Fix the api branch with latest apis
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * Updated api branch
-* removed unwanted files
-
-Signed-off-by: Ratnakar Asara <asara.ratnakar@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-29 17:10:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/41" class=".btn">#41</a>
-            </td>
-            <td>
-                <b>
-                    Bundle a localhost:5000 container registry for local CC development
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR bundles an insecure docker container registry at localhost:5000.  
-
-During local build/edit/publish cycles for chaincode and gateway application development, the local registry can be used to publish docker images to k8s without uploading images to public / Internet-based registries. 
-
-Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-29 11:53:37 +0000 UTC
+        Created At 2022-08-08 18:34:00 +0000 UTC
     </div>
 </div>
 

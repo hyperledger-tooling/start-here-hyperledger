@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/homebrew-solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/homebrew-solang/pull/1" class=".btn">#1</a>
+                PR <a href="https://github.com/hyperledger-labs/homebrew-solang/pull/3" class=".btn">#3</a>
             </td>
             <td>
                 <b>
-                    Add Solang cask to private tap
+                    Add MAINTAINERS.md file
                 </b>
             </td>
         </tr>
@@ -27,15 +27,14 @@ permalink: /pull-requests/hyperledger-labs/homebrew-solang
                 
             </td>
             <td>
-                This PR adds the Solang cask to our private tap. To test it, before merging this PR, use the following instructions:
+                Fixes #2.
 
-1. Uninstall any Solang binary from your Mac.
-2. Run `brew install lucasste/solang/solang`.
+Signed-off-by: Sean Young <sean@mess.org>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-27 13:53:43 +0000 UTC
+        Created At 2022-08-05 15:55:33 +0000 UTC
     </div>
 </div>
 
