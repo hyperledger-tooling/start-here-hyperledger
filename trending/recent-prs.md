@@ -1,13 +1,13 @@
 
 [600](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/600) Re-add OZ upgrades package for CarbonTracker; update test addresses
 
-[38](https://github.com/hyperledger-labs/yui-corda-ibc/pull/38) README: add an instruction to sync the git submodules
+[294](https://github.com/hyperledger-labs/fabric-operations-console/pull/294) Various fixes
 
-[599](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/599) Scripts to load oil and gas /data
+[29](https://github.com/hyperledger-labs/perun-eth-backend/pull/29) Recover funds test
 
-[101](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/101) Bump normalize-url from 4.5.0 to 4.5.1
+[43](https://github.com/hyperledger-labs/hlf-connector/pull/43) Increment version after release
 
-[100](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/100) update README
+[39](https://github.com/hyperledger-labs/karma-charity-platform/pull/39) adding list of maintainers
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
