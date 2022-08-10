@@ -75,7 +75,7 @@ Trying to see if it's possible to build an arm docker image on a x86 runner.
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
-
+Fixes #4211
 ## Documentation
 
 - [ ] I thought about documentation and added the `doc-change-required` label to this PR if
@@ -581,91 +581,6 @@ but these internal errors are not reported in besu
     </table>
     <div class="right-align">
         Created At 2022-08-04 03:13:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4214" class=".btn">#4214</a>
-            </td>
-            <td>
-                <b>
-                    Update for next release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Set versions for next release - 22.7.1-SNAPSHOT
-
-Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [X] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ X I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-03 16:08:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4213" class=".btn">#4213</a>
-            </td>
-            <td>
-                <b>
-                    Release 22.7.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Release Besu 22.7.0
-
-Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
-
-## Documentation
-
-- [X] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-03 16:07:37 +0000 UTC
     </div>
 </div>
 

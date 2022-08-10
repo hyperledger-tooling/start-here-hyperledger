@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/401" class=".btn">#401</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/403" class=".btn">#403</a>
             </td>
             <td>
                 <b>
-                    Created "Added to Contacts" notification
+                    Feature connection notification
                 </b>
             </td>
         </tr>
@@ -27,11 +27,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
                 
             </td>
             <td>
-                Signed-off-by: wadeking98 <wkingnumber2@gmail.com>
+                # Summary of Changes
 
-# Summary of Changes
-
-Added notification to let user know that a connection has been added to their contacts when being offered a credential
+- Added notification on credential offer screen to let user know that a contact has been added.
+- Added popup dialog box to display information about contacts
+- Added unordered list component
 
 # Related Issues
 
@@ -59,7 +59,49 @@ _PR template adapted from the Python attrs project._
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-08 23:19:16 +0000 UTC
+        Created At 2022-08-10 17:51:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/402" class=".btn">#402</a>
+            </td>
+            <td>
+                <b>
+                    Security module: Store salt in secure keychain/datastore
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Mostafa <moscd3@gmail.com>
+
+# Summary of Changes
+
+Store salt in secure keychain(iOS)/android keystore 
+Previously it was stored in async storage which is not as secure
+
+# Pull Request Checklist
+
+Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
+
+- [X] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [X] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [X] Updated documentation as needed for changed code and new or modified features;
+- [] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-10 12:41:06 +0000 UTC
     </div>
 </div>
 

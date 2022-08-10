@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/ursa-wrapper-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/ursa-wrapper-go/pull/42" class=".btn">#42</a>
+            </td>
+            <td>
+                <b>
+                    Add MAINTAINERS.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added MAINTAINERS.md file.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-10 13:27:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/ursa-wrapper-go/pull/41" class=".btn">#41</a>
             </td>
             <td>

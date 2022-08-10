@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/953" class=".btn">#953</a>
+            </td>
+            <td>
+                <b>
+                    Distinguish "message not available" from "message missing data"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-10 18:12:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/950" class=".btn">#950</a>
+            </td>
+            <td>
+                <b>
+                    fixing the example firefly core command
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update the example command to match the latest folder structure.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-10 13:37:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/949" class=".btn">#949</a>
+            </td>
+            <td>
+                <b>
+                    Add BLOCKCHAIN_CONNECTOR env var and add evmconnect to manifest
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Peter Broadhurst <peter.broadhurst@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-10 13:29:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/948" class=".btn">#948</a>
             </td>
             <td>
