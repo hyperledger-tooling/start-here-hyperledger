@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/602" class=".btn">#602</a>
+            </td>
+            <td>
+                <b>
+                    Create `verify-all` task for simple Etherscan verification
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                After deploying contracts, run the command `npx hardhat verify-all --network [network]`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-10 16:05:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/600" class=".btn">#600</a>
             </td>
             <td>

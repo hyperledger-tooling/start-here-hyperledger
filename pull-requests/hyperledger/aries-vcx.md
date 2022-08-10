@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger/aries-vcx
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/535" class=".btn">#535</a>
-            </td>
-            <td>
-                <b>
-                    AFJ Interop: Inline value of recipient keys in ddo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">interop</span>
-            </td>
-            <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-03 17:29:51 +0000 UTC
-    </div>
-</div>
-

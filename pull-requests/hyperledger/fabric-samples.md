@@ -100,31 +100,3 @@ Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/808" class=".btn">#808</a>
-            </td>
-            <td>
-                <b>
-                    Clarifies podman instructions for test-network
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also reverts to using install-fabric.sh which is preferred over bootstrap.sh.
-
-Signed-off-by: Arnaud J Le Hors <lehors@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-03 16:43:34 +0000 UTC
-    </div>
-</div>
-

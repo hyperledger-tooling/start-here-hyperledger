@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/244" class=".btn">#244</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/245" class=".btn">#245</a>
             </td>
             <td>
                 <b>
-                    feat: expose ChannelProvider from the gateway
+                    delete minor unreachable code caused by t.Fatal
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
                 
             </td>
             <td>
-                We have a use case where given a Getway we need to query the ledger for some information (retrieving block from txID).
-
-Being able to obtain the ChannelProvider is convenient since we can then create ledger.Client as needed.
-I wonder however if it is desirable to expose such a low level component. Maybe something like `gateway.GetLedger(...)` would be more appropriate? Let me know what you think.
+                Signed-off-by: Abirdcfly <fp544037857@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-29 08:59:14 +0000 UTC
+        Created At 2022-08-10 17:36:14 +0000 UTC
     </div>
 </div>
 
