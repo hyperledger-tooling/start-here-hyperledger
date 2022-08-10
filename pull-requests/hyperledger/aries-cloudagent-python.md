@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1892" class=".btn">#1892</a>
+            </td>
+            <td>
+                <b>
+                    Refactor ledger correction code and insert into revocation error handling
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-09 22:04:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1891" class=".btn">#1891</a>
+            </td>
+            <td>
+                <b>
+                    did registry cleanup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR removes did registry class and uses a list instead. Simplifying the code.
+
+Signed-off-by: Adam Burdett <burdettadam@gmail.com>
+Co-authored-by: Daniel Bluhm <dbluhm@pm.me>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-09 19:12:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1888" class=".btn">#1888</a>
             </td>
             <td>
@@ -36,7 +91,7 @@ This PR adds Dockerfiles for publishing images for ACA-Py directly from this rep
 - The default ACA-Py image's user is now `aries` instead of `indy`. The ACA-Py+Indy image's user will still be `indy` (this inconsistency may be undesirable...).
 - I introduced an `indy-python` image that can be reused as a base for things needing an image with just python3-indy and built Indy libraries. This is the base image used by the ACA-Py+Indy image. I would like to see this published as `ghcr.io/hyperledger/indy-python`.
 - Rather than using pyenv to get a specific python version, I opted to just use the relevant python docker image for the requested version, i.e. `python:3.6.13-slim-buster`. Python packages are installed into the system site packages (rather than the user site packages or a virtual environment).
-- For now, I've followed the example of the aries-cloudagent-container repo and am installing ACA-Py through the published PyPI package. It might make more sense to be able to published directly from the repo contents?
+- For now, I've followed the example of the aries-cloudagent-container repo and am installing ACA-Py through the published PyPI package. It might make more sense to be able to publish directly from the repo contents?
 
 I get the feeling that we can further prune a lot of the installed packages but (for now) I've left in most of those originally installed in von-image.
 

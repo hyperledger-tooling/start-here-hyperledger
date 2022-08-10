@@ -14,6 +14,275 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4246" class=".btn">#4246</a>
+            </td>
+            <td>
+                <b>
+                    try to remove arm runner, instead build with architecture env only
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
+
+## PR description
+Trying to see if it's possible to build an arm docker image on a x86 runner.
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-10 06:05:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4241" class=".btn">#4241</a>
+            </td>
+            <td>
+                <b>
+                    quieten DynamicPivotBlockManager
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+* Only change pivot block if it is different than the existing syncTarget pivotBlock
+* move logging level to debug
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-09 23:36:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4240" class=".btn">#4240</a>
+            </td>
+            <td>
+                <b>
+                    remove MergeUnfinalizedValidationRule
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span>
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+The CL is allowed to reorg around finalized via social consensus.  Remove this validation rule and rely solely on the CL for that social coordination.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-09 18:38:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4237" class=".btn">#4237</a>
+            </td>
+            <td>
+                <b>
+                    Better management of jemalloc presence/absence
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span><span class="chip">logging</span>
+            </td>
+            <td>
+                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+If jemalloc is not present, an error message is printed, but the absence of jemalloc is not a real error, so in this PR we try to understand if jemalloc is available and print messages that are easier for the user to understand, and invite him to install jemalloc to get better memory usage
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-09 13:59:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4236" class=".btn">#4236</a>
+            </td>
+            <td>
+                <b>
+                    Always switch full sync target when local chain is close to chain head
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span>
+            </td>
+            <td>
+                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Full sync has a sync target stability feature that works well when syncing from genesis, but is not optimal when the initial sync is done and local chian head is equal or very close to the target head, when the stability feature could prevent switching to the best peer.
+
+By default the stability feature prevent to switch to the best peer, if its height is not 200 block greather, or the difficulty is not 1_000_000_000_000_000_000L greather than the current sync target. 
+
+These value are too large when we are already in sync and just need to follow the best peer, so this PR, changes only enable the stability feature when the current chain head is far from the target head, that occurs when doing a full sync from genesis or when you restart Besu after some hours or days.
+
+This can help Besu to stay in sync, because if the block propagation manager is missing some blocks, then it stops caching incoming blocks when the distance with the local chain head is > 30, but since the chain state of a peer is only updated when a new block is seen from that peer, there could not be enough information for the current sync target switching strategy to switch to the best peer.
+
+On an already synced node, there are 2 hidden configuration flags to always for the switch to the best peer, without this patch:
+`--Xsynchronizer-downloader-change-target-threshold-by-td=0`
+`--Xsynchronizer-downloader-change-target-threshold-by-height=0`
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+potential fix for #3955
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-09 12:20:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4234" class=".btn">#4234</a>
+            </td>
+            <td>
+                <b>
+                    peer count - just count the live ones
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span><span class="chip">peering</span>
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+This does not address the root cause, but will address the problem of users complaining that the logs report too many peers.
+
+This should mean that the number of peers reported in the logs will be the correct number ie the number of connected peers
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-09 10:18:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4230" class=".btn">#4230</a>
             </td>
             <td>
@@ -24,7 +293,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">peering</span>
             </td>
             <td>
                 Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
@@ -101,34 +370,38 @@ I think make sense to have an upper bound, a peer can increase its repution unti
             </td>
             <td>
                 <b>
-                    WIP: Add more log to retrieve parent method
+                    Improve pending blocks retrieval mechanism
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">TeamRevenant</span>
+                <span class="chip">TeamRevenant</span><span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: Gabriel Trintinalia <gabriel.trintinalia@consensys.net>
 
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
 ## PR description
+When a block is saved for future import, requesting the lowest announced block parent does not seem to be always the best option. It can be that we cannot retrieve this block and then we keep selecting the lowest block over and over and eventually it does not fix the gap. A better approach for trying to unstick could be to request the parent of the lowest pending ancestor
+
+Changes:
+- When saving a block for future import, try to retrieve the parent of the lowest pending block connected to this block.
+- When saving a block for future import, do not try to retrieve the parent the lowest announced block.
+- Avoid requesting the same parent block several times when saving pending blocks
+- Improve logs when saving/importing a block
 
 ## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
+potential aid for #3955
+#4197
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -159,7 +432,7 @@ I think make sense to have an upper bound, a peer can increase its repution unti
 
 ## PR description
 * re-enable PoW, Timestamp, and Difficulty block header validation rules regardless of merge configuration.  
-* filter out headers in sync ranges that are pre/post merge via a difficulty filter.
+* if merge is enabled, use an AttachedBlockHeaderValidationRule version of ProofOfWorkValidationRule
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -393,289 +666,6 @@ Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-08-03 16:07:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4210" class=".btn">#4210</a>
-            </td>
-            <td>
-                <b>
-                    Revert: mainnet blockheder validation merge check
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: garyschulte <garyschulte@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-This is a stopgap revert to address a post-merge sync regression caused by #4190.  The correct fix for this will need to wait until after the 22.7.0 release
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-workaround for #4209 
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-03 07:34:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4209" class=".btn">#4209</a>
-            </td>
-            <td>
-                <b>
-                    Fix post-merge fast sync regression
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #4208
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-02 21:23:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4207" class=".btn">#4207</a>
-            </td>
-            <td>
-                <b>
-                    Increase Gradle max heap size
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Diego López León <dieguitoll@gmail.com>
-
-## PR description
-This PR increases the maximum heap size for the Gradle build. [By default](https://docs.gradle.org/current/userguide/build_environment.html#sec:configuring_jvm_memory) it's set to 512 megabytes but it doesn't seem enough to run the build process from IntelliJ.
-Without this proposed property I could see this message in the Build console:
-```
-Expiring Daemon because JVM heap space is exhausted
-Daemon will be stopped at the end of the build after running out of JVM memory
-Expiring Daemon because JVM heap space is exhausted
-Expiring Daemon because JVM heap space is exhausted
-Expiring Daemon because JVM heap space is exhausted
-Daemon is stopping immediately JVM garbage collector thrashing and after running out of JVM memory
-```
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-02 17:58:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4206" class=".btn">#4206</a>
-            </td>
-            <td>
-                <b>
-                    Fix ConcurrentModificationException on ReattemptPendingPeerRequests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                Signed-off-by: Gabriel Trintinalia <gabriel.trintinalia@consensys.net>
-
-## PR description
-A ConcurrentModificationExpetion happens when EthPeers reattempts to execute its Pending Requests and one  request causes a peer to disconnect. This happens because RemoveIf on CopyOnWriteArrayList will test the filter for each item first and mark those who need to be removed and then throw the exception if the list was modified by any filter. 
-
-Replacing removeIf with iterator seems to solve the issue.
-
-## Fixed Issue(s)
-#3491
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-02 13:43:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4205" class=".btn">#4205</a>
-            </td>
-            <td>
-                <b>
-                    Fix Optional handling when TTD is absent
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                Signed-off-by: garyschulte <garyschulte@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-fix an oversight in the Optional<MergeContext> handling when TTD is absent.  Also ensure the unit test mocks the absence of MergeContext not just the absence of TTD.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-bugfix for #4172 
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-02 02:48:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4204" class=".btn">#4204</a>
-            </td>
-            <td>
-                <b>
-                    Set snap sync as default for named ethereum networks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                Signed-off-by: garyschulte <garyschulte@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Set snap sync as default for named ethereum networks.  No rush to merge this one ahead of the 22.7.0 release
-
-* changes NetworkName to specify the default SyncMode, rather than just a boolean for support FAST sync or not
-* sets snap sync as the default for:
-  - kiln
-  - goerli
-  - sepolia 
-  - ropsten
-  - rinkeby
-  - mainnet
-  
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #4203 
-
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-02 02:41:29 +0000 UTC
     </div>
 </div>
 

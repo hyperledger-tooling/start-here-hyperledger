@@ -244,33 +244,3 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/352" class=".btn">#352</a>
-            </td>
-            <td>
-                <b>
-                    Remove cleaning of non-generated file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The main.go under
-/integration/fsc/pingpong/cmd/responder
-is not generated automatically, hence it should not be cleaned when make clean is invoked
-
-Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-03 10:17:55 +0000 UTC
-    </div>
-</div>
-

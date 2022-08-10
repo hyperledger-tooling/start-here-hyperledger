@@ -14,6 +14,94 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3322" class=".btn">#3322</a>
+            </td>
+            <td>
+                <b>
+                    fix: JWS algorithm for signature suite 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+
+closes #1589
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-10 09:59:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3320" class=".btn">#3320</a>
+            </td>
+            <td>
+                <b>
+                    feat: allow mediator GetConnections APIs to filter by didcomm version.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #3321 
+
+Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-08 23:40:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3319" class=".btn">#3319</a>
+            </td>
+            <td>
+                <b>
+                    fix: presentation with empty credential fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change fixes how a presentation is marshalled with empty credential field which wrongly outputs:
+'"verifiableCredential": null'
+
+This change skips this field if the presentation Credential field is empty
+
+Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-08 19:12:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3318" class=".btn">#3318</a>
             </td>
             <td>
@@ -102,80 +190,6 @@ Added signer and verifier based on private/public key type.
     </table>
     <div class="right-align">
         Created At 2022-08-04 13:37:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3313" class=".btn">#3313</a>
-            </td>
-            <td>
-                <b>
-                    fix: change aries default wallet to didcommwallet.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Volodymyr Kubiv <volodymyr.kubiv@euristiq.com>
-
-**Title:**
-Change aries default wallet to didcommwallet.
-
-**Summary:**
-
-Didcomm functionality was moved from vcwallet to didcommwallet, to agent-sdk work properly default wallet should be changes to didcommwallet.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-03 12:16:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3312" class=".btn">#3312</a>
-            </td>
-            <td>
-                <b>
-                    feat: support of presentation exchange v2.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Volodymyr Kubiv <volodymyr.kubiv@euristiq.com>
-
-
-**Title:**
-Presentation exchange v2
-
-**Description:**
-https://github.com/hyperledger/aries-framework-go/issues/3297
-
-**Summary:**
-
-Added support of changes from the latest presentation exchange draft https://identity.foundation/presentation-exchange/
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-02 12:29:36 +0000 UTC
     </div>
 </div>
 

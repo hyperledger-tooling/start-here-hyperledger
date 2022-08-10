@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/979" class=".btn">#979</a>
+            </td>
+            <td>
+                <b>
+                    refactor/ppv2 generic proofs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is essentially a three-way merge of
+
+feat/ppv2
+0.3.0-pre
+TimoGlastra/refactor/generalize-proofs
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-09 11:38:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/976" class=".btn">#976</a>
             </td>
             <td>

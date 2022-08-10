@@ -14,37 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weft
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weft/pull/18" class=".btn">#18</a>
+                PR <a href="https://github.com/hyperledger-labs/weft/pull/23" class=".btn">#23</a>
             </td>
             <td>
                 <b>
-                    Update install.sh
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Matthew B White <mbwhite@users.noreply.github.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-03 12:22:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weft/pull/17" class=".btn">#17</a>
-            </td>
-            <td>
-                <b>
-                    Updated install script
+                    release new version
                 </b>
             </td>
         </tr>
@@ -58,7 +32,85 @@ permalink: /pull-requests/hyperledger-labs/weft
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-03 12:12:16 +0000 UTC
+        Created At 2022-08-10 08:47:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/weft/pull/22" class=".btn">#22</a>
+            </td>
+            <td>
+                <b>
+                    update eslint versions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-10 08:06:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/weft/pull/21" class=".btn">#21</a>
+            </td>
+            <td>
+                <b>
+                    Release to npmjs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-10 07:50:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/weft/pull/20" class=".btn">#20</a>
+            </td>
+            <td>
+                <b>
+                    Release to npmjs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-10 07:44:58 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/612" class=".btn">#612</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/614" class=".btn">#614</a>
             </td>
             <td>
                 <b>
-                    Add pointer to Fabric Gateway in fabric-network package README (release-2.2)
+                    Update @grpc/grpc-js version (release-2.2)
                 </b>
             </td>
         </tr>
@@ -27,12 +27,18 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                <nil>
+                Accompanying updated to suitable @grpc/proto-loader and protobufjs versions.
+
+This addresses a gRPC bug that could cause pings to be sent on destroyed HTTP sessions, resulting in the following error:
+
+Error [ERR_HTTP2_INVALID_SESSION]: The session has been destroyed
+
+Closes #593
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-20 12:45:47 +0000 UTC
+        Created At 2022-08-10 08:35:53 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +46,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/611" class=".btn">#611</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/613" class=".btn">#613</a>
             </td>
             <td>
                 <b>
-                    Add pointer to Fabric Gateway in fabric-network package README
+                    Update @grpc/grpc-js version
                 </b>
             </td>
         </tr>
@@ -53,12 +59,18 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                <nil>
+                Accompanying updated to suitable @grpc/proto-loader and protobufjs versions.
+
+This addresses a gRPC bug that could cause pings to be sent on destroyed HTTP sessions, resulting in the following error:
+
+Error [ERR_HTTP2_INVALID_SESSION]: The session has been destroyed
+
+Closes #593
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-20 12:44:11 +0000 UTC
+        Created At 2022-08-10 08:32:05 +0000 UTC
     </div>
 </div>
 

@@ -14,7 +14,53 @@ permalink: /pull-requests/hyperledger/ursa-wrapper-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/ursa-wrapper-go/pull/38" class=".btn">#38</a>
+                PR <a href="https://github.com/hyperledger/ursa-wrapper-go/pull/41" class=".btn">#41</a>
+            </td>
+            <td>
+                <b>
+                    Credential values json serialize/deserialize
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * added cred vals serialization methods to header
+* added cred vals serialization methods to Golang code
+* updated value builder test
+* fixed comment
+
+Signed-off-by: konstantin.goncharov <konstantin.goncharov@avast.com>
+Signed-off-by: Ry Jones <ry@linux.com>
+
+Use the following template for your PR (make sure you follow our
+[guidelines](CONTRIBUTING.md#pull-request):
+
+**Title:**
+[Descriptive but using as few words as possible]
+
+**Description:**
+[Link to the GitHub issue it solves (if any)]
+
+Summary:
+
+[Include a brief summary of your changes]
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-09 17:01:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/ursa-wrapper-go/pull/39" class=".btn">#39</a>
             </td>
             <td>
                 <b>
@@ -27,48 +73,16 @@ permalink: /pull-requests/hyperledger/ursa-wrapper-go
                 
             </td>
             <td>
-                <nil>
+                **Title:**
+Fix back the CI to build the latest main Ursa Docker image
+
+**Note:**
+Currently branch-based approach should be used for PRs in ursa-wrapper-go repo, as access to secrets is expected. Forks don't have access to repo secrets. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-08 14:12:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/ursa-wrapper-go/pull/36" class=".btn">#36</a>
-            </td>
-            <td>
-                <b>
-                    Credential values serialization/deserialization
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Credential values serialization/deserialization:**
-
-**Description:**
-Changes to support json for CredValues related to https://github.com/hyperledger/ursa/pull/210 changes in `ursa`
-
-Summary:
-
-* added toJson/fromJson methods for Credential Values to the header file
-* added Golang wrappers for the methods
-* updated related test
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-02 13:35:50 +0000 UTC
+        Created At 2022-08-09 14:15:37 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/351" class=".btn">#351</a>
+            </td>
+            <td>
+                <b>
+                    documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-10 09:42:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/348" class=".btn">#348</a>
             </td>
             <td>
@@ -287,151 +313,6 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-08-03 14:34:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/333" class=".btn">#333</a>
-            </td>
-            <td>
-                <b>
-                    Reduce staticcheck warnings (SA1019)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As part of issue #317, removed warnings related to:
-* SA1019: Used fabric-smart-client proto package to work around deprecated package
-
-Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-03 10:13:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/332" class=".btn">#332</a>
-            </td>
-            <td>
-                <b>
-                    Reduce staticcheck warnings (SA5007)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As part of issue #317, removed warnings related to:
-* SA5007: fixed infinite recursion
-
-Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-03 10:13:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/331" class=".btn">#331</a>
-            </td>
-            <td>
-                <b>
-                    Reduce staticcheck warnings (S1038, S1012, S1021, SA4001)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As part of issue #317, removed warnings related to:
-* S1038: removed redundant Sprintf
-* S1012: replaced time.Now().Sub with time.Since,
-* S1021: merged variable declaration and assignment
-* SA4001: simplified *&x to x
-
-Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-03 10:11:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/330" class=".btn">#330</a>
-            </td>
-            <td>
-                <b>
-                    check that the tokens accepted appear in the vault
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - token.Quantity must contain a number in hex format.
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-03 09:09:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/329" class=".btn">#329</a>
-            </td>
-            <td>
-                <b>
-                    Reduce staticcheck warnings (SA9003)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As part of issue https://github.com/hyperledger-labs/fabric-token-sdk/issues/317, removed warnings related to:
-* SA9003: ignored empty branches
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-03 06:24:47 +0000 UTC
     </div>
 </div>
 
