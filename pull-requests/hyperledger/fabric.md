@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3588" class=".btn">#3588</a>
+            </td>
+            <td>
+                <b>
+                    Add channel capability for SmartBFT
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Cherry pick of https://github.com/Fabric-orderer-collaboration/fabric/commit/e3fe50b45277ab5e9bbe4bdcc42ddd39060a28f2
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-11 16:49:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3587" class=".btn">#3587</a>
             </td>
             <td>
@@ -864,39 +893,6 @@ Finally, you can contact us on https://mergify.com
     </table>
     <div class="right-align">
         Created At 2022-08-04 19:38:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3565" class=".btn">#3565</a>
-            </td>
-            <td>
-                <b>
-                    fix timeout ginkgo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In the old ginkgo, the timeout by default is 24h
-
-In the new ginkgo (v2) the timeout by default is 1h
-
-1 hour is not enough to pass the integration tests
-
-I suggest that you explicitly pass the timeout parameter equal to 24h, so that there is enough time to pass the integration tests 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-04 14:03:18 +0000 UTC
     </div>
 </div>
 

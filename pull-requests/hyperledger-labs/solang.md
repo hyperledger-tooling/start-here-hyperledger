@@ -168,29 +168,3 @@ This is because the Lexer doesn't include underscores in the rational part but u
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/952" class=".btn">#952</a>
-            </td>
-            <td>
-                <b>
-                    Organize installation instructions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I reorganized the installation instructions from our docs, making it clear that the one needs to install Solana's LLVM fork before building Solang, following the suggestion from #948.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-04 16:52:22 +0000 UTC
-    </div>
-</div>
-
