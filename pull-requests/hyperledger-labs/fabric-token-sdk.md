@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/354" class=".btn">#354</a>
+            </td>
+            <td>
+                <b>
+                    translator: remove IssuingValidator #352
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-11 04:15:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/351" class=".btn">#351</a>
             </td>
             <td>
@@ -254,35 +280,6 @@ Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-08-04 12:20:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/336" class=".btn">#336</a>
-            </td>
-            <td>
-                <b>
-                    Reduce staticcheck warnings (U1000)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As part of issue #317, removed warnings related to:
-* U1000: Removed unused variables/functions
-
-Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-04 03:43:56 +0000 UTC
     </div>
 </div>
 
