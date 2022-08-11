@@ -254,38 +254,3 @@ permalink: /releases/hyperledger-labs/hlf-operator
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    Version 1.7.0-beta11
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v1.7.0-beta11
-                </span>
-            </td>
-            <td>
-                ## Changelog
-* a34ce19 Update CRD
-* 1bf12f6 Solve issue when there's no auth in operatorui and operatorapi Optional logoUrl
-* ff84ae3 Add node selector to peer/orderer/ca
-* c60468f Add networkConfig to hlf operator
-* 718e73e Fix CLI issues
-
-
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger-labs/hlf-operator/releases/tag/v1.7.0-beta11" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-08-04 11:18:01 +0000 UTC
-    </span>
-</div>
-

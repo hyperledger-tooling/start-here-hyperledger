@@ -7,7 +7,7 @@
 
 [v2.4.6](https://github.com/hyperledger/fabric/releases/tag/v2.4.6) v2.4.6
 
-[v0.1.17](https://github.com/hyperledger/firefly-common/releases/tag/v0.1.17) v0.1.17
+[v0.1.18](https://github.com/hyperledger/firefly-common/releases/tag/v0.1.18) v0.1.18
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
