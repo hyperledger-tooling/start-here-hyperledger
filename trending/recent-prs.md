@@ -1,13 +1,13 @@
 
-[953](https://github.com/hyperledger/firefly/pull/953) Distinguish "message not available" from "message missing data"
+[46](https://github.com/hyperledger-labs/fabric-operator/pull/46) Use hyperledger-labs operator, not ibm-blockchain operator in sample network
 
-[403](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/403) Feature connection notification
+[407](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/407) Added connection notification to cred offer and presentaions
 
-[245](https://github.com/hyperledger/fabric-sdk-go/pull/245) delete minor unreachable code caused by t.Fatal
+[406](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/406) Fixed OOB proof stuck on sending screen
 
-[3324](https://github.com/hyperledger/aries-framework-go/pull/3324) fix: vc subject marshal
+[955](https://github.com/hyperledger/firefly/pull/955) Properly match operation updates to the plugin that generated them
 
-[602](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/602) Create `verify-all` task for simple Etherscan verification
+[958](https://github.com/hyperledger-labs/solang/pull/958) Update roadmap for Substrate target
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -27,7 +27,8 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                <nil>
+                Addresses issue https://github.com/hyperledger/aries-cloudagent-python/issues/1868
+
             </td>
         </tr>
     </table>

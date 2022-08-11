@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/958" class=".btn">#958</a>
+            </td>
+            <td>
+                <b>
+                    Update roadmap for Substrate target
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                @athei we are reworking the solang roadmap. I mapped  the milestones from the solang Bounty Proposal into the roadmap as follows:
+- V0.2: Includes Milestones 1, 2, 3, 4, 6
+- V0.3: Includes Milestones 5, 7, 8, 9
+- V0.4: Includes Milestones 10, 11
+
+Of course nothing will be set in stone here. What do you think?
+
+Signed-off-by: Cyrill Leutwiler <bigcyrill@hotmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-10 20:40:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/957" class=".btn">#957</a>
+            </td>
+            <td>
+                <b>
+                    Bytes of Type::Bytes must be reversed before encoding
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                `Type::Bytes` is represented as an integer in LLVM. This means its bytes are reversed if we use the `Instr::WriteBuffer` instruction. This PR fixes this issue.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-10 18:49:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/956" class=".btn">#956</a>
             </td>
             <td>
