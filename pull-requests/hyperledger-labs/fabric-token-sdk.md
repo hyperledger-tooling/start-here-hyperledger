@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">cleanup</span>
             </td>
             <td>
                 Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
@@ -50,7 +50,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">documentation</span>
             </td>
             <td>
                 Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
@@ -193,93 +193,6 @@ Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-08-05 15:43:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/339" class=".btn">#339</a>
-            </td>
-            <td>
-                <b>
-                    Reduce staticcheck warnings (SA4011)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As part of issue #317, removed warnings related to:
-* SA4011: Ineffective break statement
-
-Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-04 12:38:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/338" class=".btn">#338</a>
-            </td>
-            <td>
-                <b>
-                    Reduce staticcheck warnings (SA4022)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As part of issue #317, removed warnings related to:
-* SA4022: Removed redundant nil check
-
-Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-04 12:25:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/337" class=".btn">#337</a>
-            </td>
-            <td>
-                <b>
-                    Reduce staticcheck warnings (S1011)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As part of issue #317, removed warnings related to:
-* S1011: Replaced unnecessary loop for append
-
-Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-04 12:20:43 +0000 UTC
     </div>
 </div>
 

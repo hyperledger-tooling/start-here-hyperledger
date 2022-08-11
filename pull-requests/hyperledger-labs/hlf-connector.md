@@ -27,7 +27,8 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
                 
             </td>
             <td>
-                This PR contains the files which were missed in earlier commits for fabric setup.
+                1.This PR contains the files which were missed in earlier commits for fabric setup.
+2. Github action added for running the integration tests.
 
 Signed-off-by: Abhay Kishore <abhay.kishore@walmart.com>
             </td>

@@ -214,33 +214,3 @@ The current implementation of our KVS uses an unbounded cache. This cache is rep
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/353" class=".btn">#353</a>
-            </td>
-            <td>
-                <b>
-                    committer improvements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                if a transaction is unknown and is marked as valid by the backend, then there is no need to discard anything from the vault
-
-https://github.com/hyperledger-labs/fabric-token-sdk/pull/335 depends on this PR.
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-04 12:09:09 +0000 UTC
-    </div>
-</div>
-
