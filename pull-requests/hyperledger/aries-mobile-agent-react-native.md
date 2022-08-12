@@ -124,7 +124,7 @@ _PR template adapted from the Python attrs project._
             </td>
             <td>
                 <b>
-                    Offline
+                    feat: offline messaging displayed when performing any action that requires internet connectivity
                 </b>
             </td>
         </tr>
@@ -135,11 +135,14 @@ _PR template adapted from the Python attrs project._
             <td>
                 # Summary of Changes
 
-Replace this text with a high-level summary of the changes included in this PR.
+* Displays offline messaging when performing any action that requires an internet connection, namely: accepting proof requests/credential offers, attempting chat functionality, and scanning a QR code.
+* Adds a network provider that listens to net info and provides assertions to call when checking for connectivity.
+* This PR updates chat theming to pass theme as a parameter to render functions so that chat theme can be correctly overridden.
+* Linter and prettier ran to format code.
 
 # Related Issues
 
-Please reference here any issue #'s that are relevant to this PR, or simply enter "N/A" if this PR does not relate to any existing issues.
+N/A
 
 # Pull Request Checklist
 

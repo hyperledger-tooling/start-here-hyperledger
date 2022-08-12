@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/hyperledger-hip
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/hyperledger-hip/pull/5" class=".btn">#5</a>
+                PR <a href="https://github.com/hyperledger/hyperledger-hip/pull/6" class=".btn">#6</a>
             </td>
             <td>
                 <b>
-                    Add baf hip
+                    Propose Solang lab for incubation
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/hyperledger-hip
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-10-27 13:40:40 +0000 UTC
+        Created At 2022-08-12 15:44:04 +0000 UTC
     </div>
 </div>
 
