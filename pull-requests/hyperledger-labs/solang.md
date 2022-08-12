@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/959" class=".btn">#959</a>
+            </td>
+            <td>
+                <b>
+                    Make --generate-debug-info hidden
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This feature is incomplete and does not have any users yet. For example, there is a debugging endpoint for Solana in the works, but this is not finished yet. Also, this will be useful for static analysis, which requires debug information for higher-level type information.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-12 08:39:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/958" class=".btn">#958</a>
             </td>
             <td>
