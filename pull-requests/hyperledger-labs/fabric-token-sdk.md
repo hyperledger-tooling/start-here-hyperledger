@@ -194,31 +194,3 @@ Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/342" class=".btn">#342</a>
-            </td>
-            <td>
-                <b>
-                    Add manual CI test trigger
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds support to manually start CI test and set the FSC dependency. Thereby, we can easily check if open PR on FSC is working fine with FTS.
-
-Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-05 15:43:58 +0000 UTC
-    </div>
-</div>
-

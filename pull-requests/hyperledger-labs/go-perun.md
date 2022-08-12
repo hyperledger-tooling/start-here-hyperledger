@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/370" class=".btn">#370</a>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/372" class=".btn">#372</a>
             </td>
             <td>
                 <b>
-                    Recover fund abstract
+                    Fix proposal reject
                 </b>
             </td>
         </tr>
@@ -27,42 +27,12 @@ permalink: /pull-requests/hyperledger-labs/go-perun
                 
             </td>
             <td>
-                We need the fund recovery test to be abstract so that it can be reused in backend implementations.
-
-Relates to https://github.com/hyperledger-labs/perun-eth-backend/issues/20
-
-Based on #369 
+                Channel proposal rejection was not working correctly, as the wrong message type was checked.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-02 20:37:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/369" class=".btn">#369</a>
-            </td>
-            <td>
-                <b>
-                    Backend timeout
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #368 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-02 19:59:04 +0000 UTC
+        Created At 2022-08-12 13:13:35 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/88" class=".btn">#88</a>
+            </td>
+            <td>
+                <b>
+                    adding unit tests for ERC1155
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves #13 
+
+Signed-off-by: Chengxuan Xing <chengxuan.xing@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-12 15:01:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/87" class=".btn">#87</a>
+            </td>
+            <td>
+                <b>
+                    Issue85 metadata api
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves #85 
+
+- Checked in ABI json from ERC1155
+- updated token service to use the metadata driven API
+- introduced a new env var CONTRACT_ADDRESS with migration logic if it's not set
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-12 10:13:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/86" class=".btn">#86</a>
             </td>
             <td>

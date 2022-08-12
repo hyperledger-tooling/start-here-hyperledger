@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/369" class=".btn">#369</a>
+                PR <a href="https://github.com/hyperledger/transact/pull/371" class=".btn">#371</a>
             </td>
             <td>
                 <b>
-                    Backport 0-4: fix midpoint pruning
+                    Fix lint introduced in Rust 1.63
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/transact
                 
             </td>
             <td>
-                Backport of #368 
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-21 21:44:42 +0000 UTC
+        Created At 2022-08-12 17:55:11 +0000 UTC
     </div>
 </div>
 

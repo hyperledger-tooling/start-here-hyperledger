@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/369" class=".btn">#369</a>
+            </td>
+            <td>
+                <b>
+                    fabric-sdk: support for PKC11 #281
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span>
+            </td>
+            <td>
+                - removed bccsp section that was never used
+- the default msp must be included directly under msps
+- possibiilty to pass options
+- PKCS11 BCCSP support and configuration
+
+Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-12 13:07:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/367" class=".btn">#367</a>
             </td>
             <td>
@@ -93,35 +124,6 @@ Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-08-08 12:53:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/362" class=".btn">#362</a>
-            </td>
-            <td>
-                <b>
-                    Reduce staticcheck warnings (U1000)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As part of issue #50, removed warnings related to:
-* U1000: unused variables and functions
-
-Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-05 14:52:49 +0000 UTC
     </div>
 </div>
 
