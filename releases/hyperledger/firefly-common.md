@@ -15,6 +15,70 @@ permalink: /releases/hyperledger/firefly-common
         <tr>
             <td colspan="2">
                 <b>
+                    v0.1.20
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.1.20
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Allow maximum request timeout to be larger than write timeout (avoid EOF) by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/31
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v0.1.19...v0.1.20
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v0.1.20" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-08-11 20:24:53 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    v0.1.19
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.1.19
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Record defaults for array children by @awrichar in https://github.com/hyperledger/firefly-common/pull/30
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v0.1.17...v0.1.19
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v0.1.19" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-08-11 20:08:43 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v0.1.18
                 </b>
             </td>
