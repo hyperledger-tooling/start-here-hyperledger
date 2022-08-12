@@ -14,17 +14,57 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2603" class=".btn">#2603</a>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2610" class=".btn">#2610</a>
             </td>
             <td>
                 <b>
-                    [documentation] #2544: Doctests and CI
+                    [ci]: Fix `iroha2:build` image build
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">iroha2</span><span class="chip">CI</span>
+            </td>
+            <td>
+                Signed-off-by: BAStos525 <jungle.vas@yandex.ru>
+
+### Description of the Change
+Add build-args corresponding tags values for workflows.
+
+### Issue
+The step of `iroha2:build` image building can not identify TAG value in `Dockerfile.base` ARG pointer,
+
+### Benefits
+
+Make CI step of `iroha2:base` image build workable.
+
+### Possible Drawbacks
+
+Should be none.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-11 13:07:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2603" class=".btn">#2603</a>
+            </td>
+            <td>
+                <b>
+                    [documentation] #2544: Tutorial doctests 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Documentation</span><span class="chip">Tests</span>
             </td>
             <td>
                 Signed-off-by: 6r1d <vic.6r1d@gmail.com>
@@ -283,46 +323,6 @@ Added a sumeragi thread shutdown function call that gets called via a drop trait
     </table>
     <div class="right-align">
         Created At 2022-08-05 11:03:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2591" class=".btn">#2591</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #2158: Update `parity_scale_codec`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Aleksandr Petrosyan <a-p-petrosyan@yandex.ru><!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-Add changelog
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-04 09:28:22 +0000 UTC
     </div>
 </div>
 

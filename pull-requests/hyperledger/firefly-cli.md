@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/198" class=".btn">#198</a>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/199" class=".btn">#199</a>
             </td>
             <td>
                 <b>
-                    lowercase `firstevent` json for ffcore parsing
+                    Add support for evmconnect
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/firefly-cli
                 
             </td>
             <td>
-                until @awrichar's changes in https://github.com/spf13/viper/pull/1387 are released, `firstEvent` must be lowercase for ff core to parse successfully. 
+                This PR adds support for evmconnect and chosing between it and ethconnect (still the default) with the new ` -c, --blockchain-connector` flag.
+
+It also moves logging related items to a context which is passed throughout the CLI code, and it creates a new interface for blockchain connectors.
+
+Right now a BlockchainProvider creates the blockchain connector instance, but I feel like it should probably be the other way around in the future. That's a refactor for another day, as it is quite a disruptive code change, with no tangible benefit to the end user (only code maintainability).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-27 14:20:18 +0000 UTC
+        Created At 2022-08-10 14:07:44 +0000 UTC
     </div>
 </div>
 

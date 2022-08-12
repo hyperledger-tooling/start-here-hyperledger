@@ -14,6 +14,115 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/106" class=".btn">#106</a>
+            </td>
+            <td>
+                <b>
+                    [docs] #59: Update statements about triggers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+
+This is meant to address #59. We need to add info on domain-scoped triggers (#105) but it seems that it will only be possible to do after the versioning is in place (#89), otherwise we'll mix versions.
+
+Closes #59.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-10 08:37:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/104" class=".btn">#104</a>
+            </td>
+            <td>
+                <b>
+                    [docs] #95: Update Python asset metadata example
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-10 07:56:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/103" class=".btn">#103</a>
+            </td>
+            <td>
+                <b>
+                    Add Victor as a codeowner
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-09 07:59:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/102" class=".btn">#102</a>
+            </td>
+            <td>
+                <b>
+                    [docs] #97: Add a note about compatibility of Iroha v1/v2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+Closes #97 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-09 07:44:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/100" class=".btn">#100</a>
             </td>
             <td>
@@ -27,7 +136,7 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
                 <span class="chip">documentation</span><span class="chip">iroha2</span>
             </td>
             <td>
-                <nil>
+                Closes #96 
             </td>
         </tr>
     </table>
@@ -59,33 +168,6 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     </table>
     <div class="right-align">
         Created At 2022-08-05 07:12:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/94" class=".btn">#94</a>
-            </td>
-            <td>
-                <b>
-                    [docs] #79: Add block queries
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                Addresses #79.
-I am not sure if we should merge this before we figure out the versioning strategy (#89) for the tutorial.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-02 05:30:46 +0000 UTC
     </div>
 </div>
 

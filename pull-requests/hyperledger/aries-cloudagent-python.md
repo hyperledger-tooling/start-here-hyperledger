@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1894" class=".btn">#1894</a>
+            </td>
+            <td>
+                <b>
+                    Fix: SchemasInputDescriptorFilter: broken deserialization renders generated clients unusable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **What’s wrong?**
+The OpenAPI spec requires an Input Descriptor’s `schema` property to contain a `SchemasInputDescriptorFilter` object.
+However, on deserialization, there is a [preprocessing step](https://github.com/hyperledger/aries-cloudagent-python/blob/d407c48cc9f041c5b27ee8f589fc0e2eaef2220d/aries_cloudagent/protocols/present_proof/dif/pres_exch.py#L235-L254) which ensures that lists of URIs or a dict containing a `oneof_filter` property are accepted as well by transforming them into said object. (These alternative input formats are also [included as examples](https://github.com/hyperledger/aries-cloudagent-python/blob/d407c48cc9f041c5b27ee8f589fc0e2eaef2220d/aries_cloudagent/protocols/present_proof/dif/pres_exch.py#L640-L663) in the `InputDescriptors` model.) Yet, input that already IS a `SchemasInputDescriptorFilter` object is not handled correctly during preprocessing and deserialization fails. This results in any client adhering to the spec being unable to create valid input descriptors and, ultimately, a presentation definition to use in a DIF proof request.
+
+**What has been changed?**
+I adjusted the preprocessing step such that input is forwarded as-is if it looks like a `SchemasInputDescriptorFilter`. I also extended the tests to cover deserializing the actual object.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-11 15:58:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1892" class=".btn">#1892</a>
             </td>
             <td>
@@ -27,7 +58,8 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                <nil>
+                Addresses issue https://github.com/hyperledger/aries-cloudagent-python/issues/1868
+
             </td>
         </tr>
     </table>
@@ -105,60 +137,6 @@ cc @WadeBarnes @andrewwhitehead @swcurran @burdettadam
     </table>
     <div class="right-align">
         Created At 2022-08-06 21:58:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1886" class=".btn">#1886</a>
-            </td>
-            <td>
-                <b>
-                    Use did:key for recipient keys
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As part of #1859, I have made it so the coordinate-mediation protocol uses did:key representation. Apologies that this took as long as it did. Implementing this impacted more of ACA-Py than I realized it would while keeping it compatible with existing agents.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-04 18:58:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1885" class=".btn">#1885</a>
-            </td>
-            <td>
-                <b>
-                    fix: schema class can set Meta.unknown
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR enables the Schema class of a model to determine the default `unknown` behavior. Without this, if you have a schema where you expect extra values to be present, every time `deserialize` or `serialize` is called, you must set `unknown=INCLUDE`. Now, in the `Meta` class of the Schema, `unknown` can be set to some value that will be respected as the default if not overrided by method parameter.
-
-While I was at it, I also touched up some of the typing. I'm not fond of using `@overload` but I think it's the best way to address typing a method where a bool flag impacts the return type.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-04 16:54:50 +0000 UTC
     </div>
 </div>
 

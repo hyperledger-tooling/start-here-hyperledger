@@ -180,37 +180,3 @@ Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/355" class=".btn">#355</a>
-            </td>
-            <td>
-                <b>
-                    FSC memory enhancements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR addresses the issue of increasing memory consumption as reported in #316.
-
-- Improve integration test runner
-The current implementation of runners use goexec to run processes (i.e., orderers, peers, fsc nodes) during our integration tests. goexec uses unbounded buffers to capture the process outputs. While this works nicely for short-living integration tests, other uses of our integration test suite, such as the IOU sample, may ran for long time and will suffer from high memory consumption over the time. Replaces `goexec.Start` with native `cmd.Run` and avoids the use of unbounded buffers. In order to detect when a processes has reached the ready state, we will use a closeable buffer to collect process logs and close it if not needed anymore.
-
-- Replace KVS cache and thereby resolves #339.
-The current implementation of our KVS uses an unbounded cache. This cache is replaced with our secondchance cache.
-
-- Vault txidstore is loaded now from config; if not available default cache size is used. default cache size has been reduced to a sane value
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-04 20:44:26 +0000 UTC
-    </div>
-</div>
-
