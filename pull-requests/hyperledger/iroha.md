@@ -217,7 +217,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
 ### Description of the Change
 
 - Add support for trait impls (methods are generated with following name `Type__Trait__method`)
-- Remove requirements for items: to be public, to have doc string
+- Remove requirements for items to have doc string
 
 <!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
 <!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
@@ -245,6 +245,10 @@ None.
 <!-- If no drawbacks, explicitly mention this (write None) -->
 
 ### Usage Examples or Tests *[optional]*
+
+```
+cargo +nightly-2022-04-20 miri test --package iroha_ffi
+```
 
 <!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
 
