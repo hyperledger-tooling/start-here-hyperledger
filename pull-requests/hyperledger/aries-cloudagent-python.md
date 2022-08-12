@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1896" class=".btn">#1896</a>
+            </td>
+            <td>
+                <b>
+                    [#1895] Stopping the aca-py shell process keeps python process running
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Thomas Diesler <tdiesler@redhat.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-12 09:16:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1894" class=".btn">#1894</a>
             </td>
             <td>

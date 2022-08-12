@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4255" class=".btn">#4255</a>
+            </td>
+            <td>
+                <b>
+                    Feature/rollback with snapshot
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-12 12:32:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4254" class=".btn">#4254</a>
             </td>
             <td>
@@ -24,7 +66,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
@@ -35,6 +77,8 @@ permalink: /pull-requests/hyperledger/besu
 ## PR description
 
 Currently tasks based on AbstractRetryingPeerTask, execute the actual task maxRetries + 1 times, while devs expect that it will be executed exactly maxRetries times.
+
+Incremented the maxRetries in existing code to reflect the previous behavior of having the actual number of executions equals to maxRetries + 1.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -629,108 +673,6 @@ potential aid for #3955
     </table>
     <div class="right-align">
         Created At 2022-08-05 19:07:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4223" class=".btn">#4223</a>
-            </td>
-            <td>
-                <b>
-                    correct fallback ttd to correct value
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-The fallback TTD for mainnet had off-by-one error. We need to set it to `2^256 - 2^10`, but our code was 
-```
-Difficulty.MAX_VALUE.subtract(UInt256.valueOf(1024L)
-````
-
-The problem is that `MAX_VALUE` is `2^256 - 1`, not `2^256`. So we were calculating in the end `2^256 - 1 - 2^10`.
-
-This PR replaces the calculation with the hard coded value as hex in the config and as decimal in the test.
-
-I confirmed the value with the mainnet genesis file for the consensus clients: https://github.com/ethereum/consensus-specs/blob/981b05afb01d5b19be3a5a60ccb12c3582e4c0cf/configs/mainnet.yaml#L16
-
-## Fixed Issue(s)
-fixes #4220
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-05 10:37:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4222" class=".btn">#4222</a>
-            </td>
-            <td>
-                <b>
-                    Log unexpected exceptions in execution engine rpc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                Teku is reporting theses errors https://github.com/ConsenSys/teku/issues/6027
-
-which are preceded by "Execution Client is offline":
-```
-java.io.IOException: -32603: Internal error
-	at tech.pegasys.teku.ethereum.executionclient.web3j.Web3JClient.lambda$doRequest$0(Web3JClient.java:69)
-	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
-	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
-	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
-	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147)
-	at tech.pegasys.teku.infrastructure.async.SafeFuture.lambda$propagateResult$3(SafeFuture.java:147)
-	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
-	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
-	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
-	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147)
-	at org.web3j.utils.Async.lambda$run$1(Async.java:38)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-```
-
-but these internal errors are not reported in besu
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-05 10:30:57 +0000 UTC
     </div>
 </div>
 
