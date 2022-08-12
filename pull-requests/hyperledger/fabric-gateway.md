@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/470" class=".btn">#470</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/471" class=".btn">#471</a>
             </td>
             <td>
                 <b>
-                    Simplify code to generate canonical ECDSA signatures
+                    Update contributing guide
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Add additional testing for malleability and benchmarking.
+                Closes #324
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-28 12:12:08 +0000 UTC
+        Created At 2022-08-11 12:16:53 +0000 UTC
     </div>
 </div>
 

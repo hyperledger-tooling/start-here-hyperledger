@@ -14,6 +14,145 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3332" class=".btn">#3332</a>
+            </td>
+            <td>
+                <b>
+                    feat: implement signer.Alg()
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-11 19:17:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3329" class=".btn">#3329</a>
+            </td>
+            <td>
+                <b>
+                    feat: CL Anoncreds KMS extension
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Title:**
+CL Anoncreds KMS extension
+
+**Description:**
+* Third PR to support CL in `af-go` [#180](https://github.com/hyperledger/aries-framework-go/issues/180)
+* This PR adds support for CL CredDef and MasterSecret keys in KMS
+* This PR extend KMS API methods to support extra parameters on key's creation/rotation/export
+* `remotekms` and `remotecrypto` changes will be implemented in the next PR in both `af-go` and `trustbloc/kms`
+
+**Summary:**
+* extended kms API key create/rotate/export with extra options
+* added CL CredDef and MasterSecret keys to localkms
+* implemented CredDef pubkey export
+* refactored keytemplate resolving
+* added unit tests for CL keys
+* re-generated kms's mock
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-11 15:23:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3328" class=".btn">#3328</a>
+            </td>
+            <td>
+                <b>
+                    fix: change validate->Validate
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Changed credentialManifest's `validate()` back to `Validate() `as it needs to be exported
+Signed-off-by: heidihan0000 <daeun.han@avast.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-11 14:42:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3325" class=".btn">#3325</a>
+            </td>
+            <td>
+                <b>
+                    feat: Add client, rest and command handlers for legacy-connection pro…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Title:**
+Add client, rest and command handlers for legacy-connection protocol
+
+**Summary:**
+
+- Add client for legacy-connection protocol
+- Move didexchange.Event to didcomm/common/event.go in order to make it common for didexchange and legacy-connection protocols
+- Refactor HandleInboundEnvelope method of inbound message handler in order to handle messages of legacy-connection protocol
+- Add rest and command handlers for legacy-connection protocol. Use them inside controller package
+- Add creating legacy destination
+- Add new LegacyConnection Error group
+- Enable handling base58 keys while packing legacy media type envelopes
+- Change media type profile while initializing legacy-connection service
+
+Closes #3300 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-11 07:55:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3324" class=".btn">#3324</a>
             </td>
             <td>
@@ -132,7 +271,7 @@ Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
             </td>
             <td>
                 <b>
-                    Add RemoveCredentialByName to aries.js
+                    Add RemoveCredentialByName to aries js helpers
                 </b>
             </td>
         </tr>
@@ -179,43 +318,6 @@ and `encoding` -> `contentEncoding` in schema for better clearness in credential
     </table>
     <div class="right-align">
         Created At 2022-08-05 19:50:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3315" class=".btn">#3315</a>
-            </td>
-            <td>
-                <b>
-                    feat: Add jwt-vc test suites supporting AFGO
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Mykhailo Sizov <mykhailo.sizov@securekey.com>
-
-**Title:**
-Add jwt-vc test suites supporting AFGO
-
-**Description:**
-https://github.com/hyperledger/aries-framework-go/issues/3288
-
-**Summary:**
-Added signer and verifier based on private/public key type.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-04 13:37:41 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-shared-gha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-shared-gha/pull/14" class=".btn">#14</a>
+                PR <a href="https://github.com/hyperledger/indy-shared-gha/pull/15" class=".btn">#15</a>
             </td>
             <td>
                 <b>
-                    updated Docker Login Action
+                    included sovrinrepo checking and corrected version for subactions
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-shared-gha
                 
             </td>
             <td>
-                Signed-off-by: pSchlarb <p.schlarb@esatus.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-07 12:07:58 +0000 UTC
+        Created At 2022-08-11 13:57:16 +0000 UTC
     </div>
 </div>
 

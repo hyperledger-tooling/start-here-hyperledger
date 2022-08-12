@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/93" class=".btn">#93</a>
+                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/96" class=".btn">#96</a>
             </td>
             <td>
                 <b>
-                    Improved args parsing to support JSON types and validation
+                    Docs gettingstarted testnetwork
                 </b>
             </td>
         </tr>
@@ -27,13 +27,38 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
                 
             </td>
             <td>
-                Added tests for PinBatch
-Added tests for JSON types
+                This guide describes several ways to connect firefly-fabconnect to test-network and test-network-nano-bash of fabric-samples
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-04 22:50:03 +0000 UTC
+        Created At 2022-08-11 20:59:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/95" class=".btn">#95</a>
+            </td>
+            <td>
+                <b>
+                    Update .gitignore paths
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Kmilo Denis Glez <kmilo.denis.glez@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-09 20:37:01 +0000 UTC
     </div>
 </div>
 

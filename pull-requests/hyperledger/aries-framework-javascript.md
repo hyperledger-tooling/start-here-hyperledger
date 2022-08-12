@@ -46,7 +46,7 @@ Signed-off-by: Niall Shaw <niall.shaw@absa.africa>
             </td>
             <td>
                 <b>
-                    refactor/ppv2 generic proofs
+                    feat: add present proof v2
                 </b>
             </td>
         </tr>
@@ -60,6 +60,9 @@ Signed-off-by: Niall Shaw <niall.shaw@absa.africa>
 feat/ppv2
 0.3.0-pre
 TimoGlastra/refactor/generalize-proofs
+
+
+BREAKING CHANGE: the present proof module has been extended to support both v1 and v2 of protocol. See [Migrating from AFJ 0.2.x to 0.3.0](https://github.com/hyperledger/aries-framework-javascript/blob/main/docs/migration/0.2-to-0.3.md) for a detailed migration instructions.
             </td>
         </tr>
     </table>
@@ -172,7 +175,7 @@ Signed-off-by: Ariel Gentile <gentilester@gmail.com>
             </td>
             <td>
                 <b>
-                    feat(proofs): Present Proof as nested protocol
+                    feat(proofs): present proof as nested protocol
                 </b>
             </td>
         </tr>

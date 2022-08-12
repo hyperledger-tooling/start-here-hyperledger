@@ -39,29 +39,3 @@ Signed-off-by: blu3beri <berend@animo.id>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2550" class=".btn">#2550</a>
-            </td>
-            <td>
-                <b>
-                    Update default branch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-04 13:42:02 +0000 UTC
-    </div>
-</div>
-
