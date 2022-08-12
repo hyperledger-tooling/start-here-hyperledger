@@ -55,6 +55,8 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
             <td>
                 implement https://github.com/hyperledger-labs/yui-ibc-solidity/issues/96
 
+This PR should be merged after merging #97 into main.
+
 Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
             </td>
         </tr>
