@@ -40,35 +40,3 @@ Signed-off-by: Tommy TIAN <xtianae@connect.ust.hk>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/811" class=".btn">#811</a>
-            </td>
-            <td>
-                <b>
-                    Update k8s CC builder to v7.2; Use *.localho.st loopback domain; Optionally bind docker reg to 0.0.0.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In this PR: 
-
-- The default k8s chaincode builder is upgraded from version 0.6.0 to 0.7.2 
-
-- The `TEST_NETWORK_LOCAL_REGISTRY_INTERFACE` setting can be used to optionally bind the local docker insecure registry to an arbitrary NIC.  By default the registry is bound to the loopback interface 127.0.0.1 
-
-- Switches from `*.vcap.me` to `*.localho.st` for the local host DNS wildcard domain.  (vcap.me is a remnant of an antiquated VMWare product.  Both domain names will match a wildcard to 127.0.0.1 in public DNS.) 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-06 11:45:03 +0000 UTC
-    </div>
-</div>
-
