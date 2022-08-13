@@ -390,29 +390,3 @@ Counterpoints:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/937" class=".btn">#937</a>
-            </td>
-            <td>
-                <b>
-                    Update .gitignore: ignoring .idea path
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Kmilo Denis Glez <kmilo.denis.glez@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-06 16:51:51 +0000 UTC
-    </div>
-</div>
-

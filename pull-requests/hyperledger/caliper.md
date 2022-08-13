@@ -66,32 +66,3 @@ WIP
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1435" class=".btn">#1435</a>
-            </td>
-            <td>
-                <b>
-                    Terminate Caliper workers on interrupting Caliper manager
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In this PR:
-* The SIGINT signal is handled in the manager to cleanly terminate workers when user tries to terminate Caliper manager.
-
-Fixes #1361
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-06 13:24:45 +0000 UTC
-    </div>
-</div>
-
