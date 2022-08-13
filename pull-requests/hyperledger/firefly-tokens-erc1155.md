@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/88" class=".btn">#88</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/89" class=".btn">#89</a>
             </td>
             <td>
                 <b>
-                    adding unit tests for ERC1155
+                    adding unit tests for ERC1155 solidity logic
                 </b>
             </td>
         </tr>
@@ -34,7 +34,7 @@ Signed-off-by: Chengxuan Xing <chengxuan.xing@kaleido.io>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-12 15:01:23 +0000 UTC
+        Created At 2022-08-12 18:57:51 +0000 UTC
     </div>
 </div>
 

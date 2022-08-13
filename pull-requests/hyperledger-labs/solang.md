@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/961" class=".btn">#961</a>
+            </td>
+            <td>
+                <b>
+                    WIP: Create abi.borshDecode method for Solana
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR creates the Borsh decoding for Solana. It is still a work in progress.
+
+- [x] Write the decoding algorithm
+- [x] Create codegen tests
+- [x] Create runtime tests
+- [x] Create tests with invalid data
+- [ ] Remove duplicate code
+- [ ] Clean up the mess I made myself
+- [ ] Write doc comments
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-12 20:38:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/959" class=".btn">#959</a>
             </td>
             <td>

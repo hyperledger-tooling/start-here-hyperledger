@@ -195,38 +195,3 @@ Fix the channel tiles when a single orderer is selected. (drill down)
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/288" class=".btn">#288</a>
-            </td>
-            <td>
-                <b>
-                    Add empty state to orderer drilldown
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-- add empty channel state text/img on drill down from orderer cluster tile if there are no channels
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-05 20:17:38 +0000 UTC
-    </div>
-</div>
-

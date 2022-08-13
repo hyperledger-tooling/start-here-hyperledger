@@ -294,30 +294,3 @@ Signed-off-by: Boran Car <boran.car@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3316" class=".btn">#3316</a>
-            </td>
-            <td>
-                <b>
-                    fix: small change in schema format for clearness
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Changed `mediatype` -> `contentMediaType`
-and `encoding` -> `contentEncoding` in schema for better clearness in credential manifests
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-05 19:50:20 +0000 UTC
-    </div>
-</div>
-

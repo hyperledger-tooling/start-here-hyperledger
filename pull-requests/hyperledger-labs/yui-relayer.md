@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
                 
             </td>
             <td>
-                #73 
+                implement #73
+
+This PR should be merged after release v1(#69) 
 
 Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
             </td>
