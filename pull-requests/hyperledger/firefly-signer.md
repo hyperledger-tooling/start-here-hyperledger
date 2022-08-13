@@ -41,29 +41,3 @@ Signed-off-by: Vinod Damle <vinod.damle@kaleido.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-signer/pull/16" class=".btn">#16</a>
-            </td>
-            <td>
-                <b>
-                    Add features for performing recover for signature verification
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Allows for the various types of transaction (origin, EIP-155, EIP-1559) the hash payload, and transaction hash, to be calculated independently of performing signing.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-05 20:36:43 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/80" class=".btn">#80</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/82" class=".btn">#82</a>
             </td>
             <td>
                 <b>
-                    Re-enable the sauce tunnel
+                    bc security tests
                 </b>
             </td>
         </tr>
@@ -28,13 +28,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
             </td>
             <td>
                 Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-Connecting to agents didn't work in the pipeline without the Sauce Connect Tunnel. Re-enabling it. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-29 23:09:21 +0000 UTC
+        Created At 2022-08-12 23:46:55 +0000 UTC
     </div>
 </div>
 

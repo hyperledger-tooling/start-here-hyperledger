@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node-monitor
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node-monitor/pull/38" class=".btn">#38</a>
+                PR <a href="https://github.com/hyperledger/indy-node-monitor/pull/41" class=".btn">#41</a>
             </td>
             <td>
                 <b>
-                    Added container running check.
+                    Add generate_upgrade_schedule plugin
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/indy-node-monitor
                 
             </td>
             <td>
-                Signed-off-by: KoleBarnes <kbarnes261@gmail.com>
+                - Add CANdy Dev network
+
+Signed-off-by: Wade Barnes <wade@neoterictech.ca>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-27 19:18:15 +0000 UTC
+        Created At 2022-08-12 20:44:44 +0000 UTC
     </div>
 </div>
 

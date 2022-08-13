@@ -416,31 +416,3 @@ Counterpoints:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/935" class=".btn">#935</a>
-            </td>
-            <td>
-                <b>
-                    Fix bugs with Operations (and other minor fixes)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * Always populate Operation namespace from Managers instead of from other objects
-* Actually store pending blob upload Operations
-* Other misc cleanup identified while doing E2E and perf test runs
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-05 20:41:03 +0000 UTC
-    </div>
-</div>
-
