@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
             </td>
             <td>
                 <b>
-                    update ibc-version to v4.0.0-rc2
+                    update ibc-go to v4.0.0
                 </b>
             </td>
         </tr>
