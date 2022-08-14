@@ -158,32 +158,3 @@ permalink: /pull-requests/hyperledger/bevel
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2002" class=".btn">#2002</a>
-            </td>
-            <td>
-                <b>
-                    fix(security):Cross Site Scripting Attack (XSS)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Unsanitized input from `req.body.trackingID` flows `trackingID` into `res.send`, where it is used to render an HTML page returned to the user. This may result in a Cross-Site Scripting attack (XSS).
-
-Signed-off-by: Bhaskar Ram <bhaskarvilles@duck.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-07 07:04:21 +0000 UTC
-    </div>
-</div>
-

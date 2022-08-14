@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/339" class=".btn">#339</a>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/342" class=".btn">#342</a>
             </td>
             <td>
                 <b>
-                    Prepare a generator skeleton for Kubernetes Operators support
+                    Update readme fablo and fabric version
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fablo
                 
             </td>
             <td>
-                Signed-off-by: Jakub Dzikowski <jakub.t.dzikowski@gmail.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-29 11:53:07 +0000 UTC
+        Created At 2022-08-14 08:36:43 +0000 UTC
     </div>
 </div>
 
