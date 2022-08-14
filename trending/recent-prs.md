@@ -1,13 +1,13 @@
 
+[604](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/604) Bump @openzeppelin/contracts-upgradeable from 4.6.0 to 4.7.2
+
+[603](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/603) Bump @openzeppelin/contracts from 4.6.0 to 4.7.2
+
+[2147](https://github.com/hyperledger/cactus/pull/2147) build(deps): bump @openzeppelin/contracts from 4.7.1 to 4.7.2
+
+[2146](https://github.com/hyperledger/cactus/pull/2146) build(deps): bump @openzeppelin/contracts-upgradeable from 4.7.1 to 4.7.2
+
 [82](https://github.com/hyperledger/aries-mobile-test-harness/pull/82) bc security tests
-
-[349](https://github.com/hyperledger/grid-docs/pull/349) Add Grid Document spec
-
-[193](https://github.com/hyperledger/sawtooth-sabre/pull/193) Backport 0-8: Fix lint introduced with Rust 1.63 
-
-[41](https://github.com/hyperledger/indy-node-monitor/pull/41) Add generate_upgrade_schedule plugin
-
-[961](https://github.com/hyperledger-labs/solang/pull/961) WIP: Create abi.borshDecode method for Solana
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

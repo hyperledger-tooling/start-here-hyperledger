@@ -585,32 +585,3 @@ Signed-off-by: Bhaskar Ram <bhaskarvilles@duck.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3572" class=".btn">#3572</a>
-            </td>
-            <td>
-                <b>
-                    Add validations to the gateway apis to signal malformed proposal.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                    * Bug fix
-
-While the new peer gateway service tries to extract channel and chaincode information from the signed proposal, it doesn't check the proposal fields for validity. Therefore malformed proposal might end up crashing peer service. This commit adds validation to the parameters extracted from the proposal.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-06 21:41:45 +0000 UTC
-    </div>
-</div>
-
