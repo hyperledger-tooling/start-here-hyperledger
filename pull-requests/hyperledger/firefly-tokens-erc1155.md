@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/90" class=".btn">#90</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/91" class=".btn">#91</a>
             </td>
             <td>
                 <b>
@@ -29,16 +29,12 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
             <td>
                 resolves #53 
 
-
-This PR is based on https://github.com/hyperledger/firefly-tokens-erc1155/pull/87 to avoid merge conflict. The incremental code changes will be clearer after that PR is merged. 
-
-Or you can view them here:
-https://github.com/Chengxuan/firefly-tokens-erc1155/compare/issue85-metadata-api...hyperledger:firefly-tokens-erc1155:fix-url-manipulation
+Fixing the URL manipulation logic to avoid slash concat issue
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-15 10:56:33 +0000 UTC
+        Created At 2022-08-15 16:23:58 +0000 UTC
     </div>
 </div>
 

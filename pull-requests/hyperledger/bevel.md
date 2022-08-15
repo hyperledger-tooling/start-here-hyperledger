@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2010" class=".btn">#2010</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] feature: orderer & peer in same org.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+**Changelog**
+- Add Fabric platforms code for mixed org feature to support orderer and peer in same org.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-15 16:14:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2009" class=".btn">#2009</a>
             </td>
             <td>

@@ -27,7 +27,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                <nil>
+                Fixes:
+- one 023-did-exchange error
+- 0434-oob errors
+- one 0183-revocation error
+
             </td>
         </tr>
     </table>

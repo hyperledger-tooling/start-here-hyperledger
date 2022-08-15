@@ -40,29 +40,3 @@ Integrating EVMConnect into FireFly's own config will be handled in a separate f
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/53" class=".btn">#53</a>
-            </td>
-            <td>
-                <b>
-                    [v0.5.4] Support for FireFly Sandbox
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: hfuss <haydenfuss@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-08 14:57:30 +0000 UTC
-    </div>
-</div>
-

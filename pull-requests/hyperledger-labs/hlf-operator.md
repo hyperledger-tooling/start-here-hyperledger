@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/111" class=".btn">#111</a>
+            </td>
+            <td>
+                <b>
+                    fixed cc-nodejs-template broken link
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Simply fixed a broken link. I hope this can help.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-15 12:51:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/108" class=".btn">#108</a>
             </td>
             <td>
