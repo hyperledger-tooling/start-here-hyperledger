@@ -15,34 +15,34 @@ permalink: /releases/hyperledger/firefly-dataexchange-https
         <tr>
             <td colspan="2">
                 <b>
-                    v1.0.0
+                    v1.1.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.0.0
+                    v1.1.0
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Bump moment from 2.29.1 to 2.29.2 by @dependabot in https://github.com/hyperledger/firefly-dataexchange-https/pull/57
-* Update docker release build GitHub action by @nguyer in https://github.com/hyperledger/firefly-dataexchange-https/pull/55
-* Reduce docker image size and fix release GitHub action by @nguyer in https://github.com/hyperledger/firefly-dataexchange-https/pull/58
+* Add destinations improvements by @gabriel-indik in https://github.com/hyperledger/firefly-dataexchange-https/pull/62
+* Destinations with verification and round trips by @gabriel-indik in https://github.com/hyperledger/firefly-dataexchange-https/pull/67
+* Direct round trips by @gabriel-indik in https://github.com/hyperledger/firefly-dataexchange-https/pull/68
+* Bump jsrsasign from 10.5.20 to 10.5.25 by @dependabot in https://github.com/hyperledger/firefly-dataexchange-https/pull/69
+* Bump moment from 2.29.3 to 2.29.4 by @dependabot in https://github.com/hyperledger/firefly-dataexchange-https/pull/70
 
-## New Contributors
-* @dependabot made their first contribution in https://github.com/hyperledger/firefly-dataexchange-https/pull/57
 
-**Full Changelog**: https://github.com/hyperledger/firefly-dataexchange-https/compare/v0.11.0...v1.0.0
+**Full Changelog**: https://github.com/hyperledger/firefly-dataexchange-https/compare/v1.0.0...v1.1.0
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-dataexchange-https/releases/tag/v1.0.0" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-dataexchange-https/releases/tag/v1.1.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-04-26 17:13:29 +0000 UTC
+        Created At 2022-08-15 16:15:01 +0000 UTC
     </span>
 </div>
 

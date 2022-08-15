@@ -15,31 +15,30 @@ permalink: /releases/hyperledger/firefly-ui
         <tr>
             <td colspan="2">
                 <b>
-                    v1.1.0-alpha.2
+                    v1.1.0-alpha.3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.1.0-alpha.2
+                    v1.1.0-alpha.3
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Fix namespace and status types by @awrichar in https://github.com/hyperledger/firefly-ui/pull/187
-* Update My Node and Orgs to honor selected namespace by @awrichar in https://github.com/hyperledger/firefly-ui/pull/188
+* fixes for gateway mode by @shorsher in https://github.com/hyperledger/firefly-ui/pull/189
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-ui/compare/v1.1.0-alpha.1...v1.1.0-alpha.2
+**Full Changelog**: https://github.com/hyperledger/firefly-ui/compare/v1.1.0-alpha.2...v1.1.0-alpha.3
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-ui/releases/tag/v1.1.0-alpha.2" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-ui/releases/tag/v1.1.0-alpha.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-07-28 17:29:16 +0000 UTC
+        Created At 2022-08-15 19:22:09 +0000 UTC
     </span>
 </div>
 
