@@ -244,44 +244,6 @@ Accepting this PR means that every time a dependency is upgraded, this file need
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4246" class=".btn">#4246</a>
-            </td>
-            <td>
-                <b>
-                    try to remove arm runner, instead build with architecture env only
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
-
-## PR description
-Trying to see if it's possible to build an arm docker image on a x86 runner.
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-10 06:05:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4241" class=".btn">#4241</a>
             </td>
             <td>
@@ -561,82 +523,6 @@ I think make sense to have an upper bound, a peer can increase its repution unti
     </table>
     <div class="right-align">
         Created At 2022-08-08 17:41:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4228" class=".btn">#4228</a>
-            </td>
-            <td>
-                <b>
-                    Change default size for header and chain segment size
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamRevenant</span><span class="chip">mainnet</span><span class="chip">peering</span>
-            </td>
-            <td>
-                Signed-off-by: Stefan <stefan.pingel@consensys.net>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-08 06:23:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4227" class=".btn">#4227</a>
-            </td>
-            <td>
-                <b>
-                    Improve pending blocks retrieval mechanism
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamRevenant</span><span class="chip">mainnet</span>
-            </td>
-            <td>
-                Signed-off-by: Gabriel Trintinalia <gabriel.trintinalia@consensys.net>
-
-## PR description
-When a block is saved for future import, requesting the lowest announced block parent does not seem to be always the best option. It can be that we cannot retrieve this block and then we keep selecting the lowest block over and over and eventually it does not fix the gap. A better approach for trying to unstick could be to request the parent of the lowest pending ancestor
-
-Changes:
-- When saving a block for future import, try to retrieve the parent of the lowest pending block connected to this block.
-- When saving a block for future import, do not try to retrieve the parent the lowest announced block.
-- Avoid requesting the same parent block several times when saving pending blocks
-- Improve logs when saving/importing a block
-
-## Fixed Issue(s)
-potential aid for #3955
-#4197
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-08 03:21:25 +0000 UTC
     </div>
 </div>
 

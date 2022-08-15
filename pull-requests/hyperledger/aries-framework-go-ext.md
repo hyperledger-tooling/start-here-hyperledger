@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/280" class=".btn">#280</a>
-            </td>
-            <td>
-                <b>
-                    feat: use different domain when anchor origin is down
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-08 06:03:54 +0000 UTC
-    </div>
-</div>
-
