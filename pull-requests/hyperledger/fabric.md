@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3589" class=".btn">#3589</a>
+            </td>
+            <td>
+                <b>
+                    Update protos
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update dependencies to latest fabric-proto-go for consenter mapping
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-15 10:37:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3588" class=".btn">#3588</a>
             </td>
             <td>
@@ -481,78 +510,6 @@ Finally, you can contact us on https://mergify.com
     </table>
     <div class="right-align">
         Created At 2022-08-08 14:28:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3574" class=".btn">#3574</a>
-            </td>
-            <td>
-                <b>
-                    fix minor unreachable code caused by t.Fatal
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-- Test update
-
-
-#### Description
-
-`t.Fatal` or `os.Exit` will make the subsequent code unreachable.
-
-https://pkg.go.dev/testing#T.Fatalf
-> Fatalf is equivalent to Logf followed by FailNow.
-
-
-
-#### Additional details
-
-see https://go.dev/play/p/I6MX-QOTC9n for `t.Fatal` example:
-
-```go
-package main
-
-import (
-	"testing"
-)
-
-func TestLastIndex(t *testing.T) {
-	t.Errorf("first line")
-	t.Errorf("second line")
-	t.Fatalf("t.Fatalf will cause exit")
-	t.Fatalf("so this line cant reach")
-}
-
-/* output:
-=== RUN   TestLastIndex
-    prog.go:8: first line
-    prog.go:9: second line
-    prog.go:10: t.Fatalf will cause exit
---- FAIL: TestLastIndex (0.00s)
-FAIL
-
-Program exited.
-*/
-
-```
-
-#### Related issues
-
-#### Release Note
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-08 11:53:15 +0000 UTC
     </div>
 </div>
 

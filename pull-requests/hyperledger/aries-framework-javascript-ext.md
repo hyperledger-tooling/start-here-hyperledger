@@ -36,32 +36,3 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/144" class=".btn">#144</a>
-            </td>
-            <td>
-                <b>
-                    chore: add maintainers.md file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #143
-
-Signed-off-by: Timo Glastra <timo@animo.id>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-08 11:40:56 +0000 UTC
-    </div>
-</div>
-
