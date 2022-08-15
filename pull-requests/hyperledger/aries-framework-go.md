@@ -14,6 +14,83 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3336" class=".btn">#3336</a>
+            </td>
+            <td>
+                <b>
+                    fix: credential manifest omit optional properties
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #3335 
+
+**Summary:**
+
+- `omitempty` tag for mandatory properties were removed
+- optional properties (with the `omitempty` tag) of custom types were changed to pointers so they can be omitted with the `omitempty` tag
+- additional validation checks which were missing and more unit tests
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-15 13:40:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3334" class=".btn">#3334</a>
+            </td>
+            <td>
+                <b>
+                    test/support ability in AFGO to create and parse vc and vp in JWT format
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Mykhailo Sizov <mykhailo.sizov@securekey.com>
+
+
+**Title:**
+Support ability in AFGO to create and parse vc and vp in JWT format
+
+**Description:**
+Added BDD tests with creating and verifying VC and VP in JWT format.
+Solves: https://github.com/hyperledger/aries-framework-go/issues/3314
+
+**Summary:**
+Algorithms included:
+- Ed25519
+- ECDSA secp256r1
+- ECDSA secp384r1
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-15 13:07:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3332" class=".btn">#3332</a>
             </td>
             <td>
@@ -260,37 +337,6 @@ Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
     </table>
     <div class="right-align">
         Created At 2022-08-08 19:12:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3318" class=".btn">#3318</a>
-            </td>
-            <td>
-                <b>
-                    Add RemoveCredentialByName to aries js helpers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Function was available in the core but was missing from the JavaScript
-wrapper.
-
-Signed-off-by: Boran Car <boran.car@gmail.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-08 16:44:10 +0000 UTC
     </div>
 </div>
 

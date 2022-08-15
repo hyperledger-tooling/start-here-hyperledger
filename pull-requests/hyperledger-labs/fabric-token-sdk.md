@@ -170,29 +170,3 @@ Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/348" class=".btn">#348</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade Ginkgo v2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR upgrade Ginkgo to v2 and enables new features such as flaky test retry.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-08 14:25:58 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/32" class=".btn">#32</a>
+            </td>
+            <td>
+                <b>
+                    Reduce FFI Schema compilation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This should provide a notable performance increase for invoking custom smart contracts, as it compiles the static FFI metaschema once and reuses it, rather than compiling it over and over.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-15 16:01:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-common/pull/31" class=".btn">#31</a>
             </td>
             <td>

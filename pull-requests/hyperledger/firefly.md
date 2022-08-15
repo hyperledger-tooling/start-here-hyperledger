@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/963" class=".btn">#963</a>
+            </td>
+            <td>
+                <b>
+                    Update to latest dependencies ready for V1.1 alpha.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-15 16:42:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/961" class=".btn">#961</a>
             </td>
             <td>
@@ -361,32 +387,6 @@ Counterpoints:
     </table>
     <div class="right-align">
         Created At 2022-08-08 20:38:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/938" class=".btn">#938</a>
-            </td>
-            <td>
-                <b>
-                    update integration test to use new e2e suites
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-08 14:09:23 +0000 UTC
     </div>
 </div>
 

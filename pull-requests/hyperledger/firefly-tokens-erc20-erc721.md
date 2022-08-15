@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/78" class=".btn">#78</a>
+            </td>
+            <td>
+                <b>
+                    fixing url manipulation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Equivalent of https://github.com/hyperledger/firefly-tokens-erc1155/pull/90
+
+Fixing errors caused by URL manipulation logic described in https://github.com/hyperledger/firefly-tokens-erc1155/issues/53
+
+Signed-off-by: Chengxuan Xing <chengxuan.xing@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-15 12:40:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/77" class=".btn">#77</a>
             </td>
             <td>
