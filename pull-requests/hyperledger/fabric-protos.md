@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/123" class=".btn">#123</a>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/125" class=".btn">#125</a>
             </td>
             <td>
                 <b>
-                    Revert "New service and messages for block attestation (#92)"
+                    Add consenter mapping to config proto
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-protos
                 
             </td>
             <td>
-                This reverts commit 632b3efb5324c16d387b23f4d268515f9f3d53b9.
-
-Block attestation service was added to main for v3.0, it should be removed in the new release-2.5 branch.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+                Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-25 15:08:31 +0000 UTC
+        Created At 2022-08-15 09:11:46 +0000 UTC
     </div>
 </div>
 

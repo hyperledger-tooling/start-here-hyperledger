@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/107" class=".btn">#107</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/108" class=".btn">#108</a>
             </td>
             <td>
                 <b>
-                    Krew
+                    1.7.3-release
                 </b>
             </td>
         </tr>
@@ -27,15 +27,14 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
                 
             </td>
             <td>
-                - Remove unused krew-plugin.yaml
-- Remove freebsd from the krew plugin since it's not supported
-
-Signed-off-by: dviejokfs <dviejo@kungfusoftware.es>
+                Set up signing parameters per CA
+Set up affiliations per CA
+CRL configuration for peers and orderers #106 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-08 07:29:55 +0000 UTC
+        Created At 2022-08-15 08:44:52 +0000 UTC
     </div>
 </div>
 
