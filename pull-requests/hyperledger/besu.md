@@ -76,7 +76,7 @@ Made also an abstraction of a retrying peer task that tries a different peer on 
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->

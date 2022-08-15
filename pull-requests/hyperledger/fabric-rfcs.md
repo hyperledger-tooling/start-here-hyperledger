@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-rfcs/pull/50" class=".btn">#50</a>
+                PR <a href="https://github.com/hyperledger/fabric-rfcs/pull/51" class=".btn">#51</a>
             </td>
             <td>
                 <b>
-                    Ordering service framework
+                    Orderer v3 RFC: Rename session_id to be consistent with the rest of the document
                 </b>
             </td>
         </tr>
@@ -27,18 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-rfcs
                 
             </td>
             <td>
-                This RFC suggests to decouple the Fabric ordering service codebase into
-a framework that can be used for implementing various consensus mechanisms
-without changing the Fabric codebase itself, in contrast to the current state of affairs.
-
-It also proposes an alternative authentication mechanism for inter-orderer communication.
-
-Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
+                Signed-off-by: yacovm <yacovm@users.noreply.github.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-07 14:56:56 +0000 UTC
+        Created At 2022-08-14 22:23:47 +0000 UTC
     </div>
 </div>
 
