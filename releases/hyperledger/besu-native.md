@@ -15,29 +15,26 @@ permalink: /releases/hyperledger/besu-native
         <tr>
             <td colspan="2">
                 <b>
-                    0.5.0
+                    0.6.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.5.0
+                    0.6.0
                 </span>
             </td>
             <td>
-                * Add linux-arm64 native support [#61](https://github.com/hyperledger/besu-native/pull/61)
-* Add ipa-multipoint library support [#56](https://github.com/hyperledger/besu-native/pull/56)
-
-
+                * Add native implementation of the Blake2bf compress function for EIP152 [#69](https://github.com/hyperledger/besu-native/pull/69)
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/besu-native/releases/tag/0.5.0" class=".btn">
+    <a href="https://github.com/hyperledger/besu-native/releases/tag/0.6.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-05-26 18:30:38 +0000 UTC
+        Created At 2022-08-16 14:31:14 +0000 UTC
     </span>
 </div>
 

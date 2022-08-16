@@ -15,30 +15,36 @@ permalink: /releases/hyperledger/firefly-sdk-nodejs
         <tr>
             <td colspan="2">
                 <b>
-                    0.1.0-alpha.13
+                    1.1.0-alpha.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.1.0-alpha.13
+                    1.1.0-alpha.1
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Update package.json version (for testing releases) by @nguyer in https://github.com/hyperledger/firefly-sdk-nodejs/pull/29
+* Allow application to send ack by @gabriel-indik in https://github.com/hyperledger/firefly-sdk-nodejs/pull/30
+* Only ack messages if handler promise is successful by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/31
+* sync sdk with firefly version v1.1.0-alpha.3 by @shorsher in https://github.com/hyperledger/firefly-sdk-nodejs/pull/32
+* bump package.json to 1.1 alpha by @shorsher in https://github.com/hyperledger/firefly-sdk-nodejs/pull/33
 
+## New Contributors
+* @gabriel-indik made their first contribution in https://github.com/hyperledger/firefly-sdk-nodejs/pull/30
+* @shorsher made their first contribution in https://github.com/hyperledger/firefly-sdk-nodejs/pull/32
 
-**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/0.1.0-alpha.12...0.1.0-alpha.13
+**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/0.1.0-alpha.13...1.1.0-alpha.1
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/0.1.0-alpha.13" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/1.1.0-alpha.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-05-02 17:19:36 +0000 UTC
+        Created At 2022-08-16 19:45:16 +0000 UTC
     </span>
 </div>
 
@@ -47,32 +53,33 @@ permalink: /releases/hyperledger/firefly-sdk-nodejs
         <tr>
             <td colspan="2">
                 <b>
-                    0.1.0-alpha.12
+                    1.0.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.1.0-alpha.12
+                    1.0.0
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Add eberger727 as a code owner by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/28
-* Add more calls for transactions/operations by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/27
-* Split up index.ts file by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/26
+* Allow application to send ack by @gabriel-indik in https://github.com/hyperledger/firefly-sdk-nodejs/pull/30
+* Only ack messages if handler promise is successful by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/31
 
+## New Contributors
+* @gabriel-indik made their first contribution in https://github.com/hyperledger/firefly-sdk-nodejs/pull/30
 
-**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/0.1.0-alpha.10...0.1.0-alpha.12
+**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/0.1.0-alpha.13...1.0.0
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/0.1.0-alpha.12" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/1.0.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-05-02 14:45:02 +0000 UTC
+        Created At 2022-08-16 19:38:32 +0000 UTC
     </span>
 </div>
 
