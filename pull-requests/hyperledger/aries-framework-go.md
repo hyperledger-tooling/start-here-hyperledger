@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3338" class=".btn">#3338</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3341" class=".btn">#3341</a>
             </td>
             <td>
                 <b>
-                    feat: KMS Storage interface redesign
+                    fix: fix afgo interop build
                 </b>
             </td>
         </tr>
@@ -27,7 +27,79 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 
             </td>
             <td>
-                Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+                Fixes: #3340
+
+Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-16 17:21:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3339" class=".btn">#3339</a>
+            </td>
+            <td>
+                <b>
+                    feat: CL Anoncreds Crypto services
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Title:**
+CL Anoncreds Crypto services
+
+**Description:**
+* Fourth PR to support CL in `af-go` [#180](https://github.com/hyperledger/aries-framework-go/issues/180)
+* This PR adds high-level Crypto services to work with CL Anoncreds with help of `ursa` lib
+
+**Summary:**
+* added high-level CL crypto Issuer API
+* added high-level CL crypto Prover API
+* added high-level CL crypto Verifier API
+* added ursa-implementations for the services
+* added unit tests for issue credential flow with CL crypto
+* added unit tests for present proof flow with CL crypto
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-16 13:49:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3338" class=".btn">#3338</a>
+            </td>
+            <td>
+                <b>
+                    feat: KMS storage interface redesign
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * KMS storage interface now uses a minimal interface instead of requiring a full Aries storage provider implementation (from the spi package)
+* With this new approach, the consumer of an Aries KMS no longer has to let the Aries storage interface/implementation design dictate how they store KMS-related data. One notable example of this is that the choice of database name is now decided by the consumer rather than by Aries.
+* To ease the transition, I added a function (NewAriesProviderWrapper) to allow a consumer to continue using an Aries storage provider implementation with a KMS if they wish. This method of injecting storage preserves the existing storage behaviour (e.g. Aries-controlled database naming).
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
 
 closes #3331
             </td>
