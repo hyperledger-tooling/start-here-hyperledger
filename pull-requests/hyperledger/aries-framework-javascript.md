@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/983" class=".btn">#983</a>
+            </td>
+            <td>
+                <b>
+                    feat: delete by record id 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #925 
+
+Signed-off-by: Tipu Singh tipu.singh@ayanworks.com 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-16 11:17:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/982" class=".btn">#982</a>
             </td>
             <td>
@@ -64,39 +92,6 @@ Signed-off-by: Niall Shaw <niall.shaw@absa.africa>
     </table>
     <div class="right-align">
         Created At 2022-08-10 14:16:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/979" class=".btn">#979</a>
-            </td>
-            <td>
-                <b>
-                    feat: add present proof v2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is essentially a three-way merge of
-
-feat/ppv2
-0.3.0-pre
-TimoGlastra/refactor/generalize-proofs
-
-
-BREAKING CHANGE: the present proof module has been extended to support both v1 and v2 of protocol. See [Migrating from AFJ 0.2.x to 0.3.0](https://github.com/hyperledger/aries-framework-javascript/blob/main/docs/migration/0.2-to-0.3.md) for a detailed migration instructions.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-09 11:38:43 +0000 UTC
     </div>
 </div>
 

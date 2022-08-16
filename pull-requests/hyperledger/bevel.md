@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2011" class=".btn">#2011</a>
+            </td>
+            <td>
+                <b>
+                    Mixed org fixes and schema updated
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+**Changelog**
+- Fix mixed org vault policy
+- Update default policies
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-16 11:48:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2010" class=".btn">#2010</a>
             </td>
             <td>

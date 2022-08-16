@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2148" class=".btn">#2148</a>
+            </td>
+            <td>
+                <b>
+                    feat(connector-iroha): add dynamic request params
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes: [#1253](https://github.com/hyperledger/cactus/issues/1253)
+
+Signed-off-by: yashrajdesai <yashrajdesai30@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-16 10:58:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/2147" class=".btn">#2147</a>
             </td>
             <td>

@@ -174,9 +174,6 @@ by dropping dependencies.
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-
-This is built on top of #4254, so if not merge yet, check it before this one.
-
 RetryingGetBlockFromPeersTask had a problem that prevented to complete
 when all the peers fail, and that also had the
 consequence to not removing the failed requested block from the internal
@@ -513,104 +510,6 @@ If jemalloc is not present, an error message is printed, but the absence of jema
     </table>
     <div class="right-align">
         Created At 2022-08-09 13:59:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4236" class=".btn">#4236</a>
-            </td>
-            <td>
-                <b>
-                    Always switch full sync target when local chain is close to chain head
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Full sync has a sync target stability feature that works well when syncing from genesis, but is not optimal when the initial sync is done and local chian head is equal or very close to the target head, when the stability feature could prevent switching to the best peer.
-
-By default the stability feature prevent to switch to the best peer, if its height is not 200 block greather, or the difficulty is not 1_000_000_000_000_000_000L greather than the current sync target. 
-
-These value are too large when we are already in sync and just need to follow the best peer, so this PR, changes only enable the stability feature when the current chain head is far from the target head, that occurs when doing a full sync from genesis or when you restart Besu after some hours or days.
-
-This can help Besu to stay in sync, because if the block propagation manager is missing some blocks, then it stops caching incoming blocks when the distance with the local chain head is > 30, but since the chain state of a peer is only updated when a new block is seen from that peer, there could not be enough information for the current sync target switching strategy to switch to the best peer.
-
-On an already synced node, there are 2 hidden configuration flags to always for the switch to the best peer, without this patch:
-`--Xsynchronizer-downloader-change-target-threshold-by-td=0`
-`--Xsynchronizer-downloader-change-target-threshold-by-height=0`
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-potential fix for #3955
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-09 12:20:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4234" class=".btn">#4234</a>
-            </td>
-            <td>
-                <b>
-                    peer count - just count the live ones
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span><span class="chip">peering</span>
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
-
-This does not address the root cause, but will address the problem of users complaining that the logs report too many peers.
-
-This should mean that the number of peers reported in the logs will be the correct number ie the number of connected peers
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-09 10:18:45 +0000 UTC
     </div>
 </div>
 
