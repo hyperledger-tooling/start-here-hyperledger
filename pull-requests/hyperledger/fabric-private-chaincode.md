@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/686" class=".btn">#686</a>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/687" class=".btn">#687</a>
             </td>
             <td>
                 <b>
-                    Merge main into go-support-preview
+                    New fabric-samples demo
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
                 
             </td>
             <td>
-                This PR get the go-support-preview up-to-date with main
+                This PR adds a new sample that shows how to port one of the existing fabric-samples chaincode to FPC.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-03 16:37:20 +0000 UTC
+        Created At 2022-08-16 13:28:03 +0000 UTC
     </div>
 </div>
 

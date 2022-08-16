@@ -91,7 +91,7 @@ Note this functionality will be used in a following commit to define interfaces 
 - [x] Create codegen tests
 - [x] Create runtime tests
 - [x] Create tests with invalid data
-- [ ] Remove duplicate code
+- [x] Remove duplicate code
 - [ ] Clean up the mess I made myself
 - [ ] Write doc comments
 
