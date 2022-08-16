@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/967" class=".btn">#967</a>
+            </td>
+            <td>
+                <b>
+                    Performance improvements for batch lookups
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Ensure batch ID queries match the current indexes (to avoid sequential scan), and improve the caching in aggregator when processing a group of pins.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-16 04:15:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/966" class=".btn">#966</a>
             </td>
             <td>

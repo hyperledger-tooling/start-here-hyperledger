@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/113" class=".btn">#113</a>
+            </td>
+            <td>
+                <b>
+                    [docs] #107: Add FindAllPermissionTokenDefinitions query
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+
+Closes #107 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-16 06:19:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/112" class=".btn">#112</a>
+            </td>
+            <td>
+                <b>
+                    [docs] #105: Add a section on domain-scoped triggers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-16 06:15:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/106" class=".btn">#106</a>
             </td>
             <td>
