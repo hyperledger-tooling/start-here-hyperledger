@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/411" class=".btn">#411</a>
+            </td>
+            <td>
+                <b>
+                    Added scroll to delete modal
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: wadeking98 <wkingnumber2@gmail.com>
+
+# Summary of Changes
+
+On smaller screen sizes, when deleting a credential the `Remove` and `Cancel` buttons will be cut off by the screen. I added scroll functionality to the credential delete screen so that users on all screen sizes can access the buttons correctly
+
+I needed to replace the FlatList since react complains when you have a list inside of a ScrollView
+
+# Related Issues
+
+N/A
+
+# Pull Request Checklist
+
+Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
+
+- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [x] Updated documentation as needed for changed code and new or modified features;
+- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+Pro Tip 🤓
+
+- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-16 00:40:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/407" class=".btn">#407</a>
             </td>
             <td>
@@ -32,6 +87,15 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
 # Summary of Changes
 
 Added a notification to the credential offer and the presentation request page (connection based). Notification lets user know that a new connection has been added to their contacts.
+
+## Credential Offer Notification:
+![image](https://user-images.githubusercontent.com/36937407/184735773-6cf465fa-ddd6-40f8-9da4-41841c5db9db.png)
+![image](https://user-images.githubusercontent.com/36937407/184735740-8006d5ba-3391-40fe-98c2-ac2a5640650f.png)
+
+## Presentation Request Notification:
+![image](https://user-images.githubusercontent.com/36937407/184736122-7f50ac29-1b67-406a-8b02-3a3039d3f5e4.png)
+![image](https://user-images.githubusercontent.com/36937407/184736336-e4a05399-0012-43ae-a397-534d7acd6ae0.png)
+
 
 # Related Issues
 
@@ -209,59 +273,6 @@ Tick all boxes below to demonstrate that you have completed the respective task.
     </table>
     <div class="right-align">
         Created At 2022-08-10 12:41:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/400" class=".btn">#400</a>
-            </td>
-            <td>
-                <b>
-                    Added page header style configuration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: wadeking98 <wkingnumber2@gmail.com>
-
-# Summary of Changes
-
-Added the ability to customize the style of the page header in the themes file
-
-# Related Issues
-
-N/A
-
-# Pull Request Checklist
-
-Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
-
-- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
-- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
-- [x] Updated documentation as needed for changed code and new or modified features;
-- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
-
-If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
-
-Pro Tip 🤓
-
-- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
-- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
-
-_PR template adapted from the Python attrs project._
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-08 20:40:39 +0000 UTC
     </div>
 </div>
 

@@ -40,33 +40,3 @@ Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/45" class=".btn">#45</a>
-            </td>
-            <td>
-                <b>
-                    Feature/bootstrap ca registration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR: 
-
-- Optionally exposes the KIND / local docker insecure registry on alternate NICs, e.g. 0.0.0.0:9999.  (This encourages "remote" development patterns when building chaincode and gateway images locally on a host OS, then uploading into the k8s cluster without publishing to a public repo.)
-
-- Runs a bootstrap `rcaadmin` client enrollment when setting up the CAs.  This allows a remote `fabric-ca-client` to register and enroll new user IDs directly at the org CA, without using the console GUI or ansible playbooks. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-08 18:34:00 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-ui
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/188" class=".btn">#188</a>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/189" class=".btn">#189</a>
             </td>
             <td>
                 <b>
-                    Update My Node and Orgs to honor selected namespace
+                    fixes for gateway mode
                 </b>
             </td>
         </tr>
@@ -27,12 +27,23 @@ permalink: /pull-requests/hyperledger/firefly-ui
                 
             </td>
             <td>
-                <nil>
+                 - conditional checks around `node` status and info
+ - add `multiparty` context
+ - responsiveness update for home dashboard
+ - fix catch around `group` query fails
+ - fix for namespace `slide` that made the slideover pop open multiple times
+
+
+
+updated gateway dashboard without network map:
+![Screen Shot 2022-08-15 at 2 28 22 PM](https://user-images.githubusercontent.com/10987380/184698552-ccc4e860-6cb3-480a-8aa6-14151803a53a.png)
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-28 15:22:45 +0000 UTC
+        Created At 2022-08-15 18:59:05 +0000 UTC
     </div>
 </div>
 
