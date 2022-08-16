@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1899" class=".btn">#1899</a>
+            </td>
+            <td>
+                <b>
+                    Feat/public did endpoints for agents behind mediators
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR supports publishing endpoint information with routing keys in accordance with the did:sov specification. Routing keys are retrieved from `mediation_id` if specified, or else a default mediator. If no mediated connection is present, `routingKeys` defaults to an empty array. 
+
+This PR allows for publishing DIDs with routing keys; PR #1863 allows for resolving DIDs with routing keys.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-15 23:23:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1897" class=".btn">#1897</a>
             </td>
             <td>

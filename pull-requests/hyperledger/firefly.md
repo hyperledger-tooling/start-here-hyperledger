@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/966" class=".btn">#966</a>
+            </td>
+            <td>
+                <b>
+                    Add tutorial for Polygon testnet
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Rendered preview is currently available at: https://nguyer.github.io/firefly/head/tutorials/chains/polygon_testnet.html
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-15 20:59:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/965" class=".btn">#965</a>
+            </td>
+            <td>
+                <b>
+                    bump ui to 1.1 alpha 3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-15 19:41:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/963" class=".btn">#963</a>
             </td>
             <td>
@@ -361,32 +413,6 @@ Counterpoints:
     </table>
     <div class="right-align">
         Created At 2022-08-09 20:04:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/942" class=".btn">#942</a>
-            </td>
-            <td>
-                <b>
-                    Advertise full node name (with suffix) to DX
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Depends on https://github.com/hyperledger/firefly-dataexchange-https/pull/67
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-08 20:38:59 +0000 UTC
     </div>
 </div>
 

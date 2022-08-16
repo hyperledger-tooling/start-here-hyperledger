@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3338" class=".btn">#3338</a>
+            </td>
+            <td>
+                <b>
+                    feat: KMS Storage interface redesign
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+
+closes #3331
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-15 23:41:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3336" class=".btn">#3336</a>
             </td>
             <td>
@@ -277,66 +305,6 @@ closes #1589
     </table>
     <div class="right-align">
         Created At 2022-08-10 09:59:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3320" class=".btn">#3320</a>
-            </td>
-            <td>
-                <b>
-                    feat: allow mediator GetConnections APIs to filter by didcomm version.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #3321 
-
-Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-08 23:40:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3319" class=".btn">#3319</a>
-            </td>
-            <td>
-                <b>
-                    fix: presentation with empty credential fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This change fixes how a presentation is marshalled with empty credential field which wrongly outputs:
-'"verifiableCredential": null'
-
-This change skips this field if the presentation Credential field is empty
-
-Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-08 19:12:50 +0000 UTC
     </div>
 </div>
 
