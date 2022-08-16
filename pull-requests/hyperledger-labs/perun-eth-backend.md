@@ -63,31 +63,3 @@ This is especially useful in the case of multi-ledger channels where a client mi
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/29" class=".btn">#29</a>
-            </td>
-            <td>
-                <b>
-                    Recover funds test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                We integrate the tests for fund recovery.
-
-Depends on https://github.com/hyperledger-labs/go-perun/pull/370.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-09 12:31:58 +0000 UTC
-    </div>
-</div>
-

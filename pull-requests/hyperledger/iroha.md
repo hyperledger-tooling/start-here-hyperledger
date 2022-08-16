@@ -369,6 +369,8 @@ As test
 * `iroha_config_base::derive::Error` refactor
 * Fixed doc tests in the `config` crate (and some older ones in `filter`)
 * Default derives and the config entrypoint still same as before, will be dealt with in future PRs
+* **NEW** Refactor of `derive::utils::StructWithFields` to reduce boilerplate
+* **NEW** Fixed (well, ignored) doctests corresponding to #2604, see my comment there
 <!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
 <!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
 
@@ -485,39 +487,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2022-08-09 15:04:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2600" class=".btn">#2600</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #2559: Added sumeragi thread shutdown.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sam H. Smith <sam.henning.smith@protonmail.com>
-
-### Description of the Change
-
-Added a sumeragi thread shutdown function call that gets called via a drop trait on Iroha.
-
-### Issue
-#2559
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-09 10:14:11 +0000 UTC
     </div>
 </div>
 

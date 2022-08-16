@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/968" class=".btn">#968</a>
+            </td>
+            <td>
+                <b>
+                    Introduce new syntax for overriding selector
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This introduces syntax like so:
+```
+function get_foo() selector=hex"01020304" public return (int) {
+    return 102;
+}
+```
+Note this functionality will be used in a following commit to define interfaces derived from anchor idl files. Tests or Solana will be in that PR, no changes as the functionality will change in that PR.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-16 10:19:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/963" class=".btn">#963</a>
             </td>
             <td>
