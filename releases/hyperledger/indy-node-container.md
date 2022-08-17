@@ -15,6 +15,34 @@ permalink: /releases/hyperledger/indy-node-container
         <tr>
             <td colspan="2">
                 <b>
+                    Fixing the ubuntu16 Dockerfile
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v1.1.2
+                </span>
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/indy-node-container/releases/tag/v1.1.2" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-08-17 17:48:17 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     Fixing the controller run setup 
                 </b>
             </td>
