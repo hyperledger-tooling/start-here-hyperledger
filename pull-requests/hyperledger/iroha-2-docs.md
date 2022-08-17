@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/114" class=".btn">#114</a>
+            </td>
+            <td>
+                <b>
+                    [docs] #39, #83, #90: Update WASM/FFI guide
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-17 07:50:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/113" class=".btn">#113</a>
             </td>
             <td>
@@ -61,62 +87,6 @@ Closes #107
     </table>
     <div class="right-align">
         Created At 2022-08-16 06:15:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/106" class=".btn">#106</a>
-            </td>
-            <td>
-                <b>
-                    [docs] #59: Update statements about triggers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-This is meant to address #59. We need to add info on domain-scoped triggers (#105) but it seems that it will only be possible to do after the versioning is in place (#89), otherwise we'll mix versions.
-
-Closes #59.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-10 08:37:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/104" class=".btn">#104</a>
-            </td>
-            <td>
-                <b>
-                    [docs] #95: Update Python asset metadata example
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-10 07:56:53 +0000 UTC
     </div>
 </div>
 

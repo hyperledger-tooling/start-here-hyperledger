@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node-container
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node-container/pull/97" class=".btn">#97</a>
+                PR <a href="https://github.com/hyperledger/indy-node-container/pull/101" class=".btn">#101</a>
             </td>
             <td>
                 <b>
-                    fixed env variable name. Fixes #95
+                    added explicit plenum version to ubuntu16 Docker file
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-node-container
                 
             </td>
             <td>
-                I have compared the [test docker compose](https://github.com/hyperledger/indy-node-container/blob/main/test/docker-compose.yaml) which is regularly tested to produce a working setup for the restart process, with the [production one](https://github.com/hyperledger/indy-node-container/blob/main/run/docker-compose.yml) to produce the changes
+                fixes https://github.com/hyperledger/indy-node-container/issues/100
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-05 08:44:06 +0000 UTC
+        Created At 2022-08-17 09:54:08 +0000 UTC
     </div>
 </div>
 
