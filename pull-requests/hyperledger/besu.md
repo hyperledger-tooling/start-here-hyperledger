@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4268" class=".btn">#4268</a>
+            </td>
+            <td>
+                <b>
+                    Improve logging for BREACH_OF_PROTOCOL
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                added the peer that caused the breach in some places and added "BREACH_OF_PROTOCOL" to the debug logging
+
+Signed-off-by: Stefan <stefan.pingel@consensys.net>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-17 05:29:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4267" class=".btn">#4267</a>
             </td>
             <td>

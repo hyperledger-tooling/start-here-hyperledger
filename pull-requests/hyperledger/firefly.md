@@ -412,29 +412,3 @@ Fixes #952
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/948" class=".btn">#948</a>
-            </td>
-            <td>
-                <b>
-                    Store full details of EVMConnect/EthConnect updates for Token ops
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                See https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/72 for additional detail.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-10 03:37:22 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/304" class=".btn">#304</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/308" class=".btn">#308</a>
             </td>
             <td>
                 <b>
-                    Renew Fabric-certs for testnet
+                    Provision for dynamic arguments in the query for data-sharing push via events
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                1. Renew fabric-certs. (EDIT) This time they have expiry of 10 years.
-2. Push latest tag for all docker images.
-3. Use latest tag in weaver testnet.
-4. Create docker image for fabric-interop-cc for K8s deployment.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-04 07:37:29 +0000 UTC
+        Created At 2022-08-17 02:35:28 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/104" class=".btn">#104</a>
+            </td>
+            <td>
+                <b>
+                    Refactoring ethclient
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-17 03:33:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/103" class=".btn">#103</a>
             </td>
             <td>
@@ -53,9 +79,11 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
                 
             </td>
             <td>
-                implement https://github.com/hyperledger-labs/yui-ibc-solidity/issues/96
+                - https://github.com/hyperledger-labs/yui-ibc-solidity/issues/96
+- https://github.com/hyperledger-labs/yui-ibc-solidity/pull/103
+- https://github.com/hyperledger-labs/yui-ibc-solidity/pull/104
 
-This PR should be merged after merging #97 into main.
+Note: This PR should be merged after merging #97 into main.
 
 Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
             </td>
