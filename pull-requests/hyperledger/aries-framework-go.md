@@ -352,31 +352,3 @@ Closes #3300
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3322" class=".btn">#3322</a>
-            </td>
-            <td>
-                <b>
-                    fix: JWS algorithm for signature suite 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
-
-closes #1589
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-10 09:59:03 +0000 UTC
-    </div>
-</div>
-
