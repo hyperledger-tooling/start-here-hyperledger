@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1900" class=".btn">#1900</a>
+            </td>
+            <td>
+                <b>
+                    feat: added message to forward event handler
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Peter Strobel <peter@indicio.tech>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-16 19:32:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1899" class=".btn">#1899</a>
             </td>
             <td>
@@ -122,62 +148,6 @@ I adjusted the preprocessing step such that input is forwarded as-is if it looks
     </table>
     <div class="right-align">
         Created At 2022-08-11 15:58:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1892" class=".btn">#1892</a>
-            </td>
-            <td>
-                <b>
-                    Refactor ledger correction code and insert into revocation error handling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Addresses issue https://github.com/hyperledger/aries-cloudagent-python/issues/1868
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-09 22:04:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1891" class=".btn">#1891</a>
-            </td>
-            <td>
-                <b>
-                    did registry cleanup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR removes did registry class and uses a list instead. Simplifying the code.
-
-Signed-off-by: Adam Burdett <burdettadam@gmail.com>
-Co-authored-by: Daniel Bluhm <dbluhm@pm.me>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-09 19:12:27 +0000 UTC
     </div>
 </div>
 

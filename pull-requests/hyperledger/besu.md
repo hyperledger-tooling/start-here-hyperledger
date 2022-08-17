@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4267" class=".btn">#4267</a>
+            </td>
+            <td>
+                <b>
+                    Panda prove ments
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Pandas separated into "ready for merge" "ttd crossed" and "finalized". Ready to merge is displayed on startup when a TTD is configured and the chain is in sync. TTD panda is displayed when TTD is crossed, and the last one shows up once we've finalized a non-zero blockhash.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-16 23:12:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4266" class=".btn">#4266</a>
+            </td>
+            <td>
+                <b>
+                    cleanup from PR 4178
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stefan <stefan.pingel@consensys.net>
+
+## PR description
+This PR fixes some issues based n comments against https://github.com/hyperledger/besu/pull/4178
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-16 22:51:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4265" class=".btn">#4265</a>
             </td>
             <td>
@@ -449,93 +510,6 @@ Accepting this PR means that every time a dependency is upgraded, this file need
     </table>
     <div class="right-align">
         Created At 2022-08-10 18:30:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4241" class=".btn">#4241</a>
-            </td>
-            <td>
-                <b>
-                    quieten DynamicPivotBlockManager
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span><span class="chip">logging</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-* Only change pivot block if it is different than the existing syncTarget pivotBlock
-* move logging level to debug
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Fixes #4211
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-09 23:36:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4240" class=".btn">#4240</a>
-            </td>
-            <td>
-                <b>
-                    remove MergeUnfinalizedValidationRule
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-The CL is allowed to reorg around finalized via social consensus.  Remove this validation rule and rely solely on the CL for that social coordination.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-09 18:38:57 +0000 UTC
     </div>
 </div>
 

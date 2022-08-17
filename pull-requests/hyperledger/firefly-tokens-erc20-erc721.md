@@ -453,29 +453,3 @@ This PR tries to preserve the existing fields, so that the new tokens connector 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/71" class=".btn">#71</a>
-            </td>
-            <td>
-                <b>
-                    Add forward compatibility with evmconnect
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-09 21:41:50 +0000 UTC
-    </div>
-</div>
-

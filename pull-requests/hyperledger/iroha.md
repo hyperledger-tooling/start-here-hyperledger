@@ -14,6 +14,105 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2631" class=".btn">#2631</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #2623: fix doctest for VariantCount
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Artemii Gerasimovich <gerasimovich@soramitsu.co.jp>
+
+### Description of the Change
+
+Fix doctest for `VariantCount` derive macro.
+
+### Issue
+
+#2623 
+
+
+### Benefits
+
+Doctest passes
+
+### Possible Drawbacks
+
+None
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-16 22:02:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2630" class=".btn">#2630</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #2457: Forcibly shut down kura in tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Artemii Gerasimovich <gerasimovich@soramitsu.co.jp>
+
+### Description of the Change
+
+So I’ve been debugging #2457, and the problem there is as follows:
+
+When we start a peer for tests, we [create](https://github.com/hyperledger/iroha/blob/a2b373d7fb21dc24f27cf83bf1c8cb9a6b187b98/core/test_network/src/lib.rs#L673) a [TempDir](https://docs.rs/tempfile/latest/tempfile/struct.TempDir.html) for kura storage. It is then [held](https://github.com/hyperledger/iroha/blob/a2b373d7fb21dc24f27cf83bf1c8cb9a6b187b98/core/test_network/src/lib.rs#L502) until the peer is dropped to prevent its deletion. But kura thread receiving new blocks actually [lives on its own](https://github.com/hyperledger/iroha/blob/a2b373d7fb21dc24f27cf83bf1c8cb9a6b187b98/core/src/kura.rs#L77) and periodically [checks](https://github.com/hyperledger/iroha/blob/a2b373d7fb21dc24f27cf83bf1c8cb9a6b187b98/core/src/kura.rs#L182) if all other references to kura have been dropped and then returns. 
+
+What happens is essentially a race condition, where after a test is finished, peer is dropped, dropping the tempdir, but kura is in process of writing a new block, so it's working directory is pulled from underneath it. This causes kura thread to panic, which wasn't a problem on its own, but is now caught by panic handler and leads to failure.
+
+This PR is my shot of solving it by providing an ability to forcibly shut kura down and doing just that while dropping a test peer.
+
+### Issue
+
+#2457
+
+### Benefits
+
+Kura doesn't panic in tests.
+
+### Possible Drawbacks
+
+Not a particularly elegant solution.
+
+### Alternate Designs
+
+We can't hold tempdir for long enough, since there's no scope that's guaranteed to exceed kura threads lifetime.
+
+We also can't provide a method to just _wait_ for kura to shut down without forcing it to with how it's currently implemented, since kura shuts down only when all strong references to it are dropped, and there is one in the same task that holds the tempdir.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-16 21:42:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2625" class=".btn">#2625</a>
             </td>
             <td>
@@ -265,72 +364,6 @@ Should be none.
     </table>
     <div class="right-align">
         Created At 2022-08-11 13:07:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2603" class=".btn">#2603</a>
-            </td>
-            <td>
-                <b>
-                    [documentation] #2544: Tutorial doctests 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">Documentation</span><span class="chip">Tests</span>
-            </td>
-            <td>
-                Signed-off-by: 6r1d <vic.6r1d@gmail.com>
-
-<!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-Adds example that mirrors tutorial examples, so that changes in the API can be propagated by directly taking them from GitHub. 
-
-### Issue
-
-Addresses #2544 
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-Direct connection to tutorial
-
-### Possible Drawbacks
-
-More code to test
-
-### Usage Examples or Tests *[optional]*
-
-```bash
-cargo run --example tutorial
-```
-
-### Alternate Designs *[optional]*
-
-As test
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-09 20:02:55 +0000 UTC
     </div>
 </div>
 

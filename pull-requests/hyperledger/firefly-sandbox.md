@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/95" class=".btn">#95</a>
+                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/97" class=".btn">#97</a>
             </td>
             <td>
                 <b>
-                    fixing broken links
+                    V1.1 refactors
                 </b>
             </td>
         </tr>
@@ -27,14 +27,17 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
                 
             </td>
             <td>
-                Signed-off-by: Chengxuan Xing <xcxncu@gmail.com>
+                - hide messages pane in gateway mode
+- hide "attach a message" for tokens in gateway mode
+- various fixes from @eberger727 
+![Screen Shot 2022-08-16 at 4 19 27 PM](https://user-images.githubusercontent.com/10987380/184977739-032bac59-5354-4a9b-b692-431013ce9c47.png)
 
-Fixing the broken links for sample smart contract and deployment
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-31 22:56:40 +0000 UTC
+        Created At 2022-08-16 20:21:51 +0000 UTC
     </div>
 </div>
 
