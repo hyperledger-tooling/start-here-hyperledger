@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/202" class=".btn">#202</a>
+            </td>
+            <td>
+                <b>
+                    Skip creation of IPFS and DX when multiparty is disabled
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This will reduce the number of docker containers needed to run when multiparty mode has been disabled. Previously, IPFS and DX were there just sitting idle.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-16 15:00:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-cli/pull/201" class=".btn">#201</a>
             </td>
             <td>

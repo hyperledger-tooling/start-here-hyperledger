@@ -14,25 +14,25 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/375" class=".btn">#375</a>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/376" class=".btn">#376</a>
             </td>
             <td>
                 <b>
-                    series of small updates to simplify client development
+                    Dump logs upon failure in CI
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">enhancement</span>
+                
             </td>
             <td>
-                This PR includes several small commits to make development and use of clients easier. This includes some changes to reduce the amount of "noise" from logs, to set the default verbosity to low for pdo shell scripts, to improve integration of configuration files, and simplify the use of commands to make plugins easier to build.
+                Signed-off-by: Bruno Vavala <bruno.vavala@intel.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-08 17:26:11 +0000 UTC
+        Created At 2022-08-16 21:21:34 +0000 UTC
     </div>
 </div>
 

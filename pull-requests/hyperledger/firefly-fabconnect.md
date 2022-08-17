@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/95" class=".btn">#95</a>
-            </td>
-            <td>
-                <b>
-                    Update .gitignore paths
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Kmilo Denis Glez <kmilo.denis.glez@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-09 20:37:01 +0000 UTC
-    </div>
-</div>
-

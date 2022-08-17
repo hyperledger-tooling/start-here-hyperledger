@@ -92,7 +92,7 @@ Note this functionality will be used in a following commit to define interfaces 
 - [x] Create runtime tests
 - [x] Create tests with invalid data
 - [x] Remove duplicate code
-- [ ] Clean up the mess I made myself
+- [x] Clean up the mess I made myself
 - [ ] Write doc comments
 
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/31" class=".btn">#31</a>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/33" class=".btn">#33</a>
             </td>
             <td>
                 <b>
-                    Only ack messages if handler promise is successful
+                    bump package.json to 1.1 alpha
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
                 
             </td>
             <td>
-                This reverts #30 in favor of a less breaking change.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-31 19:37:04 +0000 UTC
+        Created At 2022-08-16 19:44:37 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/30" class=".btn">#30</a>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/32" class=".btn">#32</a>
             </td>
             <td>
                 <b>
-                    Allow application to send ack
+                    sync sdk with firefly version v1.1.0-alpha.3
                 </b>
             </td>
         </tr>
@@ -53,12 +53,12 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
                 
             </td>
             <td>
-                Signed-off-by: Gabriel Indik <gabriel.indik@kaleido.io>
+                Signed-off-by: Alex Shorsher <alex.shorsher@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-31 18:51:44 +0000 UTC
+        Created At 2022-08-16 18:23:12 +0000 UTC
     </div>
 </div>
 
