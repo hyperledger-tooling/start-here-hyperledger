@@ -67,31 +67,3 @@ Signed-off-by: Tipu Singh tipu.singh@ayanworks.com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/980" class=".btn">#980</a>
-            </td>
-            <td>
-                <b>
-                    feat: agent mediation role
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add mediationRole property to AgentConfig to ensure MediatorModule is initialized correctly. This prevents concurrency issues when multiple attempts to create a mediatorRoutingRecord fail.
-
-Signed-off-by: Niall Shaw <niall.shaw@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-10 14:16:47 +0000 UTC
-    </div>
-</div>
-

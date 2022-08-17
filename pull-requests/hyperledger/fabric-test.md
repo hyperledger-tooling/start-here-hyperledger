@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-test
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/407" class=".btn">#407</a>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/408" class=".btn">#408</a>
             </td>
             <td>
                 <b>
-                    Remove caliper daily test as it's broken anyway (Backport release-2.2)
+                    [Main] Update node (and npm) to latest release
                 </b>
             </td>
         </tr>
@@ -27,38 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-test
                 
             </td>
             <td>
-                Signed-off-by: D <d_kelsey@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-29 08:07:13 +0000 UTC
-    </div>
-</div>
+                Should address compile issues around node-sdk interop testing
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/406" class=".btn">#406</a>
-            </td>
-            <td>
-                <b>
-                    Remove caliper daily test as it's broken anyway (Backport to release 2.4)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: D <d_kelsey@uk.ibm.com>
+Signed-off-by: D <d_kelsey@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-29 07:58:08 +0000 UTC
+        Created At 2022-08-17 14:00:19 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4271" class=".btn">#4271</a>
+            </td>
+            <td>
+                <b>
+                    Retry mechanism when getting a broadcasted block fail on all peers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span>
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+This PR is built on top of  #4256 so check it first is not yet merged.
+
+Currently even if we use the RetryingGetBlockFromPeers, that tries to download the block, checking every peer in turn, if all peers fail, the retrieval is not repeated, unless the block is announced again.
+This PR improve the block propagation manager, to repeat the download of a block, until some conditions apply: it is still not imported and the distance from the local head is within configured range.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+relates to #3955 
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-17 13:22:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4270" class=".btn">#4270</a>
             </td>
             <td>
@@ -33,6 +82,8 @@ permalink: /pull-requests/hyperledger/besu
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+
+used this branch https://github.com/garyschulte/besu/tree/feature/bonsai-isolation-alt from @garyschulte 
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -77,6 +128,10 @@ permalink: /pull-requests/hyperledger/besu
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+
+Currently a peer that is marked as disconnected can be returned when asking `EthPeers` for available peers, but returning a disconnected peer is not useful and potentially a cause of problems since all tasks will fail on it.
+Not sure how much this affect peer selection in the real world, but in unit tests it happens to choose a disconnected peer for request.
+In any case it seems reasonable to add this check, and we can evaluate if we also need to require that a peer is fully validated, before returning it as available
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -428,13 +483,15 @@ RetryingGetBlockFromPeersTask had a problem that prevented to complete
 when all the peers fail, and that also had the
 consequence to not removing the failed requested block from the internal
 caches in BlockPropagationManager, that could cause a stall since that
-block will to be tried to be retrieved again.
+block will not be tried to be retrieved again.
 
 Made also an abstraction of a retrying peer task that tries a different peer on every execution, so it can used also for other tasks
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
+
+relates to #3955 
 
 ## Documentation
 

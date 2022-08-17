@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/98" class=".btn">#98</a>
+            </td>
+            <td>
+                <b>
+                    changes to support FF version 1.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                 - query both `default` and `ff_system` namespaces for verifiers
+ - assume multiparty mode if `multiparty` key is missing from status
+
+closes #96 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-17 14:08:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/97" class=".btn">#97</a>
             </td>
             <td>
