@@ -420,36 +420,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/72" class=".btn">#72</a>
-            </td>
-            <td>
-                <b>
-                    Pass through full structure of receipt events for detailed reporting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                With EVMConnect we pass through lots of really important information in the updates to a transaction (aka "replies" or "receipts" on the WebSocket), as it's being shepherded through nonce/gas management, and confirmations, to a blockchain (public, or private).
-
-The ERC20/ERC721 connector is currently masking all this info, and turning it into a binary `success: true` + `message` field, which has two problems:
-
-1. We lose all the rich detail when FireFly Core stores it in the `operation`
-2. The `TransactionUpdate` gets interpreted as `Failure`, rather than just an informational update that leaves the operation in `Pending`
-
-This PR tries to preserve the existing fields, so that the new tokens connector can still be used with FireFly V1.0 + EthConnect, as well as FireFly V1.1 + EthConnect _or_ EVMConnect
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-10 03:01:15 +0000 UTC
-    </div>
-</div>
-
