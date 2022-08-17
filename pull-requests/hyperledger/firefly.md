@@ -14,6 +14,79 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/973" class=".btn">#973</a>
+            </td>
+            <td>
+                <b>
+                    fix integration matrix `exclude`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                `exclude` was not correctly handling arrays, so it has been updated to explicitly define all excluded combinations
+
+list of jobs that will be executed now (courtesy of [act](https://github.com/nektos/act)):
+
+
+-  `[blockchain-provider:besu database-type:postgres test-suite:TestEthereumMultipartyE2ESuite]`
+- `[blockchain-provider:geth database-type:sqlite3 test-suite:TestEthereumMultipartyE2ESuite]`
+- `[blockchain-provider:geth database-type:postgres test-suite:TestEthereumMultipartyE2ESuite]`
+- `[blockchain-provider:geth database-type:sqlite3 test-suite:TestEthereumGatewayE2ESuite]`
+- `[blockchain-provider:geth database-type:postgres test-suite:TestEthereumGatewayE2ESuite]`
+- `[blockchain-provider:besu database-type:sqlite3 test-suite:TestEthereumGatewayE2ESuite]`
+- `[blockchain-provider:besu database-type:postgres test-suite:TestEthereumGatewayE2ESuite]`
+- `[bockchain-provider:geth database-type:sqlite3 test-suite:TestEthereumMultipartyTokensRemoteNameE2ESuite]`
+- `[blockchain-provider:geth database-type:postgres test-suite:TestEthereumMultipartyTokensRemoteNameE2ESuite]`
+- `[blockchain-provider:besu database-type:sqlite3 test-suite:TestEthereumMultipartyTokensRemoteNameE2ESuite]`
+- `[blockchain-provider:besu database-type:postgres test-suite:TestEthereumMultipartyTokensRemoteNameE2ESuite]`
+- `[blockchain-provider:fabric database-type:sqlite3 test-suite:TestFabricGatewayE2ESuite]`
+- `[blockchain-provider:fabric database-type:postgres test-suite:TestFabricGatewayE2ESuite]`
+- `[blockchain-provider:fabric database-type:sqlite3 test-suite:TestFabricMultipartyE2ESuite]`
+- `[blockchain-provider:fabric database-type:postgres test-suite:TestFabricMultipartyE2ESuite]`
+
+closes #968 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-17 18:04:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/972" class=".btn">#972</a>
+            </td>
+            <td>
+                <b>
+                    Add cache for operations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-17 17:04:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/971" class=".btn">#971</a>
             </td>
             <td>
@@ -331,84 +404,6 @@ Fixes #952
     </table>
     <div class="right-align">
         Created At 2022-08-10 20:57:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/953" class=".btn">#953</a>
-            </td>
-            <td>
-                <b>
-                    Distinguish "message not available" from "message missing data"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-10 18:12:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/950" class=".btn">#950</a>
-            </td>
-            <td>
-                <b>
-                    fixing the example firefly core command
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update the example command to match the latest folder structure.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-10 13:37:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/949" class=".btn">#949</a>
-            </td>
-            <td>
-                <b>
-                    Add BLOCKCHAIN_CONNECTOR env var and add evmconnect to manifest
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Peter Broadhurst <peter.broadhurst@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-10 13:29:02 +0000 UTC
     </div>
 </div>
 

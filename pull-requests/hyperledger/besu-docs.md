@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/besu-docs
             </td>
             <td>
                 <b>
-                    Clarify setting peers with `xp2p-peer-lower-bound`
+                    Clarify setting peers with `Xp2p-peer-lower-bound`
                 </b>
             </td>
         </tr>
@@ -42,9 +42,9 @@ Make sure that:
 - [x] You've [previewed your changes locally](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation).
 
 ## Describe the change
-Add note clarifying `xp2p-peer-lower-bound` must be set lower than `max-peers` option.
+Add note clarifying `Xp2p-peer-lower-bound` must be set lower than `max-peers` option.
 
-Note, `--max-peers` default was edited back to 25, the current default, so no change.  Right now, this is the same default as `--xp2p-peer-lower-bound`.
+Note, `--max-peers` default was edited back to 25, the current default, so no change.  Right now, this is the same default as `--Xp2p-peer-lower-bound`.
 
 <!-- Add a clear and concise description of what your PR changes in the documentation. -->
 

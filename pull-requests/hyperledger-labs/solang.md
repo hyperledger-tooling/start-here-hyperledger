@@ -76,7 +76,7 @@ Note this functionality will be used in a following commit to define interfaces 
             </td>
             <td>
                 <b>
-                    WIP: Create abi.borshDecode method for Solana
+                    Create abi.borshDecode method for Solana
                 </b>
             </td>
         </tr>
@@ -85,17 +85,7 @@ Note this functionality will be used in a following commit to define interfaces 
                 
             </td>
             <td>
-                This PR creates the Borsh decoding for Solana. It is still a work in progress.
-
-- [x] Write the decoding algorithm
-- [x] Create codegen tests
-- [x] Create runtime tests
-- [x] Create tests with invalid data
-- [x] Remove duplicate code
-- [x] Clean up the mess I made myself
-- [ ] Write doc comments
-
-
+                This PR implements Borsh Decoding and connects it to an experimental function called `abi.borshDecode` that only works for Solana. Using this function raises a compiler warning to inform the user that the borsh encoding is not completely supported yet.
             </td>
         </tr>
     </table>
@@ -186,40 +176,6 @@ Signed-off-by: Cyrill Leutwiler <bigcyrill@hotmail.com>
     </table>
     <div class="right-align">
         Created At 2022-08-10 18:49:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/956" class=".btn">#956</a>
-            </td>
-            <td>
-                <b>
-                    Introduce cli subcommands
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This fits the CLI more natural.
-
-Now we have:
-
-solang compile --target .. file..
-solang language-server --target ..
-solang doc --target .. file..
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-10 13:43:45 +0000 UTC
     </div>
 </div>
 
