@@ -14,6 +14,51 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3342" class=".btn">#3342</a>
+            </td>
+            <td>
+                <b>
+                    refactor: A few refactoring of legacy-connection package
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Title:**
+Refactor legacy-connection package due to interoperability issues
+
+**Summary:**
+
+- Add new legacy http header to handle legacy requests. Cover with unit tests
+- Encode invitation Recipient key to base58
+- Change embedded verification to referenced while creating verification methods
+- Add legacy file into doc package to convert DIDdoc to raw doc. Cover with unit test
+- Add handling DID id's where did method is not specified
+- Add JSONBytes and ParseConnection methods to use them while handling connection data
+- Change AckMsgType content to proper one
+- Add method to convert array of did-keys to base58 keys
+- Enable saving decryption key while handling envelope at connection-request state
+- Add new InvitationRecipientKeys into connection.Record model
+- Refactor requestMsgRecord, handleInboundRequest and prepareConnectionSignature methods and their unit-tests
+- Save Recipient keys while handling connection request
+- Use SaveDID instead SaveDIDByResolving
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-18 14:31:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3341" class=".btn">#3341</a>
             </td>
             <td>
@@ -212,77 +257,6 @@ Algorithms included:
     </table>
     <div class="right-align">
         Created At 2022-08-11 19:17:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3329" class=".btn">#3329</a>
-            </td>
-            <td>
-                <b>
-                    feat: CL Anoncreds KMS extension
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Title:**
-CL Anoncreds KMS extension
-
-**Description:**
-* Third PR to support CL in `af-go` [#180](https://github.com/hyperledger/aries-framework-go/issues/180)
-* This PR adds support for CL CredDef and MasterSecret keys in KMS
-* This PR extend KMS API methods to support extra parameters on key's creation/rotation/export
-* `remotekms` and `remotecrypto` changes will be implemented in the next PR in both `af-go` and `trustbloc/kms`
-
-**Summary:**
-* extended kms API key create/rotate/export with extra options
-* added CL CredDef and MasterSecret keys to localkms
-* implemented CredDef pubkey export
-* refactored keytemplate resolving
-* added unit tests for CL keys
-* re-generated kms's mock
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-11 15:23:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3328" class=".btn">#3328</a>
-            </td>
-            <td>
-                <b>
-                    fix: change validate->Validate
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Changed credentialManifest's `validate()` back to `Validate() `as it needs to be exported
-Signed-off-by: heidihan0000 <daeun.han@avast.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-11 14:42:27 +0000 UTC
     </div>
 </div>
 

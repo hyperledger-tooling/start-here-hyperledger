@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3594" class=".btn">#3594</a>
+            </td>
+            <td>
+                <b>
+                    Move BlockSignatureVerifier into protoutils
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                And refactor VerifyBlock() in orderer and peer gossip to use the common code.
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-18 15:34:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3592" class=".btn">#3592</a>
             </td>
             <td>
@@ -121,35 +150,6 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-08-15 10:37:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3588" class=".btn">#3588</a>
-            </td>
-            <td>
-                <b>
-                    Add channel capability for V3.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Cherry pick of https://github.com/Fabric-orderer-collaboration/fabric/commit/e3fe50b45277ab5e9bbe4bdcc42ddd39060a28f2
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-11 16:49:11 +0000 UTC
     </div>
 </div>
 

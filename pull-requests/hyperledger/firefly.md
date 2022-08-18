@@ -14,6 +14,113 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/982" class=".btn">#982</a>
+            </td>
+            <td>
+                <b>
+                    Misc cleanup for 1.0 branch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Explicitly log the deprecation of the "publicstorage" key
+* Update the CLI to 1.0.2
+* Backport ffconfig tool
+* Pin golangci-lint to an older version
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-18 17:43:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/981" class=".btn">#981</a>
+            </td>
+            <td>
+                <b>
+                    add nil check for aggregator during WaitStop
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-18 17:08:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/980" class=".btn">#980</a>
+            </td>
+            <td>
+                <b>
+                    Add nil check for blobReceiver during WaitStop
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #979
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-18 16:01:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/977" class=".btn">#977</a>
+            </td>
+            <td>
+                <b>
+                    Use optimistic inserts for blockchain events
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Always attempt to insert first, then fall back to a query for duplicates.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-18 15:01:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/976" class=".btn">#976</a>
             </td>
             <td>
@@ -409,62 +516,6 @@ See https://github.com/hyperledger/firefly-common/pull/31
     </table>
     <div class="right-align">
         Created At 2022-08-11 20:28:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/958" class=".btn">#958</a>
-            </td>
-            <td>
-                <b>
-                    Update Ruby deps
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                For https://github.com/hyperledger/firefly/security/dependabot/19
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-11 16:23:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/956" class=".btn">#956</a>
-            </td>
-            <td>
-                <b>
-                    Messages that fail validation should be rejected
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                There was some confusion between "message is invalid" and "message could not yet
-be dispatched" in the event aggregator. This attempts to separate those two
-situations, as the former should be an immediate rejection.
-
-Fixes #952
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-11 15:06:38 +0000 UTC
     </div>
 </div>
 

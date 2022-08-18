@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/803" class=".btn">#803</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/804" class=".btn">#804</a>
             </td>
             <td>
                 <b>
-                    backend code coverage
+                    fix basic auth being active when keycloak is configured
                 </b>
             </td>
         </tr>
@@ -28,6 +28,41 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
             </td>
             <td>
                 Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/804"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-18 15:39:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/803" class=".btn">#803</a>
+            </td>
+            <td>
+                <b>
+                    build pipeline updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - got rid of external snapshot repository by directly building the plugin in the pipeline
+- moved license attribution and container creation into own build job
+- added jacoco plugin and instrumentation
+- added dependabot check job
+
+Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
 
 <a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/803"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
 

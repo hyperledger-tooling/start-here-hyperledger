@@ -14,11 +14,45 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/542" class=".btn">#542</a>
+            </td>
+            <td>
+                <b>
+                    Refactor connection protocol
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Removes forgotten `disclose` protocol handling on Aries SM level
+- Weakens assumptions about connection confirmation message on Connection protocol Aries SM level. We have required that inviter must receive Ping or Ack message to progress to final state on Inviter side, however as [rfc states](https://github.com/hyperledger/aries-rfcs/blob/main/features/0160-connection-protocol/README.md#3-connection-acknowledgement), "any message will do":
+> After the Response is received, the connection is technically complete. This remains unconfirmed to the inviter however. The invitee SHOULD send a message to the inviter. As any message will confirm the connection, any message will do.
+
+So instead of having `handle_ping` and `handle_ack` in inviter SM, these are replaced by `handle_confirmation_message`. If the final message happens to be `Ping`, it's up to upper layers to perhaps respond to ping, but shouldn't be part of Connection SM responsibility to respond Ping message (and no longer is, with the changes made).
+- Adds optional thread attribute to `BasicMessage`
+- Adds thread_id matching for all message types. 
+
+Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-18 15:28:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/541" class=".btn">#541</a>
             </td>
             <td>
                 <b>
-                    Formatting/rustfmt
+                    Reformat code with rustfmt
                 </b>
             </td>
         </tr>

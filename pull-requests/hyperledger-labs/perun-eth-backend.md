@@ -37,29 +37,3 @@ This is especially useful in the case of multi-ledger channels where a client mi
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/30" class=".btn">#30</a>
-            </td>
-            <td>
-                <b>
-                    Fix multi ledger
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes a few problems with the multi-ledger funder and adjudicator. See commits messages for more details.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-11 17:05:54 +0000 UTC
-    </div>
-</div>
-
