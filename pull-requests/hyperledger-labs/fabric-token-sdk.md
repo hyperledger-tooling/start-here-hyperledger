@@ -118,29 +118,3 @@ Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/354" class=".btn">#354</a>
-            </td>
-            <td>
-                <b>
-                    translator: remove IssuingValidator #352
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">cleanup</span>
-            </td>
-            <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-11 04:15:52 +0000 UTC
-    </div>
-</div>
-
