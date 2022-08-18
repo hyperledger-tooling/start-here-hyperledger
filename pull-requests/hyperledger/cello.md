@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/482" class=".btn">#482</a>
+            </td>
+            <td>
+                <b>
+                    Implement API to get node config file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Enable to get config file through the api:
+http://127.0.0.1:8080/api/v1/nodes/:node_id/config
+
+A peer_config.zip or orderer_config.zip file will be returned.
+
+Signed-off-by: Xichen Pan <xichen.pan@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-18 01:45:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/481" class=".btn">#481</a>
             </td>
             <td>
