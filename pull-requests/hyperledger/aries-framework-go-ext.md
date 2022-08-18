@@ -49,29 +49,3 @@ Thanks!
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/281" class=".btn">#281</a>
-            </td>
-            <td>
-                <b>
-                    chore: update to latest orb
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-11 16:11:43 +0000 UTC
-    </div>
-</div>
-

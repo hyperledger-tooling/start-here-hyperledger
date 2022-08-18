@@ -122,29 +122,3 @@ Remove tests relating to DID method orb and agents with no inbound transports
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/544" class=".btn">#544</a>
-            </td>
-            <td>
-                <b>
-                    [#543] Payloads in request log do not preserve json syntax
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Thomas Diesler <tdiesler@redhat.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-11 14:14:51 +0000 UTC
-    </div>
-</div>
-
