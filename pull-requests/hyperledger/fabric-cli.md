@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-cli/pull/37" class=".btn">#37</a>
+                PR <a href="https://github.com/hyperledger/fabric-cli/pull/40" class=".btn">#40</a>
             </td>
             <td>
                 <b>
-                    Update CI ubuntu to 20.04
+                    Patched 🐛 Improper Input Validation in GoGo Protobuf
                 </b>
             </td>
         </tr>
@@ -27,12 +27,17 @@ permalink: /pull-requests/hyperledger/fabric-cli
                 
             </td>
             <td>
-                Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+                An issue was discovered in GoGo Protobuf before 1.3.2. plugin/unmarshal/unmarshal.go lacks certain index validation, aka the "skippy peanut butter" issue.
+
+**CVE-2021-3121**
+`8.6 / 10`
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-04 18:01:08 +0000 UTC
+        Created At 2022-08-18 04:03:05 +0000 UTC
     </div>
 </div>
 

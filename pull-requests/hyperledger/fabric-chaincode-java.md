@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/254" class=".btn">#254</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/255" class=".btn">#255</a>
             </td>
             <td>
                 <b>
-                    Remove unrequired Maven wrapper directory
+                    Patched 🐛 Deserialization of Untrusted Data
                 </b>
             </td>
         </tr>
@@ -27,15 +27,17 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                Remove unrequired Maven wrapper directory
-Update Maven wrapper to latest version
+                **CVE-2017-5929**
+`9.8/ 10`
+CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
 
-Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+## Sumarry of issue vulnerabilities:
+QOS.ch Logback before 1.2.0 has a serialization vulnerability affecting the SocketServer and ServerSocketReceiver components. The RemoteStreamAppenderClient class in logback-classic and the SocketNode classes in logback-classic and logback-access allow data to be deserialized over a Java Socket, via an ObjectInputStream, without validating the data beforehand. When data is received from the Socket, to be logged, it is deserialized into Java objects.An attacker can exploit this vulnerability by sending malicious, serialized Java objects over the connection to the Socket, which may result in execution of arbitrary code when those objects are deserialized. Note that although logback-core is implicated by the Logback project here, the Sonatype Security Research team discovered that the vulnerability is actually present in the logback-classic and logback-access components. Versions prior to 1.2.0 are vulnerable, as stated in the advisory.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-05 16:40:23 +0000 UTC
+        Created At 2022-08-18 03:56:13 +0000 UTC
     </div>
 </div>
 

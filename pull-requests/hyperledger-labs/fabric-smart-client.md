@@ -61,6 +61,20 @@ Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
 - possibiilty to pass options
 - PKCS11 BCCSP support and configuration
 
+TODO:
+- Option to add an identity whose secret key is stored in the HSM. Something like:
+```go
+borrower := fscTopology.AddNodeByName("borrower")
+borrower.AddOptions(fabric.WithHSMIdentity("b1"))
+```
+- Extend NWO to generate the HSM identities:
+  - Add an HSM flag to `PeerIdentity`
+  - `integration/nwo/fabric/network/network_support.go Line 678`: Parse HSM identities from Opts and add `PeerIdentity`
+  - `integration/nwo/fabric/network/network.go`: Add to `GenerateArtifacts` the generation of the HSM identities.
+- Extend the `IOU` integration test to use this identity. The burrower can use this identity for the ownership of the IOU state.
+
+
+
 Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
         </tr>
