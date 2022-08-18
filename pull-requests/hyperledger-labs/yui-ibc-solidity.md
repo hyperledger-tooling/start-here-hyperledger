@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/103" class=".btn">#103</a>
-            </td>
-            <td>
-                <b>
-                    Comply with IBC commitment path spec
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                implement https://github.com/hyperledger-labs/yui-ibc-solidity/issues/90
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-11 08:34:58 +0000 UTC
-    </div>
-</div>
-
