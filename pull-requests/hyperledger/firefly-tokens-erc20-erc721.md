@@ -136,29 +136,3 @@ Signed-off-by: Chengxuan Xing <chengxuan.xing@kaleido.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/77" class=".btn">#77</a>
-            </td>
-            <td>
-                <b>
-                    Pass through EthConnect/EVMConnect receipts unchanged
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Per https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/72#issuecomment-1210782114
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-10 19:47:01 +0000 UTC
-    </div>
-</div>
-

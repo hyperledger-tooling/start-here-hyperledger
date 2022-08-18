@@ -14,6 +14,93 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/976" class=".btn">#976</a>
+            </td>
+            <td>
+                <b>
+                    Only query operations from the database if there were cache misses
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-17 22:13:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/975" class=".btn">#975</a>
+            </td>
+            <td>
+                <b>
+                    Adjust defaults for all cache items that don't expose a Size
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">migration_consideration</span>
+            </td>
+            <td>
+                Caches may be limited on size (if the items advertise their Size) or on
+number of items. Since most cached items do not expose a Size, the limit
+should be set on number of items alone.
+
+Picked numbers pretty much at random, so I'm open to feedback if they
+should be higher or lower, or if any of these items should get a Size method
+to do size estimation.
+
+I've tagged with "migration_consideration" since I have renamed a few
+config keys, but I don't think they're widely used.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-17 19:48:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/974" class=".btn">#974</a>
+            </td>
+            <td>
+                <b>
+                    Leverage transaction cache in a few more places
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-17 18:33:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/973" class=".btn">#973</a>
             </td>
             <td>
@@ -378,32 +465,6 @@ Fixes #952
     </table>
     <div class="right-align">
         Created At 2022-08-11 15:06:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/955" class=".btn">#955</a>
-            </td>
-            <td>
-                <b>
-                    Properly match operation updates to the plugin that generated them
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-10 20:57:37 +0000 UTC
     </div>
 </div>
 
