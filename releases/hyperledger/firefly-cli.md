@@ -44,35 +44,3 @@ permalink: /releases/hyperledger/firefly-cli
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v1.1.0-alpha.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v1.1.0-alpha.3
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* Add support for evmconnect by @nguyer in https://github.com/hyperledger/firefly-cli/pull/199
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly-cli/compare/v1.1.0-alpha.2...v1.1.0-alpha.3
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly-cli/releases/tag/v1.1.0-alpha.3" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-08-11 18:34:31 +0000 UTC
-    </span>
-</div>
-
