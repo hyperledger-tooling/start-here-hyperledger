@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/985" class=".btn">#985</a>
+            </td>
+            <td>
+                <b>
+                    feat: always initialize mediator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Always initialize the mediator during `agent.initialize()`, to prevent attempts to initialize twice due to parallelism
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-18 08:04:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/983" class=".btn">#983</a>
             </td>
             <td>

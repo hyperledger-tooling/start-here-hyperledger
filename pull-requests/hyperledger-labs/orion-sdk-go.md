@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/138" class=".btn">#138</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/140" class=".btn">#140</a>
             </td>
             <td>
                 <b>
-                    upgrade to the latest main with provenance acl
+                    replace json marshalling with protojson
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-28 08:52:00 +0000 UTC
+        Created At 2022-08-18 07:18:57 +0000 UTC
     </div>
 </div>
 

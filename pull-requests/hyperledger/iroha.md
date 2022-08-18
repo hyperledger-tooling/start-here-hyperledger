@@ -216,7 +216,7 @@ None
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">Bug</span><span class="chip">iroha2</span>
             </td>
             <td>
                 Signed-off-by: Artemii Gerasimovich <gerasimovich@soramitsu.co.jp>

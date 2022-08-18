@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/538" class=".btn">#538</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/541" class=".btn">#541</a>
             </td>
             <td>
                 <b>
-                    Java methods for OOB and LibVcx.api.vcx_get_verkey_from_ledger
+                    Formatting/rustfmt
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                <nil>
+                Addressing https://github.com/hyperledger/aries-vcx/issues/540
+- configured max line length to 120 chars
+- added script to configure git pre-commit hook to reformat modified files
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-06 08:20:25 +0000 UTC
+        Created At 2022-08-18 10:08:43 +0000 UTC
     </div>
 </div>
 

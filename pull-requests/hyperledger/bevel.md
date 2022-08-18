@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2013" class=".btn">#2013</a>
+            </td>
+            <td>
+                <b>
+                    [docs] inclusive language changes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+**Changelog**
+- Add inclusive language changes
+
+ 
+
+**Linked issue**
+#1948 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-18 10:10:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2012" class=".btn">#2012</a>
+            </td>
+            <td>
+                <b>
+                    mixed-org fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-18 09:41:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2011" class=".btn">#2011</a>
             </td>
             <td>
@@ -150,33 +213,6 @@ permalink: /pull-requests/hyperledger/bevel
     </table>
     <div class="right-align">
         Created At 2022-08-12 06:27:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2004" class=".btn">#2004</a>
-            </td>
-            <td>
-                <b>
-                    [chore] doorman build fix on kotlin v1.6.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Changelog**
-- Add fix for kotlin v1.6.0 fix doorman build
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-11 08:26:51 +0000 UTC
     </div>
 </div>
 
