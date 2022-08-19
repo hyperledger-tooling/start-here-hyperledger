@@ -545,31 +545,3 @@ Update transaction cache after initial insert.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/961" class=".btn">#961</a>
-            </td>
-            <td>
-                <b>
-                    Update readme for local dev set up
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixed an error and added link in the core readme to link to component dev readme
-
-Signed-off-by: Chengxuan Xing <chengxuan.xing@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-12 11:26:09 +0000 UTC
-    </div>
-</div>
-

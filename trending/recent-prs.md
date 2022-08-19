@@ -1,13 +1,13 @@
 
-[118](https://github.com/hyperledger/iroha-javascript/pull/118) [fix]: update SCALE version; fix `json-bigint` import
+[60](https://github.com/hyperledger-labs/acapy-java-client/pull/60) added concrete type for the servers status config
 
-[4278](https://github.com/hyperledger/besu/pull/4278) Trace block timeout
+[979](https://github.com/hyperledger-labs/solang/pull/979) Debug info patch - Fix #967
 
-[987](https://github.com/hyperledger/firefly/pull/987) Update firefly_node.md
+[1135](https://github.com/hyperledger/besu-docs/pull/1135) remove install tools upgrade
 
-[751](https://github.com/hyperledger/aries-rfcs/pull/751) Clarifications to RFC 0592 AnonCreds Attachments about unrevealed attributes and string integer encoding
+[1134](https://github.com/hyperledger/besu-docs/pull/1134) Remove info about account denylist
 
-[3595](https://github.com/hyperledger/fabric/pull/3595) Updates in main branch for v2.4.6
+[104](https://github.com/hyperledger/indy-node-container/pull/104) indy node update 1.12.4 -> 1.12.5
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
