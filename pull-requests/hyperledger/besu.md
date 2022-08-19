@@ -113,7 +113,7 @@ Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">bug</span><span class="chip">P3</span><span class="chip">mainnet</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -257,7 +257,7 @@ relates to #3955
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">peering</span>
             </td>
             <td>
                 Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
@@ -334,7 +334,7 @@ Signed-off-by: Stefan <stefan.pingel@consensys.net>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -395,7 +395,7 @@ This PR fixes some issues based n comments against https://github.com/hyperledge
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Stops block propagation via devp2p when network finalizes, not at TTD as previous.
