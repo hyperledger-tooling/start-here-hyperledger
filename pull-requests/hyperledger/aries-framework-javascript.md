@@ -92,32 +92,3 @@ Signed-off-by: Tipu Singh tipu.singh@ayanworks.com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/982" class=".btn">#982</a>
-            </td>
-            <td>
-                <b>
-                    style: prettier formatting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I somehow directly pushed to main and now messed up the prettier formatting. I restricted the branch protection to make sure it doesn't happen again. This PR fixes the prettier formatting.
-
-﻿Signed-off-by: Timo Glastra <timo@animo.id>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-12 13:17:39 +0000 UTC
-    </div>
-</div>
-

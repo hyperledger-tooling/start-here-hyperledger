@@ -14,6 +14,89 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4282" class=".btn">#4282</a>
+            </td>
+            <td>
+                <b>
+                    Flexible Privacy Groups feature - Support to Tessera's EC encryptor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Flexible privacy contracts are modified so they allow the use of enclave public keys longer than 32 bytes. This way the feature will now support the EC encryptor mode of Tessera. Java classes adapted as well so they could encode/decode Solidity `bytes` properly.
+
+Since there were `bytes32` parameters in the method signatures of the proxy contract, I could not just upgrade the implementation. This means that the changelog should warn about this change. I guess it is ok since [in the actual documentation, this feature is referred to as an experimental one](https://besu.hyperledger.org/en/stable/HowTo/Use-Privacy/Use-FlexiblePrivacy/) and changes like this might be expected.
+
+## Fixed Issue(s)
+
+fixes https://github.com/hyperledger/besu/issues/4262
+
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-19 15:21:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4280" class=".btn">#4280</a>
+            </td>
+            <td>
+                <b>
+                    working on snapshot impl for bonsai
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-19 12:37:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4278" class=".btn">#4278</a>
             </td>
             <td>
@@ -591,57 +674,6 @@ by dropping dependencies.
     </table>
     <div class="right-align">
         Created At 2022-08-15 16:11:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4256" class=".btn">#4256</a>
-            </td>
-            <td>
-                <b>
-                    Refactor and fix retrying get block switching peer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-RetryingGetBlockFromPeersTask had a problem that prevented to complete
-when all the peers fail, and that also had the
-consequence to not removing the failed requested block from the internal
-caches in BlockPropagationManager, that could cause a stall since that
-block will not be tried to be retrieved again.
-
-Made also an abstraction of a retrying peer task that tries a different peer on every execution, so it can used also for other tasks
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-relates to #3955 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-12 16:20:40 +0000 UTC
     </div>
 </div>
 
