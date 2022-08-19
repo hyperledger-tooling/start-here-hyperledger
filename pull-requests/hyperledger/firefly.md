@@ -14,6 +14,88 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/987" class=".btn">#987</a>
+            </td>
+            <td>
+                <b>
+                    Update firefly_node.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Typo fix PostgreSQL.
+
+Signed-off-by: Liad Cohen <6436094+Liadc@users.noreply.github.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-18 23:03:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/984" class=".btn">#984</a>
+            </td>
+            <td>
+                <b>
+                    Fix bugs when running with an old config file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                FireFly should continue to work when run against a config file from 1.0.x.
+
+Since this references 1.0.4, it should go in after https://github.com/hyperledger/firefly/pull/982 is merged and released as 1.0.4.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-18 19:38:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/983" class=".btn">#983</a>
+            </td>
+            <td>
+                <b>
+                    bump reset polling to 60seconds
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-18 18:31:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/982" class=".btn">#982</a>
             </td>
             <td>
@@ -488,34 +570,6 @@ Signed-off-by: Chengxuan Xing <chengxuan.xing@kaleido.io>
     </table>
     <div class="right-align">
         Created At 2022-08-12 11:26:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/960" class=".btn">#960</a>
-            </td>
-            <td>
-                <b>
-                    Changes to support E2E tests with confirmations, where requests might be slow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Biggest change is to the HTTP Server to allow requests longer than 15s to complete without the client getting an EOF.
-
-See https://github.com/hyperledger/firefly-common/pull/31
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-11 20:28:43 +0000 UTC
     </div>
 </div>
 

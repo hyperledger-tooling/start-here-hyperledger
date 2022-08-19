@@ -34,6 +34,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
 So instead of having `handle_ping` and `handle_ack` in inviter SM, these are replaced by `handle_confirmation_message`. If the final message happens to be `Ping`, it's up to upper layers to perhaps respond to ping, but shouldn't be part of Connection SM responsibility to respond Ping message (and no longer is, with the changes made).
 - Adds optional thread attribute to `BasicMessage`
 - Adds thread_id matching for all message types. 
+- Update `verify_thread_id` to not skip thread verification if `indy_mocks_enabled == true`
 
 Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
             </td>
