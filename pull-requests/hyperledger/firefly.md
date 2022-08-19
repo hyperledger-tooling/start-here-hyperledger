@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/988" class=".btn">#988</a>
+            </td>
+            <td>
+                <b>
+                    Restore camelCase key names
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Since the Viper patch has been absorbed (#930), it's OK to use
+camelCase in config files again.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-19 14:55:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/987" class=".btn">#987</a>
             </td>
             <td>

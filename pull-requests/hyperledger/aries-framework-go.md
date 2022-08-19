@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3343" class=".btn">#3343</a>
+            </td>
+            <td>
+                <b>
+                    feat: CL Anoncreds Remote KMS/Crypto
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Title:**
+CL Anoncreds Remote KMS/Crypto
+
+**Description:**
+* Fifth PR to support CL in `af-go` [#180](https://github.com/hyperledger/aries-framework-go/issues/180)
+* This PR implements/supports CL methods in remote Crypto
+* This PR adds support for KMS extension for remote KMS 
+* "server"-side changes will be implemented in the separate PR in both `trustbloc/kms`
+
+**Summary:**
+* added client calls to CL methods in remote crypto
+* added attrs propagation for remote kms
+* added unit tests for remote kms/crypto
+* added more failed cases for localkms ursa tests
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-19 13:53:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3342" class=".btn">#3342</a>
             </td>
             <td>

@@ -454,30 +454,3 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2618" class=".btn">#2618</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #2560: Added back in block_sync and peer disconnecting.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sam H. Smith <sam.henning.smith@protonmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-12 13:14:37 +0000 UTC
-    </div>
-</div>
-
