@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/979" class=".btn">#979</a>
+            </td>
+            <td>
+                <b>
+                    Debug info patch - Fix #967
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix #967 to generate debug information with bitcode
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-19 10:39:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/968" class=".btn">#968</a>
             </td>
             <td>
@@ -91,32 +117,6 @@ Note this functionality will be used in a following commit to define interfaces 
     </table>
     <div class="right-align">
         Created At 2022-08-12 20:38:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/959" class=".btn">#959</a>
-            </td>
-            <td>
-                <b>
-                    Make --generate-debug-info hidden
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This feature is incomplete and does not have any users yet. For example, there is a debugging endpoint for Solana in the works, but this is not finished yet. Also, this will be useful for static analysis, which requires debug information for higher-level type information.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-12 08:39:22 +0000 UTC
     </div>
 </div>
 

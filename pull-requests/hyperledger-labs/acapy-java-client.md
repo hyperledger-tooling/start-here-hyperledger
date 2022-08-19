@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/59" class=".btn">#59</a>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/60" class=".btn">#60</a>
             </td>
             <td>
                 <b>
-                    handle oob websocket events
+                    added concrete type for the servers status config
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
                 
             </td>
             <td>
-                see https://github.com/hyperledger-labs/acapy-java-client/issues/58
-
-Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-11 14:28:55 +0000 UTC
+        Created At 2022-08-19 10:56:02 +0000 UTC
     </div>
 </div>
 

@@ -35,6 +35,7 @@ So instead of having `handle_ping` and `handle_ack` in inviter SM, these are rep
 - Adds optional thread attribute to `BasicMessage`
 - Adds thread_id matching for all message types. 
 - Update `verify_thread_id` to not skip thread verification if `indy_mocks_enabled == true`
+- Renamed `handle_connect` to more descriptive names `send_connection_request` for invitee and `create_invitation` for inviter FSMs.
 
 Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
             </td>
