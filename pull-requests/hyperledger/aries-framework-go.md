@@ -233,30 +233,3 @@ Algorithms included:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3332" class=".btn">#3332</a>
-            </td>
-            <td>
-                <b>
-                    feat: implement signer.Alg()
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-11 19:17:52 +0000 UTC
-    </div>
-</div>
-

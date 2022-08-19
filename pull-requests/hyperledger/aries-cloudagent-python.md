@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1904" class=".btn">#1904</a>
+            </td>
+            <td>
+                <b>
+                    Update for the v1.0.0-rc0 release. Changelog comment added for v0.7.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Update for the v1.0.0-rc0 release. Changelog comment added for v0.7.4
+- Added this PR to changelog
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-18 19:41:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1902" class=".btn">#1902</a>
             </td>
             <td>

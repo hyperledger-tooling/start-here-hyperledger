@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
             </td>
             <td>
                 <b>
-                    Allow user to select the use of biometry
+                    feat: allow user to select the use of biometry
                 </b>
             </td>
         </tr>
