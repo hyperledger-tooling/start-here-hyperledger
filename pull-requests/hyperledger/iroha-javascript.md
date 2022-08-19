@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/118" class=".btn">#118</a>
+            </td>
+            <td>
+                <b>
+                    [fix]: update SCALE version; fix `json-bigint` import
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-19 03:36:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-javascript/pull/116" class=".btn">#116</a>
             </td>
             <td>
