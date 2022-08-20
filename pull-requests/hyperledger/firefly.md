@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/995" class=".btn">#995</a>
+            </td>
+            <td>
+                <b>
+                    Update ERC-1155 connector and evmconnect for RC.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Peter Broadhurst <peter.broadhurst@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-20 04:06:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/994" class=".btn">#994</a>
+            </td>
+            <td>
+                <b>
+                    Wait for server to exit, before restarting for reset
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes https://github.com/hyperledger/firefly/issues/993
+
+We need to wait for the `startFirefly` routine to exit, before we can safely restart it.
+
+This means a second channel to distinguish exit, from an error.
+
+A secondary fix in this PR, is to stop/restart the debug server after the reset - previously it was never stopped.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-20 03:51:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/992" class=".btn">#992</a>
             </td>
             <td>
