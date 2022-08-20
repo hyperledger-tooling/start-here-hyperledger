@@ -121,33 +121,3 @@ This PR allows for publishing DIDs with routing keys; PR #1863 allows for resolv
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1897" class=".btn">#1897</a>
-            </td>
-            <td>
-                <b>
-                    Fixes a few AATH failures
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes:
-- one 023-did-exchange error
-- 0434-oob errors
-- one 0183-revocation error
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-12 18:46:22 +0000 UTC
-    </div>
-</div>
-

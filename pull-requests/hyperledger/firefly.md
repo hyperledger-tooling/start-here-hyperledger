@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/992" class=".btn">#992</a>
+            </td>
+            <td>
+                <b>
+                    Propagate the underlying parse error
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Found while diagnosing https://github.com/hyperledger/firefly/issues/990#issuecomment-1221077085, that we didn't include the underlying error when we had a problem parsing the input for the Ethereum implementation of the `/api/v1/contracts/interfaces/generate` endpoint.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-19 20:46:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/991" class=".btn">#991</a>
+            </td>
+            <td>
+                <b>
+                    Add /pins/rewind API for requesing manual rewind
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Mitigation for https://github.com/hyperledger/firefly/issues/986 and similar issues.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-19 19:27:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/988" class=".btn">#988</a>
             </td>
             <td>
