@@ -14,6 +14,97 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2641" class=".btn">#2641</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #2596: Wasm validators
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">Security</span><span class="chip">Yellow</span>
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+* Added `Validator` and related things to the *data_model*
+* Added `Chain` of validators to the `World`. With that we can check operations using runtime validators.
+* Added instructions to modify this chain. Such as `Register<Validator>` and `Unregister<Validator>`
+* Added entrypoint macro for validators
+* Added suppor of validators into `wasm.rs` module
+* Added test with sample validator
+
+There are also **a lot** of **TODO** in this PR. This **TODO**s are the questions to the reviewers and my suggestions for a future.
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Issue
+
+* Closes #2596 
+
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+* Runtime validators
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+
+There are two main drawbacks (which are mentioned in the code too):
+
+1. Malicious validator probably can break Iroha peer because right now Iroha believes that *validator* provides valid memory with `Verdict` sruct inside. If not, then UB. 
+2. I really don't know why, but I can't prevent memory leak with this returned `Verdict`. Then I'm trying to deallocate it on Iroha side I get: `pointer being freed was not allocated` error. See `wasm.rs` and `wasm/derive/src/validator.rs` for details.
+
+I think this 2 problems can be fixed with one shot. We should limit `Verdict` struct size (I mean denial reason string should be limited e.g. 256 bytes). Then we can allocate memory on Iroha side and provide it to the validator.
+Remember that right now we need to allocate not just `size_of::<Verdict>()` but unpredictable number of bytes, because we use `parity_scale_codec::Encode` which encodes string with denial reason as well, and that string can have any size.
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests
+
+Comment `ignore` attribute on `deny_new_validators()` test.
+
+Then run:
+
+```bash
+cargo +nightly-2022-08-15 test --package iroha_client --test mod -- integration::permissions::runtime_validators::deny_new_validators --exact --nocapture
+```
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-20 16:23:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2639" class=".btn">#2639</a>
             </td>
             <td>
