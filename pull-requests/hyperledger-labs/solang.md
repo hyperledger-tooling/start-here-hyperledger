@@ -159,29 +159,3 @@ Note this functionality will be used in a following commit to define interfaces 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/961" class=".btn">#961</a>
-            </td>
-            <td>
-                <b>
-                    Create abi.borshDecode method for Solana
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR implements Borsh Decoding and connects it to an experimental function called `abi.borshDecode` that only works for Solana. Using this function raises a compiler warning to inform the user that the borsh encoding is not completely supported yet.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-12 20:38:07 +0000 UTC
-    </div>
-</div>
-
