@@ -133,29 +133,3 @@ Note this functionality will be used in a following commit to define interfaces 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/963" class=".btn">#963</a>
-            </td>
-            <td>
-                <b>
-                    add shell completions for cli app
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds a `shell-complete` sub-command, allowing users to autocomplete our CLI with the TAB key (this pretty much defuses the issue of typing full length sub-commands out all the time). As a bonus It also shows remaining options when there is nothing to complete yet.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-14 13:20:23 +0000 UTC
-    </div>
-</div>
-
