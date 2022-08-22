@@ -14,32 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/224" class=".btn">#224</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/227" class=".btn">#227</a>
             </td>
             <td>
                 <b>
-                    Initial oob implementation with handshake reuse
+                    Integrate indy vdr
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span>
             </td>
             <td>
-                Signed-off-by: Sebastian Bickerle <sebastian.bickerle@main-incubator.com>
-
-#### Short description of what this resolves:
-This adds initial support for the out-of-band protocol. This should enable agents to process out-of-band invitations with handshake protocols and enables the usage of the DidExchange protocol with out-of-band invitations.
+                #### Short description of what this resolves:
+This adds a Hyperledger Indy-VDR integration for AF .NET. Interfaces were minimally adjusted to handle different pool and request handles.
 
 #### Changes proposed in this pull request:
-- Add DefaultOutOfBandService and OutOfBandHandler to process OutOfBand messages
+
+- Adds DefaultPoolServiceV2, DefaultLedgerServiceV2 and DefaultSingingService
+- Indy-sdk types were redacted from the interfaces
+- Builder extensions AddAriesFrameworkV2 will add the Indy-VDR compliant services
+- Integration tests for LedgerService and SchemaService included
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-02 14:25:26 +0000 UTC
+        Created At 2022-08-22 06:58:05 +0000 UTC
     </div>
 </div>
 

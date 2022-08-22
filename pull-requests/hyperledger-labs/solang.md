@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/983" class=".btn">#983</a>
+            </td>
+            <td>
+                <b>
+                    Always run linux arm64 tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Thanks for Hyperledger, we now have an mac m1 running asahi linux which we can use for linux arm64 tests and builds.
+
+Now also run the tests on pull requests.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-22 11:17:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/982" class=".btn">#982</a>
+            </td>
+            <td>
+                <b>
+                    Dev
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Multiplication overflow detection for bits > 64.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-22 08:13:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/981" class=".btn">#981</a>
             </td>
             <td>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/97" class=".btn">#97</a>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/100" class=".btn">#100</a>
             </td>
             <td>
                 <b>
-                    fix(js): React Native wrapper proper async calls
+                    Added .net wrapper
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/indy-vdr
                 
             </td>
             <td>
-                - Minor cleanup
-- Removed boost, folly and more unrequired dependencies.
-- Async call can be done in a proper way in Android and iOS
-
-Still some cleanup stuff to do, but all in due time :).
+                Signed-off-by: Christopher Hempel <c.hempel@esatus.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-31 12:54:33 +0000 UTC
+        Created At 2022-08-22 07:56:12 +0000 UTC
     </div>
 </div>
 
