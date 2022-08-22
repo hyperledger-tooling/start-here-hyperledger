@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/PerformanceSandBox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/65" class=".btn">#65</a>
+                PR <a href="https://github.com/hyperledger-labs/PerformanceSandBox/pull/76" class=".btn">#76</a>
             </td>
             <td>
                 <b>
-                    impl for tape dashboard and p99 for latency
+                    add maintainer.md
                 </b>
             </td>
         </tr>
@@ -27,15 +27,14 @@ permalink: /pull-requests/hyperledger-labs/PerformanceSandBox
                 
             </td>
             <td>
-                resolve #58
-resolve #59
+                resolve #75
 
 Signed-off-by: Sam Yuan <yy19902439@126.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-05-29 06:20:53 +0000 UTC
+        Created At 2022-08-22 13:09:47 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1906" class=".btn">#1906</a>
+            </td>
+            <td>
+                <b>
+                    Send webhooks upon record/credential deletion
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                There is a ToDo note talking about sending webhooks when records are deleted. There are also no webhooks that get sent when a credential is deleted. This PR aims to fix the ToDo, as well as provide webhooks for when a credential has been deleted.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-22 15:23:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1904" class=".btn">#1904</a>
             </td>
             <td>
