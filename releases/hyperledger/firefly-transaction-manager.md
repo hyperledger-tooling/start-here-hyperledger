@@ -42,35 +42,3 @@ permalink: /releases/hyperledger/firefly-transaction-manager
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v0.9.4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v0.9.4
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* Add policy engine tests for known transaction case by @peterbroadhurst in https://github.com/hyperledger/firefly-transaction-manager/pull/19
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly-transaction-manager/compare/v0.9.3...v0.9.4
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v0.9.4" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-08-15 13:05:47 +0000 UTC
-    </span>
-</div>
-
