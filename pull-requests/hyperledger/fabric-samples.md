@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/815" class=".btn">#815</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/817" class=".btn">#817</a>
             </td>
             <td>
                 <b>
-                    use existing const instead of local string
+                    separate namespace for each organization
                 </b>
             </td>
         </tr>
@@ -27,12 +27,20 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                Signed-off-by: Stefan Obermeier <st.obermeier@seeburger.de>
+                Currently all the organizations are in a single namespace. Changes are done in multiple files to create three namespaces and to separate organizations across namespaces.
+- ORG0_NS, ORG1_NS, ORG3_NS are defined in network script
+- $NS in the scripts are replaced with corresponding namespace
+
+All till chaincode invoke/query is working. I'm yet to test the api server. kind was used for n/w setup, will test on Rancher also.
+
+fixes https://github.com/hyperledger/fabric-samples/issues/644.
+
+Signed-off-by: Basil K Y <techiebasil@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-15 18:02:50 +0000 UTC
+        Created At 2022-08-22 13:41:55 +0000 UTC
     </div>
 </div>
 
