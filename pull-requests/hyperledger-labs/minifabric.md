@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/327" class=".btn">#327</a>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/352" class=".btn">#352</a>
             </td>
             <td>
                 <b>
-                    Change chat to discord
+                    Added flag for targeting a desired environment
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/minifabric
                 
             </td>
             <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
+                Added flag "-a | --target-environment" that allows users to set their desired development environment. Users can choose either DOCKER, K8SCLASSIC, or K8SOPERATOR. The default environment is docker. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-17 20:21:26 +0000 UTC
+        Created At 2022-08-22 01:49:15 +0000 UTC
     </div>
 </div>
 
