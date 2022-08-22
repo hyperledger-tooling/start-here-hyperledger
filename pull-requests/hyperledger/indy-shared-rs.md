@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-shared-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/16" class=".btn">#16</a>
+                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/17" class=".btn">#17</a>
             </td>
             <td>
                 <b>
-                    fix: module path should point to wrappers/golang/indy-credx
+                    Added .net wrapper
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-shared-rs
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Christopher Hempel <c.hempel@esatus.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-08 14:27:26 +0000 UTC
+        Created At 2022-08-22 08:06:51 +0000 UTC
     </div>
 </div>
 

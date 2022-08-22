@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2014" class=".btn">#2014</a>
+            </td>
+            <td>
+                <b>
+                    mixed-org fixes base code
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: mgCepeda <marina.gomez.cepeda@accenture.com>
+
+**Changelog**
+- Fix platforms/hyperledger-fabric/configuration/roles/helm_component/templates/ca-mixed.tpl. The secretRef field has been removed, because it causes the error shown in the following image.
+<img width="678" alt="https-error in ca" src="https://user-images.githubusercontent.com/83813093/185910473-413b8121-671a-4b23-9917-b57826105261.png">
+
+- Update platforms/hyperledger-fabric/configuration/roles/create/configtx/templates/configtxOrderer_default.tpl. The value of the BlockValidation field has been modified because it produced an error in the approvechaincode job.
+ 
+
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar @jagpreetsinghsasan 
+
+ 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-22 11:31:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2013" class=".btn">#2013</a>
             </td>
             <td>

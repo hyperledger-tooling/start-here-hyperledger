@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                <nil>
+                The data-sharing query specified at the time of even-subscription currently is static nature. However, under certain scenarions, it may be required it to be constructed dynamically (e.g., in the view address `"view_address": "localhost:9083/network2/mychannel:simplestate:Read:a"` the key `a` to be read might be available only at run time). The changes in this PR replace such dynamic query arguments (e.g., in the view address `"view_address": "localhost:9083/network2/mychannel:simplestate:Read:?"` the `?` will be replaced with the corresponding argument values dynamically by the interop-CC before querying the app-CC)
             </td>
         </tr>
     </table>
