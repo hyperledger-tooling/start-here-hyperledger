@@ -15,6 +15,34 @@ permalink: /releases/hyperledger/indy-node-container
         <tr>
             <td colspan="2">
                 <b>
+                    Node-Controller upgrade script fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v1.2.1
+                </span>
+            </td>
+            <td>
+                This release fixes an error in the node-controller upgrade functionality
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/indy-node-container/releases/tag/v1.2.1" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-08-22 16:26:57 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     Indy Node upgrade 1.12.4 -> 1.12.5
                 </b>
             </td>
