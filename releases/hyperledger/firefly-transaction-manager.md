@@ -15,6 +15,39 @@ permalink: /releases/hyperledger/firefly-transaction-manager
         <tr>
             <td colspan="2">
                 <b>
+                    v0.9.6
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.9.6
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Add checkpoint/catchup information from FFCAPI to listener GET API by @peterbroadhurst in https://github.com/hyperledger/firefly-transaction-manager/pull/23
+* Add delete functionality with policy engine involvement by @peterbroadhurst in https://github.com/hyperledger/firefly-transaction-manager/pull/25
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-transaction-manager/compare/v0.9.5...v0.9.6
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v0.9.6" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-08-23 16:23:35 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v0.9.5
                 </b>
             </td>
