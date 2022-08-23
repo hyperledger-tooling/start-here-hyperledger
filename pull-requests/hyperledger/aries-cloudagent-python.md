@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1908" class=".btn">#1908</a>
+            </td>
+            <td>
+                <b>
+                    Add offers_attach to V10 credential schema
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                We found out that the `offers_attach` attribute is not present in the credential offer schema. It is possible to send it to the api but its not present in the openapi spec. This is a problem is you generate yourself a client with the openapi spec because offers_attach is not defined.
+
+This pr adds the attribute to the credential offer schemas.
+It seems that there were also some other changes that are not reflected in the openapi.json. Therefore the changes in the openapi spec are bigger than the real changes in this pr.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-23 09:55:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1906" class=".btn">#1906</a>
             </td>
             <td>

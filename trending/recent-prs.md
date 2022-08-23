@@ -1,13 +1,13 @@
 
-[4295](https://github.com/hyperledger/besu/pull/4295) ContainterTests - update tessera version
+[816](https://github.com/hyperledger-labs/business-partner-agent/pull/816) convert logging config to yml
 
-[40](https://github.com/hyperledger-labs/fabric-machine/pull/40) Better printing of peer statistics.
+[296](https://github.com/hyperledger-labs/fabric-operations-console/pull/296) System channel removal changes
 
-[23](https://github.com/hyperledger-labs/blockchain-verifier/pull/23) Bump Fabric and dependency versions
+[128](https://github.com/hyperledger/fabric-protos/pull/128) Orderer v3: deprecate kafka
 
-[95](https://github.com/hyperledger/aries-staticagent-python/pull/95) Use async-selective-queue
+[1908](https://github.com/hyperledger/aries-cloudagent-python/pull/1908) Add offers_attach to V10 credential schema
 
-[94](https://github.com/hyperledger/aries-staticagent-python/pull/94) chore(deps): Bump nokogiri from 1.12.5 to 1.13.8 in /docs
+[4299](https://github.com/hyperledger/besu/pull/4299) [MINOR] turn down logging
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

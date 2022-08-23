@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/38" class=".btn">#38</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/39" class=".btn">#39</a>
             </td>
             <td>
                 <b>
-                    README: add an instruction to sync the git submodules
+                    add yui-relayer module into this repository
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-09 06:58:57 +0000 UTC
+        Created At 2022-08-23 08:02:14 +0000 UTC
     </div>
 </div>
 
