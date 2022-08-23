@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/21" class=".btn">#21</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/23" class=".btn">#23</a>
             </td>
             <td>
                 <b>
-                    Improve lint rules and activate GitHub Actions
+                    Bump Fabric and dependency versions
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
                 
             </td>
             <td>
-                This PR improves the lint rule, and fixes the lint errors in source
-code files according to the new rule, and also activates GitHub
-Actions so that it performs linting and unit testing automatically.
-
-Signed-off-by: Taku Shimosawa [taku.shimosawa.uf@hitachi.com](mailto:taku.shimosawa.uf@hitachi.com)
+                This PR is to housekeep the repository, including updating the dependencies and Hyperledger Fabric used in the integration tests and updating documentations.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-07 08:49:37 +0000 UTC
+        Created At 2022-08-22 23:46:30 +0000 UTC
     </div>
 </div>
 

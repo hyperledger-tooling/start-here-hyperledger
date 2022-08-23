@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/971" class=".btn">#971</a>
+            </td>
+            <td>
+                <b>
+                    Fix group race condition, optimize transaction cache
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Insert local group only after inserting groupinit message.
+This ensures no other threads pick up on the group before the
+message is sequenced.
+
+Update transaction cache after initial insert.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-16 17:53:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/970" class=".btn">#970</a>
+            </td>
+            <td>
+                <b>
+                    Update to firefly-signer v0.9.15
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-16 15:51:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/969" class=".btn">#969</a>
             </td>
             <td>
@@ -59,58 +115,6 @@ permalink: /pull-requests/hyperledger/firefly
     </table>
     <div class="right-align">
         Created At 2022-08-16 04:15:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/966" class=".btn">#966</a>
-            </td>
-            <td>
-                <b>
-                    Add tutorial for Polygon testnet
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Rendered preview is currently available at: https://nguyer.github.io/firefly/head/tutorials/chains/polygon_testnet.html
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-15 20:59:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/965" class=".btn">#965</a>
-            </td>
-            <td>
-                <b>
-                    bump ui to 1.1 alpha 3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-15 19:41:31 +0000 UTC
     </div>
 </div>
 

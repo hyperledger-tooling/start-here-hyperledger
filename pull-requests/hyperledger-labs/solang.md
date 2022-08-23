@@ -46,7 +46,7 @@ Now also run the tests on pull requests.
             </td>
             <td>
                 <b>
-                    Dev
+                    Multiplication overflow detection for types of size more than 64 bits.
                 </b>
             </td>
         </tr>
