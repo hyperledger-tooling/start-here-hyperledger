@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-machine
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-machine/pull/39" class=".btn">#39</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-machine/pull/40" class=".btn">#40</a>
             </td>
             <td>
                 <b>
-                    Add maintainers file.
+                    Better printing of peer statistics.
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-machine
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-08 03:51:28 +0000 UTC
+        Created At 2022-08-23 04:55:24 +0000 UTC
     </div>
 </div>
 
