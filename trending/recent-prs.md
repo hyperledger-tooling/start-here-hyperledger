@@ -1,13 +1,13 @@
 
-[816](https://github.com/hyperledger-labs/business-partner-agent/pull/816) convert logging config to yml
+[97](https://github.com/hyperledger/aries-staticagent-python/pull/97) ci: simplify workflows
 
-[296](https://github.com/hyperledger-labs/fabric-operations-console/pull/296) System channel removal changes
+[610](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/610) Update downloader script for oil and gas data
 
-[128](https://github.com/hyperledger/fabric-protos/pull/128) Orderer v3: deprecate kafka
+[1911](https://github.com/hyperledger/aries-cloudagent-python/pull/1911) [#1895] Stopping the aca-py shell process keeps python process running
 
-[1908](https://github.com/hyperledger/aries-cloudagent-python/pull/1908) Add offers_attach to V10 credential schema
+[96](https://github.com/hyperledger/aries-staticagent-python/pull/96) fix: optional parameters and seed as str or bytes
 
-[4299](https://github.com/hyperledger/besu/pull/4299) [MINOR] turn down logging
+[1910](https://github.com/hyperledger/aries-cloudagent-python/pull/1910) Create sonarcloud.yml
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
