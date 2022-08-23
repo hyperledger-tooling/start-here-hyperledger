@@ -162,36 +162,3 @@ CL Anoncreds Crypto services
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3338" class=".btn">#3338</a>
-            </td>
-            <td>
-                <b>
-                    feat: KMS storage interface redesign
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * KMS storage interface now uses a minimal interface instead of requiring a full Aries storage provider implementation (from the spi package)
-* With this new approach, the consumer of an Aries KMS no longer has to let the Aries storage interface/implementation design dictate how they store KMS-related data. One notable example of this is that the choice of database name is now decided by the consumer rather than by Aries.
-* To ease the transition, I added a function (NewAriesProviderWrapper) to allow a consumer to continue using an Aries storage provider implementation with a KMS if they wish.
-* When using Local KMS before, "k" was prepended to all keyset IDs being stored. This was a workaround for CouchDB, which would fail if someone tried storing a key using a keyset ID starting with "_". This prefixing was removed as part of the overall new philosophy of removing database-specific logic from Aries and letting the caller control their database design. Existing Aries implementations will need their databases updated to remove the "k" or, if using CouchDB and keyset IDs beginning with "_", then keyset IDs will need to be prefixed outside of Aries before trying to store/retrieve/delete from a KMS store.
-
-Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-
-closes #3331
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-15 23:41:15 +0000 UTC
-    </div>
-</div>
-

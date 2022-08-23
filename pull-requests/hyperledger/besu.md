@@ -254,7 +254,7 @@ Abstracts some logic to be reused in similar tests, as suggested in PR #4146. (H
         </tr>
         <tr>
             <td>
-                <span class="chip">doc-change-required</span>
+                <span class="chip">doc-change-required</span><span class="chip">mainnet</span><span class="chip">peering</span>
             </td>
             <td>
                 Signed-off-by: mark-terry <mark.terry@consensys.net>
@@ -300,7 +300,7 @@ Partially addresses #4202
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: Stefan <stefan.pingel@consensys.net>
