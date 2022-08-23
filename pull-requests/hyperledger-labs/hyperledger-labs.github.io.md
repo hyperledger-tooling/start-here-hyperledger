@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/220" class=".btn">#220</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/221" class=".btn">#221</a>
             </td>
             <td>
                 <b>
-                    Mosaique Decentralized Workflows
+                    cckit lab
                 </b>
             </td>
         </tr>
@@ -27,13 +27,23 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                Mosaique provides an approach to build decentralized workflows for permissioned blockchain applications. Mosaique has built-in governance workflows using mosaique itself. The systems uses state machines for the workflow logic and json templates to make those state machines data-driven. The goal is to allow non-programmers develop and analyze their decentralized workflows and to deploy without having to change smart contract code.
+                Signed-off-by: vitiko <vitiko@mail.ru>
+
+## Checklist for Hyperledger Lab Proposal PR
+
+- [ ] Read [README.md](https://github.com/hyperledger-labs/hyperledger-labs.github.io/blob/master/README.md) carefully
+- [ ] Make sure your changes are committed with the proper sign-off
+- [ ] Use the labs name as the PR title
+- [ ] Copy the short description of the proposal as the description of the PR
+- [ ] Remove this checklist section
+- [ ] Submit your PR and the labs stewards will review your proposal
+- [ ] Ask your sponsor to confirm sponsorship by stating so in a comment to the PR
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-02 14:34:14 +0000 UTC
+        Created At 2022-08-23 15:03:57 +0000 UTC
     </div>
 </div>
 
