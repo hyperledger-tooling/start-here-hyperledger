@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4295" class=".btn">#4295</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/4299" class=".btn">#4299</a>
             </td>
             <td>
                 <b>
-                    ContainterTests - update tessera version
+                    [MINOR] turn down logging
                 </b>
             </td>
         </tr>
@@ -29,7 +29,53 @@ permalink: /pull-requests/hyperledger/besu
             <td>
                 Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
 
-Update tessera version used for docker image
+turn down logging on the "comparing timestamps" message
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-23 09:50:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4298" class=".btn">#4298</a>
+            </td>
+            <td>
+                <b>
+                    Reduce fast-sync-min-peers for post merge
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span>
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Post merge we no longer need to wait to have 5 peers to validate a pivot block knowing that the pivot block comes from the  consensus client. This PR proposes to reduce the min peers to 1 for post merge network. It will always be possible to change it via the flag if necessary
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
 
 ## Documentation
 
@@ -43,7 +89,55 @@ Update tessera version used for docker image
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-23 05:02:02 +0000 UTC
+        Created At 2022-08-23 09:49:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4297" class=".btn">#4297</a>
+            </td>
+            <td>
+                <b>
+                    ignore the tests that use tessera enclave via docker
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+These tests are uniformly failing since about 6 hours ago. Docker container startup error. eg
+```
+org.testcontainers.containers.ContainerLaunchException: Container startup failed
+	at app//org.testcontainers.containers.GenericContainer.doStart(GenericContainer.java:345)
+	at app//org.testcontainers.containers.GenericContainer.start(GenericContainer.java:326)
+	at app//org.hyperledger.enclave.testutil.TesseraTestHarness.start(TesseraTestHarness.java:83)
+	at app//org.hyperledger.besu.tests.acceptance.dsl.privacy.PrivacyNode.start(PrivacyNode.java:194)
+	at app//org.hyperledger.besu.tests.acceptance.dsl.privacy.PrivacyCluster.startNode(PrivacyCluster.java:182)
+	at app//org.hyperledger.besu.tests.acceptance.dsl.privacy.PrivacyCluster.lambda$selectAndStartBootnode$6(PrivacyCluster.java:136)
+...
+            org.testcontainers.containers.ContainerLaunchException: Could not create/start container
+```
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-23 09:07:13 +0000 UTC
     </div>
 </div>
 
@@ -707,12 +801,12 @@ In any case it seems reasonable to add this check, and we can evaluate if we als
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>

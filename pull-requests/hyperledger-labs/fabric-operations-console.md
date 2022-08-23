@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/296" class=".btn">#296</a>
+            </td>
+            <td>
+                <b>
+                    System channel removal changes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Test update
+
+#### Description
+System channel removal changes
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-23 11:17:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/295" class=".btn">#295</a>
             </td>
             <td>
