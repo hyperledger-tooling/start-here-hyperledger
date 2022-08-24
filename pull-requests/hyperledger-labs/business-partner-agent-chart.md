@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/58" class=".btn">#58</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/60" class=".btn">#60</a>
             </td>
             <td>
                 <b>
-                    add maintainers file
+                    bpa logger overwrite
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
                 
             </td>
             <td>
-                see https://github.com/hyperledger-labs/business-partner-agent-chart/issues/57
+                added the possibility to overwrite the log4j2 logging config via values file
 
 Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-10 10:43:40 +0000 UTC
+        Created At 2022-08-24 10:58:52 +0000 UTC
     </div>
 </div>
 
