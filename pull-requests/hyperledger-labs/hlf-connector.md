@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/45" class=".btn">#45</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/46" class=".btn">#46</a>
             </td>
             <td>
                 <b>
@@ -28,15 +28,17 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
             </td>
             <td>
                 This PR contains following changes:
-1. Code formatting and imports reorganised
-2. Add org to existing channel minor fixes
-3. Sonar lint issues resolved
+
+1.Code formatting and imports reorganised
+2.Add org to existing channel minor fixes
+3.Sonar lint issues resolved
+
 Signed-off-by: Abhay Kishore <abhay.kishore@walmart.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-24 06:00:57 +0000 UTC
+        Created At 2022-08-24 06:30:15 +0000 UTC
     </div>
 </div>
 
