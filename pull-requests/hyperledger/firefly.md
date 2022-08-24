@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/975" class=".btn">#975</a>
+            </td>
+            <td>
+                <b>
+                    Adjust defaults for all cache items that don't expose a Size
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">migration_consideration</span>
+            </td>
+            <td>
+                Caches may be limited on size (if the items advertise their Size) or on
+number of items. Since most cached items do not expose a Size, the limit
+should be set on number of items alone.
+
+Picked numbers pretty much at random, so I'm open to feedback if they
+should be higher or lower, or if any of these items should get a Size method
+to do size estimation.
+
+I've tagged with "migration_consideration" since I have renamed a few
+config keys, but I don't think they're widely used.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-17 19:48:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/974" class=".btn">#974</a>
             </td>
             <td>
@@ -33,79 +68,6 @@ permalink: /pull-requests/hyperledger/firefly
     </table>
     <div class="right-align">
         Created At 2022-08-17 18:33:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/973" class=".btn">#973</a>
-            </td>
-            <td>
-                <b>
-                    fix integration matrix `exclude`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                `exclude` was not correctly handling arrays, so it has been updated to explicitly define all excluded combinations
-
-list of jobs that will be executed now (courtesy of [act](https://github.com/nektos/act)):
-
-
--  `[blockchain-provider:besu database-type:postgres test-suite:TestEthereumMultipartyE2ESuite]`
-- `[blockchain-provider:geth database-type:sqlite3 test-suite:TestEthereumMultipartyE2ESuite]`
-- `[blockchain-provider:geth database-type:postgres test-suite:TestEthereumMultipartyE2ESuite]`
-- `[blockchain-provider:geth database-type:sqlite3 test-suite:TestEthereumGatewayE2ESuite]`
-- `[blockchain-provider:geth database-type:postgres test-suite:TestEthereumGatewayE2ESuite]`
-- `[blockchain-provider:besu database-type:sqlite3 test-suite:TestEthereumGatewayE2ESuite]`
-- `[blockchain-provider:besu database-type:postgres test-suite:TestEthereumGatewayE2ESuite]`
-- `[bockchain-provider:geth database-type:sqlite3 test-suite:TestEthereumMultipartyTokensRemoteNameE2ESuite]`
-- `[blockchain-provider:geth database-type:postgres test-suite:TestEthereumMultipartyTokensRemoteNameE2ESuite]`
-- `[blockchain-provider:besu database-type:sqlite3 test-suite:TestEthereumMultipartyTokensRemoteNameE2ESuite]`
-- `[blockchain-provider:besu database-type:postgres test-suite:TestEthereumMultipartyTokensRemoteNameE2ESuite]`
-- `[blockchain-provider:fabric database-type:sqlite3 test-suite:TestFabricGatewayE2ESuite]`
-- `[blockchain-provider:fabric database-type:postgres test-suite:TestFabricGatewayE2ESuite]`
-- `[blockchain-provider:fabric database-type:sqlite3 test-suite:TestFabricMultipartyE2ESuite]`
-- `[blockchain-provider:fabric database-type:postgres test-suite:TestFabricMultipartyE2ESuite]`
-
-closes #968 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-17 18:04:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/972" class=".btn">#972</a>
-            </td>
-            <td>
-                <b>
-                    Add cache for operations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-17 17:04:19 +0000 UTC
     </div>
 </div>
 

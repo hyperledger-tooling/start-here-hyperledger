@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1465" class=".btn">#1465</a>
+                PR <a href="https://github.com/hyperledger/grid/pull/1466" class=".btn">#1466</a>
             </td>
             <td>
                 <b>
-                    Add saplingjs and canopyjs
+                    Fix lint introduced in Rust 1.63
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/grid
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-29 15:50:54 +0000 UTC
+        Created At 2022-08-24 17:28:15 +0000 UTC
     </div>
 </div>
 

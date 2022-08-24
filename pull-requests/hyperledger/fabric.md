@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3605" class=".btn">#3605</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: update fabric-protos-go
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Signed-off-by: Yoav Tock <tock@il.ibm.com>
+Change-Id: I7eb6f4083f5dd045f6cf9bb7c025586bf02e4363
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Update github.com/hyperledger/fabric-protos-go removing & deprecating kafka messages
+
+#### Related issues
+
+Issue: #3513 
+Epic: #3511 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-24 14:04:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3604" class=".btn">#3604</a>
             </td>
             <td>
@@ -232,64 +274,6 @@ Finally, you can contact us on https://mergify.com
     </table>
     <div class="right-align">
         Created At 2022-08-23 13:10:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3598" class=".btn">#3598</a>
-            </td>
-            <td>
-                <b>
-                    Noop update to test Github Actions DO NOT MERGE
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Test the new Github Actions PR verify workflow jobs.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-23 13:08:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3597" class=".btn">#3597</a>
-            </td>
-            <td>
-                <b>
-                    Noop update to test Github Actions DO NOT MERGE
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Test the new Github Actions PR verify workflow jobs.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-22 13:02:19 +0000 UTC
     </div>
 </div>
 
