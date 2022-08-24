@@ -1,13 +1,13 @@
 
-[v1.1.0](https://github.com/hyperledger/firefly-evmconnect/releases/tag/v1.1.0) v1.1.0
+[v1.1.0-rc.1](https://github.com/hyperledger/firefly-cli/releases/tag/v1.1.0-rc.1) v1.1.0-rc.1
 
-[v0.9.6](https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v0.9.6) v0.9.6
+[v1.1.0-alpha.4](https://github.com/hyperledger/firefly/releases/tag/v1.1.0-alpha.4) v1.1.0-alpha.4
 
-[22.7.1](https://github.com/hyperledger/besu/releases/tag/22.7.1) 22.7.1 - Ready to Merge
+[v1.1.1](https://github.com/hyperledger/firefly-evmconnect/releases/tag/v1.1.1) v1.1.1
 
-[v1.2.1](https://github.com/hyperledger/indy-node-container/releases/tag/v1.2.1) Node-Controller upgrade script fix
+[v1.1.1](https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v1.1.1) v1.1.1
 
-[v1.0.5](https://github.com/hyperledger/indy-shared-gha/releases/tag/v1.0.5) v1.0.5
+[v0.9.7](https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v0.9.7) v0.9.7
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
