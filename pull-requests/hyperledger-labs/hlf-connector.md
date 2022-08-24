@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/44" class=".btn">#44</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/45" class=".btn">#45</a>
             </td>
             <td>
                 <b>
-                    Fabric setup for running integration tests
+                    Add org to existing channel fix
                 </b>
             </td>
         </tr>
@@ -27,15 +27,16 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
                 
             </td>
             <td>
-                1.This PR contains the files which were missed in earlier commits for fabric setup.
-2. Github action added for running the integration tests.
-
+                This PR contains following changes:
+1. Code formatting and imports reorganised
+2. Add org to existing channel minor fixes
+3. Sonar lint issues resolved
 Signed-off-by: Abhay Kishore <abhay.kishore@walmart.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-10 06:56:27 +0000 UTC
+        Created At 2022-08-24 06:00:57 +0000 UTC
     </div>
 </div>
 

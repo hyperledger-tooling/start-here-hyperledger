@@ -14,6 +14,82 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4306" class=".btn">#4306</a>
+            </td>
+            <td>
+                <b>
+                    change to ubuntu for quorum ats executor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+* Change to ubuntu for the executor used for acceptanceTestQuorum CI step (part of nightly CI pipeline)
+* Also temporarily make acceptanceTestsQuorum run on this PR to see if it runs ok
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-24 05:32:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4305" class=".btn">#4305</a>
+            </td>
+            <td>
+                <b>
+                    update Tessera version and ubuntu for xl-machine-executor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+* Update tessera docker image version to 22.1.6
+* Update ubuntu version on xl machine executor in Circle CI config - this update is required for the tessera 22.1.6 docker image to run
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-24 04:08:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4304" class=".btn">#4304</a>
             </td>
             <td>
@@ -927,35 +1003,6 @@ In any case it seems reasonable to add this check, and we can evaluate if we als
     </table>
     <div class="right-align">
         Created At 2022-08-17 11:55:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4268" class=".btn">#4268</a>
-            </td>
-            <td>
-                <b>
-                    Improve logging for BREACH_OF_PROTOCOL
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                added the peer that caused the breach in some places and added "BREACH_OF_PROTOCOL" to the debug logging
-
-Signed-off-by: Stefan <stefan.pingel@consensys.net>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-17 05:29:14 +0000 UTC
     </div>
 </div>
 
