@@ -1,13 +1,13 @@
 
-[97](https://github.com/hyperledger/aries-staticagent-python/pull/97) ci: simplify workflows
+[4304](https://github.com/hyperledger/besu/pull/4304) Log the number of connected peers
 
-[610](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/610) Update downloader script for oil and gas data
+[28](https://github.com/hyperledger-labs/nft-auction/pull/28) Network launching using minifab and containerize restapi, ui
 
-[1911](https://github.com/hyperledger/aries-cloudagent-python/pull/1911) [#1895] Stopping the aca-py shell process keeps python process running
+[4303](https://github.com/hyperledger/besu/pull/4303) Reinstate Tessera tests with a fixed version
 
-[96](https://github.com/hyperledger/aries-staticagent-python/pull/96) fix: optional parameters and seed as str or bytes
+[1912](https://github.com/hyperledger/aries-cloudagent-python/pull/1912) fix: incorrect response schema for discover features
 
-[1910](https://github.com/hyperledger/aries-cloudagent-python/pull/1910) Create sonarcloud.yml
+[3345](https://github.com/hyperledger/aries-framework-go/pull/3345) feat: wallet.Issue supports jwtvc, verifiable.Credential can hold a jwtvc
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

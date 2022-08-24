@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/nft-auction
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/26" class=".btn">#26</a>
+                PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/28" class=".btn">#28</a>
             </td>
             <td>
                 <b>
-                    Added env variable for node rest api
+                    Network launching using minifab and containerize restapi, ui
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/nft-auction
                 
             </td>
             <td>
-                Signed-off-by: bharadwajambati1995 <bharadwaj.ambati@chainyard.com>
+                Network launching using minifab and containerize restapi, ui
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-19 19:37:36 +0000 UTC
+        Created At 2022-08-24 00:45:07 +0000 UTC
     </div>
 </div>
 
