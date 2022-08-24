@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1914" class=".btn">#1914</a>
+            </td>
+            <td>
+                <b>
+                    feat: include connection ids in keylist update webhook
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds the connection IDs of the mediated connections. This should make it easier to trigger the next step in a flow (i.e. accept a connection request for one of the connections, if it's in the right state).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-24 14:55:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1913" class=".btn">#1913</a>
+            </td>
+            <td>
+                <b>
+                    Remove aca-py check for unrevealed revealed attrs on proof validation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
+
+Addresses issue #1893
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-24 13:31:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1912" class=".btn">#1912</a>
             </td>
             <td>

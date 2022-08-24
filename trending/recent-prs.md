@@ -1,13 +1,13 @@
 
-[60](https://github.com/hyperledger-labs/business-partner-agent-chart/pull/60) bpa logger overwrite
+[131](https://github.com/hyperledger/fabric-protos/pull/131) New orderer cluster service with auth support
 
-[130](https://github.com/hyperledger/fabric-protos/pull/130) Orderer v3: restore makefile
+[1466](https://github.com/hyperledger/grid/pull/1466) Fix lint introduced in Rust 1.63
 
-[3346](https://github.com/hyperledger/aries-framework-go/pull/3346) test: BDD tests for universal wallet JSON-LD support
+[2652](https://github.com/hyperledger/iroha/pull/2652) [fix] #0: Fix `docker-compose-single.yml`
 
-[3604](https://github.com/hyperledger/fabric/pull/3604) Orderer comm module code restructure
+[818](https://github.com/hyperledger/fabric-samples/pull/818) Cloudathon
 
-[40](https://github.com/hyperledger-labs/yui-corda-ibc/pull/40) add option '-buildvcs=false' for go build
+[817](https://github.com/hyperledger-labs/business-partner-agent/pull/817) fix 815 - partner deletion
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
