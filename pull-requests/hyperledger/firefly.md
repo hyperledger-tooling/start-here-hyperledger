@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/971" class=".btn">#971</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/974" class=".btn">#974</a>
             </td>
             <td>
                 <b>
-                    Fix group race condition, optimize transaction cache
+                    Leverage transaction cache in a few more places
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                Insert local group only after inserting groupinit message.
-This ensures no other threads pick up on the group before the
-message is sequenced.
-
-Update transaction cache after initial insert.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-16 17:53:05 +0000 UTC
+        Created At 2022-08-17 18:33:36 +0000 UTC
     </div>
 </div>
 
@@ -44,11 +40,11 @@ Update transaction cache after initial insert.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/970" class=".btn">#970</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/973" class=".btn">#973</a>
             </td>
             <td>
                 <b>
-                    Update to firefly-signer v0.9.15
+                    fix integration matrix `exclude`
                 </b>
             </td>
         </tr>
@@ -57,12 +53,33 @@ Update transaction cache after initial insert.
                 
             </td>
             <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+                `exclude` was not correctly handling arrays, so it has been updated to explicitly define all excluded combinations
+
+list of jobs that will be executed now (courtesy of [act](https://github.com/nektos/act)):
+
+
+-  `[blockchain-provider:besu database-type:postgres test-suite:TestEthereumMultipartyE2ESuite]`
+- `[blockchain-provider:geth database-type:sqlite3 test-suite:TestEthereumMultipartyE2ESuite]`
+- `[blockchain-provider:geth database-type:postgres test-suite:TestEthereumMultipartyE2ESuite]`
+- `[blockchain-provider:geth database-type:sqlite3 test-suite:TestEthereumGatewayE2ESuite]`
+- `[blockchain-provider:geth database-type:postgres test-suite:TestEthereumGatewayE2ESuite]`
+- `[blockchain-provider:besu database-type:sqlite3 test-suite:TestEthereumGatewayE2ESuite]`
+- `[blockchain-provider:besu database-type:postgres test-suite:TestEthereumGatewayE2ESuite]`
+- `[bockchain-provider:geth database-type:sqlite3 test-suite:TestEthereumMultipartyTokensRemoteNameE2ESuite]`
+- `[blockchain-provider:geth database-type:postgres test-suite:TestEthereumMultipartyTokensRemoteNameE2ESuite]`
+- `[blockchain-provider:besu database-type:sqlite3 test-suite:TestEthereumMultipartyTokensRemoteNameE2ESuite]`
+- `[blockchain-provider:besu database-type:postgres test-suite:TestEthereumMultipartyTokensRemoteNameE2ESuite]`
+- `[blockchain-provider:fabric database-type:sqlite3 test-suite:TestFabricGatewayE2ESuite]`
+- `[blockchain-provider:fabric database-type:postgres test-suite:TestFabricGatewayE2ESuite]`
+- `[blockchain-provider:fabric database-type:sqlite3 test-suite:TestFabricMultipartyE2ESuite]`
+- `[blockchain-provider:fabric database-type:postgres test-suite:TestFabricMultipartyE2ESuite]`
+
+closes #968 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-16 15:51:41 +0000 UTC
+        Created At 2022-08-17 18:04:41 +0000 UTC
     </div>
 </div>
 
@@ -70,11 +87,11 @@ Update transaction cache after initial insert.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/969" class=".btn">#969</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/972" class=".btn">#972</a>
             </td>
             <td>
                 <b>
-                    Update to firefly-signer v0.9.13
+                    Add cache for operations
                 </b>
             </td>
         </tr>
@@ -83,12 +100,12 @@ Update transaction cache after initial insert.
                 
             </td>
             <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-16 15:07:25 +0000 UTC
+        Created At 2022-08-17 17:04:19 +0000 UTC
     </div>
 </div>
 

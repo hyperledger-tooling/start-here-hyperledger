@@ -14,6 +14,77 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4304" class=".btn">#4304</a>
+            </td>
+            <td>
+                <b>
+                    Log the number of connected peers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The number of connected peers is what matters. 
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-24 01:29:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4303" class=".btn">#4303</a>
+            </td>
+            <td>
+                <b>
+                    Reinstate Tessera tests with a fixed version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Use a fixed version of Tessera docker image. 
+* Enable the ignored privacy tests that use Tessera 
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-23 20:46:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4300" class=".btn">#4300</a>
             </td>
             <td>
@@ -885,67 +956,6 @@ Signed-off-by: Stefan <stefan.pingel@consensys.net>
     </table>
     <div class="right-align">
         Created At 2022-08-17 05:29:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4267" class=".btn">#4267</a>
-            </td>
-            <td>
-                <b>
-                    Panda prove ments
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Pandas separated into "ready for merge" "ttd crossed" and "finalized". Ready to merge is displayed on startup when a TTD is configured and the chain is in sync. TTD panda is displayed when TTD is crossed, and the last one shows up once we've finalized a non-zero blockhash.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-16 23:12:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4266" class=".btn">#4266</a>
-            </td>
-            <td>
-                <b>
-                    cleanup from PR 4178
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stefan <stefan.pingel@consensys.net>
-
-## PR description
-This PR fixes some issues based n comments against https://github.com/hyperledger/besu/pull/4178
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-16 22:51:43 +0000 UTC
     </div>
 </div>
 
