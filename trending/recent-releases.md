@@ -1,13 +1,13 @@
 
+[v0.9.17](https://github.com/hyperledger/firefly-signer/releases/tag/v0.9.17) v0.9.17
+
+[bpa-0.11.6](https://github.com/hyperledger-labs/business-partner-agent-chart/releases/tag/bpa-0.11.6) bpa-0.11.6
+
+[v1.2.2](https://github.com/hyperledger/indy-node-container/releases/tag/v1.2.2) Indy Node upgrade 1.12.5 -> 1.12.6
+
 [v1.1.2](https://github.com/hyperledger/firefly-evmconnect/releases/tag/v1.1.2) v1.1.2
 
 [v0.9.8](https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v0.9.8) v0.9.8
-
-[v0.9.16](https://github.com/hyperledger/firefly-signer/releases/tag/v0.9.16) v0.9.16
-
-[0.40.0](https://github.com/hyperledger/aries-vcx/releases/tag/0.40.0) Release 0.40.0
-
-[v1.1.1](https://github.com/hyperledger/firefly-common/releases/tag/v1.1.1) v1.1.1
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
