@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/371" class=".btn">#371</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/374" class=".btn">#374</a>
             </td>
             <td>
                 <b>
-                    Cleanup deps.go
+                    Remove need for GOPATH to be set
                 </b>
             </td>
         </tr>
@@ -27,14 +27,21 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                Some of the blank dependencies in deps.go are not needed anymore.
+                If GOPATH is set and fabric-smart-client is a subdir in that GOPATH then it must still follow the pattern
+src/github.com/hyperledger-labs/fabric-smart-client
 
-Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
+GOPATH can be set and not contain fabric-smart-client (means the go module cache can be stored elsewhere)
+
+GOPATH not being set will default to $HOME/go and above rules apply
+
+It still requires to be checked out as fabric-smart-client still though, see TODO
+
+Signed-off-by: D <d_kelsey@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-18 09:52:26 +0000 UTC
+        Created At 2022-08-25 07:17:52 +0000 UTC
     </div>
 </div>
 

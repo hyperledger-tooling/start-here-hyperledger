@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/980" class=".btn">#980</a>
+            </td>
+            <td>
+                <b>
+                    Add nil check for blobReceiver during WaitStop
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #979
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-18 16:01:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/977" class=".btn">#977</a>
             </td>
             <td>
