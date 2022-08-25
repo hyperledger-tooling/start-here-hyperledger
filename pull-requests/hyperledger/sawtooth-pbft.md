@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-pbft
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-pbft/pull/182" class=".btn">#182</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-pbft/pull/185" class=".btn">#185</a>
             </td>
             <td>
                 <b>
-                    Add Hyperledger code of conduct
+                    Fix derive_partial_eq_without_eq Clippy error
                 </b>
             </td>
         </tr>
@@ -27,14 +27,19 @@ permalink: /pull-requests/hyperledger/sawtooth-pbft
                 
             </td>
             <td>
-                Required as a part of the Hyperledger common repo structure
+                Fixes a clippy error introduced in Rust 1.63
+
+If a type T derives PartialEq and all of its members implement
+Eq, then T can always implement Eq. Implementing Eq allows T to be
+used in APIs that require Eq types. It also allows structs
+containing T to derive Eq themselves.
 
 Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-28 18:04:34 +0000 UTC
+        Created At 2022-08-24 20:07:38 +0000 UTC
     </div>
 </div>
 
