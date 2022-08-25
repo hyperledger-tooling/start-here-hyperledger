@@ -15,14 +15,14 @@ permalink: /releases/hyperledger-labs/business-partner-agent-chart
         <tr>
             <td colspan="2">
                 <b>
-                    bpa-0.11.5
+                    bpa-0.11.6
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    bpa-0.11.5
+                    bpa-0.11.6
                 </span>
             </td>
             <td>
@@ -30,11 +30,11 @@ permalink: /releases/hyperledger-labs/business-partner-agent-chart
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/releases/tag/bpa-0.11.5" class=".btn">
+    <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/releases/tag/bpa-0.11.6" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-07-26 13:14:20 +0000 UTC
+        Created At 2022-08-25 15:51:12 +0000 UTC
     </span>
 </div>
 
