@@ -1,13 +1,13 @@
 
-[2655](https://github.com/hyperledger/iroha/pull/2655) [fix] #0: Modify `test_env.sh` to allocate storage for each peer
+[226](https://github.com/hyperledger/firefly-ethconnect/pull/226) Fix potential deadlock broadcasting to a closed WS connection
 
-[2654](https://github.com/hyperledger/iroha/pull/2654) [fix] #2554: Fix key pair generation with provided seed (lts)
+[4312](https://github.com/hyperledger/besu/pull/4312) fix trie by asking peers
 
-[2653](https://github.com/hyperledger/iroha/pull/2653) [fix] #2554: Fix key pair generation with provided seed
+[4311](https://github.com/hyperledger/besu/pull/4311) Reducing verbosity during BWS errors
 
-[3606](https://github.com/hyperledger/fabric/pull/3606) Orderer new communication service with auth support
+[4310](https://github.com/hyperledger/besu/pull/4310) Log imported block info post merge
 
-[483](https://github.com/hyperledger/cello/pull/483) Implement API to upload node config file
+[2657](https://github.com/hyperledger/iroha/pull/2657) [fix] #2554: Raise error if `secp256k1` seed shorter than 32 bytes (lts)
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -227,32 +227,3 @@ It seems that there were also some other changes that are not reflected in the o
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1902" class=".btn">#1902</a>
-            </td>
-            <td>
-                <b>
-                    fix: update RouteManager methods use to pass profile as parameter
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adapt uses of `RouteManager` to pass the profile as argument.
-This is following a refactoring in #1851
-
-Signed-off-by: Clément Humbert <clement.humbert@sicpa.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-18 11:51:22 +0000 UTC
-    </div>
-</div>
-

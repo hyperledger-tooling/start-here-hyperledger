@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3607" class=".btn">#3607</a>
+            </td>
+            <td>
+                <b>
+                    Enable more parallel jobs in github actions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Since GitHub actions allows for up to 20 free parallel jobs, this PR assigns some more jobs to the integration tests allowing the longer running tests to run in their own container.  This shaves a few more minutes off the total CI run time.
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-25 08:27:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3606" class=".btn">#3606</a>
             </td>
             <td>
