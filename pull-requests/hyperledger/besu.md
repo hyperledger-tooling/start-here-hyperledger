@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4309" class=".btn">#4309</a>
+            </td>
+            <td>
+                <b>
+                    [CHANGELOG] moved 4279 to 22.7.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+moved #4279 to 22.7.2
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-25 02:07:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4308" class=".btn">#4308</a>
             </td>
             <td>
@@ -63,7 +100,7 @@ Some renaming that came to mind only after the merging  of #4286
             </td>
             <td>
                 <b>
-                    change to ubuntu for quorum ats executor
+                    update docker version on quorum ats executor
                 </b>
             </td>
         </tr>
@@ -74,8 +111,9 @@ Some renaming that came to mind only after the merging  of #4286
             <td>
                 Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
 
-* Change to ubuntu for the executor used for acceptanceTestQuorum CI step (part of nightly CI pipeline)
+* Update docker version on executor used for acceptanceTestQuorum CI step (part of nightly CI pipeline)
 * Also temporarily make acceptanceTestsQuorum run on this PR to see if it runs ok
+* remove acceptanceTestsQuorum from PR build
 
 ## Documentation
 
@@ -813,51 +851,6 @@ Addresses #4050
     </table>
     <div class="right-align">
         Created At 2022-08-18 23:30:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4277" class=".btn">#4277</a>
-            </td>
-            <td>
-                <b>
-                    Update Paris Block Definition
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-## PR description
-
-Paris block definition was set up prior to gray glacier.  Update the
-base to be gray glacier.
-
-Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [X] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-18 06:02:25 +0000 UTC
     </div>
 </div>
 

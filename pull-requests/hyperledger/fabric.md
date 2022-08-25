@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3606" class=".btn">#3606</a>
+            </td>
+            <td>
+                <b>
+                    Orderer new communication service with auth support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- New feature
+
+#### Description
+
+Implementation of orderer v3 communication framework based on the RFC [Orderer v3](https://github.com/hyperledger/fabric-rfcs/blob/main/text/orderer-v3.md#orderer-to-orderer-authentication-and-communication)
+
+#### Additional details
+
+<!--- Additional implementation details or comments to reviewers. -->
+<!--- Summarize how the pull request was tested (if not obvious from commit). -->
+
+#### Related issues
+Closes #3474 
+
+Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-25 04:11:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3605" class=".btn">#3605</a>
             </td>
             <td>
