@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3350" class=".btn">#3350</a>
+            </td>
+            <td>
+                <b>
+                    feat: wallet Prove supports creating JWT presentations.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-26 18:03:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3347" class=".btn">#3347</a>
             </td>
             <td>
@@ -27,7 +53,7 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 
             </td>
             <td>
-                closes #3327
+                closes #3348
 
 Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
 
@@ -105,45 +131,6 @@ Included the next actions:
     </table>
     <div class="right-align">
         Created At 2022-08-23 19:13:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3343" class=".btn">#3343</a>
-            </td>
-            <td>
-                <b>
-                    feat: CL Anoncreds Remote KMS/Crypto
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Title:**
-CL Anoncreds Remote KMS/Crypto
-
-**Description:**
-* Fifth PR to support CL in `af-go` [#180](https://github.com/hyperledger/aries-framework-go/issues/180)
-* This PR implements/supports CL methods in remote Crypto
-* This PR adds support for KMS extension for remote KMS 
-* "server"-side changes will be implemented in the separate PR in both `trustbloc/kms`
-
-**Summary:**
-* added client calls to CL methods in remote crypto
-* added attrs propagation for remote kms
-* added unit tests for remote kms/crypto
-* added more failed cases for localkms ursa tests
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-19 13:53:39 +0000 UTC
     </div>
 </div>
 
