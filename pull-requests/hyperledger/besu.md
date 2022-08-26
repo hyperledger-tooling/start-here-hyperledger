@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4316" class=".btn">#4316</a>
+            </td>
+            <td>
+                <b>
+                    ContainerTests - use tessera 22.1.7
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <macfarla.github@gmail.com>
+
+Use 22.1.7 docker image for Tessera. 
+Not a required update, dependency change only.
+https://github.com/ConsenSys/tessera/releases/tag/tessera-22.1.7
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-26 06:04:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4312" class=".btn">#4312</a>
             </td>
             <td>
