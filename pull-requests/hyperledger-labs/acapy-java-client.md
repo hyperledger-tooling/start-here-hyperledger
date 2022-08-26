@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/60" class=".btn">#60</a>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/61" class=".btn">#61</a>
             </td>
             <td>
                 <b>
-                    added concrete type for the servers status config
+                    websocket tweaks
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-19 10:56:02 +0000 UTC
+        Created At 2022-08-26 14:39:04 +0000 UTC
     </div>
 </div>
 
