@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1916" class=".btn">#1916</a>
+            </td>
+            <td>
+                <b>
+                    Revert "[#1895] Stopping the aca-py shell process keeps python process running"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This reverts commit 67db5de43770933efd8cbc816ffb5d3850fa5785.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-25 14:29:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1915" class=".btn">#1915</a>
+            </td>
+            <td>
+                <b>
+                    chore: update pydid
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Recent changes to the resolution of sov/indy DIDs caused PyDID to parse
+service endpoints that should have been recognized as DIDComm services
+as plain services. This broke some logic in accepting invitations from
+public DIDs. Pulling in these updates from PyDID resolves the issue.
+
+Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-25 13:31:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1914" class=".btn">#1914</a>
             </td>
             <td>
@@ -56,6 +113,8 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
 
 Addresses issue #1893
+
+Removes the "hard" verification on un-revealed attributes and adds "verify_msgs" to the presentation exchange record to describe any warnings or errors encountered when processing the received proof.
             </td>
         </tr>
     </table>
@@ -196,34 +255,6 @@ It seems that there were also some other changes that are not reflected in the o
     </table>
     <div class="right-align">
         Created At 2022-08-22 15:23:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1904" class=".btn">#1904</a>
-            </td>
-            <td>
-                <b>
-                    Update for the v1.0.0-rc0 release. Changelog comment added for v0.7.4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Update for the v1.0.0-rc0 release. Changelog comment added for v0.7.4
-- Added this PR to changelog
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-18 19:41:58 +0000 UTC
     </div>
 </div>
 

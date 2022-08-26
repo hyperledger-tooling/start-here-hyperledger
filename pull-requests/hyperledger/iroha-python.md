@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/124" class=".btn">#124</a>
+            </td>
+            <td>
+                <b>
+                    Create pythonpublish.yml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ry Jones <ry@linux.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-25 15:56:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-python/pull/123" class=".btn">#123</a>
             </td>
             <td>

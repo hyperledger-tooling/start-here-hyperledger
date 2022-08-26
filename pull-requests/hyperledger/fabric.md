@@ -622,31 +622,3 @@ Finally, you can contact us on https://mergify.com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3595" class=".btn">#3595</a>
-            </td>
-            <td>
-                <b>
-                    Updates in main branch for v2.4.6
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updates to docs and scripts to reflect latest release v2.4.6.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-18 20:09:40 +0000 UTC
-    </div>
-</div>
-
