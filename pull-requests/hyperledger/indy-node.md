@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1768" class=".btn">#1768</a>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1770" class=".btn">#1770</a>
             </td>
             <td>
                 <b>
-                    Update settings.yml
+                    Add compat_set for supporting python3.5 set sorting behaviour
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-node
                 
             </td>
             <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
+                Fixes inconsistent transaction hashing for revocation registry deltas.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-04 14:22:44 +0000 UTC
+        Created At 2022-08-25 22:43:09 +0000 UTC
     </div>
 </div>
 

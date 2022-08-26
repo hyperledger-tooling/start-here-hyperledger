@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3347" class=".btn">#3347</a>
+            </td>
+            <td>
+                <b>
+                    feat: support multi-format VC in presentation exchange
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                closes #3327
+
+Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-25 20:22:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3346" class=".btn">#3346</a>
             </td>
             <td>
@@ -115,51 +144,6 @@ CL Anoncreds Remote KMS/Crypto
     </table>
     <div class="right-align">
         Created At 2022-08-19 13:53:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3342" class=".btn">#3342</a>
-            </td>
-            <td>
-                <b>
-                    refactor: A few refactoring of legacy-connection package
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Title:**
-Refactor legacy-connection package due to interoperability issues
-
-**Summary:**
-
-- Add new legacy http header to handle legacy requests. Cover with unit tests
-- Encode invitation Recipient key to base58
-- Change embedded verification to referenced while creating verification methods
-- Add legacy file into doc package to convert DIDdoc to raw doc. Cover with unit test
-- Add handling DID id's where did method is not specified
-- Add JSONBytes and ParseConnection methods to use them while handling connection data
-- Change AckMsgType content to proper one
-- Add method to convert array of did-keys to base58 keys
-- Enable saving decryption key while handling envelope at connection-request state
-- Add new InvitationRecipientKeys into connection.Record model
-- Refactor requestMsgRecord, handleInboundRequest and prepareConnectionSignature methods and their unit-tests
-- Save Recipient keys while handling connection request
-- Use SaveDID instead SaveDIDByResolving
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-18 14:31:16 +0000 UTC
     </div>
 </div>
 

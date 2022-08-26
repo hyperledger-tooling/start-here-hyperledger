@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/308" class=".btn">#308</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/310" class=".btn">#310</a>
             </td>
             <td>
                 <b>
-                    Provision for dynamic arguments in the query for data-sharing push via events
+                    Basic code and documentation for Cross-Network Identity Sync Protocol
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                The data-sharing query specified at the time of even-subscription currently is static nature. However, under certain scenarions, it may be required it to be constructed dynamically (e.g., in the view address `"view_address": "localhost:9083/network2/mychannel:simplestate:Read:a"` the key `a` to be read might be available only at run time). The changes in this PR replace such dynamic query arguments (e.g., in the view address `"view_address": "localhost:9083/network2/mychannel:simplestate:Read:?"` the `?` will be replaced with the corresponding argument values dynamically by the interop-CC before querying the app-CC)
+                Updated identity agent protobufs.
+Added basic Fabric code to create wallet identities and perform smart contract operations.
+Updated identity RFCs.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-17 02:35:28 +0000 UTC
+        Created At 2022-08-25 21:21:52 +0000 UTC
     </div>
 </div>
 
