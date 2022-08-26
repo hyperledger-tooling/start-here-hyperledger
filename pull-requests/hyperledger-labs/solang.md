@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/989" class=".btn">#989</a>
+            </td>
+            <td>
+                <b>
+                    WIP: Feature ink metadata for substrate
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                attempt to generate ink compatible metadata using ink_metadata::InkProject
+currently relies on unmerged branched of scale-info, ink_metadata.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-26 07:35:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/988" class=".btn">#988</a>
             </td>
             <td>
@@ -206,32 +234,6 @@ solang language-server --target evm
     </table>
     <div class="right-align">
         Created At 2022-08-19 16:05:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/solang/pull/979" class=".btn">#979</a>
-            </td>
-            <td>
-                <b>
-                    Debug info patch - Fix #967
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix #967 to generate debug information with bitcode
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-19 10:39:09 +0000 UTC
     </div>
 </div>
 
