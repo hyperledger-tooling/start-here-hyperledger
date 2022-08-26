@@ -15,53 +15,39 @@ permalink: /releases/hyperledger/aries-framework-go-ext
         <tr>
             <td colspan="2">
                 <b>
-                    Release v1.0.0-rc2
+                    Release v1.0.0-rc.3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    component/vdr/orb/v1.0.0-rc2
+                    component/vdr/orb/v1.0.0-rc3
                 </span>
             </td>
             <td>
                 ## What's Changed
-* fix: MongoDB provider GetStoreConfig returning ErrStoreNotFound by @DRK3 in https://github.com/hyperledger/aries-framework-go-ext/pull/242
-* feat: Ping methods for MongoDB, CouchDB, and PostgreSQL by @DRK3 in https://github.com/hyperledger/aries-framework-go-ext/pull/243
-* chore: update to latest aries by @fqutishat in https://github.com/hyperledger/aries-framework-go-ext/pull/244
-* chore: update to latest sidetree by @fqutishat in https://github.com/hyperledger/aries-framework-go-ext/pull/245
-* feat: Direct JSON storage and custom indexing and querying for MongoDB by @DRK3 in https://github.com/hyperledger/aries-framework-go-ext/pull/246
-* fix: MongoDB update and PutAsJSON issues by @DRK3 in https://github.com/hyperledger/aries-framework-go-ext/pull/247
-* feat: Added find options to MongoDB CustomQuery method by @DRK3 in https://github.com/hyperledger/aries-framework-go-ext/pull/248
-* feat: Changes to MongoDB custom method parameters by @DRK3 in https://github.com/hyperledger/aries-framework-go-ext/pull/249
-* chore: update to latest aries for sidetree vdr by @fqutishat in https://github.com/hyperledger/aries-framework-go-ext/pull/250
-* fix: sidetree vdr serivce endpoint logic by @fqutishat in https://github.com/hyperledger/aries-framework-go-ext/pull/252
-* chore: update to latest aries for vdr orb by @fqutishat in https://github.com/hyperledger/aries-framework-go-ext/pull/251
-* fix: routing keys in vdr orb by @fqutishat in https://github.com/hyperledger/aries-framework-go-ext/pull/253
-* chore: update sidetree vdr in orb vdr by @fqutishat in https://github.com/hyperledger/aries-framework-go-ext/pull/254
-* chore: add accept to service request for orb vdr by @fqutishat in https://github.com/hyperledger/aries-framework-go-ext/pull/255
-* chore: update to latest sidetree vdr by @fqutishat in https://github.com/hyperledger/aries-framework-go-ext/pull/256
-* chore: update to latest orb image by @fqutishat in https://github.com/hyperledger/aries-framework-go-ext/pull/257
-* chore: update to latest aries by @fqutishat in https://github.com/hyperledger/aries-framework-go-ext/pull/258
-* feat: Added GetBulkAsRawMap function to the MongoDB API by @bstasyszyn in https://github.com/hyperledger/aries-framework-go-ext/pull/259
-* chore: Return an interface from QueryCustom instead of struct by @bstasyszyn in https://github.com/hyperledger/aries-framework-go-ext/pull/260
-* fix: Use tags prefix only if not using raw JSON by @bstasyszyn in https://github.com/hyperledger/aries-framework-go-ext/pull/261
-* feat: MongoDB BulkWrite, multiple index creation, and doc helper func by @DRK3 in https://github.com/hyperledger/aries-framework-go-ext/pull/263
-* feat: Remove MongoDB BatchAsJSON method by @DRK3 in https://github.com/hyperledger/aries-framework-go-ext/pull/264
-* chore: update sidetree-core-go in sidetree vdr by @aholovko in https://github.com/hyperledger/aries-framework-go-ext/pull/266
-* chore: update to latest orb and vct by @fqutishat in https://github.com/hyperledger/aries-framework-go-ext/pull/267
+* fix: switch from math/rand to crypto/rand by @fqutishat in https://github.com/hyperledger/aries-framework-go-ext/pull/270
+* chore: Update sidetree-core-go (alsoKnownAs) by @sandrask in https://github.com/hyperledger/aries-framework-go-ext/pull/271
+* chore: update to latest aries by @fqutishat in https://github.com/hyperledger/aries-framework-go-ext/pull/272
+* feat: Add support for AlsoKnownAs to Sidetree VDR by @sandrask in https://github.com/hyperledger/aries-framework-go-ext/pull/275
+* feat: Add support for AlsoKnownAs to Orb VDR by @sandrask in https://github.com/hyperledger/aries-framework-go-ext/pull/276
+* chore: Update sidetree-core (rename also-known-as patches) by @sandrask in https://github.com/hyperledger/aries-framework-go-ext/pull/278
+* chore: update to latest sidetree revision by @fqutishat in https://github.com/hyperledger/aries-framework-go-ext/pull/279
+* feat: use different domain when anchor origin is down by @fqutishat in https://github.com/hyperledger/aries-framework-go-ext/pull/280
+* chore: update to latest orb by @fqutishat in https://github.com/hyperledger/aries-framework-go-ext/pull/281
+* chore: update to latest orb by @aholovko in https://github.com/hyperledger/aries-framework-go-ext/pull/284
 
 
-**Full Changelog**: https://github.com/hyperledger/aries-framework-go-ext/compare/component/vdr/orb/v1.0.0-rc.1...component/vdr/orb/v1.0.0-rc2
+**Full Changelog**: https://github.com/hyperledger/aries-framework-go-ext/compare/component/vdr/orb/v1.0.0-rc2...component/vdr/orb/v1.0.0-rc3
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-framework-go-ext/releases/tag/component/vdr/orb/v1.0.0-rc2" class=".btn">
+    <a href="https://github.com/hyperledger/aries-framework-go-ext/releases/tag/component/vdr/orb/v1.0.0-rc3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-06-23 11:20:51 +0000 UTC
+        Created At 2022-08-23 08:20:09 +0000 UTC
     </span>
 </div>
 
