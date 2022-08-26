@@ -30,6 +30,8 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 This PR updates NWO to remove from the resolvers references to Fabric peers.
 The FPC integration was relaying in these resolvers. To fix this, the PR updates the FPC integration to leverage Fabric Discovery.
 
+In addition, a flaky unit-test has been disabled.
+
 Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
         </tr>
