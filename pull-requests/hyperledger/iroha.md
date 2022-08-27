@@ -14,6 +14,110 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2663" class=".btn">#2663</a>
+            </td>
+            <td>
+                <b>
+                    [ci]: Features: commit hash in image, PR title to label, toolchain file again
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                <!-- [ci]: Features: commit hash in image, PR title to label, toolchain file again -->
+### Description of the Change
+
+1. Make a published image have the reference to Git commit
+2. Make the PR title check result in adding labels
+3. Reintroduce a toolchain file removed at 162d8e86
+
+### Issue
+
+- None
+
+### Benefits
+
+1. Provides a mapping between commits and images
+2. Automates labeling
+3. Allows us to develop in similar environments
+
+### Possible Drawbacks
+
+- None
+
+### Usage Examples or Tests
+
+#### Get the Git commit hash of `IMAGE`
+
+```bash
+docker inspect --format='{{.Config.Labels.commit}}' $IMAGE
+```
+
+#### List the images built at `COMMIT`
+
+```bash
+docker images --filter "label=commit=$COMMIT"
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-27 05:10:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2662" class=".btn">#2662</a>
+            </td>
+            <td>
+                <b>
+                    [ci]: Fix: Make publishing workflows sequential, and complements to #2427
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">CI</span>
+            </td>
+            <td>
+                ### Description of the Change
+
+1. Make publishing workflows sequential:
+    Whenever `iroha2-base:<tag>` updates, `iroha2:<tag>` also updates on the base image. If `Dockerfile.base` has no change, only `iroha2:<tag>` updates
+2. Exclude other `.yml` files than workflows from the PR workflow triggers
+3. Refactor workflows, etc
+
+### Issue
+
+- None
+
+### Benefits
+
+1. `iroha2-base:<tag>` never diverges from the history of `iroha2:<tag>`
+2. Changes to docker-compose files never trigger PR workflows
+
+### Possible Drawbacks
+
+- None
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-27 01:54:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2661" class=".btn">#2661</a>
             </td>
             <td>
