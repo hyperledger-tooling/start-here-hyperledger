@@ -14,35 +14,6 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3616" class=".btn">#3616</a>
-            </td>
-            <td>
-                <b>
-                    Reflectd Cross site Scripting (XSS)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Unsanitized input from the request body `r.Body` flows into `fmt.Fprintln`. This may result in a Reflected Cross-Site Scripting attack (XSS).
-
-Signed-off-by: Bhaskar Ram <bhaskarvilles@duck.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-25 14:03:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3615" class=".btn">#3615</a>
             </td>
             <td>
