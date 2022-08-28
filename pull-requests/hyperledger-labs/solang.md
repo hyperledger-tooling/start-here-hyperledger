@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/solang/pull/990" class=".btn">#990</a>
+            </td>
+            <td>
+                <b>
+                    WIP: test: initial subxt test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                alternative tests using subxt, currently using raw selector until the ABI are compatible where we can just use contract-transcode.
+test cases are semantically derived from the original substrate integration tests using polkadot.js.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-28 05:49:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/solang/pull/989" class=".btn">#989</a>
             </td>
             <td>
