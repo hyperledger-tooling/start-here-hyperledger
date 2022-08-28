@@ -72,7 +72,7 @@ currently relies on unmerged branched of scale-info, ink_metadata.
             </td>
             <td>
                 <b>
-                    Create 'writeStringData' and 'writeBytesData'
+                    Create 'writeString' and 'writeBytes'
                 </b>
             </td>
         </tr>
