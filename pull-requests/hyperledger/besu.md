@@ -142,39 +142,3 @@ Abstracts some logic to be reused in similar tests, as suggested in PR #4146. (H
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4283" class=".btn">#4283</a>
-            </td>
-            <td>
-                <b>
-                    interpret an empty string (0x80) as an unsigned byte of 0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span><span class="chip">22.7.2</span>
-            </td>
-            <td>
-                Signed-off-by: Stefan <stefan.pingel@consensys.net>
-
-## PR description
-This PR addresses Besu failure to decode a devp2p Hello message that contains the witness protocol capability version 0. In that Hello message the version of the witness protocol is encoded as 0x80 (zero length string), which is a valid way of encoding the version number 0.  
-
-## Fixed Issue(s)
-fixes #4279
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-22 05:55:29 +0000 UTC
-    </div>
-</div>
-
