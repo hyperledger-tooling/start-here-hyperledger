@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/258" class=".btn">#258</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/263" class=".btn">#263</a>
             </td>
             <td>
                 <b>
-                    Feature/query filters
+                    Update to lts@sha256:4072d09bee376c8fcbc586d35ea25624738694ce2c37aa0db60c9998c613048b
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                query filters object
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-27 11:51:22 +0000 UTC
+        Created At 2022-08-29 09:25:11 +0000 UTC
     </div>
 </div>
 

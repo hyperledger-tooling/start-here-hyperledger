@@ -14,11 +14,127 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4288" class=".btn">#4288</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/4325" class=".btn">#4325</a>
             </td>
             <td>
                 <b>
-                    Reduce megamorphic call sites in AbstractCallOperation
+                    refactors to rely on blocks added, and behave like singleton
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Will not show ready for merge on startup when local stored chain is past ttd.
+Uses block observer to determine state change
+
+Signed-off-by: Justin Florentine <justin+github@florentine.us>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-29 17:30:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4318" class=".btn">#4318</a>
+            </td>
+            <td>
+                <b>
+                    Disable RocksDB Write Ahead Log
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ameziane H <ameziane.hamlat@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Disable RocksDB Write Ahead Log, this may create some issues to recover from a crash, but still need to test and try to find a compromise : Performance vs effort to recover from a crash 
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-26 16:02:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4316" class=".btn">#4316</a>
+            </td>
+            <td>
+                <b>
+                    ContainerTests - use tessera 22.1.7
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <macfarla.github@gmail.com>
+
+Use 22.1.7 docker image for Tessera. 
+Not a required update, dependency change only.
+https://github.com/ConsenSys/tessera/releases/tag/tessera-22.1.7
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-26 06:04:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4312" class=".btn">#4312</a>
+            </td>
+            <td>
+                <b>
+                    fix trie by asking peers
                 </b>
             </td>
         </tr>
@@ -27,10 +143,16 @@ permalink: /pull-requests/hyperledger/besu
                 <span class="chip">mainnet</span>
             </td>
             <td>
-                ## PR description
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
 
-The four instances of gas in the CALL operations are all implemented
-identically.  Refactor the method into the abstract parent.
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+we may have an inconsistency in the worldstate trie. If this happens even if the cases are very rare and complex to reproduce this PR can help resolve the issue. Indeed if we detect a problem in the trie we can fix it directly by asking our peers for the correct version of the node 
+
+We start by asking with the GetNodeData request (which will soon be deprecated but which is still compatible and more practical) and if the response is empty we try with GetTrieNode
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -38,17 +160,17 @@ identically.  Refactor the method into the abstract parent.
 
 ## Documentation
 
-- [X] I thought about documentation and added the `doc-change-required` label to this PR if
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-22 14:30:07 +0000 UTC
+        Created At 2022-08-25 12:04:30 +0000 UTC
     </div>
 </div>
 
@@ -56,26 +178,62 @@ identically.  Refactor the method into the abstract parent.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4287" class=".btn">#4287</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/4311" class=".btn">#4311</a>
             </td>
             <td>
                 <b>
-                    Changes MergeCoordinator fields to protected to allow extension
+                    Reducing verbosity during BWS errors
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">logging</span>
             </td>
             <td>
-                Signed-off-by: Pedro Novais <jpvnovais@gmail.com>
+                Stacktrace can be retrieved by increasing the log level
+
+Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
+
+## Fixed Issue(s)
+fixes #4263
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-25 11:37:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4310" class=".btn">#4310</a>
+            </td>
+            <td>
+                <b>
+                    Log imported block info post merge
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span><span class="chip">logging</span>
+            </td>
+            <td>
+                After the switch to PoS, info of the imported blocks are not more logged, this PR re-add the log when a block is imported via the NewPayload engine RPC call, and also update the info logged to remove ommers and add base fee.
+
+Sample of the message:
+`Imported #12,862,033 / 5 tx / 439,018 (1.5%) gas / base fee 7 wei / (0xb1b6d51e6382a1c88b42344f53d5321ee63bec0226fae502876af55e7109f431) in 0.028s.`
+
+Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
 
 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-Changes some fields modifiers to protected to allow class extension
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -93,7 +251,7 @@ Changes some fields modifiers to protected to allow class extension
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-22 14:17:39 +0000 UTC
+        Created At 2022-08-25 10:29:07 +0000 UTC
     </div>
 </div>
 
@@ -101,11 +259,48 @@ Changes some fields modifiers to protected to allow class extension
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4286" class=".btn">#4286</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/4309" class=".btn">#4309</a>
             </td>
             <td>
                 <b>
-                    create AbstractJsonRpcTest for better code reuse in other similar tests
+                    [CHANGELOG] moved 4279 to 22.7.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">22.7.2</span>
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+moved #4279 to 22.7.2
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-25 02:07:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4308" class=".btn">#4308</a>
+            </td>
+            <td>
+                <b>
+                    small variable renaming in AbstractJsonRpcTest
                 </b>
             </td>
         </tr>
@@ -120,7 +315,7 @@ Changes some fields modifiers to protected to allow class extension
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-Abstracts some logic to be reused in similar tests, as suggested in PR #4146. (Helpful in downstream [fork](https://github.com/hyperledger/besu/pull/4146/files#diff-d27d85eaed527f7ef2ead8611cf0a17b4e33ed7c11dd341385eb9e9acfd30b70R11))
+Some renaming that came to mind only after the merging  of #4286
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -138,7 +333,286 @@ Abstracts some logic to be reused in similar tests, as suggested in PR #4146. (H
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-22 13:14:54 +0000 UTC
+        Created At 2022-08-24 15:39:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4306" class=".btn">#4306</a>
+            </td>
+            <td>
+                <b>
+                    update docker version on quorum ats executor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+* Update docker version on executor used for acceptanceTestQuorum CI step (part of nightly CI pipeline)
+* Also temporarily make acceptanceTestsQuorum run on this PR to see if it runs ok
+* remove acceptanceTestsQuorum from PR build
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-24 05:32:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4305" class=".btn">#4305</a>
+            </td>
+            <td>
+                <b>
+                    update Tessera version and ubuntu for xl-machine-executor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">22.7.2</span>
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+* Update tessera docker image version to 22.1.6
+* Update ubuntu version on xl machine executor in Circle CI config - this update is required for the tessera 22.1.6 docker image to run
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-24 04:08:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4304" class=".btn">#4304</a>
+            </td>
+            <td>
+                <b>
+                    Log the number of connected peers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The number of connected peers is what matters. 
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-24 01:29:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4303" class=".btn">#4303</a>
+            </td>
+            <td>
+                <b>
+                    Reinstate Tessera tests with a fixed version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Use a fixed version of Tessera docker image. 
+* Enable the ignored privacy tests that use Tessera 
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-23 20:46:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4299" class=".btn">#4299</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] turn down logging
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">22.7.2</span>
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+turn down logging on the "comparing timestamps" message
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-23 09:50:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4298" class=".btn">#4298</a>
+            </td>
+            <td>
+                <b>
+                    Reduce fast-sync-min-peers for post merge
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span><span class="chip">mainnet</span>
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Post merge we no longer need to wait to have 5 peers to validate a pivot block knowing that the pivot block comes from the  consensus client. This PR proposes to reduce the min peers to 1 for post merge network. It will always be possible to change it via the flag if necessary
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-23 09:49:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4297" class=".btn">#4297</a>
+            </td>
+            <td>
+                <b>
+                    ignore the tests that use tessera enclave via docker
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>
+
+These tests are uniformly failing since about 6 hours ago. Docker container startup error. eg
+```
+org.testcontainers.containers.ContainerLaunchException: Container startup failed
+	at app//org.testcontainers.containers.GenericContainer.doStart(GenericContainer.java:345)
+	at app//org.testcontainers.containers.GenericContainer.start(GenericContainer.java:326)
+	at app//org.hyperledger.enclave.testutil.TesseraTestHarness.start(TesseraTestHarness.java:83)
+	at app//org.hyperledger.besu.tests.acceptance.dsl.privacy.PrivacyNode.start(PrivacyNode.java:194)
+	at app//org.hyperledger.besu.tests.acceptance.dsl.privacy.PrivacyCluster.startNode(PrivacyCluster.java:182)
+	at app//org.hyperledger.besu.tests.acceptance.dsl.privacy.PrivacyCluster.lambda$selectAndStartBootnode$6(PrivacyCluster.java:136)
+...
+            org.testcontainers.containers.ContainerLaunchException: Could not create/start container
+```
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-23 09:07:13 +0000 UTC
     </div>
 </div>
 

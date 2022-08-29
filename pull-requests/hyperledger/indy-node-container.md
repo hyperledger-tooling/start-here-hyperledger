@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node-container
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node-container/pull/104" class=".btn">#104</a>
+                PR <a href="https://github.com/hyperledger/indy-node-container/pull/107" class=".btn">#107</a>
             </td>
             <td>
                 <b>
-                    indy node update 1.12.4 -> 1.12.5
+                    use same indy version for controller image
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-node-container
                 
             </td>
             <td>
-                only the images using 1.12.4 are being updated, the ubuntu20 image still has the experimental rc release with a known bug in the state hashes. -> not touching this one for now.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-19 08:46:31 +0000 UTC
+        Created At 2022-08-26 07:20:58 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/indy-node-container
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node-container/pull/101" class=".btn">#101</a>
+                PR <a href="https://github.com/hyperledger/indy-node-container/pull/106" class=".btn">#106</a>
             </td>
             <td>
                 <b>
-                    added explicit plenum version to ubuntu16 Docker file
+                    chore: bump indy to 1.12.6
                 </b>
             </td>
         </tr>
@@ -53,12 +53,12 @@ permalink: /pull-requests/hyperledger/indy-node-container
                 
             </td>
             <td>
-                fixes https://github.com/hyperledger/indy-node-container/issues/100
+                bump indy to latest version 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-17 09:54:08 +0000 UTC
+        Created At 2022-08-25 15:10:59 +0000 UTC
     </div>
 </div>
 

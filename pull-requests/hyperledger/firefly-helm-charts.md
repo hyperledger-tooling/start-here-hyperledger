@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/54" class=".btn">#54</a>
+                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/55" class=".btn">#55</a>
             </td>
             <td>
                 <b>
-                    [0.6.0] EVMConnect StatefulSet
+                    [0.5.5] Allow Customizing http.tls
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
                 
             </td>
             <td>
-                Workings towards support for FireFly v1.1.x as part of the v0.6.0 chart release, this PR adds support for the new [firefly-evmconnect](https://github.com/hyperledger/firefly-evmconnect) runtime.
-
-Similar to the original `ethconnect` support, this will have the chart deploy `evmconnect` off to the side of FireFly (for now) as a `StatefulSet`. Persistent storage is used for `leveldb`. Unlike the `ethconnect` support, this attempts to offer greater flexibility and allow for a user to somewhat safely configure all of the EVMConnect's [config options](https://github.com/hyperledger/firefly-evmconnect/blob/main/config.md).
-
-Integrating EVMConnect into FireFly's own config will be handled in a separate follow-up PR, where FireFly v1.1.x is supported with the new config format related to [namespace isolation](https://github.com/hyperledger/firefly-fir/pull/12).
+                Signed-off-by: hfuss <haydenfuss@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-11 02:08:14 +0000 UTC
+        Created At 2022-08-29 11:02:42 +0000 UTC
     </div>
 </div>
 
