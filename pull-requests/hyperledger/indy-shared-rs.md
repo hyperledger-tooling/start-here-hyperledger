@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-shared-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/17" class=".btn">#17</a>
+                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/18" class=".btn">#18</a>
             </td>
             <td>
                 <b>
-                    Added .net wrapper
+                    fix: public cred metadata constructors
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-shared-rs
                 
             </td>
             <td>
-                Signed-off-by: Christopher Hempel <c.hempel@esatus.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-22 08:06:51 +0000 UTC
+        Created At 2022-08-24 09:35:57 +0000 UTC
     </div>
 </div>
 

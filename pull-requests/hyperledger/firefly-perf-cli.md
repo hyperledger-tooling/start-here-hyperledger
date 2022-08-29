@@ -14,11 +14,37 @@ permalink: /pull-requests/hyperledger/firefly-perf-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/40" class=".btn">#40</a>
+                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/42" class=".btn">#42</a>
             </td>
             <td>
                 <b>
-                    Minor fixes identified while testing for v1.1
+                    remove token pool timeout
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                request will now use firefly default timeout of 120s
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-23 22:05:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/41" class=".btn">#41</a>
+            </td>
+            <td>
+                <b>
+                    prep/getLogs updates for evmconnect
                 </b>
             </td>
         </tr>
@@ -32,33 +58,7 @@ permalink: /pull-requests/hyperledger/firefly-perf-cli
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-08 15:42:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/39" class=".btn">#39</a>
-            </td>
-            <td>
-                <b>
-                    add MAINTAINERS, add eberger727 as codeowner
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                closes #38 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-08 13:51:21 +0000 UTC
+        Created At 2022-08-23 16:52:15 +0000 UTC
     </div>
 </div>
 

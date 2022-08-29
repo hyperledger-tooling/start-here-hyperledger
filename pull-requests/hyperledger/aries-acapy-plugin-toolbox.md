@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/134" class=".btn">#134</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/135" class=".btn">#135</a>
             </td>
             <td>
                 <b>
-                    fix: fixed connection reuse flag functionality
+                    Feature/askar
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
                 
             </td>
             <td>
-                Signed-off-by: Peter Strobel <peter@indicio.tech>
+                Add askar and bbs
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-11 19:33:54 +0000 UTC
+        Created At 2022-08-24 17:07:02 +0000 UTC
     </div>
 </div>
 

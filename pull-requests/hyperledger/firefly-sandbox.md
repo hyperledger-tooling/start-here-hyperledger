@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/98" class=".btn">#98</a>
+                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/100" class=".btn">#100</a>
             </td>
             <td>
                 <b>
-                    changes to support FF version 1.0
+                    Add block number to tokens pools/custom contract listeners + better 1.1 support
                 </b>
             </td>
         </tr>
@@ -27,46 +27,18 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
                 
             </td>
             <td>
-                 - query both `default` and `ff_system` namespaces for verifiers
- - assume multiparty mode if `multiparty` key is missing from status
+                closes #99 
 
-closes #96 
+![Screen Shot 2022-08-25 at 3 31 51 PM](https://user-images.githubusercontent.com/10987380/186755628-9cc44e8c-1736-4db6-9195-4520025859d6.png)
+
+![Screen Shot 2022-08-25 at 3 31 43 PM](https://user-images.githubusercontent.com/10987380/186755632-f11c58c0-4246-4ab3-9876-1a13b423b51d.png)
+
+Also includes better handling of edge cases for firefly running in gateway mode. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-17 14:08:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/97" class=".btn">#97</a>
-            </td>
-            <td>
-                <b>
-                    V1.1 refactors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - hide messages pane in gateway mode
-- hide "attach a message" for tokens in gateway mode
-- various fixes from @eberger727 
-![Screen Shot 2022-08-16 at 4 19 27 PM](https://user-images.githubusercontent.com/10987380/184977739-032bac59-5354-4a9b-b692-431013ce9c47.png)
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-16 20:21:51 +0000 UTC
+        Created At 2022-08-25 19:53:33 +0000 UTC
     </div>
 </div>
 

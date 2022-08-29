@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/153" class=".btn">#153</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/154" class=".btn">#154</a>
             </td>
             <td>
                 <b>
-                    Update the pool module feature guard
+                    Add missing feature dependency
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
                 
             </td>
             <td>
-                <nil>
+                This change adds a missing feature dependency to provide the base transact protocol structs when the "transaction-receipt-store" feature is enabled with no-default-features.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-02 21:49:26 +0000 UTC
+        Created At 2022-08-24 21:33:01 +0000 UTC
     </div>
 </div>
 

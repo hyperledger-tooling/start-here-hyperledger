@@ -14,11 +14,39 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/118" class=".btn">#118</a>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/121" class=".btn">#121</a>
             </td>
             <td>
                 <b>
-                    [fix]: update SCALE version; fix `json-bigint` import
+                    [fix]: fix `crypto-target-node` ESM entry
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: 0x009922 <a.marcius26@gmail.com>
+
+Related issue: #111 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-29 08:04:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/120" class=".btn">#120</a>
+            </td>
+            <td>
+                <b>
+                    [docs]: update readmes & fix typo
                 </b>
             </td>
         </tr>
@@ -27,12 +55,12 @@ permalink: /pull-requests/hyperledger/iroha-javascript
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: 0x009922 <a.marcius26@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-19 03:36:30 +0000 UTC
+        Created At 2022-08-29 07:44:16 +0000 UTC
     </div>
 </div>
 

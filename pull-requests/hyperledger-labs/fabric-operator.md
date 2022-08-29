@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/46" class=".btn">#46</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/48" class=".btn">#48</a>
             </td>
             <td>
                 <b>
-                    Use hyperledger-labs operator, not ibm-blockchain operator in sample network
+                    Add deployment steps for self-provisioned K8s via AWS and ECR
                 </b>
             </td>
         </tr>
@@ -27,16 +27,18 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                After installing the operator about 50 times in test clusters, I was wondering why the image download counts from ghcr.io were still zero.  This would explain the issue... 
+                Add scripts for deploying chaincode on a self-provisioned K8s cluster on AWS that uses ECR as container image registry.
 
-Sample network now pulls the LABS operator image, not the legacy rev (pre-labs).
+Fixes #49 
 
-Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+Open to suggestions for the ugly hack in tag name conversion.
+
+PS: https://github.com/hyperledger-labs/fabric-operator/blob/main/docs/CONTRIBUTING.md is `TODO`.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-11 01:20:36 +0000 UTC
+        Created At 2022-08-29 13:02:17 +0000 UTC
     </div>
 </div>
 
