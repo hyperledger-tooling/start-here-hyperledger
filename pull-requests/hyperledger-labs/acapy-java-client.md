@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/63" class=".btn">#63</a>
+            </td>
+            <td>
+                <b>
+                    fix oob record parsing error
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fix for: https://github.com/hyperledger-labs/acapy-java-client/issues/62
+
+ourRecipientKey is not a UUID but a verkey and hence a string.
+
+Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-29 07:50:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/61" class=".btn">#61</a>
             </td>
             <td>
