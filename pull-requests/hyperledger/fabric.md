@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3619" class=".btn">#3619</a>
+            </td>
+            <td>
+                <b>
+                    Update release information in readme and docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Clarify that v1.4 is out of maintenance
+- Releases are now periodic rather than every four months.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-30 16:20:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3618" class=".btn">#3618</a>
+            </td>
+            <td>
+                <b>
+                    Update proto dependency
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                To include SeekContentType in orderer protobuf
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-30 14:06:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3617" class=".btn">#3617</a>
             </td>
             <td>
@@ -447,194 +505,6 @@ Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-08-24 09:50:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3603" class=".btn">#3603</a>
-            </td>
-            <td>
-                <b>
-                    Github Actions Verify Build (release-2.3)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Uses Go 1.16 on release-2.3.
-
-Signed-off-by: Julian Castrence <juliancastrence@ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-23 13:18:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3602" class=".btn">#3602</a>
-            </td>
-            <td>
-                <b>
-                    Github Actions Verify Build (backport #3569)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #3569 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-23 13:11:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3600" class=".btn">#3600</a>
-            </td>
-            <td>
-                <b>
-                    Github Actions Verify Build (backport #3569)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #3569 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-23 13:10:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3599" class=".btn">#3599</a>
-            </td>
-            <td>
-                <b>
-                    Github Actions Verify Build (backport #3569)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #3569 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-23 13:10:34 +0000 UTC
     </div>
 </div>
 

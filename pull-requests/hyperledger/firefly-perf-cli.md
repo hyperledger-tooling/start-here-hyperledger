@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/firefly-perf-cli
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/41" class=".btn">#41</a>
-            </td>
-            <td>
-                <b>
-                    prep/getLogs updates for evmconnect
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-23 16:52:15 +0000 UTC
-    </div>
-</div>
-

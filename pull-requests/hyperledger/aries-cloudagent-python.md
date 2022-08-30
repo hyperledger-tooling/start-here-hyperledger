@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1922" class=".btn">#1922</a>
+            </td>
+            <td>
+                <b>
+                    fix: propagate endpoint from mediation record
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR solves a bug in #1899 in which the public DID endpoint of an agent behind a mediator was the agent's own endpoint. These changes ensure that a mediated agent's public DID endpoint is the mediator's endpoint.
+
+Signed-off-by: Char Howland <char@indicio.tech>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-30 18:20:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1921" class=".btn">#1921</a>
             </td>
             <td>
@@ -204,58 +232,6 @@ The query features endpoint returns the discovery record directly rather than ne
     </table>
     <div class="right-align">
         Created At 2022-08-23 19:13:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1911" class=".btn">#1911</a>
-            </td>
-            <td>
-                <b>
-                    [#1895] Stopping the aca-py shell process keeps python process running
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Thomas Diesler <tdiesler@redhat.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-23 17:51:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1910" class=".btn">#1910</a>
-            </td>
-            <td>
-                <b>
-                    Create sonarcloud.yml
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-23 16:17:10 +0000 UTC
     </div>
 </div>
 

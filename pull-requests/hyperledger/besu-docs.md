@@ -545,30 +545,3 @@ https://hyperledger-besu--1137.org.readthedocs.build/en/1137
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1136" class=".btn">#1136</a>
-            </td>
-            <td>
-                <b>
-                    fixes env var example
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Justin Florentine <justin+github@florentine.us>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-23 13:56:01 +0000 UTC
-    </div>
-</div>
-
