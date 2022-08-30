@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/32" class=".btn">#32</a>
+            </td>
+            <td>
+                <b>
+                    Pass options.signer for EthCompat mode
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                EVMConnect will separate out the option `options.signer: true` from the `options.methods: []` list of methods to match, so you can just request `signer`. Also so that even if no methods match we still set the signer.
+
+This means a tweak to the EthCompat mode
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-29 21:07:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/31" class=".btn">#31</a>
             </td>
             <td>
@@ -182,73 +210,6 @@ We've since worked through all that in the tokens thanks to @awrichar in the fol
     </table>
     <div class="right-align">
         Created At 2022-08-23 19:59:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/25" class=".btn">#25</a>
-            </td>
-            <td>
-                <b>
-                    Add delete functionality with policy engine involvement
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                See https://github.com/hyperledger/firefly-transaction-manager/issues/24#issuecomment-1222821262
-
-- New `DELETE` `/transactions/{transactionId}` API
-- Adds new `DeleteRequested` field to the `ManagedTX` structure
-- Changes `updated` boolean return on policy engine `Execute()` to an enum:
-   - `UpdateYes` - same as current `true`
-   - `UpdateNo` - same as current `false`
-   - `UpdateDelete` - the transaction will be deleted from the persistence, with one last event emitted
-- Invokes the policy engine once in-line with the API request
-  - Returns `200` if that results in immediate removal
-  - Returns `202` if the removal is not immediate, but the policy engine does not return an error
-  - Returns an error if that run of the policy engine fails
-- The policy engine executes this request sequentially with it's other processing
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-22 21:40:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/23" class=".btn">#23</a>
-            </td>
-            <td>
-                <b>
-                    Add checkpoint/catchup information from FFCAPI to listener GET API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves #22
-
-- Calls the existing `EventListenerHWM` endpoint in the FFCAPI and mixes that into the API response for the listener
-- Adds a `catchup` flag to that API, that allows an FFCAPI implementation to mark a stream as in catchup mode
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-22 18:31:39 +0000 UTC
     </div>
 </div>
 

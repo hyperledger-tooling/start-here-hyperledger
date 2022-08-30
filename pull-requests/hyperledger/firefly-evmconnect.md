@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/24" class=".btn">#24</a>
+            </td>
+            <td>
+                <b>
+                    Allow requesting of looking up the signer, separate from an array of methods
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Depends on https://github.com/hyperledger/firefly-transaction-manager/pull/32 for EthConnect compatibility, where these options were combined.
+
+> Currently this PR pulls in a commit from FFTM until there's a release with PR 32 in it
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-29 21:13:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/22" class=".btn">#22</a>
+            </td>
+            <td>
+                <b>
+                    Update firefly-signer to v0.9.18
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-29 19:28:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/21" class=".btn">#21</a>
             </td>
             <td>
