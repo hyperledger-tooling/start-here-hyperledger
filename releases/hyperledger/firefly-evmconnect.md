@@ -111,36 +111,3 @@ permalink: /releases/hyperledger/firefly-evmconnect
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v1.1.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v1.1.0
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* Enhancements based on testing with BSC and Polygon by @peterbroadhurst in https://github.com/hyperledger/firefly-evmconnect/pull/11
-* introduce mapping for block not found errors by @shorsher in https://github.com/hyperledger/firefly-evmconnect/pull/15
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly-evmconnect/compare/v0.1.2...v1.1.0
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly-evmconnect/releases/tag/v1.1.0" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-08-23 18:56:39 +0000 UTC
-    </span>
-</div>
-
