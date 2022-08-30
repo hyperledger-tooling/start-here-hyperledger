@@ -44,7 +44,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
             </td>
             <td>
                 <b>
-                    chore(react-hooks)!: update react peer dependency
+                    fix(react-hooks): update react peer dependency
                 </b>
             </td>
         </tr>
@@ -83,12 +83,17 @@ This would be considered a breaking change according to Semver due to the peer d
             <td>
                 :robot: I have created a release \*beep\* \*boop\*
 ---
-### [0.3.1](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/react-hooks-v0.3.0...react-hooks-v0.3.1) (2022-08-24)
+### [0.3.1](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/react-hooks-v0.3.0...react-hooks-v0.3.1) (2022-08-30)
 
 
 ### Features
 
 * **hooks:** filter by multiple states with inverse ([#149](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/149)) ([56e3880](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/56e3880a51a72e1504ed051036c5e782ed53a684))
+
+
+### Bug Fixes
+
+* **react-hooks:** update react peer dependency ([#151](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/151)) ([b1e08b6](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/b1e08b658407b67018f945ca30ce8b8417226751))
 ---
 
 
@@ -98,61 +103,6 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
     </table>
     <div class="right-align">
         Created At 2022-08-24 07:11:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/149" class=".btn">#149</a>
-            </td>
-            <td>
-                <b>
-                    feat(hooks): filter by multiple states with inverse
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                closes #147 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-23 08:07:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/148" class=".btn">#148</a>
-            </td>
-            <td>
-                <b>
-                    feat(rest)!: update to AFJ 0.2.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I think the switch to tsoa has improved the OpenAPI spec quite a lot. However, there are a few drawbacks (mainly related to the issues https://github.com/lukeautry/tsoa/issues/1268, https://github.com/lukeautry/tsoa/issues/1267 & https://github.com/lukeautry/tsoa/issues/1266). 
-
-I think it is fine for now, but if there are better alternatives i'd be happy to change it. It isn't that much work if we don't combine it with a major AFJ release :). 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-23 07:42:17 +0000 UTC
     </div>
 </div>
 

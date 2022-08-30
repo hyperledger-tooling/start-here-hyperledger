@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/39" class=".btn">#39</a>
-            </td>
-            <td>
-                <b>
-                    add yui-relayer module into this repository
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Masanori Yoshida <masanori.yoshida@datachain.jp>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-23 08:02:14 +0000 UTC
-    </div>
-</div>
-

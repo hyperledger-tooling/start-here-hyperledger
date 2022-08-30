@@ -14,11 +14,37 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/999" class=".btn">#999</a>
+            </td>
+            <td>
+                <b>
+                    chore(release): v0.2.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">ci-test</span>
+            </td>
+            <td>
+                Release version 0.2.3
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-30 10:34:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/995" class=".btn">#995</a>
             </td>
             <td>
                 <b>
-                    refactor(demo): Faber creates invitation
+                    docs(demo): faber creates invitation
                 </b>
             </td>
         </tr>

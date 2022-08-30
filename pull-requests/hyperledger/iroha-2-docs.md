@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/142" class=".btn">#142</a>
+            </td>
+            <td>
+                <b>
+                    [docs] #141: Add a note about docker-compose options
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #141.
+Also fixes index, rust guide, js guide, build and install chapter
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-30 09:47:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/139" class=".btn">#139</a>
             </td>
             <td>
