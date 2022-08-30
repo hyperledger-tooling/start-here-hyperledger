@@ -330,7 +330,7 @@ _PR template adapted from the Python attrs project._
             </td>
             <td>
                 <b>
-                    Updated popup modal styling
+                    refactor: updated popup modal styling
                 </b>
             </td>
         </tr>

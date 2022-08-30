@@ -38,29 +38,3 @@ Signed-off-by: Chengxuan Xing <chengxuan.xing@kaleido.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/33" class=".btn">#33</a>
-            </td>
-            <td>
-                <b>
-                    Config docs header should be passed in
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-23 03:37:35 +0000 UTC
-    </div>
-</div>
-
