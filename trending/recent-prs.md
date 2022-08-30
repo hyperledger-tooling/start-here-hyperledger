@@ -1,13 +1,13 @@
 
-[139](https://github.com/hyperledger/iroha-2-docs/pull/139) [docs]: Add info about metadata and sorting
+[1921](https://github.com/hyperledger/aries-cloudagent-python/pull/1921) Leave credentialStatus element in the LD credential
 
-[2673](https://github.com/hyperledger/iroha/pull/2673) [feature] #2672: Add `ipv4Addr` variant and predicates.
+[313](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/313) Added automated publishing of go modules
 
-[41](https://github.com/hyperledger-labs/fabric-machine/pull/41) Updates to various scripts.
+[999](https://github.com/hyperledger/aries-framework-javascript/pull/999) chore(release): v0.2.3
 
-[122](https://github.com/hyperledger/iroha-javascript/pull/122) [ci]: set `publish-branch` to `iroha2`
+[142](https://github.com/hyperledger/iroha-2-docs/pull/142) [docs] #141: Add a note about docker-compose options
 
-[1017](https://github.com/hyperledger/firefly/pull/1017) adds `fetchreference` to /events/:id
+[2152](https://github.com/hyperledger/cactus/pull/2152) fix(cactus-example-electricity-trade): enable tsconfig strict flag an…
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
