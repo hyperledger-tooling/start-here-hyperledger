@@ -221,33 +221,3 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/15" class=".btn">#15</a>
-            </td>
-            <td>
-                <b>
-                    introduce mapping for block not found errors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Encountered this during my testing with avalanche. 
-
-Instead of returning empty block info for an unknown/unvalidated block, some evm blockchains will return an error. Now, the ethereum connector can keep track of these different errors and treat them as if `blockInfo` is `nil`
-
- in a chain with #11 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-23 14:08:40 +0000 UTC
-    </div>
-</div>
-
