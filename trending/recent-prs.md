@@ -1,13 +1,13 @@
 
-[4](https://github.com/hyperledger/homebrew-solang/pull/4) Update repository name
+[139](https://github.com/hyperledger/iroha-2-docs/pull/139) [docs]: Add info about metadata and sorting
 
-[24](https://github.com/hyperledger/firefly-evmconnect/pull/24) Allow requesting of looking up the signer, separate from an array of methods
+[2673](https://github.com/hyperledger/iroha/pull/2673) [feature] #2672: Add `ipv4Addr` variant and predicates.
 
-[32](https://github.com/hyperledger/firefly-transaction-manager/pull/32) Pass options.signer for EthCompat mode
+[41](https://github.com/hyperledger-labs/fabric-machine/pull/41) Updates to various scripts.
 
-[2670](https://github.com/hyperledger/iroha/pull/2670) [fix] #2667: Refactor &Option<T> to Option<&T>
+[122](https://github.com/hyperledger/iroha-javascript/pull/122) [ci]: set `publish-branch` to `iroha2`
 
-[993](https://github.com/hyperledger/solang/pull/993) Remove references to hyperledger-labs
+[1017](https://github.com/hyperledger/firefly/pull/1017) adds `fetchreference` to /events/:id
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

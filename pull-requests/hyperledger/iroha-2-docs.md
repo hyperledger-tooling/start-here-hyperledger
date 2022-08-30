@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/136" class=".btn">#136</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/139" class=".btn">#139</a>
             </td>
             <td>
                 <b>
-                    [docs] #125: Update JS guide
+                    [docs]: Add info about metadata and sorting
                 </b>
             </td>
         </tr>
@@ -28,89 +28,13 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
             </td>
             <td>
                 Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-29 08:27:49 +0000 UTC
-    </div>
-</div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/135" class=".btn">#135</a>
-            </td>
-            <td>
-                <b>
-                    [docs] #120: Update JS installation instruction
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+Addresses #98, #108, #86 (without examples) + fixes formatting
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-29 08:27:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/134" class=".btn">#134</a>
-            </td>
-            <td>
-                <b>
-                    [docs] #116: Add openssl installation instructions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-29 08:25:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/133" class=".btn">#133</a>
-            </td>
-            <td>
-                <b>
-                    [docs]: Update install instructions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-29 08:24:57 +0000 UTC
+        Created At 2022-08-30 06:40:16 +0000 UTC
     </div>
 </div>
 
