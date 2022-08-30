@@ -15,29 +15,29 @@ permalink: /releases/hyperledger-labs/weaver-dlt-interoperability
         <tr>
             <td colspan="2">
                 <b>
-                    v1.4.3 - GO Fabric Interop Chaincode - Aug 22, 2022
+                    v1.5.0 - GO Weaver Protos - Aug 30, 2022
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    core/network/fabric-interop-cc/contracts/interop/v1.4.3
+                    common/protos-go/v1.5.0
                 </span>
             </td>
             <td>
-                - Go Module: `github.com/hyperledger-labs/weaver-dlt-interoperability/core/network/fabric-interop-cc/contracts/interop`
-- Release: v1.4.3
-- Readme: [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/core/network/fabric-interop-cc/contracts/interop/v1.4.3/core/network/fabric-interop-cc/contracts/interop/README.md).
-- Source: [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/core/network/fabric-interop-cc/contracts/interop/v1.4.3/core/network/fabric-interop-cc/contracts/interop)
+                - Go Module: `github.com/hyperledger-labs/weaver-dlt-interoperability/common/protos-go`
+- Release: v1.5.0
+- Readme: [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/common/protos-go/v1.5.0/common/protos-go/README.md).
+- Source: [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/common/protos-go/v1.5.0/common/protos-go)
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/contracts/interop/v1.4.3" class=".btn">
+    <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/common/protos-go/v1.5.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-08-21 19:10:37 +0000 UTC
+        Created At 2022-08-26 17:17:51 +0000 UTC
     </span>
 </div>
 
