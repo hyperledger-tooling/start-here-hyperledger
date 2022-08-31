@@ -15,30 +15,30 @@ permalink: /releases/hyperledger/indy-shared-gha
         <tr>
             <td colspan="2">
                 <b>
-                    v1.0.5
+                    v1.0.6
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.0.5
+                    v1.0.6
                 </span>
             </td>
             <td>
                 ## What's Changed
-* included sovrinrepo checking and corrected version for subactions by @pSchlarb in https://github.com/hyperledger/indy-shared-gha/pull/15
+* generalized artifactory deb upload by @pSchlarb in https://github.com/hyperledger/indy-shared-gha/pull/16
 
 
-**Full Changelog**: https://github.com/hyperledger/indy-shared-gha/compare/v1...v1.0.5
+**Full Changelog**: https://github.com/hyperledger/indy-shared-gha/compare/v1...v1.0.6
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/indy-shared-gha/releases/tag/v1.0.5" class=".btn">
+    <a href="https://github.com/hyperledger/indy-shared-gha/releases/tag/v1.0.6" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-08-22 15:46:28 +0000 UTC
+        Created At 2022-08-31 11:59:51 +0000 UTC
     </span>
 </div>
 
