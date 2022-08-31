@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/karma-charity-platform
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/karma-charity-platform/pull/42" class=".btn">#42</a>
+                PR <a href="https://github.com/hyperledger-labs/karma-charity-platform/pull/44" class=".btn">#44</a>
             </td>
             <td>
                 <b>
-                    update chaincode
+                    update karma chaincode
                 </b>
             </td>
         </tr>
@@ -32,7 +32,33 @@ permalink: /pull-requests/hyperledger-labs/karma-charity-platform
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-17 12:42:04 +0000 UTC
+        Created At 2022-08-31 09:32:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/karma-charity-platform/pull/43" class=".btn">#43</a>
+            </td>
+            <td>
+                <b>
+                    update common files
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Alexander Zemtsov <a.zemtsov@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-31 09:26:25 +0000 UTC
     </div>
 </div>
 
