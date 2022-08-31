@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1924" class=".btn">#1924</a>
+            </td>
+            <td>
+                <b>
+                    Pre-populate revoc_reg_id on IssuerRevRegRecord
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-31 18:15:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1922" class=".btn">#1922</a>
             </td>
             <td>
@@ -148,62 +174,6 @@ Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
     </table>
     <div class="right-align">
         Created At 2022-08-25 13:31:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1914" class=".btn">#1914</a>
-            </td>
-            <td>
-                <b>
-                    feat: include connection ids in keylist update webhook
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds the connection IDs of the mediated connections. This should make it easier to trigger the next step in a flow (i.e. accept a connection request for one of the connections, if it's in the right state).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-24 14:55:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1913" class=".btn">#1913</a>
-            </td>
-            <td>
-                <b>
-                    Remove aca-py check for unrevealed revealed attrs on proof validation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-
-Addresses issue #1893
-
-Removes the "hard" verification on un-revealed attributes and adds "verify_msgs" to the presentation exchange record to describe any warnings or errors encountered when processing the received proof.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-24 13:31:14 +0000 UTC
     </div>
 </div>
 

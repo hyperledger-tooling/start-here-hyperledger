@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/56" class=".btn">#56</a>
+            </td>
+            <td>
+                <b>
+                    Add default Prometheus Rule to alert off Firefly core metrics
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Alerts if the firefly core target is not up.
+
+Alerts if any actions below get rejected:
+- mints
+- transfers
+- burns
+- private messages
+- broadcasts 
+
+Resolving this issue - https://github.com/hyperledger/firefly-helm-charts/issues/47
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-31 15:52:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/55" class=".btn">#55</a>
             </td>
             <td>

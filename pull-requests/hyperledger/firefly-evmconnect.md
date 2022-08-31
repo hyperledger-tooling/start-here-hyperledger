@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/27" class=".btn">#27</a>
+            </td>
+            <td>
+                <b>
+                    Update to firefly-signer v0.9.19
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-31 14:41:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/25" class=".btn">#25</a>
             </td>
             <td>
@@ -126,32 +152,6 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/20" class=".btn">#20</a>
-            </td>
-            <td>
-                <b>
-                    Leveraging FFTM's Sprig Support in gasOracle.template
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Related to https://github.com/hyperledger/firefly-transaction-manager/pull/29 and https://github.com/hyperledger/firefly-transaction-manager/pull/30
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-26 16:52:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/19" class=".btn">#19</a>
             </td>
             <td>
@@ -197,32 +197,6 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     </table>
     <div class="right-align">
         Created At 2022-08-24 20:17:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/17" class=".btn">#17</a>
-            </td>
-            <td>
-                <b>
-                    Use shared RPC client from firefly-signer library
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR depends on https://github.com/hyperledger/firefly-signer/pull/19. It uses the shared RPC client code there instead of duplicating this code in evmconnect as well.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-24 15:47:01 +0000 UTC
     </div>
 </div>
 

@@ -1,13 +1,13 @@
 
-[16](https://github.com/hyperledger/indy-shared-gha/pull/16) generalized artifactory deb upload
+[1924](https://github.com/hyperledger/aries-cloudagent-python/pull/1924) Pre-populate revoc_reg_id on IssuerRevRegRecord
 
-[44](https://github.com/hyperledger-labs/karma-charity-platform/pull/44) update karma chaincode
+[426](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/426) fix: change how salt is stored
 
-[43](https://github.com/hyperledger-labs/karma-charity-platform/pull/43) update common files
+[1028](https://github.com/hyperledger/firefly/pull/1028) Add status information for subscriptions & contract listeners
 
-[240](https://github.com/hyperledger-labs/perun-node/pull/240) Update go perun v0.9.0
+[1027](https://github.com/hyperledger/firefly/pull/1027) Use advisory lock instead of exclusive lock on events table
 
-[42](https://github.com/hyperledger-labs/yui-corda-ibc/pull/42) move go.mod and go.sum to the root directory
+[116](https://github.com/hyperledger-labs/hlf-operator/pull/116) Update MAINTAINERS.md
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

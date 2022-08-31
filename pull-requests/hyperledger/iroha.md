@@ -14,6 +14,51 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2680" class=".btn">#2680</a>
+            </td>
+            <td>
+                <b>
+                    [ci]: Fix after #2662, #2663 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">CI</span>
+            </td>
+            <td>
+                <!-- [ci]: Fix after #2662, #2663 -->
+### Description of the Change
+
+1. Publish `iroha2-base` and `iroha2` images in sequence
+2. Trigger `trybuild` tests on release PRs instead of on dev PRs
+3. Remove `/iroha/rust-toolchain.toml` from the builder image
+
+### Issue
+
+1. https://github.com/hyperledger/iroha/pull/2662#discussion_r959346170
+2. https://github.com/hyperledger/iroha/pull/2663#discussion_r959424599
+3. https://github.com/hyperledger/iroha/pull/2663#discussion_r959480886
+
+### Benefits
+
+- Fix
+
+### Possible Drawbacks
+
+- None
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-31 14:47:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2673" class=".btn">#2673</a>
             </td>
             <td>
@@ -343,9 +388,8 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
                 This is a source repository for HL Iroha C++ library.
 Currently, latest HL Iroha rc5 release (hyperledger/iroha:latest Docker image) is supported.
 Library handles:
-- transactions
+- transaction
 - queries
-- statues
 
 Library uses gRPC client in order to send a message to iroha server - Irohad. Protobufs supported.
 Current version of implementation will be updated soon.
@@ -672,46 +716,6 @@ bash scripts/tests/register_mint_quantity.sh
     </table>
     <div class="right-align">
         Created At 2022-08-25 06:22:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2652" class=".btn">#2652</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #0: Fix `docker-compose-single.yml`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ### Description of the Change
-
-- Fix `KURA_BLOCK_STORE_PATH` in `docker-compose-single.yml`
-
-### Issue
-
-- As of f26263ad, `docker-compose -f docker-compose-single.yml up` does not work
-
-### Benefits
-
-- It works with [this modification](https://github.com/hyperledger/iroha/issues/2640#issuecomment-1225673675)
-
-### Possible Drawbacks
-
-- None
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-24 16:51:29 +0000 UTC
     </div>
 </div>
 
