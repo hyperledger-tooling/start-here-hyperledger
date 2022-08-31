@@ -15,6 +15,39 @@ permalink: /releases/hyperledger/firefly-signer
         <tr>
             <td colspan="2">
                 <b>
+                    v0.9.19
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.9.19
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Add underlying error to FF22012 by @peterbroadhurst in https://github.com/hyperledger/firefly-signer/pull/22
+* Update info logging to include method and time by @peterbroadhurst in https://github.com/hyperledger/firefly-signer/pull/23
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-signer/compare/v0.9.18...v0.9.19
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-signer/releases/tag/v0.9.19" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-08-31 14:23:35 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v0.9.18
                 </b>
             </td>
@@ -73,38 +106,6 @@ permalink: /releases/hyperledger/firefly-signer
     </a>
     <span class="right-align">
         Created At 2022-08-25 17:11:37 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v0.9.16
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v0.9.16
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* Move RPC Client code to shared package by @nguyer in https://github.com/hyperledger/firefly-signer/pull/19
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly-signer/compare/v0.9.15...v0.9.16
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly-signer/releases/tag/v0.9.16" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-08-24 15:51:56 +0000 UTC
     </span>
 </div>
 
