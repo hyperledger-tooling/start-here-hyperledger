@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/113" class=".btn">#113</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/116" class=".btn">#116</a>
             </td>
             <td>
                 <b>
-                    Fix default channel config name
+                    Update MAINTAINERS.md
                 </b>
             </td>
         </tr>
@@ -27,19 +27,14 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
                 
             </td>
             <td>
-                Creating a server to expose REST API I got this error:
-```shell
-Error: Failed to create Channel. channel name should match Regex /^[a-z][a-z0-9.-]*$/, but got _default
-```
-It seems that the underscore in `_default` is an unsupported symbol, so I solved renaming the default channel in `default` in all the project.
-Hope this can help.
+                Added Discord ID
 
-P.S.: I think is a good idea to add a "How to contribute" section to explain how to install a custom plugin/operator version to test changes and contribute to the project. 
+Signed-off-by: Aditya Joshi <adityaprakashjoshi1@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-30 14:25:59 +0000 UTC
+        Created At 2022-08-31 17:23:09 +0000 UTC
     </div>
 </div>
 

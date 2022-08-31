@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/821" class=".btn">#821</a>
+            </td>
+            <td>
+                <b>
+                    fix missing condition on revoc check
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/821"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-31 14:43:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/819" class=".btn">#819</a>
             </td>
             <td>
@@ -27,10 +57,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
                 
             </td>
             <td>
-                - using websocket for event handling
+                - switched from webhook to websocket for event handling
 - removed webhook handlers and settings
 - added netty native libraries
 - added default values to some rest calls
+- merge revocation status when loading matching credentials only if revocable and not revoked
 
 Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
 
@@ -140,38 +171,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2022-08-25 13:46:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/817" class=".btn">#817</a>
-            </td>
-            <td>
-                <b>
-                    fix 815 - partner deletion
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixes, remove presentation exchanges without loading them into memory first
-
-Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/817"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-24 15:46:35 +0000 UTC
     </div>
 </div>
 

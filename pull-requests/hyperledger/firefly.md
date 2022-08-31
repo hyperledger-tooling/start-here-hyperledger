@@ -14,6 +14,177 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1028" class=".btn">#1028</a>
+            </td>
+            <td>
+                <b>
+                    Add status information for subscriptions & contract listeners
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When add the `fetchstatus` query param when getting `subscriptions` and `listeners` by ID, firefly will return additional status information, if it is available.
+
+### Contract listeners:
+FF environments connected to evm connectors will return listener checkpoint formation under the `status` key.
+
+Example query: `http://localhost:5000/api/v1/namespaces/default/contracts/listeners/92e3bc0c-3c3f-455b-81d3-4124a0270b1d?fetchstatus`
+
+Response:
+```
+{
+    "id": "92e3bc0c-3c3f-455b-81d3-4124a0270b1d",
+    "interface": {
+        "id": "30775d45-61af-4f76-9d35-69b5d8ffbf42"
+    },
+    "namespace": "default",
+    "name": "0182f410-a686-79ed-23a5-ac8c62acbf51",
+    "backendId": "0182f410-a686-79ed-23a5-ac8c62acbf51",
+    "location": {
+        "address": "0x62d365e68fc55845ba904acef688feba7a598c9c"
+    },
+    "created": "2022-08-31T13:21:48.1687995Z",
+    "event": {
+        "name": "Changed",
+        "description": "",
+        "params": [
+            {
+                "name": "from",
+                "schema": {
+                    "type": "string",
+                    "details": {
+                        "type": "address",
+                        "internalType": "address",
+                        "indexed": true
+                    }
+                }
+            },
+            {
+                "name": "value",
+                "schema": {
+                    "type": "integer",
+                    "details": {
+                        "type": "uint256",
+                        "internalType": "uint256"
+                    }
+                }
+            }
+        ]
+    },
+    "signature": "Changed(address,uint256)",
+    "topic": "bsc",
+    "options": {
+        "firstEvent": "oldest"
+    },
+    "status": {
+        "checkpoint": {
+            "block": 0,
+            "transactionIndex": -1,
+            "logIndex": -1
+        }
+    }
+}
+```
+
+### Subscriptions
+Subscriptions will provide offset information if available
+
+Example Query: `http://localhost:5000/api/v1/namespaces/default/subscriptions/32cddc74-cc1a-4493-b376-45781e2d8d35?fetchstatus`
+
+Response:
+```
+{
+    "id": "32cddc74-cc1a-4493-b376-45781e2d8d35",
+    "namespace": "default",
+    "name": "simple-storage",
+    "transport": "websockets",
+    "filter": {
+        "message": {},
+        "transaction": {},
+        "blockchainevent": {}
+    },
+    "options": {
+        "firstEvent": "-1",
+        "withData": false
+    },
+    "created": "2022-08-31T17:13:04.295134Z",
+    "updated": null,
+    "status": {
+        "currentOffset": 31
+    }
+}
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-31 17:53:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1027" class=".btn">#1027</a>
+            </td>
+            <td>
+                <b>
+                    Use advisory lock instead of exclusive lock on events table
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Advisory locks are identified with a 64-bit integer, so I've put in place a
+rudimentary mapping from namespace names to a (probably) unique int64.
+This should ensure consistent ordering for the writes to the events table
+within a particular namespace, without blocking reads or other namespaces.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-31 17:39:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1026" class=".btn">#1026</a>
+            </td>
+            <td>
+                <b>
+                    Allow null signer on transfers to account for non-archive indexing of historical transactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1023 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-31 13:21:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1022" class=".btn">#1022</a>
             </td>
             <td>
@@ -372,34 +543,6 @@ and we'd see DX error with:
     </table>
     <div class="right-align">
         Created At 2022-08-24 18:58:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1002" class=".btn">#1002</a>
-            </td>
-            <td>
-                <b>
-                    Add tool for auditing blockchain event order
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an alternative to #998, written in Go rather than bash.
-
-Not sure where we should put scripts if we keep adding them... do we just keep adding root level folders like this?
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-24 15:35:36 +0000 UTC
     </div>
 </div>
 

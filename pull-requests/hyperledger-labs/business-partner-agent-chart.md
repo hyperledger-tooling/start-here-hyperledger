@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/60" class=".btn">#60</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/61" class=".btn">#61</a>
             </td>
             <td>
                 <b>
-                    bpa logger overwrite
+                    use websocket for aca-py events instead of webhook
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
                 
             </td>
             <td>
-                added the possibility to overwrite the log4j2 logging config via values file
+                latest bpa image with performance fixes and switch to websocket
 
 Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-24 10:58:52 +0000 UTC
+        Created At 2022-08-31 15:41:20 +0000 UTC
     </div>
 </div>
 

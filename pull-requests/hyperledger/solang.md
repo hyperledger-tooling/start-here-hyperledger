@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/996" class=".btn">#996</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/998" class=".btn">#998</a>
             </td>
             <td>
                 <b>
-                    Create 'solana-library' folder
+                    Use solang's heap implementation on Solana
                 </b>
             </td>
         </tr>
@@ -27,7 +27,37 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                This PR creates a `solana-library` folder to hold all the libraries we implement for Solana. Currently, it contains only the SPL-token integration, but it is going to have the System Instruction library soon (to be added in another PR).
+                As of Solana v1.11, `sol_alloc_free_` system call is no longer available. This means that programs are expected to provide their own heap impl.
+
+Also enable `push()` and `pop()` for memory arrays on Solana.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-31 12:46:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/996" class=".btn">#996</a>
+            </td>
+            <td>
+                <b>
+                    Create Solana's System Instruction library and 'solana-library' folder
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds to our repository a library for Solana's system instructions. They allow developers to create accounts, transfer funds and assign authorities to accounts. Creating accounts is an essential part of an NFT example on Solana created entirely with Solidity.
+
+In addition, this PR creates a `solana-library` folder to hold all the libraries we implement for Solana.
             </td>
         </tr>
     </table>
