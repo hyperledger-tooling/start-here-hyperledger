@@ -207,31 +207,3 @@ Removes the "hard" verification on un-revealed attributes and adds "verify_msgs"
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1912" class=".btn">#1912</a>
-            </td>
-            <td>
-                <b>
-                    fix: incorrect response schema for discover features
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Small change that won't really affect anything but OpenAPI json and client generators.
-
-The query features endpoint returns the discovery record directly rather than nesting it in a `results` attribute.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-23 19:13:16 +0000 UTC
-    </div>
-</div>
-

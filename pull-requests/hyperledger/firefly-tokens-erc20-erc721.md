@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/83" class=".btn">#83</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/84" class=".btn">#84</a>
             </td>
             <td>
                 <b>
-                    Port eventstream changes from erc1155
+                    Fix url manipulation
                 </b>
             </td>
         </tr>
@@ -27,14 +27,16 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
                 
             </td>
             <td>
-                Mostly a port of https://github.com/hyperledger/firefly-tokens-erc1155/pull/94
+                Equivalent of https://github.com/hyperledger/firefly-tokens-erc1155/pull/91
 
-Note that stream names in this repo do not contain a reference to the contract address, as they do in ERC1155. In the case of this connector, there are actually many different contracts (one optional factory and many deployed instances) - so it may be more difficult to detect if one changed. I've left the stream naming unchanged in this PR, just ported the slightly altered event stream logic.
+Fixing errors caused by URL manipulation logic described in https://github.com/hyperledger/firefly-tokens-erc1155/issues/53
+
+Signed-off-by: Chengxuan Xing <chengxuan.xing@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-23 20:05:18 +0000 UTC
+        Created At 2022-08-30 18:37:29 +0000 UTC
     </div>
 </div>
 

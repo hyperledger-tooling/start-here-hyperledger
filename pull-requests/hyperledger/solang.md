@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/996" class=".btn">#996</a>
+            </td>
+            <td>
+                <b>
+                    Create 'solana-library' folder
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR creates a `solana-library` folder to hold all the libraries we implement for Solana. Currently, it contains only the SPL-token integration, but it is going to have the System Instruction library soon (to be added in another PR).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-30 19:08:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/994" class=".btn">#994</a>
             </td>
             <td>
@@ -172,32 +198,6 @@ For arrays (strings and bytes included) bincode encodes lengths in `u64`, so bor
     </table>
     <div class="right-align">
         Created At 2022-08-25 19:31:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/985" class=".btn">#985</a>
-            </td>
-            <td>
-                <b>
-                    Generate solidity interface from Anchor IDL files so that anchor contracts can be called
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-23 18:59:45 +0000 UTC
     </div>
 </div>
 

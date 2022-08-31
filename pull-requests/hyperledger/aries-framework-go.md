@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3360" class=".btn">#3360</a>
+            </td>
+            <td>
+                <b>
+                    feat: Change Credential Fulfillment name to Credential Response
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+
+closes #3358 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-30 18:48:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3357" class=".btn">#3357</a>
             </td>
             <td>
@@ -250,32 +280,6 @@ Included the next actions:
     </table>
     <div class="right-align">
         Created At 2022-08-24 09:53:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3345" class=".btn">#3345</a>
-            </td>
-            <td>
-                <b>
-                    feat: wallet.Issue supports jwtvc, verifiable.Credential can hold a jwtvc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-23 19:13:12 +0000 UTC
     </div>
 </div>
 

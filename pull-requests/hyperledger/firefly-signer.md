@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/firefly-signer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-signer/pull/23" class=".btn">#23</a>
+            </td>
+            <td>
+                <b>
+                    Update info logging to include method and time
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                See https://github.com/hyperledger/firefly-evmconnect/issues/26
+
+So we have logs like this if only INFO logging is enabled:
+```
+RPC[2->000012346] <-- eth_getTransactionByHash [200] OK (1.43ms)
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-31 02:09:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-signer/pull/22" class=".btn">#22</a>
             </td>
             <td>
@@ -106,32 +137,6 @@ confirmed this works as a fix as part of testing https://github.com/hyperledger/
     </table>
     <div class="right-align">
         Created At 2022-08-25 03:29:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-signer/pull/19" class=".btn">#19</a>
-            </td>
-            <td>
-                <b>
-                    Move RPC Client code to shared package
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                We had some duplicated code between `firefly-evmconnect` and `firefly-signer`. This PR moves the updated RPC error handling and logging from evmconnect into signer, and exposes it as a shared package. I'm about to open a subsequent PR for evmconnect that uses this package so there is one place this code exists now instead of two.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-23 19:36:39 +0000 UTC
     </div>
 </div>
 

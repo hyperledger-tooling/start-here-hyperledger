@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1022" class=".btn">#1022</a>
+            </td>
+            <td>
+                <b>
+                    [identity-tutorial] identity tutorial
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Tutorial to guide user through creating a Custom Identity in FireFly.
+
+References https://github.com/hyperledger/firefly/issues/621
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-30 19:10:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1021" class=".btn">#1021</a>
+            </td>
+            <td>
+                <b>
+                    Allow any plugin to terminate the system on a bad event
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Terminating the system is better than leaving it up in a crippled state.
+
+Closes #957
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-30 18:52:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1019" class=".btn">#1019</a>
             </td>
             <td>
@@ -344,84 +400,6 @@ Not sure where we should put scripts if we keep adding them... do we just keep a
     </table>
     <div class="right-align">
         Created At 2022-08-24 15:35:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1001" class=".btn">#1001</a>
-            </td>
-            <td>
-                <b>
-                    Update CLI to v1.1.0-rc.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also adds two evmconnect configurations to the test matrix
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-24 00:51:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1000" class=".btn">#1000</a>
-            </td>
-            <td>
-                <b>
-                    Manifest updates for v1.1.0-rc.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Peter Broadhurst <peter.broadhurst@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-23 21:39:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/999" class=".btn">#999</a>
-            </td>
-            <td>
-                <b>
-                    Do not rely on "topic" to be present in event streams
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-23 20:59:19 +0000 UTC
     </div>
 </div>
 

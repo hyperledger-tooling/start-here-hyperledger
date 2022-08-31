@@ -202,32 +202,3 @@ Closes #121
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/124" class=".btn">#124</a>
-            </td>
-            <td>
-                <b>
-                    [docs] Add a snippet downloader, Vue component, pre-build step and CI integration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR introduces the current state of a snippet downloader.
-
-I'll be very interested in a review, although I see fixing the possibility of builds running after a broken pre-build step a priority.
-I also would have to patch the parser to collect the examples not only by names, but also by the groups.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-23 19:22:41 +0000 UTC
-    </div>
-</div>
-
