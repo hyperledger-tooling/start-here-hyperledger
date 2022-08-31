@@ -151,29 +151,3 @@ Signed-off-by: Ariel Gentile <gentilester@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/990" class=".btn">#990</a>
-            </td>
-            <td>
-                <b>
-                    fix: expose oob domain
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-24 07:00:25 +0000 UTC
-    </div>
-</div>
-

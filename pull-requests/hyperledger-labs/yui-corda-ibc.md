@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/40" class=".btn">#40</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/42" class=".btn">#42</a>
             </td>
             <td>
                 <b>
-                    add option '-buildvcs=false' for go build
+                    move go.mod and go.sum to the root directory
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
                 
             </td>
             <td>
-                Signed-off-by: Masanori Yoshida <masanori.yoshida@datachain.jp>
+                Signed-off-by: Toshihiko Okubo <toshihiko.okubo@datachain.jp>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-24 09:29:00 +0000 UTC
+        Created At 2022-08-31 07:29:28 +0000 UTC
     </div>
 </div>
 

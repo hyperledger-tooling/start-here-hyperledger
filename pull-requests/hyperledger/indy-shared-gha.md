@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-shared-gha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-shared-gha/pull/15" class=".btn">#15</a>
+                PR <a href="https://github.com/hyperledger/indy-shared-gha/pull/16" class=".btn">#16</a>
             </td>
             <td>
                 <b>
-                    included sovrinrepo checking and corrected version for subactions
+                    generalized artifactory deb upload
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-shared-gha
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: pSchlarb <p.schlarb@esatus.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-11 13:57:16 +0000 UTC
+        Created At 2022-08-31 11:24:39 +0000 UTC
     </div>
 </div>
 
