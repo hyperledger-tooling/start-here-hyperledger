@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/74" class=".btn">#74</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/75" class=".btn">#75</a>
             </td>
             <td>
                 <b>
-                    update ibc-go to v4.0.0
+                    update README
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
                 
             </td>
             <td>
-                implement #73
-
-This PR should be merged after release v1(#69) 
-
-Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
+                Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-08 09:38:31 +0000 UTC
+        Created At 2022-08-31 05:28:55 +0000 UTC
     </div>
 </div>
 
