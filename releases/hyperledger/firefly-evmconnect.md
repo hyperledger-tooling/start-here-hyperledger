@@ -15,6 +15,43 @@ permalink: /releases/hyperledger/firefly-evmconnect
         <tr>
             <td colspan="2">
                 <b>
+                    v1.1.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v1.1.4
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Update firefly-signer to v0.9.18 by @nguyer in https://github.com/hyperledger/firefly-evmconnect/pull/22
+* Allow requesting of looking up the signer, separate from an array of methods by @peterbroadhurst in https://github.com/hyperledger/firefly-evmconnect/pull/24
+* surface `ErrorNotFound` in get_block_info by @shorsher in https://github.com/hyperledger/firefly-evmconnect/pull/21
+* Do not uninstall empty filters by @peterbroadhurst in https://github.com/hyperledger/firefly-evmconnect/pull/25
+* Update to firefly-signer v0.9.19 by @nguyer in https://github.com/hyperledger/firefly-evmconnect/pull/27
+* Add contract address to filter for catchup by @nguyer in https://github.com/hyperledger/firefly-evmconnect/pull/28
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-evmconnect/compare/v1.1.3...v1.1.4
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-evmconnect/releases/tag/v1.1.4" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-08-31 20:50:30 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v1.1.3
                 </b>
             </td>
@@ -41,41 +78,6 @@ permalink: /releases/hyperledger/firefly-evmconnect
     </a>
     <span class="right-align">
         Created At 2022-08-26 01:37:21 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v1.1.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v1.1.2
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* Use shared RPC client from firefly-signer library by @nguyer in https://github.com/hyperledger/firefly-evmconnect/pull/17
-* fftm version 0.9.8 by @shorsher in https://github.com/hyperledger/firefly-evmconnect/pull/18
-
-## New Contributors
-* @nguyer made their first contribution in https://github.com/hyperledger/firefly-evmconnect/pull/17
-
-**Full Changelog**: https://github.com/hyperledger/firefly-evmconnect/compare/v1.1.1...v1.1.2
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly-evmconnect/releases/tag/v1.1.2" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-08-24 23:43:49 +0000 UTC
     </span>
 </div>
 
