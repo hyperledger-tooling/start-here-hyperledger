@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/999" class=".btn">#999</a>
+            </td>
+            <td>
+                <b>
+                    Substrate: concrete contracts must have public or external functions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">substrate</span>
+            </td>
+            <td>
+                In `ink!`, any contract must have at least one public message. This PR aligns solangs behavior up with `ink!`. It is a precondition for making #989 happen.
+
+A public function is in a contract, if it has `public` or `external` functions, if it has a `receive` or any fallback function or if it has public storage items (those will yield public getters). A new bool flag was added to the `Contract` struct in the `sema` AST to reflect that (otherwise we need to loop through all contract functions anywhere we want to check it).
+ 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-01 12:11:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/998" class=".btn">#998</a>
             </td>
             <td>

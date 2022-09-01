@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/375" class=".btn">#375</a>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/376" class=".btn">#376</a>
             </td>
             <td>
                 <b>
-                    Abstract virtual channel test
+                    Fix NewClients
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/go-perun
                 
             </td>
             <td>
-                This makes the test reusable for different backends.
+                Use correct identity.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-19 14:33:09 +0000 UTC
+        Created At 2022-09-01 11:09:44 +0000 UTC
     </div>
 </div>
 

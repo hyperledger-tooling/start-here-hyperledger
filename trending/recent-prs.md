@@ -1,13 +1,13 @@
 
-[558](https://github.com/hyperledger/aries-agent-test-harness/pull/558) Changes by create-pull-request action
+[999](https://github.com/hyperledger/solang/pull/999) Substrate: concrete contracts must have public or external functions
 
-[229](https://github.com/hyperledger/firefly-ethconnect/pull/229) Remove early FFCAPI implementation not it is replaced by EVMConnect
+[85](https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/85) Fixing Health Check to Work w/ EVMConnect
 
-[4336](https://github.com/hyperledger/besu/pull/4336) Feature/tx sender future nonce limits
+[376](https://github.com/hyperledger-labs/go-perun/pull/376) Fix NewClients
 
-[148](https://github.com/hyperledger/iroha-2-docs/pull/148) [docs] #85: Add UML diagrams, create a new chapter about objects
+[1003](https://github.com/hyperledger/aries-framework-javascript/pull/1003) fix: unable to resolve nodejs document loader in react native runtime environment
 
-[228](https://github.com/hyperledger/firefly-ethconnect/pull/228) Two phase init was not passing smartContractGW to receipt store
+[3621](https://github.com/hyperledger/fabric/pull/3621) Orderer v3: remove kafka from shared config
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
