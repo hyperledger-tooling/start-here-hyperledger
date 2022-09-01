@@ -15,30 +15,63 @@ permalink: /releases/hyperledger/firefly-ethconnect
         <tr>
             <td colspan="2">
                 <b>
-                    v3.2.4
+                    v3.2.6
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v3.2.4
+                    v3.2.6
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Do not require the filter id to be numeric by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/224
+* Two phase init was not passing smartContractGW to receipt store by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/228
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.2.3...v3.2.4
+**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.2.5...v3.2.6
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.2.4" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.2.6" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-07-13 21:40:28 +0000 UTC
+        Created At 2022-09-01 03:53:40 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    v3.2.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v3.2.5
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Fix potential deadlock broadcasting to a closed WS connection by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/226
+* Add additional idempotence check to cover Kafka server restart, while EthConnect stays running by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/227
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.2.4...v3.2.5
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.2.5" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-08-31 15:26:26 +0000 UTC
     </span>
 </div>
 
