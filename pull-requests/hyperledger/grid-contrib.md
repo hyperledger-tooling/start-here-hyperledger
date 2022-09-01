@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid-contrib
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-contrib/pull/31" class=".btn">#31</a>
+                PR <a href="https://github.com/hyperledger/grid-contrib/pull/32" class=".btn">#32</a>
             </td>
             <td>
                 <b>
-                    Add Hyperledger code of conduct
+                    Remove RocketChat
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/grid-contrib
                 
             </td>
             <td>
-                Required as a part of the Hyperledger common repo structure
-
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-28 18:34:41 +0000 UTC
+        Created At 2022-09-01 16:20:40 +0000 UTC
     </div>
 </div>
 

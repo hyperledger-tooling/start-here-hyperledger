@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/grid/pull/1468" class=".btn">#1468</a>
+            </td>
+            <td>
+                <b>
+                    Remove RocketChat
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport-triage</span><span class="chip">main</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-01 16:20:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/grid/pull/1467" class=".btn">#1467</a>
             </td>
             <td>

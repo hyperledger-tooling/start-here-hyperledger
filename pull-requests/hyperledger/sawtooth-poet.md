@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-poet
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-poet/pull/63" class=".btn">#63</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-poet/pull/64" class=".btn">#64</a>
             </td>
             <td>
                 <b>
-                    Uncommit docs
+                    Remove RocketChat
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-poet
                 
             </td>
             <td>
-                Sawtooth docs content has been moved into the sawtooth-docs repo at
-https://github.com/hyperledger/sawtooth-docs
-
-Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-02 20:13:20 +0000 UTC
+        Created At 2022-09-01 16:25:54 +0000 UTC
     </div>
 </div>
 

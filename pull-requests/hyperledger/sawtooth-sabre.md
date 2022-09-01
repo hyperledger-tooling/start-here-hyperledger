@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/195" class=".btn">#195</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/196" class=".btn">#196</a>
             </td>
             <td>
                 <b>
-                    Backport 0-5: Fix lint introduced with Rust 1.63
+                    Remove RocketChat
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-25 16:18:54 +0000 UTC
+        Created At 2022-09-01 16:26:28 +0000 UTC
     </div>
 </div>
 

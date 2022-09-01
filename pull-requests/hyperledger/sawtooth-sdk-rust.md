@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-rust
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-rust/pull/79" class=".btn">#79</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-rust/pull/81" class=".btn">#81</a>
             </td>
             <td>
                 <b>
-                    Fix "needless_late_init" Clippy lint
+                    Remove RocketChat
                 </b>
             </td>
         </tr>
@@ -27,19 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-rust
                 
             </td>
             <td>
-                This lint was introduced in 1.59v of Rust
-
-Checks for late initializations that can be replaced by
-a let statement with an initializer.
-
-Assigning in the let statement is less repetitive.
-
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-03-03 21:59:26 +0000 UTC
+        Created At 2022-09-01 16:30:47 +0000 UTC
     </div>
 </div>
 

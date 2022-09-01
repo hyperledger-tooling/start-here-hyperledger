@@ -89,34 +89,3 @@ Updated softhsm setup script to add support for mac
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/375" class=".btn">#375</a>
-            </td>
-            <td>
-                <b>
-                    fabric-sdk: do not add resolvers for Fabric peers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span><span class="chip">cleanup</span>
-            </td>
-            <td>
-                This PR updates NWO to remove from the resolvers references to Fabric peers.
-The FPC integration was relaying in these resolvers. To fix this, the PR updates the FPC integration to leverage Fabric Discovery.
-
-In addition, a flaky unit-test has been disabled.
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-25 12:41:05 +0000 UTC
-    </div>
-</div>
-

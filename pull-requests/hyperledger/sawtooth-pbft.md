@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-pbft
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-pbft/pull/185" class=".btn">#185</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-pbft/pull/186" class=".btn">#186</a>
             </td>
             <td>
                 <b>
-                    Fix derive_partial_eq_without_eq Clippy error
+                    Remove RocketChat
                 </b>
             </td>
         </tr>
@@ -27,19 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-pbft
                 
             </td>
             <td>
-                Fixes a clippy error introduced in Rust 1.63
-
-If a type T derives PartialEq and all of its members implement
-Eq, then T can always implement Eq. Implementing Eq allows T to be
-used in APIs that require Eq types. It also allows structs
-containing T to derive Eq themselves.
-
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-24 20:07:38 +0000 UTC
+        Created At 2022-09-01 16:25:43 +0000 UTC
     </div>
 </div>
 

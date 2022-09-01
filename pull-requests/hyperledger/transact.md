@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/372" class=".btn">#372</a>
+                PR <a href="https://github.com/hyperledger/transact/pull/373" class=".btn">#373</a>
             </td>
             <td>
                 <b>
-                    Backport rust 1.63 lint
+                    Remove RocketChat
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/transact
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-22 16:09:45 +0000 UTC
+        Created At 2022-09-01 16:31:28 +0000 UTC
     </div>
 </div>
 

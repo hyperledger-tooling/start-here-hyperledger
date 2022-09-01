@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/483" class=".btn">#483</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/484" class=".btn">#484</a>
             </td>
             <td>
                 <b>
-                    Implement API to upload node config file
+                    Remove RocketChat
                 </b>
             </td>
         </tr>
@@ -27,18 +27,12 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                Enable to post and update config file through the api:
-http://127.0.0.1:8080/api/v1/nodes/:node_id/config
-
-orderer.yaml or core.yaml can be uploaded.
-The corresponding yaml, zip files and database field will be updated.
-
-Signed-off-by: Xichen Pan <xichen.pan@gmail.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-25 03:28:24 +0000 UTC
+        Created At 2022-09-01 16:20:30 +0000 UTC
     </div>
 </div>
 

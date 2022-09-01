@@ -1,13 +1,13 @@
 
-[999](https://github.com/hyperledger/solang/pull/999) Substrate: concrete contracts must have public or external functions
+[428](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/428) feat: update biometry os prompt
 
-[85](https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/85) Fixing Health Check to Work w/ EVMConnect
+[1035](https://github.com/hyperledger/firefly/pull/1035) remove legacy namespace query for organizations
 
-[376](https://github.com/hyperledger-labs/go-perun/pull/376) Fix NewClients
+[1034](https://github.com/hyperledger/firefly/pull/1034) Routes to directly publish blob/JSON data to shared storage (IFPS etc.)
 
-[1003](https://github.com/hyperledger/aries-framework-javascript/pull/1003) fix: unable to resolve nodejs document loader in react native runtime environment
+[23](https://github.com/hyperledger/transact-sdk-javascript/pull/23) Remove RocketChat
 
-[3621](https://github.com/hyperledger/fabric/pull/3621) Orderer v3: remove kafka from shared config
+[8](https://github.com/hyperledger/transact-sdk-go/pull/8) Remove RocketChat
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
