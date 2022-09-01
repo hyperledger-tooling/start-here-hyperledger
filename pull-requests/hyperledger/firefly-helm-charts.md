@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
             </td>
             <td>
                 <b>
-                    Add default Prometheus Rule to alert off Firefly core metrics
+                    [o11y] Add default Prometheus Rule to alert off Firefly core metrics
                 </b>
             </td>
         </tr>

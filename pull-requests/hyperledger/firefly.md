@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1033" class=".btn">#1033</a>
+            </td>
+            <td>
+                <b>
+                    Update manifest for v1.1.0-rc.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-31 21:50:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1031" class=".btn">#1031</a>
+            </td>
+            <td>
+                <b>
+                    update event docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                in a chain with #1028 
+
+not currently published on my github pages due to hosting another doc changes. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-31 20:37:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1028" class=".btn">#1028</a>
             </td>
             <td>
@@ -27,7 +81,7 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                When add the `fetchstatus` query param when getting `subscriptions` and `listeners` by ID, firefly will return additional status information, if it is available.
+                 If the `fetchstatus` query param is supplied when querying `subscriptions` or `listeners` by ID, firefly will return additional status information, if it is available.
 
 ### Contract listeners:
 FF environments connected to evm connectors will return listener checkpoint formation under the `status` key.
@@ -483,66 +537,6 @@ Open questions not addressed in this PR:
     </table>
     <div class="right-align">
         Created At 2022-08-25 09:43:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1004" class=".btn">#1004</a>
-            </td>
-            <td>
-                <b>
-                    Ensuring Empty List is Provided for FFDX Init on Zero Peer Nodes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                DX's being implemented in languages like Typescript do not treat `null` as a valid, empty JSON array which was causing problems. Core would get a `500` from DX:
-```
-{"@timestamp":"2022-08-24T17:49:59.714Z","breq":"8CWznOwK","dx":"https","level":"debug","message":"==\u003e POST http://firefly-dx.infra.svc:3000/api/v1/init","pid":"1"}
-{"@timestamp":"2022-08-24T17:49:59.720Z","breq":"8CWznOwK","dx":"https","level":"error","message":"\u003c== POST http://firefly-dx.infra.svc:3000/api/v1/init [500] (5.67ms)","pid":"1"}
-```
-and we'd see DX error with:
-```
-2022-08-24T17:49:52.646Z [ERROR]: Unexpected token n in JSON at position 0 lib/request-error.ts
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-24 20:18:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1003" class=".btn">#1003</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade firefly-common to v1.1.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Includes required syntax changes to go with https://github.com/hyperledger/firefly-common/pull/33
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-24 18:58:08 +0000 UTC
     </div>
 </div>
 

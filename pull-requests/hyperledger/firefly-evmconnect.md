@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/28" class=".btn">#28</a>
+            </td>
+            <td>
+                <b>
+                    Add contract address to filter for catchup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-31 19:01:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/27" class=".btn">#27</a>
             </td>
             <td>
@@ -171,32 +197,6 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     </table>
     <div class="right-align">
         Created At 2022-08-25 15:46:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/18" class=".btn">#18</a>
-            </td>
-            <td>
-                <b>
-                    fftm version 0.9.8
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-24 20:17:39 +0000 UTC
     </div>
 </div>
 

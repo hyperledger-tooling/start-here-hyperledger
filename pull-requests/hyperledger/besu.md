@@ -14,6 +14,88 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4335" class=".btn">#4335</a>
+            </td>
+            <td>
+                <b>
+                    4328 quiet cors errors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Open question as to if this is overly broad: This will log the error message for all failed RPC calls, but not the stack trace, unless logging is turned up to debug.
+
+This _seems_ to be the preferred way to do this in Vert.x, but I'm open to solutions that are more narrowly aimed at the CORS handling case.
+
+## PR description
+
+## Fixed Issue(s)
+fixes #4328 
+
+## Documentation
+
+- [X] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-31 20:19:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4334" class=".btn">#4334</a>
+            </td>
+            <td>
+                <b>
+                    Fixing sub logging and moving stack trace to debug.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">logging</span>
+            </td>
+            <td>
+                ## PR description
+PR to change logging for more graceful usage on #4323. To access stack trace, use DEBUG for subscriber. 
+
+## Fixed Issue(s)
+ 
+Fixes #4323 
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-08-31 19:06:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4327" class=".btn">#4327</a>
             </td>
             <td>
@@ -37,7 +119,7 @@ Ensure when besu evicts transactions by sender, that future nonces are evicted f
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
-related to protocol-misc #629
+related to protocol-misc 629
 
 ## Documentation
 
