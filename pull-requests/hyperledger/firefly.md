@@ -27,7 +27,10 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                <nil>
+                - Updates EthConnect, EVMConnect, and FireFly Signer
+- Fixes the tests for EVMConnect:
+   - They were actually running EthConnect (missing env var)
+   - The archive logs weren't distinguished uniquely
             </td>
         </tr>
     </table>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/556" class=".btn">#556</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/558" class=".btn">#558</a>
             </td>
             <td>
                 <b>
-                    Create MAINTAINERS.md
+                    Changes by create-pull-request action
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
                 
             </td>
             <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-23 18:00:59 +0000 UTC
+        Created At 2022-09-01 04:52:08 +0000 UTC
     </div>
 </div>
 
