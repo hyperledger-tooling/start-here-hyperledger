@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3621" class=".btn">#3621</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: remove kafka from shared config
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Yoav Tock <tock@il.ibm.com>
+Change-Id: I1aefd584e0217642c1315544da8eb1e1849ec759
+
+#### Type of change
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Remove kafka brokers from shared config
+
+#### Related issues
+
+Issue: #3513 
+Epic: #3511 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-01 10:52:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3619" class=".btn">#3619</a>
             </td>
             <td>
@@ -355,35 +395,6 @@ Finally, you can contact us on https://mergify.com
     </table>
     <div class="right-align">
         Created At 2022-08-25 12:46:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3607" class=".btn">#3607</a>
-            </td>
-            <td>
-                <b>
-                    Enable more parallel jobs in github actions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Since GitHub actions allows for up to 20 free parallel jobs, this PR assigns some more jobs to the integration tests allowing the longer running tests to run in their own container.  This shaves a few more minutes off the total CI run time.
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-25 08:27:09 +0000 UTC
     </div>
 </div>
 

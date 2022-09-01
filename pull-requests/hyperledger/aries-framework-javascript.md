@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1003" class=".btn">#1003</a>
+            </td>
+            <td>
+                <b>
+                    fix: unable to resolve nodejs document loader in react native runtime environment
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Should fix #993 by conditionally importing the XHR and NodeJS document loaders, based on the runtime environment.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-01 11:03:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1001" class=".btn">#1001</a>
             </td>
             <td>

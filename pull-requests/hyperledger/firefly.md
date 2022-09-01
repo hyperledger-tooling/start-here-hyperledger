@@ -515,31 +515,3 @@ Open questions not addressed in this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1005" class=".btn">#1005</a>
-            </td>
-            <td>
-                <b>
-                    Create a centralised cache manager
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Create a centralised cache manager as described in #943 
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-25 09:43:31 +0000 UTC
-    </div>
-</div>
-
