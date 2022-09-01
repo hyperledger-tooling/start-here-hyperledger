@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                <nil>
+                This avoids having a confusingly blank `revoc_reg_id` on the record in the `init` state.
+
+Registries in the `init` state are also filtered from the `/revocation/registries/created` endpoint.
             </td>
         </tr>
     </table>
