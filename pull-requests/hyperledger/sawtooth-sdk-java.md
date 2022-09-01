@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-java/pull/48" class=".btn">#48</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-java/pull/49" class=".btn">#49</a>
             </td>
             <td>
                 <b>
-                    Update protobuf version
+                    Remove RocketChat
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-java
                 
             </td>
             <td>
-                This change updates the protobuf version to the latest as of the time of this commit.
-
-This replaces PR's #44 and #45
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-19 15:43:02 +0000 UTC
+        Created At 2022-09-01 16:27:09 +0000 UTC
     </div>
 </div>
 

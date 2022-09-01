@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/transact-sdk-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact-sdk-javascript/pull/22" class=".btn">#22</a>
+                PR <a href="https://github.com/hyperledger/transact-sdk-javascript/pull/23" class=".btn">#23</a>
             </td>
             <td>
                 <b>
-                    Add Hyperledger code of conduct
+                    Remove RocketChat
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/transact-sdk-javascript
                 
             </td>
             <td>
-                Required as a part of the Hyperledger common repo structure
-
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-28 18:58:33 +0000 UTC
+        Created At 2022-09-01 16:31:54 +0000 UTC
     </div>
 </div>
 

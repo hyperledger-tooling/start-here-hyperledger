@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-cxx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-cxx/pull/30" class=".btn">#30</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-cxx/pull/31" class=".btn">#31</a>
             </td>
             <td>
                 <b>
-                    Add Hyperledger code of conduct
+                    Remove RocketChat
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-cxx
                 
             </td>
             <td>
-                Required as a part of the Hyperledger common repo structure
-
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-28 18:10:56 +0000 UTC
+        Created At 2022-09-01 16:26:38 +0000 UTC
     </div>
 </div>
 

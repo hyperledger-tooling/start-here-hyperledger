@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-python/pull/38" class=".btn">#38</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-python/pull/39" class=".btn">#39</a>
             </td>
             <td>
                 <b>
-                    Add 1.2.5 release notes
+                    Remove RocketChat
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-python
                 
             </td>
             <td>
-                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-27 14:06:53 +0000 UTC
+        Created At 2022-09-01 16:30:22 +0000 UTC
     </div>
 </div>
 

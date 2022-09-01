@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/transact-contrib
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact-contrib/pull/6" class=".btn">#6</a>
+                PR <a href="https://github.com/hyperledger/transact-contrib/pull/7" class=".btn">#7</a>
             </td>
             <td>
                 <b>
-                    Add Hyperledger code of conduct
+                    Remove RocketChat
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/transact-contrib
                 
             </td>
             <td>
-                Required as a part of the Hyperledger common repo structure
-
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-28 18:53:41 +0000 UTC
+        Created At 2022-09-01 16:31:37 +0000 UTC
     </div>
 </div>
 

@@ -174,29 +174,3 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/19" class=".btn">#19</a>
-            </td>
-            <td>
-                <b>
-                    Latest ffsigner and fftm
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                See https://github.com/hyperledger/firefly-signer/pull/20
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-25 15:46:08 +0000 UTC
-    </div>
-</div>
-

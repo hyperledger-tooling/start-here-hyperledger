@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/transact-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact-sdk-go/pull/7" class=".btn">#7</a>
+                PR <a href="https://github.com/hyperledger/transact-sdk-go/pull/8" class=".btn">#8</a>
             </td>
             <td>
                 <b>
-                    Add Hyperledger code of conduct
+                    Remove RocketChat
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/transact-sdk-go
                 
             </td>
             <td>
-                Required as a part of the Hyperledger common repo structure
-
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-28 18:56:27 +0000 UTC
+        Created At 2022-09-01 16:31:46 +0000 UTC
     </div>
 </div>
 

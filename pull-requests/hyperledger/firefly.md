@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1035" class=".btn">#1035</a>
+            </td>
+            <td>
+                <b>
+                    remove legacy namespace query for organizations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                closes #1032 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-01 17:15:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1034" class=".btn">#1034</a>
+            </td>
+            <td>
+                <b>
+                    Routes to directly publish blob/JSON data to shared storage (IFPS etc.)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A small extension to external API routes, that let you initiate uploads through your public storage plugin directly.
+
+Unlike with the full on-chain/off-chain orchestration capabilities, no modification is made to the data, and no batching happens.
+
+So this is the feature you would use for example to publish the metadata+binary of an NFT.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-01 17:05:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1033" class=".btn">#1033</a>
             </td>
             <td>
@@ -480,38 +536,6 @@ in a chain with #966
     </table>
     <div class="right-align">
         Created At 2022-08-26 16:39:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1006" class=".btn">#1006</a>
-            </td>
-            <td>
-                <b>
-                    Verify integrity of group for private messages
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This extends the verification of off-chain node identities to not only verify that the sender's DX node is properly related to the message author identity, but _also_ that the private message group contains a member corresponding to that combination of node+identity.
-
-For pinned messages, this verification is now all deferred to the aggregator. For unpinned, this verification continues to be inline on the DX callback.
-
-Open questions not addressed in this PR:
-- should we be caching group lookups?
-- should we validate that the _batch_ group and author match the _message_ group and author?
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-25 14:02:24 +0000 UTC
     </div>
 </div>
 

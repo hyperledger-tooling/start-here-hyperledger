@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-javascript/pull/28" class=".btn">#28</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-javascript/pull/31" class=".btn">#31</a>
             </td>
             <td>
                 <b>
-                    Add 1.1.2 release notes
+                    Remove RocketChat
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-javascript
                 
             </td>
             <td>
-                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-24 21:22:00 +0000 UTC
+        Created At 2022-09-01 16:30:12 +0000 UTC
     </div>
 </div>
 

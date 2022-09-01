@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-swift
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-swift/pull/15" class=".btn">#15</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-swift/pull/16" class=".btn">#16</a>
             </td>
             <td>
                 <b>
-                    Add Hyperledger code of conduct
+                    Remove RocketChat
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-swift
                 
             </td>
             <td>
-                Required as a part of the Hyperledger common repo structure
-
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-28 18:17:50 +0000 UTC
+        Created At 2022-09-01 16:31:01 +0000 UTC
     </div>
 </div>
 

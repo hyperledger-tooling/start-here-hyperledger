@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/191" class=".btn">#191</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/194" class=".btn">#194</a>
             </td>
             <td>
                 <b>
-                    Add search functionality
+                    Remove RocketChat
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
                 
             </td>
             <td>
-                Signed-off-by: Ryan Beck-Buysse <rbuysse@bitwise.io>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-28 18:27:22 +0000 UTC
+        Created At 2022-09-01 16:21:05 +0000 UTC
     </div>
 </div>
 

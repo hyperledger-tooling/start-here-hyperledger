@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-rfcs/pull/53" class=".btn">#53</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-rfcs/pull/54" class=".btn">#54</a>
             </td>
             <td>
                 <b>
-                    Add Hyperledger code of conduct
+                    Remove RocketChat
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-rfcs
                 
             </td>
             <td>
-                Required as a part of the Hyperledger common repo structure
-
-Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-01-28 18:05:28 +0000 UTC
+        Created At 2022-09-01 16:26:20 +0000 UTC
     </div>
 </div>
 
