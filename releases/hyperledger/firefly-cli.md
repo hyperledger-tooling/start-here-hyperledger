@@ -15,32 +15,30 @@ permalink: /releases/hyperledger/firefly-cli
         <tr>
             <td colspan="2">
                 <b>
-                    v1.1.0-rc.1
+                    v1.1.0-rc.2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.1.0-rc.1
+                    v1.1.0-rc.2
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Restore camelCase key names by @awrichar in https://github.com/hyperledger/firefly-cli/pull/205
-* Fixes for ERC-1155 with evmconnect by @nguyer in https://github.com/hyperledger/firefly-cli/pull/204
-* Skip creation of IPFS and DX when multiparty is disabled by @nguyer in https://github.com/hyperledger/firefly-cli/pull/202
+* Add firefly-signer to manifest by @nguyer in https://github.com/hyperledger/firefly-cli/pull/206
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-cli/compare/v1.1.0-alpha.4...v1.1.0-rc.1
+**Full Changelog**: https://github.com/hyperledger/firefly-cli/compare/v1.1.0-rc.1...v1.1.0-rc.2
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-cli/releases/tag/v1.1.0-rc.1" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-cli/releases/tag/v1.1.0-rc.2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-08-24 00:32:45 +0000 UTC
+        Created At 2022-08-29 20:43:49 +0000 UTC
     </span>
 </div>
 
