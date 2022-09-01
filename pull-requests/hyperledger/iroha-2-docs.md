@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/148" class=".btn">#148</a>
+            </td>
+            <td>
+                <b>
+                    [docs] #85: Add UML diagrams, create a new chapter about objects
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+
+- a new chapter that covers the info about objects in a blockchain
+- UML diagrams with the hierarchy (I've only added a couple, not covering everything in the hierarchy yet. This is just to make sure this is the right format)
+- the topic on metadata from the advanced section was moved to this new chapter
+- a separate topic with the info about assets was created within this same chapter (that info used to be copy-pasted between lang-specific guides)
+- minor changes in the topic on permissions
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-01 03:11:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/147" class=".btn">#147</a>
             </td>
             <td>
@@ -222,35 +254,6 @@ Closes #127
     </table>
     <div class="right-align">
         Created At 2022-08-26 05:14:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/126" class=".btn">#126</a>
-            </td>
-            <td>
-                <b>
-                    [docs] #121, #125: Update JS guide
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-Closes #125
-Closes #121  
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-25 04:31:25 +0000 UTC
     </div>
 </div>
 
