@@ -232,31 +232,3 @@ currently relies on unmerged branched of scale-info, ink_metadata.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/987" class=".btn">#987</a>
-            </td>
-            <td>
-                <b>
-                    Create 'writeString' and 'writeBytes'
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR creates `writeStringData` and `writeBytesData` functions that write only the contents of strings and bytes arrays into a buffer. They are useful for using bincode when creating a library for System Instructions on Solana.
-
-For arrays (strings and bytes included) bincode encodes lengths in `u64`, so borsh encoding cannot be used for this case.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-25 19:31:05 +0000 UTC
-    </div>
-</div>
-
