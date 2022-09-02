@@ -31,9 +31,9 @@ permalink: /pull-requests/hyperledger/besu
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-Adds cli parameter to limit concurrent/future transactions per sender.
+Adds cli configuration parameter and default value to limit concurrent/future transactions per sender in the txpool.  Also changes AbstractPendingTransactionSorter constructor to take a TransactionPoolConfiguration, rather than individual parameters per config item
 
-This PR is based on #4327 , and is in draft until that PR merges.
+
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->

@@ -211,32 +211,3 @@ Fixes https://github.com/hyperledger/aries-framework-go/issues/3349
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3347" class=".btn">#3347</a>
-            </td>
-            <td>
-                <b>
-                    feat: support multi-format VC in presentation exchange
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                closes #3348
-
-Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-25 20:22:56 +0000 UTC
-    </div>
-</div>
-
