@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/352" class=".btn">#352</a>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/353" class=".btn">#353</a>
             </td>
             <td>
                 <b>
-                    Added flag for targeting a desired environment
+                    Error on deploying operator
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger-labs/minifabric
                 
             </td>
             <td>
-                Added flag "-a | --target-environment" that allows users to set their desired development environment. Users can choose either DOCKER, K8SCLASSIC, or K8SOPERATOR. The default environment is docker. 
+                I am not sure why this pr also includes my old changes as they were merged last week or so. Maybe I have done something wrong? 
+
+Anyways, I have added the "deployoperator" operation that downloads and deploys the fabric operator from a remote manifest. A "Failed to get client due to HTTPSConnectionPool" error occurs on deployment. 
+
+For @litong01 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-22 01:49:15 +0000 UTC
+        Created At 2022-09-02 15:48:30 +0000 UTC
     </div>
 </div>
 

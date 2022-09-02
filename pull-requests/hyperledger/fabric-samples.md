@@ -151,33 +151,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/820" class=".btn">#820</a>
-            </td>
-            <td>
-                <b>
-                    Update nano test network
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix minor bugs, and add network.sh script to simplify standing up the network
-
-Note: the updated peerNadmin.sh scripts no longer create or join a channel and now only configure the environment for the relevant peer
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-26 13:57:03 +0000 UTC
-    </div>
-</div>
-

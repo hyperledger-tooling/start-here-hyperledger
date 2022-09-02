@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1038" class=".btn">#1038</a>
+            </td>
+            <td>
+                <b>
+                    [address-resolver-route] POST /verifiers/resolve
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                `POST /api/v1/verifiers/resolve`
+Payload:
+
+```json
+{
+  "type": "ethereum_address",
+  "value": "hd-1-0-3"
+}
+```
+Response
+
+```json
+{
+  "type": "ethereum_address",
+  "value": "0x7301ed0266c954309e62f76749d6c75a32c7c0b1"
+}
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-02 12:49:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1037" class=".btn">#1037</a>
             </td>
             <td>
@@ -647,32 +689,6 @@ in a chain with #966
     </table>
     <div class="right-align">
         Created At 2022-08-29 14:18:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1009" class=".btn">#1009</a>
-            </td>
-            <td>
-                <b>
-                    Ensure new namespaces are up during multi_tenancy test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1008
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-26 16:39:05 +0000 UTC
     </div>
 </div>
 

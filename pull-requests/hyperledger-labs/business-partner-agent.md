@@ -40,39 +40,3 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/819" class=".btn">#819</a>
-            </td>
-            <td>
-                <b>
-                    use websockets for events
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - switched from webhook to websocket for event handling
-- removed webhook handlers and settings
-- added netty native libraries
-- added default values to some rest calls
-- merge revocation status when loading matching credentials only if revocable and not revoked
-
-Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/819"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-26 15:34:28 +0000 UTC
-    </div>
-</div>
-
