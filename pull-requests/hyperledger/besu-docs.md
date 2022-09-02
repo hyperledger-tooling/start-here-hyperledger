@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1151" class=".btn">#1151</a>
+            </td>
+            <td>
+                <b>
+                    Add a new page on understanding some Besu performance metrics.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ameziane H <ameziane.hamlat@consensys.net>
+
+Add a new page on understanding some Besu performance metrics on Hyperledger Besu. This page will updated in the futur to add more metrics.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-02 09:46:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1150" class=".btn">#1150</a>
             </td>
             <td>

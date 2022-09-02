@@ -178,31 +178,3 @@ test cases are semantically derived from the original substrate integration test
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/989" class=".btn">#989</a>
-            </td>
-            <td>
-                <b>
-                    WIP: Feature ink metadata for substrate
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                attempt to generate ink compatible metadata using ink_metadata::InkProject
-currently relies on unmerged branched of scale-info, ink_metadata.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-26 07:35:00 +0000 UTC
-    </div>
-</div>
-
