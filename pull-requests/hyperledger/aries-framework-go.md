@@ -185,29 +185,3 @@ Fixes https://github.com/hyperledger/aries-framework-go/issues/3349
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3350" class=".btn">#3350</a>
-            </td>
-            <td>
-                <b>
-                    feat: wallet Prove supports creating JWT presentations.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-26 18:03:21 +0000 UTC
-    </div>
-</div>
-

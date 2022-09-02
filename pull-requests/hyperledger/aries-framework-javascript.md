@@ -123,29 +123,3 @@ Signed-off-by: Ariel Gentile <gentilester@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/994" class=".btn">#994</a>
-            </td>
-            <td>
-                <b>
-                    feat: connection type
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added a connection type enum to the connection record so that you can filter the connections based on type. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-26 18:03:03 +0000 UTC
-    </div>
-</div>
-
