@@ -206,29 +206,3 @@ currently relies on unmerged branched of scale-info, ink_metadata.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/988" class=".btn">#988</a>
-            </td>
-            <td>
-                <b>
-                    Multiplication overflow detection for integer width > 64 bits
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: salaheldinsoliman <salaheldin_sameh@aucegypt.edu>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-26 03:15:59 +0000 UTC
-    </div>
-</div>
-

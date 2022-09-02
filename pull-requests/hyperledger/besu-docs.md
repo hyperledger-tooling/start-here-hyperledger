@@ -14,76 +14,11 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1148" class=".btn">#1148</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1150" class=".btn">#1150</a>
             </td>
             <td>
                 <b>
-                    clears up some misconception about JWTs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Clarifies the difference between JWTs and the key used to sign and validate them.
-
-Signed-off-by: Justin Florentine <justin+github@florentine.us>
-
-## Impacted parts
-
-<!-- Check the item from the following lists that your PR impacts. You can check multiple boxes. -->
-
-For content changes:
-
-- [X] Documentation content
-- [ ] Documentation page organization
-
-For tool changes:
-
-- [ ] CircleCI workflow
-- [ ] Build and QA tools (for example, lint or vale)
-- [ ] MkDocs templates
-- [ ] MkDocs configuration
-- [ ] Python dependencies
-- [ ] Node dependencies and JavaScript
-- [ ] Read the Docs configuration
-- [ ] GitHub integration
-
-## After creating your PR and tests have finished
-
-Make sure that:
-
-- [ ] You've fixed any issues raised by the tests.
-- [ ] You've [previewed your changes on Read the Docs](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation)
-  and added a [preview link](#preview).
-
-## Preview
-
-<!-- Add the link to preview your changes on Read the Docs.
-
-The link format is "https://hyperledger-besu--{your PR number}.org.readthedocs.build/en/{your PR number}/",
-where {your PR number} is replaced by the number of this PR.
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-25 17:45:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1147" class=".btn">#1147</a>
-            </td>
-            <td>
-                <b>
-                    Add GitHub workflows
+                    Add documentation on jvm heap management
                 </b>
             </td>
         </tr>
@@ -157,7 +92,7 @@ where {your PR number} is replaced by the number of this PR.
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-25 16:53:05 +0000 UTC
+        Created At 2022-09-02 02:17:39 +0000 UTC
     </div>
 </div>
 

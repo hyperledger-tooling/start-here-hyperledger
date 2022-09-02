@@ -1,13 +1,13 @@
 
-[192](https://github.com/hyperledger/firefly-ui/pull/192) add new operation and transaction type
+[264](https://github.com/hyperledger/iroha-java/pull/264) Iroha-261: update to Iroha dev
 
-[29](https://github.com/hyperledger/firefly-evmconnect/pull/29) Lower default catchup page size
+[1925](https://github.com/hyperledger/aries-cloudagent-python/pull/1925) Fix: the type of tails file path to string.
+
+[1037](https://github.com/hyperledger/firefly/pull/1037) Allow gateway init with DX and Shared Storage plugins + /data APIs
+
+[1150](https://github.com/hyperledger/besu-docs/pull/1150) Add documentation on jvm heap management
 
 [1036](https://github.com/hyperledger/firefly/pull/1036) Prevent panic on ff_system namespace for synchronous token pool creation in V1.0 migrated env
-
-[302](https://github.com/hyperledger-labs/fabric-operations-console/pull/302) add link to meetup - remove system channel
-
-[428](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/428) feat: update biometry os prompt
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
