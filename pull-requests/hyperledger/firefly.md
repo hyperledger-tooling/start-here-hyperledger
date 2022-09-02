@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1037" class=".btn">#1037</a>
+            </td>
+            <td>
+                <b>
+                    Allow gateway init with DX and Shared Storage plugins + /data APIs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This allows use of the #1034 data for Gateway scenarios, such as publishing NFT metadata to IPFS.
+
+Note that DX is used for local storage of the blob data only.
+
+I've tried to carefully work through what is enabled:
+- Removing the restriction of what plugins can be configured
+- Determining which plugins/managers are enabled based on the plugins configured
+- Allowing the broadcast manager to initialize without a batch manager, or multiparty
+- Tweak the APIs so all the on-chain/off-chain messaging APIs are only multiparty
+- Enable the data APIs only when the data manager is available
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-02 03:03:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1036" class=".btn">#1036</a>
             </td>
             <td>

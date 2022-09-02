@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1925" class=".btn">#1925</a>
+            </td>
+            <td>
+                <b>
+                    Fix: the type of tails file path to string.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Hi.
+
+This PR corrects the type of tails file path.
+
+`self.tails_local_path` must be a string. However, it was assigned a PosixPath value.
+
+So I got the below error.
+`TypeError: bytes or integer address expected instead of PosixPath instance`
+
+At here.
+https://github.com/hyperledger/indy-shared-rs/blob/main/wrappers/python/indy_credx/bindings.py#L797
+
+Thanks!
+
+Signed-off-by: Ethan Sung <baegjae@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-02 05:05:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1924" class=".btn">#1924</a>
             </td>
             <td>
