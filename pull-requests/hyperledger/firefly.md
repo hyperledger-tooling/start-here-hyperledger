@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1039" class=".btn">#1039</a>
+            </td>
+            <td>
+                <b>
+                    Updates to Home and Understanding FireFly sections
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updated description of what FireFly is on the "Home" page.
+
+Reorganized Understanding FireFly section flow
+
+No changes to any other sections.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-02 19:16:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1038" class=".btn">#1038</a>
             </td>
             <td>

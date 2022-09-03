@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3362" class=".btn">#3362</a>
+            </td>
+            <td>
+                <b>
+                    test: add JWTVC coverage to wallet VC bdd tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also fixes an issue with pEx JWTVC constraint filtering.
+
+Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-02 19:27:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3360" class=".btn">#3360</a>
             </td>
             <td>
@@ -146,42 +174,6 @@ Related to #3301
     </table>
     <div class="right-align">
         Created At 2022-08-29 11:08:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3352" class=".btn">#3352</a>
-            </td>
-            <td>
-                <b>
-                    Clean up connections after websocket close
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Title:**
-Clean up connections after WebSocket close
-
-**Description:**
-Make sure we clean up connections by just going through the map and
-cleaning all the verkeys that match the connection. This is a suboptimal
-solution, but a connection close is not something happening often.
-
-Fixes https://github.com/hyperledger/aries-framework-go/issues/3349
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-26 22:46:39 +0000 UTC
     </div>
 </div>
 
