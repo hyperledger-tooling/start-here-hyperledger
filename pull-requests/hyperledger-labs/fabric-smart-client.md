@@ -63,29 +63,3 @@ Updated softhsm setup script to add support for mac
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/379" class=".btn">#379</a>
-            </td>
-            <td>
-                <b>
-                    fabric-sdk: cleanup ordering connection on failure + retry #377
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span><span class="chip">enhancement</span>
-            </td>
-            <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-27 05:18:28 +0000 UTC
-    </div>
-</div>
-
