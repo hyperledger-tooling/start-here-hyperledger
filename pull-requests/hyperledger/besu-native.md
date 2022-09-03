@@ -62,31 +62,3 @@ permalink: /pull-requests/hyperledger/besu-native
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/76" class=".btn">#76</a>
-            </td>
-            <td>
-                <b>
-                    Add safe submodule directory
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
-
-This fixes the failure on main branch https://github.com/hyperledger/besu-native/runs/8048703867?check_suite_focus=true
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-27 07:41:47 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/757" class=".btn">#757</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/758" class=".btn">#758</a>
             </td>
             <td>
                 <b>
-                    Glossary
+                    [it_IT] Glossary translate Configuration Block, Consensus
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
                 
             </td>
             <td>
-                World State in Glossary edited
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-09 10:23:45 +0000 UTC
+        Created At 2022-09-03 09:22:17 +0000 UTC
     </div>
 </div>
 
