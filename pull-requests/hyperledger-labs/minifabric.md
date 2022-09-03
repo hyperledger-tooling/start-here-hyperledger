@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/minifabric
             </td>
             <td>
                 <b>
-                    New deployoperator operation -- failing
+                    New deployoperator operation
                 </b>
             </td>
         </tr>
