@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/561" class=".btn">#561</a>
+            </td>
+            <td>
+                <b>
+                    New custom agent config for revocation notification
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+
+This PR adds a custom agent config file that enabled revocation notification to be used when AATH agents are used as a service for AMTH.  To use the new config and have your agents notify holders of revocation of their credentials do this, 
+`LEDGER_URL_CONFIG=http://test.bcovrin.vonx.io TAILS_SERVER_URL_CONFIG=https://tails.vonx.io AGENT_CONFIG_FILE=/aries-backchannels/acapy/auto_rev_noti_agent_config.yaml ./manage start -a acapy-main -b acapy-main`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-03 00:06:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/558" class=".btn">#558</a>
             </td>
             <td>

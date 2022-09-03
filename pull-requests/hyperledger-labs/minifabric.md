@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/353" class=".btn">#353</a>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/354" class=".btn">#354</a>
             </td>
             <td>
                 <b>
-                    Error on deploying operator
+                    New deployoperator operation -- failing
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger-labs/minifabric
                 
             </td>
             <td>
-                I am not sure why this pr also includes my old changes as they were merged last week or so. Maybe I have done something wrong? 
-
-Anyways, I have added the "deployoperator" operation that downloads and deploys the fabric operator from a remote manifest. A "Failed to get client due to HTTPSConnectionPool" error occurs on deployment. 
-
-For @litong01 
+                Added the "deployoperator" operation that downloads and deploys the fabric operator from a remote manifest. A "Failed to get client due to HTTPSConnectionPool" error occurs on deployment.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-02 15:48:30 +0000 UTC
+        Created At 2022-09-02 19:49:57 +0000 UTC
     </div>
 </div>
 

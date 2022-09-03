@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1926" class=".btn">#1926</a>
+            </td>
+            <td>
+                <b>
+                    Endorser doc updates and some bug fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
+
+Fixes a couple of issues with DID ATTRIB transactions, and adds some technical docs.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-02 19:22:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1925" class=".btn">#1925</a>
             </td>
             <td>
