@@ -36,33 +36,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/368" class=".btn">#368</a>
-            </td>
-            <td>
-                <b>
-                    check public parameters match
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                This PR adds a new check to the fungible integration test. Namely, the check verifies that the public parameters used by the FSC nodes matches those stored at the backend.
-
-The API has been update to be able to fetch the public parameters from the backend. The API can be used also for debugging in case a mismatch appears.
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-28 11:15:09 +0000 UTC
-    </div>
-</div>
-
