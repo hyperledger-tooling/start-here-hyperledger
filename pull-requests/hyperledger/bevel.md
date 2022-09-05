@@ -133,39 +133,3 @@ permalink: /pull-requests/hyperledger/bevel
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2015" class=".btn">#2015</a>
-            </td>
-            <td>
-                <b>
-                    [fabric] Fix add-new-organization playbook
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: mgCepeda <marina.gomez.cepeda@accenture.com>
-
-**Changelog**
-- Add some conditions in  platforms/hyperledger-fabric/configuration/roles/create/ca-tools/orderer/tasks/main.yaml to avoid error when executing the playbook to add an organization with only peers in its configuration
-- Add tasks to get the correct desired cli pod name in platforms/hyperledger-fabric/configuration/roles/create/ca-tools/orderer/tasks/main.yaml
-
-**Reviewed by**
-@suvajit-sarkar @jagpreetsinghsasan 
-
- 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-29 07:28:51 +0000 UTC
-    </div>
-</div>
-

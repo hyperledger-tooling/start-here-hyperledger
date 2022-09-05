@@ -143,37 +143,3 @@ Closes #3301
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3353" class=".btn">#3353</a>
-            </td>
-            <td>
-                <b>
-                    feat: Add BDD test for legacy-connection protocol
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Title:**
-Add BDD test for legacy-connection protocol
-
-**Summary:**
-
-- Add BDD test for legacy-connection protocol. Edge to edge case is fully implemented. Case through mediator is implemented partially (Only steps are added. Need to add .feature file to run test)
-- Make a few refactoring
-
-Related to #3301 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-29 11:08:33 +0000 UTC
-    </div>
-</div>
-

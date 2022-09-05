@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/265" class=".btn">#265</a>
+            </td>
+            <td>
+                <b>
+                    feature: added "Or" filter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added a new "Or" filter and a new test for it.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-05 08:20:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-java/pull/264" class=".btn">#264</a>
             </td>
             <td>
@@ -33,32 +59,6 @@ permalink: /pull-requests/hyperledger/iroha-java
     </table>
     <div class="right-align">
         Created At 2022-09-02 06:19:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/263" class=".btn">#263</a>
-            </td>
-            <td>
-                <b>
-                    Update to lts@sha256:4072d09bee376c8fcbc586d35ea25624738694ce2c37aa0db60c9998c613048b
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-29 09:25:11 +0000 UTC
     </div>
 </div>
 
