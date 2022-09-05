@@ -15,6 +15,43 @@ permalink: /releases/hyperledger/aries-framework-javascript-ext
         <tr>
             <td colspan="2">
                 <b>
+                    @aries-framework/rest rest-v0.9.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    rest-v0.9.0
+                </span>
+            </td>
+            <td>
+                
+
+### ⚠ BREAKING CHANGES
+
+* **rest:** update to AFJ 0.2.0 (#148)
+
+### Features
+
+* **rest:** update to AFJ 0.2.0 ([#148](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/148)) ([8ec4dc4](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/8ec4dc4548305d5cc8180b657f5865002eb3ee4a))
+
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/rest-v0.9.0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-09-05 07:30:14 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     @aries-framework/react-hooks react-hooks-v0.3.1
                 </b>
             </td>
