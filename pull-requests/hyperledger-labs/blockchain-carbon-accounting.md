@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/616" class=".btn">#616</a>
+            </td>
+            <td>
+                <b>
+                    Oracle api
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-04 19:22:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/615" class=".btn">#615</a>
             </td>
             <td>

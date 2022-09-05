@@ -116,7 +116,7 @@ is truncated or otherwise corrupt.
         </tr>
         <tr>
             <td>
-                <span class="chip">documentation</span><span class="chip">doc-change-required</span>
+                <span class="chip">documentation</span><span class="chip">doc-change-required</span><span class="chip">mainnet</span><span class="chip">22.7.2</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -206,7 +206,7 @@ fixes #4328
         </tr>
         <tr>
             <td>
-                <span class="chip">logging</span>
+                <span class="chip">logging</span><span class="chip">22.7.2</span>
             </td>
             <td>
                 ## PR description
@@ -246,7 +246,7 @@ Fixes #4323
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">22.7.2</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -291,7 +291,7 @@ related to protocol-misc 629
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">22.7.2</span>
             </td>
             <td>
                 Will not show ready for merge on startup when local stored chain is past ttd.
