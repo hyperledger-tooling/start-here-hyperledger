@@ -162,32 +162,3 @@ This change makes sure that the comparison of the provided reference data is com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1920" class=".btn">#1920</a>
-            </td>
-            <td>
-                <b>
-                    Simple did registry
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This Pr simplifies the did registry to a list for future development of a did registry interface.
-
-Signed-off-by: Adam Burdett <burdettadam@gmail.com>
-Co-authored-by: Daniel Bluhm <dbluhm@pm.me>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-29 17:57:58 +0000 UTC
-    </div>
-</div>
-

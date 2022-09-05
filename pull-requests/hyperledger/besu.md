@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4347" class=".btn">#4347</a>
+            </td>
+            <td>
+                <b>
+                    Update snapsync logging for clearer sync status. Issue 4346.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Matt Nelson <matt.nelson@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+Fixes #4346.
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-05 16:09:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4345" class=".btn">#4345</a>
             </td>
             <td>
@@ -318,37 +361,6 @@ related to protocol-misc 629
     </table>
     <div class="right-align">
         Created At 2022-08-30 17:06:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4325" class=".btn">#4325</a>
-            </td>
-            <td>
-                <b>
-                    refactors to rely on blocks added, and behave like singleton
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span><span class="chip">22.7.2</span>
-            </td>
-            <td>
-                Will not show ready for merge on startup when local stored chain is past ttd.
-Uses block observer to determine state change
-
-Signed-off-by: Justin Florentine <justin+github@florentine.us>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-29 17:30:27 +0000 UTC
     </div>
 </div>
 

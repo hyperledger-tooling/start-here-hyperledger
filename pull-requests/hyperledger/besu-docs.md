@@ -31,6 +31,9 @@ permalink: /pull-requests/hyperledger/besu-docs
 
 Add a new page on understanding some Besu performance metrics on Hyperledger Besu. This page will updated in the futur to add more metrics.
 
+## Preview
+See https://hyperledger-besu--1151.org.readthedocs.build/en/1151/public-networks/how-to/monitor/understand-metrics/
+
             </td>
         </tr>
     </table>
