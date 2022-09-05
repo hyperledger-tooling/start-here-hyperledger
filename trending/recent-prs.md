@@ -1,13 +1,13 @@
 
-[553](https://github.com/hyperledger/aries-vcx/pull/553) Release 0.41.0
+[4347](https://github.com/hyperledger/besu/pull/4347) Update snapsync logging for clearer sync status. Issue 4346.
 
-[552](https://github.com/hyperledger/aries-vcx/pull/552) Add MAINTAINERS.md file
+[65](https://github.com/hyperledger-labs/acapy-java-client/pull/65) helper extension to set self attested attributes or to optionally not reveal them
 
-[617](https://github.com/hyperledger/fabric-sdk-node/pull/617) Release v2.2.15
+[3626](https://github.com/hyperledger/fabric/pull/3626) Orderer v3: remove kafka from build
 
-[4345](https://github.com/hyperledger/besu/pull/4345) waiting blockchain before stopping snapsync
+[3625](https://github.com/hyperledger/fabric/pull/3625) Orderer v3: remove kafka from configtxgen
 
-[79](https://github.com/hyperledger/besu-native/pull/79) Ship both x86 and aarch64 darwin libs
+[618](https://github.com/hyperledger/fabric-sdk-node/pull/618) Revert to snapshpt publishing following release
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

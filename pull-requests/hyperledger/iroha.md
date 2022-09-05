@@ -204,7 +204,7 @@ cargo test --package iroha_client --test mod -- integration::permissions::token_
             </td>
             <td>
                 <b>
-                    [refactor] #2650: Add `ThreadHandle` to shutdown iroha submodules
+                    [refactor] #2650: Add `ThreadHandler` to shutdown iroha submodules
                 </b>
             </td>
         </tr>

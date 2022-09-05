@@ -37,29 +37,3 @@ Updated softhsm setup script to add support for mac
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/382" class=".btn">#382</a>
-            </td>
-            <td>
-                <b>
-                    IOU deployment exercise
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span>
-            </td>
-            <td>
-                Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-29 13:48:58 +0000 UTC
-    </div>
-</div>
-
