@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2155" class=".btn">#2155</a>
+            </td>
+            <td>
+                <b>
+                    build(openapi): upgrade openapi-generator version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Commit to be reviewed
+------------------------------------
+
+build(openapi): upgrade openapi-generator version   
+
+
+    Primary Changes
+    ---------------
+    1. Updated openapitools.json file   
+    
+    Secondary Changes
+    ----------------
+    1. Some of the generated kotlin files are updated with the new code
+
+Signed-off-by: jagpreetsinghsasan <jagpreet.singh.sasan@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-05 06:29:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/2154" class=".btn">#2154</a>
             </td>
             <td>
