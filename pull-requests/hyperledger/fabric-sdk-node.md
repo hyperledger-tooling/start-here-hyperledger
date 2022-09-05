@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/614" class=".btn">#614</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/617" class=".btn">#617</a>
             </td>
             <td>
                 <b>
-                    Update @grpc/grpc-js version (release-2.2)
+                    Release v2.2.15
                 </b>
             </td>
         </tr>
@@ -27,50 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                Accompanying updated to suitable @grpc/proto-loader and protobufjs versions.
-
-This addresses a gRPC bug that could cause pings to be sent on destroyed HTTP sessions, resulting in the following error:
-
-Error [ERR_HTTP2_INVALID_SESSION]: The session has been destroyed
-
-Closes #593
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-10 08:35:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/613" class=".btn">#613</a>
-            </td>
-            <td>
-                <b>
-                    Update @grpc/grpc-js version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Accompanying updated to suitable @grpc/proto-loader and protobufjs versions.
-
-This addresses a gRPC bug that could cause pings to be sent on destroyed HTTP sessions, resulting in the following error:
-
-Error [ERR_HTTP2_INVALID_SESSION]: The session has been destroyed
-
-Closes #593
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-10 08:32:05 +0000 UTC
+        Created At 2022-09-05 10:33:07 +0000 UTC
     </div>
 </div>
 

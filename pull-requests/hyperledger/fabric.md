@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3623" class=".btn">#3623</a>
+            </td>
+            <td>
+                <b>
+                    fix unittest failed case for TestBadConfigOU with go version 1.19
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Test update
+
+#### Description
+
+change certs in dir msp/testdata/badconfigou
+
+because these certs file not contains SANs info, it will failed when go version is 1.19(change func alreadyInChain, not bytes equal)
+
+```
+  msp_test.go:1448: 
+            Error Trace:    /Users/edward/Documents/GitHub/fabric/msp/msp_test.go:1448
+                                        /Users/edward/Documents/GitHub/fabric/msp/ouconfig_test.go:32
+            Error:          Received unexpected error:
+                            sanitizeCert failed the supplied identity is not valid: x509: certificate signed by unknown authority
+                            failed getting certificate for [certificate:"-----BEGIN CERTIFICATE-----\nMIIBrTCCAVKgAwIBAgIJAK8/QQKPJc5dMAoGCCqGSM49BAMCMCkxDDAKBgNVBAoM\nA0NPUDEMMAoGA1UECwwDQ09QMQswCQYDVQQDDAJDQTAeFw0xNzA2MjAwOTA5NDBa\nFw0zNzA2MTUwOTA5NDBaMCkxDDAKBgNVBAoMA0NPUDEMMAoGA1UECwwDQ09QMQsw\nCQYDVQQDDAJDQTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABLVK0PcjQjZ/pUsW\nY7NHYJSHaPrc7qY/NK9xfLZogZi1axlOz55k6xQH2LIUILffmzXMm3h391Bim3b9\nrPdsvjqjYzBhMB0GA1UdDgQWBBQF5TG4S2XkK6XVtSUW63ppNTN2dTAfBgNVHSME\nGDAWgBQF5TG4S2XkK6XVtSUW63ppNTN2dTAPBgNVHRMBAf8EBTADAQH/MA4GA1Ud\nDwEB/wQEAwIBhjAKBggqhkjOPQQDAgNJADBGAiEAwhPOEE7bfSlDd0WglM1dNHTY\nhU2p/Lx0mgPha/5HW0UCIQCp6q+qL/OEP+mUms6C9nnMSu2eVDZQQ2MJgRNBVHjC\ncw==\n-----END CERTIFICATE-----\n" organizational_unit_identifier:"COP1" ]
+            Test:           TestBadConfigOU
+--- FAIL: TestBadConfigOU (8.84s)
+```
+
+
+<!--
+Checklist (DELETE AFTER READING):
+
+- `Signed-off-by` added to commits (required for DCO check to pass)
+- Tests have been added/updated (required for bug fixes and features)
+- Unit and/or integration tests pass locally
+- Run linters and checks locally using 'make checks'
+- If change requires documentation updates, make updates in pull request,
+  or open a separate issue and provide link
+- Squash commits into a single commit, unless a stack of commits is
+  intentional to assist reviewers or to preserve review comments.
+- For additional contribution guidelines see the project's CONTRIBUTING.md file
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-05 08:10:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3621" class=".btn">#3621</a>
             </td>
             <td>

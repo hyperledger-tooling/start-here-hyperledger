@@ -94,32 +94,3 @@ Signed-off-by: Ariel Gentile <gentilester@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/995" class=".btn">#995</a>
-            </td>
-            <td>
-                <b>
-                    docs(demo): faber creates invitation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                It's better if Faber creates an invitation than Alice does because we can test mobile agents with Faber more easily.
-- Now, Faber creates an invitation and Alice receives it.
-- I didn't change the code but just exchanged connection-related code between Alice and Faber.
-- The second commit(1e6af7a) is a minor bug fix.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-29 08:37:11 +0000 UTC
-    </div>
-</div>
-
