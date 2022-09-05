@@ -15,32 +15,30 @@ permalink: /releases/hyperledger/fabric-sdk-node
         <tr>
             <td colspan="2">
                 <b>
-                    v2.2.14
+                    v2.2.15
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.2.14
+                    v2.2.15
                 </span>
             </td>
             <td>
                 This is a maintenance release containing the following changes:
 
-- Dependency updates to address security vulnerability CVE-2022-25898.
-- Resolve an issue that could cause partial discovery results to be obtained under high load, and subsequent transaction failures.
-- Resolve an issue that could cause an unhandled promise rejection with exceptionally short commit timeouts.
+- Update dependencies to address a gRPC bug that could cause pings to be sent on destroyed HTTP sessions, resulting in an ERR_HTTP2_INVALID_SESSION error.
 
-**Full Changelog**: https://github.com/hyperledger/fabric-sdk-node/compare/v2.2.13...v2.2.14
+**Full Changelog**: https://github.com/hyperledger/fabric-sdk-node/compare/v2.2.14...v2.2.15
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-sdk-node/releases/tag/v2.2.14" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-sdk-node/releases/tag/v2.2.15" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-07-19 12:16:27 +0000 UTC
+        Created At 2022-09-05 12:25:03 +0000 UTC
     </span>
 </div>
 
