@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/125" class=".btn">#125</a>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/126" class=".btn">#126</a>
             </td>
             <td>
                 <b>
-                    [feature] redo codegen
+                    [refactor]: Rename `KURA_BLOCK_STORE_PATH` in `example/peer_config/config.json`
                 </b>
             </td>
         </tr>
@@ -27,14 +27,13 @@ permalink: /pull-requests/hyperledger/iroha-python
                 
             </td>
             <td>
-                Simplified codegen and deserialization for objects coming from rust.
+                Just for consistency with the change of `DEFAULT_BLOCK_STORE_PATH` from `./blocks` to `./storage` in https://github.com/hyperledger/iroha/pull/2701
 
-Signed-off-by: Artemii Gerasimovich <gerasimovich@soramitsu.co.jp>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-29 07:20:41 +0000 UTC
+        Created At 2022-09-06 11:27:00 +0000 UTC
     </div>
 </div>
 

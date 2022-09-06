@@ -107,39 +107,3 @@ Also, added this option as a default to `*verifiable.Credential.validateJSONLD(.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3355" class=".btn">#3355</a>
-            </td>
-            <td>
-                <b>
-                    feat: BDD tests for legacy connection protocol
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Title:**
-BDD tests for legacy-connection protocol
-
-**Summary:**
-
-- Add BDD test feature for case with mediator. 
-- Enable to add recipient keys while creating did:peer doc with legacy service type.
--  Make a few refactoring
-
-Closes #3301 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-30 07:10:04 +0000 UTC
-    </div>
-</div>
-

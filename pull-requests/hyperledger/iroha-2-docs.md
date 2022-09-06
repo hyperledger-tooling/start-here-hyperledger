@@ -14,6 +14,91 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/155" class=".btn">#155</a>
+            </td>
+            <td>
+                <b>
+                    [docs] #85: Add diagrams for triggers and filters
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+
+- Added diagrams for triggers and filters
+- Updated info in the triggers chapter
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-06 10:58:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/154" class=".btn">#154</a>
+            </td>
+            <td>
+                <b>
+                    [docs]: Change default BLOCK_STORE_PATH location
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+
+Based on https://github.com/hyperledger/iroha/pull/2701
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-06 07:16:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/153" class=".btn">#153</a>
+            </td>
+            <td>
+                <b>
+                    [docs] #81: Add example on transferring assets to Bash guide
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+
+Addresses #81 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-06 07:00:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/151" class=".btn">#151</a>
             </td>
             <td>
@@ -147,33 +232,6 @@ Signed-off-by: 0x009922 <a.marcius26@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-08-31 13:12:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/142" class=".btn">#142</a>
-            </td>
-            <td>
-                <b>
-                    [docs] #141: Add a note about docker-compose options
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #141.
-Also fixes index, rust guide, js guide, build and install chapter
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-30 09:47:30 +0000 UTC
     </div>
 </div>
 

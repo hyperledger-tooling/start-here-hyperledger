@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/162" class=".btn">#162</a>
+            </td>
+            <td>
+                <b>
+                    fix(rest): accept proof properties now optional
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jan Rietveld [jan@animo.id](mailto:jan@animo.id)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-06 08:52:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/161" class=".btn">#161</a>
             </td>
             <td>
