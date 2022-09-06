@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/64" class=".btn">#64</a>
-            </td>
-            <td>
-                <b>
-                    reconnect websocket onFailure()
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-30 13:39:24 +0000 UTC
-    </div>
-</div>
-

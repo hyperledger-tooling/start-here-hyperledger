@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/besu-native
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/77" class=".btn">#77</a>
-            </td>
-            <td>
-                <b>
-                    Use current labels for native runners
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-30 15:33:51 +0000 UTC
-    </div>
-</div>
-
