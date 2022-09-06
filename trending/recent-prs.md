@@ -1,13 +1,13 @@
 
+[1152](https://github.com/hyperledger/besu-docs/pull/1152) adding loki to the quickstart
+
+[1003](https://github.com/hyperledger/solang/pull/1003) Fix overflow detection tests
+
+[3628](https://github.com/hyperledger/fabric/pull/3628) Fix: typos
+
+[1002](https://github.com/hyperledger/solang/pull/1002) Solana NFT example
+
 [4347](https://github.com/hyperledger/besu/pull/4347) Update snapsync logging for clearer sync status. Issue 4346.
-
-[65](https://github.com/hyperledger-labs/acapy-java-client/pull/65) helper extension to set self attested attributes or to optionally not reveal them
-
-[3626](https://github.com/hyperledger/fabric/pull/3626) Orderer v3: remove kafka from build
-
-[3625](https://github.com/hyperledger/fabric/pull/3625) Orderer v3: remove kafka from configtxgen
-
-[618](https://github.com/hyperledger/fabric-sdk-node/pull/618) Revert to snapshpt publishing following release
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

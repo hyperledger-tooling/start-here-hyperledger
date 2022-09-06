@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/30" class=".btn">#30</a>
+            </td>
+            <td>
+                <b>
+                    GET /status/* APIs for Liveness and Readiness Probes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: hfuss <haydenfuss@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-02 23:59:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/29" class=".btn">#29</a>
             </td>
             <td>
@@ -116,87 +142,6 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     </table>
     <div class="right-align">
         Created At 2022-08-30 21:12:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/24" class=".btn">#24</a>
-            </td>
-            <td>
-                <b>
-                    Allow requesting of looking up the signer, separate from an array of methods
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Depends on https://github.com/hyperledger/firefly-transaction-manager/pull/32 for EthConnect compatibility, where these options were combined.
-
-> Currently this PR pulls in a commit from FFTM until there's a release with PR 32 in it
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-29 21:13:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/22" class=".btn">#22</a>
-            </td>
-            <td>
-                <b>
-                    Update firefly-signer to v0.9.18
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-29 19:28:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/21" class=".btn">#21</a>
-            </td>
-            <td>
-                <b>
-                    surface `ErrorNotFound` in get_block_info
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Instead of swallowing `ErrorNotFound` for `blockRPCMethods`, surface it for consumers to decide how to handle the error. Also updated the evmconnect blocklistener implementation to not exit the loop on this error.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-29 01:36:25 +0000 UTC
     </div>
 </div>
 

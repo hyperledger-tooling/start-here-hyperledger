@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/32" class=".btn">#32</a>
+                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/35" class=".btn">#35</a>
             </td>
             <td>
                 <b>
-                    Pass options.signer for EthCompat mode
+                    Send update to FF Core each time there is an error
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
                 
             </td>
             <td>
-                EVMConnect will separate out the option `options.signer: true` from the `options.methods: []` list of methods to match, so you can just request `signer`. Also so that even if no methods match we still set the signer.
-
-This means a tweak to the EthCompat mode
+                Fixes #34
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-29 21:07:59 +0000 UTC
+        Created At 2022-09-03 02:05:56 +0000 UTC
     </div>
 </div>
 
@@ -42,11 +40,11 @@ This means a tweak to the EthCompat mode
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/31" class=".btn">#31</a>
+                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/33" class=".btn">#33</a>
             </td>
             <td>
                 <b>
-                    Move completion log from "error" to "info"
+                    GET /status/* APIs for Liveness and Readiness Probes
                 </b>
             </td>
         </tr>
@@ -55,42 +53,15 @@ This means a tweak to the EthCompat mode
                 
             </td>
             <td>
-                <nil>
+                Adding endpoints for use within K8s for liveness / readiness probes, as well as for upstream connector services like tokens. See https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/85 where we noticed we are missing these endpoints that Ethconnect did have.
+
+TODO 
+- [x] unit tests
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-29 17:49:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/29" class=".btn">#29</a>
-            </td>
-            <td>
-                <b>
-                    Integrating sprig into gasOracle.Template
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                http://masterminds.github.io/sprig/ is a common supplemental library for Go templating that has handy functions for ints and floats.
-
-For oracle templates where we need to convert from gwei to wei, and /or convert from float to int, these utility functions can be very useful. This also provides us with a good starting point of examples in the event we ever need to write our own Go template functions such as converting from hex to bigints, etc.
-
-Thanks @peterbroadhurst for doing the hard part of getting everything in place.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-26 04:15:35 +0000 UTC
+        Created At 2022-09-02 18:14:00 +0000 UTC
     </div>
 </div>
 

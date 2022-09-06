@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">logging</span><span class="chip">22.7.2</span>
             </td>
             <td>
                 Signed-off-by: Matt Nelson <matt.nelson@consensys.net>
