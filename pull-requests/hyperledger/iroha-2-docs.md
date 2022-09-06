@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/151" class=".btn">#151</a>
+            </td>
+            <td>
+                <b>
+                    [docs] #111: Add info about permission validators
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+
+Closes #111 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-06 06:07:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/150" class=".btn">#150</a>
             </td>
             <td>
@@ -146,34 +174,6 @@ Also fixes index, rust guide, js guide, build and install chapter
     </table>
     <div class="right-align">
         Created At 2022-08-30 09:47:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/139" class=".btn">#139</a>
-            </td>
-            <td>
-                <b>
-                    [docs]: Add info about metadata and sorting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-Addresses #98, #108, #86 (without examples) + fixes formatting
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-30 06:40:16 +0000 UTC
     </div>
 </div>
 

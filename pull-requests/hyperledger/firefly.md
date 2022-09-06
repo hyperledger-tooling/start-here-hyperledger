@@ -639,31 +639,3 @@ Fixes #1011
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1017" class=".btn">#1017</a>
-            </td>
-            <td>
-                <b>
-                    adds `fetchreference` to /events/:id
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When provided, firefly will include the record that the `ref` field references in the response body.
-
-closes #1016 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-30 02:33:30 +0000 UTC
-    </div>
-</div>
-
