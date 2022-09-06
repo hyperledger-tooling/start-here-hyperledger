@@ -1,13 +1,13 @@
 
-[1013](https://github.com/hyperledger/aries-framework-javascript/pull/1013) fix(ledger): check taa version instad of aml version
+[1014](https://github.com/hyperledger/aries-framework-javascript/pull/1014) feat: problem report on decline
 
-[126](https://github.com/hyperledger/iroha-python/pull/126) [refactor]: Rename `KURA_BLOCK_STORE_PATH` in `example/peer_config/config.json`
+[2707](https://github.com/hyperledger/iroha/pull/2707) [refactor] #2649: Remove `byteorder` crate from `Kura`
 
-[2704](https://github.com/hyperledger/iroha/pull/2704) [refactor] #2478: Add `SignedTransaction`
+[4351](https://github.com/hyperledger/besu/pull/4351) Wording tweaks for edge cases in PR #4347
 
-[155](https://github.com/hyperledger/iroha-2-docs/pull/155) [docs] #85: Add diagrams for triggers and filters
+[555](https://github.com/hyperledger/aries-vcx/pull/555) Remove TestAgent trait
 
-[266](https://github.com/hyperledger/iroha-java/pull/266) [refactor]: Rename `KURA_BLOCK_STORE_PATH` in `config.json`
+[413](https://github.com/hyperledger/fabric-test/pull/413) [WIP] Implement missing CCAAS support
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -41,29 +41,3 @@ RPC[2->000012346] <-- eth_getTransactionByHash [200] OK (1.43ms)
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-signer/pull/22" class=".btn">#22</a>
-            </td>
-            <td>
-                <b>
-                    Add underlying error to FF22012
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Peter Broadhurst <peter.broadhurst@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-30 15:08:08 +0000 UTC
-    </div>
-</div>
-

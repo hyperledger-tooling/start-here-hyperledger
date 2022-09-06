@@ -585,29 +585,3 @@ Closes #957
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1019" class=".btn">#1019</a>
-            </td>
-            <td>
-                <b>
-                    Clean up event manager unit tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-30 17:25:26 +0000 UTC
-    </div>
-</div>
-

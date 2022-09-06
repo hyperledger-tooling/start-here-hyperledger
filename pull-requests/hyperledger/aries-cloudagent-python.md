@@ -107,31 +107,3 @@ Registries in the `init` state are also filtered from the `/revocation/registrie
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1922" class=".btn">#1922</a>
-            </td>
-            <td>
-                <b>
-                    fix: propagate endpoint from mediation record
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR solves a bug in #1899 in which the public DID endpoint of an agent behind a mediator was the agent's own endpoint. These changes ensure that a mediated agent's public DID endpoint is the mediator's endpoint.
-
-Signed-off-by: Char Howland <char@indicio.tech>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-30 18:20:09 +0000 UTC
-    </div>
-</div>
-

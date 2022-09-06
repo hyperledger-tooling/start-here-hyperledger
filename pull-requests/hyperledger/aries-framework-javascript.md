@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1014" class=".btn">#1014</a>
+            </td>
+            <td>
+                <b>
+                    feat: problem report on decline
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds a new problem report reason for credential / presentation decline and sends a problem report when declining an offer or request. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-06 18:13:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1013" class=".btn">#1013</a>
             </td>
             <td>

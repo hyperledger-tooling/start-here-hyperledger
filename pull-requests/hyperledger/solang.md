@@ -173,29 +173,3 @@ In addition, this PR creates a `solana-library` folder to hold all the libraries
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/994" class=".btn">#994</a>
-            </td>
-            <td>
-                <b>
-                    Use MacStadium runner
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-30 15:05:35 +0000 UTC
-    </div>
-</div>
-
