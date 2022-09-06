@@ -611,31 +611,3 @@ Closes #957
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1018" class=".btn">#1018</a>
-            </td>
-            <td>
-                <b>
-                    add another account for fabric
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Anna Jackson <anna.jackson@kaleido.io>
-
-Fixes #1011 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-30 09:17:21 +0000 UTC
-    </div>
-</div>
-

@@ -1,13 +1,13 @@
 
-[2701](https://github.com/hyperledger/iroha/pull/2701) [fix] #2700: Export `KURA_BLOCK_STORE_PATH` in docker images
+[1013](https://github.com/hyperledger/aries-framework-javascript/pull/1013) fix(ledger): check taa version instad of aml version
 
-[151](https://github.com/hyperledger/iroha-2-docs/pull/151) [docs] #111: Add info about permission validators
+[126](https://github.com/hyperledger/iroha-python/pull/126) [refactor]: Rename `KURA_BLOCK_STORE_PATH` in `example/peer_config/config.json`
 
-[2699](https://github.com/hyperledger/iroha/pull/2699) [fix]: Fix doc comment in schema/src
+[2704](https://github.com/hyperledger/iroha/pull/2704) [refactor] #2478: Add `SignedTransaction`
 
-[1152](https://github.com/hyperledger/besu-docs/pull/1152) adding loki to the quickstart
+[155](https://github.com/hyperledger/iroha-2-docs/pull/155) [docs] #85: Add diagrams for triggers and filters
 
-[1003](https://github.com/hyperledger/solang/pull/1003) Fix overflow detection tests
+[266](https://github.com/hyperledger/iroha-java/pull/266) [refactor]: Rename `KURA_BLOCK_STORE_PATH` in `config.json`
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

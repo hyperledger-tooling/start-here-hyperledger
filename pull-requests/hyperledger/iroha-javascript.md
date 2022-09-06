@@ -14,25 +14,26 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/122" class=".btn">#122</a>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/123" class=".btn">#123</a>
             </td>
             <td>
                 <b>
-                    [ci]: set `publish-branch` to `iroha2`
+                    [refactor]: Rename `KURA_BLOCK_STORE_PATH` in `peer_config.json`
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                
             </td>
             <td>
-                Signed-off-by: 0x009922 <a.marcius26@gmail.com>
+                Just for consistency with the change of `DEFAULT_BLOCK_STORE_PATH` from `./blocks` to `./storage` in https://github.com/hyperledger/iroha/pull/2701
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-30 03:36:14 +0000 UTC
+        Created At 2022-09-06 08:45:37 +0000 UTC
     </div>
 </div>
 

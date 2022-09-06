@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/224" class=".btn">#224</a>
+            </td>
+            <td>
+                <b>
+                    Fix CVE-2022-25857
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Upodate snakeyaml dependency to 1.31
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-06 07:15:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/223" class=".btn">#223</a>
             </td>
             <td>

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/554" class=".btn">#554</a>
+            </td>
+            <td>
+                <b>
+                    Eliminate global state: issuer did
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">refactoring</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-06 08:35:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/553" class=".btn">#553</a>
             </td>
             <td>
