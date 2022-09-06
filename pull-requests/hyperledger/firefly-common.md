@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/34" class=".btn">#34</a>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/35" class=".btn">#35</a>
             </td>
             <td>
                 <b>
-                    adding IsSet function for default value checking
+                    Add FFEnumParseString for validation
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-common
                 
             </td>
             <td>
-                For configuration migration. Exposing IsSet function so that we can check whether a key is manually set by the users.
-
-Signed-off-by: Chengxuan Xing <chengxuan.xing@kaleido.io>
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-24 10:19:50 +0000 UTC
+        Created At 2022-09-02 16:51:26 +0000 UTC
     </div>
 </div>
 

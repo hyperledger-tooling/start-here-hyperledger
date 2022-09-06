@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1003" class=".btn">#1003</a>
+            </td>
+            <td>
+                <b>
+                    Fix overflow detection tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Numbers that overflow the input type was generated, causing some overflow detection tests to fail
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-05 21:24:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1002" class=".btn">#1002</a>
+            </td>
+            <td>
+                <b>
+                    Solana NFT example
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR creates a Solidity contract to manage NFTs on Solana. It is an example to show Solang functionality during Solana's Singapore Hacker House. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-05 20:16:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1001" class=".btn">#1001</a>
             </td>
             <td>
@@ -144,35 +196,6 @@ In addition, this PR creates a `solana-library` folder to hold all the libraries
     </table>
     <div class="right-align">
         Created At 2022-08-30 15:05:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/993" class=".btn">#993</a>
-            </td>
-            <td>
-                <b>
-                    Remove references to hyperledger-labs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                solang has moved into incubation, so now the repo can be found at
-https://github.com/hyperledger/solang
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-29 20:28:03 +0000 UTC
     </div>
 </div>
 

@@ -46,7 +46,7 @@ Signed-off-by: Christian Bormann <ChristianCarl.Bormann@de.bosch.com>
             </td>
             <td>
                 <b>
-                    New ip tables script for ddos protection
+                    New ip tables script
                 </b>
             </td>
         </tr>

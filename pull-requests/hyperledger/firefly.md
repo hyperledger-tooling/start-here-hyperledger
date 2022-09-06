@@ -667,29 +667,3 @@ closes #1016
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1015" class=".btn">#1015</a>
-            </td>
-            <td>
-                <b>
-                    Add firefly-signer to manifest
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-29 19:21:38 +0000 UTC
-    </div>
-</div>
-

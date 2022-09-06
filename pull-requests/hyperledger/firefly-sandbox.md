@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/100" class=".btn">#100</a>
+                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/102" class=".btn">#102</a>
             </td>
             <td>
                 <b>
-                    Add block number to tokens pools/custom contract listeners + better 1.1 support
+                    update sandbox to work with different namespaces
                 </b>
             </td>
         </tr>
@@ -27,18 +27,23 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
                 
             </td>
             <td>
-                closes #99 
+                By setting the `FF_DEFAULT_NAMESPACE` environment variable when deploying the sandbox server, the sandbox will now work with namespaces other than `default`. 
 
-![Screen Shot 2022-08-25 at 3 31 51 PM](https://user-images.githubusercontent.com/10987380/186755628-9cc44e8c-1736-4db6-9195-4520025859d6.png)
 
-![Screen Shot 2022-08-25 at 3 31 43 PM](https://user-images.githubusercontent.com/10987380/186755632-f11c58c0-4246-4ab3-9876-1a13b423b51d.png)
+Note: Further discussion is needed with @awrichar to figure out how sandbox + firefly-sdk can be updated to work with multiple namespaces. 
 
-Also includes better handling of edge cases for firefly running in gateway mode. 
+
+
+
+<img width="404" alt="Screen Shot 2022-09-02 at 1 15 59 PM" src="https://user-images.githubusercontent.com/10987380/188205175-942ae876-080b-488f-a75b-f66d6e151dda.png">
+
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-25 19:53:33 +0000 UTC
+        Created At 2022-09-02 17:14:16 +0000 UTC
     </div>
 </div>
 

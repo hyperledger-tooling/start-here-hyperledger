@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/150" class=".btn">#150</a>
+            </td>
+            <td>
+                <b>
+                    [ci]: run `build` in PR CI as well
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Now we will be able to inspect build errors in GitHub instead of Vercel.
+
+Signed-off-by: 0x009922 <a.marcius26@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-05 09:48:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/148" class=".btn">#148</a>
             </td>
             <td>
@@ -146,114 +174,6 @@ Addresses #98, #108, #86 (without examples) + fixes formatting
     </table>
     <div class="right-align">
         Created At 2022-08-30 06:40:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/132" class=".btn">#132</a>
-            </td>
-            <td>
-                <b>
-                    [docs] #127: Fix git clone in Python guide
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-29 08:23:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/131" class=".btn">#131</a>
-            </td>
-            <td>
-                <b>
-                    Restore state
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-29 07:57:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/130" class=".btn">#130</a>
-            </td>
-            <td>
-                <b>
-                    [docs] #129: Add a note about iroha-javascript repo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-Closes #129 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-26 09:16:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/128" class=".btn">#128</a>
-            </td>
-            <td>
-                <b>
-                    [docs] #127: Fix git clone in Python guide
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-Closes #127 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-26 05:14:51 +0000 UTC
     </div>
 </div>
 
