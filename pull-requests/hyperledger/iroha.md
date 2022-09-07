@@ -848,7 +848,7 @@ Partial fix for #2678
             </td>
             <td>
                 <b>
-                    [ci]: Fix after #2662, #2663 
+                    [ci]: Enable sequential publish of images, after #2662
                 </b>
             </td>
         </tr>
@@ -857,22 +857,20 @@ Partial fix for #2678
                 <span class="chip">Bug</span><span class="chip">iroha2</span><span class="chip">CI</span>
             </td>
             <td>
-                <!-- [ci]: Fix after #2662, #2663 -->
+                <!-- [ci]: Enable sequential publish of images, after #2662 -->
 ### Description of the Change
 
 1. Publish `iroha2-base` and `iroha2` images in sequence
-2. Trigger `trybuild` tests on release PRs instead of on dev PRs
-3. Remove `/iroha/rust-toolchain.toml` from the builder image
+2. Modify trigger condition of `trybuild` tests
 
 ### Issue
 
 1. https://github.com/hyperledger/iroha/pull/2662#discussion_r959346170
 2. https://github.com/hyperledger/iroha/pull/2663#discussion_r959424599
-3. https://github.com/hyperledger/iroha/pull/2663#discussion_r959480886
 
 ### Benefits
 
-- Fix
+1. `iroha2-base:<tag>` never diverges from the history of `iroha2:<tag>`
 
 ### Possible Drawbacks
 

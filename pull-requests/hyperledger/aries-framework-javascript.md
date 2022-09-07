@@ -116,35 +116,3 @@ Signed-off-by: Niall Shaw <niall.shaw@absa.africa>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1001" class=".btn">#1001</a>
-            </td>
-            <td>
-                <b>
-                    fix(question-answer): question answer protocol state/role check
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Some fixes and additional checks in process methods from `QuestionAnswerService` that are preventing it to correctly accept/reject the received message.
-
-Add some service tests as well as a simple E2E module test that allowed to find and fix a weird issue with parameter construction: `ValidResponse` takes another `ValidResponse` as input and this could make message validation to fail.
-
-No API changes were introduced apart from adding a `findById` method.
-
-Signed-off-by: Ariel Gentile <gentilester@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-31 02:56:04 +0000 UTC
-    </div>
-</div>
-
