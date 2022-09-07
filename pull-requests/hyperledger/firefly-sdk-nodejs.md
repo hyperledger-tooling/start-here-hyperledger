@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/33" class=".btn">#33</a>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/34" class=".btn">#34</a>
             </td>
             <td>
                 <b>
-                    bump package.json to 1.1 alpha
+                    Configurable log level
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Gabriel Indik <gabriel.indik@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-16 19:44:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/32" class=".btn">#32</a>
-            </td>
-            <td>
-                <b>
-                    sync sdk with firefly version v1.1.0-alpha.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Alex Shorsher <alex.shorsher@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-16 18:23:12 +0000 UTC
+        Created At 2022-09-07 15:39:19 +0000 UTC
     </div>
 </div>
 

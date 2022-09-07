@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-test
             </td>
             <td>
                 <b>
-                    [WIP] Implement missing CCAAS support
+                    Update chaincode integration tool
                 </b>
             </td>
         </tr>
@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/fabric-test
                 
             </td>
             <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+                Add basic CCAAS tests and improve test isolation with separate channels
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
         </tr>
     </table>

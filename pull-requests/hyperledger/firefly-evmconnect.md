@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/27" class=".btn">#27</a>
-            </td>
-            <td>
-                <b>
-                    Update to firefly-signer v0.9.19
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-31 14:41:36 +0000 UTC
-    </div>
-</div>
-

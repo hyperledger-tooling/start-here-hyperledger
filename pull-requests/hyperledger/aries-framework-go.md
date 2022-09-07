@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 
             </td>
             <td>
-                Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+                closes #3327
+
+Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
 
 
             </td>

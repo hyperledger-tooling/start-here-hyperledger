@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2021" class=".btn">#2021</a>
+            </td>
+            <td>
+                <b>
+                    [indy] image pull policy and iss validation update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- Updated image pull policy to IfNotPresent
+- Disabled iss validation for vault auth  
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-07 14:22:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2020" class=".btn">#2020</a>
             </td>
             <td>

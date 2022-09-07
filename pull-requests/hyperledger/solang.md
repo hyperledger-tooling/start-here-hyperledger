@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1006" class=".btn">#1006</a>
+            </td>
+            <td>
+                <b>
+                    Substrate constructor overloading names
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Since in `ink!` constructors also have names. This is another precondition for making #989 happen.
+
+As discussed in our daily: We could easily extend this for solana as well. Additionally we will probably want to have a way for instantiating contracts using various constructors, which is impossible using solidity syntax.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-07 13:31:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1003" class=".btn">#1003</a>
             </td>
             <td>
@@ -114,34 +142,6 @@ A public function is in a contract, if it has `public` or `external` functions, 
     </table>
     <div class="right-align">
         Created At 2022-09-01 12:11:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/998" class=".btn">#998</a>
-            </td>
-            <td>
-                <b>
-                    Use solang's heap implementation on Solana
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As of Solana v1.11, `sol_alloc_free_` system call is no longer available. This means that programs are expected to provide their own heap impl.
-
-Also enable `push()` and `pop()` for memory arrays on Solana.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-31 12:46:11 +0000 UTC
     </div>
 </div>
 
