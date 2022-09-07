@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/157" class=".btn">#157</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #146: update snippets in python section
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Artemii Gerasimovich <gerasimovich@soramitsu.co.jp>
+
+- Fixed snippets in python section of the guide
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-07 05:12:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/155" class=".btn">#155</a>
             </td>
             <td>
