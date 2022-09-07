@@ -114,34 +114,3 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/25" class=".btn">#25</a>
-            </td>
-            <td>
-                <b>
-                    Do not uninstall empty filters
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Noticed cruft like this in the logs, due to an unnecessary call:
-
-```
-[2022-08-30T15:42:10.936Z] ERROR evmconnect: RPC[000001286] <-- ERROR: FF22012: Backend RPC request failed eventstream=0182ef67-007c-7d84-206d-eb3364392daf
-[2022-08-30T15:42:10.936Z]  WARN evmconnect: Error uninstalling filter '': FF22012: Backend RPC request failed eventstream=0182ef67-007c-7d84-206d-eb3364392daf
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-30 21:12:20 +0000 UTC
-    </div>
-</div>
-

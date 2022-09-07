@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/751" class=".btn">#751</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/752" class=".btn">#752</a>
             </td>
             <td>
                 <b>
-                    Clarifications to RFC 0592 AnonCreds Attachments about unrevealed attributes and string integer encoding
+                    Clarify the handling of minor versions of a protocol
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger/aries-rfcs
                 
             </td>
             <td>
-                As discussed in the [Aries WG Meeting, August 17, 2022](https://wiki.hyperledger.org/display/ARIES/2022-08-17+Aries+Working+Group+Call), this PR adds clarifications about the processing of unrevealed attributes in a proof request (verified, and the verifier business logic must decide if not revealing all claims is sufficient in a given use case), and the handling of strings of integers when encoding claims (convert them to integers).
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+This is in response to an interop issue between Aries Framework JavaScript and Aries Cloud Agent Python, where ACA-Py is not properly handling the messages sent.  The Aca-Py issue is [here](https://github.com/hyperledger/aries-cloudagent-python/issues/1917).
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-18 20:16:15 +0000 UTC
+        Created At 2022-09-06 21:18:05 +0000 UTC
     </div>
 </div>
 

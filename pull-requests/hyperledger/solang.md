@@ -145,31 +145,3 @@ Also enable `push()` and `pop()` for memory arrays on Solana.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/996" class=".btn">#996</a>
-            </td>
-            <td>
-                <b>
-                    Create Solana's System Instruction library and 'solana-library' folder
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds to our repository a library for Solana's system instructions. They allow developers to create accounts, transfer funds and assign authorities to accounts. Creating accounts is an essential part of an NFT example on Solana created entirely with Solidity.
-
-In addition, this PR creates a `solana-library` folder to hold all the libraries we implement for Solana.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-30 19:08:43 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4352" class=".btn">#4352</a>
+            </td>
+            <td>
+                <b>
+                    adds means to report causing exception up to RPC layer 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                so it can decide how to present it to the CL
+
+fixes #4349 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-06 22:06:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4351" class=".btn">#4351</a>
             </td>
             <td>
@@ -246,7 +274,7 @@ is truncated or otherwise corrupt.
         </tr>
         <tr>
             <td>
-                <span class="chip">documentation</span><span class="chip">doc-change-required</span><span class="chip">mainnet</span><span class="chip">22.7.2</span>
+                <span class="chip">mainnet</span><span class="chip">22.7.2</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->

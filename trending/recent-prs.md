@@ -1,13 +1,13 @@
 
-[1014](https://github.com/hyperledger/aries-framework-javascript/pull/1014) feat: problem report on decline
+[1157](https://github.com/hyperledger/besu-docs/pull/1157) Jvm heap docs
 
-[2707](https://github.com/hyperledger/iroha/pull/2707) [refactor] #2649: Remove `byteorder` crate from `Kura`
+[4352](https://github.com/hyperledger/besu/pull/4352) adds means to report causing exception up to RPC layer 
 
-[4351](https://github.com/hyperledger/besu/pull/4351) Wording tweaks for edge cases in PR #4347
+[1044](https://github.com/hyperledger/firefly/pull/1044) adding test cases for cache init errors
 
-[555](https://github.com/hyperledger/aries-vcx/pull/555) Remove TestAgent trait
+[752](https://github.com/hyperledger/aries-rfcs/pull/752) Clarify the handling of minor versions of a protocol
 
-[413](https://github.com/hyperledger/fabric-test/pull/413) [WIP] Implement missing CCAAS support
+[1156](https://github.com/hyperledger/besu-docs/pull/1156) Correct syntax in config file examples
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
