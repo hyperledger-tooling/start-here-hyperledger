@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1044" class=".btn">#1044</a>
+            </td>
+            <td>
+                <b>
+                    adding test cases for cache init errors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix coverage decrement introduced by central cache PR.
+
+Signed-off-by: Chengxuan Xing <chengxuan.xing@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-06 21:28:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1043" class=".btn">#1043</a>
+            </td>
+            <td>
+                <b>
+                    Fix sequence query in auditevents
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Need to keep requesting new chunks of events even if the previous chunk
+contained no matches.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-06 19:45:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1040" class=".btn">#1040</a>
             </td>
             <td>
@@ -526,62 +581,6 @@ within a particular namespace, without blocking reads or other namespaces.
     </table>
     <div class="right-align">
         Created At 2022-08-31 13:21:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1022" class=".btn">#1022</a>
-            </td>
-            <td>
-                <b>
-                    [identity-tutorial] identity tutorial
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Tutorial to guide user through creating a Custom Identity in FireFly.
-
-References https://github.com/hyperledger/firefly/issues/621
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-30 19:10:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1021" class=".btn">#1021</a>
-            </td>
-            <td>
-                <b>
-                    Allow any plugin to terminate the system on a bad event
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Terminating the system is better than leaving it up in a crippled state.
-
-Closes #957
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-30 18:52:58 +0000 UTC
     </div>
 </div>
 
