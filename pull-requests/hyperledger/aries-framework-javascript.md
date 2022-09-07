@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1016" class=".btn">#1016</a>
+            </td>
+            <td>
+                <b>
+                    chore: add @janrtvld to maintainers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add @janrtvld to maintainers as discussed in [Discord](https://discord.com/channels/905194001349627914/941708033434738768/1016248809589850132).
+
+Signed-off-by: Timo Glastra <timo@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-07 07:24:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1014" class=".btn">#1014</a>
             </td>
             <td>

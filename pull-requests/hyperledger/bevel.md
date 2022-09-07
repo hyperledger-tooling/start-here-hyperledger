@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/bevel
             </td>
             <td>
                 <b>
-                    [corda]: image build workflow failing with conflict error
+                    [corda] image build workflow failing with conflict error
                 </b>
             </td>
         </tr>

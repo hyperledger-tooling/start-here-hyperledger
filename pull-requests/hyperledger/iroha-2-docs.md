@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/158" class=".btn">#158</a>
+            </td>
+            <td>
+                <b>
+                    [docs]: Update FFI chapter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">documentation</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+
+Added suggestion from Aleksandr: https://github.com/hyperledger/iroha-2-docs/pull/114#pullrequestreview-1079993948
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-07 10:37:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/157" class=".btn">#157</a>
             </td>
             <td>

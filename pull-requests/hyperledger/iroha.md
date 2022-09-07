@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2708" class=".btn">#2708</a>
+            </td>
+            <td>
+                <b>
+                    [ci]: Auto-label `api-changes` and `config-changes`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">CI</span>
+            </td>
+            <td>
+                <!-- [ci]: Auto-label `api-changes` and `config-changes` -->
+### Description of the Change
+
+- Add a workflow that automatically label `api-changes` and `config-changes`
+
+### Issue
+
+- None
+
+### Benefits
+
+- Automation
+
+### Possible Drawbacks
+
+- None
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-07 07:23:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2707" class=".btn">#2707</a>
             </td>
             <td>

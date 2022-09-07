@@ -1,13 +1,13 @@
 
-[157](https://github.com/hyperledger/iroha-2-docs/pull/157) [fix] #146: update snippets in python section
+[449](https://github.com/hyperledger-labs/orion-server/pull/449) Fix logging call
 
-[3364](https://github.com/hyperledger/aries-framework-go/pull/3364) test: jwt format tests in presentation exchange
+[4353](https://github.com/hyperledger/besu/pull/4353) Always shutdown the executor
 
-[1157](https://github.com/hyperledger/besu-docs/pull/1157) Jvm heap docs
+[158](https://github.com/hyperledger/iroha-2-docs/pull/158) [docs]: Update FFI chapter
 
-[4352](https://github.com/hyperledger/besu/pull/4352) adds means to report causing exception up to RPC layer 
+[228](https://github.com/hyperledger/fabric-sdk-java/pull/228) release v1.4.16
 
-[1044](https://github.com/hyperledger/firefly/pull/1044) adding test cases for cache init errors
+[227](https://github.com/hyperledger/fabric-sdk-java/pull/227) release v2.2.16
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
