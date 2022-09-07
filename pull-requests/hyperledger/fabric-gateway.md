@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/471" class=".btn">#471</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/476" class=".btn">#476</a>
             </td>
             <td>
                 <b>
-                    Update contributing guide
+                    Support Go 1.19
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Closes #324
+                Just allows the main branch to be developed using Go 1.19. Support for Go 1.17 to be removed later, once a new minor version release is ready.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-11 12:16:53 +0000 UTC
+        Created At 2022-09-07 17:01:39 +0000 UTC
     </div>
 </div>
 

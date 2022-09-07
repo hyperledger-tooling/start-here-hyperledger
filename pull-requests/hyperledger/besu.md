@@ -14,17 +14,102 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4353" class=".btn">#4353</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/4357" class=".btn">#4357</a>
             </td>
             <td>
                 <b>
-                    Always shutdown the executor
+                    Avoid a cyclic reference while printing EngineExchangeTransitionConfigurationParameter
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 
+            </td>
+            <td>
+                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
+
+## PR description
+
+EngineExchangeTransitionConfigurationParameter is printed if logging is set to `TRACE`. In the current version it throws an exception while trying to print it, because of a circular reference. This PR avoids this circular reference and EngineExchangeTransitionConfigurationParameter is printed as expected.
+
+
+## Fixed Issue(s)
+fixes #4354
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-07 14:05:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4355" class=".btn">#4355</a>
+            </td>
+            <td>
+                <b>
+                    Log index is counted per block, not per transaction
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
+
+## PR description
+
+The log index returned by `eth_getLogs` is currently counted on a transaction basis, which is incorrect. The correct way is to have it unique per block. This PR changes it to the correct behavior.
+
+## Fixed Issue(s)
+fixes #4114
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-07 13:09:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4353" class=".btn">#4353</a>
+            </td>
+            <td>
+                <b>
+                    Always shutdown the mining executor on exit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
@@ -34,18 +119,24 @@ permalink: /pull-requests/hyperledger/besu
 
 ## PR description
 
+There is an issue that prevents the PoWMiner to stop cleanly, with the effect of taking 30 seconds before the timeout expires and Besu can stop.
+
+Basically the miner executor was only shutdown when running, but not when it was idle, this PR always shutdown the executor when the mining is stopped
+
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
+fixes #4313
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>

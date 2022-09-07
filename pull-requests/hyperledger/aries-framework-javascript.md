@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1017" class=".btn">#1017</a>
+            </td>
+            <td>
+                <b>
+                    feat: Added baseMediatorReconnectionIntervalMs and maximumMediatorReconnectionIntervalMs to Agent configuration for controlling back off strategy on mediator reconnection
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sergi Garreta <sergi.garreta@entrust.com>
+
+Fixes Issue #1002 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-07 13:40:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1016" class=".btn">#1016</a>
             </td>
             <td>
