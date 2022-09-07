@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/42" class=".btn">#42</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/43" class=".btn">#43</a>
             </td>
             <td>
                 <b>
-                    move go.mod and go.sum to the root directory
+                    bump yui-relayer
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-31 07:29:28 +0000 UTC
+        Created At 2022-09-07 08:31:09 +0000 UTC
     </div>
 </div>
 

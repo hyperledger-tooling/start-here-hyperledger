@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/448" class=".btn">#448</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/449" class=".btn">#449</a>
             </td>
             <td>
                 <b>
-                    replace json marshalling with protojson
+                    Fix logging call
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/orion-server
                 
             </td>
             <td>
-                Signed-off-by: senthil <cendhu@gmail.com>
+                Signed-off-by: Liran Funaro <liran.funaro@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-18 07:10:37 +0000 UTC
+        Created At 2022-09-07 12:14:25 +0000 UTC
     </div>
 </div>
 

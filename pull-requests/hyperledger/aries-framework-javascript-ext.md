@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/164" class=".btn">#164</a>
+            </td>
+            <td>
+                <b>
+                    chore: release @aries-framework/rest 0.9.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">autorelease: tagged</span><span class="chip">ci-test</span>
+            </td>
+            <td>
+                :robot: I have created a release \*beep\* \*boop\*
+---
+### [0.9.2](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/rest-v0.9.1...rest-v0.9.2) (2022-09-07)
+
+
+### Bug Fixes
+
+* **rest:** accept proof properties now optional ([#162](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/162)) ([f927fdc](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/f927fdcd4a6142a6bc086d82d3b6e6ed1317108d))
+---
+
+
+This PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-07 08:06:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/162" class=".btn">#162</a>
             </td>
             <td>
