@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/477" class=".btn">#477</a>
+            </td>
+            <td>
+                <b>
+                    Use govulncheck for vulnerability scanning of Go dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #475
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-07 18:25:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/476" class=".btn">#476</a>
             </td>
             <td>

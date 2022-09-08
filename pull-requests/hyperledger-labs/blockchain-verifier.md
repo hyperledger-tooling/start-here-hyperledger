@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/23" class=".btn">#23</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/24" class=".btn">#24</a>
             </td>
             <td>
                 <b>
-                    Bump Fabric and dependency versions
+                    Add MAINTAINERS.md
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
                 
             </td>
             <td>
-                This PR is to housekeep the repository, including updating the dependencies and Hyperledger Fabric used in the integration tests and updating documentations.
+                This patch adds the information about maintainers in the repository.
+
+Resolves #22
+
+Signed-off-by: Taku Shimosawa
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-22 23:46:30 +0000 UTC
+        Created At 2022-09-08 00:39:18 +0000 UTC
     </div>
 </div>
 
