@@ -64,31 +64,3 @@ Signed-off-by: yjwxfq <yjwxfq@163.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/822" class=".btn">#822</a>
-            </td>
-            <td>
-                <b>
-                    add js chaincode for the private data concept
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: abdou.chakhkhar <abdelmoula.chakhkhar@uit.ac.ma>
-
-In this PR, I implemented the js chaincode for the private data concept, which s gonna allow the js developers to get familiarized so quickly with private data APIs in the nodejs SDK.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-01 14:59:10 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/823" class=".btn">#823</a>
+            </td>
+            <td>
+                <b>
+                    Use same BPA image for all instances in local scenario
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Tim Schlagenhaufer <tim.schlagenhaufer@bosch.io>
+
+Use the same locally built image for both BPAs in the local scenario
+
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/823"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-08 14:31:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/822" class=".btn">#822</a>
             </td>
             <td>
