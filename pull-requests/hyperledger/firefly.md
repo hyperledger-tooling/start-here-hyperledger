@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1050" class=".btn">#1050</a>
+            </td>
+            <td>
+                <b>
+                    Handle FFTM new style acks with batchNumber
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                See https://github.com/hyperledger/firefly-transaction-manager/pull/36
+
+> Leaving in draft mode until we have an FFTM+EVMConnect release, to include in the manifest
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-08 02:57:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1048" class=".btn">#1048</a>
             </td>
             <td>

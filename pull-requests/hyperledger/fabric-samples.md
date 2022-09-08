@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/825" class=".btn">#825</a>
+            </td>
+            <td>
+                <b>
+                    Update chaincode/abstore, add parameter judgment when the transaction ma…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …kes payment.
+
+Signed-off-by: yjwxfq <yjwxfq@163.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-08 02:50:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/822" class=".btn">#822</a>
             </td>
             <td>
