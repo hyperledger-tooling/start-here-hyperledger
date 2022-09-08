@@ -1,13 +1,13 @@
 
-[2720](https://github.com/hyperledger/iroha/pull/2720) Fix/transfer asset permitions in 1 6
+[2721](https://github.com/hyperledger/iroha/pull/2721) Develop to main hotfix
 
-[2719](https://github.com/hyperledger/iroha/pull/2719) [fix] #2638: Update white paper.
+[1008](https://github.com/hyperledger/solang/pull/1008) Emit events using Borsh encoding for Solana
 
-[2718](https://github.com/hyperledger/iroha/pull/2718) Fix/transfer asset permitions
+[823](https://github.com/hyperledger-labs/business-partner-agent/pull/823) Use same BPA image for all instances in local scenario
 
-[2717](https://github.com/hyperledger/iroha/pull/2717) [fix] #2716: Make Duration in Uptime public
+[49](https://github.com/hyperledger-labs/hlf-connector/pull/49) Increment version after release
 
-[2715](https://github.com/hyperledger/iroha/pull/2715) [feature] #2502: Store GIT hash of build
+[48](https://github.com/hyperledger-labs/hlf-connector/pull/48) Changed logic for getting label
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
