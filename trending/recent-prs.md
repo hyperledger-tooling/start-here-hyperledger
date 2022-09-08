@@ -1,13 +1,13 @@
 
-[1048](https://github.com/hyperledger/firefly/pull/1048) Consistently fall back to ff_system for legacy identity lookups
+[24](https://github.com/hyperledger-labs/blockchain-verifier/pull/24) Add MAINTAINERS.md
 
-[476](https://github.com/hyperledger/fabric-gateway/pull/476) Support Go 1.19
+[84](https://github.com/hyperledger/homebrew-besu/pull/84) 22.7.2 release
 
-[372](https://github.com/hyperledger-labs/fabric-token-sdk/pull/372) Fix: typos
+[4362](https://github.com/hyperledger/besu/pull/4362) prep for 22.7.3
 
-[1931](https://github.com/hyperledger/aries-cloudagent-python/pull/1931) Rework on ACA-Py to achieve ledger agnosticism
+[4361](https://github.com/hyperledger/besu/pull/4361) release versioning
 
-[34](https://github.com/hyperledger/firefly-sdk-nodejs/pull/34) Configurable log level
+[1158](https://github.com/hyperledger/besu-docs/pull/1158) Update architecture diagrams
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

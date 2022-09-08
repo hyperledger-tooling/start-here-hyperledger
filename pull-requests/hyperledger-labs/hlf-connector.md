@@ -14,31 +14,25 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/46" class=".btn">#46</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/47" class=".btn">#47</a>
             </td>
             <td>
                 <b>
-                    Add org to existing channel fix
+                    Increment version after release
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">auto-version-increment</span>
             </td>
             <td>
-                This PR contains following changes:
-
-1.Code formatting and imports reorganised
-2.Add org to existing channel minor fixes
-3.Sonar lint issues resolved
-
-Signed-off-by: Abhay Kishore <abhay.kishore@walmart.com>
+                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-24 06:30:15 +0000 UTC
+        Created At 2022-09-07 18:39:40 +0000 UTC
     </div>
 </div>
 

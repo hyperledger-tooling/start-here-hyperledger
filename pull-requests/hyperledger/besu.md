@@ -14,6 +14,154 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4362" class=".btn">#4362</a>
+            </td>
+            <td>
+                <b>
+                    prep for 22.7.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+prepare for 22.7.3 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-07 23:27:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4361" class=".btn">#4361</a>
+            </td>
+            <td>
+                <b>
+                    release versioning
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+release version for 22.7.2
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-07 22:17:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4359" class=".btn">#4359</a>
+            </td>
+            <td>
+                <b>
+                    Cherry pick release 22.7.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Cherry picks for 22.7.2, on top of post-22.7.1 release snapshot commit:
+```
+PR      commit     Description
+4351    20fc1b7f2    snapsync logging tweaks
+4312    c57dcd99d    Fix trie node from peers
+4325    101f5efbd    Pandas
+4352    93109ecc2    Returns INVALID on timeout exception
+4353    d20f0a8f4    Miner shutdown
+4337    296025865    quieten rlp decode error logging
+4347    6e8a906df    snapsync logging for clearer sync status
+4336    8ee253982    Future tx nonce limits by sender
+4327    f3fd946ed    Txpool eviction by tail
+4335    2e08c5c09    Better CORS errors
+4334    86c308096    RLP Decoding should not log at ERROR
+4311    b25779149    BWS logging fix
+4310    c321a85ef    Post-Merge logging for block info
+4271    af65c86e6    Retry mechanism in import
+4269    b3b8e0aae    Peer filter for disconnected peers
+4237    dcb951eb7    JEMalloc Logging changes
+4283    e5e6a679d    interpret an empty string (0x80) as an unsigned byte of 0
+4268    113bd54c6    logging for breach of protocol
+4298    a44cb1cab    reduce post-merge fast sync min peers
+4299    16922cac8    reduce logging
+```
+
+edit: added Tessera and test container commits in order to pass CI:
+```
+4297     98e214ced   ignore the tests that use tessera enclave via docker
+```
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-07 20:16:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4357" class=".btn">#4357</a>
             </td>
             <td>
@@ -440,88 +588,6 @@ TBA
     </table>
     <div class="right-align">
         Created At 2022-09-01 03:38:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4335" class=".btn">#4335</a>
-            </td>
-            <td>
-                <b>
-                    4328 quiet cors errors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Open question as to if this is overly broad: This will log the error message for all failed RPC calls, but not the stack trace, unless logging is turned up to debug.
-
-This _seems_ to be the preferred way to do this in Vert.x, but I'm open to solutions that are more narrowly aimed at the CORS handling case.
-
-## PR description
-
-## Fixed Issue(s)
-fixes #4328 
-
-## Documentation
-
-- [X] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-31 20:19:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4334" class=".btn">#4334</a>
-            </td>
-            <td>
-                <b>
-                    Fixing sub logging and moving stack trace to debug.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">logging</span><span class="chip">22.7.2</span>
-            </td>
-            <td>
-                ## PR description
-PR to change logging for more graceful usage on #4323. To access stack trace, use DEBUG for subscriber. 
-
-## Fixed Issue(s)
- 
-Fixes #4323 
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-31 19:06:53 +0000 UTC
     </div>
 </div>
 
