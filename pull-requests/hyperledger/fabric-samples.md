@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/826" class=".btn">#826</a>
+            </td>
+            <td>
+                <b>
+                    Sample application to add a golang version to commercial-paper
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Fang Yuan <wojiushifangyuanlove@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-08 07:34:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/825" class=".btn">#825</a>
             </td>
             <td>

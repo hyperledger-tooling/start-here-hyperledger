@@ -194,29 +194,3 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/223" class=".btn">#223</a>
-            </td>
-            <td>
-                <b>
-                    Optimize file reading method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-01 09:47:32 +0000 UTC
-    </div>
-</div>
-

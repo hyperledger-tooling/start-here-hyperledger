@@ -14,27 +14,25 @@ permalink: /pull-requests/hyperledger-labs/bdls
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/bdls/pull/1" class=".btn">#1</a>
+                PR <a href="https://github.com/hyperledger-labs/bdls/pull/3" class=".btn">#3</a>
             </td>
             <td>
                 <b>
-                    Update README.md
+                    Including the update for the typo fix and test fix
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">bug</span>
+                <span class="chip">bug</span><span class="chip">enhancement</span>
             </td>
             <td>
-                Signed-off-by: Ahmed Al Salih <ahmed82@users.noreply.github.com>
-
-Fix License-Apache badge
+                Closing the #2 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-17 01:54:30 +0000 UTC
+        Created At 2022-09-08 08:55:59 +0000 UTC
     </div>
 </div>
 
