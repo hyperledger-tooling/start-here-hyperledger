@@ -15,48 +15,46 @@ permalink: /releases/hyperledger/besu
         <tr>
             <td colspan="2">
                 <b>
-                    22.7.1 - Ready to Merge
+                    22.7.2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    22.7.1
+                    22.7.2
                 </span>
             </td>
             <td>
-                ## 22.7.1 - Mandatory Upgrade for The Merge on Ethereum Mainnet!
-
-Hi folks! This is the big one... This update includes configurations that make Besu compatible with the Mainnet Merge! Make sure you read up on [the Merge here](https://besu.hyperledger.org/en/stable/Concepts/Merge/) to understand what is happening to both your node and the network ([and check out this page to make sure you are prepared](https://besu.hyperledger.org/en/latest/public-networks/how-to/prepare-for-the-merge/)). The date for the Merge is likely to be the 15th of September and can be tracked [here](https://bordel.wtf). 
-
-Since Besu releases on a two-weekly cadence, we anticipate one more (likely optional) release prior to the Merge with last minute fixes, cleanup, and more so stay tuned for that. Make sure your nodes are in sync prior to the 15th if you want to participate in history! 
+                ## 22.7.2
+### Besu 22.7.2 is a recommended release for the Merge and Mainnet users. 22.7.1 remains Merge-ready. This release provides additional robustness before the Merge with some fixes and improvements in sync, peering, and logging.
 
 ### Additions and Improvements
-- Introduce a cap to reputation score increase [#4230](https://github.com/hyperledger/besu/pull/4230)
-- Add experimental CLI option for `--Xp2p-peer-lower-bound` [#4200](https://github.com/hyperledger/besu/pull/4200)
-- Improve pending blocks retrieval mechanism [#4227](https://github.com/hyperledger/besu/pull/4227)
-- set mainnet terminal total difficulty [#4260](https://github.com/hyperledger/besu/pull/4260)
+- Better management of jemalloc presence/absence in startup script [#4237](https://github.com/hyperledger/besu/pull/4237)
+- Retry mechanism when getting a broadcasted block fail on all peers [#4271](https://github.com/hyperledger/besu/pull/4271)
+- Filter out disconnected peers when fetching available peers [#4269](https://github.com/hyperledger/besu/pull/4269)
+- Updated the default value of fast-sync-min-peers post merge [#4298](https://github.com/hyperledger/besu/pull/4298)
+- Log imported block info post merge [#4310](https://github.com/hyperledger/besu/pull/4310)
+- Pandas! Pandas now appear in 3 phases: The black bear and polar bear that are preparing? Those will appear when
+your client has TTD configured (which is setup by default for mainnet), is in sync, and processing Proof of Work blocks. In the second phase you will see them powering up when the Terminal Total Difficulty block is added to the blockchain.
+The final form of the Ethereum Panda will appear when the first finalized block is received from the Consensus Layer.
 
 ### Bug Fixes
-- Fixes off-by-one error for mainnet TTD fallback [#4223](https://github.com/hyperledger/besu/pull/4223)
-- Fix off-by-one error in AbstractRetryingPeerTask [#4254](https://github.com/hyperledger/besu/pull/4254)
-- Refactor and fix retrying get block switching peer [#4256](https://github.com/hyperledger/besu/pull/4256)
-- Fix encoding of key (short hex) in eth_getProof [#4261](https://github.com/hyperledger/besu/pull/4261)
-- Fix for post-merge networks fast-sync [#4224](https://github.com/hyperledger/besu/pull/4224), [#4276](https://github.com/hyperledger/besu/pull/4276)
+- Accept wit/80 from Nethermind [#4279](https://github.com/hyperledger/besu/pull/4279)
+- Properly shutdown the miner executor, to avoid waiting 30 seconds when stopping [#4353](https://github.com/hyperledger/besu/pull/4353)
 
 ### Download links
-- https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/22.7.1/besu-22.7.1.tar.gz / sha256: `7cca4c11e1d7525c172f2af9fbf456d134ada60e970d8b6abcfcd6c623b5dd36`
-- https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/22.7.1/besu-22.7.1.zip / sha256: `ba6e0b9b65ac36d041a5072392f119ff76e8e9f53a3d7b1e1a658ef1e4705d7a`
+- https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/22.7.2/besu-22.7.2.tar.gz / sha256: `8030a48f824c7bbc138b38a9e84e5531950bc16f6d21cda8b215232cce334214`
+- https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/22.7.2/besu-22.7.2.zip / sha256: `72653171b1ddd910e705fc6f616d7f1f4c120ef0d91718f0376f3ee5f2982c11`
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/besu/releases/tag/22.7.1" class=".btn">
+    <a href="https://github.com/hyperledger/besu/releases/tag/22.7.2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-08-22 16:49:49 +0000 UTC
+        Created At 2022-09-07 22:57:03 +0000 UTC
     </span>
 </div>
 
