@@ -42,87 +42,6 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3631" class=".btn">#3631</a>
-            </td>
-            <td>
-                <b>
-                    Update prereqs.rst
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I have proposed some explination of the commands.
-
-We are typing in the commands but we don't know the pros and cons.
-
-If we write pros and cons with important, rather all commands it will be quite helpful as the support of HLF is quite less and I have seen people quitting it because of the same very reason.
-
-Signed-off-by: Ali Akbar <48174866+AliakbarETH@users.noreply.github.com>
-
-<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
-
-<!--- Provide a descriptive summary of your changes in the Title above. -->
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-- New feature
-- Improvement (improvement to code, performance, etc)
-- Test update
-- Documentation update
-
-#### Description
-
-<!--- Describe your changes in detail, including motivation. -->
-
-#### Additional details
-
-<!--- Additional implementation details or comments to reviewers. -->
-<!--- Summarize how the pull request was tested (if not obvious from commit). -->
-
-#### Related issues
-
-<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
-
-<!---
-#### Release Note
-If change impacts current users, uncomment Release Note heading and provide
-release note text.
-Also, copy release note text into the release specific /release_notes file.
--->
-
-<!--
-Checklist (DELETE AFTER READING):
-
-- `Signed-off-by` added to commits (required for DCO check to pass)
-- Tests have been added/updated (required for bug fixes and features)
-- Unit and/or integration tests pass locally
-- Run linters and checks locally using 'make checks'
-- If change requires documentation updates, make updates in pull request,
-  or open a separate issue and provide link
-- Squash commits into a single commit, unless a stack of commits is
-  intentional to assist reviewers or to preserve review comments.
-- For additional contribution guidelines see the project's CONTRIBUTING.md file
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-07 07:24:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3628" class=".btn">#3628</a>
             </td>
             <td>
@@ -283,46 +202,6 @@ Checklist (DELETE AFTER READING):
     </table>
     <div class="right-align">
         Created At 2022-09-05 08:10:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3621" class=".btn">#3621</a>
-            </td>
-            <td>
-                <b>
-                    Orderer v3: remove kafka from shared config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Yoav Tock <tock@il.ibm.com>
-Change-Id: I1aefd584e0217642c1315544da8eb1e1849ec759
-
-#### Type of change
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-Remove kafka brokers from shared config
-
-#### Related issues
-
-Issue: #3513 
-Epic: #3511 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-01 10:52:03 +0000 UTC
     </div>
 </div>
 

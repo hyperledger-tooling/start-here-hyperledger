@@ -1,13 +1,13 @@
 
-[1162](https://github.com/hyperledger/besu-docs/pull/1162) Update terminology around experimental features
+[2720](https://github.com/hyperledger/iroha/pull/2720) Fix/transfer asset permitions in 1 6
 
-[564](https://github.com/hyperledger/aries-agent-test-harness/pull/564) Changes by create-pull-request action
+[2719](https://github.com/hyperledger/iroha/pull/2719) [fix] #2638: Update white paper.
 
-[1159](https://github.com/hyperledger/besu-docs/pull/1159) Typo dash
+[2718](https://github.com/hyperledger/iroha/pull/2718) Fix/transfer asset permitions
 
-[1050](https://github.com/hyperledger/firefly/pull/1050) Handle FFTM new style acks with batchNumber
+[2717](https://github.com/hyperledger/iroha/pull/2717) [fix] #2716: Make Duration in Uptime public
 
-[825](https://github.com/hyperledger/fabric-samples/pull/825) Update chaincode/abstore, add parameter judgment when the transaction ma…
+[2715](https://github.com/hyperledger/iroha/pull/2715) [feature] #2502: Store GIT hash of build
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

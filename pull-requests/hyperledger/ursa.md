@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/ursa
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/ursa/pull/211" class=".btn">#211</a>
+                PR <a href="https://github.com/hyperledger/ursa/pull/215" class=".btn">#215</a>
             </td>
             <td>
                 <b>
-                    Cleanup
+                    added MAINTAINERS.md file
                 </b>
             </td>
         </tr>
@@ -27,34 +27,14 @@ permalink: /pull-requests/hyperledger/ursa
                 
             </td>
             <td>
-                Noticed that there were quite some unnecessary references and small things that could be refactored. If these references and other choices are by-design This PR can be closed and ignored.
+                Probably missing some maintainers. Feel free to add them.
 
-It does not alter the functionality one bit except for what seemd to me as an issue in `to_bytes` on the `Sharing` struct.
-
-from:
-
-```rust
-    pub fn to_bytes(&self) -> Vec<u8> {
-         let mut o = self.identifier.to_be_bytes().to_vec();
-         o.append(&mut self.to_bytes()); // This recusively calls itself and should never return?
-         o
-     }
-```
-
-to:
-
-```rust
-    pub fn to_bytes(&mut self) -> Vec<u8> {
-         let mut o = self.identifier.to_be_bytes().to_vec();
-         o.append(&mut self.value);
-         o
-     }
-```
+Signed-off-by: blu3beri <berend@animo.id>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-04 10:02:27 +0000 UTC
+        Created At 2022-09-08 08:17:04 +0000 UTC
     </div>
 </div>
 
