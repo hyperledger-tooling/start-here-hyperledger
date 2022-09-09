@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/313" class=".btn">#313</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/314" class=".btn">#314</a>
             </td>
             <td>
                 <b>
-                    Added automated publishing of go modules
+                    Feature to select Endorsing Orgs in Fabric Data Sharing
                 </b>
             </td>
         </tr>
@@ -27,15 +27,15 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                1. Added workflow to publish go modules automatically. (Don't update module and its dependency in same PR, else if want to do both, make sure `go.mod` and `go.sum` reflect correct version (new) and correct hash of go module)
-2. Added `VERSION` files in all go modules, to indicate version of the go module.
-3. Added empty `README.md` file (made the filename consistent across all go modules). Need to fill these readmes later.
-4. Version bump for utils, assetexchange, and asset-mgmt.
+                1. Added list of orgs as parameter in `interopFlow` in SDK to chose endorsing orgs.
+2. Added `participants` field under `ContractTransaction` in events.proto.
+3. Updated fabric-driver `writeExternalState` endpoint to allow use of list of orgs to submit transaction to in case of event publication.
+4. Updated the way to update docker images version using `VERSION` file (making it uniform with go modules).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-30 11:08:27 +0000 UTC
+        Created At 2022-09-09 06:04:28 +0000 UTC
     </div>
 </div>
 
