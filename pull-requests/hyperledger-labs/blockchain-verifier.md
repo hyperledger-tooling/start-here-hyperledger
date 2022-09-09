@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/25" class=".btn">#25</a>
+            </td>
+            <td>
+                <b>
+                    Blockchain Verifier v0.4.0 release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR is to release the version 0.4 of Blockchain Verifier.
+
+It contains patches
+- to get prepared for deprecation of Hyperledger Fabric v1.4 support
+- to upgrade dependencies
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-09 08:37:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/24" class=".btn">#24</a>
             </td>
             <td>

@@ -1,13 +1,13 @@
 
-[314](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/314) Feature to select Endorsing Orgs in Fabric Data Sharing
+[828](https://github.com/hyperledger/fabric-samples/pull/828) Bump passport from 0.4.1 to 0.6.0 in /asset-transfer-basic/rest-api-typescript
 
-[486](https://github.com/hyperledger/cello/pull/486) Fix a gh-action issue in #472
+[417](https://github.com/hyperledger/fabric-test/pull/417) Bump chaincode integration tool version to 0.8.0
 
-[197](https://github.com/hyperledger/sawtooth-sabre/pull/197) Replace transact dependencies with sawtooth
+[416](https://github.com/hyperledger/fabric-test/pull/416) Update chaincode integration tool
 
-[2723](https://github.com/hyperledger/iroha/pull/2723) [ci]: iroha2 commits message format checking
+[415](https://github.com/hyperledger/fabric-test/pull/415) Bump chaincode integration tool version to 0.7.0
 
-[2722](https://github.com/hyperledger/iroha/pull/2722) Fix publishing
+[827](https://github.com/hyperledger/fabric-samples/pull/827) Fix test network chaincode deploy
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
