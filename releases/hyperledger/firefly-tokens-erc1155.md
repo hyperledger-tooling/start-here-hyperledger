@@ -15,31 +15,30 @@ permalink: /releases/hyperledger/firefly-tokens-erc1155
         <tr>
             <td colspan="2">
                 <b>
-                    v1.1.2
+                    v1.1.3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.1.2
+                    v1.1.3
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Fix missing ABIs for certain events by @nguyer in https://github.com/hyperledger/firefly-tokens-erc1155/pull/93
-* Ensure stream name and topic always match by @awrichar in https://github.com/hyperledger/firefly-tokens-erc1155/pull/94
+* iInclude the batchNumber if specified in acks, for FFTM/EVMConnect by @awrichar in https://github.com/hyperledger/firefly-tokens-erc1155/pull/95
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc1155/compare/v1.1.1...v1.1.2
+**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc1155/compare/v1.1.2...v1.1.3
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-tokens-erc1155/releases/tag/v1.1.2" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-tokens-erc1155/releases/tag/v1.1.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-08-23 20:05:31 +0000 UTC
+        Created At 2022-09-09 00:51:48 +0000 UTC
     </span>
 </div>
 
