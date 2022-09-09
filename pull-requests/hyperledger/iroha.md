@@ -767,7 +767,7 @@ None.
             </td>
             <td>
                 <b>
-                    [fix]: Dco fix
+                    [ci]: Dco fix
                 </b>
             </td>
         </tr>
@@ -881,7 +881,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             </td>
             <td>
                 <b>
-                    [fix]: Fix doc comment in schema/src
+                    [documentation]: Fix doc comment in schema/src
                 </b>
             </td>
         </tr>
