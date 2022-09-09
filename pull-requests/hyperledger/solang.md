@@ -118,29 +118,3 @@ As discussed in our daily: We could easily extend this for solana as well. Addit
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1001" class=".btn">#1001</a>
-            </td>
-            <td>
-                <b>
-                    Improve vscode extension documentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-02 13:11:33 +0000 UTC
-    </div>
-</div>
-
