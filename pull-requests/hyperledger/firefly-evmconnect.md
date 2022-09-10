@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/30" class=".btn">#30</a>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/32" class=".btn">#32</a>
             </td>
             <td>
                 <b>
-                    GET /status/* APIs for Liveness and Readiness Probes
+                    update fftm to v0.9.12
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
                 
             </td>
             <td>
-                Signed-off-by: hfuss <haydenfuss@gmail.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-02 23:59:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/29" class=".btn">#29</a>
-            </td>
-            <td>
-                <b>
-                    Lower default catchup page size
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-02 00:22:25 +0000 UTC
+        Created At 2022-09-09 00:14:05 +0000 UTC
     </div>
 </div>
 

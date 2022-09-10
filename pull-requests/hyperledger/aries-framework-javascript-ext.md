@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/166" class=".btn">#166</a>
+            </td>
+            <td>
+                <b>
+                    feat(rest): added filters to getAllCredentials
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-09 12:32:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/165" class=".btn">#165</a>
+            </td>
+            <td>
+                <b>
+                    docs(rest): removed 'peerDependencies' from README
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jim Ezesinachi <jim@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-08 09:33:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/164" class=".btn">#164</a>
             </td>
             <td>
@@ -133,47 +185,6 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
     </table>
     <div class="right-align">
         Created At 2022-09-05 09:38:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/159" class=".btn">#159</a>
-            </td>
-            <td>
-                <b>
-                    chore: release @aries-framework/rest 0.9.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">autorelease: tagged</span><span class="chip">ci-test</span>
-            </td>
-            <td>
-                :robot: I have created a release \*beep\* \*boop\*
----
-## [0.9.0](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/rest-v0.8.1...rest-v0.9.0) (2022-09-02)
-
-
-### ⚠ BREAKING CHANGES
-
-* **rest:** update to AFJ 0.2.0 (#148)
-
-### Features
-
-* **rest:** update to AFJ 0.2.0 ([#148](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/148)) ([8ec4dc4](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/8ec4dc4548305d5cc8180b657f5865002eb3ee4a))
----
-
-
-This PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-02 13:24:07 +0000 UTC
     </div>
 </div>
 

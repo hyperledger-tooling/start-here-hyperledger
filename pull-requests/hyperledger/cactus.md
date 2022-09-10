@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2157" class=".btn">#2157</a>
+            </td>
+            <td>
+                <b>
+                    fix(cactus-example-discounted-asset-trade): enable tsconfig strict flag and fix all the warnings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+- Fixed all warnings when strict flag is enabled
+
+Closes: #2145
+
+Signed-off-by: Tomasz Awramski <tomasz.awramski@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-09 09:38:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/2155" class=".btn">#2155</a>
             </td>
             <td>
@@ -47,39 +78,6 @@ Signed-off-by: jagpreetsinghsasan <jagpreet.singh.sasan@accenture.com>
     </table>
     <div class="right-align">
         Created At 2022-09-05 06:29:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2154" class=".btn">#2154</a>
-            </td>
-            <td>
-                <b>
-                    feat(cbdc-bridging-app): refactor ODAP plugin implementation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * From now there is one PluginOdapGateway that must be extended by any implementation of a gateway
-* This commit intends to decouple the gateway implementation from any ledger
-* There is still a Gateway implementation for Fabric and Besu
-* The asset being transferred is now in the scope of the request and not the gateway, which makes possible the transfer of multiple assets without having to create new gateways
-
-closes #2132 
-
-Signed-off-by: André Augusto <andre.augusto@tecnico.ulisboa.pt>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-01 16:06:35 +0000 UTC
     </div>
 </div>
 

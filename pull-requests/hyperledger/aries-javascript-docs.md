@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/69" class=".btn">#69</a>
+                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/70" class=".btn">#70</a>
             </td>
             <td>
                 <b>
-                    chore: add maintainers.md file
+                    fix: import http inbound from node package
                 </b>
             </td>
         </tr>
@@ -27,15 +27,13 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
                 
             </td>
             <td>
-                Fixes #68
-
-Signed-off-by: Timo Glastra <timo@animo.id>
+                Signed-off-by: Timo Glastra <timo@animo.id>
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-08 11:43:55 +0000 UTC
+        Created At 2022-09-10 09:22:37 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,116 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1024" class=".btn">#1024</a>
+            </td>
+            <td>
+                <b>
+                    chore(release): v0.2.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">ci-test</span>
+            </td>
+            <td>
+                Release version 0.2.4
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-10 14:07:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1021" class=".btn">#1021</a>
+            </td>
+            <td>
+                <b>
+                    feat(proofs): delete associated didcomm messages 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves #860 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-08 20:07:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1020" class=".btn">#1020</a>
+            </td>
+            <td>
+                <b>
+                    feat(proofs): proofs module migration script for 0.3.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #996
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-08 19:58:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1019" class=".btn">#1019</a>
+            </td>
+            <td>
+                <b>
+                    fix: avoid crash when an unexpected message arrives
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Pavel Zarecky <zarecky@procivis.ch>
+
+This catch block is added to avoid potential crash, when an unexpected message arrives from a connection.
+
+See #1018
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-08 11:27:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1017" class=".btn">#1017</a>
             </td>
             <td>
@@ -80,7 +190,7 @@ Signed-off-by: Timo Glastra <timo@animo.id>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">Waiting on Author</span>
             </td>
             <td>
                 Adds a new problem report reason for credential / presentation decline and sends a problem report when declining an offer or request. 
@@ -143,32 +253,6 @@ Signed-off-by: Niall Shaw <niall.shaw@absa.africa>
     </table>
     <div class="right-align">
         Created At 2022-09-06 07:34:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1003" class=".btn">#1003</a>
-            </td>
-            <td>
-                <b>
-                    fix: unable to resolve nodejs document loader in react native runtime environment
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Should fix #993 by conditionally importing the XHR and NodeJS document loaders, based on the runtime environment.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-01 11:03:24 +0000 UTC
     </div>
 </div>
 

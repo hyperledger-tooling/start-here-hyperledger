@@ -1,13 +1,13 @@
 
-[1010](https://github.com/hyperledger/solang/pull/1010) constant arthimeteic overflow
+[1024](https://github.com/hyperledger/aries-framework-javascript/pull/1024) chore(release): v0.2.4
 
-[824](https://github.com/hyperledger-labs/business-partner-agent/pull/824) model updates to prepare for selective disclosure and self attested attributes
+[70](https://github.com/hyperledger/aries-javascript-docs/pull/70) fix: import http inbound from node package
 
-[828](https://github.com/hyperledger/fabric-samples/pull/828) Bump passport from 0.4.1 to 0.6.0 in /asset-transfer-basic/rest-api-typescript
+[566](https://github.com/hyperledger/aries-agent-test-harness/pull/566) Changes by create-pull-request action
 
-[417](https://github.com/hyperledger/fabric-test/pull/417) Bump chaincode integration tool version to 0.8.0
+[84](https://github.com/hyperledger/aries-mobile-test-harness/pull/84) updated bc wallet tests to build 317
 
-[416](https://github.com/hyperledger/fabric-test/pull/416) Update chaincode integration tool
+[3368](https://github.com/hyperledger/aries-framework-go/pull/3368) Jwt wallet
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

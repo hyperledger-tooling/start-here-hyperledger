@@ -14,6 +14,99 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1935" class=".btn">#1935</a>
+            </td>
+            <td>
+                <b>
+                    Delete sonarcloud.yml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Disable automatic sonarcloud
+
+Signed-off-by: Ry Jones <ry@linux.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-09 15:18:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1934" class=".btn">#1934</a>
+            </td>
+            <td>
+                <b>
+                    Fix/endpoint attrib structure
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR implements the solution discussed in #1928 to resolve an issue with the endpoint attrib structure. We have brought the structure into alignment with the did:sov specification by removing the nested endpoint structure and ensuring that service types `profile` and `linked_domains` can be used. This solution is interoperable with AFJ, which also supports endpoint attrib data in the following manner:
+
+```json
+{
+  "endpoint": "https://example.com",
+  "types": ["did-communication", ...],
+  "routingKeys": [...],
+  "profile": "https://example.com/profile",
+  "linked_domains": "https://example.com/linked-domains",
+}
+```
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-08 23:32:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1933" class=".btn">#1933</a>
+            </td>
+            <td>
+                <b>
+                    fix: failed connectionless proof request on some case
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In demo menu (2a) connectionless proof request, If a mobile agent (for instance Trinsic) does not include Accept header when calling proof request url, the demo would fail.
+
+Signed-off-by: kukgini <kukgini@users.noreply.github.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-08 10:34:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1931" class=".btn">#1931</a>
             </td>
             <td>
@@ -49,75 +142,6 @@ More details can be found at the [LedgerAgnosticism](https://github.com/pasquale
     </table>
     <div class="right-align">
         Created At 2022-09-07 16:36:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1926" class=".btn">#1926</a>
-            </td>
-            <td>
-                <b>
-                    Endorser doc updates and some bug fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-
-Fixes a couple of issues with DID ATTRIB transactions, and adds some technical docs.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-02 19:22:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1925" class=".btn">#1925</a>
-            </td>
-            <td>
-                <b>
-                    Fix: the type of tails file path to string.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Hi.
-
-This PR corrects the type of tails file path.
-
-`self.tails_local_path` must be a string. However, it was assigned a PosixPath value.
-
-So I got the below error.
-`TypeError: bytes or integer address expected instead of PosixPath instance`
-
-At here.
-https://github.com/hyperledger/indy-shared-rs/blob/main/wrappers/python/indy_credx/bindings.py#L797
-
-Thanks!
-
-Signed-off-by: Ethan Sung <baegjae@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-02 05:05:09 +0000 UTC
     </div>
 </div>
 
