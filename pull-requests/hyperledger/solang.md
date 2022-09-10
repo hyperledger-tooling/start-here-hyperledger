@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1010" class=".btn">#1010</a>
+            </td>
+            <td>
+                <b>
+                    constant arthimeteic overflow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Check for constant arthimetic overflow during semantic analysis.
+Signed-off-by: salaheldinsoliman <salaheldin_sameh@aucegypt.edu>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-09 21:11:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1008" class=".btn">#1008</a>
             </td>
             <td>
