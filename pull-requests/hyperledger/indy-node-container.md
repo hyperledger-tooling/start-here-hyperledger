@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/indy-node-container
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-node-container/pull/113" class=".btn">#113</a>
+            </td>
+            <td>
+                <b>
+                    Ip tables scripts improved
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Calling the CLI port settings script from the first one
+- extracting common functionality into utility script
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-09 10:28:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-node-container/pull/111" class=".btn">#111</a>
             </td>
             <td>
@@ -35,58 +62,6 @@ Signed-off-by: Christian Bormann <ChristianCarl.Bormann@de.bosch.com>
     </table>
     <div class="right-align">
         Created At 2022-09-05 07:18:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node-container/pull/110" class=".btn">#110</a>
-            </td>
-            <td>
-                <b>
-                    New ip tables script
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-02 08:47:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node-container/pull/109" class=".btn">#109</a>
-            </td>
-            <td>
-                <b>
-                    Create MAINTAINERS.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixes https://github.com/hyperledger/indy-node-container/issues/98
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-01 15:39:00 +0000 UTC
     </div>
 </div>
 

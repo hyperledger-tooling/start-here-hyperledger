@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/84" class=".btn">#84</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/86" class=".btn">#86</a>
             </td>
             <td>
                 <b>
-                    Fix url manipulation
+                    Include the batchNumber if specified in acks, for FFTM/EVMConnect
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
                 
             </td>
             <td>
-                Equivalent of https://github.com/hyperledger/firefly-tokens-erc1155/pull/91
-
-Fixing errors caused by URL manipulation logic described in https://github.com/hyperledger/firefly-tokens-erc1155/issues/53
-
-Signed-off-by: Chengxuan Xing <chengxuan.xing@kaleido.io>
+                See https://github.com/hyperledger/firefly-transaction-manager/pull/36
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-30 18:37:29 +0000 UTC
+        Created At 2022-09-09 00:08:16 +0000 UTC
     </div>
 </div>
 

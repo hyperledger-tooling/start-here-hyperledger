@@ -27,84 +27,36 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
                 
             </td>
             <td>
-                We saw a case in a performance run, where FireFly failed to receive a batch of 3 events from EVMConnect.
+                We saw a case in a performance run, where FireFly core skipped a batch of 3 events from EVMConnect.
+
+EVMConnect believed they had been acknowledged and received, but FF Core never actually processed them.
 
 What we found from the logs, is that FireFly Core had ended up in a situation where it was sending acknowledgements that were being interpreted by FFTM/EVMConnect as being for the _next_ batch after the one that had just been processed.
 
-FFTM/EVMConnect before this PR had a very simple "acknowledge last thing you sent" system, which I can see has a window for this. There are attempts in the code to make this window very small - with the code by clearing out the go channel that passes `ack` payloads to the batch dispatcher, before delivering the batch. However, that does not eliminate the window completely.
+This combined with a disconnect/reconnect of the websocket, where a batch was dropped. After the reconnect - EVMConnect didn't re-send the missed batch, because it believed it already to be acknowledged.
 
-This PR make a breaking change to the protocol such that:
-- The events passed by FFTM/EVMConnect to FF Core are not just arrays, they are a structure like:
+The problem is the "acknowledge last thing you sent" protocol, combined with the fact that the WS code doesn't close the go channels through reconnects (deliberately to support multiple WS connections/reconnects). It leaves a window where an ack can be misinterpretted from before a reconnect. There are attempts in the code to make this window very small - with the code by clearing out the go channel that passes `ack` payloads to the batch dispatcher, before delivering the batch. However, that does not eliminate the window completely.
+
+So this PR make a breaking change to the protocol to be specific about the batch being ack'd:
+- Change the payload for events passed by FFTM/EVMConnect to FF Core, from a top-level array, to an object structure like:
     ```js
     { "batchNumber":  12345, "events": [ ... ] }
     ```
-- The `ack` payload contains a `batchNumber` and is only processed if this matches the delivered batch
-- The Go routine from the WebSocket to the batch dispatcher has a length of `10`
-- If spurious acks are sent on an invalid topic, or a `broadcast` topic, that exceed the channel depth, we disconnect
+- Change the `ack` payload to have a `batchNumber` declaring which batch is being ack'd
+- Moved "spurious" / extra ack processing from the WS side of the Go channel, to the batch manager side
+- Extend the length of the go channel from `1` to `10` - because now the acks are unique, we could stall if we missed one
+- If for any reason we get too many spurious acks that fill up the channel, then close the websocket rather than losing it (there really only ever should be one, after a reconnect)
 
-FF Core will need to be updated:
-- To look for `{`/`[` in the payload to see whether it's old-style EthConnect or new style FFTM/EVMConnect
-- If it's new style, include the `batchNumber` in the `ack`
+FF Core and the Tokens connectors will need to be updated:
+- To handle _either_ the old EthConnect flat array payloads, or the new style FFTM/EVMConnect payloads with an object containing `batchNumber` and `events`
+- Include the `batchNumber` in the corresponding `ack`
+
+> Note that the reply payloads that do _not_ require acknowledgement come over the same pipe, and this is an area that could be overall made more consistent in the future.
             </td>
         </tr>
     </table>
     <div class="right-align">
         Created At 2022-09-08 02:42:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/35" class=".btn">#35</a>
-            </td>
-            <td>
-                <b>
-                    Send update to FF Core each time there is an error
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #34
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-03 02:05:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/33" class=".btn">#33</a>
-            </td>
-            <td>
-                <b>
-                    GET /status/* APIs for Liveness and Readiness Probes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adding endpoints for use within K8s for liveness / readiness probes, as well as for upstream connector services like tokens. See https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/85 where we noticed we are missing these endpoints that Ethconnect did have.
-
-TODO 
-- [x] unit tests
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-02 18:14:00 +0000 UTC
     </div>
 </div>
 
