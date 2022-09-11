@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/88" class=".btn">#88</a>
+            </td>
+            <td>
+                <b>
+                    Only send one ack per batch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                See #87 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-11 18:16:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/86" class=".btn">#86</a>
             </td>
             <td>
