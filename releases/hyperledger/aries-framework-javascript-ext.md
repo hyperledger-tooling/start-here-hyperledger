@@ -43,36 +43,3 @@ permalink: /releases/hyperledger/aries-framework-javascript-ext
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    @aries-framework/rest rest-v0.9.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    rest-v0.9.1
-                </span>
-            </td>
-            <td>
-                
-
-### Bug Fixes
-
-* **rest:** moved route generation to compile ([#160](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/160)) ([8c70864](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/8c70864cacaada486b0ca7a7f9ba0ca2395f9efd))
-
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/rest-v0.9.1" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-09-05 14:33:49 +0000 UTC
-    </span>
-</div>
-
