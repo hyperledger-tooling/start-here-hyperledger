@@ -1,13 +1,13 @@
 
-[2728](https://github.com/hyperledger/iroha/pull/2728) [fix] #2703: Fix orillion dev env bugs (lts)
+[1011](https://github.com/hyperledger/solang/pull/1011) Fix function calls via contract name
 
-[2724](https://github.com/hyperledger/iroha/pull/2724) [fix] #2703: Fix orillion dev env bugs (dev)
+[384](https://github.com/hyperledger-labs/fabric-smart-client/pull/384) Chaincode Event Listening Support
 
-[688](https://github.com/hyperledger/fabric-private-chaincode/pull/688) Add HLGF22 demo
+[618](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/618) Add new README.md to lib folder
 
-[374](https://github.com/hyperledger-labs/fabric-token-sdk/pull/374) HTLC sample
+[2731](https://github.com/hyperledger/iroha/pull/2731) Fix/unkai unexpected symbol check
 
-[373](https://github.com/hyperledger-labs/fabric-token-sdk/pull/373) FSC dep update
+[375](https://github.com/hyperledger-labs/fabric-token-sdk/pull/375) Testfix 320
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
