@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-go/pull/52" class=".btn">#52</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-go/pull/53" class=".btn">#53</a>
             </td>
             <td>
                 <b>
-                    Remove RocketChat
+                    Go consensus SDK and devmode
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-go
                 
             </td>
             <td>
-                <nil>
+                This PR is a set of patches that implements a full consensus SDK for sawtooth in Go. And also in the `examples/` folder, contains a re-implementation of sawtooth-devmode, in Go. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-01 16:26:55 +0000 UTC
+        Created At 2022-09-12 16:11:44 +0000 UTC
     </div>
 </div>
 
