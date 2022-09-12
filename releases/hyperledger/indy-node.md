@@ -15,127 +15,36 @@ permalink: /releases/hyperledger/indy-node
         <tr>
             <td colspan="2">
                 <b>
-                    v1.13.2-rc1
+                    v1.13.2-rc2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.13.2-rc1
+                    v1.13.2-rc2
                 </span>
             </td>
             <td>
-                [v1.13.2-rc1] 
+                [v1.13.2-rc2] 
 
 ## What's Changed
-* Fix for [Remote code execution in Indy-Node's pool-upgrade transaction](https://github.com/hyperledger/indy-node/security/advisories/GHSA-r6v9-p59m-gj2p)
-* Add compat_set for supporting python3.5 set sorting behaviour by @andrewwhitehead in https://github.com/hyperledger/indy-node/pull/1770
-* Fix linting errors by @WadeBarnes in https://github.com/hyperledger/indy-node/pull/1771
-* [v1.13.2-rc1] - Update Version Number for Release by @sovbot in https://github.com/hyperledger/indy-node/pull/1774
+* Add flag for sorting algorithm switching by @c2bo in https://github.com/hyperledger/indy-node/pull/1775
+  * The default value ensures net new Ubuntu 20.04 based networks use sorted ordering for revocation transactions.  The `REV_STRATEGY_USE_COMPAT_ORDERING` flag should be set to `True` when adding a Ubuntu 20.04 based node to an existing network so it uses compatibility ordering.
+* [v1.13.2-rc2] - Update Version Number for Release by @sovbot in https://github.com/hyperledger/indy-node/pull/1776
 
 ## New Contributors
-* @andrewwhitehead made their first contribution in https://github.com/hyperledger/indy-node/pull/1770
+* @c2bo made their first contribution in https://github.com/hyperledger/indy-node/pull/1775
 
-**Full Changelog**: https://github.com/hyperledger/indy-node/compare/v1.13.1-rc2...v1.13.2-rc1
+**Full Changelog**: https://github.com/hyperledger/indy-node/compare/v1.13.2-rc1...v1.13.2-rc2
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/indy-node/releases/tag/v1.13.2-rc1" class=".btn">
+    <a href="https://github.com/hyperledger/indy-node/releases/tag/v1.13.2-rc2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-09-02 21:51:23 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v1.12.6
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v1.12.6
-                </span>
-            </td>
-            <td>
-                ## v1.12.6
-### Release date: Aug 23rd, 2022
-
-### Component Version Information
-| Components | Version Numbers |
-| --- | --- |
-| indy-plenum | 1.12.6 |
-| indy-node | 1.12.6 |
-| sovrin | 1.1.97 |
-
-### Additional Information:
-
-**There are possible OOM issues during 3+ hours of target load or large catch-ups at 8 GB RAM nodes pool so 32 GB is recommended.**
-
-### Major Changes
-- Fix for package update issues affecting scheduled upgrades.
-
-**Full Changelog**: https://github.com/hyperledger/indy-node/compare/v1.12.5...v1.12.6
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/indy-node/releases/tag/v1.12.6" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-08-22 13:12:11 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v1.12.5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v1.12.5
-                </span>
-            </td>
-            <td>
-                ## v1.12.5
-### Release date: Aug 11th, 2022
-
-### Component Version Information
-| Components | Version Numbers |
-| --- | --- |
-| indy-plenum | 1.12.5 |
-| indy-node | 1.12.5 |
-| sovrin | 1.1.92 |
-
-### Additional Information:
-
-**There are possible OOM issues during 3+ hours of target load or large catch-ups at 8 GB RAM nodes pool so 32 GB is recommended.**
-
-### Major Changes
-- Fix for [Remote code execution in Indy-Node's pool-upgrade transaction](https://github.com/hyperledger/indy-node/security/advisories/GHSA-r6v9-p59m-gj2p)
-
-**Full Changelog**: https://github.com/hyperledger/indy-node/compare/v1.12.4...v1.12.5
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/indy-node/releases/tag/v1.12.5" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-08-09 17:58:31 +0000 UTC
+        Created At 2022-09-12 19:31:22 +0000 UTC
     </span>
 </div>
 
