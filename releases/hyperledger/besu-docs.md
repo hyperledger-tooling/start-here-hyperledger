@@ -50,7 +50,7 @@ The final form of the Ethereum Panda will appear when the first finalized block 
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-09-07 14:39:24 +0000 UTC
+        Created At 2022-09-12 10:53:07 +0000 UTC
     </span>
 </div>
 
