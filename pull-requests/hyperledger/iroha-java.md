@@ -37,29 +37,3 @@ permalink: /pull-requests/hyperledger/iroha-java
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/265" class=".btn">#265</a>
-            </td>
-            <td>
-                <b>
-                    feature: added "Or" filter
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added a new "Or" filter and a new test for it.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-05 08:20:06 +0000 UTC
-    </div>
-</div>
-

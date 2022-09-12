@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/616" class=".btn">#616</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/618" class=".btn">#618</a>
             </td>
             <td>
                 <b>
-                    Oracle api
+                    Add new README.md to lib folder
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
                 
             </td>
             <td>
-                <nil>
+                The PR adds a README.md to the lib folder. The actual link to it in the main README.md is broken, since no nested README exists. I'm not deep into the listed components yet, if someone can provide a meaningful description.
+
+Signed-off-by: Karl Seidenfad <12004185+KSilkThread@users.noreply.github.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-04 19:22:12 +0000 UTC
+        Created At 2022-09-12 10:48:27 +0000 UTC
     </div>
 </div>
 

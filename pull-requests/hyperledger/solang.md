@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1011" class=".btn">#1011</a>
+            </td>
+            <td>
+                <b>
+                    Fix function calls via contract name
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span>
+            </td>
+            <td>
+                Disallow direct access to functions (and constants) except for base contracts. This is not valid in `solc` but was allowed in solang.
+
+Fixes #1007 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-12 12:16:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1010" class=".btn">#1010</a>
             </td>
             <td>
