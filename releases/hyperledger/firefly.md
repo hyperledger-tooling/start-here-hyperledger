@@ -32,6 +32,8 @@ Please see the detailed [Migration Guide](https://github.com/hyperledger/firefly
 
 ## Highlights
 
+### [Read the release blog here](https://www.hyperledger.org/blog/2022/09/12/hyperledger-firefly-v1-1-is-now-available)
+
 ![Intro to FireFly v1](https://user-images.githubusercontent.com/6660217/189673243-6547ecc9-e76d-4f8b-9cfb-a3535dc70c12.png)
 
 ## What's Changed
