@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2740" class=".btn">#2740</a>
+            </td>
+            <td>
+                <b>
+                    [ci]: Fix `buildx` error with `docker/build-push-action`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">iroha2</span><span class="chip">CI</span>
+            </td>
+            <td>
+                <!-- [ci]: Fix `buildx` error with `docker/build-push-action` -->
+### Description of the Change
+
+- Apply [the diff](https://github.com/s8sato/iroha/commit/aade1ee304301c89d883926b41c33553025a110b) between [a reproduction](https://github.com/s8sato/iroha/actions/runs/3044140289/jobs/4904192521) and [a fix](https://github.com/s8sato/iroha/actions/runs/3044430691/jobs/4904811102) on my fork
+
+### Issue
+
+- https://github.com/hyperledger/iroha/actions/runs/3042899274/jobs/4902058622
+
+### Benefits
+
+- Publish `iroha2:<tag>` images
+
+### Possible Drawbacks
+
+- None
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-13 11:20:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2739" class=".btn">#2739</a>
             </td>
             <td>
@@ -1041,76 +1082,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2022-09-06 13:49:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2704" class=".btn">#2704</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #2478: Add `SignedTransaction`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">Refactor</span>
-            </td>
-            <td>
-                Signed-off-by: Shanin Roman <shanin1000@yandex.ru>
-
-<!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-- Renamed `Transaction/VersionedTransaction` to `SignedTransaction/VersionedTransaction`;
-- Add `Transaction`: which represent transaction which do not receive sign yet; 
-- Add `SignableTransaction` trait with method `sign` to create generic function accepting ether `Transaction` or `SignedTransaction` (multisig).
-
-**For reviewers**: most important changes in `data_model/src/transaction.rs, client/src/client.rs`.
-
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-### Issue
-
-Closes #2478.
-
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-Allow to identify buggy behavior on type level.  
-
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks
-
-None.
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-06 11:13:54 +0000 UTC
     </div>
 </div>
 

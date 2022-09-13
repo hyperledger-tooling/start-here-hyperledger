@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/75" class=".btn">#75</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/76" class=".btn">#76</a>
             </td>
             <td>
                 <b>
-                    update README
+                    tendermint: set value to `TotalVotingPower`
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-31 05:28:55 +0000 UTC
+        Created At 2022-09-13 10:51:49 +0000 UTC
     </div>
 </div>
 

@@ -1,13 +1,13 @@
 
-[2739](https://github.com/hyperledger/iroha/pull/2739) Develop to main
+[1013](https://github.com/hyperledger/solang/pull/1013) Fix random test failure in test_mul_within_range
 
-[1012](https://github.com/hyperledger/solang/pull/1012) Add semantic information to CFG
+[2740](https://github.com/hyperledger/iroha/pull/2740) [ci]: Fix `buildx` error with `docker/build-push-action`
 
-[622](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/622) Bump node-fetch from 2.6.1 to 2.6.7 in /fabric/chaincode/emissionscontract/typescript
+[76](https://github.com/hyperledger-labs/yui-relayer/pull/76) tendermint: set value to `TotalVotingPower`
 
-[1776](https://github.com/hyperledger/indy-node/pull/1776) [v1.13.2-rc2] - Update Version Number for Release
+[1777](https://github.com/hyperledger/indy-node/pull/1777) Fix Bug in compat-set
 
-[2736](https://github.com/hyperledger/iroha/pull/2736) [ci]: Version bump to RC.8
+[303](https://github.com/hyperledger-labs/fabric-operations-console/pull/303) Join channel better error
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

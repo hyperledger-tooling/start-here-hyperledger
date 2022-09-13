@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/302" class=".btn">#302</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/303" class=".btn">#303</a>
             </td>
             <td>
                 <b>
-                    add link to meetup - remove system channel
+                    Join channel better error
                 </b>
             </td>
         </tr>
@@ -27,19 +27,21 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
                 
             </td>
             <td>
-                Signed-off-by: Varad Ramamoorthy <varad@us.ibm.com>
+                Signed-off-by: Nikhil Modem [nikhil.modem@ibm.com](mailto:nikhil.modem@ibm.com)
 
 #### Type of change
 
-- Documentation update
+- Bug fix
+- Improvement (improvement to code, performance, etc)
 
 #### Description
-Add link to the recent meetup presentation on managing orderers without system channel
+- When entering a non-existent channel name when adding a peer to a channel, the error message was not caught and formatted well.
+- Now checks the grpc status and formats the error message properly 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-01 21:00:59 +0000 UTC
+        Created At 2022-09-13 07:52:53 +0000 UTC
     </div>
 </div>
 
