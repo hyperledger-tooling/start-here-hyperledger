@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1779" class=".btn">#1779</a>
+            </td>
+            <td>
+                <b>
+                    Deleted config files removal
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes: #1778
+Signed-off-by: Philipp Schlarb <p.schlarb@esatus.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-13 15:40:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-node/pull/1777" class=".btn">#1777</a>
             </td>
             <td>
