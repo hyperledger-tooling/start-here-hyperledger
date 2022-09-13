@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1776" class=".btn">#1776</a>
+            </td>
+            <td>
+                <b>
+                    [v1.13.2-rc2] - Update Version Number for Release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                [v1.13.2-rc2] - Update Version number for Release
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-12 19:05:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-node/pull/1775" class=".btn">#1775</a>
             </td>
             <td>

@@ -1,13 +1,13 @@
 
-[621](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/621) documentation for carbon tracker
+[1012](https://github.com/hyperledger/solang/pull/1012) Add semantic information to CFG
 
-[620](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/620) Bump node-fetch from 3.2.6 to 3.2.10
+[622](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/622) Bump node-fetch from 2.6.1 to 2.6.7 in /fabric/chaincode/emissionscontract/typescript
 
-[619](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/619) get code up to date
+[1776](https://github.com/hyperledger/indy-node/pull/1776) [v1.13.2-rc2] - Update Version Number for Release
 
-[53](https://github.com/hyperledger/sawtooth-sdk-go/pull/53) Go consensus SDK and devmode
+[2736](https://github.com/hyperledger/iroha/pull/2736) [ci]: Version bump to RC.8
 
-[2733](https://github.com/hyperledger/iroha/pull/2733) [ci]: First-aids for non-functioning `tj-actions/changed-files`
+[2735](https://github.com/hyperledger/iroha/pull/2735) [fix] #2734: Remove logger config from client config
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
