@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2739" class=".btn">#2739</a>
+            </td>
+            <td>
+                <b>
+                    Develop to main
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Description of the Change
+Iroha v1.6.0-hotfix-1
+
+1. TransferAsset hotfix.
+2. Check allowed symbols in cache before any transaction.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-13 05:42:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2736" class=".btn">#2736</a>
             </td>
             <td>
@@ -225,33 +255,6 @@ Handling of unexpected symbol in domain name.
     </table>
     <div class="right-align">
         Created At 2022-09-12 10:33:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2730" class=".btn">#2730</a>
-            </td>
-            <td>
-                <b>
-                    TransferAsset hotfix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### Description of the Change
-TransferAsset Hotfix for Iroha v1.6.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-12 07:44:10 +0000 UTC
     </div>
 </div>
 
@@ -1108,76 +1111,6 @@ None.
     </table>
     <div class="right-align">
         Created At 2022-09-06 11:13:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2701" class=".btn">#2701</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #2700: Export `KURA_BLOCK_STORE_PATH` in docker images
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">config-changes</span>
-            </td>
-            <td>
-                ### Description of the Change
-
-1. Export `KURA_BLOCK_STORE_PATH` in docker images
-	- Additionally, make it configurable as a build arg
-2. Rename `DEFAULT_BLOCK_STORE_PATH` from `./blocks` to `./storage`
-
-### Issue
-
-1. Closes #2700
-
-### Benefits
-
-1. The block storage is available from docker containers without any special configuration
-2. Have a default storage name regardless of deployment methods
-
-### Possible Drawbacks
-
-2. The rename can affect documentation. Could you check @outoftardis 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-06 06:46:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2699" class=".btn">#2699</a>
-            </td>
-            <td>
-                <b>
-                    [documentation]: Fix doc comment in schema/src
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-06 05:16:25 +0000 UTC
     </div>
 </div>
 
