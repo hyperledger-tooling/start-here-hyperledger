@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1013" class=".btn">#1013</a>
+            </td>
+            <td>
+                <b>
+                    Fix random test failure in test_mul_within_range
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                If gen_biguint() generated a 0, then the sub(1) will cause the test to fail.
+
+See https://github.com/hyperledger/solang/actions/runs/3044527275/jobs/4905014572
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-13 12:03:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1012" class=".btn">#1012</a>
             </td>
             <td>
@@ -70,33 +99,6 @@ Fixes #1007
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1010" class=".btn">#1010</a>
-            </td>
-            <td>
-                <b>
-                    constant arthimeteic overflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Check for constant arthimetic overflow during semantic analysis.
-Signed-off-by: salaheldinsoliman <salaheldin_sameh@aucegypt.edu>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-09 21:11:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1008" class=".btn">#1008</a>
             </td>
             <td>
@@ -129,7 +131,7 @@ Signed-off-by: salaheldinsoliman <salaheldin_sameh@aucegypt.edu>
             </td>
             <td>
                 <b>
-                    Substrate constructor overloading names
+                    Substrate: constructor overloading names
                 </b>
             </td>
         </tr>
