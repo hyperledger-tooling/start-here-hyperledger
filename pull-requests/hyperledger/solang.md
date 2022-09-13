@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1012" class=".btn">#1012</a>
+            </td>
+            <td>
+                <b>
+                    Add semantic information to CFG
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR should help @salaheldinsoliman implement overflow detection for constants in the CFG. It adds information about the origin of each instruction to the CFG. Each instruction is now classified either as from Solidity, Yul or Codegen.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-12 21:19:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1011" class=".btn">#1011</a>
             </td>
             <td>
@@ -120,58 +146,6 @@ As discussed in our daily: We could easily extend this for solana as well. Addit
     </table>
     <div class="right-align">
         Created At 2022-09-07 13:31:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1003" class=".btn">#1003</a>
-            </td>
-            <td>
-                <b>
-                    Fix overflow detection tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Numbers that overflow the input type was generated, causing some overflow detection tests to fail
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-05 21:24:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1002" class=".btn">#1002</a>
-            </td>
-            <td>
-                <b>
-                    Solana NFT example
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR creates a Solidity contract to manage NFTs on Solana. It is an example to show Solang functionality during Solana's Singapore Hacker House. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-05 20:16:44 +0000 UTC
     </div>
 </div>
 
