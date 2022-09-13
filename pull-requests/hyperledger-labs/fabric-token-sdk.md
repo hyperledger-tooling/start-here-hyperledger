@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             </td>
             <td>
                 <b>
-                    Testfix 320
+                    Auditor and Issuer Wallet: Support PKCS11 #320 #355
                 </b>
             </td>
         </tr>
