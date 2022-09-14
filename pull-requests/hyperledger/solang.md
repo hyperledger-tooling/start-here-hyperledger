@@ -123,31 +123,3 @@ Fixes #1007
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1006" class=".btn">#1006</a>
-            </td>
-            <td>
-                <b>
-                    Substrate: constructor overloading names
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Since in `ink!` constructors also have names. This is another precondition for making #989 happen.
-
-As discussed in our daily: We could easily extend this for solana as well. Additionally we will probably want to have a way for instantiating contracts using various constructors, which is impossible using solidity syntax.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-07 13:31:40 +0000 UTC
-    </div>
-</div>
-
