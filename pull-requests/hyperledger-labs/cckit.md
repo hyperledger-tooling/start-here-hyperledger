@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/cckit
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/cckit/pull/1" class=".btn">#1</a>
+                PR <a href="https://github.com/hyperledger-labs/cckit/pull/4" class=".btn">#4</a>
             </td>
             <td>
                 <b>
-                    Add CODEOWNERS
+                    Initial from github.com/s7techlab/cckit
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/cckit
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-30 16:48:04 +0000 UTC
+        Created At 2022-09-14 06:29:26 +0000 UTC
     </div>
 </div>
 
