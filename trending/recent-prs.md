@@ -1,13 +1,13 @@
 
-[825](https://github.com/hyperledger-labs/business-partner-agent/pull/825) Allow all media types for jsonld fetch
+[53](https://github.com/hyperledger-labs/hlf-connector/pull/53) Add init_required request param for '/approved-organisations' API
 
-[80](https://github.com/hyperledger-labs/perun-doc/pull/80) Add a MAINTAINERS.md file
+[52](https://github.com/hyperledger-labs/hlf-connector/pull/52) Increment version after release
 
-[4](https://github.com/hyperledger-labs/cckit/pull/4) Initial from github.com/s7techlab/cckit
+[51](https://github.com/hyperledger-labs/hlf-connector/pull/51) Increment version after release
 
-[623](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/623) Update CarbonTracker contract and documentation
+[304](https://github.com/hyperledger-labs/fabric-operations-console/pull/304) Bump trim-newlines from 1.0.0 to 3.0.1
 
-[2743](https://github.com/hyperledger/iroha/pull/2743) [ci] #2732: Add a conditions to update iroha2-base images and add PR labels
+[1780](https://github.com/hyperledger/indy-node/pull/1780) [v1.13.2-rc3] - Update Version Number for Release
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

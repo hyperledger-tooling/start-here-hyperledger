@@ -88,30 +88,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/372" class=".btn">#372</a>
-            </td>
-            <td>
-                <b>
-                    Fix: typos
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fix some typos
-Signed-off-by: Yuqi Chen <chenyq6@asiainfo.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-07 16:45:33 +0000 UTC
-    </div>
-</div>
-
