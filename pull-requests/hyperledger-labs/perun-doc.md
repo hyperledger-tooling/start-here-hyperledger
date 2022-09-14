@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-doc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-doc/pull/78" class=".btn">#78</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-doc/pull/80" class=".btn">#80</a>
             </td>
             <td>
                 <b>
-                    Add concept for multi-ledger channels
+                    Add a MAINTAINERS.md file
                 </b>
             </td>
         </tr>
@@ -27,14 +27,13 @@ permalink: /pull-requests/hyperledger-labs/perun-doc
                 
             </td>
             <td>
-                We recently implemented multi-ledger channels in go-perun v0.10. However, they were not documented properly yet.
+                Fixes #79
 
-This PR proposes to start their documentation. The page that I wrote is far from perfect but I see it as a starting ground for potentially writing out a full blown specification at some later point in time.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-13 14:22:59 +0000 UTC
+        Created At 2022-09-14 07:58:25 +0000 UTC
     </div>
 </div>
 
