@@ -140,29 +140,3 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/48" class=".btn">#48</a>
-            </td>
-            <td>
-                <b>
-                    Changed logic for getting label
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: n0s09by <Nidhi.singh0@walmart.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-08 12:54:23 +0000 UTC
-    </div>
-</div>
-
