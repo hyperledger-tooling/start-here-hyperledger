@@ -14,93 +14,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1050" class=".btn">#1050</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1057" class=".btn">#1057</a>
             </td>
             <td>
                 <b>
-                    Handle FFTM new style acks with batchNumber
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                See https://github.com/hyperledger/firefly-transaction-manager/pull/36
-
-> Leaving in draft mode until we have an FFTM+EVMConnect release, to include in the manifest
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-08 02:57:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1048" class=".btn">#1048</a>
-            </td>
-            <td>
-                <b>
-                    Consistently fall back to ff_system for legacy identity lookups
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Reverts #1035 
-Fixes #1032
-Fixes #1045 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-07 18:07:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1047" class=".btn">#1047</a>
-            </td>
-            <td>
-                <b>
-                    Properly enforce uniqueness of BatchPin blockchain events
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Because listener_id is NULL for these events, we need separate indexes for when it is NULL and not NULL.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-07 14:19:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1046" class=".btn">#1046</a>
-            </td>
-            <td>
-                <b>
-                    update public chain docs
+                    Dup tokens http 409
                 </b>
             </td>
         </tr>
@@ -114,7 +32,7 @@ Fixes #1045
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-07 14:07:10 +0000 UTC
+        Created At 2022-09-15 09:09:13 +0000 UTC
     </div>
 </div>
 
@@ -122,11 +40,11 @@ Fixes #1045
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1044" class=".btn">#1044</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1055" class=".btn">#1055</a>
             </td>
             <td>
                 <b>
-                    adding test cases for cache init errors
+                    Intro docs
                 </b>
             </td>
         </tr>
@@ -135,14 +53,16 @@ Fixes #1045
                 
             </td>
             <td>
-                Fix coverage decrement introduced by central cache PR.
+                Still work in progress, but this is a significant refactor to the intro docs for FireFly.
 
-Signed-off-by: Chengxuan Xing <chengxuan.xing@kaleido.io>
+In PR chain with:
+- #958 
+- #1039
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-06 21:28:36 +0000 UTC
+        Created At 2022-09-13 21:05:54 +0000 UTC
     </div>
 </div>
 
@@ -150,11 +70,11 @@ Signed-off-by: Chengxuan Xing <chengxuan.xing@kaleido.io>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1043" class=".btn">#1043</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1053" class=".btn">#1053</a>
             </td>
             <td>
                 <b>
-                    Fix sequence query in auditevents
+                    Update manifest for v1.1.0
                 </b>
             </td>
         </tr>
@@ -163,13 +83,12 @@ Signed-off-by: Chengxuan Xing <chengxuan.xing@kaleido.io>
                 
             </td>
             <td>
-                Need to keep requesting new chunks of events even if the previous chunk
-contained no matches.
+                Signed-off-by: Peter Broadhurst <peter.broadhurst@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-06 19:45:42 +0000 UTC
+        Created At 2022-09-12 11:58:33 +0000 UTC
     </div>
 </div>
 

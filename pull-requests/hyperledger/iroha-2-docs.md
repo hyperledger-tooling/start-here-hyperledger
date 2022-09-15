@@ -14,67 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/158" class=".btn">#158</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/176" class=".btn">#176</a>
             </td>
             <td>
                 <b>
-                    [docs]: Update FFI chapter
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span><span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-Added suggestion from Aleksandr: https://github.com/hyperledger/iroha-2-docs/pull/114#pullrequestreview-1079993948
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-07 10:37:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/157" class=".btn">#157</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #146: update snippets in python section
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Artemii Gerasimovich <gerasimovich@soramitsu.co.jp>
-
-- Fixed snippets in python section of the guide
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-07 05:12:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/155" class=".btn">#155</a>
-            </td>
-            <td>
-                <b>
-                    [docs] #85: Add diagrams for triggers and filters
+                    [docs] #170: Update client config page
                 </b>
             </td>
         </tr>
@@ -85,13 +29,12 @@ Added suggestion from Aleksandr: https://github.com/hyperledger/iroha-2-docs/pul
             <td>
                 Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
 
-- Added diagrams for triggers and filters
-- Updated info in the triggers chapter
+Closes #170 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-06 10:58:12 +0000 UTC
+        Created At 2022-09-15 12:23:21 +0000 UTC
     </div>
 </div>
 
@@ -99,11 +42,11 @@ Added suggestion from Aleksandr: https://github.com/hyperledger/iroha-2-docs/pul
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/154" class=".btn">#154</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/173" class=".btn">#173</a>
             </td>
             <td>
                 <b>
-                    [docs]: Change default BLOCK_STORE_PATH location
+                    [docs] #161: Add more info about ISI
                 </b>
             </td>
         </tr>
@@ -114,12 +57,12 @@ Added suggestion from Aleksandr: https://github.com/hyperledger/iroha-2-docs/pul
             <td>
                 Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
 
-Based on https://github.com/hyperledger/iroha/pull/2701
+Closes #161 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-06 07:16:45 +0000 UTC
+        Created At 2022-09-15 08:02:23 +0000 UTC
     </div>
 </div>
 
@@ -127,11 +70,90 @@ Based on https://github.com/hyperledger/iroha/pull/2701
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/153" class=".btn">#153</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/172" class=".btn">#172</a>
             </td>
             <td>
                 <b>
-                    [docs] #81: Add example on transferring assets to Bash guide
+                    [docs]: remove obsolete comment
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: 0x009922 <a.marcius26@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-15 06:47:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/169" class=".btn">#169</a>
+            </td>
+            <td>
+                <b>
+                    [docs] #162: Update Wasm chapter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+Closes #162 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-13 10:50:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/168" class=".btn">#168</a>
+            </td>
+            <td>
+                <b>
+                    [docs]: Add a link to the test network
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-13 09:06:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/167" class=".btn">#167</a>
+            </td>
+            <td>
+                <b>
+                    [docs] #166: Add the location of build artifacts
                 </b>
             </td>
         </tr>
@@ -142,12 +164,12 @@ Based on https://github.com/hyperledger/iroha/pull/2701
             <td>
                 Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
 
-Addresses #81 
+Closes #166 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-06 07:00:39 +0000 UTC
+        Created At 2022-09-13 08:06:39 +0000 UTC
     </div>
 </div>
 
@@ -155,11 +177,11 @@ Addresses #81
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/151" class=".btn">#151</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/165" class=".btn">#165</a>
             </td>
             <td>
                 <b>
-                    [docs] #111: Add info about permission validators
+                    [fix]: Fix a typo
                 </b>
             </td>
         </tr>
@@ -169,13 +191,11 @@ Addresses #81
             </td>
             <td>
                 Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-Closes #111 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-06 06:07:41 +0000 UTC
+        Created At 2022-09-12 08:06:07 +0000 UTC
     </div>
 </div>
 
@@ -183,11 +203,11 @@ Closes #111
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/150" class=".btn">#150</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/164" class=".btn">#164</a>
             </td>
             <td>
                 <b>
-                    [ci]: run `build` in PR CI as well
+                    [docs] #160: Update links
                 </b>
             </td>
         </tr>
@@ -196,14 +216,13 @@ Closes #111
                 
             </td>
             <td>
-                Now we will be able to inspect build errors in GitHub instead of Vercel.
-
-Signed-off-by: 0x009922 <a.marcius26@gmail.com>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+Closes #160 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-05 09:48:29 +0000 UTC
+        Created At 2022-09-12 07:49:10 +0000 UTC
     </div>
 </div>
 
