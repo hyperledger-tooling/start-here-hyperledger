@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/116" class=".btn">#116</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/118" class=".btn">#118</a>
             </td>
             <td>
                 <b>
-                    Ensure dependency-check report is stored if a vulnerability is detected
+                    Use correct CryptoSuite and User context for event replay
                 </b>
             </td>
         </tr>
@@ -27,64 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
                 
             </td>
             <td>
-                <nil>
+                Use the exact CryptoSuite and User context from the original HFClient when creating a new HFClient for event replay, instead of assuming that the CryptoSuite and User context are ones created using an X509IdentityProvider with the Gateway client identity.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-01 15:32:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/115" class=".btn">#115</a>
-            </td>
-            <td>
-                <b>
-                    Suppress false positive for CVE-2022-33915 (release-2.2)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-01 15:28:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/114" class=".btn">#114</a>
-            </td>
-            <td>
-                <b>
-                    Suppress false positive for CVE-2022-33915
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-07-01 13:42:11 +0000 UTC
+        Created At 2022-09-15 01:01:54 +0000 UTC
     </div>
 </div>
 
