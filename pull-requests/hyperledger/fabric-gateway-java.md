@@ -28,6 +28,8 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
             </td>
             <td>
                 Use the exact CryptoSuite and User context from the original HFClient when creating a new HFClient for event replay, instead of assuming that the CryptoSuite and User context are ones created using an X509IdentityProvider with the Gateway client identity.
+
+Closes #117
             </td>
         </tr>
     </table>

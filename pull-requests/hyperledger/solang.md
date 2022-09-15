@@ -95,31 +95,3 @@ Fixes #1007
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1008" class=".btn">#1008</a>
-            </td>
-            <td>
-                <b>
-                    Emit events using Borsh encoding for Solana
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR implements the new scheme for events emission on Solana. It follows Anchor strategy for events.
-
-[According to Anchor source code](https://github.com/coral-xyz/anchor/blob/0c70d183ef9187cef576749e4fee8f443e4dbc34/lang/attribute/event/src/lib.rs#L86-L88), `indexed` fields are emitted as data. In addition, all fields are encoded using borsh encoding, and [the result is passed directly](https://github.com/coral-xyz/anchor/blob/0c70d183ef9187cef576749e4fee8f443e4dbc34/lang/attribute/event/src/lib.rs#L77-L84) to `sol_log_data`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-08 14:44:48 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-ui
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/192" class=".btn">#192</a>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/194" class=".btn">#194</a>
             </td>
             <td>
                 <b>
-                    add new operation and transaction type
+                    use selected namespace in API calls
                 </b>
             </td>
         </tr>
@@ -27,21 +27,14 @@ permalink: /pull-requests/hyperledger/firefly-ui
                 
             </td>
             <td>
-                accompanies: https://github.com/hyperledger/firefly/pull/1034
+                Updating the requests for downloading blobs & identity to utilize the current selected namespace, instead of always using the default namespace. 
 
-Added support for:
- - `data_publish` transaction
- - `sharedstorage_upload_value` operation
-
-<img width="733" alt="Screen Shot 2022-09-01 at 9 35 02 PM" src="https://user-images.githubusercontent.com/10987380/188040449-06379bbb-3e15-4c69-b207-73e6a59f22c0.png">
-<img width="776" alt="Screen Shot 2022-09-01 at 9 35 06 PM" src="https://user-images.githubusercontent.com/10987380/188040453-5bd85800-5830-41d0-886a-2b2443ac5d1f.png">
-<img width="780" alt="Screen Shot 2022-09-01 at 9 35 14 PM" src="https://user-images.githubusercontent.com/10987380/188040456-0bc5490c-58f9-406e-a3d8-535142dd92f1.png">
-
+closes #193 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-02 01:37:25 +0000 UTC
+        Created At 2022-09-15 17:38:54 +0000 UTC
     </div>
 </div>
 
