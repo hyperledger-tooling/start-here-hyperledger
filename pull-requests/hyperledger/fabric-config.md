@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-config
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-config/pull/48" class=".btn">#48</a>
+                PR <a href="https://github.com/hyperledger/fabric-config/pull/52" class=".btn">#52</a>
             </td>
             <td>
                 <b>
-                    Update Go to 1.16.7
+                    Add MAINTAINERS.md file
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-config
                 
             </td>
             <td>
-                Update Go to 1.16.7.
+                Closes #51 
 
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-08-30 21:52:23 +0000 UTC
+        Created At 2022-09-12 17:00:14 +0000 UTC
     </div>
 </div>
 

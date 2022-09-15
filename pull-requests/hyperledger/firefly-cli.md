@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/213" class=".btn">#213</a>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/215" class=".btn">#215</a>
             </td>
             <td>
                 <b>
-                    Add public-ipfs flag
+                    Update the link to the contributor guidelines html
                 </b>
             </td>
         </tr>
@@ -27,40 +27,14 @@ permalink: /pull-requests/hyperledger/firefly-cli
                 
             </td>
             <td>
-                When running FireFly in Gateway mode, it may be desirable to connect to connect to public IPFS peers, rather than operating in a private cluster. This PR adds a new command line flag for that `--public-ipfs`. It is `false` by default.
+                Most of the firefly-* repos seem to have the same issue so I might tidy those up as well shortly.
 
-Also removed some dead code.
+Signed-off-by: Matthew Whitehead <matthew.whitehead@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-02 14:33:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/212" class=".btn">#212</a>
-            </td>
-            <td>
-                <b>
-                    Enable all plugins for gateway mode, allowing data+IPFS for NFT data etc.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                See https://github.com/hyperledger/firefly/pull/1037 and https://github.com/hyperledger/firefly/pull/1034
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-02 03:05:28 +0000 UTC
+        Created At 2022-09-13 14:25:32 +0000 UTC
     </div>
 </div>
 

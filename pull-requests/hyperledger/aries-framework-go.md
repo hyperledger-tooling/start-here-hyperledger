@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3368" class=".btn">#3368</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3372" class=".btn">#3372</a>
             </td>
             <td>
                 <b>
-                    Jwt wallet
+                    feat: Validate did configuration for did and domain
                 </b>
             </td>
         </tr>
@@ -27,7 +27,77 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 
             </td>
             <td>
-                <nil>
+                Parse and validate DID configuration bytes.
+Search through domain linkage credential(s) for specified did and domain. 
+Validate domain linkage credential for Linked Data (JWT validation will be handled in different issue).
+
+Closes #3371
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-13 19:05:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3369" class=".btn">#3369</a>
+            </td>
+            <td>
+                <b>
+                    refactor: Add handling inbound problem report messages inside legacy-connection protocol
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Title:**
+Problem report inside legacy connection
+
+**Summary:**
+- Add handling problem report messages inside protocol
+-  Cover with unit tests
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-12 06:57:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3368" class=".btn">#3368</a>
+            </td>
+            <td>
+                <b>
+                    feat: fix format filtering in pEx V2 for JWTVCs, and add bdd tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - also fix an issue with initializing sdk agents, when old clients
+  still exist under the same name
+- also rename wallet-jsonld bdd tests since they aren't jsonld-only
+
+Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
             </td>
         </tr>
     </table>
@@ -137,36 +207,6 @@ You can trigger Dependabot actions by commenting on this PR:
     </table>
     <div class="right-align">
         Created At 2022-09-09 08:16:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3364" class=".btn">#3364</a>
-            </td>
-            <td>
-                <b>
-                    test: jwt format tests in presentation exchange
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                closes #3327
-
-Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-07 03:47:41 +0000 UTC
     </div>
 </div>
 

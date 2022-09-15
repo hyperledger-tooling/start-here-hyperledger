@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/96" class=".btn">#96</a>
+            </td>
+            <td>
+                <b>
+                    Only send one ack per batch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                See https://github.com/hyperledger/firefly-tokens-erc20-erc721/issues/87
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-11 18:39:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/95" class=".btn">#95</a>
             </td>
             <td>

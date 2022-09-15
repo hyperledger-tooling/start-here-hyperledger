@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2159" class=".btn">#2159</a>
+            </td>
+            <td>
+                <b>
+                    fix(plugin-keychain-vault): hyper upgrade
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Commit to be reviewed
+--------------------------------
+
+fix(plugin-keychain-vault): hyper upgrade   
+
+    Primary changes
+    --------------
+    1. Updated rust docker container base image to the latest
+    2. Updated hyper, hyper-openssl, hyper-tls, swagger, tokio, tokio-openssl versions in cargo.toml
+    3. Updated the depricated to_body() method to to_bytes() method and relevant imports
+
+Fixes #2120
+
+Signed-off-by: jagpreetsinghsasan <jagpreet.singh.sasan@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-15 07:33:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/2157" class=".btn">#2157</a>
             </td>
             <td>
@@ -38,46 +77,6 @@ Signed-off-by: Tomasz Awramski <tomasz.awramski@fujitsu.com>
     </table>
     <div class="right-align">
         Created At 2022-09-09 09:38:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2155" class=".btn">#2155</a>
-            </td>
-            <td>
-                <b>
-                    build(openapi): upgrade openapi-generator version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Commit to be reviewed
-------------------------------------
-
-build(openapi): upgrade openapi-generator version   
-
-
-    Primary Changes
-    ---------------
-    1. Updated openapitools.json file   
-    
-    Secondary Changes
-    ----------------
-    1. Some of the generated kotlin files are updated with the new code
-
-Signed-off-by: jagpreetsinghsasan <jagpreet.singh.sasan@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-05 06:29:34 +0000 UTC
     </div>
 </div>
 
