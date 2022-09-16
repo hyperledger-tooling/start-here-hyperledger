@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1062" class=".btn">#1062</a>
+            </td>
+            <td>
+                <b>
+                    Fix casing on docs tutorial pages
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Standardizing on lowercase names for markdown files here. Previously we had some of both which caused issues on case insensitive file systems like macOS.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-16 13:07:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1058" class=".btn">#1058</a>
             </td>
             <td>

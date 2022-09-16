@@ -140,31 +140,3 @@ File "/home/indy/.venv/lib/python3.6/site-packages/aries_cloudagent/utils/classl
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1935" class=".btn">#1935</a>
-            </td>
-            <td>
-                <b>
-                    Delete sonarcloud.yml
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Disable automatic sonarcloud
-
-Signed-off-by: Ry Jones <ry@linux.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-09 15:18:50 +0000 UTC
-    </div>
-</div>
-
