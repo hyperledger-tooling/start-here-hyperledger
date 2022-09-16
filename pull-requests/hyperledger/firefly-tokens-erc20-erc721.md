@@ -75,29 +75,3 @@ npm ERR!     /home/node/.npm/_logs/2022-09-11T19_33_01_557Z-debug-0.log
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/86" class=".btn">#86</a>
-            </td>
-            <td>
-                <b>
-                    Include the batchNumber if specified in acks, for FFTM/EVMConnect
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                See https://github.com/hyperledger/firefly-transaction-manager/pull/36
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-09 00:08:16 +0000 UTC
-    </div>
-</div>
-

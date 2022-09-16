@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/88" class=".btn">#88</a>
+            </td>
+            <td>
+                <b>
+                    Speed increases to receiving credential in BC Wallet
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+
+This PR adds a speedier on_this_page() method on the page object base class. 
+Also cleans some steps in receive credential in bc wallet that took overly long to execute.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-15 23:46:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/87" class=".btn">#87</a>
+            </td>
+            <td>
+                <b>
+                    fixed onboarding and rev error
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+
+Fixed a revocation error when notification was on. 
+Fixed the BC wallet onboarding page objects due to recent test changes. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-15 19:23:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/86" class=".btn">#86</a>
             </td>
             <td>
@@ -90,36 +148,6 @@ Moved tests forward to build 317 adjusting test IDS on credentials and handling 
     </table>
     <div class="right-align">
         Created At 2022-09-09 23:51:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/83" class=".btn">#83</a>
-            </td>
-            <td>
-                <b>
-                    Fix error in import for security
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-This PR removes an unnecessary import in the security tests that was causing the nightly runs to fail. 
-
-It also adds the extra camera message handling to the connectionless test scenario.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-09 00:28:49 +0000 UTC
     </div>
 </div>
 

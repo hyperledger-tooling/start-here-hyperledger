@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/95" class=".btn">#95</a>
-            </td>
-            <td>
-                <b>
-                    iInclude the batchNumber if specified in acks, for FFTM/EVMConnect
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-09 00:45:40 +0000 UTC
-    </div>
-</div>
-

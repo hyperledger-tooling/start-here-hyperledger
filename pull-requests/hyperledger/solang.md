@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1015" class=".btn">#1015</a>
+            </td>
+            <td>
+                <b>
+                    Refactor emit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR refactors the emit code. The largest problem there was that `emit/mod.rs` has about 10 thousand lines, making it difficult to navigate. Here is a summary of my changes:
+
+1. The trait `TargetRuntime` only defines an interface for behaviors that are not shared between targets. All shared implementations are now standalone functions.
+2. I created a `StorageSlot` to be an interface for storage management functions for environments that depend on storage slots, like Substrate and EVM.
+3. Target specific code is separated into folders. Code emission for Solana is under `emit/solana` and for Substrate, under `emit/substrate`.
+4. The implementation of the `TargetRuntime` trait is located in `emit/<target>/target.rs`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-15 18:40:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1013" class=".btn">#1013</a>
             </td>
             <td>
