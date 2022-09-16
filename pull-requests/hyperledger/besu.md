@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4407" class=".btn">#4407</a>
+            </td>
+            <td>
+                <b>
+                    Retry mechanism for block creation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Retry block creation if there is a transient error and we still have time, to mitigate empty block issue, as describe here
+https://github.com/hyperledger/besu/issues/4401#issuecomment-1249340589
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+mitigates #4401 when there is a `org.rocksdb.RocksDBException: TimedOut(LockTimeout)`
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-16 17:25:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4406" class=".btn">#4406</a>
             </td>
             <td>
@@ -452,62 +501,6 @@ Quieten the noisy non-critical MerkleTrieExceptions thrown during block producti
     </table>
     <div class="right-align">
         Created At 2022-09-09 19:36:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4377" class=".btn">#4377</a>
-            </td>
-            <td>
-                <b>
-                    WIP (feedback needed): Fix banning because of late response in eth/66
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-- The RequestManager commit that lessens the penalty should be somewhat straightforward. A late response is typically already punished with a timeout before (too many of which and we disconnect). Instead of immediately considering a late response a breach of protocol, we just consider it useless (again, too many of which and we disconnect).
-
-- The not banning of maintained/static peers was a bit more difficult. I'm not sure if this is the right^TM way to do it, but a Peer object has no notion of it being static/maintained. And static nodes are also not instantiated in a single call, they are combined with bootnodes. So adding a `isStatic` field to EthPeer also seemed more trouble than it was worth. Therefore I settled on this solution, but there might be a better/simpler/more elegant one.
-
-Feedback more than welcome!
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Fixes #4320
-Related to #4294
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-
-## TODO before merging
-- [ ] Elaborate RequestManager commit message
-- [ ] Elaborate in PeerDenylistManager commit message
-- [ ] Fix test cases PeerDenylistManager 
-- [ ] Add test case (with maintained/static peer) for PeerDenylistManager 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-09 15:41:10 +0000 UTC
     </div>
 </div>
 

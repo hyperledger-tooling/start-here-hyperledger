@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1016" class=".btn">#1016</a>
+            </td>
+            <td>
+                <b>
+                    Release v0.1.13: TBD
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                v0.1.13 Singapore
+
+### Changed
+- On Solana, emitted events are encoded with Borsh encoding following the Anchor
+  format.
+  [LucasSte](https://github.com/LucasSte)
+- The ewasm target has been removed, since ewasm is not going to implemented on
+  Ethereum. The target has been reused for an new EVM target, which is not complete
+  yet.
+  [seanyoung](https://github.com/seanyoung)
+
+### Added
+- Solana v1.11 is now supported.
+  [seanyoung](https://github.com/seanyoung)
+- On Solana, programs now use a custom heap implementation, just like on
+  Substrate. As result, it is now possible to `.push()` and `.pop()` on
+  dynamic arrays in memory.
+  [seanyoung](https://github.com/seanyoung)
+- Arithmetic overflow tests are implemented for all integer widths,
+  [salaheldinsoliman](https://github.com/salaheldinsoliman)
+- Add an NFT example for Solana
+  [LucasSte](https://github.com/LucasSte)
+- Add a wrapper for the Solana System Program
+  [LucasSte](https://github.com/LucasSte)
+- The selector for functions can be overriden with the `selector=hex"abcd0123"`
+  syntax.
+  [seanyoung](https://github.com/seanyoung)
+- Shell completion is available using the `solang shell-completion` subcommand.
+  [xermicus]([https://github.com/xermicus)
+- Add support for the `create_program_address()` and `try_find_program_address()`
+  system call on Solana
+  [seanyoung](https://github.com/seanyoung)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-16 15:46:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1015" class=".btn">#1015</a>
             </td>
             <td>
