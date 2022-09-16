@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node-container
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node-container/pull/113" class=".btn">#113</a>
+                PR <a href="https://github.com/hyperledger/indy-node-container/pull/115" class=".btn">#115</a>
             </td>
             <td>
                 <b>
-                    Ip tables scripts improved
+                    Update README.md + cfg for ubuntu 1.13 test container
                 </b>
             </td>
         </tr>
@@ -27,13 +27,40 @@ permalink: /pull-requests/hyperledger/indy-node-container
                 
             </td>
             <td>
-                - Calling the CLI port settings script from the first one
-- extracting common functionality into utility script
+                Signed-off-by: Sebastian Schmittner <sebastian.schmittner@eecc.de>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-09 10:28:50 +0000 UTC
+        Created At 2022-09-16 08:12:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-node-container/pull/114" class=".btn">#114</a>
+            </td>
+            <td>
+                <b>
+                    Use new rc3 for ubuntu 20
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                New release candidate for the ubuntu20 image
+
+Signed-off-by: Christian Bormann <ChristianCarl.Bormann@de.bosch.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-16 07:26:51 +0000 UTC
     </div>
 </div>
 

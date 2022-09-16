@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
             </td>
             <td>
                 <b>
-                    feat: added create-offer endpoint and tests
+                    feat(rest): added create-offer endpoint and tests
                 </b>
             </td>
         </tr>
@@ -55,11 +55,12 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
             <td>
                 :robot: I have created a release \*beep\* \*boop\*
 ---
-### [0.9.3](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/rest-v0.9.2...rest-v0.9.3) (2022-09-12)
+### [0.9.3](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/rest-v0.9.2...rest-v0.9.3) (2022-09-16)
 
 
 ### Features
 
+* **rest:** added create-offer endpoint and tests ([#169](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/169)) ([5458e9e](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/5458e9ee06c8a8d61fb6a812ea04f4d1a59b21dc))
 * **rest:** added filters to getAllCredentials ([#166](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/166)) ([af7ec19](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/af7ec197b317b16cb5d2083d880006f29d0272c6))
 ---
 
@@ -70,32 +71,6 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
     </table>
     <div class="right-align">
         Created At 2022-09-12 16:58:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/166" class=".btn">#166</a>
-            </td>
-            <td>
-                <b>
-                    feat(rest): added filters to getAllCredentials
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-09 12:32:53 +0000 UTC
     </div>
 </div>
 

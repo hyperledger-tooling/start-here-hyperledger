@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/ursa-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/ursa-python/pull/9" class=".btn">#9</a>
+                PR <a href="https://github.com/hyperledger/ursa-python/pull/12" class=".btn">#12</a>
             </td>
             <td>
                 <b>
-                    Enable pip-audit
+                    Update pip-audit.,yml to resolve issue #11
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/ursa-python
                 
             </td>
             <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+resolves #11 
+
+@ryjones -- flagging you on this since I notice you locked this @ v0.0.4, and it is now at v2.2.4.  Thoughts on changing the version?
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-21 22:08:21 +0000 UTC
+        Created At 2022-09-16 10:35:48 +0000 UTC
     </div>
 </div>
 

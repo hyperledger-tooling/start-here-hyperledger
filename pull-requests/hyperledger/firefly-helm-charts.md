@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/56" class=".btn">#56</a>
+                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/57" class=".btn">#57</a>
             </td>
             <td>
                 <b>
-                    [o11y] Add default Prometheus Rule to alert off Firefly core metrics
+                    fix service name for sandbox ingress
                 </b>
             </td>
         </tr>
@@ -27,21 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
                 
             </td>
             <td>
-                Alerts if the firefly core target is not up.
-
-Alerts if any actions below get rejected:
-- mints
-- transfers
-- burns
-- private messages
-- broadcasts 
-
-Resolving this issue - https://github.com/hyperledger/firefly-helm-charts/issues/47
+                When Ingress is enabled for sandbox, it fails as it cannot find the correct service name. This fixes that.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-31 15:52:47 +0000 UTC
+        Created At 2022-09-16 10:29:43 +0000 UTC
     </div>
 </div>
 

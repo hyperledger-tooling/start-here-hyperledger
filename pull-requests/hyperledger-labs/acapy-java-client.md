@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/65" class=".btn">#65</a>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/66" class=".btn">#66</a>
             </td>
             <td>
                 <b>
-                    helper extension to set self attested attributes or to optionally not reveal them
+                    Credential attributes
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
                 
             </td>
             <td>
-                <nil>
+                Changes necessary for https://github.com/hyperledger-labs/business-partner-agent/pull/826
+
+Using List of CredentialAttributes type for credential attributes
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-05 14:17:24 +0000 UTC
+        Created At 2022-09-16 12:25:26 +0000 UTC
     </div>
 </div>
 
