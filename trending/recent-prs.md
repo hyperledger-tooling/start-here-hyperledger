@@ -1,13 +1,13 @@
 
+[376](https://github.com/hyperledger-labs/fabric-token-sdk/pull/376) Export `ttxdb` SetStatus function.
+
+[4406](https://github.com/hyperledger/besu/pull/4406) Add Rpc method name when logging IOException
+
+[568](https://github.com/hyperledger/aries-agent-test-harness/pull/568) Changes by create-pull-request action
+
+[1029](https://github.com/hyperledger/aries-framework-javascript/pull/1029) feat: use did:key flag
+
 [88](https://github.com/hyperledger/aries-mobile-test-harness/pull/88) Speed increases to receiving credential in BC Wallet
-
-[444](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/444) Fixed biometrics for android onboarding and login
-
-[3374](https://github.com/hyperledger/aries-framework-go/pull/3374) fix: Docker warning when using frapsoft/openssl on arm64 system
-
-[87](https://github.com/hyperledger/aries-mobile-test-harness/pull/87) fixed onboarding and rev error
-
-[2752](https://github.com/hyperledger/iroha/pull/2752) [ci]: Fix iroha2:dev-nightly image build
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
