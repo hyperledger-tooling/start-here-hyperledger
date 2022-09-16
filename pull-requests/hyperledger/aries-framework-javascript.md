@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1029" class=".btn">#1029</a>
+            </td>
+            <td>
+                <b>
+                    feat: use did:key flag
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                An initial step to support [Aries RFC 0360](https://github.com/hyperledger/aries-rfcs/tree/main/features/0360-use-did-key) by adding an optional configuration flag `useDidKeyInProtocols` that will define how agent should format keys in protocols where keys are exchanged: 'naked' (base58) or did:key encoded. 
+
+This setting will be used unless the other party has already sent us keys (for instance, a Mediator sent us the routing key in a Mediation Grant message). In such case, their format will be used in subsequent messages for that protocol (e.g. KeyList Update). This is achieved by adding a specific metadata key `UseDidKeysForProtocol` to the related connection record, which  intended to track the other party support of did:key in different RFCs. 
+
+Currently, only Coordinate Mediation (RFC 0211) uses this feature, but in further versions other protocols will use this metadata/settings key (such as Pickup V2 - RFC 0685). 
+
+For key reception, the agent will always accept both formats and internally store in base58.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-16 02:59:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1028" class=".btn">#1028</a>
             </td>
             <td>
