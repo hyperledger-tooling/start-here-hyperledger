@@ -62,34 +62,3 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/565" class=".btn">#565</a>
-            </td>
-            <td>
-                <b>
-                    Deal with the new 'deleted' state
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-
-Not sure if this is optimal ...  ignore the new "deleted" state and/or treat it as a successful credential issue
-
-The alternative (I think) is to turn off "auto delete" for AATH tests so we never delete the cred exchange records (and therefore should never encounter a "deleted" state)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-08 19:39:44 +0000 UTC
-    </div>
-</div>
-
