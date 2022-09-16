@@ -1,13 +1,13 @@
 
-[376](https://github.com/hyperledger-labs/fabric-token-sdk/pull/376) Export `ttxdb` SetStatus function.
+[66](https://github.com/hyperledger-labs/acapy-java-client/pull/66) Credential attributes
 
-[4406](https://github.com/hyperledger/besu/pull/4406) Add Rpc method name when logging IOException
+[826](https://github.com/hyperledger-labs/business-partner-agent/pull/826) Credential attributes file support
 
-[568](https://github.com/hyperledger/aries-agent-test-harness/pull/568) Changes by create-pull-request action
+[2031](https://github.com/hyperledger/bevel/pull/2031) Bump jsdom and react-scripts in /examples/supplychain-app/supplychain-frontend
 
-[1029](https://github.com/hyperledger/aries-framework-javascript/pull/1029) feat: use did:key flag
+[2030](https://github.com/hyperledger/bevel/pull/2030) Bump shell-quote and react-scripts in /examples/supplychain-app/supplychain-frontend
 
-[88](https://github.com/hyperledger/aries-mobile-test-harness/pull/88) Speed increases to receiving credential in BC Wallet
+[2029](https://github.com/hyperledger/bevel/pull/2029) Bump terser and react-scripts in /examples/supplychain-app/supplychain-frontend
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
