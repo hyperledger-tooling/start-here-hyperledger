@@ -42,35 +42,3 @@ permalink: /releases/hyperledger/firefly-transaction-manager
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v0.9.12
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v0.9.12
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* Acknowledge batches by number by @peterbroadhurst in https://github.com/hyperledger/firefly-transaction-manager/pull/36
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly-transaction-manager/compare/v0.9.11...v0.9.12
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v0.9.12" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-09-09 00:07:17 +0000 UTC
-    </span>
-</div>
-
