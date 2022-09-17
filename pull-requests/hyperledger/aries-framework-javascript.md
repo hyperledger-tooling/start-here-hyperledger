@@ -104,29 +104,3 @@ It has been restored in this PR
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1024" class=".btn">#1024</a>
-            </td>
-            <td>
-                <b>
-                    chore(release): v0.2.4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">ci-test</span>
-            </td>
-            <td>
-                Release version 0.2.4
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-10 14:07:55 +0000 UTC
-    </div>
-</div>
-
