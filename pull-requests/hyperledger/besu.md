@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4409" class=".btn">#4409</a>
+            </td>
+            <td>
+                <b>
+                    Bonsai snapshot worldstate 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This PR adds support for using rocksdb snapshot transactions as the basis for a bonsai worldstate.  This gives us the ability to have an isolated copy of the world state for concurrent operations like block production, block validation, transaction validation, historical state queries, etc.
+
+The notion is to merge this capability into main, and start replacing the uses of BonsaiLayeredWorldState and direct uses of BonsaiInMemoryWorldState when we need isolated and/or concurrent operations on the worldstate.
+
+This is a strictly additive PR and does not change existing implementations.  Uses of snapshot worldstates will be useful to resolve issues such as #4372 #4250 #4199 #4151 and other bonsai concurrency issues.
+
+Changes in support of snapshot worldstate include:
+* moving (back) to OptimisticTransactionDB, so we can mutate the snapshot transactions
+* creating `BonsaiWorldStateKeyValueStorage.BonsaiUpdater` interface extending `WorldStateStorage.Updater`, so we can have a snapshot specific Updater implementation
+* Addition of SnappableStorage, SnappedStorage to plugin-api in order to support/expose the snapshot behavior 
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+relates to #4402 
+relates to #4403 
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-16 21:48:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4407" class=".btn">#4407</a>
             </td>
             <td>
@@ -461,46 +515,6 @@ This PR avoids starting the download of the world state from scratch when restar
     </table>
     <div class="right-align">
         Created At 2022-09-12 15:06:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4378" class=".btn">#4378</a>
-            </td>
-            <td>
-                <b>
-                    Quieten merkletrie exceptions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Quieten the noisy non-critical MerkleTrieExceptions thrown during block production and transaction validation
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-09 19:36:59 +0000 UTC
     </div>
 </div>
 

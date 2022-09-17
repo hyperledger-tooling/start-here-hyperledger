@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/89" class=".btn">#89</a>
+            </td>
+            <td>
+                <b>
+                    fixed onboarding issues on Android
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+
+Fixed onboarding locator issues on Android. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-16 22:02:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/88" class=".btn">#88</a>
             </td>
             <td>
@@ -120,34 +148,6 @@ Android in SL has issues when coming back into a closed app, biometrics at times
     </table>
     <div class="right-align">
         Created At 2022-09-14 00:00:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/84" class=".btn">#84</a>
-            </td>
-            <td>
-                <b>
-                    updated bc wallet tests to build 317
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-Moved tests forward to build 317 adjusting test IDS on credentials and handling biometrics on all tests. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-09 23:51:34 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/569" class=".btn">#569</a>
+            </td>
+            <td>
+                <b>
+                    Make into_did_doc async
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-16 19:11:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/568" class=".btn">#568</a>
             </td>
             <td>
@@ -275,68 +301,6 @@ Signed-off-by: kukgini <kukgini@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-09-13 12:30:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/558" class=".btn">#558</a>
-            </td>
-            <td>
-                <b>
-                    Ledger comm/validate response
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Add validations to ledger responses. Return error if transaction was rejected
-- Update `publish_local_revocations` implementation to assure that accumulated deltas are deleted only if publishing to ledger has been successful. 
-- Changed implementation of `revoke_credential` - if local revocations has been performed (eg `get_rev_reg_delta` resolved some unpublished accumulated delta), calling this function will fail, as `prevAccum` in delta returned by `libindy_issuer_revoke_credential` actually refers to state of accumulator AFTER the local revocations, not the state of accumulator on the ledger. Attempt to publish this revocation delta will fail due to mismatch of ledger state of `accum` and value of `prevAccum` in delta returned by `libindy_issuer_revoke_credential`. With old implementation of `revoke_credential`, the delta is lost. That's a problem because, the revocation has changes state of internal accumulator, however the delta was not merged into other accumulated delta. This makes further revocation in this revocation registry, least to say difficult - with current implementation, any attempt to perform further revocations would fail. 
-This can be prevented if we always accumulate deltas returned by `libindy_issuer_revoke_credential`, which is what this PR does. Consequently, `revoke_credential` now basically
-   - revokes new credential and updates accumulated delta
-   - publishes accumualted delta, eg. publishes all accumulated reovcations
-which is unexpected behaviour from API standpoint, hence until smarter implementation is created, `revoke_credential` is now deprecated and callers should simply use combination of `revoke_credential_local` and `publish_local_revocations` instead. That way the calling code is more transparent about the fact that ALL local revocations will be published.
-
-
-- Minor variables/function renames, but particularly removal of "cache" vocabulary for storing revocation deltas. Rev delta storage is not cache, as it does not serve for optimization, but rather storing quite quite important data.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-09 22:04:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/557" class=".btn">#557</a>
-            </td>
-            <td>
-                <b>
-                    Fix order of args passed to function publish_local_revocations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-09 22:03:53 +0000 UTC
     </div>
 </div>
 

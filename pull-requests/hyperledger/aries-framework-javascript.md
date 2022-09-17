@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1030" class=".btn">#1030</a>
+            </td>
+            <td>
+                <b>
+                    0.3.0 pre merge with main
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Merging 0.2.3 and 0.2.4 features into 0.3.x branch:
+
+- All tests pass
+- Demo works
+- Action Menu module was added to the core for the moment
+
+Hope to not have missed anything. Please double check!
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-16 20:11:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1029" class=".btn">#1029</a>
             </td>
             <td>

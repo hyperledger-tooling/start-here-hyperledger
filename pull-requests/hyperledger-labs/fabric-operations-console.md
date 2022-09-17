@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/306" class=".btn">#306</a>
+            </td>
+            <td>
+                <b>
+                    add migration apis for status and db migration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- New feature
+
+#### Description
+This is part of a wider unreleased feature to migrate console from one console to another. These apis are complete, but are not usable until the migration component is done.
+
+- added api to get  overall migration status
+- added api to migrate databases to new console
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-16 18:57:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/305" class=".btn">#305</a>
             </td>
             <td>
