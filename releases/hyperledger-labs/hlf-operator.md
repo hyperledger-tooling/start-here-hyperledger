@@ -15,30 +15,33 @@ permalink: /releases/hyperledger-labs/hlf-operator
         <tr>
             <td colspan="2">
                 <b>
-                    Version 1.8.0-beta5
+                    Version 1.8.0-beta6
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.8.0-beta5
+                    v1.8.0-beta6
                 </span>
             </td>
             <td>
                 ## Changelog
-* fd94948 fix create follower channel
-* 57e6957 allow a CA or inline tls/sign cert for orderer organization
+* e3c8029 Implement mainChannel update
+* 0a5cf85 update secret key
+* b52d5d8 update ci/cd
+* 4559719 update test for channelcrd
+* 2c3fa20 update README for new channelcrd
 
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/hlf-operator/releases/tag/v1.8.0-beta5" class=".btn">
+    <a href="https://github.com/hyperledger-labs/hlf-operator/releases/tag/v1.8.0-beta6" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-09-08 10:39:23 +0000 UTC
+        Created At 2022-09-17 11:02:05 +0000 UTC
     </span>
 </div>
 
