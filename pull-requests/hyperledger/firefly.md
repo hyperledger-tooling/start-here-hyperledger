@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1063" class=".btn">#1063</a>
+            </td>
+            <td>
+                <b>
+                    Delete duplicate blockchainevents when migrating
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Should fix any environments that got into a bad state between 0e559460a4ee2c68a66c23a5ca108bc98e7dfded (1.1.0-rc.1) and d75f2d4a0cd689df174d57d8e40d4c623c129e0d (1.1.0-rc.4).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-16 19:01:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1062" class=".btn">#1062</a>
             </td>
             <td>

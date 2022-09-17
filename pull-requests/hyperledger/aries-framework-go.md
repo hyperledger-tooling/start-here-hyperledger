@@ -104,33 +104,3 @@ Problem report inside legacy connection
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3368" class=".btn">#3368</a>
-            </td>
-            <td>
-                <b>
-                    feat: fix format filtering in pEx V2 for JWTVCs, and add bdd tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - also fix an issue with initializing sdk agents, when old clients
-  still exist under the same name
-- also rename wallet-jsonld bdd tests since they aren't jsonld-only
-
-Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-09 22:24:32 +0000 UTC
-    </div>
-</div>
-
