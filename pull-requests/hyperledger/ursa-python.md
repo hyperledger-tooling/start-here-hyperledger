@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/ursa-python
             </td>
             <td>
                 <b>
-                    Update pip-audit.,yml to resolve issue #11
+                    Update pip-audit.yml to resolve issue #11
                 </b>
             </td>
         </tr>
