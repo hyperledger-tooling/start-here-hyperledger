@@ -14,25 +14,38 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/124" class=".btn">#124</a>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/125" class=".btn">#125</a>
             </td>
             <td>
                 <b>
-                    [refactor]: introduce `Torii`, `Signer`, lightweight `Client` and many tools
+                    feat: update lib with latest proto
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                
             </td>
             <td>
-                <nil>
+                Updated the proto files using these [proto](https://github.com/hyperledger/iroha/tree/main/shared_model/schema) files.
+To generate the ts proto files I used the following script:
+```
+PROTOC_GEN_TS_PATH="../../node_modules/.bin/protoc-gen-ts"
+
+OUT_DIR="./"
+
+protoc \
+    --plugin="protoc-gen-ts=${PROTOC_GEN_TS_PATH}" \
+    --js_out="import_style=commonjs,binary:${OUT_DIR}" \
+    --ts_out="${OUT_DIR}" \
+    *.proto
+```
+Signed-off-by: yashrajdesai <yashrajdesai30@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-11 08:12:42 +0000 UTC
+        Created At 2022-09-18 11:42:25 +0000 UTC
     </div>
 </div>
 
