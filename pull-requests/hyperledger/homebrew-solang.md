@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/homebrew-solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/homebrew-solang/pull/4" class=".btn">#4</a>
+                PR <a href="https://github.com/hyperledger/homebrew-solang/pull/5" class=".btn">#5</a>
             </td>
             <td>
                 <b>
-                    Update repository name
+                    Update cask for v0.1.13
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/homebrew-solang
                 
             </td>
             <td>
-                This PR updates the repository path where needed, as Solang's repository has moved to Hyperledger.
+                Signed-off-by: Sean Young <sean@mess.org>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-29 22:02:19 +0000 UTC
+        Created At 2022-09-18 14:37:46 +0000 UTC
     </div>
 </div>
 
