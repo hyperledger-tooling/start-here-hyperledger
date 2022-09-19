@@ -144,29 +144,3 @@ In PR chain with:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1053" class=".btn">#1053</a>
-            </td>
-            <td>
-                <b>
-                    Update manifest for v1.1.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Peter Broadhurst <peter.broadhurst@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-12 11:58:33 +0000 UTC
-    </div>
-</div>
-
