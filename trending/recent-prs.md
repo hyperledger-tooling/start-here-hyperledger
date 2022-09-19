@@ -1,13 +1,13 @@
 
-[93](https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/93) Lowercase contract addresses, check for null event in migration check
+[57](https://github.com/hyperledger-labs/fabric-operator/pull/57) Upgrading couchdb to 3.2.2
 
-[170](https://github.com/hyperledger/aries-framework-javascript-ext/pull/170) feat(rest): added WebSocket event server and listeners
+[56](https://github.com/hyperledger-labs/fabric-operator/pull/56) Update peer secrets with tlsca cert on a PATCH request
 
-[382](https://github.com/hyperledger-labs/fabric-token-sdk/pull/382) review htlc terms
+[55](https://github.com/hyperledger-labs/fabric-operator/pull/55) handle hsm image tag logic for registries with extra column
 
-[574](https://github.com/hyperledger/aries-vcx/pull/574) Avoid HTTP request body cloning.
+[54](https://github.com/hyperledger-labs/fabric-operator/pull/54) Allow Peer property CORE_PEER_GOSSIP_EXTERNALENDPOINT to be modified
 
-[381](https://github.com/hyperledger-labs/fabric-token-sdk/pull/381) double check the use of NewQuantityFromUInt64 #218
+[446](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/446) refactor!: wallet initialization
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

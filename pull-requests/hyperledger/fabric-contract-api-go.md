@@ -64,29 +64,3 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/72" class=".btn">#72</a>
-            </td>
-            <td>
-                <b>
-                    Add nightly security vulnerability scan
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-12 16:47:23 +0000 UTC
-    </div>
-</div>
-

@@ -27,7 +27,8 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
                 
             </td>
             <td>
-                <nil>
+                - Prevents duplicate subscriptions to the same contract when blockchain connector changes the casing of the address
+- Prevents a spurious warning log from the migration check logic
             </td>
         </tr>
     </table>
