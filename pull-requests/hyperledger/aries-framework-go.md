@@ -71,36 +71,3 @@ Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3369" class=".btn">#3369</a>
-            </td>
-            <td>
-                <b>
-                    refactor: Add handling inbound problem report messages inside legacy-connection protocol
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Title:**
-Problem report inside legacy connection
-
-**Summary:**
-- Add handling problem report messages inside protocol
--  Cover with unit tests
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-12 06:57:02 +0000 UTC
-    </div>
-</div>
-

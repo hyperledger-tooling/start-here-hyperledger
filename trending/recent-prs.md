@@ -1,13 +1,13 @@
 
-[764](https://github.com/hyperledger/fabric-docs-i18n/pull/764) Spelling error
+[2761](https://github.com/hyperledger/iroha/pull/2761) Update workflows, reduce CI runs
 
-[5](https://github.com/hyperledger/homebrew-solang/pull/5) Update cask for v0.1.13
+[2760](https://github.com/hyperledger/iroha/pull/2760) Update workflows, redice CI runs
 
-[125](https://github.com/hyperledger/iroha-javascript/pull/125) feat: update lib with latest proto
+[570](https://github.com/hyperledger/aries-vcx/pull/570) Reduce size of the release build.
 
-[3640](https://github.com/hyperledger/fabric/pull/3640) unit test flake in leadership transfer
+[2759](https://github.com/hyperledger/iroha/pull/2759) Reduce CI runs
 
-[380](https://github.com/hyperledger-labs/fabric-token-sdk/pull/380) remove "zkat" magic string #107
+[1018](https://github.com/hyperledger/solang/pull/1018) Fix AddMod and MulMod
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
