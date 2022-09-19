@@ -115,31 +115,3 @@ Signed-off-by: Philipp Schlarb <p.schlarb@esatus.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1775" class=".btn">#1775</a>
-            </td>
-            <td>
-                <b>
-                    Add flag for sorting algorithm switching
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This allows networks/nodes to choose the sorting algorithm used for revocation registry entries as implemented in #1770 
-
-Signed-off-by: Christian Bormann <ChristianCarl.Bormann@de.bosch.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-12 13:10:25 +0000 UTC
-    </div>
-</div>
-

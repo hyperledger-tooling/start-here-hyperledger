@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/575" class=".btn">#575</a>
+            </td>
+            <td>
+                <b>
+                    Statically link libvcx.so
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Vdr-tools linked as an ordinary Rust crate and does not require any additional installation steps.
+
+Signed-off-by: Artem Mironov <artem.mironov@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-19 15:33:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/574" class=".btn">#574</a>
             </td>
             <td>
@@ -356,34 +384,6 @@ Signed-off-by: kukgini <kukgini@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-09-14 09:17:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/559" class=".btn">#559</a>
-            </td>
-            <td>
-                <b>
-                    Statically link libindy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - use left-arm form of vdr-tools
-
-- simplify some code and remove unused dependencies
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-13 12:30:00 +0000 UTC
     </div>
 </div>
 
