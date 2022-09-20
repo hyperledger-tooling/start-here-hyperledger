@@ -208,29 +208,3 @@ See https://github.com/hyperledger/solang/actions/runs/3044527275/jobs/490501457
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1012" class=".btn">#1012</a>
-            </td>
-            <td>
-                <b>
-                    Add semantic information to CFG
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR should help @salaheldinsoliman implement overflow detection for constants in the CFG. It adds information about the origin of each instruction to the CFG. Each instruction is now classified either as from Solidity, Yul or Codegen.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-12 21:19:36 +0000 UTC
-    </div>
-</div>
-

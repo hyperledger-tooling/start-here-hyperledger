@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-signer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-signer/pull/23" class=".btn">#23</a>
+                PR <a href="https://github.com/hyperledger/firefly-signer/pull/24" class=".btn">#24</a>
             </td>
             <td>
                 <b>
-                    Update info logging to include method and time
+                    Refactor APIs per updates to btcec library
                 </b>
             </td>
         </tr>
@@ -27,17 +27,18 @@ permalink: /pull-requests/hyperledger/firefly-signer
                 
             </td>
             <td>
-                See https://github.com/hyperledger/firefly-evmconnect/issues/26
+                btcec is now a sub-packge in the btcd repo.
 
-So we have logs like this if only INFO logging is enabled:
-```
-RPC[2->000012346] <-- eth_getTransactionByHash [200] OK (1.43ms)
-```
+ref:
+* https://github.com/btcsuite/btcec
+* https://github.com/btcsuite/btcd/blob/master/btcec/go.mod#L1
+
+Signed-off-by: Vinod Damle <vinod.damle@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-31 02:09:37 +0000 UTC
+        Created At 2022-09-19 21:05:51 +0000 UTC
     </div>
 </div>
 
