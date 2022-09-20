@@ -446,33 +446,3 @@ None
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2739" class=".btn">#2739</a>
-            </td>
-            <td>
-                <b>
-                    Develop to main
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### Description of the Change
-Iroha v1.6.0-hotfix-1
-
-1. TransferAsset hotfix.
-2. Check allowed symbols in cache before any transaction.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-13 05:42:55 +0000 UTC
-    </div>
-</div>
-
