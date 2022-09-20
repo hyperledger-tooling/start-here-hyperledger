@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/90" class=".btn">#90</a>
+            </td>
+            <td>
+                <b>
+                    moved tessts up to BC Wallet build 330
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+
+Accounted for new biometrics toggle and streamlined proof finalization in BC Wallet tests.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-19 22:33:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/89" class=".btn">#89</a>
             </td>
             <td>

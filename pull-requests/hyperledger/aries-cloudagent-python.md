@@ -102,38 +102,3 @@ Signed-off-by: Victor Lee <victorlee0505@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1940" class=".btn">#1940</a>
-            </td>
-            <td>
-                <b>
-                    Fix: OOB - Handling of minor versions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Shaanjot Gill [gill.shaanjots@gmail.com](mailto:gill.shaanjots@gmail.com)
-
-- resolve #1917
-- Fixes the following error:
-```
-File "/home/indy/.venv/lib/python3.6/site-packages/aries_cloudagent/utils/classloader.py", line 97, in load_class
-   |     if "." in class_name:
-   | TypeError: argument of type 'NoneType' is not iterable
-```
-- Working on adding minor changes for adding OOB 1.1 and a mechanism for ACA-Py to respond with the same supported version, basically, `handshake-reuse-accepted 1.1` for `handshake-reuse 1.1` and `handshake-reuse-accepted 1.0` for `handshake-reuse 1.0`. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-12 20:22:58 +0000 UTC
-    </div>
-</div>
-
