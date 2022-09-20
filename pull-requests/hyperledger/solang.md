@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1020" class=".btn">#1020</a>
+            </td>
+            <td>
+                <b>
+                    Update issue templates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add template for new issues
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-20 14:22:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1018" class=".btn">#1018</a>
             </td>
             <td>
