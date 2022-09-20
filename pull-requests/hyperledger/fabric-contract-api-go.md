@@ -38,29 +38,3 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/73" class=".btn">#73</a>
-            </td>
-            <td>
-                <b>
-                    Add workflow_dispatch to vulnerability scan build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-13 11:22:46 +0000 UTC
-    </div>
-</div>
-

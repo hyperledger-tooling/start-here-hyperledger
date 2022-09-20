@@ -63,29 +63,3 @@ Signed-off-by: Philipp Schlarb <p.schlarb@esatus.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1777" class=".btn">#1777</a>
-            </td>
-            <td>
-                <b>
-                    Fix Bug in compat-set
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This fixes incorrect behavior in the compat-set implementation during resizes of the hashtable.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-13 09:26:18 +0000 UTC
-    </div>
-</div>
-
