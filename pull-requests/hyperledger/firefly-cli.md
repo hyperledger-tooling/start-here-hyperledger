@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/219" class=".btn">#219</a>
+            </td>
+            <td>
+                <b>
+                    Corrected binary move path in heading
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Binary move path was incorrect in the heading compared with the path mentioned in the code.
+
+Signed-off-by: Dinkar Jain <62498436+dinkar-jain@users.noreply.github.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-20 12:34:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-cli/pull/217" class=".btn">#217</a>
             </td>
             <td>

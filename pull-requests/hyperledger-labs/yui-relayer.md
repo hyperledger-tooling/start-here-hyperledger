@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/76" class=".btn">#76</a>
-            </td>
-            <td>
-                <b>
-                    tendermint: set value to `TotalVotingPower`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-13 10:51:49 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-backend
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/33" class=".btn">#33</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/35" class=".btn">#35</a>
             </td>
             <td>
                 <b>
-                    CI: Generate Binding: Use `git diff` instead of `go test`
+                    Rename PerunToken to ERC20Token
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-backend
                 
             </td>
             <td>
-                Previously we used `go test` to check if the bindings were generated correctly. However, this always takes some time. Instead we now use `git diff` to test that the binding was rebuild correctly.
+                Closes #16.
+Depends on [#14](https://github.com/hyperledger-labs/perun-eth-contracts/pull/34).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-31 13:19:27 +0000 UTC
+        Created At 2022-09-20 07:57:53 +0000 UTC
     </div>
 </div>
 
