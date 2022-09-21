@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
             </td>
             <td>
                 <b>
-                    feat(rest): added WebSocket event server and listeners
+                    feat(rest): added WebSocket event server
                 </b>
             </td>
         </tr>

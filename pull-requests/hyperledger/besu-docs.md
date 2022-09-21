@@ -14,6 +14,75 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1176" class=".btn">#1176</a>
+            </td>
+            <td>
+                <b>
+                    Document support for free gas networks when using London fee market
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Simon Dudley <simon.dudley@consensys.net>
+
+## Pull request checklist
+
+Use the following list to make sure your PR fits the Besu documentation quality standard.
+
+### Before creating the pull request
+
+Make sure that:
+
+- [x] [All commits in this PR are signed off for the DCO](https://wiki.hyperledger.org/display/BESU/DCO).
+- [x] You've read the [contribution guidelines](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [x] You've [previewed your changes locally](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation).
+
+## Issue fixed
+
+Fixes https://github.com/hyperledger/besu-docs/issues/1080
+
+## Impacted parts
+
+<!-- Check the item from the following lists that your PR impacts. You can check multiple boxes. -->
+
+For content changes:
+
+- [x] Documentation content
+- [ ] Documentation page organization
+
+## After creating your PR and tests have finished
+
+Make sure that:
+
+- [ ] You've fixed any issues raised by the tests.
+- [x] You've [previewed your changes on Read the Docs](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation)
+  and added a [preview link](#preview).
+
+## Preview
+
+<!-- Add the link to preview your changes on Read the Docs.
+
+The link format is "https://hyperledger-besu--{your PR number}.org.readthedocs.build/en/{your PR number}/",
+where {your PR number} is replaced by the number of this PR.
+-->
+
+https://hyperledger-besu--1176.org.readthedocs.build/en/1176/private-networks/how-to/configure/free-gas/#4-enable-zero-base-fee-if-using-london-fork-or-later
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-21 11:15:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1175" class=".btn">#1175</a>
             </td>
             <td>
@@ -360,197 +429,6 @@ where {your PR number} is replaced by the number of this PR.
     </table>
     <div class="right-align">
         Created At 2022-09-14 20:36:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1169" class=".btn">#1169</a>
-            </td>
-            <td>
-                <b>
-                    use sha for weekly action
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">DocOps</span>
-            </td>
-            <td>
-                Signed-off-by: Nicolas MASSART <nicolas.massart@consensys.net>
-
-## Pull request checklist
-
-Use the following list to make sure your PR fits the Besu documentation quality standard.
-
-### Before creating the pull request
-
-Make sure that:
-
-- [x] [All commits in this PR are signed off for the DCO](https://wiki.hyperledger.org/display/BESU/DCO).
-- [x] You've read the [contribution guidelines](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [x] You've [previewed your changes locally](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation).
-
-## Describe the change
-
-Use Sha for action version (and allow it in github config) as the @v1 not working on this action.
-Using commit sha is more secure anyway.
-
-<!-- Add a clear and concise description of what your PR changes in the documentation. -->
-
-## Issue fixed
-
-
-https://github.com/hyperledger/besu-docs/actions/runs/3052051159
-
-<!-- Link to the GitHub issue that your PR addresses.
-
-Add "fixes #{your issue number}" to close the issue automatically when the PR is merged.
-
-If your PR doesn't completely fix the issue, add "see #{your issue number}" to link to the issue
-without automatically closing it. -->
-
-## Impacted parts
-
-<!-- Check the item from the following lists that your PR impacts. You can check multiple boxes. -->
-
-For content changes:
-
-- [ ] Documentation content
-- [ ] Documentation page organization
-
-For tool changes:
-
-- [x] Github Actions workflow
-- [ ] Build and QA tools configuration (for example, lint rules or Vale style)
-- [ ] MkDocs templates
-- [ ] MkDocs configuration
-- [ ] Python dependencies
-- [ ] Node dependencies and JavaScript
-- [ ] Read the Docs configuration
-- [ ] GitHub integration
-
-## After creating your PR and tests have finished
-
-Make sure that:
-
-- [x] You've fixed any issues raised by the tests.
-- [x] You've [previewed your changes on Read the Docs](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation)
-  and added a [preview link](#preview).
-
-## Preview
-
-NA
-
-<!-- Add the link to preview your changes on Read the Docs.
-
-The link format is "https://hyperledger-besu--{your PR number}.org.readthedocs.build/en/{your PR number}/",
-where {your PR number} is replaced by the number of this PR.
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-14 10:33:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1168" class=".btn">#1168</a>
-            </td>
-            <td>
-                <b>
-                    remove circle ci config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">DocOps</span>
-            </td>
-            <td>
-                Signed-off-by: Nicolas MASSART <nicolas.massart@consensys.net>
-
-## Pull request checklist
-
-Use the following list to make sure your PR fits the Besu documentation quality standard.
-
-### Before creating the pull request
-
-Make sure that:
-
-- [x] [All commits in this PR are signed off for the DCO](https://wiki.hyperledger.org/display/BESU/DCO).
-- [x] You've read the [contribution guidelines](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [x] You've [previewed your changes locally](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation).
-
-## Describe the change
-
-Remove the remains of Circle CI
-
-<!-- Add a clear and concise description of what your PR changes in the documentation. -->
-
-## Issue fixed
-
-fixes #1146 
-
-<!-- Link to the GitHub issue that your PR addresses.
-
-Add "fixes #{your issue number}" to close the issue automatically when the PR is merged.
-
-If your PR doesn't completely fix the issue, add "see #{your issue number}" to link to the issue
-without automatically closing it. -->
-
-## Impacted parts
-
-<!-- Check the item from the following lists that your PR impacts. You can check multiple boxes. -->
-
-For content changes:
-
-- [ ] Documentation content
-- [ ] Documentation page organization
-
-For tool changes:
-
-- [x] CircleCI workflow
-- [ ] Build and QA tools (for example, lint or vale)
-- [ ] MkDocs templates
-- [ ] MkDocs configuration
-- [ ] Python dependencies
-- [ ] Node dependencies and JavaScript
-- [ ] Read the Docs configuration
-- [x] GitHub integration
-
-## After creating your PR and tests have finished
-
-Make sure that:
-
-- [x] You've fixed any issues raised by the tests.
-- [x] You've [previewed your changes on Read the Docs](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation)
-  and added a [preview link](#preview).
-
-## Preview
-
-
-NA
-
-<!-- Add the link to preview your changes on Read the Docs.
-
-The link format is "https://hyperledger-besu--{your PR number}.org.readthedocs.build/en/{your PR number}/",
-where {your PR number} is replaced by the number of this PR.
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-14 10:06:22 +0000 UTC
     </div>
 </div>
 

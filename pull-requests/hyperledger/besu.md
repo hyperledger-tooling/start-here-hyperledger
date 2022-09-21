@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4417" class=".btn">#4417</a>
+            </td>
+            <td>
+                <b>
+                    Make transaction pool limits for sender based on pool size
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Limit the portion of the transaction pool that a single sender can occupy to a percentage
+* defaults to 0.1%, or default of 5 per sender with default max txpool size
+* moves this config out of BesuCommand and into TransactionPoolOptions
+
+This PR will see the default txpool configuration restrict the number of transactions from a single sender in the pool from 64 to 5.  This should decrease the cost of transaction eviction during transaction processing, and yield a transaction pool with a greater percentage of executable transactions for building a block.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+relates to #4401 
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-21 08:42:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4416" class=".btn">#4416</a>
             </td>
             <td>

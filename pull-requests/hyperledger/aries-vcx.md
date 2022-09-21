@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/577" class=".btn">#577</a>
+            </td>
+            <td>
+                <b>
+                    Separate messages module into a crate
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">refactoring</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-21 07:56:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/576" class=".btn">#576</a>
             </td>
             <td>
@@ -382,34 +408,6 @@ The pre #558 approach in unacceptable, the post #558 approach is not transparent
     </table>
     <div class="right-align">
         Created At 2022-09-14 13:23:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/560" class=".btn">#560</a>
-            </td>
-            <td>
-                <b>
-                    iOS Wrapper abstraction
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                iOS Wrapper abstraction: Some information, such as handler types (u32, i32) or callback definitions, is only useful within vcx and the client code that uses them doesn't need to know the details. Hiding them from the client code will improve maintainability.
-
-Signed-off-by: kukgini <kukgini@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-14 09:17:55 +0000 UTC
     </div>
 </div>
 
