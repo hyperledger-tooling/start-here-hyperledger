@@ -1,13 +1,13 @@
 
-[2766](https://github.com/hyperledger/iroha/pull/2766) [fix]: #2571: Better Kura Inspector UX.
+[85](https://github.com/hyperledger/besu-native/pull/85) Restore Mac ECDSA libs
 
-[91](https://github.com/hyperledger/aries-mobile-test-harness/pull/91) fixed improper step calls causing BC tests to fail
+[1448](https://github.com/hyperledger/caliper/pull/1448) Add TxObserver for Prometheus manager
 
-[35](https://github.com/hyperledger/firefly-sdk-nodejs/pull/35) Add query for token transfers
+[84](https://github.com/hyperledger/besu-native/pull/84) 0.6.1 release version
 
-[1065](https://github.com/hyperledger/firefly/pull/1065) [identity-docs-formatting] removing newline
+[4416](https://github.com/hyperledger/besu/pull/4416) Bump besu-native to 0.6.1
 
-[3375](https://github.com/hyperledger/aries-framework-go/pull/3375) feat: parse JWT VCs when resolving credential manifests
+[489](https://github.com/hyperledger/cello/pull/489) Enable peer to join channel
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
