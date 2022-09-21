@@ -1,13 +1,13 @@
 
-[85](https://github.com/hyperledger/besu-native/pull/85) Restore Mac ECDSA libs
+[233](https://github.com/hyperledger/fabric-sdk-java/pull/233) Update dependencies to address CVE-2022-38752 (backport #231)
 
-[1448](https://github.com/hyperledger/caliper/pull/1448) Add TxObserver for Prometheus manager
+[2770](https://github.com/hyperledger/iroha/pull/2770) [feature] #2712: Config proptests
 
-[84](https://github.com/hyperledger/besu-native/pull/84) 0.6.1 release version
+[1176](https://github.com/hyperledger/besu-docs/pull/1176) Document support for free gas networks when using London fee market
 
-[4416](https://github.com/hyperledger/besu/pull/4416) Bump besu-native to 0.6.1
+[480](https://github.com/hyperledger/fabric-gateway/pull/480) Use latest Go patch level for vulnerability scan
 
-[489](https://github.com/hyperledger/cello/pull/489) Enable peer to join channel
+[2769](https://github.com/hyperledger/iroha/pull/2769) [fix] #2764: Remove limit on max message size
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
