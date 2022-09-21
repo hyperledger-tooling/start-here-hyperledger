@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1175" class=".btn">#1175</a>
+            </td>
+            <td>
+                <b>
+                    Update estimated storage requirements
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The documented storage requirements for a **full node** are incorrect.
+
+I recently started my Besu experience by running a BONSAI node that unfortunately failed after The Merge, but its storage usage was just under 650GB when it was fully synced pre-merge (Linux, XFS filesystem)
+
+I then synced using FOREST mode and was expecting 7TB of usage but it turned out to only be about 750GB. After speaking with @NicolasMassart (0x6E69636F#2619 on Discord) I was informed that the docs were wrong.
+
+Please re-validate these numbers if you can. I have not had the time to run full Archive nodes to check those storage requirements, but they're likely correct.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-20 19:16:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1174" class=".btn">#1174</a>
             </td>
             <td>
@@ -132,6 +164,7 @@ Update documentation around The Merge, including:
 - Add a **Run Besu and Teku on Mainnet** tutorial, similar to the existing testnet tutorial. These tutorials are similar to the get started guides, but include specific instructions for Teku.
 - Edit terminology around The Merge from future to past tense, or remove such terminology in various pages.
 - Add a note at the top of the **Prepare for The Merge** page. Eventually this page should be deleted and redirect to the connect to Mainnet guide.
+- Add warnings about restarting snap/checkpoint sync across all relevant pages.
 
 ## Issue fixed
 
@@ -172,11 +205,6 @@ Important pages to review:
 - [The Merge conceptual page](https://hyperledger-besu--1173.org.readthedocs.build/en/1173/public-networks/concepts/the-merge/)
 - [Run Besu and Teku on Mainnet tutorial](https://hyperledger-besu--1173.org.readthedocs.build/en/1173/public-networks/tutorials/besu-teku-mainnet/)
 - [Run Besu and Teku on a testnet tutorial](https://hyperledger-besu--1173.org.readthedocs.build/en/1173/public-networks/tutorials/besu-teku-testnet/)
-
-Some questions I still have:
-
-1. Do we recommend setting `host-allowlist` and `engine-host-allowlist` to `*` on Mainnet? We currently recommend against this in the docs, but Discord users seem to all set them to `*`.
-1. Does Teku require setting bootnodes for specific networks or are they set by default?
             </td>
         </tr>
     </table>

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/91" class=".btn">#91</a>
+            </td>
+            <td>
+                <b>
+                    fixed improper step calls causing BC tests to fail
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-20 20:32:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/90" class=".btn">#90</a>
             </td>
             <td>
@@ -149,33 +175,6 @@ This PR cleans some pipeline execution issues with imports, along with removing 
     </table>
     <div class="right-align">
         Created At 2022-09-14 23:30:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/85" class=".btn">#85</a>
-            </td>
-            <td>
-                <b>
-                    Feature/offline handling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Initial set of Offline handling of the BC Wallet tests. These may remain flaky on iOS until we are out of the crawl stage and the test code is refined to properly use swipe to toggle WiFi on control center on iOS. 
-Android in SL has issues when coming back into a closed app, biometrics at times does not display.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-14 00:00:31 +0000 UTC
     </div>
 </div>
 

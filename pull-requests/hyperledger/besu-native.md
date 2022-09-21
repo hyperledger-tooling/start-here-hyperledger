@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/79" class=".btn">#79</a>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/80" class=".btn">#80</a>
             </td>
             <td>
                 <b>
-                    Ship both x86 and aarch64 darwin libs
+                    Build BLS-12 on linux arm
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/besu-native
                 
             </td>
             <td>
-                Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
+                Build BLS-12 for linux arm.  Also has the altbn128 libs.
+
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-05 08:23:52 +0000 UTC
+        Created At 2022-09-20 19:01:39 +0000 UTC
     </div>
 </div>
 
