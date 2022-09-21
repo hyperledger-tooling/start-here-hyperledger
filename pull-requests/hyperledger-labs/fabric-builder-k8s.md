@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/62" class=".btn">#62</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/64" class=".btn">#64</a>
             </td>
             <td>
                 <b>
-                    Top README refresh, circa v0.7.2
+                    Improve logging
                 </b>
             </td>
         </tr>
@@ -27,14 +27,15 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
                 
             </td>
             <td>
-                Update the "above the fold" README for k8s-builder.
+                - always log the chaincode pod details in the run phase
+- avoid spamming peer log for unsupported chaincode in the detect phase
 
-Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-01 14:02:04 +0000 UTC
+        Created At 2022-09-21 15:33:43 +0000 UTC
     </div>
 </div>
 
