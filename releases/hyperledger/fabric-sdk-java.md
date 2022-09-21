@@ -15,62 +15,33 @@ permalink: /releases/hyperledger/fabric-sdk-java
         <tr>
             <td colspan="2">
                 <b>
-                    v2.2.16
+                    v2.2.17
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.2.16
+                    v2.2.17
                 </span>
             </td>
             <td>
-                This is a maintenance release that contains updates to project dependencies to address the following security vulnerability:
+                ## What's Changed
 
-* CVE-2022-25857
+This is a maintenance release containing the following changes:
 
-**Full Changelog**: https://github.com/hyperledger/fabric-sdk-java/compare/v2.2.15...v2.2.16
+* Update snakeYAML dependency to address security vulnerability CVE-2022-38752
+* Update dependencies containing native libraries to allow use with native Apple silicon (M1 / arm64) JVMs
+
+**Full Changelog**: https://github.com/hyperledger/fabric-sdk-java/compare/v2.2.16...v2.2.17
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-sdk-java/releases/tag/v2.2.16" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-sdk-java/releases/tag/v2.2.17" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-09-07 14:45:14 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v1.4.16
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v1.4.16
-                </span>
-            </td>
-            <td>
-                This is a maintenance release that contains updates to project dependencies to address the following security vulnerability:
-
-* CVE-2022-25857
-
-**Full Changelog**: https://github.com/hyperledger/fabric-sdk-java/compare/v1.4.15...v1.4.16
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/fabric-sdk-java/releases/tag/v1.4.16" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-09-07 14:48:25 +0000 UTC
+        Created At 2022-09-21 15:40:30 +0000 UTC
     </span>
 </div>
 
