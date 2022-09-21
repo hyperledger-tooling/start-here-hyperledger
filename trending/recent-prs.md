@@ -1,13 +1,13 @@
 
-[448](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/448) Feature/oca integration
+[2766](https://github.com/hyperledger/iroha/pull/2766) [fix]: #2571: Better Kura Inspector UX.
 
-[4415](https://github.com/hyperledger/besu/pull/4415) Remove sender from map when he has no more tracked transaction
+[91](https://github.com/hyperledger/aries-mobile-test-harness/pull/91) fixed improper step calls causing BC tests to fail
 
-[2033](https://github.com/hyperledger/bevel/pull/2033) [chore] merge develop to main
+[35](https://github.com/hyperledger/firefly-sdk-nodejs/pull/35) Add query for token transfers
 
-[2032](https://github.com/hyperledger/bevel/pull/2032) [chore] Fix DCI lint errors
+[1065](https://github.com/hyperledger/firefly/pull/1065) [identity-docs-formatting] removing newline
 
-[58](https://github.com/hyperledger-labs/fabric-operator/pull/58) Add a project MAINTAINERS file
+[3375](https://github.com/hyperledger/aries-framework-go/pull/3375) feat: parse JWT VCs when resolving credential manifests
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

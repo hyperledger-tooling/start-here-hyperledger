@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/34" class=".btn">#34</a>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/35" class=".btn">#35</a>
             </td>
             <td>
                 <b>
-                    Configurable log level
+                    Add query for token transfers
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
                 
             </td>
             <td>
-                Signed-off-by: Gabriel Indik <gabriel.indik@kaleido.io>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-07 15:39:19 +0000 UTC
+        Created At 2022-09-20 20:05:52 +0000 UTC
     </div>
 </div>
 

@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
             </td>
             <td>
                 <b>
-                    0.3.0 pre merge with main
+                    Merge branch 'main' into 0.3.0-pre
                 </b>
             </td>
         </tr>

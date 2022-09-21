@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1065" class=".btn">#1065</a>
+            </td>
+            <td>
+                <b>
+                    [identity-docs-formatting] removing newline
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Echelberger <eberger727@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-20 19:26:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1064" class=".btn">#1064</a>
+            </td>
+            <td>
+                <b>
+                    release notes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added release notes and FF 1.1 migration guide
+
+Signed-off-by: aznrayizzle <ray.chen@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-20 19:05:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1063" class=".btn">#1063</a>
             </td>
             <td>
@@ -111,36 +165,6 @@ permalink: /pull-requests/hyperledger/firefly
     </table>
     <div class="right-align">
         Created At 2022-09-15 09:09:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1055" class=".btn">#1055</a>
-            </td>
-            <td>
-                <b>
-                    Intro docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Still work in progress, but this is a significant refactor to the intro docs for FireFly.
-
-In PR chain with:
-- #958 
-- #1039
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-13 21:05:54 +0000 UTC
     </div>
 </div>
 

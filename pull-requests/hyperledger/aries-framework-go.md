@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3375" class=".btn">#3375</a>
+            </td>
+            <td>
+                <b>
+                    feat: parse JWT VCs when resolving credential manifests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-20 19:24:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3374" class=".btn">#3374</a>
             </td>
             <td>
@@ -35,39 +61,6 @@ Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
     </table>
     <div class="right-align">
         Created At 2022-09-15 20:44:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3372" class=".btn">#3372</a>
-            </td>
-            <td>
-                <b>
-                    feat: Validate did configuration for did and domain
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Parse and validate DID configuration bytes.
-Search through domain linkage credential(s) for specified did and domain. 
-Validate domain linkage credential for Linked Data (JWT validation will be handled in different issue).
-
-Closes #3371
-
-Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-13 19:05:59 +0000 UTC
     </div>
 </div>
 
