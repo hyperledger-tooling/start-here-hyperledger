@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/477" class=".btn">#477</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/479" class=".btn">#479</a>
             </td>
             <td>
                 <b>
-                    Use govulncheck for vulnerability scanning of Go dependencies
+                    Update scenario test PEER_IMAGE_TAG to 3.0
                 </b>
             </td>
         </tr>
@@ -27,38 +27,15 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Closes #475
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-07 18:25:39 +0000 UTC
-    </div>
-</div>
+                Scenario tests utilize latest peer image pushed to hyperledger-fabric.jfrog.io/fabric-peer:amd64-latest. Currently this is version 3.0.
+Update PEER_IMAGE_TAG to 3.0, this will also be used as the tag for the chaincode images (peer 3.0 will look for chaincode images 3.0).
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/476" class=".btn">#476</a>
-            </td>
-            <td>
-                <b>
-                    Support Go 1.19
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Just allows the main branch to be developed using Go 1.19. Support for Go 1.17 to be removed later, once a new minor version release is ready.
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-07 17:01:39 +0000 UTC
+        Created At 2022-09-21 03:49:30 +0000 UTC
     </div>
 </div>
 

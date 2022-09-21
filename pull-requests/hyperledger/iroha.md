@@ -122,19 +122,19 @@ None
             </td>
             <td>
                 <b>
-                    New sumeragi into `iroha2-dev`
+                    [feat] #2713: New sumeragi into `iroha2-dev`
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">iroha2</span><span class="chip">api-changes</span><span class="chip">config-changes</span>
             </td>
             <td>
                 ### Description of the Change
 
 - [x] Updated the new consensus. 
-- [ ] Fixed lints
+- [x] Fixed lints
 - [ ] Ran tests
 - [ ] Test flakyness documented
 - [ ] Re-reviewed changes to `iroha2-dev`

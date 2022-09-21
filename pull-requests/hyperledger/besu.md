@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4416" class=".btn">#4416</a>
+            </td>
+            <td>
+                <b>
+                    Bump besu-native to 0.6.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Bump besu-native to 0.6.1 in order to get bls12-381 lib for linux arm64
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-21 05:34:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4415" class=".btn">#4415</a>
             </td>
             <td>
@@ -420,81 +466,6 @@ Logging example
     </table>
     <div class="right-align">
         Created At 2022-09-14 16:28:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4392" class=".btn">#4392</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] add BftExtraData toString
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">logging</span>
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <macfarla.github@gmail.com>
-
-To fix https://github.com/hyperledger/besu/security/code-scanning/654
-
-In most cases, calling the default implementation of toString in java.lang.Object is not what is intended when a string representation of an object is required. The output of the default toString method consists of the class name of the object as well as the object's hashcode, which is usually not what was intended.
-
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-14 02:21:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4391" class=".btn">#4391</a>
-            </td>
-            <td>
-                <b>
-                    Logging: peer table refresh
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">logging</span><span class="chip">peering</span>
-            </td>
-            <td>
-                Improve UX of log messages related to peer table refresh and neighbours
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-14 02:18:38 +0000 UTC
     </div>
 </div>
 
