@@ -1,13 +1,13 @@
 
-[233](https://github.com/hyperledger/fabric-sdk-java/pull/233) Update dependencies to address CVE-2022-38752 (backport #231)
+[3380](https://github.com/hyperledger/aries-framework-go/pull/3380) chore: Remove adding "iat" when creating JWT Claim
 
-[2770](https://github.com/hyperledger/iroha/pull/2770) [feature] #2712: Config proptests
+[347](https://github.com/hyperledger/fabric-chaincode-node/pull/347) Update release-2.4 to use Fabric v2.4.6
 
-[1176](https://github.com/hyperledger/besu-docs/pull/1176) Document support for free gas networks when using London fee market
+[88](https://github.com/hyperledger/besu-native/pull/88) prepare for 0.6.2
 
-[480](https://github.com/hyperledger/fabric-gateway/pull/480) Use latest Go patch level for vulnerability scan
+[578](https://github.com/hyperledger/aries-vcx/pull/578) Refactor/ci workflow
 
-[2769](https://github.com/hyperledger/iroha/pull/2769) [fix] #2764: Remove limit on max message size
+[3378](https://github.com/hyperledger/aries-framework-go/pull/3378) chore: Remove optional "typ" header (JWS)
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

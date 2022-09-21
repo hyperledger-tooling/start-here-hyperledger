@@ -14,6 +14,93 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4420" class=".btn">#4420</a>
+            </td>
+            <td>
+                <b>
+                    Change min selection to an unsigned min
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Change the "minimum" gas in the TangerineWhistleGasCalculator to use an unsigned comparison, to ensure a larger signed value is not selected.
+
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [X] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-21 16:00:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4419" class=".btn">#4419</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade snakeyaml to 1.32
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Upgrade org.yaml:snakeyaml to 1.32
+
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
+
+
+## Fixed Issue(s)
+
+Fixes #4418 
+
+## Documentation
+
+- [X] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-21 15:53:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4417" class=".btn">#4417</a>
             </td>
             <td>
@@ -464,56 +551,6 @@ fixes #4405
     </table>
     <div class="right-align">
         Created At 2022-09-16 05:51:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4395" class=".btn">#4395</a>
-            </td>
-            <td>
-                <b>
-                    logs JSON-RPC request and responses in TRACE mode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Pedro Novais <jpvnovais@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Allows logging JSON-RPC requests and responses. Very convenient when debugging clients/applications.
-
-Logging example
-```
-2022-09-14 17:25:07.147+01:00 | vert.x-worker-thread-19 | TRACE | JsonRpcExecutorHandler | [{"id":2,"jsonrpc":"2.0","method":"eth_blockNumber","params":[]},{"id":2,"jsonrpc":"2.0","method":"eth_getBlockByNumber","params":["latest",false]}]
-2022-09-14 17:25:07.159+01:00 | vert.x-worker-thread-19 | TRACE | JsonRpcExecutorHandler | [{"jsonrpc":"2.0","id":2,"result":"0x1"},{"jsonrpc":"2.0","id":2,"result":{"number":"0x1","hash":"0xd5e013779272ec9c7494e89cb62a9f777d1efdf4086ce58390f31c1629ec72ec","mixHash":"0xb02df79657ae2c9b7a86e477f8a951679d70a524eae627e1bacbcf2083c422fe","parentHash":"0xb576a24aceaa5585645d9f83acddc99c470e0a6ee0064670679aff42db3afd9d","nonce":"0x0000000000000000","sha3Uncles":"0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347","logsBloom":"0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000","transactionsRoot":"0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421","stateRoot":"0x166ed98eea93ab2b6f6b1a425526994adc2d675bf9a0d77d600ed1e02d8f77df","receiptsRoot":"0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421","miner":"0x0000000000000000000000000000000000000000","difficulty":"0x0","totalDifficulty":"0x1","extraData":"0x","baseFeePerGas":"0x342770c0","size":"0x201","gasLimit":"0xa00400","gasUsed":"0x0","timestamp":"0x6297609a","uncles":[],"transactions":[]}}]
-```
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-14 16:28:59 +0000 UTC
     </div>
 </div>
 

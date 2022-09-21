@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
         </tr>
         <tr>
             <td>
-                <span class="chip">enhancement</span>
+                <span class="chip">enhancement</span><span class="chip">node-p2p</span>
             </td>
             <td>
                 Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>

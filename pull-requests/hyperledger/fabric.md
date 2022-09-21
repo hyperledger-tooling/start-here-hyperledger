@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3643" class=".btn">#3643</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: remove solo from integration tests (1)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+#### Type of change
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Remove solo from integration tests (part 1)
+
+#### Related issues
+
+Issue: #3514 
+Epic: #3511 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-21 13:32:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3642" class=".btn">#3642</a>
             </td>
             <td>

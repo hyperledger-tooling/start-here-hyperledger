@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1022" class=".btn">#1022</a>
+            </td>
+            <td>
+                <b>
+                    Substrate: Remove seal_tombstone_deposit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">substrate</span>
+            </td>
+            <td>
+                This API call does no longer exist in `ink!`
+
+It looks like I changed the tests but that is only because of git is trying to be smart. I simply deleted the test for this API call and renamed the other ones to fill the gap.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-21 12:58:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1021" class=".btn">#1021</a>
             </td>
             <td>
@@ -24,7 +52,7 @@ permalink: /pull-requests/hyperledger/solang
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">solana</span>
             </td>
             <td>
                 If not, the Solana llvm target will fail to generate code with the error:

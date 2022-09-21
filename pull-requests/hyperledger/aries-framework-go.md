@@ -14,6 +14,70 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3380" class=".btn">#3380</a>
+            </td>
+            <td>
+                <b>
+                    chore: Remove adding "iat" when creating JWT Claim
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently when creating JWT claim from VC we are setting "iat" (IssuedAt). This is not part of spec.
+
+Closes #3379
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-21 18:22:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3378" class=".btn">#3378</a>
+            </td>
+            <td>
+                <b>
+                    chore: Remove optional "typ" header (JWS)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently we are setting optional "typ" header.
+
+Closes #3376
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-21 16:41:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3375" class=".btn">#3375</a>
             </td>
             <td>
