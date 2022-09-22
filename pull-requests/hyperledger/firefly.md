@@ -14,6 +14,88 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1072" class=".btn">#1072</a>
+            </td>
+            <td>
+                <b>
+                    Enhanced logging for webhooks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                To aid debugging on #1025 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-22 18:18:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1071" class=".btn">#1071</a>
+            </td>
+            <td>
+                <b>
+                    Load output of docker buildx
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-22 14:34:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1070" class=".btn">#1070</a>
+            </td>
+            <td>
+                <b>
+                    use `cm.namespace` when generating contract URL's 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ~~Fixes error where namespace was not set when resolving contract API on create. This resulted in contract listener url's being broken in the `POST` response.~~
+
+When generating contract URL's, always use the `ContractManager` namespace.
+
+closes #1067 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-22 13:46:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1068" class=".btn">#1068</a>
             </td>
             <td>

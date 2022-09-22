@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/169" class=".btn">#169</a>
-            </td>
-            <td>
-                <b>
-                    feat(rest): added create-offer endpoint and tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jim Ezesinachi <jim@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-15 12:44:36 +0000 UTC
-    </div>
-</div>
-
