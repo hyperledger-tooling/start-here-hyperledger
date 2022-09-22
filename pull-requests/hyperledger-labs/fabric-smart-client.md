@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/392" class=".btn">#392</a>
+            </td>
+            <td>
+                <b>
+                    if no default MSP is set, pick the first
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span>
+            </td>
+            <td>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-22 14:21:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/390" class=".btn">#390</a>
             </td>
             <td>

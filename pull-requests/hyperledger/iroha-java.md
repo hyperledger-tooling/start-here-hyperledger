@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/266" class=".btn">#266</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/267" class=".btn">#267</a>
             </td>
             <td>
                 <b>
-                    [refactor]: Rename `KURA_BLOCK_STORE_PATH` in `config.json`
+                    Introduced library plugin and opimized dependencies
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                Just for consistency with the change of `DEFAULT_BLOCK_STORE_PATH` from `./blocks` to `./storage` in https://github.com/hyperledger/iroha/pull/2701
-
+                After lots of experiments I tested publishing to a maven repository instead of just building a JAR. With using `java-library` plugin we get a POM file near the jar contatining all needed transitive dependencies. So we need to adjust our CI to corporate registry (configure and execute task `publish` instead of copying the jars).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-06 08:59:47 +0000 UTC
+        Created At 2022-09-22 13:12:17 +0000 UTC
     </div>
 </div>
 

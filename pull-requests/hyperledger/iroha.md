@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2779" class=".btn">#2779</a>
+            </td>
+            <td>
+                <b>
+                    #2544: Tutorial doctests, a version without API changes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ### Description of the Change
+
+Same as [2603](https://github.com/hyperledger/iroha/pull/2603) except the API changes.
+Adds example that mirrors tutorial examples, so that changes in the API can be propagated by directly taking them from GitHub.
+
+### Issue
+
+Addresses https://github.com/hyperledger/iroha/issues/2544
+
+### Benefits
+
+Direct connection to tutorial
+
+### Possible Drawbacks
+
+More code to test
+
+### Usage Examples or Tests *[optional]*
+
+`cargo run --example tutorial`
+
+### Alternate Designs
+
+As a test
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-22 17:10:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2777" class=".btn">#2777</a>
             </td>
             <td>
