@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                <nil>
+                Depends on #575 
+
+Target: run all Rust tests under 30 mins.
             </td>
         </tr>
     </table>

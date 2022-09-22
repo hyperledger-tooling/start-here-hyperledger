@@ -168,29 +168,3 @@ Signed-off-by: aznrayizzle <ray.chen@kaleido.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1057" class=".btn">#1057</a>
-            </td>
-            <td>
-                <b>
-                    Dup tokens http 409
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-15 09:09:13 +0000 UTC
-    </div>
-</div>
-

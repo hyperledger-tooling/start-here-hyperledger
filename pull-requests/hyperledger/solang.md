@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 <b>
-                    WIP: Create switch instruction
+                    Create switch instruction
                 </b>
             </td>
         </tr>
@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                We aim at moving the dispatch code to codegen. It means we'll need new instructions and builtin structs there, like the `switch` instruction, utilized in [this line](https://github.com/hyperledger/solang/blob/6083938df34d288ba85a19d72338ee5abcb85b85/src/emit/dispatch.rs#L103).
+
+This PR wires up the `switch` instruction for that and enables the code generation for switch statements in Yul, using the newly added instruction.
             </td>
         </tr>
     </table>
