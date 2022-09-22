@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/116" class=".btn">#116</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/120" class=".btn">#120</a>
             </td>
             <td>
                 <b>
-                    Update MAINTAINERS.md
+                    Support for peer hostAliases in create and update
                 </b>
             </td>
         </tr>
@@ -27,14 +27,13 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
                 
             </td>
             <td>
-                Added Discord ID
-
-Signed-off-by: Aditya Joshi <adityaprakashjoshi1@gmail.com>
+                - Let users specify host aliases, so that /etc/hosts on peer containers can be easily managed. Peers need to be able to resolve the ordering node names - needed when using Istio and no real DNS.
+- Introduce peer update command - for now to let users change host aliases even after the peer has been created.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-31 17:23:09 +0000 UTC
+        Created At 2022-09-21 19:53:49 +0000 UTC
     </div>
 </div>
 

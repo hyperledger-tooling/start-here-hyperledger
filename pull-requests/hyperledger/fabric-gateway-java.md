@@ -142,33 +142,3 @@ Also updates dependency versions and fixed a compile warning in ContractExceptio
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/118" class=".btn">#118</a>
-            </td>
-            <td>
-                <b>
-                    Use correct CryptoSuite and User context for event replay
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Use the exact CryptoSuite and User context from the original HFClient when creating a new HFClient for event replay, instead of assuming that the CryptoSuite and User context are ones created using an X509IdentityProvider with the Gateway client identity.
-
-Also updates dependency versions and fixed a compile warning in ContractException that could appear with Java 17.
-
-Closes #117
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-15 01:01:54 +0000 UTC
-    </div>
-</div>
-

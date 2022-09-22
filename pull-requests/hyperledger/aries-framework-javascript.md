@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1034" class=".btn">#1034</a>
+            </td>
+            <td>
+                <b>
+                    refactor(proofs): createRequest for connectionless proof request
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Similar approach as #772, to be able to create a legacy Out-of-Band invitation containing a Request Proof message.
+
+Resolves #997 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-21 22:46:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1030" class=".btn">#1030</a>
             </td>
             <td>

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/92" class=".btn">#92</a>
+            </td>
+            <td>
+                <b>
+                    fixed biometrics pageobject
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-21 20:35:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/91" class=".btn">#91</a>
             </td>
             <td>
@@ -147,34 +173,6 @@ Fixed the BC wallet onboarding page objects due to recent test changes.
     </table>
     <div class="right-align">
         Created At 2022-09-15 19:23:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/86" class=".btn">#86</a>
-            </td>
-            <td>
-                <b>
-                    pipeline execution cleanup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-This PR cleans some pipeline execution issues with imports, along with removing agent files that are no longer needed, and removing code from the manage script that is no longer needed. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-14 23:30:18 +0000 UTC
     </div>
 </div>
 
