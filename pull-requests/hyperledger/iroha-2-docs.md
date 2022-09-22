@@ -125,29 +125,3 @@ Closes #161
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/172" class=".btn">#172</a>
-            </td>
-            <td>
-                <b>
-                    [docs]: remove obsolete comment
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: 0x009922 <a.marcius26@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-15 06:47:11 +0000 UTC
-    </div>
-</div>
-
