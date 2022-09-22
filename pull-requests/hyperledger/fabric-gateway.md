@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/481" class=".btn">#481</a>
+            </td>
+            <td>
+                <b>
+                    Suppress false positive in Java vulnerability scan
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also update Java dependencies.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-22 10:44:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/480" class=".btn">#480</a>
             </td>
             <td>
