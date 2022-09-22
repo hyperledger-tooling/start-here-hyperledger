@@ -106,31 +106,3 @@ For key reception, the agent will always accept both formats and internally stor
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1028" class=".btn">#1028</a>
-            </td>
-            <td>
-                <b>
-                    feat: add getRequestedCredentialsForProofRequest 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The method getRequestedCredentialsForProofRequest was present in the API before the PPV2 code was merged but somehow got lost.
-
-It has been restored in this PR
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-15 06:38:28 +0000 UTC
-    </div>
-</div>
-
