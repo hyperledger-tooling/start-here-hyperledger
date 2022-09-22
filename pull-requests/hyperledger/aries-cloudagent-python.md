@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1955" class=".btn">#1955</a>
+            </td>
+            <td>
+                <b>
+                    did method registry
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                To support different did methods in plugins we need to support did method pluggability. This PR changes the default methods to be static and registered into a registry of methods at start-up. This allows plugins to define new did methods that can be registered. The bulk of changes in this PR is updating the current code to use a did method registry.
+
+Signed-off-by: Adam Burdett <burdettadam@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-21 20:23:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1945" class=".btn">#1945</a>
             </td>
             <td>

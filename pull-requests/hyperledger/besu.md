@@ -205,7 +205,7 @@ Bump besu-native to 0.6.1 in order to get bls12-381 lib for linux arm64
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
