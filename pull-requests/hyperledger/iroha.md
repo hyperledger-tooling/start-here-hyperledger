@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    #2544: Tutorial doctests, a version without API changes
+                    [documentation] #2544: Tutorial doctests, a version without API changes
                 </b>
             </td>
         </tr>
@@ -882,44 +882,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2022-09-16 08:19:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2752" class=".btn">#2752</a>
-            </td>
-            <td>
-                <b>
-                    [ci]: Fix iroha2:dev-nightly image build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">CI</span>
-            </td>
-            <td>
-                Signed-off-by: BAStos525 <jungle.vas@yandex.ru>
-
-### Description of the Change
-Add default git context execution to `build-push-action` Action.
-
-### Issue
-`iroha2:nightly` image could not be compiled due to the same error as `iroha2:dev` image had with the same workflow configuration.
-
-### Benefits
-Allow to build and publish `iroha2-nightly` image.
-
-### Possible Drawbacks
-None.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-15 18:57:54 +0000 UTC
     </div>
 </div>
 

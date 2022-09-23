@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/93" class=".btn">#93</a>
+            </td>
+            <td>
+                <b>
+                    fix Android issues with modals
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+
+This PR fixes BC Wallet test issues. One is access to the underlying page object is not accessible on android when a modal is displayed. This is different than on iOS. 
+
+The other issue is On android the credential receiving takes longer than iOS, so a timeout increase was done. 
+
+Another issue was @wip security tests were running because of double `Scenario` clauses on the tests.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-22 19:48:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/92" class=".btn">#92</a>
             </td>
             <td>
@@ -115,64 +147,6 @@ Fixed onboarding locator issues on Android.
     </table>
     <div class="right-align">
         Created At 2022-09-16 22:02:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/88" class=".btn">#88</a>
-            </td>
-            <td>
-                <b>
-                    Speed increases to receiving credential in BC Wallet
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-This PR adds a speedier on_this_page() method on the page object base class. 
-Also cleans some steps in receive credential in bc wallet that took overly long to execute.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-15 23:46:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/87" class=".btn">#87</a>
-            </td>
-            <td>
-                <b>
-                    fixed onboarding and rev error
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-Fixed a revocation error when notification was on. 
-Fixed the BC wallet onboarding page objects due to recent test changes. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-15 19:23:50 +0000 UTC
     </div>
 </div>
 
