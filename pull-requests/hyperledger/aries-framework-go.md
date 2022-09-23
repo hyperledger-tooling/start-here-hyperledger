@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3382" class=".btn">#3382</a>
+            </td>
+            <td>
+                <b>
+                    chore: upgrade to Go 1.19
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Title:**
+Upgrade golang version to 1.19
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-23 10:19:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3381" class=".btn">#3381</a>
             </td>
             <td>

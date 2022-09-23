@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
             </td>
             <td>
                 <b>
-                    feat(rest): added more event tests
+                    test(rest): added more event tests
                 </b>
             </td>
         </tr>

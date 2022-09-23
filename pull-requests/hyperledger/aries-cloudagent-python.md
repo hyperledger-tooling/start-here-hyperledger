@@ -46,7 +46,7 @@ Signed-off-by: Adam Burdett <burdettadam@gmail.com>
             </td>
             <td>
                 <b>
-                    Feature: enabled handling VPs /request, creation, verification) with different VCs
+                    Feature: enabled handling VPs (request, creation, verification) with different VCs
                 </b>
             </td>
         </tr>
