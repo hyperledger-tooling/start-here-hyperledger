@@ -1,13 +1,13 @@
 
-[26](https://github.com/hyperledger/firefly-signer/pull/26) Fix Ethereum FFIParamValidator to allow oneOf syntax for basic types
+[181](https://github.com/hyperledger/iroha-2-docs/pull/181) Add a snippet downloader, Vue component, pre-build step and CI integration
 
-[1074](https://github.com/hyperledger/firefly/pull/1074) V1.1.x/mainline fix: Allow update of node using parent org identity
+[579](https://github.com/hyperledger/aries-vcx/pull/579) Proof presentation/always ack
 
-[1957](https://github.com/hyperledger/aries-cloudagent-python/pull/1957) key type registry
+[3382](https://github.com/hyperledger/aries-framework-go/pull/3382) chore: upgrade to Go 1.19
 
-[1073](https://github.com/hyperledger/firefly/pull/1073) V1.0.x fix: Allow update of node using parent org identity
+[1783](https://github.com/hyperledger/indy-node/pull/1783) Feature/config transaction flag
 
-[451](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/451) Fixed navigation error on UseBiometrics screen
+[316](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/316) Fabric Interoperation Chaincode Upgrade for Attested Foreign Identities
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

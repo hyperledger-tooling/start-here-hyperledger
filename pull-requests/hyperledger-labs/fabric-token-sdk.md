@@ -24,10 +24,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span><span class="chip">interoperability</span>
             </td>
             <td>
                 - Transfer metadata key does not include txid and metadata counter anymore. It is up to the validator to make sure these keys are used properly
+- check that a transfer contains only metadata that has been validated
+- extend interop integration tests to orion
 
 Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
@@ -193,32 +195,6 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-09-17 13:55:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/377" class=".btn">#377</a>
-            </td>
-            <td>
-                <b>
-                    FSC dep update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-16 11:17:12 +0000 UTC
     </div>
 </div>
 
