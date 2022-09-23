@@ -30,6 +30,13 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 **Title:**
 Upgrade golang version to 1.19
 
+**Summary**
+
+- Upgrade golang version to 1.19
+- Change some tests due to changes of `http/client` module of new SDK 1.19
+
+
+Closes #3370
             </td>
         </tr>
     </table>

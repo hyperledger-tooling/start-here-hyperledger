@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/387" class=".btn">#387</a>
-            </td>
-            <td>
-                <b>
-                    Unit tests mocks cleanup #368
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">cleanup</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-16 12:41:28 +0000 UTC
-    </div>
-</div>
-
