@@ -222,31 +222,3 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/376" class=".btn">#376</a>
-            </td>
-            <td>
-                <b>
-                    Export `ttxdb` SetStatus function
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                Currently, the auditor was not able to explicitly call `SetStatus` on a given transaction to update its status. This is of particular use in recovery situations.
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-16 06:29:22 +0000 UTC
-    </div>
-</div>
-
