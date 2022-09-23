@@ -14,6 +14,73 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4427" class=".btn">#4427</a>
+            </td>
+            <td>
+                <b>
+                    add engine_preparePayload_debug endpoint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+## PR description
+
+Draft PR to enable debugging block proposals by re-adding an updated version of the deprecated 
+`engine_preparePayload` endpoint
+
+*be sure to use the current or a recent parent blockhash or you will DoS bonsai db*
+example usage:
+```
+curl --location --request POST 'http://localhost:8551' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkwNDEzMzZ9.4PDdSaG9hFOFR4Th7rEgaKKECsXfz6IPckFRcfSP13o' \
+--data-raw '{
+    "jsonrpc":"2.0",
+    "method":"engine_preparePayload_debug",
+    "params":
+    [
+        {
+            "parentHash": "0xd4e56740f876aef8c010b86a40d5f56745a118d0906a34e69aec8c0db1cb8fa3",
+            "feeRecipient": "0x0000000000000000000000000000000000000000",
+            "timestamp": "0x0",
+            "prevRandao": "0x0"
+        }
+    ],
+    "id":1
+}'
+```
+
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-22 21:34:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4426" class=".btn">#4426</a>
             </td>
             <td>
@@ -59,9 +126,15 @@ permalink: /pull-requests/hyperledger/besu
 
 ## PR description
 
+This PR is built on top of #4413 which was used to investigate the transaction pool, with the result that currently we keep many transactions that are not possible to include in a block, because a transaction with a lower nonce is missing or invalid.
+To avoid that issues first we now remember (in a cache) that that sender has an invalid transaction, and we do not accept transactions with higher nonce from that sender, of course if a replacement for the invalid transaction is sent it is accepted.
+The eviction when the pool is full has changed in order to pick the sender of the oldest transaction in the pool, and the evict the transaction with the higher nonce for that sender, so no gaps in the nonce list for that sender are created.
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
+
+fixes #4401 
 
 ## Documentation
 
@@ -103,13 +176,17 @@ permalink: /pull-requests/hyperledger/besu
 
 ## PR description
 Create a new flag on RocksDB (_--Xplugin-rocksdb-high-spec-enabled_) for high spec hardware to boost performance. 
-With this first version, the impact is on memory usage, as we're tuning RocksDB block cache and Memtables size.
+With this first version, the impact is on memory usage, as we're tuning RocksDB block cache and Memtables size. By high spec here, we mean a VM or machine with more than 16 GiB. Other modifications in future may include other resources' requirements but for now, the only requirement is on RAM.
 
 The results are promising on a 32 GiB AWS VM, as this new flag reduces 95 percentile block processing time by 30%.
 ![image](https://user-images.githubusercontent.com/5099602/191719256-14a0b56d-9fa7-4164-aada-b472fcf8adf7.png)
 
-Add more tests for 16 GiB VM ...
+Performance improvements may appear in a couple of hours because of cache warm up time, as we can notice with RocksDB block cache hit ratio and RocksDB get time :
 
+![image](https://user-images.githubusercontent.com/5099602/191847101-1093cc5f-60e7-466f-b6de-7fed273c8a15.png)
+![image](https://user-images.githubusercontent.com/5099602/191847138-0d4c95ac-122c-4c5c-b61c-ae71de3a5301.png)
+
+ 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
