@@ -154,31 +154,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1017" class=".btn">#1017</a>
-            </td>
-            <td>
-                <b>
-                    Post release cleanups
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Use v0.1.3 label
-- Remove unused parts of workflow
-- vscode extension 0.3.1 was published
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-17 10:10:10 +0000 UTC
-    </div>
-</div>
-
