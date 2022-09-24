@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1036" class=".btn">#1036</a>
+            </td>
+            <td>
+                <b>
+                    ci: set default rust version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sai Ranjit Tummalapalli <sairanjit5@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-23 20:28:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1035" class=".btn">#1035</a>
             </td>
             <td>
@@ -75,38 +101,6 @@ Resolves #997
     </table>
     <div class="right-align">
         Created At 2022-09-21 22:46:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1030" class=".btn">#1030</a>
-            </td>
-            <td>
-                <b>
-                    Merge branch 'main' into 0.3.0-pre
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Merging 0.2.3 and 0.2.4 features into 0.3.x branch:
-
-- All tests pass
-- Demo works
-- Action Menu module was added to the core for the moment
-
-Hope to not have missed anything. Please double check!
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-16 20:11:49 +0000 UTC
     </div>
 </div>
 

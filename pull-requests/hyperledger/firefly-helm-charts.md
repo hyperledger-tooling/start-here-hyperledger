@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/57" class=".btn">#57</a>
+                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/58" class=".btn">#58</a>
             </td>
             <td>
                 <b>
-                    fix service name for sandbox ingress
+                    [gasEstimationFactor] bumping to 2.0
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
                 
             </td>
             <td>
-                When Ingress is enabled for sandbox, it fails as it cannot find the correct service name. This fixes that.
+                Signed-off-by: David Echelberger <eberger727@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-16 10:29:43 +0000 UTC
+        Created At 2022-09-23 18:50:59 +0000 UTC
     </div>
 </div>
 
