@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-tui-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-tui-client/pull/16" class=".btn">#16</a>
+                PR <a href="https://github.com/hyperledger/iroha-tui-client/pull/19" class=".btn">#19</a>
             </td>
             <td>
                 <b>
-                    Bump protobuf from 3.9.2 to 3.15.0
+                    Bump protobuf from 3.9.2 to 3.18.3
                 </b>
             </td>
         </tr>
@@ -27,64 +27,67 @@ permalink: /pull-requests/hyperledger/iroha-tui-client
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [protobuf](https://github.com/protocolbuffers/protobuf) from 3.9.2 to 3.15.0.
+                Bumps [protobuf](https://github.com/protocolbuffers/protobuf) from 3.9.2 to 3.18.3.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/protocolbuffers/protobuf/releases">protobuf's releases</a>.</em></p>
 <blockquote>
-<h2>Protocol Buffers v3.15.0</h2>
-<h1>Protocol Compiler</h1>
-<ul>
-<li>Optional fields for proto3 are enabled by default, and no longer require
-the --experimental_allow_proto3_optional flag.</li>
-</ul>
+<h2>Protocol Buffers v3.18.3</h2>
 <h1>C++</h1>
 <ul>
-<li>MessageDifferencer: fixed bug when using custom ignore with multiple
-unknown fields</li>
-<li>Use init_seg in MSVC to push initialization to an earlier phase.</li>
-<li>Runtime no longer triggers -Wsign-compare warnings.</li>
-<li>Fixed -Wtautological-constant-out-of-range-compare warning.</li>
-<li>DynamicCastToGenerated works for nullptr input for even if RTTI is disabled</li>
-<li>Arena is refactored and optimized.</li>
-<li>Clarified/specified that the exact value of Arena::SpaceAllocated() is an
-implementation detail users must not rely on. It should not be used in
-unit tests.</li>
-<li>Change the signature of Any::PackFrom() to return false on error.</li>
-<li>Add fast reflection getter API for strings.</li>
-<li>Constant initialize the global message instances</li>
-<li>Avoid potential for missed wakeup in UnknownFieldSet</li>
-<li>Now Proto3 Oneof fields have &quot;has&quot; methods for checking their presence in
-C++.</li>
-<li>Bugfix for NVCC</li>
-<li>Return early in _InternalSerialize for empty maps.</li>
-<li>Adding functionality for outputting map key values in proto path logging
-output (does not affect comparison logic) and stop printing 'value' in the
-path. The modified print functionality is in the
-MessageDifferencer::StreamReporter.</li>
-<li>Fixed <a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8129">protocolbuffers/protobuf#8129</a></li>
-<li>Ensure that null char symbol, package and file names do not result in a
-crash.</li>
-<li>Constant initialize the global message instances</li>
-<li>Pretty print 'max' instead of numeric values in reserved ranges.</li>
-<li>Removed remaining instances of std::is_pod, which is deprecated in C++20.</li>
-<li>Changes to reduce code size for unknown field handling by making uncommon
-cases out of line.</li>
-<li>Fix std::is_pod deprecated in C++20 (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/7180">#7180</a>)</li>
-<li>Fix some -Wunused-parameter warnings (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8053">#8053</a>)</li>
-<li>Fix detecting file as directory on zOS issue <a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8051">#8051</a> (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8052">#8052</a>)</li>
-<li>Don't include sys/param.h for _BYTE_ORDER (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8106">#8106</a>)</li>
-<li>remove CMAKE_THREAD_LIBS_INIT from pkgconfig CFLAGS (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8154">#8154</a>)</li>
-<li>Fix TextFormatMapTest.DynamicMessage issue#5136 (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8159">#8159</a>)</li>
-<li>Fix for compiler warning issue#8145 (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8160">#8160</a>)</li>
-<li>fix: support deprecated enums for GCC &lt; 6 (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8164">#8164</a>)</li>
-<li>Fix some warning when compiling with Visual Studio 2019 on x64 target (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8125">#8125</a>)</li>
+<li>Reduce memory consumption of MessageSet parsing</li>
+<li>This release addresses a <a href="https://github.com/protocolbuffers/protobuf/security/advisories/GHSA-8gq9-2x98-w8hf">Security Advisory for C++ and Python users</a></li>
 </ul>
+<h2>Protocol Buffers v3.16.1</h2>
+<h1>Java</h1>
+<ul>
+<li>Improve performance characteristics of UnknownFieldSet parsing (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/9371">#9371</a>)</li>
+</ul>
+<h2>Protocol Buffers v3.18.2</h2>
+<h1>Java</h1>
+<ul>
+<li>Improve performance characteristics of UnknownFieldSet parsing (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/9371">#9371</a>)</li>
+</ul>
+<h2>Protocol Buffers v3.18.1</h2>
 <h1>Python</h1>
 <ul>
-<li>Provided an override for the reverse() method that will reverse the internal
-collection directly instead of using the other methods of the BaseContainer.</li>
-<li>MessageFactory.CreateProtoype can be overridden to customize class creation.</li>
+<li>Update setup.py to reflect that we now require at least Python 3.5 (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8989">#8989</a>)</li>
+<li>Performance fix for DynamicMessage: force GetRaw() to be inlined (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/9023">#9023</a>)</li>
+</ul>
+<h1>Ruby</h1>
+<ul>
+<li>Update ruby_generator.cc to allow proto2 imports in proto3 (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/9003">#9003</a>)</li>
+</ul>
+<h2>Protocol Buffers v3.18.0</h2>
+<h1>C++</h1>
+<ul>
+<li>Fix warnings raised by clang 11 (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8664">#8664</a>)</li>
+<li>Make StringPiece constructible from std::string_view (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8707">#8707</a>)</li>
+<li>Add missing capability attributes for LLVM 12 (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8714">#8714</a>)</li>
+<li>Stop using std::iterator (deprecated in C++17). (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8741">#8741</a>)</li>
+<li>Move field_access_listener from libprotobuf-lite to libprotobuf (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8775">#8775</a>)</li>
+<li>Fix <a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/7047">#7047</a> Safely handle setlocale (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8735">#8735</a>)</li>
+<li>Remove deprecated version of SetTotalBytesLimit() (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8794">#8794</a>)</li>
+<li>Support arena allocation of google::protobuf::AnyMetadata (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8758">#8758</a>)</li>
+<li>Fix undefined symbol error around SharedCtor() (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8827">#8827</a>)</li>
+<li>Fix default value of enum(int) in json_util with proto2 (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8835">#8835</a>)</li>
+<li>Better Smaller ByteSizeLong</li>
+<li>Introduce event filters for inject_field_listener_events</li>
+<li>Reduce memory usage of DescriptorPool</li>
+<li>For lazy fields copy serialized form when allowed.</li>
+<li>Re-introduce the InlinedStringField class</li>
+<li>v2 access listener</li>
+<li>Reduce padding in the proto's ExtensionRegistry map.</li>
+<li>GetExtension performance optimizations</li>
+<li>Make tracker a static variable rather than call static functions</li>
+<li>Support extensions in field access listener</li>
+<li>Annotate MergeFrom for field access listener</li>
+<li>Fix incomplete types for field access listener</li>
+<li>Add map_entry/new_map_entry to SpecificField in MessageDifferencer. They
+record the map items which are different in MessageDifferencer's reporter.</li>
+<li>Reduce binary size due to fieldless proto messages</li>
+<li>TextFormat: ParseInfoTree supports getting field end location in addition to
+start.</li>
 </ul>
 <!-- raw HTML omitted -->
 </blockquote>
@@ -93,23 +96,23 @@ collection directly instead of using the other methods of the BaseContainer.</li
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/protocolbuffers/protobuf/commit/ae50d9b9902526efd6c7a1907d09739f959c6297"><code>ae50d9b</code></a> Update protobuf version</li>
-<li><a href="https://github.com/protocolbuffers/protobuf/commit/8260126500f073894c38b2211d383442eb7e58d5"><code>8260126</code></a> Update protobuf version</li>
-<li><a href="https://github.com/protocolbuffers/protobuf/commit/c741c4660443da46bfaf6c96fd1f01e743f97b56"><code>c741c46</code></a> Resovled issue in the .pb.cc files</li>
-<li><a href="https://github.com/protocolbuffers/protobuf/commit/eef276412ec417e2f0563c1c51d59a968cb2a6db"><code>eef2764</code></a> Resolved an issue where NO_DESTROY and CONSTINIT were in incorrect order</li>
-<li><a href="https://github.com/protocolbuffers/protobuf/commit/0040102e6f001724194d9c4c6bcd5effcec52bf1"><code>0040102</code></a> Updated collect_all_artifacts.sh for Ubuntu Xenial</li>
-<li><a href="https://github.com/protocolbuffers/protobuf/commit/26cb6a7a6d7973657f09fc44b201287c046da62e"><code>26cb6a7</code></a> Delete root-owned files in Kokoro builds</li>
-<li><a href="https://github.com/protocolbuffers/protobuf/commit/1e924efa90b476d23157426ad1eb17301bc4df41"><code>1e924ef</code></a> Update port_def.inc</li>
-<li><a href="https://github.com/protocolbuffers/protobuf/commit/9a80cf12254dec1af833d9fb78a80673dce45dc4"><code>9a80cf1</code></a> Update coded_stream.h</li>
-<li><a href="https://github.com/protocolbuffers/protobuf/commit/a97c4f4f2c9e5ffce0db787268414eb141194c62"><code>a97c4f4</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8276">#8276</a> from haberman/php-warning</li>
-<li><a href="https://github.com/protocolbuffers/protobuf/commit/44cd75d2153fab614480517e40ee4c10cb153716"><code>44cd75d</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/8282">#8282</a> from haberman/changelog</li>
-<li>Additional commits viewable in <a href="https://github.com/protocolbuffers/protobuf/compare/v3.9.2...v3.15.0">compare view</a></li>
+<li><a href="https://github.com/protocolbuffers/protobuf/commit/a902b39270841beafc307dfa709610aa1cac2f06"><code>a902b39</code></a> No-op whitespace change</li>
+<li><a href="https://github.com/protocolbuffers/protobuf/commit/ae62acd7293e5a80378faeaac67b3baadba810d5"><code>ae62acd</code></a> Updating version.json and repo version numbers to: 18.3</li>
+<li><a href="https://github.com/protocolbuffers/protobuf/commit/f43ac49b91007501ce1683967b04dcfb47183478"><code>f43ac49</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/10542">#10542</a> from deannagarcia/3.18.x</li>
+<li><a href="https://github.com/protocolbuffers/protobuf/commit/9efdf55814add154d3c2646652f527a51d4a21ea"><code>9efdf55</code></a> Add missing includes</li>
+<li><a href="https://github.com/protocolbuffers/protobuf/commit/d1635e1496f51e0d5653d856211e8821bc47adc4"><code>d1635e1</code></a> Apply patch</li>
+<li><a href="https://github.com/protocolbuffers/protobuf/commit/5b37c91d62d7fe097253ac64518b993b096e9386"><code>5b37c91</code></a> Update version.json with &quot;lts&quot;: true (<a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/10534">#10534</a>)</li>
+<li><a href="https://github.com/protocolbuffers/protobuf/commit/c39d622dba8343c50876770e6c2cc580781f6264"><code>c39d622</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/10529">#10529</a> from protocolbuffers/deannagarcia-patch-5</li>
+<li><a href="https://github.com/protocolbuffers/protobuf/commit/f77d3b643209437f186755737499a841886706cd"><code>f77d3b6</code></a> Update version.json</li>
+<li><a href="https://github.com/protocolbuffers/protobuf/commit/8178b06523f67923f538c479c148af765b09b628"><code>8178b06</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/protocolbuffers/protobuf/issues/10503">#10503</a> from deannagarcia/3.18.x</li>
+<li><a href="https://github.com/protocolbuffers/protobuf/commit/24ca839fffdd2f795acb26686a312de9892f2c6b"><code>24ca839</code></a> Add version file</li>
+<li>Additional commits viewable in <a href="https://github.com/protocolbuffers/protobuf/compare/v3.9.2...v3.18.3">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=protobuf&package-manager=pip&previous-version=3.9.2&new-version=3.15.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=protobuf&package-manager=pip&previous-version=3.9.2&new-version=3.18.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -145,7 +148,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-11 02:59:52 +0000 UTC
+        Created At 2022-09-23 22:29:46 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1958" class=".btn">#1958</a>
+            </td>
+            <td>
+                <b>
+                    feat: 00B v1.1 support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Shaanjot Gill <gill.shaanjots@gmail.com>
+
+- Putting this as draft, once PR #1940 is approved and merged, I need to make a minor update to use `get_proto_default_version()` and remove `BASE_PROTO_VERSION` from the OOB messages. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-23 22:33:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1957" class=".btn">#1957</a>
             </td>
             <td>
@@ -121,32 +149,6 @@ Signed-off-by: Adam Burdett <burdettadam@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-09-17 20:17:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1944" class=".btn">#1944</a>
-            </td>
-            <td>
-                <b>
-                    Update pip-audit.yml
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-16 21:10:04 +0000 UTC
     </div>
 </div>
 

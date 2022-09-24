@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">hotfix</span>
             </td>
             <td>
                 <nil>
@@ -50,7 +50,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">refactoring</span><span class="chip">ci</span>
             </td>
             <td>
                 Depends on #575 
@@ -104,7 +104,7 @@ Target: run all Rust tests under 30 mins.
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">changelog-excluded</span>
             </td>
             <td>
                 <nil>
@@ -130,7 +130,7 @@ Target: run all Rust tests under 30 mins.
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">ci</span><span class="chip">dependencies</span>
             </td>
             <td>
                 Vdr-tools linked as an ordinary Rust crate and does not require any additional installation steps.
@@ -158,7 +158,7 @@ Signed-off-by: Artem Mironov <artem.mironov@absa.africa>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">refactoring</span>
             </td>
             <td>
                 Consume body passed to post_message(body, url) and update callers.
@@ -186,7 +186,7 @@ Fold some long lines while I'm here to improve code readability.
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">refactoring</span>
             </td>
             <td>
                 According to reqwest documentation, is perfectly OK to reuse instance of reqwest::Client. We don't need to wrap it into RwLock because it is already thread and async safe.
@@ -214,7 +214,7 @@ Signed-off-by: Artem Mironov <artem.mironov@absa.africa>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">hotfix</span><span class="chip">ci</span>
             </td>
             <td>
                 Disable debug in the release profile.
@@ -224,84 +224,6 @@ The build on macOS M1, libvcx.a is about 100 Mb, libvcx.dylib is about 20 Mb.
     </table>
     <div class="right-align">
         Created At 2022-09-19 06:32:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/569" class=".btn">#569</a>
-            </td>
-            <td>
-                <b>
-                    Make into_did_doc async
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-16 19:11:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/568" class=".btn">#568</a>
-            </td>
-            <td>
-                <b>
-                    Rename SetupLibraryAgencyV2 to SetupPool
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-16 16:21:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/567" class=".btn">#567</a>
-            </td>
-            <td>
-                <b>
-                    Update vdr-tools dependency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-16 15:23:39 +0000 UTC
     </div>
 </div>
 

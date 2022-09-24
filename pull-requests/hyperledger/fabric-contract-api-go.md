@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-contract-api-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/74" class=".btn">#74</a>
+                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/76" class=".btn">#76</a>
             </td>
             <td>
                 <b>
-                    Update vulnerability scan Go version
+                    Preparing for release v1.2.0
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-contract-api-go
                 
             </td>
             <td>
-                govulncheck requires Go 1.18
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-13 15:32:25 +0000 UTC
+        Created At 2022-09-23 13:24:08 +0000 UTC
     </div>
 </div>
 

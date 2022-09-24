@@ -122,31 +122,3 @@ Accounted for new biometrics toggle and streamlined proof finalization in BC Wal
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/89" class=".btn">#89</a>
-            </td>
-            <td>
-                <b>
-                    fixed onboarding issues on Android
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-Fixed onboarding locator issues on Android. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-16 22:02:48 +0000 UTC
-    </div>
-</div>
-
