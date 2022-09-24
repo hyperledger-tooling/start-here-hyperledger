@@ -33,7 +33,8 @@ Upgrade golang version to 1.19
 **Summary**
 
 - Upgrade golang version to 1.19
-- Change some tests due to changes of `http/client` module of new SDK 1.19
+- Change some unit tests due to changes of `http/client` module of new SDK 1.19
+- Change unit tests related to x509 certificate error
 
 
 Closes #3370
