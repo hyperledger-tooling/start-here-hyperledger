@@ -504,7 +504,7 @@ Bump besu-native to 0.6.1 in order to get bls12-381 lib for linux arm64
             </td>
             <td>
                 <b>
-                    Remove sender from map when he has no more tracked transaction
+                    Remove sender from map when he has no more tracked transactions
                 </b>
             </td>
         </tr>
