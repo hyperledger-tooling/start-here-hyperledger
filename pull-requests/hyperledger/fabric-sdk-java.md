@@ -224,29 +224,3 @@ Finally, you can contact us on https://mergify.com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/229" class=".btn">#229</a>
-            </td>
-            <td>
-                <b>
-                    Refactoring code to prevent array out of bounds exceptions.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-18 02:12:09 +0000 UTC
-    </div>
-</div>
-
