@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/581" class=".btn">#581</a>
+            </td>
+            <td>
+                <b>
+                    Reorganize libindy module
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-26 11:46:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/580" class=".btn">#580</a>
             </td>
             <td>
@@ -167,62 +193,6 @@ Signed-off-by: Artem Mironov <artem.mironov@absa.africa>
     </table>
     <div class="right-align">
         Created At 2022-09-19 15:33:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/574" class=".btn">#574</a>
-            </td>
-            <td>
-                <b>
-                    Avoid HTTP request body cloning.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span>
-            </td>
-            <td>
-                Consume body passed to post_message(body, url) and update callers.
-
-Fold some long lines while I'm here to improve code readability.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-19 09:58:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/573" class=".btn">#573</a>
-            </td>
-            <td>
-                <b>
-                    Reuse reqwest::Client
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span>
-            </td>
-            <td>
-                According to reqwest documentation, is perfectly OK to reuse instance of reqwest::Client. We don't need to wrap it into RwLock because it is already thread and async safe.
-
-Signed-off-by: Artem Mironov <artem.mironov@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-19 07:33:27 +0000 UTC
     </div>
 </div>
 

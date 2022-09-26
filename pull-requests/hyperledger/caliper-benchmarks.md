@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/228" class=".btn">#228</a>
+                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/233" class=".btn">#233</a>
             </td>
             <td>
                 <b>
-                    fix: sleep argument in ethereum example config file
+                    Minor improvements to read/write asset benchmark with information in README
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: D <d_kelsey@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-10 10:13:27 +0000 UTC
+        Created At 2022-09-26 10:33:31 +0000 UTC
     </div>
 </div>
 
