@@ -14,34 +14,31 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/227" class=".btn">#227</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/228" class=".btn">#228</a>
             </td>
             <td>
                 <b>
-                    Integrate indy vdr
+                    Support img png mimetype
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">enhancement</span>
+                
             </td>
             <td>
                 #### Short description of what this resolves:
-This adds a Hyperledger Indy-VDR integration for AF .NET. Interfaces were minimally adjusted to handle different pool and request handles.
+Mime-type for issued credentials was hard coded in UpdateValues() to text/plain, which caused every credential in the wallet to have text/plain as the mimetype. This PR resolves that issue.
 
 #### Changes proposed in this pull request:
 
-- Adds DefaultPoolServiceV2, DefaultLedgerServiceV2 and DefaultSingingService
-- Indy-sdk types were redacted from the interfaces
-- Builder extensions AddAriesFrameworkV2 will add the Indy-VDR compliant services
-- Integration tests for LedgerService and SchemaService included
+Changed UpdateValues() in DefaultCredentialHandler
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-22 06:58:05 +0000 UTC
+        Created At 2022-09-26 11:39:59 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/764" class=".btn">#764</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/766" class=".btn">#766</a>
             </td>
             <td>
                 <b>
-                    Spelling error
+                    RU whats new 2.5
                 </b>
             </td>
         </tr>
@@ -27,12 +27,38 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
                 
             </td>
             <td>
-                Signed-off-by: 指间 <imzywj@gmail.com>
+                Signed-off-by: Alexander Zemtsov <a.zemtsov@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-19 01:59:26 +0000 UTC
+        Created At 2022-09-26 08:59:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/765" class=".btn">#765</a>
+            </td>
+            <td>
+                <b>
+                    RU whats new 2.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Alexander Zemtsov <a.zemtsov@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-26 08:55:59 +0000 UTC
     </div>
 </div>
 
