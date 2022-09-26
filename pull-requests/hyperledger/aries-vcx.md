@@ -226,30 +226,3 @@ Signed-off-by: Artem Mironov <artem.mironov@absa.africa>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/570" class=".btn">#570</a>
-            </td>
-            <td>
-                <b>
-                    Reduce size of the release build.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">hotfix</span><span class="chip">ci</span>
-            </td>
-            <td>
-                Disable debug in the release profile.
-The build on macOS M1, libvcx.a is about 100 Mb, libvcx.dylib is about 20 Mb.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-19 06:32:00 +0000 UTC
-    </div>
-</div>
-
