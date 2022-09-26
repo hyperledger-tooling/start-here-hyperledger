@@ -1,13 +1,13 @@
 
-[54](https://github.com/hyperledger-labs/fabric-opssc/pull/54) docs(*): Add maintainers list
+[56](https://github.com/hyperledger-labs/fabric-opssc/pull/56) docs(*): Update links to the related materials
 
-[580](https://github.com/hyperledger/aries-vcx/pull/580) Remove pool handle from connection protocol
+[55](https://github.com/hyperledger-labs/fabric-opssc/pull/55) chore(*): Bump to the latest
 
-[4438](https://github.com/hyperledger/besu/pull/4438) Add config file support for high spec flag
+[420](https://github.com/hyperledger/fabric-test/pull/420) Make fabric-nodeenv version match fabric version
 
-[1037](https://github.com/hyperledger/aries-framework-javascript/pull/1037) fix(oob): allow encoding in content type header
+[569](https://github.com/hyperledger/aries-agent-test-harness/pull/569) Changes by create-pull-request action
 
-[2783](https://github.com/hyperledger/iroha/pull/2783) Bump protobuf from 3.15.0 to 3.18.3 in /docs/source
+[2164](https://github.com/hyperledger/cactus/pull/2164) fix(build): sync-ts-config script needs import assertion of type json
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

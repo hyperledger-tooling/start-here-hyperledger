@@ -124,33 +124,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1018" class=".btn">#1018</a>
-            </td>
-            <td>
-                <b>
-                    Fix AddMod and MulMod
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR fixes three bugs in the implementation of AddMod and MulMod.
-
-1. In Yul, `addmod` and `mulmod` were not implemented correctly, because 512-bit operations were not in use. To fix this, those builtins now call `Builtin::AddMod` and `Builtin::MulMod`.
-2. `Builtin::AddMod` was calculating `(a+b)/c` instead of `(a+b)%c`.
-3. `Builtin::MulMod` was calcuating `(a*b)/c` instead of `(a+b)%c`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-19 03:35:50 +0000 UTC
-    </div>
-</div>
-
