@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3389" class=".btn">#3389</a>
+            </td>
+            <td>
+                <b>
+                    wip: Service type property MUST be a string or a set of strings.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Service type property MUST be a string or a set of strings.
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-27 17:04:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3388" class=".btn">#3388</a>
             </td>
             <td>
