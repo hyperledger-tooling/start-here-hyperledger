@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3648" class=".btn">#3648</a>
+            </td>
+            <td>
+                <b>
+                    GitHub Workflows security hardening
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds explicit [permissions section](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#permissions) to workflows. This is a security best practice because by default workflows run with [extended set of permissions](https://docs.github.com/en/actions/security-guides/automatic-token-authentication#permissions-for-the-github_token) (except from `on: pull_request` [from external forks](https://securitylab.github.com/research/github-actions-preventing-pwn-requests/)). By specifying any permission explicitly all others are set to none. By using the principle of least privilege the damage a compromised workflow can do (because of an [injection](https://securitylab.github.com/research/github-actions-untrusted-input/) or compromised third party tool or action) is restricted.
+It is recommended to have [most strict permissions on the top level](https://github.com/ossf/scorecard/blob/main/docs/checks.md#token-permissions) and grant write permissions on [job level](https://docs.github.com/en/actions/using-jobs/assigning-permissions-to-jobs) case by case.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-26 20:06:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3646" class=".btn">#3646</a>
             </td>
             <td>

@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4444" class=".btn">#4444</a>
+            </td>
+            <td>
+                <b>
+                    updated version and CHANGELOG for next dev cycle
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Justin Florentine <justin+github@florentine.us>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-26 17:08:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4442" class=".btn">#4442</a>
+            </td>
+            <td>
+                <b>
+                    adding new release version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## 22.7.4
+
+
+### Bug Fixes
+- Remove records that track transactions by sender when they are empty to same memory in the transaction pool [#4415](https://github.com/hyperledger/besu/pull/4415)
+- Add Toml configuration file support for _--Xplugin-rocksdb-high-spec-enabled_ flag
+
+Signed-off-by: Justin Florentine <justin+github@florentine.us>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-26 15:58:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4438" class=".btn">#4438</a>
             </td>
             <td>
@@ -583,77 +646,6 @@ This PR remove the sender from the internal map when his last transaction is rem
     </table>
     <div class="right-align">
         Created At 2022-09-20 17:52:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4412" class=".btn">#4412</a>
-            </td>
-            <td>
-                <b>
-                    WIP - Copying storage to flat database for one account
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-19 23:17:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4411" class=".btn">#4411</a>
-            </td>
-            <td>
-                <b>
-                    Less strict engine QoS timer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Resets engine QoS timer with every call to the engine API instead of only when `ExchangeTransitionConfiguration` is called. `ExchangeTransitionConfiguration` mismatch will only submit a debug log not a warning anymore.
-
-## Fixed Issue(s)
-fixes #4404
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-19 14:35:10 +0000 UTC
     </div>
 </div>
 
