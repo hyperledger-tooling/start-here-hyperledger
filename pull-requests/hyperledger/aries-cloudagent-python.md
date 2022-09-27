@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1960" class=".btn">#1960</a>
+            </td>
+            <td>
+                <b>
+                    fix: Safely shutdown when root_profile uninitialized
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                If an exception was thrown during the initialization of the root_profile, we would throw an exception during shutdown and fail to end the process. This would leave ACA-Py running, without accepting/handling any further requests. Adding guards for shutdown code that uses the root_profile should avoid this situation
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-27 15:32:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1958" class=".btn">#1958</a>
             </td>
             <td>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/310" class=".btn">#310</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/311" class=".btn">#311</a>
             </td>
             <td>
                 <b>
-                    orderer deletion label update
+                    orderer deletion label and package version update
                 </b>
             </td>
         </tr>
@@ -35,15 +35,16 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
 
 - Bug fix
 
+
 #### Description
-orderer deletion label update
+orderer deletion label and package version update
 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-27 12:25:13 +0000 UTC
+        Created At 2022-09-27 13:22:51 +0000 UTC
     </div>
 </div>
 

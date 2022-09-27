@@ -1,13 +1,13 @@
 
-[1076](https://github.com/hyperledger/firefly/pull/1076) Fix the example ff deploy command to specify ethereum
+[3389](https://github.com/hyperledger/aries-framework-go/pull/3389) wip: Service type property MUST be a string or a set of strings.
 
-[310](https://github.com/hyperledger-labs/fabric-operations-console/pull/310) orderer deletion label update
+[114](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/114) ci: remove unused patch
 
-[4445](https://github.com/hyperledger/besu/pull/4445) Update everything_config.toml
+[1960](https://github.com/hyperledger/aries-cloudagent-python/pull/1960) fix: Safely shutdown when root_profile uninitialized
 
-[389](https://github.com/hyperledger-labs/fabric-token-sdk/pull/389) check that the public parameters are valid #388
+[113](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/113) update README
 
-[832](https://github.com/hyperledger-labs/business-partner-agent/pull/832) Bump ejs, @vue/cli-plugin-babel, @vue/cli-plugin-e2e-cypress, @vue/cli-plugin-eslint, @vue/cli-plugin-router, @vue/cli-plugin-typescript, @vue/cli-plugin-unit-jest and @vue/cli-service in /frontend
+[112](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/112) Bump underscore and web3
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
