@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/455" class=".btn">#455</a>
+            </td>
+            <td>
+                <b>
+                    Re- Enable biometrics flow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Mostafa <moscd3@gmail.com>
+
+This PR Still in draft 
+# Summary of Changes
+
+Re- Enable biometrics after user already chooses to disable biometrics at initial setup
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-27 05:22:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/454" class=".btn">#454</a>
             </td>
             <td>
