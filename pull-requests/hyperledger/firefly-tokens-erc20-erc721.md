@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/93" class=".btn">#93</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/95" class=".btn">#95</a>
             </td>
             <td>
                 <b>
-                    Lowercase contract addresses, check for null event in migration check
+                    Fix build
                 </b>
             </td>
         </tr>
@@ -27,13 +27,15 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
                 
             </td>
             <td>
-                - Prevents duplicate subscriptions to the same contract when blockchain connector changes the casing of the address
-- Prevents a spurious warning log from the migration check logic
+                Trying this as a change to fix recent Docker build failures. e.g:
+
+https://github.com/hyperledger/firefly-tokens-erc20-erc721/actions/runs/3083366817
+https://github.com/hyperledger/firefly-tokens-erc20-erc721/actions/runs/3069204895
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-19 12:35:27 +0000 UTC
+        Created At 2022-09-26 19:08:56 +0000 UTC
     </div>
 </div>
 

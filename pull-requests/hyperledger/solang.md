@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1025" class=".btn">#1025</a>
+            </td>
+            <td>
+                <b>
+                    Update seal calls
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">substrate</span>
+            </td>
+            <td>
+                WIP
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-26 20:06:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1024" class=".btn">#1024</a>
             </td>
             <td>

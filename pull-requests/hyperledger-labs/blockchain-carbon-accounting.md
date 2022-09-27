@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/623" class=".btn">#623</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/626" class=".btn">#626</a>
             </td>
             <td>
                 <b>
-                    Update CarbonTracker contract and documentation
+                    Methane Portal and Typescript Referencing 
                 </b>
             </td>
         </tr>
@@ -27,22 +27,18 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
                 
             </td>
             <td>
-                 Revisions/fixes to contract functions.
-  - trackee must be registered industry of NET network
-  - simplify productBalance
-  - Drop sourceTrackerId mapping. Product's sourceTrackerId is defined in _productData[productId].trackerId 
-  - productTransfer() modified
-    
-Drop function transferProductToTracker(). Superceeded by transferProduct and trackProduct() functions.
- - Owner of audited CarbonTracker contract can transferProduct() to new trackee address.
-  - Trackee can trackProduct() received to a new carbon tracker assigned to them.
-    
-Updated documentation and add diagram to docs/carbon-tracker.md.
+                Adding client and server for methane portal application.
+
+Also introduce typescript referencing for staging production build on Heroku. [raised in discussion 625](https://github.com/hyperledger-labs/blockchain-carbon-accounting/discussions/625)  
+
+
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-14 04:37:55 +0000 UTC
+        Created At 2022-09-27 00:52:43 +0000 UTC
     </div>
 </div>
 

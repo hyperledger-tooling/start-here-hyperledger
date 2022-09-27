@@ -24,10 +24,18 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">refactoring</span>
             </td>
             <td>
-                <nil>
+                - rename `libindy` module to `indy` - better vocabulary to cover both libindy (well more accurately libvdrtools) and in upcoming future implementation using bcgov extracted libs
+- `libindy/wallet.rs` and `libindy/utils/wallet.rs` are merged into `indy/wallet.rs`
+- number of files pulled out of `libindy/utils/*.rs` to `indy/*.rs`
+- `ledger.rs` and `pool.rs` reshuffled to `ledger/pool.rs` and `ledger/transactions.rs`
+- `cache.rs` renamed to `wallet_non_secrets.rs`
+- `crypto.rs` renamed to `signing.rs`
+- `signus.rs` renamed to `keys.rs`
+- `anoncreds.rs` was originally huge file - its content is now reshuffled to more appropriate files across `indy/`
+- added submodule `credentials` to cover issuance and receiving credentials
             </td>
         </tr>
     </table>
@@ -139,60 +147,6 @@ Target: run all Rust tests under 30 mins.
     </table>
     <div class="right-align">
         Created At 2022-09-21 07:56:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/576" class=".btn">#576</a>
-            </td>
-            <td>
-                <b>
-                    Release 0.42.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">changelog-excluded</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-19 22:41:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/575" class=".btn">#575</a>
-            </td>
-            <td>
-                <b>
-                    Statically link libvcx.so
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">ci</span><span class="chip">dependencies</span>
-            </td>
-            <td>
-                Vdr-tools linked as an ordinary Rust crate and does not require any additional installation steps.
-
-Signed-off-by: Artem Mironov <artem.mironov@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-19 15:33:22 +0000 UTC
     </div>
 </div>
 
