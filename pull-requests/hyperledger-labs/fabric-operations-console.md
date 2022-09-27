@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/307" class=".btn">#307</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/310" class=".btn">#310</a>
             </td>
             <td>
                 <b>
-                    add npm flag to fix build with react deps
+                    orderer deletion label update
                 </b>
             </td>
         </tr>
@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
                 
             </td>
             <td>
-                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+                Signed-off-by: selvaprakash92 <selvaprakash92@gmail.com>
 
 #### Type of change
 
@@ -36,14 +36,14 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
 - Bug fix
 
 #### Description
-The command `npm ci` is failing under apollo, due to conflicting react dependency versions. this fixes the error by ignoring it.
+orderer deletion label update
 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-19 19:06:51 +0000 UTC
+        Created At 2022-09-27 12:25:13 +0000 UTC
     </div>
 </div>
 
