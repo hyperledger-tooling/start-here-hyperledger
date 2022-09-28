@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/354" class=".btn">#354</a>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/356" class=".btn">#356</a>
             </td>
             <td>
                 <b>
-                    New deployoperator operation
+                    Error fix for older versions missing TARGET_ENV in its envsettings file
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/minifabric
                 
             </td>
             <td>
-                Added the "deployoperator" operation that downloads and deploys the fabric operator from a remote manifest. A "Failed to get client due to HTTPSConnectionPool" error occurs on deployment.
+                Sets TARGET_ENV to DOCKER when TARGET_ENV is not set from envsettings.
+
+Because Ansible extra variables have the highest precedence and cannot be overwritten, we name the extra var (TARGET_ENVIRONMENT) differently than our local var (TARGET_ENV) so that we are able to change the value of our local var later if necessary. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-02 19:49:57 +0000 UTC
+        Created At 2022-09-27 19:22:21 +0000 UTC
     </div>
 </div>
 
