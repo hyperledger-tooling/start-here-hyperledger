@@ -68,29 +68,3 @@ Another issue was @wip security tests were running because of double `Scenario` 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/91" class=".btn">#91</a>
-            </td>
-            <td>
-                <b>
-                    fixed improper step calls causing BC tests to fail
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-20 20:32:21 +0000 UTC
-    </div>
-</div>
-

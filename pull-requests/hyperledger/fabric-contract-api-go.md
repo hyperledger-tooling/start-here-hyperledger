@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-contract-api-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/77" class=".btn">#77</a>
+            </td>
+            <td>
+                <b>
+                    Use latest Go patch level for vulnerability scan
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-28 15:57:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/76" class=".btn">#76</a>
             </td>
             <td>

@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1079" class=".btn">#1079</a>
+            </td>
+            <td>
+                <b>
+                    Fix Docker Release GitHub Action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Apparently `docker buildx` flags `--load` and `--push` cannot be used at the same time currently. So this change switches `load` to happen when doing a normal, native architecture build. But allows for pushes when doing multiarch builds.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-28 18:11:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1078" class=".btn">#1078</a>
+            </td>
+            <td>
+                <b>
+                    Fix Docker Release GitHub Action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-28 17:43:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1077" class=".btn">#1077</a>
+            </td>
+            <td>
+                <b>
+                    Update dependencies for v1.1.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-27 20:06:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1076" class=".btn">#1076</a>
             </td>
             <td>
@@ -232,60 +310,6 @@ closes #1067
     </table>
     <div class="right-align">
         Created At 2022-09-22 01:34:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1065" class=".btn">#1065</a>
-            </td>
-            <td>
-                <b>
-                    [identity-docs-formatting] removing newline
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: David Echelberger <eberger727@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-20 19:26:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1064" class=".btn">#1064</a>
-            </td>
-            <td>
-                <b>
-                    release notes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added release notes and FF 1.1 migration guide
-
-Signed-off-by: aznrayizzle <ray.chen@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-20 19:05:45 +0000 UTC
     </div>
 </div>
 
