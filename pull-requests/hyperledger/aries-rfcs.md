@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/752" class=".btn">#752</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/754" class=".btn">#754</a>
             </td>
             <td>
                 <b>
-                    Clarify the handling of minor versions of a protocol
+                    [AUTO] Update Index
                 </b>
             </td>
         </tr>
@@ -27,15 +27,40 @@ permalink: /pull-requests/hyperledger/aries-rfcs
                 
             </td>
             <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-This is in response to an interop issue between Aries Framework JavaScript and Aries Cloud Agent Python, where ACA-Py is not properly handling the messages sent.  The Aca-Py issue is [here](https://github.com/hyperledger/aries-cloudagent-python/issues/1917).
-
+                Update Index
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-06 21:18:05 +0000 UTC
+        Created At 2022-09-28 16:52:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/753" class=".btn">#753</a>
+            </td>
+            <td>
+                <b>
+                    update indexgenerate
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixes master to main, adds manual
+
+Signed-off-by: Sam Curren <telegramsam@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-28 16:16:12 +0000 UTC
     </div>
 </div>
 

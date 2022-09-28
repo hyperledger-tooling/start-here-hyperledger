@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/314" class=".btn">#314</a>
+            </td>
+            <td>
+                <b>
+                    Migration banner
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nikhil Modem [nikhil.modem@ibm.com](mailto:nikhil.modem@ibm.com)
+
+#### Type of change
+
+- New feature
+
+#### Description
+- A notification banner pops up and stays when migration is available
+- Has a button to navigate to the new migration page (not complete yet) where you can start the migration
+- This is part of a wider unreleased feature. The APIs are connected, but are not usable until the migration component is done
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-28 15:03:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/313" class=".btn">#313</a>
             </td>
             <td>

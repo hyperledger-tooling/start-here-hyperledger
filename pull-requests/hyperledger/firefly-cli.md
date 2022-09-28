@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/220" class=".btn">#220</a>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/222" class=".btn">#222</a>
             </td>
             <td>
                 <b>
-                    Fix startup flow for existing contract
+                    Allow contract constructor params
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-cli
                 
             </td>
             <td>
-                Resolves https://github.com/hyperledger/firefly-cli/issues/218
+                I think when the fabric and ethereum commands were split out the argument checking became too strict and prevent the "params" JSON header from being set to anything other than an empty array. For smart contracts with constructors that take parameters this means you can't provide the vars needed at deploy time.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-20 15:32:01 +0000 UTC
+        Created At 2022-09-27 19:09:40 +0000 UTC
     </div>
 </div>
 
