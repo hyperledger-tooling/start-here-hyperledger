@@ -121,35 +121,3 @@ It looks like I changed the tests but that is only because of git is trying to b
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1021" class=".btn">#1021</a>
-            </td>
-            <td>
-                <b>
-                    On Solana, stack allocations must happen in the first block
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">solana</span>
-            </td>
-            <td>
-                If not, the Solana llvm target will fail to generate code with the error:
-
-Unsupported dynamic stack allocation on create_program_address
-
-Fixes https://github.com/hyperledger/solang/issues/1019
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-21 09:01:55 +0000 UTC
-    </div>
-</div>
-

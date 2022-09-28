@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3651" class=".btn">#3651</a>
+            </td>
+            <td>
+                <b>
+                    WIP: Transfer leadership before submitting to raft library
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Bug fix
+
+#### Description
+
+If transaction request rotates the current leader cert or removes it then transfer the leadership to another node before proposing the transaction for orderering. It would help to avoid the leadership transfer while committing the block
+
+#### Additional details
+
+
+#### Related issues
+#3629 
+
+Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-28 09:51:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3648" class=".btn">#3648</a>
             </td>
             <td>

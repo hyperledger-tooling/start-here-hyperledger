@@ -1,13 +1,13 @@
 
-[390](https://github.com/hyperledger-labs/fabric-token-sdk/pull/390) Issue Action Metadata: Use map #365
+[397](https://github.com/hyperledger-labs/fabric-smart-client/pull/397) remove replace directive in `go.mod`
 
-[58](https://github.com/hyperledger-labs/hlf-connector/pull/58) Apply peer name filter for Chaincode approve operation
+[3651](https://github.com/hyperledger/fabric/pull/3651) WIP: Transfer leadership before submitting to raft library
 
-[4451](https://github.com/hyperledger/besu/pull/4451) Prints configuration overview
+[391](https://github.com/hyperledger-labs/fabric-token-sdk/pull/391) go1.18
 
-[313](https://github.com/hyperledger-labs/fabric-operations-console/pull/313) add MigratoinApi.js file in apollo
+[396](https://github.com/hyperledger-labs/fabric-smart-client/pull/396) go1.18
 
-[4449](https://github.com/hyperledger/besu/pull/4449) Access fields/methods more directly
+[318](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/318) Bump got and ava in /common/policy-dsl
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
