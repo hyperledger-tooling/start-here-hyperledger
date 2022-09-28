@@ -52,32 +52,3 @@ Signed-off-by: Yuanmao Zhu [yuanmao@ualberta.ca](mailto:yuanmao@ualberta.ca)
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/489" class=".btn">#489</a>
-            </td>
-            <td>
-                <b>
-                    Enable peer to join channel
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Implement the API allowing a peer to join a channel through 
-the command `peer channel join -b ${APP_CHANNEL}.block`.
-
-Signed-off-by: Xichen Pan <xichen.pan@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-21 04:48:29 +0000 UTC
-    </div>
-</div>
-
