@@ -112,38 +112,3 @@ Epic: #3511
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3642" class=".btn">#3642</a>
-            </td>
-            <td>
-                <b>
-                    verify leadership transfer status before waiting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-- Bug fix
-
-#### Description
-The thread which was waiting on the notifyc channel was not notified as the other thread well passed the execution before the channel gets established/initialized. Its a race condition between these 2 threads lead to the test case failure. Added additional check to check the status before waiting for notification from other go routine.
-
-#### Related issues
-#3629 
-
-Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-20 19:02:38 +0000 UTC
-    </div>
-</div>
-
