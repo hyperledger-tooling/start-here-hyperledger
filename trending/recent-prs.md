@@ -1,13 +1,13 @@
 
-[4456](https://github.com/hyperledger/besu/pull/4456) Migrate deprecated features in picocli to v4.0
+[143](https://github.com/hyperledger-labs/orion-sdk-go/pull/143) exspose TxID
 
-[357](https://github.com/hyperledger-labs/minifabric/pull/357) Added deploynodes operation
+[755](https://github.com/hyperledger/aries-rfcs/pull/755) WIP: Initial draft of the OCA for Aries RFC
 
-[94](https://github.com/hyperledger/aries-mobile-test-harness/pull/94) Added biometrics authrnticate after onboarding
+[769](https://github.com/hyperledger/fabric-docs-i18n/pull/769) RU usecases 2.2
 
-[59](https://github.com/hyperledger-labs/hlf-connector/pull/59) Increment version after release
+[768](https://github.com/hyperledger/fabric-docs-i18n/pull/768) RU usecases 2.5
 
-[315](https://github.com/hyperledger-labs/fabric-operations-console/pull/315) Doc changes
+[767](https://github.com/hyperledger/fabric-docs-i18n/pull/767) RU usecases 2.4
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/140" class=".btn">#140</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/143" class=".btn">#143</a>
             </td>
             <td>
                 <b>
-                    replace json marshalling with protojson
+                    exspose TxID
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
                 
             </td>
             <td>
-                Signed-off-by: senthil <cendhu@gmail.com>
+                Signed-off-by: may buzaglo <maybuzaglo@mays-MacBook-Pro.local>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-18 07:18:57 +0000 UTC
+        Created At 2022-09-29 12:15:58 +0000 UTC
     </div>
 </div>
 
