@@ -40,34 +40,6 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1958" class=".btn">#1958</a>
-            </td>
-            <td>
-                <b>
-                    feat: 00B v1.1 support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Shaanjot Gill <gill.shaanjots@gmail.com>
-
-- Putting this as draft, once PR #1940 is approved and merged, I need to make a minor update to use `get_proto_default_version()` and remove `BASE_PROTO_VERSION` from the OOB messages. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-23 22:33:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1957" class=".btn">#1957</a>
             </td>
             <td>
@@ -89,38 +61,6 @@ Signed-off-by: Adam Burdett <burdettadam@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-09-22 23:15:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1956" class=".btn">#1956</a>
-            </td>
-            <td>
-                <b>
-                    Feature: enabled handling VPs (request, creation, verification) with different VCs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * Enabled handing presentation requests with indy **and** dif
-* Enabled handling presentation requests with requests for claims from different JSON-LD VCs (verifier has to create separate submission requirement groups for each claim from different VC) In case, multiple claims should come from the same VC, the descriptors can be included in the same group
-
-* Updated demo/agent_controller to correctly construct presentations.
-
-Signed-off-by: Anastasiia Sivirina [sivirina99@mail.ru](mailto:sivirina99@mail.ru)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-22 17:26:44 +0000 UTC
     </div>
 </div>
 

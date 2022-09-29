@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/311" class=".btn">#311</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/317" class=".btn">#317</a>
             </td>
             <td>
                 <b>
-                    updated operations service documentation with /healthz and /version endpoint
+                    Github Actions
                 </b>
             </td>
         </tr>
@@ -28,17 +28,84 @@ permalink: /pull-requests/hyperledger/fabric-ca
             </td>
             <td>
                 
-####  Documentation update
+<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- New feature
+- Improvement (improvement to code, performance, etc)
 
 #### Description
 
-I found that the operations service exposes /healthz and /version endpoint similar to peer and orderer. But it is not mentioned in the documentation. So I updated the documentation with the above endpoints. Content is mostly taken from [fabric documentation](https://github.com/hyperledger/fabric/blob/release-2.2/docs/source/operations_service.rst) of the operations service.
+- Replicate Fabric CA Azure Pipelines on GitHub Actions in preparation to migrate from Azure Pipelines
+
+<!--- Describe your changes in detail, including motivation. -->
+
+
+<!--- Additional implementation details or comments to reviewers. -->
+<!--- Summarize how the pull request was tested (if not obvious from commit). -->
+
+
+<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
+
+<!---
+#### Release Note
+If change impacts current users, uncomment Release Note heading and provide
+release note text.
+-->
+
+<!--
+Checklist (DELETE AFTER READING):
+
+- `Signed-off-by` added to commits (required for DCO check to pass)
+- Tests have been added/updated (required for bug fixes and features)
+- Unit and/or integration tests pass locally
+- Run linters and checks locally using 'make checks'
+- If change requires documentation updates, make updates in pull request,
+  or open a separate issue and provide link
+- Squash commits into a single commit, unless a stack of commits is
+  intentional to assist reviewers or to preserve review comments.
+- For additional contribution guidelines see the project's CONTRIBUTING.md file
+-->
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-18 17:34:46 +0000 UTC
+        Created At 2022-09-29 17:24:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/316" class=".btn">#316</a>
+            </td>
+            <td>
+                <b>
+                    Remove CI DocBuild
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                There is no need to do a separate CI DocBuild
+since ReadTheDocs is triggered for every PR and merge regardless. This was removed from Fabric a couple years ago but got overlooked in Fabric CA.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-29 16:35:02 +0000 UTC
     </div>
 </div>
 

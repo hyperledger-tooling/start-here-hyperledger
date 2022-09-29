@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4457" class=".btn">#4457</a>
+            </td>
+            <td>
+                <b>
+                    Avoid sending added blocks to transaction pool during initial sync
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span>
+            </td>
+            <td>
+                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+22.7.4 has a regression on initial sync time, due to the fact that imported blocked are sent to the transaction pool even if it is empty until the initial   sync is done, and in 22.7.4 for every transaction in the block getSender is called and that consume a lot of CPU, to fix in PR#4457 I just make the tx pool subscribe to block added events only when the initial sync is done
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-29 13:40:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4456" class=".btn">#4456</a>
             </td>
             <td>
@@ -63,13 +109,13 @@ Fixes #2701
             </td>
             <td>
                 <b>
-                    Return the best block built until now instead of the last one
+                    Keep the best block built until now instead of the last one
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
@@ -79,18 +125,21 @@ Fixes #2701
 
 ## PR description
 
+If the consensus layer client, send more than once the same forkchoice update with payload attributes, we build more blocks with the same payload id, but the current implementation just keep the latest one built, no matter if it is better or not than the existing ones.
+This PR improve that, comparing the blocks with the same payload id, and keeping the best according to the amount of gas used, this could be improved in a next iteration, comparing the actual fee reward of the block.
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -609,81 +658,6 @@ curl --location --request POST 'http://localhost:8551' \
     </table>
     <div class="right-align">
         Created At 2022-09-22 21:34:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4426" class=".btn">#4426</a>
-            </td>
-            <td>
-                <b>
-                    update CHANGELOG for 4349
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Justin Florentine <justin+github@florentine.us>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-22 16:05:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4425" class=".btn">#4425</a>
-            </td>
-            <td>
-                <b>
-                    Transaction pool improvements to avoid filling the pool with not executable transactions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-This PR is built on top of #4413 which was used to investigate the transaction pool, with the result that currently we keep many transactions that are not possible to include in a block, because a transaction with a lower nonce is missing or invalid.
-To avoid that issues first we now remember (in a cache) that that sender has an invalid transaction, and we do not accept transactions with higher nonce from that sender, of course if a replacement for the invalid transaction is sent it is accepted.
-The eviction when the pool is full has changed in order to pick the sender of the oldest transaction in the pool, and the evict the transaction with the higher nonce for that sender, so no gaps in the nonce list for that sender are created.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-fixes #4401 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-22 15:20:35 +0000 UTC
     </div>
 </div>
 
