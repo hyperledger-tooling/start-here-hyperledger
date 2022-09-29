@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/585" class=".btn">#585</a>
+            </td>
+            <td>
+                <b>
+                    Add CONTRIBUTING.md file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-29 17:50:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/584" class=".btn">#584</a>
+            </td>
+            <td>
+                <b>
+                    Derive Serialize / Deserialize traits for AgencyClient
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-29 15:12:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/581" class=".btn">#581</a>
             </td>
             <td>
