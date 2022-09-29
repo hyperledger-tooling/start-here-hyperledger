@@ -287,29 +287,3 @@ closes #1067
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1068" class=".btn">#1068</a>
-            </td>
-            <td>
-                <b>
-                    make contract listener `location` optional
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                closes #1066 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-22 01:34:12 +0000 UTC
-    </div>
-</div>
-

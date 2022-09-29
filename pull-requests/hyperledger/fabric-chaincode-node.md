@@ -38,31 +38,3 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/348" class=".btn">#348</a>
-            </td>
-            <td>
-                <b>
-                    Update release-2.2 to use Fabric v2.4.6
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix test failure related to the use of 2.3.x peer binary. peer binary  2.3.x did not have calculatepackageid implemented, which fabric-samples now uses. Ideally tests should not depend on fabric-samples.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-21 18:37:07 +0000 UTC
-    </div>
-</div>
-

@@ -27,7 +27,17 @@ permalink: /pull-requests/hyperledger/solang
                 <span class="chip">substrate</span>
             </td>
             <td>
-                WIP
+                This PR updates the `seal_` calls to reflect newer versions. Some of them use `seal1` and some storage APIs  temporarily  `__unstable__`now (will be changed as soon as they are released to some stable version).
+Individual calls updated:
+- `seal_random`: Returns 4 more bytes (the block number) so the output buffer size had to be extend
+- `seal_instantiate`: Args changed
+- `seal_terminate`: Args changed
+- `seal_call`: Args (flags can be done later if needed)
+- `seal_set_storage`: Signature changed. `key_len` will be needed for transparent hashing, once we fix the metadata generation. The newly introduced return type (the length of the pre-existing value, if any) is ignore for now since in solidity we don't use that.
+- `seal_clear_storage`: Same as above.
+- `seal_get_storage`: Arguments changed
+
+Additionally I decided to introduce a few macros to get rid of some awkward and repeating patterns and make it easier to reason about the emitted code.
             </td>
         </tr>
     </table>

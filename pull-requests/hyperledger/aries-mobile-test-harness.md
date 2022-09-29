@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/94" class=".btn">#94</a>
+            </td>
+            <td>
+                <b>
+                    Added biometrics authrnticate after onboarding
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+
+Calibrating to BC Wallet build 404 required the addition of biometrics authentication right after selecting to enable biometrics and clicking continue. 
+
+This PR also includes the removal of the Sauce Labs tunnel for android test, reverting back to ngrok, which seems to work better for android when scanning the QR code.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-28 22:56:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/93" class=".btn">#93</a>
             </td>
             <td>
@@ -39,32 +69,6 @@ Another issue was @wip security tests were running because of double `Scenario` 
     </table>
     <div class="right-align">
         Created At 2022-09-22 19:48:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/92" class=".btn">#92</a>
-            </td>
-            <td>
-                <b>
-                    fixed biometrics pageobject
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-21 20:35:07 +0000 UTC
     </div>
 </div>
 

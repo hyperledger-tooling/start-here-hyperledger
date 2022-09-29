@@ -186,7 +186,7 @@ Thus is the service file only, following PR will wire up the service with a prov
             </td>
             <td>
                 <b>
-                    start of OCA integration
+                    feat: Credential Attribute Label Translation
                 </b>
             </td>
         </tr>
