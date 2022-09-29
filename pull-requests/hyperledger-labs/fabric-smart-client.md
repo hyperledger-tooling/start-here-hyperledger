@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span><span class="chip">node-p2p</span>
             </td>
             <td>
                 Latest versions allow samples to be run with Go 1.19.
@@ -50,7 +50,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">documentation</span>
             </td>
             <td>
                 <nil>
@@ -59,60 +59,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     </table>
     <div class="right-align">
         Created At 2022-09-28 13:45:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/398" class=".btn">#398</a>
-            </td>
-            <td>
-                <b>
-                    Revert "go1.18"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Reverts hyperledger-labs/fabric-smart-client#396
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-28 12:52:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/397" class=".btn">#397</a>
-            </td>
-            <td>
-                <b>
-                    remove replace directive in `go.mod`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Move to Fabric 2.4
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-28 10:01:32 +0000 UTC
     </div>
 </div>
 

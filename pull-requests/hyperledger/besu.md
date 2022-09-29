@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 <b>
-                    Migrate deprecated features in picocli to v4.0
+                    WIP - Migrate deprecated features in picocli to v4.0
                 </b>
             </td>
         </tr>
@@ -684,61 +684,6 @@ fixes #4401
     </table>
     <div class="right-align">
         Created At 2022-09-22 15:20:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4423" class=".btn">#4423</a>
-            </td>
-            <td>
-                <b>
-                    Create a new flag on RocksDB for high spec hardware to boost performance
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ameziane H <ameziane.hamlat@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Create a new flag on RocksDB (_--Xplugin-rocksdb-high-spec-enabled_) for high spec hardware to boost performance. 
-With this first version, the impact is on memory usage, as we're tuning RocksDB block cache and Memtables size. By high spec here, we mean a VM or machine with more than 16 GiB. Other modifications in future may include other resources' requirements but for now, the only requirement is on RAM.
-
-The results are promising on a 32 GiB AWS VM, as this new flag reduces 95 percentile block processing time by 30%.
-![image](https://user-images.githubusercontent.com/5099602/191719256-14a0b56d-9fa7-4164-aada-b472fcf8adf7.png)
-
-Performance improvements may appear in a couple of hours because of cache warm up time, as we can notice with RocksDB block cache hit ratio and RocksDB get time :
-
-![image](https://user-images.githubusercontent.com/5099602/191847101-1093cc5f-60e7-466f-b6de-7fed273c8a15.png)
-![image](https://user-images.githubusercontent.com/5099602/191847138-0d4c95ac-122c-4c5c-b61c-ae71de3a5301.png)
-
- 
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-22 10:14:09 +0000 UTC
     </div>
 </div>
 

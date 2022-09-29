@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/59" class=".btn">#59</a>
+            </td>
+            <td>
+                <b>
+                    Fix a typo in several annotations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Chris Bygrave <chris.bygrave@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-29 08:30:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/58" class=".btn">#58</a>
             </td>
             <td>
