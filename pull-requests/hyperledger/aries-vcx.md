@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/588" class=".btn">#588</a>
+            </td>
+            <td>
+                <b>
+                    Builder pattern in agency client configuration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">hotfix</span>
+            </td>
+            <td>
+                Allows constructing agency client more eloquently as
+
+```let agency_client = AgencyClient::new().configure(&agency_client_config)?;```
+
+Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-30 10:39:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/586" class=".btn">#586</a>
             </td>
             <td>
@@ -59,32 +89,6 @@ permalink: /pull-requests/hyperledger/aries-vcx
     </table>
     <div class="right-align">
         Created At 2022-09-29 17:50:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/584" class=".btn">#584</a>
-            </td>
-            <td>
-                <b>
-                    Derive Serialize / Deserialize traits for AgencyClient
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-29 15:12:23 +0000 UTC
     </div>
 </div>
 
@@ -145,32 +149,6 @@ permalink: /pull-requests/hyperledger/aries-vcx
     </table>
     <div class="right-align">
         Created At 2022-09-25 17:28:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/579" class=".btn">#579</a>
-            </td>
-            <td>
-                <b>
-                    Proof presentation/always ack
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">hotfix</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-23 10:44:26 +0000 UTC
     </div>
 </div>
 

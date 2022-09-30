@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-doc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-doc/pull/80" class=".btn">#80</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-doc/pull/81" class=".btn">#81</a>
             </td>
             <td>
                 <b>
-                    Add a MAINTAINERS.md file
+                    Multi-Ledger Tutorial
                 </b>
             </td>
         </tr>
@@ -27,13 +27,14 @@ permalink: /pull-requests/hyperledger-labs/perun-doc
                 
             </td>
             <td>
-                Fixes #79
+                This PR adds a multi-ledger tutorial based on the code of the multi-ledger example of the perun-examples repo.
 
+Depends on [#11](https://github.com/perun-network/perun-examples/pull/11), after it has been merged, the GitHub links can be updated.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-14 07:58:25 +0000 UTC
+        Created At 2022-09-30 10:00:03 +0000 UTC
     </div>
 </div>
 

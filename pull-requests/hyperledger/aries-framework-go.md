@@ -147,39 +147,3 @@ Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3382" class=".btn">#3382</a>
-            </td>
-            <td>
-                <b>
-                    chore: upgrade to Go 1.19
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Title:**
-Upgrade golang version to 1.19
-
-**Summary**
-
-- Upgrade golang version to 1.19
-- Change some unit tests due to changes of `http/client` module of new SDK 1.19
-- Change unit tests related to x509 certificate error
-
-
-Closes #3370
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-23 10:19:26 +0000 UTC
-    </div>
-</div>
-
