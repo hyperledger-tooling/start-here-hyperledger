@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/homebrew-besu
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/homebrew-besu/pull/85" class=".btn">#85</a>
-            </td>
-            <td>
-                <b>
-                    22.7.3 release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: garyschulte <garyschulte@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-23 17:45:37 +0000 UTC
-    </div>
-</div>
-

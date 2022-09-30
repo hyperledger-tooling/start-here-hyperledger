@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/173" class=".btn">#173</a>
+            </td>
+            <td>
+                <b>
+                    Feature/filter mediator connections
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                React Hook updates to use new connectionType property and filter by / with them. Contributed by @KolbyRKunz and @TheTreek 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-30 16:13:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/172" class=".btn">#172</a>
             </td>
             <td>

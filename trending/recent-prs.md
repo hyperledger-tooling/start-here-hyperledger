@@ -1,13 +1,13 @@
 
-[1027](https://github.com/hyperledger/solang/pull/1027) Function name mangling
+[2812](https://github.com/hyperledger/iroha/pull/2812) Brand new bug report template
 
-[172](https://github.com/hyperledger/aries-framework-javascript-ext/pull/172) feat(rest): added did resolver endpoint and tests
+[173](https://github.com/hyperledger/aries-framework-javascript-ext/pull/173) Feature/filter mediator connections
 
-[1026](https://github.com/hyperledger/solang/pull/1026) Use partition_point() rather than a hand-rolled linear scan
+[4462](https://github.com/hyperledger/besu/pull/4462) Optimize snap sync for PoS networks
 
-[588](https://github.com/hyperledger/aries-vcx/pull/588) Builder pattern in agency client configuration
+[67](https://github.com/hyperledger-labs/acapy-java-client/pull/67) aggregated view for proof presentations
 
-[231](https://github.com/hyperledger/aries-framework-dotnet/pull/231) Add virtual modifier to all public methods of default services
+[393](https://github.com/hyperledger-labs/fabric-token-sdk/pull/393) lock error when same hash is used for lock #392
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
