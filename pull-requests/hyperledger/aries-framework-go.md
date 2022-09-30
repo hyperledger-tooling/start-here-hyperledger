@@ -183,34 +183,3 @@ Closes #3370
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3381" class=".btn">#3381</a>
-            </td>
-            <td>
-                <b>
-                    feat: Add validation for domain linkage credential in JWT format for did configuration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add validation for domain linkage credential in JWT format for did configuration.
-
-Closes #3377
-
-Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-22 21:08:23 +0000 UTC
-    </div>
-</div>
-

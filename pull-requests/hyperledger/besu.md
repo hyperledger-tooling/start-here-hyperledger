@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4459" class=".btn">#4459</a>
+            </td>
+            <td>
+                <b>
+                    use fork id to filter out non matching peers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                After bonding with a new peer request ENR, and if the ENR response contains the ForkId, only try to connect if the ForkId matches. Besu will still try to connect to peers not sending the ForkId.
+
+Signed-off-by: Stefan <stefan.pingel@consensys.net>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-09-30 00:36:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4457" class=".btn">#4457</a>
             </td>
             <td>
@@ -591,73 +621,6 @@ post-release changelog update
     </table>
     <div class="right-align">
         Created At 2022-09-23 16:25:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4427" class=".btn">#4427</a>
-            </td>
-            <td>
-                <b>
-                    add engine_preparePayload_debug endpoint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-## PR description
-
-Draft PR to enable debugging block proposals by re-adding an updated version of the deprecated 
-`engine_preparePayload` endpoint
-
-*be sure to use the current or a recent parent blockhash or you will DoS bonsai db*
-example usage:
-```
-curl --location --request POST 'http://localhost:8551' \
---header 'Content-Type: application/json' \
---header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkwNDEzMzZ9.4PDdSaG9hFOFR4Th7rEgaKKECsXfz6IPckFRcfSP13o' \
---data-raw '{
-    "jsonrpc":"2.0",
-    "method":"engine_preparePayload_debug",
-    "params":
-    [
-        {
-            "parentHash": "0xd4e56740f876aef8c010b86a40d5f56745a118d0906a34e69aec8c0db1cb8fa3",
-            "feeRecipient": "0x0000000000000000000000000000000000000000",
-            "timestamp": "0x0",
-            "prevRandao": "0x0"
-        }
-    ],
-    "id":1
-}'
-```
-
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-22 21:34:42 +0000 UTC
     </div>
 </div>
 
