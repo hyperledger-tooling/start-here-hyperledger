@@ -15,31 +15,31 @@ permalink: /releases/hyperledger/firefly-sdk-nodejs
         <tr>
             <td colspan="2">
                 <b>
-                    v1.1.1
+                    v1.1.2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.1.1
+                    v1.1.2
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Add methods for contract invoke/query by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/36
-* Fill in remaining event enrichment interfaces by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/37
+* Additional methods for data and identities by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/38
+* Bump version to 1.1.2 by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/39
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.1.0...v1.1.1
+**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.1.1...v1.1.2
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.1.1" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.1.2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-09-22 17:34:50 +0000 UTC
+        Created At 2022-09-30 00:18:05 +0000 UTC
     </span>
 </div>
 
