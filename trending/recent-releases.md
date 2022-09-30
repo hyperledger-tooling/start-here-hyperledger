@@ -1,13 +1,13 @@
 
-[v1.1.2](https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.1.2) v1.1.2
+[core/network/fabric-interop-cc/interfaces/asset-mgmt/1.4.3](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/interfaces/asset-mgmt/1.4.3) 1.4.3 - GO Fabric Asset Management Interface - Sep 30, 2022
 
-[v1.8.0-beta14](https://github.com/hyperledger-labs/hlf-operator/releases/tag/v1.8.0-beta14) Version 1.8.0-beta14
+[core/network/fabric-interop-cc/libs/assetexchange/1.4.3](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/libs/assetexchange/1.4.3) 1.4.3 - GO Fabric Library for Asset Exchange - Sep 30, 2022
 
-[v1.1.4](https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v1.1.4) v1.1.4
+[core/network/fabric-interop-cc/libs/utils/1.4.3](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/libs/utils/1.4.3) 1.4.3 - GO Fabric Utils Library for Interoperation - Sep 30, 2022
 
-[22.7.4](https://github.com/hyperledger/besu/releases/tag/22.7.4) 22.7.4 - Memory Leak Fix
+[sdks/fabric/go-sdk/1.2.3](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/sdks/fabric/go-sdk/1.2.3) 1.2.3 - GO Fabric Weaver SDK - Sep 30, 2022
 
-[v1.8.0-beta13](https://github.com/hyperledger-labs/hlf-operator/releases/tag/v1.8.0-beta13) Version 1.8.0-beta13
+[common/protos-go/1.5.1](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/common/protos-go/1.5.1) 1.5.1 - GO Weaver Protos - Sep 30, 2022
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
