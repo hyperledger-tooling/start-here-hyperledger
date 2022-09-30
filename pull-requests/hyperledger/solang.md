@@ -35,6 +35,8 @@ I used the simplest mangling algorithm possible: I think that basically re-using
 * The mangled function names are very user friendly, since they contain the name together with the argument types.
 
 But I might be missing something here, I'm open to change this if there is a better solution.
+
+EDIT: Gonna add tests for this once we agree upon a mangling scheme
             </td>
         </tr>
     </table>
@@ -60,7 +62,9 @@ But I might be missing something here, I'm open to change this if there is a bet
                 
             </td>
             <td>
-                <nil>
+                First, this fixes a problem in the file offset to line/column number conversion. This happens if the offset lands exactly on the newline.
+
+Secondly, this replaces a linear scan with [partition_point](https://doc.rust-lang.org/std/primitive.slice.html#method.partition_point).
             </td>
         </tr>
     </table>

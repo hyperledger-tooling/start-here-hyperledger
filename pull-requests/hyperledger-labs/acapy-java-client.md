@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/66" class=".btn">#66</a>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/67" class=".btn">#67</a>
             </td>
             <td>
                 <b>
-                    Credential attributes
+                    aggregated view for proof presentations
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
                 
             </td>
             <td>
-                Changes necessary for https://github.com/hyperledger-labs/business-partner-agent/pull/826
+                Added an extractor class `RequestedProofParser` that is exposed via `PresentationExchangeRecord.collectAll()` that aggregates all: revealed attributes, revealed attribute groups, predicates, unrevealed attributes and self attested attributes into one simple view that can be mapped to the presentation request via its key. This is mainly for convenience reasons, as each group requires a slightly different handling. Existing extractor methods now also support self attested attributes.
 
-Using List of CredentialAttributes type for credential attributes
+ 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-16 12:25:26 +0000 UTC
+        Created At 2022-09-30 14:33:40 +0000 UTC
     </div>
 </div>
 
