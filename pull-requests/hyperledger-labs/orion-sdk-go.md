@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
                 
             </td>
             <td>
-                Signed-off-by: may buzaglo <maybuzaglo@mays-MacBook-Pro.local>
+                Signed-off-by: May Rosenbaum <mayro1595@gmail.com>
             </td>
         </tr>
     </table>

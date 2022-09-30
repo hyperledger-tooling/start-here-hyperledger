@@ -34,8 +34,8 @@ The core `firefly` chart is then updated to include creating a single installati
 `ethconnect` support within the chart is then deprecated in favor of `evmconnect`. And lastly, the ability to connect to _both_ `evmconnect` and a remote Fabconnect is supported with the choice of which to use for the `default` namespace. This allows users to create a multi-party namespace based on Fabric, but then have a gateway or additional multi-party namespace pointed to an Ethereum chain for example.
 
 TODOs
-- [ ] `ci/` files for EVMConnect
-- [ ] Further test
+- [x] `ci/` files for EVMConnect
+- [x] Further test
 - [ ] Finish docs
             </td>
         </tr>
