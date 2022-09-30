@@ -48,7 +48,7 @@ Signed-off-by: Stefan <stefan.pingel@consensys.net>
             </td>
             <td>
                 <b>
-                    Avoid sending added blocks to transaction pool during initial sync
+                    Avoid to process transactions during initial sync
                 </b>
             </td>
         </tr>
@@ -64,7 +64,9 @@ Signed-off-by: Stefan <stefan.pingel@consensys.net>
 
 ## PR description
 
-22.7.4 has a regression on initial sync time, due to the fact that imported blocked are sent to the transaction pool even if it is empty until the initial   sync is done, and in 22.7.4 for every transaction in the block getSender is called and that consume a lot of CPU, to fix in PR#4457 I just make the tx pool subscribe to block added events only when the initial sync is done
+22.7.4 has a regression on initial sync time, due to the fact that imported blocked are sent to the transaction pool even if it is empty until the initial   sync is done, and in 22.7.4 for every transaction in the block getSender is called and that consume a lot of CPU, to fix in PR#4457 I just make the tx pool subscribe to block added events only when the initial sync is done.
+
+Since there were also the incoming transaction handlers active during the initial sync, the same strategy to register them only after the initial sync is done was added.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -161,6 +163,8 @@ This PR improve that, comparing the blocks with the same payload id, and keeping
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
+
+fixes #4401 
 
 ## Documentation
 

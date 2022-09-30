@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/171" class=".btn">#171</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/172" class=".btn">#172</a>
             </td>
             <td>
                 <b>
-                    test(rest): added more event tests
+                    feat(rest): added did resolver endpoint and tests
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-22 11:19:12 +0000 UTC
+        Created At 2022-09-30 12:39:42 +0000 UTC
     </div>
 </div>
 

@@ -1,13 +1,13 @@
 
-[2808](https://github.com/hyperledger/iroha/pull/2808) [refactor]: Add extra examples to `genesis.json`
+[1027](https://github.com/hyperledger/solang/pull/1027) Function name mangling
 
-[60](https://github.com/hyperledger/firefly-helm-charts/pull/60) [0.6.0] Support for EVMConnect and FireFly v1.1.x
+[172](https://github.com/hyperledger/aries-framework-javascript-ext/pull/172) feat(rest): added did resolver endpoint and tests
 
-[4459](https://github.com/hyperledger/besu/pull/4459) use fork id to filter out non matching peers
+[1026](https://github.com/hyperledger/solang/pull/1026) Use partition_point() rather than a hand-rolled linear scan
 
-[39](https://github.com/hyperledger/firefly-sdk-nodejs/pull/39) Bump version to 1.1.2
+[588](https://github.com/hyperledger/aries-vcx/pull/588) Builder pattern in agency client configuration
 
-[38](https://github.com/hyperledger/firefly-sdk-nodejs/pull/38) Additional methods for data and identities
+[231](https://github.com/hyperledger/aries-framework-dotnet/pull/231) Add virtual modifier to all public methods of default services
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
