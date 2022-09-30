@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/37" class=".btn">#37</a>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/39" class=".btn">#39</a>
             </td>
             <td>
                 <b>
-                    Fill in remaining event enrichment interfaces
+                    Bump version to 1.1.2
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-22 14:45:33 +0000 UTC
+        Created At 2022-09-30 00:17:13 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/36" class=".btn">#36</a>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/38" class=".btn">#38</a>
             </td>
             <td>
                 <b>
-                    Add methods for contract invoke/query
+                    Additional methods for data and identities
                 </b>
             </td>
         </tr>
@@ -58,7 +58,7 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-22 13:07:22 +0000 UTC
+        Created At 2022-09-30 00:14:51 +0000 UTC
     </div>
 </div>
 

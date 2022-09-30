@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1957" class=".btn">#1957</a>
-            </td>
-            <td>
-                <b>
-                    key type registry
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR makes key types pluggable to enable plugins to define and register new ones.
-
-Signed-off-by: Adam Burdett <burdettadam@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-22 23:15:15 +0000 UTC
-    </div>
-</div>
-

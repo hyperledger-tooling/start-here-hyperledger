@@ -122,7 +122,7 @@ Probably we should add tests for it?
 
 ### Issue
 
-Closes #2513 #2521 #2522 
+Closes #2513 #2521 #2522 #2620 
 
 <!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
 
