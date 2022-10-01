@@ -40,29 +40,3 @@ The oob RFC describes the content type header with encoding in it:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1036" class=".btn">#1036</a>
-            </td>
-            <td>
-                <b>
-                    ci: set default rust version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sai Ranjit Tummalapalli <sairanjit5@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-23 20:28:09 +0000 UTC
-    </div>
-</div>
-

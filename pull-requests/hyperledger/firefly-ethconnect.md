@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/229" class=".btn">#229</a>
+                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/230" class=".btn">#230</a>
             </td>
             <td>
                 <b>
-                    Remove early FFCAPI implementation not it is replaced by EVMConnect
+                    Move ABI/Contract store to LevelDB from flat files
                 </b>
             </td>
         </tr>
@@ -27,42 +27,14 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
                 
             </td>
             <td>
-                See https://github.com/hyperledger/firefly-evmconnect and https://github.com/hyperledger/firefly-transaction-manager
+                In the case where you deploy many contracts (hundreds of thousands for example), the flat file based store of contract ABIs/registrations becomes inefficient. This affects startup time and memory usage.
+
+This PR is to make this storage consistent with elsewhere in the codebase, and use LevelDB rather than flat files.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-01 04:34:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/228" class=".btn">#228</a>
-            </td>
-            <td>
-                <b>
-                    Two phase init was not passing smartContractGW to receipt store
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Which meant no WS receipts were being delivered.
-
-This was caused by new initialization order in #227 
-
-Found through e2e in FireFly under https://github.com/hyperledger/firefly/pull/1033
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-01 02:25:32 +0000 UTC
+        Created At 2022-09-30 22:06:59 +0000 UTC
     </div>
 </div>
 
