@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                Implement function name mangling in the ABI generation.
+                Implement function name mangling in sema.
 
 I used the simplest mangling algorithm possible: I think that basically re-using the `.signature` field of the function fits our use case well here:
 * It should already be unique for each function
@@ -35,8 +35,6 @@ I used the simplest mangling algorithm possible: I think that basically re-using
 * The mangled function names are very user friendly, since they contain the name together with the argument types.
 
 But I might be missing something here, I'm open to change this if there is a better solution.
-
-EDIT: Gonna add tests for this once we agree upon a mangling scheme
             </td>
         </tr>
     </table>
