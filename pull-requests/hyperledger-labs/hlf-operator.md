@@ -14,26 +14,25 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/120" class=".btn">#120</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/121" class=".btn">#121</a>
             </td>
             <td>
                 <b>
-                    Support for peer hostAliases in create and update
+                    included external hosts as part CSR hosts for peer
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">HACKTOBERFEST-ACCEPTED</span>
             </td>
             <td>
-                - Let users specify host aliases, so that /etc/hosts on peer containers can be easily managed. Peers need to be able to resolve the ordering node names - needed when using Istio and no real DNS.
-- Introduce peer update command - for now to let users change host aliases even after the peer has been created.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-21 19:53:49 +0000 UTC
+        Created At 2022-10-01 17:01:20 +0000 UTC
     </div>
 </div>
 
