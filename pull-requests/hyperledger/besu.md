@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4465" class=".btn">#4465</a>
+            </td>
+            <td>
+                <b>
+                    BlockCreator returns BlockCreationResult transaction selection results
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Block creation returns `BlockCreationResult` which contains the new `Block` and `TransactionSelectionResults`. `TransactionSelectionResults` was extended with a list of `TransactionValidationResult` that contain the invalid transactions that were removed from the TX Pool during the block creation processes and the correspondent validation result.
+
+At the of block creation and transaction selection, we have a list of all the transactions "processed" during the block creation: included transactions + discarded transactions and correspondent validation error (instead of just dropping them from Tx Pool);
+
+Although, these changes surged out the work here in this PR #4146. I believe this would benefit Besu block creator flow.
+
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-02 13:29:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4464" class=".btn">#4464</a>
             </td>
             <td>
@@ -600,49 +649,6 @@ Signed-off-by: Justin Florentine <justin+github@florentine.us>
     </table>
     <div class="right-align">
         Created At 2022-09-26 15:58:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4438" class=".btn">#4438</a>
-            </td>
-            <td>
-                <b>
-                    Add config file support for high spec flag
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-With PR #4423, the flag --Xplugin-rocksdb-high-spec-enabled doesn't work with Toml configuration files. This PR fix this issue.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-25 15:02:16 +0000 UTC
     </div>
 </div>
 
