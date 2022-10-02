@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-rfcs
             </td>
             <td>
                 <b>
-                    WIP: Initial draft of the OCA for Aries RFC
+                    WIP: OCA for Aries RFC
                 </b>
             </td>
         </tr>
