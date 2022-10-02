@@ -226,13 +226,13 @@ The listed drawbacks would be resolved within the current PR or later.
             </td>
             <td>
                 <b>
-                    [refactor]: Add extra examples to `genesis.json`
+                    [refactor]: **do not merge** Add extra examples to `genesis.json`
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">iroha2</span><span class="chip">UI</span>
             </td>
             <td>
                 Signed-off-by: Aleksandr Petrosyan <a-p-petrosyan@yandex.ru>
@@ -358,7 +358,7 @@ Probably we should add tests for it?
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">iroha2</span><span class="chip">macros</span>
             </td>
             <td>
                 <!-- You will not see HTML commented line in Pull Request body -->
