@@ -126,29 +126,3 @@ Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/580" class=".btn">#580</a>
-            </td>
-            <td>
-                <b>
-                    Remove pool handle from connection protocol
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-25 17:28:07 +0000 UTC
-    </div>
-</div>
-
