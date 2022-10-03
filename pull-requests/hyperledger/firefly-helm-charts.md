@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/firefly-helm-charts
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/62" class=".btn">#62</a>
+            </td>
+            <td>
+                <b>
+                    [0.6.0] Publishing EVMConnect Chart
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: hfuss <haydenfuss@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-03 04:37:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/61" class=".btn">#61</a>
+            </td>
+            <td>
+                <b>
+                    [0.6.0] Disabling E2E Temporarily for RCs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Will open a follow-up final PR for docs and fixing E2E before cutting 0.6.0. Just want the main build to pass so that a prerelease of 0.6.0 is published.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-03 04:28:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-helm-charts/pull/60" class=".btn">#60</a>
             </td>
             <td>
