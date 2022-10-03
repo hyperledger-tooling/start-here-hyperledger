@@ -92,37 +92,3 @@ Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/581" class=".btn">#581</a>
-            </td>
-            <td>
-                <b>
-                    Reorganize libindy module
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span>
-            </td>
-            <td>
-                - rename `libindy` module to `indy` - better vocabulary to cover both libindy (well more accurately libvdrtools) and in upcoming future implementation using bcgov extracted libs
-- `libindy/wallet.rs` and `libindy/utils/wallet.rs` are merged into `indy/wallet.rs`
-- number of files pulled out of `libindy/utils/*.rs` to `indy/*.rs`
-- `ledger.rs` and `pool.rs` reshuffled to `ledger/pool.rs` and `ledger/transactions.rs`
-- `cache.rs` renamed to `wallet_non_secrets.rs`
-- `crypto.rs` renamed to `signing.rs`
-- `signus.rs` renamed to `keys.rs`
-- `anoncreds.rs` was originally huge file - its content is now reshuffled to more appropriate files across `indy/`
-- added submodule `credentials` to cover issuance and receiving credentials
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-26 11:46:38 +0000 UTC
-    </div>
-</div>
-

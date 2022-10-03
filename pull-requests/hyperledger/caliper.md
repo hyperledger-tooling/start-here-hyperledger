@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1448" class=".btn">#1448</a>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1452" class=".btn">#1452</a>
             </td>
             <td>
                 <b>
-                    Add TxObserver for Prometheus manager
+                    Vscode extension treeview
                 </b>
             </td>
         </tr>
@@ -27,15 +27,14 @@ permalink: /pull-requests/hyperledger/caliper
                 
             </td>
             <td>
-                In this PR:
-* The new TxObserver class is added (with tests) as a part of the ongoing effort to add a Prometheus scrape server to the Caliper manager.
+                Introduces cosmetic changes for the vscode extension.
 
-PR 1/n for #1353
+Here we list all the available configuration files in a separate tab dedicated for caliper configuration files. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-21 05:44:06 +0000 UTC
+        Created At 2022-10-03 10:04:53 +0000 UTC
     </div>
 </div>
 

@@ -107,32 +107,3 @@ Additionally I decided to introduce a few macros to get rid of some awkward and 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1024" class=".btn">#1024</a>
-            </td>
-            <td>
-                <b>
-                    constant overflow compatible with solc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR evaluates expressions constant arithmetic and checks for overflow according to what Solc does
-
-Signed-off-by: salaheldinsoliman <salaheldin_sameh@aucegypt.edu>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-26 11:50:47 +0000 UTC
-    </div>
-</div>
-
