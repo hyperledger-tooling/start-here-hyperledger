@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4468" class=".btn">#4468</a>
+            </td>
+            <td>
+                <b>
+                    Java modules support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Signed-off-by: Mustafa Uzun <mustafa.uzun@limechain.tech>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Add java modules support:
+
+./crypto - org.hyperledger.besu.internal.Crypto
+./ethereum/rlp - org.hyperledger.besu.internal.Rlp 
+./util - org.hyperledger.besu.internal.Util
+./datatypes - org.hyperledger.besu.Datatypes
+./evm - org.hyperledger.besu.Evm
+./plugin-api - org.hyperledger.besu.PluginApi
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-03 10:34:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4466" class=".btn">#4466</a>
             </td>
             <td>

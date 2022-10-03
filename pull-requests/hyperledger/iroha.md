@@ -279,7 +279,7 @@ None
             </td>
             <td>
                 <b>
-                    [fix] #0: Fix expression serialization bug
+                    [fix] #2814: Expression recursion
                 </b>
             </td>
         </tr>
@@ -309,7 +309,7 @@ None
 
 ### Issue
 
-No
+Closes #2814 
 
 <!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
 More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
@@ -525,7 +525,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
 ```
 The commit SHA of the parent for which you are uploading coverage.
 ```
-2. Temporarily disable codecov report upload as artifact Actions.
+2. Disable codecov report upload as artifact Actions.
 
 ### Issue
 Codecov Action bot doesn't show the correct diff between the head and PR branches.
@@ -629,43 +629,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2022-09-26 14:05:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2785" class=".btn">#2785</a>
-            </td>
-            <td>
-                <b>
-                    [ci]: move jobs to github runners
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">CI</span>
-            </td>
-            <td>
-                ### Description of the Change
-Replace self-hosted runners inside `tests` workflows with the default `ubuntu-latest` Gihub Runners.
-
-### Issue
-Some long tests are failed on self-hosted runners due to undetected reason.
-
-### Benefits
-Long tests should not be failed when they are run on the deault GH Runners.
-
-### Possible Drawbacks
-Should be none, but we have to re-implement self-hosted runners.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-26 07:22:15 +0000 UTC
     </div>
 </div>
 

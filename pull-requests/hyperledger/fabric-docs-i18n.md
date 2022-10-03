@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/770" class=".btn">#770</a>
+            </td>
+            <td>
+                <b>
+                    [ja_JP] Translate enable_cc_lifecycle.md into Japanese
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">jaJP-docs-ongoing</span>
+            </td>
+            <td>
+                This patch translates "#Upgrading to the latest release » Enabling the new chaincode lifecycle" into Japanese.
+
+#579 
+
+Signed-off-by: Daiki.Nakashima <Nakashima.Daiki@df.MitsubishiElectric.co.jp>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-03 07:43:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/769" class=".btn">#769</a>
             </td>
             <td>
@@ -85,58 +115,6 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     </table>
     <div class="right-align">
         Created At 2022-09-29 09:52:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/766" class=".btn">#766</a>
-            </td>
-            <td>
-                <b>
-                    RU whats new 2.5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Alexander Zemtsov <a.zemtsov@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-26 08:59:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/765" class=".btn">#765</a>
-            </td>
-            <td>
-                <b>
-                    RU whats new 2.4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Alexander Zemtsov <a.zemtsov@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-26 08:55:59 +0000 UTC
     </div>
 </div>
 

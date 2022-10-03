@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/174" class=".btn">#174</a>
+            </td>
+            <td>
+                <b>
+                    test: use separate ports in tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-03 10:01:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/173" class=".btn">#173</a>
             </td>
             <td>
