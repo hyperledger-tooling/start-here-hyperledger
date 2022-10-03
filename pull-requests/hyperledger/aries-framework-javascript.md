@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1042" class=".btn">#1042</a>
+            </td>
+            <td>
+                <b>
+                    feat: Presentation Exchange Format / PPV2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR puts the PEX PPV2 code into 0.3.0-pre.
+
+Note that there is still some development to do but this is the correct time to merge
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-03 13:13:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1040" class=".btn">#1040</a>
             </td>
             <td>

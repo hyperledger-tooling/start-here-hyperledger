@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4469" class=".btn">#4469</a>
+            </td>
+            <td>
+                <b>
+                    P2P: Don't add peer to maintained connections if local node is not ready
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+* Fixes an issue due to which multiple peer connections are setup over time to the local node if it is present in the static nodes list. The code was not handling the case where local node is not yet ready (encountered at startup). https://github.com/hyperledger/besu/pull/1703 added logic to skip adding local node to the set of maintained peer connections. However, the check fails to take into account the case where the local node is not marked ready (occurs at startup since [sanitizePeers](https://github.com/hyperledger/besu/blob/main/besu/src/main/java/org/hyperledger/besu/RunnerBuilder.java#L573) is called _before_ the call is made to setup the [networkRunner](https://github.com/hyperledger/besu/blob/main/besu/src/main/java/org/hyperledger/besu/RunnerBuilder.java#L844-L846) at which time the local node is setup and marked ready.
+
+* Also adds a one time call to initiate connection to nodes in static nodes list after local node is ready. In the absence of this call, the connection attempt is made after the configured interval (default 60 seconds) to check maintained connections. This is to make sure the node doesn't have to wait for almost a minute before it can start interacting with peers (and sync blocks etc.).
+
+
+
+## Fixed Issue(s)
+
+Fixes https://github.com/hyperledger/besu/issues/1702
+
+## Documentation
+
+- [ ] ~I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).~
+
+No doc updates necessary.
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-03 15:38:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4468" class=".btn">#4468</a>
             </td>
             <td>
@@ -27,8 +74,7 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                
-Signed-off-by: Mustafa Uzun <mustafa.uzun@limechain.tech>
+                Signed-off-by: Mustafa Uzun <mustafa.uzun@limechain.tech>
 
 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
@@ -37,12 +83,12 @@ Signed-off-by: Mustafa Uzun <mustafa.uzun@limechain.tech>
 
 Add java modules support:
 
-./crypto - org.hyperledger.besu.internal.Crypto
-./ethereum/rlp - org.hyperledger.besu.internal.Rlp 
-./util - org.hyperledger.besu.internal.Util
-./datatypes - org.hyperledger.besu.Datatypes
-./evm - org.hyperledger.besu.Evm
-./plugin-api - org.hyperledger.besu.PluginApi
+./crypto - org.hyperledger.besu.internal.crypto
+./ethereum/rlp - org.hyperledger.besu.internal.rlp 
+./util - org.hyperledger.besu.internal.util
+./datatypes - org.hyperledger.besu.datatypes
+./evm - org.hyperledger.besu.evm
+./plugin-api - org.hyperledger.besu.plugin.api
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -680,69 +726,6 @@ Additional to #4438
     </table>
     <div class="right-align">
         Created At 2022-09-27 11:36:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4444" class=".btn">#4444</a>
-            </td>
-            <td>
-                <b>
-                    updated version and CHANGELOG for next dev cycle
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Justin Florentine <justin+github@florentine.us>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-26 17:08:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4442" class=".btn">#4442</a>
-            </td>
-            <td>
-                <b>
-                    adding new release version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## 22.7.4
-
-
-### Bug Fixes
-- Remove records that track transactions by sender when they are empty to same memory in the transaction pool [#4415](https://github.com/hyperledger/besu/pull/4415)
-- Add Toml configuration file support for _--Xplugin-rocksdb-high-spec-enabled_ flag
-
-Signed-off-by: Justin Florentine <justin+github@florentine.us>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-26 15:58:59 +0000 UTC
     </div>
 </div>
 
