@@ -1,13 +1,13 @@
 
+[62](https://github.com/hyperledger/firefly-helm-charts/pull/62) [0.6.0] Publishing EVMConnect Chart
+
+[61](https://github.com/hyperledger/firefly-helm-charts/pull/61) [0.6.0] Disabling E2E Temporarily for RCs
+
+[127](https://github.com/hyperledger/iroha-javascript/pull/127) Next Iroha 2 LTS
+
 [4466](https://github.com/hyperledger/besu/pull/4466) 2867 tessera as process
 
 [571](https://github.com/hyperledger/aries-agent-test-harness/pull/571) Add ability to run the test scope of a runset normally executed daily by GitHub Actions
-
-[1040](https://github.com/hyperledger/aries-framework-javascript/pull/1040) feat(question-answer): separate logic to a new module
-
-[4465](https://github.com/hyperledger/besu/pull/4465) BlockCreator returns BlockCreationResult transaction selection results
-
-[395](https://github.com/hyperledger-labs/fabric-token-sdk/pull/395) Provide an efficient way to lookup wallet by ID #394
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
