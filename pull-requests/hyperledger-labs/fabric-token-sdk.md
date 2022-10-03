@@ -166,29 +166,3 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/387" class=".btn">#387</a>
-            </td>
-            <td>
-                <b>
-                    add metadata to issue action
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                Signed-off-by: KAO <kao@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-26 14:11:00 +0000 UTC
-    </div>
-</div>
-

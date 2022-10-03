@@ -31,12 +31,12 @@ permalink: /pull-requests/hyperledger/besu-native
 
 Add java modules support:
 
-./bls12-381 - org.hyperledger.besu.native.Bls12_381
-./secp256k1 - org.hyperledger.besu.native.Secp256k1
-./secp256r1 - org.hyperledger.besu.native.Secp256r1
-./altbn128 - org.hyperledger.besu.native.Altbn128
-./blake2bf - org.hyperledger.besu.native.Blake2bf
-./ipa-multipoint - org.hyperledger.besu.native.IpaMultipoint
+./bls12-381 - org.hyperledger.besu.native.bls12_381
+./secp256k1 - org.hyperledger.besu.native.secp256k1
+./secp256r1 - org.hyperledger.besu.native.secp256r1
+./altbn128 - org.hyperledger.besu.native.altbn128
+./blake2bf - org.hyperledger.besu.native.blake2bf
+./ipa-multipoint - org.hyperledger.besu.native.ipa.multipoint
             </td>
         </tr>
     </table>

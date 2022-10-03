@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/464" class=".btn">#464</a>
+            </td>
+            <td>
+                <b>
+                    changed back buttons on tabstack
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: wadeking98 <wkingnumber2@gmail.com>
+
+# Summary of Changes
+
+Removed back buttons from the tab stack that were pointing back to the splash screen. Removed back button title from all screens
+![image](https://user-images.githubusercontent.com/36937407/193647665-bffb240e-7c3c-4cf7-a837-e083c01580bd.png)
+![image](https://user-images.githubusercontent.com/36937407/193647776-54b0568c-081f-4496-86b4-f58fb8e6a5c3.png)
+![image](https://user-images.githubusercontent.com/36937407/193647918-ccc02045-adf4-4e63-886a-112332bc618b.png)
+
+
+# Related Issues
+
+N/A
+
+# Pull Request Checklist
+
+Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
+
+- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [x] Updated documentation as needed for changed code and new or modified features;
+- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+Pro Tip 🤓
+
+- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-03 18:09:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/463" class=".btn">#463</a>
             </td>
             <td>
