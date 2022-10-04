@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/321" class=".btn">#321</a>
+            </td>
+            <td>
+                <b>
+                    Go-sdk changes when confidential flag is set to false
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Go-sdk changes when confidential flag is set to `false`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-04 04:31:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/320" class=".btn">#320</a>
             </td>
             <td>
