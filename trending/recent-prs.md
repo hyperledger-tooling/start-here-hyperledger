@@ -1,13 +1,13 @@
 
-[2167](https://github.com/hyperledger/cactus/pull/2167) fix(security): vulnerabilities found in besu-all-in-one #2055
+[771](https://github.com/hyperledger/fabric-docs-i18n/pull/771) Rus glossary rst full update
 
-[321](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/321) Go-sdk changes when confidential flag is set to false
+[401](https://github.com/hyperledger-labs/fabric-token-sdk/pull/401) FSC dep update
 
-[465](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/465) chore: update screen styling for a11y
+[405](https://github.com/hyperledger-labs/fabric-smart-client/pull/405) commit to go1.18
 
-[4473](https://github.com/hyperledger/besu/pull/4473) Fixing logging per issue 4450.
+[399](https://github.com/hyperledger-labs/fabric-token-sdk/pull/399) commit to go1.18
 
-[4472](https://github.com/hyperledger/besu/pull/4472) removes pandas
+[3664](https://github.com/hyperledger/fabric/pull/3664) [WIP] Add basic script to check prereqs
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

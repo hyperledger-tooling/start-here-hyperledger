@@ -195,15 +195,17 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
 
 ### Issue
 In some compilation cases as iroha building on M1, having Arch Linux base image is redundancy.
+Issue #2690 
 
 ### Benefits
 The current changes allow to keep the cache of rustup and cargo tools for the future branch workflows launches automatically.
+It resolves #2690 partially.
 
 ### Possible Drawbacks
 1. Cache is available only for the target workflow branch.
 2. Only ex `base-image` is cached.
 3. No any `cargo` dependencies will be cached within a particular conditions. 
-4. We can't control and manage what is really caches using the `type=gha` cache mode.
+4. We can't control and manage what is really cached using the `type=gha` cache mode.
 5. The maximum cache size is up to 10 Gb (Github Actions limitation). [A possible way to bypass this limitation](https://depot.dev/blog/docker-layer-caching-in-github-actions)
 
 ---
