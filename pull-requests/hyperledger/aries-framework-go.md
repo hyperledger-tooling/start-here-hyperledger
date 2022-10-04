@@ -45,36 +45,3 @@ Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3389" class=".btn">#3389</a>
-            </td>
-            <td>
-                <b>
-                    fix: Service type property MUST be a string or a set of strings.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Service type property MUST be a string or a set of strings.
-
-Closes #3383
-
-Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-27 17:04:58 +0000 UTC
-    </div>
-</div>
-

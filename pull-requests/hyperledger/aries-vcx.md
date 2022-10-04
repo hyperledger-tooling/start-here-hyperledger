@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/589" class=".btn">#589</a>
+            </td>
+            <td>
+                <b>
+                    Avoid adding extra quotes when building offer from proposal in array format 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">hotfix</span>
+            </td>
+            <td>
+                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-04 16:30:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/588" class=".btn">#588</a>
             </td>
             <td>
