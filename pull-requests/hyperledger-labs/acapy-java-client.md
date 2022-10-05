@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/68" class=".btn">#68</a>
+            </td>
+            <td>
+                <b>
+                    addition to proof parser
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-05 13:22:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/67" class=".btn">#67</a>
             </td>
             <td>

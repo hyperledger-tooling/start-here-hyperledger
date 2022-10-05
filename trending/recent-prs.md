@@ -1,13 +1,13 @@
 
-[378](https://github.com/hyperledger-labs/go-perun/pull/378) Create app id type
+[87](https://github.com/hyperledger/homebrew-besu/pull/87) uprev version to 22.7.5
 
-[122](https://github.com/hyperledger-labs/hlf-operator/pull/122) Using service type as ClusterIP when istio is used.
+[4483](https://github.com/hyperledger/besu/pull/4483) uprev version to 22.10.RC1
 
-[2037](https://github.com/hyperledger/bevel/pull/2037) [corda] upgrade to version 4.9
+[1186](https://github.com/hyperledger/besu-docs/pull/1186) Bump mkdocs-material from 8.3.9 to 8.5.6 in /CI
 
-[4481](https://github.com/hyperledger/besu/pull/4481) Better handler for --fast-sync-min-peers flag
+[1185](https://github.com/hyperledger/besu-docs/pull/1185) Bump plantuml-markdown from 3.6.2 to 3.6.3 in /CI
 
-[134](https://github.com/hyperledger/fabric-protos/pull/134) [WIP] Generate "external" bindings
+[1184](https://github.com/hyperledger/besu-docs/pull/1184) Bump mkdocs-redirects from 1.0.4 to 1.2.0 in /CI
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

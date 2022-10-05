@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4483" class=".btn">#4483</a>
+            </td>
+            <td>
+                <b>
+                    uprev version to 22.10.RC1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Justin Florentine <justin+github@florentine.us>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-05 17:39:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4482" class=".btn">#4482</a>
+            </td>
+            <td>
+                <b>
+                    Prepping 22.7.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Cherry picked issues for 22.7.5 release.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-05 16:33:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4481" class=".btn">#4481</a>
             </td>
             <td>
@@ -686,55 +743,6 @@ Fixes #2701
     </table>
     <div class="right-align">
         Created At 2022-09-29 05:47:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4455" class=".btn">#4455</a>
-            </td>
-            <td>
-                <b>
-                    Keep the best block built until now instead of the last one
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-If the consensus layer client, send more than once the same forkchoice update with payload attributes, we build more blocks with the same payload id, but the current implementation just keep the latest one built, no matter if it is better or not than the existing ones.
-This PR improve that, comparing the blocks with the same payload id, and keeping the best according to the amount of gas used, this could be improved in a next iteration, comparing the actual fee reward of the block.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-fixes #4401 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-28 16:51:41 +0000 UTC
     </div>
 </div>
 

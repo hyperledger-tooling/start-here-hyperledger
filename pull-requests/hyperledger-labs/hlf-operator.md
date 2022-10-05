@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">HACKTOBERFEST-ACCEPTED</span>
             </td>
             <td>
                 1. Updated Kubernetes service type NodePort to ClusterIP when `istio`is used.

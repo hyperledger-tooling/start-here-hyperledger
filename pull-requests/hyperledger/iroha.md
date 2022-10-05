@@ -78,7 +78,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             </td>
             <td>
                 <b>
-                    [fix] #2379: Support for mixed binary and plain text blocks in kura.
+                    [fix] #2379: Ability to dump new kura blocks to blocks.txt.
                 </b>
             </td>
         </tr>
@@ -703,50 +703,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2022-09-29 17:30:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2798" class=".btn">#2798</a>
-            </td>
-            <td>
-                <b>
-                    [ci] #2781: add codecov commit parent feature
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">CI</span>
-            </td>
-            <td>
-                Sign-off-by: BAStos525 <jungle.vas@yandex.ru>
-
-### Description of the Change
-1. Add `parent_commit` option to Codecov Upload Action with the branch SHA:
-
-```
-The commit SHA of the parent for which you are uploading coverage.
-```
-2. Disable codecov report upload as artifact Actions.
-
-### Issue
-Codecov Action bot doesn't show the correct diff between the head and PR branches.
-
-### Benefits
-`parent_commit` option could help to currently determine the right head branch merge commit.
-
-### Possible Drawbacks
-None, but it still could be not work.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-28 12:54:59 +0000 UTC
     </div>
 </div>
 
