@@ -15,36 +15,39 @@ permalink: /releases/hyperledger/besu
         <tr>
             <td colspan="2">
                 <b>
-                    22.7.4 - Memory Leak Fix
+                    22.7.5
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    22.7.4
+                    22.7.5
                 </span>
             </td>
             <td>
-                ## 22.7.4
-
-This is a STRONGLY RECOMMENDED upgrade which resolves known issues in the prior release (22.7.3). This version fixes a memory leak which was uncovered by fixes in 22.7.3.
+                
+### Additions and Improvements
+- Avoid sending added block events to transaction pool, and processing incoming transactions during initial sync [#4457](https://github.com/hyperledger/besu/pull/4457)
+- When building a new proposal, keep the best block built until now instead of the last one [#4455](https://github.com/hyperledger/besu/pull/4455)
+- Add Mainnet to merged networks [#4463](https://github.com/hyperledger/besu/pull/4463)
 
 ### Bug Fixes
-- Remove records that track transactions by sender when they are empty to same memory in the transaction pool [#4415](https://github.com/hyperledger/besu/pull/4415)
-- Add Toml configuration file support for _--Xplugin-rocksdb-high-spec-enabled_ flag [#4438](https://github.com/hyperledger/besu/pull/4438)
+- Fixed logIndex value returned by eth_getLogs RPC call [#4355](https://github.com/hyperledger/besu/pull/4355)
 
 ### Download Links
-[https://hyperledger.jfrog.io/hyperledger/besu-binaries/besu/22.7.4/besu-22.7.4.zip](https://hyperledger.jfrog.io/hyperledger/besu-binaries/besu/22.7.4/besu-22.7.4.zip) / sha256: `4f2a0c20bee7f266ec1dcb45fa90ae1ca42f4b22e9b21a601b7705357259aea9`
-[https://hyperledger.jfrog.io/hyperledger/besu-binaries/besu/22.7.4/besu-22.7.4.tar.gz](https://hyperledger.jfrog.io/hyperledger/besu-binaries/besu/22.7.4/besu-22.7.4.tar.gz) / sha256: `a60efc4d515ac94710bbc6d61a24f409b03fcfc02323bee2a2d75c883fc99dce`
+https://hyperledger.jfrog.io/hyperledger/besu-binaries/besu/22.7.5/besu-22.7.5.zip / sha256: 0efd783c7ce8fcd1ffa55735d071d5ffeb71741007c1025ccafd0221c903a392
+https://hyperledger.jfrog.io/hyperledger/besu-binaries/besu/22.7.5/besu-22.7.5.tar.gz / sha256: 0fce71402b0b6e8251a0bd21cdde9f2e7e015d66224a13f6bd83e3889d6fbb87
+
+
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/besu/releases/tag/22.7.4" class=".btn">
+    <a href="https://github.com/hyperledger/besu/releases/tag/22.7.5" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-09-26 16:28:26 +0000 UTC
+        Created At 2022-10-05 17:04:11 +0000 UTC
     </span>
 </div>
 
