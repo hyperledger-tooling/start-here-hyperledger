@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/376" class=".btn">#376</a>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/378" class=".btn">#378</a>
             </td>
             <td>
                 <b>
-                    Fix NewClients
+                    Create app id type
                 </b>
             </td>
         </tr>
@@ -27,12 +27,38 @@ permalink: /pull-requests/hyperledger-labs/go-perun
                 
             </td>
             <td>
-                Use correct identity.
+                Closes #352.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-01 11:09:44 +0000 UTC
+        Created At 2022-10-05 12:41:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/377" class=".btn">#377</a>
+            </td>
+            <td>
+                <b>
+                    README: Add Fabric to Backend List
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-05 09:27:29 +0000 UTC
     </div>
 </div>
 

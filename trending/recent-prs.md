@@ -1,13 +1,13 @@
 
-[772](https://github.com/hyperledger/fabric-docs-i18n/pull/772) [ja_JP] Translate "enable_tls.rst" into Japanese
+[378](https://github.com/hyperledger-labs/go-perun/pull/378) Create app id type
 
-[51](https://github.com/hyperledger/sawtooth-sdk-java/pull/51) Bump protobuf-java from 3.16.1 to 3.16.3 in /examples/xo_java
+[122](https://github.com/hyperledger-labs/hlf-operator/pull/122) Using service type as ClusterIP when istio is used.
 
-[50](https://github.com/hyperledger/sawtooth-sdk-java/pull/50) Bump protobuf-java from 3.16.1 to 3.16.3 in /examples/intkey_java
+[2037](https://github.com/hyperledger/bevel/pull/2037) [corda] upgrade to version 4.9
 
-[236](https://github.com/hyperledger/fabric-sdk-java/pull/236) Bump protobuf-java from 3.21.1 to 3.21.7
+[4481](https://github.com/hyperledger/besu/pull/4481) Better handler for --fast-sync-min-peers flag
 
-[4480](https://github.com/hyperledger/besu/pull/4480) Move Frank to emeritus
+[134](https://github.com/hyperledger/fabric-protos/pull/134) [WIP] Generate "external" bindings
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
