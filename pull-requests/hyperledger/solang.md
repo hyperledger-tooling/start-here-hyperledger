@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1029" class=".btn">#1029</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1031" class=".btn">#1031</a>
             </td>
             <td>
                 <b>
-                    WIP: Implement function dispatch in codegen for Solana
+                    WIP: Split integration tests
                 </b>
             </td>
         </tr>
@@ -28,6 +28,34 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 Signed-off-by: Lucas Steuernagel <lucas.tnagel@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-04 21:25:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1029" class=".btn">#1029</a>
+            </td>
+            <td>
+                <b>
+                    Implement function dispatch in codegen for Solana
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">solana</span>
+            </td>
+            <td>
+                This PR implements the function dispatch and the constructor dispatch in codegen for the Solana target. The old implementation in `src/emit/dispatch` has been moved to `src/emit/substrate/dispatch` and implemented as methods of `SubstrateTarget` because they are now Substrate specific.
+
+There are some new instructions in the control flow graph for LLVM instructions that were exclusive to `emit`.
             </td>
         </tr>
     </table>

@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger/firefly
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1077" class=".btn">#1077</a>
-            </td>
-            <td>
-                <b>
-                    Update dependencies for v1.1.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-27 20:06:27 +0000 UTC
-    </div>
-</div>
-

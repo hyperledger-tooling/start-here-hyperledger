@@ -1,13 +1,13 @@
 
-[1029](https://github.com/hyperledger/solang/pull/1029) WIP: Implement function dispatch in codegen for Solana
+[51](https://github.com/hyperledger/sawtooth-sdk-java/pull/51) Bump protobuf-java from 3.16.1 to 3.16.3 in /examples/xo_java
 
-[466](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/466) disable app biometrics when phone biometrics is disabled
+[50](https://github.com/hyperledger/sawtooth-sdk-java/pull/50) Bump protobuf-java from 3.16.1 to 3.16.3 in /examples/intkey_java
 
-[3671](https://github.com/hyperledger/fabric/pull/3671) 'gofmt -l -s -w' fixes
+[236](https://github.com/hyperledger/fabric-sdk-java/pull/236) Bump protobuf-java from 3.21.1 to 3.21.7
 
-[3670](https://github.com/hyperledger/fabric/pull/3670) Cancel timer after test (backport #3666)
+[4480](https://github.com/hyperledger/besu/pull/4480) Move Frank to emeritus
 
-[3669](https://github.com/hyperledger/fabric/pull/3669) Cancel timer after test (backport #3666)
+[4479](https://github.com/hyperledger/besu/pull/4479) add Gabriel Trintinalia as a maintainer
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

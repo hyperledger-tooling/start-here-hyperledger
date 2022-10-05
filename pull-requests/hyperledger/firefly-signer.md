@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-signer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-signer/pull/26" class=".btn">#26</a>
+                PR <a href="https://github.com/hyperledger/firefly-signer/pull/27" class=".btn">#27</a>
             </td>
             <td>
                 <b>
-                    Fix Ethereum FFIParamValidator to allow oneOf syntax for basic types
+                    Add filesystem listener interface to KeystoreV3 signer, and move to `pkg`
                 </b>
             </td>
         </tr>
@@ -27,14 +27,19 @@ permalink: /pull-requests/hyperledger/firefly-signer
                 
             </td>
             <td>
-                Resolves https://github.com/hyperledger/firefly-signer/issues/25
-
-I was able to compile FireFly locally using a go.mod replace and verified that this fixes the incorrectly rejected FFI that I was seeing before.
+                - Moves `internal/filewallet` to `pkg/fswallet`
+- Makes it a pure code interface where the use of config YAML is optional
+- Changes this directory based wallet to have an in-memory map of addresses
+- Adds file listener to detect addition of new key files on disk, and update the in-memory list
+- Adds `filenames.primaryMatchRegex` option to extract addresses from any position in filenames
+- Removes `filenames.with0xPrefix` option as no longer necessary - the code seamlessly handles either now
+- Adds listener code interface, to allow external code to perform per-key processing
+   - Called for all keys whether there at `Initialize` time, or added later
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-23 00:37:51 +0000 UTC
+        Created At 2022-10-04 21:16:42 +0000 UTC
     </div>
 </div>
 
