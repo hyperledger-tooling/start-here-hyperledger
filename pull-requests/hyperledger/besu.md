@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4481" class=".btn">#4481</a>
+            </td>
+            <td>
+                <b>
+                    Better handler for --fast-sync-min-peers flag
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Changes the misleading warn of --fast-sync-min-peers to a more accurate handler which throws a ParameteresException only if this flag is used combined with sync-mode=FULL
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #4315
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-05 11:29:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4480" class=".btn">#4480</a>
             </td>
             <td>
@@ -609,7 +652,7 @@ Since there were also the incoming transaction handlers active during the initia
             </td>
             <td>
                 <b>
-                    WIP - Migrate deprecated features in picocli to v4.0
+                    Migrate deprecated features in picocli to v4.0
                 </b>
             </td>
         </tr>

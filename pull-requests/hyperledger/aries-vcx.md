@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/590" class=".btn">#590</a>
+            </td>
+            <td>
+                <b>
+                    Fix default presentation preview message family
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">hotfix</span>
+            </td>
+            <td>
+                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-05 07:35:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/589" class=".btn">#589</a>
             </td>
             <td>

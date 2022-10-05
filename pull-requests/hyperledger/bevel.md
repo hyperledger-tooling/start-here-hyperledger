@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2035" class=".btn">#2035</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2037" class=".btn">#2037</a>
             </td>
             <td>
                 <b>
-                    [chore] merge main to develop
+                    [corda] upgrade to version 4.9
                 </b>
             </td>
         </tr>
@@ -27,49 +27,25 @@ permalink: /pull-requests/hyperledger/bevel
                 
             </td>
             <td>
-                **Changelog**
-- Add
-- Fix
-- Update
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+**Changelog**
+- Rename bevel-corda tags
+- Updated Cordapps for Corda 4.9
+- Update node helm charts for 4.9
 
  
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-22 17:27:47 +0000 UTC
-    </div>
-</div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2034" class=".btn">#2034</a>
-            </td>
-            <td>
-                <b>
-                    [corda] Fix corda networkmap errors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Changelog**
-- Fix networkmap build issues
-- Fix Corda image build
-- remove circle CI
 
- 
+
+**Linked issue**
+#1805
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-22 16:24:38 +0000 UTC
+        Created At 2022-10-05 11:34:18 +0000 UTC
     </div>
 </div>
 
