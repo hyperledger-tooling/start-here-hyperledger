@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/772" class=".btn">#772</a>
+            </td>
+            <td>
+                <b>
+                    [ja_JP] Translate "enable_tls.rst" into Japanese
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">jaJP-docs-ongoing</span>
+            </td>
+            <td>
+                This patch translates source/enable_tls.rst into Japanese.
+
+Resolves #592
+
+Signed-off-by: Yuki Kondo <yuki.kondo.ob@hitachi.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-05 06:14:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/771" class=".btn">#771</a>
             </td>
             <td>
