@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 <b>
-                    WIP: Split integration tests
+                    Split integration tests
                 </b>
             </td>
         </tr>
@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                Signed-off-by: Lucas Steuernagel <lucas.tnagel@gmail.com>
+                Solana integration tests and Anchor integration tests are semantically different, but run in a single GitHub runner. This PR splits them to ease debugging.
             </td>
         </tr>
     </table>

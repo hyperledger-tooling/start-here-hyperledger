@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/379" class=".btn">#379</a>
+            </td>
+            <td>
+                <b>
+                    README: Fix link to white paper
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes link to white paper.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-05 13:03:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/go-perun/pull/378" class=".btn">#378</a>
             </td>
             <td>

@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/318" class=".btn">#318</a>
+            </td>
+            <td>
+                <b>
+                    Bug fix when adding ordering nodes to channel
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nikhil Modem <Nikhil.Modem@ibm.com>
+
+#### Type of change
+- Bug fix
+
+#### Description
+- If an ordering cluster has nodes with the system channel, they were available to add to a channel. The entire cluster should not show up in this case.
+- If an ordering cluster has nodes both with and without the system channel, all node were available to add to the channel. The cluster should show up, but only the nodes that do not have a system channel should show up in this case.
+- Both of the above scenarios are dealt with by only returning nodes that do not have a system channel, regardless of the overall cluster configuration.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-05 16:47:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/317" class=".btn">#317</a>
             </td>
             <td>
@@ -116,42 +152,6 @@ Fix documentation links and remove many strings in the translation file that are
     </table>
     <div class="right-align">
         Created At 2022-09-28 21:01:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/314" class=".btn">#314</a>
-            </td>
-            <td>
-                <b>
-                    Migration banner
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Nikhil Modem [nikhil.modem@ibm.com](mailto:nikhil.modem@ibm.com)
-
-#### Type of change
-
-- New feature
-
-#### Description
-- A notification banner pops up and stays when migration is available
-- Has a button to navigate to the new migration page (not complete yet) where you can start the migration
-- This is part of a wider unreleased feature. The APIs are connected, but are not usable until the migration component is done
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-28 15:03:24 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1044" class=".btn">#1044</a>
+            </td>
+            <td>
+                <b>
+                    feat: exposed findByQuery method in module services and added some of the necessary tests for the switch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …ecessary tests for the switch
+
+Signed-off-by: Jim Ezesinachi <ezesinachijim@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-05 13:26:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1043" class=".btn">#1043</a>
             </td>
             <td>
