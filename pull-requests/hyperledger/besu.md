@@ -14,6 +14,89 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4489" class=".btn">#4489</a>
+            </td>
+            <td>
+                <b>
+                    The block variable was keeping too much memory while waiting for future to finish
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+The `exceptionally` was holding a pointer to a block and was not released for potentially long time. 
+
+Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-06 16:27:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4488" class=".btn">#4488</a>
+            </td>
+            <td>
+                <b>
+                    Optimize pivot block selector on PoS networks 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span><span class="chip">mainnet</span><span class="chip">syncing</span>
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+This PR is built on top of #4487 so check it first
+
+This is the 3rd PR of a series to optimize the initial sync on PoS networks, that is ongoing here https://github.com/hyperledger/besu/pull/4462, but since it is quite big, I am splitting it in smaller PRs to simplify the code review.
+
+
+On PoS network we use as pivot block, the last finalized block sent by the Consensus Layer, so we do
+not need peers, and so all the logic for selecting the pivot block from peers
+has been moved from `FastSyncActions` to `PivotSelectorFromPeers`.
+We do not need anymore the `TransictionPeerSelector`, and the `--fast-sync-min-peers`
+applies only to PoW networks.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-06 13:08:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4487" class=".btn">#4487</a>
             </td>
             <td>
@@ -24,7 +107,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Renaming to make clear everywhere that the forkchoice is not verified, so it will be clear in case there will be a future event for a verified forkchoice. Finalized block hash no more optional.
@@ -49,12 +132,12 @@ The order of hashes is always heah, safe, finalized.
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -378,51 +461,6 @@ For more information on this process see the Becoming a Maintainer section in th
     </table>
     <div class="right-align">
         Created At 2022-10-04 23:13:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4478" class=".btn">#4478</a>
-            </td>
-            <td>
-                <b>
-                    Logging change to FCU if syncing for clarity.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Matt Nelson <matt.nelson@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Changes logging behavior if besu is still syncing with a CL attached. 
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-04 21:32:41 +0000 UTC
     </div>
 </div>
 
@@ -782,7 +820,7 @@ Release candidate test for Besu.
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">snapsync</span>
             </td>
             <td>
                 Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
@@ -792,18 +830,24 @@ Release candidate test for Besu.
 
 ## PR description
 
+This PR is built on top of #4488, so check it first
+
+On PoS networks the head of the chain is provided by the Consensus Layer, so we now use it to understand how far we are from the chain head during the snap sync.
+There are also other optimizations to the `DynamicPivotBlockManager` since it could be called many times per seconds, so we allow for one check every minutes, if the previous went well, in case of errors it can be called immediately after, and debug log have been added to improve investigations.
+Last change is to refactor `RetryingGetHeaderFromPeerByHashTask` to switch peer on every retry.
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -839,54 +883,6 @@ Signed-off-by: Stefan <stefan.pingel@consensys.net>
     </table>
     <div class="right-align">
         Created At 2022-09-30 00:36:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4457" class=".btn">#4457</a>
-            </td>
-            <td>
-                <b>
-                    Avoid to process transactions during initial sync
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-22.7.4 has a regression on initial sync time, due to the fact that imported blocked are sent to the transaction pool even if it is empty until the initial   sync is done, and in 22.7.4 for every transaction in the block getSender is called and that consume a lot of CPU, to fix in PR#4457 I just make the tx pool subscribe to block added events only when the initial sync is done.
-
-Since there were also the incoming transaction handlers active during the initial sync, the same strategy to register them only after the initial sync is done was added.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-29 13:40:16 +0000 UTC
     </div>
 </div>
 

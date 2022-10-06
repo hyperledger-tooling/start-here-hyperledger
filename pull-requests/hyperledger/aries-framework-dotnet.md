@@ -45,38 +45,3 @@ This PR adds the virtual modifier to all public methods of default services wher
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/230" class=".btn">#230</a>
-            </td>
-            <td>
-                <b>
-                    DefaulProofService BuildRevocationStatesFix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Dindexx <kevin.dinh@main-incubator.com>
-
-#### Short description of what this resolves:
-
-Issue where a proof that consists of a combination of attributes with checks for NonRevoked and attributes without checks for NonRevoked couldnt be processed.
-
-#### Changes proposed in this pull request:
-
-Dont build revocation state for attributes where NonRevoked was not set
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-29 14:44:23 +0000 UTC
-    </div>
-</div>
-
