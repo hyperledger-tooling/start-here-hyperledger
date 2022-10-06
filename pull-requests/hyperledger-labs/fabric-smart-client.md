@@ -44,7 +44,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
             </td>
             <td>
                 <b>
-                    streamline FSC configuration
+                    FSC Improvements
                 </b>
             </td>
         </tr>
