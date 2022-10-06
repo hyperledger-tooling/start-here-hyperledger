@@ -1,13 +1,13 @@
 
-[87](https://github.com/hyperledger/homebrew-besu/pull/87) uprev version to 22.7.5
+[1045](https://github.com/hyperledger/aries-framework-javascript/pull/1045) feat(basic-messages): improve sending error handling
 
-[4483](https://github.com/hyperledger/besu/pull/4483) uprev version to 22.10.RC1
+[1087](https://github.com/hyperledger/firefly/pull/1087) Fix docker image labels
 
-[1186](https://github.com/hyperledger/besu-docs/pull/1186) Bump mkdocs-material from 8.3.9 to 8.5.6 in /CI
+[41](https://github.com/hyperledger/firefly-sdk-nodejs/pull/41) Add findData()
 
-[1185](https://github.com/hyperledger/besu-docs/pull/1185) Bump plantuml-markdown from 3.6.2 to 3.6.3 in /CI
+[138](https://github.com/hyperledger/fabric-protos/pull/138) Update protobuf-java dependency to address CVE-2022-3171 (backport #135)
 
-[1184](https://github.com/hyperledger/besu-docs/pull/1184) Bump mkdocs-redirects from 1.0.4 to 1.2.0 in /CI
+[468](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/468) fixed biometrics hang if user closed app while onboarding
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

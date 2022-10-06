@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1045" class=".btn">#1045</a>
+            </td>
+            <td>
+                <b>
+                    feat(basic-messages): improve sending error handling
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently, when an outbound message is sent as a result of calling a module/API method and a transport error happens, an exception is thrown without any retry mechanism (unless handled externally by the outbound transporter object). In the particular case of Basic Messages, when such situation happens, a record is created but there are no means from the calling application to know its id and delete it or mark it as failed in the UI.
+
+This PR addresses this issue by throwing in `BasicMessageModule.sendMessage` a new kind of error: `MessageSendingError`, which includes the message itself and the associated record. The reason of adding the message is to open the possibility for the calling application to retry sending if it wants (not something so straightforward though, but feasible).
+
+The same strategy could potentially be extended to methods from other modules that also create records and send messages in a single step (e.g. sendQuestion, proposeCredential, offerCredential).
+
+Signed-off-by: Ariel Gentile <gentilester@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-06 00:05:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1044" class=".btn">#1044</a>
             </td>
             <td>
