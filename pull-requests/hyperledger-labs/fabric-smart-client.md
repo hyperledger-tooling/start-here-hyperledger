@@ -50,7 +50,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span><span class="chip">Fabric</span>
             </td>
             <td>
                 - FSC resolvers, identity.id is not needed

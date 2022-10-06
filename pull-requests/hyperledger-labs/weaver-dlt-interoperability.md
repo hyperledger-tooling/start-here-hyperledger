@@ -64,31 +64,3 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/319" class=".btn">#319</a>
-            </td>
-            <td>
-                <b>
-                    Package version upgrades and RFC updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Updated proto and dependent packages to `1.5.1`. Fixed several RFC pages.
-
-Signed-off-by: VRamakrishna <vramakr2@in.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-29 15:30:45 +0000 UTC
-    </div>
-</div>
-

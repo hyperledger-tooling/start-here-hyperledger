@@ -79,32 +79,3 @@ Checklist (DELETE AFTER READING):
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/316" class=".btn">#316</a>
-            </td>
-            <td>
-                <b>
-                    Remove CI DocBuild
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                There is no need to do a separate CI DocBuild
-since ReadTheDocs is triggered for every PR and merge regardless. This was removed from Fabric a couple years ago but got overlooked in Fabric CA.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-29 16:35:02 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/58" class=".btn">#58</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/60" class=".btn">#60</a>
             </td>
             <td>
                 <b>
-                    Add a project MAINTAINERS file
+                    Using port 8080 for proxy probe checks to fix the errors
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                Add a project MAINTAINERS file.   Fixes Issue #44 
+                https://github.com/hyperledger-labs/fabric-operator/issues/59
 
-Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+Signed-off-by: asararatnakar <asara.ratnakar@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-20 15:43:07 +0000 UTC
+        Created At 2022-10-06 17:32:54 +0000 UTC
     </div>
 </div>
 
