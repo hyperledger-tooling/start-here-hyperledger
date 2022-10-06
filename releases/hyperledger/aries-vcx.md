@@ -15,45 +15,47 @@ permalink: /releases/hyperledger/aries-vcx
         <tr>
             <td colspan="2">
                 <b>
-                    Release 0.42.0
+                    Release 0.43.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.42.0
+                    0.43.0
                 </span>
             </td>
             <td>
                 #
 
-## [0.42.0](https://github.com/hyperledger/aries-vcx/tree/0.42.0) (2022-09-20)
+## [0.43.0](https://github.com/hyperledger/aries-vcx/tree/0.43.0) (2022-10-06)
 
 ### Breaking changes
 
 - Ledger comm/validate response [\#558](https://github.com/hyperledger/aries-vcx/pull/558)
 
+### Changes to agents
+
+- Enhance node agent CLI to support url formatted invitations [\#562](https://github.com/hyperledger/aries-vcx/pull/562)
+
+### Hotfixes
+
+- Fix default presentation preview message family [\#590](https://github.com/hyperledger/aries-vcx/pull/590)
+- Avoid adding extra quotes when building offer from proposal in array format  [\#589](https://github.com/hyperledger/aries-vcx/pull/589)
+- Builder pattern in agency client configuration [\#588](https://github.com/hyperledger/aries-vcx/pull/588)
+- Make vcx\_issuer\_send\_credential return SM state number [\#586](https://github.com/hyperledger/aries-vcx/pull/586)
+- Proof presentation/always ack [\#579](https://github.com/hyperledger/aries-vcx/pull/579)
+
 ### Refactoring
 
-- Eliminate global state: pool handle [\#556](https://github.com/hyperledger/aries-vcx/pull/556)
-- Remove TestAgent trait [\#555](https://github.com/hyperledger/aries-vcx/pull/555)
-- Eliminate global state: issuer did [\#554](https://github.com/hyperledger/aries-vcx/pull/554)
+- Agency client configure\(\) takes wallet handle as argument [\#591](https://github.com/hyperledger/aries-vcx/pull/591)
+- Reorganize libindy module [\#581](https://github.com/hyperledger/aries-vcx/pull/581)
+- Remove pool handle from connection protocol [\#580](https://github.com/hyperledger/aries-vcx/pull/580)
+- Separate messages module into a crate [\#577](https://github.com/hyperledger/aries-vcx/pull/577)
 
 ###
 
-- Release 0.42.0 [\#576](https://github.com/hyperledger/aries-vcx/pull/576)
-- Avoid HTTP request body cloning. [\#574](https://github.com/hyperledger/aries-vcx/pull/574)
-- Reuse reqwest::Client [\#573](https://github.com/hyperledger/aries-vcx/pull/573)
-- Reduce size of the release build. [\#570](https://github.com/hyperledger/aries-vcx/pull/570)
-- Make into\_did\_doc async [\#569](https://github.com/hyperledger/aries-vcx/pull/569)
-- Rename SetupLibraryAgencyV2 to SetupPool [\#568](https://github.com/hyperledger/aries-vcx/pull/568)
-- Update vdr-tools dependency [\#567](https://github.com/hyperledger/aries-vcx/pull/567)
-- Cleanup nodejs test function naming, remove duplicated test [\#564](https://github.com/hyperledger/aries-vcx/pull/564)
-- Reformat, use secrets.GITHUB\_TOKEN everywhere in CI [\#563](https://github.com/hyperledger/aries-vcx/pull/563)
-- Refactor building problem reports, add logging [\#561](https://github.com/hyperledger/aries-vcx/pull/561)
-- Fix order of args passed to function publish\_local\_revocations [\#557](https://github.com/hyperledger/aries-vcx/pull/557)
-- Add MAINTAINERS.md file [\#552](https://github.com/hyperledger/aries-vcx/pull/552)
+- Add CONTRIBUTING.md file [\#585](https://github.com/hyperledger/aries-vcx/pull/585)
 
 
 
@@ -61,11 +63,11 @@ permalink: /releases/hyperledger/aries-vcx
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-vcx/releases/tag/0.42.0" class=".btn">
+    <a href="https://github.com/hyperledger/aries-vcx/releases/tag/0.43.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-09-20 11:51:27 +0000 UTC
+        Created At 2022-10-06 14:00:12 +0000 UTC
     </span>
 </div>
 
