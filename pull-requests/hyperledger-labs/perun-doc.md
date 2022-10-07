@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-doc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-doc/pull/81" class=".btn">#81</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-doc/pull/83" class=".btn">#83</a>
             </td>
             <td>
                 <b>
-                    Multi-Ledger Tutorial
+                    Add missing index of Alice
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/perun-doc
                 
             </td>
             <td>
-                This PR adds a multi-ledger tutorial based on the code of the multi-ledger example of the perun-examples repo.
-
-Depends on [#11](https://github.com/perun-network/perun-examples/pull/11), after it has been merged, the GitHub links can be updated.
+                Signed-off-by: Minh Huy, Tran <94397738+NhoxxKienn@users.noreply.github.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-30 10:00:03 +0000 UTC
+        Created At 2022-10-07 11:15:49 +0000 UTC
     </div>
 </div>
 
