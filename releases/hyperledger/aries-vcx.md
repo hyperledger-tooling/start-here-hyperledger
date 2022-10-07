@@ -32,7 +32,7 @@ permalink: /releases/hyperledger/aries-vcx
 
 ### Breaking changes
 
-- Ledger comm/validate response [\#558](https://github.com/hyperledger/aries-vcx/pull/558)
+- Modify revocation interface [\#558](https://github.com/hyperledger/aries-vcx/pull/558)
 
 ### Changes to agents
 

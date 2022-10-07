@@ -15,6 +15,38 @@ permalink: /releases/hyperledger/firefly-sdk-nodejs
         <tr>
             <td colspan="2">
                 <b>
+                    v1.1.6
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v1.1.6
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Add getGroup() by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/44
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.1.5...v1.1.6
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.1.6" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-10-07 01:38:34 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v1.1.5
                 </b>
             </td>
@@ -72,39 +104,6 @@ permalink: /releases/hyperledger/firefly-sdk-nodejs
     </a>
     <span class="right-align">
         Created At 2022-10-05 19:55:17 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v1.1.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v1.1.2
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* Additional methods for data and identities by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/38
-* Bump version to 1.1.2 by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/39
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.1.1...v1.1.2
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.1.2" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-09-30 00:18:05 +0000 UTC
     </span>
 </div>
 
