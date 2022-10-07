@@ -14,6 +14,118 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4494" class=".btn">#4494</a>
+            </td>
+            <td>
+                <b>
+                    update changelog for 22.10.0-RC2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+prep 22.10.0-RC2
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-07 00:34:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4493" class=".btn">#4493</a>
+            </td>
+            <td>
+                <b>
+                    Prepare for version 22.10.0-RC2-SNAPSHOT
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Prepare for version 22.10.0-RC2-SNAPSHOT
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-06 23:54:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4492" class=".btn">#4492</a>
+            </td>
+            <td>
+                <b>
+                    Release 22.10.0-RC1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Release 22.10.0-RC1
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-06 23:08:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4491" class=".btn">#4491</a>
+            </td>
+            <td>
+                <b>
+                    Fabio optimize and fork
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Merges Fabio's changes for "Optimize snap sync for PoS networks" with Stefan's ForkId changes
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-06 22:00:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4489" class=".btn">#4489</a>
             </td>
             <td>
@@ -853,36 +965,6 @@ Last change is to refactor `RetryingGetHeaderFromPeerByHashTask` to switch peer 
     </table>
     <div class="right-align">
         Created At 2022-09-30 15:20:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4459" class=".btn">#4459</a>
-            </td>
-            <td>
-                <b>
-                    use fork id to filter out non matching peers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                After bonding with a new peer request ENR, and if the ENR response contains the ForkId, only try to connect if the ForkId matches. Besu will still try to connect to peers not sending the ForkId.
-
-Signed-off-by: Stefan <stefan.pingel@consensys.net>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-30 00:36:41 +0000 UTC
     </div>
 </div>
 

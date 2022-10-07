@@ -1,13 +1,13 @@
 
-[60](https://github.com/hyperledger-labs/fabric-operator/pull/60) Using port 8080 for proxy probe checks to fix the errors
+[4494](https://github.com/hyperledger/besu/pull/4494) update changelog for 22.10.0-RC2
 
-[4489](https://github.com/hyperledger/besu/pull/4489) The block variable was keeping too much memory while waiting for future to finish
+[4493](https://github.com/hyperledger/besu/pull/4493) Prepare for version 22.10.0-RC2-SNAPSHOT
 
-[2842](https://github.com/hyperledger/iroha/pull/2842) [ci] #2781: add coverage offsets
+[4492](https://github.com/hyperledger/besu/pull/4492) Release 22.10.0-RC1
 
-[4488](https://github.com/hyperledger/besu/pull/4488) Optimize pivot block selector on PoS networks 
+[4491](https://github.com/hyperledger/besu/pull/4491) Fabio optimize and fork
 
-[4487](https://github.com/hyperledger/besu/pull/4487) Refactor unverified forkchoice event
+[1033](https://github.com/hyperledger/solang/pull/1033) Bump various dependencies and depend on rust 1.63.0
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
