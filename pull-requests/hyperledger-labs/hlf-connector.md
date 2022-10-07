@@ -14,25 +14,27 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/59" class=".btn">#59</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/60" class=".btn">#60</a>
             </td>
             <td>
                 <b>
-                    Increment version after release
+                    Vulnerability fix based on SNYK report with Code Drop
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">auto-version-increment</span>
+                
             </td>
             <td>
-                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
+                Report: 
+[Fixed SSP scan report.pdf](https://github.com/hyperledger-labs/hlf-connector/files/9730918/Fixed.SSP.scan.report.pdf)
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-28 22:16:09 +0000 UTC
+        Created At 2022-10-07 05:30:58 +0000 UTC
     </div>
 </div>
 
