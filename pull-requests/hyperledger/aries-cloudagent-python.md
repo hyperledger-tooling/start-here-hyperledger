@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1967" class=".btn">#1967</a>
+            </td>
+            <td>
+                <b>
+                    0.7.5 Cherry Picks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                These are the cherry picks for Milestone 0.7.5 https://github.com/hyperledger/aries-cloudagent-python/milestone/6
+- [X] https://github.com/hyperledger/aries-cloudagent-python/pull/1881 (Already Merged into https://github.com/hyperledger/aries-cloudagent-python/tree/hotfix/0.7.5)
+- [ ] https://github.com/hyperledger/aries-cloudagent-python/pull/1940
+- [X] https://github.com/hyperledger/aries-cloudagent-python/pull/1960
+- [ ] https://github.com/hyperledger/aries-cloudagent-python/pull/1962
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-06 19:54:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1966" class=".btn">#1966</a>
             </td>
             <td>

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1033" class=".btn">#1033</a>
+            </td>
+            <td>
+                <b>
+                    Bump various dependencies and depend on rust 1.63.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Require rust 1.63 (needed by solana_rbpf crate, also phf requires rust 1.60.0)
+- Bump dependencies
+- Fix various clippies found with rust 1.65.0 beta
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-06 21:08:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1032" class=".btn">#1032</a>
             </td>
             <td>
