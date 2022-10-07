@@ -1,13 +1,13 @@
 
-[60](https://github.com/hyperledger-labs/hlf-connector/pull/60) Vulnerability fix based on SNYK report with Code Drop
+[3395](https://github.com/hyperledger/aries-framework-go/pull/3395) refactor: change xeipuuv/gojsonschema to santhosh-tekuri/jsonschema package
 
-[62](https://github.com/hyperledger/fabric-chaincode-go/pull/62) Bump google.golang.org/grpc from 1.48.0 to 1.50.0
+[83](https://github.com/hyperledger-labs/perun-doc/pull/83) Add missing index of Alice
 
-[44](https://github.com/hyperledger-labs/fabric-machine/pull/44) Parallel ledger/statedb writes during block commit
+[239](https://github.com/hyperledger/fabric-sdk-java/pull/239) Release v2.2.18
 
-[4494](https://github.com/hyperledger/besu/pull/4494) update changelog for 22.10.0-RC2
+[2844](https://github.com/hyperledger/iroha/pull/2844) RC.9 → LTS 2 Release
 
-[4493](https://github.com/hyperledger/besu/pull/4493) Prepare for version 22.10.0-RC2-SNAPSHOT
+[3677](https://github.com/hyperledger/fabric/pull/3677) enhance:add benchmark test case for txmgmt
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

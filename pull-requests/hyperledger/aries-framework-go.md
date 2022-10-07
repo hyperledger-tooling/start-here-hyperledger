@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3391" class=".btn">#3391</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3395" class=".btn">#3395</a>
             </td>
             <td>
                 <b>
-                    feat: Add did configuration client
+                    refactor: change xeipuuv/gojsonschema to santhosh-tekuri/jsonschema package
                 </b>
             </td>
         </tr>
@@ -27,21 +27,17 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 
             </td>
             <td>
-                Did configuration client will:
-- retrieve did configuration from domain
-- verify requested did and domain against did configuration
+                **Description:**
 
-Closes #3390
+- Change `xeipuuv/gojsonschema` to `santhosh-tekuri/jsonschema` package inside `verifiable presentation`
+- Refactor related unit tests
 
-Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
-
-
-
+Related to #3393 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-29 16:38:25 +0000 UTC
+        Created At 2022-10-07 11:28:30 +0000 UTC
     </div>
 </div>
 
