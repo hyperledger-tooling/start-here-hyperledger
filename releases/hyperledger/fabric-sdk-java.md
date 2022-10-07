@@ -15,14 +15,14 @@ permalink: /releases/hyperledger/fabric-sdk-java
         <tr>
             <td colspan="2">
                 <b>
-                    v2.2.17
+                    v2.2.18
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.2.17
+                    v2.2.18
                 </span>
             </td>
             <td>
@@ -30,18 +30,18 @@ permalink: /releases/hyperledger/fabric-sdk-java
 
 This is a maintenance release containing the following changes:
 
-* Update snakeYAML dependency to address security vulnerability CVE-2022-38752
-* Update dependencies containing native libraries to allow use with native Apple silicon (M1 / arm64) JVMs
+* Update protobuf-java dependency to address security vulnerability CVE-2022-3171
 
-**Full Changelog**: https://github.com/hyperledger/fabric-sdk-java/compare/v2.2.16...v2.2.17
+
+**Full Changelog**: https://github.com/hyperledger/fabric-sdk-java/compare/v2.2.17...v2.2.18
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-sdk-java/releases/tag/v2.2.17" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-sdk-java/releases/tag/v2.2.18" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-09-21 15:40:30 +0000 UTC
+        Created At 2022-10-07 09:35:19 +0000 UTC
     </span>
 </div>
 
