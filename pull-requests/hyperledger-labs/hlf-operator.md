@@ -37,29 +37,3 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/121" class=".btn">#121</a>
-            </td>
-            <td>
-                <b>
-                    included external hosts as part CSR hosts for peer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">HACKTOBERFEST-ACCEPTED</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-01 17:01:20 +0000 UTC
-    </div>
-</div>
-
