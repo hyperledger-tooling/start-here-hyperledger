@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/ursa-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/ursa-docs/pull/20" class=".btn">#20</a>
+                PR <a href="https://github.com/hyperledger/ursa-docs/pull/22" class=".btn">#22</a>
             </td>
             <td>
                 <b>
-                    Update CODEOWNERS
+                    for anoncreds1 doc: added build.sh script, fixed missing references 
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/ursa-docs
                 
             </td>
             <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
+                ( biber + bib-file)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-29 15:15:49 +0000 UTC
+        Created At 2022-10-07 18:46:07 +0000 UTC
     </div>
 </div>
 
