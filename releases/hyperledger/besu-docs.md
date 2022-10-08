@@ -51,3 +51,39 @@ permalink: /releases/hyperledger/besu-docs
     </span>
 </div>
 
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    22.7.6
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    22.7.6
+                </span>
+            </td>
+            <td>
+                ## 22.7.6
+Hotfix release of the 22.7.x series to address [#4495](https://github.com/hyperledger/besu/issues/4495) which could result in failed block proposals on merge networks.
+
+### Additions and Improvements
+- Bring GraphQL into compliance with execution-api specs [#4112](https://github.com/hyperledger/besu/pull/4112)
+
+### Bug Fixes
+- Corrects emission of blockadded events when rewinding during a re-org. [#4497](https://github.com/hyperledger/besu/issues/4497)
+
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/besu-docs/releases/tag/22.7.6" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-10-06 18:02:03 +0000 UTC
+    </span>
+</div>
+
