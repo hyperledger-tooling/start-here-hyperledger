@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    **TEST PR DO NOT MERGE**
+                    [ci] #2849 Integration test gets stuck depending on the amount of CPU cores
                 </b>
             </td>
         </tr>
