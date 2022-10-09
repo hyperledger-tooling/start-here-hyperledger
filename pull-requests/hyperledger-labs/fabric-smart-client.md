@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
             </td>
             <td>
                 <b>
-                    F stopfsc
+                    Various bug fix
                 </b>
             </td>
         </tr>
@@ -27,7 +27,15 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                <nil>
+                nwo:
+- fix stop/start FSC node
+fabric:
+- if an envelope is stored for the txid, then commit it
+orion:
+- if an envelope is stored for the txid, then commit it
+- finality fix for unknown transactions for which an envelope is stored. 
+various:
+- fix Committer's lister + integration test
             </td>
         </tr>
     </table>
