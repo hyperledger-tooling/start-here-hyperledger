@@ -138,7 +138,7 @@ update cherry-pick version to 22.7.6
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 ## PR description
@@ -287,7 +287,7 @@ Merges Fabio's changes for "Optimize snap sync for PoS networks" with Stefan's F
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 
@@ -514,7 +514,7 @@ After
         </tr>
         <tr>
             <td>
-                <span class="chip">TeamRevenant</span>
+                <span class="chip">TeamRevenant</span><span class="chip">mainnet</span><span class="chip">logging</span>
             </td>
             <td>
                 Signed-off-by: mark-terry <mark.terry@consensys.net>
@@ -616,7 +616,7 @@ Cherry picked issues for 22.7.5 release.
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dev experience</span><span class="chip">mainnet</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -741,7 +741,7 @@ For more information on this process see the Becoming a Maintainer section in th
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">logging</span>
             </td>
             <td>
                 Signed-off-by: Matt Nelson <matt.nelson@consensys.net>
@@ -785,7 +785,7 @@ Fixes #4450
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dev experience</span><span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: Justin Florentine <justin+github@florentine.us>

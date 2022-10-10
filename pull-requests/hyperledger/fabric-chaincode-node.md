@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/349" class=".btn">#349</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/350" class=".btn">#350</a>
             </td>
             <td>
                 <b>
-                    Add fv test chaincode deploy logging
+                    updated tutorial
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                Previously if chaincode deploy failed during fvt tests no message was logged making it impossible to troubleshoot. Now the chaincode deploy commands and results and logged.
+                code formatting
 
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+Signed-off-by: Matthias Sieber <manonthemat@users.noreply.github.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-26 17:13:23 +0000 UTC
+        Created At 2022-10-10 04:49:04 +0000 UTC
     </div>
 </div>
 
