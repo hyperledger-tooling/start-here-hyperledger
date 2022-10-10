@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    [ci] #2849 Integration test gets stuck depending on the amount of CPU cores
+                    [ci]: Disable slow integration tests
                 </b>
             </td>
         </tr>

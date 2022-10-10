@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1452" class=".btn">#1452</a>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1456" class=".btn">#1456</a>
             </td>
             <td>
                 <b>
-                    Vscode extension treeview
+                    Fix calculation and doc comment in prometheus observer
                 </b>
             </td>
         </tr>
@@ -27,14 +27,40 @@ permalink: /pull-requests/hyperledger/caliper
                 
             </td>
             <td>
-                Introduces cosmetic changes for the vscode extension.
+                * Fixed histogram calculation
+* Fixed doc comment in test utility class
 
-Here we list all the available configuration files in a separate tab dedicated for caliper configuration files. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-03 10:04:53 +0000 UTC
+        Created At 2022-10-10 07:37:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1455" class=".btn">#1455</a>
+            </td>
+            <td>
+                <b>
+                    Add Node 18 to CI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #1454
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-10 07:01:11 +0000 UTC
     </div>
 </div>
 

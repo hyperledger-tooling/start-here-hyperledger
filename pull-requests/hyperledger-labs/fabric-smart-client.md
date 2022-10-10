@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/411" class=".btn">#411</a>
+            </td>
+            <td>
+                <b>
+                    fabric ordering: retry also when establishing the connection fails
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span>
+            </td>
+            <td>
+                Currently, if getting the connection to an orderer fails the first time, no retry happens.
+This PR fixes this.
+
+Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-10 09:35:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/409" class=".btn">#409</a>
             </td>
             <td>
