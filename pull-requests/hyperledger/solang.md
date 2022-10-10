@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 <b>
-                    Faster checkout should mean faster CI jobs
+                    Faster checkouts and use the same version of rust everywhere
                 </b>
             </td>
         </tr>
@@ -27,9 +27,18 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                `actions/checkout@v3` should be faster and drop `fetch-depth`, no need for entire project history.
+                Use actions/checkout@v3 and remove fetch-depth. This means that git
+checkout is done without any history. So, `git describe --tags` won't
+work without the `--always` option.
 
-Signed-off-by: Sean Young <sean@mess.org>
+As a result, `solang --version` will just give you the git commit
+hash for solang built in CI. Release builds are not affected, because
+the single commit which is fetched will contain the tag.
+
+This makes the linux arm job about 3 minutes faster.
+
+Use the same rust version for all CI jobs (1.63.0)
+
             </td>
         </tr>
     </table>

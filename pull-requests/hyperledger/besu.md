@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4513" class=".btn">#4513</a>
+            </td>
+            <td>
+                <b>
+                    Corrected eth_getLogs default fromBlock value.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamRevenant</span><span class="chip">RPC</span>
+            </td>
+            <td>
+                Signed-off-by: mark-terry <mark.terry@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Changes the default ```fromBlock``` value in ```eth_getLogs``` from ```earliest``` to ```latest``` per the spec.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+Fixes #4123 
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-10 15:12:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4510" class=".btn">#4510</a>
             </td>
             <td>
@@ -24,7 +70,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamRevenant</span><span class="chip">logging</span><span class="chip">RPC</span>
             </td>
             <td>
                 Signed-off-by: mark-terry <mark.terry@consensys.net>
@@ -33,7 +79,7 @@ permalink: /pull-requests/hyperledger/besu
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-Increase level of detail in RPC error logging to improve usability.
+Increase level of detail in RPC parameter error logging to improve usability.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -74,7 +120,6 @@ Fixes #4326
             </td>
             <td>
                 
-
 Signed-off-by: Ameziane H <ameziane.hamlat@consensys.net>
 
 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -90,7 +135,7 @@ By changing the order of execution, starting by decoding the new format (eip8) a
 
 <img width="1263" alt="image" src="https://user-images.githubusercontent.com/5099602/194858841-a730ae13-d550-40b5-b38e-5ad446cd77dd.png">
 
-There is one case I'm not sure about it : if (buf.writerIndex() < size), do we need to try to decode with the old format or we should just throw HandshakeException. With the current PR, HandshakeException will be caught and the old format decryption is executed.
+There is one case I'm not sure about it : if (buf.writerIndex() < size), do we need to try to decode with the old format or we should just throw HandshakeException. With the current PR, HandshakeException will be caught and the old format decryption will be executed.
 
 
 ## Fixed Issue(s)
@@ -345,34 +390,6 @@ prep 22.10.0-RC2
     </table>
     <div class="right-align">
         Created At 2022-10-06 23:08:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4491" class=".btn">#4491</a>
-            </td>
-            <td>
-                <b>
-                    Fabio optimize and fork
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Merges Fabio's changes for "Optimize snap sync for PoS networks" with Stefan's ForkId changes
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-06 22:00:19 +0000 UTC
     </div>
 </div>
 
@@ -898,53 +915,6 @@ Fixes #4450
     </table>
     <div class="right-align">
         Created At 2022-10-03 20:02:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4469" class=".btn">#4469</a>
-            </td>
-            <td>
-                <b>
-                    P2P: Don't add peer to maintained connections if local node is not ready
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-* Fixes an issue due to which multiple peer connections are setup over time to the local node if it is present in the static nodes list. The code was not handling the case where local node is not yet ready (encountered at startup). https://github.com/hyperledger/besu/pull/1703 added logic to skip adding local node to the set of maintained peer connections. However, the check fails to take into account the case where the local node is not marked ready (occurs at startup since [sanitizePeers](https://github.com/hyperledger/besu/blob/main/besu/src/main/java/org/hyperledger/besu/RunnerBuilder.java#L573) is called _before_ the call is made to setup the [networkRunner](https://github.com/hyperledger/besu/blob/main/besu/src/main/java/org/hyperledger/besu/RunnerBuilder.java#L844-L846) at which time the local node is setup and marked ready.
-
-* Also adds a one time call to initiate connection to nodes in static nodes list after local node is ready. In the absence of this call, the connection attempt is made after the configured interval (default 60 seconds) to check maintained connections. This is to make sure the node doesn't have to wait for almost a minute before it can start interacting with peers (and sync blocks etc.).
-
-
-
-## Fixed Issue(s)
-
-Fixes https://github.com/hyperledger/besu/issues/1702
-
-## Documentation
-
-- [ ] ~I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).~
-
-No doc updates necessary.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-03 15:38:33 +0000 UTC
     </div>
 </div>
 
