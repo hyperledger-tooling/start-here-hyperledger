@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/64" class=".btn">#64</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/67" class=".btn">#67</a>
             </td>
             <td>
                 <b>
-                    Improve logging
+                    [WIP] Build mac arm binaries
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
                 
             </td>
             <td>
-                - always log the chaincode pod details in the run phase
-- avoid spamming peer log for unsupported chaincode in the detect phase
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-21 15:33:43 +0000 UTC
+        Created At 2022-10-10 16:04:18 +0000 UTC
     </div>
 </div>
 

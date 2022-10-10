@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/62" class=".btn">#62</a>
+            </td>
+            <td>
+                <b>
+                    [Updated]Vulnerability fix based on SNYK report with Code Drop
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Report: [ssp_fixed_report_1.pdf](https://github.com/hyperledger-labs/hlf-connector/files/9747276/ssp_fixed_report_1.pdf)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-10 15:40:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/61" class=".btn">#61</a>
             </td>
             <td>
@@ -37,34 +64,6 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     </table>
     <div class="right-align">
         Created At 2022-10-07 19:17:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/60" class=".btn">#60</a>
-            </td>
-            <td>
-                <b>
-                    Vulnerability fix based on SNYK report with Code Drop
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Report: 
-[Fixed SSP scan report.pdf](https://github.com/hyperledger-labs/hlf-connector/files/9730918/Fixed.SSP.scan.report.pdf)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-07 05:30:58 +0000 UTC
     </div>
 </div>
 

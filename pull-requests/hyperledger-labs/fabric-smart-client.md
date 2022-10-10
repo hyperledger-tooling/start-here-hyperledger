@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/412" class=".btn">#412</a>
+            </td>
+            <td>
+                <b>
+                    kvs/vault web browser
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-10 13:29:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/411" class=".btn">#411</a>
             </td>
             <td>
@@ -99,35 +125,6 @@ various:
     </table>
     <div class="right-align">
         Created At 2022-10-04 11:06:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/403" class=".btn">#403</a>
-            </td>
-            <td>
-                <b>
-                    FSC Improvements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span><span class="chip">Fabric</span>
-            </td>
-            <td>
-                - FSC resolvers, identity.id is not needed
-- FSC's tls client* keys removed
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-03 14:15:56 +0000 UTC
     </div>
 </div>
 
