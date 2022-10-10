@@ -15,54 +15,28 @@ permalink: /releases/hyperledger-labs/fabric-builder-k8s
         <tr>
             <td colspan="2">
                 <b>
-                    v0.7.2
+                    v0.8.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.7.2
+                    v0.8.0
                 </span>
             </td>
             <td>
-                Release pre-packaged sample contracts
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/releases/tag/v0.7.2" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-08-04 09:49:21 +0000 UTC
-    </span>
-</div>
+                Add arm binaries
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v0.7.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v0.7.1
-                </span>
-            </td>
-            <td>
-                Release sample contracts
+Breaking: release asset names have changed
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/releases/tag/v0.7.1" class=".btn">
+    <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/releases/tag/v0.8.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-08-03 17:47:47 +0000 UTC
+        Created At 2022-10-10 19:21:51 +0000 UTC
     </span>
 </div>
 
