@@ -18,49 +18,23 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             </td>
             <td>
                 <b>
-                    test fsc with bug fix
+                    ttxdb derivates: failed restart #402
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">bug</span>
             </td>
             <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-09 10:59:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/404" class=".btn">#404</a>
-            </td>
-            <td>
-                <b>
-                    test restart
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - fixes
+                This PR fixes the `owner` and `auditor` services. Before, these services were not able to recover from a shutdown of the node. Now, at bootstrap, the services first check if there are transactions whose status is still pending and for those a commit listener is added. 
 
 Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-08 07:35:02 +0000 UTC
+        Created At 2022-10-09 10:59:29 +0000 UTC
     </div>
 </div>
 
@@ -87,34 +61,6 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-10-07 14:39:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/401" class=".btn">#401</a>
-            </td>
-            <td>
-                <b>
-                    FSC dep update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Testing if the https://github.com/hyperledger-labs/fabric-smart-client/pull/403 breaks anything here.
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-04 11:39:57 +0000 UTC
     </div>
 </div>
 
@@ -169,32 +115,6 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-10-04 08:33:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/397" class=".btn">#397</a>
-            </td>
-            <td>
-                <b>
-                    query transaction records by action type and status #396
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-03 11:43:50 +0000 UTC
     </div>
 </div>
 
