@@ -15,30 +15,31 @@ permalink: /releases/hyperledger/firefly-ethconnect
         <tr>
             <td colspan="2">
                 <b>
-                    v3.2.7
+                    v3.2.8
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v3.2.7
+                    v3.2.8
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Remove early FFCAPI implementation not it is replaced by EVMConnect by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/229
+* Move ABI/Contract store to LevelDB from flat files by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/230
+* Update to Go 1.17 by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/225
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.2.6...v3.2.7
+**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.2.7...v3.2.8
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.2.7" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.2.8" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-09-01 20:21:01 +0000 UTC
+        Created At 2022-10-10 16:44:23 +0000 UTC
     </span>
 </div>
 
