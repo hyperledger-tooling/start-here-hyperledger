@@ -24,16 +24,19 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">bug</span>
             </td>
             <td>
                 nwo:
 - fix stop/start FSC node
+
 fabric:
 - if an envelope is stored for the txid, then commit it
+
 orion:
 - if an envelope is stored for the txid, then commit it
 - finality fix for unknown transactions for which an envelope is stored. 
+
 various:
 - fix Committer's lister + integration test
             </td>
