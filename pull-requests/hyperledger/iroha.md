@@ -378,8 +378,14 @@ None
 
 ### Description of the Change
 
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+* introduce a handy ffi_type! function like macro to declare your type
+* disable the use of mutable non robust references by default
+* attach `ffi_type` prefix to `FfiType` helper macro attributes
+* add `repr(transparent)` where applicable
+* improve serialization of transparent structures (introduce `ffi_type(unsafe {robust})` or derive the `Transmute` trait manually)
+* implement serialization for unions
+* implement serialization of `ConstString` (out-pointers are still TBD)
+* fix `NonLocal` impls
 
 ### Issue
 
