@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1614" class=".btn">#1614</a>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1615" class=".btn">#1615</a>
             </td>
             <td>
                 <b>
-                    release 1.12.6
+                    correctly pass ledger_id to the timestamp state storage
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/indy-plenum
                 
             </td>
             <td>
-                release 1.12.6
+                Fixes an issue during catch-up that caused all timestamps to get written into the domain_ledger ts storage, ignoring the config_ledger.
+
+Signed-off-by: Christian Bormann <ChristianCarl.Bormann@de.bosch.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-16 15:22:13 +0000 UTC
+        Created At 2022-10-11 15:22:38 +0000 UTC
     </div>
 </div>
 
