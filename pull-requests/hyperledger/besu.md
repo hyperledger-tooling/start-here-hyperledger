@@ -42,7 +42,7 @@ New unstable configuration options to set the maximum time, in milliseconds, a P
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
@@ -297,6 +297,8 @@ Bonsai without trie branches
 
 ## PR description
 Changes the default ```fromBlock``` value in ```eth_getLogs``` from ```earliest``` to ```latest``` per the spec.
+
+Added tests to verify BlockParameter value interpretation.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -700,7 +702,7 @@ Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
         </tr>
         <tr>
             <td>
-                <span class="chip">doc-change-required</span><span class="chip">mainnet</span><span class="chip">syncing</span>
+                <span class="chip">mainnet</span><span class="chip">syncing</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->

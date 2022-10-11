@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/karma-charity-platform
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/karma-charity-platform/pull/62" class=".btn">#62</a>
+            </td>
+            <td>
+                <b>
+                    update platform frontend dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Alexander Zemtsov <a.zemtsov@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-11 17:19:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/karma-charity-platform/pull/61" class=".btn">#61</a>
+            </td>
+            <td>
+                <b>
+                    Platform frontend
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-11 17:11:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/karma-charity-platform/pull/60" class=".btn">#60</a>
             </td>
             <td>

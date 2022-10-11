@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/415" class=".btn">#415</a>
+            </td>
+            <td>
+                <b>
+                    restructure fsc and fabric driver core to be more intuitive
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. create a grpc section in core and move appropriate keys to be children
+2. sort out tls for fabric-driver section
+3. make web client configuration keys match intent
+
+Signed-off-by: Dave Kelsey <d_kelsey@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-11 13:48:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/414" class=".btn">#414</a>
             </td>
             <td>
