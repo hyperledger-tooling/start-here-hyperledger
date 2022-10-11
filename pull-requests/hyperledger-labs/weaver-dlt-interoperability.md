@@ -53,6 +53,7 @@ Driver:
 Workflows:
 1. Updated workflows to use iin-agent for fabric membership sync.
 2. Modified existing (different) workflow(s) to build, test and publish iin-agent docker image.
+3. (EDIT) Added testcase for locally built docker based test net setup in data sharing workflow.
 
 Update:
 Updated all node applications to node version 16.17.1.

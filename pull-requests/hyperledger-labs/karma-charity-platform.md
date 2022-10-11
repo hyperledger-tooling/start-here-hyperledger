@@ -14,6 +14,136 @@ permalink: /pull-requests/hyperledger-labs/karma-charity-platform
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/karma-charity-platform/pull/60" class=".btn">#60</a>
+            </td>
+            <td>
+                <b>
+                    fix package-lock.json
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Alexander Zemtsov <a.zemtsov@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-11 08:15:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/karma-charity-platform/pull/59" class=".btn">#59</a>
+            </td>
+            <td>
+                <b>
+                    Platform frontend
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-11 08:09:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/karma-charity-platform/pull/58" class=".btn">#58</a>
+            </td>
+            <td>
+                <b>
+                    update platform backend code
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Alexander Zemtsov <a.zemtsov@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-11 07:46:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/karma-charity-platform/pull/57" class=".btn">#57</a>
+            </td>
+            <td>
+                <b>
+                    update common source code
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Alexander Zemtsov <a.zemtsov@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-11 07:17:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/karma-charity-platform/pull/56" class=".btn">#56</a>
+            </td>
+            <td>
+                <b>
+                    gitignore
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Alexander Zemtsov <a.zemtsov@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-11 07:14:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/karma-charity-platform/pull/52" class=".btn">#52</a>
             </td>
             <td>
@@ -53,7 +183,18 @@ permalink: /pull-requests/hyperledger-labs/karma-charity-platform
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [terser](https://github.com/terser/terser) to 5.14.2 and updates ancestor dependency [@angular-devkit/build-angular](https://github.com/angular/angular-cli). These dependencies need to be updated together.
+                [//]: # (dependabot-start)
+⚠️  **Dependabot is rebasing this PR** ⚠️ 
+
+Rebasing might not happen immediately, so don't worry if this takes some time.
+
+Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
+
+---
+
+[//]: # (dependabot-end)
+
+Bumps [terser](https://github.com/terser/terser) to 5.14.2 and updates ancestor dependency [@angular-devkit/build-angular](https://github.com/angular/angular-cli). These dependencies need to be updated together.
 
 Updates `terser` from 5.11.0 to 5.14.2
 <details>
@@ -303,149 +444,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2022-10-10 13:01:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/karma-charity-platform/pull/47" class=".btn">#47</a>
-            </td>
-            <td>
-                <b>
-                    Bump async and cache-manager in /platform/backend
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span>
-            </td>
-            <td>
-                Bumps [async](https://github.com/caolan/async) and [cache-manager](https://github.com/node-cache-manager/node-cache-manager). These dependencies needed to be updated together.
-Updates `async` from 3.2.0 to 3.2.3
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/caolan/async/blob/master/CHANGELOG.md">async's changelog</a>.</em></p>
-<blockquote>
-<h1>v3.2.3</h1>
-<ul>
-<li>Fix bugs in comment parsing in <code>autoInject</code>. (<a href="https://github-redirect.dependabot.com/caolan/async/issues/1767">#1767</a>, <a href="https://github-redirect.dependabot.com/caolan/async/issues/1780">#1780</a>)</li>
-</ul>
-<h1>v3.2.2</h1>
-<ul>
-<li>Fix potential prototype pollution exploit</li>
-</ul>
-<h1>v3.2.1</h1>
-<ul>
-<li>Use <code>queueMicrotask</code> if available to the environment (<a href="https://github-redirect.dependabot.com/caolan/async/issues/1761">#1761</a>)</li>
-<li>Minor perf improvement in <code>priorityQueue</code> (<a href="https://github-redirect.dependabot.com/caolan/async/issues/1727">#1727</a>)</li>
-<li>More examples in documentation (<a href="https://github-redirect.dependabot.com/caolan/async/issues/1726">#1726</a>)</li>
-<li>Various doc fixes (<a href="https://github-redirect.dependabot.com/caolan/async/issues/1708">#1708</a>, <a href="https://github-redirect.dependabot.com/caolan/async/issues/1712">#1712</a>, <a href="https://github-redirect.dependabot.com/caolan/async/issues/1717">#1717</a>, <a href="https://github-redirect.dependabot.com/caolan/async/issues/1740">#1740</a>, <a href="https://github-redirect.dependabot.com/caolan/async/issues/1739">#1739</a>, <a href="https://github-redirect.dependabot.com/caolan/async/issues/1749">#1749</a>, <a href="https://github-redirect.dependabot.com/caolan/async/issues/1756">#1756</a>)</li>
-<li>Improved test coverage (<a href="https://github-redirect.dependabot.com/caolan/async/issues/1754">#1754</a>)</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/caolan/async/commit/62943cac64876328780792319a37da7f7b3966dd"><code>62943ca</code></a> Version 3.2.3</li>
-<li><a href="https://github.com/caolan/async/commit/d2c9d51ebc1a43385449eb1a5192067f9442ac94"><code>d2c9d51</code></a> Update built files</li>
-<li><a href="https://github.com/caolan/async/commit/de8d4c425f5c1b59c3b1a3ef9bdb325e50fc3816"><code>de8d4c4</code></a> Update changelog for v3.2.3</li>
-<li><a href="https://github.com/caolan/async/commit/b015d34178801b8c717034f737927165007b07b4"><code>b015d34</code></a> fix: address edge case in comment stripping (<a href="https://github-redirect.dependabot.com/caolan/async/issues/1780">#1780</a>)</li>
-<li><a href="https://github.com/caolan/async/commit/e27aaab6cb5278ce312a673852bc962afa1ae233"><code>e27aaab</code></a> chore: remove unused Travis CI config (<a href="https://github-redirect.dependabot.com/caolan/async/issues/1781">#1781</a>)</li>
-<li><a href="https://github.com/caolan/async/commit/a038c8fb26419b35e2524564f7852c899ddd2251"><code>a038c8f</code></a> ci: setup GitHub Actions (<a href="https://github-redirect.dependabot.com/caolan/async/issues/1782">#1782</a>)</li>
-<li><a href="https://github.com/caolan/async/commit/e74bd18406e6511ca3da9d67d971d9b50dd9d8e8"><code>e74bd18</code></a> Core: const, let, arrow-fn and unused variables (<a href="https://github-redirect.dependabot.com/caolan/async/issues/1776">#1776</a>)</li>
-<li><a href="https://github.com/caolan/async/commit/2ee673f5af40bdbbec4ce21d81147e946b75d55a"><code>2ee673f</code></a> Housekeeping (<a href="https://github-redirect.dependabot.com/caolan/async/issues/1772">#1772</a>)</li>
-<li><a href="https://github.com/caolan/async/commit/cdfb4917e6028c8f966276d6e792018c7fd2ae3c"><code>cdfb491</code></a> Fix an inefficient regex in autoInject (<a href="https://github-redirect.dependabot.com/caolan/async/issues/1767">#1767</a>)</li>
-<li><a href="https://github.com/caolan/async/commit/bb41f2a59aa41af0b906f0cb9a11ffa6332e56dd"><code>bb41f2a</code></a> be explicit (<a href="https://github-redirect.dependabot.com/caolan/async/issues/1769">#1769</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/caolan/async/compare/v3.2.0...v3.2.3">compare view</a></li>
-</ul>
-</details>
-<br />
-
-Updates `cache-manager` from 3.6.0 to 3.6.3
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/node-cache-manager/node-cache-manager/blob/master/History.md">cache-manager's changelog</a>.</em></p>
-<blockquote>
-<ul>
-<li>
-<p>3.6.3 2022-05-20</p>
-<ul>
-<li>Remove import from the code in order to be able to bundle and minify the module (<a href="https://github-redirect.dependabot.com/node-cache-manager/node-cache-manager/issues/191">#191</a>) - <a href="https://github.com/ricardomozartlino"><code>@​ricardomozartlino</code></a></li>
-</ul>
-</li>
-<li>
-<p>3.6.2 2022-05-19</p>
-<ul>
-<li>Use lodash.cloneDeep npm instead of full lodash. (<a href="https://github-redirect.dependabot.com/node-cache-manager/node-cache-manager/issues/190">#190</a>). - <a href="https://github.com/ricardomozartlino"><code>@​ricardomozartlino</code></a></li>
-</ul>
-</li>
-<li>
-<p>3.6.1 2022-04-07</p>
-<ul>
-<li>Fix for potential prototype polution exploit in async &lt; 3.2.2 (<a href="https://github-redirect.dependabot.com/node-cache-manager/node-cache-manager/issues/186">#186</a>). - <a href="https://github.com/tmbobbins"><code>@​tmbobbins</code></a></li>
-</ul>
-</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/node-cache-manager/node-cache-manager/commit/96a814fad67d3ff1c87c05ce04a06a50bec36cff"><code>96a814f</code></a> 3.6.3</li>
-<li><a href="https://github.com/node-cache-manager/node-cache-manager/commit/46c3798bb7aad6ac917399239f1e2ba199d0bcfe"><code>46c3798</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/node-cache-manager/node-cache-manager/issues/191">#191</a> from ricardomozartlino/master</li>
-<li><a href="https://github.com/node-cache-manager/node-cache-manager/commit/f524f5a41c1ad069da66ad04a001c75369cdc6ec"><code>f524f5a</code></a> Changed variable name</li>
-<li><a href="https://github.com/node-cache-manager/node-cache-manager/commit/1f3508100d1948a48897c3d27525fb5d68e63d9d"><code>1f35081</code></a> Remove import from the code in order to be able to minify the module</li>
-<li><a href="https://github.com/node-cache-manager/node-cache-manager/commit/076018f10493a41b0d22c6115ff061787d6e7d4e"><code>076018f</code></a> Merge branch 'release/3.6.2' into develop</li>
-<li><a href="https://github.com/node-cache-manager/node-cache-manager/commit/cdf360ea1b0d953d172adb9046e9103c9adc8757"><code>cdf360e</code></a> Merge branch 'release/3.6.2'</li>
-<li><a href="https://github.com/node-cache-manager/node-cache-manager/commit/8b61f7cb351f5b4c6e12869b37e0dfafe064ab75"><code>8b61f7c</code></a> 3.6.2</li>
-<li><a href="https://github.com/node-cache-manager/node-cache-manager/commit/146c31fd56442489dfdf5e9d4623efd65d5227f1"><code>146c31f</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/node-cache-manager/node-cache-manager/issues/190">#190</a> from ricardomozartlino/master</li>
-<li><a href="https://github.com/node-cache-manager/node-cache-manager/commit/8b9755a8a3567986ab7620abcf5a219c5f61cce0"><code>8b9755a</code></a> Using lodash.clonedeep instead of lodash to decrease module size</li>
-<li><a href="https://github.com/node-cache-manager/node-cache-manager/commit/d7829d3a28ce509f95d32fba09254606f173cdc3"><code>d7829d3</code></a> Merge branch 'release/3.6.1' into develop</li>
-<li>Additional commits viewable in <a href="https://github.com/node-cache-manager/node-cache-manager/compare/3.6.0...3.6.3">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
-- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
-- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
-- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
-
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/karma-charity-platform/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-10 13:01:05 +0000 UTC
     </div>
 </div>
 
