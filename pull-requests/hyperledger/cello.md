@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/490" class=".btn">#490</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/491" class=".btn">#491</a>
             </td>
             <td>
                 <b>
-                    Add a new org to the channel
+                    Remove local block file
                 </b>
             </td>
         </tr>
@@ -27,28 +27,14 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                Allow users to append an MSP config to the channel config. Currently, we upload the MSP data via the request body, and will implement uploading via file format. 
+                Remove local block file after peer joins the channel.
 
-Endpoint: 
-
-`PUT  http://127.0.0.1:8080/api/v1/channels/:channel_id` 
-Request body:
-```
-{
-    "msp_id": "<Org MSP ID>",
-    "config": {
-      ...msp_config
-    }
- 
-}
-```
-
-Signed-off-by: Yuanmao Zhu [yuanmao@ualberta.ca](mailto:yuanmao@ualberta.ca)
+Signed-off-by: Xichen Pan <xichen.pan@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-23 22:19:51 +0000 UTC
+        Created At 2022-10-11 00:42:28 +0000 UTC
     </div>
 </div>
 
