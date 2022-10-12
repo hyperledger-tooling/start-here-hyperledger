@@ -206,29 +206,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1031" class=".btn">#1031</a>
-            </td>
-            <td>
-                <b>
-                    Split integration tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Solana integration tests and Anchor integration tests are semantically different, but run in a single GitHub runner. This PR splits them to ease debugging.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-04 21:25:27 +0000 UTC
-    </div>
-</div>
-
