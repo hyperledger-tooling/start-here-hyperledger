@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4520" class=".btn">#4520</a>
+            </td>
+            <td>
+                <b>
+                    add debug logging for invalid case
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span><span class="chip">logging</span>
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <macfarla.github@gmail.com>
+
+Ensure we log Invalid new payload at DEBUG level
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-12 00:09:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4519" class=".btn">#4519</a>
             </td>
             <td>
@@ -34,7 +71,7 @@ permalink: /pull-requests/hyperledger/besu
 
 ## PR description
 
-New unstable configuration options to set the maximum time, in milliseconds, a PoS block creation jobs is allowed to run.
+New early access configuration options to set the maximum time, in milliseconds, a PoS block creation jobs is allowed to run.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -1027,88 +1064,6 @@ fixes #4315
     </table>
     <div class="right-align">
         Created At 2022-10-05 11:29:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4480" class=".btn">#4480</a>
-            </td>
-            <td>
-                <b>
-                    Move Frank to emeritus
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I propose moving the following maintainers to Emeritus status, pursuant to the inactivity clause. These maintainers have had no activity since May 2022:
-
-@frankisawesome 
-
-We very much appreciate their contributions but moving their status to emeritus (and thus revoking PR approval privileges) is in the interest of an orderly project. If any of these maintainers express in this PR that they intend to make contributions in the next quarter, then they will not be moved to emeritus status.
-I propose this vote is open until either an absolute majority of active maintainers votes for the same outcome, or until two weeks has passed, after which a voting majority will determine the outcome (with a tie resulting in no change).
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-04 23:17:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4479" class=".btn">#4479</a>
-            </td>
-            <td>
-                <b>
-                    add Gabriel Trintinalia as a maintainer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <macfarla.github@gmail.com>
-
-Proposing @Gabriel-Trintinalia as a new Besu maintainer - has made over 5 significant [commits](https://github.com/hyperledger/besu/pulls?q=is%3Apr+author%3AGabriel-Trintinalia+is%3Aclosed) that improved the quality of Besu and/or added new features.
-
-Voting ends 2 weeks from the publication of this PR or once more than 50% of the current maintainers approve.
-
-For more information on this process see the Becoming a Maintainer section in the MAINTAINERS.md file.
-
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-04 23:13:28 +0000 UTC
     </div>
 </div>
 
