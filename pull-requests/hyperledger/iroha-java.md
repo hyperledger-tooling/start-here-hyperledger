@@ -14,25 +14,29 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/267" class=".btn">#267</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/271" class=".btn">#271</a>
             </td>
             <td>
                 <b>
-                    Introduced library plugin and opimized dependencies
+                    dops-2034: increase tests logs level
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">iroha2</span>
             </td>
             <td>
-                After lots of experiments I tested publishing to a maven repository instead of just building a JAR. With using `java-library` plugin we get a POM file near the jar contatining all needed transitive dependencies. So we need to adjust our CI to corporate registry (configure and execute task `publish` instead of copying the jars).
+                Signed-off-by: BAStos525 <jungle.vas@yandex.ru>
+
+###Feature
+1. Increase `gradle` build log level.
+2. Upload gradle `report.html` file as Actions artifact.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-22 13:12:17 +0000 UTC
+        Created At 2022-10-12 12:32:23 +0000 UTC
     </div>
 </div>
 
