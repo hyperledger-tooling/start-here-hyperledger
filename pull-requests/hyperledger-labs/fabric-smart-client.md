@@ -54,7 +54,7 @@ Signed-off-by: Dave Kelsey <d_kelsey@uk.ibm.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span><span class="chip">Fabric</span><span class="chip">orion</span>
             </td>
             <td>
                 - Fabric: 
@@ -63,6 +63,8 @@ Signed-off-by: Dave Kelsey <d_kelsey@uk.ibm.com>
 - Orion:
   - Ledger Support 
   - Export Discard Tx
+
+Used by: https://github.com/hyperledger-labs/fabric-token-sdk/pull/406
 
             </td>
         </tr>
