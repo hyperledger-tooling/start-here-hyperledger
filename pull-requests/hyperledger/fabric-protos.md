@@ -114,29 +114,3 @@ Finally, you can contact us on https://mergify.com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/135" class=".btn">#135</a>
-            </td>
-            <td>
-                <b>
-                    Update protobuf-java dependency to address CVE-2022-3171
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also update Java gRPC dependency to stay in step with protobuf-java.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-05 12:47:31 +0000 UTC
-    </div>
-</div>
-

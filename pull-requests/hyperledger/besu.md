@@ -14,6 +14,96 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4524" class=".btn">#4524</a>
+            </td>
+            <td>
+                <b>
+                    don't add to bad blocks manager on StorageException
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Justin Florentine <justin+github@florentine.us>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Fixes issue where Besu records a block that experienced a StorageException as a bad block, thus preventing it from being retried by the Consensus Layer. Also corrects some response handling which was hiding the issue.
+
+## Fixed Issue(s)
+fixes #4512 
+
+## Documentation
+
+- [X] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-12 17:45:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4522" class=".btn">#4522</a>
+            </td>
+            <td>
+                <b>
+                    Make GraphQL scalar parsing compatible with variables
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Our current Graph!L scalar parsing interacts poorly with the variables support in the library.  Revise the parsing so it works correctly.
+
+Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
+
+## Fixed Issue(s)
+Fixes #4441
+
+## Documentation
+
+- [X] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-12 16:08:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4521" class=".btn">#4521</a>
             </td>
             <td>
@@ -254,6 +344,8 @@ Currently when the Consensus client asks to Besu to build a block, Besu first cr
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
+
+mitigates #4460
 
 ## Documentation
 
@@ -1005,63 +1097,6 @@ Addresses #4454
     </table>
     <div class="right-align">
         Created At 2022-10-06 06:00:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4483" class=".btn">#4483</a>
-            </td>
-            <td>
-                <b>
-                    uprev version to 22.10.RC1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Justin Florentine <justin+github@florentine.us>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-05 17:39:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4482" class=".btn">#4482</a>
-            </td>
-            <td>
-                <b>
-                    Prepping 22.7.5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Cherry picked issues for 22.7.5 release.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-05 16:33:16 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/230" class=".btn">#230</a>
+                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/231" class=".btn">#231</a>
             </td>
             <td>
                 <b>
-                    Move ABI/Contract store to LevelDB from flat files
+                    Cleanup migrated contract JSON with full path
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
                 
             </td>
             <td>
-                In the case where you deploy many contracts (hundreds of thousands for example), the flat file based store of contract ABIs/registrations becomes inefficient. This affects startup time and memory usage.
-
-This PR is to make this storage consistent with elsewhere in the codebase, and use LevelDB rather than flat files.
+                The cleanup code for migrated JSON files failed to delete the file (so would run again on each restart).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-30 22:06:59 +0000 UTC
+        Created At 2022-10-12 14:18:45 +0000 UTC
     </div>
 </div>
 
