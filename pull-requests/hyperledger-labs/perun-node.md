@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-node/pull/240" class=".btn">#240</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-node/pull/242" class=".btn">#242</a>
             </td>
             <td>
                 <b>
-                    Update go perun v0.9.0
+                    Update chat
                 </b>
             </td>
         </tr>
@@ -27,55 +27,13 @@ permalink: /pull-requests/hyperledger-labs/perun-node
                 
             </td>
             <td>
-                <!-- Provide a general summary of your changes in the title above
-
-Please read our contribution guidelines and sign the Contributor License
-Agreement (CLA) before submitting the pull request. Also, check if there are no
-other open pull requests targeting the same issue. -->
-
-#### Description
-<!-- Describe your changes in detail. -->
-Update go-perun version to v0.9.0
-
-##### Category
-<!-- Tell us what type of issue does your pull request target.
-You can uncomment one of the following options: -->
-
-<!-- Bug Fix -->
-<!-- Improvement -->
-Implementation Task
-
-##### Relevant issue
-<!-- Provide a link to the related issue. You can use the following keywords
-and the issue number: "fixes", "resolves", "relates to". E.g.: closes #21
-
-We accept only pull requests related to open issues. If you're suggesting a new
-feature, improvement or fixing a bug that is not yet reported, please discuss it in
-an issue before submitting a pull request. -->
-
-#### Testing
-<!-- Tell us how you have tested the changes. -->
-
-All existing tests should run as expected.
-
-##### Steps to run the tests
-<!-- Describe a set of steps to run the tests relevant to this change. -->
-
-1. 
-2. 
-3.  
-
-#### Checklist 
-<!-- Please check if the pull request fulfils these requirements: -->
-
-- [x] Name is added to the NOTICE file, if it is not present already.
-- [x] Changes are rebased onto the target branch.
+                Update links for Hyperledger chat.
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-31 08:58:50 +0000 UTC
+        Created At 2022-10-12 06:11:04 +0000 UTC
     </div>
 </div>
 
