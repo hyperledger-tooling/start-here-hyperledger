@@ -135,11 +135,12 @@ New syntax:
 /** @program_id AddressLookupTab1e1111111111111111111111111 */
 contract c {
       /** 
+        * @payer payer
         * @seed "meh" 
         * @seed a_seed
         * @bump bump
         */
-       constructor(bytes a_seed, byte1 bump) {}
+       constructor(bytes a_seed, byte1 bump, address payer) {}
 }
 ```
             </td>

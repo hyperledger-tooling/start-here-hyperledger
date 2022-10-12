@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2860" class=".btn">#2860</a>
+            </td>
+            <td>
+                <b>
+                    [documentation] Fix #1920
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Description of the Change
+
+Fixes the link from #1920
+
+### Issue
+
+A link to the "getting started" doc section was broken.
+
+### Benefits
+
+A correct link
+
+### Possible Drawbacks
+
+None, but for some reason the "stable" RTD doc is nonexistent now.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-12 16:57:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2848" class=".btn">#2848</a>
             </td>
             <td>
@@ -50,7 +90,7 @@ permalink: /pull-requests/hyperledger/iroha
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">iroha2</span><span class="chip">Documentation</span><span class="chip">UI</span>
             </td>
             <td>
                 Signed-off-by: 6r1d <vic.6r1d@gmail.com>

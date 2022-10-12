@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/323" class=".btn">#323</a>
+            </td>
+            <td>
+                <b>
+                    Linked up the frontend with the migration api
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nikhil Modem <Nikhil.Modem@ibm.com>
+
+#### Type of change
+- New feature
+
+#### Description
+- More work on the migration page for migration feature
+- Links the api with the frontend and present component migration status'
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-12 16:13:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/321" class=".btn">#321</a>
             </td>
             <td>
@@ -82,42 +115,6 @@ To Notify the completion of Migration and Further steps
     </table>
     <div class="right-align">
         Created At 2022-10-06 11:06:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/318" class=".btn">#318</a>
-            </td>
-            <td>
-                <b>
-                    Bug fix when adding ordering nodes to channel
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Nikhil Modem <Nikhil.Modem@ibm.com>
-
-#### Type of change
-- Bug fix
-
-#### Description
-- If an ordering cluster has nodes with the system channel, they were available to add to a channel. The entire cluster should not show up in this case.
-- If an ordering cluster has nodes both with and without the system channel, all node were available to add to the channel. The cluster should show up, but only the nodes that do not have a system channel should show up in this case.
-- Both of the above scenarios are dealt with by only returning nodes that do not have a system channel, regardless of the overall cluster configuration.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-05 16:47:02 +0000 UTC
     </div>
 </div>
 

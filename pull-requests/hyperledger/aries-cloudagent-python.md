@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1970" class=".btn">#1970</a>
+            </td>
+            <td>
+                <b>
+                    Fix: `--mediator-invitation` with OOB invitation + cleanup 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Shaanjot Gill <gill.shaanjots@gmail.com>
+
+The following issues were found as part of loadgenerator test setup.
+- `--mediator-invitation` was failing with OOB invitation, this should be fixed now.
+- `invitation_url` when creating an implicit invitation using `/connections/create-invitation` didn't include endpoint, this should be fixed now.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-12 15:10:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1969" class=".btn">#1969</a>
             </td>
             <td>
