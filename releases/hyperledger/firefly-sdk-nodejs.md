@@ -106,36 +106,3 @@ permalink: /releases/hyperledger/firefly-sdk-nodejs
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v1.1.4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v1.1.4
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* Add retryOperation by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/40
-* Add findData() by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/41
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.1.2...v1.1.4
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.1.4" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-10-05 19:55:17 +0000 UTC
-    </span>
-</div>
-
