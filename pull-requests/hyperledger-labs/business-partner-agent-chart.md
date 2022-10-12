@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/62" class=".btn">#62</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/63" class=".btn">#63</a>
             </td>
             <td>
                 <b>
-                    remove reference to bosch-test ledger
+                    fix genesis url in init container
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-05 08:17:27 +0000 UTC
+        Created At 2022-10-12 10:35:49 +0000 UTC
     </div>
 </div>
 

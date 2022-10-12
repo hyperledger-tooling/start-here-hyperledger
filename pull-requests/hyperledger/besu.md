@@ -235,7 +235,7 @@ Upgrade RocksDB version from 6.29.5 to 7.6.0.
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 …lled
@@ -247,18 +247,22 @@ Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
 
 ## PR description
 
+Take advantage of all the time between a FcU with payload attributes, that start the block creation process, until the GetPayload to repeatedly try to build better blocks.
+Currently when the Consensus client asks to Besu to build a block, Besu first create the empty block, then it asynchronously try to build a better block that will eventually replace the empty block. The better block jobs is only done once, but we can repeat it to fit more newly arrived transactions until the CL client retrieve the block proposal, or if this does not happen, after the maximum allowed time for the task, that is configurable using `--Xpos-block-creation-max-time` and has a default of 12 seconds.
+
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -1058,49 +1062,6 @@ Cherry picked issues for 22.7.5 release.
     </table>
     <div class="right-align">
         Created At 2022-10-05 16:33:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4481" class=".btn">#4481</a>
-            </td>
-            <td>
-                <b>
-                    Better handler for --fast-sync-min-peers flag
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dev experience</span><span class="chip">mainnet</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Changes the misleading warn of --fast-sync-min-peers to a more accurate handler which throws a ParameteresException only if this flag is used combined with sync-mode=FULL
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #4315
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-05 11:29:07 +0000 UTC
     </div>
 </div>
 
