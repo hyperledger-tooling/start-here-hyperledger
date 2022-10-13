@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/378" class=".btn">#378</a>
+            </td>
+            <td>
+                <b>
+                    Remove Sawtooth-related files
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR remove Sawtooth-related files -- many references inside other files persist.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-13 07:47:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/377" class=".btn">#377</a>
             </td>
             <td>

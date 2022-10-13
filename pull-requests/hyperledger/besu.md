@@ -14,6 +14,81 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4529" class=".btn">#4529</a>
+            </td>
+            <td>
+                <b>
+                    Tune EthScheduler thread pools to avoid to recreate too many threads
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-13 12:29:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4527" class=".btn">#4527</a>
+            </td>
+            <td>
+                <b>
+                    improve number of peers metric
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stefan <stefan.pingel@consensys.net>
+
+## PR description
+
+This improves the "number of peers" metric. 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-13 11:55:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4526" class=".btn">#4526</a>
             </td>
             <td>
@@ -947,150 +1022,6 @@ applies only to PoW networks.
     </table>
     <div class="right-align">
         Created At 2022-10-06 13:08:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4487" class=".btn">#4487</a>
-            </td>
-            <td>
-                <b>
-                    Refactor unverified forkchoice event
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                Renaming to make clear everywhere that the forkchoice is not verified, so it will be clear in case there will be a future event for a verified forkchoice. Finalized block hash no more optional.
-
-Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-This is the 2nd PR of a series to optimize the initial sync on PoS networks, that is ongoing here https://github.com/hyperledger/besu/pull/4462, but since it is quite big, I am splitting it in smaller PRs to simplify the code review.
-
-This is mostly a refactoring to make clear everywhere that the forkchoice is not verified, so
-in case there will be a future event for a verified forkchoice it will be simpler.
-Then the finalized block hash is no more optional, making the code more simple.
-The order of hashes is always heah, safe, finalized.
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-06 11:12:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4486" class=".btn">#4486</a>
-            </td>
-            <td>
-                <b>
-                    Improve UX of initial sync logs, pushing not relevant logs to debug l…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span><span class="chip">logging</span>
-            </td>
-            <td>
-                …evel
-
-Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-This is the first PR of a series to optimize the initial sync on PoS networks, that is ongoing here https://github.com/hyperledger/besu/pull/4462, but since it is quite big, I am splitting it in smaller PRs to simplify the code review.
-
-Initial sync logs are not always easy to read, because instead of having only the sync updates, there are also other logs that are not relevant during the initial sync, and looking at user reports, they can be confused and do not get if the sync is progressing or not
-
-This PR only keeps the logs relevant to the initial sync progress at info and push at debug all the others.
-
-Below logs before and after the PR
-
-Before
-```
-{"@timestamp":"2022-10-06T09:25:49,947","level":"INFO","thread":"ForkJoinPool.commonPool-worker-5","class":"BackwardsSyncAlgorithm","message":"Waiting for preconditions...","throwable":""}
-{"@timestamp":"2022-10-06T09:26:12,086","level":"INFO","thread":"EthScheduler-Services-90 (importBlock)","class":"FastImportBlocksStep","message":"Completed importing chain segment 11279689 to 11280888 (1200 blocks in 11920ms), Peers: 25","throwable":""}
-{"@timestamp":"2022-10-06T09:26:35,707","level":"INFO","thread":"vert.x-worker-thread-0","class":"EngineForkchoiceUpdated","message":"SYNCING for fork-choice-update: head: 0x9e8bcadc5bf45225603a0a499179053c0686c1e8428fa04738a5645abe2b10d2, finalized: 0x892379f25213ade77ec1964a45940c5019d36556713b86f9454b3ace8fbdb1a1, safeBlockHash: 0x0d6dc3205963d193b2e18699e46e3ff0879f5a9f1800b1ba7eb7e731702ccb8e","throwable":""}
-{"@timestamp":"2022-10-06T09:27:36,261","level":"INFO","thread":"vert.x-worker-thread-0","class":"EngineForkchoiceUpdated","message":"SYNCING for fork-choice-update: head: 0xd7757feee22c7fc9ebdce097a2b51f304c16727b9d4ae3053e6da5a664c465ac, finalized: 0x0d6dc3205963d193b2e18699e46e3ff0879f5a9f1800b1ba7eb7e731702ccb8e, safeBlockHash: 0x618656c42fa3136023ca782cde049c77ba1971eb5b3a56a84177d4f7401d939f","throwable":""}
-{"@timestamp":"2022-10-06T09:27:49,947","level":"INFO","thread":"ForkJoinPool.commonPool-worker-5","class":"BackwardsSyncAlgorithm","message":"Waiting for preconditions...","throwable":""}
-{"@timestamp":"2022-10-06T09:28:36,398","level":"INFO","thread":"vert.x-worker-thread-0","class":"EngineForkchoiceUpdated","message":"SYNCING for fork-choice-update: head: 0x3ad9b6189f29cf62e97106bbf4c678c76507e806744afdb5282fa35896dd8654, finalized: 0x0d6dc3205963d193b2e18699e46e3ff0879f5a9f1800b1ba7eb7e731702ccb8e, safeBlockHash: 0x618656c42fa3136023ca782cde049c77ba1971eb5b3a56a84177d4f7401d939f","throwable":""}
-{"@timestamp":"2022-10-06T09:28:50,005","level":"INFO","thread":"EthScheduler-Services-3 (batchPersistAccountData)","class":"SnapsyncMetricsManager","message":"Worldstate download in progress synced=17.98%, accounts=32928267, slots=217186625, codes=4379638, nodes=239266039","throwable":""}
-{"@timestamp":"2022-10-06T09:29:05,775","level":"INFO","thread":"EthScheduler-Services-90 (importBlock)","class":"FastImportBlocksStep","message":"Completed importing chain segment 11282089 to 11282888 (800 blocks in 11643ms), Peers: 25","throwable":""}
-{"@timestamp":"2022-10-06T09:29:21,798","level":"INFO","thread":"EthScheduler-Services-90 (importBlock)","class":"FastImportBlocksStep","message":"Completed importing chain segment 11282889 to 11284088 (1200 blocks in 11213ms), Peers: 25","throwable":""}
-{"@timestamp":"2022-10-06T09:29:36,466","level":"INFO","thread":"vert.x-worker-thread-0","class":"EngineForkchoiceUpdated","message":"SYNCING for fork-choice-update: head: 0x0198ba0940d1ef58602e8f22a349f2f522042b2625c60c7dd11e8be96bee6a35, finalized: 0x0d6dc3205963d193b2e18699e46e3ff0879f5a9f1800b1ba7eb7e731702ccb8e, safeBlockHash: 0x618656c42fa3136023ca782cde049c77ba1971eb5b3a56a84177d4f7401d939f","throwable":""}
-{"@timestamp":"2022-10-06T09:29:44,753","level":"INFO","thread":"EthScheduler-Services-90 (importBlock)","class":"FastImportBlocksStep","message":"Completed importing chain segment 11284089 to 11285088 (1000 blocks in 11715ms), Peers: 25","throwable":""}
-{"@timestamp":"2022-10-06T09:29:49,948","level":"INFO","thread":"ForkJoinPool.commonPool-worker-5","class":"BackwardsSyncAlgorithm","message":"Waiting for preconditions...","throwable":""}
-{"@timestamp":"2022-10-06T09:29:56,197","level":"INFO","thread":"EthScheduler-Services-90 (importBlock)","class":"FastImportBlocksStep","message":"Completed importing chain segment 11285089 to 11286288 (1200 blocks in 11441ms), Peers: 25","throwable":""}
-{"@timestamp":"2022-10-06T09:30:06,166","level":"INFO","thread":"EthScheduler-Services-3 (batchPersistAccountData)","class":"SnapsyncMetricsManager","message":"Worldstate download in progress synced=18.06%, accounts=33082540, slots=217671580, codes=4403571, nodes=239998416","throwable":""}
-{"@timestamp":"2022-10-06T09:30:15,109","level":"INFO","thread":"EthScheduler-Services-90 (importBlock)","class":"FastImportBlocksStep","message":"Completed importing chain segment 11286289 to 11286888 (600 blocks in 11245ms), Peers: 25","throwable":""}
-{"@timestamp":"2022-10-06T09:30:47,571","level":"INFO","thread":"vert.x-worker-thread-0","class":"EngineForkchoiceUpdated","message":"SYNCING for fork-choice-update: head: 0x95a791258cf96def7e8e19f432645c645bcf8091c9b1f2cc0ab3abc98da69bc7, finalized: 0x0d6dc3205963d193b2e18699e46e3ff0879f5a9f1800b1ba7eb7e731702ccb8e, safeBlockHash: 0x618656c42fa3136023ca782cde049c77ba1971eb5b3a56a84177d4f7401d939f","throwable":""}
-{"@timestamp":"2022-10-06T09:31:15,092","level":"INFO","thread":"EthScheduler-Services-3 (batchPersistAccountData)","class":"SnapsyncMetricsManager","message":"Worldstate download in progress synced=18.33%, accounts=33576771, slots=220443622, codes=4469443, nodes=242939929","throwable":""}
-{"@timestamp":"2022-10-06T09:31:47,894","level":"INFO","thread":"vert.x-worker-thread-0","class":"EngineForkchoiceUpdated","message":"SYNCING for fork-choice-update: head: 0x53fd3276724e230f9c6a9a38b65e65baa5013addbeea0653ef606b40fd996cf6, finalized: 0x0d6dc3205963d193b2e18699e46e3ff0879f5a9f1800b1ba7eb7e731702ccb8e, safeBlockHash: 0x618656c42fa3136023ca782cde049c77ba1971eb5b3a56a84177d4f7401d939f","throwable":""}
-{"@timestamp":"2022-10-06T09:31:49,948","level":"INFO","thread":"ForkJoinPool.commonPool-worker-5","class":"BackwardsSyncAlgorithm","message":"Waiting for preconditions...","throwable":""}
-{"@timestamp":"2022-10-06T09:32:07,387","level":"INFO","thread":"EthScheduler-Services-91 (importBlock)","class":"FastImportBlocksStep","message":"Completed importing chain segment 11287689 to 11288288 (600 blocks in 12429ms), Peers: 25","throwable":""}
-{"@timestamp":"2022-10-06T09:32:18,464","level":"INFO","thread":"EthScheduler-Services-3 (batchPersistAccountData)","class":"SnapsyncMetricsManager","message":"Worldstate download in progress synced=18.75%, accounts=34347841, slots=223981505, codes=4572077, nodes=246865094","throwable":""}
-```
-
-After
-```
-{"@timestamp":"2022-10-06T09:34:09,784","level":"INFO","thread":"EthScheduler-Services-32 (importBlock)","class":"FastImportBlocksStep","message":"Completed importing chain segment 4045158 to 4046557 (1400 blocks in 10259ms), Peers: 25","throwable":""}
-{"@timestamp":"2022-10-06T09:34:10,455","level":"INFO","thread":"EthScheduler-Services-3 (batchPersistAccountData)","class":"SnapsyncMetricsManager","message":"Worldstate download in progress synced=54.42%, accounts=99670425, slots=604502342, codes=13261095, nodes=691089522","throwable":""}
-{"@timestamp":"2022-10-06T09:34:30,802","level":"INFO","thread":"EthScheduler-Services-32 (importBlock)","class":"FastImportBlocksStep","message":"Completed importing chain segment 4046558 to 4048157 (1600 blocks in 21015ms), Peers: 25","throwable":""}
-{"@timestamp":"2022-10-06T09:34:40,975","level":"INFO","thread":"EthScheduler-Services-32 (importBlock)","class":"FastImportBlocksStep","message":"Completed importing chain segment 4048158 to 4050357 (2200 blocks in 10167ms), Peers: 25","throwable":""}
-{"@timestamp":"2022-10-06T09:34:51,104","level":"INFO","thread":"EthScheduler-Services-32 (importBlock)","class":"FastImportBlocksStep","message":"Completed importing chain segment 4050358 to 4052357 (2000 blocks in 10124ms), Peers: 25","throwable":""}
-{"@timestamp":"2022-10-06T09:35:02,098","level":"INFO","thread":"EthScheduler-Services-32 (importBlock)","class":"FastImportBlocksStep","message":"Completed importing chain segment 4052358 to 4054957 (2600 blocks in 10826ms), Peers: 25","throwable":""}
-{"@timestamp":"2022-10-06T09:35:12,201","level":"INFO","thread":"EthScheduler-Services-32 (importBlock)","class":"FastImportBlocksStep","message":"Completed importing chain segment 4054958 to 4056957 (2000 blocks in 10096ms), Peers: 25","throwable":""}
-{"@timestamp":"2022-10-06T09:35:16,980","level":"INFO","thread":"EthScheduler-Services-3 (batchPersistAccountData)","class":"SnapsyncMetricsManager","message":"Worldstate download in progress synced=54.71%, accounts=100196801, slots=606855952, codes=13330951, nodes=694009270","throwable":""}
-```
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-06 09:40:18 +0000 UTC
     </div>
 </div>
 
