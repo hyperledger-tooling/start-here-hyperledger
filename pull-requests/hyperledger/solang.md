@@ -179,31 +179,3 @@ contract c {
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1032" class=".btn">#1032</a>
-            </td>
-            <td>
-                <b>
-                    Add new solang logo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Hyperledger designed a logo for us.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-06 09:48:53 +0000 UTC
-    </div>
-</div>
-

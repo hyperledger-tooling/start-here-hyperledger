@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/69" class=".btn">#69</a>
-            </td>
-            <td>
-                <b>
-                    credential/mime-types now returns a map
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-06 08:10:05 +0000 UTC
-    </div>
-</div>
-

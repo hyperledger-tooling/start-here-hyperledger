@@ -97,31 +97,3 @@ The following issues were found as part of loadgenerator test setup.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1966" class=".btn">#1966</a>
-            </td>
-            <td>
-                <b>
-                    include image_url in oob invitation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                include `image_url` in out-of-band invitations.
-
-Signed-off-by: Pritam Singh <pkspritam16@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-06 06:59:48 +0000 UTC
-    </div>
-</div>
-
