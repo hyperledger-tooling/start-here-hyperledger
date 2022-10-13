@@ -517,37 +517,3 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2835" class=".btn">#2835</a>
-            </td>
-            <td>
-                <b>
-                    RC9 Release PR
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Release checklist
-- [x] Local tests pass
-- [x] SDK tests pass
-  - [x] Java
-  - [x] JavaScript
-- [x] CLI tests pass, 
-- [x] Docker container builds successfully
-- [x] All commits are signed off, 
-- [x] Versions of crates are bumped to `rc9`. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-06 06:41:31 +0000 UTC
-    </div>
-</div>
-
