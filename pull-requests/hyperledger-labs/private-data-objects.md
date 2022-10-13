@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/376" class=".btn">#376</a>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/377" class=".btn">#377</a>
             </td>
             <td>
                 <b>
-                    Dump logs upon failure in CI
+                    Disable Sawtooth
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
                 
             </td>
             <td>
-                Signed-off-by: Bruno Vavala <bruno.vavala@intel.com>
+                This PR disables Sawtooth -- it does *not* remove it.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-16 21:21:34 +0000 UTC
+        Created At 2022-10-13 06:00:42 +0000 UTC
     </div>
 </div>
 
