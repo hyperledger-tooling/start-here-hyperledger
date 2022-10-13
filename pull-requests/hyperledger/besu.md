@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4526" class=".btn">#4526</a>
+            </td>
+            <td>
+                <b>
+                    Add Ameziane as maintainer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Proposing @ahamlat  as a new Besu maintainer - has done significant performance analysis, configuration, and [commits](https://github.com/hyperledger/besu/pulls?q=is%3Apr+author%3Aahamlat+is%3Aclosed+review%3Aapproved) improving the quality, stability, and performance of Besu.
+
+Voting ends 2 weeks from the publication of this PR or once more than 50% of the current maintainers approve.
+
+For more information on this process see the Becoming a Maintainer section in the MAINTAINERS.md file.
+
+NOTE: I suggest viewing the diff with "ignore whitespace changes" to more clearly see the addition.  Intellij auto-resized the whole table.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-12 22:41:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4524" class=".btn">#4524</a>
             </td>
             <td>
