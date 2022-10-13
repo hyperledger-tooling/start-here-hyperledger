@@ -74,35 +74,3 @@ permalink: /releases/hyperledger/firefly-sdk-nodejs
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v1.1.5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v1.1.5
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* Add createIdentity() by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/42
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.1.4...v1.1.5
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.1.5" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-10-06 03:43:42 +0000 UTC
-    </span>
-</div>
-
