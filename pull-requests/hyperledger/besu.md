@@ -14,6 +14,114 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4531" class=".btn">#4531</a>
+            </td>
+            <td>
+                <b>
+                    Snapshot based non-persisting MutableWorldState usage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+initial plubming of Bonsai snapshots into BonsaiWorldStateArchive for arbitrary mutable non-persisting worldstate, and refactoring usages to auto-close snapshots after usage in:
+* MainnetTransactionValidator
+* AbstractBlockCreator
+* TransactionSimulator
+* TransactionPool.validateTransaction
+
+ outstanding usages to refactor:
+*  try-with-resources on transaction simulation
+* jsonrpc queries 
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+relates to #4372
+relates to #4250
+relates to #4199
+relates to #4151
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-13 17:30:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4530" class=".btn">#4530</a>
+            </td>
+            <td>
+                <b>
+                    Offload logbloom cache generation to computation executor, to avoid b…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span>
+            </td>
+            <td>
+                …locking the timer
+
+Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Logbloom cache regeneration at startup is a long running task, and at the moment it is run on the Timer executor, with the result that it block other scheduled task to be executed for a long period, see the graph below for an example of the queued tasks that are waiting to be exeecuted by the Timer executor
+![image](https://user-images.githubusercontent.com/91944855/195612170-cf7075eb-77d2-4537-9b45-08a066bf4709.png)
+
+This PR offload all the logbloom cache generation tasks to the Computation executor
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-13 13:09:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4529" class=".btn">#4529</a>
             </td>
             <td>
@@ -24,7 +132,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
@@ -34,18 +142,26 @@ permalink: /pull-requests/hyperledger/besu
 
 ## PR description
 
+Tune EthScheduler Transaction and Worker pools, to adapt to the current usage pattarn, avoid to recreate too many threads
+
+Below the difference before and after this PR
+![image](https://user-images.githubusercontent.com/91944855/195613703-6fbac0c5-3466-4ec1-9215-6fc7be074aff.png)
+
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
 
+fixes #4500 
+
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -939,89 +1055,6 @@ prep 22.10.0-RC2
     </table>
     <div class="right-align">
         Created At 2022-10-06 23:08:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4489" class=".btn">#4489</a>
-            </td>
-            <td>
-                <b>
-                    The block variable was keeping too much memory while waiting for future to finish
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                
-The `exceptionally` was holding a pointer to a block and was not released for potentially long time. 
-
-Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-06 16:27:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4488" class=".btn">#4488</a>
-            </td>
-            <td>
-                <b>
-                    Optimize pivot block selector on PoS networks 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span><span class="chip">syncing</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-This PR is built on top of #4487 so check it first
-
-This is the 3rd PR of a series to optimize the initial sync on PoS networks, that is ongoing here https://github.com/hyperledger/besu/pull/4462, but since it is quite big, I am splitting it in smaller PRs to simplify the code review.
-
-
-On PoS network we use as pivot block, the last finalized block sent by the Consensus Layer, so we do
-not need peers, and so all the logic for selecting the pivot block from peers
-has been moved from `FastSyncActions` to `PivotSelectorFromPeers`.
-We do not need anymore the `TransictionPeerSelector`, and the `--fast-sync-min-peers`
-applies only to PoW networks.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-06 13:08:17 +0000 UTC
     </div>
 </div>
 
