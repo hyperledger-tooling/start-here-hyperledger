@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
                 
             </td>
             <td>
-                <nil>
+                see https://github.com/hyperledger-labs/business-partner-agent/issues/801
+
+option to allow self attested attributes in the proof template for anoncred based presentation exchanges
             </td>
         </tr>
     </table>
