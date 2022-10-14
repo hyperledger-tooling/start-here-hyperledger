@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4534" class=".btn">#4534</a>
+            </td>
+            <td>
+                <b>
+                    Githubci and java17
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Combination of https://github.com/hyperledger/besu/pull/4162 and https://github.com/hyperledger/besu/pull/4532 (squashed and cherry-picked)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-14 02:21:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4533" class=".btn">#4533</a>
             </td>
             <td>
@@ -39,12 +65,12 @@ permalink: /pull-requests/hyperledger/besu
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
