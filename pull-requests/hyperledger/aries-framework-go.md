@@ -34,8 +34,7 @@ Update BBS sig to the latest DIF draft.
 Closes #3392 
 
 **Summary:**
-
-Please see #3392 
+Impl changes suggested by #3392 
 
             </td>
         </tr>
@@ -212,37 +211,6 @@ update default values of ALPINE_VER and GO_VER args in Makefile in order to buil
     </table>
     <div class="right-align">
         Created At 2022-10-11 05:33:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3395" class=".btn">#3395</a>
-            </td>
-            <td>
-                <b>
-                    refactor: change xeipuuv/gojsonschema to santhosh-tekuri/jsonschema package
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Description:**
-
-- Change `xeipuuv/gojsonschema` to `santhosh-tekuri/jsonschema` package inside `verifiable presentation`
-- Refactor related unit tests
-
-Related to #3393 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-07 11:28:30 +0000 UTC
     </div>
 </div>
 

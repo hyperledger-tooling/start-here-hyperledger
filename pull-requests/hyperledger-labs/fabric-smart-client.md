@@ -91,9 +91,12 @@ Signed-off-by: Dave Kelsey <d_kelsey@uk.ibm.com>
                 - Fabric: 
   - Export Envelope Service
   - Export Transaction Validation Code
+  - TxIDStore stores now also busy transactions
+  - Restart delivery from the last block seen, if available.
 - Orion:
   - Ledger Support 
   - Export Discard Tx
+  - TxIDStore stores now also busy transactions
 
 Used by: https://github.com/hyperledger-labs/fabric-token-sdk/pull/406
 

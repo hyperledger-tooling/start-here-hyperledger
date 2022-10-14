@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/perun-doc
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-doc/pull/83" class=".btn">#83</a>
-            </td>
-            <td>
-                <b>
-                    Add missing index of Alice
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Minh Huy, Tran <94397738+NhoxxKienn@users.noreply.github.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-07 11:15:49 +0000 UTC
-    </div>
-</div>
-
