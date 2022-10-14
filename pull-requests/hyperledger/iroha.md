@@ -209,30 +209,3 @@ cargo run --example tutorial
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2844" class=".btn">#2844</a>
-            </td>
-            <td>
-                <b>
-                    RC.9 → LTS 2 Release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                LTS release! 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-07 07:31:14 +0000 UTC
-    </div>
-</div>
-

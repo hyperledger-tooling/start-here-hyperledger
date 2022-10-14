@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/379" class=".btn">#379</a>
+            </td>
+            <td>
+                <b>
+                    fix build to make CCF PDO work with the eservice (only) in SGX HW mode
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As we remove Sawtooth, we have a problem: CCF does not support PDO in HW mode.
+This PR partially addresses this problem:
+1. it provide the docker compose material to run the CI in HW mode
+2. it fixes a bug in the CCF submitters
+3. in HW mode, it compiles the eservice as expected, but it forces: the pservice in sim mode, and the proof_data field to be empty. This is necessary to run (at least) the eservice in HW mode and avoid signature/field verification issues, probably due to unintended formatting. The changes (about 20 lines in 3 files) can be easily reverted as the other issues are solved.
+
+More details of these issues are in #262 , here https://github.com/hyperledger-labs/private-data-objects/issues/262#issuecomment-1278684081.
+
+
+
+
+
+Signed-off-by: Bruno Vavala <bruno.vavala@intel.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-14 08:42:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/378" class=".btn">#378</a>
             </td>
             <td>

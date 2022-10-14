@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/perun-node
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">hacktoberfest-accepted</span>
             </td>
             <td>
                 Update links for Hyperledger chat.
