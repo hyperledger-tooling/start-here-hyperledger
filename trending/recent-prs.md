@@ -1,13 +1,13 @@
 
+[4533](https://github.com/hyperledger/besu/pull/4533) EVM Performance, arrays and old tracing
+
+[1973](https://github.com/hyperledger/aries-cloudagent-python/pull/1973) Fix: web.py dependency - integration tests & demos
+
+[324](https://github.com/hyperledger-labs/fabric-operations-console/pull/324) move english strings to translation file
+
+[4532](https://github.com/hyperledger/besu/pull/4532) Java17
+
 [4531](https://github.com/hyperledger/besu/pull/4531) Snapshot based non-persisting MutableWorldState usage
-
-[1038](https://github.com/hyperledger/solang/pull/1038) Encode arguments for constructor call in codegen
-
-[4530](https://github.com/hyperledger/besu/pull/4530) Offload logbloom cache generation to computation executor, to avoid b…
-
-[4529](https://github.com/hyperledger/besu/pull/4529) Tune EthScheduler thread pools to avoid to recreate too many threads
-
-[4527](https://github.com/hyperledger/besu/pull/4527) improve number of peers metric
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

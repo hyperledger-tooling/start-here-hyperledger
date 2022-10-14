@@ -14,6 +14,93 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4533" class=".btn">#4533</a>
+            </td>
+            <td>
+                <b>
+                    EVM Performance, arrays and old tracing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+## PR description
+
+* Remove unused trace options
+* move code to array in loop.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-14 00:19:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4532" class=".btn">#4532</a>
+            </td>
+            <td>
+                <b>
+                    Java17
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span>
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Taking over @shemnon s work updating Besu to use Java17. This includes updates to gradle configurations and docker container build, as well as the circle ci configuration used.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [X] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-13 19:38:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4531" class=".btn">#4531</a>
             </td>
             <td>
@@ -971,90 +1058,6 @@ fixes #4495
     </table>
     <div class="right-align">
         Created At 2022-10-07 20:35:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4494" class=".btn">#4494</a>
-            </td>
-            <td>
-                <b>
-                    update changelog for 22.10.0-RC2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: garyschulte <garyschulte@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-prep 22.10.0-RC2
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-07 00:34:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4493" class=".btn">#4493</a>
-            </td>
-            <td>
-                <b>
-                    Prepare for version 22.10.0-RC2-SNAPSHOT
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Prepare for version 22.10.0-RC2-SNAPSHOT
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-06 23:54:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4492" class=".btn">#4492</a>
-            </td>
-            <td>
-                <b>
-                    Release 22.10.0-RC1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Release 22.10.0-RC1
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-06 23:08:54 +0000 UTC
     </div>
 </div>
 
