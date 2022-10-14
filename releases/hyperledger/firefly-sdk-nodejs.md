@@ -42,35 +42,3 @@ permalink: /releases/hyperledger/firefly-sdk-nodejs
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v1.1.6
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v1.1.6
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* Add getGroup() by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/44
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.1.5...v1.1.6
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.1.6" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-10-07 01:38:34 +0000 UTC
-    </span>
-</div>
-
