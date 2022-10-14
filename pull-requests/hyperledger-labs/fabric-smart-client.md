@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/417" class=".btn">#417</a>
+            </td>
+            <td>
+                <b>
+                    Fix npe if no core file found
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span>
+            </td>
+            <td>
+                closes #406
+
+Signed-off-by: Dave Kelsey <d_kelsey@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-14 12:52:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/416" class=".btn">#416</a>
             </td>
             <td>
@@ -55,7 +83,7 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span><span class="chip">configuration</span><span class="chip">Fabric</span>
             </td>
             <td>
                 1. create a grpc section in core and move appropriate keys to be children
@@ -160,43 +188,6 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-10-10 09:35:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/409" class=".btn">#409</a>
-            </td>
-            <td>
-                <b>
-                    Various bug fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span>
-            </td>
-            <td>
-                nwo:
-- fix stop/start FSC node
-
-fabric:
-- if an envelope is stored for the txid, then commit it
-
-orion:
-- if an envelope is stored for the txid, then commit it
-- finality fix for unknown transactions for which an envelope is stored. 
-
-various:
-- fix Committer's lister + integration test
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-07 13:16:15 +0000 UTC
     </div>
 </div>
 

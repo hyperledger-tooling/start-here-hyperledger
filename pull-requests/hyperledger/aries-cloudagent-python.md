@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1975" class=".btn">#1975</a>
+            </td>
+            <td>
+                <b>
+                    Author demo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Self-contained demo showing how to start up an author agent to to connect to an endorser service
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-14 17:25:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1973" class=".btn">#1973</a>
             </td>
             <td>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/836" class=".btn">#836</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/841" class=".btn">#841</a>
             </td>
             <td>
                 <b>
-                    REST api added for asset transfer in Golang
+                    Update go chaincode samples
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                This PR adds a REST server in Golang with endpoints for chaincode invoke and query. I I'm not an expert in Golang. Let me know if any improvements required.
+                Update to the latest github.com/hyperledger/fabric-contract-api-go
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-23 16:36:01 +0000 UTC
+        Created At 2022-10-14 15:46:58 +0000 UTC
     </div>
 </div>
 
