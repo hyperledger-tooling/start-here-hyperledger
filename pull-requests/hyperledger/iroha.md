@@ -267,29 +267,3 @@ None, but for some reason the "stable" RTD doc is nonexistent now.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2848" class=".btn">#2848</a>
-            </td>
-            <td>
-                <b>
-                    [ci]: Disable slow integration tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-07 20:44:36 +0000 UTC
-    </div>
-</div>
-

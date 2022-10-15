@@ -37,33 +37,3 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/61" class=".btn">#61</a>
-            </td>
-            <td>
-                <b>
-                    CI: code analysis and vulnerability check
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: adityajoshi12 <adityaprakashjoshi1@gmail.com>
-
-1. Added static code analyser (CodeQL)
-2. Added vulnerability check (Trivy)
-3. Check for GitHub-actions version (Dependabot)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-07 19:17:31 +0000 UTC
-    </div>
-</div>
-
