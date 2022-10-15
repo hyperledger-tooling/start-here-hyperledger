@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3692" class=".btn">#3692</a>
+            </td>
+            <td>
+                <b>
+                    Add delivery client logging
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add logging for delivery client connections to ordering service, as well as disconnections.
+This will help with troubleshooting when connections between peer and orderer are in doubt.
+
+Also improve related log messages and config descriptions.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-15 05:19:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3690" class=".btn">#3690</a>
             </td>
             <td>
