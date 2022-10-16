@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1977" class=".btn">#1977</a>
+            </td>
+            <td>
+                <b>
+                    fix: public did mediator routing keys as did keys
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes an issue @reflectivedevelopment found while using the recent changes made to support routing keys associated with public DID endpoints.
+
+Without this fix, when creating a public DID OOB invitation, creation will fail due to no DIDComm service being found. This stemmed from PyDID expecting that routing keys be expressed strictly as DID URLs. Previously, we were resolving the routing keys as raw base58 encoded public keys. This PR makes it so that routing keys are resolved as did:key url values (if already did:key, simply pass through the values but if not, transform into did:key urls).
+
+Credit to @cjhowland for doing most of the digging on this issue :slightly_smiling_face: 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-15 18:52:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1975" class=".btn">#1975</a>
             </td>
             <td>
