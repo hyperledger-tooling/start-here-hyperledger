@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/138" class=".btn">#138</a>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/141" class=".btn">#141</a>
             </td>
             <td>
                 <b>
-                    Update protobuf-java dependency to address CVE-2022-3171 (backport #135)
+                    Fixed @ CVE-2022-31163
                 </b>
             </td>
         </tr>
@@ -27,38 +27,23 @@ permalink: /pull-requests/hyperledger/fabric-protos
                 
             </td>
             <td>
-                This is an automatic backport of pull request #135 done by [Mergify](https://mergify.com).
+                Signed-off-by: mik-patient <112659896+mik-patient@users.noreply.github.com>
+
+## Vulnerability Description
+With the Ruby data source (the tzinfo-data gem for tzinfo version 1.0.0 and later and built-in to earlier versions), time zones are defined in Ruby files. There is one file per time zone. Time zone files are loaded with require on demand. In the affected versions, `TZInfo::Timezone.get` fails to validate time zone identifiers correctly, allowing a new line character within the identifier. With Ruby version 1.9.3 and later, `TZInfo::Timezone.get` can be made to load unintended files with require, executing them within the Ruby process.
+```rb
+TZInfo::Timezone.get("foo\n/../../../../../../../../../../../../../../../../tmp/payload")
+```
+**CVE-2022-31163**
+`CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H`
+GHSA-5cm2-9h8c-rvfx
 
 
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-05 18:52:39 +0000 UTC
+        Created At 2022-10-16 04:16:46 +0000 UTC
     </div>
 </div>
 
@@ -66,11 +51,11 @@ Finally, you can contact us on https://mergify.com
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/137" class=".btn">#137</a>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/140" class=".btn">#140</a>
             </td>
             <td>
                 <b>
-                    Allow ChaincodeEvents to resume after a specific transaction ID (backport #77)
+                    Fixed CWE-400 Uncontrolled Resource Consumption
                 </b>
             </td>
         </tr>
@@ -79,38 +64,18 @@ Finally, you can contact us on https://mergify.com
                 
             </td>
             <td>
-                This is an automatic backport of pull request #77 done by [Mergify](https://mergify.com).
+                Signed-off-by: mik-patient <112659896+mik-patient@users.noreply.github.com>
+## Vulnerability Description
+CommonMarker uses cmark-gfm for rendering [Github Flavored Markdown](https://github.github.com/gfm/). A polynomial time complexity issue in cmark-gfm's autolink extension may lead to unbounded resource exhaustion and subsequent denial of service.
 
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
+https://github.com/gjtorikian/commonmarker/pull/190
+[GHSA-cgh3-p57x-9q7q](https://github.com/github/cmark-gfm/security/advisories/GHSA-cgh3-p57x-9q7q)
+https://en.wikipedia.org/wiki/Time_complexity
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-05 18:51:11 +0000 UTC
+        Created At 2022-10-16 04:13:11 +0000 UTC
     </div>
 </div>
 
