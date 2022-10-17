@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/neferti
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/neferti/pull/2" class=".btn">#2</a>
+                PR <a href="https://github.com/hyperledger-labs/neferti/pull/3" class=".btn">#3</a>
             </td>
             <td>
                 <b>
-                    Added Readme.md and Maintainers.md
+                    Move inactive maintainers to emeritus status
                 </b>
             </td>
         </tr>
@@ -27,12 +27,21 @@ permalink: /pull-requests/hyperledger-labs/neferti
                 
             </td>
             <td>
-                Added initial docs for the Project, Readme.md and Maintainers.md
+                The TOC approved a requirement that maintainers
+that have not been active in over three to six
+months be move to emeritus status.
+
+These maintainers have not been active in over
+one year.
+
+https://github.com/hyperledger/toc/issues/32
+
+Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-02-13 17:41:22 +0000 UTC
+        Created At 2022-10-16 18:46:15 +0000 UTC
     </div>
 </div>
 

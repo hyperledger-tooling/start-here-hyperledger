@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4540" class=".btn">#4540</a>
+            </td>
+            <td>
+                <b>
+                    Unroll Untraced Execution
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Add a second run-to-halt path used when there is no tracing.  This path calls static final versions of select operations with the aim of avoiding the megamorphic dispatch of the original loop.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-16 21:29:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4538" class=".btn">#4538</a>
             </td>
             <td>
@@ -1010,43 +1054,6 @@ There is one case I'm not sure about it : if (buf.writerIndex() < size), do we n
     </table>
     <div class="right-align">
         Created At 2022-10-10 11:50:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4501" class=".btn">#4501</a>
-            </td>
-            <td>
-                <b>
-                    hide deprecated option tx-pool-max-hashes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <macfarla.github@gmail.com>
-
-Deprecated since 22.1.3 https://github.com/hyperledger/besu/blob/main/CHANGELOG.md#2213
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-10 00:30:03 +0000 UTC
     </div>
 </div>
 

@@ -27,9 +27,7 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 
             </td>
             <td>
-                - Spec https://www.w3.org/TR/vc-data-model/#presentations-0 don't require id should uri
-
-Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
             </td>
         </tr>
     </table>
