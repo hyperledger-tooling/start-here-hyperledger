@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/839" class=".btn">#839</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/840" class=".btn">#840</a>
             </td>
             <td>
                 <b>
-                    Support for self attested attributes in the proof template
+                    Answer presentation request with self attested attributes (FE)
                 </b>
             </td>
         </tr>
@@ -27,14 +27,16 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
                 
             </td>
             <td>
-                see https://github.com/hyperledger-labs/business-partner-agent/issues/801
+                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
 
-option to allow self attested attributes in the proof template for anoncred based presentation exchanges
+<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/840"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-10 13:07:07 +0000 UTC
+        Created At 2022-10-17 15:19:00 +0000 UTC
     </div>
 </div>
 

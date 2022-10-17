@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/492" class=".btn">#492</a>
+            </td>
+            <td>
+                <b>
+                    Implement node config download btn
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Implement the frontend node config download button.
+
+Call backend api to download the node config file.
+
+Signed-off-by: Xichen Pan <xichen.pan@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-17 17:43:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/491" class=".btn">#491</a>
             </td>
             <td>
