@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/pluggable-hcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/pluggable-hcs/pull/39" class=".btn">#39</a>
+                PR <a href="https://github.com/hyperledger-labs/pluggable-hcs/pull/41" class=".btn">#41</a>
             </td>
             <td>
                 <b>
-                    Un-archive lab
+                    Move inactive maintainers to emeritus status
                 </b>
             </td>
         </tr>
@@ -27,7 +27,51 @@ permalink: /pull-requests/hyperledger-labs/pluggable-hcs
                 
             </td>
             <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
+                The TOC approved a requirement that maintainers
+that have not been active in over three to six
+months be move to emeritus status.
+
+These maintainers have not been active in over
+one year.
+
+https://github.com/hyperledger/toc/issues/32
+
+Signed-off-by: Ry Jones <ry@linux.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-16 19:02:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/pluggable-hcs/pull/40" class=".btn">#40</a>
+            </td>
+            <td>
+                <b>
+                    Move inactive maintainers to emeritus status
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The TOC approved a requirement that maintainers
+that have not been active in over three to six
+months be move to emeritus status.
+
+These maintainers have not been active in over
+one year.
+
+https://github.com/hyperledger/toc/issues/32
+
+Signed-off-by: Ry Jones <ry@linux.com>
 
 <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
 
@@ -81,7 +125,7 @@ Checklist (DELETE AFTER READING):
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-15 16:54:07 +0000 UTC
+        Created At 2022-10-16 19:00:03 +0000 UTC
     </div>
 </div>
 
