@@ -14,26 +14,27 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/122" class=".btn">#122</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/123" class=".btn">#123</a>
             </td>
             <td>
                 <b>
-                    Using service type as ClusterIP when istio is used.
+                    Fix kubectl-hlf inspect command when empty peer array
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">HACKTOBERFEST-ACCEPTED</span>
+                
             </td>
             <td>
-                1. Updated Kubernetes service type NodePort to ClusterIP when `istio`is used.
-2. Updates made for `CA` and `Peer` resource
+                Found this bug while playing around with the operator, if organization has no peers it results in an error:
+
+`network configuration load failed: failed to parse 'peers' config item to endpointConfigurationEntity.Peers type: '' expected a map, got 'slice'`
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-05 12:19:39 +0000 UTC
+        Created At 2022-10-17 10:18:48 +0000 UTC
     </div>
 </div>
 
