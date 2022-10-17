@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1458" class=".btn">#1458</a>
+            </td>
+            <td>
+                <b>
+                    Fix integration test CI trigger
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Run integration tests when package-lock.json or the workflow file are modified
+
+Fixes #1441
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-17 04:26:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/caliper/pull/1456" class=".btn">#1456</a>
             </td>
             <td>
