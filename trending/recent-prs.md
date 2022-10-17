@@ -1,13 +1,13 @@
 
+[1461](https://github.com/hyperledger/caliper/pull/1461) Bump moment-timezone from 0.5.34 to 0.5.38
+
+[3403](https://github.com/hyperledger/aries-framework-go/pull/3403) fix: get DID uri from kid if exists
+
+[123](https://github.com/hyperledger-labs/hlf-operator/pull/123) Fix kubectl-hlf inspect command when empty peer array
+
+[1460](https://github.com/hyperledger/caliper/pull/1460) Revert "Add Node 18 to CI (#1455)"
+
 [1458](https://github.com/hyperledger/caliper/pull/1458) Fix integration test CI trigger
-
-[63](https://github.com/hyperledger/fabric-chaincode-go/pull/63) Bump google.golang.org/grpc from 1.48.0 to 1.50.1
-
-[4540](https://github.com/hyperledger/besu/pull/4540) Unroll Untraced Execution
-
-[41](https://github.com/hyperledger-labs/pluggable-hcs/pull/41) Move inactive maintainers to emeritus status
-
-[40](https://github.com/hyperledger-labs/pluggable-hcs/pull/40) Move inactive maintainers to emeritus status
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
