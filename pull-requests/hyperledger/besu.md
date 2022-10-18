@@ -265,15 +265,16 @@ Taking over @shemnon s work updating Besu to use Java17. This includes updates t
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-initial plubming of Bonsai snapshots into BonsaiWorldStateArchive for arbitrary mutable non-persisting worldstate, and refactoring usages to auto-close snapshots after usage in:
+
+Adds Bonsai snapshots as an experimental option into BonsaiWorldStateArchive for arbitrary mutable non-persisting worldstate, and refactoring usages to auto-close snapshots after usage in:
 * MainnetTransactionValidator
 * AbstractBlockCreator
 * TransactionSimulator
 * TransactionPool.validateTransaction
 
- outstanding usages to refactor:
-*  try-with-resources on transaction simulation
-* jsonrpc queries 
+ outstanding usages to refactor to use try-with-resources:
+* BlockchainQueries.getWorldState
+* TransactionSimulator.getWorldUpdater
 
 
 ## Fixed Issue(s)
@@ -824,43 +825,6 @@ mitigates #4460
     </table>
     <div class="right-align">
         Created At 2022-10-11 09:53:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4515" class=".btn">#4515</a>
-            </td>
-            <td>
-                <b>
-                    [CHANGELOG] add breaking change mention for java 17
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <macfarla.github@gmail.com>
-
-We postponed this from 22.7 with the aim of getting it included in 22.10 so adding in the "breaking change" message
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-11 02:39:15 +0000 UTC
     </div>
 </div>
 

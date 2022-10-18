@@ -14,11 +14,46 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2168" class=".btn">#2168</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2173" class=".btn">#2173</a>
             </td>
             <td>
                 <b>
-                    feat(connector-iroha2): sending transactions signed on the client-side
+                    chore(release): publish v1.1.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also manually changing the "publishConfig" property of the
+packages/cactus-cmd-socketio-server/package.json
+file because it was not set to public which excluded it from the
+release automation altogether in previous releases, causing this bug
+to be reported:
+https://github.com/hyperledger/cactus/issues/2069
+
+Fixes #2069
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-17 18:00:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2172" class=".btn">#2172</a>
+            </td>
+            <td>
+                <b>
+                    feat(connector-iroha2): sending queries signed on the client-side
                 </b>
             </td>
         </tr>
@@ -27,26 +62,21 @@ permalink: /pull-requests/hyperledger/cactus
                 <span class="chip">dependent</span>
             </td>
             <td>
-                This is improvement to initial Iroha V2 PR. Please review only the last commit.
+                - Add new helper method for signing query payload on the client side.
+- Change `query` and `generateTransaction` to support both query and transaction payload generation and
+  sending.
+- Refactor `CactusIrohaV2QueryClient` to return query context instead of single request method.
+- Update tests to fit the new API.
+- Add tests for signing queries on the client side.
 
-- Add new endpoint `generate-transaction`, to create unsigned transactions
-  that can be signed on the client side.
-- Add a function to iroha2-connector package to help signing iroha transactions
-  on the client (BLP) side.
-- Extend transact endpoint to accept signed transaction as an argument as well.
-- Add new test suite to check features implemented in this PR (i.e. signing on the client side).
-
-Relates to #2077
-
-Depends on #2153
+Depends on https://github.com/hyperledger/cactus/pull/2171
 
 Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
-
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-04 14:26:10 +0000 UTC
+        Created At 2022-10-17 12:40:11 +0000 UTC
     </div>
 </div>
 
@@ -54,11 +84,46 @@ Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2167" class=".btn">#2167</a>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2171" class=".btn">#2171</a>
             </td>
             <td>
                 <b>
-                    fix(security): vulnerabilities found in besu-all-in-one #2055
+                    feat(connector-iroha2): wait for transaction commit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependent</span>
+            </td>
+            <td>
+                - Add a new argument to transact endpoint to wait for transaction commit. When this flag is true, request will return with final transaction status (commit / reject).
+- Add new transaction hash to all the responses from the transact endpoint.
+- Alter tests to wait for status instead of waiting for X seconds to make them more reliable.
+- Add new tests to check this PR features.
+
+Relates to https://github.com/hyperledger/cactus/issues/2077
+
+Depends on https://github.com/hyperledger/cactus/pull/2168
+
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-14 14:42:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2170" class=".btn">#2170</a>
+            </td>
+            <td>
+                <b>
+                    Fixing the broken vs-code badge
                 </b>
             </td>
         </tr>
@@ -67,38 +132,14 @@ Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
                 
             </td>
             <td>
-                Signed-off-by: charelle <charelle.wrk@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-04 06:24:10 +0000 UTC
-    </div>
-</div>
+                Signed-off-by: Kamal Nayan <95926324+legendarykamal@users.noreply.github.com>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2166" class=".btn">#2166</a>
-            </td>
-            <td>
-                <b>
-                    feat(connector-iroha): update-iroha-js
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                cactus-iroha plugin updated with the latest iroha-js library.
+Solves #2169
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-01 12:46:45 +0000 UTC
+        Created At 2022-10-14 10:26:48 +0000 UTC
     </div>
 </div>
 

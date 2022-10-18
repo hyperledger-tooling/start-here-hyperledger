@@ -14,31 +14,25 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1045" class=".btn">#1045</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1052" class=".btn">#1052</a>
             </td>
             <td>
                 <b>
-                    feat(basic-messages): improve sending error handling
+                    chore(release): v0.2.5
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">ci-test</span>
             </td>
             <td>
-                Currently, when an outbound message is sent as a result of calling a module/API method and a transport error happens, an exception is thrown without any retry mechanism (unless handled externally by the outbound transporter object). In the particular case of Basic Messages, when such situation happens, a record is created but there are no means from the calling application to know its id and delete it or mark it as failed in the UI.
-
-This PR addresses this issue by throwing in `BasicMessageModule.sendMessage` a new kind of error: `MessageSendingError`, which includes the message itself and the associated record. The reason of adding the message is to open the possibility for the calling application to retry sending if it wants (not something so straightforward though, but feasible).
-
-The same strategy could potentially be extended to methods from other modules that also create records and send messages in a single step (e.g. sendQuestion, proposeCredential, offerCredential).
-
-Signed-off-by: Ariel Gentile <gentilester@gmail.com>
+                Release version 0.2.5
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-06 00:05:18 +0000 UTC
+        Created At 2022-10-13 09:31:12 +0000 UTC
     </div>
 </div>
 
@@ -46,39 +40,11 @@ Signed-off-by: Ariel Gentile <gentilester@gmail.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1044" class=".btn">#1044</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1050" class=".btn">#1050</a>
             </td>
             <td>
                 <b>
-                    feat: exposed findByQuery method in module services and added some of the necessary tests for the switch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                …ecessary tests for the switch
-
-Signed-off-by: Jim Ezesinachi <ezesinachijim@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-05 13:26:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1043" class=".btn">#1043</a>
-            </td>
-            <td>
-                <b>
-                    feat: possibility to set masterSecretId inside of WalletConfig
+                    refactor: Fix inconsistencies in issue credential and present proof modules API
                 </b>
             </td>
         </tr>
@@ -92,7 +58,7 @@ Signed-off-by: Jim Ezesinachi <ezesinachijim@gmail.com>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-04 15:48:19 +0000 UTC
+        Created At 2022-10-12 09:26:20 +0000 UTC
     </div>
 </div>
 
@@ -100,11 +66,11 @@ Signed-off-by: Jim Ezesinachi <ezesinachijim@gmail.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1040" class=".btn">#1040</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1049" class=".btn">#1049</a>
             </td>
             <td>
                 <b>
-                    feat(question-answer): separate logic to a new module
+                    feat(action-menu)!: move to separate package
                 </b>
             </td>
         </tr>
@@ -113,20 +79,26 @@ Signed-off-by: Jim Ezesinachi <ezesinachijim@gmail.com>
                 
             </td>
             <td>
-                Separated the question-answer logic to a new module.
+                Signed-off-by: Ariel Gentile <gentilester@gmail.com>
 
-Since it is now a separate module, if core gets released before the question-answer module it will not be included in the core anymore. This is a breaking change and might cause some headaches.
+BREAKING CHANGE: action-menu module has been removed from the core and moved to a separate package. To integrate it in an Agent instance, it can be injected in constructor like this:
+```ts
+const agent = new Agent({
+  config: { /* config */ },
+  dependencies: agentDependencies,
+  modules: {
+    actionMenu: new ActionMenuModule(),
+    /* other custom modules */
+   }
+})
+```
 
-We can just merge it in after 0.3.0 is released and take our time with a strategy to add it back into the core for now. 
-
----
-
-I could also keep the question-answer module inside the core and release this one separately. When we do a new 0.3.1 or 0.4.0 release the can remove it and make it dependent on this one.
+Then, module API can be accessed in `agent.modules.actionMenu`.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-02 15:45:39 +0000 UTC
+        Created At 2022-10-11 21:57:04 +0000 UTC
     </div>
 </div>
 

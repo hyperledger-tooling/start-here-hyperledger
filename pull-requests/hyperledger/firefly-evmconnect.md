@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/36" class=".btn">#36</a>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/40" class=".btn">#40</a>
             </td>
             <td>
                 <b>
-                    Fix a few data types in the config docs
+                    add support for raw transactions
                 </b>
             </td>
         </tr>
@@ -27,16 +27,14 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
                 
             </td>
             <td>
-                - fix a few data types that aren't correct in config.md
-- update contributors URL - dead link to the (I believe) correct link
-- gas oracle modes - `fixed` is referenced in a few examples but wasn't included in the list of supported values
+                Consumes the flag added in https://github.com/hyperledger/firefly-transaction-manager/pull/40
 
-Signed-off-by: Chris Bygrave <chris.bygrave@gmail.com>
+Signed-off-by: Chengxuan Xing <chengxuan.xing@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-28 10:06:58 +0000 UTC
+        Created At 2022-10-17 16:45:15 +0000 UTC
     </div>
 </div>
 

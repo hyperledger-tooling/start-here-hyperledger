@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-sdk-react-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk-react-native/pull/56" class=".btn">#56</a>
+                PR <a href="https://github.com/hyperledger/indy-sdk-react-native/pull/58" class=".btn">#58</a>
             </td>
             <td>
                 <b>
-                    feat!: update iOS installation to Hyperledger and installation instructions
+                    build: rename android package
                 </b>
             </td>
         </tr>
@@ -27,23 +27,15 @@ permalink: /pull-requests/hyperledger/indy-sdk-react-native
                 
             </td>
             <td>
-                This PR expands upon @niallshaw-absa's efforts in #54, and places the IndySDK framework file and podspec within this Hyperledger repo. I've left the podspec author under @niallshaw-absa, as you performed the majority of the work, but I'd be happy to change this if desired. Again, thank you to your efforts @niallshaw-absa!
+                #57 
+Renames android package from default `com.reactlibrary` to `org.hyperledger.indy.sdk.reactnative`
 
-Additionally, this PR updates:
-* The iOS instructions to include configuring of setting the Bitcode and Build Libraries for Distribution, and notes that Simulators are currently not supported.
-* The Android instructions to install Hermes and remove an unnecessary Java import.
-
-If any testing is desired, an essentially identical setup is available using 
-```
-source 'https://github.com/JamesKEbert/indy-sdk-react-native'
-```
-
-I've marked this as a breaking change, as noted by @TimoGlastra in https://github.com/hyperledger/indy-sdk-react-native/pull/54#issuecomment-1217811816
+Signed-off-by: Niall Shaw <niall.shaw@absa.africa>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-14 19:45:11 +0000 UTC
+        Created At 2022-10-11 12:46:57 +0000 UTC
     </div>
 </div>
 

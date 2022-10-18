@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/633" class=".btn">#633</a>
+            </td>
+            <td>
+                <b>
+                    Added deployment steps for besu network
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: adityajoshi12 <adityaprakashjoshi1@gmail.com>
+
+**Changes**
+- Added steps and network configuration for deploying besu network using bevel
+
+**Linked Issue**
+#631  
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-18 06:32:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/632" class=".btn">#632</a>
             </td>
             <td>

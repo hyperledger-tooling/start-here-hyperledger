@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/486" class=".btn">#486</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/491" class=".btn">#491</a>
             </td>
             <td>
                 <b>
-                    Update Compatibility doc for Ubuntu vesion
+                    Update Java dependencies to address CVE-2022-3171
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                This should fix last step of https://github.com/hyperledger/fabric-gateway/issues/484
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-05 13:04:29 +0000 UTC
+        Created At 2022-10-14 19:43:43 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/485" class=".btn">#485</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/490" class=".btn">#490</a>
             </td>
             <td>
                 <b>
-                    CI: Use ubuntu-22.04 at pipelines
+                    Ensure all vulnerability checks run regardless of failures
                 </b>
             </td>
         </tr>
@@ -53,14 +53,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                The CI pipeline currently uses Ubuntu 20.04. Ubuntu 22.04.1 LTS was released in August 2022, and became a recommended release for server deployments.
-
-This PR change the Ubuntu version used by pipelines, should complete https://github.com/hyperledger/fabric-gateway/issues/484
+                The Go scan uses two scanning tools and a failure of the first would stop the second running. Split them into separate Makefile targets and run them as a matrix with fail-fast disabled.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-02 05:16:03 +0000 UTC
+        Created At 2022-10-14 17:25:32 +0000 UTC
     </div>
 </div>
 

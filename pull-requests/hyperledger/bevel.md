@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2037" class=".btn">#2037</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2045" class=".btn">#2045</a>
             </td>
             <td>
                 <b>
-                    [corda] upgrade to version 4.9
+                    updated ambassador CRDs API version
                 </b>
             </td>
         </tr>
@@ -27,25 +27,121 @@ permalink: /pull-requests/hyperledger/bevel
                 
             </td>
             <td>
-                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+                Signed-off-by: adityajoshi12 <adityaprakashjoshi1@gmail.com>
 
 **Changelog**
-- Rename bevel-corda tags
-- Updated Cordapps for Corda 4.9
-- Update node helm charts for 4.9
+
+- Updated ambassador proxy CRDs from `v1beta1` to `v1`
 
  
 
+**Reviewed by**
 
+ 
 
 **Linked issue**
-#1805
+#2044
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-05 11:34:18 +0000 UTC
+        Created At 2022-10-18 06:25:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2043" class=".btn">#2043</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] Multiple chaincode option
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>
+
+**Changelog**
+- Add nested task in chaincode operations to allow multiple chaincode installation in one go
+- Update docs and sample yamls with chaincode section and channel section changes 
+
+ 
+
+**Reviewed by**
+@jagpreetsinghsasan 
+
+ 
+
+**Linked issue**
+#1224 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-12 07:58:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2042" class=".btn">#2042</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] One CA tools deployment per organization
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: mgCepeda <marina.gomez.cepeda@accenture.com>
+
+**Changelog**
+
+- Update ca-tools role to combine into a single role.
+- Update create/users
+- Update catools chart
+
+-  Add priority variable in network.yaml to ensure correct order of creation of cryptographic materials.
+   This variable has two possible values:
+   *high: indicates that this organization has orderer services, on which other organizations depend and must be executed first.
+   *standard: for organizations that only have peers and need orderer certificates already created
+
+The modifications have been tested for the following network.yaml configurations:
+* A single mixed type organization
+* A mixed type organization and a peer type organization
+* An orderer type organization and a peer type organization
+The add_peer operation has also been tested.
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar @jagpreetsinghsasan @sownak 
+
+ 
+
+**Linked issue**
+#1874 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-11 13:58:23 +0000 UTC
     </div>
 </div>
 
