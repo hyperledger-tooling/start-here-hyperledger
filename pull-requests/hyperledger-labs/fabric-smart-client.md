@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/420" class=".btn">#420</a>
+            </td>
+            <td>
+                <b>
+                    sample config with doc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is a sample core.yaml file for fsc and fabric-driver, for discussion to add and improve the associated documentation
+Signed-off-by: Dave Kelsey <d_kelsey@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-18 08:54:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/417" class=".btn">#417</a>
             </td>
             <td>
@@ -96,43 +123,6 @@ Signed-off-by: Dave Kelsey <d_kelsey@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-10-11 13:48:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/414" class=".btn">#414</a>
-            </td>
-            <td>
-                <b>
-                    Extensions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span><span class="chip">Fabric</span><span class="chip">orion</span>
-            </td>
-            <td>
-                - Fabric: 
-  - Export Envelope Service
-  - Export Transaction Validation Code
-  - TxIDStore stores now also busy transactions
-  - Restart delivery from the last block seen, if available.
-- Orion:
-  - Ledger Support 
-  - Export Discard Tx
-  - TxIDStore stores now also busy transactions
-
-Used by: https://github.com/hyperledger-labs/fabric-token-sdk/pull/406
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-11 11:40:10 +0000 UTC
     </div>
 </div>
 

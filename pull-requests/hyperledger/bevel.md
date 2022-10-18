@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/bevel
             </td>
             <td>
                 <b>
-                    updated ambassador CRDs API version
+                    [shared]: Updated ambassador CRDs API version
                 </b>
             </td>
         </tr>
