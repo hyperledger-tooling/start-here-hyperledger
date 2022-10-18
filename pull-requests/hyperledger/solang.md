@@ -62,31 +62,3 @@ permalink: /pull-requests/hyperledger/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1037" class=".btn">#1037</a>
-            </td>
-            <td>
-                <b>
-                    Arrays whose elements are dynamic should be properly Borsh decoded
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When we try to decoded a fixed array whose type is dynamic, we cannot validate the buffer length before fetching more information about each element. I found this bug while migrating the Solana target to Borsh encoding.
-
-This PR fixes this bug.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-10 20:17:19 +0000 UTC
-    </div>
-</div>
-
