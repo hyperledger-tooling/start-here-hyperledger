@@ -70,36 +70,3 @@ Signed-off-by: Ry Jones <ry@linux.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/406" class=".btn">#406</a>
-            </td>
-            <td>
-                <b>
-                    enhancements/bug fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span><span class="chip">enhancement</span>
-            </td>
-            <td>
-                This PR brings in the following enhancements/bug fixes:
-- CI: expand `fungible` and `inteop` tests to run them in parallel
-- Fungible Tests: Introduce a view that check the consistency of the transaction dbs with the ledger and the vault
-- Interop Tests: Introduce balance view to check the amount of unspent tokens, locked tokens, and locked by expired tokens.
-- Wallets: Introduce Iterators
-- Owner and Audit DB (derivates of the TTXDB): Restore status listeners when rebooting
-- HTLC Wallet: functions to return locked tokens, locked and expired tokens (with support to iterators)
-- TransactionInfoProvider: to load metadata of a transaction
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-11 13:20:41 +0000 UTC
-    </div>
-</div>
-

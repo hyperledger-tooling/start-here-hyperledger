@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/100" class=".btn">#100</a>
+            </td>
+            <td>
+                <b>
+                    restrict matrix entry in main run all runset
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+
+Added if condition to the main run all runset for BC Wallet test pipeline. That runset was running for all projects giving all the results for all tests in restricted runsets with different issuers. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-18 17:42:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/99" class=".btn">#99</a>
             </td>
             <td>

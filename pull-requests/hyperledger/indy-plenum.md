@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1615" class=".btn">#1615</a>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1617" class=".btn">#1617</a>
             </td>
             <td>
                 <b>
-                    correctly pass ledger_id to the timestamp state storage
+                    updated Actions because of
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/indy-plenum
                 
             </td>
             <td>
-                Fixes an issue during catch-up that caused all timestamps to get written into the domain_ledger ts storage, ignoring the config_ledger.
+                Node.js 12 deprecation in GHA
 
-Signed-off-by: Christian Bormann <ChristianCarl.Bormann@de.bosch.com>
+Signed-off-by: pSchlarb <p.schlarb@esatus.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-11 15:22:38 +0000 UTC
+        Created At 2022-10-18 13:59:46 +0000 UTC
     </div>
 </div>
 
