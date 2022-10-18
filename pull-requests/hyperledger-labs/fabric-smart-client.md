@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/421" class=".btn">#421</a>
+            </td>
+            <td>
+                <b>
+                    nwo delete vault
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-18 14:31:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/420" class=".btn">#420</a>
             </td>
             <td>
@@ -93,36 +119,6 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-10-12 08:13:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/415" class=".btn">#415</a>
-            </td>
-            <td>
-                <b>
-                    restructure fsc and fabric driver core to be more intuitive
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span><span class="chip">configuration</span><span class="chip">Fabric</span>
-            </td>
-            <td>
-                1. create a grpc section in core and move appropriate keys to be children
-2. sort out tls for fabric-driver section
-3. make web client configuration keys match intent
-
-Signed-off-by: Dave Kelsey <d_kelsey@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-11 13:48:34 +0000 UTC
     </div>
 </div>
 

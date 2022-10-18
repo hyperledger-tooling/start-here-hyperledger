@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-shared-gha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-shared-gha/pull/16" class=".btn">#16</a>
+                PR <a href="https://github.com/hyperledger/indy-shared-gha/pull/17" class=".btn">#17</a>
             </td>
             <td>
                 <b>
-                    generalized artifactory deb upload
+                    updated Actions because of
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/indy-shared-gha
                 
             </td>
             <td>
-                Signed-off-by: pSchlarb <p.schlarb@esatus.com>
+                Node.js 12 deprecation in GHA
+
+Signed-off-by: pSchlarb <p.schlarb@esatus.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-31 11:24:39 +0000 UTC
+        Created At 2022-10-18 13:48:57 +0000 UTC
     </div>
 </div>
 

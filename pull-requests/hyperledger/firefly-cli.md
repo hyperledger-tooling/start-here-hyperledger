@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/222" class=".btn">#222</a>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/223" class=".btn">#223</a>
             </td>
             <td>
                 <b>
-                    Allow contract constructor params
+                    When --prometheus-enabled is set, add FFTM metric configuration to prometheus.yml and evmconnect_*.yaml
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/firefly-cli
                 
             </td>
             <td>
-                I think when the fabric and ethereum commands were split out the argument checking became too strict and prevent the "params" JSON header from being set to anything other than an empty array. For smart contracts with constructors that take parameters this means you can't provide the vars needed at deploy time.
+                This PR relates to PR https://github.com/hyperledger/firefly-transaction-manager/pull/41 which adds support for prometheus metrics in FFTM.
+
+Signed-off-by: Matthew Whitehead <matthew.whitehead@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-27 19:09:40 +0000 UTC
+        Created At 2022-10-18 13:55:28 +0000 UTC
     </div>
 </div>
 

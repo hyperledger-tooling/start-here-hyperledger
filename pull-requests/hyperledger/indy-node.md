@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1783" class=".btn">#1783</a>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1784" class=".btn">#1784</a>
             </td>
             <td>
                 <b>
-                    Feature/config transaction flag
+                    updated Actions because of
                 </b>
             </td>
         </tr>
@@ -27,15 +27,14 @@ permalink: /pull-requests/hyperledger/indy-node
                 
             </td>
             <td>
-                - Support for generic flags in the config ledger
-- Support for specific config transaction to switch to new/proper sorting for rev_reg_entry 
+                Node.js 12 deprecation in GHA
 
-Signed-off-by: Christian Bormann <ChristianCarl.Bormann@de.bosch.com>
+Signed-off-by: Philipp Schlarb <p.schlarb@esatus.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-23 09:13:38 +0000 UTC
+        Created At 2022-10-18 13:56:13 +0000 UTC
     </div>
 </div>
 
