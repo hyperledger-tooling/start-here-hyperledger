@@ -66,34 +66,3 @@ This is a significant bug, as it changes the default in v1.1 to listen from the 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1088" class=".btn">#1088</a>
-            </td>
-            <td>
-                <b>
-                    Allow listening for go debug on all interfaces, not just localhost
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                It's difficult using the go pprof debug utility when running in a container since the network interface it binds to defaults to localhost. This PR makes 2 changes:
-
-1. Make the interface address configurable
-2. Change the default interface to "*"
-
-It still requires changes to the docker run command or docker compose overrides file to get a route through to the debug listener, but doesn't require you to rebuild firefly. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-11 12:31:37 +0000 UTC
-    </div>
-</div>
-
