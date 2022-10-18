@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/37" class=".btn">#37</a>
+                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/40" class=".btn">#40</a>
             </td>
             <td>
                 <b>
-                    Move 10 depth to correct channel, for spurious ack processing
+                    adding a flag to support pre signed transactions
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
                 
             </td>
             <td>
-                There was an unused `receive` channel on the WebSocket connection, which was updated in #36 - but the actual channel that was used to queue acks (the `receiveChannel`) that is shared between all connections on given topic, was not updated.
+                Adding a boolean flag in the Managed Transaction to indicate whether the transaction is pre-signed. Therefore, the connector can use that flag to call `sendRawTransaction` .
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-11 22:20:19 +0000 UTC
+        Created At 2022-10-17 16:39:19 +0000 UTC
     </div>
 </div>
 

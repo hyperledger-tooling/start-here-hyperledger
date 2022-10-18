@@ -293,32 +293,3 @@ You can trigger Dependabot actions by commenting on this PR:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3397" class=".btn">#3397</a>
-            </td>
-            <td>
-                <b>
-                    refactor: update ALPINE_VER and GO_VER args in Makefile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Description:**
-update default values of ALPINE_VER and GO_VER args in Makefile in order to build project inside suitable image
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-11 05:33:31 +0000 UTC
-    </div>
-</div>
-

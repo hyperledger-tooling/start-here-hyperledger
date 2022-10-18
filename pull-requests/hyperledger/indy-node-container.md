@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node-container
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node-container/pull/116" class=".btn">#116</a>
+                PR <a href="https://github.com/hyperledger/indy-node-container/pull/117" class=".btn">#117</a>
             </td>
             <td>
                 <b>
-                    112 podman
+                    Extended run howto in readme
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-node-container
                 
             </td>
             <td>
-                fixes https://github.com/hyperledger/indy-node-container/issues/112
+                Signed-off-by: Sebastian Schmittner <sebastian.schmittner@eecc.de>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-21 09:11:59 +0000 UTC
+        Created At 2022-10-14 06:44:59 +0000 UTC
     </div>
 </div>
 

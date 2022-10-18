@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/hyperledger-hip
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/hyperledger-hip/pull/6" class=".btn">#6</a>
+                PR <a href="https://github.com/hyperledger/hyperledger-hip/pull/7" class=".btn">#7</a>
             </td>
             <td>
                 <b>
-                    Propose Solang lab for incubation
+                    Hyperledger AnonCreds Proposal
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/hyperledger-hip
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-12 15:44:04 +0000 UTC
+        Created At 2022-10-17 20:37:23 +0000 UTC
     </div>
 </div>
 

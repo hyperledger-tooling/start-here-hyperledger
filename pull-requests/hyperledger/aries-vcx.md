@@ -14,25 +14,25 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/590" class=".btn">#590</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/605" class=".btn">#605</a>
             </td>
             <td>
                 <b>
-                    Fix default presentation preview message family
+                    Backchannel-related refactoring
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">hotfix</span>
+                <span class="chip">refactoring</span>
             </td>
             <td>
-                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-05 07:35:02 +0000 UTC
+        Created At 2022-10-16 16:58:41 +0000 UTC
     </div>
 </div>
 
@@ -40,25 +40,25 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/589" class=".btn">#589</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/604" class=".btn">#604</a>
             </td>
             <td>
                 <b>
-                    Avoid adding extra quotes when building offer from proposal in array format 
+                    Rust aries agent
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">hotfix</span>
+                <span class="chip">feature</span>
             </td>
             <td>
-                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-04 16:30:44 +0000 UTC
+        Created At 2022-10-16 16:57:19 +0000 UTC
     </div>
 </div>
 
@@ -66,29 +66,30 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/588" class=".btn">#588</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/603" class=".btn">#603</a>
             </td>
             <td>
                 <b>
-                    Builder pattern in agency client configuration
+                    Refactor CI using composite actions
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">hotfix</span>
+                <span class="chip">ci</span>
             </td>
             <td>
-                Allows constructing agency client more eloquently as
+                - Extract number of composite actions
+- Technical details such us caching directory / file location, concept of cache-key hidden behind simpler composite-action interface
+- In case of cache miss, significantly improved build times by reusing docker layers from previous branch build / master branch build 
+- CI workflow file shorter by ~500 lines :-) 
 
-```let agency_client = AgencyClient::new().configure(&agency_client_config)?;```
-
-Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-30 10:39:13 +0000 UTC
+        Created At 2022-10-16 10:46:47 +0000 UTC
     </div>
 </div>
 
@@ -96,17 +97,17 @@ Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/586" class=".btn">#586</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/602" class=".btn">#602</a>
             </td>
             <td>
                 <b>
-                    Make vcx_issuer_send_credential return SM state number
+                    Update Rust toolchain to 1.64.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">hotfix</span>
+                <span class="chip">update</span>
             </td>
             <td>
                 Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
@@ -114,7 +115,7 @@ Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-29 19:33:22 +0000 UTC
+        Created At 2022-10-15 19:12:39 +0000 UTC
     </div>
 </div>
 
@@ -122,25 +123,26 @@ Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/585" class=".btn">#585</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/601" class=".btn">#601</a>
             </td>
             <td>
                 <b>
-                    Add CONTRIBUTING.md file
+                    Remove vdrtools FFI layer
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">documentation</span>
+                
             </td>
             <td>
-                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+                
+Signed-off-by: Artem Mironov <artem.mironov@absa.africa>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-29 17:50:00 +0000 UTC
+        Created At 2022-10-13 20:15:06 +0000 UTC
     </div>
 </div>
 

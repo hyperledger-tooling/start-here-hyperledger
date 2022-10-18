@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1087" class=".btn">#1087</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1090" class=".btn">#1090</a>
             </td>
             <td>
                 <b>
-                    Fix docker image labels
+                    Fix typo in multiparty_features.md
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                Resolves https://github.com/hyperledger/firefly/issues/1086
-
-This moves the bash evaluation up a step, because it cannot be used inside the `with:` field for the docker build and push action
+                Signed-off-by: Chengxuan Xing <chengxuan.xing@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-05 20:24:51 +0000 UTC
+        Created At 2022-10-17 22:31:54 +0000 UTC
     </div>
 </div>
 
@@ -42,11 +40,11 @@ This moves the bash evaluation up a step, because it cannot be used inside the `
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1085" class=".btn">#1085</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1089" class=".btn">#1089</a>
             </td>
             <td>
                 <b>
-                    Use new steps in Docker GitHub Actions
+                    Set firstEvent default using string
                 </b>
             </td>
         </tr>
@@ -55,12 +53,16 @@ This moves the bash evaluation up a step, because it cannot be used inside the `
                 
             </td>
             <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+                `viper.GetString` does not return a value, if the default was set to a type that wraps string.
+
+So the fact we were setting the default for `firstEvent` as `core.SubOptsFirstEventOldest`, meant the default did not work.
+
+This is a significant bug, as it changes the default in v1.1 to listen from the current block (the EthConnect/FabConnect/EVMConnect default for an unset value), rather than the beginning of the blockchain (as we did in v1.0).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-05 18:39:50 +0000 UTC
+        Created At 2022-10-14 19:28:53 +0000 UTC
     </div>
 </div>
 
@@ -68,11 +70,11 @@ This moves the bash evaluation up a step, because it cannot be used inside the `
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1080" class=".btn">#1080</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1088" class=".btn">#1088</a>
             </td>
             <td>
                 <b>
-                    Add inclusivity statement
+                    Allow listening for go debug on all interfaces, not just localhost
                 </b>
             </td>
         </tr>
@@ -81,12 +83,17 @@ This moves the bash evaluation up a step, because it cannot be used inside the `
                 
             </td>
             <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+                It's difficult using the go pprof debug utility when running in a container since the network interface it binds to defaults to localhost. This PR makes 2 changes:
+
+1. Make the interface address configurable
+2. Change the default interface to "*"
+
+It still requires changes to the docker run command or docker compose overrides file to get a route through to the debug listener, but doesn't require you to rebuild firefly. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-03 14:05:19 +0000 UTC
+        Created At 2022-10-11 12:31:37 +0000 UTC
     </div>
 </div>
 
