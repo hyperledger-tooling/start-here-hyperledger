@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/205" class=".btn">#205</a>
+            </td>
+            <td>
+                <b>
+                    FFI doc update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                @outoftardis go ahead and take over this PR
+
+Signed-off-by: Marin Veršić <marin.versic101@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-18 19:56:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/202" class=".btn">#202</a>
+            </td>
+            <td>
+                <b>
+                    [docs]: Move files from main repo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+
+- move some docs from iroha repository (see pr: https://github.com/hyperledger/iroha/pull/2879)
+- update the chapter on genesis (partially addresses #171)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-18 18:41:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/201" class=".btn">#201</a>
             </td>
             <td>

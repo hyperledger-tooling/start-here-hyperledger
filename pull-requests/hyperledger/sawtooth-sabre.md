@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/197" class=".btn">#197</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sabre/pull/198" class=".btn">#198</a>
             </td>
             <td>
                 <b>
-                    Replace transact dependencies with sawtooth
+                    Move inactive maintainers to emeritus status
                 </b>
             </td>
         </tr>
@@ -27,12 +27,21 @@ permalink: /pull-requests/hyperledger/sawtooth-sabre
                 
             </td>
             <td>
-                <nil>
+                The TOC approved a requirement that maintainers
+that have not been active in over three to six
+months be move to emeritus status.
+
+These maintainers have not been active in over
+one year.
+
+hyperledger/toc#32
+
+Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-08 22:45:09 +0000 UTC
+        Created At 2022-10-18 20:20:05 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/318" class=".btn">#318</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/319" class=".btn">#319</a>
             </td>
             <td>
                 <b>
-                    Github Actions
+                    Release Workflow
                 </b>
             </td>
         </tr>
@@ -27,7 +27,8 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+                
+<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
 
 <!--- Provide a descriptive summary of your changes in the Title above. -->
 
@@ -40,9 +41,12 @@ permalink: /pull-requests/hyperledger/fabric-ca
 
 #### Description
 
-- Replicate Fabric CA Azure Pipelines on GitHub Actions in preparation to migrate from Azure Pipelines
-
 <!--- Describe your changes in detail, including motivation. -->
+
+- Release workflow automates new release creation process similar the current Azure Pipelines release job
+- Generates binaries for linux, darwin, and windows targets, pushes Docker images to Hyperledger DockerHub, and creates a new tag and release with artifacts for given version number based off of main branch latest commit
+- Workflow must be manually triggered from Actions tab and requires input for the version number and two digit version number similar to Azure Pipelines
+- GitHub secrets for DOCKERHUB_PASSWORD and DOCKERHUB_USERNAME must be added to repository matching Hyperledger DockerHub credentials before workflow can be run successfully
 
 
 <!--- Additional implementation details or comments to reviewers. -->
@@ -75,7 +79,7 @@ Checklist (DELETE AFTER READING):
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-03 17:19:05 +0000 UTC
+        Created At 2022-10-18 21:48:35 +0000 UTC
     </div>
 </div>
 

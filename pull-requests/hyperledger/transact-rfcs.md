@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/transact-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact-rfcs/pull/13" class=".btn">#13</a>
+                PR <a href="https://github.com/hyperledger/transact-rfcs/pull/14" class=".btn">#14</a>
             </td>
             <td>
                 <b>
-                    Update MAINTAINERS.md
+                    Move inactive maintainers to emeritus status
                 </b>
             </td>
         </tr>
@@ -27,14 +27,21 @@ permalink: /pull-requests/hyperledger/transact-rfcs
                 
             </td>
             <td>
-                Retire Gari, remove old chat reference
+                The TOC approved a requirement that maintainers
+that have not been active in over three to six
+months be move to emeritus status.
+
+These maintainers have not been active in over
+one year.
+
+hyperledger/toc#32
 
 Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-20 23:23:28 +0000 UTC
+        Created At 2022-10-18 19:03:07 +0000 UTC
     </div>
 </div>
 

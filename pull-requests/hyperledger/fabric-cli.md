@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-cli/pull/40" class=".btn">#40</a>
+                PR <a href="https://github.com/hyperledger/fabric-cli/pull/41" class=".btn">#41</a>
             </td>
             <td>
                 <b>
-                    Patched 🐛 Improper Input Validation in GoGo Protobuf
+                    Move inactive maintainers to emeritus status
                 </b>
             </td>
         </tr>
@@ -27,17 +27,21 @@ permalink: /pull-requests/hyperledger/fabric-cli
                 
             </td>
             <td>
-                An issue was discovered in GoGo Protobuf before 1.3.2. plugin/unmarshal/unmarshal.go lacks certain index validation, aka the "skippy peanut butter" issue.
+                The TOC approved a requirement that maintainers
+that have not been active in over three to six
+months be move to emeritus status.
 
-**CVE-2021-3121**
-`8.6 / 10`
-CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H
+These maintainers have not been active in over
+one year.
 
+hyperledger/toc#32
+
+Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-18 04:03:05 +0000 UTC
+        Created At 2022-10-18 18:51:41 +0000 UTC
     </div>
 </div>
 

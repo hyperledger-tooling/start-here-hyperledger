@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2879" class=".btn">#2879</a>
+            </td>
+            <td>
+                <b>
+                    [documentation]: Move some docs to the tutorial repository
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+
+Moved some of the docs to the tutorial repo. This can be merged after https://github.com/hyperledger/iroha-2-docs/pull/202 is merged.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-18 18:49:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2878" class=".btn">#2878</a>
             </td>
             <td>

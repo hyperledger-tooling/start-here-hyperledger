@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-python/pull/39" class=".btn">#39</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-python/pull/40" class=".btn">#40</a>
             </td>
             <td>
                 <b>
-                    Remove RocketChat
+                    Move inactive maintainers to emeritus status
                 </b>
             </td>
         </tr>
@@ -27,12 +27,21 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-python
                 
             </td>
             <td>
-                <nil>
+                The TOC approved a requirement that maintainers
+that have not been active in over three to six
+months be move to emeritus status.
+
+These maintainers have not been active in over
+one year.
+
+hyperledger/toc#32
+
+Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-01 16:30:22 +0000 UTC
+        Created At 2022-10-18 20:11:22 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-core
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2434" class=".btn">#2434</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2436" class=".btn">#2436</a>
             </td>
             <td>
                 <b>
-                    Update sawtooth-default-poet.yaml
+                    Move inactive maintainers to emeritus status
                 </b>
             </td>
         </tr>
@@ -27,12 +27,21 @@ permalink: /pull-requests/hyperledger/sawtooth-core
                 
             </td>
             <td>
-                Signed-off-by: Benjamin Moore <74261880+bmoore06@users.noreply.github.com>
+                The TOC approved a requirement that maintainers
+that have not been active in over three to six
+months be move to emeritus status.
+
+These maintainers have not been active in over
+one year.
+
+hyperledger/toc#32
+
+Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-08 18:38:37 +0000 UTC
+        Created At 2022-10-18 20:35:11 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/102" class=".btn">#102</a>
+                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/107" class=".btn">#107</a>
             </td>
             <td>
                 <b>
-                    update sandbox to work with different namespaces
+                    Move inactive maintainers to emeritus status
                 </b>
             </td>
         </tr>
@@ -27,23 +27,21 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
                 
             </td>
             <td>
-                By setting the `FF_DEFAULT_NAMESPACE` environment variable when deploying the sandbox server, the sandbox will now work with namespaces other than `default`. 
+                The TOC approved a requirement that maintainers
+that have not been active in over three to six
+months be move to emeritus status.
 
+These maintainers have not been active in over
+one year.
 
-Note: Further discussion is needed with @awrichar to figure out how sandbox + firefly-sdk can be updated to work with multiple namespaces. 
+hyperledger/toc#32
 
-
-
-
-<img width="404" alt="Screen Shot 2022-09-02 at 1 15 59 PM" src="https://user-images.githubusercontent.com/10987380/188205175-942ae876-080b-488f-a75b-f66d6e151dda.png">
-
-
-
+Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-02 17:14:16 +0000 UTC
+        Created At 2022-10-18 18:39:09 +0000 UTC
     </div>
 </div>
 
