@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1044" class=".btn">#1044</a>
+            </td>
+            <td>
+                <b>
+                    Disallow try-catch statements on Solana
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-19 18:34:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1043" class=".btn">#1043</a>
+            </td>
+            <td>
+                <b>
+                    Add Solang icon to vscode extension
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Ensure our logo is visible at https://marketplace.visualstudio.com/items?itemName=solang.solang and in vscode itself
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-19 16:24:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1042" class=".btn">#1042</a>
             </td>
             <td>
@@ -83,7 +135,13 @@ Side note: In my opinion it is completely safe to remove this built in. It was c
                 
             </td>
             <td>
-                Signed-off-by: Sean Young <sean@mess.org>
+                This makes the following changes:
+ - The data account for the solidity contract to be executed must always be the first to be passed
+ - Solana deployment code is generated in CFG and not in emit.
+ - One test fails without this fix: https://github.com/solana-labs/solana-solidity.js/pull/42
+ - Once this is merged I'll release a new version of `@solana/solidity` npm library and re-enable the test
+
+Signed-off-by: Sean Young <sean@mess.org>
             </td>
         </tr>
     </table>

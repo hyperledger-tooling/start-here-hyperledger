@@ -152,39 +152,3 @@ Impl changes suggested by #3392
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3399" class=".btn">#3399</a>
-            </td>
-            <td>
-                <b>
-                    Now JWT cred from the presentation is parsed as JWT cred.  Proof not removed.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Volodymyr Kubiv <volodymyr.kubiv@euristiq.com>
-
-
-**Title:**
-Now JWT cred from the presentation is parsed as JWT cred.  Proof not removed.
-
-**Summary:**
-
-Preliminary jwt decode removed before calling ParseCredential when the presentation is parsed.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-12 13:59:05 +0000 UTC
-    </div>
-</div>
-

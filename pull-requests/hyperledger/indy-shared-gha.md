@@ -14,6 +14,93 @@ permalink: /pull-requests/hyperledger/indy-shared-gha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-shared-gha/pull/22" class=".btn">#22</a>
+            </td>
+            <td>
+                <b>
+                    Move inactive maintainers to emeritus status
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The TOC approved a requirement that maintainers
+that have not been active in over three to six
+months be move to emeritus status.
+
+These maintainers have not been active in over
+one year.
+
+hyperledger/toc#32
+
+Signed-off-by: Ry Jones <ry@linux.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-19 16:15:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-shared-gha/pull/21" class=".btn">#21</a>
+            </td>
+            <td>
+                <b>
+                    fixed typo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: pSchlarb <p.schlarb@esatus.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-19 14:19:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-shared-gha/pull/20" class=".btn">#20</a>
+            </td>
+            <td>
+                <b>
+                    fixed env error
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: pSchlarb <p.schlarb@esatus.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-19 13:08:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-shared-gha/pull/19" class=".btn">#19</a>
             </td>
             <td>

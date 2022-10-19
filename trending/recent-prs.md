@@ -1,13 +1,13 @@
 
-[19](https://github.com/hyperledger/indy-shared-gha/pull/19) Fix environment variable reference.
+[1044](https://github.com/hyperledger/solang/pull/1044) Disallow try-catch statements on Solana
 
-[209](https://github.com/hyperledger/iroha-2-docs/pull/209) [docs]: Update FFI chapter
+[327](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/327) Rfcs updated for asset-transfer and asset-exchange
 
-[1042](https://github.com/hyperledger/solang/pull/1042) Encode arguments for assert-failure in codegen
+[4548](https://github.com/hyperledger/besu/pull/4548) prepare for 22.10.0
 
-[2888](https://github.com/hyperledger/iroha/pull/2888) [fix] #2870: Reduce amount of ConnectPeer messages sent to p2p.
+[493](https://github.com/hyperledger/fabric-gateway/pull/493) Update Go gRPC dependency to address CVE-2022-32149
 
-[2887](https://github.com/hyperledger/iroha/pull/2887) [fix] #2870: Reduce amount of ConnectPeer messages sent to p2p.
+[492](https://github.com/hyperledger/fabric-gateway/pull/492) Use nancy directly as a Go tool to avoid Docker dependency
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
