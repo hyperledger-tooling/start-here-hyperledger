@@ -216,29 +216,3 @@ The following issues were found as part of loadgenerator test setup.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1969" class=".btn">#1969</a>
-            </td>
-            <td>
-                <b>
-                    Changelog and version updates for version 0.7.5-rc0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-11 19:42:46 +0000 UTC
-    </div>
-</div>
-

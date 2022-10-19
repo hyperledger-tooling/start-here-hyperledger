@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-py
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-py/pull/175" class=".btn">#175</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-py/pull/178" class=".btn">#178</a>
             </td>
             <td>
                 <b>
-                    Update to sphinx version
+                    Move inactive maintainers to emeritus status
                 </b>
             </td>
         </tr>
@@ -27,14 +27,21 @@ permalink: /pull-requests/hyperledger/fabric-sdk-py
                 
             </td>
             <td>
-                Some old affected versions of this package are vulnerable to Cross-site Scripting (XSS). Passing HTML from untrusted sources - even after sanitizing it - to one of jQuery's DOM manipulation methods (i.e. .html(), .append(), and others) may execute untrusted code.
+                The TOC approved a requirement that maintainers
+that have not been active in over three to six
+months be move to emeritus status.
 
-Signed-off-by: Bhaskar <ram@hacker.ind.in>
+These maintainers have not been active in over
+one year.
+
+hyperledger/toc#32
+
+Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-03 12:52:23 +0000 UTC
+        Created At 2022-10-18 18:45:14 +0000 UTC
     </div>
 </div>
 

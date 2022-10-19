@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/357" class=".btn">#357</a>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/359" class=".btn">#359</a>
             </td>
             <td>
                 <b>
-                    Added deploynodes operation
+                    Added testing for deployoperator and deploynodes
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/minifabric
                 
             </td>
             <td>
-                User can now deploy nodes with a new deploynodes operation. The user must first place their node manifest files into the vars/nodespecs directory before deploying. The operation will search for CA manifest files and deploy those first before deploying the other nodes. 
-
-Also adds missing help messages for deployoperator operation and --target-environment option. 
+                Adds github action that deploys kubernetes cluster and tests the new deployoperator and deploynodes operations
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-29 00:37:02 +0000 UTC
+        Created At 2022-10-19 00:49:10 +0000 UTC
     </div>
 </div>
 

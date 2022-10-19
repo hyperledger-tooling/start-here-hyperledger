@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/158" class=".btn">#158</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/159" class=".btn">#159</a>
             </td>
             <td>
                 <b>
-                    Backport 0-6: Fix Clippy Lint introduced in Rust 1.63
+                    Move inactive maintainers to emeritus status
                 </b>
             </td>
         </tr>
@@ -27,38 +27,21 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
                 
             </td>
             <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-16 17:51:22 +0000 UTC
-    </div>
-</div>
+                The TOC approved a requirement that maintainers
+that have not been active in over three to six
+months be move to emeritus status.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/156" class=".btn">#156</a>
-            </td>
-            <td>
-                <b>
-                    Backport 0-7: Fix Clippy Lint introduced in Rust 1.63
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
+These maintainers have not been active in over
+one year.
+
+hyperledger/toc#32
+
+Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-16 17:33:57 +0000 UTC
+        Created At 2022-10-18 20:31:05 +0000 UTC
     </div>
 </div>
 

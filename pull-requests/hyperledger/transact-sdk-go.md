@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/transact-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact-sdk-go/pull/8" class=".btn">#8</a>
+                PR <a href="https://github.com/hyperledger/transact-sdk-go/pull/9" class=".btn">#9</a>
             </td>
             <td>
                 <b>
-                    Remove RocketChat
+                    Move inactive maintainers to emeritus status
                 </b>
             </td>
         </tr>
@@ -27,12 +27,21 @@ permalink: /pull-requests/hyperledger/transact-sdk-go
                 
             </td>
             <td>
-                <nil>
+                The TOC approved a requirement that maintainers
+that have not been active in over three to six
+months be move to emeritus status.
+
+These maintainers have not been active in over
+one year.
+
+hyperledger/toc#32
+
+Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-01 16:31:46 +0000 UTC
+        Created At 2022-10-18 19:04:35 +0000 UTC
     </div>
 </div>
 

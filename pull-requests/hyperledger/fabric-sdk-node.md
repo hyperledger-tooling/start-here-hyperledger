@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/618" class=".btn">#618</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/619" class=".btn">#619</a>
             </td>
             <td>
                 <b>
-                    Revert to snapshpt publishing following release
+                    Move inactive maintainers to emeritus status
                 </b>
             </td>
         </tr>
@@ -27,12 +27,21 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                <nil>
+                The TOC approved a requirement that maintainers
+that have not been active in over three to six
+months be move to emeritus status.
+
+These maintainers have not been active in over
+one year.
+
+hyperledger/toc#32
+
+Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-05 13:03:44 +0000 UTC
+        Created At 2022-10-18 18:47:47 +0000 UTC
     </div>
 </div>
 

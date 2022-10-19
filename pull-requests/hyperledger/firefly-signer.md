@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-signer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-signer/pull/27" class=".btn">#27</a>
+                PR <a href="https://github.com/hyperledger/firefly-signer/pull/28" class=".btn">#28</a>
             </td>
             <td>
                 <b>
-                    Add filesystem listener interface to KeystoreV3 signer, and move to `pkg`
+                    Evaluate all FS events: SMB CIFS filesystems mounted do not notify `CREATE`
                 </b>
             </td>
         </tr>
@@ -27,18 +27,18 @@ permalink: /pull-requests/hyperledger/firefly-signer
                 
             </td>
             <td>
-                - Moves `internal/filewallet` to `pkg/fswallet`
-- Makes it a pure code interface where the use of config YAML is optional
-- Changes this directory based wallet to have an in-memory map of addresses
-- Adds file listener to detect addition of new key files on disk, and update the in-memory list
-- Adds `filenames.primaryMatchRegex` option to extract addresses from any position in filenames
-- Adds listener code interface, to allow external code to perform per-key processing
-   - Called for all keys whether there at `Initialize` time, or added later
+                In a Linux environment with a Samba mounted CIFS filesystem, we only seem to get a notification as follows:
+
+```
+[2022-10-18T20:52:51.713Z] TRACE FSEvent [WRITE]: /.../keystore/UTC--2022-10-18T20-52-51.648Z-07686308b652040e74189f7a63a0031e6391e234 fswallet=/.../keystore
+```
+
+Currently the code only evaluates `CREATE` events, so we need to take the small overhead of the extra `stat()` and filename matching of also handling `WRITE` events.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-04 21:16:42 +0000 UTC
+        Created At 2022-10-18 20:58:11 +0000 UTC
     </div>
 </div>
 
