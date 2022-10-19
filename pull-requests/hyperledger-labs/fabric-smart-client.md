@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/422" class=".btn">#422</a>
+            </td>
+            <td>
+                <b>
+                    Minor updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span>
+            </td>
+            <td>
+                - correct a trace point that was incorrect
+- update to include 0.0.0.0 in the x509 SAN fields, for the Ubuntu WSL2 distribution the standard x509 certificates fail validation.
+
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-19 08:12:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/421" class=".btn">#421</a>
             </td>
             <td>
@@ -88,37 +117,6 @@ Signed-off-by: Dave Kelsey <d_kelsey@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-10-14 12:52:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/416" class=".btn">#416</a>
-            </td>
-            <td>
-                <b>
-                    fabric: call discard for unknown tx
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span>
-            </td>
-            <td>
-                Currently, when a transaction is marked is invalid by Fabric and it is unknown to the vault, no event is fired.
-The point is that the node can still be aware of the transaction because it stores the corresponding envelope.
-
-This PR, discard all transactions.
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-12 08:13:26 +0000 UTC
     </div>
 </div>
 
