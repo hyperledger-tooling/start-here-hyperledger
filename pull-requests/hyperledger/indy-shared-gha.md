@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/indy-shared-gha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-shared-gha/pull/19" class=".btn">#19</a>
+            </td>
+            <td>
+                <b>
+                    Fix environment variable reference.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Wade Barnes <wade@neoterictech.ca>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-19 12:44:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-shared-gha/pull/18" class=".btn">#18</a>
+            </td>
+            <td>
+                <b>
+                    updated deprecated GHA Functions 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                https://github.blog/changelog/2022-10-11-github-actions-deprecating-save-state-and-set-output-commands/
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-19 10:38:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-shared-gha/pull/17" class=".btn">#17</a>
             </td>
             <td>

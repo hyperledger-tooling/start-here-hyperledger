@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/209" class=".btn">#209</a>
+            </td>
+            <td>
+                <b>
+                    [docs]: Update FFI chapter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+
+- format fixes + minor rephrasing
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-19 12:02:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/206" class=".btn">#206</a>
+            </td>
+            <td>
+                <b>
+                    [docs]: #149, #180: Add JS examples (block stream subscription, asset transfer)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #149 
+Closes #180 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-19 08:43:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/205" class=".btn">#205</a>
             </td>
             <td>

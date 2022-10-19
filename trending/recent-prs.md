@@ -1,13 +1,13 @@
 
-[490](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/490) feat: card rendering using flexbox layout
+[19](https://github.com/hyperledger/indy-shared-gha/pull/19) Fix environment variable reference.
 
-[359](https://github.com/hyperledger-labs/minifabric/pull/359) Added testing for deployoperator and deploynodes
+[209](https://github.com/hyperledger/iroha-2-docs/pull/209) [docs]: Update FFI chapter
 
-[489](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/489) changed core/App folder to core/src
+[1042](https://github.com/hyperledger/solang/pull/1042) Encode arguments for assert-failure in codegen
 
-[319](https://github.com/hyperledger/fabric-ca/pull/319) Release Workflow
+[2888](https://github.com/hyperledger/iroha/pull/2888) [fix] #2870: Reduce amount of ConnectPeer messages sent to p2p.
 
-[635](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/635) Bump jsrsasign from 10.5.20 to 10.5.25
+[2887](https://github.com/hyperledger/iroha/pull/2887) [fix] #2870: Reduce amount of ConnectPeer messages sent to p2p.
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

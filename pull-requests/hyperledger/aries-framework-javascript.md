@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1050" class=".btn">#1050</a>
-            </td>
-            <td>
-                <b>
-                    refactor: Fix inconsistencies in issue credential and present proof modules API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-12 09:26:20 +0000 UTC
-    </div>
-</div>
-
