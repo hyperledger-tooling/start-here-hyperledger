@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-staticagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-staticagent-python/pull/97" class=".btn">#97</a>
+                PR <a href="https://github.com/hyperledger/aries-staticagent-python/pull/98" class=".btn">#98</a>
             </td>
             <td>
                 <b>
-                    ci: simplify workflows
+                    Move inactive maintainers to emeritus status
                 </b>
             </td>
         </tr>
@@ -27,38 +27,21 @@ permalink: /pull-requests/hyperledger/aries-staticagent-python
                 
             </td>
             <td>
-                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-08-23 18:01:25 +0000 UTC
-    </div>
-</div>
+                The TOC approved a requirement that maintainers
+that have not been active in over three to six
+months be move to emeritus status.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-staticagent-python/pull/96" class=".btn">#96</a>
-            </td>
-            <td>
-                <b>
-                    fix: optional parameters and seed as str or bytes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Daniel Bluhm <dbluhm@pm.me>
+These maintainers have not been active in over
+one year.
+
+hyperledger/toc#32
+
+Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-23 17:38:52 +0000 UTC
+        Created At 2022-10-19 16:08:20 +0000 UTC
     </div>
 </div>
 

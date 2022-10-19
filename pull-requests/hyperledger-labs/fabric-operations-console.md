@@ -84,36 +84,3 @@ Changes wording in the new migration panel and moves hard coded strings to the t
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/323" class=".btn">#323</a>
-            </td>
-            <td>
-                <b>
-                    Linked up the frontend with the migration api
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Nikhil Modem <Nikhil.Modem@ibm.com>
-
-#### Type of change
-- New feature
-
-#### Description
-- More work on the migration page for migration feature
-- Links the api with the frontend and present component migration status'
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-12 16:13:16 +0000 UTC
-    </div>
-</div>
-

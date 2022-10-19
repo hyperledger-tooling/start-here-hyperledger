@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2046" class=".btn">#2046</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] Fix getting orderer certs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Roy,Sownak <sownak.roy@accenture.com>
+
+**Changelog**
+- Fix issues related to helmrelease deletion
+- Issues for copying orderer certs locally
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-19 14:56:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2045" class=".btn">#2045</a>
             </td>
             <td>

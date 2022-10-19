@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-hipe
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-hipe/pull/163" class=".btn">#163</a>
+                PR <a href="https://github.com/hyperledger/indy-hipe/pull/164" class=".btn">#164</a>
             </td>
             <td>
                 <b>
-                    Propose changes for supporting Indy DID Method
+                    Move inactive maintainers to emeritus status
                 </b>
             </td>
         </tr>
@@ -27,14 +27,21 @@ permalink: /pull-requests/hyperledger/indy-hipe
                 
             </td>
             <td>
-                This PR adds a proposal describing changes required to support the new Indy DID Method.
+                The TOC approved a requirement that maintainers
+that have not been active in over three to six
+months be move to emeritus status.
 
-The implementation of this proposal can be found here: https://github.com/hyperledger/indy-node/pull/1740
+These maintainers have not been active in over
+one year.
+
+hyperledger/toc#32
+
+Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-05 13:07:58 +0000 UTC
+        Created At 2022-10-19 16:10:07 +0000 UTC
     </div>
 </div>
 

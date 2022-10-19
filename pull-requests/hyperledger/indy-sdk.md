@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2552" class=".btn">#2552</a>
+                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2557" class=".btn">#2557</a>
             </td>
             <td>
                 <b>
-                    feat(node): make addon context aware for worker threads
+                    Move inactive maintainers to emeritus status
                 </b>
             </td>
         </tr>
@@ -27,15 +27,21 @@ permalink: /pull-requests/hyperledger/indy-sdk
                 
             </td>
             <td>
-                - Makes the loading of the add-on context-aware
-- This is required for safe loading for Electron and for usage in Worker Threads.
+                The TOC approved a requirement that maintainers
+that have not been active in over three to six
+months be move to emeritus status.
 
-Signed-off-by: blu3beri <berend@animo.id>
+These maintainers have not been active in over
+one year.
+
+hyperledger/toc#32
+
+Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-06 21:15:12 +0000 UTC
+        Created At 2022-10-19 16:13:06 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/423" class=".btn">#423</a>
+            </td>
+            <td>
+                <b>
+                    NWO to only use prebuilt fabric binaries
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Dave Kelsey <d_kelsey@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-19 14:03:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/422" class=".btn">#422</a>
             </td>
             <td>
@@ -53,7 +79,7 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">bug</span><span class="chip">enhancement</span><span class="chip">Fabric</span><span class="chip">orion</span>
             </td>
             <td>
                 <nil>
