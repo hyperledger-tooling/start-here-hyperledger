@@ -15,40 +15,34 @@ permalink: /releases/hyperledger/fabric-gateway
         <tr>
             <td colspan="2">
                 <b>
-                    v1.1.0
+                    v1.1.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.1.0
+                    v1.1.1
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Block event listening (#377)
-* Event checkpointing to support resume with no loss or duplication of events (#362, #381)
-* Allow gRPC call options to be specified (#289)
-* Persistence of proposal, transaction and commit objects (#394)
-* Use new Fabric protobuf packages: https://hyperledger.github.io/fabric-protos/
-* Support for Go 1.18, Node 16 and Java 17 LTS releases
-* Go 1.16 no longer supported
+* Support Go 1.19 by @bestbeforetoday in https://github.com/hyperledger/fabric-gateway/pull/476
+* Test on Ubuntu 22.04 by @luigieai in https://github.com/hyperledger/fabric-gateway/pull/485
+* Support Node 18 LTS by @vishwas031 in https://github.com/hyperledger/fabric-gateway/pull/487
+* Update Java dependencies to address CVE-2022-3171 by @bestbeforetoday in https://github.com/hyperledger/fabric-gateway/pull/491
+* Update Go gRPC dependency to address CVE-2022-32149 by @bestbeforetoday in https://github.com/hyperledger/fabric-gateway/pull/493
 
-Note that Hyperledger Fabric v2.4.4 or later is required for full functionality.
 
-## New Contributors
-* @sapthasurendran made their first contribution in https://github.com/hyperledger/fabric-gateway/pull/398
-
-**Full Changelog**: https://github.com/hyperledger/fabric-gateway/compare/v1.0.1...v1.1.0
+**Full Changelog**: https://github.com/hyperledger/fabric-gateway/compare/v1.1.0...v1.1.1
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-gateway/releases/tag/v1.1.0" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-gateway/releases/tag/v1.1.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-06-30 11:02:21 +0000 UTC
+        Created At 2022-10-20 10:43:12 +0000 UTC
     </span>
 </div>
 
