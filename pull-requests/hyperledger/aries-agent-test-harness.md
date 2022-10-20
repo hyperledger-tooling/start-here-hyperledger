@@ -89,29 +89,3 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/573" class=".btn">#573</a>
-            </td>
-            <td>
-                <b>
-                    [#545] Update to uni-resolver-0.8.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-13 11:29:57 +0000 UTC
-    </div>
-</div>
-

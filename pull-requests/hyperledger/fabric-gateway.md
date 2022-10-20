@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/498" class=".btn">#498</a>
+            </td>
+            <td>
+                <b>
+                    Post-release version updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-20 10:52:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/497" class=".btn">#497</a>
+            </td>
+            <td>
+                <b>
+                    Require Go gRPC client connection interface for Gateway connect
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The code previously required the concrete client connection type, which is likely a hang-over from early development of the API where Gateway instances might call Close() on the concrete type. The current design deliberately leaves management of the gRPC connection to the caller so only requires the client connection interface used by gRPC service stubs. This is a non-breaking change since the interface is a subset of the methods provided by the concrete type.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-20 10:22:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/496" class=".btn">#496</a>
+            </td>
+            <td>
+                <b>
+                    Add Go 1.19 to compatibility matrix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-20 09:25:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/495" class=".btn">#495</a>
             </td>
             <td>

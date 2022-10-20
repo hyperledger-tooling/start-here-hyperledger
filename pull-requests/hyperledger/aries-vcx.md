@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/608" class=".btn">#608</a>
+            </td>
+            <td>
+                <b>
+                    Revocation notification
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">feature</span>
+            </td>
+            <td>
+                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-20 07:56:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/607" class=".btn">#607</a>
             </td>
             <td>
