@@ -14,25 +14,55 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1052" class=".btn">#1052</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1062" class=".btn">#1062</a>
             </td>
             <td>
                 <b>
-                    chore(release): v0.2.5
+                    refactor(proofs): remove ProofProtocolVersion enum in 0.3.0-pre
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">ci-test</span>
+                
             </td>
             <td>
-                Release version 0.2.5
+                Signed-off-by: Mike Richardson <mike.richardson@ontario.ca>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-13 09:31:12 +0000 UTC
+        Created At 2022-10-20 12:15:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1057" class=".btn">#1057</a>
+            </td>
+            <td>
+                <b>
+                    chore: merge 0.3.0-pre into main branch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This merges the 0.3.0-pre into the main branch. 
+
+NOTE: we should use rebase when merging so all the original commits are preserved for attribution and changelogs.
+
+Theres still some PRs to be made, but this means we can start testing the 0.3.0-alpha release and discover if there are any issues with new/existing features
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-20 07:42:52 +0000 UTC
     </div>
 </div>
 

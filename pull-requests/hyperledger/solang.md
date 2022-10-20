@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1045" class=".btn">#1045</a>
+            </td>
+            <td>
+                <b>
+                    Add substrate builtins
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This adds a "substrate" file to have custom builtins available, analog to the "solang" file.
+
+Right now there is only the "Hash" type but there will be more in the future. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-20 08:11:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1044" class=".btn">#1044</a>
             </td>
             <td>

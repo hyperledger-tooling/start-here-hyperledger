@@ -1,13 +1,13 @@
 
-[2890](https://github.com/hyperledger/iroha/pull/2890) [fix] #2880: Fix block streaming
+[1062](https://github.com/hyperledger/aries-framework-javascript/pull/1062) refactor(proofs): remove ProofProtocolVersion enum in 0.3.0-pre
 
-[59](https://github.com/hyperledger/indy-sdk-react-native/pull/59) chore: switch iOS steps, add pod update for existing projects
+[842](https://github.com/hyperledger/fabric-samples/pull/842) Update samples to use fabric-gateway v1.1.1
 
-[101](https://github.com/hyperledger/aries-mobile-test-harness/pull/101) fix webdriver-manager package issue and calibrate to 447
+[498](https://github.com/hyperledger/fabric-gateway/pull/498) Post-release version updates
 
-[3705](https://github.com/hyperledger/fabric/pull/3705) Commit path changes for private data purge
+[2895](https://github.com/hyperledger/iroha/pull/2895) [documentation]: Remove outdated doc files
 
-[118](https://github.com/hyperledger/indy-node-container/pull/118) Network connectivity test script
+[497](https://github.com/hyperledger/fabric-gateway/pull/497) Require Go gRPC client connection interface for Gateway connect
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -419,34 +419,3 @@ This reverts commit ccfa8a4a78f51e81bed877c8336e3de6141d3774.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3686" class=".btn">#3686</a>
-            </td>
-            <td>
-                <b>
-                    Use safe accessors for RWset protos
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Use the Getter functions rather than direct access to fields in the proto structures.
-
-Resolves #3685 
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-13 08:40:22 +0000 UTC
-    </div>
-</div>
-
