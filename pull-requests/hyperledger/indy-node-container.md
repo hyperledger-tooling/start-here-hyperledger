@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-node-container
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-node-container/pull/118" class=".btn">#118</a>
+            </td>
+            <td>
+                <b>
+                    Network connectivity test script
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                added script to test network connectivity between the network nodes (firewall, routing, etc.)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-19 21:31:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-node-container/pull/117" class=".btn">#117</a>
             </td>
             <td>

@@ -53,7 +53,7 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
                 
             </td>
             <td>
-                <nil>
+                Use an agent abstraction (implemented in aries-vcx-agent crate) in aries-vcx backchannel
             </td>
         </tr>
     </table>

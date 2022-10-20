@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/495" class=".btn">#495</a>
+            </td>
+            <td>
+                <b>
+                    Update Java gRPC dependency to match Go implementation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-19 20:02:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/494" class=".btn">#494</a>
+            </td>
+            <td>
+                <b>
+                    Update Node dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Includes a TypeScript version update, and matching the fabric-protos versions used by Go and Java implementations. Minor changes to test code are required to satisfy new ESLint Jest rules.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-19 19:44:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/493" class=".btn">#493</a>
             </td>
             <td>

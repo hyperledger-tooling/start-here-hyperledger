@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/607" class=".btn">#607</a>
+            </td>
+            <td>
+                <b>
+                    Fix agent build
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">hotfix</span>
+            </td>
+            <td>
+                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-19 19:47:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/605" class=".btn">#605</a>
             </td>
             <td>
