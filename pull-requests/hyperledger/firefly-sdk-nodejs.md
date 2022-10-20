@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/48" class=".btn">#48</a>
+            </td>
+            <td>
+                <b>
+                    Vscode gitignore
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-20 17:30:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/47" class=".btn">#47</a>
+            </td>
+            <td>
+                <b>
+                    Add publishData and publishDataBlob
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also includes changes to `uploadDataBlob` to allow passing additional options, and removes `uploadDataBlobWithFormData`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-20 15:21:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/46" class=".btn">#46</a>
             </td>
             <td>

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/196" class=".btn">#196</a>
+            </td>
+            <td>
+                <b>
+                    Replace RocketChat with Discord
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Tracy Kuhrt <tracy.a.kuhrt@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-20 17:55:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/195" class=".btn">#195</a>
             </td>
             <td>
