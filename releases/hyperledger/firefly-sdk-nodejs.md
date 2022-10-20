@@ -15,6 +15,39 @@ permalink: /releases/hyperledger/firefly-sdk-nodejs
         <tr>
             <td colspan="2">
                 <b>
+                    v1.1.9
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v1.1.9
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Add publishData and publishDataBlob by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/47
+* Vscode gitignore by @eberger727 in https://github.com/hyperledger/firefly-sdk-nodejs/pull/48
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.1.8...v1.1.9
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.1.9" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-10-20 17:31:58 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v1.1.8
                 </b>
             </td>
