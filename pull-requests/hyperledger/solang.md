@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                Try-catch statements are not supported on Solana. This PR updates the documentation to inform so and adds an error message when someone tries to use such a construct on Solana.
+
+PS: The intention for this PR is to avoid using ABI decoding/encoding for try-catches on Solana, a construction that requires a special case of decoding with a basic block to handle a decoding failure.
             </td>
         </tr>
     </table>

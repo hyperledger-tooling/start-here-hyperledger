@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3705" class=".btn">#3705</a>
+            </td>
+            <td>
+                <b>
+                    Commit path changes for private data purge
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR enables processing of purge operation in a transaction during block commit
+
+Signed-off-by: manish <manish.sethi@gmail.com>
+
+#### Type of change
+- New feature
+#### Related issues
+Closes #3026
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-19 23:49:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3701" class=".btn">#3701</a>
             </td>
             <td>
