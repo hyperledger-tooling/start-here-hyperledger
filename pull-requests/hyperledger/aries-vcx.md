@@ -171,30 +171,3 @@ Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/601" class=".btn">#601</a>
-            </td>
-            <td>
-                <b>
-                    Remove vdrtools FFI layer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-Signed-off-by: Artem Mironov <artem.mironov@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-13 20:15:06 +0000 UTC
-    </div>
-</div>
-

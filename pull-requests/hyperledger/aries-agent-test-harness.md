@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/580" class=".btn">#580</a>
+            </td>
+            <td>
+                <b>
+                    Issue #579 - Creating project before uploading allure results
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds a call to the `/allure-docker-service/projects` api endpoint before uploading the results. If the project already exists, it will simply upload the results to the existing project.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-21 01:25:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/578" class=".btn">#578</a>
+            </td>
+            <td>
+                <b>
+                    Fix for when there is no runset that manifests in PASSED or FAILED values
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-20 21:22:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/577" class=".btn">#577</a>
             </td>
             <td>
@@ -59,33 +112,6 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     </table>
     <div class="right-align">
         Created At 2022-10-16 17:29:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/574" class=".btn">#574</a>
-            </td>
-            <td>
-                <b>
-                    Make acapy Dockerfile the same as acapy-main
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-13 23:57:39 +0000 UTC
     </div>
 </div>
 
