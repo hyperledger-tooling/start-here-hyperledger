@@ -15,6 +15,39 @@ permalink: /releases/hyperledger/firefly-sdk-nodejs
         <tr>
             <td colspan="2">
                 <b>
+                    v1.1.11
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v1.1.11
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Remove extra namespace definition in resolve verifier endpoint by @lanasta in https://github.com/hyperledger/firefly-sdk-nodejs/pull/50
+* Package lock update by @lanasta in https://github.com/hyperledger/firefly-sdk-nodejs/pull/51
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.1.10...v1.1.11
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.1.11" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-10-21 17:19:59 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v1.1.10
                 </b>
             </td>
@@ -72,40 +105,6 @@ permalink: /releases/hyperledger/firefly-sdk-nodejs
     </a>
     <span class="right-align">
         Created At 2022-10-20 17:31:58 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v1.1.8
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v1.1.8
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* Add publish blob and upload blob with form data by @lanasta in https://github.com/hyperledger/firefly-sdk-nodejs/pull/46
-
-## New Contributors
-* @lanasta made their first contribution in https://github.com/hyperledger/firefly-sdk-nodejs/pull/46
-
-**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.1.7...v1.1.8
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.1.8" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-10-14 17:24:07 +0000 UTC
     </span>
 </div>
 
