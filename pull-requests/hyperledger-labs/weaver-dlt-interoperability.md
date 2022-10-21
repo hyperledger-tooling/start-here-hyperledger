@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/328" class=".btn">#328</a>
+            </td>
+            <td>
+                <b>
+                    Request attestation endpoint implemented
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - implemented request attestation endpoint under local operations for iin agent
+- implemented some minor bug fixes in localserver.ts and server.ts
+- added test for 2 iin agents in workflow and implemented some minor bug fixes in the test for 2 iin agents
+- minor updates to the docker-testnet environment files
+- added dns config file involving 2 iin agents
+- minor updates to the documentation for installing the Go code generator plugins for protobuf-compiler
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-21 10:58:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/327" class=".btn">#327</a>
             </td>
             <td>

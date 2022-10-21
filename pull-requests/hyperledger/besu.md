@@ -362,38 +362,3 @@ Fixes #3418
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4537" class=".btn">#4537</a>
-            </td>
-            <td>
-                <b>
-                    WIP Deleting missing nodes during snap sync
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is a work in progress…
-
-Before persisting a new value for a node during the heal step of snap sync, we check if there are some old nodes that should be deleted and delete those nodes from database. 
-
-Note that we need to touch each node of the tree that needs to be deleted. 
-
-We could batch the storage deletions from the flat database in one call for a whole account, but to delete the data from the bonsai tree we would still have to touch each  node.
-
-
-No tests here yet, sorry...
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-14 09:09:25 +0000 UTC
-    </div>
-</div>
-

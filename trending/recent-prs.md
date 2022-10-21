@@ -1,13 +1,13 @@
 
-[99](https://github.com/hyperledger/aries-staticagent-python/pull/99) chore(deps): Bump nokogiri from 1.13.8 to 1.13.9 in /docs
+[845](https://github.com/hyperledger-labs/business-partner-agent/pull/845) removed unnecessary error log statements
 
-[49](https://github.com/hyperledger/firefly-sdk-nodejs/pull/49) Add function for verifier resolve with namespace
+[64](https://github.com/hyperledger-labs/business-partner-agent-chart/pull/64) BPA 0.12
 
-[142](https://github.com/hyperledger/fabric-protos/pull/142) Bump nokogiri from 1.13.6 to 1.13.9 in /docs
+[409](https://github.com/hyperledger-labs/fabric-token-sdk/pull/409) WIP
 
-[3708](https://github.com/hyperledger/fabric/pull/3708) Changed Linux to Linux(Ubuntu/Debian based distro)
+[328](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/328) Request attestation endpoint implemented
 
-[500](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/500) chore(deps): bump react-native-reanimated from 2.2.4 to 2.11.0 in /core
+[843](https://github.com/hyperledger/fabric-samples/pull/843) Refactor Go files
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

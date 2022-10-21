@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/63" class=".btn">#63</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/64" class=".btn">#64</a>
             </td>
             <td>
                 <b>
-                    fix genesis url in init container
+                    BPA 0.12
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
                 
             </td>
             <td>
-                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-12 10:35:49 +0000 UTC
+        Created At 2022-10-21 12:01:25 +0000 UTC
     </div>
 </div>
 

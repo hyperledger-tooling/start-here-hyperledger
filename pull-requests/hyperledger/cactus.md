@@ -115,31 +115,3 @@ Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2170" class=".btn">#2170</a>
-            </td>
-            <td>
-                <b>
-                    Fixing the broken vs-code badge
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Kamal Nayan <95926324+legendarykamal@users.noreply.github.com>
-
-Solves #2169
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-14 10:26:48 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,99 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2898" class=".btn">#2898</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #2508: Add a new client CLI subcommand that accept wasm
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Vladimir Pesterev <pesterev@pm.me>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+Add a new subcommand to the Client CLI that accepts wasm binaries and executes them.
+
+### Issue
+
+Closes #2508
+
+### Benefits
+
+Allow executing wasm binaries from the Client CLI.
+
+### Possible Drawbacks
+
+None
+
+### Usage Examples or Tests *[optional]*
+
+Save it into a WAT file.
+```wasm
+(module
+            
+        ;; Import host function to execute instruction
+        (import "iroha" "execute_instruction"
+            (func $exec_isi (param i32 i32)))
+
+        ;; Import host function to execute query
+        (import "iroha" "execute_query"
+            (func $exec_query (param i32 i32) (result i32)))
+
+        ;; Embed ISI into WASM binary memory
+        (memory (export "memory") 1)
+        (data (i32.const 0) "\00\0d\09\00\04\30\00\00\06\00\0d\09\00\04\31\00\00\05\0d\02\00\08\2c\75\6e\72\65\61\63\68\61\62\6c\65\01\07\08\00\0d\09\00\04\32\00\00\00\0d\09\00\04\33\00\00")
+
+        ;; Variable which tracks total allocated size
+        (global $mem_size (mut i32) i32.const 53)
+
+        ;; Export mock allocator to host. This allocator never frees!
+        (func (export "_iroha_wasm_alloc") (param $size i32) (result i32)
+            global.get $mem_size
+
+            (global.set $mem_size
+                (i32.add (global.get $mem_size) (local.get $size)))
+        )
+        
+
+            ;; Function which starts the smartcontract execution
+            (func (export "_iroha_wasm_main") (param)
+                (call $exec_isi (i32.const 0) (i32.const 8))(call $exec_isi (i32.const 8) (i32.const 45))))
+```
+
+Pass the file like this
+```sh
+./iroha_client_cli wasm ./test.wat
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-21 07:59:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2897" class=".btn">#2897</a>
             </td>
             <td>
