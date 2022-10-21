@@ -31,6 +31,8 @@ permalink: /pull-requests/hyperledger/fabric-samples
 2. fix variable names that collide with imported package name
 3. fix typos
 
+Also update Go version specified by Go modules to ensure a Go version is used in which ioutil is deprecated and replacement functions are available in os and io packages.
+
 Signed-off-by: Tommy TIAN <xtianae@connect.ust.hk>
 Co-authored-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
             </td>
@@ -64,34 +66,6 @@ Co-authored-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-10-20 11:49:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/841" class=".btn">#841</a>
-            </td>
-            <td>
-                <b>
-                    Update go chaincode samples
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update to the latest github.com/hyperledger/fabric-contract-api-go
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-14 15:46:58 +0000 UTC
     </div>
 </div>
 

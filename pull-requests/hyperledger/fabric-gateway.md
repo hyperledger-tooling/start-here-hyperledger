@@ -218,29 +218,3 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/490" class=".btn">#490</a>
-            </td>
-            <td>
-                <b>
-                    Ensure all vulnerability checks run regardless of failures
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The Go scan uses two scanning tools and a failure of the first would stop the second running. Split them into separate Makefile targets and run them as a matrix with fail-fast disabled.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-14 17:25:32 +0000 UTC
-    </div>
-</div>
-
