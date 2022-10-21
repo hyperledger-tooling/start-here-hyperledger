@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span><span class="chip">NWO</span><span class="chip">Fabric</span>
             </td>
             <td>
                 Signed-off-by: Dave Kelsey <d_kelsey@uk.ibm.com>
@@ -73,7 +73,7 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
             <td>
                 <b>
-                    nwo delete vault
+                    enhancement pack
                 </b>
             </td>
         </tr>
@@ -82,7 +82,14 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
                 <span class="chip">bug</span><span class="chip">enhancement</span><span class="chip">Fabric</span><span class="chip">orion</span>
             </td>
             <td>
-                <nil>
+                - NWO fabric and orion: ability to remove the vault of FSC nodes
+- Introduce the `PostStart` interface. PostStart allows a platform to start services after all the other platforms have been started. This feature has been introduce to allow platforms to add hookups in the fabric and orion commit pipelines before the pipelines start. Fabric and Orion commit pipelines are now activated in post-start.
+- fabric chaincode: when querying a chiancode, discovery performs now a `peer query` and not an `endorser query`.
+- Fabric and Orion Committer: if the status of a transaction is requested, if this transaction does not exist in the vault but its envelope exists, then the envelope is loaded into the vaul.
+
+The changes to the commit pipelines and `PostStart` allow a node to rebuild its vault if the KVS has not been compromised.
+
+Used by: https://github.com/hyperledger-labs/fabric-token-sdk/pull/406
             </td>
         </tr>
     </table>

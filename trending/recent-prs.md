@@ -1,13 +1,13 @@
 
-[580](https://github.com/hyperledger/aries-agent-test-harness/pull/580) Issue #579 - Creating project before uploading allure results
+[99](https://github.com/hyperledger/aries-staticagent-python/pull/99) chore(deps): Bump nokogiri from 1.13.8 to 1.13.9 in /docs
 
-[498](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/498) refactor: namespaced exports
+[49](https://github.com/hyperledger/firefly-sdk-nodejs/pull/49) Add function for verifier resolve with namespace
 
-[578](https://github.com/hyperledger/aries-agent-test-harness/pull/578) Fix for when there is no runset that manifests in PASSED or FAILED values
+[142](https://github.com/hyperledger/fabric-protos/pull/142) Bump nokogiri from 1.13.6 to 1.13.9 in /docs
 
-[497](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/497) feat: add indyLedgers to ConfigurationContext
+[3708](https://github.com/hyperledger/fabric/pull/3708) Changed Linux to Linux(Ubuntu/Debian based distro)
 
-[3706](https://github.com/hyperledger/fabric/pull/3706) Release Workflow
+[500](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/500) chore(deps): bump react-native-reanimated from 2.2.4 to 2.11.0 in /core
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

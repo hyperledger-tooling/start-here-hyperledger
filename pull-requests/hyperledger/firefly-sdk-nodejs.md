@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/49" class=".btn">#49</a>
+            </td>
+            <td>
+                <b>
+                    Add function for verifier resolve with namespace
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Anastasia Lalamentik <anastasia.lalamentik@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-21 04:19:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/48" class=".btn">#48</a>
             </td>
             <td>

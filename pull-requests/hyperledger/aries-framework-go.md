@@ -145,37 +145,3 @@ Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3400" class=".btn">#3400</a>
-            </td>
-            <td>
-                <b>
-                    feat: BBS update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Title:**
-Update BBS sig to the latest DIF draft.
-
-**Description:**
-Closes #3392 
-
-**Summary:**
-Impl changes suggested by #3392 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-14 06:27:52 +0000 UTC
-    </div>
-</div>
-
