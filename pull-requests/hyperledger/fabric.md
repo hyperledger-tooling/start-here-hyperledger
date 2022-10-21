@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3708" class=".btn">#3708</a>
+            </td>
+            <td>
+                <b>
+                    Changed Linux to Linux(Ubuntu/Debian based distro)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Signed-off-by: Ayush Choudhury <41822282+sunflowermarmalade@users.noreply.github.com>
+
+#### Type of change
+
+- Documentation update
+
+#### Description
+The readme provided will only work for Ubuntu or Debian-based distributions and not on any kind of Linux environment
+
+
+#### Additional details
+I can add documentation regarding more linux distributions which will have somewhat different commands if required.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-21 03:30:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3706" class=".btn">#3706</a>
             </td>
             <td>

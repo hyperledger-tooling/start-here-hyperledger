@@ -14,6 +14,268 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/500" class=".btn">#500</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump react-native-reanimated from 2.2.4 to 2.11.0 in /core
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span>
+            </td>
+            <td>
+                Bumps [react-native-reanimated](https://github.com/software-mansion/react-native-reanimated) from 2.2.4 to 2.11.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/software-mansion/react-native-reanimated/releases">react-native-reanimated's releases</a>.</em></p>
+<blockquote>
+<h2>2.11.0</h2>
+<h1>🚀 Main changes</h1>
+<ul>
+<li>Added new useScrollViewOffset hook <a href="https://github-redirect.dependabot.com/software-mansion/react-native-reanimated/issues/3438">#3438</a></li>
+<li>Added FrameTimings to the useFrameCallback hook</li>
+<li>Fixes for building Reanimated in monorepo</li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/software-mansion/react-native-reanimated/compare/2.10.0...2.11.0">https://github.com/software-mansion/react-native-reanimated/compare/2.10.0...2.11.0</a></p>
+<p>Build: <a href="https://github.com/software-mansion/react-native-reanimated/actions/runs/3105231111">https://github.com/software-mansion/react-native-reanimated/actions/runs/3105231111</a></p>
+<h2>🙌  Thank you for your contributions!</h2>
+<h2>2.10.0</h2>
+<h1>🚀 Main changes</h1>
+<ul>
+<li>Added <a href="https://docs.swmansion.com/react-native-reanimated/docs/next/api/hooks/useAnimatedKeyboard/"><code>useAnimatedKeyboard()</code></a> hook</li>
+<li>Added <a href="https://docs.swmansion.com/react-native-reanimated/docs/next/api/hooks/useFrameCallback/"><code>useFrameCallback()</code></a> hook</li>
+<li>Added support for React Native 0.70</li>
+<li>Added support for react-native-v8 (building from source only)</li>
+<li>Detect multiple versions of Reanimated.</li>
+<li>And many different fixes.</li>
+</ul>
+<p>Build: <a href="https://github.com/software-mansion/react-native-reanimated/actions/runs/2889631689">https://github.com/software-mansion/react-native-reanimated/actions/runs/2889631689</a></p>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/software-mansion/react-native-reanimated/compare/2.9.1...2.10.0">https://github.com/software-mansion/react-native-reanimated/compare/2.9.1...2.10.0</a></p>
+<h2>2.9.1</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Fix issue with duplicated <code>libfolly_runtime.so</code> - <a href="https://github-redirect.dependabot.com/software-mansion/react-native-reanimated/issues/3342">software-mansion/react-native-reanimated#3342</a></li>
+</ul>
+<p>Build: <a href="https://github.com/software-mansion/react-native-reanimated/actions/runs/2595830511">https://github.com/software-mansion/react-native-reanimated/actions/runs/2595830511</a></p>
+<h2>🙌  Thank you for your contributions!</h2>
+<h2>2.9.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Support for <code>react-native@0.69</code></li>
+<li>Treeshaking - <a href="https://github-redirect.dependabot.com/software-mansion/react-native-reanimated/pull/3278">software-mansion/react-native-reanimated#3278</a></li>
+<li>Some fixes and improvements</li>
+</ul>
+<p>Package contains binaries for <code>react-native</code> in version from 0.65 to 0.69</p>
+<p>Build: <a href="https://github.com/software-mansion/react-native-reanimated/actions/runs/2590392729">https://github.com/software-mansion/react-native-reanimated/actions/runs/2590392729</a></p>
+<h2>🙌  Thank you for your contributions!</h2>
+<h2>2.8.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Load <code>RNGestureHandlerModule</code> lazily on iOS by <a href="https://github.com/j-piasecki"><code>@​j-piasecki</code></a> in <a href="https://github-redirect.dependabot.com/software-mansion/react-native-reanimated/pull/3166">software-mansion/react-native-reanimated#3166</a></li>
+<li>fix: Fix <code>useAnimatedSensor</code> return type by <a href="https://github.com/mrousavy"><code>@​mrousavy</code></a> in <a href="https://github-redirect.dependabot.com/software-mansion/react-native-reanimated/pull/3094">software-mansion/react-native-reanimated#3094</a></li>
+<li>Add opts for relative source location by <a href="https://github.com/jiulongw"><code>@​jiulongw</code></a> in <a href="https://github-redirect.dependabot.com/software-mansion/react-native-reanimated/pull/3141">software-mansion/react-native-reanimated#3141</a></li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/software-mansion/react-native-reanimated/commit/7409602b93ecdaa9d8dcd90d7ae6a253a28fb2dc"><code>7409602</code></a> Add reanimated_utils.rb to package (<a href="https://github-redirect.dependabot.com/software-mansion/react-native-reanimated/issues/3667">#3667</a>)</li>
+<li><a href="https://github.com/software-mansion/react-native-reanimated/commit/1b0d64cf64ead1566f29433258b96a5451a510c8"><code>1b0d64c</code></a> Fix REANIMATED_PACKAGE_BUILD</li>
+<li><a href="https://github.com/software-mansion/react-native-reanimated/commit/b8fe6b44ae763ef07df74fc12d2f8b6958aa02b2"><code>b8fe6b4</code></a> Remove debug symbols for release package</li>
+<li><a href="https://github.com/software-mansion/react-native-reanimated/commit/4d9bd5450c7c04dba5ead6d00634493e1d4b5bfd"><code>4d9bd54</code></a> Resolve paths</li>
+<li><a href="https://github.com/software-mansion/react-native-reanimated/commit/49b664f8714553eeb4c3905da99ae01a8a550dac"><code>49b664f</code></a> Update name of property</li>
+<li><a href="https://github.com/software-mansion/react-native-reanimated/commit/ece45524a8c1b4c05ee18ac40ac494bd513d2d12"><code>ece4552</code></a> Recognize package buildnig mode</li>
+<li><a href="https://github.com/software-mansion/react-native-reanimated/commit/643d6905f76c44706be49fc68eb9e8db1525974d"><code>643d690</code></a> Update building script</li>
+<li><a href="https://github.com/software-mansion/react-native-reanimated/commit/e1fc0bf5256bf89ee4eb3f16308071d552d9147f"><code>e1fc0bf</code></a> Avoid checking same node_modules path</li>
+<li><a href="https://github.com/software-mansion/react-native-reanimated/commit/506ca087aeb51f0f1e90c6ed57c0a8d74ead0a12"><code>506ca08</code></a> Patch release build</li>
+<li><a href="https://github.com/software-mansion/react-native-reanimated/commit/6ba5b8187f825e0ce19fb4d4e884d945d3348da1"><code>6ba5b81</code></a> Remove hermes headers</li>
+<li>Additional commits viewable in <a href="https://github.com/software-mansion/react-native-reanimated/compare/2.2.4...2.11.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=react-native-reanimated&package-manager=npm_and_yarn&previous-version=2.2.4&new-version=2.11.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-mobile-agent-react-native/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-21 02:49:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/499" class=".btn">#499</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump react-native-reanimated from 2.2.4 to 2.10.0 in /app
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span>
+            </td>
+            <td>
+                Bumps [react-native-reanimated](https://github.com/software-mansion/react-native-reanimated) from 2.2.4 to 2.10.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/software-mansion/react-native-reanimated/releases">react-native-reanimated's releases</a>.</em></p>
+<blockquote>
+<h2>2.10.0</h2>
+<h1>🚀 Main changes</h1>
+<ul>
+<li>Added <a href="https://docs.swmansion.com/react-native-reanimated/docs/next/api/hooks/useAnimatedKeyboard/"><code>useAnimatedKeyboard()</code></a> hook</li>
+<li>Added <a href="https://docs.swmansion.com/react-native-reanimated/docs/next/api/hooks/useFrameCallback/"><code>useFrameCallback()</code></a> hook</li>
+<li>Added support for React Native 0.70</li>
+<li>Added support for react-native-v8 (building from source only)</li>
+<li>Detect multiple versions of Reanimated.</li>
+<li>And many different fixes.</li>
+</ul>
+<p>Build: <a href="https://github.com/software-mansion/react-native-reanimated/actions/runs/2889631689">https://github.com/software-mansion/react-native-reanimated/actions/runs/2889631689</a></p>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/software-mansion/react-native-reanimated/compare/2.9.1...2.10.0">https://github.com/software-mansion/react-native-reanimated/compare/2.9.1...2.10.0</a></p>
+<h2>2.9.1</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Fix issue with duplicated <code>libfolly_runtime.so</code> - <a href="https://github-redirect.dependabot.com/software-mansion/react-native-reanimated/issues/3342">software-mansion/react-native-reanimated#3342</a></li>
+</ul>
+<p>Build: <a href="https://github.com/software-mansion/react-native-reanimated/actions/runs/2595830511">https://github.com/software-mansion/react-native-reanimated/actions/runs/2595830511</a></p>
+<h2>🙌  Thank you for your contributions!</h2>
+<h2>2.9.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Support for <code>react-native@0.69</code></li>
+<li>Treeshaking - <a href="https://github-redirect.dependabot.com/software-mansion/react-native-reanimated/pull/3278">software-mansion/react-native-reanimated#3278</a></li>
+<li>Some fixes and improvements</li>
+</ul>
+<p>Package contains binaries for <code>react-native</code> in version from 0.65 to 0.69</p>
+<p>Build: <a href="https://github.com/software-mansion/react-native-reanimated/actions/runs/2590392729">https://github.com/software-mansion/react-native-reanimated/actions/runs/2590392729</a></p>
+<h2>🙌  Thank you for your contributions!</h2>
+<h2>2.8.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Load <code>RNGestureHandlerModule</code> lazily on iOS by <a href="https://github.com/j-piasecki"><code>@​j-piasecki</code></a> in <a href="https://github-redirect.dependabot.com/software-mansion/react-native-reanimated/pull/3166">software-mansion/react-native-reanimated#3166</a></li>
+<li>fix: Fix <code>useAnimatedSensor</code> return type by <a href="https://github.com/mrousavy"><code>@​mrousavy</code></a> in <a href="https://github-redirect.dependabot.com/software-mansion/react-native-reanimated/pull/3094">software-mansion/react-native-reanimated#3094</a></li>
+<li>Add opts for relative source location by <a href="https://github.com/jiulongw"><code>@​jiulongw</code></a> in <a href="https://github-redirect.dependabot.com/software-mansion/react-native-reanimated/pull/3141">software-mansion/react-native-reanimated#3141</a></li>
+<li>Fix JSCRuntime destroyed with a dangling API object by <a href="https://github.com/lukmccall"><code>@​lukmccall</code></a> in <a href="https://github-redirect.dependabot.com/software-mansion/react-native-reanimated/pull/3185">software-mansion/react-native-reanimated#3185</a></li>
+</ul>
+<h2>New Contributors</h2>
+<p><a href="https://github.com/dylmye"><code>@​dylmye</code></a> <a href="https://github.com/jiulongw"><code>@​jiulongw</code></a> <a href="https://github.com/lukmccall"><code>@​lukmccall</code></a></p>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/software-mansion/react-native-reanimated/compare/2.7.0...2.8.0">https://github.com/software-mansion/react-native-reanimated/compare/2.7.0...2.8.0</a></p>
+<h2>🙌  Thank you for your contributions!</h2>
+<h2>2.7.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Remove <code>opacity</code> from native props list by <a href="https://github.com/tomekzaw"><code>@​tomekzaw</code></a> in <a href="https://github-redirect.dependabot.com/software-mansion/react-native-reanimated/pull/3139">software-mansion/react-native-reanimated#3139</a></li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/software-mansion/react-native-reanimated/commit/1b61196c1a5e2f05da533b6035c6663d0129bbc5"><code>1b61196</code></a> Release 2.10.0 (<a href="https://github-redirect.dependabot.com/software-mansion/react-native-reanimated/issues/3475">#3475</a>)</li>
+<li><a href="https://github.com/software-mansion/react-native-reanimated/commit/d3395e0a405c606703d34f5ec222e89d0f378474"><code>d3395e0</code></a> Revert &quot;Exclude META-INF&quot;</li>
+<li><a href="https://github.com/software-mansion/react-native-reanimated/commit/c25c71f7b3e23a4c061748671d6bef6be8a31b87"><code>c25c71f</code></a> Exclude META-INF</li>
+<li><a href="https://github.com/software-mansion/react-native-reanimated/commit/af31d7affb59d5f17fdf54990f82bb93398f285f"><code>af31d7a</code></a> Update Types</li>
+<li><a href="https://github.com/software-mansion/react-native-reanimated/commit/128f9c3e5c9fbef8f891ab0077feb098f6ac347a"><code>128f9c3</code></a> Patch 70</li>
+<li><a href="https://github.com/software-mansion/react-native-reanimated/commit/051e8e2feb7df74839dcde69f8ea1a91dc091051"><code>051e8e2</code></a> Set the newest RN version</li>
+<li><a href="https://github.com/software-mansion/react-native-reanimated/commit/3eca471538ea0280a52325f67a473b7d4b89af7d"><code>3eca471</code></a> 2.10.0</li>
+<li><a href="https://github.com/software-mansion/react-native-reanimated/commit/6668dd133feea1cea92a9d37ad6f07420374dd92"><code>6668dd1</code></a> Update plugin error message (<a href="https://github-redirect.dependabot.com/software-mansion/react-native-reanimated/issues/3437">#3437</a>)</li>
+<li><a href="https://github.com/software-mansion/react-native-reanimated/commit/d42b63cd67f71fe564be386fc4a8401d86111ff9"><code>d42b63c</code></a> Update NativeProxy.cpp (<a href="https://github-redirect.dependabot.com/software-mansion/react-native-reanimated/issues/3469">#3469</a>)</li>
+<li><a href="https://github.com/software-mansion/react-native-reanimated/commit/98c628acea50a0ae6f54879742972691f4699ca3"><code>98c628a</code></a> Bumped gesture-handler and screens dependencies (<a href="https://github-redirect.dependabot.com/software-mansion/react-native-reanimated/issues/3468">#3468</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/software-mansion/react-native-reanimated/compare/2.2.4...2.10.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=react-native-reanimated&package-manager=npm_and_yarn&previous-version=2.2.4&new-version=2.10.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-mobile-agent-react-native/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-21 02:49:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/498" class=".btn">#498</a>
             </td>
             <td>
