@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/610" class=".btn">#610</a>
+            </td>
+            <td>
+                <b>
+                    Refactor issuer / holder SMs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">refactoring</span>
+            </td>
+            <td>
+                Holder handler calls specific SM methods instead of relying on a step function. This way, if an explicit "action" is performed in an invalid state, an error is returned, instead of a noop.
+
+Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-21 07:31:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/608" class=".btn">#608</a>
             </td>
             <td>
