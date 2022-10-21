@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2178" class=".btn">#2178</a>
+            </td>
+            <td>
+                <b>
+                    feat(connector-iroha2): add more iroha v2 tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependent</span>
+            </td>
+            <td>
+                - Add test for complex scenario that involves creating new account and asset, and then transferring assets between two accounts.
+- Add test for parsing retrieved block data to find specific transaction hashes.
+
+Depends on https://github.com/hyperledger/cactus/pull/2172
+
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+
+Please review only the last commit.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-21 15:18:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/2173" class=".btn">#2173</a>
             </td>
             <td>
@@ -77,41 +110,6 @@ Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
     </table>
     <div class="right-align">
         Created At 2022-10-17 12:40:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2171" class=".btn">#2171</a>
-            </td>
-            <td>
-                <b>
-                    feat(connector-iroha2): wait for transaction commit
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependent</span>
-            </td>
-            <td>
-                - Add a new argument to transact endpoint to wait for transaction commit. When this flag is true, request will return with final transaction status (commit / reject).
-- Add new transaction hash to all the responses from the transact endpoint.
-- Alter tests to wait for status instead of waiting for X seconds to make them more reliable.
-- Add new tests to check this PR features.
-
-Relates to https://github.com/hyperledger/cactus/issues/2077
-
-Depends on https://github.com/hyperledger/cactus/pull/2168
-
-Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-14 14:42:34 +0000 UTC
     </div>
 </div>
 

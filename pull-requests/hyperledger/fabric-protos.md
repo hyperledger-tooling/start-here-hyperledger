@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/143" class=".btn">#143</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Add new style binding generation for Go apiv1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-21 14:52:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-protos/pull/142" class=".btn">#142</a>
             </td>
             <td>

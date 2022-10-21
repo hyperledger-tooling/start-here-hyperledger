@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/580" class=".btn">#580</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/582" class=".btn">#582</a>
             </td>
             <td>
                 <b>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
                 
             </td>
             <td>
-                This PR adds a call to the `/allure-docker-service/projects` api endpoint before uploading the results. If the project already exists, it will simply upload the results to the existing project.
+                Signed-off-by: Patrick St-Louis <patrick.st-louis@idlab.org>
+
+This PR adds a call to the `/allure-docker-service/projects` api endpoint before uploading the results. If the project already exists, it will simply upload the results to the existing project.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-21 01:25:03 +0000 UTC
+        Created At 2022-10-21 13:09:25 +0000 UTC
     </div>
 </div>
 

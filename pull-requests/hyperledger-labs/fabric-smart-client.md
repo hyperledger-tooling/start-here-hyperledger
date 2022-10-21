@@ -14,17 +14,17 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/423" class=".btn">#423</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/426" class=".btn">#426</a>
             </td>
             <td>
                 <b>
-                    NWO to only use prebuilt fabric binaries
+                    NWO to only use Fabric Binaries
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">enhancement</span><span class="chip">NWO</span><span class="chip">Fabric</span>
+                
             </td>
             <td>
                 Signed-off-by: Dave Kelsey <d_kelsey@uk.ibm.com>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-19 14:03:21 +0000 UTC
+        Created At 2022-10-21 15:29:41 +0000 UTC
     </div>
 </div>
 
@@ -122,34 +122,6 @@ Signed-off-by: Dave Kelsey <d_kelsey@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-10-18 08:54:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/417" class=".btn">#417</a>
-            </td>
-            <td>
-                <b>
-                    Fix npe if no core file found
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span>
-            </td>
-            <td>
-                closes #406
-
-Signed-off-by: Dave Kelsey <d_kelsey@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-14 12:52:38 +0000 UTC
     </div>
 </div>
 

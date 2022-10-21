@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/233" class=".btn">#233</a>
+                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/234" class=".btn">#234</a>
             </td>
             <td>
                 <b>
-                    Minor improvements to read/write asset benchmark with information in README
+                    Add MAINTAINERS file
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
                 
             </td>
             <td>
-                Signed-off-by: D <d_kelsey@uk.ibm.com>
+                Fixes #227 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-26 10:33:31 +0000 UTC
+        Created At 2022-10-21 17:22:22 +0000 UTC
     </div>
 </div>
 

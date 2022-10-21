@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/51" class=".btn">#51</a>
+            </td>
+            <td>
+                <b>
+                    Package lock update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Anastasia Lalamentik <anastasia.lalamentik@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-21 17:18:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/50" class=".btn">#50</a>
+            </td>
+            <td>
+                <b>
+                    Remove extra namespace definition in resolve verifier endpoint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Anastasia Lalamentik <anastasia.lalamentik@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-21 16:09:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/49" class=".btn">#49</a>
             </td>
             <td>
@@ -85,32 +137,6 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     </table>
     <div class="right-align">
         Created At 2022-10-20 15:21:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/46" class=".btn">#46</a>
-            </td>
-            <td>
-                <b>
-                    Add publish blob and upload blob with form data
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-14 17:20:59 +0000 UTC
     </div>
 </div>
 

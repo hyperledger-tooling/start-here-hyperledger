@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1984" class=".btn">#1984</a>
+            </td>
+            <td>
+                <b>
+                    Additional 0.7.5 Cherry-Pick
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Contains the following PRs:
+- [x] https://github.com/hyperledger/aries-cloudagent-python/pull/1938
+- [x] https://github.com/hyperledger/aries-cloudagent-python/pull/1926
+- [x] https://github.com/hyperledger/aries-cloudagent-python/pull/1973
+
+Reference issue #1983 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-21 16:41:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1982" class=".btn">#1982</a>
             </td>
             <td>
@@ -130,33 +161,6 @@ Credit to @cjhowland for doing most of the digging on this issue :slightly_smili
     </table>
     <div class="right-align">
         Created At 2022-10-15 18:52:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1975" class=".btn">#1975</a>
-            </td>
-            <td>
-                <b>
-                    Author demo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Self-contained demo showing how to start up an author agent to to connect to an endorser service
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-14 17:25:08 +0000 UTC
     </div>
 </div>
 

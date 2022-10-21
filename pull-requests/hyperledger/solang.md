@@ -148,35 +148,3 @@ Side note: In my opinion it is completely safe to remove this built in. It was c
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1039" class=".btn">#1039</a>
-            </td>
-            <td>
-                <b>
-                    Implement more constructor dispatch in cfg
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This makes the following changes:
- - The data account for the solidity contract to be executed must always be the first to be passed
- - Solana deployment code is generated in CFG and not in emit.
- - One test fails without this fix: https://github.com/solana-labs/solana-solidity.js/pull/42
- - Once this is merged I'll release a new version of `@solana/solidity` npm library and re-enable the test
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-14 16:27:53 +0000 UTC
-    </div>
-</div>
-

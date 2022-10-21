@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3412" class=".btn">#3412</a>
+            </td>
+            <td>
+                <b>
+                    chore: add issuedAt claim to jwt
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-21 15:34:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3411" class=".btn">#3411</a>
+            </td>
+            <td>
+                <b>
+                    feat: support secp256k1 curve in KMS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This change adds secp256k1 keys support in the kms for the IEEE-P1363 format only.
+DER format is not supported because the x509 package does not support this curve.
+The framework does support the creation of an secp256k1 key with DER format, however storing it in the KMS is not supported.
+
+closes #3410
+
+Signed-off-by: Baha Shaaban <baha.shaaban@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-21 13:41:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3409" class=".btn">#3409</a>
             </td>
             <td>
