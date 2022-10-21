@@ -15,61 +15,74 @@ permalink: /releases/hyperledger-labs/business-partner-agent
         <tr>
             <td colspan="2">
                 <b>
-                    0.11.0 🌈
+                    0.12.0 🌈
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.11.0
+                    0.12.0
                 </span>
             </td>
             <td>
-                ## Features
+                ## Changes
 
-- Support for DIF/W3C presentation exchanges
-  - Holder: Send proposal to verifier
-  - Verifier: Auto respond (request/validate) to proposal from holder
-- Issue JSON-LD credentials + frontend support
-- Server side paging for tables
-- Frontend code full TypeScript conversion
-- Frontend partner invitation copy button
-
-## Changes
-
-- add --legacy-peer-deps flag to all pipelines @etschelp (#771)
-- UI: Issue JSON-LD credential @schlagtim (#748)
-- acapy-rc4 @etschelp (#768)
-- Bump undici from 5.4.0 to 5.5.1 in /frontend @dependabot (#766)
-- fix duplicated api calls on credential request @etschelp (#765)
-- Fix not all exchanges being removed on partner delete @etschelp (#761)
-- support for dif presentation exchanges @etschelp (#751)
-- latest working node version @etschelp (#758)
-- Bump eventsource from 1.1.0 to 1.1.1 in /frontend @dependabot (#756)
-- refactor using vue refs in copy schema id to clipboard method @chriamue (#752)
-- added copy to clipboard button for created invitation @chriamue (#750)
-- Bump lodash from 4.17.10 to 4.17.15 in /frontend @dependabot (#729)
-- Bump set-value from 0.4.3 to 2.0.1 in /frontend @dependabot (#727)
-- Bump shelljs from 0.7.8 to 0.8.5 in /frontend @dependabot (#726)
-- Bump follow-redirects from 1.5.8 to 1.14.9 in /frontend @dependabot (#725)
-- return partnerId in invitations post response @chriamue (#749)
-- issue ld credential fixes @etschelp (#742)
-- server side paging @etschelp (#730)
-- gitpod 2 @etschelp (#739)
-- fix exchange logo via sysprops @etschelp (#738)
-- gitpod fixes @etschelp (#737)
-- fix for issue 731 @etschelp (#733)
-- fix security audit findings @etschelp (#722)
+- Fix: not working notification links @etschelp (#843)
+- Feature: Answer presentation request with self attested attributes (FE) @etschelp (#840)
+- Feature: Support for self attested attributes in the proof template @etschelp (#839)
+- model updates to prepare for selective disclosure and self attested attributes @etschelp (#824)
+- switch default ledger @etschelp (#838)
+- Bump jsdom and @vue/cli-plugin-unit-jest in /frontend @dependabot (#830)
+- Bump async from 2.6.3 to 2.6.4 in /frontend @dependabot (#833)
+- Bump minimist and @vue/cli-plugin-e2e-cypress in /frontend @dependabot (#828)
+- Bump vuetify from 2.6.6 to 2.6.10 in /frontend @dependabot (#827)
+- Allow all media types for jsonld fetch @schlagtim (#825)
+- Bump actions/checkout from 2 to 3 @dependabot (#822)
+- Use same BPA image for all instances in local scenario @schlagtim (#823)
+- fix missing condition on revoc check @etschelp (#821)
+- use websockets for events @etschelp (#819)
+- postgres 14 @etschelp (#740)
+- fix 815 - partner deletion @etschelp (#817)
+- Bump smartsquaregmbh/delete-old-packages from 0.4.0 to 0.5.0 @dependabot (#818)
+- Server Side Paging everywhere @DritonGoxhufi (#792)
+- convert logging config to yml @etschelp (#816)
+- Bump docker/metadata-action from 3 to 4 @dependabot (#813)
+- Fix default schema creation when multi ledger support is enabled @etschelp (#811)
+- Bump smartsquaregmbh/delete-old-packages from 0.3.1 to 0.4.0 @dependabot (#810)
+- Bump docker/login-action from 1 to 2 @dependabot (#809)
+- Bump docker/setup-buildx-action from 1 to 2 @dependabot (#808)
+- Bump docker/setup-qemu-action from 1 to 2 @dependabot (#807)
+- Bump docker/build-push-action from 2 to 3 @dependabot (#806)
+- fix codeql @etschelp (#812)
+- build pipeline updates @etschelp (#803)
+- fix basic auth being active when keycloak is configured @etschelp (#804)
+- Bump undici from 5.8.0 to 5.9.1 in /frontend @dependabot (#805)
+- WSL support for "local-network" scenario #775 @bjoern-arnold (#797)
+- Support more oob exchanges with attachments @etschelp (#796)
+- Bump postgresql from 42.4.0 to 42.4.1 in /backend/business-partner-agent @dependabot (#794)
+- multiple minor bug fixes @etschelp (#793)
+- load example json-ld schema with default schema config @etschelp (#790)
+- support for json-ld/dif presentation exchanges @etschelp (#769)
+- Add server side paging to presentation exchange tables @DritonGoxhufi (#781)
+- Bump undici from 5.5.1 to 5.8.0 in /frontend @dependabot (#786)
+- Bump terser from 4.8.0 to 4.8.1 in /frontend @dependabot (#785)
+- fixed genesis-url  @etschelp (#782)
+- switch all url's to idu.network @etschelp (#780)
+- Bump moment from 2.29.3 to 2.29.4 in /frontend @dependabot (#776)
+- Feature/fix local scenario @schlagtim (#777)
+- Feature/default attribute @DritonGoxhufi (#773)
+- upgrade to aca-py 0.7.4 @etschelp (#774)
+- Feature/populate my did @DritonGoxhufi (#772)
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/business-partner-agent/releases/tag/0.11.0" class=".btn">
+    <a href="https://github.com/hyperledger-labs/business-partner-agent/releases/tag/0.12.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-06-23 10:34:08 +0000 UTC
+        Created At 2022-10-21 10:30:05 +0000 UTC
     </span>
 </div>
 
