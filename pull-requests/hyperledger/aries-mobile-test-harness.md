@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/102" class=".btn">#102</a>
+            </td>
+            <td>
+                <b>
+                    calibrated to 457 and initial bc person proof test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+
+Calibrated BC Wallet tests to build 457. 
+Initial test and verifier interface to support proofs with the BC Person credential.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-22 00:07:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/101" class=".btn">#101</a>
             </td>
             <td>
