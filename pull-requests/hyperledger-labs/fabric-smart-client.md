@@ -27,7 +27,8 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                Signed-off-by: Dave Kelsey <d_kelsey@uk.ibm.com>
+                follow-on from #423 as merge mess meant I needed to open a new PR
+Signed-off-by: Dave Kelsey <d_kelsey@uk.ibm.com>
             </td>
         </tr>
     </table>
