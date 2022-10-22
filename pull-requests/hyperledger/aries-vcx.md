@@ -85,7 +85,9 @@ Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
                 <span class="chip">feature</span>
             </td>
             <td>
-                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+                https://github.com/hyperledger/aries-rfcs/tree/main/features/0721-revocation-notification-v2
+
+Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
             </td>
         </tr>
     </table>

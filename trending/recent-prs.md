@@ -1,13 +1,13 @@
 
-[1463](https://github.com/hyperledger/caliper/pull/1463) Add CODEOWNERS file
+[504](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/504) revocation notification working, needs french translation
 
-[501](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/501) fix: add test ID to home nav
+[102](https://github.com/hyperledger/aries-mobile-test-harness/pull/102) calibrated to 457 and initial bc person proof test
 
-[234](https://github.com/hyperledger/caliper-benchmarks/pull/234) Add MAINTAINERS file
+[3413](https://github.com/hyperledger/aries-framework-go/pull/3413) feat: Update Tink version, protobuf type
 
-[51](https://github.com/hyperledger/firefly-sdk-nodejs/pull/51) Package lock update
+[503](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/503) fix: unable to toggle on
 
-[1984](https://github.com/hyperledger/aries-cloudagent-python/pull/1984) Additional 0.7.5 Cherry-Pick
+[502](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/502) feat: Enable connection invites using shortened urls
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

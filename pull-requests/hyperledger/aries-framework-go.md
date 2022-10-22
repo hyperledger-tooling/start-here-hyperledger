@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3413" class=".btn">#3413</a>
+            </td>
+            <td>
+                <b>
+                    feat: Update Tink version, protobuf type
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updated the Tink version and our methods to use the newer protobuf type that it uses.
+
+Reason for this change: the existing version of Tink makes use of a very large int in one particular place in the code, and this very large int prevents the gomobile tool from successfully generating Android bindings. This meant that aries-framework-go packages that used Tink could not be used in any code that you may want to generate Android bindings for. The updated version of Tink does not have that check anymore, which resolves the issue.
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-21 21:46:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3412" class=".btn">#3412</a>
             </td>
             <td>
