@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4551" class=".btn">#4551</a>
+            </td>
+            <td>
+                <b>
+                    Refactoring of calculate root hash
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+Small refactoring of the calculate root hash. 
+
+The second commit fixes a tiny bug where we leave a few insignificant nodes in the trie branch storage. 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-22 09:58:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4550" class=".btn">#4550</a>
             </td>
             <td>
