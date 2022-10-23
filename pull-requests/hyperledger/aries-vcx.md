@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/613" class=".btn">#613</a>
+            </td>
+            <td>
+                <b>
+                    Ci/improvements
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-22 22:04:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/612" class=".btn">#612</a>
             </td>
             <td>
@@ -33,92 +59,6 @@ permalink: /pull-requests/hyperledger/aries-vcx
     </table>
     <div class="right-align">
         Created At 2022-10-22 18:24:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/611" class=".btn">#611</a>
-            </td>
-            <td>
-                <b>
-                    Refactor verifier / prover SMs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span>
-            </td>
-            <td>
-                Addressing #583, based on #610.
-
-Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-21 13:49:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/610" class=".btn">#610</a>
-            </td>
-            <td>
-                <b>
-                    Refactor issuer / holder SMs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span>
-            </td>
-            <td>
-                Holder handler calls specific SM methods instead of relying on a step function. This way, if an explicit "action" is performed in an invalid state, an error is returned, instead of a noop.
-
-Addresses #583 .
-
-Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-21 07:31:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/608" class=".btn">#608</a>
-            </td>
-            <td>
-                <b>
-                    Revocation notification
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">feature</span>
-            </td>
-            <td>
-                https://github.com/hyperledger/aries-rfcs/tree/main/features/0721-revocation-notification-v2
-
-Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-20 07:56:37 +0000 UTC
     </div>
 </div>
 
@@ -228,32 +168,6 @@ Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
     </table>
     <div class="right-align">
         Created At 2022-10-16 10:46:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/602" class=".btn">#602</a>
-            </td>
-            <td>
-                <b>
-                    Update Rust toolchain to 1.64.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">update</span>
-            </td>
-            <td>
-                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-15 19:12:39 +0000 UTC
     </div>
 </div>
 
