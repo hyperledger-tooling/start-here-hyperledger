@@ -91,29 +91,3 @@ This PR adds a call to the `/allure-docker-service/projects` api endpoint before
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/576" class=".btn">#576</a>
-            </td>
-            <td>
-                <b>
-                    aries-vcx: Aries agent
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Use an agent abstraction (implemented in aries-vcx-agent crate) in aries-vcx backchannel
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-16 17:29:43 +0000 UTC
-    </div>
-</div>
-
