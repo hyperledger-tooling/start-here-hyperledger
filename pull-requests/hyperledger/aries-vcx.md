@@ -27,7 +27,11 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                <nil>
+                - as `build-image` action was trying to pull images from `docker.pkg.github.com`, it never worked because that's not docker registry we are logged into - so we didn't reuse previously built docker layer
+- generalized `construct-run-info` to rely on `$MAIN_BRANCH` instead of hardcoding `main`
+- added action template for detecting skip PR tags
+- fixed information passing into `azure/docker-login@v1`
+- fixed publishing jobs - publish built images under both tags `$PUBLISH_VERSION` and also  `$BRANCH_NAME` (to cache layers) 
             </td>
         </tr>
     </table>
@@ -137,37 +141,6 @@ permalink: /pull-requests/hyperledger/aries-vcx
     </table>
     <div class="right-align">
         Created At 2022-10-16 16:57:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/603" class=".btn">#603</a>
-            </td>
-            <td>
-                <b>
-                    Refactor CI using composite actions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">ci</span>
-            </td>
-            <td>
-                - Extract number of composite actions
-- Technical details such us caching directory / file location, concept of cache-key hidden behind simpler composite-action interface
-- In case of cache miss, significantly improved build times by reusing docker layers from previous branch build / master branch build 
-- CI workflow file shorter by ~500 lines :-) 
-
-Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-16 10:46:47 +0000 UTC
     </div>
 </div>
 
