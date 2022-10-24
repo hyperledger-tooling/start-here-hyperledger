@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2047" class=".btn">#2047</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] Fix multiple orderers - Develop
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: mgCepeda <marina.gomez.cepeda@accenture.com>
+
+**Changelog**
+- Add the following fields in the network.yaml:
+   *`network.consensus` 
+   *`network.channels[*].orderer.name` (is a list)
+   *`network.organizations[*].orderer_org` (This field should only be added in peer organizations. Indicate from which 
+     organization takes the orderers)
+
+- Update create/configtx and ca-tools roles to perform deployments with multiple orderer organizations
+- Update documentation and network-schema.json
+
+ 
+
+**Reviewed by**
+@suvajit-sarkar @jagpreetsinghsasan @sownak 
+
+ 
+
+**Linked issue**
+#2038 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-24 10:04:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2046" class=".btn">#2046</a>
             </td>
             <td>

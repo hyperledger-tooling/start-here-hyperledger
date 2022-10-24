@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/409" class=".btn">#409</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/410" class=".btn">#410</a>
             </td>
             <td>
                 <b>
-                    WIP
+                    FTS to now use FSC Fabric Binary Only Implementation
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-21 11:58:08 +0000 UTC
+        Created At 2022-10-24 10:37:47 +0000 UTC
     </div>
 </div>
 
