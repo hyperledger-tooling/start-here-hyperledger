@@ -31,7 +31,7 @@ permalink: /pull-requests/hyperledger/solang
 
 In `ink!` this is done too.
 
-It is turned off by default. Where can I document this? Closest I found is optimizer passes but this is not really an optimization. Can I add a new page under `Extras`?
+It is turned off by default. ~~Where can I document this? Closest I found is optimizer passes but this is not really an optimization. Can I add a new page under `Extras`?~~ 
             </td>
         </tr>
     </table>

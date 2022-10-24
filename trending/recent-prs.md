@@ -1,13 +1,13 @@
 
-[614](https://github.com/hyperledger/aries-vcx/pull/614) Allow obtaining cred rev id from the wallet
+[1985](https://github.com/hyperledger/aries-cloudagent-python/pull/1985) Update for 0.7.5-rc1
 
-[844](https://github.com/hyperledger/fabric-samples/pull/844) Fixed comment consistency problem
+[636](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/636) get code up to date
 
-[1047](https://github.com/hyperledger/solang/pull/1047) Print the return values of seal API calls into the debug buffer
+[620](https://github.com/hyperledger/aries-vcx/pull/620) Delete local docker cache after loading image
 
-[210](https://github.com/hyperledger/iroha-2-docs/pull/210) Add a Kotlin snapshot selection section
+[3716](https://github.com/hyperledger/fabric/pull/3716) Bump Go to 1.18.7
 
-[410](https://github.com/hyperledger-labs/fabric-token-sdk/pull/410) FTS to now use FSC Fabric Binary Only Implementation
+[3715](https://github.com/hyperledger/fabric/pull/3715) Bump Go to 1.18.7
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

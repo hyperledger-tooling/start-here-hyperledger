@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/620" class=".btn">#620</a>
+            </td>
+            <td>
+                <b>
+                    Delete local docker cache after loading image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">skip-ios</span>
+            </td>
+            <td>
+                I suspect the intermittent CI error in android test is perhaps due running out of space? This might solve the issue
+
+Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-24 16:34:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/614" class=".btn">#614</a>
             </td>
             <td>

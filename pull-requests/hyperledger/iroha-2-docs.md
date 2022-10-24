@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/212" class=".btn">#212</a>
+            </td>
+            <td>
+                <b>
+                    Redefine a Kotlin configuration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updates the Kotlin configuration according to Bogdan's suggestion.
+We're not using the private repos this way.
+
+Signed-off-by: 6r1d <vic.6r1d@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-24 13:38:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/210" class=".btn">#210</a>
             </td>
             <td>

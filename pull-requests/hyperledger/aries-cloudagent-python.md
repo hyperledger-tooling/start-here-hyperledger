@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1985" class=".btn">#1985</a>
+            </td>
+            <td>
+                <b>
+                    Update for 0.7.5-rc1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-24 16:57:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1984" class=".btn">#1984</a>
             </td>
             <td>
@@ -101,36 +127,6 @@ Signed-off-by: Moriarty <moritz@animo.id>
     </table>
     <div class="right-align">
         Created At 2022-10-18 13:29:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1978" class=".btn">#1978</a>
-            </td>
-            <td>
-                <b>
-                    chore: fix ACAPY_PROMOTE-AUTHOR-DID flag 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                using underscore instead of hyphen
-
-closes #1965 
-
-Signed-off-by: Moriarty <moritz@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-17 13:19:19 +0000 UTC
     </div>
 </div>
 
