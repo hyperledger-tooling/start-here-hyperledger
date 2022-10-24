@@ -24,14 +24,18 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">skip-ios</span><span class="chip">skip-android</span>
             </td>
             <td>
-                - as `build-image` action was trying to pull images from `docker.pkg.github.com`, it never worked because that's not docker registry we are logged into - so we didn't reuse previously built docker layer
-- generalized `construct-run-info` to rely on `$MAIN_BRANCH` instead of hardcoding `main`
-- added action template for detecting skip PR tags
-- fixed information passing into `azure/docker-login@v1`
-- fixed publishing jobs - publish built images under both tags `$PUBLISH_VERSION` and also  `$BRANCH_NAME` (to cache layers) 
+                - Fix CI warnings (usage of set-output)
+- As `build-image` action was trying to pull images from `docker.pkg.github.com`, it never worked because that's not docker registry we are logged into - so we didn't reuse previously built docker layer
+- Generalized `construct-run-info` to rely on `$MAIN_BRANCH` instead of hardcoding `main`
+- Added action template for detecting skip PR tags (currently supports opt-in PR tags `skip-android` and `skip-ios`)
+- Fixed information passing into `azure/docker-login@v1`
+- Fixed publishing jobs - images are published under tag`$PUBLISH_VERSION` 
+- Modified `build-image` such that it publishes image `<docker-img>:<branch>` to docker registry for caching purposes
+- Adjusted publish-image more robust so it doesn't try to load image from cache if it already exist in local docker repo
+
             </td>
         </tr>
     </table>

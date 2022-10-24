@@ -14,6 +14,132 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2902" class=".btn">#2902</a>
+            </td>
+            <td>
+                <b>
+                    Repaired building iroha according to instruction: Added patch file to make sure abseil library is building without changes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">1.x</span><span class="chip">build</span><span class="chip">1.5</span><span class="chip">Dev defect</span>
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+When building according to the instruction: https://iroha.readthedocs.io/en/develop/build/index.html#installing-dependencies-with-vcpkg-dependency-manager, which is with command:
+```
+./vcpkg/build_iroha_deps.sh $PWD/vcpkg-build
+```
+Suddently building is stopping with message:
+```
+Starting package 1/120: abseil:x64-linux
+Building package abseil[core]:x64-linux...
+-- Downloading https://github.com/abseil/abseil-cpp/archive/997aaf3a28308eba1b9156aa35ab7bca9688e9f6.tar.gz -> abseil-abseil-cpp-997aaf3a28308eba1b9156aa35ab7bca9688e9f6.tar.gz...
+-- Extracting source /home/student/Desktop/iroha_code/baziorek/iroha/vcpkg-build/downloads/abseil-abseil-cpp-997aaf3a28308eba1b9156aa35ab7bca9688e9f6.tar.gz
+-- Applying patch fix-cxx-standard.patch
+-- Using source at /home/student/Desktop/iroha_code/baziorek/iroha/vcpkg-build/buildtrees/abseil/src/ca9688e9f6-e4cda1d679.clean
+-- Found external ninja('1.10.1').
+-- Configuring x64-linux-dbg
+-- Configuring x64-linux-rel
+-- Building x64-linux-dbg
+CMake Error at scripts/cmake/vcpkg_execute_build_process.cmake:146 (message):
+    Command failed: /usr/bin/cmake --build . --config Debug --target install -- -v -j6
+    Working Directory: /home/student/Desktop/iroha_code/baziorek/iroha/vcpkg-build/buildtrees/abseil/x64-linux-dbg
+    See logs for more information:
+      /home/student/Desktop/iroha_code/baziorek/iroha/vcpkg-build/buildtrees/abseil/install-x64-linux-dbg-out.log
+
+Call Stack (most recent call first):
+  scripts/cmake/vcpkg_build_cmake.cmake:105 (vcpkg_execute_build_process)
+  scripts/cmake/vcpkg_install_cmake.cmake:45 (vcpkg_build_cmake)
+  ports/abseil/portfile.cmake:32 (vcpkg_install_cmake)
+  scripts/ports.cmake:142 (include)
+
+
+Error: Building package abseil:x64-linux failed with: BUILD_FAILED
+Please ensure you're using the latest portfiles with `./vcpkg update`, then
+submit an issue at https://github.com/Microsoft/vcpkg/issues including:
+  Package: abseil:x64-linux
+  Vcpkg version: 2021-01-13-unknownhash
+
+Additionally, attach any relevant sections from the log files above.
+```
+In the log file is problem:
+```
+...
+/home/student/Desktop/iroha_code/baziorek/iroha/vcpkg-build/buildtrees/abseil/src/ca9688e9f6-e4cda1d679.clean/absl/debugging/failure_signal_handler.cc:139:32: error: no matching function for call to ‘max(long int, int)’
+  139 |   size_t stack_size = (std::max(SIGSTKSZ, 65536) + page_mask) & ~page_mask;
+      |                        ~~~~~~~~^~~~~~~~~~~~~~~~~
+...
+```
+So to fix its both arguments have to have the same type, or to specify type of `std::max`. Because result is assigned to variable `size_t stack_size`, so I assume that the type should be `size_t`.
+
+So I've corrected this according to instruction: https://stackoverflow.com/questions/72588408/vcpkg-how-to-edit-package-file-when-compilation-fails-when-installing-package
+
+_______________
+I'm using Ubuntu 22.04, with version of g++:  `g++ (Ubuntu 11.2.0-19ubuntu1) 11.2.0`. As I know @andprogrammer had the same problem.
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Issue
+
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+Automatic build of HL Iroha
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+Chosen way of fix can be not best possible.
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests *[optional]*
+After the fix the command:
+```
+./vcpkg/build_iroha_deps.sh $PWD/vcpkg-build
+```
+is passing to build `abseil` without any hacks described [here](https://stackoverflow.com/questions/72588408/vcpkg-how-to-edit-package-file-when-compilation-fails-when-installing-package).
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+Another possibility to fix the issue would be to upgrade version of abseil, but it is always dangerous that something somewhere would stop compiling or worse - start working different way.
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+__________________
+PS: There is another problem with auto-build: benchmark library is failing to compile. But I'd prefer another PR.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-24 00:33:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2901" class=".btn">#2901</a>
             </td>
             <td>
