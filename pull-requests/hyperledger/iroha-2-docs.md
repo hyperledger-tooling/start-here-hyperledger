@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/210" class=".btn">#210</a>
+            </td>
+            <td>
+                <b>
+                    Add a Kotlin snapshot selection section
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Previously, the snapshot selection wasn't documented.
+Thanks to @arndey, I updated the documentation part so any user can select the proper snapshot.
+This PR doesn't include Kotlin-related updates from https://github.com/hyperledger/iroha-java/issues/274.
+Those configuration parts have to be discussed further.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-24 10:39:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/209" class=".btn">#209</a>
             </td>
             <td>
@@ -173,34 +202,6 @@ Signed-off-by: 6r1d <vic.6r1d@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-10-18 10:54:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/199" class=".btn">#199</a>
-            </td>
-            <td>
-                <b>
-                    [docs] #182: Update peer config page
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-Closes #182 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-17 07:37:07 +0000 UTC
     </div>
 </div>
 

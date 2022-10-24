@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1047" class=".btn">#1047</a>
+            </td>
+            <td>
+                <b>
+                    Print the return values of seal API calls into the debug buffer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">substrate</span>
+            </td>
+            <td>
+                Currently there is no way for devs to know more about why an API call might fall. A prime example to this is `seal_instantiate`, where contract creation can fail for multiple reasons. 
+
+In `ink!` this is done too.
+
+It is turned off by default. Where can I document this? Closest I found is optimizer passes but this is not really an optimization. Can I add a new page under `Extras`?
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-24 10:40:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1045" class=".btn">#1045</a>
             </td>
             <td>

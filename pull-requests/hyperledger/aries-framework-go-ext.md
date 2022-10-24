@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/286" class=".btn">#286</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/289" class=".btn">#289</a>
             </td>
             <td>
                 <b>
-                    chore: update to latest orb
+                    chore: Add auth token provider
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-26 08:57:35 +0000 UTC
+        Created At 2022-10-24 09:32:44 +0000 UTC
     </div>
 </div>
 

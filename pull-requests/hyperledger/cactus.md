@@ -78,38 +78,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2172" class=".btn">#2172</a>
-            </td>
-            <td>
-                <b>
-                    feat(connector-iroha2): sending queries signed on the client-side
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependent</span>
-            </td>
-            <td>
-                - Add new helper method for signing query payload on the client side.
-- Change `query` and `generateTransaction` to support both query and transaction payload generation and
-  sending.
-- Refactor `CactusIrohaV2QueryClient` to return query context instead of single request method.
-- Update tests to fit the new API.
-- Add tests for signing queries on the client side.
-
-Depends on https://github.com/hyperledger/cactus/pull/2171
-
-Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-17 12:40:11 +0000 UTC
-    </div>
-</div>
-
