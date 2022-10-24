@@ -139,6 +139,8 @@ You can trigger Dependabot actions by commenting on this PR:
 
 Reason for this change: the existing version of Tink makes use of a very large int in one particular place in the code, and this very large int prevents the gomobile tool from successfully generating Android bindings. This meant that aries-framework-go packages that used Tink could not be used in any code that you may want to generate Android bindings for. The updated version of Tink does not have that check anymore, which resolves the issue.
 
+Due to a circular dependency between the main module and component/storage/edv (and the fact that both of them require Tink), there are some module/build issues with this commit. This will be resolved in the next commit.
+
 Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
             </td>
         </tr>

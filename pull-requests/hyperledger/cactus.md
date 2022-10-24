@@ -43,38 +43,3 @@ Please review only the last commit.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2173" class=".btn">#2173</a>
-            </td>
-            <td>
-                <b>
-                    chore(release): publish v1.1.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also manually changing the "publishConfig" property of the
-packages/cactus-cmd-socketio-server/package.json
-file because it was not set to public which excluded it from the
-release automation altogether in previous releases, causing this bug
-to be reported:
-https://github.com/hyperledger/cactus/issues/2069
-
-Fixes #2069
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-17 18:00:09 +0000 UTC
-    </div>
-</div>
-
