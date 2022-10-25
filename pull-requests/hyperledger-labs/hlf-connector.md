@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/62" class=".btn">#62</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/65" class=".btn">#65</a>
             </td>
             <td>
                 <b>
-                    [Updated]Vulnerability fix based on SNYK report with Code Drop
+                    Add SSL AuthFiles creator, Fix broken refresh of Kafka properties
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
                 
             </td>
             <td>
-                Report: [ssp_fixed_report_1.pdf](https://github.com/hyperledger-labs/hlf-connector/files/9747276/ssp_fixed_report_1.pdf)
-
+                This PR contains the changeset which will enable connector to create SSL files in local path from the SSL base64 details in Application config. Furthermore, this PR fixes few inconsistencies in refreshing Kafka Producer/Listener beans after invoking the actuator refresh endpoint.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-10 15:40:29 +0000 UTC
+        Created At 2022-10-25 05:39:26 +0000 UTC
     </div>
 </div>
 
