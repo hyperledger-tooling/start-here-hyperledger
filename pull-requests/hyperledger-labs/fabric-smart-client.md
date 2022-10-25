@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/427" class=".btn">#427</a>
+            </td>
+            <td>
+                <b>
+                    sample config with doc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Replaces #420
+Signed-off-by: Dave Kelsey <d_kelsey@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-25 09:18:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/426" class=".btn">#426</a>
             </td>
             <td>
@@ -96,33 +123,6 @@ Used by: https://github.com/hyperledger-labs/fabric-token-sdk/pull/406
     </table>
     <div class="right-align">
         Created At 2022-10-18 14:31:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/420" class=".btn">#420</a>
-            </td>
-            <td>
-                <b>
-                    sample config with doc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is a sample core.yaml file for fsc and fabric-driver, for discussion to add and improve the associated documentation
-Signed-off-by: Dave Kelsey <d_kelsey@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-18 08:54:10 +0000 UTC
     </div>
 </div>
 
