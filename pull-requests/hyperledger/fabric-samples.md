@@ -70,7 +70,7 @@ permalink: /pull-requests/hyperledger/fabric-samples
             </td>
             <td>
                 <b>
-                    Refactor Go files
+                    Avoid usage of deprecated ioutil Go package
                 </b>
             </td>
         </tr>
