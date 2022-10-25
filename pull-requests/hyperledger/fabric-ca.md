@@ -27,8 +27,7 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                
-<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
 
 <!--- Provide a descriptive summary of your changes in the Title above. -->
 
@@ -40,7 +39,7 @@ permalink: /pull-requests/hyperledger/fabric-ca
 
 #### Description
 
-- Add permissions to Fabric CA workflows
+- Add permissions to Fabric CA workflows and specify exact Go version for release
 
 <!--- Describe your changes in detail, including motivation. -->
 
