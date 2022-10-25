@@ -14,6 +14,206 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2907" class=".btn">#2907</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] [refactor] #2458: implement generic combinator API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Issue
+
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests *[optional]*
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-25 02:01:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2906" class=".btn">#2906</a>
+            </td>
+            <td>
+                <b>
+                    Repaired building iroha according to instruction: Added patch file to repair building of benchmark library: std::numeric_limits requires <limits> header
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">1.x</span><span class="chip">build</span><span class="chip">1.5</span><span class="chip">Dev defect</span>
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+This is really similar to https://github.com/hyperledger/iroha/pull/2902, but there is problem with another dependency: benchmark library.
+
+When building according to the [instruction](https://iroha.readthedocs.io/en/develop/build/index.html#installing-dependencies-with-vcpkg-dependency-manager), which is with command:
+```
+./vcpkg/build_iroha_deps.sh $PWD/vcpkg-build
+```
+Suddenly building is stopping with message:
+```
+Building package benchmark[core]:x64-linux...
+-- Downloading https://github.com/google/benchmark/archive/73d4d5e8d6d449fc8663765a42aa8aeeee844489.tar.gz -> google-benchmark-73d4d5e8d6d449fc8663765a42aa8aeeee844489.tar.gz...
+-- Extracting source /home/student/Desktop/iroha_code/baziorek/iroha/vcpkg-build/downloads/google-benchmark-73d4d5e8d6d449fc8663765a42aa8aeeee844489.tar.gz
+-- Using source at /home/student/Desktop/iroha_code/baziorek/iroha/vcpkg-build/buildtrees/benchmark/src/eeee844489-75b6880063.clean
+-- Found external ninja('1.10.1').
+-- Configuring x64-linux-dbg
+-- Configuring x64-linux-rel
+-- Building x64-linux-dbg
+CMake Error at scripts/cmake/vcpkg_execute_build_process.cmake:146 (message):
+    Command failed: /usr/bin/cmake --build . --config Debug --target install -- -v -j6
+    Working Directory: /home/student/Desktop/iroha_code/baziorek/iroha/vcpkg-build/buildtrees/benchmark/x64-linux-dbg
+    See logs for more information:
+      /home/student/Desktop/iroha_code/baziorek/iroha/vcpkg-build/buildtrees/benchmark/install-x64-linux-dbg-out.log
+
+Call Stack (most recent call first):
+  scripts/cmake/vcpkg_build_cmake.cmake:105 (vcpkg_execute_build_process)
+  scripts/cmake/vcpkg_install_cmake.cmake:45 (vcpkg_build_cmake)
+  ports/benchmark/portfile.cmake:21 (vcpkg_install_cmake)
+  scripts/ports.cmake:142 (include)
+
+
+Error: Building package benchmark:x64-linux failed with: BUILD_FAILED
+Please ensure you're using the latest portfiles with `./vcpkg update`, then
+submit an issue at https://github.com/Microsoft/vcpkg/issues including:
+  Package: benchmark:x64-linux
+  Vcpkg version: 2021-01-13-unknownhash
+
+Additionally, attach any relevant sections from the log files above.
+```
+In the log file is problem:
+```
+In file included from /home/student/Desktop/iroha_code/baziorek/iroha/vcpkg-build/buildtrees/benchmark/src/eeee844489-75b6880063.clean/src/benchmark_register.cc:15:
+/home/student/Desktop/iroha_code/baziorek/iroha/vcpkg-build/buildtrees/benchmark/src/eeee844489-75b6880063.clean/src/benchmark_register.h: In function ‘typename std::vector<T>::iterator benchmark::internal::AddPowers(std::vector<T>*, T, T, int)’:
+/home/student/Desktop/iroha_code/baziorek/iroha/vcpkg-build/buildtrees/benchmark/src/eeee844489-75b6880063.clean/src/benchmark_register.h:22:30: error: ‘numeric_limits’ is not a member of ‘std’
+   22 |   static const T kmax = std::numeric_limits<T>::max();
+      |                              ^~~~~~~~~~~~~~
+```
+So to fix its it is enough to add to the file: `benchmark_register.h` extra line:
+```
+#include <limits>
+```
+So I've corrected this according to instruction: https://stackoverflow.com/questions/72588408/vcpkg-how-to-edit-package-file-when-compilation-fails-when-installing-package
+____________
+I'm using Ubuntu 22.04, with version of g++: g++ (Ubuntu 11.2.0-19ubuntu1) 11.2.0.
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Issue
+
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+Automatic build of HL Iroha
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+Chosen way of fix can be not best possible (maybe upgrading the library would be better, but more dangerous).
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests *[optional]*
+After the fix the command:
+```
+./vcpkg/build_iroha_deps.sh $PWD/vcpkg-build
+```
+is passing to build `benchmark` without any hacks described [here](https://stackoverflow.com/questions/72588408/vcpkg-how-to-edit-package-file-when-compilation-fails-when-installing-package).
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-24 22:06:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2903" class=".btn">#2903</a>
             </td>
             <td>
