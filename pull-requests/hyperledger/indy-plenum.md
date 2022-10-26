@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1617" class=".btn">#1617</a>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1619" class=".btn">#1619</a>
             </td>
             <td>
                 <b>
-                    updated Actions because of
+                    [v1.13.1-rc3] - Update Version Number for Release
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/indy-plenum
                 
             </td>
             <td>
-                Node.js 12 deprecation in GHA
-
-Signed-off-by: pSchlarb <p.schlarb@esatus.com>
+                [v1.13.1-rc3] - Update Version number for Release
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-18 13:59:46 +0000 UTC
+        Created At 2022-10-26 17:14:41 +0000 UTC
     </div>
 </div>
 
