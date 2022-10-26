@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/61" class=".btn">#61</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/64" class=".btn">#64</a>
             </td>
             <td>
                 <b>
-                    Pushing init image for k8s builder to work
+                    Upgrading ginkgo to v2
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-10 02:26:24 +0000 UTC
+        Created At 2022-10-26 02:37:20 +0000 UTC
     </div>
 </div>
 
