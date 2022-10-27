@@ -7,7 +7,7 @@
 
 [v1.13.1-rc3](https://github.com/hyperledger/indy-plenum/releases/tag/v1.13.1-rc3) v1.13.1-rc3
 
-[v2.4.7](https://github.com/hyperledger/fabric/releases/tag/v2.4.7) v2.4.7
+[v2.2.9](https://github.com/hyperledger/fabric/releases/tag/v2.2.9) v2.2.9
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
