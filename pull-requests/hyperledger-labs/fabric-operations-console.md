@@ -14,6 +14,80 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/331" class=".btn">#331</a>
+            </td>
+            <td>
+                <b>
+                    move typescript from dev dep to peer dep
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+move typescript from dev dependency to a peer dependency.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-26 18:40:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/330" class=".btn">#330</a>
+            </td>
+            <td>
+                <b>
+                    move ts-loader to peer dep from dev dep
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+`ts-loader` needs to be a peer dependency. moved from dev dependency.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-26 18:33:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/329" class=".btn">#329</a>
             </td>
             <td>

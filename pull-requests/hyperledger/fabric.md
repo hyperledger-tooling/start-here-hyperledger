@@ -14,6 +14,120 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3747" class=".btn">#3747</a>
+            </td>
+            <td>
+                <b>
+                    Remove Azure Pipelines (switched to Github Actions)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                With the Github Actions CI and release workflows in place, we can now remove the Azure Pipelines artifacts.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-26 19:46:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3746" class=".btn">#3746</a>
+            </td>
+            <td>
+                <b>
+                    Remove Azure Pipelines (switched to Github Actions)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                With the Github Actions CI and release workflows in place, we can now remove the Azure Pipelines artifacts.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-26 19:45:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3745" class=".btn">#3745</a>
+            </td>
+            <td>
+                <b>
+                    Remove Azure Pipelines (switched to Github Actions)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                With the Github Actions CI and release workflows in place, we can now remove the Azure Pipelines artifacts.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-26 19:45:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3744" class=".btn">#3744</a>
+            </td>
+            <td>
+                <b>
+                    Remove Azure Pipelines (switched to Github Actions)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                With the Github Actions CI and release workflows in place, we can now remove the Azure Pipelines artifacts.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-26 19:45:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3739" class=".btn">#3739</a>
             </td>
             <td>
@@ -1297,39 +1411,6 @@ Checklist (DELETE AFTER READING):
     </table>
     <div class="right-align">
         Created At 2022-10-20 18:20:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3705" class=".btn">#3705</a>
-            </td>
-            <td>
-                <b>
-                    Commit path changes for private data purge
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR enables processing of purge operation in a transaction during block commit
-
-Signed-off-by: manish <manish.sethi@gmail.com>
-
-#### Type of change
-- New feature
-#### Related issues
-Closes #3026
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-19 23:49:05 +0000 UTC
     </div>
 </div>
 

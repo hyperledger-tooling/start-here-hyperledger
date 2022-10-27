@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/56" class=".btn">#56</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/57" class=".btn">#57</a>
             </td>
             <td>
                 <b>
-                    docs(*): Update links to the related materials
+                    docs(*): Update docs to release v0.3.0
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-26 06:45:10 +0000 UTC
+        Created At 2022-10-27 00:58:35 +0000 UTC
     </div>
 </div>
 
