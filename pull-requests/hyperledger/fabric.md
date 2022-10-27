@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3749" class=".btn">#3749</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: remove solo from integration tests (2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Yoav Tock <tock@il.ibm.com>
+Change-Id: I8bf0d9382502bd272e7b10fb989e7a2b9026947b
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Orderer v3: remove solo from integration tests, part 2
+
+#### Related issues
+
+Issue: #3514 
+Epic: #3511 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-27 12:30:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3747" class=".btn">#3747</a>
             </td>
             <td>

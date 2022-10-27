@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/412" class=".btn">#412</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/414" class=".btn">#414</a>
             </td>
             <td>
                 <b>
-                    allow a sender to transfer ownership of tokens whose sum value > max_value. #411
+                    check that output's quantity is less or equal to max_value. #411
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-26 09:31:03 +0000 UTC
+        Created At 2022-10-27 09:07:44 +0000 UTC
     </div>
 </div>
 
