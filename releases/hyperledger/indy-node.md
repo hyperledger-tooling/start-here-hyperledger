@@ -15,34 +15,35 @@ permalink: /releases/hyperledger/indy-node
         <tr>
             <td colspan="2">
                 <b>
-                    v1.13.2-rc3
+                    v1.13.2-rc4
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.13.2-rc3
+                    v1.13.2-rc4
                 </span>
             </td>
             <td>
-                [v1.13.2-rc3] 
+                [v1.13.2-rc4] 
 
 ## What's Changed
-* Fix Bug in compat-set by @c2bo in https://github.com/hyperledger/indy-node/pull/1777
-* Fixed prepare_package Script by @pSchlarb in https://github.com/hyperledger/indy-node/pull/1779
-* [v1.13.2-rc3] - Update Version Number for Release by @sovbot in https://github.com/hyperledger/indy-node/pull/1780
+* Feature/config transaction flag by @c2bo in https://github.com/hyperledger/indy-node/pull/1783
+* Update dependencies by @WadeBarnes in https://github.com/hyperledger/indy-node/pull/1787
+* Bump indy-plenum version by @WadeBarnes in https://github.com/hyperledger/indy-node/pull/1788
+* [v1.13.2-rc4] - Update Version Number for Release by @sovbot in https://github.com/hyperledger/indy-node/pull/1789
 
 
-**Full Changelog**: https://github.com/hyperledger/indy-node/compare/v1.13.2-rc2...v1.13.2-rc3
+**Full Changelog**: https://github.com/hyperledger/indy-node/compare/v1.13.2-rc3...v1.13.2-rc4
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/indy-node/releases/tag/v1.13.2-rc3" class=".btn">
+    <a href="https://github.com/hyperledger/indy-node/releases/tag/v1.13.2-rc4" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-09-14 16:00:12 +0000 UTC
+        Created At 2022-10-26 21:51:39 +0000 UTC
     </span>
 </div>
 
