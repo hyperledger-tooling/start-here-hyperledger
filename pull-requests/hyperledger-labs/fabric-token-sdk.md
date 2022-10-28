@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">bug</span><span class="chip">enhancement</span>
             </td>
             <td>
                 Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>

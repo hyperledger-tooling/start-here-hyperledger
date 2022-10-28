@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/349" class=".btn">#349</a>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/352" class=".btn">#352</a>
             </td>
             <td>
                 <b>
-                    Kubernetes feature for fablo
+                    Minor fixes
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fablo
                 
             </td>
             <td>
-                Covered in this commits:
-
-CA's, Orderers, Peers, Channels, Chaincodes, SImple network tests
+                Signed-off-by: Jakub Dzikowski <jakub.t.dzikowski@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-30 14:20:49 +0000 UTC
+        Created At 2022-10-28 12:38:10 +0000 UTC
     </div>
 </div>
 
