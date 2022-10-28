@@ -43,35 +43,3 @@ permalink: /releases/hyperledger/firefly-sdk-nodejs
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v1.1.10
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v1.1.10
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* Add function for verifier resolve with namespace by @lanasta in https://github.com/hyperledger/firefly-sdk-nodejs/pull/49
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.1.9...v1.1.10
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.1.10" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-10-21 04:25:19 +0000 UTC
-    </span>
-</div>
-
