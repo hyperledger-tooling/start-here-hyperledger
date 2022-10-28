@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/43" class=".btn">#43</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/44" class=".btn">#44</a>
             </td>
             <td>
                 <b>
-                    bump yui-relayer
+                    Relayer API server
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
                 
             </td>
             <td>
-                Signed-off-by: Toshihiko Okubo <toshihiko.okubo@datachain.jp>
+                - update `CommitmentProof` contents
+    - `List<SerializedBytes<SignableData>>` is added
+    - `FilteredTransaction` is used instead of `WireTransaction`
+- introduce `IbcClientState`, in which a ClientState of any type (e.g. Corda or Fabric) is included
+- fix grpc-adapter interfaces
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-07 08:31:09 +0000 UTC
+        Created At 2022-10-28 01:07:48 +0000 UTC
     </div>
 </div>
 
