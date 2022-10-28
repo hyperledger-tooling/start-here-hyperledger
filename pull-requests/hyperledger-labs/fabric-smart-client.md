@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/428" class=".btn">#428</a>
+            </td>
+            <td>
+                <b>
+                    support for private transactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-28 12:57:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/427" class=".btn">#427</a>
             </td>
             <td>
@@ -34,33 +60,6 @@ Signed-off-by: Dave Kelsey <d_kelsey@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-10-25 09:18:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/426" class=".btn">#426</a>
-            </td>
-            <td>
-                <b>
-                    NWO to only use Fabric Binaries
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                follow-on from #423 as merge mess meant I needed to open a new PR
-Signed-off-by: Dave Kelsey <d_kelsey@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-21 15:29:41 +0000 UTC
     </div>
 </div>
 
