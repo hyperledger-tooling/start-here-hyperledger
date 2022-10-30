@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/451" class=".btn">#451</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/452" class=".btn">#452</a>
             </td>
             <td>
                 <b>
-                    Move inactive maintainers to emeritus status
+                    Fix txsNumInBlocks
                 </b>
             </td>
         </tr>
@@ -27,21 +27,12 @@ permalink: /pull-requests/hyperledger-labs/orion-server
                 
             </td>
             <td>
-                The TOC approved a requirement that maintainers
-that have not been active in over three to six
-months be move to emeritus status.
-
-These maintainers have not been active in over
-one year.
-
-https://github.com/hyperledger/toc/issues/32
-
-Signed-off-by: Ry Jones <ry@linux.com>
+                Signed-off-by: May Rosenbaum <mayro1595@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-16 18:48:07 +0000 UTC
+        Created At 2022-10-29 22:10:56 +0000 UTC
     </div>
 </div>
 
