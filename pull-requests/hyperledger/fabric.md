@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3758" class=".btn">#3758</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: remove solo from integration (4)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Signed-off-by: Yoav Tock <tock@il.ibm.com>
+Change-Id: I1c422996895620f26fd3125caf3dd2143f9396d3
+
+
+#### Type of change
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+Orderer v3: remove solo from integration - part 4.
+
+Change consensus-type migration tests to use raft as the starting point instead of solo, while maintaining as much as possible the testing infrastructure for a future consensus-type.
+
+#### Related issues
+
+Issue: #3514 
+Epic: #3511 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-30 17:53:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3757" class=".btn">#3757</a>
             </td>
             <td>
