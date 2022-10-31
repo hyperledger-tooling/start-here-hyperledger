@@ -1631,37 +1631,3 @@ Resolves #3029
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3711" class=".btn">#3711</a>
-            </td>
-            <td>
-                <b>
-                    update network.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Matthias Sieber <manonthemat@users.noreply.github.com>
-
-#### Type of change
-
-- Documentation update
-
-#### Description
-
-Some slight grammar improvements.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-24 03:44:50 +0000 UTC
-    </div>
-</div>
-
