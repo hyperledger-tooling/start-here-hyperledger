@@ -14,6 +14,134 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3762" class=".btn">#3762</a>
+            </td>
+            <td>
+                <b>
+                    Commit path changes for private data purge (backport #3705)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is an automatic backport of pull request #3705 done by [Mergify](https://mergify.com).
+
+
+---
+
+
+<details>
+<summary>Mergify commands and options</summary>
+
+<br />
+
+More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
+
+You can also trigger Mergify actions by commenting on this pull request:
+
+- `@Mergifyio refresh` will re-evaluate the rules
+- `@Mergifyio rebase` will rebase this PR on its base branch
+- `@Mergifyio update` will merge the base branch into this PR
+- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
+
+Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
+
+- look at your merge queues
+- generate the Mergify configuration with the config editor.
+
+Finally, you can contact us on https://mergify.com
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-31 18:06:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3760" class=".btn">#3760</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: remove solo from orderer/consensus
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Remove solo from orderer/consensus
+
+#### Related issues
+
+Issue: #3514 
+Epic: #3511 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-31 14:42:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3759" class=".btn">#3759</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: clean solo from integration framework
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Yoav Tock <tock@il.ibm.com>
+Change-Id: I4c2f64caff2c44f9706f4a4cde3f6200fa610737
+
+#### Type of change
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Orderer v3: clean solo from integration framework
+
+#### Related issues
+
+Issue: #3514 
+Epic: #3511 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-31 14:02:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3758" class=".btn">#3758</a>
             </td>
             <td>
@@ -1485,149 +1613,6 @@ Finally, you can contact us on https://mergify.com
     </table>
     <div class="right-align">
         Created At 2022-10-25 01:20:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3716" class=".btn">#3716</a>
-            </td>
-            <td>
-                <b>
-                    Bump Go to 1.18.7
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump Go to 1.18.7
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-24 16:20:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3715" class=".btn">#3715</a>
-            </td>
-            <td>
-                <b>
-                    Bump Go to 1.18.7
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump Go to 1.18.7
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-24 16:18:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3714" class=".btn">#3714</a>
-            </td>
-            <td>
-                <b>
-                    Bump Go to 1.18.7
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump Go to 1.18.7
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-24 16:18:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3713" class=".btn">#3713</a>
-            </td>
-            <td>
-                <b>
-                    Bump Go to 1.18.7
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump Go to 1.18.7
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-24 16:10:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3712" class=".btn">#3712</a>
-            </td>
-            <td>
-                <b>
-                    Wire in the PurgePD capability check to the tx simulator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Check the capability of PurgePD is enabled.
-
-Resolves #3029 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-24 13:30:42 +0000 UTC
     </div>
 </div>
 
