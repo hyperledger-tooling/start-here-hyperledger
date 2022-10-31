@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/72" class=".btn">#72</a>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/73" class=".btn">#73</a>
             </td>
             <td>
                 <b>
-                    fixed jackson databind version
+                    integrate acapy 0.7.5 release changes
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-20 13:33:59 +0000 UTC
+        Created At 2022-10-31 09:30:53 +0000 UTC
     </div>
 </div>
 
