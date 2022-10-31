@@ -77,29 +77,3 @@ The image is temporarily hosted under the [net-zero-project ghcr.io](ghcr.io/net
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/636" class=".btn">#636</a>
-            </td>
-            <td>
-                <b>
-                    get code up to date
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-24 16:56:51 +0000 UTC
-    </div>
-</div>
-
