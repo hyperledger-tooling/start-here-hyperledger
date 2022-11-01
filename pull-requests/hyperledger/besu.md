@@ -14,227 +14,29 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4552" class=".btn">#4552</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/4557" class=".btn">#4557</a>
             </td>
             <td>
                 <b>
-                    [WIP] Withdrawals 
+                    DRY-up *PendingTransactionSorter tests
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
-                Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
+                Based on previous work of @garyschulte
 
-No tests so far, It compiles....
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-22 12:44:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4551" class=".btn">#4551</a>
-            </td>
-            <td>
-                <b>
-                    Refactoring of calculate root hash
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-Small refactoring of the calculate root hash. 
-
-The second commit fixes a tiny bug where we leave a few insignificant nodes in the trie branch storage. 
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-22 09:58:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4550" class=".btn">#4550</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade jackson-databind to 2.13.4.2 and other jackson deps to 2.13.4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-- Updated jackson-databind library to version 2.13.4.2 addressing [CVE-2022-42003](https://nvd.nist.gov/vuln/detail/CVE-2022-42003)
-- Also updated other jackson deps to 2.13.4
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-21 19:49:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4548" class=".btn">#4548</a>
-            </td>
-            <td>
-                <b>
-                    prepare for 22.10.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: garyschulte <garyschulte@gmail.com>
+Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
 
 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-prep for 22.10.0
 
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-19 18:14:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4547" class=".btn">#4547</a>
-            </td>
-            <td>
-                <b>
-                    release 22.10.0-RC2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: garyschulte <garyschulte@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-release 22.10.0-RC2
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-19 17:01:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4546" class=".btn">#4546</a>
-            </td>
-            <td>
-                <b>
-                    [WIP]Updating the flat database when a read miss is detected
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-19 16:39:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4545" class=".btn">#4545</a>
-            </td>
-            <td>
-                <b>
-                    Release 22.7.7
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
+`BaseFeePendingTransactionsTest` and `GasPricePendingTransactionsTest` have a lot in common, so make sense to extract shared code in a superclass
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -252,7 +54,7 @@ release 22.10.0-RC2
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-19 14:26:22 +0000 UTC
+        Created At 2022-10-25 14:41:02 +0000 UTC
     </div>
 </div>
 
@@ -260,118 +62,44 @@ release 22.10.0-RC2
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4544" class=".btn">#4544</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/4555" class=".btn">#4555</a>
             </td>
             <td>
                 <b>
-                    Refactored spy stubbing in flaky test.
+                    List.of like utility class for BlockBodies
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">testing</span><span class="chip">flake</span><span class="chip">TeamRevenant</span>
+                
             </td>
             <td>
-                Signed-off-by: mark-terry <mark.terry@consensys.net>
+                This is a QoL refactor that should not have an effect of behaviour. 
+
+When working on Withdrawals I noticed code similar to some of these:
+```
+  new BlockBody(emptyList(),emptyList());
+  new BlockBody(List.of(transaction1),emptyList());
+  new BlockBody(emptyList(),List.of(ommerHeader));
+```
+
+This PR adds a utility class BlockBodies that should work similarly to List.of(...) there is a BlockBodies.empty()
+there is a utility method for BlockBodies.of(transaction) there is a utility method for BlockBodies.of(ommerHeader)
+
+And there will be probably similar one when you will need a Block body only with a withdrawal.
+
+The BlockBody.empty() was moved into this utility class as well...
+
+Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
 
 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Refactored the spy stubbing, per Mockito's suggestion. Might  resolve the flaky test.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-May fix #4511 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-19 13:57:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4543" class=".btn">#4543</a>
-            </td>
-            <td>
-                <b>
-                    P2P: Connect to maintained connections at startup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Based off #4469 just fixing merge conflicts on the changelog
-Kudos to @vdamle 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-19 12:54:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4542" class=".btn">#4542</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade Apache Commons Text to 1.10.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
-
-Upgrades Apache Commons Text to 1.10.0 to fix [CVE-2022-42889](https://nvd.nist.gov/vuln/detail/CVE-2022-42889)
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-19 09:40:05 +0000 UTC
+        Created At 2022-10-25 10:07:31 +0000 UTC
     </div>
 </div>
 
