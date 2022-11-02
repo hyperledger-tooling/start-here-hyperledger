@@ -1,13 +1,13 @@
 
+[22.10.0](https://github.com/hyperledger/besu/releases/tag/22.10.0) 22.10.0
+
+[1.5.0](https://github.com/hyperledger/iroha-javascript/releases/tag/1.5.0) Iroha JavaScript Library 1.5.0
+
+[22.10.0](https://github.com/hyperledger/besu-docs/releases/tag/22.10.0) 22.10.0
+
 [0.45.0](https://github.com/hyperledger/aries-vcx/releases/tag/0.45.0) Release 0.45.0
 
 [v1.8.0](https://github.com/hyperledger-labs/hlf-operator/releases/tag/v1.8.0) Version 1.8.0
-
-[v0.3.0](https://github.com/hyperledger-labs/fabric-opssc/releases/tag/v0.3.0) v0.3.0
-
-[0.7.5](https://github.com/hyperledger/aries-cloudagent-python/releases/tag/0.7.5) 0.7.5
-
-[v1.13.2-rc4](https://github.com/hyperledger/indy-node/releases/tag/v1.13.2-rc4) v1.13.2-rc4
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
