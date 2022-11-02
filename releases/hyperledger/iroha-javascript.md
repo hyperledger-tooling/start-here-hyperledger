@@ -15,28 +15,30 @@ permalink: /releases/hyperledger/iroha-javascript
         <tr>
             <td colspan="2">
                 <b>
-                    Iroha JavaScript Library 1.3.0
+                    Iroha JavaScript Library 1.5.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    1.3.0
+                    1.5.0
                 </span>
             </td>
             <td>
-                This release of the JavaScript library for Hyperledger Iroha is consistent with the 1.3-rc1 version of Iroha.
+                This release of the JavaScript library for Hyperledger Iroha:
+- adds a smart-contract example
+- includes the latest protobuf configuration
 
 If you notice any issues or discrepancies, please let the maintainers know by using any of the [communication channels](https://github.com/hyperledger/iroha#need-help).
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/iroha-javascript/releases/tag/1.3.0" class=".btn">
+    <a href="https://github.com/hyperledger/iroha-javascript/releases/tag/1.5.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-12-07 09:31:54 +0000 UTC
+        Created At 2022-10-26 08:17:20 +0000 UTC
     </span>
 </div>
 
