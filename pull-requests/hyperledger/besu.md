@@ -14,33 +14,75 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4557" class=".btn">#4557</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/4561" class=".btn">#4561</a>
             </td>
             <td>
                 <b>
-                    DRY-up *PendingTransactionSorter tests
+                    Adjust tracing calls
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">mainnet</span>
+                
             </td>
             <td>
-                Based on previous work of @garyschulte
-
-Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
+                
 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
 
-`BaseFeePendingTransactionsTest` and `GasPricePendingTransactionsTest` have a lot in common, so make sense to extract shared code in a superclass
+Restore two tracing behaviors in the EVM introduced by the unrolled loop
+* change gas only on successful operations
+* send post execution call after gas and PC changes.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [X] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-26 13:49:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4560" class=".btn">#4560</a>
+            </td>
+            <td>
+                <b>
+                    Restore changelog subtraction.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: mark-terry <mark.terry@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Restores changelog entries that were removed.
+
+
 
 ## Documentation
 
@@ -54,7 +96,7 @@ Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-25 14:41:02 +0000 UTC
+        Created At 2022-10-26 12:07:41 +0000 UTC
     </div>
 </div>
 
