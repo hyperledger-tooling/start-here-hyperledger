@@ -14,62 +14,11 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2911" class=".btn">#2911</a>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2929" class=".btn">#2929</a>
             </td>
             <td>
                 <b>
-                    [ci] #2690: Add cargo chef caching
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">CI</span>
-            </td>
-            <td>
-                ### Description of the Change
-1. Enable Cargo cache the dependencies with `cargo chef`
-2. Modify Codecov coverage configuration
-
-### Issue
-1. No caching for cargo crates: issue #2690 
-2. Codecov coverage `diff` doesn't work correctly
-
-### Benefits
-1. Speed up the iroha2 CI
-2. Apply a possible way to fix Codecov coverage `diff`
-
-### Possible Drawbacks
-1. Within the current PR, telemetry couldn't be compiled:
-```
-#20 933.9    Compiling iroha_client_cli v2.0.0-pre-rc.9 (/client_cli)
-#20 934.2 error: failed to run custom build command for `iroha_telemetry v2.0.0-pre-rc.9 (/telemetry)`
-#20 934.2 
-#20 934.2 Caused by:
-#20 934.2   process didn't exit successfully: `/target/release/build/iroha_telemetry-aee0cffb91c378a9/build-script-build` (exit status: 1)
-#20 934.2   --- stderr
-#20 934.2   Error: could not find repository from '/telemetry'; class=Repository (6); code=NotFound (-3)
-```
-Could be a reason in the `Cargo.lock` and `deploy profile`? @s8sato @appetrosyan 
-
-2. Changes regarding to Codecov coverage could not help (according to the fresh topics from Codecov forum, other users have the same problem without official resolution).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-25 12:41:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2910" class=".btn">#2910</a>
-            </td>
-            <td>
-                <b>
-                    [ci]: Coverage improvement
+                    [feature] #2905: Extend arithmetic operations to support `AssetValue` 
                 </b>
             </td>
         </tr>
@@ -78,26 +27,108 @@ Could be a reason in the `Cargo.lock` and `deploy profile`? @s8sato @appetrosyan
                 <span class="chip">iroha2</span>
             </td>
             <td>
-                
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
 ### Description of the Change
-Remove dead code and improve coverage by excluding binary entrypoints which should be tested with UI/UX
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+Extend arithmetic operations to support `AssetValue`  instead of only `u32`.
 
 ### Issue
+
+Closes #2905.
+
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+Arithmetic instructions support more types.
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+
+None.
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-01 14:28:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2928" class=".btn">#2928</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #2899, #2508: Add multi-instructions and wasm subcommands into 'client_cli'
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+Merge changes from #2898 and #2918 into LTS.
+
+### Issue
+
+Close #2899 and #2508
+
+### Benefits
+
+Add a couple of subcommands into the LTS branch.
+
+### Possible Drawbacks
+
 None
-
-### Benefits
-
-More coverage
-
-### Possible Drawbacks
-
-Mocking is harder to implement if we decide to backtrack on it. 
-
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-25 12:18:38 +0000 UTC
+        Created At 2022-11-01 14:02:00 +0000 UTC
     </div>
 </div>
 
@@ -105,84 +136,11 @@ Mocking is harder to implement if we decide to backtrack on it.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2908" class=".btn">#2908</a>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2924" class=".btn">#2924</a>
             </td>
             <td>
                 <b>
-                    Remove cache from main workflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: safinsaf <safinsaft@gmail.com>
-
-<!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-### Issue
-
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests *[optional]*
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-25 09:11:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2907" class=".btn">#2907</a>
-            </td>
-            <td>
-                <b>
-                    [WIP] [refactor] #2458: implement generic combinator API
+                    [fix] #2923: Return `FindError` when `AssetDefinition` does not exist
                 </b>
             </td>
         </tr>
@@ -191,207 +149,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
                 <span class="chip">iroha2</span>
             </td>
             <td>
-                <!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-### Issue
-
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests *[optional]*
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-25 02:01:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2906" class=".btn">#2906</a>
-            </td>
-            <td>
-                <b>
-                    Repaired building iroha according to instruction: Added patch file to repair building of benchmark library: std::numeric_limits requires <limits> header
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Bug</span><span class="chip">1.x</span><span class="chip">build</span><span class="chip">1.5</span><span class="chip">Dev defect</span>
-            </td>
-            <td>
-                <!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-This is really similar to https://github.com/hyperledger/iroha/pull/2902, but there is problem with another dependency: benchmark library.
-
-When building according to the [instruction](https://iroha.readthedocs.io/en/develop/build/index.html#installing-dependencies-with-vcpkg-dependency-manager), which is with command:
-```
-./vcpkg/build_iroha_deps.sh $PWD/vcpkg-build
-```
-Suddenly building is stopping with message:
-```
-Building package benchmark[core]:x64-linux...
--- Downloading https://github.com/google/benchmark/archive/73d4d5e8d6d449fc8663765a42aa8aeeee844489.tar.gz -> google-benchmark-73d4d5e8d6d449fc8663765a42aa8aeeee844489.tar.gz...
--- Extracting source /home/student/Desktop/iroha_code/baziorek/iroha/vcpkg-build/downloads/google-benchmark-73d4d5e8d6d449fc8663765a42aa8aeeee844489.tar.gz
--- Using source at /home/student/Desktop/iroha_code/baziorek/iroha/vcpkg-build/buildtrees/benchmark/src/eeee844489-75b6880063.clean
--- Found external ninja('1.10.1').
--- Configuring x64-linux-dbg
--- Configuring x64-linux-rel
--- Building x64-linux-dbg
-CMake Error at scripts/cmake/vcpkg_execute_build_process.cmake:146 (message):
-    Command failed: /usr/bin/cmake --build . --config Debug --target install -- -v -j6
-    Working Directory: /home/student/Desktop/iroha_code/baziorek/iroha/vcpkg-build/buildtrees/benchmark/x64-linux-dbg
-    See logs for more information:
-      /home/student/Desktop/iroha_code/baziorek/iroha/vcpkg-build/buildtrees/benchmark/install-x64-linux-dbg-out.log
-
-Call Stack (most recent call first):
-  scripts/cmake/vcpkg_build_cmake.cmake:105 (vcpkg_execute_build_process)
-  scripts/cmake/vcpkg_install_cmake.cmake:45 (vcpkg_build_cmake)
-  ports/benchmark/portfile.cmake:21 (vcpkg_install_cmake)
-  scripts/ports.cmake:142 (include)
-
-
-Error: Building package benchmark:x64-linux failed with: BUILD_FAILED
-Please ensure you're using the latest portfiles with `./vcpkg update`, then
-submit an issue at https://github.com/Microsoft/vcpkg/issues including:
-  Package: benchmark:x64-linux
-  Vcpkg version: 2021-01-13-unknownhash
-
-Additionally, attach any relevant sections from the log files above.
-```
-In the log file is problem:
-```
-In file included from /home/student/Desktop/iroha_code/baziorek/iroha/vcpkg-build/buildtrees/benchmark/src/eeee844489-75b6880063.clean/src/benchmark_register.cc:15:
-/home/student/Desktop/iroha_code/baziorek/iroha/vcpkg-build/buildtrees/benchmark/src/eeee844489-75b6880063.clean/src/benchmark_register.h: In function ‘typename std::vector<T>::iterator benchmark::internal::AddPowers(std::vector<T>*, T, T, int)’:
-/home/student/Desktop/iroha_code/baziorek/iroha/vcpkg-build/buildtrees/benchmark/src/eeee844489-75b6880063.clean/src/benchmark_register.h:22:30: error: ‘numeric_limits’ is not a member of ‘std’
-   22 |   static const T kmax = std::numeric_limits<T>::max();
-      |                              ^~~~~~~~~~~~~~
-```
-So to fix its it is enough to add to the file: `benchmark_register.h` extra line:
-```
-#include <limits>
-```
-So I've corrected this according to instruction: https://stackoverflow.com/questions/72588408/vcpkg-how-to-edit-package-file-when-compilation-fails-when-installing-package
-____________
-I'm using Ubuntu 22.04, with version of g++: g++ (Ubuntu 11.2.0-19ubuntu1) 11.2.0.
-
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-### Issue
-
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-Automatic build of HL Iroha
-
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks
-Chosen way of fix can be not best possible (maybe upgrading the library would be better, but more dangerous).
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests *[optional]*
-After the fix the command:
-```
-./vcpkg/build_iroha_deps.sh $PWD/vcpkg-build
-```
-is passing to build `benchmark` without any hacks described [here](https://stackoverflow.com/questions/72588408/vcpkg-how-to-edit-package-file-when-compilation-fails-when-installing-package).
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-24 22:06:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2903" class=".btn">#2903</a>
-            </td>
-            <td>
-                <b>
-                    Add Iroha select label and restore temporary changes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: safinsaf <safinsaft@gmail.com>
+                Signed-off-by: Shanin Roman <shanin1000@yandex.ru>
 
 <!-- You will not see HTML commented line in Pull Request body -->
 <!-- Optional sections may be omitted. Just remove them or write None -->
@@ -406,10 +164,14 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
 
 ### Description of the Change
 
+Skip validation if `AssetDefinitionId` doesn't exist.
+
 <!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
 <!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
 
 ### Issue
+
+Closes #2923.
 
 <!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
 More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
@@ -418,20 +180,16 @@ More information about this is available in GitHub documentation: https://docs.g
 
 ### Benefits
 
+Proper error message.
+
 <!-- What benefits will be realized by the code change? -->
 
 ### Possible Drawbacks
 
+No.
+
 <!-- What are the possible side-effects or negative impacts of the code change? -->
 <!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests *[optional]*
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
 
 <!--
 NOTE: User may want skip pull request and push workflows with [skip ci]
@@ -443,7 +201,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-24 10:17:44 +0000 UTC
+        Created At 2022-10-28 14:01:04 +0000 UTC
     </div>
 </div>
 
@@ -451,287 +209,11 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2902" class=".btn">#2902</a>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2918" class=".btn">#2918</a>
             </td>
             <td>
                 <b>
-                    Repaired building iroha according to instruction: Added patch file to make sure abseil library is building without changes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">Bug</span><span class="chip">1.x</span><span class="chip">build</span><span class="chip">1.5</span><span class="chip">Dev defect</span>
-            </td>
-            <td>
-                <!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-When building according to the instruction: https://iroha.readthedocs.io/en/develop/build/index.html#installing-dependencies-with-vcpkg-dependency-manager, which is with command:
-```
-./vcpkg/build_iroha_deps.sh $PWD/vcpkg-build
-```
-Suddently building is stopping with message:
-```
-Starting package 1/120: abseil:x64-linux
-Building package abseil[core]:x64-linux...
--- Downloading https://github.com/abseil/abseil-cpp/archive/997aaf3a28308eba1b9156aa35ab7bca9688e9f6.tar.gz -> abseil-abseil-cpp-997aaf3a28308eba1b9156aa35ab7bca9688e9f6.tar.gz...
--- Extracting source /home/student/Desktop/iroha_code/baziorek/iroha/vcpkg-build/downloads/abseil-abseil-cpp-997aaf3a28308eba1b9156aa35ab7bca9688e9f6.tar.gz
--- Applying patch fix-cxx-standard.patch
--- Using source at /home/student/Desktop/iroha_code/baziorek/iroha/vcpkg-build/buildtrees/abseil/src/ca9688e9f6-e4cda1d679.clean
--- Found external ninja('1.10.1').
--- Configuring x64-linux-dbg
--- Configuring x64-linux-rel
--- Building x64-linux-dbg
-CMake Error at scripts/cmake/vcpkg_execute_build_process.cmake:146 (message):
-    Command failed: /usr/bin/cmake --build . --config Debug --target install -- -v -j6
-    Working Directory: /home/student/Desktop/iroha_code/baziorek/iroha/vcpkg-build/buildtrees/abseil/x64-linux-dbg
-    See logs for more information:
-      /home/student/Desktop/iroha_code/baziorek/iroha/vcpkg-build/buildtrees/abseil/install-x64-linux-dbg-out.log
-
-Call Stack (most recent call first):
-  scripts/cmake/vcpkg_build_cmake.cmake:105 (vcpkg_execute_build_process)
-  scripts/cmake/vcpkg_install_cmake.cmake:45 (vcpkg_build_cmake)
-  ports/abseil/portfile.cmake:32 (vcpkg_install_cmake)
-  scripts/ports.cmake:142 (include)
-
-
-Error: Building package abseil:x64-linux failed with: BUILD_FAILED
-Please ensure you're using the latest portfiles with `./vcpkg update`, then
-submit an issue at https://github.com/Microsoft/vcpkg/issues including:
-  Package: abseil:x64-linux
-  Vcpkg version: 2021-01-13-unknownhash
-
-Additionally, attach any relevant sections from the log files above.
-```
-In the log file is problem:
-```
-...
-/home/student/Desktop/iroha_code/baziorek/iroha/vcpkg-build/buildtrees/abseil/src/ca9688e9f6-e4cda1d679.clean/absl/debugging/failure_signal_handler.cc:139:32: error: no matching function for call to ‘max(long int, int)’
-  139 |   size_t stack_size = (std::max(SIGSTKSZ, 65536) + page_mask) & ~page_mask;
-      |                        ~~~~~~~~^~~~~~~~~~~~~~~~~
-...
-```
-So to fix its both arguments have to have the same type, or to specify type of `std::max`. Because result is assigned to variable `size_t stack_size`, so I assume that the type should be `size_t`.
-
-So I've corrected this according to instruction: https://stackoverflow.com/questions/72588408/vcpkg-how-to-edit-package-file-when-compilation-fails-when-installing-package
-
-_______________
-I'm using Ubuntu 22.04, with version of g++:  `g++ (Ubuntu 11.2.0-19ubuntu1) 11.2.0`. As I know @andprogrammer had the same problem.
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-### Issue
-
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-Automatic build of HL Iroha
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks
-Chosen way of fix can be not best possible.
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests *[optional]*
-After the fix the command:
-```
-./vcpkg/build_iroha_deps.sh $PWD/vcpkg-build
-```
-is passing to build `abseil` without any hacks described [here](https://stackoverflow.com/questions/72588408/vcpkg-how-to-edit-package-file-when-compilation-fails-when-installing-package).
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-Another possibility to fix the issue would be to upgrade version of abseil, but it is always dangerous that something somewhere would stop compiling or worse - start working different way.
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
-__________________
-PS: There is another problem with auto-build: benchmark library is failing to compile. But I'd prefer another PR.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-24 00:33:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2901" class=".btn">#2901</a>
-            </td>
-            <td>
-                <b>
-                    Follow-up: #1776: Configurable max past created hours - changed type
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">1.x</span><span class="chip">1.5</span>
-            </td>
-            <td>
-                <!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-In my previous PR @iceseer left comment: https://github.com/hyperledger/iroha/pull/1776#issuecomment-1283796964
-that is why I corrected the comment.
-
-The only changes is type change + what it requires. Another small change is removing unused include.
-
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-### Issue
-
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-More modern C++ code
-
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests *[optional]*
-The same code as used to test here: https://github.com/hyperledger/iroha/pull/1776
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-21 20:13:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2900" class=".btn">#2900</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #2747: Change `LoadFromEnv` API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Ilia Churin <churin.ilya@gmail.com>
-
-<!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-* `LoadFromEnv` and `LoadFromDisk` updated to return proxy configs in any case, without failure
-* `Combine` trait now properly loads inner config values, updating all the fields
-* Documentation for all proxy traits in `config/base/lib.rs` updated
-* Small refactor of `config/base/derive/src/view.rs`, mostly in connection with #2773 
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-### Issue
-
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-Closes #2747, #2773, #2632, #2617
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-Expected behaviour (e.g. bootstrapping a peer with just the env variables) is back
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks
-None I could think of
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests
-Some new tests added to `config/base/tests/simple.rs`, reworked `config/base/lib.rs` documentation examples as well
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-21 13:28:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2898" class=".btn">#2898</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #2508: Add a new client CLI subcommand that accepts wasm
+                    [feature] #2899: Add multi-instructions subcommand into `client_cli`
                 </b>
             </td>
         </tr>
@@ -755,64 +237,87 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
 
 ### Description of the Change
 
-Add a new subcommand to the Client CLI that accepts wasm binaries and executes them.
+More details about the suggestion you can find [here.](https://github.com/hyperledger/iroha/issues/2899)
+
+I spent some time trying to reuse `GenesisTransaction`s format (`configs/peer/genesis.json`) but it's a bad way cause demand depends on `iroha_core` and a lot of boilerplate code being converted. But I noticed that we can just use `Serialize/Deserialize` which already implemented for `Instruction`s and use those traits to represent instructions as JSON. As a result, I got a way to make a more convenient and simple implementation of this command.
 
 ### Issue
 
-Closes #2508
+Closes #2899 
 
 ### Benefits
 
-Allow executing wasm binaries from the Client CLI.
+Submit multiple instructions using one command
 
 ### Possible Drawbacks
 
 None
 
-### Usage Examples or Tests *[optional]*
+### Usage Examples or Tests
 
-Save it into a WAT file.
-```wasm
-(module
-            
-        ;; Import host function to execute instruction
-        (import "iroha" "execute_instruction"
-            (func $exec_isi (param i32 i32)))
-
-        ;; Import host function to execute query
-        (import "iroha" "execute_query"
-            (func $exec_query (param i32 i32) (result i32)))
-
-        ;; Embed ISI into WASM binary memory
-        (memory (export "memory") 1)
-        (data (i32.const 0) "\00\0d\09\00\04\30\00\00\06\00\0d\09\00\04\31\00\00\05\0d\02\00\08\2c\75\6e\72\65\61\63\68\61\62\6c\65\01\07\08\00\0d\09\00\04\32\00\00\00\0d\09\00\04\33\00\00")
-
-        ;; Variable which tracks total allocated size
-        (global $mem_size (mut i32) i32.const 53)
-
-        ;; Export mock allocator to host. This allocator never frees!
-        (func (export "_iroha_wasm_alloc") (param $size i32) (result i32)
-            global.get $mem_size
-
-            (global.set $mem_size
-                (i32.add (global.get $mem_size) (local.get $size)))
-        )
-        
-
-            ;; Function which starts the smartcontract execution
-            (func (export "_iroha_wasm_main") (param)
-                (call $exec_isi (i32.const 0) (i32.const 8))(call $exec_isi (i32.const 8) (i32.const 45))))
+Save these instructions into a file:
+```json
+[
+    {
+        "Register": {
+            "Identifiable": {
+                "NewDomain": {
+                    "id": "neverland",
+                    "logo": null,
+                    "metadata": {}
+                }
+            }
+        }
+    },
+    {
+        "Register": {
+            "Identifiable": {
+                "NewAccount": {
+                    "id": "steve@neverland",
+                    "signatories": [
+                        "ed0120cc25624d62896d3a0bfd8940f928dc2abf27cc57cefeb442aa96d9081aae58a1"
+                    ],
+                    "metadata": {}
+                }
+            }
+        }
+    },
+    {
+        "Register": {
+            "Identifiable": {
+                "NewAssetDefinition": {
+                    "id": "sapporo#neverland",
+                    "value_type": "Quantity",
+                    "mintable": "Infinitely",
+                    "metadata": {}
+                }
+            }
+        }
+    },
+    {
+        "Mint": {
+            "object": {
+                "U32": 1010
+            },
+            "destination_id": {
+                "Id": {
+                    "AssetId": "sapporo##steve@neverland"
+                }
+            }
+        }
+    }
+]
 ```
 
-Pass the file like this
-```sh
-./iroha_client_cli wasm --path=./test.wat
+And then pass to `client_cli` like this:
+```
+cat ./test.json | ./iroha_client_cli json
 ```
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-21 07:59:34 +0000 UTC
+        Created At 2022-10-27 08:05:48 +0000 UTC
     </div>
 </div>
 
@@ -820,113 +325,11 @@ Pass the file like this
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2897" class=".btn">#2897</a>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2917" class=".btn">#2917</a>
             </td>
             <td>
                 <b>
-                    [fix] #2880: Close websocket connection properly
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Shanin Roman <shanin1000@yandex.ru>
-
-<!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-Close websocket connection properly.
-
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-### Issue
-
-Closes #2880. 
-
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-Properly closed connection. 
-
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks
-
-None.
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-20 13:59:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2895" class=".btn">#2895</a>
-            </td>
-            <td>
-                <b>
-                    [documentation]: Remove outdated doc files
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-- Deleted outdated files in `docs`
-- Added a readme for `docs` folder
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-20 10:41:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2892" class=".btn">#2892</a>
-            </td>
-            <td>
-                <b>
-                    [refactor]: improve error messages on configuration failure.
+                    [feature] #2163: Add trait to handle log-and-ignore pattern
                 </b>
             </td>
         </tr>
@@ -950,364 +353,73 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
 
 ### Description of the Change
 
-Improved error messages in cases where configuration failed to get parsed. 
+The log-and-ignore pattern is all too common in our code base. I've added a trait that makes it much easier to enforce "best practices" for such errors. Specifically, errors now need to be explicitly ignored using an `expect`-like `ignored` function. 
 
-### Issue
-
-None
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-Better UX. 
-
-### Possible Drawbacks
-
-None
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-20 07:03:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2891" class=".btn">#2891</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #2880: Fix block streaming (lts)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Shanin Roman <shanin1000@yandex.ru>
-
-<!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-- Fix block streaming.
-
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-### Issue
-
-Closes #2880.
-
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-Bug fixed.
-
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks
-
-None.
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-20 06:42:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2890" class=".btn">#2890</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #2880: Fix block streaming
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                <!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-- Add support for block streaming into `iroha_client` and `iroha_client_cli`;
-- Fix iroha block streaming.
-
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-### Issue
-
-Closes #2880, #2889.
-
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-Fixed bug, block streaming support.
-
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks
-
-None.
-
-### Usage
-
-```
-cargo run --bin iroha_client_cli blocks 1
+For most errors their kind determines the severity. So instead of writing 
+```rust
+if let Err(e) = some_fallible_operation() {
+    warn!(%e, "Some erorr occurred")
+}
 ```
 
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
+We write 
+```rust
+some_fallible_operation()
+	.logged()
+	.ignored("If `some_fallible_operation` failed, you probably have something wrong with your ports");
+```
+Less code, more information, the message in the `ignored` doubles as a comment for why we aren't handling the error. 
 
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-20 06:32:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2887" class=".btn">#2887</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #2870: Reduce amount of ConnectPeer messages sent to p2p (lts)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Sam H. Smith <sam.henning.smith@protonmail.com>
-
-<!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+Additionally the code generated here will make use of the fact that `eyre::Report`'s `core::fmt::Debug` implementation prints the traceback, so as to print the entire traceback in the logs for the **debug** build, while reducing the verbosity in the **release** build. 
 
 
-### Description of the Change
-
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
 
 ### Issue
 
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+#2163 
 
 ### Benefits
 
-<!-- What benefits will be realized by the code change? -->
+Less boilerplate, more diagnostic information when you need it. 
 
 ### Possible Drawbacks
 
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
+For all errors handled this way, the `error` span is attached to the implementation for this error type and not the call-site where the error "first" occurred. 
 
-### Usage Examples or Tests *[optional]*
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+Resolution pending 
+https://discord.com/channels/500028886025895936/627649734592561152/1034897182333091850
 
 ### Alternate Designs *[optional]*
 
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
+A (postfix) macro based solution could do just as well. 
 
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
+A prefix macro with a mini-syntax could resolve the issue of spans, but be more cumbersome to use. 
+
+An attribute-like macro is also possible with the following syntax:
+```rust 
+#[log_on_err]
+fn function_calling_fallible(… ) -> … {
+	some_fallible_operation().logged().ignored("Helpful message");
+	another_fallible_op()
+		.map(do_something)
+		.map_err(do_something_else)
+		.logged!() // Expands in-place. 
+		.map_err(one_last_time)
+		.ignored("With this error"); 
+	for e in results {
+		e.is_err().break() now; // `.break()` returns `ControlFlow::Break` which then gets applied by the `now` keyword
+	} // functions as `if let Err(e)` break. 
+	result.if_error().short_circuit()
+}
+```
+which corrects the span information and adds functionality and posprocesses the methods via keywords, but complicates the system and removes the flexibility of the trait implementation using the full-fat type level information. 
+
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-19 10:51:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2886" class=".btn">#2886</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #2804, #2863: `iroha_client_cli` submit transaction blocking
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Shanin Roman <shanin1000@yandex.ru>
-
-<!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-Submit transaction and wait for result.
-
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-### Issue
-
-Closes #2804, #2863.
-
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-Less confusion.
-
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks
-
-None.
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests *[optional]*
-
-Try to reproduce cases in provided issues.
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-Leave as is.
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-19 07:32:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2879" class=".btn">#2879</a>
-            </td>
-            <td>
-                <b>
-                    [documentation]: Move some docs to the tutorial repository
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-Moved some of the docs to the tutorial repo. This can be merged after https://github.com/hyperledger/iroha-2-docs/pull/202 is merged.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-18 18:49:30 +0000 UTC
+        Created At 2022-10-26 19:21:44 +0000 UTC
     </div>
 </div>
 

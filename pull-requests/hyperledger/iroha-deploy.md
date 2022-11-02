@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-deploy
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-deploy/pull/32" class=".btn">#32</a>
+                PR <a href="https://github.com/hyperledger/iroha-deploy/pull/36" class=".btn">#36</a>
             </td>
             <td>
                 <b>
-                    cleanup the repo from deprecated k8s files
+                    Fix dockerfile for ubuntu 22.04
                 </b>
             </td>
         </tr>
@@ -27,23 +27,23 @@ permalink: /pull-requests/hyperledger/iroha-deploy
                 
             </td>
             <td>
-                # Cleanup the repo from deprecated k8s files
+                # Task
+
+[LAOS-111]: New env for cbdc.
 
 ## Changes
 
-1. Remove ansible/roles/iroha-k8s role.
-2. Remove the inventory file associated with the iroha-k8s role.
-3. Add a new inventory file for remote iroha deployment with dummy data.
-4. Add simpel documentation for the repo.
+1. Fix dockerfile for ubuntu 22.04.
 
 ## Author
 
-Signed-off-by: Ahmed Elkashef <aelkashef@soramitsu.co.jp>
+Signed-off-by: Pavel Varfolomeev <wpi86@yandex.ru>
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2021-11-10 04:05:36 +0000 UTC
+        Created At 2022-11-02 16:09:03 +0000 UTC
     </div>
 </div>
 

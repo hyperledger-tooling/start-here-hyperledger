@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/641" class=".btn">#641</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/644" class=".btn">#644</a>
             </td>
             <td>
                 <b>
-                    remove some code for private key #638
+                    remove more private key in client features
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-26 16:03:30 +0000 UTC
+        Created At 2022-11-02 16:29:43 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/320" class=".btn">#320</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/325" class=".btn">#325</a>
             </td>
             <td>
                 <b>
-                    Workflow Permissions
+                    Add commit hash to Github Actions release workflow
                 </b>
             </td>
         </tr>
@@ -27,54 +27,15 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+                The commit hash is needed to properly tag the correct release branch release commit.
 
-<!--- Provide a descriptive summary of your changes in the Title above. -->
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-- Add permissions to Fabric CA workflows and specify exact Go version for release
-
-<!--- Describe your changes in detail, including motivation. -->
-
-
-<!--- Additional implementation details or comments to reviewers. -->
-<!--- Summarize how the pull request was tested (if not obvious from commit). -->
-
-
-<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
-
-<!---
-#### Release Note
-If change impacts current users, uncomment Release Note heading and provide
-release note text.
--->
-
-<!--
-Checklist (DELETE AFTER READING):
-
-- `Signed-off-by` added to commits (required for DCO check to pass)
-- Tests have been added/updated (required for bug fixes and features)
-- Unit and/or integration tests pass locally
-- Run linters and checks locally using 'make checks'
-- If change requires documentation updates, make updates in pull request,
-  or open a separate issue and provide link
-- Squash commits into a single commit, unless a stack of commits is
-  intentional to assist reviewers or to preserve review comments.
-- For additional contribution guidelines see the project's CONTRIBUTING.md file
--->
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-20 18:15:31 +0000 UTC
+        Created At 2022-10-28 02:56:48 +0000 UTC
     </div>
 </div>
 
@@ -82,11 +43,11 @@ Checklist (DELETE AFTER READING):
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/319" class=".btn">#319</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/324" class=".btn">#324</a>
             </td>
             <td>
                 <b>
-                    Release Workflow
+                    Increase stability by exposing DB connection and pool properties 
                 </b>
             </td>
         </tr>
@@ -95,59 +56,33 @@ Checklist (DELETE AFTER READING):
                 
             </td>
             <td>
-                
-<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+                #### Type of change
 
-<!--- Provide a descriptive summary of your changes in the Title above. -->
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- New feature
 - Improvement (improvement to code, performance, etc)
 
 #### Description
 
-<!--- Describe your changes in detail, including motivation. -->
+Exposed database connection properties so we can have automatic connection recycling in production for when connection pools go stale like when Google Cloud SQL does database maintenance about every quarter, sometimes more.
 
-- Release workflow automates new release creation process similar the current Azure Pipelines release job
-- Generates binaries for linux, darwin, and windows targets, pushes Docker images to Hyperledger DockerHub, and creates a new tag and release with artifacts for given version number based off of main branch latest commit
-- Workflow must be manually triggered from Actions tab and requires input for the version number and two digit version number similar to Azure Pipelines
-- GitHub secrets for DOCKERHUB_PASSWORD and DOCKERHUB_USERNAME must be added to repository matching Hyperledger DockerHub credentials before workflow can be run successfully
+#### Additional details
 
+Similar to the `maxLifetime` configuration property in the [HikariCP](https://github.com/brettwooldridge/HikariCP#essentials) database library, as well as others, providing access to these connection properties adds significant production stability by enabling connection pools to continually refresh themselves. Given that PostgreSQL connections don't garbage collect objects in SQL connections this configurability of connection pools is a requirement for long-term stability of the CA.
 
-<!--- Additional implementation details or comments to reviewers. -->
-<!--- Summarize how the pull request was tested (if not obvious from commit). -->
+#### Related issues
 
+https://github.com/hyperledger/fabric-ca/issues/321
 
-<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
-
-<!---
 #### Release Note
-If change impacts current users, uncomment Release Note heading and provide
-release note text.
--->
+Exposes operational database connection properties for ease of CA administration and stability.
 
-<!--
-Checklist (DELETE AFTER READING):
 
-- `Signed-off-by` added to commits (required for DCO check to pass)
-- Tests have been added/updated (required for bug fixes and features)
-- Unit and/or integration tests pass locally
-- Run linters and checks locally using 'make checks'
-- If change requires documentation updates, make updates in pull request,
-  or open a separate issue and provide link
-- Squash commits into a single commit, unless a stack of commits is
-  intentional to assist reviewers or to preserve review comments.
-- For additional contribution guidelines see the project's CONTRIBUTING.md file
--->
+
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-18 21:48:35 +0000 UTC
+        Created At 2022-10-27 18:34:12 +0000 UTC
     </div>
 </div>
 

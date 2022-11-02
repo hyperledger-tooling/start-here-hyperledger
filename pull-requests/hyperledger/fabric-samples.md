@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/845" class=".btn">#845</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/850" class=".btn">#850</a>
             </td>
             <td>
                 <b>
-                    minor chaincode cleanup
+                    Minor fixes to the ingress setting
                 </b>
             </td>
         </tr>
@@ -27,97 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                <nil>
+                This patch fixes the ingress setting so that the peer-gateway works correctly.
+
+Signed-off-by: Satoshi Ito <satoshi.ito.tf@hitachi.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-25 01:20:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/844" class=".btn">#844</a>
-            </td>
-            <td>
-                <b>
-                    Fixed comment consistency problem
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-24 11:47:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/843" class=".btn">#843</a>
-            </td>
-            <td>
-                <b>
-                    Avoid usage of deprecated ioutil Go package
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. replace deprecated ioutil functions (ioutil is deprecated since Go 1.16)
-2. fix variable names that collide with imported package name
-3. fix typos
-
-Also update Go version specified by Go modules to ensure a Go version is used in which ioutil is deprecated and replacement functions are available in os and io packages.
-
-Signed-off-by: Tommy TIAN <xtianae@connect.ust.hk>
-Co-authored-by: Mark S. Lewis <mark_lewis@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-21 10:46:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/842" class=".btn">#842</a>
-            </td>
-            <td>
-                <b>
-                    Update samples to use fabric-gateway v1.1.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-20 11:49:53 +0000 UTC
+        Created At 2022-11-01 01:18:15 +0000 UTC
     </div>
 </div>
 

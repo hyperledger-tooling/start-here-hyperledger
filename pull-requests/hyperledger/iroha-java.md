@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/273" class=".btn">#273</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/278" class=".btn">#278</a>
             </td>
             <td>
                 <b>
-                    Feature/1.3.0 update protobuf-java
+                    Bugfix: asset id as string
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                fixing vulnerability
-https://nvd.nist.gov/vuln/detail/CVE-2021-22569
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-21 13:19:56 +0000 UTC
+        Created At 2022-11-02 07:35:20 +0000 UTC
     </div>
 </div>
 
