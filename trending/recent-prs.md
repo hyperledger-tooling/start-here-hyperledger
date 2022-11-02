@@ -1,13 +1,13 @@
 
-[3762](https://github.com/hyperledger/fabric/pull/3762) Commit path changes for private data purge (backport #3705)
+[4592](https://github.com/hyperledger/besu/pull/4592) Release 22.10.0
 
-[3760](https://github.com/hyperledger/fabric/pull/3760) Orderer v3: remove solo from orderer/consensus
+[133](https://github.com/hyperledger/iroha-javascript/pull/133) Bump minimist from 1.2.5 to 1.2.7
 
-[3759](https://github.com/hyperledger/fabric/pull/3759) Orderer v3: clean solo from integration framework
+[132](https://github.com/hyperledger/iroha-javascript/pull/132) Increase version
 
-[356](https://github.com/hyperledger-labs/fablo/pull/356) Simple K8 test and improvements
+[3425](https://github.com/hyperledger/aries-framework-go/pull/3425) chore: Controller should be filled in even with relative URL(@base)
 
-[73](https://github.com/hyperledger-labs/acapy-java-client/pull/73) integrate acapy 0.7.5 release changes
+[644](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/644) remove more private key in client features
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

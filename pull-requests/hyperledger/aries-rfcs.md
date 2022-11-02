@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/755" class=".btn">#755</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/756" class=".btn">#756</a>
             </td>
             <td>
                 <b>
-                    WIP: OCA for Aries RFC
+                    Unknown Error Handling
                 </b>
             </td>
         </tr>
@@ -27,13 +27,14 @@ permalink: /pull-requests/hyperledger/aries-rfcs
                 
             </td>
             <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+                Clarifies unknown error code handling as prompted by error detail updates in #752 
 
+Signed-off-by: Sam Curren <telegramsam@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-29 11:11:11 +0000 UTC
+        Created At 2022-11-02 00:42:27 +0000 UTC
     </div>
 </div>
 

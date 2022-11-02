@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1785" class=".btn">#1785</a>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1789" class=".btn">#1789</a>
             </td>
             <td>
                 <b>
-                    Move inactive maintainers to emeritus status
+                    [v1.13.2-rc4] - Update Version Number for Release
                 </b>
             </td>
         </tr>
@@ -27,21 +27,12 @@ permalink: /pull-requests/hyperledger/indy-node
                 
             </td>
             <td>
-                The TOC approved a requirement that maintainers
-that have not been active in over three to six
-months be move to emeritus status.
-
-These maintainers have not been active in over
-one year.
-
-hyperledger/toc#32
-
-Signed-off-by: Ry Jones <ry@linux.com>
+                [v1.13.2-rc4] - Update Version number for Release
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-19 16:11:44 +0000 UTC
+        Created At 2022-10-26 19:22:30 +0000 UTC
     </div>
 </div>
 
@@ -49,11 +40,11 @@ Signed-off-by: Ry Jones <ry@linux.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1784" class=".btn">#1784</a>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1788" class=".btn">#1788</a>
             </td>
             <td>
                 <b>
-                    updated Actions because of
+                    Bump indy-plenum version
                 </b>
             </td>
         </tr>
@@ -62,14 +53,14 @@ Signed-off-by: Ry Jones <ry@linux.com>
                 
             </td>
             <td>
-                Node.js 12 deprecation in GHA
+                - Update the indy-plenum version in preparation for a new release.
 
-Signed-off-by: Philipp Schlarb <p.schlarb@esatus.com>
+Signed-off-by: Wade Barnes <wade@neoterictech.ca>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-18 13:56:13 +0000 UTC
+        Created At 2022-10-26 18:26:40 +0000 UTC
     </div>
 </div>
 

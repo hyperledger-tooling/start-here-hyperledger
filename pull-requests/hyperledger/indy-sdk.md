@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2559" class=".btn">#2559</a>
+                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2561" class=".btn">#2561</a>
             </td>
             <td>
                 <b>
-                    Fixed @ CVE-2021-25900
+                    update readme.md
                 </b>
             </td>
         </tr>
@@ -27,51 +27,14 @@ permalink: /pull-requests/hyperledger/indy-sdk
                 
             </td>
             <td>
-                Signed-off-by: mik-patient <112659896+mik-patient@users.noreply.github.com>
+                Simplify language.
 
-An issue was discovered in the smallvec crate before 0.6.14 and 1.x before 1.6.1 for Rust. There is a heap-based buffer overflow in SmallVec::insert_many.
-
-
+Signed-off-by: Matthias Sieber <manonthemat@users.noreply.github.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-22 15:15:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2557" class=".btn">#2557</a>
-            </td>
-            <td>
-                <b>
-                    Move inactive maintainers to emeritus status
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The TOC approved a requirement that maintainers
-that have not been active in over three to six
-months be move to emeritus status.
-
-These maintainers have not been active in over
-one year.
-
-hyperledger/toc#32
-
-Signed-off-by: Ry Jones <ry@linux.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-19 16:13:06 +0000 UTC
+        Created At 2022-10-31 05:17:03 +0000 UTC
     </div>
 </div>
 

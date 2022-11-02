@@ -14,11 +14,37 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1985" class=".btn">#1985</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1997" class=".btn">#1997</a>
             </td>
             <td>
                 <b>
-                    Update for 0.7.5-rc1
+                    fix: update issue-credential endpoint summaries
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: PeterStrob <peter@indicio.tech>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-10-28 20:27:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1996" class=".btn">#1996</a>
+            </td>
+            <td>
+                <b>
+                    Add 0.7.5 patch Changelog entry to main branch Changelog
                 </b>
             </td>
         </tr>
@@ -28,11 +54,12 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
             </td>
             <td>
                 Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-24 16:57:18 +0000 UTC
+        Created At 2022-10-28 20:15:15 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +67,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1984" class=".btn">#1984</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1994" class=".btn">#1994</a>
             </td>
             <td>
                 <b>
-                    Additional 0.7.5 Cherry-Pick
+                    Fix/txn job setting
                 </b>
             </td>
         </tr>
@@ -53,17 +80,13 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                Contains the following PRs:
-- [x] https://github.com/hyperledger/aries-cloudagent-python/pull/1938
-- [x] https://github.com/hyperledger/aries-cloudagent-python/pull/1926
-- [x] https://github.com/hyperledger/aries-cloudagent-python/pull/1973
+                Fixes a timing issue where the endorser and author are connecting and trying to set connection met-data before the connection is "active".
 
-Reference issue #1983 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-21 16:41:55 +0000 UTC
+        Created At 2022-10-27 20:10:00 +0000 UTC
     </div>
 </div>
 
@@ -71,11 +94,11 @@ Reference issue #1983
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1982" class=".btn">#1982</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1991" class=".btn">#1991</a>
             </td>
             <td>
                 <b>
-                    Fixed bug in run_demo script
+                    Final 0.7.5 changes
                 </b>
             </td>
         </tr>
@@ -84,19 +107,14 @@ Reference issue #1983
                 
             </td>
             <td>
-                Fixed a bug which prompts out when we try to use the debugging capabilities inside the demo.
-The command:
-```
-LEDGER_URL=http://dev.greenlight.bcovrin.vonx.io ./run_demo alice --events --no-auto --debug-pycharm-controller-port 5003 --debug-pycharm-agent-port 5004 --debug-pycharm --wallet-type indy
-```
-was failing in attaching the debug servers without such fix. Now it works.
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
 
-It applies also for `faber` and `acme` instances.
+Final changes for Release 0.7.5.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-18 17:04:32 +0000 UTC
+        Created At 2022-10-26 22:27:05 +0000 UTC
     </div>
 </div>
 
@@ -104,11 +122,11 @@ It applies also for `faber` and `acme` instances.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1981" class=".btn">#1981</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1990" class=".btn">#1990</a>
             </td>
             <td>
                 <b>
-                    feat: update pynacl version from 1.4.0 to 1.50
+                    Fixes to acme exercise code
                 </b>
             </td>
         </tr>
@@ -117,16 +135,15 @@ It applies also for `faber` and `acme` instances.
                 
             </td>
             <td>
-                this fixes install for m1 mac arm64 arch
+                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
 
-closes #1980 
+See issue https://github.com/hyperledger/aries-cloudagent-python/issues/1987
 
-Signed-off-by: Moriarty <moritz@animo.id>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-18 13:29:09 +0000 UTC
+        Created At 2022-10-26 18:38:11 +0000 UTC
     </div>
 </div>
 
