@@ -37,6 +37,7 @@ permalink: /releases/hyperledger/besu
 - Breaking API changes in the `OperationTracer` interface to enable performance work.
   * The `traceExecution` method has been replaced with `tracePreExecution` and `tracePostExecution` methods, called just before and just after operation execution.
   * See `DebugOperationTracer` and `StandardJsonTracer` for migration examples.
+  * RocksDB will not be able to downgrade after updating to 22.10.0 if you are looking to return to 22.7.x without a resync. Will will be changing this behavior in a future update. 
 
 ### Additions and Improvements
 - Updated jackson-databind library to version 2.13.4.2 addressing [CVE-2022-42003](https://nvd.nist.gov/vuln/detail/CVE-2022-42003)
