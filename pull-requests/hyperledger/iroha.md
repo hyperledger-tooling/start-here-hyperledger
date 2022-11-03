@@ -14,6 +14,79 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2930" class=".btn">#2930</a>
+            </td>
+            <td>
+                <b>
+                    [refactor]: move parametrization into traits and remove FFI IR types
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Marin Veršić <marin.versic101@gmail.com>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+* simplified conversion process
+
+### Issue
+
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+* less code
+* easier to understand
+
+### Possible Drawbacks
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests *[optional]*
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-03 06:29:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2929" class=".btn">#2929</a>
             </td>
             <td>
@@ -202,122 +275,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2022-10-28 14:01:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2918" class=".btn">#2918</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #2899: Add multi-instructions subcommand into `client_cli`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Vladimir Pesterev <pesterev@pm.me>
-
-<!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-More details about the suggestion you can find [here.](https://github.com/hyperledger/iroha/issues/2899)
-
-I spent some time trying to reuse `GenesisTransaction`s format (`configs/peer/genesis.json`) but it's a bad way cause demand depends on `iroha_core` and a lot of boilerplate code being converted. But I noticed that we can just use `Serialize/Deserialize` which already implemented for `Instruction`s and use those traits to represent instructions as JSON. As a result, I got a way to make a more convenient and simple implementation of this command.
-
-### Issue
-
-Closes #2899 
-
-### Benefits
-
-Submit multiple instructions using one command
-
-### Possible Drawbacks
-
-None
-
-### Usage Examples or Tests
-
-Save these instructions into a file:
-```json
-[
-    {
-        "Register": {
-            "Identifiable": {
-                "NewDomain": {
-                    "id": "neverland",
-                    "logo": null,
-                    "metadata": {}
-                }
-            }
-        }
-    },
-    {
-        "Register": {
-            "Identifiable": {
-                "NewAccount": {
-                    "id": "steve@neverland",
-                    "signatories": [
-                        "ed0120cc25624d62896d3a0bfd8940f928dc2abf27cc57cefeb442aa96d9081aae58a1"
-                    ],
-                    "metadata": {}
-                }
-            }
-        }
-    },
-    {
-        "Register": {
-            "Identifiable": {
-                "NewAssetDefinition": {
-                    "id": "sapporo#neverland",
-                    "value_type": "Quantity",
-                    "mintable": "Infinitely",
-                    "metadata": {}
-                }
-            }
-        }
-    },
-    {
-        "Mint": {
-            "object": {
-                "U32": 1010
-            },
-            "destination_id": {
-                "Id": {
-                    "AssetId": "sapporo##steve@neverland"
-                }
-            }
-        }
-    }
-]
-```
-
-And then pass to `client_cli` like this:
-```
-cat ./test.json | ./iroha_client_cli json
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-27 08:05:48 +0000 UTC
     </div>
 </div>
 
