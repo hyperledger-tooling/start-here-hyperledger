@@ -15,18 +15,20 @@ permalink: /releases/hyperledger/indy-node-container
         <tr>
             <td colspan="2">
                 <b>
-                    Indy Node upgrade 1.12.5 -> 1.12.6
+                    Ubuntu 20 based on Indy Node v1.13.2-rc4
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.2
+                    v1.2.3
                 </span>
             </td>
             <td>
-                This is a security fix release of indy node. No compatibility issues expected.
+                Ubuntu 20 image is now based on
+* indy-node-v1.13.2-rc4
+* indy-plenum-v1.13.1-rc3
 
 Images:
 - [Indy Node](https://github.com/hyperledger/indy-node-container/pkgs/container/indy-node-container%2Findy_node)
@@ -34,11 +36,11 @@ Images:
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/indy-node-container/releases/tag/v1.2.2" class=".btn">
+    <a href="https://github.com/hyperledger/indy-node-container/releases/tag/v1.2.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-08-25 15:37:21 +0000 UTC
+        Created At 2022-11-03 07:56:51 +0000 UTC
     </span>
 </div>
 
