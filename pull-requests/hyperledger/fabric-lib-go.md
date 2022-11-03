@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-lib-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-lib-go/pull/11" class=".btn">#11</a>
+                PR <a href="https://github.com/hyperledger/fabric-lib-go/pull/14" class=".btn">#14</a>
             </td>
             <td>
                 <b>
-                    Update MAINTAINERS.rst
+                    Move MAINTAINERS to Markdown
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-lib-go
                 
             </td>
             <td>
-                Remove retired maintainers
-
-Signed-off-by: Ry Jones <ry@linux.com>
+                Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-20 23:12:34 +0000 UTC
+        Created At 2022-11-03 17:25:35 +0000 UTC
     </div>
 </div>
 
