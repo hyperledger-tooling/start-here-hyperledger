@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4598" class=".btn">#4598</a>
+            </td>
+            <td>
+                <b>
+                    Txpool price validation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-03 13:23:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4597" class=".btn">#4597</a>
             </td>
             <td>
@@ -710,115 +752,6 @@ PR to create a 22.10.0-RC3-SNAPSHOT 'strawman release' build for burn-in purpose
     </table>
     <div class="right-align">
         Created At 2022-10-28 19:49:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4569" class=".btn">#4569</a>
-            </td>
-            <td>
-                <b>
-                    Fix for NoSuchElementException for missing invalid reason when rejecting a local sent transaction
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                
-Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Recently added entries to the `TransactionAddedStatus` enum are missing the invalid reason, and this could cause `NoSuchElementException` when trying to add a local transaction is rejected with one of these enum values.
-Adding the missing invalid reason and for the future log and return an `INTERNAL_ERROR` in case invalid reason is missing, instead of throwing the exception.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-27 14:37:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4568" class=".btn">#4568</a>
-            </td>
-            <td>
-                <b>
-                    Create a specific calculateRootHash method for BonsaiInMemoryWorldState to improve performance
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Create a specific calculateRootHash for BonsaiInMemoryWorldState, avoid committing and rollbacking as it is not necessary. This PR parallelize also the accounts update storage in calculateRootHash method.
-
-The yellow line below is the version with the modifications in this PR, the other node is used as a reference node (a baseline) regarding block size and the number of transactions per block. 
-
-<img width="1666" alt="image" src="https://user-images.githubusercontent.com/5099602/198327521-150a9b36-6253-42e0-badd-c011f8054e89.png">
-
-We have below engine_newPayloadV1 RPC call (Block processing) mean time comparaison between this PR, version 22.7.6 and version 22.7.7
-
-<img width="1655" alt="image" src="https://user-images.githubusercontent.com/5099602/198872825-c2064635-21b7-409a-9a8d-7f0f835dbafa.png">
-
-
-We can notice also that calculateRootHash method is consuming less (real) time on CPU because of the parallelization and the fact we removed commit and rollback method.
-
-**Before this PR**
-<img width="1718" alt="image" src="https://user-images.githubusercontent.com/5099602/198871604-cb840fb9-0089-4589-a2ae-499468e0d5c7.png">
-
-**After this PR**
-<img width="1718" alt="image" src="https://user-images.githubusercontent.com/5099602/198871660-6171dd5a-de14-40ba-95f1-aabb367f5126.png">
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Mitigate #4549
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-27 14:22:12 +0000 UTC
     </div>
 </div>
 
