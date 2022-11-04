@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4602" class=".btn">#4602</a>
+            </td>
+            <td>
+                <b>
+                    Explain and improve price validation for London transactions during s…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …election
+
+Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Explain and improve price validation for London transactions during block proposal selection.
+
+For EIP1559 transactions, the price is dynamic and depends on network conditions, so we can
+only calculate at this time the current minimum price the transaction is willing to pay
+and if it is above the minimum accepted by the node.
+If below we do not delete the transaction, since when we added the transaction to the pool,
+we assured sure that the maxFeePerGas is >= of the minimum price accepted by the node
+and so the price of the transaction could satisfy this rule in the future.
+
+Also if a EIP1559 fails validation because its maxFeePerGas is below current baseFee, this should be considered a specific transient error, and not wrongly report INVALID_TRANSACTION_FORMAT.
+
+Moreover this is applied only to remoteTransaction because local transactions are allowed to have gas price 
+below the configured minimum, so we need to track local senders and do not enforce the rule for them.
+
+Also fixed an edge case when a local transaction is readded to the pool due to a block reorg, and it was wrongly 
+considered remote with the risk of being rejected due to low gas price.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-04 10:59:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4600" class=".btn">#4600</a>
             </td>
             <td>
@@ -98,7 +161,7 @@ Add the transient Shandong fork and network definitions.  For Shanghai fork test
             </td>
             <td>
                 <b>
-                    Txpool price validation
+                    Transaction pool price validation improvements and fixes
                 </b>
             </td>
         </tr>
