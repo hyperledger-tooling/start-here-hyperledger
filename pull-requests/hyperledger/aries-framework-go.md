@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-framework-go
             </td>
             <td>
                 <b>
-                    wip: Service priority should be an interface
+                    chore: Service priority should be an interface
                 </b>
             </td>
         </tr>

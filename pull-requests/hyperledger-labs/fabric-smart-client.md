@@ -14,25 +14,25 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/428" class=".btn">#428</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/429" class=".btn">#429</a>
             </td>
             <td>
                 <b>
-                    support for private transactions
+                    orion cleanup
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">cleanup</span><span class="chip">orion</span>
             </td>
             <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+                This PR makes sure that only the driver implementation has dependencies to Orion's API. There rest, Driver API and services, should not depend on Orion's API.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-28 12:57:41 +0000 UTC
+        Created At 2022-11-04 15:42:55 +0000 UTC
     </div>
 </div>
 
