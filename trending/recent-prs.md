@@ -1,13 +1,13 @@
 
+[69](https://github.com/hyperledger-labs/fabric-operator/pull/69) Launch the sample network on Apple Silicon;  Pin k8s to 1.24
+
+[4602](https://github.com/hyperledger/besu/pull/4602) Explain and improve price validation for London transactions during s…
+
+[68](https://github.com/hyperledger-labs/fabric-operator/pull/68) cleanup: remove BoolTrue and BoolFalse variable
+
+[115](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/115) 02-client-refactor added support for multiple consensus states inside a header
+
 [493](https://github.com/hyperledger/cello/pull/493) Only allow Application and Orderer types to update Channel Config
-
-[4600](https://github.com/hyperledger/besu/pull/4600) retry block processing
-
-[4599](https://github.com/hyperledger/besu/pull/4599) Add Shandong network and fork
-
-[3427](https://github.com/hyperledger/aries-framework-go/pull/3427) wip: Service priority should be an interface
-
-[3765](https://github.com/hyperledger/fabric/pull/3765) Add private write-set for purge operation
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

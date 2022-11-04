@@ -432,29 +432,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/352" class=".btn">#352</a>
-            </td>
-            <td>
-                <b>
-                    Minor fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jakub Dzikowski <jakub.t.dzikowski@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-28 12:38:10 +0000 UTC
-    </div>
-</div>
-
