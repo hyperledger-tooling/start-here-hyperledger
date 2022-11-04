@@ -63,30 +63,3 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/1994" class=".btn">#1994</a>
-            </td>
-            <td>
-                <b>
-                    Fix/txn job setting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes a timing issue where the endorser and author are connecting and trying to set connection met-data before the connection is "active".
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-27 20:10:00 +0000 UTC
-    </div>
-</div>
-

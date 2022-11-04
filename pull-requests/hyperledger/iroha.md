@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2934" class=".btn">#2934</a>
+            </td>
+            <td>
+                <b>
+                    [ci]: Switсh dev tests to Equinix self-hosted runners
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">CI</span>
+            </td>
+            <td>
+                ### Description of the Change
+Substitute default GitHub Actions runners with the `self-hosted` demand persistent instances _[s(1-4)-dev-iroha2-iroha-tech]_ with the following characteristics:
+- CPU: 1 x Intel(R) Xeon(R) E-2278G
+- RAM: 32 Gb
+- Drive: 2 x 500 Gb
+- OS: Ubuntu 22.04 LTS
+
+For the following CI test jobs into `I2::Dev::Tests` workflow:
+- check
+- with_coverage
+- integration
+- unstable
+
+### Issue
+A long and heavy jobs from iroha2 CI take too much time on the default GitHub Actions runners.
+
+### Benefits
+Increase the speed, effectiveness and reliability of the heavy parts of iroha2 CI.
+
+### Possible Drawbacks
+1. Using a `self-hosted` runners, especially demand instanes, for PR trigger workflows for open repositories is not a good practice: theoretically someone could execute malicious and undesirable code from his fork as PR's code. This requires being attentive and careful.
+2. According to GitHub Actions setting, `self-hosted` runner can execute only one job from single workflow per unit of time. We added four instances for now, that means they can execute for jobs in the same time. May be we can try to this `self-hosted` runners to job that builds `iroha2-dev` image as well. Perhaps we can several instances more if it will be useful in the future.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-03 19:51:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2930" class=".btn">#2930</a>
             </td>
             <td>
