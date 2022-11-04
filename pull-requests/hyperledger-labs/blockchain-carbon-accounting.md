@@ -50,9 +50,6 @@ Single data points are handled as the new industry activity_types using process_
 Multiple-data points are submitted using the other activity_type from react-app RequestAudit form. A local file is generated with each row of product data selected for the request, plus the requested carbon tracker ID.
 
 Auditors can also assign production data (oil and gas quantities) as described in the Carbon Tracker contract [Readme](https://github.com/hyperledger-labs/blockchain-carbon-accounting/blob/main/hardhat/docs/carbon-tracker.md)
-
-This PR also implements the oracle api service as a docker container when running the Fabric network.
-The image is temporarily hosted under the [net-zero-project ghcr.io](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/ghcr.io/net-zero-project/blockchain-carbon-accounting/oracle-api:latest) until hosting permission are granted under hyperledger-labs
             </td>
         </tr>
     </table>

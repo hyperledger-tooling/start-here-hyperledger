@@ -1,13 +1,13 @@
 
+[4599](https://github.com/hyperledger/besu/pull/4599) Add Shandong network and fork
+
+[3427](https://github.com/hyperledger/aries-framework-go/pull/3427) wip: Service priority should be an interface
+
+[3765](https://github.com/hyperledger/fabric/pull/3765) Add private write-set for purge operation
+
+[2934](https://github.com/hyperledger/iroha/pull/2934) [ci]: Switсh dev tests to Equinix self-hosted runners
+
 [14](https://github.com/hyperledger/fabric-lib-go/pull/14) Move MAINTAINERS to Markdown
-
-[425](https://github.com/hyperledger/fabric-test/pull/425) Move MAINTAINERS to Markdown
-
-[4598](https://github.com/hyperledger/besu/pull/4598) Txpool price validation
-
-[646](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/646) Updates to methane app & fix for typescript-app-test
-
-[2930](https://github.com/hyperledger/iroha/pull/2930) [refactor]: move parametrization into traits and remove FFI IR types
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
