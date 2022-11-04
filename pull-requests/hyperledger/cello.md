@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/492" class=".btn">#492</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/493" class=".btn">#493</a>
             </td>
             <td>
                 <b>
-                    Implement node config download btn
+                    Only allow Application and Orderer types to update Channel Config
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                Implement the frontend node config download button.
-
-Call backend api to download the node config file.
-
-Signed-off-by: xichen1 <xichen.pan@gmail.com>
+                Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-17 17:43:54 +0000 UTC
+        Created At 2022-11-04 02:09:51 +0000 UTC
     </div>
 </div>
 
