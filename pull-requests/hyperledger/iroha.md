@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2935" class=".btn">#2935</a>
+            </td>
+            <td>
+                <b>
+                    Added more descriptive Readme file.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Documentation</span><span class="chip">1.5</span>
+            </td>
+            <td>
+                Describe how Hyperledger Iroha C++ library works. Provide examples. Show how to install and use current version of library.
+Show how to run examples with transactions, batch and commands.
+
+Benefits:
+End user will know what is library responsible for and how to use it properly.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-05 12:36:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2934" class=".btn">#2934</a>
             </td>
             <td>
