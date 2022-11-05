@@ -14,39 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/71" class=".btn">#71</a>
-            </td>
-            <td>
-                <b>
-                    Fix the broken build - ginkgo and golang 1.18 for integration tests - DO NOT MERGE
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                DO NOT MERGE
-
-Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-04 17:31:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/70" class=".btn">#70</a>
             </td>
             <td>
                 <b>
-                    run unit and integration tests with golang 1.18.
+                    Fix the build: Run integration tests with golang 1.18, ginkgo v2.1.4, and gomega v1.19 
                 </b>
             </td>
         </tr>

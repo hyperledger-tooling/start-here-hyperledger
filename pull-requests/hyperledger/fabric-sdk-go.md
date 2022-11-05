@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/247" class=".btn">#247</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-go/pull/248" class=".btn">#248</a>
             </td>
             <td>
                 <b>
-                    Move inactive maintainers to emeritus status
+                    Add transient map support for the gateway client
                 </b>
             </td>
         </tr>
@@ -27,21 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-go
                 
             </td>
             <td>
-                The TOC approved a requirement that maintainers
-that have not been active in over three to six
-months be move to emeritus status.
-
-These maintainers have not been active in over
-one year.
-
-hyperledger/toc#32
-
-Signed-off-by: Ry Jones <ry@linux.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-18 18:48:57 +0000 UTC
+        Created At 2022-11-04 18:50:47 +0000 UTC
     </div>
 </div>
 
