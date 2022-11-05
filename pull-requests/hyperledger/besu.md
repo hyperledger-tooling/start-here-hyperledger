@@ -867,34 +867,3 @@ Fixes #4503
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4574" class=".btn">#4574</a>
-            </td>
-            <td>
-                <b>
-                    Strawman 22.10.0-RC3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-PR to create a 22.10.0-RC3-SNAPSHOT 'strawman release' build for burn-in purposes 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-28 19:49:23 +0000 UTC
-    </div>
-</div>
-
