@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/452" class=".btn">#452</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/454" class=".btn">#454</a>
             </td>
             <td>
                 <b>
-                    Fix txsNumInBlocks
+                    Add missing network configuration in tests to avoid listening to outb…
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/orion-server
                 
             </td>
             <td>
-                Signed-off-by: May Rosenbaum <mayro1595@gmail.com>
+                …ound communication
+
+Signed-off-by: May Rosenbaum <mayro1595@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-29 22:10:56 +0000 UTC
+        Created At 2022-11-07 08:20:41 +0000 UTC
     </div>
 </div>
 
