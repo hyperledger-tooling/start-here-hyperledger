@@ -15,32 +15,30 @@ permalink: /releases/hyperledger/firefly-common
         <tr>
             <td colspan="2">
                 <b>
-                    v1.1.3
+                    v1.1.4
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.1.3
+                    v1.1.4
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Fix a few data types by @chrisbygrave in https://github.com/hyperledger/firefly-common/pull/36
+* Go 1.18 by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/38
 
-## New Contributors
-* @chrisbygrave made their first contribution in https://github.com/hyperledger/firefly-common/pull/36
 
-**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v1.1.2...v1.1.3
+**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v1.1.3...v1.1.4
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v1.1.3" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v1.1.4" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-10-07 14:28:29 +0000 UTC
+        Created At 2022-11-07 18:31:23 +0000 UTC
     </span>
 </div>
 
