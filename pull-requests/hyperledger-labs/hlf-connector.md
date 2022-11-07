@@ -14,25 +14,28 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/66" class=".btn">#66</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/67" class=".btn">#67</a>
             </td>
             <td>
                 <b>
-                    Increment version after release
+                    Make Init funtion params optional & accept endorsement policy as String for Approval and Commit
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">auto-version-increment</span>
+                
             </td>
             <td>
-                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
+                This PR contains the changes for the following behavior
+
+- Init chaincode endpoint to make Requestbody optional to handle SC inits for init functions with no parameters.
+- SC Approve & Commit endpoint will now accept endorsement policy as a String.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-26 15:07:23 +0000 UTC
+        Created At 2022-11-07 05:12:03 +0000 UTC
     </div>
 </div>
 
