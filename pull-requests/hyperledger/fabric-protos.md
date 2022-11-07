@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/148" class=".btn">#148</a>
+            </td>
+            <td>
+                <b>
+                    Fix Go bindings workflows
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Moved FABRIC_PROTOS_GO_APIV2_DEPLOY_KEY env to the correct step
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+
+<!--- IMPORTANT: DO NOT modify or disable lint rules without agreeing changes in an issue first! -->
+<!--- Any changes to lint rules and breaking change detection should be made in a separate pull  -->
+<!--- request with an associated issue.                                                          -->
+<!--- Please include a link to the issue in the pull request and DO NOT adjust lint rules to fix -->
+<!--- build breaks when submitting any other pull requests.                                      -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-07 14:05:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-protos/pull/147" class=".btn">#147</a>
             </td>
             <td>

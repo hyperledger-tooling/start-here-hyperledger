@@ -1,13 +1,13 @@
 
-[147](https://github.com/hyperledger/fabric-protos/pull/147) Revert to using FABRIC_PROTOS_GO_APIV2_DEPLOY_KEY
+[4627](https://github.com/hyperledger/besu/pull/4627) Bonsai commit updater optimization investigation
 
-[417](https://github.com/hyperledger-labs/fabric-token-sdk/pull/417) FSC update
+[4622](https://github.com/hyperledger/besu/pull/4622) Make Json RPC TLS Test Java 17 friendly
 
-[454](https://github.com/hyperledger-labs/orion-server/pull/454) Add missing network configuration in tests to avoid listening to outb…
+[4620](https://github.com/hyperledger/besu/pull/4620) Warm Coinbase (EIP-3651)
 
-[67](https://github.com/hyperledger-labs/hlf-connector/pull/67) Make Init funtion params optional & accept endorsement policy as String for Approval and Commit
+[308](https://github.com/hyperledger/blockchain-explorer/pull/308) Bump terser from 4.8.0 to 4.8.1 in /client
 
-[249](https://github.com/hyperledger/fabric-sdk-go/pull/249) Supports loading of config values for Orderer.Endpoints
+[307](https://github.com/hyperledger/blockchain-explorer/pull/307) Bump moment-timezone from 0.5.34 to 0.5.35 in /client
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
