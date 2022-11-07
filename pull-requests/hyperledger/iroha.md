@@ -81,8 +81,8 @@ For the following CI test jobs into `I2::Dev::Tests` workflow:
 2. Fix `load-rs` CI trigger.
 
 ### Possible Drawbacks
-1. Using a `self-hosted` runners, especially demand instanes, for PR trigger workflows for open repositories is not a good practice: theoretically someone could execute malicious and undesirable code from his fork as PR's code. This requires being attentive and careful.
-3. According to GitHub Actions setting, `self-hosted` runner can execute only one job from single workflow per unit of time. We added four instances for now, that means they can execute for jobs in the same time. May be we can try to this `self-hosted` runners to job that builds `iroha2-dev` image as well. Perhaps we can several instances more if it will be useful in the future.
+1. Using a `self-hosted` runners, especially demand instances, for PR trigger workflows for open repositories is not a good practice: theoretically someone could execute malicious and undesirable code from his fork as PR's code. This requires being attentive and careful.
+3. According to GitHub Actions settings, `self-hosted` runner can execute only one job from single workflow per unit of time. We added four instances for now, that means they can execute four jobs in the same time. May be we can try to add this `self-hosted` runners to job that builds `iroha2-dev` image as well. Perhaps we can add several instances more if it will be useful in the future.
 
             </td>
         </tr>

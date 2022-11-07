@@ -269,6 +269,12 @@ Add the transient Shandong fork and network definitions.  For Shanghai fork test
 
 ## PR description
 
+Review and move all price validation rules in a single method called during the validation of the transaction, instead of having them scattered in different places.
+
+Fix the way the TX_FEECAP_EXCEEDED validation is done, since before it was based on network conditions at the time the transaction was submitted, with the possibility that when the transaction was confirmed the actual fee was different and potentially about the cap. Now the check is done taking in consideration the `maxFeePerGas` that is invariant.
+
+Rename `satisfiesFloorTxCost` to `satisfiesFloorTxFee` since it is about tx fee and not cost.
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
