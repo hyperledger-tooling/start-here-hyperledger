@@ -297,7 +297,7 @@ Add the transient Shandong fork and network definitions.  For Shanghai fork test
             </td>
             <td>
                 <b>
-                    Added max range CLI option for eth_getLogs.
+                    Added max range CLI option for eth_getLogs and priv_getLogs.
                 </b>
             </td>
         </tr>
@@ -312,11 +312,12 @@ Add the transient Shandong fork and network definitions.  For Shanghai fork test
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-Added a CLI option to restrict the maximum range for eth_getLogs.
+Adds a `--rpc-max-logs-range` CLI option to restrict the maximum block range to query for `eth_getLogs` and `priv_getLogs`
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
+Adds suggestion from #4123 
 
 ## Documentation
 
@@ -793,84 +794,6 @@ Do we consider this a breaking change?
     </table>
     <div class="right-align">
         Created At 2022-10-31 15:01:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4579" class=".btn">#4579</a>
-            </td>
-            <td>
-                <b>
-                    merge 4578 removing Bytes32.ZERO
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <macfarla.github@gmail.com>
-
-Replace Bytes32.ZERO 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-31 03:27:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4578" class=".btn">#4578</a>
-            </td>
-            <td>
-                <b>
-                    Remove Bytes32.ZERO
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                ## PR description
-
-Replace the use of the Bytes32.ZERO constant with a byte array variant.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [X] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-31 02:01:26 +0000 UTC
     </div>
 </div>
 
