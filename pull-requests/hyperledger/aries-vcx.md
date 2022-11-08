@@ -14,55 +14,27 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/620" class=".btn">#620</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/641" class=".btn">#641</a>
             </td>
             <td>
                 <b>
-                    Delete local docker cache after loading image
+                    Expose reading of Aries service from the ledger
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">skip-ios</span>
+                <span class="chip">wrappers</span>
             </td>
             <td>
-                I suspect the intermittent CI error in android test is perhaps due running out of space? This might solve the issue
-
-Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-24 16:34:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/614" class=".btn">#614</a>
-            </td>
-            <td>
-                <b>
-                    Allow obtaining cred rev id from the wallet
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">feature</span>
-            </td>
-            <td>
-                This will eventually allow checking revocation status against ledger and finding the corresponding `Holder` based on received revocation notification.
+                Allows verifying keys on ledger against local storage.
 
 Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-24 12:00:28 +0000 UTC
+        Created At 2022-11-04 15:17:52 +0000 UTC
     </div>
 </div>
 
@@ -70,87 +42,27 @@ Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/613" class=".btn">#613</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/639" class=".btn">#639</a>
             </td>
             <td>
                 <b>
-                    Ci/improvements
+                    Expose key and service creation, message unpacking
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">skip-ios</span><span class="chip">skip-android</span>
+                <span class="chip">wrappers</span><span class="chip">feature</span>
             </td>
             <td>
-                - Fix CI warnings (usage of set-output)
-- As `build-image` action was trying to pull images from `docker.pkg.github.com`, it never worked because that's not docker registry we are logged into - so we didn't reuse previously built docker layer
-- Generalized `construct-run-info` to refer to on `$MAIN_BRANCH` instead of hardcoding `main`
-- Added action template for detecting skip PR tags (currently supports opt-in PR tags `skip-android` and `skip-ios`)
-- Fixed information passing into `azure/docker-login@v1`
-- Fixed publishing jobs - images are published under tag`$PUBLISH_VERSION` 
-- Modified `build-image` such that it publishes image `<docker-img>:<branch>` to docker registry for caching purposes
-- Adjusted publish-image more robust so it doesn't try to load image from cache if it already exist in local docker repo
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-22 22:04:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/612" class=".btn">#612</a>
-            </td>
-            <td>
-                <b>
-                    Use a macro for message fetching functions in agent
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span>
-            </td>
-            <td>
-                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-22 18:24:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/611" class=".btn">#611</a>
-            </td>
-            <td>
-                <b>
-                    Refactor verifier / prover SMs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span>
-            </td>
-            <td>
-                Addressing #583, based on #610.
+                This will allow a client to process messages sent to an unmediated endpoint service.
 
 Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-21 13:49:50 +0000 UTC
+        Created At 2022-11-02 12:13:53 +0000 UTC
     </div>
 </div>
 
@@ -158,29 +70,25 @@ Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/610" class=".btn">#610</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/638" class=".btn">#638</a>
             </td>
             <td>
                 <b>
-                    Refactor issuer / holder SMs
+                    Set up missing MAIN_BRANCH env variable in CI
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">refactoring</span>
+                
             </td>
             <td>
-                Holder handler calls specific SM methods instead of relying on a step function. This way, if an explicit "action" is performed in an invalid state, an error is returned, instead of a noop.
-
-Addresses #583 .
-
-Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-21 07:31:12 +0000 UTC
+        Created At 2022-11-01 11:56:59 +0000 UTC
     </div>
 </div>
 
@@ -188,53 +96,25 @@ Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/608" class=".btn">#608</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/637" class=".btn">#637</a>
             </td>
             <td>
                 <b>
-                    Revocation notification
+                    Fix test-android-build job dependency
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">feature</span>
+                <span class="chip">ci</span>
             </td>
             <td>
-                https://github.com/hyperledger/aries-rfcs/tree/main/features/0721-revocation-notification-v2
-
-Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-20 07:56:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/607" class=".btn">#607</a>
-            </td>
-            <td>
-                <b>
-                    Fix agent build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">hotfix</span>
-            </td>
-            <td>
-                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-19 19:47:27 +0000 UTC
+        Created At 2022-11-01 10:09:00 +0000 UTC
     </div>
 </div>
 

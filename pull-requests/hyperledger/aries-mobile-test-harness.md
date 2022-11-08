@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/102" class=".btn">#102</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/107" class=".btn">#107</a>
             </td>
             <td>
                 <b>
-                    calibrated to 457 and initial bc person proof test
+                    trial fix for getting auth code for BC VP issuer
                 </b>
             </td>
         </tr>
@@ -29,13 +29,12 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
             <td>
                 Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
 
-Calibrated BC Wallet tests to build 457. 
-Initial test and verifier interface to support proofs with the BC Person credential.
+This is a fix for getting the auth code from a GitHub login on the BC VP Issuer Login when in the GitHub test pipeline environment. However, locally when logging into gmail to get the auth code, gmail is occasionally presenting a captcha. Hoping this doesn't happen in the pipeline as well. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-22 00:07:11 +0000 UTC
+        Created At 2022-11-02 23:40:04 +0000 UTC
     </div>
 </div>
 
@@ -43,11 +42,11 @@ Initial test and verifier interface to support proofs with the BC Person credent
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/101" class=".btn">#101</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/106" class=".btn">#106</a>
             </td>
             <td>
                 <b>
-                    fix webdriver-manager package issue and calibrate to 447
+                    overcome iOS 14 cred offer testID issue
                 </b>
             </td>
         </tr>
@@ -58,70 +57,12 @@ Initial test and verifier interface to support proofs with the BC Person credent
             <td>
                 Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
 
-Webdriver-manager was updated on the 18th and issues in that library caused the BC Wallet test pipeline to fail completely. Reverted to the older version.
-
-Also calibrated the BC wallet tests to build 447. 
+For BC Wallet, iOS 14 is not showing Credential Card testIDs on the credential offer screen. Implemented a workaround that just checks for text in the page source. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-20 00:23:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/100" class=".btn">#100</a>
-            </td>
-            <td>
-                <b>
-                    restrict matrix entry in main run all runset
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-Added if condition to the main run all runset for BC Wallet test pipeline. That runset was running for all projects giving all the results for all tests in restricted runsets with different issuers. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-18 17:42:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/99" class=".btn">#99</a>
-            </td>
-            <td>
-                <b>
-                    update to affect the BCSC runset
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-Update to for the BC Services Card/Person credential BC Wallet tests in the nightly test pipeline. Added `@wip` to unfinished scenarios and changed the tag set in the run command, along with updated credential names for the Person credential. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-17 21:02:40 +0000 UTC
+        Created At 2022-11-01 22:22:38 +0000 UTC
     </div>
 </div>
 

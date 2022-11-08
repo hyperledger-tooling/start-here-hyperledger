@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/96" class=".btn">#96</a>
+                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/100" class=".btn">#100</a>
             </td>
             <td>
                 <b>
-                    Docs gettingstarted testnetwork
+                    Use existing transient map support in the gateway client
                 </b>
             </td>
         </tr>
@@ -27,12 +27,38 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
                 
             </td>
             <td>
-                This guide describes several ways to connect firefly-fabconnect to test-network and test-network-nano-bash of fabric-samples
+                The proper way to use the transient map support of the fabric go sdk is specifying it with `WithTransient()` when creating the transaction.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-11 20:59:48 +0000 UTC
+        Created At 2022-11-07 20:26:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/99" class=".btn">#99</a>
+            </td>
+            <td>
+                <b>
+                    Add transient map support in transaction submission
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This allows FabConnect to invoke chaincodes that uses private data collections
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-04 17:34:12 +0000 UTC
     </div>
 </div>
 

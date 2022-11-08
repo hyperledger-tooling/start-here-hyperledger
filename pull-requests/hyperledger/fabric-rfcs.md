@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-rfcs/pull/53" class=".btn">#53</a>
+                PR <a href="https://github.com/hyperledger/fabric-rfcs/pull/54" class=".btn">#54</a>
             </td>
             <td>
                 <b>
-                    New Capability for Updated IDEMIX
+                    Updates to purge private data RFC
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-rfcs
                 
             </td>
             <td>
-                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+                Updates to purge private data RFC that reflect decisions that have been made during feature implementation.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-14 14:52:08 +0000 UTC
+        Created At 2022-11-02 18:49:40 +0000 UTC
     </div>
 </div>
 

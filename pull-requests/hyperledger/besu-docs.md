@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1193" class=".btn">#1193</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1200" class=".btn">#1200</a>
             </td>
             <td>
                 <b>
-                    Bump plantuml-markdown from 3.7.2 to 3.7.3 in /CI
+                    Bump mkdocs-material from 8.5.7 to 8.5.8 in /CI
                 </b>
             </td>
         </tr>
@@ -27,46 +27,97 @@ permalink: /pull-requests/hyperledger/besu-docs
                 <span class="chip">DocOps</span>
             </td>
             <td>
-                Bumps [plantuml-markdown](https://github.com/mikitex70/plantuml-markdown) from 3.7.2 to 3.7.3.
+                Bumps [mkdocs-material](https://github.com/squidfunk/mkdocs-material) from 8.5.7 to 8.5.8.
 <details>
 <summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/mikitex70/plantuml-markdown/releases">plantuml-markdown's releases</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/squidfunk/mkdocs-material/releases">mkdocs-material's releases</a>.</em></p>
 <blockquote>
-<h2>Added support for server-side C4 includes</h2>
-<p>Added the <code>server_include_whilelist</code> configuration which is a list of regular expressions used to define which files can be safely included
-by the server.
-Useful when using a <a href="https://kroki.io/">Kroki</a> server for remote diagram rendering.</p>
-</blockquote>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/mikitex70/plantuml-markdown/blob/master/CHANGELOG.md">plantuml-markdown's changelog</a>.</em></p>
-<blockquote>
-<h2>3.7.3 (2022-10-16)</h2>
-<h3>New</h3>
+<h2>mkdocs-material-8.5.8</h2>
 <ul>
-<li>
-<p>Added support for server-side C4 includes (refs <a href="https://github-redirect.dependabot.com/mikitex70/plantuml-markdown/issues/76">#76</a>) [Michele Tessaro]</p>
-<p>Added the <code>server_include_whilelist</code> configuration which is a list of
-regular expressions used to define which files can be safely included
-by the server.
-Defaults to <code>[r'^[Cc]4.*$']</code>, all C4 include files.</p>
-</li>
+<li>Added support for always showing settings in cookie consent</li>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4571">#4571</a>: Buttons invisible if primary color is <code>white</code> or <code>black</code></li>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4517">#4517</a>: Illegible note in sequence diagram when using <code>slate</code> scheme</li>
 </ul>
 </blockquote>
 </details>
 <details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/squidfunk/mkdocs-material/blob/master/CHANGELOG">mkdocs-material's changelog</a>.</em></p>
+<blockquote>
+<p>mkdocs-material-8.5.8+insiders-4.26.2 (2022-11-03)</p>
+<ul>
+<li>Updated MkDocs to 1.4.2</li>
+<li>Added support for tag compare functions when sorting on index pages</li>
+<li>Fixed footnotes being rendered in post excerpts without separators</li>
+<li>Fixed error in blog plugin when toc extension is not enabled</li>
+<li>Fixed issues with invalid asset paths and linked post titles</li>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4572">#4572</a>: Privacy plugin fails when symlinks cannot be created</li>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4545">#4545</a>: Blog plugin doesn't automatically link headline to post</li>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4542">#4542</a>: Blog plugin doesn't allow for multiple instances</li>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4532">#4532</a>: Blog plugin doesn't allow for mixed use of date and datetime</li>
+</ul>
+<p>mkdocs-material-8.5.8 (2022-11-03)</p>
+<ul>
+<li>Added support for always showing settings in cookie consent</li>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4571">#4571</a>: Buttons invisible if primary color is white or black</li>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4517">#4517</a>: Illegible note in sequence diagram when using slate scheme</li>
+</ul>
+<p>mkdocs-material-8.5.7+insiders-4.26.1 (2022-10-22)</p>
+<ul>
+<li>Improved reporting of configuration errors in tags plugin</li>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4515">#4515</a>: Privacy plugin fails when site URL is not defined</li>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4514">#4514</a>: Privacy plugin doesn't fetch Google fonts (4.26.0 regression)</li>
+</ul>
+<p>mkdocs-material-8.5.7 (2022-10-22)</p>
+<ul>
+<li>Deprecated additional admonition qualifiers to reduce size of CSS</li>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4511">#4511</a>: Search boost does not apply to sections</li>
+</ul>
+<p>mkdocs-material-8.5.6+insiders-4.26.0 (2022-10-18)</p>
+<ul>
+<li>Refactored privacy plugin to prepare for new features</li>
+<li>Added support for rel=noopener links in privacy plugin</li>
+<li>Resolve encoding issues with blog and privacy plugin</li>
+</ul>
+<p>mkdocs-material-8.5.6+insiders-4.25.5 (2022-10-16)</p>
+<ul>
+<li>Updated MkDocs to 1.4.1</li>
+<li>Added namespace prefix to built-in plugins</li>
+<li>Updated content and header partial</li>
+</ul>
+<p>mkdocs-material-8.5.6+insiders-4.25.4 (2022-10-09)</p>
+<ul>
+<li>Fixed other path issues for standalone blogs (4.24.2 regression)</li>
+</ul>
+<p>mkdocs-material-8.5.6+insiders-4.25.3 (2022-10-09)</p>
+<ul>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4457">#4457</a>: Posts not collected for standalone blog (4.24.2 regression)</li>
+</ul>
+<p>mkdocs-material-8.5.6+insiders-4.25.2 (2022-10-04)</p>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/mikitex70/plantuml-markdown/commit/546cb0d4f084e114a3134d06f926aa1602880b4e"><code>546cb0d</code></a> chg: dev: updated version for the new release</li>
-<li><a href="https://github.com/mikitex70/plantuml-markdown/commit/bd9a195424e2d0cd8d1f109fef69731741facc4b"><code>bd9a195</code></a> new: usr: added support for server-side C4 includes (refs <a href="https://github-redirect.dependabot.com/mikitex70/plantuml-markdown/issues/76">#76</a>)</li>
-<li>See full diff in <a href="https://github.com/mikitex70/plantuml-markdown/compare/3.7.2...3.7.3">compare view</a></li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/dcd4a3d73fc81874157fbb4b135ae5e427e2e844"><code>dcd4a3d</code></a> Prepare 8.5.8 release</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/9e8446e357b81a64bf933fef24eda165369b7b05"><code>9e8446e</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4585">#4585</a> from squidfunk/docs/simplify-overrides</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/d616b42031c6c257b8a36ce86a6ef78a3ea7355e"><code>d616b42</code></a> Fixed Docker image check on publish</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/713bf41403ed56eb1e6290ee52afd2d7a809fa13"><code>713bf41</code></a> Removed unnecessary templates in overrides</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/04d678bab426d122b4def31cb00cb6b9d1965059"><code>04d678b</code></a> Merge branch 'master' into docs/simplify-overrides</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/487140e5380d55154aaeabd6bd5b8418382660f3"><code>487140e</code></a> Replaced hex with hsl color</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/96e2119bfc4eb06a8bbd47b51b9f3089cbb34b17"><code>96e2119</code></a> Fixed text color for notes in diagrams in dark mode (<a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4518">#4518</a>)</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/941d634b781d60929fb5d8c7497e598422576814"><code>941d634</code></a> Updated dependencies</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/8aef978e713d743ec7cf497a89183d21f1894262"><code>8aef978</code></a> Documentation</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/4c8e6532c8ea6e98f5becf78217dc0b26d0cfedf"><code>4c8e653</code></a> Documentation</li>
+<li>Additional commits viewable in <a href="https://github.com/squidfunk/mkdocs-material/compare/8.5.7...8.5.8">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=plantuml-markdown&package-manager=pip&previous-version=3.7.2&new-version=3.7.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=mkdocs-material&package-manager=pip&previous-version=8.5.7&new-version=8.5.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -97,7 +148,57 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-17 23:18:12 +0000 UTC
+        Created At 2022-11-07 23:15:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1199" class=".btn">#1199</a>
+            </td>
+            <td>
+                <b>
+                    Add information to enable the Engine API.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: bgravenorst <byron.gravenorst@consensys.net>
+
+## Pull request checklist
+
+Use the following list to make sure your PR fits the Besu documentation quality standard.
+
+### Before creating the pull request
+
+Make sure that:
+
+- [x] [All commits in this PR are signed off for the DCO](https://wiki.hyperledger.org/display/BESU/DCO).
+- [x] You've read the [contribution guidelines](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [x] You've [previewed your changes locally](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation).
+
+## Describe the change
+
+Add documentation to enable the Engine API using the `--engine-rpc-enabled` CLI option.
+
+## Issue fixed
+Fixes #1198 
+
+## Preview
+
+https://hyperledger-besu--1199.org.readthedocs.build/en/1199/
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-01 09:50:25 +0000 UTC
     </div>
 </div>
 
