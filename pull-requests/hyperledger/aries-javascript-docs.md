@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/70" class=".btn">#70</a>
+                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/74" class=".btn">#74</a>
             </td>
             <td>
                 <b>
-                    fix: import http inbound from node package
+                    docs: 0.2.x to 0.3.x migration guide
                 </b>
             </td>
         </tr>
@@ -27,13 +27,23 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
                 
             </td>
             <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
+                An initial draft of 0.2.x to 0.3.x migration guide. It currently covers:
 
+- Agent constructor changes
+- Modules extracted from the Core (Action Menu and Question Answer)
+- Discover Features API changes
+- Ledger API changes
+- New module/plug-in API (AgentContext, registration, etc.)
+- Proofs API changes (not completed yet)
+- Proof Storage changes (TODO, initial copy-paste from credentials)
+- Out Of Band for connection-less proofs API (TODO, not sure if needed) 
+
+Any help would be appreciated, especially on Proof Exchange Records  as I haven't used its API a lot previously. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-10 09:22:37 +0000 UTC
+        Created At 2022-11-02 23:09:31 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/289" class=".btn">#289</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/297" class=".btn">#297</a>
             </td>
             <td>
                 <b>
-                    chore: Add auth token provider
+                    chore: Don't send service priority if not set
                 </b>
             </td>
         </tr>
@@ -27,12 +27,106 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
                 
             </td>
             <td>
-                Signed-off-by: Firas Qutishat <firas.qutishat@securekey.com>
+                Sidetree VDR: Don't send service priority if not set
+
+Closes #296
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-24 09:32:44 +0000 UTC
+        Created At 2022-11-04 14:44:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/295" class=".btn">#295</a>
+            </td>
+            <td>
+                <b>
+                    chore: Don't add empty anchor origin to sidetree requests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently sidetree client adds anchorOrigin even when it is empty. Only add anchor origin to create/recover requests if anchor origin is not empty.
+
+Closes #294
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-03 17:45:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/293" class=".btn">#293</a>
+            </td>
+            <td>
+                <b>
+                    feat: Add long form VDR
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add long form VDR.
+
+Closes #288
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-03 16:33:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/292" class=".btn">#292</a>
+            </td>
+            <td>
+                <b>
+                    chore: Refactor sidetree client send operation request function
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Refactor sidetree client send operation request function so it can be passed as an option.
+
+Closes #291
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-02 19:04:56 +0000 UTC
     </div>
 </div>
 

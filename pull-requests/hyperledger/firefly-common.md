@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/35" class=".btn">#35</a>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/38" class=".btn">#38</a>
             </td>
             <td>
                 <b>
-                    Add FFEnumParseString for validation
+                    Go 1.18
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-common
                 
             </td>
             <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+                Updates for go 1.18, including Mockery v2 which is go 1.18 compatible, and pulling in a range of freshened dependencies
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-02 16:51:26 +0000 UTC
+        Created At 2022-11-07 17:49:48 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,48 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1091" class=".btn">#1091</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1096" class=".btn">#1096</a>
             </td>
             <td>
                 <b>
-                    Add basic auth tutorial
+                    Idempotent apis
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In PR chain with #1094 
+
+- [x] Add `idempotencyKey` field to messages
+   - Persisted directly on `Message` object
+   - Local only - not propagated in `persistBatch` when received remotely
+   - Note complexity was in the batching logic, as it's important if the message writer batching has one out of a set of messages that fails the idempotency check, it doesn't fail the whole batch of message/data inserts. To do this without reducing performance for the good case took a bit of extra work
+- [ ] Add `idempotencyKey` to `invoke` of blockchain smart contracts
+    - Persisted on `Transaction` object
+- [ ] Add `idempotencyKey` to `deploy` of blockchain smart contracts
+    - Persisted on `Transaction` object
+- [ ] Add `idempotencyKey` to `transfer` (/`mint`/`burn`) of tokens
+    - Persisted on `Transaction` object
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-08 04:40:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1095" class=".btn">#1095</a>
+            </td>
+            <td>
+                <b>
+                    Add endpoint for deploying contracts
                 </b>
             </td>
         </tr>
@@ -32,7 +69,7 @@ permalink: /pull-requests/hyperledger/firefly
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-18 19:44:21 +0000 UTC
+        Created At 2022-11-07 22:14:56 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +77,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1090" class=".btn">#1090</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1094" class=".btn">#1094</a>
             </td>
             <td>
                 <b>
-                    Fix typo in multiparty_features.md
+                    Update to go 1.18 and other deps
                 </b>
             </td>
         </tr>
@@ -53,12 +90,41 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                Signed-off-by: Chengxuan Xing <chengxuan.xing@kaleido.io>
+                - Pulls in https://github.com/hyperledger/firefly-common/releases/tag/v1.1.4
+- Updates all builds and go.mod to 1.18
+- Updates docker builds to 1.18
+- Also updates other dependencies, and tweaks for those (such as SQLite test case, and re-running Swagger gen)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-17 22:31:54 +0000 UTC
+        Created At 2022-11-07 18:53:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1092" class=".btn">#1092</a>
+            </td>
+            <td>
+                <b>
+                    Create new guide for Fabric test-network
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds a new tutorial for using the FireFly CLI with the Fabric test-network from the fabric-samples repo. CLI changes in https://github.com/hyperledger/firefly-cli/pull/225 are a prerequisite for this tutorial.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-03 14:37:37 +0000 UTC
     </div>
 </div>
 

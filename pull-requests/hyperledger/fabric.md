@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3768" class=".btn">#3768</a>
+            </td>
+            <td>
+                <b>
+                    Update write_first_app.rst
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                should run  npm run build  to build the dist/app.js, then run npm start
+
+Signed-off-by: Tekin Tian <tekintian@gmail.com>
+
+missing the npm run build
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-08 03:08:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3767" class=".btn">#3767</a>
             </td>
             <td>

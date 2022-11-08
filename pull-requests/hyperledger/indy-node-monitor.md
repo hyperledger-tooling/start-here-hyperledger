@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node-monitor
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node-monitor/pull/42" class=".btn">#42</a>
+                PR <a href="https://github.com/hyperledger/indy-node-monitor/pull/45" class=".btn">#45</a>
             </td>
             <td>
                 <b>
-                    Add option to output results as unformatted json with no whitespace.
+                    Monitoring stack
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-node-monitor
                 
             </td>
             <td>
-                Signed-off-by: Wade Barnes <wade@neoterictech.ca>
+                Monitoring Stack Updates
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-31 14:48:48 +0000 UTC
+        Created At 2022-11-07 22:29:49 +0000 UTC
     </div>
 </div>
 
