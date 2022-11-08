@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4633" class=".btn">#4633</a>
+            </td>
+            <td>
+                <b>
+                    Remove SHL, SHR and SAR from default EVM
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span>
+            </td>
+            <td>
+                ## PR description
+This PR removes the opcodes `SHL`, `SHR` and `SAR` from the base EVM b/c those were added in [EIP-145](https://eips.ethereum.org/EIPS/eip-145) and shouldn't be available since Genesis.
+
+## Fixed Issue(s)
+Spotted by @winsvega during the execution of LegacyTests. E.g.
+```shell
+$ ./retesteth -t LegacyTests/Constantinople/BCGeneralStateTests/stShift -- --singletest shr11_d0g0v0 --clients besu --singlenet Byzantium --nodes 127.0.0.1:8545
+```
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+
+Signed-off-by: Diego López León <dieguitoll@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-08 17:23:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4632" class=".btn">#4632</a>
             </td>
             <td>
@@ -479,13 +523,13 @@ Rename `satisfiesFloorTxCost` to `satisfiesFloorTxFee` since it is about tx fee 
             </td>
             <td>
                 <b>
-                    Added max range CLI option for eth_getLogs and priv_getLogs.
+                    Added max range CLI option for eth_getLogs.
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">doc-change-required</span><span class="chip">RPC</span>
             </td>
             <td>
                 Signed-off-by: mark-terry <mark.terry@consensys.net>
@@ -494,7 +538,7 @@ Rename `satisfiesFloorTxCost` to `satisfiesFloorTxFee` since it is about tx fee 
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-Adds a `--rpc-max-logs-range` CLI option to restrict the maximum block range to query for `eth_getLogs` and `priv_getLogs`
+Adds a `--rpc-max-logs-range` CLI option to restrict the maximum block range to query for `eth_getLogs`.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->

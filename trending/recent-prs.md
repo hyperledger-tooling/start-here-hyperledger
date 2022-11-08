@@ -1,13 +1,13 @@
 
-[75](https://github.com/hyperledger/aries-javascript-docs/pull/75) feat: update snippets to 0.3.0
+[3769](https://github.com/hyperledger/fabric/pull/3769) [WIP] Update purge private data tests
 
-[16](https://github.com/hyperledger/anoncreds-rs/pull/16) chore: remove indy-test-utils
+[4633](https://github.com/hyperledger/besu/pull/4633) Remove SHL, SHR and SAR from default EVM
 
-[68](https://github.com/hyperledger-labs/hlf-connector/pull/68) Changes to fix failing integration test
+[3429](https://github.com/hyperledger/aries-framework-go/pull/3429) feat: add did core support in resolving service endpoints function
 
-[4632](https://github.com/hyperledger/besu/pull/4632) Refactor transaction pool tests
+[336](https://github.com/hyperledger-labs/fabric-operations-console/pull/336) Bump loader-utils from 2.0.2 to 2.0.3 in /packages/apollo
 
-[620](https://github.com/hyperledger/fabric-sdk-node/pull/620) Update supported Node version in README
+[335](https://github.com/hyperledger-labs/fabric-operations-console/pull/335) fix-npm audit
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
