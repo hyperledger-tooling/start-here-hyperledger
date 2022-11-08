@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/75" class=".btn">#75</a>
+            </td>
+            <td>
+                <b>
+                    feat: update snippets to 0.3.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updates snippets to work with AFJ 0.3.0. Changes are light as we don't have a tutorial for proof exchange yet. Need to wait with merging for 0.3.0 to be released
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-08 10:58:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/74" class=".btn">#74</a>
             </td>
             <td>

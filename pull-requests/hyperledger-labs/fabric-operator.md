@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/74" class=".btn">#74</a>
+            </td>
+            <td>
+                <b>
+                    feat: add golangci-lint check
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This pr introduces [golangci-lint](https://github.com/golangci/golangci-lint) to detect problems with go source code. 
+
+And turns on 4 linters: gofmt goimports govet gosimple 
+(The first 3 linters are maintained by golang.org, gosimple is a linter enabled by golangci-lint default)
+
+
+|linters|describe|link|
+|---|---|---|
+|gofmt|Gofmt checks whether code was gofmt-ed. By default this tool runs with -s option to check for code simplification|https://golang.org/cmd/gofmt/|
+|goimports|In addition to fixing imports, goimports also formats your code in the same style as gofmt.|https://godoc.org/golang.org/x/tools/cmd/goimports|
+|govet|Vet examines Go source code and reports suspicious constructs, such as Printf calls whose arguments do not align with the format string|https://golang.org/cmd/vet/|
+|gosimple|Linter for Go source code that specializes in simplifying code|https://github.com/dominikh/go-tools/tree/master/simple|
+
+See a list of supported linters and which linters are enabled/disabled in https://golangci-lint.run/usage/linters/.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-08 09:27:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/72" class=".btn">#72</a>
             </td>
             <td>

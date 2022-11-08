@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4632" class=".btn">#4632</a>
+            </td>
+            <td>
+                <b>
+                    Refactor transaction pool tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Refactor and improve transaction pool unit tests.
+
+- removed code duplication
+- created an abstract class and 2 concrete impementations one for the legacy fee market, and the other one for the London fee market, so it is easier to reason about tests that common and specific tests
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-08 10:36:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4627" class=".btn">#4627</a>
             </td>
             <td>
@@ -396,6 +443,8 @@ Add the transient Shandong fork and network definitions.  For Shanghai fork test
 
 ## PR description
 
+This PR is built on top of #4632, please check it first
+
 Review and move all price validation rules in a single method called during the validation of the transaction, instead of having them scattered in different places.
 
 Fix the way the TX_FEECAP_EXCEEDED validation is done, since before it was based on network conditions at the time the transaction was submitted, with the possibility that when the transaction was confirmed the actual fee was different and potentially about the cap. Now the check is done taking in consideration the `maxFeePerGas` that is invariant.
@@ -408,12 +457,12 @@ Rename `satisfiesFloorTxCost` to `satisfiesFloorTxFee` since it is about tx fee 
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -758,48 +807,6 @@ The EVM refactor introduced a couple of EVM trace changes that are outside the E
     </table>
     <div class="right-align">
         Created At 2022-11-01 19:31:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4585" class=".btn">#4585</a>
-            </td>
-            <td>
-                <b>
-                    Revert Storage API Changes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Rollback #4578 and #4562 via #4583
-
-These are the files where I had to resolve conflicts so review those - the rest was auto-merge:
-
-	modified:   ethereum/core/src/main/java/org/hyperledger/besu/ethereum/bonsai/BonsaiInMemoryWorldState.java
-	modified:   ethereum/core/src/main/java/org/hyperledger/besu/ethereum/bonsai/BonsaiPersistedWorldState.java
-	modified:   ethereum/core/src/main/java/org/hyperledger/besu/ethereum/bonsai/BonsaiWorldStateUpdater.java
-and plugin-api/build.gradle
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-01 06:29:16 +0000 UTC
     </div>
 </div>
 
