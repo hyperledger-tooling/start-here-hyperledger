@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3769" class=".btn">#3769</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Update purge private data tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Include multiple purge transactions in a single block
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-08 17:45:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3768" class=".btn">#3768</a>
             </td>
             <td>
