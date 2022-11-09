@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/278" class=".btn">#278</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/279" class=".btn">#279</a>
             </td>
             <td>
                 <b>
-                    Bugfix: asset id as string
+                    iroha-272: sample app
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-02 07:35:20 +0000 UTC
+        Created At 2022-11-09 12:50:25 +0000 UTC
     </div>
 </div>
 

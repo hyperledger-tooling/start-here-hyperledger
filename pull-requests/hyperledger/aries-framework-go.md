@@ -104,36 +104,3 @@ Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3425" class=".btn">#3425</a>
-            </td>
-            <td>
-                <b>
-                    chore: Controller should be filled in even with relative URL(@base)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Controller information should be filled in even if relative URL (@base) is present.
-
-Closes #3424
-
-Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-02 17:07:10 +0000 UTC
-    </div>
-</div>
-

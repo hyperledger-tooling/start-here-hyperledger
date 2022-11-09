@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/642" class=".btn">#642</a>
+            </td>
+            <td>
+                <b>
+                    create prefix did:sov
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">feature</span>
+            </td>
+            <td>
+                
+this task was performed implementing did:sov in out-of-band message generation, now every time generating a public out-of-band invite will contain did:sov, it also managed to process messages without the did:sov prefix
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-09 14:41:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/641" class=".btn">#641</a>
             </td>
             <td>
