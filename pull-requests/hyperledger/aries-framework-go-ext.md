@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/299" class=".btn">#299</a>
+            </td>
+            <td>
+                <b>
+                    chore: Update Orb VDR
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update Orb VDR with latest sidetree-core, sidetree VDR and aries-framework go.
+
+Closes #298
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-08 18:16:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/297" class=".btn">#297</a>
             </td>
             <td>

@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/anoncreds-methods-registry
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-methods-registry/pull/14" class=".btn">#14</a>
+            </td>
+            <td>
+                <b>
+                    Update to new Hyperledger AnonCreds logo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-08 21:37:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-methods-registry/pull/12" class=".btn">#12</a>
             </td>
             <td>

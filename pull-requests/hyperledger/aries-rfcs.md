@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/756" class=".btn">#756</a>
-            </td>
-            <td>
-                <b>
-                    Unknown Error Handling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Clarifies unknown error code handling as prompted by error detail updates in #752 
-
-Signed-off-by: Sam Curren <telegramsam@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-02 00:42:27 +0000 UTC
-    </div>
-</div>
-

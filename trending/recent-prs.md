@@ -1,13 +1,13 @@
 
-[3769](https://github.com/hyperledger/fabric/pull/3769) [WIP] Update purge private data tests
+[68](https://github.com/hyperledger/aries-acapy-controllers/pull/68) Bump terser and @angular-devkit/build-angular in /AliceFaberAcmeDemo/controllers/alice-controller
 
-[4633](https://github.com/hyperledger/besu/pull/4633) Remove SHL, SHR and SAR from default EVM
+[67](https://github.com/hyperledger/aries-acapy-controllers/pull/67) Bump got and nodemon in /AliceFaberAcmeDemo/controllers/acme-controller
 
-[3429](https://github.com/hyperledger/aries-framework-go/pull/3429) feat: add did core support in resolving service endpoints function
+[66](https://github.com/hyperledger/aries-acapy-controllers/pull/66) Bump moment from 2.29.2 to 2.29.4 in /AliceFaberAcmeDemo/controllers/acme-controller
 
-[336](https://github.com/hyperledger-labs/fabric-operations-console/pull/336) Bump loader-utils from 2.0.2 to 2.0.3 in /packages/apollo
+[65](https://github.com/hyperledger/aries-acapy-controllers/pull/65) Bump loader-utils from 1.4.0 to 1.4.1 in /AliceFaberAcmeDemo/controllers/alice-controller
 
-[335](https://github.com/hyperledger-labs/fabric-operations-console/pull/335) fix-npm audit
+[292](https://github.com/hyperledger/aries-toolbox/pull/292) chore(deps): Bump loader-utils from 1.4.0 to 1.4.1
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

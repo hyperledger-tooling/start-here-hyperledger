@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/226" class=".btn">#226</a>
+            </td>
+            <td>
+                <b>
+                    Fix default ethereum connector
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes the fact that `ff init` and `ff init ethereum` had different default options which was confusing and not working correctly because one would override the other
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-08 18:54:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-cli/pull/225" class=".btn">#225</a>
             </td>
             <td>

@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2058" class=".btn">#2058</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] Update operations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: mgCepeda <marina.gomez.cepeda@accenture.com>
+
+**Changelog**
+- Add remove_org variable in the remove-organization.yaml playbook, to avoid removing the flux mainfest when an organization is removed 
+- Fix fabric operations: add_organization,remove_organization, add_peer, add_orderer, add_new_channel
+
+
+**Reviewed by**
+@jagpreetsinghsasan @sownak  @suvajit-sarkar 
+
+ 
+
+**Linked issue**
+#1874 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-08 16:45:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2057" class=".btn">#2057</a>
             </td>
             <td>

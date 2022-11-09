@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2012" class=".btn">#2012</a>
+            </td>
+            <td>
+                <b>
+                    Added a bit about manually creating a revoc reg tails file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
+
+See issue https://github.com/hyperledger/aries-cloudagent-python/issues/2008
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-08 21:19:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2010" class=".btn">#2010</a>
             </td>
             <td>

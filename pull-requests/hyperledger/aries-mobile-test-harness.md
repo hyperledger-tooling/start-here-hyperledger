@@ -38,31 +38,3 @@ This is a fix for getting the auth code from a GitHub login on the BC VP Issuer 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/106" class=".btn">#106</a>
-            </td>
-            <td>
-                <b>
-                    overcome iOS 14 cred offer testID issue
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-For BC Wallet, iOS 14 is not showing Credential Card testIDs on the credential offer screen. Implemented a workaround that just checks for text in the page source. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-01 22:22:38 +0000 UTC
-    </div>
-</div>
-
