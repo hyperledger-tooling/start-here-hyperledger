@@ -97,36 +97,3 @@ Another option of course would be to modify action-menu's package.json to set co
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1083" class=".btn">#1083</a>
-            </td>
-            <td>
-                <b>
-                    chore: update extension module sample
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Some long-awaited (?) updates to the extension module sample:
-
-- Update README with registration as of AFJ core 0.3.0
-- Add DummyModuleConfig to illustrate custom module configuration
-- Add an E2E test to be run along the general suite
-- Fix demo, as it stopped working somewhere in 0.2.x (most likely related to #1025; more details to be analyzed there) 
-
-Signed-off-by: Ariel Gentile <gentilester@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-02 04:26:21 +0000 UTC
-    </div>
-</div>
-

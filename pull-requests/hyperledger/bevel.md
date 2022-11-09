@@ -58,7 +58,7 @@ permalink: /pull-requests/hyperledger/bevel
             </td>
             <td>
                 <b>
-                    [besu][fabric][indy][quorum][r3-corda-ent][r3-corda]Updated flux uninstall
+                    [shared] updated flux uninstall
                 </b>
             </td>
         </tr>
