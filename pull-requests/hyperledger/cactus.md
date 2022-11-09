@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2192" class=".btn">#2192</a>
+            </td>
+            <td>
+                <b>
+                    docs(odap-plugin): update odap plugin doc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Following the merge of  #2154 this is the update of the README file
+
+Signed-off-by: André Augusto <andre.augusto@tecnico.ulisboa.pt>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-08 17:27:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/2190" class=".btn">#2190</a>
             </td>
             <td>

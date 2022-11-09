@@ -37,29 +37,3 @@ permalink: /pull-requests/hyperledger/indy-vdr
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/107" class=".btn">#107</a>
-            </td>
-            <td>
-                <b>
-                    Skip verifiers with zero or negative node weights
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Partial fix for #106 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-01 23:16:42 +0000 UTC
-    </div>
-</div>
-

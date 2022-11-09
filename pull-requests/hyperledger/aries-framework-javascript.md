@@ -130,29 +130,3 @@ Signed-off-by: Ariel Gentile <gentilester@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1082" class=".btn">#1082</a>
-            </td>
-            <td>
-                <b>
-                    chore: make action-menu and question-answer public
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ariel Gentile <gentilester@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-01 23:14:00 +0000 UTC
-    </div>
-</div>
-
