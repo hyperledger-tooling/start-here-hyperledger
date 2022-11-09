@@ -79,7 +79,29 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                In PR chain with #1094 
+                This feature allows API requests to FireFly Core to be made idempotent.
+
+That is that the caller of the API can specify its own unique identifier (an arbitrary string up to 256 characters) that uniquely identifies the request. So if there is a network connectivity failure, or an abrupt termination of either runtime, the application can safely attempt to resubmit the REST API call and be returned a `409 Conflict` HTTP code.
+
+Examples of how an app might construct such an idempotencyKey include:
+- Unique business identifiers from the request that comes into its API up-stream - passing idempotency along the chain
+- A hash of the business unique data that relates to the request - maybe all the input data of a blockchain transaction for example, if that payload is guaranteed to be unique.
+    > Be careful of cases where the business data might _not_ be unique - like a transfer of 10 coins from A to B... that
+    > could happen multiple times, and each would be a separate business transaction. Where as transfer with invoice
+    > number abcd1234 of 10 coins from A to B might be perfectly unique.
+- A unique identifier of a business transaction generated within the application and stored in its database before submission
+    > Here be careful you haven't just moved the problem up one layer. How does that unique ID get generated? Is that
+    > itself idempotent?
+
+FireFly already uses an idempotent interface downstream to key plugins:
+   - EVMConnect blockchain operations - fully idempotent, using the operation ID
+   - Token operations - inherit idempotence from the blockchain connector they communicate with
+
+> Note that the interface between FireFly and EthConnect for blockchain operations is not currently fully idempotent.
+> This PR does not make the changes needed for that, and I note that EVMConnect is the recommended choice for
+> new FireFly projects.
+
+### Tasks
 
 - [x] Add `idempotencyKey` field to messages
    - Persisted directly on `Message` object
@@ -89,14 +111,18 @@ permalink: /pull-requests/hyperledger/firefly
     - Persisted on `Transaction` object
 - [x] Add `idempotencyKey` to `deploy` of blockchain smart contracts
     - Persisted on `Transaction` object
-- [x] Add `idempotencyKey` to `transfer` (/`mint`/`burn`) of tokens
+- [x] Add `idempotencyKey` to `transfer` (/`mint`/`burn`/`approval`) of tokens
     - Persisted on `Transaction` object
 - [x] Add `idempotencyKey` to `publish` APIs
 - [x] Update e2e tests for Message to test idempotent submission
-- [ ] Update e2e tests for Tokens to test idempotent submission
-- [ ] Update e2e tests for Custom contracts to test idempotent submission
-- [ ] Add `idempotencyKey` to events deliveries
-    - Where either the transaction or referenced-message has one set
+- [x] Update e2e tests for Tokens to test idempotent submission
+- [x] Update e2e tests for Custom contracts to test idempotent submission
+
+> I did look at in this PR, whether I could pass the `idempotencyKey` back to applications on events if they submitted
+> them on a request. However, this proved to need more investigation because the `.transaction` field of events is
+> only enriched on `transaction_submitted` events. To switch it to be cache-back-queried on every event, and to bloat
+> the JSON with the full transaction for all events, felt like a change that needed discussion independent from adding
+> the `idempotencyKey` capability to the submission APIs.
             </td>
         </tr>
     </table>
