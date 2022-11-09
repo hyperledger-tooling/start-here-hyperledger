@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1093" class=".btn">#1093</a>
+            </td>
+            <td>
+                <b>
+                    fix(routing): async message pickup on init
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently, when initializing the agent using a `MediationPickupStrategy` different from `None` (e.g. `PickupV1` or `PickupV2`), it attempts to start message pickup in a synchronous way, meaning that it might take some more time for startup depending on the . Also, if mediator is not reachable at that moment, it will throw an error and Agent's `_isInitialized` flag will not be set to true even if can connect afterwards (with the polling of PickupV1 or backoff strategy of PickupV2).
+
+In this PR we are starting the message pickup process in an async way and catching any possible initial error, in a similar way as Agent's initialize method for connecting to ledger pools.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-09 13:02:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1092" class=".btn">#1092</a>
             </td>
             <td>
