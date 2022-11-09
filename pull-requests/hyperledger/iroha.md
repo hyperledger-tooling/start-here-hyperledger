@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/iroha
         </tr>
         <tr>
             <td>
-                <span class="chip">Enhancement</span><span class="chip">iroha2</span>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">api-changes</span>
             </td>
             <td>
                 <!-- [feature] #2885: Define `TriggerExecuted` event -->

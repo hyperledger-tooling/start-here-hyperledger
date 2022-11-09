@@ -38,31 +38,3 @@ Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/639" class=".btn">#639</a>
-            </td>
-            <td>
-                <b>
-                    Expose key and service creation, message unpacking
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">wrappers</span><span class="chip">feature</span>
-            </td>
-            <td>
-                This will allow a client to process messages sent to an unmediated endpoint service.
-
-Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-02 12:13:53 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/329" class=".btn">#329</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/330" class=".btn">#330</a>
             </td>
             <td>
                 <b>
-                    protobuf refactor: type to assettype
+                    [WIP] Add Dockerfile to build testiin docker image
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                refactor type to AssetType in protobuf lock and its related used places
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-25 13:11:23 +0000 UTC
+        Created At 2022-11-09 09:36:15 +0000 UTC
     </div>
 </div>
 
