@@ -38,31 +38,3 @@ Closes #190
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/222" class=".btn">#222</a>
-            </td>
-            <td>
-                <b>
-                    [docs] #221: Add json subcommand
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-Closes #221 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-02 07:56:09 +0000 UTC
-    </div>
-</div>
-

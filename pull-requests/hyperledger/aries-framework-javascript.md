@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1092" class=".btn">#1092</a>
+            </td>
+            <td>
+                <b>
+                    feat: Issue Credentials V2 (W3C/JSON-LD) with Commits Squashed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-09 09:27:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1086" class=".btn">#1086</a>
             </td>
             <td>
@@ -64,36 +90,6 @@ This PR makes a quick-fix of this issue by logging only messageContext.message, 
     </table>
     <div class="right-align">
         Created At 2022-11-04 22:42:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1084" class=".btn">#1084</a>
-            </td>
-            <td>
-                <b>
-                    ci: use graph-type all for lerna publish
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                CD is broken since #1082 has been merged, and it seems that it's because lerna is using alphabetical order when publishing packages (`lerna publish` command), so attempts to build action-menu before core (marked as peerDependency).
-
-According to [Lerna Publish documentation](https://github.com/lerna/lerna/blob/main/commands/publish/README.md#--graph-type-alldependencies), this is because lerna uses by default a `dependencies` graph-type, which will take into account only packages listed in dependencies to determine the build order. As in this case it is listed in peerDependencies, an `all` graph-type must be used.
-
-Another option of course would be to modify action-menu's package.json to set core as a direct dependency. However, this would be also needed for any other package that comes before to core in alphabetical order (such as `bbs-signatures`). I'm not sure if this would be conceptually correct (this was discussed recently [when extracting BBS module](https://github.com/hyperledger/aries-framework-javascript/pull/1035#discussion_r989228931)).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-02 11:05:05 +0000 UTC
     </div>
 </div>
 

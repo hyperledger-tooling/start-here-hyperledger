@@ -14,6 +14,56 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4635" class=".btn">#4635</a>
+            </td>
+            <td>
+                <b>
+                    [Do not install this PR while it is in draft] Optimize performance of WorldStateUpdater commit method
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Signed-off-by: Ameziane H <ameziane.hamlat@consensys.net>
+Co-authored-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+WorldStateUpdater commit method is one of the most consuming methods during block processing (engine_newPayloadV1 call). This PR will focus on parallelizing some parts of this method to make it faster.
+
+<img width="1714" alt="image" src="https://user-images.githubusercontent.com/5099602/200810024-878e01e0-3f54-4911-9157-0bd73be1cb3f.png">
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-09 10:50:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4634" class=".btn">#4634</a>
             </td>
             <td>
