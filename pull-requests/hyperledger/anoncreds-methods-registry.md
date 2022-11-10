@@ -64,29 +64,3 @@ permalink: /pull-requests/hyperledger/anoncreds-methods-registry
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-methods-registry/pull/11" class=".btn">#11</a>
-            </td>
-            <td>
-                <b>
-                    Update cheqd Object Method link
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Alex Tweeddale <79993234+Tweeddalex@users.noreply.github.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-03 03:49:32 +0000 UTC
-    </div>
-</div>
-

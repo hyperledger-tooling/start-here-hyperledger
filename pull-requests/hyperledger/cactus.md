@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2195" class=".btn">#2195</a>
+            </td>
+            <td>
+                <b>
+                    Feat:Chia-all-in-one done
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Chia docker image 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-10 05:59:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/2194" class=".btn">#2194</a>
             </td>
             <td>

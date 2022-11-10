@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/79" class=".btn">#79</a>
+            </td>
+            <td>
+                <b>
+                    chore: remove same code in orderer integration test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                the line87-89 and line 91-93 is same, but twice:
+
+https://github.com/hyperledger-labs/fabric-operator/blob/db38e856fda7798650de925addadbc75305adc39/integration/orderer/orderer_suite_test.go#L85-L97
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-10 06:09:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/78" class=".btn">#78</a>
+            </td>
+            <td>
+                <b>
+                    chore: push image workflow should limit repository
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The idea of automatically building the image and pushing it to the `ghcr.io` repository after the pull request merge is great. 
+
+Just one small restriction: only run the push job on the main repository: `hyperledger-labs/fabric-operator`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-10 03:02:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/76" class=".btn">#76</a>
             </td>
             <td>
