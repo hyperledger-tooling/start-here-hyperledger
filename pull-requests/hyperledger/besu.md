@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4651" class=".btn">#4651</a>
+            </td>
+            <td>
+                <b>
+                    fix best peer mechanism during sync
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-10 16:24:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4650" class=".btn">#4650</a>
             </td>
             <td>
@@ -952,54 +994,6 @@ Add the transient Shandong fork and network definitions.  For Shanghai fork test
     </table>
     <div class="right-align">
         Created At 2022-11-04 01:26:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4598" class=".btn">#4598</a>
-            </td>
-            <td>
-                <b>
-                    Transaction pool price validation improvements and fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Review and move all price validation rules in a single method called during the validation of the transaction, instead of having them scattered in different places.
-
-Fix the way the TX_FEECAP_EXCEEDED validation is done, since before it was based on network conditions at the time the transaction was submitted, with the possibility that when the transaction was confirmed the actual fee was different and potentially about the cap. Now the check is done taking in consideration the `maxFeePerGas` that is invariant.
-
-Rename `satisfiesFloorTxCost` to `satisfiesFloorTxFee` since it is about tx fee and not cost.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-03 13:23:49 +0000 UTC
     </div>
 </div>
 
