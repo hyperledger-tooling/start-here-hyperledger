@@ -24,10 +24,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span>
             </td>
             <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+                This PR exposes the RegisterIssuerWallet API to register issuer wallets.
+
+Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
         </tr>
     </table>
