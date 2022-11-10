@@ -14,6 +14,179 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4650" class=".btn">#4650</a>
+            </td>
+            <td>
+                <b>
+                    Added 'result' field to eth_sendRawTransaction invalid transaction response.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Adds a `result` field (containing the transaction hash) to the response from `eth_sendRawTransaction` when the transaction is invalid. 
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-10 12:05:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4649" class=".btn">#4649</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade RocksDB from version 7.6.0 to 7.7.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+The new version of RocksDB JNI library was published in maven on Oct 25, 2022, this PR will upgrade rocksdb JNI library from 7.6.0 to 7.7.3.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-10 09:45:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4648" class=".btn">#4648</a>
+            </td>
+            <td>
+                <b>
+                    Bonsai Fix for MainnetBlockValidator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Fix for MainnetBlockValidator mutating the bonsai persisted worldstate on validation.
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-10 09:06:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4647" class=".btn">#4647</a>
+            </td>
+            <td>
+                <b>
+                    add bandersnatch point
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Antoine Toulme <antoine@lunar-ocean.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This adds just enough code to deal with the math required to create verkle proofs.
+
+
+## Documentation
+
+- [X] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-10 07:43:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4646" class=".btn">#4646</a>
             </td>
             <td>
@@ -249,9 +422,19 @@ WorldStateUpdater commit method is one of the most consuming methods during bloc
 
 <img width="1714" alt="image" src="https://user-images.githubusercontent.com/5099602/200810024-878e01e0-3f54-4911-9157-0bd73be1cb3f.png">
 
-The first results
+The first results after 2 hours of execution
 
 <img width="1332" alt="image" src="https://user-images.githubusercontent.com/5099602/200866595-4057e7be-3cf1-4153-a9e0-59b33c861d6f.png">
+
+The results after 12 hours
+<img width="1621" alt="image" src="https://user-images.githubusercontent.com/5099602/201040164-b39ac12d-734d-45e8-a718-295edd94b886.png">
+
+We can see with CPU profiling that the commit methods takes less time and most of the execution is done in parallel in ForkjoinPool.commonPool().
+
+<img width="1707" alt="image" src="https://user-images.githubusercontent.com/5099602/201041208-aa00707e-7b20-4444-9ff6-2ef68fe5d6ed.png">
+
+<img width="1712" alt="image" src="https://user-images.githubusercontent.com/5099602/201042608-296742ab-15c6-4aad-8904-55db8ae68a20.png">
+
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -793,8 +976,6 @@ Add the transient Shandong fork and network definitions.  For Shanghai fork test
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-
-This PR is built on top of #4632, please check it first
 
 Review and move all price validation rules in a single method called during the validation of the transaction, instead of having them scattered in different places.
 

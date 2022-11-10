@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/231" class=".btn">#231</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/235" class=".btn">#235</a>
             </td>
             <td>
                 <b>
-                    Add virtual modifier to all public methods of default services
+                    added MAINTAINERS.md
                 </b>
             </td>
         </tr>
@@ -30,18 +30,14 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
                 Signed-off-by: Sebastian Bickerle <sebastian.bickerle@main-incubator.com>
 
 #### Short description of what this resolves:
+- Added a MAINTAINERS.md
 
-This PR adds the virtual modifier to all public methods of default services where it was missing. It enables custom services to override the default behaviour or add a custom behaviour. All public methods of default services should have the virtual modifier by default.
-
-#### Changes proposed in this pull request:
-
-- Adds virtual modifier to all public methods of default services
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-30 10:06:57 +0000 UTC
+        Created At 2022-11-10 09:59:26 +0000 UTC
     </div>
 </div>
 
