@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/457" class=".btn">#457</a>
+            </td>
+            <td>
+                <b>
+                    Metric features
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Made the following changes:
+
+ - Add Prometheus network configuration
+ - Add block size (bytes) metric (changed previous `block_size` to `tx_per_block`)
+ - Add explicit buckets values
+ - Add an option to issue certificate using URL (not IP) to the testing infrastructure (used by the benchmark)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-10 09:54:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/454" class=".btn">#454</a>
             </td>
             <td>

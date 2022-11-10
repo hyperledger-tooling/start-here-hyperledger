@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/80" class=".btn">#80</a>
+            </td>
+            <td>
+                <b>
+                    chore: remove todo in unit-tests workflow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                uncomment push and gosec
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-10 06:32:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/79" class=".btn">#79</a>
             </td>
             <td>
