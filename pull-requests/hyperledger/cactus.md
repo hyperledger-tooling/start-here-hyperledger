@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2194" class=".btn">#2194</a>
+            </td>
+            <td>
+                <b>
+                    build: fix release automation - try #2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A second attempt at fixing the release automation.
+
+The missing piece was that some of the Indy SDK dependencies
+were not installed by default and we forgot to run the ci.sh
+script to take care of that within this workflow action.
+
+With this fix now we have an additional step in the action which
+takes care of installing the OS level build dependencies for
+the project.
+
+Fixes #1951
+Fixes #2069
+Fixes #2175
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-09 22:34:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/2193" class=".btn">#2193</a>
             </td>
             <td>
@@ -202,39 +242,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2022-11-04 00:15:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2186" class=".btn">#2186</a>
-            </td>
-            <td>
-                <b>
-                    chore(release): publish v1.1.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is needed because of the botched (congrats Peter) v1.1.0 release which we attempted to fix by adding a new workflow action that gets triggered on tags and then re-applying (delete+re-tag) the v1.1.0 release tag.
-Only after all this was it discovered that the workflow action meant to push the 1.1.0 npm artifacts will not get triggered on the v1.1.0 tag because the workflow file got added in a commit prior to v1.1.0 so the only way to fix it would be to:
-1. have direct push access ot npm once again (temporarily) until we can issue the 1.1.0 release or
-2. re-write the git history of the upstream main branch (a big no-no unless we absolutely must do that for whatever reason)
-
-TLDR: Issuing a v1.1.1 release here basically just to test whether the auto-publishing of packages with the new workflow works at all or not. If it has bugs or does not work for whatever other reason we will need to itreate on the workflow file and then issue a v1.1.2 and more of those as needed until we figure out the auto-publishing so that it "just works" 
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-02 21:25:40 +0000 UTC
     </div>
 </div>
 

@@ -90,30 +90,3 @@ permalink: /pull-requests/hyperledger/anoncreds-methods-registry
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-methods-registry/pull/10" class=".btn">#10</a>
-            </td>
-            <td>
-                <b>
-                    Create maintainers file in prep for transfer to Hyperledger
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-02 19:46:13 +0000 UTC
-    </div>
-</div>
-

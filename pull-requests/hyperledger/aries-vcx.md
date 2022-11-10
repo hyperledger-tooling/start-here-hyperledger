@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/643" class=".btn">#643</a>
+            </td>
+            <td>
+                <b>
+                    Update node wrapper dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">wrappers</span><span class="chip">update</span><span class="chip">dependencies</span>
+            </td>
+            <td>
+                Decreases the number of known vulnerabilities in node wrapper dependencies from 3 to 0.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-09 19:58:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/642" class=".btn">#642</a>
             </td>
             <td>
