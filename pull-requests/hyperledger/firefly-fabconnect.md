@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/101" class=".btn">#101</a>
+            </td>
+            <td>
+                <b>
+                    Use structs specific to the lifecycle calls to unmarshal the args
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jim Zhang <jim.zhang@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-09 22:27:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/100" class=".btn">#100</a>
             </td>
             <td>

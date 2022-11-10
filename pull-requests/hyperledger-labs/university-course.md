@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/university-course
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/university-course/pull/84" class=".btn">#84</a>
+                PR <a href="https://github.com/hyperledger-labs/university-course/pull/86" class=".btn">#86</a>
             </td>
             <td>
                 <b>
-                    chore(deps): bump terser from 4.6.11 to 4.8.1 in /support/Lab06/b4s/organization/university/user-interface
+                    chore(deps): bump minimatch from 3.0.4 to 3.1.2 in /support/Lab02
                 </b>
             </td>
         </tr>
@@ -27,49 +27,27 @@ permalink: /pull-requests/hyperledger-labs/university-course
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [terser](https://github.com/terser/terser) from 4.6.11 to 4.8.1.
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/terser/terser/blob/master/CHANGELOG.md">terser's changelog</a>.</em></p>
-<blockquote>
-<h2>v4.8.1 (backport)</h2>
-<ul>
-<li>Security fix for RegExps that should not be evaluated (regexp DDOS)</li>
-</ul>
-<h2>v4.8.0</h2>
-<ul>
-<li>Support for numeric separators (<code>million = 1_000_000</code>) was added.</li>
-<li>Assigning properties to a class is now assumed to be pure.</li>
-<li>Fixed bug where <code>yield</code> wasn't considered a valid property key in generators.</li>
-</ul>
-<h2>v4.7.0</h2>
-<ul>
-<li>A bug was fixed where an arrow function would have the wrong size</li>
-<li><code>arguments</code> object is now considered safe to retrieve properties from (useful for <code>length</code>, or <code>0</code>) even when <code>pure_getters</code> is not set.</li>
-<li>Fixed erroneous <code>const</code> declarations without value (which is invalid) in some corner cases when using <code>collapse_vars</code>.</li>
-</ul>
-<h2>v4.6.13</h2>
-<ul>
-<li>Fixed issue where ES5 object properties were being turned into ES6 object properties due to more lax unicode rules.</li>
-<li>Fixed parsing of BigInt with lowercase <code>e</code> in them.</li>
-</ul>
-<h2>v4.6.12</h2>
-<ul>
-<li>Fixed subtree comparison code, making it see that <code>[1,[2, 3]]</code> is different from <code>[1, 2, [3]]</code></li>
-<li>Printing of unicode identifiers has been improved</li>
-</ul>
-</blockquote>
-</details>
+                Bumps [minimatch](https://github.com/isaacs/minimatch) from 3.0.4 to 3.1.2.
 <details>
 <summary>Commits</summary>
 <ul>
-<li>See full diff in <a href="https://github.com/terser/terser/commits">compare view</a></li>
+<li><a href="https://github.com/isaacs/minimatch/commit/699c459443a6bd98f5b28197978f76e7f71467ac"><code>699c459</code></a> 3.1.2</li>
+<li><a href="https://github.com/isaacs/minimatch/commit/2f2b5ff1bb1b6a01f4404f7e475f0a2cba578ab7"><code>2f2b5ff</code></a> fix: trim pattern</li>
+<li><a href="https://github.com/isaacs/minimatch/commit/25d7c0d09c47063c9b0d2ace17ef8e951d90eccc"><code>25d7c0d</code></a> 3.1.1</li>
+<li><a href="https://github.com/isaacs/minimatch/commit/55dda291dfb595bd11b4edb19b45dd98eda76de0"><code>55dda29</code></a> fix: treat nocase:true as always having magic</li>
+<li><a href="https://github.com/isaacs/minimatch/commit/5e1fb8dd2bb78c0ae22101b9229fac4c76ef039e"><code>5e1fb8d</code></a> 3.1.0</li>
+<li><a href="https://github.com/isaacs/minimatch/commit/f8145c54f34075069f4a23cb214d871da4cd4006"><code>f8145c5</code></a> Add 'allowWindowsEscape' option</li>
+<li><a href="https://github.com/isaacs/minimatch/commit/570e8b1aef6c9e823a824aa0b9be10db43857cd7"><code>570e8b1</code></a> add publishConfig for v3 publishes</li>
+<li><a href="https://github.com/isaacs/minimatch/commit/5b7cd3372be253759fb4d865eb3f38f189a5fcdf"><code>5b7cd33</code></a> 3.0.6</li>
+<li><a href="https://github.com/isaacs/minimatch/commit/20b4b562830680867feb75f9c635aca08e5c86ff"><code>20b4b56</code></a> [fix] revert all breaking syntax changes</li>
+<li><a href="https://github.com/isaacs/minimatch/commit/2ff038852ec03e85e60e0eb333005c680ac8a543"><code>2ff0388</code></a> document, expose, and test 'partial:true' option</li>
+<li>Additional commits viewable in <a href="https://github.com/isaacs/minimatch/compare/v3.0.4...v3.1.2">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=terser&package-manager=npm_and_yarn&previous-version=4.6.11&new-version=4.8.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=minimatch&package-manager=npm_and_yarn&previous-version=3.0.4&new-version=3.1.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -105,7 +83,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-07-21 07:05:35 +0000 UTC
+        Created At 2022-11-10 00:49:18 +0000 UTC
     </div>
 </div>
 

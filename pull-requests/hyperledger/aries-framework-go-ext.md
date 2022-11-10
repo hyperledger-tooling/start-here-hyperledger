@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/301" class=".btn">#301</a>
+            </td>
+            <td>
+                <b>
+                    fix: Longform VDR method should not include did prefix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Longform VDR method should not include did prefix
+
+Closes #300
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-09 19:10:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/299" class=".btn">#299</a>
             </td>
             <td>
@@ -127,36 +157,6 @@ Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
     </table>
     <div class="right-align">
         Created At 2022-11-03 16:33:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/292" class=".btn">#292</a>
-            </td>
-            <td>
-                <b>
-                    chore: Refactor sidetree client send operation request function
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Refactor sidetree client send operation request function so it can be passed as an option.
-
-Closes #291
-
-Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-02 19:04:56 +0000 UTC
     </div>
 </div>
 
