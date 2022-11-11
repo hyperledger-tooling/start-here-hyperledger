@@ -14,6 +14,112 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4657" class=".btn">#4657</a>
+            </td>
+            <td>
+                <b>
+                    Ignore .idea directory in spotless checks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Daniel Lehrner <daniel.lehrner@consensys.net>
+
+## PR description
+
+InteliJ allows to define templates for different files like Java classes, interfaces,... If those templates are saved in the project they are saved as `.java` files in a subdirectory of `.idea`.
+
+Such a template looks for example like this:
+```
+#parse("Copyright Besu.java")
+#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+public class ${NAME} {
+}
+```
+Spotless currently tries to check this templates, because it is configured to analyze all Java files. This check will fail, because the templates are not valid Java code.
+
+This PR excludes all the files in the `.idea` directory from the spotless check to avoid those false positives.
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-11 15:41:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4656" class=".btn">#4656</a>
+            </td>
+            <td>
+                <b>
+                    Backward sync: use retry switching peer when fetching data from peers 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+This PR is built on top of #4655, so please che it first.
+
+Wait for at least one connected peer before starting the backwward sync, and use the retry mechanism that switches peer everytime it needs to retry to get data from peers, this helps reducing errors like the following ones, and makes the sync faster
+
+```
+Backward sync failed (org.hyperledger.besu.ethereum.eth.manager.exceptions.NoAvailablePeersException: Task failed: NO_AVAILABLE_PEERS). Current Peers: 1. Retrying in 5000 milliseconds...
+```
+
+```
+Backward sync failed (org.hyperledger.besu.ethereum.eth.sync.backwardsync.BackwardSyncException: Did not receive a headers for hash 0xe4631c4449f24076d15c6ab3f663ac573ab4faa945aadbb85573848920e8ff80). Current Peers: 1. Retrying in 5000 milliseconds
+```
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+relates to #4446 
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-11 13:29:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4655" class=".btn">#4655</a>
             </td>
             <td>

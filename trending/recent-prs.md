@@ -1,13 +1,13 @@
 
-[4655](https://github.com/hyperledger/besu/pull/4655) Backward sync log UX improvements
+[72](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/72) Fix release asset uploads
 
-[4654](https://github.com/hyperledger/besu/pull/4654) Adding option to debug the potential problems with closing Transaction
+[862](https://github.com/hyperledger/fabric-samples/pull/862) Run FSAT Chaincode E2E tests on GHA - DO NOT MERGE
 
-[1064](https://github.com/hyperledger/solang/pull/1064) Substrate: Fix events with topics
+[71](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/71) Fix GHA node deprecation warning
 
-[3776](https://github.com/hyperledger/fabric/pull/3776) fix no matches found: .data.data[0].payload.data.config
+[1066](https://github.com/hyperledger/solang/pull/1066) Documentation cleanup and rename Ternary to Conditional
 
-[495](https://github.com/hyperledger/cello/pull/495) Deprecate out-maintained auth dependency
+[3778](https://github.com/hyperledger/fabric/pull/3778) fix no matches found: .data.data[0].payload.data.config (backport #3776)
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
