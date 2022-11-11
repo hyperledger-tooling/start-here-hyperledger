@@ -40,31 +40,3 @@ Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/494" class=".btn">#494</a>
-            </td>
-            <td>
-                <b>
-                    Node config upload btn and Node join channel btn
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Create frontend node buttons for uploading config file and joining channel.
-
-Signed-off-by: Xichen Pan [xichen.pan@gmail.com](mailto:xichen.pan@gmail.com)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-04 12:43:16 +0000 UTC
-    </div>
-</div>
-
