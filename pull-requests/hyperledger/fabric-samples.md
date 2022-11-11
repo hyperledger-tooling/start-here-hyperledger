@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/853" class=".btn">#853</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/856" class=".btn">#856</a>
             </td>
             <td>
                 <b>
-                    Run E2E tests for Full Stack Guide on GHA - DO NOT MERGE
+                    Feature/hello gha
                 </b>
             </td>
         </tr>
@@ -27,18 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                **DO NOT MERGE** 
-
-This PR runs E2E tests for the Full Stack Application Development Guide. 
-
-Test cases are run on GitHub Actions - **NOT** Azure pipelines.
-
-Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+                **DO NOT MERGE**
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-10 18:12:44 +0000 UTC
+        Created At 2022-11-10 20:51:39 +0000 UTC
     </div>
 </div>
 

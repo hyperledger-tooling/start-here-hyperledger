@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3775" class=".btn">#3775</a>
+            </td>
+            <td>
+                <b>
+                    Remove Purge-Marker to avoid unnecessary scanning
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR removes the Purge-Marker after purging all the associated keys and hashed indexes. In addition, for reconciliation, it introduces a separate marker
+
+Signed-off-by: manish <manish.sethi@gmail.com>
+
+#### Type of change
+- New feature
+
+#### Related issues
+Closes #3444
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-10 20:19:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3774" class=".btn">#3774</a>
             </td>
             <td>
@@ -198,41 +232,6 @@ Finally, you can contact us on https://mergify.com
     </table>
     <div class="right-align">
         Created At 2022-11-04 21:25:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3765" class=".btn">#3765</a>
-            </td>
-            <td>
-                <b>
-                    Add private write-set for purge operation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This commit adds a private write-set for a purge operation. The private write-set contains the delete operation on the key getting purged.
-
-Signed-off-by: manish <manish.sethi@gmail.com>
-
-#### Type of change
-- New feature
-
-#### Related issues
-Closes #3761 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-03 20:26:17 +0000 UTC
     </div>
 </div>
 
