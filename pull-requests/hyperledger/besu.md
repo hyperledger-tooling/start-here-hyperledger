@@ -14,6 +14,101 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4655" class=".btn">#4655</a>
+            </td>
+            <td>
+                <b>
+                    Backward sync log UX improvements
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">logging</span>
+            </td>
+            <td>
+                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Improve the backward sync logging, showing only the progress and critical errors, and pushing transient errors to debug.
+Progress logs are printed at least 10 sec apart, to avoid spamming the console
+
+example of the new progress log
+
+```
+{"@timestamp":"2022-11-11T11:54:59,077","level":"INFO","thread":"nioEventLoopGroup-3-2","class":"BackwardsSyncAlgorithm","message":"Backward sync target block is 2267767 (0x3e6762c92c604cf19e6ba6377a15a8266afdb6bca81b57b1c8d49b7bcc03571c)","throwable":""}                                                                                                                                                                                                                   {"@timestamp":"2022-11-11T11:55:51,964","level":"INFO","thread":"nioEventLoopGroup-3-2","class":"BackwardSyncStep","message":"Backward sync phase 1 of 2, 1.56% completed, downloaded 200 headers of at least 12842. Peers: 1","throwable":""}                                                                                                                                                                                                                                    {"@timestamp":"2022-11-11T11:55:59,834","level":"INFO","thread":"nioEventLoopGroup-3-2","class":"BackwardSyncStep","message":"Backward sync phase 1 of 2 completed, downloaded a total of 13000 headers. Peers: 1","throwable":""}
+{"@timestamp":"2022-11-11T11:56:01,771","level":"INFO","thread":"nioEventLoopGroup-3-2","class":"ForwardSyncStep","message":"Backward sync phase 2 of 2, 1.56% completed, imported 200 blocks of at least 12842. Peers: 1","throwable":""}
+{"@timestamp":"2022-11-11T11:56:12,925","level":"INFO","thread":"nioEventLoopGroup-3-2","class":"ForwardSyncStep","message":"Backward sync phase 2 of 2, 12.46% completed, imported 1600 blocks of at least 12842. Peers: 1","throwable":""}
+{"@timestamp":"2022-11-11T11:56:22,934","level":"INFO","thread":"nioEventLoopGroup-3-2","class":"ForwardSyncStep","message":"Backward sync phase 2 of 2, 21.80% completed, imported 2800 blocks of at least 12842. Peers: 3","throwable":""}
+{"@timestamp":"2022-11-11T11:56:34,671","level":"INFO","thread":"nioEventLoopGroup-3-2","class":"ForwardSyncStep","message":"Backward sync phase 2 of 2, 38.93% completed, imported 5000 blocks of at least 12842. Peers: 1","throwable":""}                                                                                                                                                                                                                                      {"@timestamp":"2022-11-11T11:56:45,305","level":"INFO","thread":"nioEventLoopGroup-3-2","class":"ForwardSyncStep","message":"Backward sync phase 2 of 2, 52.95% completed, imported 6800 blocks of at least 12842. Peers: 1","throwable":""}
+{"@timestamp":"2022-11-11T11:56:56,366","level":"INFO","thread":"nioEventLoopGroup-3-2","class":"ForwardSyncStep","message":"Backward sync phase 2 of 2, 62.30% completed, imported 8000 blocks of at least 12842. Peers: 1","throwable":""}
+{"@timestamp":"2022-11-11T11:57:06,473","level":"INFO","thread":"nioEventLoopGroup-3-2","class":"ForwardSyncStep","message":"Backward sync phase 2 of 2, 71.64% completed, imported 9200 blocks of at least 12842. Peers: 1","throwable":""}
+{"@timestamp":"2022-11-11T11:57:16,819","level":"INFO","thread":"nioEventLoopGroup-3-2","class":"ForwardSyncStep","message":"Backward sync phase 2 of 2, 79.43% completed, imported 10200 blocks of at least 12842. Peers: 1","throwable":""}
+{"@timestamp":"2022-11-11T11:57:28,240","level":"INFO","thread":"nioEventLoopGroup-3-2","class":"ForwardSyncStep","message":"Backward sync phase 2 of 2, 91.89% completed, imported 11800 blocks of at least 12842. Peers: 1","throwable":""}
+{"@timestamp":"2022-11-11T11:57:34,237","level":"INFO","thread":"nioEventLoopGroup-3-2","class":"ForwardSyncStep","message":"Backward sync phase 2 of 2 completed, imported a total of 12857 blocks. Peers: 1","throwable":""}
+{"@timestamp":"2022-11-11T11:57:34,242","level":"INFO","thread":"ForkJoinPool.commonPool-worker-7","class":"BackwardsSyncAlgorithm","message":"The Backward sync is done","throwable":""}
+```
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+relates to #4446
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-11 11:58:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4654" class=".btn">#4654</a>
+            </td>
+            <td>
+                <b>
+                    Adding option to debug the potential problems with closing Transaction
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                If we are adding finalize, at least add some way to investigate a potential not closed object. 
+
+Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-11 10:55:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4651" class=".btn">#4651</a>
             </td>
             <td>
@@ -851,69 +946,6 @@ fixes #4604
     </table>
     <div class="right-align">
         Created At 2022-11-05 05:41:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4602" class=".btn">#4602</a>
-            </td>
-            <td>
-                <b>
-                    Explain and improve price validation for London transactions during s…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                …election
-
-Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Explain and improve price validation for London transactions during block proposal selection.
-
-For EIP1559 transactions, the price is dynamic and depends on network conditions, so we can
-only calculate at this time the current minimum price the transaction is willing to pay
-and if it is above the minimum accepted by the node.
-If below we do not delete the transaction, since when we added the transaction to the pool,
-we assured sure that the maxFeePerGas is >= of the minimum price accepted by the node
-and so the price of the transaction could satisfy this rule in the future.
-
-Also if a EIP1559 fails validation because its maxFeePerGas is below current baseFee, this should be considered a specific transient error, and not wrongly report INVALID_TRANSACTION_FORMAT.
-
-Moreover this is applied only to remoteTransaction because local transactions are allowed to have gas price 
-below the configured minimum, so we need to track local senders and do not enforce the rule for them.
-
-Also fixed an edge case when a local transaction is readded to the pool due to a block reorg, and it was wrongly 
-considered remote with the risk of being rejected due to low gas price.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-04 10:59:29 +0000 UTC
     </div>
 </div>
 
