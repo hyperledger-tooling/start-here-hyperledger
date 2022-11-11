@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1059" class=".btn">#1059</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1064" class=".btn">#1064</a>
             </td>
             <td>
                 <b>
-                    Fix clippy warnings for rust 1.65.0
+                    Substrate: Fix events with topics
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                Rust 1.65.0 will be released tomorrow
+                Closes #970 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-02 10:07:47 +0000 UTC
+        Created At 2022-11-11 10:24:02 +0000 UTC
     </div>
 </div>
 

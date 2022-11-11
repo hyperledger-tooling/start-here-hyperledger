@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/115" class=".btn">#115</a>
-            </td>
-            <td>
-                <b>
-                    02-client-refactor added support for multiple consensus states inside a header
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                A beefy or grandpa header submitted on-chain can potentially contain headers with multiple consensus states. This PR refactors the client interface to support beefy and grandpa light clients.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-04 07:29:56 +0000 UTC
-    </div>
-</div>
-
