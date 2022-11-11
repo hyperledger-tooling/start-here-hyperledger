@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/iroha-javascript
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">iroha2</span>
             </td>
             <td>
                 Signed-off-by: safinsaf <safinsaft@gmail.com>

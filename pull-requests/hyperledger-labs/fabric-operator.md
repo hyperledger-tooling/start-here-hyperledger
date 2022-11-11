@@ -44,7 +44,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
             </td>
             <td>
                 <b>
-                    chore: remove same code in orderer integration test
+                    chore: remove same code
                 </b>
             </td>
         </tr>
@@ -57,6 +57,9 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
 
 https://github.com/hyperledger-labs/fabric-operator/blob/db38e856fda7798650de925addadbc75305adc39/integration/orderer/orderer_suite_test.go#L85-L97
 
+And line 205 and 206 is same but twice:
+
+https://github.com/hyperledger-labs/fabric-operator/blob/db38e856fda7798650de925addadbc75305adc39/pkg/offering/k8s/orderer/node.go#L203-L210
             </td>
         </tr>
     </table>
