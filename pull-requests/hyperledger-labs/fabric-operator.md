@@ -190,37 +190,3 @@ See a list of supported linters and which linters are enabled/disabled in https:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/72" class=".btn">#72</a>
-            </td>
-            <td>
-                <b>
-                    Add an OPERATOR_LOCAL_MODE environment variable to launch locally.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR allows the operator to be launched locally without running within a Docker container / kubernetes cluster.
-
-Fixes Issue #67
-
-Note that this changes the default path at which the operator config files are read, from `../../` to `./`.   This was actually a bug / error in the original logic, as the working directory for `ibp-operator` in the container is actually `/`.  (When running from the root folder, the `../../` path prefix resolves to `/` on the file system.)
-
-Thank you @bjwswang for the great recommendations on pushing this forward.
-
-Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-05 02:43:06 +0000 UTC
-    </div>
-</div>
-

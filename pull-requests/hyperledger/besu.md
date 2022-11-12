@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4662" class=".btn">#4662</a>
+            </td>
+            <td>
+                <b>
+                    squash commit of push0, small EOF
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+squash commit of 4460 and 4644
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-12 03:38:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4661" class=".btn">#4661</a>
             </td>
             <td>
@@ -628,17 +659,23 @@ Fixes  #4643
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">doc-change-required</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+Implement "Small" EOF - EIP-3540 (container) and EIP-3670 (validation).
 
-**WIP DO NOT COMMIT**
+Make code an interface so EOF specific features are compartmentalized,
+including an 'invalid' code type representing a code block that didn't
+pass validation, CodeV1 for EOF1, and CodeV0 which represents pre-EOF
+code. EVMs track a maximum supported EOF version (where 0 is pre-eof)and
+code is generated from a CodeFactory taking in context (is it a CREATE
+operation and max code size) for the validation.
 
-Ethereum Object Format support and Code Validation support
+Includes spec versions for "Shanghai" and transient testnet "Shandong".
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -646,12 +683,12 @@ Ethereum Object Format support and Code Validation support
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -1101,54 +1138,6 @@ This probably puts in place some post-merge cleanup refactoring that was needed 
     </table>
     <div class="right-align">
         Created At 2022-11-06 00:29:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4605" class=".btn">#4605</a>
-            </td>
-            <td>
-                <b>
-                    Use SimpleAccount references in TxPool
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-
-Signed-off-by: garyschulte <garyschulte@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-wrap sender account info as SimpleAccount to prevent holding references to BonsaiAccount's in memory, and their corresponding rocksdb transactions and worldstates
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #4604
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-05 05:41:59 +0000 UTC
     </div>
 </div>
 
