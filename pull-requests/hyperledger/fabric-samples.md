@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-samples
             </td>
             <td>
                 <b>
-                    Run FSAT Chaincode E2E tests on GHA - DO NOT MERGE
+                    Move test-network-basic Azure tests to GHA - READY FOR MERGE
                 </b>
             </td>
         </tr>
@@ -27,16 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                **DO NOT MERGE** 
-
-This PR moves some of the _glacial_ iceberg test-network tests from Azure to GHA. 
+                This PR ports the _glacial_ iceberg test-network tests from Azure to GHA: 
 
 - Test Network Basic - Go
 - Test Network Basic - Java
 - Test Network Basic - Javascript
 - Test Network Basic - Typescript
 
-This PR also runs the FSAT chaincode E2E.   
+In addition, the scripts have been updated to run each test case in a different chaincode scope / ledger, re-using a single Fabric network across all tests in the suite.
 
 Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
             </td>
