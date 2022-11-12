@@ -122,30 +122,3 @@ Signed-off-by: Nao Nishijima <nao.nishijima.xt@hitachi.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2005" class=".btn">#2005</a>
-            </td>
-            <td>
-                <b>
-                    Changelog and other updates for ACA-Py 1.0.0-rc1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-04 21:20:15 +0000 UTC
-    </div>
-</div>
-
