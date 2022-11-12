@@ -14,6 +14,103 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4661" class=".btn">#4661</a>
+            </td>
+            <td>
+                <b>
+                    22.10.1 alpha
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+alpha build for burn in ahead of 22.10.1 release.  
+
+This PR:
+* merges main from e7074c0ecb582b50055c1928da85a2e79e9f97ba into release-22.10.x 
+* sets gradle.properties version to 22.10.1-alpha
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-11 23:41:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4660" class=".btn">#4660</a>
+            </td>
+            <td>
+                <b>
+                    Implementation of  PUSH0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: lukelee-sl <luke.lee@swirldslabs.com>
+
+
+## PR description
+Implement PUSH0 operation as described in https://eips.ethereum.org/EIPS/eip-3855
+
+## Fixed Issue(s)
+#4658 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-11 22:26:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4659" class=".btn">#4659</a>
+            </td>
+            <td>
+                <b>
+                    Fix circleCI snapshot segfaults
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                explicitly close snapshot worldstates and their copies to avoid a segfault on circle-ci when running BonsaiSnapshotIsolationTest
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-11 21:54:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4657" class=".btn">#4657</a>
             </td>
             <td>

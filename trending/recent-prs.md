@@ -1,13 +1,13 @@
 
-[72](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/72) Fix release asset uploads
+[4661](https://github.com/hyperledger/besu/pull/4661) 22.10.1 alpha
 
-[862](https://github.com/hyperledger/fabric-samples/pull/862) Run FSAT Chaincode E2E tests on GHA - DO NOT MERGE
+[2944](https://github.com/hyperledger/iroha/pull/2944) Changes in vcpkg/build_iroha_deps.sh file and documentation to inform users that Iroha 1 is working in RaspberryPi4
 
-[71](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/71) Fix GHA node deprecation warning
+[4660](https://github.com/hyperledger/besu/pull/4660) Implementation of  PUSH0
 
-[1066](https://github.com/hyperledger/solang/pull/1066) Documentation cleanup and rename Ternary to Conditional
+[4659](https://github.com/hyperledger/besu/pull/4659) Fix circleCI snapshot segfaults
 
-[3778](https://github.com/hyperledger/fabric/pull/3778) fix no matches found: .data.data[0].payload.data.config (backport #3776)
+[73](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/73) Fix chaincode package uploads
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
