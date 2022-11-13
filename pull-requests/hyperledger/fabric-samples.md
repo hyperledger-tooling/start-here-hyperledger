@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-samples
             </td>
             <td>
                 <b>
-                    Move test-network-basic Azure tests to GHA - READY FOR MERGE
+                    Move lint and test-network-basic tests from Azure to GHA - READY FOR MERGE
                 </b>
             </td>
         </tr>
@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                This PR ports the _glacial_ iceberg test-network tests from Azure to GHA: 
+                This PR ports the _glacial_ Linter and Test Network Basic tests from Azure to GHA: 
 
 - Test Network Basic - Go
 - Test Network Basic - Java
