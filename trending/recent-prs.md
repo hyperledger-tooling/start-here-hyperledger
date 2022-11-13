@@ -1,13 +1,13 @@
 
+[3430](https://github.com/hyperledger/aries-framework-go/pull/3430) chore(deps): bump loader-utils from 1.2.3 to 1.4.2 in /cmd/aries-js-worker
+
+[354](https://github.com/hyperledger/fabric-chaincode-node/pull/354) Small Log Error update
+
+[4665](https://github.com/hyperledger/besu/pull/4665) Release 22.10.1 alpha
+
+[4664](https://github.com/hyperledger/besu/pull/4664) make snapshots the default for bonsai
+
 [1068](https://github.com/hyperledger/solang/pull/1068) improved parser recovery
-
-[1067](https://github.com/hyperledger/solang/pull/1067) Ensure trailing - on scientific notation is not parsed as part of number
-
-[649](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/649) added documentation from besu local setup
-
-[4662](https://github.com/hyperledger/besu/pull/4662) squash commit of push0, small EOF
-
-[4661](https://github.com/hyperledger/besu/pull/4661) 22.10.1 alpha
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
