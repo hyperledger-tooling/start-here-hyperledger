@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/351" class=".btn">#351</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/354" class=".btn">#354</a>
             </td>
             <td>
                 <b>
-                    Move inactive maintainers to emeritus status
+                    Small Log Error update
                 </b>
             </td>
         </tr>
@@ -27,21 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                The TOC approved a requirement that maintainers
-that have not been active in over three to six
-months be move to emeritus status.
-
-These maintainers have not been active in over
-one year.
-
-hyperledger/toc#32
-
-Signed-off-by: Ry Jones <ry@linux.com>
+                Signed-off-by: Luis Lara <62342483+LuisLara-UH@users.noreply.github.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-18 18:57:50 +0000 UTC
+        Created At 2022-11-12 21:31:49 +0000 UTC
     </div>
 </div>
 
