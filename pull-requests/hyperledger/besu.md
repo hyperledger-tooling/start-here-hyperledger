@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4668" class=".btn">#4668</a>
+            </td>
+            <td>
+                <b>
+                    Remove misleading fastSyncEnabled variable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamRevenant</span>
+            </td>
+            <td>
+                Signed-off-by: Gabriel Trintinalia <gabriel.trintinalia@gmail.com>
+
+## PR description
+
+- Rename fastSyncEnabled to fullSyncDisabled as it can mislead someone into the assumption that the sync mode is FAST SYNC while it may be snap/checkout.
+- Pass SynchronizerConfiguration object down to EthProtocolManager instead of Boolean fastSyncEnabled
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-13 22:27:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4667" class=".btn">#4667</a>
             </td>
             <td>
@@ -78,7 +118,7 @@ When blocks execute and their worldstates are appended as trie logs, the blocks 
 
 This fix:
 * directly addresses a snapshot transaction memory leak, rather than relying on finalize() methods in #4645 
-* should be more performant since mutable copies are correctly cached rather than created
+* should be more performant since mutable copies are correctly cached rather than created at request time
 * decreases GC pressure since snapshots are closed correctly ahead of GC
 
 ## Fixed Issue(s)
@@ -449,7 +489,7 @@ relates to #4446
         </tr>
         <tr>
             <td>
-                <span class="chip">logging</span>
+                <span class="chip">mainnet</span><span class="chip">logging</span>
             </td>
             <td>
                 Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
@@ -569,49 +609,6 @@ Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-11-10 16:24:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4650" class=".btn">#4650</a>
-            </td>
-            <td>
-                <b>
-                    Added 'result' field to eth_sendRawTransaction invalid transaction response.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Adds a `result` field (containing the transaction hash) to the response from `eth_sendRawTransaction` when the transaction is invalid. 
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-10 12:05:09 +0000 UTC
     </div>
 </div>
 
