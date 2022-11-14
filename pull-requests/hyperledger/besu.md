@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4669" class=".btn">#4669</a>
+            </td>
+            <td>
+                <b>
+                    Some cleanup in Discovery
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Some cleanup: The PeerBondedObserver was only ever used to call the connect() method on the RlpxAgent
+
+Signed-off-by: Stefan <stefan.pingel@consensys.net>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-14 04:09:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4668" class=".btn">#4668</a>
             </td>
             <td>
