@@ -100,39 +100,3 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/147" class=".btn">#147</a>
-            </td>
-            <td>
-                <b>
-                    Revert to using FABRIC_PROTOS_GO_APIV2_DEPLOY_KEY
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The last successfull push to fabric-protos-go-apiv2 was before the update to the PUBLISH_GO_V2 secret so switching back to FABRIC_PROTOS_GO_APIV2_DEPLOY_KEY
-
-Also moved the deploy key setup to a seperate step which should hopefully fix the apiv2 tagging
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-
-<!--- IMPORTANT: DO NOT modify or disable lint rules without agreeing changes in an issue first! -->
-<!--- Any changes to lint rules and breaking change detection should be made in a separate pull  -->
-<!--- request with an associated issue.                                                          -->
-<!--- Please include a link to the issue in the pull request and DO NOT adjust lint rules to fix -->
-<!--- build breaks when submitting any other pull requests.                                      -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-07 12:08:54 +0000 UTC
-    </div>
-</div>
-

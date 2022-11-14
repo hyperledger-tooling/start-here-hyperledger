@@ -81,7 +81,7 @@ Signed-off-by: Sean Young <sean@mess.org>
             </td>
             <td>
                 <b>
-                    Documentation cleanup and rename Ternary to Conditional
+                    Documentation cleanup and rename Ternary to ConditionalOperator
                 </b>
             </td>
         </tr>

@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Some cleanup: The PeerBondedObserver was only ever used to call the connect() method on the RlpxAgent
@@ -54,7 +54,7 @@ Signed-off-by: Stefan <stefan.pingel@consensys.net>
         </tr>
         <tr>
             <td>
-                <span class="chip">TeamRevenant</span>
+                <span class="chip">TeamRevenant</span><span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: Gabriel Trintinalia <gabriel.trintinalia@gmail.com>
@@ -137,7 +137,7 @@ squash commit of #4666  for 22.10.1-alpha
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -387,7 +387,7 @@ Implement PUSH0 operation as described in https://eips.ethereum.org/EIPS/eip-385
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 explicitly close snapshot worldstates and their copies to avoid a segfault on circle-ci when running BonsaiSnapshotIsolationTest
@@ -463,7 +463,7 @@ This PR excludes all the files in the `.idea` directory from the spotless check 
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -656,7 +656,7 @@ Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -699,7 +699,7 @@ The new version of RocksDB JNI library was published in maven on Oct 25, 2022, t
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 
@@ -1003,7 +1003,7 @@ Refactor EthProtocol to externalise EthVersion into its own class to improve rea
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: Ameziane H <ameziane.hamlat@consensys.net>
@@ -1283,7 +1283,7 @@ There was a change in error codes in Java DER decoding between Java 17 and Java 
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 ## PR description
