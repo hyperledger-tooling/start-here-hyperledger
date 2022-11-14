@@ -95,31 +95,3 @@ Signed-off-by: Yoav Tock <tock@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/454" class=".btn">#454</a>
-            </td>
-            <td>
-                <b>
-                    Add missing network configuration in tests to avoid listening to outb…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                …ound communication
-
-Signed-off-by: May Rosenbaum <mayro1595@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-07 08:20:41 +0000 UTC
-    </div>
-</div>
-

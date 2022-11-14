@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/420" class=".btn">#420</a>
+            </td>
+            <td>
+                <b>
+                    cleanup token request metadata
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Hagar Meir <hagar.meir@ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-14 09:55:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/419" class=".btn">#419</a>
             </td>
             <td>
@@ -64,32 +90,6 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-11-09 10:35:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/417" class=".btn">#417</a>
-            </td>
-            <td>
-                <b>
-                    FSC update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dep update</span>
-            </td>
-            <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-07 08:22:33 +0000 UTC
     </div>
 </div>
 
