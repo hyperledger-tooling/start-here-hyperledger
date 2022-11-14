@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/64" class=".btn">#64</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/66" class=".btn">#66</a>
             </td>
             <td>
                 <b>
-                    BPA 0.12
+                    Change version to 0.12.2 and add settings for tunneling JMX
                 </b>
             </td>
         </tr>
@@ -27,12 +27,38 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Tim Schlagenhaufer <tim.schlagenhaufer@bosch.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-21 12:01:25 +0000 UTC
+        Created At 2022-11-14 13:26:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/65" class=".btn">#65</a>
+            </td>
+            <td>
+                <b>
+                    Add optional JMX support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Tim Schlagenhaufer <tim.schlagenhaufer@bosch.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-14 12:45:18 +0000 UTC
     </div>
 </div>
 

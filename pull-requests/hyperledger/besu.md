@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4671" class=".btn">#4671</a>
+            </td>
+            <td>
+                <b>
+                    Port backward sync updates from 4655 and 4656 to 22.10.1-alpha
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Porting from #4655 the update to the block import progess log to also include blocks imported during the final ProcessKnownAncestorsStep since that part could take some time if the backward sync was long.
+
+Porting from #4656 adjustment to batch size and log fix
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-14 17:21:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4669" class=".btn">#4669</a>
             </td>
             <td>
@@ -535,17 +582,37 @@ Progress logs are printed at least 10 sec apart, to avoid spamming the console
 example of the new progress log
 
 ```
-{"@timestamp":"2022-11-11T11:54:59,077","level":"INFO","thread":"nioEventLoopGroup-3-2","class":"BackwardsSyncAlgorithm","message":"Backward sync target block is 2267767 (0x3e6762c92c604cf19e6ba6377a15a8266afdb6bca81b57b1c8d49b7bcc03571c)","throwable":""}                                                                                                                                                                                                                   {"@timestamp":"2022-11-11T11:55:51,964","level":"INFO","thread":"nioEventLoopGroup-3-2","class":"BackwardSyncStep","message":"Backward sync phase 1 of 2, 1.56% completed, downloaded 200 headers of at least 12842. Peers: 1","throwable":""}                                                                                                                                                                                                                                    {"@timestamp":"2022-11-11T11:55:59,834","level":"INFO","thread":"nioEventLoopGroup-3-2","class":"BackwardSyncStep","message":"Backward sync phase 1 of 2 completed, downloaded a total of 13000 headers. Peers: 1","throwable":""}
-{"@timestamp":"2022-11-11T11:56:01,771","level":"INFO","thread":"nioEventLoopGroup-3-2","class":"ForwardSyncStep","message":"Backward sync phase 2 of 2, 1.56% completed, imported 200 blocks of at least 12842. Peers: 1","throwable":""}
-{"@timestamp":"2022-11-11T11:56:12,925","level":"INFO","thread":"nioEventLoopGroup-3-2","class":"ForwardSyncStep","message":"Backward sync phase 2 of 2, 12.46% completed, imported 1600 blocks of at least 12842. Peers: 1","throwable":""}
-{"@timestamp":"2022-11-11T11:56:22,934","level":"INFO","thread":"nioEventLoopGroup-3-2","class":"ForwardSyncStep","message":"Backward sync phase 2 of 2, 21.80% completed, imported 2800 blocks of at least 12842. Peers: 3","throwable":""}
-{"@timestamp":"2022-11-11T11:56:34,671","level":"INFO","thread":"nioEventLoopGroup-3-2","class":"ForwardSyncStep","message":"Backward sync phase 2 of 2, 38.93% completed, imported 5000 blocks of at least 12842. Peers: 1","throwable":""}                                                                                                                                                                                                                                      {"@timestamp":"2022-11-11T11:56:45,305","level":"INFO","thread":"nioEventLoopGroup-3-2","class":"ForwardSyncStep","message":"Backward sync phase 2 of 2, 52.95% completed, imported 6800 blocks of at least 12842. Peers: 1","throwable":""}
-{"@timestamp":"2022-11-11T11:56:56,366","level":"INFO","thread":"nioEventLoopGroup-3-2","class":"ForwardSyncStep","message":"Backward sync phase 2 of 2, 62.30% completed, imported 8000 blocks of at least 12842. Peers: 1","throwable":""}
-{"@timestamp":"2022-11-11T11:57:06,473","level":"INFO","thread":"nioEventLoopGroup-3-2","class":"ForwardSyncStep","message":"Backward sync phase 2 of 2, 71.64% completed, imported 9200 blocks of at least 12842. Peers: 1","throwable":""}
-{"@timestamp":"2022-11-11T11:57:16,819","level":"INFO","thread":"nioEventLoopGroup-3-2","class":"ForwardSyncStep","message":"Backward sync phase 2 of 2, 79.43% completed, imported 10200 blocks of at least 12842. Peers: 1","throwable":""}
-{"@timestamp":"2022-11-11T11:57:28,240","level":"INFO","thread":"nioEventLoopGroup-3-2","class":"ForwardSyncStep","message":"Backward sync phase 2 of 2, 91.89% completed, imported 11800 blocks of at least 12842. Peers: 1","throwable":""}
-{"@timestamp":"2022-11-11T11:57:34,237","level":"INFO","thread":"nioEventLoopGroup-3-2","class":"ForwardSyncStep","message":"Backward sync phase 2 of 2 completed, imported a total of 12857 blocks. Peers: 1","throwable":""}
-{"@timestamp":"2022-11-11T11:57:34,242","level":"INFO","thread":"ForkJoinPool.commonPool-worker-7","class":"BackwardsSyncAlgorithm","message":"The Backward sync is done","throwable":""}
+{"@timestamp":"2022-11-14T13:52:25,896","level":"INFO","thread":"vert.x-worker-thread-0","class":"BackwardSyncContext","message":"Starting a new backward sync session","throwable":""}
+{"@timestamp":"2022-11-14T13:52:26,177","level":"INFO","thread":"nioEventLoopGroup-3-5","class":"BackwardsSyncAlgorithm","message":"Backward sync target block is 2288072 (0x5aa9afcbffaa4e337924bd73fed858321c41aec25267841566185b3e9e4cfaba)","throwable":""}
+{"@timestamp":"2022-11-14T13:52:26,608","level":"INFO","thread":"nioEventLoopGroup-3-5","class":"BackwardSyncStep","message":"Backward sync phase 1 of 2, 0.60% completed, downloaded 200 headers of at least 33147. Peers: 1","throwable":""}
+{"@timestamp":"2022-11-14T13:52:36,644","level":"INFO","thread":"nioEventLoopGroup-3-5","class":"BackwardSyncStep","message":"Backward sync phase 1 of 2, 42.84% completed, downloaded 14200 headers of at least 33147. Peers: 3","throwable":""}
+{"@timestamp":"2022-11-14T13:52:46,712","level":"INFO","thread":"nioEventLoopGroup-3-5","class":"BackwardSyncStep","message":"Backward sync phase 1 of 2, 94.13% completed, downloaded 31200 headers of at least 33147. Peers: 1","throwable":""}
+{"@timestamp":"2022-11-14T13:52:47,861","level":"INFO","thread":"nioEventLoopGroup-3-5","class":"BackwardSyncStep","message":"Backward sync phase 1 of 2 completed, downloaded a total of 33200 headers. Peers: 1","throwable":""}
+{"@timestamp":"2022-11-14T13:52:56,716","level":"INFO","thread":"nioEventLoopGroup-3-5","class":"BackwardSyncContext","message":"Backward sync phase 2 of 2, 3.23% completed, imported 1070 blocks of at least 33156 (current head 2255995, target head 2288081). Peers: 5","throwable":""}
+{"@timestamp":"2022-11-14T13:53:07,109","level":"INFO","thread":"nioEventLoopGroup-3-5","class":"BackwardSyncContext","message":"Backward sync phase 2 of 2, 9.05% completed, imported 3001 blocks of at least 33157 (current head 2257926, target head 2288082). Peers: 2","throwable":""}
+{"@timestamp":"2022-11-14T13:53:17,111","level":"INFO","thread":"nioEventLoopGroup-3-6","class":"BackwardSyncContext","message":"Backward sync phase 2 of 2, 11.35% completed, imported 3764 blocks of at least 33158 (current head 2258689, target head 2288083). Peers: 2","throwable":""}
+{"@timestamp":"2022-11-14T13:53:27,214","level":"INFO","thread":"nioEventLoopGroup-3-6","class":"BackwardSyncContext","message":"Backward sync phase 2 of 2, 15.08% completed, imported 5001 blocks of at least 33158 (current head 2259926, target head 2288083). Peers: 2","throwable":""}
+{"@timestamp":"2022-11-14T13:53:37,286","level":"INFO","thread":"nioEventLoopGroup-3-6","class":"BackwardSyncContext","message":"Backward sync phase 2 of 2, 18.25% completed, imported 6050 blocks of at least 33158 (current head 2260975, target head 2288083). Peers: 5","throwable":""}
+{"@timestamp":"2022-11-14T13:53:47,290","level":"INFO","thread":"nioEventLoopGroup-3-6","class":"BackwardSyncContext","message":"Backward sync phase 2 of 2, 21.63% completed, imported 7173 blocks of at least 33159 (current head 2262098, target head 2288084). Peers: 3","throwable":""}
+{"@timestamp":"2022-11-14T13:53:57,955","level":"INFO","thread":"nioEventLoopGroup-3-6","class":"BackwardSyncContext","message":"Backward sync phase 2 of 2, 24.13% completed, imported 8001 blocks of at least 33160 (current head 2262926, target head 2288085). Peers: 4","throwable":""}
+{"@timestamp":"2022-11-14T13:54:07,957","level":"INFO","thread":"nioEventLoopGroup-3-6","class":"BackwardSyncContext","message":"Backward sync phase 2 of 2, 27.33% completed, imported 9062 blocks of at least 33161 (current head 2263987, target head 2288086). Peers: 2","throwable":""}
+{"@timestamp":"2022-11-14T13:54:17,960","level":"INFO","thread":"nioEventLoopGroup-3-6","class":"BackwardSyncContext","message":"Backward sync phase 2 of 2, 29.73% completed, imported 9860 blocks of at least 33162 (current head 2264785, target head 2288087). Peers: 2","throwable":""}
+{"@timestamp":"2022-11-14T13:54:28,536","level":"INFO","thread":"nioEventLoopGroup-3-6","class":"BackwardSyncContext","message":"Backward sync phase 2 of 2, 32.57% completed, imported 10801 blocks of at least 33163 (current head 2265726, target head 2288088). Peers: 2","throwable":""}
+{"@timestamp":"2022-11-14T13:54:38,540","level":"INFO","thread":"nioEventLoopGroup-3-8","class":"BackwardSyncContext","message":"Backward sync phase 2 of 2, 36.58% completed, imported 12133 blocks of at least 33164 (current head 2267058, target head 2288089). Peers: 4","throwable":""}
+{"@timestamp":"2022-11-14T13:54:48,625","level":"INFO","thread":"nioEventLoopGroup-3-8","class":"BackwardSyncContext","message":"Backward sync phase 2 of 2, 42.66% completed, imported 14149 blocks of at least 33164 (current head 2269074, target head 2288089). Peers: 5","throwable":""}
+{"@timestamp":"2022-11-14T13:54:58,625","level":"INFO","thread":"nioEventLoopGroup-3-8","class":"BackwardSyncContext","message":"Backward sync phase 2 of 2, 48.76% completed, imported 16171 blocks of at least 33164 (current head 2271096, target head 2288089). Peers: 4","throwable":""}
+{"@timestamp":"2022-11-14T13:55:08,667","level":"INFO","thread":"nioEventLoopGroup-3-8","class":"BackwardSyncContext","message":"Backward sync phase 2 of 2, 55.10% completed, imported 18275 blocks of at least 33164 (current head 2273200, target head 2288089). Peers: 3","throwable":""}
+{"@timestamp":"2022-11-14T13:55:18,668","level":"INFO","thread":"nioEventLoopGroup-3-8","class":"BackwardSyncContext","message":"Backward sync phase 2 of 2, 59.80% completed, imported 19832 blocks of at least 33165 (current head 2274757, target head 2288090). Peers: 3","throwable":""}
+{"@timestamp":"2022-11-14T13:55:28,698","level":"INFO","thread":"nioEventLoopGroup-3-7","class":"BackwardSyncContext","message":"Backward sync phase 2 of 2, 66.85% completed, imported 22170 blocks of at least 33166 (current head 2277095, target head 2288091). Peers: 5","throwable":""}
+{"@timestamp":"2022-11-14T13:55:39,104","level":"INFO","thread":"nioEventLoopGroup-3-7","class":"BackwardSyncContext","message":"Backward sync phase 2 of 2, 73.57% completed, imported 24401 blocks of at least 33167 (current head 2279326, target head 2288092). Peers: 4","throwable":""}
+{"@timestamp":"2022-11-14T13:55:49,373","level":"INFO","thread":"nioEventLoopGroup-3-7","class":"BackwardSyncContext","message":"Backward sync phase 2 of 2, 79.00% completed, imported 26201 blocks of at least 33167 (current head 2281126, target head 2288092). Peers: 5","throwable":""}
+{"@timestamp":"2022-11-14T13:55:59,375","level":"INFO","thread":"nioEventLoopGroup-3-7","class":"BackwardSyncContext","message":"Backward sync phase 2 of 2, 84.39% completed, imported 27991 blocks of at least 33167 (current head 2282916, target head 2288092). Peers: 4","throwable":""}
+{"@timestamp":"2022-11-14T13:56:09,462","level":"INFO","thread":"nioEventLoopGroup-3-7","class":"BackwardSyncContext","message":"Backward sync phase 2 of 2, 89.84% completed, imported 29797 blocks of at least 33168 (current head 2284722, target head 2288093). Peers: 5","throwable":""}
+{"@timestamp":"2022-11-14T13:56:19,831","level":"INFO","thread":"nioEventLoopGroup-3-7","class":"BackwardSyncContext","message":"Backward sync phase 2 of 2, 93.46% completed, imported 31001 blocks of at least 33169 (current head 2285926, target head 2288094). Peers: 5","throwable":""}
+{"@timestamp":"2022-11-14T13:56:29,865","level":"INFO","thread":"nioEventLoopGroup-3-7","class":"BackwardSyncContext","message":"Backward sync phase 2 of 2, 95.87% completed, imported 31801 blocks of at least 33170 (current head 2286726, target head 2288095). Peers: 7","throwable":""}
+{"@timestamp":"2022-11-14T13:56:40,126","level":"INFO","thread":"nioEventLoopGroup-3-7","class":"BackwardSyncContext","message":"Backward sync phase 2 of 2, 98.89% completed, imported 32801 blocks of at least 33170 (current head 2287726, target head 2288095). Peers: 4","throwable":""}
+{"@timestamp":"2022-11-14T13:56:42,603","level":"INFO","thread":"nioEventLoopGroup-3-7","class":"BackwardSyncContext","message":"Backward sync phase 2 of 2 completed, imported a total of 33170 blocks. Peers: 4","throwable":""}
+{"@timestamp":"2022-11-14T13:56:42,612","level":"INFO","thread":"ForkJoinPool.commonPool-worker-3","class":"BackwardsSyncAlgorithm","message":"The Backward sync is done","throwable":""}
 ```
 
 ## Fixed Issue(s)
@@ -614,7 +681,7 @@ Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamChupa</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -699,7 +766,7 @@ The new version of RocksDB JNI library was published in maven on Oct 25, 2022, t
         </tr>
         <tr>
             <td>
-                <span class="chip">mainnet</span>
+                <span class="chip">mainnet</span><span class="chip">TeamChupa</span>
             </td>
             <td>
                 
@@ -1183,133 +1250,6 @@ Refactor and improve transaction pool unit tests.
     </table>
     <div class="right-align">
         Created At 2022-11-08 10:36:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4627" class=".btn">#4627</a>
-            </td>
-            <td>
-                <b>
-                    Bonsai commit updater optimization investigation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-07 17:34:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4622" class=".btn">#4622</a>
-            </td>
-            <td>
-                <b>
-                    Make Json RPC TLS Test Java 17 friendly
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-There was a change in error codes in Java DER decoding between Java 17 and Java 11.  Tests depend on Java 11 error.  Use JUnit5 facilities to ensure the test works proeprly on both with the same codebase.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [X] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-07 16:27:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4620" class=".btn">#4620</a>
-            </td>
-            <td>
-                <b>
-                    Warm Coinbase (EIP-3651)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                ## PR description
-
-Add a flag to MainnetTransactionProcessor to add the miningBeneficiary to the list of pre-warmed addresses.
-Have shandong fork set this flag to true by default.
-
-Signed-off-by: Danno Ferrin <danno.ferrin@swirldslabs.com>
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [X] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-07 16:19:19 +0000 UTC
     </div>
 </div>
 

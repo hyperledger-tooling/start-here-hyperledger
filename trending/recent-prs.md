@@ -1,13 +1,13 @@
 
-[37](https://github.com/hyperledger-labs/yui-docs/pull/37) Bump loader-utils from 1.4.0 to 1.4.2 in /contracts/minitoken/solidity
+[864](https://github.com/hyperledger/fabric-samples/pull/864) Move commercial paper and fabcar tests from Azure to GHA - DO NOT MERGE
 
-[36](https://github.com/hyperledger-labs/yui-docs/pull/36) Bump loader-utils from 1.4.0 to 1.4.2 in /samples/minitoken-besu-ethereum
+[4671](https://github.com/hyperledger/besu/pull/4671) Port backward sync updates from 4655 and 4656 to 22.10.1-alpha
 
-[3781](https://github.com/hyperledger/fabric/pull/3781) WIP: add SMaRtBFT consensus support
+[3783](https://github.com/hyperledger/fabric/pull/3783) [WIP] Update check_license.sh and check_spelling.sh
 
-[420](https://github.com/hyperledger-labs/fabric-token-sdk/pull/420) cleanup token request metadata
+[2946](https://github.com/hyperledger/iroha/pull/2946) [feature] #2868: Emit iroha version and commit hash in logs
 
-[4669](https://github.com/hyperledger/besu/pull/4669) Some cleanup in Discovery
+[421](https://github.com/hyperledger-labs/fabric-token-sdk/pull/421) deprecate balance queries
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
