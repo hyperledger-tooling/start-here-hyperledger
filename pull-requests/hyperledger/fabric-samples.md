@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/864" class=".btn">#864</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/866" class=".btn">#866</a>
             </td>
             <td>
                 <b>
-                    Move commercial paper and fabcar tests from Azure to GHA - DO NOT MERGE
+                    Move Kube Test Network tests from Azure -> GHA
                 </b>
             </td>
         </tr>
@@ -27,11 +27,41 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                **DO NOT MERGE**
+                This PR ports the Kubernetes Test Network tests from Azure to GHA.
 
-This PR migrates commercial paper and fabcar tests from Azure -> GHA.
+Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-14 21:43:22 +0000 UTC
+    </div>
+</div>
 
-And does a little refactoring... 
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/864" class=".btn">#864</a>
+            </td>
+            <td>
+                <b>
+                    Remove commercial paper and fabcar tests from Azure pipelines
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR : 
+
+- Removes the commercial paper and fabcar samples from the Azure test suites.
+
+- Does a little bit of refactoring to create a custom `test-network-setup` action which can be used by multiple test network workflows. 
+
+- Tests the addition of gradle, npm, and golang caches to help reduce the overall test runtimes. 
 
 Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
             </td>
