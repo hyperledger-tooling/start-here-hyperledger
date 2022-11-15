@@ -63,29 +63,3 @@ Upgrade from 8 to 11 will be performed after verifying that no other dependencie
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/68" class=".btn">#68</a>
-            </td>
-            <td>
-                <b>
-                    Changes to fix failing integration test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Abhay Kishore <abhay.kishore@walmart.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-08 10:53:43 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3785" class=".btn">#3785</a>
+            </td>
+            <td>
+                <b>
+                    chore: remove wrong duplicate word
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Abirdcfly <fp544037857@gmail.com>
+
+#### Type of change
+
+- Bug fix
+
+#### Description
+This is a chore change: to remove wrong duplicate words. use tool https://github.com/Abirdcfly/dupword to auto update and review manually.
+
+#### Additional details
+
+#### Related issues
+
+#### Release Note
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-15 06:44:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3784" class=".btn">#3784</a>
             </td>
             <td>
