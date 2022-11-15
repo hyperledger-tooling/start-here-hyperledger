@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/867" class=".btn">#867</a>
+            </td>
+            <td>
+                <b>
+                    Feature/no zure - DO NOT MERGE
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **DO NOT MERGE** 
+
+Ports the remainder of the fabric-samples tests to GHA.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-15 02:52:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/866" class=".btn">#866</a>
             </td>
             <td>

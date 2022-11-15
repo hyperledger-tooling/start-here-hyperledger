@@ -14,6 +14,80 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4676" class=".btn">#4676</a>
+            </td>
+            <td>
+                <b>
+                    Nightly CI step - reduce no output timeout for Quorum ATs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Occasionally these hang so we should not keep waiting for output
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-15 05:55:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4675" class=".btn">#4675</a>
+            </td>
+            <td>
+                <b>
+                    docker upload task - check for alpha and RC
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <macfarla.github@gmail.com>
+
+Don't add `latest` tag if version ends in SNAPSHOT/alpha/beta/RC
+
+Fixes #4674 
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-15 01:26:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4673" class=".btn">#4673</a>
             </td>
             <td>
@@ -884,13 +958,13 @@ This adds just enough code to deal with the math required to create verkle proof
             </td>
             <td>
                 <b>
-                    WIP: Implement eth/67 sub protocol
+                    Implement eth/67 sub protocol (EIP-4938)
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">TeamRevenant</span>
+                <span class="chip">TeamRevenant</span><span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: Gabriel Trintinalia <gabriel.trintinalia@gmail.com>
@@ -899,19 +973,26 @@ This adds just enough code to deal with the math required to create verkle proof
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+eth/67 ([EIP-4938](https://eips.ethereum.org/EIPS/eip-4938), March 2022)
+Version 67 removed the GetNodeData and NodeData messages.
+
+Besu:
+
+- Supports multiple versions of a wire protocol.
+- Does not break older clients, since they can keep using protocol version eth/66.
+- For fast sync, eth/66 will be used
 
 ## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
+fixes #4596 
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>

@@ -1,13 +1,13 @@
 
-[362](https://github.com/hyperledger-labs/minifabric/pull/362) Documentation for deploying onto k8s with the fabric operator
+[331](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/331) request attestation endpoint implemented
 
-[4673](https://github.com/hyperledger/besu/pull/4673) 22.10.1-alpha release - add SNAPSHOT to version
+[4676](https://github.com/hyperledger/besu/pull/4676) Nightly CI step - reduce no output timeout for Quorum ATs
 
-[866](https://github.com/hyperledger/fabric-samples/pull/866) Move Kube Test Network tests from Azure -> GHA
+[3784](https://github.com/hyperledger/fabric/pull/3784) Remove Purge-Marker to avoid unnecessary scanning (backport #3775)
 
-[496](https://github.com/hyperledger/cello/pull/496) Update index.md
+[867](https://github.com/hyperledger/fabric-samples/pull/867) Feature/no zure - DO NOT MERGE
 
-[864](https://github.com/hyperledger/fabric-samples/pull/864) Remove commercial paper and fabcar tests from Azure pipelines
+[363](https://github.com/hyperledger-labs/minifabric/pull/363) Github actions: checks status of nodes after deployment
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
