@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4673" class=".btn">#4673</a>
+            </td>
+            <td>
+                <b>
+                    22.10.1-alpha release - add SNAPSHOT to version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <macfarla.github@gmail.com>
+
+add SNAPSHOT to version to avoid overwriting latest tags
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-14 22:12:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4671" class=".btn">#4671</a>
             </td>
             <td>
@@ -71,7 +108,7 @@ Porting from #4656 adjustment to batch size and log fix
         </tr>
         <tr>
             <td>
-                <span class="chip">mainnet</span>
+                <span class="chip">TeamRevenant</span><span class="chip">mainnet</span>
             </td>
             <td>
                 Some cleanup: The PeerBondedObserver was only ever used to call the connect() method on the RlpxAgent
@@ -853,7 +890,7 @@ This adds just enough code to deal with the math required to create verkle proof
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamRevenant</span>
             </td>
             <td>
                 Signed-off-by: Gabriel Trintinalia <gabriel.trintinalia@gmail.com>
@@ -996,7 +1033,7 @@ Includes spec versions for "Shanghai" and transient testnet "Shandong".
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamRevenant</span>
             </td>
             <td>
                 Signed-off-by: Gabriel Trintinalia <gabriel.trintinalia@consensys.net>
@@ -1034,7 +1071,7 @@ Refactoring: Replace quadruplicated anonymous  implementation of SubProtocol wit
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamRevenant</span>
             </td>
             <td>
                 ## PR description

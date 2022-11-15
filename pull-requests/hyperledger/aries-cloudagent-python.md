@@ -95,30 +95,3 @@ Signed-off-by: Nao Nishijima <nao.nishijima.xt@hitachi.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2009" class=".btn">#2009</a>
-            </td>
-            <td>
-                <b>
-                    Fix for mediator load testing race condition when scaling horizontally
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Pause and retry if a routing record is not found
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-07 22:47:30 +0000 UTC
-    </div>
-</div>
-

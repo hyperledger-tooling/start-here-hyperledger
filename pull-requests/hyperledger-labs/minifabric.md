@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/minifabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/360" class=".btn">#360</a>
+                PR <a href="https://github.com/hyperledger-labs/minifabric/pull/362" class=".btn">#362</a>
             </td>
             <td>
                 <b>
-                    Fix for deploynode not properly waiting for each node to deploy
+                    Documentation for deploying onto k8s with the fabric operator
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger-labs/minifabric
                 
             </td>
             <td>
-                Signed-off-by: Ryan Humphrey <ryanhumphrey777@gmail.com>
-Previously, the wait task would hang for 90 secs until timeout for every node deployment because it could not find the  namespace. 
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-19 21:27:45 +0000 UTC
+        Created At 2022-11-14 22:59:27 +0000 UTC
     </div>
 </div>
 
