@@ -111,7 +111,7 @@ Finally, you can contact us on https://mergify.com
             </td>
             <td>
                 <b>
-                    [WIP] Update check_license.sh and check_spelling.sh
+                    Update check_license.sh and check_spelling.sh
                 </b>
             </td>
         </tr>
@@ -190,6 +190,8 @@ RFC: https://hyperledger.github.io/fabric-rfcs/text/006-bft-based-ordering-servi
 #### Related issues
 EPIC task: #3771 
 
+Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
+Signed-off-by: Yoav Tock [tock@il.ibm.com](mailto:tock@il.ibm.com)
 Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
             </td>
         </tr>
@@ -442,35 +444,6 @@ Closes #3444
     </table>
     <div class="right-align">
         Created At 2022-11-09 13:52:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3769" class=".btn">#3769</a>
-            </td>
-            <td>
-                <b>
-                    [WIP] Update purge private data tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Include multiple purge transactions in a single block
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-08 17:45:53 +0000 UTC
     </div>
 </div>
 

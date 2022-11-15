@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/868" class=".btn">#868</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/870" class=".btn">#870</a>
             </td>
             <td>
                 <b>
-                    Move the remaining sample tests from Azure to GHA - DO NOT MERGE
+                    Run Full Stack Asset Transfer Guide tests on GHA
                 </b>
             </td>
         </tr>
@@ -34,7 +34,39 @@ Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-15 12:33:10 +0000 UTC
+        Created At 2022-11-15 17:26:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/869" class=".btn">#869</a>
+            </td>
+            <td>
+                <b>
+                    Move the remaining sample tests from Azure to GHA
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Moves the remaining fabric-samples tests from Azure to GHA.
+
+The Azure pipeline is still responsible for publishing the rest-sample image to ghcr.io.  
+
+We need to do a little work around establishing consistent revision semantics to the samples repo before porting the image distribution to GHA.  Included in this push should be the generation of sample chaincode images suitable for running with CCaaS and/or k8s-builder.
+
+Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-15 15:03:35 +0000 UTC
     </div>
 </div>
 
