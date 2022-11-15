@@ -15,60 +15,30 @@ permalink: /releases/hyperledger-labs/weaver-dlt-interoperability
         <tr>
             <td colspan="2">
                 <b>
-                    v1.5.2 - GO Fabric Interop Chaincode - Oct 13, 2022
+                    Release Version 1.5: Nov 15, 2022
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    core/network/fabric-interop-cc/contracts/interop/v1.5.2
+                    1.5.0
                 </span>
             </td>
             <td>
-                - Go Module: `github.com/hyperledger-labs/weaver-dlt-interoperability/core/network/fabric-interop-cc/contracts/interop`
-- Release: v1.5.2
-- Readme: [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/core/network/fabric-interop-cc/contracts/interop/v1.5.2/core/network/fabric-interop-cc/contracts/interop/README.md).
-- Source: [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/core/network/fabric-interop-cc/contracts/interop/v1.5.2/core/network/fabric-interop-cc/contracts/interop)
+                - IIN-Agents added for Hyperledger Fabric based networks.
+- Modules:
+    - [IIN Agent Docker Image: 1.5.3](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pkgs/container/weaver-iin-agent)
+    - [Fabric Weaver Chaincode Docker Image: 1.5.2](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pkgs/container/weaver-fabric-cc) OR [Fabric Weaver Chaincode Go Module: 1.5.2](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core%2Fnetwork%2Ffabric-interop-cc%2Fcontracts%2Finterop%2Fv1.5.2)
+    - [Fabric Weaver SDK: 1.5.2](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pkgs/npm/weaver-fabric-interop-sdk)
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/contracts/interop/v1.5.2" class=".btn">
+    <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/1.5.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-10-13 06:13:05 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v1.5.2 - GO Weaver Protos - Oct 13, 2022
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    common/protos-go/v1.5.2
-                </span>
-            </td>
-            <td>
-                - Go Module: `github.com/hyperledger-labs/weaver-dlt-interoperability/common/protos-go`
-- Release: v1.5.2
-- Readme: [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/common/protos-go/v1.5.2/common/protos-go/README.md).
-- Source: [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/common/protos-go/v1.5.2/common/protos-go)
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/common/protos-go/v1.5.2" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2022-10-13 06:13:05 +0000 UTC
+        Created At 2022-11-15 08:14:15 +0000 UTC
     </span>
 </div>
 
