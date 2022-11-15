@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/cckit
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/cckit/pull/4" class=".btn">#4</a>
+                PR <a href="https://github.com/hyperledger-labs/cckit/pull/6" class=".btn">#6</a>
             </td>
             <td>
                 <b>
-                    Initial from github.com/s7techlab/cckit
+                    Add extension Envelop for signature verification
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/cckit
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-14 06:29:26 +0000 UTC
+        Created At 2022-11-15 06:56:52 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,119 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4680" class=".btn">#4680</a>
+            </td>
+            <td>
+                <b>
+                    Update Shandong genesis after Nov 5th restart
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+On Nov 5th the Shandong testnet was restarted due to a bug in the implementation of [EIP-3860](https://github.com/ethereumjs/ethereumjs-monorepo/pull/2397) in [ethereumjs](https://github.com/ethereumjs/ethereumjs-monorepo).
+
+This PR makes the genesis for Shandong to match the hash of the current [running testnet](https://explorer.shandong.ethdevops.io/block/0) based on https://github.com/ethereumjs/consensus-deployment-ansible/blob/master/shandong-testnet/custom_config_data/genesis.json.
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-15 12:34:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4679" class=".btn">#4679</a>
+            </td>
+            <td>
+                <b>
+                    Update artifact checksums after rebuilding the release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-15 11:14:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4677" class=".btn">#4677</a>
+            </td>
+            <td>
+                <b>
+                    bugfix for 22.10.1 alpha
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+merge bugfix commit from #4468
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-15 08:05:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4676" class=".btn">#4676</a>
             </td>
             <td>
@@ -1321,53 +1434,6 @@ Signed-off-by: Diego López León <dieguitoll@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-11-08 17:23:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4632" class=".btn">#4632</a>
-            </td>
-            <td>
-                <b>
-                    Refactor transaction pool tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Refactor and improve transaction pool unit tests.
-
-- removed code duplication
-- created an abstract class and 2 concrete impementations one for the legacy fee market, and the other one for the London fee market, so it is easier to reason about tests that common and specific tests
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-08 10:36:29 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/83" class=".btn">#83</a>
+            </td>
+            <td>
+                <b>
+                    fix: use right operator-sdk version and support mac install
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ```diff
+- https://github.com/operator-framework/operator-sdk/releases/download/1.16.0/operator-sdk_linux_amd64
++ https://github.com/operator-framework/operator-sdk/releases/download/v1.16.0/operator-sdk_linux_amd64
+```
+
+please see https://github.com/operator-framework/operator-sdk/releases/tag/v1.16.0
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-15 09:14:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/82" class=".btn">#82</a>
             </td>
             <td>
@@ -148,45 +179,6 @@ Just one small restriction: only run the push job on the main repository: `hyper
     </table>
     <div class="right-align">
         Created At 2022-11-09 07:40:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/74" class=".btn">#74</a>
-            </td>
-            <td>
-                <b>
-                    feat: add golangci-lint check
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This pr introduces [golangci-lint](https://github.com/golangci/golangci-lint) to detect problems with go source code. 
-
-And turns on 4 linters: gofmt goimports govet gosimple 
-(The first 3 linters are maintained by golang.org, gosimple is a linter enabled by golangci-lint default)
-
-
-|linters|describe|link|
-|---|---|---|
-|gofmt|Gofmt checks whether code was gofmt-ed. By default this tool runs with -s option to check for code simplification|https://golang.org/cmd/gofmt/|
-|goimports|In addition to fixing imports, goimports also formats your code in the same style as gofmt.|https://godoc.org/golang.org/x/tools/cmd/goimports|
-|govet|Vet examines Go source code and reports suspicious constructs, such as Printf calls whose arguments do not align with the format string|https://golang.org/cmd/vet/|
-|gosimple|Linter for Go source code that specializes in simplifying code|https://github.com/dominikh/go-tools/tree/master/simple|
-
-See a list of supported linters and which linters are enabled/disabled in https://golangci-lint.run/usage/linters/.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-08 09:27:01 +0000 UTC
     </div>
 </div>
 
