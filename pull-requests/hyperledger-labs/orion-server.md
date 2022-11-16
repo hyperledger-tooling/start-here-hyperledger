@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/462" class=".btn">#462</a>
+            </td>
+            <td>
+                <b>
+                    Avoid preparing data when provenance is disabled
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Yoav Tock <tock@il.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-15 20:29:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/461" class=".btn">#461</a>
+            </td>
+            <td>
+                <b>
+                    Disable provenance prepare (draft)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Avoid preparing provenance data when provenance is disabled
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-15 19:42:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/460" class=".btn">#460</a>
             </td>
             <td>
