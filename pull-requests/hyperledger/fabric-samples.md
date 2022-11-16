@@ -27,7 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                **DO NOT MERGE**
+                This PR runs the full stack asset transfer scenario tests on GitHub Actions.
+
+🐢🐢🐢 
+
+🐇🐇🐇🐇🐇🐇🐇🐇🐇 
+
 
 Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
             </td>

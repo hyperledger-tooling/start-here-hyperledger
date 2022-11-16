@@ -158,7 +158,7 @@ This PR makes the genesis for Shandong to match the hash of the current [running
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-merge bugfix commit from #4468
+merge bugfix commit from #4648
 
             </td>
         </tr>
