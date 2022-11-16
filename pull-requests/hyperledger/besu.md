@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4687" class=".btn">#4687</a>
+            </td>
+            <td>
+                <b>
+                    WIP - default methods in Protocol Schedule
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is just a spike. This branch will get most probably abandoned in the future
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-16 10:02:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4686" class=".btn">#4686</a>
             </td>
             <td>
@@ -1373,69 +1399,6 @@ Refactor EthProtocol to externalise EthVersion into its own class to improve rea
     </table>
     <div class="right-align">
         Created At 2022-11-09 22:57:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4635" class=".btn">#4635</a>
-            </td>
-            <td>
-                <b>
-                    Optimize performance of WorldStateUpdater commit method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                Signed-off-by: Ameziane H <ameziane.hamlat@consensys.net>
-Co-authored-by: Karim TAAM <karim.t2am@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-WorldStateUpdater commit method is one of the most consuming methods during block processing (engine_newPayloadV1 call). This PR will focus on parallelizing some parts of this method to make it faster.
-
-<img width="1714" alt="image" src="https://user-images.githubusercontent.com/5099602/200810024-878e01e0-3f54-4911-9157-0bd73be1cb3f.png">
-
-The first results after 2 hours of execution
-
-<img width="1332" alt="image" src="https://user-images.githubusercontent.com/5099602/200866595-4057e7be-3cf1-4153-a9e0-59b33c861d6f.png">
-
-The results after 12 hours
-<img width="1621" alt="image" src="https://user-images.githubusercontent.com/5099602/201040164-b39ac12d-734d-45e8-a718-295edd94b886.png">
-
-We can see with CPU profiling that the commit methods takes less time and most of the execution is done in parallel in ForkjoinPool.commonPool().
-
-<img width="1707" alt="image" src="https://user-images.githubusercontent.com/5099602/201041208-aa00707e-7b20-4444-9ff6-2ef68fe5d6ed.png">
-
-<img width="1712" alt="image" src="https://user-images.githubusercontent.com/5099602/201042608-296742ab-15c6-4aad-8904-55db8ae68a20.png">
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Mitigate #4549
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-09 10:50:03 +0000 UTC
     </div>
 </div>
 

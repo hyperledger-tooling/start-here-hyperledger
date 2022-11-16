@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1070" class=".btn">#1070</a>
+            </td>
+            <td>
+                <b>
+                    Improve naming
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Rename `send_events` to `emits_events` (`emits_events` is used elsewhere)
+- Rename `AllocDynamicArray` to `AllocDynamicBytes` (allocates `Type::DynamicBytes` or `Type::String`)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-16 12:04:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1068" class=".btn">#1068</a>
             </td>
             <td>
