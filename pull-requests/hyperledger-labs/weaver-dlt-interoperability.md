@@ -43,29 +43,3 @@ Signed-off-by: Sikhar Patranabis <sikhar.patranabis@ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/330" class=".btn">#330</a>
-            </td>
-            <td>
-                <b>
-                    [WIP] Add Dockerfile to build testiin docker image
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-09 09:36:15 +0000 UTC
-    </div>
-</div>
-

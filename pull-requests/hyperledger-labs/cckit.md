@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/cckit
                 
             </td>
             <td>
-                <nil>
+                envelope extension allows to verify the signature in signed requests
             </td>
         </tr>
     </table>
