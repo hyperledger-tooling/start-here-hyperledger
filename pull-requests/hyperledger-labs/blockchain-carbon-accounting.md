@@ -14,41 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/649" class=".btn">#649</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/650" class=".btn">#650</a>
             </td>
             <td>
                 <b>
-                    added documentation from besu local setup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: adityajoshi12 <adityaprakashjoshi1@gmail.com>
-
-This PR contains documentation required for setting up the besu network locally.
-
-#647 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-12 06:23:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/648" class=".btn">#648</a>
-            </td>
-            <td>
-                <b>
-                    Bump loader-utils from 2.0.2 to 2.0.3
+                    Bump loader-utils from 2.0.2 to 2.0.4
                 </b>
             </td>
         </tr>
@@ -57,11 +27,17 @@ This PR contains documentation required for setting up the besu network locally.
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [loader-utils](https://github.com/webpack/loader-utils) from 2.0.2 to 2.0.3.
+                Bumps [loader-utils](https://github.com/webpack/loader-utils) from 2.0.2 to 2.0.4.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/webpack/loader-utils/releases">loader-utils's releases</a>.</em></p>
 <blockquote>
+<h2>v2.0.4</h2>
+<h3><a href="https://github.com/webpack/loader-utils/compare/v2.0.3...v2.0.4">2.0.4</a> (2022-11-11)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li>ReDoS problem (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/225">#225</a>) (<a href="https://github.com/webpack/loader-utils/commit/ac09944dfacd7c4497ef692894b09e63e09a5eeb">ac09944</a>)</li>
+</ul>
 <h2>v2.0.3</h2>
 <h3><a href="https://github.com/webpack/loader-utils/compare/v2.0.1...v2.0.3">2.0.3</a> (2022-10-20)</h3>
 <h3>Bug Fixes</h3>
@@ -72,8 +48,13 @@ This PR contains documentation required for setting up the besu network locally.
 </details>
 <details>
 <summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/webpack/loader-utils/blob/v2.0.3/CHANGELOG.md">loader-utils's changelog</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/webpack/loader-utils/blob/v2.0.4/CHANGELOG.md">loader-utils's changelog</a>.</em></p>
 <blockquote>
+<h3><a href="https://github.com/webpack/loader-utils/compare/v2.0.3...v2.0.4">2.0.4</a> (2022-11-11)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li>ReDoS problem (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/225">#225</a>) (<a href="https://github.com/webpack/loader-utils/commit/ac09944dfacd7c4497ef692894b09e63e09a5eeb">ac09944</a>)</li>
+</ul>
 <h3><a href="https://github.com/webpack/loader-utils/compare/v2.0.1...v2.0.3">2.0.3</a> (2022-10-20)</h3>
 <h3>Bug Fixes</h3>
 <ul>
@@ -84,17 +65,19 @@ This PR contains documentation required for setting up the besu network locally.
 <details>
 <summary>Commits</summary>
 <ul>
+<li><a href="https://github.com/webpack/loader-utils/commit/6688b5028106f144ee9f543bebc8e6a87b57829f"><code>6688b50</code></a> chore(release): 2.0.4</li>
+<li><a href="https://github.com/webpack/loader-utils/commit/ac09944dfacd7c4497ef692894b09e63e09a5eeb"><code>ac09944</code></a> fix: ReDoS problem (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/225">#225</a>)</li>
 <li><a href="https://github.com/webpack/loader-utils/commit/7162619fb982c394ed75098a0a0ed7e7f3177c70"><code>7162619</code></a> chore(release): 2.0.3</li>
 <li><a href="https://github.com/webpack/loader-utils/commit/a93cf6f4702012030f6b5ee8340d5c95ec1c7d4c"><code>a93cf6f</code></a> fix(security): prototype polution exploit (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/217">#217</a>)</li>
 <li><a href="https://github.com/webpack/loader-utils/commit/90c7c4be17e3e0b2f6091a69c67db7a6df9fd044"><code>90c7c4b</code></a> chore(release): 2.0.2</li>
 <li><a href="https://github.com/webpack/loader-utils/commit/8c2d24ee400bc4567335e97ee6004c3baa6ef66f"><code>8c2d24e</code></a> fix: base64 generation and unicode characters (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/197">#197</a>)</li>
-<li>See full diff in <a href="https://github.com/webpack/loader-utils/compare/v2.0.2...v2.0.3">compare view</a></li>
+<li>See full diff in <a href="https://github.com/webpack/loader-utils/compare/v2.0.2...v2.0.4">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=loader-utils&package-manager=npm_and_yarn&previous-version=2.0.2&new-version=2.0.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=loader-utils&package-manager=npm_and_yarn&previous-version=2.0.2&new-version=2.0.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -130,7 +113,37 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-09 08:20:09 +0000 UTC
+        Created At 2022-11-16 05:56:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/649" class=".btn">#649</a>
+            </td>
+            <td>
+                <b>
+                    added documentation from besu local setup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: adityajoshi12 <adityaprakashjoshi1@gmail.com>
+
+This PR contains documentation required for setting up the besu network locally.
+
+#647 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-12 06:23:29 +0000 UTC
     </div>
 </div>
 
