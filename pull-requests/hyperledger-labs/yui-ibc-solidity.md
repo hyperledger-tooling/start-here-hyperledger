@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/126" class=".btn">#126</a>
+            </td>
+            <td>
+                <b>
+                    Add generic verification function support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                implements #29
+
+Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-17 11:45:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/124" class=".btn">#124</a>
             </td>
             <td>

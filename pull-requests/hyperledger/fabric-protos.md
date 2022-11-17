@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/150" class=".btn">#150</a>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/151" class=".btn">#151</a>
             </td>
             <td>
                 <b>
-                    Appease linter for SmartBFT configuration protobuf file
+                    Ensure build fails if deploy key is not installed
                 </b>
             </td>
         </tr>
@@ -27,13 +27,18 @@ permalink: /pull-requests/hyperledger/fabric-protos
                 
             </td>
             <td>
-                Signed-off-by: Yacov Manevich <yacovm@il.ibm.com>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
 
+<!--- IMPORTANT: DO NOT modify or disable lint rules without agreeing changes in an issue first! -->
+<!--- Any changes to lint rules and breaking change detection should be made in a separate pull  -->
+<!--- request with an associated issue.                                                          -->
+<!--- Please include a link to the issue in the pull request and DO NOT adjust lint rules to fix -->
+<!--- build breaks when submitting any other pull requests.                                      -->
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-09 15:58:00 +0000 UTC
+        Created At 2022-11-17 10:01:07 +0000 UTC
     </div>
 </div>
 

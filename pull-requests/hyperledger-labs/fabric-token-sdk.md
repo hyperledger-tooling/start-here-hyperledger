@@ -116,31 +116,3 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/419" class=".btn">#419</a>
-            </td>
-            <td>
-                <b>
-                    Expose RegisterIssuerWallet
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                This PR exposes the RegisterIssuerWallet API to register issuer wallets.
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-10 08:41:43 +0000 UTC
-    </div>
-</div>
-
