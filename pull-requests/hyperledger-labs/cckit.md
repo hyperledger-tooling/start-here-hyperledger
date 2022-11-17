@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/cckit
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/cckit/pull/7" class=".btn">#7</a>
+            </td>
+            <td>
+                <b>
+                    Serializer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-17 06:20:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/cckit/pull/6" class=".btn">#6</a>
             </td>
             <td>
