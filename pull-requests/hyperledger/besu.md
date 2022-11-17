@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4697" class=".btn">#4697</a>
+            </td>
+            <td>
+                <b>
+                    Spike Spring Boot
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                What if we would use a Spring Dependency Injection instead of our Builders?
+What if we would only depend on mainnet parts of Besu project?
+
+These and other questions might be answered in this PR. 
+
+This is a first runabout and as such - It does not work yet. 
+But it will...
+Hopefully...
+
+This PR creates a new subdirectory of besu where we depend on besu.
+The Spring does not leak into besu code at the moment. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-17 15:42:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4694" class=".btn">#4694</a>
             </td>
             <td>
@@ -116,7 +152,8 @@ port #4688 to 22.10.1
 
 ## PR description
 
-Updating chain head during backward sync was wrongly removed during the removal of the finalized block rule, this PR restore it and also complete the removal of the remaining dead code that was meant to manage the finalized rule., and some renaming to improve semantic
+Updating chain head during backward sync was wrongly removed during the removal of the finalized block rule, this PR restore it and also complete the removal of the remaining dead code that was meant to manage the finalized rule., and some renaming to improve semantic.
+Removed a log statement that was keeping reference to blocks sent by newPayload, that causes high memory consumption during initial sync.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -232,6 +269,11 @@ Linked to #4476
 
 ## PR description
 Enable RocksDB full bloom filters, with 10 bits per key.
+
+Here the results when we compare median values on newPayload calls.
+
+<img width="1653" alt="Screenshot 2022-11-17 at 16 13 02" src="https://user-images.githubusercontent.com/5099602/202485500-7a98e965-10d7-4d6c-aa8e-ae88b00ad9ca.png">
+
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -1131,48 +1173,6 @@ Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-11-11 10:55:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4651" class=".btn">#4651</a>
-            </td>
-            <td>
-                <b>
-                    fix best peer mechanism during sync
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamChupa</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-10 16:24:37 +0000 UTC
     </div>
 </div>
 

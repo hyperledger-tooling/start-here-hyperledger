@@ -167,31 +167,3 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/458" class=".btn">#458</a>
-            </td>
-            <td>
-                <b>
-                    Disable MP-Trie in config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add a config option to disable the construction on the state MP-Trie.
-
-Signed-off-by: Yoav Tock <tock@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-10 12:48:54 +0000 UTC
-    </div>
-</div>
-
