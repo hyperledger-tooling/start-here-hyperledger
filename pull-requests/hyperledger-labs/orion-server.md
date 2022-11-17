@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/466" class=".btn">#466</a>
+            </td>
+            <td>
+                <b>
+                    parallel validation of txs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: senthil <cendhu@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-17 07:23:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/465" class=".btn">#465</a>
             </td>
             <td>
@@ -166,37 +192,6 @@ Signed-off-by: Yoav Tock <tock@il.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-11-10 12:48:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/457" class=".btn">#457</a>
-            </td>
-            <td>
-                <b>
-                    Metric features
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Made the following changes:
-
- - Add Prometheus network configuration
- - Add block size (bytes) metric (changed previous `block_size` to `tx_per_block`)
- - Add explicit buckets values
- - Add an option to issue certificate using URL (not IP) to the testing infrastructure (used by the benchmark)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-10 09:54:15 +0000 UTC
     </div>
 </div>
 
