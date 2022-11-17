@@ -257,47 +257,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2947" class=".btn">#2947</a>
-            </td>
-            <td>
-                <b>
-                    [refactor]: `p2p` with guard rails
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ### Description of the Change
-
-Add extra guard rails to fix problems of multigenerational Iroha networks.
-### Issue
-
-None (TODO)
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-Better UX
-
-### Possible Drawbacks
-
-More coupled code
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-15 08:18:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/2946" class=".btn">#2946</a>
             </td>
             <td>
