@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3790" class=".btn">#3790</a>
+            </td>
+            <td>
+                <b>
+                    Fix orderer Dockerfile for /etc/nsswitch.conf
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Make orderer Dockerfile consistent with peer Dockerfile with respect to /etc/nsswitch.conf.
+
+The orderer Dockerfile stopped working with alpine 3.16.3 (November 12 release), since etc/nsswitch.conf was added to the alpine image.
+
+The new alpine etc/nsswitch.conf file content is the same as what Fabric has been adding to the image, so we'll keep the Fabric file content in case the Dockerfile is used on other platforms.
+
+Relevant Alpine 3.16.3 commit:
+https://git.alpinelinux.org/aports/commit/?h=v3.16.3&id=348653a9ba0701e8e968b3344e72313a9ef334e4
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-18 04:08:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3789" class=".btn">#3789</a>
             </td>
             <td>
@@ -406,86 +442,6 @@ Finally, you can contact us on https://mergify.com
     </table>
     <div class="right-align">
         Created At 2022-11-11 16:10:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3776" class=".btn">#3776</a>
-            </td>
-            <td>
-                <b>
-                    fix no matches found: .data.data[0].payload.data.config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                On macos with jq-1.6 : 
-zsh: no matches found: .data.data[0].payload.data.config
-
-
-
-Signed-off-by: Tekin Tian <tekintian@gmail.com>
-
-<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
-
-<!--- Provide a descriptive summary of your changes in the Title above. -->
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-- New feature
-- Improvement (improvement to code, performance, etc)
-- Test update
-- Documentation update
-
-#### Description
-
-<!--- Describe your changes in detail, including motivation. -->
-
-#### Additional details
-
-<!--- Additional implementation details or comments to reviewers. -->
-<!--- Summarize how the pull request was tested (if not obvious from commit). -->
-
-#### Related issues
-
-<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
-
-<!---
-#### Release Note
-If change impacts current users, uncomment Release Note heading and provide
-release note text.
-Also, copy release note text into the release specific /release_notes file.
--->
-
-<!--
-Checklist (DELETE AFTER READING):
-
-- `Signed-off-by` added to commits (required for DCO check to pass)
-- Tests have been added/updated (required for bug fixes and features)
-- Unit and/or integration tests pass locally
-- Run linters and checks locally using 'make checks'
-- If change requires documentation updates, make updates in pull request,
-  or open a separate issue and provide link
-- Squash commits into a single commit, unless a stack of commits is
-  intentional to assist reviewers or to preserve review comments.
-- For additional contribution guidelines see the project's CONTRIBUTING.md file
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-11 02:20:22 +0000 UTC
     </div>
 </div>
 

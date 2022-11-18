@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4700" class=".btn">#4700</a>
+            </td>
+            <td>
+                <b>
+                    Use snapshots for in-memory copies of layered worldstate
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+In `BonsaiLayeredWorldState.copy()`, use a snapshot worldstate as the basis for a BonsaiInMemoryWorldstate copy
+
+Prevents stateroot mismatches that arise from the persisted worldstate being different than the worldstate assoicated with a given layered worldstate.
+
+Also moves isolation test setup into an abstract class, and adds a new BonsaiInMemoryIsolationTest
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-18 06:11:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4697" class=".btn">#4697</a>
             </td>
             <td>
@@ -92,7 +140,7 @@ Signed-off-by: Diego López León <dieguitoll@gmail.com>
             </td>
             <td>
                 <b>
-                    Restore updating chain head during backward sync
+                    alpha - Restore updating chain head during backward sync
                 </b>
             </td>
         </tr>
