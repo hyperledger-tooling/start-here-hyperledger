@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1077" class=".btn">#1077</a>
+            </td>
+            <td>
+                <b>
+                    WIP: Validate doc examples
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Move full contract solidity code blocks into dedicated examples (and fix many syntax errors in the process)
+- Check for their successful compilation
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-18 17:20:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1075" class=".btn">#1075</a>
+            </td>
+            <td>
+                <b>
+                    Fix bytes() cast from fixed length and vice versa
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-18 13:33:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1074" class=".btn">#1074</a>
             </td>
             <td>
@@ -153,35 +206,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2022-11-12 09:46:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1066" class=".btn">#1066</a>
-            </td>
-            <td>
-                <b>
-                    Documentation cleanup and rename Ternary to ConditionalOperator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I read through our documentation - only got halfway through!
-
-Just because a conditional operator takes three parameters does not mean it should be called ternary. It's just not very descriptive. Also, we might invent another operator which also takes three operators.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-11 16:14:44 +0000 UTC
     </div>
 </div>
 

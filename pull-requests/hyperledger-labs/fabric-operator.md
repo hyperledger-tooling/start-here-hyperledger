@@ -41,32 +41,3 @@ please see https://github.com/operator-framework/operator-sdk/releases/tag/v1.16
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/82" class=".btn">#82</a>
-            </td>
-            <td>
-                <b>
-                    Use PodSecurity Admission controller for k8s versions v1.25.x
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                https://github.com/hyperledger-labs/fabric-operator/issues/50
-Thank you @celder628 for the notes.
-
-Signed-off-by: asararatnakar <asara.ratnakar@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-11 12:43:27 +0000 UTC
-    </div>
-</div>
-

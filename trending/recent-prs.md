@@ -1,13 +1,13 @@
 
-[3793](https://github.com/hyperledger/fabric/pull/3793) Fix orderer Dockerfile for /etc/nsswitch.conf (backport #3790)
+[1077](https://github.com/hyperledger/solang/pull/1077) WIP: Validate doc examples
 
-[4704](https://github.com/hyperledger/besu/pull/4704) add pruning during snapsync
+[4706](https://github.com/hyperledger/besu/pull/4706) Add checksum from junit-bom-5.9.0.module
 
-[427](https://github.com/hyperledger-labs/fabric-token-sdk/pull/427) Integration Tests: Register Owner Wallet
+[4705](https://github.com/hyperledger/besu/pull/4705) Remove log statements that are keeping references to objects for too long
 
-[59](https://github.com/hyperledger-labs/fabric-opssc/pull/59) chore(*): Bump fabric versions to v2.4.7 and v2.2.9
+[2956](https://github.com/hyperledger/iroha/pull/2956) [refactor] #1868: Prevent validated transactions from being sent between peers
 
-[4703](https://github.com/hyperledger/besu/pull/4703) Post Merge cleanup: remove latestValidAncestorDescendsFromTerminal
+[156](https://github.com/hyperledger/fabric-protos/pull/156) Bump version to 0.3.1
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

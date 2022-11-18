@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/873" class=".btn">#873</a>
+            </td>
+            <td>
+                <b>
+                    Remove mistaken msp path
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-18 13:43:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/871" class=".btn">#871</a>
             </td>
             <td>
@@ -172,127 +198,6 @@ Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-11-14 17:29:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/862" class=".btn">#862</a>
-            </td>
-            <td>
-                <b>
-                    Move lint and test-network-basic tests from Azure to GHA - READY FOR MERGE
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR ports the _glacial_ Linter and Test Network Basic tests from Azure to GHA: 
-
-- Test Network Basic - Go
-- Test Network Basic - Java
-- Test Network Basic - Javascript
-- Test Network Basic - Typescript
-
-In addition, the scripts have been updated to run each test case in a different chaincode scope / ledger, re-using a single Fabric network across all tests in the suite.
-
-Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-11 18:12:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/861" class=".btn">#861</a>
-            </td>
-            <td>
-                <b>
-                    Add FSAT appdev E2E test - READY FOR MERGE
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR runs the Full Stack Application Guide "app-dev" test suite as a GitHub Action on `pull_request` to main. 
-
-Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-11 15:57:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/860" class=".btn">#860</a>
-            </td>
-            <td>
-                <b>
-                    Only run GHA on PRs targeting the mainline
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR reduces the frequency of running "hello-GHA" pipelines to target only mainline PRs. 
-
-Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-11 14:35:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/859" class=".btn">#859</a>
-            </td>
-            <td>
-                <b>
-                    Activate GHA on fabric-samples
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR launches a no-op / hello-world action to enable GitHub Actions on the samples repository.
-
-Until this workflow is triggered (once) on the repo, GHA will refuse to run on PRs targeting main.
-
-Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-11 13:04:08 +0000 UTC
     </div>
 </div>
 
