@@ -185,29 +185,3 @@ Just because a conditional operator takes three parameters does not mean it shou
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1064" class=".btn">#1064</a>
-            </td>
-            <td>
-                <b>
-                    Substrate: Fix events with topics
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #970 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-11 10:24:02 +0000 UTC
-    </div>
-</div>
-
