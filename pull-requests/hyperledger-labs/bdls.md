@@ -14,34 +14,27 @@ permalink: /pull-requests/hyperledger-labs/bdls
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/bdls/pull/4" class=".btn">#4</a>
+                PR <a href="https://github.com/hyperledger-labs/bdls/pull/6" class=".btn">#6</a>
             </td>
             <td>
                 <b>
-                    Move inactive maintainers to emeritus status
+                    Update README.md
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">bug</span>
             </td>
             <td>
-                The TSC approved a requirement that maintainers
-that have not been active in over three to six
-months be move to emeritus status.
+                Fix the guide URL for the BDLS to point to the lab repo
 
-These maintainers have not been active in over
-one year.
-
-https://github.com/hyperledger/toc/issues/32
-
-Signed-off-by: Ry Jones <ry@linux.com>
+Signed-off-by: Ahmed Al Salih <a.alsalih2@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-16 18:36:49 +0000 UTC
+        Created At 2022-11-17 18:30:34 +0000 UTC
     </div>
 </div>
 

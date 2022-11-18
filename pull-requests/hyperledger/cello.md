@@ -38,33 +38,3 @@ Signed-off-by: Ry Jones <ry@linux.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/495" class=".btn">#495</a>
-            </td>
-            <td>
-                <b>
-                    Deprecate out-maintained auth dependency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                `djangorestframework-jwt` last  [released version](https://pypi.org/project/djangorestframework-jwt/) was Jun 23, 2017, where has been out-maintained for a long time. 
-`djangorestframework-simplejwt` is pretty new library and the[ last released](https://pypi.org/project/djangorestframework-simplejwt/) was on  Oct 20, 2022
-And simplify auth procedure without creating a customized `authenticate` function   
-
-Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-11 00:13:31 +0000 UTC
-    </div>
-</div>
-

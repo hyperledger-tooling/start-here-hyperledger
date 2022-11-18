@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1074" class=".btn">#1074</a>
+            </td>
+            <td>
+                <b>
+                    Use IndexMap for enum declaration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Previously, we had a `HashMap<String, (Loc, usize)>` to save the items of an enumeration. Retrieving the item name having its index is awful, so I changed the structure to `IndexMap<String, Loc>`, from which we can retrieve its name and Loc when we index it with an `usize`.
+
+The context for this PR is that I need to retrieve the item name from its index when generating the Anchor IDL from a Solidity contract.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-17 18:59:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1072" class=".btn">#1072</a>
             </td>
             <td>
