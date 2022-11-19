@@ -1294,34 +1294,3 @@ adjusts some worldstate archive tests
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4662" class=".btn">#4662</a>
-            </td>
-            <td>
-                <b>
-                    squash commit of push0, small EOF
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-squash commit of 4460 and 4644
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-12 03:38:14 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-test
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/425" class=".btn">#425</a>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/426" class=".btn">#426</a>
             </td>
             <td>
                 <b>
-                    Move MAINTAINERS to Markdown
+                    Update Node version and Fabric branches (release-2.5)
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger/fabric-test
                 
             </td>
             <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
+                Update Node to 16.17.0.
+Update Fabric branches and docker images to release-2.5.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-03 17:25:21 +0000 UTC
+        Created At 2022-11-19 05:08:11 +0000 UTC
     </div>
 </div>
 
