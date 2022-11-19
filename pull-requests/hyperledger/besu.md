@@ -14,6 +14,145 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4710" class=".btn">#4710</a>
+            </td>
+            <td>
+                <b>
+                    Merge main into 22.10.x
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+merge main into 22.10.x ahead of burn-in over the weekend
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-18 23:10:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4709" class=".btn">#4709</a>
+            </td>
+            <td>
+                <b>
+                    Add post-run allocation output to EVMTool
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span>
+            </td>
+            <td>
+                ## PR description
+
+Add a CLI flag --json-alloc that will output the post-execution state of the allocations the EVM Tool executed in. As well as post-execution state for state-tests.
+
+Signed-off-by: Danno Ferrin <danno.ferrin@swirldslabs.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-18 20:23:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4708" class=".btn">#4708</a>
+            </td>
+            <td>
+                <b>
+                    Revert "make snapshots the default behavior"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+In light of the stability fix for layered worldstates in #4700, and the higher performance of in-memory worldstates versus snapshot worldstates, this PR reverts the default behavior of bonsai back to layered worldstates:
+
+This reverts commit 305897c075947ea73e71b0f5d68717163a3ea861.
+
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-18 18:38:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4706" class=".btn">#4706</a>
             </td>
             <td>
@@ -1183,103 +1322,6 @@ squash commit of 4460 and 4644
     </table>
     <div class="right-align">
         Created At 2022-11-12 03:38:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4661" class=".btn">#4661</a>
-            </td>
-            <td>
-                <b>
-                    22.10.1 alpha
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-alpha build for burn in ahead of 22.10.1 release.  
-
-This PR:
-* merges main from e7074c0ecb582b50055c1928da85a2e79e9f97ba into release-22.10.x 
-* sets gradle.properties version to 22.10.1-alpha
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-11 23:41:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4660" class=".btn">#4660</a>
-            </td>
-            <td>
-                <b>
-                    Implementation of  PUSH0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: lukelee-sl <luke.lee@swirldslabs.com>
-
-
-## PR description
-Implement PUSH0 operation as described in https://eips.ethereum.org/EIPS/eip-3855
-
-## Fixed Issue(s)
-#4658 
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-11 22:26:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4659" class=".btn">#4659</a>
-            </td>
-            <td>
-                <b>
-                    Fix circleCI snapshot segfaults
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                explicitly close snapshot worldstates and their copies to avoid a segfault on circle-ci when running BonsaiSnapshotIsolationTest
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-11 21:54:25 +0000 UTC
     </div>
 </div>
 
