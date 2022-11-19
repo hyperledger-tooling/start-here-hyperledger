@@ -173,39 +173,3 @@ Signed-off-by: salaheldinsoliman <salaheldin_sameh@aucegypt.edu>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1067" class=".btn">#1067</a>
-            </td>
-            <td>
-                <b>
-                    Ensure trailing - on scientific notation is not parsed as part of number
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ```
-function test() external {
-    uint256 b = 500;
-    uint256 a1 = 1e18-b;
-    uint256 a2 = 1e18- b;
-}
-```
-
-Fixes https://github.com/hyperledger/solang/issues/1065
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-12 09:46:22 +0000 UTC
-    </div>
-</div>
-
