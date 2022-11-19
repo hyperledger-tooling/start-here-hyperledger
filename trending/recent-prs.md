@@ -1,13 +1,13 @@
 
-[1077](https://github.com/hyperledger/solang/pull/1077) WIP: Validate doc examples
+[3797](https://github.com/hyperledger/fabric/pull/3797) fix: fix typo
 
-[4706](https://github.com/hyperledger/besu/pull/4706) Add checksum from junit-bom-5.9.0.module
+[4710](https://github.com/hyperledger/besu/pull/4710) Merge main into 22.10.x
 
-[4705](https://github.com/hyperledger/besu/pull/4705) Remove log statements that are keeping references to objects for too long
+[4709](https://github.com/hyperledger/besu/pull/4709) Add post-run allocation output to EVMTool
 
-[2956](https://github.com/hyperledger/iroha/pull/2956) [refactor] #1868: Prevent validated transactions from being sent between peers
+[4708](https://github.com/hyperledger/besu/pull/4708) Revert "make snapshots the default behavior"
 
-[156](https://github.com/hyperledger/fabric-protos/pull/156) Bump version to 0.3.1
+[157](https://github.com/hyperledger/fabric-protos/pull/157) [WIP] Add GitHub settings files for Go bindings
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
