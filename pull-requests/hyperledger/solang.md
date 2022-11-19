@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 <b>
-                    WIP: Validate doc examples
+                    Validate documentation examples on CI
                 </b>
             </td>
         </tr>
@@ -27,8 +27,9 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                - Move full contract solidity code blocks into dedicated examples (and fix many syntax errors in the process)
-- Check for their successful compilation
+                This PR moves most of our solidity code blocks into dedicated examples. Snippets that should work for all our targets go into the `/examples` directory, and target specific ones into `/examples/target`. I implemented a test to check that all examples successfully compile, in parallel.
+
+Also a lot of examples contained syntactical errors, I fixed everything. Additionally they are now correctly formatted.
             </td>
         </tr>
     </table>
@@ -143,33 +144,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2022-11-16 12:04:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1068" class=".btn">#1068</a>
-            </td>
-            <td>
-                <b>
-                    improved parser recovery
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Improved Solang-parser resilience. 
-Signed-off-by: salaheldinsoliman <salaheldin_sameh@aucegypt.edu>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-12 15:28:18 +0000 UTC
     </div>
 </div>
 

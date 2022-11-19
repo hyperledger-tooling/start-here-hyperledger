@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/358" class=".btn">#358</a>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/359" class=".btn">#359</a>
             </td>
             <td>
                 <b>
-                    Fablo k8 fixes and CI
+                    Kubernetes
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fablo
                 
             </td>
             <td>
-                Signed-off-by: Umegbewe Nwebedu <nwebedujunior55@gmail.com>
+                This PR includes templates for base scripts, e2e-tests and CI setup.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-05 11:29:13 +0000 UTC
+        Created At 2022-11-19 15:48:49 +0000 UTC
     </div>
 </div>
 
