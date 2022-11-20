@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3799" class=".btn">#3799</a>
+            </td>
+            <td>
+                <b>
+                    Remove usage of deprecated ioutils APIs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+The commit removes usages of deprecated ioutils package APIs from the code base.
+
+Signed-off-by: Artem Barger <artem@bargr.net>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-20 14:27:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3797" class=".btn">#3797</a>
             </td>
             <td>
