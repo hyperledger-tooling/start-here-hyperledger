@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4711" class=".btn">#4711</a>
+            </td>
+            <td>
+                <b>
+                    Fix EOFv1 validation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This PR changes EOF validation to check deployed code instead of _init code_
+
+The values for testing were taken from tx [0x64d2b96](https://explorer.shandong.ethdevops.io/tx/0x64d2b9619141c93bf319a5c9b46bada38bc06e6825adfa7539c84f2878b19a53) of the Shandong testnet.
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-20 12:05:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4710" class=".btn">#4710</a>
             </td>
             <td>
@@ -1100,100 +1138,6 @@ Signed-off-by: Stefan <stefan.pingel@consensys.net>
     </table>
     <div class="right-align">
         Created At 2022-11-13 22:27:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4667" class=".btn">#4667</a>
-            </td>
-            <td>
-                <b>
-                    Release 22.10.1 alpha, bonsai snapshot fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-squash commit of #4666  for 22.10.1-alpha
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-13 08:17:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4666" class=".btn">#4666</a>
-            </td>
-            <td>
-                <b>
-                    Fix for block unavailability during SnapshotTrieLog  caching
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-When blocks execute and their worldstates are appended as trie logs, the blocks are not yet available in blockchain storage.  Blockheaders are required to create/roll a snapshot trie log to a particular state. This PR changes the SnapshotTrieLogManager to create mutable snapshots once  blocks are appended to the chain.
-
-This fix:
-* directly addresses a snapshot transaction memory leak, rather than relying on finalize() methods in #4645 
-* should be more performant since mutable copies are correctly cached rather than created at request time
-* decreases GC pressure since snapshots are closed correctly ahead of GC
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-related to #4637 
-fixes #4643 
-
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-13 08:03:52 +0000 UTC
     </div>
 </div>
 
