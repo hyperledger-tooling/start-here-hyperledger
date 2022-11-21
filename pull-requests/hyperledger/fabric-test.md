@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-test
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/427" class=".btn">#427</a>
+            </td>
+            <td>
+                <b>
+                    Update Node to 16.17.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update Node to 16.17.0.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-21 02:56:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-test/pull/426" class=".btn">#426</a>
             </td>
             <td>
