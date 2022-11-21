@@ -92,33 +92,6 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/461" class=".btn">#461</a>
-            </td>
-            <td>
-                <b>
-                    Disable provenance prepare (draft)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Avoid preparing provenance data when provenance is disabled
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-15 19:42:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/460" class=".btn">#460</a>
             </td>
             <td>

@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-protos
             </td>
             <td>
                 <b>
-                    [WIP] Add GitHub settings files for Go bindings
+                    Update Go bindings build
                 </b>
             </td>
         </tr>
@@ -27,19 +27,17 @@ permalink: /pull-requests/hyperledger/fabric-protos
                 
             </td>
             <td>
-                The repos used to publish the Go bindings should not have issue tracking turned on so adding GitHub settings.yml to make sure the correct settings stay in place
+                The Go publish step is not currently deleting files, which it should
+e.g. the now unused .whitelist file in fabric-protos-go
 
-Also noticed that the Go publish step would never delete a file, e.g. the now unused .whitelist file in fabric-protos-go
+The repos used to publish the Go bindings should not have issue
+tracking turned on so adding GitHub settings.yml file to make sure
+the correct settings stay in place
 
-Attempted to remove some of the duplication while updating the Go bindings build to delete old files
+Also merged the two Go workflows into one to remove some of the
+duplication
 
 Signed-off-by: James Taylor <jamest@uk.ibm.com>
-
-<!--- IMPORTANT: DO NOT modify or disable lint rules without agreeing changes in an issue first! -->
-<!--- Any changes to lint rules and breaking change detection should be made in a separate pull  -->
-<!--- request with an associated issue.                                                          -->
-<!--- Please include a link to the issue in the pull request and DO NOT adjust lint rules to fix -->
-<!--- build breaks when submitting any other pull requests.                                      -->
             </td>
         </tr>
     </table>
