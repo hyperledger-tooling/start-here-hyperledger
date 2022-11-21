@@ -24,14 +24,16 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                <span class="chip">TeamRevenant</span>
+                <span class="chip">doc-change-required</span><span class="chip">TeamRevenant</span>
             </td>
             <td>
                 Signed-off-by: Gabriel Trintinalia <gabriel.trintinalia@gmail.com>
 
 ## PR description
-Add type field to eth_getTransactionReceipt
+Add type field to eth_getTransactionReceipt according to: https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_gettransactionreceipt
 
+`type: DATA - integer of the transaction type, 0x00 for legacy transactions, 0x01 for access list types, 0x02 for dynamic fees.
+`
 ## Fixed Issue(s)
 fixes #4505
 
@@ -39,6 +41,11 @@ fixes #4505
 
 - [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+Needs to be updated:
+
+besu-docs PR: 
+https://github.com/hyperledger/besu-docs/pull/1205
 
 ## Changelog
 
@@ -798,7 +805,7 @@ Removed a log statement that was keeping reference to blocks sent by newPayload,
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-This PR introduces a new feature that allows besu to prune old chain data. Two experimental CLI options are introduced as well: `--Xchain-data-pruning-enabled` to turn on/off pruning and `--Xchain-data-pruning-blocks-retained` to specify the number of recent blocks to retain.
+This PR introduces a new feature that allows besu to prune old chain data. Three experimental CLI options are introduced as well: `--Xchain-data-pruning-enabled` to turn on/off pruning, `--Xchain-data-pruning-blocks-retained` to specify the number of recent blocks to retain and `--Xchain-data-pruning-frequency` to specify how often to perform chain data pruning.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -807,12 +814,12 @@ Linked to #4476
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
