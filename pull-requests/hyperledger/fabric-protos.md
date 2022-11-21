@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/159" class=".btn">#159</a>
+            </td>
+            <td>
+                <b>
+                    Enable 0.2.x builds
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Backport apiv1 Go binding template directory and build files
+- Set version to 0.2.0
+- Update workflows to run on the 0.2.x branch
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+
+<!--- IMPORTANT: DO NOT modify or disable lint rules without agreeing changes in an issue first! -->
+<!--- Any changes to lint rules and breaking change detection should be made in a separate pull  -->
+<!--- request with an associated issue.                                                          -->
+<!--- Please include a link to the issue in the pull request and DO NOT adjust lint rules to fix -->
+<!--- build breaks when submitting any other pull requests.                                      -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-21 17:09:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-protos/pull/157" class=".btn">#157</a>
             </td>
             <td>

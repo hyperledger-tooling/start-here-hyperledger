@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                <span class="chip">doc-change-required</span><span class="chip">TeamRevenant</span>
+                <span class="chip">TeamRevenant</span>
             </td>
             <td>
                 Signed-off-by: Gabriel Trintinalia <gabriel.trintinalia@gmail.com>
@@ -399,6 +399,8 @@ since the logs were keeping reference to blocks sent by newPayload, that causes 
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+
+The idea of this PR is to have a consistent and correct flat database after the snapsync in order to be able to use it during transactions and therefore no longer browse the tree. This will improve the performance of the SLOAD and Besu in general
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -1111,53 +1113,6 @@ add SNAPSHOT to version to avoid overwriting latest tags
     </table>
     <div class="right-align">
         Created At 2022-11-14 22:12:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4671" class=".btn">#4671</a>
-            </td>
-            <td>
-                <b>
-                    Port backward sync updates from 4655 and 4656 to 22.10.1-alpha
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Porting from #4655 the update to the block import progess log to also include blocks imported during the final ProcessKnownAncestorsStep since that part could take some time if the backward sync was long.
-
-Porting from #4656 adjustment to batch size and log fix
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-14 17:21:04 +0000 UTC
     </div>
 </div>
 

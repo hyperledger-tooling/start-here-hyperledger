@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/460" class=".btn">#460</a>
-            </td>
-            <td>
-                <b>
-                    Access control on reading user records during a query
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #455 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-14 13:17:42 +0000 UTC
-    </div>
-</div>
-
