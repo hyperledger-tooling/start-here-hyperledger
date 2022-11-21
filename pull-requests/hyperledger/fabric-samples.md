@@ -167,37 +167,3 @@ Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/864" class=".btn">#864</a>
-            </td>
-            <td>
-                <b>
-                    Remove commercial paper and fabcar tests from Azure pipelines
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR : 
-
-- Removes the commercial paper and fabcar samples from the Azure test suites.
-
-- Does a little bit of refactoring to create a custom `test-network-setup` action which can be used by multiple test network workflows. 
-
-- Tests the addition of gradle, npm, and golang caches to help reduce the overall test runtimes. 
-
-Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-14 17:29:16 +0000 UTC
-    </div>
-</div>
-
