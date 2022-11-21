@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4713" class=".btn">#4713</a>
+            </td>
+            <td>
+                <b>
+                    Add type field to eth_getTransactionReceipt
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamRevenant</span>
+            </td>
+            <td>
+                Signed-off-by: Gabriel Trintinalia <gabriel.trintinalia@gmail.com>
+
+## PR description
+Add type field to eth_getTransactionReceipt
+
+## Fixed Issue(s)
+fixes #4505
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-21 04:55:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4712" class=".btn">#4712</a>
             </td>
             <td>
@@ -479,7 +520,7 @@ Update tessera image version to latest
 
 ## PR description
 Start non-bootnodes in parallel for privacy clusters (acceptance test only)
-- Maybe Reduces acceptance tests duration by 15% (20 min to 17 min)
+- may reduce some acceptance tests duration by 15%
 
 ## Documentation
 
@@ -1110,36 +1151,6 @@ Porting from #4656 adjustment to batch size and log fix
     </table>
     <div class="right-align">
         Created At 2022-11-14 17:21:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4669" class=".btn">#4669</a>
-            </td>
-            <td>
-                <b>
-                    Some cleanup in Discovery
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamRevenant</span><span class="chip">mainnet</span>
-            </td>
-            <td>
-                Some cleanup: The PeerBondedObserver was only ever used to call the connect() method on the RlpxAgent
-
-Signed-off-by: Stefan <stefan.pingel@consensys.net>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-14 04:09:52 +0000 UTC
     </div>
 </div>
 

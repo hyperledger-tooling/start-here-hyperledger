@@ -1,13 +1,13 @@
 
-[3800](https://github.com/hyperledger/fabric/pull/3800) Correction of the documentation
+[4713](https://github.com/hyperledger/besu/pull/4713) Add type field to eth_getTransactionReceipt
 
-[125](https://github.com/hyperledger/fabric-gateway-java/pull/125) Update dependency-check version
+[65](https://github.com/hyperledger/fabric-chaincode-go/pull/65) Bump google.golang.org/grpc from 1.48.0 to 1.51.0
 
-[4712](https://github.com/hyperledger/besu/pull/4712) Fix a bug that can cause the heal to be stuck during snapsync
+[427](https://github.com/hyperledger/fabric-test/pull/427) Update Node to 16.17.0
 
-[3799](https://github.com/hyperledger/fabric/pull/3799) Remove usage of deprecated ioutils APIs
+[3802](https://github.com/hyperledger/fabric/pull/3802) fix typo
 
-[4711](https://github.com/hyperledger/besu/pull/4711) Fix EOFv1 validation
+[3801](https://github.com/hyperledger/fabric/pull/3801) docs: make sentence more understandable
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
