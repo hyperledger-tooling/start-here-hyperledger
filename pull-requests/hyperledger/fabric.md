@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3800" class=".btn">#3800</a>
+            </td>
+            <td>
+                <b>
+                    Correction of the documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: sufuy45 <yusuf.cagabey@gmail.com>
+
+#### Type of change
+
+- Documentation update
+
+#### Description
+
+Change in line 326-327: There are no transaction results which could be forwarded to the client, because the transaction is not commited yet.
+
+Change in line 331ff: Even though the gateway service forwards the transaction proposal to the required endorsing peers according to the endorsement policies, the actual tests of the endorsement policies will be take place in phase 3.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-21 01:19:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3799" class=".btn">#3799</a>
             </td>
             <td>
