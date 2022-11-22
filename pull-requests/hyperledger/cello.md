@@ -41,31 +41,3 @@ Close #497
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/496" class=".btn">#496</a>
-            </td>
-            <td>
-                <b>
-                    Update index.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Remove Rocket Chat reference
-
-Signed-off-by: Ry Jones <ry@linux.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-14 20:36:14 +0000 UTC
-    </div>
-</div>
-
