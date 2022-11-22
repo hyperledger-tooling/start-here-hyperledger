@@ -139,31 +139,3 @@ Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/866" class=".btn">#866</a>
-            </td>
-            <td>
-                <b>
-                    Move Kube Test Network tests from Azure -> GHA
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR ports the Kubernetes Test Network tests from Azure to GHA.
-
-Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-14 21:43:22 +0000 UTC
-    </div>
-</div>
-
