@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4717" class=".btn">#4717</a>
+            </td>
+            <td>
+                <b>
+                    [2702] Add check for required option on cli
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: wcgcyx <wcgcyx@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Add a check for required options so that besu will fail to start if required options are not explicitly set on the command line. 
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #2702 
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-22 04:06:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4716" class=".btn">#4716</a>
             </td>
             <td>
@@ -384,7 +430,7 @@ https://app.circleci.com/pipelines/github/hyperledger/besu/18361/workflows/dcefa
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 
@@ -605,7 +651,7 @@ Start non-bootnodes in parallel for privacy clusters (acceptance test only)
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -1046,41 +1092,6 @@ merge bugfix commit from #4648
     </table>
     <div class="right-align">
         Created At 2022-11-15 08:05:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4676" class=".btn">#4676</a>
-            </td>
-            <td>
-                <b>
-                    Nightly CI step - reduce no output timeout for Quorum ATs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Occasionally these hang so we should not keep waiting for output
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-15 05:55:14 +0000 UTC
     </div>
 </div>
 
