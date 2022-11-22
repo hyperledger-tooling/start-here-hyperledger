@@ -14,6 +14,234 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/166" class=".btn">#166</a>
+            </td>
+            <td>
+                <b>
+                    Remove Azure Pipelines artifacts (backport #161)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is an automatic backport of pull request #161 done by [Mergify](https://mergify.com).
+
+
+---
+
+
+<details>
+<summary>Mergify commands and options</summary>
+
+<br />
+
+More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
+
+You can also trigger Mergify actions by commenting on this pull request:
+
+- `@Mergifyio refresh` will re-evaluate the rules
+- `@Mergifyio rebase` will rebase this PR on its base branch
+- `@Mergifyio update` will merge the base branch into this PR
+- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
+
+Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
+
+- look at your merge queues
+- generate the Mergify configuration with the config editor.
+
+Finally, you can contact us on https://mergify.com
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-22 16:31:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/165" class=".btn">#165</a>
+            </td>
+            <td>
+                <b>
+                    Remove Azure Pipelines artifacts (backport #161)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is an automatic backport of pull request #161 done by [Mergify](https://mergify.com).
+
+
+---
+
+
+<details>
+<summary>Mergify commands and options</summary>
+
+<br />
+
+More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
+
+You can also trigger Mergify actions by commenting on this pull request:
+
+- `@Mergifyio refresh` will re-evaluate the rules
+- `@Mergifyio rebase` will rebase this PR on its base branch
+- `@Mergifyio update` will merge the base branch into this PR
+- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
+
+Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
+
+- look at your merge queues
+- generate the Mergify configuration with the config editor.
+
+Finally, you can contact us on https://mergify.com
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-22 16:31:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/164" class=".btn">#164</a>
+            </td>
+            <td>
+                <b>
+                    Update doc to reflect new branching strategy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+
+<!--- IMPORTANT: DO NOT modify or disable lint rules without agreeing changes in an issue first! -->
+<!--- Any changes to lint rules and breaking change detection should be made in a separate pull  -->
+<!--- request with an associated issue.                                                          -->
+<!--- Please include a link to the issue in the pull request and DO NOT adjust lint rules to fix -->
+<!--- build breaks when submitting any other pull requests.                                      -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-22 16:28:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/163" class=".btn">#163</a>
+            </td>
+            <td>
+                <b>
+                    Bump version to 0.1.7
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+
+<!--- IMPORTANT: DO NOT modify or disable lint rules without agreeing changes in an issue first! -->
+<!--- Any changes to lint rules and breaking change detection should be made in a separate pull  -->
+<!--- request with an associated issue.                                                          -->
+<!--- Please include a link to the issue in the pull request and DO NOT adjust lint rules to fix -->
+<!--- build breaks when submitting any other pull requests.                                      -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-22 14:55:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/162" class=".btn">#162</a>
+            </td>
+            <td>
+                <b>
+                    Bump version to 0.2.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+
+<!--- IMPORTANT: DO NOT modify or disable lint rules without agreeing changes in an issue first! -->
+<!--- Any changes to lint rules and breaking change detection should be made in a separate pull  -->
+<!--- request with an associated issue.                                                          -->
+<!--- Please include a link to the issue in the pull request and DO NOT adjust lint rules to fix -->
+<!--- build breaks when submitting any other pull requests.                                      -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-22 14:54:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/161" class=".btn">#161</a>
+            </td>
+            <td>
+                <b>
+                    Remove Azure Pipelines artifacts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                We have moved proto build and push to fabric-protos-go workflow from Azure Pipelines to Github Actions. Now we can remove the Azure Pipelines artifacts.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>                        -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-22 14:46:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-protos/pull/160" class=".btn">#160</a>
             </td>
             <td>
