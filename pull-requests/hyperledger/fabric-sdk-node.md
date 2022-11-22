@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/620" class=".btn">#620</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/622" class=".btn">#622</a>
             </td>
             <td>
                 <b>
-                    Update supported Node version in README
+                    Add testing with Node 18
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                Signed-off-by: Tatsuya Sato <tatsuya.sato.so@hitachi.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-08 10:27:54 +0000 UTC
+        Created At 2022-11-22 10:44:15 +0000 UTC
     </div>
 </div>
 

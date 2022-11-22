@@ -14,6 +14,51 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4718" class=".btn">#4718</a>
+            </td>
+            <td>
+                <b>
+                    Restore updating chain head and finalized block during backward sync
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">syncing</span>
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Updating chain head and updating the finalized block during backward sync was wrongly removed during the removal of the finalized block rule, this PR restore it and also complete the removal of the remaining dead code that was meant to manage the finalized rule, plus some renaming to improve semantic and log improvements.
+The update of the finalized block, is now done by the `MergeCoordinator` after the backward sync is done, because it has access to correctly set it into the `MergeContext`, while before it was only setting the finalized in the blockchain store. This means that the hashs of the finalized blocks are seen during the sync are kept in memory until the backwards is done, but given the small size of the hashes, this is not a concern in terms of memory usage, while setting the finalized block is a huge benefit in terms of perfomance since the check that a block is descendant of finalized is quicker when we have a fresh finalized block set instead of an old one.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-22 10:24:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4717" class=".btn">#4717</a>
             </td>
             <td>
@@ -612,7 +657,7 @@ Update tessera image version to latest
         </tr>
         <tr>
             <td>
-                <span class="chip">TeamRevenant</span>
+                <span class="chip">testing</span><span class="chip">TeamRevenant</span>
             </td>
             <td>
                 Signed-off-by: Gabriel Trintinalia <gabriel.trintinalia@gmail.com>
@@ -763,97 +808,6 @@ Signed-off-by: Diego López León <dieguitoll@gmail.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4689" class=".btn">#4689</a>
-            </td>
-            <td>
-                <b>
-                    alpha - Restore updating chain head during backward sync
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-port #4688 to 22.10.1
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-16 15:48:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4688" class=".btn">#4688</a>
-            </td>
-            <td>
-                <b>
-                    Restore updating chain head during backward sync
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">syncing</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Updating chain head during backward sync was wrongly removed during the removal of the finalized block rule, this PR restore it and also complete the removal of the remaining dead code that was meant to manage the finalized rule., and some renaming to improve semantic.
-Removed a log statement that was keeping reference to blocks sent by newPayload, that causes high memory consumption during initial sync.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-16 12:41:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4687" class=".btn">#4687</a>
             </td>
             <td>
@@ -948,7 +902,7 @@ The benefit from enabling Bloom filters is to improve read performance, more det
 
 Here are the results when we compare median (50th percentile) and 95th percentile values on newPayload calls.
 
-<img width="1653" alt="Screenshot 2022-11-17 at 18 03 38" src="https://user-images.githubusercontent.com/5099602/202650039-f0218033-a0e9-4ea9-9287-bd107dfd1c0c.png">
+![image](https://user-images.githubusercontent.com/5099602/203264112-f8671a77-e230-492a-a301-482e9c5e2972.png)
 
 We can see a [small overhead in CPU consumption](https://github.com/facebook/rocksdb/wiki/RocksDB-Bloom-Filter#usage-of-new-bloom-filter), but this doesn't affect block processing time as we still have a room for CPU usage.  
 
@@ -979,119 +933,6 @@ Memory usage is quite similar, in the screenshot below we can see a little diffe
     </table>
     <div class="right-align">
         Created At 2022-11-15 15:10:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4680" class=".btn">#4680</a>
-            </td>
-            <td>
-                <b>
-                    Update Shandong genesis after Nov 5th restart
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-On Nov 5th the Shandong testnet was restarted due to a bug in the implementation of [EIP-3860](https://github.com/ethereumjs/ethereumjs-monorepo/pull/2397) in [ethereumjs](https://github.com/ethereumjs/ethereumjs-monorepo).
-
-This PR makes the genesis for Shandong to match the hash of the current [running testnet](https://explorer.shandong.ethdevops.io/block/0) based on https://github.com/ethereumjs/consensus-deployment-ansible/blob/master/shandong-testnet/custom_config_data/genesis.json.
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-15 12:34:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4679" class=".btn">#4679</a>
-            </td>
-            <td>
-                <b>
-                    Update artifact checksums after rebuilding the release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-15 11:14:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4677" class=".btn">#4677</a>
-            </td>
-            <td>
-                <b>
-                    bugfix for 22.10.1 alpha
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-merge bugfix commit from #4648
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-15 08:05:24 +0000 UTC
     </div>
 </div>
 

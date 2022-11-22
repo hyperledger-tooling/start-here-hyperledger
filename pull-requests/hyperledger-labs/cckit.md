@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/cckit
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/cckit/pull/6" class=".btn">#6</a>
-            </td>
-            <td>
-                <b>
-                    Add extension Envelop for signature verification
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                envelope extension allows to verify the signature in signed requests
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-15 06:56:52 +0000 UTC
-    </div>
-</div>
-
