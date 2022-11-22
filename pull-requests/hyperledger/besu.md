@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4720" class=".btn">#4720</a>
+            </td>
+            <td>
+                <b>
+                    Do not send new payloads to backward sync if initial sync is in progress
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">syncing</span>
+            </td>
+            <td>
+                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Do not send new payloads to backward sync if initial sync is in progress, since repivoting the initial sync will be very close to the chain head at the end, and so storing new payloads in the backward sync chain has no advantages, and only consumes resources, since most of them will be ignored when the backwars sync starts after the initial sync.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-22 14:46:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4718" class=".btn">#4718</a>
             </td>
             <td>
@@ -871,68 +917,6 @@ Linked to #4476
     </table>
     <div class="right-align">
         Created At 2022-11-16 04:21:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4682" class=".btn">#4682</a>
-            </td>
-            <td>
-                <b>
-                    Enable RocksDB bloomFilters
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ameziane H <ameziane.hamlat@consensys.net
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Enable RocksDB full bloom filters, with 10 bits per key.
-The benefit from enabling Bloom filters is to improve read performance, more details [here](https://github.com/facebook/rocksdb/wiki/RocksDB-Bloom-Filter#usage-of-new-bloom-filter). I believe though this will work better if Besu is synced from the beginning with this configuration, because Bloom filters are created when new SST files are created.
-
-Here are the results when we compare median (50th percentile) and 95th percentile values on newPayload calls.
-
-![image](https://user-images.githubusercontent.com/5099602/203264112-f8671a77-e230-492a-a301-482e9c5e2972.png)
-
-We can see a [small overhead in CPU consumption](https://github.com/facebook/rocksdb/wiki/RocksDB-Bloom-Filter#usage-of-new-bloom-filter), but this doesn't affect block processing time as we still have a room for CPU usage.  
-
-With Bloom Filters
-<img width="1604" alt="image" src="https://user-images.githubusercontent.com/5099602/202651620-e8ac3c83-ef6f-4a22-939c-cc47d4396edc.png">
-
-Without Bloom filters
-<img width="1604" alt="Screenshot 2022-11-18 at 09 01 27" src="https://user-images.githubusercontent.com/5099602/202651805-676c17d7-b323-438a-ad94-989ce6342359.png">
-
-Memory usage is quite similar, in the screenshot below we can see a little difference but not sure it is related to bloom filters
-
-<img width="1604" alt="image" src="https://user-images.githubusercontent.com/5099602/202653316-db1e82da-3483-4554-99db-fea4b2d6d3c4.png">
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-15 15:10:27 +0000 UTC
     </div>
 </div>
 
