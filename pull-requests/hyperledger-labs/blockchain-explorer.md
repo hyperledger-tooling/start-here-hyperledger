@@ -14,143 +14,148 @@ permalink: /pull-requests/hyperledger-labs/blockchain-explorer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/308" class=".btn">#308</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/309" class=".btn">#309</a>
             </td>
             <td>
                 <b>
-                    Bump terser from 4.8.0 to 4.8.1 in /client
+                    Bump loader-utils and react-scripts in /client
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span><span class="chip">javascript</span>
+                <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [terser](https://github.com/terser/terser) from 4.8.0 to 4.8.1.
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/terser/terser/blob/master/CHANGELOG.md">terser's changelog</a>.</em></p>
-<blockquote>
-<h2>v4.8.1 (backport)</h2>
-<ul>
-<li>Security fix for RegExps that should not be evaluated (regexp DDOS)</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/terser/terser/commit/40674a433e2b2fd9dfe7aaa93a0da224fb5e76b9"><code>40674a4</code></a> update changelog, version</li>
-<li><a href="https://github.com/terser/terser/commit/d8cc5691be980d663c29cc4d5ce67e852d597012"><code>d8cc569</code></a> backport fix to potential regexp DDOS</li>
-<li>See full diff in <a href="https://github.com/terser/terser/compare/v4.8.0...v4.8.1">compare view</a></li>
-</ul>
-</details>
-<br />
+                Bumps [loader-utils](https://github.com/webpack/loader-utils) to 2.0.4 and updates ancestor dependency [react-scripts](https://github.com/facebook/create-react-app/tree/HEAD/packages/react-scripts). These dependencies need to be updated together.
 
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=terser&package-manager=npm_and_yarn&previous-version=4.8.0&new-version=4.8.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
-- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
-- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
-- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
-
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/blockchain-explorer/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-07 14:52:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/307" class=".btn">#307</a>
-            </td>
-            <td>
-                <b>
-                    Bump moment-timezone from 0.5.34 to 0.5.35 in /client
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">javascript</span>
-            </td>
-            <td>
-                Bumps [moment-timezone](https://github.com/moment/moment-timezone) from 0.5.34 to 0.5.35.
+Updates `loader-utils` from 1.2.3 to 2.0.4
 <details>
 <summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/moment/moment-timezone/releases">moment-timezone's releases</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/webpack/loader-utils/releases">loader-utils's releases</a>.</em></p>
 <blockquote>
-<h2>Release 0.5.35</h2>
+<h2>v2.0.4</h2>
+<h3><a href="https://github.com/webpack/loader-utils/compare/v2.0.3...v2.0.4">2.0.4</a> (2022-11-11)</h3>
+<h3>Bug Fixes</h3>
 <ul>
-<li>Fix command injection in data pipeline <a href="https://github.com/moment/moment-timezone/security/advisories/GHSA-56x4-j7p9-fcf9">https://github.com/moment/moment-timezone/security/advisories/GHSA-56x4-j7p9-fcf9</a></li>
-<li>Fix cleartext transmission of sensitive information <a href="https://github.com/moment/moment-timezone/security/advisories/GHSA-v78c-4p63-2j6c">https://github.com/moment/moment-timezone/security/advisories/GHSA-v78c-4p63-2j6c</a></li>
+<li>ReDoS problem (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/225">#225</a>) (<a href="https://github.com/webpack/loader-utils/commit/ac09944dfacd7c4497ef692894b09e63e09a5eeb">ac09944</a>)</li>
 </ul>
-<p>Thanks to the OpenSSF Alpha-Omega project for reporting these!</p>
+<h2>v2.0.3</h2>
+<h3><a href="https://github.com/webpack/loader-utils/compare/v2.0.1...v2.0.3">2.0.3</a> (2022-10-20)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li><strong>security:</strong> prototype pollution exploit (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/217">#217</a>) (<a href="https://github.com/webpack/loader-utils/commit/a93cf6f4702012030f6b5ee8340d5c95ec1c7d4c">a93cf6f</a>)</li>
+</ul>
+<h2>v2.0.2</h2>
+<h3><a href="https://github.com/webpack/loader-utils/compare/v2.0.1...v2.0.2">2.0.2</a> (2021-11-04)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li>base64 generation and unicode characters (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/197">#197</a>) (<a href="https://github.com/webpack/loader-utils/commit/8c2d24ee400bc4567335e97ee6004c3baa6ef66f">8c2d24e</a>)</li>
+</ul>
+<h2>v2.0.1</h2>
+<h3><a href="https://github.com/webpack/loader-utils/compare/v2.0.0...v2.0.1">2.0.1</a> (2021-10-29)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li>md4 support on Node.js v17 (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/193">#193</a>) (<a href="https://github.com/webpack/loader-utils/commit/1069f61284a571614ee4acdde6e6087174be118a">1069f61</a>)</li>
+</ul>
+<h2>v2.0.0</h2>
+<h2><a href="https://github.com/webpack/loader-utils/compare/v1.4.0...v2.0.0">2.0.0</a> (2020-03-17)</h2>
+<h3>⚠ BREAKING CHANGES</h3>
+<ul>
+<li>minimum required <code>Node.js</code> version is <code>8.9.0</code> (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/166">#166</a>) (<a href="https://github.com/webpack/loader-utils/commit/c937e8c77231b42018be616b784a6b45eac86f8a">c937e8c</a>)</li>
+<li>the <code>getOptions</code> method returns empty object on empty query (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/167">#167</a>) (<a href="https://github.com/webpack/loader-utils/commit/b595cfba022d3f04f3d310dd570b0253e461605b">b595cfb</a>)</li>
+<li>Use <code>md4</code> by default</li>
+</ul>
+<h2>v1.4.2</h2>
+<h3><a href="https://github.com/webpack/loader-utils/compare/v1.4.1...v1.4.2">1.4.2</a> (2022-11-11)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li>ReDoS problem (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/226">#226</a>) (<a href="https://github.com/webpack/loader-utils/commit/17cbf8fa8989c1cb45bdd2997aa524729475f1fa">17cbf8f</a>)</li>
+</ul>
+<!-- raw HTML omitted -->
 </blockquote>
+<p>... (truncated)</p>
 </details>
 <details>
 <summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/moment/moment-timezone/blob/develop/changelog.md">moment-timezone's changelog</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/webpack/loader-utils/blob/v2.0.4/CHANGELOG.md">loader-utils's changelog</a>.</em></p>
 <blockquote>
-<h3><code>0.5.35</code> <em>2022-08-23</em></h3>
+<h3><a href="https://github.com/webpack/loader-utils/compare/v2.0.3...v2.0.4">2.0.4</a> (2022-11-11)</h3>
+<h3>Bug Fixes</h3>
 <ul>
-<li>Fix command injection in data pipeline <a href="https://github.com/moment/moment-timezone/security/advisories/GHSA-56x4-j7p9-fcf9">https://github.com/moment/moment-timezone/security/advisories/GHSA-56x4-j7p9-fcf9</a></li>
-<li>Fix cleartext transmission of sensitive information <a href="https://github.com/moment/moment-timezone/security/advisories/GHSA-v78c-4p63-2j6c">https://github.com/moment/moment-timezone/security/advisories/GHSA-v78c-4p63-2j6c</a></li>
+<li>ReDoS problem (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/225">#225</a>) (<a href="https://github.com/webpack/loader-utils/commit/ac09944dfacd7c4497ef692894b09e63e09a5eeb">ac09944</a>)</li>
 </ul>
-<p>Thanks to the OpenSSF Alpha-Omega project for reporting these!</p>
+<h3><a href="https://github.com/webpack/loader-utils/compare/v2.0.1...v2.0.3">2.0.3</a> (2022-10-20)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li><strong>security:</strong> prototype pollution exploit (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/217">#217</a>) (<a href="https://github.com/webpack/loader-utils/commit/a93cf6f4702012030f6b5ee8340d5c95ec1c7d4c">a93cf6f</a>)</li>
+</ul>
+<h3><a href="https://github.com/webpack/loader-utils/compare/v2.0.1...v2.0.2">2.0.2</a> (2021-11-04)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li>base64 generation and unicode characters (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/197">#197</a>) (<a href="https://github.com/webpack/loader-utils/commit/8c2d24ee400bc4567335e97ee6004c3baa6ef66f">8c2d24e</a>)</li>
+</ul>
+<h3><a href="https://github.com/webpack/loader-utils/compare/v2.0.0...v2.0.1">2.0.1</a> (2021-10-29)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li>md4 support on Node.js v17 (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/193">#193</a>) (<a href="https://github.com/webpack/loader-utils/commit/1069f61284a571614ee4acdde6e6087174be118a">1069f61</a>)</li>
+</ul>
+<h2><a href="https://github.com/webpack/loader-utils/compare/v1.4.0...v2.0.0">2.0.0</a> (2020-03-17)</h2>
+<h3>⚠ BREAKING CHANGES</h3>
+<ul>
+<li>minimum required <code>Node.js</code> version is <code>8.9.0</code> (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/166">#166</a>) (<a href="https://github.com/webpack/loader-utils/commit/c937e8c77231b42018be616b784a6b45eac86f8a">c937e8c</a>)</li>
+<li>the <code>getOptions</code> method returns empty object on empty query (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/167">#167</a>) (<a href="https://github.com/webpack/loader-utils/commit/b595cfba022d3f04f3d310dd570b0253e461605b">b595cfb</a>)</li>
+<li>Use <code>md4</code> by default</li>
+</ul>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h1><a href="https://github.com/webpack/loader-utils/compare/v1.3.0...v1.4.0">1.4.0</a> (2020-02-19)</h1>
+<h3>Features</h3>
+<ul>
+<li>the <code>resourceQuery</code> is passed to the <code>interpolateName</code> method (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/163">#163</a>) (<a href="https://github.com/webpack/loader-utils/commit/cd0e428">cd0e428</a>)</li>
+</ul>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h1><a href="https://github.com/webpack/loader-utils/compare/v1.2.3...v1.3.0">1.3.0</a> (2020-02-19)</h1>
+<!-- raw HTML omitted -->
 </blockquote>
+<p>... (truncated)</p>
 </details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/moment/moment-timezone/commit/b8fb1bad6d304f9f085c2fb64b7ea1b6dda47680"><code>b8fb1ba</code></a> Build moment-timezone 0.5.35</li>
-<li><a href="https://github.com/moment/moment-timezone/commit/f1b5e5aec11ac5d948f19c7cd0a7c4c6d172c0f7"><code>f1b5e5a</code></a> Add changelog for 0.5.35</li>
-<li><a href="https://github.com/moment/moment-timezone/commit/8b0eb0ca6d6ba65f161bd667f98e87221fda0d42"><code>8b0eb0c</code></a> Bump version to 0.5.35</li>
-<li><a href="https://github.com/moment/moment-timezone/commit/7915ac567ab19700e44ad6b5d8ef0b85e48a9e75"><code>7915ac5</code></a> Bugfix: Prevent cleartext transmission of tz data during build</li>
-<li><a href="https://github.com/moment/moment-timezone/commit/ce955a301ff372e8e9fb3a5b516620c60e7a082a"><code>ce955a3</code></a> Bugfix: Fix command injection vulnerability in grunt tzdata pipeline</li>
-<li><a href="https://github.com/moment/moment-timezone/commit/9430b4c2895819e06942096108862374f438a358"><code>9430b4c</code></a> Merge remote-tracking branch 'origin/master' into develop</li>
-<li><a href="https://github.com/moment/moment-timezone/commit/feaf90069c469822b2cee35d9d0cd37560d351ef"><code>feaf900</code></a> Updated contributing.md + added 2021e files</li>
-<li><a href="https://github.com/moment/moment-timezone/commit/704cfacd51fb175f10b08b36588b6328aeb6447d"><code>704cfac</code></a> updated contributing.md</li>
-<li><a href="https://github.com/moment/moment-timezone/commit/877c86344f3f230e1bf5881253c29f89e39fe3d2"><code>877c863</code></a> Updated contributing.md + added 2021e files</li>
-<li><a href="https://github.com/moment/moment-timezone/commit/5a3015ce5482b1e9d23c3761dddf4e8fc63e84e6"><code>5a3015c</code></a> updated contributing.md</li>
-<li>Additional commits viewable in <a href="https://github.com/moment/moment-timezone/compare/0.5.34...0.5.35">compare view</a></li>
+<li><a href="https://github.com/webpack/loader-utils/commit/6688b5028106f144ee9f543bebc8e6a87b57829f"><code>6688b50</code></a> chore(release): 2.0.4</li>
+<li><a href="https://github.com/webpack/loader-utils/commit/ac09944dfacd7c4497ef692894b09e63e09a5eeb"><code>ac09944</code></a> fix: ReDoS problem (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/225">#225</a>)</li>
+<li><a href="https://github.com/webpack/loader-utils/commit/7162619fb982c394ed75098a0a0ed7e7f3177c70"><code>7162619</code></a> chore(release): 2.0.3</li>
+<li><a href="https://github.com/webpack/loader-utils/commit/a93cf6f4702012030f6b5ee8340d5c95ec1c7d4c"><code>a93cf6f</code></a> fix(security): prototype polution exploit (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/217">#217</a>)</li>
+<li><a href="https://github.com/webpack/loader-utils/commit/90c7c4be17e3e0b2f6091a69c67db7a6df9fd044"><code>90c7c4b</code></a> chore(release): 2.0.2</li>
+<li><a href="https://github.com/webpack/loader-utils/commit/8c2d24ee400bc4567335e97ee6004c3baa6ef66f"><code>8c2d24e</code></a> fix: base64 generation and unicode characters (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/197">#197</a>)</li>
+<li><a href="https://github.com/webpack/loader-utils/commit/5fb556208426d281a18dfbf6f45dca24bfb24e96"><code>5fb5562</code></a> chore(release): 2.0.1</li>
+<li><a href="https://github.com/webpack/loader-utils/commit/1069f61284a571614ee4acdde6e6087174be118a"><code>1069f61</code></a> fix: md4 support on Node.js v17 (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/193">#193</a>)</li>
+<li><a href="https://github.com/webpack/loader-utils/commit/d9f4e23cf411d8556f8bac2d3bf05a6e0103b568"><code>d9f4e23</code></a> chore(release): 2.0.0</li>
+<li><a href="https://github.com/webpack/loader-utils/commit/865dc03909bd0018c9d6a26ea65814faec8eb1e5"><code>865dc03</code></a> refactor: switch to <code>md4</code> by default (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/168">#168</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/webpack/loader-utils/compare/v1.2.3...v2.0.4">compare view</a></li>
 </ul>
 </details>
 <br />
 
+Updates `react-scripts` from 4.0.3 to 5.0.1
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/facebook/create-react-app/commit/19fa58d527ae74f2b6baa0867463eea1d290f9a5"><code>19fa58d</code></a> Publish</li>
+<li><a href="https://github.com/facebook/create-react-app/commit/9802941ff049a28da2682801bc182a29761b71f4"><code>9802941</code></a> fix: webpack noise printed only if error or warning (<a href="https://github.com/facebook/create-react-app/tree/HEAD/packages/react-scripts/issues/12245">#12245</a>)</li>
+<li><a href="https://github.com/facebook/create-react-app/commit/2eef1d0a1db2e84cdcd6e7ca941c85a48cc7cc65"><code>2eef1d0</code></a> Update templates to use React 18 <code>createRoot</code> (<a href="https://github.com/facebook/create-react-app/tree/HEAD/packages/react-scripts/issues/12220">#12220</a>)</li>
+<li><a href="https://github.com/facebook/create-react-app/commit/221e511730ca51c036c6954a9d2ee7659ff860f9"><code>221e511</code></a> Publish</li>
+<li><a href="https://github.com/facebook/create-react-app/commit/5614c87bfbaae0ce52ac15aedd2cd0f91ffd420d"><code>5614c87</code></a> Add support for Tailwind (<a href="https://github.com/facebook/create-react-app/tree/HEAD/packages/react-scripts/issues/11717">#11717</a>)</li>
+<li><a href="https://github.com/facebook/create-react-app/commit/20edab4894b301f6b90dad0f90a2f82c52a7ac66"><code>20edab4</code></a> fix(webpackDevServer): disable overlay for warnings (<a href="https://github.com/facebook/create-react-app/tree/HEAD/packages/react-scripts/issues/11413">#11413</a>)</li>
+<li><a href="https://github.com/facebook/create-react-app/commit/3afbbc0ab922fb982bb275ccb3fe5beecdf5f889"><code>3afbbc0</code></a> Update all dependencies (<a href="https://github.com/facebook/create-react-app/tree/HEAD/packages/react-scripts/issues/11624">#11624</a>)</li>
+<li><a href="https://github.com/facebook/create-react-app/commit/f5467d5e77d51a3f23dd5fa70697dbab79832489"><code>f5467d5</code></a> feat(eslint-config-react-app): support ESLint 8.x (<a href="https://github.com/facebook/create-react-app/tree/HEAD/packages/react-scripts/issues/11375">#11375</a>)</li>
+<li><a href="https://github.com/facebook/create-react-app/commit/c7627ce96c4674f327081f101dd0e2771be4d045"><code>c7627ce</code></a> Update webpack and dev server (<a href="https://github.com/facebook/create-react-app/tree/HEAD/packages/react-scripts/issues/11646">#11646</a>)</li>
+<li><a href="https://github.com/facebook/create-react-app/commit/544befeb536a89b0ff95792df70bb037b17f55b9"><code>544befe</code></a> Update package.json (<a href="https://github.com/facebook/create-react-app/tree/HEAD/packages/react-scripts/issues/11597">#11597</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/facebook/create-react-app/commits/react-scripts@5.0.1/packages/react-scripts">compare view</a></li>
+</ul>
+</details>
+<br />
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=moment-timezone&package-manager=npm_and_yarn&previous-version=0.5.34&new-version=0.5.35)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -179,115 +184,14 @@ You can trigger Dependabot actions by commenting on this PR:
 - `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
 - `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
 
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/blockchain-explorer/network/alerts).
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/blockchain-explorer/network/alerts).
 
 </details>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-07 14:51:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/306" class=".btn">#306</a>
-            </td>
-            <td>
-                <b>
-                    Bump jpeg-js from 0.4.2 to 0.4.4 in /client/e2e-test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">javascript</span>
-            </td>
-            <td>
-                Bumps [jpeg-js](https://github.com/eugeneware/jpeg-js) from 0.4.2 to 0.4.4.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/eugeneware/jpeg-js/releases">jpeg-js's releases</a>.</em></p>
-<blockquote>
-<h2>v0.4.4</h2>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<h2><!-- raw HTML omitted -->v0.4.4 (2022-06-07)<!-- raw HTML omitted --></h2>
-<ul>
-<li>feat: add comment tag encoding (<a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/87">#87</a>) (<a href="https://github.com/eugeneware/jpeg-js/commits/13e1ffa">13e1ffa</a>), closes <a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/87">#87</a></li>
-<li>fix: validate sampling factors (<a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/106">#106</a>) (<a href="https://github.com/eugeneware/jpeg-js/commits/9ccd35f">9ccd35f</a>), closes <a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/106">#106</a></li>
-<li>fix(decoder): rethrow a more helpful error if Buffer is undefined (<a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/93">#93</a>) (<a href="https://github.com/eugeneware/jpeg-js/commits/b58cc11">b58cc11</a>), closes <a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/93">#93</a></li>
-<li>chore(ci): migrate to github actions (<a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/86">#86</a>) (<a href="https://github.com/eugeneware/jpeg-js/commits/417e8e2">417e8e2</a>), closes <a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/86">#86</a></li>
-<li>chore(deps): bump y18n from 4.0.0 to 4.0.3 (<a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/98">#98</a>) (<a href="https://github.com/eugeneware/jpeg-js/commits/2c90858">2c90858</a>), closes <a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/98">#98</a></li>
-<li>chore(deps): bump ws from 7.2.3 to 7.4.6 (<a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/91">#91</a>) (<a href="https://github.com/eugeneware/jpeg-js/commits/fd73289">fd73289</a>), closes <a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/91">#91</a></li>
-<li>chore(deps): bump hosted-git-info from 2.8.8 to 2.8.9 (<a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/90">#90</a>) (<a href="https://github.com/eugeneware/jpeg-js/commits/9449a8b">9449a8b</a>), closes <a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/90">#90</a></li>
-<li>chore(deps): bump lodash from 4.17.15 to 4.17.21 (<a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/89">#89</a>) (<a href="https://github.com/eugeneware/jpeg-js/commits/ffdc4a4">ffdc4a4</a>), closes <a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/89">#89</a></li>
-</ul>
-<h2>v0.4.3</h2>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<h2><!-- raw HTML omitted -->v0.4.3 (2021-01-11)<!-- raw HTML omitted --></h2>
-<ul>
-<li>fix: handle 0x00E1 / 0x00E0 segments from Pixel phones (<a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/84">#84</a>) (<a href="https://github.com/eugeneware/jpeg-js/commits/a2d7ed9">a2d7ed9</a>), closes <a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/84">#84</a></li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/jpeg-js/jpeg-js/commit/9ccd35fb5f55a6c4f1902ac5b0f270f675750c27"><code>9ccd35f</code></a> fix: validate sampling factors (<a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/106">#106</a>)</li>
-<li><a href="https://github.com/jpeg-js/jpeg-js/commit/b58cc11b29a66f853b4195d31e9e2de6080fcd7a"><code>b58cc11</code></a> fix(decoder): rethrow a more helpful error if Buffer is undefined (<a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/93">#93</a>)</li>
-<li><a href="https://github.com/jpeg-js/jpeg-js/commit/2c90858c95832e9fdf49170bcd09f3079567e417"><code>2c90858</code></a> chore(deps): bump y18n from 4.0.0 to 4.0.3 (<a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/98">#98</a>)</li>
-<li><a href="https://github.com/jpeg-js/jpeg-js/commit/fd73289664cbdd3d18b5841c49874dfef7ea55fd"><code>fd73289</code></a> chore(deps): bump ws from 7.2.3 to 7.4.6 (<a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/91">#91</a>)</li>
-<li><a href="https://github.com/jpeg-js/jpeg-js/commit/9449a8bcda9340b9fd8ca475e2b699fefc2c2828"><code>9449a8b</code></a> chore(deps): bump hosted-git-info from 2.8.8 to 2.8.9 (<a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/90">#90</a>)</li>
-<li><a href="https://github.com/jpeg-js/jpeg-js/commit/ffdc4a4d595e1e249a72b08d095363bff739aad7"><code>ffdc4a4</code></a> chore(deps): bump lodash from 4.17.15 to 4.17.21 (<a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/89">#89</a>)</li>
-<li><a href="https://github.com/jpeg-js/jpeg-js/commit/13e1ffa04670d7c7a363d54eab92e31f01243cd7"><code>13e1ffa</code></a> feat: add comment tag encoding (<a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/87">#87</a>)</li>
-<li><a href="https://github.com/jpeg-js/jpeg-js/commit/417e8e2baff2d1e546fdf68c492fba88205d3fb5"><code>417e8e2</code></a> chore(ci): migrate to github actions (<a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/86">#86</a>)</li>
-<li><a href="https://github.com/jpeg-js/jpeg-js/commit/a2d7ed93e5322a98ec1ce953896b2e10b46a5ee1"><code>a2d7ed9</code></a> fix: handle 0x00E1 / 0x00E0 segments from Pixel phones (<a href="https://github-redirect.dependabot.com/eugeneware/jpeg-js/issues/84">#84</a>)</li>
-<li>See full diff in <a href="https://github.com/eugeneware/jpeg-js/compare/v0.4.2...v0.4.4">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=jpeg-js&package-manager=npm_and_yarn&previous-version=0.4.2&new-version=0.4.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
-- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
-- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
-- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
-
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/blockchain-explorer/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-07 14:51:32 +0000 UTC
+        Created At 2022-11-22 02:41:20 +0000 UTC
     </div>
 </div>
 

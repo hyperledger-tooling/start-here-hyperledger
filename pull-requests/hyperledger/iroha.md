@@ -14,24 +14,24 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/2960" class=".btn">#2960</a>
+                PR <a href="https://github.com/hyperledger/iroha/pull/2961" class=".btn">#2961</a>
             </td>
             <td>
                 <b>
-                    [fix] #2541 "deserialization failed" on default configuration (Windows and WSL)
+                    [fix] #2541 "deserialization failed" on default configuration
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">1.x</span>
+                
             </td>
             <td>
-                ### Description of the Change
+                Signed-off-by: Sirawit Techavanitch sirawitt42@gmail.com
+### Description of the Change
 
 <!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
 <!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
 ### Issue
 `--entrypoint irohad`  has produced `deserialization failed` bug and the docker command to start the Iroha container passes an invalid env name in this PR change the env name to align with old docs and `--entrypoint irohad` can't be used
 
@@ -71,12 +71,11 @@ run with `config.rockdb.docker
 ### Alternate Designs *[optional]*
 
 - none
-
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-21 12:15:09 +0000 UTC
+        Created At 2022-11-22 03:59:40 +0000 UTC
     </div>
 </div>
 
