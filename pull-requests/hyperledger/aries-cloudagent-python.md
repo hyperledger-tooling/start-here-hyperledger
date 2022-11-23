@@ -31,6 +31,9 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
 
 Addresses issues:  https://github.com/hyperledger/aries-cloudagent-python/issues/2002 and https://github.com/hyperledger/aries-cloudagent-python/issues/1989
 
+Also fixes a couple of bugs in the alice/faber demo when running multi/multi
+
+
             </td>
         </tr>
     </table>
