@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4724" class=".btn">#4724</a>
+            </td>
+            <td>
+                <b>
+                    Calculate Transaction Size
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Gabriel Trintinalia <gabriel.trintinalia@gmail.com>
+
+## PR description
+The eth/68 protocol intends to pass the transaction size along with the transaction announcement.
+
+## Fixed Issue(s)
+fixes #4723
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-23 04:35:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4722" class=".btn">#4722</a>
             </td>
             <td>
@@ -228,12 +269,12 @@ fixes #2702
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -968,50 +1009,6 @@ Signed-off-by: Diego López León <dieguitoll@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-11-16 10:02:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4686" class=".btn">#4686</a>
-            </td>
-            <td>
-                <b>
-                    Add chain data pruning experimental feature
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-This PR introduces a new feature that allows besu to prune old chain data. Three experimental CLI options are introduced as well: `--Xchain-data-pruning-enabled` to turn on/off pruning, `--Xchain-data-pruning-blocks-retained` to specify the number of recent blocks to retain and `--Xchain-data-pruning-frequency` to specify how often to perform chain data pruning.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Linked to #4476 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-16 04:21:20 +0000 UTC
     </div>
 </div>
 
