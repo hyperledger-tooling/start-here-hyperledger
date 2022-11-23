@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3807" class=".btn">#3807</a>
+            </td>
+            <td>
+                <b>
+                    Revert "New Block Attestation Orderer GRPC service" & update protos
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This reverts commit 6c886cd9fc5b08df7b57c940c8793475edb14bec in release-2.5.
+
+The Block Attestation service is targeted for Fabric v3.0, not Fabric v2.5.
+
+This commit also updates to the latest fabric-protos-go v0.2.0 that is intended for Fabric v2.5 release.
+
+Signed-off-by: David Enyeart [enyeart@us.ibm.com](mailto:enyeart@us.ibm.com)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-23 16:23:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3806" class=".btn">#3806</a>
+            </td>
+            <td>
+                <b>
+                    Update fabric-protos-go to v0.1.6
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fabric-protos-go v0.1.6 has been released for Fabric v2.4.x.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-23 15:43:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3804" class=".btn">#3804</a>
             </td>
             <td>
@@ -696,58 +757,6 @@ Finally, you can contact us on https://mergify.com
     </table>
     <div class="right-align">
         Created At 2022-11-17 13:53:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3787" class=".btn">#3787</a>
-            </td>
-            <td>
-                <b>
-                    Update purge private data integration tests (backport #3782)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #3782 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-16 17:05:48 +0000 UTC
     </div>
 </div>
 

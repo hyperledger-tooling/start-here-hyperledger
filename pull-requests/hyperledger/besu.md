@@ -14,6 +14,129 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4728" class=".btn">#4728</a>
+            </td>
+            <td>
+                <b>
+                    [Shandong] Update bootnodes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Update Shandong boot nodes according those in the [Shandong Management Meta Issue](https://github.com/ethereumjs/ethereumjs-monorepo/issues/2375) from _ethereumjs_
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+
+Signed-off-by: Diego López León <dieguitoll@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-23 17:52:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4727" class=".btn">#4727</a>
+            </td>
+            <td>
+                <b>
+                    Add option to skip nonce validation on private transactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+privacy-validate-private-transactions is enabled by default, but there are situations where you may want to allow the private transactions to still be processed. For instance, if you have a separate validator where the PMT is valid, but the validator doesn't know the private transaction is invalid.
+
+
+## Fixed Issue(s)
+Some mitigation for https://github.com/hyperledger/besu/issues/614
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+
+Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-23 16:46:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4726" class=".btn">#4726</a>
+            </td>
+            <td>
+                <b>
+                    [Shandong] EIP-3860 support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Shandong supports [EIP-3860](https://eips.ethereum.org/EIPS/eip-3860) and the first block to fail without this is [block 188](https://explorer.shandong.ethdevops.io/block/188)
+
+As with the other calculators, the testing is expected to be part of the [ethereum/tests](https://github.com/ethereum/tests) suite. 
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+
+Signed-off-by: Diego López León <dieguitoll@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-23 15:24:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4724" class=".btn">#4724</a>
             </td>
             <td>
@@ -427,7 +550,7 @@ https://github.com/hyperledger/besu-docs/pull/1205
             </td>
             <td>
                 <b>
-                    Fix EOFv1 validation
+                    [Shandong] Fix EOFv1 validation
                 </b>
             </td>
         </tr>
@@ -717,7 +840,17 @@ since the logs were keeping reference to blocks sent by newPayload, that causes 
 
 ## PR description
 
-The idea of this PR is to have a consistent and correct flat database after the snapsync in order to be able to use it during transactions and therefore no longer browse the tree. This will improve the performance of the SLOAD and Besu in general
+The idea of this PR is to have a consistent and correct flat database after the snapsync and fastsync in order to be able to use it during transactions and therefore no longer browse the tree. This will improve the performance of the SLOAD and Besu in general
+
+This PR can also improved the performance of  fullsync bonsai node and tracing
+
+You need to resync the worldstate to see better performance
+
+Tests :
+  - 3 mainnet node during severals days (snapsync)
+  - 3 goerli node during severals days (snapsync)
+  - 1 mainnet node during severals days (fastsync)
+
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
