@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: Gabriel Trintinalia <gabriel.trintinalia@gmail.com>
@@ -983,32 +983,6 @@ Signed-off-by: Diego López León <dieguitoll@gmail.com>
     </table>
     <div class="right-align">
         Created At 2022-11-17 11:11:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4687" class=".btn">#4687</a>
-            </td>
-            <td>
-                <b>
-                    WIP - default methods in Protocol Schedule
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is just a spike. This branch will get most probably abandoned in the future
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-16 10:02:45 +0000 UTC
     </div>
 </div>
 
