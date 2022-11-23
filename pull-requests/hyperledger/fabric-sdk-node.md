@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/625" class=".btn">#625</a>
+            </td>
+            <td>
+                <b>
+                    Add testing with Node 18 (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                @ampretia/x509 package does not work with Node 18 so changed to use jsrsasign to decode X.509 certificates in tests. This mostly works fine but seems to truncate non-standard extension values so some testing for custom attributes in CA enrollment are commented out for now.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-22 18:57:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/624" class=".btn">#624</a>
             </td>
             <td>
@@ -53,7 +79,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                <nil>
+                @ampretia/x509 package does not work with Node 18 so changed to use jsrsasign to decode X.509 certificates in tests. This mostly works fine but seems to truncate non-standard extension values so some testing for custom attributes in CA enrollment are commented out for now.
             </td>
         </tr>
     </table>

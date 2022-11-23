@@ -1,13 +1,13 @@
 
+[4722](https://github.com/hyperledger/besu/pull/4722) Treat nonces as quantities
+
+[4721](https://github.com/hyperledger/besu/pull/4721) Fix OpenTelemetry disabling in MetricsSystemFactory
+
+[2022](https://github.com/hyperledger/aries-cloudagent-python/pull/2022) Multi-ledger/Multi-tenant issues
+
+[625](https://github.com/hyperledger/fabric-sdk-node/pull/625) Add testing with Node 18 (release-2.2)
+
 [166](https://github.com/hyperledger/fabric-protos/pull/166) Remove Azure Pipelines artifacts (backport #161)
-
-[165](https://github.com/hyperledger/fabric-protos/pull/165) Remove Azure Pipelines artifacts (backport #161)
-
-[164](https://github.com/hyperledger/fabric-protos/pull/164) Update doc to reflect new branching strategy
-
-[3804](https://github.com/hyperledger/fabric/pull/3804) remove sys-chan from e2e integration test
-
-[8](https://github.com/hyperledger-labs/cckit/pull/8) Envelop extesion
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
