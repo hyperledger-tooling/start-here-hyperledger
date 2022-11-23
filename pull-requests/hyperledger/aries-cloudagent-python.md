@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2024" class=".btn">#2024</a>
+            </td>
+            <td>
+                <b>
+                    Add ability to set docker container name
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I'm using setting names when running more containers locally so they can easily connect to each other with network names (like `http://aries_holder:8000/`).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-23 13:46:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2022" class=".btn">#2022</a>
             </td>
             <td>
