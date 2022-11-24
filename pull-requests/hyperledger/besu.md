@@ -145,7 +145,7 @@ Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 ## PR description
@@ -321,7 +321,7 @@ java.lang.IllegalStateException: GlobalOpenTelemetry.set has already been called
         </tr>
         <tr>
             <td>
-                <span class="chip">syncing</span>
+                <span class="chip">mainnet</span><span class="chip">syncing</span>
             </td>
             <td>
                 Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
@@ -367,7 +367,7 @@ Do not send new payloads to backward sync if initial sync is in progress, since 
         </tr>
         <tr>
             <td>
-                <span class="chip">syncing</span>
+                <span class="chip">mainnet</span><span class="chip">syncing</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -594,7 +594,7 @@ https://github.com/hyperledger/besu-docs/pull/1205
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 ## PR description
