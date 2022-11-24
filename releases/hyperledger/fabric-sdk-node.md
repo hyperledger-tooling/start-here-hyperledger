@@ -15,30 +15,31 @@ permalink: /releases/hyperledger/fabric-sdk-node
         <tr>
             <td colspan="2">
                 <b>
-                    v2.2.15
+                    v2.2.16
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.2.15
+                    v2.2.16
                 </span>
             </td>
             <td>
-                This is a maintenance release containing the following changes:
+                ## What's Changed
+* Downgrade nano dependency (used only for CouchDB wallets) to maintain compatibility with Node 10 and 12 by @bestbeforetoday in https://github.com/hyperledger/fabric-sdk-node/pull/624
+* Add support for Node 18 LTS by @bestbeforetoday in https://github.com/hyperledger/fabric-sdk-node/pull/625
 
-- Update dependencies to address a gRPC bug that could cause pings to be sent on destroyed HTTP sessions, resulting in an ERR_HTTP2_INVALID_SESSION error.
 
-**Full Changelog**: https://github.com/hyperledger/fabric-sdk-node/compare/v2.2.14...v2.2.15
+**Full Changelog**: https://github.com/hyperledger/fabric-sdk-node/compare/v2.2.15...v2.2.16
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-sdk-node/releases/tag/v2.2.15" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-sdk-node/releases/tag/v2.2.16" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-09-05 12:25:03 +0000 UTC
+        Created At 2022-11-24 10:49:28 +0000 UTC
     </span>
 </div>
 
