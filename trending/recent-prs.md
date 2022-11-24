@@ -1,13 +1,13 @@
 
-[4729](https://github.com/hyperledger/besu/pull/4729) Remove redundant evmBuilder override
+[289](https://github.com/hyperledger/iroha-java/pull/289) update to lts23fb420
 
-[848](https://github.com/hyperledger-labs/business-partner-agent/pull/848) Bump postgresql from 42.5.0 to 42.5.1 in /backend/business-partner-agent
+[1080](https://github.com/hyperledger/solang/pull/1080) Substrate support contracts node v0 22
 
-[2965](https://github.com/hyperledger/iroha/pull/2965) [fix] #2858: Introduce parking_lot::Mutex instead of std.
+[288](https://github.com/hyperledger/iroha-java/pull/288) update to lts23fb420
 
-[4728](https://github.com/hyperledger/besu/pull/4728) [Shandong] Update bootnodes
+[629](https://github.com/hyperledger/fabric-sdk-node/pull/629) Resume snapshot publishing following release
 
-[4727](https://github.com/hyperledger/besu/pull/4727) Add option to skip nonce validation on private transactions
+[628](https://github.com/hyperledger/fabric-sdk-node/pull/628) Remove redundant nano test dependency
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

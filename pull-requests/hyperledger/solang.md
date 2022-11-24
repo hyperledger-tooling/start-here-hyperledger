@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1080" class=".btn">#1080</a>
+            </td>
+            <td>
+                <b>
+                    Substrate support contracts node v0 22
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-24 11:38:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1079" class=".btn">#1079</a>
             </td>
             <td>
@@ -141,34 +167,6 @@ The context for this PR is that I need to retrieve the item name from its index 
     </table>
     <div class="right-align">
         Created At 2022-11-17 18:59:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1072" class=".btn">#1072</a>
-            </td>
-            <td>
-                <b>
-                    Rename ast::Expression::AllocDynamicArray to AllocDynamicBytes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The CFG expression was already renamed, rename the AST expression to match.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-17 10:50:06 +0000 UTC
     </div>
 </div>
 

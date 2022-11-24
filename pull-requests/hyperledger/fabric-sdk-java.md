@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
                 
             </td>
             <td>
-                - Set the default core and maximum thread pool size to Runtime.getRuntime().availableProcessors().
+                - Set the default core and maximum thread pool size to Runtime.getRuntime().availableProcessors() + 1.
 - Use a fixed thread pool using the larger of core or maximum thread pool, and an unbounded queue to prevent failures submitting work when all threads are in use.
 - Make HFClient.getExecutorService() public.
 
@@ -57,7 +57,7 @@ The default (effectively) unlimited thread pool size could cause so many threads
                 
             </td>
             <td>
-                - Set the default core and maximum thread pool size to Runtime.getRuntime().availableProcessors().
+                - Set the default core and maximum thread pool size to Runtime.getRuntime().availableProcessors() + 1.
 - Use a fixed thread pool using the larger of core or maximum thread pool, and an unbounded queue to prevent failures submitting work when all threads are in use.
 - Make HFClient.getExecutorService() public.
 
