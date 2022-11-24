@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/688" class=".btn">#688</a>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/689" class=".btn">#689</a>
             </td>
             <td>
                 <b>
-                    Add HLGF22 demo
+                    Update env.sh
                 </b>
             </td>
         </tr>
@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
                 
             </td>
             <td>
-                Signed-off-by: Marcus Brandenburger <bur@zurich.ibm.com>
+                Signed-off-by: Ravi Singh <59569106+singhravipratap@users.noreply.github.com>
 
 <!--  Thanks for sending a pull request!  Here are some tips for you:
 
@@ -44,28 +44,26 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
 -->
 
 **What this PR does / why we need it**:
+Fix code typo in the file env.sh
 
 **Which issue(s) this PR fixes**:
 <!--
-  list existing bug, feature and/or work-item which this PR addresses.
-  You might also consider creating an issue first for the PR.
--->
+If trying to access the Org2 client then there are error stating "Failed to populate wallet contents:"
+ -->
 Fixes #
+fixed the type error.
+export ORG_PATH=\$CONF_PATH/peerOrganizations/${ORG,,}.example.com" >> ${ORG}.env
 
-**Special notes for your reviewer**:
 
-**Does this PR introduce a user-facing changes and/or breaks backward compatability?**:
-<!--
-  If no, you can delete this section
-  If yes, describe what changes and/or what breaks ..
--->
+
+
 ```
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-11 22:02:27 +0000 UTC
+        Created At 2022-11-24 16:28:58 +0000 UTC
     </div>
 </div>
 

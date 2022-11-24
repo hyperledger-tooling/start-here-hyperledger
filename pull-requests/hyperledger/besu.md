@@ -56,44 +56,6 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4729" class=".btn">#4729</a>
-            </td>
-            <td>
-                <b>
-                    Remove redundant evmBuilder override
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-This PR removes forcing the evmBuilder for post merge networks
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-
-Signed-off-by: Diego López León <dieguitoll@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-23 22:56:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4728" class=".btn">#4728</a>
             </td>
             <td>
@@ -1124,42 +1086,6 @@ Also moves isolation test setup into an abstract class, and adds a new BonsaiInM
     </table>
     <div class="right-align">
         Created At 2022-11-18 06:11:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4697" class=".btn">#4697</a>
-            </td>
-            <td>
-                <b>
-                    Spike Spring Boot
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                What if we would use a Spring Dependency Injection instead of our Builders?
-What if we would only depend on mainnet parts of Besu project?
-
-These and other questions might be answered in this PR. 
-
-This is a first runabout and as such - It does not work yet. 
-But it will...
-Hopefully...
-
-This PR creates a new subdirectory of besu where we depend on besu.
-The Spring does not leak into besu code at the moment. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-17 15:42:31 +0000 UTC
     </div>
 </div>
 
