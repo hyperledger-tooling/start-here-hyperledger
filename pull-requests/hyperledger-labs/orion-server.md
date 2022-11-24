@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/469" class=".btn">#469</a>
+            </td>
+            <td>
+                <b>
+                    Remove redundant lock
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                There is no reason to lock `transactionProcessor` because the `blockReplicator` uses its own lock.
+This causes a longer hold of the `transactionProcessor` lock, which is the single contention point of the TX processing.
+
+Signed-off-by: Liran Funaro <liran.funaro@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-24 13:53:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/467" class=".btn">#467</a>
             </td>
             <td>
