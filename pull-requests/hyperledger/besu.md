@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4730" class=".btn">#4730</a>
+            </td>
+            <td>
+                <b>
+                    Implement eth/68 (EIP-5793)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-24 07:33:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4729" class=".btn">#4729</a>
             </td>
             <td>
@@ -107,9 +149,11 @@ Signed-off-by: Diego López León <dieguitoll@gmail.com>
 
 privacy-validate-private-transactions is enabled by default, but there are situations where you may want to allow the private transactions to still be processed. For instance, if you have a separate validator where the PMT is valid, but the validator doesn't know the private transaction is invalid.
 
+Enabling this option could potentially cause your private state to diverge from one another. If you wish to enable this option it is recommended that you re-sync all nodes your network after you do so. 
 
 ## Fixed Issue(s)
 Some mitigation for https://github.com/hyperledger/besu/issues/614
+Fixes https://github.com/hyperledger/besu/issues/1942
 
 ## Documentation
 
@@ -1116,44 +1160,6 @@ The Spring does not leak into besu code at the moment.
     </table>
     <div class="right-align">
         Created At 2022-11-17 15:42:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4694" class=".btn">#4694</a>
-            </td>
-            <td>
-                <b>
-                    Skip javadocs and sources checksum
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Ignore javadocs and sources verification to avoid IDE errors
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-
-Signed-off-by: Diego López León <dieguitoll@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-17 11:11:49 +0000 UTC
     </div>
 </div>
 

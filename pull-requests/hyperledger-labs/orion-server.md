@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/466" class=".btn">#466</a>
-            </td>
-            <td>
-                <b>
-                    parallel validation of txs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: senthil <cendhu@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-17 07:23:29 +0000 UTC
-    </div>
-</div>
-
