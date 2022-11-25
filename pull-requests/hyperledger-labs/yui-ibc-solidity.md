@@ -36,33 +36,3 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/128" class=".btn">#128</a>
-            </td>
-            <td>
-                <b>
-                    Update openzepplin-solidity to @openzepplin/contracts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Since openzepplin-solidity is deprecated as part of NPM documentation
-
-https://www.npmjs.com/package/openzeppelin-solidity
-
-Signed-off-by: Jinank Jain <jinank94@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-18 07:33:19 +0000 UTC
-    </div>
-</div>
-
