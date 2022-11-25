@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/331" class=".btn">#331</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/335" class=".btn">#335</a>
             </td>
             <td>
                 <b>
-                    request attestation endpoint implemented
+                    Relay Improvements and Protos Rust module
                 </b>
             </td>
         </tr>
@@ -27,19 +27,13 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                - implemented request attestation endpoint under local operations for iin agent
-- implemented some minor bug fixes in localserver.ts and server.ts
-- added test for 2 iin agents in workflow and implemented some minor bug fixes in the test for 2 iin agents
-- minor updates to the docker-testnet environment files
-- added dns config file involving 2 iin agents
-- minor updates to the documentation for installing the Go code generator plugins for protobuf-compiler
-
-Signed-off-by: Sikhar Patranabis <sikhar.patranabis@ibm.com>
+                1. Fixed #332 
+2. Fixed #174 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-15 06:15:10 +0000 UTC
+        Created At 2022-11-24 19:44:04 +0000 UTC
     </div>
 </div>
 
