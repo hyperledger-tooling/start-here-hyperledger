@@ -116,29 +116,3 @@ Signed-off-by: akostiucenko <kostiuchenko@soramitsu.co.jp>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/284" class=".btn">#284</a>
-            </td>
-            <td>
-                <b>
-                    docker image was added to README
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: akostiucenko <kostiuchenko@soramitsu.co.jp>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-18 05:44:44 +0000 UTC
-    </div>
-</div>
-

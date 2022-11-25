@@ -664,39 +664,3 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3790" class=".btn">#3790</a>
-            </td>
-            <td>
-                <b>
-                    Fix orderer Dockerfile for /etc/nsswitch.conf
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Make orderer Dockerfile consistent with peer Dockerfile with respect to /etc/nsswitch.conf.
-
-The orderer Dockerfile stopped working with alpine 3.16.3 (November 12 release), since etc/nsswitch.conf was added to the alpine image.
-
-The new alpine etc/nsswitch.conf file content is the same as what Fabric has been adding to the image, so we'll keep the Fabric file content in case the Dockerfile is used on other platforms.
-
-Relevant Alpine 3.16.3 commit:
-https://git.alpinelinux.org/aports/commit/?h=v3.16.3&id=348653a9ba0701e8e968b3344e72313a9ef334e4
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-18 04:08:59 +0000 UTC
-    </div>
-</div>
-
