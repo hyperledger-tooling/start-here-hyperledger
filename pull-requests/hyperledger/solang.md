@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1080" class=".btn">#1080</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1081" class=".btn">#1081</a>
             </td>
             <td>
                 <b>
-                    Substrate support contracts node v0 22
+                    Encode custom width integers using the next power of two width
                 </b>
             </td>
         </tr>
@@ -27,7 +27,39 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                The Anchor IDL does not support custom width integers. Instead of creating a user-defined type for them, we will encode them using the smaller integer width greater than the given one.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-24 18:51:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1080" class=".btn">#1080</a>
+            </td>
+            <td>
+                <b>
+                    Substrate: Support contracts node v0.22
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Change the linker to use stabilized APIs for any remaining `__unstable__`
+- Update integration tests:
+  - Introduce a helper for the (currently) broken contracts `query` API
+  - Use `WeightV2` for gas limits
+  - Use estimated gas from dry run instead of hardcoded value
+  - Compile test contracts in parallel
+- Updates to the `latest` contracts CI image for pallet contracts v0.22.1. I'm aware that this is not ideal but it's what's available right now. There shouldn't be a breaking release soon, we can switch to `production` as soon as its here.
             </td>
         </tr>
     </table>
@@ -139,34 +171,6 @@ Also a lot of examples contained syntactical errors, I fixed everything. Additio
     </table>
     <div class="right-align">
         Created At 2022-11-18 13:33:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1074" class=".btn">#1074</a>
-            </td>
-            <td>
-                <b>
-                    Use IndexMap for enum declaration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Previously, we had a `HashMap<String, (Loc, usize)>` to save the items of an enumeration. Retrieving the item name having its index is awful, so I changed the structure to `IndexMap<String, Loc>`, from which we can retrieve its name and Loc when we index it with an `usize`.
-
-The context for this PR is that I need to retrieve the item name from its index when generating the Anchor IDL from a Solidity contract.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-17 18:59:04 +0000 UTC
     </div>
 </div>
 

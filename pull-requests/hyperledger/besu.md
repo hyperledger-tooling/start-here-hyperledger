@@ -14,6 +14,83 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4733" class=".btn">#4733</a>
+            </td>
+            <td>
+                <b>
+                    [Shandong] Turn PUSH0 valid for EOF1 validation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span>
+            </td>
+            <td>
+                ## PR description
+Shandong implements [EIP-3855](https://eips.ethereum.org/EIPS/eip-3855) (PUSH0 instruction) and must be considered as valid opcode for EOFv1 validation.
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+
+Signed-off-by: Diego López León <dieguitoll@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-24 23:46:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4732" class=".btn">#4732</a>
+            </td>
+            <td>
+                <b>
+                    Fix attempt to send unsupported message (13) via cap eth/67
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+WorldStatePeerTrieNodeFinder - Do not call GetNodeData if the protocol version is greater than Eth66
+
+## Fixed Issue(s)
+fixes #4731
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-24 23:16:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4730" class=".btn">#4730</a>
             </td>
             <td>
@@ -66,7 +143,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 ## PR description
