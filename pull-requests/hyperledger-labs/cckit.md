@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/cckit
             </td>
             <td>
                 <b>
-                    Envelop extesion
+                    Envelope extension
                 </b>
             </td>
         </tr>
