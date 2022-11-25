@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2030" class=".btn">#2030</a>
+            </td>
+            <td>
+                <b>
+                    Special handling for the write ledger
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
+
+Issue https://github.com/hyperledger/aries-cloudagent-python/issues/2002
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-25 18:19:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2026" class=".btn">#2026</a>
             </td>
             <td>
