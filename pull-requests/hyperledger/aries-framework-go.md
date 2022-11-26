@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-framework-go
             </td>
             <td>
                 <b>
-                    feat: command controller for wallet.SIgnJWT
+                    feat: command controller for wallet.SignJWT
                 </b>
             </td>
         </tr>

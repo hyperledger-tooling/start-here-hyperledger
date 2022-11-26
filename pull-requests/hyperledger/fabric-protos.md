@@ -310,39 +310,3 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/157" class=".btn">#157</a>
-            </td>
-            <td>
-                <b>
-                    Update Go bindings build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The Go publish step is not currently deleting files, which it should
-e.g. the now unused .whitelist file in fabric-protos-go
-
-The repos used to publish the Go bindings should not have issue
-tracking turned on so adding GitHub settings.yml file to make sure
-the correct settings stay in place
-
-Also merged the two Go workflows into one to remove some of the
-duplication
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-18 18:24:59 +0000 UTC
-    </div>
-</div>
-
