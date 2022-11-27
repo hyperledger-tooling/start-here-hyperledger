@@ -27,8 +27,8 @@ permalink: /pull-requests/hyperledger-labs/orion-server
                 
             </td>
             <td>
-                There is no reason to lock `transactionProcessor` because the `blockReplicator` uses its own lock.
-This causes a longer hold of the `transactionProcessor` lock, which is the single contention point of the TX processing.
+                Using locks causes a long hold of the `transactionProcessor` lock, which is the single contention point of the TX processing.
+It can be avoided because the `blockReplicator` uses its own lock and by making `pendingTxs` lock-free.
 
 Signed-off-by: Liran Funaro <liran.funaro@gmail.com>
             </td>
