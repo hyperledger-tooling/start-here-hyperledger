@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/222" class=".btn">#222</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/223" class=".btn">#223</a>
             </td>
             <td>
                 <b>
-                    Fabric Topologies
+                    add fabric-netkit lab
                 </b>
             </td>
         </tr>
@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                Signed-off-by: Alex Olaru <alexander.olaru@alphaledger.com>
+                Signed-off-by: vitiko <vitiko@mail.ru>
 
 ## Checklist for Hyperledger Lab Proposal PR
 
@@ -43,7 +43,7 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-18 13:14:41 +0000 UTC
+        Created At 2022-11-27 14:54:21 +0000 UTC
     </div>
 </div>
 
