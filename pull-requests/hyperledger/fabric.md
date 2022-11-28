@@ -109,35 +109,6 @@ Signed-off-by: David Enyeart [enyeart@us.ibm.com](mailto:enyeart@us.ibm.com)
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3806" class=".btn">#3806</a>
-            </td>
-            <td>
-                <b>
-                    Update fabric-protos-go to v0.1.6
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fabric-protos-go v0.1.6 has been released for Fabric v2.4.x.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-23 15:43:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3804" class=".btn">#3804</a>
             </td>
             <td>

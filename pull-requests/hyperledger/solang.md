@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 <b>
-                    Improve Substate CI reliability and other fixes
+                    Improve CI and other fixes
                 </b>
             </td>
         </tr>
@@ -27,8 +27,7 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                - Increase Substrate timeout - I am not sure it will work, worth a try?
-- Solang CI already has python3, no need to install
+                - Solang CI already has python3, no need to install
 - Docs needs git
 - solang.io domain no longer registered (expired)
 - Do not use ^ for crates
