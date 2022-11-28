@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1085" class=".btn">#1085</a>
+            </td>
+            <td>
+                <b>
+                    Improve Substate CI reliability and other fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Increase Substrate timeout - I am not sure it will work, worth a try?
+- Solang CI already has python3, no need to install
+- Docs needs git
+- solang.io domain no longer registered (expired)
+- Do not use ^ for crates
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-28 09:14:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1082" class=".btn">#1082</a>
             </td>
             <td>
@@ -121,32 +151,6 @@ I can't find any release notes for `inkwell`? I guess since everything green on 
     </table>
     <div class="right-align">
         Created At 2022-11-22 13:19:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1078" class=".btn">#1078</a>
-            </td>
-            <td>
-                <b>
-                    Use named fields for casts in ast::Expression
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-21 08:46:47 +0000 UTC
     </div>
 </div>
 
