@@ -15,30 +15,29 @@ permalink: /releases/hyperledger-labs/weaver-dlt-interoperability
         <tr>
             <td colspan="2">
                 <b>
-                    Release Version 1.5: Nov 15, 2022
+                    v1.5.3 - GO Weaver Protos - Nov 28, 2022
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    1.5.0
+                    common/protos-go/v1.5.3
                 </span>
             </td>
             <td>
-                - IIN-Agents added for Hyperledger Fabric based networks.
-- Modules:
-    - [IIN Agent Docker Image: 1.5.3](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pkgs/container/weaver-iin-agent)
-    - [Fabric Weaver Chaincode Docker Image: 1.5.2](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pkgs/container/weaver-fabric-cc) OR [Fabric Weaver Chaincode Go Module: 1.5.2](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core%2Fnetwork%2Ffabric-interop-cc%2Fcontracts%2Finterop%2Fv1.5.2)
-    - [Fabric Weaver SDK: 1.5.2](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pkgs/npm/weaver-fabric-interop-sdk)
+                - Go Module: `github.com/hyperledger-labs/weaver-dlt-interoperability/common/protos-go`
+- Release: v1.5.3
+- Readme: [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/common/protos-go/v1.5.3/common/protos-go/README.md).
+- Source: [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/common/protos-go/v1.5.3/common/protos-go)
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/1.5.0" class=".btn">
+    <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/common/protos-go/v1.5.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-11-15 08:14:15 +0000 UTC
+        Created At 2022-11-28 05:36:56 +0000 UTC
     </span>
 </div>
 
