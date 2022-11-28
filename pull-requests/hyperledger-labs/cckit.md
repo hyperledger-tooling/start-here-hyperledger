@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/cckit
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/cckit/pull/9" class=".btn">#9</a>
+            </td>
+            <td>
+                <b>
+                    Add replay attack checks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Same signature can be used multiple times to execute a function. 
+This can be harmful if the signer's intention was to approve a transaction once.
+
+Signed-off-by: olaeseane <olaesean@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-28 08:40:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/cckit/pull/8" class=".btn">#8</a>
             </td>
             <td>

@@ -193,7 +193,7 @@ fix a minor typo in `NONCE_TOO_FAR_IN_FUTURE_FOR_SENDER `
             </td>
             <td>
                 <b>
-                    Nearhead checkpoint sync
+                    Near head checkpoint sync
                 </b>
             </td>
         </tr>
