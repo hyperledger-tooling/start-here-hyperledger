@@ -1,13 +1,13 @@
 
-[197](https://github.com/hyperledger/sawtooth-docs/pull/197) Update lifecycle status and link
+[2978](https://github.com/hyperledger/iroha/pull/2978) [feature]: #2231 Generate FFI wrapper API
 
-[3435](https://github.com/hyperledger/aries-framework-go/pull/3435) feat: wallet VerifyJWT API to verify compact jwt using DID.
+[4744](https://github.com/hyperledger/besu/pull/4744) [WORK IN PROGRESS] flat database filling pruning 
 
-[439](https://github.com/hyperledger-labs/fabric-smart-client/pull/439) key validation removal
+[653](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/653) Update CarbonTracker contract and api-server synchronizer.
 
-[1085](https://github.com/hyperledger/solang/pull/1085) Improve CI and other fixes
+[4743](https://github.com/hyperledger/besu/pull/4743) Spike transition schedule
 
-[9](https://github.com/hyperledger-labs/cckit/pull/9) Add replay attack checks
+[4742](https://github.com/hyperledger/besu/pull/4742) Implement EIP 3860
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
