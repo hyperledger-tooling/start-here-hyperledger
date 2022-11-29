@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3813" class=".btn">#3813</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Update purge private data integration tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Ensure previously purge private data can be recreated without being purged
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-29 17:35:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3810" class=".btn">#3810</a>
             </td>
             <td>
@@ -102,43 +131,6 @@ Signed-off-by: David Enyeart [enyeart@us.ibm.com](mailto:enyeart@us.ibm.com)
     </table>
     <div class="right-align">
         Created At 2022-11-23 16:23:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3804" class=".btn">#3804</a>
-            </td>
-            <td>
-                <b>
-                    remove sys-chan from e2e integration test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Change-Id: Ib2a13c26ef48fedae5a69e5ee4c9bad95dfd56d3
-
-#### Type of change
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-Removing system channel usage from integration tests
-
-#### Related issues
-Epic: #3511 
-Issue: #3515 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-22 16:04:39 +0000 UTC
     </div>
 </div>
 

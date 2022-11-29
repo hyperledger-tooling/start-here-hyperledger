@@ -1,13 +1,13 @@
 
-[3436](https://github.com/hyperledger/aries-framework-go/pull/3436) refactor: Minimize interfaces required by didsignjwt.SignJWT
+[3813](https://github.com/hyperledger/fabric/pull/3813) [WIP] Update purge private data integration tests
 
-[2978](https://github.com/hyperledger/iroha/pull/2978) [feature]: #2231 Generate FFI wrapper API
+[68](https://github.com/hyperledger-labs/business-partner-agent-chart/pull/68) Updated appVersion to latest BPA commit hash
 
-[4744](https://github.com/hyperledger/besu/pull/4744) [WORK IN PROGRESS] flat database filling pruning 
+[260](https://github.com/hyperledger/fabric-chaincode-java/pull/260) Add in a publish to the gha repo
 
-[653](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/653) Update CarbonTracker contract and api-server synchronizer.
+[244](https://github.com/hyperledger/fabric-sdk-java/pull/244) Update dependencies
 
-[4743](https://github.com/hyperledger/besu/pull/4743) Spike transition schedule
+[243](https://github.com/hyperledger/fabric-sdk-java/pull/243) Release v2.2.19
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

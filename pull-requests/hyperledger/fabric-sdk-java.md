@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/244" class=".btn">#244</a>
+            </td>
+            <td>
+                <b>
+                    Update dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-29 15:32:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/243" class=".btn">#243</a>
+            </td>
+            <td>
+                <b>
+                    Release v2.2.19
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-29 15:10:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/242" class=".btn">#242</a>
             </td>
             <td>
@@ -62,6 +114,8 @@ The default (effectively) unlimited thread pool size could cause so many threads
 - Make HFClient.getExecutorService() public.
 
 The default (effectively) unlimited thread pool size could cause so many threads to be created under high event load that system failures could occur.
+
+Relates to hyperledger/fabric-gateway-java#124
             </td>
         </tr>
     </table>

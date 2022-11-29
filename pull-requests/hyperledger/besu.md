@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4748" class=".btn">#4748</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Near head checkpoint sync better peering
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-29 13:12:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4744" class=".btn">#4744</a>
             </td>
             <td>
@@ -216,7 +258,48 @@ Remove deprecated method isEqualToIgnoringGivenFields from the package org.asser
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
+Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+Co-authored-by: Ameziane H <ameziane.hamlat@consensys.net>
+
 ## PR description
+The idea behind this PR is to preload asynchronously account nodes and storage nodes from the database during the commit step to use these nodes during persist step.
+We've created two caches, one for account nodes and one for storage nodes. The size of these caches is 100k for accounts and 200k for storage. We've tested other values but this configuration is the one that works better.
+We also exporter cache metrics as Prometheus metrics to check cache efficiency.
+
+We didn't see any impact on GC activity even on 4 GiB Heaps (-Xmx4g).
+
+### The results
+We did our tests on different AWS EC instances, here're the results. 
+
+**M6a.xlarge** (4 vCPU, 16 GiB)
+Block processing time is 34% better for median values and 41% better for 95th percentile.
+
+<img width="1629" alt="image" src="https://user-images.githubusercontent.com/5099602/204573790-1eaad42d-2328-4282-b963-859a31ce81f7.png">
+
+
+**M5.xlarge** (4 vCPU, 16 GiB)
+Block processing time is 28% better for median values and 95th percentile.
+
+<img width="1629" alt="image" src="https://user-images.githubusercontent.com/5099602/204574962-75d56150-fe13-4849-9d05-034cb1dd8343.png">
+
+
+**I3.2xlarge** (8 vCPU, 61 GiB)
+Block processing time is 21% better for median values and 95th percentile.
+
+<img width="1629" alt="image" src="https://user-images.githubusercontent.com/5099602/204575720-2cf3b0da-5ab4-4a77-a20d-5d6667a042f4.png">
+
+
+
+**Cache Efficiency**
+We can see in the screenshots below that these two caches are very efficient (>99%) and increasing storage cache size more than 200k is not necessary.
+
+Account cache size = 100k and Storage cache size = 200k
+<img width="1644" alt="image" src="https://user-images.githubusercontent.com/5099602/204576899-b19496f2-5e6b-418e-8907-66f0ccedb1b1.png">
+
+Account cache size = 100k and Storage cache size = 1 million
+<img width="1644" alt="image" src="https://user-images.githubusercontent.com/5099602/204577704-98d2279d-e139-4c7b-bb70-364560274c4b.png">
+
+  
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -707,52 +790,6 @@ java.lang.IllegalStateException: GlobalOpenTelemetry.set has already been called
     </table>
     <div class="right-align">
         Created At 2022-11-22 20:52:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4720" class=".btn">#4720</a>
-            </td>
-            <td>
-                <b>
-                    Do not send new payloads to backward sync if initial sync is in progress
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span><span class="chip">syncing</span>
-            </td>
-            <td>
-                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Do not send new payloads to backward sync if initial sync is in progress, since repivoting the initial sync will be very close to the chain head at the end, and so storing new payloads in the backward sync chain has no advantages, and only consumes resources, since most of them will be ignored when the backwars sync starts after the initial sync.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-22 14:46:46 +0000 UTC
     </div>
 </div>
 
