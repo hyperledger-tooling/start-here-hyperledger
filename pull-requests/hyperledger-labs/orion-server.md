@@ -39,29 +39,3 @@ Signed-off-by: Liran Funaro <liran.funaro@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/467" class=".btn">#467</a>
-            </td>
-            <td>
-                <b>
-                    Access control on writing user records - restrictive
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: May Rosenbaum <mayro1595@gmail.com> #456 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-22 11:49:19 +0000 UTC
-    </div>
-</div>
-
