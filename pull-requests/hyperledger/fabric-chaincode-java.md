@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/259" class=".btn">#259</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/260" class=".btn">#260</a>
             </td>
             <td>
                 <b>
-                    Move inactive maintainers to emeritus status
+                    Add in a publish to the gha repo
                 </b>
             </td>
         </tr>
@@ -27,21 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                The TOC approved a requirement that maintainers
-that have not been active in over three to six
-months be move to emeritus status.
-
-These maintainers have not been active in over
-one year.
-
-hyperledger/toc#32
-
-Signed-off-by: Ry Jones <ry@linux.com>
+                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-18 18:56:29 +0000 UTC
+        Created At 2022-11-29 15:48:20 +0000 UTC
     </div>
 </div>
 
