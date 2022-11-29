@@ -44,7 +44,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             </td>
             <td>
                 <b>
-                    Extensions
+                    various enhancements
                 </b>
             </td>
         </tr>

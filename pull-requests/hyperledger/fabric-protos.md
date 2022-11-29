@@ -238,39 +238,3 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>                        -->
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/160" class=".btn">#160</a>
-            </td>
-            <td>
-                <b>
-                    Enable GitHub actions builds on 0.1.x
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Backport binding template directory and build files
-- Set version to 0.1.6
-- Update workflows to run on the 0.1.x branch
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-
-<!--- IMPORTANT: DO NOT modify or disable lint rules without agreeing changes in an issue first! -->
-<!--- Any changes to lint rules and breaking change detection should be made in a separate pull  -->
-<!--- request with an associated issue.                                                          -->
-<!--- Please include a link to the issue in the pull request and DO NOT adjust lint rules to fix -->
-<!--- build breaks when submitting any other pull requests.                                      -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-22 10:39:33 +0000 UTC
-    </div>
-</div>
-

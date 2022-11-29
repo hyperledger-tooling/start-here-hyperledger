@@ -43,31 +43,3 @@ Introduce CarbonTracker event detection in api-serve synchronizer.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/652" class=".btn">#652</a>
-            </td>
-            <td>
-                <b>
-                    added besu network configuration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Aditya Joshi <adityaprakashjoshi1@gmail.com>
-
-Added besu network configuration in hardhat config file
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-22 07:25:52 +0000 UTC
-    </div>
-</div>
-
