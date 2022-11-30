@@ -14,7 +14,33 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/591" class=".btn">#591</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/602" class=".btn">#602</a>
+            </td>
+            <td>
+                <b>
+                    chore: update afgo images to go 1.19
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-29 20:46:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/601" class=".btn">#601</a>
             </td>
             <td>
                 <b>
@@ -32,33 +58,7 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-10 04:02:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/590" class=".btn">#590</a>
-            </td>
-            <td>
-                <b>
-                    fix(javascript): remove call to nonce generation method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This fixes an import issue in AFJ backchannel that was introduced since aries-framework-javascript [v0.3.0-alpha.8](https://github.com/hyperledger/aries-framework-javascript/releases/tag/v0.3.0-alpha.8).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-03 15:44:31 +0000 UTC
+        Created At 2022-11-29 04:17:27 +0000 UTC
     </div>
 </div>
 

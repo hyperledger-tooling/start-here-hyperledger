@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/328" class=".btn">#328</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/331" class=".btn">#331</a>
             </td>
             <td>
                 <b>
-                    fix path error
+                    Build release packages for arm64 CLI binaries
                 </b>
             </td>
         </tr>
@@ -27,60 +27,30 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                Signed-off-by: Tekin Tian <tekintian@gmail.com>
-
-<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
-
-<!--- Provide a descriptive summary of your changes in the Title above. -->
+                Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
 
 #### Type of change
 
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
 - New feature
-- Improvement (improvement to code, performance, etc)
-- Test update
-- Documentation update
 
 #### Description
 
-<!--- Describe your changes in detail, including motivation. -->
+- Generates arm64 CLI binaries for linux and darwin.
 
 #### Additional details
 
-<!--- Additional implementation details or comments to reviewers. -->
-<!--- Summarize how the pull request was tested (if not obvious from commit). -->
+This PR compiles sqlite3 using CGO on the various platforms.  
 
 #### Related issues
 
-<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
+- https://github.com/hyperledger/fabric/issues/2994
 
-<!---
-#### Release Note
-If change impacts current users, uncomment Release Note heading and provide
-release note text.
--->
-
-<!--
-Checklist (DELETE AFTER READING):
-
-- `Signed-off-by` added to commits (required for DCO check to pass)
-- Tests have been added/updated (required for bug fixes and features)
-- Unit and/or integration tests pass locally
-- Run linters and checks locally using 'make checks'
-- If change requires documentation updates, make updates in pull request,
-  or open a separate issue and provide link
-- Squash commits into a single commit, unless a stack of commits is
-  intentional to assist reviewers or to preserve review comments.
-- For additional contribution guidelines see the project's CONTRIBUTING.md file
--->
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-13 03:48:37 +0000 UTC
+        Created At 2022-11-29 20:40:32 +0000 UTC
     </div>
 </div>
 

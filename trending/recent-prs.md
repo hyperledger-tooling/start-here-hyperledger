@@ -1,13 +1,13 @@
 
-[3813](https://github.com/hyperledger/fabric/pull/3813) [WIP] Update purge private data integration tests
+[2981](https://github.com/hyperledger/iroha/pull/2981) [fix] #2816: Move responsibility of access to blocks to kura.
 
-[68](https://github.com/hyperledger-labs/business-partner-agent-chart/pull/68) Updated appVersion to latest BPA commit hash
+[2033](https://github.com/hyperledger/aries-cloudagent-python/pull/2033) feat: Proof Negotiation
 
-[260](https://github.com/hyperledger/fabric-chaincode-java/pull/260) Add in a publish to the gha repo
+[1131](https://github.com/hyperledger/aries-framework-javascript/pull/1131) feat: Proof Negotiation
 
-[244](https://github.com/hyperledger/fabric-sdk-java/pull/244) Update dependencies
+[542](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/542) fix: group a11y labels on notif
 
-[243](https://github.com/hyperledger/fabric-sdk-java/pull/243) Release v2.2.19
+[4749](https://github.com/hyperledger/besu/pull/4749) update tuweni
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

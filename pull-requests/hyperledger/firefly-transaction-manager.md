@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/41" class=".btn">#41</a>
+                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/43" class=".btn">#43</a>
             </td>
             <td>
                 <b>
-                    Allow prometheus metrics to be enabled in FFTM
+                    Update FF every time there is an error, or interesting change in state
                 </b>
             </td>
         </tr>
@@ -27,14 +27,18 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
                 
             </td>
             <td>
-                The initial commit adds a single metric, ff_transaction_submission_error_total, that allows the user to track the number of errors from transaction submissions.
+                Note this is an interim change, and we should fully implement https://github.com/hyperledger/firefly/issues/1108 such that only a transition of the _state_ to `Error` would result in a WebSocket update (not simply us writing an error to our local state from a single execution of the polling loop).
 
-Signed-off-by: Matthew Whitehead <matthew.whitehead@kaleido.io>
+This PR:
+1. Fixes the problem that we didn't propagate error updates at all
+2. Introduces a more complete history list, that includes when we submitted the transaction, when we got a receipt etc.
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-18 13:53:45 +0000 UTC
+        Created At 2022-11-27 19:03:17 +0000 UTC
     </div>
 </div>
 

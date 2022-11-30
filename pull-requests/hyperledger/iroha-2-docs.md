@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/223" class=".btn">#223</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/231" class=".btn">#231</a>
             </td>
             <td>
                 <b>
-                    [docs] #190: Document MetadataChanged
+                    [docs] #175: Split tutorial and reference documentation
                 </b>
             </td>
         </tr>
@@ -29,12 +29,12 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
             <td>
                 Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
 
-Closes #190 
+Closes #175 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-03 09:10:55 +0000 UTC
+        Created At 2022-11-23 08:44:15 +0000 UTC
     </div>
 </div>
 
