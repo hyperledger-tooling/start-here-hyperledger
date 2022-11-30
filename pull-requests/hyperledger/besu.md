@@ -66,9 +66,11 @@ JSON-RPC request -> engine_forkchoiceUpdatedV1 [{"headBlockHash":"0x3e04c0c8b14a
             </td>
             <td>
                 ## PR description
-Create a hidden flag to force an eth capability maximum. With future versions of the protocol being implemented, we may need an easy way to compare capabilities without having to change the code every time. 
+Create a hidden flag to enforce an eth capability maximum. With future versions of the protocol being implemented, we may need an easy way to compare capabilities without having to change the code every time. 
  
-This PR implements the flag `--Xeth-max-capability-enabled` to enforce a maximum capability in the Eth protocol.
+This PR implements the flag `--Xeth-max-capability-enabled` that enforces a maximum capability in the Eth protocol.
+
+Use: `--Xeth-max-capability-enabled=66`
 
 ## Documentation
 

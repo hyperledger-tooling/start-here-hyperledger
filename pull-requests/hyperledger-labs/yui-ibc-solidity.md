@@ -76,6 +76,15 @@ Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
 
 ## Gas cost efficiency
 
+### Summary
+
+IBCHandler | Before(avg) | After(avg)
+-- | -- | --
+createClient | 302130 | 201629
+recvPacket | 280969 | 145496
+sendPacket | 219600 | 97100
+updateClient | 245033 | 116088
+
 Note: increased size of the handler is mainly due to the merging of the handler and host into a single contract.
 
 ### Before
