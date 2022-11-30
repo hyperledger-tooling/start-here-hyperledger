@@ -14,6 +14,89 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4756" class=".btn">#4756</a>
+            </td>
+            <td>
+                <b>
+                    Mul speedup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Move mul from UInt256 wrapping to direct BigInteger math.
+
+Signed-off-by: Danno Ferrin <danno.ferrin@swirldslabs.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [X] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-30 16:45:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4754" class=".btn">#4754</a>
+            </td>
+            <td>
+                <b>
+                    Replace errorprone-checks with consensys/errorprone-checks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+This PR replaces the internal errorprone-checks with the external [consensys/errorprone-checks](https://github.com/ConsenSys/errorprone-checks) that Teku & Discovery use. It contains all of the same checks plus a few new ones. I think it's a good idea to deduplicate this stuff. In subsequent PRs, I'll review & enable some of those new checks.
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-30 15:54:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4753" class=".btn">#4753</a>
             </td>
             <td>
@@ -452,7 +535,7 @@ Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
 Co-authored-by: Ameziane H <ameziane.hamlat@consensys.net>
 
 ## PR description
-The idea behind this PR is to preload asynchronously account nodes and storage nodes from the database during the commit step to use these nodes during persist step.
+The idea behind this PR is to preload asynchronously account nodes and storage nodes from the database during the commit step to use these nodes during the calculate root hash step.
 We've created two caches, one for account nodes and one for storage nodes. The size of these caches is 100k for accounts and 200k for storage. We've tested other values but this configuration is the one that works better.
 We also exporter cache metrics as Prometheus metrics to check cache efficiency.
 
@@ -731,131 +814,6 @@ fixes #4715
     </table>
     <div class="right-align">
         Created At 2022-11-24 07:33:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4728" class=".btn">#4728</a>
-            </td>
-            <td>
-                <b>
-                    [Shandong] Update bootnodes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                ## PR description
-Update Shandong boot nodes according those in the [Shandong Management Meta Issue](https://github.com/ethereumjs/ethereumjs-monorepo/issues/2375) from _ethereumjs_
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-
-Signed-off-by: Diego López León <dieguitoll@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-23 17:52:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4727" class=".btn">#4727</a>
-            </td>
-            <td>
-                <b>
-                    Add option to skip nonce validation on private transactions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-privacy-validate-private-transactions is enabled by default, but there are situations where you may want to allow the private transactions to still be processed. For instance, if you have a separate validator where the PMT is valid, but the validator doesn't know the private transaction is invalid.
-
-Enabling this option could potentially cause your private state to diverge from one another. If you wish to enable this option it is recommended that you re-sync all nodes your network after you do so. 
-
-## Fixed Issue(s)
-Some mitigation for https://github.com/hyperledger/besu/issues/614
-Fixes https://github.com/hyperledger/besu/issues/1942
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-
-Signed-off-by: Antony Denyer <git@antonydenyer.co.uk>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-23 16:46:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4726" class=".btn">#4726</a>
-            </td>
-            <td>
-                <b>
-                    [Shandong] EIP-3860 support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                ## PR description
-Shandong supports [EIP-3860](https://eips.ethereum.org/EIPS/eip-3860) and the first block to fail without this is [block 188](https://explorer.shandong.ethdevops.io/block/188)
-
-As with the other calculators, the testing is expected to be part of the [ethereum/tests](https://github.com/ethereum/tests) suite. 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-
-Signed-off-by: Diego López León <dieguitoll@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-23 15:24:23 +0000 UTC
     </div>
 </div>
 

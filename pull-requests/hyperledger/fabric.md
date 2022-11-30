@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3819" class=".btn">#3819</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Update purge private data tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Check that no purged data appears in block event replays
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-30 17:14:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3813" class=".btn">#3813</a>
             </td>
             <td>
@@ -99,38 +128,6 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-11-24 16:52:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3807" class=".btn">#3807</a>
-            </td>
-            <td>
-                <b>
-                    Revert "New Block Attestation Orderer GRPC service" & update protos
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This reverts commit 6c886cd9fc5b08df7b57c940c8793475edb14bec in release-2.5.
-
-The Block Attestation service is targeted for Fabric v3.0, not Fabric v2.5.
-
-This commit also updates to the latest fabric-protos-go v0.2.0 that is intended for Fabric v2.5 release.
-
-Signed-off-by: David Enyeart [enyeart@us.ibm.com](mailto:enyeart@us.ibm.com)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-23 16:23:35 +0000 UTC
     </div>
 </div>
 

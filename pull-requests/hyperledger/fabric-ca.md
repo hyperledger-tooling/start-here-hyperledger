@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/334" class=".btn">#334</a>
+            </td>
+            <td>
+                <b>
+                    Remove Azure Pipeline artifacts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                With the addition of Github Actions, the old Azure Pipeline CI artifacts can now be removed.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-30 16:10:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-ca/pull/333" class=".btn">#333</a>
             </td>
             <td>
