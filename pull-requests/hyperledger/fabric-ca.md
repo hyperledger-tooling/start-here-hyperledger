@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/333" class=".btn">#333</a>
+            </td>
+            <td>
+                <b>
+                    Fix the build : renew expired test TLS certificates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes the build: 
+
+This PR renews a couple of integration test suite certificates, which had expired.
+
+Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-30 02:05:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-ca/pull/331" class=".btn">#331</a>
             </td>
             <td>

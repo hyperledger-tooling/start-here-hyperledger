@@ -1,13 +1,13 @@
 
-[2981](https://github.com/hyperledger/iroha/pull/2981) [fix] #2816: Move responsibility of access to blocks to kura.
+[4753](https://github.com/hyperledger/besu/pull/4753) Print the debug rpc params as serialized json
 
-[2033](https://github.com/hyperledger/aries-cloudagent-python/pull/2033) feat: Proof Negotiation
+[4752](https://github.com/hyperledger/besu/pull/4752) Hidden option  to enforce an eth capability maximum
 
-[1131](https://github.com/hyperledger/aries-framework-javascript/pull/1131) feat: Proof Negotiation
+[4751](https://github.com/hyperledger/besu/pull/4751) Add log to show when we've found a peer on a matching chain id
 
-[542](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/542) fix: group a11y labels on notif
+[4750](https://github.com/hyperledger/besu/pull/4750) Add Gabriel Fukushima as a maintainer
 
-[4749](https://github.com/hyperledger/besu/pull/4749) update tuweni
+[333](https://github.com/hyperledger/fabric-ca/pull/333) Fix the build : renew expired test TLS certificates
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
