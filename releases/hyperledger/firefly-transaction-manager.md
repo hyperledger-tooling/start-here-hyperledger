@@ -15,32 +15,32 @@ permalink: /releases/hyperledger/firefly-transaction-manager
         <tr>
             <td colspan="2">
                 <b>
-                    v1.1.2
+                    v1.1.3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.1.2
+                    v1.1.3
                 </span>
             </td>
             <td>
                 ## What's Changed
-* adding a flag to support pre signed transactions by @Chengxuan in https://github.com/hyperledger/firefly-transaction-manager/pull/40
+* Add Errors to transaction input to support custom errors by @jimthematrix in https://github.com/hyperledger/firefly-transaction-manager/pull/42
 
 ## New Contributors
-* @Chengxuan made their first contribution in https://github.com/hyperledger/firefly-transaction-manager/pull/40
+* @jimthematrix made their first contribution in https://github.com/hyperledger/firefly-transaction-manager/pull/42
 
-**Full Changelog**: https://github.com/hyperledger/firefly-transaction-manager/compare/v1.1.1...v1.1.2
+**Full Changelog**: https://github.com/hyperledger/firefly-transaction-manager/compare/v1.1.2...v1.1.3
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.1.2" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.1.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-10-17 18:20:14 +0000 UTC
+        Created At 2022-11-30 13:57:43 +0000 UTC
     </span>
 </div>
 
