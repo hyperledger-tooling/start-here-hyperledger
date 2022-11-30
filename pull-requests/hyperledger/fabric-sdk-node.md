@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/626" class=".btn">#626</a>
-            </td>
-            <td>
-                <b>
-                    Add Node 18 to Azure Pipelines publish build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-23 09:42:35 +0000 UTC
-    </div>
-</div>
-

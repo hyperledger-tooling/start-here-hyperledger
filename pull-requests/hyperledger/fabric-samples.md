@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/873" class=".btn">#873</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/874" class=".btn">#874</a>
             </td>
             <td>
                 <b>
-                    Remove mistaken msp path
+                    Fix asset-transfer-basic/application-gateway-go
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+                Error handling example used a transaction invocation with the wrong number of arguments and so did not demonstrate the same error condition as other language samples. The error handling code was also not as comprehensive as it should be.
+
+Also changed the console output throughout to match the content and format of the Node and Java samples.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-18 13:43:30 +0000 UTC
+        Created At 2022-11-30 11:13:25 +0000 UTC
     </div>
 </div>
 
