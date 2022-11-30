@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1093" class=".btn">#1093</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1131" class=".btn">#1131</a>
             </td>
             <td>
                 <b>
-                    fix(routing): async message pickup on init
+                    feat: Proof Negotiation
                 </b>
             </td>
         </tr>
@@ -27,16 +27,14 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                Currently, when initializing the agent using a `MediationPickupStrategy` different from `None` (e.g. `PickupV1` or `PickupV2`), it attempts to start message pickup in a synchronous way, meaning that it might take some more time for startup depending on the . Also, if mediator is not reachable at that moment, it will throw an error and Agent's `_isInitialized` flag will not be set to true even if can connect afterwards (with the polling of PickupV1 or backoff strategy of PickupV2).
+                Signed-off-by: Łukasz Przytuła <lprzytula@gmail.com>
 
-In this PR we are starting the message pickup process in an async way and catching any possible initial error, in a similar way as Agent's initialize method for connecting to ledger pools.
-
-
+Allow proof negotiation by responding to presentation proposal with new presentation request, and responding to presentation request with new presentation proposal
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-09 13:02:49 +0000 UTC
+        Created At 2022-11-29 23:05:35 +0000 UTC
     </div>
 </div>
 
@@ -44,11 +42,11 @@ In this PR we are starting the message pickup process in an async way and catchi
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1092" class=".btn">#1092</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1121" class=".btn">#1121</a>
             </td>
             <td>
                 <b>
-                    feat: Issue Credentials V2 (W3C/JSON-LD) with Commits Squashed
+                    refactor: simplify acceptXXX methods in Issue Credentials V2 JsonLdCredentialFormatService
                 </b>
             </td>
         </tr>
@@ -57,12 +55,12 @@ In this PR we are starting the message pickup process in an async way and catchi
                 
             </td>
             <td>
-                <nil>
+                This PR addresses item 1 in issue #1089 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-09 09:27:02 +0000 UTC
+        Created At 2022-11-28 09:44:32 +0000 UTC
     </div>
 </div>
 
@@ -70,11 +68,11 @@ In this PR we are starting the message pickup process in an async way and catchi
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1086" class=".btn">#1086</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1120" class=".btn">#1120</a>
             </td>
             <td>
                 <b>
-                    refactor: remove dependency on indy ledger service from sov did resolver/registrar
+                    fix(problem-report): proper string interpolation
                 </b>
             </td>
         </tr>
@@ -83,13 +81,12 @@ In this PR we are starting the message pickup process in an async way and catchi
                 
             </td>
             <td>
-                resolves: #1066  and  #1067 
-Signed-off-by: Sai Ranjit Tummalapalli <sairanjit5@gmail.com>
+                Signed-off-by: blu3beri <berend@animo.id>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-06 07:54:57 +0000 UTC
+        Created At 2022-11-28 09:25:11 +0000 UTC
     </div>
 </div>
 
@@ -97,11 +94,11 @@ Signed-off-by: Sai Ranjit Tummalapalli <sairanjit5@gmail.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1085" class=".btn">#1085</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1119" class=".btn">#1119</a>
             </td>
             <td>
                 <b>
-                    fix(connections): do not log AgentContext object
+                    fix: use custom document loader in jsonld.frame
                 </b>
             </td>
         </tr>
@@ -110,16 +107,110 @@ Signed-off-by: Sai Ranjit Tummalapalli <sairanjit5@gmail.com>
                 
             </td>
             <td>
-                In last [Aries Framework JS call](https://wiki.hyperledger.org/display/ARIES/2022-11-03+Aries+Framework+JS+Meeting+notes) @niall-shaw reported performance issues when accepting multi-use invitations. 
+                We use a custom document loader for tests that use local files instead of downloading them from the web. Inside this custom document loader, we're calling `jsonld.frame()`, but didn't pass the custom document loader. As a result, documents were being fetched from the web during tests, which made the tests fail when there is no internet connection.
 
-I've experienced the same issue after migrating to 0.3.0-alpha.x and it turns out that it was happening because some methods in `DidExchangeProtocol` were logging the whole messageContext object, which now includes agentContext and blocks the console for several seconds. This can be avoided by either logging in INFO mode or customizing the logger being in use to only output a certain depth level of objects.
+This minor fix passes the custom document loader to the `jsonld.frame()` function and makes sure only local files are used.
 
-This PR makes a quick-fix of this issue by logging only messageContext.message, to be consistent with other methods from `ConnectionService`. Not sure if it's really useful though, but that's another subject to discuss 😄 .
+Fixes #1111 
+
+Signed-off-by: Karim Stekelenburg <karim@animo.id>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-04 22:42:51 +0000 UTC
+        Created At 2022-11-24 13:50:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1118" class=".btn">#1118</a>
+            </td>
+            <td>
+                <b>
+                    feat: add anon-creds package
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">ledger agnostic anoncreds</span>
+            </td>
+            <td>
+                This PR adds a package that contains a set of interfaces that define unified APIs for AnonCreds related logic.
+
+The goal of adding this package is that we can have two separate implementations, one for `indy-sdk` and another one for the `anoncreds-rs` Rust library that is currently being developed.
+
+> **Note**: the interfaces in this package contain a lot of `todo` comments and `any` statements. The idea is to update these during the implementation of the first package.
+
+Signed-off-by: Karim Stekelenburg <karim@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-24 13:05:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1116" class=".btn">#1116</a>
+            </td>
+            <td>
+                <b>
+                    fix(proofs): await shouldAutoRespond to correctly handle the check
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                We did not await the `shouldAutoRespondTo...` and if we then check if the value is truthy, it is because it is a Promise and not the contained value of `boolean`. 
+
+Abstracting the async function call to a variable above makes an IDE error on the if statement is it will always be truthy if not-awaited.
+
+@TimoGlastra Would it make sense to add a rule that you must mark void/await for async calls? that would've probably avoided this, quite big, bug.
+
+closes #1095 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-23 13:53:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1115" class=".btn">#1115</a>
+            </td>
+            <td>
+                <b>
+                    feat: specify httpinboundtransport path
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Allows mediator to have configurable httpinbound endpoint, instead of just '/'
+
+Signed-off-by: Niall Shaw <niall.shaw@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-23 11:34:05 +0000 UTC
     </div>
 </div>
 

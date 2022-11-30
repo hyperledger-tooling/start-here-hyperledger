@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2033" class=".btn">#2033</a>
+            </td>
+            <td>
+                <b>
+                    feat: Proof Negotiation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Łukasz Przytuła <lprzytula@gmail.com>
+
+Allow proof negotiation by providing an updated proof request to `/present-proof/records/{pres_ex_id}/send-request` endpoint (if no proof request will be passed in body, it will be created according to the presentation proposal)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-29 23:08:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2031" class=".btn">#2031</a>
             </td>
             <td>
@@ -121,38 +149,6 @@ Addresses issue https://github.com/hyperledger/aries-cloudagent-python/issues/20
     </table>
     <div class="right-align">
         Created At 2022-11-23 13:46:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2022" class=".btn">#2022</a>
-            </td>
-            <td>
-                <b>
-                    Multi-ledger/Multi-tenant issues
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-
-Addresses issues:  https://github.com/hyperledger/aries-cloudagent-python/issues/2002 and https://github.com/hyperledger/aries-cloudagent-python/issues/1989
-
-Also fixes a couple of bugs in the alice/faber demo when running multi/multi
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-22 19:19:44 +0000 UTC
     </div>
 </div>
 

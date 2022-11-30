@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4749" class=".btn">#4749</a>
+            </td>
+            <td>
+                <b>
+                    update tuweni
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span><span class="chip">dependencies</span>
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <macfarla.github@gmail.com>
+
+Update tuweni to 2.3.1
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-29 22:29:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4748" class=".btn">#4748</a>
             </td>
             <td>
@@ -504,26 +541,38 @@ fixes #4731
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+Implement eth/68
+
+- https://eips.ethereum.org/EIPS/eip-5793
+
+> The NewPooledTransactionHashes message announces transaction hashes, allowing the peer to selectively fetch transactions it does not yet have.
+> 
+> EIP-4844 introduces a new transaction type for blob transactions. Since these blob transactions are large, naively broadcasting them to sqrt(peers) could significantly increase bandwidth requirements. Adding the transaction type and the size to the announcement message will allow nodes to select which transactions they want to fetch and also allow them to load balance or throttle peers based on past behavior.
+> 
+> The added metadata fields will also enable future - upgradeless - protocol tweaks to prevent certain transaction type (e.g. blob transactions) or certain transaction sizes (e.g. 128KB+) from being blindly broadcast to many peers. Enforcing announcements only and retrieval on demand would ensure a much more predictable networking behavior, limiting the amplification effect of transaction propagation DoS attack.
+
+Modify the NewPooledTransactionHashes (0x08) message:
+
+(eth/67): [hash_0: B_32, hash_1: B_32, ...]
+(eth/68): [[type_0: B_1, type_1: B_1, ...], [size_0: B_4, size_1: B_4, ...], [hash_0: B_32, hash_1: B_32, ...]]
 
 ## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
+fixes #4715
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -695,101 +744,6 @@ fixes #4723
     </table>
     <div class="right-align">
         Created At 2022-11-23 04:35:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4722" class=".btn">#4722</a>
-            </td>
-            <td>
-                <b>
-                    Treat nonces as quantities
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-## PR description
-
-Change nonce hex parsing to be treated as encoded longs, not trimmed byte arrays.
-
-## Fixed Issue(s)
-
-fixes #4719
-
-## Documentation
-
-- [X] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-22 22:02:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4721" class=".btn">#4721</a>
-            </td>
-            <td>
-                <b>
-                    Fix OpenTelemetry disabling in MetricsSystemFactory
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-Signed-off-by: garyschulte <garyschulte@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Prevent trying to re-disable OpenTelemetry global if it has already been disabled previously.  Otherwise `evmtool` was failing to start with this error:
-```
-java.lang.IllegalStateException: GlobalOpenTelemetry.set has already been called. GlobalOpenTelemetry.set must be called only once before any calls to GlobalOpenTelemetry.get. If you are using the OpenTelemetrySdk, use OpenTelemetrySdkBuilder.buildAndRegisterGlobal instead. Previous invocation set to cause of this exception.
-        at io.opentelemetry.api.GlobalOpenTelemetry.set(GlobalOpenTelemetry.java:99)
-        at org.hyperledger.besu.metrics.MetricsSystemFactory.disableGlobalOpenTelemetry(MetricsSystemFactory.java:38)
- ...
- ```
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-22 20:52:36 +0000 UTC
     </div>
 </div>
 
