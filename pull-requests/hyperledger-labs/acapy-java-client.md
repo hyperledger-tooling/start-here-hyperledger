@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/73" class=".btn">#73</a>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/76" class=".btn">#76</a>
             </td>
             <td>
                 <b>
-                    integrate acapy 0.7.5 release changes
+                    fix issue #74 #75
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
                 
             </td>
             <td>
-                Signed-off-by: Philipp Etschel <philipp.etschel@ch.bosch.com>
+                Fixes for issues #74 #75 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-31 09:30:53 +0000 UTC
+        Created At 2022-12-01 16:47:14 +0000 UTC
     </div>
 </div>
 

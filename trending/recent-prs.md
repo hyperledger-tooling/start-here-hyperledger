@@ -1,13 +1,13 @@
 
-[355](https://github.com/hyperledger/fabric-chaincode-node/pull/355) Update dependencies
+[129](https://github.com/hyperledger/fabric-gateway-java/pull/129) Release v2.2.7
 
-[431](https://github.com/hyperledger-labs/fabric-token-sdk/pull/431) load public params from vault when possible
+[76](https://github.com/hyperledger-labs/acapy-java-client/pull/76) fix issue #74 #75
 
-[167](https://github.com/hyperledger/fabric-protos/pull/167) Update Java proto library
+[1087](https://github.com/hyperledger/solang/pull/1087) Add basic `ink!` to solidity call integration test
 
-[39](https://github.com/hyperledger-labs/yui-docs/pull/39) fix:issue-21
+[2989](https://github.com/hyperledger/iroha/pull/2989) [fix] #2980: fix block value ffi type backport to lts
 
-[1086](https://github.com/hyperledger/solang/pull/1086) remove seal prefixes
+[2988](https://github.com/hyperledger/iroha/pull/2988) [fix] #2980: fix block value ffi type
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

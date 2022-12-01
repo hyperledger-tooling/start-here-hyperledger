@@ -597,7 +597,7 @@ Remove deprecated method isEqualToIgnoringGivenFields from the package org.asser
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamChupa</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
