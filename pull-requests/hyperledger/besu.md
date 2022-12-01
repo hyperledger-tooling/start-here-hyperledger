@@ -230,7 +230,7 @@ Use: `--Xeth-capability-max=66`
                 <span class="chip">mainnet</span><span class="chip">logging</span><span class="chip">peering</span>
             </td>
             <td>
-                Helpful for distinguishing between irrelevant and irrelevant peer noise in situations where we are struggling to hold onto peers from the same chain.
+                Helpful for distinguishing between relevant and irrelevant peer noise in situations where we are struggling to hold onto peers from the same chain.
             </td>
         </tr>
     </table>

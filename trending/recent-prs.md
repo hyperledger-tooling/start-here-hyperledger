@@ -1,13 +1,13 @@
 
-[3437](https://github.com/hyperledger/aries-framework-go/pull/3437) feat: refactor didsignjwt to allow decoupling from kms/crypto interfaces
+[136](https://github.com/hyperledger/iroha-javascript/pull/136) [feature]: functional approach to compile data-model artifacts
 
-[3822](https://github.com/hyperledger/fabric/pull/3822) Add V2_5 application capability to configtx.yaml
+[3825](https://github.com/hyperledger/fabric/pull/3825) Add purgeInterval to core.yaml (backport #3821)
 
-[3821](https://github.com/hyperledger/fabric/pull/3821) Add purgeInterval to core.yaml
+[3824](https://github.com/hyperledger/fabric/pull/3824) Add V2_5 application capability to configtx.yaml (backport #3822)
 
-[3820](https://github.com/hyperledger/fabric/pull/3820) Private data purge logging
+[3823](https://github.com/hyperledger/fabric/pull/3823) Private data purge logging (backport #3820)
 
-[4757](https://github.com/hyperledger/besu/pull/4757) Use value comparisons instead of reference comparisons in some places
+[138](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/138) e2e: specify a counterparty's height  instead of source's as packet timeout
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

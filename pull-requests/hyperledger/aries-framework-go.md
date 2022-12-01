@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3439" class=".btn">#3439</a>
+            </td>
+            <td>
+                <b>
+                    feat: Add options to VDR Accept
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently VDR makes decision on whether to accept or reject request based on method only. Add options to VDR Accept function so VDR can make more complex decisions.
+
+Closes #3438
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-01 01:27:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3437" class=".btn">#3437</a>
             </td>
             <td>
