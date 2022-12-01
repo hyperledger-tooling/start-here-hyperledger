@@ -14,6 +14,96 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3822" class=".btn">#3822</a>
+            </td>
+            <td>
+                <b>
+                    Add V2_5 application capability to configtx.yaml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add V2_5 application capability to configtx.yaml.
+
+Resolves #3815 
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-30 22:43:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3821" class=".btn">#3821</a>
+            </td>
+            <td>
+                <b>
+                    Add purgeInterval to core.yaml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Users that need to purge private data may want to purge more frequently that the default of every 100 blocks. Expose purgeInterval configuration setting in core.yaml.
+
+Resolves #3816 
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-30 22:39:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3820" class=".btn">#3820</a>
+            </td>
+            <td>
+                <b>
+                    Private data purge logging
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add logging to record number of private data purges. This may be used as an audit log or for troubleshooting.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-30 22:31:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3819" class=".btn">#3819</a>
             </td>
             <td>

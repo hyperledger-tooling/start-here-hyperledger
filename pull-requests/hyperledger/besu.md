@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4757" class=".btn">#4757</a>
+            </td>
+            <td>
+                <b>
+                    Use value comparisons instead of reference comparisons in some places
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Change three reference comparisons that I believe should be value comparisons.
+
+* Comparisons with `Bytes.EMPTY` will not work as expected.
+  * For example, `Bytes.of() == Bytes.EMPTY` is false.
+* While the two implementations are enums, `MetricCategory` is actually an interface.
+  * In practice this is fine, but it's safer for this to be a value comparison.
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-11-30 21:27:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4756" class=".btn">#4756</a>
             </td>
             <td>
@@ -149,11 +191,11 @@ JSON-RPC request -> engine_forkchoiceUpdatedV1 [{"headBlockHash":"0x3e04c0c8b14a
             </td>
             <td>
                 ## PR description
-Create a hidden flag to enforce an eth capability maximum. With future versions of the protocol being implemented, we may need an easy way to compare capabilities without having to change the code every time. 
+Create a hidden flag to enforce an eth capability maximum. With future versions of the protocol being implemented, we may need an easy way to compare capabilities without having to change the code every time.  Another use case would be to downgrade your node if an issue was found with a later protocol version.
  
-This PR implements the flag `--Xeth-max-capability-enabled` that enforces a maximum capability in the Eth protocol.
+This PR implements the flag `--Xeth-capability-max` that enforces a maximum capability in the Eth protocol.
 
-Use: `--Xeth-max-capability-enabled=66`
+Use: `--Xeth-capability-max=66`
 
 ## Documentation
 
@@ -280,48 +322,6 @@ Update tuweni to 2.3.1
     </table>
     <div class="right-align">
         Created At 2022-11-29 22:29:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4748" class=".btn">#4748</a>
-            </td>
-            <td>
-                <b>
-                    [WIP] Near head checkpoint sync better peering
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-29 13:12:34 +0000 UTC
     </div>
 </div>
 
@@ -519,7 +519,7 @@ Remove deprecated method isEqualToIgnoringGivenFields from the package org.asser
             </td>
             <td>
                 <b>
-                    [WORK IN PROGRESS] Preload state trie node
+                     Preload state trie node
                 </b>
             </td>
         </tr>
@@ -535,7 +535,7 @@ Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
 Co-authored-by: Ameziane H <ameziane.hamlat@consensys.net>
 
 ## PR description
-The idea behind this PR is to preload asynchronously account nodes and storage nodes from the database during the commit step to use these nodes during the calculate root hash step.
+The idea behind this PR is to preload asynchronously account nodes and storage nodes from the database during the transaction processing to use these nodes during the calculate root hash step.
 We've created two caches, one for account nodes and one for storage nodes. The size of these caches is 100k for accounts and 200k for storage. We've tested other values but this configuration is the one that works better.
 We also exporter cache metrics as Prometheus metrics to check cache efficiency.
 

@@ -1,13 +1,13 @@
 
-[3819](https://github.com/hyperledger/fabric/pull/3819) [WIP] Update purge private data tests
+[3437](https://github.com/hyperledger/aries-framework-go/pull/3437) feat: refactor didsignjwt to allow decoupling from kms/crypto interfaces
 
-[4756](https://github.com/hyperledger/besu/pull/4756) Mul speedup
+[3822](https://github.com/hyperledger/fabric/pull/3822) Add V2_5 application capability to configtx.yaml
 
-[334](https://github.com/hyperledger/fabric-ca/pull/334) Remove Azure Pipeline artifacts
+[3821](https://github.com/hyperledger/fabric/pull/3821) Add purgeInterval to core.yaml
 
-[4754](https://github.com/hyperledger/besu/pull/4754) Replace errorprone-checks with consensys/errorprone-checks
+[3820](https://github.com/hyperledger/fabric/pull/3820) Private data purge logging
 
-[2983](https://github.com/hyperledger/iroha/pull/2983) [documentation]: Update links to documentation
+[4757](https://github.com/hyperledger/besu/pull/4757) Use value comparisons instead of reference comparisons in some places
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
