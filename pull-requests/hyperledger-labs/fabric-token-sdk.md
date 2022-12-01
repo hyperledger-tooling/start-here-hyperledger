@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span>
             </td>
             <td>
                 This PR brings the following: At bootstrap, the stack first tries to load the public parameters from the local vault. 

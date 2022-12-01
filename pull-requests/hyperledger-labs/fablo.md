@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/359" class=".btn">#359</a>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/361" class=".btn">#361</a>
             </td>
             <td>
                 <b>
-                    Kubernetes
+                    Experimental Kubernetes support
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fablo
                 
             </td>
             <td>
-                This PR includes templates for base scripts, e2e-tests and CI setup.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-19 15:48:49 +0000 UTC
+        Created At 2022-12-01 14:02:05 +0000 UTC
     </div>
 </div>
 

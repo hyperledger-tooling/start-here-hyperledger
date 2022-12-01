@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/440" class=".btn">#440</a>
+            </td>
+            <td>
+                <b>
+                    chaincode configuration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span>
+            </td>
+            <td>
+                This PR brings in the possibility the number of retries and the sleep duration in between retries on a chaincode operation failure.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-01 14:52:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/439" class=".btn">#439</a>
             </td>
             <td>

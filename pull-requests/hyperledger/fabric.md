@@ -348,32 +348,3 @@ Co-authored-by: Yacov Manevich <yacovm@il.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3808" class=".btn">#3808</a>
-            </td>
-            <td>
-                <b>
-                    [WIP] Update purge private data integration tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Test whether a new peer is able to reconcile from a purged peer
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-24 16:52:24 +0000 UTC
-    </div>
-</div>
-
