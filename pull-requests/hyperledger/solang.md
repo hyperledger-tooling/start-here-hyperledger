@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1086" class=".btn">#1086</a>
+            </td>
+            <td>
+                <b>
+                    remove seal prefixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Cyrill Leutwiler <bigcyrill@hotmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-01 09:46:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1085" class=".btn">#1085</a>
             </td>
             <td>
@@ -92,38 +118,6 @@ I can't find any release notes for `inkwell`? I guess since everything green on 
     </table>
     <div class="right-align">
         Created At 2022-11-24 18:51:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1080" class=".btn">#1080</a>
-            </td>
-            <td>
-                <b>
-                    Substrate: Support contracts node v0.22
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Change the linker to use stabilized APIs for any remaining `__unstable__`
-- Update integration tests:
-  - Introduce a helper for the (currently) broken contracts `query` API
-  - Use `WeightV2` for gas limits
-  - Use estimated gas from dry run instead of hardcoded value
-  - Compile test contracts in parallel
-- Updates to the `latest` contracts CI image for pallet contracts v0.22.1. I'm aware that this is not ideal but it's what's available right now. There shouldn't be a breaking release soon, we can switch to `production` as soon as its here.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-24 11:38:20 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/354" class=".btn">#354</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/355" class=".btn">#355</a>
             </td>
             <td>
                 <b>
-                    Small Log Error update
+                    Update dependencies
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                Signed-off-by: Luis Lara <62342483+LuisLara-UH@users.noreply.github.com>
+                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-12 21:31:49 +0000 UTC
+        Created At 2022-12-01 11:06:19 +0000 UTC
     </div>
 </div>
 
