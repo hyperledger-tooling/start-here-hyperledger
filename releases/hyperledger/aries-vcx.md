@@ -15,27 +15,35 @@ permalink: /releases/hyperledger/aries-vcx
         <tr>
             <td colspan="2">
                 <b>
-                    Release 0.47.0
+                    Release 0.48.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.47.0
+                    0.48.0
                 </span>
             </td>
             <td>
                 # Changelog
 
-## [0.47.0](https://github.com/hyperledger/aries-vcx/tree/0.47.0) (2022-11-22)
+## [0.48.0](https://github.com/hyperledger/aries-vcx/tree/0.48.0) (2022-12-02)
 
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.46.0...0.47.0)
+[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.47.0...0.48.0)
 
-### Other issues
+### Wrapper changes
 
-- Remove the dependency of aries-vcx backchannel on agency [\#651](https://github.com/hyperledger/aries-vcx/issues/651)
-- Remove FFI layer to vdr-tools [\#615](https://github.com/hyperledger/aries-vcx/issues/615)
+- NodeJS wrapper: Update to Node 17 / 18 [\#640](https://github.com/hyperledger/aries-vcx/issues/640)
+- IOS wrapper refactoring: https://github.com/hyperledger/aries-vcx/pull/663
+
+# Interop
+- Add credential values mime types https://github.com/hyperledger/aries-vcx/pull/662
+- Adhere to did:sov method spec [\#609](https://github.com/hyperledger/aries-vcx/issues/609)
+
+### Other
+- Create storage trait https://github.com/hyperledger/aries-vcx/pull/671
+- Add data structure validations when calling vdr-tools https://github.com/hyperledger/aries-vcx/pull/667
 
 
 
@@ -43,11 +51,11 @@ permalink: /releases/hyperledger/aries-vcx
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-vcx/releases/tag/0.47.0" class=".btn">
+    <a href="https://github.com/hyperledger/aries-vcx/releases/tag/0.48.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-11-22 15:55:57 +0000 UTC
+        Created At 2022-12-02 09:58:18 +0000 UTC
     </span>
 </div>
 
