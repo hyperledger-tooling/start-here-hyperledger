@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1206" class=".btn">#1206</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1208" class=".btn">#1208</a>
             </td>
             <td>
                 <b>
-                    P2p.md
+                    Updating public network info for sync 
                 </b>
             </td>
         </tr>
@@ -27,77 +27,14 @@ permalink: /pull-requests/hyperledger/besu-docs
                 
             </td>
             <td>
-                Gff
-MOHNDSEDU
+                Added time and size estimates. Removed warning on snap sync restarts (besu now resumes from last point). Moved fast sync to the bottom and added not on deprecation on Mainnet. 
 
-Signed-off-by: mohandseduA <116891051+mohandseduA@users.noreply.github.com>
-
-## Pull request checklist
-
-Use the following list to make sure your PR fits the Besu documentation quality standard.
-
-### Before creating the pull request
-
-Make sure that:
-
-- [ ] [All commits in this PR are signed off for the DCO](https://wiki.hyperledger.org/display/BESU/DCO).
-- [ ] You've read the [contribution guidelines](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [ ] You've [previewed your changes locally](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation).
-
-## Describe the change
-
-<!-- Add a clear and concise description of what your PR changes in the documentation. -->
-
-## Issue fixed
-
-<!-- Link to the GitHub issue that your PR addresses.
-
-Add "fixes #{your issue number}" to close the issue automatically when the PR is merged.
-
-If your PR doesn't completely fix the issue, add "see #{your issue number}" to link to the issue
-without automatically closing it. -->
-
-## Impacted parts
-
-<!-- Check the item from the following lists that your PR impacts. You can check multiple boxes. -->
-
-For content changes:
-
-- [ ] Documentation content
-- [ ] Documentation page organization
-
-For tool changes:
-
-- [ ] Github Actions workflow
-- [ ] Build and QA tools configuration (for example, lint rules or Vale style)
-- [ ] MkDocs templates
-- [ ] MkDocs configuration
-- [ ] Python dependencies
-- [ ] Node dependencies and JavaScript
-- [ ] Read the Docs configuration
-- [ ] GitHub integration
-
-## After creating your PR and tests have finished
-
-Make sure that:
-
-- [ ] You've fixed any issues raised by the tests.
-- [ ] You've [previewed your changes on Read the Docs](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation)
-  and added a [preview link](#preview).
-
-## Preview
-
-<!-- Add the link to preview your changes on Read the Docs.
-
-The link format is "https://hyperledger-besu--{your PR number}.org.readthedocs.build/en/{your PR number}/",
-where {your PR number} is replaced by the number of this PR.
--->
-
+Signed-off-by: Matt Nelson <85905982+non-fungible-nelson@users.noreply.github.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-24 14:30:02 +0000 UTC
+        Created At 2022-11-30 17:50:06 +0000 UTC
     </div>
 </div>
 

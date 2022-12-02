@@ -14,6 +14,175 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/683" class=".btn">#683</a>
+            </td>
+            <td>
+                <b>
+                    Add ios legacy wrapper
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Adds building and release of ios wrapper ios_legacy, copied from 0.47.0 release (before https://github.com/hyperledger/aries-vcx/pull/663) was applied
+- This legacy ios wrapper is added temporarily to make transition smoother and it's expected to be removed in soon future. The main wrapper is `wrappers/ios`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-02 11:38:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/682" class=".btn">#682</a>
+            </td>
+            <td>
+                <b>
+                    Release 0.49.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-02 10:52:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/681" class=".btn">#681</a>
+            </td>
+            <td>
+                <b>
+                    Release 0.48.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-02 09:44:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/680" class=".btn">#680</a>
+            </td>
+            <td>
+                <b>
+                    Drop actix dependency in 'messages' crate
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-01 23:20:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/676" class=".btn">#676</a>
+            </td>
+            <td>
+                <b>
+                    another agents no write routing_keys, in this case is none.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bugfix</span>
+            </td>
+            <td>
+                when performing a test with acapy a routing_keys problem was discovered, it generates an empty ledger.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-01 19:18:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/675" class=".btn">#675</a>
+            </td>
+            <td>
+                <b>
+                    Implement a basic connection test using Actix framework
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">tests</span><span class="chip">agents</span>
+            </td>
+            <td>
+                This was written purely to explore the Actix framework and its viability in aries-vcx integration tests.
+
+As you can see, it can be used, but the benefits outside of perhaps saving a few lines per integration test are unclear. On the other hand, there are glaring drawbacks:
+* async code in `handle` method [can't use](https://github.com/actix/actix/issues/308) (or at least trivially) the reference to `self` and thus a necessity for cloning in the handler, or
+* having to clone the agent in the tests (since the `start()` method consumes the agent), or
+* having to store handled messages in the agent itself (unlike when using a channel with a capacity).
+
+In addition, it seems far from certain that actix would stay maintained for long. Here is a citation from the actix docs:
+> Long ago, Actix Web was built on top of the actix actor framework. Now, Actix Web is largely unrelated to the actor framework and is built using a different system. Though actix is still maintained, its usefulness as a general tool is diminishing as the futures and async/await ecosystem matures. At this time, the use of actix is only required for WebSocket endpoints.
+
+Again, this was just an exploration, so if you don't think the benefits outweigh the costs, feel free to close this PR.
+
+Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-01 15:42:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/673" class=".btn">#673</a>
             </td>
             <td>
@@ -24,7 +193,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">tests</span>
             </td>
             <td>
                 Create integration test on top of aries-vcx-agent
@@ -44,7 +213,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
             </td>
             <td>
                 <b>
-                    get_service was modified, to first retrieve the attrib endpoint, in c…
+                    Align service resolution on indy ledger with did:sov spec
                 </b>
             </td>
         </tr>
@@ -109,7 +278,7 @@ A new add_service_public method was added, which generates information in the le
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">refactoring</span>
             </td>
             <td>
                 <nil>
@@ -135,7 +304,7 @@ A new add_service_public method was added, which generates information in the le
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">feature</span>
             </td>
             <td>
                 Signed-off-by: Pompeo Faruolo <pompeo.faruolo@etuitus.it>
@@ -230,96 +399,6 @@ Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
     </table>
     <div class="right-align">
         Created At 2022-11-25 14:28:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/664" class=".btn">#664</a>
-            </td>
-            <td>
-                <b>
-                    Do not try to publish libvcx image from fork PRs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">skip-ios</span><span class="chip">skip-android</span>
-            </td>
-            <td>
-                If PR is made from a repo fork, it currently always fails on attempt to publish to docker registry. This PR makes the step conditional
-
-Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-24 22:16:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/663" class=".btn">#663</a>
-            </td>
-            <td>
-                <b>
-                    iOS Wrapper
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">skip-android</span>
-            </td>
-            <td>
-                - Renamed ConnectMeVcx to VcxAPI
-- Added type to parameters on function setLogger in VcxLogger
-- Added/exposed new functions to VcxAPI (equalized like in wrappers/node/src/rustlib.ts) related to OOB, Proof, CredDef, Schema etc.
-- Created VcxWrapperCallbacks.(h/m) to organize and reduce the code of VcxAPI (old ConnectMeVcx) file
-- Organized some imports and cleaned some code
-- Moved some type definitions from VcxAPI (old ConnectMeVcx) to VcxTypes
-- Redefined VcxHandle type to be unsigned int
-- Redefined type of all handles (connection, proof etc.) parameters on input and completion functions, in VcxAPI, to NSUInteger
-- Replaced deprecated function vcx_connection_create_with_connection_request by vcx_connection_create_with_connection_request_v2 in libvcx.h and VcxAPI
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-24 18:45:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/662" class=".btn">#662</a>
-            </td>
-            <td>
-                <b>
-                    Add other mime type for attributes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">skip-ios</span><span class="chip">skip-android</span>
-            </td>
-            <td>
-                Handles the receipt of offers and credentials
-
-Signed-off-by: Pompeo Faruolo <pompeo.faruolo@etuitus.it>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-24 06:35:48 +0000 UTC
     </div>
 </div>
 

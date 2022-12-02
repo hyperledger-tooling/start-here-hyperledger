@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/335" class=".btn">#335</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/336" class=".btn">#336</a>
             </td>
             <td>
                 <b>
-                    Relay Improvements and Protos Rust module
+                    Automated asset lock callback
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                1. Fixed #332 
-2. Fixed #174 
+                **Description**: For Byzantine Swaps. Changes to AssetManager.ts regarding same-chain implementation of automated asset lock listener and its integration into createHTLC. Since we are unable to pass the proper preimage at this current implementation, could only test unlocking for now
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-24 19:44:04 +0000 UTC
+        Created At 2022-12-02 08:37:21 +0000 UTC
     </div>
 </div>
 

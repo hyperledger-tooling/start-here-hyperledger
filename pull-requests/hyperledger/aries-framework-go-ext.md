@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/301" class=".btn">#301</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/306" class=".btn">#306</a>
             </td>
             <td>
                 <b>
-                    fix: Longform VDR method should not include did prefix
+                    chore: Add options to VDR accept; update long-form logic
                 </b>
             </td>
         </tr>
@@ -27,16 +27,16 @@ permalink: /pull-requests/hyperledger/aries-framework-go-ext
                 
             </td>
             <td>
-                Longform VDR method should not include did prefix
+                Currently VDR makes decision on whether to accept or reject request based on method only. Add options to VDR Accept function so VDR can make more complex decisions (for example long-form VDR should reject request if number of parts in DID is not at least four)
 
-Closes #300
+Closes #305
 
 Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-09 19:10:42 +0000 UTC
+        Created At 2022-12-01 19:46:49 +0000 UTC
     </div>
 </div>
 
@@ -44,11 +44,11 @@ Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/299" class=".btn">#299</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/304" class=".btn">#304</a>
             </td>
             <td>
                 <b>
-                    chore: Update Orb VDR
+                    chore: Update Orb revision
                 </b>
             </td>
         </tr>
@@ -57,106 +57,16 @@ Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
                 
             </td>
             <td>
-                Update Orb VDR with latest sidetree-core, sidetree VDR and aries-framework go.
+                Update Orb revision (fix for deactivated doc verification)
 
-Closes #298
-
-Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-08 18:16:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/297" class=".btn">#297</a>
-            </td>
-            <td>
-                <b>
-                    chore: Don't send service priority if not set
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Sidetree VDR: Don't send service priority if not set
-
-Closes #296
+Closes #303
 
 Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-04 14:44:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/295" class=".btn">#295</a>
-            </td>
-            <td>
-                <b>
-                    chore: Don't add empty anchor origin to sidetree requests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Currently sidetree client adds anchorOrigin even when it is empty. Only add anchor origin to create/recover requests if anchor origin is not empty.
-
-Closes #294
-
-Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-03 17:45:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go-ext/pull/293" class=".btn">#293</a>
-            </td>
-            <td>
-                <b>
-                    feat: Add long form VDR
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add long form VDR.
-
-Closes #288
-
-Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-03 16:33:05 +0000 UTC
+        Created At 2022-11-30 15:15:26 +0000 UTC
     </div>
 </div>
 
