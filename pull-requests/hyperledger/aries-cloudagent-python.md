@@ -131,32 +131,3 @@ Issue https://github.com/hyperledger/aries-cloudagent-python/issues/2002
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2026" class=".btn">#2026</a>
-            </td>
-            <td>
-                <b>
-                    Dock updates for json demo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-
-Addresses issue https://github.com/hyperledger/aries-cloudagent-python/issues/2014
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-24 21:17:54 +0000 UTC
-    </div>
-</div>
-
