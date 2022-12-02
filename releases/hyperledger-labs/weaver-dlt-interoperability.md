@@ -108,6 +108,37 @@ permalink: /releases/hyperledger-labs/weaver-dlt-interoperability
         <tr>
             <td colspan="2">
                 <b>
+                    v1.5.3 - GO Fabric Interop Chaincode - Dec 02, 2022
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    core/network/fabric-interop-cc/contracts/interop/v1.5.3
+                </span>
+            </td>
+            <td>
+                - Go Module: `github.com/hyperledger-labs/weaver-dlt-interoperability/core/network/fabric-interop-cc/contracts/interop`
+- Release: v1.5.3
+- Readme: [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/core/network/fabric-interop-cc/contracts/interop/v1.5.3/core/network/fabric-interop-cc/contracts/interop/README.md).
+- Source: [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/core/network/fabric-interop-cc/contracts/interop/v1.5.3/core/network/fabric-interop-cc/contracts/interop)
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/contracts/interop/v1.5.3" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-12-02 14:45:40 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v1.5.4 - GO Weaver Protos - Dec 02, 2022
                 </b>
             </td>
