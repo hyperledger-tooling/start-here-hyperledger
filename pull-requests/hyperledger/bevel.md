@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2077" class=".btn">#2077</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2079" class=".btn">#2079</a>
             </td>
             <td>
                 <b>
-                    [shared] fixed flux uninstall in reset-network.yaml
+                    [shared] cert-manager for TLS certificate creation using letsencrypt
                 </b>
             </td>
         </tr>
@@ -27,25 +27,26 @@ permalink: /pull-requests/hyperledger/bevel
                 
             </td>
             <td>
-                **Changelog**
-Fixed flux uninstall by removing the individual k8s components and then deleting namespace in reset-network.yaml instead of directly removing the namespace
-
+                
+Added Cert-manager helm chart
+added configuration to install cert-manager helm chart, create letsencrypt clusterissuer and create tls certificate for Ambassador 
+updated network.yaml/network-schema.json to have new field called fqdn, which would be needed for successful creation of tls  certificate, if fqdn is not provided , self signed certificate will be created as before
 
  
 
 **Reviewed by**
-@suvajit-sarkar @sownak 
+@suvajit-sarkar @sownak @jagpreetsinghsasan 
 
  
 
 **Linked issue**
-#2039 
+#2036 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-23 17:06:02 +0000 UTC
+        Created At 2022-12-02 06:13:37 +0000 UTC
     </div>
 </div>
 

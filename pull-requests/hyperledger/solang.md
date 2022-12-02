@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1090" class=".btn">#1090</a>
+            </td>
+            <td>
+                <b>
+                    Release v0.2 TBD
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-02 08:32:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1089" class=".btn">#1089</a>
             </td>
             <td>
@@ -140,36 +166,6 @@ permalink: /pull-requests/hyperledger/solang
     </table>
     <div class="right-align">
         Created At 2022-11-28 09:14:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1082" class=".btn">#1082</a>
-            </td>
-            <td>
-                <b>
-                    Make solang build with inkwell 0.1.0-beta.5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Offender in Cargo.toml is:
-
-`inkwell = { version = "^0.1.0-beta.4", features = ["target-webassembly", "target-bpf", "no-libffi-linking", "llvm13-0"], optional = true }`
-
-I can't find any release notes for `inkwell`? I guess since everything green on our CI it is fine for us to ape `0.1.0-beta.5` in. But would be nice to know what's changed.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-25 10:14:12 +0000 UTC
     </div>
 </div>
 
