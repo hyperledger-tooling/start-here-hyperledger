@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/498" class=".btn">#498</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/499" class=".btn">#499</a>
             </td>
             <td>
                 <b>
-                    [#issue-497]When calling the registration and login interface, the to…
+                    Update docker-rest-agent Dep
                 </b>
             </td>
         </tr>
@@ -27,17 +27,20 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                
-When calling the registration and login interface, the token is not carried
+                Update docker-rest-agent's dependency list by adding greenlet==1.1.3.
 
-Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
+The gevent with a version lower than 20.9.0 will have difficulty working
+with greenlet v2 or higher. If no greenlet version is specified, v2 or higher
+will be installed automatically, which will crush gevent.
 
-Close #497 
+See [StackOverflow](https://stackoverflow.com/questions/34314222/gevent-not-valid-running-docker-registry) and [GitHub Issue](https://github.com/python-greenlet/greenlet/issues/178) for details.
+
+Signed-off-by: xichen1 <xichen.pan@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-19 08:25:06 +0000 UTC
+        Created At 2022-12-02 16:44:25 +0000 UTC
     </div>
 </div>
 

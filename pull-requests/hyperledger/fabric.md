@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3827" class=".btn">#3827</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Update purge private data tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Test data is purged on previously eligible peer when it is no longer eligible
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-02 17:18:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3826" class=".btn">#3826</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Update purge private data tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Test that delete and purge work the same on a previously eligible peer
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-02 14:37:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3825" class=".btn">#3825</a>
             </td>
             <td>

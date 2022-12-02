@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 <b>
-                    Release v0.2 TBD
+                    Release v0.2.0 Berlin
                 </b>
             </td>
         </tr>
@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                See changelog :upside_down_face: 
             </td>
         </tr>
     </table>
@@ -44,16 +44,18 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 <b>
-                    WIP: Use discriminators on Solana instead of selectors
+                    Use discriminators on Solana instead of selectors ⚓
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">solana</span>
             </td>
             <td>
-                Signed-off-by: Lucas Steuernagel <lucas.tnagel@gmail.com>
+                In order to integrate with Anchor, Solang needs to support discriminators. This PR refactors the Solana target so that it works with eight byte discriminators instead of four byte selectors.
+
+The Anchor and Solana integration tests are failing, because we need to merge [this PR](https://github.com/solana-labs/solana-solidity.js/pull/47) in the `@solana/solidity.js` repository and release a new version of the library.
             </td>
         </tr>
     </table>
@@ -122,7 +124,7 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 <b>
-                    remove seal prefixes
+                    WIP: remove seal prefixes
                 </b>
             </td>
         </tr>
