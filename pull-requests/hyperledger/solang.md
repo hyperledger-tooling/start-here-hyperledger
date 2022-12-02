@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1089" class=".btn">#1089</a>
+            </td>
+            <td>
+                <b>
+                    WIP: Use discriminators on Solana instead of selectors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Lucas Steuernagel <lucas.tnagel@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-01 21:45:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1088" class=".btn">#1088</a>
+            </td>
+            <td>
+                <b>
+                    Freeze Borsh library version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The `@dao-xyz/borsh` library had an update with breaking changes. This PR freezes the version that currently works with our Typescript tests.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-01 19:23:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1087" class=".btn">#1087</a>
             </td>
             <td>
@@ -27,7 +79,7 @@ permalink: /pull-requests/hyperledger/solang
                 <span class="chip">substrate</span>
             </td>
             <td>
-                My original plan was to hack the substrate emit phase to always return a `Result` type (`Ok` variant which is just a single null byte), so that the `LanguageError` from `ink!` version 4 is respected when calling a solidity contract from `ink!`. But while doing so I realized: Currently the only way to call a solidity contract from `ink!` is to use the low level `CallBuilder` interface. And since this interface does not care at all about the `LanguageError`, everything still works. So now, instead of hacking around in emit and holding up the next solang release, I'd rather implement the `LanguageError` story cleanly after the release (IIRC it means refactoring the scale encoder into codegen and then implementing the `Result` type).
+                My original plan was to hack the substrate emit phase to always return a `Result` type (`Ok` variant which is just a single null byte), so that the `LanguageError` from `ink!` version 4 is respected when calling a solidity contract from `ink!`. But while doing so I realized: Currently the only way to call a solidity contract from `ink!` is to use the low level `CallBuilder` interface anyways. And since this interface does not care at all about the `LanguageError`, everything still works. So now, instead of hacking around in emit and holding up the next solang release, I'd rather implement the `LanguageError` story cleanly after the release (IIRC it means refactoring the scale encoder into codegen and then implementing the `Result` type).
             </td>
         </tr>
     </table>
@@ -118,32 +170,6 @@ I can't find any release notes for `inkwell`? I guess since everything green on 
     </table>
     <div class="right-align">
         Created At 2022-11-25 10:14:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1081" class=".btn">#1081</a>
-            </td>
-            <td>
-                <b>
-                    Encode custom width integers using the next power of two width
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The Anchor IDL does not support custom width integers. Instead of creating a user-defined type for them, we will encode them using the smaller integer width greater than the given one.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-24 18:51:30 +0000 UTC
     </div>
 </div>
 

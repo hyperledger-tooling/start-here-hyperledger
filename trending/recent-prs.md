@@ -1,13 +1,13 @@
 
-[129](https://github.com/hyperledger/fabric-gateway-java/pull/129) Release v2.2.7
+[4762](https://github.com/hyperledger/besu/pull/4762) Prepare for version 22.10.2-SNAPSHOT
 
-[76](https://github.com/hyperledger-labs/acapy-java-client/pull/76) fix issue #74 #75
+[4761](https://github.com/hyperledger/besu/pull/4761) Release 22.10.1
 
-[1087](https://github.com/hyperledger/solang/pull/1087) Add basic `ink!` to solidity call integration test
+[1089](https://github.com/hyperledger/solang/pull/1089) WIP: Use discriminators on Solana instead of selectors
 
-[2989](https://github.com/hyperledger/iroha/pull/2989) [fix] #2980: fix block value ffi type backport to lts
+[4760](https://github.com/hyperledger/besu/pull/4760) Add EIP-4200: EOF - Static relative jumps
 
-[2988](https://github.com/hyperledger/iroha/pull/2988) [fix] #2980: fix block value ffi type
+[1088](https://github.com/hyperledger/solang/pull/1088) Freeze Borsh library version
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

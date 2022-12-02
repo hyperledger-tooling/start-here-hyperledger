@@ -14,11 +14,101 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4762" class=".btn">#4762</a>
+            </td>
+            <td>
+                <b>
+                    Prepare for version 22.10.2-SNAPSHOT
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Prepare for version 22.10.2-SNAPSHOT
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-01 22:28:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4761" class=".btn">#4761</a>
+            </td>
+            <td>
+                <b>
+                    Release 22.10.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Release 22.10.1
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-01 22:04:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4760" class=".btn">#4760</a>
+            </td>
+            <td>
+                <b>
+                    Add EIP-4200: EOF - Static relative jumps
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span>
+            </td>
+            <td>
+                ## PR description
+This PR adds support for [EIP-4200](https://eips.ethereum.org/EIPS/eip-4200): EOF - Static relative jumps
+
+Note: this EIP has been CIF'd but the spec isn't stable yet, I think mostly regarding to the gast cost of the operations (check the _Gas costs overview_ section from the [Spec-level Open Issues](https://notes.ethereum.org/@ipsilon/eof1-checklist#Spec-level-Open-Issues) notes for Shangai). Until then I think it's better to keep it as draft
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-01 20:41:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4759" class=".btn">#4759</a>
             </td>
             <td>
                 <b>
-                    PR not ready yet. Need to check whether the ATs pass
+                    Move connect decision into protocol layer
                 </b>
             </td>
         </tr>
@@ -455,7 +545,7 @@ Update tuweni to 2.3.1
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span>
             </td>
             <td>
                 New Timestamp Protocol Schedule Spike
@@ -755,83 +845,6 @@ Linked to #4703
     </table>
     <div class="right-align">
         Created At 2022-11-25 04:21:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4733" class=".btn">#4733</a>
-            </td>
-            <td>
-                <b>
-                    [Shandong] Turn PUSH0 valid for EOF1 validation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                ## PR description
-Shandong implements [EIP-3855](https://eips.ethereum.org/EIPS/eip-3855) (PUSH0 instruction) and must be considered as valid opcode for EOFv1 validation.
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-
-Signed-off-by: Diego López León <dieguitoll@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-24 23:46:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4732" class=".btn">#4732</a>
-            </td>
-            <td>
-                <b>
-                    Fix attempt to send unsupported message (13) via cap eth/67
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-WorldStatePeerTrieNodeFinder - Do not call GetNodeData if the protocol version is greater than Eth66
-
-## Fixed Issue(s)
-fixes #4731
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-24 23:16:12 +0000 UTC
     </div>
 </div>
 
