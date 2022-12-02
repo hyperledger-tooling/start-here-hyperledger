@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3440" class=".btn">#3440</a>
+            </td>
+            <td>
+                <b>
+                    fix: didsignjwt Signer interface not exported
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixed an issue with the didsignjwt.SignerGetter function signature that's used as a parameter to the SignJWT function. Since the return type of SignerGetter is an unexported interface, it means that external packages could not create a custom SignerGetter function and pass it in (which was the intent). This PR simply exports the Signer interface to make this possible.
+
+Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-02 02:02:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3439" class=".btn">#3439</a>
             </td>
             <td>
