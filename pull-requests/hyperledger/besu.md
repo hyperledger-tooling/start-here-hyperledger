@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4773" class=".btn">#4773</a>
+            </td>
+            <td>
+                <b>
+                    Prepare for version 22.10.3-SNAPSHOT
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Prepare for version 22.10.3-SNAPSHOT
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-03 15:44:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4772" class=".btn">#4772</a>
+            </td>
+            <td>
+                <b>
+                    Release 22.10.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Release 22.10.2
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-03 15:21:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4771" class=".btn">#4771</a>
             </td>
             <td>
