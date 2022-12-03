@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/123" class=".btn">#123</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/134" class=".btn">#134</a>
             </td>
             <td>
                 <b>
-                    Fix kubectl-hlf inspect command when empty peer array
+                    Kubectl add image pull secrets
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
                 
             </td>
             <td>
-                Found this bug while playing around with the operator, if organization has no peers it results in an error:
-
-`network configuration load failed: failed to parse 'peers' config item to endpointConfigurationEntity.Peers type: '' expected a map, got 'slice'`
+                Needed across all components to support private registries.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-17 10:18:48 +0000 UTC
+        Created At 2022-12-03 16:59:05 +0000 UTC
     </div>
 </div>
 
