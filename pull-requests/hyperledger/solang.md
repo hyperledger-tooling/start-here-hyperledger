@@ -55,6 +55,8 @@ permalink: /pull-requests/hyperledger/solang
             <td>
                 In order to integrate with Anchor, Solang needs to support discriminators. This PR refactors the Solana target so that it works with eight byte discriminators instead of four byte selectors.
 
+The discriminator depends only on the name of a function, so function overloading has been disabled in this PR (for Solana).
+
 The Anchor and Solana integration tests are failing, because we need to merge [this PR](https://github.com/solana-labs/solana-solidity.js/pull/47) in the `@solana/solidity.js` repository and release a new version of the library.
             </td>
         </tr>
