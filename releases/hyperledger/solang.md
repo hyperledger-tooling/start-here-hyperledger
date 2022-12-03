@@ -15,79 +15,75 @@ permalink: /releases/hyperledger/solang
         <tr>
             <td colspan="2">
                 <b>
-                    v0.1.13: Genoa
+                    v0.2.0: Berlin
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.1.13
+                    v0.2.0
                 </span>
             </td>
             <td>
-                ### Changed
-- Introduce sub-commands to the CLI. Now we have dedicated sub-commands for
-  `compile`, `doc`, `shell-completion` and the `language-server`, which makes
-  for a cleaner CLI.
-  [seanyoung](https://github.com/seanyoung)
-- On Solana, emitted events are encoded with Borsh encoding following the Anchor
-  format.
-  [LucasSte](https://github.com/LucasSte)
-- The ewasm target has been removed, since ewasm is not going to implemented on
-  Ethereum. The target has been reused for an new EVM target, which is not complete
-  yet.
-  [seanyoung](https://github.com/seanyoung)
-- Substrate: Concrete contracts must now have at least one public function. A
-  public function is in a contract, if it has public or external functions, if
-  it has a receive or any fallback function or if it has public storage items
-  (those will yield public getters). This aligns solang up with `ink!`.
-  [xermicus](https://github.com/xermicus)
+                We are happy to release solang `v0.2.0` codenamed `Berlin` today. Aside from containing many small fixes and improvements, this release marks a milestone towards maturing our Substrate compilation target: Any regressions building up since `ink!` v3.0 are fixed, most notably the metadata format (shoutout and many thanks to external contributor [extraymond](https://github.com/extraymond)) and event topics. Furthermore, we are leaving `ink!` version 3 behind us, in favor of introducing compatibility with the recent `ink!` 4 beta release and the latest pallet contract `v0.22.1`.
 
 ### Added
-- Solana v1.11 is now supported.
-  [seanyoung](https://github.com/seanyoung)
-- On Solana, programs now use a custom heap implementation, just like on
-  Substrate. As result, it is now possible to `.push()` and `.pop()` on
-  dynamic arrays in memory.
-  [seanyoung](https://github.com/seanyoung)
-- Arithmetic overflow tests are implemented for all integer widths,
-  [salaheldinsoliman](https://github.com/salaheldinsoliman)
-- Add an NFT example for Solana
-  [LucasSte](https://github.com/LucasSte)
-- Add a wrapper for the Solana System Program
-  [LucasSte](https://github.com/LucasSte)
-- The selector for functions can be overriden with the `selector=hex"abcd0123"`
-  syntax.
-  [seanyoung](https://github.com/seanyoung)
-- Shell completion is available using the `solang shell-completion` subcommand.
+- **Solana / breaking:** The try-catch construct is no longer permitted on Solana, as it
+   never worked. Any CPI error will abort the transaction.
+   [seanyoung](https://github.com/seanyoung)
+- **Solana:** Introduce new sub-command `solang idl` which can be used for generating
+  a Solidity interface file from an Anchor IDL file. This can be used for calling
+  Anchor Contracts on Solana. [seanyoung](https://github.com/seanyoung)
+- **Substrate:** Provide specific Substrate builtins via a "substrate" file. The
+  `Hash` type from `ink!` is the first `ink!` specific type made available for Solidity
+  contracts.
   [xermicus](https://github.com/xermicus)
-- Add support for the `create_program_address()` and `try_find_program_address()`
-  system call on Solana
-  [seanyoung](https://github.com/seanyoung)
-- Substrate: The `print()` builtin is now supported and will write to the debug
-  buffer. Additionally, error messages from the `require` statements will now be
-  written to the debug buffer as well. The Substrate contracts pallet prints the
-  contents of the debug buffer to the console for RPC ("dry-run") calls in case
-  the `runtime::contracts=debug` log level is configured.
+- **Substrate:** Introduce the `--log-api-return-codes` CLI flag, which changes the
+  emitted code to print return codes for `seal` API calls into the debug buffer.
+  [xermicus](https://github.com/xermicus)
+- Introduce function name mangling for overloaded functions and constructors, so
+  that they can be represented properly in the metadata.
+  [xermicus](https://github.com/xermicus)
+
+### Changed
+ - The Solana target now uses Borsh encoding rather than eth abi
+   encoding. This is aimed at making Solang contracts Anchor compatible.
+   [LucasSte](https://github.com/LucasSte)
+- **Substrate / breaking:** Supported node version is now pallet contracts `v0.22.1`.
+  [xermicus](https://github.com/xermicus)
+- **Substrate / breaking:** Remove the deprecated `random` builtin.
   [xermicus](https://github.com/xermicus)
 
 ### Fixed
-- DocComments `/** ... */` are now permitted anywhere.
-  [seanyoung](https://github.com/seanyoung)
-- Function calls to contract functions via contract name are no longer possible,
-  except for functions of base contracts.
+ - Whenever possible, the parser does not give up after the first error.
+   [salaheldinsoliman](https://github.com/salaheldinsoliman)
+ - Constant expressions are checked for overflow.
+   [salaheldinsoliman](https://github.com/salaheldinsoliman)
+ - AddMod and MulMod were broken. This is now fixed.
+   [LucasSte](https://github.com/LucasSte)
+- **Substrate / breaking:** Solang is now compatible with `ink!` version 4 (beta).
   [xermicus](https://github.com/xermicus)
-
-Signed-off-by: Sean Young <sean@mess.org>
+- **Substrate:** Switched ABI generation to use official `ink!` crates, which fixes all
+  remaining metadata regressions.
+  [extraymond](https://github.com/extraymond) and [xermicus](https://github.com/xermicus)
+- **Substrate:** Allow constructors to have a name, so that multiple constructors are 
+  supported, like in `ink!`.
+  [xermicus](https://github.com/xermicus)
+- All provided examples as well as most of the Solidity code snippets in our
+  documentation are now checked for succesful compilation on the Solang CI.
+  [xermicus](https://github.com/xermicus)
+- **Substrate:** Fix events with topics. The topic hashes generated by Solang
+  contracts are now exactly the same as those generated by `ink!`.
+  [xermicus](https://github.com/xermicus)
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/solang/releases/tag/v0.1.13" class=".btn">
+    <a href="https://github.com/hyperledger/solang/releases/tag/v0.2.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-09-16 20:19:02 +0000 UTC
+        Created At 2022-12-02 21:37:21 +0000 UTC
     </span>
 </div>
 
