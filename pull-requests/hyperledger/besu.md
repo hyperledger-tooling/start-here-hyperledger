@@ -14,11 +14,102 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4771" class=".btn">#4771</a>
+            </td>
+            <td>
+                <b>
+                    subscribe prior to getting stateTrieNode in cacheStorageNodes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+ensure storage caching subscribes before accessing worldstate at all
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+#4765 
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-02 23:35:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4769" class=".btn">#4769</a>
+            </td>
+            <td>
+                <b>
+                    prep changelog for 22.10.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+add changelog description for 22.10.2 hotfix
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-02 22:13:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4767" class=".btn">#4767</a>
             </td>
             <td>
                 <b>
-                    Test if KeyValueStorage is not closed when reading a key.
+                    Ensure that Snashot worldstates remain open for async operations
                 </b>
             </td>
         </tr>
@@ -33,11 +124,14 @@ permalink: /pull-requests/hyperledger/besu
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+in 22.10.1, two new operations pre-load account and storage from their respective worldstate asynchronously.  If the worldstate is based on a snapshot, there is a race where the snapshot might be closed ahead of the async operations completing, and subsequently result in a segfault when trying to access a closed rocksdb snapshot.  
+
+This PR adds a subscriber implementation for BonsaiWorldStateKeyValueStorage which ensures that the storage will not be closed while subscribers are still operating on it.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
-
+#4765 
 ## Documentation
 
 - [ ] I thought about documentation and added the `doc-change-required` label to this PR if
