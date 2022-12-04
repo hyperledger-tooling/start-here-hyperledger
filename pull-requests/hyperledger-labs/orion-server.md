@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/469" class=".btn">#469</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/470" class=".btn">#470</a>
             </td>
             <td>
                 <b>
-                    Remove redundant lock
+                    Access control on writing user records - restrictive - stage 2
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger-labs/orion-server
                 
             </td>
             <td>
-                Using locks causes a long hold of the `transactionProcessor` lock, which is the single contention point of the TX processing.
-It can be avoided because the `blockReplicator` uses its own lock and by making `pendingTxs` lock-free.
-
-Signed-off-by: Liran Funaro <liran.funaro@gmail.com>
+                Signed-off-by: May Rosenbaum <mayro1595@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-24 13:53:19 +0000 UTC
+        Created At 2022-12-04 12:39:27 +0000 UTC
     </div>
 </div>
 
