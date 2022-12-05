@@ -15,6 +15,44 @@ permalink: /releases/hyperledger/aries-vcx
         <tr>
             <td colspan="2">
                 <b>
+                    Release 0.49.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    0.49.1
+                </span>
+            </td>
+            <td>
+                # Changelog
+
+## [0.49.0](https://github.com/hyperledger/aries-vcx/tree/0.49.0) (2022-12-04)
+
+[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.48.0...0.49.0)
+
+### Other pull requests
+
+- Add ios legacy wrapper [\#683](https://github.com/hyperledger/aries-vcx/pull/683) ([Patrik-Stas](https://github.com/Patrik-Stas))
+- Release 0.49.0 [\#682](https://github.com/hyperledger/aries-vcx/pull/682) ([Patrik-Stas](https://github.com/Patrik-Stas))
+
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/aries-vcx/releases/tag/0.49.1" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2022-12-04 20:26:47 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     Release 0.49.0
                 </b>
             </td>
