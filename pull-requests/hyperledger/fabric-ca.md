@@ -64,7 +64,7 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
 
 This will allow us to test the mechanics of building, publishing, etc. on a repo other than docker.io prior to the formal 1.5.6 release.
 
-To trigger a release action, apply a semrev tag (e.g. `v1.5.6`) to the release target commit. 
+To trigger the release action, draft a new GH Release, applying a semrev tag (e.g. `v1.5.6-beta`) to a target branch. 
 
 Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
 
@@ -76,9 +76,8 @@ Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
 #### Description
 
 This PR adds support for multi-arch Docker images, generated with the buildx builder.
-Release actions are triggered by applying a semrev tag to the repo at the target commit.
 
-This PR also modifies the CA binaries to include the `{{ github.ref_name }}` directly when compiling the routine metadata.  This allows for a semantic revision (e.g. `v1.2.3`) strings to be specified as valid version identifiers for the binaries. 
+This PR also modifies the CA binaries to include the `{{ github.ref_name }}` directly when compiling the routine metadata.  This allows for a semantic revision (e.g. `v1.2.3`, `v1.2.3-alpha`, etc.) strings to be specified as valid version identifiers for the binaries. 
 
 #### Additional details
 
