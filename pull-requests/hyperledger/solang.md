@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1091" class=".btn">#1091</a>
+            </td>
+            <td>
+                <b>
+                    Ensure that rational compares are not permitted
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This solidity was not rejected and causes a panic in emit, because rationals should be compile-time constants.
+
+```
+function foo1(uint64 a, uint64 b) returns (bool) {
+	return (a/b) >= 0.05;
+}
+```
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-05 09:21:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1090" class=".btn">#1090</a>
             </td>
             <td>
@@ -141,35 +175,6 @@ The Anchor and Solana integration tests are failing, because we need to merge [t
     </table>
     <div class="right-align">
         Created At 2022-12-01 09:46:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1085" class=".btn">#1085</a>
-            </td>
-            <td>
-                <b>
-                    Improve CI and other fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Solang CI already has python3, no need to install
-- Docs needs git
-- solang.io domain no longer registered (expired)
-- Do not use ^ for crates
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-28 09:14:19 +0000 UTC
     </div>
 </div>
 

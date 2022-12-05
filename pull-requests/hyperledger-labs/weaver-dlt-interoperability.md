@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/341" class=".btn">#341</a>
+            </td>
+            <td>
+                <b>
+                    Docs Updated with IIN Agent instructions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #334 
+
+Added one more test case for relay in `test_relay.yml` workflow, for published protos-rs.
+
+Doc deployed here: https://sanvendev.github.io/weaver-dlt-interoperability/docs/external/getting-started/test-network/setup-local
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-05 09:32:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/340" class=".btn">#340</a>
             </td>
             <td>
