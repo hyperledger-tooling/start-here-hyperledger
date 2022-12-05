@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4778" class=".btn">#4778</a>
+            </td>
+            <td>
+                <b>
+                    Add support for another Transaction Encoder/Decoder
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Transaction Encoder/Decoder automatically implied RLP encoding. The 4844 Blob Transaction should be encoded with SSZ encoding.
+
+This PR is a suggestion how to refactor the Encoder to support multiple different types of encodings.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-05 16:19:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4775" class=".btn">#4775</a>
             </td>
             <td>
