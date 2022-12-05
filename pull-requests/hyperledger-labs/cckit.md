@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/cckit
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/cckit/pull/9" class=".btn">#9</a>
+                PR <a href="https://github.com/hyperledger-labs/cckit/pull/10" class=".btn">#10</a>
             </td>
             <td>
                 <b>
-                    Add replay attack checks
+                    Token extension
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger-labs/cckit
                 
             </td>
             <td>
-                Same signature can be used multiple times to execute a function. 
-This can be harmful if the signer's intention was to approve a transaction once.
-
-Signed-off-by: olaeseane <olaesean@gmail.com>
+                for creating tokens, for example UTXO based  erc20 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-28 08:40:49 +0000 UTC
+        Created At 2022-12-05 06:51:56 +0000 UTC
     </div>
 </div>
 

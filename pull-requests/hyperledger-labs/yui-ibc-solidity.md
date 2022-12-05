@@ -36,38 +36,3 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/133" class=".btn">#133</a>
-            </td>
-            <td>
-                <b>
-                    Split contracts into corresponding ics directories
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * rename IClient to ILightClient
-* ILightClient: fix to createClient returns one ConsensusUpdate
-* update generated code
-* IBCConnection: rename to setSupportedVersions
-* rename IModuleCallbacks to IIBCModule
-* add OwnableIBCHandler
-* tests: remove clients for IBFT2Client and MockClient
-* add code comments
-
-Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-28 08:30:02 +0000 UTC
-    </div>
-</div>
-
