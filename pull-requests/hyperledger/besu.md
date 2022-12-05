@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">logging</span>
             </td>
             <td>
                 Signed-off-by: mark-terry <mark.terry@consensys.net>
@@ -825,7 +825,7 @@ Update tuweni to 2.3.1
         </tr>
         <tr>
             <td>
-                <span class="chip">TeamGroot</span>
+                <span class="chip">TeamGroot</span><span class="chip">mainnet</span><span class="chip">EIP</span>
             </td>
             <td>
                 New Timestamp Protocol Schedule Spike
