@@ -26,7 +26,7 @@ permalink: /releases/hyperledger/solang
                 </span>
             </td>
             <td>
-                We are happy to release solang `v0.2.0` codenamed `Berlin` today. Aside from containing many small fixes and improvements, this release marks a milestone towards maturing our Substrate compilation target: Any regressions building up since `ink!` v3.0 are fixed, most notably the metadata format (shoutout and many thanks to external contributor [extraymond](https://github.com/extraymond)) and event topics. Furthermore, we are leaving `ink!` version 3 behind us, in favor of introducing compatibility with the recent `ink!` 4 beta release and the latest pallet contract `v0.22.1`.
+                We are happy to release solang `v0.2.0` codenamed `Berlin` today. Aside from containing many small fixes and improvements, this release marks a milestone towards maturing our Substrate compilation target: Any regressions building up since `ink!` v3.0 are fixed, most notably the metadata format (shoutout and many thanks to external contributor [extraymond](https://github.com/extraymond)) and event topics. Furthermore, we are leaving `ink!` version 3 behind us, in favor of introducing compatibility with the recent `ink!` 4 beta release and the latest substrate contract node `v0.22.1`.
 
 ### Added
 - **Solana / breaking:** The try-catch construct is no longer permitted on Solana, as it
