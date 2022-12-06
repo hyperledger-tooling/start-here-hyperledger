@@ -1,13 +1,13 @@
 
-[658](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/658) Bump @xmldom/xmldom from 0.7.6 to 0.7.9
+[386](https://github.com/hyperledger-labs/private-data-objects/pull/386) Change the python version regular expression for multi-digit versions
 
-[657](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/657) fix error in react app
+[4782](https://github.com/hyperledger/besu/pull/4782) Moved besu docs devs to emeritus
 
-[3830](https://github.com/hyperledger/fabric/pull/3830) [WIP] Update purge private data tests
+[4781](https://github.com/hyperledger/besu/pull/4781) EIP-4750 EOF Functions
 
-[4778](https://github.com/hyperledger/besu/pull/4778) Add support for another Transaction Encoder/Decoder
+[659](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/659) Fix for frontend issue tokens form
 
-[1092](https://github.com/hyperledger/solang/pull/1092) Fix github deprecated warnings
+[4780](https://github.com/hyperledger/besu/pull/4780) Speedup modexp
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
