@@ -14,6 +14,82 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3832" class=".btn">#3832</a>
+            </td>
+            <td>
+                <b>
+                    set Orderer SendBufferSize to 100 as default
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                10 has shown to be a bottleneck for Raft performance. 100 appears to be a better default, so proposing that this value is set to 100 by default
+
+Signed-off-by: Dave Kelsey <d_kelsey@uk.ibm.com>
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+
+#### Description
+
+10 has shown to be a bottleneck for Raft performance. 100 appears to be a better default, so proposing that this value is set to 100 by default
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-06 12:08:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3831" class=".btn">#3831</a>
+            </td>
+            <td>
+                <b>
+                    set Orderer SendBufferSize to 100 as default
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                10 has shown to be a bottleneck for Raft performance. 100 appears to be a better default, so proposing that this value is set to 100 by default
+
+Signed-off-by: Dave Kelsey <d_kelsey@uk.ibm.com>
+
+#### Type of change
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+10 has shown to be a bottleneck for Raft performance. 100 appears to be a better default, so proposing that this value is set to 100 by default
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-06 10:58:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3830" class=".btn">#3830</a>
             </td>
             <td>
