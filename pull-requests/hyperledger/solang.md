@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 <b>
-                    Fix github deprecated warnings
+                    Fix github actions warnings
                 </b>
             </td>
         </tr>
