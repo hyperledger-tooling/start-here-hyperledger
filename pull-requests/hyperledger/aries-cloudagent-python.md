@@ -70,31 +70,3 @@ Thanks to @dbluhm for additional conceptual design and help debugging :)
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2033" class=".btn">#2033</a>
-            </td>
-            <td>
-                <b>
-                    feat: Proof Negotiation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Łukasz Przytuła <lprzytula@gmail.com>
-
-Allow proof negotiation by providing an updated proof request to `/present-proof/records/{pres_ex_id}/send-request` endpoint (if no proof request will be passed in body, it will be created according to the presentation proposal)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-29 23:08:55 +0000 UTC
-    </div>
-</div>
-

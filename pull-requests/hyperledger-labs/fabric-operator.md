@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/83" class=".btn">#83</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/84" class=".btn">#84</a>
             </td>
             <td>
                 <b>
-                    fix: use right operator-sdk version and support mac install
+                    Build multi-arch arm64 and amd64 docker images
                 </b>
             </td>
         </tr>
@@ -27,17 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                ```diff
-- https://github.com/operator-framework/operator-sdk/releases/download/1.16.0/operator-sdk_linux_amd64
-+ https://github.com/operator-framework/operator-sdk/releases/download/v1.16.0/operator-sdk_linux_amd64
-```
-
-please see https://github.com/operator-framework/operator-sdk/releases/tag/v1.16.0
+                Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-15 09:14:09 +0000 UTC
+        Created At 2022-12-06 20:06:47 +0000 UTC
     </div>
 </div>
 

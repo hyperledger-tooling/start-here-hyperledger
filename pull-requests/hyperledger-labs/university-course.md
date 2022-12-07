@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/university-course
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/university-course/pull/86" class=".btn">#86</a>
+                PR <a href="https://github.com/hyperledger-labs/university-course/pull/87" class=".btn">#87</a>
             </td>
             <td>
                 <b>
-                    chore(deps): bump minimatch from 3.0.4 to 3.1.2 in /support/Lab02
+                    chore(deps): bump decode-uri-component from 0.2.0 to 0.2.2 in /support/Lab06/b4s/organization/university/user-interface
                 </b>
             </td>
         </tr>
@@ -27,27 +27,45 @@ permalink: /pull-requests/hyperledger-labs/university-course
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [minimatch](https://github.com/isaacs/minimatch) from 3.0.4 to 3.1.2.
+                Bumps [decode-uri-component](https://github.com/SamVerschueren/decode-uri-component) from 0.2.0 to 0.2.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/SamVerschueren/decode-uri-component/releases">decode-uri-component's releases</a>.</em></p>
+<blockquote>
+<h2>v0.2.2</h2>
+<ul>
+<li>Prevent overwriting previously decoded tokens  980e0bf</li>
+</ul>
+<p><a href="https://github.com/SamVerschueren/decode-uri-component/compare/v0.2.1...v0.2.2">https://github.com/SamVerschueren/decode-uri-component/compare/v0.2.1...v0.2.2</a></p>
+<h2>v0.2.1</h2>
+<ul>
+<li>Switch to GitHub workflows  76abc93</li>
+<li>Fix issue where decode throws - fixes <a href="https://github-redirect.dependabot.com/SamVerschueren/decode-uri-component/issues/6">#6</a>  746ca5d</li>
+<li>Update license (<a href="https://github-redirect.dependabot.com/SamVerschueren/decode-uri-component/issues/1">#1</a>)  486d7e2</li>
+<li>Tidelift tasks  a650457</li>
+<li>Meta tweaks  66e1c28</li>
+</ul>
+<p><a href="https://github.com/SamVerschueren/decode-uri-component/compare/v0.2.0...v0.2.1">https://github.com/SamVerschueren/decode-uri-component/compare/v0.2.0...v0.2.1</a></p>
+</blockquote>
+</details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/isaacs/minimatch/commit/699c459443a6bd98f5b28197978f76e7f71467ac"><code>699c459</code></a> 3.1.2</li>
-<li><a href="https://github.com/isaacs/minimatch/commit/2f2b5ff1bb1b6a01f4404f7e475f0a2cba578ab7"><code>2f2b5ff</code></a> fix: trim pattern</li>
-<li><a href="https://github.com/isaacs/minimatch/commit/25d7c0d09c47063c9b0d2ace17ef8e951d90eccc"><code>25d7c0d</code></a> 3.1.1</li>
-<li><a href="https://github.com/isaacs/minimatch/commit/55dda291dfb595bd11b4edb19b45dd98eda76de0"><code>55dda29</code></a> fix: treat nocase:true as always having magic</li>
-<li><a href="https://github.com/isaacs/minimatch/commit/5e1fb8dd2bb78c0ae22101b9229fac4c76ef039e"><code>5e1fb8d</code></a> 3.1.0</li>
-<li><a href="https://github.com/isaacs/minimatch/commit/f8145c54f34075069f4a23cb214d871da4cd4006"><code>f8145c5</code></a> Add 'allowWindowsEscape' option</li>
-<li><a href="https://github.com/isaacs/minimatch/commit/570e8b1aef6c9e823a824aa0b9be10db43857cd7"><code>570e8b1</code></a> add publishConfig for v3 publishes</li>
-<li><a href="https://github.com/isaacs/minimatch/commit/5b7cd3372be253759fb4d865eb3f38f189a5fcdf"><code>5b7cd33</code></a> 3.0.6</li>
-<li><a href="https://github.com/isaacs/minimatch/commit/20b4b562830680867feb75f9c635aca08e5c86ff"><code>20b4b56</code></a> [fix] revert all breaking syntax changes</li>
-<li><a href="https://github.com/isaacs/minimatch/commit/2ff038852ec03e85e60e0eb333005c680ac8a543"><code>2ff0388</code></a> document, expose, and test 'partial:true' option</li>
-<li>Additional commits viewable in <a href="https://github.com/isaacs/minimatch/compare/v3.0.4...v3.1.2">compare view</a></li>
+<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/a0eea469d26eb0df668b081672cdb9581feb78eb"><code>a0eea46</code></a> 0.2.2</li>
+<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/980e0bf09b64d94f1aa79012f895816c30ffd152"><code>980e0bf</code></a> Prevent overwriting previously decoded tokens</li>
+<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/3c8a373dd4837e89b3f970e01295dd03e1405a33"><code>3c8a373</code></a> 0.2.1</li>
+<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/76abc939783fe3900fadb7d384a74d324d5557f3"><code>76abc93</code></a> Switch to GitHub workflows</li>
+<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/746ca5dcb6667c5d364e782d53c542830e4c10b9"><code>746ca5d</code></a> Fix issue where decode throws - fixes <a href="https://github-redirect.dependabot.com/SamVerschueren/decode-uri-component/issues/6">#6</a></li>
+<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/486d7e26d3a8c0fbe860fb651fe1bc98c2f2be30"><code>486d7e2</code></a> Update license (<a href="https://github-redirect.dependabot.com/SamVerschueren/decode-uri-component/issues/1">#1</a>)</li>
+<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/a65045724e6234acef87f31da499d4807b20b134"><code>a650457</code></a> Tidelift tasks</li>
+<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/66e1c2834c0e189201cb65196ec3101372459b02"><code>66e1c28</code></a> Meta tweaks</li>
+<li>See full diff in <a href="https://github.com/SamVerschueren/decode-uri-component/compare/v0.2.0...v0.2.2">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=minimatch&package-manager=npm_and_yarn&previous-version=3.0.4&new-version=3.1.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=decode-uri-component&package-manager=npm_and_yarn&previous-version=0.2.0&new-version=0.2.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -83,7 +101,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-10 00:49:18 +0000 UTC
+        Created At 2022-12-06 21:50:41 +0000 UTC
     </div>
 </div>
 
