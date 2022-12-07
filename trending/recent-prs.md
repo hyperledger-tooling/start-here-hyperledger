@@ -1,13 +1,13 @@
 
-[3836](https://github.com/hyperledger/fabric/pull/3836) Build release binaries and Docker images for arm64
+[1623](https://github.com/hyperledger/indy-plenum/pull/1623) Ubuntu 20.04 upgrade
 
-[3835](https://github.com/hyperledger/fabric/pull/3835) Build release binaries and multi-arch Docker images for arm64 - DO NOT MERGE
+[87](https://github.com/hyperledger-labs/university-course/pull/87) chore(deps): bump decode-uri-component from 0.2.0 to 0.2.2 in /support/Lab06/b4s/organization/university/user-interface
 
-[36](https://github.com/hyperledger-labs/perun-eth-contracts/pull/36) ⬆️ Bump decode-uri-component from 0.2.0 to 0.2.2
+[3837](https://github.com/hyperledger/fabric/pull/3837) fix the multi-arch Docker peer build
 
-[880](https://github.com/hyperledger/fabric-samples/pull/880) Bump qs and express in /asset-transfer-basic/rest-api-typescript
+[84](https://github.com/hyperledger-labs/fabric-operator/pull/84) Build multi-arch arm64 and amd64 docker images
 
-[442](https://github.com/hyperledger-labs/fabric-smart-client/pull/442) bug fix and enhancements
+[313](https://github.com/hyperledger-labs/blockchain-explorer/pull/313) Bump qs, body-parser and express
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

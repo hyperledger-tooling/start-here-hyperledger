@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1619" class=".btn">#1619</a>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1623" class=".btn">#1623</a>
             </td>
             <td>
                 <b>
-                    [v1.13.1-rc3] - Update Version Number for Release
+                    Ubuntu 20.04 upgrade
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-plenum
                 
             </td>
             <td>
-                [v1.13.1-rc3] - Update Version number for Release
+                Fixes for build
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-26 17:14:41 +0000 UTC
+        Created At 2022-12-06 22:32:43 +0000 UTC
     </div>
 </div>
 
