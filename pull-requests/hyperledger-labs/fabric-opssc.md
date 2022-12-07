@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/59" class=".btn">#59</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-opssc/pull/60" class=".btn">#60</a>
             </td>
             <td>
                 <b>
-                    chore(*): Bump fabric versions to v2.4.7 and v2.2.9
+                    Add PV for agent chart and parameterize probe options for agent and API server charts
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-opssc
                 
             </td>
             <td>
-                Signed-off-by: Tatsuya Sato <tatsuya.sato.so@hitachi.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-18 10:26:47 +0000 UTC
+        Created At 2022-12-07 06:36:23 +0000 UTC
     </div>
 </div>
 
