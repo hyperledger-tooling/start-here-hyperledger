@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
             </td>
             <td>
                 <b>
-                    docs: adding basic rest package documentation
+                    docs: adding basic extension packages documentation
                 </b>
             </td>
         </tr>

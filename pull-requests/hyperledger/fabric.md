@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3838" class=".btn">#3838</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Update purge private data tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Test purge private data handles state based endorsement correctly
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-07 17:19:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3837" class=".btn">#3837</a>
             </td>
             <td>
@@ -637,35 +666,6 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-11-30 22:31:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3819" class=".btn">#3819</a>
-            </td>
-            <td>
-                <b>
-                    [WIP] Update purge private data tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Check that no purged data appears in block event replays
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-30 17:14:30 +0000 UTC
     </div>
 </div>
 

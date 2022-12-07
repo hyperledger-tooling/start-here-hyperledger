@@ -14,67 +14,42 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/848" class=".btn">#848</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/852" class=".btn">#852</a>
             </td>
             <td>
                 <b>
-                    Bump postgresql from 42.5.0 to 42.5.1 in /backend/business-partner-agent
+                    Bump ansi-regex in /frontend
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span><span class="chip">java</span>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [postgresql](https://github.com/pgjdbc/pgjdbc) from 42.5.0 to 42.5.1.
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/pgjdbc/pgjdbc/blob/master/CHANGELOG.md">postgresql's changelog</a>.</em></p>
-<blockquote>
-<h1>Changelog</h1>
-<p>Notable changes since version 42.0.0, read the complete <a href="https://jdbc.postgresql.org/documentation/changelog.html">History of Changes</a>.</p>
-<p>The format is based on <a href="http://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>.</p>
-<h2>[Unreleased]</h2>
-<h3>Changed</h3>
-<h3>Added</h3>
-<h3>Fixed</h3>
-<p>[42.5.1] (2022-11-21 15:21:59 -0500)</p>
-<h3>Security</h3>
-<ul>
-<li>security: StreamWrapper spills to disk if setText, or setBytea sends very large Strings or arrays to the server. createTempFile creates a file which can be read by other users on unix like systems (Not macos).
-This has been fixed in this version fixes CVE-2022-41946 see the <a href="https://github.com/pgjdbc/pgjdbc/security/advisories/GHSA-562r-vg33-8x8h">security advisory</a> for more details. Reported by <a href="https://github.com/JLLeitschuh">Jonathan Leitschuh</a> This has been fixed in versions 42.5.1, 42.4.3 42.3.8, 42.2.27.jre7. Note there is no fix for 42.2.26.jre6. See the security advisory for work arounds.</li>
-</ul>
-<h3>Fixed</h3>
-<ul>
-<li>fix: make sure we select array_in from pg_catalog to avoid duplicate array_in functions fixes <a href="https://github-redirect.dependabot.com/pgjdbc/pgjdbc/issues/2548">#Issue 2548</a> [PR <a href="https://github-redirect.dependabot.com/pgjdbc/pgjdbc/issues/2552">#2552</a>](<a href="https://github-redirect.dependabot.com/pgjdbc/pgjdbc/issues/2552">pgjdbc/pgjdbc#2552</a>)</li>
-<li>fix: binary decoding of bool values [PR <a href="https://github-redirect.dependabot.com/pgjdbc/pgjdbc/issues/2640">#2640</a>](<a href="https://github-redirect.dependabot.com/pgjdbc/pgjdbc/pull/2640">pgjdbc/pgjdbc#2640</a>)</li>
-<li>perf: improve performance of PgResultSet getByte/getShort/getInt/getLong for float-typed columns [PR <a href="https://github-redirect.dependabot.com/pgjdbc/pgjdbc/issues/2634">#2634</a>](<a href="https://github-redirect.dependabot.com/pgjdbc/pgjdbc/pull/2634">pgjdbc/pgjdbc#2634</a>)</li>
-<li>chore: fix various spelling errors [PR <a href="https://github-redirect.dependabot.com/pgjdbc/pgjdbc/issues/2592">#2592</a>](<a href="https://github-redirect.dependabot.com/pgjdbc/pgjdbc/pull/2592">pgjdbc/pgjdbc#2592</a>)</li>
-<li>chore: Feature/urlparser improve URLParser [PR <a href="https://github-redirect.dependabot.com/pgjdbc/pgjdbc/issues/2641">#2641</a>](<a href="https://github-redirect.dependabot.com/pgjdbc/pgjdbc/pull/2592">pgjdbc/pgjdbc#2592</a>)</li>
-</ul>
-</blockquote>
-</details>
+                Bumps [ansi-regex](https://github.com/chalk/ansi-regex) and [ansi-regex](https://github.com/chalk/ansi-regex). These dependencies needed to be updated together.
+Updates `ansi-regex` from 4.1.0 to 4.1.1
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/pgjdbc/pgjdbc/commit/9008dc9aade6dbfe4efafcd6872ebc55f4699cf5"><code>9008dc9</code></a> Merge pull request from GHSA-562r-vg33-8x8h</li>
-<li><a href="https://github.com/pgjdbc/pgjdbc/commit/135be5a4395033a4ba23a1dd70ad76e0bd443a8d"><code>135be5a</code></a> chore: bump Checkstyle to 9.3</li>
-<li><a href="https://github.com/pgjdbc/pgjdbc/commit/1d7465af15b38f1ef5ab2735554f204f54ed3e59"><code>1d7465a</code></a> chore: bump Gradle to 7.5.1</li>
-<li><a href="https://github.com/pgjdbc/pgjdbc/commit/4743ccf7f96439c9eb956787f6c86ddff2568a19"><code>4743ccf</code></a> minor: Update the LeftCurly according to the updation in checkstyle</li>
-<li><a href="https://github.com/pgjdbc/pgjdbc/commit/d5ed52ef391670e83ae5265af2f7301c615ce4ca"><code>d5ed52e</code></a> chore: add .git-blame-ignore-revst to hide reformatting commits from GitHub b...</li>
-<li><a href="https://github.com/pgjdbc/pgjdbc/commit/98c04a0c903e90f2d5d10a09baf1f753747b2556"><code>98c04a0</code></a> exclude ArrayTest versions less than 9.1 (<a href="https://github-redirect.dependabot.com/pgjdbc/pgjdbc/issues/2645">#2645</a>)</li>
-<li><a href="https://github.com/pgjdbc/pgjdbc/commit/9f90de920a969a066324b42cbd19e29d296ce970"><code>9f90de9</code></a> revert change to PGProperty.get() to keep the API the same (<a href="https://github-redirect.dependabot.com/pgjdbc/pgjdbc/issues/2644">#2644</a>)</li>
-<li><a href="https://github.com/pgjdbc/pgjdbc/commit/ee06e22ee1f628877ee8d7664351b58b69dd0a1f"><code>ee06e22</code></a> Feature/urlparser improve3 pr1 (<a href="https://github-redirect.dependabot.com/pgjdbc/pgjdbc/issues/2641">#2641</a>)</li>
-<li><a href="https://github.com/pgjdbc/pgjdbc/commit/56a487c113c8a3f860a1047852380d5668e9feba"><code>56a487c</code></a> fix: binary decoding of bool values (<a href="https://github-redirect.dependabot.com/pgjdbc/pgjdbc/issues/2640">#2640</a>)</li>
-<li><a href="https://github.com/pgjdbc/pgjdbc/commit/b73899106949e92e497e3143b24f613cf2f9f203"><code>b738991</code></a> remove javadoc links for java 17 and above (<a href="https://github-redirect.dependabot.com/pgjdbc/pgjdbc/issues/2637">#2637</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/pgjdbc/pgjdbc/compare/REL42.5.0...REL42.5.1">compare view</a></li>
+<li><a href="https://github.com/chalk/ansi-regex/commit/64735d25eb839b55bc9fae3877edb702b4c92ca2"><code>64735d2</code></a> v4.1.1</li>
+<li><a href="https://github.com/chalk/ansi-regex/commit/75a657da7af875b2e2724fd6331bf0a4b23d3c9a"><code>75a657d</code></a> Fix potential ReDoS (<a href="https://github-redirect.dependabot.com/chalk/ansi-regex/issues/37">#37</a>)</li>
+<li>See full diff in <a href="https://github.com/chalk/ansi-regex/compare/v4.1.0...v4.1.1">compare view</a></li>
 </ul>
 </details>
 <br />
 
+Updates `ansi-regex` from 3.0.0 to 4.1.1
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/chalk/ansi-regex/commit/64735d25eb839b55bc9fae3877edb702b4c92ca2"><code>64735d2</code></a> v4.1.1</li>
+<li><a href="https://github.com/chalk/ansi-regex/commit/75a657da7af875b2e2724fd6331bf0a4b23d3c9a"><code>75a657d</code></a> Fix potential ReDoS (<a href="https://github-redirect.dependabot.com/chalk/ansi-regex/issues/37">#37</a>)</li>
+<li>See full diff in <a href="https://github.com/chalk/ansi-regex/compare/v4.1.0...v4.1.1">compare view</a></li>
+</ul>
+</details>
+<br />
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=org.postgresql:postgresql&package-manager=maven&previous-version=42.5.0&new-version=42.5.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -101,15 +76,232 @@ You can trigger Dependabot actions by commenting on this PR:
 You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/business-partner-agent/network/alerts).
 
 </details>
-
-<a href="https://gitpod.io/#https://github.com/hyperledger-labs/business-partner-agent/pull/848"><img src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
-
-
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-23 22:18:56 +0000 UTC
+        Created At 2022-12-07 13:39:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/851" class=".btn">#851</a>
+            </td>
+            <td>
+                <b>
+                    Bump decode-uri-component from 0.2.0 to 0.2.2 in /frontend
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps [decode-uri-component](https://github.com/SamVerschueren/decode-uri-component) from 0.2.0 to 0.2.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/SamVerschueren/decode-uri-component/releases">decode-uri-component's releases</a>.</em></p>
+<blockquote>
+<h2>v0.2.2</h2>
+<ul>
+<li>Prevent overwriting previously decoded tokens  980e0bf</li>
+</ul>
+<p><a href="https://github.com/SamVerschueren/decode-uri-component/compare/v0.2.1...v0.2.2">https://github.com/SamVerschueren/decode-uri-component/compare/v0.2.1...v0.2.2</a></p>
+<h2>v0.2.1</h2>
+<ul>
+<li>Switch to GitHub workflows  76abc93</li>
+<li>Fix issue where decode throws - fixes <a href="https://github-redirect.dependabot.com/SamVerschueren/decode-uri-component/issues/6">#6</a>  746ca5d</li>
+<li>Update license (<a href="https://github-redirect.dependabot.com/SamVerschueren/decode-uri-component/issues/1">#1</a>)  486d7e2</li>
+<li>Tidelift tasks  a650457</li>
+<li>Meta tweaks  66e1c28</li>
+</ul>
+<p><a href="https://github.com/SamVerschueren/decode-uri-component/compare/v0.2.0...v0.2.1">https://github.com/SamVerschueren/decode-uri-component/compare/v0.2.0...v0.2.1</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/a0eea469d26eb0df668b081672cdb9581feb78eb"><code>a0eea46</code></a> 0.2.2</li>
+<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/980e0bf09b64d94f1aa79012f895816c30ffd152"><code>980e0bf</code></a> Prevent overwriting previously decoded tokens</li>
+<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/3c8a373dd4837e89b3f970e01295dd03e1405a33"><code>3c8a373</code></a> 0.2.1</li>
+<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/76abc939783fe3900fadb7d384a74d324d5557f3"><code>76abc93</code></a> Switch to GitHub workflows</li>
+<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/746ca5dcb6667c5d364e782d53c542830e4c10b9"><code>746ca5d</code></a> Fix issue where decode throws - fixes <a href="https://github-redirect.dependabot.com/SamVerschueren/decode-uri-component/issues/6">#6</a></li>
+<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/486d7e26d3a8c0fbe860fb651fe1bc98c2f2be30"><code>486d7e2</code></a> Update license (<a href="https://github-redirect.dependabot.com/SamVerschueren/decode-uri-component/issues/1">#1</a>)</li>
+<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/a65045724e6234acef87f31da499d4807b20b134"><code>a650457</code></a> Tidelift tasks</li>
+<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/66e1c2834c0e189201cb65196ec3101372459b02"><code>66e1c28</code></a> Meta tweaks</li>
+<li>See full diff in <a href="https://github.com/SamVerschueren/decode-uri-component/compare/v0.2.0...v0.2.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=decode-uri-component&package-manager=npm_and_yarn&previous-version=0.2.0&new-version=0.2.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/business-partner-agent/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-07 13:19:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/850" class=".btn">#850</a>
+            </td>
+            <td>
+                <b>
+                    Bump qs from 6.5.2 to 6.5.3 in /frontend
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps [qs](https://github.com/ljharb/qs) from 6.5.2 to 6.5.3.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/ljharb/qs/blob/main/CHANGELOG.md">qs's changelog</a>.</em></p>
+<blockquote>
+<h2><strong>6.5.3</strong></h2>
+<ul>
+<li>[Fix] <code>parse</code>: ignore <code>__proto__</code> keys (<a href="https://github-redirect.dependabot.com/ljharb/qs/issues/428">#428</a>)</li>
+<li>[Fix]<code> </code>utils.merge`: avoid a crash with a null target and a truthy non-array source</li>
+<li>[Fix] correctly parse nested arrays</li>
+<li>[Fix] <code>stringify</code>: fix a crash with <code>strictNullHandling</code> and a custom <code>filter</code>/<code>serializeDate</code> (<a href="https://github-redirect.dependabot.com/ljharb/qs/issues/279">#279</a>)</li>
+<li>[Fix] <code>utils</code>: <code>merge</code>: fix crash when <code>source</code> is a truthy primitive &amp; no options are provided</li>
+<li>[Fix] when <code>parseArrays</code> is false, properly handle keys ending in <code>[]</code></li>
+<li>[Fix] fix for an impossible situation: when the formatter is called with a non-string value</li>
+<li>[Fix] <code>utils.merge</code>: avoid a crash with a null target and an array source</li>
+<li>[Refactor] <code>utils</code>: reduce observable [[Get]]s</li>
+<li>[Refactor] use cached <code>Array.isArray</code></li>
+<li>[Refactor] <code>stringify</code>: Avoid arr = arr.concat(...), push to the existing instance (<a href="https://github-redirect.dependabot.com/ljharb/qs/issues/269">#269</a>)</li>
+<li>[Refactor] <code>parse</code>: only need to reassign the var once</li>
+<li>[Robustness] <code>stringify</code>: avoid relying on a global <code>undefined</code> (<a href="https://github-redirect.dependabot.com/ljharb/qs/issues/427">#427</a>)</li>
+<li>[readme] remove travis badge; add github actions/codecov badges; update URLs</li>
+<li>[Docs] Clean up license text so it’s properly detected as BSD-3-Clause</li>
+<li>[Docs] Clarify the need for &quot;arrayLimit&quot; option</li>
+<li>[meta] fix README.md (<a href="https://github-redirect.dependabot.com/ljharb/qs/issues/399">#399</a>)</li>
+<li>[meta] add FUNDING.yml</li>
+<li>[actions] backport actions from main</li>
+<li>[Tests] always use <code>String(x)</code> over <code>x.toString()</code></li>
+<li>[Tests] remove nonexistent tape option</li>
+<li>[Dev Deps] backport from main</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/ljharb/qs/commit/298bfa55d6db00ddea78dd0333509aadf9bb3077"><code>298bfa5</code></a> v6.5.3</li>
+<li><a href="https://github.com/ljharb/qs/commit/ed0f5dcbef4b168a8ae299d78b1e4a2e9b1baf1f"><code>ed0f5dc</code></a> [Fix] <code>parse</code>: ignore <code>__proto__</code> keys (<a href="https://github-redirect.dependabot.com/ljharb/qs/issues/428">#428</a>)</li>
+<li><a href="https://github.com/ljharb/qs/commit/691e739cfa40cd42604dc05a54e6154371a429ab"><code>691e739</code></a> [Robustness] <code>stringify</code>: avoid relying on a global <code>undefined</code> (<a href="https://github-redirect.dependabot.com/ljharb/qs/issues/427">#427</a>)</li>
+<li><a href="https://github.com/ljharb/qs/commit/1072d57d38a690e1ad7616dced44390bffedcbb2"><code>1072d57</code></a> [readme] remove travis badge; add github actions/codecov badges; update URLs</li>
+<li><a href="https://github.com/ljharb/qs/commit/12ac1c403aaa04d1a34844f514ed9f9abfb76e64"><code>12ac1c4</code></a> [meta] fix README.md (<a href="https://github-redirect.dependabot.com/ljharb/qs/issues/399">#399</a>)</li>
+<li><a href="https://github.com/ljharb/qs/commit/0338716b09fdbd4711823eeb0a14e556a2498e7a"><code>0338716</code></a> [actions] backport actions from main</li>
+<li><a href="https://github.com/ljharb/qs/commit/5639c20ce0a7c1332200a3181339331483e5a3a1"><code>5639c20</code></a> Clean up license text so it’s properly detected as BSD-3-Clause</li>
+<li><a href="https://github.com/ljharb/qs/commit/51b8a0b1b213596dd1702b837f5e7dec2229793d"><code>51b8a0b</code></a> add FUNDING.yml</li>
+<li><a href="https://github.com/ljharb/qs/commit/45f675936e742d92fac8d4dae5cfc385c576a977"><code>45f6759</code></a> [Fix] fix for an impossible situation: when the formatter is called with a no...</li>
+<li><a href="https://github.com/ljharb/qs/commit/f814a7f8f2af059f8158f7e4b2bf8b46aeb62cd3"><code>f814a7f</code></a> [Dev Deps] backport from main</li>
+<li>Additional commits viewable in <a href="https://github.com/ljharb/qs/compare/v6.5.2...v6.5.3">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=qs&package-manager=npm_and_yarn&previous-version=6.5.2&new-version=6.5.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/business-partner-agent/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-07 13:18:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/849" class=".btn">#849</a>
+            </td>
+            <td>
+                <b>
+                    Version updates and minor fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - latest chrome version requires https in case the cookie is set to secure, otherwise the cookie is not stored, which breaks the login screen in case `BPA_SECURITY_ENABLED=true` and the BPA is accessed via `http://localhost:8080`.  Added a comment .env-example on how to workaround this.
+- ngrok v3 now requires a version field in ngrok.yml, otherwise the tunnel won't start
+- version updates
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-07 13:09:58 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/40" class=".btn">#40</a>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/43" class=".btn">#43</a>
             </td>
             <td>
                 <b>
-                    add support for raw transactions
+                    Update FFTM to v1.1.4
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
                 
             </td>
             <td>
-                Consumes the flag added in https://github.com/hyperledger/firefly-transaction-manager/pull/40
-
-Signed-off-by: Chengxuan Xing <chengxuan.xing@kaleido.io>
+                Signed-off-by: Peter Broadhurst <peter.broadhurst@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-17 16:45:15 +0000 UTC
+        Created At 2022-12-06 01:27:54 +0000 UTC
     </div>
 </div>
 

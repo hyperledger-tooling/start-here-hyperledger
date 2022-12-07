@@ -14,64 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/174" class=".btn">#174</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/179" class=".btn">#179</a>
             </td>
             <td>
                 <b>
-                    test: use separate ports in tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-03 10:01:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/173" class=".btn">#173</a>
-            </td>
-            <td>
-                <b>
-                    Feature/filter mediator connections
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                React Hook updates to use new connectionType property and filter by / with them. Contributed by @KolbyRKunz and @TheTreek 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-09-30 16:13:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/172" class=".btn">#172</a>
-            </td>
-            <td>
-                <b>
-                    feat(rest): added did resolver endpoint and tests
+                    feat: @aries-framework/ble-transport package
                 </b>
             </td>
         </tr>
@@ -85,7 +32,33 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-30 12:39:42 +0000 UTC
+        Created At 2022-12-07 16:25:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/178" class=".btn">#178</a>
+            </td>
+            <td>
+                <b>
+                    docs: update README
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jim Ezesinachi <ezesinachijim@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-05 12:25:27 +0000 UTC
     </div>
 </div>
 

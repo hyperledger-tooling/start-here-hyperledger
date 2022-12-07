@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/38" class=".btn">#38</a>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/39" class=".btn">#39</a>
             </td>
             <td>
                 <b>
-                    Go 1.18
+                    Port the DB utilities, and filtering to common
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/firefly-common
                 
             </td>
             <td>
-                Updates for go 1.18, including Mockery v2 which is go 1.18 compatible, and pulling in a range of freshened dependencies
+                - [x] Move DB utilities from `SQLCommon`
+- [x] Move Filter modeling code into `ffapi`
+- [x] Fill in UT coverage
+- [x] Move the `FilterFactory` to common `Route` object (currently extension)
+- [x] Migrate FireFly Core to use the `firefly-common` code - https://github.com/hyperledger/firefly/pull/1110
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-07 17:49:48 +0000 UTC
+        Created At 2022-12-03 00:05:44 +0000 UTC
     </div>
 </div>
 
