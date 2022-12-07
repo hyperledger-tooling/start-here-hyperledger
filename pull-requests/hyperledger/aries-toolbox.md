@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-toolbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/292" class=".btn">#292</a>
+                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/295" class=".btn">#295</a>
             </td>
             <td>
                 <b>
-                    chore(deps): Bump loader-utils from 1.4.0 to 1.4.1
+                    chore(deps): Bump qs from 6.5.2 to 6.5.3
                 </b>
             </td>
         </tr>
@@ -27,43 +27,58 @@ permalink: /pull-requests/hyperledger/aries-toolbox
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [loader-utils](https://github.com/webpack/loader-utils) from 1.4.0 to 1.4.1.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/webpack/loader-utils/releases">loader-utils's releases</a>.</em></p>
-<blockquote>
-<h2>v1.4.1</h2>
-<h3><a href="https://github.com/webpack/loader-utils/compare/v1.4.0...v1.4.1">1.4.1</a> (2022-11-07)</h3>
-<h3>Bug Fixes</h3>
-<ul>
-<li>security problem (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/220">#220</a>) (<a href="https://github.com/webpack/loader-utils/commit/4504e34c4796a5836ef70458327351675aed48a5">4504e34</a>)</li>
-</ul>
-</blockquote>
-</details>
+                Bumps [qs](https://github.com/ljharb/qs) from 6.5.2 to 6.5.3.
 <details>
 <summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/webpack/loader-utils/blob/v1.4.1/CHANGELOG.md">loader-utils's changelog</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/ljharb/qs/blob/main/CHANGELOG.md">qs's changelog</a>.</em></p>
 <blockquote>
-<h3><a href="https://github.com/webpack/loader-utils/compare/v1.4.0...v1.4.1">1.4.1</a> (2022-11-07)</h3>
-<h3>Bug Fixes</h3>
+<h2><strong>6.5.3</strong></h2>
 <ul>
-<li>security problem (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/220">#220</a>) (<a href="https://github.com/webpack/loader-utils/commit/4504e34c4796a5836ef70458327351675aed48a5">4504e34</a>)</li>
+<li>[Fix] <code>parse</code>: ignore <code>__proto__</code> keys (<a href="https://github-redirect.dependabot.com/ljharb/qs/issues/428">#428</a>)</li>
+<li>[Fix]<code> </code>utils.merge`: avoid a crash with a null target and a truthy non-array source</li>
+<li>[Fix] correctly parse nested arrays</li>
+<li>[Fix] <code>stringify</code>: fix a crash with <code>strictNullHandling</code> and a custom <code>filter</code>/<code>serializeDate</code> (<a href="https://github-redirect.dependabot.com/ljharb/qs/issues/279">#279</a>)</li>
+<li>[Fix] <code>utils</code>: <code>merge</code>: fix crash when <code>source</code> is a truthy primitive &amp; no options are provided</li>
+<li>[Fix] when <code>parseArrays</code> is false, properly handle keys ending in <code>[]</code></li>
+<li>[Fix] fix for an impossible situation: when the formatter is called with a non-string value</li>
+<li>[Fix] <code>utils.merge</code>: avoid a crash with a null target and an array source</li>
+<li>[Refactor] <code>utils</code>: reduce observable [[Get]]s</li>
+<li>[Refactor] use cached <code>Array.isArray</code></li>
+<li>[Refactor] <code>stringify</code>: Avoid arr = arr.concat(...), push to the existing instance (<a href="https://github-redirect.dependabot.com/ljharb/qs/issues/269">#269</a>)</li>
+<li>[Refactor] <code>parse</code>: only need to reassign the var once</li>
+<li>[Robustness] <code>stringify</code>: avoid relying on a global <code>undefined</code> (<a href="https://github-redirect.dependabot.com/ljharb/qs/issues/427">#427</a>)</li>
+<li>[readme] remove travis badge; add github actions/codecov badges; update URLs</li>
+<li>[Docs] Clean up license text so it’s properly detected as BSD-3-Clause</li>
+<li>[Docs] Clarify the need for &quot;arrayLimit&quot; option</li>
+<li>[meta] fix README.md (<a href="https://github-redirect.dependabot.com/ljharb/qs/issues/399">#399</a>)</li>
+<li>[meta] add FUNDING.yml</li>
+<li>[actions] backport actions from main</li>
+<li>[Tests] always use <code>String(x)</code> over <code>x.toString()</code></li>
+<li>[Tests] remove nonexistent tape option</li>
+<li>[Dev Deps] backport from main</li>
 </ul>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 </blockquote>
 </details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/webpack/loader-utils/commit/8f082b39f6903929f30fe29dab34f4d9c7ef070a"><code>8f082b3</code></a> chore(release): 1.4.1</li>
-<li><a href="https://github.com/webpack/loader-utils/commit/4504e34c4796a5836ef70458327351675aed48a5"><code>4504e34</code></a> fix: security problem (<a href="https://github-redirect.dependabot.com/webpack/loader-utils/issues/220">#220</a>)</li>
-<li>See full diff in <a href="https://github.com/webpack/loader-utils/compare/v1.4.0...v1.4.1">compare view</a></li>
+<li><a href="https://github.com/ljharb/qs/commit/298bfa55d6db00ddea78dd0333509aadf9bb3077"><code>298bfa5</code></a> v6.5.3</li>
+<li><a href="https://github.com/ljharb/qs/commit/ed0f5dcbef4b168a8ae299d78b1e4a2e9b1baf1f"><code>ed0f5dc</code></a> [Fix] <code>parse</code>: ignore <code>__proto__</code> keys (<a href="https://github-redirect.dependabot.com/ljharb/qs/issues/428">#428</a>)</li>
+<li><a href="https://github.com/ljharb/qs/commit/691e739cfa40cd42604dc05a54e6154371a429ab"><code>691e739</code></a> [Robustness] <code>stringify</code>: avoid relying on a global <code>undefined</code> (<a href="https://github-redirect.dependabot.com/ljharb/qs/issues/427">#427</a>)</li>
+<li><a href="https://github.com/ljharb/qs/commit/1072d57d38a690e1ad7616dced44390bffedcbb2"><code>1072d57</code></a> [readme] remove travis badge; add github actions/codecov badges; update URLs</li>
+<li><a href="https://github.com/ljharb/qs/commit/12ac1c403aaa04d1a34844f514ed9f9abfb76e64"><code>12ac1c4</code></a> [meta] fix README.md (<a href="https://github-redirect.dependabot.com/ljharb/qs/issues/399">#399</a>)</li>
+<li><a href="https://github.com/ljharb/qs/commit/0338716b09fdbd4711823eeb0a14e556a2498e7a"><code>0338716</code></a> [actions] backport actions from main</li>
+<li><a href="https://github.com/ljharb/qs/commit/5639c20ce0a7c1332200a3181339331483e5a3a1"><code>5639c20</code></a> Clean up license text so it’s properly detected as BSD-3-Clause</li>
+<li><a href="https://github.com/ljharb/qs/commit/51b8a0b1b213596dd1702b837f5e7dec2229793d"><code>51b8a0b</code></a> add FUNDING.yml</li>
+<li><a href="https://github.com/ljharb/qs/commit/45f675936e742d92fac8d4dae5cfc385c576a977"><code>45f6759</code></a> [Fix] fix for an impossible situation: when the formatter is called with a no...</li>
+<li><a href="https://github.com/ljharb/qs/commit/f814a7f8f2af059f8158f7e4b2bf8b46aeb62cd3"><code>f814a7f</code></a> [Dev Deps] backport from main</li>
+<li>Additional commits viewable in <a href="https://github.com/ljharb/qs/compare/v6.5.2...v6.5.3">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=loader-utils&package-manager=npm_and_yarn&previous-version=1.4.0&new-version=1.4.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=qs&package-manager=npm_and_yarn&previous-version=6.5.2&new-version=6.5.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -99,7 +114,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-08 22:35:23 +0000 UTC
+        Created At 2022-12-07 03:42:49 +0000 UTC
     </div>
 </div>
 

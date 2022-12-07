@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1093" class=".btn">#1093</a>
+            </td>
+            <td>
+                <b>
+                    Smol README bugfix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Cyrill Leutwiler <cyrill@parity.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-07 15:42:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1092" class=".btn">#1092</a>
             </td>
             <td>

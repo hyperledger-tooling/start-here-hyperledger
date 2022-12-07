@@ -14,6 +14,112 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/688" class=".btn">#688</a>
+            </td>
+            <td>
+                <b>
+                    Release 0.50.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">pre-release</span>
+            </td>
+            <td>
+                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-05 09:35:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/687" class=".btn">#687</a>
+            </td>
+            <td>
+                <b>
+                    Release 0.49.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">pre-release</span>
+            </td>
+            <td>
+                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-04 18:13:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/686" class=".btn">#686</a>
+            </td>
+            <td>
+                <b>
+                    Fix legacy wrapper ios release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">pre-release</span>
+            </td>
+            <td>
+                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-04 16:01:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/684" class=".btn">#684</a>
+            </td>
+            <td>
+                <b>
+                    Replace failure crate with thiserror
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">refactoring</span><span class="chip">agents</span><span class="chip">dependencies</span>
+            </td>
+            <td>
+                Replaces the dependency on outdated `failure` crate with the dependency on `thiserror` in `messages`, `aries-vcx-agent`, `aries-vcx` and `libvcx`. Although our entire approach to logging needs to be reconsidered, removing a dependency on an unmaintained crate is likely not a step in the wrong direction.
+
+It seems that we have to temporarily give up backtrace in libvcx errors stored in `CURRENT_ERROR_C_JSON` until `error_generic_member_access` is [stabilized](https://github.com/rust-lang/rust/issues/99301) since `thiserror` makes use of [unstable](https://doc.rust-lang.org/std/error/trait.Error.html#method.provide) `provide()` method to the error type in order to capture and share `std::backtrace::Backtrace`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-02 21:57:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/683" class=".btn">#683</a>
             </td>
             <td>
@@ -123,7 +229,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
             </td>
             <td>
                 <b>
-                    another agents no write routing_keys, in this case is none.
+                    Handle did:sov service omitting routing_keys attribute
                 </b>
             </td>
         </tr>
@@ -176,229 +282,6 @@ Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
     </table>
     <div class="right-align">
         Created At 2022-12-01 15:42:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/673" class=".btn">#673</a>
-            </td>
-            <td>
-                <b>
-                    Create integration test on top of aries-vcx-agent
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">tests</span>
-            </td>
-            <td>
-                Create integration test on top of aries-vcx-agent
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-29 18:00:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/672" class=".btn">#672</a>
-            </td>
-            <td>
-                <b>
-                    Align service resolution on indy ledger with did:sov spec
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                …ase it does not find a search for service.
-
-A new add_service_public method was added, which generates information in the ledger with this structure
-
-    "endpoint": {
-        "endpoint": "https://example.com",
-        "types": [ "endpoint", "did-communication", "DIDComm"],
-        "routingKeys": [ "did:key12345", "did:key12345" ]
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-28 22:46:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/671" class=".btn">#671</a>
-            </td>
-            <td>
-                <b>
-                    Implement Storage trait for agent's ObjectCache
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">agents</span>
-            </td>
-            <td>
-                Adds a Storage trait and implements it for Rust agent's ObjectCache. This may eventually allow for multiple storage implementations.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-28 20:15:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/670" class=".btn">#670</a>
-            </td>
-            <td>
-                <b>
-                    Remove ios wrapper indysdk
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-28 16:20:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/668" class=".btn">#668</a>
-            </td>
-            <td>
-                <b>
-                    revealed parameter in prover building proof
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">feature</span>
-            </td>
-            <td>
-                Signed-off-by: Pompeo Faruolo <pompeo.faruolo@etuitus.it>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-28 07:45:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/667" class=".btn">#667</a>
-            </td>
-            <td>
-                <b>
-                    Validated some parameters passed as a JSON string.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Remove of the FFI layer also removed some validations of parameters passed as a JSON strings. This PR restore missed validations.
-
-Signed-off-by: Artem Mironov <artem.mironov@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-27 21:14:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/666" class=".btn">#666</a>
-            </td>
-            <td>
-                <b>
-                    Set indy wallet master secret
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Set indy wallet master secret
-master_secret parameter has been added to wallet config
-Master secret is used in some methods where the wallet config is not there,
-then has been added a global access to master secret of each wallet
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-27 05:52:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/665" class=".btn">#665</a>
-            </td>
-            <td>
-                <b>
-                    Generate node bindings using napi-rs - separate crate
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">wrappers</span>
-            </td>
-            <td>
-                Based on approach taken by #661, but moving node API to a separate crate in order to minimize impact of NAPI boilerplate on libvcx.
-
-Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-25 14:28:06 +0000 UTC
     </div>
 </div>
 

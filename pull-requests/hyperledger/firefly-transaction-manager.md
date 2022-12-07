@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/43" class=".btn">#43</a>
+                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/45" class=".btn">#45</a>
             </td>
             <td>
                 <b>
-                    Update FF every time there is an error, or interesting change in state
+                    Reduce the size of websocket updates for transactions.
                 </b>
             </td>
         </tr>
@@ -27,18 +27,42 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
                 
             </td>
             <td>
-                Note this is an interim change, and we should fully implement https://github.com/hyperledger/firefly/issues/1108 such that only a transition of the _state_ to `Error` would result in a WebSocket update (not simply us writing an error to our local state from a single execution of the polling loop).
+                Subscribers can use /transactions/{txid} to provide full detail about a transaction if required.
 
-This PR:
-1. Fixes the problem that we didn't propagate error updates at all
-2. Introduces a more complete history list, that includes when we submitted the transaction, when we got a receipt etc.
+Delivered as part of closing https://github.com/hyperledger/firefly/issues/1108
 
-
+Signed-off-by: Matthew Whitehead <matthew.whitehead@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-27 19:03:17 +0000 UTC
+        Created At 2022-12-05 12:57:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/44" class=".btn">#44</a>
+            </td>
+            <td>
+                <b>
+                    Add Errors spec support to contract deploy request
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jim Zhang <jim.zhang@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-05 02:34:41 +0000 UTC
     </div>
 </div>
 

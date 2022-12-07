@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-signer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-signer/pull/29" class=".btn">#29</a>
+                PR <a href="https://github.com/hyperledger/firefly-signer/pull/30" class=".btn">#30</a>
             </td>
             <td>
                 <b>
-                    Fix ABI decoding of fixed-length arrays of dynamic types
+                    Use RPCError as return from CallRPC() to catch error details
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-signer
                 
             </td>
             <td>
-                When a fixed-length array contains dynamic types, such as strings, the encoded bytes have special sequences, see the inline comments inside `decodeABIFixedArrayBytes()` for details
+                Signed-off-by: Jim Zhang <jim.zhang@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-29 03:25:45 +0000 UTC
+        Created At 2022-12-05 02:34:10 +0000 UTC
     </div>
 </div>
 
