@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1146" class=".btn">#1146</a>
+            </td>
+            <td>
+                <b>
+                    fix: expose AttachmentData and DiscoverFeaturesEvents
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Expose AttachmentData and Discover Features events... and some minor housekeeping to remove a few lint warnings.
+
+Signed-off-by: Ariel Gentile <gentilester@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-07 21:27:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1143" class=".btn">#1143</a>
             </td>
             <td>

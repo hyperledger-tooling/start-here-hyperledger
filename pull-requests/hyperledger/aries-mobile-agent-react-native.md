@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
             </td>
             <td>
                 <b>
-                    feat: Added button loading animation to various buttons
+                    feat: added button loading animation to various buttons
                 </b>
             </td>
         </tr>

@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/614" class=".btn">#614</a>
+            </td>
+            <td>
+                <b>
+                    Multi-cred proof with revocation status tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                WIP taking over from @nodlesh 
+
+Addressing issue https://github.com/hyperledger/aries-cloudagent-python/issues/2036
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-07 21:59:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/613" class=".btn">#613</a>
             </td>
             <td>
