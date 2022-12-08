@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/26" class=".btn">#26</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/27" class=".btn">#27</a>
             </td>
             <td>
                 <b>
-                    Start development for v0.5
+                    Remove the support for Hyperledger Fabric v1.4 and v2.3 and use the latest scripts and samples
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
                 
             </td>
             <td>
-                This patch updates the version number in package.json and upgrades dependencies to start development for v0.5.
-
+                This PR removes the support for Hyperledger Fabric v1.4 and v2.3, which are now EoL. It also fixes use of deprecated features and updates samples in both the unit tests and integration tests.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-22 09:46:13 +0000 UTC
+        Created At 2022-12-08 01:40:12 +0000 UTC
     </div>
 </div>
 

@@ -1,13 +1,13 @@
 
-[781](https://github.com/hyperledger/fabric-docs-i18n/pull/781) [zh_CN]Docs » deploy_chaincode.md 修复部分书写问题
+[4791](https://github.com/hyperledger/besu/pull/4791) Docker release builds to no longer add latest tag
 
-[2564](https://github.com/hyperledger/indy-sdk/pull/2564) Bump Newtonsoft.Json from 11.0.2 to 13.0.2 in /wrappers/dotnet/indy-sdk-dotnet-test
+[4790](https://github.com/hyperledger/besu/pull/4790) Set default curve in EVMTool
 
-[2997](https://github.com/hyperledger/iroha/pull/2997) Bump certifi from 2017.11.5 to 2022.12.7 in /docs/source
+[100](https://github.com/hyperledger/aries-staticagent-python/pull/100) chore(deps): Bump nokogiri from 1.13.8 to 1.13.10 in /docs
 
-[110](https://github.com/hyperledger/anoncreds-spec/pull/110) Another try to enable katex -- minimum change
+[65](https://github.com/hyperledger-labs/fabric-opssc/pull/65) chore(deps): Bump qs, body-parser and express in /opssc-agent/src
 
-[614](https://github.com/hyperledger/aries-agent-test-harness/pull/614) Multi-cred proof with revocation status tests
+[64](https://github.com/hyperledger-labs/fabric-opssc/pull/64) chore(deps): Bump qs, body-parser and express in /opssc-api-server/src
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
