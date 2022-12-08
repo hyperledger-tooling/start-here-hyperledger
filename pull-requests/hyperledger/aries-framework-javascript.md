@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1147" class=".btn">#1147</a>
+            </td>
+            <td>
+                <b>
+                    fix(routing): add connection type on mediation grant
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Small update to the feature added in #994 to aggregate the connection type when a connection is related to a mediation grant. 
+
+Previously, it was setting **only** `ConnectionType.Mediator`, so if the connection was previously tagged with another type, it would be lost.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-08 02:23:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1146" class=".btn">#1146</a>
             </td>
             <td>
@@ -118,7 +146,7 @@ This will mean that, when using mediator, in order to delete a connection or out
 #1132 
 
 
-I closed the previous PR related to 1089 as I discovered dependencies between it and #1126) so it made more sense to package them up together in one PR
+I closed the previous PR related to 1089 (as I discovered dependencies between it and #1126) so it made more sense to package them up together in one PR
             </td>
         </tr>
     </table>
@@ -141,7 +169,7 @@ I closed the previous PR related to 1089 as I discovered dependencies between it
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span>
+                <span class="chip">dependencies</span><span class="chip">ci-test</span>
             </td>
             <td>
                 Bumps [decode-uri-component](https://github.com/SamVerschueren/decode-uri-component) from 0.2.0 to 0.2.2.
@@ -187,6 +215,8 @@ I closed the previous PR related to 1089 as I discovered dependencies between it
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
 [//]: # (dependabot-automerge-start)
+Dependabot will merge this PR once CI passes on it, as requested by @TimoGlastra.
+
 [//]: # (dependabot-automerge-end)
 
 ---
@@ -219,32 +249,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2022-12-04 22:34:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1134" class=".btn">#1134</a>
-            </td>
-            <td>
-                <b>
-                    refactor(oob)!: merge oob invitation parsing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                BREAKING CHANGE: the `agent.oob.parseInvitationShortUrl` method has been removed and integrated with the `agent.oob.parseInvitationUrl`. Because of this, the `agent.oob.parseInvitationUrl` method is now asynchronous.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-01 11:37:30 +0000 UTC
     </div>
 </div>
 

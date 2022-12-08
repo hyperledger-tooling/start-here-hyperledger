@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/263" class=".btn">#263</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/265" class=".btn">#265</a>
             </td>
             <td>
                 <b>
-                    Update dependencies
+                    Release v2.5 of the Java Chaincode
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                <nil>
+                Resolves #264 
+
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-01 09:39:43 +0000 UTC
+        Created At 2022-12-08 09:04:32 +0000 UTC
     </div>
 </div>
 

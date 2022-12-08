@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/43" class=".btn">#43</a>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/44" class=".btn">#44</a>
             </td>
             <td>
                 <b>
-                    Update FFTM to v1.1.4
+                    Implementation of AddressBalance() FFCAPI function
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
                 
             </td>
             <td>
-                Signed-off-by: Peter Broadhurst <peter.broadhurst@kaleido.io>
+                Signed-off-by: Matthew Whitehead <matthew.whitehead@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-06 01:27:54 +0000 UTC
+        Created At 2022-12-08 10:53:22 +0000 UTC
     </div>
 </div>
 
