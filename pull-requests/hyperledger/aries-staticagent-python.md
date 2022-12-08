@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-staticagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-staticagent-python/pull/99" class=".btn">#99</a>
+                PR <a href="https://github.com/hyperledger/aries-staticagent-python/pull/100" class=".btn">#100</a>
             </td>
             <td>
                 <b>
-                    chore(deps): Bump nokogiri from 1.13.8 to 1.13.9 in /docs
+                    chore(deps): Bump nokogiri from 1.13.8 to 1.13.10 in /docs
                 </b>
             </td>
         </tr>
@@ -27,11 +27,33 @@ permalink: /pull-requests/hyperledger/aries-staticagent-python
                 <span class="chip">dependencies</span><span class="chip">ruby</span>
             </td>
             <td>
-                Bumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.13.8 to 1.13.9.
+                Bumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.13.8 to 1.13.10.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/sparklemotion/nokogiri/releases">nokogiri's releases</a>.</em></p>
 <blockquote>
+<h2>1.13.10 / 2022-12-07</h2>
+<h3>Security</h3>
+<ul>
+<li>[CRuby] Address CVE-2022-23476, unchecked return value from <code>xmlTextReaderExpand</code>. See <a href="https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-qv4q-mr5r-qprj">GHSA-qv4q-mr5r-qprj</a> for more information.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li>[CRuby] <code>XML::Reader#attribute_hash</code> now returns <code>nil</code> on parse errors. This restores the behavior of <code>#attributes</code> from v1.13.7 and earlier. [<a href="https://github-redirect.dependabot.com/sparklemotion/nokogiri/issues/2715">#2715</a>]</li>
+</ul>
+<hr />
+<p>sha256 checksums:</p>
+<pre><code>777ce2e80f64772e91459b943e531dfef387e768f2255f9bc7a1655f254bbaa1  nokogiri-1.13.10-aarch64-linux.gem
+b432ff47c51386e07f7e275374fe031c1349e37eaef2216759063bc5fa5624aa  nokogiri-1.13.10-arm64-darwin.gem
+73ac581ddcb680a912e92da928ffdbac7b36afd3368418f2cee861b96e8c830b  nokogiri-1.13.10-java.gem
+916aa17e624611dddbf2976ecce1b4a80633c6378f8465cff0efab022ebc2900  nokogiri-1.13.10-x64-mingw-ucrt.gem
+0f85a1ad8c2b02c166a6637237133505b71a05f1bb41b91447005449769bced0  nokogiri-1.13.10-x64-mingw32.gem
+91fa3a8724a1ce20fccbd718dafd9acbde099258183ac486992a61b00bb17020  nokogiri-1.13.10-x86-linux.gem
+d6663f5900ccd8f72d43660d7f082565b7ffcaade0b9a59a74b3ef8791034168  nokogiri-1.13.10-x86-mingw32.gem
+81755fc4b8130ef9678c76a2e5af3db7a0a6664b3cba7d9fe8ef75e7d979e91b  nokogiri-1.13.10-x86_64-darwin.gem
+51d5246705dedad0a09b374d09cc193e7383a5dd32136a690a3cd56e95adf0a3  nokogiri-1.13.10-x86_64-linux.gem
+d3ee00f26c151763da1691c7fc6871ddd03e532f74f85101f5acedc2d099e958  nokogiri-1.13.10.gem
+</code></pre>
 <h2>1.13.9 / 2022-10-18</h2>
 <h3>Security</h3>
 <ul>
@@ -49,25 +71,23 @@ permalink: /pull-requests/hyperledger/aries-staticagent-python
 <li>[CRuby] <code>Nokogiri::XML::Namespace</code> objects, when compacted, update their internal struct's reference to the Ruby object wrapper. Previously, with GC compaction enabled, a segmentation fault was possible after compaction was triggered. [<a href="https://github-redirect.dependabot.com/sparklemotion/nokogiri/issues/2658">#2658</a>] (Thanks, <a href="https://github.com/eightbitraptor"><code>@​eightbitraptor</code></a> and <a href="https://github.com/peterzhu2118"><code>@​peterzhu2118</code></a>!)</li>
 <li>[CRuby] <code>Document#remove_namespaces!</code> now defers freeing the underlying <code>xmlNs</code> struct until the <code>Document</code> is GCed. Previously, maintaining a reference to a <code>Namespace</code> object that was removed in this way could lead to a segfault. [<a href="https://github-redirect.dependabot.com/sparklemotion/nokogiri/issues/2658">#2658</a>]</li>
 </ul>
-<hr />
-<p>sha256 checksums:</p>
-<pre><code>9b69829561d30c4461ea803baeaf3460e8b145cff7a26ce397119577a4083a02  nokogiri-1.13.9-aarch64-linux.gem
-e76ebb4b7b2e02c72b2d1541289f8b0679fb5984867cf199d89b8ef485764956  nokogiri-1.13.9-arm64-darwin.gem
-15bae7d08bddeaa898d8e3f558723300137c26a2dc2632a1f89c8574c4467165  nokogiri-1.13.9-java.gem
-f6a1dbc7229184357f3129503530af73cc59ceba4932c700a458a561edbe04b9  nokogiri-1.13.9-x64-mingw-ucrt.gem
-36d935d799baa4dc488024f71881ff0bc8b172cecdfc54781169c40ec02cbdb3  nokogiri-1.13.9-x64-mingw32.gem
-ebaf82aa9a11b8fafb67873d19ee48efb565040f04c898cdce8ca0cd53ff1a12  nokogiri-1.13.9-x86-linux.gem
-11789a2a11b28bc028ee111f23311461104d8c4468d5b901ab7536b282504154  nokogiri-1.13.9-x86-mingw32.gem
-01830e1646803ff91c0fe94bc768ff40082c6de8cfa563dafd01b3f7d5f9d795  nokogiri-1.13.9-x86_64-darwin.gem
-8e93b8adec22958013799c8690d81c2cdf8a90b6f6e8150ab22e11895844d781  nokogiri-1.13.9-x86_64-linux.gem
-96f37c1baf0234d3ae54c2c89aef7220d4a8a1b03d2675ff7723565b0a095531  nokogiri-1.13.9.gem
-</code></pre>
+<!-- raw HTML omitted -->
 </blockquote>
+<p>... (truncated)</p>
 </details>
 <details>
 <summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/sparklemotion/nokogiri/blob/main/CHANGELOG.md">nokogiri's changelog</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/sparklemotion/nokogiri/blob/v1.13.10/CHANGELOG.md">nokogiri's changelog</a>.</em></p>
 <blockquote>
+<h2>1.13.10 / 2022-12-07</h2>
+<h3>Security</h3>
+<ul>
+<li>[CRuby] Address CVE-2022-23476, unchecked return value from <code>xmlTextReaderExpand</code>. See <a href="https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-qv4q-mr5r-qprj">GHSA-qv4q-mr5r-qprj</a> for more information.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li>[CRuby] <code>XML::Reader#attribute_hash</code> now returns <code>nil</code> on parse errors. This restores the behavior of <code>#attributes</code> from v1.13.7 and earlier. [<a href="https://github-redirect.dependabot.com/sparklemotion/nokogiri/issues/2715">#2715</a>]</li>
+</ul>
 <h2>1.13.9 / 2022-10-18</h2>
 <h3>Security</h3>
 <ul>
@@ -90,23 +110,23 @@ ebaf82aa9a11b8fafb67873d19ee48efb565040f04c898cdce8ca0cd53ff1a12  nokogiri-1.13.
 <details>
 <summary>Commits</summary>
 <ul>
+<li><a href="https://github.com/sparklemotion/nokogiri/commit/4c80121dc309e67fa3d9f66a00516bad39b42c31"><code>4c80121</code></a> version bump to v1.13.10</li>
+<li><a href="https://github.com/sparklemotion/nokogiri/commit/85410e38410f670cbbc8c5b00d07b843caee88ce"><code>85410e3</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/sparklemotion/nokogiri/issues/2715">#2715</a> from sparklemotion/flavorjones-fix-reader-error-hand...</li>
+<li><a href="https://github.com/sparklemotion/nokogiri/commit/9fe0761c47c0d4270d1a5220cfd25de080350d50"><code>9fe0761</code></a> fix(cruby): XML::Reader#attribute_hash returns nil on error</li>
+<li><a href="https://github.com/sparklemotion/nokogiri/commit/3b9c736bee91f95514da309eef28b06c0c29ce3a"><code>3b9c736</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/sparklemotion/nokogiri/issues/2717">#2717</a> from sparklemotion/flavorjones-lock-psych-to-fix-bui...</li>
+<li><a href="https://github.com/sparklemotion/nokogiri/commit/2efa87b49a26d1e961c2a0c143ecf28a67033677"><code>2efa87b</code></a> test: skip large cdata test on system libxml2</li>
+<li><a href="https://github.com/sparklemotion/nokogiri/commit/3187d6739c90864a7bb59cf8276facb1a47ca85d"><code>3187d67</code></a> dep(dev): pin psych to v4 until v5 builds in CI</li>
+<li><a href="https://github.com/sparklemotion/nokogiri/commit/a16b4bf14cec72e1a396c28a85135cd9abb08d9b"><code>a16b4bf</code></a> style(rubocop): disable Minitest/EmptyLineBeforeAssertionMethods</li>
 <li><a href="https://github.com/sparklemotion/nokogiri/commit/897759cc25b57ebf2754897e910c86931dec7d39"><code>897759c</code></a> version bump to v1.13.9</li>
 <li><a href="https://github.com/sparklemotion/nokogiri/commit/aeb1ac32830a34369a46625613f21ee17e3e445e"><code>aeb1ac3</code></a> doc: update CHANGELOG</li>
 <li><a href="https://github.com/sparklemotion/nokogiri/commit/c663e4905a35edd23f7cc05a80126b4e446e4fd2"><code>c663e49</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/sparklemotion/nokogiri/issues/2671">#2671</a> from sparklemotion/flavorjones-update-zlib-1.2.13_v1...</li>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/212e07da28096db7d2cbda697bc2a38d71f6dc3a"><code>212e07d</code></a> ext: hack to cross-compile zlib v1.2.13 on darwin</li>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/76dbc8c5bef99467f3403297e29da4297fbddeb7"><code>76dbc8c</code></a> dep: update zlib to v1.2.13</li>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/24e3a9c41428195c66745fef8ce697101167bd08"><code>24e3a9c</code></a> doc: update CHANGELOG</li>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/4db3b4daa9ca8d1c1996cc9741c76ba2b8d1673b"><code>4db3b4d</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/sparklemotion/nokogiri/issues/2668">#2668</a> from sparklemotion/flavorjones-namespace-scopes-comp...</li>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/73d73d6e433f17f39e188f5c03ec176b60719416"><code>73d73d6</code></a> fix: Document#remove_namespaces! use-after-free bug</li>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/5f58b34724a6e48c7c478cfda5fc9c4cac581e08"><code>5f58b34</code></a> fix: namespace nodes behave properly when compacted</li>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/b08a8586c7c34831be0f13f9147b84016d17d94b"><code>b08a858</code></a> test: repro namespace_scopes compaction issue</li>
-<li>Additional commits viewable in <a href="https://github.com/sparklemotion/nokogiri/compare/v1.13.8...v1.13.9">compare view</a></li>
+<li>Additional commits viewable in <a href="https://github.com/sparklemotion/nokogiri/compare/v1.13.8...v1.13.10">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=nokogiri&package-manager=bundler&previous-version=1.13.8&new-version=1.13.9)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=nokogiri&package-manager=bundler&previous-version=1.13.8&new-version=1.13.10)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -142,42 +162,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-21 04:34:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-staticagent-python/pull/98" class=".btn">#98</a>
-            </td>
-            <td>
-                <b>
-                    Move inactive maintainers to emeritus status
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The TOC approved a requirement that maintainers
-that have not been active in over three to six
-months be move to emeritus status.
-
-These maintainers have not been active in over
-one year.
-
-hyperledger/toc#32
-
-Signed-off-by: Ry Jones <ry@linux.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-19 16:08:20 +0000 UTC
+        Created At 2022-12-08 03:17:40 +0000 UTC
     </div>
 </div>
 
