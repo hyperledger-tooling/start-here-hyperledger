@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4786" class=".btn">#4786</a>
+            </td>
+            <td>
+                <b>
+                    Bugfix startup race with checkpoint sync and bonsai snapshots
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Address a race where checkpoint sync can advance the chain head well past genesis such that the genesis state is removed from the bonsai worldstate archive at startup.  
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+addresses #4765 
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-07 21:26:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4782" class=".btn">#4782</a>
             </td>
             <td>
@@ -558,48 +604,6 @@ Test branch for withdrawals & timestamp protocol schedule changes
     </table>
     <div class="right-align">
         Created At 2022-12-01 07:21:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4757" class=".btn">#4757</a>
-            </td>
-            <td>
-                <b>
-                    Use value comparisons instead of reference comparisons in some places
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Change three reference comparisons that I believe should be value comparisons.
-
-* Comparisons with `Bytes.EMPTY` will not work as expected.
-  * For example, `Bytes.of() == Bytes.EMPTY` is false.
-* While the two implementations are enums, `MetricCategory` is actually an interface.
-  * In practice this is fine, but it's safer for this to be a value comparison.
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-30 21:27:53 +0000 UTC
     </div>
 </div>
 

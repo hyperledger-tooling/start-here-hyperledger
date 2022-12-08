@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/109" class=".btn">#109</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/110" class=".btn">#110</a>
             </td>
             <td>
                 <b>
-                    Enable katex support for support latex math
+                    Another try to enable katex -- minimum change
                 </b>
             </td>
         </tr>
@@ -27,13 +27,14 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
                 
             </td>
             <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+                - Enabling katex in the specification
+- Temp change to use awhitehead spec-up until a fix is in spec-up
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-06 01:12:48 +0000 UTC
+        Created At 2022-12-07 23:18:55 +0000 UTC
     </div>
 </div>
 

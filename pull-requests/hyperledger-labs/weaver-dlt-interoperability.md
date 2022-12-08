@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/342" class=".btn">#342</a>
+            </td>
+            <td>
+                <b>
+                    Besu Simplestate Application Contract
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                SimpleState Contract for Besu network with functions: 
+1. `get(key)`: returns value stored at key.
+2. `set(key, value)`: sets "value" at key "key".
+
+Added besu-cli commands to test the simplestate:
+1. `./bin/besu-cli state set --network=network1 <key> <value>`
+2. `./bin/besu-cli state get --network=network1 <key>`
+
+Closes #226 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-07 18:31:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/341" class=".btn">#341</a>
             </td>
             <td>

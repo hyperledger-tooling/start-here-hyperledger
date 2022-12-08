@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3839" class=".btn">#3839</a>
+            </td>
+            <td>
+                <b>
+                    fix the multi-arch Docker peer build again
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+
+#### Type of change
+
+- Bug fix
+- New feature
+
+#### Description
+
+This PR runs the Fabric release pipeline correctly as a "release" practice triggered through GH.
+
+The `FABRIC_VER` of a component is inferred from the _semrev_ tag applied by the Release process.   The `FABRIC_VER` is applied throughout the Makefile, docker images, and metadata encoded into the client binaries.
+
+
+#### Additional details
+
+This commit: 
+
+- Adds a work-around for concurrency issues encountered when building multiple target architectures with buildx in parallel.  When multiple buildx builders run concurrently, an unpredictable but frequent error occurs when communicating with the buildx builder.  This manifests as "Error : 403 Forbidden" when pushing _some but not all_ of the image layers to ghcr.io.   This is most likely a resource (CPU, disk, RAM, etc.) being exhausted on the GH executor, and NOT an authentication error when connecting to the container registry.    (Serializing the buildx builder steps seems to have eliminated the sporadic crash.) 
+
+- Solves a `SIGSEGV` error encountered when running the dynamically linked (peer, orderer, etc.) images on the alpine arm64 images.  The problem stems from producing a dynamically linked (libc.so) executable on the golang-alpine base image, copying it, and running on a vanilla alpine container.   (Alpine does NOT include support for libc, and something is either wrong with the libmusl for arm64, or it worked by accident on the amd64.)
+
+```
+$(BUILD_DIR)/bin/%: GO_LDFLAGS += -w -extldflags '-static'
+```
+
+#### Related issues
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-07 19:06:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3838" class=".btn">#3838</a>
             </td>
             <td>
@@ -576,96 +629,6 @@ Finally, you can contact us on https://mergify.com
     </table>
     <div class="right-align">
         Created At 2022-12-01 03:41:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3822" class=".btn">#3822</a>
-            </td>
-            <td>
-                <b>
-                    Add V2_5 application capability to configtx.yaml
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add V2_5 application capability to configtx.yaml.
-
-Resolves #3815 
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-30 22:43:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3821" class=".btn">#3821</a>
-            </td>
-            <td>
-                <b>
-                    Add purgeInterval to core.yaml
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Users that need to purge private data may want to purge more frequently that the default of every 100 blocks. Expose purgeInterval configuration setting in core.yaml.
-
-Resolves #3816 
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-30 22:39:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3820" class=".btn">#3820</a>
-            </td>
-            <td>
-                <b>
-                    Private data purge logging
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add logging to record number of private data purges. This may be used as an audit log or for troubleshooting.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-30 22:31:27 +0000 UTC
     </div>
 </div>
 
