@@ -99,7 +99,7 @@ $(BUILD_DIR)/bin/%: GO_LDFLAGS += -w -extldflags '-static'
             </td>
             <td>
                 <b>
-                    [WIP] Update purge private data tests
+                    Update purge private data integration tests
                 </b>
             </td>
         </tr>

@@ -214,29 +214,3 @@ The Anchor and Solana integration tests are failing, because we need to merge [t
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1087" class=".btn">#1087</a>
-            </td>
-            <td>
-                <b>
-                    Add basic `ink!` to solidity call integration test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">substrate</span>
-            </td>
-            <td>
-                My original plan was to hack the substrate emit phase to always return a `Result` type (`Ok` variant which is just a single null byte), so that the `LanguageError` from `ink!` version 4 is respected when calling a solidity contract from `ink!`. But while doing so I realized: Currently the only way to call a solidity contract from `ink!` is to use the low level `CallBuilder` interface anyways. And since this interface does not care at all about the `LanguageError`, everything still works. So now, instead of hacking around in emit and holding up the next solang release, I'd rather implement the `LanguageError` story cleanly after the release (IIRC it means refactoring the scale encoder into codegen and then implementing the `Result` type).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-01 15:32:12 +0000 UTC
-    </div>
-</div>
-

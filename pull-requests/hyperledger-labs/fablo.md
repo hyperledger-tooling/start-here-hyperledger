@@ -295,29 +295,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/361" class=".btn">#361</a>
-            </td>
-            <td>
-                <b>
-                    Experimental Kubernetes support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-01 14:02:05 +0000 UTC
-    </div>
-</div>
-
