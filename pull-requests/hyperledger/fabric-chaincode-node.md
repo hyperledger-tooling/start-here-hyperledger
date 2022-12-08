@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/355" class=".btn">#355</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/357" class=".btn">#357</a>
             </td>
             <td>
                 <b>
-                    Update dependencies
+                    Pre25 release
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+                Resolves #356
+
+Includes updating the build to use the correct 'edge' version of Fabric 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-01 11:06:19 +0000 UTC
+        Created At 2022-12-08 09:54:38 +0000 UTC
     </div>
 </div>
 

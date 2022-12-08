@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/435" class=".btn">#435</a>
+            </td>
+            <td>
+                <b>
+                    Generify the Token Request
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The goal of this PR is to allow drivers to decide on the format of the token request. This gives to the system the possibility to evolve with more freedom.
+
+Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-08 08:29:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/434" class=".btn">#434</a>
             </td>
             <td>
@@ -85,33 +113,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     </table>
     <div class="right-align">
         Created At 2022-12-02 09:55:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/431" class=".btn">#431</a>
-            </td>
-            <td>
-                <b>
-                    load public params from vault when possible
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                This PR brings the following: At bootstrap, the stack first tries to load the public parameters from the local vault. 
-If the public parameters are not found and are nevertheless required, they are fetched from the remote network.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-01 10:58:38 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1113" class=".btn">#1113</a>
+            </td>
+            <td>
+                <b>
+                    Dynamic configuration reload
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ... work in progress
+
+Need to write up in detail and complete e2e, but the code is currently pretty well formed and all the existing unit tests are passing.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-08 06:19:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1112" class=".btn">#1112</a>
             </td>
             <td>

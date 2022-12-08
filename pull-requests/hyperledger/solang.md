@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1094" class=".btn">#1094</a>
+            </td>
+            <td>
+                <b>
+                    Add voting ballot example
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                While I was searching for some good example to use in the blog post, I came across [this ballot example](https://docs.soliditylang.org/en/v0.8.17/solidity-by-example.html?highlight=comments#voting). It compiles without any warnings for Substrate and Solana. How do you feel about adding it?
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-08 10:32:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1093" class=".btn">#1093</a>
             </td>
             <td>
@@ -211,32 +237,6 @@ The Anchor and Solana integration tests are failing, because we need to merge [t
     </table>
     <div class="right-align">
         Created At 2022-12-01 15:32:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1086" class=".btn">#1086</a>
-            </td>
-            <td>
-                <b>
-                    WIP: remove seal prefixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Cyrill Leutwiler <bigcyrill@hotmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-01 09:46:49 +0000 UTC
     </div>
 </div>
 

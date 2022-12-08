@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span>
+                <span class="chip">dependencies</span><span class="chip">ci-test</span>
             </td>
             <td>
                 Bumps [decode-uri-component](https://github.com/SamVerschueren/decode-uri-component) from 0.2.0 to 0.2.2.
@@ -70,6 +70,8 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
 [//]: # (dependabot-automerge-start)
+Dependabot will merge this PR once CI passes on it, as requested by @TimoGlastra.
+
 [//]: # (dependabot-automerge-end)
 
 ---
