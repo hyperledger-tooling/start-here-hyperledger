@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
             </td>
             <td>
                 <b>
-                    Add eth_getBalance() API route
+                    Add AddressBalance() to FFCAPI and a new REST API route to call it
                 </b>
             </td>
         </tr>
@@ -27,7 +27,11 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
                 
             </td>
             <td>
-                Signed-off-by: Matthew Whitehead <matthew.whitehead@kaleido.io>
+                The aim of this PR is to add an address balance API call to the FFCAPI interface. This makes it possible for users of of the FFCAPI (such as FireFly Transaction Manager) to query and optionally surface via their own APIs.
+
+Under this PR I have introduced a new REST API `/gastoken/balances/{address}` which calls `AddressBalance()` for the the configured blockchain connector. The use of `gastoken` in the API path is intended to be clear that it is unrelated to token balances.
+
+Signed-off-by: Matthew Whitehead <matthew.whitehead@kaleido.io>
             </td>
         </tr>
     </table>

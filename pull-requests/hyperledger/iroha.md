@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3003" class=".btn">#3003</a>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3004" class=".btn">#3004</a>
             </td>
             <td>
                 <b>
-                    [refactor] Validate item names/ids without allocating Vec
+                    [refactor] #2675: Validate item names/ids without allocating Vec
                 </b>
             </td>
         </tr>
@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/iroha
                 <span class="chip">iroha2</span>
             </td>
             <td>
-                Signed-off-by: Wenfeng Sui <suiwenfeng@qq.com>
+                Signed-off-by: Wenfeng Sui suiwenfeng@qq.com
 
 <!-- You will not see HTML commented line in Pull Request body -->
 <!-- Optional sections may be omitted. Just remove them or write None -->
@@ -79,50 +79,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-09 03:28:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3002" class=".btn">#3002</a>
-            </td>
-            <td>
-                <b>
-                    [ci]: Fix self-hosted runners occasional execution
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">CI</span>
-            </td>
-            <td>
-                Signed-off-by: BAStos525 <jungle.vas@yandex.ru>
-
-### Description of the Change
-Add environment execution rule (the same a for `iroha1` CI) for jobs that are run on the Pull Request to `iroha2-dev` branch within `I2::Dev::Tests` workflow:
-  - check
-  - with_coverage
-  - integration
-  - unstable
-
-### Issue
-Potential malicious code could be executed on PR workflows from attacker Pull Request. We were asked that we MUST fix it.
-
-### Benefits
-By applying `test-env` environment to this test jobs, any person from `hyperledger/iroha-maintainers` and `hyperledger/iroha-admins` teams has to approve and allow to execute  `I2::Dev::Tests` workflow.
-
-### Possible Drawbacks
-If any person from this white list forgets to allow workflow execution, then the tests for PR simply will not run.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-08 14:15:07 +0000 UTC
+        Created At 2022-12-09 08:47:16 +0000 UTC
     </div>
 </div>
 
@@ -460,7 +417,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
 <!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
 More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
 
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+Closes #2854 #2993
 
 ### Benefits
 
