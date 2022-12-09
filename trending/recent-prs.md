@@ -1,13 +1,13 @@
 
-[2233](https://github.com/hyperledger/cactus/pull/2233) build(deps): bump certifi from 2021.5.30 to 2022.12.7 in /packages-python/cactus_validator_socketio_indy
+[15](https://github.com/hyperledger/anoncreds-methods-registry/pull/15) Bump decode-uri-component from 0.2.0 to 0.2.2
 
-[80](https://github.com/hyperledger/aries-javascript-docs/pull/80) build(deps): bump decode-uri-component from 0.2.0 to 0.2.2
+[68](https://github.com/hyperledger/aries-askar/pull/68) chore(deps): bump decode-uri-component from 0.2.0 to 0.2.2 in /wrappers/javascript
 
-[660](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/660) Use tx.origin as issuedFrom address of tracker tokenTypedId=1
+[1472](https://github.com/hyperledger/caliper/pull/1472) Bump decode-uri-component from 0.2.0 to 0.2.2
 
-[142](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/142) client: remove `height` parameter from `createClient`
+[99](https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/99) Bump qs, body-parser and express in /samples/solidity
 
-[3003](https://github.com/hyperledger/iroha/pull/3003) [refactor] Validate item names/ids without allocating Vec
+[3004](https://github.com/hyperledger/iroha/pull/3004) [refactor] #2675: Validate item names/ids without allocating Vec
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

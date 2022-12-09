@@ -203,32 +203,6 @@ Addressing issue https://github.com/hyperledger/aries-cloudagent-python/issues/2
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/608" class=".btn">#608</a>
-            </td>
-            <td>
-                <b>
-                    Multi-cred proof with revocation status tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-06 22:38:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/606" class=".btn">#606</a>
             </td>
             <td>

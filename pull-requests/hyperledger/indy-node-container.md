@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node-container
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node-container/pull/118" class=".btn">#118</a>
+                PR <a href="https://github.com/hyperledger/indy-node-container/pull/122" class=".btn">#122</a>
             </td>
             <td>
                 <b>
-                    Network connectivity test script
+                    removed trash
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-node-container
                 
             </td>
             <td>
-                added script to test network connectivity between the network nodes (firewall, routing, etc.)
+                fixes https://github.com/hyperledger/indy-node-container/issues/103
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-19 21:31:40 +0000 UTC
+        Created At 2022-12-09 08:37:49 +0000 UTC
     </div>
 </div>
 

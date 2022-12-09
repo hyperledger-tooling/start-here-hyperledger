@@ -261,7 +261,7 @@ Set the curve to the default in the EVM tool durring startup.
             </td>
             <td>
                 <b>
-                    Bugfix startup race with checkpoint sync and bonsai snapshots
+                    Bugfix snapshot transaction segfaults after storage truncation
                 </b>
             </td>
         </tr>
@@ -275,10 +275,12 @@ Set the curve to the default in the EVM tool durring startup.
 
 ## PR description
 
-Address a race where snap and checkpoint syncs can cause a segfault when starting a worldstate download.
+This PR addresses a race where snap and checkpoint syncs can cause a segfault when starting a worldstate download.  The segfault occurs when rocksdb snapshot transactions are read/written after a storage truncation.  To prevent this and to ensure future uses of clear() and clearFlatDatabase() cannot cause segfaults, this PR:
+
 * adds BonsaiStorageSubscriber type to handle storage events
 * moves the subscription model from BonsaiSnapshotWorldStateKeyValueStorage up into BonsaiWorldStateKeyValueStorage
 * removes addCachedLayer from TrieLogManager, moves to AbstractTrieLogManager
+* TrieLogManager takes a snapshot immediately in addCachedLayer rather than deferring it 
 * notifies subscribers on events that can affect the worldstate, specifically:
   * clear (truncate)
   * clearFlatDatabase (truncating a subset of storage)

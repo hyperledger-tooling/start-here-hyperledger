@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1149" class=".btn">#1149</a>
+            </td>
+            <td>
+                <b>
+                    feat: use did:key in protocols by default
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As discussed some time ago in #497, now we are having a new major release, we use did:key in protocols by default. We'll of course still accept base58-encoded keys if the other party is not yet using did:key.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-09 08:12:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1148" class=".btn">#1148</a>
             </td>
             <td>
