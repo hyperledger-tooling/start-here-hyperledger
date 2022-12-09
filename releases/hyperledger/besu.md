@@ -32,6 +32,9 @@ This is a hotfix release to resolve a race condition that results in segfaults, 
 ### Bug Fixes
 - bugfix for async operations on Snashot worldstates [#4767](https://github.com/hyperledger/besu/pull/4767)
 
+### NOTE 
+- If you are using the experimental flag `--Xbonsai-use-snapshots` we recommend removing it from your config for now. We have ported some of its behavior into the default Bonsai code, and using this flag can cause issues/conflicts.
+
 ### Download Links
 https://hyperledger.jfrog.io/hyperledger/besu-binaries/besu/22.10.2/besu-22.10.2.tar.gz  / sha256: cdb36141e3cba6379d35016e0a2de2edba579d4786124b5f7257b1e4a68867a2
 https://hyperledger.jfrog.io/hyperledger/besu-binaries/besu/22.10.2/besu-22.10.2.zip / sha256: 4c9208f684762670cb4f2c6ebfb6930e05e339a7c3c586fe8caa9f26462830aa

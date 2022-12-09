@@ -26,7 +26,7 @@ permalink: /releases/hyperledger/fabric-ca
                 </span>
             </td>
             <td>
-                v1.5.6 Release Notes - July 8, 2022
+                v1.5.6-beta Release Notes - Dec 9, 2022
 ===================================
 
 v1.5.6-beta is a beta release, providing updates for the following issues in the Fabric CA:
@@ -78,7 +78,7 @@ None.
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-12-05 19:45:38 +0000 UTC
+        Created At 2022-12-09 19:10:12 +0000 UTC
     </span>
 </div>
 
