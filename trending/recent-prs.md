@@ -1,13 +1,13 @@
 
-[616](https://github.com/hyperledger/aries-agent-test-harness/pull/616) Bump qs from 6.5.2 to 6.5.3 in /aries-backchannels/verity
+[2233](https://github.com/hyperledger/cactus/pull/2233) build(deps): bump certifi from 2021.5.30 to 2022.12.7 in /packages-python/cactus_validator_socketio_indy
 
-[44](https://github.com/hyperledger-labs/yui-docs/pull/44) Bump qs from 6.5.2 to 6.5.3 in /contracts/minitoken/solidity
+[80](https://github.com/hyperledger/aries-javascript-docs/pull/80) build(deps): bump decode-uri-component from 0.2.0 to 0.2.2
 
-[43](https://github.com/hyperledger-labs/yui-docs/pull/43) Bump qs from 6.5.2 to 6.5.3 in /samples/minitoken-besu-ethereum
+[660](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/660) Use tx.origin as issuedFrom address of tracker tokenTypedId=1
 
-[4797](https://github.com/hyperledger/besu/pull/4797) gradle modifications to support java 19
+[142](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/142) client: remove `height` parameter from `createClient`
 
-[98](https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/98) Bump decode-uri-component from 0.2.0 to 0.2.2 in /samples/solidity
+[3003](https://github.com/hyperledger/iroha/pull/3003) [refactor] Validate item names/ids without allocating Vec
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
