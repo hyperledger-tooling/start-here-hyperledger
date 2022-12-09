@@ -1,13 +1,13 @@
 
-[15](https://github.com/hyperledger/anoncreds-methods-registry/pull/15) Bump decode-uri-component from 0.2.0 to 0.2.2
+[3845](https://github.com/hyperledger/fabric/pull/3845) Add purge private data documentation (backport #3841)
 
-[68](https://github.com/hyperledger/aries-askar/pull/68) chore(deps): bump decode-uri-component from 0.2.0 to 0.2.2 in /wrappers/javascript
+[617](https://github.com/hyperledger/aries-agent-test-harness/pull/617) Test/multi cred proof rev 605
 
-[1472](https://github.com/hyperledger/caliper/pull/1472) Bump decode-uri-component from 0.2.0 to 0.2.2
+[40](https://github.com/hyperledger/firefly-common/pull/40) Retain file used for config through a reset
 
-[99](https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/99) Bump qs, body-parser and express in /samples/solidity
+[3007](https://github.com/hyperledger/iroha/pull/3007) [feature] #2999: Accumulate block signatures
 
-[3004](https://github.com/hyperledger/iroha/pull/3004) [refactor] #2675: Validate item names/ids without allocating Vec
+[1096](https://github.com/hyperledger/solang/pull/1096) msg.sender should not exist on Solana
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/40" class=".btn">#40</a>
+            </td>
+            <td>
+                <b>
+                    Retain file used for config through a reset
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Needed for https://github.com/hyperledger/firefly/pull/1113
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-09 16:46:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-common/pull/39" class=".btn">#39</a>
             </td>
             <td>
