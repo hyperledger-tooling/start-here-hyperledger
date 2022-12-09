@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2230" class=".btn">#2230</a>
+            </td>
+            <td>
+                <b>
+                    fix(security): the CVE-2022-2421 - upgrade socket.io-parser to >=4.2.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependent</span>
+            </td>
+            <td>
+                To completely get rid of all instances of the vulnerable versions,
+we also have to upgrade the example application's Angular versions:
+
+Depends on #2229
+
+Fixes #2228
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-08 19:32:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/2227" class=".btn">#2227</a>
             </td>
             <td>

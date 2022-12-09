@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1114" class=".btn">#1114</a>
+            </td>
+            <td>
+                <b>
+                    xdc + zksync
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                add xdc + zkSync tutorials
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-08 21:06:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1113" class=".btn">#1113</a>
             </td>
             <td>

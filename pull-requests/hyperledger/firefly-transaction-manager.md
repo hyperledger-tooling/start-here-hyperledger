@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/46" class=".btn">#46</a>
+            </td>
+            <td>
+                <b>
+                    Add eth_getBalance() API route
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Matthew Whitehead <matthew.whitehead@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-08 13:21:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/45" class=".btn">#45</a>
             </td>
             <td>
