@@ -14,6 +14,72 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1096" class=".btn">#1096</a>
+            </td>
+            <td>
+                <b>
+                    msg.sender should not exist on Solana
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Explanation in `docs/language/function.rst` 
+
+- Remove  `msg.sender`
+- Remove `caller` on yul
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-09 16:09:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1095" class=".btn">#1095</a>
+            </td>
+            <td>
+                <b>
+                    Use annotations for selectors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Use the new annotations:
+
+```
+@selector("01010205")
+function foo() {}
+```
+Rather than:
+```
+function foo() selector=hex"01010205" {}
+```
+
+This removes the old syntax completely.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-09 16:06:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1094" class=".btn">#1094</a>
             </td>
             <td>

@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/82" class=".btn">#82</a>
+            </td>
+            <td>
+                <b>
+                    fix: add 0.3 migration guide to sidebar
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-09 14:30:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/81" class=".btn">#81</a>
+            </td>
+            <td>
+                <b>
+                    docs: update migration guide with new breaking changes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adding notes about `useDidKeyInProtocols` and `OutboundMessageContext`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-09 12:58:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/80" class=".btn">#80</a>
             </td>
             <td>

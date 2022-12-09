@@ -241,29 +241,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/656" class=".btn">#656</a>
-            </td>
-            <td>
-                <b>
-                    fix links in READMEs and docuemntation, #655
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-02 16:33:33 +0000 UTC
-    </div>
-</div>
-

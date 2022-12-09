@@ -177,29 +177,3 @@ Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/98" class=".btn">#98</a>
-            </td>
-            <td>
-                <b>
-                    Add module for low level arithmetic
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add a module for low level arithmetic, for performance. First two operations are modexp precompile and mul operation.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-02 18:14:35 +0000 UTC
-    </div>
-</div>
-

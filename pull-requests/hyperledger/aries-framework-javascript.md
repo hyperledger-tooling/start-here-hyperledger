@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
             </td>
             <td>
                 <b>
-                    feat: use did:key in protocols by default
+                    feat!: use did:key in protocols by default
                 </b>
             </td>
         </tr>
@@ -28,6 +28,10 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
             </td>
             <td>
                 As discussed some time ago in #497, now we are having a new major release, we use did:key in protocols by default. We'll of course still accept base58-encoded keys if the other party is not yet using did:key.
+
+BREAKING CHANGE:
+`useDidKeyInProtocols` configuration parameter is now enabled by default. If your agent only interacts with modern agents (e.g. AFJ 0.2.5 and newer) this will not represent any issue. Otherwise it is safer to explicitly set it to `false`. However, keep in mind that we expect this setting to be deprecated in the future, so we encourage you to update all your agents to use did:key.
+
             </td>
         </tr>
     </table>
