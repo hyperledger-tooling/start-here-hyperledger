@@ -15,28 +15,28 @@ permalink: /releases/hyperledger/fabric-chaincode-node
         <tr>
             <td colspan="2">
                 <b>
-                    v2.4.2 Node Chaincode
+                    v2.5.0 Node Chaincode
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.4.2
+                    v2.5.0
                 </span>
             </td>
             <td>
-                This release corrects the 2.4 nodeenv docker image to be Node 16, and removes the fabric-shim-crypto package.
+                This is the LTS Release of of the v2.5 Fabric Chaincode Node. It replaces the previous v2.2 LTS.
 
-Note that version of Node.js is updated to 16.4.0. See the COMPATIBILITY.md file in the main branch for information.
+- the PurgePrivateData feature is exposed via a new `PurgePrivateData` API 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-chaincode-node/releases/tag/v2.4.2" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-chaincode-node/releases/tag/v2.5.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-05-04 11:00:24 +0000 UTC
+        Created At 2022-12-09 11:10:24 +0000 UTC
     </span>
 </div>
 

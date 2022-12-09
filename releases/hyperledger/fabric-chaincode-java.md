@@ -15,27 +15,29 @@ permalink: /releases/hyperledger/fabric-chaincode-java
         <tr>
             <td colspan="2">
                 <b>
-                    v2.4.1 Java Chaincode
+                    v2.5.0 Java Chaincode
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.4.1
+                    v2.5.0
                 </span>
             </td>
             <td>
-                This release has improved support for Chaincode-as-a-service and no longer requires the custom bootstrap code.
+                This is the LTS Release of the v2.5 Fabric Chaincode Java. It replaces the previous v2.2 LTS.
 
+- the default `JavaEnv` docker image has been moved to use the Eclipse Temurin Java 11 JDK
+- the PurgePrivateData feature is exposed via a new `PurgePrivateData` API 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-chaincode-java/releases/tag/v2.4.1" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-chaincode-java/releases/tag/v2.5.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2021-12-13 14:16:20 +0000 UTC
+        Created At 2022-12-09 10:16:34 +0000 UTC
     </span>
 </div>
 
