@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4798" class=".btn">#4798</a>
+            </td>
+            <td>
+                <b>
+                    Runner test refactor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span><span class="chip">dev experience</span><span class="chip">mainnet</span>
+            </td>
+            <td>
+                Refactor to make it easier to find the cause when this tests fails. 
+* Deduplicated code. 
+* Added a call to peerCount to expose peering issues vs syncing issues
+* Because of the async wait() you don't get the exact line where the assertion fails. Added comments for common spots where it fails to make this easier. 
+* Also 2 minutes is plenty. 
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-09 01:36:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4797" class=".btn">#4797</a>
             </td>
             <td>
