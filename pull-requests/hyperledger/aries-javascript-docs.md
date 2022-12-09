@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/78" class=".btn">#78</a>
-            </td>
-            <td>
-                <b>
-                    feat: added basic extensions repo documentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jim Ezesinachi <ezesinachijim@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-01 12:33:07 +0000 UTC
-    </div>
-</div>
-

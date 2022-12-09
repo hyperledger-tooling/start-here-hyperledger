@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/691" class=".btn">#691</a>
+            </td>
+            <td>
+                <b>
+                    689 support didkey aries rfc 0360
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">feature</span>
+            </td>
+            <td>
+                function _ed25519_public_key_to_did_key was created, which transforms a naked did into a did:key
+and the did_key_to_public_key function returns if did:key, just your key
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-08 20:45:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/688" class=".btn">#688</a>
             </td>
             <td>
@@ -192,96 +219,6 @@ It seems that we have to temporarily give up backtrace in libvcx errors stored i
     </table>
     <div class="right-align">
         Created At 2022-12-02 09:44:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/680" class=".btn">#680</a>
-            </td>
-            <td>
-                <b>
-                    Drop actix dependency in 'messages' crate
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-01 23:20:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/676" class=".btn">#676</a>
-            </td>
-            <td>
-                <b>
-                    Handle did:sov service omitting routing_keys attribute
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bugfix</span>
-            </td>
-            <td>
-                when performing a test with acapy a routing_keys problem was discovered, it generates an empty ledger.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-01 19:18:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/675" class=".btn">#675</a>
-            </td>
-            <td>
-                <b>
-                    Implement a basic connection test using Actix framework
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">tests</span><span class="chip">agents</span>
-            </td>
-            <td>
-                This was written purely to explore the Actix framework and its viability in aries-vcx integration tests.
-
-As you can see, it can be used, but the benefits outside of perhaps saving a few lines per integration test are unclear. On the other hand, there are glaring drawbacks:
-* async code in `handle` method [can't use](https://github.com/actix/actix/issues/308) (or at least trivially) the reference to `self` and thus a necessity for cloning in the handler, or
-* having to clone the agent in the tests (since the `start()` method consumes the agent), or
-* having to store handled messages in the agent itself (unlike when using a channel with a capacity).
-
-In addition, it seems far from certain that actix would stay maintained for long. Here is a citation from the actix docs:
-> Long ago, Actix Web was built on top of the actix actor framework. Now, Actix Web is largely unrelated to the actor framework and is built using a different system. Though actix is still maintained, its usefulness as a general tool is diminishing as the futures and async/await ecosystem matures. At this time, the use of actix is only required for WebSocket endpoints.
-
-Again, this was just an exploration, so if you don't think the benefits outweigh the costs, feel free to close this PR.
-
-Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-01 15:42:21 +0000 UTC
     </div>
 </div>
 

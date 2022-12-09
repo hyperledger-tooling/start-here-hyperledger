@@ -14,6 +14,102 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3843" class=".btn">#3843</a>
+            </td>
+            <td>
+                <b>
+                    Publish release artifacts to conventional installation paths
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+
+#### Type of change
+
+- Bug fix
+
+#### Description
+
+This PR updates the release pipeline to publish binary assets to the traditional paths within the GH Release.
+
+In addition, this applies the `TWO_DIGIT_VERSION` release tag, without the leading 'v', to determine the coordinates of the embedded ccenv builder image.
+
+This PR updates the target version of `install-fabric.sh` to 2.5.0 / 1.5.6, and includes an optional `FABRIC_DOCKER_REGISTRY` environment variable in order to override the default Docker Hub container registry.
+
+
+#### Related issues
+
+#### Release Note
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-08 21:27:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3842" class=".btn">#3842</a>
+            </td>
+            <td>
+                <b>
+                    Update purge private data integration tests (backport #3838)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is an automatic backport of pull request #3838 done by [Mergify](https://mergify.com).
+
+
+---
+
+
+<details>
+<summary>Mergify commands and options</summary>
+
+<br />
+
+More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
+
+You can also trigger Mergify actions by commenting on this pull request:
+
+- `@Mergifyio refresh` will re-evaluate the rules
+- `@Mergifyio rebase` will rebase this PR on its base branch
+- `@Mergifyio update` will merge the base branch into this PR
+- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
+
+Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
+
+- look at your merge queues
+- generate the Mergify configuration with the config editor.
+
+Finally, you can contact us on https://mergify.com
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-08 20:49:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3841" class=".btn">#3841</a>
             </td>
             <td>
@@ -196,61 +292,6 @@ This PR also modifies the fabric native binaries to include the {{ github.ref_na
     </table>
     <div class="right-align">
         Created At 2022-12-06 18:05:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3835" class=".btn">#3835</a>
-            </td>
-            <td>
-                <b>
-                    Build release binaries and multi-arch Docker images for arm64 - DO NOT MERGE
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **DO NOT MERGE**
-
-This PR publishes multi-arch Docker images to ghcr.io and prepares native CLI binaries as part of the release process.
-
-(Note:  for the 2.5 release line, the `DOCKER_REGISTRY` attribute in release.yaml will need to be updated to refer to docker.io.  The use of the ghcr.io container registry allows us to run through a few test pipelines and recover from errors without pulling in the HL team to manually scrub artifacts.)
-
-To trigger the release action, draft a new GH Release, applying a semrev tag (e.g. v2.5.0-alpha) to a target branch.  When GH applies the release tag, this will trigger the new release pipeline, generating docker images and fabric CLI binaries.
-
-Signed-off-by: Josh Kneubuhl [jkneubuh@us.ibm.com](mailto:jkneubuh@us.ibm.com)
-
-
-#### Type of change
-
-- New feature
-
-#### Description
-
-This PR adds support for multi-arch Docker images, generated with the buildx builder.
-
-This PR also modifies the fabric native binaries to include the {{ github.ref_name }} directly when compiling the routine metadata. This allows for a semantic revision (e.g. v2.5.0, v2.5.0-alpha, etc.) or branch relative tags to be associated with the images and binaries. 
-
-
-#### Additional details
-
-
-#### Related issues
-
-- Issue #2994 
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-06 17:30:50 +0000 UTC
     </div>
 </div>
 

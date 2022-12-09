@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1148" class=".btn">#1148</a>
+            </td>
+            <td>
+                <b>
+                    feat: Corrected peer DIDs resolution (key IDs)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR corrected resolution of peer DIDs of method 0 (`did:peer:0`) and method 2 (`did:peer:2`) into DID documents, specifically resulting key IDs.
+For peer DIDs of method 0 and method 2, key fragment IDs are multibase representations of public keys **without** the multibase prefix (i.e. **without** `z` prefix in case of base58 encoding).
+
+This logic is based on:
+- _Example 4_ from https://identity.foundation/peer-did-method-spec/#multi-key-creation
+- examples from https://github.com/sicpa-dlab/peer-did-jvm
+- tests from https://github.com/sicpa-dlab/didcomm-demo/blob/main/didcomm-demo-python/tests/test_did_resolver_peer_did.py and https://github.com/sicpa-dlab/didcomm-demo/blob/main/didcomm-demo-jvm/didcomm-demo/src/test/kotlin/org/didcommx/didcomm/demo/DIDDocResolverPeerDIDTest.kt
+
+At the same time, this PR keeps the existing resolution logic for key DIDs (`did:key`). So for key DIDs, key fragment IDs are multibase representations of public keys including the multibase prefix (as specified at https://w3c-ccg.github.io/did-method-key/)
+
+This PR is based on https://github.com/hyperledger/aries-framework-javascript/pull/1096 which must be merged first.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-08 14:13:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1147" class=".btn">#1147</a>
             </td>
             <td>
@@ -30,6 +66,8 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 Small update to the feature added in #994 to aggregate the connection type when a connection is related to a mediation grant. 
 
 Previously, it was setting **only** `ConnectionType.Mediator`, so if the connection was previously tagged with another type, it would be lost.
+
+Also fixes typing for `connectionType` in `ConnectionRecord` in order to be able to properly query for connections matching one or multiple types.
             </td>
         </tr>
     </table>
