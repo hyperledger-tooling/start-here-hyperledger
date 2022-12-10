@@ -1,13 +1,13 @@
 
-[503](https://github.com/hyperledger/cello/pull/503) Bump up python version to 3.8 in github workflow
+[2093](https://github.com/hyperledger/bevel/pull/2093) refactoring charts to removing dependency on external tools and artifacts
 
-[2566](https://github.com/hyperledger/indy-sdk/pull/2566) Bump qs from 6.5.2 to 6.5.3 in /samples/nodejs
+[90](https://github.com/hyperledger-labs/university-course/pull/90) chore(deps): bump express from 4.16.4 to 4.17.3 in /support/Lab06/b4s/organization/university/b4s_client
 
-[561](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/561) chore: update genesis tx
+[89](https://github.com/hyperledger-labs/university-course/pull/89) chore(deps): bump express from 4.16.4 to 4.17.3 in /support/Lab06/b4s/organization/students-union/b4s_client
 
-[4800](https://github.com/hyperledger/besu/pull/4800) Prepare for version 22.10.4-SNAPSHOT
+[74](https://github.com/hyperledger/aries-acapy-controllers/pull/74) Bump express from 4.16.4 to 4.17.3 in /AliceFaberAcmeDemo/controllers/acme-controller
 
-[4799](https://github.com/hyperledger/besu/pull/4799) Release 22.10.3
+[2092](https://github.com/hyperledger/bevel/pull/2092) Bump express from 4.16.4 to 4.17.3 in /examples/supplychain-app/corda/express_nodeJS
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

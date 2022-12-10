@@ -51,36 +51,3 @@ This PR publishes the v1.5.6-beta release artifacts to GH as artifacts, strippin
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/339" class=".btn">#339</a>
-            </td>
-            <td>
-                <b>
-                    Add some debug information
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The cert file *must be* `cert.pem`; which in my case it wasn't.  Would have been nice to have some flexibility, however the error messages appeared to be suggestion idemix was an issue, and gave little clue as to what was wrong. 
-
-- update the error message to give more indication of the file that should be checked
-- Prevented idemix error from hiding x509
-
-Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-03 09:06:09 +0000 UTC
-    </div>
-</div>
-
