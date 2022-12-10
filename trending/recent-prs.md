@@ -1,5 +1,5 @@
 
-[502](https://github.com/hyperledger/cello/pull/502) Add token verify endpoint
+[503](https://github.com/hyperledger/cello/pull/503) Bump up python version to 3.8 in github workflow
 
 [2566](https://github.com/hyperledger/indy-sdk/pull/2566) Bump qs from 6.5.2 to 6.5.3 in /samples/nodejs
 

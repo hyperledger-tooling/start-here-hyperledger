@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/502" class=".btn">#502</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/503" class=".btn">#503</a>
             </td>
             <td>
                 <b>
-                    Add token verify endpoint
+                    Bump up python version to 3.8 in github workflow
                 </b>
             </td>
         </tr>
@@ -27,14 +27,13 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                Add token verify endpoint back
-
-Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
+                * Bump up python version to 3.8 in github workflow
+* Add token-verify endpoint back
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-09 22:40:52 +0000 UTC
+        Created At 2022-12-10 01:48:55 +0000 UTC
     </div>
 </div>
 
