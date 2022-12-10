@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1151" class=".btn">#1151</a>
+            </td>
+            <td>
+                <b>
+                    fix: expose OutOfBandEvents
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Moriarty <moritz@animo.id>
+
+closes #1150 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-10 14:25:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1149" class=".btn">#1149</a>
             </td>
             <td>

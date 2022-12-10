@@ -1,13 +1,13 @@
 
-[2093](https://github.com/hyperledger/bevel/pull/2093) refactoring charts to removing dependency on external tools and artifacts
+[75](https://github.com/hyperledger/aries-acapy-controllers/pull/75) Bump qs and express in /AliceFaberAcmeDemo/controllers/acme-controller
 
-[90](https://github.com/hyperledger-labs/university-course/pull/90) chore(deps): bump express from 4.16.4 to 4.17.3 in /support/Lab06/b4s/organization/university/b4s_client
+[513](https://github.com/hyperledger/fabric-gateway/pull/513) Update Go dependencies to address CVE-2022-41717
 
-[89](https://github.com/hyperledger-labs/university-course/pull/89) chore(deps): bump express from 4.16.4 to 4.17.3 in /support/Lab06/b4s/organization/students-union/b4s_client
+[27](https://github.com/hyperledger/anoncreds-rs/pull/27) Update to idiomatic rust
 
-[74](https://github.com/hyperledger/aries-acapy-controllers/pull/74) Bump express from 4.16.4 to 4.17.3 in /AliceFaberAcmeDemo/controllers/acme-controller
+[1151](https://github.com/hyperledger/aries-framework-javascript/pull/1151) fix: expose OutOfBandEvents
 
-[2092](https://github.com/hyperledger/bevel/pull/2092) Bump express from 4.16.4 to 4.17.3 in /examples/supplychain-app/corda/express_nodeJS
+[1473](https://github.com/hyperledger/caliper/pull/1473) Bump express from 4.17.1 to 4.17.3
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

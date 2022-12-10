@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/27" class=".btn">#27</a>
+            </td>
+            <td>
+                <b>
+                    Update to idiomatic rust
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Dependent on #25 
+- Resolved some issues that clippy was giving. 
+- renamed some functions to not make them collide with functions from std
+
+Also fixed some small stuff from indy-utils, just to make clippy be quiet.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-10 15:27:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/25" class=".btn">#25</a>
             </td>
             <td>

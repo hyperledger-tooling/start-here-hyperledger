@@ -149,31 +149,3 @@ Signed-off-by: Danno Ferrin <danno.ferrin@swirldslabs.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/99" class=".btn">#99</a>
-            </td>
-            <td>
-                <b>
-                    Prepare for 0.7.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Prepare for 0.7.0
-
-Signed-off-by: Danno Ferrin <danno.ferrin@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-03 16:08:01 +0000 UTC
-    </div>
-</div>
-
