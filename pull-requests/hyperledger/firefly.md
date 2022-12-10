@@ -53,9 +53,29 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                ... work in progress
+                ## Summary
 
-Need to write up in detail and complete e2e, but the code is currently pretty well formed and all the existing unit tests are passing.
+This PR implements file-listener based dynamic configuration reload for FireFly Core.
+
+- Allows listening for changes to a config file in a Kubernetes `configmap` or `secret`
+- Performs analysis on the configuration to determine what `namespaces` and `plugins` have changed
+  - Note: Does not currently support reloading API server configuration
+- Does not affect any namespaces that are unaffected by changes
+- Restarts all namespaces affected by plugin changes, or direct configuration changes
+- Adds namespaces that did not previously exist
+- Removes namespaces that have been removed
+
+> Depends on https://github.com/hyperledger/firefly-common/pull/40 making it into a release before this can be merged
+
+## Implementation detail
+
+The `namespace.Manager` code has been refactored with the following significant changes:
+- The initialization code has been decomposed into blocks that can be re-run during config reload
+- A strong separation is created between configuration load+validation, and runtime initialization
+- The individual maps of `namespaceManager.plugins` and `namespaceManager.pluginNames` has been replaced with a single map of `plugins` - which depending on the `category` will have a link to the specific plugin type
+- A new dynamic configuration reload function is connected to a file listener, which tries to be self-explanatory as follows:
+https://github.com/hyperledger/firefly/blob/1ffb555be43a788d40c624c29d421a6f0f931bc4/internal/namespace/configreload.go#L63-L124
+
             </td>
         </tr>
     </table>

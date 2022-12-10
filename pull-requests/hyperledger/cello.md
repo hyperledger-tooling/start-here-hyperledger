@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/502" class=".btn">#502</a>
+            </td>
+            <td>
+                <b>
+                    Add token verify endpoint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add token verify endpoint back
+
+Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-09 22:40:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/501" class=".btn">#501</a>
             </td>
             <td>

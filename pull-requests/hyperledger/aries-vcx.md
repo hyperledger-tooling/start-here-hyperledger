@@ -115,31 +115,3 @@ and the did_key_to_public_key function returns if did:key, just your key
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/684" class=".btn">#684</a>
-            </td>
-            <td>
-                <b>
-                    Replace failure crate with thiserror
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span><span class="chip">agents</span><span class="chip">dependencies</span>
-            </td>
-            <td>
-                Replaces the dependency on outdated `failure` crate with the dependency on `thiserror` in `messages`, `aries-vcx-agent`, `aries-vcx` and `libvcx`. Although our entire approach to logging needs to be reconsidered, removing a dependency on an unmaintained crate is likely not a step in the wrong direction.
-
-It seems that we have to temporarily give up backtrace in libvcx errors stored in `CURRENT_ERROR_C_JSON` until `error_generic_member_access` is [stabilized](https://github.com/rust-lang/rust/issues/99301) since `thiserror` makes use of [unstable](https://doc.rust-lang.org/std/error/trait.Error.html#method.provide) `provide()` method to the error type in order to capture and share `std::backtrace::Backtrace`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-02 21:57:10 +0000 UTC
-    </div>
-</div>
-
