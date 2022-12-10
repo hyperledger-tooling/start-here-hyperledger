@@ -14,6 +14,504 @@ permalink: /pull-requests/hyperledger-labs/university-course
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/university-course/pull/90" class=".btn">#90</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump express from 4.16.4 to 4.17.3 in /support/Lab06/b4s/organization/university/b4s_client
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span>
+            </td>
+            <td>
+                Bumps [express](https://github.com/expressjs/express) from 4.16.4 to 4.17.3.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/expressjs/express/releases">express's releases</a>.</em></p>
+<blockquote>
+<h2>4.17.3</h2>
+<ul>
+<li>deps: accepts@~1.3.8
+<ul>
+<li>deps: mime-types@~2.1.34</li>
+<li>deps: negotiator@0.6.3</li>
+</ul>
+</li>
+<li>deps: body-parser@1.19.2
+<ul>
+<li>deps: bytes@3.1.2</li>
+<li>deps: qs@6.9.7</li>
+<li>deps: raw-body@2.4.3</li>
+</ul>
+</li>
+<li>deps: cookie@0.4.2</li>
+<li>deps: qs@6.9.7
+<ul>
+<li>Fix handling of <code>__proto__</code> keys</li>
+</ul>
+</li>
+<li>pref: remove unnecessary regexp for trust proxy</li>
+</ul>
+<h2>4.17.2</h2>
+<ul>
+<li>Fix handling of <code>undefined</code> in <code>res.jsonp</code></li>
+<li>Fix handling of <code>undefined</code> when <code>&quot;json escape&quot;</code> is enabled</li>
+<li>Fix incorrect middleware execution with unanchored <code>RegExp</code>s</li>
+<li>Fix <code>res.jsonp(obj, status)</code> deprecation message</li>
+<li>Fix typo in <code>res.is</code> JSDoc</li>
+<li>deps: body-parser@1.19.1
+<ul>
+<li>deps: bytes@3.1.1</li>
+<li>deps: http-errors@1.8.1</li>
+<li>deps: qs@6.9.6</li>
+<li>deps: raw-body@2.4.2</li>
+<li>deps: safe-buffer@5.2.1</li>
+<li>deps: type-is@~1.6.18</li>
+</ul>
+</li>
+<li>deps: content-disposition@0.5.4
+<ul>
+<li>deps: safe-buffer@5.2.1</li>
+</ul>
+</li>
+<li>deps: cookie@0.4.1
+<ul>
+<li>Fix <code>maxAge</code> option to reject invalid values</li>
+</ul>
+</li>
+<li>deps: proxy-addr@~2.0.7
+<ul>
+<li>Use <code>req.socket</code> over deprecated <code>req.connection</code></li>
+<li>deps: forwarded@0.2.0</li>
+<li>deps: ipaddr.js@1.9.1</li>
+</ul>
+</li>
+<li>deps: qs@6.9.6</li>
+<li>deps: safe-buffer@5.2.1</li>
+<li>deps: send@0.17.2
+<ul>
+<li>deps: http-errors@1.8.1</li>
+<li>deps: ms@2.1.3</li>
+<li>pref: ignore empty http tokens</li>
+</ul>
+</li>
+<li>deps: serve-static@1.14.2
+<ul>
+<li>deps: send@0.17.2</li>
+</ul>
+</li>
+<li>deps: setprototypeof@1.2.0</li>
+</ul>
+<h2>4.17.1</h2>
+<ul>
+<li>Revert &quot;Improve error message for <code>null</code>/<code>undefined</code> to <code>res.status</code>&quot;</li>
+</ul>
+<h2>4.17.0</h2>
+<ul>
+<li>Add <code>express.raw</code> to parse bodies into <code>Buffer</code></li>
+<li>Add <code>express.text</code> to parse bodies into string</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/expressjs/express/blob/master/History.md">express's changelog</a>.</em></p>
+<blockquote>
+<h1>4.17.3 / 2022-02-16</h1>
+<ul>
+<li>deps: accepts@~1.3.8
+<ul>
+<li>deps: mime-types@~2.1.34</li>
+<li>deps: negotiator@0.6.3</li>
+</ul>
+</li>
+<li>deps: body-parser@1.19.2
+<ul>
+<li>deps: bytes@3.1.2</li>
+<li>deps: qs@6.9.7</li>
+<li>deps: raw-body@2.4.3</li>
+</ul>
+</li>
+<li>deps: cookie@0.4.2</li>
+<li>deps: qs@6.9.7
+<ul>
+<li>Fix handling of <code>__proto__</code> keys</li>
+</ul>
+</li>
+<li>pref: remove unnecessary regexp for trust proxy</li>
+</ul>
+<h1>4.17.2 / 2021-12-16</h1>
+<ul>
+<li>Fix handling of <code>undefined</code> in <code>res.jsonp</code></li>
+<li>Fix handling of <code>undefined</code> when <code>&quot;json escape&quot;</code> is enabled</li>
+<li>Fix incorrect middleware execution with unanchored <code>RegExp</code>s</li>
+<li>Fix <code>res.jsonp(obj, status)</code> deprecation message</li>
+<li>Fix typo in <code>res.is</code> JSDoc</li>
+<li>deps: body-parser@1.19.1
+<ul>
+<li>deps: bytes@3.1.1</li>
+<li>deps: http-errors@1.8.1</li>
+<li>deps: qs@6.9.6</li>
+<li>deps: raw-body@2.4.2</li>
+<li>deps: safe-buffer@5.2.1</li>
+<li>deps: type-is@~1.6.18</li>
+</ul>
+</li>
+<li>deps: content-disposition@0.5.4
+<ul>
+<li>deps: safe-buffer@5.2.1</li>
+</ul>
+</li>
+<li>deps: cookie@0.4.1
+<ul>
+<li>Fix <code>maxAge</code> option to reject invalid values</li>
+</ul>
+</li>
+<li>deps: proxy-addr@~2.0.7
+<ul>
+<li>Use <code>req.socket</code> over deprecated <code>req.connection</code></li>
+<li>deps: forwarded@0.2.0</li>
+<li>deps: ipaddr.js@1.9.1</li>
+</ul>
+</li>
+<li>deps: qs@6.9.6</li>
+<li>deps: safe-buffer@5.2.1</li>
+<li>deps: send@0.17.2
+<ul>
+<li>deps: http-errors@1.8.1</li>
+<li>deps: ms@2.1.3</li>
+<li>pref: ignore empty http tokens</li>
+</ul>
+</li>
+<li>deps: serve-static@1.14.2
+<ul>
+<li>deps: send@0.17.2</li>
+</ul>
+</li>
+<li>deps: setprototypeof@1.2.0</li>
+</ul>
+<h1>4.17.1 / 2019-05-25</h1>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/expressjs/express/commit/3d7fce56a35f4f73fa437866cd1401587a212334"><code>3d7fce5</code></a> 4.17.3</li>
+<li><a href="https://github.com/expressjs/express/commit/f9063712e01979588818b0756851053b5ee43d09"><code>f906371</code></a> build: update example dependencies</li>
+<li><a href="https://github.com/expressjs/express/commit/6381bc6317ec8ffbf830e2d16677e4b5af37cc08"><code>6381bc6</code></a> deps: qs@6.9.7</li>
+<li><a href="https://github.com/expressjs/express/commit/a00786309641731661edb4d826a6919330887ca7"><code>a007863</code></a> deps: body-parser@1.19.2</li>
+<li><a href="https://github.com/expressjs/express/commit/e98f5848a0a496c0977a2d1734067b77f69de360"><code>e98f584</code></a> Revert &quot;build: use minimatch@3.0.4 for Node.js &lt; 4&quot;</li>
+<li><a href="https://github.com/expressjs/express/commit/a65913776d0b16837364ee66caa1a7f38a9997c0"><code>a659137</code></a> tests: use strict mode</li>
+<li><a href="https://github.com/expressjs/express/commit/a39e409cf3739ef9c9b597a9680813a34c3931c2"><code>a39e409</code></a> tests: prevent leaking changes to NODE_ENV</li>
+<li><a href="https://github.com/expressjs/express/commit/82de4de5ab92e8237d713285104e4b8452927352"><code>82de4de</code></a> examples: fix path traversal in downloads example</li>
+<li><a href="https://github.com/expressjs/express/commit/12310c52947ee159f7ecd63d125243cdca891135"><code>12310c5</code></a> build: use nyc for test coverage</li>
+<li><a href="https://github.com/expressjs/express/commit/884657d54665f323c236055d6e3d3e85d96e5f08"><code>884657d</code></a> examples: remove bitwise syntax for includes check</li>
+<li>Additional commits viewable in <a href="https://github.com/expressjs/express/compare/4.16.4...4.17.3">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=express&package-manager=npm_and_yarn&previous-version=4.16.4&new-version=4.17.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/university-course/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-10 10:24:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/university-course/pull/89" class=".btn">#89</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump express from 4.16.4 to 4.17.3 in /support/Lab06/b4s/organization/students-union/b4s_client
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span>
+            </td>
+            <td>
+                Bumps [express](https://github.com/expressjs/express) from 4.16.4 to 4.17.3.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/expressjs/express/releases">express's releases</a>.</em></p>
+<blockquote>
+<h2>4.17.3</h2>
+<ul>
+<li>deps: accepts@~1.3.8
+<ul>
+<li>deps: mime-types@~2.1.34</li>
+<li>deps: negotiator@0.6.3</li>
+</ul>
+</li>
+<li>deps: body-parser@1.19.2
+<ul>
+<li>deps: bytes@3.1.2</li>
+<li>deps: qs@6.9.7</li>
+<li>deps: raw-body@2.4.3</li>
+</ul>
+</li>
+<li>deps: cookie@0.4.2</li>
+<li>deps: qs@6.9.7
+<ul>
+<li>Fix handling of <code>__proto__</code> keys</li>
+</ul>
+</li>
+<li>pref: remove unnecessary regexp for trust proxy</li>
+</ul>
+<h2>4.17.2</h2>
+<ul>
+<li>Fix handling of <code>undefined</code> in <code>res.jsonp</code></li>
+<li>Fix handling of <code>undefined</code> when <code>&quot;json escape&quot;</code> is enabled</li>
+<li>Fix incorrect middleware execution with unanchored <code>RegExp</code>s</li>
+<li>Fix <code>res.jsonp(obj, status)</code> deprecation message</li>
+<li>Fix typo in <code>res.is</code> JSDoc</li>
+<li>deps: body-parser@1.19.1
+<ul>
+<li>deps: bytes@3.1.1</li>
+<li>deps: http-errors@1.8.1</li>
+<li>deps: qs@6.9.6</li>
+<li>deps: raw-body@2.4.2</li>
+<li>deps: safe-buffer@5.2.1</li>
+<li>deps: type-is@~1.6.18</li>
+</ul>
+</li>
+<li>deps: content-disposition@0.5.4
+<ul>
+<li>deps: safe-buffer@5.2.1</li>
+</ul>
+</li>
+<li>deps: cookie@0.4.1
+<ul>
+<li>Fix <code>maxAge</code> option to reject invalid values</li>
+</ul>
+</li>
+<li>deps: proxy-addr@~2.0.7
+<ul>
+<li>Use <code>req.socket</code> over deprecated <code>req.connection</code></li>
+<li>deps: forwarded@0.2.0</li>
+<li>deps: ipaddr.js@1.9.1</li>
+</ul>
+</li>
+<li>deps: qs@6.9.6</li>
+<li>deps: safe-buffer@5.2.1</li>
+<li>deps: send@0.17.2
+<ul>
+<li>deps: http-errors@1.8.1</li>
+<li>deps: ms@2.1.3</li>
+<li>pref: ignore empty http tokens</li>
+</ul>
+</li>
+<li>deps: serve-static@1.14.2
+<ul>
+<li>deps: send@0.17.2</li>
+</ul>
+</li>
+<li>deps: setprototypeof@1.2.0</li>
+</ul>
+<h2>4.17.1</h2>
+<ul>
+<li>Revert &quot;Improve error message for <code>null</code>/<code>undefined</code> to <code>res.status</code>&quot;</li>
+</ul>
+<h2>4.17.0</h2>
+<ul>
+<li>Add <code>express.raw</code> to parse bodies into <code>Buffer</code></li>
+<li>Add <code>express.text</code> to parse bodies into string</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/expressjs/express/blob/master/History.md">express's changelog</a>.</em></p>
+<blockquote>
+<h1>4.17.3 / 2022-02-16</h1>
+<ul>
+<li>deps: accepts@~1.3.8
+<ul>
+<li>deps: mime-types@~2.1.34</li>
+<li>deps: negotiator@0.6.3</li>
+</ul>
+</li>
+<li>deps: body-parser@1.19.2
+<ul>
+<li>deps: bytes@3.1.2</li>
+<li>deps: qs@6.9.7</li>
+<li>deps: raw-body@2.4.3</li>
+</ul>
+</li>
+<li>deps: cookie@0.4.2</li>
+<li>deps: qs@6.9.7
+<ul>
+<li>Fix handling of <code>__proto__</code> keys</li>
+</ul>
+</li>
+<li>pref: remove unnecessary regexp for trust proxy</li>
+</ul>
+<h1>4.17.2 / 2021-12-16</h1>
+<ul>
+<li>Fix handling of <code>undefined</code> in <code>res.jsonp</code></li>
+<li>Fix handling of <code>undefined</code> when <code>&quot;json escape&quot;</code> is enabled</li>
+<li>Fix incorrect middleware execution with unanchored <code>RegExp</code>s</li>
+<li>Fix <code>res.jsonp(obj, status)</code> deprecation message</li>
+<li>Fix typo in <code>res.is</code> JSDoc</li>
+<li>deps: body-parser@1.19.1
+<ul>
+<li>deps: bytes@3.1.1</li>
+<li>deps: http-errors@1.8.1</li>
+<li>deps: qs@6.9.6</li>
+<li>deps: raw-body@2.4.2</li>
+<li>deps: safe-buffer@5.2.1</li>
+<li>deps: type-is@~1.6.18</li>
+</ul>
+</li>
+<li>deps: content-disposition@0.5.4
+<ul>
+<li>deps: safe-buffer@5.2.1</li>
+</ul>
+</li>
+<li>deps: cookie@0.4.1
+<ul>
+<li>Fix <code>maxAge</code> option to reject invalid values</li>
+</ul>
+</li>
+<li>deps: proxy-addr@~2.0.7
+<ul>
+<li>Use <code>req.socket</code> over deprecated <code>req.connection</code></li>
+<li>deps: forwarded@0.2.0</li>
+<li>deps: ipaddr.js@1.9.1</li>
+</ul>
+</li>
+<li>deps: qs@6.9.6</li>
+<li>deps: safe-buffer@5.2.1</li>
+<li>deps: send@0.17.2
+<ul>
+<li>deps: http-errors@1.8.1</li>
+<li>deps: ms@2.1.3</li>
+<li>pref: ignore empty http tokens</li>
+</ul>
+</li>
+<li>deps: serve-static@1.14.2
+<ul>
+<li>deps: send@0.17.2</li>
+</ul>
+</li>
+<li>deps: setprototypeof@1.2.0</li>
+</ul>
+<h1>4.17.1 / 2019-05-25</h1>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/expressjs/express/commit/3d7fce56a35f4f73fa437866cd1401587a212334"><code>3d7fce5</code></a> 4.17.3</li>
+<li><a href="https://github.com/expressjs/express/commit/f9063712e01979588818b0756851053b5ee43d09"><code>f906371</code></a> build: update example dependencies</li>
+<li><a href="https://github.com/expressjs/express/commit/6381bc6317ec8ffbf830e2d16677e4b5af37cc08"><code>6381bc6</code></a> deps: qs@6.9.7</li>
+<li><a href="https://github.com/expressjs/express/commit/a00786309641731661edb4d826a6919330887ca7"><code>a007863</code></a> deps: body-parser@1.19.2</li>
+<li><a href="https://github.com/expressjs/express/commit/e98f5848a0a496c0977a2d1734067b77f69de360"><code>e98f584</code></a> Revert &quot;build: use minimatch@3.0.4 for Node.js &lt; 4&quot;</li>
+<li><a href="https://github.com/expressjs/express/commit/a65913776d0b16837364ee66caa1a7f38a9997c0"><code>a659137</code></a> tests: use strict mode</li>
+<li><a href="https://github.com/expressjs/express/commit/a39e409cf3739ef9c9b597a9680813a34c3931c2"><code>a39e409</code></a> tests: prevent leaking changes to NODE_ENV</li>
+<li><a href="https://github.com/expressjs/express/commit/82de4de5ab92e8237d713285104e4b8452927352"><code>82de4de</code></a> examples: fix path traversal in downloads example</li>
+<li><a href="https://github.com/expressjs/express/commit/12310c52947ee159f7ecd63d125243cdca891135"><code>12310c5</code></a> build: use nyc for test coverage</li>
+<li><a href="https://github.com/expressjs/express/commit/884657d54665f323c236055d6e3d3e85d96e5f08"><code>884657d</code></a> examples: remove bitwise syntax for includes check</li>
+<li>Additional commits viewable in <a href="https://github.com/expressjs/express/compare/4.16.4...4.17.3">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=express&package-manager=npm_and_yarn&previous-version=4.16.4&new-version=4.17.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/university-course/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-10 10:24:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/university-course/pull/88" class=".btn">#88</a>
             </td>
             <td>
