@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/692" class=".btn">#692</a>
+            </td>
+            <td>
+                <b>
+                    AriesVCX CLI POC
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span><span class="chip">agents</span>
+            </td>
+            <td>
+                An experimental AriesVCX command line interface proof-of-concept, built on top of aries-vcx-agent. There is not much in terms of functionality at the moment, except for writing schema and cred def, establishing connection, listing connections, listing and reacting to received messages. There is plenty of room for improvement (logging, for one), but at the same time, this PR provides a blueprint which can be easily improved and extended with further functionality.
+
+Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-10 21:30:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/691" class=".btn">#691</a>
             </td>
             <td>
