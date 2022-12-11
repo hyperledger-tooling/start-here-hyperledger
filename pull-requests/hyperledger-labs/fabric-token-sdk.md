@@ -64,29 +64,3 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/433" class=".btn">#433</a>
-            </td>
-            <td>
-                <b>
-                    reduce panics as much as possible
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-04 14:42:58 +0000 UTC
-    </div>
-</div>
-
