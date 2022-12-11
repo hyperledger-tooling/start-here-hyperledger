@@ -100,29 +100,3 @@ Doc deployed here: https://sanvendev.github.io/weaver-dlt-interoperability/docs/
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/340" class=".btn">#340</a>
-            </td>
-            <td>
-                <b>
-                    create besu sdk
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: micky <chanmickyyun@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-04 17:32:58 +0000 UTC
-    </div>
-</div>
-

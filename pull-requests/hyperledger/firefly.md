@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1115" class=".btn">#1115</a>
+            </td>
+            <td>
+                <b>
+                    Fix typo in erc1155.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix typo in the erc155 tutorial init command. `ff init -t erc-1155` to `ff init -t erc1155`
+
+Signed-off-by: Ander Dorado <71599694+ander-db@users.noreply.github.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-11 12:56:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1114" class=".btn">#1114</a>
             </td>
             <td>

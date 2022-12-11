@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/100" class=".btn">#100</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/102" class=".btn">#102</a>
             </td>
             <td>
                 <b>
-                    Support specifying a non-default contract address for a pool
+                    Fix incorrect samples route in README.md
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Ander Dorado <71599694+ander-db@users.noreply.github.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-22 00:43:03 +0000 UTC
+        Created At 2022-12-11 13:01:32 +0000 UTC
     </div>
 </div>
 
