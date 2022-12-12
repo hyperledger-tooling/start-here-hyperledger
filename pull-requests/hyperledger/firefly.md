@@ -140,33 +140,3 @@ Signed-off-by: Matthew Whitehead <matthew.whitehead@kaleido.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1111" class=".btn">#1111</a>
-            </td>
-            <td>
-                <b>
-                    Add 'fetchstatus=true' query param to /operations/{opid}
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #1108 
-
-See related UI PR https://github.com/hyperledger/firefly-ui/pull/208 which uses this query parameter to populate a `Detail` section of the operation slide out.
-
-Signed-off-by: Matthew Whitehead <matthew.whitehead@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-05 11:48:49 +0000 UTC
-    </div>
-</div>
-

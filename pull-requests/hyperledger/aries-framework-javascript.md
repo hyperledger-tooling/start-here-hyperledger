@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1153" class=".btn">#1153</a>
+            </td>
+            <td>
+                <b>
+                    refactor(proofs): remove proofrequest property
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                resolves #1114 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-12 09:29:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1151" class=".btn">#1151</a>
             </td>
             <td>
@@ -187,67 +213,6 @@ This will mean that, when using mediator, in order to delete a connection or out
     </table>
     <div class="right-align">
         Created At 2022-12-07 03:11:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1141" class=".btn">#1141</a>
-            </td>
-            <td>
-                <b>
-                    feat: Support for DIDCommV2 mediator provisioning and related protocols
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR contains changes adding support for DIDCommV2 based mediator provisioning and pickup / routing protocols and also depends on [PR which contains general DidComm V2 support](https://github.com/hyperledger/aries-framework-javascript/pull/1096) and must be merged first
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-05 11:30:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1140" class=".btn">#1140</a>
-            </td>
-            <td>
-                <b>
-                    refactor: simplify acceptXXX methods and jsonld format service interfaces should take JSON credential instead of instance of W3cCredential
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR covers three issues: 
-
-#1089 (Part 1)
-#1126 
-#1132 
-
-
-I closed the previous PR related to 1089 (as I discovered dependencies between it and #1126) so it made more sense to package them up together in one PR
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-05 09:49:14 +0000 UTC
     </div>
 </div>
 

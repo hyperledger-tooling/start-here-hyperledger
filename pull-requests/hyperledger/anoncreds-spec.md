@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/115" class=".btn">#115</a>
+            </td>
+            <td>
+                <b>
+                    *: Fix latex and update key def
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-12 07:18:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/114" class=".btn">#114</a>
             </td>
             <td>

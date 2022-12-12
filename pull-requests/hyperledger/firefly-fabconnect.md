@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/101" class=".btn">#101</a>
+                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/102" class=".btn">#102</a>
             </td>
             <td>
                 <b>
-                    Use structs specific to the lifecycle calls to unmarshal the args
+                    Update fabconnect to send receipts conforming to FireFly receipt stru…
                 </b>
             </td>
         </tr>
@@ -27,64 +27,16 @@ permalink: /pull-requests/hyperledger/firefly-fabconnect
                 
             </td>
             <td>
-                Signed-off-by: Jim Zhang <jim.zhang@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-09 22:27:04 +0000 UTC
-    </div>
-</div>
+                …cture
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/100" class=".btn">#100</a>
-            </td>
-            <td>
-                <b>
-                    Use existing transient map support in the gateway client
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The proper way to use the transient map support of the fabric go sdk is specifying it with `WithTransient()` when creating the transaction.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-07 20:26:51 +0000 UTC
-    </div>
-</div>
+See PR https://github.com/hyperledger/firefly/pull/1111 which standardises the format of a blockchain receipt notification to FireFly core. The standard structure defined in that PR requires transaction hash to be represented as a common field between all blockchain connectors. Before now Fabconnect used `transactionId` and ethconnect used `transactionHash`, and hence each plugin in FireFly core had its own logic for parsing transaction receipts. PR https://github.com/hyperledger/firefly/pull/1111 standardises on `transactionHash` so this PR brings fabconnect into line with that change. This allows FireFly core to have common blockchain receipt processing code.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-fabconnect/pull/99" class=".btn">#99</a>
-            </td>
-            <td>
-                <b>
-                    Add transient map support in transaction submission
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This allows FabConnect to invoke chaincodes that uses private data collections
+Signed-off-by: Matthew Whitehead <matthew.whitehead@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-04 17:34:12 +0000 UTC
+        Created At 2022-12-12 11:31:46 +0000 UTC
     </div>
 </div>
 

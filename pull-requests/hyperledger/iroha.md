@@ -40,10 +40,15 @@ permalink: /pull-requests/hyperledger/iroha
 
 ### Description of the Change
 
+All signatures received through `BlockSigned` are stored waiting for voting block.
+After voting block received through `BlockCreated` accumulated signatures are verified against this block.  
+
 <!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
 <!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
 
 ### Issue
+
+Closes #2999
 
 <!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
 More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
@@ -52,20 +57,17 @@ More information about this is available in GitHub documentation: https://docs.g
 
 ### Benefits
 
+- Handle case when `BlockSigned` recieved before `BlockCreated` correctly.
+- Do not repeat work of signature verification on every cycle. 
+
 <!-- What benefits will be realized by the code change? -->
 
 ### Possible Drawbacks
 
+None.
+
 <!-- What are the possible side-effects or negative impacts of the code change? -->
 <!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests *[optional]*
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
 
 <!--
 NOTE: User may want skip pull request and push workflows with [skip ci]

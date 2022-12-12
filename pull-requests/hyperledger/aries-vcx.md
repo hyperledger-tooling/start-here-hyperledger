@@ -65,29 +65,3 @@ and the did_key_to_public_key function returns if did:key, just your key
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/688" class=".btn">#688</a>
-            </td>
-            <td>
-                <b>
-                    Release 0.50.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">pre-release</span>
-            </td>
-            <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-05 09:35:10 +0000 UTC
-    </div>
-</div>
-
