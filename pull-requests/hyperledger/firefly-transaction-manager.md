@@ -70,29 +70,3 @@ Signed-off-by: Matthew Whitehead <matthew.whitehead@kaleido.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/44" class=".btn">#44</a>
-            </td>
-            <td>
-                <b>
-                    Add Errors spec support to contract deploy request
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jim Zhang <jim.zhang@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-05 02:34:41 +0000 UTC
-    </div>
-</div>
-
