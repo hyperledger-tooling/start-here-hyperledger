@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3846" class=".btn">#3846</a>
+            </td>
+            <td>
+                <b>
+                    Support linux-arm64 with install-fabric.sh
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+
+#### Type of change
+
+- Bug fix
+
+#### Description
+
+When installing fabric CLI, the install-fabric.sh was overriding the platform arch incorrectly when installing on arm64 chipsets.
+
+On linux, it was reading from `aarch64` 
+On darwin, it was reading from `amd64`
+
+Installer now downloads binaries from `${PLATFORM}`, defined as `${OS}-${ARCH}`, using the equivalent tokens as `go env GOOS` or `go env GOARCH` 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-12 14:46:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3845" class=".btn">#3845</a>
             </td>
             <td>
@@ -507,35 +548,6 @@ Signed-off-by: Dave Kelsey <d_kelsey@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-12-06 10:58:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3830" class=".btn">#3830</a>
-            </td>
-            <td>
-                <b>
-                    [WIP] Update purge private data tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Additional test to confirm deleted data can be purged
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-05 16:53:44 +0000 UTC
     </div>
 </div>
 

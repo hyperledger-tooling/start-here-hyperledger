@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/134" class=".btn">#134</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/135" class=".btn">#135</a>
             </td>
             <td>
                 <b>
-                    Kubectl add image pull secrets
+                    Minor fixes
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
                 
             </td>
             <td>
-                Needed across all components to support private registries.
+                Fix #128 #129
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-03 16:59:05 +0000 UTC
+        Created At 2022-12-12 13:37:38 +0000 UTC
     </div>
 </div>
 

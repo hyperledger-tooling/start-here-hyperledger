@@ -40,33 +40,3 @@ Signed-off-by: Matthew Whitehead <matthew.whitehead@kaleido.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/45" class=".btn">#45</a>
-            </td>
-            <td>
-                <b>
-                    Reduce the size of websocket updates for transactions.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Subscribers can use /transactions/{txid} to provide full detail about a transaction if required.
-
-Delivered as part of closing https://github.com/hyperledger/firefly/issues/1108
-
-Signed-off-by: Matthew Whitehead <matthew.whitehead@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-05 12:57:36 +0000 UTC
-    </div>
-</div>
-
