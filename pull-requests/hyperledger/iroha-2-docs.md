@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/231" class=".btn">#231</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/232" class=".btn">#232</a>
             </td>
             <td>
                 <b>
-                    [docs] #175: Split tutorial and reference documentation
+                    [refactor] #225: redesign snippets workflow
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
                 
             </td>
             <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-Closes #175 
+                Closes #225 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-23 08:44:15 +0000 UTC
+        Created At 2022-12-12 02:33:17 +0000 UTC
     </div>
 </div>
 

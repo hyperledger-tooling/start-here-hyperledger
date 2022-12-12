@@ -170,31 +170,3 @@ Signed-off-by: Matthew Whitehead <matthew.whitehead@kaleido.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1110" class=".btn">#1110</a>
-            </td>
-            <td>
-                <b>
-                    Move DB logic to firefly-common impl
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">migration_consideration</span>
-            </td>
-            <td>
-                Core half of https://github.com/hyperledger/firefly-common/pull/39
-
-> Ready to review - but should not merge until FF Common change makes it into a release
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-05 01:56:16 +0000 UTC
-    </div>
-</div>
-
