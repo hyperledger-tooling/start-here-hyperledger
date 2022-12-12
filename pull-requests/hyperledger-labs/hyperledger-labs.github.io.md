@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/223" class=".btn">#223</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/225" class=".btn">#225</a>
             </td>
             <td>
                 <b>
-                    add fabric-netkit lab
+                    microfab
                 </b>
             </td>
         </tr>
@@ -27,23 +27,42 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                Signed-off-by: vitiko <vitiko@mail.ru>
+                Microfab is a containerized Hyperledger Fabric runtime for use in development environments
 
-## Checklist for Hyperledger Lab Proposal PR
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
 
-- [ ] Read [README.md](https://github.com/hyperledger-labs/hyperledger-labs.github.io/blob/master/README.md) carefully
-- [ ] Make sure your changes are committed with the proper sign-off
-- [ ] Use the labs name as the PR title
-- [ ] Copy the short description of the proposal as the description of the PR
-- [ ] Remove this checklist section
-- [ ] Submit your PR and the labs stewards will review your proposal
-- [ ] Ask your sponsor to confirm sponsorship by stating so in a comment to the PR
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-27 14:54:21 +0000 UTC
+        Created At 2022-12-12 16:58:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/224" class=".btn">#224</a>
+            </td>
+            <td>
+                <b>
+                    Fabric Channeled Add-ons Gen Proposal
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nikos Kapsoulis <nkapsoulis@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-12 15:59:34 +0000 UTC
     </div>
 </div>
 

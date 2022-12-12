@@ -484,6 +484,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
 
 * Opening this PR as a precursor to the FFI wrapper PR
 * rename `NonTransmute` to `Cloned`
+* annotate tests with `webassembly_test`
 
 ### Issue
 

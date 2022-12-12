@@ -14,6 +14,96 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/32" class=".btn">#32</a>
+            </td>
+            <td>
+                <b>
+                    Remove the V1 suffix from the cred def
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Dependent upon #23, #27, #30, #31
+
+- Remove enum wrapper around the cred def
+- Remove V1 suffix after the cred def
+- Removes now useless get_attribute function in the FFI layer
+
+I will leave the revocation stuff for now. @whalelephant Feel free to pick this up (removing the V1 suffix after the structures.)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-12 15:05:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/31" class=".btn">#31</a>
+            </td>
+            <td>
+                <b>
+                    Update schema data model
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Dependent on #23, #27 and #30
+
+- Removes the ver from the schema
+- Rename attrNames to attr_names
+- remove internal SchemaV1 enum wrapper
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-12 14:46:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/30" class=".btn">#30</a>
+            </td>
+            <td>
+                <b>
+                    Remove seq no
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Dependent #25 and #27
+
+Removes the seq_no internally (quite a small change)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-12 14:30:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/27" class=".btn">#27</a>
             </td>
             <td>

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/693" class=".btn">#693</a>
+            </td>
+            <td>
+                <b>
+                    Unify Rust edition
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">update</span>
+            </td>
+            <td>
+                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-12 14:42:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/692" class=".btn">#692</a>
             </td>
             <td>

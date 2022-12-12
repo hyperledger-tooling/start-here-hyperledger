@@ -85,7 +85,7 @@ permalink: /pull-requests/hyperledger/solang
                 Use the new annotations:
 
 ```
-@selector("01010205")
+@selector([1,1,2,5])
 function foo() {}
 ```
 Rather than:
@@ -151,42 +151,6 @@ This removes the old syntax completely.
     </table>
     <div class="right-align">
         Created At 2022-12-07 15:42:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1092" class=".btn">#1092</a>
-            </td>
-            <td>
-                <b>
-                    Fix github actions warnings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Every CI run we get tons of warnings like:
-
-The `set-output` command is deprecated and will be disabled soon. Please upgrade to using Environment Files.
-
-It looks like actions-rs/toolchain is unmaintained:
-
-https://github.com/actions-rs/toolchain/issues/221
-
-Many projects are switching over to dtolnay/rust-toolchain, let's do the same.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-05 14:45:10 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,88 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4807" class=".btn">#4807</a>
+            </td>
+            <td>
+                <b>
+                    Non blocking RPC endpoint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+This PR converts the standard RPC endpoint in a non blocking one.
+
+## Fixed Issue(s)
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-12 17:12:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4805" class=".btn">#4805</a>
+            </td>
+            <td>
+                <b>
+                    EIP-5450 - EOF Stack Validation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+EOF stack validation and omnibus validation changes
+
+Builds off of work for EIP-4200 (#4760) and EIP-4750 (#4781) in addition to already committed "small-EOF" changes EOF-3540 + 3670 (#4644).  Changes to the above PRs will be merged in as updates are committed.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-12 15:53:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4804" class=".btn">#4804</a>
             </td>
             <td>
@@ -327,7 +409,7 @@ Updates to gradle to support java 19.
             </td>
             <td>
                 <b>
-                    Allow starting PoS networks since genesis
+                    Allow starting PoS networks from genesis
                 </b>
             </td>
         </tr>
@@ -338,7 +420,7 @@ Updates to gradle to support java 19.
             <td>
                 ## PR description
 This PR uses the _vanilla_ `o.h.b.c.MergeBesuControllerBuilder` when the Total Terminal Difficulty is set to **zero** in the genesis.
-The main change is in the HEAD commit (25a870a665b429365281dca244723023d0e7fa03), but for making it readable I had to refactor how the `o.h.b.c.BesuControllerBuilder` was constructed, that's in the previous commit (4369a1c3d48f419d5476ad0cfefc24f488f6d0c6). During these changes, I decided to keep an ignored parameter for not adding complexity to the reviewing process.
+The main change is in the HEAD commit (25a870a665b429365281dca244723023d0e7fa03), but for making it readable I had to refactor how the `o.h.b.c.BesuControllerBuilder` was constructed, that's in the previous commit (4369a1c3d48f419d5476ad0cfefc24f488f6d0c6). During these changes, I decided to keep an ignored parameter for not adding complexity to the reviewing process, b/c otherwise I would have to change a lot of tests.
 
 Note: Judging by the comment in [`o.h.b.c.BesuController:216`](https://github.com/hyperledger/besu/blob/22.10.2/besu/src/main/java/org/hyperledger/besu/controller/BesuController.java#L216) it sounds to me that there is a more comprehensive change waiting to be done, but I'm not familiar enough with the merge architecture to implement it in that way yet and maybe this one is good enough for now.
 
@@ -630,34 +712,6 @@ Speed up the gas calculation and execution of the modexp precompile.
     </table>
     <div class="right-align">
         Created At 2022-12-05 18:37:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4778" class=".btn">#4778</a>
-            </td>
-            <td>
-                <b>
-                    Add support for another Transaction Encoder/Decoder
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Transaction Encoder/Decoder automatically implied RLP encoding. The 4844 Blob Transaction should be encoded with SSZ encoding.
-
-This PR is a suggestion how to refactor the Encoder to support multiple different types of encodings.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-05 16:19:49 +0000 UTC
     </div>
 </div>
 
