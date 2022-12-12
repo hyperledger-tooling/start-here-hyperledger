@@ -1,13 +1,13 @@
 
-[1097](https://github.com/hyperledger/solang/pull/1097) Bugfix 1076: Destructing referenced types need a load
+[266](https://github.com/hyperledger/fabric-chaincode-java/pull/266) Fix TLS setup for chaincode server
 
-[102](https://github.com/hyperledger/firefly-tokens-erc1155/pull/102) Fix incorrect samples route in README.md
+[94](https://github.com/hyperledger-labs/university-course/pull/94) chore(deps): bump qs from 6.5.2 to 6.5.3 in /support/Lab02
 
-[1115](https://github.com/hyperledger/firefly/pull/1115) Fix typo in erc1155.md
+[4804](https://github.com/hyperledger/besu/pull/4804) Fix typo in verkle trie comment
 
-[341](https://github.com/hyperledger/fabric-ca/pull/341) [Bug fix]Update docker_compose.rst
+[93](https://github.com/hyperledger-labs/university-course/pull/93) chore(deps): bump qs, body-parser and express in /support/Lab06/b4s/organization/students-union/b4s_client
 
-[4803](https://github.com/hyperledger/besu/pull/4803) Fix typo on EthCallTest methods
+[92](https://github.com/hyperledger-labs/university-course/pull/92) chore(deps): bump qs, body-parser and express in /support/Lab06/b4s/organization/university/b4s_client
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
