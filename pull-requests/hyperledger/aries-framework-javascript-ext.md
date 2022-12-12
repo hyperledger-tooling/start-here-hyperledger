@@ -133,29 +133,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/178" class=".btn">#178</a>
-            </td>
-            <td>
-                <b>
-                    docs: update README
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jim Ezesinachi <ezesinachijim@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-05 12:25:27 +0000 UTC
-    </div>
-</div>
-

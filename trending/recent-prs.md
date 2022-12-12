@@ -1,13 +1,13 @@
 
-[2096](https://github.com/hyperledger/bevel/pull/2096) [besu] create tls cert using Cert-manager for besu network
+[2045](https://github.com/hyperledger/aries-cloudagent-python/pull/2045) #2041 - Issue JSON-LD has invalid Admin API documentation
 
-[2095](https://github.com/hyperledger/bevel/pull/2095) Bump express from 4.17.1 to 4.17.3 in /examples/supplychain-app/quorum/express_nodeJS
+[121](https://github.com/hyperledger/indy-vdr/pull/121) refactor(javascript): better response type inference
 
-[232](https://github.com/hyperledger/iroha-2-docs/pull/232) [refactor] #225: redesign snippets workflow
+[347](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/347) Bump apollo-server-core from 3.6.7 to 3.11.1 in /samples/besu/simplestate
 
-[266](https://github.com/hyperledger/fabric-chaincode-java/pull/266) Fix TLS setup for chaincode server
+[346](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/346) Bump decode-uri-component from 0.2.0 to 0.2.2 in /samples/besu/simplestate
 
-[94](https://github.com/hyperledger-labs/university-course/pull/94) chore(deps): bump qs from 6.5.2 to 6.5.3 in /support/Lab02
+[345](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/345) Bump @openzeppelin/contracts from 4.6.0 to 4.7.3 in /samples/besu/simplestate
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
