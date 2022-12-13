@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/47" class=".btn">#47</a>
+            </td>
+            <td>
+                <b>
+                    Obtain fresh gas price on re-submitting stale txs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jim Zhang <jim.zhang@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-13 00:00:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/46" class=".btn">#46</a>
             </td>
             <td>
