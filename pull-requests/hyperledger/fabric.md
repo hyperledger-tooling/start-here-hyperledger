@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3847" class=".btn">#3847</a>
+            </td>
+            <td>
+                <b>
+                    Publish multi-arch docker images and binaries for arm64, amd64
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+
+#### Type of change
+
+- New feature
+
+#### Description
+
+Builds multi-arch Docker images and native binaries for arm64 and amd64.
+
+#### Additional details
+
+This PR is a "cherry-pick" (back/forward) port of the following PRs from the release-2.5 branch "up" into the mainline: 
+
+- PR #3843 
+- PR #3839 
+- PR #3837 
+- PR #3836 
+
+
+#### Related issues
+
+- #2994 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-12 18:44:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3846" class=".btn">#3846</a>
             </td>
             <td>

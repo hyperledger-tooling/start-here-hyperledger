@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/45" class=".btn">#45</a>
+            </td>
+            <td>
+                <b>
+                    Update dependency fftm version to 1.1.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jim Zhang <jim.zhang@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-13 01:10:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/44" class=".btn">#44</a>
             </td>
             <td>
