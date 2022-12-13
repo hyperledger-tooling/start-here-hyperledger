@@ -112,31 +112,3 @@ https://github.com/hyperledger/firefly/blob/1ffb555be43a788d40c624c29d421a6f0f93
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1112" class=".btn">#1112</a>
-            </td>
-            <td>
-                <b>
-                    Typo - change WebHooks to WebSockets
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Spotted this reading the web hooks docs. Assume it should say "WebSockets"
-
-Signed-off-by: Matthew Whitehead <matthew.whitehead@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-06 13:38:58 +0000 UTC
-    </div>
-</div>
-

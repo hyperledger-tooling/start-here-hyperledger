@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1157" class=".btn">#1157</a>
+            </td>
+            <td>
+                <b>
+                    fix: credential values encoding
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Łukasz Przytuła <lprzytula@gmail.com>
+
+String values containing round decimal numbers (for example `1.0`, `6.0`) were encoded as a number (into `1` and `6` respectively) instead of properly hashing the string value, which causes issues with accepting credentials containing such values, issued by aca-py.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-13 14:59:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1156" class=".btn">#1156</a>
             </td>
             <td>

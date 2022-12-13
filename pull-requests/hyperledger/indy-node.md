@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1789" class=".btn">#1789</a>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1790" class=".btn">#1790</a>
             </td>
             <td>
                 <b>
-                    [v1.13.2-rc4] - Update Version Number for Release
+                    pinned gitpod base image
                 </b>
             </td>
         </tr>
@@ -27,40 +27,12 @@ permalink: /pull-requests/hyperledger/indy-node
                 
             </td>
             <td>
-                [v1.13.2-rc4] - Update Version number for Release
+                Signed-off-by: pSchlarb <p.schlarb@esatus.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-26 19:22:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1788" class=".btn">#1788</a>
-            </td>
-            <td>
-                <b>
-                    Bump indy-plenum version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Update the indy-plenum version in preparation for a new release.
-
-Signed-off-by: Wade Barnes <wade@neoterictech.ca>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-10-26 18:26:40 +0000 UTC
+        Created At 2022-12-13 15:13:41 +0000 UTC
     </div>
 </div>
 

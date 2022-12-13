@@ -121,31 +121,3 @@ Signed-off-by: Danno Ferrin <danno.ferrin@swirldslabs.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/100" class=".btn">#100</a>
-            </td>
-            <td>
-                <b>
-                    Version 0.7.0 release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update the release version to trigger a release.
-
-Signed-off-by: Danno Ferrin <danno.ferrin@swirldslabs.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-06 17:46:30 +0000 UTC
-    </div>
-</div>
-

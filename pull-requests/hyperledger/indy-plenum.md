@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/indy-plenum
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1623" class=".btn">#1623</a>
-            </td>
-            <td>
-                <b>
-                    Ubuntu 20.04 upgrade
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes for build
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-06 22:32:43 +0000 UTC
-    </div>
-</div>
-
