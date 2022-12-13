@@ -61,7 +61,7 @@ This fix was part of PR #4735. I'm separating it because it was not related to t
             </td>
             <td>
                 <b>
-                    Docker release tasks
+                    Docker release task for latest tags
                 </b>
             </td>
         </tr>
@@ -74,7 +74,12 @@ This fix was part of PR #4735. I'm separating it because it was not related to t
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-Add docker release tasks so that latest tags can be updated once the release artifact is ready to be announced. 
+Expands the github release workflow to support adding the latest tags for all the docker variants and architectures.
+
+* Replace the use of git sha tags with existing release tags to avoid creating a lot of unneeded tags. When creating the latest tags for all the variants, arch and manifests 15 tags are needed in total
+* Added latest tags for variants as was done for previous releases
+* Added latest tags for all the architectures
+* Added latest tags for multi-arch images
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -82,12 +87,12 @@ Add docker release tasks so that latest tags can be updated once the release art
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>

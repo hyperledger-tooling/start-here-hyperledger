@@ -65,33 +65,3 @@ permalink: /pull-requests/hyperledger/indy-vdr
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/118" class=".btn">#118</a>
-            </td>
-            <td>
-                <b>
-                    Add android build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Will build the android wrapper using cross
-  - The default image used by cross has some issues so it has to be specified in the `Cross.toml` file that we use the `main` tag for every image.
-- Will create an artifact called `android-jniLibs` (open for better naming), which is a combination of the architectures that are being created. Android uses this structure to have "one" package for every architecture.
-
-Workflow has been tested, without the `publish-release` input. Result can be found here: https://github.com/blu3beri/indy-vdr/actions/runs/3628442119
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-06 10:29:07 +0000 UTC
-    </div>
-</div>
-

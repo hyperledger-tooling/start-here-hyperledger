@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2045" class=".btn">#2045</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2046" class=".btn">#2046</a>
             </td>
             <td>
                 <b>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                "How to Issue JSON-LD Credentials using Aca-py" has invalid Admin API endpoint documentation.
+                cc @swcurran @ianco 
+
+The demo AliceWantsAJsonCredential.md has invalid Admin API endpoints documented.
+
+Signed-off-by: Jean-Francois Blier <101359928+jfblier-amplitude@users.noreply.github.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-12 12:21:07 +0000 UTC
+        Created At 2022-12-13 11:08:37 +0000 UTC
     </div>
 </div>
 
