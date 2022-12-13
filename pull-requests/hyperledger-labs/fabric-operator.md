@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/84" class=".btn">#84</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/85" class=".btn">#85</a>
             </td>
             <td>
                 <b>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-06 20:06:47 +0000 UTC
+        Created At 2022-12-13 16:46:31 +0000 UTC
     </div>
 </div>
 

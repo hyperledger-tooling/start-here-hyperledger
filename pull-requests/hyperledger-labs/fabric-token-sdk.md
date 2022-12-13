@@ -124,7 +124,7 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
             <td>
                 <b>
-                    initial commit
+                    Idemix Revocation 
                 </b>
             </td>
         </tr>
