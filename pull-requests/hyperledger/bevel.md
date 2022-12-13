@@ -14,6 +14,88 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2099" class=".btn">#2099</a>
+            </td>
+            <td>
+                <b>
+                    [besu] Add QBFT consensus
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: mgCepeda <marina.gomez.cepeda@accenture.com>
+
+**Changelog**
+- Add QBFT consensus
+- Update Besu version from 21.10.6 to 22.10.2 for IBFT and QBFT consensus, due to strange behavior described in comments.
+
+ 
+
+**Reviewed by**
+@jagpreetsinghsasan @suvajit-sarkar @sownak 
+
+ 
+
+**Linked issue**
+#2051 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-13 09:26:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2098" class=".btn">#2098</a>
+            </td>
+            <td>
+                <b>
+                    [besu] separating crypto generation and genesis file creation workflows
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- Added new playbook for crypto generation only. Playbook can be invoked by setting up `crypto_only: true` in `network.yaml`.
+- Added new roles for genesis creation
+- Updated crypto roles to extract out the genesis creation
+
+
+ 
+
+**Reviewed by**
+@developer_github_id
+
+ 
+
+**Linked issue**
+#2078 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-13 07:36:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2097" class=".btn">#2097</a>
             </td>
             <td>

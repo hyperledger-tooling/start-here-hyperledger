@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/291" class=".btn">#291</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/292" class=".btn">#292</a>
             </td>
             <td>
                 <b>
-                    Make validation for max description length configurable
+                    Fixed publication
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                The max length of the `description` property of TransferAsset message can be configured via genesis block.
-
-https://iroha.readthedocs.io/en/main/develop/api/commands.html#id87
-
-iroha-java client uses fixed max length to check the transaction. This commit remove the restriction and let the user configure the max length according to their needs.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-06 10:26:20 +0000 UTC
+        Created At 2022-12-13 10:17:51 +0000 UTC
     </div>
 </div>
 
