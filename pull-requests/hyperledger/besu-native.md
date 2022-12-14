@@ -93,31 +93,3 @@ permalink: /pull-requests/hyperledger/besu-native
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/101" class=".btn">#101</a>
-            </td>
-            <td>
-                <b>
-                    Prepare 0.7.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update to 0.7.1 snapshot, and add some color to historically how versions have been updated.
-
-Signed-off-by: Danno Ferrin <danno.ferrin@swirldslabs.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-06 19:27:17 +0000 UTC
-    </div>
-</div>
-

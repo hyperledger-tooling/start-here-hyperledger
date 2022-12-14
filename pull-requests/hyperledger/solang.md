@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1099" class=".btn">#1099</a>
+            </td>
+            <td>
+                <b>
+                    Update `@solana/solidity.js` version to fix Solana integration tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #1089 introduced discriminators to replace selectors on Solana. This broke the integration tests and needed an updated version of our `@solana/solidity.js` Typescript library. This PR fix such an issue.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-13 20:25:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1097" class=".btn">#1097</a>
             </td>
             <td>
@@ -50,7 +76,7 @@ permalink: /pull-requests/hyperledger/solang
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">solana</span>
             </td>
             <td>
                 Explanation in `docs/language/function.rst` 
@@ -79,7 +105,7 @@ permalink: /pull-requests/hyperledger/solang
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">solana</span>
             </td>
             <td>
                 Use the new annotations:

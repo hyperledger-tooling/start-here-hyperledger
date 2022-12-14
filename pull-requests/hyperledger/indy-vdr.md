@@ -36,32 +36,3 @@ permalink: /pull-requests/hyperledger/indy-vdr
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/119" class=".btn">#119</a>
-            </td>
-            <td>
-                <b>
-                    Update build actions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Update to node16-compatible versions of actions
-- Use cargo-cross to build linux binaries
-- Add linux/arm64 build
-- Use Python 3.8 over 3.6 for testing (3.6 is no longer easily available)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-06 19:49:55 +0000 UTC
-    </div>
-</div>
-

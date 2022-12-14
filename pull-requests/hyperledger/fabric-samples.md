@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/885" class=".btn">#885</a>
+            </td>
+            <td>
+                <b>
+                    Update the full-stack sample to use arm64 operator images
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updates the full stack sample to launch the operator with the multi-arch / arm64 image for the M1. 
+
+Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-13 20:14:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/884" class=".btn">#884</a>
             </td>
             <td>
