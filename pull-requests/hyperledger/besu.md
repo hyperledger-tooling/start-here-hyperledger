@@ -14,6 +14,129 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4819" class=".btn">#4819</a>
+            </td>
+            <td>
+                <b>
+                    Use safe block as pivot block during snapsync
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-14 11:39:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4818" class=".btn">#4818</a>
+            </td>
+            <td>
+                <b>
+                    Throwaway Withdrawals Testnet Branch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Want to get this code onto a testnet ahead of getting it merged on main.
+
+It's a combination of the following:
+
+- shanghaiTimestamp https://github.com/hyperledger/besu/pull/4743
+- WIP Withdrawals https://github.com/hyperledger/besu/pull/4552
+(actually based this branch off the previously merged https://github.com/hyperledger/besu/pull/4758 and pulled in the recent shanghaiTimestamp changes)
+- ForkId timestamp support https://github.com/hyperledger/besu/pull/4815
+- EIP-3651 Warm COINBASE - wiring: https://github.com/hyperledger/besu/pull/4818/commits/682fb7f3b42c07c2bee404d9466d0e17e1b1ea18
+- EIP-3855 PUSH0 - **wiring TODO**
+- EIP-3860 Limit/meter initcode - **wiring TODO**
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-14 11:18:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4817" class=".btn">#4817</a>
+            </td>
+            <td>
+                <b>
+                    Fixing Javadoc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Adding missing javadocs so that gradle build can be executed against JDK 16+.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+#2681 
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-14 08:07:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4816" class=".btn">#4816</a>
             </td>
             <td>
@@ -77,6 +200,8 @@ permalink: /pull-requests/hyperledger/besu
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
+
+This implements https://github.com/hyperledger/besu/issues/4793
 
 ## Documentation
 
