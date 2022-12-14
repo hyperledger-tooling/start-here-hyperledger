@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1100" class=".btn">#1100</a>
+            </td>
+            <td>
+                <b>
+                    Only emit in codegen when needed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This removes the need for `Expression::CodeLiteral` in codegen.
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-14 16:54:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1099" class=".btn">#1099</a>
             </td>
             <td>
@@ -151,32 +179,6 @@ This removes the old syntax completely.
     </table>
     <div class="right-align">
         Created At 2022-12-08 10:32:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1093" class=".btn">#1093</a>
-            </td>
-            <td>
-                <b>
-                    Smol README bugfix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Cyrill Leutwiler <cyrill@parity.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-07 15:42:12 +0000 UTC
     </div>
 </div>
 

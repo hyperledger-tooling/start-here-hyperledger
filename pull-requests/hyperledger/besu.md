@@ -14,6 +14,50 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4820" class=".btn">#4820</a>
+            </td>
+            <td>
+                <b>
+                    [Work In Progress] Optimize SLOAD and SSTORE execution time
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ameziane H <ameziane.hamlat@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-14 13:54:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4819" class=".btn">#4819</a>
             </td>
             <td>
@@ -33,6 +77,12 @@ permalink: /pull-requests/hyperledger/besu
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+
+
+I found that if we only use finalized block during snapsync is not a good choice because we will have 60 blocks windows to download and heal. It can impact the performance of the sync because we will not have enough time to download a lof of leafs and heal etc. I found
+A finalized block is one which has been accepted as canonical by more than 2/3 of validators. To create a conflicting block, an attacker would have to burn at least 1/3 of the total stake.
+A safe head block is one which, under normal network conditions, is expected to be included in the canonical chain. Assuming network delays of less than 4 seconds, an honest majority of validators and no attacks on the fork-choice rule, the safe head will never be orphaned.
+I think we can use safe block during a sync
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -747,48 +797,6 @@ Updates to gradle to support java 19.
     </table>
     <div class="right-align">
         Created At 2022-12-08 13:39:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4792" class=".btn">#4792</a>
-            </td>
-            <td>
-                <b>
-                    Allow starting PoS networks from genesis
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                ## PR description
-This PR uses the _vanilla_ `o.h.b.c.MergeBesuControllerBuilder` when the Total Terminal Difficulty is set to **zero** in the genesis.
-The main change is in the HEAD commit (25a870a665b429365281dca244723023d0e7fa03), but for making it readable I had to refactor how the `o.h.b.c.BesuControllerBuilder` was constructed, that's in the previous commit (4369a1c3d48f419d5476ad0cfefc24f488f6d0c6). During these changes, I decided to keep an ignored parameter for not adding complexity to the reviewing process, b/c otherwise I would have to change a lot of tests.
-
-Note: Judging by the comment in [`o.h.b.c.BesuController:216`](https://github.com/hyperledger/besu/blob/22.10.2/besu/src/main/java/org/hyperledger/besu/controller/BesuController.java#L216) it sounds to me that there is a more comprehensive change waiting to be done, but I'm not familiar enough with the merge architecture to implement it in that way yet and maybe this one is good enough for now.
-
-## Fixed Issue(s)
-Fixes #4740 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-08 07:56:09 +0000 UTC
     </div>
 </div>
 
