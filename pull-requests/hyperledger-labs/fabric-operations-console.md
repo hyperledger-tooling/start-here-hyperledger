@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/343" class=".btn">#343</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/346" class=".btn">#346</a>
             </td>
             <td>
                 <b>
-                    22 12 07 npm deps
+                    fix admin cert sync when updating msp
                 </b>
             </td>
         </tr>
@@ -27,21 +27,22 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
                 
             </td>
             <td>
-                #### Type of change
+                Signed-off-by: David Huffman <dshuffma@us.ibm.com>
+
+#### Type of change
 
 <!--- What type of change? Pick one option and delete the others. -->
 
-- dependency updates
+- Bug fix
 
 #### Description
-Updated dependencies to make passing build.
-
+When updating an MSP, the admin certs on a peer were not being synchronized correctly. Admin certs could be added but not removed. This PR fixes that.
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-07 14:58:05 +0000 UTC
+        Created At 2022-12-14 14:17:59 +0000 UTC
     </div>
 </div>
 

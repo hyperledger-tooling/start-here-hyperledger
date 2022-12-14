@@ -14,6 +14,70 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3854" class=".btn">#3854</a>
+            </td>
+            <td>
+                <b>
+                    Reconciliation changes for purged private data
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: manish <manish.sethi@gmail.com>
+
+#### Type of change
+- New feature
+
+#### Description
+This PR changes the reconciliation code for taking private data purge into consideration
+
+#### Related issues
+Closes #3027 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-14 14:38:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3853" class=".btn">#3853</a>
+            </td>
+            <td>
+                <b>
+                    Remove duplicate ThreeOrgRaft nwo network
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A duplicate ThreeOrgEtcdRaft was introduced in #3643 so removing the original network
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-14 12:39:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3851" class=".btn">#3851</a>
             </td>
             <td>
@@ -434,35 +498,6 @@ $(BUILD_DIR)/bin/%: GO_LDFLAGS += -w -extldflags '-static'
     </table>
     <div class="right-align">
         Created At 2022-12-07 19:06:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3838" class=".btn">#3838</a>
-            </td>
-            <td>
-                <b>
-                    Update purge private data integration tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Test purge private data handles state based endorsement correctly
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-07 17:19:04 +0000 UTC
     </div>
 </div>
 
