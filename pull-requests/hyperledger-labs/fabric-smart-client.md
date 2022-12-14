@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
             </td>
             <td>
                 <b>
-                    initial commit
+                    Idemix Revocation
                 </b>
             </td>
         </tr>
