@@ -62,31 +62,3 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/357" class=".btn">#357</a>
-            </td>
-            <td>
-                <b>
-                    Pre25 release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves #356
-
-Includes updating the build to use the correct 'edge' version of Fabric 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-08 09:54:38 +0000 UTC
-    </div>
-</div>
-

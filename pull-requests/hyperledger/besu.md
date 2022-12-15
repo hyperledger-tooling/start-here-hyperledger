@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4828" class=".btn">#4828</a>
+            </td>
+            <td>
+                <b>
+                    Allow -Pdocker-platform during distDocker
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As an example of an use case - this should make it easier to build linux/amd64 images on M1.
+
+Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-15 10:41:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4827" class=".btn">#4827</a>
             </td>
             <td>

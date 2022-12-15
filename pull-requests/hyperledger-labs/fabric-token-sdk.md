@@ -194,31 +194,3 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/435" class=".btn">#435</a>
-            </td>
-            <td>
-                <b>
-                    Generify the Token Request
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The goal of this PR is to allow drivers to decide on the format of the token request. This gives to the system the possibility to evolve with more freedom.
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-08 08:29:51 +0000 UTC
-    </div>
-</div>
-
