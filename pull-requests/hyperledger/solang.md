@@ -53,7 +53,11 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                This removes the need for `Expression::CodeLiteral` in codegen.
+                The contract binary is always generated in codegen, but never used in codegen. We can replace `type(contract).runtimeCode` with the binary code in codegen, which removes the need  for 
+ `Expression::CodeLiteral` in codegen. We only generate this if needed.
+
+This has an added bonus for debugging issues: if there is an issue in emit, then `--emit cfg` will still 
+work and not crash before emitting the cfg (unless `type(foo).runtimeCode` is present).
 
 Signed-off-by: Sean Young <sean@mess.org>
             </td>

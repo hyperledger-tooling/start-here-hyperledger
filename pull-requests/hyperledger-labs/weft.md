@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/weft
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weft/pull/29" class=".btn">#29</a>
+            </td>
+            <td>
+                <b>
+                    Update version and remove console.log
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-15 13:24:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weft/pull/28" class=".btn">#28</a>
             </td>
             <td>
@@ -83,7 +109,7 @@ permalink: /pull-requests/hyperledger-labs/weft
 ---
 
 
-## [0.0.5](https://github.com/hyperledger-labs/weft/compare/v0.0.4...v0.0.5) (2022-12-12)
+## [0.0.5](https://github.com/hyperledger-labs/weft/compare/v0.0.4...v0.0.5) (2022-12-15)
 
 
 ### Features

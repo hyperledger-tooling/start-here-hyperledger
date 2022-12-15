@@ -14,6 +14,133 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3863" class=".btn">#3863</a>
+            </td>
+            <td>
+                <b>
+                    change order of raft state change notification
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Bug fix
+
+#### Description
+Change the order of notification about the raft state change,
+first to chain loop and then abdicateleadership go rountine.
+
+#### Additional details
+Analysis and observation noted down in the issue: https://github.com/hyperledger/fabric/issues/3629#issuecomment-1353191438 
+
+#### Related issues
+#3629 
+
+Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-15 15:09:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3862" class=".btn">#3862</a>
+            </td>
+            <td>
+                <b>
+                    Address several SIGSEGV errors encountered in fabric-test with alpha1 (backport #3861)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is an automatic backport of pull request #3861 done by [Mergify](https://mergify.com).
+
+
+---
+
+
+<details>
+<summary>Mergify commands and options</summary>
+
+<br />
+
+More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
+
+You can also trigger Mergify actions by commenting on this pull request:
+
+- `@Mergifyio refresh` will re-evaluate the rules
+- `@Mergifyio rebase` will rebase this PR on its base branch
+- `@Mergifyio update` will merge the base branch into this PR
+- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
+
+Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
+
+- look at your merge queues
+- generate the Mergify configuration with the config editor.
+
+Finally, you can contact us on https://mergify.com
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-15 14:35:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3861" class=".btn">#3861</a>
+            </td>
+            <td>
+                <b>
+                    Address several SIGSEGV errors encountered in fabric-test with alpha1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+
+#### Type of change
+
+- Bug fix
+
+#### Description
+
+This removes the external static link option from release builds
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-15 13:19:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3859" class=".btn">#3859</a>
             </td>
             <td>
