@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-test
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/430" class=".btn">#430</a>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/432" class=".btn">#432</a>
             </td>
             <td>
                 <b>
-                    Revery alpine to 3.14
+                    Revert temp pulling of binaries from 2.5-stable (main)
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-test
                 
             </td>
             <td>
-                HSM regresion test failed to build images with alpine 3.16, go back to 3.14.
+                Pull binaries from jfrog 'latest' instead of '2.5-stable' in main branch
 
 Signed-off-by: David Enyeart <enyeart@us.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-21 22:51:57 +0000 UTC
+        Created At 2022-12-15 17:50:30 +0000 UTC
     </div>
 </div>
 
@@ -42,11 +42,11 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/429" class=".btn">#429</a>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/431" class=".btn">#431</a>
             </td>
             <td>
                 <b>
-                    Revert BuildChaincodeNode to Node version 12.22.6
+                    Fix interop job publishing (main)
                 </b>
             </td>
         </tr>
@@ -55,43 +55,16 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
                 
             </td>
             <td>
-                Revert BuildChaincodeNode to Node version 12.22.6
+                1. Don't build fabric-ca darwin binaries due to cross-compiling issues
+
+2. Temporarily pull binaries from '2.5-stable' instead of 'latest' to get things working again. Later we'll switch the function tests to build instead of pull binaries.
 
 Signed-off-by: David Enyeart <enyeart@us.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-21 19:39:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/428" class=".btn">#428</a>
-            </td>
-            <td>
-                <b>
-                    Revert TestNodeChaincode to Node version 12.22.6
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Revert TestNodeChaincode to Node version 12.22.6
-since node chaincode doesn't support more recent node versions in v2.2.x.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-21 19:08:52 +0000 UTC
+        Created At 2022-12-15 16:54:47 +0000 UTC
     </div>
 </div>
 
