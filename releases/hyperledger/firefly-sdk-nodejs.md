@@ -15,31 +15,30 @@ permalink: /releases/hyperledger/firefly-sdk-nodejs
         <tr>
             <td colspan="2">
                 <b>
-                    v1.1.11
+                    v1.1.12
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.1.11
+                    v1.1.12
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Remove extra namespace definition in resolve verifier endpoint by @lanasta in https://github.com/hyperledger/firefly-sdk-nodejs/pull/50
-* Package lock update by @lanasta in https://github.com/hyperledger/firefly-sdk-nodejs/pull/51
+* getStatus is now namespaced by @shorsher in https://github.com/hyperledger/firefly-sdk-nodejs/pull/52
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.1.10...v1.1.11
+**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.1.11...v1.1.12
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.1.11" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.1.12" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-10-21 17:19:59 +0000 UTC
+        Created At 2022-12-15 14:25:53 +0000 UTC
     </span>
 </div>
 
