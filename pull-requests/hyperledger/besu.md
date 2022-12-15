@@ -252,7 +252,10 @@ It's a combination of the following:
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-Adding missing javadocs so that gradle build can be executed against JDK 16+.
+Adding missing javadocs so that javadoc doclint passes against JDK 16+ (invoke by Besu gradle build).
+Exclude following packages from javadoc lint:
+- `org.hyperledger.besu.privacy.contracts.generated`
+- `org.hyperledger.besu.tests.acceptance.*`
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -888,95 +891,6 @@ Updates to gradle to support java 19.
     </table>
     <div class="right-align">
         Created At 2022-12-08 13:39:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4791" class=".btn">#4791</a>
-            </td>
-            <td>
-                <b>
-                    Docker release builds to no longer add latest tag
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jason Frame <jason.frame@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Changes the docker upload and docker manifest so the latest tag is no longer added for releases. This is necessary so that a release can be built and tested for a period without affecting the docker registry's latest version.
-
-After this PR an additional step will be added as part of the release process after the burn-in period to update the latest tag to the release build.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-08 05:53:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4790" class=".btn">#4790</a>
-            </td>
-            <td>
-                <b>
-                    Set default curve in EVMTool
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-## PR description
-
-Set the curve to the default in the EVM tool durring startup.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [X] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-08 05:06:23 +0000 UTC
     </div>
 </div>
 
