@@ -14,6 +14,96 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4827" class=".btn">#4827</a>
+            </td>
+            <td>
+                <b>
+                    Add changelog download sha for 22.10.3 release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jason Frame <jason.frame@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Add changelog download sha for 22.10.3 release
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-15 00:27:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4826" class=".btn">#4826</a>
+            </td>
+            <td>
+                <b>
+                    Fix docker release workflow login
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jason Frame <jason.frame@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Fix docker release workflow login so it works with any symbols.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-14 23:00:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4820" class=".btn">#4820</a>
             </td>
             <td>
@@ -33,6 +123,7 @@ permalink: /pull-requests/hyperledger/besu
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+Use explicit caching on storage account during SLOAD and SSTORE operations.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -130,8 +221,8 @@ It's a combination of the following:
 (actually based this branch off the previously merged https://github.com/hyperledger/besu/pull/4758 and pulled in the recent shanghaiTimestamp changes)
 - ForkId timestamp support https://github.com/hyperledger/besu/pull/4815
 - EIP-3651 Warm COINBASE - wiring: https://github.com/hyperledger/besu/pull/4818/commits/682fb7f3b42c07c2bee404d9466d0e17e1b1ea18
-- EIP-3855 PUSH0 - **wiring TODO**
-- EIP-3860 Limit/meter initcode - **wiring TODO**
+- EIP-3855 PUSH0 - wiring: https://github.com/hyperledger/besu/pull/4818/commits/a47cce61f5ca4a78b407d1c3a353bd09085fa4d6
+- EIP-3860 Limit/meter initcode - wiring: https://github.com/hyperledger/besu/pull/4818/commits/36add0782d70375a7a42a4bd57dbca0b5f8cd0ab
             </td>
         </tr>
     </table>
@@ -886,64 +977,6 @@ Set the curve to the default in the EVM tool durring startup.
     </table>
     <div class="right-align">
         Created At 2022-12-08 05:06:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4786" class=".btn">#4786</a>
-            </td>
-            <td>
-                <b>
-                    Bugfix snapshot transaction segfaults after storage truncation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-This PR addresses a race where snap and checkpoint syncs can cause a segfault when starting a worldstate download.  The segfault occurs when rocksdb snapshot transactions are read/written after a storage truncation.  To prevent this and to ensure future uses of clear() and clearFlatDatabase() cannot cause segfaults, this PR:
-
-* adds BonsaiStorageSubscriber type to handle storage events
-* moves the subscription model from BonsaiSnapshotWorldStateKeyValueStorage up into BonsaiWorldStateKeyValueStorage
-* removes addCachedLayer from TrieLogManager, moves to AbstractTrieLogManager
-* TrieLogManager takes a snapshot immediately in addCachedLayer rather than deferring it 
-* notifies subscribers on events that can affect the worldstate, specifically:
-  * clear (truncate)
-  * clearFlatDatabase (truncating a subset of storage)
-  * close (closing the worldstate storage
-
-Additionally, only drop cached layers when the worldstate archive has more than the configured number of retained layers.
-
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-addresses #4765 
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-07 21:26:22 +0000 UTC
     </div>
 </div>
 

@@ -228,31 +228,3 @@ https://stackoverflow.com/questions/74718400/get-clients-signature-from-the-hype
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/882" class=".btn">#882</a>
-            </td>
-            <td>
-                <b>
-                    Update org1-peer2.yaml
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixing TLS issues while using org1-peer-gateway-svc.${DOMAIN}. This would be needed so there are no TLS issues when sending requests.
-
-Signed-off-by: Deepak Singh <91736795+blockguardian@users.noreply.github.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-07 18:40:36 +0000 UTC
-    </div>
-</div>
-

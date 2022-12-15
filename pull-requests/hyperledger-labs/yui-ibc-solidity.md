@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/146" class=".btn">#146</a>
+            </td>
+            <td>
+                <b>
+                    Use solidity-rlp with npm
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fix https://github.com/hyperledger-labs/yui-ibc-solidity/issues/144
+
+Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-15 00:57:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/145" class=".btn">#145</a>
             </td>
             <td>
