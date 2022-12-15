@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1101" class=".btn">#1101</a>
+            </td>
+            <td>
+                <b>
+                    Update roadmap
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Version 0.2 has already been released. It can be removed from the roadmap.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-14 22:07:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1100" class=".btn">#1100</a>
             </td>
             <td>

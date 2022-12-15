@@ -14,6 +14,120 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3857" class=".btn">#3857</a>
+            </td>
+            <td>
+                <b>
+                    Prepare static binaries for release targets and docker runtimes, and dynamic binaries for local dev
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Bug fix
+
+#### Description
+
+This PR fixes two problems with the release-2.5 Makefile: 
+
+- On rancher desktop, `TARGETOS` AND `TARGETARCH` are not automatically set by the "docker" build agent, leading to an error when building the image locally without `buildx` or builders from docker.io.   This sets the variables to `linux` and `go env GOARCH` when building the containers locally, aligning with the default values set by buildx.
+
+- The introduction of statically linked binaries was necessary for running ARM64 on the Alpine containers, but it caused a regression and forced the peer to sigsegv when built _locally_ on an emulated ubuntu64 linux.   With this update, the locally built peer images will continue to be created as dynamically linked binaries, with the static linking enabled only for the release target and for binaries deployed to alpine in Docker. 
+
+#### Related issues
+
+- #2994 
+- #3372 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-14 20:22:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3856" class=".btn">#3856</a>
+            </td>
+            <td>
+                <b>
+                    Prepare static binaries for release targets and docker runtimes, and dynamic binaries for local development
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+#### Type of change
+
+- Bug fix
+
+#### Description
+
+This PR fixes two problems with the release-2.5 Makefile: 
+
+- On rancher desktop, `TARGETOS` AND `TARGETARCH` are not automatically set by the "docker" build agent, leading to an error when building the image locally without `buildx` or builders from docker.io.   This sets the variables to `linux` and `go env GOARCH` when building the containers locally, aligning with the default values set by buildx.
+
+- The introduction of statically linked binaries was necessary for running ARM64 on the Alpine containers, but it caused a regression and forced the peer to sigsegv when built _locally_ on an emulated ubuntu64 linux.   With this update, the locally built peer images will continue to be created as dynamically linked binaries, with the static linking enabled only for the release target and for binaries deployed to alpine in Docker. 
+
+#### Related issues
+
+- #2994 
+- #3372 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-14 20:02:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3855" class=".btn">#3855</a>
+            </td>
+            <td>
+                <b>
+                    Update command docs - remove unnecessary orderer flags
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The CLI commands "querycommitted" and "checkcommitreadiness" only query a peer, they do not interact with an orderer node. Therefore the orderer flags -o --tls --cafile are not needed on these commands.
+
+Update the command reference docs and user docs accordingly.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-14 19:13:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3854" class=".btn">#3854</a>
             </td>
             <td>
@@ -445,59 +559,6 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-12-08 12:15:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3839" class=".btn">#3839</a>
-            </td>
-            <td>
-                <b>
-                    fix the multi-arch Docker peer build again
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
-
-#### Type of change
-
-- Bug fix
-- New feature
-
-#### Description
-
-This PR runs the Fabric release pipeline correctly as a "release" practice triggered through GH.
-
-The `FABRIC_VER` of a component is inferred from the _semrev_ tag applied by the Release process.   The `FABRIC_VER` is applied throughout the Makefile, docker images, and metadata encoded into the client binaries.
-
-
-#### Additional details
-
-This commit: 
-
-- Adds a work-around for concurrency issues encountered when building multiple target architectures with buildx in parallel.  When multiple buildx builders run concurrently, an unpredictable but frequent error occurs when communicating with the buildx builder.  This manifests as "Error : 403 Forbidden" when pushing _some but not all_ of the image layers to ghcr.io.   This is most likely a resource (CPU, disk, RAM, etc.) being exhausted on the GH executor, and NOT an authentication error when connecting to the container registry.    (Serializing the buildx builder steps seems to have eliminated the sporadic crash.) 
-
-- Solves a `SIGSEGV` error encountered when running the dynamically linked (peer, orderer, etc.) images on the alpine arm64 images.  The problem stems from producing a dynamically linked (libc.so) executable on the golang-alpine base image, copying it, and running on a vanilla alpine container.   (Alpine does NOT include support for libc, and something is either wrong with the libmusl for arm64, or it worked by accident on the amd64.)
-
-```
-$(BUILD_DIR)/bin/%: GO_LDFLAGS += -w -extldflags '-static'
-```
-
-#### Related issues
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-07 19:06:04 +0000 UTC
     </div>
 </div>
 
