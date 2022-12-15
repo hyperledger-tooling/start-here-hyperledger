@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/231" class=".btn">#231</a>
+                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/232" class=".btn">#232</a>
             </td>
             <td>
                 <b>
-                    Cleanup migrated contract JSON with full path
+                    Create devcontainer.json
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
                 
             </td>
             <td>
-                The cleanup code for migrated JSON files failed to delete the file (so would run again on each restart).
+                Signed-off-by: octocat <106897621+lokera666@users.noreply.github.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-12 14:18:45 +0000 UTC
+        Created At 2022-12-15 02:04:47 +0000 UTC
     </div>
 </div>
 
