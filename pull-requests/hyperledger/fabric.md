@@ -14,6 +14,95 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3866" class=".btn">#3866</a>
+            </td>
+            <td>
+                <b>
+                    Conditionally publish docker images to docker.io (backport #3865)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is an automatic backport of pull request #3865 done by [Mergify](https://mergify.com).
+
+
+---
+
+
+<details>
+<summary>Mergify commands and options</summary>
+
+<br />
+
+More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
+
+You can also trigger Mergify actions by commenting on this pull request:
+
+- `@Mergifyio refresh` will re-evaluate the rules
+- `@Mergifyio rebase` will rebase this PR on its base branch
+- `@Mergifyio update` will merge the base branch into this PR
+- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
+
+Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
+
+- look at your merge queues
+- generate the Mergify configuration with the config editor.
+
+Finally, you can contact us on https://mergify.com
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-15 20:00:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3865" class=".btn">#3865</a>
+            </td>
+            <td>
+                <b>
+                    Conditionally publish docker images to docker.io
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+
+#### Type of change
+
+- CI pipeline 
+
+#### Description
+
+This PR changes the release-2.5 branch container registry target from ghcr.io to docker.io.
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-15 18:48:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3863" class=".btn">#3863</a>
             </td>
             <td>
@@ -590,102 +679,6 @@ Finally, you can contact us on https://mergify.com
     </table>
     <div class="right-align">
         Created At 2022-12-09 17:45:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3843" class=".btn">#3843</a>
-            </td>
-            <td>
-                <b>
-                    Publish release artifacts to conventional installation paths
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
-
-#### Type of change
-
-- Bug fix
-
-#### Description
-
-This PR updates the release pipeline to publish binary assets to the traditional paths within the GH Release.
-
-In addition, this applies the `TWO_DIGIT_VERSION` release tag, without the leading 'v', to determine the coordinates of the embedded ccenv builder image.
-
-This PR updates the target version of `install-fabric.sh` to 2.5.0 / 1.5.6, and includes an optional `FABRIC_DOCKER_REGISTRY` environment variable in order to override the default Docker Hub container registry.
-
-
-#### Related issues
-
-#### Release Note
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-08 21:27:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3842" class=".btn">#3842</a>
-            </td>
-            <td>
-                <b>
-                    Update purge private data integration tests (backport #3838)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #3838 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-08 20:49:35 +0000 UTC
     </div>
 </div>
 
