@@ -1,13 +1,13 @@
 
-[447](https://github.com/hyperledger/fabric-test/pull/447) Revert Alpine to 3.14 for HSM tests
+[3871](https://github.com/hyperledger/fabric/pull/3871) Scheduled vulnerability scan of dependencies
 
-[446](https://github.com/hyperledger/fabric-test/pull/446) Revert Alpine to 3.14 for HSM tests
+[3870](https://github.com/hyperledger/fabric/pull/3870) Security vulnerability scanning using govulncheck (release-2.2)
 
-[4833](https://github.com/hyperledger/besu/pull/4833) Initial implementation of EngineGetPayloadV2
+[3869](https://github.com/hyperledger/fabric/pull/3869) Security vulnerability scanning using govulncheck (release-2.4)
 
-[443](https://github.com/hyperledger/fabric-test/pull/443) Revert Alpine to 3.14 for HSM tests
+[3868](https://github.com/hyperledger/fabric/pull/3868) Security vulnerability scanning using govulncheck (release-2.5)
 
-[442](https://github.com/hyperledger/fabric-test/pull/442) Bump alpine 3.16 (release-2.4)
+[318](https://github.com/hyperledger-labs/blockchain-explorer/pull/318) Bump express from 4.17.2 to 4.18.2 in /client
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
