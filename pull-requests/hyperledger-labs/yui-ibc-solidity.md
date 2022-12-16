@@ -90,31 +90,3 @@ Signed-off-by: Jun Kimura <jun.kimura@datachain.jp>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/143" class=".btn">#143</a>
-            </td>
-            <td>
-                <b>
-                    replace ECRecovery with openzeppelin ECDSA
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix #141.
-
-Signed-off-by: Ryo Sato <ryo.sato@datachain.jp>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-09 06:29:59 +0000 UTC
-    </div>
-</div>
-
