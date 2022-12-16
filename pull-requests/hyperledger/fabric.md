@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3872" class=".btn">#3872</a>
+            </td>
+            <td>
+                <b>
+                    Run a full external link for CGO against musl when building in Docker
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+
+#### Type of change
+
+- Bug fix
+
+#### Description
+
+This PR runs a full static link, at compile-time, for CGO against libmusl when building docker images.  This is required for proper support of PKCS11 / HSM libraries, which require CGO.
+
+#### Related issues
+
+- Issue #3867 
+- Issue #3372 (tangentially)
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-16 14:06:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3871" class=".btn">#3871</a>
             </td>
             <td>
@@ -27,7 +68,7 @@ permalink: /pull-requests/hyperledger/fabric
                 
             </td>
             <td>
-                <nil>
+                Closes to #3860
             </td>
         </tr>
     </table>
@@ -56,6 +97,8 @@ permalink: /pull-requests/hyperledger/fabric
                 Add a makefile target for vulnerability scanning, which can later be used for scheduled vulnerability scans.
 
 Cherry-pick of e6808b162f889a0b568e98731d39cf64afcb79b0 from main branch.
+
+Contributes to https://github.com/hyperledger/fabric/issues/3860
             </td>
         </tr>
     </table>
@@ -84,6 +127,8 @@ Cherry-pick of e6808b162f889a0b568e98731d39cf64afcb79b0 from main branch.
                 Add a makefile target for vulnerability scanning, which can later be used for scheduled vulnerability scans.
 
 Cherry-pick of e6808b162f889a0b568e98731d39cf64afcb79b0 from main branch.
+
+Contributes to #3860
             </td>
         </tr>
     </table>
@@ -112,6 +157,8 @@ Cherry-pick of e6808b162f889a0b568e98731d39cf64afcb79b0 from main branch.
                 Add a makefile target for vulnerability scanning, which can later be used for scheduled vulnerability scans.
 
 Cherry-pick of e6808b162f889a0b568e98731d39cf64afcb79b0 from main branch.
+
+Contributes to #3860
             </td>
         </tr>
     </table>
@@ -737,58 +784,6 @@ Installer now downloads binaries from `${PLATFORM}`, defined as `${OS}-${ARCH}`,
     </table>
     <div class="right-align">
         Created At 2022-12-12 14:46:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3845" class=".btn">#3845</a>
-            </td>
-            <td>
-                <b>
-                    Add purge private data documentation (backport #3841)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #3841 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-09 17:45:32 +0000 UTC
     </div>
 </div>
 

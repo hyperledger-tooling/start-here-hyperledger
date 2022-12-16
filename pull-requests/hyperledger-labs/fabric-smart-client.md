@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/444" class=".btn">#444</a>
+            </td>
+            <td>
+                <b>
+                    delete the key is the value is set to nil
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">improvement</span>
+            </td>
+            <td>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-16 12:44:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/443" class=".btn">#443</a>
             </td>
             <td>
