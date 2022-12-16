@@ -118,29 +118,3 @@ Signed-off-by: Ryo Sato <ryo.sato@datachain.jp>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/142" class=".btn">#142</a>
-            </td>
-            <td>
-                <b>
-                    client: remove `height` parameter from `createClient`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-09 03:55:10 +0000 UTC
-    </div>
-</div>
-
