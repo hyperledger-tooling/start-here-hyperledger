@@ -14,6 +14,96 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4833" class=".btn">#4833</a>
+            </td>
+            <td>
+                <b>
+                    Initial implementation of EngineGetPayloadV2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Gabriel Trintinalia <gabriel.trintinalia@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-16 05:21:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4832" class=".btn">#4832</a>
+            </td>
+            <td>
+                <b>
+                    Use blocking executor in test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Zhenyang Shi <wcgcyx@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Switch to blocking executor in chain pruner test so pruning happened in the same thread.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #4830 
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-16 02:22:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4828" class=".btn">#4828</a>
             </td>
             <td>
@@ -840,45 +930,6 @@ Update version for 22.10.4-SNAPSHOT
     </table>
     <div class="right-align">
         Created At 2022-12-09 21:14:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4798" class=".btn">#4798</a>
-            </td>
-            <td>
-                <b>
-                    Runner test refactor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span><span class="chip">dev experience</span><span class="chip">mainnet</span>
-            </td>
-            <td>
-                Refactor to make it easier to find the cause when this tests fails. 
-* Deduplicated code. 
-* Added a call to peerCount to expose peering issues vs syncing issues
-* Because of the async wait() you don't get the exact line where the assertion fails. Added comments for common spots where it fails to make this easier. 
-* Also 2 minutes is plenty. 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-09 01:36:08 +0000 UTC
     </div>
 </div>
 
