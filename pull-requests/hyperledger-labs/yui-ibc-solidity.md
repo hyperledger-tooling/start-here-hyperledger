@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/150" class=".btn">#150</a>
+            </td>
+            <td>
+                <b>
+                    Separate the packet functions from IBCChannel.sol
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The contract size of the IBCChannel reaches the ethereum size limit, so it is difficult to implement additional new features(e.g. #12). Therefore, we try to work around the limit by separating the contract into two components, one for the handshake functions and the other for the packet functions.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-18 10:43:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/148" class=".btn">#148</a>
             </td>
             <td>

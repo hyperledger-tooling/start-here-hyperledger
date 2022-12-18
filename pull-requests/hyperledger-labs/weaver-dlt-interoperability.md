@@ -188,29 +188,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/344" class=".btn">#344</a>
-            </td>
-            <td>
-                <b>
-                    Fixing Miscellaneous Structure and Policy Issues
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR fixes #140 , #288 , #297 .
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-11 06:43:24 +0000 UTC
-    </div>
-</div>
-
