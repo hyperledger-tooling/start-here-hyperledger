@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
                 
             </td>
             <td>
-                The contract size of the IBCChannel reaches the ethereum size limit, so it is difficult to implement additional new features(e.g. #12). Therefore, we try to work around the limit by separating the contract into two components, one for the handshake functions and the other for the packet functions.
+                The contract size of the IBCChannel reaches near size limit of ethereum, so it is difficult to implement additional new features(e.g. #12). Therefore, we try to work around the limit by separating the contract into two components, one for the handshake functions and the other for the packet functions.
             </td>
         </tr>
     </table>
