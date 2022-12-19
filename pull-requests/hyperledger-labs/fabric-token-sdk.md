@@ -197,29 +197,3 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/437" class=".btn">#437</a>
-            </td>
-            <td>
-                <b>
-                    asset transfer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span><span class="chip">interoperability</span>
-            </td>
-            <td>
-                Signed-off-by: Hagar Meir <hagar.meir@ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-12 13:06:39 +0000 UTC
-    </div>
-</div>
-
