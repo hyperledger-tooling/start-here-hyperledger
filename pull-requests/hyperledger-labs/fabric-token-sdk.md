@@ -211,7 +211,7 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span><span class="chip">interoperability</span>
             </td>
             <td>
                 Signed-off-by: Hagar Meir <hagar.meir@ibm.com>
@@ -220,32 +220,6 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-12-12 13:06:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/436" class=".btn">#436</a>
-            </td>
-            <td>
-                <b>
-                    Idemix Revocation 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-12 09:33:43 +0000 UTC
     </div>
 </div>
 
