@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4804" class=".btn">#4804</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/4805" class=".btn">#4805</a>
             </td>
             <td>
                 <b>
-                    Fix typo in verkle trie comment
+                    EIP-5450 - EOF Stack Validation
                 </b>
             </td>
         </tr>
@@ -27,12 +27,11 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                Signed-off-by: kevaundray <kevtheappdev@gmail.com>
+                ## PR description
 
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+EOF stack validation and omnibus validation changes
 
-## PR description
+Builds off of work for EIP-4200 (#4760) and EIP-4750 (#4781) in addition to already committed "small-EOF" changes EOF-3540 + 3670 (#4644).  Changes to the above PRs will be merged in as updates are committed.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -50,7 +49,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-11 18:51:10 +0000 UTC
+        Created At 2022-12-12 15:53:25 +0000 UTC
     </div>
 </div>
 
