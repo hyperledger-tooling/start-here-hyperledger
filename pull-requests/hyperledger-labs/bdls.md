@@ -14,25 +14,26 @@ permalink: /pull-requests/hyperledger-labs/bdls
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/bdls/pull/7" class=".btn">#7</a>
+                PR <a href="https://github.com/hyperledger-labs/bdls/pull/8" class=".btn">#8</a>
             </td>
             <td>
                 <b>
-                    Update CONTRIBUTING.md
+                    Allowing append new peers keys
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">documentation</span>
+                
             </td>
             <td>
-                Signed-off-by: Ahmed Al Salih <a.alsalih2@gmail.com>
+                * Adding the ability to generate and append new peers regenerating the `genkeys --append <int- new peers number>` flag without. Fix the issue of regenerating new keys.
+* Also working with the giving --config flag to use another quorum.json file name.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-07 18:13:21 +0000 UTC
+        Created At 2022-12-19 20:39:27 +0000 UTC
     </div>
 </div>
 
