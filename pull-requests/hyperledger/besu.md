@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4805" class=".btn">#4805</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/4812" class=".btn">#4812</a>
             </td>
             <td>
                 <b>
-                    EIP-5450 - EOF Stack Validation
+                    Memoize transaction size and hash at the same time
                 </b>
             </td>
         </tr>
@@ -27,29 +27,35 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                ## PR description
+                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
 
-EOF stack validation and omnibus validation changes
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
-Builds off of work for EIP-4200 (#4760) and EIP-4750 (#4781) in addition to already committed "small-EOF" changes EOF-3540 + 3670 (#4644).  Changes to the above PRs will be merged in as updates are committed.
+## PR description
+
+Since to calculate the transaction hash and size, the transaction needs to be encoded to bytes, we can cache both values at the same time, in order to avoid extra expensive encoding tasks.
+
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
 
+relates to  #4724
+
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-12 15:53:25 +0000 UTC
+        Created At 2022-12-13 18:23:38 +0000 UTC
     </div>
 </div>
 
