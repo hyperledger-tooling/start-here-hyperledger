@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/85" class=".btn">#85</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/86" class=".btn">#86</a>
             </td>
             <td>
                 <b>
-                    Build multi-arch arm64 and amd64 docker images
+                    fix: selector and labels do not match
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+                fix: selector and labels do not match
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-13 16:46:31 +0000 UTC
+        Created At 2022-12-21 16:17:08 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,51 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3882" class=".btn">#3882</a>
+            </td>
+            <td>
+                <b>
+                    Switch base docker image from golang-alpine to ubuntu:20.04
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Bug fix
+
+#### Description
+
+This PR switches the Fabric base docker images from golang-alpine to ubuntu:20.04.  The upgrade is necessary as the golang-alpine libc runtimes (musl) are incompatible with the requirements on multi-arch runtimes. 
+
+The motivations for this upgrade are described in detail in Discussion #3876 and comments in DRAFT PR #3877 
+
+
+#### Additional details
+
+- Discussion #3876 
+- PR #3877  (DRAFT)
+
+
+#### Related issues
+
+- #2994
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-21 15:00:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3879" class=".btn">#3879</a>
             </td>
             <td>
@@ -61,61 +106,6 @@ cc: @lehors
     </table>
     <div class="right-align">
         Created At 2022-12-20 13:41:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3877" class=".btn">#3877</a>
-            </td>
-            <td>
-                <b>
-                    COPY static release build artifacts into alpine Docker - DO NOT MERGE
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **DO NOT MERGE**
-
-Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
-
-#### Type of change
-
-- New feature
-
-#### Description
-
-This PR resolves the many permutations of SIGSEGV encountered when running multi-arch Fabric 2.5 binaries in Docker.
-
-
-#### Additional details
-
-There have been several, unsuccessful efforts to unwind the dependencies between multi-stage Docker builds, alpine libc, pkcs11, and CGO native binaries for Fabric.  This has recently appeared as a critical issue for users of Fabric running on an M1 / arm64 system, where the docker based builds regularly SIGSEGV due to the link of golang-alpine's libc/libmusl into the binaries.
-
-This PR resolves the cross-platform issues by *moving the Fabric binary build out of Docker*, relying on golang's multi-arch support to prepare statically linked binaries in an upstream step of the build.  With this simplified model, the reference / release binaries are simply `COPY` steps, removing any and all dependencies on alpine's mangled support for libc.
-
-- Discussion #3876
-
-
-#### Related issues
-
-- Issue #3837 
-- Issue #3867 
-- [FAB-2883](https://jira.hyperledger.org/browse/FAB-2883)
-- [FAB-3196](https://jira.hyperledger.org/browse/FAB-3196)
-- [FAB-18176](https://jira.hyperledger.org/browse/FAB-18176)
-- [FAB-16618](https://jira.hyperledger.org/browse/FAB-16618)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-19 16:50:36 +0000 UTC
     </div>
 </div>
 
@@ -655,70 +645,6 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2022-12-14 19:13:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3854" class=".btn">#3854</a>
-            </td>
-            <td>
-                <b>
-                    Reconciliation changes for purged private data
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: manish <manish.sethi@gmail.com>
-
-#### Type of change
-- New feature
-
-#### Description
-This PR changes the reconciliation code for taking private data purge into consideration
-
-#### Related issues
-Closes #3027 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-14 14:38:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3853" class=".btn">#3853</a>
-            </td>
-            <td>
-                <b>
-                    Remove duplicate ThreeOrgRaft nwo network
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                A duplicate ThreeOrgEtcdRaft was introduced in #3643 so removing the original network
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-14 12:39:05 +0000 UTC
     </div>
 </div>
 
