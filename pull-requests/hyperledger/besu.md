@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4812" class=".btn">#4812</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/4818" class=".btn">#4818</a>
             </td>
             <td>
                 <b>
-                    Memoize transaction size and hash at the same time
+                    Throwaway Withdrawals Testnet Branch
                 </b>
             </td>
         </tr>
@@ -27,35 +27,24 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+                Want to get this code onto a testnet ahead of getting it merged on main.
 
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+It's a combination of the following:
 
-## PR description
-
-Since to calculate the transaction hash and size, the transaction needs to be encoded to bytes, we can cache both values at the same time, in order to avoid extra expensive encoding tasks.
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-relates to  #4724
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- shanghaiTimestamp https://github.com/hyperledger/besu/pull/4743
+- WIP Withdrawals https://github.com/hyperledger/besu/pull/4552
+(actually based this branch off the previously merged https://github.com/hyperledger/besu/pull/4758 and pulled in the recent shanghaiTimestamp changes)
+- ForkId timestamp support https://github.com/hyperledger/besu/pull/4815
+- EIP-3651 Warm COINBASE - wiring: https://github.com/hyperledger/besu/pull/4818/commits/682fb7f3b42c07c2bee404d9466d0e17e1b1ea18
+- EIP-3855 PUSH0 - wiring: https://github.com/hyperledger/besu/pull/4818/commits/a47cce61f5ca4a78b407d1c3a353bd09085fa4d6
+- EIP-3860 Limit/meter initcode - wiring: https://github.com/hyperledger/besu/pull/4818/commits/36add0782d70375a7a42a4bd57dbca0b5f8cd0ab
+- Add blockValue to engine_getPayloadV2: https://github.com/hyperledger/besu/pull/4833 (https://github.com/ethereum/execution-apis/pull/314)
+- Add withdrawals to getBlockByHash and getBlockByNumber: https://github.com/hyperledger/besu/pull/4818/commits/161b70c74b06f94a4722b983aded45811364332a (https://github.com/ethereum/execution-apis/pull/334)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-13 18:23:38 +0000 UTC
+        Created At 2022-12-14 11:18:47 +0000 UTC
     </div>
 </div>
 
