@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/cckit
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/cckit/pull/12" class=".btn">#12</a>
+                PR <a href="https://github.com/hyperledger-labs/cckit/pull/13" class=".btn">#13</a>
             </td>
             <td>
                 <b>
-                    Replace pre-middleware to middleware for envelope
+                    BigInt message for amounts
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/cckit
                 
             </td>
             <td>
-                It lets to use method type (invoke, query) to check sig only for invoker.
-
-Signed-off-by: olaeseane <olaesean@gmail.com>
+                Signed-off-by: Viktor Nosov <v.nosov@atomyze.team>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-07 13:06:23 +0000 UTC
+        Created At 2022-12-21 12:03:52 +0000 UTC
     </div>
 </div>
 
