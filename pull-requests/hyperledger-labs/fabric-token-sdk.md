@@ -91,29 +91,3 @@ Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/443" class=".btn">#443</a>
-            </td>
-            <td>
-                <b>
-                    add final interop test to fabtoken
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">cleanup</span>
-            </td>
-            <td>
-                Signed-off-by: Hagar Meir <hagar.meir@ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-14 10:05:22 +0000 UTC
-    </div>
-</div>
-

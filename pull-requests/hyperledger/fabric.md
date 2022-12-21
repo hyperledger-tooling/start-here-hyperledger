@@ -72,7 +72,7 @@ cc: @lehors
             </td>
             <td>
                 <b>
-                    COPY static release build artifacts into alpine Docker
+                    COPY static release build artifacts into alpine Docker - DO NOT MERGE
                 </b>
             </td>
         </tr>
@@ -81,7 +81,9 @@ cc: @lehors
                 
             </td>
             <td>
-                Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+                **DO NOT MERGE**
+
+Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
 
 #### Type of change
 
