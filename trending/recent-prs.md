@@ -1,13 +1,13 @@
 
-[86](https://github.com/hyperledger-labs/fabric-operator/pull/86) fix: selector and labels do not match
+[4858](https://github.com/hyperledger/besu/pull/4858) Move EVM operation Tests
 
-[3882](https://github.com/hyperledger/fabric/pull/3882) Switch base docker image from golang-alpine to ubuntu:20.04
+[4855](https://github.com/hyperledger/besu/pull/4855) rollback dco on push
 
-[352](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/352) Add instructions to enable asset exchange for Fabric
+[3033](https://github.com/hyperledger/iroha/pull/3033) [WIP] Add lockfile support for Kura
 
-[13](https://github.com/hyperledger-labs/cckit/pull/13) BigInt message for amounts
+[3032](https://github.com/hyperledger/iroha/pull/3032) [test] #2506: Add more tests on block validation
 
-[349](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/349) Protobuf support in BESU-SDK, BESU CLI, 
+[137](https://github.com/hyperledger/iroha-javascript/pull/137) Duty/21-12-22: Move jake checks stage
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

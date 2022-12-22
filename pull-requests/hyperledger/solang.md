@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1101" class=".btn">#1101</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1110" class=".btn">#1110</a>
             </td>
             <td>
                 <b>
-                    Update roadmap
+                    Fix assignment chains
                 </b>
             </td>
         </tr>
@@ -27,44 +27,16 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                Version 0.2 has already been released. It can be removed from the roadmap.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-14 22:07:23 +0000 UTC
-    </div>
-</div>
+                Fix assigning to both a storage variable and non-storage in assignment chain.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1100" class=".btn">#1100</a>
-            </td>
-            <td>
-                <b>
-                    Only emit in codegen when needed
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The contract binary is always generated in codegen, but never used in codegen. We can replace `type(contract).runtimeCode` with the binary code in codegen, which removes the need  for 
- `Expression::CodeLiteral` in codegen. We only generate this if needed.
-
-This has an added bonus for debugging issues: if there is an issue in emit, then `--emit cfg` will still 
-work and not crash before emitting the cfg (unless `type(foo).runtimeCode` is present).
+Fixes https://github.com/xermicus/fuzzy-sol/issues/142
 
 Signed-off-by: Sean Young <sean@mess.org>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-14 16:54:20 +0000 UTC
+        Created At 2022-12-21 13:27:38 +0000 UTC
     </div>
 </div>
 
@@ -72,11 +44,11 @@ Signed-off-by: Sean Young <sean@mess.org>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1099" class=".btn">#1099</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1109" class=".btn">#1109</a>
             </td>
             <td>
                 <b>
-                    Update `@solana/solidity.js` version to fix Solana integration tests
+                    super should not consider parents without a body
                 </b>
             </td>
         </tr>
@@ -85,12 +57,16 @@ Signed-off-by: Sean Young <sean@mess.org>
                 
             </td>
             <td>
-                #1089 introduced discriminators to replace selectors on Solana. This broke the integration tests and needed an updated version of our `@solana/solidity.js` Typescript library. This PR fix such an issue.
+                If the parent is an interface, don't use a function from that for super, as it is uncallable and will generate bogus code.
+
+Fixes: https://github.com/xermicus/fuzzy-sol/issues/128
+
+Signed-off-by: Sean Young <sean@mess.org>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-13 20:25:46 +0000 UTC
+        Created At 2022-12-21 12:53:26 +0000 UTC
     </div>
 </div>
 
@@ -98,11 +74,11 @@ Signed-off-by: Sean Young <sean@mess.org>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1097" class=".btn">#1097</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1108" class=".btn">#1108</a>
             </td>
             <td>
                 <b>
-                    Bugfix 1076: Destructing referenced types need a load
+                    Fix handling of new int[](count <<= 1)
                 </b>
             </td>
         </tr>
@@ -111,12 +87,16 @@ Signed-off-by: Sean Young <sean@mess.org>
                 
             </td>
             <td>
-                Closes #1076 
+                Also improves handling of any garbage passed as a size.
+
+Fixes https://github.com/xermicus/fuzzy-sol/issues/146
+
+Signed-off-by: Sean Young <sean@mess.org>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-11 17:53:33 +0000 UTC
+        Created At 2022-12-21 10:55:51 +0000 UTC
     </div>
 </div>
 
@@ -124,11 +104,76 @@ Signed-off-by: Sean Young <sean@mess.org>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1096" class=".btn">#1096</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1107" class=".btn">#1107</a>
             </td>
             <td>
                 <b>
-                    msg.sender should not exist on Solana
+                    Give nice diagnostics when old style call arguments are used
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                	C c = (new C).value(1).gas(2)(1, 2, 3);
+
+Fixes https://github.com/xermicus/fuzzy-sol/issues/141
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-20 18:37:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1105" class=".btn">#1105</a>
+            </td>
+            <td>
+                <b>
+                    Make instruction data compatible with anchor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">solana</span><span class="chip">breaking</span>
+            </td>
+            <td>
+                *Solana* breaking change.For constructors, a function selector is now required.
+    
+Remove the following from the instruction data:
+  - Sender
+  - Destination
+  - Value
+  - Seeds
+  - Contract hash
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-19 17:18:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1104" class=".btn">#1104</a>
+            </td>
+            <td>
+                <b>
+                    Generate Anchor IDL from Solidity contracts ⚓
                 </b>
             </td>
         </tr>
@@ -137,15 +182,14 @@ Signed-off-by: Sean Young <sean@mess.org>
                 <span class="chip">solana</span>
             </td>
             <td>
-                Explanation in `docs/language/function.rst` 
+                This PR generates Anchor ⚓ IDL files for Solidity contracts. There are unit tests for the functions that construct the `struct IDL`. All Solana runtime tests have been updated to leverage Anchor IDL instead of Ethereum ABI.
 
-- Remove  `msg.sender`
-- Remove `caller` on yul
+The final json file is not generated when we compile a Solidity contract to avoid confusing users with files that are not yet useful for them.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-09 16:09:02 +0000 UTC
+        Created At 2022-12-16 21:11:07 +0000 UTC
     </div>
 </div>
 
@@ -153,11 +197,11 @@ Signed-off-by: Sean Young <sean@mess.org>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1095" class=".btn">#1095</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1103" class=".btn">#1103</a>
             </td>
             <td>
                 <b>
-                    Use annotations for selectors
+                    Ensure no data is returned when a function has no return values
                 </b>
             </td>
         </tr>
@@ -166,23 +210,38 @@ Signed-off-by: Sean Young <sean@mess.org>
                 <span class="chip">solana</span>
             </td>
             <td>
-                Use the new annotations:
-
-```
-@selector([1,1,2,5])
-function foo() {}
-```
-Rather than:
-```
-function foo() selector=hex"01010205" {}
-```
-
-This removes the old syntax completely.
+                Signed-off-by: Sean Young <sean@mess.org>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-09 16:06:24 +0000 UTC
+        Created At 2022-12-16 15:47:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1102" class=".btn">#1102</a>
+            </td>
+            <td>
+                <b>
+                    Fix rust 1.66 clippy warnings and run crate doc tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-16 09:45:24 +0000 UTC
     </div>
 </div>
 
