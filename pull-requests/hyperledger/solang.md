@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                These regularly fail with timeouts, maybe this will work.
+                The Solana tests sometimes fail with timeouts, maybe this will work.
 
 Signed-off-by: Sean Young <sean@mess.org>
             </td>
