@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    [fix] #2978: Queue remove transactions correctly 
+                    [fix] #2963: Queue remove transactions correctly 
                 </b>
             </td>
         </tr>
@@ -49,7 +49,7 @@ permalink: /pull-requests/hyperledger/iroha
 
 ### Issue
 
-Closes #2978.
+Closes #2963.
 
 <!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
 More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->

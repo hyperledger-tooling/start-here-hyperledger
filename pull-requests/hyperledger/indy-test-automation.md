@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-test-automation
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/114" class=".btn">#114</a>
+                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/118" class=".btn">#118</a>
             </td>
             <td>
                 <b>
-                    Added Indy Test Automation GHA
+                    Configure indy-test-automation GHAs as callable and reusable workflows
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-test-automation
                 
             </td>
             <td>
-                Signed-off-by: pSchlarb <p.schlarb@esatus.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-08 14:03:54 +0000 UTC
+        Created At 2022-12-22 15:50:47 +0000 UTC
     </div>
 </div>
 
