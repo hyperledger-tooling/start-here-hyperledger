@@ -15,29 +15,29 @@ permalink: /releases/hyperledger-labs/weaver-dlt-interoperability
         <tr>
             <td colspan="2">
                 <b>
-                    v1.5.5 - GO Fabric Interop Chaincode - Dec 13, 2022
+                    v1.5.5 - GO Weaver Protos - Dec 22, 2022
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    core/network/fabric-interop-cc/contracts/interop/v1.5.5
+                    common/protos-go/v1.5.5
                 </span>
             </td>
             <td>
-                - Go Module: `github.com/hyperledger-labs/weaver-dlt-interoperability/core/network/fabric-interop-cc/contracts/interop`
+                - Go Module: `github.com/hyperledger-labs/weaver-dlt-interoperability/common/protos-go`
 - Release: v1.5.5
-- Readme: [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/core/network/fabric-interop-cc/contracts/interop/v1.5.5/core/network/fabric-interop-cc/contracts/interop/README.md).
-- Source: [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/core/network/fabric-interop-cc/contracts/interop/v1.5.5/core/network/fabric-interop-cc/contracts/interop)
+- Readme: [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/common/protos-go/v1.5.5/common/protos-go/README.md).
+- Source: [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/common/protos-go/v1.5.5/common/protos-go)
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/contracts/interop/v1.5.5" class=".btn">
+    <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/common/protos-go/v1.5.5" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-12-13 05:38:09 +0000 UTC
+        Created At 2022-12-22 10:39:35 +0000 UTC
     </span>
 </div>
 
