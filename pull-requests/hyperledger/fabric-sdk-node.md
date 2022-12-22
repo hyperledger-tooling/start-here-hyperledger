@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/629" class=".btn">#629</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/632" class=".btn">#632</a>
             </td>
             <td>
                 <b>
-                    Resume snapshot publishing following release
+                    feat(FabricCAClient): addDefaultHeader && fix bugs
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-24 11:21:51 +0000 UTC
+        Created At 2022-12-20 07:51:54 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/628" class=".btn">#628</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/631" class=".btn">#631</a>
             </td>
             <td>
                 <b>
-                    Remove redundant nano test dependency
+                    feat(FabricCAClient.js): addDefaultHeader
                 </b>
             </td>
         </tr>
@@ -53,38 +53,16 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-24 10:32:02 +0000 UTC
-    </div>
-</div>
+                - add "addDefaultHeader" function in FabricCAClient.js 
+- add "default_headers" object in constructor
+- iterate on "default_headers" object in "request" and "enroll" functions
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/627" class=".btn">#627</a>
-            </td>
-            <td>
-                <b>
-                    Release 2.2.16
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
+Signed-off-by: Ivan <69165620+IvanSerebryakov@users.noreply.github.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-24 10:19:43 +0000 UTC
+        Created At 2022-12-19 13:33:48 +0000 UTC
     </div>
 </div>
 

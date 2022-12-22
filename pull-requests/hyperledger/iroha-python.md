@@ -29,7 +29,9 @@ permalink: /pull-requests/hyperledger/iroha-python
             <td>
                 Finally no more metaclass voodoo in codegen, also (probably) more pythonic types for rust enums.
 
-Next steps would be to refactor codegen on the rust side, then probably move as much of codegen as possible from python to rust for better IDE/typechecking experience.
+Next steps would be to refactor codegen on the rust side, then probably move as much of codegen as possible from python to rust for better IDE/typechecking experience for end-users.
+
+Closes #132, also at least partially addresses #134
             </td>
         </tr>
     </table>

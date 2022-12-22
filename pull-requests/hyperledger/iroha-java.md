@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/297" class=".btn">#297</a>
+            </td>
+            <td>
+                <b>
+                    update to 73cea62f49a0d1a7b4999da3923bdb389a85462e7b6d3a81e8d484e6cd7cd6e4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: akostiucenko <kostiuchenko@soramitsu.co.jp>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-21 12:53:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/296" class=".btn">#296</a>
+            </td>
+            <td>
+                <b>
+                    iroha-282: metadata merge for multiple genesis
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-21 11:03:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/294" class=".btn">#294</a>
+            </td>
+            <td>
+                <b>
+                    PeerTest disabled
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-16 10:06:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-java/pull/293" class=".btn">#293</a>
             </td>
             <td>
@@ -33,32 +111,6 @@ permalink: /pull-requests/hyperledger/iroha-java
     </table>
     <div class="right-align">
         Created At 2022-12-15 21:16:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/292" class=".btn">#292</a>
-            </td>
-            <td>
-                <b>
-                    Fixed publication
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-13 10:17:51 +0000 UTC
     </div>
 </div>
 

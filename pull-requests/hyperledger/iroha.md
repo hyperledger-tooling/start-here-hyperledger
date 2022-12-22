@@ -14,6 +14,421 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3033" class=".btn">#3033</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Add lockfile support for Kura
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## **Tests failing, WIP, do not approve/merge.**
+
+### Description of the Change
+
+WIP
+
+### Issue
+
+#3027 
+
+### Benefits
+
+As per #3027
+
+### Possible Drawbacks
+
+More complexity in Kura.
+
+### Alternate Designs
+
+- This PR uses typestate pattern to encode lock state in attempt to prevent accidental misuse when changing Kura code. One could argue for a simpler design that would allow more room for mistakes.
+- Storage is locked for full lifetime of Kura. There was an alternate design discussed where lock is acquired only when writing blocks, however it is worse for performance and still allows starting multiple Iroha instances backed by the same storage, postponing failure for indeterminate time in the future.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-21 18:23:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3032" class=".btn">#3032</a>
+            </td>
+            <td>
+                <b>
+                    [test] #2506: Add more tests on block validation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Vladimir Pesterev <pesterev@pm.me>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+This test reproduces the root error of #2506. A detailed explanation of the bug is [here](https://github.com/hyperledger/iroha/issues/2506#issuecomment-1316913752).
+
+### Issue
+
+Closes #2506
+
+### Benefits
+
+Add more tests on the block validation.
+
+### Possible Drawbacks
+
+None
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-21 17:50:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3030" class=".btn">#3030</a>
+            </td>
+            <td>
+                <b>
+                    Add JSON5 support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">UI</span>
+            </td>
+            <td>
+                <!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+Added JSON5 support in user-provided configs, such as:
+
+- config and genesis for `iroha`
+- config, metadata, signature, instructions for `iroha_client_cli`
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Issue
+
+- #3019 
+
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+Better human-reading format
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+
+`json5` crate I use has lack of some functions and features unlike `serde_json`. But it should be enough to interact with user properly.
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests
+
+You can try running `iroha` or `iroha_client_cli` as always but also you can:
+- use `json5` file extension (for default and your own configs)
+- use all features of `json5` in your configs (which should not necessarily have `json5` extension), i.e. comments
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-20 21:17:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3028" class=".btn">#3028</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #2813: Kagami generate default peer config
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Shanin Roman <shanin1000@yandex.ru>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+### Description of the Change
+
+- Extend `kagami` to support peer configuration generation
+- Add CI check for validity of peer configuration
+ 
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Issue
+
+Closes #2813.
+
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+Automation and more checks.
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+
+None.
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests *[optional]*
+
+```bash
+cargo run --bin kagami -- config peer
+```
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-20 14:01:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3026" class=".btn">#3026</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #3013: properly chain burn validators: backport for LTS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Artemii Gerasimovich <gerasimovich@soramitsu.co.jp>
+
+### Description of the Change
+
+Backport of #3025 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-19 00:49:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3025" class=".btn">#3025</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #3013: properly chain burn validators
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Artemii Gerasimovich <gerasimovich@soramitsu.co.jp>
+
+### Description of the Change
+
+Burn validators weren't properly combined.
+
+### Issue
+
+Closes #3013
+
+### Possible Drawbacks
+
+None
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-19 00:45:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3023" class=".btn">#3023</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #3022: Remove `Option` in `transaction_cache`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Refactor</span>
+            </td>
+            <td>
+                Signed-off-by: Shanin Roman <shanin1000@yandex.ru>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+
+Remove `Option` in `transaction_cache`.
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Issue
+
+Closes #3022.
+
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+
+- Do not repeat code
+- More convenient interface to work with 
+
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+
+None.
+
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-16 07:14:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3014" class=".btn">#3014</a>
             </td>
             <td>
@@ -80,227 +495,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2022-12-15 06:54:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3012" class=".btn">#3012</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #3008: Add niche value into `Hash`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span><span class="chip">Refactor</span>
-            </td>
-            <td>
-                Signed-off-by: Shanin Roman <shanin1000@yandex.ru>
-
-<!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-In order to achieve niche value optimization least significant bit of hash set to be always 1.  
-
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-### Issue
-
-Closes #3008.
-
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-Don't use all zero hash as null value, instead use `Option<Hash>` without loses in size. 
-
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks
-
-- Unsafe code
-- Least significant bit of hash is always 1, which can cause compatibility issues with `blake2b` hashing algorithm. 
-- Can't implement `Display` for `Option<Hash>`
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-14 13:36:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3007" class=".btn">#3007</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #2999: Accumulate block signatures
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                <!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-All signatures received through `BlockSigned` are stored waiting for voting block.
-After voting block received through `BlockCreated` accumulated signatures are verified against this block.  
-
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-### Issue
-
-Closes #2999
-
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-- Handle case when `BlockSigned` recieved before `BlockCreated` correctly.
-- Do not repeat work of signature verification on every cycle. 
-
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks
-
-None.
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-09 16:27:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3004" class=".btn">#3004</a>
-            </td>
-            <td>
-                <b>
-                    [refactor] #2675: Validate item names/ids without allocating Vec
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Wenfeng Sui suiwenfeng@qq.com
-
-<!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
-<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
-
-### Issue
-
-<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
-More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
-
-<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
-
-### Benefits
-
-<!-- What benefits will be realized by the code change? -->
-
-### Possible Drawbacks
-
-<!-- What are the possible side-effects or negative impacts of the code change? -->
-<!-- If no drawbacks, explicitly mention this (write None) -->
-
-### Usage Examples or Tests *[optional]*
-
-<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
-
-### Alternate Designs *[optional]*
-
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-<!--
-NOTE: User may want skip pull request and push workflows with [skip ci]
-https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-09 08:47:16 +0000 UTC
     </div>
 </div>
 
