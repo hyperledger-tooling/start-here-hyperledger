@@ -15,29 +15,29 @@ permalink: /releases/hyperledger/aries-framework-javascript
         <tr>
             <td colspan="2">
                 <b>
-                    v0.2.5
+                    v0.3.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.2.5
+                    v0.3.0
                 </span>
             </td>
             <td>
-                Release v0.2.5
+                Release v0.3.0
 
 You can find the changelog in the [CHANGELOG.md](https://github.com/hyperledger/aries-framework-javascript/blob/main/CHANGELOG.md) file.
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-framework-javascript/releases/tag/v0.2.5" class=".btn">
+    <a href="https://github.com/hyperledger/aries-framework-javascript/releases/tag/v0.3.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-10-13 14:35:32 +0000 UTC
+        Created At 2022-12-22 14:19:35 +0000 UTC
     </span>
 </div>
 
