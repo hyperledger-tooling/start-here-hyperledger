@@ -506,31 +506,3 @@ This removes the external static link option from release builds
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3859" class=".btn">#3859</a>
-            </td>
-            <td>
-                <b>
-                    Security vulnerability scanning using govulncheck
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add a makefile target for vulnerability scanning, which can later be used for scheduled vulnerability scans.
-
-Contributes to #3860
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-15 11:38:54 +0000 UTC
-    </div>
-</div>
-
