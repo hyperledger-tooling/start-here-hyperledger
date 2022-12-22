@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4859" class=".btn">#4859</a>
+            </td>
+            <td>
+                <b>
+                    EOF updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                EOF changes tracking Breakout room #4 changes.
+Also, add more test coverage.
+
+Signed-off-by: Danno Ferrin <danno.ferrin@swirldslabs.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-22 08:07:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4858" class=".btn">#4858</a>
             </td>
             <td>
@@ -722,37 +769,6 @@ fixes #4830
     </table>
     <div class="right-align">
         Created At 2022-12-16 02:22:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4828" class=".btn">#4828</a>
-            </td>
-            <td>
-                <b>
-                    Allow -Pdocker-platform during distDocker
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As an example of an use case - this should make it easier to build linux/amd64 images on M1.
-
-Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-15 10:41:16 +0000 UTC
     </div>
 </div>
 

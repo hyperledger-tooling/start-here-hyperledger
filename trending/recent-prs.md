@@ -1,13 +1,13 @@
 
-[138](https://github.com/hyperledger/iroha-javascript/pull/138) [docs]: update docs recipes
+[3035](https://github.com/hyperledger/iroha/pull/3035) [fix] #2978: Queue remove transactions correctly 
 
-[4858](https://github.com/hyperledger/besu/pull/4858) Move EVM operation Tests
+[298](https://github.com/hyperledger/iroha-java/pull/298) burn other user asset test
 
-[4855](https://github.com/hyperledger/besu/pull/4855) rollback dco on push
+[1111](https://github.com/hyperledger/solang/pull/1111) Increase timeout on Solana integration tests
 
-[3033](https://github.com/hyperledger/iroha/pull/3033) [WIP] Add lockfile support for Kura
+[3034](https://github.com/hyperledger/iroha/pull/3034) [documentation] #2579: mention Iroha 2 in Iroha docs
 
-[3032](https://github.com/hyperledger/iroha/pull/3032) [test] #2506: Add more tests on block validation
+[4859](https://github.com/hyperledger/besu/pull/4859) EOF updates
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

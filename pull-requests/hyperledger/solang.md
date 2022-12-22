@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1111" class=".btn">#1111</a>
+            </td>
+            <td>
+                <b>
+                    Increase timeout on Solana integration tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                These regularly fail with timeouts, maybe this will work.
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-22 09:27:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1110" class=".btn">#1110</a>
             </td>
             <td>

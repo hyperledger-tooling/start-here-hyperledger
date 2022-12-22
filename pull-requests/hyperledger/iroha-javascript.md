@@ -44,7 +44,7 @@ permalink: /pull-requests/hyperledger/iroha-javascript
             </td>
             <td>
                 <b>
-                    Duty/21-12-22: Move jake checks stage
+                    Duty/21-12-22: Make jake checks stage optional
                 </b>
             </td>
         </tr>
