@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3037" class=".btn">#3037</a>
+            </td>
+            <td>
+                <b>
+                    [CI]: move to nightly-only CI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                Signed-off-by: Aleksandr Petrosyan <a-p-petrosyan@yandex.ru>
+
+### Description of the Change
+
+Update all of the workflows to use `nightly-2022-12-22`
+
+### Issue
+
+None
+
+### Benefits
+
+Simplified process
+
+### Possible Drawbacks
+
+None
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-23 12:35:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3035" class=".btn">#3035</a>
             </td>
             <td>

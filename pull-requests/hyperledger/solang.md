@@ -14,11 +14,69 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1114" class=".btn">#1114</a>
+            </td>
+            <td>
+                <b>
+                    The type of a storage offset should be that of the target's storage pointer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When calculating the storage offset for a struct, the type of the corresponding addition should not be the struct member type, but instead the type of a storage offset.
+
+This fixes https://github.com/xermicus/fuzzy-sol/issues/115 and https://github.com/xermicus/fuzzy-sol/issues/111
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-23 17:00:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1113" class=".btn">#1113</a>
+            </td>
+            <td>
+                <b>
+                    `Expression::CheckingTrunc` should be recursed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes https://github.com/xermicus/fuzzy-sol/issues/143.
+
+I have found two problems:
+1. `Expression::CheckingTrunc` should be part of `impl recurse for Expression`. 
+2. `impl recurse for CallArgs` should recurse the expression instead of calling the function.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-23 14:03:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1112" class=".btn">#1112</a>
             </td>
             <td>
                 <b>
-                    WIP
+                    Fix storage array deref bug
                 </b>
             </td>
         </tr>
@@ -244,32 +302,6 @@ The final json file is not generated when we compile a Solidity contract to avoi
     </table>
     <div class="right-align">
         Created At 2022-12-16 21:11:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1103" class=".btn">#1103</a>
-            </td>
-            <td>
-                <b>
-                    Ensure no data is returned when a function has no return values
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">solana</span>
-            </td>
-            <td>
-                Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-16 15:47:40 +0000 UTC
     </div>
 </div>
 
