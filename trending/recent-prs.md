@@ -1,13 +1,13 @@
 
-[2058](https://github.com/hyperledger/aries-cloudagent-python/pull/2058) ci: add gha for pr-tests
+[2060](https://github.com/hyperledger/aries-cloudagent-python/pull/2060) Do not reject OOB invitation with unknown handshake protocol(s)
 
-[4860](https://github.com/hyperledger/besu/pull/4860) KZG point eval precompile
+[389](https://github.com/hyperledger-labs/private-data-objects/pull/389) Upgrade wawaka to WAMR-1.1.2 release
 
-[118](https://github.com/hyperledger/indy-test-automation/pull/118) Configure indy-test-automation GHAs as callable and reusable workflows
+[3457](https://github.com/hyperledger/aries-framework-go/pull/3457) chore: expose didsignjwt.ResolveSigningVM as a helper API
 
-[3035](https://github.com/hyperledger/iroha/pull/3035) [fix] #2963: Queue remove transactions correctly 
+[2059](https://github.com/hyperledger/aries-cloudagent-python/pull/2059) ci: test additional versions of python nightly
 
-[298](https://github.com/hyperledger/iroha-java/pull/298) burn other user asset test
+[3456](https://github.com/hyperledger/aries-framework-go/pull/3456) wip: Add SD-JWT Verifier (Flat)
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

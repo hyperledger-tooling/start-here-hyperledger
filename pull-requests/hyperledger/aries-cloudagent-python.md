@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2060" class=".btn">#2060</a>
+            </td>
+            <td>
+                <b>
+                    Do not reject OOB invitation with unknown handshake protocol(s)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-22 23:01:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2059" class=".btn">#2059</a>
+            </td>
+            <td>
+                <b>
+                    ci: test additional versions of python nightly
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This will help unblock efforts to move off of python 3.6.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-22 20:54:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2058" class=".btn">#2058</a>
             </td>
             <td>
@@ -55,7 +107,17 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
             <td>
                 Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
 
-WIP - additional tests for multi-credential proofs with a mix of revocable and non-revocable credentials
+Additional tests for multi-credential proofs with a mix of revocable and non-revocable credentials
+
+These tests pass:
+- @T003-RFC0454.1 - two credentials, one revocable one not, neither revoked, "non_revoked" is requested at the attribute level
+- @T003-RFC0454.2 - two credentials, one revocable one not, one revoked, proof checks for revocation (attribute level) and fails
+- @T003-RFC0454.3 - two credentials, one revocable one not, one revoked, proof *doesn't* check for revocation (attribute level) and passes
+
+This test "fails" - the proof doesn't verify even though it should:
+- @T003-RFC0454.1f - two credentials, one revocable one not, neither revoked, "non_revoked" is requested at the*request* level
+
+For the failing scenario, it fails with indy-sdk and credx.  I believe  the underlying library is not creating the proof properly, and/or the underlying anoncreds itself has a bug.
 
             </td>
         </tr>
