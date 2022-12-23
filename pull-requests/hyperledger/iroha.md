@@ -134,7 +134,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             </td>
             <td>
                 <b>
-                    [WIP] Add lockfile support for Kura
+                    [feature] #3027: implement lockfile for Kura
                 </b>
             </td>
         </tr>
@@ -143,11 +143,9 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
                 <span class="chip">iroha2</span>
             </td>
             <td>
-                ## **Tests failing, WIP, do not approve/merge.**
+                ### Description of the Change
 
-### Description of the Change
-
-WIP
+Introduced a lockfile mechanism to Kura to prevent running multiple writing instances over one store.
 
 ### Issue
 
