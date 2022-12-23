@@ -1,13 +1,13 @@
 
-[321](https://github.com/hyperledger-labs/blockchain-explorer/pull/321) Bump jsonwebtoken from 8.5.1 to 9.0.0
+[1112](https://github.com/hyperledger/solang/pull/1112) WIP
 
-[16](https://github.com/hyperledger/aries-framework-swift/pull/16) feature: Support invitation short url
+[2242](https://github.com/hyperledger/cactus/pull/2242) fix(security): vulnerabilities found in cactus-example-supply-chain-app
 
-[2060](https://github.com/hyperledger/aries-cloudagent-python/pull/2060) Do not reject OOB invitation with unknown handshake protocol(s)
+[2241](https://github.com/hyperledger/cactus/pull/2241) fix(security): vulnerabilities found in cactus-connector-besu
 
-[389](https://github.com/hyperledger-labs/private-data-objects/pull/389) Upgrade wawaka to WAMR-1.1.2 release
+[2240](https://github.com/hyperledger/cactus/pull/2240) fix(security): vulnerabilities found in quorum-all-in-one
 
-[3457](https://github.com/hyperledger/aries-framework-go/pull/3457) chore: expose didsignjwt.ResolveSigningVM as a helper API
+[2239](https://github.com/hyperledger/cactus/pull/2239) fix(security): vulnerabilities found in quorum-multi-party-all-in-one
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

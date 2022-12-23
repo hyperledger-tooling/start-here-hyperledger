@@ -58,29 +58,3 @@ This would configure FireFly to pass a header named `X-SuperCoolCustomHeader` th
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1120" class=".btn">#1120</a>
-            </td>
-            <td>
-                <b>
-                    Update example script
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Chengxuan Xing <chengxuan.xing@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-16 07:00:14 +0000 UTC
-    </div>
-</div>
-
