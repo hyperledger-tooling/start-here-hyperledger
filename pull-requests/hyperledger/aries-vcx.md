@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/708" class=".btn">#708</a>
+            </td>
+            <td>
+                <b>
+                    Draft: CredxAnoncreds verifier functionality support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #699 Implements credx verifier method and tests
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-23 12:52:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/705" class=".btn">#705</a>
             </td>
             <td>
@@ -182,34 +208,6 @@ Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
     </table>
     <div class="right-align">
         Created At 2022-12-19 08:04:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/695" class=".btn">#695</a>
-            </td>
-            <td>
-                <b>
-                    Replace rust-base58 by bs58
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Address https://github.com/hyperledger/aries-vcx/issues/694
-
-Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-16 17:10:45 +0000 UTC
     </div>
 </div>
 

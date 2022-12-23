@@ -1,13 +1,13 @@
 
-[1112](https://github.com/hyperledger/solang/pull/1112) WIP
+[1114](https://github.com/hyperledger/solang/pull/1114) The type of a storage offset should be that of the target's storage pointer
 
-[2242](https://github.com/hyperledger/cactus/pull/2242) fix(security): vulnerabilities found in cactus-example-supply-chain-app
+[4862](https://github.com/hyperledger/besu/pull/4862) Bugfix potential chain head and worldstate inconsistency
 
-[2241](https://github.com/hyperledger/cactus/pull/2241) fix(security): vulnerabilities found in cactus-connector-besu
+[1113](https://github.com/hyperledger/solang/pull/1113) `Expression::CheckingTrunc` should be recursed
 
-[2240](https://github.com/hyperledger/cactus/pull/2240) fix(security): vulnerabilities found in quorum-all-in-one
+[708](https://github.com/hyperledger/aries-vcx/pull/708) Draft: CredxAnoncreds verifier functionality support
 
-[2239](https://github.com/hyperledger/cactus/pull/2239) fix(security): vulnerabilities found in quorum-multi-party-all-in-one
+[3037](https://github.com/hyperledger/iroha/pull/3037) [CI]: move to nightly-only CI
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

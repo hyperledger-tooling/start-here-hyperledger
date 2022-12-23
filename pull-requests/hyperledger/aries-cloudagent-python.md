@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                <nil>
+                Also cleans up some field validation code, and fixes a unit test that wasn't testing the right thing (service entry validation).
             </td>
         </tr>
     </table>

@@ -223,36 +223,3 @@ Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3446" class=".btn">#3446</a>
-            </td>
-            <td>
-                <b>
-                    chore: DID Config Client is not passing options to DID Config API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                DID Config Client is not passing options to DID Config API 
-Current unit tests are using did:key so add unit test with did resolver option
-
-Closes #3445
-
-Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-16 18:00:30 +0000 UTC
-    </div>
-</div>
-
