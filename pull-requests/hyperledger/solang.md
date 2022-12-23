@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1112" class=".btn">#1112</a>
+            </td>
+            <td>
+                <b>
+                    WIP
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Cyrill Leutwiler <bigcyrill@hotmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-23 11:46:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1111" class=".btn">#1111</a>
             </td>
             <td>
@@ -244,32 +270,6 @@ The final json file is not generated when we compile a Solidity contract to avoi
     </table>
     <div class="right-align">
         Created At 2022-12-16 15:47:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1102" class=".btn">#1102</a>
-            </td>
-            <td>
-                <b>
-                    Fix rust 1.66 clippy warnings and run crate doc tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-16 09:45:24 +0000 UTC
     </div>
 </div>
 
