@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1115" class=".btn">#1115</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1122" class=".btn">#1122</a>
             </td>
             <td>
                 <b>
-                    Fix typo in erc1155.md
+                    Add support for passing custom HTTP headers through
                 </b>
             </td>
         </tr>
@@ -27,14 +27,34 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                Fix typo in the erc155 tutorial init command. `ff init -t erc-1155` to `ff init -t erc1155`
+                Depends on https://github.com/hyperledger/firefly-common/pull/41
 
-Signed-off-by: Ander Dorado <71599694+ander-db@users.noreply.github.com>
+Adds support for setting a list of HTTP headers to put on the request Context. If an FFResty client is _also_ to pass headers through, it will set all the same headers on any request that it makes.
+
+Example config:
+
+```yaml
+api:
+  address: 0.0.0.0
+  port: 5000
+  publicURL: http://127.0.0.1:5000
+  passthroughHeaders:
+    - X-SuperCoolCustomHeader
+plugins:
+  blockchain:
+    - ethereum:
+        ethconnect:
+          url: http://127.0.0.1:5102
+          passthroughHeadersEnabled: true
+```
+
+This would configure FireFly to pass a header named `X-SuperCoolCustomHeader` through from an HTTP request all the way to the Ethereum blockchain connector.
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-11 12:56:52 +0000 UTC
+        Created At 2022-12-19 21:11:33 +0000 UTC
     </div>
 </div>
 
@@ -42,11 +62,11 @@ Signed-off-by: Ander Dorado <71599694+ander-db@users.noreply.github.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1114" class=".btn">#1114</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1120" class=".btn">#1120</a>
             </td>
             <td>
                 <b>
-                    xdc + zksync
+                    Update example script
                 </b>
             </td>
         </tr>
@@ -55,60 +75,12 @@ Signed-off-by: Ander Dorado <71599694+ander-db@users.noreply.github.com>
                 
             </td>
             <td>
-                add xdc + zkSync tutorials
+                Signed-off-by: Chengxuan Xing <chengxuan.xing@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-08 21:06:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1113" class=".btn">#1113</a>
-            </td>
-            <td>
-                <b>
-                    Dynamic configuration reload
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Summary
-
-This PR implements file-listener based dynamic configuration reload for FireFly Core.
-
-- Allows listening for changes to a config file in a Kubernetes `configmap` or `secret`
-- Performs analysis on the configuration to determine what `namespaces` and `plugins` have changed
-  - Note: Does not currently support reloading API server configuration
-- Does not affect any namespaces that are unaffected by changes
-- Restarts all namespaces affected by plugin changes, or direct configuration changes
-- Adds namespaces that did not previously exist
-- Removes namespaces that have been removed
-
-> Depends on https://github.com/hyperledger/firefly-common/pull/40 making it into a release before this can be merged
-
-## Implementation detail
-
-The `namespace.Manager` code has been refactored with the following significant changes:
-- The initialization code has been decomposed into blocks that can be re-run during config reload
-- A strong separation is created between configuration load+validation, and runtime initialization
-- The individual maps of `namespaceManager.plugins` and `namespaceManager.pluginNames` has been replaced with a single map of `plugins` - which depending on the `category` will have a link to the specific plugin type
-- A new dynamic configuration reload function is connected to a file listener, which tries to be self-explanatory as follows:
-https://github.com/hyperledger/firefly/blob/1ffb555be43a788d40c624c29d421a6f0f931bc4/internal/namespace/configreload.go#L63-L124
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-08 06:19:29 +0000 UTC
+        Created At 2022-12-16 07:00:14 +0000 UTC
     </div>
 </div>
 
