@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/40" class=".btn">#40</a>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/41" class=".btn">#41</a>
             </td>
             <td>
                 <b>
-                    Retain file used for config through a reset, and extend viper config listener
+                    Add support for passing custom HTTP headers through
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/firefly-common
                 
             </td>
             <td>
-                Needed for https://github.com/hyperledger/firefly/pull/1113
+                This PR adds support for two new features that can be used in FireFly core and other microservices.
+
+- A header named `X-FireFlyRequestID` can be set on HTTP requests and the service will use that as the internal request ID, rather than a generated short ID. The request ID is now also propagated to other FFResty client requests so it can be used as a trace ID through several services.
+- Support for passing custom HTTP request headers through. A set of header names can be provided in the `ffapi.HandlerFactory` called `PassthroughHeaders`. In FireFly core, these are specified under the `api` config section. These headers will be put onto the request context.
+- If an FFResty client is configured with `passthroughHeadersEnabled: true` in its config section, it will set any headers that have been packed into the context on the new request that it builds
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-09 16:46:13 +0000 UTC
+        Created At 2022-12-19 21:03:15 +0000 UTC
     </div>
 </div>
 

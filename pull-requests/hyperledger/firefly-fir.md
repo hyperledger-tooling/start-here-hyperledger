@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-fir
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-fir/pull/13" class=".btn">#13</a>
+                PR <a href="https://github.com/hyperledger/firefly-fir/pull/16" class=".btn">#16</a>
             </td>
             <td>
                 <b>
-                    Custom NFT URI's
+                    Token Contracts
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-fir
                 
             </td>
             <td>
-                Proposal for allowing custom URI's for non-fungible tokens
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-06-21 19:23:09 +0000 UTC
+        Created At 2022-12-19 20:15:50 +0000 UTC
     </div>
 </div>
 

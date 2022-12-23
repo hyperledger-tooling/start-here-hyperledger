@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-explorer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/318" class=".btn">#318</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/321" class=".btn">#321</a>
             </td>
             <td>
                 <b>
-                    Bump express from 4.17.2 to 4.18.2 in /client
+                    Bump jsonwebtoken from 8.5.1 to 9.0.0
                 </b>
             </td>
         </tr>
@@ -27,184 +27,53 @@ permalink: /pull-requests/hyperledger-labs/blockchain-explorer
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [express](https://github.com/expressjs/express) from 4.17.2 to 4.18.2.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/expressjs/express/releases">express's releases</a>.</em></p>
-<blockquote>
-<h2>4.18.2</h2>
-<ul>
-<li>Fix regression routing a large stack in a single route</li>
-<li>deps: body-parser@1.20.1
-<ul>
-<li>deps: qs@6.11.0</li>
-<li>perf: remove unnecessary object clone</li>
-</ul>
-</li>
-<li>deps: qs@6.11.0</li>
-</ul>
-<h2>4.18.1</h2>
-<ul>
-<li>Fix hanging on large stack of sync routes</li>
-</ul>
-<h2>4.18.0</h2>
-<ul>
-<li>Add &quot;root&quot; option to <code>res.download</code></li>
-<li>Allow <code>options</code> without <code>filename</code> in <code>res.download</code></li>
-<li>Deprecate string and non-integer arguments to <code>res.status</code></li>
-<li>Fix behavior of <code>null</code>/<code>undefined</code> as <code>maxAge</code> in <code>res.cookie</code></li>
-<li>Fix handling very large stacks of sync middleware</li>
-<li>Ignore <code>Object.prototype</code> values in settings through <code>app.set</code>/<code>app.get</code></li>
-<li>Invoke <code>default</code> with same arguments as types in <code>res.format</code></li>
-<li>Support proper 205 responses using <code>res.send</code></li>
-<li>Use <code>http-errors</code> for <code>res.format</code> error</li>
-<li>deps: body-parser@1.20.0
-<ul>
-<li>Fix error message for json parse whitespace in <code>strict</code></li>
-<li>Fix internal error when inflated body exceeds limit</li>
-<li>Prevent loss of async hooks context</li>
-<li>Prevent hanging when request already read</li>
-<li>deps: depd@2.0.0</li>
-<li>deps: http-errors@2.0.0</li>
-<li>deps: on-finished@2.4.1</li>
-<li>deps: qs@6.10.3</li>
-<li>deps: raw-body@2.5.1</li>
-</ul>
-</li>
-<li>deps: cookie@0.5.0
-<ul>
-<li>Add <code>priority</code> option</li>
-<li>Fix <code>expires</code> option to reject invalid dates</li>
-</ul>
-</li>
-<li>deps: depd@2.0.0
-<ul>
-<li>Replace internal <code>eval</code> usage with <code>Function</code> constructor</li>
-<li>Use instance methods on <code>process</code> to check for listeners</li>
-</ul>
-</li>
-<li>deps: finalhandler@1.2.0
-<ul>
-<li>Remove set content headers that break response</li>
-<li>deps: on-finished@2.4.1</li>
-<li>deps: statuses@2.0.1</li>
-</ul>
-</li>
-<li>deps: on-finished@2.4.1
-<ul>
-<li>Prevent loss of async hooks context</li>
-</ul>
-</li>
-<li>deps: qs@6.10.3</li>
-<li>deps: send@0.18.0
-<ul>
-<li>Fix emitted 416 error missing headers property</li>
-<li>Limit the headers removed for 304 response</li>
-<li>deps: depd@2.0.0</li>
-<li>deps: destroy@1.2.0</li>
-<li>deps: http-errors@2.0.0</li>
-<li>deps: on-finished@2.4.1</li>
-</ul>
-</li>
-</ul>
-<!-- raw HTML omitted -->
-</blockquote>
-<p>... (truncated)</p>
-</details>
+                Bumps [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) from 8.5.1 to 9.0.0.
 <details>
 <summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/expressjs/express/blob/master/History.md">express's changelog</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/auth0/node-jsonwebtoken/blob/master/CHANGELOG.md">jsonwebtoken's changelog</a>.</em></p>
 <blockquote>
-<h1>4.18.2 / 2022-10-08</h1>
+<h2>9.0.0 - 2022-12-21</h2>
+<p><strong>Breaking changes: See <a href="https://github.com/auth0/node-jsonwebtoken/wiki/Migration-Notes:-v8-to-v9">Migration from v8 to v9</a></strong></p>
+<h3>Breaking changes</h3>
 <ul>
-<li>Fix regression routing a large stack in a single route</li>
-<li>deps: body-parser@1.20.1
+<li>Removed support for Node versions 11 and below.</li>
+<li>The verify() function no longer accepts unsigned tokens by default. ([834503079514b72264fd13023a3b8d648afd6a16]<a href="https://github.com/auth0/node-jsonwebtoken/commit/834503079514b72264fd13023a3b8d648afd6a16">https://github.com/auth0/node-jsonwebtoken/commit/834503079514b72264fd13023a3b8d648afd6a16</a>)</li>
+<li>RSA key size must be 2048 bits or greater. ([ecdf6cc6073ea13a7e71df5fad043550f08d0fa6]<a href="https://github.com/auth0/node-jsonwebtoken/commit/ecdf6cc6073ea13a7e71df5fad043550f08d0fa6">https://github.com/auth0/node-jsonwebtoken/commit/ecdf6cc6073ea13a7e71df5fad043550f08d0fa6</a>)</li>
+<li>Key types must be valid for the signing / verification algorithm</li>
+</ul>
+<h3>Security fixes</h3>
 <ul>
-<li>deps: qs@6.11.0</li>
-<li>perf: remove unnecessary object clone</li>
+<li>security: fixes <code>Arbitrary File Write via verify function</code> - CVE-2022-23529</li>
+<li>security: fixes <code>Insecure default algorithm in jwt.verify() could lead to signature validation bypass</code> - CVE-2022-23540</li>
+<li>security: fixes <code>Insecure implementation of key retrieval function could lead to Forgeable Public/Private Tokens from RSA to HMAC</code> - CVE-2022-23541</li>
+<li>security: fixes <code>Unrestricted key type could lead to legacy keys usage</code> - CVE-2022-23539</li>
 </ul>
-</li>
-<li>deps: qs@6.11.0</li>
-</ul>
-<h1>4.18.1 / 2022-04-29</h1>
-<ul>
-<li>Fix hanging on large stack of sync routes</li>
-</ul>
-<h1>4.18.0 / 2022-04-25</h1>
-<ul>
-<li>Add &quot;root&quot; option to <code>res.download</code></li>
-<li>Allow <code>options</code> without <code>filename</code> in <code>res.download</code></li>
-<li>Deprecate string and non-integer arguments to <code>res.status</code></li>
-<li>Fix behavior of <code>null</code>/<code>undefined</code> as <code>maxAge</code> in <code>res.cookie</code></li>
-<li>Fix handling very large stacks of sync middleware</li>
-<li>Ignore <code>Object.prototype</code> values in settings through <code>app.set</code>/<code>app.get</code></li>
-<li>Invoke <code>default</code> with same arguments as types in <code>res.format</code></li>
-<li>Support proper 205 responses using <code>res.send</code></li>
-<li>Use <code>http-errors</code> for <code>res.format</code> error</li>
-<li>deps: body-parser@1.20.0
-<ul>
-<li>Fix error message for json parse whitespace in <code>strict</code></li>
-<li>Fix internal error when inflated body exceeds limit</li>
-<li>Prevent loss of async hooks context</li>
-<li>Prevent hanging when request already read</li>
-<li>deps: depd@2.0.0</li>
-<li>deps: http-errors@2.0.0</li>
-<li>deps: on-finished@2.4.1</li>
-<li>deps: qs@6.10.3</li>
-<li>deps: raw-body@2.5.1</li>
-</ul>
-</li>
-<li>deps: cookie@0.5.0
-<ul>
-<li>Add <code>priority</code> option</li>
-<li>Fix <code>expires</code> option to reject invalid dates</li>
-</ul>
-</li>
-<li>deps: depd@2.0.0
-<ul>
-<li>Replace internal <code>eval</code> usage with <code>Function</code> constructor</li>
-<li>Use instance methods on <code>process</code> to check for listeners</li>
-</ul>
-</li>
-<li>deps: finalhandler@1.2.0
-<ul>
-<li>Remove set content headers that break response</li>
-<li>deps: on-finished@2.4.1</li>
-<li>deps: statuses@2.0.1</li>
-</ul>
-</li>
-<li>deps: on-finished@2.4.1
-<ul>
-<li>Prevent loss of async hooks context</li>
-</ul>
-</li>
-<li>deps: qs@6.10.3</li>
-<li>deps: send@0.18.0</li>
-</ul>
-<!-- raw HTML omitted -->
 </blockquote>
-<p>... (truncated)</p>
 </details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/expressjs/express/commit/8368dc178af16b91b576c4c1d135f701a0007e5d"><code>8368dc1</code></a> 4.18.2</li>
-<li><a href="https://github.com/expressjs/express/commit/61f40491222dbede653b9938e6a4676f187aab44"><code>61f4049</code></a> docs: replace Freenode with Libera Chat</li>
-<li><a href="https://github.com/expressjs/express/commit/bb7907b932afe3a19236a642f6054b6c8f7349a0"><code>bb7907b</code></a> build: Node.js@18.10</li>
-<li><a href="https://github.com/expressjs/express/commit/f56ce73186e885a938bfdb3d3d1005a58e6ae12b"><code>f56ce73</code></a> build: supertest@6.3.0</li>
-<li><a href="https://github.com/expressjs/express/commit/24b3dc551670ac4fb0cd5a2bd5ef643c9525e60f"><code>24b3dc5</code></a> deps: qs@6.11.0</li>
-<li><a href="https://github.com/expressjs/express/commit/689d175b8b39d8860b81d723233fb83d15201827"><code>689d175</code></a> deps: body-parser@1.20.1</li>
-<li><a href="https://github.com/expressjs/express/commit/340be0f79afb9b3176afb76235aa7f92acbd5050"><code>340be0f</code></a> build: eslint@8.24.0</li>
-<li><a href="https://github.com/expressjs/express/commit/33e8dc303af9277f8a7e4f46abfdcb5e72f6797b"><code>33e8dc3</code></a> docs: use Node.js name style</li>
-<li><a href="https://github.com/expressjs/express/commit/644f6464b9f61cbafa8f880636b1aa5237d95bad"><code>644f646</code></a> build: supertest@6.2.4</li>
-<li><a href="https://github.com/expressjs/express/commit/ecd7572f1e920b7a512452b8d9806ae617a99c54"><code>ecd7572</code></a> build: Node.js@14.20</li>
-<li>Additional commits viewable in <a href="https://github.com/expressjs/express/compare/4.17.2...4.18.2">compare view</a></li>
+<li><a href="https://github.com/auth0/node-jsonwebtoken/commit/e1fa9dcc12054a8681db4e6373da1b30cf7016e3"><code>e1fa9dc</code></a> Merge pull request from GHSA-8cf7-32gw-wr33</li>
+<li><a href="https://github.com/auth0/node-jsonwebtoken/commit/5eaedbf2b01676d952336e73b4d2efba847d2d1b"><code>5eaedbf</code></a> chore(ci): remove github test actions job (<a href="https://github-redirect.dependabot.com/auth0/node-jsonwebtoken/issues/861">#861</a>)</li>
+<li><a href="https://github.com/auth0/node-jsonwebtoken/commit/cd4163eb1407aab0b3148f91b0b9c26276b96c6b"><code>cd4163e</code></a> chore(ci): configure Github Actions jobs for Tests &amp; Security Scanning (<a href="https://github-redirect.dependabot.com/auth0/node-jsonwebtoken/issues/856">#856</a>)</li>
+<li><a href="https://github.com/auth0/node-jsonwebtoken/commit/ecdf6cc6073ea13a7e71df5fad043550f08d0fa6"><code>ecdf6cc</code></a> fix!: Prevent accidental use of insecure key sizes &amp; misconfiguration of secr...</li>
+<li><a href="https://github.com/auth0/node-jsonwebtoken/commit/834503079514b72264fd13023a3b8d648afd6a16"><code>8345030</code></a> fix(sign&amp;verify)!: Remove default <code>none</code> support from <code>sign</code> and <code>verify</code> met...</li>
+<li><a href="https://github.com/auth0/node-jsonwebtoken/commit/7e6a86b1c25e5fd05733c52c118848341aba1c4e"><code>7e6a86b</code></a> Upload OpsLevel YAML (<a href="https://github-redirect.dependabot.com/auth0/node-jsonwebtoken/issues/849">#849</a>)</li>
+<li><a href="https://github.com/auth0/node-jsonwebtoken/commit/74d5719bd03993fcf71e3b176621f133eb6138c0"><code>74d5719</code></a> docs: update references vercel/ms references (<a href="https://github-redirect.dependabot.com/auth0/node-jsonwebtoken/issues/770">#770</a>)</li>
+<li><a href="https://github.com/auth0/node-jsonwebtoken/commit/d71e383862fc735991fd2e759181480f066bf138"><code>d71e383</code></a> docs: document &quot;invalid token&quot; error</li>
+<li><a href="https://github.com/auth0/node-jsonwebtoken/commit/37650031fd0bac1a5b0d682bbfcf8c1705917aa9"><code>3765003</code></a> docs: fix spelling in README.md: Peak -&gt; Peek (<a href="https://github-redirect.dependabot.com/auth0/node-jsonwebtoken/issues/754">#754</a>)</li>
+<li><a href="https://github.com/auth0/node-jsonwebtoken/commit/a46097e962621ab2ba718d1da6025cdeba3597c8"><code>a46097e</code></a> docs: make decode impossible to discover before verify</li>
+<li>Additional commits viewable in <a href="https://github.com/auth0/node-jsonwebtoken/compare/v8.5.1...v9.0.0">compare view</a></li>
 </ul>
+</details>
+<details>
+<summary>Maintainer changes</summary>
+<p>This version was pushed to npm by <a href="https://www.npmjs.com/~julien.wollscheid">julien.wollscheid</a>, a new releaser for jsonwebtoken since your current version.</p>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=express&package-manager=npm_and_yarn&previous-version=4.17.2&new-version=4.18.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=jsonwebtoken&package-manager=npm_and_yarn&previous-version=8.5.1&new-version=9.0.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -240,7 +109,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-15 22:35:30 +0000 UTC
+        Created At 2022-12-23 03:58:36 +0000 UTC
     </div>
 </div>
 

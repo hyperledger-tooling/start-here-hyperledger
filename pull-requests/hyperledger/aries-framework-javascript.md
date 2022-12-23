@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1157" class=".btn">#1157</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1182" class=".btn">#1182</a>
             </td>
             <td>
                 <b>
-                    fix: credential values encoding
+                    feat: adding trust ping events and trust ping command
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                Signed-off-by: Łukasz Przytuła <lprzytula@gmail.com>
-
-String values containing round decimal numbers (for example `1.0`, `6.0`) were encoded as a number (into `1` and `6` respectively) instead of properly hashing the string value, which causes issues with accepting credentials containing such values, issued by aca-py.
+                Signed-off-by: Kim Ebert <kim@indicio.tech>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-13 14:59:02 +0000 UTC
+        Created At 2022-12-22 21:17:54 +0000 UTC
     </div>
 </div>
 
@@ -42,11 +40,11 @@ String values containing round decimal numbers (for example `1.0`, `6.0`) were e
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1156" class=".btn">#1156</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1180" class=".btn">#1180</a>
             </td>
             <td>
                 <b>
-                    feat(oob): receive Invitation with timeout
+                    refactor(wallet)!: remove wallet.createDid method
                 </b>
             </td>
         </tr>
@@ -55,12 +53,22 @@ String values containing round decimal numbers (for example `1.0`, `6.0`) were e
                 
             </td>
             <td>
-                Signed-off-by: Pritam Singh <pkspritam16@gmail.com>
+                Removes the `wallet.createDid()` method from the agent. The did registrar module should be used instead to create indy dids. 
+
+The agent.publicDid is kept in for now as it is needed by the ledger module, and we need it to add the endorser did to the agent. Intend to add a feature soon to add an existing did to the agent (for endorsement)
+
+Also adds `@deprecated` tags to all wallet / agent public did functionality that is left to indicate these are deprecated and will be removed once we have replaced the ledger module (which will be when the new anoncreds module is ready). 
+
+I think this is a big step in making AFJ not Indy focused.
+
+There's some gaps in the dids module we need to resolve before it can be fully replaced, mainly:
+- Migrate public dids created with the wallet to did records (can be done using a migration script I think)
+- Allow to store a created did without necesarily writing it to the ledger. This is the case with endorser dids, where I add the did based on a seed, and the did is already registered on the ledger. I think a method like `storeCreatedDid` where you pass the did, it will resolve it to get the did document with recipientKeys and you'll then be able to use it.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-13 07:55:32 +0000 UTC
+        Created At 2022-12-21 04:04:54 +0000 UTC
     </div>
 </div>
 
@@ -68,11 +76,11 @@ String values containing round decimal numbers (for example `1.0`, `6.0`) were e
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1153" class=".btn">#1153</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1178" class=".btn">#1178</a>
             </td>
             <td>
                 <b>
-                    refactor(proofs): remove proofrequest property
+                    refactor: jsonld credential format improvements
                 </b>
             </td>
         </tr>
@@ -81,12 +89,17 @@ String values containing round decimal numbers (for example `1.0`, `6.0`) were e
                 
             </td>
             <td>
-                resolves #1114 
+                Some small improvements to the jsonld credential format services of things I discovered when using the service. It mostly includes:
+- check the whole credential instead of the credentialSubject against the request
+- check the created property against the proof (if it was defined)
+- do not require a class as input for the credential detail options in the credentials api
+- fix incorrect interfaces
+- remove redundant checks 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-12 09:29:47 +0000 UTC
+        Created At 2022-12-20 08:29:26 +0000 UTC
     </div>
 </div>
 
@@ -94,11 +107,11 @@ String values containing round decimal numbers (for example `1.0`, `6.0`) were e
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1151" class=".btn">#1151</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1177" class=".btn">#1177</a>
             </td>
             <td>
                 <b>
-                    fix: expose OutOfBandEvents
+                    chore(migrations)!: connections 0.3.0 migration script and tests
                 </b>
             </td>
         </tr>
@@ -107,14 +120,21 @@ String values containing round decimal numbers (for example `1.0`, `6.0`) were e
                 
             </td>
             <td>
-                Signed-off-by: Moriarty <moritz@animo.id>
+                This PR introduces changes to how connection types are handled in connection records:
+- Connection types were previously stored in tags under the `connectionType` label. Connection types are now directly part of the record.
+- Methods to add, update and remove types in the connection service now apply directly to the record instead of tags.
+- The `connectionType` property is now pluralized to `connectionTypes` to reflect the fact that the property accepts an `Array` of connection types.
+- Methods in the connection API and service have also been pluralized accordingly.
+- Relevant tests have been updated to reflect changes to the connection record, API and service and have been added for the connection migration script from AFJ 0.2 to 0.3.
 
-closes #1150 
+## Related Issues
+
+#1155 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-10 14:25:10 +0000 UTC
+        Created At 2022-12-19 14:50:13 +0000 UTC
     </div>
 </div>
 
@@ -122,11 +142,11 @@ closes #1150
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1149" class=".btn">#1149</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1175" class=".btn">#1175</a>
             </td>
             <td>
                 <b>
-                    feat!: use did:key in protocols by default
+                    refactor(dids): use class instances in module config
                 </b>
             </td>
         </tr>
@@ -135,16 +155,14 @@ closes #1150
                 
             </td>
             <td>
-                As discussed some time ago in #497, now we are having a new major release, we use did:key in protocols by default. We'll of course still accept base58-encoded keys if the other party is not yet using did:key.
+                Makes the registration of did resolvers and registrars consistent with how we do it in the credentials module by requiring class instances to be passed.
 
-BREAKING CHANGE:
-`useDidKeyInProtocols` configuration parameter is now enabled by default. If your agent only interacts with modern agents (e.g. AFJ 0.2.5 and newer) this will not represent any issue. Otherwise it is safer to explicitly set it to `false`. However, keep in mind that we expect this setting to be deprecated in the future, so we encourage you to update all your agents to use did:key.
-
+Not really a breaking change as 0.2.0 doesn't allow custom modules yet
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-09 08:12:05 +0000 UTC
+        Created At 2022-12-19 07:11:45 +0000 UTC
     </div>
 </div>
 
@@ -152,11 +170,11 @@ BREAKING CHANGE:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1148" class=".btn">#1148</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1174" class=".btn">#1174</a>
             </td>
             <td>
                 <b>
-                    feat: Corrected peer DIDs resolution (key IDs)
+                    fix(connections): use new did for each connection from reusable invitation
                 </b>
             </td>
         </tr>
@@ -165,22 +183,14 @@ BREAKING CHANGE:
                 
             </td>
             <td>
-                This PR corrected resolution of peer DIDs of method 0 (`did:peer:0`) and method 2 (`did:peer:2`) into DID documents, specifically resulting key IDs.
-For peer DIDs of method 0 and method 2, key fragment IDs are multibase representations of public keys **without** the multibase prefix (i.e. **without** `z` prefix in case of base58 encoding).
+                When manually accepting a connection request (either connection or did-exchange) with a reusable invitation the same keys would be used in each did response. For auto accept routing was correctly configured to create new keys for each connection. This aligns the manual flow with the auto accept flow
 
-This logic is based on:
-- _Example 4_ from https://identity.foundation/peer-did-method-spec/#multi-key-creation
-- examples from https://github.com/sicpa-dlab/peer-did-jvm
-- tests from https://github.com/sicpa-dlab/didcomm-demo/blob/main/didcomm-demo-python/tests/test_did_resolver_peer_did.py and https://github.com/sicpa-dlab/didcomm-demo/blob/main/didcomm-demo-jvm/didcomm-demo/src/test/kotlin/org/didcommx/didcomm/demo/DIDDocResolverPeerDIDTest.kt
-
-At the same time, this PR keeps the existing resolution logic for key DIDs (`did:key`). So for key DIDs, key fragment IDs are multibase representations of public keys including the multibase prefix (as specified at https://w3c-ccg.github.io/did-method-key/)
-
-This PR is based on https://github.com/hyperledger/aries-framework-javascript/pull/1096 which must be merged first.
+Signed-off-by: Timo Glastra <timo@animo.id>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-08 14:13:33 +0000 UTC
+        Created At 2022-12-16 12:12:43 +0000 UTC
     </div>
 </div>
 
@@ -188,11 +198,11 @@ This PR is based on https://github.com/hyperledger/aries-framework-javascript/pu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1147" class=".btn">#1147</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1173" class=".btn">#1173</a>
             </td>
             <td>
                 <b>
-                    fix(routing): add connection type on mediation grant
+                    feat!: allow to connect with self
                 </b>
             </td>
         </tr>
@@ -201,72 +211,14 @@ This PR is based on https://github.com/hyperledger/aries-framework-javascript/pu
                 
             </td>
             <td>
-                Small update to the feature added in #994 to aggregate the connection type when a connection is related to a mediation grant. 
+                This was previously possible in 0.1.0, but broken in 0.2.0. This allows to connect to yourelf using connections protocols and didexchange protocol
 
-Previously, it was setting **only** `ConnectionType.Mediator`, so if the connection was previously tagged with another type, it would be lost.
-
-Also fixes typing for `connectionType` in `ConnectionRecord` in order to be able to properly query for connections matching one or multiple types.
+BREAKING CHANGE: the didRecord.id was previously the did iteself. However to allow for connecting with self, where multiple did records are created for the same did, the id property is now an uuid and a separate did property is added. A migration script has been provided to update all did record's ids
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-08 02:23:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1146" class=".btn">#1146</a>
-            </td>
-            <td>
-                <b>
-                    fix: expose AttachmentData and DiscoverFeaturesEvents
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Expose AttachmentData and Discover Features events... and some minor housekeeping to remove a few lint warnings.
-
-Signed-off-by: Ariel Gentile <gentilester@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-07 21:27:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1143" class=".btn">#1143</a>
-            </td>
-            <td>
-                <b>
-                    feat: remove keys on mediator when deleting connections
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR addresses the case where a mobile agent (or any agent that uses mediator) deletes a connection or OOB record, meaning that the corresponding recipient keys should be removed from its mediator (as per [Aries RFC 0211](https://github.com/hyperledger/aries-rfcs/blob/main/features/0211-route-coordination/README.md)). Otherwise, mediator will still be forwarding messages to the agent that can't (and more importantly _don't want to_) be handled.
-
-This will mean that, when using mediator, in order to delete a connection or out-of-band record, the agent must be online. This is aligned to the opposite case: connection and OOB invitation creation, which also need the agent to be online to be in sync with its mediator.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-07 03:11:32 +0000 UTC
+        Created At 2022-12-16 10:57:02 +0000 UTC
     </div>
 </div>
 
