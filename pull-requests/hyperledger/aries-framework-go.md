@@ -193,33 +193,3 @@ Storing in Endpoint.rawObj not only array from origin property whole serviceEndp
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3447" class=".btn">#3447</a>
-            </td>
-            <td>
-                <b>
-                    refactor: Minimize VDResolver interface needed for did config validate
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Currently, the DID config validate functionality has an option for injecting in a VDR, however most of the methods in the interface are not actually used.
-
-This change switches the option to use a minimal version of that interface that is itself a subset of the full VDR interface. With this change, a caller can now use the VDR option with a more minimal implementation that only has a Resolve method. The minimal interface still lines up with the larger VDR interface, so another caller can still use a full VDR interface implementation without making any changes.
-
-Signed-off-by: Derek Trider <Derek.Trider@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-16 18:51:44 +0000 UTC
-    </div>
-</div>
-

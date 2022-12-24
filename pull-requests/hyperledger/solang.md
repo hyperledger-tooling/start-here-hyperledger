@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1115" class=".btn">#1115</a>
+            </td>
+            <td>
+                <b>
+                    Arrays indexes must be dereferenced when needed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When we index an array, we have a reference to an element of that array. If the result of an indexation is used to index another array, we must dereference it first, because indexes must be integers.
+
+This PR fixes https://github.com/xermicus/fuzzy-sol/issues/132
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-23 18:49:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1114" class=".btn">#1114</a>
             </td>
             <td>
@@ -85,7 +113,7 @@ I have found two problems:
                 
             </td>
             <td>
-                Signed-off-by: Cyrill Leutwiler <bigcyrill@hotmail.com>
+                Changes the function `Type::is_storage_bytes()` to account for fixed size bytes
             </td>
         </tr>
     </table>
@@ -274,34 +302,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2022-12-19 17:18:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1104" class=".btn">#1104</a>
-            </td>
-            <td>
-                <b>
-                    Generate Anchor IDL from Solidity contracts ⚓
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">solana</span>
-            </td>
-            <td>
-                This PR generates Anchor ⚓ IDL files for Solidity contracts. There are unit tests for the functions that construct the `struct IDL`. All Solana runtime tests have been updated to leverage Anchor IDL instead of Ethereum ABI.
-
-The final json file is not generated when we compile a Solidity contract to avoid confusing users with files that are not yet useful for them.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-16 21:11:07 +0000 UTC
     </div>
 </div>
 
