@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/474" class=".btn">#474</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/477" class=".btn">#477</a>
             </td>
             <td>
                 <b>
-                    merkle typo fixing
+                    Encode keys in URLs with base64url raw
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/orion-server
                 
             </td>
             <td>
-                Signed-off-by: May Rosenbaum <mayro1595@gmail.com>
+                Signed-off-by: Yoav Tock <tock@il.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-14 13:24:01 +0000 UTC
+        Created At 2022-12-25 17:08:40 +0000 UTC
     </div>
 </div>
 
