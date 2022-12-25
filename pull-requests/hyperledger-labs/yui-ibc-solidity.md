@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/148" class=".btn">#148</a>
-            </td>
-            <td>
-                <b>
-                    ics-02: Add verifyNonMembership support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                related to #12
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-18 05:17:10 +0000 UTC
-    </div>
-</div>
-
