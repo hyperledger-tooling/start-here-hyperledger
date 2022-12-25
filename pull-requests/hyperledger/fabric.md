@@ -148,29 +148,3 @@ Closes #3027
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3874" class=".btn">#3874</a>
-            </td>
-            <td>
-                <b>
-                    Updates to Pygments
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-18 08:53:09 +0000 UTC
-    </div>
-</div>
-
