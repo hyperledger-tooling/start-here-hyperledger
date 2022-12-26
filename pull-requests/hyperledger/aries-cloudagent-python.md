@@ -185,32 +185,3 @@ Signed-off-by: Clément Humbert <clement.humbert@sicpa.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2053" class=".btn">#2053</a>
-            </td>
-            <td>
-                <b>
-                    Code formatting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-
-Issue https://github.com/hyperledger/aries-cloudagent-python/issues/2052
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-18 23:52:13 +0000 UTC
-    </div>
-</div>
-
