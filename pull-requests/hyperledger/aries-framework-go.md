@@ -157,39 +157,3 @@ Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3449" class=".btn">#3449</a>
-            </td>
-            <td>
-                <b>
-                    fix: did service endpoint bug.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Volodymyr Kubiv <volodymyr.kubiv@euristiq.com>
-
-**Title:**
-Fix bug that causes incorrect serialization of did document with service endpoint property.
-
-
-**Summary:**
-
-Storing in Endpoint.rawObj not only array from origin property whole serviceEndpoint object.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-19 09:49:13 +0000 UTC
-    </div>
-</div>
-
