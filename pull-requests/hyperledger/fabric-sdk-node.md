@@ -36,33 +36,3 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/631" class=".btn">#631</a>
-            </td>
-            <td>
-                <b>
-                    feat(FabricCAClient.js): addDefaultHeader
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - add "addDefaultHeader" function in FabricCAClient.js 
-- add "default_headers" object in constructor
-- iterate on "default_headers" object in "request" and "enroll" functions
-
-Signed-off-by: Ivan <69165620+IvanSerebryakov@users.noreply.github.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-19 13:33:48 +0000 UTC
-    </div>
-</div>
-

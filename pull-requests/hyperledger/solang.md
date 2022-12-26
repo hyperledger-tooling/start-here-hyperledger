@@ -303,38 +303,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1105" class=".btn">#1105</a>
-            </td>
-            <td>
-                <b>
-                    Make instruction data compatible with anchor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">solana</span><span class="chip">breaking</span>
-            </td>
-            <td>
-                *Solana* breaking change.For constructors, a function selector is now required.
-    
-Remove the following from the instruction data:
-  - Sender
-  - Destination
-  - Value
-  - Seeds
-  - Contract hash
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-19 17:18:49 +0000 UTC
-    </div>
-</div>
-
