@@ -118,37 +118,3 @@ Also update VitePress configuration & dependencies.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/233" class=".btn">#233</a>
-            </td>
-            <td>
-                <b>
-                    [fix]: sample region in `lorem.rs`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Dmitry Balashov <a.marcius26@gmail.com>
-
-By the way, **there is a known issue:** 
-
-<img width="715" alt="image" src="https://user-images.githubusercontent.com/43530070/208339357-96c85865-76ce-4cdf-941e-fee5cdda6639.png">
-
-I've opened a PR to fix it, but it hasn't been merged yet:
-
-- https://github.com/vuejs/vitepress/pull/1687
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-19 02:58:55 +0000 UTC
-    </div>
-</div>
-

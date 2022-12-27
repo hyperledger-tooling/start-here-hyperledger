@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/117" class=".btn">#117</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/120" class=".btn">#120</a>
             </td>
             <td>
                 <b>
-                    Remove id from the published objects
+                    Small inconsistency fix in CredDef with revocation example 
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
                 
             </td>
             <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-19 15:00:16 +0000 UTC
+        Created At 2022-12-25 19:44:59 +0000 UTC
     </div>
 </div>
 

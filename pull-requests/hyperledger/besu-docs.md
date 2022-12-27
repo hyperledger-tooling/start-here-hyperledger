@@ -251,32 +251,6 @@ Fixes #1204
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1226" class=".btn">#1226</a>
-            </td>
-            <td>
-                <b>
-                    Add `shandong` to network list
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add Shandong testnet to list of `network` options. Fixes #1203.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-20 16:37:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1225" class=".btn">#1225</a>
             </td>
             <td>

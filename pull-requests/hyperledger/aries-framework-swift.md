@@ -14,6 +14,75 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/18" class=".btn">#18</a>
+            </td>
+            <td>
+                <b>
+                    sample: Update framework version in Sample
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Checklist
+
+- [ ] I have run swiftlint
+- [ ] I have run AriesFrameworkTests
+- [ ] I have run AllTests
+
+## Description
+
+Update framework version in Sample.
+The framework version in the lockfile was 1.2.0 which has an issue in connecting to a mediator.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-26 09:00:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/17" class=".btn">#17</a>
+            </td>
+            <td>
+                <b>
+                    doc: Add diagrams for developer guide
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Checklist
+
+- [ ] I have run swiftlint
+- [ ] I have run AriesFrameworkTests
+- [ ] I have run AllTests
+
+## Description
+
+Add diagrams for developer guide
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-26 07:50:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/16" class=".btn">#16</a>
             </td>
             <td>
@@ -111,79 +180,6 @@ Changed to https://github.com/twostraws/CodeScanner which supports SwiftUI.
     </table>
     <div class="right-align">
         Created At 2022-12-21 05:50:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/11" class=".btn">#11</a>
-            </td>
-            <td>
-                <b>
-                    fix: Fix decoding error when oob attachments contain json data
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Checklist
-
-- [x] I have run swiftlint
-- [x] I have run AriesFrameworkTests
-- [ ] I have run AllTests
-
-## Description
-
-Fix #9
-Swift `Decodable` cannot decode untyped json. Requests of oob invitation will be `AgentMessage` types, but we don't know the exact type in advance.
-This fix works as follows to handle this:
-- Change the json data of attachments  to a `String` by serializing it
-- The string data will be treated the same as the decoded base64-encoded string
-- Use `JSONSerialization` to change the message instead of `Codable` protocol
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-19 09:02:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/10" class=".btn">#10</a>
-            </td>
-            <td>
-                <b>
-                    fix: Allow legacy did:sov prefix in the oob invitation message
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Checklist
-
-- [x] I have run swiftlint
-- [x] I have run AriesFrameworkTests
-- [ ] I have run AllTests
-
-## Description
-
-Fix #6 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-19 03:15:17 +0000 UTC
     </div>
 </div>
 
