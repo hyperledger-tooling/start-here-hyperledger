@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/146" class=".btn">#146</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/148" class=".btn">#148</a>
             </td>
             <td>
                 <b>
-                    server version v0.2.7
+                    fix merkle typo in server
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-14 11:50:04 +0000 UTC
+        Created At 2022-12-27 15:10:01 +0000 UTC
     </div>
 </div>
 
