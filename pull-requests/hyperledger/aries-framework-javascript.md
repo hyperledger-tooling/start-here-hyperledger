@@ -126,34 +126,3 @@ There's some gaps in the dids module we need to resolve before it can be fully r
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1178" class=".btn">#1178</a>
-            </td>
-            <td>
-                <b>
-                    refactor: jsonld credential format improvements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Some small improvements to the jsonld credential format services of things I discovered when using the service. It mostly includes:
-- check the whole credential instead of the credentialSubject against the request
-- check the created property against the proof (if it was defined)
-- do not require a class as input for the credential detail options in the credentials api
-- fix incorrect interfaces
-- remove redundant checks 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-20 08:29:26 +0000 UTC
-    </div>
-</div>
-
