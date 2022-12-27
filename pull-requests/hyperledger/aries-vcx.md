@@ -179,35 +179,3 @@ changes:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/701" class=".btn">#701</a>
-            </td>
-            <td>
-                <b>
-                    messages: reduce dependencies, propagate errors, remove dead code
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">skip-ios</span><span class="chip">skip-android</span>
-            </td>
-            <td>
-                - removed number of unused `dependencies` from `messages` crate
-- removed dead code related to error handling
-- adjust `recipient_keys` in `messages/src/did_doc/mod.rs` to propagate error condition up instead of logging and ignoring
-- removed logging within `messages` crate
-- `messages`, created submodules `protocols` and `concepts` - and put most of the files respectively under one or the other of these
-
-Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-19 08:04:46 +0000 UTC
-    </div>
-</div>
-

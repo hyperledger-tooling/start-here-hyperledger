@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1185" class=".btn">#1185</a>
+            </td>
+            <td>
+                <b>
+                    chore(migrations): add generated test 0.2 connection records for migration tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR is a follow up to #1177 and includes generated test connection records from [this script](https://github.com/petridishdev/aries-framework-javascript-test-data-generator/blob/main/index.ts) along with migration tests and snapshots for AFJ update from 0.2 to 0.3.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-26 21:28:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1184" class=".btn">#1184</a>
+            </td>
+            <td>
+                <b>
+                    fix: missing migration script and exports
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Unfortunately, `migrateDidRecordToV0_3` was not added to `updateV0_2ToV0_3` script, meaning that DID records were not upgraded, making DIDs non-resolvable.
+
+This PR fixes that and also exposes a few classes that are mentioned in [the documentation](https://aries.js.org/guides/updating/update-assistant) but were no exported directly.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-26 17:57:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1182" class=".btn">#1182</a>
             </td>
             <td>
@@ -100,69 +154,6 @@ There's some gaps in the dids module we need to resolve before it can be fully r
     </table>
     <div class="right-align">
         Created At 2022-12-20 08:29:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1177" class=".btn">#1177</a>
-            </td>
-            <td>
-                <b>
-                    chore(migrations)!: connections 0.3.0 migration script and tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR introduces changes to how connection types are handled in connection records:
-- Connection types were previously stored in tags under the `connectionType` label. Connection types are now directly part of the record.
-- Methods to add, update and remove types in the connection service now apply directly to the record instead of tags.
-- The `connectionType` property is now pluralized to `connectionTypes` to reflect the fact that the property accepts an `Array` of connection types.
-- Methods in the connection API and service have also been pluralized accordingly.
-- Relevant tests have been updated to reflect changes to the connection record, API and service and have been added for the connection migration script from AFJ 0.2 to 0.3.
-
-## Related Issues
-
-#1155 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-19 14:50:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1175" class=".btn">#1175</a>
-            </td>
-            <td>
-                <b>
-                    refactor(dids): use class instances in module config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Makes the registration of did resolvers and registrars consistent with how we do it in the credentials module by requiring class instances to be passed.
-
-Not really a breaking change as 0.2.0 doesn't allow custom modules yet
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-19 07:11:45 +0000 UTC
     </div>
 </div>
 
