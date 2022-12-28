@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 <b>
-                    Implement "Go to Defintion" in the language server
+                    Implement "Go to Definition" in the language server
                 </b>
             </td>
         </tr>

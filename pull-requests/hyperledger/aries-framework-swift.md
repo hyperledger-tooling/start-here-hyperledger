@@ -148,38 +148,3 @@ Fix #14
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/13" class=".btn">#13</a>
-            </td>
-            <td>
-                <b>
-                    sample: Change QRCode scanner
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Checklist
-
-- [ ] I have run swiftlint
-- [ ] I have run AriesFrameworkTests
-- [ ] I have run AllTests
-
-## Description
-
-The previous scanner did not work on iOS 16.
-Changed to https://github.com/twostraws/CodeScanner which supports SwiftUI.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-21 05:50:05 +0000 UTC
-    </div>
-</div>
-
