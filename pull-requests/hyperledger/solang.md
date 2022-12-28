@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1117" class=".btn">#1117</a>
+            </td>
+            <td>
+                <b>
+                    Bump dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-28 12:03:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1116" class=".btn">#1116</a>
             </td>
             <td>
@@ -240,36 +266,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2022-12-21 12:53:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1108" class=".btn">#1108</a>
-            </td>
-            <td>
-                <b>
-                    Fix handling of new int[](count <<= 1)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also improves handling of any garbage passed as a size.
-
-Fixes https://github.com/xermicus/fuzzy-sol/issues/146
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-21 10:55:51 +0000 UTC
     </div>
 </div>
 

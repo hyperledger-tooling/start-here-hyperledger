@@ -143,31 +143,3 @@ Built on top of https://github.com/hyperledger/aries-vcx/pull/702
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/703" class=".btn">#703</a>
-            </td>
-            <td>
-                <b>
-                    Code formatting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Fail CI if code is not correctly formatted
-- Adjusted `rustfmt.toml` to bit more liberal setup from its default `max_width=100` to `max_width=120` - however given `use_small_heuristics` https://rust-lang.github.io/rustfmt/?version=v1.5.1&search=#use_small_heuristics most of the lines will be well below 120 characters.
-- Applied reformat
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-21 10:18:39 +0000 UTC
-    </div>
-</div>
-
