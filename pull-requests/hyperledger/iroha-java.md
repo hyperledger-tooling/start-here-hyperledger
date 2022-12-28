@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/iroha-java
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/297" class=".btn">#297</a>
-            </td>
-            <td>
-                <b>
-                    update to 73cea62f49a0d1a7b4999da3923bdb389a85462e7b6d3a81e8d484e6cd7cd6e4
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: akostiucenko <kostiuchenko@soramitsu.co.jp>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-21 12:53:12 +0000 UTC
-    </div>
-</div>
-

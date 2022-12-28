@@ -67,34 +67,3 @@ Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3454" class=".btn">#3454</a>
-            </td>
-            <td>
-                <b>
-                    feat: Add SD-JWT Holder (Flat)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Parse and verify combined presentation from issuer.
-
-Closes #3453
-
-Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-21 15:42:45 +0000 UTC
-    </div>
-</div>
-

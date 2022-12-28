@@ -40,29 +40,3 @@ There are some problems here.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/86" class=".btn">#86</a>
-            </td>
-            <td>
-                <b>
-                    fix: selector and labels do not match
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fix: selector and labels do not match
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-21 16:17:08 +0000 UTC
-    </div>
-</div>
-
