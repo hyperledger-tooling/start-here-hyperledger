@@ -116,39 +116,3 @@ This PR fixes that and also exposes a few classes that are mentioned in [the doc
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1180" class=".btn">#1180</a>
-            </td>
-            <td>
-                <b>
-                    refactor(wallet)!: remove wallet.createDid method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Removes the `wallet.createDid()` method from the agent. The did registrar module should be used instead to create indy dids. 
-
-The agent.publicDid is kept in for now as it is needed by the ledger module, and we need it to add the endorser did to the agent. Intend to add a feature soon to add an existing did to the agent (for endorsement)
-
-Also adds `@deprecated` tags to all wallet / agent public did functionality that is left to indicate these are deprecated and will be removed once we have replaced the ledger module (which will be when the new anoncreds module is ready). 
-
-I think this is a big step in making AFJ not Indy focused.
-
-There's some gaps in the dids module we need to resolve before it can be fully replaced, mainly:
-- Migrate public dids created with the wallet to did records (can be done using a migration script I think)
-- Allow to store a created did without necesarily writing it to the ledger. This is the case with endorser dids, where I add the did based on a seed, and the did is already registered on the ledger. I think a method like `storeCreatedDid` where you pass the did, it will resolve it to get the did document with recipientKeys and you'll then be able to use it.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-21 04:04:54 +0000 UTC
-    </div>
-</div>
-
