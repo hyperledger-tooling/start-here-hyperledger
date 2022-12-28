@@ -273,33 +273,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1107" class=".btn">#1107</a>
-            </td>
-            <td>
-                <b>
-                    Give nice diagnostics when old style call arguments are used
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                	C c = (new C).value(1).gas(2)(1, 2, 3);
-
-Fixes https://github.com/xermicus/fuzzy-sol/issues/141
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-20 18:37:10 +0000 UTC
-    </div>
-</div>
-

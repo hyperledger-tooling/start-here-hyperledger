@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/710" class=".btn">#710</a>
+            </td>
+            <td>
+                <b>
+                    Libvcx/refactor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Divides `libvcx` in 2 main `api_c` and `api_vcx` modules which could be potentially split out as separate crates https://github.com/hyperledger/aries-vcx/issues/700
+- `api_c` depends on `api_vcx` and contain libvcx c interface
+- `api_vcx` doesn't know about `api_c` and contains the internal logic
+- This should make implementation on https://github.com/hyperledger/aries-vcx/pull/665/files smoother
+- `errors` module was moved under `src/errors` to be consistent with other crates (previously under `src/api_lib/errors`)
+- Defined build feature `libvcx_c` - if specified, `api_c` is included in the build
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-27 18:58:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/708" class=".btn">#708</a>
             </td>
             <td>
@@ -53,7 +85,11 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+                - some exceptions were granted for now, eg. allowing lints which are by default a warning - see top of `lib.rs` of respective crates
+- removing this exceptions will be separate task(s) (can be easy task for new contributors perhaps)
+- various warnings fixed
+
+Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
             </td>
         </tr>
     </table>
