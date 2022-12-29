@@ -15,43 +15,45 @@ permalink: /releases/hyperledger/besu
         <tr>
             <td colspan="2">
                 <b>
-                    22.10.3
+                    23.1.0-beta
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    22.10.3
+                    23.1.0-BETA
                 </span>
             </td>
             <td>
-                ## 22.10.3
+                ## 23.1.0-beta
 
 ### Breaking Changes
-- Added `--rpc-max-logs-range` CLI option to allow limiting the number of blocks queried by `eth_getLogs` RPC API. Default value: 1000 [#4597](https://github.com/hyperledger/besu/pull/4597)
-- The `graalvm` docker variant no longer meets the performance requirements for Ethereum Mainnet.  The `openjdk-11` and `openjdk-latest` variants are recommended in its place.
+- GoQuorum-compatible privacy is deprecated and will be removed in 23.4
+- IBFT 1.0 is deprecated and will be removed in 23.4
+- Optimize SSTORE Operation execution time (memoize current and original value) [#4836](https://github.com/hyperledger/besu/pull/4836)
 
 ### Additions and Improvements
-- Implement Eth/68 sub-protocol [#4715](https://github.com/hyperledger/besu/issues/4715)
-- Increase the speed of modexp gas execution and execution. [#4780](https://github.com/hyperledger/besu/pull/4780)
-- Added experimental CLI options `--Xeth-capability-max` and `--Xeth-capability-min` to specify a range of capabilities to be supported by the Eth protocol. [#4752](https://github.com/hyperledger/besu/pull/4752)
-- Set the default curve in the EVMTool, like is done in production operations [#4790](https://github.com/hyperledger/besu/pull/4790)
+- Added post-execution state logging option to EVM Tool [#4709](https://github.com/hyperledger/besu/pull/4709)
+- Add access list to Transaction Call Object [#4802](https://github.com/hyperledger/besu/issues/4801)
+- Add timestamp fork support, including shanghaiTime and cancunTime forks [#4743](https://github.com/hyperledger/besu/pull/4743)
+- Optimization:  Memoize transaction size and hash at the same time [#4812](https://github.com/hyperledger/besu/pull/4812)
 
 ### Bug Fixes
-- Fix storage key format for eth_getProof so that it follows the EIP-1474 spec [#4564](https://github.com/hyperledger/besu/pull/4564)
+- Fix for segmentation faults on worldstate truncation, snap-sync starts [#4786](https://github.com/hyperledger/besu/pull/4786)
+- Fix for worldstate mismatch on failed forkchoiceUpdate [#4862](https://github.com/hyperledger/besu/pull/4862)
 
 ### Download Links
-https://hyperledger.jfrog.io/hyperledger/besu-binaries/besu/22.10.3/besu-22.10.3.tar.gz / sha256: 7213f9445a84a196e94ae1877c6fdb1e51d37bfb19615da02ef5121d4f40e38c
-https://hyperledger.jfrog.io/hyperledger/besu-binaries/besu/22.10.3/besu-22.10.3.zip / sha256: 0bf6bc98e01b0c1045f1b7d841a390c575bc5203c2a4e543d922fbc1ea0d3d5d
+https://hyperledger.jfrog.io/hyperledger/besu-binaries/besu/23.1.0-beta/besu-23.1.0-beta.tar.gz / sha256: ab25ee41d9464216fa2a8bbf5a788b0963e383b505c5d664c63ac96efe5ef657
+https://hyperledger.jfrog.io/hyperledger/besu-binaries/besu/23.1.0-beta/besu-23.1.0-beta.zip / sha256: 250d87736ae09408394e584f99f1e15b5e30769d87a4eec777eca2bbb81882df
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/besu/releases/tag/22.10.3" class=".btn">
+    <a href="https://github.com/hyperledger/besu/releases/tag/23.1.0-BETA" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-12-09 21:45:34 +0000 UTC
+        Created At 2022-12-23 21:47:43 +0000 UTC
     </span>
 </div>
 
