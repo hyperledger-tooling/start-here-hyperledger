@@ -27,11 +27,18 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                - make feature `libvcx_c` default
+                Improvements in libvcx triggered working on https://github.com/hyperledger/aries-vcx/pull/665
+
+
+- make feature `libvcx_c` default
 - minimize responsibility of `api_c` - move logic of reading `CONFIG_INSTITUTION_DID` from `api_c` to `api_vcx`
 - change FFI signature of `vcx_credentialdef_create_v2` by removing its `issuer_did: *const c_char` argument - this is inconsistent with all the other APIs which load the did from setting `CONFIG_INSTITUTION_DID`
 - shorten test `test_release_all` 
 - do not return unnecessary `error::SUCCESS_ERR_CODE` codes from `api_vcx` layer - this was a leftover of past where today's `api_c` and `api_vcx` were tied much closer together
+- all `update_state*` methods in `api_vcx` return new state on success
+- reuse state value returned by `update_state` in `update_state*` methods in `api_c`
+
+
             </td>
         </tr>
     </table>

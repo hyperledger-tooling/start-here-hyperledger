@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2058" class=".btn">#2058</a>
-            </td>
-            <td>
-                <b>
-                    ci: add gha for pr-tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds GitHub Actions for testing PRs. This is pulled from work on #1888. These tests are ready for easy use with other python versions, when we get to that point.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-22 16:44:29 +0000 UTC
-    </div>
-</div>
-

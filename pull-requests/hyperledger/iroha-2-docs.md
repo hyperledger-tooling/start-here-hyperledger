@@ -105,29 +105,3 @@ This PR also contains some cosmetic changes: uniform links in the index file and
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/238" class=".btn">#238</a>
-            </td>
-            <td>
-                <b>
-                    [fix]: Update config.ts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-22 13:40:24 +0000 UTC
-    </div>
-</div>
-

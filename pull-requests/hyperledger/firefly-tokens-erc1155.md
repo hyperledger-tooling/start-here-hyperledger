@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/102" class=".btn">#102</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/103" class=".btn">#103</a>
             </td>
             <td>
                 <b>
-                    Fix incorrect samples route in README.md
+                    Split tokens service logic into multiple helpers
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
                 
             </td>
             <td>
-                Signed-off-by: Ander Dorado <71599694+ander-db@users.noreply.github.com>
+                Companion to https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/103
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-11 13:01:32 +0000 UTC
+        Created At 2022-12-29 17:34:37 +0000 UTC
     </div>
 </div>
 
