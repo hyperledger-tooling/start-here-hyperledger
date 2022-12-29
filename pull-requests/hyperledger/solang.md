@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                Bumps all deps except `wasmi` to latest major or minor (will do `wasmi` later in another PR, too many changes)
             </td>
         </tr>
     </table>
