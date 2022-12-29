@@ -114,37 +114,3 @@ Close https://github.com/naver/aries-framework-swift/issues/19
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/15" class=".btn">#15</a>
-            </td>
-            <td>
-                <b>
-                    doc: Update install guide
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Checklist
-
-- [ ] I have run swiftlint
-- [ ] I have run AriesFrameworkTests
-- [ ] I have run AllTests
-
-## Description
-
-Fix #14 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-22 02:02:23 +0000 UTC
-    </div>
-</div>
-

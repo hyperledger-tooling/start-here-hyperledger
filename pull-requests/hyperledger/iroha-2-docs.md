@@ -157,31 +157,3 @@ Addresses https://github.com/hyperledger/iroha/issues/2579
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/234" class=".btn">#234</a>
-            </td>
-            <td>
-                <b>
-                    [docs]: use snippets from `hyperledger/iroha-javascript`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Dmitry Balashov <a.marcius26@gmail.com>
-
-Also update VitePress configuration & dependencies.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-22 03:47:41 +0000 UTC
-    </div>
-</div>
-
