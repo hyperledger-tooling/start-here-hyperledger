@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3882" class=".btn">#3882</a>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3885" class=".btn">#3885</a>
             </td>
             <td>
                 <b>
-                    Switch base docker image from golang-alpine to ubuntu:20.04
+                    Fix: Ethereum has POS-based consensus mechanism
                 </b>
             </td>
         </tr>
@@ -27,31 +27,24 @@ permalink: /pull-requests/hyperledger/fabric
                 
             </td>
             <td>
-                #### Type of change
+                We are in the post _The MERGE_ era.
 
-- Bug fix
+Signed-off-by: AMIT KUMAR MISHRA <71893015+Amit0617@users.noreply.github.com>
+
+#### Type of change
+- Documentation update
 
 #### Description
 
-This PR switches the Fabric base docker images from golang-alpine to ubuntu:20.04.  The upgrade is necessary as the golang-alpine libc runtimes (musl) are incompatible with the requirements on multi-arch runtimes. 
-
-The motivations for this upgrade are described in detail in Discussion #3876 and comments in DRAFT PR #3877 
-
+Ethereum is now POS based
 
 #### Additional details
 
-- Discussion #3876 
-- PR #3877  (DRAFT)
-
-
-#### Related issues
-
-- #2994
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-21 15:00:25 +0000 UTC
+        Created At 2022-12-29 08:12:08 +0000 UTC
     </div>
 </div>
 

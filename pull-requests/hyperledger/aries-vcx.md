@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/711" class=".btn">#711</a>
+            </td>
+            <td>
+                <b>
+                    Libvcx/minimize api c
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - make feature `libvcx_c` default
+- minimize responsibility of `api_c` - move logic of reading `CONFIG_INSTITUTION_DID` from `api_c` to `api_vcx`
+- change FFI signature of `vcx_credentialdef_create_v2` by removing its `issuer_did: *const c_char` argument - this is inconsistent with all the other APIs which load the did from setting `CONFIG_INSTITUTION_DID`
+- shorten test `test_release_all` 
+- do not return unnecessary `error::SUCCESS_ERR_CODE` codes from `api_vcx` layer - this was a leftover of past where today's `api_c` and `api_vcx` were tied much closer together
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-29 11:11:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/710" class=".btn">#710</a>
             </td>
             <td>

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/243" class=".btn">#243</a>
+            </td>
+            <td>
+                <b>
+                    [docs] #237: Add instructions on kagami config generation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">documentation</span><span class="chip">iroha2</span><span class="chip">Update</span>
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+
+Closes #237 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-29 08:02:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/242" class=".btn">#242</a>
             </td>
             <td>
@@ -100,60 +128,6 @@ This PR also contains some cosmetic changes: uniform links in the index file and
     </table>
     <div class="right-align">
         Created At 2022-12-22 13:40:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/236" class=".btn">#236</a>
-            </td>
-            <td>
-                <b>
-                    [docs]: Add snippets for config files
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-22 10:17:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/235" class=".btn">#235</a>
-            </td>
-            <td>
-                <b>
-                    [docs] #2579: Link to Iroha 1 documentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-Addresses https://github.com/hyperledger/iroha/issues/2579
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-22 09:27:19 +0000 UTC
     </div>
 </div>
 
