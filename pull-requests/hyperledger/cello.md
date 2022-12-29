@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/507" class=".btn">#507</a>
+            </td>
+            <td>
+                <b>
+                    Add download btn for channel config file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In the channel page, add a download button to enable downloading 
+channel's config file.
+
+Signed-off-by: xichen1 <xichen.pan@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-28 20:36:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/506" class=".btn">#506</a>
             </td>
             <td>

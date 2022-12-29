@@ -68,33 +68,3 @@ permalink: /pull-requests/hyperledger/aries-vcx
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/705" class=".btn">#705</a>
-            </td>
-            <td>
-                <b>
-                    CI: Add clippy checks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - some exceptions were granted for now, eg. allowing lints which are by default a warning - see top of `lib.rs` of respective crates
-- removing this exceptions will be separate task(s) (can be easy task for new contributors perhaps)
-- various warnings fixed
-
-Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-21 22:45:36 +0000 UTC
-    </div>
-</div>
-
