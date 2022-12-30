@@ -90,29 +90,3 @@ This PR fixes that and also exposes a few classes that are mentioned in [the doc
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1182" class=".btn">#1182</a>
-            </td>
-            <td>
-                <b>
-                    feat: adding trust ping events and trust ping command
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Kim Ebert <kim@indicio.tech>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-22 21:17:54 +0000 UTC
-    </div>
-</div>
-
