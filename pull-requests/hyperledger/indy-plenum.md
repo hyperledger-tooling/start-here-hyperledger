@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1624" class=".btn">#1624</a>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1625" class=".btn">#1625</a>
             </td>
             <td>
                 <b>
-                    GHA deprecation fixes
+                    docs: clarify fabric source
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/indy-plenum
                 
             </td>
             <td>
-                Signed-off-by: Philipp Schlarb <p.schlarb@esatus.com>
+                As someone first coming to this repo I wasn't familiar with which `fabric` this referred to. Hopefully this clarifies it.
+
+Signed-off-by: Matt Mankins <mankins@gmail.com>
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-08 11:19:57 +0000 UTC
+        Created At 2022-12-30 11:42:59 +0000 UTC
     </div>
 </div>
 
