@@ -113,8 +113,11 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
 
 ### Description of the Change
 
-Revert some changes made to `Queue` and `Sumeragi` to bring multisignatures back. 
-Turn on tests that works with multisigs.
+- Revert some changes made to `Queue` and `Sumeragi` to bring multisignatures back. 
+- Turn on tests that works with multisigs.
+- Add second queue for the multisignatures.
+
+NOTE: Still WIP, not very happy with current design of the second queue. 
 
 <!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
 <!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
@@ -241,49 +244,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2022-12-26 14:05:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3037" class=".btn">#3037</a>
-            </td>
-            <td>
-                <b>
-                    [CI]: move to nightly-only CI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Signed-off-by: Aleksandr Petrosyan <a-p-petrosyan@yandex.ru>
-
-### Description of the Change
-
-Update all of the workflows to use `nightly-2022-12-22`
-
-### Issue
-
-None
-
-### Benefits
-
-Simplified process
-
-### Possible Drawbacks
-
-None
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-23 12:35:42 +0000 UTC
     </div>
 </div>
 

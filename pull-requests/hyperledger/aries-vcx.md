@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/713" class=".btn">#713</a>
+            </td>
+            <td>
+                <b>
+                    Clippy do not allow unwrap used
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Denies clippy rule defined here: https://rust-lang.github.io/rust-clippy/master/#unwrap_used
+
+ideally we should be not panicking at all (unless testing). however in some places where it's obvious an error will not occur (e.g. some `lazy_static` variable blocks), we will use `.expect(...)` instead - knowing that the `expect` should never occur.
+
+Note that also in some places, where we know it is only used for testing (e.g. mocks) `expect`s are used - this may be changed in the future if desired.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-30 14:57:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/711" class=".btn">#711</a>
             </td>
             <td>
@@ -76,32 +106,6 @@ permalink: /pull-requests/hyperledger/aries-vcx
     </table>
     <div class="right-align">
         Created At 2022-12-27 18:58:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/708" class=".btn">#708</a>
-            </td>
-            <td>
-                <b>
-                    Draft: CredxAnoncreds verifier functionality support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #699 Implements credx verifier method and tests
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-23 12:52:15 +0000 UTC
     </div>
 </div>
 
