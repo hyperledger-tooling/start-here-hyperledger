@@ -155,29 +155,3 @@ I have found two problems:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1112" class=".btn">#1112</a>
-            </td>
-            <td>
-                <b>
-                    Fix storage array deref bug
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Changes the function `Type::is_storage_bytes()` to account for fixed size bytes
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-23 11:46:01 +0000 UTC
-    </div>
-</div>
-
