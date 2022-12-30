@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/236" class=".btn">#236</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/237" class=".btn">#237</a>
             </td>
             <td>
                 <b>
-                    Allow arbitrary mime types for credential attributes
+                    Update README.md
                 </b>
             </td>
         </tr>
@@ -27,19 +27,23 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
                 
             </td>
             <td>
-                #### Short description of what this resolves:
+                Signed-off-by: kukgini <kukgini@users.noreply.github.com>
 
-Currently, in order to add support for new mime types in credential attributes one has to adjust the framework and add the wanted mime type. This PR proposes the option to allow any arbitrary mime types by removing the validation check of mime types.
+#### Short description of what this resolves:
+
+nuget.org url points to a deprecated package
 
 #### Changes proposed in this pull request:
 
-- Removes strict validation of credential attribute mime types in order to enable arbitrary mime types
+- fix nuget.org location from deprecated to active package
+
+**Fixes**: #
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-14 14:37:56 +0000 UTC
+        Created At 2022-12-30 04:53:39 +0000 UTC
     </div>
 </div>
 
