@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1124" class=".btn">#1124</a>
+            </td>
+            <td>
+                <b>
+                    Minor cleanup in token pool event processing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                After > 1 year, I think we can remove the special handling for this long-deprecated migration path around pre-0.11.0 token pools.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-30 15:10:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1123" class=".btn">#1123</a>
             </td>
             <td>
