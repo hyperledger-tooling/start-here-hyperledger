@@ -37,29 +37,3 @@ permalink: /pull-requests/hyperledger/aries-acapy-controllers
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-controllers/pull/78" class=".btn">#78</a>
-            </td>
-            <td>
-                <b>
-                    Fix issue with PWD build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR also fixes some UI errors with the Acme controller.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-23 21:04:07 +0000 UTC
-    </div>
-</div>
-
