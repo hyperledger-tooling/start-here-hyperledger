@@ -69,31 +69,3 @@ Signed-off-by: darkdrag00n <darkdrag00n@proton.me>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1115" class=".btn">#1115</a>
-            </td>
-            <td>
-                <b>
-                    Arrays indexes must be dereferenced when needed
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When we index an array, we have a reference to an element of that array. If the result of an indexation is used to index another array, we must dereference it first, because indexes must be integers.
-
-This PR fixes https://github.com/xermicus/fuzzy-sol/issues/132
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-23 18:49:40 +0000 UTC
-    </div>
-</div>
-

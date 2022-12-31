@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-explorer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/321" class=".btn">#321</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/322" class=".btn">#322</a>
             </td>
             <td>
                 <b>
-                    Bump jsonwebtoken from 8.5.1 to 9.0.0
+                    Bump flat and @wdio/mocha-framework in /client
                 </b>
             </td>
         </tr>
@@ -27,53 +27,242 @@ permalink: /pull-requests/hyperledger-labs/blockchain-explorer
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) from 8.5.1 to 9.0.0.
+                Bumps [flat](https://github.com/hughsk/flat) to 5.0.2 and updates ancestor dependency [@wdio/mocha-framework](https://github.com/webdriverio/webdriverio/tree/HEAD/packages/wdio-mocha-framework). These dependencies need to be updated together.
+
+Updates `flat` from 4.1.1 to 5.0.2
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/hughsk/flat/commit/e5ffd664df8a1fcc05adc22dd0ac6a2b32a0955d"><code>e5ffd66</code></a> Release 5.0.2</li>
+<li><a href="https://github.com/hughsk/flat/commit/fdb79d537748c827e8b886f897d8e1eb3c1acd17"><code>fdb79d5</code></a> Update dependencies, refresh lockfile, format with standard.</li>
+<li><a href="https://github.com/hughsk/flat/commit/e52185dded05768a1036327c5e79a399778d9191"><code>e52185d</code></a> Test against node 14 in CI.</li>
+<li><a href="https://github.com/hughsk/flat/commit/0189cb11dbc942447af78930bcb0ebc132b88384"><code>0189cb1</code></a> Avoid arrow function syntax.</li>
+<li><a href="https://github.com/hughsk/flat/commit/f25d3a11306bc460e43a14affa64d44a1d3cf8ed"><code>f25d3a1</code></a> Release 5.0.1</li>
+<li><a href="https://github.com/hughsk/flat/commit/54cc7ad380ebfbdf22e6654934dde5a34fdf3104"><code>54cc7ad</code></a> use standard formatting</li>
+<li><a href="https://github.com/hughsk/flat/commit/779816e81b6546da12280ee529d78dc57a7a5e1c"><code>779816e</code></a> drop dependencies</li>
+<li><a href="https://github.com/hughsk/flat/commit/2eea6d3a556feb1bdb02dc2f376c935da59a66e4"><code>2eea6d3</code></a> Bump lodash from 4.17.15 to 4.17.19</li>
+<li><a href="https://github.com/hughsk/flat/commit/a61a554952cfb550f276acc02ceea403afe01700"><code>a61a554</code></a> Bump acorn from 7.1.0 to 7.4.0</li>
+<li><a href="https://github.com/hughsk/flat/commit/20ef0ef55dfa028caddaedbcb33efbdb04d18e13"><code>20ef0ef</code></a> Fix prototype pollution on unflatten</li>
+<li>Additional commits viewable in <a href="https://github.com/hughsk/flat/compare/4.1.1...5.0.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+Updates `@wdio/mocha-framework` from 5.23.0 to 8.0.14
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/webdriverio/webdriverio/releases"><code>@​wdio/mocha-framework</code>'s releases</a>.</em></p>
+<blockquote>
+<h2>v8.0.14 (2022-12-28)</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>wdio-allure-reporter</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9472">#9472</a> Create CJS export for Allure Reporter (<a href="https://github.com/christian-bromann"><code>@​christian-bromann</code></a>)</li>
+</ul>
+</li>
+<li><code>webdriverio</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9435">#9435</a> Have fallback for <code>scrollIntoView</code> if actions command fails (<a href="https://github.com/christian-bromann"><code>@​christian-bromann</code></a>)</li>
+</ul>
+</li>
+</ul>
+<h4>:nail_care: Polish</h4>
+<ul>
+<li><code>wdio-browserstack-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9437">#9437</a> update: mark session as failed if no specs ran (<a href="https://github.com/Ankit098"><code>@​Ankit098</code></a>)</li>
+</ul>
+</li>
+<li><code>wdio-types</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9441">#9441</a> Add missing noProxy typing for Capabilities ProxyObject (<a href="https://github.com/taina0407"><code>@​taina0407</code></a>)</li>
+</ul>
+</li>
+<li><code>wdio-cucumber-framework</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9438">#9438</a> <code>@​wdio/cucumber-framework</code>: add missing Promise.all in registerRequired… (<a href="https://github.com/SCG82"><code>@​SCG82</code></a>)</li>
+</ul>
+</li>
+</ul>
+<h4>:memo: Documentation</h4>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9448">#9448</a> docs: Fix a few typos (<a href="https://github.com/timgates42"><code>@​timgates42</code></a>)</li>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9403">#9403</a> fix: updated wdio execution command in proxy setup (<a href="https://github.com/vjuturu"><code>@​vjuturu</code></a>)</li>
+</ul>
+<h4>:house: Internal</h4>
+<ul>
+<li><code>wdio-types</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9444">#9444</a> <code>@​wdio/types</code>: node16 module resolution compatibility (<a href="https://github.com/SCG82"><code>@​SCG82</code></a>)</li>
+</ul>
+</li>
+<li><code>devtools</code>, <code>eslint-plugin-wdio</code>, <code>wdio-allure-reporter</code>, <code>wdio-appium-service</code>, <code>wdio-browser-runner</code>, <code>wdio-browserstack-service</code>, <code>wdio-cli</code>, <code>wdio-concise-reporter</code>, <code>wdio-config</code>, <code>wdio-crossbrowsertesting-service</code>, <code>wdio-cucumber-framework</code>, <code>wdio-devtools-service</code>, <code>wdio-globals</code>, <code>wdio-jasmine-framework</code>, <code>wdio-junit-reporter</code>, <code>wdio-local-runner</code>, <code>wdio-logger</code>, <code>wdio-mocha-framework</code>, <code>wdio-repl</code>, <code>wdio-reporter</code>, <code>wdio-runner</code>, <code>wdio-sauce-service</code>, <code>wdio-selenium-standalone-service</code>, <code>wdio-shared-store-service</code>, <code>wdio-spec-reporter</code>, <code>wdio-sumologic-reporter</code>, <code>wdio-testingbot-service</code>, <code>wdio-types</code>, <code>wdio-utils</code>, <code>wdio-webdriver-mock-service</code>, <code>webdriver</code>, <code>webdriverio</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9445">#9445</a> Adding new EsLint rules (<a href="https://github.com/christian-bromann"><code>@​christian-bromann</code></a>)</li>
+</ul>
+</li>
+<li>Other
+<ul>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9429">#9429</a> Update reference link to eslint governance file (<a href="https://github.com/Relequestual"><code>@​Relequestual</code></a>)</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 7</h4>
+<ul>
+<li>Ankit Singh (<a href="https://github.com/Ankit098"><code>@​Ankit098</code></a>)</li>
+<li>Ben Hutton (<a href="https://github.com/Relequestual"><code>@​Relequestual</code></a>)</li>
+<li>Christian Bromann (<a href="https://github.com/christian-bromann"><code>@​christian-bromann</code></a>)</li>
+<li>Tim Gates (<a href="https://github.com/timgates42"><code>@​timgates42</code></a>)</li>
+<li>Vampire (<a href="https://github.com/taina0407"><code>@​taina0407</code></a>)</li>
+<li><a href="https://github.com/SCG82"><code>@​SCG82</code></a></li>
+<li><a href="https://github.com/vjuturu"><code>@​vjuturu</code></a></li>
+</ul>
+<h2>v8.0.13 (2022-12-14)</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>wdio-cli</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9399">#9399</a> Kill worker process if parent shuts down (<a href="https://github.com/christian-bromann"><code>@​christian-bromann</code></a>)</li>
+</ul>
+</li>
+<li><code>wdio-local-runner</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9398">#9398</a> Fix watch mode by better resolving worker readiness (<a href="https://github.com/christian-bromann"><code>@​christian-bromann</code></a>)</li>
+</ul>
+</li>
+<li><code>wdio-utils</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9397">#9397</a> Fix async iterators (<a href="https://github.com/christian-bromann"><code>@​christian-bromann</code></a>)</li>
+</ul>
+</li>
+</ul>
+<h4>:memo: Documentation</h4>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9392">#9392</a> Add docs for Accessibility Testing (<a href="https://github.com/christian-bromann"><code>@​christian-bromann</code></a>)</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
 <details>
 <summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/auth0/node-jsonwebtoken/blob/master/CHANGELOG.md">jsonwebtoken's changelog</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/webdriverio/webdriverio/blob/main/CHANGELOG.md"><code>@​wdio/mocha-framework</code>'s changelog</a>.</em></p>
 <blockquote>
-<h2>9.0.0 - 2022-12-21</h2>
-<p><strong>Breaking changes: See <a href="https://github.com/auth0/node-jsonwebtoken/wiki/Migration-Notes:-v8-to-v9">Migration from v8 to v9</a></strong></p>
-<h3>Breaking changes</h3>
+<h2>v8.0.14 (2022-12-28)</h2>
+<h4>:bug: Bug Fix</h4>
 <ul>
-<li>Removed support for Node versions 11 and below.</li>
-<li>The verify() function no longer accepts unsigned tokens by default. ([834503079514b72264fd13023a3b8d648afd6a16]<a href="https://github.com/auth0/node-jsonwebtoken/commit/834503079514b72264fd13023a3b8d648afd6a16">https://github.com/auth0/node-jsonwebtoken/commit/834503079514b72264fd13023a3b8d648afd6a16</a>)</li>
-<li>RSA key size must be 2048 bits or greater. ([ecdf6cc6073ea13a7e71df5fad043550f08d0fa6]<a href="https://github.com/auth0/node-jsonwebtoken/commit/ecdf6cc6073ea13a7e71df5fad043550f08d0fa6">https://github.com/auth0/node-jsonwebtoken/commit/ecdf6cc6073ea13a7e71df5fad043550f08d0fa6</a>)</li>
-<li>Key types must be valid for the signing / verification algorithm</li>
-</ul>
-<h3>Security fixes</h3>
+<li><code>wdio-allure-reporter</code>
 <ul>
-<li>security: fixes <code>Arbitrary File Write via verify function</code> - CVE-2022-23529</li>
-<li>security: fixes <code>Insecure default algorithm in jwt.verify() could lead to signature validation bypass</code> - CVE-2022-23540</li>
-<li>security: fixes <code>Insecure implementation of key retrieval function could lead to Forgeable Public/Private Tokens from RSA to HMAC</code> - CVE-2022-23541</li>
-<li>security: fixes <code>Unrestricted key type could lead to legacy keys usage</code> - CVE-2022-23539</li>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9472">#9472</a> Create CJS export for Allure Reporter (<a href="https://github.com/christian-bromann"><code>@​christian-bromann</code></a>)</li>
 </ul>
+</li>
+<li><code>webdriverio</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9435">#9435</a> Have fallback for <code>scrollIntoView</code> if actions command fails (<a href="https://github.com/christian-bromann"><code>@​christian-bromann</code></a>)</li>
+</ul>
+</li>
+</ul>
+<h4>:nail_care: Polish</h4>
+<ul>
+<li><code>wdio-browserstack-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9437">#9437</a> update: mark session as failed if no specs ran (<a href="https://github.com/Ankit098"><code>@​Ankit098</code></a>)</li>
+</ul>
+</li>
+<li><code>wdio-types</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9441">#9441</a> Add missing noProxy typing for Capabilities ProxyObject (<a href="https://github.com/taina0407"><code>@​taina0407</code></a>)</li>
+</ul>
+</li>
+<li><code>wdio-cucumber-framework</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9438">#9438</a> <code>@​wdio/cucumber-framework</code>: add missing Promise.all in registerRequired… (<a href="https://github.com/SCG82"><code>@​SCG82</code></a>)</li>
+</ul>
+</li>
+</ul>
+<h4>:memo: Documentation</h4>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9448">#9448</a> docs: Fix a few typos (<a href="https://github.com/timgates42"><code>@​timgates42</code></a>)</li>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9403">#9403</a> fix: updated wdio execution command in proxy setup (<a href="https://github.com/vjuturu"><code>@​vjuturu</code></a>)</li>
+</ul>
+<h4>:house: Internal</h4>
+<ul>
+<li><code>wdio-types</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9444">#9444</a> <code>@​wdio/types</code>: node16 module resolution compatibility (<a href="https://github.com/SCG82"><code>@​SCG82</code></a>)</li>
+</ul>
+</li>
+<li><code>devtools</code>, <code>eslint-plugin-wdio</code>, <code>wdio-allure-reporter</code>, <code>wdio-appium-service</code>, <code>wdio-browser-runner</code>, <code>wdio-browserstack-service</code>, <code>wdio-cli</code>, <code>wdio-concise-reporter</code>, <code>wdio-config</code>, <code>wdio-crossbrowsertesting-service</code>, <code>wdio-cucumber-framework</code>, <code>wdio-devtools-service</code>, <code>wdio-globals</code>, <code>wdio-jasmine-framework</code>, <code>wdio-junit-reporter</code>, <code>wdio-local-runner</code>, <code>wdio-logger</code>, <code>wdio-mocha-framework</code>, <code>wdio-repl</code>, <code>wdio-reporter</code>, <code>wdio-runner</code>, <code>wdio-sauce-service</code>, <code>wdio-selenium-standalone-service</code>, <code>wdio-shared-store-service</code>, <code>wdio-spec-reporter</code>, <code>wdio-sumologic-reporter</code>, <code>wdio-testingbot-service</code>, <code>wdio-types</code>, <code>wdio-utils</code>, <code>wdio-webdriver-mock-service</code>, <code>webdriver</code>, <code>webdriverio</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9445">#9445</a> Adding new EsLint rules (<a href="https://github.com/christian-bromann"><code>@​christian-bromann</code></a>)</li>
+</ul>
+</li>
+<li>Other
+<ul>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9429">#9429</a> Update reference link to eslint governance file (<a href="https://github.com/Relequestual"><code>@​Relequestual</code></a>)</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 7</h4>
+<ul>
+<li>Ankit Singh (<a href="https://github.com/Ankit098"><code>@​Ankit098</code></a>)</li>
+<li>Ben Hutton (<a href="https://github.com/Relequestual"><code>@​Relequestual</code></a>)</li>
+<li>Christian Bromann (<a href="https://github.com/christian-bromann"><code>@​christian-bromann</code></a>)</li>
+<li>Tim Gates (<a href="https://github.com/timgates42"><code>@​timgates42</code></a>)</li>
+<li>Vampire (<a href="https://github.com/taina0407"><code>@​taina0407</code></a>)</li>
+<li><a href="https://github.com/SCG82"><code>@​SCG82</code></a></li>
+<li><a href="https://github.com/vjuturu"><code>@​vjuturu</code></a></li>
+</ul>
+<h2>v8.0.13 (2022-12-14)</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>wdio-cli</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9399">#9399</a> Kill worker process if parent shuts down (<a href="https://github.com/christian-bromann"><code>@​christian-bromann</code></a>)</li>
+</ul>
+</li>
+<li><code>wdio-local-runner</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9398">#9398</a> Fix watch mode by better resolving worker readiness (<a href="https://github.com/christian-bromann"><code>@​christian-bromann</code></a>)</li>
+</ul>
+</li>
+<li><code>wdio-utils</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9397">#9397</a> Fix async iterators (<a href="https://github.com/christian-bromann"><code>@​christian-bromann</code></a>)</li>
+</ul>
+</li>
+</ul>
+<h4>:memo: Documentation</h4>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/webdriverio/webdriverio/pull/9392">#9392</a> Add docs for Accessibility Testing (<a href="https://github.com/christian-bromann"><code>@​christian-bromann</code></a>)</li>
+</ul>
+<!-- raw HTML omitted -->
 </blockquote>
+<p>... (truncated)</p>
 </details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/auth0/node-jsonwebtoken/commit/e1fa9dcc12054a8681db4e6373da1b30cf7016e3"><code>e1fa9dc</code></a> Merge pull request from GHSA-8cf7-32gw-wr33</li>
-<li><a href="https://github.com/auth0/node-jsonwebtoken/commit/5eaedbf2b01676d952336e73b4d2efba847d2d1b"><code>5eaedbf</code></a> chore(ci): remove github test actions job (<a href="https://github-redirect.dependabot.com/auth0/node-jsonwebtoken/issues/861">#861</a>)</li>
-<li><a href="https://github.com/auth0/node-jsonwebtoken/commit/cd4163eb1407aab0b3148f91b0b9c26276b96c6b"><code>cd4163e</code></a> chore(ci): configure Github Actions jobs for Tests &amp; Security Scanning (<a href="https://github-redirect.dependabot.com/auth0/node-jsonwebtoken/issues/856">#856</a>)</li>
-<li><a href="https://github.com/auth0/node-jsonwebtoken/commit/ecdf6cc6073ea13a7e71df5fad043550f08d0fa6"><code>ecdf6cc</code></a> fix!: Prevent accidental use of insecure key sizes &amp; misconfiguration of secr...</li>
-<li><a href="https://github.com/auth0/node-jsonwebtoken/commit/834503079514b72264fd13023a3b8d648afd6a16"><code>8345030</code></a> fix(sign&amp;verify)!: Remove default <code>none</code> support from <code>sign</code> and <code>verify</code> met...</li>
-<li><a href="https://github.com/auth0/node-jsonwebtoken/commit/7e6a86b1c25e5fd05733c52c118848341aba1c4e"><code>7e6a86b</code></a> Upload OpsLevel YAML (<a href="https://github-redirect.dependabot.com/auth0/node-jsonwebtoken/issues/849">#849</a>)</li>
-<li><a href="https://github.com/auth0/node-jsonwebtoken/commit/74d5719bd03993fcf71e3b176621f133eb6138c0"><code>74d5719</code></a> docs: update references vercel/ms references (<a href="https://github-redirect.dependabot.com/auth0/node-jsonwebtoken/issues/770">#770</a>)</li>
-<li><a href="https://github.com/auth0/node-jsonwebtoken/commit/d71e383862fc735991fd2e759181480f066bf138"><code>d71e383</code></a> docs: document &quot;invalid token&quot; error</li>
-<li><a href="https://github.com/auth0/node-jsonwebtoken/commit/37650031fd0bac1a5b0d682bbfcf8c1705917aa9"><code>3765003</code></a> docs: fix spelling in README.md: Peak -&gt; Peek (<a href="https://github-redirect.dependabot.com/auth0/node-jsonwebtoken/issues/754">#754</a>)</li>
-<li><a href="https://github.com/auth0/node-jsonwebtoken/commit/a46097e962621ab2ba718d1da6025cdeba3597c8"><code>a46097e</code></a> docs: make decode impossible to discover before verify</li>
-<li>Additional commits viewable in <a href="https://github.com/auth0/node-jsonwebtoken/compare/v8.5.1...v9.0.0">compare view</a></li>
+<li><a href="https://github.com/webdriverio/webdriverio/commit/ab58bc79c1df2e146d02a68ee444766ec371e6d2"><code>ab58bc7</code></a> v8.0.14</li>
+<li><a href="https://github.com/webdriverio/webdriverio/commit/e233109633c5576e1edbf25adfb4ad6cdfd39b19"><code>e233109</code></a> enforce curly brackets</li>
+<li><a href="https://github.com/webdriverio/webdriverio/commit/62e24d4dd9d58f3b4168866189d60e7e8da09a9b"><code>62e24d4</code></a> Adding new EsLint rules (<a href="https://github.com/webdriverio/webdriverio/tree/HEAD/packages/wdio-mocha-framework/issues/9445">#9445</a>)</li>
+<li><a href="https://github.com/webdriverio/webdriverio/commit/912db21d2cd4552a02b776ba74cae05440b076de"><code>912db21</code></a> v8.0.13</li>
+<li><a href="https://github.com/webdriverio/webdriverio/commit/22627575a41d9dc7415a2441bd894c0419725334"><code>2262757</code></a> v8.0.11</li>
+<li><a href="https://github.com/webdriverio/webdriverio/commit/1c350a14144ecc5f1ebc598c385bae6aa80739c3"><code>1c350a1</code></a> v8.0.10</li>
+<li><a href="https://github.com/webdriverio/webdriverio/commit/f92405a6bab7d0409d3b2777e8d65aaa493a4899"><code>f92405a</code></a> v8.0.9</li>
+<li><a href="https://github.com/webdriverio/webdriverio/commit/c07255fefc67137fd27f23da5f0792c10157f8c0"><code>c07255f</code></a> v8.0.8</li>
+<li><a href="https://github.com/webdriverio/webdriverio/commit/a874a82a727634d1323fff05c17455ba0907a020"><code>a874a82</code></a> v8.0.7</li>
+<li><a href="https://github.com/webdriverio/webdriverio/commit/4f63a94a3af029401d652ff1d0fa36e9057f553c"><code>4f63a94</code></a> v8.0.6</li>
+<li>Additional commits viewable in <a href="https://github.com/webdriverio/webdriverio/commits/v8.0.14/packages/wdio-mocha-framework">compare view</a></li>
 </ul>
 </details>
 <details>
 <summary>Maintainer changes</summary>
-<p>This version was pushed to npm by <a href="https://www.npmjs.com/~julien.wollscheid">julien.wollscheid</a>, a new releaser for jsonwebtoken since your current version.</p>
+<p>This version was pushed to npm by <a href="https://www.npmjs.com/~wdio-user">wdio-user</a>, a new releaser for <code>@​wdio/mocha-framework</code> since your current version.</p>
 </details>
 <br />
 
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=jsonwebtoken&package-manager=npm_and_yarn&previous-version=8.5.1&new-version=9.0.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -109,7 +298,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-23 03:58:36 +0000 UTC
+        Created At 2022-12-30 23:37:51 +0000 UTC
     </div>
 </div>
 
