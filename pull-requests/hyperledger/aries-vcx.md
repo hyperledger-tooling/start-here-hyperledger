@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/714" class=".btn">#714</a>
+            </td>
+            <td>
+                <b>
+                    Minor renames, remove unnecessary asyncs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Additional sequel to https://github.com/hyperledger/aries-vcx/pull/711 refactoring
+
+- removed `async` where no `await` was actually used
+- renamed 2 functions within `api_vcx` libvcx layer 
+
+
+Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2022-12-31 17:16:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/713" class=".btn">#713</a>
             </td>
             <td>
