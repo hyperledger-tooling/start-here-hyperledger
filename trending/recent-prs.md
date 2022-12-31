@@ -1,13 +1,13 @@
 
+[714](https://github.com/hyperledger/aries-vcx/pull/714) Minor renames, remove unnecessary asyncs
+
+[50](https://github.com/hyperledger-labs/yui-docs/pull/50) Bump json5 and @ensdomains/ensjs in /samples/minitoken-besu-ethereum
+
+[4871](https://github.com/hyperledger/besu/pull/4871) Re-enable integration tests
+
+[96](https://github.com/hyperledger-labs/university-course/pull/96) chore(deps): bump json5, @vue/cli-plugin-babel, @vue/cli-plugin-eslint and @vue/cli-service in /support/Lab06/b4s/organization/university/user-interface
+
 [4870](https://github.com/hyperledger/besu/pull/4870) Revert junit5 integrationTests
-
-[481](https://github.com/hyperledger-labs/orion-server/pull/481) test: use `T.TempDir` to create temporary test directory
-
-[2113](https://github.com/hyperledger/bevel/pull/2113) Bump json5 and babel-brunch in /platforms/r3-corda/images/networkmap/website
-
-[2112](https://github.com/hyperledger/bevel/pull/2112) Bump json5 and babel-brunch in /platforms/r3-corda/images/doorman/website
-
-[322](https://github.com/hyperledger-labs/blockchain-explorer/pull/322) Bump flat and @wdio/mocha-framework in /client
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
