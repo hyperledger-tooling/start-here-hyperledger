@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/89" class=".btn">#89</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/91" class=".btn">#91</a>
             </td>
             <td>
                 <b>
-                    fix: integration ca test
+                    Update CA integration test to use localho.st DNS domain
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                Signed-off-by: Abirdcfly <fp544037857@gmail.com>
+                Fixes #90 
+
+Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-30 04:20:49 +0000 UTC
+        Created At 2023-01-02 12:58:48 +0000 UTC
     </div>
 </div>
 
