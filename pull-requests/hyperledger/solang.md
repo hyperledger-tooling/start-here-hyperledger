@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1119" class=".btn">#1119</a>
+            </td>
+            <td>
+                <b>
+                    Fix mappings docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR clarifies some aspects of the documentation about mappings:
+
+1. The tip below the example is misleading, because its example shows the way NOT to use the mapping. I added the inefficient way in the example and moved the efficient one to the tip. This is aimed at a faster understanding because people don't like reading.
+2. The link that describes hash flooding leads to an old page from 2011. The wikipedia page has more meaningful information about the attack.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-02 17:14:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1118" class=".btn">#1118</a>
+            </td>
+            <td>
+                <b>
+                    Fix docs on CI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Cyrill Leutwiler <bigcyrill@hotmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-02 08:47:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1117" class=".btn">#1117</a>
             </td>
             <td>

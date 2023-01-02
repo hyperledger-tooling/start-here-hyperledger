@@ -62,31 +62,3 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1184" class=".btn">#1184</a>
-            </td>
-            <td>
-                <b>
-                    fix: missing migration script and exports
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Unfortunately, `migrateDidRecordToV0_3` was not added to `updateV0_2ToV0_3` script, meaning that DID records were not upgraded, making DIDs non-resolvable.
-
-This PR fixes that and also exposes a few classes that are mentioned in [the documentation](https://aries.js.org/guides/updating/update-assistant) but were no exported directly.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-26 17:57:03 +0000 UTC
-    </div>
-</div>
-

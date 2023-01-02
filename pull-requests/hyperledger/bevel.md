@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2115" class=".btn">#2115</a>
+            </td>
+            <td>
+                <b>
+                    Minikube Fabric documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- Add Minikube documentation
+- Fix to deploy HF fabric on minikube
+
+ 
+
+**Reviewed by**
+@jagpreetsinghsasan 
+
+ 
+
+**Linked issue**
+#1796 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-02 07:35:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2113" class=".btn">#2113</a>
             </td>
             <td>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/78" class=".btn">#78</a>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/80" class=".btn">#80</a>
             </td>
             <td>
                 <b>
-                    rfc23 states as enum
+                    Missing Builder Annotation 
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
                 
             </td>
             <td>
-                Signed-off-by: Philipp Etschel <philipp@etschel.net>
+                see #79 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-02 13:28:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/77" class=".btn">#77</a>
-            </td>
-            <td>
-                <b>
-                    version updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-02 12:32:01 +0000 UTC
+        Created At 2023-01-02 12:00:16 +0000 UTC
     </div>
 </div>
 
