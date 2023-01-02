@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-signer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-signer/pull/30" class=".btn">#30</a>
+                PR <a href="https://github.com/hyperledger/firefly-signer/pull/31" class=".btn">#31</a>
             </td>
             <td>
                 <b>
-                    Use RPCError as return from CallRPC() to catch error details
+                    Custom error support in Ethereum ABI
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-signer
                 
             </td>
             <td>
-                Signed-off-by: Jim Zhang <jim.zhang@kaleido.io>
+                Add support for specifying custom error definitions between FFI and ABI as described in https://github.com/hyperledger/firefly-evmconnect/pull/42
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-05 02:34:10 +0000 UTC
+        Created At 2023-01-01 20:55:48 +0000 UTC
     </div>
 </div>
 
