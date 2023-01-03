@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/toc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/41" class=".btn">#41</a>
+                PR <a href="https://github.com/hyperledger/toc/pull/42" class=".btn">#42</a>
             </td>
             <td>
                 <b>
-                    Fix typo
+                    TOC 2022-2023
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/toc
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-17 07:11:39 +0000 UTC
+        Created At 2023-01-02 21:04:52 +0000 UTC
     </div>
 </div>
 

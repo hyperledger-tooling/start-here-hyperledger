@@ -38,16 +38,6 @@ error CustomError2(string x);
 contract SimpleStorage {
     uint256 storedData;
 
-    constructor(uint256 x) {
-        if (x == 0) {
-            revert CustomError1({x: x, y: x});
-        }
-        if (x == 1) {
-            revert CustomError2({x: "This is a custom error"});
-        }
-        require(x > 2, "Can not equal to 2");
-    }
-
     function set(uint256 x) public {
         if (x == 0) {
             revert CustomError1({x: x, y: x});
