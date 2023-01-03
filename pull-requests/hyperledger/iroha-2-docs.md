@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/245" class=".btn">#245</a>
+            </td>
+            <td>
+                <b>
+                    [docs] Extend the glossary
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                A small extension for the glossary, so the doc is easier to navigate without confusing the user with the terminology.
+It is possible to link the assets instead of the glossary for the asset-related part, but I believe the glossary section should be separate.
+
+Signed-off-by: 6r1d <vic.6r1d@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-03 05:10:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/244" class=".btn">#244</a>
+            </td>
+            <td>
+                <b>
+                    [chore]: Add Google Analytics
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                This commit adds [Google Analytics](https://analytics.google.com) user activity tracking into Iroha tutorial.
+This was requested on standup and would allow to understand what pages users are looking for.
+
+Signed-off-by: 6r1d <vic.6r1d@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-03 03:20:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/243" class=".btn">#243</a>
             </td>
             <td>
@@ -52,7 +110,7 @@ Closes #237
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">iroha2</span>
             </td>
             <td>
                 I've just added a tutorial config troubleshooting section related to the issue we've encountered with @astrokov7, the outdated genesis when using Docker.

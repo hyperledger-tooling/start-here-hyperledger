@@ -1,13 +1,13 @@
 
-[1233](https://github.com/hyperledger/besu-docs/pull/1233) Bump mkdocs-material from 8.5.11 to 9.0.0 in /CI
+[125](https://github.com/hyperledger/anoncreds-spec/pull/125) revocation list model
 
-[1232](https://github.com/hyperledger/besu-docs/pull/1232) Bump plantuml-markdown from 3.7.3 to 3.8.0 in /CI
+[245](https://github.com/hyperledger/iroha-2-docs/pull/245) [docs] Extend the glossary
 
-[42](https://github.com/hyperledger/toc/pull/42) TOC 2022-2023
+[2116](https://github.com/hyperledger/bevel/pull/2116) [besu] split crypto generation while adding validator nodes
 
-[366](https://github.com/hyperledger-labs/fablo/pull/366) Bump json5 and tsconfig-paths
+[86](https://github.com/hyperledger-labs/karma-charity-platform/pull/86) Bump json5 from 2.2.0 to 2.2.3 in /explorer/frontend
 
-[1119](https://github.com/hyperledger/solang/pull/1119) Fix mappings docs
+[85](https://github.com/hyperledger-labs/karma-charity-platform/pull/85) Bump json5 and tsconfig-paths in /chaincode
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
