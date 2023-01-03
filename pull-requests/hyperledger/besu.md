@@ -14,6 +14,98 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4874" class=".btn">#4874</a>
+            </td>
+            <td>
+                <b>
+                    [Work In Progress] Cache empty slots
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ameziane H <ameziane.hamlat@consensys.net>
+Co-authored-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This PR will evaluate how much empty slots are stored in RocksDB and test if caching these empty slots would help to improve SLOAD performance.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-03 08:32:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4873" class=".btn">#4873</a>
+            </td>
+            <td>
+                <b>
+                    Add `Future` and `Experimental` forks and networks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Add two new development networks and forks, `Future` for EIPs not yet scheduled for a fork and `Experimental` for EIPs and other work not yet accepted to a public network.  Two new fork-named networks are added like the `dev` network to facilitate easy local development. These replace the deprecated `Shandong` network and fork.
+
+Signed-off-by: Danno Ferrin <danno.ferrin@swirldslabs.com>
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-03 06:25:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4872" class=".btn">#4872</a>
             </td>
             <td>
@@ -66,7 +158,7 @@ Fix errors found in differetial fuzzing.
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 
@@ -205,6 +297,7 @@ Signed-off-by: Danno Ferrin <danno.ferrin@swirldslabs.com>
             </td>
             <td>
                 Signed-off-by: Ameziane H <ameziane.hamlat@consensys.net>
+Co-authored-by: Karim TAAM <karim.t2am@gmail.com>
 
 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->

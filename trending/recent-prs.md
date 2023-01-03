@@ -1,13 +1,13 @@
 
-[125](https://github.com/hyperledger/anoncreds-spec/pull/125) revocation list model
+[3889](https://github.com/hyperledger/fabric/pull/3889) Update jq command in channel config docs (backport #3888)
 
-[245](https://github.com/hyperledger/iroha-2-docs/pull/245) [docs] Extend the glossary
+[149](https://github.com/hyperledger-labs/orion-sdk-go/pull/149) Encode keys in URLs with base64url raw & User ACL
 
-[2116](https://github.com/hyperledger/bevel/pull/2116) [besu] split crypto generation while adding validator nodes
+[88](https://github.com/hyperledger-labs/karma-charity-platform/pull/88) Bump jsonwebtoken, @nestjs/jwt and passport-jwt in /platform/backend
 
-[86](https://github.com/hyperledger-labs/karma-charity-platform/pull/86) Bump json5 from 2.2.0 to 2.2.3 in /explorer/frontend
+[87](https://github.com/hyperledger-labs/karma-charity-platform/pull/87) Bump json5 from 2.2.1 to 2.2.3 in /platform/frontend
 
-[85](https://github.com/hyperledger-labs/karma-charity-platform/pull/85) Bump json5 and tsconfig-paths in /chaincode
+[356](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/356) RFC Improvements and Package Version Updates
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
