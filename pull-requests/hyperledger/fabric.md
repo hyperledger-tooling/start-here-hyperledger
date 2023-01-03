@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3888" class=".btn">#3888</a>
+            </td>
+            <td>
+                <b>
+                    Update jq command in channel config docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I've found that quotes are needed around the jq target path.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-03 02:23:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3885" class=".btn">#3885</a>
             </td>
             <td>
