@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/149" class=".btn">#149</a>
+            </td>
+            <td>
+                <b>
+                    Encode keys in URLs with base64url raw & User ACL
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Encode keys in URLs with base64url raw
+- Fix user management ACL logic per new design
+
+Signed-off-by: Yoav Tock <tock@il.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-03 10:19:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/148" class=".btn">#148</a>
             </td>
             <td>

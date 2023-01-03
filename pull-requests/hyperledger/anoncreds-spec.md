@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/126" class=".btn">#126</a>
+            </td>
+            <td>
+                <b>
+                    add issuer identifier
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds an `issuerId` property to all anoncreds ledger objects. The revocation status list is still todo, but it needs #125 so I'll add it in another PR.
+
+For now just added a short section that the anoncreds method must define what the issuerId is, and how you can guarantee only the controller of the identifier can / is allowed to publish objects with an issuerId they control.
+
+Fixes #116 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-03 07:30:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/125" class=".btn">#125</a>
             </td>
             <td>

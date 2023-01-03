@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/354" class=".btn">#354</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/356" class=".btn">#356</a>
             </td>
             <td>
                 <b>
-                    Data Sharing Protocol Bug Fixes and RFC Specification Improvements
+                    RFC Improvements and Package Version Updates
                 </b>
             </td>
         </tr>
@@ -27,16 +27,15 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                This PR fixed the Fabric view structure and the associated proof collection and validation logic to take into account the fact that different proof-generating peers may produce and sign different blobs representing the same underlying data (because protobuf serialization and data encryption are typically non-deterministic). This required changes to the common protobufs, the Fabric Driver, the Fabric Interoperation Chaincode, and the Fabric Interoperation Node SDK. (The Fabric Interoperation Go SDK will be updated at a later date along with various other feature upgrades.) This fixes #350 and #351 .
-
-Images were fixed to be rendered properly on dark backgrounds as required by #260 .
-
-Asset transfer RFC specifications were completed as required by #237 .
+                Updated the Fabric Interoperation Chaincode `libs/utils` version.
+Fixed permissioning issues in containerized Fabric Driver and Fabric IIN Agent.
+Upgraded Fabric testnets to latest Fabric and Fabric-CA versions.
+Updated Data Sharing RFCs, partially fixing #238 .
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-27 06:53:17 +0000 UTC
+        Created At 2023-01-03 08:55:03 +0000 UTC
     </div>
 </div>
 

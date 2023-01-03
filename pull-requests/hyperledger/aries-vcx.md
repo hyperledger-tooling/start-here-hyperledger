@@ -30,7 +30,13 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 Additional sequel to https://github.com/hyperledger/aries-vcx/pull/711 refactoring
 
 - removed `async` where no `await` was actually used
-- renamed 2 functions within `api_vcx` libvcx layer 
+- renamed `create_proof` -> `create_with_proof_request`, `create_proof_with_msgid`  -> `create_with_msgid`
+- fix clippy warnings, `agency_update_agent_webhook` - > `update_webhook_url`
+- pulled logic from `api_c` layer `vcx_connection_sign_data`, `vcx_connection_verify_signature `, `vcx_get_service_from_ledger `,  to `api_vcx`  layer
+- remove unnecessary `await`s
+- moved declaration of `VERSION_STRING` in `api_vcx` layer
+- Removed unnecessary logs
+
 
 
 Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
