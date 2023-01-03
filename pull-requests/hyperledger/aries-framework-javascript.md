@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1185" class=".btn">#1185</a>
-            </td>
-            <td>
-                <b>
-                    chore(migrations): add generated test 0.2 connection records for migration tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR is a follow up to #1177 and includes generated test connection records from [this script](https://github.com/petridishdev/aries-framework-javascript-test-data-generator/blob/main/index.ts) along with migration tests and snapshots for AFJ update from 0.2 to 0.3.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-26 21:28:27 +0000 UTC
-    </div>
-</div>
-
