@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/83" class=".btn">#83</a>
+                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/85" class=".btn">#85</a>
             </td>
             <td>
                 <b>
-                    feat: changes in connections, dids and handlers to 0.2-0.3 migration guide
+                    fix: agent setup for 0.3.0
                 </b>
             </td>
         </tr>
@@ -27,12 +27,42 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
                 
             </td>
             <td>
-                Signed-off-by: Ariel Gentile <gentilester@gmail.com>
+                Signed-off-by: Timo Glastra <timo@animo.id>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-26 14:45:19 +0000 UTC
+        Created At 2023-01-03 15:24:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/84" class=".btn">#84</a>
+            </td>
+            <td>
+                <b>
+                    fix: add expo workaround for yarn
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds a workaround that allows you to use expo in AFJ 0.3.0 with yarn.
+
+Sort of addresses https://github.com/hyperledger/aries-framework-javascript/issues/1189, but only as a hacky workaround, not an actual fix.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-03 15:09:32 +0000 UTC
     </div>
 </div>
 

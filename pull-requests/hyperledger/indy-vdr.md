@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/124" class=".btn">#124</a>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/125" class=".btn">#125</a>
             </td>
             <td>
                 <b>
-                    fix(js): cleanup
+                    build(android): add CI/CD
                 </b>
             </td>
         </tr>
@@ -27,17 +27,14 @@ permalink: /pull-requests/hyperledger/indy-vdr
                 
             </td>
             <td>
-                - Renamed all packages to prefix `indy-vdr-`
-  - This was done as there were issues with an example application when a folder in the workplace is called `react-native`. This is quite explicit, but it would fix some annoying IDE error and linting warnings.
-- Removed some scripts as we do most stuff from the root at `wrapper/javascript`
+                Work funded by the Government of Ontario.
 
-
-Work funded by the Government of Ontario.
+Signed-off-by: blu3beri <blu3beri@proton.me>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-20 12:49:47 +0000 UTC
+        Created At 2023-01-03 15:10:04 +0000 UTC
     </div>
 </div>
 
