@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/715" class=".btn">#715</a>
+            </td>
+            <td>
+                <b>
+                    Remove public agent
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">refactoring</span><span class="chip">wrappers</span><span class="chip">breaking</span><span class="chip">agents</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-03 16:37:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/714" class=".btn">#714</a>
             </td>
             <td>

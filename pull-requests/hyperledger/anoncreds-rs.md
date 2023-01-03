@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/37" class=".btn">#37</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/40" class=".btn">#40</a>
             </td>
             <td>
                 <b>
-                    wip: draft create_or_update_rev_state
+                    Integrate indy-utils into anoncreds
                 </b>
             </td>
         </tr>
@@ -27,12 +27,21 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
                 
             </td>
             <td>
-                <nil>
+                closes #33 
+
+Draft PR for removing / integrating the indy-utils within the anoncreds package
+
+- NOTE: indy-vdr relies on the indy-utils package so there will some minor duplicate code.
+  (e.g. base64/58)
+
+Work funded by the Government of Ontario.
+
+Signed-off-by: blu3beri <blu3beri@proton.me>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-27 15:12:58 +0000 UTC
+        Created At 2023-01-03 14:05:03 +0000 UTC
     </div>
 </div>
 

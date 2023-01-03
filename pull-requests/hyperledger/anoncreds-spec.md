@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/128" class=".btn">#128</a>
+            </td>
+            <td>
+                <b>
+                    Update presentation request section, including removing WQL
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-03 15:54:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/126" class=".btn">#126</a>
             </td>
             <td>
