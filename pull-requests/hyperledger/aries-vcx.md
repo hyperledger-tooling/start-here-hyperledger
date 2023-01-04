@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/716" class=".btn">#716</a>
+            </td>
+            <td>
+                <b>
+                    Tweak u32 handle releasing handling
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Came up as desired change while working on https://github.com/hyperledger/aries-vcx/pull/665
+
+- Change behaviour of releasing to be more forgiving - in tests of `vcx-napi-rs` where we frequently initialize and deinitialize happens often, it happens that garbage collector calls `release` on handle which we have freed manually via `shutdown` function
+- Additionally: move some tests from `api_c` to `api_vcx`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-03 21:28:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/715" class=".btn">#715</a>
             </td>
             <td>
@@ -27,7 +56,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 <span class="chip">refactoring</span><span class="chip">wrappers</span><span class="chip">breaking</span><span class="chip">agents</span>
             </td>
             <td>
-                <nil>
+                Removes any and all usage of public agents in the codebase. In Rust integration tests where connection bootstrapping was previously performed via a public agent, an alternative approach was temporarily (i.e. until mediated connection is removed) chosen: the connection request message is sent / received via a channel instead of a DidComm endpoint to avoid overhead associated with managing an open TCP socket per test in Rust. However, vcx-agent-core integration tests do exchange connection requests via DidComm endpoint.
             </td>
         </tr>
     </table>
@@ -138,38 +167,6 @@ Note that also in some places, where we know it is only used for testing (e.g. m
     </table>
     <div class="right-align">
         Created At 2022-12-29 11:11:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/710" class=".btn">#710</a>
-            </td>
-            <td>
-                <b>
-                    Libvcx/refactor
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Divides `libvcx` in 2 main `api_c` and `api_vcx` modules which could be potentially split out as separate crates https://github.com/hyperledger/aries-vcx/issues/700
-- `api_c` depends on `api_vcx` and contain libvcx c interface
-- `api_vcx` doesn't know about `api_c` and contains the internal logic
-- This should make implementation on https://github.com/hyperledger/aries-vcx/pull/665 smoother
-- `errors` module was moved under `src/errors` to be consistent with other crates (previously under `src/api_lib/errors`)
-- Defined build feature `libvcx_c` - if specified, `api_c` is included in the build
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-27 18:58:42 +0000 UTC
     </div>
 </div>
 

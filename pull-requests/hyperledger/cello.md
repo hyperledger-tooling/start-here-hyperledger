@@ -39,31 +39,3 @@ Signed-off-by: xichen1 <xichen.pan@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/506" class=".btn">#506</a>
-            </td>
-            <td>
-                <b>
-                    Update docker agent version and dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * Bump docker-agent python version to 3.8
-* Upgrade required dependencies to the latest releases 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-27 23:55:40 +0000 UTC
-    </div>
-</div>
-

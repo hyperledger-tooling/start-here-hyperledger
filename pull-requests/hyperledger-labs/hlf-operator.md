@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/135" class=".btn">#135</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/136" class=".btn">#136</a>
             </td>
             <td>
                 <b>
-                    Minor fixes
+                    1.8.3
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
                 
             </td>
             <td>
-                Fix #128 #129
+                Retry fetch orderer channel block while creating the channel
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-12 13:37:38 +0000 UTC
+        Created At 2023-01-03 21:24:08 +0000 UTC
     </div>
 </div>
 
