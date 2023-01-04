@@ -1,13 +1,13 @@
 
+[106](https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/106) Add /checkinterface API
+
+[3892](https://github.com/hyperledger/fabric/pull/3892) change order of raft state change notification (backport #3863)
+
+[4879](https://github.com/hyperledger/besu/pull/4879) Deprecation warning for Goquorum privacy mode
+
+[86](https://github.com/hyperledger/aries-javascript-docs/pull/86) fix: android setup
+
 [579](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/579) feat: remove contact
-
-[4876](https://github.com/hyperledger/besu/pull/4876) Create skeleton structure for Engine API V2 methods
-
-[4875](https://github.com/hyperledger/besu/pull/4875) Worldstate-only resync behavior
-
-[716](https://github.com/hyperledger/aries-vcx/pull/716) Tweak u32 handle releasing handling
-
-[136](https://github.com/hyperledger-labs/hlf-operator/pull/136) 1.8.3
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

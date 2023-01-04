@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4879" class=".btn">#4879</a>
+            </td>
+            <td>
+                <b>
+                    Deprecation warning for Goquorum privacy mode
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add a warning if besu is started with isQuorum mode in genesis file. 
+Advise to use `--privacy-enabled` instead
+
+Fixes #4848 
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-04 02:25:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4876" class=".btn">#4876</a>
             </td>
             <td>
@@ -31,6 +69,8 @@ permalink: /pull-requests/hyperledger/besu
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+
+First step to implementing https://github.com/ethereum/execution-apis/blob/main/src/engine/shanghai.md
 
 Create AbstractEngineNewPayload and AbstractEngineForkchoiceUpdated, extending with V1 and V2 versions.
 (AbstractEngineGetPayload and V2 was already introduced in https://github.com/hyperledger/besu/commit/a483f79cc8b7741cb9fb0145d92307b6d5cfdc62)
