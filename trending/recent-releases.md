@@ -1,13 +1,13 @@
 
-[v0.3.0](https://github.com/hyperledger/aries-framework-javascript/releases/tag/v0.3.0) v0.3.0
+[v1.8.3](https://github.com/hyperledger-labs/hlf-operator/releases/tag/v1.8.3) Version 1.8.3
 
-[common/protos-go/v1.5.5](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/common/protos-go/v1.5.5) v1.5.5 - GO Weaver Protos - Dec 22, 2022
+[v1.8.2](https://github.com/hyperledger-labs/hlf-operator/releases/tag/v1.8.2) Version 1.8.2
 
-[v1.0.0](https://github.com/hyperledger-labs/cckit/releases/tag/v1.0.0) Initial from https://github.com/s7techlab/cckit
+[core/network/fabric-interop-cc/libs/utils/v1.5.6](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/libs/utils/v1.5.6) v1.5.6 - GO Fabric Utils Library for Interoperation - Jan 03, 2023
 
-[v1.1.11](https://github.com/hyperledger/firefly-evmconnect/releases/tag/v1.1.11) v1.1.11
+[v0.3.1](https://github.com/hyperledger/aries-framework-javascript/releases/tag/v0.3.1) v0.3.1
 
-[v1.2.2](https://github.com/hyperledger/aries-framework-swift/releases/tag/v1.2.2) v1.2.2
+[common/protos-go/v1.5.6](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/common/protos-go/v1.5.6) v1.5.6 - GO Weaver Protos - Dec 29, 2022
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
