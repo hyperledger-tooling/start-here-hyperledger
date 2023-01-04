@@ -15,32 +15,60 @@ permalink: /releases/hyperledger-labs/hlf-operator
         <tr>
             <td colspan="2">
                 <b>
-                    Version 1.8.1
+                    Version 1.8.3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.8.1
+                    v1.8.3
                 </span>
             </td>
             <td>
                 ## Changelog
-* fef6564 Minor fixes (#135)
-* 9b4e7fc Kubectl add image pull secrets (#134)
-* 7dfa0a7 update docs
-* 9c0b397 update docs
+* 6a95811 1.8.3 (#136)
 
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/hlf-operator/releases/tag/v1.8.1" class=".btn">
+    <a href="https://github.com/hyperledger-labs/hlf-operator/releases/tag/v1.8.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-12-12 14:21:49 +0000 UTC
+        Created At 2023-01-03 22:26:18 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    Version 1.8.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v1.8.2
+                </span>
+            </td>
+            <td>
+                ## Changelog
+* 0b95743 update to go 1.19
+
+
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger-labs/hlf-operator/releases/tag/v1.8.2" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-01-03 19:54:57 +0000 UTC
     </span>
 </div>
 
