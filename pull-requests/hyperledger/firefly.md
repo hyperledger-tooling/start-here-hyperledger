@@ -245,7 +245,7 @@ response:
             </td>
             <td>
                 Part of [FIR-16](https://github.com/hyperledger/firefly-fir/pull/16).
-Depends on https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/104 and https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/106.
+Depends on https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/106.
 
 _Discussion about the overall architecture/usefulness of this proposed feature should be directed to [FIR-16](https://github.com/hyperledger/firefly-fir/pull/16), while discussion here should focus on specific technical details of the current proposed approach._
 

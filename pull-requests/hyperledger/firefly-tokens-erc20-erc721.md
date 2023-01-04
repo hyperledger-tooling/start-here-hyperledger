@@ -14,40 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/106" class=".btn">#106</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/107" class=".btn">#107</a>
             </td>
             <td>
                 <b>
-                    Add /checkinterface API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In a chain with #104.
-Part of [FIR-16](https://github.com/hyperledger/firefly-fir/pull/16).
-
-Add a new `/checkinterface` API which takes in a full ABI and returns the recognized methods from that ABI for approval/mint/burn/transfer operations.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-04 03:53:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/105" class=".btn">#105</a>
-            </td>
-            <td>
-                <b>
-                    Bump json5 and tsconfig-paths
+                    Bump json5 from 1.0.1 to 1.0.2
                 </b>
             </td>
         </tr>
@@ -56,22 +27,14 @@ Add a new `/checkinterface` API which takes in a full ABI and returns the recogn
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [json5](https://github.com/json5/json5) to 2.2.3 and updates ancestor dependency [tsconfig-paths](https://github.com/dividab/tsconfig-paths). These dependencies need to be updated together.
-
-Updates `json5` from 2.2.1 to 2.2.3
+                Bumps [json5](https://github.com/json5/json5) from 1.0.1 to 1.0.2.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/json5/json5/releases">json5's releases</a>.</em></p>
 <blockquote>
-<h2>v2.2.3</h2>
+<h2>v1.0.2</h2>
 <ul>
-<li>Fix: json5@2.2.3 is now the 'latest' release according to npm instead of v1.0.2. (<a href="https://github-redirect.dependabot.com/json5/json5/issues/299">#299</a>)</li>
-</ul>
-<h2>v2.2.2</h2>
-<ul>
-<li>Fix: Properties with the name <code>__proto__</code> are added to objects and arrays.
-(<a href="https://github-redirect.dependabot.com/json5/json5/issues/199">#199</a>) This also fixes a prototype pollution vulnerability reported by
-Jonathan Gregson! (<a href="https://github-redirect.dependabot.com/json5/json5/issues/295">#295</a>).</li>
+<li>Fix: Properties with the name <code>__proto__</code> are added to objects and arrays. (<a href="https://github-redirect.dependabot.com/json5/json5/issues/199">#199</a>) This also fixes a prototype pollution vulnerability reported by Jonathan Gregson! (<a href="https://github-redirect.dependabot.com/json5/json5/issues/295">#295</a>). This has been backported to v1. (<a href="https://github-redirect.dependabot.com/json5/json5/issues/298">#298</a>)</li>
 </ul>
 </blockquote>
 </details>
@@ -79,6 +42,7 @@ Jonathan Gregson! (<a href="https://github-redirect.dependabot.com/json5/json5/i
 <summary>Changelog</summary>
 <p><em>Sourced from <a href="https://github.com/json5/json5/blob/main/CHANGELOG.md">json5's changelog</a>.</em></p>
 <blockquote>
+<h3>Unreleased [<a href="https://github.com/json5/json5/tree/main">code</a>, <a href="https://github.com/json5/json5/compare/v2.2.3...HEAD">diff</a>]</h3>
 <h3>v2.2.3 [<a href="https://github.com/json5/json5/tree/v2.2.3">code</a>, <a href="https://github.com/json5/json5/compare/v2.2.2...v2.2.3">diff</a>]</h3>
 <ul>
 <li>Fix: json5@2.2.3 is now the 'latest' release according to npm instead of
@@ -90,93 +54,38 @@ v1.0.2. (<a href="https://github-redirect.dependabot.com/json5/json5/issues/299"
 (<a href="https://github-redirect.dependabot.com/json5/json5/issues/199">#199</a>) This also fixes a prototype pollution vulnerability reported by
 Jonathan Gregson! (<a href="https://github-redirect.dependabot.com/json5/json5/issues/295">#295</a>).</li>
 </ul>
+<h3>v2.2.1 [<a href="https://github.com/json5/json5/tree/v2.2.1">code</a>, <a href="https://github.com/json5/json5/compare/v2.2.0...v2.2.1">diff</a>]</h3>
+<ul>
+<li>Fix: Removed dependence on minimist to patch CVE-2021-44906. (<a href="https://github-redirect.dependabot.com/json5/json5/issues/266">#266</a>)</li>
+</ul>
+<h3>v2.2.0 [<a href="https://github.com/json5/json5/tree/v2.2.0">code</a>, <a href="https://github.com/json5/json5/compare/v2.1.3...v2.2.0">diff</a>]</h3>
+<ul>
+<li>New: Accurate and documented TypeScript declarations are now included. There
+is no need to install <code>@types/json5</code>. (<a href="https://github-redirect.dependabot.com/json5/json5/issues/236">#236</a>, <a href="https://github-redirect.dependabot.com/json5/json5/issues/244">#244</a>)</li>
+</ul>
+<h3>v2.1.3 [<a href="https://github.com/json5/json5/tree/v2.1.3">code</a>, <a href="https://github.com/json5/json5/compare/v2.1.2...v2.1.3">diff</a>]</h3>
+<ul>
+<li>Fix: An out of memory bug when parsing numbers has been fixed. (<a href="https://github-redirect.dependabot.com/json5/json5/issues/228">#228</a>,
+<a href="https://github-redirect.dependabot.com/json5/json5/issues/229">#229</a>)</li>
+</ul>
+<h3>v2.1.2 [<a href="https://github.com/json5/json5/tree/v2.1.2">code</a>, <a href="https://github.com/json5/json5/compare/v2.1.1...v2.1.2">diff</a>]</h3>
+<!-- raw HTML omitted -->
 </blockquote>
+<p>... (truncated)</p>
 </details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/json5/json5/commit/c3a75242772a5026a49c4017a16d9b3543b62776"><code>c3a7524</code></a> 2.2.3</li>
-<li><a href="https://github.com/json5/json5/commit/94fd06d82eeed225fa172f6fb2ca27375cbd2e39"><code>94fd06d</code></a> docs: update CHANGELOG for v2.2.3</li>
-<li><a href="https://github.com/json5/json5/commit/3b8cebf0c474a8b20c78bd75c89cca0c4dce84ce"><code>3b8cebf</code></a> docs(security): use GitHub security advisories</li>
-<li><a href="https://github.com/json5/json5/commit/f0fd9e194dde282caff114a110f4fac635f3a62c"><code>f0fd9e1</code></a> docs: publish a security policy</li>
-<li><a href="https://github.com/json5/json5/commit/6a91a05fffeda16ff6b3b5008b6b340d42d31ec0"><code>6a91a05</code></a> docs(template): bug -&gt; bug report</li>
-<li><a href="https://github.com/json5/json5/commit/14f8cb186e8abdfaccf6527171da7b1224374650"><code>14f8cb1</code></a> 2.2.2</li>
-<li><a href="https://github.com/json5/json5/commit/10cc7ca9169b59c5e0f5afc03dbd870cd06bcc46"><code>10cc7ca</code></a> docs: update CHANGELOG for v2.2.2</li>
-<li><a href="https://github.com/json5/json5/commit/7774c1097993bc3ce9f0ac4b722a32bf7d6871c8"><code>7774c10</code></a> fix: add <strong>proto</strong> to objects and arrays</li>
-<li><a href="https://github.com/json5/json5/commit/edde30abd8b22facf2c06c72586b9f6edf12700d"><code>edde30a</code></a> Readme: slight tweak to intro</li>
-<li><a href="https://github.com/json5/json5/commit/97286f8bd542c89dcee096bc05dd28ed2dfc1e16"><code>97286f8</code></a> Improve example in readme</li>
-<li>Additional commits viewable in <a href="https://github.com/json5/json5/compare/v2.2.1...v2.2.3">compare view</a></li>
+<li><a href="https://github.com/json5/json5/commit/a62db1e51e1031d92ac260f5bb38bbed1fdbc754"><code>a62db1e</code></a> 1.0.2</li>
+<li><a href="https://github.com/json5/json5/commit/e0c23fe458a77c0b2cdb271376be5d8d0908133c"><code>e0c23fe</code></a> docs: update CHANGELOG for v1.0.2</li>
+<li><a href="https://github.com/json5/json5/commit/62a65408408d40aeea14c7869ed327acead12972"><code>62a6540</code></a> fix: add <strong>proto</strong> to objects and arrays</li>
+<li>See full diff in <a href="https://github.com/json5/json5/compare/v1.0.1...v1.0.2">compare view</a></li>
 </ul>
 </details>
 <br />
 
-Updates `tsconfig-paths` from 3.12.0 to 4.1.2
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/dividab/tsconfig-paths/blob/master/CHANGELOG.md">tsconfig-paths's changelog</a>.</em></p>
-<blockquote>
-<h2>[4.1.2] - 2023-01-02</h2>
-<h3>Fixed</h3>
-<ul>
-<li>Bump JSON5 dependency to 2.2.2 to fix CVE-2022-46175. See PR <a href="https://github-redirect.dependabot.com/dividab/tsconfig-paths/pull/232">#232</a>. Thanks to <a href="https://github.com/oparisblue"><code>@​oparisblue</code></a> for this PR!</li>
-</ul>
-<h2>[4.1.1] - 2022-11-30</h2>
-<h3>Fixed</h3>
-<ul>
-<li>Skip stat call / throwing an exception when source files don't exist. See PR <a href="https://github-redirect.dependabot.com/dividab/tsconfig-paths/pull/225">#225</a>. Thanks to <a href="https://github.com/robstolarz"><code>@​robstolarz</code></a> for this PR!</li>
-</ul>
-<h2>[4.1.0] - 2022-08-06</h2>
-<ul>
-<li>Add support for nested main field selectors #. See PR <a href="https://github-redirect.dependabot.com/dividab/tsconfig-paths/pull/218">#218</a>. Thanks to <a href="https://github.com/aaronadamsCA"><code>@​aaronadamsCA</code></a> for this PR!</li>
-</ul>
-<h2>[4.0.0] - 2022-05-02</h2>
-<h3>Changed</h3>
-<ul>
-<li>Ignore <code>--project</code>/<code>-P</code> CLI flag when explicit options are passed to <code>register</code>. See PR <a href="https://github-redirect.dependabot.com/dividab/tsconfig-paths/pull/206">#206</a>.</li>
-<li>Tolerate an undefined <code>baseUrl</code> compiler option. See PR <a href="https://github-redirect.dependabot.com/dividab/tsconfig-paths/pull/208">#208</a>.</li>
-</ul>
-<h3>Added</h3>
-<ul>
-<li>Add <code>cwd</code> option to <code>register</code> function that overrides where the <code>tsconfig.json</code> search begins. See PR <a href="https://github-redirect.dependabot.com/dividab/tsconfig-paths/pull/205">#205</a>.</li>
-<li>Add support for <code>jsconfig.json</code>. See PR <a href="https://github-redirect.dependabot.com/dividab/tsconfig-paths/pull/199">#199</a>. Thanks to <a href="https://github.com/F3n67u"><code>@​F3n67u</code></a> for this PR!</li>
-<li>Let <code>paths</code> mappings be absolute paths. See PR <a href="https://github-redirect.dependabot.com/dividab/tsconfig-paths/pull/184">#184</a>.</li>
-<li>Allow <code>baseUrl</code> in <code>tsconfig.json</code> to be an absolute path. See PR <a href="https://github-redirect.dependabot.com/dividab/tsconfig-paths/pull/174">#174</a>. Thanks to <a href="https://github.com/nwalters512"><code>@​nwalters512</code></a> for this PR!</li>
-</ul>
-<h2>[3.14.1] - 2022-03-22</h2>
-<h3>Fixed</h3>
-<ul>
-<li>Use minimist 1.2.6 for all depencencies becuase of pollution vulnerability. See PR <a href="https://github-redirect.dependabot.com/dividab/tsconfig-paths/pull/197">#197</a>. Thanks to <a href="https://github.com/gopijaganthan"><code>@​gopijaganthan</code></a> for this fix!</li>
-</ul>
-<h2>[3.14.0] - 2022-03-13</h2>
-<h3>Added</h3>
-<ul>
-<li>Support for path mapping starting with <code>/</code>. See PR <a href="https://github-redirect.dependabot.com/dividab/tsconfig-paths/pull/180">#180</a>, issue <a href="https://github-redirect.dependabot.com/dividab/tsconfig-paths/issues/113">#113</a>, and issue <a href="https://github-redirect.dependabot.com/dividab/tsconfig-paths/issues/128">#128</a>. Thanks to <a href="https://github.com/benevbright"><code>@​benevbright</code></a> for this fix!</li>
-</ul>
-<h2>[3.13.0] - 2022-03-03</h2>
-<h3>Added</h3>
-<ul>
-<li>Include file extension in paths resolved from package.json &quot;main&quot; field. See PR <a href="https://github-redirect.dependabot.com/dividab/tsconfig-paths/pull/135">#135</a> and issue <a href="https://github-redirect.dependabot.com/dividab/tsconfig-paths/issues/133">#133</a>. Thanks to <a href="https://github.com/katywings"><code>@​katywings</code></a> for this fix!</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/dividab/tsconfig-paths/commit/76dab7661d3cc158c751eba64b363b1d5e032e0f"><code>76dab76</code></a> v4.1.2</li>
-<li><a href="https://github.com/dividab/tsconfig-paths/commit/4a5bfeed6a3bc4a0f34ae4a16ad376529e03a6a0"><code>4a5bfee</code></a> Update changelog for 4.1.2</li>
-<li><a href="https://github.com/dividab/tsconfig-paths/commit/9721a98718c9f6a35bb4029292204aaa90474bab"><code>9721a98</code></a> Bump JSON5 dependency to 2.2.2 to fix CVE-2022-46175 (<a href="https://github-redirect.dependabot.com/dividab/tsconfig-paths/issues/232">#232</a>)</li>
-<li><a href="https://github.com/dividab/tsconfig-paths/commit/1b71683fa7d48a2e7b9cbae4825410594a1c7c81"><code>1b71683</code></a> v4.1.1</li>
-<li><a href="https://github.com/dividab/tsconfig-paths/commit/73fdd5991d6542df4da0a6d22dbb18f5656b091d"><code>73fdd59</code></a> Update changelog for 4.1.1</li>
-<li><a href="https://github.com/dividab/tsconfig-paths/commit/b732fcf0b894a65af5e997b284c40fc3e155837d"><code>b732fcf</code></a> Skip stat call / throwing when files don't exist (<a href="https://github-redirect.dependabot.com/dividab/tsconfig-paths/issues/225">#225</a>)</li>
-<li><a href="https://github.com/dividab/tsconfig-paths/commit/206e49a4dd016e9f7086c8a938266f74f9301568"><code>206e49a</code></a> v4.1.0</li>
-<li><a href="https://github.com/dividab/tsconfig-paths/commit/e71c964000808500a34d7ac4ced6c8b7e98b99b3"><code>e71c964</code></a> Update changelog for 4.1.0</li>
-<li><a href="https://github.com/dividab/tsconfig-paths/commit/9124aa60f18efb52562431d0ec8dd03b4b36ba6a"><code>9124aa6</code></a> Add support for nested main field selectors (<a href="https://github-redirect.dependabot.com/dividab/tsconfig-paths/issues/218">#218</a>)</li>
-<li><a href="https://github.com/dividab/tsconfig-paths/commit/f42003925f4d56458d41daed80013c8ad23c88ea"><code>f420039</code></a> Explicitly specify minimum Node.js version (<a href="https://github-redirect.dependabot.com/dividab/tsconfig-paths/issues/212">#212</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/dividab/tsconfig-paths/compare/v3.12.0...v4.1.2">compare view</a></li>
-</ul>
-</details>
-<br />
 
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=json5&package-manager=npm_and_yarn&previous-version=1.0.1&new-version=1.0.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -212,7 +121,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-02 05:25:50 +0000 UTC
+        Created At 2023-01-04 15:56:09 +0000 UTC
     </div>
 </div>
 
@@ -220,11 +129,11 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/104" class=".btn">#104</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/106" class=".btn">#106</a>
             </td>
             <td>
                 <b>
-                    Support passing an ABI directly in any mint/burn/transfer/approval call
+                    Add /checkinterface API
                 </b>
             </td>
         </tr>
@@ -233,35 +142,15 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 
             </td>
             <td>
-                In a chain with #103.
+                In a chain with #104.
 Part of [FIR-16](https://github.com/hyperledger/firefly-fir/pull/16).
 
-**Background**
-Currently this connector supports a small set of ABIs, which are checked in to `src/abi`. There are 2 flavors of ERC20 (ERC20NoData and ERC20WithData) and 2 of ERC721 (ERC721NoData and ERC721WithData). When a new pool is created, the connector probes the contract (via ERC165 "supportsInterface") to determine if it is the "WithData" variant. If not, it assumes it is the "NoData" variant. From that point forward, whenever a mint/burn/transfer/approval call is needed, the connector refers to the ABI that it inferred for the contract, in order to determine what method to call.
-
-This works for many cases, but does not cover all common variants of these contracts. However, expanding beyond 2 flavors of each within the current system (ie continuing to rely on probing the contract and making educated guesses about its methods) could quickly become complex and fragile.
-
-**New Enhancements**
-With this PR, the mint/burn/transfer/approval APIs all accept a new `interface: { abi: [ ... ] }` parameter. If this is populated with a list of ABI methods, the connector will look at this list _instead_ of any ABI it has previously inferred, to see if the list contains a method it knows how to use.
-
-In addition, the connector now understands some additional flavors of mint/burn methods that are generated by OpenZeppelin (and which differ slightly from any variant in the 4 ABIs checked in to this connector). This means that a contract using these other flavors of mint/burn can now be utilized by the connector, as long as the ABI (or relevant portion of it) is passed in on the mint/burn HTTP request. This is demonstrated and verified in a few new Jest E2E tests.
-
-**Breaking Changes**
-The mint and burn methods of the `ERC20NoData` and `ERC721NoData` sample contracts have been altered to align with OpenZeppelin. This means that if the old versions of these contracts were previously deployed, they will no longer be usable by the new connector. It seems unlikely that these were deployed, as the "WithData" sample variants are encouraged.
-
-The `info.uri` field will no longer be populated when creating a non-fungible pool against a pre-deployed ERC721 that has a base token URI configured. Justification for this:
-* It relied on a `baseTokenUri()` method that is not part of the ERC721 standard (unlike other queryable methods like `name` and `symbol`, which are defined in the standard)
-* It was inconsistent in that `info.uri` would be populated for pre-deployed ERC721 contracts, but _not_ for ERC721 contracts deployed asynchronously by a factory
-* The field is not used by FireFly, and as far as I'm aware, is not widely used in application development (if at all)
-* The `baseTokenUri()` method is left in place on the sample ERC721 contract, so it still can be queried directly if needed, even though the connector will no longer query it
-
-**Future Plans**
-Currently the changes in this PR won't be exercised in actual FireFly deployments, because FireFly does not pass an ABI to mint/burn/transfer/approval calls. A follow-on step will be to add the ability in FireFly to tie a contract interface to a token pool at creation time, and then cause it to pass the ABI (or a subset) to mint/burn/transfer/approval calls within that pool.
+Add a new `/checkinterface` API which takes in a full ABI and returns the recognized methods from that ABI for approval/mint/burn/transfer operations.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-28 17:50:53 +0000 UTC
+        Created At 2023-01-04 03:53:16 +0000 UTC
     </div>
 </div>
 
