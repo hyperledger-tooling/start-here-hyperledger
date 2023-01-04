@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/360" class=".btn">#360</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/363" class=".btn">#363</a>
             </td>
             <td>
                 <b>
-                    Get builds on release-2.5 branch
+                    Forward Port all Release 2.5 Changes
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+                Move up the release-2.5 changes to main
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-14 09:53:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/359" class=".btn">#359</a>
-            </td>
-            <td>
-                <b>
-                    GHA Workflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-14 09:47:22 +0000 UTC
+        Created At 2023-01-04 09:08:58 +0000 UTC
     </div>
 </div>
 

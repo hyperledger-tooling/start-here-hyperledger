@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2246" class=".btn">#2246</a>
+            </td>
+            <td>
+                <b>
+                    fix(security): vulnerabilities found in corda-4-8-all-in-one Fixes #2064
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: charelle <charelle.wrk@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-04 08:49:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/2245" class=".btn">#2245</a>
             </td>
             <td>

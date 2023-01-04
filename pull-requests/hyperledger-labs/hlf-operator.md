@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/137" class=".btn">#137</a>
+            </td>
+            <td>
+                <b>
+                    Fix CI/CD
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-04 10:24:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/136" class=".btn">#136</a>
             </td>
             <td>

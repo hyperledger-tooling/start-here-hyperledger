@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/268" class=".btn">#268</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/271" class=".btn">#271</a>
             </td>
             <td>
                 <b>
-                    GHA workflow
+                    Update main to include Release 2.5 changes
                 </b>
             </td>
         </tr>
@@ -27,70 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
                 
             </td>
             <td>
-                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-14 14:08:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/267" class=".btn">#267</a>
-            </td>
-            <td>
-                <b>
-                    Fix TLS setup for chaincode server
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                There was a typo which copied certificate file path into the TLS private key file property. This commit fixes the issue.
-
-Change-Id: I41e4d3ecbf48a465b7a42fdfecc21cdb90ce8f1f
-Signed-off-by: Artem Barger <artem@bargr.net>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-14 07:15:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/266" class=".btn">#266</a>
-            </td>
-            <td>
-                <b>
-                    Fix TLS setup for chaincode server
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                There was a typo which copied certificate file path into the TLS private key file property. This commit fixes the issue.
-
-Change-Id: I41e4d3ecbf48a465b7a42fdfecc21cdb90ce8f1f
-Signed-off-by: Artem Barger <artem@bargr.net>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-11 21:33:50 +0000 UTC
+        Created At 2023-01-04 09:16:11 +0000 UTC
     </div>
 </div>
 

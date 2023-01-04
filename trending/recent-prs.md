@@ -1,13 +1,13 @@
 
-[106](https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/106) Add /checkinterface API
+[357](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/357) Bump json5 from 2.2.1 to 2.2.3 in /common/policy-dsl
 
-[3892](https://github.com/hyperledger/fabric/pull/3892) change order of raft state change notification (backport #3863)
+[1190](https://github.com/hyperledger/aries-framework-javascript/pull/1190) chore(release): v0.3.2
 
-[4879](https://github.com/hyperledger/besu/pull/4879) Deprecation warning for Goquorum privacy mode
+[717](https://github.com/hyperledger/aries-vcx/pull/717) Nonmediated connection (de)serialization
 
-[86](https://github.com/hyperledger/aries-javascript-docs/pull/86) fix: android setup
+[137](https://github.com/hyperledger-labs/hlf-operator/pull/137) Fix CI/CD
 
-[579](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/579) feat: remove contact
+[271](https://github.com/hyperledger/fabric-chaincode-java/pull/271) Update main to include Release 2.5 changes
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

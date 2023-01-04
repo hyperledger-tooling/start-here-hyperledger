@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1190" class=".btn">#1190</a>
+            </td>
+            <td>
+                <b>
+                    chore(release): v0.3.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">ci-test</span>
+            </td>
+            <td>
+                Release version 0.3.2
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-04 11:48:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1188" class=".btn">#1188</a>
             </td>
             <td>
