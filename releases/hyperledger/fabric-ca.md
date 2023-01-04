@@ -15,33 +15,35 @@ permalink: /releases/hyperledger/fabric-ca
         <tr>
             <td colspan="2">
                 <b>
-                    v1.5.6-beta2
+                    v1.5.6-beta3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.5.6-beta2
+                    v1.5.6-beta3
                 </span>
             </td>
             <td>
-                v1.5.6-beta2 Release Notes - Dec 15, 2022
+                v1.5.6-beta3 Release Notes - Jan 3, 2023
 ===================================
 
-v1.5.6-beta2 is a beta release, providing updates for the following issues in the Fabric CA:
+v1.5.6-beta3 is a beta release, providing updates for the following issues in the Fabric CA:
 
 - Builds native arm64 CA binaries for linux and darwin
 - Builds multi-platform CA docker images for arm64 and amd64 with `buildx`
+- Builds CA docker images FROM ubuntu:20.04 (avoid SIGSEGV errors encountered with dynamic builds on musl/alpine libc)
 - Adds debug information for a mysterious [idemix error message](https://github.com/hyperledger/fabric-ca/pull/339)
-
+- Bumps Go version to 1.18.9
 
 Dependencies
 ------------
 
 Fabric CA v1.5.6 has been tested with the following dependencies:
-- Go 1.18.8
-- Alpine 3.17 (for Docker images)
+- Go 1.18.9
+- Ubuntu 20.04 (for Docker images)
+
 
 Changes, Known Issues, and Workarounds
 --------------------------------------
@@ -76,11 +78,11 @@ None.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-ca/releases/tag/v1.5.6-beta2" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-ca/releases/tag/v1.5.6-beta3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-12-15 20:27:20 +0000 UTC
+        Created At 2023-01-04 16:47:47 +0000 UTC
     </span>
 </div>
 

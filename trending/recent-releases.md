@@ -1,13 +1,13 @@
 
-[v0.3.2](https://github.com/hyperledger/aries-framework-javascript/releases/tag/v0.3.2) v0.3.2
+[v1.8.4](https://github.com/hyperledger-labs/hlf-operator/releases/tag/v1.8.4) Version 1.8.4
 
-[v1.8.3](https://github.com/hyperledger-labs/hlf-operator/releases/tag/v1.8.3) Version 1.8.3
+[v1.5.6-beta3](https://github.com/hyperledger/fabric-ca/releases/tag/v1.5.6-beta3) v1.5.6-beta3
 
-[v1.8.2](https://github.com/hyperledger-labs/hlf-operator/releases/tag/v1.8.2) Version 1.8.2
+[v2.5.0-alpha3](https://github.com/hyperledger/fabric/releases/tag/v2.5.0-alpha3) v2.5.0-alpha3
 
-[core/network/fabric-interop-cc/libs/utils/v1.5.6](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/libs/utils/v1.5.6) v1.5.6 - GO Fabric Utils Library for Interoperation - Jan 03, 2023
+[v1.1.6](https://github.com/hyperledger/firefly-common/releases/tag/v1.1.6) v1.1.6
 
-[v0.3.1](https://github.com/hyperledger/aries-framework-javascript/releases/tag/v0.3.1) v0.3.1
+[v1.2.1](https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.2.1) v1.2.1
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
