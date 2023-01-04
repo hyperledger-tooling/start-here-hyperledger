@@ -255,7 +255,7 @@ With this change and the corresponding token connector changes, I was able to ge
 
 **Outstanding Problems/Questions**
 1. ABI format should not be assumed - it should either be configured in the token plugin configuration, or should be queried somehow from the token connector.
-2. When creating a token pool, we should probably allow passing the interface by name/version in addition to by ID (similar to the flow when creating contract APIs).
+2. ~~When creating a token pool, we should probably allow passing the interface by name/version in addition to by ID (similar to the flow when creating contract APIs).~~ ✅
 3. We likely want a handshake protocol between FireFly and the token connector in order to prune down the ABI methods it cares about, rather than passing them all on every HTTP request (even a simple contract ABI may be 3KB or more, while a single method definition is around 150 bytes).
 4. When ABI format is needed by the token connector, perhaps FireFly should store the converted method definitions rather than converting on demand before every operation.
 
