@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/717" class=".btn">#717</a>
+            </td>
+            <td>
+                <b>
+                    Nonmediated connection (de)serialization
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">feature</span>
+            </td>
+            <td>
+                Exposes (de)serialization methods on nonmediated connection handler.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-04 11:42:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/716" class=".btn">#716</a>
             </td>
             <td>
