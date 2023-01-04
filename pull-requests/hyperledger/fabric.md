@@ -14,6 +14,148 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3897" class=".btn">#3897</a>
+            </td>
+            <td>
+                <b>
+                    Improve gateway retry logic sending to orderers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Status >= 500 errors returned by orderers should retried on other orderers
+
+resolves https://github.com/hyperledger/fabric-gateway/issues/517
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-04 16:14:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3896" class=".btn">#3896</a>
+            </td>
+            <td>
+                <b>
+                    Switch base docker image from golang-alpine to ubuntu:20.04 (backport #3882)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Bug fix
+- New feature
+
+#### Description
+
+This PR is a back port merge from release-2.5 to mainline of: 
+
+- cherry-pick 114695ab06884242e3cc0d8046137dd2b5b8f36b (#3882)
+- cherry-pick 764fd40576598cd8c916c85153e260f5a7257de3  (#3894)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-04 16:10:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3895" class=".btn">#3895</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: remove system-channel usage from integration tests: discovery
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Remove system-channel usage from integration tests: discovery
+
+#### Related issues
+
+Epic: #3511
+Issue: #3515
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-04 15:12:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3894" class=".btn">#3894</a>
+            </td>
+            <td>
+                <b>
+                    Remove peer and orderer ENTRYPOINTS as they were breaking the test network
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+
+#### Type of change
+
+- Bug fix
+
+#### Description
+
+In PR #3882 the peer and orderer Dockerfiles introduced an ENTRYPOINT command, breaking the test network's mechanism for launching the containers with the CMD.  This PR reverts the ENTRYPOINT addition for compatibility with the Compose test network.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-04 14:23:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3892" class=".btn">#3892</a>
             </td>
             <td>
