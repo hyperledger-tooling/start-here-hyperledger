@@ -15,30 +15,32 @@ permalink: /releases/hyperledger/firefly-common
         <tr>
             <td colspan="2">
                 <b>
-                    v1.1.5
+                    v1.1.6
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.1.5
+                    v1.1.6
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Port the DB utilities, and filtering to common by @peterbroadhurst in https://github.com/hyperledger/firefly-common/pull/39
+* Add custom error support for FFI by @jimthematrix in https://github.com/hyperledger/firefly-common/pull/42
 
+## New Contributors
+* @jimthematrix made their first contribution in https://github.com/hyperledger/firefly-common/pull/42
 
-**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v1.1.4...v1.1.5
+**Full Changelog**: https://github.com/hyperledger/firefly-common/compare/v1.1.5...v1.1.6
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v1.1.5" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v1.1.6" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-12-05 20:32:25 +0000 UTC
+        Created At 2023-01-04 15:37:00 +0000 UTC
     </span>
 </div>
 

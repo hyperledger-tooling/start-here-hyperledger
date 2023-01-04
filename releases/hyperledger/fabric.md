@@ -15,40 +15,42 @@ permalink: /releases/hyperledger/fabric
         <tr>
             <td colspan="2">
                 <b>
-                    v2.5.0-alpha2
+                    v2.5.0-alpha3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.5.0-alpha2
+                    v2.5.0-alpha3
                 </span>
             </td>
             <td>
-                v2.5.0-alpha2 Release Notes - 15 Dec 2022 
+                v2.5.0-alpha3 Release Notes - 21 Dec 2022
 =================================
-
 
 Improvements
 ------------
 
 - Prepares multi-arch Docker images for linux/arm64 and linux/amd64
+- Converts base Docker images FROM alpine to FROM ubuntu:20.04 
+
 
 Fixes
 -----
 
 - Resolves SIGSEGV errors encountered with alpha1 release binaries
-
+- Resolves SIGSEGV errors running on alpine-based images on ARM64
+- Resolves [Issue #3867](https://github.com/hyperledger/fabric/issues/3867)
 
 
 Dependencies
 ------------
-Fabric v2.5.0-alpha2 has been tested with the following dependencies:
+Fabric v2.5.0-alpha3 has been tested with the following dependencies:
 * Go 1.18.7
 * CouchDB v3.1.1
 
-Fabric docker images on dockerhub utilize Alpine 3.16.
+Fabric docker images on dockerhub utilize Ubuntu 20.04
 
 
 Deprecations (existing)
@@ -132,15 +134,14 @@ channels, and redeploying all chaincodes using the v2.x lifecycle. The new
 chaincode lifecycle provides a more flexible and robust governance model
 for chaincodes. For more details see the
 [documentation for enabling the new lifecycle](https://hyperledger-fabric.readthedocs.io/en/release-2.2/enable_cc_lifecycle.html).
-
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric/releases/tag/v2.5.0-alpha2" class=".btn">
+    <a href="https://github.com/hyperledger/fabric/releases/tag/v2.5.0-alpha3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-12-15 19:45:48 +0000 UTC
+        Created At 2023-01-04 16:30:59 +0000 UTC
     </span>
 </div>
 
