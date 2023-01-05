@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/520" class=".btn">#520</a>
+            </td>
+            <td>
+                <b>
+                    Add CHANGELOG.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is required by the Hyperledger repository structure guidelines to ensure that any fork of the repository also contains release version details. The changelog simply links to the main repository's GitHub releases pages where notable changes in each release are recorded.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-05 17:13:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/519" class=".btn">#519</a>
             </td>
             <td>

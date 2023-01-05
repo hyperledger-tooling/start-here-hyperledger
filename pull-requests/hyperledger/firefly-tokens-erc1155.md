@@ -71,29 +71,3 @@ The `info.baseUri` field will no longer be populated when creating a non-fungibl
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/103" class=".btn">#103</a>
-            </td>
-            <td>
-                <b>
-                    Split tokens service logic into multiple helpers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Companion to https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/103
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-29 17:34:37 +0000 UTC
-    </div>
-</div>
-

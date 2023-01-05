@@ -214,6 +214,12 @@ Co-authored-by: Karim TAAM <karim.t2am@gmail.com>
 ## PR description
 This PR will evaluate how much empty slots are stored in RocksDB and test if caching these empty slots would help to improve SLOAD performance.
 
+CPU Profiling before and after this PR
+
+
+The results
+<img width="1637" alt="image" src="https://user-images.githubusercontent.com/5099602/210831174-27279365-f5d4-46c1-8a3d-58bd44135729.png">
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->

@@ -1,13 +1,13 @@
 
-[359](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/359) Besu Documentation and RFC Updates
+[720](https://github.com/hyperledger/aries-vcx/pull/720) CI: Do not use deprecated set-output, update artifact publishing action
 
-[519](https://github.com/hyperledger/fabric-gateway/pull/519) Add code of conduct
+[73](https://github.com/hyperledger/fabric-admin-sdk/pull/73) Add CHANGELOG.md file
 
-[274](https://github.com/hyperledger/fabric-chaincode-java/pull/274) Fixes for JAR publishing
+[719](https://github.com/hyperledger/aries-vcx/pull/719) Update readme.md files, update architecture diagram
 
-[2067](https://github.com/hyperledger/aries-cloudagent-python/pull/2067) feat: enable creation of DIDs for all registered methods
+[520](https://github.com/hyperledger/fabric-gateway/pull/520) Add CHANGELOG.md
 
-[129](https://github.com/hyperledger/anoncreds-spec/pull/129) Update README.md
+[1126](https://github.com/hyperledger/firefly/pull/1126) remove XDC
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

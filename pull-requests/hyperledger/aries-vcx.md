@@ -14,6 +14,73 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/720" class=".btn">#720</a>
+            </td>
+            <td>
+                <b>
+                    CI: Do not use deprecated set-output, update artifact publishing action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - `set-output::` is deprecated in produces warnings in CI
+- removed the usage from our CI code
+- upgraded `actions/upload-artifact@v3` 
+- `set-output::` warnings still coming out from `actions-rs/toolchain@v1` - keep eye on https://github.com/actions-rs/toolchain/issues/221
+
+Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-05 18:01:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/719" class=".btn">#719</a>
+            </td>
+            <td>
+                <b>
+                    Update readme.md files, update architecture diagram
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - The root `readme.md` is more general and also
+  - it puts `aries-vcx` along with the smaller subcrates as main components
+  - `libvcx` is nuanced as "one of the crates built on aries-vcx"   
+- Add specific readme for `libvcx`
+- Add specific readme for `aries-vcx`
+- Updated maintainers file
+- Update architecture diagrams - where originally we had 1 diagram which spanned from libcx wrappers all way down to aries-vcx modules, now there's 2 diagrams instead.
+   - One diagram for `aries-vcx` crate architecture only
+   - One diagram for `libvcx` and surrounding language wrappers, depicting `aries-vcx` simply as 1 component
+
+Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-05 17:17:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/718" class=".btn">#718</a>
             </td>
             <td>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/446" class=".btn">#446</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/448" class=".btn">#448</a>
             </td>
             <td>
                 <b>
-                    bug fix and improvements
+                    GetTokenCommitment fix
                 </b>
             </td>
         </tr>
@@ -27,15 +27,14 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 
             </td>
             <td>
-                - vault provider bug fix
-- always check unspent tokens
+                when getting a token commitment, if the result is nil and the transaction is busy, retry a few time before returning the error.
 
 Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-16 12:36:34 +0000 UTC
+        Created At 2023-01-05 15:55:30 +0000 UTC
     </div>
 </div>
 

@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-framework-go
             </td>
             <td>
                 <b>
-                    wip: SD-JWT Holder/Verifier - Process Disclosures
+                    feat: SD-JWT Holder/Verifier - Process Disclosures
                 </b>
             </td>
         </tr>
