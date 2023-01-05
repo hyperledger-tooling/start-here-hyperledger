@@ -196,7 +196,7 @@ Implements a draft behavior to resync just the worldstate.
             </td>
             <td>
                 <b>
-                    [Work In Progress] Cache empty slots
+                    Cache empty slots
                 </b>
             </td>
         </tr>

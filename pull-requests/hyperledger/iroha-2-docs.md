@@ -68,31 +68,3 @@ Signed-off-by: 6r1d <vic.6r1d@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/243" class=".btn">#243</a>
-            </td>
-            <td>
-                <b>
-                    [docs] #237: Add instructions on kagami config generation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span><span class="chip">iroha2</span><span class="chip">Update</span>
-            </td>
-            <td>
-                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
-
-Closes #237 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-29 08:02:37 +0000 UTC
-    </div>
-</div>
-
