@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
                 
             </td>
             <td>
-                <nil>
+                Downgrade kubectl-hlf golang version to 1.18 because of this issue:
+
+https://github.com/golang/go/issues/54549
             </td>
         </tr>
     </table>
