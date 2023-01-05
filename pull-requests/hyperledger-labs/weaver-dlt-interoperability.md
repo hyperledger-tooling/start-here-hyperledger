@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/359" class=".btn">#359</a>
+            </td>
+            <td>
+                <b>
+                    Besu Documentation and RFC Updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Added `setup-local` and `ledger-initilization` for Besu network asset exchange.
+- Restructured `asset-exchange` page, into multiple pages, and added Besu asset exchange instructions.
+- RFC updated for Fabric-HTLC
+- RFC updated for Corda data sharing
+- RFC drafted for Besu data sharing and views.
+
+Deployed new docs: https://sanvendev.github.io/weaver-dlt-interoperability/docs/external/getting-started/guide
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-05 12:09:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/358" class=".btn">#358</a>
             </td>
             <td>

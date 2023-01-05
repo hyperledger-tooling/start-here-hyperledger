@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/513" class=".btn">#513</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/519" class=".btn">#519</a>
             </td>
             <td>
                 <b>
-                    Update Go dependencies to address CVE-2022-41717
+                    Add code of conduct
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                This is a server-side vulnerability so does not affect the client API, but it does clean up the vulnerability scan results to make any future vulnerabilities easier to identify.
+                Also update contributing guide with correct links to code of conduct.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-10 15:48:50 +0000 UTC
+        Created At 2023-01-05 11:42:05 +0000 UTC
     </div>
 </div>
 
