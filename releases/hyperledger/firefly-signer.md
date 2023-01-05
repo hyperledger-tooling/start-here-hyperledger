@@ -15,30 +15,30 @@ permalink: /releases/hyperledger/firefly-signer
         <tr>
             <td colspan="2">
                 <b>
-                    v1.1.4
+                    v1.1.5
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.1.4
+                    v1.1.5
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Use RPCError as return from CallRPC() to catch error details by @jimthematrix in https://github.com/hyperledger/firefly-signer/pull/30
+* Custom error support in Ethereum ABI by @jimthematrix in https://github.com/hyperledger/firefly-signer/pull/31
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-signer/compare/v1.1.3...v1.1.4
+**Full Changelog**: https://github.com/hyperledger/firefly-signer/compare/v1.1.4...v1.1.5
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-signer/releases/tag/v1.1.4" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-signer/releases/tag/v1.1.5" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-12-06 22:49:28 +0000 UTC
+        Created At 2023-01-05 15:00:24 +0000 UTC
     </span>
 </div>
 
