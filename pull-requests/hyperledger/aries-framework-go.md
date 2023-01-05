@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3460" class=".btn">#3460</a>
+            </td>
+            <td>
+                <b>
+                    wip: SD-JWT Holder/Verifier - Process Disclosures
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added utility function to decode disclosures (used by both holder and verifier) Created disclose claims function for holder that re-creates SD-JWT with disclosures for selected claims only.
+
+Created get verified payload function for verifier (removes _sd and _sd_alg from claims and inserts into payload disclosed claims).
+
+Closes #3459
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-05 03:07:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3458" class=".btn">#3458</a>
             </td>
             <td>
