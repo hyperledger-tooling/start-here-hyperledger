@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2061" class=".btn">#2061</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2066" class=".btn">#2066</a>
             </td>
             <td>
                 <b>
-                    added functionality to delete tails file
+                    Update github actions dependencies (for node16 support)
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                added an endpoint to delete tails file on the basis of either cred_def_id or rev_reg_id
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-23 19:13:39 +0000 UTC
+        Created At 2023-01-04 20:15:08 +0000 UTC
     </div>
 </div>
 
