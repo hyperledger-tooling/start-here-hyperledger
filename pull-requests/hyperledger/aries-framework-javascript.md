@@ -90,6 +90,8 @@ is no need to install <code>@types/json5</code>. (<a href="https://github-redire
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
 [//]: # (dependabot-automerge-start)
+Dependabot will merge this PR once CI passes on it, as requested by @TimoGlastra.
+
 [//]: # (dependabot-automerge-end)
 
 ---

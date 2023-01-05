@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/507" class=".btn">#507</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/508" class=".btn">#508</a>
             </td>
             <td>
                 <b>
-                    Add download btn for channel config file
+                    Add frontend btn for Channel udpate
                 </b>
             </td>
         </tr>
@@ -27,15 +27,15 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                In the channel page, add a download button to enable downloading 
-channel's config file.
+                Add frontend button. It enables the user to upload MSP config files 
+to the existing channel.
 
 Signed-off-by: xichen1 <xichen.pan@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-28 20:36:19 +0000 UTC
+        Created At 2023-01-05 02:32:30 +0000 UTC
     </div>
 </div>
 
