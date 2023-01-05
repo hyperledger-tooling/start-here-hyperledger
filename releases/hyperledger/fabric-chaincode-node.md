@@ -26,9 +26,10 @@ permalink: /releases/hyperledger/fabric-chaincode-node
                 </span>
             </td>
             <td>
-                This is the LTS Release of of the v2.5 Fabric Chaincode Node. It replaces the previous v2.2 LTS.
+                This is the LTS Release of the v2.5 Fabric Chaincode Node. It replaces the previous v2.2 LTS.
 
 - the PurgePrivateData feature is exposed via a new `PurgePrivateData` API 
+
             </td>
         </tr>
     </table>
@@ -36,7 +37,7 @@ permalink: /releases/hyperledger/fabric-chaincode-node
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-12-09 11:10:24 +0000 UTC
+        Created At 2022-12-16 10:46:47 +0000 UTC
     </span>
 </div>
 
