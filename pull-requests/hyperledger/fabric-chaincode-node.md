@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/366" class=".btn">#366</a>
+            </td>
+            <td>
+                <b>
+                    Adding new format for getID()
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: aruns05 <arun.s2k8@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-05 12:42:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/365" class=".btn">#365</a>
             </td>
             <td>
@@ -33,32 +59,6 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     </table>
     <div class="right-align">
         Created At 2023-01-04 13:43:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/364" class=".btn">#364</a>
-            </td>
-            <td>
-                <b>
-                     Adding changes to change format of getId()
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                 Adding changes to change format of getId()
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-04 12:38:05 +0000 UTC
     </div>
 </div>
 
