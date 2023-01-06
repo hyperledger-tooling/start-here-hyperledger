@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/49" class=".btn">#49</a>
+            </td>
+            <td>
+                <b>
+                    Verify presentation timestamp is within request request interval
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #41 
+
+(pending discussion outcome)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-06 15:01:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/48" class=".btn">#48</a>
             </td>
             <td>

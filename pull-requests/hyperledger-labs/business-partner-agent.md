@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/852" class=".btn">#852</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/853" class=".btn">#853</a>
             </td>
             <td>
                 <b>
-                    Bump ansi-regex in /frontend
+                    Bump json5, @vue/cli-plugin-babel, @vue/cli-service, @vue/cli-plugin-eslint, @vue/cli-plugin-router, @vue/cli-plugin-typescript and vue-jest in /frontend
                 </b>
             </td>
         </tr>
@@ -27,222 +27,1057 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [ansi-regex](https://github.com/chalk/ansi-regex) and [ansi-regex](https://github.com/chalk/ansi-regex). These dependencies needed to be updated together.
-Updates `ansi-regex` from 4.1.0 to 4.1.1
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/chalk/ansi-regex/commit/64735d25eb839b55bc9fae3877edb702b4c92ca2"><code>64735d2</code></a> v4.1.1</li>
-<li><a href="https://github.com/chalk/ansi-regex/commit/75a657da7af875b2e2724fd6331bf0a4b23d3c9a"><code>75a657d</code></a> Fix potential ReDoS (<a href="https://github-redirect.dependabot.com/chalk/ansi-regex/issues/37">#37</a>)</li>
-<li>See full diff in <a href="https://github.com/chalk/ansi-regex/compare/v4.1.0...v4.1.1">compare view</a></li>
-</ul>
-</details>
-<br />
+                Bumps [json5](https://github.com/json5/json5) to 2.2.3 and updates ancestor dependencies [json5](https://github.com/json5/json5), [json5](https://github.com/json5/json5), [@vue/cli-plugin-babel](https://github.com/vuejs/vue-cli/tree/HEAD/packages/@vue/cli-plugin-babel), [@vue/cli-service](https://github.com/vuejs/vue-cli/tree/HEAD/packages/@vue/cli-service), [@vue/cli-plugin-eslint](https://github.com/vuejs/vue-cli/tree/HEAD/packages/@vue/cli-plugin-eslint), [@vue/cli-plugin-router](https://github.com/vuejs/vue-cli/tree/HEAD/packages/@vue/cli-plugin-router), [@vue/cli-plugin-typescript](https://github.com/vuejs/vue-cli/tree/HEAD/packages/@vue/cli-plugin-typescript) and [vue-jest](https://github.com/vuejs/vue-jest). These dependencies need to be updated together.
 
-Updates `ansi-regex` from 3.0.0 to 4.1.1
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/chalk/ansi-regex/commit/64735d25eb839b55bc9fae3877edb702b4c92ca2"><code>64735d2</code></a> v4.1.1</li>
-<li><a href="https://github.com/chalk/ansi-regex/commit/75a657da7af875b2e2724fd6331bf0a4b23d3c9a"><code>75a657d</code></a> Fix potential ReDoS (<a href="https://github-redirect.dependabot.com/chalk/ansi-regex/issues/37">#37</a>)</li>
-<li>See full diff in <a href="https://github.com/chalk/ansi-regex/compare/v4.1.0...v4.1.1">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/business-partner-agent/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-07 13:39:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/851" class=".btn">#851</a>
-            </td>
-            <td>
-                <b>
-                    Bump decode-uri-component from 0.2.0 to 0.2.2 in /frontend
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">javascript</span>
-            </td>
-            <td>
-                Bumps [decode-uri-component](https://github.com/SamVerschueren/decode-uri-component) from 0.2.0 to 0.2.2.
+Updates `json5` from 2.2.0 to 2.2.3
 <details>
 <summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/SamVerschueren/decode-uri-component/releases">decode-uri-component's releases</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/json5/json5/releases">json5's releases</a>.</em></p>
 <blockquote>
-<h2>v0.2.2</h2>
+<h2>v2.2.3</h2>
 <ul>
-<li>Prevent overwriting previously decoded tokens  980e0bf</li>
+<li>Fix: json5@2.2.3 is now the 'latest' release according to npm instead of v1.0.2. (<a href="https://github-redirect.dependabot.com/json5/json5/issues/299">#299</a>)</li>
 </ul>
-<p><a href="https://github.com/SamVerschueren/decode-uri-component/compare/v0.2.1...v0.2.2">https://github.com/SamVerschueren/decode-uri-component/compare/v0.2.1...v0.2.2</a></p>
-<h2>v0.2.1</h2>
+<h2>v2.2.2</h2>
 <ul>
-<li>Switch to GitHub workflows  76abc93</li>
-<li>Fix issue where decode throws - fixes <a href="https://github-redirect.dependabot.com/SamVerschueren/decode-uri-component/issues/6">#6</a>  746ca5d</li>
-<li>Update license (<a href="https://github-redirect.dependabot.com/SamVerschueren/decode-uri-component/issues/1">#1</a>)  486d7e2</li>
-<li>Tidelift tasks  a650457</li>
-<li>Meta tweaks  66e1c28</li>
+<li>Fix: Properties with the name <code>__proto__</code> are added to objects and arrays.
+(<a href="https://github-redirect.dependabot.com/json5/json5/issues/199">#199</a>) This also fixes a prototype pollution vulnerability reported by
+Jonathan Gregson! (<a href="https://github-redirect.dependabot.com/json5/json5/issues/295">#295</a>).</li>
 </ul>
-<p><a href="https://github.com/SamVerschueren/decode-uri-component/compare/v0.2.0...v0.2.1">https://github.com/SamVerschueren/decode-uri-component/compare/v0.2.0...v0.2.1</a></p>
+<h2>v2.2.1</h2>
+<ul>
+<li>Fix: Removed dependence on minimist to patch CVE-2021-44906. (<a href="https://github-redirect.dependabot.com/json5/json5/issues/266">#266</a>)</li>
+</ul>
 </blockquote>
 </details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/a0eea469d26eb0df668b081672cdb9581feb78eb"><code>a0eea46</code></a> 0.2.2</li>
-<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/980e0bf09b64d94f1aa79012f895816c30ffd152"><code>980e0bf</code></a> Prevent overwriting previously decoded tokens</li>
-<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/3c8a373dd4837e89b3f970e01295dd03e1405a33"><code>3c8a373</code></a> 0.2.1</li>
-<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/76abc939783fe3900fadb7d384a74d324d5557f3"><code>76abc93</code></a> Switch to GitHub workflows</li>
-<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/746ca5dcb6667c5d364e782d53c542830e4c10b9"><code>746ca5d</code></a> Fix issue where decode throws - fixes <a href="https://github-redirect.dependabot.com/SamVerschueren/decode-uri-component/issues/6">#6</a></li>
-<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/486d7e26d3a8c0fbe860fb651fe1bc98c2f2be30"><code>486d7e2</code></a> Update license (<a href="https://github-redirect.dependabot.com/SamVerschueren/decode-uri-component/issues/1">#1</a>)</li>
-<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/a65045724e6234acef87f31da499d4807b20b134"><code>a650457</code></a> Tidelift tasks</li>
-<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/66e1c2834c0e189201cb65196ec3101372459b02"><code>66e1c28</code></a> Meta tweaks</li>
-<li>See full diff in <a href="https://github.com/SamVerschueren/decode-uri-component/compare/v0.2.0...v0.2.2">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=decode-uri-component&package-manager=npm_and_yarn&previous-version=0.2.0&new-version=0.2.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/business-partner-agent/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-07 13:19:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/850" class=".btn">#850</a>
-            </td>
-            <td>
-                <b>
-                    Bump qs from 6.5.2 to 6.5.3 in /frontend
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">javascript</span>
-            </td>
-            <td>
-                Bumps [qs](https://github.com/ljharb/qs) from 6.5.2 to 6.5.3.
 <details>
 <summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/ljharb/qs/blob/main/CHANGELOG.md">qs's changelog</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/json5/json5/blob/main/CHANGELOG.md">json5's changelog</a>.</em></p>
 <blockquote>
-<h2><strong>6.5.3</strong></h2>
+<h3>v2.2.3 [<a href="https://github.com/json5/json5/tree/v2.2.3">code</a>, <a href="https://github.com/json5/json5/compare/v2.2.2...v2.2.3">diff</a>]</h3>
 <ul>
-<li>[Fix] <code>parse</code>: ignore <code>__proto__</code> keys (<a href="https://github-redirect.dependabot.com/ljharb/qs/issues/428">#428</a>)</li>
-<li>[Fix]<code> </code>utils.merge`: avoid a crash with a null target and a truthy non-array source</li>
-<li>[Fix] correctly parse nested arrays</li>
-<li>[Fix] <code>stringify</code>: fix a crash with <code>strictNullHandling</code> and a custom <code>filter</code>/<code>serializeDate</code> (<a href="https://github-redirect.dependabot.com/ljharb/qs/issues/279">#279</a>)</li>
-<li>[Fix] <code>utils</code>: <code>merge</code>: fix crash when <code>source</code> is a truthy primitive &amp; no options are provided</li>
-<li>[Fix] when <code>parseArrays</code> is false, properly handle keys ending in <code>[]</code></li>
-<li>[Fix] fix for an impossible situation: when the formatter is called with a non-string value</li>
-<li>[Fix] <code>utils.merge</code>: avoid a crash with a null target and an array source</li>
-<li>[Refactor] <code>utils</code>: reduce observable [[Get]]s</li>
-<li>[Refactor] use cached <code>Array.isArray</code></li>
-<li>[Refactor] <code>stringify</code>: Avoid arr = arr.concat(...), push to the existing instance (<a href="https://github-redirect.dependabot.com/ljharb/qs/issues/269">#269</a>)</li>
-<li>[Refactor] <code>parse</code>: only need to reassign the var once</li>
-<li>[Robustness] <code>stringify</code>: avoid relying on a global <code>undefined</code> (<a href="https://github-redirect.dependabot.com/ljharb/qs/issues/427">#427</a>)</li>
-<li>[readme] remove travis badge; add github actions/codecov badges; update URLs</li>
-<li>[Docs] Clean up license text so it’s properly detected as BSD-3-Clause</li>
-<li>[Docs] Clarify the need for &quot;arrayLimit&quot; option</li>
-<li>[meta] fix README.md (<a href="https://github-redirect.dependabot.com/ljharb/qs/issues/399">#399</a>)</li>
-<li>[meta] add FUNDING.yml</li>
-<li>[actions] backport actions from main</li>
-<li>[Tests] always use <code>String(x)</code> over <code>x.toString()</code></li>
-<li>[Tests] remove nonexistent tape option</li>
-<li>[Dev Deps] backport from main</li>
+<li>Fix: json5@2.2.3 is now the 'latest' release according to npm instead of
+v1.0.2. (<a href="https://github-redirect.dependabot.com/json5/json5/issues/299">#299</a>)</li>
+</ul>
+<h3>v2.2.2 [<a href="https://github.com/json5/json5/tree/v2.2.2">code</a>, <a href="https://github.com/json5/json5/compare/v2.2.1...v2.2.2">diff</a>]</h3>
+<ul>
+<li>Fix: Properties with the name <code>__proto__</code> are added to objects and arrays.
+(<a href="https://github-redirect.dependabot.com/json5/json5/issues/199">#199</a>) This also fixes a prototype pollution vulnerability reported by
+Jonathan Gregson! (<a href="https://github-redirect.dependabot.com/json5/json5/issues/295">#295</a>).</li>
+</ul>
+<h3>v2.2.1 [<a href="https://github.com/json5/json5/tree/v2.2.1">code</a>, <a href="https://github.com/json5/json5/compare/v2.2.0...v2.2.1">diff</a>]</h3>
+<ul>
+<li>Fix: Removed dependence on minimist to patch CVE-2021-44906. (<a href="https://github-redirect.dependabot.com/json5/json5/issues/266">#266</a>)</li>
 </ul>
 </blockquote>
 </details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/ljharb/qs/commit/298bfa55d6db00ddea78dd0333509aadf9bb3077"><code>298bfa5</code></a> v6.5.3</li>
-<li><a href="https://github.com/ljharb/qs/commit/ed0f5dcbef4b168a8ae299d78b1e4a2e9b1baf1f"><code>ed0f5dc</code></a> [Fix] <code>parse</code>: ignore <code>__proto__</code> keys (<a href="https://github-redirect.dependabot.com/ljharb/qs/issues/428">#428</a>)</li>
-<li><a href="https://github.com/ljharb/qs/commit/691e739cfa40cd42604dc05a54e6154371a429ab"><code>691e739</code></a> [Robustness] <code>stringify</code>: avoid relying on a global <code>undefined</code> (<a href="https://github-redirect.dependabot.com/ljharb/qs/issues/427">#427</a>)</li>
-<li><a href="https://github.com/ljharb/qs/commit/1072d57d38a690e1ad7616dced44390bffedcbb2"><code>1072d57</code></a> [readme] remove travis badge; add github actions/codecov badges; update URLs</li>
-<li><a href="https://github.com/ljharb/qs/commit/12ac1c403aaa04d1a34844f514ed9f9abfb76e64"><code>12ac1c4</code></a> [meta] fix README.md (<a href="https://github-redirect.dependabot.com/ljharb/qs/issues/399">#399</a>)</li>
-<li><a href="https://github.com/ljharb/qs/commit/0338716b09fdbd4711823eeb0a14e556a2498e7a"><code>0338716</code></a> [actions] backport actions from main</li>
-<li><a href="https://github.com/ljharb/qs/commit/5639c20ce0a7c1332200a3181339331483e5a3a1"><code>5639c20</code></a> Clean up license text so it’s properly detected as BSD-3-Clause</li>
-<li><a href="https://github.com/ljharb/qs/commit/51b8a0b1b213596dd1702b837f5e7dec2229793d"><code>51b8a0b</code></a> add FUNDING.yml</li>
-<li><a href="https://github.com/ljharb/qs/commit/45f675936e742d92fac8d4dae5cfc385c576a977"><code>45f6759</code></a> [Fix] fix for an impossible situation: when the formatter is called with a no...</li>
-<li><a href="https://github.com/ljharb/qs/commit/f814a7f8f2af059f8158f7e4b2bf8b46aeb62cd3"><code>f814a7f</code></a> [Dev Deps] backport from main</li>
-<li>Additional commits viewable in <a href="https://github.com/ljharb/qs/compare/v6.5.2...v6.5.3">compare view</a></li>
+<li><a href="https://github.com/json5/json5/commit/c3a75242772a5026a49c4017a16d9b3543b62776"><code>c3a7524</code></a> 2.2.3</li>
+<li><a href="https://github.com/json5/json5/commit/94fd06d82eeed225fa172f6fb2ca27375cbd2e39"><code>94fd06d</code></a> docs: update CHANGELOG for v2.2.3</li>
+<li><a href="https://github.com/json5/json5/commit/3b8cebf0c474a8b20c78bd75c89cca0c4dce84ce"><code>3b8cebf</code></a> docs(security): use GitHub security advisories</li>
+<li><a href="https://github.com/json5/json5/commit/f0fd9e194dde282caff114a110f4fac635f3a62c"><code>f0fd9e1</code></a> docs: publish a security policy</li>
+<li><a href="https://github.com/json5/json5/commit/6a91a05fffeda16ff6b3b5008b6b340d42d31ec0"><code>6a91a05</code></a> docs(template): bug -&gt; bug report</li>
+<li><a href="https://github.com/json5/json5/commit/14f8cb186e8abdfaccf6527171da7b1224374650"><code>14f8cb1</code></a> 2.2.2</li>
+<li><a href="https://github.com/json5/json5/commit/10cc7ca9169b59c5e0f5afc03dbd870cd06bcc46"><code>10cc7ca</code></a> docs: update CHANGELOG for v2.2.2</li>
+<li><a href="https://github.com/json5/json5/commit/7774c1097993bc3ce9f0ac4b722a32bf7d6871c8"><code>7774c10</code></a> fix: add <strong>proto</strong> to objects and arrays</li>
+<li><a href="https://github.com/json5/json5/commit/edde30abd8b22facf2c06c72586b9f6edf12700d"><code>edde30a</code></a> Readme: slight tweak to intro</li>
+<li><a href="https://github.com/json5/json5/commit/97286f8bd542c89dcee096bc05dd28ed2dfc1e16"><code>97286f8</code></a> Improve example in readme</li>
+<li>Additional commits viewable in <a href="https://github.com/json5/json5/compare/v2.2.0...v2.2.3">compare view</a></li>
 </ul>
 </details>
 <br />
 
+Updates `json5` from 1.0.1 to 2.2.3
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/json5/json5/releases">json5's releases</a>.</em></p>
+<blockquote>
+<h2>v2.2.3</h2>
+<ul>
+<li>Fix: json5@2.2.3 is now the 'latest' release according to npm instead of v1.0.2. (<a href="https://github-redirect.dependabot.com/json5/json5/issues/299">#299</a>)</li>
+</ul>
+<h2>v2.2.2</h2>
+<ul>
+<li>Fix: Properties with the name <code>__proto__</code> are added to objects and arrays.
+(<a href="https://github-redirect.dependabot.com/json5/json5/issues/199">#199</a>) This also fixes a prototype pollution vulnerability reported by
+Jonathan Gregson! (<a href="https://github-redirect.dependabot.com/json5/json5/issues/295">#295</a>).</li>
+</ul>
+<h2>v2.2.1</h2>
+<ul>
+<li>Fix: Removed dependence on minimist to patch CVE-2021-44906. (<a href="https://github-redirect.dependabot.com/json5/json5/issues/266">#266</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/json5/json5/blob/main/CHANGELOG.md">json5's changelog</a>.</em></p>
+<blockquote>
+<h3>v2.2.3 [<a href="https://github.com/json5/json5/tree/v2.2.3">code</a>, <a href="https://github.com/json5/json5/compare/v2.2.2...v2.2.3">diff</a>]</h3>
+<ul>
+<li>Fix: json5@2.2.3 is now the 'latest' release according to npm instead of
+v1.0.2. (<a href="https://github-redirect.dependabot.com/json5/json5/issues/299">#299</a>)</li>
+</ul>
+<h3>v2.2.2 [<a href="https://github.com/json5/json5/tree/v2.2.2">code</a>, <a href="https://github.com/json5/json5/compare/v2.2.1...v2.2.2">diff</a>]</h3>
+<ul>
+<li>Fix: Properties with the name <code>__proto__</code> are added to objects and arrays.
+(<a href="https://github-redirect.dependabot.com/json5/json5/issues/199">#199</a>) This also fixes a prototype pollution vulnerability reported by
+Jonathan Gregson! (<a href="https://github-redirect.dependabot.com/json5/json5/issues/295">#295</a>).</li>
+</ul>
+<h3>v2.2.1 [<a href="https://github.com/json5/json5/tree/v2.2.1">code</a>, <a href="https://github.com/json5/json5/compare/v2.2.0...v2.2.1">diff</a>]</h3>
+<ul>
+<li>Fix: Removed dependence on minimist to patch CVE-2021-44906. (<a href="https://github-redirect.dependabot.com/json5/json5/issues/266">#266</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/json5/json5/commit/c3a75242772a5026a49c4017a16d9b3543b62776"><code>c3a7524</code></a> 2.2.3</li>
+<li><a href="https://github.com/json5/json5/commit/94fd06d82eeed225fa172f6fb2ca27375cbd2e39"><code>94fd06d</code></a> docs: update CHANGELOG for v2.2.3</li>
+<li><a href="https://github.com/json5/json5/commit/3b8cebf0c474a8b20c78bd75c89cca0c4dce84ce"><code>3b8cebf</code></a> docs(security): use GitHub security advisories</li>
+<li><a href="https://github.com/json5/json5/commit/f0fd9e194dde282caff114a110f4fac635f3a62c"><code>f0fd9e1</code></a> docs: publish a security policy</li>
+<li><a href="https://github.com/json5/json5/commit/6a91a05fffeda16ff6b3b5008b6b340d42d31ec0"><code>6a91a05</code></a> docs(template): bug -&gt; bug report</li>
+<li><a href="https://github.com/json5/json5/commit/14f8cb186e8abdfaccf6527171da7b1224374650"><code>14f8cb1</code></a> 2.2.2</li>
+<li><a href="https://github.com/json5/json5/commit/10cc7ca9169b59c5e0f5afc03dbd870cd06bcc46"><code>10cc7ca</code></a> docs: update CHANGELOG for v2.2.2</li>
+<li><a href="https://github.com/json5/json5/commit/7774c1097993bc3ce9f0ac4b722a32bf7d6871c8"><code>7774c10</code></a> fix: add <strong>proto</strong> to objects and arrays</li>
+<li><a href="https://github.com/json5/json5/commit/edde30abd8b22facf2c06c72586b9f6edf12700d"><code>edde30a</code></a> Readme: slight tweak to intro</li>
+<li><a href="https://github.com/json5/json5/commit/97286f8bd542c89dcee096bc05dd28ed2dfc1e16"><code>97286f8</code></a> Improve example in readme</li>
+<li>Additional commits viewable in <a href="https://github.com/json5/json5/compare/v2.2.0...v2.2.3">compare view</a></li>
+</ul>
+</details>
+<br />
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=qs&package-manager=npm_and_yarn&previous-version=6.5.2&new-version=6.5.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+Updates `@vue/cli-plugin-babel` from 4.5.15 to 5.0.8
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/vuejs/vue-cli/releases"><code>@​vue/cli-plugin-babel</code>'s releases</a>.</em></p>
+<blockquote>
+<h2>v5.0.8</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/0260e4d">0260e4d</a> fix: add devServer.server.type to useHttps judgement (<a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7222">vuejs/vue-cli#7222</a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-ui</code>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/07052c4">07052c4</a> fix: Vue CLI UI graphql subscription server error, fixes <a href="https://github-redirect.dependabot.com/vuejs/vue-cli/issues/7221">vuejs/vue-cli#7221</a></li>
+</ul>
+</li>
+</ul>
+<h2>v5.0.7</h2>
+<ul>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7202">#7202</a>, [<a href="https://github.com/vuejs/vue-cli/commit/558dea2">558dea2</a>] fix: support <code>devServer.server</code> option, avoid deprecation warnings (<a href="https://github.com/backrunner"><code>@​backrunner</code></a>, <a href="https://github.com/sodatea"><code>@​sodatea</code></a>)</li>
+<li>[<a href="https://github.com/vuejs/vue-cli/commit/beffe8a">beffe8a</a>] fix: allow disabling progress plugin via <code>devServer.client.progress</code></li>
+</ul>
+</li>
+<li><code>@vue/cli-ui</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7210">#7210</a> chore: upgrade to apollo-server-express 3.x</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 2</h4>
+<ul>
+<li>BackRunner (<a href="https://github.com/backrunner"><code>@​backrunner</code></a>)</li>
+<li>Haoqun Jiang (<a href="https://github.com/sodatea"><code>@​sodatea</code></a>)</li>
+</ul>
+<h2>v5.0.6</h2>
+<p>Fix compatibility with the upcoming Vue 2.7 (currently in alpha) and Vue Loader 15.10 (currently in beta).</p>
+<p>In Vue 2.7, <code>vue-template-compiler</code> is no longer a required peer dependency. Rather, there's a new export under the main package as <code>vue/compiler-sfc</code>.</p>
+<h2>v5.0.5</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>@vue/cli</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7167">#7167</a> fix(upgrade): prevent changing the structure of package.json file during upgrade (<a href="https://github.com/blzsaa"><code>@​blzsaa</code></a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7023">#7023</a> fix: windows vue.config.mjs support (<a href="https://github.com/xiaoxiangmoe"><code>@​xiaoxiangmoe</code></a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-plugin-e2e-cypress</code>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/697bb44">[697bb44]</a> fix: should correctly resolve cypress bin path for Cypress 10 (Note that the project is still created with Cypress 9 by default, but you can upgrade to Cypress 10 on your own now)</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 3</h4>
+<ul>
+<li>Martijn Jacobs (<a href="https://github.com/maerteijn"><code>@​maerteijn</code></a>)</li>
+<li>ZHAO Jinxiang (<a href="https://github.com/xiaoxiangmoe"><code>@​xiaoxiangmoe</code></a>)</li>
+<li><a href="https://github.com/blzsaa"><code>@​blzsaa</code></a></li>
+</ul>
+<h2>v5.0.4</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7005">#7005</a> Better handling of <code>publicPath: 'auto'</code> (<a href="https://github.com/AndreiSoroka"><code>@​AndreiSoroka</code></a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-shared-utils</code>, <code>@vue/cli-ui</code>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/75826d6">75826d6</a> fix: replace <code>node-ipc</code> with <code>@achrinza/node-ipc</code> to further secure the dependency chain</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 1</h4>
+<ul>
+<li>Andrei (<a href="https://github.com/AndreiSoroka"><code>@​AndreiSoroka</code></a>)</li>
+<li>Haoqun Jiang (<a href="https://github.com/sodatea"><code>@​sodatea</code></a>)</li>
+</ul>
+<h2>v5.0.3</h2>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/vuejs/vue-cli/blob/dev/CHANGELOG.md"><code>@​vue/cli-plugin-babel</code>'s changelog</a>.</em></p>
+<blockquote>
+<h2>5.0.7 (2022-07-05)</h2>
+<ul>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7202">#7202</a>, [<a href="https://github.com/vuejs/vue-cli/commit/558dea2">558dea2</a>] fix: support <code>devServer.server</code> option, avoid deprecation warnings (<a href="https://github.com/backrunner"><code>@​backrunner</code></a>, <a href="https://github.com/sodatea"><code>@​sodatea</code></a>)</li>
+<li>[<a href="https://github.com/vuejs/vue-cli/commit/beffe8a">beffe8a</a>] fix: allow disabling progress plugin via <code>devServer.client.progress</code></li>
+</ul>
+</li>
+<li><code>@vue/cli-ui</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7210">#7210</a> chore: upgrade to apollo-server-express 3.x</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 2</h4>
+<ul>
+<li>BackRunner (<a href="https://github.com/backrunner"><code>@​backrunner</code></a>)</li>
+<li>Haoqun Jiang (<a href="https://github.com/sodatea"><code>@​sodatea</code></a>)</li>
+</ul>
+<h2>5.0.6 (2022-06-16)</h2>
+<p>Fix compatibility with the upcoming Vue 2.7 (currently in alpha) and Vue Loader 15.10 (currently in beta).</p>
+<p>In Vue 2.7, <code>vue-template-compiler</code> is no longer a required peer dependency. Rather, there's a new export under the main package as <code>vue/compiler-sfc</code>.</p>
+<h2>5.0.5 (2022-06-16)</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>@vue/cli</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7167">#7167</a> feat(upgrade): prevent changing the structure of package.json file during upgrade (<a href="https://github.com/blzsaa"><code>@​blzsaa</code></a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7023">#7023</a> fix: windows vue.config.mjs support (<a href="https://github.com/xiaoxiangmoe"><code>@​xiaoxiangmoe</code></a>)</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 3</h4>
+<ul>
+<li>Martijn Jacobs (<a href="https://github.com/maerteijn"><code>@​maerteijn</code></a>)</li>
+<li>ZHAO Jinxiang (<a href="https://github.com/xiaoxiangmoe"><code>@​xiaoxiangmoe</code></a>)</li>
+<li><a href="https://github.com/blzsaa"><code>@​blzsaa</code></a></li>
+</ul>
+<h2>5.0.4 (2022-03-22)</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7005">#7005</a> Better handling of <code>publicPath: 'auto'</code> (<a href="https://github.com/AndreiSoroka"><code>@​AndreiSoroka</code></a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-shared-utils</code>, <code>@vue/cli-ui</code>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/75826d6">75826d6</a> fix: replace <code>node-ipc</code> with <code>@achrinza/node-ipc</code> to further secure the dependency chain</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 1</h4>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/b154dbd7aca4b4538e6c483b1d4b817499d7b8eb"><code>b154dbd</code></a> v5.0.8</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/4a0655f7ac09b64d2b47506e7f21e7923d43262b"><code>4a0655f</code></a> v5.0.7</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/ef08a08c41b028a2484f262414a8c91d151febc7"><code>ef08a08</code></a> v5.0.6</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/98c66c93ae45d3347f62c56838caab86561ad4f7"><code>98c66c9</code></a> v5.0.5</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/ca97fc2920a3fc9b0288d5fabef1a97356b8da23"><code>ca97fc2</code></a> v5.0.4</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/dd53f26bc0c51fec7c5fb2c18f4769de984ad79c"><code>dd53f26</code></a> v5.0.3</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/a859b1fdf26bca3fcd44b535965926da333d11f8"><code>a859b1f</code></a> v5.0.2</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/92d80a89122cea830a4e7e32946af64b4c3b62f7"><code>92d80a8</code></a> v5.0.1</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/c913cdcb67f4a8e7c1f8affd1a6ba9a93c0f3ebd"><code>c913cdc</code></a> v5.0.0</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/75a6d690eee4c7b3e46528d6b1d7b0b7a6d2cf3d"><code>75a6d69</code></a> v5.0.0-rc.3</li>
+<li>Additional commits viewable in <a href="https://github.com/vuejs/vue-cli/commits/v5.0.8/packages/@vue/cli-plugin-babel">compare view</a></li>
+</ul>
+</details>
+<br />
+
+Updates `@vue/cli-service` from 4.5.19 to 5.0.8
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/vuejs/vue-cli/releases"><code>@​vue/cli-service</code>'s releases</a>.</em></p>
+<blockquote>
+<h2>v5.0.8</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/0260e4d">0260e4d</a> fix: add devServer.server.type to useHttps judgement (<a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7222">vuejs/vue-cli#7222</a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-ui</code>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/07052c4">07052c4</a> fix: Vue CLI UI graphql subscription server error, fixes <a href="https://github-redirect.dependabot.com/vuejs/vue-cli/issues/7221">vuejs/vue-cli#7221</a></li>
+</ul>
+</li>
+</ul>
+<h2>v5.0.7</h2>
+<ul>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7202">#7202</a>, [<a href="https://github.com/vuejs/vue-cli/commit/558dea2">558dea2</a>] fix: support <code>devServer.server</code> option, avoid deprecation warnings (<a href="https://github.com/backrunner"><code>@​backrunner</code></a>, <a href="https://github.com/sodatea"><code>@​sodatea</code></a>)</li>
+<li>[<a href="https://github.com/vuejs/vue-cli/commit/beffe8a">beffe8a</a>] fix: allow disabling progress plugin via <code>devServer.client.progress</code></li>
+</ul>
+</li>
+<li><code>@vue/cli-ui</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7210">#7210</a> chore: upgrade to apollo-server-express 3.x</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 2</h4>
+<ul>
+<li>BackRunner (<a href="https://github.com/backrunner"><code>@​backrunner</code></a>)</li>
+<li>Haoqun Jiang (<a href="https://github.com/sodatea"><code>@​sodatea</code></a>)</li>
+</ul>
+<h2>v5.0.6</h2>
+<p>Fix compatibility with the upcoming Vue 2.7 (currently in alpha) and Vue Loader 15.10 (currently in beta).</p>
+<p>In Vue 2.7, <code>vue-template-compiler</code> is no longer a required peer dependency. Rather, there's a new export under the main package as <code>vue/compiler-sfc</code>.</p>
+<h2>v5.0.5</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>@vue/cli</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7167">#7167</a> fix(upgrade): prevent changing the structure of package.json file during upgrade (<a href="https://github.com/blzsaa"><code>@​blzsaa</code></a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7023">#7023</a> fix: windows vue.config.mjs support (<a href="https://github.com/xiaoxiangmoe"><code>@​xiaoxiangmoe</code></a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-plugin-e2e-cypress</code>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/697bb44">[697bb44]</a> fix: should correctly resolve cypress bin path for Cypress 10 (Note that the project is still created with Cypress 9 by default, but you can upgrade to Cypress 10 on your own now)</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 3</h4>
+<ul>
+<li>Martijn Jacobs (<a href="https://github.com/maerteijn"><code>@​maerteijn</code></a>)</li>
+<li>ZHAO Jinxiang (<a href="https://github.com/xiaoxiangmoe"><code>@​xiaoxiangmoe</code></a>)</li>
+<li><a href="https://github.com/blzsaa"><code>@​blzsaa</code></a></li>
+</ul>
+<h2>v5.0.4</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7005">#7005</a> Better handling of <code>publicPath: 'auto'</code> (<a href="https://github.com/AndreiSoroka"><code>@​AndreiSoroka</code></a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-shared-utils</code>, <code>@vue/cli-ui</code>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/75826d6">75826d6</a> fix: replace <code>node-ipc</code> with <code>@achrinza/node-ipc</code> to further secure the dependency chain</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 1</h4>
+<ul>
+<li>Andrei (<a href="https://github.com/AndreiSoroka"><code>@​AndreiSoroka</code></a>)</li>
+<li>Haoqun Jiang (<a href="https://github.com/sodatea"><code>@​sodatea</code></a>)</li>
+</ul>
+<h2>v5.0.3</h2>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/vuejs/vue-cli/blob/dev/CHANGELOG.md"><code>@​vue/cli-service</code>'s changelog</a>.</em></p>
+<blockquote>
+<h2>5.0.7 (2022-07-05)</h2>
+<ul>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7202">#7202</a>, [<a href="https://github.com/vuejs/vue-cli/commit/558dea2">558dea2</a>] fix: support <code>devServer.server</code> option, avoid deprecation warnings (<a href="https://github.com/backrunner"><code>@​backrunner</code></a>, <a href="https://github.com/sodatea"><code>@​sodatea</code></a>)</li>
+<li>[<a href="https://github.com/vuejs/vue-cli/commit/beffe8a">beffe8a</a>] fix: allow disabling progress plugin via <code>devServer.client.progress</code></li>
+</ul>
+</li>
+<li><code>@vue/cli-ui</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7210">#7210</a> chore: upgrade to apollo-server-express 3.x</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 2</h4>
+<ul>
+<li>BackRunner (<a href="https://github.com/backrunner"><code>@​backrunner</code></a>)</li>
+<li>Haoqun Jiang (<a href="https://github.com/sodatea"><code>@​sodatea</code></a>)</li>
+</ul>
+<h2>5.0.6 (2022-06-16)</h2>
+<p>Fix compatibility with the upcoming Vue 2.7 (currently in alpha) and Vue Loader 15.10 (currently in beta).</p>
+<p>In Vue 2.7, <code>vue-template-compiler</code> is no longer a required peer dependency. Rather, there's a new export under the main package as <code>vue/compiler-sfc</code>.</p>
+<h2>5.0.5 (2022-06-16)</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>@vue/cli</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7167">#7167</a> feat(upgrade): prevent changing the structure of package.json file during upgrade (<a href="https://github.com/blzsaa"><code>@​blzsaa</code></a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7023">#7023</a> fix: windows vue.config.mjs support (<a href="https://github.com/xiaoxiangmoe"><code>@​xiaoxiangmoe</code></a>)</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 3</h4>
+<ul>
+<li>Martijn Jacobs (<a href="https://github.com/maerteijn"><code>@​maerteijn</code></a>)</li>
+<li>ZHAO Jinxiang (<a href="https://github.com/xiaoxiangmoe"><code>@​xiaoxiangmoe</code></a>)</li>
+<li><a href="https://github.com/blzsaa"><code>@​blzsaa</code></a></li>
+</ul>
+<h2>5.0.4 (2022-03-22)</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7005">#7005</a> Better handling of <code>publicPath: 'auto'</code> (<a href="https://github.com/AndreiSoroka"><code>@​AndreiSoroka</code></a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-shared-utils</code>, <code>@vue/cli-ui</code>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/75826d6">75826d6</a> fix: replace <code>node-ipc</code> with <code>@achrinza/node-ipc</code> to further secure the dependency chain</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 1</h4>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/b154dbd7aca4b4538e6c483b1d4b817499d7b8eb"><code>b154dbd</code></a> v5.0.8</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/0260e4dacd89b6edf63bef07fd80d3b6108f72b5"><code>0260e4d</code></a> fix: add devServer.server.type to useHttps judgement (<a href="https://github.com/vuejs/vue-cli/tree/HEAD/packages/@vue/cli-service/issues/7222">#7222</a>)</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/4a0655f7ac09b64d2b47506e7f21e7923d43262b"><code>4a0655f</code></a> v5.0.7</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/beffe8a50515c48b9ad5085e79d3c2b16ae76825"><code>beffe8a</code></a> fix: allow disabling progress plugin via <code>devServer.client.progress</code></li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/558dea2af693893ca75e372f286d92152bc8d960"><code>558dea2</code></a> fix: support <code>devServer.server</code> option, avoid deprecation warning</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/bddd64d5b7eba65e1b0f0ec36fd8af2e7d5e3ce6"><code>bddd64d</code></a> fix: optimize the judgment on whether HTTPS has been set in options (<a href="https://github.com/vuejs/vue-cli/tree/HEAD/packages/@vue/cli-service/issues/7202">#7202</a>)</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/ef08a08c41b028a2484f262414a8c91d151febc7"><code>ef08a08</code></a> v5.0.6</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/fcf27e350e743a2fbc99d4c021dcd49e43cac929"><code>fcf27e3</code></a> fixup! fix: compatibility with Vue 2.7</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/a648958b00758bd267743090a894c510ecaa8b40"><code>a648958</code></a> fix: compatibility with Vue 2.7</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/98c66c93ae45d3347f62c56838caab86561ad4f7"><code>98c66c9</code></a> v5.0.5</li>
+<li>Additional commits viewable in <a href="https://github.com/vuejs/vue-cli/commits/v5.0.8/packages/@vue/cli-service">compare view</a></li>
+</ul>
+</details>
+<br />
+
+Updates `@vue/cli-plugin-eslint` from 4.5.19 to 5.0.8
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/vuejs/vue-cli/releases"><code>@​vue/cli-plugin-eslint</code>'s releases</a>.</em></p>
+<blockquote>
+<h2>v5.0.8</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/0260e4d">0260e4d</a> fix: add devServer.server.type to useHttps judgement (<a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7222">vuejs/vue-cli#7222</a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-ui</code>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/07052c4">07052c4</a> fix: Vue CLI UI graphql subscription server error, fixes <a href="https://github-redirect.dependabot.com/vuejs/vue-cli/issues/7221">vuejs/vue-cli#7221</a></li>
+</ul>
+</li>
+</ul>
+<h2>v5.0.7</h2>
+<ul>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7202">#7202</a>, [<a href="https://github.com/vuejs/vue-cli/commit/558dea2">558dea2</a>] fix: support <code>devServer.server</code> option, avoid deprecation warnings (<a href="https://github.com/backrunner"><code>@​backrunner</code></a>, <a href="https://github.com/sodatea"><code>@​sodatea</code></a>)</li>
+<li>[<a href="https://github.com/vuejs/vue-cli/commit/beffe8a">beffe8a</a>] fix: allow disabling progress plugin via <code>devServer.client.progress</code></li>
+</ul>
+</li>
+<li><code>@vue/cli-ui</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7210">#7210</a> chore: upgrade to apollo-server-express 3.x</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 2</h4>
+<ul>
+<li>BackRunner (<a href="https://github.com/backrunner"><code>@​backrunner</code></a>)</li>
+<li>Haoqun Jiang (<a href="https://github.com/sodatea"><code>@​sodatea</code></a>)</li>
+</ul>
+<h2>v5.0.6</h2>
+<p>Fix compatibility with the upcoming Vue 2.7 (currently in alpha) and Vue Loader 15.10 (currently in beta).</p>
+<p>In Vue 2.7, <code>vue-template-compiler</code> is no longer a required peer dependency. Rather, there's a new export under the main package as <code>vue/compiler-sfc</code>.</p>
+<h2>v5.0.5</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>@vue/cli</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7167">#7167</a> fix(upgrade): prevent changing the structure of package.json file during upgrade (<a href="https://github.com/blzsaa"><code>@​blzsaa</code></a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7023">#7023</a> fix: windows vue.config.mjs support (<a href="https://github.com/xiaoxiangmoe"><code>@​xiaoxiangmoe</code></a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-plugin-e2e-cypress</code>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/697bb44">[697bb44]</a> fix: should correctly resolve cypress bin path for Cypress 10 (Note that the project is still created with Cypress 9 by default, but you can upgrade to Cypress 10 on your own now)</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 3</h4>
+<ul>
+<li>Martijn Jacobs (<a href="https://github.com/maerteijn"><code>@​maerteijn</code></a>)</li>
+<li>ZHAO Jinxiang (<a href="https://github.com/xiaoxiangmoe"><code>@​xiaoxiangmoe</code></a>)</li>
+<li><a href="https://github.com/blzsaa"><code>@​blzsaa</code></a></li>
+</ul>
+<h2>v5.0.4</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7005">#7005</a> Better handling of <code>publicPath: 'auto'</code> (<a href="https://github.com/AndreiSoroka"><code>@​AndreiSoroka</code></a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-shared-utils</code>, <code>@vue/cli-ui</code>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/75826d6">75826d6</a> fix: replace <code>node-ipc</code> with <code>@achrinza/node-ipc</code> to further secure the dependency chain</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 1</h4>
+<ul>
+<li>Andrei (<a href="https://github.com/AndreiSoroka"><code>@​AndreiSoroka</code></a>)</li>
+<li>Haoqun Jiang (<a href="https://github.com/sodatea"><code>@​sodatea</code></a>)</li>
+</ul>
+<h2>v5.0.3</h2>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/vuejs/vue-cli/blob/dev/CHANGELOG.md"><code>@​vue/cli-plugin-eslint</code>'s changelog</a>.</em></p>
+<blockquote>
+<h2>5.0.7 (2022-07-05)</h2>
+<ul>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7202">#7202</a>, [<a href="https://github.com/vuejs/vue-cli/commit/558dea2">558dea2</a>] fix: support <code>devServer.server</code> option, avoid deprecation warnings (<a href="https://github.com/backrunner"><code>@​backrunner</code></a>, <a href="https://github.com/sodatea"><code>@​sodatea</code></a>)</li>
+<li>[<a href="https://github.com/vuejs/vue-cli/commit/beffe8a">beffe8a</a>] fix: allow disabling progress plugin via <code>devServer.client.progress</code></li>
+</ul>
+</li>
+<li><code>@vue/cli-ui</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7210">#7210</a> chore: upgrade to apollo-server-express 3.x</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 2</h4>
+<ul>
+<li>BackRunner (<a href="https://github.com/backrunner"><code>@​backrunner</code></a>)</li>
+<li>Haoqun Jiang (<a href="https://github.com/sodatea"><code>@​sodatea</code></a>)</li>
+</ul>
+<h2>5.0.6 (2022-06-16)</h2>
+<p>Fix compatibility with the upcoming Vue 2.7 (currently in alpha) and Vue Loader 15.10 (currently in beta).</p>
+<p>In Vue 2.7, <code>vue-template-compiler</code> is no longer a required peer dependency. Rather, there's a new export under the main package as <code>vue/compiler-sfc</code>.</p>
+<h2>5.0.5 (2022-06-16)</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>@vue/cli</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7167">#7167</a> feat(upgrade): prevent changing the structure of package.json file during upgrade (<a href="https://github.com/blzsaa"><code>@​blzsaa</code></a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7023">#7023</a> fix: windows vue.config.mjs support (<a href="https://github.com/xiaoxiangmoe"><code>@​xiaoxiangmoe</code></a>)</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 3</h4>
+<ul>
+<li>Martijn Jacobs (<a href="https://github.com/maerteijn"><code>@​maerteijn</code></a>)</li>
+<li>ZHAO Jinxiang (<a href="https://github.com/xiaoxiangmoe"><code>@​xiaoxiangmoe</code></a>)</li>
+<li><a href="https://github.com/blzsaa"><code>@​blzsaa</code></a></li>
+</ul>
+<h2>5.0.4 (2022-03-22)</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7005">#7005</a> Better handling of <code>publicPath: 'auto'</code> (<a href="https://github.com/AndreiSoroka"><code>@​AndreiSoroka</code></a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-shared-utils</code>, <code>@vue/cli-ui</code>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/75826d6">75826d6</a> fix: replace <code>node-ipc</code> with <code>@achrinza/node-ipc</code> to further secure the dependency chain</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 1</h4>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/b154dbd7aca4b4538e6c483b1d4b817499d7b8eb"><code>b154dbd</code></a> v5.0.8</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/4a0655f7ac09b64d2b47506e7f21e7923d43262b"><code>4a0655f</code></a> v5.0.7</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/ef08a08c41b028a2484f262414a8c91d151febc7"><code>ef08a08</code></a> v5.0.6</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/98c66c93ae45d3347f62c56838caab86561ad4f7"><code>98c66c9</code></a> v5.0.5</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/ca97fc2920a3fc9b0288d5fabef1a97356b8da23"><code>ca97fc2</code></a> v5.0.4</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/dd53f26bc0c51fec7c5fb2c18f4769de984ad79c"><code>dd53f26</code></a> v5.0.3</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/a859b1fdf26bca3fcd44b535965926da333d11f8"><code>a859b1f</code></a> v5.0.2</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/92d80a89122cea830a4e7e32946af64b4c3b62f7"><code>92d80a8</code></a> v5.0.1</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/c913cdcb67f4a8e7c1f8affd1a6ba9a93c0f3ebd"><code>c913cdc</code></a> v5.0.0</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/75a6d690eee4c7b3e46528d6b1d7b0b7a6d2cf3d"><code>75a6d69</code></a> v5.0.0-rc.3</li>
+<li>Additional commits viewable in <a href="https://github.com/vuejs/vue-cli/commits/v5.0.8/packages/@vue/cli-plugin-eslint">compare view</a></li>
+</ul>
+</details>
+<br />
+
+Updates `@vue/cli-plugin-router` from 4.5.19 to 5.0.8
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/vuejs/vue-cli/releases"><code>@​vue/cli-plugin-router</code>'s releases</a>.</em></p>
+<blockquote>
+<h2>v5.0.8</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/0260e4d">0260e4d</a> fix: add devServer.server.type to useHttps judgement (<a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7222">vuejs/vue-cli#7222</a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-ui</code>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/07052c4">07052c4</a> fix: Vue CLI UI graphql subscription server error, fixes <a href="https://github-redirect.dependabot.com/vuejs/vue-cli/issues/7221">vuejs/vue-cli#7221</a></li>
+</ul>
+</li>
+</ul>
+<h2>v5.0.7</h2>
+<ul>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7202">#7202</a>, [<a href="https://github.com/vuejs/vue-cli/commit/558dea2">558dea2</a>] fix: support <code>devServer.server</code> option, avoid deprecation warnings (<a href="https://github.com/backrunner"><code>@​backrunner</code></a>, <a href="https://github.com/sodatea"><code>@​sodatea</code></a>)</li>
+<li>[<a href="https://github.com/vuejs/vue-cli/commit/beffe8a">beffe8a</a>] fix: allow disabling progress plugin via <code>devServer.client.progress</code></li>
+</ul>
+</li>
+<li><code>@vue/cli-ui</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7210">#7210</a> chore: upgrade to apollo-server-express 3.x</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 2</h4>
+<ul>
+<li>BackRunner (<a href="https://github.com/backrunner"><code>@​backrunner</code></a>)</li>
+<li>Haoqun Jiang (<a href="https://github.com/sodatea"><code>@​sodatea</code></a>)</li>
+</ul>
+<h2>v5.0.6</h2>
+<p>Fix compatibility with the upcoming Vue 2.7 (currently in alpha) and Vue Loader 15.10 (currently in beta).</p>
+<p>In Vue 2.7, <code>vue-template-compiler</code> is no longer a required peer dependency. Rather, there's a new export under the main package as <code>vue/compiler-sfc</code>.</p>
+<h2>v5.0.5</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>@vue/cli</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7167">#7167</a> fix(upgrade): prevent changing the structure of package.json file during upgrade (<a href="https://github.com/blzsaa"><code>@​blzsaa</code></a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7023">#7023</a> fix: windows vue.config.mjs support (<a href="https://github.com/xiaoxiangmoe"><code>@​xiaoxiangmoe</code></a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-plugin-e2e-cypress</code>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/697bb44">[697bb44]</a> fix: should correctly resolve cypress bin path for Cypress 10 (Note that the project is still created with Cypress 9 by default, but you can upgrade to Cypress 10 on your own now)</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 3</h4>
+<ul>
+<li>Martijn Jacobs (<a href="https://github.com/maerteijn"><code>@​maerteijn</code></a>)</li>
+<li>ZHAO Jinxiang (<a href="https://github.com/xiaoxiangmoe"><code>@​xiaoxiangmoe</code></a>)</li>
+<li><a href="https://github.com/blzsaa"><code>@​blzsaa</code></a></li>
+</ul>
+<h2>v5.0.4</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7005">#7005</a> Better handling of <code>publicPath: 'auto'</code> (<a href="https://github.com/AndreiSoroka"><code>@​AndreiSoroka</code></a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-shared-utils</code>, <code>@vue/cli-ui</code>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/75826d6">75826d6</a> fix: replace <code>node-ipc</code> with <code>@achrinza/node-ipc</code> to further secure the dependency chain</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 1</h4>
+<ul>
+<li>Andrei (<a href="https://github.com/AndreiSoroka"><code>@​AndreiSoroka</code></a>)</li>
+<li>Haoqun Jiang (<a href="https://github.com/sodatea"><code>@​sodatea</code></a>)</li>
+</ul>
+<h2>v5.0.3</h2>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/vuejs/vue-cli/blob/dev/CHANGELOG.md"><code>@​vue/cli-plugin-router</code>'s changelog</a>.</em></p>
+<blockquote>
+<h2>5.0.7 (2022-07-05)</h2>
+<ul>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7202">#7202</a>, [<a href="https://github.com/vuejs/vue-cli/commit/558dea2">558dea2</a>] fix: support <code>devServer.server</code> option, avoid deprecation warnings (<a href="https://github.com/backrunner"><code>@​backrunner</code></a>, <a href="https://github.com/sodatea"><code>@​sodatea</code></a>)</li>
+<li>[<a href="https://github.com/vuejs/vue-cli/commit/beffe8a">beffe8a</a>] fix: allow disabling progress plugin via <code>devServer.client.progress</code></li>
+</ul>
+</li>
+<li><code>@vue/cli-ui</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7210">#7210</a> chore: upgrade to apollo-server-express 3.x</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 2</h4>
+<ul>
+<li>BackRunner (<a href="https://github.com/backrunner"><code>@​backrunner</code></a>)</li>
+<li>Haoqun Jiang (<a href="https://github.com/sodatea"><code>@​sodatea</code></a>)</li>
+</ul>
+<h2>5.0.6 (2022-06-16)</h2>
+<p>Fix compatibility with the upcoming Vue 2.7 (currently in alpha) and Vue Loader 15.10 (currently in beta).</p>
+<p>In Vue 2.7, <code>vue-template-compiler</code> is no longer a required peer dependency. Rather, there's a new export under the main package as <code>vue/compiler-sfc</code>.</p>
+<h2>5.0.5 (2022-06-16)</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>@vue/cli</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7167">#7167</a> feat(upgrade): prevent changing the structure of package.json file during upgrade (<a href="https://github.com/blzsaa"><code>@​blzsaa</code></a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7023">#7023</a> fix: windows vue.config.mjs support (<a href="https://github.com/xiaoxiangmoe"><code>@​xiaoxiangmoe</code></a>)</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 3</h4>
+<ul>
+<li>Martijn Jacobs (<a href="https://github.com/maerteijn"><code>@​maerteijn</code></a>)</li>
+<li>ZHAO Jinxiang (<a href="https://github.com/xiaoxiangmoe"><code>@​xiaoxiangmoe</code></a>)</li>
+<li><a href="https://github.com/blzsaa"><code>@​blzsaa</code></a></li>
+</ul>
+<h2>5.0.4 (2022-03-22)</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7005">#7005</a> Better handling of <code>publicPath: 'auto'</code> (<a href="https://github.com/AndreiSoroka"><code>@​AndreiSoroka</code></a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-shared-utils</code>, <code>@vue/cli-ui</code>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/75826d6">75826d6</a> fix: replace <code>node-ipc</code> with <code>@achrinza/node-ipc</code> to further secure the dependency chain</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 1</h4>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/b154dbd7aca4b4538e6c483b1d4b817499d7b8eb"><code>b154dbd</code></a> v5.0.8</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/4a0655f7ac09b64d2b47506e7f21e7923d43262b"><code>4a0655f</code></a> v5.0.7</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/ef08a08c41b028a2484f262414a8c91d151febc7"><code>ef08a08</code></a> v5.0.6</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/98c66c93ae45d3347f62c56838caab86561ad4f7"><code>98c66c9</code></a> v5.0.5</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/ca97fc2920a3fc9b0288d5fabef1a97356b8da23"><code>ca97fc2</code></a> v5.0.4</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/dd53f26bc0c51fec7c5fb2c18f4769de984ad79c"><code>dd53f26</code></a> v5.0.3</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/a859b1fdf26bca3fcd44b535965926da333d11f8"><code>a859b1f</code></a> v5.0.2</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/92d80a89122cea830a4e7e32946af64b4c3b62f7"><code>92d80a8</code></a> v5.0.1</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/c913cdcb67f4a8e7c1f8affd1a6ba9a93c0f3ebd"><code>c913cdc</code></a> v5.0.0</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/75a6d690eee4c7b3e46528d6b1d7b0b7a6d2cf3d"><code>75a6d69</code></a> v5.0.0-rc.3</li>
+<li>Additional commits viewable in <a href="https://github.com/vuejs/vue-cli/commits/v5.0.8/packages/@vue/cli-plugin-router">compare view</a></li>
+</ul>
+</details>
+<br />
+
+Updates `@vue/cli-plugin-typescript` from 4.5.19 to 5.0.8
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/vuejs/vue-cli/releases"><code>@​vue/cli-plugin-typescript</code>'s releases</a>.</em></p>
+<blockquote>
+<h2>v5.0.8</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/0260e4d">0260e4d</a> fix: add devServer.server.type to useHttps judgement (<a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7222">vuejs/vue-cli#7222</a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-ui</code>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/07052c4">07052c4</a> fix: Vue CLI UI graphql subscription server error, fixes <a href="https://github-redirect.dependabot.com/vuejs/vue-cli/issues/7221">vuejs/vue-cli#7221</a></li>
+</ul>
+</li>
+</ul>
+<h2>v5.0.7</h2>
+<ul>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7202">#7202</a>, [<a href="https://github.com/vuejs/vue-cli/commit/558dea2">558dea2</a>] fix: support <code>devServer.server</code> option, avoid deprecation warnings (<a href="https://github.com/backrunner"><code>@​backrunner</code></a>, <a href="https://github.com/sodatea"><code>@​sodatea</code></a>)</li>
+<li>[<a href="https://github.com/vuejs/vue-cli/commit/beffe8a">beffe8a</a>] fix: allow disabling progress plugin via <code>devServer.client.progress</code></li>
+</ul>
+</li>
+<li><code>@vue/cli-ui</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7210">#7210</a> chore: upgrade to apollo-server-express 3.x</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 2</h4>
+<ul>
+<li>BackRunner (<a href="https://github.com/backrunner"><code>@​backrunner</code></a>)</li>
+<li>Haoqun Jiang (<a href="https://github.com/sodatea"><code>@​sodatea</code></a>)</li>
+</ul>
+<h2>v5.0.6</h2>
+<p>Fix compatibility with the upcoming Vue 2.7 (currently in alpha) and Vue Loader 15.10 (currently in beta).</p>
+<p>In Vue 2.7, <code>vue-template-compiler</code> is no longer a required peer dependency. Rather, there's a new export under the main package as <code>vue/compiler-sfc</code>.</p>
+<h2>v5.0.5</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>@vue/cli</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7167">#7167</a> fix(upgrade): prevent changing the structure of package.json file during upgrade (<a href="https://github.com/blzsaa"><code>@​blzsaa</code></a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7023">#7023</a> fix: windows vue.config.mjs support (<a href="https://github.com/xiaoxiangmoe"><code>@​xiaoxiangmoe</code></a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-plugin-e2e-cypress</code>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/697bb44">[697bb44]</a> fix: should correctly resolve cypress bin path for Cypress 10 (Note that the project is still created with Cypress 9 by default, but you can upgrade to Cypress 10 on your own now)</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 3</h4>
+<ul>
+<li>Martijn Jacobs (<a href="https://github.com/maerteijn"><code>@​maerteijn</code></a>)</li>
+<li>ZHAO Jinxiang (<a href="https://github.com/xiaoxiangmoe"><code>@​xiaoxiangmoe</code></a>)</li>
+<li><a href="https://github.com/blzsaa"><code>@​blzsaa</code></a></li>
+</ul>
+<h2>v5.0.4</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7005">#7005</a> Better handling of <code>publicPath: 'auto'</code> (<a href="https://github.com/AndreiSoroka"><code>@​AndreiSoroka</code></a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-shared-utils</code>, <code>@vue/cli-ui</code>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/75826d6">75826d6</a> fix: replace <code>node-ipc</code> with <code>@achrinza/node-ipc</code> to further secure the dependency chain</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 1</h4>
+<ul>
+<li>Andrei (<a href="https://github.com/AndreiSoroka"><code>@​AndreiSoroka</code></a>)</li>
+<li>Haoqun Jiang (<a href="https://github.com/sodatea"><code>@​sodatea</code></a>)</li>
+</ul>
+<h2>v5.0.3</h2>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/vuejs/vue-cli/blob/dev/CHANGELOG.md"><code>@​vue/cli-plugin-typescript</code>'s changelog</a>.</em></p>
+<blockquote>
+<h2>5.0.7 (2022-07-05)</h2>
+<ul>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7202">#7202</a>, [<a href="https://github.com/vuejs/vue-cli/commit/558dea2">558dea2</a>] fix: support <code>devServer.server</code> option, avoid deprecation warnings (<a href="https://github.com/backrunner"><code>@​backrunner</code></a>, <a href="https://github.com/sodatea"><code>@​sodatea</code></a>)</li>
+<li>[<a href="https://github.com/vuejs/vue-cli/commit/beffe8a">beffe8a</a>] fix: allow disabling progress plugin via <code>devServer.client.progress</code></li>
+</ul>
+</li>
+<li><code>@vue/cli-ui</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7210">#7210</a> chore: upgrade to apollo-server-express 3.x</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 2</h4>
+<ul>
+<li>BackRunner (<a href="https://github.com/backrunner"><code>@​backrunner</code></a>)</li>
+<li>Haoqun Jiang (<a href="https://github.com/sodatea"><code>@​sodatea</code></a>)</li>
+</ul>
+<h2>5.0.6 (2022-06-16)</h2>
+<p>Fix compatibility with the upcoming Vue 2.7 (currently in alpha) and Vue Loader 15.10 (currently in beta).</p>
+<p>In Vue 2.7, <code>vue-template-compiler</code> is no longer a required peer dependency. Rather, there's a new export under the main package as <code>vue/compiler-sfc</code>.</p>
+<h2>5.0.5 (2022-06-16)</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>@vue/cli</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7167">#7167</a> feat(upgrade): prevent changing the structure of package.json file during upgrade (<a href="https://github.com/blzsaa"><code>@​blzsaa</code></a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7023">#7023</a> fix: windows vue.config.mjs support (<a href="https://github.com/xiaoxiangmoe"><code>@​xiaoxiangmoe</code></a>)</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 3</h4>
+<ul>
+<li>Martijn Jacobs (<a href="https://github.com/maerteijn"><code>@​maerteijn</code></a>)</li>
+<li>ZHAO Jinxiang (<a href="https://github.com/xiaoxiangmoe"><code>@​xiaoxiangmoe</code></a>)</li>
+<li><a href="https://github.com/blzsaa"><code>@​blzsaa</code></a></li>
+</ul>
+<h2>5.0.4 (2022-03-22)</h2>
+<h4>:bug: Bug Fix</h4>
+<ul>
+<li><code>@vue/cli-service</code>
+<ul>
+<li><a href="https://github-redirect.dependabot.com/vuejs/vue-cli/pull/7005">#7005</a> Better handling of <code>publicPath: 'auto'</code> (<a href="https://github.com/AndreiSoroka"><code>@​AndreiSoroka</code></a>)</li>
+</ul>
+</li>
+<li><code>@vue/cli-shared-utils</code>, <code>@vue/cli-ui</code>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/75826d6">75826d6</a> fix: replace <code>node-ipc</code> with <code>@achrinza/node-ipc</code> to further secure the dependency chain</li>
+</ul>
+</li>
+</ul>
+<h4>Committers: 1</h4>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/vuejs/vue-cli/commit/b154dbd7aca4b4538e6c483b1d4b817499d7b8eb"><code>b154dbd</code></a> v5.0.8</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/4a0655f7ac09b64d2b47506e7f21e7923d43262b"><code>4a0655f</code></a> v5.0.7</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/ef08a08c41b028a2484f262414a8c91d151febc7"><code>ef08a08</code></a> v5.0.6</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/6b163f28fc3428284a06957f157f7825cd8fd74c"><code>6b163f2</code></a> chore: fix lint errors</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/a648958b00758bd267743090a894c510ecaa8b40"><code>a648958</code></a> fix: compatibility with Vue 2.7</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/98c66c93ae45d3347f62c56838caab86561ad4f7"><code>98c66c9</code></a> v5.0.5</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/60356294218fca3f5919ad7e90e706b57e86cafb"><code>6035629</code></a> chore: remove redundant yorkie dependency in typescript plugin</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/ca97fc2920a3fc9b0288d5fabef1a97356b8da23"><code>ca97fc2</code></a> v5.0.4</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/dd53f26bc0c51fec7c5fb2c18f4769de984ad79c"><code>dd53f26</code></a> v5.0.3</li>
+<li><a href="https://github.com/vuejs/vue-cli/commit/a859b1fdf26bca3fcd44b535965926da333d11f8"><code>a859b1f</code></a> v5.0.2</li>
+<li>Additional commits viewable in <a href="https://github.com/vuejs/vue-cli/commits/v5.0.8/packages/@vue/cli-plugin-typescript">compare view</a></li>
+</ul>
+</details>
+<br />
+
+Updates `vue-jest` from 3.0.7 to 4.0.1
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/vuejs/vue-jest/releases">vue-jest's releases</a>.</em></p>
+<blockquote>
+<h2>v4.0.1</h2>
+<p>One minor fix.</p>
+<h2>Fixes:</h2>
+<ul>
+<li>do not require <code>ts-jest</code>: <a href="https://github-redirect.dependabot.com/vuejs/vue-jest/pull/284">vuejs/vue-jest#284</a></li>
+</ul>
+<h2>v4.0.0</h2>
+<p>The 4.0.0 is finally here. No clear blocker so transitioning this from release candidate to master. Better late than never.</p>
+<h2>Fixes</h2>
+<p>fix: add fallback to default TemplateCompileOptions <a href="https://github-redirect.dependabot.com/vuejs/vue-jest/issues/310">#310</a> <a href="https://github.com/nogic1008"><code>@​nogic1008</code></a></p>
+<h2>v4.0.0-rc.1</h2>
+<h2>Features</h2>
+<p>feat: pass templateCompiler options <a href="https://github.com/vuejs/vue-jest/commit/37efa5873661385c1a979838b23b72701650a132">https://github.com/vuejs/vue-jest/commit/37efa5873661385c1a979838b23b72701650a132</a>
+feat: add-compile-template-options <a href="https://github-redirect.dependabot.com/vuejs/vue-jest/issues/288">#288</a></p>
+<h2>Fixes</h2>
+<p>fix: external css files path resolution <a href="https://github.com/vuejs/vue-jest/commit/fe76473cb19a01cd417e4bff4ca1c22128625e37">https://github.com/vuejs/vue-jest/commit/fe76473cb19a01cd417e4bff4ca1c22128625e37</a></p>
+<h2>v4.0.0-rc.0</h2>
+<h2>Features</h2>
+<p>We moved to release candidate after many months of beta with no real roadmap.</p>
+<ul>
+<li>bumped jest and ts-jest to 26.x <a href="https://github.com/aantipov"><code>@​aantipov</code></a></li>
+<li>fix: convert SourceMapGenerator to RawSourceMap <a href="https://github-redirect.dependabot.com/vuejs/vue-jest/issues/241">#241</a> <a href="https://github.com/nogic1008"><code>@​nogic1008</code></a></li>
+</ul>
+<p>We will move to 4.0.0 stable before the end of Sep 2020.</p>
+<h2>v4.0.0-beta.6</h2>
+<h2>Fixes</h2>
+<p>fix: remove inline source map <a href="https://github.com/nogic1008"><code>@​nogic1008</code></a>
+build: bump jest version in peerDependencies <a href="https://github.com/nogic1008"><code>@​nogic1008</code></a></p>
+<p>That's it! Small release.</p>
+<h2>v4.0.0-beta.5</h2>
+<h2>Fixes</h2>
+<ul>
+<li>fix: bare Sass imports to files with fake extensions (<a href="https://github.com/vuejs/vue-jest/commit/aeb09830bc8f2b41700273bb2f6e831a7075c927">https://github.com/vuejs/vue-jest/commit/aeb09830bc8f2b41700273bb2f6e831a7075c927</a>) <a href="https://github.com/vvanpo"><code>@​vvanpo</code></a></li>
+<li>fix: fix: Sass partials imports from node_modules  (<a href="https://github.com/vuejs/vue-jest/commit/22122c4a5833ae961c04a9ff2571b9d43da428dc">https://github.com/vuejs/vue-jest/commit/22122c4a5833ae961c04a9ff2571b9d43da428dc</a>) <a href="https://github.com/vvanpo"><code>@​vvanpo</code></a></li>
+</ul>
+<h2>v4.0.0-beta.4</h2>
+<h2>Features</h2>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/vuejs/vue-jest/commit/e632171ed7f704f0cf9ff734e090afdd5ab3e841"><code>e632171</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/vuejs/vue-jest/issues/320">#320</a> from catrope/typo-namepsace</li>
+<li><a href="https://github.com/vuejs/vue-jest/commit/95784e46032d747280312527207e777fd4481a01"><code>95784e4</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/vuejs/vue-jest/issues/284">#284</a> from vuejs/remove-ts-jest</li>
+<li><a href="https://github.com/vuejs/vue-jest/commit/10559e10d0d71ff532b7a17993459bb86c1614a0"><code>10559e1</code></a> chore: rebase</li>
+<li><a href="https://github.com/vuejs/vue-jest/commit/6a7a7283e702cf80256fe1159b5033cbb5f39a6b"><code>6a7a728</code></a> Fix typo in processor example</li>
+<li><a href="https://github.com/vuejs/vue-jest/commit/1fb3b2eee90fc84dc3d6cc9496b3e97158a53cd7"><code>1fb3b2e</code></a> publish: 4.0.0</li>
+<li><a href="https://github.com/vuejs/vue-jest/commit/938a97e3376b7279646ccf144438ec3853f3164b"><code>938a97e</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/vuejs/vue-jest/issues/311">#311</a> from vuejs/dependabot/npm_and_yarn/ini-1.3.7</li>
+<li><a href="https://github.com/vuejs/vue-jest/commit/1ada5fec319fb74b64e26a15b2bc4bf44cdf72d0"><code>1ada5fe</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/vuejs/vue-jest/issues/312">#312</a> from vuejs/dependabot/npm_and_yarn/node-notifier-8.0.1</li>
+<li><a href="https://github.com/vuejs/vue-jest/commit/b393520e4811a072245b958bf663d89a6bc9b385"><code>b393520</code></a> chore(deps): bump node-notifier from 8.0.0 to 8.0.1</li>
+<li><a href="https://github.com/vuejs/vue-jest/commit/4ce46866a388c97c13b69b043326431787cbaa85"><code>4ce4686</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/vuejs/vue-jest/issues/310">#310</a> from nogic1008/hotfix/template-compiler</li>
+<li><a href="https://github.com/vuejs/vue-jest/commit/2353bd236930b4ab0728b9ab7327c0d07f38f7b2"><code>2353bd2</code></a> chore(deps): bump ini from 1.3.5 to 1.3.7</li>
+<li>Additional commits viewable in <a href="https://github.com/vuejs/vue-jest/compare/v3.0.7...v4.0.1">compare view</a></li>
+</ul>
+</details>
+<br />
+
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -273,35 +1108,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-07 13:18:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/849" class=".btn">#849</a>
-            </td>
-            <td>
-                <b>
-                    Version updates and minor fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - latest chrome version requires https in case the cookie is set to secure, otherwise the cookie is not stored, which breaks the login screen in case `BPA_SECURITY_ENABLED=true` and the BPA is accessed via `http://localhost:8080`.  Added a comment .env-example on how to workaround this.
-- ngrok v3 now requires a version field in ngrok.yml, otherwise the tunnel won't start
-- version updates
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-07 13:09:58 +0000 UTC
+        Created At 2023-01-06 13:55:17 +0000 UTC
     </div>
 </div>
 

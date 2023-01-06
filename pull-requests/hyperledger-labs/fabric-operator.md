@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
             </td>
             <td>
                 <b>
-                    Add support for CA Idemix config override - DO NOT MERGE
+                    Add support for CA Idemix config override stanza
                 </b>
             </td>
         </tr>
@@ -27,9 +27,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                **DO NOT MERGE**
-
-Adds support for Idemix configuration parameters to the CA CRD `spec.configoverride.ca.idemix` attribute.
+                Adds support for Idemix configuration parameters to the CA CRD `spec.configoverride.ca.idemix` stanza.
 
 Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
             </td>
