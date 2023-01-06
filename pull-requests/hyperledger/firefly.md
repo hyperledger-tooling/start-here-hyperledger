@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1130" class=".btn">#1130</a>
+            </td>
+            <td>
+                <b>
+                    Add strong nil checking on orchestrator and redress test coverage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Fixes #1116
+   - I went the route of forcing `nil` checking on the `Operator()` method everywhere (apart from unit tests, where I added a `MustOrchestrator`)
+- Addresses a couple of  areas where test coverage seems to have slipped
+
+After fix:
+![image](https://user-images.githubusercontent.com/6660217/210892935-f458ab7a-6b8e-46a4-9398-5cd2217c2764.png)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-05 22:34:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1129" class=".btn">#1129</a>
+            </td>
+            <td>
+                <b>
+                    Add docs on fftokens
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <img width="1234" alt="fftokens_-_Hyperledger_FireFly_Docs" src="https://user-images.githubusercontent.com/1993829/210884637-4b4a3027-4e8c-4e6c-a5b4-ecc2e5d4f288.png">
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-05 21:36:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1126" class=".btn">#1126</a>
             </td>
             <td>

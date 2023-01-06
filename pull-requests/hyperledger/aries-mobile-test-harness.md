@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/107" class=".btn">#107</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/114" class=".btn">#114</a>
             </td>
             <td>
                 <b>
-                    trial fix for getting auth code for BC VP issuer
+                    Develop settings toggle to Test
                 </b>
             </td>
         </tr>
@@ -28,13 +28,24 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
             </td>
             <td>
                 Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+This PR includes the following enhancements to BC Wallet tests and AMTH itself.
 
-This is a fix for getting the auth code from a GitHub login on the BC VP Issuer Login when in the GitHub test pipeline environment. However, locally when logging into gmail to get the auth code, gmail is occasionally presenting a captcha. Hoping this doesn't happen in the pipeline as well. 
+BC Wallet:
+
+- Test environment Toggle to Test env for all tests
+
+- Streamlined waiting for connecting, initializing, and cred offer
+
+AMTH:
+- The BasePage that every PageObject should inherit from now has a scroll_to_bottom() that may come in handy if you just need to get to the bottom of a page instead of scrolling to an element. 
+
+- There is a new class called WaitCondition which is an ENUM. So instead of using the default `presence_of_element_located` in the find_by method, you can now use `element_to_be_clickable`, visibility_of _element_located`, or `invisibility_of_element_located`, the latter is great for waiting for temporary progress elements like loading, initializing, connecting, to disappear before continuing.
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-02 23:40:04 +0000 UTC
+        Created At 2023-01-05 22:10:45 +0000 UTC
     </div>
 </div>
 

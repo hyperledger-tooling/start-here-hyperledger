@@ -29,7 +29,7 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
             <td>
                 # Summary of Changes
 
-Replace this text with a high-level summary of the changes included in this PR.
+Adds the ability to remove contacts from wallet. Requires that all credentials associated with connection are manually removed first. A followup PR will give users the option to remove associated credentials in one step.
 
 # Related Issues
 

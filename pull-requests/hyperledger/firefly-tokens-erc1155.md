@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
                 
             </td>
             <td>
-                In a chain with #105.
+                ~~In a chain with #105.~~
 Part of [FIR-16](https://github.com/hyperledger/firefly-fir/pull/16).
 
 Companion to https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/106.

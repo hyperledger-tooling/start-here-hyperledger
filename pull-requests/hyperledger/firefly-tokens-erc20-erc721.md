@@ -142,7 +142,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 
             </td>
             <td>
-                In a chain with #104.
+                ~~In a chain with #104.~~
 Part of [FIR-16](https://github.com/hyperledger/firefly-fir/pull/16).
 
 Add a new `/checkinterface` API which takes in a full ABI and returns the recognized methods from that ABI for approval/mint/burn/transfer operations.
