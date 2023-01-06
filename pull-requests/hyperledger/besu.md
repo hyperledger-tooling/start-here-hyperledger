@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4888" class=".btn">#4888</a>
+            </td>
+            <td>
+                <b>
+                    Peering - disconnect worst peer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Disconnect "worst" peer in two cases
+* AbstractRetryingSwitchingPeerTask - when retrying task with multiple peers and all peers have been tried and found wanting
+* FastSyncTargetManager - if best peer is behind the pivot block, disconnect worst peer 
+Also add some extra context info to "Best peer" log message
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-06 07:01:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4887" class=".btn">#4887</a>
             </td>
             <td>
@@ -304,12 +342,27 @@ Co-authored-by: Karim TAAM <karim.t2am@gmail.com>
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-This PR will evaluate how much empty slots are stored in RocksDB and test if caching these empty slots would help to improve SLOAD performance.
+This will add a cache for empty slots. This would help to improve SLOAD and SSTORE performance. It would improve especially SSTORE during cost gas and refund amount calculation because some original and current values used during this calculation are empty. 
 
-CPU Profiling before and after this PR
+### CPU Profiling before and after this PR
+**Before this PR**
+Block Processing CPU profiling
+<img width="1716" alt="image" src="https://user-images.githubusercontent.com/5099602/210971638-a1cef57a-91b3-45e4-8306-8fd1ad426ce8.png">
+
+SSTORE CPU Profiling
+<img width="1716" alt="image" src="https://user-images.githubusercontent.com/5099602/210973428-eb505a85-11db-4500-8bf6-c46d4935a332.png">
 
 
-The results
+**After this PR**
+Block Processing CPU profiling
+<img width="1716" alt="Screenshot 2023-01-06 at 10 20 15" src="https://user-images.githubusercontent.com/5099602/210971139-c4c6151a-b03f-4ab7-bb3c-87251f5bdbfc.png">
+
+SSTORE CPU Profiling
+<img width="1716" alt="image" src="https://user-images.githubusercontent.com/5099602/210974334-eba33fe9-da1a-4cbd-8187-d0c9ca6300a9.png">
+
+### The results
+As we can see in the screenshot below, there is an improvement on block processing time on 50th percentile (mean) and 95th percentile.
+
 <img width="1637" alt="image" src="https://user-images.githubusercontent.com/5099602/210831174-27279365-f5d4-46c1-8a3d-58bd44135729.png">
 
 ## Fixed Issue(s)

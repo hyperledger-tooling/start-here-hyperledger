@@ -33,6 +33,9 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
 - RFC updated for Corda data sharing
 - RFC drafted for Besu data sharing and views.
 
+Update:
+- Updated Corda asset exchange in "Enable weaver in your application" document.
+
 Deployed new docs: https://sanvendev.github.io/weaver-dlt-interoperability/docs/external/getting-started/guide
             </td>
         </tr>

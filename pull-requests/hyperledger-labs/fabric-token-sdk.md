@@ -18,16 +18,18 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             </td>
             <td>
                 <b>
-                    GetTokenCommitment fix
+                    ZKATDLOG: Improved VaultTokenCommitmentLoader
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span>
             </td>
             <td>
-                when getting a token commitment, if the result is nil and the transaction is busy, retry a few time before returning the error.
+                The current loader fails if the commitment of a given token does not exists, but it might be that the corresponding transaction is still pending. This means that the commit pipeline hasn't had time to process the transaction yet.
+
+This PR improves the loader by adding the possibility to retry after some time. 
 
 Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
