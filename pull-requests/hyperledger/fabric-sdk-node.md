@@ -14,11 +14,63 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/632" class=".btn">#632</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/637" class=".btn">#637</a>
             </td>
             <td>
                 <b>
-                    feat(FabricCAClient): addDefaultHeader && fix bugs
+                    Reduce reliance on exact error message text in scenario tests (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Some testing of error scenarios checked for exact error message text produced by Fabric and/or the chaincode runtime, which are outside the scope of control of the SDK and failed when the text of those messages changed slightly. This change minimises the checking to text that should either be reasonably expected to be included in the runtime error message, or is produced by the smart contract used for testing and can therefore be relied on.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-06 17:50:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/636" class=".btn">#636</a>
+            </td>
+            <td>
+                <b>
+                    Decompose build into reusable workflows (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This enables scheduled builds to be run across multiple branches while keeping the build logic local to each branch.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-06 17:40:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/635" class=".btn">#635</a>
+            </td>
+            <td>
+                <b>
+                    Scheduled build
                 </b>
             </td>
         </tr>
@@ -32,7 +84,33 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-20 07:51:54 +0000 UTC
+        Created At 2023-01-06 17:10:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/634" class=".btn">#634</a>
+            </td>
+            <td>
+                <b>
+                    Reduce reliance on exact error message text in scenario tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Some testing of error scenarios checked for exact error message text produced by Fabric and/or the chaincode runtime, which are outside the scope of control of the SDK and failed when the text of those messages changed slightly. This change minimises the checking to text that should either be reasonably expected to be included in the runtime error message, or is produced by the smart contract used for testing and can therefore be relied on.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-06 16:19:24 +0000 UTC
     </div>
 </div>
 

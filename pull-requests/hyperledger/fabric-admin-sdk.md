@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric-admin-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/74" class=".btn">#74</a>
+            </td>
+            <td>
+                <b>
+                    Nominate channing duan
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Nominate @channingduan as maintainer for this project.
+
+duan helps with init features of golang code.
+
+ref to https://github.com/hyperledger/fabric-admin-sdk/pulls?q=is%3Apr+is%3Aclosed+author%3Achanningduan
+
+Signed-off-by: Sam Yuan <yy19902439@126.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-06 13:57:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/73" class=".btn">#73</a>
             </td>
             <td>
