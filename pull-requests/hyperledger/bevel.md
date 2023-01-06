@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2120" class=".btn">#2120</a>
+            </td>
+            <td>
+                <b>
+                    feat(docs): update PR template
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                feat(docs): update PR template
+
+    Primary Changes
+    ---------------
+    1. Updated .github/pull_request_template.md
+
+    Results from changes done in 1)
+    a. Removed reviewed_by field as github can track that information
+    b. Added fixes tag for auto-linking to the issue
+
+Fixes hyperledger#2102
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-06 09:02:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2118" class=".btn">#2118</a>
             </td>
             <td>
