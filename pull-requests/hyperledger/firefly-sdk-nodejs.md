@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/57" class=".btn">#57</a>
+            </td>
+            <td>
+                <b>
+                    Add namespace api
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                address review comment from https://github.com/hyperledger/firefly-sdk-nodejs/pull/56#discussion_r1062934471
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-05 22:20:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/54" class=".btn">#54</a>
             </td>
             <td>

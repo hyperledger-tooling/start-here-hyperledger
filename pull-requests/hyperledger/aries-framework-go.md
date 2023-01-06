@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3462" class=".btn">#3462</a>
+            </td>
+            <td>
+                <b>
+                    feat: Unit test for SD-JWT Flow (Issuer, Holder, Verifier)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Unit test for SD-JWT Flow.
+
+Closes #3461
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-05 21:33:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3460" class=".btn">#3460</a>
             </td>
             <td>
