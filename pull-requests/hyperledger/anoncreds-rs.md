@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
             </td>
             <td>
                 <b>
-                    Verify presentation timestamp is within request request interval
+                    Return NRP warning if presentation timestamp is outside of req interval
                 </b>
             </td>
         </tr>
@@ -28,8 +28,6 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
             </td>
             <td>
                 Closes #41 
-
-(pending discussion outcome)
             </td>
         </tr>
     </table>
