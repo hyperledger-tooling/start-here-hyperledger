@@ -1,13 +1,13 @@
 
-[721](https://github.com/hyperledger/aries-vcx/pull/721) Improve IndyError->AriesVcxError mapping, refactor tests in libvcx
+[132](https://github.com/hyperledger/fabric-gateway-java/pull/132) Update Java dependency-check version
 
-[637](https://github.com/hyperledger/fabric-sdk-node/pull/637) Reduce reliance on exact error message text in scenario tests (release-2.2)
+[521](https://github.com/hyperledger/fabric-gateway/pull/521) Update Java dependency-check version
 
-[636](https://github.com/hyperledger/fabric-sdk-node/pull/636) Decompose build into reusable workflows (release-2.2)
+[723](https://github.com/hyperledger/aries-vcx/pull/723) Remove usage of vdrtools's ffi_api feature
 
-[107](https://github.com/hyperledger/firefly-tokens-erc1155/pull/107) Update README
+[3902](https://github.com/hyperledger/fabric/pull/3902) Fix approve for my org to not endorse committed transaction
 
-[635](https://github.com/hyperledger/fabric-sdk-node/pull/635) Scheduled build
+[3901](https://github.com/hyperledger/fabric/pull/3901) Add PurgedKeyAuditLogging config option
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

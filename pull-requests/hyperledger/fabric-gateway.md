@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/521" class=".btn">#521</a>
+            </td>
+            <td>
+                <b>
+                    Update Java dependency-check version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves an issue that prevented dependency-check running due to long CVE content.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-07 00:49:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/520" class=".btn">#520</a>
             </td>
             <td>

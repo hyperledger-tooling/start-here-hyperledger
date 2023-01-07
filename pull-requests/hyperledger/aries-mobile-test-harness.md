@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/116" class=".btn">#116</a>
+            </td>
+            <td>
+                <b>
+                    Fix for getting version element on settings page on iOS < 15
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+
+This PR works around a problem with the BC wallet where the testID does not show for the version label on the settings page. It now gets the elements by partial text. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-06 20:16:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/114" class=".btn">#114</a>
             </td>
             <td>

@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1132" class=".btn">#1132</a>
+            </td>
+            <td>
+                <b>
+                    Add DELETE method for data API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Depends on: https://github.com/hyperledger/firefly-dataexchange-https/pull/73
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-06 21:24:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1131" class=".btn">#1131</a>
+            </td>
+            <td>
+                <b>
+                    Add docs on passing ABI info to token pools
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Part of [FIR-16](https://github.com/hyperledger/firefly-fir/pull/16).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-06 20:01:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1130" class=".btn">#1130</a>
             </td>
             <td>

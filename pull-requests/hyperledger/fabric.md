@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3902" class=".btn">#3902</a>
+            </td>
+            <td>
+                <b>
+                    Fix approve for my org to not endorse committed transaction
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When a chaincode is approved and committed, it means that it has been accepted and added to the network. However, it is still possible to approve the exact chaincode definition with the same sequence after it has been committed. This can lead to confusing behavior because the transaction is endorsed even though it will never be considered valid.
+
+This commit proposes a fix to prevent the endorsement of transactions that attempt to approve already committed chaincode definitions with the same sequence. By failing endorsement of these transactions, we can provide a better experience for end users. In addition, this will help to ensure that the chaincode approval process is more transparent and predictable for all parties involved.
+
+Signed-off-by: Artem Barger <artem@bargr.net>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-06 22:33:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3901" class=".btn">#3901</a>
+            </td>
+            <td>
+                <b>
+                    Add PurgedKeyAuditLogging config option
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add peer config option to log purged private data keys. Useful to audit that private data has been purged from a peer, however some users may want to disable the audit logging to prevent private data keys from appearing in peer logs, while preserving the other pvtdatastorage log messages.
+
+Sample log entry:
+`INFO [pvtdatastorage] process -> Processed private data purge from private data storage channel=mychannel chaincode=private collection=Org1MSPPrivateCollection key=assetp4 blockNum=10 tranNum=0`
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-06 22:29:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3900" class=".btn">#3900</a>
             </td>
             <td>

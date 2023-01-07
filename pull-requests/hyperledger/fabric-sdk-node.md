@@ -70,7 +70,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
             </td>
             <td>
                 <b>
-                    Scheduled build
+                    Scheduled build matrix for main and release-2.2 branches
                 </b>
             </td>
         </tr>
@@ -79,7 +79,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
                 
             </td>
             <td>
-                <nil>
+                Decompose build into a reusable GitHub Actions workflows to facilitate matrix build across multiple branches.
             </td>
         </tr>
     </table>

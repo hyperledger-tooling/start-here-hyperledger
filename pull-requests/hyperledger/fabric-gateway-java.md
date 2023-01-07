@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/131" class=".btn">#131</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/132" class=".btn">#132</a>
             </td>
             <td>
                 <b>
-                    Suppress scan failure for CVE-2022-1471 (release-2.2)
+                    Update Java dependency-check version
                 </b>
             </td>
         </tr>
@@ -27,42 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
                 
             </td>
             <td>
-                Usage of SnakeYaml in fabric-sdk-java is only with SafeConstructor, which mitigates this vulnerability.
+                Resolves an issue that prevented dependency-check running due to long CVE content.
 
-Also update some Maven plugins and dependencies to current versions.
+Also suppress two false positives for SnakeYaml triggered by go-yaml CVEs.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-13 15:07:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/130" class=".btn">#130</a>
-            </td>
-            <td>
-                <b>
-                    Suppress scan failure for CVE-2022-1471
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Usage of SnakeYaml in fabric-sdk-java is only with SafeConstructor, which mitigates this vulnerability.
-
-Also update some Maven plugins and dependencies to current versions.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-13 15:01:10 +0000 UTC
+        Created At 2023-01-07 01:09:36 +0000 UTC
     </div>
 </div>
 
