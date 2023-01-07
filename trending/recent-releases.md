@@ -1,7 +1,7 @@
 
-[v1.0.4](https://github.com/hyperledger-labs/fabric-operator/releases/tag/v1.0.4) v1.0.4
-
 [v1.0.4-2](https://github.com/hyperledger-labs/fabric-operator/releases/tag/v1.0.4-2) v1.0.4-2
+
+[v1.0.4](https://github.com/hyperledger-labs/fabric-operator/releases/tag/v1.0.4) v1.0.4
 
 [v1.2.2](https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.2.2) v1.2.2
 
