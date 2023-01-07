@@ -14,55 +14,33 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/389" class=".btn">#389</a>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/390" class=".btn">#390</a>
             </td>
             <td>
                 <b>
-                    Upgrade wawaka to WAMR-1.1.2 release
+                    Various updates to make multi-user contracts work
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span>
             </td>
             <td>
-                Key new features since last supported version (WAMR-01-19-2022):
+                This PR includes a number of fixes that make it easier for users on different clients to share access to contracts. 
 
-- Since [WAMR-05-18-2022](https://github.com/bytecodealliance/wasm-micro-runtime/releases/tag/WAMR-05-18-2022)
-  * Implement Berkeley Socket APIs for libc-wasi and linux-sgx platforms
-  * Fix native stack overflow check failed in interpreter
-  * Fix various AOT compilation and loader issues
+First, it introduces the configuration of a persistent storage service that is identified in the extra data (this is a hint, not a guarantee) in the contract file. The persistent storage service is a service where the current state of the contract is likely to exist (and persistent indefinitely).
 
-- Since [fast-jit-06-29-2022](https://github.com/bytecodealliance/wasm-micro-runtime/releases/tag/fast-jit-06-29-2022):
-  * First implementation of fast JIT
+Second, to allow storage services that are not associated with an eservice (e.g. to make a persistent storage service that has a policy for maintaining state that is not the same as the short term caches generally used by the storage services attached to an eservice), make the replication manager work with storage services NOT eservices. 
 
-- Since [WAMR-1.0.0](https://github.com/bytecodealliance/wasm-micro-runtime/releases/tag/WAMR-1.0.0)
-  * Implement HW bound check for interpreter and Fast JIT
-  * Implement Python and go language bindings
-  * Enable SGX remote attestation using librats
-  * Add a new API to get free memory in memory pool
-  * Enable AOT compiler with llvm-14/15
-  * Support 3rd-party toolchains in wamrc
+Third, since we long ago removed the need for uploading contract code on every transaction (since the code is stored in the contract state), the code is removed from the contract save file. This makes the save files a LOT smaller (especially with wawaka code) and reasonable to package in an email & send to someone. The contract code hash is included to verify that the code used matches the code expected. 
 
-- Since [WAMR-1.1.0](https://github.com/bytecodealliance/wasm-micro-runtime/releases/tag/WAMR-1.1.0)
-  * Add support for SGX IPFS
-  * Add check for code section size, fix interpreter float operations
-  * Prevent an already detached thread from being detached again for thread manager
-
-- Since [WAMR-1.1.1](https://github.com/bytecodealliance/wasm-micro-runtime/releases/tag/WAMR-1.1.1)
-  * Improvements to Socket API implementations
-  * Integrate WASI-NN into WAMR: support TensorFlow/CPU/F32 in the first stage
-
-- Since [WAMR-1.1.2](https://github.com/bytecodealliance/wasm-micro-runtime/releases/tag/WAMR-1.1.2)
-  * Change iwasm exit code in certain conditions
-  * Enable bulk memory by default; normalize how the global heap pool is configured across iwasm apps
-  * Refine AOT exception checks when functions return
+Finally, the PDO documentation is lacking. This PR will not fix that. However, some additional documentation was added to help interpret the process for building wawaka contracts. This is a start, not the end.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-22 22:55:53 +0000 UTC
+        Created At 2023-01-06 19:21:58 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-dataexchange-https
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-dataexchange-https/pull/71" class=".btn">#71</a>
+                PR <a href="https://github.com/hyperledger/firefly-dataexchange-https/pull/73" class=".btn">#73</a>
             </td>
             <td>
                 <b>
-                    Added delete blobs API for Issue 36
+                    Add DELETE method for blobs
                 </b>
             </td>
         </tr>
@@ -27,18 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-dataexchange-https
                 
             </td>
             <td>
-                Signed-off-by: Shweta Melton <shweta@shweta_s@hotmail.com>
-
-- Added delete blobs API that would delete the blob file and the blob metadata file
-- If any of the files for the blob do not exist, it will clean up whatever exists. 
-- On success, returns Blob metadata if available or empty response (if the metadata file did not exist at the time of deletion)
-- Added unit tests
-- Updated Swagger documentation
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-17 02:40:13 +0000 UTC
+        Created At 2023-01-06 21:24:43 +0000 UTC
     </div>
 </div>
 
