@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/107" class=".btn">#107</a>
+                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/108" class=".btn">#108</a>
             </td>
             <td>
                 <b>
-                    Move inactive maintainers to emeritus status
+                    udpate sandbox UI to support mult-namespaces
                 </b>
             </td>
         </tr>
@@ -27,21 +27,18 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
                 
             </td>
             <td>
-                The TOC approved a requirement that maintainers
-that have not been active in over three to six
-months be move to emeritus status.
+                Signed-off-by: Chengxuan Xing <chengxuan.xing@kaleido.io>
 
-These maintainers have not been active in over
-one year.
-
-hyperledger/toc#32
-
-Signed-off-by: Ry Jones <ry@linux.com>
+Todos:
+1. Pick up https://github.com/hyperledger/firefly-sdk-nodejs/pull/59 & https://github.com/hyperledger/firefly-sdk-nodejs/pull/58 
+1. have a strategy for websocket events of multiple namespaces
+1. Hacking the query in fetch util to add the selected namespace might not be a good idea. A better way is to pass namespace down to the components
+1. When a namespace is switched, handle necessary refreshes
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-18 18:39:09 +0000 UTC
+        Created At 2023-01-08 01:20:17 +0000 UTC
     </div>
 </div>
 
