@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamRevenant</span><span class="chip">mainnet</span><span class="chip">peering</span>
             </td>
             <td>
                 Disconnect "worst" peer in two cases

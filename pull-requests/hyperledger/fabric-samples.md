@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/900" class=".btn">#900</a>
+            </td>
+            <td>
+                <b>
+                    Fix chaincodes typo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Stumbled upon this typo across multiple chaincodes when developing with `fabric-samples`
+
+Signed-off-by: Rubén <20502699+rubcv@users.noreply.github.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-07 21:11:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/898" class=".btn">#898</a>
             </td>
             <td>
