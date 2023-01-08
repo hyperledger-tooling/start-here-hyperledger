@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/127" class=".btn">#127</a>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/128" class=".btn">#128</a>
             </td>
             <td>
                 <b>
-                    Fixes minor issues with pathing
+                    Fixed minor issues with the build pipeline
                 </b>
             </td>
         </tr>
@@ -27,15 +27,18 @@ permalink: /pull-requests/hyperledger/indy-vdr
                 
             </td>
             <td>
-                Work funded by the Government of Ontario.
+                - Switched back to static libraries as there were some small issues with the dynamic libraries. We should change it in the future, but for now this will work (it is just a bit more megabytes that have to be downloaded).
+- tested here https://www.npmjs.com/search?q=indy-vdr-test
+- Supersedes #127 
+
+Work funded by the Government of Ontario.
 
 Signed-off-by: blu3beri <blu3beri@proton.me>
-
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-06 15:48:03 +0000 UTC
+        Created At 2023-01-07 19:57:45 +0000 UTC
     </div>
 </div>
 
