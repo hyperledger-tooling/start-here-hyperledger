@@ -30,10 +30,13 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
                 Signed-off-by: Chengxuan Xing <chengxuan.xing@kaleido.io>
 
 Todos:
-1. Pick up https://github.com/hyperledger/firefly-sdk-nodejs/pull/59 & https://github.com/hyperledger/firefly-sdk-nodejs/pull/58 
-1. have a strategy for websocket events of multiple namespaces
-1. Hacking the query in fetch util to add the selected namespace might not be a good idea. A better way is to pass namespace down to the components
-1. When a namespace is switched, handle necessary refreshes
+
+- [ ] Pick up https://github.com/hyperledger/firefly-sdk-nodejs/pull/59 & https://github.com/hyperledger/firefly-sdk-nodejs/pull/58 
+- [ ] have a strategy for websocket events of multiple namespaces
+
+Discussions required on way of doing things:
+- [ ] (discussion) Hacking the query in fetch util to add the selected namespace might not be a good idea. A better way is to pass namespace down to the components
+- [ ]  (discussion) When a namespace is switched, handle necessary refreshes other than reload the whole page
             </td>
         </tr>
     </table>
