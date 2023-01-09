@@ -1,13 +1,13 @@
 
-[4890](https://github.com/hyperledger/besu/pull/4890) Implement engine_forkchoiceUpdated Withdrawals validation
+[4893](https://github.com/hyperledger/besu/pull/4893) Remove qbft reference tests
 
-[361](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/361) Tutorial updates, and RFC, bug and package version fixes
+[1239](https://github.com/hyperledger/besu-docs/pull/1239) Permissioning - remove reference to the dapp
 
-[2251](https://github.com/hyperledger/cactus/pull/2251) feat(besu-test-ledger): send funds to already created address
+[3904](https://github.com/hyperledger/fabric/pull/3904) Add PurgedKeyAuditLogging config option (backport #3901)
 
-[119](https://github.com/hyperledger/indy-test-automation/pull/119) CVE-2007-4559 Patch
+[4892](https://github.com/hyperledger/besu/pull/4892) Withdrawals type
 
-[2249](https://github.com/hyperledger/cactus/pull/2249) feat(fabric-test-ledger): add support to enrolling users in different Orgs
+[1475](https://github.com/hyperledger/caliper/pull/1475) Bump json5 from 1.0.1 to 1.0.2
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

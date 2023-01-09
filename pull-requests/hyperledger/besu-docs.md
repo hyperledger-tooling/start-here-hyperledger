@@ -14,6 +14,94 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1239" class=".btn">#1239</a>
+            </td>
+            <td>
+                <b>
+                    Permissioning - remove reference to the dapp
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Remove references to the permissioning dapp. Smart contracts can still be used but the dapp doesn't work for new users.
+
+Fixes #1238 
+
+For content changes:
+
+- [x] Documentation content
+- [ ] Documentation page organization
+
+## After creating your PR and tests have finished
+
+Make sure that:
+
+- [ ] You've fixed any issues raised by the tests.
+- [ ] You've [previewed your changes on Read the Docs](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation)
+  and added a [preview link](#preview).
+
+## Preview
+
+https://hyperledger-besu--1239.org.readthedocs.build/en/1239/private-networks/concepts/permissioning/onchain/
+https://hyperledger-besu--1239.org.readthedocs.build/en/1239/private-networks/how-to/use-permissioning/onchain/
+https://hyperledger-besu--1239.org.readthedocs.build/en/1239/private-networks/tutorials/permissioning/onchain/
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-09 04:10:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1237" class=".btn">#1237</a>
+            </td>
+            <td>
+                <b>
+                    Update broken link to the Grafana dashboard.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Pull request checklist
+
+Use the following list to make sure your PR fits the Besu documentation quality standard.
+
+### Before creating the pull request
+
+Make sure that:
+
+- [x] [All commits in this PR are signed off for the DCO](https://wiki.hyperledger.org/display/BESU/DCO).
+- [x] You've read the [contribution guidelines](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [x] You've [previewed your changes locally](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation).
+
+## Describe the change
+
+The link to the Grafana dashboard has been causing the nightly CI job to fail. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-09 02:22:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1233" class=".btn">#1233</a>
             </td>
             <td>
