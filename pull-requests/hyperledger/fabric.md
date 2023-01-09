@@ -60,7 +60,14 @@ Signed-off-by: Artem Barger <artem@bargr.net>
                 Add peer config option to log purged private data keys. Useful to audit that private data has been purged from a peer, however some users may want to disable the audit logging to prevent private data keys from appearing in peer logs, while preserving the other pvtdatastorage log messages.
 
 Sample log entry:
-`INFO [pvtdatastorage] process -> Processed private data purge from private data storage channel=mychannel chaincode=private collection=Org1MSPPrivateCollection key=assetp4 blockNum=10 tranNum=0`
+```
+INFO [pvtdatastorage] process -> Purging private data from private data storage channel=mychannel chaincode=private collection=Org1MSPPrivateCollection key=assetp5 blockNum=12 tranNum=0
+INFO [pvtdatastorage] process -> Purging private data from private data storage channel=mychannel chaincode=private collection=Org1MSPPrivateCollection key=assetp5 blockNum=13 tranNum=0
+INFO [pvtdatastorage] process -> Purging private data from private data storage channel=mychannel chaincode=private collection=assetCollection key=assetp5 blockNum=12 tranNum=0
+INFO [pvtdatastorage] process -> Purging private data from private data storage channel=mychannel chaincode=private collection=assetCollection key=assetp5 blockNum=13 tranNum=0
+
+INFO [pvtdatastorage] deleteDataMarkedForPurge -> Purged private data from private data storage channel=mychannel numKeysPurged=2 numPrivateDataStoreRecordsPurged=4
+```
 
 Signed-off-by: David Enyeart <enyeart@us.ibm.com>
             </td>

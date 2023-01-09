@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/361" class=".btn">#361</a>
+            </td>
+            <td>
+                <b>
+                    Tutorial updates, and RFC, bug and package version fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Edited the Weaver Enablement for Fabric tutorial page, adding more context and providing explicit instructions to enable TLS among connections across relays, drivers, and IIN Agents (partly fixing #257 )
+- Fixed bad links in various RFCs.
+- Fixed data sharing workflow bug.
+- Updated some Go module package dependencies to latest versions.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-08 20:50:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/360" class=".btn">#360</a>
             </td>
             <td>
@@ -157,6 +186,12 @@ You can disable automated security fix PRs for this repo from the [Security Aler
 
 Update:
 - Updated Corda asset exchange in "Enable weaver in your application" document.
+
+Update 2:
+- Support an array of payloads, one from each node in Corda View.
+- Updated rfc, core contracts, and SDK as per above Corda View change.
+- Added 2 orgs test in Corda Interop App unit test, and fixed bug in ViewVerification when receiving view from 2 orgs.
+- All modules updated to `v1.5.7` except corda modules which are updated to `v1.2.13`
 
 Deployed new docs: https://sanvendev.github.io/weaver-dlt-interoperability/docs/external/getting-started/guide
             </td>

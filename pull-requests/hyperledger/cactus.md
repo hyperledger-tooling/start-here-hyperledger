@@ -14,6 +14,75 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2251" class=".btn">#2251</a>
+            </td>
+            <td>
+                <b>
+                    feat(besu-test-ledger): send funds to already created address
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Enable sending funds to an existing account.
+
+New method created:
+* sendEthToAccount
+
+closes #2250
+
+Signed-off-by: André Augusto <andre.augusto@tecnico.ulisboa.pt>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-08 20:07:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2249" class=".btn">#2249</a>
+            </td>
+            <td>
+                <b>
+                    feat(fabric-test-ledger): add support to enrolling users in different Orgs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Created new methods to avoid breaking changes in the API exported.
+
+New methods created:
+* capitalizedMspIdOfOrg
+* enrollAdminV2
+* enrollUserV2
+* createCaClientV2
+
+closes #2248
+
+Signed-off-by: André Augusto <andre.augusto@tecnico.ulisboa.pt>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-08 19:51:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/2247" class=".btn">#2247</a>
             </td>
             <td>
