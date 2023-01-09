@@ -145,29 +145,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1118" class=".btn">#1118</a>
-            </td>
-            <td>
-                <b>
-                    Fix docs on CI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Cyrill Leutwiler <bigcyrill@hotmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-02 08:47:28 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1134" class=".btn">#1134</a>
+            </td>
+            <td>
+                <b>
+                    Check variable before using its value
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add a check to see if poolData is nil before attempting to access its fields. 
+
+Resolves #1121 
+
+Signed-off-by: Ayushya Chitransh <ayushyachitransh@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-09 12:24:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1133" class=".btn">#1133</a>
             </td>
             <td>

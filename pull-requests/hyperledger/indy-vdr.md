@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/indy-vdr
                 
             </td>
             <td>
-                - Switched back to static libraries as there were some small issues with the dynamic libraries. We should change it in the future, but for now this will work (it is just a bit more megabytes that have to be downloaded).
+                closes #115 
+
+- Switched back to static libraries as there were some small issues with the dynamic libraries. We should change it in the future, but for now this will work (it is just a bit more megabytes that have to be downloaded).
 - tested here https://www.npmjs.com/search?q=indy-vdr-test
 - Supersedes #127 
 
