@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/246" class=".btn">#246</a>
+            </td>
+            <td>
+                <b>
+                    Update snippets
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+
+**not ready for review**
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-09 08:24:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/245" class=".btn">#245</a>
             </td>
             <td>

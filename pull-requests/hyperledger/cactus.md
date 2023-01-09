@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2252" class=".btn">#2252</a>
+            </td>
+            <td>
+                <b>
+                    feat(connector-iroha2): update to the new LTS image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Change iroha2 setup docker and helper classes to work with the new LTS image.
+- Update Iroha SDK packages to the newest.
+- Fix some tests that were failing after upgrade.
+- Adjust SDK usage (new version doesn't create Torii client,
+  arguments are provided with each method instead)
+
+### WARNING
+- Wait for pinned image versions before merging!
+
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-09 11:53:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/2251" class=".btn">#2251</a>
             </td>
             <td>

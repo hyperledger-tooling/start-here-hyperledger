@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4895" class=".btn">#4895</a>
+            </td>
+            <td>
+                <b>
+                    For TimestampSchedule (Shanghai) remove evmBuilder override but leave other mods in
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamGroot</span><span class="chip">mainnet</span><span class="chip">EIP</span>
+            </td>
+            <td>
+                Ideally, want to remove all the modifications, but that will be addressed by https://github.com/hyperledger/besu/issues/4788
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-09 08:12:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4893" class=".btn">#4893</a>
             </td>
             <td>

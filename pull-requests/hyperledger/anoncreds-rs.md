@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/50" class=".btn">#50</a>
+            </td>
+            <td>
+                <b>
+                    Added `issuerId` to the `schema` and `cred_def` anoncreds objects
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Partially closes #34 
+
+- Adds `IssuerId` property to the `Schema` and `CredentialDefinition`.
+
+This is reflects the PR for adding the `issuerId` to anoncreds objects.
+
+(revocation needs to be done but is omitted here for conflicts with #37.
+
+Signed-off-by: blu3beri <blu3beri@proton.me>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-09 12:13:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/49" class=".btn">#49</a>
             </td>
             <td>
