@@ -14,40 +14,6 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/59" class=".btn">#59</a>
-            </td>
-            <td>
-                <b>
-                    fixing get status method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Chengxuan Xing <chengxuan.xing@kaleido.io>
-
-The current `getStatus` method calls the wrong global `/status` API which returns the status of the default namespace rather than the one configured when Firefly SDK is initialised.
-
-I think this is a bug based on the convention that all methods should be under the namespace scope.
-
-I also added a  `getDefaultNamespaceStatus` as I don't know an API that returns information about whether a namespace is the default namespace.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-07 22:34:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/58" class=".btn">#58</a>
             </td>
             <td>

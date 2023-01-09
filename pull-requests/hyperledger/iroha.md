@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3050" class=".btn">#3050</a>
+            </td>
+            <td>
+                <b>
+                    [documentation]: Update tutorial snippets
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Documentation</span>
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+
+Changes in tutorial: https://github.com/hyperledger/iroha-2-docs/pull/246
+
+This way the code snippets are pulled directly from this repo to the tutorial
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-09 12:58:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3049" class=".btn">#3049</a>
             </td>
             <td>

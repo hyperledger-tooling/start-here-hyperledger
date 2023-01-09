@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2256" class=".btn">#2256</a>
+            </td>
+            <td>
+                <b>
+                    feat(connector-go-ethereum): add getBlock and
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                getTransactionReceipt methods to connector
+
+- getBlock and getTransactionReceipt added in go-ethereum-socketio-connector
+- Added nullish coalescing in monitor options
+
+Closes: 2255
+Signed-off-by: tomasz awramski <tomasz.awramski@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-09 16:07:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2254" class=".btn">#2254</a>
+            </td>
+            <td>
+                <b>
+                    feat(supabase-all-in-one): add docker image for test supabase instance
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Add a new docker image `supabase-all-in-one` that will setup supabase instance for tests.
+- Supabase is used as a backend for Cactus GUI.
+
+Closes: #2253
+
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-09 15:27:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/2252" class=".btn">#2252</a>
             </td>
             <td>

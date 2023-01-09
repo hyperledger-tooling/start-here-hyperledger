@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/902" class=".btn">#902</a>
+            </td>
+            <td>
+                <b>
+                    Update the name of the certificate.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Late 2022 it was discovered that when used via the CA, the certificate had a fixed named covention. cert.pem
+
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-09 14:17:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/901" class=".btn">#901</a>
             </td>
             <td>

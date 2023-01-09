@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/go-perun
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/379" class=".btn">#379</a>
+                PR <a href="https://github.com/hyperledger-labs/go-perun/pull/383" class=".btn">#383</a>
             </td>
             <td>
                 <b>
-                    README: Fix link to white paper
+                    wire.proto: use absolute module path
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/go-perun
                 
             </td>
             <td>
-                Fixes link to white paper.
+                This allows including `wire.proto` in other projects and generates the correct include paths in .proto modules including it.
+
+Signed-off-by: Steffen Rattay <steffen@perun.network>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-05 13:03:53 +0000 UTC
+        Created At 2023-01-09 13:45:06 +0000 UTC
     </div>
 </div>
 

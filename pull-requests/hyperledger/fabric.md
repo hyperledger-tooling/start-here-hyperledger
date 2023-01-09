@@ -14,6 +14,74 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3906" class=".btn">#3906</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Update purge private data integration tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add scenario1 from #3858
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-09 17:40:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3905" class=".btn">#3905</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: Remove system channel usage from integration tests: configtx
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+#### Type of change
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Remove system channel usage from integration tests: configtx
+
+#### Related issues
+
+Epic:#3511
+Issue: #3515
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-09 15:13:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3904" class=".btn">#3904</a>
             </td>
             <td>

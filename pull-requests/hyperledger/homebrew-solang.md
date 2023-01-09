@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/homebrew-solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/homebrew-solang/pull/6" class=".btn">#6</a>
+                PR <a href="https://github.com/hyperledger/homebrew-solang/pull/7" class=".btn">#7</a>
             </td>
             <td>
                 <b>
-                    Update cask for v0.2.0
+                    Update brew cask to v0.2.1
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/homebrew-solang
                 
             </td>
             <td>
-                Signed-off-by: Sean Young <sean@mess.org>
+                Update Solang cask for the v0.2.1 release.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-03 10:17:35 +0000 UTC
+        Created At 2023-01-09 17:21:36 +0000 UTC
     </div>
 </div>
 

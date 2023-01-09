@@ -133,7 +133,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
             </td>
             <td>
                 <b>
-                    feat(docs): update PR template
+                    [ci-skip]feat(docs): update PR template
                 </b>
             </td>
         </tr>
@@ -178,7 +178,18 @@ Fixes hyperledger#2102
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [json5](https://github.com/json5/json5) to 2.2.3 and updates ancestor dependency [babel-brunch](https://github.com/babel/babel-brunch). These dependencies need to be updated together.
+                [//]: # (dependabot-start)
+⚠️  **Dependabot is rebasing this PR** ⚠️ 
+
+Rebasing might not happen immediately, so don't worry if this takes some time.
+
+Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
+
+---
+
+[//]: # (dependabot-end)
+
+Bumps [json5](https://github.com/json5/json5) to 2.2.3 and updates ancestor dependency [babel-brunch](https://github.com/babel/babel-brunch). These dependencies need to be updated together.
 
 Updates `json5` from 0.5.1 to 2.2.3
 <details>
