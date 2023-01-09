@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/367" class=".btn">#367</a>
+            </td>
+            <td>
+                <b>
+                    Fix issues with server-mode
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - removed possible issue with stream referring to the correct value, due to difference in scoping between function() and ()=>{}
+- ensured that in server mode, the promise was awaited for
+- fixed the register message being sent as the wrong type
+- note the addition of the delete call - for some reason this was picked up by the coverage tests which it never has been before...
+
+
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-09 14:41:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/366" class=".btn">#366</a>
             </td>
             <td>

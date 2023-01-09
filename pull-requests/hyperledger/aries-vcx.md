@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/725" class=".btn">#725</a>
+            </td>
+            <td>
+                <b>
+                    Release 0.51.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-09 14:51:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/723" class=".btn">#723</a>
             </td>
             <td>
@@ -27,7 +53,11 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+                - Ios wrapper contains links to vdrtools FFI functions - this PR is removing functions which links to vdrtools symbols (which are included, if vdrtools feature `ffi_api` is enabled).
+- Ios wrapper should only use API directly exposed by libvcx
+- Consequently we should be able to remove all FFI code from vdrtools along with `ffi_api` feature.
+
+Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
             </td>
         </tr>
     </table>
@@ -125,7 +155,17 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 
             </td>
             <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+                ### Changes
+- Adjust `IndyErrorKind -> AriesVcxErrorKind` to more sensible mapping
+- Add new `LedgerItemNotFound` err kind to ariesvcx, libvcx
+- Add new `ObjectAccessError` err kind  to libvcx
+- Fix wrong err handling - it wrong `key` is used to open wallet, throw `LibvcxErrorKind::WalletAccessFailed` err kind instead of "unmapped" libindy error `LibvcxErrorKind::LibndyError(207)`. Added test to libvcx to cover this case
+
+### Refactoring
+- Move tests from `api_c` layer to `api_vcx`
+- Delete dead code
+
+Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
             </td>
         </tr>
     </table>

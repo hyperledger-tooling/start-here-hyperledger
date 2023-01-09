@@ -31,7 +31,7 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
 
 Todos:
 
-- [ ] Pick up https://github.com/hyperledger/firefly-sdk-nodejs/pull/59 & https://github.com/hyperledger/firefly-sdk-nodejs/pull/58 
+- [x] Pick up https://github.com/hyperledger/firefly-sdk-nodejs/pull/59 & https://github.com/hyperledger/firefly-sdk-nodejs/pull/58 
 - [x] have a strategy for websocket events of multiple namespaces
 
 inputs are welcome on whether the following two logic are good enough:

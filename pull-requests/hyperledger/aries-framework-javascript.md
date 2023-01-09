@@ -14,6 +14,139 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1195" class=".btn">#1195</a>
+            </td>
+            <td>
+                <b>
+                    build(deps): bump luxon from 1.28.0 to 2.5.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span>
+            </td>
+            <td>
+                Bumps [luxon](https://github.com/moment/luxon) from 1.28.0 to 2.5.2.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/moment/luxon/blob/master/CHANGELOG.md">luxon's changelog</a>.</em></p>
+<blockquote>
+<h1>Changelog</h1>
+<h1>3.2.0 (2022-12-29)</h1>
+<ul>
+<li>Allow timeZone to be specified as an intl option</li>
+<li>Fix for diff's handling of end-of-month when crossing leap years (<a href="https://github-redirect.dependabot.com/moment/luxon/issues/1340">#1340</a>)</li>
+<li>Add Interval.toLocaleString() (<a href="https://github-redirect.dependabot.com/moment/luxon/issues/1320">#1320</a>)</li>
+</ul>
+<h1>3.1.1 (2022-11-28)</h1>
+<ul>
+<li>Add Settings.twoDigitCutoffYear</li>
+</ul>
+<h1>3.1.0 (2022-10-31)</h1>
+<ul>
+<li>Add Duration.rescale</li>
+</ul>
+<h1>3.0.4 (2022-09-24)</h1>
+<ul>
+<li>Fix quarters in diffs (<a href="https://github-redirect.dependabot.com/moment/luxon/issues/1279">#1279</a>)</li>
+<li>Export package.json in package (<a href="https://github-redirect.dependabot.com/moment/luxon/issues/1239">#1239</a>)</li>
+</ul>
+<h1>3.0.2 (2022-08-28)</h1>
+<ul>
+<li>Lots of doc changes</li>
+<li>Added DateTime.expandFormat</li>
+<li>Added support for custom conversion matrices in Durations</li>
+</ul>
+<h1>3.0.1 (2022-07-09)</h1>
+<ul>
+<li>Add DateTime.parseFormatForOpts</li>
+</ul>
+<h1>3.0.0 (2022-07-09)</h1>
+<ul>
+<li>Add &quot;default&quot; as an option for specifying a zone, and change &quot;system&quot; to really mean the system zone (breaking change)</li>
+</ul>
+<h1>2.5.0 (2022-07-09)</h1>
+<ul>
+<li>Support for ESM-style node imports</li>
+<li>Fix Wednesday parsing for RFC 850 strings</li>
+<li>Increase number of digits allowed in ISO durations</li>
+</ul>
+<h2>2.4.0 (2022-05-08)</h2>
+<ul>
+<li>Add support for parsing the ISO zone extension, like <code>2022-05-08T20:42:00.000-04:00[America/New_York]</code></li>
+<li>Add an <code>extendedZone</code> option to <code>toISO()</code> and <code>toISOTime</code></li>
+<li>Improvements to <code>DateTime.isInDST()</code></li>
+<li>Fix for parsing in Vietnames (and probably other languages)</li>
+</ul>
+<h2>2.3.2 (2022-04-17)</h2>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/moment/luxon/commit/204cdfe65e4a3f0e3a9d0d7489278152d2c51234"><code>204cdfe</code></a> fix rfc2822 regex &amp; bump to 2.5.2</li>
+<li><a href="https://github.com/moment/luxon/commit/4817697d52ddc836d845a57a475ab8352878e49f"><code>4817697</code></a> bump to 2.5.0</li>
+<li><a href="https://github.com/moment/luxon/commit/00f1d724569880597aa771bbf30c1805b7175113"><code>00f1d72</code></a> fix changelog</li>
+<li><a href="https://github.com/moment/luxon/commit/eebc657eff44712427cc700636e62eca72222923"><code>eebc657</code></a> Add support for ESM-style node imports (<a href="https://github-redirect.dependabot.com/moment/luxon/issues/1218">#1218</a>)</li>
+<li><a href="https://github.com/moment/luxon/commit/f1c181c6104430c4ba83fc87eaa0bcefa7d5a934"><code>f1c181c</code></a> Update why.md (<a href="https://github-redirect.dependabot.com/moment/luxon/issues/1211">#1211</a>)</li>
+<li><a href="https://github.com/moment/luxon/commit/43327307d204fe08798ac9e0da492576f2f0ea6c"><code>4332730</code></a> mention escaping behavior in Duration.toFormat docstring (<a href="https://github-redirect.dependabot.com/moment/luxon/issues/1221">#1221</a>)</li>
+<li><a href="https://github.com/moment/luxon/commit/7b4a9d0ed458497a6c143d883c25fa35ef0cd7ae"><code>7b4a9d0</code></a> Bump parse-url from 6.0.0 to 6.0.2 (<a href="https://github-redirect.dependabot.com/moment/luxon/issues/1230">#1230</a>)</li>
+<li><a href="https://github.com/moment/luxon/commit/60c83c7e6ec19f3242ab28f371d83922d571642e"><code>60c83c7</code></a> Fix link to duration months (<a href="https://github-redirect.dependabot.com/moment/luxon/issues/1232">#1232</a>)</li>
+<li><a href="https://github.com/moment/luxon/commit/c7e606bbd7c82bdb202d0f7a2e8114195d8489b4"><code>c7e606b</code></a> Wednesday support for RFC 850 (<a href="https://github-redirect.dependabot.com/moment/luxon/issues/1225">#1225</a>)</li>
+<li><a href="https://github.com/moment/luxon/commit/6b47f20da7386526346d7d42138cd05820791492"><code>6b47f20</code></a> fix luxon path in api-docs script (<a href="https://github-redirect.dependabot.com/moment/luxon/issues/1214">#1214</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/moment/luxon/compare/1.28.0...2.5.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=luxon&package-manager=npm_and_yarn&previous-version=1.28.0&new-version=2.5.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-framework-javascript/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-09 16:22:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1191" class=".btn">#1191</a>
             </td>
             <td>
