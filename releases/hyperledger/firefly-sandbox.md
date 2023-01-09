@@ -15,30 +15,31 @@ permalink: /releases/hyperledger/firefly-sandbox
         <tr>
             <td colspan="2">
                 <b>
-                    v1.1.1
+                    v1.1.2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.1.1
+                    v1.1.2
                 </span>
             </td>
             <td>
                 ## What's Changed
-* update sandbox to work with different namespaces by @shorsher in https://github.com/hyperledger/firefly-sandbox/pull/102
+* udpate sandbox UI to support mult-namespaces by @Chengxuan in https://github.com/hyperledger/firefly-sandbox/pull/108
+* correct versions by @Chengxuan in https://github.com/hyperledger/firefly-sandbox/pull/109
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-sandbox/compare/v1.1.0...v1.1.1
+**Full Changelog**: https://github.com/hyperledger/firefly-sandbox/compare/v1.1.1...v1.1.2
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-sandbox/releases/tag/v1.1.1" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-sandbox/releases/tag/v1.1.2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-09-02 18:22:24 +0000 UTC
+        Created At 2023-01-09 18:55:40 +0000 UTC
     </span>
 </div>
 
