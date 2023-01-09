@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1473" class=".btn">#1473</a>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1475" class=".btn">#1475</a>
             </td>
             <td>
                 <b>
-                    Bump express from 4.17.1 to 4.17.3
+                    Bump json5 from 1.0.1 to 1.0.2
                 </b>
             </td>
         </tr>
@@ -27,185 +27,65 @@ permalink: /pull-requests/hyperledger/caliper
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [express](https://github.com/expressjs/express) from 4.17.1 to 4.17.3.
+                Bumps [json5](https://github.com/json5/json5) from 1.0.1 to 1.0.2.
 <details>
 <summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/expressjs/express/releases">express's releases</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/json5/json5/releases">json5's releases</a>.</em></p>
 <blockquote>
-<h2>4.17.3</h2>
+<h2>v1.0.2</h2>
 <ul>
-<li>deps: accepts@~1.3.8
-<ul>
-<li>deps: mime-types@~2.1.34</li>
-<li>deps: negotiator@0.6.3</li>
-</ul>
-</li>
-<li>deps: body-parser@1.19.2
-<ul>
-<li>deps: bytes@3.1.2</li>
-<li>deps: qs@6.9.7</li>
-<li>deps: raw-body@2.4.3</li>
-</ul>
-</li>
-<li>deps: cookie@0.4.2</li>
-<li>deps: qs@6.9.7
-<ul>
-<li>Fix handling of <code>__proto__</code> keys</li>
-</ul>
-</li>
-<li>pref: remove unnecessary regexp for trust proxy</li>
-</ul>
-<h2>4.17.2</h2>
-<ul>
-<li>Fix handling of <code>undefined</code> in <code>res.jsonp</code></li>
-<li>Fix handling of <code>undefined</code> when <code>&quot;json escape&quot;</code> is enabled</li>
-<li>Fix incorrect middleware execution with unanchored <code>RegExp</code>s</li>
-<li>Fix <code>res.jsonp(obj, status)</code> deprecation message</li>
-<li>Fix typo in <code>res.is</code> JSDoc</li>
-<li>deps: body-parser@1.19.1
-<ul>
-<li>deps: bytes@3.1.1</li>
-<li>deps: http-errors@1.8.1</li>
-<li>deps: qs@6.9.6</li>
-<li>deps: raw-body@2.4.2</li>
-<li>deps: safe-buffer@5.2.1</li>
-<li>deps: type-is@~1.6.18</li>
-</ul>
-</li>
-<li>deps: content-disposition@0.5.4
-<ul>
-<li>deps: safe-buffer@5.2.1</li>
-</ul>
-</li>
-<li>deps: cookie@0.4.1
-<ul>
-<li>Fix <code>maxAge</code> option to reject invalid values</li>
-</ul>
-</li>
-<li>deps: proxy-addr@~2.0.7
-<ul>
-<li>Use <code>req.socket</code> over deprecated <code>req.connection</code></li>
-<li>deps: forwarded@0.2.0</li>
-<li>deps: ipaddr.js@1.9.1</li>
-</ul>
-</li>
-<li>deps: qs@6.9.6</li>
-<li>deps: safe-buffer@5.2.1</li>
-<li>deps: send@0.17.2
-<ul>
-<li>deps: http-errors@1.8.1</li>
-<li>deps: ms@2.1.3</li>
-<li>pref: ignore empty http tokens</li>
-</ul>
-</li>
-<li>deps: serve-static@1.14.2
-<ul>
-<li>deps: send@0.17.2</li>
-</ul>
-</li>
-<li>deps: setprototypeof@1.2.0</li>
+<li>Fix: Properties with the name <code>__proto__</code> are added to objects and arrays. (<a href="https://github-redirect.dependabot.com/json5/json5/issues/199">#199</a>) This also fixes a prototype pollution vulnerability reported by Jonathan Gregson! (<a href="https://github-redirect.dependabot.com/json5/json5/issues/295">#295</a>). This has been backported to v1. (<a href="https://github-redirect.dependabot.com/json5/json5/issues/298">#298</a>)</li>
 </ul>
 </blockquote>
 </details>
 <details>
 <summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/expressjs/express/blob/master/History.md">express's changelog</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/json5/json5/blob/main/CHANGELOG.md">json5's changelog</a>.</em></p>
 <blockquote>
-<h1>4.17.3 / 2022-02-16</h1>
+<h3>Unreleased [<a href="https://github.com/json5/json5/tree/main">code</a>, <a href="https://github.com/json5/json5/compare/v2.2.3...HEAD">diff</a>]</h3>
+<h3>v2.2.3 [<a href="https://github.com/json5/json5/tree/v2.2.3">code</a>, <a href="https://github.com/json5/json5/compare/v2.2.2...v2.2.3">diff</a>]</h3>
 <ul>
-<li>deps: accepts@~1.3.8
+<li>Fix: json5@2.2.3 is now the 'latest' release according to npm instead of
+v1.0.2. (<a href="https://github-redirect.dependabot.com/json5/json5/issues/299">#299</a>)</li>
+</ul>
+<h3>v2.2.2 [<a href="https://github.com/json5/json5/tree/v2.2.2">code</a>, <a href="https://github.com/json5/json5/compare/v2.2.1...v2.2.2">diff</a>]</h3>
 <ul>
-<li>deps: mime-types@~2.1.34</li>
-<li>deps: negotiator@0.6.3</li>
+<li>Fix: Properties with the name <code>__proto__</code> are added to objects and arrays.
+(<a href="https://github-redirect.dependabot.com/json5/json5/issues/199">#199</a>) This also fixes a prototype pollution vulnerability reported by
+Jonathan Gregson! (<a href="https://github-redirect.dependabot.com/json5/json5/issues/295">#295</a>).</li>
 </ul>
-</li>
-<li>deps: body-parser@1.19.2
+<h3>v2.2.1 [<a href="https://github.com/json5/json5/tree/v2.2.1">code</a>, <a href="https://github.com/json5/json5/compare/v2.2.0...v2.2.1">diff</a>]</h3>
 <ul>
-<li>deps: bytes@3.1.2</li>
-<li>deps: qs@6.9.7</li>
-<li>deps: raw-body@2.4.3</li>
+<li>Fix: Removed dependence on minimist to patch CVE-2021-44906. (<a href="https://github-redirect.dependabot.com/json5/json5/issues/266">#266</a>)</li>
 </ul>
-</li>
-<li>deps: cookie@0.4.2</li>
-<li>deps: qs@6.9.7
+<h3>v2.2.0 [<a href="https://github.com/json5/json5/tree/v2.2.0">code</a>, <a href="https://github.com/json5/json5/compare/v2.1.3...v2.2.0">diff</a>]</h3>
 <ul>
-<li>Fix handling of <code>__proto__</code> keys</li>
+<li>New: Accurate and documented TypeScript declarations are now included. There
+is no need to install <code>@types/json5</code>. (<a href="https://github-redirect.dependabot.com/json5/json5/issues/236">#236</a>, <a href="https://github-redirect.dependabot.com/json5/json5/issues/244">#244</a>)</li>
 </ul>
-</li>
-<li>pref: remove unnecessary regexp for trust proxy</li>
-</ul>
-<h1>4.17.2 / 2021-12-16</h1>
+<h3>v2.1.3 [<a href="https://github.com/json5/json5/tree/v2.1.3">code</a>, <a href="https://github.com/json5/json5/compare/v2.1.2...v2.1.3">diff</a>]</h3>
 <ul>
-<li>Fix handling of <code>undefined</code> in <code>res.jsonp</code></li>
-<li>Fix handling of <code>undefined</code> when <code>&quot;json escape&quot;</code> is enabled</li>
-<li>Fix incorrect middleware execution with unanchored <code>RegExp</code>s</li>
-<li>Fix <code>res.jsonp(obj, status)</code> deprecation message</li>
-<li>Fix typo in <code>res.is</code> JSDoc</li>
-<li>deps: body-parser@1.19.1
-<ul>
-<li>deps: bytes@3.1.1</li>
-<li>deps: http-errors@1.8.1</li>
-<li>deps: qs@6.9.6</li>
-<li>deps: raw-body@2.4.2</li>
-<li>deps: safe-buffer@5.2.1</li>
-<li>deps: type-is@~1.6.18</li>
+<li>Fix: An out of memory bug when parsing numbers has been fixed. (<a href="https://github-redirect.dependabot.com/json5/json5/issues/228">#228</a>,
+<a href="https://github-redirect.dependabot.com/json5/json5/issues/229">#229</a>)</li>
 </ul>
-</li>
-<li>deps: content-disposition@0.5.4
-<ul>
-<li>deps: safe-buffer@5.2.1</li>
-</ul>
-</li>
-<li>deps: cookie@0.4.1
-<ul>
-<li>Fix <code>maxAge</code> option to reject invalid values</li>
-</ul>
-</li>
-<li>deps: proxy-addr@~2.0.7
-<ul>
-<li>Use <code>req.socket</code> over deprecated <code>req.connection</code></li>
-<li>deps: forwarded@0.2.0</li>
-<li>deps: ipaddr.js@1.9.1</li>
-</ul>
-</li>
-<li>deps: qs@6.9.6</li>
-<li>deps: safe-buffer@5.2.1</li>
-<li>deps: send@0.17.2
-<ul>
-<li>deps: http-errors@1.8.1</li>
-<li>deps: ms@2.1.3</li>
-<li>pref: ignore empty http tokens</li>
-</ul>
-</li>
-<li>deps: serve-static@1.14.2
-<ul>
-<li>deps: send@0.17.2</li>
-</ul>
-</li>
-<li>deps: setprototypeof@1.2.0</li>
-</ul>
+<h3>v2.1.2 [<a href="https://github.com/json5/json5/tree/v2.1.2">code</a>, <a href="https://github.com/json5/json5/compare/v2.1.1...v2.1.2">diff</a>]</h3>
+<!-- raw HTML omitted -->
 </blockquote>
+<p>... (truncated)</p>
 </details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/expressjs/express/commit/3d7fce56a35f4f73fa437866cd1401587a212334"><code>3d7fce5</code></a> 4.17.3</li>
-<li><a href="https://github.com/expressjs/express/commit/f9063712e01979588818b0756851053b5ee43d09"><code>f906371</code></a> build: update example dependencies</li>
-<li><a href="https://github.com/expressjs/express/commit/6381bc6317ec8ffbf830e2d16677e4b5af37cc08"><code>6381bc6</code></a> deps: qs@6.9.7</li>
-<li><a href="https://github.com/expressjs/express/commit/a00786309641731661edb4d826a6919330887ca7"><code>a007863</code></a> deps: body-parser@1.19.2</li>
-<li><a href="https://github.com/expressjs/express/commit/e98f5848a0a496c0977a2d1734067b77f69de360"><code>e98f584</code></a> Revert &quot;build: use minimatch@3.0.4 for Node.js &lt; 4&quot;</li>
-<li><a href="https://github.com/expressjs/express/commit/a65913776d0b16837364ee66caa1a7f38a9997c0"><code>a659137</code></a> tests: use strict mode</li>
-<li><a href="https://github.com/expressjs/express/commit/a39e409cf3739ef9c9b597a9680813a34c3931c2"><code>a39e409</code></a> tests: prevent leaking changes to NODE_ENV</li>
-<li><a href="https://github.com/expressjs/express/commit/82de4de5ab92e8237d713285104e4b8452927352"><code>82de4de</code></a> examples: fix path traversal in downloads example</li>
-<li><a href="https://github.com/expressjs/express/commit/12310c52947ee159f7ecd63d125243cdca891135"><code>12310c5</code></a> build: use nyc for test coverage</li>
-<li><a href="https://github.com/expressjs/express/commit/884657d54665f323c236055d6e3d3e85d96e5f08"><code>884657d</code></a> examples: remove bitwise syntax for includes check</li>
-<li>Additional commits viewable in <a href="https://github.com/expressjs/express/compare/4.17.1...4.17.3">compare view</a></li>
+<li><a href="https://github.com/json5/json5/commit/a62db1e51e1031d92ac260f5bb38bbed1fdbc754"><code>a62db1e</code></a> 1.0.2</li>
+<li><a href="https://github.com/json5/json5/commit/e0c23fe458a77c0b2cdb271376be5d8d0908133c"><code>e0c23fe</code></a> docs: update CHANGELOG for v1.0.2</li>
+<li><a href="https://github.com/json5/json5/commit/62a65408408d40aeea14c7869ed327acead12972"><code>62a6540</code></a> fix: add <strong>proto</strong> to objects and arrays</li>
+<li>See full diff in <a href="https://github.com/json5/json5/compare/v1.0.1...v1.0.2">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=express&package-manager=npm_and_yarn&previous-version=4.17.1&new-version=4.17.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=json5&package-manager=npm_and_yarn&previous-version=1.0.1&new-version=1.0.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -241,102 +121,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-10 14:12:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1472" class=".btn">#1472</a>
-            </td>
-            <td>
-                <b>
-                    Bump decode-uri-component from 0.2.0 to 0.2.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span>
-            </td>
-            <td>
-                Bumps [decode-uri-component](https://github.com/SamVerschueren/decode-uri-component) from 0.2.0 to 0.2.2.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/SamVerschueren/decode-uri-component/releases">decode-uri-component's releases</a>.</em></p>
-<blockquote>
-<h2>v0.2.2</h2>
-<ul>
-<li>Prevent overwriting previously decoded tokens  980e0bf</li>
-</ul>
-<p><a href="https://github.com/SamVerschueren/decode-uri-component/compare/v0.2.1...v0.2.2">https://github.com/SamVerschueren/decode-uri-component/compare/v0.2.1...v0.2.2</a></p>
-<h2>v0.2.1</h2>
-<ul>
-<li>Switch to GitHub workflows  76abc93</li>
-<li>Fix issue where decode throws - fixes <a href="https://github-redirect.dependabot.com/SamVerschueren/decode-uri-component/issues/6">#6</a>  746ca5d</li>
-<li>Update license (<a href="https://github-redirect.dependabot.com/SamVerschueren/decode-uri-component/issues/1">#1</a>)  486d7e2</li>
-<li>Tidelift tasks  a650457</li>
-<li>Meta tweaks  66e1c28</li>
-</ul>
-<p><a href="https://github.com/SamVerschueren/decode-uri-component/compare/v0.2.0...v0.2.1">https://github.com/SamVerschueren/decode-uri-component/compare/v0.2.0...v0.2.1</a></p>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/a0eea469d26eb0df668b081672cdb9581feb78eb"><code>a0eea46</code></a> 0.2.2</li>
-<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/980e0bf09b64d94f1aa79012f895816c30ffd152"><code>980e0bf</code></a> Prevent overwriting previously decoded tokens</li>
-<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/3c8a373dd4837e89b3f970e01295dd03e1405a33"><code>3c8a373</code></a> 0.2.1</li>
-<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/76abc939783fe3900fadb7d384a74d324d5557f3"><code>76abc93</code></a> Switch to GitHub workflows</li>
-<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/746ca5dcb6667c5d364e782d53c542830e4c10b9"><code>746ca5d</code></a> Fix issue where decode throws - fixes <a href="https://github-redirect.dependabot.com/SamVerschueren/decode-uri-component/issues/6">#6</a></li>
-<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/486d7e26d3a8c0fbe860fb651fe1bc98c2f2be30"><code>486d7e2</code></a> Update license (<a href="https://github-redirect.dependabot.com/SamVerschueren/decode-uri-component/issues/1">#1</a>)</li>
-<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/a65045724e6234acef87f31da499d4807b20b134"><code>a650457</code></a> Tidelift tasks</li>
-<li><a href="https://github.com/SamVerschueren/decode-uri-component/commit/66e1c2834c0e189201cb65196ec3101372459b02"><code>66e1c28</code></a> Meta tweaks</li>
-<li>See full diff in <a href="https://github.com/SamVerschueren/decode-uri-component/compare/v0.2.0...v0.2.2">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=decode-uri-component&package-manager=npm_and_yarn&previous-version=0.2.0&new-version=0.2.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
-- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
-- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
-- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
-
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/caliper/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-09 09:06:10 +0000 UTC
+        Created At 2023-01-09 02:23:37 +0000 UTC
     </div>
 </div>
 
