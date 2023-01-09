@@ -15,14 +15,14 @@ permalink: /releases/hyperledger/firefly
         <tr>
             <td colspan="2">
                 <b>
-                    Pre-release with latest updates
+                    FireFly core pre-release
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v.1.1.3
+                    v1.1.3
                 </span>
             </td>
             <td>
@@ -30,7 +30,7 @@ permalink: /releases/hyperledger/firefly
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly/releases/tag/v.1.1.3" class=".btn">
+    <a href="https://github.com/hyperledger/firefly/releases/tag/v1.1.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
