@@ -251,7 +251,7 @@ Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">skip-ios</span><span class="chip">skip-android</span>
             </td>
             <td>
                 - `set-output::` is deprecated in produces warnings in CI
@@ -382,32 +382,6 @@ Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
     </table>
     <div class="right-align">
         Created At 2023-01-03 21:28:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/715" class=".btn">#715</a>
-            </td>
-            <td>
-                <b>
-                    Remove public agent
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span><span class="chip">wrappers</span><span class="chip">breaking</span><span class="chip">agents</span>
-            </td>
-            <td>
-                Removes any and all usage of public agents in the codebase. In Rust integration tests where connection bootstrapping was previously performed via a public agent, an alternative approach was temporarily (i.e. until mediated connection is removed) chosen: the connection request message is sent / received via a channel instead of a DidComm endpoint to avoid overhead associated with managing an open TCP socket per test in Rust. However, vcx-agent-core integration tests do exchange connection requests via DidComm endpoint.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-03 16:37:39 +0000 UTC
     </div>
 </div>
 

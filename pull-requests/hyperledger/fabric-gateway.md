@@ -53,7 +53,7 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                <nil>
+                Closes #516 
             </td>
         </tr>
     </table>
