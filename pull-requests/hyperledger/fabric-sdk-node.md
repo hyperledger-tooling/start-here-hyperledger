@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/638" class=".btn">#638</a>
+            </td>
+            <td>
+                <b>
+                    Fix chaincode dependencies to v2.2.x in test fixtures
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                v2.5.x introduced some changes that broke the tests.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-10 11:38:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/637" class=".btn">#637</a>
             </td>
             <td>

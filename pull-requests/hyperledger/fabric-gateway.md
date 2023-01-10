@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/523" class=".btn">#523</a>
+            </td>
+            <td>
+                <b>
+                    Fix Node chaincode dependencies to v2.4.x in tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                v2.5.x introduced some changes that broke the tests.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-10 11:48:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/522" class=".btn">#522</a>
             </td>
             <td>

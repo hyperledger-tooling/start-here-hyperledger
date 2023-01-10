@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/727" class=".btn">#727</a>
+            </td>
+            <td>
+                <b>
+                    Release 0.51.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Let's include 
+- https://github.com/hyperledger/aries-vcx/pull/726
+
+Possibly also
+- https://github.com/hyperledger/aries-vcx/pull/723
+if we manage to test it today
+
+Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-10 12:01:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/726" class=".btn">#726</a>
+            </td>
+            <td>
+                <b>
+                    Update chrono dependency
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Update from `chrono: 0.4.20` (in lock file) to `chrono: 0.4.23`
+- The `0.4.20` version of chrono contained regression where it would panic if `TZ` variable is not set https://github.com/chronotope/chrono/releases
+- In practice, this could cause panics in mobile environments with rust logging enabled
+
+Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-10 11:10:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/725" class=".btn">#725</a>
             </td>
             <td>
@@ -55,7 +118,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
             <td>
                 - Ios wrapper contains links to vdrtools FFI functions - this PR is removing functions which links to vdrtools symbols (which are included, if vdrtools feature `ffi_api` is enabled).
 - Ios wrapper should only use API directly exposed by libvcx
-- Consequently we should be able to remove all FFI code from vdrtools along with `ffi_api` feature.
+- Consequently we no longer use `vdrtools` feature `ffi_api`
 
 Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
             </td>

@@ -1,13 +1,13 @@
 
-[4902](https://github.com/hyperledger/besu/pull/4902) [RPC] add SAFE and FINALIZED options for block param
+[277](https://github.com/hyperledger/fabric-chaincode-java/pull/277) Integration test overhaul
 
-[89](https://github.com/hyperledger/aries-javascript-docs/pull/89) build(deps): bump luxon from 1.28.0 to 1.28.1
+[727](https://github.com/hyperledger/aries-vcx/pull/727) Release 0.51.1
 
-[585](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/585) chore(deps): bump luxon from 1.28.0 to 1.28.1 in /app
+[523](https://github.com/hyperledger/fabric-gateway/pull/523) Fix Node chaincode dependencies to v2.4.x in tests
 
-[584](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/584) chore(deps): bump luxon from 1.28.0 to 1.28.1 in /core
+[638](https://github.com/hyperledger/fabric-sdk-node/pull/638) Fix chaincode dependencies to v2.2.x in test fixtures
 
-[1197](https://github.com/hyperledger/aries-framework-javascript/pull/1197) feat: add minimal oidc-client package
+[726](https://github.com/hyperledger/aries-vcx/pull/726) Update chrono dependency
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

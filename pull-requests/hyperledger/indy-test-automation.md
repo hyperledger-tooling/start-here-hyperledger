@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/indy-test-automation
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/120" class=".btn">#120</a>
+            </td>
+            <td>
+                <b>
+                    Sovrin Call enabled
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes `--payments` flag.
+Addition of Sovrin callable GithubActions workflow.
+Removal of duplicates.
+Forced LF endings
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-10 08:10:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-test-automation/pull/119" class=".btn">#119</a>
             </td>
             <td>

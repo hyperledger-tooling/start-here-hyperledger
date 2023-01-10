@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1200" class=".btn">#1200</a>
+            </td>
+            <td>
+                <b>
+                    feat(indy-sdk): add indy-sdk package
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This commits add the `@aries-framework/indy-sdk` package. It implements all the new interfaces based on the anonreds package. Testing is still light, but I want to add it in upcoming prs when we add the anoncreds api.
+
+The classes aren't used yet, and all old Indy implementations are still in the core package. Once we have finished the new classes we can deprecate the old ones and point to the new ones.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-10 10:30:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1197" class=".btn">#1197</a>
             </td>
             <td>

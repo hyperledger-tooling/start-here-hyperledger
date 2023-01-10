@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3909" class=".btn">#3909</a>
+            </td>
+            <td>
+                <b>
+                    Rename ThreeOrgRaft nwo standard networks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The name has changed in the main branch as a result of hyperledger#3643 and hyperledger#3853, and this rename should make it easier to backport PRs with mergify
+
+Signed-off-by: James Taylor <jamest@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-10 11:07:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3907" class=".btn">#3907</a>
             </td>
             <td>
@@ -705,58 +734,6 @@ Checklist (DELETE AFTER READING):
     </table>
     <div class="right-align">
         Created At 2023-01-03 14:07:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3889" class=".btn">#3889</a>
-            </td>
-            <td>
-                <b>
-                    Update jq command in channel config docs (backport #3888)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #3888 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-03 11:27:10 +0000 UTC
     </div>
 </div>
 
