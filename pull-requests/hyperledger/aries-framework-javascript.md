@@ -126,6 +126,8 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
 [//]: # (dependabot-automerge-start)
+Dependabot will merge this PR once CI passes on it, as requested by @TimoGlastra.
+
 [//]: # (dependabot-automerge-end)
 
 ---
@@ -301,34 +303,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2023-01-04 11:48:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1188" class=".btn">#1188</a>
-            </td>
-            <td>
-                <b>
-                    fix(credentials): typing if no modules provided
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes the typing of the credentials module on the agent when no modules objects has been provided to the agent constructor.
-
-Fixes #1187 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-03 01:39:29 +0000 UTC
     </div>
 </div>
 

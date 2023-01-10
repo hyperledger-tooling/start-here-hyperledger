@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span>
+                <span class="chip">dependencies</span><span class="chip">ci-test</span>
             </td>
             <td>
                 Bumps [luxon](https://github.com/moment/luxon) from 1.28.0 to 1.28.1.
