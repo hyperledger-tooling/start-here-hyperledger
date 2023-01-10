@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4902" class=".btn">#4902</a>
+            </td>
+            <td>
+                <b>
+                    [RPC] add SAFE and FINALIZED options for block param
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span><span class="chip">RPC</span>
+            </td>
+            <td>
+                RPC method changes
+- add SAFE and FINALIZED options for block param
+- check length of blockNumber / blockHash param - if it's too short to be a blockHash and too long to be a blockNumber, throw Invalid params
+- added some extra tests. Specifically this file `eth_getTransactionCount_invalidBlockNumber.json` - without the code changes in this PR, that spec test returns "block not found", with these changes returns Invalid params
+
+See #4233 
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-10 05:02:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4900" class=".btn">#4900</a>
             </td>
             <td>
@@ -484,7 +524,7 @@ Signed-off-by: Danno Ferrin <danno.ferrin@swirldslabs.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 Signed-off-by: Zhenyang Shi <wcgcyx@gmail.com>
@@ -493,7 +533,13 @@ Signed-off-by: Danno Ferrin <danno.ferrin@swirldslabs.com>
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-This PR adds the block value calculation to engine_getPayloadV2 .
+This PR adds the block value calculation to engine_getPayloadV2. 
+
+Block value is calculated as the sum of the block's priority fee as per the current [spec](https://github.com/ethereum/execution-apis/blob/main/src/engine/shanghai.md#specification-2). 
+
+However, the calculated block value isn't strictly equal to the balance diff of the fee recipient as it doesn't capture balance gain through transaction execution (balance transfer, contract logic...). For example, tx1 may have less priority fee than tx2 but tx1 involves a direct transfer to fee recipient thus overall makes tx1 better than tx2.
+
+Using the sum of the block's priority fee is the most straight-forward way to calculate the block value as a starting point as it only involves very minimum change. A future improvement is to have block processor report the balance diff of the fee recipient either during block creation or block validation and use that as the actual block value because re-evaluating the block value in get payload call will consume a lot of time. 
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -626,7 +672,7 @@ Part of https://github.com/hyperledger/besu/issues/4776
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-Implements a draft behavior to resync just the worldstate.  
+Implements a  debug rpc endpoint and a behavior to resync just the worldstate.  
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
