@@ -72,34 +72,3 @@ permalink: /releases/hyperledger-labs/hlf-operator
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    Version 1.8.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v1.8.2
-                </span>
-            </td>
-            <td>
-                ## Changelog
-* 0b95743 update to go 1.19
-
-
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger-labs/hlf-operator/releases/tag/v1.8.2" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2023-01-03 19:54:57 +0000 UTC
-    </span>
-</div>
-
