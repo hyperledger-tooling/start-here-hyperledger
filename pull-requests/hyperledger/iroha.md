@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3052" class=".btn">#3052</a>
+            </td>
+            <td>
+                <b>
+                    [documentation]: Update Iroha Client CLI readme
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Documentation</span>
+            </td>
+            <td>
+                Signed-off-by: Ekaterina Mekhnetsova <mekkatya@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-10 08:59:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3050" class=".btn">#3050</a>
             </td>
             <td>
