@@ -1,13 +1,13 @@
 
-[3906](https://github.com/hyperledger/fabric/pull/3906) [WIP] Update purge private data integration tests
+[585](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/585) chore(deps): bump luxon from 1.28.0 to 1.28.1 in /app
 
-[7](https://github.com/hyperledger/homebrew-solang/pull/7) Update brew cask to v0.2.1
+[584](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/584) chore(deps): bump luxon from 1.28.0 to 1.28.1 in /core
 
-[109](https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/109) Change ERC721 samples to use auto-indexing mint by default
+[1197](https://github.com/hyperledger/aries-framework-javascript/pull/1197) feat: add minimal oidc-client package
 
-[637](https://github.com/hyperledger/aries-agent-test-harness/pull/637) Add the corresponding RFC tag to the revocation feature file
+[1196](https://github.com/hyperledger/aries-framework-javascript/pull/1196) build(deps): bump luxon from 1.28.0 to 1.28.1
 
-[1195](https://github.com/hyperledger/aries-framework-javascript/pull/1195) build(deps): bump luxon from 1.28.0 to 2.5.2
+[182](https://github.com/hyperledger/aries-framework-javascript-ext/pull/182) build(deps): bump luxon from 1.28.0 to 1.28.1
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

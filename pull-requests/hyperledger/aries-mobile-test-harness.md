@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/118" class=".btn">#118</a>
+            </td>
+            <td>
+                <b>
+                    fix for pervasive connection issue
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+
+This BC WAllet Test PR changes the Sauce Connect tunnel to allow connections to the Prod Mediator instead of the Test Mediator. Switching to the Test env in the app doesn't switch to the test mediator, it remains on prod. 
+
+There was also a new issue introduced in the previous PR that caused the send credential not to fire because the test code was waiting for the connecting image to disappear. That test code was moved to after the send credential. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-09 20:32:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/116" class=".btn">#116</a>
             </td>
             <td>

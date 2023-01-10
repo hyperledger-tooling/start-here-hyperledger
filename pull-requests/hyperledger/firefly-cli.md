@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/234" class=".btn">#234</a>
+            </td>
+            <td>
+                <b>
+                    Set default connector to evmconnect
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves https://github.com/hyperledger/firefly/issues/1135
+Resolves https://github.com/hyperledger/firefly-cli/issues/233
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-09 21:21:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-cli/pull/232" class=".btn">#232</a>
             </td>
             <td>
