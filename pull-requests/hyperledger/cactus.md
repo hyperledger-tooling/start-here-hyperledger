@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2259" class=".btn">#2259</a>
+            </td>
+            <td>
+                <b>
+                    feat(cactus-plugin-persistence-ethereum): add new persistence plugin
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Add a new plugin for storing ledger data into a database (or any other storage in the future).
+- Add functional tests for plugin and data access layer operations.
+- Increase gas limit on openethereum contract to solve occasional issues in automatic tests.
+- Tests assume any postgres database, but for final deployment supabase is assumed.
+- Data fed by this plugin can later by visualized by a GUI application or analyzed directly.
+
+Depends on: https://github.com/hyperledger/cactus/pull/2254
+Depends on: https://github.com/hyperledger/cactus/pull/2256
+
+Signed-off-by: Michal Bajer <michal.bajer@fujitsu.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-10 14:41:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/2257" class=".btn">#2257</a>
             </td>
             <td>

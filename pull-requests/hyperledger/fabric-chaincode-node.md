@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/368" class=".btn">#368</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/369" class=".btn">#369</a>
             </td>
             <td>
                 <b>
-                    Publish multi-arch, arm64 docker image - DO NOT MERGE
+                    test build - DO NOT MERGE
                 </b>
             </td>
         </tr>
@@ -27,9 +27,35 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                **DO NOT MERGE**
+                **DO NOT MERGE** 
 
-Publish a multi-arch fabric-nodeenv image with a GHA buildx builder.
+Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-10 15:19:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/368" class=".btn">#368</a>
+            </td>
+            <td>
+                <b>
+                    Publish multi-arch, arm64 docker image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Publish a multi-arch fabric-nodeenv image with a GHA buildx builder.
 
 Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
             </td>

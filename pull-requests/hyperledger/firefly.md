@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1137" class=".btn">#1137</a>
+            </td>
+            <td>
+                <b>
+                    Add FIR-16 enhancements to fftokens documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Document the new parameters and APIs that were added as part of [FIR-16](https://github.com/hyperledger/firefly-fir/pull/16).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-10 17:06:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1136" class=".btn">#1136</a>
+            </td>
+            <td>
+                <b>
+                    Fix: typos
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix: typos
+
+Signed-off-by: omahs <73983677+omahs@users.noreply.github.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-10 15:52:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1134" class=".btn">#1134</a>
             </td>
             <td>
@@ -110,6 +164,10 @@ Signed-off-by: Ayushya Chitransh <ayushyachitransh@gmail.com>
             </td>
             <td>
                 Part of [FIR-16](https://github.com/hyperledger/firefly-fir/pull/16).
+
+This links out to the READMEs of both token connectors for "more details", so these PRs are relevant to be merged alongside this one:
+https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/108
+https://github.com/hyperledger/firefly-tokens-erc1155/pull/107
             </td>
         </tr>
     </table>
