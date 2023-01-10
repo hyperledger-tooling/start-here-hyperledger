@@ -14,11 +14,37 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1195" class=".btn">#1195</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1197" class=".btn">#1197</a>
             </td>
             <td>
                 <b>
-                    build(deps): bump luxon from 1.28.0 to 2.5.2
+                    feat: add minimal oidc-client package
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds the very minimum of the new `oidc-client` package. It doesn't contain any logic so far.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-10 00:51:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1196" class=".btn">#1196</a>
+            </td>
+            <td>
+                <b>
+                    build(deps): bump luxon from 1.28.0 to 1.28.1
                 </b>
             </td>
         </tr>
@@ -27,7 +53,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [luxon](https://github.com/moment/luxon) from 1.28.0 to 2.5.2.
+                Bumps [luxon](https://github.com/moment/luxon) from 1.28.0 to 1.28.1.
 <details>
 <summary>Changelog</summary>
 <p><em>Sourced from <a href="https://github.com/moment/luxon/blob/master/CHANGELOG.md">luxon's changelog</a>.</em></p>
@@ -87,23 +113,15 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/moment/luxon/commit/204cdfe65e4a3f0e3a9d0d7489278152d2c51234"><code>204cdfe</code></a> fix rfc2822 regex &amp; bump to 2.5.2</li>
-<li><a href="https://github.com/moment/luxon/commit/4817697d52ddc836d845a57a475ab8352878e49f"><code>4817697</code></a> bump to 2.5.0</li>
-<li><a href="https://github.com/moment/luxon/commit/00f1d724569880597aa771bbf30c1805b7175113"><code>00f1d72</code></a> fix changelog</li>
-<li><a href="https://github.com/moment/luxon/commit/eebc657eff44712427cc700636e62eca72222923"><code>eebc657</code></a> Add support for ESM-style node imports (<a href="https://github-redirect.dependabot.com/moment/luxon/issues/1218">#1218</a>)</li>
-<li><a href="https://github.com/moment/luxon/commit/f1c181c6104430c4ba83fc87eaa0bcefa7d5a934"><code>f1c181c</code></a> Update why.md (<a href="https://github-redirect.dependabot.com/moment/luxon/issues/1211">#1211</a>)</li>
-<li><a href="https://github.com/moment/luxon/commit/43327307d204fe08798ac9e0da492576f2f0ea6c"><code>4332730</code></a> mention escaping behavior in Duration.toFormat docstring (<a href="https://github-redirect.dependabot.com/moment/luxon/issues/1221">#1221</a>)</li>
-<li><a href="https://github.com/moment/luxon/commit/7b4a9d0ed458497a6c143d883c25fa35ef0cd7ae"><code>7b4a9d0</code></a> Bump parse-url from 6.0.0 to 6.0.2 (<a href="https://github-redirect.dependabot.com/moment/luxon/issues/1230">#1230</a>)</li>
-<li><a href="https://github.com/moment/luxon/commit/60c83c7e6ec19f3242ab28f371d83922d571642e"><code>60c83c7</code></a> Fix link to duration months (<a href="https://github-redirect.dependabot.com/moment/luxon/issues/1232">#1232</a>)</li>
-<li><a href="https://github.com/moment/luxon/commit/c7e606bbd7c82bdb202d0f7a2e8114195d8489b4"><code>c7e606b</code></a> Wednesday support for RFC 850 (<a href="https://github-redirect.dependabot.com/moment/luxon/issues/1225">#1225</a>)</li>
-<li><a href="https://github.com/moment/luxon/commit/6b47f20da7386526346d7d42138cd05820791492"><code>6b47f20</code></a> fix luxon path in api-docs script (<a href="https://github-redirect.dependabot.com/moment/luxon/issues/1214">#1214</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/moment/luxon/compare/1.28.0...2.5.2">compare view</a></li>
+<li><a href="https://github.com/moment/luxon/commit/16a1aa3ee95a80a7e9c4ccbc740c378064449ec4"><code>16a1aa3</code></a> bump to 1.38.1</li>
+<li><a href="https://github.com/moment/luxon/commit/612e0c778d2dedb947f3e5160c46601688ea4959"><code>612e0c7</code></a> fix rfc2822 regex</li>
+<li>See full diff in <a href="https://github.com/moment/luxon/compare/1.28.0...1.28.1">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=luxon&package-manager=npm_and_yarn&previous-version=1.28.0&new-version=2.5.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=luxon&package-manager=npm_and_yarn&previous-version=1.28.0&new-version=1.28.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -139,7 +157,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-09 16:22:06 +0000 UTC
+        Created At 2023-01-10 00:38:08 +0000 UTC
     </div>
 </div>
 

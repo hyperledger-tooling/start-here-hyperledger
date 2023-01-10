@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/368" class=".btn">#368</a>
+            </td>
+            <td>
+                <b>
+                    Publish multi-arch, arm64 docker image - DO NOT MERGE
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **DO NOT MERGE**
+
+Publish a multi-arch fabric-nodeenv image with a GHA buildx builder.
+
+Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-09 20:47:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/367" class=".btn">#367</a>
             </td>
             <td>

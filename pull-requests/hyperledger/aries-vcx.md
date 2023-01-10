@@ -50,7 +50,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">skip-android</span>
             </td>
             <td>
                 - Ios wrapper contains links to vdrtools FFI functions - this PR is removing functions which links to vdrtools symbols (which are included, if vdrtools feature `ffi_api` is enabled).

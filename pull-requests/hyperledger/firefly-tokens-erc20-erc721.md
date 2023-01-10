@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
                 
             </td>
             <td>
-                Via ERC165 support, the connector can now check for 3 different versions of the ERC721WithData interface:
+                With this change, the default "out of the box" sample for ERC721 will _not_ require (or allow) you to pass a token index when minting. It will choose an increasing token index starting from 0.
+
+Via ERC165 support, the connector can now check for 3 different versions of the ERC721WithData interface:
 - the current version (V2), which uses auto-indexing on mint and also supports all withData/withURI methods
 - the previous version (V1b), which requires explicit indexes, but supports all withData/withURI methods
 - the original version (V1a), which requires explicit indexes, and supports withData but not withURI

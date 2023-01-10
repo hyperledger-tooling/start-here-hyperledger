@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3907" class=".btn">#3907</a>
+            </td>
+            <td>
+                <b>
+                    Fail-fast fetching potentially purged data during block commit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: manish <manish.sethi@gmail.com>
+
+This PR avoids keep trying behavior for fetching private data during block commit, in a situation where the hashes may not match because the private data may potentially have been purged. Instead, such data is treated as an eligible missing data that the peer would try later in the background reconciliation process.
+
+#### Type of change
+- New feature
+
+#### Related issues
+[Issue #3858](https://github.com/hyperledger/fabric/issues/3858)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-09 23:56:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3906" class=".btn">#3906</a>
             </td>
             <td>
