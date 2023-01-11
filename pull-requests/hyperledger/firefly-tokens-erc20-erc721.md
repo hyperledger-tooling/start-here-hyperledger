@@ -184,32 +184,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/106" class=".btn">#106</a>
-            </td>
-            <td>
-                <b>
-                    Add /checkinterface API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ~~In a chain with #104.~~
-Part of [FIR-16](https://github.com/hyperledger/firefly-fir/pull/16).
-
-Add a new `/checkinterface` API which takes in a full ABI and returns the recognized methods from that ABI for approval/mint/burn/transfer operations.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-04 03:53:16 +0000 UTC
-    </div>
-</div>
-
