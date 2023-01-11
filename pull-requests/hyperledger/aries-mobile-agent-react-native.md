@@ -281,7 +281,11 @@ You can disable automated security fix PRs for this repo from the [Security Aler
 
 # Summary of Changes
 
-Added configurations for custom notifications. Allows projects to extend the notification functionality and have custom actions for their notifications.
+Added configurations for custom notifications. Allows projects to extend the notification functionality and have custom actions for their notifications. Made notifications more consistent with wireframes, added cancellation button to notification box
+
+![image](https://user-images.githubusercontent.com/36937407/211638862-295374dd-7584-4d94-94ae-f795fae42019.png)
+![image](https://user-images.githubusercontent.com/36937407/211638917-4d86e0ac-54a9-4eb8-8c27-d1332d466083.png)
+
 
 # Related Issues
 
@@ -310,57 +314,6 @@ _PR template adapted from the Python attrs project._
     </table>
     <div class="right-align">
         Created At 2023-01-06 22:15:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/579" class=".btn">#579</a>
-            </td>
-            <td>
-                <b>
-                    feat: remove contact
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Summary of Changes
-
-Adds the ability to remove contacts from wallet. Requires that all credentials associated with connection are manually removed first. A followup PR will give users the option to remove associated credentials in one step.
-
-# Related Issues
-
-Please reference here any issue #'s that are relevant to this PR, or simply enter "N/A" if this PR does not relate to any existing issues.
-
-# Pull Request Checklist
-
-Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
-
-- [ ] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
-- [ ] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
-- [ ] Updated documentation as needed for changed code and new or modified features;
-- [ ] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
-
-If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
-
-Pro Tip 🤓
-
-- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
-- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
-
-_PR template adapted from the Python attrs project._
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-04 00:03:08 +0000 UTC
     </div>
 </div>
 

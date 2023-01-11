@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/119" class=".btn">#119</a>
+            </td>
+            <td>
+                <b>
+                    testing if the CANdy BC Wallet tests will work without starting tunnels
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+
+This PR is an attempt to see if the CANdy tests (which pass locally) will pass in the GitHub test pipeline if the tunnels are not started. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-10 19:34:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/118" class=".btn">#118</a>
             </td>
             <td>

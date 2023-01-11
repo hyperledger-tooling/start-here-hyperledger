@@ -1,13 +1,13 @@
 
-[3911](https://github.com/hyperledger/fabric/pull/3911) [WIP] Check PurgedKeyAuditLogging messages
+[3055](https://github.com/hyperledger/iroha/pull/3055) Update lib.rs. Solution to the issue 2123. Set up a digest_function saving for PublicKey and PrivateKey through Algorithm enum. When deserializing it is being read into a string and then converted into a specific enum's value
 
-[1124](https://github.com/hyperledger/solang/pull/1124) Use match statements for comparison chains
+[2260](https://github.com/hyperledger/cactus/pull/2260) build(deps): bump convict from 6.2.3 to 6.2.4
 
-[3910](https://github.com/hyperledger/fabric/pull/3910) Update purge private data integration tests
+[3054](https://github.com/hyperledger/iroha/pull/3054) [refactor] #3053: Fix clippy lints
 
-[1137](https://github.com/hyperledger/firefly/pull/1137) Add FIR-16 enhancements to fftokens documentation
+[60](https://github.com/hyperledger/firefly-sdk-nodejs/pull/60) Support for passing headers through to ws connect calls
 
-[1136](https://github.com/hyperledger/firefly/pull/1136) Fix: typos
+[3468](https://github.com/hyperledger/aries-framework-go/pull/3468) fix: Presentation Without Holder Binding should end with ~
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

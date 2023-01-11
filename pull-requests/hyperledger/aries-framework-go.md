@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3468" class=".btn">#3468</a>
+            </td>
+            <td>
+                <b>
+                    fix: Presentation Without Holder Binding should end with ~
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix: Presentation Without Holder Binding should end with ~
+
+Also, rename SDJWT to CombinedPresentation and JWTSerialized to SDJWT to follow spec terms.
+
+And add parsing and serializing of combined presentation parts with holder binding. 
+
+Holder Binding functionality will be added in separate PRs. 
+
+Closes #3467
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-10 20:53:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3466" class=".btn">#3466</a>
             </td>
             <td>
