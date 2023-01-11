@@ -14,6 +14,197 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2261" class=".btn">#2261</a>
+            </td>
+            <td>
+                <b>
+                    build(deps): bump knex from 2.0.0 to 2.4.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps [knex](https://github.com/knex/knex) from 2.0.0 to 2.4.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/knex/knex/releases">knex's releases</a>.</em></p>
+<blockquote>
+<h2>2.4.0</h2>
+<h3>New features:</h3>
+<ul>
+<li>Support partial unique indexes <a href="https://github-redirect.dependabot.com/knex/knex/issues/5316">#5316</a></li>
+<li>Make compiling SQL in error message optional <a href="https://github-redirect.dependabot.com/knex/knex/issues/5282">#5282</a></li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li>Insert array into json column <a href="https://github-redirect.dependabot.com/knex/knex/issues/5321">#5321</a></li>
+<li>Fix unexpected max acquire-timeout <a href="https://github-redirect.dependabot.com/knex/knex/issues/5377">#5377</a></li>
+<li>Fix: orWhereJson <a href="https://github-redirect.dependabot.com/knex/knex/issues/5361">#5361</a></li>
+<li>MySQL: Add assertion for basic where clause not to be object or array <a href="https://github-redirect.dependabot.com/knex/knex/issues/1227">#1227</a></li>
+<li>SQLite: Fix changing the default value of a boolean column in SQLite <a href="https://github-redirect.dependabot.com/knex/knex/issues/5319">#5319</a></li>
+</ul>
+<h3>Typings:</h3>
+<ul>
+<li>add missing type for 'expirationChecker' on PgConnectionConfig <a href="https://github-redirect.dependabot.com/knex/knex/issues/5334">#5334</a></li>
+</ul>
+<h2>2.3.0</h2>
+<h3>New features:</h3>
+<ul>
+<li>PostgreSQL: Explicit jsonb support for custom pg clients <a href="https://github-redirect.dependabot.com/knex/knex/issues/5201">#5201</a></li>
+<li>SQLite: Support returning with sqlite3 and better-sqlite3 <a href="https://github-redirect.dependabot.com/knex/knex/issues/5285">#5285</a></li>
+<li>MSSQL: Implement mapBinding mssql dialect option <a href="https://github-redirect.dependabot.com/knex/knex/issues/5292">#5292</a></li>
+</ul>
+<h3>Typings:</h3>
+<ul>
+<li>Update types for TS 4.8 <a href="https://github-redirect.dependabot.com/knex/knex/issues/5279">#5279</a></li>
+<li>Fix typo <a href="https://github-redirect.dependabot.com/knex/knex/issues/5267">#5267</a></li>
+<li>Fix WhereJsonObject withCompositeTableType <a href="https://github-redirect.dependabot.com/knex/knex/issues/5306">#5306</a></li>
+<li>Fix AnalyticFunction type <a href="https://github-redirect.dependabot.com/knex/knex/issues/5304">#5304</a></li>
+<li>Infer specific column value type in aggregations <a href="https://github-redirect.dependabot.com/knex/knex/issues/5297">#5297</a></li>
+</ul>
+<h2>2.2.0</h2>
+<h3>New features:</h3>
+<ul>
+<li>Inline primary key creation for postgres flavours <a href="https://github-redirect.dependabot.com/knex/knex/issues/5233">#5233</a></li>
+<li>SQLite: Add warning for undefined connection file <a href="https://github-redirect.dependabot.com/knex/knex/issues/5223">#5223</a></li>
+<li>MSSQL: Add JSON parameter support for connection <a href="https://github-redirect.dependabot.com/knex/knex/issues/5200">#5200</a></li>
+</ul>
+<h3>Bug fixes:</h3>
+<ul>
+<li>PostgreSQL: add primaryKey option for uuid <a href="https://github-redirect.dependabot.com/knex/knex/issues/5212">#5212</a></li>
+</ul>
+<h3>Typings:</h3>
+<ul>
+<li>Add promisable and better types <a href="https://github-redirect.dependabot.com/knex/knex/issues/5222">#5222</a></li>
+<li>Update raw query bind parameter type <a href="https://github-redirect.dependabot.com/knex/knex/issues/5208">#5208</a></li>
+</ul>
+<h1>2.1.0 - 26 May, 2022</h1>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/knex/knex/blob/master/CHANGELOG.md">knex's changelog</a>.</em></p>
+<blockquote>
+<h1>2.4.0 - 06 January, 2022</h1>
+<h3>New features:</h3>
+<ul>
+<li>Support partial unique indexes <a href="https://github-redirect.dependabot.com/knex/knex/issues/5316">#5316</a></li>
+<li>Make compiling SQL in error message optional <a href="https://github-redirect.dependabot.com/knex/knex/issues/5282">#5282</a></li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li>Insert array into json column <a href="https://github-redirect.dependabot.com/knex/knex/issues/5321">#5321</a></li>
+<li>Fix unexpected max acquire-timeout <a href="https://github-redirect.dependabot.com/knex/knex/issues/5377">#5377</a></li>
+<li>Fix: orWhereJson <a href="https://github-redirect.dependabot.com/knex/knex/issues/5361">#5361</a></li>
+<li>MySQL: Add assertion for basic where clause not to be object or array <a href="https://github-redirect.dependabot.com/knex/knex/issues/1227">#1227</a></li>
+<li>SQLite: Fix changing the default value of a boolean column in SQLite <a href="https://github-redirect.dependabot.com/knex/knex/issues/5319">#5319</a></li>
+</ul>
+<h3>Typings:</h3>
+<ul>
+<li>add missing type for 'expirationChecker' on PgConnectionConfig <a href="https://github-redirect.dependabot.com/knex/knex/issues/5334">#5334</a></li>
+</ul>
+<h1>2.3.0 - 31 August, 2022</h1>
+<h3>New features:</h3>
+<ul>
+<li>PostgreSQL: Explicit jsonb support for custom pg clients <a href="https://github-redirect.dependabot.com/knex/knex/issues/5201">#5201</a></li>
+<li>SQLite: Support returning with sqlite3 and better-sqlite3 <a href="https://github-redirect.dependabot.com/knex/knex/issues/5285">#5285</a></li>
+<li>MSSQL: Implement mapBinding mssql dialect option <a href="https://github-redirect.dependabot.com/knex/knex/issues/5292">#5292</a></li>
+</ul>
+<h3>Typings:</h3>
+<ul>
+<li>Update types for TS 4.8 <a href="https://github-redirect.dependabot.com/knex/knex/issues/5279">#5279</a></li>
+<li>Fix typo <a href="https://github-redirect.dependabot.com/knex/knex/issues/5267">#5267</a></li>
+<li>Fix WhereJsonObject withCompositeTableType <a href="https://github-redirect.dependabot.com/knex/knex/issues/5306">#5306</a></li>
+<li>Fix AnalyticFunction type <a href="https://github-redirect.dependabot.com/knex/knex/issues/5304">#5304</a></li>
+<li>Infer specific column value type in aggregations <a href="https://github-redirect.dependabot.com/knex/knex/issues/5297">#5297</a></li>
+</ul>
+<h1>2.2.0 - 19 July, 2022</h1>
+<h3>New features:</h3>
+<ul>
+<li>Inline primary key creation for postgres flavours <a href="https://github-redirect.dependabot.com/knex/knex/issues/5233">#5233</a></li>
+<li>SQLite: Add warning for undefined connection file <a href="https://github-redirect.dependabot.com/knex/knex/issues/5223">#5223</a></li>
+<li>MSSQL: Add JSON parameter support for connection <a href="https://github-redirect.dependabot.com/knex/knex/issues/5200">#5200</a></li>
+</ul>
+<h3>Bug fixes:</h3>
+<ul>
+<li>PostgreSQL: add primaryKey option for uuid <a href="https://github-redirect.dependabot.com/knex/knex/issues/5212">#5212</a></li>
+</ul>
+<h3>Typings:</h3>
+<ul>
+<li>Add promisable and better types <a href="https://github-redirect.dependabot.com/knex/knex/issues/5222">#5222</a></li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/knex/knex/commit/3475d8166863d6c9535527cd541d7c894e21ea84"><code>3475d81</code></a> Prepare to release 2.4.0</li>
+<li><a href="https://github.com/knex/knex/commit/e97f92201a360f666e7df529fe5ff1cd1f7f9fcd"><code>e97f922</code></a> Bump tsd from 0.24.1 to 0.25.0 (<a href="https://github-redirect.dependabot.com/knex/knex/issues/5396">#5396</a>)</li>
+<li><a href="https://github.com/knex/knex/commit/e145322da92749be7749f9ade5b5f5a66d6586a4"><code>e145322</code></a> 1227: add assertion for basic where clause values (<a href="https://github-redirect.dependabot.com/knex/knex/issues/5417">#5417</a>)</li>
+<li><a href="https://github.com/knex/knex/commit/962bb0a635ed40a240021379521814b5bd36d438"><code>962bb0a</code></a> Bump sinon from 14.0.2 to 15.0.1 (<a href="https://github-redirect.dependabot.com/knex/knex/issues/5413">#5413</a>)</li>
+<li><a href="https://github.com/knex/knex/commit/ab45314e70bc55a98de08d9c2bd7005bac146702"><code>ab45314</code></a> Add JSDoc (TS Flavour) to mjs stub file (<a href="https://github-redirect.dependabot.com/knex/knex/issues/5390">#5390</a>)</li>
+<li><a href="https://github.com/knex/knex/commit/72bd1f7396b8472eb416a1eb8c8270737189b999"><code>72bd1f7</code></a> Fix: orWhereJson (<a href="https://github-redirect.dependabot.com/knex/knex/issues/5361">#5361</a>)</li>
+<li><a href="https://github.com/knex/knex/commit/4fc939a17640fd1abf1a94d106b7836ae20c1d1e"><code>4fc939a</code></a> Fixes unexpected max acquire-timeout (<a href="https://github-redirect.dependabot.com/knex/knex/issues/5377">#5377</a>)</li>
+<li><a href="https://github.com/knex/knex/commit/5c4837cd4f26d192527684a2d22ed2f0563060fe"><code>5c4837c</code></a> Fix lib/.gitignore path separator on Windows. (<a href="https://github-redirect.dependabot.com/knex/knex/issues/5325">#5325</a>)</li>
+<li><a href="https://github.com/knex/knex/commit/7dbbd007014911b1f240fdf8cec8a191022eb6f7"><code>7dbbd00</code></a> Bump actions/setup-node from 3.4.1 to 3.5.1 (<a href="https://github-redirect.dependabot.com/knex/knex/issues/5356">#5356</a>)</li>
+<li><a href="https://github.com/knex/knex/commit/d39051f4a56bbd4b2b48500f08198efddef5b94d"><code>d39051f</code></a> fix: add missing type for 'expirationChecker' on PgConnectionConfig (<a href="https://github-redirect.dependabot.com/knex/knex/issues/5334">#5334</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/knex/knex/compare/2.0.0...2.4.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=knex&package-manager=npm_and_yarn&previous-version=2.0.0&new-version=2.4.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/cactus/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-11 04:31:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/2260" class=".btn">#2260</a>
             </td>
             <td>
