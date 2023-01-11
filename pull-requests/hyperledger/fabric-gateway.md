@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-gateway
             </td>
             <td>
                 <b>
-                    Fix Node chaincode dependencies to v2.4.x in tests
+                    Allow scenario tests to be run locally on MacOS
                 </b>
             </td>
         </tr>

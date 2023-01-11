@@ -88,32 +88,3 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/106" class=".btn">#106</a>
-            </td>
-            <td>
-                <b>
-                    Add /checkinterface API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ~~In a chain with #105.~~
-Part of [FIR-16](https://github.com/hyperledger/firefly-fir/pull/16).
-
-Companion to https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/106.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-04 15:55:11 +0000 UTC
-    </div>
-</div>
-

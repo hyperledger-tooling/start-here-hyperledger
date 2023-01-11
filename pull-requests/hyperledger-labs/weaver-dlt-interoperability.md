@@ -83,31 +83,3 @@ Deployed new docs: https://sanvendev.github.io/weaver-dlt-interoperability/docs/
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/358" class=".btn">#358</a>
-            </td>
-            <td>
-                <b>
-                    Updating Golang package versions and dependencies and Re-enabling workflows
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fabric Interop Chaincode `libs/utils` was upgraded to `1.5.6` earlier. Other packages depending on this library required updates to their dependencies (`go.sum` files).
-
-Re-enabled data sharing and asset transfer workflows dependent on the latest version of the Fabric Interop Chaincode.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-04 16:06:48 +0000 UTC
-    </div>
-</div>
-
