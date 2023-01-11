@@ -14,6 +14,172 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2262" class=".btn">#2262</a>
+            </td>
+            <td>
+                <b>
+                    build(deps): bump debug from 2.6.9 to 3.1.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
+            </td>
+            <td>
+                Bumps [debug](https://github.com/debug-js/debug) from 2.6.9 to 3.1.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/debug-js/debug/releases">debug's releases</a>.</em></p>
+<blockquote>
+<h2>3.1.0</h2>
+<h3>Minor Changes</h3>
+<ul>
+<li>Ignore package-lock.json: e7e568a24736486721882282eb21beb31c741647</li>
+<li>Remove <code>component.json</code>: 47747f329fe159e94262318b52b87a48f6c0acd4</li>
+<li>Remove &quot;component&quot; from package.json: bdb7e0137f84dc8bcfc95daede7c694799d38dbf</li>
+<li>Add <code>DEBUG_HIDE_DATE</code> env var: <a href="https://github-redirect.dependabot.com/debug-js/debug/issues/486">#486</a></li>
+</ul>
+<h3>Patches</h3>
+<ul>
+<li>Correct spelling mistake: daf1a7c8c0f62f5dbc8d48158d6748d0527cc551</li>
+<li>Examples: fix colors printout: 7cd9e539ce571fc3314d34d9d1dac3124839dbac</li>
+<li>Fix browser detection: fdfa0f5f6cc7e83fd60b6cf1e7b990cbf6388621</li>
+<li>Remove ReDoS regexp in <code>%o</code> formatter: <a href="https://github-redirect.dependabot.com/debug-js/debug/issues/504">#504</a></li>
+</ul>
+<h3>Credits</h3>
+<p>Huge thanks to <a href="https://github.com/amejiarosario"><code>@​amejiarosario</code></a> and <a href="https://github.com/zhuangya"><code>@​zhuangya</code></a> for their help!</p>
+<h2>3.0.0</h2>
+<p><a href="https://debug-browser-colors.now.sh/">Featuring pretty new colors!</a></p>
+<!-- raw HTML omitted -->
+<h3>Major Changes</h3>
+<ul>
+<li>Remove <code>DEBUG_FD</code>: <a href="https://github-redirect.dependabot.com/debug-js/debug/issues/406">#406</a></li>
+<li>Make millisecond timer namespace specific and allow 'always enabled' output: <a href="https://github-redirect.dependabot.com/debug-js/debug/issues/408">#408</a></li>
+<li>Use <code>Date#toISOString()</code> instead to <code>Date#toUTCString()</code> when output is not a TTY: <a href="https://github-redirect.dependabot.com/debug-js/debug/issues/418">#418</a></li>
+<li><code>enabled()</code> updates existing debug instances: <a href="https://github-redirect.dependabot.com/debug-js/debug/issues/440">#440</a></li>
+</ul>
+<h3>Minor Changes</h3>
+<ul>
+<li>Add <code>destroy()</code> function: <a href="https://github-redirect.dependabot.com/debug-js/debug/issues/440">#440</a></li>
+<li>Document <code>enabled</code> flag: <a href="https://github-redirect.dependabot.com/debug-js/debug/issues/465">#465</a></li>
+<li>Support 256 colors: <a href="https://github-redirect.dependabot.com/debug-js/debug/issues/481">#481</a></li>
+<li>Update &quot;browserify&quot; to v14.4.0: 826fd94639efeaa3c5701b50d335caead084a5d6</li>
+<li>Separate Node.js and web browser examples: 87880f6ae1f48b12d9f3346bce564a66cba6b93e</li>
+<li>Example: use %o formatter: 31f3343de76cb8687041387a1b811745c6e84473</li>
+<li>More readme screenshots replaced: 25eb545324912dd2863658d0ba35426c0f617619</li>
+<li>Add Namespace Colors section to readme: 8b5c438a222167bd0cc66db046bac073f01b3c01</li>
+<li>Separate the Node and Browser tests in Travis: f178d861df18abacac6e9e4607c7306a1147bf3d</li>
+</ul>
+<h3>Patches</h3>
+<ul>
+<li>Readme: fix typo: <a href="https://github-redirect.dependabot.com/debug-js/debug/issues/473">#473</a></li>
+<li>Component: update &quot;ms&quot; to v2.0.0: d2dd80aeaf1b037f0b3be21838c4594bbedc4a9c</li>
+</ul>
+<h3>Credits</h3>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/debug-js/debug/blob/3.1.0/CHANGELOG.md">debug's changelog</a>.</em></p>
+<blockquote>
+<h1>3.1.0 / 2017-09-26</h1>
+<ul>
+<li>Add <code>DEBUG_HIDE_DATE</code> env var (<a href="https://github-redirect.dependabot.com/debug-js/debug/issues/486">#486</a>)</li>
+<li>Remove ReDoS regexp in %o formatter (<a href="https://github-redirect.dependabot.com/debug-js/debug/issues/504">#504</a>)</li>
+<li>Remove &quot;component&quot; from package.json</li>
+<li>Remove <code>component.json</code></li>
+<li>Ignore package-lock.json</li>
+<li>Examples: fix colors printout</li>
+<li>Fix: browser detection</li>
+<li>Fix: spelling mistake (<a href="https://github-redirect.dependabot.com/debug-js/debug/issues/496">#496</a>, <a href="https://github.com/EdwardBetts"><code>@​EdwardBetts</code></a>)</li>
+</ul>
+<h1>3.0.1 / 2017-08-24</h1>
+<ul>
+<li>Fix: Disable colors in Edge and Internet Explorer (<a href="https://github-redirect.dependabot.com/debug-js/debug/issues/489">#489</a>)</li>
+</ul>
+<h1>3.0.0 / 2017-08-08</h1>
+<ul>
+<li>Breaking: Remove DEBUG_FD (<a href="https://github-redirect.dependabot.com/debug-js/debug/issues/406">#406</a>)</li>
+<li>Breaking: Use <code>Date#toISOString()</code> instead to <code>Date#toUTCString()</code> when output is not a TTY (<a href="https://github-redirect.dependabot.com/debug-js/debug/issues/418">#418</a>)</li>
+<li>Breaking: Make millisecond timer namespace specific and allow 'always enabled' output (<a href="https://github-redirect.dependabot.com/debug-js/debug/issues/408">#408</a>)</li>
+<li>Addition: document <code>enabled</code> flag (<a href="https://github-redirect.dependabot.com/debug-js/debug/issues/465">#465</a>)</li>
+<li>Addition: add 256 colors mode (<a href="https://github-redirect.dependabot.com/debug-js/debug/issues/481">#481</a>)</li>
+<li>Addition: <code>enabled()</code> updates existing debug instances, add <code>destroy()</code> function (<a href="https://github-redirect.dependabot.com/debug-js/debug/issues/440">#440</a>)</li>
+<li>Update: component: update &quot;ms&quot; to v2.0.0</li>
+<li>Update: separate the Node and Browser tests in Travis-CI</li>
+<li>Update: refactor Readme, fixed documentation, added &quot;Namespace Colors&quot; section, redid screenshots</li>
+<li>Update: separate Node.js and web browser examples for organization</li>
+<li>Update: update &quot;browserify&quot; to v14.4.0</li>
+<li>Fix: fix Readme typo (<a href="https://github-redirect.dependabot.com/debug-js/debug/issues/473">#473</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/debug-js/debug/commit/f073e056f33efdd5b311381eb6bca2bc850745bf"><code>f073e05</code></a> Release 3.1.0</li>
+<li><a href="https://github.com/debug-js/debug/commit/2c0df9baf7aefae2ea830e9d5eb2be64f0e71f18"><code>2c0df9b</code></a> rename <code>DEBUG_HIDE_TTY_DATE</code> to <code>DEBUG_HIDE_DATE</code></li>
+<li><a href="https://github.com/debug-js/debug/commit/dcb37b2ca4ac0fdabe1f5c13299554464b5b6ae5"><code>dcb37b2</code></a> Merge branch '2.x'</li>
+<li><a href="https://github.com/debug-js/debug/commit/56a3853b95990a22079d646601aa01e93eceb1c7"><code>56a3853</code></a> Add <code>DEBUG_HIDE_TTY_DATE</code> env var (<a href="https://github-redirect.dependabot.com/debug-js/debug/issues/486">#486</a>)</li>
+<li><a href="https://github.com/debug-js/debug/commit/bdb7e0137f84dc8bcfc95daede7c694799d38dbf"><code>bdb7e01</code></a> remove &quot;component&quot; from package.json</li>
+<li><a href="https://github.com/debug-js/debug/commit/c38a0166c266a679c8de012d4eaccec3f944e685"><code>c38a016</code></a> remove ReDoS regexp in %o formatter (<a href="https://github-redirect.dependabot.com/debug-js/debug/issues/504">#504</a>)</li>
+<li><a href="https://github.com/debug-js/debug/commit/47747f329fe159e94262318b52b87a48f6c0acd4"><code>47747f3</code></a> remove <code>component.json</code></li>
+<li><a href="https://github.com/debug-js/debug/commit/a0601e5e65ca80ce2f39b1243db332c64c124214"><code>a0601e5</code></a> fix</li>
+<li><a href="https://github.com/debug-js/debug/commit/e7e568a24736486721882282eb21beb31c741647"><code>e7e568a</code></a> ignore package-lock.json</li>
+<li><a href="https://github.com/debug-js/debug/commit/fdfa0f5f6cc7e83fd60b6cf1e7b990cbf6388621"><code>fdfa0f5</code></a> Fix browser detection</li>
+<li>Additional commits viewable in <a href="https://github.com/debug-js/debug/compare/2.6.9...3.1.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=debug&package-manager=npm_and_yarn&previous-version=2.6.9&new-version=3.1.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/cactus/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-11 11:00:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/2261" class=".btn">#2261</a>
             </td>
             <td>
@@ -709,32 +875,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2023-01-06 21:49:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cactus/pull/2246" class=".btn">#2246</a>
-            </td>
-            <td>
-                <b>
-                    fix(security): vulnerabilities found in corda-4-8-all-in-one Fixes #2064
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: charelle <charelle.wrk@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-04 08:49:21 +0000 UTC
     </div>
 </div>
 

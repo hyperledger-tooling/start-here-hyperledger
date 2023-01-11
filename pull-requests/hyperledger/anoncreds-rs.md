@@ -14,6 +14,68 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/56" class=".btn">#56</a>
+            </td>
+            <td>
+                <b>
+                    update revocation registry definition
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                closes #22 
+
+Where it was required, e.g. we pass it to Ursa, I used `ISSUANCE_BY_DEFAULT` which is a 0 or true.
+
+@whalelephant could you also give this a review with regards to any revocation changes, I am not too familiar with the exact internals so just to be safe.
+
+- removed the revocation registry config type
+- removed V1 wrapper around revocation objects
+- removed issuance by default reference
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-11 10:12:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/55" class=".btn">#55</a>
+            </td>
+            <td>
+                <b>
+                    added schema attrNames validation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: blu3beri <blu3beri@proton.me>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-11 09:11:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/50" class=".btn">#50</a>
             </td>
             <td>

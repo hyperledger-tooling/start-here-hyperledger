@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1202" class=".btn">#1202</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1204" class=".btn">#1204</a>
             </td>
             <td>
                 <b>
@@ -27,16 +27,14 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                Adds a very simple `AnonCredsRegistryService` as described in https://github.com/hyperledger/aries-framework-javascript/issues/1123
+                Fixes https://github.com/hyperledger/aries-framework-javascript/issues/1123, and adds the initial structure for the `AnonCredsModule`
 
-Is branched from #1200, so that PR needs to be merged first.
 
-Fixes https://github.com/hyperledger/aries-framework-javascript/issues/1123
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-10 15:43:10 +0000 UTC
+        Created At 2023-01-11 11:20:20 +0000 UTC
     </div>
 </div>
 
@@ -361,32 +359,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2023-01-04 13:23:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1190" class=".btn">#1190</a>
-            </td>
-            <td>
-                <b>
-                    chore(release): v0.3.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">ci-test</span>
-            </td>
-            <td>
-                Release version 0.3.2
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-04 11:48:55 +0000 UTC
     </div>
 </div>
 

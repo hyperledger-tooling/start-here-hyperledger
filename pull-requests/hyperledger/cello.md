@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/512" class=".btn">#512</a>
+            </td>
+            <td>
+                <b>
+                    [#issue-511] Token timeout cannot automatically return to the login page
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Token timeout cannot automatically return to the login page
+
+Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
+
+Close #511 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-11 07:45:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/510" class=".btn">#510</a>
+            </td>
+            <td>
+                <b>
+                    [#issue-509] Prompt message error of network deletion success
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Prompt message error of network deletion success, current is "删除组织成功。"
+
+Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
+
+Close #509 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-11 06:22:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/508" class=".btn">#508</a>
             </td>
             <td>

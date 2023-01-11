@@ -14,6 +14,86 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/732" class=".btn">#732</a>
+            </td>
+            <td>
+                <b>
+                    Import/vdr tools
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-11 12:27:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/731" class=".btn">#731</a>
+            </td>
+            <td>
+                <b>
+                    Sync up cargo lock file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-11 12:27:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/729" class=".btn">#729</a>
+            </td>
+            <td>
+                <b>
+                    Revert hiding mocking behind test_utils feature flag
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">hotfix</span><span class="chip">tests</span>
+            </td>
+            <td>
+                Currently, our tests rely on `test_utils` feature flag indicating whether `MessageId` should be generated randomly or mock value `testid` should be used. Without other changes, setting `test_utils` feature flag without running in test mode causes `MessageId`s to have the same value, which is undesirable. For now, mocking should be exposed without feature flags and work should be done to exclude static mockdata from release builds.
+
+Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-11 10:26:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/727" class=".btn">#727</a>
             </td>
             <td>
@@ -327,32 +407,6 @@ Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
     </table>
     <div class="right-align">
         Created At 2023-01-04 15:59:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/717" class=".btn">#717</a>
-            </td>
-            <td>
-                <b>
-                    Nonmediated connection (de)serialization
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">feature</span>
-            </td>
-            <td>
-                Exposes (de)serialization methods on nonmediated connection handler.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-04 11:42:34 +0000 UTC
     </div>
 </div>
 

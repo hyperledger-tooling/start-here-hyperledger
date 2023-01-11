@@ -56,7 +56,7 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                - Added `setup-local` and `ledger-initilization` for Besu network asset exchange.
+                - Added `setup-local` and `ledger-initialization` for Besu network asset exchange.
 - Restructured `asset-exchange` page, into multiple pages, and added Besu asset exchange instructions.
 - RFC updated for Fabric-HTLC
 - RFC updated for Corda data sharing
@@ -70,6 +70,9 @@ Update 2:
 - Updated rfc, core contracts, and SDK as per above Corda View change.
 - Added 2 orgs test in Corda Interop App unit test, and fixed bug in ViewVerification when receiving view from 2 orgs.
 - All modules updated to `v1.5.7` except corda modules which are updated to `v1.2.13`
+
+Update 3:
+- Updated cross network operations RFC.
 
 Deployed new docs: https://sanvendev.github.io/weaver-dlt-interoperability/docs/external/getting-started/guide
             </td>
