@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/47" class=".btn">#47</a>
+                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/50" class=".btn">#50</a>
             </td>
             <td>
                 <b>
-                    Obtain fresh gas price on re-submitting stale txs
+                    Transaction substatus
                 </b>
             </td>
         </tr>
@@ -27,42 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
                 
             </td>
             <td>
-                Signed-off-by: Jim Zhang <jim.zhang@kaleido.io>
+                Closes https://github.com/hyperledger/firefly-transaction-manager/issues/49
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-13 00:00:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/46" class=".btn">#46</a>
-            </td>
-            <td>
-                <b>
-                    Add AddressBalance() to FFCAPI and a new REST API route to call it
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The aim of this PR is to add an address balance API call to the FFCAPI interface. This makes it possible for users of of the FFCAPI (such as FireFly Transaction Manager) to query and optionally surface via their own APIs.
-
-Under this PR I have introduced a new REST API `/gastoken/balances/{address}` which calls `AddressBalance()` for the the configured blockchain connector. The use of `gastoken` in the API path is intended to be clear that it is unrelated to token balances.
-
-Signed-off-by: Matthew Whitehead <matthew.whitehead@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-08 13:21:18 +0000 UTC
+        Created At 2023-01-11 09:03:44 +0000 UTC
     </div>
 </div>
 
