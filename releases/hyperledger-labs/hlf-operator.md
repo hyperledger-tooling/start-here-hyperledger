@@ -41,34 +41,3 @@ permalink: /releases/hyperledger-labs/hlf-operator
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    Version 1.8.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v1.8.3
-                </span>
-            </td>
-            <td>
-                ## Changelog
-* 6a95811 1.8.3 (#136)
-
-
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger-labs/hlf-operator/releases/tag/v1.8.3" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2023-01-03 22:26:18 +0000 UTC
-    </span>
-</div>
-
