@@ -183,29 +183,3 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/365" class=".btn">#365</a>
-            </td>
-            <td>
-                <b>
-                    Update to v3.0.0-unstable
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-04 13:43:09 +0000 UTC
-    </div>
-</div>
-

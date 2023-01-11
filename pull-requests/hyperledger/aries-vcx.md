@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
             </td>
             <td>
                 <b>
-                    Import/vdr tools
+                    Import vdr-tools fork
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                <nil>
+                Done by filtering a local clone of vdr-tools repo using `git filter-repo`, temporarily added as a remote, and created a merge commit with `static-link` branch.
             </td>
         </tr>
     </table>
     <div class="right-align">
         Created At 2023-01-11 12:27:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/731" class=".btn">#731</a>
-            </td>
-            <td>
-                <b>
-                    Sync up cargo lock file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-11 12:27:16 +0000 UTC
     </div>
 </div>
 
@@ -381,32 +355,6 @@ Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
     </table>
     <div class="right-align">
         Created At 2023-01-05 17:17:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/718" class=".btn">#718</a>
-            </td>
-            <td>
-                <b>
-                    Nonmediated connection handles API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Miroslav Kovar <miroslav.kovar@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-04 15:59:31 +0000 UTC
     </div>
 </div>
 

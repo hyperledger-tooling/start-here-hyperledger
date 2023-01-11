@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cactus
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cactus/pull/2263" class=".btn">#2263</a>
+            </td>
+            <td>
+                <b>
+                    fix(security): vulnerabilities found in keychain-vault-server
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #2058
+
+Signed-off-by: aldousalvarez <aldousss.alvarez@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-11 12:50:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cactus/pull/2262" class=".btn">#2262</a>
             </td>
             <td>
