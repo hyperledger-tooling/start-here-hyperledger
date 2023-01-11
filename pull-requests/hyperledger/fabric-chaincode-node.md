@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
             </td>
             <td>
                 <b>
-                    test build - DO NOT MERGE
+                    Fix the chaincode builds
                 </b>
             </td>
         </tr>
@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                **DO NOT MERGE** 
+                This PR addresses a regression introduced in grpc-js:1.8.2, pinning the dependency to 1.8.1.
+
+Previously the fabric-shim had a loose dependency on `^1.4.1`, which caused errors when the grpc-js runtime was updated with [this PR](https://github.com/grpc/grpc-node/pull/2316) 
 
 Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
             </td>

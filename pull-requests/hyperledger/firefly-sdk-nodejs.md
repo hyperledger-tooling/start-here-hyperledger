@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/60" class=".btn">#60</a>
+            </td>
+            <td>
+                <b>
+                    Support for passing headers through to ws connect calls
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is needed to allow firefly-sdk-nodejs to work against an authenticated web socket server.
+
+Signed-off-by: Chris Bygrave <chris.bygrave@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-10 21:02:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/58" class=".btn">#58</a>
             </td>
             <td>
@@ -63,37 +91,6 @@ I will start a discussion on discord regarding whether we want override options 
     </table>
     <div class="right-align">
         Created At 2023-01-05 22:20:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/54" class=".btn">#54</a>
-            </td>
-            <td>
-                <b>
-                    Add request option support where missing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - generateContractInterface
-- uploadDataBlob
-
-Enables SDK clients to pass through request options to the underlying axios instance. Supported in _most_ SDK commands already - these were missing.
-
-Signed-off-by: Chris Bygrave <chris.bygrave@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-03 21:07:16 +0000 UTC
     </div>
 </div>
 

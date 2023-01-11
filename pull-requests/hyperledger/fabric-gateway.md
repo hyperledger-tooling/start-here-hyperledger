@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                v2.5.x introduced some changes that broke the tests.
+                - Use default (leveldb) ledger database instead of explicitly using CouchDB. Avoids unnecessary dependencies, simplifies network topology and (hopefully) improves scenario test performance.
+- Explicitly mount docker.sock (with environment variable override) to avoid Docker failures.
+- More explicit Node chaincode dependendency versions.
             </td>
         </tr>
     </table>

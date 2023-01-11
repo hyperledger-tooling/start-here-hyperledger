@@ -116,29 +116,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1120" class=".btn">#1120</a>
-            </td>
-            <td>
-                <b>
-                    Release v0.2.1: Rio
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The release is necessary to move Solang to LLVM 14. Tests to build the release binarie have run [here](https://github.com/LucasSte/solang/actions/runs/3832831823/jobs/6523592431).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-03 20:41:02 +0000 UTC
-    </div>
-</div>
-

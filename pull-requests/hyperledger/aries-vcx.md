@@ -356,32 +356,3 @@ Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/716" class=".btn">#716</a>
-            </td>
-            <td>
-                <b>
-                    Tweak u32 handle releasing handling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Came up as desired change while working on https://github.com/hyperledger/aries-vcx/pull/665
-
-- Change behaviour of releasing to be more forgiving - in tests of `vcx-napi-rs` where we frequently initialize and deinitialize happens often, it happens that garbage collector calls `release` on handle which we have freed manually via `shutdown` function
-- Additionally: move some tests from `api_c` to `api_vcx`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-03 21:28:26 +0000 UTC
-    </div>
-</div>
-
