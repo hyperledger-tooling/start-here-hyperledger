@@ -15,40 +15,35 @@ permalink: /releases/hyperledger/besu-docs
         <tr>
             <td colspan="2">
                 <b>
-                    22.10.3
+                    23.1.0-RC1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    22.10.3
+                    23.1.0-RC1
                 </span>
             </td>
             <td>
-                ## 22.10.3
+                ## 23.1.0-RC1
 
 ### Breaking Changes
-- Added `--rpc-max-logs-range` CLI option to allow limiting the number of blocks queried by `eth_getLogs` RPC API. Default value: 1000 [#4597](https://github.com/hyperledger/besu/pull/4597)
-- The `graalvm` docker variant no longer meets the performance requirements for Ethereum Mainnet.  The `openjdk-11` and `openjdk-latest` variants are recommended in its place.
+- Default configurations for the deprecated Ropsten, Kiln, Shandong, and Astor networks have been removed from the CLI network list. These networks can currently be accessed but will require a user-provided genesis configuration. [#4869](https://github.com/hyperledger/besu/pull/4869)
 
 ### Additions and Improvements
-- Implement Eth/68 sub-protocol [#4715](https://github.com/hyperledger/besu/issues/4715)
-- Increase the speed of modexp gas execution and execution. [#4780](https://github.com/hyperledger/besu/pull/4780)
-- Added experimental CLI options `--Xeth-capability-max` and `--Xeth-capability-min` to specify a range of capabilities to be supported by the Eth protocol. [#4752](https://github.com/hyperledger/besu/pull/4752)
-- Set the default curve in the EVMTool, like is done in production operations [#4790](https://github.com/hyperledger/besu/pull/4790)
 
-### Bug Fixes
-- Fix storage key format for eth_getProof so that it follows the EIP-1474 spec [#4564](https://github.com/hyperledger/besu/pull/4564)
-
+- Improve SLOAD and SSTORE performance by caching empty slots [#4874](https://github.com/hyperledger/besu/pull/4874)
+- RPC methods that lookup block by hash will now return an error response if no block found [#4582](https://github.com/hyperledger/besu/pull/4582)
+- Added support for `safe` and `finalized` strings for the RPC methods using defaultBlock parameter [#4902](https://github.com/hyperledger/besu/pull/4902)
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/besu-docs/releases/tag/22.10.3" class=".btn">
+    <a href="https://github.com/hyperledger/besu-docs/releases/tag/23.1.0-RC1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-12-06 17:57:42 +0000 UTC
+        Created At 2023-01-11 22:24:46 +0000 UTC
     </span>
 </div>
 
