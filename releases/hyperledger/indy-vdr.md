@@ -15,26 +15,26 @@ permalink: /releases/hyperledger/indy-vdr
         <tr>
             <td colspan="2">
                 <b>
-                    v0.3.4
+                    v0.4.0-dev.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.3.4
+                    v0.4.0-dev.1
                 </span>
             </td>
             <td>
-                Updates dependencies and enabled universal build for MacOS
+                
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/indy-vdr/releases/tag/v0.3.4" class=".btn">
+    <a href="https://github.com/hyperledger/indy-vdr/releases/tag/v0.4.0-dev.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-01-05 15:37:23 +0000 UTC
+        Created At 2023-01-12 19:42:14 +0000 UTC
     </span>
 </div>
 
