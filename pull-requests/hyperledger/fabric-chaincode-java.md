@@ -76,29 +76,3 @@ Therefore it seemed a manageable risk to remove it entirely and go with the mode
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/274" class=".btn">#274</a>
-            </td>
-            <td>
-                <b>
-                    Fixes for JAR publishing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-05 10:46:19 +0000 UTC
-    </div>
-</div>
-
