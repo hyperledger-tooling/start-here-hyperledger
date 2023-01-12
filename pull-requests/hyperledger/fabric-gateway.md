@@ -29,7 +29,9 @@ permalink: /pull-requests/hyperledger/fabric-gateway
             <td>
                 - Use default (leveldb) ledger database instead of explicitly using CouchDB. Avoids unnecessary dependencies, simplifies network topology and (hopefully) improves scenario test performance.
 - Explicitly mount docker.sock (with environment variable override) to avoid Docker failures.
-- More explicit Node chaincode dependendency versions.
+- Explicitly pull Docker images using amd64 platform if native images are not available.
+- Update chaincode dependency versions.
+- Add Make targets to allow scenario tests to be run excluding HSM tests.
             </td>
         </tr>
     </table>
