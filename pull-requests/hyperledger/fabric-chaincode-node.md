@@ -157,29 +157,3 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/366" class=".btn">#366</a>
-            </td>
-            <td>
-                <b>
-                    Adding new format for getID()
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: aruns05 <arun.s2k8@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-05 12:42:39 +0000 UTC
-    </div>
-</div>
-

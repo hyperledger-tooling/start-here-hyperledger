@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/486" class=".btn">#486</a>
+            </td>
+            <td>
+                <b>
+                    Get tx api handlers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-12 16:32:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/485" class=".btn">#485</a>
             </td>
             <td>
@@ -27,7 +53,9 @@ permalink: /pull-requests/hyperledger-labs/orion-server
                 
             </td>
             <td>
-                Signed-off-by: Yoav Tock <tock@il.ibm.com>
+                The first part of the implementation of an API for getting a TX.
+
+Signed-off-by: Yoav Tock <tock@il.ibm.com>
             </td>
         </tr>
     </table>

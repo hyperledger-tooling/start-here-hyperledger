@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/50" class=".btn">#50</a>
+            </td>
+            <td>
+                <b>
+                    Pluggable App Module Support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                close #45 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-12 16:36:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/49" class=".btn">#49</a>
             </td>
             <td>
