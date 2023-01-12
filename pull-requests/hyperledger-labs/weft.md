@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weft
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weft/pull/29" class=".btn">#29</a>
+                PR <a href="https://github.com/hyperledger-labs/weft/pull/30" class=".btn">#30</a>
             </td>
             <td>
                 <b>
-                    Update version and remove console.log
+                    Fix TLS true for all cases
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/weft
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-15 13:24:03 +0000 UTC
+        Created At 2023-01-12 16:40:16 +0000 UTC
     </div>
 </div>
 

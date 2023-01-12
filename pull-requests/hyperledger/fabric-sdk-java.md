@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/249" class=".btn">#249</a>
+            </td>
+            <td>
+                <b>
+                    Use callable workflow from release-2.2 branch in scheduled builds
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-12 16:36:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/248" class=".btn">#248</a>
+            </td>
+            <td>
+                <b>
+                    Refactor CI pipeline (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Split tests to callable workflow to enable multi-release scheduled builds
+- Automatic cancel of in-progress pull request builds on a new push
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-12 13:36:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/247" class=".btn">#247</a>
             </td>
             <td>
