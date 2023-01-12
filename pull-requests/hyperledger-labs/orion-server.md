@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/481" class=".btn">#481</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/485" class=".btn">#485</a>
             </td>
             <td>
                 <b>
-                    test: use `T.TempDir` to create temporary test directory
+                    Get TX API
                 </b>
             </td>
         </tr>
@@ -27,30 +27,12 @@ permalink: /pull-requests/hyperledger-labs/orion-server
                 
             </td>
             <td>
-                A testing cleanup. 
-
-This pull request replaces `ioutil.TempDir` with `t.TempDir`. We can use the `T.TempDir` function from the `testing` package to create temporary directory. The directory created by `T.TempDir` is automatically removed when the test and all its subtests complete. 
-
-This saves us at least 2 lines (error check, and cleanup) on every instance, or in some cases adds cleanup that we forgot.
-
-Reference: https://pkg.go.dev/testing#T.TempDir
-
-```go
-func TestFoo(t *testing.T) {
-	// before
-	tmpDir, err := ioutil.TempDir("", "")
-	require.NoError(t, err)
-	defer os.RemoveAll(tmpDir)
-
-	// now
-	tmpDir := t.TempDir()
-}
-```
+                Signed-off-by: Yoav Tock <tock@il.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-31 09:21:51 +0000 UTC
+        Created At 2023-01-12 12:26:57 +0000 UTC
     </div>
 </div>
 

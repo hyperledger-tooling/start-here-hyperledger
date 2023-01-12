@@ -14,6 +14,121 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3919" class=".btn">#3919</a>
+            </td>
+            <td>
+                <b>
+                    synchronize access to wal storage from chain and node
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Bug fix
+
+#### Description
+sychronized the access to raft/wal stroage from
+node ready loop and chain apply go routine
+
+#### Related issues
+#3903 
+
+Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-12 11:23:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3918" class=".btn">#3918</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: Remove system channel usage from integration tests: idemix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+#### Type of change
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Orderer v3: Remove system channel usage from integration tests: gossip
+#### Related issues
+
+Epic: #3511 
+Issue: #3515 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-12 11:07:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3917" class=".btn">#3917</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: Remove system channel usage from integration tests: gossip
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Orderer v3: Remove system channel usage from integration tests: gossip
+
+#### Additional details
+
+<!--- Additional implementation details or comments to reviewers. -->
+<!--- Summarize how the pull request was tested (if not obvious from commit). -->
+
+#### Related issues
+
+Epic: #3511 
+Issue: #3515 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-12 10:27:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3916" class=".btn">#3916</a>
             </td>
             <td>
@@ -43,43 +158,6 @@ Issue: #3515
     </table>
     <div class="right-align">
         Created At 2023-01-11 15:02:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3915" class=".btn">#3915</a>
-            </td>
-            <td>
-                <b>
-                    Orderer v3: remove system-channel usage from integration tests: devmode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-#### Type of change
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-Orderer v3: remove system-channel usage from integration tests: devmode
-
-#### Related issues
-
-Epic #3511 
-Issue: #3515 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-11 13:19:23 +0000 UTC
     </div>
 </div>
 
@@ -282,45 +360,6 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2023-01-09 17:40:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3905" class=".btn">#3905</a>
-            </td>
-            <td>
-                <b>
-                    Orderer v3: Remove system channel usage from integration tests: configtx
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-#### Type of change
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-Remove system channel usage from integration tests: configtx
-
-#### Related issues
-
-Epic:#3511
-Issue: #3515
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-09 15:13:35 +0000 UTC
     </div>
 </div>
 
