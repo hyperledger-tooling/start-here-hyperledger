@@ -14,6 +14,75 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3473" class=".btn">#3473</a>
+            </td>
+            <td>
+                <b>
+                    feat: SD-JWT Holder: Add Holder Binding
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The Holder MAY add an optional JWT to prove Holder Binding to the Verifier. Nonce and aud claims are included to show that the proof is intended for the Verifier.
+
+Closes #3470
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-11 22:55:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3472" class=".btn">#3472</a>
+            </td>
+            <td>
+                <b>
+                    feat: SD-JWT Issuer: Add Holder Public Key Claim (JWK)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                If the Issuer wants to enable Holder Binding, it MAY include a public key associated with the Holder, or a reference thereto.
+
+We use confirmation "cnf" claim to include raw public key by value in SD-JWT.
+
+In this first iteration of "cnf" claim we will use "jwk" confirmation method and include public key information in JWK format. Other confirmation methods such as "jwe", "kid" and "jku" may be implemented at later time (if required).
+
+Closes #3469 
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-11 18:57:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3468" class=".btn">#3468</a>
             </td>
             <td>

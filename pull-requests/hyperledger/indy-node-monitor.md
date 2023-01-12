@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node-monitor
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node-monitor/pull/46" class=".btn">#46</a>
+                PR <a href="https://github.com/hyperledger/indy-node-monitor/pull/51" class=".btn">#51</a>
             </td>
             <td>
                 <b>
-                    Integrate Monitoring Stack
+                    Major Visual and Organization changes.
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/indy-node-monitor
                 
             </td>
             <td>
-                Integrate the monitoring stack changes into the main branch.
+                To the top layer level and drill-down dashboards.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-09 15:35:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node-monitor/pull/45" class=".btn">#45</a>
-            </td>
-            <td>
-                <b>
-                    Monitoring stack
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Monitoring Stack Updates
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-11-07 22:29:49 +0000 UTC
+        Created At 2023-01-11 21:25:32 +0000 UTC
     </div>
 </div>
 

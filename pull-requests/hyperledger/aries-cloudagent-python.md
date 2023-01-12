@@ -191,29 +191,3 @@ Signed-off-by: Clément Humbert <clement.humbert@sicpa.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2066" class=".btn">#2066</a>
-            </td>
-            <td>
-                <b>
-                    Update github actions dependencies (for node16 support)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-04 20:15:08 +0000 UTC
-    </div>
-</div>
-
