@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3921" class=".btn">#3921</a>
+            </td>
+            <td>
+                <b>
+                    Test checks and doc (DO NOT MERGE)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Test checks and doc.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-13 15:33:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3920" class=".btn">#3920</a>
             </td>
             <td>
@@ -510,162 +538,6 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2023-01-06 22:29:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3900" class=".btn">#3900</a>
-            </td>
-            <td>
-                <b>
-                    Endorsement policies doc edited (backport #3890)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #3890 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-06 16:51:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3899" class=".btn">#3899</a>
-            </td>
-            <td>
-                <b>
-                    Improve gateway retry logic sending to orderers (backport #3897)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #3897 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-06 13:08:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3898" class=".btn">#3898</a>
-            </td>
-            <td>
-                <b>
-                    Improve gateway retry logic sending to orderers (backport #3897)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #3897 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-06 13:04:26 +0000 UTC
     </div>
 </div>
 

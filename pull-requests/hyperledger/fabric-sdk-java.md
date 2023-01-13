@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/250" class=".btn">#250</a>
+            </td>
+            <td>
+                <b>
+                    Update opentelemetry to 1.22.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Update to the latest existing opentelemetry version 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-13 16:36:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/249" class=".btn">#249</a>
             </td>
             <td>
