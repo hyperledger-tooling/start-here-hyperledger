@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1127" class=".btn">#1127</a>
+            </td>
+            <td>
+                <b>
+                    Update Rust version from workflows
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The test workflows are failing because clap does not support Rust 1.63 anymore, so I updated it to 1.64.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-13 18:05:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1126" class=".btn">#1126</a>
+            </td>
+            <td>
+                <b>
+                    Differentiate between caller contract and the constructor contract
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When invoking `call_constructor` we were passing the same contract number for both the caller contract and the contract being called.
+
+This fixes https://github.com/xermicus/fuzzy-sol/issues/118
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-13 17:33:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1125" class=".btn">#1125</a>
             </td>
             <td>
@@ -87,32 +141,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2023-01-07 10:46:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1122" class=".btn">#1122</a>
-            </td>
-            <td>
-                <b>
-                    More named expression enum names
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-06 15:49:15 +0000 UTC
     </div>
 </div>
 
