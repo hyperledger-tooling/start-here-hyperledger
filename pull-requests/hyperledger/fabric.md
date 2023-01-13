@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3920" class=".btn">#3920</a>
+            </td>
+            <td>
+                <b>
+                    Fix basic checks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A few recent PRs broke basic CI checks, this commits address linter and docs update issues.
+
+Signed-off-by: Artem Barger <artem@bargr.net>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-13 06:39:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3919" class=".btn">#3919</a>
             </td>
             <td>
