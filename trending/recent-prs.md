@@ -1,13 +1,13 @@
 
-[1127](https://github.com/hyperledger/solang/pull/1127) Update Rust version from workflows
+[4926](https://github.com/hyperledger/besu/pull/4926) Update 22.10.x
 
-[645](https://github.com/hyperledger/fabric-sdk-node/pull/645) Publish NPM packages and documentation using GitHub Actions (release-2.2)
+[4925](https://github.com/hyperledger/besu/pull/4925) Bonsai consistency check startup subcommand
 
-[1126](https://github.com/hyperledger/solang/pull/1126) Differentiate between caller contract and the constructor contract
+[3922](https://github.com/hyperledger/fabric/pull/3922) synchronize access to wal storage from chain and node (backport #3919)
 
-[121](https://github.com/hyperledger/indy-test-automation/pull/121) Add support for installing a properly named deb artifact
+[4924](https://github.com/hyperledger/besu/pull/4924) Optimization for eth_call use of blockHeader <> hash
 
-[373](https://github.com/hyperledger-labs/fablo/pull/373) Kubernetes: Set CA, orderer and peer versions from Fablo config
+[2077](https://github.com/hyperledger/aries-cloudagent-python/pull/2077) Issue #2068 boolean flag change
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/647" class=".btn">#647</a>
+            </td>
+            <td>
+                <b>
+                    Move build from Azure Pipelines to GitHub Actions (release-1.4)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-13 21:30:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/646" class=".btn">#646</a>
+            </td>
+            <td>
+                <b>
+                    Update build status badge in README
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Scheduled builds are now don in GitHub Actions, not Azure Pipelines.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-13 19:26:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/645" class=".btn">#645</a>
             </td>
             <td>
