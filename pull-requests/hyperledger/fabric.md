@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3922" class=".btn">#3922</a>
+            </td>
+            <td>
+                <b>
+                    synchronize access to wal storage from chain and node (backport #3919)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is an automatic backport of pull request #3919 done by [Mergify](https://mergify.com).
+
+
+---
+
+
+<details>
+<summary>Mergify commands and options</summary>
+
+<br />
+
+More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
+
+You can also trigger Mergify actions by commenting on this pull request:
+
+- `@Mergifyio refresh` will re-evaluate the rules
+- `@Mergifyio rebase` will rebase this PR on its base branch
+- `@Mergifyio update` will merge the base branch into this PR
+- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
+
+Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
+
+- look at your merge queues
+- generate the Mergify configuration with the config editor.
+
+Finally, you can contact us on https://mergify.com
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-13 23:00:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3921" class=".btn">#3921</a>
             </td>
             <td>
@@ -470,74 +522,6 @@ Finally, you can contact us on https://mergify.com
     </table>
     <div class="right-align">
         Created At 2023-01-09 03:06:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3902" class=".btn">#3902</a>
-            </td>
-            <td>
-                <b>
-                    Fix approve for my org to not endorse committed transaction
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When a chaincode is approved and committed, it means that it has been accepted and added to the network. However, it is still possible to approve the exact chaincode definition with the same sequence after it has been committed. This can lead to confusing behavior because the transaction is endorsed even though it will never be considered valid.
-
-This commit proposes a fix to prevent the endorsement of transactions that attempt to approve already committed chaincode definitions with the same sequence. By failing endorsement of these transactions, we can provide a better experience for end users. In addition, this will help to ensure that the chaincode approval process is more transparent and predictable for all parties involved.
-
-Signed-off-by: Artem Barger <artem@bargr.net>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-06 22:33:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3901" class=".btn">#3901</a>
-            </td>
-            <td>
-                <b>
-                    Add PurgedKeyAuditLogging config option
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add peer config option to log purged private data keys. Useful to audit that private data has been purged from a peer, however some users may want to disable the audit logging to prevent private data keys from appearing in peer logs, while preserving the other pvtdatastorage log messages.
-
-Sample log entry:
-```
-INFO [pvtdatastorage] process -> Purging private data from private data storage channel=mychannel chaincode=private collection=Org1MSPPrivateCollection key=assetp5 blockNum=12 tranNum=0
-INFO [pvtdatastorage] process -> Purging private data from private data storage channel=mychannel chaincode=private collection=Org1MSPPrivateCollection key=assetp5 blockNum=13 tranNum=0
-INFO [pvtdatastorage] process -> Purging private data from private data storage channel=mychannel chaincode=private collection=assetCollection key=assetp5 blockNum=12 tranNum=0
-INFO [pvtdatastorage] process -> Purging private data from private data storage channel=mychannel chaincode=private collection=assetCollection key=assetp5 blockNum=13 tranNum=0
-
-INFO [pvtdatastorage] deleteDataMarkedForPurge -> Purged private data from private data storage channel=mychannel numKeysPurged=2 numPrivateDataStoreRecordsPurged=4
-```
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-06 22:29:08 +0000 UTC
     </div>
 </div>
 

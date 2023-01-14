@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1625" class=".btn">#1625</a>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1626" class=".btn">#1626</a>
             </td>
             <td>
                 <b>
-                    docs: clarify fabric source
+                    fixed correct checkout version & tags fetch
                 </b>
             </td>
         </tr>
@@ -27,16 +27,14 @@ permalink: /pull-requests/hyperledger/indy-plenum
                 
             </td>
             <td>
-                As someone first coming to this repo I wasn't familiar with which `fabric` this referred to. Hopefully this clarifies it.
+                - Following fix made here; https://github.com/sovrin-foundation/sovrin/pull/315
 
-Signed-off-by: Matt Mankins <mankins@gmail.com>
-
-
+Signed-off-by: Wade Barnes <wade@neoterictech.ca>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-30 11:42:59 +0000 UTC
+        Created At 2023-01-13 19:07:24 +0000 UTC
     </div>
 </div>
 

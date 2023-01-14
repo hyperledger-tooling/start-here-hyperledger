@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1790" class=".btn">#1790</a>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1793" class=".btn">#1793</a>
             </td>
             <td>
                 <b>
-                    pinned gitpod base image
+                    fixed correct checkout version & tags fetch
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/indy-node
                 
             </td>
             <td>
-                Signed-off-by: pSchlarb <p.schlarb@esatus.com>
+                - Following fix made here; https://github.com/sovrin-foundation/sovrin/pull/315
+
+Signed-off-by: Wade Barnes <wade@neoterictech.ca>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-13 15:13:41 +0000 UTC
+        Created At 2023-01-13 19:14:06 +0000 UTC
     </div>
 </div>
 
