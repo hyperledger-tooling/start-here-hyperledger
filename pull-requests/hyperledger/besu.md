@@ -14,6 +14,57 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4927" class=".btn">#4927</a>
+            </td>
+            <td>
+                <b>
+                    Cherry pick burn-in release 22.10.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Cherry picks include:
+
+* b4e2cdb82 2022-12-21 | Use safe block as pivot block suring snapsync (#4819) [matkt]
+* 418d392fa 2022-12-22 | Bugfix snapshot transaction segfaults after storage truncation (#4786) [garyschulte]
+* adb76c597 2022-12-23 | Bugfix potential chain head and worldstate inconsistency (#4862) [garyschulte]
+* 33ee2bba6 2023-01-08 | Peering - disconnect worst peer (#4888) [Sally MacFarlane]
+* b4d5e9d27 2023-01-11 | Attempt to fix CPU spikes issue (#4867) [ahamlat]
+* bc4f9e7a7 2023-01-12 | not block subscribe when the worldstate storage is open (#4912) [matkt]
+* a5e3ed4f4 2023-01-13 | Address bonsai self-destruct stale code present  (#4906) (HEAD -> cherry-pick-22.10.4, 
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-14 01:16:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4926" class=".btn">#4926</a>
             </td>
             <td>
