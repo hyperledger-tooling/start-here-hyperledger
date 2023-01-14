@@ -240,31 +240,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/325" class=".btn">#325</a>
-            </td>
-            <td>
-                <b>
-                    Use github forms for issue templates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Aditya Joshi <adityaprakashjoshi1@gmail.com>
-
-Added gitHub forms for bugs and enhancement issues
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-07 05:40:03 +0000 UTC
-    </div>
-</div>
-
