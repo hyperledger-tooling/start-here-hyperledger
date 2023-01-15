@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/152" class=".btn">#152</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/154" class=".btn">#154</a>
             </td>
             <td>
                 <b>
-                    getUser return ACL
+                    Expose API to get the TX content
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
                 
             </td>
             <td>
-                Signed-off-by: May Rosenbaum <mayro1595@gmail.com>
+                Signed-off-by: Yoav Tock <tock@il.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-04 14:41:26 +0000 UTC
+        Created At 2023-01-15 13:38:49 +0000 UTC
     </div>
 </div>
 

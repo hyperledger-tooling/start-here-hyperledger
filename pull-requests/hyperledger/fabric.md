@@ -207,34 +207,6 @@ Finally, you can contact us on https://mergify.com
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3921" class=".btn">#3921</a>
-            </td>
-            <td>
-                <b>
-                    Test checks and doc (DO NOT MERGE)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Test checks and doc.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-13 15:33:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3920" class=".btn">#3920</a>
             </td>
             <td>
