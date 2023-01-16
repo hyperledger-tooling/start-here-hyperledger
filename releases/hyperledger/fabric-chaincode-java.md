@@ -37,7 +37,7 @@ permalink: /releases/hyperledger/fabric-chaincode-java
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-01-13 13:56:43 +0000 UTC
+        Created At 2023-01-16 09:35:37 +0000 UTC
     </span>
 </div>
 
