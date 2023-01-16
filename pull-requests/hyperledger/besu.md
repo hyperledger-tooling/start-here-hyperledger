@@ -14,6 +14,51 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4905" class=".btn">#4905</a>
+            </td>
+            <td>
+                <b>
+                    Ibft1 deprecation warning
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Add IBFT1 deprecation warning.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fix #4851
+related to #4839
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-11 03:02:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4903" class=".btn">#4903</a>
             </td>
             <td>
@@ -377,50 +422,6 @@ Add withdrawals type with rlp encoding and decoding
     </table>
     <div class="right-align">
         Created At 2023-01-09 03:01:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4890" class=".btn">#4890</a>
-            </td>
-            <td>
-                <b>
-                    Implement engine_forkchoiceUpdated Withdrawals validation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span><span class="chip">mainnet</span><span class="chip">EIP</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Spec: https://github.com/ethereum/execution-apis/blob/main/src/engine/shanghai.md
-
-In order to avoid maintaining two versions of forkchoiceUpdated as much as possible, the validation works for both V1 and V2.
-
-The JSON deserialization allows for withdrawals to be omitted which supports V1 requests, however if shanghai is enabled then we will expect withdrawals in a V1 request. I think it would be a bug for a CL to send V1 with null withdrawals if the payload attributes had a post-shanghai timestamp.
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-Part of #4776 
-
-Follows on from https://github.com/hyperledger/besu/pull/4876
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-08 22:53:41 +0000 UTC
     </div>
 </div>
 
