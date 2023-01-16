@@ -14,6 +14,85 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3931" class=".btn">#3931</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: Remove system channel usage from integration tests: lifecycle
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+Orderer v3: Remove system channel usage from integration tests: lifecycle
+
+#### Related issues
+
+<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
+
+<!---
+#### Release Note
+
+Epic: #3511
+Issue: #3515
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-16 15:22:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3930" class=".btn">#3930</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: Remove system channel usage from integration tests: ledger
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+Orderer v3: Remove system channel usage from integration tests: ledger
+
+
+#### Related issues
+
+Epic: #3511
+Issue: #3515
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-16 13:27:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3929" class=".btn">#3929</a>
             </td>
             <td>
@@ -595,35 +674,6 @@ This PR avoids keep trying behavior for fetching private data during block commi
     </table>
     <div class="right-align">
         Created At 2023-01-09 23:56:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3906" class=".btn">#3906</a>
-            </td>
-            <td>
-                <b>
-                    [WIP] Update purge private data integration tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add scenario1 from #3858
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-09 17:40:57 +0000 UTC
     </div>
 </div>
 
