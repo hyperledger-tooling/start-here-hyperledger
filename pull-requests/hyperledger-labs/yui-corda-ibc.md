@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/51" class=".btn">#51</a>
+            </td>
+            <td>
+                <b>
+                    support pluggable light clients
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                close #46 
+
+Signed-off-by: Masanori Yoshida <masanori.yoshida@datachain.jp>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-16 06:37:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/50" class=".btn">#50</a>
             </td>
             <td>

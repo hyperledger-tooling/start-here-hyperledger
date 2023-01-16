@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3929" class=".btn">#3929</a>
+            </td>
+            <td>
+                <b>
+                    Support for Couchdb JWT Authentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added support for couchdb JWT Authentatication via RSA256 algorithm.
+
+Signed-off-by: Aviral Agrawal <aviral.agrawal@dltlabs.io>
+
+#### Type of change
+
+- New feature
+
+#### Description
+
+Added support for token based JWT authentication supported in Couchdb by generating JWT token using RSA256 algorithm. 
+
+#### Related issues
+
+https://github.com/hyperledger/fabric/issues/3317
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-16 08:03:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3925" class=".btn">#3925</a>
             </td>
             <td>
