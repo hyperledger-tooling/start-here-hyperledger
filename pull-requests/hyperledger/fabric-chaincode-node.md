@@ -67,33 +67,3 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/369" class=".btn">#369</a>
-            </td>
-            <td>
-                <b>
-                    Fix the chaincode builds
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR addresses a regression introduced in grpc-js:1.8.2, pinning the dependency to 1.8.1.
-
-Previously the fabric-shim had a loose dependency on `^1.4.1`, which caused errors when the grpc-js runtime was updated with [this PR](https://github.com/grpc/grpc-node/pull/2316) 
-
-Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-10 15:19:37 +0000 UTC
-    </div>
-</div>
-

@@ -172,35 +172,3 @@ I've confirmed that the `connection_id` is valid for the sub-wallet.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2071" class=".btn">#2071</a>
-            </td>
-            <td>
-                <b>
-                    Improved validation of record attributes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                We ran into the issue that our generated client would throw an exception whenever a CredExRecord was deleted. The reason was the record's state parameter being set to "deleted" - a value which is not in the set of allowed values as per the swagger definition.
-
-Changes:
-- `STATE_DELETED` attribute added to BaseRecord
-- added a function which lists the values of all attributes that start with a common prefix (e.g. `"STATE_"`), optionally including inherited attributes. The resulting list can be used for validation.
-
-I took the occasion to clean up validation a bit (conn-, cred_ex- and pres_ex_records) and add it where it was missing (OobRecord).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-10 13:50:48 +0000 UTC
-    </div>
-</div>
-

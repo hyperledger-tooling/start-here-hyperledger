@@ -158,29 +158,3 @@ The tests will only work after #1127 is merged.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1124" class=".btn">#1124</a>
-            </td>
-            <td>
-                <b>
-                    Use match statements for comparison chains
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Lucas Steuernagel <lucas.tnagel@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-10 17:13:56 +0000 UTC
-    </div>
-</div>
-
