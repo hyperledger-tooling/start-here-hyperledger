@@ -1,13 +1,13 @@
 
-[4950](https://github.com/hyperledger/besu/pull/4950) reduce hash address computation
+[137](https://github.com/hyperledger/fabric-gateway-java/pull/137) Migrate build to GitHub Actions (release-1.4)
 
-[4949](https://github.com/hyperledger/besu/pull/4949) Uniform the setting of init code size limit
+[217](https://github.com/hyperledger/ursa/pull/217) fix(wasm): compilable and updated some of the bindings
 
-[15](https://github.com/hyperledger-labs/cckit/pull/15) After TransferLock unlock token
+[136](https://github.com/hyperledger/fabric-gateway-java/pull/136) Include release-2.2 in GitHub Actions scheduled builds
 
-[289](https://github.com/hyperledger/fabric-chaincode-java/pull/289) Improve the workflows
+[135](https://github.com/hyperledger/fabric-gateway-java/pull/135) Migrate build to GitHub Actions (release-2.2)
 
-[4948](https://github.com/hyperledger/besu/pull/4948) Fix TOML parsing of double and float values
+[134](https://github.com/hyperledger/fabric-gateway-java/pull/134) Migrate build to GitHub Actions
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

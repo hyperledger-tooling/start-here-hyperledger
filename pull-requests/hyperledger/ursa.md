@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/ursa
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/ursa/pull/216" class=".btn">#216</a>
+                PR <a href="https://github.com/hyperledger/ursa/pull/217" class=".btn">#217</a>
             </td>
             <td>
                 <b>
-                    Added Github Actions pipeline
+                    fix(wasm): compilable and updated some of the bindings
                 </b>
             </td>
         </tr>
@@ -27,23 +27,61 @@ permalink: /pull-requests/hyperledger/ursa
                 
             </td>
             <td>
-                - Runs a CI pipeline for incoming PRs and merges to main.
-  - audit
-  - build
-  - check
-  - clippy
-  - docs
-  - format
-  - tests
-- Removed some files that I assumed are not used (please give this a careful review as I am not fully aware of the history of these files).
-- Does not include the release to crates.io just yet.
-- Moved the `ursa_` packages to an Ursa folder to keep the root a bit cleaner. They kept the `ursa_` prefix as we might want to release them as seperate packages, although some of them are empty.
+                Did some local testing and ed25519sha512 and bls seem to work.
 
+
+```typescript
+import { Ed25519Sha512 } from "ursa";
+import assert from "assert";
+
+// Test vectors from ursa/libursa/src/signatures/ed25519.rs
+
+const message = new TextEncoder().encode(
+  "This is a dummy message for use with tests"
+);
+
+const signature = Buffer.from(
+  "451b5b8e8725321541954997781de51f4142e4a56bab68d24f6a6b92615de5eefb74134138315859a32c7cf5fe5a488bc545e2e08e5eedfd1fb10188d532d808",
+  "hex"
+);
+
+const publicKey = Buffer.from(
+  "27c96646f2d4632d4fc241f84cbc427fbc3ecaa95becba55088d6c7b81fc5bbf",
+  "hex"
+);
+
+assert(Ed25519Sha512.verify(message, signature, publicKey));
+```
+
+bls has some issues, maybe intentional, with dropping values (see g1 and g2).
+```typescript
+import assert from "assert";
+import { Bls, Generator, SignKey, VerKey } from "ursa";
+
+const msg = new Uint8Array([1, 1, 1]);
+
+const seed = new Uint8Array(32);
+const b = new Generator().toBytes();
+
+// Creating of the same two generators as `Bls.sign` drops one and `Bls.verify` as well.
+const g1 = Generator.fromBytes(b);
+const g2 = Generator.fromBytes(b);
+
+const signKey = SignKey.fromSeed(seed);
+const signKey2 = SignKey.fromSeed(seed);
+
+const verKey = new VerKey(g1, signKey);
+const signature = Bls.sign(msg, signKey2);
+
+assert(Bls.verify(msg, signature, verKey, g2));
+```
+
+Signed-off-by: blu3beri <blu3beri@proton.me>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-24 19:06:59 +0000 UTC
+        Created At 2023-01-17 18:08:29 +0000 UTC
     </div>
 </div>
 
