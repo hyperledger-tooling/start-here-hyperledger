@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1130" class=".btn">#1130</a>
+            </td>
+            <td>
+                <b>
+                    Refactor language server
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Make the language server use a builder-style interface. Now, there is no need to pass the list of hovers around as a function argument.
+
+This fixes the hover for destructure statements with variable definition, `a` in this example.
+
+```solidity
+contract c {
+	function f() public {
+		(int64 a) = (2);
+	}
+}
+```
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-15 10:13:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1128" class=".btn">#1128</a>
             </td>
             <td>

@@ -614,32 +614,3 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3909" class=".btn">#3909</a>
-            </td>
-            <td>
-                <b>
-                    Rename ThreeOrgRaft nwo standard networks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The name has changed in the main branch as a result of hyperledger#3643 and hyperledger#3853, and this rename should make it easier to backport PRs with mergify
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-10 11:07:38 +0000 UTC
-    </div>
-</div>
-

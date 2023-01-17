@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/298" class=".btn">#298</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/300" class=".btn">#300</a>
             </td>
             <td>
                 <b>
-                    burn other user asset test
+                    fix "bind: address already in use"
                 </b>
             </td>
         </tr>
@@ -27,12 +27,41 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                <nil>
+                - findFreePorts function fixed by adding socket timeout (to not use port after all tests are done)
+- containers initialize before anything (need to make `containers` property initialized in IrohaTest earlier the `@BeforeEach` method called)
+
+Signed-off-by: akostiucenko <kostiuchenko@soramitsu.co.jp>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-22 10:17:30 +0000 UTC
+        Created At 2023-01-16 15:10:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/299" class=".btn">#299</a>
+            </td>
+            <td>
+                <b>
+                    move network initialization to IrohaTest class
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: akostiucenko <kostiuchenko@soramitsu.co.jp>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-16 12:39:21 +0000 UTC
     </div>
 </div>
 

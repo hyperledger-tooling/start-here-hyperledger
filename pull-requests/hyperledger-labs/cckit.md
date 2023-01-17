@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/cckit
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/cckit/pull/13" class=".btn">#13</a>
+                PR <a href="https://github.com/hyperledger-labs/cckit/pull/15" class=".btn">#15</a>
             </td>
             <td>
                 <b>
-                    BigInt message for amounts
+                    After TransferLock unlock token
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/cckit
                 
             </td>
             <td>
-                Signed-off-by: Viktor Nosov <v.nosov@atomyze.team>
+                Signed-off-by: olaeseane <olaesean@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-21 12:03:52 +0000 UTC
+        Created At 2023-01-17 10:19:58 +0000 UTC
     </div>
 </div>
 
