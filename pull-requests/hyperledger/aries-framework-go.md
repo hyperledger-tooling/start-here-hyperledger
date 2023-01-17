@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3477" class=".btn">#3477</a>
+            </td>
+            <td>
+                <b>
+                    chore: Rename DisclosureSeparator to CombinedFormatSeparator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Clean-up task:
+
+- rename DisclosureSeparator to CombinedFormatSeparator
+- move issuer Payload struct from common to issuer package
+
+Closes #3476
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-16 18:12:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3475" class=".btn">#3475</a>
             </td>
             <td>
@@ -146,64 +181,6 @@ Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
     </table>
     <div class="right-align">
         Created At 2023-01-10 20:53:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3466" class=".btn">#3466</a>
-            </td>
-            <td>
-                <b>
-                    feat: Add decoy digests to SD-JWT
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add decoy digests to SD-JWT (if enabled)
-
-Closes #3463
-
-Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-09 18:27:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3465" class=".btn">#3465</a>
-            </td>
-            <td>
-                <b>
-                    fix: disable JSON-LD validation on JWT credentials
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-09 15:50:26 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,87 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/289" class=".btn">#289</a>
+            </td>
+            <td>
+                <b>
+                    Improve the workflows
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - dedicated pr workflow
+- dedicated release workflow
+
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-17 09:41:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/288" class=".btn">#288</a>
+            </td>
+            <td>
+                <b>
+                    Correct credentials
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-16 09:18:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/287" class=".btn">#287</a>
+            </td>
+            <td>
+                <b>
+                    Add the GitHub Packages releases step
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-16 09:16:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/286" class=".btn">#286</a>
             </td>
             <td>
@@ -167,72 +248,6 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2023-01-13 08:56:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/277" class=".btn">#277</a>
-            </td>
-            <td>
-                <b>
-                    Integration test overhaul
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                PR to resolve issues with the integration tests failing; slightly larger PR than ideal for the scale of the fix. However the original infrastructure used for the integration tests was a derivative of the (very) old byfn test network - and it was using old lifecycle and not updated in any recent time.
-
-Therefore it seemed a manageable risk to remove it entirely and go with the modern solution of pulling in the single docker image of Microfab to use to spin up a real fabric network for testing. 
-
-- additional tests are done with other deployments of Fabric in the fabric-tests repo
-- microfab has all the features needed to support the 'integration/fv' testing of the chaincode, and is in one container
-
-**Changes made:**
-- Strand up Microfab rather than the multiple images
-- Use a standard two org network as before (one peer per org so simpler than previously)
-- The chaincode is built into a local repo inside each chaincode for testing
-- The same tests are present with the same structure, minor changes made to support a slightly different approach 
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-10 12:10:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/276" class=".btn">#276</a>
-            </td>
-            <td>
-                <b>
-                    Update to fixed level of dependency checker
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-09 09:12:26 +0000 UTC
     </div>
 </div>
 
