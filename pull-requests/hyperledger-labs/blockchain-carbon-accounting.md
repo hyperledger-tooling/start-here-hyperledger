@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/660" class=".btn">#660</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/662" class=".btn">#662</a>
             </td>
             <td>
                 <b>
-                    Use tx.origin as issuedFrom address of tracker tokenTypedId=1
+                    Update README.md
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
                 
             </td>
             <td>
-                Signed-off-by: brioux <Bertrand.rioux@gmail.com>
+                Signed-off-by: Bertrand Rioux <Bertrand.rioux@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-09 04:05:36 +0000 UTC
+        Created At 2023-01-16 18:39:03 +0000 UTC
     </div>
 </div>
 
