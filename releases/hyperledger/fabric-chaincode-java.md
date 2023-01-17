@@ -28,8 +28,8 @@ permalink: /releases/hyperledger/fabric-chaincode-java
             <td>
                 This is the LTS Release of the v2.5 Fabric Chaincode Java. It replaces the previous v2.2 LTS.
 
-- the default `JavaEnv` docker image has been moved to use the Eclipse Temurin Java 11 JDK
-- the PurgePrivateData feature is exposed via a new `PurgePrivateData` API 
+the default JavaEnv docker image has been moved to use the Eclipse Temurin Java 11 JDK
+the PurgePrivateData feature is exposed via a new PurgePrivateData API
             </td>
         </tr>
     </table>
@@ -37,7 +37,7 @@ permalink: /releases/hyperledger/fabric-chaincode-java
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-01-16 09:35:37 +0000 UTC
+        Created At 2023-01-17 13:16:07 +0000 UTC
     </span>
 </div>
 
