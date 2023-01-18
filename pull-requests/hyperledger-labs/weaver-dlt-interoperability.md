@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/361" class=".btn">#361</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/365" class=".btn">#365</a>
             </td>
             <td>
                 <b>
-                    Tutorial updates, and RFC, bug and package version fixes
+                    Fix node pkgs deploy workflow and update jsrsasign package
                 </b>
             </td>
         </tr>
@@ -27,15 +27,13 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                - Edited the Weaver Enablement for Fabric tutorial page, adding more context and providing explicit instructions to enable TLS among connections across relays, drivers, and IIN Agents (partly fixing #257 )
-- Fixed bad links in various RFCs.
-- Fixed data sharing workflow bug.
-- Updated some Go module package dependencies to latest versions.
+                Closes #363 
+Signed-off-by: sandeep.nishad1 <sandeep.nishad1@ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-08 20:50:10 +0000 UTC
+        Created At 2023-01-18 08:38:05 +0000 UTC
     </div>
 </div>
 

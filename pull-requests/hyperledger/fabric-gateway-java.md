@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/138" class=".btn">#138</a>
+            </td>
+            <td>
+                <b>
+                    Use specific auth token for JavaDoc publishing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-18 12:11:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/137" class=".btn">#137</a>
             </td>
             <td>
@@ -111,36 +137,6 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     </table>
     <div class="right-align">
         Created At 2023-01-17 15:48:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/133" class=".btn">#133</a>
-            </td>
-            <td>
-                <b>
-                    Update Java dependency-check version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves an issue that prevented dependency-check running due to long CVE content.
-
-Also suppress two false positives for SnakeYaml triggered by go-yaml CVEs.
-
-(Cherry-pick of b959a1db01a6365bf8b579b80143a194deef64a0 from main branch).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-11 10:40:31 +0000 UTC
     </div>
 </div>
 

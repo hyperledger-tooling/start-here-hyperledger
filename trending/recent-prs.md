@@ -1,13 +1,13 @@
 
-[4954](https://github.com/hyperledger/besu/pull/4954) Fix npe from subcommands
+[138](https://github.com/hyperledger/fabric-gateway-java/pull/138) Use specific auth token for JavaDoc publishing
 
-[4953](https://github.com/hyperledger/besu/pull/4953) engine_getPayloadV2 Withdrawals
+[652](https://github.com/hyperledger/fabric-sdk-node/pull/652) Scheduled vulnerability scan
 
-[391](https://github.com/hyperledger-labs/private-data-objects/pull/391) Fix build in HW mode
+[908](https://github.com/hyperledger/fabric-samples/pull/908) Swap to use the Helper Function to create policies
 
-[3480](https://github.com/hyperledger/aries-framework-go/pull/3480) chore: Create SD-JWT without signature
+[907](https://github.com/hyperledger/fabric-samples/pull/907) Swap to use the Helper Function to create policies
 
-[906](https://github.com/hyperledger/fabric-samples/pull/906) run test suites with 2.5 binaries and images
+[122](https://github.com/hyperledger/indy-test-automation/pull/122) Migrate conftest.py to indy-vdr
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
