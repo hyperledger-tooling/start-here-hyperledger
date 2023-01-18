@@ -129,7 +129,7 @@ This PR fixes the regression introduced recently.
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
-Fixes item 7 of the ForkChoiceUpdate_V1 of the Engine API specs for Paris. (https://github.com/ethereum/execution-apis/blob/main/src/engine/paris.md)
+Makes Besu compliant with ForkChoiceUpdate_V1 - item 7 of the Engine API specs for Paris. (https://github.com/ethereum/execution-apis/blob/main/src/engine/paris.md)
 
 ## Documentation
 
@@ -161,7 +161,7 @@ Fixes item 7 of the ForkChoiceUpdate_V1 of the Engine API specs for Paris. (http
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span><span class="chip">mainnet</span><span class="chip">EIP</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->

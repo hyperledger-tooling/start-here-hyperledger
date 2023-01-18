@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3480" class=".btn">#3480</a>
+            </td>
+            <td>
+                <b>
+                    chore: Create SD-JWT without signature
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add test for creating SD-JWT without signature.
+
+Closes #3479
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-17 21:03:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3477" class=".btn">#3477</a>
             </td>
             <td>
@@ -143,44 +176,6 @@ Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
     </table>
     <div class="right-align">
         Created At 2023-01-11 18:57:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3468" class=".btn">#3468</a>
-            </td>
-            <td>
-                <b>
-                    fix: Presentation Without Holder Binding should end with ~
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix: Presentation Without Holder Binding should end with ~
-
-Also, rename SDJWT to CombinedPresentation and JWTSerialized to SDJWT to follow spec terms.
-
-And add parsing and serializing of combined presentation parts with holder binding. 
-
-Holder Binding functionality will be added in separate PRs. 
-
-Closes #3467
-
-Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-10 20:53:54 +0000 UTC
     </div>
 </div>
 
