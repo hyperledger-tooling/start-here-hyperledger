@@ -1,13 +1,13 @@
 
+[common/protos-go/v1.5.7](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/common/protos-go/v1.5.7) v1.5.7 - GO Weaver Protos - Jan 18, 2023
+
+[core/network/fabric-interop-cc/interfaces/asset-mgmt/v1.5.7](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/interfaces/asset-mgmt/v1.5.7) v1.5.7 - GO Fabric Asset Management Interface - Jan 18, 2023
+
+[core/network/fabric-interop-cc/libs/assetexchange/v1.5.7](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/libs/assetexchange/v1.5.7) v1.5.7 - GO Fabric Library for Asset Exchange - Jan 18, 2023
+
 [v2.5.0](https://github.com/hyperledger/fabric-chaincode-java/releases/tag/v2.5.0) v2.5.0 Java Chaincode
 
 [v1.2.5](https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.2.5) v1.2.5
-
-[v1.1.4](https://github.com/hyperledger/firefly-sandbox/releases/tag/v1.1.4) v1.1.4
-
-[v0.4.0-dev.1](https://github.com/hyperledger/indy-vdr/releases/tag/v0.4.0-dev.1) v0.4.0-dev.1
-
-[v1.2.1](https://github.com/hyperledger/firefly-common/releases/tag/v1.2.1) v1.2.1
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
