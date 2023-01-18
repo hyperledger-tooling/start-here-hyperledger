@@ -62,31 +62,3 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2076" class=".btn">#2076</a>
-            </td>
-            <td>
-                <b>
-                    Docker images and GHA for publishing images
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">help wanted</span>
-            </td>
-            <td>
-                This PR is a reopening of #1888 and still contains some of the issues discussed on that PR. If someone wants to tackle some of those issues (whether actually using this branch or just taking inspiration -- either way is fine with me!), I'd be happy to see this fixed up and working.
-
-cc @WadeBarnes @swcurran 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-11 15:55:26 +0000 UTC
-    </div>
-</div>
-
