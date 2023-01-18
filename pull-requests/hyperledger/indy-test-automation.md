@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-test-automation
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/122" class=".btn">#122</a>
+            </td>
+            <td>
+                <b>
+                    Migrate conftest.py to indy-vdr
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-18 09:23:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-test-automation/pull/121" class=".btn">#121</a>
             </td>
             <td>

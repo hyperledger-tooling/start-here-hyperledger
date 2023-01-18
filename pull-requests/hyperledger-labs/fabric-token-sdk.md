@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/448" class=".btn">#448</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/450" class=".btn">#450</a>
             </td>
             <td>
                 <b>
-                    ZKATDLOG: Improved VaultTokenCommitmentLoader
+                    wallet registry: metadata support
                 </b>
             </td>
         </tr>
@@ -27,16 +27,13 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 <span class="chip">enhancement</span>
             </td>
             <td>
-                The current loader fails if the commitment of a given token does not exists, but it might be that the corresponding transaction is still pending. This means that the commit pipeline hasn't had time to process the transaction yet.
-
-This PR improves the loader by adding the possibility to retry after some time. 
-
-Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+                This PR let the developers store additional metadata in the wallet registry for a given identity.
+The PR introduces also a callback when registering the auditor in the integration tests and sample.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-05 15:55:30 +0000 UTC
+        Created At 2023-01-18 06:50:26 +0000 UTC
     </div>
 </div>
 

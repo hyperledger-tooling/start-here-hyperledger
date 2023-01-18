@@ -14,6 +14,79 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4956" class=".btn">#4956</a>
+            </td>
+            <td>
+                <b>
+                    Add wcgcyx as maintainer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Proposing @wcgcyx as a new Besu maintainer. They have made over 5 significant [commits](https://github.com/hyperledger/besu/pulls?q=is%3Apr+author%3Awcgcyx+is%3Aclosed) that have improved the quality of Besu and/or added new features.
+
+Voting ends 2 weeks from the publication of this PR or once more than 50% of the current maintainers approve.
+
+For more information on this process see the Becoming a Maintainer section in the MAINTAINERS.md file.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-18 07:27:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4955" class=".btn">#4955</a>
+            </td>
+            <td>
+                <b>
+                    Change BlockBody to use an overloaded constructor with withdrawals
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Change BlockBody to use an overloaded constructor with withdrawals instead having a mandatory `Optional<List<Withdrawals>>` as withdrawals are only required for ethereum mainnet.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-18 06:26:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4954" class=".btn">#4954</a>
             </td>
             <td>
@@ -78,6 +151,8 @@ This fixes the NPE from some of the engine-api hive test that call the importBlo
 Return withdrawals to engine_getPayloadV2, if they exist (implying it's a Shanghai block)
 
 Spec: https://github.com/ethereum/execution-apis/blob/main/src/engine/shanghai.md#response-2
+
+Also small unrelated fix to BlockReplay for Shanghai
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->

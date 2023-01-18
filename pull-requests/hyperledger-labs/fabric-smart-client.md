@@ -14,25 +14,26 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/444" class=".btn">#444</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/445" class=".btn">#445</a>
             </td>
             <td>
                 <b>
-                    delete the key is the value is set to nil
+                    customise fabric driver
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">improvement</span>
+                <span class="chip">enhancement</span>
             </td>
             <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+                This PR allows developers to choose which Fabric driver to use. The driver name can be specified in the configuration file.
+In addition, the PR adds util methods to the RWSet to get back the list of written keys.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-16 12:44:30 +0000 UTC
+        Created At 2023-01-18 06:50:06 +0000 UTC
     </div>
 </div>
 
