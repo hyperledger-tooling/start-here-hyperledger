@@ -14,33 +14,34 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/390" class=".btn">#390</a>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/391" class=".btn">#391</a>
             </td>
             <td>
                 <b>
-                    Various updates to make multi-user contracts work
+                    Fix build in HW mode
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">enhancement</span>
+                
             </td>
             <td>
-                This PR includes a number of fixes that make it easier for users on different clients to share access to contracts. 
+                This PR fixes an issue in the build in HW mode.
 
-First, it introduces the configuration of a persistent storage service that is identified in the extra data (this is a hint, not a guarantee) in the contract file. The persistent storage service is a service where the current state of the contract is likely to exist (and persistent indefinitely).
+The issue is due to missing target dependencies in the pservice build.
+When the `build` target triggers the cmake, the `contract_enclave_mrenclave.cpp` file (part of the `ENCLAVE_FILES` target) must be available, as the cmake checks for that.
+However, there is no dependency between the two targets.
 
-Second, to allow storage services that are not associated with an eservice (e.g. to make a persistent storage service that has a policy for maintaining state that is not the same as the short term caches generally used by the storage services attached to an eservice), make the replication manager work with storage services NOT eservices. 
+Curiously, this issue seems to have been uncovered by unintentionally making the build single-task.
+So far, apparently, the `make all` triggered both targets in parallel in the right order.
 
-Third, since we long ago removed the need for uploading contract code on every transaction (since the code is stored in the contract state), the code is removed from the contract save file. This makes the save files a LOT smaller (especially with wawaka code) and reasonable to package in an email & send to someone. The contract code hash is included to verify that the code used matches the code expected. 
-
-Finally, the PDO documentation is lacking. This PR will not fix that. However, some additional documentation was added to help interpret the process for building wawaka contracts. This is a start, not the end.
+Signed-off-by: Bruno Vavala <bruno.vavala@intel.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-06 19:21:58 +0000 UTC
+        Created At 2023-01-18 01:04:02 +0000 UTC
     </div>
 </div>
 
