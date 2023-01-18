@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/140" class=".btn">#140</a>
+            </td>
+            <td>
+                <b>
+                    Use specific auth token for JavaDoc publishing (release-1.4)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-18 13:15:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/139" class=".btn">#139</a>
+            </td>
+            <td>
+                <b>
+                    Use specific auth token for JavaDoc publishing (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-18 13:14:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/138" class=".btn">#138</a>
             </td>
             <td>

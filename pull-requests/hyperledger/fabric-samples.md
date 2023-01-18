@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/909" class=".btn">#909</a>
+            </td>
+            <td>
+                <b>
+                    Scrub an annoying lint warning - print FSAT TODO to the console
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR logs the Full Stack *workshop coding exercise* to the console, instead of leaving code hints in a commented-out TODO block.  Logging the TODOs to the console has two benefits: 
+
+- Removes an annoying lint warning for unused variables.
+- Displays a useful message to the console, explaining why Bananaman can not transfer a token to Appleman.   (In some cases of users running through the workshop, it was not clear that there was work to be done to implement this one-line function.)
+
+Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-18 16:15:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/908" class=".btn">#908</a>
             </td>
             <td>

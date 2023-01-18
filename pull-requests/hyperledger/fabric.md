@@ -14,6 +14,116 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3934" class=".btn">#3934</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: Remove system channel usage from integration tests: pluggable, sbe
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+#### Type of change
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+Orderer v3: Remove system channel usage from integration tests: pluggable, sbe
+
+#### Related issues
+
+Epic: #3511
+Issue: #3515
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-18 14:39:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3933" class=".btn">#3933</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: Remove system channel usage from integration tests: pkcs11
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Orderer v3: Remove system channel usage from integration tests: pkcs11
+
+#### Related issues
+
+Epic: #3511
+Issue: #3515
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-18 14:16:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3932" class=".btn">#3932</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: Remove system channel usage from integration tests: msp
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+#### Type of change
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Orderer v3: Remove system channel usage from integration tests: msp
+
+#### Related issues
+
+Epic: #3511
+Issue: #3515
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-18 13:35:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3931" class=".btn">#3931</a>
             </td>
             <td>
@@ -35,11 +145,6 @@ permalink: /pull-requests/hyperledger/fabric
 Orderer v3: Remove system channel usage from integration tests: lifecycle
 
 #### Related issues
-
-<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
-
-<!---
-#### Release Note
 
 Epic: #3511
 Issue: #3515
@@ -465,94 +570,6 @@ Issue: #3515
     </table>
     <div class="right-align">
         Created At 2023-01-12 10:27:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3916" class=".btn">#3916</a>
-            </td>
-            <td>
-                <b>
-                    Orderer v3: Remove system channel usage from integration tests: gateway
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-#### Type of change
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-Orderer v3: Remove system channel usage from integration tests: gateway
-
-#### Related issues
-Epic: #3511
-Issue: #3515
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-11 15:02:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3913" class=".btn">#3913</a>
-            </td>
-            <td>
-                <b>
-                    Fail-fast fetching potentially purged data during block commit (backport #3907)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #3907 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-11 12:52:48 +0000 UTC
     </div>
 </div>
 

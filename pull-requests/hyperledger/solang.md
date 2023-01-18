@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1131" class=".btn">#1131</a>
+            </td>
+            <td>
+                <b>
+                    mappings and arrays can also cause recursive struct fields
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes https://github.com/xermicus/fuzzy-sol/issues/31
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-18 15:29:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1130" class=".btn">#1130</a>
             </td>
             <td>
@@ -129,32 +155,6 @@ The tests will only work after #1127 is merged.
     </table>
     <div class="right-align">
         Created At 2023-01-13 17:33:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1125" class=".btn">#1125</a>
-            </td>
-            <td>
-                <b>
-                    Use anchor npm library rather than @solana/solidity
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-11 15:31:24 +0000 UTC
     </div>
 </div>
 

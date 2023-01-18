@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/ursa
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/ursa/pull/218" class=".btn">#218</a>
+            </td>
+            <td>
+                <b>
+                    Adding Aleksandr Petrosyan as a maintainer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Brent Zundel <brent.zundel@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-18 16:13:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/ursa/pull/217" class=".btn">#217</a>
             </td>
             <td>
