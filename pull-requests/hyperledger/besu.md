@@ -14,6 +14,88 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4954" class=".btn">#4954</a>
+            </td>
+            <td>
+                <b>
+                    Fix npe from subcommands
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This fixes the NPE from some of the engine-api hive test that call the importBlock subcommand
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-18 04:37:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4953" class=".btn">#4953</a>
+            </td>
+            <td>
+                <b>
+                    engine_getPayloadV2 Withdrawals
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamGroot</span><span class="chip">mainnet</span><span class="chip">EIP</span>
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Return withdrawals to engine_getPayloadV2, if they exist (implying it's a Shanghai block)
+
+Spec: https://github.com/ethereum/execution-apis/blob/main/src/engine/shanghai.md#response-2
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+Fixes #4776
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-18 04:20:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4950" class=".btn">#4950</a>
             </td>
             <td>
@@ -82,6 +164,8 @@ tx-pool-limit-by-account-percentage=1
 
 Ref #4899 which didn't quite work for me. 
 @bl0up does this work for you? 
+
+Fixes #4896 
 
 ## Documentation
 
@@ -208,7 +292,9 @@ Part of https://github.com/hyperledger/besu/issues/4776
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-Update engine API to include some new changes introduced in [ethereum/execution-apis#338](https://github.com/ethereum/execution-apis/pull/338)
+Update engine API to include some new changes introduced in 
+- [ethereum/execution-apis#338](https://github.com/ethereum/execution-apis/pull/338) and 
+- [ethereum/execution-apis#337](https://github.com/ethereum/execution-apis/pull/337)
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -1530,51 +1616,6 @@ addresses #4784
     </table>
     <div class="right-align">
         Created At 2023-01-11 16:05:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4905" class=".btn">#4905</a>
-            </td>
-            <td>
-                <b>
-                    Ibft1 deprecation warning
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Add IBFT1 deprecation warning.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fix #4851
-related to #4839
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-11 03:02:53 +0000 UTC
     </div>
 </div>
 
