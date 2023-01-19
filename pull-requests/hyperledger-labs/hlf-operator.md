@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/137" class=".btn">#137</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-operator/pull/138" class=".btn">#138</a>
             </td>
             <td>
                 <b>
-                    Fix CI/CD
+                    Use github forms for issue templates
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger-labs/hlf-operator
                 
             </td>
             <td>
-                Downgrade kubectl-hlf golang version to 1.18 because of this issue:
+                Signed-off-by: adityajoshi12 <adityaprakashjoshi1@gmail.com>
 
-https://github.com/golang/go/issues/54549
+Added gitHub forms for bugs and enhancement issues
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-04 10:24:30 +0000 UTC
+        Created At 2023-01-19 05:03:31 +0000 UTC
     </div>
 </div>
 
