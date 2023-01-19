@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4960" class=".btn">#4960</a>
+            </td>
+            <td>
+                <b>
+                    Layered Transaction Pool
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-18 18:28:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4959" class=".btn">#4959</a>
             </td>
             <td>
@@ -187,7 +229,7 @@ For more information on this process see the Becoming a Maintainer section in th
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -539,7 +581,7 @@ fixes #4916
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span>
             </td>
             <td>
                 Signed-off-by: Jason Frame <jason.frame@consensys.net>
@@ -584,7 +626,7 @@ Add optional list of withdrawals to block body. Also update the equals, hashcode
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span>
             </td>
             <td>
                 Signed-off-by: Jason Frame <jason.frame@consensys.net>
@@ -1442,7 +1484,7 @@ Fixes #4192
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -1725,58 +1767,6 @@ fixes #4787
     </table>
     <div class="right-align">
         Created At 2023-01-12 01:21:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4908" class=".btn">#4908</a>
-            </td>
-            <td>
-                <b>
-                    Prepare for version 23.1.0-SNAPSHOT
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Prepare for version 23.1.0-SNAPSHOT
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-12 00:25:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4907" class=".btn">#4907</a>
-            </td>
-            <td>
-                <b>
-                    Release 23.1.0-RC1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Release 23.1.0-RC1
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-11 23:56:26 +0000 UTC
     </div>
 </div>
 
