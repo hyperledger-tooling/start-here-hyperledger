@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3483" class=".btn">#3483</a>
+            </td>
+            <td>
+                <b>
+                    chore: SD-JWT: Support claims with 'vc' verification in issuer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Change logic for resolving _sd_alg to look for _sd_alg in the following path:
+1. claims top level (as per spec)
+2. claims -> vc -> credential subject (in case that it is not present at claims top level)
+
+Closes #3482
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-19 14:54:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3481" class=".btn">#3481</a>
             </td>
             <td>

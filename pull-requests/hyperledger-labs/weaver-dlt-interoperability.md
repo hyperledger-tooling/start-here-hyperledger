@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/367" class=".btn">#367</a>
+            </td>
+            <td>
+                <b>
+                    Restructure Asset Exchange Library and Fix ContractID APIs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #366 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-19 18:15:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/365" class=".btn">#365</a>
             </td>
             <td>

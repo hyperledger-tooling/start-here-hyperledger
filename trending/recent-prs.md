@@ -1,13 +1,13 @@
 
-[3066](https://github.com/hyperledger/iroha/pull/3066) [fix] #2894: Fix `LOG_FILE_PATH` env variable deserialization
+[367](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/367) Restructure Asset Exchange Library and Fix ContractID APIs
 
-[255](https://github.com/hyperledger/fabric-sdk-java/pull/255) Simplify pull request checks
+[291](https://github.com/hyperledger/fabric-chaincode-java/pull/291) Update publish.yml
 
-[141](https://github.com/hyperledger/fabric-gateway-java/pull/141) Simplify pull request checks
+[4965](https://github.com/hyperledger/besu/pull/4965) Add a new CLI option to limit the number of requests in a single RPC batch request
 
-[656](https://github.com/hyperledger/fabric-sdk-node/pull/656) Simplify pull request build checks
+[219](https://github.com/hyperledger/ursa/pull/219) Adding Roman Shanin as a maintainer
 
-[138](https://github.com/hyperledger-labs/hlf-operator/pull/138) Use github forms for issue templates
+[3483](https://github.com/hyperledger/aries-framework-go/pull/3483) chore: SD-JWT: Support claims with 'vc' verification in issuer
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

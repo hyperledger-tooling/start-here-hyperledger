@@ -38,29 +38,3 @@ Signed-off-by: Liran Funaro <liran.funaro@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/486" class=".btn">#486</a>
-            </td>
-            <td>
-                <b>
-                    Get tx api handlers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-12 16:32:27 +0000 UTC
-    </div>
-</div>
-
