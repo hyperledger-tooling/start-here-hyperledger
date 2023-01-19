@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/656" class=".btn">#656</a>
+            </td>
+            <td>
+                <b>
+                    Simplify pull request build checks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add a job to the end of the pull_request workflow that depends on the build jobs, and can be used as a single job to check pull request success. This avoids the need to change the branch protection PR checks when changes are made to the build process.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-19 10:52:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/655" class=".btn">#655</a>
             </td>
             <td>
@@ -293,58 +319,6 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     </table>
     <div class="right-align">
         Created At 2023-01-12 14:00:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/640" class=".btn">#640</a>
-            </td>
-            <td>
-                <b>
-                    Cancel existing workflows for the current PR on a new push
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-12 11:22:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/639" class=".btn">#639</a>
-            </td>
-            <td>
-                <b>
-                    Fix scheduled build workflow syntax error
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-12 10:44:24 +0000 UTC
     </div>
 </div>
 
