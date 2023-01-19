@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/ursa
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/ursa/pull/219" class=".btn">#219</a>
+            </td>
+            <td>
+                <b>
+                    Adding Roman Shanin as a maintainer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Shanin Roman <shanin1000@yandex.ru>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-19 15:14:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/ursa/pull/218" class=".btn">#218</a>
             </td>
             <td>

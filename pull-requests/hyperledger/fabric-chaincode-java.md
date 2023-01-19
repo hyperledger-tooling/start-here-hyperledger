@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/291" class=".btn">#291</a>
+            </td>
+            <td>
+                <b>
+                    Update publish.yml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Disable fail-fast.
+
+Enable continue-on-error.
+
+Signed-off-by: Ry Jones <ry@linux.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-19 16:40:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/290" class=".btn">#290</a>
             </td>
             <td>

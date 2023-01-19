@@ -14,6 +14,146 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4965" class=".btn">#4965</a>
+            </td>
+            <td>
+                <b>
+                    Add a new CLI option to limit the number of requests in a single RPC batch request
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Adds a `--rpc-max-batch-size` CLI option to restrict the maximum number of requests in a single RPC batch request.
+
+Default `50`
+When `-1`: unlimited - the current configuration.
+
+When number of requests in batch > `--rpc-max-batch-size`:
+
+- Throw a JsonRpcError.EXCEEDS_RPC_MAX_BATCH_SIZE; with type `INVALID_PARAM` and message `Number of requests in batch exceeds --rpc-max-batch-size.`
+
+## Fixed Issue(s)
+fixes #4951
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-19 16:37:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4964" class=".btn">#4964</a>
+            </td>
+            <td>
+                <b>
+                    Fix transaction pool issue
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+
+There has been a regression on Besu regarding the transaction pool. Indeed it seems that the transaction pool validation part does not make a copy of the worldstate during the GetMutable and this means that we can have a version which can change and which is not safe. A copy mechanism has been set up which allows to use the snapshot and to protect against worldstate modifications during validation. it was used elsewhere except in transaction pool validation and block replay.
+
+This caused us to invalidate too many transactions
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-19 14:16:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4963" class=".btn">#4963</a>
+            </td>
+            <td>
+                <b>
+                    Exclude Dagger generated sources from ErrorProne
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-19 13:38:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4962" class=".btn">#4962</a>
             </td>
             <td>
@@ -74,6 +214,8 @@ Add the withdrawalsRoot to the block header.
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+
+WIP still not readt for review
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -1553,173 +1695,6 @@ Process withdrawals when creating a block and when processing a block. Withdrawa
     </table>
     <div class="right-align">
         Created At 2023-01-13 04:22:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4913" class=".btn">#4913</a>
-            </td>
-            <td>
-                <b>
-                    Add '--fork=' to EvmTool
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Add a CLI '--fork' option to allow code to be evaluated in specific forks.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [X] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-12 18:02:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4912" class=".btn">#4912</a>
-            </td>
-            <td>
-                <b>
-                    Increase cache performance post snapshot fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-We detected a regression in the cache after the fix of the snapshot segfault issue. This is due to the fact that the cache tried to use a worldstate storage that was unavailable too soon (not subscribe because shouldClose is true). The cache did not have time to preload enough node and so the calculate root hash is less efficient
-
-the issue is 
-
-- In the validateAndProcessBlock we are doing a copy of the worldState
-```java
-      try (final var worldState =
-        context
-            .getWorldStateArchive()
-            .getMutable(parentHeader.getStateRoot(), parentHeader.getBlockHash(), shouldPersist)
-            .map(
-                ws -> {
-                  if (!ws.isPersistable()) {
-                    return ws.copy();
-                  }
-                  return ws;
-                })
-            .orElse(null)) {
-```
-
-In our case it was BonsaiLayeredWorldstate
-
-```java
-public MutableWorldState copy() {
-    // return an in-memory worldstate that is based on a persisted snapshot for this blockhash.
-    try (SnapshotMutableWorldState snapshot =
-        archive
-            .getMutableSnapshot(this.blockHash())
-            .map(SnapshotMutableWorldState.class::cast)
-            .orElseThrow(
-                () ->
-                    new StorageException(
-                        "Unable to copy Layered Worldstate for " + blockHash().toHexString()))) {
-      return new BonsaiInMemoryWorldState(archive, snapshot.getWorldStateStorage());
-    } catch (Exception ex) {
-      throw new RuntimeException(ex);
-    }
-  }
-```
-
-In this code we can see that we are getting a snapshot and passing the worldstate storage of this snapshot to the BonsaiInMemoryWorldState class. It is a try -with-resources statement so the snapshot will be close at the end of the copy
-
-The close of the snapshot will call the close method of the worldstate storage but this one will not be close because BonsaiInMemoryWorldState subscribed to it . The close snapshot will not close the storage but will set the shouldClose to true. And this is the problem.
-
-when the cache try to subscribe to worldstate storage an exception is raised because this shouldClose is true even if the worldstate is still open 
-
-```java
-public synchronized long subscribe(final BonsaiStorageSubscriber sub) {
-    if (shouldClose.get()) {
-      throw new RuntimeException("Storage is marked to close or has already closed");
-    }
-    return super.subscribe(sub);
-  }
-```
-
-The idea is to use isClosed instead of shouldClose during the subscribe 
-
-Here come CPU profiling flame graphs that show the difference before and after the regression 
-**Before**
-
-- Calculate Root Hash (Pink part)
-
-<img width="1718" alt="image" src="https://user-images.githubusercontent.com/5099602/212098966-c6b11e66-9e1d-4b4c-a8a9-e9772a9a4746.png">
-
-- Cache Preload
-
-<img width="1718" alt="image" src="https://user-images.githubusercontent.com/5099602/212096887-9a97ae9e-026e-46c9-a9c3-e0040786bd0e.png">
-
-**After**
-
-- Calculate Root Hash (Pink part)
-
-<img width="1718" alt="image" src="https://user-images.githubusercontent.com/5099602/212100089-93f9a402-f3e0-407c-9369-8770dd53ff9b.png">
-
-- Cache Preload
-![image](https://user-images.githubusercontent.com/5099602/212104122-77e42da9-2e3c-40b8-a8fb-87ddc326ae84.png)
-
-Zoom on the code snippet that triggers the runtime exception
-<img width="1718" alt="image" src="https://user-images.githubusercontent.com/5099602/212097985-f4e5a740-dfc9-495a-953a-77a75794daa4.png">
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-12 14:36:19 +0000 UTC
     </div>
 </div>
 
