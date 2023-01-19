@@ -62,31 +62,3 @@ permalink: /pull-requests/hyperledger-labs/microfab
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/microfab/pull/131" class=".btn">#131</a>
-            </td>
-            <td>
-                <b>
-                    GHA Workflows
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Publish the docker image and binary to a release
-
-Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-12 10:16:54 +0000 UTC
-    </div>
-</div>
-
