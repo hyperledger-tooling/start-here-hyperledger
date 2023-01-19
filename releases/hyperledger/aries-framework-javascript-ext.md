@@ -15,31 +15,35 @@ permalink: /releases/hyperledger/aries-framework-javascript-ext
         <tr>
             <td colspan="2">
                 <b>
-                    @aries-framework/rest rest-v0.9.4
+                    @aries-framework/react-hooks react-hooks-v0.4.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    rest-v0.9.4
+                    react-hooks-v0.4.0
                 </span>
             </td>
             <td>
                 
 
-### Features
+### ⚠ BREAKING CHANGES
 
-* **rest:** added did resolver endpoint and tests ([#172](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/172)) ([9a1a24e](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/9a1a24ee2c958d09fff13075e0f56e0d3ed9ce7c))
+* **react-hooks:** Update to AFJ 0.3.2 (#184)
+
+### Miscellaneous Chores
+
+* **react-hooks:** Update to AFJ 0.3.2 ([#184](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/184)) ([a72b97d](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/a72b97d0180e5ee8ac2b0d87f2745a427611ca42))
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/rest-v0.9.4" class=".btn">
+    <a href="https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/react-hooks-v0.4.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-10-10 11:19:09 +0000 UTC
+        Created At 2023-01-19 14:03:44 +0000 UTC
     </span>
 </div>
 
