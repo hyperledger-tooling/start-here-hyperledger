@@ -374,29 +374,3 @@ Finally, you can contact us on https://mergify.com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/643" class=".btn">#643</a>
-            </td>
-            <td>
-                <b>
-                    Publish NPM packages and documentation using GitHub Actions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-13 11:59:02 +0000 UTC
-    </div>
-</div>
-
