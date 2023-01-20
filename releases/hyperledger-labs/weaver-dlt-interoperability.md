@@ -15,6 +15,68 @@ permalink: /releases/hyperledger-labs/weaver-dlt-interoperability
         <tr>
             <td colspan="2">
                 <b>
+                    v1.5.8 - GO Fabric Library for Asset Exchange - Jan 20, 2023
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    core/network/fabric-interop-cc/libs/assetexchange/v1.5.8
+                </span>
+            </td>
+            <td>
+                - Go Module: `github.com/hyperledger-labs/weaver-dlt-interoperability/core/network/fabric-interop-cc/libs/assetexchange`
+- Release: v1.5.8
+- Readme: [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/core/network/fabric-interop-cc/libs/assetexchange/v1.5.8/core/network/fabric-interop-cc/libs/assetexchange/README.md).
+- Source: [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/core/network/fabric-interop-cc/libs/assetexchange/v1.5.8/core/network/fabric-interop-cc/libs/assetexchange)
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/libs/assetexchange/v1.5.8" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-01-20 09:27:04 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    v1.5.8 - GO Fabric Interop Chaincode - Jan 20, 2023
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    core/network/fabric-interop-cc/contracts/interop/v1.5.8
+                </span>
+            </td>
+            <td>
+                - Go Module: `github.com/hyperledger-labs/weaver-dlt-interoperability/core/network/fabric-interop-cc/contracts/interop`
+- Release: v1.5.8
+- Readme: [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/core/network/fabric-interop-cc/contracts/interop/v1.5.8/core/network/fabric-interop-cc/contracts/interop/README.md).
+- Source: [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/core/network/fabric-interop-cc/contracts/interop/v1.5.8/core/network/fabric-interop-cc/contracts/interop)
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/contracts/interop/v1.5.8" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-01-20 09:27:04 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v1.5.7 - GO Fabric Interop Chaincode - Jan 19, 2023
                 </b>
             </td>
