@@ -124,6 +124,34 @@ Fields `Id`, `object` and `object_id` are omitted:
          }
 ```
 
+Field `inner` of `NewRole` is omitted:
+
+```diff
+            "NewRole": {
+-            "inner": {
+              "id": "USER_METADATA_ACCESS",
+              "permissions": [
+                {
+                  "definition_id": "can_remove_key_value_in_user_metadata",
+                  "params": {
+                    "account_id": {
+                      "AccountId": "alice@wonderland"
+                    }
+                  }
+                },
+                {
+                  "definition_id": "can_set_key_value_in_user_metadata",
+                  "params": {
+                    "account_id": {
+                      "AccountId": "alice@wonderland"
+                    }
+                  }
+                }
+              ]
+-            }
+            }
+```
+
 <!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
 
 <!--

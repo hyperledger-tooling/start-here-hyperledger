@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3488" class=".btn">#3488</a>
+            </td>
+            <td>
+                <b>
+                    chore: Integration test for structured claim option
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added integration test for structured claim option.
+
+Closes #3487
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-20 17:31:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3486" class=".btn">#3486</a>
+            </td>
+            <td>
+                <b>
+                    fix: presex desctiptor format.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Volodymyr Kubiv <volodymyr.kubiv@euristiq.com>
+
+**Title:**
+Fix for Presentation Exchange descriptor format
+
+**Description:**
+[Link to the GitHub issue it solves (if any)]
+
+**Summary:**
+
+Presentation Exchange creates verifiable presentations with presentation submission descriptors with invalid format value.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-20 15:44:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3485" class=".btn">#3485</a>
             </td>
             <td>

@@ -1,13 +1,13 @@
 
-[3069](https://github.com/hyperledger/iroha/pull/3069) [feature] #2922: Simplify JSON deserialization
+[3488](https://github.com/hyperledger/aries-framework-go/pull/3488) chore: Integration test for structured claim option
 
-[4969](https://github.com/hyperledger/besu/pull/4969) Add withdrawals details to eth_getBlock methods
+[3936](https://github.com/hyperledger/fabric/pull/3936) Gateway should apply OrdererEndpointOverrides
 
-[4968](https://github.com/hyperledger/besu/pull/4968) Withdrawals wiring
+[144](https://github.com/hyperledger/fabric-gateway-java/pull/144) Fix shellcheck warnings in publish script
 
-[4967](https://github.com/hyperledger/besu/pull/4967) Change JSON RPC Error-32602 (Invalid Params) to return with http status code 200
+[659](https://github.com/hyperledger/fabric-sdk-node/pull/659) Fix shellcheck warning in publish script
 
-[392](https://github.com/hyperledger-labs/private-data-objects/pull/392) Clean up a bunch of the Makefiles and dependencies
+[3486](https://github.com/hyperledger/aries-framework-go/pull/3486) fix: presex desctiptor format.
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

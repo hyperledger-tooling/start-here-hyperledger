@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3936" class=".btn">#3936</a>
+            </td>
+            <td>
+                <b>
+                    Gateway should apply OrdererEndpointOverrides
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The peer local config allows the endpoint addresses and TLS root certs or ordering nodes to be overridden. The gateway should apply these overrides when connecting to orderer nodes for transaction submit.
+
+Resolves https://github.com/hyperledger/fabric-gateway/issues/530
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-20 16:39:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3935" class=".btn">#3935</a>
             </td>
             <td>
