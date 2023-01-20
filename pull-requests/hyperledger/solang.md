@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1134" class=".btn">#1134</a>
+            </td>
+            <td>
+                <b>
+                    Add casts for yul pointer to integer conversion and vice versa
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                yul allows implicit conversion of pointers to integers and vice versa.
+
+Fixes https://github.com/xermicus/fuzzy-sol/issues/79
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-20 12:49:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1133" class=".btn">#1133</a>
             </td>
             <td>
@@ -153,62 +183,6 @@ The decoding side is untouched by this PR as it can be done independent. I will 
     </table>
     <div class="right-align">
         Created At 2023-01-13 18:48:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1127" class=".btn">#1127</a>
-            </td>
-            <td>
-                <b>
-                    Update Rust version from workflows
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The test workflows are failing because clap does not support Rust 1.63 anymore, so I updated it to 1.64.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-13 18:05:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1126" class=".btn">#1126</a>
-            </td>
-            <td>
-                <b>
-                    Differentiate between caller contract and the constructor contract
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When invoking `call_constructor` we were passing the same contract number for both the caller contract and the contract being called.
-
-This fixes https://github.com/xermicus/fuzzy-sol/issues/118
-
-The tests will only work after #1127 is merged.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-13 17:33:57 +0000 UTC
     </div>
 </div>
 
