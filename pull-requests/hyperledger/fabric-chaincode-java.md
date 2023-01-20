@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/292" class=".btn">#292</a>
+            </td>
+            <td>
+                <b>
+                    Revert "Update publish.yml"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This reverts commit 3adf85cb75073449c7eba3fdeacc9f5278f40a00.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-19 19:02:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/291" class=".btn">#291</a>
             </td>
             <td>

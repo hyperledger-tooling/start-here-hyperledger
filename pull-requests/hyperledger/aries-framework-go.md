@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3485" class=".btn">#3485</a>
+            </td>
+            <td>
+                <b>
+                    fix: Release claims by claim disclosure not by claim name
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently the holder releases disclosures based on claim name. If we have same name in different objects within claims this will not work.
+
+Closes #3484
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-19 19:08:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3483" class=".btn">#3483</a>
             </td>
             <td>

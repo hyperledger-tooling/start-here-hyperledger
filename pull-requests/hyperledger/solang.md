@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1133" class=".btn">#1133</a>
+            </td>
+            <td>
+                <b>
+                    Load value before shifting
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The shift operations were not loading values before creating the respective LLVM-IR instruction. This PR fixes this and closes https://github.com/xermicus/fuzzy-sol/issues/38.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-19 21:01:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1132" class=".btn">#1132</a>
             </td>
             <td>
