@@ -35,6 +35,7 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     - idGenerator.go: functions to generate keys for different purposes go here.
 - Moved common claim and unlock operations in a separate function, to reduce redundancy.
 - Made contractId APIs work for fungible assets as well.
+- Added Badge for Besu Asset exchange, re-ordered the badges, and added link to each badge to workflow action.
 
 Closes #366 
             </td>
