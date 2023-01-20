@@ -27,7 +27,16 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                Closes #366 
+                - Restructure AssetExchange lib, split the code into multiple files:
+    - assetSwapContracts.go: HTLC functions: lock, claim, unlock and isLocked functions go here 
+    - types.go: all constants, data structures and interface go here.
+    - utility.go: all good to have utility HTLC functions go here.
+    - helpers.go: all common helper functions go here.
+    - idGenerator.go: functions to generate keys for different purposes go here.
+- Moved common claim and unlock operations in a separate function, to reduce redundancy.
+- Made contractId APIs work for fungible assets as well.
+
+Closes #366 
             </td>
         </tr>
     </table>
