@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2077" class=".btn">#2077</a>
-            </td>
-            <td>
-                <b>
-                    Issue #2068 boolean flag change
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-13 22:47:06 +0000 UTC
-    </div>
-</div>
-
