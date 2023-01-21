@@ -40,33 +40,3 @@ Close #513
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/514" class=".btn">#514</a>
-            </td>
-            <td>
-                <b>
-                    Extend token expire duration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The token would expire in 30 seconds originally if no request is sent from frontend.
-
-Set the expiration time to 60 mins now.
-
-Signed-off-by: xichen1 <xichen.pan@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-14 03:49:07 +0000 UTC
-    </div>
-</div>
-
