@@ -158,31 +158,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1128" class=".btn">#1128</a>
-            </td>
-            <td>
-                <b>
-                    Refactor SCALE encoder into codegen
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR makes the `AbiEncoding` trait more granular. This allowed me to move most of the logic into default implementations, leaving only a few `Type`s that needed to be handled differently in SCALE and Borsh. This means the Borsh and SCALE encoders can share most of their code :partying_face: 
-
-The decoding side is untouched by this PR as it can be done independent. I will do it in a follow up PR, which will in turn allow to move the dispatcher out of emit into codegen as well. Which will finally allow to nuke the emit implementation of the SCALE encoder, as well as `substrace.c` from our stdlib.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-13 18:48:59 +0000 UTC
-    </div>
-</div>
-

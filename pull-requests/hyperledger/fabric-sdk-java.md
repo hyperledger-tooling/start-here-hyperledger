@@ -218,29 +218,3 @@ Finally, you can contact us on https://mergify.com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/251" class=".btn">#251</a>
-            </td>
-            <td>
-                <b>
-                    Use GitHub Actions for build (release-1.4)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-13 21:50:27 +0000 UTC
-    </div>
-</div>
-
