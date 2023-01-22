@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1135" class=".btn">#1135</a>
+            </td>
+            <td>
+                <b>
+                    Bump inkwell and fix clippies for upcoming rust 1.67
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - inkwell 0.1.0 has been released, which breaks the build
+- rust 1.67 will be released on the 26th, fix clippies for the release
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-22 13:03:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1134" class=".btn">#1134</a>
             </td>
             <td>

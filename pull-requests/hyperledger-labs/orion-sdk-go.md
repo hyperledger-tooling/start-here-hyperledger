@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/154" class=".btn">#154</a>
-            </td>
-            <td>
-                <b>
-                    Expose API to get the TX content
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Yoav Tock <tock@il.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-15 13:38:49 +0000 UTC
-    </div>
-</div>
-
