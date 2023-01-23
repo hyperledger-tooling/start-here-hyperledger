@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3071" class=".btn">#3071</a>
+            </td>
+            <td>
+                <b>
+                    [documentation] #3070: mention reduced dev activity
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Description of the Change
+
+Update the information on the change of core team attention from I1 towards I2.
+
+### Issue
+
+Described in https://github.com/hyperledger/iroha/issues/3070
+
+### Benefits
+
+* Users won't be misdirected by the information on the parallel development
+* Iroha 2 will get more attention from the community
+
+### Possible Drawbacks
+
+None
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-23 02:43:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3069" class=".btn">#3069</a>
             </td>
             <td>

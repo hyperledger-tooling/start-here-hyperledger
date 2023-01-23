@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/cckit
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/cckit/pull/17" class=".btn">#17</a>
+            </td>
+            <td>
+                <b>
+                    Change protobuf/proto package
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Need to replace deprecated 'github.com/golang/protobuf' with 'google.golang.org/protobuf' due to marshalling errors for timestamp types.
+
+Signed-off-by: olaeseane <olaesean@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-23 06:15:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/cckit/pull/16" class=".btn">#16</a>
             </td>
             <td>
