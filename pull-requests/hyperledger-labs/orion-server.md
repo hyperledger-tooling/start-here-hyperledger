@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/487" class=".btn">#487</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/488" class=".btn">#488</a>
             </td>
             <td>
                 <b>
-                    Use testing.TempDir()
+                    Initial metrics design
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger-labs/orion-server
                 
             </td>
             <td>
-                A temporary directory that PR #481 missed.
+                In the final implementation, the registry object will propagate to all the instances that have some metric to register.
 
 Signed-off-by: Liran Funaro <liran.funaro@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-15 08:46:24 +0000 UTC
+        Created At 2023-01-23 10:20:38 +0000 UTC
     </div>
 </div>
 

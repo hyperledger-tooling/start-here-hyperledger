@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/51" class=".btn">#51</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-corda-ibc/pull/52" class=".btn">#52</a>
             </td>
             <td>
                 <b>
-                    support pluggable light clients
+                    fix regen version from v1.3.2-alpha.regen.4 to v1.3.3-alpha.regen.1
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
                 
             </td>
             <td>
-                close #46 
-
-Signed-off-by: Masanori Yoshida <masanori.yoshida@datachain.jp>
+                Signed-off-by: Masanori Yoshida <masanori.yoshida@datachain.jp>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-16 06:37:04 +0000 UTC
+        Created At 2023-01-23 09:59:09 +0000 UTC
     </div>
 </div>
 
