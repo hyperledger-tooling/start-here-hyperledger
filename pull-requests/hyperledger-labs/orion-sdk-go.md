@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/155" class=".btn">#155</a>
-            </td>
-            <td>
-                <b>
-                    Test user ACL
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: May Rosenbaum <mayro1595@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-16 15:39:42 +0000 UTC
-    </div>
-</div>
-

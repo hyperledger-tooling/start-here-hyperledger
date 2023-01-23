@@ -14,6 +14,152 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4985" class=".btn">#4985</a>
+            </td>
+            <td>
+                <b>
+                    RJumpV overflow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Address an RJumpV overflow discovered by reference tests.
+
+Signed-off-by: Danno Ferrin <danno.ferrin@swirldslabs.com>
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-23 17:33:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4984" class=".btn">#4984</a>
+            </td>
+            <td>
+                <b>
+                    Improve MainnetBlockBodyValidator logging
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Associate block number and hash with the various invalid block warnings, in the format:
+`Invalid block {blockNumber} ({blockHash}): ... mismatch (expected=..., actual=...)`
+
+Instead of 
+```
+WARN  | MainnetBlockBodyValidator | Invalid block: receipts root mismatch (expected=0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421, actual=0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421) 
+```
+
+we now have 
+```
+WARN  | MainnetBlockBodyValidator | Invalid block 1 (0xd2ce6fb30db1ab80b0a5c137f3c8a83d12052e5a40366eba4c15b229c6a863e6): receipts root mismatch (expected=0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421, actual=0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421) 
+```
+
+---
+
+* Print a less obscure message when there's no error message:
+
+Instead of 
+```
+INFO  | MainnetBlockValidator | Optional.empty. Block 11 (0x8edd340dd4718e884ffe327bab2d3e3874bac2799cde83a085e5cae66d53c3b5)
+```
+
+we now have
+
+```
+INFO  | MainnetBlockValidator | Invalid block 11 (0x8edd340dd4718e884ffe327bab2d3e3874bac2799cde83a085e5cae66d53c3b5)
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-23 17:04:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4983" class=".btn">#4983</a>
+            </td>
+            <td>
+                <b>
+                    address case of block values exceeding long
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+address corner case where long does not fit the calculated block value included in engine_getPayloadV2.
+
+Change BlockValueCalculator to use Wei rather than unnecessarily converting to long (just to later be converted again into a Quantity)
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-23 17:02:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4982" class=".btn">#4982</a>
             </td>
             <td>
@@ -76,6 +222,7 @@ Signed-off-by: Danno Ferrin <danno.ferrin@swirldslabs.com>
 
 Signed-off-by: Justin Florentine <justin+github@florentine.us>
 
+#4966 
             </td>
         </tr>
     </table>
@@ -1484,60 +1631,6 @@ curl --data '{"method":"eth_createAccessList","params":[{"from": "0x8cd02c6cbd83
     </table>
     <div class="right-align">
         Created At 2023-01-16 18:22:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4940" class=".btn">#4940</a>
-            </td>
-            <td>
-                <b>
-                    Send only hash announcement for blob transaction type
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-When broadcasting transactions to peers, handle 4844 blob transactions in the following ways:
-
-- For pre-eth/65 peers 4844 blob transactions are ignore are not sent
-- For eth/65+ peers selected for full transaction body broadcast, a mixed approach is taken, and 2 messages are sent:
-  - non-blob transactions are sent in full as before
-  - for 4844 blob transactions only the hash is announced
-- For eth/65+ peers selected for hash only announcements, same strategy as before, for all transactions (including 4844 blob ones) only the hashes are announced
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-implements #4821
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-16 13:10:03 +0000 UTC
     </div>
 </div>
 

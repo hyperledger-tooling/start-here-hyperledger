@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3938" class=".btn">#3938</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: Remove system channel usage from integration tests: pvtdata
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Yoav Tock <tock@il.ibm.com>
+Change-Id: Id571a7c012d31f19c71ff2d0939e43761b6c2d44
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Orderer v3: Remove system channel usage from integration tests: pvtdata
+
+#### Related issues
+
+Epic: #3511
+Issue: #3515
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-23 15:01:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3936" class=".btn">#3936</a>
             </td>
             <td>
@@ -177,42 +218,6 @@ Issue: #3515
     </table>
     <div class="right-align">
         Created At 2023-01-18 13:35:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3930" class=".btn">#3930</a>
-            </td>
-            <td>
-                <b>
-                    Orderer v3: Remove system channel usage from integration tests: ledger
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-Orderer v3: Remove system channel usage from integration tests: ledger
-
-
-#### Related issues
-
-Epic: #3511
-Issue: #3515
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-16 13:27:36 +0000 UTC
     </div>
 </div>
 
