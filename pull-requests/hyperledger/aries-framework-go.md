@@ -213,38 +213,3 @@ Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3477" class=".btn">#3477</a>
-            </td>
-            <td>
-                <b>
-                    chore: Rename DisclosureSeparator to CombinedFormatSeparator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Clean-up task:
-
-- rename DisclosureSeparator to CombinedFormatSeparator
-- move issuer Payload struct from common to issuer package
-
-Closes #3476
-
-Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-16 18:12:39 +0000 UTC
-    </div>
-</div>
-
