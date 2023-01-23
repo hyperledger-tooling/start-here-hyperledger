@@ -270,29 +270,3 @@ Finally, you can contact us on https://mergify.com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/650" class=".btn">#650</a>
-            </td>
-            <td>
-                <b>
-                    Remove redundant azure-pipelines.yml file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-16 11:56:03 +0000 UTC
-    </div>
-</div>
-

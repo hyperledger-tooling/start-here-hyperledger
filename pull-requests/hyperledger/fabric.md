@@ -184,44 +184,6 @@ Issue: #3515
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3931" class=".btn">#3931</a>
-            </td>
-            <td>
-                <b>
-                    Orderer v3: Remove system channel usage from integration tests: lifecycle
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-Orderer v3: Remove system channel usage from integration tests: lifecycle
-
-#### Related issues
-
-Epic: #3511
-Issue: #3515
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-16 15:22:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3930" class=".btn">#3930</a>
             </td>
             <td>
@@ -251,47 +213,6 @@ Issue: #3515
     </table>
     <div class="right-align">
         Created At 2023-01-16 13:27:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3929" class=".btn">#3929</a>
-            </td>
-            <td>
-                <b>
-                    Support for Couchdb JWT Authentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added support for couchdb JWT Authentatication via RSA256 algorithm.
-
-Signed-off-by: Aviral Agrawal <aviral.agrawal@dltlabs.io>
-
-#### Type of change
-
-- New feature
-
-#### Description
-
-Added support for token based JWT authentication supported in Couchdb by generating JWT token using RSA256 algorithm. 
-
-#### Related issues
-
-https://github.com/hyperledger/fabric/issues/3317
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-16 08:03:39 +0000 UTC
     </div>
 </div>
 

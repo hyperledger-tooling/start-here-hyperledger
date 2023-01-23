@@ -14,6 +14,150 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4982" class=".btn">#4982</a>
+            </td>
+            <td>
+                <b>
+                    Don't cache protocol spec in block creator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+
+## PR description
+
+Don't cache the protocol spec in the block creator.  With the new shanghaiTimestamp the correct spec may be a function of the timestamp not just the block number.  So every time we are asked to build a block re-query the spec.
+
+Signed-off-by: Danno Ferrin <danno.ferrin@swirldslabs.com>
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-23 10:39:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4981" class=".btn">#4981</a>
+            </td>
+            <td>
+                <b>
+                    merged main
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Implements EngineAPI V3
+
+Signed-off-by: Justin Florentine <justin+github@florentine.us>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-23 10:31:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4980" class=".btn">#4980</a>
+            </td>
+            <td>
+                <b>
+                    Add getPayloadBodiesByRangeV1 and getPayloadBodiesByHash engine methods
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span>
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This PR adds the methods getPayloadBodiesByRangeV1 and getPayloadBodiesByHash to the engine API.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+Fixes #4787
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-23 10:25:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4979" class=".btn">#4979</a>
+            </td>
+            <td>
+                <b>
+                    SSZ - encoding
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                SSZ - encoding using the tuweni snapshots
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-23 10:17:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4977" class=".btn">#4977</a>
             </td>
             <td>
@@ -1394,207 +1538,6 @@ implements #4821
     </table>
     <div class="right-align">
         Created At 2023-01-16 13:10:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4939" class=".btn">#4939</a>
-            </td>
-            <td>
-                <b>
-                    Introduce transaction pool interface
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Preparatory work to introduce more implementations of the transaction pool, specifically the new transaction pool that will support 4844.
-
-No functionality changes in this PR, apart the introduction of the interface, sorter unit tests have been moved to the package of the corresponding classes
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-16 10:53:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4938" class=".btn">#4938</a>
-            </td>
-            <td>
-                <b>
-                    Improve get protocol schedule (only get header and not the entire block)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">performance</span><span class="chip">mainnet</span>
-            </td>
-            <td>
-                Signed-off-by: Karim TAAM [karim.t2am@gmail.com](mailto:karim.t2am@gmail.com)
-Co-authored-by: Ameziane H [ameziane.hamlat@consensys.net](mailto:ameziane.hamlat@consensys.net)
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-There is a performance regression in the RC version 23.1.0-RC1 compared to 22.10.3 in both engine_getPayloadV1 and engine_forkchoiceUpdatedV1 calls. This regression is related to recent changes in the way we get the protocol specifications. We get the whole block by decoding each single transaction to use only the block header.
-```
-return Optional.ofNullable(protocolContext)
-        .map(ProtocolContext::getBlockchain)
-        .flatMap(blockchain -> blockchain.getBlockByNumber(number))
-        .map(Block::getHeader)
-        .map(timestampSchedule::getByBlockHeader)
-        .orElseGet(
-            () ->
-                transitionUtils.dispatchFunctionAccordingToMergeState(
-                    protocolSchedule -> protocolSchedule.getByBlockNumber(number)));
-```
-
-![image](https://user-images.githubusercontent.com/5099602/212659020-cd0c50d1-894c-423d-831c-ae8ff2b0784b.png)
-
-The fix here is to use         
-```.flatMap(blockchain -> blockchain.getBlockHeader(number))```
-
-instead of
-```  
-.flatMap(blockchain -> blockchain.getBlockByNumber(number))
-        .map(Block::getHeader)
-```
-
-Profiling on version 23.1.0-RC1 (with the regression)
-![Screenshot 2023-01-16 at 11 18 31](https://user-images.githubusercontent.com/5099602/212657155-adbd67c8-a5e7-4b44-b23d-8fbd187096ee.png)
-
-
-Profiling on version 22.10.3 (without the performance regression)
-
-![image](https://user-images.githubusercontent.com/5099602/212658097-9db79cc5-5de7-41c4-a65c-aa6cd629ace5.png)
-
-Block processing and FCU time
-
-![image](https://user-images.githubusercontent.com/5099602/212666583-7b8c9704-87d9-4e60-803f-9564ff3dd89d.png)
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-16 09:33:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4937" class=".btn">#4937</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] fixed test for absent deprecated tx-pool-future-max-by-account
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sally MacFarlane <macfarla.github@gmail.com>
-
-Fixes #4910 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-16 07:47:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4936" class=".btn">#4936</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] Correct order of args to RequestBody.create
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span><span class="chip">dev experience</span>
-            </td>
-            <td>
-                Content type moved to second arg where needed to avoid deprecation warning
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-16 07:21:01 +0000 UTC
     </div>
 </div>
 
