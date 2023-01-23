@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/140" class=".btn">#140</a>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/141" class=".btn">#141</a>
             </td>
             <td>
                 <b>
-                    [chore]: update `iroha2-lts` reference
+                    Refactor crypto wasm
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-javascript
                 
             </td>
             <td>
-                Signed-off-by: Dmitry Balashov <a.marcius26@gmail.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-09 02:13:48 +0000 UTC
+        Created At 2023-01-23 05:46:27 +0000 UTC
     </div>
 </div>
 

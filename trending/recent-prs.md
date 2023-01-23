@@ -1,13 +1,13 @@
 
-[4973](https://github.com/hyperledger/besu/pull/4973) [MINOR] update some tests from junit 4 to 5
+[17](https://github.com/hyperledger-labs/cckit/pull/17) Change protobuf/proto package
 
-[1135](https://github.com/hyperledger/solang/pull/1135) Bump inkwell and fix clippies for upcoming rust 1.67
+[4977](https://github.com/hyperledger/besu/pull/4977) Use Java 17 to build Besu 
 
-[301](https://github.com/hyperledger/iroha-java/pull/301) status code in IrohaClientException
+[141](https://github.com/hyperledger/iroha-javascript/pull/141) Refactor crypto wasm
 
-[4972](https://github.com/hyperledger/besu/pull/4972) [POC] heal the worldstate
+[4975](https://github.com/hyperledger/besu/pull/4975) [MINOR] move Clique tests to junit5
 
-[4971](https://github.com/hyperledger/besu/pull/4971) fix javadoc regressions in main
+[4974](https://github.com/hyperledger/besu/pull/4974) Snap sync logging - concise info and detailed debug log messages
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

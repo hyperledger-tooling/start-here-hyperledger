@@ -14,6 +14,128 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4977" class=".btn">#4977</a>
+            </td>
+            <td>
+                <b>
+                    Use Java 17 to build Besu 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span>
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Use Java 17 to build Besu.
+- Gradle build
+- CircleCI
+- GitHub Actions
+- Docker
+-
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+#3320
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-23 06:02:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4975" class=".btn">#4975</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] move Clique tests to junit5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span>
+            </td>
+            <td>
+                Migrate to Junit 5
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-23 05:05:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4974" class=".btn">#4974</a>
+            </td>
+            <td>
+                <b>
+                    Snap sync logging - concise info and detailed debug log messages
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span><span class="chip">logging</span>
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <macfarla.github@gmail.com>
+
+Fixes #4941 
+ * debug messages with detail
+ * info level messages with concise summary
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-23 03:54:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4973" class=".btn">#4973</a>
             </td>
             <td>
@@ -1473,48 +1595,6 @@ Fixes #4910
     </table>
     <div class="right-align">
         Created At 2023-01-16 07:21:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4935" class=".btn">#4935</a>
-            </td>
-            <td>
-                <b>
-                    Withdrawls - Change Amount type to GWei instead of Wei
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Withdrawls - Change Amount type to GWei instead of Wei
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-#4920 
-https://github.com/ethereum/execution-apis/pull/354
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-16 06:06:12 +0000 UTC
     </div>
 </div>
 
