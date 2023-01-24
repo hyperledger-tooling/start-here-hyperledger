@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1137" class=".btn">#1137</a>
+            </td>
+            <td>
+                <b>
+                    Refactor `sema/expression.rs`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The file `sema/expression.rs` has eight thousand lines. It is difficult to navigate and to keep track of changes. This PR splits the original file into many small archives, under `sema/expression`.
+
+This PR only moves code. There is no change in the code itself.
+
+@seanyoung and @xermicus, please, let me know if I should rename a file or if there is any misplaced function in this PR.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-24 12:17:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1136" class=".btn">#1136</a>
             </td>
             <td>

@@ -118,32 +118,3 @@ Signed-off-by: Ry Jones <ry@linux.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-java/pull/289" class=".btn">#289</a>
-            </td>
-            <td>
-                <b>
-                    Improve the workflows
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - dedicated pr workflow
-- dedicated release workflow
-
-Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-17 09:41:13 +0000 UTC
-    </div>
-</div>
-

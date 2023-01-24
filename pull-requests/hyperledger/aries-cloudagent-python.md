@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2079" class=".btn">#2079</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2086" class=".btn">#2086</a>
             </td>
             <td>
                 <b>
-                    Documentation site
+                    fix: create local DID return schema
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                This PR adds a doc site (built with Docusaurus) to ACA-Py. RTD files have been moved into a subfolder of `docs` and Sphinx-generated `.rst` files are converted to markdown to be included in docs.
+                As a follow-up to the changes in the creation endpoint (#2067), relax return schema to include any did method.
+
+Without this change, clients based on the openapi spec cannot accept the response payload for did methods other than "sov" and "key".
+
+Signed-off-by: Clément Humbert <clement.humbert@sicpa.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-16 18:26:42 +0000 UTC
+        Created At 2023-01-24 08:19:22 +0000 UTC
     </div>
 </div>
 

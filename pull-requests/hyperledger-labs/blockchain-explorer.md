@@ -14,69 +14,66 @@ permalink: /pull-requests/hyperledger-labs/blockchain-explorer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/330" class=".btn">#330</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/335" class=".btn">#335</a>
             </td>
             <td>
                 <b>
-                    update CODEOWNERS
+                    Bump cookiejar from 2.1.3 to 2.1.4 in /client
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Signed-off-by: Aditya Joshi <adityaprakashjoshi1@gmail.com>
-
-<!--  Thanks for sending a pull request! 
--->
-
-
-#### What this PR does / why we need it:
-updated  CODEOWNERS files
-#### Which issue(s) this PR fixes:
-<!--
-*Automatically closes linked issue when PR is merged.
-Usage: `Fixes #<issue number>`, or `Fixes (paste link of issue)`.
-_If PR is about `failing-tests`, please post the related issues/tests in a comment and do not use `Fixes`_*
--->
-Fixes #328 
-
-#### Special notes for your reviewer:
-N/A
-#### Does this PR introduce a user-facing change?
-<!--
-If no, just write "NONE" in the release-note block below.
-If yes, a release note is required:
-Enter your extended release note in the block below. If the PR requires additional action from users switching to the new release, include the string "action required".
-
--->
-```release-note
-No
-```
-
-#### Additional documentation, usage docs, etc.:
-
-<!--
-This section can be blank if this pull request does not require a release note.
-
-When adding links which point to resources within git repositories, like
-supporting documentation, please reference a specific commit and avoid
-linking directly to the master branch. This ensures that links reference a
-specific point in time, rather than a document that may change over time.
+                Bumps [cookiejar](https://github.com/bmeck/node-cookiejar) from 2.1.3 to 2.1.4.
+<details>
+<summary>Commits</summary>
+<ul>
+<li>See full diff in <a href="https://github.com/bmeck/node-cookiejar/commits">compare view</a></li>
+</ul>
+</details>
+<br />
 
 
--->
-```docs
-N/A
-```
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=cookiejar&package-manager=npm_and_yarn&previous-version=2.1.3&new-version=2.1.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/blockchain-explorer/network/alerts).
+
+</details>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-14 09:47:40 +0000 UTC
+        Created At 2023-01-24 12:14:42 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/cckit
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/cckit/pull/19" class=".btn">#19</a>
+            </td>
+            <td>
+                <b>
+                    Add deadline and pubkey in envelope, change serializer for envelope
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-24 10:39:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/cckit/pull/18" class=".btn">#18</a>
             </td>
             <td>
@@ -87,32 +113,6 @@ Signed-off-by: olaeseane <olaesean@gmail.com>
     </table>
     <div class="right-align">
         Created At 2023-01-19 14:49:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/cckit/pull/15" class=".btn">#15</a>
-            </td>
-            <td>
-                <b>
-                    After TransferLock unlock token
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: olaeseane <olaesean@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-17 10:19:58 +0000 UTC
     </div>
 </div>
 
