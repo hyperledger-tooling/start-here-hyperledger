@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3493" class=".btn">#3493</a>
+            </td>
+            <td>
+                <b>
+                    wip: parse sd-jwt vc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-24 17:45:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3492" class=".btn">#3492</a>
+            </td>
+            <td>
+                <b>
+                    feat: SD-JWT: Add NewFromVC to Issuer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Pass VC into NewFromVC and the issuer will create selective disclosures for everything in vc->credential subject and add the fields from options.
+
+Closes #3491
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-24 13:57:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3490" class=".btn">#3490</a>
             </td>
             <td>
