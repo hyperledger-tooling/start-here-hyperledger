@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/indy-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2577" class=".btn">#2577</a>
+            </td>
+            <td>
+                <b>
+                    Below spelling fixed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Neel Thakkar <57473461+Neel278@users.noreply.github.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-24 11:34:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-sdk/pull/2576" class=".btn">#2576</a>
+            </td>
+            <td>
+                <b>
+                    Fixed Docs Link in README.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Mujeebullah Kalwar <mujeebkalwar.mk@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-24 10:58:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-sdk/pull/2575" class=".btn">#2575</a>
             </td>
             <td>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/microfab
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/microfab/pull/133" class=".btn">#133</a>
+                PR <a href="https://github.com/hyperledger-labs/microfab/pull/134" class=".btn">#134</a>
             </td>
             <td>
                 <b>
-                    PR Workflow
+                    Relmain/docs
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger-labs/microfab
                 
             </td>
             <td>
-                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-12 14:34:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/microfab/pull/132" class=".btn">#132</a>
-            </td>
-            <td>
-                <b>
-                    update the module name
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-12 14:31:40 +0000 UTC
+        Created At 2023-01-24 12:12:42 +0000 UTC
     </div>
 </div>
 
