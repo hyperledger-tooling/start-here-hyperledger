@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2089" class=".btn">#2089</a>
+            </td>
+            <td>
+                <b>
+                    Multitenancy demo (docker-compose with postgres and ngrok)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-24 17:28:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2088" class=".btn">#2088</a>
+            </td>
+            <td>
+                <b>
+                    Feat: Multiple Credential Issuance [v2.1]
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Shaanjot Gill <gill.shaanjots@gmail.com>
+
+- WIP
+- resolves #1979
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-24 17:13:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2086" class=".btn">#2086</a>
             </td>
             <td>

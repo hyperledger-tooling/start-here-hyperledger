@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/microfab
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/microfab/pull/136" class=".btn">#136</a>
+            </td>
+            <td>
+                <b>
+                    Properly support Fabric 2.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-24 16:07:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/microfab/pull/134" class=".btn">#134</a>
             </td>
             <td>

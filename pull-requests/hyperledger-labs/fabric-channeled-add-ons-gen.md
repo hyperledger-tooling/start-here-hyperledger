@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-channeled-add-ons-gen
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-channeled-add-ons-gen/pull/6" class=".btn">#6</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-channeled-add-ons-gen/pull/7" class=".btn">#7</a>
             </td>
             <td>
                 <b>
-                    Mnemonic instead of pk
+                    Mnemonic instead of private key
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-channeled-add-ons-gen
                 
             </td>
             <td>
-                WIP
-
-Use mnemonic to generate the private keys. Based on [BIP 39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki)
+                Based on [BIP 39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) and [BIP 32](https://github.com/bitcoin/bips/blob/master/bip-0032/derivation.png).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-24 10:41:05 +0000 UTC
+        Created At 2023-01-24 13:47:18 +0000 UTC
     </div>
 </div>
 
