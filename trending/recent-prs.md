@@ -1,9 +1,9 @@
 
-[915](https://github.com/hyperledger/fabric-samples/pull/915) Add in examples and notes on using PurgePrivateData (backport #878)
+[4986](https://github.com/hyperledger/besu/pull/4986) Fix create block using wrong protocol schedule when parent is genesis
 
-[914](https://github.com/hyperledger/fabric-samples/pull/914) run test suites with 2.5 binaries and images (backport #906)
+[123](https://github.com/hyperledger/indy-test-automation/pull/123) Fix token plugin installation
 
-[913](https://github.com/hyperledger/fabric-samples/pull/913) Fix network.sh (backport #886)
+[3490](https://github.com/hyperledger/aries-framework-go/pull/3490) chore: Support verification of 'vc' claims with holder binding
 
 [4985](https://github.com/hyperledger/besu/pull/4985) RJumpV overflow
 

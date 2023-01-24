@@ -14,167 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/915" class=".btn">#915</a>
-            </td>
-            <td>
-                <b>
-                    Add in examples and notes on using PurgePrivateData (backport #878)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #878 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-23 17:59:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/914" class=".btn">#914</a>
-            </td>
-            <td>
-                <b>
-                    run test suites with 2.5 binaries and images (backport #906)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #906 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-23 17:59:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/913" class=".btn">#913</a>
-            </td>
-            <td>
-                <b>
-                    Fix network.sh (backport #886)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #886 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-23 17:59:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/909" class=".btn">#909</a>
             </td>
             <td>
                 <b>
-                    Scrub an annoying lint warning - print FSAT TODO to the console
+                    Run FSAT tests with 2.5 images, binaries, and trigger on all builds for regression coverage
                 </b>
             </td>
         </tr>
@@ -183,8 +27,12 @@ Finally, you can contact us on https://mergify.com
                 
             </td>
             <td>
-                This PR logs the Full Stack *workshop coding exercise* to the console, instead of leaving code hints in a commented-out TODO block.  Logging the TODOs to the console has two benefits: 
+                This PR runs the FSAT tests for all commits, not just edits under the full-stack-asset-transfer guide sub-folder.
 
+We had some regressions in the fabric-shim when moving to 2.5.1 which would have been caught by the FSAT tests, had they been run with all of the samples commits.  This PR re-enables the FSAT tests to run on all builds: 
+
+- runs with 2.5 binaries/ images 
+- pins fabric-contract-api and fabric-shim to 2.4.0 (still some issues to sort out with 2.5.1) 
 - Removes an annoying lint warning for unused variables.
 - Displays a useful message to the console, explaining why Bananaman can not transfer a token to Appleman.   (In some cases of users running through the workshop, it was not clear that there was work to be done to implement this one-line function.)
 
