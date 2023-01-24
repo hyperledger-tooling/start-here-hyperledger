@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4989" class=".btn">#4989</a>
+            </td>
+            <td>
+                <b>
+                    split ATs into privacy/permissioning/etc and the rest
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <macfarla.github@gmail.com>
+
+Ref #4921 
+* split ATs into two groups - mainnet and non-mainnet
+* run "non-mainnet" ATs on nightly build
+* for now, run both on PRs (see if it works)
+* TODO - remove non-mainnet AT run from PR build
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-24 04:19:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4988" class=".btn">#4988</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] javadoc for kzg precompile
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <macfarla.github@gmail.com>
+
+Fix javadoc warnings - see #4860
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-24 01:16:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4986" class=".btn">#4986</a>
             </td>
             <td>
@@ -747,7 +825,7 @@ Final piece to wire together withdrawals and adding missing pieces
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -1223,7 +1301,7 @@ Change BlockBody to use an overloaded constructor with withdrawals instead havin
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -1334,187 +1412,6 @@ Fixes #4776
     </table>
     <div class="right-align">
         Created At 2023-01-17 10:36:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4948" class=".btn">#4948</a>
-            </td>
-            <td>
-                <b>
-                    Fix TOML parsing of double and float values
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix TOML parsing of double 
-- no special processing required for double or float
-- refactor getInteger to getNumeric since it works for all number types
-- added a test to ensure we can parse an int value into double type
-eg 
-tx-pool-limit-by-account-percentage=1.0
-should work the same as
-tx-pool-limit-by-account-percentage=1
-
-Ref #4899 which didn't quite work for me. 
-@bl0up does this work for you? 
-
-Fixes #4896 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-17 05:49:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4947" class=".btn">#4947</a>
-            </td>
-            <td>
-                <b>
-                    Fix: Hive engine api FCU regression
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Swap lines order to ensure we commit FCU even if payload timestamp is before head timestamp
-
-Signed-off-by: Gabriel Fukushima <gabrielfukushima@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-This PR fixes the regression introduced recently.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Makes Besu compliant with ForkChoiceUpdate_V1 - item 7 of the Engine API specs for Paris. (https://github.com/ethereum/execution-apis/blob/main/src/engine/paris.md)
-Linked to #4747
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-17 05:07:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4946" class=".btn">#4946</a>
-            </td>
-            <td>
-                <b>
-                    Implement engine_newPayload Withdrawals validation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span><span class="chip">mainnet</span><span class="chip">EIP</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Spec: https://github.com/ethereum/execution-apis/blob/main/src/engine/shanghai.md
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-Part of https://github.com/hyperledger/besu/issues/4776
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-17 03:54:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4945" class=".btn">#4945</a>
-            </td>
-            <td>
-                <b>
-                    Shanghai Engine API Updates
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Zhenyang Shi <wcgcyx@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Update engine API to include some new changes introduced in 
-- [ethereum/execution-apis#338](https://github.com/ethereum/execution-apis/pull/338) and 
-- [ethereum/execution-apis#337](https://github.com/ethereum/execution-apis/pull/337)
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #4916 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-17 02:17:02 +0000 UTC
     </div>
 </div>
 

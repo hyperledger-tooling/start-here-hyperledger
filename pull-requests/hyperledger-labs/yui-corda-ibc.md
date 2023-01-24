@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/yui-corda-ibc
             </td>
             <td>
                 <b>
-                    fix regen version from v1.3.2-alpha.regen.4 to v1.3.3-alpha.regen.1
+                    fix pb.go code generation
                 </b>
             </td>
         </tr>
