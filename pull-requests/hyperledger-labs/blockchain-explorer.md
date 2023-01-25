@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger-labs/blockchain-explorer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/337" class=".btn">#337</a>
+            </td>
+            <td>
+                <b>
+                    BE-331 Display health status of peers and orderers- Backend
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span>
+            </td>
+            <td>
+                <!--  Thanks for sending a pull request! 
+-->
+
+
+#### What this PR does / why we need it:
+This feature enables the explorer to indicate the health status of peers and orderers that are online or offline.
+As of now the explorer is not showing the status of peers/orderers that are part of HLF-Network. With this new feature enablement, we could display the health status of peers/orderers in the explorer dashboard.
+#### Which issue(s) this PR fixes:
+Fixes #331
+<!-- 
+*Automatically closes linked issue when PR is merged.
+Usage: `Fixes #<issue number>`, or `Fixes (paste link of issue)`.
+_If PR is about `failing-tests`, please post the related issues/tests in a comment and do not use `Fixes`_*
+-->
+
+
+#### Special notes for your reviewer:
+
+#### Does this PR introduce a user-facing change?
+<!--
+If no, just write "NONE" in the release-note block below.
+If yes, a release note is required:
+Enter your extended release note in the block below. If the PR requires additional action from users switching to the new release, include the string "action required".
+
+-->
+```release-note
+
+```
+
+#### Additional documentation, usage docs, etc.:
+
+<!--
+This section can be blank if this pull request does not require a release note.
+
+When adding links which point to resources within git repositories, like
+supporting documentation, please reference a specific commit and avoid
+linking directly to the master branch. This ensures that links reference a
+specific point in time, rather than a document that may change over time.
+
+
+-->
+```docs
+
+```
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-25 09:14:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/335" class=".btn">#335</a>
             </td>
             <td>

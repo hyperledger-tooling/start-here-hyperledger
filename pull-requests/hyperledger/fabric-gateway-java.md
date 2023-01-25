@@ -218,29 +218,3 @@ Finally, you can contact us on https://mergify.com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/138" class=".btn">#138</a>
-            </td>
-            <td>
-                <b>
-                    Use specific auth token for JavaDoc publishing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-18 12:11:36 +0000 UTC
-    </div>
-</div>
-

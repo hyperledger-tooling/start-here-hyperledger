@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/370" class=".btn">#370</a>
+            </td>
+            <td>
+                <b>
+                    Relay Image fix, Bump SDK version and Add Sikhar as maintainer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Constants' file containing driver error messages wasn't added to relay image; added it now.
+- After Francis's PR, didn't updated SDK verison, updated it in this PR.
+- Update Readme to add Sikhar as current maintainer
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-25 11:25:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/368" class=".btn">#368</a>
             </td>
             <td>
@@ -166,33 +194,6 @@ Closes #366
     </table>
     <div class="right-align">
         Created At 2023-01-19 18:15:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/365" class=".btn">#365</a>
-            </td>
-            <td>
-                <b>
-                    Fix node pkgs deploy workflow and update jsrsasign package
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #363 
-Signed-off-by: sandeep.nishad1 <sandeep.nishad1@ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-18 08:38:05 +0000 UTC
     </div>
 </div>
 
