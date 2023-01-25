@@ -14,11 +14,44 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3495" class=".btn">#3495</a>
+            </td>
+            <td>
+                <b>
+                    fix: Move cnf and _sd_alg to vc level
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Move cnf and _sd_alg from credential subject level to vc level
+
+Closes #3494
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-24 21:06:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3493" class=".btn">#3493</a>
             </td>
             <td>
                 <b>
-                    wip: parse sd-jwt vc
+                    feat: verifiable.ParseCredential() supports combined SD-JWT credentials
                 </b>
             </td>
         </tr>
@@ -265,39 +298,6 @@ Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
     </table>
     <div class="right-align">
         Created At 2023-01-18 16:15:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3480" class=".btn">#3480</a>
-            </td>
-            <td>
-                <b>
-                    chore: Create SD-JWT without signature
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add test for creating SD-JWT without signature.
-
-Closes #3479
-
-Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-17 21:03:26 +0000 UTC
     </div>
 </div>
 

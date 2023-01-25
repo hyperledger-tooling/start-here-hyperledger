@@ -194,31 +194,3 @@ Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/906" class=".btn">#906</a>
-            </td>
-            <td>
-                <b>
-                    run test suites with 2.5 binaries and images
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Runs the fabric-samples test suites with Fabric 2.5 images and binaries.
-
-Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-17 20:01:21 +0000 UTC
-    </div>
-</div>
-
