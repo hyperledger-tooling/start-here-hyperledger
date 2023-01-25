@@ -14,6 +14,176 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3948" class=".btn">#3948</a>
+            </td>
+            <td>
+                <b>
+                    Bump Go to 1.18.10
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bump Go to 1.18.10.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-25 17:44:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3947" class=".btn">#3947</a>
+            </td>
+            <td>
+                <b>
+                    BroadcastTimeout for Gateway (backport #3942) (backport #3944)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is an automatic backport of pull request #3944 done by [Mergify](https://mergify.com).
+
+
+---
+
+
+<details>
+<summary>Mergify commands and options</summary>
+
+<br />
+
+More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
+
+You can also trigger Mergify actions by commenting on this pull request:
+
+- `@Mergifyio refresh` will re-evaluate the rules
+- `@Mergifyio rebase` will rebase this PR on its base branch
+- `@Mergifyio update` will merge the base branch into this PR
+- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
+
+Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
+
+- look at your merge queues
+- generate the Mergify configuration with the config editor.
+
+Finally, you can contact us on https://mergify.com
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-25 17:04:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3945" class=".btn">#3945</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: Remove system channel usage from integration tests: raft
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Orderer v3: Remove system channel usage from integration tests: raft
+
+#### Related issues
+
+Epic: #3511
+Issue: #3515
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-25 15:37:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3944" class=".btn">#3944</a>
+            </td>
+            <td>
+                <b>
+                    BroadcastTimeout for Gateway (backport #3942)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is an automatic backport of pull request #3942 done by [Mergify](https://mergify.com).
+
+
+---
+
+
+<details>
+<summary>Mergify commands and options</summary>
+
+<br />
+
+More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
+
+You can also trigger Mergify actions by commenting on this pull request:
+
+- `@Mergifyio refresh` will re-evaluate the rules
+- `@Mergifyio rebase` will rebase this PR on its base branch
+- `@Mergifyio update` will merge the base branch into this PR
+- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
+
+Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
+
+- look at your merge queues
+- generate the Mergify configuration with the config editor.
+
+Finally, you can contact us on https://mergify.com
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-25 14:38:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3942" class=".btn">#3942</a>
             </td>
             <td>
@@ -295,116 +465,6 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2023-01-18 21:25:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3934" class=".btn">#3934</a>
-            </td>
-            <td>
-                <b>
-                    Orderer v3: Remove system channel usage from integration tests: pluggable, sbe
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-#### Type of change
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-Orderer v3: Remove system channel usage from integration tests: pluggable, sbe
-
-#### Related issues
-
-Epic: #3511
-Issue: #3515
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-18 14:39:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3933" class=".btn">#3933</a>
-            </td>
-            <td>
-                <b>
-                    Orderer v3: Remove system channel usage from integration tests: pkcs11
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-Orderer v3: Remove system channel usage from integration tests: pkcs11
-
-#### Related issues
-
-Epic: #3511
-Issue: #3515
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-18 14:16:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3932" class=".btn">#3932</a>
-            </td>
-            <td>
-                <b>
-                    Orderer v3: Remove system channel usage from integration tests: msp
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-#### Type of change
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-Orderer v3: Remove system channel usage from integration tests: msp
-
-#### Related issues
-
-Epic: #3511
-Issue: #3515
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-18 13:35:41 +0000 UTC
     </div>
 </div>
 

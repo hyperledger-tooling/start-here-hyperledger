@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2091" class=".btn">#2091</a>
+            </td>
+            <td>
+                <b>
+                    Allow using YAML configuration file with run_docker
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This will allow using scripts like this:
+
+```bash
+#!/usr/bin/env bash
+
+# Uncomment for debugging
+# set -o xtrace
+
+set -eo pipefail  # Exit the script if any statement returns error.
+
+SCRIPT_DIR="$( dirname "$(readlink -f "$0")" )"
+
+export CONTAINER_NAME="aries_issuer"
+export NETWORK_NAME="aries-mediator-service_mediator-network"
+export PORTS="8002 11002"
+export ARG_FILE="${SCRIPT_DIR}/cfg_issuer.yml"
+
+../aries-cloudagent-python/scripts/run_docker start
+```
+
+I find working with yaml files easier/faster than very, very long command line when testing and debugging (because I can simply comment out some configs and uncomment others at the same time).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-25 15:26:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2090" class=".btn">#2090</a>
             </td>
             <td>

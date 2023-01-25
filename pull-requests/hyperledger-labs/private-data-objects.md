@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/393" class=".btn">#393</a>
+            </td>
+            <td>
+                <b>
+                    miscellaneous fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR contains some random (small) fixes. It currently includes all the build changes so do not merge. If these changes look fine, it can pull them out so it can be applied separately (without the bigger makefile changes).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-25 15:54:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/392" class=".btn">#392</a>
             </td>
             <td>
