@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-channeled-add-ons-gen
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-channeled-add-ons-gen/pull/7" class=".btn">#7</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-channeled-add-ons-gen/pull/8" class=".btn">#8</a>
             </td>
             <td>
                 <b>
-                    Mnemonic instead of private key
+                    Mnemonic-instead-of-private-key
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-channeled-add-ons-gen
                 
             </td>
             <td>
-                Based on [BIP 39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) and [BIP 32](https://github.com/bitcoin/bips/blob/master/bip-0032/derivation.png).
+                Signed-off-by: Leonidas Avdelas <avdelasleonidas@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-24 13:47:18 +0000 UTC
+        Created At 2023-01-25 11:45:30 +0000 UTC
     </div>
 </div>
 

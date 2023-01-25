@@ -14,26 +14,52 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/445" class=".btn">#445</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/447" class=".btn">#447</a>
             </td>
             <td>
                 <b>
-                    customise fabric driver
+                    Support for multiple key management mechanisms
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">enhancement</span>
+                
             </td>
             <td>
-                This PR allows developers to choose which Fabric driver to use. The driver name can be specified in the configuration file.
-In addition, the PR adds util methods to the RWSet to get back the list of written keys.
+                - Exposed a Driver interface which helps to extend the key management mechanisms used. 
+- Feature helps to plug in any key management services to FSC
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-18 06:50:06 +0000 UTC
+        Created At 2023-01-25 10:14:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/446" class=".btn">#446</a>
+            </td>
+            <td>
+                <b>
+                    Create scorecard.yml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-25 06:59:27 +0000 UTC
     </div>
 </div>
 

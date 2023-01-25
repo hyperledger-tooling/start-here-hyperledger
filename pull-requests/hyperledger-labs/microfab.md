@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger-labs/microfab
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/microfab/pull/138" class=".btn">#138</a>
+            </td>
+            <td>
+                <b>
+                    Add in testing of the built container
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As well as the integration tests, run the built container. Follows the basic case of the tutorial
+
+Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-25 09:35:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/microfab/pull/137" class=".btn">#137</a>
+            </td>
+            <td>
+                <b>
+                    Readme updates on nip.io
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-25 09:23:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/microfab/pull/136" class=".btn">#136</a>
             </td>
             <td>
