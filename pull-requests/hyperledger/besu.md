@@ -29,23 +29,18 @@ permalink: /pull-requests/hyperledger/besu
             <td>
                 Signed-off-by: Sally MacFarlane <macfarla.github@gmail.com>
 
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
+Modify CI unitTest task to utilize test parallelization
+* follow what we do for acceptanceTest task
+* except we can't split on test name, so split on directories that contain src/test/java 
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -1721,90 +1716,6 @@ Change BlockBody to use an overloaded constructor with withdrawals instead havin
     </table>
     <div class="right-align">
         Created At 2023-01-18 06:26:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4954" class=".btn">#4954</a>
-            </td>
-            <td>
-                <b>
-                    Fix npe from subcommands
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-This fixes the NPE from some of the engine-api hive test that call the importBlock subcommand
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-18 04:37:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4953" class=".btn">#4953</a>
-            </td>
-            <td>
-                <b>
-                    engine_getPayloadV2 Withdrawals
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span><span class="chip">mainnet</span><span class="chip">EIP</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Return withdrawals to engine_getPayloadV2, if they exist (implying it's a Shanghai block)
-
-Spec: https://github.com/ethereum/execution-apis/blob/main/src/engine/shanghai.md#response-2
-
-Also small unrelated fix to BlockReplay for Shanghai
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-Fixes #4776
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-18 04:20:40 +0000 UTC
     </div>
 </div>
 

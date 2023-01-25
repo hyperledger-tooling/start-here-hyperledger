@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-go/pull/66" class=".btn">#66</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-go/pull/67" class=".btn">#67</a>
             </td>
             <td>
                 <b>
-                    Bump google.golang.org/grpc from 1.48.0 to 1.52.0
+                    Bump google.golang.org/grpc from 1.48.0 to 1.52.1
                 </b>
             </td>
         </tr>
@@ -27,11 +27,16 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [google.golang.org/grpc](https://github.com/grpc/grpc-go) from 1.48.0 to 1.52.0.
+                Bumps [google.golang.org/grpc](https://github.com/grpc/grpc-go) from 1.48.0 to 1.52.1.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/grpc/grpc-go/releases">google.golang.org/grpc's releases</a>.</em></p>
 <blockquote>
+<h2>Release 1.52.1</h2>
+<h1>Bug Fixes</h1>
+<ul>
+<li>grpclb: rename grpclbstate package back to state (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5963">#5963</a>)</li>
+</ul>
 <h2>Release 1.52.0</h2>
 <h1>New Features</h1>
 <ul>
@@ -101,15 +106,6 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
 <li>balancer: add experimental Producer types and methods (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5669">#5669</a>)</li>
 <li>orca: provide a way for LB policies to receive OOB load reports (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5669">#5669</a>)</li>
 </ul>
-<h1>Bug Fixes</h1>
-<ul>
-<li>go.mod: upgrade x/text dependency to address <a href="https://www.cve.org/CVERecord?id=CVE-2022-32149">CVE 2022-32149</a> (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5769">#5769</a>)</li>
-<li>client: fix race that could lead to an incorrect connection state if it was closed immediately after the server's HTTP/2 preface was received (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5714">#5714</a>)
-<ul>
-<li>Special Thanks: <a href="https://github.com/fuweid"><code>@​fuweid</code></a></li>
-</ul>
-</li>
-</ul>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -117,23 +113,23 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-go
 <details>
 <summary>Commits</summary>
 <ul>
+<li><a href="https://github.com/grpc/grpc-go/commit/2b4813f8d7ce9f724d716be9cc69af645102af26"><code>2b4813f</code></a> Change version to 1.52.1 (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5965">#5965</a>)</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/f7ecbb24e152e5d00f8a12976b65fe69b3907667"><code>f7ecbb2</code></a> Cherry pick: grpclb: rename <code>grpclbstate</code> package back to <code>state</code> (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5962">#5962</a>) (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5">#5</a>...</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/e593b4a4da85229e72d8dc9757b6e78bbce9e5e0"><code>e593b4a</code></a> xds interop: Fix buildscripts not continuing on a failed test suite (v1.52.x ...</li>
+<li><a href="https://github.com/grpc/grpc-go/commit/02d3b9b77a1c02368412e9995b323ba02ab157a0"><code>02d3b9b</code></a> Change version to 1.52.1-dev (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5871">#5871</a>)</li>
 <li><a href="https://github.com/grpc/grpc-go/commit/ce56cefc0cc80503d7f8de1e1ec1af3cb741fbd7"><code>ce56cef</code></a> Change version to 1.52.0 (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5870">#5870</a>)</li>
 <li><a href="https://github.com/grpc/grpc-go/commit/a0e8eb9dc4111cd4d8dc52bc89cd733e5630fc0c"><code>a0e8eb9</code></a> test: rename race.go to race_test.go (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5869">#5869</a>)</li>
 <li><a href="https://github.com/grpc/grpc-go/commit/ae86ff40e723905d1d7f084405a7ed6e9a5265e1"><code>ae86ff4</code></a> benchmark: fix typo in ClientReadBufferSize feature name (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5867">#5867</a>)</li>
 <li><a href="https://github.com/grpc/grpc-go/commit/e53d28f5eb19a6816d4bb5c3db1b793ac2ba3e49"><code>e53d28f</code></a> xdsclient: log node ID with verbosity INFO (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5860">#5860</a>)</li>
 <li><a href="https://github.com/grpc/grpc-go/commit/9373e5cb26f0e34c1b5fa54f1ba712979b54d661"><code>9373e5c</code></a> transport: Fix closing a closed channel panic in handlePing (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5854">#5854</a>)</li>
 <li><a href="https://github.com/grpc/grpc-go/commit/2f413c454850afdb19a685fdee95c5d7701891ab"><code>2f413c4</code></a> transport/http2: use HTTP 400 for bad requests instead of 500 (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5804">#5804</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/5003029eb684a60a7a84aad3ad498d7bf1e44628"><code>5003029</code></a> testutils: do a better job of verifying pick_first in tests (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5850">#5850</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/3e27f89917e8092469db2709c5d726acaaa2396e"><code>3e27f89</code></a> binarylog: Account for key in metadata truncation (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5851">#5851</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/f54bba9af73267dcc87fcc4841dfa1e0de39d332"><code>f54bba9</code></a> test/xds: minor cleanup in xDS e2e test (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5843">#5843</a>)</li>
-<li><a href="https://github.com/grpc/grpc-go/commit/a9709c3f8cfe5f22703b8cfebd83d3996f8fbb33"><code>a9709c3</code></a> Added logs for reasons causing connection and transport close (<a href="https://github-redirect.dependabot.com/grpc/grpc-go/issues/5840">#5840</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/grpc/grpc-go/compare/v1.48.0...v1.52.0">compare view</a></li>
+<li>Additional commits viewable in <a href="https://github.com/grpc/grpc-go/compare/v1.48.0...v1.52.1">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=google.golang.org/grpc&package-manager=go_modules&previous-version=1.48.0&new-version=1.52.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=google.golang.org/grpc&package-manager=go_modules&previous-version=1.48.0&new-version=1.52.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -164,7 +160,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-11 04:10:36 +0000 UTC
+        Created At 2023-01-25 04:08:18 +0000 UTC
     </div>
 </div>
 
