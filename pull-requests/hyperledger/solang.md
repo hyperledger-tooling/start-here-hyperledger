@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1139" class=".btn">#1139</a>
+            </td>
+            <td>
+                <b>
+                    Adapt ink cross call test to new interface
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Today a new ink! beta was released. For betas, the ink umbrella crate currently selects the latest version automatically, which introduces a breaking change. I fixed the integration test to fake a `Result<u32>` value, until we have a proper cross call interface.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-25 13:46:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1137" class=".btn">#1137</a>
             </td>
             <td>
@@ -175,32 +201,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2023-01-18 19:51:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1131" class=".btn">#1131</a>
-            </td>
-            <td>
-                <b>
-                    mappings and arrays can also cause recursive struct fields
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes https://github.com/xermicus/fuzzy-sol/issues/31
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-18 15:29:57 +0000 UTC
     </div>
 </div>
 

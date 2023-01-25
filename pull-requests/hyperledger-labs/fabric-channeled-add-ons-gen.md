@@ -28,6 +28,9 @@ permalink: /pull-requests/hyperledger-labs/fabric-channeled-add-ons-gen
             </td>
             <td>
                 Signed-off-by: Leonidas Avdelas <avdelasleonidas@gmail.com>
+
+
+Based on [BIP-32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki#user-content-Specification_Key_derivation) and [BIP-39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki).
             </td>
         </tr>
     </table>

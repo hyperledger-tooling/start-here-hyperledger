@@ -293,38 +293,3 @@ Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3481" class=".btn">#3481</a>
-            </td>
-            <td>
-                <b>
-                    feat: Add structured claims option
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added:
-- structured claims option to issuer
-- verify digests in structured claims for holder
-- structured claims processing to verifier
-
-Closes #3478
-
-Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-18 16:15:26 +0000 UTC
-    </div>
-</div>
-
