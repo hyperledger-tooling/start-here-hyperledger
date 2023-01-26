@@ -1,13 +1,13 @@
 
+[2094](https://github.com/hyperledger/aries-cloudagent-python/pull/2094) Webhook Security
+
+[3950](https://github.com/hyperledger/fabric/pull/3950) Update release action to trigger from tag (release-2.4)
+
+[68](https://github.com/hyperledger/fabric-chaincode-go/pull/68) Bump google.golang.org/grpc from 1.48.0 to 1.52.3
+
+[3086](https://github.com/hyperledger/iroha/pull/3086) [documentation] #3079: update the dependencies further
+
 [394](https://github.com/hyperledger-labs/private-data-objects/pull/394) Several small fixes
-
-[357](https://github.com/hyperledger-labs/fabric-operations-console/pull/357) fix rendering of must gather buttons
-
-[3498](https://github.com/hyperledger/aries-framework-go/pull/3498) feat: SD-JWT: Add option for non-selectively disclosable claims (issuer)
-
-[919](https://github.com/hyperledger/fabric-samples/pull/919) Run FSAT tests with 2.5 images, binaries, and trigger on all builds for regression coverage
-
-[198](https://github.com/hyperledger/sawtooth-docs/pull/198) Add Inclusive Language information
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
