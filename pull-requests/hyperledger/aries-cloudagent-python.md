@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2095" class=".btn">#2095</a>
+            </td>
+            <td>
+                <b>
+                    feat: universal resolver - configurable authentication
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Context: we want to allow aca-py instances to connect to privately run universal resolvers such as the one from godiddy. This requires authentication.
+
+* Add `--universal-resolver-bearer-token` to allow authentication against privately run universal resolvers.
+
+BREAKING CHANGE:
+Configured url should now include the `/1.0` suffix. The default url reflects that changes.
+* This is to have a more flexible configuration of the universal resolver's api route (required in the case of godiddy).
+* The alternative would be to make the suffix configurable too. I just found it a bit fiddly both in code and configuration. Let me know if the breaking change in configuration is not acceptable.
+
+Signed-off-by: Clément Humbert <clement.humbert@sicpa.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-26 10:49:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2094" class=".btn">#2094</a>
             </td>
             <td>

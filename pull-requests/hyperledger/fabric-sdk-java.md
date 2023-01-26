@@ -114,29 +114,3 @@ Finally, you can contact us on https://mergify.com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/255" class=".btn">#255</a>
-            </td>
-            <td>
-                <b>
-                    Simplify pull request checks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add a job to the end of the pull_request workflow that depends on the build jobs, and can be used as a single job to check pull request success. This avoids the need to change the branch protection PR checks when changes are made to the build process.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-19 11:04:12 +0000 UTC
-    </div>
-</div>
-
