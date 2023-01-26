@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/cckit
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/cckit/pull/20" class=".btn">#20</a>
+            </td>
+            <td>
+                <b>
+                    Refactor verify signature and envelope generation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                To support proper serialisation of the envelope data from frontend to chaincode
+
+Signed-off-by: olaeseane <olaesean@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-26 13:42:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/cckit/pull/19" class=".btn">#19</a>
             </td>
             <td>
@@ -87,32 +115,6 @@ Signed-off-by: olaeseane <olaesean@gmail.com>
     </table>
     <div class="right-align">
         Created At 2023-01-23 06:15:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/cckit/pull/16" class=".btn">#16</a>
-            </td>
-            <td>
-                <b>
-                    rename token.Store interface to token.BalanceStore
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Viktor Nosov <v.nosov@atomyze.team>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-19 14:49:45 +0000 UTC
     </div>
 </div>
 
