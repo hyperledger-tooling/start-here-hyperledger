@@ -1,13 +1,13 @@
 
-[2094](https://github.com/hyperledger/aries-cloudagent-python/pull/2094) Webhook Security
+[303](https://github.com/hyperledger/iroha-java/pull/303) Iroha version downgrade
 
-[3950](https://github.com/hyperledger/fabric/pull/3950) Update release action to trigger from tag (release-2.4)
+[3952](https://github.com/hyperledger/fabric/pull/3952) Document broadcast timeout
 
-[68](https://github.com/hyperledger/fabric-chaincode-go/pull/68) Bump google.golang.org/grpc from 1.48.0 to 1.52.3
+[2095](https://github.com/hyperledger/aries-cloudagent-python/pull/2095) feat: universal resolver - configurable authentication
 
-[3086](https://github.com/hyperledger/iroha/pull/3086) [documentation] #3079: update the dependencies further
+[3951](https://github.com/hyperledger/fabric/pull/3951) License name in swagger should be Apache-2.0
 
-[394](https://github.com/hyperledger-labs/private-data-objects/pull/394) Several small fixes
+[1140](https://github.com/hyperledger/solang/pull/1140) Do not build stdlib/bigint.c while it cannot be built with llvm 14
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
