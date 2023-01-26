@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3086" class=".btn">#3086</a>
+            </td>
+            <td>
+                <b>
+                    [documentation] #3079: update the dependencies further
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Description of the Change
+
+I have updated the `requirements.txt` further.
+
+### Issue
+
+Build on Read the Docs was still broken and I've picked the appropriate package versions.
+
+### Benefits
+
+The documentation on Read the Docs will be building again and will include all the recent changes.
+
+### Possible Drawbacks
+
+None
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-26 01:41:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3083" class=".btn">#3083</a>
             </td>
             <td>
