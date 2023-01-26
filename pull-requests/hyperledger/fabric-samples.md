@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/919" class=".btn">#919</a>
+            </td>
+            <td>
+                <b>
+                    Run FSAT tests with 2.5 images, binaries, and trigger on all builds for regression coverage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR runs the FSAT tests for all commits, not just edits under the full-stack-asset-transfer guide sub-folder.
+
+We had some regressions in the fabric-shim when moving to 2.5.1 which would have been caught by the FSAT tests, had they been run with all of the samples commits.  This PR re-enables the FSAT tests to run on all builds: 
+
+- runs with 2.5 binaries/ images 
+- pins fabric-contract-api and fabric-shim to 2.4.0 (still some issues to sort out with 2.5.1) 
+- Removes an annoying lint warning for unused variables.
+- Displays a useful message to the console, explaining why Bananaman can not transfer a token to Appleman.   (In some cases of users running through the workshop, it was not clear that there was work to be done to implement this one-line function.)
+
+Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-25 20:54:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/917" class=".btn">#917</a>
             </td>
             <td>

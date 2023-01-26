@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3498" class=".btn">#3498</a>
+            </td>
+            <td>
+                <b>
+                    feat: SD-JWT: Add option for non-selectively disclosable claims (issuer)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                From spec: The Issuer may also make certain claims or sub-claims non-selectively disclosable. 
+
+Added option WithNonSelectivelyDisclosableClaims() for specifying non-selectively disclosable claims to issuer.
+
+Closes: #3497
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-25 21:07:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3496" class=".btn">#3496</a>
             </td>
             <td>

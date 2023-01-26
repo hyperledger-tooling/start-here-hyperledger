@@ -1,13 +1,13 @@
 
-[3948](https://github.com/hyperledger/fabric/pull/3948) Bump Go to 1.18.10
+[394](https://github.com/hyperledger-labs/private-data-objects/pull/394) Several small fixes
 
-[3947](https://github.com/hyperledger/fabric/pull/3947) BroadcastTimeout for Gateway (backport #3942) (backport #3944)
+[357](https://github.com/hyperledger-labs/fabric-operations-console/pull/357) fix rendering of must gather buttons
 
-[450](https://github.com/hyperledger/fabric-test/pull/450) Ensure the binaries are on the path
+[3498](https://github.com/hyperledger/aries-framework-go/pull/3498) feat: SD-JWT: Add option for non-selectively disclosable claims (issuer)
 
-[393](https://github.com/hyperledger-labs/private-data-objects/pull/393) miscellaneous fixes
+[919](https://github.com/hyperledger/fabric-samples/pull/919) Run FSAT tests with 2.5 images, binaries, and trigger on all builds for regression coverage
 
-[3945](https://github.com/hyperledger/fabric/pull/3945) Orderer v3: Remove system channel usage from integration tests: raft
+[198](https://github.com/hyperledger/sawtooth-docs/pull/198) Add Inclusive Language information
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

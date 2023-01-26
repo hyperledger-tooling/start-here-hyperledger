@@ -176,31 +176,3 @@ Signed-off-by: Sean Young <sean@mess.org>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1132" class=".btn">#1132</a>
-            </td>
-            <td>
-                <b>
-                    Fix encoder for multidimensional dynamic arrays
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The example in the tests is the one of the cases I found in which we can use two dynamic dimensions in an array. The example helped me find various bugs in the way I was treating them in the encoder. This is also going to help @xermicus with his #1128 PR.
-
-@xermicus You can decided whether to merge this PR or incorporate the change into your PR.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-18 19:51:50 +0000 UTC
-    </div>
-</div>
-
