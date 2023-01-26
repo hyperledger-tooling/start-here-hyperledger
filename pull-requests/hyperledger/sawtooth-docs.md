@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/197" class=".btn">#197</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-docs/pull/198" class=".btn">#198</a>
             </td>
             <td>
                 <b>
-                    Update lifecycle status and link
+                    Add Inclusive Language information
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-docs
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Andrea Gunderson <agunde@bitwise.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-28 17:35:23 +0000 UTC
+        Created At 2023-01-25 20:23:18 +0000 UTC
     </div>
 </div>
 

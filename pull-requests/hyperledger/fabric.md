@@ -439,32 +439,3 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3935" class=".btn">#3935</a>
-            </td>
-            <td>
-                <b>
-                    Add release notes for v2.5.0-beta
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add release notes for v2.5.0-beta.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-18 21:25:44 +0000 UTC
-    </div>
-</div>
-
