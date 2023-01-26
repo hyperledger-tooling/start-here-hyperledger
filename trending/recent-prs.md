@@ -1,13 +1,13 @@
 
-[303](https://github.com/hyperledger/iroha-java/pull/303) Iroha version downgrade
+[3960](https://github.com/hyperledger/fabric/pull/3960) Release commit for v2.5.0-beta
 
-[3952](https://github.com/hyperledger/fabric/pull/3952) Document broadcast timeout
+[3959](https://github.com/hyperledger/fabric/pull/3959) Bump Go to 1.18.10 (main)
 
-[2095](https://github.com/hyperledger/aries-cloudagent-python/pull/2095) feat: universal resolver - configurable authentication
+[3958](https://github.com/hyperledger/fabric/pull/3958) Bump Go to 1.18.10 (release-2.5)
 
-[3951](https://github.com/hyperledger/fabric/pull/3951) License name in swagger should be Apache-2.0
+[3957](https://github.com/hyperledger/fabric/pull/3957) Nominate Yoav Tock to be a maintainer of Fabric core
 
-[1140](https://github.com/hyperledger/solang/pull/1140) Do not build stdlib/bigint.c while it cannot be built with llvm 14
+[3956](https://github.com/hyperledger/fabric/pull/3956) Update my email address
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
