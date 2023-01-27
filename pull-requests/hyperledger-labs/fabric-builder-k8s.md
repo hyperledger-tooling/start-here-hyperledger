@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/77" class=".btn">#77</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/79" class=".btn">#79</a>
             </td>
             <td>
                 <b>
-                    Add service account configuration
+                    Run tests on macOS
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
                 
             </td>
             <td>
-                The chaincode pod service account may need image pull secrets defined to access chaincode images, which should not be added to the default service account
-
-Add a new FABRIC_K8S_BUILDER_SERVICE_ACCOUNT option to start chaincode pods with a different service account
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-16 16:58:52 +0000 UTC
+        Created At 2023-01-27 10:16:27 +0000 UTC
     </div>
 </div>
 

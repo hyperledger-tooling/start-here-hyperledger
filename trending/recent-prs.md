@@ -1,13 +1,13 @@
 
-[67](https://github.com/hyperledger-labs/fabric-opssc/pull/67) chore(deps): Bump simple-git from 3.15.0 to 3.16.0 in /opssc-agent/src
+[358](https://github.com/hyperledger-labs/fabric-operations-console/pull/358) Bump ua-parser-js from 0.7.31 to 0.7.33 in /packages/stitch
 
-[395](https://github.com/hyperledger-labs/private-data-objects/pull/395) Add MAINTAINERS file
+[79](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/79) Run tests on macOS
 
-[226](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/226) Move file to labs
+[57](https://github.com/hyperledger-labs/yui-docs/pull/57) Bump ua-parser-js from 0.7.30 to 0.7.33 in /contracts/minitoken/solidity
 
-[3960](https://github.com/hyperledger/fabric/pull/3960) Release commit for v2.5.0-beta
+[56](https://github.com/hyperledger-labs/yui-docs/pull/56) Bump ua-parser-js from 0.7.30 to 0.7.33 in /docsrcs/yui-ibc-solidity
 
-[3959](https://github.com/hyperledger/fabric/pull/3959) Bump Go to 1.18.10 (main)
+[339](https://github.com/hyperledger-labs/blockchain-explorer/pull/339) added github ci
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
