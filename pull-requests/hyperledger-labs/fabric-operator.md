@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/92" class=".btn">#92</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/93" class=".btn">#93</a>
             </td>
             <td>
                 <b>
-                    Add support for CA Idemix config override stanza
+                    Hyperledger explorer integration
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                Adds support for Idemix configuration parameters to the CA CRD `spec.configoverride.ca.idemix` stanza.
-
-Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
+                Hyperledger Explorer provides insights into the fabric network.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-05 20:55:04 +0000 UTC
+        Created At 2023-01-27 18:10:02 +0000 UTC
     </div>
 </div>
 
