@@ -14,6 +14,68 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4994" class=".btn">#4994</a>
+            </td>
+            <td>
+                <b>
+                    verfifying kzg proof
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-24 12:32:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4993" class=".btn">#4993</a>
+            </td>
+            <td>
+                <b>
+                    Change to optional orElseGet
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix do not evaluate second expression if the value is present.
+
+Signed-off-by: ħþ <12281088+helderjnpinto@users.noreply.github.com>
+
+## PR description
+
+This is causing some issues when we got a earlier version of besu after this PR https://github.com/hyperledger/besu/pull/3065, the problem is caused by gasPrice existing in transaction but is too big to fit in Long types.
+Evaluating the second expression is not needed if the gasPrice is present also causing extra processing.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-24 11:01:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4992" class=".btn">#4992</a>
             </td>
             <td>
@@ -461,36 +523,6 @@ Signed-off-by: Danno Ferrin <danno.ferrin@swirldslabs.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4981" class=".btn">#4981</a>
-            </td>
-            <td>
-                <b>
-                    merged main
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Implements EngineAPI V3
-
-Signed-off-by: Justin Florentine <justin+github@florentine.us>
-
-#4966 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-23 10:31:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4980" class=".btn">#4980</a>
             </td>
             <td>
@@ -802,52 +834,6 @@ fix existing javadoc regressions in main ahead of enabling javadoc_17 action req
     </table>
     <div class="right-align">
         Created At 2023-01-22 10:04:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4970" class=".btn">#4970</a>
-            </td>
-            <td>
-                <b>
-                    Add max_fee_per_data_gas field to transaction
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Fabio Di Fabio <fabio.difabio@consensys.net>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-Add max_fee_per_data_gas field to transaction
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-20 14:43:30 +0000 UTC
     </div>
 </div>
 
