@@ -15,34 +15,34 @@ permalink: /releases/hyperledger/firefly-transaction-manager
         <tr>
             <td colspan="2">
                 <b>
-                    v1.1.6
+                    v1.2.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.1.6
+                    v1.2.0
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Reduce the size of websocket updates for transactions. by @matthew1001 in https://github.com/hyperledger/firefly-transaction-manager/pull/45
-* Allow prometheus metrics to be enabled in FFTM by @matthew1001 in https://github.com/hyperledger/firefly-transaction-manager/pull/41
-* Add AddressBalance() to FFCAPI and a new REST API route to call it by @matthew1001 in https://github.com/hyperledger/firefly-transaction-manager/pull/46
+* Update to firefly-common@v1.2.0 by @nguyer in https://github.com/hyperledger/firefly-transaction-manager/pull/52
+* Update to firefly-common@v1.2.1 by @nguyer in https://github.com/hyperledger/firefly-transaction-manager/pull/53
+* Add chain gas price API by @matthew1001 in https://github.com/hyperledger/firefly-transaction-manager/pull/56
+* Bring FFTM back to 100% test coverage by @matthew1001 in https://github.com/hyperledger/firefly-transaction-manager/pull/54
+* Transaction substatus by @matthew1001 in https://github.com/hyperledger/firefly-transaction-manager/pull/51
 
-## New Contributors
-* @matthew1001 made their first contribution in https://github.com/hyperledger/firefly-transaction-manager/pull/45
 
-**Full Changelog**: https://github.com/hyperledger/firefly-transaction-manager/compare/v1.1.5...v1.1.6
+**Full Changelog**: https://github.com/hyperledger/firefly-transaction-manager/compare/v1.1.6...v1.2.0
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.1.6" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.2.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-12-20 16:24:20 +0000 UTC
+        Created At 2023-01-27 18:10:52 +0000 UTC
     </span>
 </div>
 
