@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3972" class=".btn">#3972</a>
+            </td>
+            <td>
+                <b>
+                    Remove whitespace character from ORDERER_GENERAL_LISTENPORT
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: kartik chauhan <chauhan.kartik25@gmail.com>
+
+<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Documentation update
+
+#### Description
+
+<!--- Describe your changes in detail, including motivation. -->
+env variable `ORDERER_GENERAL_ LISTENPORT` in section `Experimenting with the orderer service` of the page https://github.com/hyperledger/fabric/tree/main/orderer contains a whitespace character. Fixed the issue by removing the whitespace character.
+
+#### Additional details
+
+<!--- Additional implementation details or comments to reviewers. -->
+<!--- Summarize how the pull request was tested (if not obvious from commit). -->
+
+#### Related issues
+
+<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
+https://github.com/hyperledger/fabric/issues/3971
+
+<!---
+#### Release Note
+If change impacts current users, uncomment Release Note heading and provide
+release note text.
+Also, copy release note text into the release specific /release_notes file.
+-->
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-28 03:57:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3970" class=".btn">#3970</a>
             </td>
             <td>
