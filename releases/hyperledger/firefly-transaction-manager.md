@@ -15,6 +15,38 @@ permalink: /releases/hyperledger/firefly-transaction-manager
         <tr>
             <td colspan="2">
                 <b>
+                    v1.2.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v1.2.1
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Suggestions on TODOs and comments/naming for TX History API by @peterbroadhurst in https://github.com/hyperledger/firefly-transaction-manager/pull/58
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-transaction-manager/compare/v1.2.0...v1.2.1
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.2.1" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-01-30 15:22:33 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v1.2.0
                 </b>
             </td>
