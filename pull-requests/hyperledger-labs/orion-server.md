@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/490" class=".btn">#490</a>
+            </td>
+            <td>
+                <b>
+                    Use lock-free map for LevelDB
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">performance</span>
+            </td>
+            <td>
+                - Replacing map with sync.Map
+- Caching DB snapshot after commit to avoid creating a snapshot for each Get operation
+- Modifying cache to return byte array to avoid code duplication
+- Remove Db lock because levelDB is already protected
+- Reduce code duplication in Open()
+
+Signed-off-by: Liran Funaro <liran.funaro@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-30 14:58:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/489" class=".btn">#489</a>
             </td>
             <td>
