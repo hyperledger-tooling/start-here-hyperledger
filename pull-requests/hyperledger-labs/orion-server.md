@@ -46,31 +46,3 @@ Signed-off-by: Liran Funaro <liran.funaro@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/488" class=".btn">#488</a>
-            </td>
-            <td>
-                <b>
-                    Initial metrics design
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                In the final implementation, the registry object will propagate to all the instances that have some metric to register.
-
-Signed-off-by: Liran Funaro <liran.funaro@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-23 10:20:38 +0000 UTC
-    </div>
-</div>
-
