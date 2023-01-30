@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3975" class=".btn">#3975</a>
+            </td>
+            <td>
+                <b>
+                    Add BFT support to gateway
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Extend the gateway Submit() logic to concurrently send transaction to all available orderers if the channel is configured to use BFT ordering service.
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-30 16:01:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3974" class=".btn">#3974</a>
             </td>
             <td>
@@ -1475,47 +1504,6 @@ Finally, you can contact us on https://mergify.com
     </table>
     <div class="right-align">
         Created At 2023-01-24 04:57:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3938" class=".btn">#3938</a>
-            </td>
-            <td>
-                <b>
-                    Orderer v3: Remove system channel usage from integration tests: pvtdata
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Yoav Tock <tock@il.ibm.com>
-Change-Id: Id571a7c012d31f19c71ff2d0939e43761b6c2d44
-
-#### Type of change
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-Orderer v3: Remove system channel usage from integration tests: pvtdata
-
-#### Related issues
-
-Epic: #3511
-Issue: #3515
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-23 15:01:35 +0000 UTC
     </div>
 </div>
 
