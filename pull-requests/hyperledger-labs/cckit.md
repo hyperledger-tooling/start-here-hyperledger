@@ -64,29 +64,3 @@ Signed-off-by: olaeseane <olaesean@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/cckit/pull/18" class=".btn">#18</a>
-            </td>
-            <td>
-                <b>
-                    BigInt to decimal, remove custom json marshalling for BigInt
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-23 09:42:44 +0000 UTC
-    </div>
-</div>
-

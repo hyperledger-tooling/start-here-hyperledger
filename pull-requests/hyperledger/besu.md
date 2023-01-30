@@ -14,6 +14,123 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4997" class=".btn">#4997</a>
+            </td>
+            <td>
+                <b>
+                    Implement engine_exchangeCapabilities
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                https://github.com/ethereum/execution-apis/pull/364
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-24 16:29:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4996" class=".btn">#4996</a>
+            </td>
+            <td>
+                <b>
+                    Update Reference Tests to 11.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+* Do not check state on failed TXes
+* Exclude EIPTests from test set
+
+Signed-off-by: Danno Ferrin <danno.ferrin@swirldslabs.com>
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [X] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-24 16:24:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/4995" class=".btn">#4995</a>
+            </td>
+            <td>
+                <b>
+                    Withdrawals processor delete empty account
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamGroot</span><span class="chip">mainnet</span>
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This fixes an issue that was found in the withdrawal reference tests where we update an account with a balance of zero. Ensure that the withdrawals processor clears empty accounts so that we conform to eip-158.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-24 15:20:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/4994" class=".btn">#4994</a>
             </td>
             <td>
@@ -471,121 +588,6 @@ Change BlockValueCalculator to use Wei rather than unnecessarily converting to l
     </table>
     <div class="right-align">
         Created At 2023-01-23 17:02:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4982" class=".btn">#4982</a>
-            </td>
-            <td>
-                <b>
-                    Don't cache protocol spec in block creator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-
-## PR description
-
-Don't cache the protocol spec in the block creator.  With the new shanghaiTimestamp the correct spec may be a function of the timestamp not just the block number.  So every time we are asked to build a block re-query the spec.
-
-Signed-off-by: Danno Ferrin <danno.ferrin@swirldslabs.com>
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-23 10:39:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4980" class=".btn">#4980</a>
-            </td>
-            <td>
-                <b>
-                    Add getPayloadBodiesByRangeV1 and getPayloadBodiesByHash engine methods
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">doc-change-required</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-This PR adds the methods getPayloadBodiesByRangeV1 and getPayloadBodiesByHash to the engine API.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Fixes #4787
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-23 10:25:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4979" class=".btn">#4979</a>
-            </td>
-            <td>
-                <b>
-                    SSZ - encoding
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                SSZ - encoding using the tuweni snapshots
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-23 10:17:16 +0000 UTC
     </div>
 </div>
 
