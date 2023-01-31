@@ -39,29 +39,3 @@ Based on [BIP-32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-channeled-add-ons-gen/pull/5" class=".btn">#5</a>
-            </td>
-            <td>
-                <b>
-                    Fix import error
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Leonidas Avdelas <avdelasleonidas@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-24 09:11:07 +0000 UTC
-    </div>
-</div>
-
