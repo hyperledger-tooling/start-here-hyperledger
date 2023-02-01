@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/447" class=".btn">#447</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/448" class=".btn">#448</a>
             </td>
             <td>
                 <b>
-                    Support for multiple key management mechanisms
+                    updated vulnerable packages
                 </b>
             </td>
         </tr>
@@ -27,39 +27,20 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 
             </td>
             <td>
-                - Exposed a Driver interface which helps to extend the key management mechanisms used. 
-- Feature helps to plug in any key management services to FSC
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-25 10:14:06 +0000 UTC
-    </div>
-</div>
+                Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/446" class=".btn">#446</a>
-            </td>
-            <td>
-                <b>
-                    Create scorecard.yml
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
+Updated packages:
+
+- btcsuite/btcd
+- opencontainers/image-spec
+- opencontainers/runc
+- docker/distribution
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-25 06:59:27 +0000 UTC
+        Created At 2023-02-01 11:14:04 +0000 UTC
     </div>
 </div>
 

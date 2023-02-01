@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3977" class=".btn">#3977</a>
+            </td>
+            <td>
+                <b>
+                    Move purge private data tests to separate runner
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-01 10:22:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3975" class=".btn">#3975</a>
             </td>
             <td>
@@ -1317,37 +1344,6 @@ Finally, you can contact us on https://mergify.com
     </table>
     <div class="right-align">
         Created At 2023-01-25 14:38:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3942" class=".btn">#3942</a>
-            </td>
-            <td>
-                <b>
-                    BroadcastTimeout for Gateway
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The Gateway has retry logic for failing ordering nodes, however if an ordering node doesn’t respond, then the Submit call will timeout without allowing other ordering nodes to be tried. This commit implements a BroadcastTimeout that allows individual OSN’s to timeout before the overall Submit timeout expires. Similar logic already exists for calls to endorser peers.
-
-Resolves https://github.com/hyperledger/fabric-gateway/issues/529
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-25 09:40:08 +0000 UTC
     </div>
 </div>
 
