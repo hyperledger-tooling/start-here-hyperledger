@@ -14,38 +14,26 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5000" class=".btn">#5000</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/5003" class=".btn">#5003</a>
             </td>
             <td>
                 <b>
-                    parallelization for unit tests
+                    Adding trace logs to mention ssz transaction encoding/deconding in logs
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">testing</span><span class="chip">dev experience</span><span class="chip">TeamRevenant</span>
+                
             </td>
             <td>
-                Signed-off-by: Sally MacFarlane <macfarla.github@gmail.com>
+                Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
 
-Modify CI unitTest task to utilize test parallelization
-* follow what we do for acceptanceTest task
-* except we can't split on test name, so split on directories that contain src/test/java 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-24 22:18:21 +0000 UTC
+        Created At 2023-01-26 08:18:59 +0000 UTC
     </div>
 </div>
 
@@ -53,38 +41,40 @@ Modify CI unitTest task to utilize test parallelization
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/4999" class=".btn">#4999</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/5001" class=".btn">#5001</a>
             </td>
             <td>
                 <b>
-                    remove container tests
+                    Revert "parallelization for unit tests (#5000)"
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">testing</span><span class="chip">dev experience</span><span class="chip">TeamRevenant</span>
+                
             </td>
             <td>
-                Signed-off-by: Sally MacFarlane <macfarla.github@gmail.com>
+                This reverts commit b22a52a88e42a5c11f0564f1c9603bff55687e9e.
 
-Remove container-tests module - these test GoQuorum and Besu interop (privacy) which is being deprecated. 
-* Trying to reduce build time 
-* And these tests are flaky
+Signed-off-by: Sally MacFarlane <macfarla.github@gmail.com>
+
+It seems not all tests are running. Needs more investigation.
+
+See #4921 
 
 ## Documentation
 
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Changelog
 
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-24 20:42:02 +0000 UTC
+        Created At 2023-01-25 06:36:10 +0000 UTC
     </div>
 </div>
 
