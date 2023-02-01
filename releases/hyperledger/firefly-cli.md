@@ -15,33 +15,32 @@ permalink: /releases/hyperledger/firefly-cli
         <tr>
             <td colspan="2">
                 <b>
-                    v1.2.0-alpha.1
+                    v1.2.0-rc.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.0-alpha.1
+                    v1.2.0-rc.1
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Support docker-compose v2 by @ggessner in https://github.com/hyperledger/firefly-cli/pull/232
-* Set default connector to evmconnect by @nguyer in https://github.com/hyperledger/firefly-cli/pull/234
+* Fix version manifest fetching by @nguyer in https://github.com/hyperledger/firefly-cli/pull/235
+* Fix the spinner logger by @nguyer in https://github.com/hyperledger/firefly-cli/pull/236
+* Remove deprecated global node config by @nguyer in https://github.com/hyperledger/firefly-cli/pull/238
 
-## New Contributors
-* @ggessner made their first contribution in https://github.com/hyperledger/firefly-cli/pull/232
 
-**Full Changelog**: https://github.com/hyperledger/firefly-cli/compare/v1.1.2...v1.2.0-alpha.1
+**Full Changelog**: https://github.com/hyperledger/firefly-cli/compare/v1.2.0-alpha.1...v1.2.0-rc.1
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-cli/releases/tag/v1.2.0-alpha.1" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-cli/releases/tag/v1.2.0-rc.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-01-19 16:15:09 +0000 UTC
+        Created At 2023-01-30 20:26:49 +0000 UTC
     </span>
 </div>
 
