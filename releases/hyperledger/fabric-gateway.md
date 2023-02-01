@@ -15,31 +15,31 @@ permalink: /releases/hyperledger/fabric-gateway
         <tr>
             <td colspan="2">
                 <b>
-                    v1.1.2
+                    v1.2.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.1.2
+                    v1.2.0
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Ensure correct hash algorithm is used to generate transaction ID when a non-default algorithm is specified for signing by @bestbeforetoday in https://github.com/hyperledger/fabric-gateway/pull/502
-* Update fabric-protos dependencies for Fabric v2.5 release by @bestbeforetoday in https://github.com/hyperledger/fabric-gateway/pull/514
+* Add Evaluate, Submit and SubmitAsync with context to Go API by @sapthasurendran in https://github.com/hyperledger/fabric-gateway/pull/522
+* Target Go 1.18 and higher, since Go 1.17 is no longer a [supported Go release](https://go.dev/doc/devel/release).
 
 
-**Full Changelog**: https://github.com/hyperledger/fabric-gateway/compare/v1.1.1...v1.1.2
+**Full Changelog**: https://github.com/hyperledger/fabric-gateway/compare/v1.1.2...v1.2.0
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-gateway/releases/tag/v1.1.2" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-gateway/releases/tag/v1.2.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-12-14 13:38:16 +0000 UTC
+        Created At 2023-02-01 15:47:54 +0000 UTC
     </span>
 </div>
 
