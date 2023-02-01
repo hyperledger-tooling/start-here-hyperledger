@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/372" class=".btn">#372</a>
+            </td>
+            <td>
+                <b>
+                    Enhancement for Asset Manager SDK in Fabric
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added `endorsingOrgs` parameter in AssetManager SDK transaction functions. (kept query functions as it is)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-01 12:09:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/371" class=".btn">#371</a>
             </td>
             <td>
@@ -35,34 +61,6 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     </table>
     <div class="right-align">
         Created At 2023-01-30 11:57:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/370" class=".btn">#370</a>
-            </td>
-            <td>
-                <b>
-                    Relay Image fix, Bump SDK version and Add Sikhar as maintainer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Constants' file containing driver error messages wasn't added to relay image; added it now.
-- After Francis's PR, didn't updated SDK verison, updated it in this PR.
-- Update Readme to add Sikhar as current maintainer
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-25 11:25:22 +0000 UTC
     </div>
 </div>
 
