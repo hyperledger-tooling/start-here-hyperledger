@@ -1174,32 +1174,3 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3950" class=".btn">#3950</a>
-            </td>
-            <td>
-                <b>
-                    Update release action to trigger from tag (release-2.4)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update release action to trigger from tag instead of manual workflow_dispatch.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-26 05:54:51 +0000 UTC
-    </div>
-</div>
-
