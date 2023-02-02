@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5011" class=".btn">#5011</a>
+            </td>
+            <td>
+                <b>
+                    DebugGetRawBlock and DebugGetRawHeader missing methods
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamRevenant</span>
+            </td>
+            <td>
+                ## PR description
+Adds two missing methods as per [api-documentation](https://ethereum.github.io/execution-apis/api-documentation/):
+
+- DebugGetRawBlock - Returns an RLP-encoded block.
+- DebugGetRawHeader - Returns an RLP-encoded header.
+
+**Fixes hive tests:**
+
+- debug_getRawBlock/get-block-n (besu) 
+- debug_getRawBlock/get-genesis (besu) 
+- debug_getRawBlock/get-invalid-number (besu) 
+- debug_getRawHeader/get-block-n (besu) 
+- debug_getRawHeader/get-genesis (besu) 
+- debug_getRawHeader/get-invalid-number (besu)
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-26 20:28:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5009" class=".btn">#5009</a>
             </td>
             <td>
