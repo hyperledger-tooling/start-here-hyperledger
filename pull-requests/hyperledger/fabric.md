@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3986" class=".btn">#3986</a>
+            </td>
+            <td>
+                <b>
+                    Fix chaincode interest for private data purge
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Gateway was not calculating chaincode interest correctly for purge private data calls, since writeset metadata was not being added for purge calls.
+The collection level endorsement policies will now be honored instead of defaulting to the chaincode level endorsement policy.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-01 22:44:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3977" class=".btn">#3977</a>
             </td>
             <td>
