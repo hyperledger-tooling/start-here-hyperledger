@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-test-automation
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/123" class=".btn">#123</a>
+                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/125" class=".btn">#125</a>
             </td>
             <td>
                 <b>
-                    Fix token plugin installation
+                    [WIP] Test migration to VDR / Askar / CredX + DCO
                 </b>
             </td>
         </tr>
@@ -27,14 +27,38 @@ permalink: /pull-requests/hyperledger/indy-test-automation
                 
             </td>
             <td>
-                - Now that the token plugin 20.04 deb packages are fixed, starting with 1.2.0~dev1674499579, the pip install step is no longer needed.
-
-Signed-off-by: Wade Barnes <wade@neoterictech.ca>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-23 21:34:38 +0000 UTC
+        Created At 2023-02-02 15:05:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/124" class=".btn">#124</a>
+            </td>
+            <td>
+                <b>
+                    [WIP] Test migration to VDR / Askar / CredX
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-31 16:15:47 +0000 UTC
     </div>
 </div>
 

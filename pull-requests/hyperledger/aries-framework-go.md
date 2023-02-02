@@ -14,105 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3498" class=".btn">#3498</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3511" class=".btn">#3511</a>
             </td>
             <td>
                 <b>
-                    feat: SD-JWT: Add option for non-selectively disclosable claims (issuer)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                From spec: The Issuer may also make certain claims or sub-claims non-selectively disclosable. 
-
-Added option WithNonSelectivelyDisclosableClaims() for specifying non-selectively disclosable claims to issuer.
-
-Closes: #3497
-
-Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-25 21:07:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3496" class=".btn">#3496</a>
-            </td>
-            <td>
-                <b>
-                    feat: method to marshal SD-JWT VC in combined format for presentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-25 07:32:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3495" class=".btn">#3495</a>
-            </td>
-            <td>
-                <b>
-                    fix: Move cnf and _sd_alg to vc level
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Move cnf and _sd_alg from credential subject level to vc level
-
-Closes #3494
-
-Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-24 21:06:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3493" class=".btn">#3493</a>
-            </td>
-            <td>
-                <b>
-                    feat: verifiable.ParseCredential() supports combined SD-JWT credentials
+                    fix: ParseCredential handles SD-JWT VCs with _sd_alg in subject
                 </b>
             </td>
         </tr>
@@ -126,7 +32,7 @@ Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-24 17:45:31 +0000 UTC
+        Created At 2023-01-31 20:10:52 +0000 UTC
     </div>
 </div>
 
@@ -134,11 +40,11 @@ Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3492" class=".btn">#3492</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3510" class=".btn">#3510</a>
             </td>
             <td>
                 <b>
-                    feat: SD-JWT: Add NewFromVC to Issuer
+                    feat: ParseCredential recognizes if SD-JWT VC is issuance or presentation
                 </b>
             </td>
         </tr>
@@ -147,16 +53,14 @@ Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
                 
             </td>
             <td>
-                Pass VC into NewFromVC and the issuer will create selective disclosures for everything in vc->credential subject and add the fields from options.
+                without needing the caller to specify.
 
-Closes #3491
-
-
+Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-24 13:57:57 +0000 UTC
+        Created At 2023-01-31 16:31:30 +0000 UTC
     </div>
 </div>
 
@@ -164,11 +68,11 @@ Closes #3491
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3490" class=".btn">#3490</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3509" class=".btn">#3509</a>
             </td>
             <td>
                 <b>
-                    chore: Support verification of 'vc' claims with holder binding
+                    wip: Add support for SD-JWT in presentation exchange
                 </b>
             </td>
         </tr>
@@ -177,18 +81,17 @@ Closes #3491
                 
             </td>
             <td>
-                Support verification of 'vc' claims with holder binding
+                Add support for SD-JWT in presentation exchange
 
-Closes #3489
+Closes #3508
 
 Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
 
-
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-23 20:50:44 +0000 UTC
+        Created At 2023-01-31 15:11:10 +0000 UTC
     </div>
 </div>
 
@@ -196,11 +99,11 @@ Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3488" class=".btn">#3488</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3507" class=".btn">#3507</a>
             </td>
             <td>
                 <b>
-                    chore: Integration test for structured claim option
+                    chore: decode presentation credential in SD JWT format
                 </b>
             </td>
         </tr>
@@ -209,56 +112,135 @@ Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
                 
             </td>
             <td>
-                Added integration test for structured claim option.
+                Signed-off-by: Mykhailo Sizov <mykhailo.sizov@securekey.com>
 
-Closes #3487
-
-Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-20 17:31:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3486" class=".btn">#3486</a>
-            </td>
-            <td>
-                <b>
-                    fix: presex desctiptor format.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Volodymyr Kubiv <volodymyr.kubiv@euristiq.com>
 
 **Title:**
-Fix for Presentation Exchange descriptor format
+Fix decoding presentation credential in SD JWT combined format for presentation.
 
-**Description:**
-[Link to the GitHub issue it solves (if any)]
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-31 12:38:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3506" class=".btn">#3506</a>
+            </td>
+            <td>
+                <b>
+                    feat: Credential.MarshalJSON now marshals all SD-JWT disclosures
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-30 21:02:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3504" class=".btn">#3504</a>
+            </td>
+            <td>
+                <b>
+                    fix: allow SD-JWT parsing when sd alg is in cred subject
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-30 15:40:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3503" class=".btn">#3503</a>
+            </td>
+            <td>
+                <b>
+                    chore: Additional hash algorithms; check for _sd claim
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add SHA-384 and SHA-512 algorithms to SHA-256.
+Also, check for _sd claim in claims before creating SD-JWT.
+
+Closes #3502
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-30 15:25:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3501" class=".btn">#3501</a>
+            </td>
+            <td>
+                <b>
+                    chore: make JWT alg name method exportable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Mykhailo Sizov <mykhailo.sizov@securekey.com>
+
+
+**Title:**
+Make JWSAlgorithm.Name() method exportable
 
 **Summary:**
-
-Presentation Exchange creates verifiable presentations with presentation submission descriptors with invalid format value.
-
-
+To be able to create JWS signer from external packages and avoid code duplication, I made  JWSAlgorithm.Name() method as exportable
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-20 15:44:21 +0000 UTC
+        Created At 2023-01-30 14:09:26 +0000 UTC
     </div>
 </div>
 
@@ -266,11 +248,11 @@ Presentation Exchange creates verifiable presentations with presentation submiss
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3485" class=".btn">#3485</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3499" class=".btn">#3499</a>
             </td>
             <td>
                 <b>
-                    fix: Release claims by claim disclosure not by claim name
+                    feat: method for SD-JWT VC to create non-SDJWT 'display credential'
                 </b>
             </td>
         </tr>
@@ -279,51 +261,12 @@ Presentation Exchange creates verifiable presentations with presentation submiss
                 
             </td>
             <td>
-                Currently the holder releases disclosures based on claim name. If we have same name in different objects within claims this will not work.
-
-Closes #3484
-
-Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
-
-
+                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-19 19:08:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3483" class=".btn">#3483</a>
-            </td>
-            <td>
-                <b>
-                    chore: SD-JWT: Support claims with 'vc' verification in issuer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Change logic for resolving _sd_alg to look for _sd_alg in the following path:
-1. claims top level (as per spec)
-2. claims -> vc -> credential subject (in case that it is not present at claims top level)
-
-Closes #3482
-
-Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-19 14:54:44 +0000 UTC
+        Created At 2023-01-26 21:51:43 +0000 UTC
     </div>
 </div>
 

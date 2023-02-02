@@ -14,95 +14,11 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1140" class=".btn">#1140</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1155" class=".btn">#1155</a>
             </td>
             <td>
                 <b>
-                    Do not build stdlib/bigint.c while it cannot be built with llvm 14
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This breaks the container build.
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-26 09:26:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1139" class=".btn">#1139</a>
-            </td>
-            <td>
-                <b>
-                    Adapt ink cross call test to new interface
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Today a new ink! beta was released. For betas, the ink umbrella crate currently selects the latest version automatically, which introduces a breaking change. I fixed the integration test to fake a `Result<u32>` value, until we have a proper cross call interface.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-25 13:46:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1137" class=".btn">#1137</a>
-            </td>
-            <td>
-                <b>
-                    Refactor `sema/expression.rs`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The file `sema/expression.rs` has eight thousand lines. It is difficult to navigate and to keep track of changes. This PR splits the original file into many small archives, under `sema/expression`.
-
-This PR only moves code. There is no change in the code itself.
-
-@seanyoung and @xermicus, please, let me know if I should rename a file or if there is any misplaced function in this PR.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-24 12:17:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1136" class=".btn">#1136</a>
-            </td>
-            <td>
-                <b>
-                    Fixes for rust 1.67 clippy
+                    Build fix after ink crate 4.0.0-rc was released
                 </b>
             </td>
         </tr>
@@ -116,7 +32,7 @@ This PR only moves code. There is no change in the code itself.
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-23 11:10:03 +0000 UTC
+        Created At 2023-02-02 10:14:59 +0000 UTC
     </div>
 </div>
 
@@ -124,11 +40,11 @@ This PR only moves code. There is no change in the code itself.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1135" class=".btn">#1135</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1154" class=".btn">#1154</a>
             </td>
             <td>
                 <b>
-                    Bump inkwell and other dependencies
+                    Substrate: Update integration test dependencies
                 </b>
             </td>
         </tr>
@@ -137,70 +53,173 @@ This PR only moves code. There is no change in the code itself.
                 
             </td>
             <td>
-                - inkwell 0.1.0 has been released, which breaks the build
+                Make the CI great again
 
+Signed-off-by: xermicus <cyrill@parity.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-01 19:04:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1153" class=".btn">#1153</a>
+            </td>
+            <td>
+                <b>
+                    External function type should not be a pointer in `llvm_type` function
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When we use the function `llvm_type`, it returns an llvm struct type for structs but a pointer for `Type::ExternalFunction`, which is also a struct in Solang emit. This behavior is inconsistent and gives us headaches when moving to LLVM 15.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-01 15:26:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1151" class=".btn">#1151</a>
+            </td>
+            <td>
+                <b>
+                    Bump some crate dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-01 14:17:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1150" class=".btn">#1150</a>
+            </td>
+            <td>
+                <b>
+                    Reporting runtime errors
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                runtime errors are reported alongside with file number and line number. this is enabled by ``--report-errors=true`
+Signed-off-by: salaheldinsoliman <salaheldin_sameh@aucegypt.edu>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-01 02:27:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1149" class=".btn">#1149</a>
+            </td>
+            <td>
+                <b>
+                    Remove `Builtin::Random` completely
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Since the depreciation in the Substrate runtime API we no longer have a use for that.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-27 14:19:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1148" class=".btn">#1148</a>
+            </td>
+            <td>
+                <b>
+                    Substrate CI: Contract builder should use the same version as the contract node
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Found another one...
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-27 13:00:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1147" class=".btn">#1147</a>
+            </td>
+            <td>
+                <b>
+                    Bump solana_rbpf
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Bump solana_rbpf to 0.2.35. This makes it possible to use rust 1.67
+- Fix sporadic test failure
 Signed-off-by: Sean Young <sean@mess.org>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-22 13:03:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1134" class=".btn">#1134</a>
-            </td>
-            <td>
-                <b>
-                    Add casts for yul pointer to integer conversion and vice versa
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                yul allows implicit conversion of pointers to integers and vice versa.
-
-Fixes https://github.com/xermicus/fuzzy-sol/issues/79
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-20 12:49:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1133" class=".btn">#1133</a>
-            </td>
-            <td>
-                <b>
-                    Load value before shifting
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The shift operations were not loading values before creating the respective LLVM-IR instruction. This PR fixes this and closes https://github.com/xermicus/fuzzy-sol/issues/38.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-19 21:01:22 +0000 UTC
+        Created At 2023-01-26 22:51:51 +0000 UTC
     </div>
 </div>
 

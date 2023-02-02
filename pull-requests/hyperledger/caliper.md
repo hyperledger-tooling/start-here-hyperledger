@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper/pull/1478" class=".btn">#1478</a>
+                PR <a href="https://github.com/hyperledger/caliper/pull/1479" class=".btn">#1479</a>
             </td>
             <td>
                 <b>
-                    Bump cookiejar from 2.1.3 to 2.1.4
+                    Bump ua-parser-js from 0.7.31 to 0.7.33
                 </b>
             </td>
         </tr>
@@ -27,17 +27,62 @@ permalink: /pull-requests/hyperledger/caliper
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [cookiejar](https://github.com/bmeck/node-cookiejar) from 2.1.3 to 2.1.4.
+                Bumps [ua-parser-js](https://github.com/faisalman/ua-parser-js) from 0.7.31 to 0.7.33.
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/faisalman/ua-parser-js/blob/master/changelog.md">ua-parser-js's changelog</a>.</em></p>
+<blockquote>
+<h2>Version 0.7.31 / 1.0.2</h2>
+<ul>
+<li>Fix OPPO Reno A5 incorrect detection</li>
+<li>Fix TypeError Bug</li>
+<li>Use AST to extract regexes and verify them with safe-regex</li>
+</ul>
+<h2>Version 0.7.32 / 1.0.32</h2>
+<ul>
+<li>Add new browser : DuckDuckGo, Huawei Browser, LinkedIn</li>
+<li>Add new OS : HarmonyOS</li>
+<li>Add some Huawei models</li>
+<li>Add Sharp Aquos TV</li>
+<li>Improve detection Xiaomi Mi CC9</li>
+<li>Fix Sony Xperia 1 III misidentified as Acer tablet</li>
+<li>Fix Detect Sony BRAVIA as SmartTV</li>
+<li>Fix Detect Xiaomi Mi TV as SmartTV</li>
+<li>Fix Detect Galaxy Tab S8 as tablet</li>
+<li>Fix WeGame mistakenly identified as WeChat</li>
+<li>Fix included commas in Safari / Mobile Safari version</li>
+<li>Increase UA_MAX_LENGTH to 350</li>
+</ul>
+<h2>Version 0.7.33 / 1.0.33</h2>
+<ul>
+<li>Add new browser : Cobalt</li>
+<li>Identify Macintosh as an Apple device</li>
+<li>Fix ReDoS vulnerability</li>
+</ul>
+<h1>Version 0.8</h1>
+<p>Version 0.8 was created by accident. This version is now deprecated and no longer maintained, please update to version 0.7 / 1.0.</p>
+</blockquote>
+</details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li>See full diff in <a href="https://github.com/bmeck/node-cookiejar/commits">compare view</a></li>
+<li><a href="https://github.com/faisalman/ua-parser-js/commit/f2d0db001d87da15de7b9b1df7be9f2eacefd8c5"><code>f2d0db0</code></a> Bump version 0.7.33</li>
+<li><a href="https://github.com/faisalman/ua-parser-js/commit/a6140a17dd0300a35cfc9cff999545f267889411"><code>a6140a1</code></a> Remove unsafe regex in trim() function</li>
+<li><a href="https://github.com/faisalman/ua-parser-js/commit/a88660493568d6144a551424a8139d6c876635f6"><code>a886604</code></a> Fix <a href="https://github-redirect.dependabot.com/faisalman/ua-parser-js/issues/605">#605</a> - Identify Macintosh as Apple device</li>
+<li><a href="https://github.com/faisalman/ua-parser-js/commit/b814bcd79198e730936c82462e2d729eb5423e3c"><code>b814bcd</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/faisalman/ua-parser-js/issues/606">#606</a> from rileyjshaw/patch-1</li>
+<li><a href="https://github.com/faisalman/ua-parser-js/commit/7f71024161399b7aa5d5cd10dba9e059f0218262"><code>7f71024</code></a> Fix documentation</li>
+<li><a href="https://github.com/faisalman/ua-parser-js/commit/c239ac5167abd574a635cb809a2b4fa35810d23b"><code>c239ac5</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/faisalman/ua-parser-js/issues/604">#604</a> from obecerra3/master</li>
+<li><a href="https://github.com/faisalman/ua-parser-js/commit/8d3c2d327cf540ff2c050f1cc67bca8c6f8e4458"><code>8d3c2d3</code></a> Add new browser: Cobalt</li>
+<li><a href="https://github.com/faisalman/ua-parser-js/commit/d11fc47dc9b6acc0f89fc10c120cea08e10cd31a"><code>d11fc47</code></a> Bump version 0.7.32</li>
+<li><a href="https://github.com/faisalman/ua-parser-js/commit/b490110109de586deab96c775c9ef0dfc9c919c4"><code>b490110</code></a> Merge branch 'develop' of github.com:faisalman/ua-parser-js</li>
+<li><a href="https://github.com/faisalman/ua-parser-js/commit/cb5da5ea4b220d5b60fe209e123b7f911d8e0d4a"><code>cb5da5e</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/faisalman/ua-parser-js/issues/600">#600</a> from moekm/develop</li>
+<li>Additional commits viewable in <a href="https://github.com/faisalman/ua-parser-js/compare/0.7.31...0.7.33">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=cookiejar&package-manager=npm_and_yarn&previous-version=2.1.3&new-version=2.1.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=ua-parser-js&package-manager=npm_and_yarn&previous-version=0.7.31&new-version=0.7.33)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -73,7 +118,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-24 12:31:15 +0000 UTC
+        Created At 2023-01-27 13:55:49 +0000 UTC
     </div>
 </div>
 

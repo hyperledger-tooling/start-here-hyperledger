@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/257" class=".btn">#257</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/259" class=".btn">#259</a>
             </td>
             <td>
                 <b>
-                    Simplify pull request checks (backport #255)
+                    Publish snapshots to GitHub Packages (release-2.2)
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
                 
             </td>
             <td>
-                This is an automatic backport of pull request #255 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-19 13:26:33 +0000 UTC
+        Created At 2023-01-27 15:51:39 +0000 UTC
     </div>
 </div>
 
@@ -66,11 +40,11 @@ Finally, you can contact us on https://mergify.com
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/256" class=".btn">#256</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/258" class=".btn">#258</a>
             </td>
             <td>
                 <b>
-                    Simplify pull request checks (backport #255)
+                    Publish snapshot and release builds
                 </b>
             </td>
         </tr>
@@ -79,38 +53,13 @@ Finally, you can contact us on https://mergify.com
                 
             </td>
             <td>
-                This is an automatic backport of pull request #255 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
+                - Snapshots published to GitHub Packages
+- Tagged releases published to Maven Central
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-19 13:26:27 +0000 UTC
+        Created At 2023-01-27 14:24:28 +0000 UTC
     </div>
 </div>
 

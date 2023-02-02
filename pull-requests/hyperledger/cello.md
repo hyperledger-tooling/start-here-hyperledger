@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/515" class=".btn">#515</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/516" class=".btn">#516</a>
             </td>
             <td>
                 <b>
-                    [#issue-513] Error in judging the condition of redirection
+                    Check node status before creating channels
                 </b>
             </td>
         </tr>
@@ -27,16 +27,14 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                Error in judging the condition of redirection
+                Check peer nodes and orderer nodes before creating channels
 
-Signed-off-by: fengyang_sy <fengyang.09186@h3c.com>
-
-Close #513 
+Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-14 06:46:32 +0000 UTC
+        Created At 2023-01-27 04:08:44 +0000 UTC
     </div>
 </div>
 

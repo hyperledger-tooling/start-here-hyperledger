@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/144" class=".btn">#144</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/146" class=".btn">#146</a>
             </td>
             <td>
                 <b>
-                    Fix shellcheck warnings in publish script
+                    Publish snapshots to GitHub Packages (release-2.2)
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-20 16:13:30 +0000 UTC
+        Created At 2023-01-27 17:48:37 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/143" class=".btn">#143</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/145" class=".btn">#145</a>
             </td>
             <td>
                 <b>
-                    Simplify pull request checks (backport #141)
+                    Publish Maven artifacts
                 </b>
             </td>
         </tr>
@@ -53,90 +53,13 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
                 
             </td>
             <td>
-                This is an automatic backport of pull request #141 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
+                - Publish snapshots to GitHub Packages on each push
+- Publish tagged releases to GitHub Packages and Maven Central
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-19 13:26:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/142" class=".btn">#142</a>
-            </td>
-            <td>
-                <b>
-                    Simplify pull request checks (backport #141)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #141 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-19 13:26:00 +0000 UTC
+        Created At 2023-01-27 17:27:32 +0000 UTC
     </div>
 </div>
 

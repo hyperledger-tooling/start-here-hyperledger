@@ -14,6 +14,96 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3989" class=".btn">#3989</a>
+            </td>
+            <td>
+                <b>
+                    fix(sec): upgrade github.com/opencontainers/runc to 1.1.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### What happened？
+There are 1 security vulnerabilities found in github.com/opencontainers/runc v1.0.0-rc8
+- [CVE-2022-29162](https://www.oscs1024.com/hd/CVE-2022-29162)
+
+
+### What did I do？
+Upgrade github.com/opencontainers/runc from v1.0.0-rc8 to 1.1.2 for vulnerability fix
+
+### What did you expect to happen？
+Ideally, no insecure libs should be used.
+
+### The specification of the pull request
+[PR Specification](https://www.oscs1024.com/docs/pr-specification/) from OSCS
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-02 14:03:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3988" class=".btn">#3988</a>
+            </td>
+            <td>
+                <b>
+                    Fix chaincode interest for private data purge (backport #3986)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is an automatic backport of pull request #3986 done by [Mergify](https://mergify.com).
+
+
+---
+
+
+<details>
+<summary>Mergify commands and options</summary>
+
+<br />
+
+More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
+
+You can also trigger Mergify actions by commenting on this pull request:
+
+- `@Mergifyio refresh` will re-evaluate the rules
+- `@Mergifyio rebase` will rebase this PR on its base branch
+- `@Mergifyio update` will merge the base branch into this PR
+- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
+
+Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
+
+- look at your merge queues
+- generate the Mergify configuration with the config editor.
+
+Finally, you can contact us on https://mergify.com
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-02 13:12:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3986" class=".btn">#3986</a>
             </td>
             <td>
@@ -823,296 +913,6 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2023-01-27 15:26:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3960" class=".btn">#3960</a>
-            </td>
-            <td>
-                <b>
-                    Release commit for v2.5.0-beta
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update docs and release notes for v2.5.0-beta.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-26 16:35:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3959" class=".btn">#3959</a>
-            </td>
-            <td>
-                <b>
-                    Bump Go to 1.18.10 (main)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump Go to 1.18.10.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-26 16:01:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3958" class=".btn">#3958</a>
-            </td>
-            <td>
-                <b>
-                    Bump Go to 1.18.10 (release-2.5)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump Go to 1.18.10.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-26 15:56:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3957" class=".btn">#3957</a>
-            </td>
-            <td>
-                <b>
-                    Nominate Yoav Tock to be a maintainer of Fabric core
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Yoav has been a significant contributor to Fabric core's ordering service. 
-
-He designed and implemented the system channel removal feature which is one of the two main features in Fabric v2.3.
-
-He also took part in the implementation of the SmartBFT consensus library (https://github.com/SmartBFT-Go/consensus/) which is now being introduced as the first BFT consensus of Fabric. 
-
-Currently, he plays an important role in the re-architecture of the ordering service for Fabric v3.0 which includes:
-
-- Removing the support for Kafka 
-- Removing the system channel from the ordering service
-- Inverting the control between the Fabric consensus and the dependencies. 
-
-Additionally, he participates in code reviews of pull requests with high risk potential such as: https://github.com/hyperledger/fabric/pull/3863 and https://github.com/hyperledger/fabric/pull/3651
-
-Lastly, he is among the top contributors of code in the last several months.
-
-I therefore nominate Yoav as a maintainer of Fabric core. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-26 14:31:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3956" class=".btn">#3956</a>
-            </td>
-            <td>
-                <b>
-                    Update my email address
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This commit updates my email address to my new IBM email
-
-Signed-off-by: Yacov Manevich <yacov.manevich@ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-26 14:28:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3955" class=".btn">#3955</a>
-            </td>
-            <td>
-                <b>
-                    Release commit for v2.4.8
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update docs and release notes for v2.4.8.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-26 14:18:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3954" class=".btn">#3954</a>
-            </td>
-            <td>
-                <b>
-                    Document broadcast timeout (backport #3952)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #3952 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-26 13:31:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3953" class=".btn">#3953</a>
-            </td>
-            <td>
-                <b>
-                    License name in swagger should be Apache-2.0 (backport #3951)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #3951 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-26 13:30:08 +0000 UTC
     </div>
 </div>
 
