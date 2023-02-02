@@ -15,30 +15,30 @@ permalink: /releases/hyperledger/firefly-sdk-nodejs
         <tr>
             <td colspan="2">
                 <b>
-                    v1.2.5
+                    v1.2.6
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.5
+                    v1.2.6
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Add updateIdentity and deleteData by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/61
+* Support non-reconnecting websockets by @chrisbygrave in https://github.com/hyperledger/firefly-sdk-nodejs/pull/62
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.2.4...v1.2.5
+**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.2.5...v1.2.6
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.2.5" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.2.6" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-01-16 20:56:00 +0000 UTC
+        Created At 2023-02-01 23:37:48 +0000 UTC
     </span>
 </div>
 
