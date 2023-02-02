@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/491" class=".btn">#491</a>
+            </td>
+            <td>
+                <b>
+                    Allow issuing cert with URI instead of IP
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span>
+            </td>
+            <td>
+                This is used by Orion's benchmark to issue certificates for the servers.
+
+Signed-off-by: Liran Funaro <liran.funaro@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-02 13:50:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/490" class=".btn">#490</a>
             </td>
             <td>

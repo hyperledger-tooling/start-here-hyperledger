@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-staticagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-staticagent-python/pull/100" class=".btn">#100</a>
+                PR <a href="https://github.com/hyperledger/aries-staticagent-python/pull/101" class=".btn">#101</a>
             </td>
             <td>
                 <b>
-                    chore(deps): Bump nokogiri from 1.13.8 to 1.13.10 in /docs
+                    chore(deps): Bump activesupport from 6.0.3.2 to 6.0.6.1 in /docs
                 </b>
             </td>
         </tr>
@@ -27,106 +27,72 @@ permalink: /pull-requests/hyperledger/aries-staticagent-python
                 <span class="chip">dependencies</span><span class="chip">ruby</span>
             </td>
             <td>
-                Bumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.13.8 to 1.13.10.
+                Bumps [activesupport](https://github.com/rails/rails) from 6.0.3.2 to 6.0.6.1.
 <details>
 <summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/sparklemotion/nokogiri/releases">nokogiri's releases</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/rails/rails/releases">activesupport's releases</a>.</em></p>
 <blockquote>
-<h2>1.13.10 / 2022-12-07</h2>
-<h3>Security</h3>
+<h2>v6.0.6.1</h2>
+<h2>Active Support</h2>
 <ul>
-<li>[CRuby] Address CVE-2022-23476, unchecked return value from <code>xmlTextReaderExpand</code>. See <a href="https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-qv4q-mr5r-qprj">GHSA-qv4q-mr5r-qprj</a> for more information.</li>
+<li>No changes.</li>
 </ul>
-<h3>Improvements</h3>
+<h2>Active Model</h2>
 <ul>
-<li>[CRuby] <code>XML::Reader#attribute_hash</code> now returns <code>nil</code> on parse errors. This restores the behavior of <code>#attributes</code> from v1.13.7 and earlier. [<a href="https://github-redirect.dependabot.com/sparklemotion/nokogiri/issues/2715">#2715</a>]</li>
+<li>No changes.</li>
 </ul>
-<hr />
-<p>sha256 checksums:</p>
-<pre><code>777ce2e80f64772e91459b943e531dfef387e768f2255f9bc7a1655f254bbaa1  nokogiri-1.13.10-aarch64-linux.gem
-b432ff47c51386e07f7e275374fe031c1349e37eaef2216759063bc5fa5624aa  nokogiri-1.13.10-arm64-darwin.gem
-73ac581ddcb680a912e92da928ffdbac7b36afd3368418f2cee861b96e8c830b  nokogiri-1.13.10-java.gem
-916aa17e624611dddbf2976ecce1b4a80633c6378f8465cff0efab022ebc2900  nokogiri-1.13.10-x64-mingw-ucrt.gem
-0f85a1ad8c2b02c166a6637237133505b71a05f1bb41b91447005449769bced0  nokogiri-1.13.10-x64-mingw32.gem
-91fa3a8724a1ce20fccbd718dafd9acbde099258183ac486992a61b00bb17020  nokogiri-1.13.10-x86-linux.gem
-d6663f5900ccd8f72d43660d7f082565b7ffcaade0b9a59a74b3ef8791034168  nokogiri-1.13.10-x86-mingw32.gem
-81755fc4b8130ef9678c76a2e5af3db7a0a6664b3cba7d9fe8ef75e7d979e91b  nokogiri-1.13.10-x86_64-darwin.gem
-51d5246705dedad0a09b374d09cc193e7383a5dd32136a690a3cd56e95adf0a3  nokogiri-1.13.10-x86_64-linux.gem
-d3ee00f26c151763da1691c7fc6871ddd03e532f74f85101f5acedc2d099e958  nokogiri-1.13.10.gem
-</code></pre>
-<h2>1.13.9 / 2022-10-18</h2>
-<h3>Security</h3>
+<h2>Active Record</h2>
 <ul>
-<li>[CRuby] Vendored libxml2 is updated to address <a href="https://nvd.nist.gov/vuln/detail/CVE-2022-2309">CVE-2022-2309</a>, <a href="https://nvd.nist.gov/vuln/detail/CVE-2022-40304">CVE-2022-40304</a>, and <a href="https://nvd.nist.gov/vuln/detail/CVE-2022-40303">CVE-2022-40303</a>. See <a href="https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-2qc6-mcvw-92cw">GHSA-2qc6-mcvw-92cw</a> for more information.</li>
-<li>[CRuby] Vendored zlib is updated to address <a href="https://ubuntu.com/security/CVE-2022-37434">CVE-2022-37434</a>. Nokogiri was not affected by this vulnerability, but this version of zlib was being flagged up by some vulnerability scanners, see <a href="https://github-redirect.dependabot.com/sparklemotion/nokogiri/issues/2626">#2626</a> for more information.</li>
+<li>
+<p>Make <code>sanitize_as_sql_comment</code> more strict</p>
+<p>Though this method was likely never meant to take user input, it was
+attempting sanitization. That sanitization could be bypassed with
+carefully crafted input.</p>
+<p>This commit makes the sanitization more robust by replacing any
+occurrances of &quot;/<em>&quot; or &quot;</em>/&quot; with &quot;/ <em>&quot; or &quot;</em> /&quot;. It also performs a
+first pass to remove one surrounding comment to avoid compatibility
+issues for users relying on the existing removal.</p>
+<p>This also clarifies in the documentation of annotate that it should not
+be provided user input.</p>
+<p>[CVE-2023-22794]</p>
+</li>
 </ul>
-<h3>Dependencies</h3>
+<h2>Action View</h2>
 <ul>
-<li>[CRuby] Vendored libxml2 is updated to <a href="https://gitlab.gnome.org/GNOME/libxml2/-/releases/v2.10.3">v2.10.3</a> from v2.9.14.</li>
-<li>[CRuby] Vendored libxslt is updated to <a href="https://gitlab.gnome.org/GNOME/libxslt/-/releases/v1.1.37">v1.1.37</a> from v1.1.35.</li>
-<li>[CRuby] Vendored zlib is updated from 1.2.12 to 1.2.13. (See <a href="https://github.com/sparklemotion/nokogiri/blob/v1.13.x/LICENSE-DEPENDENCIES.md#platform-releases">LICENSE-DEPENDENCIES.md</a> for details on which packages redistribute this library.)</li>
+<li>No changes.</li>
 </ul>
-<h3>Fixed</h3>
+<h2>Action Pack</h2>
 <ul>
-<li>[CRuby] <code>Nokogiri::XML::Namespace</code> objects, when compacted, update their internal struct's reference to the Ruby object wrapper. Previously, with GC compaction enabled, a segmentation fault was possible after compaction was triggered. [<a href="https://github-redirect.dependabot.com/sparklemotion/nokogiri/issues/2658">#2658</a>] (Thanks, <a href="https://github.com/eightbitraptor"><code>@​eightbitraptor</code></a> and <a href="https://github.com/peterzhu2118"><code>@​peterzhu2118</code></a>!)</li>
-<li>[CRuby] <code>Document#remove_namespaces!</code> now defers freeing the underlying <code>xmlNs</code> struct until the <code>Document</code> is GCed. Previously, maintaining a reference to a <code>Namespace</code> object that was removed in this way could lead to a segfault. [<a href="https://github-redirect.dependabot.com/sparklemotion/nokogiri/issues/2658">#2658</a>]</li>
+<li>No changes.</li>
+</ul>
+<h2>Active Job</h2>
+<ul>
+<li>No changes.</li>
 </ul>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
 </details>
 <details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/sparklemotion/nokogiri/blob/v1.13.10/CHANGELOG.md">nokogiri's changelog</a>.</em></p>
-<blockquote>
-<h2>1.13.10 / 2022-12-07</h2>
-<h3>Security</h3>
-<ul>
-<li>[CRuby] Address CVE-2022-23476, unchecked return value from <code>xmlTextReaderExpand</code>. See <a href="https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-qv4q-mr5r-qprj">GHSA-qv4q-mr5r-qprj</a> for more information.</li>
-</ul>
-<h3>Improvements</h3>
-<ul>
-<li>[CRuby] <code>XML::Reader#attribute_hash</code> now returns <code>nil</code> on parse errors. This restores the behavior of <code>#attributes</code> from v1.13.7 and earlier. [<a href="https://github-redirect.dependabot.com/sparklemotion/nokogiri/issues/2715">#2715</a>]</li>
-</ul>
-<h2>1.13.9 / 2022-10-18</h2>
-<h3>Security</h3>
-<ul>
-<li>[CRuby] Vendored libxml2 is updated to address <a href="https://nvd.nist.gov/vuln/detail/CVE-2022-2309">CVE-2022-2309</a>, <a href="https://nvd.nist.gov/vuln/detail/CVE-2022-40304">CVE-2022-40304</a>, and <a href="https://nvd.nist.gov/vuln/detail/CVE-2022-40303">CVE-2022-40303</a>. See <a href="https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-2qc6-mcvw-92cw">GHSA-2qc6-mcvw-92cw</a> for more information.</li>
-<li>[CRuby] Vendored zlib is updated to address <a href="https://ubuntu.com/security/CVE-2022-37434">CVE-2022-37434</a>. Nokogiri was not affected by this vulnerability, but this version of zlib was being flagged up by some vulnerability scanners, see <a href="https://github-redirect.dependabot.com/sparklemotion/nokogiri/issues/2626">#2626</a> for more information.</li>
-</ul>
-<h3>Dependencies</h3>
-<ul>
-<li>[CRuby] Vendored libxml2 is updated to <a href="https://gitlab.gnome.org/GNOME/libxml2/-/releases/v2.10.3">v2.10.3</a> from v2.9.14.</li>
-<li>[CRuby] Vendored libxslt is updated to <a href="https://gitlab.gnome.org/GNOME/libxslt/-/releases/v1.1.37">v1.1.37</a> from v1.1.35.</li>
-<li>[CRuby] Vendored zlib is updated from 1.2.12 to 1.2.13. (See <a href="https://github.com/sparklemotion/nokogiri/blob/v1.13.x/LICENSE-DEPENDENCIES.md#platform-releases">LICENSE-DEPENDENCIES.md</a> for details on which packages redistribute this library.)</li>
-</ul>
-<h3>Fixed</h3>
-<ul>
-<li>[CRuby] <code>Nokogiri::XML::Namespace</code> objects, when compacted, update their internal struct's reference to the Ruby object wrapper. Previously, with GC compaction enabled, a segmentation fault was possible after compaction was triggered. [<a href="https://github-redirect.dependabot.com/sparklemotion/nokogiri/issues/2658">#2658</a>] (Thanks, <a href="https://github.com/eightbitraptor"><code>@​eightbitraptor</code></a> and <a href="https://github.com/peterzhu2118"><code>@​peterzhu2118</code></a>!)</li>
-<li>[CRuby] <code>Document#remove_namespaces!</code> now defers freeing the underlying <code>xmlNs</code> struct until the <code>Document</code> is GCed. Previously, maintaining a reference to a <code>Namespace</code> object that was removed in this way could lead to a segfault. [<a href="https://github-redirect.dependabot.com/sparklemotion/nokogiri/issues/2658">#2658</a>]</li>
-</ul>
-</blockquote>
-</details>
-<details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/4c80121dc309e67fa3d9f66a00516bad39b42c31"><code>4c80121</code></a> version bump to v1.13.10</li>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/85410e38410f670cbbc8c5b00d07b843caee88ce"><code>85410e3</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/sparklemotion/nokogiri/issues/2715">#2715</a> from sparklemotion/flavorjones-fix-reader-error-hand...</li>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/9fe0761c47c0d4270d1a5220cfd25de080350d50"><code>9fe0761</code></a> fix(cruby): XML::Reader#attribute_hash returns nil on error</li>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/3b9c736bee91f95514da309eef28b06c0c29ce3a"><code>3b9c736</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/sparklemotion/nokogiri/issues/2717">#2717</a> from sparklemotion/flavorjones-lock-psych-to-fix-bui...</li>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/2efa87b49a26d1e961c2a0c143ecf28a67033677"><code>2efa87b</code></a> test: skip large cdata test on system libxml2</li>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/3187d6739c90864a7bb59cf8276facb1a47ca85d"><code>3187d67</code></a> dep(dev): pin psych to v4 until v5 builds in CI</li>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/a16b4bf14cec72e1a396c28a85135cd9abb08d9b"><code>a16b4bf</code></a> style(rubocop): disable Minitest/EmptyLineBeforeAssertionMethods</li>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/897759cc25b57ebf2754897e910c86931dec7d39"><code>897759c</code></a> version bump to v1.13.9</li>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/aeb1ac32830a34369a46625613f21ee17e3e445e"><code>aeb1ac3</code></a> doc: update CHANGELOG</li>
-<li><a href="https://github.com/sparklemotion/nokogiri/commit/c663e4905a35edd23f7cc05a80126b4e446e4fd2"><code>c663e49</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/sparklemotion/nokogiri/issues/2671">#2671</a> from sparklemotion/flavorjones-update-zlib-1.2.13_v1...</li>
-<li>Additional commits viewable in <a href="https://github.com/sparklemotion/nokogiri/compare/v1.13.8...v1.13.10">compare view</a></li>
+<li><a href="https://github.com/rails/rails/commit/28bb76d3efc39b2ef663dfe2346f7c2621343cd6"><code>28bb76d</code></a> Version 6.0.6.1</li>
+<li><a href="https://github.com/rails/rails/commit/91cf62e7b43c33ae6263adf3d7563da9b68ff21d"><code>91cf62e</code></a> Version 6.0.6</li>
+<li><a href="https://github.com/rails/rails/commit/c7d64e91b65d3633146e37c65ad5211352d60a69"><code>c7d64e9</code></a> Preparing for 6.0.5.1 release</li>
+<li><a href="https://github.com/rails/rails/commit/c177e45858ebecbdb0782b6f25e538054794277b"><code>c177e45</code></a> updating version and changelog</li>
+<li><a href="https://github.com/rails/rails/commit/433115554d3ea0b4dab9df99548c47707cadb20d"><code>4331155</code></a> Preparing for 6.0.5 release</li>
+<li><a href="https://github.com/rails/rails/commit/1b5df893d82a27da907e9b8b75deff13179d1df3"><code>1b5df89</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/rails/rails/issues/45027">#45027</a> from rails/fix-tag-helper-regression</li>
+<li><a href="https://github.com/rails/rails/commit/23f8485dced9be73877ae98a6554c7d34156866b"><code>23f8485</code></a> Merge branch '6-0-sec' into 6-0-stable</li>
+<li><a href="https://github.com/rails/rails/commit/27a5ec76eed1e5d0bc5649b0e92097267c0b4338"><code>27a5ec7</code></a> Preparing for 6.0.4.8 release</li>
+<li><a href="https://github.com/rails/rails/commit/636ee650d4a4edfca8ab6f2e982b543951976a59"><code>636ee65</code></a> updating changelog for release</li>
+<li><a href="https://github.com/rails/rails/commit/36a6dad07d572a0098c29d6d96a226638a7caa38"><code>36a6dad</code></a> Fix and add protections for XSS in names.</li>
+<li>Additional commits viewable in <a href="https://github.com/rails/rails/compare/v6.0.3.2...v6.0.6.1">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=nokogiri&package-manager=bundler&previous-version=1.13.8&new-version=1.13.10)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=activesupport&package-manager=bundler&previous-version=6.0.3.2&new-version=6.0.6.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -162,7 +128,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-08 03:17:40 +0000 UTC
+        Created At 2023-01-31 01:15:30 +0000 UTC
     </div>
 </div>
 

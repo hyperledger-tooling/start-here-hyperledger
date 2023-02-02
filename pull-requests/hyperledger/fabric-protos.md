@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/170" class=".btn">#170</a>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/171" class=".btn">#171</a>
             </td>
             <td>
                 <b>
-                    Bump commonmarker from 0.23.6 to 0.23.7 in /docs
+                    Bump activesupport from 6.0.4.7 to 6.0.6.1 in /docs
                 </b>
             </td>
         </tr>
@@ -27,70 +27,47 @@ permalink: /pull-requests/hyperledger/fabric-protos
                 <span class="chip">dependencies</span><span class="chip">ruby</span>
             </td>
             <td>
-                Bumps [commonmarker](https://github.com/gjtorikian/commonmarker) from 0.23.6 to 0.23.7.
+                Bumps [activesupport](https://github.com/rails/rails) from 6.0.4.7 to 6.0.6.1.
 <details>
 <summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/gjtorikian/commonmarker/releases">commonmarker's releases</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/rails/rails/releases">activesupport's releases</a>.</em></p>
 <blockquote>
-<h2>v0.23.7</h2>
-<h2>What's Changed</h2>
+<h2>v6.0.6.1</h2>
+<h2>Active Support</h2>
 <ul>
-<li>C API stable test by <a href="https://github.com/gjtorikian"><code>@​gjtorikian</code></a> in <a href="https://github-redirect.dependabot.com/gjtorikian/commonmarker/pull/201">gjtorikian/commonmarker#201</a></li>
-<li>Update to 29.0.gfm.7 by <a href="https://github.com/anticomputer"><code>@​anticomputer</code></a> in <a href="https://github-redirect.dependabot.com/gjtorikian/commonmarker/pull/224">gjtorikian/commonmarker#224</a></li>
+<li>No changes.</li>
 </ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/gjtorikian/commonmarker/compare/v0.23.6...v0.23.7">https://github.com/gjtorikian/commonmarker/compare/v0.23.6...v0.23.7</a></p>
-<h2>v0.23.7.pre1</h2>
-<h2>What's Changed</h2>
+<h2>Active Model</h2>
 <ul>
-<li>C API stable test by <a href="https://github.com/gjtorikian"><code>@​gjtorikian</code></a> in <a href="https://github-redirect.dependabot.com/gjtorikian/commonmarker/pull/201">gjtorikian/commonmarker#201</a></li>
+<li>No changes.</li>
 </ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/gjtorikian/commonmarker/compare/v0.23.6...v0.23.7.pre1">https://github.com/gjtorikian/commonmarker/compare/v0.23.6...v0.23.7.pre1</a></p>
-</blockquote>
-</details>
-<details>
-<summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/gjtorikian/commonmarker/blob/main/CHANGELOG.md">commonmarker's changelog</a>.</em></p>
-<blockquote>
-<h1>Changelog</h1>
-<h2><a href="https://github.com/gjtorikian/commonmarker/tree/v1.0.0.pre6">v1.0.0.pre6</a> (2023-01-09)</h2>
-<p><a href="https://github.com/gjtorikian/commonmarker/compare/v1.0.0.pre5...v1.0.0.pre6">Full Changelog</a></p>
-<p><strong>Closed issues:</strong></p>
+<h2>Active Record</h2>
 <ul>
-<li>Cargo.lock prevents Ruby 3.2.0 from installing commonmarker v1.0.0.pre4 <a href="https://github-redirect.dependabot.com/gjtorikian/commonmarker/issues/211">#211</a></li>
+<li>
+<p>Make <code>sanitize_as_sql_comment</code> more strict</p>
+<p>Though this method was likely never meant to take user input, it was
+attempting sanitization. That sanitization could be bypassed with
+carefully crafted input.</p>
+<p>This commit makes the sanitization more robust by replacing any
+occurrances of &quot;/<em>&quot; or &quot;</em>/&quot; with &quot;/ <em>&quot; or &quot;</em> /&quot;. It also performs a
+first pass to remove one surrounding comment to avoid compatibility
+issues for users relying on the existing removal.</p>
+<p>This also clarifies in the documentation of annotate that it should not
+be provided user input.</p>
+<p>[CVE-2023-22794]</p>
+</li>
 </ul>
-<p><strong>Merged pull requests:</strong></p>
+<h2>Action View</h2>
 <ul>
-<li>always use rb_sys (don't use Ruby's emerging cargo tooling where available) <a href="https://github-redirect.dependabot.com/gjtorikian/commonmarker/pull/213">#213</a> (<a href="https://github.com/kivikakk">kivikakk</a>)</li>
+<li>No changes.</li>
 </ul>
-<h2><a href="https://github.com/gjtorikian/commonmarker/tree/v1.0.0.pre5">v1.0.0.pre5</a> (2023-01-08)</h2>
-<p><a href="https://github.com/gjtorikian/commonmarker/compare/v1.0.0.pre4...v1.0.0.pre5">Full Changelog</a></p>
-<p><strong>Merged pull requests:</strong></p>
+<h2>Action Pack</h2>
 <ul>
-<li>Provide 3.2 build support <a href="https://github-redirect.dependabot.com/gjtorikian/commonmarker/pull/212">#212</a> (<a href="https://github.com/gjtorikian">gjtorikian</a>)</li>
+<li>No changes.</li>
 </ul>
-<h2><a href="https://github.com/gjtorikian/commonmarker/tree/v1.0.0.pre4">v1.0.0.pre4</a> (2022-12-28)</h2>
-<p><a href="https://github.com/gjtorikian/commonmarker/compare/v1.0.0.pre3...v1.0.0.pre4">Full Changelog</a></p>
-<p><strong>Closed issues:</strong></p>
+<h2>Active Job</h2>
 <ul>
-<li>Will the cmark-gfm branch continue to be maintained for awhile? <a href="https://github-redirect.dependabot.com/gjtorikian/commonmarker/issues/207">#207</a></li>
-</ul>
-<p><strong>Merged pull requests:</strong></p>
-<ul>
-<li>Implement native syntax highlighting <a href="https://github-redirect.dependabot.com/gjtorikian/commonmarker/pull/209">#209</a> (<a href="https://github.com/gjtorikian">gjtorikian</a>)</li>
-<li>Bump magnus from 0.4.3 to 0.4.4 <a href="https://github-redirect.dependabot.com/gjtorikian/commonmarker/pull/208">#208</a> (<a href="https://github.com/apps/dependabot">dependabot[bot]</a>)</li>
-<li>Bump magnus from 0.4.2 to 0.4.3 <a href="https://github-redirect.dependabot.com/gjtorikian/commonmarker/pull/206">#206</a> (<a href="https://github.com/apps/dependabot">dependabot[bot]</a>)</li>
-<li>Bump comrak from 0.14.0 to 0.15.0 <a href="https://github-redirect.dependabot.com/gjtorikian/commonmarker/pull/205">#205</a> (<a href="https://github.com/apps/dependabot">dependabot[bot]</a>)</li>
-<li>Bump magnus from 0.4.1 to 0.4.2 <a href="https://github-redirect.dependabot.com/gjtorikian/commonmarker/pull/204">#204</a> (<a href="https://github.com/apps/dependabot">dependabot[bot]</a>)</li>
-</ul>
-<h2><a href="https://github.com/gjtorikian/commonmarker/tree/v1.0.0.pre3">v1.0.0.pre3</a> (2022-11-30)</h2>
-<p><a href="https://github.com/gjtorikian/commonmarker/compare/v1.0.0.pre.2...v1.0.0.pre3">Full Changelog</a></p>
-<p><strong>Closed issues:</strong></p>
-<ul>
-<li>Code block incorrectly parsed in commonmarker 1.0.0.pre <a href="https://github-redirect.dependabot.com/gjtorikian/commonmarker/issues/202">#202</a></li>
-</ul>
-<p><strong>Merged pull requests:</strong></p>
-<ul>
-<li>Windows build <a href="https://github-redirect.dependabot.com/gjtorikian/commonmarker/pull/197">#197</a> (<a href="https://github.com/gjtorikian">gjtorikian</a>)</li>
+<li>No changes.</li>
 </ul>
 <!-- raw HTML omitted -->
 </blockquote>
@@ -99,23 +76,23 @@ permalink: /pull-requests/hyperledger/fabric-protos
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/gjtorikian/commonmarker/commit/734fd86c9719643e0ef058d983daeaf2523ea78b"><code>734fd86</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/gjtorikian/commonmarker/issues/224">#224</a> from gjtorikian/update-to-29.0.gfm.7</li>
-<li><a href="https://github.com/gjtorikian/commonmarker/commit/2e724ec52a5f66116c03682b6cc76c659f8efaf5"><code>2e724ec</code></a> Turned off Rubocop.</li>
-<li><a href="https://github.com/gjtorikian/commonmarker/commit/9c923b0bfdb2e4087779042a483a2d6957dceb7a"><code>9c923b0</code></a> :gem: release 0.23.7</li>
-<li><a href="https://github.com/gjtorikian/commonmarker/commit/30419c25e8566f3e02a0fad76f5e1a82341edeb1"><code>30419c2</code></a> Added call to cmark_init_standard_node_flags()</li>
-<li><a href="https://github.com/gjtorikian/commonmarker/commit/9007c3798f2f6fcff80e49a7ced317887f259326"><code>9007c37</code></a> Update cmark-upstream to <a href="https://github.com/github/cmark-gfm/commit/57d5e093e">https://github.com/github/cmark-gfm/commit/57d5e093e</a>...</li>
-<li><a href="https://github.com/gjtorikian/commonmarker/commit/1cfec133730ecdf683b90528a6bb7253b68a8208"><code>1cfec13</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/gjtorikian/commonmarker/issues/201">#201</a> from gjtorikian/c-api-stable-test</li>
-<li><a href="https://github.com/gjtorikian/commonmarker/commit/bbf631b413cf012490ccd63d423e69dfa855369b"><code>bbf631b</code></a> lint</li>
-<li><a href="https://github.com/gjtorikian/commonmarker/commit/5b807a115d02dc7456467dbed871a3e91733ca7b"><code>5b807a1</code></a> ease up</li>
-<li><a href="https://github.com/gjtorikian/commonmarker/commit/9a24e6d2fe3a1d384e29702c1a223a4fea5bdc87"><code>9a24e6d</code></a> Test fake version</li>
-<li><a href="https://github.com/gjtorikian/commonmarker/commit/d8a43bc73a6ff5c15cd12ce7dcf49902ee8031ec"><code>d8a43bc</code></a> Allow for manual dispatch</li>
-<li>Additional commits viewable in <a href="https://github.com/gjtorikian/commonmarker/compare/v0.23.6...v0.23.7">compare view</a></li>
+<li><a href="https://github.com/rails/rails/commit/28bb76d3efc39b2ef663dfe2346f7c2621343cd6"><code>28bb76d</code></a> Version 6.0.6.1</li>
+<li><a href="https://github.com/rails/rails/commit/91cf62e7b43c33ae6263adf3d7563da9b68ff21d"><code>91cf62e</code></a> Version 6.0.6</li>
+<li><a href="https://github.com/rails/rails/commit/c7d64e91b65d3633146e37c65ad5211352d60a69"><code>c7d64e9</code></a> Preparing for 6.0.5.1 release</li>
+<li><a href="https://github.com/rails/rails/commit/c177e45858ebecbdb0782b6f25e538054794277b"><code>c177e45</code></a> updating version and changelog</li>
+<li><a href="https://github.com/rails/rails/commit/433115554d3ea0b4dab9df99548c47707cadb20d"><code>4331155</code></a> Preparing for 6.0.5 release</li>
+<li><a href="https://github.com/rails/rails/commit/1b5df893d82a27da907e9b8b75deff13179d1df3"><code>1b5df89</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/rails/rails/issues/45027">#45027</a> from rails/fix-tag-helper-regression</li>
+<li><a href="https://github.com/rails/rails/commit/23f8485dced9be73877ae98a6554c7d34156866b"><code>23f8485</code></a> Merge branch '6-0-sec' into 6-0-stable</li>
+<li><a href="https://github.com/rails/rails/commit/27a5ec76eed1e5d0bc5649b0e92097267c0b4338"><code>27a5ec7</code></a> Preparing for 6.0.4.8 release</li>
+<li><a href="https://github.com/rails/rails/commit/636ee650d4a4edfca8ab6f2e982b543951976a59"><code>636ee65</code></a> updating changelog for release</li>
+<li><a href="https://github.com/rails/rails/commit/36a6dad07d572a0098c29d6d96a226638a7caa38"><code>36a6dad</code></a> Fix and add protections for XSS in names.</li>
+<li>Additional commits viewable in <a href="https://github.com/rails/rails/compare/v6.0.4.7...v6.0.6.1">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=commonmarker&package-manager=bundler&previous-version=0.23.6&new-version=0.23.7)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=activesupport&package-manager=bundler&previous-version=6.0.4.7&new-version=6.0.6.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -151,7 +128,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-25 04:33:23 +0000 UTC
+        Created At 2023-01-31 03:57:59 +0000 UTC
     </div>
 </div>
 

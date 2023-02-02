@@ -1,13 +1,13 @@
 
-[362](https://github.com/hyperledger-labs/fabric-operations-console/pull/362) propagate "migrated_from" through export & import
+[125](https://github.com/hyperledger/indy-test-automation/pull/125) [WIP] Test migration to VDR / Askar / CredX + DCO
 
-[3986](https://github.com/hyperledger/fabric/pull/3986) Fix chaincode interest for private data purge
+[3989](https://github.com/hyperledger/fabric/pull/3989) fix(sec): upgrade github.com/opencontainers/runc to 1.1.2
 
-[372](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/372) Enhancement for Asset Manager SDK in Fabric
+[491](https://github.com/hyperledger-labs/orion-server/pull/491) Allow issuing cert with URI instead of IP
 
-[448](https://github.com/hyperledger-labs/fabric-smart-client/pull/448) updated vulnerable packages
+[3988](https://github.com/hyperledger/fabric/pull/3988) Fix chaincode interest for private data purge (backport #3986)
 
-[3977](https://github.com/hyperledger/fabric/pull/3977) Move purge private data tests to separate runner
+[1155](https://github.com/hyperledger/solang/pull/1155) Build fix after ink crate 4.0.0-rc was released
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
