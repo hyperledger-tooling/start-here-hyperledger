@@ -15,6 +15,41 @@ permalink: /releases/hyperledger/indy-vdr
         <tr>
             <td colspan="2">
                 <b>
+                    v0.4.0-dev.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.4.0-dev.4
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* fix(js): framework path in podspec file by @TimoGlastra in https://github.com/hyperledger/indy-vdr/pull/145
+* fix(js): request type inference by @TimoGlastra in https://github.com/hyperledger/indy-vdr/pull/147
+* fix(js): cred def found/not found response type by @TimoGlastra in https://github.com/hyperledger/indy-vdr/pull/149
+* chore: update version to dev.4 by @TimoGlastra in https://github.com/hyperledger/indy-vdr/pull/150
+
+
+**Full Changelog**: https://github.com/hyperledger/indy-vdr/compare/v0.4.0-dev.3...v0.4.0-dev.4
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/indy-vdr/releases/tag/v0.4.0-dev.4" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-02-02 11:01:54 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v0.4.0-dev.3
                 </b>
             </td>
@@ -39,49 +74,6 @@ permalink: /releases/hyperledger/indy-vdr
     </a>
     <span class="right-align">
         Created At 2023-01-26 17:33:51 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v0.4.0-dev.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v0.4.0-dev.2
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* build(javascript): fix some small release issues by @TimoGlastra in https://github.com/hyperledger/indy-vdr/pull/133
-* Update deprecated actions by @andrewwhitehead in https://github.com/hyperledger/indy-vdr/pull/132
-* fix(js): typing issues by @TimoGlastra in https://github.com/hyperledger/indy-vdr/pull/135
-* chore(js): add @hyperledger prefix by @TimoGlastra in https://github.com/hyperledger/indy-vdr/pull/136
-* Update README.md to update Rocketchat reference to Discord by @swcurran in https://github.com/hyperledger/indy-vdr/pull/138
-* Added missing reqeust builders into FFI and Python wrapper by @Artemkaaas in https://github.com/hyperledger/indy-vdr/pull/137
-* fix(js): aml response type by @TimoGlastra in https://github.com/hyperledger/indy-vdr/pull/142
-* chore(js): cleanup the index.ts for React Native by @blu3beri in https://github.com/hyperledger/indy-vdr/pull/140
-* Corrected builder for NYM request in Python wrapper by @Artemkaaas in https://github.com/hyperledger/indy-vdr/pull/141
-* Updated the package version and download tag by @blu3beri in https://github.com/hyperledger/indy-vdr/pull/139
-
-## New Contributors
-* @swcurran made their first contribution in https://github.com/hyperledger/indy-vdr/pull/138
-
-**Full Changelog**: https://github.com/hyperledger/indy-vdr/compare/v0.4.0-dev.1...v0.4.0-dev.2
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/indy-vdr/releases/tag/v0.4.0-dev.2" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2023-01-25 20:37:32 +0000 UTC
     </span>
 </div>
 
