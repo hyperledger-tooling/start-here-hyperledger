@@ -220,30 +220,3 @@ All tests pass when running with [EIPTests.bc4895](https://github.com/hyperledge
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5003" class=".btn">#5003</a>
-            </td>
-            <td>
-                <b>
-                    Adding trace logs to mention ssz transaction encoding/deconding in logs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Jiri Peinlich <jiri.peinlich@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-26 08:18:59 +0000 UTC
-    </div>
-</div>
-
