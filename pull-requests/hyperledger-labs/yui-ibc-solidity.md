@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/152" class=".btn">#152</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/153" class=".btn">#153</a>
             </td>
             <td>
                 <b>
-                    build(deps): bump cookiejar from 2.1.3 to 2.1.4
+                    build(deps): bump http-cache-semantics from 4.1.0 to 4.1.1
                 </b>
             </td>
         </tr>
@@ -27,17 +27,21 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
                 <span class="chip">dependencies</span><span class="chip">javascript</span>
             </td>
             <td>
-                Bumps [cookiejar](https://github.com/bmeck/node-cookiejar) from 2.1.3 to 2.1.4.
+                Bumps [http-cache-semantics](https://github.com/kornelski/http-cache-semantics) from 4.1.0 to 4.1.1.
 <details>
 <summary>Commits</summary>
 <ul>
-<li>See full diff in <a href="https://github.com/bmeck/node-cookiejar/commits">compare view</a></li>
+<li><a href="https://github.com/kornelski/http-cache-semantics/commit/24496504352199caf360d1b4d4a01efdc8a7249e"><code>2449650</code></a> Update mocha</li>
+<li><a href="https://github.com/kornelski/http-cache-semantics/commit/560b2d8ef452bbba20ffed69dc155d63ac757b74"><code>560b2d8</code></a> Don't use regex to trim whitespace</li>
+<li><a href="https://github.com/kornelski/http-cache-semantics/commit/b1bdb92638426fab978f31e1330b6833015cabf0"><code>b1bdb92</code></a> Remove linting package zoo</li>
+<li><a href="https://github.com/kornelski/http-cache-semantics/commit/c20dc7eeca608339143857953ee7ed9343fe6d3d"><code>c20dc7e</code></a> Cache 308</li>
+<li>See full diff in <a href="https://github.com/kornelski/http-cache-semantics/compare/v4.1.0...v4.1.1">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=cookiejar&package-manager=npm_and_yarn&previous-version=2.1.3&new-version=2.1.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=http-cache-semantics&package-manager=npm_and_yarn&previous-version=4.1.0&new-version=4.1.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -73,7 +77,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-24 14:22:48 +0000 UTC
+        Created At 2023-02-03 17:56:48 +0000 UTC
     </div>
 </div>
 
