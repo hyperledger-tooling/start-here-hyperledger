@@ -51,35 +51,3 @@ permalink: /releases/hyperledger/anoncreds-rs
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v0.1.0-dev.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v0.1.0-dev.3
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* build: small issues with release by @TimoGlastra in https://github.com/hyperledger/anoncreds-rs/pull/86
-
-
-**Full Changelog**: https://github.com/hyperledger/anoncreds-rs/compare/v0.1.0-dev.2...v0.1.0-dev.3
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/anoncreds-rs/releases/tag/v0.1.0-dev.3" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2023-01-27 09:21:31 +0000 UTC
-    </span>
-</div>
-
