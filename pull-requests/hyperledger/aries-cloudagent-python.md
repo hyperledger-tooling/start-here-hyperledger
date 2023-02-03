@@ -14,37 +14,6 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2110" class=".btn">#2110</a>
-            </td>
-            <td>
-                <b>
-                    Webhook Security
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Creating this PR to add an endpoint to add security layer to the webhook calls. This is done by using a hmac signature created on the basis of secret key provided by the controller and the webhook payload. Looking for the feedback from the community.
--Signed off by: ramreddychalla94 [ram.challa@ontario.ca](mailto:ram.challa@ontario.ca)
--Funded by the Ontario Government
-
-This PR resolves Additional security controls for webhooks for multi-tenancy #2029 @swcurran please review and let us know of your comments, thanks.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-02 19:49:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2109" class=".btn">#2109</a>
             </td>
             <td>
