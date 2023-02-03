@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5041" class=".btn">#5041</a>
+            </td>
+            <td>
+                <b>
+                    Move worldstate on forkchoice reorg
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: garyschulte <garyschulte@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+fix a latent issue where a reorg of the current chain head results in a mismatch between blockchain head and bonsai worldstate head
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #4784 
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-03 01:03:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5039" class=".btn">#5039</a>
             </td>
             <td>
@@ -789,54 +835,6 @@ Removes the lgtm (has been shut down In Dec 2022) labels from the readme.
     </table>
     <div class="right-align">
         Created At 2023-01-27 03:48:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5011" class=".btn">#5011</a>
-            </td>
-            <td>
-                <b>
-                    DebugGetRawBlock and DebugGetRawHeader missing methods
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamRevenant</span>
-            </td>
-            <td>
-                ## PR description
-Adds two missing methods as per [api-documentation](https://ethereum.github.io/execution-apis/api-documentation/):
-
-- DebugGetRawBlock - Returns an RLP-encoded block.
-- DebugGetRawHeader - Returns an RLP-encoded header.
-
-**Fixes hive tests:**
-
-- debug_getRawBlock/get-block-n (besu) 
-- debug_getRawBlock/get-genesis (besu) 
-- debug_getRawBlock/get-invalid-number (besu) 
-- debug_getRawHeader/get-block-n (besu) 
-- debug_getRawHeader/get-genesis (besu) 
-- debug_getRawHeader/get-invalid-number (besu)
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-26 20:28:05 +0000 UTC
     </div>
 </div>
 

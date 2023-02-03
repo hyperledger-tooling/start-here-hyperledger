@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3512" class=".btn">#3512</a>
+            </td>
+            <td>
+                <b>
+                    feat: creating SD-JWT from VC will leave subject ID as regular field
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                instead of turning subject ID into an SD field.
+
+Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-02 20:30:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3511" class=".btn">#3511</a>
             </td>
             <td>
@@ -72,7 +100,7 @@ Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
             </td>
             <td>
                 <b>
-                    wip: Add support for SD-JWT in presentation exchange
+                    feat: Add support for SD-JWT in presentation exchange
                 </b>
             </td>
         </tr>
@@ -241,32 +269,6 @@ To be able to create JWS signer from external packages and avoid code duplicatio
     </table>
     <div class="right-align">
         Created At 2023-01-30 14:09:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3499" class=".btn">#3499</a>
-            </td>
-            <td>
-                <b>
-                    feat: method for SD-JWT VC to create non-SDJWT 'display credential'
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-26 21:51:43 +0000 UTC
     </div>
 </div>
 

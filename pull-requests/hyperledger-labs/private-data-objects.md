@@ -40,32 +40,3 @@ Makes the suite of hash and hmac functions available to wawaka contracts.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/395" class=".btn">#395</a>
-            </td>
-            <td>
-                <b>
-                    Add MAINTAINERS file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Addresses #374 
-
-Signed-off-by: Marcela Melara <marcela.melara@intel.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-27 00:13:08 +0000 UTC
-    </div>
-</div>
-

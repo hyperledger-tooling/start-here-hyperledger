@@ -195,31 +195,3 @@ Signed-off-by: salaheldinsoliman <salaheldin_sameh@aucegypt.edu>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1147" class=".btn">#1147</a>
-            </td>
-            <td>
-                <b>
-                    Bump solana_rbpf
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Bump solana_rbpf to 0.2.35. This makes it possible to use rust 1.67
-- Fix sporadic test failure
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-26 22:51:51 +0000 UTC
-    </div>
-</div>
-
