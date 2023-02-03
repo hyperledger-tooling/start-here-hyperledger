@@ -50,6 +50,40 @@ permalink: /releases/hyperledger/firefly
         <tr>
             <td colspan="2">
                 <b>
+                    v1.1.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v1.1.3
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Backport crash fixes to release-1.1 branch by @awrichar in https://github.com/hyperledger/firefly/pull/1158
+* Allow receiving a message with no data by @awrichar in https://github.com/hyperledger/firefly/pull/1161
+* Update to docker/build-push-action@v4 by @awrichar in https://github.com/hyperledger/firefly/pull/1176
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly/compare/v1.1.2...v1.1.3
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly/releases/tag/v1.1.3" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-02-02 20:22:55 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v1.2.0-rc.2
                 </b>
             </td>
@@ -109,39 +143,6 @@ permalink: /releases/hyperledger/firefly
     </a>
     <span class="right-align">
         Created At 2023-01-30 20:51:08 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v1.1.3
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v1.1.3
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* Backport crash fixes to release-1.1 branch by @awrichar in https://github.com/hyperledger/firefly/pull/1158
-* Allow receiving a message with no data by @awrichar in https://github.com/hyperledger/firefly/pull/1161
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly/compare/v1.1.2...v1.1.3
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly/releases/tag/v1.1.3" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2023-01-26 19:09:36 +0000 UTC
     </span>
 </div>
 
