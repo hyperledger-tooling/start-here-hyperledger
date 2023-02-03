@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/46" class=".btn">#46</a>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/49" class=".btn">#49</a>
             </td>
             <td>
                 <b>
-                    Set protocolId in all transaction receipts
+                    Upgrade to FFTM v1.2.2
                 </b>
             </td>
         </tr>
@@ -27,14 +27,38 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
                 
             </td>
             <td>
-                As required by FireFly core PR https://github.com/hyperledger/firefly/pull/1111 this PR brings evmconnect into line with the updated `TransactionReceiptResponse` struct that adds `protocolId` to transaction receipts.
-
-Signed-off-by: Matthew Whitehead <matthew.whitehead@kaleido.io>
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-19 16:52:43 +0000 UTC
+        Created At 2023-01-31 21:06:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/47" class=".btn">#47</a>
+            </td>
+            <td>
+                <b>
+                    Update to FFTM v1.2.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-30 17:55:44 +0000 UTC
     </div>
 </div>
 

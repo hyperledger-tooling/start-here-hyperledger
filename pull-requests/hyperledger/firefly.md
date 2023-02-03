@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1137" class=".btn">#1137</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1176" class=".btn">#1176</a>
             </td>
             <td>
                 <b>
-                    Add FIR-16 enhancements to fftokens documentation
+                    Update to docker/build-push-action@v4
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                Document the new parameters and APIs that were added as part of [FIR-16](https://github.com/hyperledger/firefly-fir/pull/16).
+                Backport of #1174
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-10 17:06:36 +0000 UTC
+        Created At 2023-02-02 20:20:22 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1136" class=".btn">#1136</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1175" class=".btn">#1175</a>
             </td>
             <td>
                 <b>
-                    Fix: typos
+                    Include signing key in batch processor identifier
                 </b>
             </td>
         </tr>
@@ -53,14 +53,14 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                Fix: typos
+                Messages from the same identity but different signing keys must be processed into different batches. If the signing key of the message does not match the signing key of the batch, the message will be rejected.
 
-Signed-off-by: omahs <73983677+omahs@users.noreply.github.com>
+Fixes #1173
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-10 15:52:13 +0000 UTC
+        Created At 2023-02-01 22:58:56 +0000 UTC
     </div>
 </div>
 
@@ -68,11 +68,11 @@ Signed-off-by: omahs <73983677+omahs@users.noreply.github.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1134" class=".btn">#1134</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1174" class=".btn">#1174</a>
             </td>
             <td>
                 <b>
-                    Check variable before using its value
+                    Update to docker/build-push-action@v4
                 </b>
             </td>
         </tr>
@@ -81,16 +81,12 @@ Signed-off-by: omahs <73983677+omahs@users.noreply.github.com>
                 
             </td>
             <td>
-                Add a check to see if poolData is nil before attempting to access its fields. 
-
-Resolves #1121 
-
-Signed-off-by: Ayushya Chitransh <ayushyachitransh@gmail.com>
+                Due to a recent change in the docker/build-push-action GitHub Action https://github.com/docker/build-push-action/issues/778 our images stopped having their manifests published properly. This PR updates our GitHub Actions to use a newer version of the Action, and restores the previously working behavior. I was able to test this on my own fork and created https://github.com/nguyer/firefly/pkgs/container/firefly/67526987 which has a good manifest in it.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-09 12:24:03 +0000 UTC
+        Created At 2023-02-01 21:40:27 +0000 UTC
     </div>
 </div>
 
@@ -98,11 +94,11 @@ Signed-off-by: Ayushya Chitransh <ayushyachitransh@gmail.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1133" class=".btn">#1133</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1172" class=".btn">#1172</a>
             </td>
             <td>
                 <b>
-                    Fix coverage gap in FFIErrors, and make DB interface consistent
+                    Add stack type to nightly integration tests
                 </b>
             </td>
         </tr>
@@ -111,12 +107,12 @@ Signed-off-by: Ayushya Chitransh <ayushyachitransh@gmail.com>
                 
             </td>
             <td>
-                There was no coverage of the DB interface for FFI Errors, and oddly there was a difference in the query interface to all other DB packages. Unsure why that was, so I made it consistent.
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-08 19:15:37 +0000 UTC
+        Created At 2023-02-01 01:35:50 +0000 UTC
     </div>
 </div>
 
@@ -124,11 +120,11 @@ Signed-off-by: Ayushya Chitransh <ayushyachitransh@gmail.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1132" class=".btn">#1132</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1171" class=".btn">#1171</a>
             </td>
             <td>
                 <b>
-                    Add DELETE method for data API
+                    Update dependencies for v1.2.0
                 </b>
             </td>
         </tr>
@@ -137,12 +133,12 @@ Signed-off-by: Ayushya Chitransh <ayushyachitransh@gmail.com>
                 
             </td>
             <td>
-                Depends on: https://github.com/hyperledger/firefly-dataexchange-https/pull/73
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-06 21:24:53 +0000 UTC
+        Created At 2023-01-31 21:16:16 +0000 UTC
     </div>
 </div>
 
@@ -150,11 +146,11 @@ Signed-off-by: Ayushya Chitransh <ayushyachitransh@gmail.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1131" class=".btn">#1131</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1169" class=".btn">#1169</a>
             </td>
             <td>
                 <b>
-                    Add docs on passing ABI info to token pools
+                    Fix coverage gap in webhooks test
                 </b>
             </td>
         </tr>
@@ -163,16 +159,12 @@ Signed-off-by: Ayushya Chitransh <ayushyachitransh@gmail.com>
                 
             </td>
             <td>
-                Part of [FIR-16](https://github.com/hyperledger/firefly-fir/pull/16).
-
-This links out to the READMEs of both token connectors for "more details", so these PRs are relevant to be merged alongside this one:
-https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/108
-https://github.com/hyperledger/firefly-tokens-erc1155/pull/107
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-06 20:01:25 +0000 UTC
+        Created At 2023-01-30 21:40:45 +0000 UTC
     </div>
 </div>
 
@@ -180,11 +172,11 @@ https://github.com/hyperledger/firefly-tokens-erc1155/pull/107
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1130" class=".btn">#1130</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1168" class=".btn">#1168</a>
             </td>
             <td>
                 <b>
-                    Add strong nil checking on orchestrator and redress test coverage
+                    Update dependencies for v1.2.0
                 </b>
             </td>
         </tr>
@@ -193,18 +185,12 @@ https://github.com/hyperledger/firefly-tokens-erc1155/pull/107
                 
             </td>
             <td>
-                - Fixes #1116
-   - I went the route of forcing `nil` checking on the `Operator()` method everywhere (apart from unit tests, where I added a `MustOrchestrator`)
-- Addresses a couple of  areas where test coverage seems to have slipped
-
-After fix:
-![image](https://user-images.githubusercontent.com/6660217/210892935-f458ab7a-6b8e-46a4-9398-5cd2217c2764.png)
-
+                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-05 22:34:15 +0000 UTC
+        Created At 2023-01-30 20:20:52 +0000 UTC
     </div>
 </div>
 
@@ -212,11 +198,11 @@ After fix:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1129" class=".btn">#1129</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1164" class=".btn">#1164</a>
             </td>
             <td>
                 <b>
-                    Add docs on fftokens
+                    Keep Docker state between builds
                 </b>
             </td>
         </tr>
@@ -225,39 +211,12 @@ After fix:
                 
             </td>
             <td>
-                <img width="1234" alt="fftokens_-_Hyperledger_FireFly_Docs" src="https://user-images.githubusercontent.com/1993829/210884637-4b4a3027-4e8c-4e6c-a5b4-ecc2e5d4f288.png">
-
+                Greatly reduces incremental build time for "make docker".
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-05 21:36:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1126" class=".btn">#1126</a>
-            </td>
-            <td>
-                <b>
-                    remove XDC
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-05 16:47:30 +0000 UTC
+        Created At 2023-01-27 15:42:16 +0000 UTC
     </div>
 </div>
 

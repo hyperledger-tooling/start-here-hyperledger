@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/128" class=".btn">#128</a>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/150" class=".btn">#150</a>
             </td>
             <td>
                 <b>
-                    Fixed minor issues with the build pipeline
+                    chore: update version to dev.4
                 </b>
             </td>
         </tr>
@@ -27,20 +27,117 @@ permalink: /pull-requests/hyperledger/indy-vdr
                 
             </td>
             <td>
-                closes #115 
-
-- Switched back to static libraries as there were some small issues with the dynamic libraries. We should change it in the future, but for now this will work (it is just a bit more megabytes that have to be downloaded).
-- tested here https://www.npmjs.com/search?q=indy-vdr-test
-- Supersedes #127 
-
-Work funded by the Government of Ontario.
-
-Signed-off-by: blu3beri <blu3beri@proton.me>
+                Signed-off-by: Timo Glastra <timo@animo.id>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-07 19:57:45 +0000 UTC
+        Created At 2023-02-01 14:01:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/149" class=".btn">#149</a>
+            </td>
+            <td>
+                <b>
+                    fix(js): cred def found/not found response type
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The found / not found responses were mixed up in the cred def response types
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-01 13:58:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/148" class=".btn">#148</a>
+            </td>
+            <td>
+                <b>
+                    Added builder for POOL_UPGRADE request into FFI and Python
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-30 14:36:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/147" class=".btn">#147</a>
+            </td>
+            <td>
+                <b>
+                    fix(js): request type inference
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-27 13:52:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/146" class=".btn">#146</a>
+            </td>
+            <td>
+                <b>
+                    build(android): set ndk version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Don't merge this yet. Mainly "hijacking" the CI for this to work.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-27 10:39:59 +0000 UTC
     </div>
 </div>
 

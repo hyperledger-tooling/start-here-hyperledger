@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-admin-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/74" class=".btn">#74</a>
+                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/82" class=".btn">#82</a>
             </td>
             <td>
                 <b>
-                    Nominate channing duan
+                    Use SubmitWithContext to simplify call to chaincode approve
                 </b>
             </td>
         </tr>
@@ -27,96 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-admin-sdk
                 
             </td>
             <td>
-                Nominate @channingduan as maintainer for this project.
-
-duan helps with init features of golang code.
-
-ref to https://github.com/hyperledger/fabric-admin-sdk/pulls?q=is%3Apr+is%3Aclosed+author%3Achanningduan
-
-Signed-off-by: Sam Yuan <yy19902439@126.com>
+                While updating dependencies, removed direct dependency on github.com/pkg/errors since all the necessary capability is provided by the Go standard libraries.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-06 13:57:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/73" class=".btn">#73</a>
-            </td>
-            <td>
-                <b>
-                    Add CHANGELOG.md file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is required by the Hyperledger repository structure guidelines to ensure that any fork of the repository also contains release version details. The changelog simply links to the main repository's GitHub releases pages where notable changes in each release are recorded.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-05 17:23:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/72" class=".btn">#72</a>
-            </td>
-            <td>
-                <b>
-                    Add MAINTAINERS.md file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-05 15:38:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/71" class=".btn">#71</a>
-            </td>
-            <td>
-                <b>
-                    Add CODE_OF_CONDUCT.md linking to Hyperledger code of conduct
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-05 14:50:39 +0000 UTC
+        Created At 2023-02-01 17:07:29 +0000 UTC
     </div>
 </div>
 

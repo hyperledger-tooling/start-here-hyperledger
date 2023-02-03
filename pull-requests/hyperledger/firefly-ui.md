@@ -14,25 +14,25 @@ permalink: /pull-requests/hyperledger/firefly-ui
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/208" class=".btn">#208</a>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/213" class=".btn">#213</a>
             </td>
             <td>
                 <b>
-                    Add 'Detail' to operation slide out
+                    Fix link to Firefly UI repository
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">enhancement</span>
+                
             </td>
             <td>
-                and use `fetchstatus=true` on /operations/{opid} calls to populate it
+                Fix link to Firefly UI repository
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-05 09:12:41 +0000 UTC
+        Created At 2023-01-29 12:46:07 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/516" class=".btn">#516</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/517" class=".btn">#517</a>
             </td>
             <td>
                 <b>
-                    Check node status before creating channels
+                    Remove Delete Btn on Channel Page
                 </b>
             </td>
         </tr>
@@ -27,14 +27,16 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                Check peer nodes and orderer nodes before creating channels
+                Channel page has a button to delete one channel. But we are going 
+to implement this feature in the next release. So remove the frontend 
+button for now.
 
-Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
+Signed-off-by: xichen1 <xichen.pan@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-27 04:08:44 +0000 UTC
+        Created At 2023-02-03 06:05:30 +0000 UTC
     </div>
 </div>
 

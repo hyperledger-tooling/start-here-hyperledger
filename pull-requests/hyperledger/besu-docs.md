@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1244" class=".btn">#1244</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1256" class=".btn">#1256</a>
             </td>
             <td>
                 <b>
-                    Add a note on securing RPC endpoints
+                    Update config for tx-pool-limit-by-account-percentage on pub nets, consider moving to both sides 
                 </b>
             </td>
         </tr>
@@ -27,26 +27,16 @@ permalink: /pull-requests/hyperledger/besu-docs
                 
             </td>
             <td>
-                Add a note on securing JSON-RPC endpoints
+                This updates the tx-pool-limit to the correct name for the parameter and provides a word of caution. Suggest that we copy this over to the private network side and call it out as well until we have a better parameterization default. We may be changing this shortly on Mainnet. I will ask @fab-10 to tag the docs team when he finishes his new transaction pool work. 
 
-For content changes:
+Signed-off-by: Matt Nelson <85905982+non-fungible-nelson@users.noreply.github.com>
 
-- [x] Documentation content
-- [ ] Documentation page organization
-
-## Preview
-
-<!-- Add the link to preview your changes on Read the Docs.
-
-The link format is "https://hyperledger-besu--{your PR number}.org.readthedocs.build/en/{your PR number}/",
-where {your PR number} is replaced by the number of this PR.
--->
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-11 04:58:02 +0000 UTC
+        Created At 2023-01-31 22:50:42 +0000 UTC
     </div>
 </div>
 
@@ -54,11 +44,11 @@ where {your PR number} is replaced by the number of this PR.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1241" class=".btn">#1241</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1254" class=".btn">#1254</a>
             </td>
             <td>
                 <b>
-                    Bump mkdocs-material from 9.0.0 to 9.0.3 in /CI
+                    Bump plantuml-markdown from 3.8.0 to 3.8.1 in /CI
                 </b>
             </td>
         </tr>
@@ -67,116 +57,42 @@ where {your PR number} is replaced by the number of this PR.
                 <span class="chip">DocOps</span>
             </td>
             <td>
-                Bumps [mkdocs-material](https://github.com/squidfunk/mkdocs-material) from 9.0.0 to 9.0.3.
+                Bumps [plantuml-markdown](https://github.com/mikitex70/plantuml-markdown) from 3.8.0 to 3.8.1.
 <details>
 <summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/squidfunk/mkdocs-material/releases">mkdocs-material's releases</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/mikitex70/plantuml-markdown/releases">plantuml-markdown's releases</a>.</em></p>
 <blockquote>
-<h2>mkdocs-material-9.0.3</h2>
-<ul>
-<li>Improved discernability of section index pages in navigation</li>
-<li>Improved collapsing of adjacent whitespace in search plugin</li>
-<li>Updated Indonesian translations</li>
-<li>Fixed view source of this page button when edit URL points to blob</li>
-<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4829">#4829</a>: Search overlay does not close for active anchor result</li>
-<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4824">#4824</a>: Search plugin crashes for <code>h[1-6]</code> contained in other elements</li>
-<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4804">#4804</a>: Nested navigation items not expandable with keyboard</li>
-<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4689">#4689</a>: anchor tracking not working for anchors in tables</li>
-<li>Upgraded to Mermaid 9.3.0</li>
-</ul>
-<h2>mkdocs-material-9.0.2</h2>
-<ul>
-<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4823">#4823</a>: Improved contrast ratio in footer to meet WCAG guidelines</li>
-<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4819">#4819</a>: Social plugin crashes when card generation is disabled</li>
-<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4817">#4817</a>: Search plugin crashes on numeric page titles in <code>nav</code></li>
-</ul>
-<h2>mkdocs-material-9.0.1</h2>
-<ul>
-<li>Removed <code>pipdeptree</code> dependency for built-in info plugin</li>
-<li>Fixed appearance of linked tags when hovered (9.0.0 regression)</li>
-<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4810">#4810</a>: Abbreviations run out of screen on touch devices</li>
-<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4813">#4813</a>: View source and edit button links are the same</li>
-</ul>
+<h2>Added option for disabling SSL checks</h2>
+<p>Added the 'insecure<code>configuration option to disable HTTPS SSL certificate validation. Set to</code>True` when using a custom PlantUML installation with self-signed certificates.</p>
 </blockquote>
 </details>
 <details>
 <summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/squidfunk/mkdocs-material/blob/master/CHANGELOG">mkdocs-material's changelog</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/mikitex70/plantuml-markdown/blob/master/CHANGELOG.md">plantuml-markdown's changelog</a>.</em></p>
 <blockquote>
-<p>mkdocs-material-9.0.3+insiders-4.27.1 (2022-01-08)</p>
+<h2>3.8.1 (2023-01-29)</h2>
+<h3>New</h3>
 <ul>
-<li>Fixed rendering of succeeding navigation items in typeset plugin</li>
-<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4795">#4795</a>: Built-in typeset plugin changes MkDocs' title precedence</li>
-<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4724">#4724</a>: Blog plugin not rendering integrate table of contents</li>
+<li>
+<p>Added option for disabling SSL checks (refs <a href="https://github-redirect.dependabot.com/mikitex70/plantuml-markdown/issues/83">#83</a>) [Michele Tessaro]</p>
+<p>Added the <code>insecure</code> configuration option for disabling HTTPS SSL
+certificate validation.
+Set it to <code>True</code> when the PlantUML server uses self-signed certificates.</p>
+</li>
 </ul>
-<p>mkdocs-material-9.0.3 (2022-01-08)</p>
-<ul>
-<li>Improved discernability of section index pages in navigation</li>
-<li>Improved collapsing of adjacent whitespace in search plugin</li>
-<li>Updated Indonesian translations</li>
-<li>Fixed view source of this page button when edit URL points to blob</li>
-<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4829">#4829</a>: Search overlay does not close for active anchor result</li>
-<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4824">#4824</a>: Search plugin crashes for h1-6 contained in other elements</li>
-<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4804">#4804</a>: Nested navigation items not expandable with keyboard</li>
-<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4689">#4689</a>: anchor tracking not working for anchors in tables</li>
-<li>Upgraded to Mermaid 9.3.0</li>
-</ul>
-<p>mkdocs-material-9.0.2 (2022-01-04)</p>
-<ul>
-<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4823">#4823</a>: Improved contrast ratio in footer to meet WCAG guidelines</li>
-<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4819">#4819</a>: Social plugin crashes when card generation is disabled</li>
-<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4817">#4817</a>: Search plugin crashes on numeric page titles in nav</li>
-</ul>
-<p>mkdocs-material-9.0.1 (2022-01-03)</p>
-<ul>
-<li>Removed pipdeptree dependency for built-in info plugin</li>
-<li>Fixed appearance of linked tags when hovered (9.0.0 regression)</li>
-<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4810">#4810</a>: Abbreviations run out of screen on touch devices</li>
-<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4813">#4813</a>: View source and edit button links are the same</li>
-</ul>
-<p>mkdocs-material-9.0.0 (2023-01-02)</p>
-<p>Additions and improvements</p>
-<ul>
-<li>Added support for rich search previews</li>
-<li>Added support for tokenizer lookahead</li>
-<li>Added support for better search highlighting</li>
-<li>Added support for excluding content from search</li>
-<li>Added support for configurable search pipeline</li>
-<li>Added support for offline search via offline plugin</li>
-<li>Added support for multiple instances of built-in tags plugin</li>
-<li>Added support for removing copy-to-clipboard button</li>
-<li>Added support for removing footer navigation</li>
-<li>Added support for button to view the source of a page</li>
-<li>Improved readability of query string for search sharing</li>
-<li>Improved stability of search plugin when using --dirtyreload</li>
-<li>Improved search result group button, now sticky and stable</li>
-<li>Updated Norwegian translations</li>
-<li>Updated MkDocs to 1.4.2</li>
-</ul>
-<!-- raw HTML omitted -->
 </blockquote>
-<p>... (truncated)</p>
 </details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/eab3eae25dad6bf03e68bc1ddf22aeace50e6142"><code>eab3eae</code></a> Prepare 9.0.3 release</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/35e6eed4627c137007873ab2f4521b8e8f91dbc0"><code>35e6eed</code></a> Updated dependencies</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/f8f44f58376206903e925d0b3db1e6e5f89e94ca"><code>f8f44f5</code></a> Improved accessibility of sidebar navigation</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/5b35b7df5773efe37babfb54343151a355ca988f"><code>5b35b7d</code></a> Updated Indonesian translations</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/1d0f993a4ada669b2c0c302fb8d9c2a20f832963"><code>1d0f993</code></a> Updated Indonesian translations</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/318903db589c9b73e7e1074b24a530ac1ad63032"><code>318903d</code></a> Fixed anchor tracking not working for anchors in tables</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/8a812aed83b217816f017dc2c8ac34dbc6545afd"><code>8a812ae</code></a> Fixed search not closing on same anchor selection</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/68257348b883ca6bccc514e1afdad8852a458646"><code>6825734</code></a> Improved collapsing of adjacent whitespace and removal of empty elements in s...</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/7484b19e9aa5712b8e22ae03786cba68fbde65cc"><code>7484b19</code></a> Removed unnecessary code from search plugin</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/81e7b8c7fc53d32c8a8730ae68614d8925388782"><code>81e7b8c</code></a> Fixed search plugin crashing on nested headlines</li>
-<li>Additional commits viewable in <a href="https://github.com/squidfunk/mkdocs-material/compare/9.0.0...9.0.3">compare view</a></li>
+<li><a href="https://github.com/mikitex70/plantuml-markdown/commit/79d5f7ba9ee9d7e98921ce1a1b09520da21de696"><code>79d5f7b</code></a> new: usr: added option for disabling SSL checks (refs <a href="https://github-redirect.dependabot.com/mikitex70/plantuml-markdown/issues/83">#83</a>)</li>
+<li>See full diff in <a href="https://github.com/mikitex70/plantuml-markdown/compare/3.8.0...3.8.1">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=mkdocs-material&package-manager=pip&previous-version=9.0.0&new-version=9.0.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=plantuml-markdown&package-manager=pip&previous-version=3.8.0&new-version=3.8.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -207,7 +123,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-09 23:06:11 +0000 UTC
+        Created At 2023-01-30 23:07:07 +0000 UTC
     </div>
 </div>
 
@@ -215,127 +131,194 @@ You can trigger Dependabot actions by commenting on this PR:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1240" class=".btn">#1240</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1253" class=".btn">#1253</a>
             </td>
             <td>
                 <b>
-                    removed unused page reference
+                    Bump mkdocs-material from 9.0.0 to 9.0.9 in /CI
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">DocOps</span>
             </td>
             <td>
-                Signed-off-by: Sally MacFarlane <macfarla.github@gmail.com>
+                Bumps [mkdocs-material](https://github.com/squidfunk/mkdocs-material) from 9.0.0 to 9.0.9.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/squidfunk/mkdocs-material/releases">mkdocs-material's releases</a>.</em></p>
+<blockquote>
+<h2>mkdocs-material-9.0.9</h2>
+<ul>
+<li>Updated Bulgarian translations</li>
+<li>Updated Chinese (Simplified) translations</li>
+<li>Updated Dutch translations</li>
+<li>Updated Hindi translations</li>
+<li>Updated Japanese translations</li>
+<li>Updated Polish translations</li>
+</ul>
+<h2>mkdocs-material-9.0.8</h2>
+<ul>
+<li>Updated Croatian translations</li>
+<li>Updated French translations</li>
+<li>Updated Hungarian translations</li>
+<li>Updated Portuguese (Brasilian) translations</li>
+<li>Updated Spanish translations</li>
+<li>Updated Ukrainian translations</li>
+<li>Updated Urdu translations</li>
+<li>Updated Vietnamese translations</li>
+</ul>
+<h2>mkdocs-material-9.0.7</h2>
+<ul>
+<li>Improved accessibility of sidebar navigation</li>
+<li>Moved all translations into community edition</li>
+<li>Updated Polish and Portuguese (Brasilian) translations</li>
+<li>Fixed info plugin terminating on subsequent reload when serving</li>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4910">#4910</a>: Sidebar navigation labels have invalid ARIA roles</li>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4884">#4884</a>: Search query terms can't be separated by colons</li>
+</ul>
+<h2>mkdocs-material-9.0.6</h2>
+<ul>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4883">#4883</a>: Automatically disable info plugin when serving</li>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4885">#4885</a>: Search plugin crashes in some exotic cases (9.0.3 regression)</li>
+</ul>
+<h2>mkdocs-material-9.0.5</h2>
+<ul>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4842">#4842</a>: Improved accessibility of search result list</li>
+</ul>
+<h2>mkdocs-material-9.0.4</h2>
+<ul>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4823">#4823</a>: Improved contrast ratio in footer (9.0.2 regression)</li>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4832">#4832</a>: Set navigation items back to black (9.0.3 regression)</li>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4843">#4843</a>: Emojis broken due to <code>maxcdn.com</code> shutting down</li>
+<li>Upgraded Python Markdown Extensions to 9.9.1</li>
+</ul>
+<h2>mkdocs-material-9.0.3</h2>
+<ul>
+<li>Improved discernability of section index pages in navigation</li>
+<li>Improved collapsing of adjacent whitespace in search plugin</li>
+<li>Updated Indonesian translations</li>
+<li>Fixed view source of this page button when edit URL points to blob</li>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4829">#4829</a>: Search overlay does not close for active anchor result</li>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4824">#4824</a>: Search plugin crashes for <code>h[1-6]</code> contained in other elements</li>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4804">#4804</a>: Nested navigation items not expandable with keyboard</li>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4689">#4689</a>: anchor tracking not working for anchors in tables</li>
+<li>Upgraded to Mermaid 9.3.0</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/squidfunk/mkdocs-material/blob/master/CHANGELOG">mkdocs-material's changelog</a>.</em></p>
+<blockquote>
+<p>mkdocs-material-9.0.9 (2023-01-30)</p>
+<ul>
+<li>Updated Bulgarian translations</li>
+<li>Updated Chinese (Simplified) translations</li>
+<li>Updated Dutch translations</li>
+<li>Updated Hindi translations</li>
+<li>Updated Japanese translations</li>
+<li>Updated Polish translations</li>
+</ul>
+<p>mkdocs-material-9.0.8 (2023-01-29)</p>
+<ul>
+<li>Updated Croatian translations</li>
+<li>Updated French translations</li>
+<li>Updated Hungarian translations</li>
+<li>Updated Portuguese (Brasilian) translations</li>
+<li>Updated Spanish translations</li>
+<li>Updated Ukrainian translations</li>
+<li>Updated Urdu translations</li>
+<li>Updated Vietnamese translations</li>
+</ul>
+<p>mkdocs-material-9.0.7 (2023-01-28)</p>
+<ul>
+<li>Improved accessibility of sidebar navigation</li>
+<li>Moved all translations into community edition</li>
+<li>Updated Polish and Portuguese (Brasilian) translations</li>
+<li>Fixed info plugin terminating on subsequent reload when serving</li>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4910">#4910</a>: Sidebar navigation labels have invalid ARIA roles</li>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4884">#4884</a>: Search query terms can't be separated by colons</li>
+</ul>
+<p>mkdocs-material-9.0.6+insiders-4.29.0 (2023-01-21)</p>
+<ul>
+<li>Added built-in optimize plugin for automatically compressing images</li>
+<li>Switched reporting in built-in privacy plugin to info level</li>
+</ul>
+<p>mkdocs-material-9.0.6 (2023-01-19)</p>
+<ul>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4883">#4883</a>: Automatically disable info plugin when serving</li>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4885">#4885</a>: Search plugin crashes in some exotic cases (9.0.3 regression)</li>
+</ul>
+<p>mkdocs-material-9.0.5+insiders-4.28.1 (2023-01-17)</p>
+<ul>
+<li>Fixed built-in info plugin erroring for Insiders on version check</li>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4865">#4865</a>: Navigation paths render bug when there's no top-level section</li>
+<li>Fixed <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4875">#4875</a>: Added support for hiding navigation paths</li>
+<li>Improved navigation path to not render for a single item</li>
+</ul>
+<p>mkdocs-material-9.0.5+insiders-4.28.0 (2023-01-14)</p>
+<ul>
+<li>Added support for navigation path (breadcrumbs)</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/00175e38986d915c8ebf438a9c010dd37be3326e"><code>00175e3</code></a> Prepare 9.0.9 release</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/109614b6126e2f6c6be3f8fde0a652c9d5d508a0"><code>109614b</code></a> Fixed computation of missing translations</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/97b4798dd66d078f450809dc79b04a1bef217cf8"><code>97b4798</code></a> Updated dependencies</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/be0e198a49593aeef7486cf33b2c65d2d692079d"><code>be0e198</code></a> Updated Chinese (Simplified) translations</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/2747293403e013afd54330c268f7ec7d916b02df"><code>2747293</code></a> Updated Polish translations</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/567419b17fd5915ad538492fcf30ca4eb1d4de6b"><code>567419b</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4958">#4958</a> from evetion/patch-1</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/3104df5fb26f83ea7e88b0abae4f359e0779e622"><code>3104df5</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/squidfunk/mkdocs-material/issues/4957">#4957</a> from kamilkrzyskow/update-pl-lang2</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/d1d918d0764fb8327aac7beea5eb496bb28f3bc4"><code>d1d918d</code></a> Fix Dutch translation of contributors.</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/3db06ad8b4b0bffc871669abd8fbb6aaf1168130"><code>3db06ad</code></a> Updated translation template</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/557eaac71c21ef1624a630b02fb1d70d881859f5"><code>557eaac</code></a> Merge branch 'master' of github.com:squidfunk/mkdocs-material</li>
+<li>Additional commits viewable in <a href="https://github.com/squidfunk/mkdocs-material/compare/9.0.0...9.0.9">compare view</a></li>
+</ul>
+</details>
+<br />
 
-Removed a reference that is unused within the page 
 
-- [x] Documentation content
-- [ ] Documentation page organization
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=mkdocs-material&package-manager=pip&previous-version=9.0.0&new-version=9.0.9)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
-## Preview
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
-<!-- Add the link to preview your changes on Read the Docs.
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
 
-The link format is "https://hyperledger-besu--{your PR number}.org.readthedocs.build/en/{your PR number}/",
-where {your PR number} is replaced by the number of this PR.
--->
+---
 
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-09 07:33:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1239" class=".btn">#1239</a>
-            </td>
-            <td>
-                <b>
-                    Permissioning - remove reference to the dapp
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Remove references to the permissioning dapp. Smart contracts can still be used but the dapp doesn't work for new users.
-
-Fixes #1238 
-
-For content changes:
-
-- [x] Documentation content
-- [ ] Documentation page organization
-
-## After creating your PR and tests have finished
-
-Make sure that:
-
-- [ ] You've fixed any issues raised by the tests.
-- [ ] You've [previewed your changes on Read the Docs](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation)
-  and added a [preview link](#preview).
-
-## Preview
-
-https://hyperledger-besu--1239.org.readthedocs.build/en/1239/private-networks/concepts/permissioning/onchain/
-https://hyperledger-besu--1239.org.readthedocs.build/en/1239/private-networks/how-to/use-permissioning/onchain/
-https://hyperledger-besu--1239.org.readthedocs.build/en/1239/private-networks/tutorials/permissioning/onchain/
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-09 04:10:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1237" class=".btn">#1237</a>
-            </td>
-            <td>
-                <b>
-                    Update broken link to the Grafana dashboard.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Pull request checklist
-
-Use the following list to make sure your PR fits the Besu documentation quality standard.
-
-### Before creating the pull request
-
-Make sure that:
-
-- [x] [All commits in this PR are signed off for the DCO](https://wiki.hyperledger.org/display/BESU/DCO).
-- [x] You've read the [contribution guidelines](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [x] You've [previewed your changes locally](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation).
-
-## Describe the change
-
-The link to the Grafana dashboard has been causing the nightly CI job to fail. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-09 02:22:44 +0000 UTC
+        Created At 2023-01-30 23:07:00 +0000 UTC
     </div>
 </div>
 

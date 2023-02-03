@@ -14,79 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/57" class=".btn">#57</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/96" class=".btn">#96</a>
             </td>
             <td>
                 <b>
-                    removed required prover_did
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                closes #52 
-
-Implemented according to: https://github.com/hyperledger/anoncreds-spec/issues/107#issuecomment-1376698662
-
-Also removed the dependency on `indy_utils::DidValue` which makes #40 a whole lot easier.
-
-Signed-off-by: blu3beri <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-11 13:29:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/56" class=".btn">#56</a>
-            </td>
-            <td>
-                <b>
-                    update revocation registry definition
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                closes #22 
-
-Where it was required, e.g. we pass it to Ursa, I used `ISSUANCE_BY_DEFAULT` which is a 0 or true.
-
-@whalelephant could you also give this a review with regards to any revocation changes, I am not too familiar with the exact internals so just to be safe.
-
-- removed the revocation registry config type
-- removed V1 wrapper around revocation objects
-- removed issuance by default reference
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-11 10:12:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/55" class=".btn">#55</a>
-            </td>
-            <td>
-                <b>
-                    added schema attrNames validation
+                    build: use dynamic libraries for iOS
                 </b>
             </td>
         </tr>
@@ -101,7 +33,7 @@ Where it was required, e.g. we pass it to Ursa, I used `ISSUANCE_BY_DEFAULT` whi
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-11 09:11:22 +0000 UTC
+        Created At 2023-02-02 11:56:40 +0000 UTC
     </div>
 </div>
 
@@ -109,11 +41,11 @@ Where it was required, e.g. we pass it to Ursa, I used `ISSUANCE_BY_DEFAULT` whi
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/50" class=".btn">#50</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/95" class=".btn">#95</a>
             </td>
             <td>
                 <b>
-                    Added `issuerId` to the `schema` and `cred_def` anoncreds objects
+                    build: build xc frameworks with dylibs
                 </b>
             </td>
         </tr>
@@ -122,20 +54,21 @@ Where it was required, e.g. we pass it to Ursa, I used `ISSUANCE_BY_DEFAULT` whi
                 
             </td>
             <td>
-                Partially closes #34 
+                - Build the xcframework with dynamic instead of static libraries
+- used in the CI now
 
-- Adds `IssuerId` property to the `Schema` and `CredentialDefinition`.
+### Notes
 
-This is reflects the PR for adding the `issuerId` to anoncreds objects.
-
-(revocation needs to be done but is omitted here for conflicts with #37.
+- Dynamic libraries and frameworks pushing to the App Store can fail if it is not setup correctly I think.
+  - Since I am not an iOS developer I "botched" together some of the resources about constructing a `.framework` online, but we have to push an app to the app store to see whether it is done properly. if anyone knows anyone with experience like this, help would be awesome!
+- This is by no means a perfect shell script. It can be refactored later, but it does the job for now.
 
 Signed-off-by: blu3beri <blu3beri@proton.me>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-09 12:13:36 +0000 UTC
+        Created At 2023-02-02 11:27:55 +0000 UTC
     </div>
 </div>
 
@@ -143,11 +76,78 @@ Signed-off-by: blu3beri <blu3beri@proton.me>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/49" class=".btn">#49</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/94" class=".btn">#94</a>
             </td>
             <td>
                 <b>
-                    Return NRP warning if presentation timestamp is outside of req interval
+                    build(deps): bump http-cache-semantics from 4.1.0 to 4.1.1 in /wrappers/javascript
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span>
+            </td>
+            <td>
+                Bumps [http-cache-semantics](https://github.com/kornelski/http-cache-semantics) from 4.1.0 to 4.1.1.
+<details>
+<summary>Commits</summary>
+<ul>
+<li>See full diff in <a href="https://github.com/kornelski/http-cache-semantics/commits">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=http-cache-semantics&package-manager=npm_and_yarn&previous-version=4.1.0&new-version=4.1.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/anoncreds-rs/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-02 09:56:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/93" class=".btn">#93</a>
+            </td>
+            <td>
+                <b>
+                    build: updated version in the test
                 </b>
             </td>
         </tr>
@@ -156,12 +156,13 @@ Signed-off-by: blu3beri <blu3beri@proton.me>
                 
             </td>
             <td>
-                Closes #41 
+                Signed-off-by: blu3beri <blu3beri@proton.me>
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-06 15:01:53 +0000 UTC
+        Created At 2023-02-01 19:02:27 +0000 UTC
     </div>
 </div>
 
@@ -169,11 +170,11 @@ Signed-off-by: blu3beri <blu3beri@proton.me>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/48" class=".btn">#48</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/92" class=".btn">#92</a>
             </td>
             <td>
                 <b>
-                    Updated to correct openssl-src repo
+                    chore: update versions
                 </b>
             </td>
         </tr>
@@ -182,15 +183,97 @@ Signed-off-by: blu3beri <blu3beri@proton.me>
                 
             </td>
             <td>
-                Work funded by the Government of Ontario.
-
-Signed-off-by: blu3beri <blu3beri@proton.me>
+                Signed-off-by: blu3beri <blu3beri@proton.me>
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-06 10:33:00 +0000 UTC
+        Created At 2023-02-01 15:55:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/91" class=".btn">#91</a>
+            </td>
+            <td>
+                <b>
+                    fix react native
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Native side of the wrapper should be good but for some reason the native module does not register. I will see if I can fix this somehow, but it might be that it works when its installed via NPM.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-01 12:26:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/89" class=".btn">#89</a>
+            </td>
+            <td>
+                <b>
+                    fix(js): proverDid optional in Credential Request
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Since #57, prover_did in Credential Request is optional and some parts of the wrappers have been updated accordingly. But there were some missing changes in interfaces for both Node.JS and React Native wrappers that are updated here.
+
+Signed-off-by: Ariel Gentile <gentilester@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-30 23:13:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/87" class=".btn">#87</a>
+            </td>
+            <td>
+                <b>
+                    fix(js): missing export and return type
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Some minor fixes in JavaScript wrapper:
+
+- Remove the need of passing a `Presentation` instance in `verify`, as it is an instance method and can get the handle by itself
+- Expose `RevocationStatusList`
+- Fix `RevocationRegistryDefinition.load` method
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-28 23:46:22 +0000 UTC
     </div>
 </div>
 
