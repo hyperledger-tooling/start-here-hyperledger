@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node-container
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node-container/pull/122" class=".btn">#122</a>
+                PR <a href="https://github.com/hyperledger/indy-node-container/pull/124" class=".btn">#124</a>
             </td>
             <td>
                 <b>
-                    removed trash
+                    update experimental ubuntu20 container to 1.13.2~rc5
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-node-container
                 
             </td>
             <td>
-                fixes https://github.com/hyperledger/indy-node-container/issues/103
+                Signed-off-by: Sebastian Schmittner <sebastian.schmittner@eecc.de>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-09 08:37:49 +0000 UTC
+        Created At 2023-01-27 09:07:58 +0000 UTC
     </div>
 </div>
 

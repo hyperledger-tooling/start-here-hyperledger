@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/523" class=".btn">#523</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/550" class=".btn">#550</a>
             </td>
             <td>
                 <b>
-                    Allow scenario tests to be run locally on MacOS
+                    Add Go 1.20 to compatibility table
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                - Use default (leveldb) ledger database instead of explicitly using CouchDB. Avoids unnecessary dependencies, simplifies network topology and (hopefully) improves scenario test performance.
-- Explicitly mount docker.sock (with environment variable override) to avoid Docker failures.
-- Explicitly pull Docker images using amd64 platform if native images are not available.
-- Update chaincode dependency versions.
-- Add Make targets to allow scenario tests to be run excluding HSM tests.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-10 11:48:25 +0000 UTC
+        Created At 2023-02-02 09:07:04 +0000 UTC
     </div>
 </div>
 
@@ -44,11 +40,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/522" class=".btn">#522</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/549" class=".btn">#549</a>
             </td>
             <td>
                 <b>
-                    Evaluate,Submit, SubmitAsync with context
+                    Support Go 1.20
                 </b>
             </td>
         </tr>
@@ -57,12 +53,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Closes #516 
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-09 12:38:09 +0000 UTC
+        Created At 2023-02-01 22:50:44 +0000 UTC
     </div>
 </div>
 
@@ -70,11 +66,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/521" class=".btn">#521</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/548" class=".btn">#548</a>
             </td>
             <td>
                 <b>
-                    Update Java dependency-check version
+                    Update versions following release
                 </b>
             </td>
         </tr>
@@ -83,12 +79,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Resolves an issue that prevented dependency-check running due to long CVE content.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-07 00:49:12 +0000 UTC
+        Created At 2023-02-01 16:26:42 +0000 UTC
     </div>
 </div>
 
@@ -96,11 +92,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/520" class=".btn">#520</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/547" class=".btn">#547</a>
             </td>
             <td>
                 <b>
-                    Add CHANGELOG.md
+                    Update documentation for v1.2
                 </b>
             </td>
         </tr>
@@ -109,12 +105,13 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                This is required by the Hyperledger repository structure guidelines to ensure that any fork of the repository also contains release version details. The changelog simply links to the main repository's GitHub releases pages where notable changes in each release are recorded.
+                - Change version number
+- Remove Go 1.17 from compatibility matrix
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-05 17:13:44 +0000 UTC
+        Created At 2023-02-01 14:30:45 +0000 UTC
     </div>
 </div>
 
@@ -122,11 +119,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/519" class=".btn">#519</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/546" class=".btn">#546</a>
             </td>
             <td>
                 <b>
-                    Add code of conduct
+                    Increment minor version for new functionality
                 </b>
             </td>
         </tr>
@@ -135,12 +132,97 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Also update contributing guide with correct links to code of conduct.
+                The Go API was extended so incrementing the minor version to v1.2.0.
+
+As documented, each minor version supports only the currently supported language versions of Go, Node and Java. Drop support for Go 1.17 since this is no longer a current Go version, and use Go 1.18 as the minimum version.
+
+Update dependencies.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-05 11:42:05 +0000 UTC
+        Created At 2023-02-01 14:29:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/544" class=".btn">#544</a>
+            </td>
+            <td>
+                <b>
+                    Update version number following v1.1.2 release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-27 17:33:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/543" class=".btn">#543</a>
+            </td>
+            <td>
+                <b>
+                    Publish Java release builds to GitHub Packages
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                To improve the chances of a Java release artifact being published successfully, publish to GitHub Packages in addition to Maven Central.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-27 15:04:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/542" class=".btn">#542</a>
+            </td>
+            <td>
+                <b>
+                    Refactor HSM setup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Move all SoftHSM setup from build scripts into Makefile to better support local run of tests.
+- Support SoftHSM on MacOS installed using Homebrew.
+
+Closes #352
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-01-27 11:38:50 +0000 UTC
     </div>
 </div>
 

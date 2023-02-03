@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/781" class=".btn">#781</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/785" class=".btn">#785</a>
             </td>
             <td>
                 <b>
-                    [zh_CN]Docs » deploy_chaincode.md 修复部分书写问题
+                    [ja_JP] Translate "commands/peercommand.md" into Japanese
                 </b>
             </td>
         </tr>
@@ -27,13 +27,15 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
                 
             </td>
             <td>
-                - 将`./monitordocker.sh net_test`修改为`./monitordocker.sh fabric_test`
-- 删除多余的`export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt`
+                This patch translates "commands/peercommand.md" into Japanese.
+Resolves #604 
+
+Signed-off-by: Tatsuya Sato <tatsuya.sato.so@hitachi.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-08 01:07:48 +0000 UTC
+        Created At 2023-01-30 05:18:49 +0000 UTC
     </div>
 </div>
 
