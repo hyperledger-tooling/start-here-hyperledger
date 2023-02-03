@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3990" class=".btn">#3990</a>
+            </td>
+            <td>
+                <b>
+                    Fix Makefile did't delete docker image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Because multi-architecture docker image patches removed tags from the docker image, the docker-clean target could not remove the docker image. This patch changes the docker-clean target to remove untagged docker images.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-03 00:52:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3989" class=".btn">#3989</a>
             </td>
             <td>
