@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5055" class=".btn">#5055</a>
+            </td>
+            <td>
+                <b>
+                    EIP-6110: Handle validator deposits in EL
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Appends validator deposits to the Execution Layer block structure: [EIP-6110](https://eips.ethereum.org/EIPS/eip-6110)
+
+## Fixed Issue(s)
+#5004 
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-05 06:54:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5054" class=".btn">#5054</a>
             </td>
             <td>
@@ -879,13 +922,13 @@ Tested on withdrawals-devnet-6, here's the Shanghai fork transition...
             </td>
             <td>
                 <b>
-                    Replace get by block number by get by block header
+                    Replace getByBlockNumber by getByBlockHeader
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span><span class="chip">mainnet</span><span class="chip">EIP</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
