@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5054" class=".btn">#5054</a>
+            </td>
+            <td>
+                <b>
+                    Adds to 22.10.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Additions to 22.10.4 release.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-05 01:13:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5050" class=".btn">#5050</a>
             </td>
             <td>
