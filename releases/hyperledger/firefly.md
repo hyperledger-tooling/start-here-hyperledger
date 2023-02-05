@@ -15,6 +15,40 @@ permalink: /releases/hyperledger/firefly
         <tr>
             <td colspan="2">
                 <b>
+                    v1.2.0-rc.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v1.2.0-rc.4
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Add contractLocation field to deploy transaction output by @nguyer in https://github.com/hyperledger/firefly/pull/1178
+* Add migration guide for v1.2.0 by @nguyer in https://github.com/hyperledger/firefly/pull/1159
+* Update UI and CLI to v1.2.0 by @nguyer in https://github.com/hyperledger/firefly/pull/1180
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly/compare/v1.2.0-rc.3...v1.2.0-rc.4
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly/releases/tag/v1.2.0-rc.4" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-02-05 00:16:20 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v1.2.0-rc.3
                 </b>
             </td>
