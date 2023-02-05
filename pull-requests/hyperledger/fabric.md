@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3993" class=".btn">#3993</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: Remove system channel usage from integration tests: raft no.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Yoav Tock <tock@il.ibm.com>
+Change-Id: Ie801bbf66b5ae320fbb1f8a099f1cc4b2070ec94
+
+#### Type of change
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Orderer v3: Remove system channel usage from integration tests: raft no.2
+
+#### Related issues
+Epic: https://github.com/hyperledger/fabric/issues/3511
+Issue: https://github.com/hyperledger/fabric/issues/3515
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-05 16:42:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3991" class=".btn">#3991</a>
             </td>
             <td>
