@@ -1,13 +1,13 @@
 
+[494](https://github.com/hyperledger-labs/orion-server/pull/494) Bump github.com/gogo/protobuf from 1.3.0 to 1.3.2
+
+[2112](https://github.com/hyperledger/aries-cloudagent-python/pull/2112) fix: resolver api schema inconsistency
+
+[3994](https://github.com/hyperledger/fabric/pull/3994) Orderer v3: Remove system channel usage from integration tests: e2e again
+
+[5059](https://github.com/hyperledger/besu/pull/5059) Add worldstate heal mechanism 
+
 [5057](https://github.com/hyperledger/besu/pull/5057) Include withdrawals tests in ref tests
-
-[518](https://github.com/hyperledger/cello/pull/518) Remove the modules that have not been developed and unused code
-
-[3993](https://github.com/hyperledger/fabric/pull/3993) Orderer v3: Remove system channel usage from integration tests: raft no.2
-
-[307](https://github.com/hyperledger/iroha-java/pull/307) int as u32
-
-[493](https://github.com/hyperledger-labs/orion-server/pull/493) Avoid instantiating the default marshaller before each use
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
