@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3994" class=".btn">#3994</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: Remove system channel usage from integration tests: e2e again
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Orderer v3: Remove system channel usage from integration tests: e2e again
+
+
+#### Related issues
+
+Epic: https://github.com/hyperledger/fabric/issues/3511
+Issue: https://github.com/hyperledger/fabric/issues/3515
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-06 08:53:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3993" class=".btn">#3993</a>
             </td>
             <td>

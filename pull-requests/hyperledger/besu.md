@@ -14,6 +14,75 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5059" class=".btn">#5059</a>
+            </td>
+            <td>
+                <b>
+                    Add worldstate heal mechanism 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+This PR add a heal  mechanism fo the worldtstate in case of inconsistency (unable to trie node). To fix this, we start a quick heal of the worldstate automatically and once the fix is done we restart the block import.
+
+After the detection of an invalid path
+- we delete this path to force the healing of this part.
+- then we delete the trielogs. 
+- we select a pivot block (before of after the heal)
+- we move the blokchain to this pivot block (rewind or download the missing blocks) 
+- then we launch a worldstate heal. 
+
+
+This feature can also heal a node that has been inconsistent for a long time, but it will take longer because there will be more nodes to heal.  With this PR the healing will be done as soon as the problem is detected so there will not a lot to heal and it will be fast
+
+## Performed tests
+ - Trigger multiple inconsistencies to fix  (passed)
+ - Fixed a node that has been inconsistent for a long time (passed)
+ - Run a snapsync from scratch on goerli (passed)
+ - Run a checkpoint sync from scratch on goelri (passed)
+ - Run a checkpoint sync from scratch on main **(in progress)**
+ - Run a validator teku+besu on goerli (passed)
+ - Profile performance on this node to avoid perf regression (passed)
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+#4379 
+#4785 
+#4768
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-06 07:22:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5057" class=".btn">#5057</a>
             </td>
             <td>
@@ -867,137 +936,6 @@ The flamegraph at the block processing level
     </table>
     <div class="right-align">
         Created At 2023-01-30 21:05:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5022" class=".btn">#5022</a>
-            </td>
-            <td>
-                <b>
-                    Re-merge main
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-30 11:24:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5021" class=".btn">#5021</a>
-            </td>
-            <td>
-                <b>
-                    Add optional withdrawals to the NewPayload log
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When withdrawals are null (i.e. disabled, pre-shanghai) then display nothing extra in the log.
-When withdrawals are present, display their size, even when 0.
-
-Chose 'ws' as a short name to keep the overall log small and since this is mostly useful for developers debugging rather than useful info for a node operator.
-
-Tested on withdrawals-devnet-6, here's the Shanghai fork transition...
-```
-2023-01-30 20:53:44.059+10:00 | vert.x-worker-thread-0 | INFO  | AbstractEngineNewPayload | Imported #304 / 0 tx / base fee 7 wei / 0 (0.0%) gas / (0x5d96179b829a1c2ba62774b9559a401b198375bc6d6b6a39521594ac6e5996e4) in 0.000s. Peers: 1
-2023-01-30 20:53:44.818+10:00 | vert.x-worker-thread-0 | INFO  | AbstractEngineNewPayload | Imported #305 / 0 tx / 0 ws / base fee 7 wei / 0 (0.0%) gas / (0x4199a28b76bc005897627cdbd7701e121be736c738294b1d09ccbb8291eadd2f) in 0.001s. Peers: 1
-2023-01-30 20:53:46.078+10:00 | vert.x-worker-thread-0 | INFO  | AbstractEngineNewPayload | Imported #306 / 0 tx / 0 ws / base fee 7 wei / 0 (0.0%) gas / (0xb68a8114d332339ec1e27cb53362626fa41e9a5ad6563334a6d181ea968f9211) in 0.000s. Peers: 1
-2023-01-30 20:53:46.726+10:00 | vert.x-worker-thread-0 | INFO  | AbstractEngineNewPayload | Imported #307 / 0 tx / 0 ws / base fee 7 wei / 0 (0.0%) gas / (0x66e995f758066e4abdbd1bb3928bd9bcd451b197d9eeb8b5c79de595508ec3d5) in 0.000s. Peers: 1
-2023-01-30 20:53:47.008+10:00 | vert.x-worker-thread-0 | INFO  | AbstractEngineNewPayload | Imported #308 / 0 tx / 0 ws / base fee 7 wei / 0 (0.0%) gas / (0xb93230252d104b6996b1e517ca766bbb157673270c5695a0c1608d98b616522a) in 0.001s. Peers: 3
-2023-01-30 20:53:47.291+10:00 | vert.x-worker-thread-0 | INFO  | AbstractEngineNewPayload | Imported #309 / 0 tx / 0 ws / base fee 7 wei / 0 (0.0%) gas / (0x152a3d68762b359abe5cb518567efc984445b588138a2cb8aee081c4692536f2) in 0.000s. Peers: 5
-2023-01-30 20:53:47.839+10:00 | vert.x-worker-thread-0 | INFO  | AbstractEngineNewPayload | Imported #310 / 0 tx / 0 ws / base fee 7 wei / 0 (0.0%) gas / (0xb79daa73a92dc261562488a012a9951cc67f2d95c0222b3b22d244686f475c8c) in 0.000s. Peers: 1
-2023-01-30 20:53:48.552+10:00 | vert.x-worker-thread-0 | INFO  | AbstractEngineNewPayload | Imported #311 / 0 tx / 0 ws / base fee 7 wei / 0 (0.0%) gas / (0xfb321669488d84e5fee40f3df6d6e904834ad2cec62051c920f70d9c31b8cf40) in 0.001s. Peers: 1
-2023-01-30 20:53:48.722+10:00 | vert.x-worker-thread-0 | INFO  | AbstractEngineNewPayload | Imported #312 / 0 tx / 0 ws / base fee 7 wei / 0 (0.0%) gas / (0x41e1cee974a10fd53dcdf663a7c231e7b0baf2ec8b8f246b0f9344a8fcebc612) in 0.001s. Peers: 1
-2023-01-30 20:53:49.389+10:00 | vert.x-worker-thread-0 | INFO  | AbstractEngineNewPayload | Imported #313 / 0 tx / 1 ws / base fee 7 wei / 0 (0.0%) gas / (0x9aef492f1e9833a0dd86aef0947032908b76c8fc4591aacea3b5d3e0791af93a) in 0.001s. Peers: 1
-2023-01-30 20:53:49.820+10:00 | vert.x-worker-thread-0 | INFO  | AbstractEngineNewPayload | Imported #314 / 0 tx / 11 ws / base fee 7 wei / 0 (0.0%) gas / (0x6fa79cb3ed0696dc8f94622accba4d86c137c56d7a23e709b8861b24b04ba678) in 0.003s. Peers: 1
-2023-01-30 20:53:50.165+10:00 | vert.x-worker-thread-0 | INFO  | AbstractEngineNewPayload | Imported #315 / 0 tx / 16 ws / base fee 7 wei / 0 (0.0%) gas / (0x4773455ec25834ad1abe8f6ee107fa78bbd152ce6fc6f56acaa062ffda4e4154) in 0.001s. Peers: 2
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-30 10:57:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5020" class=".btn">#5020</a>
-            </td>
-            <td>
-                <b>
-                    Replace getByBlockNumber by getByBlockHeader
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span><span class="chip">mainnet</span><span class="chip">EIP</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-First batch that replaces getByBlockNumber by getByBlockHeader. These batch includes trivial replacements with none or minimal changes to the logic of the code base.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Part of #4789
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-30 06:56:42 +0000 UTC
     </div>
 </div>
 
