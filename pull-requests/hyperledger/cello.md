@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cello/pull/518" class=".btn">#518</a>
+            </td>
+            <td>
+                <b>
+                    Remove the modules that have not been developed and unused code
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Remove `ansible` agent module
+* Remove unused go `cmd` code
+* Remove `fabric-operator` module
+
+Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-05 20:47:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cello/pull/517" class=".btn">#517</a>
             </td>
             <td>

@@ -112,7 +112,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span>
             </td>
             <td>
                 ### Description
@@ -124,8 +124,16 @@ Improved sub-routing of the `status` endpoint.
 Closes #3099 
 
 ### Benefits
-
+#### Routing
 One does not need to decode JSON in order to obtain a subset of the data. Specifically this can be used for makeshift healthchecking. 
+
+#### Colour
+Additional checks for the standard terminal colour specifications are implemented. Specifically,  if the environment variable 
+`TERMINAL_COLORS` is defined and not equal to `false`, and the current `stdout` supports colour (i.e. isn't redirected to a file), additional colour is applied to the `cli` messages. If either of the above is false, terminal colour is disabled. Including logging and panic hooks. 
+
+#### Minor fixes
+
+Running Iroha with a non-existent configuration file no longer directly produces a failure. Instead data is deserialised from the environment and errors from there are forwarded. 
 
 ### Possible Drawbacks
 
@@ -144,6 +152,21 @@ curl curl http://127.0.0.1:8180/status
 ``` 
 
 should return a set of JSON values. 
+
+```sh
+NO_COLOR=true cargo run --bin iroha
+```
+
+results in 
+<img width="563" alt="Screenshot 2023-02-05 at 22 33 09" src="https://user-images.githubusercontent.com/15856657/216847309-59d41126-93a0-4292-acf0-42c9a0fb40c8.png">
+
+While 
+```sh
+cargo run --bin iroha
+```
+<img width="566" alt="Screenshot 2023-02-05 at 22 34 46" src="https://user-images.githubusercontent.com/15856657/216847381-afefc030-e443-48fe-a31b-26bff658090b.png">
+
+
 
             </td>
         </tr>
