@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/496" class=".btn">#496</a>
+            </td>
+            <td>
+                <b>
+                    Update goleveldb version to latest
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                There a many bug fixes since the first release of goleveldb.
+One of which, is fixing crashes when using released snapshots.
+
+For the full update list, see: https://github.com/syndtr/goleveldb/compare/v1...master
+
+Signed-off-by: Liran Funaro <liran.funaro@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-06 13:17:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/495" class=".btn">#495</a>
+            </td>
+            <td>
+                <b>
+                    Allow setting different go version from the command line
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                E.g., `make GO=go1.19.4 binary`
+
+Signed-off-by: Liran Funaro <liran.funaro@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-06 12:53:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/494" class=".btn">#494</a>
             </td>
             <td>
@@ -216,38 +275,6 @@ Signed-off-by: Liran Funaro <liran.funaro@gmail.com>
     </table>
     <div class="right-align">
         Created At 2023-02-02 13:50:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/490" class=".btn">#490</a>
-            </td>
-            <td>
-                <b>
-                    Use lock-free map for LevelDB
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">performance</span>
-            </td>
-            <td>
-                - Replacing map with sync.Map
-- Caching DB snapshot after commit to avoid creating a snapshot for each Get operation
-- Modifying cache to return byte array to avoid code duplication
-- Remove Db lock because levelDB is already protected
-- Reduce code duplication in Open()
-
-Signed-off-by: Liran Funaro <liran.funaro@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-30 14:58:42 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3995" class=".btn">#3995</a>
+            </td>
+            <td>
+                <b>
+                    Fix ledger integration test flake
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Need to ensure new peer has joined gossip network before invoking chaincode.
+
+Resolves #3946.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-06 18:16:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3994" class=".btn">#3994</a>
             </td>
             <td>
@@ -287,35 +317,6 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2023-02-01 10:22:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3975" class=".btn">#3975</a>
-            </td>
-            <td>
-                <b>
-                    Add BFT support to gateway
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Extend the gateway Submit() logic to concurrently send transaction to all available orderers if the channel is configured to use BFT ordering service.
-
-Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-30 16:01:12 +0000 UTC
     </div>
 </div>
 
