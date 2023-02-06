@@ -71,33 +71,3 @@ With the context of this example as coded, this is exactly functionally the same
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/921" class=".btn">#921</a>
-            </td>
-            <td>
-                <b>
-                    Commercial Paper
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The Commercial Paper example code hasn't kept pace with the state-of-the-art of writing applications and chaincode
-
-Whilst the scenario is still a valid usecase, the example itself is not helping - in fact causing confusion.
-
-Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-30 15:14:28 +0000 UTC
-    </div>
-</div>
-

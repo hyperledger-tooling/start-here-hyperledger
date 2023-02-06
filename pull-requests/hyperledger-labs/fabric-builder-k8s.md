@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/87" class=".btn">#87</a>
+            </td>
+            <td>
+                <b>
+                    Remove unnecessary bullets in readme
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-06 14:35:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/86" class=".btn">#86</a>
             </td>
             <td>
@@ -65,36 +91,6 @@ Signed-off-by: James Taylor <jamest@uk.ibm.com>
     </table>
     <div class="right-align">
         Created At 2023-01-31 17:08:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/83" class=".btn">#83</a>
-            </td>
-            <td>
-                <b>
-                    Update docs with general Kubernetes config info
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Includes details of how to provide image pull secrets when chaincode images are in registries which require credentials
-
-Closes #65
-
-Signed-off-by: James Taylor <jamest@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-30 17:35:16 +0000 UTC
     </div>
 </div>
 

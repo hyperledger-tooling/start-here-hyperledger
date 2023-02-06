@@ -154,37 +154,3 @@ Update release notes.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/360" class=".btn">#360</a>
-            </td>
-            <td>
-                <b>
-                    Bumped node versions from 16 to 18 in the workflows
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Nikhil Modem <Nikhil.Modem@ibm.com>
-
-#### Type of change
-- Improvement 
-
-#### Description
-Moving to Node 18
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-30 16:19:20 +0000 UTC
-    </div>
-</div>
-
