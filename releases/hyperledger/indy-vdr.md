@@ -28,7 +28,7 @@ permalink: /releases/hyperledger/indy-vdr
             <td>
                 ## What's Changed
 * Added builder for POOL_UPGRADE request into FFI and Python by @Artemkaaas in https://github.com/hyperledger/indy-vdr/pull/148
-
+* chore: update version to dev.5 by @Artemkaaas https://github.com/hyperledger/indy-vdr/pull/152
 
 **Full Changelog**: https://github.com/hyperledger/indy-vdr/compare/v0.4.0-dev.4...v0.4.0-dev.5
             </td>
@@ -38,7 +38,7 @@ permalink: /releases/hyperledger/indy-vdr
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-02-02 16:42:16 +0000 UTC
+        Created At 2023-02-06 15:56:25 +0000 UTC
     </span>
 </div>
 
