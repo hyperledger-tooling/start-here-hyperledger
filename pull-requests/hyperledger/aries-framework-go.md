@@ -217,29 +217,3 @@ Fix decoding presentation credential in SD JWT combined format for presentation.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3506" class=".btn">#3506</a>
-            </td>
-            <td>
-                <b>
-                    feat: Credential.MarshalJSON now marshals all SD-JWT disclosures
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-30 21:02:24 +0000 UTC
-    </div>
-</div>
-

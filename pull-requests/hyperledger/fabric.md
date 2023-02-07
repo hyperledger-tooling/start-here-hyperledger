@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3997" class=".btn">#3997</a>
+            </td>
+            <td>
+                <b>
+                    Bump github.com/containerd/containerd from 1.4.3 to 1.5.16 (release-2.5)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bumps github.com/containerd/containerd from 1.4.3 to 1.5.16.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-06 20:12:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/3996" class=".btn">#3996</a>
+            </td>
+            <td>
+                <b>
+                    Bump github.com/opencontainers/runc to v1.1.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Resolves dependency vulnerability mentioned in #3989.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-06 18:55:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/3995" class=".btn">#3995</a>
             </td>
             <td>
@@ -171,44 +229,6 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2023-02-03 00:52:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3989" class=".btn">#3989</a>
-            </td>
-            <td>
-                <b>
-                    fix(sec): upgrade github.com/opencontainers/runc to 1.1.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### What happened？
-There are 1 security vulnerabilities found in github.com/opencontainers/runc v1.0.0-rc8
-- [CVE-2022-29162](https://www.oscs1024.com/hd/CVE-2022-29162)
-
-
-### What did I do？
-Upgrade github.com/opencontainers/runc from v1.0.0-rc8 to 1.1.2 for vulnerability fix
-
-### What did you expect to happen？
-Ideally, no insecure libs should be used.
-
-### The specification of the pull request
-[PR Specification](https://www.oscs1024.com/docs/pr-specification/) from OSCS
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-02 14:03:54 +0000 UTC
     </div>
 </div>
 

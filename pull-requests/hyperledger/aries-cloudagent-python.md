@@ -125,31 +125,3 @@ Signed-off-by: pradeepp88 <pradeep.prakasam@ontario.ca>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2099" class=".btn">#2099</a>
-            </td>
-            <td>
-                <b>
-                    fix: fix connection timing bug
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an interesting bug that occurs under load in aca-py. It appears that on receive connection for a multi-use invitation, that we copy the object. The problem is for a short time the original search that takes places to find the multi-use invitation matches both the original and the copy. If this occurs, Aca-Py throws an un-caught error indicating that two connections records for the invitation were found. By setting Request on the clone object, this condition is avoided.
-
-Signed-off-by: Kim Ebert <kim@indicio.tech>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-30 18:32:45 +0000 UTC
-    </div>
-</div>
-

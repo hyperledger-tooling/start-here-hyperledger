@@ -1,13 +1,13 @@
 
-[3995](https://github.com/hyperledger/fabric/pull/3995) Fix ledger integration test flake
+[457](https://github.com/hyperledger/fabric-test/pull/457) Bump k8s.io/client-go from 0.16.8 to 0.20.0 in /tools/operator
 
-[87](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/87) Remove unnecessary bullets in readme
+[456](https://github.com/hyperledger/fabric-test/pull/456) Bump k8s.io/client-go from 0.16.8 to 0.20.0 in /regression/publish
 
-[221](https://github.com/hyperledger/ursa/pull/221) fix: typo
+[455](https://github.com/hyperledger/fabric-test/pull/455) Bump k8s.io/client-go from 0.16.8 to 0.20.0 in /regression/barebones
 
-[496](https://github.com/hyperledger-labs/orion-server/pull/496) Update goleveldb version to latest
+[454](https://github.com/hyperledger/fabric-test/pull/454) Bump k8s.io/client-go from 0.16.8 to 0.20.0 in /regression/basicnetwork
 
-[495](https://github.com/hyperledger-labs/orion-server/pull/495) Allow setting different go version from the command line
+[453](https://github.com/hyperledger/fabric-test/pull/453) Bump k8s.io/client-go from 0.16.8 to 0.20.0 in /regression/smoke
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
