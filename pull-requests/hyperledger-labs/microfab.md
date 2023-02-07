@@ -14,37 +14,11 @@ permalink: /pull-requests/hyperledger-labs/microfab
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/microfab/pull/141" class=".btn">#141</a>
+                PR <a href="https://github.com/hyperledger-labs/microfab/pull/143" class=".btn">#143</a>
             </td>
             <td>
                 <b>
-                    Relmain/workflows
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-25 14:08:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/microfab/pull/140" class=".btn">#140</a>
-            </td>
-            <td>
-                <b>
-                    Simple change to force build
+                    Add in microfab cli
                 </b>
             </td>
         </tr>
@@ -58,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/microfab
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-25 13:28:29 +0000 UTC
+        Created At 2023-02-07 10:36:24 +0000 UTC
     </div>
 </div>
 
