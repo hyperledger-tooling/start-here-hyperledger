@@ -42,35 +42,3 @@ permalink: /releases/hyperledger/firefly-transaction-manager
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v1.2.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v1.2.2
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* Fix bug that causes history summary to grow incorrectly by @matthew1001 in https://github.com/hyperledger/firefly-transaction-manager/pull/60
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly-transaction-manager/compare/v1.2.1...v1.2.2
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.2.2" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2023-01-31 19:47:20 +0000 UTC
-    </span>
-</div>
-
