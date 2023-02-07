@@ -175,8 +175,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 <span class="chip">enhancement</span>
             </td>
             <td>
-                …ity of peers and orderers
-
+                
 Signed-off-by: saksham1203 <saksham.s1203@gmail.com>
 
 <!--  Thanks for sending a pull request! 
