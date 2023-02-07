@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/156" class=".btn">#156</a>
+                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/157" class=".btn">#157</a>
             </td>
             <td>
                 <b>
-                    Bump server version v0.2.8
+                    Go 1.19
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
                 
             </td>
             <td>
-                Signed-off-by: Yoav Tock <tock@il.ibm.com>
+                Signed-off-by: Liran Funaro <liran.funaro@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-19 14:24:22 +0000 UTC
+        Created At 2023-02-07 12:47:48 +0000 UTC
     </div>
 </div>
 
