@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/ursa
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/ursa/pull/222" class=".btn">#222</a>
+            </td>
+            <td>
+                <b>
+                    updates to core
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                These updates define an error type that can be used across other packages that ursa makes available.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-06 19:35:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/ursa/pull/221" class=".btn">#221</a>
             </td>
             <td>

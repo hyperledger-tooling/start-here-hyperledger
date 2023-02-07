@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/80" class=".btn">#80</a>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/83" class=".btn">#83</a>
             </td>
             <td>
                 <b>
-                    Missing Builder Annotation 
+                    Resolve custom credential types
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
                 
             </td>
             <td>
-                see #79 
+                https://github.com/hyperledger-labs/acapy-java-client/issues/82
+
+Signed-off-by: Philipp Etschel <philipp@etschel.net>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-02 12:00:16 +0000 UTC
+        Created At 2023-02-06 18:31:31 +0000 UTC
     </div>
 </div>
 

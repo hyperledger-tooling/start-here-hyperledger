@@ -188,7 +188,7 @@ Signed-off-by: xermicus <cyrill@parity.io>
                 
             </td>
             <td>
-                runtime errors are reported alongside with file number and line number. this is enabled by ``--report-errors=true`
+                runtime errors are reported alongside with file number and line number. this is enabled by ``--log-runtime-errors`
 Signed-off-by: salaheldinsoliman <salaheldin_sameh@aucegypt.edu>
             </td>
         </tr>
