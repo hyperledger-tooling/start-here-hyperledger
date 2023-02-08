@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/cckit
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/cckit/pull/20" class=".btn">#20</a>
+                PR <a href="https://github.com/hyperledger-labs/cckit/pull/21" class=".btn">#21</a>
             </td>
             <td>
                 <b>
-                    Refactor verify signature and envelope generation
+                    A few fixes for the converter and serialiser
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/cckit
                 
             </td>
             <td>
-                To support proper serialisation of the envelope data from frontend to chaincode
-
-Signed-off-by: olaeseane <olaesean@gmail.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-26 13:42:50 +0000 UTC
+        Created At 2023-02-08 11:07:13 +0000 UTC
     </div>
 </div>
 
