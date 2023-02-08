@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/236" class=".btn">#236</a>
+                PR <a href="https://github.com/hyperledger/caliper-benchmarks/pull/237" class=".btn">#237</a>
             </td>
             <td>
                 <b>
-                    Remove old fabric performance reports
+                    Create test-network1.yaml
                 </b>
             </td>
         </tr>
@@ -27,20 +27,12 @@ permalink: /pull-requests/hyperledger/caliper-benchmarks
                 
             </td>
             <td>
-                2 reasons for this
-
-Reason 1:
-1.4 LTS Fabric version should not be being used any more 2.1.0 was never an LTS version and is not representive of Fabric 2.2 or the upcoming 2.5 nor the chaincode implementations used to test performance
-
-Reason 2:
-Caliper should not be hosting this. It's not Caliper's responsibity to provide performance reports for SUTs. SUTs themselves should do this and upto them whether they want to use Caliper or not as the load generator. If people want to know the performance of an SUT then this location is not exactly the obvious go to place.
-
-Signed-off-by: Dave Kelsey <d_kelsey@uk.ibm.com>
+                Signed-off-by: KhadijaSabiri <khadija.sabiry@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-06 14:55:51 +0000 UTC
+        Created At 2023-02-08 17:28:15 +0000 UTC
     </div>
 </div>
 

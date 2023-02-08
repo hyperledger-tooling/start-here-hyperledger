@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1164" class=".btn">#1164</a>
+            </td>
+            <td>
+                <b>
+                    Add --contract and --output-meta CLI flags
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                These are needed for the anchor cli tools
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-08 16:13:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1163" class=".btn">#1163</a>
+            </td>
+            <td>
+                <b>
+                    Fix solang language-server --importmap
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1162
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-08 15:09:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1160" class=".btn">#1160</a>
             </td>
             <td>
@@ -144,58 +196,6 @@ Signed-off-by: xermicus <cyrill@parity.io>
     </table>
     <div class="right-align">
         Created At 2023-02-01 19:04:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1153" class=".btn">#1153</a>
-            </td>
-            <td>
-                <b>
-                    External function type should not be a pointer in `llvm_type` function
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When we use the function `llvm_type`, it returns an llvm struct type for structs but a pointer for `Type::ExternalFunction`, which is also a struct in Solang emit. This behavior is inconsistent and gives us headaches when moving to LLVM 15.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-01 15:26:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1151" class=".btn">#1151</a>
-            </td>
-            <td>
-                <b>
-                    Bump some crate dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-01 14:17:40 +0000 UTC
     </div>
 </div>
 

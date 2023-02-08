@@ -14,26 +14,27 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/450" class=".btn">#450</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/451" class=".btn">#451</a>
             </td>
             <td>
                 <b>
-                    wallet registry: metadata support
+                    Dependency Test
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">enhancement</span>
+                
             </td>
             <td>
-                This PR let the developers store additional metadata in the wallet registry for a given identity.
-The PR introduces also a callback when registering the auditor in the integration tests and sample.
+                Signed-off-by: saptha.surendran@ibm.com <sapthasurendran@Sapthas-MacBook-Pro.local>
+
+- To test the FSC dependency updates 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-18 06:50:26 +0000 UTC
+        Created At 2023-02-08 15:19:01 +0000 UTC
     </div>
 </div>
 
