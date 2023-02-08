@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/378" class=".btn">#378</a>
+            </td>
+            <td>
+                <b>
+                    fix: rename master to main; whitelist to allowlist
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sandeep Nishad <sandeepn.official@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-08 17:16:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/376" class=".btn">#376</a>
             </td>
             <td>

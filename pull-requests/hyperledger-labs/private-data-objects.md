@@ -14,29 +14,27 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/396" class=".btn">#396</a>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/398" class=".btn">#398</a>
             </td>
             <td>
                 <b>
-                    consolidate hash and hmac functions & export them to wawaka contracts
+                    Renaming sawtooth-pdo.sgx.yaml to pdo.sgx.yaml 
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">enhancement</span>
+                
             </td>
             <td>
-                We started the day with three duplicate implementations of the hash functions in the common crypto library. This removes all but the one in the "correct" place (hash.cpp). 
+                This PR renames sawtooth-pdo.sgx.yaml to pdo.sgx.yaml  so that the same file as can be used to mount sgx drivers when PDO is run in HW mode with CCF TP. Usage will come in the next PR
 
-Adds hash and hmac functions for sha512.
-
-Makes the suite of hash and hmac functions available to wawaka contracts. 
+Signed-off-by: Prakash Narayana Moorthy <prakash.narayana.moorthy@intel.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-27 18:27:39 +0000 UTC
+        Created At 2023-02-08 17:26:56 +0000 UTC
     </div>
 </div>
 
