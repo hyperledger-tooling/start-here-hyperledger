@@ -159,29 +159,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/372" class=".btn">#372</a>
-            </td>
-            <td>
-                <b>
-                    Enhancement for Asset Manager SDK in Fabric
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added `endorsingOrgs` parameter in AssetManager SDK transaction functions. (kept query functions as it is)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-01 12:09:07 +0000 UTC
-    </div>
-</div>
-

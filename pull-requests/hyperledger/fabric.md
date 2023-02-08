@@ -618,30 +618,3 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3977" class=".btn">#3977</a>
-            </td>
-            <td>
-                <b>
-                    Move purge private data tests to separate runner
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-01 10:22:32 +0000 UTC
-    </div>
-</div>
-
