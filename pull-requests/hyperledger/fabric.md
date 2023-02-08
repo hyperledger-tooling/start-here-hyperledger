@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4006" class=".btn">#4006</a>
+            </td>
+            <td>
+                <b>
+                    Address private data purge integration test comments
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Address comments from https://github.com/hyperledger/fabric/pull/3991.
+
+Namely, speed up reconciliation test by looking for reconcilliation message rather than sleeping for 30s.
+Also change default reconcilliation from 10s to 5s to speed up tests.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-07 20:29:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4004" class=".btn">#4004</a>
             </td>
             <td>

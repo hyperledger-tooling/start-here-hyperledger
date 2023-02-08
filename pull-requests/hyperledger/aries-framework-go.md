@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3520" class=".btn">#3520</a>
+            </td>
+            <td>
+                <b>
+                    chore: Add interop test for verifier
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add interop tests for verifier - this is also to prove that we will not have issues with json libraries for interop (string hardening vs. canonicalization note in spec).
+
+Since disclosures are created by the issuer the value can be influenced by marshalling (e.g. spaces, map order etc.) however it will not influence functionality since we are not supposed to re-create disclosures at any point.
+
+Closes #3518
+
+Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-07 21:17:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3514" class=".btn">#3514</a>
             </td>
             <td>
@@ -97,32 +131,6 @@ Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
     </table>
     <div class="right-align">
         Created At 2023-02-02 20:30:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3511" class=".btn">#3511</a>
-            </td>
-            <td>
-                <b>
-                    fix: ParseCredential handles SD-JWT VCs with _sd_alg in subject
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-31 20:10:52 +0000 UTC
     </div>
 </div>
 
