@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5062" class=".btn">#5062</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/5067" class=".btn">#5067</a>
             </td>
             <td>
                 <b>
-                    3786 fix dco dhallatmaine
+                    Prepare for version 23.1.1-SNAPSHOT
                 </b>
             </td>
         </tr>
@@ -27,27 +27,173 @@ permalink: /pull-requests/hyperledger/besu
                 
             </td>
             <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+                Prepare for version 23.1.1-SNAPSHOT
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-08 05:25:36 +0000 UTC
+    </div>
+</div>
 
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5066" class=".btn">#5066</a>
+            </td>
+            <td>
+                <b>
+                    Invalid params - add some error detail
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently the "invalid params" response can hide a lot of detail.
+This PR adds some extra detail into the stack trace and logs it at DEBUG level.
+See #4212 
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Acceptance Tests (Non Mainnet)
 
-- [ ] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
+- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-08 05:15:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5065" class=".btn">#5065</a>
+            </td>
+            <td>
+                <b>
+                    Release 23.1.0-RC2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Release 23.1.0-RC2
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-08 04:54:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5063" class=".btn">#5063</a>
+            </td>
+            <td>
+                <b>
+                    Revert "Replace getByBlockNumber by getByBlockHeader (#5020)"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamGroot</span><span class="chip">mainnet</span><span class="chip">EIP</span>
+            </td>
+            <td>
+                This reverts commit 9ceebc4a57f648ed412ed6dcbc12a42699fffe54.
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Revert commit #5020 getByBlockNumber by getByBlockHeader as this is breaking syncing on Goerli.
+
+Goerli is failing to sync with error after this commit
+`{"@timestamp":"2023-02-07T21:49:39,513","level":"INFO","thread":"EthScheduler-Workers-0","class":"CoinbaseHeaderValidationRule","message":"Invalid block header: No clique in/out voting may occur on epoch blocks (7470000)","throwable":""}
+{"@timestamp":"2023-02-07T21:49:44,311","level":"WARN","thread":"EthScheduler-Services-800 (downloadHeaders)","class":"PipelineChainDownloader","message":"Invalid block detected (BREACH_OF_PROTOCOL). Disconnecting from sync target. Header failed validation.: Invalid block at #7470000 (0xaaea1696007267a518ee5c6550742f58c81333e71cdee6c38dc2403b628816e1)","throwable":""}`
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+Part of https://github.com/hyperledger/besu/issues/4789
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Acceptance Tests (Non Mainnet)
+
+- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-08 02:00:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5062" class=".btn">#5062</a>
+            </td>
+            <td>
+                <b>
+                    Fix for #3786 OOM on trace_block and trace_replayBlockTransactions RPC methods (fix dco dhallatmaine)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fix dco for https://github.com/hyperledger/besu/pull/5029 @dhallatmaine 
+
+## PR description
+This change addresses a situation where all TraceFrame's for all Transactions in a block are loaded into memory, when only the TraceFrame's for a single Transaction are ever needed.
+
+## Fixed Issue(s)
+fixes https://github.com/hyperledger/besu/issues/3786
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Acceptance Tests (Non Mainnet)
+
+- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>

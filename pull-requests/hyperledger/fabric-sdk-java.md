@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/259" class=".btn">#259</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/261" class=".btn">#261</a>
             </td>
             <td>
                 <b>
-                    Publish snapshots to GitHub Packages (release-2.2)
+                    release-2.2 mutual tls config key and peer property key not matching #260
                 </b>
             </td>
         </tr>
@@ -27,39 +27,16 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
                 
             </td>
             <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-27 15:51:39 +0000 UTC
-    </div>
-</div>
+                I have done the changes as follows:
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/258" class=".btn">#258</a>
-            </td>
-            <td>
-                <b>
-                    Publish snapshot and release builds
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Snapshots published to GitHub Packages
-- Tagged releases published to Maven Central
+1. change property names from tlsClient* to client* in NetworkConfig.java; add unit test and associated fixture.
+2. change from tlsClient* to client* in HFCAClient.java; add unit test and associated fixtures.
+3. Refactor clientCert* and clientKey* to constant in Endpoint.java and apply the constants in Channel.java.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-27 14:24:28 +0000 UTC
+        Created At 2023-02-08 02:19:36 +0000 UTC
     </div>
 </div>
 

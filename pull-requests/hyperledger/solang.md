@@ -199,30 +199,3 @@ Signed-off-by: xermicus <cyrill@parity.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1150" class=".btn">#1150</a>
-            </td>
-            <td>
-                <b>
-                    Reporting runtime errors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                runtime errors are reported alongside with file number and line number. this is enabled by ``--log-runtime-errors`
-Signed-off-by: salaheldinsoliman <salaheldin_sameh@aucegypt.edu>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-01 02:27:52 +0000 UTC
-    </div>
-</div>
-
