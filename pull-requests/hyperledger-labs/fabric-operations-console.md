@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/364" class=".btn">#364</a>
+            </td>
+            <td>
+                <b>
+                    Update endpoints to include legacy/saas endpoints
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: asararatnakar <asara.ratnakar@gmail.com>
+
+#### Type of change
+Improvement
+
+
+#### Description
+Update endpoints API to include legacy endpoints for migration cases
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-07 21:25:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/363" class=".btn">#363</a>
             </td>
             <td>
@@ -116,41 +151,6 @@ A new field called `migrated_from` will appear (if its populated) in exports, an
     </table>
     <div class="right-align">
         Created At 2023-02-01 23:07:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/361" class=".btn">#361</a>
-            </td>
-            <td>
-                <b>
-                    update release notes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Documentation update
-
-#### Description
-Update release notes.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-31 22:43:06 +0000 UTC
     </div>
 </div>
 
