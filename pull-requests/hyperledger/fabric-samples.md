@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/923" class=".btn">#923</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/924" class=".btn">#924</a>
             </td>
             <td>
                 <b>
-                    WIP: test network nano bash updated with smartbft consensus
+                    Move fabric-kube-test-network from Hyperledgendary -> samples
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                It requires the configtxgen & orderer smartbft changes from PR https://github.com/hyperledger/fabric/pull/3781
+                Configure a test-network on a local Kubernetes cluster, highlighting the enrollment, distribution, and exchange of channel MSP certificates in a production-style, multi-org environment.  The use of CA, ingress, and Fabric CLIs is illustrated through simplistic bash scripting and clear definitions of the org / MSP context.
 
-Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
+Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-31 19:19:05 +0000 UTC
+        Created At 2023-02-09 17:33:48 +0000 UTC
     </div>
 </div>
 
