@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1167" class=".btn">#1167</a>
+            </td>
+            <td>
+                <b>
+                    Fix CSE unchecked operations bug
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Depends on #1166 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-09 12:02:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1166" class=".btn">#1166</a>
+            </td>
+            <td>
+                <b>
+                    Fix --math-overflow flag and add tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - fix `--math-overflow` cli option
+- add test for `--math-overflow`
+- adds unchecked to the cfg printer 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-09 09:41:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1165" class=".btn">#1165</a>
             </td>
             <td>
@@ -168,32 +223,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2023-02-03 10:19:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1155" class=".btn">#1155</a>
-            </td>
-            <td>
-                <b>
-                    Build fix after ink crate 4.0.0-rc was released
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-02 10:14:59 +0000 UTC
     </div>
 </div>
 
