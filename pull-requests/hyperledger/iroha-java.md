@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/iroha-java
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/305" class=".btn">#305</a>
-            </td>
-            <td>
-                <b>
-                    Sort by metadata test && Long to U128 type
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-02 05:51:54 +0000 UTC
-    </div>
-</div>
-

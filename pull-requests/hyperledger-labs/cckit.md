@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/cckit
             </td>
             <td>
                 <b>
-                    A few fixes for the converter and serialiser
+                    Some fixes for the converter and serialiser
                 </b>
             </td>
         </tr>
