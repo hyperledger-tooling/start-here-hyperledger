@@ -14,6 +14,75 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5074" class=".btn">#5074</a>
+            </td>
+            <td>
+                <b>
+                    redo of #5039 without the saveTrieLog change
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sally MacFarlane <macfarla.github@gmail.com>
+
+See #5039 for context
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Acceptance Tests (Non Mainnet)
+
+- [ ] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-09 04:57:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5073" class=".btn">#5073</a>
+            </td>
+            <td>
+                <b>
+                    Revert "Keep Worldstate Storage open for Bonsai archive latest layer (#5039)"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This reverts commit e7150102ea208165ac29bd10986fe26bc9e176d0.
+
+This is causing "Unable to copy Layered Worldstate" errors affecting canary nodes, devnets and the 23.1.0 burn-in
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-09 03:15:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5071" class=".btn">#5071</a>
             </td>
             <td>
@@ -120,7 +189,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span>
             </td>
             <td>
                 Signed-off-by: Jason Frame <jason.frame@consensys.net>
@@ -919,56 +988,6 @@ fixes #4784
     </table>
     <div class="right-align">
         Created At 2023-02-03 01:03:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5039" class=".btn">#5039</a>
-            </td>
-            <td>
-                <b>
-                    Keep Worldstate Storage open for Bonsai archive latest layer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Fixes an issue where the latest block in BonsaiWorldStateArchive had a closed worldstate.  Persisting BonsaiInMemoryWorldState instances were creating entries in the archive with a snapshot worldstate that would subsequently be closed.  The net result was that queries using the worldstate for the `latest` block would frequently return Optional.empty() when accessing the closed worldstate.
-
-this PR:
-* uses a dedicated copy of the Bonsai in memory worldstate when creating a trielog
-* adds a close() override to Bonsai layered worldstate to ensure the worldstate resources are cleaned up
-* makes minor log change 
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #5038 
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-02 01:56:43 +0000 UTC
     </div>
 </div>
 
