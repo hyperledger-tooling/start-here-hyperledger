@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/orion-server
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">bug</span>
             </td>
             <td>
                 There a many bug fixes since the first release of goleveldb.
@@ -55,7 +55,7 @@ Signed-off-by: Liran Funaro <liran.funaro@gmail.com>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span>
             </td>
             <td>
                 E.g., `make GO=go1.19.4 binary`

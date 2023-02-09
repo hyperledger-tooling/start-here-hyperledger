@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4010" class=".btn">#4010</a>
+            </td>
+            <td>
+                <b>
+                    Return orderer error text to client
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                If a call from the gateway to an orderer node returns an error in the BroadcastResponse message, then it is appended to the details field of the rpc error that gets returned to the client application.  However, the Info field of that message is not getting passed on, so the client could be lacking valuable information on the underlying cause of the error.  This commit fixes that.
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-09 09:54:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4009" class=".btn">#4009</a>
             </td>
             <td>

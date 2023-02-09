@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/448" class=".btn">#448</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/452" class=".btn">#452</a>
             </td>
             <td>
                 <b>
-                    updated vulnerable packages
+                    Latest Vulnerability Fix
                 </b>
             </td>
         </tr>
@@ -29,18 +29,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
             <td>
                 Signed-off-by: sapthasurendran <saptha.surendran@ibm.com>
 
-Updated packages:
-
-- btcsuite/btcd
-- opencontainers/image-spec
-- opencontainers/runc
-- docker/distribution
-
+Updated containerd version to 1.15.6 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-01 11:14:04 +0000 UTC
+        Created At 2023-02-09 09:15:49 +0000 UTC
     </div>
 </div>
 

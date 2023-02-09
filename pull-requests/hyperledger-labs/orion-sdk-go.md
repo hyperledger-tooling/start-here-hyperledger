@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">security</span>
             </td>
             <td>
                 Signed-off-by: Liran Funaro <liran.funaro@gmail.com>

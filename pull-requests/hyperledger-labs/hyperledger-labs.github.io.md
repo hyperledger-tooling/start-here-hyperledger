@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/226" class=".btn">#226</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/227" class=".btn">#227</a>
             </td>
             <td>
                 <b>
-                    Move file to labs
+                    Ansible collection proposal
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                Signed-off-by: Tracy Kuhrt <tracy.a.kuhrt@accenture.com>
+                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-26 21:23:25 +0000 UTC
+        Created At 2023-02-09 10:12:02 +0000 UTC
     </div>
 </div>
 
