@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1165" class=".btn">#1165</a>
+            </td>
+            <td>
+                <b>
+                    LLVM 15 and v0.2.2 Release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                LLVM builds are happening [here](https://github.com/LucasSte/solang/actions/runs/4128649851/jobs/7133349350).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-08 22:04:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1164" class=".btn">#1164</a>
             </td>
             <td>
@@ -168,34 +194,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2023-02-02 10:14:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1154" class=".btn">#1154</a>
-            </td>
-            <td>
-                <b>
-                    Substrate: Update integration test dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Make the CI great again
-
-Signed-off-by: xermicus <cyrill@parity.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-01 19:04:45 +0000 UTC
     </div>
 </div>
 

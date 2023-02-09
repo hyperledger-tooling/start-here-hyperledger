@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/nft-auction
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/28" class=".btn">#28</a>
+                PR <a href="https://github.com/hyperledger-labs/nft-auction/pull/29" class=".btn">#29</a>
             </td>
             <td>
                 <b>
-                    Network launching using minifab and containerize restapi, ui
+                    Update auth.js
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/nft-auction
                 
             </td>
             <td>
-                Network launching using minifab and containerize restapi, ui
+                Corrected Typo and added Detail description
+
+Signed-off-by: Subham Singh <subham672singh@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-24 00:45:07 +0000 UTC
+        Created At 2023-02-08 19:57:46 +0000 UTC
     </div>
 </div>
 
