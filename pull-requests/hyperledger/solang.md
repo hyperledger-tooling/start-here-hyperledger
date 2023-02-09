@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                Depends on #1166 
+                @seanyoung found that the CSE pass was not differentiating checked and unchecked arithmetic expressions. This PR fixes this issue.
             </td>
         </tr>
     </table>
@@ -82,7 +82,9 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                LLVM builds are happening [here](https://github.com/LucasSte/solang/actions/runs/4128649851/jobs/7133349350).
+                This PR adapts emit to opaque pointers and removes all the pointer casts, which are not necessary anymore. These changes are essential for us to migrate to LLVM 15.
+
+LLVM builds have been tested [here](https://github.com/LucasSte/solang/actions/runs/4128649851/jobs/7133349350).
             </td>
         </tr>
     </table>

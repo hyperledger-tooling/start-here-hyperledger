@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4011" class=".btn">#4011</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: fix IsChannelMember to match public keys
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+#### Type of change
+
+- Bug fix
+- Improvement (improvement to code, performance, etc)
+- 
+#### Description
+
+Orderer v3: fix IsChannelMember to match public keys
+
+- Remove system channel usage from:  `integration/raft/cft_test.go` use-case: "disregards certificate renewal if only the validity period changed"
+- Fix a bug in IsChannelMember  that manifested in that test
+- Addresses the bug reported in issue #3998
+
+#### Related issues
+
+Addresses: #3998 
+Parent issue: #3515 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-09 12:33:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4010" class=".btn">#4010</a>
             </td>
             <td>
@@ -104,48 +147,6 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2023-02-07 20:29:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4004" class=".btn">#4004</a>
-            </td>
-            <td>
-                <b>
-                    Orderer v3: fix IsChannelMember to match public keys
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-#### Type of change
-
-- Bug fix
-
-- Improvement (improvement to code, performance, etc)
-#### Description
-
-Orderer v3: fix IsChannelMember to match public keys
-
-- Remove system channel usage from:  `integration/raft/cft_test.go` use-case: "disregards certificate renewal if only the validity period changed"
-- Fix a bug in IsChannelMember  that manifested in that test
-
-#### Related issues
-
-Addresses: #3998 
-Parent issue: #3515 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-07 15:46:23 +0000 UTC
     </div>
 </div>
 
@@ -599,58 +600,6 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2023-02-03 00:52:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3988" class=".btn">#3988</a>
-            </td>
-            <td>
-                <b>
-                    Fix chaincode interest for private data purge (backport #3986)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #3986 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-02 13:12:11 +0000 UTC
     </div>
 </div>
 

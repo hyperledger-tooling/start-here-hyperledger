@@ -329,7 +329,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             </td>
             <td>
                 <b>
-                    [refactor] #3127: Opaque transparent api
+                    [feature] #3127: Opaque transparent api
                 </b>
             </td>
         </tr>

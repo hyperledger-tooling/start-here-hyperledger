@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3522" class=".btn">#3522</a>
+            </td>
+            <td>
+                <b>
+                    chore: Additional validation when creating disclosed claims (verifier)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Additional validation when processing disclosures to assemble disclosed claims:
+
+- If there is more than one place where the digest is included, the Verifier MUST reject the Presentation.
+- If the claim name already exists at the same level, the Verifier MUST reject the Presentation.
+- If the claim value contains an object with an _sd key (at the top level or nested deeper), the Verifier MUST reject the Presentation.
+
+Closes #3519
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-09 18:20:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3521" class=".btn">#3521</a>
             </td>
             <td>
