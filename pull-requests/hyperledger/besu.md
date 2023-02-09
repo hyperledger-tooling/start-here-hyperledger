@@ -972,29 +972,3 @@ fixes #5038
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5037" class=".btn">#5037</a>
-            </td>
-            <td>
-                <b>
-                    Params should be single item of array type, not outer array of strings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span><span class="chip">mainnet</span><span class="chip">EIP</span>
-            </td>
-            <td>
-                See https://github.com/ethereum/execution-apis/issues/373
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-01 22:02:10 +0000 UTC
-    </div>
-</div>
-
