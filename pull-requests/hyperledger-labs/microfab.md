@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/microfab
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/microfab/pull/146" class=".btn">#146</a>
+            </td>
+            <td>
+                <b>
+                    Default to RAFT enabled
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-10 13:51:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/microfab/pull/145" class=".btn">#145</a>
             </td>
             <td>
