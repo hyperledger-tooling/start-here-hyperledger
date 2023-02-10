@@ -29,7 +29,7 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-java
             <td>
                 Refactor build workflows to allow reuse through workflow calls, and to make it easier to define different behaviour for different triggers.
 
-**Note**: The publishing and possibly some of the other workflows look to be more up-to-date in the release-2.5 than in the main branch. This change aims to retain the same behaviour as the main branch that it updates.
+**Note**: The publishing and possibly some of the other workflows look to be more up-to-date in the release-2.5 branch than in the main branch. This change aims to retain the same behaviour as the main branch that it updates, _not_ to incorporate any improvements made to the publishing in the release-2.5 branch.
             </td>
         </tr>
     </table>

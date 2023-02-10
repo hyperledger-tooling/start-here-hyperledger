@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3134" class=".btn">#3134</a>
+            </td>
+            <td>
+                <b>
+                    Iroha v2.0.0-pre-rc.13 release PR
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ### Release checklist
+
+- [x] All crates have been bumped to the correct versions
+- [ ] Changelog generated @outoftardis 
+- [ ] Java SDK updated @arndey 
+- [ ] Java SDK tests pass @arndey 
+- [ ] shell tests pass @appetrosyan 
+- [ ] Flakyness check @appetrosyan 
+- [ ] Benchmarks on distributed system matching internal project deployment @astrokov7 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-09 18:57:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3131" class=".btn">#3131</a>
             </td>
             <td>
