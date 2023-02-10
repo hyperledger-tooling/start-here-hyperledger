@@ -15,27 +15,26 @@ permalink: /releases/hyperledger/aries-framework-swift
         <tr>
             <td colspan="2">
                 <b>
-                    v1.2.2
+                    binary-release-askar-v0.2.7
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.2
+                    binary-release-askar-v0.2.7
                 </span>
             </td>
             <td>
-                - Fix handling oob invitation from ACA-Py #6 #9
-- Fix mediator connection error #8 
+                Dummy release to include an aries-askar framework binary
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-framework-swift/releases/tag/v1.2.2" class=".btn">
+    <a href="https://github.com/hyperledger/aries-framework-swift/releases/tag/binary-release-askar-v0.2.7" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-12-19 09:03:06 +0000 UTC
+        Created At 2023-01-17 10:32:35 +0000 UTC
     </span>
 </div>
 
