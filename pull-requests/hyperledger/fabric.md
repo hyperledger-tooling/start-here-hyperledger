@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4014" class=".btn">#4014</a>
+            </td>
+            <td>
+                <b>
+                    Return channel header on missing system channel
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Improvement (improvement to log)
+
+#### Description
+
+Currently, It fails to report the channel name in
+the log as it failed to return the channel header
+to the caller.
+
+#### Additional details
+
+> 2023-02-08 23:07:45.078 UTC 138d WARN [orderer.common.broadcast] ProcessMessage -> **[channel: unknown]** Could not get message processor for serving 10.244.0.9:33422: channel creation request not allowed because the orderer system channel is not defined
+
+It failed to report the channel name when it failed to locate the channel. As shown in the above log `**[channel: unknown]**`
+
+Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-10 11:20:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4011" class=".btn">#4011</a>
             </td>
             <td>

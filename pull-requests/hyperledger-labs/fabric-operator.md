@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/93" class=".btn">#93</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/95" class=".btn">#95</a>
             </td>
             <td>
                 <b>
-                    Hyperledger explorer integration
+                    Move hyperledgendary sample to fabric-operator
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                Hyperledger Explorer provides insights into the fabric network.
+                Adds a simple (minimal scripting) example of using fabric-operator to configure a multi-org network, suitable for running the fabric-samples [full stack asset transfer guide](https://github.com/hyperledger/fabric-samples/tree/main/full-stack-asset-transfer-guide).
+
+Signed-off-by: Josh Kneubuhl <jkneubuh@us.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-27 18:10:02 +0000 UTC
+        Created At 2023-02-10 11:03:56 +0000 UTC
     </div>
 </div>
 
