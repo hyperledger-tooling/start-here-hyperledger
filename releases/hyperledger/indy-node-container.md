@@ -15,32 +15,26 @@ permalink: /releases/hyperledger/indy-node-container
         <tr>
             <td colspan="2">
                 <b>
-                    Ubuntu 20 based on Indy Node v1.13.2-rc4
+                    Ubuntu 20 Experimental image now features indy 1.13.2~rc5
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.3
+                    v1.2.4
                 </span>
             </td>
             <td>
-                Ubuntu 20 image is now based on
-* indy-node-v1.13.2-rc4
-* indy-plenum-v1.13.1-rc3
-
-Images:
-- [Indy Node](https://github.com/hyperledger/indy-node-container/pkgs/container/indy-node-container%2Findy_node)
-- [Indy Node Controller](https://github.com/hyperledger/indy-node-container/pkgs/container/indy-node-container%2Findy_node_controller)
+                
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/indy-node-container/releases/tag/v1.2.3" class=".btn">
+    <a href="https://github.com/hyperledger/indy-node-container/releases/tag/v1.2.4" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-11-03 07:56:51 +0000 UTC
+        Created At 2023-02-10 09:40:22 +0000 UTC
     </span>
 </div>
 
