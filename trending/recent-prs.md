@@ -1,13 +1,13 @@
 
-[661](https://github.com/hyperledger/fabric-sdk-node/pull/661) Update npm version used by Node
+[4015](https://github.com/hyperledger/fabric/pull/4015) Close connection to unavailable orderers
 
-[386](https://github.com/hyperledger/fabric-chaincode-node/pull/386) Name the artefacts uploaded to ensure no collisions
+[146](https://github.com/hyperledger-labs/microfab/pull/146) Default to RAFT enabled
 
 [4014](https://github.com/hyperledger/fabric/pull/4014) Return channel header on missing system channel
 
 [95](https://github.com/hyperledger-labs/fabric-operator/pull/95) Move hyperledgendary sample to fabric-operator
 
-[926](https://github.com/hyperledger/fabric-samples/pull/926) Fix an npm dependency error that was breaking the FSAT app compilation
+[114](https://github.com/hyperledger-labs/fabex/pull/114) Bump github.com/gin-gonic/gin from 1.6.3 to 1.7.7
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4015" class=".btn">#4015</a>
+            </td>
+            <td>
+                <b>
+                    Close connection to unavailable orderers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently, if an orderer goes down, the stale connection to it still remains cached in the gateway registry.  This commit implements similar logic as used by connections to external endorsing peers whereby a stale connection is closed and flushed from the cache allowing future invocations to attempt to reconnect.
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-10 15:56:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4014" class=".btn">#4014</a>
             </td>
             <td>
