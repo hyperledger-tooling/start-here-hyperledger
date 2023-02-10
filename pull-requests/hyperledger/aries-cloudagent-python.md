@@ -99,31 +99,3 @@ Signed-off-by: Clément Humbert <clement.humbert@sicpa.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2109" class=".btn">#2109</a>
-            </td>
-            <td>
-                <b>
-                    Update dockerfiles to use python 3.9
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
-
-Per comments in https://github.com/hyperledger/aries-cloudagent-python/pull/2105
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-02 19:41:13 +0000 UTC
-    </div>
-</div>
-

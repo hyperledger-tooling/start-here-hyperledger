@@ -167,31 +167,3 @@ Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3512" class=".btn">#3512</a>
-            </td>
-            <td>
-                <b>
-                    feat: creating SD-JWT from VC will leave subject ID as regular field
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                instead of turning subject ID into an SD field.
-
-Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-02 20:30:23 +0000 UTC
-    </div>
-</div>
-
