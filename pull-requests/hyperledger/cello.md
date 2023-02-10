@@ -40,33 +40,3 @@ Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/517" class=".btn">#517</a>
-            </td>
-            <td>
-                <b>
-                    Remove Delete Btn on Channel Page
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Channel page has a button to delete one channel. But we are going 
-to implement this feature in the next release. So remove the frontend 
-button for now.
-
-Signed-off-by: xichen1 <xichen.pan@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-03 06:05:30 +0000 UTC
-    </div>
-</div>
-
