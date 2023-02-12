@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3142" class=".btn">#3142</a>
+            </td>
+            <td>
+                <b>
+                    [ci]: Upload i2-dev image tag to Soramitsu Harbor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">CI</span>
+            </td>
+            <td>
+                Signed-off-by: BAStos525 <jungle.vas@yandex.ru>
+
+### Description of the Change
+Enable `iroha2-dev` image uploading  to Soramitsu images registry.
+
+### Issue
+Some time ago we did the same thing for `stable&lts` tags: #3049. Now we have a need to upload the `dev` tag as well. 
+
+### Benefits
+
+We will have the opportunity to test the freshest iroha2 features like #3120 within k8s deployment and do not encounter pulling limitation on DockerHub.
+
+### Possible Drawbacks
+None.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-10 20:31:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3140" class=".btn">#3140</a>
             </td>
             <td>

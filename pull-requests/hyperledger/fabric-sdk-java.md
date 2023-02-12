@@ -32,6 +32,8 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
 1. change property names from tlsClient* to client* in NetworkConfig.java; add unit test and associated fixture.
 2. change from tlsClient* to client* in HFCAClient.java; add unit test and associated fixtures.
 3. Refactor clientCert* and clientKey* to constant in Endpoint.java and apply the constants in Channel.java.
+
+Closes #260
             </td>
         </tr>
     </table>

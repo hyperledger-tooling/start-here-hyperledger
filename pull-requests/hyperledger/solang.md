@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1172" class=".btn">#1172</a>
+            </td>
+            <td>
+                <b>
+                    Update CODEOWNERS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ry Jones <ry@linux.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-10 19:32:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1170" class=".btn">#1170</a>
             </td>
             <td>
@@ -53,7 +79,11 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                Signed-off-by: Lucas Steuernagel <lucas.tnagel@gmail.com>
+                @xermicus found a bug in common subexpression elimination while working on the SCALE decoder. This PR fixes the bug, but the fix is only palliative for it might not cover all possible cases.
+
+The problem would be best solved implementing a correct version of partial redundancy elimination, which leverages the available expressions analysis (already available) and an anticipated expression analysis not only to detect common subexpressions, but to know where exactly to evaluate them. This solution, nevertheless, is too time consuming to code and will be easier to implement when we have a new IR with SSA.
+
+More information about partial redundancy elimination can be found in the Chapter 9.5 of the book `Compilers: Principles, Techniques & tools`, second edition, from Monica S. Lam.
             </td>
         </tr>
     </table>
@@ -125,7 +155,7 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 <b>
-                    LLVM 15 and v0.2.2 Release
+                    LLVM 15
                 </b>
             </td>
         </tr>
@@ -222,33 +252,6 @@ Signed-off-by: Sean Young <sean@mess.org>
     </table>
     <div class="right-align">
         Created At 2023-02-07 19:04:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1157" class=".btn">#1157</a>
-            </td>
-            <td>
-                <b>
-                    Fix: typos
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix: typos
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-04 16:21:53 +0000 UTC
     </div>
 </div>
 
