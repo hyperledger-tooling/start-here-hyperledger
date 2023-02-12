@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fablo
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fablo/pull/375" class=".btn">#375</a>
+                PR <a href="https://github.com/hyperledger-labs/fablo/pull/376" class=".btn">#376</a>
             </td>
             <td>
                 <b>
-                    Bump http-cache-semantics from 4.1.0 to 4.1.1 in /samples/chaincodes/chaincode-kv-node
+                    Bump cacheable-request and nodemon in /samples/chaincodes/chaincode-kv-node
                 </b>
             </td>
         </tr>
@@ -27,21 +27,47 @@ permalink: /pull-requests/hyperledger-labs/fablo
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [http-cache-semantics](https://github.com/kornelski/http-cache-semantics) from 4.1.0 to 4.1.1.
+                Removes [cacheable-request](https://github.com/jaredwray/cacheable-request). It's no longer used after updating ancestor dependency [nodemon](https://github.com/remy/nodemon). These dependencies need to be updated together.
+
+Removes `cacheable-request`
+
+Updates `nodemon` from 2.0.18 to 2.0.20
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/remy/nodemon/releases">nodemon's releases</a>.</em></p>
+<blockquote>
+<h2>v2.0.20</h2>
+<h2><a href="https://github.com/remy/nodemon/compare/v2.0.19...v2.0.20">2.0.20</a> (2022-09-16)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>remove postinstall script (<a href="https://github.com/remy/nodemon/commit/e099e91cb6ff9cbb7912af86d22b91cd855a1ad0">e099e91</a>)</li>
+</ul>
+<h2>v2.0.19</h2>
+<h2><a href="https://github.com/remy/nodemon/compare/v2.0.18...v2.0.19">2.0.19</a> (2022-07-05)</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>Replace update notifier with simplified deps (<a href="https://github-redirect.dependabot.com/remy/nodemon/issues/2033">#2033</a>) (<a href="https://github.com/remy/nodemon/commit/176c4a6bed989fe94f103c905e5eee341d26794d">176c4a6</a>), closes <a href="https://github-redirect.dependabot.com/remy/nodemon/issues/1961">#1961</a> <a href="https://github-redirect.dependabot.com/remy/nodemon/issues/2028">#2028</a></li>
+</ul>
+</blockquote>
+</details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/kornelski/http-cache-semantics/commit/24496504352199caf360d1b4d4a01efdc8a7249e"><code>2449650</code></a> Update mocha</li>
-<li><a href="https://github.com/kornelski/http-cache-semantics/commit/560b2d8ef452bbba20ffed69dc155d63ac757b74"><code>560b2d8</code></a> Don't use regex to trim whitespace</li>
-<li><a href="https://github.com/kornelski/http-cache-semantics/commit/b1bdb92638426fab978f31e1330b6833015cabf0"><code>b1bdb92</code></a> Remove linting package zoo</li>
-<li><a href="https://github.com/kornelski/http-cache-semantics/commit/c20dc7eeca608339143857953ee7ed9343fe6d3d"><code>c20dc7e</code></a> Cache 308</li>
-<li>See full diff in <a href="https://github.com/kornelski/http-cache-semantics/compare/v4.1.0...v4.1.1">compare view</a></li>
+<li><a href="https://github.com/remy/nodemon/commit/e099e91cb6ff9cbb7912af86d22b91cd855a1ad0"><code>e099e91</code></a> fix: remove postinstall script</li>
+<li><a href="https://github.com/remy/nodemon/commit/05de353d4de1a7e1f2aa2c9bf641c3fe2d652122"><code>05de353</code></a> chore: supports</li>
+<li><a href="https://github.com/remy/nodemon/commit/876d60c8a241f13376f1b32f853d48ae77ec69a4"><code>876d60c</code></a> chore: supporters</li>
+<li><a href="https://github.com/remy/nodemon/commit/188f2d3cdc960fce5d7413e1326da76bd5be780c"><code>188f2d3</code></a> chore: supporters</li>
+<li><a href="https://github.com/remy/nodemon/commit/a1ad44a876df74be742c64af5640b300c302b977"><code>a1ad44a</code></a> chore: supporters update</li>
+<li><a href="https://github.com/remy/nodemon/commit/8abd3fc9daff813199042c26a1e8aa5691a5ab37"><code>8abd3fc</code></a> chore: supporters update</li>
+<li><a href="https://github.com/remy/nodemon/commit/30c80f8a4eee379fa2ebad95b81c42ef11670829"><code>30c80f8</code></a> chore: add unused files to .npmignore (<a href="https://github-redirect.dependabot.com/remy/nodemon/issues/2055">#2055</a>)</li>
+<li><a href="https://github.com/remy/nodemon/commit/3dd38deb4a97a52608aac148200b48d844df0a66"><code>3dd38de</code></a> docs: added link on banner (<a href="https://github-redirect.dependabot.com/remy/nodemon/issues/1944">#1944</a>)</li>
+<li><a href="https://github.com/remy/nodemon/commit/fb51359dde4b4ad6081f6c2690d1052fc8f5fcaf"><code>fb51359</code></a> docs: add important note about ignore rules</li>
+<li><a href="https://github.com/remy/nodemon/commit/8fe7d770d06305e5e7a4aa4ab4783d4b2c5eaac8"><code>8fe7d77</code></a> chore: supporters</li>
+<li>Additional commits viewable in <a href="https://github.com/remy/nodemon/compare/v2.0.18...v2.0.20">compare view</a></li>
 </ul>
 </details>
 <br />
 
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=http-cache-semantics&package-manager=npm_and_yarn&previous-version=4.1.0&new-version=4.1.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -77,7 +103,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-04 14:14:19 +0000 UTC
+        Created At 2023-02-12 06:07:31 +0000 UTC
     </div>
 </div>
 
