@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2117" class=".btn">#2117</a>
+            </td>
+            <td>
+                <b>
+                    Fix publish workflows
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Trigger when releases and prereleases are published.
+
+Signed-off-by: Wade Barnes <wade@neoterictech.ca>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-11 13:16:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2116" class=".btn">#2116</a>
+            </td>
+            <td>
+                <b>
+                    Fix multi-use invitation performance
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Multiuse invitation performance degrades over time. By adding state into the tag names, performance doesn't degrade over time while using multi-use invitations.
+
+This breaks backwards compatibility, but while load testing it can be seen that performance no longer degrades when using a multi-use invitation. Previously, only 1600 connections could be established while load testing, and on a second run is reduced to 300. After the modification, the load testing exceeded 2400 connections and the testing client machine ran out of ram for clients.
+
+This shows a clear improvement in performance.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-11 00:37:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2115" class=".btn">#2115</a>
             </td>
             <td>

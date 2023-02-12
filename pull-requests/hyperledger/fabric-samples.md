@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/927" class=".btn">#927</a>
+            </td>
+            <td>
+                <b>
+                    Avoid explicit import of grpc-js or fabric-protos in TypeScript apps
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Rely on the dependencies of @hyperledger/fabric-gateway making these packages transitively available. Having explicit dependency versions in the application can cause type conflicts due to private member changes in the gRPC Client class across versions.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-10 14:21:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/926" class=".btn">#926</a>
             </td>
             <td>

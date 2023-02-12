@@ -616,34 +616,3 @@ Issue: https://github.com/hyperledger/fabric/issues/3515
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3991" class=".btn">#3991</a>
-            </td>
-            <td>
-                <b>
-                    Expedite purge private data integration tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Combine purge private data tests into a single 'It' to improve speed (18 minutes to 5 minutes).
-This will remove the excessive network teardowns, network builds, and chaincode deployments.
-Also remove unneccessary delays and redundant ledger entries.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-04 21:15:17 +0000 UTC
-    </div>
-</div>
-
