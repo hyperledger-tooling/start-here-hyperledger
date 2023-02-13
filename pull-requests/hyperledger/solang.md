@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1175" class=".btn">#1175</a>
+            </td>
+            <td>
+                <b>
+                    Expand list of solang code owners
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When creating a pull request, the users in this files are used to populate the reviewers. If it lists @hyperledger/solang-committers then we can't see who those users are and as soon as one of the members of @hyperledger/solang-committers leaves a review, then the pull request is marked as approved while we really want *all* the maintainers to approve.
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-13 15:21:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1173" class=".btn">#1173</a>
             </td>
             <td>

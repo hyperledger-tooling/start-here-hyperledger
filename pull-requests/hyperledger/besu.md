@@ -322,7 +322,7 @@ Fixes the experimental PoS checkpoint edge case where PoS blocks have same TD th
             </td>
             <td>
                 <b>
-                    Attempt to fix Layered World State issue
+                    Fix Layered World State issue
                 </b>
             </td>
         </tr>
@@ -341,14 +341,14 @@ Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
 
 We found the problem :
 
-During a remember block we added a copy of the worldstate during the saveTrieLog in order to fix the get balance == 0. By making a copy we have a BonsaiInMemoryWorldstate which does not persist the trielog in rocksdb. We saw the log that tells us that we can’t commit. We just add it in cache and that’s why it still can continue to import block.
+During a remember block we added a copy of the worldstate during the saveTrieLog in order to fix the get balance == 0. By making a copy we have a BonsaiInMemoryWorldstate which does not persist the trielog in rocksdb. We saw the log that tells us that we can’t commit. 
 The problem is that during a FCU when we persist a block if we have a reorg we finally save the trielog after the different Rollback / Forward. Because of that we do not save a valid log. Instead of saving a Trielog for 1 to 2 bis we have a Trielog which is a mix of 2-1 + 1-2bis . This happens because it is not normal  to not already have the trielog in base during a reorg.
 
-Because of that we can rollback/rollfoward anymore with this invalid trielog so we have the layered copy worldstate error
+Because of that we can't rollback/rollfoward anymore with this invalid trielog so we have the layered copy worldstate error
 
 The worldstate copy is not really needed and we decided to not create a copy and to subscribe to the worldstateStorage directly in the BonsaiLayeredWorldstate.
 
-This fixed was not fixing yet the problem because we had another problem. During a getAccount we are getting the BonsaiLayeredWorldstate and we are closing this one after the getAccount. Because of that we are unsubscribing the worldstateStorage and losing the instance. We decided to fix that to use the same code we re using for the validate/transaction pool etc and to create a copy of the layeredWorldstate instead 
+This fixed was not fixing yet the problem because we had another problem. During a getAccount we are getting the BonsaiLayeredWorldstate and we are closing this one after the getAccount. Because of that we are unsubscribing the worldstateStorage and losing the instance. to fix that we decided to use the same code we re using for the validate/transaction pool etc and to create a copy of the layeredWorldstate instead 
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->

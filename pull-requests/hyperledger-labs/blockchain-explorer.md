@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger-labs/blockchain-explorer
         </tr>
         <tr>
             <td>
-                <span class="chip">enhancement</span>
+                <span class="chip">enhancement</span><span class="chip">do not merge</span>
             </td>
             <td>
                 Signed-off-by: deekshithvarma256 <deekshithvarma256@email.com>

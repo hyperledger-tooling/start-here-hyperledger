@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
             </td>
             <td>
                 <b>
-                    release-2.2 mutual tls config key and peer property key not matching #260 (backport #261)
+                    Allow client TLS certificate and key to be specified in connection profile (backport #261)
                 </b>
             </td>
         </tr>
@@ -70,7 +70,7 @@ Finally, you can contact us on https://mergify.com
             </td>
             <td>
                 <b>
-                    release-2.2 mutual tls config key and peer property key not matching #260
+                    Allow client TLS certificate and key to be specified in connection profile
                 </b>
             </td>
         </tr>

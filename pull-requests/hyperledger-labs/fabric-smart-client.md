@@ -18,16 +18,19 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
             </td>
             <td>
                 <b>
-                    Mismatch check
+                    various improvements
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">enhancement</span>
             </td>
             <td>
-                <nil>
+                - db service, badger driver: load badger option from FSC configuration
+- additional logs
+
+Linked to: https://github.com/hyperledger-labs/fabric-token-sdk/pull/454
             </td>
         </tr>
     </table>
