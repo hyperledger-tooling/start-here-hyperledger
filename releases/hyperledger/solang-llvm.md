@@ -22,6 +22,34 @@ permalink: /releases/hyperledger/solang-llvm
         <tr>
             <td>
                 <span class="chip">
+                    llvmzstd
+                </span>
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/solang-llvm/releases/tag/llvmzstd" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-02-13 15:11:27 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
+                    
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
                     llvm15-0
                 </span>
             </td>
