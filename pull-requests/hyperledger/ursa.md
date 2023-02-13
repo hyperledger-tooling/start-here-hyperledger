@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger/ursa
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/ursa/pull/221" class=".btn">#221</a>
-            </td>
-            <td>
-                <b>
-                    fix: typo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fix typo in https://docs.rs/ursa
-
-Signed-off-by: Doug A <douganderson444@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-06 13:57:18 +0000 UTC
-    </div>
-</div>
-

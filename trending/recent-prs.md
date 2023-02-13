@@ -1,13 +1,13 @@
 
-[262](https://github.com/hyperledger/fabric-sdk-java/pull/262) release-2.2 mutual tls config key and peer property key not matching #260 (backport #261)
+[1175](https://github.com/hyperledger/solang/pull/1175) Expand list of solang code owners
 
-[453](https://github.com/hyperledger-labs/fabric-token-sdk/pull/453) Mismatch check
+[497](https://github.com/hyperledger-labs/orion-server/pull/497) Change docker image to Ubuntu
 
-[453](https://github.com/hyperledger-labs/fabric-smart-client/pull/453) Mismatch check
+[454](https://github.com/hyperledger-labs/fabric-token-sdk/pull/454) audit improvements
 
-[4018](https://github.com/hyperledger/fabric/pull/4018) ledgerutil: Add "verify" command
+[262](https://github.com/hyperledger/fabric-sdk-java/pull/262) Allow client TLS certificate and key to be specified in connection profile (backport #261)
 
-[350](https://github.com/hyperledger-labs/blockchain-explorer/pull/350) added pagination for transactions view frontend
+[453](https://github.com/hyperledger-labs/fabric-smart-client/pull/453) various improvements
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

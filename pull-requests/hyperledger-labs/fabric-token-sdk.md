@@ -14,25 +14,30 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/453" class=".btn">#453</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/454" class=".btn">#454</a>
             </td>
             <td>
                 <b>
-                    Mismatch check
+                    audit improvements
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">bug</span>
             </td>
             <td>
-                <nil>
+                ttx.audit: store transiant as soon as possible
+zkatdlog driver: better logs
+
+Linked to https://github.com/hyperledger-labs/fabric-smart-client/pull/453
+
+Signed-off-by: Angelo De Caro <adc@zurich.ibm.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-13 09:46:56 +0000 UTC
+        Created At 2023-02-13 13:37:13 +0000 UTC
     </div>
 </div>
 

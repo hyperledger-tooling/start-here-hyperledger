@@ -604,33 +604,3 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/3995" class=".btn">#3995</a>
-            </td>
-            <td>
-                <b>
-                    Fix ledger integration test flake
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Need to ensure new peer has joined gossip network before invoking chaincode.
-
-Resolves #3946.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-06 18:16:58 +0000 UTC
-    </div>
-</div>
-

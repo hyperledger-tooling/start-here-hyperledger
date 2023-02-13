@@ -472,7 +472,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
         </tr>
         <tr>
             <td>
-                <span class="chip">iroha2</span>
+                <span class="chip">iroha2</span><span class="chip">Refactor</span><span class="chip">UI</span><span class="chip">Chore</span>
             </td>
             <td>
                 Signed-off-by: Retssaze <Retssaze@GMail.Com>
@@ -545,7 +545,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">iroha2</span><span class="chip">macros</span>
             </td>
             <td>
                 <!-- You will not see HTML commented line in Pull Request body -->
@@ -747,70 +747,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2023-02-07 10:49:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3117" class=".btn">#3117</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #2940: Add an ability to cancel submitting a transaction
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                <!-- You will not see HTML commented line in Pull Request body -->
-<!-- Optional sections may be omitted. Just remove them or write None -->
-
-<!-- ### Requirements -->
-<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
-<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
-<!-- * CircleCI builds must be passed. -->
-<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
-<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
-
-
-### Description of the Change
-
-I did some research and figured out that it's hard to find a synchronous library with the ability to cancel an HTTP request. I'm not sure that is possible at all (change my mind if it's not). My solution is that use crossbeam's `Select` feature and select native threads one of these listens to a cancellation channel. I write some tests and looks like this solution works fine.
-
-### Issue
-
-Resolves #2940
-
-### Benefits
-
-Now we can cancel to submit a transaction.
-
-### Possible Drawbacks
-
-The significant negative impact is that it spawns an extra native thread. Theoretically, if the client spawns many requests simultaneously, the OS can throw an error of spawning a native thread due to resource limitations.
-Another negative impact is consuming more memory than the previous submitting design. 
-Also, it adds `crossbeam` as a dependency.
-
-### Usage Examples or Tests *[optional]*
-
-Take a look at tests in the `integration::cancellation` module.
-
-### Alternate Designs *[optional]*
-
-1. Use an HTTP library that has an API to cancel requests. And replace `attohttpc` with it.
-2. Make `DefaultRequestBuilder` (from http_default.rs) an asynchronous and use any async-runtime. It will be more efficient and will consume less memory, but it demands an async runtime on the client side and adds significant API changes.
-3. We can also improve the current solution by using a thread pool. Need more research.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-06 12:32:16 +0000 UTC
     </div>
 </div>
 
