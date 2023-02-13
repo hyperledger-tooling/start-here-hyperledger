@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 <b>
-                    Allow casting number literals to `bytes` of equal or greater size
+                    Account for leading zeros in hex number literals size width
                 </b>
             </td>
         </tr>

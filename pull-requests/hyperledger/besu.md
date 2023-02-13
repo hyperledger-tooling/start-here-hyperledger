@@ -331,13 +331,24 @@ Fixes the experimental PoS checkpoint edge case where PoS blocks have same TD th
                 
             </td>
             <td>
-                
-Signed-off-by: Ameziane H <ameziane.hamlat@consensys.net>
+                Signed-off-by: Ameziane H <ameziane.hamlat@consensys.net>
+Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
 
 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+
+We found the problem :
+
+During a remember block we added a copy of the worldstate during the saveTrieLog in order to fix the get balance == 0. By making a copy we have a BonsaiInMemoryWorldstate which does not persist the trielog in rocksdb. We saw the log that tells us that we can’t commit. We just add it in cache and that’s why it still can continue to import block.
+The problem is that during a FCU when we persist a block if we have a reorg we finally save the trielog after the different Rollback / Forward. Because of that we do not save a valid log. Instead of saving a Trielog for 1 to 2 bis we have a Trielog which is a mix of 2-1 + 1-2bis . This happens because it is not normal  to not already have the trielog in base during a reorg.
+
+Because of that we can rollback/rollfoward anymore with this invalid trielog so we have the layered copy worldstate error
+
+The worldstate copy is not really needed and we decided to not create a copy and to subscribe to the worldstateStorage directly in the BonsaiLayeredWorldstate.
+
+This fixed was not fixing yet the problem because we had another problem. During a getAccount we are getting the BonsaiLayeredWorldstate and we are closing this one after the getAccount. Because of that we are unsubscribing the worldstateStorage and losing the instance. We decided to fix that to use the same code we re using for the validate/transaction pool etc and to create a copy of the layeredWorldstate instead 
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -769,75 +780,6 @@ Related to #4921
     </table>
     <div class="right-align">
         Created At 2023-02-07 01:48:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5059" class=".btn">#5059</a>
-            </td>
-            <td>
-                <b>
-                    Add worldstate heal mechanism 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-This PR add a heal  mechanism fo the worldtstate in case of inconsistency (unable to trie node). To fix this, we start a quick heal of the worldstate automatically and once the fix is done we restart the block import.
-
-After the detection of an invalid path
-- we delete this path to force the healing of this part.
-- then we delete the trielogs. 
-- we select a pivot block (before of after the heal)
-- we move the blokchain to this pivot block (rewind or download the missing blocks) 
-- then we launch a worldstate heal. 
-
-
-This feature can also heal a node that has been inconsistent for a long time, but it will take longer because there will be more nodes to heal.  With this PR the healing will be done as soon as the problem is detected so there will not a lot to heal and it will be fast
-
-## Performed tests
- - Trigger multiple inconsistencies to fix  (passed)
- - Fixed a node that has been inconsistent for a long time (passed)
- - Run a snapsync from scratch on goerli (passed)
- - Run a checkpoint sync from scratch on goelri (passed)
- - Run a checkpoint sync from scratch on main **(in progress)**
- - Run a validator teku+besu on goerli (passed)
- - Profile performance on this node to avoid perf regression (passed)
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-#4379 
-#4785 
-#4768
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-06 07:22:49 +0000 UTC
     </div>
 </div>
 

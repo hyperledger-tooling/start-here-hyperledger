@@ -127,33 +127,3 @@ Also, please review the note I put into the changelog about the container images
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2112" class=".btn">#2112</a>
-            </td>
-            <td>
-                <b>
-                    fix: resolver api schema inconsistency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix a small inconsistency between the openapi schema and the actual return value for the `/resolver/resolve/{did}`.
-
-This PR aligns the schema to the actual return value to avoid breaking any current implementation making use of the endpoint.
-
-Signed-off-by: Clément Humbert <clement.humbert@sicpa.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-06 09:01:41 +0000 UTC
-    </div>
-</div>
-
