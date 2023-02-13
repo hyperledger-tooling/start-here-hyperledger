@@ -206,7 +206,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
                 ### Release checklist
 
 - [x] All crates have been bumped to the correct versions
-- [ ] Changelog generated @outoftardis 
+- [x] Changelog generated @outoftardis 
 - [ ] Java SDK updated @arndey 
 - [ ] Java SDK tests pass @arndey 
 - [ ] shell tests pass @appetrosyan 
@@ -539,7 +539,7 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
             </td>
             <td>
                 <b>
-                    [feature] #3127: Opaque transparent api
+                    [feature] #3127: make data model structs opaque by default
                 </b>
             </td>
         </tr>
