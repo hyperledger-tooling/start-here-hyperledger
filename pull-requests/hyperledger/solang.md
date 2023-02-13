@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1173" class=".btn">#1173</a>
+            </td>
+            <td>
+                <b>
+                    Allow casting number literals to `bytes` of equal or greater size
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Matching the behavior of `solc`.
+
+Signed-off-by: xermicus <cyrill@parity.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-12 23:28:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1172" class=".btn">#1172</a>
             </td>
             <td>
