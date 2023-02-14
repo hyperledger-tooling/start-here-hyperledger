@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1178" class=".btn">#1178</a>
+            </td>
+            <td>
+                <b>
+                    Fix wrong selector type in emit SCALE encoder
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This was oversighted in #1128
+
+Signed-off-by: Cyrill Leutwiler <cyrill@parity.io>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-14 18:09:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1176" class=".btn">#1176</a>
+            </td>
+            <td>
+                <b>
+                    Expand list of code owners, take #2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I'm hoping I will get it right this time, no way of knowing with github being closed source.
+
+Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-14 15:39:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1175" class=".btn">#1175</a>
             </td>
             <td>
