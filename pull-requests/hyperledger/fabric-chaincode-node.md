@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/389" class=".btn">#389</a>
+            </td>
+            <td>
+                <b>
+                    Add missing `fast-safe-stringify` dependency to `fabric-shim`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                `fast-safe-stringify` is being used in `fabric-shim` (in `logger.js`), but is missing in the dependencies array of `package.json`.
+
+Fixes #388 
+
+Signed-off-by: Rinish Sam <36656347+CaptainIRS@users.noreply.github.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-14 05:32:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/387" class=".btn">#387</a>
             </td>
             <td>
