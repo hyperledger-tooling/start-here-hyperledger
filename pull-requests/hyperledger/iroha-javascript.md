@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/141" class=".btn">#141</a>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/142" class=".btn">#142</a>
             </td>
             <td>
                 <b>
-                    Refactor crypto wasm
+                    General update for Iroha 2 Pre Release Candidate 13
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-javascript
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-23 05:46:27 +0000 UTC
+        Created At 2023-02-14 07:57:50 +0000 UTC
     </div>
 </div>
 

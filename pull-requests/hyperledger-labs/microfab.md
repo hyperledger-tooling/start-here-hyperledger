@@ -90,29 +90,3 @@ Signed-off-by: jin <jinkwon711@gmail.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/microfab/pull/143" class=".btn">#143</a>
-            </td>
-            <td>
-                <b>
-                    Add in microfab cli
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-07 10:36:24 +0000 UTC
-    </div>
-</div>
-
