@@ -1,13 +1,13 @@
 
-[3149](https://github.com/hyperledger/iroha/pull/3149) [fix] #3141: Manually implement `IntoSchema` for `Hash`
+[1178](https://github.com/hyperledger/solang/pull/1178) Fix wrong selector type in emit SCALE encoder
 
-[5090](https://github.com/hyperledger/besu/pull/5090) [MINOR] Allow dashes in ethstats password
+[4025](https://github.com/hyperledger/fabric/pull/4025) Bump prometheus/client_golang to v1.14.0
 
-[142](https://github.com/hyperledger/iroha-javascript/pull/142) General update for Iroha 2 Pre Release Candidate 13
+[98](https://github.com/hyperledger-labs/fabric-operator/pull/98) Fixing gosec issues
 
-[3148](https://github.com/hyperledger/iroha/pull/3148) Fix in iroha-cpp library + added example of few transactions (HL branch -> develop)
+[97](https://github.com/hyperledger-labs/fabric-operator/pull/97) Updating maintainers list to add and remove maintainers
 
-[389](https://github.com/hyperledger/fabric-chaincode-node/pull/389) Add missing `fast-safe-stringify` dependency to `fabric-shim`
+[1176](https://github.com/hyperledger/solang/pull/1176) Expand list of code owners, take #2
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

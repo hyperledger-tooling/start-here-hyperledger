@@ -136,29 +136,3 @@ Also, please review the note I put into the changelog about the container images
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2114" class=".btn">#2114</a>
-            </td>
-            <td>
-                <b>
-                    Feat: Multiple Presentations [v2.1]
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - WIP, routes schema updates and complete unit test coverage pending
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-07 17:22:12 +0000 UTC
-    </div>
-</div>
-
