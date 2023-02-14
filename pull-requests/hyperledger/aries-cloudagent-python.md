@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2120" class=".btn">#2120</a>
+            </td>
+            <td>
+                <b>
+                    Update demo to issue multiple credentials
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ian Costanzo <ian@anon-solutions.ca>
+
+@swcurran / @shaangill025  this adds an option to the demo ("1m") to issue multiple creds, in either indy or json-ld format.
+
+It includes all creds in one offer, rather than the verbose request/response protocol.
+
+Let me know if there are other additions to the demo you would like.
+
+(There is also a new integration test - it doesn't work yet but @swcurran said last week to not worry about integration tests yet ...)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-13 18:39:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2117" class=".btn">#2117</a>
             </td>
             <td>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-test
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/457" class=".btn">#457</a>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/462" class=".btn">#462</a>
             </td>
             <td>
                 <b>
-                    Bump k8s.io/client-go from 0.16.8 to 0.20.0 in /tools/operator
+                    Bump github.com/opencontainers/runc from 1.0.0-rc8 to 1.1.2 in /tools/operator
                 </b>
             </td>
         </tr>
@@ -27,27 +27,134 @@ permalink: /pull-requests/hyperledger/fabric-test
                 <span class="chip">dependencies</span><span class="chip">go</span>
             </td>
             <td>
-                Bumps [k8s.io/client-go](https://github.com/kubernetes/client-go) from 0.16.8 to 0.20.0.
+                Bumps [github.com/opencontainers/runc](https://github.com/opencontainers/runc) from 1.0.0-rc8 to 1.1.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/opencontainers/runc/releases">github.com/opencontainers/runc's releases</a>.</em></p>
+<blockquote>
+<h2>runc 1.1 -- &quot;A plan depends as much upon execution as it does upon concept.&quot;</h2>
+<p>This release only contains very minor changes from v1.1.0-rc.1 and is
+the first release of the 1.1.y release series of runc. We do not plan to make
+any new releases of the 1.0.y release series of runc, so users are strongly
+encouraged to update to 1.1.0.</p>
+<p>Changed:</p>
+<ul>
+<li>libcontainer will now refuse to build without the nsenter package being
+correctly compiled (specifically this requires CGO to be enabled). This
+should avoid folks accidentally creating broken runc binaries (and
+incorrectly importing our internal libraries into their projects). (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3331">#3331</a>)</li>
+</ul>
+<h3>Static Linking Notices</h3>
+<p>The <code>runc</code> binary distributed with this release are <em>statically linked</em> with
+the following <a href="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html">GNU LGPL-2.1</a> licensed libraries, with <code>runc</code> acting
+as a &quot;work that uses the Library&quot;:</p>
+<ul>
+<li><a href="https://github.com/seccomp/libseccomp">libseccomp</a></li>
+</ul>
+<p>The versions of these libraries were not modified from their upstream versions,
+but in order to comply with the LGPL-2.1 (§6(a)), we have attached the
+complete source code for those libraries which (when combined with the attached
+runc source code) may be used to exercise your rights under the LGPL-2.1.</p>
+<p>However we strongly suggest that you make use of your distribution's packages
+or download them from the authoritative upstream sources, especially since
+these libraries are related to the security of your containers.</p>
+<!-- raw HTML omitted -->
+<p>Thanks to the following people who made this release possible:</p>
+<ul>
+<li>Akihiro Suda <a href="mailto:akihiro.suda.cz@hco.ntt.co.jp">akihiro.suda.cz@hco.ntt.co.jp</a></li>
+<li>Aleksa Sarai <a href="mailto:cyphar@cyphar.com">cyphar@cyphar.com</a></li>
+<li>Kir Kolyshkin <a href="mailto:kolyshkin@gmail.com">kolyshkin@gmail.com</a></li>
+</ul>
+<p>Signed-off-by: Aleksa Sarai <a href="mailto:cyphar@cyphar.com">cyphar@cyphar.com</a></p>
+<h2>runc 1.1-rc1 -- &quot;He who controls the spice controls the universe.&quot;</h2>
+<p>This release is the first release candidate for the next minor release
+following runc 1.0. It contains all of the bugfixes included in runc 1.0
+patch releases (up to and including 1.0.3).</p>
+<p>A fair few new features have been added, and several features have been
+deprecated (with plans for removal in runc 1.2). At the moment we only
+plan to do a single release candidate for runc 1.1, and once 1.1.0 is
+released we will not continue updating the 1.0.z runc branch.</p>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/opencontainers/runc/blob/main/CHANGELOG.md">github.com/opencontainers/runc's changelog</a>.</em></p>
+<blockquote>
+<h2>[1.1.2] - 2022-05-11</h2>
+<blockquote>
+<p>I should think I'm going to be a perpetual student.</p>
+</blockquote>
+<h3>Security</h3>
+<ul>
+<li>A bug was found in runc where runc exec --cap executed processes with
+non-empty inheritable Linux process capabilities, creating an atypical Linux
+environment. For more information, see <a href="https://github.com/opencontainers/runc/security/advisories/GHSA-f3fp-gc8g-vw66">GHSA-f3fp-gc8g-vw66</a> and
+CVE-2022-29162.</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li><code>runc spec</code> no longer sets any inheritable capabilities in the created
+example OCI spec (<code>config.json</code>) file.</li>
+</ul>
+<h2>[1.1.1] - 2022-03-28</h2>
+<blockquote>
+<p>Violence is the last refuge of the incompetent.</p>
+</blockquote>
+<h3>Added</h3>
+<ul>
+<li>CI is now also run on centos-stream-9. (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3436">#3436</a>)</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li><code>runc run/start</code> can now run a container with read-only <code>/dev</code> in OCI spec,
+rather than error out. (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3355">#3355</a>)</li>
+<li><code>runc exec</code> now ensures that <code>--cgroup</code> argument is a sub-cgroup. (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3403">#3403</a>)</li>
+<li>libcontainer systemd v2 manager no longer errors out if one of the files
+listed in <code>/sys/kernel/cgroup/delegate</code> do not exist in container's cgroup.
+(<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3387">#3387</a>, <a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3404">#3404</a>)</li>
+<li>Loose OCI spec validation to avoid bogus &quot;Intel RDT is not supported&quot; error.
+(<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3406">#3406</a>)</li>
+<li>libcontainer/cgroups no longer panics in cgroup v1 managers if <code>stat</code>
+of <code>/sys/fs/cgroup/unified</code> returns an error other than ENOENT. (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3435">#3435</a>)</li>
+</ul>
+<h2>[1.1.0] - 2022-01-14</h2>
+<blockquote>
+<p>A plan depends as much upon execution as it does upon concept.</p>
+</blockquote>
+<h3>Changed</h3>
+<ul>
+<li>libcontainer will now refuse to build without the nsenter package being
+correctly compiled (specifically this requires CGO to be enabled). This
+should avoid folks accidentally creating broken runc binaries (and
+incorrectly importing our internal libraries into their projects). (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3331">#3331</a>)</li>
+</ul>
+<h2>[1.1.0-rc.1] - 2021-12-14</h2>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/kubernetes/client-go/commit/afa3b34fe368bbf3532c612f1d5abc45d0783c08"><code>afa3b34</code></a> Update dependencies to v0.20.0 tag</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/fb61a7c88cb9f599363919a34b7c54a605455ffc"><code>fb61a7c</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/96720">#96720</a> from liggitt/throttled-logger</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/61471be615ffce3012bfe4e92d1ba70236960d90"><code>61471be</code></a> Deflake ThrottledLogger test</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/66db2540991da169fb60fce735064a55bfc52b71"><code>66db254</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/95981">#95981</a> from caesarxuchao/http2-healthcheck</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/7c9ea22f769b83d7573af95555d7ff1423429003"><code>7c9ea22</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/92743">#92743</a> from liggitt/gc</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/8dde295de4630e0b70c931e6386cce6bb0b5f579"><code>8dde295</code></a> Add a unit test testing the HTTP/2 health check help the REST client</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/c476b49dcfc420f1f2822f40ad82ef925f3f35cd"><code>c476b49</code></a> Add GC unit tests</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/77eda6a9395bd7884e99d484f29ae3c6d55f0eb9"><code>77eda6a</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/96317">#96317</a> from Jefftree/test-ssa</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/76f48268c78c15fd661e8acc832daee49b40eed6"><code>76f4826</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/96527">#96527</a> from adtac/apfbeta</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/4ab8fb4585a5873ae1c155d7f35c9710bd38f2d2"><code>4ab8fb4</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/96425">#96425</a> from bobbypage/vendor-cadvisor-v0.38</li>
-<li>Additional commits viewable in <a href="https://github.com/kubernetes/client-go/compare/v0.16.8...v0.20.0">compare view</a></li>
+<li><a href="https://github.com/opencontainers/runc/commit/a916309fff0f838eb94e928713dbc3c0d0ac7aa4"><code>a916309</code></a> VERSION: release 1.1.2</li>
+<li><a href="https://github.com/opencontainers/runc/commit/364ec0f1b4fa188ad96049c590ecb42fa70ea165"><code>364ec0f</code></a> runc: do not set inheritable capabilities</li>
+<li><a href="https://github.com/opencontainers/runc/commit/58546650ce11cdc2e2690bcb1de4a468e691de6d"><code>5854665</code></a> merge branch 'pr-3439' into release-1.1</li>
+<li><a href="https://github.com/opencontainers/runc/commit/8959e372549a81ac6a7cc25281f6b8a423d847ca"><code>8959e37</code></a> VERSION: back to development</li>
+<li><a href="https://github.com/opencontainers/runc/commit/52de29d7e0f8c0899bd7efb8810dd07f0073fa87"><code>52de29d</code></a> VERSION: release 1.1.1</li>
+<li><a href="https://github.com/opencontainers/runc/commit/2636e1cb3643c87f98b7b8a950c88087656e7645"><code>2636e1c</code></a> CHANGELOG.md: add 1.1.1 release notes</li>
+<li><a href="https://github.com/opencontainers/runc/commit/ae28db14244c87ab1e26db09a8ad6e5b2882ccc7"><code>ae28db1</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3436">#3436</a> from kolyshkin/1.1-add-centos-stream-9</li>
+<li><a href="https://github.com/opencontainers/runc/commit/036cc348994b7fa573380401644a6faac9e102e7"><code>036cc34</code></a> CI/cirrus: add centos-stream-9</li>
+<li><a href="https://github.com/opencontainers/runc/commit/c65363285b3eee6e2e3a7b356f8967ae17263d41"><code>c653632</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3438">#3438</a> from kolyshkin/1.1-fix-badges</li>
+<li><a href="https://github.com/opencontainers/runc/commit/db953158e14658c62ad6cda9ac087bdb1b1e3e8c"><code>db95315</code></a> README.md: add cirrus-ci badge</li>
+<li>Additional commits viewable in <a href="https://github.com/opencontainers/runc/compare/v1.0.0-rc8...v1.1.2">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=k8s.io/client-go&package-manager=go_modules&previous-version=0.16.8&new-version=0.20.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/opencontainers/runc&package-manager=go_modules&previous-version=1.0.0-rc8&new-version=1.1.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -83,7 +190,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-06 23:45:13 +0000 UTC
+        Created At 2023-02-13 23:54:51 +0000 UTC
     </div>
 </div>
 
@@ -91,11 +198,11 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/456" class=".btn">#456</a>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/461" class=".btn">#461</a>
             </td>
             <td>
                 <b>
-                    Bump k8s.io/client-go from 0.16.8 to 0.20.0 in /regression/publish
+                    Bump github.com/opencontainers/runc from 1.0.0-rc8 to 1.1.2 in /regression/smoke
                 </b>
             </td>
         </tr>
@@ -104,27 +211,134 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 <span class="chip">dependencies</span><span class="chip">go</span>
             </td>
             <td>
-                Bumps [k8s.io/client-go](https://github.com/kubernetes/client-go) from 0.16.8 to 0.20.0.
+                Bumps [github.com/opencontainers/runc](https://github.com/opencontainers/runc) from 1.0.0-rc8 to 1.1.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/opencontainers/runc/releases">github.com/opencontainers/runc's releases</a>.</em></p>
+<blockquote>
+<h2>runc 1.1 -- &quot;A plan depends as much upon execution as it does upon concept.&quot;</h2>
+<p>This release only contains very minor changes from v1.1.0-rc.1 and is
+the first release of the 1.1.y release series of runc. We do not plan to make
+any new releases of the 1.0.y release series of runc, so users are strongly
+encouraged to update to 1.1.0.</p>
+<p>Changed:</p>
+<ul>
+<li>libcontainer will now refuse to build without the nsenter package being
+correctly compiled (specifically this requires CGO to be enabled). This
+should avoid folks accidentally creating broken runc binaries (and
+incorrectly importing our internal libraries into their projects). (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3331">#3331</a>)</li>
+</ul>
+<h3>Static Linking Notices</h3>
+<p>The <code>runc</code> binary distributed with this release are <em>statically linked</em> with
+the following <a href="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html">GNU LGPL-2.1</a> licensed libraries, with <code>runc</code> acting
+as a &quot;work that uses the Library&quot;:</p>
+<ul>
+<li><a href="https://github.com/seccomp/libseccomp">libseccomp</a></li>
+</ul>
+<p>The versions of these libraries were not modified from their upstream versions,
+but in order to comply with the LGPL-2.1 (§6(a)), we have attached the
+complete source code for those libraries which (when combined with the attached
+runc source code) may be used to exercise your rights under the LGPL-2.1.</p>
+<p>However we strongly suggest that you make use of your distribution's packages
+or download them from the authoritative upstream sources, especially since
+these libraries are related to the security of your containers.</p>
+<!-- raw HTML omitted -->
+<p>Thanks to the following people who made this release possible:</p>
+<ul>
+<li>Akihiro Suda <a href="mailto:akihiro.suda.cz@hco.ntt.co.jp">akihiro.suda.cz@hco.ntt.co.jp</a></li>
+<li>Aleksa Sarai <a href="mailto:cyphar@cyphar.com">cyphar@cyphar.com</a></li>
+<li>Kir Kolyshkin <a href="mailto:kolyshkin@gmail.com">kolyshkin@gmail.com</a></li>
+</ul>
+<p>Signed-off-by: Aleksa Sarai <a href="mailto:cyphar@cyphar.com">cyphar@cyphar.com</a></p>
+<h2>runc 1.1-rc1 -- &quot;He who controls the spice controls the universe.&quot;</h2>
+<p>This release is the first release candidate for the next minor release
+following runc 1.0. It contains all of the bugfixes included in runc 1.0
+patch releases (up to and including 1.0.3).</p>
+<p>A fair few new features have been added, and several features have been
+deprecated (with plans for removal in runc 1.2). At the moment we only
+plan to do a single release candidate for runc 1.1, and once 1.1.0 is
+released we will not continue updating the 1.0.z runc branch.</p>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/opencontainers/runc/blob/main/CHANGELOG.md">github.com/opencontainers/runc's changelog</a>.</em></p>
+<blockquote>
+<h2>[1.1.2] - 2022-05-11</h2>
+<blockquote>
+<p>I should think I'm going to be a perpetual student.</p>
+</blockquote>
+<h3>Security</h3>
+<ul>
+<li>A bug was found in runc where runc exec --cap executed processes with
+non-empty inheritable Linux process capabilities, creating an atypical Linux
+environment. For more information, see <a href="https://github.com/opencontainers/runc/security/advisories/GHSA-f3fp-gc8g-vw66">GHSA-f3fp-gc8g-vw66</a> and
+CVE-2022-29162.</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li><code>runc spec</code> no longer sets any inheritable capabilities in the created
+example OCI spec (<code>config.json</code>) file.</li>
+</ul>
+<h2>[1.1.1] - 2022-03-28</h2>
+<blockquote>
+<p>Violence is the last refuge of the incompetent.</p>
+</blockquote>
+<h3>Added</h3>
+<ul>
+<li>CI is now also run on centos-stream-9. (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3436">#3436</a>)</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li><code>runc run/start</code> can now run a container with read-only <code>/dev</code> in OCI spec,
+rather than error out. (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3355">#3355</a>)</li>
+<li><code>runc exec</code> now ensures that <code>--cgroup</code> argument is a sub-cgroup. (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3403">#3403</a>)</li>
+<li>libcontainer systemd v2 manager no longer errors out if one of the files
+listed in <code>/sys/kernel/cgroup/delegate</code> do not exist in container's cgroup.
+(<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3387">#3387</a>, <a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3404">#3404</a>)</li>
+<li>Loose OCI spec validation to avoid bogus &quot;Intel RDT is not supported&quot; error.
+(<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3406">#3406</a>)</li>
+<li>libcontainer/cgroups no longer panics in cgroup v1 managers if <code>stat</code>
+of <code>/sys/fs/cgroup/unified</code> returns an error other than ENOENT. (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3435">#3435</a>)</li>
+</ul>
+<h2>[1.1.0] - 2022-01-14</h2>
+<blockquote>
+<p>A plan depends as much upon execution as it does upon concept.</p>
+</blockquote>
+<h3>Changed</h3>
+<ul>
+<li>libcontainer will now refuse to build without the nsenter package being
+correctly compiled (specifically this requires CGO to be enabled). This
+should avoid folks accidentally creating broken runc binaries (and
+incorrectly importing our internal libraries into their projects). (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3331">#3331</a>)</li>
+</ul>
+<h2>[1.1.0-rc.1] - 2021-12-14</h2>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/kubernetes/client-go/commit/afa3b34fe368bbf3532c612f1d5abc45d0783c08"><code>afa3b34</code></a> Update dependencies to v0.20.0 tag</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/fb61a7c88cb9f599363919a34b7c54a605455ffc"><code>fb61a7c</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/96720">#96720</a> from liggitt/throttled-logger</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/61471be615ffce3012bfe4e92d1ba70236960d90"><code>61471be</code></a> Deflake ThrottledLogger test</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/66db2540991da169fb60fce735064a55bfc52b71"><code>66db254</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/95981">#95981</a> from caesarxuchao/http2-healthcheck</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/7c9ea22f769b83d7573af95555d7ff1423429003"><code>7c9ea22</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/92743">#92743</a> from liggitt/gc</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/8dde295de4630e0b70c931e6386cce6bb0b5f579"><code>8dde295</code></a> Add a unit test testing the HTTP/2 health check help the REST client</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/c476b49dcfc420f1f2822f40ad82ef925f3f35cd"><code>c476b49</code></a> Add GC unit tests</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/77eda6a9395bd7884e99d484f29ae3c6d55f0eb9"><code>77eda6a</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/96317">#96317</a> from Jefftree/test-ssa</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/76f48268c78c15fd661e8acc832daee49b40eed6"><code>76f4826</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/96527">#96527</a> from adtac/apfbeta</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/4ab8fb4585a5873ae1c155d7f35c9710bd38f2d2"><code>4ab8fb4</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/96425">#96425</a> from bobbypage/vendor-cadvisor-v0.38</li>
-<li>Additional commits viewable in <a href="https://github.com/kubernetes/client-go/compare/v0.16.8...v0.20.0">compare view</a></li>
+<li><a href="https://github.com/opencontainers/runc/commit/a916309fff0f838eb94e928713dbc3c0d0ac7aa4"><code>a916309</code></a> VERSION: release 1.1.2</li>
+<li><a href="https://github.com/opencontainers/runc/commit/364ec0f1b4fa188ad96049c590ecb42fa70ea165"><code>364ec0f</code></a> runc: do not set inheritable capabilities</li>
+<li><a href="https://github.com/opencontainers/runc/commit/58546650ce11cdc2e2690bcb1de4a468e691de6d"><code>5854665</code></a> merge branch 'pr-3439' into release-1.1</li>
+<li><a href="https://github.com/opencontainers/runc/commit/8959e372549a81ac6a7cc25281f6b8a423d847ca"><code>8959e37</code></a> VERSION: back to development</li>
+<li><a href="https://github.com/opencontainers/runc/commit/52de29d7e0f8c0899bd7efb8810dd07f0073fa87"><code>52de29d</code></a> VERSION: release 1.1.1</li>
+<li><a href="https://github.com/opencontainers/runc/commit/2636e1cb3643c87f98b7b8a950c88087656e7645"><code>2636e1c</code></a> CHANGELOG.md: add 1.1.1 release notes</li>
+<li><a href="https://github.com/opencontainers/runc/commit/ae28db14244c87ab1e26db09a8ad6e5b2882ccc7"><code>ae28db1</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3436">#3436</a> from kolyshkin/1.1-add-centos-stream-9</li>
+<li><a href="https://github.com/opencontainers/runc/commit/036cc348994b7fa573380401644a6faac9e102e7"><code>036cc34</code></a> CI/cirrus: add centos-stream-9</li>
+<li><a href="https://github.com/opencontainers/runc/commit/c65363285b3eee6e2e3a7b356f8967ae17263d41"><code>c653632</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3438">#3438</a> from kolyshkin/1.1-fix-badges</li>
+<li><a href="https://github.com/opencontainers/runc/commit/db953158e14658c62ad6cda9ac087bdb1b1e3e8c"><code>db95315</code></a> README.md: add cirrus-ci badge</li>
+<li>Additional commits viewable in <a href="https://github.com/opencontainers/runc/compare/v1.0.0-rc8...v1.1.2">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=k8s.io/client-go&package-manager=go_modules&previous-version=0.16.8&new-version=0.20.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/opencontainers/runc&package-manager=go_modules&previous-version=1.0.0-rc8&new-version=1.1.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -160,7 +374,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-06 23:45:09 +0000 UTC
+        Created At 2023-02-13 23:54:49 +0000 UTC
     </div>
 </div>
 
@@ -168,11 +382,11 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/455" class=".btn">#455</a>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/460" class=".btn">#460</a>
             </td>
             <td>
                 <b>
-                    Bump k8s.io/client-go from 0.16.8 to 0.20.0 in /regression/barebones
+                    Bump github.com/opencontainers/runc from 1.0.0-rc8 to 1.1.2 in /regression/publish
                 </b>
             </td>
         </tr>
@@ -181,27 +395,134 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 <span class="chip">dependencies</span><span class="chip">go</span>
             </td>
             <td>
-                Bumps [k8s.io/client-go](https://github.com/kubernetes/client-go) from 0.16.8 to 0.20.0.
+                Bumps [github.com/opencontainers/runc](https://github.com/opencontainers/runc) from 1.0.0-rc8 to 1.1.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/opencontainers/runc/releases">github.com/opencontainers/runc's releases</a>.</em></p>
+<blockquote>
+<h2>runc 1.1 -- &quot;A plan depends as much upon execution as it does upon concept.&quot;</h2>
+<p>This release only contains very minor changes from v1.1.0-rc.1 and is
+the first release of the 1.1.y release series of runc. We do not plan to make
+any new releases of the 1.0.y release series of runc, so users are strongly
+encouraged to update to 1.1.0.</p>
+<p>Changed:</p>
+<ul>
+<li>libcontainer will now refuse to build without the nsenter package being
+correctly compiled (specifically this requires CGO to be enabled). This
+should avoid folks accidentally creating broken runc binaries (and
+incorrectly importing our internal libraries into their projects). (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3331">#3331</a>)</li>
+</ul>
+<h3>Static Linking Notices</h3>
+<p>The <code>runc</code> binary distributed with this release are <em>statically linked</em> with
+the following <a href="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html">GNU LGPL-2.1</a> licensed libraries, with <code>runc</code> acting
+as a &quot;work that uses the Library&quot;:</p>
+<ul>
+<li><a href="https://github.com/seccomp/libseccomp">libseccomp</a></li>
+</ul>
+<p>The versions of these libraries were not modified from their upstream versions,
+but in order to comply with the LGPL-2.1 (§6(a)), we have attached the
+complete source code for those libraries which (when combined with the attached
+runc source code) may be used to exercise your rights under the LGPL-2.1.</p>
+<p>However we strongly suggest that you make use of your distribution's packages
+or download them from the authoritative upstream sources, especially since
+these libraries are related to the security of your containers.</p>
+<!-- raw HTML omitted -->
+<p>Thanks to the following people who made this release possible:</p>
+<ul>
+<li>Akihiro Suda <a href="mailto:akihiro.suda.cz@hco.ntt.co.jp">akihiro.suda.cz@hco.ntt.co.jp</a></li>
+<li>Aleksa Sarai <a href="mailto:cyphar@cyphar.com">cyphar@cyphar.com</a></li>
+<li>Kir Kolyshkin <a href="mailto:kolyshkin@gmail.com">kolyshkin@gmail.com</a></li>
+</ul>
+<p>Signed-off-by: Aleksa Sarai <a href="mailto:cyphar@cyphar.com">cyphar@cyphar.com</a></p>
+<h2>runc 1.1-rc1 -- &quot;He who controls the spice controls the universe.&quot;</h2>
+<p>This release is the first release candidate for the next minor release
+following runc 1.0. It contains all of the bugfixes included in runc 1.0
+patch releases (up to and including 1.0.3).</p>
+<p>A fair few new features have been added, and several features have been
+deprecated (with plans for removal in runc 1.2). At the moment we only
+plan to do a single release candidate for runc 1.1, and once 1.1.0 is
+released we will not continue updating the 1.0.z runc branch.</p>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/opencontainers/runc/blob/main/CHANGELOG.md">github.com/opencontainers/runc's changelog</a>.</em></p>
+<blockquote>
+<h2>[1.1.2] - 2022-05-11</h2>
+<blockquote>
+<p>I should think I'm going to be a perpetual student.</p>
+</blockquote>
+<h3>Security</h3>
+<ul>
+<li>A bug was found in runc where runc exec --cap executed processes with
+non-empty inheritable Linux process capabilities, creating an atypical Linux
+environment. For more information, see <a href="https://github.com/opencontainers/runc/security/advisories/GHSA-f3fp-gc8g-vw66">GHSA-f3fp-gc8g-vw66</a> and
+CVE-2022-29162.</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li><code>runc spec</code> no longer sets any inheritable capabilities in the created
+example OCI spec (<code>config.json</code>) file.</li>
+</ul>
+<h2>[1.1.1] - 2022-03-28</h2>
+<blockquote>
+<p>Violence is the last refuge of the incompetent.</p>
+</blockquote>
+<h3>Added</h3>
+<ul>
+<li>CI is now also run on centos-stream-9. (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3436">#3436</a>)</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li><code>runc run/start</code> can now run a container with read-only <code>/dev</code> in OCI spec,
+rather than error out. (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3355">#3355</a>)</li>
+<li><code>runc exec</code> now ensures that <code>--cgroup</code> argument is a sub-cgroup. (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3403">#3403</a>)</li>
+<li>libcontainer systemd v2 manager no longer errors out if one of the files
+listed in <code>/sys/kernel/cgroup/delegate</code> do not exist in container's cgroup.
+(<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3387">#3387</a>, <a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3404">#3404</a>)</li>
+<li>Loose OCI spec validation to avoid bogus &quot;Intel RDT is not supported&quot; error.
+(<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3406">#3406</a>)</li>
+<li>libcontainer/cgroups no longer panics in cgroup v1 managers if <code>stat</code>
+of <code>/sys/fs/cgroup/unified</code> returns an error other than ENOENT. (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3435">#3435</a>)</li>
+</ul>
+<h2>[1.1.0] - 2022-01-14</h2>
+<blockquote>
+<p>A plan depends as much upon execution as it does upon concept.</p>
+</blockquote>
+<h3>Changed</h3>
+<ul>
+<li>libcontainer will now refuse to build without the nsenter package being
+correctly compiled (specifically this requires CGO to be enabled). This
+should avoid folks accidentally creating broken runc binaries (and
+incorrectly importing our internal libraries into their projects). (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3331">#3331</a>)</li>
+</ul>
+<h2>[1.1.0-rc.1] - 2021-12-14</h2>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/kubernetes/client-go/commit/afa3b34fe368bbf3532c612f1d5abc45d0783c08"><code>afa3b34</code></a> Update dependencies to v0.20.0 tag</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/fb61a7c88cb9f599363919a34b7c54a605455ffc"><code>fb61a7c</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/96720">#96720</a> from liggitt/throttled-logger</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/61471be615ffce3012bfe4e92d1ba70236960d90"><code>61471be</code></a> Deflake ThrottledLogger test</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/66db2540991da169fb60fce735064a55bfc52b71"><code>66db254</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/95981">#95981</a> from caesarxuchao/http2-healthcheck</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/7c9ea22f769b83d7573af95555d7ff1423429003"><code>7c9ea22</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/92743">#92743</a> from liggitt/gc</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/8dde295de4630e0b70c931e6386cce6bb0b5f579"><code>8dde295</code></a> Add a unit test testing the HTTP/2 health check help the REST client</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/c476b49dcfc420f1f2822f40ad82ef925f3f35cd"><code>c476b49</code></a> Add GC unit tests</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/77eda6a9395bd7884e99d484f29ae3c6d55f0eb9"><code>77eda6a</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/96317">#96317</a> from Jefftree/test-ssa</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/76f48268c78c15fd661e8acc832daee49b40eed6"><code>76f4826</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/96527">#96527</a> from adtac/apfbeta</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/4ab8fb4585a5873ae1c155d7f35c9710bd38f2d2"><code>4ab8fb4</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/96425">#96425</a> from bobbypage/vendor-cadvisor-v0.38</li>
-<li>Additional commits viewable in <a href="https://github.com/kubernetes/client-go/compare/v0.16.8...v0.20.0">compare view</a></li>
+<li><a href="https://github.com/opencontainers/runc/commit/a916309fff0f838eb94e928713dbc3c0d0ac7aa4"><code>a916309</code></a> VERSION: release 1.1.2</li>
+<li><a href="https://github.com/opencontainers/runc/commit/364ec0f1b4fa188ad96049c590ecb42fa70ea165"><code>364ec0f</code></a> runc: do not set inheritable capabilities</li>
+<li><a href="https://github.com/opencontainers/runc/commit/58546650ce11cdc2e2690bcb1de4a468e691de6d"><code>5854665</code></a> merge branch 'pr-3439' into release-1.1</li>
+<li><a href="https://github.com/opencontainers/runc/commit/8959e372549a81ac6a7cc25281f6b8a423d847ca"><code>8959e37</code></a> VERSION: back to development</li>
+<li><a href="https://github.com/opencontainers/runc/commit/52de29d7e0f8c0899bd7efb8810dd07f0073fa87"><code>52de29d</code></a> VERSION: release 1.1.1</li>
+<li><a href="https://github.com/opencontainers/runc/commit/2636e1cb3643c87f98b7b8a950c88087656e7645"><code>2636e1c</code></a> CHANGELOG.md: add 1.1.1 release notes</li>
+<li><a href="https://github.com/opencontainers/runc/commit/ae28db14244c87ab1e26db09a8ad6e5b2882ccc7"><code>ae28db1</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3436">#3436</a> from kolyshkin/1.1-add-centos-stream-9</li>
+<li><a href="https://github.com/opencontainers/runc/commit/036cc348994b7fa573380401644a6faac9e102e7"><code>036cc34</code></a> CI/cirrus: add centos-stream-9</li>
+<li><a href="https://github.com/opencontainers/runc/commit/c65363285b3eee6e2e3a7b356f8967ae17263d41"><code>c653632</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3438">#3438</a> from kolyshkin/1.1-fix-badges</li>
+<li><a href="https://github.com/opencontainers/runc/commit/db953158e14658c62ad6cda9ac087bdb1b1e3e8c"><code>db95315</code></a> README.md: add cirrus-ci badge</li>
+<li>Additional commits viewable in <a href="https://github.com/opencontainers/runc/compare/v1.0.0-rc8...v1.1.2">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=k8s.io/client-go&package-manager=go_modules&previous-version=0.16.8&new-version=0.20.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/opencontainers/runc&package-manager=go_modules&previous-version=1.0.0-rc8&new-version=1.1.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -237,7 +558,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-06 23:45:08 +0000 UTC
+        Created At 2023-02-13 23:54:49 +0000 UTC
     </div>
 </div>
 
@@ -245,11 +566,11 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/454" class=".btn">#454</a>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/459" class=".btn">#459</a>
             </td>
             <td>
                 <b>
-                    Bump k8s.io/client-go from 0.16.8 to 0.20.0 in /regression/basicnetwork
+                    Bump github.com/opencontainers/runc from 1.0.0-rc8 to 1.1.2 in /regression/basicnetwork
                 </b>
             </td>
         </tr>
@@ -258,27 +579,134 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 <span class="chip">dependencies</span><span class="chip">go</span>
             </td>
             <td>
-                Bumps [k8s.io/client-go](https://github.com/kubernetes/client-go) from 0.16.8 to 0.20.0.
+                Bumps [github.com/opencontainers/runc](https://github.com/opencontainers/runc) from 1.0.0-rc8 to 1.1.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/opencontainers/runc/releases">github.com/opencontainers/runc's releases</a>.</em></p>
+<blockquote>
+<h2>runc 1.1 -- &quot;A plan depends as much upon execution as it does upon concept.&quot;</h2>
+<p>This release only contains very minor changes from v1.1.0-rc.1 and is
+the first release of the 1.1.y release series of runc. We do not plan to make
+any new releases of the 1.0.y release series of runc, so users are strongly
+encouraged to update to 1.1.0.</p>
+<p>Changed:</p>
+<ul>
+<li>libcontainer will now refuse to build without the nsenter package being
+correctly compiled (specifically this requires CGO to be enabled). This
+should avoid folks accidentally creating broken runc binaries (and
+incorrectly importing our internal libraries into their projects). (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3331">#3331</a>)</li>
+</ul>
+<h3>Static Linking Notices</h3>
+<p>The <code>runc</code> binary distributed with this release are <em>statically linked</em> with
+the following <a href="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html">GNU LGPL-2.1</a> licensed libraries, with <code>runc</code> acting
+as a &quot;work that uses the Library&quot;:</p>
+<ul>
+<li><a href="https://github.com/seccomp/libseccomp">libseccomp</a></li>
+</ul>
+<p>The versions of these libraries were not modified from their upstream versions,
+but in order to comply with the LGPL-2.1 (§6(a)), we have attached the
+complete source code for those libraries which (when combined with the attached
+runc source code) may be used to exercise your rights under the LGPL-2.1.</p>
+<p>However we strongly suggest that you make use of your distribution's packages
+or download them from the authoritative upstream sources, especially since
+these libraries are related to the security of your containers.</p>
+<!-- raw HTML omitted -->
+<p>Thanks to the following people who made this release possible:</p>
+<ul>
+<li>Akihiro Suda <a href="mailto:akihiro.suda.cz@hco.ntt.co.jp">akihiro.suda.cz@hco.ntt.co.jp</a></li>
+<li>Aleksa Sarai <a href="mailto:cyphar@cyphar.com">cyphar@cyphar.com</a></li>
+<li>Kir Kolyshkin <a href="mailto:kolyshkin@gmail.com">kolyshkin@gmail.com</a></li>
+</ul>
+<p>Signed-off-by: Aleksa Sarai <a href="mailto:cyphar@cyphar.com">cyphar@cyphar.com</a></p>
+<h2>runc 1.1-rc1 -- &quot;He who controls the spice controls the universe.&quot;</h2>
+<p>This release is the first release candidate for the next minor release
+following runc 1.0. It contains all of the bugfixes included in runc 1.0
+patch releases (up to and including 1.0.3).</p>
+<p>A fair few new features have been added, and several features have been
+deprecated (with plans for removal in runc 1.2). At the moment we only
+plan to do a single release candidate for runc 1.1, and once 1.1.0 is
+released we will not continue updating the 1.0.z runc branch.</p>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/opencontainers/runc/blob/main/CHANGELOG.md">github.com/opencontainers/runc's changelog</a>.</em></p>
+<blockquote>
+<h2>[1.1.2] - 2022-05-11</h2>
+<blockquote>
+<p>I should think I'm going to be a perpetual student.</p>
+</blockquote>
+<h3>Security</h3>
+<ul>
+<li>A bug was found in runc where runc exec --cap executed processes with
+non-empty inheritable Linux process capabilities, creating an atypical Linux
+environment. For more information, see <a href="https://github.com/opencontainers/runc/security/advisories/GHSA-f3fp-gc8g-vw66">GHSA-f3fp-gc8g-vw66</a> and
+CVE-2022-29162.</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li><code>runc spec</code> no longer sets any inheritable capabilities in the created
+example OCI spec (<code>config.json</code>) file.</li>
+</ul>
+<h2>[1.1.1] - 2022-03-28</h2>
+<blockquote>
+<p>Violence is the last refuge of the incompetent.</p>
+</blockquote>
+<h3>Added</h3>
+<ul>
+<li>CI is now also run on centos-stream-9. (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3436">#3436</a>)</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li><code>runc run/start</code> can now run a container with read-only <code>/dev</code> in OCI spec,
+rather than error out. (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3355">#3355</a>)</li>
+<li><code>runc exec</code> now ensures that <code>--cgroup</code> argument is a sub-cgroup. (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3403">#3403</a>)</li>
+<li>libcontainer systemd v2 manager no longer errors out if one of the files
+listed in <code>/sys/kernel/cgroup/delegate</code> do not exist in container's cgroup.
+(<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3387">#3387</a>, <a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3404">#3404</a>)</li>
+<li>Loose OCI spec validation to avoid bogus &quot;Intel RDT is not supported&quot; error.
+(<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3406">#3406</a>)</li>
+<li>libcontainer/cgroups no longer panics in cgroup v1 managers if <code>stat</code>
+of <code>/sys/fs/cgroup/unified</code> returns an error other than ENOENT. (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3435">#3435</a>)</li>
+</ul>
+<h2>[1.1.0] - 2022-01-14</h2>
+<blockquote>
+<p>A plan depends as much upon execution as it does upon concept.</p>
+</blockquote>
+<h3>Changed</h3>
+<ul>
+<li>libcontainer will now refuse to build without the nsenter package being
+correctly compiled (specifically this requires CGO to be enabled). This
+should avoid folks accidentally creating broken runc binaries (and
+incorrectly importing our internal libraries into their projects). (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3331">#3331</a>)</li>
+</ul>
+<h2>[1.1.0-rc.1] - 2021-12-14</h2>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/kubernetes/client-go/commit/afa3b34fe368bbf3532c612f1d5abc45d0783c08"><code>afa3b34</code></a> Update dependencies to v0.20.0 tag</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/fb61a7c88cb9f599363919a34b7c54a605455ffc"><code>fb61a7c</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/96720">#96720</a> from liggitt/throttled-logger</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/61471be615ffce3012bfe4e92d1ba70236960d90"><code>61471be</code></a> Deflake ThrottledLogger test</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/66db2540991da169fb60fce735064a55bfc52b71"><code>66db254</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/95981">#95981</a> from caesarxuchao/http2-healthcheck</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/7c9ea22f769b83d7573af95555d7ff1423429003"><code>7c9ea22</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/92743">#92743</a> from liggitt/gc</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/8dde295de4630e0b70c931e6386cce6bb0b5f579"><code>8dde295</code></a> Add a unit test testing the HTTP/2 health check help the REST client</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/c476b49dcfc420f1f2822f40ad82ef925f3f35cd"><code>c476b49</code></a> Add GC unit tests</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/77eda6a9395bd7884e99d484f29ae3c6d55f0eb9"><code>77eda6a</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/96317">#96317</a> from Jefftree/test-ssa</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/76f48268c78c15fd661e8acc832daee49b40eed6"><code>76f4826</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/96527">#96527</a> from adtac/apfbeta</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/4ab8fb4585a5873ae1c155d7f35c9710bd38f2d2"><code>4ab8fb4</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/96425">#96425</a> from bobbypage/vendor-cadvisor-v0.38</li>
-<li>Additional commits viewable in <a href="https://github.com/kubernetes/client-go/compare/v0.16.8...v0.20.0">compare view</a></li>
+<li><a href="https://github.com/opencontainers/runc/commit/a916309fff0f838eb94e928713dbc3c0d0ac7aa4"><code>a916309</code></a> VERSION: release 1.1.2</li>
+<li><a href="https://github.com/opencontainers/runc/commit/364ec0f1b4fa188ad96049c590ecb42fa70ea165"><code>364ec0f</code></a> runc: do not set inheritable capabilities</li>
+<li><a href="https://github.com/opencontainers/runc/commit/58546650ce11cdc2e2690bcb1de4a468e691de6d"><code>5854665</code></a> merge branch 'pr-3439' into release-1.1</li>
+<li><a href="https://github.com/opencontainers/runc/commit/8959e372549a81ac6a7cc25281f6b8a423d847ca"><code>8959e37</code></a> VERSION: back to development</li>
+<li><a href="https://github.com/opencontainers/runc/commit/52de29d7e0f8c0899bd7efb8810dd07f0073fa87"><code>52de29d</code></a> VERSION: release 1.1.1</li>
+<li><a href="https://github.com/opencontainers/runc/commit/2636e1cb3643c87f98b7b8a950c88087656e7645"><code>2636e1c</code></a> CHANGELOG.md: add 1.1.1 release notes</li>
+<li><a href="https://github.com/opencontainers/runc/commit/ae28db14244c87ab1e26db09a8ad6e5b2882ccc7"><code>ae28db1</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3436">#3436</a> from kolyshkin/1.1-add-centos-stream-9</li>
+<li><a href="https://github.com/opencontainers/runc/commit/036cc348994b7fa573380401644a6faac9e102e7"><code>036cc34</code></a> CI/cirrus: add centos-stream-9</li>
+<li><a href="https://github.com/opencontainers/runc/commit/c65363285b3eee6e2e3a7b356f8967ae17263d41"><code>c653632</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3438">#3438</a> from kolyshkin/1.1-fix-badges</li>
+<li><a href="https://github.com/opencontainers/runc/commit/db953158e14658c62ad6cda9ac087bdb1b1e3e8c"><code>db95315</code></a> README.md: add cirrus-ci badge</li>
+<li>Additional commits viewable in <a href="https://github.com/opencontainers/runc/compare/v1.0.0-rc8...v1.1.2">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=k8s.io/client-go&package-manager=go_modules&previous-version=0.16.8&new-version=0.20.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/opencontainers/runc&package-manager=go_modules&previous-version=1.0.0-rc8&new-version=1.1.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -314,7 +742,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-06 23:45:07 +0000 UTC
+        Created At 2023-02-13 23:54:49 +0000 UTC
     </div>
 </div>
 
@@ -322,11 +750,11 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/453" class=".btn">#453</a>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/458" class=".btn">#458</a>
             </td>
             <td>
                 <b>
-                    Bump k8s.io/client-go from 0.16.8 to 0.20.0 in /regression/smoke
+                    Bump github.com/opencontainers/runc from 1.0.0-rc8 to 1.1.2 in /regression/barebones
                 </b>
             </td>
         </tr>
@@ -335,27 +763,134 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 <span class="chip">dependencies</span><span class="chip">go</span>
             </td>
             <td>
-                Bumps [k8s.io/client-go](https://github.com/kubernetes/client-go) from 0.16.8 to 0.20.0.
+                Bumps [github.com/opencontainers/runc](https://github.com/opencontainers/runc) from 1.0.0-rc8 to 1.1.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/opencontainers/runc/releases">github.com/opencontainers/runc's releases</a>.</em></p>
+<blockquote>
+<h2>runc 1.1 -- &quot;A plan depends as much upon execution as it does upon concept.&quot;</h2>
+<p>This release only contains very minor changes from v1.1.0-rc.1 and is
+the first release of the 1.1.y release series of runc. We do not plan to make
+any new releases of the 1.0.y release series of runc, so users are strongly
+encouraged to update to 1.1.0.</p>
+<p>Changed:</p>
+<ul>
+<li>libcontainer will now refuse to build without the nsenter package being
+correctly compiled (specifically this requires CGO to be enabled). This
+should avoid folks accidentally creating broken runc binaries (and
+incorrectly importing our internal libraries into their projects). (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3331">#3331</a>)</li>
+</ul>
+<h3>Static Linking Notices</h3>
+<p>The <code>runc</code> binary distributed with this release are <em>statically linked</em> with
+the following <a href="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html">GNU LGPL-2.1</a> licensed libraries, with <code>runc</code> acting
+as a &quot;work that uses the Library&quot;:</p>
+<ul>
+<li><a href="https://github.com/seccomp/libseccomp">libseccomp</a></li>
+</ul>
+<p>The versions of these libraries were not modified from their upstream versions,
+but in order to comply with the LGPL-2.1 (§6(a)), we have attached the
+complete source code for those libraries which (when combined with the attached
+runc source code) may be used to exercise your rights under the LGPL-2.1.</p>
+<p>However we strongly suggest that you make use of your distribution's packages
+or download them from the authoritative upstream sources, especially since
+these libraries are related to the security of your containers.</p>
+<!-- raw HTML omitted -->
+<p>Thanks to the following people who made this release possible:</p>
+<ul>
+<li>Akihiro Suda <a href="mailto:akihiro.suda.cz@hco.ntt.co.jp">akihiro.suda.cz@hco.ntt.co.jp</a></li>
+<li>Aleksa Sarai <a href="mailto:cyphar@cyphar.com">cyphar@cyphar.com</a></li>
+<li>Kir Kolyshkin <a href="mailto:kolyshkin@gmail.com">kolyshkin@gmail.com</a></li>
+</ul>
+<p>Signed-off-by: Aleksa Sarai <a href="mailto:cyphar@cyphar.com">cyphar@cyphar.com</a></p>
+<h2>runc 1.1-rc1 -- &quot;He who controls the spice controls the universe.&quot;</h2>
+<p>This release is the first release candidate for the next minor release
+following runc 1.0. It contains all of the bugfixes included in runc 1.0
+patch releases (up to and including 1.0.3).</p>
+<p>A fair few new features have been added, and several features have been
+deprecated (with plans for removal in runc 1.2). At the moment we only
+plan to do a single release candidate for runc 1.1, and once 1.1.0 is
+released we will not continue updating the 1.0.z runc branch.</p>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/opencontainers/runc/blob/main/CHANGELOG.md">github.com/opencontainers/runc's changelog</a>.</em></p>
+<blockquote>
+<h2>[1.1.2] - 2022-05-11</h2>
+<blockquote>
+<p>I should think I'm going to be a perpetual student.</p>
+</blockquote>
+<h3>Security</h3>
+<ul>
+<li>A bug was found in runc where runc exec --cap executed processes with
+non-empty inheritable Linux process capabilities, creating an atypical Linux
+environment. For more information, see <a href="https://github.com/opencontainers/runc/security/advisories/GHSA-f3fp-gc8g-vw66">GHSA-f3fp-gc8g-vw66</a> and
+CVE-2022-29162.</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li><code>runc spec</code> no longer sets any inheritable capabilities in the created
+example OCI spec (<code>config.json</code>) file.</li>
+</ul>
+<h2>[1.1.1] - 2022-03-28</h2>
+<blockquote>
+<p>Violence is the last refuge of the incompetent.</p>
+</blockquote>
+<h3>Added</h3>
+<ul>
+<li>CI is now also run on centos-stream-9. (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3436">#3436</a>)</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li><code>runc run/start</code> can now run a container with read-only <code>/dev</code> in OCI spec,
+rather than error out. (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3355">#3355</a>)</li>
+<li><code>runc exec</code> now ensures that <code>--cgroup</code> argument is a sub-cgroup. (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3403">#3403</a>)</li>
+<li>libcontainer systemd v2 manager no longer errors out if one of the files
+listed in <code>/sys/kernel/cgroup/delegate</code> do not exist in container's cgroup.
+(<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3387">#3387</a>, <a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3404">#3404</a>)</li>
+<li>Loose OCI spec validation to avoid bogus &quot;Intel RDT is not supported&quot; error.
+(<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3406">#3406</a>)</li>
+<li>libcontainer/cgroups no longer panics in cgroup v1 managers if <code>stat</code>
+of <code>/sys/fs/cgroup/unified</code> returns an error other than ENOENT. (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3435">#3435</a>)</li>
+</ul>
+<h2>[1.1.0] - 2022-01-14</h2>
+<blockquote>
+<p>A plan depends as much upon execution as it does upon concept.</p>
+</blockquote>
+<h3>Changed</h3>
+<ul>
+<li>libcontainer will now refuse to build without the nsenter package being
+correctly compiled (specifically this requires CGO to be enabled). This
+should avoid folks accidentally creating broken runc binaries (and
+incorrectly importing our internal libraries into their projects). (<a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3331">#3331</a>)</li>
+</ul>
+<h2>[1.1.0-rc.1] - 2021-12-14</h2>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/kubernetes/client-go/commit/afa3b34fe368bbf3532c612f1d5abc45d0783c08"><code>afa3b34</code></a> Update dependencies to v0.20.0 tag</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/fb61a7c88cb9f599363919a34b7c54a605455ffc"><code>fb61a7c</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/96720">#96720</a> from liggitt/throttled-logger</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/61471be615ffce3012bfe4e92d1ba70236960d90"><code>61471be</code></a> Deflake ThrottledLogger test</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/66db2540991da169fb60fce735064a55bfc52b71"><code>66db254</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/95981">#95981</a> from caesarxuchao/http2-healthcheck</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/7c9ea22f769b83d7573af95555d7ff1423429003"><code>7c9ea22</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/92743">#92743</a> from liggitt/gc</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/8dde295de4630e0b70c931e6386cce6bb0b5f579"><code>8dde295</code></a> Add a unit test testing the HTTP/2 health check help the REST client</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/c476b49dcfc420f1f2822f40ad82ef925f3f35cd"><code>c476b49</code></a> Add GC unit tests</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/77eda6a9395bd7884e99d484f29ae3c6d55f0eb9"><code>77eda6a</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/96317">#96317</a> from Jefftree/test-ssa</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/76f48268c78c15fd661e8acc832daee49b40eed6"><code>76f4826</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/96527">#96527</a> from adtac/apfbeta</li>
-<li><a href="https://github.com/kubernetes/client-go/commit/4ab8fb4585a5873ae1c155d7f35c9710bd38f2d2"><code>4ab8fb4</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/kubernetes/client-go/issues/96425">#96425</a> from bobbypage/vendor-cadvisor-v0.38</li>
-<li>Additional commits viewable in <a href="https://github.com/kubernetes/client-go/compare/v0.16.8...v0.20.0">compare view</a></li>
+<li><a href="https://github.com/opencontainers/runc/commit/a916309fff0f838eb94e928713dbc3c0d0ac7aa4"><code>a916309</code></a> VERSION: release 1.1.2</li>
+<li><a href="https://github.com/opencontainers/runc/commit/364ec0f1b4fa188ad96049c590ecb42fa70ea165"><code>364ec0f</code></a> runc: do not set inheritable capabilities</li>
+<li><a href="https://github.com/opencontainers/runc/commit/58546650ce11cdc2e2690bcb1de4a468e691de6d"><code>5854665</code></a> merge branch 'pr-3439' into release-1.1</li>
+<li><a href="https://github.com/opencontainers/runc/commit/8959e372549a81ac6a7cc25281f6b8a423d847ca"><code>8959e37</code></a> VERSION: back to development</li>
+<li><a href="https://github.com/opencontainers/runc/commit/52de29d7e0f8c0899bd7efb8810dd07f0073fa87"><code>52de29d</code></a> VERSION: release 1.1.1</li>
+<li><a href="https://github.com/opencontainers/runc/commit/2636e1cb3643c87f98b7b8a950c88087656e7645"><code>2636e1c</code></a> CHANGELOG.md: add 1.1.1 release notes</li>
+<li><a href="https://github.com/opencontainers/runc/commit/ae28db14244c87ab1e26db09a8ad6e5b2882ccc7"><code>ae28db1</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3436">#3436</a> from kolyshkin/1.1-add-centos-stream-9</li>
+<li><a href="https://github.com/opencontainers/runc/commit/036cc348994b7fa573380401644a6faac9e102e7"><code>036cc34</code></a> CI/cirrus: add centos-stream-9</li>
+<li><a href="https://github.com/opencontainers/runc/commit/c65363285b3eee6e2e3a7b356f8967ae17263d41"><code>c653632</code></a> Merge pull request <a href="https://github-redirect.dependabot.com/opencontainers/runc/issues/3438">#3438</a> from kolyshkin/1.1-fix-badges</li>
+<li><a href="https://github.com/opencontainers/runc/commit/db953158e14658c62ad6cda9ac087bdb1b1e3e8c"><code>db95315</code></a> README.md: add cirrus-ci badge</li>
+<li>Additional commits viewable in <a href="https://github.com/opencontainers/runc/compare/v1.0.0-rc8...v1.1.2">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=k8s.io/client-go&package-manager=go_modules&previous-version=0.16.8&new-version=0.20.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/opencontainers/runc&package-manager=go_modules&previous-version=1.0.0-rc8&new-version=1.1.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -391,7 +926,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-06 23:45:07 +0000 UTC
+        Created At 2023-02-13 23:54:48 +0000 UTC
     </div>
 </div>
 

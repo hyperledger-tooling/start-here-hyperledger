@@ -14,6 +14,82 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3146" class=".btn">#3146</a>
+            </td>
+            <td>
+                <b>
+                    Fix in iroha-cpp library + added example of few transactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">1.x</span><span class="chip">CLI</span><span class="chip">Refactor</span><span class="chip">1.5</span><span class="chip">queries</span>
+            </td>
+            <td>
+                Signed-off-by: Grzegorz Bazior <g.bazior@yodiss.pl>
+
+<!-- You will not see HTML commented line in Pull Request body -->
+<!-- Optional sections may be omitted. Just remove them or write None -->
+
+<!-- ### Requirements -->
+<!-- * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion. -->
+<!-- * All new code must have code coverage above 70% (https://docs.codecov.io/docs/about-code-coverage). -->
+<!-- * CircleCI builds must be passed. -->
+<!-- * Critical and blocker issues reported by Sorabot must be fixed. -->
+<!-- * Branch must be rebased onto base branch (https://soramitsu.atlassian.net/wiki/spaces/IS/pages/11173889/Rebase+and+merge+guide). -->
+
+
+### Description of the Change
+I noticed that in examples queries were not working - after some time of investigation I noticed that `counter` must be greated than 0, but default  value is 0. So I changed into 1. Also I added another example file with error checking (it was my first time with GRPC in C++ so there can be errors)
+
+<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. -->
+<!-- Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the code here recently, so please walk us through the concepts. -->
+
+### Issue
+
+<!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
+More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
+
+<!-- If it is not a GitHub issue but a JIRA issue, just put the link here -->
+
+### Benefits
+Good example for somebody who wants to start developing Iroha 1 with iroha-cpp-lib + fix
+<!-- What benefits will be realized by the code change? -->
+
+### Possible Drawbacks
+I don't know what `counter` is:D.
+<!-- What are the possible side-effects or negative impacts of the code change? -->
+<!-- If no drawbacks, explicitly mention this (write None) -->
+
+### Usage Examples or Tests *[optional]*
+```
+make irohalib_domainassetcreation_example
+```
+<!-- Point reviewers to the test, code example or documentation which shows usage example of this feature -->
+
+### Alternate Designs *[optional]*
+
+<!-- Explain what other alternates were considered and why the proposed version was selected -->
+
+<!--
+NOTE: User may want skip pull request and push workflows with [skip ci]
+https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
+Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-13 18:40:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3142" class=".btn">#3142</a>
             </td>
             <td>
