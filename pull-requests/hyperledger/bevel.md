@@ -14,11 +14,56 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2150" class=".btn">#2150</a>
+            </td>
+            <td>
+                <b>
+                    [besu]cert-manager setup for besu
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+
+As of now this is valid only for besu network
+
+added the cert manager helm chart
+added new filed in network-besu.yaml "issuer: default/letsencrypt"
+updated the code to deploy the cert manager and install certificates using cert-manager using letsencrypt CA, this will run only if "issuer: letsencrypt" in network-besu.yaml, else self signed certs will be created as earlier
+updated the reset-network.yaml file to delete the certs at the time of network deletion
+
+
+ 
+
+**Reviewed by**
+@sownak @suvajit-sarkar @jagpreetsinghsasan 
+
+ 
+
+**Linked issue**
+#2036 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-15 08:58:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2148" class=".btn">#2148</a>
             </td>
             <td>
                 <b>
-                    [shared] workflow for alpine1.1 image
+                    [ci-skip] workflow for alpine1.1 image
                 </b>
             </td>
         </tr>

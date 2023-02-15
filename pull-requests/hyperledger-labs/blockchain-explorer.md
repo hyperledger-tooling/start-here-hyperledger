@@ -165,7 +165,7 @@ specific point in time, rather than a document that may change over time.
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">bug</span>
             </td>
             <td>
                 <!--  Thanks for sending a pull request! 
