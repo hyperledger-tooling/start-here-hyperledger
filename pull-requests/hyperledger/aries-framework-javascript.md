@@ -14,78 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1258" class=".btn">#1258</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1303" class=".btn">#1303</a>
             </td>
             <td>
                 <b>
-                    build(deps): bump http-cache-semantics from 4.1.0 to 4.1.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span>
-            </td>
-            <td>
-                Bumps [http-cache-semantics](https://github.com/kornelski/http-cache-semantics) from 4.1.0 to 4.1.1.
-<details>
-<summary>Commits</summary>
-<ul>
-<li>See full diff in <a href="https://github.com/kornelski/http-cache-semantics/commits">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=http-cache-semantics&package-manager=npm_and_yarn&previous-version=4.1.0&new-version=4.1.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
-- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
-- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
-- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
-
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-framework-javascript/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-02 15:24:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1253" class=".btn">#1253</a>
-            </td>
-            <td>
-                <b>
-                    feat(indy-vdr): resolver and registrar for did:indy
+                    fix: imports from core
                 </b>
             </td>
         </tr>
@@ -94,30 +27,14 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 
             </td>
             <td>
-                An initial implementation of a resolver and registrar compliant with [did:indy](https://hyperledger.github.io/indy-did-method).
+                These are preventing `@aries-framework/anoncreds-rs` and `@aries-framework/askar` from bein properly imported. 
 
-`IndyVdrIndyDidResolver` expects a full did:indy as an input and attempts to get it from the pools configured in IndyVdrPoolService. If the NYM is found, first attempts to build the DID Document combining the did/verkey and the `diddocContent`. If no diddocContent is received, it falls back to the good-old ATTRIB endpoint and reconstructs the DID Document using it.
-
-`IndyVdrDidRegistrar` is a bit more flexible in terms of interface (TBD, by D meaning 'defined' and/or 'discussed'), as it can receive:
-- a full did and a matching verkey; or
-- a seed; or
-- none of them
-
-So in the first case it's assumed that the Key pair has been already created in the wallet and/or it is not needed to do so (e.g. we are anchoring a DID for someone else). In the other cases, the verkey is created and a matching did is dynamically generated.
-
-In addition, in the options we can specify an array of `DidDocumentService` that will be added into the `diddocContent` on the NYM request, unless the user sets the flag `useEndpointAttrib`, which can be used for legacy deployments that don't support the didDocContent.
-
-Some notes:
-
-- There will be probably some other options for setting the version in NYM request (not yet supported by indy-vdr).
-- DID Update and Deactivate are not yet implemented.
-
-
+Also removes the outdated `AskarModuleConfig`.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-02 02:59:20 +0000 UTC
+        Created At 2023-02-14 21:52:52 +0000 UTC
     </div>
 </div>
 
@@ -125,11 +42,11 @@ Some notes:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1252" class=".btn">#1252</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1301" class=".btn">#1301</a>
             </td>
             <td>
                 <b>
-                    feat(indy-vdr): use @hyperledger packages
+                    feat(askar): createKey from secret bytes
                 </b>
             </td>
         </tr>
@@ -138,12 +55,485 @@ Some notes:
                 
             </td>
             <td>
-                Waiting for the release of 0.1.0-dev.4 (https://github.com/hyperledger/indy-vdr/pull/150) for response type fixing.
+                This is being added to provide a way of creating deterministic keys in a similar way than indy-sdk, as our [current findings](https://github.com/hyperledger/aries-cloudagent-python/blob/467104fab662507e18483abaaf2305bc702bb303/aries_cloudagent/wallet/askar.py#L751) are that it is actually using the seed as a secret key.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-01 21:11:38 +0000 UTC
+        Created At 2023-02-14 16:19:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1298" class=".btn">#1298</a>
+            </td>
+            <td>
+                <b>
+                    docs: update readme
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-14 08:30:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1295" class=".btn">#1295</a>
+            </td>
+            <td>
+                <b>
+                    fix(askar): generate nonce suitable for anoncreds
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The one that was returned by `AskarWallet.generateNonce()` is not usable for AnonCreds proofs and credential issuance flow, so it is now adjusted to return something equivalent to what's in IndyWallet or anoncreds-rs.
+
+As part of a further refactor, this functionality will be most likely moved to `anoncreds` package, as it is more related to AnonCreds specification than the Wallet itself.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-13 20:48:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1294" class=".btn">#1294</a>
+            </td>
+            <td>
+                <b>
+                    test: add anoncreds restriction test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Some small changes and an extra test to test anoncreds restriction transformation
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-13 17:45:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1293" class=".btn">#1293</a>
+            </td>
+            <td>
+                <b>
+                    build(indy-sdk): set private to false
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Karim Stekelenburg <karim@animo.id>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-13 14:09:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1292" class=".btn">#1292</a>
+            </td>
+            <td>
+                <b>
+                    chore: make askar, anoncreds(-rs), indy-vdr packages public
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Ariel Gentile <gentilester@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-13 11:44:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1291" class=".btn">#1291</a>
+            </td>
+            <td>
+                <b>
+                    fix(indy-vdr): export relevant packages from root
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds missing exports to the `indy-vdr` package's public API.
+
+Signed-off-by: Karim Stekelenburg <karim@animo.id>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-13 11:06:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1290" class=".btn">#1290</a>
+            </td>
+            <td>
+                <b>
+                    feat: add fetch indy schema method
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR implements the `fetchIndySchema` method which fetches the actual schema ID for the `getCredentialDefinition` method in the` IndySdkAnonCredsRegistry` and  `IndyVdrAnonCredsRegistry`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-13 08:00:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1289" class=".btn">#1289</a>
+            </td>
+            <td>
+                <b>
+                    feat: indy sdk aries askar migration script
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - feat: setup package
+- feat: setup some base components
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-12 20:40:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1288" class=".btn">#1288</a>
+            </td>
+            <td>
+                <b>
+                    chore(core): remove useless file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: blu3beri <blu3beri@proton.me>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-12 20:02:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1286" class=".btn">#1286</a>
+            </td>
+            <td>
+                <b>
+                    refactor!: remove indy from core
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Completely broken at the moment. Not ready yet
+
+Dependant on #1279 and #1283 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-10 15:49:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1285" class=".btn">#1285</a>
+            </td>
+            <td>
+                <b>
+                    feat: indy-vdr module registration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-10 14:07:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1283" class=".btn">#1283</a>
+            </td>
+            <td>
+                <b>
+                    feat(anoncreds): legacy indy proof format service
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds a `LegacyIndyProofFormatService` that can be used with v1 and v2 of the proof protocol.
+
+I've made some improvements to the tails handling and it now verifies the hash after downloading. 
+
+There's some high level tests that use both the legacy indy credential format service and the legacy indy proof format service to do the full flow of issuance and verification. It's a bit hard to test in isolation with the indy-sdk, but we can change that once we have the AnonCredsRs backend.
+
+Dependant on #1279
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-10 02:14:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1282" class=".btn">#1282</a>
+            </td>
+            <td>
+                <b>
+                    feat: add devcontainer support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Initial work on adding devcontainer support to make development easier for Mac, Windows and Linux. The [Dockerfile](.devcontainer/Dockerfile) located in the `.devcontainer` directory is used to build the working container.
+
+Fixes #1281
+
+![screenshot](https://user-images.githubusercontent.com/390891/217969554-e7e530dc-fada-40db-bd33-35938b4f1290.jpg)
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-10 00:18:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1280" class=".btn">#1280</a>
+            </td>
+            <td>
+                <b>
+                    ci: increase maximum heap memory for node
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Attempt to increase maximum heap memory available for node, as CI is consistently failing when reaching around 1.8 GB under node 18.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-09 22:27:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1279" class=".btn">#1279</a>
+            </td>
+            <td>
+                <b>
+                    refactor(proofs)!: generalize proofs api and improve consistency with credentials module
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This refactors the proofs api to be more generic and allow dynamic registration of formats (which we need for the anoncreds works) in addition with making it consistent with the credentials module. With all the refactoring over the last year, although they followed the same patterns they became somewhat inconsistent.
+
+This is based on the DIF Presentation exchange branch from @NB-MikeRichardson, but doesn't include the Presentation Exchange work yet. I've done this to avoid the need for refactoring in the presentation exchange branch.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-09 14:00:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1278" class=".btn">#1278</a>
+            </td>
+            <td>
+                <b>
+                    feat: added endpoint setter to agent InitConfig
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Jim Ezesinachi <jim@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-09 13:53:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1276" class=".btn">#1276</a>
+            </td>
+            <td>
+                <b>
+                    fix: add concurrency config for processing message concurrently
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                `concatMap` pipe processes messages synchronously, this PR adds the `concurrency` config and replaces `concatMap` with `mergeMap` to allow messages to be processed concurrently. Now that multi-tenant is supported, it will be helpful to process multiple messages at a time.
+
+Signed-off-by: Pritam Singh <pkspritam16@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-09 07:35:51 +0000 UTC
     </div>
 </div>
 
