@@ -497,39 +497,3 @@ Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4009" class=".btn">#4009</a>
-            </td>
-            <td>
-                <b>
-                    Add Performance Considerations to docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Dave Kelsey <d_kelsey@uk.ibm.com>
-
-#### Type of change
-
-- Documentation update
-
-#### Description
-
-A Section in the fabric documentation to discuss Performance
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-08 14:02:12 +0000 UTC
-    </div>
-</div>
-

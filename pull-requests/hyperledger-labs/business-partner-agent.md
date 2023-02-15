@@ -80,29 +80,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent/pull/858" class=".btn">#858</a>
-            </td>
-            <td>
-                <b>
-                    Fix register-dids.sh 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-08 18:14:52 +0000 UTC
-    </div>
-</div>
-
