@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1179" class=".btn">#1179</a>
+            </td>
+            <td>
+                <b>
+                    Use scale encoder in emit for release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As discussed: #1128 introduced a refactor version of the scale encoder in codegen. However, the emit version of the SCALE encoder could not be phased out yet; the dispatcher is written in emit as well, so we need to refactor the decoder (WIP, currently blocked by #1168 ) and then dispatcher into codegen (WIP after the decoder) first, too.
+
+This resulted in the compiler using the new version of the encoder but only fo `abi.encode` and not in the dispatcher.
+
+We don't want to release a version with a half-baked SCALE encoder/decoder implementation. Minor issue is that it "feels wrong" to use different implementations for the same thing, depending on the circumstance. Major issue is that many tests go through the encoding logic in the dispatcher, but the dispatcher still uses the emit version. It is fine for the `main` branch but a no-go to ship that in a release.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-14 18:32:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1178" class=".btn">#1178</a>
             </td>
             <td>
@@ -336,34 +366,6 @@ LLVM builds have been tested [here](https://github.com/LucasSte/solang/actions/r
     </table>
     <div class="right-align">
         Created At 2023-02-08 15:09:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1160" class=".btn">#1160</a>
-            </td>
-            <td>
-                <b>
-                    Allow mappings to be named (solc-0.8.18 feature)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes https://github.com/hyperledger/solang/issues/1159
-
-Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-07 19:04:00 +0000 UTC
     </div>
 </div>
 
