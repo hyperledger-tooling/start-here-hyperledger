@@ -15,6 +15,34 @@ permalink: /releases/hyperledger/solang-llvm
         <tr>
             <td colspan="2">
                 <b>
+                    LLVM 15 release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    llvm15-0
+                </span>
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/solang-llvm/releases/tag/llvm15-0" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-02-14 17:06:48 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     
                 </b>
             </td>
@@ -35,34 +63,6 @@ permalink: /releases/hyperledger/solang-llvm
     </a>
     <span class="right-align">
         Created At 2023-02-13 15:11:27 +0000 UTC
-    </span>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    llvm15-0
-                </span>
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/solang-llvm/releases/tag/llvm15-0" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2023-02-09 16:36:44 +0000 UTC
     </span>
 </div>
 
