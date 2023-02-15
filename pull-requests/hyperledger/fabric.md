@@ -14,11 +14,82 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4026" class=".btn">#4026</a>
+            </td>
+            <td>
+                <b>
+                    Remainder of Performance considerations edit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Edited starting with "Orderer considerations" continuing through end: 
+- Note in places we say collecting "enough" signatures - are there some cases where a specific signature is required in addition to number. 
+- It may be useful to indicate how much better Go is than Node for performance, if they are close or not close.
+
+<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+- Documentation update
+
+#### Description
+
+new doc, per request
+
+#### Additional details
+
+<!--- Additional implementation details or comments to reviewers. -->
+<!--- Summarize how the pull request was tested (if not obvious from commit). -->
+
+#### Related issues
+
+<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
+
+<!---
+#### Release Note
+If change impacts current users, uncomment Release Note heading and provide
+release note text.
+Also, copy release note text into the release specific /release_notes file.
+-->
+
+<!--
+Checklist (DELETE AFTER READING):
+
+- `Signed-off-by` added to commits (required for DCO check to pass)
+- Tests have been added/updated (required for bug fixes and features)
+- Unit and/or integration tests pass locally
+- Run linters and checks locally using 'make checks'
+- If change requires documentation updates, make updates in pull request,
+  or open a separate issue and provide link
+- Squash commits into a single commit, unless a stack of commits is
+  intentional to assist reviewers or to preserve review comments.
+- For additional contribution guidelines see the project's CONTRIBUTING.md file
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-14 21:47:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4025" class=".btn">#4025</a>
             </td>
             <td>
                 <b>
-                    Bump prometheus/client_golang to v1.14.0
+                    Bump prometheus/client_golang to v1.14.0 (release-2.5)
                 </b>
             </td>
         </tr>
@@ -425,38 +496,6 @@ A Section in the fabric documentation to discuss Performance
     </table>
     <div class="right-align">
         Created At 2023-02-08 14:02:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4006" class=".btn">#4006</a>
-            </td>
-            <td>
-                <b>
-                    Address private data purge integration test comments
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Address comments from https://github.com/hyperledger/fabric/pull/3991.
-
-Namely, speed up reconciliation test by looking for reconcilliation message rather than sleeping for 30s.
-Also change default reconcilliation from 10s to 5s to speed up tests.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-07 20:29:42 +0000 UTC
     </div>
 </div>
 

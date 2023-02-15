@@ -14,6 +14,83 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3525" class=".btn">#3525</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): bump github.com/gogo/protobuf from 1.3.1 to 1.3.2 in /test/bdd
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">go</span>
+            </td>
+            <td>
+                Bumps [github.com/gogo/protobuf](https://github.com/gogo/protobuf) from 1.3.1 to 1.3.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/gogo/protobuf/releases">github.com/gogo/protobuf's releases</a>.</em></p>
+<blockquote>
+<h2>Release v.1.3.2</h2>
+<h2>Tested versions:</h2>
+<p>go 1.15.6
+protoc 3.14.0</p>
+<h2>Bug fixes:</h2>
+<p>skippy peanut butter</p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/gogo/protobuf/commit/b03c65ea87cdc3521ede29f62fe3ce239267c1bc"><code>b03c65e</code></a> skippy peanut butter</li>
+<li><a href="https://github.com/gogo/protobuf/commit/550e88954e617545f49920b752c154d72abf1d8d"><code>550e889</code></a> update to go version 1.15.6 and protoc 3.14.0 (<a href="https://github-redirect.dependabot.com/gogo/protobuf/issues/717">#717</a>)</li>
+<li><a href="https://github.com/gogo/protobuf/commit/deb6fe8ca7c6d06584bfbd40ca407bf69d9fd2aa"><code>deb6fe8</code></a> Update Readme.md</li>
+<li>See full diff in <a href="https://github.com/gogo/protobuf/compare/v1.3.1...v1.3.2">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/gogo/protobuf&package-manager=go_modules&previous-version=1.3.1&new-version=1.3.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-framework-go/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-14 22:44:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3524" class=".btn">#3524</a>
             </td>
             <td>
@@ -378,40 +455,6 @@ Closes #3519
     </table>
     <div class="right-align">
         Created At 2023-02-08 16:08:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3520" class=".btn">#3520</a>
-            </td>
-            <td>
-                <b>
-                    chore: Add interop test for verifier
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add interop tests for verifier - this is also to prove that we will not have issues with json libraries for interop (string hardening vs. canonicalization note in spec).
-
-Since disclosures are created by the issuer the value can be influenced by marshalling (e.g. spaces, map order etc.) however it will not influence functionality since we are not supposed to re-create disclosures at any point.
-
-Closes #3518
-
-Signed-off-by: Sandra Vrtikapa <sandra.vrtikapa@securekey.com>
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-07 21:17:36 +0000 UTC
     </div>
 </div>
 

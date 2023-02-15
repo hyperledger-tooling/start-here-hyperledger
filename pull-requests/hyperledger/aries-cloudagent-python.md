@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2123" class=".btn">#2123</a>
+            </td>
+            <td>
+                <b>
+                    Fix ACA-py image builds
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Ensure the final images install ACA-py from the wheel rather than from PyPI.
+- Resolves #2121 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-14 23:04:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2122" class=".btn">#2122</a>
+            </td>
+            <td>
+                <b>
+                    Update some of the demo Readme and Endorser instructions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-14 22:29:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2120" class=".btn">#2120</a>
             </td>
             <td>
