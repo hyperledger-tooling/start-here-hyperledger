@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/cckit
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/cckit/pull/21" class=".btn">#21</a>
-            </td>
-            <td>
-                <b>
-                    Some fixes for the converter and serialiser
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-08 11:07:13 +0000 UTC
-    </div>
-</div>
-
