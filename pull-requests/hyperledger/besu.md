@@ -295,10 +295,10 @@ Added the option `--kzg-trusted-setup` to pass a custom setup file for custom ne
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">peering</span>
             </td>
             <td>
-                fixes issue #https://app.zenhub.com/workspaces/team-revenant-5e6accf93892a67e1d7a7f34/issues/gh/hyperledger/besu/5061
+                fixes issue #5061
 
 Signed-off-by: Stefan <stefan.pingel@consensys.net>
 
@@ -318,7 +318,7 @@ Signed-off-by: Stefan <stefan.pingel@consensys.net>
             </td>
             <td>
                 <b>
-                    [WIP] Add flag to distinguish when bad block is a proposed block
+                    Differentiate proposed bad blocks from imported bad block
                 </b>
             </td>
         </tr>
@@ -333,7 +333,10 @@ Signed-off-by: Stefan <stefan.pingel@consensys.net>
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-This draft PR pipes a flag down to the importFailure to distinguish between badBlocks imported vs badBlocks proposed. Plus stop adding proposed bad blocks to the badBlockManager.
+This PR uses a new parameter to distinguish between bad imported blocks vs bad proposed blocks. 
+Main objective is stop adding proposed bad blocks to the badBlockManager.
+
+Tested on local devnet beku + txfuzzer
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -342,12 +345,12 @@ Fixes #5058
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Acceptance Tests (Non Mainnet)
 
-- [ ] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
+- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
 
 ## Changelog
 
@@ -685,153 +688,6 @@ Docker manifest build was only considering snapshots to skip the major number ta
     </table>
     <div class="right-align">
         Created At 2023-02-08 06:25:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5067" class=".btn">#5067</a>
-            </td>
-            <td>
-                <b>
-                    Prepare for version 23.1.1-SNAPSHOT
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Prepare for version 23.1.1-SNAPSHOT
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-08 05:25:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5066" class=".btn">#5066</a>
-            </td>
-            <td>
-                <b>
-                    Invalid params - add some error detail
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Currently the "invalid params" response can hide a lot of detail.
-This PR adds some extra detail into the stack trace and logs it at DEBUG level.
-See #4212 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Acceptance Tests (Non Mainnet)
-
-- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-08 05:15:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5065" class=".btn">#5065</a>
-            </td>
-            <td>
-                <b>
-                    Release 23.1.0-RC2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Release 23.1.0-RC2
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-08 04:54:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5063" class=".btn">#5063</a>
-            </td>
-            <td>
-                <b>
-                    Revert "Replace getByBlockNumber by getByBlockHeader (#5020)"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span><span class="chip">mainnet</span><span class="chip">EIP</span>
-            </td>
-            <td>
-                This reverts commit 9ceebc4a57f648ed412ed6dcbc12a42699fffe54.
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Revert commit #5020 getByBlockNumber by getByBlockHeader as this is breaking syncing on Goerli.
-
-Goerli is failing to sync with error after this commit
-`{"@timestamp":"2023-02-07T21:49:39,513","level":"INFO","thread":"EthScheduler-Workers-0","class":"CoinbaseHeaderValidationRule","message":"Invalid block header: No clique in/out voting may occur on epoch blocks (7470000)","throwable":""}
-{"@timestamp":"2023-02-07T21:49:44,311","level":"WARN","thread":"EthScheduler-Services-800 (downloadHeaders)","class":"PipelineChainDownloader","message":"Invalid block detected (BREACH_OF_PROTOCOL). Disconnecting from sync target. Header failed validation.: Invalid block at #7470000 (0xaaea1696007267a518ee5c6550742f58c81333e71cdee6c38dc2403b628816e1)","throwable":""}`
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Part of https://github.com/hyperledger/besu/issues/4789
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Acceptance Tests (Non Mainnet)
-
-- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-08 02:00:12 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4027" class=".btn">#4027</a>
+            </td>
+            <td>
+                <b>
+                    Bump dependencies (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR contains 4 commits that can be reviewed individually:
+
+Bump golang.org/x/net/http2 to v0.5.0 (release-2.2)
+Bump golang.org/x/text/language to v0.7.0 (release-2.2)
+Bump github.com/opencontainers/image-spec to v1.0.2 (release-2.2)
+Update go.mod version to 1.18 (release-2.2)
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-15 04:18:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4026" class=".btn">#4026</a>
             </td>
             <td>

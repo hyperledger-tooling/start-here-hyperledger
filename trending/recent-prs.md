@@ -1,13 +1,13 @@
 
-[2123](https://github.com/hyperledger/aries-cloudagent-python/pull/2123) Fix ACA-py image builds
+[4027](https://github.com/hyperledger/fabric/pull/4027) Bump dependencies (release-2.2)
 
-[3525](https://github.com/hyperledger/aries-framework-go/pull/3525) chore(deps): bump github.com/gogo/protobuf from 1.3.1 to 1.3.2 in /test/bdd
+[158](https://github.com/hyperledger-labs/orion-sdk-go/pull/158) Bump github.com/prometheus/client_golang from 1.7.1 to 1.11.1
 
-[2122](https://github.com/hyperledger/aries-cloudagent-python/pull/2122) Update some of the demo Readme and Endorser instructions
+[768](https://github.com/hyperledger/aries-rfcs/pull/768) Proposed LegacyPeer DID Method
 
-[456](https://github.com/hyperledger-labs/fabric-smart-client/pull/456) Bump github.com/ipld/go-ipld-prime from 0.9.0 to 0.19.0
+[115](https://github.com/hyperledger-labs/fabex/pull/115) Bump github.com/prometheus/client_golang from 1.3.0 to 1.11.1
 
-[455](https://github.com/hyperledger-labs/fabric-token-sdk/pull/455) Bump github.com/ipld/go-ipld-prime from 0.9.0 to 0.19.0
+[255](https://github.com/hyperledger/fabric-sdk-go/pull/255) Bump github.com/prometheus/client_golang from 1.3.0 to 1.11.1
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

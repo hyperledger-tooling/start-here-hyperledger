@@ -715,6 +715,7 @@ The issue I've been facing is how to make data model structs transparent for `ir
 * `transparent_api` should only be activated by the inner libraries of Iroha
 * I opted for a function like macro because I want to incorporate FFI API expansion into this macro
 * rename `warp` feature flag to `http`
+* FFI feature is orthogonal to this and added with `ffi_type`
 
 ### Issue
 
