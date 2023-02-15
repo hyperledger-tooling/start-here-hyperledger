@@ -15,6 +15,41 @@ permalink: /releases/hyperledger/indy-vdr
         <tr>
             <td colspan="2">
                 <b>
+                    v0.4.0-dev.7
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.4.0-dev.7
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* chore: fix path by @karimStekelenburg in https://github.com/hyperledger/indy-vdr/pull/156
+* chore: update version by @blu3beri in https://github.com/hyperledger/indy-vdr/pull/157
+
+## New Contributors
+* @karimStekelenburg made their first contribution in https://github.com/hyperledger/indy-vdr/pull/156
+
+**Full Changelog**: https://github.com/hyperledger/indy-vdr/compare/v0.4.0-dev.6...v0.4.0-dev.7
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/indy-vdr/releases/tag/v0.4.0-dev.7" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-02-15 15:27:50 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v0.4.0-dev.6
                 </b>
             </td>
