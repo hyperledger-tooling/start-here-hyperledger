@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1306" class=".btn">#1306</a>
+            </td>
+            <td>
+                <b>
+                    feat!: add data, cache and temp dirs to FileSystem
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Files created by the framework have different nature, and in this PR we introduce three categories:
+
+- **data**: intended to be persistent and included in OS backups. For instance, wallet contents (used by default for Askar-based wallets)
+- **cache**: files intended to be persistent, but that can be regenerated or re-downloaded. An example of this are the tails files for AnonCreds
+- **temp**: temporary files that can be safely deleted by the OS after usage. For instance, the genesis file created from genesisTransactions or wallet backup generated during migration
+
+Another change from current behaviour is that all files created by the framework are contained within `basePath/.afj` directory. This is somewhat similar to indy-sdk, which creates a `homedir/.indy_client`. 
+
+Some remaining questions:
+
+- Will it be necessary to write migration scripts to move files (if existant) to new directories? Probably not, considering that until now all files created by AFJ are either temporary or cache
+- Is it OK to use user home directory and Document directory as a base for data in (node and react-native respectively)? This selection and categorization is based on [iOS storage guidelines](https://developer.apple.com/documentation/foundation/optimizing_your_app_s_data_for_icloud_backup/)  
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-16 02:50:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1303" class=".btn">#1303</a>
             </td>
             <td>

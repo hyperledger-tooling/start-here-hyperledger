@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/935" class=".btn">#935</a>
+            </td>
+            <td>
+                <b>
+                    Fix npm problems on asset-transfer-basic/chaincode-typescript
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This patch fixes npm problems on asset-transfer-basic/chaincode-typescript.
+- Sync npm-shrinkwrap.json with package.json to fix the npm ci error
+- Update the version of TypeScript to avoid the type error on logform
+
+This patch resolves #934 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-16 06:14:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/933" class=".btn">#933</a>
             </td>
             <td>

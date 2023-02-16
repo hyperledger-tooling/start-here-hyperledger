@@ -1,13 +1,13 @@
 
-[400](https://github.com/hyperledger-labs/private-data-objects/pull/400) Separate Sawtooth and CCF tests, speed up CI and reduce (unnecessary) logs
+[935](https://github.com/hyperledger/fabric-samples/pull/935) Fix npm problems on asset-transfer-basic/chaincode-typescript
 
-[302](https://github.com/hyperledger/aries-toolbox/pull/302) fix:did:sov_urls_changed_out_for_github_urls
+[5101](https://github.com/hyperledger/besu/pull/5101) In forkchoiceUpdated, log VALID instead of INVALID when ignoring update for old head
 
-[5096](https://github.com/hyperledger/besu/pull/5096) updates to latest version of kzg wrapper
+[5100](https://github.com/hyperledger/besu/pull/5100) Fix block value calculation
 
-[1181](https://github.com/hyperledger/solang/pull/1181) Split `method_call_pos_args` function
+[2292](https://github.com/hyperledger/cacti/pull/2292) Bump werkzeug from 2.0.1 to 2.2.3 in /packages-python/cactus_validator_socketio_indy
 
-[367](https://github.com/hyperledger-labs/fabric-operations-console/pull/367) hide fabric verions that break chaincode in peer
+[2291](https://github.com/hyperledger/cacti/pull/2291) Bump werkzeug from 2.0.1 to 2.2.3 in /packages-python/cactus_validator_socketio_indy/validator-python
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
