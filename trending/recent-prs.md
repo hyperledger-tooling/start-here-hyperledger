@@ -1,13 +1,13 @@
 
-[935](https://github.com/hyperledger/fabric-samples/pull/935) Fix npm problems on asset-transfer-basic/chaincode-typescript
+[1182](https://github.com/hyperledger/solang/pull/1182) docker buildx requires --provenance=false for now
 
-[5101](https://github.com/hyperledger/besu/pull/5101) In forkchoiceUpdated, log VALID instead of INVALID when ignoring update for old head
+[3159](https://github.com/hyperledger/iroha/pull/3159) [ci] #2577, #2606: Make CI independent from 7272721/i2-ci & Push i2-d…
 
-[5100](https://github.com/hyperledger/besu/pull/5100) Fix block value calculation
+[379](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/379) Bug Fix in Interop Node SDK
 
-[2292](https://github.com/hyperledger/cacti/pull/2292) Bump werkzeug from 2.0.1 to 2.2.3 in /packages-python/cactus_validator_socketio_indy
+[499](https://github.com/hyperledger-labs/orion-server/pull/499) sync write to block store
 
-[2291](https://github.com/hyperledger/cacti/pull/2291) Bump werkzeug from 2.0.1 to 2.2.3 in /packages-python/cactus_validator_socketio_indy/validator-python
+[2293](https://github.com/hyperledger/cacti/pull/2293) feat(quorum): private transaction support
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

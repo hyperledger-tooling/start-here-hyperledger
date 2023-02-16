@@ -92,29 +92,3 @@ Signed-off-by: Rinish Sam <36656347+CaptainIRS@users.noreply.github.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/385" class=".btn">#385</a>
-            </td>
-            <td>
-                <b>
-                    Add scheduled builds
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Refactor build workflows to allow reuse through workflow calls, and to make it easier to define different behaviour for different triggers.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-09 11:51:01 +0000 UTC
-    </div>
-</div>
-

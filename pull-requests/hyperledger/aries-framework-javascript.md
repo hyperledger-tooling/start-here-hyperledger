@@ -546,31 +546,3 @@ This is based on the DIF Presentation exchange branch from @NB-MikeRichardson, b
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1276" class=".btn">#1276</a>
-            </td>
-            <td>
-                <b>
-                    fix: add concurrency config for processing message concurrently
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                `concatMap` pipe processes messages synchronously, this PR adds the `concurrency` config and replaces `concatMap` with `mergeMap` to allow messages to be processed concurrently. Now that multi-tenant is supported, it will be helpful to process multiple messages at a time.
-
-Signed-off-by: Pritam Singh <pkspritam16@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-09 07:35:51 +0000 UTC
-    </div>
-</div>
-
