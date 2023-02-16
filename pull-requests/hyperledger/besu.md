@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5096" class=".btn">#5096</a>
+            </td>
+            <td>
+                <b>
+                    updates to latest version of kzg wrapper
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Sadly this does not get us any finer grained error reasons, and that seems intentional.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-15 21:58:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5095" class=".btn">#5095</a>
             </td>
             <td>

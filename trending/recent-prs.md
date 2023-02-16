@@ -1,13 +1,13 @@
 
+[400](https://github.com/hyperledger-labs/private-data-objects/pull/400) Separate Sawtooth and CCF tests, speed up CI and reduce (unnecessary) logs
+
+[302](https://github.com/hyperledger/aries-toolbox/pull/302) fix:did:sov_urls_changed_out_for_github_urls
+
+[5096](https://github.com/hyperledger/besu/pull/5096) updates to latest version of kzg wrapper
+
+[1181](https://github.com/hyperledger/solang/pull/1181) Split `method_call_pos_args` function
+
 [367](https://github.com/hyperledger-labs/fabric-operations-console/pull/367) hide fabric verions that break chaincode in peer
-
-[5095](https://github.com/hyperledger/besu/pull/5095) Only use MAINNET version of KZG
-
-[366](https://github.com/hyperledger-labs/fabric-operations-console/pull/366) Migration part2
-
-[3156](https://github.com/hyperledger/iroha/pull/3156) [fix] #3155: Fix panic-hook for tests
-
-[2150](https://github.com/hyperledger/bevel/pull/2150) [besu]cert-manager setup for besu
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1181" class=".btn">#1181</a>
+            </td>
+            <td>
+                <b>
+                    Split `method_call_pos_args` function
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR splits the function `method_call_pos_args` into multiple small functions for better readability and maintenance. I had this idea when thinking about the new API we are going to implement for mappings on Solidity.
+
+
+I am open to other ideas on how to manage the multiple functions, if you don't like the approach I have taken.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-15 20:47:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1179" class=".btn">#1179</a>
             </td>
             <td>
@@ -286,34 +315,6 @@ More information about partial redundancy elimination can be found in the Chapte
     </table>
     <div class="right-align">
         Created At 2023-02-09 09:41:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1165" class=".btn">#1165</a>
-            </td>
-            <td>
-                <b>
-                    LLVM 15
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adapts emit to opaque pointers and removes all the pointer casts, which are not necessary anymore. These changes are essential for us to migrate to LLVM 15.
-
-LLVM builds have been tested [here](https://github.com/LucasSte/solang/actions/runs/4128649851/jobs/7133349350).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-08 22:04:19 +0000 UTC
     </div>
 </div>
 
