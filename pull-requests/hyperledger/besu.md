@@ -14,6 +14,81 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5101" class=".btn">#5101</a>
+            </td>
+            <td>
+                <b>
+                    In forkchoiceUpdated, log VALID instead of INVALID when ignoring update for old head
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-16 06:11:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5100" class=".btn">#5100</a>
+            </td>
+            <td>
+                <b>
+                    Fix block value calculation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This PR fix the block value calculation mechanism by using gasUsed instead of the cumulativeGas to calculate the block value.
+
+This change has been tested against the hive test(GetPayloadV2 Block Value) for this feature.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+Fixes #5040
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Acceptance Tests (Non Mainnet)
+
+- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-16 05:03:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5096" class=".btn">#5096</a>
             </td>
             <td>
@@ -638,34 +713,6 @@ This fixed was not fixing yet the problem because we had another problem. During
     </table>
     <div class="right-align">
         Created At 2023-02-09 11:59:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5073" class=".btn">#5073</a>
-            </td>
-            <td>
-                <b>
-                    Revert "Keep Worldstate Storage open for Bonsai archive latest layer (#5039)"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This reverts commit e7150102ea208165ac29bd10986fe26bc9e176d0.
-
-This is causing "Unable to copy Layered Worldstate" errors affecting canary nodes, devnets and the 23.1.0 burn-in
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-09 03:15:39 +0000 UTC
     </div>
 </div>
 
