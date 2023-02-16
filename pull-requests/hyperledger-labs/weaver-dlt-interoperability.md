@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/378" class=".btn">#378</a>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/379" class=".btn">#379</a>
             </td>
             <td>
                 <b>
-                    fix: rename master to main; whitelist to allowlist
+                    Bug Fix in Interop Node SDK
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                Signed-off-by: Sandeep Nishad <sandeepn.official@gmail.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-08 17:16:56 +0000 UTC
+        Created At 2023-02-16 10:17:16 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2293" class=".btn">#2293</a>
+            </td>
+            <td>
+                <b>
+                    feat(quorum): private transaction support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #951
+
+
+
+Co-authored-by: Travis Payne <travis.payne@accenture.com>
+Co-authored-by: johnhomantaring <john.h.o.mantaring@accenture.com>
+Co-authored-by: jagpreetsinghsasan <jagpreet.singh.sasan@accenture.com>
+Co-authored-by: aldousalvarez aldousss.alvarez@gmail.com
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-16 07:49:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2292" class=".btn">#2292</a>
             </td>
             <td>
