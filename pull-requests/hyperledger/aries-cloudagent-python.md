@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2125" class=".btn">#2125</a>
+            </td>
+            <td>
+                <b>
+                    Temporarily disable multi-architecture image builds
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Temporarily disable multi-architecture image builds until the required dependencies publish compatible packages.
+- Details here; https://github.com/hyperledger/aries-cloudagent-python/issues/2124
+
+- Add support for defining the image platforms when running the image publishing workflows manually.
+- Add support for building off a git ref when running the image publishing workflows manually.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-16 16:32:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2123" class=".btn">#2123</a>
             </td>
             <td>

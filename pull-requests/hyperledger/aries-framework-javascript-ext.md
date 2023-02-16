@@ -14,36 +14,25 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/188" class=".btn">#188</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/193" class=".btn">#193</a>
             </td>
             <td>
                 <b>
-                    chore: release @aries-framework/react-hooks 0.4.1
+                    Optionally use the q/a context provider
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">autorelease: tagged</span><span class="chip">ci-test</span>
+                
             </td>
             <td>
-                :robot: I have created a release \*beep\* \*boop\*
----
-### [0.4.1](https://www.github.com/hyperledger/aries-framework-javascript-ext/compare/react-hooks-v0.4.0...react-hooks-v0.4.1) (2023-01-27)
-
-
-### Features
-
-* **react-hooks:** filter mediator connections ([#173](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/173)) ([05fdc4b](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/05fdc4bae546af8ef48fdeb026a035efc5535439))
----
-
-
-This PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).
+                This PR expands on the work from Sabrina here : https://github.com/hyperledger/aries-framework-javascript-ext/pull/175 to leverage the AFJ dependency manager and check if the optional question and answer module is registered prior to using the context provider and react hooks. Have not yet tested it in an agent not importing the question-answer module, but I'm hoping that since the component isn't rendered it doesn't even try do the imports / cause an error
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-27 09:35:46 +0000 UTC
+        Created At 2023-02-14 14:03:58 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-sdk-react-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-sdk-react-native/pull/66" class=".btn">#66</a>
+                PR <a href="https://github.com/hyperledger/indy-sdk-react-native/pull/68" class=".btn">#68</a>
             </td>
             <td>
                 <b>
-                    docs: Add link to Android aar and update installation instructions
+                    feat: add buildGetTxnRequest
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/indy-sdk-react-native
                 
             </td>
             <td>
-                I uploaded the Android `.aar` file to the Release 0.2.2, similarly we did with iOS dependency. Although the library still must be downloaded manually, it significantly simplifies the installation for Android. 
+                Tested on both iOS & Android
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-29 20:17:16 +0000 UTC
+        Created At 2023-02-15 21:05:16 +0000 UTC
     </div>
 </div>
 

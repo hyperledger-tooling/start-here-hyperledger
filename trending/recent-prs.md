@@ -1,13 +1,13 @@
 
-[1182](https://github.com/hyperledger/solang/pull/1182) docker buildx requires --provenance=false for now
+[371](https://github.com/hyperledger-labs/fabric-operations-console/pull/371) fix wording for openshift
 
-[3159](https://github.com/hyperledger/iroha/pull/3159) [ci] #2577, #2606: Make CI independent from 7272721/i2-ci & Push i2-d…
+[633](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/633) fix: import syntax and linting
 
-[379](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/379) Bug Fix in Interop Node SDK
+[2125](https://github.com/hyperledger/aries-cloudagent-python/pull/2125) Temporarily disable multi-architecture image builds
 
-[499](https://github.com/hyperledger-labs/orion-server/pull/499) sync write to block store
+[769](https://github.com/hyperledger/aries-rfcs/pull/769) fix: update versions in indexgenerate
 
-[2293](https://github.com/hyperledger/cacti/pull/2293) feat(quorum): private transaction support
+[4032](https://github.com/hyperledger/fabric/pull/4032) Refactor of Gateway code
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

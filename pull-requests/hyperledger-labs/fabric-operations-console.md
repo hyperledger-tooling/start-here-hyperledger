@@ -14,6 +14,80 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/371" class=".btn">#371</a>
+            </td>
+            <td>
+                <b>
+                    fix wording for openshift
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fix error state in migration panel
+
+fix react warnings
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Content fix
+
+#### Description
+Improved wording on the migration panel when using openshift.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-16 18:09:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/370" class=".btn">#370</a>
+            </td>
+            <td>
+                <b>
+                    fix iam token crash and migration version panel
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+Fixes console crash when retrieving a valid iam token & tweaks the version error panel css.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-16 15:03:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/369" class=".btn">#369</a>
             </td>
             <td>
