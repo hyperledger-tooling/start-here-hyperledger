@@ -15,32 +15,33 @@ permalink: /releases/hyperledger/indy-sdk-react-native
         <tr>
             <td colspan="2">
                 <b>
-                    Release 0.3.0
+                    Release 0.3.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.3.0
+                    0.3.1
                 </span>
             </td>
             <td>
-                * chore: switch iOS steps, add pod update for existing projects (#59) (a7c01c9)
-* feat!: update iOS installation to hyperledger (#56) (73d770f)
-* build: rename android package (#58) (d3376a2)
-* chore(deps): bump parse-url from 6.0.0 to 6.0.2 (#51) (a2d1ad0)
-* chore(deps): bump simple-plist from 1.1.0 to 1.3.1 (#46) (6ac8933)
-* chore(deps): bump ansi-regex from 3.0.0 to 3.0.1 (#42) (0824188)
-* feat: improve ios installation (#54) (e78d548)
+                * chore(deps): bump json5 from 2.1.1 to 2.2.3 (#64) (cfe42d8)
+* chore(deps): bump ua-parser-js from 0.7.28 to 0.7.33 (#65) (fcf0ae7)
+* chore(deps): bump http-cache-semantics from 4.1.0 to 4.1.1 (#67) (8cbc7d9)
+* feat: add buildGetTxnRequest (#68) (91c5dc9)
+* bump minimatch from 3.0.4 to 3.1.2 (#61) (4205b29)
+* chore(deps): bump decode-uri-component from 0.2.0 to 0.2.2 (#62) (88a7e62)
+* docs: Add link to Android aar and update installation instructions (#66) (67bf8e1)
+* docs(ios): add missing default source (#63) (7935a9a)
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/indy-sdk-react-native/releases/tag/0.3.0" class=".btn">
+    <a href="https://github.com/hyperledger/indy-sdk-react-native/releases/tag/0.3.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-10-20 06:13:25 +0000 UTC
+        Created At 2023-02-15 21:18:24 +0000 UTC
     </span>
 </div>
 
