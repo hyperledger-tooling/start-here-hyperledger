@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/42" class=".btn">#42</a>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/45" class=".btn">#45</a>
             </td>
             <td>
                 <b>
-                    Add custom error support for FFI
+                    Support GetInteger from JSONObject when value in map is integer
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/firefly-common
                 
             </td>
             <td>
-                Add support for specifying custom error definitions in FFI as described in https://github.com/hyperledger/firefly-evmconnect/pull/42
+                While the normal JSON parsing in Go doesn't result in a `map[string]interface{}` that has any other number types in it than `float64`, the parsing of YAML in `viper` does.
+
+So in the case you do a `config.GetObject()` call, and the YAML value in there is set as a number, you might get `0` back from a `GetNumber()` on it - even if the value is set.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-01 20:38:01 +0000 UTC
+        Created At 2023-02-12 22:18:38 +0000 UTC
     </div>
 </div>
 

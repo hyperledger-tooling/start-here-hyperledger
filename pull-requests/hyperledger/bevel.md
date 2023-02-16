@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2152" class=".btn">#2152</a>
+            </td>
+            <td>
+                <b>
+                    [fabric] Fix vault-auth when restart
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Changelog**
+- remove reviewer token in Vault_Kubernetes chart
+- Add vault-auth as system:auth-delegator
+- Add checks for certificate creation so that job checks are not carried again (jobs vanish when cluster restarts)
+- Remove unnecessary fields from network.yaml samples for raft consensus
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-16 12:50:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2150" class=".btn">#2150</a>
             </td>
             <td>

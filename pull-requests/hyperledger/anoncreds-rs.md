@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/96" class=".btn">#96</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/114" class=".btn">#114</a>
             </td>
             <td>
                 <b>
-                    build: use dynamic libraries for iOS
+                    fix(js): remove credentialDefinitionId
                 </b>
             </td>
         </tr>
@@ -33,7 +33,7 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-02 11:56:40 +0000 UTC
+        Created At 2023-02-16 08:57:22 +0000 UTC
     </div>
 </div>
 
@@ -41,113 +41,11 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/95" class=".btn">#95</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/113" class=".btn">#113</a>
             </td>
             <td>
                 <b>
-                    build: build xc frameworks with dylibs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Build the xcframework with dynamic instead of static libraries
-- used in the CI now
-
-### Notes
-
-- Dynamic libraries and frameworks pushing to the App Store can fail if it is not setup correctly I think.
-  - Since I am not an iOS developer I "botched" together some of the resources about constructing a `.framework` online, but we have to push an app to the app store to see whether it is done properly. if anyone knows anyone with experience like this, help would be awesome!
-- This is by no means a perfect shell script. It can be refactored later, but it does the job for now.
-
-Signed-off-by: blu3beri <blu3beri@proton.me>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-02 11:27:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/94" class=".btn">#94</a>
-            </td>
-            <td>
-                <b>
-                    build(deps): bump http-cache-semantics from 4.1.0 to 4.1.1 in /wrappers/javascript
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span>
-            </td>
-            <td>
-                Bumps [http-cache-semantics](https://github.com/kornelski/http-cache-semantics) from 4.1.0 to 4.1.1.
-<details>
-<summary>Commits</summary>
-<ul>
-<li>See full diff in <a href="https://github.com/kornelski/http-cache-semantics/commits">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=http-cache-semantics&package-manager=npm_and_yarn&previous-version=4.1.0&new-version=4.1.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
-- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
-- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
-- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
-
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/anoncreds-rs/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-02 09:56:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/93" class=".btn">#93</a>
-            </td>
-            <td>
-                <b>
-                    build: updated version in the test
+                    chore: update version
                 </b>
             </td>
         </tr>
@@ -162,7 +60,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-01 19:02:27 +0000 UTC
+        Created At 2023-02-15 20:32:36 +0000 UTC
     </div>
 </div>
 
@@ -170,11 +68,11 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/92" class=".btn">#92</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/112" class=".btn">#112</a>
             </td>
             <td>
                 <b>
-                    chore: update versions
+                    fix(js): fixed minor typos
                 </b>
             </td>
         </tr>
@@ -189,7 +87,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-01 15:55:39 +0000 UTC
+        Created At 2023-02-15 20:18:12 +0000 UTC
     </div>
 </div>
 
@@ -197,11 +95,11 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/91" class=".btn">#91</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/111" class=".btn">#111</a>
             </td>
             <td>
                 <b>
-                    fix react native
+                    chore: update version
                 </b>
             </td>
         </tr>
@@ -210,12 +108,13 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 
             </td>
             <td>
-                Native side of the wrapper should be good but for some reason the native module does not register. I will see if I can fix this somehow, but it might be that it works when its installed via NPM.
+                Signed-off-by: blu3beri <blu3beri@proton.me>
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-01 12:26:47 +0000 UTC
+        Created At 2023-02-15 13:41:16 +0000 UTC
     </div>
 </div>
 
@@ -223,11 +122,11 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/89" class=".btn">#89</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/110" class=".btn">#110</a>
             </td>
             <td>
                 <b>
-                    fix(js): proverDid optional in Credential Request
+                    chore: make build-xcframework executable
                 </b>
             </td>
         </tr>
@@ -236,14 +135,13 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 
             </td>
             <td>
-                Since #57, prover_did in Credential Request is optional and some parts of the wrappers have been updated accordingly. But there were some missing changes in interfaces for both Node.JS and React Native wrappers that are updated here.
+                Signed-off-by: Karim Stekelenburg <karim@animo.id>
 
-Signed-off-by: Ariel Gentile <gentilester@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-30 23:13:24 +0000 UTC
+        Created At 2023-02-15 13:03:46 +0000 UTC
     </div>
 </div>
 
@@ -251,11 +149,11 @@ Signed-off-by: Ariel Gentile <gentilester@gmail.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/87" class=".btn">#87</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/109" class=".btn">#109</a>
             </td>
             <td>
                 <b>
-                    fix(js): missing export and return type
+                    chore: update version
                 </b>
             </td>
         </tr>
@@ -264,16 +162,120 @@ Signed-off-by: Ariel Gentile <gentilester@gmail.com>
                 
             </td>
             <td>
-                Some minor fixes in JavaScript wrapper:
+                Signed-off-by: blu3beri <blu3beri@proton.me>
 
-- Remove the need of passing a `Presentation` instance in `verify`, as it is an instance method and can get the handle by itself
-- Expose `RevocationStatusList`
-- Fix `RevocationRegistryDefinition.load` method
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-28 23:46:22 +0000 UTC
+        Created At 2023-02-13 08:47:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/108" class=".btn">#108</a>
+            </td>
+            <td>
+                <b>
+                    build: get the version from the metadata
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: blu3beri <blu3beri@proton.me>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-11 21:06:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/107" class=".btn">#107</a>
+            </td>
+            <td>
+                <b>
+                    fix(js): allow multiple turbo modules to be registered
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: blu3beri <blu3beri@proton.me>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-11 20:53:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/106" class=".btn">#106</a>
+            </td>
+            <td>
+                <b>
+                    fix(js): fixed some typos for RN
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: blu3beri <blu3beri@proton.me>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-10 22:34:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/104" class=".btn">#104</a>
+            </td>
+            <td>
+                <b>
+                    chore: update version to 0.1.0-dev.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-10 11:20:27 +0000 UTC
     </div>
 </div>
 

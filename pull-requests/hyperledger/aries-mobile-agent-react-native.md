@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/611" class=".btn">#611</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/633" class=".btn">#633</a>
             </td>
             <td>
                 <b>
-                    fix: missing first credential
+                    fix: import syntax and linting
                 </b>
             </td>
         </tr>
@@ -29,124 +29,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
             <td>
                 # Summary of Changes
 
-Addresses the issue of a delayed first credential by triggering mediator message pickup when a conneciton enters the "completed" state.
-
-# Related Issues
-
-Please reference here any issue #'s that are relevant to this PR, or simply enter "N/A" if this PR does not relate to any existing issues.
-
-# Pull Request Checklist
-
-Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
-
-- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
-- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
-- [x] Updated documentation as needed for changed code and new or modified features;
-- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
-
-If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
-
-Pro Tip 🤓
-
-- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
-- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
-
-_PR template adapted from the Python attrs project._
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-02 23:20:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/610" class=".btn">#610</a>
-            </td>
-            <td>
-                <b>
-                    fix: limit random color generation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Summary of Changes
-
-Limit the random colors generated for credential cards and avatar outlines so that they are not too bright / fluorescent
-
-Here is a sampling of what the new colors look like:
-![creds_new_color_randomizer](https://user-images.githubusercontent.com/32586431/216464975-bba9a84d-90f8-458e-ad80-26498e0fbee7.PNG)
-
-Here are more samplings (with the hash manually incremented to see more options):
-![creds_incremented_1](https://user-images.githubusercontent.com/32586431/216465470-7ecc0b25-2a32-4ad5-9faa-5019bea81812.PNG)
-![creds_incremented_2](https://user-images.githubusercontent.com/32586431/216465474-265ef0a2-18c7-4db8-86c6-8c1836bf8b3a.PNG)
-![creds_incremented_3](https://user-images.githubusercontent.com/32586431/216465475-e7759dcf-c12f-49c1-acb6-a0326e2e8a4e.PNG)
-
+N/A
 
 # Related Issues
 
 N/A
-
-# Pull Request Checklist
-
-Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
-
-- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
-- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
-- [x] Updated documentation as needed for changed code and new or modified features;
-- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
-
-If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
-
-Pro Tip 🤓
-
-- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
-- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
-
-_PR template adapted from the Python attrs project._
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-02 22:37:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/609" class=".btn">#609</a>
-            </td>
-            <td>
-                <b>
-                    fix: multi credential proof request
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span>
-            </td>
-            <td>
-                Signed-off-by: Akiff Manji <amanji@petridish.dev>
-
-# Summary of Changes
-
-Fixes issue with not retrieving display attributes for multi-credential proof request details. Updates processor helpers to look for both `name` and `names` from `IndyProofFormat.requested_attributes`.
-
-# Related Issues
-
-#588 
 
 # Pull Request Checklist
 
@@ -170,7 +57,7 @@ _PR template adapted from the Python attrs project._
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-01 18:14:31 +0000 UTC
+        Created At 2023-02-16 17:39:09 +0000 UTC
     </div>
 </div>
 
@@ -178,11 +65,113 @@ _PR template adapted from the Python attrs project._
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/607" class=".btn">#607</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/632" class=".btn">#632</a>
             </td>
             <td>
                 <b>
-                    fix: Added unmount on blur to tabstack
+                    fix: date formatter in credential card 1.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+Fixes linter error from previous PR 
+
+# Related Issues
+
+N/A
+
+# Pull Request Checklist
+
+Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
+
+- [ ] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [ ] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [ ] Updated documentation as needed for changed code and new or modified features;
+- [ ] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+Pro Tip 🤓
+
+- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-15 22:51:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/631" class=".btn">#631</a>
+            </td>
+            <td>
+                <b>
+                    fix: added BIOMETRY_UPDATE to event types
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+Added BIOMETRY_UPDATE to event types in constants file
+
+# Related Issues
+
+N/A
+
+# Pull Request Checklist
+
+Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
+
+- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [x] Updated documentation as needed for changed code and new or modified features;
+- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+Pro Tip 🤓
+
+- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-14 22:27:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/629" class=".btn">#629</a>
+            </td>
+            <td>
+                <b>
+                    feat: separated events from react state
                 </b>
             </td>
         </tr>
@@ -195,13 +184,11 @@ _PR template adapted from the Python attrs project._
 
 # Summary of Changes
 
-Previously when in the credential details screen, navigating away  and then back to the credential list screen using the tab stack at the bottom of the page would navigate the user to the credential details screen instead of the credentials list screen. The same was also true for the home screen and notifications list screen.
-
-The home screen and credential list screen buttons should always take a user to the home and credential list screens. 
+Moved events from react state to DeviceEventEmitter. Allows us to subscribe to and emit events across the app
 
 # Related Issues
 
-N/A
+Resolves #630 
 
 # Pull Request Checklist
 
@@ -225,7 +212,7 @@ _PR template adapted from the Python attrs project._
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-31 01:33:38 +0000 UTC
+        Created At 2023-02-13 22:54:59 +0000 UTC
     </div>
 </div>
 
@@ -233,11 +220,11 @@ _PR template adapted from the Python attrs project._
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/606" class=".btn">#606</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/626" class=".btn">#626</a>
             </td>
             <td>
                 <b>
-                    fix: add a11y label to biometry toggle
+                    fix: enable dismissing keyboard by pressing outside of it
                 </b>
             </td>
         </tr>
@@ -248,10 +235,16 @@ _PR template adapted from the Python attrs project._
             <td>
                 # Summary of Changes
 
-Wrapped native biometric toggle `Switch` component, which lacks accessibility props, with a `TouchableWithoutFeedback` and applied a11y props to that. Tested on Android with TalkBack and now reads aloud, "on, toggle biometrics switch" or "off, toggle biometrics switch" when focused.
+Allow dismissing of keyboard by tapping outside of keyboard in empty space (not on buttons or inputs, those function as normal without dismissing the keyboard)
 
-Screenshot of element being focused by TalkBack (green outline applied by TalkBack, isn't styling from the actual app):
-<img width="251" alt="toggle_focused" src="https://user-images.githubusercontent.com/32586431/215632484-33de86d1-5b70-4e34-90bf-73a79c5ea38b.PNG">
+Dismissing the keyboard on iOS with normal zoom and font size:
+![iOS_Dismiss](https://user-images.githubusercontent.com/32586431/218231137-35c8f0c3-1bc8-4de2-8234-716d12d7e29e.gif)
+
+Dismissing the keyboard on iOS with max zoom and max font size:
+![iOS_Zoom_Dismiss](https://user-images.githubusercontent.com/32586431/218231145-50e0ff45-6b80-43d2-baae-805a5c7d309a.gif)
+
+Dismissing the keyboard on Android:
+![Android_Dismiss](https://user-images.githubusercontent.com/32586431/218231155-f53c1059-b6a3-4593-a0c6-d7b9d51876b4.gif)
 
 # Related Issues
 
@@ -279,7 +272,7 @@ _PR template adapted from the Python attrs project._
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-31 01:05:22 +0000 UTC
+        Created At 2023-02-11 01:10:04 +0000 UTC
     </div>
 </div>
 

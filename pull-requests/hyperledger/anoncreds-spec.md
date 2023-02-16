@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/134" class=".btn">#134</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/142" class=".btn">#142</a>
             </td>
             <td>
                 <b>
-                    Dependbot Fix 
+                    Schema version note
                 </b>
             </td>
         </tr>
@@ -27,12 +27,22 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
                 
             </td>
             <td>
-                I believe this can replace the depedabot P.R.
+                Adding a note as discussed in #130 .
+I've only updated `version` of schema. However `version` and `ver` also appear in Create Presentation Request as:
+- `version` is a string set by the [verifier](https://hyperledger.github.io/anoncreds-spec/#term:verifier), the version of the [presentation request](https://hyperledger.github.io/anoncreds-spec/#term:presentation-request) 
+- `ver` is an optional string, specifying the [presentation request](https://hyperledger.github.io/anoncreds-spec/#term:presentation-request) version.
+If omitted, “1.0” is used by default.
+“1.0” to use unqualified identifiers for restrictions
+“2.0” to use fully qualified identifiers for restrictions
+
+Having `version` and `ver` in the same object looks weird. Was this already discussed?
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-10 10:04:55 +0000 UTC
+        Created At 2023-02-15 06:48:36 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +50,11 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/129" class=".btn">#129</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/141" class=".btn">#141</a>
             </td>
             <td>
                 <b>
-                    Update README.md
+                    Correct the ANDs and ORs in presentation request restrictions
                 </b>
             </td>
         </tr>
@@ -53,14 +63,13 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
                 
             </td>
             <td>
-                Fix broken image link
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
 
-Signed-off-by: David Liu <david.yx.liu@oracle.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-05 06:28:02 +0000 UTC
+        Created At 2023-02-13 16:30:36 +0000 UTC
     </div>
 </div>
 

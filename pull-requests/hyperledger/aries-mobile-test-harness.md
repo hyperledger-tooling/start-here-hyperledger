@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/124" class=".btn">#124</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/141" class=".btn">#141</a>
             </td>
             <td>
                 <b>
-                    fix tunnel startup conditions in pipeline
+                    final refactor of get person invite
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
                 
             </td>
             <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-11 15:48:04 +0000 UTC
+        Created At 2023-02-15 20:56:54 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/123" class=".btn">#123</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/140" class=".btn">#140</a>
             </td>
             <td>
                 <b>
-                    fix tunnel startup conditions in pipeline
+                    refactor getting BC Person invite URL
                 </b>
             </td>
         </tr>
@@ -53,12 +53,12 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
                 
             </td>
             <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+                This PR changes the way we get the Invitation URL for the BC person credential tests. This way will be more reliable. It gets the invite URL directly from the issuer in the invite details page, instead of the holders email. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-11 15:04:24 +0000 UTC
+        Created At 2023-02-15 20:50:23 +0000 UTC
     </div>
 </div>
 
@@ -66,11 +66,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/122" class=".btn">#122</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/139" class=".btn">#139</a>
             </td>
             <td>
                 <b>
-                    fix tunnel startup conditions in pipeline
+                    fix Person cred test gmail invite handling
                 </b>
             </td>
         </tr>
@@ -79,12 +79,12 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
                 
             </td>
             <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
+                This PR cleans up the handling of the username and password for the gmail invite handler for the BC person credential tests.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-11 14:12:10 +0000 UTC
+        Created At 2023-02-14 21:23:27 +0000 UTC
     </div>
 </div>
 
@@ -92,11 +92,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/121" class=".btn">#121</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/138" class=".btn">#138</a>
             </td>
             <td>
                 <b>
-                    fix tunnel startup conditions in pipeline
+                    Fixed password passing for BC VC Issuer
                 </b>
             </td>
         </tr>
@@ -110,7 +110,7 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-11 12:36:25 +0000 UTC
+        Created At 2023-02-13 20:26:29 +0000 UTC
     </div>
 </div>
 
@@ -118,37 +118,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/120" class=".btn">#120</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/137" class=".btn">#137</a>
             </td>
             <td>
                 <b>
-                    fix tunnel startup conditions in pipeline
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-11 12:26:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/119" class=".btn">#119</a>
-            </td>
-            <td>
-                <b>
-                    testing if the CANdy BC Wallet tests will work without starting tunnels
+                    update to latest BC VC Flow
                 </b>
             </td>
         </tr>
@@ -159,109 +133,13 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
             <td>
                 Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
 
-This PR is an attempt to see if the CANdy tests (which pass locally) will pass in the GitHub test pipeline if the tunnels are not started. 
+This PR updates the flow for the BC VC Person credential tests. 
+It also fixes manage script problem where the run command was failing because of eval. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-10 19:34:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/118" class=".btn">#118</a>
-            </td>
-            <td>
-                <b>
-                    fix for pervasive connection issue
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-This BC WAllet Test PR changes the Sauce Connect tunnel to allow connections to the Prod Mediator instead of the Test Mediator. Switching to the Test env in the app doesn't switch to the test mediator, it remains on prod. 
-
-There was also a new issue introduced in the previous PR that caused the send credential not to fire because the test code was waiting for the connecting image to disappear. That test code was moved to after the send credential. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-09 20:32:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/116" class=".btn">#116</a>
-            </td>
-            <td>
-                <b>
-                    Fix for getting version element on settings page on iOS < 15
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-This PR works around a problem with the BC wallet where the testID does not show for the version label on the settings page. It now gets the elements by partial text. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-06 20:16:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/114" class=".btn">#114</a>
-            </td>
-            <td>
-                <b>
-                    Develop settings toggle to Test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-This PR includes the following enhancements to BC Wallet tests and AMTH itself.
-
-BC Wallet:
-
-- Test environment Toggle to Test env for all tests
-
-- Streamlined waiting for connecting, initializing, and cred offer
-
-AMTH:
-- The BasePage that every PageObject should inherit from now has a scroll_to_bottom() that may come in handy if you just need to get to the bottom of a page instead of scrolling to an element. 
-
-- There is a new class called WaitCondition which is an ENUM. So instead of using the default `presence_of_element_located` in the find_by method, you can now use `element_to_be_clickable`, visibility_of _element_located`, or `invisibility_of_element_located`, the latter is great for waiting for temporary progress elements like loading, initializing, connecting, to disappear before continuing.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-05 22:10:45 +0000 UTC
+        Created At 2023-02-09 22:35:31 +0000 UTC
     </div>
 </div>
 

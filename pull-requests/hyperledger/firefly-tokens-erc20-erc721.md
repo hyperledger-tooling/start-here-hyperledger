@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/110" class=".btn">#110</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/121" class=".btn">#121</a>
             </td>
             <td>
                 <b>
-                    Bump class-validator from 0.13.2 to 0.14.0
+                    Bump cacheable-request, @nomiclabs/hardhat-waffle, ethereum-waffle and solidity-coverage in /samples/solidity
                 </b>
             </td>
         </tr>
@@ -27,55 +27,108 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [class-validator](https://github.com/typestack/class-validator) from 0.13.2 to 0.14.0.
+                Removes [cacheable-request](https://github.com/jaredwray/cacheable-request). It's no longer used after updating ancestor dependencies [cacheable-request](https://github.com/jaredwray/cacheable-request), [@nomiclabs/hardhat-waffle](https://github.com/NomicFoundation/hardhat-waffle), [ethereum-waffle](https://github.com/EthWorks/Waffle) and [solidity-coverage](https://github.com/sc-forks/solidity-coverage). These dependencies need to be updated together.
+
+Removes `cacheable-request`
+
+Updates `@nomiclabs/hardhat-waffle` from 2.0.3 to 2.0.5
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/NomicFoundation/hardhat-waffle/releases"><code>@​nomiclabs/hardhat-waffle</code>'s releases</a>.</em></p>
+<blockquote>
+<h2><code>@​nomiclabs/hardaht-waffle</code> v2.0.5 released</h2>
+<p>This is the first version of the plugin published in collaboration with the <a href="https://truefi.io/">TrueFi</a> team, the maintainers of Waffle 🚀</p>
+<p>We moved this plugin to its own repository, cleaned it up in the process, and implemented some small improvements.</p>
+<h2>Changes</h2>
+<ul>
+<li>c5b5c29: Introduce skipEstimateGas and injectCallHistory fields to hardhat config</li>
+</ul>
+</blockquote>
+</details>
 <details>
 <summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/typestack/class-validator/blob/develop/CHANGELOG.md">class-validator's changelog</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/NomicFoundation/hardhat-waffle/blob/main/CHANGELOG.md"><code>@​nomiclabs/hardhat-waffle</code>'s changelog</a>.</em></p>
 <blockquote>
-<h3><a href="https://github.com/typestack/class-validator/compare/v0.13.2...v0.14.0">0.14.0</a> (2022-12-09)</h3>
-<h3>Added</h3>
+<h2>2.0.5</h2>
+<h3>Patch Changes</h3>
 <ul>
-<li>add <code>@IsTimeZone</code> decorator to check if given string is valid IANA time zone</li>
-<li>add <code>@IsISO4217CurrencyCode</code> decorator to check if the string is an ISO 4217 currency code</li>
-<li>add <code>@IsStrongPassword</code> decorator to check if given password matches specific complexity criteria</li>
-<li>add <code>@IsBase58</code> decorator to check if a string is base58 encoded</li>
-<li>add <code>@IsTaxId</code> decorator to check if a given string is a valid tax ID in a given locale</li>
-<li>add support for passing function as date generator in <code>@MinDate</code> and <code>@MaxDate</code> decorators</li>
-<li>add option to print constraint error message instead of constraint type in validation error</li>
-<li>improve decorator metadata lookup performance</li>
-<li>return possible values in error message for <code>@IsEnum</code> decorator</li>
+<li>36441d8: Add hardhat chai matchers incompatibility check</li>
+<li>c5b5c29: Introduce skipEstimateGas and injectCallHistory fields to hardhat config</li>
 </ul>
-<h3>Fixed</h3>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
 <ul>
-<li>re-added <code>@types/validator</code> as dependency</li>
-<li>fix error generation when using <code>@NestedValidation</code></li>
-<li>pass validation options correctly to validator in <code>@IsDateString</code> decorator</li>
-<li>support passing <code>Symbol</code> as parameter in error message generation</li>
-<li>specify supported locales for <code>@IsAlphanumeric</code> decorator</li>
-<li>correctly assign decorator name in metadata instead of loosing it</li>
-<li>fix various spelling errors in documentation</li>
-<li>fix various spelling errors and inconsistencies in JSDoc for decorators</li>
+<li>See full diff in <a href="https://github.com/NomicFoundation/hardhat-waffle/commits/v2.0.5">compare view</a></li>
 </ul>
-<h3>Changed</h3>
+</details>
+<br />
+
+Updates `ethereum-waffle` from 3.4.4 to 4.0.9
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/EthWorks/Waffle/releases">ethereum-waffle's releases</a>.</em></p>
+<blockquote>
+<h2><code>@​ethereum-waffle/chai</code><a href="https://github.com/4"><code>@​4</code></a>.0.9</h2>
+<h3>Patch Changes</h3>
 <ul>
-<li>enable <code>forbidUnknownValues</code> option by default</li>
-<li>remove documentation about deprecated schema based validation and added warning</li>
-<li>update warning message logged about missing decorator metadata</li>
-<li>update <code>libphonenumber-js</code> to <code>^1.10.14</code> from <code>^1.9.43</code></li>
-<li>update various dev-dependencies</li>
+<li>216f1d8: Switch hardhat error priority</li>
 </ul>
-<h3>BREAKING CHANGES</h3>
-<p><strong><code>forbidUnknownValues</code> option is enabled by default</strong></p>
-<p>From this release the <code>forbidUnknownValues</code> is enabled by default. This is the desired behavior for majority of
-use-cases, but this change may break validation for some. The two scenarios that results in failed validation:</p>
+<h2>ethereum-waffle@4.0.9</h2>
+<h3>Patch Changes</h3>
 <ul>
-<li>when attempting to validate a class instance without metadata for it</li>
-<li>when using group validation and the specified validation group results in zero validation applied</li>
+<li>Updated dependencies [216f1d8]
+<ul>
+<li><code>@​ethereum-waffle/chai</code><a href="https://github.com/4"><code>@​4</code></a>.0.9</li>
+<li><code>@​ethereum-waffle/compiler</code><a href="https://github.com/4"><code>@​4</code></a>.0.3</li>
+<li><code>@​ethereum-waffle/mock-contract</code><a href="https://github.com/4"><code>@​4</code></a>.0.3</li>
 </ul>
-<p>The old behavior can be restored via specifying <code>forbidUnknownValues: false</code> option when calling the validate functions.</p>
-<p>For more details see [PR <a href="https://github-redirect.dependabot.com/typestack/class-validator/issues/1798">#1798</a>](<a href="https://github-redirect.dependabot.com/typestack/class-validator/pull/1798">typestack/class-validator#1798</a>) and <a href="https://github-redirect.dependabot.com/typestack/class-validator/issues/1422#issuecomment-1317953863">#1422 (comment)</a>.</p>
-<p><strong><code>@NestedValidation</code> decorator correctly assigns validation errors</strong></p>
-<p>Until now the errors from a nested validation in some cases were incorrectly assigned</p>
+</li>
+</ul>
+<h2><code>@​ethereum-waffle/chai</code><a href="https://github.com/4"><code>@​4</code></a>.0.8</h2>
+<h3>Patch Changes</h3>
+<ul>
+<li>f93abe9: Move call history injection logic to hardhat plugin</li>
+<li>9602243: 👔 revertedWith().withArgs no longer fails for uint values exceeding JavaScript's max int limit</li>
+<li>b54c6b9: Add delta to balance changing matchers</li>
+<li>64707ae: Allow special characters in revertedWith regex</li>
+<li>702c6ab: 🗾 Extend matching of Hardhat revert reasons</li>
+<li>a0f721a: Move ethers to peer deps</li>
+<li>f6d240e: 🛶 Updates for hardhat v2.11</li>
+<li>Updated dependencies [ee1d1b8]</li>
+<li>Updated dependencies [a0f721a]
+<ul>
+<li><code>@​ethereum-waffle/provider</code><a href="https://github.com/4"><code>@​4</code></a>.0.5</li>
+</ul>
+</li>
+</ul>
+<h2>ethereum-waffle@4.0.8</h2>
+<h3>Patch Changes</h3>
+<ul>
+<li>f93abe9: Move call history injection logic to hardhat plugin</li>
+<li>a0f721a: Move ethers to peer deps</li>
+<li>Updated dependencies [da92375]</li>
+<li>Updated dependencies [f93abe9]</li>
+<li>Updated dependencies [46b954e]</li>
+<li>Updated dependencies [9602243]</li>
+<li>Updated dependencies [fb6863d]</li>
+<li>Updated dependencies [b54c6b9]</li>
+<li>Updated dependencies [64707ae]</li>
+<li>Updated dependencies [1fa1312]</li>
+<li>Updated dependencies [ee1d1b8]</li>
+<li>Updated dependencies [702c6ab]</li>
+<li>Updated dependencies [a0f721a]</li>
+<li>Updated dependencies [f6d240e]
+<ul>
+<li><code>@​ethereum-waffle/mock-contract</code><a href="https://github.com/4"><code>@​4</code></a>.0.3</li>
+<li><code>@​ethereum-waffle/chai</code><a href="https://github.com/4"><code>@​4</code></a>.0.8</li>
+<li><code>@​ethereum-waffle/provider</code><a href="https://github.com/4"><code>@​4</code></a>.0.5</li>
+<li><code>@​ethereum-waffle/compiler</code><a href="https://github.com/4"><code>@​4</code></a>.0.3</li>
+</ul>
+</li>
+</ul>
+<h2><code>@​ethereum-waffle/chai</code><a href="https://github.com/4"><code>@​4</code></a>.0.7</h2>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -83,23 +136,87 @@ use-cases, but this change may break validation for some. The two scenarios that
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/typestack/class-validator/commit/5f0d424c164672ec981e24d6e634354803abf25f"><code>5f0d424</code></a> merge: release 0.14.0 (<a href="https://github-redirect.dependabot.com/typestack/class-validator/issues/1841">#1841</a>)</li>
-<li><a href="https://github.com/typestack/class-validator/commit/e3d070836556b73d8396c34a360c4744c9d8363c"><code>e3d0708</code></a> build: bump version to 0.14.0</li>
-<li><a href="https://github.com/typestack/class-validator/commit/ad7689055d0b92da9d6f4787cd91ec4d5392a9f1"><code>ad76890</code></a> docs: add changelog for 0.14.0</li>
-<li><a href="https://github.com/typestack/class-validator/commit/9a775c59247f00f2ad911686d335fd8e1f9864be"><code>9a775c5</code></a> build(deps-dev): bump <code>@​types/node</code> from 18.11.11 to 18.11.12 (<a href="https://github-redirect.dependabot.com/typestack/class-validator/issues/1840">#1840</a>)</li>
-<li><a href="https://github.com/typestack/class-validator/commit/53bc9f6fcefea77f17cb8e900178f25ec18b6cbc"><code>53bc9f6</code></a> build(deps-dev): bump <code>@​typescript-eslint/eslint-plugin</code> (<a href="https://github-redirect.dependabot.com/typestack/class-validator/issues/1837">#1837</a>)</li>
-<li><a href="https://github.com/typestack/class-validator/commit/d9b40721b8911be84ae0a9e40962c6244149c7f4"><code>d9b4072</code></a> build(deps-dev): bump <code>@​typescript-eslint/parser</code> from 5.45.1 to 5.46.0 (<a href="https://github-redirect.dependabot.com/typestack/class-validator/issues/1838">#1838</a>)</li>
-<li><a href="https://github.com/typestack/class-validator/commit/f993e9e44eb6a8cedc8ac076cee9b71760d1829d"><code>f993e9e</code></a> build(deps-dev): bump typescript from 4.9.3 to 4.9.4 (<a href="https://github-redirect.dependabot.com/typestack/class-validator/issues/1835">#1835</a>)</li>
-<li><a href="https://github.com/typestack/class-validator/commit/ad1a41d39dee051c3a43bbd357ee0c1553b54055"><code>ad1a41d</code></a> build(deps-dev): bump <code>@​rollup/plugin-commonjs</code> from 23.0.3 to 23.0.4 (<a href="https://github-redirect.dependabot.com/typestack/class-validator/issues/1836">#1836</a>)</li>
-<li><a href="https://github.com/typestack/class-validator/commit/42b4f7f5a34c118db14c03b6466afb5427678718"><code>42b4f7f</code></a> build(deps-dev): bump prettier from 2.8.0 to 2.8.1 (<a href="https://github-redirect.dependabot.com/typestack/class-validator/issues/1834">#1834</a>)</li>
-<li><a href="https://github.com/typestack/class-validator/commit/0c986d4e74c498876c728c58e1b30169dccec496"><code>0c986d4</code></a> build(deps-dev): bump <code>@​types/node</code> from 18.11.10 to 18.11.11 (<a href="https://github-redirect.dependabot.com/typestack/class-validator/issues/1833">#1833</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/typestack/class-validator/compare/v0.13.2...v0.14.0">compare view</a></li>
+<li><a href="https://github.com/TrueFiEng/Waffle/commit/a1d89d0063c7cc3d9d2e9b23cb17d9590fa1b7fd"><code>a1d89d0</code></a> 🎉 Release new version (<a href="https://github-redirect.dependabot.com/EthWorks/Waffle/issues/821">#821</a>)</li>
+<li><a href="https://github.com/TrueFiEng/Waffle/commit/216f1d8cdfd98d02c6a335d7789831559aecf955"><code>216f1d8</code></a> 🌏 Switch hardhat errors priority (<a href="https://github-redirect.dependabot.com/EthWorks/Waffle/issues/820">#820</a>)</li>
+<li><a href="https://github.com/TrueFiEng/Waffle/commit/13d1af063fe5d78a84aafeb549b2e3073f2e57c1"><code>13d1af0</code></a> 🎉 Release new version (<a href="https://github-redirect.dependabot.com/EthWorks/Waffle/issues/796">#796</a>)</li>
+<li><a href="https://github.com/TrueFiEng/Waffle/commit/5637cc55a81ede4976ab5863c3a04840fff395eb"><code>5637cc5</code></a> 🦉 Optimism tests use latest commit (<a href="https://github-redirect.dependabot.com/EthWorks/Waffle/issues/819">#819</a>)</li>
+<li><a href="https://github.com/TrueFiEng/Waffle/commit/1fa13127d199e43226178ffc45a661fddd657045"><code>1fa1312</code></a> 🥑 Add mock contract typing (<a href="https://github-redirect.dependabot.com/EthWorks/Waffle/issues/818">#818</a>)</li>
+<li><a href="https://github.com/TrueFiEng/Waffle/commit/702c6ab299d78c1dbbb42ea72aa8bfbfce0c8390"><code>702c6ab</code></a> 🗾 Extend matching of Hardhat revert reasons (<a href="https://github-redirect.dependabot.com/EthWorks/Waffle/issues/802">#802</a>)</li>
+<li><a href="https://github.com/TrueFiEng/Waffle/commit/46b954e1f9cbf9036ece5837c574ce800e6cdacc"><code>46b954e</code></a> 🖼 Mock contract chaining behaviour (<a href="https://github-redirect.dependabot.com/EthWorks/Waffle/issues/816">#816</a>)</li>
+<li><a href="https://github.com/TrueFiEng/Waffle/commit/fb6863d0a795db091b925385e1c1c670aa53eedd"><code>fb6863d</code></a> 🍶 Implement mocking receive function to revert (<a href="https://github-redirect.dependabot.com/EthWorks/Waffle/issues/807">#807</a>)</li>
+<li><a href="https://github.com/TrueFiEng/Waffle/commit/da9237577597618afa306161edfbdcad7a426542"><code>da92375</code></a> 🗽 Add address parameter to the mock contract (<a href="https://github-redirect.dependabot.com/EthWorks/Waffle/issues/815">#815</a>)</li>
+<li><a href="https://github.com/TrueFiEng/Waffle/commit/b54c6b93dee70dd54f831b2b6af60b11e4f8c827"><code>b54c6b9</code></a> 🗿 Add error to balance changing matchers (<a href="https://github-redirect.dependabot.com/EthWorks/Waffle/issues/814">#814</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/EthWorks/Waffle/compare/ethereum-waffle@3.4.4...ethereum-waffle@4.0.9">compare view</a></li>
 </ul>
 </details>
 <br />
 
+Updates `solidity-coverage` from 0.7.21 to 0.8.2
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/sc-forks/solidity-coverage/releases">solidity-coverage's releases</a>.</em></p>
+<blockquote>
+<h2>0.8.2</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Set web3-utils dep to ^1.3.6 by <a href="https://github.com/MarkuSchick"><code>@​MarkuSchick</code></a> in <a href="https://github-redirect.dependabot.com/sc-forks/solidity-coverage/pull/744">sc-forks/solidity-coverage#744</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/MarkuSchick"><code>@​MarkuSchick</code></a> made their first contribution in <a href="https://github-redirect.dependabot.com/sc-forks/solidity-coverage/pull/744">sc-forks/solidity-coverage#744</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/sc-forks/solidity-coverage/compare/v0.8.1...v0.8.2">https://github.com/sc-forks/solidity-coverage/compare/v0.8.1...v0.8.2</a></p>
+<h2>0.8.1</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Bug fix: restore missing web3-utils dependency by <a href="https://github.com/cgewecke"><code>@​cgewecke</code></a> in <a href="https://github-redirect.dependabot.com/sc-forks/solidity-coverage/pull/743">sc-forks/solidity-coverage#743</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/sc-forks/solidity-coverage/compare/v0.8.0...v0.8.1">https://github.com/sc-forks/solidity-coverage/compare/v0.8.0...v0.8.1</a></p>
+<h2>0.8.0</h2>
+<p>Hi!</p>
+<h4>⚠️ This version requires Hardhat &gt;= 2.11.0 (Ethereum Merge)</h4>
+<h2>New Features</h2>
+<p>A central focus of the 0.8.0 release is improving the coverage tool's branch detection.</p>
+<p>Beginning with this version the following syntax is measured as a branch:</p>
+<h3>OR conditions</h3>
+<p>When a logical expression is composed with the <code>||</code> operator, both sides can be considered branches. To test the entire expression</p>
+<pre lang="solidity"><code>if (a == 1 || a == 2)
+</code></pre>
+<p>... <code>a</code> must equal 1, 2 <em>and</em> neither of those values. (Thanks to Gnosis engineer <a href="https://github.com/rmeissner"><code>@​rmeissner</code></a> for proposing this in <a href="https://github-redirect.dependabot.com/sc-forks/solidity-coverage/issues/175">#175</a>)</p>
+<p><img src="https://user-images.githubusercontent.com/7332026/104411309-fd2e9380-551e-11eb-8502-85cc72033b26.png" alt="Screen Shot 2021-01-12 at 9 41 09 PM" /></p>
+<h3>Ternary Conditionals</h3>
+<p>Long ago, when Solidity was 0.4, solidity-coverage treated ternary conditionals like regular if/else statements. Some language improvements v0.5 subsequently made this impossible. Now it's back...</p>
+<p><img src="https://user-images.githubusercontent.com/7332026/104411766-db81dc00-551f-11eb-88a2-fd3e3867909e.png" alt="Screen Shot 2021-01-12 at 9 47 43 PM" /></p>
+<h3>Modifier Invocations</h3>
+<p>Solidity-coverage already covers the code within modifier definitions. However, each modifier invocation at the function level should really be considered its own branch. Some of the most critical logic in Solidity contracts is handled this way (ex: <code>onlyOwner</code>). Testing the pass/fail cases for each occurrence of these gates protects you from accidentally removing them during a refactor.</p>
+<p>Because it's possible to write a modifier which performs a preparatory task and never reverts, there's a new option (<code>modifierWhitelist</code>) which allows you to exclude specific modifiers from branch measurement.</p>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/sc-forks/solidity-coverage/blob/master/CHANGELOG.md">solidity-coverage's changelog</a>.</em></p>
+<blockquote>
+<h1>Changelog</h1>
+<h1>0.8.1 / 2022-09-06</h1>
+<ul>
+<li>Restore web3-utils (<a href="https://github-redirect.dependabot.com/sc-forks/solidity-coverage/issues/743">sc-forks/solidity-coverage#743</a>)</li>
+</ul>
+<h1>0.8.0 / 2022-09-05</h1>
+<ul>
+<li>See release notes at: <a href="https://github.com/sc-forks/solidity-coverage/releases/tag/v0.8.0">https://github.com/sc-forks/solidity-coverage/releases/tag/v0.8.0</a></li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li>See full diff in <a href="https://github.com/sc-forks/solidity-coverage/commits/v0.8.2">compare view</a></li>
+</ul>
+</details>
+<br />
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=class-validator&package-manager=npm_and_yarn&previous-version=0.13.2&new-version=0.14.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -135,66 +252,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-11 23:21:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/109" class=".btn">#109</a>
-            </td>
-            <td>
-                <b>
-                    Change ERC721 samples to use auto-indexing mint by default
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                With this change, the default "out of the box" sample for ERC721 will _not_ require (or allow) you to pass a token index when minting. It will choose an increasing token index starting from 0.
-
-Via ERC165 support, the connector can now check for 3 different versions of the ERC721WithData interface:
-- the current version (V2), which uses auto-indexing on mint and also supports all withData/withURI methods
-- the previous version (V1b), which requires explicit indexes, but supports all withData/withURI methods
-- the original version (V1a), which requires explicit indexes, and supports withData but not withURI
-
-For the "no data" variant, we have no ERC165 support, so I have destructively replaced the ERC721NoData sample with a new one that uses auto-indexing. Note that it was _just_ replaced in #104 and released as v1.2.0 - I don't really see any need to preserve all the versions of this sample, so I'm just preserving this new one and the original (not the interim one introduced in v1.2.0). This new PR will probably need to become release v1.2.1, and we'll just want to note that the sample in v1.2.0 is not supported.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-09 17:17:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/108" class=".btn">#108</a>
-            </td>
-            <td>
-                <b>
-                    Update README
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add more details on the different smart contract variants supported, and clarify extensions on top of the base fftokens protocol.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-06 16:25:46 +0000 UTC
+        Created At 2023-02-12 03:42:31 +0000 UTC
     </div>
 </div>
 

@@ -14,25 +14,27 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1176" class=".btn">#1176</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1185" class=".btn">#1185</a>
             </td>
             <td>
                 <b>
-                    Update to docker/build-push-action@v4
+                    Fix typo in private & broadcast blob upload docs
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">bug</span><span class="chip">documentation</span>
             </td>
             <td>
-                Backport of #1174
+                I assume this should say `multi-part` (as in the MIME type) as opposed to `multi-party`
+
+Signed-off-by: Matthew Whitehead <matthew1001@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-02 20:20:22 +0000 UTC
+        Created At 2023-02-14 08:46:04 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +42,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1175" class=".btn">#1175</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1184" class=".btn">#1184</a>
             </td>
             <td>
                 <b>
-                    Include signing key in batch processor identifier
+                    Fix path in Fabric test-network tutorial
                 </b>
             </td>
         </tr>
@@ -53,14 +55,12 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                Messages from the same identity but different signing keys must be processed into different batches. If the signing key of the message does not match the signing key of the batch, the message will be rejected.
-
-Fixes #1173
+                While re-running this tutorial I noticed that one of the paths to a key seemed incorrect. I have successfully run through it using the updated path in this PR.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-01 22:58:56 +0000 UTC
+        Created At 2023-02-13 16:09:14 +0000 UTC
     </div>
 </div>
 
@@ -68,11 +68,11 @@ Fixes #1173
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1174" class=".btn">#1174</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1183" class=".btn">#1183</a>
             </td>
             <td>
                 <b>
-                    Update to docker/build-push-action@v4
+                    remove near tutorial
                 </b>
             </td>
         </tr>
@@ -81,142 +81,12 @@ Fixes #1173
                 
             </td>
             <td>
-                Due to a recent change in the docker/build-push-action GitHub Action https://github.com/docker/build-push-action/issues/778 our images stopped having their manifests published properly. This PR updates our GitHub Actions to use a newer version of the Action, and restores the previously working behavior. I was able to test this on my own fork and created https://github.com/nguyer/firefly/pkgs/container/firefly/67526987 which has a good manifest in it.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-01 21:40:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1172" class=".btn">#1172</a>
-            </td>
-            <td>
-                <b>
-                    Add stack type to nightly integration tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-01 01:35:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1171" class=".btn">#1171</a>
-            </td>
-            <td>
-                <b>
-                    Update dependencies for v1.2.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-31 21:16:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1169" class=".btn">#1169</a>
-            </td>
-            <td>
-                <b>
-                    Fix coverage gap in webhooks test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-30 21:40:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1168" class=".btn">#1168</a>
-            </td>
-            <td>
-                <b>
-                    Update dependencies for v1.2.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-30 20:20:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1164" class=".btn">#1164</a>
-            </td>
-            <td>
-                <b>
-                    Keep Docker state between builds
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Greatly reduces incremental build time for "make docker".
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-27 15:42:16 +0000 UTC
+        Created At 2023-02-13 15:21:57 +0000 UTC
     </div>
 </div>
 
