@@ -29,7 +29,11 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
             <td>
                 For https://github.com/hyperledger/firefly-transaction-manager/issues/57
 
-Work In progress
+Works done:
+1. Created a new class called `TransactionHandler`, this includes the old policy engine + policy loop + nonce management
+1. High level e2e test and external configuration file remained unchanged
+1. Added EventHandler interface for capturing all of the managed transaction processing events
+2. Kept the TransactionHandler interface as simple as possible for easy understanding.  
             </td>
         </tr>
     </table>

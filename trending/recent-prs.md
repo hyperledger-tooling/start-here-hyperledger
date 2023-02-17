@@ -1,13 +1,13 @@
 
-[371](https://github.com/hyperledger-labs/fabric-operations-console/pull/371) fix wording for openshift
+[5104](https://github.com/hyperledger/besu/pull/5104) re-default global max rpc batch size to 1k
 
-[633](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/633) fix: import syntax and linting
+[635](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/635) chore: add  jcdrouin21 as maintainer
 
-[2125](https://github.com/hyperledger/aries-cloudagent-python/pull/2125) Temporarily disable multi-architecture image builds
+[860](https://github.com/hyperledger-labs/business-partner-agent/pull/860) Bump undici from 5.9.1 to 5.19.1 in /frontend
 
-[769](https://github.com/hyperledger/aries-rfcs/pull/769) fix: update versions in indexgenerate
+[5103](https://github.com/hyperledger/besu/pull/5103) trigger heal in case of bad code
 
-[4032](https://github.com/hyperledger/fabric/pull/4032) Refactor of Gateway code
+[667](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/667) Bump undici from 5.9.1 to 5.19.1
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

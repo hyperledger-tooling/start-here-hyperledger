@@ -101,34 +101,3 @@ Signed-off-by: Sam Yuan <yy19902439@126.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/89" class=".btn">#89</a>
-            </td>
-            <td>
-                <b>
-                    Implement query committed chaincode with name in channel
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Implement query committed with name function
-- Implement query committed with name unit test
-- Add query committed with name to e2e test
-
-Signed-off-by: Samuel Venzi <samuel.venzi@me.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-09 21:47:21 +0000 UTC
-    </div>
-</div>
-

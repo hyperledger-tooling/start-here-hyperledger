@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger/toc
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/67" class=".btn">#67</a>
-            </td>
-            <td>
-                <b>
-                    Add titles
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-09 20:11:30 +0000 UTC
-    </div>
-</div>
-

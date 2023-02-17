@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3160" class=".btn">#3160</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #3153: make serde_client_cli output machine-readable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ### Description of the Change
+
+Adds `--json` flag to `client_cli` for usage in scripts.
+
+### Issue
+
+#3153 
+
+### Benefits
+
+Allows for automated testing
+
+### Possible Drawbacks
+
+None that I can think of
+
+### Usage Examples or Tests
+
+```shell
+$ ./iroha_client_cli --json asset list all | jq '.[1].id'
+"rose##alice@wonderland"
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-16 21:16:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3159" class=".btn">#3159</a>
             </td>
             <td>
@@ -473,40 +520,6 @@ Phrases: [skip ci], [ci skip], [no ci], [skip actions], or [actions skip]
     </table>
     <div class="right-align">
         Created At 2023-02-10 08:14:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3134" class=".btn">#3134</a>
-            </td>
-            <td>
-                <b>
-                    Iroha v2.0.0-pre-rc.13 release PR
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ### Release checklist
-
-- [x] All crates have been bumped to the correct versions
-- [x] Changelog generated @outoftardis 
-- [ ] Java SDK updated @arndey 
-- [ ] Java SDK tests pass @arndey 
-- [ ] shell tests pass @appetrosyan 
-- [ ] Flakyness check @appetrosyan 
-- [ ] Benchmarks on distributed system matching internal project deployment @astrokov7 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-09 18:57:36 +0000 UTC
     </div>
 </div>
 

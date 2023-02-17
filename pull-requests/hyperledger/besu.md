@@ -14,6 +14,100 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5104" class=".btn">#5104</a>
+            </td>
+            <td>
+                <b>
+                    re-default global max rpc batch size to 1k
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+default global rpc max batch size to 1000 for 23.1.0, revisit in 23.1.1
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Acceptance Tests (Non Mainnet)
+
+- [ ] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-17 00:38:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5103" class=".btn">#5103</a>
+            </td>
+            <td>
+                <b>
+                    trigger heal in case of bad code
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Acceptance Tests (Non Mainnet)
+
+- [ ] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-16 23:44:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5101" class=".btn">#5101</a>
             </td>
             <td>
@@ -557,114 +651,6 @@ Fixes the experimental PoS checkpoint edge case where PoS blocks have same TD th
     </table>
     <div class="right-align">
         Created At 2023-02-10 05:51:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5077" class=".btn">#5077</a>
-            </td>
-            <td>
-                <b>
-                    moves check for init code length before balance check
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Justin Florentine <justin+github@florentine.us>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [X] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Acceptance Tests (Non Mainnet)
-
-- [X] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
-
-## Changelog
-
-- [X] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-09 21:46:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5076" class=".btn">#5076</a>
-            </td>
-            <td>
-                <b>
-                    Fix Layered World State issue
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ameziane H <ameziane.hamlat@consensys.net>
-Signed-off-by: Karim TAAM <karim.t2am@gmail.com>
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-We found the problem :
-
-During a remember block we added a copy of the worldstate during the saveTrieLog in order to fix the get balance == 0. By making a copy we have a BonsaiInMemoryWorldstate which does not persist the trielog in rocksdb. We saw the log that tells us that we can’t commit. 
-The problem is that during a FCU when we persist a block if we have a reorg we finally save the trielog after the different Rollback / Forward. Because of that we do not save a valid log. Instead of saving a Trielog for 1 to 2 bis we have a Trielog which is a mix of 2-1 + 1-2bis . This happens because it is not normal  to not already have the trielog in base during a reorg.
-
-Because of that we can't rollback/rollfoward anymore with this invalid trielog so we have the layered copy worldstate error
-
-The worldstate copy is not really needed and we decided to not create a copy and to subscribe to the worldstateStorage directly in the BonsaiLayeredWorldstate.
-
-This fixed was not fixing yet the problem because we had another problem. During a getAccount we are getting the BonsaiLayeredWorldstate and we are closing this one after the getAccount. Because of that we are unsubscribing the worldstateStorage and losing the instance. to fix that we decided to use the same code we re using for the validate/transaction pool etc and to create a copy of the layeredWorldstate instead 
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Acceptance Tests (Non Mainnet)
-
-- [ ] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-09 21:45:03 +0000 UTC
     </div>
 </div>
 
