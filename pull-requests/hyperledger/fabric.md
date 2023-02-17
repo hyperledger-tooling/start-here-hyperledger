@@ -14,6 +14,69 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4034" class=".btn">#4034</a>
+            </td>
+            <td>
+                <b>
+                    Fix purge private data integration test flake
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Prior test restarted peers.
+Need to make sure all peers are up and connected before continuing to next test.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-16 21:22:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4033" class=".btn">#4033</a>
+            </td>
+            <td>
+                <b>
+                    Bump github.com/prometheus/client_golang to v1.11.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Note that client_golang v1.11.1 attempts pull in protobuf v1.4.3.
+However, protobuf v1.4.3 is incompatible with raft in v2.2.x.
+Therefore, need to add a "replace" in go.mod to keep protobuf at v1.3.3.
+
+The update also pulls in github.com/go-kit/kit v0.9.0, which requires one code update.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-16 19:52:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4032" class=".btn">#4032</a>
             </td>
             <td>

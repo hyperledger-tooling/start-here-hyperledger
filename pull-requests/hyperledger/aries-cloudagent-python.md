@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2127" class=".btn">#2127</a>
+            </td>
+            <td>
+                <b>
+                    OpenAPI validation fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Noticed when generating some Typescript types that the top level OpenAPI spec (Swagger 2.0 is the version) has some quick validation errors to fix. Checked against [editor.swagger.io](https://editor.swagger.io/) or other tools to call https://validator.swagger.io/
+
+(I'm not actually using this openAPI json for generation, using the actual generated Swagger spec from a acapy + plugins deployment, but came across this while looking)
+
+![image](https://user-images.githubusercontent.com/17445138/219472523-97c156d6-e91d-4222-a043-6d88bcf3eb02.png)
+
+
+* **should have required property 'url'**
+There is a externalDocs reference in /resolver that lacks a URL.
+I'm not really sure about the resolver functionality so correct me if I'm wrong about using the following URL...
+https://github.com/hyperledger/aries-rfcs/tree/fa4b1947c6077168d2c69f45ed6bee2bb1eae4c8/features/0124-did-resolution-protocol
+
+* **should NOT have additional properties** (description)
+A couple of the parameters have descriptions in the param, then an additional description in the `items` array, which is not supported by the spec.
+Removed those, as they are unsupported, and seem redundant with the parameter description as well?
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-16 19:56:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2125" class=".btn">#2125</a>
             </td>
             <td>

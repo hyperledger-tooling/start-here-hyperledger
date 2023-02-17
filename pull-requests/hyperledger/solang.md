@@ -287,33 +287,3 @@ Signed-off-by: xermicus <cyrill@parity.io>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1168" class=".btn">#1168</a>
-            </td>
-            <td>
-                <b>
-                    Fix CSE bug
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                @xermicus found a bug in common subexpression elimination while working on the SCALE decoder. This PR fixes the bug, but the fix is only palliative for it might not cover all possible cases.
-
-The problem would be best solved implementing a correct version of partial redundancy elimination, which leverages the available expressions analysis (already available) and an anticipated expression analysis not only to detect common subexpressions, but to know where exactly to evaluate them. This solution, nevertheless, is too time consuming to code and will be easier to implement when we have a new IR with SSA.
-
-More information about partial redundancy elimination can be found in the Chapter 9.5 of the book `Compilers: Principles, Techniques & tools`, second edition, from Monica S. Lam.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-09 21:07:25 +0000 UTC
-    </div>
-</div>
-

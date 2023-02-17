@@ -114,32 +114,3 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/137" class=".btn">#137</a>
-            </td>
-            <td>
-                <b>
-                    update to latest BC VC Flow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sheldon Regular <sheldon.regular@gmail.com>
-
-This PR updates the flow for the BC VC Person credential tests. 
-It also fixes manage script problem where the run command was failing because of eval. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-09 22:35:31 +0000 UTC
-    </div>
-</div>
-
