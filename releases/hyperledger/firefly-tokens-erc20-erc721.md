@@ -15,36 +15,30 @@ permalink: /releases/hyperledger/firefly-tokens-erc20-erc721
         <tr>
             <td colspan="2">
                 <b>
-                    v1.2.1
+                    v1.2.2
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.1
+                    v1.2.2
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Update README by @awrichar in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/108
-* Add shorsher to CODEOWNERS by @nguyer in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/113
-* Change to X-FireFly-Request-ID header name by @nguyer in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/111
-* Change ERC721 samples to use auto-indexing mint by default by @awrichar in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/109
-* Add support for ERC721 variants with URIs by @awrichar in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/114
-* Start auto incrementing token indexes at 1 by @nguyer in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/116
-* Throw an error if unsupported fields are passed to mint by @awrichar in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/119
+* Support "config.factoryAddress" to create tokens using a custom factory by @awrichar in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/122
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc20-erc721/compare/v1.2.0...v1.2.1
+**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc20-erc721/compare/v1.2.1...v1.2.2
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v1.2.1" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v1.2.2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-01-26 16:00:57 +0000 UTC
+        Created At 2023-02-16 20:40:52 +0000 UTC
     </span>
 </div>
 
