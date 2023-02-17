@@ -1,13 +1,13 @@
 
-[4037](https://github.com/hyperledger/fabric/pull/4037) Bump github.com/containerd/containerd from 1.5.16 to 1.5.18 (backport #4031)
+[4041](https://github.com/hyperledger/fabric/pull/4041) Refactor of Gateway code (release-2.4)
 
-[4036](https://github.com/hyperledger/fabric/pull/4036) Disable fail-fast for integration test suite matrix (backport #4030) (backport #4035)
+[4040](https://github.com/hyperledger/fabric/pull/4040) Refactor of Gateway code (release-2.5)
 
-[4035](https://github.com/hyperledger/fabric/pull/4035) Disable fail-fast for integration test suite matrix (backport #4030)
+[4039](https://github.com/hyperledger/fabric/pull/4039) Add workflow_dispatch option for release action
 
-[860](https://github.com/hyperledger-labs/business-partner-agent/pull/860) Bump undici from 5.9.1 to 5.19.1 in /frontend
+[458](https://github.com/hyperledger-labs/fabric-smart-client/pull/458) go1.19
 
-[667](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/667) Bump undici from 5.9.1 to 5.19.1
+[4038](https://github.com/hyperledger/fabric/pull/4038) Home Button and Text of Side Navigation Menu
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

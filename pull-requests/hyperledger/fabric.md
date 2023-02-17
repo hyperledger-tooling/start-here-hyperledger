@@ -14,6 +14,131 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4041" class=".btn">#4041</a>
+            </td>
+            <td>
+                <b>
+                    Refactor of Gateway code (release-2.4)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Cherry-pick of https://github.com/hyperledger/fabric/commit/11896ae6e0dfa89bb475d0311192e718a4921ffe from main branch, keeping structure in step between branches.
+
+Split some code into separate files. Particularly the gRPC service method implementation and tests were unreasonably large, making the codebase difficult to navigate and extend. Code that was previously in api.go is now located in: chaincodeevents.go, commitstatus.go, diff.go, endorse.go, evaluate.go, and submit.go. Unit tests specific to these functions are split out of api_test.go into corresponding _test.go files.
+
+Simplification of the way chaincode events unit tests define the local peer ledger height. Previously a postSetup function for specific tests reconfigured the ledger mocks. Now only a localLedgerHeight property is specified in the test definition.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-17 11:03:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4040" class=".btn">#4040</a>
+            </td>
+            <td>
+                <b>
+                    Refactor of Gateway code (release-2.5)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Cherry-pick of 11896ae6e0dfa89bb475d0311192e718a4921ffe from main branch, keeping structure in step between branches.
+
+Split some code into separate files. Particularly the gRPC service method implementation and tests were unreasonably large, making the codebase difficult to navigate and extend. Code that was previously in api.go is now located in: chaincodeevents.go, commitstatus.go, diff.go, endorse.go, evaluate.go, and submit.go. Unit tests specific to these functions are split out of api_test.go into corresponding _test.go files.
+
+Simplification of the way chaincode events unit tests define the local peer ledger height. Previously a postSetup function for specific tests reconfigured the ledger mocks. Now only a localLedgerHeight property is specified in the test definition.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-17 11:00:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4039" class=".btn">#4039</a>
+            </td>
+            <td>
+                <b>
+                    Add workflow_dispatch option for release action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Older release branches such as release-2.2 have a release action that gets triggered based on a manual workflow_dispatch. 
+The 'main' branch must also have workflow_dispatch enabled in order to trigger the release action on specific release branches.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-17 09:56:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4038" class=".btn">#4038</a>
+            </td>
+            <td>
+                <b>
+                    Home Button and Text of Side Navigation Menu
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The "Home Button" and "Text" in the side nav is not visible. It is set as "color: transparent". I edited it to "color: White".
+
+**Before** : 
+![SS1](https://user-images.githubusercontent.com/71092045/219601271-990e416f-3693-4261-bf62-c7c4671b335b.png)
+
+----------------------------------------------------------                           ----------------------------------------------------------------
+**After** :
+![SS2](https://user-images.githubusercontent.com/71092045/219601793-92934b41-bbd2-40c7-be87-70b9558aa72c.png)
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-17 09:11:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4037" class=".btn">#4037</a>
             </td>
             <td>
@@ -864,47 +989,6 @@ Issue: #3515
     </table>
     <div class="right-align">
         Created At 2023-02-12 14:10:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4014" class=".btn">#4014</a>
-            </td>
-            <td>
-                <b>
-                    Return channel header on missing system channel
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-- Improvement (improvement to log)
-
-#### Description
-
-Currently, It fails to report the channel name in
-the log as it failed to return the channel header
-to the caller.
-
-#### Additional details
-
-> 2023-02-08 23:07:45.078 UTC 138d WARN [orderer.common.broadcast] ProcessMessage -> **[channel: unknown]** Could not get message processor for serving 10.244.0.9:33422: channel creation request not allowed because the orderer system channel is not defined
-
-It failed to report the channel name when it failed to locate the channel. As shown in the above log `**[channel: unknown]**`
-
-Signed-off-by: Parameswaran Selvam <parselva@in.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-10 11:20:31 +0000 UTC
     </div>
 </div>
 
