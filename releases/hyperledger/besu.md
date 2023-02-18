@@ -33,7 +33,7 @@ This is a rather large release with some breaking changes, so please be sure to 
 
 From the improvements and fixes side, we have a host of execution performance improvements and fixes for defects with bonsai storage. We have also included an error detection and auto-heal capability for nodes that encounter state issues. This should keep nodes online and validating that may have previously required a resync.
 
-One final note. 23.1.0 is not a Shanghai ready release. If you intend to test Besu on the long-lived testnets like Zhejiang, please follow the instructions here. We will have more to share on our official Shanghai releases soon.
+One final note. 23.1.0 is not a Shanghai ready release. If you intend to test Besu on the long-lived testnets like Zhejiang, please [follow the instructions here](https://notes.ethereum.org/@launchpad/zhejiang). We will have more to share on our official Shanghai releases soon.
 
 ### Breaking Changes
 - Change JsonRpc http service to return the error -32602 (Invalid params) with a 200 http status code
@@ -70,8 +70,7 @@ tests are updated to use EC private keys instead of RSA keys.
 - Add access list to Transaction Call Object [#4802](https://github.com/hyperledger/besu/issues/4801)
 - Add timestamp fork support, including shanghaiTime and cancunTime forks [#4743](https://github.com/hyperledger/besu/pull/4743)
 - Optimization:  Memoize transaction size and hash at the same time [#4812](https://github.com/hyperledger/besu/pull/4812)
-- Add chain data pruning feature with three experimental CLI options: `--Xchain-pruning-enabled`, `--Xchain-pruning-blocks-retained` and `--Xchain-pruning-frequency` [#4686](https://github.com
-/hyperledger/besu/pull/4686)
+- Add chain data pruning feature with three experimental CLI options: `--Xchain-pruning-enabled`, `--Xchain-pruning-blocks-retained` and `--Xchain-pruning-frequency` [#4686](https://github.com/hyperledger/besu/pull/4686)
   - Note that chain pruning is hidden and disabled by default. Once you choose to enable chain pruning, a new column family will be added to the db and you cannot roll back to a previous versi
 on of Besu.
 
