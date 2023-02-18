@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
             </td>
             <td>
                 <b>
-                    Separate Sawtooth and CCF tests, speed up CI and reduce (unnecessary) logs
+                    Separate Sawtooth and CCF tests, speed up CI, reduce (unnecessary) logs and solve double build (with possible corruption) issue
                 </b>
             </td>
         </tr>
@@ -31,6 +31,12 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
 1. separating the tests for sawtooth and ccf, thus running them in parallel
 2. removing the upgrade of the packages -- which was performed on all packages in pdo-dev, not just those necessary for PDO
 3. redirecting the stdout/err of the sgxssl/openssl build to /dev/null -- importantly, this also reduces the CI logs from ~30K lines to **~8K lines**!!!
+
+Additionally, it solves an issue with a duplicate build (of setup.py in /python).
+The issue was caused by a misrepresented rule. The rule has 2 targets, which are all generated in one execution. However, by listing the 2 targets as dependencies and running make with multiple threads, make does not know that those targets should be grouped, so it runs the rule twice in parallel.
+The result is a double build, which sometimes succeeds and sometimes corrupts the outputs (and later builds fail).
+It is quite possible that the issues experienced so far on the system tests of the key-value store were due to this problem.
+In fact, the python and the swig files used in the tests (which sometimes failed with an "illegal instruction") were part of the double build output.
             </td>
         </tr>
     </table>

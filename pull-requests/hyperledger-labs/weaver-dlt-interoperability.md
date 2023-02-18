@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
                 
             </td>
             <td>
-                <nil>
+                **BUG**: There's a bug in `GetSubscriptionState` in Weaver Fabric SDK, which doesn't work when `ContractTransaction` is not present in `EventPublicationSpec`, i.e. when `appURL` is used for subscription, as there's few lines of code which only works with `ContractTransaction` in event publication spec.
+
+**FIX**: Added a safety check `EventPublicationSpec.hasCtx()` around the code to fix it, which checks if the `EventSubscription` has `ContractTransaction` then only it executes the code.
             </td>
         </tr>
     </table>
