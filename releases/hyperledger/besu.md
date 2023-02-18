@@ -48,7 +48,7 @@ tests are updated to use EC private keys instead of RSA keys.
 - Optimize SSTORE Operation execution time (memoize current and original value) [#4836](https://github.com/hyperledger/besu/pull/4836)
 
 ### Additions and Improvements
-- Default rpc batch request to 1000 [#5104](https://github.com/hyperledger/besu/pull/5104)
+- Default rpc batch request to 1024 [#5104](https://github.com/hyperledger/besu/pull/5104) [#5108](https://github.com/hyperledger/besu/pull/5108)
 - Add a new CLI option to limit the number of requests in a single RPC batch request. [#4965](https://github.com/hyperledger/besu/pull/4965)
 - Support for new DATAHASH opcode as part of EIP-4844 [#4823](https://github.com/hyperledger/besu/issues/4823)
 - Send only hash announcement for blob transaction type [#4940](https://github.com/hyperledger/besu/pull/4940)
