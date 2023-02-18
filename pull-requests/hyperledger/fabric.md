@@ -122,7 +122,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
             </td>
             <td>
                 <b>
-                    Release commit for v2.2.10 [DO NOT MERGE YET]
+                    Release commit for v2.2.10
                 </b>
             </td>
         </tr>
