@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/orion-server
             </td>
             <td>
                 <b>
-                    sync write to block store
+                    Seek back to write location after read from chunk file
                 </b>
             </td>
         </tr>
