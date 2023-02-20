@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4048" class=".btn">#4048</a>
+            </td>
+            <td>
+                <b>
+                    Use local peer ledger height from ledger instead of discovery in Gateway (release-2.4)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Cherry-pick of 969040c6a7028117c8284652b73813410decf059 from main branch.
+
+Discovery ledger heights can be slightly behind the actual peer ledger height. Ensure the most up-to-date information is used for the local peer by querying the ledger height directly. This avoids the possibility of a remote peer with a lower ledger height being selected as an endorser.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-20 10:53:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4047" class=".btn">#4047</a>
+            </td>
+            <td>
+                <b>
+                    Use local peer ledger height from ledger instead of discovery in Gateway (release-2.5)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Cherry-pick of 969040c6a7028117c8284652b73813410decf059 from main branch.
+
+Discovery ledger heights can be slightly behind the actual peer ledger height. Ensure the most up-to-date information is used for the local peer by querying the ledger height directly. This avoids the possibility of a remote peer with a lower ledger height being selected as an endorser.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-20 10:51:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4045" class=".btn">#4045</a>
             </td>
             <td>
@@ -1027,58 +1083,6 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2023-02-13 19:30:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4018" class=".btn">#4018</a>
-            </td>
-            <td>
-                <b>
-                    ledgerutil: Add "verify" command
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- New feature
-
-#### Description
-
-We would like to propose a new command in Ledger Utility that checks the integrity of a single ledger. The existing commands in Ledger Utility aim at checking the ledger when any difference is found by comparing two ledgers. The purpose of the command proposed is to complement these commands by finding any defect in ledger files in a single peer that could be caused by potential software bugs or disk errors.
-
-This patch adds a new command, “verify,” to Ledger Utility, which performs integrity checks for a specified ledger. Currently, the checks for the hash values in the headers of the blocks are implemented.
-
-A use case assumed is to run the command locally in a peer periodically, which can be utilized as one of the health checks for the peer.
-
-#### Additional details
-
-This patch contains a sample ledger that is tweaked to have a hash value error (the hash value for Block 0 is modified not to match the block payload). Using the ledger, the command proposed can detect the error as follows:
-
-```
-$ ./build/bin/ledgerutil verify ./internal/ledgerutil/testdata/sample_bad_ledger -o /tmp/ledgerutil-verify-result-bad
-...
-Successfully executed verify tool. Some error(s) are found.
-$ cat /tmp/ledgerutil-verify-result-bad/mychannel_verification_result/blocks.json
-[
-{"number":0,"valid":false,"errors":["DataHash mismatch"]}
-,
-{"number":1,"valid":false,"errors":["PreviousHash mismatch"]}
-]
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-13 09:33:54 +0000 UTC
     </div>
 </div>
 
