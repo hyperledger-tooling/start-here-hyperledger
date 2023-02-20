@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/459" class=".btn">#459</a>
+            </td>
+            <td>
+                <b>
+                    Changes in templates for re-usability of NWO
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span>
+            </td>
+            <td>
+                Changes
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-20 15:11:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/458" class=".btn">#458</a>
             </td>
             <td>
