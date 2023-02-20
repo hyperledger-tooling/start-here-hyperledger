@@ -78,38 +78,3 @@ permalink: /releases/hyperledger/anoncreds-rs
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v0.1.0-dev.6
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v0.1.0-dev.6
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* fix(js): fixed some typos for RN by @blu3beri in https://github.com/hyperledger/anoncreds-rs/pull/106
-* fix(js): allow multiple turbo modules to be registered by @blu3beri in https://github.com/hyperledger/anoncreds-rs/pull/107
-* build: get the version from the metadata by @blu3beri in https://github.com/hyperledger/anoncreds-rs/pull/108
-* chore: update version by @blu3beri in https://github.com/hyperledger/anoncreds-rs/pull/109
-
-
-**Full Changelog**: https://github.com/hyperledger/anoncreds-rs/compare/v0.1.0-dev.5...v0.1.0-dev.6
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/anoncreds-rs/releases/tag/v0.1.0-dev.6" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2023-02-13 11:28:06 +0000 UTC
-    </span>
-</div>
-
