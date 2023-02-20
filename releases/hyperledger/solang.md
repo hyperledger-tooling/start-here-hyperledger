@@ -15,45 +15,40 @@ permalink: /releases/hyperledger/solang
         <tr>
             <td colspan="2">
                 <b>
-                    V0.2.1: Rio
+                    Alexandria
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.2.1
+                    v0.2.2
                 </span>
             </td>
             <td>
-                
-## Added
-- The Anchor IDL data structure is now generated for every Solana contract, although the actual IDL json file is not yet saved.
-[LucasSte](https://github.com/LucasSte)
+                ### Added
+- Solidity mappings can now have named key and named value types. [seanyoung](https://github.com/seanyoung)
 
-## Changed
-- The Solana target now utilizes eight byte Anchor discriminators for function dispatch instead
-of the four byte Ethereum selectors. [LucasSte](https://github.com/LucasSte)
-- The deployment of contracts on Solana now follows the same scheme as Anchor. [seanyoung](https://github.com/seanyoung)
-- Compares between rational literals and integers are not allowed. [seanyoung](https://github.com/seanyoung)
-- Overriding the function selector value is now done using the `@selector([1, 2, 3, 4])`
-  syntax, and the old syntax `selector=hex"12345678"` has been removed.
-- `msg.sender` was not implemented correctly on Solana, and
-  [has now been removed](https://solang.readthedocs.io/en/latest/targets/solana.html#msg-sender-solana).
-  [seanyoung](https://github.com/seanyoung)
-- Solang now uses LLVM 14. [LucasSte](https://github.com/LucasSte)
+### Changed
+- Solang now uses LLVM 15. [LucasSte](https://github.com/LucasSte)
+- Solidity on Solana now required the Anchor framework for the client code, and the `@solana/solidity.js`
+  Typescript library is no longer compatible with Solidity.
+- When casting hex literal numbers into the `bytesN` type, the hex literal may use leading zeros to match the size
+with the according `bytesN`, which aligns solang with `solc`. [xermicus](https://github.com/xermicus)
 
-## Fixed
+### Fixed
 - Many bugs have been fixed by [seanyoung](https://github.com/seanyoung), [LucasSte](https://github.com/LucasSte)
   and [xermicus](https://github.com/xermicus)
+- Typos throughout the code have been fixed. [omahs](https://github.com/omahs)
+
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/solang/releases/tag/v0.2.1" class=".btn">
+    <a href="https://github.com/hyperledger/solang/releases/tag/v0.2.2" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-01-05 19:56:06 +0000 UTC
+        Created At 2023-02-20 18:07:51 +0000 UTC
     </span>
 </div>
 
