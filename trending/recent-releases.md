@@ -1,5 +1,5 @@
 
-[23.1.1-RC1](https://github.com/hyperledger/besu/releases/tag/23.1.1-RC1) 23.1.1-RC1 - Sepolia Shanghai Testing Release
+[23.1.1-RC1](https://github.com/hyperledger/besu/releases/tag/23.1.1-RC1) 23.1.1-RC1 - Sepolia Shanghai Release
 
 [0.52.0](https://github.com/hyperledger/aries-vcx/releases/tag/0.52.0) Release 0.52.0
 

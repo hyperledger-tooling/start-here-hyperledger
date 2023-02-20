@@ -15,7 +15,7 @@ permalink: /releases/hyperledger/besu
         <tr>
             <td colspan="2">
                 <b>
-                    23.1.1-RC1 - Sepolia Shanghai Testing Release
+                    23.1.1-RC1 - Sepolia Shanghai Release
                 </b>
             </td>
         </tr>
@@ -26,11 +26,15 @@ permalink: /releases/hyperledger/besu
                 </span>
             </td>
             <td>
-                ## Sepolia Shanghai Testing Release aka Sepolia Shapella aka Shapolia
+                ## Sepolia Shanghai Release aka Sepolia Shapella aka Shapolia
 
 This update is **not recommended for mainnet users**.
 
-Besu 23.1.1-RC1 is a required update only for users who want to test the Shanghai/Capella upgrade on Sepolia.
+Besu 23.1.1-RC1 is a **required update for Sepolia users**
+
+Sepolia Shanghai hardfork scheduled for: **Tue Feb 28 2023 04:04:48 UTC**
+
+---
 
 This release has everything from [23.1.0](https://github.com/hyperledger/besu/releases/tag/23.1.0) and in addition the following:
 
