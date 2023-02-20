@@ -428,32 +428,3 @@ Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/453" class=".btn">#453</a>
-            </td>
-            <td>
-                <b>
-                    various improvements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                - db service, badger driver: load badger option from FSC configuration
-- additional logs
-
-Linked to: https://github.com/hyperledger-labs/fabric-token-sdk/pull/454
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-13 09:46:45 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/cckit
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/cckit/pull/22" class=".btn">#22</a>
+                PR <a href="https://github.com/hyperledger-labs/cckit/pull/23" class=".btn">#23</a>
             </td>
             <td>
                 <b>
-                    Update docs
+                    Fix MustIdentities() and MustSamples() in cert testdata
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/cckit
                 
             </td>
             <td>
-                <nil>
+                I fixed MustSamples() and MustIdentities() to range from provided Cert slices instead of the public Certs.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-12 08:50:53 +0000 UTC
+        Created At 2023-02-20 11:34:51 +0000 UTC
     </div>
 </div>
 

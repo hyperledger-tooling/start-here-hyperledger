@@ -1,13 +1,13 @@
 
+[502](https://github.com/hyperledger-labs/orion-server/pull/502) [WIP] fix offset in blockstore
+
+[23](https://github.com/hyperledger-labs/cckit/pull/23) Fix MustIdentities() and MustSamples() in cert testdata
+
+[4048](https://github.com/hyperledger/fabric/pull/4048) Use local peer ledger height from ledger instead of discovery in Gateway (release-2.4)
+
+[4047](https://github.com/hyperledger/fabric/pull/4047) Use local peer ledger height from ledger instead of discovery in Gateway (release-2.5)
+
 [160](https://github.com/hyperledger-labs/orion-sdk-go/pull/160) Bump github.com/gogo/protobuf from 1.3.0 to 1.3.2
-
-[159](https://github.com/hyperledger-labs/orion-sdk-go/pull/159) Bump server version to v0.2.9
-
-[148](https://github.com/hyperledger-labs/microfab/pull/148) Bump golang.org/x/net from 0.4.0 to 0.7.0
-
-[457](https://github.com/hyperledger-labs/fabric-token-sdk/pull/457) Bump golang.org/x/net from 0.1.0 to 0.7.0
-
-[374](https://github.com/hyperledger-labs/fabric-operations-console/pull/374) pass error messages from new console to ui
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
