@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4051" class=".btn">#4051</a>
+            </td>
+            <td>
+                <b>
+                    Gateway with BFT integration test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add integration test to gateway suite for transaction submission to BFT ordering service. Change gateway handling of “request already exists” error to treat it as a success, allowing the client to re-submit using the same txID.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-20 17:14:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4050" class=".btn">#4050</a>
+            </td>
+            <td>
+                <b>
+                    Async connections to endpoints
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add the AsyncConnect flag to the grpc connection code for gateway connections to endorsing peers and orderers
+
+Signed-off-by: andrew-coleman <andrew_coleman@uk.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-20 15:46:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4048" class=".btn">#4048</a>
             </td>
             <td>
