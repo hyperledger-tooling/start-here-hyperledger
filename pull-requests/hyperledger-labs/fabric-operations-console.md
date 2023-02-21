@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/376" class=".btn">#376</a>
+            </td>
+            <td>
+                <b>
+                    support contact removal
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Improvement (improvement to code, performance, etc)
+
+
+#### Description
+<!--- Describe your changes in detail, including motivation. -->
+
+support contact removal for open source console
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-21 05:22:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/375" class=".btn">#375</a>
             </td>
             <td>
