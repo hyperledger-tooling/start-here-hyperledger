@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/68" class=".btn">#68</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/69" class=".btn">#69</a>
             </td>
             <td>
                 <b>
-                    Updated appVersion to latest BPA commit hash
+                    Add Suomi test net and iGrant test net to default genesis list
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
                 
             </td>
             <td>
-                Signed-off-by: Bjoern Arnold <bjoern.arnold@bosch.io>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-29 16:46:31 +0000 UTC
+        Created At 2023-02-21 16:52:21 +0000 UTC
     </div>
 </div>
 

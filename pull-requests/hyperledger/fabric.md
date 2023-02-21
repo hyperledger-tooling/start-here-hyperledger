@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4058" class=".btn">#4058</a>
+            </td>
+            <td>
+                <b>
+                    Address comments on BFT PR
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-21 14:45:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4057" class=".btn">#4057</a>
             </td>
             <td>
@@ -1131,74 +1157,6 @@ Checklist (DELETE AFTER READING):
     </table>
     <div class="right-align">
         Created At 2023-02-14 21:47:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4025" class=".btn">#4025</a>
-            </td>
-            <td>
-                <b>
-                    Bump prometheus/client_golang to v1.14.0 (release-2.5)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump prometheus/client_golang to v1.14.0.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-14 17:59:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4024" class=".btn">#4024</a>
-            </td>
-            <td>
-                <b>
-                    Orderer v3: prevent bootstrap with system channel
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Yoav Tock <tock@il.ibm.com>
-Change-Id: I04947477982f0039366b7cc3ba08ce2f916c9d49
-
-#### Type of change
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-Orderer v3: prevent bootstrap with system channel
-
-#### Related issues
-Issue: #4020 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-14 15:26:57 +0000 UTC
     </div>
 </div>
 
