@@ -428,29 +428,3 @@ Signed-off-by: Alexandros Filios <alexandros.filios@ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/454" class=".btn">#454</a>
-            </td>
-            <td>
-                <b>
-                    Nwo enhancements
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-13 19:10:41 +0000 UTC
-    </div>
-</div>
-
