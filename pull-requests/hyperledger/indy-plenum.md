@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1626" class=".btn">#1626</a>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1630" class=".btn">#1630</a>
             </td>
             <td>
                 <b>
-                    fixed correct checkout version & tags fetch
+                    added dependencies
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/indy-plenum
                 
             </td>
             <td>
-                - Following fix made here; https://github.com/sovrin-foundation/sovrin/pull/315
-
-Signed-off-by: Wade Barnes <wade@neoterictech.ca>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-13 19:07:24 +0000 UTC
+        Created At 2023-02-21 13:01:41 +0000 UTC
     </div>
 </div>
 
