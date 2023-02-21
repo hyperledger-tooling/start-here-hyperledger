@@ -14,6 +14,68 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4055" class=".btn">#4055</a>
+            </td>
+            <td>
+                <b>
+                    Revert github.com/prometheus/client_golang to v1.11.1 (release-2.5)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The bump to v1.14.0 causes Fabric compilation issues on ubuntu docker images.
+See issue #4052 for details about the problematic build tag.
+For now, it is acceptable to revert to v1.11.1 where there is no such build tag.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-20 21:41:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4054" class=".btn">#4054</a>
+            </td>
+            <td>
+                <b>
+                    Revert github.com/prometheus/client_golang to v1.11.1 (main)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The bump to v1.14.0 causes Fabric compilation issues on ubuntu docker images.
+See issue hyperledger#4052 for details about the problematic build tag.
+For now, it is acceptable to revert to v1.11.1 where there is no such build tag.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-20 21:37:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4051" class=".btn">#4051</a>
             </td>
             <td>
@@ -1033,112 +1095,6 @@ Issue: #4020
     </table>
     <div class="right-align">
         Created At 2023-02-14 15:26:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4022" class=".btn">#4022</a>
-            </td>
-            <td>
-                <b>
-                    Edits up to Orderer considerations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Probably best to provide updates piecemeal for commentary or change of direction etc. - done up until the start of "Orderer considerations" section. 
-
-- Can "runaway situations" be described more precisely, formally.. 
-- We use "you" a lot so let's ensure that we always mean the same or similar role / authorization for the action. 
-- To be continued with a subsequent PR. 
-
-
-Signed-off-by: Josh Horton <joshh@us.ibm.com>
-
-<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
-
-<!--- Provide a descriptive summary of your changes in the Title above. -->
-
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Documentation update
-
-#### Description
-
-Per request, see the PR for details.
-
-#### Additional details
-
-To be continued next with Orderer considerations section.
-
-#### Related issues
-
-<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
-
-<!---
-#### Release Note
-If change impacts current users, uncomment Release Note heading and provide
-release note text.
-Also, copy release note text into the release specific /release_notes file.
--->
-
-<!--
-Checklist (DELETE AFTER READING):
-
-- `Signed-off-by` added to commits (required for DCO check to pass)
-- Tests have been added/updated (required for bug fixes and features)
-- Unit and/or integration tests pass locally
-- Run linters and checks locally using 'make checks'
-- If change requires documentation updates, make updates in pull request,
-  or open a separate issue and provide link
-- Squash commits into a single commit, unless a stack of commits is
-  intentional to assist reviewers or to preserve review comments.
-- For additional contribution guidelines see the project's CONTRIBUTING.md file
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-13 21:31:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4021" class=".btn">#4021</a>
-            </td>
-            <td>
-                <b>
-                    Bump prometheus/client_golang to v1.14.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump prometheus/client_golang to v1.14.0
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-13 19:30:53 +0000 UTC
     </div>
 </div>
 
