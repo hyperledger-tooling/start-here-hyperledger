@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-core
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2436" class=".btn">#2436</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2439" class=".btn">#2439</a>
             </td>
             <td>
                 <b>
-                    Move inactive maintainers to emeritus status
+                    change TransactionCommitCache to LRU
                 </b>
             </td>
         </tr>
@@ -27,21 +27,16 @@ permalink: /pull-requests/hyperledger/sawtooth-core
                 
             </td>
             <td>
-                The TOC approved a requirement that maintainers
-that have not been active in over three to six
-months be move to emeritus status.
+                TransactionCommitCache is currently based on a HashSet which depends on its clients to properly clean up their items in a timely fashion. However, under high load circumstances, this can be too long resulting in quiet OOM issues and in practice freezing the whole network.
 
-These maintainers have not been active in over
-one year.
+This changes the TransactionCommitCache to an uluru LRU. This is safe since the commit cache is based on data that cannot change and the worst that happens on a miss is a refetch from the store.
 
-hyperledger/toc#32
-
-Signed-off-by: Ry Jones <ry@linux.com>
+uluru is also updated to 3.0.0 which requires a minor change to `block_validator.rs` to account for the changed construction
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-18 20:35:11 +0000 UTC
+        Created At 2023-02-22 17:59:36 +0000 UTC
     </div>
 </div>
 

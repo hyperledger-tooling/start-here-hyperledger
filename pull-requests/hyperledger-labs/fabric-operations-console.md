@@ -49,44 +49,6 @@ Updating content based on feedback.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/376" class=".btn">#376</a>
-            </td>
-            <td>
-                <b>
-                    support contact removal
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Improvement (improvement to code, performance, etc)
-
-
-#### Description
-<!--- Describe your changes in detail, including motivation. -->
-
-support contact removal for open source console
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-21 05:22:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/375" class=".btn">#375</a>
             </td>
             <td>
@@ -365,76 +327,6 @@ More migration code. Includes calling the jupiter apis and creating the initial 
     </table>
     <div class="right-align">
         Created At 2023-02-16 01:39:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/367" class=".btn">#367</a>
-            </td>
-            <td>
-                <b>
-                    hide fabric verions that break chaincode in peer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-This hides selected peer versions that cause issue with node.js chaincode.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-15 17:02:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/366" class=".btn">#366</a>
-            </td>
-            <td>
-                <b>
-                    Migration part2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- New feature
-
-#### Description
-Added more migration content/code.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-15 14:25:30 +0000 UTC
     </div>
 </div>
 
