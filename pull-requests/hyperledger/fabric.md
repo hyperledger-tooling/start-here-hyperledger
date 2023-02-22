@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4062" class=".btn">#4062</a>
+            </td>
+            <td>
+                <b>
+                    Add Consensus.Type to orderer.yaml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Fixing incomplete implementation
+
+#### Description
+
+Currently, the way the orderer initialization logic works is it required defining a consensus type in the orderer.yaml. This commit adds the type to the orderer.yaml for completeness as done in the integration tests.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-22 13:18:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4060" class=".btn">#4060</a>
             </td>
             <td>
