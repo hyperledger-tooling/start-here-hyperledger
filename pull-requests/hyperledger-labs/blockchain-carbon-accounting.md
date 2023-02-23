@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/blockchain-carbon-accounting
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/668" class=".btn">#668</a>
+            </td>
+            <td>
+                <b>
+                    Update Readme for oil and gas data loader
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Reference solution to error reported in [Issue 666 ](https://github.com/hyperledger-labs/blockchain-carbon-accounting/issues/666)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-22 21:50:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/667" class=".btn">#667</a>
             </td>
             <td>

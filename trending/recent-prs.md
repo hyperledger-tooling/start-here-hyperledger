@@ -1,13 +1,13 @@
 
-[2439](https://github.com/hyperledger/sawtooth-core/pull/2439) change TransactionCommitCache to LRU
+[381](https://github.com/hyperledger-labs/fabric-operations-console/pull/381) fix errors when migrating a settings doc
 
-[4062](https://github.com/hyperledger/fabric/pull/4062) Add Consensus.Type to orderer.yaml
+[380](https://github.com/hyperledger-labs/fabric-operations-console/pull/380) prevent doc conflicts during restore
 
-[1631](https://github.com/hyperledger/indy-plenum/pull/1631) [v1.13.1-rc4] - Update Version Number for Release
+[668](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/668) Update Readme for oil and gas data loader
 
-[460](https://github.com/hyperledger-labs/fabric-smart-client/pull/460) Integrate FSC with Opentelemetry
+[2440](https://github.com/hyperledger/sawtooth-core/pull/2440) fix clippy warnings
 
-[4060](https://github.com/hyperledger/fabric/pull/4060) Different Output in logs
+[379](https://github.com/hyperledger-labs/fabric-operations-console/pull/379) remove json vaildation files from backups
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
