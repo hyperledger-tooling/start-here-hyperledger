@@ -1,13 +1,13 @@
 
-[381](https://github.com/hyperledger-labs/fabric-operations-console/pull/381) fix errors when migrating a settings doc
+[50](https://github.com/hyperledger-labs/yui-fabric-ibc/pull/50) Bump golang.org/x/text from 0.3.3 to 0.3.8
 
-[380](https://github.com/hyperledger-labs/fabric-operations-console/pull/380) prevent doc conflicts during restore
+[78](https://github.com/hyperledger-labs/yui-relayer/pull/78) build(deps): bump golang.org/x/text from 0.3.7 to 0.3.8 in /tests/chains/tendermint
 
-[668](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/668) Update Readme for oil and gas data loader
+[669](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/669) Bump sequelize from 6.20.1 to 6.28.2
 
-[2440](https://github.com/hyperledger/sawtooth-core/pull/2440) fix clippy warnings
+[354](https://github.com/hyperledger-labs/blockchain-explorer/pull/354) Bump sequelize from 6.12.2 to 6.28.2
 
-[379](https://github.com/hyperledger-labs/fabric-operations-console/pull/379) remove json vaildation files from backups
+[384](https://github.com/hyperledger-labs/fabric-operations-console/pull/384) add debug logs for db migration
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

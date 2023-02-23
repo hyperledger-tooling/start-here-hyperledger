@@ -14,45 +14,6 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4060" class=".btn">#4060</a>
-            </td>
-            <td>
-                <b>
-                    Different Output in logs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Documentation update
-
-#### Description
-
-<!--- Describe your changes in detail, including motivation. -->
-after run the "./network.sh createChannel" command I got this output "Channel 'mychannel' joined"
-
-![image](https://user-images.githubusercontent.com/42858378/220595643-3a42808c-8628-4ae3-aef5-675bd61cdd78.png)
-![image](https://user-images.githubusercontent.com/42858378/220595770-f106420a-b1f1-4ec1-b00c-5d95fe44be86.png)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-22 10:37:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4058" class=".btn">#4058</a>
             </td>
             <td>
