@@ -1,13 +1,13 @@
 
-[50](https://github.com/hyperledger-labs/yui-fabric-ibc/pull/50) Bump golang.org/x/text from 0.3.3 to 0.3.8
+[70](https://github.com/hyperledger-labs/fabric-opssc/pull/70) chore(deps): Bump golang.org/x/text from 0.3.7 to 0.3.8 in /sample-environments/fabric-samples/asset-transfer-private-data/chaincode-go
 
-[78](https://github.com/hyperledger-labs/yui-relayer/pull/78) build(deps): bump golang.org/x/text from 0.3.7 to 0.3.8 in /tests/chains/tendermint
+[504](https://github.com/hyperledger-labs/orion-server/pull/504) Bump golang.org/x/text from 0.3.7 to 0.3.8
 
-[669](https://github.com/hyperledger-labs/blockchain-carbon-accounting/pull/669) Bump sequelize from 6.20.1 to 6.28.2
+[55](https://github.com/hyperledger-labs/yui-corda-ibc/pull/55) Bump golang.org/x/text from 0.3.7 to 0.3.8
 
-[354](https://github.com/hyperledger-labs/blockchain-explorer/pull/354) Bump sequelize from 6.12.2 to 6.28.2
+[79](https://github.com/hyperledger-labs/yui-relayer/pull/79) build(deps): bump golang.org/x/text from 0.3.7 to 0.3.8
 
-[384](https://github.com/hyperledger-labs/fabric-operations-console/pull/384) add debug logs for db migration
+[381](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/381) fix(interopcc): Allow network-admin to delete Membership
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
