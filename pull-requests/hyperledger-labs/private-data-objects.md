@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/403" class=".btn">#403</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade to IAS v4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                IAS v3 has reached end-of-life. Moving to v4 to support SGX HW mode.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-23 02:58:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/402" class=".btn">#402</a>
             </td>
             <td>

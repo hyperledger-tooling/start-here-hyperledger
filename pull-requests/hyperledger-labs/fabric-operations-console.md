@@ -14,6 +14,111 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/384" class=".btn">#384</a>
+            </td>
+            <td>
+                <b>
+                    add debug logs for db migration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+Log settings file during migration.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-23 03:21:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/383" class=".btn">#383</a>
+            </td>
+            <td>
+                <b>
+                    apparently there's an s on the system db
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+
+apparently there's an `s` on the system db name. `athena-systems` 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-23 02:10:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/382" class=".btn">#382</a>
+            </td>
+            <td>
+                <b>
+                    change default db name to use dashes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+Changing the default database names for migration.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-23 01:48:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/381" class=".btn">#381</a>
             </td>
             <td>
@@ -396,77 +501,6 @@ Fixes console crash when retrieving a valid iam token & tweaks the version error
     </table>
     <div class="right-align">
         Created At 2023-02-16 15:03:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/369" class=".btn">#369</a>
-            </td>
-            <td>
-                <b>
-                    update release notes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Documentation update
-
-#### Description
-Update release notes.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-16 01:45:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/368" class=".btn">#368</a>
-            </td>
-            <td>
-                <b>
-                    hook up migration apis to jupiter endpoints
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-#### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- New feature
-
-#### Description
-More migration code. Includes calling the jupiter apis and creating the initial login credentials.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-16 01:39:24 +0000 UTC
     </div>
 </div>
 
