@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/sawtooth-core
             </td>
             <td>
                 <b>
-                    fix clippy warnings
+                    fix compiler errors and warnings
                 </b>
             </td>
         </tr>
