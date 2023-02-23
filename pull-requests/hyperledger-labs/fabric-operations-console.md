@@ -14,6 +14,146 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/381" class=".btn">#381</a>
+            </td>
+            <td>
+                <b>
+                    fix errors when migrating a settings doc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+Fixes bugs when migrating the settings doc.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-23 00:40:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/380" class=".btn">#380</a>
+            </td>
+            <td>
+                <b>
+                    prevent doc conflicts during restore
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+During a restore, if a doc doesn't exist it will causes a conflict when writing the doc (paradoxically). this PR fixes that.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-22 22:23:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/379" class=".btn">#379</a>
+            </td>
+            <td>
+                <b>
+                    remove json vaildation files from backups
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+The json validation file shouldn't be in a backup, too big.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-22 20:43:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/378" class=".btn">#378</a>
+            </td>
+            <td>
+                <b>
+                    allow backup/restore from different consoles that use different db names
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+Change format of backup docs to fix backup/restore flow in migration. Backup docs now include the database type, which indicates if its a session, system, or component database. Backup docs now omit the database name. The restore process will restore the database by its type against the current environment's db name.
+
+This allows backing up and restoring from different console environments that use different names for their databases.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-22 19:22:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/377" class=".btn">#377</a>
             </td>
             <td>
