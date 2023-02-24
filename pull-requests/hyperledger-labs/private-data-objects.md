@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/405" class=".btn">#405</a>
+            </td>
+            <td>
+                <b>
+                    Update threading to make the client work with Ubuntu 22
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Some pretty significant changes to the replication and transaction threading modules to address a problem where threads were not terminating in ubuntu 22. we were using the threadpoolexecutor in an unusual way. this moves back to more basic threads. in the future we should re-examine. threadpoolexecutor is probably the right way to go, but a lot of the logic will have to adjust to use it in the more traditional way.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-24 15:53:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/403" class=".btn">#403</a>
             </td>
             <td>
