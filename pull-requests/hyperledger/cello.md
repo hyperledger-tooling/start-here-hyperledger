@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/518" class=".btn">#518</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/520" class=".btn">#520</a>
             </td>
             <td>
                 <b>
-                    Remove the modules that have not been developed and unused code
+                    Allow deleting node w/o docker container
                 </b>
             </td>
         </tr>
@@ -27,16 +27,18 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                * Remove `ansible` agent module
-* Remove unused go `cmd` code
-* Remove `fabric-operator` module
+                Before, trying to delete a node with no active docker container
 
-Signed-off-by: Yuanmao Zhu <yuanmao@ualberta.ca>
+will cause ResourceNotFound error, and the node data in database
+
+can't be removed. Now before stopping and deleting docker containers,
+
+check if it exists or not. If not exists, delete the node from database directly.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-05 20:47:09 +0000 UTC
+        Created At 2023-02-17 14:32:02 +0000 UTC
     </div>
 </div>
 

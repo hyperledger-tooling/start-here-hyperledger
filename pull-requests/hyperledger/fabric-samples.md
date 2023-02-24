@@ -14,6 +14,1536 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/961" class=".btn">#961</a>
+            </td>
+            <td>
+                <b>
+                    Fix gradle version used in asset-transfer-basic/chaincode-java image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This patch fixes the gradle version used in asset-transfer-basic/chaincode-java build to 7.
+
+The reason is because the gradle version in the gradle:jdk11-alpine image is updated from 7 to 8, which seems to cause the build to fail. The result of running docker build command with gradle:jdk11-alpine are as follows:
+
+```bash
+Step 4/16 : RUN gradle --no-daemon build shadowJar -x checkstyleMain -x checkstyleTest
+ ---> Running in d245170e621f
+
+Welcome to Gradle 8.0.1!
+
+Here are the highlights of this release:
+ - Improvements to the Kotlin DSL
+ - Fine-grained parallelism from the first build with configuration cache
+ - Configurable Gradle user home cache cleanup
+
+For more details see https://docs.gradle.org/8.0.1/release-notes.html
+
+To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/8.0.1/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+Daemon will be stopped at the end of the build 
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/home/gradle/build.gradle' line: 7
+
+* What went wrong:
+An exception occurred applying plugin request [id: 'application']
+> Failed to apply plugin class 'com.github.jengelman.gradle.plugins.shadow.ShadowJavaPlugin'.
+   > You can't map a property that does not exist: propertyName=classifier
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 15s
+The command '/bin/sh -c gradle --no-daemon build shadowJar -x checkstyleMain -x checkstyleTest' returned a non-zero code: 1
+
+```
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-24 00:44:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/960" class=".btn">#960</a>
+            </td>
+            <td>
+                <b>
+                    Bump golang.org/x/text from 0.3.7 to 0.3.8 in /asset-transfer-basic/rest-api-go
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">go</span>
+            </td>
+            <td>
+                Bumps [golang.org/x/text](https://github.com/golang/text) from 0.3.7 to 0.3.8.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/golang/text/commit/434eadcdbc3b0256971992e8c70027278364c72c"><code>434eadc</code></a> language: reject excessively large Accept-Language strings</li>
+<li><a href="https://github.com/golang/text/commit/23407e72ed5b895a2dfd230aec777f4fbe026d6a"><code>23407e7</code></a> go.mod: ignore cyclic dependency for tagging</li>
+<li><a href="https://github.com/golang/text/commit/b18d3dd8a4b426ebedcf279b593e85ac4985b9d3"><code>b18d3dd</code></a> secure/precis: replace bytes.Compare with bytes.Equal</li>
+<li><a href="https://github.com/golang/text/commit/795e854ff348c9cac4fd0033ce04c417705dd0bb"><code>795e854</code></a> all: replace io/ioutil with io and os package</li>
+<li><a href="https://github.com/golang/text/commit/b0ca10ff35f1325c7d0ac7830fe3f036bd72d8f9"><code>b0ca10f</code></a> internal/language: bump script types to uint16 and update registry</li>
+<li><a href="https://github.com/golang/text/commit/ba9b0e1d4b03523c708709935fbc961124b6967b"><code>ba9b0e1</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/d03b41800055b01e3895b1e047af09733c93bf63"><code>d03b418</code></a> A+C: delete AUTHORS and CONTRIBUTORS</li>
+<li><a href="https://github.com/golang/text/commit/b4bca84b03619dba00657375259024a7f8ae6712"><code>b4bca84</code></a> language/display: fix Tag method comment</li>
+<li><a href="https://github.com/golang/text/commit/ea49e3e2d5b3f1518081d8bc53ffefc8bc60ecec"><code>ea49e3e</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/78819d01d041a94e055bbaa2d95e5e4d49e8f8a0"><code>78819d0</code></a> go.mod: update to golang.org/x/text v0.1.10</li>
+<li>Additional commits viewable in <a href="https://github.com/golang/text/compare/v0.3.7...v0.3.8">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/text&package-manager=go_modules&previous-version=0.3.7&new-version=0.3.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/fabric-samples/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-23 11:41:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/959" class=".btn">#959</a>
+            </td>
+            <td>
+                <b>
+                    Bump golang.org/x/text from 0.3.7 to 0.3.8 in /asset-transfer-basic/chaincode-external
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">go</span>
+            </td>
+            <td>
+                Bumps [golang.org/x/text](https://github.com/golang/text) from 0.3.7 to 0.3.8.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/golang/text/commit/434eadcdbc3b0256971992e8c70027278364c72c"><code>434eadc</code></a> language: reject excessively large Accept-Language strings</li>
+<li><a href="https://github.com/golang/text/commit/23407e72ed5b895a2dfd230aec777f4fbe026d6a"><code>23407e7</code></a> go.mod: ignore cyclic dependency for tagging</li>
+<li><a href="https://github.com/golang/text/commit/b18d3dd8a4b426ebedcf279b593e85ac4985b9d3"><code>b18d3dd</code></a> secure/precis: replace bytes.Compare with bytes.Equal</li>
+<li><a href="https://github.com/golang/text/commit/795e854ff348c9cac4fd0033ce04c417705dd0bb"><code>795e854</code></a> all: replace io/ioutil with io and os package</li>
+<li><a href="https://github.com/golang/text/commit/b0ca10ff35f1325c7d0ac7830fe3f036bd72d8f9"><code>b0ca10f</code></a> internal/language: bump script types to uint16 and update registry</li>
+<li><a href="https://github.com/golang/text/commit/ba9b0e1d4b03523c708709935fbc961124b6967b"><code>ba9b0e1</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/d03b41800055b01e3895b1e047af09733c93bf63"><code>d03b418</code></a> A+C: delete AUTHORS and CONTRIBUTORS</li>
+<li><a href="https://github.com/golang/text/commit/b4bca84b03619dba00657375259024a7f8ae6712"><code>b4bca84</code></a> language/display: fix Tag method comment</li>
+<li><a href="https://github.com/golang/text/commit/ea49e3e2d5b3f1518081d8bc53ffefc8bc60ecec"><code>ea49e3e</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/78819d01d041a94e055bbaa2d95e5e4d49e8f8a0"><code>78819d0</code></a> go.mod: update to golang.org/x/text v0.1.10</li>
+<li>Additional commits viewable in <a href="https://github.com/golang/text/compare/v0.3.7...v0.3.8">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/text&package-manager=go_modules&previous-version=0.3.7&new-version=0.3.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/fabric-samples/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-23 11:29:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/958" class=".btn">#958</a>
+            </td>
+            <td>
+                <b>
+                    Bump golang.org/x/text from 0.3.7 to 0.3.8 in /token-erc-721/chaincode-go
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">go</span>
+            </td>
+            <td>
+                Bumps [golang.org/x/text](https://github.com/golang/text) from 0.3.7 to 0.3.8.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/golang/text/commit/434eadcdbc3b0256971992e8c70027278364c72c"><code>434eadc</code></a> language: reject excessively large Accept-Language strings</li>
+<li><a href="https://github.com/golang/text/commit/23407e72ed5b895a2dfd230aec777f4fbe026d6a"><code>23407e7</code></a> go.mod: ignore cyclic dependency for tagging</li>
+<li><a href="https://github.com/golang/text/commit/b18d3dd8a4b426ebedcf279b593e85ac4985b9d3"><code>b18d3dd</code></a> secure/precis: replace bytes.Compare with bytes.Equal</li>
+<li><a href="https://github.com/golang/text/commit/795e854ff348c9cac4fd0033ce04c417705dd0bb"><code>795e854</code></a> all: replace io/ioutil with io and os package</li>
+<li><a href="https://github.com/golang/text/commit/b0ca10ff35f1325c7d0ac7830fe3f036bd72d8f9"><code>b0ca10f</code></a> internal/language: bump script types to uint16 and update registry</li>
+<li><a href="https://github.com/golang/text/commit/ba9b0e1d4b03523c708709935fbc961124b6967b"><code>ba9b0e1</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/d03b41800055b01e3895b1e047af09733c93bf63"><code>d03b418</code></a> A+C: delete AUTHORS and CONTRIBUTORS</li>
+<li><a href="https://github.com/golang/text/commit/b4bca84b03619dba00657375259024a7f8ae6712"><code>b4bca84</code></a> language/display: fix Tag method comment</li>
+<li><a href="https://github.com/golang/text/commit/ea49e3e2d5b3f1518081d8bc53ffefc8bc60ecec"><code>ea49e3e</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/78819d01d041a94e055bbaa2d95e5e4d49e8f8a0"><code>78819d0</code></a> go.mod: update to golang.org/x/text v0.1.10</li>
+<li>Additional commits viewable in <a href="https://github.com/golang/text/compare/v0.3.7...v0.3.8">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/text&package-manager=go_modules&previous-version=0.3.7&new-version=0.3.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/fabric-samples/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-23 11:13:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/957" class=".btn">#957</a>
+            </td>
+            <td>
+                <b>
+                    Bump golang.org/x/text from 0.3.7 to 0.3.8 in /token-utxo/chaincode-go
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">go</span>
+            </td>
+            <td>
+                Bumps [golang.org/x/text](https://github.com/golang/text) from 0.3.7 to 0.3.8.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/golang/text/commit/434eadcdbc3b0256971992e8c70027278364c72c"><code>434eadc</code></a> language: reject excessively large Accept-Language strings</li>
+<li><a href="https://github.com/golang/text/commit/23407e72ed5b895a2dfd230aec777f4fbe026d6a"><code>23407e7</code></a> go.mod: ignore cyclic dependency for tagging</li>
+<li><a href="https://github.com/golang/text/commit/b18d3dd8a4b426ebedcf279b593e85ac4985b9d3"><code>b18d3dd</code></a> secure/precis: replace bytes.Compare with bytes.Equal</li>
+<li><a href="https://github.com/golang/text/commit/795e854ff348c9cac4fd0033ce04c417705dd0bb"><code>795e854</code></a> all: replace io/ioutil with io and os package</li>
+<li><a href="https://github.com/golang/text/commit/b0ca10ff35f1325c7d0ac7830fe3f036bd72d8f9"><code>b0ca10f</code></a> internal/language: bump script types to uint16 and update registry</li>
+<li><a href="https://github.com/golang/text/commit/ba9b0e1d4b03523c708709935fbc961124b6967b"><code>ba9b0e1</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/d03b41800055b01e3895b1e047af09733c93bf63"><code>d03b418</code></a> A+C: delete AUTHORS and CONTRIBUTORS</li>
+<li><a href="https://github.com/golang/text/commit/b4bca84b03619dba00657375259024a7f8ae6712"><code>b4bca84</code></a> language/display: fix Tag method comment</li>
+<li><a href="https://github.com/golang/text/commit/ea49e3e2d5b3f1518081d8bc53ffefc8bc60ecec"><code>ea49e3e</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/78819d01d041a94e055bbaa2d95e5e4d49e8f8a0"><code>78819d0</code></a> go.mod: update to golang.org/x/text v0.1.10</li>
+<li>Additional commits viewable in <a href="https://github.com/golang/text/compare/v0.3.7...v0.3.8">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/text&package-manager=go_modules&previous-version=0.3.7&new-version=0.3.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/fabric-samples/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-23 04:43:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/956" class=".btn">#956</a>
+            </td>
+            <td>
+                <b>
+                    Bump golang.org/x/text from 0.3.7 to 0.3.8 in /asset-transfer-ledger-queries/chaincode-go
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">go</span>
+            </td>
+            <td>
+                Bumps [golang.org/x/text](https://github.com/golang/text) from 0.3.7 to 0.3.8.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/golang/text/commit/434eadcdbc3b0256971992e8c70027278364c72c"><code>434eadc</code></a> language: reject excessively large Accept-Language strings</li>
+<li><a href="https://github.com/golang/text/commit/23407e72ed5b895a2dfd230aec777f4fbe026d6a"><code>23407e7</code></a> go.mod: ignore cyclic dependency for tagging</li>
+<li><a href="https://github.com/golang/text/commit/b18d3dd8a4b426ebedcf279b593e85ac4985b9d3"><code>b18d3dd</code></a> secure/precis: replace bytes.Compare with bytes.Equal</li>
+<li><a href="https://github.com/golang/text/commit/795e854ff348c9cac4fd0033ce04c417705dd0bb"><code>795e854</code></a> all: replace io/ioutil with io and os package</li>
+<li><a href="https://github.com/golang/text/commit/b0ca10ff35f1325c7d0ac7830fe3f036bd72d8f9"><code>b0ca10f</code></a> internal/language: bump script types to uint16 and update registry</li>
+<li><a href="https://github.com/golang/text/commit/ba9b0e1d4b03523c708709935fbc961124b6967b"><code>ba9b0e1</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/d03b41800055b01e3895b1e047af09733c93bf63"><code>d03b418</code></a> A+C: delete AUTHORS and CONTRIBUTORS</li>
+<li><a href="https://github.com/golang/text/commit/b4bca84b03619dba00657375259024a7f8ae6712"><code>b4bca84</code></a> language/display: fix Tag method comment</li>
+<li><a href="https://github.com/golang/text/commit/ea49e3e2d5b3f1518081d8bc53ffefc8bc60ecec"><code>ea49e3e</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/78819d01d041a94e055bbaa2d95e5e4d49e8f8a0"><code>78819d0</code></a> go.mod: update to golang.org/x/text v0.1.10</li>
+<li>Additional commits viewable in <a href="https://github.com/golang/text/compare/v0.3.7...v0.3.8">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/text&package-manager=go_modules&previous-version=0.3.7&new-version=0.3.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/fabric-samples/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-23 04:43:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/955" class=".btn">#955</a>
+            </td>
+            <td>
+                <b>
+                    Bump golang.org/x/text from 0.3.7 to 0.3.8 in /asset-transfer-abac/chaincode-go
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">go</span>
+            </td>
+            <td>
+                Bumps [golang.org/x/text](https://github.com/golang/text) from 0.3.7 to 0.3.8.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/golang/text/commit/434eadcdbc3b0256971992e8c70027278364c72c"><code>434eadc</code></a> language: reject excessively large Accept-Language strings</li>
+<li><a href="https://github.com/golang/text/commit/23407e72ed5b895a2dfd230aec777f4fbe026d6a"><code>23407e7</code></a> go.mod: ignore cyclic dependency for tagging</li>
+<li><a href="https://github.com/golang/text/commit/b18d3dd8a4b426ebedcf279b593e85ac4985b9d3"><code>b18d3dd</code></a> secure/precis: replace bytes.Compare with bytes.Equal</li>
+<li><a href="https://github.com/golang/text/commit/795e854ff348c9cac4fd0033ce04c417705dd0bb"><code>795e854</code></a> all: replace io/ioutil with io and os package</li>
+<li><a href="https://github.com/golang/text/commit/b0ca10ff35f1325c7d0ac7830fe3f036bd72d8f9"><code>b0ca10f</code></a> internal/language: bump script types to uint16 and update registry</li>
+<li><a href="https://github.com/golang/text/commit/ba9b0e1d4b03523c708709935fbc961124b6967b"><code>ba9b0e1</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/d03b41800055b01e3895b1e047af09733c93bf63"><code>d03b418</code></a> A+C: delete AUTHORS and CONTRIBUTORS</li>
+<li><a href="https://github.com/golang/text/commit/b4bca84b03619dba00657375259024a7f8ae6712"><code>b4bca84</code></a> language/display: fix Tag method comment</li>
+<li><a href="https://github.com/golang/text/commit/ea49e3e2d5b3f1518081d8bc53ffefc8bc60ecec"><code>ea49e3e</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/78819d01d041a94e055bbaa2d95e5e4d49e8f8a0"><code>78819d0</code></a> go.mod: update to golang.org/x/text v0.1.10</li>
+<li>Additional commits viewable in <a href="https://github.com/golang/text/compare/v0.3.7...v0.3.8">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/text&package-manager=go_modules&previous-version=0.3.7&new-version=0.3.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/fabric-samples/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-23 04:43:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/954" class=".btn">#954</a>
+            </td>
+            <td>
+                <b>
+                    Bump golang.org/x/text from 0.3.7 to 0.3.8 in /token-erc-20/chaincode-go
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">go</span>
+            </td>
+            <td>
+                Bumps [golang.org/x/text](https://github.com/golang/text) from 0.3.7 to 0.3.8.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/golang/text/commit/434eadcdbc3b0256971992e8c70027278364c72c"><code>434eadc</code></a> language: reject excessively large Accept-Language strings</li>
+<li><a href="https://github.com/golang/text/commit/23407e72ed5b895a2dfd230aec777f4fbe026d6a"><code>23407e7</code></a> go.mod: ignore cyclic dependency for tagging</li>
+<li><a href="https://github.com/golang/text/commit/b18d3dd8a4b426ebedcf279b593e85ac4985b9d3"><code>b18d3dd</code></a> secure/precis: replace bytes.Compare with bytes.Equal</li>
+<li><a href="https://github.com/golang/text/commit/795e854ff348c9cac4fd0033ce04c417705dd0bb"><code>795e854</code></a> all: replace io/ioutil with io and os package</li>
+<li><a href="https://github.com/golang/text/commit/b0ca10ff35f1325c7d0ac7830fe3f036bd72d8f9"><code>b0ca10f</code></a> internal/language: bump script types to uint16 and update registry</li>
+<li><a href="https://github.com/golang/text/commit/ba9b0e1d4b03523c708709935fbc961124b6967b"><code>ba9b0e1</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/d03b41800055b01e3895b1e047af09733c93bf63"><code>d03b418</code></a> A+C: delete AUTHORS and CONTRIBUTORS</li>
+<li><a href="https://github.com/golang/text/commit/b4bca84b03619dba00657375259024a7f8ae6712"><code>b4bca84</code></a> language/display: fix Tag method comment</li>
+<li><a href="https://github.com/golang/text/commit/ea49e3e2d5b3f1518081d8bc53ffefc8bc60ecec"><code>ea49e3e</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/78819d01d041a94e055bbaa2d95e5e4d49e8f8a0"><code>78819d0</code></a> go.mod: update to golang.org/x/text v0.1.10</li>
+<li>Additional commits viewable in <a href="https://github.com/golang/text/compare/v0.3.7...v0.3.8">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/text&package-manager=go_modules&previous-version=0.3.7&new-version=0.3.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/fabric-samples/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-23 04:43:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/953" class=".btn">#953</a>
+            </td>
+            <td>
+                <b>
+                    Bump golang.org/x/text from 0.3.7 to 0.3.8 in /asset-transfer-private-data/chaincode-go
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">go</span>
+            </td>
+            <td>
+                Bumps [golang.org/x/text](https://github.com/golang/text) from 0.3.7 to 0.3.8.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/golang/text/commit/434eadcdbc3b0256971992e8c70027278364c72c"><code>434eadc</code></a> language: reject excessively large Accept-Language strings</li>
+<li><a href="https://github.com/golang/text/commit/23407e72ed5b895a2dfd230aec777f4fbe026d6a"><code>23407e7</code></a> go.mod: ignore cyclic dependency for tagging</li>
+<li><a href="https://github.com/golang/text/commit/b18d3dd8a4b426ebedcf279b593e85ac4985b9d3"><code>b18d3dd</code></a> secure/precis: replace bytes.Compare with bytes.Equal</li>
+<li><a href="https://github.com/golang/text/commit/795e854ff348c9cac4fd0033ce04c417705dd0bb"><code>795e854</code></a> all: replace io/ioutil with io and os package</li>
+<li><a href="https://github.com/golang/text/commit/b0ca10ff35f1325c7d0ac7830fe3f036bd72d8f9"><code>b0ca10f</code></a> internal/language: bump script types to uint16 and update registry</li>
+<li><a href="https://github.com/golang/text/commit/ba9b0e1d4b03523c708709935fbc961124b6967b"><code>ba9b0e1</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/d03b41800055b01e3895b1e047af09733c93bf63"><code>d03b418</code></a> A+C: delete AUTHORS and CONTRIBUTORS</li>
+<li><a href="https://github.com/golang/text/commit/b4bca84b03619dba00657375259024a7f8ae6712"><code>b4bca84</code></a> language/display: fix Tag method comment</li>
+<li><a href="https://github.com/golang/text/commit/ea49e3e2d5b3f1518081d8bc53ffefc8bc60ecec"><code>ea49e3e</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/78819d01d041a94e055bbaa2d95e5e4d49e8f8a0"><code>78819d0</code></a> go.mod: update to golang.org/x/text v0.1.10</li>
+<li>Additional commits viewable in <a href="https://github.com/golang/text/compare/v0.3.7...v0.3.8">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/text&package-manager=go_modules&previous-version=0.3.7&new-version=0.3.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/fabric-samples/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-23 04:43:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/952" class=".btn">#952</a>
+            </td>
+            <td>
+                <b>
+                    Bump golang.org/x/text from 0.3.7 to 0.3.8 in /asset-transfer-basic/chaincode-go
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">go</span>
+            </td>
+            <td>
+                Bumps [golang.org/x/text](https://github.com/golang/text) from 0.3.7 to 0.3.8.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/golang/text/commit/434eadcdbc3b0256971992e8c70027278364c72c"><code>434eadc</code></a> language: reject excessively large Accept-Language strings</li>
+<li><a href="https://github.com/golang/text/commit/23407e72ed5b895a2dfd230aec777f4fbe026d6a"><code>23407e7</code></a> go.mod: ignore cyclic dependency for tagging</li>
+<li><a href="https://github.com/golang/text/commit/b18d3dd8a4b426ebedcf279b593e85ac4985b9d3"><code>b18d3dd</code></a> secure/precis: replace bytes.Compare with bytes.Equal</li>
+<li><a href="https://github.com/golang/text/commit/795e854ff348c9cac4fd0033ce04c417705dd0bb"><code>795e854</code></a> all: replace io/ioutil with io and os package</li>
+<li><a href="https://github.com/golang/text/commit/b0ca10ff35f1325c7d0ac7830fe3f036bd72d8f9"><code>b0ca10f</code></a> internal/language: bump script types to uint16 and update registry</li>
+<li><a href="https://github.com/golang/text/commit/ba9b0e1d4b03523c708709935fbc961124b6967b"><code>ba9b0e1</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/d03b41800055b01e3895b1e047af09733c93bf63"><code>d03b418</code></a> A+C: delete AUTHORS and CONTRIBUTORS</li>
+<li><a href="https://github.com/golang/text/commit/b4bca84b03619dba00657375259024a7f8ae6712"><code>b4bca84</code></a> language/display: fix Tag method comment</li>
+<li><a href="https://github.com/golang/text/commit/ea49e3e2d5b3f1518081d8bc53ffefc8bc60ecec"><code>ea49e3e</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/78819d01d041a94e055bbaa2d95e5e4d49e8f8a0"><code>78819d0</code></a> go.mod: update to golang.org/x/text v0.1.10</li>
+<li>Additional commits viewable in <a href="https://github.com/golang/text/compare/v0.3.7...v0.3.8">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/text&package-manager=go_modules&previous-version=0.3.7&new-version=0.3.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/fabric-samples/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-23 04:43:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/951" class=".btn">#951</a>
+            </td>
+            <td>
+                <b>
+                    Bump golang.org/x/text from 0.3.7 to 0.3.8 in /auction-dutch/chaincode-go
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">go</span>
+            </td>
+            <td>
+                Bumps [golang.org/x/text](https://github.com/golang/text) from 0.3.7 to 0.3.8.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/golang/text/commit/434eadcdbc3b0256971992e8c70027278364c72c"><code>434eadc</code></a> language: reject excessively large Accept-Language strings</li>
+<li><a href="https://github.com/golang/text/commit/23407e72ed5b895a2dfd230aec777f4fbe026d6a"><code>23407e7</code></a> go.mod: ignore cyclic dependency for tagging</li>
+<li><a href="https://github.com/golang/text/commit/b18d3dd8a4b426ebedcf279b593e85ac4985b9d3"><code>b18d3dd</code></a> secure/precis: replace bytes.Compare with bytes.Equal</li>
+<li><a href="https://github.com/golang/text/commit/795e854ff348c9cac4fd0033ce04c417705dd0bb"><code>795e854</code></a> all: replace io/ioutil with io and os package</li>
+<li><a href="https://github.com/golang/text/commit/b0ca10ff35f1325c7d0ac7830fe3f036bd72d8f9"><code>b0ca10f</code></a> internal/language: bump script types to uint16 and update registry</li>
+<li><a href="https://github.com/golang/text/commit/ba9b0e1d4b03523c708709935fbc961124b6967b"><code>ba9b0e1</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/d03b41800055b01e3895b1e047af09733c93bf63"><code>d03b418</code></a> A+C: delete AUTHORS and CONTRIBUTORS</li>
+<li><a href="https://github.com/golang/text/commit/b4bca84b03619dba00657375259024a7f8ae6712"><code>b4bca84</code></a> language/display: fix Tag method comment</li>
+<li><a href="https://github.com/golang/text/commit/ea49e3e2d5b3f1518081d8bc53ffefc8bc60ecec"><code>ea49e3e</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/78819d01d041a94e055bbaa2d95e5e4d49e8f8a0"><code>78819d0</code></a> go.mod: update to golang.org/x/text v0.1.10</li>
+<li>Additional commits viewable in <a href="https://github.com/golang/text/compare/v0.3.7...v0.3.8">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/text&package-manager=go_modules&previous-version=0.3.7&new-version=0.3.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/fabric-samples/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-23 04:42:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/950" class=".btn">#950</a>
+            </td>
+            <td>
+                <b>
+                    Bump golang.org/x/text from 0.3.7 to 0.3.8 in /high-throughput/application-go
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">go</span>
+            </td>
+            <td>
+                Bumps [golang.org/x/text](https://github.com/golang/text) from 0.3.7 to 0.3.8.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/golang/text/commit/434eadcdbc3b0256971992e8c70027278364c72c"><code>434eadc</code></a> language: reject excessively large Accept-Language strings</li>
+<li><a href="https://github.com/golang/text/commit/23407e72ed5b895a2dfd230aec777f4fbe026d6a"><code>23407e7</code></a> go.mod: ignore cyclic dependency for tagging</li>
+<li><a href="https://github.com/golang/text/commit/b18d3dd8a4b426ebedcf279b593e85ac4985b9d3"><code>b18d3dd</code></a> secure/precis: replace bytes.Compare with bytes.Equal</li>
+<li><a href="https://github.com/golang/text/commit/795e854ff348c9cac4fd0033ce04c417705dd0bb"><code>795e854</code></a> all: replace io/ioutil with io and os package</li>
+<li><a href="https://github.com/golang/text/commit/b0ca10ff35f1325c7d0ac7830fe3f036bd72d8f9"><code>b0ca10f</code></a> internal/language: bump script types to uint16 and update registry</li>
+<li><a href="https://github.com/golang/text/commit/ba9b0e1d4b03523c708709935fbc961124b6967b"><code>ba9b0e1</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/d03b41800055b01e3895b1e047af09733c93bf63"><code>d03b418</code></a> A+C: delete AUTHORS and CONTRIBUTORS</li>
+<li><a href="https://github.com/golang/text/commit/b4bca84b03619dba00657375259024a7f8ae6712"><code>b4bca84</code></a> language/display: fix Tag method comment</li>
+<li><a href="https://github.com/golang/text/commit/ea49e3e2d5b3f1518081d8bc53ffefc8bc60ecec"><code>ea49e3e</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/78819d01d041a94e055bbaa2d95e5e4d49e8f8a0"><code>78819d0</code></a> go.mod: update to golang.org/x/text v0.1.10</li>
+<li>Additional commits viewable in <a href="https://github.com/golang/text/compare/v0.3.7...v0.3.8">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/text&package-manager=go_modules&previous-version=0.3.7&new-version=0.3.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/fabric-samples/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-23 04:42:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/949" class=".btn">#949</a>
+            </td>
+            <td>
+                <b>
+                    Bump golang.org/x/text from 0.3.7 to 0.3.8 in /asset-transfer-secured-agreement/chaincode-go
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">go</span>
+            </td>
+            <td>
+                Bumps [golang.org/x/text](https://github.com/golang/text) from 0.3.7 to 0.3.8.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/golang/text/commit/434eadcdbc3b0256971992e8c70027278364c72c"><code>434eadc</code></a> language: reject excessively large Accept-Language strings</li>
+<li><a href="https://github.com/golang/text/commit/23407e72ed5b895a2dfd230aec777f4fbe026d6a"><code>23407e7</code></a> go.mod: ignore cyclic dependency for tagging</li>
+<li><a href="https://github.com/golang/text/commit/b18d3dd8a4b426ebedcf279b593e85ac4985b9d3"><code>b18d3dd</code></a> secure/precis: replace bytes.Compare with bytes.Equal</li>
+<li><a href="https://github.com/golang/text/commit/795e854ff348c9cac4fd0033ce04c417705dd0bb"><code>795e854</code></a> all: replace io/ioutil with io and os package</li>
+<li><a href="https://github.com/golang/text/commit/b0ca10ff35f1325c7d0ac7830fe3f036bd72d8f9"><code>b0ca10f</code></a> internal/language: bump script types to uint16 and update registry</li>
+<li><a href="https://github.com/golang/text/commit/ba9b0e1d4b03523c708709935fbc961124b6967b"><code>ba9b0e1</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/d03b41800055b01e3895b1e047af09733c93bf63"><code>d03b418</code></a> A+C: delete AUTHORS and CONTRIBUTORS</li>
+<li><a href="https://github.com/golang/text/commit/b4bca84b03619dba00657375259024a7f8ae6712"><code>b4bca84</code></a> language/display: fix Tag method comment</li>
+<li><a href="https://github.com/golang/text/commit/ea49e3e2d5b3f1518081d8bc53ffefc8bc60ecec"><code>ea49e3e</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/78819d01d041a94e055bbaa2d95e5e4d49e8f8a0"><code>78819d0</code></a> go.mod: update to golang.org/x/text v0.1.10</li>
+<li>Additional commits viewable in <a href="https://github.com/golang/text/compare/v0.3.7...v0.3.8">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/text&package-manager=go_modules&previous-version=0.3.7&new-version=0.3.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/fabric-samples/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-23 04:42:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/948" class=".btn">#948</a>
+            </td>
+            <td>
+                <b>
+                    Bump golang.org/x/text from 0.3.7 to 0.3.8 in /auction-simple/chaincode-go
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">go</span>
+            </td>
+            <td>
+                Bumps [golang.org/x/text](https://github.com/golang/text) from 0.3.7 to 0.3.8.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/golang/text/commit/434eadcdbc3b0256971992e8c70027278364c72c"><code>434eadc</code></a> language: reject excessively large Accept-Language strings</li>
+<li><a href="https://github.com/golang/text/commit/23407e72ed5b895a2dfd230aec777f4fbe026d6a"><code>23407e7</code></a> go.mod: ignore cyclic dependency for tagging</li>
+<li><a href="https://github.com/golang/text/commit/b18d3dd8a4b426ebedcf279b593e85ac4985b9d3"><code>b18d3dd</code></a> secure/precis: replace bytes.Compare with bytes.Equal</li>
+<li><a href="https://github.com/golang/text/commit/795e854ff348c9cac4fd0033ce04c417705dd0bb"><code>795e854</code></a> all: replace io/ioutil with io and os package</li>
+<li><a href="https://github.com/golang/text/commit/b0ca10ff35f1325c7d0ac7830fe3f036bd72d8f9"><code>b0ca10f</code></a> internal/language: bump script types to uint16 and update registry</li>
+<li><a href="https://github.com/golang/text/commit/ba9b0e1d4b03523c708709935fbc961124b6967b"><code>ba9b0e1</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/d03b41800055b01e3895b1e047af09733c93bf63"><code>d03b418</code></a> A+C: delete AUTHORS and CONTRIBUTORS</li>
+<li><a href="https://github.com/golang/text/commit/b4bca84b03619dba00657375259024a7f8ae6712"><code>b4bca84</code></a> language/display: fix Tag method comment</li>
+<li><a href="https://github.com/golang/text/commit/ea49e3e2d5b3f1518081d8bc53ffefc8bc60ecec"><code>ea49e3e</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/78819d01d041a94e055bbaa2d95e5e4d49e8f8a0"><code>78819d0</code></a> go.mod: update to golang.org/x/text v0.1.10</li>
+<li>Additional commits viewable in <a href="https://github.com/golang/text/compare/v0.3.7...v0.3.8">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/text&package-manager=go_modules&previous-version=0.3.7&new-version=0.3.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/fabric-samples/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-23 04:42:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/947" class=".btn">#947</a>
+            </td>
+            <td>
+                <b>
+                    Bump golang.org/x/text from 0.3.2 to 0.3.8 in /asset-transfer-basic/application-go
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">go</span>
+            </td>
+            <td>
+                Bumps [golang.org/x/text](https://github.com/golang/text) from 0.3.2 to 0.3.8.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/golang/text/commit/434eadcdbc3b0256971992e8c70027278364c72c"><code>434eadc</code></a> language: reject excessively large Accept-Language strings</li>
+<li><a href="https://github.com/golang/text/commit/23407e72ed5b895a2dfd230aec777f4fbe026d6a"><code>23407e7</code></a> go.mod: ignore cyclic dependency for tagging</li>
+<li><a href="https://github.com/golang/text/commit/b18d3dd8a4b426ebedcf279b593e85ac4985b9d3"><code>b18d3dd</code></a> secure/precis: replace bytes.Compare with bytes.Equal</li>
+<li><a href="https://github.com/golang/text/commit/795e854ff348c9cac4fd0033ce04c417705dd0bb"><code>795e854</code></a> all: replace io/ioutil with io and os package</li>
+<li><a href="https://github.com/golang/text/commit/b0ca10ff35f1325c7d0ac7830fe3f036bd72d8f9"><code>b0ca10f</code></a> internal/language: bump script types to uint16 and update registry</li>
+<li><a href="https://github.com/golang/text/commit/ba9b0e1d4b03523c708709935fbc961124b6967b"><code>ba9b0e1</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/d03b41800055b01e3895b1e047af09733c93bf63"><code>d03b418</code></a> A+C: delete AUTHORS and CONTRIBUTORS</li>
+<li><a href="https://github.com/golang/text/commit/b4bca84b03619dba00657375259024a7f8ae6712"><code>b4bca84</code></a> language/display: fix Tag method comment</li>
+<li><a href="https://github.com/golang/text/commit/ea49e3e2d5b3f1518081d8bc53ffefc8bc60ecec"><code>ea49e3e</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/78819d01d041a94e055bbaa2d95e5e4d49e8f8a0"><code>78819d0</code></a> go.mod: update to golang.org/x/text v0.1.10</li>
+<li>Additional commits viewable in <a href="https://github.com/golang/text/compare/v0.3.2...v0.3.8">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/text&package-manager=go_modules&previous-version=0.3.2&new-version=0.3.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/fabric-samples/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-23 03:39:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/946" class=".btn">#946</a>
+            </td>
+            <td>
+                <b>
+                    Bump golang.org/x/text from 0.3.7 to 0.3.8 in /token-erc-1155/chaincode-go
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">go</span>
+            </td>
+            <td>
+                Bumps [golang.org/x/text](https://github.com/golang/text) from 0.3.7 to 0.3.8.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/golang/text/commit/434eadcdbc3b0256971992e8c70027278364c72c"><code>434eadc</code></a> language: reject excessively large Accept-Language strings</li>
+<li><a href="https://github.com/golang/text/commit/23407e72ed5b895a2dfd230aec777f4fbe026d6a"><code>23407e7</code></a> go.mod: ignore cyclic dependency for tagging</li>
+<li><a href="https://github.com/golang/text/commit/b18d3dd8a4b426ebedcf279b593e85ac4985b9d3"><code>b18d3dd</code></a> secure/precis: replace bytes.Compare with bytes.Equal</li>
+<li><a href="https://github.com/golang/text/commit/795e854ff348c9cac4fd0033ce04c417705dd0bb"><code>795e854</code></a> all: replace io/ioutil with io and os package</li>
+<li><a href="https://github.com/golang/text/commit/b0ca10ff35f1325c7d0ac7830fe3f036bd72d8f9"><code>b0ca10f</code></a> internal/language: bump script types to uint16 and update registry</li>
+<li><a href="https://github.com/golang/text/commit/ba9b0e1d4b03523c708709935fbc961124b6967b"><code>ba9b0e1</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/d03b41800055b01e3895b1e047af09733c93bf63"><code>d03b418</code></a> A+C: delete AUTHORS and CONTRIBUTORS</li>
+<li><a href="https://github.com/golang/text/commit/b4bca84b03619dba00657375259024a7f8ae6712"><code>b4bca84</code></a> language/display: fix Tag method comment</li>
+<li><a href="https://github.com/golang/text/commit/ea49e3e2d5b3f1518081d8bc53ffefc8bc60ecec"><code>ea49e3e</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/78819d01d041a94e055bbaa2d95e5e4d49e8f8a0"><code>78819d0</code></a> go.mod: update to golang.org/x/text v0.1.10</li>
+<li>Additional commits viewable in <a href="https://github.com/golang/text/compare/v0.3.7...v0.3.8">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/text&package-manager=go_modules&previous-version=0.3.7&new-version=0.3.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/fabric-samples/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-23 02:06:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/945" class=".btn">#945</a>
+            </td>
+            <td>
+                <b>
+                    Bump golang.org/x/text from 0.3.7 to 0.3.8 in /chaincode/abstore/go
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">go</span>
+            </td>
+            <td>
+                Bumps [golang.org/x/text](https://github.com/golang/text) from 0.3.7 to 0.3.8.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/golang/text/commit/434eadcdbc3b0256971992e8c70027278364c72c"><code>434eadc</code></a> language: reject excessively large Accept-Language strings</li>
+<li><a href="https://github.com/golang/text/commit/23407e72ed5b895a2dfd230aec777f4fbe026d6a"><code>23407e7</code></a> go.mod: ignore cyclic dependency for tagging</li>
+<li><a href="https://github.com/golang/text/commit/b18d3dd8a4b426ebedcf279b593e85ac4985b9d3"><code>b18d3dd</code></a> secure/precis: replace bytes.Compare with bytes.Equal</li>
+<li><a href="https://github.com/golang/text/commit/795e854ff348c9cac4fd0033ce04c417705dd0bb"><code>795e854</code></a> all: replace io/ioutil with io and os package</li>
+<li><a href="https://github.com/golang/text/commit/b0ca10ff35f1325c7d0ac7830fe3f036bd72d8f9"><code>b0ca10f</code></a> internal/language: bump script types to uint16 and update registry</li>
+<li><a href="https://github.com/golang/text/commit/ba9b0e1d4b03523c708709935fbc961124b6967b"><code>ba9b0e1</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/d03b41800055b01e3895b1e047af09733c93bf63"><code>d03b418</code></a> A+C: delete AUTHORS and CONTRIBUTORS</li>
+<li><a href="https://github.com/golang/text/commit/b4bca84b03619dba00657375259024a7f8ae6712"><code>b4bca84</code></a> language/display: fix Tag method comment</li>
+<li><a href="https://github.com/golang/text/commit/ea49e3e2d5b3f1518081d8bc53ffefc8bc60ecec"><code>ea49e3e</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/78819d01d041a94e055bbaa2d95e5e4d49e8f8a0"><code>78819d0</code></a> go.mod: update to golang.org/x/text v0.1.10</li>
+<li>Additional commits viewable in <a href="https://github.com/golang/text/compare/v0.3.7...v0.3.8">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/text&package-manager=go_modules&previous-version=0.3.7&new-version=0.3.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/fabric-samples/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-23 02:06:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/944" class=".btn">#944</a>
+            </td>
+            <td>
+                <b>
+                    Bump golang.org/x/text from 0.3.7 to 0.3.8 in /auction-dutch/chaincode-go-auditor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">go</span>
+            </td>
+            <td>
+                Bumps [golang.org/x/text](https://github.com/golang/text) from 0.3.7 to 0.3.8.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/golang/text/commit/434eadcdbc3b0256971992e8c70027278364c72c"><code>434eadc</code></a> language: reject excessively large Accept-Language strings</li>
+<li><a href="https://github.com/golang/text/commit/23407e72ed5b895a2dfd230aec777f4fbe026d6a"><code>23407e7</code></a> go.mod: ignore cyclic dependency for tagging</li>
+<li><a href="https://github.com/golang/text/commit/b18d3dd8a4b426ebedcf279b593e85ac4985b9d3"><code>b18d3dd</code></a> secure/precis: replace bytes.Compare with bytes.Equal</li>
+<li><a href="https://github.com/golang/text/commit/795e854ff348c9cac4fd0033ce04c417705dd0bb"><code>795e854</code></a> all: replace io/ioutil with io and os package</li>
+<li><a href="https://github.com/golang/text/commit/b0ca10ff35f1325c7d0ac7830fe3f036bd72d8f9"><code>b0ca10f</code></a> internal/language: bump script types to uint16 and update registry</li>
+<li><a href="https://github.com/golang/text/commit/ba9b0e1d4b03523c708709935fbc961124b6967b"><code>ba9b0e1</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/d03b41800055b01e3895b1e047af09733c93bf63"><code>d03b418</code></a> A+C: delete AUTHORS and CONTRIBUTORS</li>
+<li><a href="https://github.com/golang/text/commit/b4bca84b03619dba00657375259024a7f8ae6712"><code>b4bca84</code></a> language/display: fix Tag method comment</li>
+<li><a href="https://github.com/golang/text/commit/ea49e3e2d5b3f1518081d8bc53ffefc8bc60ecec"><code>ea49e3e</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/78819d01d041a94e055bbaa2d95e5e4d49e8f8a0"><code>78819d0</code></a> go.mod: update to golang.org/x/text v0.1.10</li>
+<li>Additional commits viewable in <a href="https://github.com/golang/text/compare/v0.3.7...v0.3.8">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/text&package-manager=go_modules&previous-version=0.3.7&new-version=0.3.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/fabric-samples/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-23 02:06:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/943" class=".btn">#943</a>
+            </td>
+            <td>
+                <b>
+                    Bump golang.org/x/text from 0.3.7 to 0.3.8 in /chaincode/fabcar/go
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">go</span>
+            </td>
+            <td>
+                Bumps [golang.org/x/text](https://github.com/golang/text) from 0.3.7 to 0.3.8.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/golang/text/commit/434eadcdbc3b0256971992e8c70027278364c72c"><code>434eadc</code></a> language: reject excessively large Accept-Language strings</li>
+<li><a href="https://github.com/golang/text/commit/23407e72ed5b895a2dfd230aec777f4fbe026d6a"><code>23407e7</code></a> go.mod: ignore cyclic dependency for tagging</li>
+<li><a href="https://github.com/golang/text/commit/b18d3dd8a4b426ebedcf279b593e85ac4985b9d3"><code>b18d3dd</code></a> secure/precis: replace bytes.Compare with bytes.Equal</li>
+<li><a href="https://github.com/golang/text/commit/795e854ff348c9cac4fd0033ce04c417705dd0bb"><code>795e854</code></a> all: replace io/ioutil with io and os package</li>
+<li><a href="https://github.com/golang/text/commit/b0ca10ff35f1325c7d0ac7830fe3f036bd72d8f9"><code>b0ca10f</code></a> internal/language: bump script types to uint16 and update registry</li>
+<li><a href="https://github.com/golang/text/commit/ba9b0e1d4b03523c708709935fbc961124b6967b"><code>ba9b0e1</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/d03b41800055b01e3895b1e047af09733c93bf63"><code>d03b418</code></a> A+C: delete AUTHORS and CONTRIBUTORS</li>
+<li><a href="https://github.com/golang/text/commit/b4bca84b03619dba00657375259024a7f8ae6712"><code>b4bca84</code></a> language/display: fix Tag method comment</li>
+<li><a href="https://github.com/golang/text/commit/ea49e3e2d5b3f1518081d8bc53ffefc8bc60ecec"><code>ea49e3e</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/78819d01d041a94e055bbaa2d95e5e4d49e8f8a0"><code>78819d0</code></a> go.mod: update to golang.org/x/text v0.1.10</li>
+<li>Additional commits viewable in <a href="https://github.com/golang/text/compare/v0.3.7...v0.3.8">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/text&package-manager=go_modules&previous-version=0.3.7&new-version=0.3.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/fabric-samples/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-23 02:06:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/942" class=".btn">#942</a>
+            </td>
+            <td>
+                <b>
+                    Bump golang.org/x/text from 0.3.7 to 0.3.8 in /chaincode/marbles02_private/go
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">go</span>
+            </td>
+            <td>
+                Bumps [golang.org/x/text](https://github.com/golang/text) from 0.3.7 to 0.3.8.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/golang/text/commit/434eadcdbc3b0256971992e8c70027278364c72c"><code>434eadc</code></a> language: reject excessively large Accept-Language strings</li>
+<li><a href="https://github.com/golang/text/commit/23407e72ed5b895a2dfd230aec777f4fbe026d6a"><code>23407e7</code></a> go.mod: ignore cyclic dependency for tagging</li>
+<li><a href="https://github.com/golang/text/commit/b18d3dd8a4b426ebedcf279b593e85ac4985b9d3"><code>b18d3dd</code></a> secure/precis: replace bytes.Compare with bytes.Equal</li>
+<li><a href="https://github.com/golang/text/commit/795e854ff348c9cac4fd0033ce04c417705dd0bb"><code>795e854</code></a> all: replace io/ioutil with io and os package</li>
+<li><a href="https://github.com/golang/text/commit/b0ca10ff35f1325c7d0ac7830fe3f036bd72d8f9"><code>b0ca10f</code></a> internal/language: bump script types to uint16 and update registry</li>
+<li><a href="https://github.com/golang/text/commit/ba9b0e1d4b03523c708709935fbc961124b6967b"><code>ba9b0e1</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/d03b41800055b01e3895b1e047af09733c93bf63"><code>d03b418</code></a> A+C: delete AUTHORS and CONTRIBUTORS</li>
+<li><a href="https://github.com/golang/text/commit/b4bca84b03619dba00657375259024a7f8ae6712"><code>b4bca84</code></a> language/display: fix Tag method comment</li>
+<li><a href="https://github.com/golang/text/commit/ea49e3e2d5b3f1518081d8bc53ffefc8bc60ecec"><code>ea49e3e</code></a> go.mod: update x/tools to HEAD</li>
+<li><a href="https://github.com/golang/text/commit/78819d01d041a94e055bbaa2d95e5e4d49e8f8a0"><code>78819d0</code></a> go.mod: update to golang.org/x/text v0.1.10</li>
+<li>Additional commits viewable in <a href="https://github.com/golang/text/compare/v0.3.7...v0.3.8">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/text&package-manager=go_modules&previous-version=0.3.7&new-version=0.3.8)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/fabric-samples/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-23 02:06:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/941" class=".btn">#941</a>
             </td>
             <td>

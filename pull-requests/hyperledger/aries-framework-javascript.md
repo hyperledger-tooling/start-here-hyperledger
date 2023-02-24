@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1306" class=".btn">#1306</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1312" class=".btn">#1312</a>
             </td>
             <td>
                 <b>
-                    feat!: add data, cache and temp dirs to FileSystem
+                    fix: loosen base64 validation
                 </b>
             </td>
         </tr>
@@ -27,23 +27,12 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                Files created by the framework have different nature, and in this PR we introduce three categories:
-
-- **data**: intended to be persistent and included in OS backups. For instance, wallet contents (used by default for Askar-based wallets)
-- **cache**: files intended to be persistent, but that can be regenerated or re-downloaded. An example of this are the tails files for AnonCreds
-- **temp**: temporary files that can be safely deleted by the OS after usage. For instance, the genesis file created from genesisTransactions or wallet backup generated during migration
-
-Another change from current behaviour is that all files created by the framework are contained within `basePath/.afj` directory. This is somewhat similar to indy-sdk, which creates a `homedir/.indy_client`. 
-
-Some remaining questions:
-
-- Will it be necessary to write migration scripts to move files (if existant) to new directories? Probably not, considering that until now all files created by AFJ are either temporary or cache
-- Is it OK to use user home directory and Document directory as a base for data in (node and react-native respectively)? This selection and categorization is based on [iOS storage guidelines](https://developer.apple.com/documentation/foundation/optimizing_your_app_s_data_for_icloud_backup/)  
+                Fixes #1308 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-16 02:50:26 +0000 UTC
+        Created At 2023-02-17 18:43:41 +0000 UTC
     </div>
 </div>
 
@@ -51,11 +40,11 @@ Some remaining questions:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1303" class=".btn">#1303</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1311" class=".btn">#1311</a>
             </td>
             <td>
                 <b>
-                    fix: imports from core
+                    fix: thread id improvements
                 </b>
             </td>
         </tr>
@@ -64,373 +53,12 @@ Some remaining questions:
                 
             </td>
             <td>
-                These are preventing `@aries-framework/anoncreds-rs` and `@aries-framework/askar` from bein properly imported. 
-
-Also removes the outdated `AskarModuleConfig`.
+                Fixes #1309 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-14 21:52:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1301" class=".btn">#1301</a>
-            </td>
-            <td>
-                <b>
-                    feat(askar): createKey from secret bytes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is being added to provide a way of creating deterministic keys in a similar way than indy-sdk, as our [current findings](https://github.com/hyperledger/aries-cloudagent-python/blob/467104fab662507e18483abaaf2305bc702bb303/aries_cloudagent/wallet/askar.py#L751) are that it is actually using the seed as a secret key.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-14 16:19:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1298" class=".btn">#1298</a>
-            </td>
-            <td>
-                <b>
-                    docs: update readme
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-14 08:30:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1295" class=".btn">#1295</a>
-            </td>
-            <td>
-                <b>
-                    fix(askar): generate nonce suitable for anoncreds
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The one that was returned by `AskarWallet.generateNonce()` is not usable for AnonCreds proofs and credential issuance flow, so it is now adjusted to return something equivalent to what's in IndyWallet or anoncreds-rs.
-
-As part of a further refactor, this functionality will be most likely moved to `anoncreds` package, as it is more related to AnonCreds specification than the Wallet itself.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-13 20:48:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1294" class=".btn">#1294</a>
-            </td>
-            <td>
-                <b>
-                    test: add anoncreds restriction test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Some small changes and an extra test to test anoncreds restriction transformation
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-13 17:45:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1293" class=".btn">#1293</a>
-            </td>
-            <td>
-                <b>
-                    build(indy-sdk): set private to false
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Karim Stekelenburg <karim@animo.id>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-13 14:09:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1292" class=".btn">#1292</a>
-            </td>
-            <td>
-                <b>
-                    chore: make askar, anoncreds(-rs), indy-vdr packages public
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ariel Gentile <gentilester@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-13 11:44:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1291" class=".btn">#1291</a>
-            </td>
-            <td>
-                <b>
-                    fix(indy-vdr): export relevant packages from root
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds missing exports to the `indy-vdr` package's public API.
-
-Signed-off-by: Karim Stekelenburg <karim@animo.id>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-13 11:06:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1290" class=".btn">#1290</a>
-            </td>
-            <td>
-                <b>
-                    feat: add fetch indy schema method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR implements the `fetchIndySchema` method which fetches the actual schema ID for the `getCredentialDefinition` method in the` IndySdkAnonCredsRegistry` and  `IndyVdrAnonCredsRegistry`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-13 08:00:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1289" class=".btn">#1289</a>
-            </td>
-            <td>
-                <b>
-                    feat: indy sdk aries askar migration script
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - feat: setup package
-- feat: setup some base components
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-12 20:40:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1288" class=".btn">#1288</a>
-            </td>
-            <td>
-                <b>
-                    chore(core): remove useless file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-12 20:02:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1286" class=".btn">#1286</a>
-            </td>
-            <td>
-                <b>
-                    refactor!: remove indy from core
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Completely broken at the moment. Not ready yet
-
-Dependant on #1279 and #1283 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-10 15:49:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1285" class=".btn">#1285</a>
-            </td>
-            <td>
-                <b>
-                    feat: indy-vdr module registration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-10 14:07:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1283" class=".btn">#1283</a>
-            </td>
-            <td>
-                <b>
-                    feat(anoncreds): legacy indy proof format service
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds a `LegacyIndyProofFormatService` that can be used with v1 and v2 of the proof protocol.
-
-I've made some improvements to the tails handling and it now verifies the hash after downloading. 
-
-There's some high level tests that use both the legacy indy credential format service and the legacy indy proof format service to do the full flow of issuance and verification. It's a bit hard to test in isolation with the indy-sdk, but we can change that once we have the AnonCredsRs backend.
-
-Dependant on #1279
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-10 02:14:51 +0000 UTC
+        Created At 2023-02-17 18:37:40 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,149 @@ permalink: /pull-requests/hyperledger-labs/blockchain-explorer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/358" class=".btn">#358</a>
+            </td>
+            <td>
+                <b>
+                    Feature - Include blockheight for all nodes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!--  Thanks for sending a pull request! 
+-->
+
+
+#### What this PR does / why we need it:
+Including feature of Metrics to capture blockheights of all nodes
+
+#### Which issue(s) this PR fixes:
+<!--
+*Automatically closes linked issue when PR is merged.
+Usage: `Fixes #<issue number>`, or `Fixes (paste link of issue)`.
+_If PR is about `failing-tests`, please post the related issues/tests in a comment and do not use `Fixes`_*
+-->
+Fixes #
+
+#### Special notes for your reviewer:
+
+#### Does this PR introduce a user-facing change?
+<!--
+If no, just write "NONE" in the release-note block below.
+If yes, a release note is required:
+Enter your extended release note in the block below. If the PR requires additional action from users switching to the new release, include the string "action required".
+
+-->
+```release-note
+
+```
+
+#### Additional documentation, usage docs, etc.:
+
+<!--
+This section can be blank if this pull request does not require a release note.
+
+When adding links which point to resources within git repositories, like
+supporting documentation, please reference a specific commit and avoid
+linking directly to the master branch. This ensures that links reference a
+specific point in time, rather than a document that may change over time.
+
+
+-->
+```docs
+
+```
+![IntroduceMetrics](https://user-images.githubusercontent.com/119851236/221168628-9ea604a5-298c-456c-b693-69e0718b321c.png)
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-24 11:30:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/357" class=".btn">#357</a>
+            </td>
+            <td>
+                <b>
+                    Added search functonality to dashboard so user can search with Txn ha…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …sh/Block no from there itself
+
+<!--  Thanks for sending a pull request! 
+-->
+
+
+#### What this PR does / why we need it:
+The feature facilitates user to search data using a block number/transaction id. The Search field is provided in the dashboard screen. A modal with the appropriate data will be displayed in response to user input.
+It provisions user for a quick data search pertaining to specific block or transaction.
+#### Which issue(s) this PR fixes:
+<!--
+*Automatically closes linked issue when PR is merged.
+Usage: `Fixes #<issue number>`, or `Fixes (paste link of issue)`.
+_If PR is about `failing-tests`, please post the related issues/tests in a comment and do not use `Fixes`_*
+-->
+Fixes #345 
+
+#### Special notes for your reviewer:
+
+#### Does this PR introduce a user-facing change? 
+<!--
+If no, just write "NONE" in the release-note block below.
+If yes, a release note is required:
+Enter your extended release note in the block below. If the PR requires additional action from users switching to the new release, include the string "action required".
+
+-->
+```release-note 
+yes
+
+```
+
+#### Additional documentation, usage docs, etc.:
+
+<!--
+This section can be blank if this pull request does not require a release note.
+
+When adding links which point to resources within git repositories, like
+supporting documentation, please reference a specific commit and avoid
+linking directly to the master branch. This ensures that links reference a
+specific point in time, rather than a document that may change over time.
+
+
+-->
+```docs
+
+```
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-24 08:19:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/354" class=".btn">#354</a>
             </td>
             <td>
@@ -134,75 +277,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2023-02-23 03:37:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/353" class=".btn">#353</a>
-            </td>
-            <td>
-                <b>
-                    Add helm-charts for explorer-db & explorer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!--  Thanks for sending a pull request! 
--->
-
-
-#### What this PR does / why we need it:
-This feature implements helm-charts for explorer-db & explorer 
-#### Which issue(s) this PR fixes: 
-<!--
-*Automatically closes linked issue when PR is merged.
-Usage: `Fixes #<issue number>`, or `Fixes (paste link of issue)`.
-_If PR is about `failing-tests`, please post the related issues/tests in a comment and do not use `Fixes`_*
--->
-Fixes #333
-
-
-#### Special notes for your reviewer:
-
-#### Does this PR introduce a user-facing change?
-<!--
-If no, just write "NONE" in the release-note block below.
-If yes, a release note is required:
-Enter your extended release note in the block below. If the PR requires additional action from users switching to the new release, include the string "action required".
-
--->
-```release-note
-
-```
-
-#### Additional documentation, usage docs, etc.:
-
-<!--
-This section can be blank if this pull request does not require a release note.
-
-When adding links which point to resources within git repositories, like
-supporting documentation, please reference a specific commit and avoid
-linking directly to the master branch. This ensures that links reference a
-specific point in time, rather than a document that may change over time.
-
-
--->
-```docs
-
-```
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-17 08:44:22 +0000 UTC
     </div>
 </div>
 
