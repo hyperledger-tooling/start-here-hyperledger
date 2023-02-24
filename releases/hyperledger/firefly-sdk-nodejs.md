@@ -15,30 +15,30 @@ permalink: /releases/hyperledger/firefly-sdk-nodejs
         <tr>
             <td colspan="2">
                 <b>
-                    v1.2.6
+                    v1.2.7
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.6
+                    v1.2.7
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Support non-reconnecting websockets by @chrisbygrave in https://github.com/hyperledger/firefly-sdk-nodejs/pull/62
+* Add unique exception for idempotency conflicts by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/64
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.2.5...v1.2.6
+**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.2.6...v1.2.7
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.2.6" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.2.7" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-02-01 23:37:48 +0000 UTC
+        Created At 2023-02-24 15:38:56 +0000 UTC
     </span>
 </div>
 
