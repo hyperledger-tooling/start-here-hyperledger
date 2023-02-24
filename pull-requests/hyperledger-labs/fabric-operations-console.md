@@ -507,38 +507,3 @@ Check if migration steps have been completed prior to calling them. Skips them i
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/372" class=".btn">#372</a>
-            </td>
-            <td>
-                <b>
-                    fix migration lock error handling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-fix the lock error handling during migration. and pass jupiter errors to ui if possible.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-16 21:46:29 +0000 UTC
-    </div>
-</div>
-
