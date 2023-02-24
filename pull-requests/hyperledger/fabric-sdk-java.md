@@ -14,11 +14,63 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/263" class=".btn">#263</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/267" class=".btn">#267</a>
             </td>
             <td>
                 <b>
-                    Update dependencies
+                    Update release workflow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Change to match release-2.2 release workflow.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-20 21:35:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/266" class=".btn">#266</a>
+            </td>
+            <td>
+                <b>
+                    Add release workflow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Release workflow in main branch did not trigger on a tag for release-2.2 branch so add a release workflow for this branch.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-20 21:33:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/265" class=".btn">#265</a>
+            </td>
+            <td>
+                <b>
+                    Update version following v2.2.20 release
                 </b>
             </td>
         </tr>
@@ -32,7 +84,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-16 15:28:35 +0000 UTC
+        Created At 2023-02-20 12:01:22 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +92,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/262" class=".btn">#262</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/264" class=".btn">#264</a>
             </td>
             <td>
                 <b>
-                    Allow client TLS certificate and key to be specified in connection profile (backport #261)
+                    Update dependencies (backport #263)
                 </b>
             </td>
         </tr>
@@ -53,7 +105,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
                 
             </td>
             <td>
-                This is an automatic backport of pull request #261 done by [Mergify](https://mergify.com).
+                This is an automatic backport of pull request #263 done by [Mergify](https://mergify.com).
 
 
 ---
@@ -84,7 +136,7 @@ Finally, you can contact us on https://mergify.com
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-13 12:28:22 +0000 UTC
+        Created At 2023-02-20 10:04:14 +0000 UTC
     </div>
 </div>
 
