@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/406" class=".btn">#406</a>
+            </td>
+            <td>
+                <b>
+                    Changes to support EPID quote verification within CCF PDO TP
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Tested in SIM and HW mode on Azure ACC VMs. Tested on bare metal as well as docker end to end for both CCF and Sawtooth. Have not tested while operating within proxy environment. Docker end to end test in HW mode needs a patch to work within proxy environment. Will push patch separately. Thanks.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-24 21:40:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/405" class=".btn">#405</a>
             </td>
             <td>
@@ -44,7 +70,7 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
             </td>
             <td>
                 <b>
-                    Upgrade to IAS v4
+                    Upgrade to IAS v4 and calibrate flags for Azure
                 </b>
             </td>
         </tr>
@@ -54,6 +80,8 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
             </td>
             <td>
                 IAS v3 has reached end-of-life. Moving to v4 to support SGX HW mode.
+
+Also, update flags in quote verification. Such more flexible policy evaluation allows to quote verification on Azure machines.
             </td>
         </tr>
     </table>

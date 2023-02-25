@@ -1,13 +1,13 @@
 
-[964](https://github.com/hyperledger/fabric-samples/pull/964) Bump golang.org/x/net from 0.0.0-20200625001655-4c5254603344 to 0.7.0 in /fabcar/go
+[370](https://github.com/hyperledger-labs/minifabric/pull/370) Bump golang.org/x/net from 0.0.0-20200822124328-c89045814202 to 0.7.0 in /chaincode/samplecc/go
 
-[963](https://github.com/hyperledger/fabric-samples/pull/963) Bump golang.org/x/crypto from 0.0.0-20200622213623-75b288015ac9 to 0.1.0 in /fabcar/go
+[81](https://github.com/hyperledger-labs/yui-relayer/pull/81) build(deps): bump golang.org/x/net from 0.0.0-20220617184016-355a448f1bc9 to 0.7.0
 
-[405](https://github.com/hyperledger-labs/private-data-objects/pull/405) Update threading to make the client work with Ubuntu 22
+[80](https://github.com/hyperledger-labs/yui-relayer/pull/80) build(deps): bump golang.org/x/net from 0.0.0-20220617184016-355a448f1bc9 to 0.7.0 in /tests/chains/tendermint
 
-[1633](https://github.com/hyperledger/indy-plenum/pull/1633) Quickfix for #1632
+[158](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/158) build(deps): bump golang.org/x/net from 0.0.0-20220617184016-355a448f1bc9 to 0.7.0
 
-[358](https://github.com/hyperledger-labs/blockchain-explorer/pull/358) Feature - Include blockheight for all nodes
+[505](https://github.com/hyperledger-labs/orion-server/pull/505) Bump golang.org/x/net from 0.0.0-20220607020251-c690dde0001d to 0.7.0
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

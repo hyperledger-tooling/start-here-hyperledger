@@ -44,7 +44,7 @@ permalink: /pull-requests/hyperledger/sawtooth-core
             </td>
             <td>
                 <b>
-                    fix compiler errors and warnings
+                    Fix compiler errors and warnings
                 </b>
             </td>
         </tr>
