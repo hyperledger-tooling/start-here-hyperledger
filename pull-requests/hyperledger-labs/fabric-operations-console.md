@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/387" class=".btn">#387</a>
+            </td>
+            <td>
+                <b>
+                    show warning msg if selected version breaks node
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+This PR adds a warning message if the peer version selected during upgrade, or when creating a new peer, can break older node.js chaincode.
+
+This effects peer versions: 2.2.9s, 2.2.8-3, and any 2.4s.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-24 21:18:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/386" class=".btn">#386</a>
             </td>
             <td>
@@ -434,76 +470,6 @@ Fixes the error state handling in the copy-console-data & migrate-wallet steps. 
     </table>
     <div class="right-align">
         Created At 2023-02-20 17:39:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/374" class=".btn">#374</a>
-            </td>
-            <td>
-                <b>
-                    pass error messages from new console to ui
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-Error messages from the other console will now surface to the ui.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-17 22:22:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/373" class=".btn">#373</a>
-            </td>
-            <td>
-                <b>
-                    check steps before starting them
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-Check if migration steps have been completed prior to calling them. Skips them if so.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-17 19:47:55 +0000 UTC
     </div>
 </div>
 
