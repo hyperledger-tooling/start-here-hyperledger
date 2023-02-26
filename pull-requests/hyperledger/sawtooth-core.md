@@ -53,7 +53,7 @@ permalink: /pull-requests/hyperledger/sawtooth-core
                 
             </td>
             <td>
-                Signed-off-by: Joseph Livesey [joseph.livesey@btp.works](mailto:joseph.livesey@btp.works)
+                Signed-off-by: Joseph Livesey [joseph.livesey@btp.works](mailto:joseph.livesey@btp.works) [SAW-12](https://blockchaintp.atlassian.net/browse/SAW-12)
             </td>
         </tr>
     </table>
