@@ -1744,6 +1744,8 @@ The command '/bin/sh -c gradle --no-daemon build shadowJar -x checkstyleMain -x 
 
 ```
 
+Related issues:
+#940
             </td>
         </tr>
     </table>
