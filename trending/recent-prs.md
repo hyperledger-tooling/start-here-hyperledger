@@ -1,13 +1,13 @@
 
+[228](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/228) Documentation Template Lab
+
+[4068](https://github.com/hyperledger/fabric/pull/4068) Home Button and Text of Side Navigation Menu (backport #4038)
+
+[507](https://github.com/hyperledger-labs/orion-server/pull/507) query tx content for integration test
+
+[162](https://github.com/hyperledger-labs/orion-sdk-go/pull/162) Bump golang.org/x/crypto from 0.0.0-20210817164053-32db794688a5 to 0.1.0
+
 [390](https://github.com/hyperledger-labs/fabric-operations-console/pull/390) open source support contact removal
-
-[4067](https://github.com/hyperledger/fabric/pull/4067) GetIdemixMspConfig should require signerBytes not nil
-
-[465](https://github.com/hyperledger-labs/fabric-smart-client/pull/465) Bump golang.org/x/sys from 0.0.0-20220319134239-a9b59b0215f8 to 0.1.0 in /tools
-
-[388](https://github.com/hyperledger-labs/fabric-operations-console/pull/388) Bump golang.org/x/sys from 0.0.0-20220209214540-3681064d5158 to 0.1.0 in /packages/fabric-deployer
-
-[27](https://github.com/hyperledger-labs/cckit/pull/27) Bump golang.org/x/sys from 0.0.0-20210917161153-d61c044b1678 to 0.1.0
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

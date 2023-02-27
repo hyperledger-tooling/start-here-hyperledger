@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/227" class=".btn">#227</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/228" class=".btn">#228</a>
             </td>
             <td>
                 <b>
-                    Ansible collection proposal
+                    Documentation Template Lab
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
-
-
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-09 10:12:02 +0000 UTC
+        Created At 2023-02-27 17:30:53 +0000 UTC
     </div>
 </div>
 

@@ -542,38 +542,3 @@ Updating content based on feedback.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/375" class=".btn">#375</a>
-            </td>
-            <td>
-                <b>
-                    tweak migration text, style & fix last error state
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-Fixes the error state handling in the copy-console-data & migrate-wallet steps. Also tweaks the styling of the delete instructions.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-20 17:39:26 +0000 UTC
-    </div>
-</div>
-
