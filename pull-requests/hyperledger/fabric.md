@@ -14,6 +14,73 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4070" class=".btn">#4070</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: fix IsChannelMember to match public keys (backport #4011)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is a backport of the pull request https://github.com/hyperledger/fabric/pull/4011.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-27 23:07:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4069" class=".btn">#4069</a>
+            </td>
+            <td>
+                <b>
+                    Fix typo in documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+#### Type of change
+
+- Documentation update
+
+#### Description
+
+This fix replaces the misspelled word "deployements" with the correct spelling "deployments". My motivation is creating my first pull request for the Hyperledger project and getting familiar with the contribution process.
+
+#### Additional details
+
+
+#### Related issues
+
+https://github.com/hyperledger/fabric/issues/3271
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-27 21:33:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4068" class=".btn">#4068</a>
             </td>
             <td>
@@ -262,68 +329,6 @@ Finally, you can contact us on https://mergify.com
     </table>
     <div class="right-align">
         Created At 2023-02-21 08:33:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4055" class=".btn">#4055</a>
-            </td>
-            <td>
-                <b>
-                    Revert github.com/prometheus/client_golang to v1.11.1 (release-2.5)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The bump to v1.14.0 causes Fabric compilation issues on ubuntu docker images.
-See issue #4052 for details about the problematic build tag.
-For now, it is acceptable to revert to v1.11.1 where there is no such build tag.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-20 21:41:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4054" class=".btn">#4054</a>
-            </td>
-            <td>
-                <b>
-                    Revert github.com/prometheus/client_golang to v1.11.1 (main)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The bump to v1.14.0 causes Fabric compilation issues on ubuntu docker images.
-See issue hyperledger#4052 for details about the problematic build tag.
-For now, it is acceptable to revert to v1.11.1 where there is no such build tag.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-20 21:37:50 +0000 UTC
     </div>
 </div>
 
