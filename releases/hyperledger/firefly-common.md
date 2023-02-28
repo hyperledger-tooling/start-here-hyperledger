@@ -15,6 +15,34 @@ permalink: /releases/hyperledger/firefly-common
         <tr>
             <td colspan="2">
                 <b>
+                    Test DB struct field renaming
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v1.2.2-28022023
+                </span>
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-common/releases/tag/v1.2.2-28022023" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-02-28 15:25:50 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v1.2.2
                 </b>
             </td>
