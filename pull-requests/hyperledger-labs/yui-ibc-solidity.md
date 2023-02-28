@@ -154,29 +154,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/156" class=".btn">#156</a>
-            </td>
-            <td>
-                <b>
-                    relay: Fix commitment queryier to return ibc compatible commitment
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-21 14:54:47 +0000 UTC
-    </div>
-</div>
-

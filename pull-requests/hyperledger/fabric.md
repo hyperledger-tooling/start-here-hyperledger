@@ -156,7 +156,7 @@ Finally, you can contact us on https://mergify.com
 Addressing review comments on the modification of channelparticipation.Join in the BFT commit.
 This reverses the changes made to channelparticipation.Join in the BFT commit and fixes the respective tests accordingly.
 
-Add retry to forwarding of the config-tx that causes a leader to abdicate, reducing the changes of integration test flakes.
+Add retry to forwarding of the config-tx that causes a leader to abdicate, reducing the chances of integration test flakes.
 
 #### Related issues
 Raft IT flake #4066 
@@ -165,32 +165,6 @@ Raft IT flake #4066
     </table>
     <div class="right-align">
         Created At 2023-02-23 14:17:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4058" class=".btn">#4058</a>
-            </td>
-            <td>
-                <b>
-                    Address comments on BFT PR
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-21 14:45:38 +0000 UTC
     </div>
 </div>
 

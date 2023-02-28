@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/392" class=".btn">#392</a>
+            </td>
+            <td>
+                <b>
+                    remove code blocking "bad" fabric images
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+This PR allows selecting the "bad" fabric images. Which were all v2.2.9s, and v2.2.8-3.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-28 14:41:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/391" class=".btn">#391</a>
+            </td>
+            <td>
+                <b>
+                    edit component docs prior to migration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+The MSP docs and the signature collection docs need to be edited prior to migration.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-28 14:12:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/390" class=".btn">#390</a>
             </td>
             <td>
@@ -504,41 +574,6 @@ This allows backing up and restoring from different console environments that us
     </table>
     <div class="right-align">
         Created At 2023-02-22 19:22:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/377" class=".btn">#377</a>
-            </td>
-            <td>
-                <b>
-                    Content signoffs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Documentation update
-
-#### Description
-Updating content based on feedback.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-21 17:30:31 +0000 UTC
     </div>
 </div>
 

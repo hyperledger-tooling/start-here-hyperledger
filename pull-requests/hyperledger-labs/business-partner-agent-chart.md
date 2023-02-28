@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/69" class=".btn">#69</a>
-            </td>
-            <td>
-                <b>
-                    Add Suomi test net and iGrant test net to default genesis list
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-21 16:52:21 +0000 UTC
-    </div>
-</div>
-
