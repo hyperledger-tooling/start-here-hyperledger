@@ -14,25 +14,25 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/458" class=".btn">#458</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/460" class=".btn">#460</a>
             </td>
             <td>
                 <b>
-                    ability to set the cache of the wallets via configuration file
+                    #459 - filter tx outputs by type as well
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">enhancement</span>
+                
             </td>
             <td>
-                <nil>
+                Transaction outputs contain information about all tokens that owner has, therefore when validating transaction additional filter (by type) is applied that will return number of tokens which are part of the swap.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-20 15:13:28 +0000 UTC
+        Created At 2023-02-28 07:39:48 +0000 UTC
     </div>
 </div>
 
