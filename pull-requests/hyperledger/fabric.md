@@ -133,40 +133,6 @@ Finally, you can contact us on https://mergify.com
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4067" class=".btn">#4067</a>
-            </td>
-            <td>
-                <b>
-                    GetIdemixMspConfig should require signerBytes not nil
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                GetIdemixMspConfig should require signerBytes not nil so that msp.Setup() do not panic
-
-#### Type of change
-- Improvement
-
-#### Description
-
-The GetIdemixMspConfig function ignores errors that the SignerConfig file is empty or does not exist. This causes a panic when the MSP is initialized later.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-26 13:05:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4064" class=".btn">#4064</a>
             </td>
             <td>
