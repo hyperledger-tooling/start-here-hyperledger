@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/orion-sdk-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/163" class=".btn">#163</a>
+            </td>
+            <td>
+                <b>
+                    bump orion-server v0.2.10
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Security updates for dependencies and bug fixes in Orion
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-28 11:07:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/162" class=".btn">#162</a>
             </td>
             <td>
