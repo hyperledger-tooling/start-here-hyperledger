@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4073" class=".btn">#4073</a>
+            </td>
+            <td>
+                <b>
+                    Backport PR 4011 to release-2.4 (fix IsChannelMember)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Change-Id: I7205dbe264248c4ad534499955bb22710d07444d
+
+#### Type of change
+
+- Bug fix
+
+#### Description
+PR 4011 addressed a bug (#3998) in IsChannelMember that manifested itself in the test
+
+`integration/raft/cft_test.go` use-case: "disregards certificate renewal if only the validity period changed"
+
+after it was converted to run without the system channel.
+
+Here we
+- Backport the fix (in etcdraft/consenter.go)
+- Add the same test case which runs without the system channel (w/o the fix this test case fails).
+- Backport some test infrastructure that helps running tests without the system channel.
+
+
+#### Related issues
+
+#3998 the issue describing the bug
+#4011 the PR fixing the bug on main
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-01 14:15:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4071" class=".btn">#4071</a>
             </td>
             <td>
@@ -56,32 +105,6 @@ Here we
     </table>
     <div class="right-align">
         Created At 2023-03-01 12:00:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4070" class=".btn">#4070</a>
-            </td>
-            <td>
-                <b>
-                    Orderer v3: fix IsChannelMember to match public keys (backport #4011)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is a backport of the pull request https://github.com/hyperledger/fabric/pull/4011.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-27 23:07:58 +0000 UTC
     </div>
 </div>
 
