@@ -15,33 +15,60 @@ permalink: /releases/hyperledger/fabric
         <tr>
             <td colspan="2">
                 <b>
-                    v2.2.10
+                    v2.4.9
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.2.10
+                    v2.4.9
                 </span>
             </td>
             <td>
-                v2.2.10 Release Notes - February 17, 2023
-=========================================
+                v2.4.9 Release Notes - March 1, 2023
+====================================
 
-Fabric v2.2.10 updates third party dependencies.
+Fixes
+-----
+
+**Peer gateway service now uses peer local height instead of service discovery height**
+
+Peer gateway service uses ledger height to determine an endorser peer.
+Service discovery ledger heights can be slightly behind the actual peer ledger height.
+Ensure the most up-to-date information is used for the local peer by querying the ledger height directly.
+This avoids the possibility of a remote peer with a lower ledger height being selected as an endorser.
+
+**Peer gateway service now uses async connection to other peers and ordering service nodes**
+
+Peer gateway service now uses async connection to other peers and ordering service nodes.
+Prior to this change, connection issues can cause gateway service to prematurely hit its concurrency limit.
+
+**Fix for ordering service node certificate renewal when not using a system channel**
+
+It is possible to renew an ordering service node certificate without a channel configuration update by using the existing key in the certificate renewal request.
+However, in the scenario where there is no system channel, the ordering service node would never transition from a follower to a consenter after certificate renewal.
+This fix ensures that an ordering service node uses a key match rather than certificate match so that it can transition from a follower to a consenter after certificate renewal with existing key.
 
 
 Dependencies
 ------------
-Fabric v2.2.10 has been tested with the following dependencies:
-* Go 1.18.7
+Fabric v2.4.9 has been tested with the following dependencies:
+* Go 1.18.10
 * CouchDB v3.2.2
 
 Fabric docker images on dockerhub utilize Alpine 3.16.
 
+
 Deprecations (existing)
 -----------------------
+
+**Ordering service system channel is deprecated**
+
+v2.3 introduced the ability to manage an ordering service without a system channel.
+Managing an ordering service without a system channel has privacy, scalability,
+and operational benefits. The use of a system channel is deprecated and may be removed in a future release.
+For information about removal of the system channel, see the [Create a channel without system channel documentation](https://hyperledger-fabric.readthedocs.io/en/release-2.3/create_channel/create_channel_participation.html).
 
 **FAB-15754: The 'Solo' consensus type is deprecated.**
 
@@ -97,7 +124,7 @@ to Fabric runtime components, regardless of where the Fabric components are runn
 
 Block dissemination via gossip is deprecated and may be removed in a future release.
 Fabric peers can be configured to receive blocks directly from an ordering service
-node by using the following configuration:
+node and not gossip blocks by using the following configuration:
 ```
 peer.gossip.orgLeader: true
 peer.gossip.useLeaderElection: false
@@ -118,11 +145,11 @@ for chaincodes. For more details see the
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric/releases/tag/v2.2.10" class=".btn">
+    <a href="https://github.com/hyperledger/fabric/releases/tag/v2.4.9" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-02-17 19:10:56 +0000 UTC
+        Created At 2023-03-02 08:07:12 +0000 UTC
     </span>
 </div>
 
