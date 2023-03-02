@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1635" class=".btn">#1635</a>
+            </td>
+            <td>
+                <b>
+                    Rocksdbfix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1634
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-02 14:05:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-plenum/pull/1633" class=".btn">#1633</a>
             </td>
             <td>

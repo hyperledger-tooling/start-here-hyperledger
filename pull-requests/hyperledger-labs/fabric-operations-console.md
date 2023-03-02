@@ -395,38 +395,3 @@ This effects peer versions: 2.2.9s, 2.2.8-3, and any 2.4s.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/386" class=".btn">#386</a>
-            </td>
-            <td>
-                <b>
-                    fix custom db name handling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-Fix how we handle custom db names.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-23 15:18:52 +0000 UTC
-    </div>
-</div>
-
