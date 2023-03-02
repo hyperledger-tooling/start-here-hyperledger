@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/267" class=".btn">#267</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/269" class=".btn">#269</a>
             </td>
             <td>
                 <b>
-                    Update release workflow
+                    Fix SDGroup bug
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
                 
             </td>
             <td>
-                Change to match release-2.2 release workflow.
+                Fixing what I believe are some minor bugs in the `ServiceDiscovery.SDLayout.SDGroup` class, see #268 for details.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-20 21:35:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/266" class=".btn">#266</a>
-            </td>
-            <td>
-                <b>
-                    Add release workflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Release workflow in main branch did not trigger on a tag for release-2.2 branch so add a release workflow for this branch.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-20 21:33:28 +0000 UTC
+        Created At 2023-03-02 15:02:34 +0000 UTC
     </div>
 </div>
 

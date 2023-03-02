@@ -103,29 +103,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/463" class=".btn">#463</a>
-            </td>
-            <td>
-                <b>
-                    Changes in core template
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Not including chaincode address if port is 0. Otherwise, chaincode tries to connect to the peer as a service.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-23 14:13:43 +0000 UTC
-    </div>
-</div>
-
