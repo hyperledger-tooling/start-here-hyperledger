@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/orion-server
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/510" class=".btn">#510</a>
+            </td>
+            <td>
+                <b>
+                    Cache last snapshot after commit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">performance</span>
+            </td>
+            <td>
+                - Caching DB snapshot after commit to avoid creating a snapshot for each Get operation
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-02 09:34:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/orion-server/pull/509" class=".btn">#509</a>
             </td>
             <td>
@@ -24,7 +50,7 @@ permalink: /pull-requests/hyperledger-labs/orion-server
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">testing</span>
             </td>
             <td>
                 <nil>
@@ -219,32 +245,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2023-02-25 01:02:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-server/pull/503" class=".btn">#503</a>
-            </td>
-            <td>
-                <b>
-                    Fix lock and test for offset
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-23 10:49:00 +0000 UTC
     </div>
 </div>
 
