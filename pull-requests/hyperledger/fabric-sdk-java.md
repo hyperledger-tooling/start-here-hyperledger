@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/274" class=".btn">#274</a>
+            </td>
+            <td>
+                <b>
+                    Pull Fabric images from DockerHub
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Avoid using artifactory as this may go away in the future. This API is not actively developed so development images of Fabric are not required and release images are sufficient.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-03 15:25:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/273" class=".btn">#273</a>
+            </td>
+            <td>
+                <b>
+                    Remove publish and release workflows for release-2.2 branch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Publishing of v2.2.x releases continues directly from main branch.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-03 14:32:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/272" class=".btn">#272</a>
+            </td>
+            <td>
+                <b>
+                    Prepare to publish v2.2.x releases from main branch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-03 14:24:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/270" class=".btn">#270</a>
             </td>
             <td>
