@@ -1,4 +1,6 @@
 
+[v1.2.5](https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.2.5) v1.2.5
+
 [v0.13.0.0](https://github.com/hyperledger/bevel/releases/tag/v0.13.0.0) Bevel Release 0.13.0
 
 [v2.4.9](https://github.com/hyperledger/fabric/releases/tag/v2.4.9) v2.4.9
@@ -6,8 +8,6 @@
 [v1.2.3](https://github.com/hyperledger/firefly-common/releases/tag/v1.2.3) v1.2.3
 
 [v1.2.1](https://github.com/hyperledger/fabric-contract-api-go/releases/tag/v1.2.1) fabric-contract-api-go v1.2.1
-
-[v1.2.2-28022023](https://github.com/hyperledger/firefly-common/releases/tag/v1.2.2-28022023) Test DB struct field renaming
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)

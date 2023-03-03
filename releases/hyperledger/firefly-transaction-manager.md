@@ -15,30 +15,34 @@ permalink: /releases/hyperledger/firefly-transaction-manager
         <tr>
             <td colspan="2">
                 <b>
-                    v1.2.3
+                    v1.2.5
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.3
+                    v1.2.5
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Add contractLocation field to transaction output by @nguyer in https://github.com/hyperledger/firefly-transaction-manager/pull/61
+* Pull policy loop into transaction handler by @Chengxuan in https://github.com/hyperledger/firefly-transaction-manager/pull/62
+* Nil check on confirmations for reset by @peterbroadhurst in https://github.com/hyperledger/firefly-transaction-manager/pull/67
+* fix rest oracle by @Chengxuan in https://github.com/hyperledger/firefly-transaction-manager/pull/66
+* Update to Go 1.19 by @nguyer in https://github.com/hyperledger/firefly-transaction-manager/pull/63
+* adding error handling for tx history by @Chengxuan in https://github.com/hyperledger/firefly-transaction-manager/pull/65
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-transaction-manager/compare/v1.2.2...v1.2.3
+**Full Changelog**: https://github.com/hyperledger/firefly-transaction-manager/compare/v1.2.3...v1.2.5
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.2.3" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.2.5" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-02-03 17:59:52 +0000 UTC
+        Created At 2023-03-03 01:22:34 +0000 UTC
     </span>
 </div>
 
