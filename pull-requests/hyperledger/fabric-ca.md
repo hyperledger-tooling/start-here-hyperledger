@@ -77,32 +77,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/351" class=".btn">#351</a>
-            </td>
-            <td>
-                <b>
-                    Clarify csr.hosts in docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Clarify csr.hosts references in the docs to indicate that it is used to specify Subject Alternative Names for TLS certificates. Multiple values can be provided, inculding host names, IP addresses, or domain names (with wildcards).
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-24 04:30:27 +0000 UTC
-    </div>
-</div>
-
