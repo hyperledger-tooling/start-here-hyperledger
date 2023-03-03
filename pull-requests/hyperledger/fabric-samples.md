@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/996" class=".btn">#996</a>
+            </td>
+            <td>
+                <b>
+                    Update Go and Go dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update go dependencies in sample chaincodes and applications.
+Update Go to 1.19.6
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-02 22:05:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/995" class=".btn">#995</a>
+            </td>
+            <td>
+                <b>
+                    Update go dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update go dependencies in sample chaincodes and applications.
+
+Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-02 21:49:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/993" class=".btn">#993</a>
             </td>
             <td>
@@ -142,75 +197,6 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </table>
     <div class="right-align">
         Created At 2023-03-01 14:02:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/961" class=".btn">#961</a>
-            </td>
-            <td>
-                <b>
-                    Fix gradle version used in asset-transfer-basic/chaincode-java image
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This patch fixes the gradle version used in asset-transfer-basic/chaincode-java build to 7.
-
-The reason is because the gradle version in the gradle:jdk11-alpine image is updated from 7 to 8, which seems to cause the build to fail. The result of running docker build command with gradle:jdk11-alpine are as follows:
-
-```bash
-Step 4/16 : RUN gradle --no-daemon build shadowJar -x checkstyleMain -x checkstyleTest
- ---> Running in d245170e621f
-
-Welcome to Gradle 8.0.1!
-
-Here are the highlights of this release:
- - Improvements to the Kotlin DSL
- - Fine-grained parallelism from the first build with configuration cache
- - Configurable Gradle user home cache cleanup
-
-For more details see https://docs.gradle.org/8.0.1/release-notes.html
-
-To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/8.0.1/userguide/gradle_daemon.html#sec:disabling_the_daemon.
-Daemon will be stopped at the end of the build 
-
-FAILURE: Build failed with an exception.
-
-* Where:
-Build file '/home/gradle/build.gradle' line: 7
-
-* What went wrong:
-An exception occurred applying plugin request [id: 'application']
-> Failed to apply plugin class 'com.github.jengelman.gradle.plugins.shadow.ShadowJavaPlugin'.
-   > You can't map a property that does not exist: propertyName=classifier
-
-* Try:
-> Run with --stacktrace option to get the stack trace.
-> Run with --info or --debug option to get more log output.
-> Run with --scan to get full insights.
-
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 15s
-The command '/bin/sh -c gradle --no-daemon build shadowJar -x checkstyleMain -x checkstyleTest' returned a non-zero code: 1
-
-```
-
-Related issues:
-#940
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-24 00:44:18 +0000 UTC
     </div>
 </div>
 
