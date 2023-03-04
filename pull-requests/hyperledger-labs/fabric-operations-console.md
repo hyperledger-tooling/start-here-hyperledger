@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/404" class=".btn">#404</a>
+            </td>
+            <td>
+                <b>
+                    format migrated url correctly if standard port
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+Formats the migrated console url correctly when standard ports like 443 or 80 are used. This fixes logic downstream that attempts to match against this url value.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-03 20:16:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/403" class=".btn">#403</a>
             </td>
             <td>
@@ -568,42 +603,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2023-02-25 11:27:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/387" class=".btn">#387</a>
-            </td>
-            <td>
-                <b>
-                    show warning msg if selected version breaks node
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-This PR adds a warning message if the peer version selected during upgrade, or when creating a new peer, can break older node.js chaincode.
-
-This effects peer versions: 2.2.9s, 2.2.8-3, and any 2.4s.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-24 21:18:39 +0000 UTC
     </div>
 </div>
 
