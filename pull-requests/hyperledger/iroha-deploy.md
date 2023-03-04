@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-deploy
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-deploy/pull/36" class=".btn">#36</a>
+                PR <a href="https://github.com/hyperledger/iroha-deploy/pull/37" class=".btn">#37</a>
             </td>
             <td>
                 <b>
-                    Fix dockerfile for ubuntu 22.04
+                    Fix deprecated
                 </b>
             </td>
         </tr>
@@ -29,21 +29,21 @@ permalink: /pull-requests/hyperledger/iroha-deploy
             <td>
                 # Task
 
-[LAOS-111]: New env for cbdc.
+[DOPS-2267]: Title.
 
 ## Changes
 
-1. Fix dockerfile for ubuntu 22.04.
+1. Fix deprecated
 
 ## Author
 
-Signed-off-by: Pavel Varfolomeev <wpi86@yandex.ru>
+Signed-off-by: Insaf Safin <safin@soramitsu.co.jp>
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-02 16:09:03 +0000 UTC
+        Created At 2023-02-28 15:36:21 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/785" class=".btn">#785</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/791" class=".btn">#791</a>
             </td>
             <td>
                 <b>
-                    [ja_JP] Translate "commands/peercommand.md" into Japanese
+                    Update scenario.md
                 </b>
             </td>
         </tr>
@@ -27,15 +27,41 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
                 
             </td>
             <td>
-                This patch translates "commands/peercommand.md" into Japanese.
-Resolves #604 
-
-Signed-off-by: Tatsuya Sato <tatsuya.sato.so@hitachi.com>
+                更正错别字
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-30 05:18:49 +0000 UTC
+        Created At 2023-03-01 07:46:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/790" class=".btn">#790</a>
+            </td>
+            <td>
+                <b>
+                    [ja_JP] Translate "commands/cryptogen.md"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">jaJP-docs-ongoing</span>
+            </td>
+            <td>
+                This PR translates "Commands Reference >> cryptogen" into Japanese.
+It also contains a patch to fix the translation for "key material" to use the same Japanese word in "configtxlator" and "cryptogen" commands reference.
+
+Closes #612
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-01 00:13:38 +0000 UTC
     </div>
 </div>
 

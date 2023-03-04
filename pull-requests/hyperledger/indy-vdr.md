@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/164" class=".btn">#164</a>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/169" class=".btn">#169</a>
             </td>
             <td>
                 <b>
-                    fix(js): pass object to getError function
+                    re-use existing indy-node-container builds
                 </b>
             </td>
         </tr>
@@ -27,13 +27,15 @@ permalink: /pull-requests/hyperledger/indy-vdr
                 
             </td>
             <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
+                - simplifies the docker image for the local pool
+- adds a small bash script that can be re-used for different tests and local testing
 
+Successor of #112
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-16 08:58:10 +0000 UTC
+        Created At 2023-03-02 07:13:02 +0000 UTC
     </div>
 </div>
 
@@ -41,11 +43,11 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/163" class=".btn">#163</a>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/168" class=".btn">#168</a>
             </td>
             <td>
                 <b>
-                    chore: update version
+                    Build updates
                 </b>
             </td>
         </tr>
@@ -54,13 +56,16 @@ permalink: /pull-requests/hyperledger/indy-vdr
                 
             </td>
             <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
-
+                - Update the base images used in `cross` builds
+- Verify that Python wheels (and by extension npm modules) are compatible with manylinux 2014
+- Only use build.sh (now build-universal.sh) for MacOS universal builds, otherwise prefer `cargo build`
+- Improve caching of Rust dependencies
+- Minor adjustments to build-xcframework script
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-15 22:12:48 +0000 UTC
+        Created At 2023-03-02 00:31:15 +0000 UTC
     </div>
 </div>
 
@@ -68,11 +73,11 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/162" class=".btn">#162</a>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/167" class=".btn">#167</a>
             </td>
             <td>
                 <b>
-                    fix(js): use credentialDefinition instead of credDef
+                    quick fix for ffi bindings
                 </b>
             </td>
         </tr>
@@ -81,12 +86,12 @@ permalink: /pull-requests/hyperledger/indy-vdr
                 
             </td>
             <td>
-                <nil>
+                Re-generated the header file and adjusted the typescript calls for attrib/nym with the new parameters. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-15 22:06:48 +0000 UTC
+        Created At 2023-03-01 23:12:17 +0000 UTC
     </div>
 </div>
 
@@ -94,11 +99,11 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/161" class=".btn">#161</a>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/166" class=".btn">#166</a>
             </td>
             <td>
                 <b>
-                    fix(js): React Native use correct namespace
+                    Merge did:indy support
                 </b>
             </td>
         </tr>
@@ -107,229 +112,12 @@ permalink: /pull-requests/hyperledger/indy-vdr
                 
             </td>
             <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
-
+                Currently, tests are failing with the JS wrapper due to a timeout in GetAttribRequest. I think this might be a compatibility issue with the did:indy-supporting indy-node version, but I'm not certain.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-15 21:36:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/160" class=".btn">#160</a>
-            </td>
-            <td>
-                <b>
-                    chore: update version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-15 20:34:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/159" class=".btn">#159</a>
-            </td>
-            <td>
-                <b>
-                    fix(js): fixed some typos
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-15 20:22:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/158" class=".btn">#158</a>
-            </td>
-            <td>
-                <b>
-                    build: do not include custom includes path
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-15 20:05:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/157" class=".btn">#157</a>
-            </td>
-            <td>
-                <b>
-                    chore: update version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-15 13:39:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/156" class=".btn">#156</a>
-            </td>
-            <td>
-                <b>
-                    chore: fix path
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Karim Stekelenburg <karim@animo.id>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-15 13:10:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/155" class=".btn">#155</a>
-            </td>
-            <td>
-                <b>
-                    chore: version update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-13 08:49:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/154" class=".btn">#154</a>
-            </td>
-            <td>
-                <b>
-                    build: add build xcframework script
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-11 21:08:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/153" class=".btn">#153</a>
-            </td>
-            <td>
-                <b>
-                    fix(js): allow multiple turbo modules to be registered
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-11 20:57:10 +0000 UTC
+        Created At 2023-03-01 17:28:34 +0000 UTC
     </div>
 </div>
 

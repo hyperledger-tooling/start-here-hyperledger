@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/45" class=".btn">#45</a>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/49" class=".btn">#49</a>
             </td>
             <td>
                 <b>
-                    Support GetInteger from JSONObject when value in map is integer
+                    Add getter for DB provider features struct field
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-common
                 
             </td>
             <td>
-                While the normal JSON parsing in Go doesn't result in a `map[string]interface{}` that has any other number types in it than `float64`, the parsing of YAML in `viper` does.
-
-So in the case you do a `config.GetObject()` call, and the YAML value in there is set as a number, you might get `0` back from a `GetNumber()` on it - even if the value is set.
+                Looking into issue https://github.com/hyperledger/firefly/issues/1196 (now spun out into https://github.com/hyperledger/firefly/issues/1199) it appears that the `features` struct field is no longer visible to users of the package. Adding a getter in a similar way to the existing `ConnLimit()` getter makes the field accessible to read.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-12 22:18:38 +0000 UTC
+        Created At 2023-02-28 15:24:24 +0000 UTC
     </div>
 </div>
 

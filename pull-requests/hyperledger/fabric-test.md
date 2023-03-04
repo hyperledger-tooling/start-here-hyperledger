@@ -14,66 +14,77 @@ permalink: /pull-requests/hyperledger/fabric-test
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/469" class=".btn">#469</a>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/489" class=".btn">#489</a>
             </td>
             <td>
                 <b>
-                    Bump golang.org/x/net from 0.0.0-20191209160850-c0dbc17a3553 to 0.7.0 in /chaincodes/marbles02_private/go
+                    Bump Node to 18.14.2 (main) (backport #488)
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span><span class="chip">go</span>
+                
             </td>
             <td>
-                Bumps [golang.org/x/net](https://github.com/golang/net) from 0.0.0-20191209160850-c0dbc17a3553 to 0.7.0.
-<details>
-<summary>Commits</summary>
-<ul>
-<li>See full diff in <a href="https://github.com/golang/net/commits/v0.7.0">compare view</a></li>
-</ul>
-</details>
-<br />
+                This is an automatic backport of pull request #488 done by [Mergify](https://mergify.com).
 
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/net&package-manager=go_modules&previous-version=0.0.0-20191209160850-c0dbc17a3553&new-version=0.7.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
 
 ---
 
+
 <details>
-<summary>Dependabot commands and options</summary>
+<summary>Mergify commands and options</summary>
+
 <br />
 
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
-- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
-- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
-- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
 
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/fabric-test/network/alerts).
+You can also trigger Mergify actions by commenting on this pull request:
 
+- `@Mergifyio refresh` will re-evaluate the rules
+- `@Mergifyio rebase` will rebase this PR on its base branch
+- `@Mergifyio update` will merge the base branch into this PR
+- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
+
+Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
+
+- look at your merge queues
+- generate the Mergify configuration with the config editor.
+
+Finally, you can contact us on https://mergify.com
 </details>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-24 23:33:59 +0000 UTC
+        Created At 2023-02-28 02:19:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-test/pull/488" class=".btn">#488</a>
+            </td>
+            <td>
+                <b>
+                    Bump Node to 18.14.2 (release-2.5)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bump Node to 18.14.2.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-27 20:26:12 +0000 UTC
     </div>
 </div>
 

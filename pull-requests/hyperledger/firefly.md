@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1191" class=".btn">#1191</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1202" class=".btn">#1202</a>
             </td>
             <td>
                 <b>
-                    Update deprecated GitHub actions stuff
+                    Cleanup around batches and transactions
                 </b>
             </td>
         </tr>
@@ -27,12 +27,17 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                Resolves https://github.com/hyperledger/firefly/issues/1187 and should address all of the warnings we currently have in our GitHub action runs
+                Some general cleanup identified while working toward [FIR-17](https://github.com/hyperledger/firefly-fir/pull/17)
+
+* Add helper FindOperationInTransaction
+* Split internal batch dispatcher state from dispatched payload
+* Add IsPinned() transaction helper
+* Use message TransactionID in lookup
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-16 21:11:00 +0000 UTC
+        Created At 2023-03-03 21:00:52 +0000 UTC
     </div>
 </div>
 
@@ -40,124 +45,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1190" class=".btn">#1190</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1201" class=".btn">#1201</a>
             </td>
             <td>
                 <b>
-                    Fix nightly integration tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Previously we were passing the `--blockchain-node` flag for all integration tests. The `ff init fabric` subcommand does not support this flag though, so it fails to create the test stack.
-
-Here is an example of a failed run where this happened: https://github.com/hyperledger/firefly/actions/runs/4189374980/jobs/7261623960#step:6:139
-
-```
-ff -v --ansi never init fabric --prometheus-enabled --database sqlite3 firefly_e2e 2 --blockchain-node fabric --token-providers erc20_erc721 --manifest ../../manifest.json --sandbox-enabled=false --multiparty=true
-Error: unknown flag: --blockchain-node
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-16 19:24:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1189" class=".btn">#1189</a>
-            </td>
-            <td>
-                <b>
-                    Add version to log output and fix Dockerfile to include it
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves https://github.com/hyperledger/firefly/issues/1186
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-16 18:54:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1185" class=".btn">#1185</a>
-            </td>
-            <td>
-                <b>
-                    Fix typo in private & broadcast blob upload docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span><span class="chip">documentation</span>
-            </td>
-            <td>
-                I assume this should say `multi-part` (as in the MIME type) as opposed to `multi-party`
-
-Signed-off-by: Matthew Whitehead <matthew1001@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-14 08:46:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1184" class=".btn">#1184</a>
-            </td>
-            <td>
-                <b>
-                    Fix path in Fabric test-network tutorial
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                While re-running this tutorial I noticed that one of the paths to a key seemed incorrect. I have successfully run through it using the updated path in this PR.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-13 16:09:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1183" class=".btn">#1183</a>
-            </td>
-            <td>
-                <b>
-                    remove near tutorial
+                    Run Solidity tests on GitHub PRs
                 </b>
             </td>
         </tr>
@@ -171,7 +63,65 @@ Signed-off-by: Matthew Whitehead <matthew1001@gmail.com>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-13 15:21:57 +0000 UTC
+        Created At 2023-03-03 20:58:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1198" class=".btn">#1198</a>
+            </td>
+            <td>
+                <b>
+                    Fail gracefully when inserting many data rows on sqlite
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Need to pass requestConflictEmptyResult=true on this path, the same as we do on the postgres path.
+
+Fixes #1196
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-28 19:12:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1197" class=".btn">#1197</a>
+            </td>
+            <td>
+                <b>
+                    Call Features() getter to read DB provider features
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Looking into https://github.com/hyperledger/firefly/issues/1199 (originally due to https://github.com/hyperledger/firefly/issues/1196) it appears that we are referencing the `SQLCommon.features` struct field expecting it to have the features of the DB provider, but with the refactoring that took place under https://github.com/hyperledger/firefly/pull/1110 the `SQLCommon.features` field is actually populated by the DB provider. That's because there's now also a `Database.features` struct field in `firefly-common` which is the one that's actually been populated.
+
+In this PR I've removed the `SQLCommon.features` field and where we try to read from it today, used instead the new `Features()` getter that I've added under `firefly-common` PR https://github.com/hyperledger/firefly-common/pull/49
+
+~~This PR will remain in draft until https://github.com/hyperledger/firefly-common/pull/49 is approved and we have a new release of `firefly-common` to pull in.~~ (firefly-common v1.2.3 now released and pulled in under the latest commit)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-28 15:23:58 +0000 UTC
     </div>
 </div>
 

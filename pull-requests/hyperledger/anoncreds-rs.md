@@ -14,11 +14,106 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/114" class=".btn">#114</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/129" class=".btn">#129</a>
             </td>
             <td>
                 <b>
-                    fix(js): remove credentialDefinitionId
+                    refactor(js)!: use JSON objects in API instead of strings and instances
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is an attempt (without doing anything revolutionary) to make JS API a bit more simple to use, avoiding the so-many conversions from JSON to string  that we found during integration with AFJ. 
+
+For most methods that are currently receiving `AnoncredsObject` instances, now we accept also passing JSON objects. This makes the caller to not care about object instantiation and clearing handles, which is done internally. Hopefully, in a normal flow the caller will need only to care about freeing a few objects (like Credentials).
+
+I'm not sure if I'm using the `try-finally` method correctly (I'm particularly worried about the order of execution of finally if an exception is thrown) so any comments on this approach would be appreciated. I wanted to make this process of "checking object type and loading from JSON/add to handles to clear array" more elegant, but I think I'll need some more TypeScript lessons from @TimoGlastra and @blu3beri before attempting to do that 😛 .
+
+Some tests were added to this repo, but I didn't check this as a patch of AFJ to see how is it going, something I'd like to do before merging. 
+
+Summary of changes: 
+
+- Refactor `load` in AnonCredsObjects to `fromJson`, loading from a JSON object rather than a string
+- Refactor `toJson` in AnoncredsObject to return a JSON object rather than a string
+- All constructors and methods in API AnoncredsObjects accept both AnonCredsObjects and JSON objects. This is the most tricky part: for every passed JSON object, an  ephemeral AnonCredsObject instance will be created and must be cleared before returning to the caller
+- Add some missing fromJson (like the one from Credential)
+- Rename keyProof -> keyCorrectnessProof to match the naming of other fields
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-03 19:01:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/128" class=".btn">#128</a>
+            </td>
+            <td>
+                <b>
+                    Add linux arm64 as release target
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add linux arm64 distribution as target and a step for preparing the build environment for the aarch64-tooling.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-03 08:51:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/124" class=".btn">#124</a>
+            </td>
+            <td>
+                <b>
+                    update `ursa` to 0.3.7
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                `ursa` version 0.3.6 still has dependencies on the long deprecated `failure` crate which is no longer maintained and contains well known security issues (CVE-2019-25010 and CVE-2020-25575).
+
+fix #123 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-02 10:38:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/122" class=".btn">#122</a>
+            </td>
+            <td>
+                <b>
+                    added currentAccumulator support
                 </b>
             </td>
         </tr>
@@ -33,7 +128,7 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-16 08:57:22 +0000 UTC
+        Created At 2023-02-28 16:08:36 +0000 UTC
     </div>
 </div>
 
@@ -41,11 +136,11 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/113" class=".btn">#113</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/121" class=".btn">#121</a>
             </td>
             <td>
                 <b>
-                    chore: update version
+                    add required entropy instead of optional prover_did
                 </b>
             </td>
         </tr>
@@ -60,7 +155,7 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-15 20:32:36 +0000 UTC
+        Created At 2023-02-28 09:47:12 +0000 UTC
     </div>
 </div>
 
@@ -68,11 +163,39 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/112" class=".btn">#112</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/120" class=".btn">#120</a>
             </td>
             <td>
                 <b>
-                    fix(js): fixed minor typos
+                    fix: python wrapper type hint tweaks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR refines type hints in the python wrapper. These corrections make static type checkers like pyright/pylance happier.
+
+I'll open this as a draft for now and add more commits as I run into type complaints from pyright.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-28 00:16:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/119" class=".btn">#119</a>
+            </td>
+            <td>
+                <b>
+                    fix: issuer id in rev reg def must be the same as the credential def
                 </b>
             </td>
         </tr>
@@ -87,195 +210,7 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-15 20:18:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/111" class=".btn">#111</a>
-            </td>
-            <td>
-                <b>
-                    chore: update version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-15 13:41:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/110" class=".btn">#110</a>
-            </td>
-            <td>
-                <b>
-                    chore: make build-xcframework executable
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Karim Stekelenburg <karim@animo.id>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-15 13:03:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/109" class=".btn">#109</a>
-            </td>
-            <td>
-                <b>
-                    chore: update version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-13 08:47:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/108" class=".btn">#108</a>
-            </td>
-            <td>
-                <b>
-                    build: get the version from the metadata
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-11 21:06:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/107" class=".btn">#107</a>
-            </td>
-            <td>
-                <b>
-                    fix(js): allow multiple turbo modules to be registered
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-11 20:53:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/106" class=".btn">#106</a>
-            </td>
-            <td>
-                <b>
-                    fix(js): fixed some typos for RN
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-10 22:34:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/104" class=".btn">#104</a>
-            </td>
-            <td>
-                <b>
-                    chore: update version to 0.1.0-dev.5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-10 11:20:27 +0000 UTC
+        Created At 2023-02-27 14:54:50 +0000 UTC
     </div>
 </div>
 

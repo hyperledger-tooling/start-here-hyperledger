@@ -1,13 +1,13 @@
 
+[143](https://github.com/hyperledger/iroha-javascript/pull/143) Bump minimist from 1.2.5 to 1.2.8
+
+[108](https://github.com/hyperledger/aries-askar/pull/108) fix(js): ensure scan is freed after fetchAll
+
+[655](https://github.com/hyperledger/aries-agent-test-harness/pull/655) Remove the verity backchannel as it is no longer supported
+
 [998](https://github.com/hyperledger/fabric-samples/pull/998) asset-transfer-basic CI improvements
 
-[404](https://github.com/hyperledger-labs/fabric-operations-console/pull/404) format migrated url correctly if standard port
-
-[160](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/160) build(deps): bump @openzeppelin/contracts from 4.8.0 to 4.8.2
-
-[403](https://github.com/hyperledger-labs/fabric-operations-console/pull/403) set read only first
-
-[274](https://github.com/hyperledger/fabric-sdk-java/pull/274) Pull Fabric images from DockerHub
+[1202](https://github.com/hyperledger/firefly/pull/1202) Cleanup around batches and transactions
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

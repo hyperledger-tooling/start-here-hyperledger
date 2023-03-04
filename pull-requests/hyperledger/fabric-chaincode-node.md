@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/389" class=".btn">#389</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/394" class=".btn">#394</a>
             </td>
             <td>
                 <b>
-                    Add missing `fast-safe-stringify` dependency to `fabric-shim`
+                    Clean-up npm engine specs
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                `fast-safe-stringify` is being used in `fabric-shim` (in `logger.js`), but is missing in the dependencies array of `package.json`.
-
-Fixes #388 
-
-Signed-off-by: Rinish Sam <36656347+CaptainIRS@users.noreply.github.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-14 05:32:40 +0000 UTC
+        Created At 2023-03-02 13:26:05 +0000 UTC
     </div>
 </div>
 
@@ -44,11 +40,11 @@ Signed-off-by: Rinish Sam <36656347+CaptainIRS@users.noreply.github.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/387" class=".btn">#387</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/392" class=".btn">#392</a>
             </td>
             <td>
                 <b>
-                    Nominate Mark Lewis as maintainer
+                    Add scheduled builds
                 </b>
             </td>
         </tr>
@@ -57,12 +53,12 @@ Signed-off-by: Rinish Sam <36656347+CaptainIRS@users.noreply.github.com>
                 
             </td>
             <td>
-                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+                Refactor build workflows to allow reuse through workflow calls, and to make it easier to define different behaviour for different triggers.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-10 14:26:41 +0000 UTC
+        Created At 2023-03-02 10:53:41 +0000 UTC
     </div>
 </div>
 
@@ -70,11 +66,11 @@ Signed-off-by: Rinish Sam <36656347+CaptainIRS@users.noreply.github.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/386" class=".btn">#386</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/391" class=".btn">#391</a>
             </td>
             <td>
                 <b>
-                    Name the artefacts uploaded to ensure no collisions
+                    Nominate Mark Lewis as maintainer (backport #387)
                 </b>
             </td>
         </tr>
@@ -83,12 +79,38 @@ Signed-off-by: Rinish Sam <36656347+CaptainIRS@users.noreply.github.com>
                 
             </td>
             <td>
-                Signed-off-by: Matthew B White <whitemat@uk.ibm.com>
+                This is an automatic backport of pull request #387 done by [Mergify](https://mergify.com).
+
+
+---
+
+
+<details>
+<summary>Mergify commands and options</summary>
+
+<br />
+
+More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
+
+You can also trigger Mergify actions by commenting on this pull request:
+
+- `@Mergifyio refresh` will re-evaluate the rules
+- `@Mergifyio rebase` will rebase this PR on its base branch
+- `@Mergifyio update` will merge the base branch into this PR
+- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
+
+Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
+
+- look at your merge queues
+- generate the Mergify configuration with the config editor.
+
+Finally, you can contact us on https://mergify.com
+</details>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-10 11:20:58 +0000 UTC
+        Created At 2023-03-02 09:54:31 +0000 UTC
     </div>
 </div>
 

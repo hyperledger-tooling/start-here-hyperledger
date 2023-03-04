@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-signer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-signer/pull/31" class=".btn">#31</a>
+                PR <a href="https://github.com/hyperledger/firefly-signer/pull/34" class=".btn">#34</a>
             </td>
             <td>
                 <b>
-                    Custom error support in Ethereum ABI
+                    Add function to create Transaction object from hex data
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-signer
                 
             </td>
             <td>
-                Add support for specifying custom error definitions between FFI and ABI as described in https://github.com/hyperledger/firefly-evmconnect/pull/42
+                Half finished. Need to figure out how to deal with EIP1559 next.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-01 20:55:48 +0000 UTC
+        Created At 2023-03-02 11:07:26 +0000 UTC
     </div>
 </div>
 

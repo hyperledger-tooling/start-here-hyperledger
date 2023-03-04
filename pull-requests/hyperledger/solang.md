@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1183" class=".btn">#1183</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1210" class=".btn">#1210</a>
             </td>
             <td>
                 <b>
-                    Fix Solang Logo link for external consumption
+                    Remove unnecessary files from solang crate
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                These files bloat the crate file without any function. The list of files can be seen with `cargo package --list`.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-16 15:49:31 +0000 UTC
+        Created At 2023-03-03 20:56:44 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1182" class=".btn">#1182</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1209" class=".btn">#1209</a>
             </td>
             <td>
                 <b>
-                    docker buildx requires --provenance=false for now
+                    Bump solang-parser version for crate publish
                 </b>
             </td>
         </tr>
@@ -53,14 +53,14 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                This is an issue in docker buildx 0.10:
+                Note we don't want to include the entire solc source tree in the crate, so exclude all the testdata.
 
-https://github.com/docker/buildx/issues/1519
+New version is required for `forge fmt`.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-16 11:45:11 +0000 UTC
+        Created At 2023-03-03 14:00:00 +0000 UTC
     </div>
 </div>
 
@@ -68,11 +68,11 @@ https://github.com/docker/buildx/issues/1519
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1181" class=".btn">#1181</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1208" class=".btn">#1208</a>
             </td>
             <td>
                 <b>
-                    Split `method_call_pos_args` function
+                    Simplify switch in constant folding
                 </b>
             </td>
         </tr>
@@ -81,15 +81,12 @@ https://github.com/docker/buildx/issues/1519
                 
             </td>
             <td>
-                This PR splits the function `method_call_pos_args` into multiple small functions for better readability and maintenance. I had this idea when thinking about the new API we are going to implement for mappings on Solidity.
-
-
-I am open to other ideas on how to manage the multiple functions, if you don't like the approach I have taken.
+                I was checking if `fn block_edges` could be pre-calculated during CFG generation, for we call it six times (one more after we collect all Solana accounts). The only problem would be constant folding, which simplifies branches. While I was checking that, I realized we could simplify switches before trying to remove `fn block_edges`.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-15 20:47:47 +0000 UTC
+        Created At 2023-03-02 23:04:30 +0000 UTC
     </div>
 </div>
 
@@ -97,11 +94,11 @@ I am open to other ideas on how to manage the multiple functions, if you don't l
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1179" class=".btn">#1179</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1207" class=".btn">#1207</a>
             </td>
             <td>
                 <b>
-                    Use scale encoder in emit for release
+                    Update LLVM installation steps
                 </b>
             </td>
         </tr>
@@ -110,16 +107,14 @@ I am open to other ideas on how to manage the multiple functions, if you don't l
                 
             </td>
             <td>
-                As discussed: #1128 introduced a refactor version of the scale encoder in codegen. However, the emit version of the SCALE encoder could not be phased out yet; the dispatcher is written in emit as well, so we need to refactor the decoder (WIP, currently blocked by #1168 ) and then dispatcher into codegen (WIP after the decoder) first, too.
+                The CMAKE command must indicate we are not building zstd. 
 
-This resulted in the compiler using the new version of the encoder but only fo `abi.encode` and not in the dispatcher.
-
-We don't want to release a version with a half-baked SCALE encoder/decoder implementation. Minor issue is that it "feels wrong" to use different implementations for the same thing, depending on the circumstance. Major issue is that many tests go through the encoding logic in the dispatcher, but the dispatcher still uses the emit version. It is fine for the `main` branch but a no-go to ship that in a release.
+PS: The indentation is now fixed.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-14 18:32:55 +0000 UTC
+        Created At 2023-02-28 22:36:40 +0000 UTC
     </div>
 </div>
 
@@ -127,11 +122,11 @@ We don't want to release a version with a half-baked SCALE encoder/decoder imple
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1178" class=".btn">#1178</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1206" class=".btn">#1206</a>
             </td>
             <td>
                 <b>
-                    Fix wrong selector type in emit SCALE encoder
+                    Fix flipper.sol example
                 </b>
             </td>
         </tr>
@@ -140,14 +135,12 @@ We don't want to release a version with a half-baked SCALE encoder/decoder imple
                 
             </td>
             <td>
-                This was oversighted in #1128
-
-Signed-off-by: Cyrill Leutwiler <cyrill@parity.io>
+                This PR moves `example/flipper.sol` to the substrate examples folder and fixes the references in the docs. It also updates the README example with the correct contract.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-14 18:09:48 +0000 UTC
+        Created At 2023-02-28 22:28:49 +0000 UTC
     </div>
 </div>
 
@@ -155,11 +148,11 @@ Signed-off-by: Cyrill Leutwiler <cyrill@parity.io>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1176" class=".btn">#1176</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1204" class=".btn">#1204</a>
             </td>
             <td>
                 <b>
-                    Expand list of code owners, take #2
+                    Add Hyperledgers' suggestions for inclusivity
                 </b>
             </td>
         </tr>
@@ -168,14 +161,12 @@ Signed-off-by: Cyrill Leutwiler <cyrill@parity.io>
                 
             </td>
             <td>
-                I'm hoping I will get it right this time, no way of knowing with github being closed source.
-
-Signed-off-by: Sean Young <sean@mess.org>
+                The DCI  tool is marked `continue-on-error` for now, due to https://github.com/petermetz/gh-action-dci-lint/issues/2
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-14 15:39:25 +0000 UTC
+        Created At 2023-02-27 11:20:08 +0000 UTC
     </div>
 </div>
 
@@ -183,11 +174,11 @@ Signed-off-by: Sean Young <sean@mess.org>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1175" class=".btn">#1175</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1203" class=".btn">#1203</a>
             </td>
             <td>
                 <b>
-                    Expand list of solang code owners
+                    Support user defined operators (solc v0.8.19 feature)
                 </b>
             </td>
         </tr>
@@ -196,94 +187,16 @@ Signed-off-by: Sean Young <sean@mess.org>
                 
             </td>
             <td>
-                When creating a pull request, the users in this files are used to populate the reviewers. If it lists @hyperledger/solang-committers then we can't see who those users are and as soon as one of the members of @hyperledger/solang-committers leaves a review, then the pull request is marked as approved while we really want *all* the maintainers to approve.
+                This is new syntax introduced in solc v0.8.19 for overloading operators in a limited context (user types).
 
-Signed-off-by: Sean Young <sean@mess.org>
+See docs changes for explanation of the feature.
+
+I think the name "user defined operators" is not great, but a) I can't think of a better one - operator overloading maybe? b) this is what solc calls it.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-13 15:21:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1173" class=".btn">#1173</a>
-            </td>
-            <td>
-                <b>
-                    Account for leading zeros in hex number literals size width
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Matching the behavior of `solc`.
-
-Signed-off-by: xermicus <cyrill@parity.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-12 23:28:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1172" class=".btn">#1172</a>
-            </td>
-            <td>
-                <b>
-                    Update CODEOWNERS
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-10 19:32:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1170" class=".btn">#1170</a>
-            </td>
-            <td>
-                <b>
-                    Bump solang-parser for crate publish
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Sean Young <sean@mess.org>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-10 08:52:36 +0000 UTC
+        Created At 2023-02-26 17:18:08 +0000 UTC
     </div>
 </div>
 
