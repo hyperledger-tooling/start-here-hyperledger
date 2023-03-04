@@ -98,29 +98,3 @@ Adding a long-enough sleep before the registration seems to provide a satisfacto
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/406" class=".btn">#406</a>
-            </td>
-            <td>
-                <b>
-                    Changes to support EPID quote verification within CCF PDO TP
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Tested in SIM and HW mode on Azure ACC VMs. Tested on bare metal as well as docker end to end for both CCF and Sawtooth. Have not tested while operating within proxy environment. Docker end to end test in HW mode needs a patch to work within proxy environment. Will push patch separately. Thanks.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-24 21:40:36 +0000 UTC
-    </div>
-</div>
-
