@@ -28,6 +28,8 @@ permalink: /pull-requests/hyperledger/fabric-admin-sdk
             </td>
             <td>
                 Made the Definition.validat() function private since it is not used outside of the package.
+
+Closes #101 
             </td>
         </tr>
     </table>
