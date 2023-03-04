@@ -14,7 +14,36 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/649" class=".btn">#649</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/655" class=".btn">#655</a>
+            </td>
+            <td>
+                <b>
+                    Remove the verity backchannel as it is no longer supported
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The verify backchannel is no longer being maintained and enquiries to the principals have not received responses.
+
+Removing the backchannel, runsets and references to the backchannel in the generated test run results.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-03 22:07:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/654" class=".btn">#654</a>
             </td>
             <td>
                 <b>
@@ -32,7 +61,7 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-14 03:14:14 +0000 UTC
+        Created At 2023-03-01 03:49:11 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +69,11 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/648" class=".btn">#648</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/653" class=".btn">#653</a>
             </td>
             <td>
                 <b>
-                    Changes by create-pull-request action
+                    fix(javascript): deprecated publicDidSeed parameter
                 </b>
             </td>
         </tr>
@@ -53,42 +82,12 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
                 
             </td>
             <td>
-                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
+                Update to match latest alpha, that removes some deprecated parameters and types that we were still referencing in the backchannel.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-13 03:33:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/647" class=".btn">#647</a>
-            </td>
-            <td>
-                <b>
-                    Remove reference to .NET backchannel in mobile backchannel instructions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-Signed-off-by: Stephen Curran <swcurran@cloudcompass.ca>
-
-Signed-off-by: Stephen Curran <swcurran@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-12 16:35:07 +0000 UTC
+        Created At 2023-02-25 13:36:50 +0000 UTC
     </div>
 </div>
 

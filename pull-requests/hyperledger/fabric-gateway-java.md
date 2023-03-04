@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/146" class=".btn">#146</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/149" class=".btn">#149</a>
             </td>
             <td>
                 <b>
-                    Publish snapshots to GitHub Packages (release-2.2)
+                    Update dependency-check plugin to avoid false positives (release-2.2)
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-27 17:48:37 +0000 UTC
+        Created At 2023-02-28 17:12:20 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/145" class=".btn">#145</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/148" class=".btn">#148</a>
             </td>
             <td>
                 <b>
-                    Publish Maven artifacts
+                    Update dependency-check plugin to avoid false positives
                 </b>
             </td>
         </tr>
@@ -53,13 +53,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
                 
             </td>
             <td>
-                - Publish snapshots to GitHub Packages on each push
-- Publish tagged releases to GitHub Packages and Maven Central
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-27 17:27:32 +0000 UTC
+        Created At 2023-02-28 16:55:09 +0000 UTC
     </div>
 </div>
 

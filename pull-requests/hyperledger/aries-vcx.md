@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/755" class=".btn">#755</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/766" class=".btn">#766</a>
             </td>
             <td>
                 <b>
-                    Add tests on top of messages_crate PR
+                    Update sqlx version to 0.6.2
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                First iteration, needed to get my hands on. Feel free to merge OR close and just cherry-pick useful parts if your local revision is perhaps already ahead.
+                update sqlx version
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-15 22:22:16 +0000 UTC
+        Created At 2023-03-02 23:27:47 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/754" class=".btn">#754</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/765" class=".btn">#765</a>
             </td>
             <td>
                 <b>
-                    Refactor/messages crate
+                    Release 0.53.0
                 </b>
             </td>
         </tr>
@@ -53,18 +53,12 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                Refactor of messages crate.
-
-Planned steps:
-  - Initially, development will be carried in a new crate, `messages2`.
-  - After the crate is complete, it's integration will be done within `aries_vcx`.
- 
-
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-14 23:40:14 +0000 UTC
+        Created At 2023-03-02 22:48:50 +0000 UTC
     </div>
 </div>
 
@@ -72,11 +66,11 @@ Planned steps:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/752" class=".btn">#752</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/764" class=".btn">#764</a>
             </td>
             <td>
                 <b>
-                    Rename connection 'Complete' state to 'Completed'
+                    Rename prover methods, extend test test_generate_self_attested_proof
                 </b>
             </td>
         </tr>
@@ -85,15 +79,38 @@ Planned steps:
                 
             </td>
             <td>
-                - We are using past tense form to name protocol states, for example `Requested`, `Finished`, `Sent`, except for Connection's `Complete` state. This PR unifies the naming, renaming `Complete -> Completed`
-- Mediated Connection note: although it's discouraged to rely on the serialized form of state machines, note that mediated connection even previously serialized `Complete` state as `"Completed"`, so this does not present any practical change for mediated connection, but purely internal. 
+                ## API changes (in `aries-vcx`, `libvcx_core`, `vcx-napi-rs`)
+#### proof (verifier) methods:
+- `presentation_request` renamed to `presentation_request_msg`
+- `presentation` renamed to `get_presentation_msg`
+- `presentation_status` renamed to `get_presentation_status`
+- `get_proof_state` renamed to `proof_get_presentation_verification_status`
+- in `libvcx_core` and upwards added methods: `get_presentation_attachment`, `get_presentation_request_attachment` - these are returning decoded versions of attachment in the respective messages (json as string)
 
-Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+#### disclosed proof methods:
+- `generate_proof_msg` renamed to `get_presentation_msg` (it's not generating anything, probably did historically)
+
+## NodeJS
+#### NodeJS wrapper
+- Removed `getProof` which combined 2 ffi calls removed
+- instead added granular api `getPresentationMsg`, `getPresentationVerificationStatus`, `getPresentationAttachment`
+
+###  vcxagent-core
+- generalized testing util method `sendHolderProof` to make proofData injectable, updated tests
+- fixed various standard warnings
+- added test `Faber should verify proof with self attestation`
+- Added asserts to existing proof tests to check verification status and inspect values received in the received presentation
+
+### Testing
+- Extended test `test_generate_self_attested_proof ` to include verification of proof containing of self-attested attributes
+
+- method renames in `libvcx_core`
+  - `generate_proof_msg` -> `get_presentation_msg`
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-14 13:21:46 +0000 UTC
+        Created At 2023-03-01 17:05:23 +0000 UTC
     </div>
 </div>
 
@@ -101,11 +118,11 @@ Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/751" class=".btn">#751</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/763" class=".btn">#763</a>
             </td>
             <td>
                 <b>
-                    Update CI host images to ubuntu 22.04
+                    Experiment - Vdrtools as a feature flag
                 </b>
             </td>
         </tr>
@@ -114,12 +131,20 @@ Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
                 
             </td>
             <td>
-                Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+                This is mostly just an experimental proof of concept to put all aries-vcx usages of libvdrtools under a feature flag (which aries-vcx has as a default flag).
+
+The idea is that consumers who do not want to use vdrtools dependencies (e.g. using modular deps or their even own deps instead), can override the default flag and use their own `Profile`. This way the consumer does not have to pull in the heavy-weight deps of libvdrtools
+
+I imagine once the modular deps (i.e. issuer&verifer & askar-wallet) implementations are fleshed out, we would have a feature flag for those implementations as well, and then importing consumers can toggle between what they wish to use.
+
+
+# Other Changes
+There are still some usages of `crate::indy` splatter around the codebase that need to be isolated. Specifically, `LibIndyMocks`, which could probably just become a more general `GlobalMocks` structure, or something like that. I'm yet to work this out.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-13 15:56:21 +0000 UTC
+        Created At 2023-03-01 14:05:58 +0000 UTC
     </div>
 </div>
 
@@ -127,81 +152,35 @@ Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/750" class=".btn">#750</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/762" class=".btn">#762</a>
             </td>
             <td>
                 <b>
-                    Fix NodeJS testing CI
+                    OOB invite attachment field conditional serialization, default to empty if not present
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">skip-ios</span><span class="chip">skip-android</span><span class="chip">skip-napi-m1</span>
+                <span class="chip">hotfix</span><span class="chip">breaking</span><span class="chip">skip-ios</span><span class="chip">skip-android</span><span class="chip">skip-napi-m1</span>
             </td>
             <td>
-                NodeJS CI testing changes:
-- upgrade host machines to ubuntu 22.04
-- run only against nodejs 18, drop 12
-- downgrade npm from default `9.x` to `8.x` instead (on 9x, npm can't resolve `@hyperledger/vcx-napi-rs-linux-x64-gnu` from `node-wrapper`; for example: https://github.com/hyperledger/aries-vcx/actions/runs/4166607529/jobs/7211161331)
+                Currently:
 
-Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
+* deserialization of OOB invitation fails if `requests~attach` field is not present, and
+* when no messages were attached to OOB invitation, the attachments field serializes to an empty vec unnecessarily.
+
+This change:
+
+* sets default value for the field to fix the first issue, and
+* skips serialization if the attachments are empty to fix the second issue.
+
+This is a breaking change: prior versions of aries-vcx are not forward compatible with this change and fail to deserialize OOB invitations without `requests~attach` field. However, after this change, aries-vcx is still backwards compatible with OOB invitations produced by earlier versions of aries-vcx.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-13 14:01:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/749" class=".btn">#749</a>
-            </td>
-            <td>
-                <b>
-                    Simplify connection serialization from nodejs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">skip-ios</span><span class="chip">skip-android</span><span class="chip">skip-napi-m1</span>
-            </td>
-            <td>
-                - NodeJS wrapper was previously trying to keep value of `source_id` as part of constructed JS objects / TS classes, see changes in class `VcxBase`
-```
-protected _sourceId: string;
-```
-- Consequently deserialization constructors requiring `source_id`. That led me to generalizing signature for its static method ` _deserialize` such the serialized data to be deserialized are simply a JSON object (expressed as `Record<string, unknown>` in TS) instead of previous more strict definition `objData: ISerializedData<{ source_id: string }>`  which couldn't acommodate different serialization format of `Connection` state machine.
-- Additionally removed some dead code
-- Note: More code can be purged and cleaned up, for example given the decision to treat serialized data as opaque, it makes no sense to define `ISerializedData`, as this is expression of certain assumption as to how that serialized data looks like. The only thing which should be held by TS classes is the numeric rust handle
-- Simplifies `Connection` serialization such that in serialized to (removing extra `data` level in hierarchy, removes duplicated field `source_id`, removes `version`)
-```
-{
-    "source_id": "",
-    "pairwise_info": {
-        "pw_did": "FhrSrYtQcw3p9xwf7NYemf",
-        "pw_vk": "91qMFrZjXDoi2Vc8Mm14Ys112tEZdDegBZZoembFEATE"
-    },
-    "state": {
-        "Inviter": {
-            "Initial": null
-        }
-    }
-}
-```
-
-
-
-Signed-off-by: Patrik Stas <patrik.stas@absa.africa>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-10 11:37:47 +0000 UTC
+        Created At 2023-02-28 19:35:51 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-admin-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/93" class=".btn">#93</a>
+                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/111" class=".btn">#111</a>
             </td>
             <td>
                 <b>
-                    Fix staticcheck checks
+                    Update godoc and examples for chaincode package
                 </b>
             </td>
         </tr>
@@ -27,18 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-admin-sdk
                 
             </td>
             <td>
-                staticcheck was only being run against the root directory, which contains no Go files. Change to run recurseively so code is actually checked.
-
-For now, disable checks for missing package documentation.
-
-Fix staticcheck failures and remove use of unnecessary github.com/pkg/errors package.
-
-Disable fail-fast for golang test matrix so all test results can be viewed, even if one fails.
+                Made the Definition.validat() function private since it is not used outside of the package.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-14 18:21:59 +0000 UTC
+        Created At 2023-03-03 17:22:21 +0000 UTC
     </div>
 </div>
 
@@ -46,11 +40,11 @@ Disable fail-fast for golang test matrix so all test results can be viewed, even
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/92" class=".btn">#92</a>
+                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/109" class=".btn">#109</a>
             </td>
             <td>
                 <b>
-                    Refactor query committed functions to use gateway
+                    Implement GetInstalled chaincode package
                 </b>
             </td>
         </tr>
@@ -59,17 +53,17 @@ Disable fail-fast for golang test matrix so all test results can be viewed, even
                 
             </td>
             <td>
-                - Now query committed functions use the evaluate method of the gateway service, as suggested by @bestbeforetoday in #89 
-- Unit tests were re-written
-- No changes were necessary to E2E test
+                Contains two commits to be merged as separate commits. One for GetInstalled chaincode package; the other for QueryApproved chaincode definition.
 
-Signed-off-by: Samuel Venzi <samuel.venzi@me.com>
+Changed chaincode.PackageID() to take a Reader for consistency with chaincode.Install().
 
+Closes #102
+Closes #103
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-13 23:24:45 +0000 UTC
+        Created At 2023-03-02 17:40:13 +0000 UTC
     </div>
 </div>
 
@@ -77,11 +71,11 @@ Signed-off-by: Samuel Venzi <samuel.venzi@me.com>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/91" class=".btn">#91</a>
+                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/108" class=".btn">#108</a>
             </td>
             <td>
                 <b>
-                    add validation phase to same with fabric CLI
+                    try to fix #106
                 </b>
             </td>
         </tr>
@@ -90,14 +84,39 @@ Signed-off-by: Samuel Venzi <samuel.venzi@me.com>
                 
             </td>
             <td>
-                add validation phase to same with fabric CLI
-
-Signed-off-by: Sam Yuan <yy19902439@126.com>
+                I suppose we need to provide function to support approve sign for chaincode level and channel level.
+this PR is just a draft as POC.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-11 11:42:04 +0000 UTC
+        Created At 2023-02-28 15:21:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/107" class=".btn">#107</a>
+            </td>
+            <td>
+                <b>
+                    Use explicit lockfile parameter for osv-scanner
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A behavioural change in osv-scanner means that files included in a .gitignore file were not scanned. Explicitly specifying the lockfile to be scanned with a --lockfile argument avoids this issue.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-26 21:18:54 +0000 UTC
     </div>
 </div>
 

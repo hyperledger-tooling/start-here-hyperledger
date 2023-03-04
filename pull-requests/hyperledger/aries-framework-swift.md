@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/18" class=".btn">#18</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/27" class=".btn">#27</a>
             </td>
             <td>
                 <b>
-                    sample: Update framework version in Sample
+                    ci: Cache Pods to speed up
                 </b>
             </td>
         </tr>
@@ -27,55 +27,12 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
                 
             </td>
             <td>
-                ## Checklist
-
-- [ ] I have run swiftlint
-- [ ] I have run AriesFrameworkTests
-- [ ] I have run AllTests
-
-## Description
-
-Update framework version in Sample.
-The framework version in the lockfile was 1.2.0 which has an issue in connecting to a mediator.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-26 09:00:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/17" class=".btn">#17</a>
-            </td>
-            <td>
-                <b>
-                    doc: Add diagrams for developer guide
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Checklist
-
-- [ ] I have run swiftlint
-- [ ] I have run AriesFrameworkTests
-- [ ] I have run AllTests
-
-## Description
-
-Add diagrams for developer guide
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-26 07:50:11 +0000 UTC
+        Created At 2023-02-27 05:42:42 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/555" class=".btn">#555</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/566" class=".btn">#566</a>
             </td>
             <td>
                 <b>
-                    Use interface instead of @grpc/grpc-js Client class in public API
+                    Use effective POM for osv-scanner to include transitive dependencies
                 </b>
             </td>
         </tr>
@@ -27,12 +27,66 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Since the gRPC Client is a concrete class, changes to private members can cause version-to-version type incompatibilities if the caller has a dependency on a different version of @grpc/grpc-js. Requiring an interface containing only public methods of the gRPC Client class avoids these issues, provided there are no breaking changes in the gRPC Client API.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-10 15:08:45 +0000 UTC
+        Created At 2023-02-28 17:49:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/565" class=".btn">#565</a>
+            </td>
+            <td>
+                <b>
+                    Use @noble/curves for Node signing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This package is newer than elliptic, has fewer dependencies, is better typed, and appears to be faster.
+
+Closes #524
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-27 14:40:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/564" class=".btn">#564</a>
+            </td>
+            <td>
+                <b>
+                    Use explicit lockfile argument to osv-scanner
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A behavioural change in osv-scanner meant that files included in a .gitignore file were ignored. This prevented the package-lock.json from being scanned. Explicitly specifying the file to be scanned using the --lockfile paramter avoids this issue.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-02-26 21:12:33 +0000 UTC
     </div>
 </div>
 
