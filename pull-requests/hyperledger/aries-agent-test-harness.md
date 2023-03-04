@@ -65,29 +65,3 @@ Removing the backchannel, runsets and references to the backchannel in the gener
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/653" class=".btn">#653</a>
-            </td>
-            <td>
-                <b>
-                    fix(javascript): deprecated publicDidSeed parameter
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update to match latest alpha, that removes some deprecated parameters and types that we were still referencing in the backchannel.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-25 13:36:50 +0000 UTC
-    </div>
-</div>
-
