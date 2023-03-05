@@ -70,7 +70,7 @@ permalink: /pull-requests/hyperledger-labs/orion-server
             </td>
             <td>
                 <b>
-                    Alternative (consolidated) Metrics Design
+                    Alternative (consolidated) metrics design
                 </b>
             </td>
         </tr>
