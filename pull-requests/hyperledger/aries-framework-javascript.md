@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1367" class=".btn">#1367</a>
+            </td>
+            <td>
+                <b>
+                    fix(anoncreds): Buffer not imported from core
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Subtle omission that was causing `encodeCredentialValue` to fail under React Native.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-04 23:21:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1362" class=".btn">#1362</a>
             </td>
             <td>
