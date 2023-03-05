@@ -198,33 +198,3 @@ PS: The indentation is now fixed.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1203" class=".btn">#1203</a>
-            </td>
-            <td>
-                <b>
-                    Support user defined operators (solc v0.8.19 feature)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is new syntax introduced in solc v0.8.19 for overloading operators in a limited context (user types).
-
-See docs changes for explanation of the feature.
-
-I think the name "user defined operators" is not great, but a) I can't think of a better one - operator overloading maybe? b) this is what solc calls it.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-26 17:18:08 +0000 UTC
-    </div>
-</div>
-
