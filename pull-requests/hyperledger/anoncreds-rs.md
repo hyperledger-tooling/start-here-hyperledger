@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/130" class=".btn">#130</a>
+            </td>
+            <td>
+                <b>
+                    fix(js): missing getXXXFromJson methods and several typos
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adding the missing methods from react-native wrappers and making lots of minor fixes, mostly related to typos and outdated variable/method names.
+
+At the moment working for a full issuance / proof flow without revocation. However there is a memory leak leading to custom app crashes and variable corruption (!) when creating presentation, at least happening in Android. Hopefully this is related to the fix done in #129 (I didn't tested with it yet).
+
+PS: All getXXXFromJson methods can be heavily refactored as they do almost the same thing. For the moment just wanted to be conservative to be focused in solving all issues, but any suggestion to make it cleaner will be appreciated!
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-05 10:46:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/129" class=".btn">#129</a>
             </td>
             <td>
