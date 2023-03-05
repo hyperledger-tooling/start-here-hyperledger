@@ -68,31 +68,3 @@ Plaintext tags are not well used (I don't think they're used at all in ACA-Py) w
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-tools/pull/10" class=".btn">#10</a>
-            </td>
-            <td>
-                <b>
-                    feat: add progress indicator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds a simple progress reporter that prints a line at least once per "batch" of items. This will provide (reassuring) feedback during migration of large wallets.
-
-Resolves #9
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-26 01:12:32 +0000 UTC
-    </div>
-</div>
-
