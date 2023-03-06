@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5169" class=".btn">#5169</a>
+            </td>
+            <td>
+                <b>
+                    Ask for Consensus Client and version on issue template
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span>
+            </td>
+            <td>
+                Remove what appear to be unused templates
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-06 01:04:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5157" class=".btn">#5157</a>
             </td>
             <td>

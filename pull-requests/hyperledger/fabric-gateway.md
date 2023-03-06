@@ -64,29 +64,3 @@ Closes #524
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/564" class=".btn">#564</a>
-            </td>
-            <td>
-                <b>
-                    Use explicit lockfile argument to osv-scanner
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                A behavioural change in osv-scanner meant that files included in a .gitignore file were ignored. This prevented the package-lock.json from being scanned. Explicitly specifying the file to be scanned using the --lockfile paramter avoids this issue.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-26 21:12:33 +0000 UTC
-    </div>
-</div>
-
