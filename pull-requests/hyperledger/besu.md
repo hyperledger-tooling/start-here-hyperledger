@@ -14,6 +14,103 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5171" class=".btn">#5171</a>
+            </td>
+            <td>
+                <b>
+                    Replace getByBlockNumber by getByBlockHeader in getBlockHeaderFunctions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This PR is a simple replace of the method getByBlockNumber by the wider getByBlockHeader for the ScheduleBasedBlockHeaderFunctions.getBlockHeaderFunctions method.
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+Fixes #5166
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Acceptance Tests (Non Mainnet)
+
+- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-06 03:44:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5170" class=".btn">#5170</a>
+            </td>
+            <td>
+                <b>
+                    Change transaction simulator to use ProtocolSchedule.getByBlockHeader
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Change transaction simulator to use ProtocolSchedule.getByBlockHeader
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+related to #5158 
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Acceptance Tests (Non Mainnet)
+
+- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-06 03:24:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5169" class=".btn">#5169</a>
             </td>
             <td>
@@ -414,134 +511,6 @@ fixes https://github.com/hyperledger/besu/issues/4244
     </table>
     <div class="right-align">
         Created At 2023-02-27 18:10:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5141" class=".btn">#5141</a>
-            </td>
-            <td>
-                <b>
-                    Withdrawals engine API ATs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span><span class="chip">EIP</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Basic withdrawals acceptance tests using the engine API
-
-Covers these test cases
-* Sending a prepare payload with no (null) withdrawals after withdrawals timestamp
-* Sending a prepare payload with withdrawals
-* Retrieving the built block with withdrawals
-* Executing and updating forkchoice
-* Confirming the balance is incremented for the withdrawals address
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #5078 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Acceptance Tests (Non Mainnet)
-
-- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-27 06:10:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5140" class=".btn">#5140</a>
-            </td>
-            <td>
-                <b>
-                    Fix issues with RLPExceptions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-This PR fixes two issues with RLP encoding:
-
-### 1- BlockBody
-
-For the BlockBody RLP serialisation, when an empty body `[]` is sent, a breach of protocol is triggered and Besu disconnects the peer. That causes Besu to disconnect peers with a good reputation. This PR adds an option in the readFrom method to allow an empty BlockBody whenever a `[]` is found. The message will be verified later and marked as invalid anyway, but besu will not disconnect the peer.
-
-### 2 -NewPooledTransactionHashesMessage
-
-`NewPooledTransactionHashesMessage` on Eth/68 has an issue with the array of types (`byte`):
-
-`[[type_0: B_1, type_1: B_1, ...], [size_0: B_4, size_1: B_4, ...], [hash_0: B_32, hash_1: B_32, ...]]`
-
-The current implementation serializes it as:
-```
-[
-      ["0x01","0x02"]
-      ["0x00000001","0x00000002"],
-      ["0x0000000000000000000000000000000000000000000000000000000000000001",
-       "0x0000000000000000000000000000000000000000000000000000000000000002"]
-]
-```
-The other clients send the first array of this message as one element instead of an array:
-```
-[
-      ["0x0102"]
-      ["0x00000002","0x00000003"],
-      ["0x0000000000000000000000000000000000000000000000000000000000000002",
-       "0x0000000000000000000000000000000000000000000000000000000000000003"]
-]
-```
-This PR fixes the encoding to match the other client messages.
-
- see #5056
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Acceptance Tests (Non Mainnet)
-
-- [ ] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-27 02:37:55 +0000 UTC
     </div>
 </div>
 
