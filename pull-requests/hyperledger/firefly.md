@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1203" class=".btn">#1203</a>
+            </td>
+            <td>
+                <b>
+                    [tokens] Only Use broadcastName for Multi-Party Namespaces
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                TODOs
+- [ ] Unit tests
+- [ ] Additional E2E test for using broadcastName for both multi-party and gateway namespaces
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-06 04:27:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1202" class=".btn">#1202</a>
             </td>
             <td>

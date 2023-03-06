@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/792" class=".btn">#792</a>
+            </td>
+            <td>
+                <b>
+                    [ja_JP] Translate "membership.md" into Japanese
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">jaJP-docs-ongoing</span>
+            </td>
+            <td>
+                This patch translates source/membership/membership.md into Japanese.
+
+Resolves #116
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-06 02:30:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/791" class=".btn">#791</a>
             </td>
             <td>

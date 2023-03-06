@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/27" class=".btn">#27</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/30" class=".btn">#30</a>
             </td>
             <td>
                 <b>
-                    ci: Cache Pods to speed up
+                    ci: Skip pod install on cache hit
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-27 05:42:42 +0000 UTC
+        Created At 2023-03-06 05:38:32 +0000 UTC
     </div>
 </div>
 
