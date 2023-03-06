@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/170" class=".btn">#170</a>
+            </td>
+            <td>
+                <b>
+                    fix(js): several fixes for js wrapper
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Similar to https://github.com/hyperledger/aries-askar/pull/111, but for indy-vdr
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-06 13:44:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-vdr/pull/169" class=".btn">#169</a>
             </td>
             <td>

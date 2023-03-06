@@ -27,8 +27,8 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                - Application failure should result in CI failure
-- Automatically remove wallet from prior runs
+                - Application failure should result in CI failure (exit code 1)
+- Automatically remove wallet from prior runs 
 - Fix chaincode name issues, allow chaincode name to be passed from CI
 - Fix appUser collisions (duplicate registration failures)
 - Fix key create collisions across apps (in cases where same chaincode is used for multiple apps)

@@ -443,39 +443,3 @@ https://github.com/hyperledger/bevel/releases/tag/untagged-a604deffca64f8b1f9e7
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2167" class=".btn">#2167</a>
-            </td>
-            <td>
-                <b>
-                    [besu] alpine utils image changes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Changelog**
-- Renamed alpine-utils to bevel-alpine
-- Added new bevel-alpine-ext img with mysql connector
-- modified workflow to build and push the new bevel-apline images
-- modified besu code to use the new images
-
- 
-
-**Reviewed by**
-@jagpreetsinghsasan
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-27 15:01:49 +0000 UTC
-    </div>
-</div>
-
