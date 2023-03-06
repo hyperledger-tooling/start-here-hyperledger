@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1213" class=".btn">#1213</a>
+            </td>
+            <td>
+                <b>
+                    Update solang-parser/README.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update README.md to indicate that breaking changes could occur at any time.
+
+Fixes #1212
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-06 13:37:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1211" class=".btn">#1211</a>
             </td>
             <td>

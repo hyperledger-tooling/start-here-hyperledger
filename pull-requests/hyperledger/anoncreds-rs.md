@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/131" class=".btn">#131</a>
+            </td>
+            <td>
+                <b>
+                    fix(js): several fixes for js wrapper
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Similar to https://github.com/hyperledger/indy-vdr/pull/170 and https://github.com/hyperledger/aries-askar/pull/111 but for anoncreds
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-06 13:45:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/130" class=".btn">#130</a>
             </td>
             <td>
@@ -190,33 +218,6 @@ I'll open this as a draft for now and add more commits as I run into type compla
     </table>
     <div class="right-align">
         Created At 2023-02-28 00:16:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/119" class=".btn">#119</a>
-            </td>
-            <td>
-                <b>
-                    fix: issuer id in rev reg def must be the same as the credential def
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-27 14:54:50 +0000 UTC
     </div>
 </div>
 
