@@ -87,32 +87,6 @@ Summary of changes:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/128" class=".btn">#128</a>
-            </td>
-            <td>
-                <b>
-                    Add linux arm64 as release target
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add linux arm64 distribution as target and a step for preparing the build environment for the aarch64-tooling.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-03 08:51:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/124" class=".btn">#124</a>
             </td>
             <td>

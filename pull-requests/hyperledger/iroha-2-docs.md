@@ -166,29 +166,3 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/268" class=".btn">#268</a>
-            </td>
-            <td>
-                <b>
-                    [docs] #267: Update sh-lang code blocks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #267 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-27 10:04:00 +0000 UTC
-    </div>
-</div>
-
