@@ -1,13 +1,13 @@
 
-[103](https://github.com/hyperledger-labs/university-course/pull/103) chore(deps): bump minimist from 1.2.5 to 1.2.8 in /support/Lab02
+[5169](https://github.com/hyperledger/besu/pull/5169) Ask for Consensus Client and version on issue template
 
-[101](https://github.com/hyperledger-labs/university-course/pull/101) chore(deps): bump minimist and mkdirp in /support/Lab06/b4s/organization/students-union/utils
+[382](https://github.com/hyperledger-labs/fablo/pull/382) Bump minimist from 1.2.5 to 1.2.8 in /samples/chaincodes/chaincode-kv-node
 
-[102](https://github.com/hyperledger-labs/university-course/pull/102) chore(deps): bump minimist and mkdirp in /support/Lab06/b4s/organization/students-union/b4s_client
+[108](https://github.com/hyperledger-labs/university-course/pull/108) chore(deps): bump ansi-html and webpack-dev-server in /support/Lab06/b4s/organization/university/user-interface
 
-[100](https://github.com/hyperledger-labs/university-course/pull/100) chore(deps): bump minimist and mkdirp in /support/Lab06/b4s/organization/university/b4s_client
+[107](https://github.com/hyperledger-labs/university-course/pull/107) chore(deps): bump ejs and @vue/cli-service in /support/Lab06/b4s/organization/university/user-interface
 
-[99](https://github.com/hyperledger-labs/university-course/pull/99) chore(deps): bump minimist from 1.2.5 to 1.2.8 in /support/Lab06/b4s/organization/university/user-interface
+[106](https://github.com/hyperledger-labs/university-course/pull/106) chore(deps): bump lodash from 4.17.15 to 4.17.21 in /support/Lab06/b4s/organization/university/user-interface
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

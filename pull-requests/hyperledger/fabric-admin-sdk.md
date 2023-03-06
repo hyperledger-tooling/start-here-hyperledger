@@ -96,29 +96,3 @@ this PR is just a draft as POC.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/107" class=".btn">#107</a>
-            </td>
-            <td>
-                <b>
-                    Use explicit lockfile parameter for osv-scanner
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                A behavioural change in osv-scanner means that files included in a .gitignore file were not scanned. Explicitly specifying the lockfile to be scanned with a --lockfile argument avoids this issue.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-26 21:18:54 +0000 UTC
-    </div>
-</div>
-
