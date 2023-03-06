@@ -31,6 +31,8 @@ permalink: /pull-requests/hyperledger/bevel
    - Add Cactus-Connectors for Besu and Fabric
    - Add pre-configured accounts for Besu via network.yaml
    - Fix vault-auth issue with Kubernetes restarts
+   - Fix issue with `platforms/shared/configuration/roles/check/setup` resetting other ansible vars showing errors like <varname>.failed not found
+   - Add new role `platforms/shared/configuration/roles/check/directory` to replace ensure_dir in `check/setup`
 
 
 Fixes #1827
@@ -474,45 +476,6 @@ https://github.com/hyperledger/bevel/releases/tag/untagged-a604deffca64f8b1f9e7
     </table>
     <div class="right-align">
         Created At 2023-02-27 15:01:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2165" class=".btn">#2165</a>
-            </td>
-            <td>
-                <b>
-                    [besu] Add supplychain besu workflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Changelog**
-Added the workflow for bevel-supplychain-besu:express-app-latest 
-.github/workflows/besu_expressapi.yaml
-
-Updated examples/supplychain-app/besu/express_nodeJS/Dockerfile
-
- 
-
-**Reviewed by**
-@jagpreetsinghsasan @suvajit @sownak 
-
-Linked issue
-#2139 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-27 09:45:46 +0000 UTC
     </div>
 </div>
 

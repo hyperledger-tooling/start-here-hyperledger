@@ -14,6 +14,89 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5174" class=".btn">#5174</a>
+            </td>
+            <td>
+                <b>
+                    Fix empty body concept after shanghai
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Acceptance Tests (Non Mainnet)
+
+- [ ] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-06 10:16:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5173" class=".btn">#5173</a>
+            </td>
+            <td>
+                <b>
+                    Remove getByBlockNumber for CheckpointSync
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Pull up and simplify data passed to CheckpointSource, which then allows checkpointBlockHeader to be used by protocolSchedule.getByBlockHeader.
+
+Fixes #5167 
+
+Alternative approach explored: https://github.com/siladu/besu/commit/bbaa80dcd88c517fb0d7a07a6fcd9f8a027bf5a5
+but I didn't like the way ScheduleBasedHeaderBlockHeaderFunctions requires an explicit delegation override (otherwise it implicitly gets the wrong value).
+
+CheckpointSync testing:
+- [ ] Sepolia (prysm)
+- [ ] Sepolia (lighthouse)
+- [ ] Goerli (lighthouse)
+- [ ] Mainnet (teku)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-06 06:53:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5171" class=".btn">#5171</a>
             </td>
             <td>

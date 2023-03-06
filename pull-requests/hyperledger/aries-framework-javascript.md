@@ -284,31 +284,3 @@ BREAKING CHANGE:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1349" class=".btn">#1349</a>
-            </td>
-            <td>
-                <b>
-                    feat: add set up for indy-vdr optional peer dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The PR provides the guide to set up indy-vdr optional peer dependencies
-
-**Work funded by the Government of Ontario**
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-27 11:40:33 +0000 UTC
-    </div>
-</div>
-

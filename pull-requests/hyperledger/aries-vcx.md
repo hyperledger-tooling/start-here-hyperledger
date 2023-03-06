@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/767" class=".btn">#767</a>
+            </td>
+            <td>
+                <b>
+                    Expose getting and clearing attributes from the ledger
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">wrappers</span>
+            </td>
+            <td>
+                Expose functions getting and clearing value of the latest attribute transaction for the specified did through the node wrapper API.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-06 08:01:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/766" class=".btn">#766</a>
             </td>
             <td>

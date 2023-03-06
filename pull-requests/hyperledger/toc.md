@@ -114,29 +114,3 @@ permalink: /pull-requests/hyperledger/toc
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/74" class=".btn">#74</a>
-            </td>
-            <td>
-                <b>
-                    2023 Q1 Hyperledger Solang Project Report
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">quarterly-report</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-27 12:01:08 +0000 UTC
-    </div>
-</div>
-

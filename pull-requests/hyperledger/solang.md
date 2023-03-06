@@ -172,29 +172,3 @@ PS: The indentation is now fixed.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1204" class=".btn">#1204</a>
-            </td>
-            <td>
-                <b>
-                    Add Hyperledgers' suggestions for inclusivity
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The DCI  tool is marked `continue-on-error` for now, due to https://github.com/petermetz/gh-action-dci-lint/issues/2
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-27 11:20:08 +0000 UTC
-    </div>
-</div>
-

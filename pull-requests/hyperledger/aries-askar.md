@@ -14,6 +14,68 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/111" class=".btn">#111</a>
+            </td>
+            <td>
+                <b>
+                    fix(js): several fixes for js wrapper
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR contains several fixes from integrating aries askar into react native. 
+
+Mainly it resolves:
+- https://github.com/hyperledger/aries-askar/issues/77
+- incorrect creation of errors in React Native (no AriesAskarError, but string)
+- null pointer handling
+
+Draft as it still needs to be tested fully in React Native
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-06 12:23:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/110" class=".btn">#110</a>
+            </td>
+            <td>
+                <b>
+                    Support for Swift wrapper
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This fixes #99, which is necessary for Swift.
+
+The xcframework built for reactive-native can be shared with the Swift wrapper. But, it requires a different archive format. So I added a workflow step to archive it using `zip` with a different folder name `AskarFramework`.
+The Swift wrapper in different repo could download the zipped xcframework for its dependencies.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-06 07:20:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-askar/pull/108" class=".btn">#108</a>
             </td>
             <td>
