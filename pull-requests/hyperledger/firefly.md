@@ -27,9 +27,28 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                TODOs
-- [ ] Unit tests
-- [ ] Additional E2E test for using broadcastName for both multi-party and gateway namespaces
+                We saw if `broadcastName` was set on a tokens plugin, token pools would fail to create within gateway namespaces:
+```
+[2023-03-01T20:25:10.568Z] ERROR Failed to activate token pool 'f2de67bb-5adf-4b98-ac06-7d25a19805ad': FF10272: Unknown tokens plugin 'erc20-erc721' ns=cok pid=1 role=event-manager
+[2023-03-01T20:25:10.568Z] DEBUG fftokens updating operation cok:fb435cab-a2a5-4d1a-af28-f0bf84840c0b status=Failed error=FF10272: Unknown tokens plugin 'erc20-erc721' ns=cok pid=1
+[2023-03-01T20:25:10.568Z] DEBUG SQL-> begin dbtx=N1fXw8pi ns=cok pid=1
+[2023-03-01T20:25:10.568Z] DEBUG SQL<- begin dbtx=N1fXw8pi ns=cok pid=1
+[2023-03-01T20:25:10.569Z] DEBUG SQL-> update operations dbtx=N1fXw8pi ns=cok pid=1
+[2023-03-01T20:25:10.569Z] DEBUG SQL<- update operations affected=1 dbtx=N1fXw8pi ns=cok pid=1
+[2023-03-01T20:25:10.569Z] DEBUG SQL-> lock cok dbtx=N1fXw8pi ns=cok pid=1
+[2023-03-01T20:25:10.570Z] DEBUG SQL<- lock cok dbtx=N1fXw8pi ns=cok pid=1
+[2023-03-01T20:25:10.570Z] DEBUG SQL-> insert events dbtx=N1fXw8pi ns=cok pid=1
+[2023-03-01T20:25:10.570Z] DEBUG SQL<- insert events sequences=[9] dbtx=N1fXw8pi ns=cok pid=1
+[2023-03-01T20:25:10.570Z] DEBUG SQL-> commit dbtx=N1fXw8pi ns=cok pid=1
+[2023-03-01T20:25:10.573Z] DEBUG SQL<- commit dbtx=N1fXw8pi ns=cok pid=1
+[2023-03-01T20:25:10.573Z]  INFO Emitted token_pool_op_failed event 47472d4f-70f7-4f3e-827d-a3e70c76cf72 for cok:fb435cab-a2a5-4d1a-af28-f0bf84840c0b (correlator=f2de67bb-5adf-4b98-ac06-7d25a19805ad,topic=f2de67bb-5adf-4b98-ac06-7d25a19805ad) dbtx=N1fXw8pi ns=cok pid=1
+[2023-03-01T20:25:10.573Z]  INFO Inflight request 'f2de67bb-5adf-4b98-ac06-7d25a19805ad' resolved with timeout after 2068.43ms ns=cok pid=1 role=sync-async-bridge
+[2023-03-01T20:25:10.573Z]  INFO <-- POST /api/v1/namespaces/cok/tokens/pools [400] (2071.90ms): FF10272: Unknown tokens plugin 'erc20-erc721' httpreq=hzG60xJW pid=1 req=Rd7exmVy
+```
+
+This is bc the definition handler doesn't know how to map the remote name back to the local name within gateway namespaces: https://github.com/hyperledger/firefly/blob/3b728534d50c0cee6ed27890114b5a4c44fcec5c/internal/definitions/handler_tokenpool.go#L36-L42
+
+This fixes that by only using the `broadcastName` for multi-party namespaces when sending the token pool definition.
             </td>
         </tr>
     </table>

@@ -156,33 +156,3 @@ If this approach is correct, the only objects an app using this library should c
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/105" class=".btn">#105</a>
-            </td>
-            <td>
-                <b>
-                    fix(js): empty key entry list metadata in react-native
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This prevents a crash  when fetching an existing key in iOS (and likely also in Android) and `askar_key_entry_list_get_metadata` returns NULL:
-
-![image](https://user-images.githubusercontent.com/4800462/221714690-915db1cd-6f8b-43c1-b065-375bce0efdb7.png)
-
-Not sure if the same should be applied to other parts of the code (it was already done in some other methods such as `entryListGetTags` and  `keyEntryListGetTags`).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-27 23:46:13 +0000 UTC
-    </div>
-</div>
-

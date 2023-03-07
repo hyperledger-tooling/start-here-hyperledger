@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/352" class=".btn">#352</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/354" class=".btn">#354</a>
             </td>
             <td>
                 <b>
-                    Bump golang.org/x/net from 0.0.0-20210226172049-e18ecbb05110 to 0.7.0
+                    Bump golang.org/x/crypto from 0.0.0-20210322153248-0c34fe9e7dc2 to 0.1.0
                 </b>
             </td>
         </tr>
@@ -27,17 +27,17 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 <span class="chip">dependencies</span><span class="chip">go</span>
             </td>
             <td>
-                Bumps [golang.org/x/net](https://github.com/golang/net) from 0.0.0-20210226172049-e18ecbb05110 to 0.7.0.
+                Bumps [golang.org/x/crypto](https://github.com/golang/crypto) from 0.0.0-20210322153248-0c34fe9e7dc2 to 0.1.0.
 <details>
 <summary>Commits</summary>
 <ul>
-<li>See full diff in <a href="https://github.com/golang/net/commits/v0.7.0">compare view</a></li>
+<li>See full diff in <a href="https://github.com/golang/crypto/commits/v0.1.0">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/net&package-manager=go_modules&previous-version=0.0.0-20210226172049-e18ecbb05110&new-version=0.7.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/crypto&package-manager=go_modules&previous-version=0.0.0-20210322153248-0c34fe9e7dc2&new-version=0.1.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -73,7 +73,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-25 02:36:50 +0000 UTC
+        Created At 2023-03-07 00:01:55 +0000 UTC
     </div>
 </div>
 

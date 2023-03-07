@@ -193,31 +193,3 @@ fix #123
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/120" class=".btn">#120</a>
-            </td>
-            <td>
-                <b>
-                    fix: python wrapper type hint tweaks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR refines type hints in the python wrapper. These corrections make static type checkers like pyright/pylance happier.
-
-I'll open this as a draft for now and add more commits as I run into type complaints from pyright.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-28 00:16:44 +0000 UTC
-    </div>
-</div>
-

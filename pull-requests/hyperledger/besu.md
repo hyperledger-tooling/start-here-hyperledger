@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5174" class=".btn">#5174</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/5179" class=".btn">#5179</a>
             </td>
             <td>
                 <b>
-                    Fix empty body concept after shanghai
+                    copy layered worldstate fix for eth_call
                 </b>
             </td>
         </tr>
@@ -31,10 +31,15 @@ permalink: /pull-requests/hyperledger/besu
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+This is mitigation fix for eth_call concurrency failures, similar to #5076. 
+
+This mitigation will be obseleted by #5123.
+
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
+#5175 
 
 ## Documentation
 
@@ -44,6 +49,61 @@ permalink: /pull-requests/hyperledger/besu
 ## Acceptance Tests (Non Mainnet)
 
 - [ ] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-07 00:50:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5174" class=".btn">#5174</a>
+            </td>
+            <td>
+                <b>
+                    Fix empty body concept after shanghai
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">bug</span><span class="chip">TeamGroot</span><span class="chip">mainnet</span>
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This PR adds withdrawals to the method that checks for empty block bodies in CompleteBlocksTask.java
+Adding withdrawals allows Besu to be able to distinguish empty blocks after shanghai skiping the block body download when body is empty.
+Prior to this PR Besu would understand blocks like (0txs, 0 ommers, x ws) as an empty block, during the sync process. (x > 0)
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+Fixes #4976 
+
+This PR has performed the following tests:
+- [x] Successfully synced Sepolia (starting from checkpoint and transitioning to Shanghai)
+- [ ] Successfully synced Goerli 
+- [ ] Successfully synced Mainnet
+ 
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Acceptance Tests (Non Mainnet)
+
+- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
 
 ## Changelog
 
@@ -84,6 +144,7 @@ CheckpointSync testing:
 - [ ] Sepolia (prysm)
 - [ ] Sepolia (lighthouse)
 - [ ] Goerli (lighthouse)
+  - got in sync but required a restarted to transition from initial sync to backwards sync 
 - [ ] Mainnet (teku)
             </td>
         </tr>

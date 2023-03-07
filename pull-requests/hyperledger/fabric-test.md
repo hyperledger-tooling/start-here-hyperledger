@@ -62,29 +62,3 @@ Finally, you can contact us on https://mergify.com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-test/pull/488" class=".btn">#488</a>
-            </td>
-            <td>
-                <b>
-                    Bump Node to 18.14.2 (release-2.5)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump Node to 18.14.2.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-27 20:26:12 +0000 UTC
-    </div>
-</div>
-
