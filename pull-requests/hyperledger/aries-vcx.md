@@ -107,22 +107,22 @@ permalink: /pull-requests/hyperledger/aries-vcx
             <td>
                 ## API changes (in `aries-vcx`, `libvcx_core`, `vcx-napi-rs`)
 #### proof (verifier) methods:
-- `presentation_request` renamed to `presentation_request_msg`
-- `presentation` renamed to `get_presentation_msg`
-- `presentation_status` renamed to `get_presentation_status`
-- `get_proof_state` renamed to `proof_get_presentation_verification_status`
-- in `libvcx_core` and upwards added methods: `get_presentation_attachment`, `get_presentation_request_attachment` - these are returning decoded versions of attachment in the respective messages (json as string)
+- `presentation_request(...)` renamed to `presentation_request_msg(...)`
+- `presentation(...)` renamed to `get_presentation_msg(...)`
+- `presentation_status(...)` renamed to `get_presentation_status(...)`
+- `get_proof_state(...)` renamed to `proof_get_presentation_verification_status(...)`
+- in `libvcx_core` and upwards added methods: `get_presentation_attachment(...)`, `get_presentation_request_attachment(...)` - these are returning decoded versions of attachment in the respective messages (json as string)
 
 #### disclosed proof methods:
-- `generate_proof_msg` renamed to `get_presentation_msg` (it's not generating anything, probably did historically)
+- `generate_proof_msg(...)` renamed to `get_presentation_msg(...)` (it's not generating anything, probably did historically)
 
 ## NodeJS
 #### NodeJS wrapper
-- Removed `getProof` which combined 2 ffi calls removed
-- instead added granular api `getPresentationMsg`, `getPresentationVerificationStatus`, `getPresentationAttachment`
+- Removed `getProof(...)` which combined 2 ffi calls removed
+- instead added granular api `getPresentationMsg(...)`, `getPresentationVerificationStatus(...)`, `getPresentationAttachment(...)`
 
 ###  vcxagent-core
-- generalized testing util method `sendHolderProof` to make proofData injectable, updated tests
+- generalized testing util method `sendHolderProof(...)` to make proofData injectable, updated tests
 - fixed various standard warnings
 - added test `Faber should verify proof with self attestation`
 - Added asserts to existing proof tests to check verification status and inspect values received in the received presentation
@@ -131,7 +131,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
 - Extended test `test_generate_self_attested_proof ` to include verification of proof containing of self-attested attributes
 
 - method renames in `libvcx_core`
-  - `generate_proof_msg` -> `get_presentation_msg`
+  - `generate_proof_msg(...)` -> `get_presentation_msg(...)`
             </td>
         </tr>
     </table>

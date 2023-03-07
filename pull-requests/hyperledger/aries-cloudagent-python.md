@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2151" class=".btn">#2151</a>
-            </td>
-            <td>
-                <b>
-                    Fix: Performance Demo [no --revocation]
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Fixes issue with performance demo [no revocation], where number of issued credentials stops incrementing when received credentials reaches 100% and the demo would eventually timeout.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-28 16:35:49 +0000 UTC
-    </div>
-</div>
-

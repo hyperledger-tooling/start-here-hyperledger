@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/149" class=".btn">#149</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/150" class=".btn">#150</a>
             </td>
             <td>
                 <b>
-                    Update dependency-check plugin to avoid false positives (release-2.2)
+                    Apply previous main branch changes following branch rename
                 </b>
             </td>
         </tr>
@@ -32,33 +32,7 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-28 17:12:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/148" class=".btn">#148</a>
-            </td>
-            <td>
-                <b>
-                    Update dependency-check plugin to avoid false positives
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-28 16:55:09 +0000 UTC
+        Created At 2023-03-07 17:05:41 +0000 UTC
     </div>
 </div>
 

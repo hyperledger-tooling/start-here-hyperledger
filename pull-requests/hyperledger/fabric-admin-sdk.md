@@ -69,30 +69,3 @@ Closes #103
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/108" class=".btn">#108</a>
-            </td>
-            <td>
-                <b>
-                    try to fix #106
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I suppose we need to provide function to support approve sign for chaincode level and channel level.
-this PR is just a draft as POC.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-28 15:21:35 +0000 UTC
-    </div>
-</div>
-

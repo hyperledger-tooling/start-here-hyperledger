@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2176" class=".btn">#2176</a>
+            </td>
+            <td>
+                <b>
+                    [chore] Update gh workflow names
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                [chore] Update gh workflow names
+   - Update .github/workflows files
+
+
+Fixes #2130 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-07 14:47:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2175" class=".btn">#2175</a>
             </td>
             <td>

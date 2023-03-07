@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1372" class=".btn">#1372</a>
+            </td>
+            <td>
+                <b>
+                    fix(askar): custom error handling
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Timo Glastra <timo@animo.id>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-07 13:28:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1370" class=".btn">#1370</a>
             </td>
             <td>
@@ -178,111 +204,6 @@ What still needs to be done:
     </table>
     <div class="right-align">
         Created At 2023-03-02 12:36:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1356" class=".btn">#1356</a>
-            </td>
-            <td>
-                <b>
-                    fix(core): repository event when calling deleteById
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When calling Repository method `deleteById`, no `RecordEvent` event is emitted. This PR fixes this by emitting the Event with the information we have about the record: its id and type. This makes the event suitable for filtering in handlers used in hooks. The limitation, of course, will be that no other information about it could be retrieved.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-28 14:39:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1355" class=".btn">#1355</a>
-            </td>
-            <td>
-                <b>
-                    fix: isNewSocket logic
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                `isNewSocket` was holding whether the socket already exists to an endpoint. I think the logic for closing the socket in `sendMessage` should be : 
-```ts
-    const socket = await this.resolveSocket({ socketId: endpoint, endpoint, connectionId })
-
-    socket.send(Buffer.from(JSON.stringify(payload)))
-
-    // If the socket was created for this message and we don't have return routing enabled
-    // We can close the socket as it shouldn't return messages anymore
-    if (socket && !outboundPackage.responseRequested) {
-      socket.close()
-    }
-```
-As per current logic, the socket is closed only when a message has `responseRequested=false` and a new socket is created just for this message. Let's suppose a message (`responseRequested=false` and socket already exists), in this case sender won't call `socket.close()`. But the receiver will close the socket
-
-https://github.com/hyperledger/aries-framework-javascript/blob/1bda3f0733a472b536059cee8d34e25fb04c9f2d/packages/core/src/agent/MessageReceiver.ts#L138-L156
-
-it's true, when the receiver closes the socket from his side, the sender will also close the socket based on `socket.onclose` event. But the sender might send a message before receiving the `socket.onclose` event. I got this bug, while I was testing for an edge agent to setup a mediation with an afj mediator. This was console log (at agent/MessageReceiver.tsL#139 and L#154) from the mediator
-
-```
-received message with return routes session_id:  3018a3bb-c37b-4b22-a1f6-66c494fc3d14 <<< This is connection/1.0/request
-closing session for session_id:  a1de283b-0e9c-421e-a0d6-c59ac311d048 <<<< This is didcom/trust_ping
-received message with return routes session_id:  a1de283b-0e9c-421e-a0d6-c59ac311d048 <<<< this mediate-request.
-```
-@TimoGlastra 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-28 14:19:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1354" class=".btn">#1354</a>
-            </td>
-            <td>
-                <b>
-                    refactor!: remove Dispatcher.registerMessageHandler
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                It was marked as deprecated since 0.3.0
-
-BREAKING CHANGE:
-
-`Dispatcher.registerMessageHandler` has been removed in favour of `MessageHandlerRegistry.registerMessageHandler`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-28 13:42:27 +0000 UTC
     </div>
 </div>
 

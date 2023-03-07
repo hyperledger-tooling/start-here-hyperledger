@@ -27,7 +27,11 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                Fixes #1200 
+                Make the More, Less, MoreEqual, LessEqual cfg expression named. Also Replace Expression::SignedMore and UnsignedMore with a single expression enum. This should make it more consistent.
+
+Note for CSE we now have consistent handling for Less and LessEqual wrt signedness. I am not sure this fixes any bugs, but it makes the code consistent/readable.
+
+Fixes #1200 
             </td>
         </tr>
     </table>

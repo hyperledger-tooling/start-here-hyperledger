@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/172" class=".btn">#172</a>
+            </td>
+            <td>
+                <b>
+                    chore: update version to dev.10
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updates version to dev.10. We don't want to create a release until #170  is merged
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-07 17:17:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-vdr/pull/170" class=".btn">#170</a>
             </td>
             <td>

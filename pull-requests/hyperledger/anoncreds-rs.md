@@ -166,32 +166,3 @@ fix #123
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/122" class=".btn">#122</a>
-            </td>
-            <td>
-                <b>
-                    added currentAccumulator support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                closes #51 
-
-Signed-off-by: blu3beri <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-28 16:08:36 +0000 UTC
-    </div>
-</div>
-
