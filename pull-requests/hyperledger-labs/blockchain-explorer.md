@@ -143,7 +143,7 @@ specific point in time, rather than a document that may change over time.
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">feature</span>
             </td>
             <td>
                 <!--  Thanks for sending a pull request! 
@@ -185,10 +185,13 @@ supporting documentation, please reference a specific commit and avoid
 linking directly to the master branch. This ensures that links reference a
 specific point in time, rather than a document that may change over time.
 
-
+This PR will expose following metrics
 -->
 ```docs
-
+metric_ledger_height
+metric_channel_height
+metric_channel_transaction_count
+metric_node_up
 ```
 
             </td>
