@@ -14,6 +14,92 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5184" class=".btn">#5184</a>
+            </td>
+            <td>
+                <b>
+                    Remove the fourth response element in eth_getWork
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span>
+            </td>
+            <td>
+                ## PR description
+The [spec](https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getwork)  for `eth_getWork` only defines three return values and certain parsers rejects a longer response array.
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Acceptance Tests (Non Mainnet)
+
+- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-07 15:15:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5183" class=".btn">#5183</a>
+            </td>
+            <td>
+                <b>
+                    Bonsai cleaning and robustness part 2 : tracing 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span><span class="chip">TeamChupa</span><span class="chip">bonsai</span>
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Acceptance Tests (Non Mainnet)
+
+- [ ] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-07 14:04:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5182" class=".btn">#5182</a>
             </td>
             <td>
@@ -24,7 +110,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">bug</span><span class="chip">syncing</span><span class="chip">TeamChupa</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -34,7 +120,7 @@ permalink: /pull-requests/hyperledger/besu
 
 There is an issue when restarting Besu when a backward sync session is running, since after the restart it is possible that the Consensus client sends a FcU or a NewPayload for a block that is present in the backward sync storage, but not yet imported, so not on the main chain, but still the backward sync thinks it should not do anything with that block, so it returns like it has completed the sync, but since the sync is not done actually then the internal error that the finalize block is not present.
 
-The solution is to always add the hash coming from the Consensus client to the backward sync queue, ignoring the fact that the related block is present or not in the backward sync private storage.
+The solution is to persist the backward sync status, so in case of a restart, it can resume from where it was interrupted.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -225,7 +311,7 @@ This PR has performed the following tests:
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span>
             </td>
             <td>
                 Pull up and simplify data passed to CheckpointSource, which then allows checkpointBlockHeader to be used by protocolSchedule.getByBlockHeader.

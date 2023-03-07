@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/195" class=".btn">#195</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/196" class=".btn">#196</a>
             </td>
             <td>
                 <b>
@@ -28,11 +28,12 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
             </td>
             <td>
                 added methods that allow to filter credentials and proofs by connection id
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-02 15:41:30 +0000 UTC
+        Created At 2023-03-07 14:39:49 +0000 UTC
     </div>
 </div>
 

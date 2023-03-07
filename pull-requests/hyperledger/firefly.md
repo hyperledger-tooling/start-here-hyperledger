@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1208" class=".btn">#1208</a>
+            </td>
+            <td>
+                <b>
+                    Replace "UpsertBatch" with "InsertOrGetBatch"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport-candidate</span>
+            </td>
+            <td>
+                When persisting an off-chain batch initially received from data exchange or shared storage, it should always be an insert. If the batch exists, just move on. Otherwise we may accidentally revert a confirmed batch to its previous state if it happens to get redelivered.
+
+Bonus: In addition to preventing bugs, this should give a tiny performance boost due to the optimistic batch insert.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-07 18:03:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1205" class=".btn">#1205</a>
             </td>
             <td>
@@ -197,36 +225,6 @@ Fixes #1196
     </table>
     <div class="right-align">
         Created At 2023-02-28 19:12:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1197" class=".btn">#1197</a>
-            </td>
-            <td>
-                <b>
-                    Call Features() getter to read DB provider features
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Looking into https://github.com/hyperledger/firefly/issues/1199 (originally due to https://github.com/hyperledger/firefly/issues/1196) it appears that we are referencing the `SQLCommon.features` struct field expecting it to have the features of the DB provider, but with the refactoring that took place under https://github.com/hyperledger/firefly/pull/1110 the `SQLCommon.features` field is actually populated by the DB provider. That's because there's now also a `Database.features` struct field in `firefly-common` which is the one that's actually been populated.
-
-In this PR I've removed the `SQLCommon.features` field and where we try to read from it today, used instead the new `Features()` getter that I've added under `firefly-common` PR https://github.com/hyperledger/firefly-common/pull/49
-
-~~This PR will remain in draft until https://github.com/hyperledger/firefly-common/pull/49 is approved and we have a new release of `firefly-common` to pull in.~~ (firefly-common v1.2.3 now released and pulled in under the latest commit)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-28 15:23:58 +0000 UTC
     </div>
 </div>
 

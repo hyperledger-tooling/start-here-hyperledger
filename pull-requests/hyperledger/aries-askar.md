@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/114" class=".btn">#114</a>
+            </td>
+            <td>
+                <b>
+                    Restrict default max conns to a range for sqlite
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Now using a default maximum number of connections between 2 and 8 even when the detected number of CPUs is higher or lower.
+
+Related: #109 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-07 17:39:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/113" class=".btn">#113</a>
+            </td>
+            <td>
+                <b>
+                    chore: update version to dev.4
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updates the version to dev.4. 
+
+We want to wait for a release until #111, #104, #108 & #89 are merged (which are mostly waiting for the broken CI)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-07 13:25:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-askar/pull/111" class=".btn">#111</a>
             </td>
             <td>
@@ -98,32 +154,6 @@ If this approach is correct, the only objects an app using this library should c
     </table>
     <div class="right-align">
         Created At 2023-03-02 02:39:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/106" class=".btn">#106</a>
-            </td>
-            <td>
-                <b>
-                    Update version to 0.2.8
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-01 23:39:02 +0000 UTC
     </div>
 </div>
 

@@ -1,13 +1,13 @@
 
-[3287](https://github.com/hyperledger/iroha/pull/3287) [refactor] #3226: Extract `iroha_wasm_validator` crate from `iroha_wasm`
+[4081](https://github.com/hyperledger/fabric/pull/4081) Updates in main branch for v2.4.9
 
-[134](https://github.com/hyperledger/anoncreds-rs/pull/134) chore: update versions
+[1208](https://github.com/hyperledger/firefly/pull/1208) Replace "UpsertBatch" with "InsertOrGetBatch"
 
-[1214](https://github.com/hyperledger/solang/pull/1214) Use named enums for a few cfg expressions
+[114](https://github.com/hyperledger/aries-askar/pull/114) Restrict default max conns to a range for sqlite
 
-[5182](https://github.com/hyperledger/besu/pull/5182) Fix for backward sync wrongly thinking it is done after a restart
+[4080](https://github.com/hyperledger/fabric/pull/4080) Add chaincode initialization guidance to docs
 
-[467](https://github.com/hyperledger-labs/fabric-smart-client/pull/467) some refactoring
+[3547](https://github.com/hyperledger/aries-framework-go/pull/3547) feat: PresentationDefinition API improvements:
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
