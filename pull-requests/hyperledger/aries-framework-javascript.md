@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1369" class=".btn">#1369</a>
+            </td>
+            <td>
+                <b>
+                    feat: add support for queries by credential attribute value and marker
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The PR implements the support for queries by credential attribute presence and value
+
+**work funded by the Government of Ontario**
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-06 19:31:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1367" class=".btn">#1367</a>
             </td>
             <td>

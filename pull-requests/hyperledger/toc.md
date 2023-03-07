@@ -44,7 +44,7 @@ permalink: /pull-requests/hyperledger/toc
             </td>
             <td>
                 <b>
-                    Ursa 22 q4
+                    Ursa 2022 q4
                 </b>
             </td>
         </tr>

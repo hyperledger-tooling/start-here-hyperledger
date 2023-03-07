@@ -148,29 +148,3 @@ Closes #3543
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3538" class=".btn">#3538</a>
-            </td>
-            <td>
-                <b>
-                    feat: presentation definition can match array of presentations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-27 20:11:01 +0000 UTC
-    </div>
-</div>
-
