@@ -1,13 +1,13 @@
 
-[2311](https://github.com/hyperledger/cacti/pull/2311) build(deps): bump golang.org/x/crypto from 0.0.0-20210322153248-0c34fe9e7dc2 to 0.1.0 in /weaver/core/network/fabric-interop-cc/contracts/interop
+[1205](https://github.com/hyperledger/firefly/pull/1205) v1.1 backport: Re-poll immediately on full batch
 
-[466](https://github.com/hyperledger-labs/fabric-smart-client/pull/466) Bump golang.org/x/net from 0.4.0 to 0.7.0
+[1204](https://github.com/hyperledger/firefly/pull/1204) Re-poll immediately on full batch
 
-[5179](https://github.com/hyperledger/besu/pull/5179) copy layered worldstate fix for eth_call
+[656](https://github.com/hyperledger/aries-agent-test-harness/pull/656) Changes by create-pull-request action
 
-[1284](https://github.com/hyperledger/besu-docs/pull/1284) changing page to reflect we will not be implementing forest snap server
+[3546](https://github.com/hyperledger/aries-framework-go/pull/3546) chore(deps): bump github.com/tidwall/gjson from 1.6.7 to 1.9.3 in /test/bdd
 
-[354](https://github.com/hyperledger/fabric-ca/pull/354) Bump golang.org/x/crypto from 0.0.0-20210322153248-0c34fe9e7dc2 to 0.1.0
+[7](https://github.com/hyperledger-labs/perun-credential-payment/pull/7) Bump github.com/ethereum/go-ethereum from 1.10.12 to 1.10.22
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

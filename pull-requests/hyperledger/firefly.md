@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1205" class=".btn">#1205</a>
+            </td>
+            <td>
+                <b>
+                    v1.1 backport: Re-poll immediately on full batch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backport of #1204 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-07 05:16:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1204" class=".btn">#1204</a>
+            </td>
+            <td>
+                <b>
+                    Re-poll immediately on full batch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport-candidate</span>
+            </td>
+            <td>
+                After a rewind to recover from an missed batch (an occurrence of https://github.com/hyperledger/firefly-evmconnect/issues/53) I observed a slow recovery, and the logs seemed to show the Event Aggregator pausing for long periods rather than screaming through all the messages.
+
+Investigating the code, I did not find anything that would prevent it waiting the full time in the case of having read a full page of events. This would mean when paging through old events a long way before the head, it could be very slow to recover.
+
+> Note, you only notice this when in recovery mode after a rewind when events are not arriving frequently - as in that case there are no shoulder taps to naturally wake the event loop.
+>
+> Also, you only notice this when there is more than a full page (200) inflight pins to resolve, such that the aggregator has to keep spinning through those pages.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-07 05:13:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1203" class=".btn">#1203</a>
             </td>
             <td>

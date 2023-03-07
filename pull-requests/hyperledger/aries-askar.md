@@ -47,35 +47,6 @@ Draft as it still needs to be tested fully in React Native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/110" class=".btn">#110</a>
-            </td>
-            <td>
-                <b>
-                    Support for Swift wrapper
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This fixes #99, which is necessary for Swift.
-
-The xcframework built for reactive-native can be shared with the Swift wrapper. But, it requires a different archive format. So I added a workflow step to archive it using `zip` with a different folder name `AskarFramework`.
-The Swift wrapper in different repo could download the zipped xcframework for its dependencies.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-06 07:20:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/aries-askar/pull/108" class=".btn">#108</a>
             </td>
             <td>
