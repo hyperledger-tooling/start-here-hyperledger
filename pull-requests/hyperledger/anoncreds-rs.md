@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/134" class=".btn">#134</a>
+            </td>
+            <td>
+                <b>
+                    chore: update versions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: blu3beri <blu3beri@proton.me>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-07 12:19:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/131" class=".btn">#131</a>
             </td>
             <td>
@@ -156,40 +183,15 @@ fix #123
                 
             </td>
             <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
+                closes #51 
+
+Signed-off-by: blu3beri <blu3beri@proton.me>
 
             </td>
         </tr>
     </table>
     <div class="right-align">
         Created At 2023-02-28 16:08:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/121" class=".btn">#121</a>
-            </td>
-            <td>
-                <b>
-                    add required entropy instead of optional prover_did
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-28 09:47:12 +0000 UTC
     </div>
 </div>
 

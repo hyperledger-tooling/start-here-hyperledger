@@ -14,11 +14,37 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1214" class=".btn">#1214</a>
+            </td>
+            <td>
+                <b>
+                    Use named enums for a few cfg expressions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1200 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-07 11:41:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1213" class=".btn">#1213</a>
             </td>
             <td>
                 <b>
-                    Update solang-parser/README.md
+                    solang-parser README.md should mention breaking changes may occur
                 </b>
             </td>
         </tr>

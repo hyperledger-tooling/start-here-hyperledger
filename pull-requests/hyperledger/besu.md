@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5182" class=".btn">#5182</a>
+            </td>
+            <td>
+                <b>
+                    Fix for backward sync wrongly thinking it is done after a restart
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+There is an issue when restarting Besu when a backward sync session is running, since after the restart it is possible that the Consensus client sends a FcU or a NewPayload for a block that is present in the backward sync storage, but not yet imported, so not on the main chain, but still the backward sync thinks it should not do anything with that block, so it returns like it has completed the sync, but since the sync is not done actually then the internal error that the finalize block is not present.
+
+The solution is to always add the hash coming from the Consensus client to the backward sync queue, ignoring the fact that the related block is present or not in the backward sync private storage.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+fixes #5053 
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Acceptance Tests (Non Mainnet)
+
+- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-07 11:02:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5180" class=".btn">#5180</a>
             </td>
             <td>
@@ -134,6 +186,7 @@ Prior to this PR Besu would understand blocks like (0txs, 0 ommers, x ws) as an 
 Fixes #4976 
 
 This PR has performed the following tests:
+- [x] Recreated and tested fix on zhejiang-testnet using FAST sync
 - [x] Successfully synced Sepolia (starting from checkpoint and transitioning to Shanghai)
 - [ ] Successfully synced Goerli 
 - [ ] Successfully synced Mainnet
@@ -185,8 +238,9 @@ but I didn't like the way ScheduleBasedHeaderBlockHeaderFunctions requires an ex
 CheckpointSync testing:
 - [ ] Sepolia (prysm)
 - [ ] Sepolia (lighthouse)
-- [ ] Goerli (lighthouse)
+- [x] Goerli (lighthouse)
   - got in sync but required a restarted to transition from initial sync to backwards sync 
+  - resync completed without intervention 
 - [ ] Mainnet (teku)
             </td>
         </tr>
@@ -600,53 +654,6 @@ Upgrade Gradle to 8.0.1
     </table>
     <div class="right-align">
         Created At 2023-03-01 05:47:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5143" class=".btn">#5143</a>
-            </td>
-            <td>
-                <b>
-                    Add Withdrawls execution tests to reference test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Add Ethereum execution spec test to be generated and executed by reference tests gradle task. Add `https://github.com/ethereum/execution-spec-tests/releases` as gradle repository to easily download and cache the test specs. Update the reference test gradle file to generate the test Java classes.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-#4934 
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Acceptance Tests (Non Mainnet)
-
-- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-28 07:35:19 +0000 UTC
     </div>
 </div>
 

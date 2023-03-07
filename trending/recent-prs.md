@@ -1,13 +1,13 @@
 
-[1205](https://github.com/hyperledger/firefly/pull/1205) v1.1 backport: Re-poll immediately on full batch
+[3287](https://github.com/hyperledger/iroha/pull/3287) [refactor] #3226: Extract `iroha_wasm_validator` crate from `iroha_wasm`
 
-[1204](https://github.com/hyperledger/firefly/pull/1204) Re-poll immediately on full batch
+[134](https://github.com/hyperledger/anoncreds-rs/pull/134) chore: update versions
 
-[656](https://github.com/hyperledger/aries-agent-test-harness/pull/656) Changes by create-pull-request action
+[1214](https://github.com/hyperledger/solang/pull/1214) Use named enums for a few cfg expressions
 
-[3546](https://github.com/hyperledger/aries-framework-go/pull/3546) chore(deps): bump github.com/tidwall/gjson from 1.6.7 to 1.9.3 in /test/bdd
+[5182](https://github.com/hyperledger/besu/pull/5182) Fix for backward sync wrongly thinking it is done after a restart
 
-[7](https://github.com/hyperledger-labs/perun-credential-payment/pull/7) Bump github.com/ethereum/go-ethereum from 1.10.12 to 1.10.22
+[467](https://github.com/hyperledger-labs/fabric-smart-client/pull/467) some refactoring
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

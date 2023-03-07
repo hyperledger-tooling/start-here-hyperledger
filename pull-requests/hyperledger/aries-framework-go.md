@@ -194,29 +194,3 @@ Closes #3543
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3540" class=".btn">#3540</a>
-            </td>
-            <td>
-                <b>
-                    refactor: disabled JSON-LD checks for VPs with JWT VCs by default
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Anton Biriukov <anton.biriukov@avast.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-28 06:33:03 +0000 UTC
-    </div>
-</div>
-
