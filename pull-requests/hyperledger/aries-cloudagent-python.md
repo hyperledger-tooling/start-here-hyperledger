@@ -62,33 +62,3 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2150" class=".btn">#2150</a>
-            </td>
-            <td>
-                <b>
-                    Problem report generation for Out of band protocol
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Creating this PR to add an endpoint to generate problem-report for out of band protocol on the basis of ConnectionId. Looking for the feedback from the community.
--Signed off by: ramreddychalla94 [ram.challa@ontario.ca](mailto:ram.challa@ontario.ca)
--Funded by the Ontario Government
-
-This PR resolves https://github.com/hyperledger/aries-cloudagent-python/issues/2101 @swcurran please review and let us know of your comments, thanks.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-28 06:40:20 +0000 UTC
-    </div>
-</div>
-
