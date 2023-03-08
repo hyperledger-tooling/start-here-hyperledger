@@ -14,39 +14,125 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5184" class=".btn">#5184</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/5188" class=".btn">#5188</a>
             </td>
             <td>
                 <b>
-                    Remove the fourth response element in eth_getWork
+                    Post 23.1.1 update changelog
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">doc-change-required</span>
+                
             </td>
             <td>
-                ## PR description
-The [spec](https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getwork)  for `eth_getWork` only defines three return values and certain parsers rejects a longer response array.
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+update changelog with download links and new block for 23.1.2-SNAPSHOT
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
 
 ## Documentation
 
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Acceptance Tests (Non Mainnet)
 
-- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
+- [ ] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
 
 ## Changelog
 
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-07 15:15:38 +0000 UTC
+        Created At 2023-03-07 23:59:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5187" class=".btn">#5187</a>
+            </td>
+            <td>
+                <b>
+                    Fix flaky engine api acceptance test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span><span class="chip">EIP</span>
+            </td>
+            <td>
+                Assert on objects but use prettyString for failure message
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-07 23:38:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5186" class=".btn">#5186</a>
+            </td>
+            <td>
+                <b>
+                    Prepare for version 23.1.2-SNAPSHOT
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Prepare for version 23.1.2-SNAPSHOT
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-07 23:10:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5185" class=".btn">#5185</a>
+            </td>
+            <td>
+                <b>
+                    Release 23.1.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Release 23.1.1
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-07 21:49:50 +0000 UTC
     </div>
 </div>
 
@@ -274,7 +360,7 @@ Fixes #4976
 This PR has performed the following tests:
 - [x] Recreated and tested fix on zhejiang-testnet using FAST sync
 - [x] Successfully synced Sepolia (starting from checkpoint and transitioning to Shanghai)
-- [ ] Successfully synced Goerli 
+- [x] Successfully synced Goerli 
 - [ ] Successfully synced Mainnet
  
 ## Documentation
@@ -327,7 +413,7 @@ CheckpointSync testing:
 - [x] Goerli (lighthouse)
   - got in sync but required a restarted to transition from initial sync to backwards sync 
   - resync completed without intervention 
-- [ ] Mainnet (teku)
+- [x] Mainnet (teku)
             </td>
         </tr>
     </table>
