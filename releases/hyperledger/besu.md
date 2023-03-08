@@ -15,52 +15,50 @@ permalink: /releases/hyperledger/besu
         <tr>
             <td colspan="2">
                 <b>
-                    23.1.1-RC1 - Sepolia Shanghai Release
+                    23.1.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    23.1.1-RC1
+                    23.1.1
                 </span>
             </td>
             <td>
-                ## Sepolia Shanghai Release aka Sepolia Shapella aka Shapolia
+                ## 23.1.1 Goerli Shanghai/Capella Release
+This update is required for the Goerli Shanghai/Capella upgrade and recommended for all Mainnet users. If you use Besu on Goerli, update to 23.1.1. If you previously used 23.1.1-RC1, update to test 23.1.1 on Goerli. 
 
-This update is **not recommended for mainnet users**.
-
-Besu 23.1.1-RC1 is a **required update for Sepolia users**
-
-Sepolia Shanghai hardfork scheduled for: **Tue Feb 28 2023 04:04:48 UTC**
-
----
-
-This release has everything from [23.1.0](https://github.com/hyperledger/besu/releases/tag/23.1.0) and in addition the following:
+### Breaking Changes
 
 ### Additions and Improvements
-* Add support for Shanghai in Sepolia https://github.com/hyperledger/besu/pull/5088
-* Add implementation for engine_getPayloadBodiesByRangeV1 and engine_getPayloadBodiesByHashV1 https://github.com/hyperledger/besu/pull/4980
-* If a PoS block creation repetition takes less than a configurable duration, then waits before next repetition https://github.com/hyperledger/besu/pull/5048
-* Allow other users to read the /opt/besu dir when using docker https://github.com/hyperledger/besu/pull/5092
-* Invalid params - add some error detail #5066
+- Add support for Shanghai in Sepolia https://github.com/hyperledger/besu/pull/5088
+- Add implementation for engine_getPayloadBodiesByRangeV1 and engine_getPayloadBodiesByHashV1 https://github.com/hyperledger/besu/pull/4980
+- If a PoS block creation repetition takes less than a configurable duration, then waits before next repetition https://github.com/hyperledger/besu/pull/5048
+- Allow other users to read the /opt/besu dir when using docker https://github.com/hyperledger/besu/pull/5092
+- Invalid params - add some error detail #5066
+- Added the option --kzg-trusted-setup to pass a custom setup file for custom networks or to override the default one for named networks [#5084](https://github.com/hyperledger/besu/pull/5084)
+- Gas accounting for EIP-4844 [#4992](https://github.com/hyperledger/besu/pull/4992)
+- Goerli configs for shapella [#5151](https://github.com/hyperledger/besu/pull/5151)
 
-### Bug fixes
-* Fix engine_getPayloadV2 block value calculation https://github.com/hyperledger/besu/issues/5040
-* Moves check for init code length before balance check https://github.com/hyperledger/besu/pull/5077
+### Bug Fixes
+- Fix engine_getPayloadV2 block value calculation https://github.com/hyperledger/besu/issues/5040
+- Moves check for init code length before balance check https://github.com/hyperledger/besu/pull/5077
+- Address post-shanghai sync issue [#5714](https://github.com/hyperledger/besu/pull/5174)
+- Address concurrency problems with eth_call [#5179](https://github.com/hyperledger/besu/pull/5179)
 
 ### Download Links
-https://hyperledger.jfrog.io/hyperledger/besu-binaries/besu/23.1.1-RC1/besu-23.1.1-RC1.tar.gz / sha256: 82cff41f3eace02006b0e670605848e0e77e045892f8fa9aad66cbd84a88221e
+https://hyperledger.jfrog.io/hyperledger/besu-binaries/besu/23.1.1/besu-23.1.1.tar.gz / sha256: 11c3e5cdbc06df16a690e7ee9f98eefa46848f9fa280824b6e4c896d88f6b975
+https://hyperledger.jfrog.io/hyperledger/besu-binaries/besu/23.1.1/besu-23.1.1.zip / sha256: afcf852f193adb8e82d187aa4f02e4669f12cc680270624d37101b94cf37adec
 
-https://hyperledger.jfrog.io/hyperledger/besu-binaries/besu/23.1.1-RC1/besu-23.1.1-RC1.zip / sha256: 469c8d6a8ca9d78ee111ff1128d00bf3bcddacbf5b800ef6047717a2da0cc21d
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/besu/releases/tag/23.1.1-RC1" class=".btn">
+    <a href="https://github.com/hyperledger/besu/releases/tag/23.1.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-02-20 01:58:04 +0000 UTC
+        Created At 2023-03-07 22:13:44 +0000 UTC
     </span>
 </div>
 
