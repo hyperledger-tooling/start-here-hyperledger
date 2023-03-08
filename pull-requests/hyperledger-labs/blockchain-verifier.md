@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/27" class=".btn">#27</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-verifier/pull/29" class=".btn">#29</a>
             </td>
             <td>
                 <b>
-                    Remove the support for Hyperledger Fabric v1.4 and v2.3 and use the latest scripts and samples
+                    Run "npm audit" weekly
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/blockchain-verifier
                 
             </td>
             <td>
-                This PR removes the support for Hyperledger Fabric v1.4 and v2.3, which are now EoL. It also fixes use of deprecated features and updates samples in both the unit tests and integration tests.
+                This patch adds a GitHub Actions workflow that runs "npm audit" weekly on the main branch. This ensures that any high vulnerabilities are automatically found and notified.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-08 01:40:12 +0000 UTC
+        Created At 2023-03-08 01:35:06 +0000 UTC
     </div>
 </div>
 

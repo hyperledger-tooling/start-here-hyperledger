@@ -408,8 +408,8 @@ Alternative approach explored: https://github.com/siladu/besu/commit/bbaa80dcd88
 but I didn't like the way ScheduleBasedHeaderBlockHeaderFunctions requires an explicit delegation override (otherwise it implicitly gets the wrong value).
 
 CheckpointSync testing:
-- [ ] Sepolia (prysm)
-- [ ] Sepolia (lighthouse)
+- [x] Sepolia (prysm)
+- [x] Sepolia (lighthouse)
 - [x] Goerli (lighthouse)
   - got in sync but required a restarted to transition from initial sync to backwards sync 
   - resync completed without intervention 
@@ -436,7 +436,7 @@ CheckpointSync testing:
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -450,6 +450,11 @@ This PR is a simple replace of the method getByBlockNumber by the wider getByBlo
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
 Fixes #5166
+
+Successfully synced networks:
+- [x] Sepolia
+- [ ] Goerli
+- [ ] Mainnet
 
 ## Documentation
 
@@ -779,53 +784,6 @@ I think this AT-style is actually easier to understand and work with, and also t
     </table>
     <div class="right-align">
         Created At 2023-03-02 04:12:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5144" class=".btn">#5144</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade Gradle to 8.0.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dev experience</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Upgrade Gradle to 8.0.1
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Acceptance Tests (Non Mainnet)
-
-- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-01 05:47:02 +0000 UTC
     </div>
 </div>
 
