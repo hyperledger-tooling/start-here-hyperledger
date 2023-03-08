@@ -15,31 +15,32 @@ permalink: /releases/hyperledger/fabric-sdk-node
         <tr>
             <td colspan="2">
                 <b>
-                    v2.2.16
+                    v2.2.17
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.2.16
+                    v2.2.17
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Downgrade nano dependency (used only for CouchDB wallets) to maintain compatibility with Node 10 and 12 by @bestbeforetoday in https://github.com/hyperledger/fabric-sdk-node/pull/624
-* Add support for Node 18 LTS by @bestbeforetoday in https://github.com/hyperledger/fabric-sdk-node/pull/625
+* Add support for getting CA server information by @redegade in https://github.com/hyperledger/fabric-sdk-node/pull/510
+* Close Client in Gateway disconnect by @davidkhala in https://github.com/hyperledger/fabric-sdk-node/pull/287
+* Include timestamp in transaction events by @sapthasurendran in https://github.com/hyperledger/fabric-sdk-node/pull/490
 
 
-**Full Changelog**: https://github.com/hyperledger/fabric-sdk-node/compare/v2.2.15...v2.2.16
+**Full Changelog**: https://github.com/hyperledger/fabric-sdk-node/compare/v2.2.16...v2.2.17
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric-sdk-node/releases/tag/v2.2.16" class=".btn">
+    <a href="https://github.com/hyperledger/fabric-sdk-node/releases/tag/v2.2.17" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-11-24 10:49:28 +0000 UTC
+        Created At 2023-03-08 15:58:49 +0000 UTC
     </span>
 </div>
 
