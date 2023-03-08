@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/460" class=".btn">#460</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/461" class=".btn">#461</a>
             </td>
             <td>
                 <b>
-                    #459 - filter tx outputs by type as well
+                    improvements
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 
             </td>
             <td>
-                Transaction outputs contain information about all tokens that owner has, therefore when validating transaction additional filter (by type) is applied that will return number of tokens which are part of the swap.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-28 07:39:48 +0000 UTC
+        Created At 2023-03-08 14:56:27 +0000 UTC
     </div>
 </div>
 

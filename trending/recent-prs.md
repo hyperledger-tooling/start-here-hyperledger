@@ -1,13 +1,13 @@
 
-[663](https://github.com/hyperledger/fabric-sdk-node/pull/663) Apply main branch changes following branch rename
+[277](https://github.com/hyperledger/fabric-sdk-java/pull/277) Update CA version to v1.5
 
-[3290](https://github.com/hyperledger/iroha/pull/3290) [refactor] #3232: Share workspace metadata
+[152](https://github.com/hyperledger/fabric-gateway-java/pull/152) Update target CouchDB version to match Fabric
 
-[18](https://github.com/hyperledger-labs/mosaique-decentralized-workflows/pull/18) Bump @nestjs/core from 8.4.7 to 9.0.5 in /js-parser
+[666](https://github.com/hyperledger/fabric-sdk-node/pull/666) Pull Fabric release images from DockerHub
 
-[29](https://github.com/hyperledger-labs/blockchain-verifier/pull/29) Run "npm audit" weekly
+[665](https://github.com/hyperledger/fabric-sdk-node/pull/665) Update version and tag following release
 
-[5188](https://github.com/hyperledger/besu/pull/5188) Post 23.1.1 update changelog
+[664](https://github.com/hyperledger/fabric-sdk-node/pull/664) Release v2.2.17
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
