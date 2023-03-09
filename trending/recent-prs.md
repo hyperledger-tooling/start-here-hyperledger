@@ -1,13 +1,13 @@
 
+[3291](https://github.com/hyperledger/iroha/pull/3291) [ci]: Use pull_request_target trigger for I2::Dev::Publish workflow
+
+[312](https://github.com/hyperledger/iroha-java/pull/312) [docs]: Update comments for doc snippets
+
+[30](https://github.com/hyperledger-labs/blockchain-verifier/pull/30) Experimental support for Hyperledger Fabric v2.5
+
+[5194](https://github.com/hyperledger/besu/pull/5194) Remove deprecated EF bootnodes
+
 [386](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/386) Change Fabric-Driver logger
-
-[77](https://github.com/hyperledger/fabric-chaincode-go/pull/77) Bump github.com/golang/protobuf from 1.5.2 to 1.5.3
-
-[5193](https://github.com/hyperledger/besu/pull/5193) Parse t8n command txs properly
-
-[410](https://github.com/hyperledger-labs/fabric-operations-console/pull/410) Allow saas consoles to test password strength
-
-[2442](https://github.com/hyperledger/sawtooth-core/pull/2442) Update edition to rust 2021
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

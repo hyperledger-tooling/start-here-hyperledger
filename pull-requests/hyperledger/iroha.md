@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3291" class=".btn">#3291</a>
+            </td>
+            <td>
+                <b>
+                    [ci]: Use pull_request_target trigger for I2::Dev::Publish workflow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">CI</span>
+            </td>
+            <td>
+                ### Description of the Change
+1. Change `I2::Dev::Publish` workflow trigger from `pull_request` to `pull_request_target`.
+2. Remove unnecessary workflow permissions.
+
+### Issue
+`permissions: pull-requests: read` probably won't help to share the secret. `write` permission for PR will not work according to the GH Actions documentation. `on: workflow_run` trigger could be used, but this trigger only works on the default branch, which iroha2-dev is not. And if we put it in the default `main` branch, then the context is read from there.
+
+### Benefits
+Make "workflow to check that the docker containers are properly buildable" to be working.
+
+### Possible Drawbacks
+`pull_request_target` trigger is not so safe and base-repository permissions limited. It allows to have much more permissions for forks. But we have the policy about outside collaborators PRs limitation, so this should mitigate the potential risks of using this workflow trigger.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-09 09:51:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3290" class=".btn">#3290</a>
             </td>
             <td>
@@ -167,6 +204,7 @@ Closes:
 - #3226 
 - #3285 
 - #3286
+- #3292 
 
 <!-- Put in the note about what issue is resolved by this PR, especially if it is a GitHub issue. It should be in the form of "Resolves #N" ("Closes", "Fixes" also work), where N is the number of the issue.
 More information about this is available in GitHub documentation: https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword -->
