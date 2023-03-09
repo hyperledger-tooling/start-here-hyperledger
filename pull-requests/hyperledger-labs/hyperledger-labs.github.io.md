@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/228" class=".btn">#228</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/229" class=".btn">#229</a>
             </td>
             <td>
                 <b>
-                    Documentation Template Lab
+                    Cardea
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                <nil>
+                Cardea is a complete ecosystem for the exchange of privacy-preserving digital credentials, currently open sourced as a project in Linux Foundation Public Health (LFPH).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-27 17:30:53 +0000 UTC
+        Created At 2023-03-09 17:51:51 +0000 UTC
     </div>
 </div>
 

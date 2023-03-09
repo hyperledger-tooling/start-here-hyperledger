@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/145" class=".btn">#145</a>
+            </td>
+            <td>
+                <b>
+                    Create `MAINTAINERS.md`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Required as per #114 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-09 15:37:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-javascript/pull/143" class=".btn">#143</a>
             </td>
             <td>

@@ -195,29 +195,3 @@ Closes #3543
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3541" class=".btn">#3541</a>
-            </td>
-            <td>
-                <b>
-                    fix: pass document loader
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-02 14:41:18 +0000 UTC
-    </div>
-</div>
-
