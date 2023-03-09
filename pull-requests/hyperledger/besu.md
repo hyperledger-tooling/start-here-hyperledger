@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5193" class=".btn">#5193</a>
+            </td>
+            <td>
+                <b>
+                    Parse t8n command txs properly
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+When receiving transactions from a file parse them as an RLP list.
+
+## Fixed Issue(s)
+fixes #5190 
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Acceptance Tests (Non Mainnet)
+
+- [ ] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-09 01:49:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5192" class=".btn">#5192</a>
             </td>
             <td>
@@ -829,64 +876,6 @@ I _could_ update `ForkIdsNetworkConfigTest` but Goerli hasn't been kept up to da
     </table>
     <div class="right-align">
         Created At 2023-03-02 20:29:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5146" class=".btn">#5146</a>
-            </td>
-            <td>
-                <b>
-                    Add an acceptance test to ensure eth_getBlockByNumber and eth_getBlockByHash return withdrawals correctly for shanghai
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span><span class="chip">mainnet</span><span class="chip">EIP</span>
-            </td>
-            <td>
-                Fixes https://github.com/hyperledger/besu/issues/4808
-
-I spent a good amount of time trying to add a test similar to https://github.com/hyperledger/besu/blob/main/ethereum/api/src/integration-test/java/org/hyperledger/besu/ethereum/api/jsonrpc/methods/fork/frontier/EthGetBlockByNumberIntegrationTest.java
-
-...but was ultimately thwarted by some post-merge genesis protocol schedule issues. 
-
-I think this AT-style is actually easier to understand and work with, and also tests the JSON serialization as a bonus.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-02 05:16:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5145" class=".btn">#5145</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] Add slf4j api so that acceptance tests work with using acctests.runBesuAsProcess = false
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-02 04:12:55 +0000 UTC
     </div>
 </div>
 
