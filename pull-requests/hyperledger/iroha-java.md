@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/307" class=".btn">#307</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/312" class=".btn">#312</a>
             </td>
             <td>
                 <b>
-                    int as u32
+                    [docs]: Update comments for doc snippets
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                Signed-off-by: akostiucenko <kostiuchenko@soramitsu.co.jp>
+                This PR is needed for https://github.com/hyperledger/iroha-2-docs/pull/278
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-05 11:08:00 +0000 UTC
+        Created At 2023-03-09 09:31:35 +0000 UTC
     </div>
 </div>
 
