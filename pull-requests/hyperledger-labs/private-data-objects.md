@@ -68,33 +68,3 @@ Adding a long-enough sleep before the registration seems to provide a satisfacto
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/412" class=".btn">#412</a>
-            </td>
-            <td>
-                <b>
-                    Start moving towards service startup that could be used for "production"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Three big changes in this PR:
-
-1. Dropped the "count" parameter from the service start up script; a service instance will now start for each of the configuration files in the configuration directory. And... the configuration directory is a parameter to startup. That should make it possible to separate "test" configuration from a "production" configuration.
-2. Changed all the hard coded localhost references in the configuration files to PDO_HOSTNAME. We have the variable. Its supposed to be used. Now it is used.  And... the configuration files can be placed in an alternate directory. Again, goal is to simplify configuring a set of services for "production".
-3. Fixed up a bunch of problems that popped up in docker tests. Turns out that the way we had the dockerfiles the hardcoded localhost was NECESSARY to test correctly. Ughh... Fixed that. Not pretty, but it work.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-01 21:54:02 +0000 UTC
-    </div>
-</div>
-

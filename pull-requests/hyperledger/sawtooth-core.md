@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-core
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2441" class=".btn">#2441</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2442" class=".btn">#2442</a>
             </td>
             <td>
                 <b>
-                    Update battleship
+                    Update edition to rust 2021
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/sawtooth-core
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-24 00:00:39 +0000 UTC
+        Created At 2023-03-08 23:28:59 +0000 UTC
     </div>
 </div>
 

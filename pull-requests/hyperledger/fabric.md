@@ -132,32 +132,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4074" class=".btn">#4074</a>
-            </td>
-            <td>
-                <b>
-                    Release commit for v2.4.9.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update docs and release notes for v2.4.9.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-01 21:10:58 +0000 UTC
-    </div>
-</div>
-
