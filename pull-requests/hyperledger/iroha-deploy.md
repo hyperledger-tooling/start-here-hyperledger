@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-deploy
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-deploy/pull/37" class=".btn">#37</a>
+                PR <a href="https://github.com/hyperledger/iroha-deploy/pull/38" class=".btn">#38</a>
             </td>
             <td>
                 <b>
-                    Fix deprecated
+                    Add `Maintainers.md`
                 </b>
             </td>
         </tr>
@@ -29,21 +29,19 @@ permalink: /pull-requests/hyperledger/iroha-deploy
             <td>
                 # Task
 
-[DOPS-2267]: Title.
-
 ## Changes
 
-1. Fix deprecated
+1. Fix #33 
 
 ## Author
 
-Signed-off-by: Insaf Safin <safin@soramitsu.co.jp>
+Signed-off-by: A. Petrosyan <petrosyan@soramitsu.co.jp>
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-28 15:36:21 +0000 UTC
+        Created At 2023-03-09 15:30:38 +0000 UTC
     </div>
 </div>
 

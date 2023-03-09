@@ -1,13 +1,13 @@
 
-[3291](https://github.com/hyperledger/iroha/pull/3291) [ci]: Use pull_request_target trigger for I2::Dev::Publish workflow
+[229](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/229) Cardea
 
-[312](https://github.com/hyperledger/iroha-java/pull/312) [docs]: Update comments for doc snippets
+[5196](https://github.com/hyperledger/besu/pull/5196) (WIP) EIP-6110: Add deposit validation and apis
 
-[30](https://github.com/hyperledger-labs/blockchain-verifier/pull/30) Experimental support for Hyperledger Fabric v2.5
+[145](https://github.com/hyperledger/iroha-javascript/pull/145) Create `MAINTAINERS.md`
 
-[5194](https://github.com/hyperledger/besu/pull/5194) Remove deprecated EF bootnodes
+[313](https://github.com/hyperledger/iroha-java/pull/313) Create `Maintainers.md`
 
-[386](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/386) Change Fabric-Driver logger
+[38](https://github.com/hyperledger/iroha-deploy/pull/38) Add `Maintainers.md`
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

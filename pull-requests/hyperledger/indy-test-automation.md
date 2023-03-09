@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-test-automation
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/125" class=".btn">#125</a>
+                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/126" class=".btn">#126</a>
             </td>
             <td>
                 <b>
-                    [WIP] Test migration to VDR / Askar / CredX + DCO
+                    Fewer gha inputs for sovrin
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/indy-test-automation
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-02 15:05:45 +0000 UTC
+        Created At 2023-03-09 13:02:53 +0000 UTC
     </div>
 </div>
 

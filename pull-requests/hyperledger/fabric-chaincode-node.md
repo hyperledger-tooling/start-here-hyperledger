@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/394" class=".btn">#394</a>
-            </td>
-            <td>
-                <b>
-                    Clean-up npm engine specs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-02 13:26:05 +0000 UTC
-    </div>
-</div>
-
