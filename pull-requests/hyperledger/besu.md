@@ -56,8 +56,14 @@ permalink: /pull-requests/hyperledger/besu
                 Fixes #5163 
 
 Replace usages of streamMilestoneBlocks on production code paths: RunnerBuilder and TransactionPoolFactory.
+I ideally want to remove this method completely and may follow up with another PR, but the method is currently quite useful for some unit tests.
 
-Still TODO: replace usages in unit tests and then remove streamMilestoneBlocks from the interface.
+# Testing
+
+- [x] Added/modified unit tests to ensure these changes were covered
+- [ ] 2x sepolia syncs
+- [ ] RunnerBuilder: run a network through a block number and also timestamp fork to ensure the node record is updated correctly - forkId should change in peering logs.
+- [ ] TransitionPoolFactory: Create some txs with a known sort order and ensure that the BaseFee vs GasPrice sorting order is respected pre/post London and also post-Shanghai.
             </td>
         </tr>
     </table>
@@ -170,7 +176,7 @@ Add deposit validation and related apis. This PR depends on PR #5055. Work is st
             </td>
             <td>
                 <b>
-                    [WIP] Remove getByBlockNumber from dao classic specs
+                    Remove getByBlockNumber from dao classic specs
                 </b>
             </td>
         </tr>
@@ -183,24 +189,46 @@ Add deposit validation and related apis. This PR depends on PR #5055. Work is st
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+This PR removes getByBlockNumber from the ProtocolScheduleBuilder using the existing builders to fetch the original Spec for the blocks where the Dao/Classic fork will be inserted.
 
+This PR has successfully generated the same ProtocolSchedules for Sepolia/Goerli and Mainnet. 
+Samples:
+- Sepolia
+`2023-03-10 16:42:13.691+11:00 | main | INFO  | AbstractProtocolScheduleBuilder | Protocol schedule created with milestones: [London: 0, ParisFork: 1735371]
+2023-03-10 16:42:13.695+11:00 | main | INFO  | AbstractProtocolScheduleBuilder | Protocol schedule created with milestones: [Shanghai: 1677557088]`
+- Goerli
+`2023-03-10 16:47:02.803+11:00 | main | INFO  | AbstractProtocolScheduleBuilder | Protocol schedule created with milestones: [Petersburg: 0, Istanbul: 1561651, Berlin: 4460644, London: 5062605]
+2023-03-10 16:47:02.807+11:00 | main | INFO  | AbstractProtocolScheduleBuilder | Protocol schedule created with milestones: [Shanghai: 1678832736]
+`
+- Mainnet
+`2023-03-10 16:41:05.327+11:00 | main | INFO  | AbstractProtocolScheduleBuilder | Protocol schedule created with milestones: [Frontier: 0, Homestead: 1150000, DaoRecoveryInit: 1920000, DaoRecoveryTransition: 1920001, Homestead: 1920010, TangerineWhistle: 2463000, SpuriousDragon: 2675000, Byzantium: 4370000, Petersburg: 7280000, Istanbul: 9069000, MuirGlacier: 9200000, Berlin: 12244000, London: 12965000, ArrowGlacier: 13773000, GrayGlacier: 15050000]
+`
+- Classic
+`2023-03-10 16:39:19.567+11:00 | main | INFO  | AbstractProtocolScheduleBuilder | Protocol schedule created with milestones: [Frontier: 0, Homestead: 1150000, ClassicRecoveryInit: 1920000, Homestead: 1920001, TangerineWhistle: 2500000, DieHard: 3000000, Gotham: 5000000, DefuseDifficultyBomb: 5900000, Atlantis: 8772000, Agharta: 9573000, Phoenix: 10500839, Thanos: 11700000, Magneto: 13189133, Mystique: 14525000]
+`
+
+Pr has also successfully synced:
+- [x] Sepolia
+- [x] Goerli
+- [ ] Mainnet
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
+Fixes #5161
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Acceptance Tests (Non Mainnet)
 
-- [ ] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
+- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
