@@ -202,31 +202,3 @@ Fixes #1212
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1209" class=".btn">#1209</a>
-            </td>
-            <td>
-                <b>
-                    Bump solang-parser version for crate publish
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Note we don't want to include the entire solc source tree in the crate, so exclude all the testdata.
-
-New version is required for `forge fmt`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-03 14:00:00 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/83" class=".btn">#83</a>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/84" class=".btn">#84</a>
             </td>
             <td>
                 <b>
-                    Resolve custom credential types
+                    publishing pipeline test results
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
                 
             </td>
             <td>
-                https://github.com/hyperledger-labs/acapy-java-client/issues/82
-
-Signed-off-by: Philipp Etschel <philipp@etschel.net>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-06 18:31:31 +0000 UTC
+        Created At 2023-03-10 15:50:07 +0000 UTC
     </div>
 </div>
 
