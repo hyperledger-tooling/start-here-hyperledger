@@ -167,31 +167,3 @@ Closes #3543
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3542" class=".btn">#3542</a>
-            </td>
-            <td>
-                <b>
-                    wip: Add SD-JWT Docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add SD-JWT Docs
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-02 21:00:03 +0000 UTC
-    </div>
-</div>
-

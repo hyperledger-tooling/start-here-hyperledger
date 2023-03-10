@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1217" class=".btn">#1217</a>
+            </td>
+            <td>
+                <b>
+                    Collect the accounts a contract needs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In this PR, we collect all accounts we can from a Solidity contract and insert them into the accounts vector for an instruction, so developers do not have to input them manually.
+
+Closes #1191.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-09 18:38:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1214" class=".btn">#1214</a>
             </td>
             <td>
@@ -147,32 +175,6 @@ New version is required for `forge fmt`.
     </table>
     <div class="right-align">
         Created At 2023-03-03 14:00:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1208" class=".btn">#1208</a>
-            </td>
-            <td>
-                <b>
-                    Simplify switch in constant folding
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I was checking if `fn block_edges` could be pre-calculated during CFG generation, for we call it six times (one more after we collect all Solana accounts). The only problem would be constant folding, which simplifies branches. While I was checking that, I realized we could simplify switches before trying to remove `fn block_edges`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-02 23:04:30 +0000 UTC
     </div>
 </div>
 

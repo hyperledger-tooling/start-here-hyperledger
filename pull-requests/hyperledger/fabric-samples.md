@@ -42,32 +42,3 @@ Signed-off-by: David Enyeart <enyeart@us.ibm.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/996" class=".btn">#996</a>
-            </td>
-            <td>
-                <b>
-                    Update Go and Go dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update go dependencies in sample chaincodes and applications.
-Update Go to 1.19.6
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-02 22:05:16 +0000 UTC
-    </div>
-</div>
-
