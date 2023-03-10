@@ -1,13 +1,13 @@
 
-[229](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/229) Cardea
+[5199](https://github.com/hyperledger/besu/pull/5199) Replace streamMilestoneBlocks with getScheduledProtocolSpecs
 
-[5196](https://github.com/hyperledger/besu/pull/5196) (WIP) EIP-6110: Add deposit validation and apis
+[5198](https://github.com/hyperledger/besu/pull/5198) Replace ProtocolSchedule.streamMilestoneBlocks
 
-[145](https://github.com/hyperledger/iroha-javascript/pull/145) Create `MAINTAINERS.md`
+[5197](https://github.com/hyperledger/besu/pull/5197) Feature/minimal safe tracing
 
-[313](https://github.com/hyperledger/iroha-java/pull/313) Create `Maintainers.md`
+[1217](https://github.com/hyperledger/solang/pull/1217) Collect the accounts a contract needs
 
-[38](https://github.com/hyperledger/iroha-deploy/pull/38) Add `Maintainers.md`
+[4084](https://github.com/hyperledger/fabric/pull/4084) Bump golang.org/x/crypto to 0.1.0
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

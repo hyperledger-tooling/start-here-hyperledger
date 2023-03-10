@@ -14,6 +14,108 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5199" class=".btn">#5199</a>
+            </td>
+            <td>
+                <b>
+                    Replace streamMilestoneBlocks with getScheduledProtocolSpecs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                WIP
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-10 00:40:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5198" class=".btn">#5198</a>
+            </td>
+            <td>
+                <b>
+                    Replace ProtocolSchedule.streamMilestoneBlocks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #5163 
+
+Replace usages of streamMilestoneBlocks on production code paths: RunnerBuilder and TransactionPoolFactory.
+
+Still TODO: replace usages in unit tests and then remove streamMilestoneBlocks from the interface.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-09 22:47:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5197" class=".btn">#5197</a>
+            </td>
+            <td>
+                <b>
+                    Feature/minimal safe tracing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Acceptance Tests (Non Mainnet)
+
+- [ ] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
+
+## Changelog
+
+- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-09 21:18:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5196" class=".btn">#5196</a>
             </td>
             <td>
@@ -749,7 +851,7 @@ Fixes #5166
 Successfully synced networks:
 - [x] Sepolia
 - [x] Goerli
-- [ ] Mainnet
+- [x] Mainnet
 
 ## Documentation
 
@@ -986,41 +1088,6 @@ prep 23.1.x release branch for alternate burn-in candidate by merging main into 
     </table>
     <div class="right-align">
         Created At 2023-03-03 19:55:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5151" class=".btn">#5151</a>
-            </td>
-            <td>
-                <b>
-                    Schedule Goerli shanghaiTime and configure forkId for tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span><span class="chip">mainnet</span><span class="chip">EIP</span>
-            </td>
-            <td>
-                Announced here: https://github.com/ethereum/execution-specs/pull/724
-
-~Still waiting for confirmation of the forkId hash.~
-
-Marius confirmed:
-> I can confirm 0xf9843abf with 1678832736
-
-Sepolia change for comparison: https://github.com/hyperledger/besu/commit/54521591f4dc2b9f142172d60c7a362b83ba3d32
-
-I _could_ update `ForkIdsNetworkConfigTest` but Goerli hasn't been kept up to date for that test since Istanbul. I checked code coverage and I don't believe that test is providing any extra value beyond what `ForkIdTest` is already doing. I would suggest we remove `ForkIdsNetworkConfigTest` and the unnecessary parts of `ForkIdTestUtil`. Would like some feedback from @jframe about that first though.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-02 20:29:05 +0000 UTC
     </div>
 </div>
 
