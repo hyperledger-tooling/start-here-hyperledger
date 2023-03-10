@@ -258,29 +258,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/159" class=".btn">#159</a>
-            </td>
-            <td>
-                <b>
-                    relay: follow-up #130: remove unused field from proto
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-03 10:17:45 +0000 UTC
-    </div>
-</div>
-

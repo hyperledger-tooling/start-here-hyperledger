@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/387" class=".btn">#387</a>
+            </td>
+            <td>
+                <b>
+                    fix: interop app
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. Change `compile` to `implementation` for `protos-java-kt` in `corda-interop-app`.
+2. Bump all corda modules to version `1.2.14`
+
+This is required for Trade Demo Apps to work.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-10 09:50:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/386" class=".btn">#386</a>
             </td>
             <td>
