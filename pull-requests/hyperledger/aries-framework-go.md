@@ -109,29 +109,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3545" class=".btn">#3545</a>
-            </td>
-            <td>
-                <b>
-                    feat: PresentationDefinition API for submitting multi-presentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Filip Burlacu <filip.burlacu@securekey.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-04 06:55:10 +0000 UTC
-    </div>
-</div>
-
