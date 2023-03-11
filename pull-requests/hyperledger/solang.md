@@ -176,29 +176,3 @@ Fixes #1212
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1210" class=".btn">#1210</a>
-            </td>
-            <td>
-                <b>
-                    Remove unnecessary files from solang crate
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                These files bloat the crate file without any function. The list of files can be seen with `cargo package --list`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-03 20:56:44 +0000 UTC
-    </div>
-</div>
-

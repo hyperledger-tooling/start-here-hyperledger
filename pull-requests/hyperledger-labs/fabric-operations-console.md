@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/411" class=".btn">#411</a>
+            </td>
+            <td>
+                <b>
+                    handle req body size errors correctly
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+- bump request limit from 25MB to 100MB for fabric related apis
+- adds logs when requests are terminated b/c of their size, actually it will log any body parser failure
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-10 20:31:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/410" class=".btn">#410</a>
             </td>
             <td>
@@ -249,41 +285,6 @@ Fix the `url2use` value if component was migrated from another console.
     </table>
     <div class="right-align">
         Created At 2023-03-06 01:58:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/404" class=".btn">#404</a>
-            </td>
-            <td>
-                <b>
-                    format migrated url correctly if standard port
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-Formats the migrated console url correctly when standard ports like 443 or 80 are used. This fixes logic downstream that attempts to match against this url value.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-03 20:16:46 +0000 UTC
     </div>
 </div>
 
