@@ -135,35 +135,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3544" class=".btn">#3544</a>
-            </td>
-            <td>
-                <b>
-                    fix: Wallet query multi-descriptor fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                If we have two input descriptors with two credentials and one descriptor is satisfied with two credentials then we have failure depending on the order of processing.
-
-Closes #3543
-
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-03 19:38:00 +0000 UTC
-    </div>
-</div>
-
