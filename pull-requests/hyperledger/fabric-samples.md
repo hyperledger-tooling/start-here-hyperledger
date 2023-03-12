@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/998" class=".btn">#998</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1001" class=".btn">#1001</a>
             </td>
             <td>
                 <b>
-                    asset-transfer-basic CI improvements
+                    cfssl to generating certificates
                 </b>
             </td>
         </tr>
@@ -27,18 +27,19 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                - Application failure should result in CI failure (exit code 1)
-- Automatically remove wallet from prior runs 
-- Fix chaincode name issues, allow chaincode name to be passed from CI
-- Fix appUser collisions (duplicate registration failures)
-- Fix key create collisions across apps (in cases where same chaincode is used for multiple apps)
+                This PR adds a new example to support pluggable CA in hyperledger fabric. Current examples in the `fabric-samples` provide two implementations for cert generation i.e `cryptogen` and `fabric-ca`. 
 
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
+This PR will help the developers to understand more about bring your own identity. These changesets will allow developers to generate certificates using the [cfssl tool](https://github.com/cloudflare/cfssl), which is an opensource tool by cloudflare for cert management.
+
+Generate certs using cfssl
+```
+./network.sh up -cfssl
+```
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-03 21:38:43 +0000 UTC
+        Created At 2023-03-12 09:20:47 +0000 UTC
     </div>
 </div>
 
