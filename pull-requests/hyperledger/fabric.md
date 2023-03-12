@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4087" class=".btn">#4087</a>
+            </td>
+            <td>
+                <b>
+                    Update install.md for getting the latest version of fabric binary for test-nework scripts to work
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Documentation update
+
+#### Description
+osnadmin is a new command in Fabric v2.3. The documentation does download 2.2.1 version. 
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-12 18:09:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4086" class=".btn">#4086</a>
             </td>
             <td>
