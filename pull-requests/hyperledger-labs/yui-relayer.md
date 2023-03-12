@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
                 
             </td>
             <td>
-                <nil>
+                - fix https://github.com/hyperledger-labs/yui-relayer/issues/82
             </td>
         </tr>
     </table>
