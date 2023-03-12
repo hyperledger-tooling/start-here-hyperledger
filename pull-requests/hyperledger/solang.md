@@ -148,31 +148,3 @@ Fixes #1212
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1211" class=".btn">#1211</a>
-            </td>
-            <td>
-                <b>
-                    Refactor scale decoder into codegen
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Decoding for `abi.decode` is now done in codegen. Like with the encoder, most of the code can be shared with the borsh decoder.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-04 21:44:10 +0000 UTC
-    </div>
-</div>
-
