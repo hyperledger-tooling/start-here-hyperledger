@@ -218,38 +218,3 @@ Allows minimum version of openshift and iks (for migration) to be different.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/406" class=".btn">#406</a>
-            </td>
-            <td>
-                <b>
-                    disable read only state in newly migrated consoles
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-Newly migrated consoles should not be in the read-only state.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-06 14:37:33 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-rs/pull/1" class=".btn">#1</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-rs/pull/2" class=".btn">#2</a>
             </td>
             <td>
                 <b>
-                    Add settings
+                    Repo migration: all the commits from the previous (private) repo
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/perun-rs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-28 15:33:28 +0000 UTC
+        Created At 2023-03-13 14:21:37 +0000 UTC
     </div>
 </div>
 
