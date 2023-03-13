@@ -253,38 +253,3 @@ Newly migrated consoles should not be in the read-only state.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/405" class=".btn">#405</a>
-            </td>
-            <td>
-                <b>
-                    fix url2use for migrated components
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-Fix the `url2use` value if component was migrated from another console.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-06 01:58:17 +0000 UTC
-    </div>
-</div>
-
