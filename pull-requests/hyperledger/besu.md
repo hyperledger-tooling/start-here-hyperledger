@@ -14,6 +14,123 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5209" class=".btn">#5209</a>
+            </td>
+            <td>
+                <b>
+                    increased default to 5000
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span>
+            </td>
+            <td>
+                Increase max log range to 5000 - was reduced to 1000 in #4597 
+
+## Documentation
+
+- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Acceptance Tests (Non Mainnet)
+
+- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-13 07:18:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5208" class=".btn">#5208</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] updated some RPC ATs to junit5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updated to junit 5 for non-parameterized tests
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Acceptance Tests (Non Mainnet)
+
+- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-13 07:13:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5207" class=".btn">#5207</a>
+            </td>
+            <td>
+                <b>
+                    [GHA] add separate dco yml for merge_group event
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add a separate yml file with the merge_group event trigger that doesn't invoke the PR based dco
+
+## Documentation
+
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
+    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
+
+## Acceptance Tests (Non Mainnet)
+
+- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
+
+## Changelog
+
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-13 06:56:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5206" class=".btn">#5206</a>
             </td>
             <td>
@@ -944,101 +1061,6 @@ This mitigation will be obseleted by #5123.
     </table>
     <div class="right-align">
         Created At 2023-03-07 00:50:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5174" class=".btn">#5174</a>
-            </td>
-            <td>
-                <b>
-                    Fix empty body concept after shanghai
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">bug</span><span class="chip">TeamGroot</span><span class="chip">mainnet</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-This PR adds withdrawals to the method that checks for empty block bodies in CompleteBlocksTask.java
-Adding withdrawals allows Besu to be able to distinguish empty blocks after shanghai skiping the block body download when body is empty.
-Prior to this PR Besu would understand blocks like (0txs, 0 ommers, x ws) as an empty block, during the sync process. (x > 0)
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Fixes #4976 
-
-This PR has performed the following tests:
-- [x] Recreated and tested fix on zhejiang-testnet using FAST sync
-- [x] Successfully synced Sepolia (starting from checkpoint and transitioning to Shanghai)
-- [x] Successfully synced Goerli 
-- [ ] Successfully synced Mainnet
- 
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Acceptance Tests (Non Mainnet)
-
-- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-06 10:16:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5173" class=".btn">#5173</a>
-            </td>
-            <td>
-                <b>
-                    Remove getByBlockNumber for CheckpointSync
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span>
-            </td>
-            <td>
-                Pull up and simplify data passed to CheckpointSource, which then allows checkpointBlockHeader to be used by protocolSchedule.getByBlockHeader.
-
-Fixes #5167 
-
-Alternative approach explored: https://github.com/siladu/besu/commit/bbaa80dcd88c517fb0d7a07a6fcd9f8a027bf5a5
-but I didn't like the way ScheduleBasedHeaderBlockHeaderFunctions requires an explicit delegation override (otherwise it implicitly gets the wrong value).
-
-CheckpointSync testing:
-- [x] Sepolia (prysm)
-- [x] Sepolia (lighthouse)
-- [x] Goerli (lighthouse)
-  - got in sync but required a restarted to transition from initial sync to backwards sync 
-  - resync completed without intervention 
-- [x] Mainnet (teku)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-06 06:53:44 +0000 UTC
     </div>
 </div>
 
