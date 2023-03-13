@@ -1,13 +1,13 @@
 
-[4087](https://github.com/hyperledger/fabric/pull/4087) Update install.md for getting the latest version of fabric binary for test-nework scripts to work
+[4088](https://github.com/hyperledger/fabric/pull/4088) Update install.md for getting the latest version of fabric binary for test-nework scripts to work (backport #4087)
 
-[3300](https://github.com/hyperledger/iroha/pull/3300) [fix] #3132: Add `NewParameter` validator
+[5206](https://github.com/hyperledger/besu/pull/5206) Fix console logging
 
-[1001](https://github.com/hyperledger/fabric-samples/pull/1001) cfssl to generating certificates
+[5205](https://github.com/hyperledger/besu/pull/5205) [MINOR] use junit 5 for plugin and some other ATs
 
-[5202](https://github.com/hyperledger/besu/pull/5202) Verify default logging is INFO
+[5204](https://github.com/hyperledger/besu/pull/5204) [GHA] no DCO on merge_group
 
-[4086](https://github.com/hyperledger/fabric/pull/4086) Extend logging doc with typical examples
+[5203](https://github.com/hyperledger/besu/pull/5203) [MINOR] use constants for strings in test plugin
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

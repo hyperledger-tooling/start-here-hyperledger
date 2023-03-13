@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
             </td>
             <td>
                 <b>
-                    Refactor prover interface
+                    Add intermediate headers support for update-client and refactor chain and prover interfaces
                 </b>
             </td>
         </tr>
@@ -34,6 +34,7 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
 - [reorder proof generation and header setup](https://github.com/hyperledger-labs/yui-relayer/pull/83/commits/f3e3d308e42f5e7e3ef23f63e7eb98b6147f27ef)
   - it allows to remove unnecessary sync steps during packet relay with LCP
   - ref. https://github.com/datachainlab/lcp/pull/55
+- [remove 'I' suffix from interface names](https://github.com/hyperledger-labs/yui-relayer/pull/83/commits/07ad300cb601f5d4268ef3c11061cdb0f53e8191)
             </td>
         </tr>
     </table>
