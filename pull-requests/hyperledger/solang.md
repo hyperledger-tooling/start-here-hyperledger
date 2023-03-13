@@ -14,32 +14,6 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1219" class=".btn">#1219</a>
-            </td>
-            <td>
-                <b>
-                    Fix debug flag
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR fixes compilation failure with -g flag in integration/substrate tests
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-10 12:13:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1218" class=".btn">#1218</a>
             </td>
             <td>
