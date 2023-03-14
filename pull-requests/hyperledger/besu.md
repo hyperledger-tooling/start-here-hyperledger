@@ -31,7 +31,7 @@ permalink: /pull-requests/hyperledger/besu
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Acceptance Tests (Non Mainnet)
@@ -519,10 +519,11 @@ Samples:
 `2023-03-10 16:39:19.567+11:00 | main | INFO  | AbstractProtocolScheduleBuilder | Protocol schedule created with milestones: [Frontier: 0, Homestead: 1150000, ClassicRecoveryInit: 1920000, Homestead: 1920001, TangerineWhistle: 2500000, DieHard: 3000000, Gotham: 5000000, DefuseDifficultyBomb: 5900000, Atlantis: 8772000, Agharta: 9573000, Phoenix: 10500839, Thanos: 11700000, Magneto: 13189133, Mystique: 14525000]
 `
 
-Pr has also successfully synced:
+PR has also successfully synced:
 - [x] Sepolia
 - [x] Goerli
 - [x] Mainnet
+- [x] Ethereum Classic (by @diega )
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -1010,57 +1011,6 @@ Fix an issue where Besu fails to decode an ephemeral public key when dealing wit
     </table>
     <div class="right-align">
         Created At 2023-03-07 02:31:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5179" class=".btn">#5179</a>
-            </td>
-            <td>
-                <b>
-                    copy layered worldstate fix for eth_call
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-This is mitigation fix for eth_call concurrency failures, similar to #5076. 
-
-This mitigation will be obseleted by #5123.
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-#5175 
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Acceptance Tests (Non Mainnet)
-
-- [ ] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-07 00:50:33 +0000 UTC
     </div>
 </div>
 
