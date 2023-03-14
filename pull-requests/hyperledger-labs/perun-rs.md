@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-rs/pull/2" class=".btn">#2</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-rs/pull/3" class=".btn">#3</a>
             </td>
             <td>
                 <b>
-                    Repo migration: all the commits from the previous (private) repo
+                    Repo migration
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/perun-rs
                 
             </td>
             <td>
-                <nil>
+                This PR contains all commits made to the previous (private) repository.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-13 14:21:37 +0000 UTC
+        Created At 2023-03-14 10:18:57 +0000 UTC
     </div>
 </div>
 

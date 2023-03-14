@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1220" class=".btn">#1220</a>
+            </td>
+            <td>
+                <b>
+                    Remove non-idiomatic use of LinkedList
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                See the note here:
+
+https://doc.rust-lang.org/std/collections/struct.LinkedList.html
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-14 09:23:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1218" class=".btn">#1218</a>
             </td>
             <td>
@@ -61,36 +89,6 @@ Closes #1191.
     </table>
     <div class="right-align">
         Created At 2023-03-09 18:38:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1214" class=".btn">#1214</a>
-            </td>
-            <td>
-                <b>
-                    Use named enums for a few cfg expressions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Make the More, Less, MoreEqual, LessEqual cfg expression named. Also Replace Expression::SignedMore and UnsignedMore with a single expression enum. This should make it more consistent.
-
-Note for CSE we now have consistent handling for Less and LessEqual wrt signedness. I am not sure this fixes any bugs, but it makes the code consistent/readable.
-
-Fixes #1200 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-07 11:41:47 +0000 UTC
     </div>
 </div>
 
