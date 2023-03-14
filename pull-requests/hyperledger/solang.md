@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1221" class=".btn">#1221</a>
+            </td>
+            <td>
+                <b>
+                    Implement rational eval of compare, or, and, and conditional operator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                These are all accepted by solc so solang should do the same.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-14 16:45:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1220" class=".btn">#1220</a>
             </td>
             <td>
