@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/150" class=".btn">#150</a>
-            </td>
-            <td>
-                <b>
-                    Apply previous main branch changes following branch rename
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-07 17:05:41 +0000 UTC
-    </div>
-</div>
-
