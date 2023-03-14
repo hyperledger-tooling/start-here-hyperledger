@@ -15,6 +15,40 @@ permalink: /releases/hyperledger/aries-askar
         <tr>
             <td colspan="2">
                 <b>
+                    v0.2.8-dev.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.2.8-dev.5
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* fix(js): key handle name by @TimoGlastra in https://github.com/hyperledger/aries-askar/pull/119
+* feat(js): added migration to wrapper by @blu3beri in https://github.com/hyperledger/aries-askar/pull/120
+* chore: update version by @blu3beri in https://github.com/hyperledger/aries-askar/pull/121
+
+
+**Full Changelog**: https://github.com/hyperledger/aries-askar/compare/v0.2.8-dev.4...v0.2.8-dev.5
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/aries-askar/releases/tag/v0.2.8-dev.5" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-03-14 17:22:13 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v0.2.8-dev.4
                 </b>
             </td>
