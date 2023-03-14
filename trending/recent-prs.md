@@ -1,13 +1,13 @@
 
+[5214](https://github.com/hyperledger/besu/pull/5214) [MINOR] junit5 for eth/sync tests
+
+[1003](https://github.com/hyperledger/fabric-samples/pull/1003) Sample apps should exit code 1 upon failure
+
+[2163](https://github.com/hyperledger/aries-cloudagent-python/pull/2163) Remove CircleCI Status since we aren't using CircleCI anymore
+
 [2443](https://github.com/hyperledger/sawtooth-core/pull/2443) Handle errors with thiserror
 
 [413](https://github.com/hyperledger-labs/fabric-operations-console/pull/413) fix password str validation on a dry-run request
-
-[412](https://github.com/hyperledger-labs/fabric-operations-console/pull/412) adding the multi instance warning on migration
-
-[4089](https://github.com/hyperledger/fabric/pull/4089) Extend logging doc with typical examples (backport #4086)
-
-[2](https://github.com/hyperledger-labs/perun-rs/pull/2) Repo migration: all the commits from the previous (private) repo
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
