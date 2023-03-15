@@ -28,6 +28,8 @@ permalink: /pull-requests/hyperledger/fabric-samples
             </td>
             <td>
                 Update samples to use Fabric v2.5.0-beta2 by default.
+
+Also remove pullFabricImages.sh since it is no longer used by anything.
             </td>
         </tr>
     </table>
