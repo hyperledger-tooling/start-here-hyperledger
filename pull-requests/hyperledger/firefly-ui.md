@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-ui
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/213" class=".btn">#213</a>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/214" class=".btn">#214</a>
             </td>
             <td>
                 <b>
-                    Fix link to Firefly UI repository
+                    Add string for new contract_invoke_pin transaction type
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/firefly-ui
                 
             </td>
             <td>
-                Fix link to Firefly UI repository
+                Part of [FIR-17](https://github.com/hyperledger/firefly-fir/pull/17)
+Required by https://github.com/hyperledger/firefly/pull/1213
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-29 12:46:07 +0000 UTC
+        Created At 2023-03-09 02:30:15 +0000 UTC
     </div>
 </div>
 

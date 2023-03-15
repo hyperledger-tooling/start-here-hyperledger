@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/146" class=".btn">#146</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/148" class=".btn">#148</a>
             </td>
             <td>
                 <b>
-                    Add health checks to demo docker compose
+                    feat/no indy
                 </b>
             </td>
         </tr>
@@ -32,7 +32,33 @@ permalink: /pull-requests/hyperledger/aries-acapy-plugin-toolbox
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-01 21:43:56 +0000 UTC
+        Created At 2023-03-12 18:56:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-plugin-toolbox/pull/147" class=".btn">#147</a>
+            </td>
+            <td>
+                <b>
+                    feat: no indy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-08 16:49:39 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/134" class=".btn">#134</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/144" class=".btn">#144</a>
             </td>
             <td>
                 <b>
-                    chore: update versions
+                    fix(js): defer library loading for nodejs
                 </b>
             </td>
         </tr>
@@ -27,13 +27,14 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
                 
             </td>
             <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
+                Prevent native library from being loaded right when `@hyperledger/anoncreds-nodejs` is imported by deferring its loading to when it's actually used. 
 
+This is a problem we found during AFJ test suites, which import the library in general purpose test helpers and make the native library to be loaded more times than needed, allocating more memory and making the suite to crash.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-07 12:19:51 +0000 UTC
+        Created At 2023-03-14 16:52:29 +0000 UTC
     </div>
 </div>
 
@@ -41,11 +42,11 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/131" class=".btn">#131</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/142" class=".btn">#142</a>
             </td>
             <td>
                 <b>
-                    fix(js): several fixes for js wrapper
+                    chore: update dependencies
                 </b>
             </td>
         </tr>
@@ -54,14 +55,17 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
                 
             </td>
             <td>
-                Similar to https://github.com/hyperledger/indy-vdr/pull/170 and https://github.com/hyperledger/aries-askar/pull/111 but for anoncreds
+                - Updated dependencies to their latest version
+- Removed the dependency on openssl-src from github which should drastically
+  increase first build times (also on CI)
 
+Signed-off-by: blu3beri <blu3beri@proton.me>
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-06 13:45:16 +0000 UTC
+        Created At 2023-03-12 11:12:26 +0000 UTC
     </div>
 </div>
 
@@ -69,11 +73,11 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/130" class=".btn">#130</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/140" class=".btn">#140</a>
             </td>
             <td>
                 <b>
-                    fix(js): missing getXXXFromJson methods and several typos
+                    chore: set version to 0.1.0-dev.10
                 </b>
             </td>
         </tr>
@@ -82,18 +86,12 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
                 
             </td>
             <td>
-                Adding the missing methods from react-native wrappers and making lots of minor fixes, mostly related to typos and outdated variable/method names.
-
-At the moment working for a full issuance / present proof / verify proof flow without revocation (yes, also possible to issue a credential in React Native 🎉). However there is a memory leak leading to custom app crashes and variable corruption (!) when creating presentation.  Based on some debugging I did, the corrupted variables are strings in some FFI lists: it seems that strings are cleared or updated by the runtime before they are used by native library. Not sure if this makes sense, but I noticed that if I use short strings for fields like `issuerId`, `schemaId` and `credentialDefinitionId` (e.g. _'mock:uri'_) the flow works fine consistently, while if I use relatively long strings (real full DIDs, 50 characters long or so, no matter if it's only one of these variables), the flow crashes almost always. 🤔 
-
-Also I think in some methods (like the aforementioned `createPresentation`) we are missing data deallocation but not completely sure how to handle that yet (@blu3beri you have all lottery numbers for this prize!! 😄). Work done in #129 will certainly help but I don't think if it's enough in a long-term app session. 
-
-PS: All getXXXFromJson methods can be heavily refactored as they do almost the same thing. For the moment just wanted to be conservative to be focused in solving all issues, but any suggestion to make it cleaner will be appreciated!
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-05 10:46:02 +0000 UTC
+        Created At 2023-03-11 11:50:57 +0000 UTC
     </div>
 </div>
 
@@ -101,11 +99,11 @@ PS: All getXXXFromJson methods can be heavily refactored as they do almost the s
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/129" class=".btn">#129</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/139" class=".btn">#139</a>
             </td>
             <td>
                 <b>
-                    refactor(js)!: use JSON objects in API instead of strings and instances
+                    fix(js): strings in FFI structs and JSON conversion in react native
                 </b>
             </td>
         </tr>
@@ -114,27 +112,14 @@ PS: All getXXXFromJson methods can be heavily refactored as they do almost the s
                 
             </td>
             <td>
-                This is an attempt (without doing anything revolutionary) to make JS API a bit more simple to use, avoiding the so-many conversions from JSON to string  that we found during integration with AFJ. 
-
-For most methods that are currently receiving `AnoncredsObject` instances, now we accept also passing JSON objects. This makes the caller to not care about object instantiation and clearing handles, which is done internally. Hopefully, in a normal flow the caller will need only to care about freeing a few objects (like Credentials).
-
-I'm not sure if I'm using the `try-finally` method correctly (I'm particularly worried about the order of execution of finally if an exception is thrown) so any comments on this approach would be appreciated. I wanted to make this process of "checking object type and loading from JSON/add to handles to clear array" more elegant, but I think I'll need some more TypeScript lessons from @TimoGlastra and @blu3beri before attempting to do that 😛 .
-
-Some tests were added to this repo, but I didn't check this as a patch of AFJ to see how is it going, something I'd like to do before merging. 
-
-Summary of changes: 
-
-- Refactor `load` in AnonCredsObjects to `fromJson`, loading from a JSON object rather than a string
-- Refactor `toJson` in AnoncredsObject to return a JSON object rather than a string
-- All constructors and methods in API AnoncredsObjects accept both AnonCredsObjects and JSON objects. This is the most tricky part: for every passed JSON object, an  ephemeral AnonCredsObject instance will be created and must be cleared before returning to the caller
-- Add some missing fromJson (like the one from Credential)
-- Rename keyProof -> keyCorrectnessProof to match the naming of other fields
-
+                - Fixes `XXXFromJson()` functions that were losing the input string value due to the usage of vectors
+- Fixes `createPresentation` and `verifyPresentation`, that were losing strings that were passed to FFI structures, and also were not being freed after usage
+- Updates some methods like `createRevocationStatusList` and `verifyPresentation` according to last API changes
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-03 19:01:35 +0000 UTC
+        Created At 2023-03-10 00:13:47 +0000 UTC
     </div>
 </div>
 
@@ -142,11 +127,11 @@ Summary of changes:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/124" class=".btn">#124</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/137" class=".btn">#137</a>
             </td>
             <td>
                 <b>
-                    update `ursa` to 0.3.7
+                    fix: add support for legacy schema and cred def id
                 </b>
             </td>
         </tr>
@@ -155,14 +140,16 @@ Summary of changes:
                 
             </td>
             <td>
-                `ursa` version 0.3.6 still has dependencies on the long deprecated `failure` crate which is no longer maintained and contains well known security issues (CVE-2019-25010 and CVE-2020-25575).
+                @genaris this should fix your issue regarding the invalid cred_def / schema identifiers.
 
-fix #123 
+I was wondering if anyone knows a regex to match the revocation registry definition id and the revocation registry id.
+
+Since the new identifier checker checks if it's just a uri, we will validate incorrect schemas with a version of `3` for example. Curious to hear if we want to fix this or leave as-is.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-02 10:38:34 +0000 UTC
+        Created At 2023-03-09 10:40:44 +0000 UTC
     </div>
 </div>
 

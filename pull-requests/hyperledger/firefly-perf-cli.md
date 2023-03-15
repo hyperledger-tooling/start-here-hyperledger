@@ -14,133 +14,36 @@ permalink: /pull-requests/hyperledger/firefly-perf-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/47" class=".btn">#47</a>
+                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/49" class=".btn">#49</a>
             </td>
             <td>
                 <b>
-                    Bump golang.org/x/net from 0.0.0-20211216030914-fe4d6282115f to 0.7.0
+                    Add options to allow node(s) to be configured without a local FireFly stack
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span>
+                
             </td>
             <td>
-                Bumps [golang.org/x/net](https://github.com/golang/net) from 0.0.0-20211216030914-fe4d6282115f to 0.7.0.
-<details>
-<summary>Commits</summary>
-<ul>
-<li>See full diff in <a href="https://github.com/golang/net/commits/v0.7.0">compare view</a></li>
-</ul>
-</details>
-<br />
+                This closes https://github.com/hyperledger/firefly-perf-cli/issues/48 adding features that make it easier to run the performance CLI against an arbitrary FireFly endpoint.
 
+It also adds various configuration options to give more tuning options in the `instances.yaml` file:
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/net&package-manager=go_modules&previous-version=0.0.0-20211216030914-fe4d6282115f&new-version=0.7.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
-- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
-- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
-- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
-
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/firefly-perf-cli/network/alerts).
-
-</details>
+- Name of the FireFly namespace to submit API calls to: `fireflyNamespace`
+- Option to add a prefix to all API calls in case the FireFly endpoint has a gateway in front of it: `apiPrefix`
+- Maximum time each action should take to avoid hard coded 60s limits: `maxTimePerAction`
+- Option for token mint workers to skip waiting for the mint to be confirmed before doing the next mint: `skipMintConfirmations`
+- The name of the token connector to use when creating a token pool: `poolConnectorName`
+- Configure whether the token pool contract supports data: `supportsData`
+- Configure whether the token pool contract supports URIs: `supportsURI`
+- Choose the recipient of token mints: `mintRecipient`
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-07 02:21:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/46" class=".btn">#46</a>
-            </td>
-            <td>
-                <b>
-                    Bump golang.org/x/crypto from 0.0.0-20211215153901-e495a2d5b3d3 to 0.1.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span>
-            </td>
-            <td>
-                Bumps [golang.org/x/crypto](https://github.com/golang/crypto) from 0.0.0-20211215153901-e495a2d5b3d3 to 0.1.0.
-<details>
-<summary>Commits</summary>
-<ul>
-<li>See full diff in <a href="https://github.com/golang/crypto/commits/v0.1.0">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/crypto&package-manager=go_modules&previous-version=0.0.0-20211215153901-e495a2d5b3d3&new-version=0.1.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
-- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
-- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
-- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
-
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/firefly-perf-cli/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-07 02:21:31 +0000 UTC
+        Created At 2023-03-09 14:17:13 +0000 UTC
     </div>
 </div>
 

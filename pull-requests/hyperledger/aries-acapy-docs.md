@@ -1,68 +1,33 @@
 ---
 layout: default
-title: fabric-operations-console
-parent: Hyperledger Labs
+title: aries-acapy-docs
+parent: Hyperledger
 grand_parent: Pull Requests
 has_children: false
-permalink: /pull-requests/hyperledger-labs/fabric-operations-console
+permalink: /pull-requests/hyperledger/aries-acapy-docs
 ---
 
-# fabric-operations-console <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger-labs/fabric-operations-console){: .btn .mr-4 }</span>
+# aries-acapy-docs <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/aries-acapy-docs){: .btn .mr-4 }</span>
 
 
 <div>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/417" class=".btn">#417</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/3" class=".btn">#3</a>
             </td>
             <td>
                 <b>
-                    bump release notes
+                    chore(deps): Bump webpack from 5.75.0 to 5.76.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">dependencies</span>
             </td>
             <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Documentation update
-
-#### Description
-release notes
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-14 18:49:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/416" class=".btn">#416</a>
-            </td>
-            <td>
-                <b>
-                    Bump webpack from 5.74.0 to 5.76.1 in /packages/apollo
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">javascript</span>
-            </td>
-            <td>
-                Bumps [webpack](https://github.com/webpack/webpack) from 5.74.0 to 5.76.1.
+                Bumps [webpack](https://github.com/webpack/webpack) from 5.75.0 to 5.76.1.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/webpack/webpack/releases">webpack's releases</a>.</em></p>
@@ -109,24 +74,7 @@ release notes
 <li><a href="https://github.com/askoufis"><code>@​askoufis</code></a> made their first contribution in <a href="https://redirect.github.com/webpack/webpack/pull/16781">webpack/webpack#16781</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/webpack/webpack/compare/v5.75.0...v5.76.0">https://github.com/webpack/webpack/compare/v5.75.0...v5.76.0</a></p>
-<h2>v5.75.0</h2>
-<h1>Bugfixes</h1>
-<ul>
-<li><code>experiments.*</code> normalize to <code>false</code> when opt-out</li>
-<li>avoid <code>NaN%</code></li>
-<li>show the correct error when using a conflicting chunk name in code</li>
-<li>HMR code tests existance of <code>window</code> before trying to access it</li>
-<li>fix <code>eval-nosources-*</code> actually exclude sources</li>
-<li>fix race condition where no module is returned from processing module</li>
-<li>fix position of standalong semicolon in runtime code</li>
-</ul>
-<h1>Features</h1>
-<ul>
-<li>add support for <code>@import</code> to extenal CSS when using experimental CSS in node</li>
-</ul>
-<!-- raw HTML omitted -->
 </blockquote>
-<p>... (truncated)</p>
 </details>
 <details>
 <summary>Commits</summary>
@@ -141,7 +89,7 @@ release notes
 <li><a href="https://github.com/webpack/webpack/commit/67af5ec1f05fb7cf06be6acf27353aef105ddcbc"><code>67af5ec</code></a> chore(release): 5.76.0</li>
 <li><a href="https://github.com/webpack/webpack/commit/97b1718720c33f1b17302a74c5284b01e02ec001"><code>97b1718</code></a> Merge pull request <a href="https://redirect.github.com/webpack/webpack/issues/16781">#16781</a> from askoufis/loader-context-target-type</li>
 <li><a href="https://github.com/webpack/webpack/commit/b84efe6224b276bf72e4c5e2f4e76acddfaeef07"><code>b84efe6</code></a> Merge pull request <a href="https://redirect.github.com/webpack/webpack/issues/16759">#16759</a> from ryanwilsonperkin/real-content-hash-regex-perf</li>
-<li>Additional commits viewable in <a href="https://github.com/webpack/webpack/compare/v5.74.0...v5.76.1">compare view</a></li>
+<li>Additional commits viewable in <a href="https://github.com/webpack/webpack/compare/v5.75.0...v5.76.1">compare view</a></li>
 </ul>
 </details>
 <details>
@@ -151,7 +99,7 @@ release notes
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack&package-manager=npm_and_yarn&previous-version=5.74.0&new-version=5.76.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack&package-manager=npm_and_yarn&previous-version=5.75.0&new-version=5.76.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -180,190 +128,14 @@ You can trigger Dependabot actions by commenting on this PR:
 - `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
 - `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
 
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/fabric-operations-console/network/alerts).
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-acapy-docs/network/alerts).
 
 </details>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-14 18:41:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/415" class=".btn">#415</a>
-            </td>
-            <td>
-                <b>
-                    enable must gather on migrated consoles
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-Set `mustgather_enabled` feature flag setting as `true` on migrated consoles.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-14 18:13:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/413" class=".btn">#413</a>
-            </td>
-            <td>
-                <b>
-                    fix password str validation on a dry-run request
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-- 
-#### Description
-Fixes password strength validation api if the request was a dry-run and the user does not exist. User does not need to exist for dry-run checks.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-13 19:16:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/412" class=".btn">#412</a>
-            </td>
-            <td>
-                <b>
-                    adding the multi instance warning on migration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Documentation update
-
-#### Description
-Added migration warning text to the migration information panel.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-13 18:46:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/411" class=".btn">#411</a>
-            </td>
-            <td>
-                <b>
-                    handle req body size errors correctly
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-- bump request limit from 25MB to 100MB for fabric related apis
-- adds logs when requests are terminated b/c of their size, actually it will log any body parser failure
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-10 20:31:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/410" class=".btn">#410</a>
-            </td>
-            <td>
-                <b>
-                    Allow saas consoles to test password strength
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-The test password strength api should work on saas consoles in prod.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-08 23:58:50 +0000 UTC
+        Created At 2023-03-14 21:22:25 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/114" class=".btn">#114</a>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/122" class=".btn">#122</a>
             </td>
             <td>
                 <b>
-                    Restrict default max conns to a range for sqlite
+                    fix(js): defer library loading for nodejs
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/aries-askar
                 
             </td>
             <td>
-                Now using a default maximum number of connections between 2 and 8 even when the detected number of CPUs is higher or lower.
+                Prevent native library from being loaded right when `@hyperledger/aries-askar-nodejs` is imported by deferring its loading to when it's actually used. 
 
-Related: #109 
+This is a problem we found during AFJ test suites, which import the library in general purpose test helpers and make the native library to be loaded more times than needed, allocating more memory and making the suite to crash.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-07 17:39:10 +0000 UTC
+        Created At 2023-03-14 16:51:39 +0000 UTC
     </div>
 </div>
 
@@ -42,11 +42,11 @@ Related: #109
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/113" class=".btn">#113</a>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/121" class=".btn">#121</a>
             </td>
             <td>
                 <b>
-                    chore: update version to dev.4
+                    chore: update version
                 </b>
             </td>
         </tr>
@@ -55,14 +55,13 @@ Related: #109
                 
             </td>
             <td>
-                Updates the version to dev.4. 
+                Signed-off-by: blu3beri <blu3beri@proton.me>
 
-We want to wait for a release until #111, #104, #108 & #89 are merged (which are mostly waiting for the broken CI)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-07 13:25:16 +0000 UTC
+        Created At 2023-03-14 14:24:09 +0000 UTC
     </div>
 </div>
 
@@ -70,11 +69,11 @@ We want to wait for a release until #111, #104, #108 & #89 are merged (which are
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/111" class=".btn">#111</a>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/120" class=".btn">#120</a>
             </td>
             <td>
                 <b>
-                    fix(js): several fixes for js wrapper
+                    feat(js): added migration to wrapper
                 </b>
             </td>
         </tr>
@@ -83,19 +82,18 @@ We want to wait for a release until #111, #104, #108 & #89 are merged (which are
                 
             </td>
             <td>
-                This PR contains several fixes from integrating aries askar into react native. 
+                - chore: updated header and generation
+- feat(js): indy-sdk to askar migration
+- fix(js): fixed the nodejs tests
+- test(js): added small migration tests and mock wallet
 
-Mainly it resolves:
-- https://github.com/hyperledger/aries-askar/issues/77
-- incorrect creation of errors in React Native (no AriesAskarError, but string)
-- null pointer handling
+Sadly I had to copy the `.db` file instead of moving it in the test. For some very odd reason, which can be debugged later, if I moved it inside the tests I would get an `AEAD decryption error`. It is a slight overhead that should be fine for now.
 
-Draft as it still needs to be tested fully in React Native
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-06 12:23:53 +0000 UTC
+        Created At 2023-03-13 09:24:32 +0000 UTC
     </div>
 </div>
 
@@ -103,11 +101,11 @@ Draft as it still needs to be tested fully in React Native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/108" class=".btn">#108</a>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/119" class=".btn">#119</a>
             </td>
             <td>
                 <b>
-                    fix(js): ensure scan is freed after fetchAll
+                    fix(js): key handle name
                 </b>
             </td>
         </tr>
@@ -116,14 +114,12 @@ Draft as it still needs to be tested fully in React Native
                 
             </td>
             <td>
-                When using `Scan.fetchAll` I found that the scan handle was not always properly freed. It turns out that this had to do with an error thrown when calling `scanNext` due to no records have been found (related issue https://github.com/hyperledger/aries-askar/issues/77), which prevented the code from executing the scanFree call.
-
-So here we simply add a try-finally to make sure it is always being called.
+                There was a small inconsistency between the key handle name for `keyFree` between node.js and react native. As all other methods use `localKeyHandle` (which the RN also expected), i've changed the method and node implementation.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-04 01:20:25 +0000 UTC
+        Created At 2023-03-11 15:05:28 +0000 UTC
     </div>
 </div>
 
@@ -131,11 +127,11 @@ So here we simply add a try-finally to make sure it is always being called.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/107" class=".btn">#107</a>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/117" class=".btn">#117</a>
             </td>
             <td>
                 <b>
-                    fix(js): free key and entry objects
+                    Update version to 0.2.8
                 </b>
             </td>
         </tr>
@@ -144,16 +140,12 @@ So here we simply add a try-finally to make sure it is always being called.
                 
             </td>
             <td>
-                As there is not a destructor in JS, objects must be freed manually. This PR attempts to free any native object after it is used, making life easier to consumer applications. 
-
-If this approach is correct, the only objects an app using this library should care about is `Key` (for which I added the missing call to `keyFree`).
-
-@blu3beri let me know if concepts applied here are correct so I can replicate for anoncreds-rs.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-02 02:39:37 +0000 UTC
+        Created At 2023-03-10 22:35:29 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/653" class=".btn">#653</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/659" class=".btn">#659</a>
             </td>
             <td>
                 <b>
-                    fix: update ruby version to fix ios build issue
+                    fix: fixed proof screen credential name
                 </b>
             </td>
         </tr>
@@ -29,8 +29,7 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
             <td>
                 # Summary of Changes
 
-Lately iOS pipeline builds have been failing due to an issue with cocoapods. Updating Ruby to the next minor version seems to fix the issue (it fixed the same build error in bc-wallet-mobile). Here is the error for reference:
-<img width="1310" alt="Screenshot 2023-03-06 at 9 15 46 AM" src="https://user-images.githubusercontent.com/32586431/223244480-56759706-2838-40af-9f02-68f266582479.png">
+previously, the credential card would display the name of the proof request group on the proof request screen. Changed the functionality to display the credential name instead. still defaults to using the proof group name if the credential isn't found
 
 # Related Issues
 
@@ -58,7 +57,7 @@ _PR template adapted from the Python attrs project._
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-06 22:00:05 +0000 UTC
+        Created At 2023-03-13 22:42:49 +0000 UTC
     </div>
 </div>
 
@@ -66,11 +65,11 @@ _PR template adapted from the Python attrs project._
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/652" class=".btn">#652</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/658" class=".btn">#658</a>
             </td>
             <td>
                 <b>
-                    chore: update maintainers file
+                    chore: add testIDs to cred details screen
                 </b>
             </td>
         </tr>
@@ -81,114 +80,7 @@ _PR template adapted from the Python attrs project._
             <td>
                 # Summary of Changes
 
-Add @wadeking98 
-
-# Related Issues
-
-N/A
-
-# Pull Request Checklist
-
-Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
-
-- [ ] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
-- [ ] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
-- [ ] Updated documentation as needed for changed code and new or modified features;
-- [ ] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
-
-If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
-
-Pro Tip 🤓
-
-- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
-- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
-
-_PR template adapted from the Python attrs project._
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-06 17:51:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/649" class=".btn">#649</a>
-            </td>
-            <td>
-                <b>
-                    docs : Design proposal document for Verifier functionality in Aries Mobile Agent
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Summary of Changes
-
-This PR includes the proposed design document covering adding Verifier functionality in Aries Mobile Agent.
-For some aspects, provided multiple options to choose which one will be included in the final design and implemented.
-
-# Related Issues
-
-BC Wallet Issue: https://github.com/bcgov/bc-wallet-mobile/issues/800
-
-# Pull Request Checklist
-
-Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
-
-- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
-- [ ] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
-- [x] Updated documentation as needed for changed code and new or modified features;
-- [ ] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
-
-If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
-
-Pro Tip 🤓
-
-- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
-- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
-
-_PR template adapted from the Python attrs project._
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-02 08:57:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/648" class=".btn">#648</a>
-            </td>
-            <td>
-                <b>
-                    feat: added connection image to proof & cred offer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Summary of Changes
-
-Added connection Image URL to proof request and credential offer page:
-
-Note, I will need to change some of the images in the bc wallet demo since they're still pointing to some animo images
-![Screen Shot 2023-03-01 at 3 33 58 PM](https://user-images.githubusercontent.com/36937407/222291327-45ba059a-897e-4baa-beaf-c46b11cf8c06.png)
-![Screen Shot 2023-03-01 at 3 34 31 PM](https://user-images.githubusercontent.com/36937407/222291369-77d4fb88-ad9a-4ad9-a178-f0c9250d2bbf.png)
+Added testIDs to target issuer name and revocation date on credential details screen
 
 # Related Issues
 
@@ -216,7 +108,7 @@ _PR template adapted from the Python attrs project._
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-01 23:38:11 +0000 UTC
+        Created At 2023-03-09 22:46:36 +0000 UTC
     </div>
 </div>
 
@@ -224,11 +116,11 @@ _PR template adapted from the Python attrs project._
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/647" class=".btn">#647</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/657" class=".btn">#657</a>
             </td>
             <td>
                 <b>
-                    fix: reset navigation stack for problematic screens
+                    fixed bugs in deeplink functionality
                 </b>
             </td>
         </tr>
@@ -239,11 +131,13 @@ _PR template adapted from the Python attrs project._
             <td>
                 # Summary of Changes
 
-Resetting the navigation stack when navigating from problematic screens that we don't want users to be able to navigate back to (either with swipe back on iOS or hardware back button on Android)
+Sometimes when processing a deeplink the `isDeeplinkActive` state wouldn't be cleared. This could cause certain screen to be inaccessible because the wallet would think it's still processing a deeplink and would redirect to user to the home screen to handle the deeplink.
+
+I changed the deeplink handler to be in the rootstack so that the wallet doesn't have to redirect the user to home in order to process a deeplink.
 
 # Related Issues
 
-Resolves #460 
+N/A
 
 # Pull Request Checklist
 
@@ -267,7 +161,114 @@ _PR template adapted from the Python attrs project._
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-28 22:59:00 +0000 UTC
+        Created At 2023-03-09 00:32:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/656" class=".btn">#656</a>
+            </td>
+            <td>
+                <b>
+                    fix: update NotificationListItem to handle different types
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+Refactored `NotificationListItem` to handle the different styling types (error, success, info, warn) and change revocation notifications to use the error type. Also fixed the i18n for `NewRevoked`
+
+Here's what it looks like:
+![revoc_notices](https://user-images.githubusercontent.com/32586431/223882955-40421fc2-950e-4a17-b6b6-b1d8fac4593f.gif)
+
+# Related Issues
+
+N/A
+
+# Pull Request Checklist
+
+Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
+
+- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [x] Updated documentation as needed for changed code and new or modified features;
+- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+Pro Tip 🤓
+
+- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-09 00:21:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/655" class=".btn">#655</a>
+            </td>
+            <td>
+                <b>
+                    fix: updated support for display attributes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+Added support for displaying placeholder attributes. Used for the person credential card screen:
+![image](https://user-images.githubusercontent.com/36937407/223832114-2b07f6c6-09cc-4f23-83e0-3f6614735a93.png)
+
+
+# Related Issues
+
+N/A
+
+# Pull Request Checklist
+
+Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
+
+- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [x] Updated documentation as needed for changed code and new or modified features;
+- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+Pro Tip 🤓
+
+- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-08 19:58:34 +0000 UTC
     </div>
 </div>
 

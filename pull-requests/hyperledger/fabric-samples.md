@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1006" class=".btn">#1006</a>
+            </td>
+            <td>
+                <b>
+                    Update samples to use Fabric v2.5.0-beta2 by default
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update samples to use Fabric v2.5.0-beta2 by default.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-14 20:47:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/1005" class=".btn">#1005</a>
             </td>
             <td>
