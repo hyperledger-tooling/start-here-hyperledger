@@ -15,39 +15,36 @@ permalink: /releases/hyperledger/anoncreds-rs
         <tr>
             <td colspan="2">
                 <b>
-                    v0.1.0-dev.8
+                    v0.1.0-dev.10
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.1.0-dev.9
+                    v0.1.0-dev.10
                 </span>
             </td>
             <td>
                 ## What's Changed
-* fix(js): remove credentialDefinitionId by @blu3beri in https://github.com/hyperledger/anoncreds-rs/pull/114
-* Support combination of revocable / non-revocable credentials and timestamp override by @whalelephant in https://github.com/hyperledger/anoncreds-rs/pull/102
-* fix: issuer id in rev reg def must be the same as the credential def by @blu3beri in https://github.com/hyperledger/anoncreds-rs/pull/119
-* update `ursa` to 0.3.7 by @NicolasDP in https://github.com/hyperledger/anoncreds-rs/pull/124
-* add required entropy instead of optional prover_did by @blu3beri in https://github.com/hyperledger/anoncreds-rs/pull/121
-* fix(js): missing getXXXFromJson methods and several typos by @genaris in https://github.com/hyperledger/anoncreds-rs/pull/130
-* refactor(js)!: use JSON objects in API instead of strings and instances by @genaris in https://github.com/hyperledger/anoncreds-rs/pull/129
-* chore: update versions by @blu3beri in https://github.com/hyperledger/anoncreds-rs/pull/134
+* added currentAccumulator support by @blu3beri in https://github.com/hyperledger/anoncreds-rs/pull/122
+* fix(js): strings in FFI structs and JSON conversion in react native by @genaris in https://github.com/hyperledger/anoncreds-rs/pull/139
+* fix: add support for legacy schema and cred def id by @blu3beri in https://github.com/hyperledger/anoncreds-rs/pull/137
+* chore: update dependencies by @blu3beri in https://github.com/hyperledger/anoncreds-rs/pull/142
+* fix(js): several fixes for js wrapper by @TimoGlastra in https://github.com/hyperledger/anoncreds-rs/pull/131
+* fix(js): defer library loading for nodejs by @genaris in https://github.com/hyperledger/anoncreds-rs/pull/144
+* chore: set version to 0.1.0-dev.10 by @TimoGlastra in https://github.com/hyperledger/anoncreds-rs/pull/140
 
-## New Contributors
-* @NicolasDP made their first contribution in https://github.com/hyperledger/anoncreds-rs/pull/124
 
-**Full Changelog**: https://github.com/hyperledger/anoncreds-rs/compare/v0.1.0-dev.8...v0.1.0-dev.9
+**Full Changelog**: https://github.com/hyperledger/anoncreds-rs/compare/v0.1.0-dev.9...v0.1.0-dev.10
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/anoncreds-rs/releases/tag/v0.1.0-dev.9" class=".btn">
+    <a href="https://github.com/hyperledger/anoncreds-rs/releases/tag/v0.1.0-dev.10" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-03-07 12:58:00 +0000 UTC
+        Created At 2023-03-15 10:34:29 +0000 UTC
     </span>
 </div>
 
