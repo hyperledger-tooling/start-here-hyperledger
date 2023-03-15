@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-signer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-signer/pull/34" class=".btn">#34</a>
+                PR <a href="https://github.com/hyperledger/firefly-signer/pull/36" class=".btn">#36</a>
             </td>
             <td>
                 <b>
-                    Add function to create Transaction object from hex data
+                    adding an option for outbound concurrency control
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-signer
                 
             </td>
             <td>
-                Half finished. Need to figure out how to deal with EIP1559 next.
+                Some blockchain endpoint has a concurrent limit, add an option here to control the number of concurrent requests.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-02 11:07:26 +0000 UTC
+        Created At 2023-03-14 13:47:13 +0000 UTC
     </div>
 </div>
 

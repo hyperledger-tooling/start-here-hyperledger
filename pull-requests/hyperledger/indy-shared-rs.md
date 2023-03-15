@@ -14,11 +14,39 @@ permalink: /pull-requests/hyperledger/indy-shared-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/18" class=".btn">#18</a>
+                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/26" class=".btn">#26</a>
             </td>
             <td>
                 <b>
-                    fix: public cred metadata constructors
+                    (python) Update object finalizers and add keepalives
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Borrows some wrapper updates from aries-askar, and replaces `__del__` magic methods with finalizers.
+
+Fixes #22
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-12 22:09:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/25" class=".btn">#25</a>
+            </td>
+            <td>
+                <b>
+                    Python type hint fixes
                 </b>
             </td>
         </tr>
@@ -32,7 +60,33 @@ permalink: /pull-requests/hyperledger/indy-shared-rs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-08-24 09:35:57 +0000 UTC
+        Created At 2023-03-12 20:20:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-shared-rs/pull/24" class=".btn">#24</a>
+            </td>
+            <td>
+                <b>
+                    Build updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In line with aries-askar and indy-vdr build updates, adding support for the linux/arm64 platform.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-10 19:42:18 +0000 UTC
     </div>
 </div>
 

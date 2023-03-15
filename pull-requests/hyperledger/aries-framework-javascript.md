@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1372" class=".btn">#1372</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1383" class=".btn">#1383</a>
             </td>
             <td>
                 <b>
-                    fix(askar): custom error handling
+                    fix: connection id in sessions for new connections
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                Signed-off-by: Timo Glastra <timo@animo.id>
+                When a message for a connection request (either for DID Exchange or Connection protocol) is received, a session is created without any connection id associated to it (as it is not created yet).
+
+If the party requesting a connection does not have a public endpoint (e.g. a edge agent connecting to a mediator) and the responder does not have `autoAcceptConnections` enabled, it will not associate this session to the newly created connection, forcing any call to `agent.connections.acceptRequest` to queue the messages, even if the transport used allows a persistent connection (typical case for WebSockets).
+
+So here what we do is simply to associate the connection to the session as soon as it is created. At the moment I don't see any drawback of this strategy but will be happy to hear any situation where this could represent a problem.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-07 13:28:18 +0000 UTC
+        Created At 2023-03-14 23:00:06 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +44,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1370" class=".btn">#1370</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1382" class=".btn">#1382</a>
             </td>
             <td>
                 <b>
-                    feat: add oob proof proposal
+                    chore: fix example usage of indy-sdk-react-native package to show correct usage
                 </b>
             </td>
         </tr>
@@ -53,12 +57,12 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                <nil>
+                Just cosmetic fix. But can be misleading, so best to fix
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-07 06:53:09 +0000 UTC
+        Created At 2023-03-14 18:51:25 +0000 UTC
     </div>
 </div>
 
@@ -66,11 +70,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1369" class=".btn">#1369</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1381" class=".btn">#1381</a>
             </td>
             <td>
                 <b>
-                    feat: add support for queries by credential attribute value and marker
+                    feat: basic message pthid/thid support
                 </b>
             </td>
         </tr>
@@ -79,14 +83,15 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                The PR implements the support for queries by credential attribute presence and value
+                This is something we are using to keep track of the actual id of messages related to `BasicMessageRecord` and to provide a way to relate a message to another (or another ones), giving the possibility of doing a sort of `message reply` without actually defining a new protocol but using an intrinsic feature of DIDComm messaging.
 
-**work funded by the Government of Ontario**
+I'd like to refactor `basic-messages` module to align with others (such as `proofs` and `discover-features`) and to make it adaptable to V2 protocol, but didn't want to introduce more breaking changes before releasing 0.4.0, so I simply added `parentThreadId` as an optional parameter for now.
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-06 19:31:28 +0000 UTC
+        Created At 2023-03-14 15:18:44 +0000 UTC
     </div>
 </div>
 
@@ -94,11 +99,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1367" class=".btn">#1367</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1378" class=".btn">#1378</a>
             </td>
             <td>
                 <b>
-                    fix(anoncreds): Buffer not imported from core
+                    fix: remove named capture groups
                 </b>
             </td>
         </tr>
@@ -107,12 +112,14 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                Subtle omission that was causing `encodeCredentialValue` to fail under React Native.
+                named capture groups are only supported in more recent versions of hermes
+
+It was of course stupid from me to assume regexes would be fully supported by hermes 🙃 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-04 23:21:03 +0000 UTC
+        Created At 2023-03-11 14:16:26 +0000 UTC
     </div>
 </div>
 
@@ -120,11 +127,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1362" class=".btn">#1362</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1377" class=".btn">#1377</a>
             </td>
             <td>
                 <b>
-                    feat(indy-vdr)!: extend did:indy support
+                    feat(askar): import/export wallet support for SQLite
                 </b>
             </td>
         </tr>
@@ -133,22 +140,18 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                Same changes as in #1347, but now for indy-vdr.
+                Add support for wallet export and import by copying sqlite file and executing a key rotation to the one specified in the `WalletExportImportConfig` object. Similarly, when importing the wallet it will copy the origin file to the expected directory according to wallet id and do a rekey to the key specified.
 
-It updates the anoncreds registry to support both legacy and did:indy identifiers.
+In addition, there are a few tweaks and fixes for things I found during testing such as: 
 
-There's one issue that needs to be resolved, but I'd like to do that in a separate PR, is that currently the code isn't set up in a way yet that we support using both did:indy and legacy identifiers in anoncreds for _issuance_. As the holder and verifier only do resolving, it works with both now. 
-
-What still needs to be done:
-- when a credential with legacy identifiers or vice versa is received, allow it to be shared as the other format. I want to store all credentials using the new did:indy identifiers, and we can optionally transform the identifiers to legacy when needed (in the credential/proof format services)
-- creating an offer for legacy format as the record always stores using the did:indy format. I'd also like to handle this in the format services, so the storage / issuer/holder/verifier services always use the new formats. 
-
-
+- Key object handles clearing in pack/unpack and key creation/signing/verification methods
+- Check wallet database file is created before (not sure why, but Askar is not throwing Duplicate error in `Store.provision` when wallet exists). This only works for SQLite but it's better than nothing
+- Use key derivation based in argon2 Int if nothing specified, as it's the default in Indy SDK AFAIK
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-02 13:26:35 +0000 UTC
+        Created At 2023-03-08 22:23:12 +0000 UTC
     </div>
 </div>
 
@@ -156,11 +159,11 @@ What still needs to be done:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1361" class=".btn">#1361</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1375" class=".btn">#1375</a>
             </td>
             <td>
                 <b>
-                    test: various improvements
+                    test: increase timeout to 120 seconds
                 </b>
             </td>
         </tr>
@@ -169,15 +172,12 @@ What still needs to be done:
                 
             </td>
             <td>
-                This PR adds a few improvements to the test setup that should hopefully prevent timeouts, but also make sure we test the askar setup:
-- only run askar related tests in node18
-- add ref-napi resolution in node18
-- increase timeout for some packages that often timeout
+                Github action runners are slow as fuck, so I've just increased them all to 2 minutes now.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-02 13:08:41 +0000 UTC
+        Created At 2023-03-08 13:04:48 +0000 UTC
     </div>
 </div>
 
@@ -185,11 +185,11 @@ What still needs to be done:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1359" class=".btn">#1359</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1374" class=".btn">#1374</a>
             </td>
             <td>
                 <b>
-                    fix(tenant): Correctly configure storage for multi tenant agents
+                    feat(anoncreds): use legacy prover did
                 </b>
             </td>
         </tr>
@@ -198,12 +198,18 @@ What still needs to be done:
                 
             </td>
             <td>
-                Fixes hyperledger/aries-framework-javascript#1353
+                Adds `useLegacyProverDid` flag for credential request creation, which is always set when dealing with legacy indy identifiers. Some checks were added in `LegacyIndyCredentialFormatService` to make sure we are using legacy ones.
+
+When using IndySdk, only legacy prover_did can be used, while in AnonCredsRs through this flag we can select between prover_did and entropy, unless we are using new identifiers where only entropy can be generated.
+
+This currently makes break a test in anoncreds-rs package because it seems that, in the underlying library, entropy is required even if passing legacy identifiers.
+
+Depends on a fix for entropy handling in `anoncreds-rs` (to be released in v0.1.0-dev10)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-02 12:36:10 +0000 UTC
+        Created At 2023-03-08 12:41:08 +0000 UTC
     </div>
 </div>
 

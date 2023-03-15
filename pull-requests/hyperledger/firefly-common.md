@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/49" class=".btn">#49</a>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/50" class=".btn">#50</a>
             </td>
             <td>
                 <b>
-                    Add getter for DB provider features struct field
+                    Add configuration option to allow TLS cert verification to be disabled
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-common
                 
             </td>
             <td>
-                Looking into issue https://github.com/hyperledger/firefly/issues/1196 (now spun out into https://github.com/hyperledger/firefly/issues/1199) it appears that the `features` struct field is no longer visible to users of the package. Adding a getter in a similar way to the existing `ConnLimit()` getter makes the field accessible to read.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-28 15:24:24 +0000 UTC
+        Created At 2023-03-08 08:17:39 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/238" class=".btn">#238</a>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/244" class=".btn">#244</a>
             </td>
             <td>
                 <b>
-                    Remove deprecated global node config
+                    Add Fabric option for a global (channel-wide) batch pin listener
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/firefly-cli
                 
             </td>
             <td>
-                Signed-off-by: Nicko Guyer <nicko.guyer@kaleido.io>
+                Part of [FIR-17](https://github.com/hyperledger/firefly-fir/pull/17)
+Required by https://github.com/hyperledger/firefly/pull/1213
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-27 19:11:15 +0000 UTC
+        Created At 2023-03-09 00:39:34 +0000 UTC
     </div>
 </div>
 

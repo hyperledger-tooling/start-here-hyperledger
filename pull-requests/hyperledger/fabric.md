@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4090" class=".btn">#4090</a>
+            </td>
+            <td>
+                <b>
+                    Release commit for v2.5.0-beta2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update docs and release notes for v2.5.0-beta2.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-14 19:29:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4089" class=".btn">#4089</a>
             </td>
             <td>

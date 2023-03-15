@@ -31,16 +31,16 @@ permalink: /pull-requests/hyperledger/besu
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Acceptance Tests (Non Mainnet)
 
-- [ ] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
+- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -96,7 +96,7 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 <b>
-                    [MINOR] updated some RPC ATs to junit5
+                    [MINOR] junit5 for RPC ATs
                 </b>
             </td>
         </tr>
@@ -344,32 +344,6 @@ Add an acceptance test to verify that default logging is at least INFO.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5199" class=".btn">#5199</a>
-            </td>
-            <td>
-                <b>
-                    Replace streamMilestoneBlocks with getScheduledProtocolSpecs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                WIP
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-10 00:40:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5198" class=".btn">#5198</a>
             </td>
             <td>
@@ -391,7 +365,7 @@ I ideally want to remove this method completely and may follow up with another P
 # Testing
 
 - [x] Added/modified unit tests to ensure these changes were covered
-- [ ] 2x sepolia syncs
+- [x] 2x sepolia syncs
 - [ ] RunnerBuilder: run a network through a block number and also timestamp fork to ensure the node record is updated correctly - forkId should change in peering logs.
 - [ ] TransitionPoolFactory: Create some txs with a known sort order and ensure that the BaseFee vs GasPrice sorting order is respected pre/post London and also post-Shanghai.
             </td>
@@ -764,132 +738,6 @@ This is preparatory for GraalVM compilation of EVMTool as it doesn't play well w
     </table>
     <div class="right-align">
         Created At 2023-03-08 21:50:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5188" class=".btn">#5188</a>
-            </td>
-            <td>
-                <b>
-                    Post 23.1.1 update changelog
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-update changelog with download links and new block for 23.1.2-SNAPSHOT
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Acceptance Tests (Non Mainnet)
-
-- [ ] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-07 23:59:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5187" class=".btn">#5187</a>
-            </td>
-            <td>
-                <b>
-                    Fix flaky engine api acceptance test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span><span class="chip">EIP</span>
-            </td>
-            <td>
-                Assert on objects but use prettyString for failure message
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-07 23:38:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5186" class=".btn">#5186</a>
-            </td>
-            <td>
-                <b>
-                    Prepare for version 23.1.2-SNAPSHOT
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Prepare for version 23.1.2-SNAPSHOT
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-07 23:10:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5185" class=".btn">#5185</a>
-            </td>
-            <td>
-                <b>
-                    Release 23.1.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Release 23.1.1
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-07 21:49:50 +0000 UTC
     </div>
 </div>
 
