@@ -14,25 +14,25 @@ permalink: /pull-requests/hyperledger/grid
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid/pull/1468" class=".btn">#1468</a>
+                PR <a href="https://github.com/hyperledger/grid/pull/1471" class=".btn">#1471</a>
             </td>
             <td>
                 <b>
-                    Remove RocketChat
+                    Move Grid to EOL
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">backport-triage</span><span class="chip">main</span>
+                
             </td>
             <td>
-                <nil>
+                [Pending vote](https://github.com/hyperledger/toc/issues/82)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-01 16:20:35 +0000 UTC
+        Created At 2023-03-15 15:43:07 +0000 UTC
     </div>
 </div>
 

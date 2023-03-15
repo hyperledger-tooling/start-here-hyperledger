@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1008" class=".btn">#1008</a>
+            </td>
+            <td>
+                <b>
+                    Bump couchdb to 3.2.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bump couchdb to 3.2.2.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-15 15:42:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1007" class=".btn">#1007</a>
+            </td>
+            <td>
+                <b>
+                    Add debug logging to CI scripts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add debug logging to CI scripts.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-15 15:05:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/1006" class=".btn">#1006</a>
             </td>
             <td>
