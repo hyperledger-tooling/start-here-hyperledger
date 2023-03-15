@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5218" class=".btn">#5218</a>
+                PR <a href="https://github.com/hyperledger/besu/pull/5221" class=".btn">#5221</a>
             </td>
             <td>
                 <b>
-                    IGNORE - Squash test
+                    Remove getbyblocknumber from flexibleprivacyprecompiledcontract
                 </b>
             </td>
         </tr>
@@ -52,7 +52,68 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-15 05:45:32 +0000 UTC
+        Created At 2023-03-15 12:26:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5220" class=".btn">#5220</a>
+            </td>
+            <td>
+                <b>
+                    add register useless response to multiple tasks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">peering</span>
+            </td>
+            <td>
+                ## PR description
+Some of the tasks in Besu, especially the Snapsync ones, did not register a useless response when necessary. When a specific number of useless reponses have been registered against an EthPeer within a certain time, the EthPeer is disconnected.
+Without this mechanism it is possible that Besu is looping through useless peers for a long time.
+With the change, useless peers will be disconnected, which makes room for Besu to find new, hopefully useful, peers.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-15 07:29:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5219" class=".btn">#5219</a>
+            </td>
+            <td>
+                <b>
+                    Add links to PRs in changelog
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Reviewing the changelog I think it's nice to have clickable links to faster get to the PRs I might wanna review more in detail
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-15 07:27:13 +0000 UTC
     </div>
 </div>
 
@@ -459,14 +520,15 @@ Add an acceptance test to verify that default logging is at least INFO.
                 Fixes #5163 
 
 Replace usages of streamMilestoneBlocks on production code paths: RunnerBuilder and TransactionPoolFactory.
-I ideally want to remove this method completely and may follow up with another PR, but the method is currently quite useful for some unit tests.
+These usages were also using getBlockByNumber which is ultimately what we're trying to remove.
+I ideally want to remove this method completely and may follow up with another PR, but the method is currently quite useful for some unit tests. I am considering making streamMilestoneBlocks test-only scope but will do in another PR.
 
 # Testing
 
 - [x] Added/modified unit tests to ensure these changes were covered
 - [x] 2x sepolia syncs
-- [ ] RunnerBuilder: run a network through a block number and also timestamp fork to ensure the node record is updated correctly - forkId should change in peering logs.
-- [ ] TransitionPoolFactory: Create some txs with a known sort order and ensure that the BaseFee vs GasPrice sorting order is respected pre/post London and also post-Shanghai.
+- [x] RunnerBuilder: run a network through a block number and also timestamp fork to ensure the node record is updated correctly - e.g. forkId should change in peering logs.
+- [x] TransitionPoolFactory: Ensure that the BaseFee vs GasPrice sorting order is respected pre/post London and also post-Shanghai. (This is working the same as it was before my change, have asked if it's a bug or not below)
             </td>
         </tr>
     </table>
