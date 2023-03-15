@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/grid-contrib
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/grid-contrib/pull/33" class=".btn">#33</a>
+                PR <a href="https://github.com/hyperledger/grid-contrib/pull/34" class=".btn">#34</a>
             </td>
             <td>
                 <b>
-                    Move inactive maintainers to emeritus status
+                    Move Grid to EOL
                 </b>
             </td>
         </tr>
@@ -27,21 +27,12 @@ permalink: /pull-requests/hyperledger/grid-contrib
                 
             </td>
             <td>
-                The TOC approved a requirement that maintainers
-that have not been active in over three to six
-months be move to emeritus status.
-
-These maintainers have not been active in over
-one year.
-
-hyperledger/toc#32
-
-Signed-off-by: Ry Jones <ry@linux.com>
+                [Pending vote](https://github.com/hyperledger/toc/issues/82)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-18 20:39:59 +0000 UTC
+        Created At 2023-03-15 15:42:49 +0000 UTC
     </div>
 </div>
 

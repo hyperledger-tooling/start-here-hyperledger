@@ -31,19 +31,22 @@ permalink: /pull-requests/hyperledger/besu
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+This PR aims to remove the usage of getByBlockNumber from the FlexiblePrivacyPrecompiledContract. As far as analysis shows the only requirement is to get a protocolSpec (it doesn't matter which one) currently it always fetches the protocolSpec for block number 1 which can vary according to the network config. We're changing that get the protocolSpec for block 0 which is the only block we always have the header.
+This PR still a WIP at this stage need confirmation and a good test to prove that this does not introduce any regression
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
+Fixes #5160 
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Acceptance Tests (Non Mainnet)
 
-- [ ] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
+- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
 
 ## Changelog
 

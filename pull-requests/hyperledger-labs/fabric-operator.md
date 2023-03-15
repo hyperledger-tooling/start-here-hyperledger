@@ -14,32 +14,6 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/104" class=".btn">#104</a>
-            </td>
-            <td>
-                <b>
-                    Do not Merge Just Debug 2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Abirdcfly <fp544037857@gmail.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-15 01:45:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/103" class=".btn">#103</a>
             </td>
             <td>
@@ -63,32 +37,6 @@ Close #104
     </table>
     <div class="right-align">
         Created At 2023-03-15 01:44:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/102" class=".btn">#102</a>
-            </td>
-            <td>
-                <b>
-                    Do not Merge Just Debug.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-15 01:28:55 +0000 UTC
     </div>
 </div>
 
