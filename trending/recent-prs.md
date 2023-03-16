@@ -1,13 +1,13 @@
 
+[180](https://github.com/hyperledger/fabric-sdk-py/pull/180) docs: Fixing small mistakes in tutorial
+
+[1803](https://github.com/hyperledger/indy-node/pull/1803) Test automation integration
+
+[129](https://github.com/hyperledger/indy-test-automation/pull/129) GHA definition & dockerfile for node test integration
+
+[5228](https://github.com/hyperledger/besu/pull/5228) Reference Test v12
+
 [150](https://github.com/hyperledger/iroha-javascript/pull/150) Release SDK for `pre-rc.13`
-
-[4092](https://github.com/hyperledger/fabric/pull/4092) Revise typo at the line number 257
-
-[5226](https://github.com/hyperledger/besu/pull/5226) junit 5 for util tests
-
-[5225](https://github.com/hyperledger/besu/pull/5225) [GHA] Checklist action
-
-[5224](https://github.com/hyperledger/besu/pull/5224) Add getForNextBlockHeader to protocol schedule
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
