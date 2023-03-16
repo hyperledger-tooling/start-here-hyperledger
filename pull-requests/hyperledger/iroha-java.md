@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/iroha-java
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/312" class=".btn">#312</a>
-            </td>
-            <td>
-                <b>
-                    [docs]: Update comments for doc snippets
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR is needed for https://github.com/hyperledger/iroha-2-docs/pull/278
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-09 09:31:35 +0000 UTC
-    </div>
-</div>
-
