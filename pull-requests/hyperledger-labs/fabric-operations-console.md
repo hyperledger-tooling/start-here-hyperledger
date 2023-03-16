@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/419" class=".btn">#419</a>
+            </td>
+            <td>
+                <b>
+                    Prevent migration spin
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+Prevent migration status checking/monitoring from spinner in place forever.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-15 20:50:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/418" class=".btn">#418</a>
             </td>
             <td>
@@ -364,41 +399,6 @@ Added migration warning text to the migration information panel.
     </table>
     <div class="right-align">
         Created At 2023-03-10 20:31:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/410" class=".btn">#410</a>
-            </td>
-            <td>
-                <b>
-                    Allow saas consoles to test password strength
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-The test password strength api should work on saas consoles in prod.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-08 23:58:50 +0000 UTC
     </div>
 </div>
 

@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    [fix] #3249: Introduce `PerfectBlockHash` (as in finished).
+                    [fix] #3249: Introduce FinishedBlockHash. A hash that includes signatures.
                 </b>
             </td>
         </tr>
