@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5228" class=".btn">#5228</a>
+            </td>
+            <td>
+                <b>
+                    Reference Test v12
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Upgrade reference tests to v12.
+* Extend the UncleFromSideChain exception to all future forks
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-16 14:08:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5226" class=".btn">#5226</a>
             </td>
             <td>
@@ -686,126 +713,6 @@ All of the tracing endpoints are modified:
     </table>
     <div class="right-align">
         Created At 2023-03-09 21:18:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5196" class=".btn">#5196</a>
-            </td>
-            <td>
-                <b>
-                    (WIP) EIP-6110: Add deposit validation and apis
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Add deposit validation and related apis. This PR depends on PR #5055. Work is still in progress please do not review.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-#5044 
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Acceptance Tests (Non Mainnet)
-
-- [ ] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-09 15:55:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5195" class=".btn">#5195</a>
-            </td>
-            <td>
-                <b>
-                    Remove getByBlockNumber from dao classic specs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-This PR removes getByBlockNumber from the ProtocolScheduleBuilder using the existing builders to fetch the original Spec for the blocks where the Dao/Classic fork will be inserted.
-
-This PR has successfully generated the same ProtocolSchedules for Sepolia/Goerli and Mainnet. 
-Samples:
-- Sepolia
-`2023-03-10 16:42:13.691+11:00 | main | INFO  | AbstractProtocolScheduleBuilder | Protocol schedule created with milestones: [London: 0, ParisFork: 1735371]
-2023-03-10 16:42:13.695+11:00 | main | INFO  | AbstractProtocolScheduleBuilder | Protocol schedule created with milestones: [Shanghai: 1677557088]`
-- Goerli
-`2023-03-10 16:47:02.803+11:00 | main | INFO  | AbstractProtocolScheduleBuilder | Protocol schedule created with milestones: [Petersburg: 0, Istanbul: 1561651, Berlin: 4460644, London: 5062605]
-2023-03-10 16:47:02.807+11:00 | main | INFO  | AbstractProtocolScheduleBuilder | Protocol schedule created with milestones: [Shanghai: 1678832736]
-`
-- Mainnet
-`2023-03-10 16:41:05.327+11:00 | main | INFO  | AbstractProtocolScheduleBuilder | Protocol schedule created with milestones: [Frontier: 0, Homestead: 1150000, DaoRecoveryInit: 1920000, DaoRecoveryTransition: 1920001, Homestead: 1920010, TangerineWhistle: 2463000, SpuriousDragon: 2675000, Byzantium: 4370000, Petersburg: 7280000, Istanbul: 9069000, MuirGlacier: 9200000, Berlin: 12244000, London: 12965000, ArrowGlacier: 13773000, GrayGlacier: 15050000]
-`
-- Classic
-`2023-03-10 16:39:19.567+11:00 | main | INFO  | AbstractProtocolScheduleBuilder | Protocol schedule created with milestones: [Frontier: 0, Homestead: 1150000, ClassicRecoveryInit: 1920000, Homestead: 1920001, TangerineWhistle: 2500000, DieHard: 3000000, Gotham: 5000000, DefuseDifficultyBomb: 5900000, Atlantis: 8772000, Agharta: 9573000, Phoenix: 10500839, Thanos: 11700000, Magneto: 13189133, Mystique: 14525000]
-`
-
-PR has also successfully synced:
-- [x] Sepolia
-- [x] Goerli
-- [x] Mainnet
-- [x] Ethereum Classic (by @diega )
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Fixes #5161
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Acceptance Tests (Non Mainnet)
-
-- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-09 12:54:36 +0000 UTC
     </div>
 </div>
 
