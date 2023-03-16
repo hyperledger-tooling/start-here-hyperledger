@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/149" class=".btn">#149</a>
+            </td>
+            <td>
+                <b>
+                    Update Iroha ReadTheDocs links in README.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-15 20:41:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-javascript/pull/148" class=".btn">#148</a>
             </td>
             <td>
