@@ -14,6 +14,54 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4092" class=".btn">#4092</a>
+            </td>
+            <td>
+                <b>
+                    Revise typo at the line number 257
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Documentation update
+
+#### Description
+
+Revise typo at the line number 257
+
+From
+> "However, **we we** can use this temporary disagreement.." 
+
+To
+> "However, **we** can use this temporary disagreement.."
+
+#### Additional details
+
+Remove a repeated word
+
+#### Related issues
+
+https://hyperledger-fabric.readthedocs.io/en/release-2.5/secured_asset_transfer/secured_private_asset_transfer_tutorial.html#agree-to-buy-as-org2
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-16 07:03:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4090" class=".btn">#4090</a>
             </td>
             <td>
