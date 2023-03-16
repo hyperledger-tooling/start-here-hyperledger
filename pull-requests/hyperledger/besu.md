@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5225" class=".btn">#5225</a>
+            </td>
+            <td>
+                <b>
+                    [GHA] Checklist action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This GHA will add the checklist that's currently in the PR template, as a comment, on newly opened PRs. 
+
+Because it needs write access (to add the comment), it needs to run on the `pull_request_target` action, which means you won't see the outcome on _this_ PR, but only once it's merged in, you'll see it on subsequent PRs - example - https://github.com/daisy-row/vigilant-octo-umbrella/pull/51
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-16 02:17:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5224" class=".btn">#5224</a>
             </td>
             <td>
@@ -39,16 +67,16 @@ Add getForNextBlockHeader to protocol schedule
 
 ## Documentation
 
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
+- [x] I thought about documentation and added the `doc-change-required` label to this PR if
     [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
 
 ## Acceptance Tests (Non Mainnet)
 
-- [ ] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
+- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -79,7 +107,6 @@ Add getForNextBlockHeader to protocol schedule
 
 ## PR description
 This PR aims to remove the usage of getByBlockNumber from the FlexiblePrivacyPrecompiledContract. As far as analysis shows the only requirement is to get a protocolSpec (it doesn't matter which one) currently it always fetches the protocolSpec for block number 1 which can vary according to the network config. We're changing that get the protocolSpec for block 0 which is the only block we always have the header.
-This PR still a WIP at this stage need confirmation and a good test to prove that this does not introduce any regression
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -97,7 +124,7 @@ Fixes #5160
 
 ## Changelog
 
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
+- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -316,19 +343,6 @@ IBM has [introduced](https://developer.ibm.com/blogs/introducing-the-ibm-semeru-
             </td>
             <td>
                 Updated to junit 5 for non-parameterized tests
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Acceptance Tests (Non Mainnet)
-
-- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
             </td>
         </tr>
     </table>
@@ -824,53 +838,6 @@ Removed some deprecated EF bootnodes. The same nodes have been removed on geth: 
     </table>
     <div class="right-align">
         Created At 2023-03-09 08:40:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5193" class=".btn">#5193</a>
-            </td>
-            <td>
-                <b>
-                    Parse t8n command txs properly
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-When receiving transactions from a file parse them as an RLP list.
-
-## Fixed Issue(s)
-fixes #5190 
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Acceptance Tests (Non Mainnet)
-
-- [ ] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-09 01:49:27 +0000 UTC
     </div>
 </div>
 
