@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3547" class=".btn">#3547</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3549" class=".btn">#3549</a>
             </td>
             <td>
                 <b>
-                    feat: PresentationDefinition API improvements:
+                    chore: Remove test without loader for domain linkage
                 </b>
             </td>
         </tr>
@@ -27,13 +27,17 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 
             </td>
             <td>
-                - CreateVP methods set VP IDs
-- Match supports merged submission map[string]interface{} and VP submission fields of PresentationSubmission type.
+                This test is accessing remote URL, and it is often failing in CI.
+
+Closes #3548
+
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-07 17:19:22 +0000 UTC
+        Created At 2023-03-17 15:08:01 +0000 UTC
     </div>
 </div>
 

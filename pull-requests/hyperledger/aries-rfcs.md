@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/769" class=".btn">#769</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/776" class=".btn">#776</a>
             </td>
             <td>
                 <b>
-                    fix: update versions in indexgenerate
+                    RFC 0771: 'cred' to 'credential' in identifiers
                 </b>
             </td>
         </tr>
@@ -27,64 +27,12 @@ permalink: /pull-requests/hyperledger/aries-rfcs
                 
             </td>
             <td>
-                Primarily updating version of Node/Node dependencies in indexgenerate flow
+                Fix a few typos in identifiers (cred-filter -> credential-filter and cred-request -> credential-request) to be consistent with the rest of the document.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-16 16:27:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/768" class=".btn">#768</a>
-            </td>
-            <td>
-                <b>
-                    Proposed LegacyPeer DID Method
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-15 03:35:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/767" class=".btn">#767</a>
-            </td>
-            <td>
-                <b>
-                    [AUTO] Update Index
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update Index
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-10 15:12:36 +0000 UTC
+        Created At 2023-03-17 17:44:29 +0000 UTC
     </div>
 </div>
 

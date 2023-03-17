@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1010" class=".btn">#1010</a>
+            </td>
+            <td>
+                <b>
+                    Add in examples and notes on using PurgePrivateData
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Update the configtx.yaml to enable the 2.5 capabillity
+- Added purge into the chaincode
+- Added purge into the application client code.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-17 14:02:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/1009" class=".btn">#1009</a>
             </td>
             <td>
