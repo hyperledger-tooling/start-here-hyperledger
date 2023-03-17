@@ -90,29 +90,3 @@ https://doc.rust-lang.org/std/collections/struct.LinkedList.html
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1218" class=".btn">#1218</a>
-            </td>
-            <td>
-                <b>
-                    improve resolve pragma
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-10 08:20:42 +0000 UTC
-    </div>
-</div>
-
