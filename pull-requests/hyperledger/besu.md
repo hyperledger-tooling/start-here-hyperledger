@@ -169,11 +169,23 @@ Because it needs write access (to add the comment), it needs to run on the `pull
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-Add getForNextBlockHeader to protocol schedule
+Replace usages of ProtocolSchedule.getForBlockNumber that are being used for the next block by adding a getForNextBlockHeader method.
+
+* Adds a getForNextBlockHeader method to the HeaderBasedProtocolSchedule
+* Fixes a bug using the UnsignedIntParameter in RPC methods, this was causing the eth_feeHistory RPC to fail 
+
+### Testing
+- [x] Sync on Goerli
+- [ ] Sync on mainnet
+- [x] Besu and Teku on a local interop network using Shanghai
+- [x] QBFT single validator node
+- [x] EthHash single node
+- [x] Manual testing of the eth_feeHistory
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
+fixes #5159 
 
 ## Documentation
 
