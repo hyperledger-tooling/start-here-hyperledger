@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/indy-test-automation
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/128" class=".btn">#128</a>
-            </td>
-            <td>
-                <b>
-                    fixed dockerfile reference
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-10 13:27:06 +0000 UTC
-    </div>
-</div>
-

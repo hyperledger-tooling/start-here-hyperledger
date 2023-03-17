@@ -27,9 +27,7 @@ permalink: /pull-requests/hyperledger/ursa
                 
             </td>
             <td>
-                Erigara's last activity was a comment on 2023-01-19
-
-mac-arrap's last activity was 2022-04-29
+                mac-arrap's last activity was 2022-04-29
             </td>
         </tr>
     </table>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-chaincode-ocaml
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-chaincode-ocaml/pull/2" class=".btn">#2</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-chaincode-ocaml/pull/5" class=".btn">#5</a>
             </td>
             <td>
                 <b>
-                    [Draft] Handle that receive_message can end without message
+                    Add example with external launcher
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-chaincode-ocaml
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-15 11:27:03 +0000 UTC
+        Created At 2023-03-17 15:13:59 +0000 UTC
     </div>
 </div>
 
