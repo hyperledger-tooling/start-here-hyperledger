@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5233" class=".btn">#5233</a>
+            </td>
+            <td>
+                <b>
+                    [GHA] actions not required on merge group
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Don't run not-required actions on merge_group
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-17 08:57:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5232" class=".btn">#5232</a>
+            </td>
+            <td>
+                <b>
+                    Mainnet ATs - reduce parallelism
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Reduce parallelism to 4
+
+Occasionally seeing this error on 1 of the 6 runners `No tests found for given includes`
+Because for the parallelism, we're still passing all the AT classes into the splitter, it is possible that none of them match eg
+https://app.circleci.com/pipelines/github/hyperledger/besu/21077/workflows/d91f36d9-7103-44c0-887a-46430e0331b9/jobs/129673/parallel-runs/1?filterBy=FAILED
+
+Alternative to #5231 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-17 08:50:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5231" class=".btn">#5231</a>
             </td>
             <td>
