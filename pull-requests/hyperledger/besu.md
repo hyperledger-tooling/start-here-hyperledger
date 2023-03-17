@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5231" class=".btn">#5231</a>
+            </td>
+            <td>
+                <b>
+                    remove parallelism from AT task
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This task is now only taking 3 minutes with parallelism at 6. If it takes less than unit tests without parallelism there's no need. 
+
+Occasionally seeing this error on 1 of the 6 runners `No tests found for given includes` 
+Because for the parallelism, we're still passing all the AT classes into the splitter, it is possible that none of them match
+https://app.circleci.com/pipelines/github/hyperledger/besu/21077/workflows/d91f36d9-7103-44c0-887a-46430e0331b9/jobs/129673/parallel-runs/1?filterBy=FAILED
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-16 20:51:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5230" class=".btn">#5230</a>
+            </td>
+            <td>
+                <b>
+                    Schedule shanghaiTime for Mainnet and configure forkId for tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                🦉 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-16 19:27:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5228" class=".btn">#5228</a>
             </td>
             <td>
@@ -604,115 +661,6 @@ Add an acceptance test to verify that default logging is at least INFO.
     </table>
     <div class="right-align">
         Created At 2023-03-12 04:37:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5198" class=".btn">#5198</a>
-            </td>
-            <td>
-                <b>
-                    Replace ProtocolSchedule.streamMilestoneBlocks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #5163 
-
-Replace usages of streamMilestoneBlocks on production code paths: RunnerBuilder and TransactionPoolFactory.
-These usages were also using getBlockByNumber which is ultimately what we're trying to remove.
-I ideally want to remove this method completely and may follow up with another PR, but the method is currently quite useful for some unit tests. I am considering making streamMilestoneBlocks test-only scope but will do in another PR.
-
-# Testing
-
-- [x] Added/modified unit tests to ensure these changes were covered
-- [x] 2x sepolia syncs
-- [x] RunnerBuilder: run a network through a block number and also timestamp fork to ensure the node record is updated correctly - e.g. forkId should change in peering logs.
-- [x] TransitionPoolFactory: Ensure that the BaseFee vs GasPrice sorting order is respected pre/post London and also post-Shanghai. (This is working the same as it was before my change, have asked if it's a bug or not below)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-09 22:47:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5197" class=".btn">#5197</a>
-            </td>
-            <td>
-                <b>
-                    Feature/minimal safe tracing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-cherry-pick and rebase on main of #5183 
-
-The existing implementation of BlockchainQueries gets a worldstate from the worldstatearchive only during the query.  But in case of tracing, several endpoints reference the worldstate indirectly via the updater to generate the response.  This is not a problem for forest mode storage, but bonsai and specifically bonsai snapshot worldstates "close" after use in BlockchainQueries.  
-
-Closing the worldstate after the trace, but before the response has been formed creates a race which can lead to a segfault.  If there is an attempt to access the snapshot worldstate after it has been released (like while generating the trace response) a segfault will occur.  
-
-This PR changes all of the tracing endpoints to keep open a worldstate for the duration of tracing and response generation.  
-
-All of the tracing endpoints are modified:
-* trace_get
-* trace_transaction
-* debug_accountAt
-* debug_standardTraceBlockToFile  
-* debug_traceTransaction
-* trace_block
-* trace_callMany
-* trace_replayBlockTransactions
-
-* debug_accountRange (not implemented for bonsai)
-* debug_storageRangeAt (not implemented for bonsai)
-* eth_getProof (not implemented for bonsai)
-
-* debug_traceBlock (times out on mainnet, see #5131)
-* debug_traceBlockByHash (times out on mainnet, see #5131)
-* debug_traceBlockByNumber (times out on mainnet, see #5131)
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Acceptance Tests (Non Mainnet)
-
-- [ ] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-09 21:18:16 +0000 UTC
     </div>
 </div>
 

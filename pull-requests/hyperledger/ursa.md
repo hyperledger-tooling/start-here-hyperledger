@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/ursa
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/ursa/pull/228" class=".btn">#228</a>
+                PR <a href="https://github.com/hyperledger/ursa/pull/229" class=".btn">#229</a>
             </td>
             <td>
                 <b>
-                    make accum public
+                    Update MAINTAINERS.md: Move people to Emeritus
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/ursa
                 
             </td>
             <td>
-                This is required for anoncreds-rs as we use a different name for the key, [spec](https://hyperledger.github.io/anoncreds-spec/#creating-the-initial-revocation-status-list-object). Making it public makes sure we can just rename it easily, but this does not create a breaking change.
+                Erigara's last activity was a comment on 2023-01-19
+
+mac-arrap's last activity was 2022-04-29
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-28 12:39:26 +0000 UTC
+        Created At 2023-03-16 20:49:33 +0000 UTC
     </div>
 </div>
 
