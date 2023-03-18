@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/520" class=".btn">#520</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/522" class=".btn">#522</a>
             </td>
             <td>
                 <b>
-                    Allow deleting node w/o docker container
+                    Fix m1 Support Issue in #521
                 </b>
             </td>
         </tr>
@@ -27,18 +27,13 @@ permalink: /pull-requests/hyperledger/cello
                 
             </td>
             <td>
-                Before, trying to delete a node with no active docker container
-
-will cause ResourceNotFound error, and the node data in database
-
-can't be removed. Now before stopping and deleting docker containers,
-
-check if it exists or not. If not exists, delete the node from database directly.
+                If current arch is arm64, use docker platform linux/amd64, 
+still use linux/$(ARCH) platform for all other arches.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-17 14:32:02 +0000 UTC
+        Created At 2023-03-18 03:18:09 +0000 UTC
     </div>
 </div>
 
