@@ -401,39 +401,3 @@ Added migration warning text to the migration information panel.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/411" class=".btn">#411</a>
-            </td>
-            <td>
-                <b>
-                    handle req body size errors correctly
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-- bump request limit from 25MB to 100MB for fabric related apis
-- adds logs when requests are terminated b/c of their size, actually it will log any body parser failure
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-10 20:31:15 +0000 UTC
-    </div>
-</div>
-
