@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha
             </td>
             <td>
                 <b>
-                    [feature] #2097: Store aseet-registering transactions
+                    [feature] #2097: Store asset-registering transactions
                 </b>
             </td>
         </tr>
