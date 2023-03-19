@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1227" class=".btn">#1227</a>
+            </td>
+            <td>
+                <b>
+                    add debug flag
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds a `--debug` flag, that enables all debugging features of the compiler (debug prints, logging runtime errors and logging api return codes). This can be considered a shortcut to enabling all features one by one. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-19 16:12:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1226" class=".btn">#1226</a>
             </td>
             <td>
