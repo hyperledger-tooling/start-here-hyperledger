@@ -830,31 +830,3 @@ Getting a fix onto main while we work on a valid acceptance test.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5202" class=".btn">#5202</a>
-            </td>
-            <td>
-                <b>
-                    Verify default logging is INFO
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-Add an acceptance test to verify that default logging is at least INFO.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-12 04:37:16 +0000 UTC
-    </div>
-</div>
-
