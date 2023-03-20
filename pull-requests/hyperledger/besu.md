@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5239" class=".btn">#5239</a>
+            </td>
+            <td>
+                <b>
+                    Extract tests for Schedule out of the ScheduleBuilder tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamGroot</span><span class="chip">mainnet</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-19 21:21:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5238" class=".btn">#5238</a>
+            </td>
+            <td>
+                <b>
+                    Minor improvements to logging
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamGroot</span><span class="chip">mainnet</span><span class="chip">logging</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-19 20:40:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5237" class=".btn">#5237</a>
             </td>
             <td>
@@ -157,69 +209,6 @@ same as #5232 but with additional self-hosted runner config
     </table>
     <div class="right-align">
         Created At 2023-03-17 08:57:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5232" class=".btn">#5232</a>
-            </td>
-            <td>
-                <b>
-                    Mainnet ATs - reduce parallelism
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Reduce parallelism to 4
-
-Occasionally seeing this error on 1 of the 6 runners `No tests found for given includes`
-Because for the parallelism, we're still passing all the AT classes into the splitter, it is possible that none of them match eg
-https://app.circleci.com/pipelines/github/hyperledger/besu/21077/workflows/d91f36d9-7103-44c0-887a-46430e0331b9/jobs/129673/parallel-runs/1?filterBy=FAILED
-
-Alternative to #5231 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-17 08:50:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5231" class=".btn">#5231</a>
-            </td>
-            <td>
-                <b>
-                    remove parallelism from AT task
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This task is now only taking 3 minutes with parallelism at 6. If it takes less than unit tests without parallelism there's no need. 
-
-Occasionally seeing this error on 1 of the 6 runners `No tests found for given includes` 
-Because for the parallelism, we're still passing all the AT classes into the splitter, it is possible that none of them match
-https://app.circleci.com/pipelines/github/hyperledger/besu/21077/workflows/d91f36d9-7103-44c0-887a-46430e0331b9/jobs/129673/parallel-runs/1?filterBy=FAILED
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-16 20:51:15 +0000 UTC
     </div>
 </div>
 
