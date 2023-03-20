@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/84" class=".btn">#84</a>
+                PR <a href="https://github.com/hyperledger-labs/acapy-java-client/pull/85" class=".btn">#85</a>
             </td>
             <td>
                 <b>
-                    publishing pipeline test results
+                    acapy 0.8.0 update
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/acapy-java-client
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-10 15:50:07 +0000 UTC
+        Created At 2023-03-20 15:50:30 +0000 UTC
     </div>
 </div>
 

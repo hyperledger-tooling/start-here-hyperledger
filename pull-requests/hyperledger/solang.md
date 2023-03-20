@@ -44,7 +44,7 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 <b>
-                    add debug flag
+                    Add release flag
                 </b>
             </td>
         </tr>
