@@ -14,26 +14,27 @@ permalink: /pull-requests/hyperledger-labs/bdls
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/bdls/pull/8" class=".btn">#8</a>
+                PR <a href="https://github.com/hyperledger-labs/bdls/pull/10" class=".btn">#10</a>
             </td>
             <td>
                 <b>
-                    Allowing append new peers keys
+                    updating the contributions Fabric fork repo info 
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">documentation</span>
             </td>
             <td>
-                * Adding the ability to generate and append new peers regenerating the `genkeys --append <int- new peers number>` flag without. Fix the issue of regenerating new keys.
-* Also working with the giving --config flag to use another quorum.json file name.
+                * adding the Fabric fork repo info for the protocol integration efforts.
+* adding the mentorship program info
+* adding more info regarding my contact info
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-19 20:39:27 +0000 UTC
+        Created At 2023-03-20 17:12:24 +0000 UTC
     </div>
 </div>
 
