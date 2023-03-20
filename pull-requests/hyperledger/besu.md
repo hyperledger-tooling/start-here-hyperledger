@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5241" class=".btn">#5241</a>
+            </td>
+            <td>
+                <b>
+                    Invalid params data
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added `data` to error in case of INVALID_PARAMS to give users more info as to what's gone wrong
+
+See #4212 - possible solution to #5098
+
+Not sure if this will break some hive tests?
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-20 03:08:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5240" class=".btn">#5240</a>
+            </td>
+            <td>
+                <b>
+                    Move protocol schedule streamMilestoneBlocks into test scope
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamGroot</span><span class="chip">mainnet</span>
+            </td>
+            <td>
+                It's now only used by the tests following removal of production code paths in https://github.com/hyperledger/besu/commit/08b822a860cd12133fcfa53d6ff0057bc03d56f8 A simple decorater would have been a nicer implementation but I didn't want to expose the protocolSpecs from within the schedule hence why I've used inheritance.
+
+ForksIdsNetworkConfigTest has a particularly hairy construction since it relies on TransitionProtocolSchedule but I've isolated this as an inner class. I am hopeful that we can refactor ForksIdsNetworkConfigTest out of existance eventually and avoid using streamMilestoneBlocks at the same time.
+
+Furthermore, the end goal is have a unified schedule that can handle milestone as blockNumber or timestamp, so we won't need two versions of things such as TimestampStreamingProtocolSchedule
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-20 01:56:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5239" class=".btn">#5239</a>
             </td>
             <td>
@@ -53,7 +113,28 @@ permalink: /pull-requests/hyperledger/besu
                 <span class="chip">TeamGroot</span><span class="chip">mainnet</span><span class="chip">logging</span>
             </td>
             <td>
-                <nil>
+                * During startup print "Besu version ..." instead of just "Besu ..." to make searching for the version in the logs easier.
+
+* eth_getLogs now prints request along with exception:
+```
+2023-03-20 12:42:17.918+10:00 | Test worker | DEBUG  | EthGetLogs | eth_getLogs request JsonRpcRequest{id=null, method='eth_getLogs', params=[FilterParameter{fromBlock=BlockParameter{type=NUMERIC, number=Optional[0]}, toBlock=BlockParameter{type=NUMERIC, number=Optional[50]}, fromAddress=[], toAddress=[], addresses=[], topics=[], maybeBlockHash=Optional.empty, logsQuery=LogsQuery{addresses=[], topics=[], after=Optional.empty, count=Optional.empty, isValid=true}], version='2.0', isNotification=true} failed
+java.lang.IllegalArgumentException: Requested range exceeds maximum range limit
+	at org.hyperledger.besu.ethereum.api.jsonrpc.internal.methods.EthGetLogs.lambda$response$3(EthGetLogs.java:90) ~[main/:?]
+	at java.util.Optional.orElseGet(Optional.java:364) ~[?:?]
+	at org.hyperledger.besu.ethereum.api.jsonrpc.internal.methods.EthGetLogs.response(EthGetLogs.java:70) ~[main/:?]
+	...
+```
+
+* Better formatting of the fast sync retry interval: Instead of printing
+```
+ERROR | FastSyncDownloader | Encountered an unexpected error during fast sync. Restarting sync in PT5S seconds.
+```
+we now print:
+```
+ERROR | FastSyncDownloader | Encountered an unexpected error during fast sync. Restarting sync in 5 seconds.
+```
+
+
             </td>
         </tr>
     </table>
@@ -670,152 +751,6 @@ IBM has [introduced](https://developer.ibm.com/blogs/introducing-the-ibm-semeru-
     </table>
     <div class="right-align">
         Created At 2023-03-13 06:56:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5206" class=".btn">#5206</a>
-            </td>
-            <td>
-                <b>
-                    Fix console logging
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Based on https://github.com/hyperledger/besu/pull/5202
-
-Getting a fix onto main while we work on a valid acceptance test.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-13 05:34:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5205" class=".btn">#5205</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] use junit 5 for plugin and some other ATs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Use junit 5 for plugins ATs 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Acceptance Tests (Non Mainnet)
-
-- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-13 04:36:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5204" class=".btn">#5204</a>
-            </td>
-            <td>
-                <b>
-                    [GHA] no DCO on merge_group
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                argh dco does not support merge_group event - it's the same problem we had with merge to main https://github.com/hyperledger/besu/actions/runs/4400701640 
-
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Acceptance Tests (Non Mainnet)
-
-- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-13 02:22:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5203" class=".btn">#5203</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] use constants for strings in test plugin
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Use constants for strings in test plugin
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Acceptance Tests (Non Mainnet)
-
-- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-13 01:54:48 +0000 UTC
     </div>
 </div>
 
