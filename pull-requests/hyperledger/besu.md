@@ -14,6 +14,71 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5245" class=".btn">#5245</a>
+            </td>
+            <td>
+                <b>
+                    use tags compatible with github runners
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+revert GHA tags to ones that will trigger with github runners, also tag jobs which require x86 architecture with 'x64'
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-20 21:47:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5244" class=".btn">#5244</a>
+            </td>
+            <td>
+                <b>
+                    Metrics via dagger
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Introduces Dagger to provide dependencies.  
+
+- Migrates an existing MetricsSystem module up into the metrics gradle module.
+- Makes BesuCommand accessible from Dagger components, to enable configuration reuse.
+- Uses CachedMerkleTrieLoader as an example of how to get and use a MetricSystem.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-20 21:35:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5242" class=".btn">#5242</a>
             </td>
             <td>
