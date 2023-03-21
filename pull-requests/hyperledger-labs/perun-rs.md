@@ -131,29 +131,3 @@ The table compares rust-perun to go-perun and lists the (intentionally chosen) t
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-rs/pull/3" class=".btn">#3</a>
-            </td>
-            <td>
-                <b>
-                    Repo migration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR contains all commits made to the previous (private) repository.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-14 10:18:57 +0000 UTC
-    </div>
-</div>
-
