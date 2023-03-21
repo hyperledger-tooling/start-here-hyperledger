@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-core
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2443" class=".btn">#2443</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2445" class=".btn">#2445</a>
             </td>
             <td>
                 <b>
-                    Handle errors with thiserror
+                    Add justfile to 1-3 branch
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-core
                 
             </td>
             <td>
-                Signed-off-by: Joseph Livesey [joseph.livesey@btp.works](mailto:joseph.livesey@btp.works) [SAW-13](https://blockchaintp.atlassian.net/browse/SAW-13)
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-13 23:28:08 +0000 UTC
+        Created At 2023-03-21 14:23:51 +0000 UTC
     </div>
 </div>
 
