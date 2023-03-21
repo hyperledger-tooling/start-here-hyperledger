@@ -93,29 +93,3 @@ I did not include an environment variable, as GitHub seems to throw up its hands
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2163" class=".btn">#2163</a>
-            </td>
-            <td>
-                <b>
-                    Remove CircleCI Status since we aren't using CircleCI anymore
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-14 02:38:33 +0000 UTC
-    </div>
-</div>
-
