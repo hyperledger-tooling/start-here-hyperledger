@@ -151,38 +151,3 @@ release notes
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/415" class=".btn">#415</a>
-            </td>
-            <td>
-                <b>
-                    enable must gather on migrated consoles
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-Set `mustgather_enabled` feature flag setting as `true` on migrated consoles.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-14 18:13:41 +0000 UTC
-    </div>
-</div>
-

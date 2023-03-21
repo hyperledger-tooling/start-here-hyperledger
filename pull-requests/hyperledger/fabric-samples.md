@@ -146,31 +146,3 @@ Also remove pullFabricImages.sh since it is no longer used by anything.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1005" class=".btn">#1005</a>
-            </td>
-            <td>
-                <b>
-                    Fix Node HSM sample
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Also:
-- Tidy up README documentation.
-- Add MacOS/Homebrew (Apple silicon) default SoftHSM library location to HSM scripts and sample applications to avoid the need to explicitly override the library location when running the sample.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-14 14:44:36 +0000 UTC
-    </div>
-</div>
-

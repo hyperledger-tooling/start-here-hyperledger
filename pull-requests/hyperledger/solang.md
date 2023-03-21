@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1230" class=".btn">#1230</a>
+            </td>
+            <td>
+                <b>
+                    Fix panic when lexing ".9" at the beginning of a file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-21 14:47:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1229" class=".btn">#1229</a>
             </td>
             <td>
@@ -28,6 +54,8 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 These jobs use containers anyway.
+
+This also contains fixes for running on self-hosted runners, like cleanup the substrate docker container 
             </td>
         </tr>
     </table>
@@ -53,7 +81,7 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                Waiting for #1222
             </td>
         </tr>
     </table>
@@ -216,32 +244,6 @@ Closes https://github.com/xermicus/fuzzy-sol/issues/67
     </table>
     <div class="right-align">
         Created At 2023-03-14 19:23:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1221" class=".btn">#1221</a>
-            </td>
-            <td>
-                <b>
-                    Implement rational eval of compare, or, and, and conditional operator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                These are all accepted by solc so solang should do the same.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-14 16:45:41 +0000 UTC
     </div>
 </div>
 
