@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1229" class=".btn">#1229</a>
+            </td>
+            <td>
+                <b>
+                    No need for ubuntu-20.04, we can move to ubuntu-latest
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                These jobs use containers anyway.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-21 08:46:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1228" class=".btn">#1228</a>
             </td>
             <td>
@@ -216,34 +242,6 @@ Closes https://github.com/xermicus/fuzzy-sol/issues/67
     </table>
     <div class="right-align">
         Created At 2023-03-14 16:45:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1220" class=".btn">#1220</a>
-            </td>
-            <td>
-                <b>
-                    Remove non-idiomatic use of LinkedList
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                See the note here:
-
-https://doc.rust-lang.org/std/collections/struct.LinkedList.html
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-14 09:23:09 +0000 UTC
     </div>
 </div>
 
