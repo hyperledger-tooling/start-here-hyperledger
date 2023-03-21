@@ -174,31 +174,3 @@ Also remove pullFabricImages.sh since it is no longer used by anything.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1003" class=".btn">#1003</a>
-            </td>
-            <td>
-                <b>
-                    Sample apps should exit code 1 upon failure
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Ensure that all sample applications return exit code 1 upon failure so that github actions can report the failure.
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-14 04:53:59 +0000 UTC
-    </div>
-</div>
-

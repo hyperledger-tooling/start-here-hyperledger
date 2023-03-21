@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5248" class=".btn">#5248</a>
+            </td>
+            <td>
+                <b>
+                    Add plugin RPC exception type
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">plugins</span><span class="chip">RPC</span>
+            </td>
+            <td>
+                ## PR description
+Add Plugin RPC Exception type
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-21 05:01:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5247" class=".btn">#5247</a>
+            </td>
+            <td>
+                <b>
+                    Plugin API -  Blockchain Service 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">plugins</span>
+            </td>
+            <td>
+                ## PR description
+Introduces a new feature to the plugin API, enabling third-party plugins to access the blockchain service and retrieve information about a specific block based on its number.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-21 02:10:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5245" class=".btn">#5245</a>
             </td>
             <td>
@@ -719,32 +775,6 @@ IBM has [introduced](https://developer.ibm.com/blogs/introducing-the-ibm-semeru-
     </table>
     <div class="right-align">
         Created At 2023-03-15 02:09:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5214" class=".btn">#5214</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] junit5 for eth/sync tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                migrate some more tests to junit5
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-14 05:45:37 +0000 UTC
     </div>
 </div>
 

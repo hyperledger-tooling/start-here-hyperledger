@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3315" class=".btn">#3315</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #3183: Rename the docker-compose.yml files
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                I want to separate the compose files for the supported Iroha versions.
+
+### Requirements
+
+We'll need to update the docs to reflect this.
+
+
+### Description of the Change
+
+It solves https://github.com/hyperledger/iroha/issues/3183, so the users always pick the proper branch.
+
+### Issue
+
+By default, our `docker-compose` files run the `dev` version that tends to break occasionally, while we want them to run either `stable` or `lts`.
+
+### Benefits
+
+This PR will help the users pick the right branch.
+
+### Possible Drawbacks
+
+* I might have missed some configuration features in the `stable` and `lts` versions, so this PR requires extensive testing.
+* There are more files in the main directory now.
+
+### Usage Examples or Tests *[optional]*
+
+`docker compose -f docker-compose-lts.yml`; on the older versions, it will be `docker-compose -f docker-compose-lts.yml`.
+
+### Alternate Designs *[optional]*
+
+As mentioned by @appetrosyan, we should still consider Nix as a way to install Iroha due to the many advantages of building and deploying the code.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-21 04:47:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3310" class=".btn">#3310</a>
             </td>
             <td>
