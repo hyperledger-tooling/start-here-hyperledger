@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/467" class=".btn">#467</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/468" class=".btn">#468</a>
             </td>
             <td>
                 <b>
-                    some refactoring
+                    Metrics
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-07 09:49:46 +0000 UTC
+        Created At 2023-03-20 19:55:27 +0000 UTC
     </div>
 </div>
 
