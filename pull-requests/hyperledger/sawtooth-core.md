@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/sawtooth-core
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2446" class=".btn">#2446</a>
+            </td>
+            <td>
+                <b>
+                    Add just-based github build action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This action uses just to lint, build, and unit test the rust code.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-22 13:27:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/sawtooth-core/pull/2445" class=".btn">#2445</a>
             </td>
             <td>

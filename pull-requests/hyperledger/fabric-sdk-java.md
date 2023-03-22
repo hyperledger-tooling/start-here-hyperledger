@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/277" class=".btn">#277</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/278" class=".btn">#278</a>
             </td>
             <td>
                 <b>
-                    Update CA version to v1.5
+                    ignoring unnecessarily generated surefire report
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
                 
             </td>
             <td>
-                <nil>
+                In our analysis, we observe that this target/surefire-report/ directory is generated but not later used during the CI build. Hence, we propose to disable generating this directory to save runtime.
+The generation of this directory can be disabled by simply adding -DdisableXmlReport=true to the mvn command.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-08 17:12:20 +0000 UTC
+        Created At 2023-03-22 17:25:13 +0000 UTC
     </div>
 </div>
 
