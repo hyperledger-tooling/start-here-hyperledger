@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2175" class=".btn">#2175</a>
+            </td>
+            <td>
+                <b>
+                    Pass document loader to jsonld.expand
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This fixes test cases where the JSON-LD context was being downloaded erroneously, and probably speeds up the tests. The following tests failed previously while the BBS security context was unavailable.
+
+```FAILED aries_cloudagent/protocols/present_proof/dif/tests/test_pres_exch_handler.py::TestPresExchHandler::test_limit_disclosure_required_check
+FAILED aries_cloudagent/protocols/present_proof/dif/tests/test_pres_exch_handler.py::TestPresExchHandler::test_create_vc_record_with_graph_struct
+FAILED aries_cloudagent/protocols/present_proof/dif/tests/test_pres_exch_handler.py::TestPresExchHandler::test_derive_cred_missing_credsubjectid
+FAILED aries_cloudagent/protocols/present_proof/dif/tests/test_pres_exch_handler.py::TestPresExchHandler::test_derive_cred_credsubjectid
+FAILED aries_cloudagent/protocols/present_proof/dif/tests/test_pres_exch_handler.py::TestPresExchHandler::test_derive_nested_cred_missing_credsubjectid_a
+FAILED aries_cloudagent/protocols/present_proof/dif/tests/test_pres_exch_handler.py::TestPresExchHandler::test_derive_nested_cred_missing_credsubjectid_b
+FAILED aries_cloudagent/protocols/present_proof/dif/tests/test_pres_exch_handler.py::TestPresExchHandler::test_derive_nested_cred_credsubjectid
+FAILED aries_cloudagent/protocols/present_proof/v2_0/formats/dif/tests/test_handler.py::TestDIFFormatHandler::test_verify_received_pres_a
+FAILED aries_cloudagent/protocols/present_proof/v2_0/formats/dif/tests/test_handler.py::TestDIFFormatHandler::test_verify_received_pres_b
+FAILED aries_cloudagent/protocols/present_proof/v2_0/formats/dif/tests/test_handler.py::TestDIFFormatHandler::test_verify_received_pres_c
+FAILED aries_cloudagent/protocols/present_proof/v2_0/formats/dif/tests/test_handler.py::TestDIFFormatHandler::test_verify_received_pres_limit_disclosure_fail_a
+FAILED aries_cloudagent/protocols/present_proof/v2_0/formats/dif/tests/test_handler.py::TestDIFFormatHandler::test_verify_received_pres_limit_disclosure_fail_b
+FAILED aries_cloudagent/protocols/present_proof/v2_0/formats/dif/tests/test_handler.py::TestDIFFormatHandler::test_verify_received_pres_no_match_a
+FAILED aries_cloudagent/protocols/present_proof/v2_0/formats/dif/tests/test_handler.py::TestDIFFormatHandler::test_verify_received_pres_no_match_b
+FAILED aries_cloudagent/protocols/present_proof/v2_0/formats/dif/tests/test_handler.py::TestDIFFormatHandler::test_verify_received_pres_sequence
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-21 22:07:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2174" class=".btn">#2174</a>
             </td>
             <td>
@@ -90,33 +133,6 @@ This is a breaking change for plugins adding queue implementations (cc @shaangil
     </table>
     <div class="right-align">
         Created At 2023-03-15 14:52:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2169" class=".btn">#2169</a>
-            </td>
-            <td>
-                <b>
-                    0.8.0 release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-14 22:27:54 +0000 UTC
     </div>
 </div>
 

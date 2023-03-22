@@ -221,29 +221,3 @@ Closes https://github.com/xermicus/fuzzy-sol/issues/67
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1222" class=".btn">#1222</a>
-            </td>
-            <td>
-                <b>
-                    fix compilation failure with -g flag in substrate integration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR fixes compilation error when inserting the `-g` flag in Substrate integration tests
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-14 19:23:23 +0000 UTC
-    </div>
-</div>
-

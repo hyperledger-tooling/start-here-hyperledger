@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1011" class=".btn">#1011</a>
+            </td>
+            <td>
+                <b>
+                    Fixed fabric-samples/asset-transfer-basic/application-gateway-typescr…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixed fabric-samples/asset-transfer-basic/application-gateway-typescript grpc client type check
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-21 19:16:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/1010" class=".btn">#1010</a>
             </td>
             <td>
@@ -115,34 +141,6 @@ Having --csr.hosts for msp enrollments is misleading, this commit removes it.
     </table>
     <div class="right-align">
         Created At 2023-03-15 15:05:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1006" class=".btn">#1006</a>
-            </td>
-            <td>
-                <b>
-                    Update samples to use Fabric v2.5.0-beta2 by default
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update samples to use Fabric v2.5.0-beta2 by default.
-
-Also remove pullFabricImages.sh since it is no longer used by anything.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-14 20:47:11 +0000 UTC
     </div>
 </div>
 
