@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/417" class=".btn">#417</a>
+            </td>
+            <td>
+                <b>
+                    Remove the Sawtooth ledger
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR removes support for Sawtooth in PDO.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-22 06:38:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/416" class=".btn">#416</a>
             </td>
             <td>
