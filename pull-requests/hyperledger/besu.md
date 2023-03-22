@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5255" class=".btn">#5255</a>
+            </td>
+            <td>
+                <b>
+                    Plugin API - Add Trace Service to the Plugin API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamRevenant</span><span class="chip">plugins</span>
+            </td>
+            <td>
+                ## PR description
+Plugin API - Add Trace Service to the Plugin API
+
+- Allow users to trace a block using a custom operation tracer instance.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-22 03:20:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5254" class=".btn">#5254</a>
+            </td>
+            <td>
+                <b>
+                    Isolate bft getByBlockNumber
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamGroot</span>
+            </td>
+            <td>
+                Fixes #5162 and #5164 
+
+Introduce BftProtocolSchedule with a copy of MutableProtocolSchedule.getByBlockNumber
+This method will be deleted from the ProtocolSchedule interfaces and so will only exist in BftProtocolSchedule (although it may be renamed in a subsequent commit).
+
+Rename existing *BftProtocolSchedule classes to append Builder for clarity (and inline with other ProtocolScheduleBuilder classes)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-22 01:42:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5253" class=".btn">#5253</a>
             </td>
             <td>
@@ -812,59 +873,6 @@ Reviewing the changelog I think it's nice to have clickable links to faster get 
     </table>
     <div class="right-align">
         Created At 2023-03-15 07:27:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5217" class=".btn">#5217</a>
-            </td>
-            <td>
-                <b>
-                    openj9 docker build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Docker image which uses semeru openjdk-17 jammy container base for besu
-
-Quoting https://www.infoq.com/news/2021/10/ibm-introduces-semeru-openj9/ :
-
-IBM has [introduced](https://developer.ibm.com/blogs/introducing-the-ibm-semeru-runtimes/) no-cost [Semeru Runtimes](https://developer.ibm.com/languages/java/semeru-runtimes/) that use class libraries from OpenJDK together with the Eclipse [OpenJ9](https://www.eclipse.org/openj9/) Java Virtual Machine (JVM). The runtimes, based on OpenJ9, may be used as an alternative for runtimes based on [HotSpot](https://openjdk.java.net/groups/hotspot/). Previously, [AdoptOpenJDK](https://adoptopenjdk.net/) produced binaries with OpenJ9, however that’s no longer legally allowed since their [move to the Eclipse Foundation](https://www.infoq.com/news/2020/06/adoptopenjdk-eclipse-adoptium/) under the new name, [Adoptium](https://adoptium.net/).
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-#5181
-
-## Documentation
-
-- [ ] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Acceptance Tests (Non Mainnet)
-
-- [ ] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
-
-## Changelog
-
-- [ ] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-15 02:09:56 +0000 UTC
     </div>
 </div>
 
