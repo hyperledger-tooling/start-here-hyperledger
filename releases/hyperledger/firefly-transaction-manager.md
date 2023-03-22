@@ -15,30 +15,30 @@ permalink: /releases/hyperledger/firefly-transaction-manager
         <tr>
             <td colspan="2">
                 <b>
-                    v1.2.6
+                    v1.2.7
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.6
+                    v1.2.7
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Add apiclient command line tools by @nguyer in https://github.com/hyperledger/firefly-transaction-manager/pull/69
+* support metrics customization in transaction handler by @Chengxuan in https://github.com/hyperledger/firefly-transaction-manager/pull/71
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-transaction-manager/compare/v1.2.4...v1.2.6
+**Full Changelog**: https://github.com/hyperledger/firefly-transaction-manager/compare/v1.2.6...v1.2.7
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.2.6" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.2.7" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-03-10 21:24:49 +0000 UTC
+        Created At 2023-03-21 18:46:07 +0000 UTC
     </span>
 </div>
 
