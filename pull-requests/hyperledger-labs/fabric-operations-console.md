@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/421" class=".btn">#421</a>
+            </td>
+            <td>
+                <b>
+                    reconnect to couchdb _changes api periodically ++
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+- lets athena safely periodically reconnect to the couchdb _changes api
+   - it will now reconnect daily
+- migration will now reconnect the _changes api when migration has started to ensure the api is alive and well
+- ties into more request events to let the couchdb _changes api reconnect when things go wrong
+  - previously only the events `error` and `end` where used to reconnect, we now use `error`, `end`, `timeout`, `abort`, `close`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-22 17:53:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/420" class=".btn">#420</a>
             </td>
             <td>
@@ -78,41 +117,6 @@ Prevent migration status checking/monitoring from spinner in place forever.
     </table>
     <div class="right-align">
         Created At 2023-03-15 20:50:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/418" class=".btn">#418</a>
-            </td>
-            <td>
-                <b>
-                    revert npm dep update of eslint to fix stitch build
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-Changes eslint in package.json to version that does not error during the webpack build.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-15 13:29:53 +0000 UTC
     </div>
 </div>
 

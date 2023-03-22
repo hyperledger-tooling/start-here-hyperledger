@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1232" class=".btn">#1232</a>
+            </td>
+            <td>
+                <b>
+                    Refactor accounts collection to maintain proper ordering
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                We are going to introduce new syntax of Solidty on Solana, that allows developers to declare account names within `@signer` and `@writer` annotations. These accounts will be accessible through `tx.accounts.account_name`, which relies on the deserialization order of accounts. 
+
+For serialization consistency, we must care about the order in which we place accounts in the IDL file, so a refactor was necessary in `solana_accounts.rs` to account for a proper ordering.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-22 17:01:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1231" class=".btn">#1231</a>
+            </td>
+            <td>
+                <b>
+                    Runner test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-22 12:47:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1230" class=".btn">#1230</a>
             </td>
             <td>

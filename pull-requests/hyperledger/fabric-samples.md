@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1013" class=".btn">#1013</a>
+            </td>
+            <td>
+                <b>
+                    Cancel existing workflows on subsequent PR push
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Cancel existing workflows on subsequent PR push.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-22 16:13:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/1011" class=".btn">#1011</a>
             </td>
             <td>
@@ -33,34 +59,6 @@ permalink: /pull-requests/hyperledger/fabric-samples
     </table>
     <div class="right-align">
         Created At 2023-03-21 19:16:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1010" class=".btn">#1010</a>
-            </td>
-            <td>
-                <b>
-                    Add in examples and notes on using PurgePrivateData
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Update the configtx.yaml to enable the 2.5 capabillity
-- Added purge into the chaincode
-- Added purge into the application client code.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-17 14:02:08 +0000 UTC
     </div>
 </div>
 
@@ -89,58 +87,6 @@ Having --csr.hosts for msp enrollments is misleading, this commit removes it.
     </table>
     <div class="right-align">
         Created At 2023-03-15 19:10:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1008" class=".btn">#1008</a>
-            </td>
-            <td>
-                <b>
-                    Bump couchdb to 3.2.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump couchdb to 3.2.2.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-15 15:42:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1007" class=".btn">#1007</a>
-            </td>
-            <td>
-                <b>
-                    Add debug logging to CI scripts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add debug logging to CI scripts.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-15 15:05:23 +0000 UTC
     </div>
 </div>
 
