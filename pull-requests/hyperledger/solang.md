@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1235" class=".btn">#1235</a>
+            </td>
+            <td>
+                <b>
+                    Substrate: Test for instantiation nonce to increase
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Explicitly asserting the `instantiation_nonce` runtime API return value to increase after a subsequent contract deployment.
+
+Additionally slightly cleaned up the testsuite. We can log runtime API calls in all cases, shouldn't matter. Bonus is that we no longer need to compile any test twice with adjusted settings to make this work. Also the runtime error test may not completely equal with only the error message, but this is fine we can just assert the expected runtime error to be present. It's OK if other stuff is in the debug buffer too. This makes the `runtime_errors` integration test less brittle.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-23 07:50:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1233" class=".btn">#1233</a>
             </td>
             <td>

@@ -781,29 +781,3 @@ same as #5232 but with additional self-hosted runner config
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5226" class=".btn">#5226</a>
-            </td>
-            <td>
-                <b>
-                    junit 5 for util tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Use Junit 5 for besu/util tests
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-16 06:47:09 +0000 UTC
-    </div>
-</div>
-

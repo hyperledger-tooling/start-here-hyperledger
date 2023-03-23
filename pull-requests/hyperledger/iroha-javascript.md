@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/150" class=".btn">#150</a>
-            </td>
-            <td>
-                <b>
-                    Release SDK for `pre-rc.13`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-16 07:25:43 +0000 UTC
-    </div>
-</div>
-
