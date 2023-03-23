@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-lib-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-lib-go/pull/15" class=".btn">#15</a>
+                PR <a href="https://github.com/hyperledger/fabric-lib-go/pull/16" class=".btn">#16</a>
             </td>
             <td>
                 <b>
-                    Make maintainers file a pointer
+                    Bump Go to 1.19.7
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/fabric-lib-go
                 
             </td>
             <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
+                Bump Go to 1.19.7.
+Also update dependencies.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-08 21:48:23 +0000 UTC
+        Created At 2023-03-22 20:30:32 +0000 UTC
     </div>
 </div>
 

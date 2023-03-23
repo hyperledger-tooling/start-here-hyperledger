@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1233" class=".btn">#1233</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade Anchor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR upgrades the Anchor version to v0.27.0. The IDL does not have the `state` field anymore.
+
+The container CI image needs to be updated in https://github.com/hyperledger/solang-llvm/pull/9.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-22 19:10:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1232" class=".btn">#1232</a>
             </td>
             <td>
@@ -161,7 +189,7 @@ This also contains fixes for running on self-hosted runners, like cleanup the su
                 
             </td>
             <td>
-                This PR adds a `--debug` flag, that enables all debugging features of the compiler (debug prints, logging runtime errors and logging api return codes). This can be considered a shortcut to enabling all features one by one. 
+                This PR adds a `--release` flag, that disables debugging features.
             </td>
         </tr>
     </table>

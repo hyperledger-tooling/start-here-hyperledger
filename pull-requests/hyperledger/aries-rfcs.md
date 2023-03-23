@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/777" class=".btn">#777</a>
+            </td>
+            <td>
+                <b>
+                    RFC 510 - Format identifiers issues #762 and #763
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix #762 and #763 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-22 18:49:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-rfcs/pull/776" class=".btn">#776</a>
             </td>
             <td>
