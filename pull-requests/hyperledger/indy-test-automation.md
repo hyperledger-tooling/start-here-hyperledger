@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-test-automation
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/129" class=".btn">#129</a>
+                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/130" class=".btn">#130</a>
             </td>
             <td>
                 <b>
-                    GHA definition & dockerfile for node test integration
+                    Node dockerfile merge & Dispatchable Workflow
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-test-automation
                 
             </td>
             <td>
-                <nil>
+                Fixes https://github.com/hyperledger/indy-test-automation/issues/127
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-16 15:50:04 +0000 UTC
+        Created At 2023-03-23 15:58:03 +0000 UTC
     </div>
 </div>
 

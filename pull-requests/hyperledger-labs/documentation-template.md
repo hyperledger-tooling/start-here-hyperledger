@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/documentation-template
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/documentation-template/pull/3" class=".btn">#3</a>
+                PR <a href="https://github.com/hyperledger-labs/documentation-template/pull/4" class=".btn">#4</a>
             </td>
             <td>
                 <b>
-                    Fix issue 2
+                    Adds info about MkDocs Material to the README
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/documentation-template
                 
             </td>
             <td>
-                Fixes #2 
+                @ryjones -- please confirm the Insiders comment.  I'm pretty sure that is still accurate -- you've mentioned it before.
+
+Great work on the template.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-15 16:53:42 +0000 UTC
+        Created At 2023-03-23 15:03:56 +0000 UTC
     </div>
 </div>
 
