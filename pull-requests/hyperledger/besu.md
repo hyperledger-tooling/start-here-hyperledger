@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5259" class=".btn">#5259</a>
+            </td>
+            <td>
+                <b>
+                    getByBlockNumber replaced by getByBlockHeader on tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This PR removes the getByBlockNumber from tests and replace it's usage by getByBlockHeader.
+
+## Fixed Issue(s)
+Fixes #5165 
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-23 04:36:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5258" class=".btn">#5258</a>
+            </td>
+            <td>
+                <b>
+                    update snakeyaml to 2.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span>
+            </td>
+            <td>
+                Update snakeyaml dependency
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-23 04:24:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5257" class=".btn">#5257</a>
             </td>
             <td>
@@ -365,7 +426,7 @@ Introduces a new feature to the plugin API, enabling third-party plugins to acce
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">mainnet</span><span class="chip">peering</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -743,34 +804,6 @@ same as #5232 but with additional self-hosted runner config
     </table>
     <div class="right-align">
         Created At 2023-03-16 06:47:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5225" class=".btn">#5225</a>
-            </td>
-            <td>
-                <b>
-                    [GHA] Checklist action
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This GHA will add the checklist that's currently in the PR template, as a comment, on newly opened PRs. 
-
-Because it needs write access (to add the comment), it needs to run on the `pull_request_target` action, which means you won't see the outcome on _this_ PR, but only once it's merged in, you'll see it on subsequent PRs - example - https://github.com/daisy-row/vigilant-octo-umbrella/pull/51
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-16 02:17:36 +0000 UTC
     </div>
 </div>
 
