@@ -754,30 +754,3 @@ same as #5232 but with additional self-hosted runner config
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5228" class=".btn">#5228</a>
-            </td>
-            <td>
-                <b>
-                    Reference Test v12
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * Upgrade reference tests to v12.
-* Extend the UncleFromSideChain exception to all future forks
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-16 14:08:40 +0000 UTC
-    </div>
-</div>
-

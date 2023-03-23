@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/778" class=".btn">#778</a>
+            </td>
+            <td>
+                <b>
+                    RFC 0044: fix mime-type for encrypted DIDComm V1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As discussed in WG 20230322, references to `application/didcomm-enc-env` in RFC 0044 are updated to the more common `application/didcomm-envelope-enc`.
+
+There is also a reference to it in RFC 0587 that is updated as well.
+
+Fixes #773 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-23 15:28:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-rfcs/pull/777" class=".btn">#777</a>
             </td>
             <td>

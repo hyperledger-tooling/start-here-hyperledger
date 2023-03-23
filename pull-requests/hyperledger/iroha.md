@@ -163,7 +163,7 @@ Slightly worse readability of the `iroha_cli` crate, particularly the `main.rs` 
             </td>
             <td>
                 <b>
-                    [refactor]: Globally unique item identifiers
+                    [refactor]: #3268 Globally unique item identifiers
                 </b>
             </td>
         </tr>
@@ -186,7 +186,8 @@ Slightly worse readability of the `iroha_cli` crate, particularly the `main.rs` 
 ### Description of the Change
 
 Rename items so that their names are globally unique within `Iroha` workspace
-Incidentally this also helps #3268 
+
+Closes #3268 
 
 ### Issue
 
