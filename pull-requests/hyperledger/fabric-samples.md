@@ -62,31 +62,3 @@ permalink: /pull-requests/hyperledger/fabric-samples
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1009" class=".btn">#1009</a>
-            </td>
-            <td>
-                <b>
-                    Remove csr.hosts from msp enrollments
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Flag --csr.hosts is only relevant for tls enrollments, it adds the SAN to the TLS cert.
-For msp enrollments, the cert is only used for identity, therefore there is no need for SAN and no need to pass --csr.hosts. 
-Having --csr.hosts for msp enrollments is misleading, this commit removes it.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-15 19:10:18 +0000 UTC
-    </div>
-</div>
-

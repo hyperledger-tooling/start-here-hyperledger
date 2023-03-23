@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5257" class=".btn">#5257</a>
+            </td>
+            <td>
+                <b>
+                    additional merkle trie refactoring
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+additional refactoring missed by #5251 
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-22 23:37:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5256" class=".btn">#5256</a>
             </td>
             <td>
@@ -738,65 +771,6 @@ Because it needs write access (to add the comment), it needs to run on the `pull
     </table>
     <div class="right-align">
         Created At 2023-03-16 02:17:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5224" class=".btn">#5224</a>
-            </td>
-            <td>
-                <b>
-                    Add getForNextBlockHeader to protocol schedule
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Replace usages of ProtocolSchedule.getForBlockNumber that are being used for the next block by adding a getForNextBlockHeader method.
-
-* Adds a getForNextBlockHeader method to the HeaderBasedProtocolSchedule
-* Fixes a bug using the UnsignedIntParameter in RPC methods, this was causing the eth_feeHistory RPC to fail 
-
-### Testing
-- [x] Sync on Goerli
-- [x] Sync on mainnet
-- [x] Besu and Teku on a local interop network using Shanghai
-- [x] QBFT single validator node
-- [x] EthHash single node
-- [x] Manual testing of the eth_feeHistory
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #5159 
-
-## Documentation
-
-- [x] I thought about documentation and added the `doc-change-required` label to this PR if
-    [updates are required](https://wiki.hyperledger.org/display/BESU/Documentation).
-
-## Acceptance Tests (Non Mainnet)
-
-- [x] I have considered running `./gradlew acceptanceTestNonMainnet` locally if my PR affects non-mainnet modules.
-
-## Changelog
-
-- [x] I thought about the changelog and included a [changelog update if required](https://wiki.hyperledger.org/display/BESU/Changelog).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-16 00:48:12 +0000 UTC
     </div>
 </div>
 
