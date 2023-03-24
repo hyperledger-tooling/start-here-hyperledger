@@ -14,6 +14,171 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5266" class=".btn">#5266</a>
+            </td>
+            <td>
+                <b>
+                    reset cache after heal
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+We found that sometimes after the heal we still have old snapshot in the cache because after the clearTrieLog some transaction pool thread are still running 
+The fix is to clear the cache after the snapsync and also add a snapshot of the  new head 
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-24 12:14:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5265" class=".btn">#5265</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade k8s lib
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #5264
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-24 11:31:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5263" class=".btn">#5263</a>
+            </td>
+            <td>
+                <b>
+                    Cancel older block creation tasks upon receiving a new one
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+It make sense to have only a block creation task running at any time, but at the moment is it possible (especially on devnets) that two consecutive requests to build a block overlap, with the consequence that first task keeps running until the timeout, even if it is useless, since only the last one is relevant. 
+This PR change this behavior, cancelling any existing block creation task, when a new block creation request arrives, and since only one task could be running, a single thread executor is used.
+Then a minimum sleep period of 100ms is introduced between retries to reduce the concurrency with the transaction pool, so that it can process more possible candidate transaction for the next retry.
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-24 11:04:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5262" class=".btn">#5262</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade RocksDB version from 7.7.3 to 8.0.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+Upgrade RocksDB version from 7.7.3 to 8.0.0.
+Remove deprecated/obsolete RocksDB statistics in version 8.0.0.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-24 08:36:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5261" class=".btn">#5261</a>
+            </td>
+            <td>
+                <b>
+                    Use schedule.getForNextBlockHeader in WithdrawalsValidatorProvider
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Part of removing public usages of schedule.getByTimestamp If the parentHeader does not exist, we skip the withdrawals validation however the net result should be to sync in this scenario
+
+Part of #5260 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-24 06:48:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5259" class=".btn">#5259</a>
             </td>
             <td>
@@ -699,32 +864,6 @@ same as #5232 but with additional self-hosted runner config
     </table>
     <div class="right-align">
         Created At 2023-03-17 23:11:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5233" class=".btn">#5233</a>
-            </td>
-            <td>
-                <b>
-                    [GHA] actions not required on merge group
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Don't run not-required actions on merge_group
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-17 08:57:56 +0000 UTC
     </div>
 </div>
 

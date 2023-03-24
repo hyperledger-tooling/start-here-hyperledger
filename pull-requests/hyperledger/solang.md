@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1236" class=".btn">#1236</a>
+            </td>
+            <td>
+                <b>
+                    Bump MSRV to 1.65
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The latest `scale-info` release requires Rust 1.65, but we are still on 1.64. I think it is fair to bump our MSRV to 1.65 since latest release is 1.68 already.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-24 09:25:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1235" class=".btn">#1235</a>
             </td>
             <td>
