@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/documentation-template
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/documentation-template/pull/5" class=".btn">#5</a>
+            </td>
+            <td>
+                <b>
+                    Create version on tag
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-23 21:08:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/documentation-template/pull/4" class=".btn">#4</a>
             </td>
             <td>
