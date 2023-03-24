@@ -14,6 +14,74 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5269" class=".btn">#5269</a>
+            </td>
+            <td>
+                <b>
+                    Update dependecies to latest version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+For 23.4-RC
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-24 17:35:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5267" class=".btn">#5267</a>
+            </td>
+            <td>
+                <b>
+                    Update netty
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-24 17:14:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5266" class=".btn">#5266</a>
             </td>
             <td>
@@ -54,7 +122,7 @@ The fix is to clear the cache after the snapsync and also add a snapshot of the 
             </td>
             <td>
                 <b>
-                    Upgrade k8s lib
+                    Upgrade k8s and snakeyaml libs
                 </b>
             </td>
         </tr>

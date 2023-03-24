@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3329" class=".btn">#3329</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #3231: Monolithic validator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span><span class="chip">api-changes</span>
+            </td>
+            <td>
+                ## Description
+
+- No more chain of validators in `core`. Just one monolithic validator
+- Genesis new requires `validator`
+- Added `Upgrade` instruction
+- Recursive transaction and instruction validation moved to validator
+
+Previously we checked instructions of one tx on Iroha side. Now it's a work for Runtime Permission Validator. However Runtime Validator still can accept `Instruction` as input, because it's required for WASM smartcontracts and triggers.
+
+Transaction instructions need to be aplied to wsv in order to properly validate them (if one instrucion depends on another). This forces us to execute instructions on validator. It's kind of unexpected for a thing called *Validator*. So @appetrosyan suggests to rename it to *Verifier*, which will accept *WSV* and return the updated one. But I haven't done that in this PR, because such semantic change requires a lot of changes in all code base, including `block.rs`, `main_loop.rs` and etc.
+
+I wonder what others think about that.
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+* Closes #3231
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-24 13:27:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3328" class=".btn">#3328</a>
             </td>
             <td>

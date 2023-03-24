@@ -14,6 +14,86 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4106" class=".btn">#4106</a>
+            </td>
+            <td>
+                <b>
+                    Remaining dependency updates for v2.5.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Catch release-2.5 up to main with respect to most
+recent dependency updates.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-24 17:17:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4105" class=".btn">#4105</a>
+            </td>
+            <td>
+                <b>
+                    Bump Go to 1.20.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bump Go to 1.20.2.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-24 16:50:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4104" class=".btn">#4104</a>
+            </td>
+            <td>
+                <b>
+                    Fix cert sanitation after moving to go v1.19 (backport #3774 to release-2.5)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * Fix cert sanitation after moving to go v1.19
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-24 14:44:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4098" class=".btn">#4098</a>
             </td>
             <td>

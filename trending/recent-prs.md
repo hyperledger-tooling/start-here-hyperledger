@@ -1,13 +1,13 @@
 
-[5266](https://github.com/hyperledger/besu/pull/5266) reset cache after heal
+[179](https://github.com/hyperledger/fabric-protos/pull/179) Bump Go to 1.20
 
-[5265](https://github.com/hyperledger/besu/pull/5265) Upgrade k8s lib
+[490](https://github.com/hyperledger/fabric-test/pull/490) Update chaincode and SDK branches
 
-[5263](https://github.com/hyperledger/besu/pull/5263) Cancel older block creation tasks upon receiving a new one
+[5269](https://github.com/hyperledger/besu/pull/5269) Update dependecies to latest version
 
-[1236](https://github.com/hyperledger/solang/pull/1236) Bump MSRV to 1.65
+[4106](https://github.com/hyperledger/fabric/pull/4106) Remaining dependency updates for v2.5.0
 
-[3328](https://github.com/hyperledger/iroha/pull/3328) Develop2master 3081 corrections
+[5267](https://github.com/hyperledger/besu/pull/5267) Update netty
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

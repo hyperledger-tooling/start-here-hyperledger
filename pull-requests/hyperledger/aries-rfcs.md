@@ -66,29 +66,3 @@ Fixes #773
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/776" class=".btn">#776</a>
-            </td>
-            <td>
-                <b>
-                    RFC 0771: 'cred' to 'credential' in identifiers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix a few typos in identifiers (cred-filter -> credential-filter and cred-request -> credential-request) to be consistent with the rest of the document.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-17 17:44:29 +0000 UTC
-    </div>
-</div>
-

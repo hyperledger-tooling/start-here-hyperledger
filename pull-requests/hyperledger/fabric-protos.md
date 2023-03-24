@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/179" class=".btn">#179</a>
+            </td>
+            <td>
+                <b>
+                    Bump Go to 1.20
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bump Go to 1.20.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-24 18:16:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-protos/pull/178" class=".btn">#178</a>
             </td>
             <td>
