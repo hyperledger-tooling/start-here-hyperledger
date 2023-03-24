@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -725,32 +725,6 @@ same as #5232 but with additional self-hosted runner config
     </table>
     <div class="right-align">
         Created At 2023-03-17 08:57:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5230" class=".btn">#5230</a>
-            </td>
-            <td>
-                <b>
-                    Schedule shanghaiTime for Mainnet and configure forkId for tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                🦉 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-16 19:27:58 +0000 UTC
     </div>
 </div>
 
