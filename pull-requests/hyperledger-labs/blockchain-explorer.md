@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-explorer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/363" class=".btn">#363</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/366" class=".btn">#366</a>
             </td>
             <td>
                 <b>
-                    maintainers contact
+                    Update MAINTAINERS.md
                 </b>
             </td>
         </tr>
@@ -27,21 +27,55 @@ permalink: /pull-requests/hyperledger-labs/blockchain-explorer
                 
             </td>
             <td>
-                how to contact to maintainers details.
-
-<!--  Thanks for sending a pull request! 
+                <!--  Thanks for sending a pull request! 
 -->
 
 
 #### What this PR does / why we need it:
+Add new maintainers to the Maintainers.md file
 
-Update on maintainer contact details know how.
+#### Which issue(s) this PR fixes:
+<!--
+*Automatically closes linked issue when PR is merged.
+Usage: `Fixes #<issue number>`, or `Fixes (paste link of issue)`.
+_If PR is about `failing-tests`, please post the related issues/tests in a comment and do not use `Fixes`_*
+-->
+Fixes #
+
+#### Special notes for your reviewer:
+
+#### Does this PR introduce a user-facing change?
+<!--
+If no, just write "NONE" in the release-note block below.
+If yes, a release note is required:
+Enter your extended release note in the block below. If the PR requires additional action from users switching to the new release, include the string "action required".
+
+-->
+```release-note
+
+```
+
+#### Additional documentation, usage docs, etc.:
+
+<!--
+This section can be blank if this pull request does not require a release note.
+
+When adding links which point to resources within git repositories, like
+supporting documentation, please reference a specific commit and avoid
+linking directly to the master branch. This ensures that links reference a
+specific point in time, rather than a document that may change over time.
+
+
+-->
+```docs
+
+```
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-05 19:05:53 +0000 UTC
+        Created At 2023-03-24 07:43:40 +0000 UTC
     </div>
 </div>
 
