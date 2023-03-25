@@ -1,13 +1,13 @@
 
-[179](https://github.com/hyperledger/fabric-protos/pull/179) Bump Go to 1.20
+[230](https://github.com/hyperledger/ursa/pull/230) Bump openssl from 0.10.38 to 0.10.48
 
-[490](https://github.com/hyperledger/fabric-test/pull/490) Update chaincode and SDK branches
+[4108](https://github.com/hyperledger/fabric/pull/4108) Updates year on footer from 2022 to 2023
 
-[5269](https://github.com/hyperledger/besu/pull/5269) Update dependecies to latest version
+[1237](https://github.com/hyperledger/solang/pull/1237) Improve parser
 
-[4106](https://github.com/hyperledger/fabric/pull/4106) Remaining dependency updates for v2.5.0
+[424](https://github.com/hyperledger-labs/fabric-operations-console/pull/424) the safe list now records/vaildates ports too
 
-[5267](https://github.com/hyperledger/besu/pull/5267) Update netty
+[419](https://github.com/hyperledger-labs/private-data-objects/pull/419) New approach to docker
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
