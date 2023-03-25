@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4108" class=".btn">#4108</a>
+            </td>
+            <td>
+                <b>
+                    Updates year on footer from 2022 to 2023
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+#### Type of change
+
+- Documentation update
+
+#### Description
+
+The year passed and the footer must be updated.
+
+#### Additional details
+None
+
+#### Related issues
+None
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-24 22:20:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4106" class=".btn">#4106</a>
             </td>
             <td>
@@ -227,34 +267,6 @@ Finally, you can contact us on https://mergify.com
     </table>
     <div class="right-align">
         Created At 2023-03-20 02:22:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4095" class=".btn">#4095</a>
-            </td>
-            <td>
-                <b>
-                    Update docs for CouchDB configuration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Clean up the CouchDB configuration docs,
-including addition of max_document_size.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-17 18:43:15 +0000 UTC
     </div>
 </div>
 

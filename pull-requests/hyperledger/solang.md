@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1237" class=".btn">#1237</a>
+            </td>
+            <td>
+                <b>
+                    Improve parser
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR does 3 main things to the `solang-parser` crate:
+1. adds documentation to all items
+2. improves some logic in the parsing functions, like less allocations and some minor refactoring
+3. most importantly, adds parse tree helpers (moving existing implementations):
+  - `fmt`: implements `std::fmt::Display` for all parse tree types
+  - `loc`, expanding on the `CodeLocation` traits:
+    - implementations for all possible parse tree types
+    - generic implementations for `Vec`, `Option` etc
+    - renames the `loc` method to `loc_opt` on `OptionalCodeLocation` to avoid name collision
+    - previously there were some standalone (not with the traits) methods on structs, these were moved to the trait implementations
+  - `ord`: implements `std::cmp::{Ord, PartialOrd}`
+  - helper methods on parse tree types; you can view them by looking for the `impl` blocks in `pt`
+
+The massive diff in the lexer tests is just whitespace and renaming the fully qualified `collect::<Vec<...>>` to just `Vec<_>`
+
+Some of these changes have been upstreamed from [foundry-rs/foundry](https://github.com/foundry-rs/foundry)'s `forge-doc` and `forge-fmt`.
+
+BREAKING CHANGES:
+- `pt::OptionalCodeLocation::loc` renamed to `loc_opt`
+- `pt::Level::to_string` renamed to `as_str`
+- `lexer::Spanned<Token, Loc, Error>` split into `Spanned<'a>` and `Result<'a, T = Spanned<'a>, E = LexicalError>`
+- `pt::UsingList`'s `Error` variant changed from tuple to unit (no more `()` at the end)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-24 21:14:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1236" class=".btn">#1236</a>
             </td>
             <td>
