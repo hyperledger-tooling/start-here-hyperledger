@@ -273,30 +273,3 @@ This also contains fixes for running on self-hosted runners, like cleanup the su
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1227" class=".btn">#1227</a>
-            </td>
-            <td>
-                <b>
-                    Add release flag
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1- add a `--release` flag, that disables debugging features (logging prints, api return codes and runtime errors).
-2- make all debugging features on by default. (make current debugging flags disable debugging)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-19 16:12:06 +0000 UTC
-    </div>
-</div>
-
