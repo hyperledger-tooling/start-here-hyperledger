@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1238" class=".btn">#1238</a>
+            </td>
+            <td>
+                <b>
+                    Check for duplicate contract names on cli command line
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                If we are compiling two files, and they define the same contract name from multiple locations, error out.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-27 14:56:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1237" class=".btn">#1237</a>
             </td>
             <td>
