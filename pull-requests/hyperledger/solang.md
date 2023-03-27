@@ -247,29 +247,3 @@ This also contains fixes for running on self-hosted runners, like cleanup the su
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1228" class=".btn">#1228</a>
-            </td>
-            <td>
-                <b>
-                    Integration tests: Require contract names to be unique
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Waiting for #1222
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-20 09:02:31 +0000 UTC
-    </div>
-</div>
-
