@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-docs/pull/65" class=".btn">#65</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-docs/pull/67" class=".btn">#67</a>
             </td>
             <td>
                 <b>
-                    minitoken: use node v16
+                    Apply latest version
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger-labs/yui-docs
                 
             </td>
             <td>
-                <nil>
+                * Fix minitoken contract
+* Fix proto path
+* Fix token migrations
+* Fix dependencies
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-17 05:19:15 +0000 UTC
+        Created At 2023-03-28 07:57:46 +0000 UTC
     </div>
 </div>
 

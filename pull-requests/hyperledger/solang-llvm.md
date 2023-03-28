@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/solang-llvm
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang-llvm/pull/15" class=".btn">#15</a>
+            </td>
+            <td>
+                <b>
+                    Rust 1.65
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This slipped in. Having to `push -d` interfered my workflow, sorry
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-28 12:28:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang-llvm/pull/14" class=".btn">#14</a>
+            </td>
+            <td>
+                <b>
+                    Only strip solana binaries if they were actually built
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                [Build is now fine](https://github.com/hyperledger/solang-llvm/actions/runs/4534419690/jobs/7988573066) :heavy_check_mark: 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-27 15:48:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang-llvm/pull/13" class=".btn">#13</a>
             </td>
             <td>

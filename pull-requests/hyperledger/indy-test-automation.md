@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-test-automation
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-test-automation/pull/131" class=".btn">#131</a>
+            </td>
+            <td>
+                <b>
+                    fixed error in pipeline
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-28 12:02:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-test-automation/pull/130" class=".btn">#130</a>
             </td>
             <td>

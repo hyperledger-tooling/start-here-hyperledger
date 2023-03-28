@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1408" class=".btn">#1408</a>
+            </td>
+            <td>
+                <b>
+                    feat: Optionally send problem report when decline a proof request
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updated `declineRequest` method to acces optional `sendProblemReport` parameter indicating that Problem Report message also should be sent to Verifier.
+Also updated `sendProblemReport` method to support connectionless proof request case.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-28 07:32:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1406" class=".btn">#1406</a>
             </td>
             <td>
@@ -143,32 +170,6 @@ Funded by the Ontario Government
     </table>
     <div class="right-align">
         Created At 2023-03-21 12:48:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1396" class=".btn">#1396</a>
-            </td>
-            <td>
-                <b>
-                    fix: incorrect type for anoncreds registration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-21 10:24:37 +0000 UTC
     </div>
 </div>
 

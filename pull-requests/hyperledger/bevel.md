@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2195" class=".btn">#2195</a>
+            </td>
+            <td>
+                <b>
+                    Besu 2157
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **bug(besu): updated reset.yaml** 
+
+Added patching and deletion code for the following kubernetes resources
+ 1. ClusterRole 
+ 2. ClusterRoleBinding 
+ 3. GitRepository 
+ 4. Kustomization 
+ 5. HelmChart 
+ 6. HelmRelease
+ 7. Organizations namespaces
+ 8. flux namespace
+ 
+fixes #2157 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-28 12:21:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2192" class=".btn">#2192</a>
             </td>
             <td>

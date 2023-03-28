@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-methods-registry
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-methods-registry/pull/17" class=".btn">#17</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-methods-registry/pull/18" class=".btn">#18</a>
             </td>
             <td>
                 <b>
-                    Cardano Method
+                    Quick update to link
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/anoncreds-methods-registry
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-03 18:24:28 +0000 UTC
+        Created At 2023-03-28 06:20:54 +0000 UTC
     </div>
 </div>
 
