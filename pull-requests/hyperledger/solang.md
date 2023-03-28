@@ -14,11 +14,39 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1241" class=".btn">#1241</a>
+            </td>
+            <td>
+                <b>
+                    When resolving events in base contracts, use correct file number
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The file number should be of where the base contract is defined, not the contract where we're trying to do the lookup.
+
+Fixes: https://github.com/hyperledger/solang/issues/1234
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-28 15:41:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1239" class=".btn">#1239</a>
             </td>
             <td>
                 <b>
-                    Bump solana_rbpf and towerlsp crates
+                    Bump solana_rbpf, tower-lsp, and contract-metadata crates
                 </b>
             </td>
         </tr>
@@ -242,32 +270,6 @@ For serialization consistency, we must care about the order in which we place ac
     </table>
     <div class="right-align">
         Created At 2023-03-22 12:47:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1230" class=".btn">#1230</a>
-            </td>
-            <td>
-                <b>
-                    Fix panic when lexing ".9" at the beginning of a file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-21 14:47:10 +0000 UTC
     </div>
 </div>
 

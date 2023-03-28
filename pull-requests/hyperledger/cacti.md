@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2351" class=".btn">#2351</a>
+            </td>
+            <td>
+                <b>
+                    fix(relay): rust build fails after tokio bump from 0.2.25 to 1.18.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                    Additionally:
+    - upgrade other dependencies for relay
+    - added tls based unit test in relay
+
+Closes #2349 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-28 16:46:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2350" class=".btn">#2350</a>
             </td>
             <td>

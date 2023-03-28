@@ -158,29 +158,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/659" class=".btn">#659</a>
-            </td>
-            <td>
-                <b>
-                    fix(javascript): shared modules constructor parameters
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Solves #658
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-21 17:03:26 +0000 UTC
-    </div>
-</div>
-

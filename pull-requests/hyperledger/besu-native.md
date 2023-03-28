@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/104" class=".btn">#104</a>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/105" class=".btn">#105</a>
             </td>
             <td>
                 <b>
-                    prepare 0.7.2 release
+                    Simple implementation of mimc, light-tested
                 </b>
             </td>
         </tr>
@@ -27,69 +27,53 @@ permalink: /pull-requests/hyperledger/besu-native
                 
             </td>
             <td>
-                Signed-off-by: Danno Ferrin <danno.ferrin@swirldslabs.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-07 16:22:32 +0000 UTC
-    </div>
-</div>
+                ## Add an implementation of MiMC on the bn254 scalar field in rust.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/103" class=".btn">#103</a>
-            </td>
-            <td>
-                <b>
-                    Release 0.7.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Re-spin on Ubuntu 20.04 and Mac OSX 11.0
+/// MIMC7 is a hash function suited for BN256's scalar field.
+///
+/// It has modulus
+/// p = 21888242871839275222246405745257275088548364400416034343698204186575808495617
+///
+/// The MIMC paper (https://eprint.iacr.org/2016/492.pdf) states that monomial x^d is a permutation
+/// in Fp if gcd(d,p) == 1
+///
+/// Exponent for MIMC7 is 5, which satisfies the above condition.
+/// MIMC can't be implemented generically as different
+/// prime fields will require different MIMC implementations.
+///
+/// ```code
+/// pseudo code:
+fn mimc5_permutation(constants, x, k):
+    h := x;
+    for i = 0..constants.len() {
+        h := h + k + constants[i]
+        h := h^5;
+    }
+    h = h + k;
+    return h;
 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2022-12-07 04:41:17 +0000 UTC
-    </div>
-</div>
+## Interface
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/102" class=".btn">#102</a>
-            </td>
-            <td>
-                <b>
-                    Use specific CI OS versions.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Github Actions recently migrated the major versions of ubuntu and macosx for its standard builders. This "stealth" upgrade made the 0.7.0 release unsuitable for CI use as it started depending on newer versions
- of glibc.
+```rust
+pub fn mimc_hash<T : AsRef<[u8]>>(bytes: T) -> Vec<u8>;
+```
+The implementation targets full consistency with the present implementation:
 
- Fix the versions of ubuntu and macos to pre-october values.
+
+
+## Consistency testing with gnark's implementation
+
+gnark and the present implementation are tested to give the same result for the strings.
+
+* `0x0000000000000000000000000000000000000000000000000000000000000000`
+* `0x0000000000000000000000000000000000000000000000000000000000000001`
+* `0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000003000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000050000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000700000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000009000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000b000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000000d000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000000f`
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-07 04:39:41 +0000 UTC
+        Created At 2023-03-28 14:35:07 +0000 UTC
     </div>
 </div>
 

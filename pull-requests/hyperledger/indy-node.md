@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1807" class=".btn">#1807</a>
+            </td>
+            <td>
+                <b>
+                    fixed test-automation tag
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-28 12:35:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-node/pull/1804" class=".btn">#1804</a>
             </td>
             <td>
