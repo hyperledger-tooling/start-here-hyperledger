@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2180" class=".btn">#2180</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2192" class=".btn">#2192</a>
             </td>
             <td>
                 <b>
-                    [ci-skip] Fabric running upgrading from 1.4.x to 2.2.x uses incorrect…
+                    [besu] fixed the helm ansible module for TLS cert creation using cert manager
                 </b>
             </td>
         </tr>
@@ -27,19 +27,20 @@ permalink: /pull-requests/hyperledger/bevel
                 
             </td>
             <td>
-                [ci-skip] Fabric running upgrading from 1.4.x to 2.2.x uses incorrect flag condition
-   - Fix platforms/hyperledger-fabric/charts/peernode/templates/deployment.yaml flag condition
-   - Fix platforms/hyperledger-fabric/configuration/roles/helm_component/templates/value_peer.tpl upgrade field
-   - Fix platforms/hyperledger-fabric/configuration/upgrade-network.yaml flag condition
-   - Add platforms/hyperledger-fabric/configuration/upgrade-network.yaml delete temp pod task
+                changes:
+Removed the helm module while creation of TLS cert by cert manager because we are deploying helm chart using shell module
+changed the order of organization.issuer to check if it is defined/undefined and then to check the value if it is default/letsencrypt instead of first checking value and then checking if it is defined
 
-Fixes #2142 
+Reviewers:
+@suvajit-sarkar @sownak @jagpreetsinghsasan 
 
+Fixes:
+hotfix
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-14 17:02:38 +0000 UTC
+        Created At 2023-03-24 11:31:23 +0000 UTC
     </div>
 </div>
 
@@ -47,11 +48,11 @@ Fixes #2142
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2179" class=".btn">#2179</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2191" class=".btn">#2191</a>
             </td>
             <td>
                 <b>
-                    Update maintainers
+                    [besu] updated reset.yaml
                 </b>
             </td>
         </tr>
@@ -60,13 +61,25 @@ Fixes #2142
                 
             </td>
             <td>
-                Move Jonathan to Emeritus status
-Add Jagpreet and Aditya to maintainers
+                # Commit to be reviewed
+----------------------------------
+
+bug(besu): updated reset.yaml
+
+    Added patching and deletion code for the following kubernetes resources
+    1. ClusterRole
+    2. ClusterRoleBinding
+    3. GitRepository
+    4. Kustomization
+    5. HelmChart
+    6. HelmRelease
+    
+fixes #2157
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-14 15:43:27 +0000 UTC
+        Created At 2023-03-24 05:43:47 +0000 UTC
     </div>
 </div>
 
@@ -74,11 +87,11 @@ Add Jagpreet and Aditya to maintainers
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2178" class=".btn">#2178</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2190" class=".btn">#2190</a>
             </td>
             <td>
                 <b>
-                    Update: Move tkuhrt to Emeritus status
+                    [chore] Merge Develop
                 </b>
             </td>
         </tr>
@@ -87,44 +100,57 @@ Add Jagpreet and Aditya to maintainers
                 
             </td>
             <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-13 16:58:54 +0000 UTC
-    </div>
-</div>
+                commit_title
+   - Add
+   - Fix
+   - Update 
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2177" class=".btn">#2177</a>
-            </td>
-            <td>
-                <b>
-                    [besu] Deploy supplychain smart contract for IBFT
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                [besu] Deploy supplychain smart contract for IBFT
-   - Update platforms/hyperledger-besu/configuration/roles/create/genesis/ibft role
-
-Fixes #2174
+Fixes #issue_number
 
 ---
+**Example (for reference only)**:   
+
+feat(fabric): support for v2.2.3
+  - Add platforms/hyperledger-fabric/charts/commit_chaincode chart
+  - Add platforms/hyperledger-fabric/charts/approve_chaincode
+  - Update platforms/hyperledger-fabric/configuration/deploy-network.yaml  
+
+Fixes #000
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-22 16:01:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2189" class=".btn">#2189</a>
+            </td>
+            <td>
+                <b>
+                    [indy] change indy image names in code to match with ghcr.io
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                change indy image names in code to match with ghcr.io
+   - Update indy image names
+
+Fixes #2188 
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-09 17:02:30 +0000 UTC
+        Created At 2023-03-22 11:17:18 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/59" class=".btn">#59</a>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/64" class=".btn">#64</a>
             </td>
             <td>
                 <b>
-                    Update FFTM to v1.2.6 to add client CLI
+                    Only require the -f parameter on the root command
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
                 
             </td>
             <td>
-                <nil>
+                The `version`/`docs`/`client` commands do not need `-f`.
+
+This PR also exposes `InitConfig` separate to the command, for other tools to wrap this package and install extra plugins.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-10 21:28:30 +0000 UTC
+        Created At 2023-03-23 10:08:30 +0000 UTC
     </div>
 </div>
 

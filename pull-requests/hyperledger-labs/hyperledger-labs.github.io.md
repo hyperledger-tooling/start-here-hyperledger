@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/229" class=".btn">#229</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/230" class=".btn">#230</a>
             </td>
             <td>
                 <b>
-                    Cardea
+                    Archive solang lab as solang has moved out of labs into incubation
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                Cardea is a complete ecosystem for the exchange of privacy-preserving digital credentials, currently open sourced as a project in Linux Foundation Public Health (LFPH).
+                Solang has moved out of labs into incubation and this page is out of date
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-09 17:51:51 +0000 UTC
+        Created At 2023-03-27 18:38:02 +0000 UTC
     </div>
 </div>
 

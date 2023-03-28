@@ -14,37 +14,11 @@ permalink: /pull-requests/hyperledger/aries-toolbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/307" class=".btn">#307</a>
+                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/318" class=".btn">#318</a>
             </td>
             <td>
                 <b>
-                    Merge dependabot commits
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Merged as many of the dependabot commits as I could while still allowing the toolbox to build. The remaining commits failed to build.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-14 22:18:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/306" class=".btn">#306</a>
-            </td>
-            <td>
-                <b>
-                    chore(deps-dev): Bump webpack from 5.68.0 to 5.76.0
+                    chore(deps): Bump glob-parent and webpack-dev-server
                 </b>
             </td>
         </tr>
@@ -53,65 +27,98 @@ permalink: /pull-requests/hyperledger/aries-toolbox
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [webpack](https://github.com/webpack/webpack) from 5.68.0 to 5.76.0.
+                Bumps [glob-parent](https://github.com/gulpjs/glob-parent) to 5.1.2 and updates ancestor dependency [webpack-dev-server](https://github.com/webpack/webpack-dev-server). These dependencies need to be updated together.
+
+Updates `glob-parent` from 3.1.0 to 5.1.2
 <details>
 <summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/webpack/webpack/releases">webpack's releases</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/gulpjs/glob-parent/releases">glob-parent's releases</a>.</em></p>
 <blockquote>
-<h2>v5.76.0</h2>
-<h2>Bugfixes</h2>
+<h2>v5.1.2</h2>
+<h3>Bug Fixes</h3>
 <ul>
-<li>Avoid cross-realm object access by <a href="https://github.com/Jack-Works"><code>@​Jack-Works</code></a> in <a href="https://redirect.github.com/webpack/webpack/pull/16500">webpack/webpack#16500</a></li>
-<li>Improve hash performance via conditional initialization by <a href="https://github.com/lvivski"><code>@​lvivski</code></a> in <a href="https://redirect.github.com/webpack/webpack/pull/16491">webpack/webpack#16491</a></li>
-<li>Serialize <code>generatedCode</code> info to fix bug in asset module cache restoration by <a href="https://github.com/ryanwilsonperkin"><code>@​ryanwilsonperkin</code></a> in <a href="https://redirect.github.com/webpack/webpack/pull/16703">webpack/webpack#16703</a></li>
-<li>Improve performance of <code>hashRegExp</code> lookup by <a href="https://github.com/ryanwilsonperkin"><code>@​ryanwilsonperkin</code></a> in <a href="https://redirect.github.com/webpack/webpack/pull/16759">webpack/webpack#16759</a></li>
+<li>eliminate ReDoS (<a href="https://redirect.github.com/gulpjs/glob-parent/issues/36">#36</a>) (<a href="https://github.com/gulpjs/glob-parent/commit/f9231168b0041fea3f8f954b3cceb56269fc6366">f923116</a>)</li>
 </ul>
-<h2>Features</h2>
+<h2>v5.1.1</h2>
+<h3>Bug Fixes</h3>
 <ul>
-<li>add <code>target</code> to <code>LoaderContext</code> type by <a href="https://github.com/askoufis"><code>@​askoufis</code></a> in <a href="https://redirect.github.com/webpack/webpack/pull/16781">webpack/webpack#16781</a></li>
+<li>unescape exclamation mark (<a href="https://redirect.github.com/gulpjs/glob-parent/issues/26">#26</a>) (<a href="https://github.com/gulpjs/glob-parent/commit/a98874f1a59e407f4fb1beb0db4efa8392da60bb">a98874f</a>)</li>
 </ul>
-<h2>Security</h2>
+<h2>v5.1.0</h2>
+<h3>Features</h3>
 <ul>
-<li><a href="https://github.com/advisories/GHSA-3rfm-jhwj-7488">CVE-2022-37603</a> fixed by <a href="https://github.com/akhilgkrishnan"><code>@​akhilgkrishnan</code></a> in <a href="https://redirect.github.com/webpack/webpack/pull/16446">webpack/webpack#16446</a></li>
+<li>add <code>flipBackslashes</code> option to disable auto conversion of slashes (closes <a href="https://redirect.github.com/gulpjs/glob-parent/issues/24">#24</a>) (<a href="https://redirect.github.com/gulpjs/glob-parent/issues/25">#25</a>) (<a href="https://github.com/gulpjs/glob-parent/commit/eecf91d5e3834ed78aee39c4eaaae654d76b87b3">eecf91d</a>)</li>
 </ul>
-<h2>Repo Changes</h2>
+<h2>v5.0.0</h2>
+<h3>⚠ BREAKING CHANGES</h3>
 <ul>
-<li>Fix HTML5 logo in README by <a href="https://github.com/jakebailey"><code>@​jakebailey</code></a> in <a href="https://redirect.github.com/webpack/webpack/pull/16614">webpack/webpack#16614</a></li>
-<li>Replace TypeScript logo in README by <a href="https://github.com/jakebailey"><code>@​jakebailey</code></a> in <a href="https://redirect.github.com/webpack/webpack/pull/16613">webpack/webpack#16613</a></li>
-<li>Update actions/cache dependencies by <a href="https://github.com/piwysocki"><code>@​piwysocki</code></a> in <a href="https://redirect.github.com/webpack/webpack/pull/16493">webpack/webpack#16493</a></li>
+<li>Drop support for node &lt;6 &amp; bump dependencies</li>
 </ul>
-<h2>New Contributors</h2>
+<h3>Miscellaneous Chores</h3>
 <ul>
-<li><a href="https://github.com/Jack-Works"><code>@​Jack-Works</code></a> made their first contribution in <a href="https://redirect.github.com/webpack/webpack/pull/16500">webpack/webpack#16500</a></li>
-<li><a href="https://github.com/lvivski"><code>@​lvivski</code></a> made their first contribution in <a href="https://redirect.github.com/webpack/webpack/pull/16491">webpack/webpack#16491</a></li>
-<li><a href="https://github.com/jakebailey"><code>@​jakebailey</code></a> made their first contribution in <a href="https://redirect.github.com/webpack/webpack/pull/16614">webpack/webpack#16614</a></li>
-<li><a href="https://github.com/akhilgkrishnan"><code>@​akhilgkrishnan</code></a> made their first contribution in <a href="https://redirect.github.com/webpack/webpack/pull/16446">webpack/webpack#16446</a></li>
-<li><a href="https://github.com/ryanwilsonperkin"><code>@​ryanwilsonperkin</code></a> made their first contribution in <a href="https://redirect.github.com/webpack/webpack/pull/16703">webpack/webpack#16703</a></li>
-<li><a href="https://github.com/piwysocki"><code>@​piwysocki</code></a> made their first contribution in <a href="https://redirect.github.com/webpack/webpack/pull/16493">webpack/webpack#16493</a></li>
-<li><a href="https://github.com/askoufis"><code>@​askoufis</code></a> made their first contribution in <a href="https://redirect.github.com/webpack/webpack/pull/16781">webpack/webpack#16781</a></li>
+<li>Drop support for node &lt;6 &amp; bump dependencies (<a href="https://github.com/gulpjs/glob-parent/commit/896c0c00b4e7362f60b96e7fc295ae929245255a">896c0c0</a>)</li>
 </ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/webpack/webpack/compare/v5.75.0...v5.76.0">https://github.com/webpack/webpack/compare/v5.75.0...v5.76.0</a></p>
-<h2>v5.75.0</h2>
-<h1>Bugfixes</h1>
+<h2>v4.0.0</h2>
+<h3>⚠ BREAKING CHANGES</h3>
 <ul>
-<li><code>experiments.*</code> normalize to <code>false</code> when opt-out</li>
-<li>avoid <code>NaN%</code></li>
-<li>show the correct error when using a conflicting chunk name in code</li>
-<li>HMR code tests existance of <code>window</code> before trying to access it</li>
-<li>fix <code>eval-nosources-*</code> actually exclude sources</li>
-<li>fix race condition where no module is returned from processing module</li>
-<li>fix position of standalong semicolon in runtime code</li>
+<li>question marks are valid path characters on Windows so avoid flagging as a glob when alone</li>
+<li>Update is-glob dependency</li>
 </ul>
-<h1>Features</h1>
+<h3>Features</h3>
 <ul>
-<li>add support for <code>@import</code> to extenal CSS when using experimental CSS in node</li>
-<li>add <code>i64</code> support to the deprecated WASM implementation</li>
+<li>hoist regexps and strings for performance gains (<a href="https://github.com/gulpjs/glob-parent/commit/4a80667c69355c76a572a5892b0f133c8e1f457e">4a80667</a>)</li>
+<li>question marks are valid path characters on Windows so avoid flagging as a glob when alone (<a href="https://github.com/gulpjs/glob-parent/commit/2a551dd0dc3235e78bf3c94843d4107072d17841">2a551dd</a>)</li>
+<li>Update is-glob dependency (<a href="https://github.com/gulpjs/glob-parent/commit/e41fcd895d1f7bc617dba45c9d935a7949b9c281">e41fcd8</a>)</li>
 </ul>
-<h1>Developer Experience</h1>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/gulpjs/glob-parent/blob/main/CHANGELOG.md">glob-parent's changelog</a>.</em></p>
+<blockquote>
+<h3><a href="https://github.com/gulpjs/glob-parent/compare/v5.1.1...v5.1.2">5.1.2</a> (2021-03-06)</h3>
+<h3>Bug Fixes</h3>
 <ul>
-<li>expose <code>EnableWasmLoadingPlugin</code></li>
-<li>add more typings</li>
-<li>generate getters instead of readonly properties in typings to allow overriding them</li>
+<li>eliminate ReDoS (<a href="https://redirect.github.com/gulpjs/glob-parent/issues/36">#36</a>) (<a href="https://github.com/gulpjs/glob-parent/commit/f9231168b0041fea3f8f954b3cceb56269fc6366">f923116</a>)</li>
+</ul>
+<h3><a href="https://www.github.com/gulpjs/glob-parent/compare/v6.0.1...v6.0.2">6.0.2</a> (2021-09-29)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li>Improve performance (<a href="https://redirect.github.com/gulpjs/glob-parent/issues/53">#53</a>) (<a href="https://www.github.com/gulpjs/glob-parent/commit/843f8de1c177e9a5c06c4cfd2349ca5207168e00">843f8de</a>)</li>
+</ul>
+<h3><a href="https://www.github.com/gulpjs/glob-parent/compare/v6.0.0...v6.0.1">6.0.1</a> (2021-07-20)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li>Resolve ReDoS vulnerability from CVE-2021-35065 (<a href="https://redirect.github.com/gulpjs/glob-parent/issues/49">#49</a>) (<a href="https://www.github.com/gulpjs/glob-parent/commit/3e9f04a3b4349db7e1962d87c9a7398cda51f339">3e9f04a</a>)</li>
+</ul>
+<h2><a href="https://www.github.com/gulpjs/glob-parent/compare/v5.1.2...v6.0.0">6.0.0</a> (2021-05-03)</h2>
+<h3>⚠ BREAKING CHANGES</h3>
+<ul>
+<li>Correct mishandled escaped path separators (<a href="https://redirect.github.com/gulpjs/glob-parent/issues/34">#34</a>)</li>
+<li>upgrade scaffold, dropping node &lt;10 support</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li>Correct mishandled escaped path separators (<a href="https://redirect.github.com/gulpjs/glob-parent/issues/34">#34</a>) (<a href="https://www.github.com/gulpjs/glob-parent/commit/32f6d52663b7addac38d0dff570d8127edf03f47">32f6d52</a>), closes <a href="https://redirect.github.com/gulpjs/glob-parent/issues/32">#32</a></li>
+</ul>
+<h3>Miscellaneous Chores</h3>
+<ul>
+<li>upgrade scaffold, dropping node &lt;10 support (<a href="https://www.github.com/gulpjs/glob-parent/commit/e83d0c5a411947cf69eb58f36349db80439c606f">e83d0c5</a>)</li>
+</ul>
+<h3><a href="https://github.com/gulpjs/glob-parent/compare/v5.1.0...v5.1.1">5.1.1</a> (2021-01-27)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li>unescape exclamation mark (<a href="https://redirect.github.com/gulpjs/glob-parent/issues/26">#26</a>) (<a href="https://github.com/gulpjs/glob-parent/commit/a98874f1a59e407f4fb1beb0db4efa8392da60bb">a98874f</a>)</li>
+</ul>
+<h2><a href="https://github.com/gulpjs/glob-parent/compare/v5.0.0...v5.1.0">5.1.0</a> (2021-01-27)</h2>
+<h3>Features</h3>
+<ul>
+<li>add <code>flipBackslashes</code> option to disable auto conversion of slashes (closes <a href="https://redirect.github.com/gulpjs/glob-parent/issues/24">#24</a>) (<a href="https://redirect.github.com/gulpjs/glob-parent/issues/25">#25</a>) (<a href="https://github.com/gulpjs/glob-parent/commit/eecf91d5e3834ed78aee39c4eaaae654d76b87b3">eecf91d</a>)</li>
+</ul>
+<h2><a href="https://github.com/gulpjs/glob-parent/compare/v4.0.0...v5.0.0">5.0.0</a> (2021-01-27)</h2>
+<h3>⚠ BREAKING CHANGES</h3>
+<ul>
+<li>Drop support for node &lt;6 &amp; bump dependencies</li>
 </ul>
 <!-- raw HTML omitted -->
 </blockquote>
@@ -120,27 +127,136 @@ permalink: /pull-requests/hyperledger/aries-toolbox
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/webpack/webpack/commit/97b1718720c33f1b17302a74c5284b01e02ec001"><code>97b1718</code></a> Merge pull request <a href="https://redirect.github.com/webpack/webpack/issues/16781">#16781</a> from askoufis/loader-context-target-type</li>
-<li><a href="https://github.com/webpack/webpack/commit/b84efe6224b276bf72e4c5e2f4e76acddfaeef07"><code>b84efe6</code></a> Merge pull request <a href="https://redirect.github.com/webpack/webpack/issues/16759">#16759</a> from ryanwilsonperkin/real-content-hash-regex-perf</li>
-<li><a href="https://github.com/webpack/webpack/commit/c98e9e001441b165c7ed4845700839730b505833"><code>c98e9e0</code></a> Merge pull request <a href="https://redirect.github.com/webpack/webpack/issues/16493">#16493</a> from piwysocki/patch-1</li>
-<li><a href="https://github.com/webpack/webpack/commit/5f34acfbc074da6cc09f48944d7f2b4273ffb3f8"><code>5f34acf</code></a> feat: Add <code>target</code> to <code>LoaderContext</code> type</li>
-<li><a href="https://github.com/webpack/webpack/commit/b7fc4d876deb958d7ee81ecc00a312e39a354a44"><code>b7fc4d8</code></a> Merge pull request <a href="https://redirect.github.com/webpack/webpack/issues/16703">#16703</a> from ryanwilsonperkin/ryanwilsonperkin/fix-16160</li>
-<li><a href="https://github.com/webpack/webpack/commit/63ea82da4d4e4242b6a6285fc937f0684f264fe8"><code>63ea82d</code></a> Merge branch 'webpack:main' into patch-1</li>
-<li><a href="https://github.com/webpack/webpack/commit/4ba225225b1348c8776ca5b5fe53468519413bc0"><code>4ba2252</code></a> Merge pull request <a href="https://redirect.github.com/webpack/webpack/issues/16446">#16446</a> from akhilgkrishnan/patch-1</li>
-<li><a href="https://github.com/webpack/webpack/commit/1acd6350be3d74d4ac70b64cbbc60f27724b618b"><code>1acd635</code></a> Merge pull request <a href="https://redirect.github.com/webpack/webpack/issues/16613">#16613</a> from jakebailey/ts-logo</li>
-<li><a href="https://github.com/webpack/webpack/commit/302eb37fe19ed7ca60eaf895aca4f9da9dfd7931"><code>302eb37</code></a> Merge pull request <a href="https://redirect.github.com/webpack/webpack/issues/16614">#16614</a> from jakebailey/html5-logo</li>
-<li><a href="https://github.com/webpack/webpack/commit/cfdb1dfe59b33bf7441b8a8e4fc58d75e4f54cee"><code>cfdb1df</code></a> Improve performance of hashRegExp lookup</li>
-<li>Additional commits viewable in <a href="https://github.com/webpack/webpack/compare/v5.68.0...v5.76.0">compare view</a></li>
+<li><a href="https://github.com/gulpjs/glob-parent/commit/eb2c439de448c779b450472e591a2bc9e37e9668"><code>eb2c439</code></a> chore: update changelog</li>
+<li><a href="https://github.com/gulpjs/glob-parent/commit/12bcb6c45c942e2d05fc1e6ff5402e72555b54b6"><code>12bcb6c</code></a> chore: release 5.1.2</li>
+<li><a href="https://github.com/gulpjs/glob-parent/commit/f9231168b0041fea3f8f954b3cceb56269fc6366"><code>f923116</code></a> fix: eliminate ReDoS (<a href="https://redirect.github.com/gulpjs/glob-parent/issues/36">#36</a>)</li>
+<li><a href="https://github.com/gulpjs/glob-parent/commit/0b014a7962789b2d8f2cf0b6311f40667aecd62c"><code>0b014a7</code></a> chore: add JSDoc returns information (<a href="https://redirect.github.com/gulpjs/glob-parent/issues/33">#33</a>)</li>
+<li><a href="https://github.com/gulpjs/glob-parent/commit/2b24ebd64b2a045aa167c825376335555da139fd"><code>2b24ebd</code></a> chore: generate initial changelog</li>
+<li><a href="https://github.com/gulpjs/glob-parent/commit/9b6e8747ddf664c9b1a36fbd2a23e43a35b8a52f"><code>9b6e874</code></a> chore: release 5.1.1</li>
+<li><a href="https://github.com/gulpjs/glob-parent/commit/749c35ee084498ebb1ce8cc9cf655f6aa4d623c5"><code>749c35e</code></a> ci: try wrapping the JOB_ID in a string</li>
+<li><a href="https://github.com/gulpjs/glob-parent/commit/5d39def48c9e9eaee0ca36dafdf7b6cdcd875b85"><code>5d39def</code></a> ci: attempt to switch to published coveralls</li>
+<li><a href="https://github.com/gulpjs/glob-parent/commit/0b5b37f674a7e207457c99cb2f123299e5ab31c9"><code>0b5b37f</code></a> ci: put the npm step back in for only Windows</li>
+<li><a href="https://github.com/gulpjs/glob-parent/commit/473f5d87644bf19f32c53de21d2420f03aa02e5a"><code>473f5d8</code></a> ci: update azure build images</li>
+<li>Additional commits viewable in <a href="https://github.com/gulpjs/glob-parent/compare/v3.1.0...v5.1.2">compare view</a></li>
 </ul>
 </details>
 <details>
 <summary>Maintainer changes</summary>
-<p>This version was pushed to npm by <a href="https://www.npmjs.com/~evilebottnawi">evilebottnawi</a>, a new releaser for webpack since your current version.</p>
+<p>This version was pushed to npm by <a href="https://www.npmjs.com/~phated">phated</a>, a new releaser for glob-parent since your current version.</p>
 </details>
 <br />
 
+Updates `webpack-dev-server` from 3.11.3 to 4.13.1
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/webpack/webpack-dev-server/releases">webpack-dev-server's releases</a>.</em></p>
+<blockquote>
+<h2>v4.13.1</h2>
+<h3><a href="https://github.com/webpack/webpack-dev-server/compare/v4.13.0...v4.13.1">4.13.1</a> (2023-03-18)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li>make webpack optional peer dependency (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4778">#4778</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/71be54edcb890f53d2cd900c2801989a17c2c9b1">71be54e</a>)</li>
+</ul>
+<h2>v4.13.0</h2>
+<h2><a href="https://github.com/webpack/webpack-dev-server/compare/v4.12.0...v4.13.0">4.13.0</a> (2023-03-17)</h2>
+<h3>Features</h3>
+<ul>
+<li>added <code>client.overlay.runtimeErrors</code> option to control runtime errors (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4773">#4773</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/dca2366e22a262e6052dae060c8b237f4e6fd26b">dca2366</a>)</li>
+</ul>
+<h2>v4.12.0</h2>
+<h2><a href="https://github.com/webpack/webpack-dev-server/compare/v4.11.1...v4.12.0">4.12.0</a> (2023-03-14)</h2>
+<h3>Features</h3>
+<ul>
+<li>allow to set the <code>sockjs_url</code> option (only <code>sockjs</code>) using the <code>webSocketServer.options.sockjsUrl</code> option (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4586">#4586</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/69a2fba4e915b4814de1c3cb27930a13dc994945">69a2fba</a>)</li>
+<li>catch runtime error (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4605">#4605</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/87a26cf4c1fd9ac8140d345a8520a8d5cb059556">87a26cf</a>)</li>
+<li>improve styles for overlay (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4576">#4576</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/791fb85931299eea052b3c37d4353d48ea34fa5e">791fb85</a>)</li>
+<li>open editor when clicking error on overlay (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4587">#4587</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/efb2cec3f8acbbe5113aad20529e268c01ac29c2">efb2cec</a>)</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li>compatibility with <code>experiments.buildHttp</code> (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4585">#4585</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/5b846cbe9bfb8444bc7605654fcebf4e87766aa4">5b846cb</a>)</li>
+<li>respect <code>NODE_PATH</code> env variable (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4581">#4581</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/b857e6fa3b86facc63811438eef17be92dc36dc6">b857e6f</a>)</li>
+</ul>
+<h2>v4.11.1</h2>
+<h3><a href="https://github.com/webpack/webpack-dev-server/compare/v4.11.0...v4.11.1">4.11.1</a> (2022-09-19)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li>respect <code>client.logging</code> option for all logs (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4572">#4572</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/375835c926ec03fdfecae9ab1b54fd43b1ff4b31">375835c</a>)</li>
+</ul>
+<h2>v4.11.0</h2>
+<h2><a href="https://github.com/webpack/webpack-dev-server/compare/v4.10.1...v4.11.0">4.11.0</a> (2022-09-07)</h2>
+<h3>Features</h3>
+<ul>
+<li>make allowedHosts accept localhost subdomains by default (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4357">#4357</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/0a33e6a7529ef20ec8841c3fd501c37da179be3e">0a33e6a</a>)</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/webpack/webpack-dev-server/blob/master/CHANGELOG.md">webpack-dev-server's changelog</a>.</em></p>
+<blockquote>
+<h3><a href="https://github.com/webpack/webpack-dev-server/compare/v4.13.0...v4.13.1">4.13.1</a> (2023-03-18)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li>make webpack optional peer dependency (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4778">#4778</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/71be54edcb890f53d2cd900c2801989a17c2c9b1">71be54e</a>)</li>
+</ul>
+<h2><a href="https://github.com/webpack/webpack-dev-server/compare/v4.12.0...v4.13.0">4.13.0</a> (2023-03-17)</h2>
+<h3>Features</h3>
+<ul>
+<li>added <code>client.overlay.runtimeErrors</code> option to control runtime errors (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4773">#4773</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/dca2366e22a262e6052dae060c8b237f4e6fd26b">dca2366</a>)</li>
+</ul>
+<h2><a href="https://github.com/webpack/webpack-dev-server/compare/v4.11.1...v4.12.0">4.12.0</a> (2023-03-14)</h2>
+<h3>Features</h3>
+<ul>
+<li>allow to set the <code>sockjs_url</code> option (only <code>sockjs</code>) using the <code>webSocketServer.options.sockjsUrl</code> option (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4586">#4586</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/69a2fba4e915b4814de1c3cb27930a13dc994945">69a2fba</a>)</li>
+<li>catch runtime error (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4605">#4605</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/87a26cf4c1fd9ac8140d345a8520a8d5cb059556">87a26cf</a>)</li>
+<li>improve styles for overlay (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4576">#4576</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/791fb85931299eea052b3c37d4353d48ea34fa5e">791fb85</a>)</li>
+<li>open editor when clicking error on overlay (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4587">#4587</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/efb2cec3f8acbbe5113aad20529e268c01ac29c2">efb2cec</a>)</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li>compatibility with <code>experiments.buildHttp</code> (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4585">#4585</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/5b846cbe9bfb8444bc7605654fcebf4e87766aa4">5b846cb</a>)</li>
+<li>respect <code>NODE_PATH</code> env variable (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4581">#4581</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/b857e6fa3b86facc63811438eef17be92dc36dc6">b857e6f</a>)</li>
+</ul>
+<h3><a href="https://github.com/webpack/webpack-dev-server/compare/v4.11.0...v4.11.1">4.11.1</a> (2022-09-19)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li>respect <code>client.logging</code> option for all logs (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4572">#4572</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/375835c926ec03fdfecae9ab1b54fd43b1ff4b31">375835c</a>)</li>
+</ul>
+<h2><a href="https://github.com/webpack/webpack-dev-server/compare/v4.10.1...v4.11.0">4.11.0</a> (2022-09-07)</h2>
+<h3>Features</h3>
+<ul>
+<li>make allowedHosts accept localhost subdomains by default (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4357">#4357</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/0a33e6a7529ef20ec8841c3fd501c37da179be3e">0a33e6a</a>)</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li>auto reply to OPTIONS requests only when unhandled (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4559">#4559</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/984af026a50f3e77c58abe24475da40a4ed038f1">984af02</a>), closes <a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4551">#4551</a></li>
+</ul>
+<h3><a href="https://github.com/webpack/webpack-dev-server/compare/v4.10.0...v4.10.1">4.10.1</a> (2022-08-29)</h3>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/webpack/webpack-dev-server/commit/ed0ca20af719e553b666ad2a5bc35f0cecef6dd0"><code>ed0ca20</code></a> chore(release): 4.13.1</li>
+<li><a href="https://github.com/webpack/webpack-dev-server/commit/71be54edcb890f53d2cd900c2801989a17c2c9b1"><code>71be54e</code></a> fix: make webpack optional peer dependency (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4778">#4778</a>)</li>
+<li><a href="https://github.com/webpack/webpack-dev-server/commit/4e846078b3b9befafbc56b1cd6db7778175355c9"><code>4e84607</code></a> chore(release): 4.13.0</li>
+<li><a href="https://github.com/webpack/webpack-dev-server/commit/dca2366e22a262e6052dae060c8b237f4e6fd26b"><code>dca2366</code></a> feat: added <code>client.overlay.runtimeErrors</code> option to control runtime errors (...</li>
+<li><a href="https://github.com/webpack/webpack-dev-server/commit/46e02f3d0b8406b120dc60f6c61960fb498c5d15"><code>46e02f3</code></a> chore(deps): bump graceful-fs from 4.2.10 to 4.2.11 (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4775">#4775</a>)</li>
+<li><a href="https://github.com/webpack/webpack-dev-server/commit/cf7b0dbadb7718092ac4311dab92fd81c0c55636"><code>cf7b0db</code></a> chore(deps-dev): bump webpack from 5.76.1 to 5.76.2 (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4772">#4772</a>)</li>
+<li><a href="https://github.com/webpack/webpack-dev-server/commit/2c8d98ca37f6b510591e7f855043db0bf49f76e3"><code>2c8d98c</code></a> chore(deps-dev): bump <code>@​babel/core</code> from 7.21.0 to 7.21.3 (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4769">#4769</a>)</li>
+<li><a href="https://github.com/webpack/webpack-dev-server/commit/f1df0436922daa89650671a2be04671d8d05dce2"><code>f1df043</code></a> chore(deps-dev): bump <code>@​babel/eslint-parser</code> from 7.19.1 to 7.21.3 (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4770">#4770</a>)</li>
+<li><a href="https://github.com/webpack/webpack-dev-server/commit/4ffcf2bd7100cb317b8606f3059ad31e754ec5ec"><code>4ffcf2b</code></a> chore(release): 4.12.0</li>
+<li><a href="https://github.com/webpack/webpack-dev-server/commit/a615d5b52a77a57318da9ceac890015938452d9e"><code>a615d5b</code></a> chore(deps): update (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4768">#4768</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/webpack/webpack-dev-server/compare/v3.11.3...v4.13.1">compare view</a></li>
+</ul>
+</details>
+<br />
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=webpack&package-manager=npm_and_yarn&previous-version=5.68.0&new-version=5.76.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -164,11 +280,6 @@ You can trigger Dependabot actions by commenting on this PR:
 - `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
 - `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
 - `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
-- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
-- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
-- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
-
 You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-toolbox/network/alerts).
 
 </details>
@@ -176,7 +287,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-14 20:49:09 +0000 UTC
+        Created At 2023-03-24 16:43:49 +0000 UTC
     </div>
 </div>
 
@@ -184,11 +295,11 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/305" class=".btn">#305</a>
+                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/317" class=".btn">#317</a>
             </td>
             <td>
                 <b>
-                    chore(deps): Bump terser from 5.10.0 to 5.16.6
+                    chore(deps): Bump node-forge and webpack-dev-server
                 </b>
             </td>
         </tr>
@@ -197,59 +308,76 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [terser](https://github.com/terser/terser) from 5.10.0 to 5.16.6.
+                Bumps [node-forge](https://github.com/digitalbazaar/forge) to 1.3.1 and updates ancestor dependency [webpack-dev-server](https://github.com/webpack/webpack-dev-server). These dependencies need to be updated together.
+
+Updates `node-forge` from 0.10.0 to 1.3.1
 <details>
 <summary>Changelog</summary>
-<p><em>Sourced from <a href="https://github.com/terser/terser/blob/master/CHANGELOG.md">terser's changelog</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/digitalbazaar/forge/blob/main/CHANGELOG.md">node-forge's changelog</a>.</em></p>
 <blockquote>
-<h1>Changelog</h1>
-<h2>v5.16.7</h2>
+<h2>1.3.1 - 2022-03-29</h2>
+<h3>Fixes</h3>
 <ul>
-<li>Become less conservative with analyzing function definitions for <code>reduce_vars</code></li>
-<li>Parse <code>import.meta</code> as a real AST node and not an <code>object.property</code></li>
+<li>RFC 3447 and RFC 8017 allow for optional <code>DigestAlgorithm</code> <code>NULL</code> parameters
+for <code>sha*</code> algorithms and require <code>NULL</code> paramters for <code>md2</code> and <code>md5</code>
+algorithms.</li>
 </ul>
-<h2>v5.16.5</h2>
+<h2>1.3.0 - 2022-03-17</h2>
+<h3>Security</h3>
 <ul>
-<li>Correctly handle AST transform functions that mutate children arrays</li>
-<li>Don't mutate the options object passed to Terser (<a href="https://redirect.github.com/terser/terser/issues/1342">#1342</a>)</li>
-<li>Do not treat BigInt like a number</li>
+<li>Three RSA PKCS#1 v1.5 signature verification issues were reported by Moosa
+Yahyazadeh (<a href="mailto:moosa-yahyazadeh@uiowa.edu">moosa-yahyazadeh@uiowa.edu</a>).</li>
+<li><strong>HIGH</strong>: Leniency in checking <code>digestAlgorithm</code> structure can lead to
+signature forgery.
+<ul>
+<li>The code is lenient in checking the digest algorithm structure. This can
+allow a crafted structure that steals padding bytes and uses unchecked
+portion of the PKCS#1 encoded message to forge a signature when a low
+public exponent is being used. For more information, please see
+<a href="https://mailarchive.ietf.org/arch/msg/openpgp/5rnE9ZRN1AokBVj3VqblGlP63QE/">&quot;Bleichenbacher's RSA signature forgery based on implementation
+error&quot;</a>
+by Hal Finney.</li>
+<li>CVE ID: <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-24771">CVE-2022-24771</a></li>
+<li>GHSA ID: <a href="https://github.com/digitalbazaar/forge/security/advisories/GHSA-cfm4-qjh2-4765">GHSA-cfm4-qjh2-4765</a></li>
 </ul>
-<h2>v5.16.4</h2>
+</li>
+<li><strong>HIGH</strong>: Failing to check tailing garbage bytes can lead to signature
+forgery.
 <ul>
-<li>Keep <code>(defaultArg = undefined) =&gt; ...</code>, because default args don't count for function length</li>
-<li>Prevent inlining variables into <code>?.</code> optional chains</li>
-<li>Avoid removing unused arguments while transforming</li>
-<li>Optimize iterating AST node lists</li>
-<li>Make sure <code>catch</code> and <code>finally</code> aren't children of <code>try</code> in the AST</li>
-<li>Use modern unicode property escapes (<code>\p{...}</code>) to parse identifiers when available</li>
+<li>The code does not check for tailing garbage bytes after decoding a
+<code>DigestInfo</code> ASN.1 structure. This can allow padding bytes to be removed
+and garbage data added to forge a signature when a low public exponent is
+being used.  For more information, please see <a href="https://mailarchive.ietf.org/arch/msg/openpgp/5rnE9ZRN1AokBVj3VqblGlP63QE/">&quot;Bleichenbacher's RSA
+signature forgery based on implementation
+error&quot;</a>
+by Hal Finney.</li>
+<li>CVE ID: <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-24772">CVE-2022-24772</a></li>
+<li>GHSA ID: <a href="https://github.com/digitalbazaar/forge/security/advisories/GHSA-x4jg-mjrx-434g">GHSA-x4jg-mjrx-434g</a></li>
 </ul>
-<h2>v5.16.3</h2>
+</li>
+<li><strong>MEDIUM</strong>: Leniency in checking type octet.
 <ul>
-<li>Ensure function definitions, don't assume the values of variables defined after them.</li>
+<li><code>DigestInfo</code> is not properly checked for proper ASN.1 structure. This can
+lead to successful verification with signatures that contain invalid
+structures but a valid digest.</li>
+<li>CVE ID: <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-24773">CVE-2022-24773</a></li>
+<li>GHSA ID: <a href="https://github.com/digitalbazaar/forge/security/advisories/GHSA-2r2c-g63r-vccr">GHSA-2r2c-g63r-vccr</a></li>
 </ul>
-<h2>v5.16.2</h2>
-<ul>
-<li>Fix sourcemaps with non-ascii characters (<a href="https://redirect.github.com/terser/terser/issues/1318">#1318</a>)</li>
-<li>Support string module name and export * as (<a href="https://redirect.github.com/terser/terser/issues/1336">#1336</a>)</li>
-<li>Do not move <code>let</code> out of <code>for</code> initializers, as it can change scoping</li>
-<li>Fix a corner case that would generate the invalid syntax <code>if (something) let x</code> (&quot;let&quot; in braceless if body)</li>
-<li>Knowledge of more native object properties (<a href="https://redirect.github.com/terser/terser/issues/1330">#1330</a>)</li>
-<li>Got rid of Travis (<a href="https://redirect.github.com/terser/terser/issues/1323">#1323</a>)</li>
-<li>Added semi-secret <code>asObject</code> sourcemap option to typescript defs (<a href="https://redirect.github.com/terser/terser/issues/1321">#1321</a>)</li>
+</li>
 </ul>
-<h2>v5.16.1</h2>
+<h3>Fixed</h3>
 <ul>
-<li>Properly handle references in destructurings (<code>const { [reference]: val } = ...</code>)</li>
-<li>Allow parsing of <code>.#privatefield</code> in nested classes</li>
-<li>Do not evaluate operations that return large strings if that would make the output code larger</li>
-<li>Make <code>collapse_vars</code> handle block scope correctly</li>
-<li>Internal improvements: Typos (<a href="https://redirect.github.com/terser/terser/issues/1311">#1311</a>), more tests, small-scale refactoring</li>
+<li>[asn1] Add fallback to pretty print invalid UTF8 data.</li>
+<li>[asn1] <code>fromDer</code> is now more strict and will default to ensuring all input
+bytes are parsed or throw an error. A new option <code>parseAllBytes</code> can disable
+this behavior.
+<ul>
+<li><strong>NOTE</strong>: The previous behavior is being changed since it can lead to
+security issues with crafted inputs. It is possible that code doing custom
+DER parsing may need to adapt to this new behavior and optional flag.</li>
 </ul>
-<h2>v5.16.0</h2>
-<ul>
-<li>Disallow private fields in object bodies (<a href="https://redirect.github.com/terser/terser/issues/1011">#1011</a>)</li>
-<li>Parse <code>#privatefield in object</code> (<a href="https://redirect.github.com/terser/terser/issues/1279">#1279</a>)</li>
-<li>Compress <code>#privatefield in object</code></li>
+</li>
+<li>[rsa] Add and use a validator to check for proper structure of parsed ASN.1</li>
 </ul>
 <!-- raw HTML omitted -->
 </blockquote>
@@ -258,23 +386,132 @@ You can disable automated security fix PRs for this repo from the [Security Aler
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/terser/terser/commit/91176951ec005f0b8f9b5498a33b5763dff7d8ab"><code>9117695</code></a> 5.16.6</li>
-<li><a href="https://github.com/terser/terser/commit/96abde59dde46c520ea56aa20bd360a3c30012f3"><code>96abde5</code></a> update changelog</li>
-<li><a href="https://github.com/terser/terser/commit/4d6c4f6db38c0de266256bc9834035189fb5a1b3"><code>4d6c4f6</code></a> Fix output increase by walking function definitions first. Closes <a href="https://redirect.github.com/terser/terser/issues/1338">#1338</a> while...</li>
-<li><a href="https://github.com/terser/terser/commit/8a1b2400af130369cd4a44be526e5e58fb6cd58f"><code>8a1b240</code></a> Parse import.meta as a special expression. Closes <a href="https://redirect.github.com/terser/terser/issues/1349">#1349</a></li>
-<li><a href="https://github.com/terser/terser/commit/c7d844b4a9dbf50c3471d5dd1115445b2ae5ed7a"><code>c7d844b</code></a> 5.16.5</li>
-<li><a href="https://github.com/terser/terser/commit/4f447540897ded9be5621a7a19f13dc36e89ec9c"><code>4f44754</code></a> update changelog</li>
-<li><a href="https://github.com/terser/terser/commit/324c63d961dea678dfb7eae95dd93dc0f2e0748a"><code>324c63d</code></a> add new test</li>
-<li><a href="https://github.com/terser/terser/commit/fa6f16467165730aff45f6165afce33714c32dc8"><code>fa6f164</code></a> don't assume transform functions don't mutate AST arrays. Closes <a href="https://redirect.github.com/terser/terser/issues/1351">#1351</a></li>
-<li><a href="https://github.com/terser/terser/commit/3c9fc4c53e325960cd97c6195a9e70a3d93439eb"><code>3c9fc4c</code></a> Don't mutate options object. Fixes <a href="https://redirect.github.com/terser/terser/issues/1341">#1341</a> (<a href="https://redirect.github.com/terser/terser/issues/1342">#1342</a>)</li>
-<li><a href="https://github.com/terser/terser/commit/e062dc8ddf661d560d8778a0e408cb5e78360fd8"><code>e062dc8</code></a> Do not mark BigInt <code>is_number</code>. Closes <a href="https://redirect.github.com/terser/terser/issues/1315">#1315</a></li>
-<li>Additional commits viewable in <a href="https://github.com/terser/terser/compare/v5.10.0...v5.16.6">compare view</a></li>
+<li><a href="https://github.com/digitalbazaar/forge/commit/a0a4a4264bedb3296974b9675349c9c190144aeb"><code>a0a4a42</code></a> Release 1.3.1.</li>
+<li><a href="https://github.com/digitalbazaar/forge/commit/a33830f61c351e8e3a34309767e8dd0de148376b"><code>a33830f</code></a> Update changelog.</li>
+<li><a href="https://github.com/digitalbazaar/forge/commit/740954d747ac56b76a6e1ae12a057c9548843436"><code>740954d</code></a> Allow optional DigestAlgorithm parameters.</li>
+<li><a href="https://github.com/digitalbazaar/forge/commit/56f4316b4cc6592e678f8c416209c45984b6547b"><code>56f4316</code></a> Allow DigestInfo.DigestAlgorith.parameters to be optional</li>
+<li><a href="https://github.com/digitalbazaar/forge/commit/cbf0bd590d47fe3120a57e7c36f2f4e64381ad81"><code>cbf0bd5</code></a> Start 1.3.1-0.</li>
+<li><a href="https://github.com/digitalbazaar/forge/commit/6c5b90133d46af63d139b98bf65371732c8c7dad"><code>6c5b901</code></a> Release 1.3.0.</li>
+<li><a href="https://github.com/digitalbazaar/forge/commit/0f3972ad5883a9869703c6f54a0627bc454bca47"><code>0f3972a</code></a> Update changelog.</li>
+<li><a href="https://github.com/digitalbazaar/forge/commit/dc77b39dd347e7f8b60a0f25a311fe5f06130579"><code>dc77b39</code></a> Fix error checking.</li>
+<li><a href="https://github.com/digitalbazaar/forge/commit/bb822c02df0b61211836472e29b9790cc541cdb2"><code>bb822c0</code></a> Add advisory links.</li>
+<li><a href="https://github.com/digitalbazaar/forge/commit/d4395fec831622837ecfec9e428d4620e208f9a8"><code>d4395fe</code></a> Update changelog.</li>
+<li>Additional commits viewable in <a href="https://github.com/digitalbazaar/forge/compare/0.10.0...v1.3.1">compare view</a></li>
 </ul>
 </details>
 <br />
 
+Updates `webpack-dev-server` from 3.11.3 to 4.13.1
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/webpack/webpack-dev-server/releases">webpack-dev-server's releases</a>.</em></p>
+<blockquote>
+<h2>v4.13.1</h2>
+<h3><a href="https://github.com/webpack/webpack-dev-server/compare/v4.13.0...v4.13.1">4.13.1</a> (2023-03-18)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li>make webpack optional peer dependency (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4778">#4778</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/71be54edcb890f53d2cd900c2801989a17c2c9b1">71be54e</a>)</li>
+</ul>
+<h2>v4.13.0</h2>
+<h2><a href="https://github.com/webpack/webpack-dev-server/compare/v4.12.0...v4.13.0">4.13.0</a> (2023-03-17)</h2>
+<h3>Features</h3>
+<ul>
+<li>added <code>client.overlay.runtimeErrors</code> option to control runtime errors (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4773">#4773</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/dca2366e22a262e6052dae060c8b237f4e6fd26b">dca2366</a>)</li>
+</ul>
+<h2>v4.12.0</h2>
+<h2><a href="https://github.com/webpack/webpack-dev-server/compare/v4.11.1...v4.12.0">4.12.0</a> (2023-03-14)</h2>
+<h3>Features</h3>
+<ul>
+<li>allow to set the <code>sockjs_url</code> option (only <code>sockjs</code>) using the <code>webSocketServer.options.sockjsUrl</code> option (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4586">#4586</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/69a2fba4e915b4814de1c3cb27930a13dc994945">69a2fba</a>)</li>
+<li>catch runtime error (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4605">#4605</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/87a26cf4c1fd9ac8140d345a8520a8d5cb059556">87a26cf</a>)</li>
+<li>improve styles for overlay (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4576">#4576</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/791fb85931299eea052b3c37d4353d48ea34fa5e">791fb85</a>)</li>
+<li>open editor when clicking error on overlay (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4587">#4587</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/efb2cec3f8acbbe5113aad20529e268c01ac29c2">efb2cec</a>)</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li>compatibility with <code>experiments.buildHttp</code> (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4585">#4585</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/5b846cbe9bfb8444bc7605654fcebf4e87766aa4">5b846cb</a>)</li>
+<li>respect <code>NODE_PATH</code> env variable (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4581">#4581</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/b857e6fa3b86facc63811438eef17be92dc36dc6">b857e6f</a>)</li>
+</ul>
+<h2>v4.11.1</h2>
+<h3><a href="https://github.com/webpack/webpack-dev-server/compare/v4.11.0...v4.11.1">4.11.1</a> (2022-09-19)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li>respect <code>client.logging</code> option for all logs (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4572">#4572</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/375835c926ec03fdfecae9ab1b54fd43b1ff4b31">375835c</a>)</li>
+</ul>
+<h2>v4.11.0</h2>
+<h2><a href="https://github.com/webpack/webpack-dev-server/compare/v4.10.1...v4.11.0">4.11.0</a> (2022-09-07)</h2>
+<h3>Features</h3>
+<ul>
+<li>make allowedHosts accept localhost subdomains by default (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4357">#4357</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/0a33e6a7529ef20ec8841c3fd501c37da179be3e">0a33e6a</a>)</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/webpack/webpack-dev-server/blob/master/CHANGELOG.md">webpack-dev-server's changelog</a>.</em></p>
+<blockquote>
+<h3><a href="https://github.com/webpack/webpack-dev-server/compare/v4.13.0...v4.13.1">4.13.1</a> (2023-03-18)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li>make webpack optional peer dependency (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4778">#4778</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/71be54edcb890f53d2cd900c2801989a17c2c9b1">71be54e</a>)</li>
+</ul>
+<h2><a href="https://github.com/webpack/webpack-dev-server/compare/v4.12.0...v4.13.0">4.13.0</a> (2023-03-17)</h2>
+<h3>Features</h3>
+<ul>
+<li>added <code>client.overlay.runtimeErrors</code> option to control runtime errors (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4773">#4773</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/dca2366e22a262e6052dae060c8b237f4e6fd26b">dca2366</a>)</li>
+</ul>
+<h2><a href="https://github.com/webpack/webpack-dev-server/compare/v4.11.1...v4.12.0">4.12.0</a> (2023-03-14)</h2>
+<h3>Features</h3>
+<ul>
+<li>allow to set the <code>sockjs_url</code> option (only <code>sockjs</code>) using the <code>webSocketServer.options.sockjsUrl</code> option (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4586">#4586</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/69a2fba4e915b4814de1c3cb27930a13dc994945">69a2fba</a>)</li>
+<li>catch runtime error (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4605">#4605</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/87a26cf4c1fd9ac8140d345a8520a8d5cb059556">87a26cf</a>)</li>
+<li>improve styles for overlay (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4576">#4576</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/791fb85931299eea052b3c37d4353d48ea34fa5e">791fb85</a>)</li>
+<li>open editor when clicking error on overlay (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4587">#4587</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/efb2cec3f8acbbe5113aad20529e268c01ac29c2">efb2cec</a>)</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li>compatibility with <code>experiments.buildHttp</code> (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4585">#4585</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/5b846cbe9bfb8444bc7605654fcebf4e87766aa4">5b846cb</a>)</li>
+<li>respect <code>NODE_PATH</code> env variable (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4581">#4581</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/b857e6fa3b86facc63811438eef17be92dc36dc6">b857e6f</a>)</li>
+</ul>
+<h3><a href="https://github.com/webpack/webpack-dev-server/compare/v4.11.0...v4.11.1">4.11.1</a> (2022-09-19)</h3>
+<h3>Bug Fixes</h3>
+<ul>
+<li>respect <code>client.logging</code> option for all logs (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4572">#4572</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/375835c926ec03fdfecae9ab1b54fd43b1ff4b31">375835c</a>)</li>
+</ul>
+<h2><a href="https://github.com/webpack/webpack-dev-server/compare/v4.10.1...v4.11.0">4.11.0</a> (2022-09-07)</h2>
+<h3>Features</h3>
+<ul>
+<li>make allowedHosts accept localhost subdomains by default (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4357">#4357</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/0a33e6a7529ef20ec8841c3fd501c37da179be3e">0a33e6a</a>)</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li>auto reply to OPTIONS requests only when unhandled (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4559">#4559</a>) (<a href="https://github.com/webpack/webpack-dev-server/commit/984af026a50f3e77c58abe24475da40a4ed038f1">984af02</a>), closes <a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4551">#4551</a></li>
+</ul>
+<h3><a href="https://github.com/webpack/webpack-dev-server/compare/v4.10.0...v4.10.1">4.10.1</a> (2022-08-29)</h3>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/webpack/webpack-dev-server/commit/ed0ca20af719e553b666ad2a5bc35f0cecef6dd0"><code>ed0ca20</code></a> chore(release): 4.13.1</li>
+<li><a href="https://github.com/webpack/webpack-dev-server/commit/71be54edcb890f53d2cd900c2801989a17c2c9b1"><code>71be54e</code></a> fix: make webpack optional peer dependency (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4778">#4778</a>)</li>
+<li><a href="https://github.com/webpack/webpack-dev-server/commit/4e846078b3b9befafbc56b1cd6db7778175355c9"><code>4e84607</code></a> chore(release): 4.13.0</li>
+<li><a href="https://github.com/webpack/webpack-dev-server/commit/dca2366e22a262e6052dae060c8b237f4e6fd26b"><code>dca2366</code></a> feat: added <code>client.overlay.runtimeErrors</code> option to control runtime errors (...</li>
+<li><a href="https://github.com/webpack/webpack-dev-server/commit/46e02f3d0b8406b120dc60f6c61960fb498c5d15"><code>46e02f3</code></a> chore(deps): bump graceful-fs from 4.2.10 to 4.2.11 (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4775">#4775</a>)</li>
+<li><a href="https://github.com/webpack/webpack-dev-server/commit/cf7b0dbadb7718092ac4311dab92fd81c0c55636"><code>cf7b0db</code></a> chore(deps-dev): bump webpack from 5.76.1 to 5.76.2 (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4772">#4772</a>)</li>
+<li><a href="https://github.com/webpack/webpack-dev-server/commit/2c8d98ca37f6b510591e7f855043db0bf49f76e3"><code>2c8d98c</code></a> chore(deps-dev): bump <code>@​babel/core</code> from 7.21.0 to 7.21.3 (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4769">#4769</a>)</li>
+<li><a href="https://github.com/webpack/webpack-dev-server/commit/f1df0436922daa89650671a2be04671d8d05dce2"><code>f1df043</code></a> chore(deps-dev): bump <code>@​babel/eslint-parser</code> from 7.19.1 to 7.21.3 (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4770">#4770</a>)</li>
+<li><a href="https://github.com/webpack/webpack-dev-server/commit/4ffcf2bd7100cb317b8606f3059ad31e754ec5ec"><code>4ffcf2b</code></a> chore(release): 4.12.0</li>
+<li><a href="https://github.com/webpack/webpack-dev-server/commit/a615d5b52a77a57318da9ceac890015938452d9e"><code>a615d5b</code></a> chore(deps): update (<a href="https://redirect.github.com/webpack/webpack-dev-server/issues/4768">#4768</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/webpack/webpack-dev-server/compare/v3.11.3...v4.13.1">compare view</a></li>
+</ul>
+</details>
+<br />
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=terser&package-manager=npm_and_yarn&previous-version=5.10.0&new-version=5.16.6)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -298,11 +535,6 @@ You can trigger Dependabot actions by commenting on this PR:
 - `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
 - `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
 - `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
-- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
-- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
-- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
-
 You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-toolbox/network/alerts).
 
 </details>
@@ -310,7 +542,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-14 19:04:42 +0000 UTC
+        Created At 2023-03-22 16:31:21 +0000 UTC
     </div>
 </div>
 
@@ -318,11 +550,11 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/304" class=".btn">#304</a>
+                PR <a href="https://github.com/hyperledger/aries-toolbox/pull/315" class=".btn">#315</a>
             </td>
             <td>
                 <b>
-                    update: merge main into dependabot branch, keep up to date
+                    feat: add retrieve credential definitions
                 </b>
             </td>
         </tr>
@@ -331,12 +563,29 @@ You can disable automated security fix PRs for this repo from the [Security Aler
                 
             </td>
             <td>
-                update: merge main into dependabot branch, keep up to date
+                ## Summary
+
+This pull request closes #314 by making the necessary changes to the `cred-def-list` component. 
+
+The updates include setting the component property to be `retrievable` and passing the full list of `cred_defs`. Additionally, the `cred_defs` are now fetched during the `created` lifecycle. 
+
+These changes will enable the user to retrieve the Credential Definitions by `TxID` and use them when creating the `Request Presentation`.
+
+### Main Changes
+
+- Set the `cred-def-list` component property to be `retrievable`
+- Pass the full list of `cred_defs`
+- Fetch the `cred_defs` during the `created` lifecycle
+
+With these changes, users will be able to easily retrieve the Credential Definitions and use them in creating a Request Presentation, ultimately improving the overall functionality of the component.
+
+![image](https://user-images.githubusercontent.com/6604111/226535339-657caf86-3292-4103-8b43-63f770b0bbd1.png)
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-14 18:00:22 +0000 UTC
+        Created At 2023-03-21 06:49:21 +0000 UTC
     </div>
 </div>
 

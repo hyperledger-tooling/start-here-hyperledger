@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-cli/pull/244" class=".btn">#244</a>
+                PR <a href="https://github.com/hyperledger/firefly-cli/pull/246" class=".btn">#246</a>
             </td>
             <td>
                 <b>
-                    Add Fabric option for a global (channel-wide) batch pin listener
+                    Allow longer before giving up on dev starting a firefly core
                 </b>
             </td>
         </tr>
@@ -27,13 +27,14 @@ permalink: /pull-requests/hyperledger/firefly-cli
                 
             </td>
             <td>
-                Part of [FIR-17](https://github.com/hyperledger/firefly-fir/pull/17)
-Required by https://github.com/hyperledger/firefly/pull/1213
+                It currently takes me about 5 attempts to start up a dev environment, because the CLI expects me to task-switch back to my commandline within a 2min window (having task switched out to doing something else, when I kicked off `ff start`).
+
+So I'm raising this as a proposal to give me 10mins instead. Hope that's ok
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-09 00:39:34 +0000 UTC
+        Created At 2023-03-21 11:11:45 +0000 UTC
     </div>
 </div>
 

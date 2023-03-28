@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang-llvm
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang-llvm/pull/8" class=".btn">#8</a>
+                PR <a href="https://github.com/hyperledger/solang-llvm/pull/13" class=".btn">#13</a>
             </td>
             <td>
                 <b>
-                    --provenance=false
+                    Update workflow name
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/solang-llvm
                 
             </td>
             <td>
-                <nil>
+                The workflow to build LLVM binaries must not be called `Build Release Binaries`, because we are not doing so.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-16 09:18:51 +0000 UTC
+        Created At 2023-03-24 18:09:17 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/solang-llvm
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang-llvm/pull/7" class=".btn">#7</a>
+                PR <a href="https://github.com/hyperledger/solang-llvm/pull/11" class=".btn">#11</a>
             </td>
             <td>
                 <b>
-                    Add CODEOWNERS and README.md
+                    Remove bloat from docker image
                 </b>
             </td>
         </tr>
@@ -53,12 +53,17 @@ permalink: /pull-requests/hyperledger/solang-llvm
                 
             </td>
             <td>
-                <nil>
+                Reduce the image size by 30% from 4.9G to 3.45G
+
+- Strip LLVM and solana binaries
+- Remove cargo registry cache after `cargo install`
+- Install only the `minimal` rustup profile. This gets rid of the docs, which are several 100mb
+- Change the apt command so that the autoclean works
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-15 10:27:09 +0000 UTC
+        Created At 2023-03-24 12:32:31 +0000 UTC
     </div>
 </div>
 
@@ -66,11 +71,11 @@ permalink: /pull-requests/hyperledger/solang-llvm
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang-llvm/pull/6" class=".btn">#6</a>
+                PR <a href="https://github.com/hyperledger/solang-llvm/pull/10" class=".btn">#10</a>
             </td>
             <td>
                 <b>
-                    Fix CI image workflow
+                    Use Rust 1.65
                 </b>
             </td>
         </tr>
@@ -79,12 +84,12 @@ permalink: /pull-requests/hyperledger/solang-llvm
                 
             </td>
             <td>
-                The CI container image is now uploaded to the current repository.
+                Companion to https://github.com/hyperledger/solang/pull/1236
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-14 11:58:04 +0000 UTC
+        Created At 2023-03-24 10:31:04 +0000 UTC
     </div>
 </div>
 
@@ -92,11 +97,11 @@ permalink: /pull-requests/hyperledger/solang-llvm
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang-llvm/pull/5" class=".btn">#5</a>
+                PR <a href="https://github.com/hyperledger/solang-llvm/pull/9" class=".btn">#9</a>
             </td>
             <td>
                 <b>
-                    Disable zstd and add CI image workflow
+                    Upgrade Anchor version
                 </b>
             </td>
         </tr>
@@ -105,14 +110,12 @@ permalink: /pull-requests/hyperledger/solang-llvm
                 
             </td>
             <td>
-                This PR disable ZSTD from the LLVM builds.
-
-The test builds are running [here](https://github.com/hyperledger/solang-llvm/actions/runs/4164876550/jobs/7207108271).
+                The container image needs to be updated so that the PR tests for https://github.com/hyperledger/solang/pull/1233 can run correctly.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-13 15:14:09 +0000 UTC
+        Created At 2023-03-22 19:13:45 +0000 UTC
     </div>
 </div>
 
