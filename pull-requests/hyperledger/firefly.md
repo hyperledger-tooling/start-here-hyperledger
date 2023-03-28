@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1242" class=".btn">#1242</a>
+            </td>
+            <td>
+                <b>
+                    Re-establish active subscriptions after dynamic Namespace reload
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                On a dynamic reload of an _existing_ namespace (for example if there's a tweak to the config) the old namespace is stopped, and all subscription event polling associated with that namespace is stopped,
+
+However, for WebSockets events there is currently no trigger to restart the listeners.
+
+In this `connect-in` case of Events, the Orchestrator relies upon a `RegisterConnection` function call from the Events plugin, when the `start` command comes over the WebSocket to from the application.
+
+In this case the application never disconnects/reconnects... so there's no new `start` payload.
+
+So this PR proposes a new `NamespaceRestarted` function call from Orchestrator _to_ the Events plugin, which then becomes responsible for making new `RegisterConnection` calls for all active subscriptions.
+
+To make this safe to happen on every startup, asynchronously to connections coming in, a timestamp is passed to the `NamespaceRestarted` so it can only re-register connections that came in before the restart time.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-28 11:47:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1240" class=".btn">#1240</a>
             </td>
             <td>

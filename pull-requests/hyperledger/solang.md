@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1239" class=".btn">#1239</a>
+            </td>
+            <td>
+                <b>
+                    Bump solana_rbpf and towerlsp crates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Sean Young <sean@mess.org>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-28 12:04:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1238" class=".btn">#1238</a>
             </td>
             <td>
@@ -242,34 +268,6 @@ For serialization consistency, we must care about the order in which we place ac
     </table>
     <div class="right-align">
         Created At 2023-03-21 14:47:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1229" class=".btn">#1229</a>
-            </td>
-            <td>
-                <b>
-                    No need for ubuntu-20.04, we can move to ubuntu-latest
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                These jobs use containers anyway.
-
-This also contains fixes for running on self-hosted runners, like cleanup the substrate docker container 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-21 08:46:30 +0000 UTC
     </div>
 </div>
 

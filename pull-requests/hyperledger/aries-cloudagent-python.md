@@ -109,32 +109,3 @@ FAILED aries_cloudagent/protocols/present_proof/v2_0/formats/dif/tests/test_hand
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2173" class=".btn">#2173</a>
-            </td>
-            <td>
-                <b>
-                    Add support for JsonWebKey2020 for the connection invitations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added support for the JsonWebKey2020 OKP keys for connection invitations.
-To avoid extensive refactoring this is done by converting it to the supported base58 format.
-
-Please, give feedback.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-21 09:37:20 +0000 UTC
-    </div>
-</div>
-

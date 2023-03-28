@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3549" class=".btn">#3549</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3551" class=".btn">#3551</a>
             </td>
             <td>
                 <b>
-                    chore: Remove test without loader for domain linkage
+                    perf: add doc loader for normalizeFilteredDataset
                 </b>
             </td>
         </tr>
@@ -27,17 +27,12 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 
             </td>
             <td>
-                This test is accessing remote URL, and it is often failing in CI.
-
-Closes #3548
-
-
-
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-17 15:08:01 +0000 UTC
+        Created At 2023-03-28 12:11:51 +0000 UTC
     </div>
 </div>
 

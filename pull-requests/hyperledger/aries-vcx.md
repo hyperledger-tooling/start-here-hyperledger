@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/784" class=".btn">#784</a>
+            </td>
+            <td>
+                <b>
+                    Fix node publishing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">wrappers</span><span class="chip">bugfix</span><span class="chip">skip-ios</span><span class="chip">skip-android</span><span class="chip">skip-napi-m1</span>
+            </td>
+            <td>
+                After changes made in #783, `package.json` is modified before running `npm version`, which makes `npm version` error with `Git working directory not clean`, as it attempts to tag HEAD. This fix disables this default behavior.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-28 07:53:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/783" class=".btn">#783</a>
             </td>
             <td>

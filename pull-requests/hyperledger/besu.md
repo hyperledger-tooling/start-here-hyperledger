@@ -505,31 +505,3 @@ Abstract the MerklePatriciaTrie to support tries with a different radix
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5250" class=".btn">#5250</a>
-            </td>
-            <td>
-                <b>
-                    Fix Blockchain Plugin service javadoc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Fix missing comments for javadoc
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-21 08:12:25 +0000 UTC
-    </div>
-</div>
-

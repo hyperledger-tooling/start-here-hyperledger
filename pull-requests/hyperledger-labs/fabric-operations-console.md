@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/425" class=".btn">#425</a>
+            </td>
+            <td>
+                <b>
+                    pen test CSP Header updation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+pen test CSP Header updation
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-28 12:17:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/424" class=".btn">#424</a>
             </td>
             <td>
