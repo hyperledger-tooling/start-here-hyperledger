@@ -83,29 +83,3 @@ FAILED aries_cloudagent/protocols/present_proof/v2_0/formats/dif/tests/test_hand
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2174" class=".btn">#2174</a>
-            </td>
-            <td>
-                <b>
-                    WIP: Peer DID Method 1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-21 14:48:02 +0000 UTC
-    </div>
-</div>
-

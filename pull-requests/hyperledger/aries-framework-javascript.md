@@ -147,29 +147,3 @@ Funded by the Ontario Government
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1397" class=".btn">#1397</a>
-            </td>
-            <td>
-                <b>
-                    fix: reference to indyLedgers in IndyXXXNotConfiguredError
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Errors in indy-vdr and indy-sdk were still referencing to former AgentConfig's `indyLedgers` array, which was misleading because now they are set up in module config's networks array.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-21 12:48:57 +0000 UTC
-    </div>
-</div>
-

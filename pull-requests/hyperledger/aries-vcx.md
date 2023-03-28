@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/785" class=".btn">#785</a>
+            </td>
+            <td>
+                <b>
+                    Profiles refactoring
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">skip-ios</span><span class="chip">skip-android</span><span class="chip">skip-napi-m1</span>
+            </td>
+            <td>
+                - renamed `modular_wallet_profile` to `modular_libs_profile` - it seem confusing to mention "wallet" while the profile encapsulates also credex, ledger client
+
+- Modified `IndyVdrLedger` to store require and store minimal amount of information needed - it doesn't need entire profile, it doesn't need to know about exists of Profiles, it only needs `dyn BaseWallet` for transaction signing
+- Similarly modified vdr-tools trait implementations to be unaware of `Profile`, but inject `wallet_handle`, `pool_handle` in them instead
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-28 12:34:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/784" class=".btn">#784</a>
             </td>
             <td>

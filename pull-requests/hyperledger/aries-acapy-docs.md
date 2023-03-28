@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/14" class=".btn">#14</a>
+            </td>
+            <td>
+                <b>
+                    Add 0.8.0 docs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Merge changes to new branch 0.8.0
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-28 17:46:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/13" class=".btn">#13</a>
             </td>
             <td>
@@ -140,33 +166,6 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
     </table>
     <div class="right-align">
         Created At 2023-03-27 20:14:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/8" class=".btn">#8</a>
-            </td>
-            <td>
-                <b>
-                    Remove generated code docs/docstrings from being produced
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-21 18:15:06 +0000 UTC
     </div>
 </div>
 

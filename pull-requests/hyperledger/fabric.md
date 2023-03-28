@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4117" class=".btn">#4117</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: clean orderer main
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Change-Id: Ie3b1ef94aa6f73a0ac98732cbb4f0bed20d4fe32
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+- Cleaning dead code in orderer/common/server/main.go
+- Preventing the server to start with a system channel in the ledger
+- Preventing the server to start with a system channel join-block
+- Updating tests
+
+#### Related issues
+
+Issue: #3515 
+Issue: #4020 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-28 16:22:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4115" class=".btn">#4115</a>
             </td>
             <td>

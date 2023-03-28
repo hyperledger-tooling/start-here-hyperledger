@@ -38,29 +38,3 @@ It also contains a small fix the the BC Person credential tests that were failin
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/147" class=".btn">#147</a>
-            </td>
-            <td>
-                <b>
-                    Calibrated BC Wallet Person Tests to new flow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR is for BC Wallet Person Credential Tests. It updates the test flow to match the newer app flow through getting a BC Person Credential. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-21 15:53:16 +0000 UTC
-    </div>
-</div>
-
