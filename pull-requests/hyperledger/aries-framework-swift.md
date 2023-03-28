@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/30" class=".btn">#30</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/35" class=".btn">#35</a>
             </td>
             <td>
                 <b>
-                    ci: Skip pod install on cache hit
+                    ci: Fix workflow error
                 </b>
             </td>
         </tr>
@@ -27,12 +27,81 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
                 
             </td>
             <td>
-                <nil>
+                Github [macOS runners](https://github.com/actions/runner-images/blob/main/images/macos/macos-12-Readme.md) use cocoapods 1.12.0
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-06 05:38:32 +0000 UTC
+        Created At 2023-03-27 07:16:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/34" class=".btn">#34</a>
+            </td>
+            <td>
+                <b>
+                    refactor: Prepare to support multiple wallets
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Checklist
+
+- [x]  have run AriesFrameworkTests
+- [x] I have run AllTests
+
+# Description
+
+Checking the actual existance of the file may be a better approach than relying on UserDefault to determine the existence of the wallet.
+
+In this task, I changed the way to manage master secret id.  I referenced this from aries-cloudagent-python. 
+Master secret id is just a label given to the master secret stored in the wallet, so there is no need to create it arbitrarily.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-24 13:25:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/32" class=".btn">#32</a>
+            </td>
+            <td>
+                <b>
+                    Exclude walletKey from AgentConfig encode/decode.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Checklist
+
+- [x] I have run AriesFrameworkTests
+- [x] I have run AllTests
+
+# Description
+
+Exclude walletKey from AgentConfig encode/decode. It should be stored separately in a safer place.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-24 00:14:12 +0000 UTC
     </div>
 </div>
 

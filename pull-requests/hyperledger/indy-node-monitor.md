@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node-monitor
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node-monitor/pull/57" class=".btn">#57</a>
+                PR <a href="https://github.com/hyperledger/indy-node-monitor/pull/60" class=".btn">#60</a>
             </td>
             <td>
                 <b>
-                    Update Run Script
+                    fix(issue-59): fastapi.Path() abuse not possible anymore
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/indy-node-monitor
                 
             </td>
             <td>
-                Set run script to publish docker container to port 8080 only when --web flag is present.
+                - note that this is backward-compatible to at least fastapi release 0.89.1
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-14 22:16:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node-monitor/pull/56" class=".btn">#56</a>
-            </td>
-            <td>
-                <b>
-                    Fixed formatting issues and added test alerts.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixed text formatting issues for the Node Detail Dashboard. Added auto provisioned test alerts for the Alerts Dashboard.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-14 19:58:48 +0000 UTC
+        Created At 2023-03-24 20:22:37 +0000 UTC
     </div>
 </div>
 

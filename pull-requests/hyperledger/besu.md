@@ -282,32 +282,6 @@ Fixes #5165
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5258" class=".btn">#5258</a>
-            </td>
-            <td>
-                <b>
-                    update snakeyaml to 2.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span>
-            </td>
-            <td>
-                Update snakeyaml dependency
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-23 04:24:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5257" class=".btn">#5257</a>
             </td>
             <td>
@@ -612,36 +586,6 @@ Introduces a new feature to the plugin API, enabling third-party plugins to acce
     </table>
     <div class="right-align">
         Created At 2023-03-21 02:10:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5244" class=".btn">#5244</a>
-            </td>
-            <td>
-                <b>
-                    Metrics via dagger
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Introduces Dagger to provide dependencies.  
-
-- Migrates an existing MetricsSystem module up into the metrics gradle module.
-- Makes BesuCommand accessible from Dagger components, to enable configuration reuse.
-- Uses CachedMerkleTrieLoader as an example of how to get and use a MetricSystem.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-20 21:35:32 +0000 UTC
     </div>
 </div>
 

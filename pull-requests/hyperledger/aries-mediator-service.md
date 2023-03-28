@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mediator-service
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/54" class=".btn">#54</a>
+                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/60" class=".btn">#60</a>
             </td>
             <td>
                 <b>
-                    chore: add maintainers
+                    Upgrade to aca-py v0.8.0
                 </b>
             </td>
         </tr>
@@ -27,42 +27,12 @@ permalink: /pull-requests/hyperledger/aries-mediator-service
                 
             </td>
             <td>
-                Add a MAINTAINERS file.
-
-Fixes #41
+                - Latest images deal with the folder ownership and permissions.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-14 23:34:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/52" class=".btn">#52</a>
-            </td>
-            <td>
-                <b>
-                    chore: update container base image
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update the [container](https://github.com/hyperledger/aries-cloudagent-python/pkgs/container/aries-cloudagent-python) base image to the new update ones.
-
-Fixes #53
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-14 18:27:27 +0000 UTC
+        Created At 2023-03-23 15:12:29 +0000 UTC
     </div>
 </div>
 

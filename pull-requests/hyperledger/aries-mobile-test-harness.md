@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/144" class=".btn">#144</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/148" class=".btn">#148</a>
             </td>
             <td>
                 <b>
-                    fix BCW test flakiness
+                    Initial BCW remove contact test defs
                 </b>
             </td>
         </tr>
@@ -27,14 +27,40 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
                 
             </td>
             <td>
-                This PR Cleans up some BC Wallet test flakiness with come common test codes, along with specific fixes to the revocation tests. It also handles the initialization error (if it happens) that displays and outputs it to the screen.
+                This PR adds the initial gherkin for the BC Wallet Remove Contact tests in connect.feature.
 
-There is also a Test Harness fix here for the Test Retry attempts. 
+It also contains a small fix the the BC Person credential tests that were failing in the test Pipeline.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-27 19:46:21 +0000 UTC
+        Created At 2023-03-23 14:37:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/147" class=".btn">#147</a>
+            </td>
+            <td>
+                <b>
+                    Calibrated BC Wallet Person Tests to new flow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR is for BC Wallet Person Credential Tests. It updates the test flow to match the newer app flow through getting a BC Person Credential. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-21 15:53:16 +0000 UTC
     </div>
 </div>
 

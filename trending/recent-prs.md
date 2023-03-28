@@ -1,13 +1,13 @@
 
-[4112](https://github.com/hyperledger/fabric/pull/4112) Update fabric_model.rst (backport #4110)
+[1293](https://github.com/hyperledger/besu-docs/pull/1293) Bump mkdocs-material from 9.0.0 to 9.1.4 in /CI
 
-[4111](https://github.com/hyperledger/fabric/pull/4111) Updates year on footer from 2022 to 2023 (backport #4108)
+[1292](https://github.com/hyperledger/besu-docs/pull/1292) Bump mkdocs-minify-plugin from 0.6.2 to 0.6.4 in /CI
 
-[1238](https://github.com/hyperledger/solang/pull/1238) Check for duplicate contract names on cli command line
+[12](https://github.com/hyperledger/aries-acapy-docs/pull/12) Reword because of new config
 
-[4110](https://github.com/hyperledger/fabric/pull/4110) Update fabric_model.rst
+[682](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/682) feat: add support for alias, label, and unknown issuer names
 
-[3332](https://github.com/hyperledger/iroha/pull/3332) Update vcpkg from last release
+[11](https://github.com/hyperledger/aries-acapy-docs/pull/11) Add Material for MkDocs features
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
