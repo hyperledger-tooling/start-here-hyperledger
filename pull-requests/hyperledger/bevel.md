@@ -48,45 +48,6 @@ hotfix
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2191" class=".btn">#2191</a>
-            </td>
-            <td>
-                <b>
-                    [besu] updated reset.yaml
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Commit to be reviewed
-----------------------------------
-
-bug(besu): updated reset.yaml
-
-    Added patching and deletion code for the following kubernetes resources
-    1. ClusterRole
-    2. ClusterRoleBinding
-    3. GitRepository
-    4. Kustomization
-    5. HelmChart
-    6. HelmRelease
-    
-fixes #2157
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-24 05:43:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2190" class=".btn">#2190</a>
             </td>
             <td>

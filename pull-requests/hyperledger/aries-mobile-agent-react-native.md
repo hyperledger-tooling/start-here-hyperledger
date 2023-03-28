@@ -29,7 +29,7 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
             <td>
                 # Summary of Changes
 
-Add support for connection alias, connection label, and a fallback to `Unknown` for issuer names (so we don't end up using their `connectionId` so often
+Add support for connection alias, connection label, and a fallback to `Unknown` for issuer names (so we don't end up using their `connectionId` so often)
 
 What it looked like before:
 ![IMG_0017](https://user-images.githubusercontent.com/32586431/228086257-f47e3669-379a-47e8-b95f-5f85259a016f.PNG)
