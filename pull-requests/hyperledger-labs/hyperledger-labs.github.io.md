@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/232" class=".btn">#232</a>
+            </td>
+            <td>
+                <b>
+                    Propose Nidhi as Steward
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Pending on TOC approval. @tkuhrt 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-29 17:36:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/231" class=".btn">#231</a>
+            </td>
+            <td>
+                <b>
+                    Retire Anand
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-29 17:25:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/230" class=".btn">#230</a>
             </td>
             <td>

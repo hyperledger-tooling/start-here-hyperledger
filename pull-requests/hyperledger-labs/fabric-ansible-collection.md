@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/3" class=".btn">#3</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/5" class=".btn">#5</a>
             </td>
             <td>
                 <b>
-                    PR Build
+                    Modified main readme to remove ibp references and update links
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-02 13:37:29 +0000 UTC
+        Created At 2023-03-29 15:13:50 +0000 UTC
     </div>
 </div>
 
