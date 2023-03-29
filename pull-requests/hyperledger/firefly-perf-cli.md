@@ -38,29 +38,3 @@ permalink: /pull-requests/hyperledger/firefly-perf-cli
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/51" class=".btn">#51</a>
-            </td>
-            <td>
-                <b>
-                    Add per-worker signing key option, to which the worker ID will be appended
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                (Also tidy up some of the option validation code)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-22 09:28:09 +0000 UTC
-    </div>
-</div>
-

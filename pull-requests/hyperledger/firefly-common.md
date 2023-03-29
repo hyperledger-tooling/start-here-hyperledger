@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/61" class=".btn">#61</a>
+            </td>
+            <td>
+                <b>
+                    Add Cobra command for showing configuration, and common function to run debug server
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                More items that can become common and avoid boilerplate in microservices built on this framework
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-29 08:27:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-common/pull/60" class=".btn">#60</a>
             </td>
             <td>

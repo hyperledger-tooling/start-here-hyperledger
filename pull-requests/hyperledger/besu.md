@@ -14,6 +14,71 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5277" class=".btn">#5277</a>
+            </td>
+            <td>
+                <b>
+                    Make QBFT validator smart contract mode work with london fork
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This should work when gas fees are used as well as for free gas networks
+
+Override the transactionSimulator's default TransactionValidationParams with one that allows for exceeding the account balance (which effectively zeros the baseFee). This mimics the way that eth_estimateGas and eth_call are implemented.
+
+Fixes https://github.com/hyperledger/besu/issues/5249
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-29 07:50:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5276" class=".btn">#5276</a>
+            </td>
+            <td>
+                <b>
+                    Fix including excessDataGas when using a zero base fee
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Fix including excessDataGas when using a zero base fee
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #5270 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-29 06:37:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5275" class=".btn">#5275</a>
             </td>
             <td>

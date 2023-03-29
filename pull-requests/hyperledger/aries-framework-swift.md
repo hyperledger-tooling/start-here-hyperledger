@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/37" class=".btn">#37</a>
+            </td>
+            <td>
+                <b>
+                    ci: Use strict option for swiftlint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-29 11:42:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/36" class=".btn">#36</a>
+            </td>
+            <td>
+                <b>
+                    enhance wallet error message more descriptable with failure reason.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Checklist
+
+- [x] have run AriesFrameworkTests
+- [x]  I have run AllTests
+
+# Description
+
+it would be help to solve problems if framework provide detailed messages about indy when an error occurs in wallet .
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-29 06:48:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/35" class=".btn">#35</a>
             </td>
             <td>

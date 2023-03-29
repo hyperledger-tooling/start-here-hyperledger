@@ -31,6 +31,19 @@ permalink: /pull-requests/hyperledger-labs/yui-docs
 * Fix proto path
 * Fix token migrations
 * Fix dependencies
+* Fix docs
+
+# environment
+```
+go: 1.20.1
+python: 3.11.2
+nodejs: v18.14.2
+  npm: 9.5.0
+  yarn: 1.22.19
+geth: 1.11.5-stable
+docker: 20.10.23, build 7155243
+docker compose: v2.15.1
+```
 
             </td>
         </tr>

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1242" class=".btn">#1242</a>
+            </td>
+            <td>
+                <b>
+                    Improve code as suggested by clippy -W clippy::pedantic
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                clippy::pedantic can come up with some good suggestions. Implement some of them; there are more to be done.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-29 10:38:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1241" class=".btn">#1241</a>
             </td>
             <td>
@@ -244,32 +270,6 @@ For serialization consistency, we must care about the order in which we place ac
     </table>
     <div class="right-align">
         Created At 2023-03-22 17:01:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1231" class=".btn">#1231</a>
-            </td>
-            <td>
-                <b>
-                    Runner test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-22 12:47:46 +0000 UTC
     </div>
 </div>
 
