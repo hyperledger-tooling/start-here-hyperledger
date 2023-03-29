@@ -15,30 +15,33 @@ permalink: /releases/hyperledger/firefly-tokens-erc20-erc721
         <tr>
             <td colspan="2">
                 <b>
-                    v1.2.2
+                    v1.2.3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.2
+                    v1.2.3
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Support "config.factoryAddress" to create tokens using a custom factory by @awrichar in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/122
+* Remove "onlyOwner" from internal _setTokenURI method by @awrichar in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/125
+* Retry logic for blockchain calls by @matthew1001 in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/128
 
+## New Contributors
+* @matthew1001 made their first contribution in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/128
 
-**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc20-erc721/compare/v1.2.1...v1.2.2
+**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc20-erc721/compare/v1.2.2...v1.2.3
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v1.2.2" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v1.2.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-02-16 20:40:52 +0000 UTC
+        Created At 2023-03-29 10:31:28 +0000 UTC
     </span>
 </div>
 
