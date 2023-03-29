@@ -145,32 +145,3 @@ Could someone explain how the config lookup works to me? I understand one of the
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/292" class=".btn">#292</a>
-            </td>
-            <td>
-                <b>
-                    [chore]: fix typo in path to `api_spec` on GitHub
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                There was a typo in path which led to 404:
-
-<img width="1168" alt="image" src="https://user-images.githubusercontent.com/43530070/226792425-a697af05-9cdd-4ac5-8ca8-0cfa3f35b3a5.png">
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-22 03:11:09 +0000 UTC
-    </div>
-</div>
-

@@ -553,6 +553,7 @@ feat(openapi): upgrade to 6.3.0 phase1
     r. examples/cactus-example-carbon-accounting-business-logic-plugin
 
 Fixes #2298
+Depends on #2272
             </td>
         </tr>
     </table>

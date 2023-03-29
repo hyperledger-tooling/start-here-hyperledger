@@ -34,9 +34,6 @@ permalink: /pull-requests/hyperledger/besu
 Add a log to print the path where we loaded the engine jwt for better ux.
 
 
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
             </td>
         </tr>
     </table>
@@ -410,67 +407,6 @@ restrict docker based github actions to specific self-hosted runners to prevent 
     </table>
     <div class="right-align">
         Created At 2023-03-22 18:04:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5255" class=".btn">#5255</a>
-            </td>
-            <td>
-                <b>
-                    Plugin API - Add Trace Service to the Plugin API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamRevenant</span><span class="chip">plugins</span>
-            </td>
-            <td>
-                ## PR description
-Plugin API - Add Trace Service to the Plugin API
-
-- Allow users to trace a block using a custom operation tracer instance.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-22 03:20:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5254" class=".btn">#5254</a>
-            </td>
-            <td>
-                <b>
-                    Isolate bft getByBlockNumber
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span>
-            </td>
-            <td>
-                Fixes #5162 and #5164 
-
-Introduce BftProtocolSchedule with a copy of MutableProtocolSchedule.getByBlockNumber
-This method will be deleted from the ProtocolSchedule interfaces and so will only exist in BftProtocolSchedule (although it may be renamed in a subsequent commit).
-
-Rename existing *BftProtocolSchedule classes to append Builder for clarity (and inline with other ProtocolScheduleBuilder classes)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-22 01:42:25 +0000 UTC
     </div>
 </div>
 
