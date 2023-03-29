@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/109" class=".btn">#109</a>
+            </td>
+            <td>
+                <b>
+                    docs: fixed typos in migration guide
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-29 08:48:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/108" class=".btn">#108</a>
             </td>
             <td>
@@ -66,32 +92,6 @@ Mainly copied from Askar setup documentation
     </table>
     <div class="right-align">
         Created At 2023-03-27 08:41:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/106" class=".btn">#106</a>
-            </td>
-            <td>
-                <b>
-                    docs: added BLE Transport basic documentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-22 08:38:05 +0000 UTC
     </div>
 </div>
 

@@ -29,20 +29,13 @@ permalink: /pull-requests/hyperledger/besu-native
             <td>
                 ## Add an implementation of MiMC on the bn254 scalar field in rust.
 
-/// MIMC7 is a hash function suited for BN256's scalar field.
-///
-/// It has modulus
-/// p = 21888242871839275222246405745257275088548364400416034343698204186575808495617
-///
-/// The MIMC paper (https://eprint.iacr.org/2016/492.pdf) states that monomial x^d is a permutation
-/// in Fp if gcd(d,p) == 1
-///
-/// Exponent for MIMC7 is 5, which satisfies the above condition.
-/// MIMC can't be implemented generically as different
-/// prime fields will require different MIMC implementations.
-///
-/// ```code
-/// pseudo code:
+MIMC5 is a hash function suited for BN256's scalar field.
+
+It has modulus `p = 21888242871839275222246405745257275088548364400416034343698204186575808495617`
+
+The MIMC paper (https://eprint.iacr.org/2016/492.pdf) states that monomial x^d is a permutation in Fp if gcd(d,p) == 1. Exponent for MIMC is 5, which satisfies the above condition.
+
+```
 fn mimc5_permutation(constants, x, k):
     h := x;
     for i = 0..constants.len() {
@@ -51,6 +44,7 @@ fn mimc5_permutation(constants, x, k):
     }
     h = h + k;
     return h;
+```
 
 ## Interface
 
