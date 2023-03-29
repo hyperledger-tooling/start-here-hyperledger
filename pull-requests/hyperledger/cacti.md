@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2353" class=".btn">#2353</a>
+            </td>
+            <td>
+                <b>
+                    fix(interopcc): build failing after golang.org/x/crypto bump to v0.1.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                    Upgraded all go modules to go v1.20
+    
+Closes #2348 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-28 18:21:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2351" class=".btn">#2351</a>
             </td>
             <td>
