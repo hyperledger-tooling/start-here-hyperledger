@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4118" class=".btn">#4118</a>
+            </td>
+            <td>
+                <b>
+                    Log peer config upon startup
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Log peer config upon startup.
+Also log peer environment variables to help troubleshoot peer config.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-28 20:54:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4117" class=".btn">#4117</a>
             </td>
             <td>

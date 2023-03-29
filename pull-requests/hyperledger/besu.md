@@ -14,6 +14,72 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5275" class=".btn">#5275</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] Add log to show where we're reading the jwt from
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Add a log to print the path where we loaded the engine jwt for better ux.
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-29 00:02:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5274" class=".btn">#5274</a>
+            </td>
+            <td>
+                <b>
+                    continue despite test failures
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I would like to propose some blasphemy:
+
+we should run the weekly sonarqube job with gradle --continue so it proceeds on, regardless of test failure.
+
+this week a flaky test failed, and so we got no analysis.
+the sonarqube job produces no artifacts of any use, it is meant as a weekly diagnostic, so while blasphemous, I believe this to be safe.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-28 18:41:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5269" class=".btn">#5269</a>
             </td>
             <td>
@@ -405,103 +471,6 @@ Rename existing *BftProtocolSchedule classes to append Builder for clarity (and 
     </table>
     <div class="right-align">
         Created At 2023-03-22 01:42:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5253" class=".btn">#5253</a>
-            </td>
-            <td>
-                <b>
-                    Cleanup after GHA docker user
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Docker actions that write to files during actions leave files in the repository owned by the docker user rather than the runner user.  This leaves the runner filesystem in a state that makes non-docker actions fail.  
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-22 00:37:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5252" class=".btn">#5252</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] Add unstable annotation to the BlockchainService
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">plugins</span>
-            </td>
-            <td>
-                ## PR description
-Add unstable annotation to the BlockchainService
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-21 23:56:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5251" class=".btn">#5251</a>
-            </td>
-            <td>
-                <b>
-                    Merkle trie radix abstraction
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Abstract the MerklePatriciaTrie to support tries with a different radix
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-21 23:19:10 +0000 UTC
     </div>
 </div>
 
