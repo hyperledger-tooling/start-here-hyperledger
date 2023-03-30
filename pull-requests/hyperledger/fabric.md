@@ -14,6 +14,87 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4128" class=".btn">#4128</a>
+            </td>
+            <td>
+                <b>
+                    bug fix 4127. Restore RSA support for x509 public key import on PKCS11
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+
+<!--- Describe your changes in detail, including motivation. -->
+While RSA has never been supported by Fabric for transaction signing and
+verification, prior to version 2.x, MSPs could include CA certificates
+that included RSA public keys. This was broken with the removal of the
+unsupported RSA code.
+
+It was fixed in SW but the error is still in PKCS11
+
+This change modifies the key import function used by the MSP on PKCS11 to convert
+an RSA public key to a bccsp.Key that can then be used as part of an MSP
+identity.
+
+This code does *not* add support for RSA on transaction paths.
+#### Additional details
+
+<!--- Additional implementation details or comments to reviewers. -->
+<!--- Summarize how the pull request was tested (if not obvious from commit). -->
+
+#### Related issues
+https://github.com/hyperledger/fabric/issues/4127
+
+<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
+
+<!---
+#### Release Note
+If change impacts current users, uncomment Release Note heading and provide
+release note text.
+Also, copy release note text into the release specific /release_notes file.
+-->
+
+<!--
+Checklist (DELETE AFTER READING):
+
+- `Signed-off-by` added to commits (required for DCO check to pass)
+- Tests have been added/updated (required for bug fixes and features)
+- Unit and/or integration tests pass locally
+- Run linters and checks locally using 'make checks'
+- If change requires documentation updates, make updates in pull request,
+  or open a separate issue and provide link
+- Squash commits into a single commit, unless a stack of commits is
+  intentional to assist reviewers or to preserve review comments.
+- For additional contribution guidelines see the project's CONTRIBUTING.md file
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-30 14:51:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4125" class=".btn">#4125</a>
             </td>
             <td>
