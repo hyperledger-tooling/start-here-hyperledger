@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4126" class=".btn">#4126</a>
+            </td>
+            <td>
+                <b>
+                    Bump dependencies in release-2.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Catch v2.2.x LTS dependencies up to known good release-2.5 levels.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-30 01:09:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4125" class=".btn">#4125</a>
             </td>
             <td>
@@ -719,42 +746,6 @@ recent dependency updates.
     </table>
     <div class="right-align">
         Created At 2023-03-24 14:44:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4098" class=".btn">#4098</a>
-            </td>
-            <td>
-                <b>
-                    Add docs for 'ledgerutil verify'
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Documentation update
-
-#### Description
-
-This patch adds a command reference for the 'ledgerutil verify' subcommand.
-
-#### Related issues
-
-The merged PR for the target subcommand: #4018
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-23 00:34:04 +0000 UTC
     </div>
 </div>
 
