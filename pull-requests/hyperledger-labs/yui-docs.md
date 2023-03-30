@@ -33,6 +33,9 @@ permalink: /pull-requests/hyperledger-labs/yui-docs
 * Fix dependencies
 * Fix docs
 
+Fixed together with PullRequest here
+https://github.com/hyperledger-labs/yui-relayer/pull/86 
+
 # environment
 ```
 go: 1.20.1
