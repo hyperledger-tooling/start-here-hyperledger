@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/83" class=".btn">#83</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/86" class=".btn">#86</a>
             </td>
             <td>
                 <b>
-                    Add intermediate headers support for update-client and refactor chain and prover interfaces
+                    Corrected the set value of the HEIGHT value
                 </b>
             </td>
         </tr>
@@ -27,19 +27,14 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
                 
             </td>
             <td>
-                - refactor some interfaces
-  - LightClient: remove unnecessary methods and clarify method names(especially clarify on finalisation for header)
-  - ChainI/ProverI: introduce QueryContext that keeps proof height and wraps `context.Context`
-- fix https://github.com/hyperledger-labs/yui-relayer/issues/82
-- [reorder proof generation and header setup](https://github.com/hyperledger-labs/yui-relayer/pull/83/commits/f3e3d308e42f5e7e3ef23f63e7eb98b6147f27ef)
-  - it allows to remove unnecessary sync steps during packet relay with LCP
-  - ref. https://github.com/datachainlab/lcp/pull/55
-- [remove 'I' suffix from interface names](https://github.com/hyperledger-labs/yui-relayer/pull/83/commits/07ad300cb601f5d4268ef3c11061cdb0f53e8191)
+                * Fixed headers at CreateMsgCreateClient and GetLatestFinalizedHeader
+* WithProof to add makeProof
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-10 09:14:43 +0000 UTC
+        Created At 2023-03-30 07:13:45 +0000 UTC
     </div>
 </div>
 
