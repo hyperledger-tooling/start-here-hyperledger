@@ -15,31 +15,32 @@ permalink: /releases/hyperledger-labs/private-data-objects
         <tr>
             <td colspan="2">
                 <b>
-                    PDO v0.1.0
+                    PDO v0.2.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.1.0
+                    v0.2.0
                 </span>
             </td>
             <td>
-                This release contains support for
-* Sawtooth 1.0
-* CCF 1.0.19
-* SGX EPID attestation
+                This release contains
+
+- various enhancements
+- support for CCF 1.0.19 (no Sawtooth)
+- SGX EPID attestation
 
 This release is not for production.
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/private-data-objects/releases/tag/v0.1.0" class=".btn">
+    <a href="https://github.com/hyperledger-labs/private-data-objects/releases/tag/v0.2.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-08-16 16:19:03 +0000 UTC
+        Created At 2023-03-28 16:16:32 +0000 UTC
     </span>
 </div>
 
