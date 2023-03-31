@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/423" class=".btn">#423</a>
+            </td>
+            <td>
+                <b>
+                    Remove all remaining mentions and code related to AoT wasm contracts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR completely removes any remaining documentation and code related to supporting AoT compiled wasm contracts.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-31 00:51:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/422" class=".btn">#422</a>
+            </td>
+            <td>
+                <b>
+                    Clean up 18.04 references
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR addresses #381 .
+
+A couple of references still persist in the proxy yaml files.
+As detailed in those comments, once we improve the proxy handling, those files should become obsolete and be removed.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-30 18:36:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/421" class=".btn">#421</a>
             </td>
             <td>
