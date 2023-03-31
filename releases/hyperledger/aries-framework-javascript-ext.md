@@ -43,36 +43,3 @@ permalink: /releases/hyperledger/aries-framework-javascript-ext
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    @aries-framework/react-hooks react-hooks-v0.4.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    react-hooks-v0.4.2
-                </span>
-            </td>
-            <td>
-                
-
-### Features
-
-* **react-hooks:** filter by connection id ([#196](https://www.github.com/hyperledger/aries-framework-javascript-ext/issues/196)) ([11ff947](https://www.github.com/hyperledger/aries-framework-javascript-ext/commit/11ff9473feeb5549b2f9c9c081fb1a68e83afab5))
-
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/aries-framework-javascript-ext/releases/tag/react-hooks-v0.4.2" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2023-03-24 09:28:21 +0000 UTC
-    </span>
-</div>
-
