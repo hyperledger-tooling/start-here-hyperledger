@@ -31,10 +31,14 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
 2. Upgrade all dependencies of protos-rs
 3. Upgrade almost all dependencies of relay.
 4. Added TLS based tests in relay unit test workflow.
+5. Add retry logic while opening DB for both relay and driver.
+6. Delay of 1 sec before polling again in fabric sdk data sharing.
 
 Version Bumps:
 - Bump protos-rs to v1.5.7
-- Bump relay to v1.5.9
+- Bump relay to v1.5.11
+- Bump Fabric Driver to v1.5.11
+- Bump Fabric SDK to v1.5.11
             </td>
         </tr>
     </table>
