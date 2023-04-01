@@ -26,7 +26,7 @@ permalink: /releases/hyperledger/aries-acapy-docs
                 </span>
             </td>
             <td>
-                The docs from ACA-Py at the 0.8.0 tag.
+                Documentation for ACA-Py 0.8.0.
             </td>
         </tr>
     </table>
@@ -34,7 +34,7 @@ permalink: /releases/hyperledger/aries-acapy-docs
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-03-30 02:40:39 +0000 UTC
+        Created At 2023-04-01 01:58:12 +0000 UTC
     </span>
 </div>
 
