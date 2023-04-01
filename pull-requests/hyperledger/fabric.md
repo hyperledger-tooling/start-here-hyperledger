@@ -14,6 +14,52 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4137" class=".btn">#4137</a>
+            </td>
+            <td>
+                <b>
+                    streamline ubuntu/debian instructions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * remove '$' to allow for easier copy&paste
+* reduce version information
+* provide one main cli instructions block (for ubuntu)
+
+<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+- Documentation update
+
+#### Description
+
+re #4135 (first of several steps0
+
+#### Additional details
+
+Target audience are developers, no need for too much verbosity, the cli speaks usually for itself.
+
+(this document needs a few more follow-up changes, but awaiting if this one gets merged in order to continue)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-01 12:45:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4133" class=".btn">#4133</a>
             </td>
             <td>
