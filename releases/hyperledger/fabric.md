@@ -15,19 +15,19 @@ permalink: /releases/hyperledger/fabric
         <tr>
             <td colspan="2">
                 <b>
-                    v2.5.0-beta2
+                    v2.5.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.5.0-beta2
+                    v2.5.0
                 </span>
             </td>
             <td>
-                v2.5.0-beta2 Release Notes - March 14, 2023
-===========================================
+                v2.5.0 Release Notes - March 31, 2023
+=====================================
 
 New features
 ------------
@@ -45,6 +45,7 @@ For more details, see the [Private data documentation](https://hyperledger-fabri
 
 Improvements
 ------------
+
 **Multi-architecture binaries and docker images are now available**
 
 The release binaries and docker images have been updated as follows:
@@ -64,13 +65,13 @@ The client must specify an AfterTransactionId property in addition to a start bl
 
 Fixes
 -----
-All fixes as of v2.4.9 are also included in v2.5.0-beta2.
+All fixes as of v2.4.9 are also included in v2.5.0.
 
 
 Dependencies
 ------------
-Fabric v2.5.0-beta2 has been tested with the following dependencies:
-* Go 1.18.10
+Fabric v2.5.0 has been tested with the following dependencies:
+* Go 1.20.2
 * CouchDB v3.2.2
 
 Fabric docker images on dockerhub utilize Ubuntu 20.04.
@@ -161,11 +162,11 @@ for chaincodes. For more details see the
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric/releases/tag/v2.5.0-beta2" class=".btn">
+    <a href="https://github.com/hyperledger/fabric/releases/tag/v2.5.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-03-14 19:30:32 +0000 UTC
+        Created At 2023-04-01 16:43:17 +0000 UTC
     </span>
 </div>
 
