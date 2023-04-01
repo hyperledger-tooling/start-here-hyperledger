@@ -186,38 +186,3 @@ pen test CSP Header updation
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/424" class=".btn">#424</a>
-            </td>
-            <td>
-                <b>
-                    the safe list now records/vaildates ports too
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-Security improvement, instead of only validating the hostname is known when performing proxy requests, we will now validate that the hostname and port are known.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-24 20:46:37 +0000 UTC
-    </div>
-</div>
-

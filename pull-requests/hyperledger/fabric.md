@@ -14,6 +14,111 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4133" class=".btn">#4133</a>
+            </td>
+            <td>
+                <b>
+                    Release commit for v2.5.0.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add release notes for v2.5.0.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-31 21:09:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4131" class=".btn">#4131</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade doc for v2.5. (backport #4130)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is an automatic backport of pull request #4130 done by [Mergify](https://mergify.com).
+
+
+---
+
+
+<details>
+<summary>Mergify commands and options</summary>
+
+<br />
+
+More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
+
+You can also trigger Mergify actions by commenting on this pull request:
+
+- `@Mergifyio refresh` will re-evaluate the rules
+- `@Mergifyio rebase` will rebase this PR on its base branch
+- `@Mergifyio update` will merge the base branch into this PR
+- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
+
+Additionally, on Mergify [dashboard](https://dashboard.mergify.com/) you can:
+
+- look at your merge queues
+- generate the Mergify configuration with the config editor.
+
+Finally, you can contact us on https://mergify.com
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-31 18:43:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4130" class=".btn">#4130</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade doc for v2.5.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Edits to the upgrade doc for v2.5.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-31 17:05:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4129" class=".btn">#4129</a>
             </td>
             <td>
@@ -717,126 +822,6 @@ Finally, you can contact us on https://mergify.com
     </table>
     <div class="right-align">
         Created At 2023-03-27 09:40:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4108" class=".btn">#4108</a>
-            </td>
-            <td>
-                <b>
-                    Updates year on footer from 2022 to 2023
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-#### Type of change
-
-- Documentation update
-
-#### Description
-
-The year passed and the footer must be updated.
-
-#### Additional details
-None
-
-#### Related issues
-None
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-24 22:20:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4106" class=".btn">#4106</a>
-            </td>
-            <td>
-                <b>
-                    Remaining dependency updates for v2.5.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Catch release-2.5 up to main with respect to most
-recent dependency updates.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-24 17:17:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4105" class=".btn">#4105</a>
-            </td>
-            <td>
-                <b>
-                    Bump Go to 1.20.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump Go to 1.20.2.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-24 16:50:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4104" class=".btn">#4104</a>
-            </td>
-            <td>
-                <b>
-                    Fix cert sanitation after moving to go v1.19 (backport #3774 to release-2.5)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * Fix cert sanitation after moving to go v1.19
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-24 14:44:12 +0000 UTC
     </div>
 </div>
 
