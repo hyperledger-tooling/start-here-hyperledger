@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/390" class=".btn">#390</a>
+            </td>
+            <td>
+                <b>
+                    Go Modules version upgrade to v1.20
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. Upgrade all go modules to now use v1.20 of golang.
+2. Apply the changes created by dependabot in PR: #382 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-02 17:08:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/389" class=".btn">#389</a>
             </td>
             <td>
