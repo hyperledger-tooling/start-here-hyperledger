@@ -15,29 +15,29 @@ permalink: /releases/hyperledger-labs/weaver-dlt-interoperability
         <tr>
             <td colspan="2">
                 <b>
-                    v1.5.9 - GO Fabric Interop Chaincode - Feb 23, 2023
+                    v1.5.11 - GO Weaver Protos - Apr 03, 2023
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    core/network/fabric-interop-cc/contracts/interop/v1.5.9
+                    common/protos-go/v1.5.11
                 </span>
             </td>
             <td>
-                - Go Module: `github.com/hyperledger-labs/weaver-dlt-interoperability/core/network/fabric-interop-cc/contracts/interop`
-- Release: v1.5.9
-- Readme: [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/core/network/fabric-interop-cc/contracts/interop/v1.5.9/core/network/fabric-interop-cc/contracts/interop/README.md).
-- Source: [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/core/network/fabric-interop-cc/contracts/interop/v1.5.9/core/network/fabric-interop-cc/contracts/interop)
+                - Go Module: `github.com/hyperledger-labs/weaver-dlt-interoperability/common/protos-go`
+- Release: v1.5.11
+- Readme: [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/common/protos-go/v1.5.11/common/protos-go/README.md).
+- Source: [Here](https://github.com/hyperledger-labs/weaver-dlt-interoperability/blob/common/protos-go/v1.5.11/common/protos-go)
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/contracts/interop/v1.5.9" class=".btn">
+    <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/common/protos-go/v1.5.11" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-02-23 11:32:59 +0000 UTC
+        Created At 2023-04-03 19:55:33 +0000 UTC
     </span>
 </div>
 
