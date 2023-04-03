@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/470" class=".btn">#470</a>
+            </td>
+            <td>
+                <b>
+                    go1.19 and fabric v2.5.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">enhancement</span>
+            </td>
+            <td>
+                This PR updates FSC to use Fabric 2.5.0
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-03 13:35:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/469" class=".btn">#469</a>
             </td>
             <td>
