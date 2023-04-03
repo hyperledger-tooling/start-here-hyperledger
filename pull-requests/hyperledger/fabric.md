@@ -898,29 +898,3 @@ Finally, you can contact us on https://mergify.com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4110" class=".btn">#4110</a>
-            </td>
-            <td>
-                <b>
-                    Update fabric_model.rst
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                small typo
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-27 09:40:29 +0000 UTC
-    </div>
-</div>
-
