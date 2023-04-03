@@ -29,6 +29,7 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
             <td>
                 1. Upgrade all go modules to now use v1.20 of golang.
 2. Apply the changes created by dependabot in PR: #382 
+3. Bump all weaver go modules to v1.5.11
             </td>
         </tr>
     </table>
