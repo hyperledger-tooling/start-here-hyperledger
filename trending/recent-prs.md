@@ -1,13 +1,13 @@
 
-[4144](https://github.com/hyperledger/fabric/pull/4144) add basic issue template/links
+[425](https://github.com/hyperledger-labs/private-data-objects/pull/425) Remove the gipsy interpreter
 
-[4142](https://github.com/hyperledger/fabric/pull/4142) use HasGet() instead of Has() and Get() on fastcache lib (backport #4141)
+[392](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/392) build(deps): Bump golang.org/x/text from 0.3.2 to 0.3.8 in /samples/fabric/simplestate
 
-[465](https://github.com/hyperledger-labs/fabric-token-sdk/pull/465) go1.19 and fabric v2.5.0
+[393](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/393) build(deps): Bump golang.org/x/net from 0.0.0-20200822124328-c89045814202 to 0.7.0 in /samples/fabric/simplestate
 
-[376](https://github.com/hyperledger-labs/blockchain-explorer/pull/376) Add validations to search functionality blockId and blockRange
+[391](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/391) build(deps): Bump golang.org/x/sys from 0.0.0-20200323222414-85ca7c5b95cd to 0.1.0 in /samples/fabric/simplestate
 
-[470](https://github.com/hyperledger-labs/fabric-smart-client/pull/470) go1.19 and fabric v2.5.0
+[39](https://github.com/hyperledger-labs/perun-eth-backend/pull/39) Go perun update
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
