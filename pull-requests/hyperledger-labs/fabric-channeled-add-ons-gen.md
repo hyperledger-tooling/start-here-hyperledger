@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-channeled-add-ons-gen
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-channeled-add-ons-gen/pull/8" class=".btn">#8</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-channeled-add-ons-gen/pull/10" class=".btn">#10</a>
             </td>
             <td>
                 <b>
-                    Mnemonic-instead-of-private-key
+                    Add logout, and mnemonic encryption
                 </b>
             </td>
         </tr>
@@ -27,15 +27,14 @@ permalink: /pull-requests/hyperledger-labs/fabric-channeled-add-ons-gen
                 
             </td>
             <td>
-                Signed-off-by: Leonidas Avdelas <avdelasleonidas@gmail.com>
+                Adds logout route.
 
-
-Based on [BIP-32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki#user-content-Specification_Key_derivation) and [BIP-39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki).
+Also adds encryption of the mnemonic with a passphrase. While this is not useful right now, it's a future extension that will help us not request the mnemonic later on.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-25 11:45:30 +0000 UTC
+        Created At 2023-04-04 11:32:30 +0000 UTC
     </div>
 </div>
 
