@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/135" class=".btn">#135</a>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/138" class=".btn">#138</a>
             </td>
             <td>
                 <b>
-                    [refactor] #132: refactor codegen for enum
+                    Update to LTS
                 </b>
             </td>
         </tr>
@@ -27,16 +27,17 @@ permalink: /pull-requests/hyperledger/iroha-python
                 
             </td>
             <td>
-                Finally no more metaclass voodoo in codegen, also (probably) more pythonic types for rust enums.
+                - Updated dependencies
+- Re-ran codegen
+- Fixed numerous bugs with queries and instruction submisson
+- Necessary adjustments for custom SerDe on iroha side
 
-Next steps would be to refactor codegen on the rust side, then probably move as much of codegen as possible from python to rust for better IDE/typechecking experience for end-users.
-
-Closes #132, also at least partially addresses #134
+Necessarily builds upon #135 , otherwise last bullet point would be quite hard
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-15 01:49:43 +0000 UTC
+        Created At 2023-03-30 23:24:02 +0000 UTC
     </div>
 </div>
 

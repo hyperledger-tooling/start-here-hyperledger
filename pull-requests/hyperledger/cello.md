@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/cello
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cello/pull/523" class=".btn">#523</a>
+                PR <a href="https://github.com/hyperledger/cello/pull/524" class=".btn">#524</a>
             </td>
             <td>
                 <b>
-                    Bump redis from 3.4.1 to 4.5.3 in /src/api-engine
+                    Bump redis from 3.4.1 to 4.4.4 in /src/api-engine
                 </b>
             </td>
         </tr>
@@ -27,55 +27,54 @@ permalink: /pull-requests/hyperledger/cello
                 <span class="chip">Dependencies</span><span class="chip">python</span>
             </td>
             <td>
-                Bumps [redis](https://github.com/redis/redis-py) from 3.4.1 to 4.5.3.
+                Bumps [redis](https://github.com/redis/redis-py) from 3.4.1 to 4.4.4.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/redis/redis-py/releases">redis's releases</a>.</em></p>
 <blockquote>
-<h2>4.5.3</h2>
+<h2>4.4.4</h2>
+<h1>Changes</h1>
+<p>Upgrade urgency: SECURITY, contains fixes to security issues.</p>
+<ul>
+<li>(CVE-2023-28859) - Cancelling an async future does not, properly trigger, leading to a potential data leak in specific cases.</li>
+<li>(CVE-2023-28858) - Cancelling an async future does not, properly trigger, leading to a potential data leak in specific cases.</li>
+</ul>
+<h2>🐛 Bug Fixes</h2>
+<ul>
+<li>Fixing cancelled async futures (<a href="https://redirect.github.com/redis/redis-py/issues/2671">#2671</a> )</li>
+</ul>
+<h2>4.4.3</h2>
 <h1>Changes</h1>
 <p>Update urgency: HIGH: There is a critical bug that may affect a subset of users. Upgrade!</p>
 <h2>🐛 Bug Fixes</h2>
 <ul>
 <li><a href="https://cwe.mitre.org/data/definitions/404.html">CWE-404</a> AsyncIO Race Condition Fix (<a href="https://redirect.github.com/redis/redis-py/issues/2624">#2624</a>, <a href="https://redirect.github.com/redis/redis-py/issues/2579">#2579</a>)</li>
 </ul>
-<h2>4.5.2</h2>
+<h2>4.4.2</h2>
+<h1>Changes</h1>
+<p>Note: this release include <a href="https://redirect.github.com/redis/redis-py/issues/2548">#2548</a> and it is suggested that users upgrade immediately.</p>
+<h2>🧪 Experimental Features</h2>
+<ul>
+<li>Add support for BF.CARD (<a href="https://redirect.github.com/redis/redis-py/issues/2545">#2545</a>)</li>
+</ul>
+<h2>🚀 New Features</h2>
+<ul>
+<li>Add support for custom connection pool class in NodesManager (<a href="https://redirect.github.com/redis/redis-py/issues/2547">#2547</a>)</li>
+</ul>
+<h2>🐛 Bug Fixes</h2>
+<ul>
+<li>Allow replica to master promotion in nodes_cache (<a href="https://redirect.github.com/redis/redis-py/issues/2549">#2549</a>)</li>
+<li>Security Fix: Updating graph parser for potential injection cases (<a href="https://redirect.github.com/redis/redis-py/issues/2548">#2548</a>)</li>
+</ul>
+<h2>Contributors</h2>
+<p>We'd like to thank all the contributors who worked on this release!</p>
+<p><a href="https://github.com/Threated"><code>@​Threated</code></a>, <a href="https://github.com/dvora-h"><code>@​dvora-h</code></a>, <a href="https://github.com/shacharPash"><code>@​shacharPash</code></a> and <a href="https://github.com/zakaf"><code>@​zakaf</code></a></p>
+<h2>4.4.1</h2>
 <h1>Changes</h1>
 <h2>🚀 New Features</h2>
 <ul>
-<li>Introduce AbstractConnection so that UnixDomainSocketConnection can call super().<strong>init</strong> (<a href="https://redirect.github.com/redis/redis-py/issues/2588">#2588</a>)</li>
-<li>Added queue_class to REDIS_ALLOWED_KEYS (<a href="https://redirect.github.com/redis/redis-py/issues/2577">#2577</a>)</li>
-<li>Made search document subscriptable (<a href="https://redirect.github.com/redis/redis-py/issues/2615">#2615</a>)</li>
-<li>Sped up the protocol parsing (<a href="https://redirect.github.com/redis/redis-py/issues/2596">#2596</a>)</li>
+<li>Add dialect to <code>FT.AGGREGATE</code> (<a href="https://redirect.github.com/redis/redis-py/issues/2537">#2537</a>)</li>
 </ul>
-<h2>🐛 Bug Fixes</h2>
-<ul>
-<li>Fix behaviour of async PythonParser to match RedisParser as for issue <a href="https://redirect.github.com/redis/redis-py/issues/2349">#2349</a> (<a href="https://redirect.github.com/redis/redis-py/issues/2582">#2582</a>)</li>
-<li>Replace async_timeout by asyncio.timeout (<a href="https://redirect.github.com/redis/redis-py/issues/2602">#2602</a>)</li>
-<li>Update json().arrindex() default values (<a href="https://redirect.github.com/redis/redis-py/issues/2611">#2611</a>)</li>
-</ul>
-<h2>🧰 Maintenance</h2>
-<ul>
-<li>Coverage for pypy-3.9 (<a href="https://redirect.github.com/redis/redis-py/issues/2608">#2608</a>)</li>
-<li>Developer Experience: Adding redis version compatibility details to the README (<a href="https://redirect.github.com/redis/redis-py/issues/2621">#2621</a>)</li>
-<li>Remove redundant assignment to RedisCluster.nodes_manager. (<a href="https://redirect.github.com/redis/redis-py/issues/2620">#2620</a>)</li>
-<li>Developer Experience: [types] update return type of smismember to list[int] (<a href="https://redirect.github.com/redis/redis-py/issues/2617">#2617</a>)</li>
-<li>Developer Experience: [docs] ConnectionPool SSL example (<a href="https://redirect.github.com/redis/redis-py/issues/2605">#2605</a>)</li>
-<li>Developer Experience: Fixed CredentialsProvider examples (<a href="https://redirect.github.com/redis/redis-py/issues/2587">#2587</a>)</li>
-<li>Developer Experience: Update README to make pip install copy-pastable on zsh (<a href="https://redirect.github.com/redis/redis-py/issues/2584">#2584</a>)</li>
-<li>Developer Experience: Fix for <code>lpop</code> and <code>rpop</code> return typing (<a href="https://redirect.github.com/redis/redis-py/issues/2590">#2590</a>)</li>
-</ul>
-<h2>Contributors</h2>
-<p>We'd like to thank all the contributors who worked on this release!</p>
-<p><a href="https://github.com/CrimsonGlory"><code>@​CrimsonGlory</code></a>, <a href="https://github.com/Galtozzy"><code>@​Galtozzy</code></a>, <a href="https://github.com/aksinha334"><code>@​aksinha334</code></a>, <a href="https://github.com/barshaul"><code>@​barshaul</code></a>, <a href="https://github.com/chayim"><code>@​chayim</code></a>, <a href="https://github.com/davemcphee"><code>@​davemcphee</code></a>, <a href="https://github.com/dvora-h"><code>@​dvora-h</code></a>, <a href="https://github.com/kristjanvalur"><code>@​kristjanvalur</code></a>, <a href="https://github.com/ryin1"><code>@​ryin1</code></a>, <a href="https://github.com/sileht"><code>@​sileht</code></a>, <a href="https://github.com/thebarbershop"><code>@​thebarbershop</code></a>, <a href="https://github.com/uglide"><code>@​uglide</code></a>, <a href="https://github.com/woutdenolf"><code>@​woutdenolf</code></a> and <a href="https://github.com/zakaf"><code>@​zakaf</code></a></p>
-<h2>4.5.1</h2>
-<h1>Changes</h1>
-<h2>🐛 Bug Fixes</h2>
-<ul>
-<li>Fix <a href="https://redirect.github.com/redis/redis-py/issues/2581">#2581</a> <code>UnixDomainSocketConnection</code> object has no attribute <code>_command_packer</code> (<a href="https://redirect.github.com/redis/redis-py/issues/2583">#2583</a>)</li>
-</ul>
-<h2>Contributors</h2>
-<p>We'd like to thank all the contributors who worked on this release!</p>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -146,23 +145,23 @@ permalink: /pull-requests/hyperledger/cello
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/redis/redis-py/commit/66a4d6b2a493dd3a20cc299ab5fef3c14baad965"><code>66a4d6b</code></a> AsyncIO Race Condition Fix (<a href="https://redirect.github.com/redis/redis-py/issues/2641">#2641</a>)</li>
-<li><a href="https://github.com/redis/redis-py/commit/318b114f4da9846a2a7c150e1fb702e9bebd9fdf"><code>318b114</code></a> Version 4.5.2 (<a href="https://redirect.github.com/redis/redis-py/issues/2627">#2627</a>)</li>
-<li><a href="https://github.com/redis/redis-py/commit/1b2f408259405d412d7530291902f9e0c8bd34b3"><code>1b2f408</code></a> Fix behaviour of async PythonParser to match RedisParser as for issue <a href="https://redirect.github.com/redis/redis-py/issues/2349">#2349</a> (...</li>
-<li><a href="https://github.com/redis/redis-py/commit/7d474f90453c7b90bd06c94e0250b618120a599d"><code>7d474f9</code></a> introduce AbstractConnection so that UnixDomainSocketConnection can call supe...</li>
-<li><a href="https://github.com/redis/redis-py/commit/c87172347584301f453c601c483126e4800257b7"><code>c871723</code></a> pypy-3.9 CI (<a href="https://redirect.github.com/redis/redis-py/issues/2608">#2608</a>)</li>
-<li><a href="https://github.com/redis/redis-py/commit/d63313bf6080acaf18d61e072c78303adc0d4166"><code>d63313b</code></a> add queue_class to REDIS_ALLOWED_KEYS (<a href="https://redirect.github.com/redis/redis-py/issues/2577">#2577</a>)</li>
-<li><a href="https://github.com/redis/redis-py/commit/c61eeb2e3b5dff1f01eb1e665f424c7e75354f56"><code>c61eeb2</code></a> Adding supported redis/library details (<a href="https://redirect.github.com/redis/redis-py/issues/2621">#2621</a>)</li>
-<li><a href="https://github.com/redis/redis-py/commit/25e85e51e57b7aae9eb8fc77cfb0a45a07a501a7"><code>25e85e5</code></a> fix: replace async_timeout by asyncio.timeout (<a href="https://redirect.github.com/redis/redis-py/issues/2602">#2602</a>)</li>
-<li><a href="https://github.com/redis/redis-py/commit/91ab12a0f1bdf0e433131e1a51578e9fa2f89718"><code>91ab12a</code></a> Remove redundant assignment. (<a href="https://redirect.github.com/redis/redis-py/issues/2620">#2620</a>)</li>
-<li><a href="https://github.com/redis/redis-py/commit/8bfd492240fd33489a86cd3d353e3ece1fc94c10"><code>8bfd492</code></a> Making search document subscriptable (<a href="https://redirect.github.com/redis/redis-py/issues/2615">#2615</a>)</li>
-<li>Additional commits viewable in <a href="https://github.com/redis/redis-py/compare/3.4.1...v4.5.3">compare view</a></li>
+<li><a href="https://github.com/redis/redis-py/commit/49d9cb751c7c30546fc86d11f8168d7aa007edae"><code>49d9cb7</code></a> Version 4.4.4 (<a href="https://redirect.github.com/redis/redis-py/issues/2671">#2671</a>)</li>
+<li><a href="https://github.com/redis/redis-py/commit/b3c89acd0ffe8303649ad8207bc911b1d6a033eb"><code>b3c89ac</code></a> AsyncIO Race Condition Fix (<a href="https://redirect.github.com/redis/redis-py/issues/2640">#2640</a>)</li>
+<li><a href="https://github.com/redis/redis-py/commit/8592cacf9e5069f8f6d392a2bc02aeade87c9d69"><code>8592cac</code></a> version 4.4.2 (<a href="https://redirect.github.com/redis/redis-py/issues/2550">#2550</a>)</li>
+<li><a href="https://github.com/redis/redis-py/commit/be84b930266932bc81fd5390e6963621ef0b97da"><code>be84b93</code></a> Add support to BF.CARD (<a href="https://redirect.github.com/redis/redis-py/issues/2545">#2545</a>)</li>
+<li><a href="https://github.com/redis/redis-py/commit/7dd73a306add608807c372a98d833b7cb3394681"><code>7dd73a3</code></a> add support for custom connection pool class in NodesManager (<a href="https://redirect.github.com/redis/redis-py/issues/2547">#2547</a>)</li>
+<li><a href="https://github.com/redis/redis-py/commit/bae6385c1b0097a1d85c7825604170477d193481"><code>bae6385</code></a> allow replica to master promotion in nodes_cache (<a href="https://redirect.github.com/redis/redis-py/issues/2549">#2549</a>)</li>
+<li><a href="https://github.com/redis/redis-py/commit/4a825bc76b668951923c57aaff1020c3892f8de2"><code>4a825bc</code></a> String cleanse (<a href="https://redirect.github.com/redis/redis-py/issues/2548">#2548</a>)</li>
+<li><a href="https://github.com/redis/redis-py/commit/f46d7f3ef7ce64f90acd4a3dcc14375ab9ae9c9d"><code>f46d7f3</code></a> Version 4.4.1 (<a href="https://redirect.github.com/redis/redis-py/issues/2544">#2544</a>)</li>
+<li><a href="https://github.com/redis/redis-py/commit/c7600b4c7e558d3c05485f76cfcdd3e807c6b13e"><code>c7600b4</code></a> add type checking for graph <strong>eq</strong> (<a href="https://redirect.github.com/redis/redis-py/issues/2531">#2531</a>)</li>
+<li><a href="https://github.com/redis/redis-py/commit/decd1f6ae5434b111c5b125263549d8743275e51"><code>decd1f6</code></a> ValueError must be AttributeError in <strong>init</strong>.py (<a href="https://redirect.github.com/redis/redis-py/issues/2542">#2542</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/redis/redis-py/compare/3.4.1...v4.4.4">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=redis&package-manager=pip&previous-version=3.4.1&new-version=4.5.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=redis&package-manager=pip&previous-version=3.4.1&new-version=4.4.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -193,7 +192,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-27 21:56:49 +0000 UTC
+        Created At 2023-03-31 14:51:33 +0000 UTC
     </div>
 </div>
 

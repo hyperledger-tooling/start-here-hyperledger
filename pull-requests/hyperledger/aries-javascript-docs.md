@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/111" class=".btn">#111</a>
+            </td>
+            <td>
+                <b>
+                    docs: spellling and reference to order of migration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: blu3beri <blu3beri@proton.me>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-04 13:17:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/110" class=".btn">#110</a>
+            </td>
+            <td>
+                <b>
+                    docs: small fixes and tweaks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes some typos, and extract the indy-vdr config to a snipper so we get hinting if it contains mistakes (the config contained `genesisTransaction` while it should be `genesisTransactions`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-31 15:10:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/109" class=".btn">#109</a>
             </td>
             <td>
@@ -33,65 +86,6 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
     </table>
     <div class="right-align">
         Created At 2023-03-29 08:48:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/108" class=".btn">#108</a>
-            </td>
-            <td>
-                <b>
-                    update snippets
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - docs: create connection working
-- docs: initial docs done, code snippet not complete
-- docs: register schema and cred def
-- docs: added initial issue a credential doc
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-27 13:22:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/107" class=".btn">#107</a>
-            </td>
-            <td>
-                <b>
-                    docs: add setup anoncreds and indy-vdr
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Indy VDR setup documentation
-- AnonCreds setup documentation
-
-Mainly copied from Askar setup documentation
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-27 08:41:43 +0000 UTC
     </div>
 </div>
 

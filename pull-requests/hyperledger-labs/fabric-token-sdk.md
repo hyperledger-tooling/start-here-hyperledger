@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 <span class="chip">enhancement</span>
             </td>
             <td>
-                <nil>
+                This PR brings in Fabric 2.5 and go1.20
             </td>
         </tr>
     </table>

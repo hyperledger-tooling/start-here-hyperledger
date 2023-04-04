@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1293" class=".btn">#1293</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1296" class=".btn">#1296</a>
             </td>
             <td>
                 <b>
-                    Bump mkdocs-material from 9.0.0 to 9.1.4 in /CI
+                    Bump mkdocs-material from 9.0.0 to 9.1.5 in /CI
                 </b>
             </td>
         </tr>
@@ -27,11 +27,17 @@ permalink: /pull-requests/hyperledger/besu-docs
                 <span class="chip">DocOps</span>
             </td>
             <td>
-                Bumps [mkdocs-material](https://github.com/squidfunk/mkdocs-material) from 9.0.0 to 9.1.4.
+                Bumps [mkdocs-material](https://github.com/squidfunk/mkdocs-material) from 9.0.0 to 9.1.5.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/squidfunk/mkdocs-material/releases">mkdocs-material's releases</a>.</em></p>
 <blockquote>
+<h2>mkdocs-material-9.1.5</h2>
+<ul>
+<li>Updated Lithuanian and Japanese translations</li>
+<li>Updated Mermaid.js to version 9.4.3</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5290">#5290</a>: Footer previous/next labels cut-off for short page titles</li>
+</ul>
 <h2>mkdocs-material-9.1.4</h2>
 <ul>
 <li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5239">#5239</a>: Instant loading breaks anchors in details (9.1.1 regression)</li>
@@ -85,12 +91,6 @@ permalink: /pull-requests/hyperledger/besu-docs
 <li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/4919">#4919</a>: Allow to hide version warning in multiple versions</li>
 </ul>
 <h2>mkdocs-material-9.0.12</h2>
-<ul>
-<li>Updated Catalan translations</li>
-<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/4975">#4975</a>: Mermaid entity relationship rendering diagrams bug</li>
-<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/4924">#4924</a>: Header title not reset when using instant loading</li>
-</ul>
-<h2>mkdocs-material-9.0.11</h2>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -99,6 +99,12 @@ permalink: /pull-requests/hyperledger/besu-docs
 <summary>Changelog</summary>
 <p><em>Sourced from <a href="https://github.com/squidfunk/mkdocs-material/blob/master/CHANGELOG">mkdocs-material's changelog</a>.</em></p>
 <blockquote>
+<p>mkdocs-material-9.1.5 (2023-03-31)</p>
+<ul>
+<li>Updated Lithuanian and Japanese translations</li>
+<li>Updated Mermaid.js to version 9.4.3</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5290">#5290</a>: Footer previous/next labels cut-off for short page titles</li>
+</ul>
 <p>mkdocs-material-9.1.4+insiders-4.32.4 (2023-03-24)</p>
 <ul>
 <li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5241">#5241</a>: Built-in typeset plugin jams navigation for anchors in headings</li>
@@ -143,11 +149,7 @@ permalink: /pull-requests/hyperledger/besu-docs
 <ul>
 <li>Docker image now available for amd64, arm64 and arm/v7</li>
 <li>Updated Chinese (Taiwanese) translations</li>
-<li>Generalized tag identifier implementation</li>
-<li>Fixed flickering of header shadow on load</li>
-<li>Fixed occasional flickering of announcement bar</li>
 </ul>
-<p>mkdocs-material-9.0.15 (2023-02-26)</p>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -155,23 +157,23 @@ permalink: /pull-requests/hyperledger/besu-docs
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/087df3345e3ea361578058f491eef04a42e2c105"><code>087df33</code></a> Prepare 9.1.4 release</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/183b0be12457662be8b5054e75d4abbb0ec0ead3"><code>183b0be</code></a> Fixed anchor links in closed details when using instant loading</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/ab23604fb0c19c0d7b8cfb9cdada55780cf393ba"><code>ab23604</code></a> Removed flickering of color palette demo</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/70d1002a1ddf0705547a01b2eeb3c874c2f804d5"><code>70d1002</code></a> Documentation</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/911ffc1260b8296e1d41d37c1b4e707c4e9e16f8"><code>911ffc1</code></a> Documentation</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/9805b3cb20b261379c581408e0bddf19e9c1f01a"><code>9805b3c</code></a> Merge pull request <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5244">#5244</a> from bannmann/fix-meta-tag-syntax</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/af119c2891dc77bb34d78355a12812e3a62a1883"><code>af119c2</code></a> Fix examples to use correct HTML &lt;meta&gt; syntax</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/e24759fb41719d00874fc762a3e750ac857eb604"><code>e24759f</code></a> Updated dependencies</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/5f02d02dc44027212365040dbcd61ff833ecd8ae"><code>5f02d02</code></a> Fixed inconsistency of code block sequence number in community edition and In...</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/c3ba161233d4b2a1b9f148c01b0b83187fb57d5b"><code>c3ba161</code></a> Fixed issue with non-percent encoded anchors in table of contents</li>
-<li>Additional commits viewable in <a href="https://github.com/squidfunk/mkdocs-material/compare/9.0.0...9.1.4">compare view</a></li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/5f431ec92144be317c5d7ddfe7c386717f7a1395"><code>5f431ec</code></a> Prepare 9.1.5 release</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/d8b066565a833498f73430f8a4151a2410b5d892"><code>d8b0665</code></a> Merge pull request <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5295">#5295</a> from AnaisUrlichs/master</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/062ee027cd2427568b2b3dcedd3321d85592d615"><code>062ee02</code></a> Merge pull request <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/1">#1</a> from AnaisUrlichs/adding-trivy</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/338ff8c4a72210ffe178b8905a0ff192ee1a7d4b"><code>338ff8c</code></a> adding Trivy to open source user list</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/355761d93c270e1e7e82e9c6d7efc2297a854b3f"><code>355761d</code></a> Merge pull request <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5293">#5293</a> from tealgreen0503/hotfix/ja-translation</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/1c793ebaff0ef694e7231e69a40426bc047807da"><code>1c793eb</code></a> fix Japanese translation</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/cd18cb5dcb8faa4ac4f4839ca05126c0cad36d0d"><code>cd18cb5</code></a> fix Japanese translation</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/f4d894d53bc19200a1712c93c97f6d6debe40665"><code>f4d894d</code></a> Fixed footer direction label being cut off</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/7c473e148b61830a4befa3848b0c87eb84fd6e4a"><code>7c473e1</code></a> Added FastAPI as a silver sponsor 🎉</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/0184b9701b89a05c5dc4664df974c7f0593fef8a"><code>0184b97</code></a> Updated README</li>
+<li>Additional commits viewable in <a href="https://github.com/squidfunk/mkdocs-material/compare/9.0.0...9.1.5">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=mkdocs-material&package-manager=pip&previous-version=9.0.0&new-version=9.1.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=mkdocs-material&package-manager=pip&previous-version=9.0.0&new-version=9.1.5)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -202,7 +204,7 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-27 23:59:07 +0000 UTC
+        Created At 2023-03-31 18:55:30 +0000 UTC
     </div>
 </div>
 
@@ -210,86 +212,87 @@ You can trigger Dependabot actions by commenting on this PR:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1292" class=".btn">#1292</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1295" class=".btn">#1295</a>
             </td>
             <td>
                 <b>
-                    Bump mkdocs-minify-plugin from 0.6.2 to 0.6.4 in /CI
+                    Increase rpc-max-logs-range default 1000 to 5000
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">DocOps</span>
+                
             </td>
             <td>
-                Bumps [mkdocs-minify-plugin](https://github.com/byrnereese/mkdocs-minify-plugin) from 0.6.2 to 0.6.4.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/byrnereese/mkdocs-minify-plugin/releases">mkdocs-minify-plugin's releases</a>.</em></p>
-<blockquote>
-<h2>mkdocs-minify-plugin-0.6.4</h2>
-<ul>
-<li>Updated htmlmin dependency in setup.py</li>
-</ul>
-<h2>mkdocs-minify-plugin-0.6.3</h2>
-<ul>
-<li>Updated htmlmin to avoid DeprecationWarning at build time (<a href="https://redirect.github.com/byrnereese/mkdocs-minify-plugin/issues/25">#25</a>)</li>
-<li>Fixed issue where jsmin was called without <code>quote_chars</code> option when <code>cache_safe</code> was disabled (<a href="https://redirect.github.com/byrnereese/mkdocs-minify-plugin/issues/27">#27</a>)</li>
-<li>Fixed issue where plugin crashed when using the <code>custom_dir</code> directory for assets (<a href="https://redirect.github.com/byrnereese/mkdocs-minify-plugin/issues/27">#27</a>)</li>
-</ul>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li><a href="https://github.com/byrnereese/mkdocs-minify-plugin/commit/841f17bdf0616c8ab022d081873cbbc9121333a0"><code>841f17b</code></a> Require htmlmin2 package instead of git fork</li>
-<li><a href="https://github.com/byrnereese/mkdocs-minify-plugin/commit/07b232153762a87f8bb9abc75dd98c8f64cd34a6"><code>07b2321</code></a> Bump to 0.6.4</li>
-<li><a href="https://github.com/byrnereese/mkdocs-minify-plugin/commit/3a1d4be19cd8cd5712bfd2b496628169ba069780"><code>3a1d4be</code></a> Require fork of htmlmin in setup.py</li>
-<li><a href="https://github.com/byrnereese/mkdocs-minify-plugin/commit/bcd4815a744aa689824bde1aa15b0033a9ae12f0"><code>bcd4815</code></a> Require fork of htmlmin instead of official repo. Fixes <a href="https://redirect.github.com/byrnereese/mkdocs-minify-plugin/issues/25">#25</a></li>
-<li><a href="https://github.com/byrnereese/mkdocs-minify-plugin/commit/c672ef8ef74464da0d61c549a7c5a80207f2e1a0"><code>c672ef8</code></a> Merge pull request <a href="https://redirect.github.com/byrnereese/mkdocs-minify-plugin/issues/27">#27</a> from kamilkrzyskow/custom-dir-support</li>
-<li><a href="https://github.com/byrnereese/mkdocs-minify-plugin/commit/cecdab80bd0741ab45a76b78937b5ab808eb5312"><code>cecdab8</code></a> chore: add python 3.11 support (<a href="https://redirect.github.com/byrnereese/mkdocs-minify-plugin/issues/26">#26</a>)</li>
-<li><a href="https://github.com/byrnereese/mkdocs-minify-plugin/commit/6eb9e460358af5c0179e365fd1eb1d368fc8e3c6"><code>6eb9e46</code></a> bump to <code>0.6.3</code></li>
-<li><a href="https://github.com/byrnereese/mkdocs-minify-plugin/commit/c3ed0f1345785a53a7dcdede39f2bb88a7d09206"><code>c3ed0f1</code></a> fix unify data minification for different options</li>
-<li><a href="https://github.com/byrnereese/mkdocs-minify-plugin/commit/cea8c699cf8597a05500f9a4129bcd196bb7fcdf"><code>cea8c69</code></a> add <code>custom_dir</code> handling for the <code>cache_safe</code> option</li>
-<li>See full diff in <a href="https://github.com/byrnereese/mkdocs-minify-plugin/compare/0.6.2...0.6.4">compare view</a></li>
-</ul>
-</details>
-<br />
+                ## Pull request checklist
 
+Use the following list to make sure your PR fits the Besu documentation quality standard.
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=mkdocs-minify-plugin&package-manager=pip&previous-version=0.6.2&new-version=0.6.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+### Before creating the pull request
 
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+Make sure that:
 
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
+-  [x] [All commits in this PR are signed off for the DCO](https://wiki.hyperledger.org/display/BESU/DCO).
+- [x] You've read the [contribution guidelines](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [x] You've [previewed your changes locally](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation).
 
----
+## Describe the change
 
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
+<!-- Add a clear and concise description of what your PR changes in the documentation. -->
 
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+## Issue fixed
 
+Increase rpc-max-logs-range default  1000 to 5000
 
-</details>
+Link to the GitHub issue that your PR addresses.
+
+fixes #1290 
+
+If your PR doesn't completely fix the issue, add "see #{1290}" to link to the issue
+without automatically closing it. 
+
+## Impacted parts
+
+<!-- Check the item from the following lists that your PR impacts. You can check multiple boxes. -->
+
+For content changes:
+
+- [x] Documentation content
+- [ ] Documentation page organization
+
+For tool changes:
+
+- [ ] Github Actions workflow
+- [ ] Build and QA tools configuration (for example, lint rules or Vale style)
+- [ ] MkDocs templates
+- [ ] MkDocs configuration
+- [ ] Python dependencies
+- [ ] Node dependencies and JavaScript
+- [ ] Read the Docs configuration
+- [ ] GitHub integration
+
+## After creating your PR and tests have finished
+
+Make sure that:
+
+- [ ] You've fixed any issues raised by the tests.
+- [ ] You've [previewed your changes on Read the Docs](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation)
+  and added a [preview link](#preview).
+
+## Preview
+
+<!-- Add the link to preview your changes on Read the Docs.
+
+The link format is "https://hyperledger-besu--{your PR number}.org.readthedocs.build/en/{your PR number}/",
+where {your PR number} is replaced by the number of this PR.
+-->
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-27 23:58:57 +0000 UTC
+        Created At 2023-03-30 18:00:50 +0000 UTC
     </div>
 </div>
 

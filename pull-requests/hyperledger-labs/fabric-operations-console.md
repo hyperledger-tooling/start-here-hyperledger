@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/434" class=".btn">#434</a>
+            </td>
+            <td>
+                <b>
+                    make couchdb url use ipv4 and not ipv6
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+With node 18, values of `localhost` are interpreted as their IPv6 equivalent of `::1`, however our couchdb containers are not listening on `::1`, they only work with IPv4. This PR replaces `localhost` on outgoing destinations with `127.0.0.1` to keep things as IPv4.
+
+This fixes database connecting issues (with certain couchdb configurations) seen since build `1.0.5-3`.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-04 16:37:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/433" class=".btn">#433</a>
             </td>
             <td>

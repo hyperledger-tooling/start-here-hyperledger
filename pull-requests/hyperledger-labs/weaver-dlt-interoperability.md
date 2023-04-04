@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/394" class=".btn">#394</a>
+            </td>
+            <td>
+                <b>
+                    Fix Go Publish workflows and relay, driver changes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. Fix Go publish workflows by changing go version 1.20 in those workflows.
+2. Relay: Added configurable variable `DB_OPEN_MAX_RETRIES`, to remove hard coded 10 re-try db open attempts.
+3. Fabric Driver: Added configurable variable `LEVELDB_LOCKED_MAX_RETRIES`, to remove hard coded 10 re-try db open attempts.
+4. Version Bump for relay and fabric-driver to `v1.5.12`
+5. Fix docs vulnerability: [CVE-2020-28477 ](https://github.com/advisories/GHSA-9qmh-276g-x5pj)
+6. Fix relay vulnerability: https://github.com/hyperledger-labs/weaver-dlt-interoperability/security/dependabot/93
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-04 18:12:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/393" class=".btn">#393</a>
             </td>
             <td>

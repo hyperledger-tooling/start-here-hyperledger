@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/237" class=".btn">#237</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-dotnet/pull/238" class=".btn">#238</a>
             </td>
             <td>
                 <b>
-                    Update README.md
+                    Added default basic message service
                 </b>
             </td>
         </tr>
@@ -27,23 +27,20 @@ permalink: /pull-requests/hyperledger/aries-framework-dotnet
                 
             </td>
             <td>
-                Signed-off-by: kukgini <kukgini@users.noreply.github.com>
+                #### Short description of what this resolves:
 
-#### Short description of what this resolves:
-
-nuget.org url points to a deprecated package
+This pull request adjusted the BasicMessageHandler by modifying it to use a DefaultBasicMessageService.
 
 #### Changes proposed in this pull request:
 
-- fix nuget.org location from deprecated to active package
-
-**Fixes**: #
+- Modified BasicMessageHandler to use DefaultBasicMessageService
+- Added IBasicMessageService Interface and DefaultBasicMessageService
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-30 04:53:39 +0000 UTC
+        Created At 2023-03-31 14:54:23 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/62" class=".btn">#62</a>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/65" class=".btn">#65</a>
             </td>
             <td>
                 <b>
-                    Support non-reconnecting websockets
+                    Update sample so it works when copied & pasted into an empty file
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
                 
             </td>
             <td>
-                - treat a recconectDelay of -1 as meaning do not attempt to reconnect
-- reconnecting is not always desirable - for example when using firefly-sdk as a websocket proxy
-
-Signed-off-by: Chris Bygrave <chris.bygrave@kaleido.io>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-01 20:50:32 +0000 UTC
+        Created At 2023-04-03 11:15:17 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/778" class=".btn">#778</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/780" class=".btn">#780</a>
             </td>
             <td>
                 <b>
-                    RFC 0044: fix mime-type for encrypted DIDComm V1
+                    RFC 0780 -- Use Data URLs for Images and More in Credential Attributes
                 </b>
             </td>
         </tr>
@@ -27,42 +27,12 @@ permalink: /pull-requests/hyperledger/aries-rfcs
                 
             </td>
             <td>
-                As discussed in WG 20230322, references to `application/didcomm-enc-env` in RFC 0044 are updated to the more common `application/didcomm-envelope-enc`.
-
-There is also a reference to it in RFC 0587 that is updated as well.
-
-Fixes #773 
+                This PR is a new RFC proposing that verifiable credential issuers of attributes that contain or than strings and numbers use Data URLs (IETF Standard 2397) to convey to Holders and Verifiers the MIME Type and encoding of the attribute. This is particular useful for use cases of photos in attributes, and for attributes that hold a JSON data structure, such as an array of values.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-23 15:28:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/777" class=".btn">#777</a>
-            </td>
-            <td>
-                <b>
-                    RFC 510 - Format identifiers issues #762 and #763
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix #762 and #763 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-22 18:49:31 +0000 UTC
+        Created At 2023-04-03 19:31:36 +0000 UTC
     </div>
 </div>
 

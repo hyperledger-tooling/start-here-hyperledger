@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
                 <span class="chip">enhancement</span>
             </td>
             <td>
-                This PR updates FSC to use Fabric 2.5.0
+                This PR updates FSC to use Fabric 2.5.0 and go1.20
             </td>
         </tr>
     </table>
