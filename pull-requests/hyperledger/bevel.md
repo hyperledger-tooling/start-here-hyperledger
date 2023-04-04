@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2195" class=".btn">#2195</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2197" class=".btn">#2197</a>
             </td>
             <td>
                 <b>
-                    [besu] update flux delete role
+                    [besu]feat: add resource checks to reset.yaml
                 </b>
             </td>
         </tr>
@@ -27,24 +27,15 @@ permalink: /pull-requests/hyperledger/bevel
                 
             </td>
             <td>
-                **bug(besu): updated reset.yaml** 
-
-Added patching and deletion code for the following kubernetes resources
- 1. ClusterRole 
- 2. ClusterRoleBinding 
- 3. GitRepository 
- 4. Kustomization 
- 5. HelmChart 
- 6. HelmRelease
- 7. Organizations namespaces
- 8. flux namespace
- 
-fixes #2157 
+                **[besu]feat: add resource checks to reset.yaml**
+Added resource checks for the following K8s resources:
+ 1. Gitrepositories
+ 2. Kustomizations
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-28 12:21:45 +0000 UTC
+        Created At 2023-04-04 13:56:22 +0000 UTC
     </div>
 </div>
 
@@ -52,11 +43,11 @@ fixes #2157
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2192" class=".btn">#2192</a>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2196" class=".btn">#2196</a>
             </td>
             <td>
                 <b>
-                    [besu] fixed the helm ansible module for TLS cert creation using cert manager
+                    [besu] add storageclass template with ebs csi provisioner for besu platform support on eks v1.23
                 </b>
             </td>
         </tr>
@@ -65,61 +56,15 @@ fixes #2157
                 
             </td>
             <td>
-                changes:
-Removed the helm module while creation of TLS cert by cert manager because we are deploying helm chart using shell module
-changed the order of organization.issuer to check if it is defined/undefined and then to check the value if it is default/letsencrypt instead of first checking value and then checking if it is defined
-
-Reviewers:
-@suvajit-sarkar @sownak @jagpreetsinghsasan 
-
-Fixes:
-hotfix
+                **Changelog**
+-   Change default aws storageclass for besu platform to use ebs csi provisioner 
+-   Add check on genesis tpls before allocating accounts
+-   Change tested eks versions on doc
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-24 11:31:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2190" class=".btn">#2190</a>
-            </td>
-            <td>
-                <b>
-                    [chore] Merge Develop
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                commit_title
-   - Add
-   - Fix
-   - Update 
-
-Fixes #issue_number
-
----
-**Example (for reference only)**:   
-
-feat(fabric): support for v2.2.3
-  - Add platforms/hyperledger-fabric/charts/commit_chaincode chart
-  - Add platforms/hyperledger-fabric/charts/approve_chaincode
-  - Update platforms/hyperledger-fabric/configuration/deploy-network.yaml  
-
-Fixes #000
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-22 16:01:33 +0000 UTC
+        Created At 2023-03-31 09:02:58 +0000 UTC
     </div>
 </div>
 

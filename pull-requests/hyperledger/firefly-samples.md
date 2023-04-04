@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-samples/pull/52" class=".btn">#52</a>
+                PR <a href="https://github.com/hyperledger/firefly-samples/pull/53" class=".btn">#53</a>
             </td>
             <td>
                 <b>
-                    Initial UI & CLI token-minting sample
+                    Add a sample to showcase how to use Firefly to mint tokens on public chain
                 </b>
             </td>
         </tr>
@@ -27,18 +27,24 @@ permalink: /pull-requests/hyperledger/firefly-samples
                 
             </td>
             <td>
-                This adds 2 minting samples, a UI and CLI, which are designed to be used together.
+                PR to propose making sample in this repo more use-case / demo driven: https://github.com/hyperledger/firefly-samples/pull/52#issuecomment-1484959925
 
-The UI sample shows the current balance of a pre-defined token pool name (`MINTSAMPLE`) and lets you mint new tokens by entering a number to mint and hitting Submit.
+We already have two repos contains example code of how to talk to a Firefly system using node.js code:
+https://github.com/hyperledger/firefly-sdk-nodejs/tree/main/examples
+https://github.com/hyperledger/firefly-sandbox
 
-The CLI creates an ephemeral web socket subscription for FireFly events and prints out the details of `token_transfer_confirmed` events and `blockchain_event_received` events. The former lets us conveniently show the user how many tokens were transferred. The latter let's us show them the blockchain-specific information like block number and transaction hash so they can see the transaction on a block explorer (if using FF in gateway mode).
+And as those two repos all contain live code that people use, the code in those repos is more up-to-date than the ones in this sample repo. Therefore, I feel unless we find a distinct purpose that is different from those two repos, it's not going to be a motivating job to maintain code in this repo.
 
-The samples require that the user has created a FireFly stack, which by default could be a 1 member local stack but optionally could be a stack in gateway mode to a testnet.
+One motivation I feel could work is, we use this repo to record demoable development tasks / use cases. These can be common use cases that we demo to new contributors or web3 developers.
+
+https://github.com/nguyer/global-forum-2022-firefly-workshop is what triggered the thought above ^^ 
+
+@awrichar @nguyer @peterbroadhurst @shorsher @matthew1001 please share your thoughts on this. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-27 08:49:40 +0000 UTC
+        Created At 2023-03-31 16:10:03 +0000 UTC
     </div>
 </div>
 

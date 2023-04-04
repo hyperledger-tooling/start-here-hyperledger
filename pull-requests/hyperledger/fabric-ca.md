@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/356" class=".btn">#356</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/358" class=".btn">#358</a>
             </td>
             <td>
                 <b>
-                    Bump Go to 1.19.7
+                    Release commit for v1.5.6
                 </b>
             </td>
         </tr>
@@ -27,12 +27,39 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                Bump Go to 1.19.7.
+                Add release notes for v1.5.6.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-22 20:17:36 +0000 UTC
+        Created At 2023-03-31 21:04:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/357" class=".btn">#357</a>
+            </td>
+            <td>
+                <b>
+                    Bump Go to 1.20.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bump Go to 1.20.2
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-29 18:18:30 +0000 UTC
     </div>
 </div>
 

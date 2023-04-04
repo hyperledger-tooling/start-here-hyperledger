@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mediator-service
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/60" class=".btn">#60</a>
+                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/66" class=".btn">#66</a>
             </td>
             <td>
                 <b>
-                    Upgrade to aca-py v0.8.0
+                    feat: add features to devcontainer
                 </b>
             </td>
         </tr>
@@ -27,12 +27,93 @@ permalink: /pull-requests/hyperledger/aries-mediator-service
                 
             </td>
             <td>
-                - Latest images deal with the folder ownership and permissions.
+                Added a few features to the devcontainer, mostly a working directory and the ability to add env vars to the container.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-23 15:12:29 +0000 UTC
+        Created At 2023-04-03 23:32:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/65" class=".btn">#65</a>
+            </td>
+            <td>
+                <b>
+                    chore: add dev container for use as a consistent local environment
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - For use running the mediator and load tests locally.
+
+ToDo:
+- Add scripts to automate initialization of the local load testing environment.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-03 21:14:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/62" class=".btn">#62</a>
+            </td>
+            <td>
+                <b>
+                    feat: add additional load tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add additional load tests.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-30 16:49:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/61" class=".btn">#61</a>
+            </td>
+            <td>
+                <b>
+                    feat: initial work on an AFJ mediator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Initial work on creating a containerized AFJ mediator and supporting Kubernets deplouyment manifests.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-29 16:22:56 +0000 UTC
     </div>
 </div>
 

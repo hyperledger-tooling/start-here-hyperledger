@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/152" class=".btn">#152</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/153" class=".btn">#153</a>
             </td>
             <td>
                 <b>
-                    Update target CouchDB version to match Fabric
+                    force immediate shutdown of the network connection
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
                 
             </td>
             <td>
-                Also remove unused pullFabricDockerImages.sh script since this SDK targets release versions of Fabric v2.2, which can be pulled directly from DockerHub.
+                resolve #87 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-08 17:11:51 +0000 UTC
+        Created At 2023-03-30 13:10:49 +0000 UTC
     </div>
 </div>
 

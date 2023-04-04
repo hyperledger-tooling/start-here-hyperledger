@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/bevel-operator-fabric
 
 
 #### What this PR does / why we need it:
-fixes a bug on couchdb
+fixes a bug on couchdb where credentials are swapped
 #### Which issue(s) this PR fixes:
 <!--
 *Automatically closes linked issue when PR is merged.
@@ -42,7 +42,7 @@ _If PR is about `failing-tests`, please post the related issues/tests in a comme
 Fixes #
 
 #### Special notes for your reviewer:
-
+nothing to declare
 #### Does this PR introduce a user-facing change?
 <!--
 If no, just write "NONE" in the release-note block below.
@@ -51,7 +51,7 @@ Enter your extended release note in the block below. If the PR requires addition
 
 -->
 ```release-note
-
+NONE
 ```
 
 #### Additional documentation, usage docs, etc.:

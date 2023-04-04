@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-perf-cli
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/52" class=".btn">#52</a>
+                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/53" class=".btn">#53</a>
             </td>
             <td>
                 <b>
-                    Post test balance check
+                    Fix to config checking and make 'ff' cli command location configurable
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-perf-cli
                 
             </td>
             <td>
-                This change adds:
- - An optional check of the recipient token balance at the end of the test (plus a metric to track it over time)
- - Multiple actions per worker loop (so you can scale the number of parallel requests separately to scaling the workers)
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-24 15:46:17 +0000 UTC
+        Created At 2023-04-04 09:30:09 +0000 UTC
     </div>
 </div>
 

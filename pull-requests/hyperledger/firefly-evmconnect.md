@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/64" class=".btn">#64</a>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/68" class=".btn">#68</a>
             </td>
             <td>
                 <b>
-                    Only require the -f parameter on the root command
+                    Fix image manifests
                 </b>
             </td>
         </tr>
@@ -27,14 +27,64 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
                 
             </td>
             <td>
-                The `version`/`docs`/`client` commands do not need `-f`.
-
-This PR also exposes `InitConfig` separate to the command, for other tools to wrap this package and install extra plugins.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-23 10:08:30 +0000 UTC
+        Created At 2023-04-03 16:02:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/67" class=".btn">#67</a>
+            </td>
+            <td>
+                <b>
+                    Wrap all "execution reverted" calls with error code FF23021
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #65
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-30 18:44:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/66" class=".btn">#66</a>
+            </td>
+            <td>
+                <b>
+                    pick up transaction manager with config fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                pick up https://github.com/hyperledger/firefly-transaction-manager/pull/74
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-30 18:33:07 +0000 UTC
     </div>
 </div>
 

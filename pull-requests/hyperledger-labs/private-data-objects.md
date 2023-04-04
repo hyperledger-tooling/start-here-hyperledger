@@ -124,33 +124,3 @@ As detailed in those comments, once we improve the proxy handling, those files s
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/420" class=".btn">#420</a>
-            </td>
-            <td>
-                <b>
-                    Split test scripts into a local unit test and one for services
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                Splits the test into two parts:
-* unit test that requires no running services
-* services test that verifies correct operation of eservice/pservice/sservice
-
-The services test need not be run from the same host where the services are running.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-28 16:32:39 +0000 UTC
-    </div>
-</div>
-

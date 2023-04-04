@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1242" class=".btn">#1242</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1260" class=".btn">#1260</a>
             </td>
             <td>
                 <b>
-                    Re-establish active subscriptions after dynamic Namespace reload
+                    Update CLI to v1.2.1
                 </b>
             </td>
         </tr>
@@ -27,22 +27,14 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                On a dynamic reload of an _existing_ namespace (for example if there's a tweak to the config) the old namespace is stopped, and all subscription event polling associated with that namespace is stopped,
+                See https://github.com/hyperledger/firefly-cli/releases/tag/v1.2.1
 
-However, for WebSockets events there is currently no trigger to restart the listeners.
-
-In this `connect-in` case of Events, the Orchestrator relies upon a `RegisterConnection` function call from the Events plugin, when the `start` command comes over the WebSocket to from the application.
-
-In this case the application never disconnects/reconnects... so there's no new `start` payload.
-
-So this PR proposes a new `NamespaceRestarted` function call from Orchestrator _to_ the Events plugin, which then becomes responsible for making new `RegisterConnection` calls for all active subscriptions.
-
-To make this safe to happen on every startup, asynchronously to connections coming in, a timestamp is passed to the `NamespaceRestarted` so it can only re-register connections that came in before the restart time.
+This will fix the failing integration test which relies on a new Fabric flag: https://github.com/hyperledger/firefly/actions/runs/4602562209/jobs/8131661028
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-28 11:47:10 +0000 UTC
+        Created At 2023-04-04 15:41:42 +0000 UTC
     </div>
 </div>
 
@@ -50,11 +42,11 @@ To make this safe to happen on every startup, asynchronously to connections comi
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1240" class=".btn">#1240</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1259" class=".btn">#1259</a>
             </td>
             <td>
                 <b>
-                    Add GitHub issue templates
+                    Fix coverage gaps from new operation update logic
                 </b>
             </td>
         </tr>
@@ -63,12 +55,12 @@ To make this safe to happen on every startup, asynchronously to connections comi
                 
             </td>
             <td>
-                Adding some issue templates to guide people to Discord for questions and support.
+                Address missing coverage from #1257
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-27 17:40:49 +0000 UTC
+        Created At 2023-04-04 15:39:26 +0000 UTC
     </div>
 </div>
 
@@ -76,11 +68,11 @@ To make this safe to happen on every startup, asynchronously to connections comi
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1236" class=".btn">#1236</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1258" class=".btn">#1258</a>
             </td>
             <td>
                 <b>
-                    Add an indxed column and simple query API for distinct sub-paths
+                    Update Swagger UI used in the docs site
                 </b>
             </td>
         </tr>
@@ -89,19 +81,12 @@ To make this safe to happen on every startup, asynchronously to connections comi
                 
             </td>
             <td>
-                Fixes #1227 
-
-- Adds a `blob_path` column / `blob.path` JSON field for the path
-- Standardizes on `/` prefixing on these paths, without requiring the name to include a `/` prefix
-- Provides a simple API for querying the direct decendents of a path (no pagination or filtering, simple string return)
-
-> This **only** adds the column for newly created data objects, and it will be empty for all existing data
-
+                We had a previous PR to update this library in the product itself https://github.com/hyperledger/firefly-common/pull/44 but the published docs site still used the old Swagger UI package. The previous version was susceptible to URL injection attacks so this PR fixes that.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-26 21:03:26 +0000 UTC
+        Created At 2023-04-04 14:30:18 +0000 UTC
     </div>
 </div>
 
@@ -109,11 +94,11 @@ To make this safe to happen on every startup, asynchronously to connections comi
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1235" class=".btn">#1235</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1257" class=".btn">#1257</a>
             </td>
             <td>
                 <b>
-                    Fix archive name for integration test logs
+                    Do not update operations once they enter succeeded/failed state
                 </b>
             </td>
         </tr>
@@ -122,12 +107,12 @@ To make this safe to happen on every startup, asynchronously to connections comi
                 
             </td>
             <td>
-                This fixes the name of the uploaded log archives from each E2E run. The `blockchain-node` variable was not set, so it was an empty string, causing name collisions. This means that we are missing detailed logs from certain runs, making it hard to debug integration failures.
+                Fixes #1256
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-24 15:41:41 +0000 UTC
+        Created At 2023-04-03 20:58:30 +0000 UTC
     </div>
 </div>
 
@@ -135,11 +120,11 @@ To make this safe to happen on every startup, asynchronously to connections comi
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1234" class=".btn">#1234</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1254" class=".btn">#1254</a>
             </td>
             <td>
                 <b>
-                    Validate and restore listeners on startup, and allow deletion if not found in connector
+                    fixing broken test
                 </b>
             </td>
         </tr>
@@ -148,19 +133,151 @@ To make this safe to happen on every startup, asynchronously to connections comi
                 
             </td>
             <td>
-                Had a situation where we wanted to restore fresh listeners for custom contracts on a FireFly core service, and had assumed FireFly core would re-create the listeners. So deleted them on the EVMConnect runtime directly and restarted FF.
-
-Found related issues, that meant we had to go into the FF DB and remove the contract listeners directly (and have the app recreate them):
-1. FireFly did not recreate the listener. This seems a little inconsistent with both the `BatchPin` listener, and the listeners of the token connectors...
-   - Proposing in this PR that we automatically recreate the listeners where possible (only Ethereum in this PR, due to existing limitations around the Fabric connector integration where it does not have existing query support to check existence)
-2. The API could not be used to delete the listener, because when EVMConnect returned a `404` FireFly failed the `DELETE` API.
-    - This seemed like a straight bug to me. Due to the return of status being `interface{}` and the complexity of a `nil` check there, we're adding an extra `bool` to whether it's found or not (Fabric always returns true)
-3. Found in testing this change, that the check on existence of a contract listener with the same parameters was not working, passing in a `[]byte` for the `location` rather than `string`
+                doesn't look like these changes are related to the single-line change. Therefore, I raised it as a separate PR. @nguyer 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-22 22:44:02 +0000 UTC
+        Created At 2023-04-03 10:03:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1253" class=".btn">#1253</a>
+            </td>
+            <td>
+                <b>
+                    fixing broken link for polygon testnet json-rpc endpoint
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                the existing link is no longer available. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-31 16:49:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1251" class=".btn">#1251</a>
+            </td>
+            <td>
+                <b>
+                    Check message on-chain consistency before initializing context
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This prevents inserting a group from a malformed "group init" message.
+
+Possible/partial fix for https://github.com/hyperledger/firefly/issues/1247
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-31 12:45:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1249" class=".btn">#1249</a>
+            </td>
+            <td>
+                <b>
+                    Add support for evmconnect's "execution reverted" error code
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When querying network version, look for the unique error codes returned by either ethconnect or evmconnect.
+
+Partial fix for #1245
+Depends on https://github.com/hyperledger/firefly-evmconnect/pull/67
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-30 18:49:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1248" class=".btn">#1248</a>
+            </td>
+            <td>
+                <b>
+                    Always send "group init" message with a registered signing key
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Private messages can be sent and signed by any arbitrary key if desired, but "group init" messages (which can be auto-triggered by a private message) must be signed by a registered key.
+
+Possible/partial fix for #1247
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-30 17:51:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1246" class=".btn">#1246</a>
+            </td>
+            <td>
+                <b>
+                    Actually start the legacy "ff_system" namespace when needed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Partial fix for #1245
+
+Somewhere in the refactoring of namespace manager, it looks like we ended up in a situation where we _initialize_ but do not _start_ the legacy "ff_system" namespace.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-30 16:54:00 +0000 UTC
     </div>
 </div>
 

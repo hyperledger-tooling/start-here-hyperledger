@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/179" class=".btn">#179</a>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/181" class=".btn">#181</a>
             </td>
             <td>
                 <b>
-                    Add support for config flag transactions
+                    chore: increase version to dev.13
                 </b>
             </td>
         </tr>
@@ -27,13 +27,38 @@ permalink: /pull-requests/hyperledger/indy-vdr
                 
             </td>
             <td>
-                Adds support to indy-vdr for config flag transactions. 
-Supersedes #110 
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-27 15:51:47 +0000 UTC
+        Created At 2023-04-01 10:19:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/180" class=".btn">#180</a>
+            </td>
+            <td>
+                <b>
+                    fix: incorrect revocation registry id
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-31 17:29:03 +0000 UTC
     </div>
 </div>
 

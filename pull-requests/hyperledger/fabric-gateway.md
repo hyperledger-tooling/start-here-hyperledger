@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/573" class=".btn">#573</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/576" class=".btn">#576</a>
             </td>
             <td>
                 <b>
-                    Error testing improvements in Go unit tests
+                    Indicate testing is done with Fabric v2.5
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                - Require specific error types in assertions.
-- Enable race detection.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-28 14:23:23 +0000 UTC
+        Created At 2023-04-03 11:44:08 +0000 UTC
     </div>
 </div>
 
@@ -41,11 +40,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/572" class=".btn">#572</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/575" class=".btn">#575</a>
             </td>
             <td>
                 <b>
-                    Use GitHub Action setup-go@v4
+                    Test using Fabric v2.5 images
                 </b>
             </td>
         </tr>
@@ -54,12 +53,38 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Disable package cache in golangci-lint since it seems to generate errors with previously downloaded packages and setup-go@v4 caches already.
+                v2.5 development peer images were already used but now all v2.5 release images can be used.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-23 11:52:24 +0000 UTC
+        Created At 2023-04-03 11:37:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/574" class=".btn">#574</a>
+            </td>
+            <td>
+                <b>
+                    Update Java dependencies to fix vulnerability scans
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Allow sceduled workflows to be manually triggered (using workflow_dispatch trigger).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-03-29 15:44:03 +0000 UTC
     </div>
 </div>
 
