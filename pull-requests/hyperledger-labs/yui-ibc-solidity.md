@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/166" class=".btn">#166</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/167" class=".btn">#167</a>
             </td>
             <td>
                 <b>
-                    Use finalized height to query packets
+                    Update geth to v1.11.3
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
                 
             </td>
             <td>
-                I actually ran into the #162  problem and fixed it.
-This PR will search for packets below height and acknowledgement that are considered finalized.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-23 14:17:56 +0000 UTC
+        Created At 2023-04-04 02:17:00 +0000 UTC
     </div>
 </div>
 
