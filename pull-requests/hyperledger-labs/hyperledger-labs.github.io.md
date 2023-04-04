@@ -62,30 +62,3 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/230" class=".btn">#230</a>
-            </td>
-            <td>
-                <b>
-                    Archive solang lab as solang has moved out of labs into incubation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Solang has moved out of labs into incubation and this page is out of date
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-27 18:38:02 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-backend
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/36" class=".btn">#36</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-eth-backend/pull/39" class=".btn">#39</a>
             </td>
             <td>
                 <b>
-                    Fix `Asset.UnmarshallBinary` not working
+                    Go perun update
                 </b>
             </td>
         </tr>
@@ -27,17 +27,12 @@ permalink: /pull-requests/hyperledger-labs/perun-eth-backend
                 
             </td>
             <td>
-                - The method did not have a pointer receiver and thus could not set the value, resulting in the previous (default) value instead of the just unmarshalled one.
-- Additionally, the order was different from `Asset.MarshallBinary`, which meant unmarshalling a value just marshalled would result in the wrong value or an error.
-
-The added test coveres both these cases.
-
-Signed-off-by: Jens Winkle <jens@perun.network>
+                The changes restore compatibility between the core Perun framework and the Ethereum backend. The AppID type that has been introduced in [https://github.com/hyperledger-labs/go-perun/commit/c23f66bcb91dd71ff6c24acb37adb2928bfee96a](url), was implemented in the Ethereum backend to adapt to these changes. Further, the deprecated "Secondary" field in the channel.Adjudicator type ([https://github.com/hyperledger-labs/go-perun/commit/be6e07257c123309c98fbbea4b86440275be2797](url)) has also been removed in the backend.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-05 14:58:56 +0000 UTC
+        Created At 2023-04-03 19:42:07 +0000 UTC
     </div>
 </div>
 
