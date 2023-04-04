@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
             </td>
             <td>
                 <b>
-                    go1.19 and fabric v2.5.0
+                    go1.20 and fabric v2.5.0
                 </b>
             </td>
         </tr>
