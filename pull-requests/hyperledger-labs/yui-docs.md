@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-docs/pull/67" class=".btn">#67</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-docs/pull/68" class=".btn">#68</a>
             </td>
             <td>
                 <b>
-                    Apply latest version
+                    Add docs-deploy.yml
                 </b>
             </td>
         </tr>
@@ -27,32 +27,16 @@ permalink: /pull-requests/hyperledger-labs/yui-docs
                 
             </td>
             <td>
-                * Fix minitoken contract
-* Fix proto path
-* Fix token migrations
-* Fix dependencies
-* Fix docs
-
-Fixed together with PullRequest here
-https://github.com/hyperledger-labs/yui-relayer/pull/86 
-
-# environment
-```
-go: 1.20.1
-python: 3.11.2
-nodejs: v18.14.2
-  npm: 9.5.0
-  yarn: 1.22.19
-geth: 1.11.5-stable
-docker: 20.10.23, build 7155243
-docker compose: v2.15.1
-```
+                # Requirement
+* create gh-pages branch
+* setting github pages
+![スクリーンショット 2023-04-05 11 45 54](https://user-images.githubusercontent.com/126585618/229968027-618482ca-a8e6-446a-b90a-d7a678f03a0e.png)
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-28 07:57:46 +0000 UTC
+        Created At 2023-04-05 02:46:26 +0000 UTC
     </div>
 </div>
 
