@@ -349,29 +349,3 @@ https://github.com/Jsyro/aries-cloudagent-python/actions/runs/4568725894/jobs/80
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2185" class=".btn">#2185</a>
-            </td>
-            <td>
-                <b>
-                    Update and automate ACA-Py upgrade process
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - resolve #2181 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-29 17:53:55 +0000 UTC
-    </div>
-</div>
-

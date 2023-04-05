@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3556" class=".btn">#3556</a>
+            </td>
+            <td>
+                <b>
+                    ci: complete release 0.2.0 and prepare 0.3.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-05 16:27:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3555" class=".btn">#3555</a>
+            </td>
+            <td>
+                <b>
+                    chore: release 0.2.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Set release flag to true
+- Add CHANGELOG for 0.2.0
+- Add CHANGELOG for 0.1.9 (missed previously) : point to github release page
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-05 14:33:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3554" class=".btn">#3554</a>
             </td>
             <td>
@@ -195,58 +250,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2023-03-29 19:32:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3553" class=".btn">#3553</a>
-            </td>
-            <td>
-                <b>
-                    ci: update ubuntu runner to 22.04 as 18.4 is deprecated in GitHub Actions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                https://github.blog/changelog/2022-08-09-github-actions-the-ubuntu-18-04-actions-runner-image-is-being-deprecated-and-will-be-removed-by-12-1-22/
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-29 18:09:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3552" class=".btn">#3552</a>
-            </td>
-            <td>
-                <b>
-                    fix: DIDDoc Service Endpoint with origins key support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-29 17:58:59 +0000 UTC
     </div>
 </div>
 
