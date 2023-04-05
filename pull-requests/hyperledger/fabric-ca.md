@@ -36,30 +36,3 @@ permalink: /pull-requests/hyperledger/fabric-ca
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/357" class=".btn">#357</a>
-            </td>
-            <td>
-                <b>
-                    Bump Go to 1.20.2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bump Go to 1.20.2
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-29 18:18:30 +0000 UTC
-    </div>
-</div>
-

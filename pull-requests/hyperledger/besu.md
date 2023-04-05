@@ -14,6 +14,77 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5315" class=".btn">#5315</a>
+            </td>
+            <td>
+                <b>
+                    Add flat database metrics for accounts and storage slots
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Add counters for getAccount and getStorageValueBySlotHash hits, and other counters to follow the number of accounts and slots retrieved from the flat database versus the number of accounts and slots retrieved from the Patricia Merkle Trie. 
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-05 14:47:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5314" class=".btn">#5314</a>
+            </td>
+            <td>
+                <b>
+                    Exclude sources and javadoc from dependencies verification to avoid IntelliJ failures
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Suggested by Gradle project https://docs.gradle.org/6.8.3/userguide/dependency_verification.html#sec:skipping-javadocs 
+See also: https://youtrack.jetbrains.com/issue/IDEA-258328
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-05 14:23:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5313" class=".btn">#5313</a>
             </td>
             <td>
@@ -345,7 +416,7 @@ Fixes #4922
         </tr>
         <tr>
             <td>
-                <span class="chip">doc-change-required</span>
+                
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->

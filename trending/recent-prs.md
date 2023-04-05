@@ -1,13 +1,13 @@
 
-[1252](https://github.com/hyperledger/solang/pull/1252) Fix VariableDefinition Display impl
+[4148](https://github.com/hyperledger/fabric/pull/4148) Bump github.com/docker/docker from 20.10.7+incompatible to 20.10.24+incompatible (backport #4145)
 
-[158](https://github.com/hyperledger/iroha-javascript/pull/158) Fix: typos
+[3556](https://github.com/hyperledger/aries-framework-go/pull/3556) ci: complete release 0.2.0 and prepare 0.3.0
 
-[157](https://github.com/hyperledger/iroha-javascript/pull/157) change gitignore
+[5315](https://github.com/hyperledger/besu/pull/5315) Add flat database metrics for accounts and storage slots
 
-[472](https://github.com/hyperledger-labs/fabric-smart-client/pull/472) refactoring + fabric2.5 + go1.20
+[3555](https://github.com/hyperledger/aries-framework-go/pull/3555) chore: release 0.2.0
 
-[467](https://github.com/hyperledger-labs/fabric-token-sdk/pull/467) improvements + fabric2.5 + go1.20
+[5314](https://github.com/hyperledger/besu/pull/5314) Exclude sources and javadoc from dependencies verification to avoid IntelliJ failures
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

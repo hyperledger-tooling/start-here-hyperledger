@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/436" class=".btn">#436</a>
+            </td>
+            <td>
+                <b>
+                    fix file permissons on the _backups folder
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+Node user needs write permissions to the `_backups` folder
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-05 13:15:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/435" class=".btn">#435</a>
             </td>
             <td>
