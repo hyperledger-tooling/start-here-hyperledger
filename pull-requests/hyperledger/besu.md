@@ -14,6 +14,117 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5311" class=".btn">#5311</a>
+            </td>
+            <td>
+                <b>
+                    Handle busy exception on fast/snap WS Download process
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This PR is an attempt to stop the worldstate download pipeline from breaking when RocksDB returns a Status.Busy Exception.
+We currently don't handle that scenario and forest does seem to trigger that often.
+I suspect Bonsai rarely hits this scenario but it could also leverage from the exception handler.
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+Fixes #5300 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-04 23:30:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5310" class=".btn">#5310</a>
+            </td>
+            <td>
+                <b>
+                    Unified protocol schedule - combine TimestampSchedule and MutableProtocolSchedule
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently, at least one reference test is breaking
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+#5260
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-04 22:34:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5308" class=".btn">#5308</a>
+            </td>
+            <td>
+                <b>
+                    rebase cred trunc behavior
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+trunc sensitive data in trace logging, leaving enough for comparison 
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+addresses static analysis alerts 597 and 810
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-04 19:45:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5305" class=".btn">#5305</a>
             </td>
             <td>
@@ -57,6 +168,10 @@ permalink: /pull-requests/hyperledger/besu
                 Do not merge until the next release is 23.4
 Fixes #4886
 
+- [ ] next release is 23.4
+- [ ] acceptanceTestsNonMainnet passed in CI
+- [ ] Besu with other types of privacy still works as expected
+
             </td>
         </tr>
     </table>
@@ -85,6 +200,9 @@ Fixes #4886
                 This feature has been deprecated and is being removed in 23.4 (that is - do not merge until all other releases have been completed and 23.4 is the next release)
 
 Fixes #4922 
+
+- [ ] next release is 23.4
+- [x] acceptanceTestsNonMainnet passed in CI
             </td>
         </tr>
     </table>
@@ -254,7 +372,7 @@ With the fix: no errors
             </td>
             <td>
                 <b>
-                    For PoS, use extraData that was configured in the mining-extra-data cli option
+                    For PoS, use extraData that was configured in the miner-extra-data cli option
                 </b>
             </td>
         </tr>
@@ -266,6 +384,8 @@ With the fix: no errors
                 This was hardcoded to "0x" as part of The Merge implementation. 
 
 Fixes https://github.com/hyperledger/besu/issues/4471
+
+Tested locally with https://github.com/siladu/beku-timestamp
             </td>
         </tr>
     </table>
@@ -540,69 +660,6 @@ fixes #5270
     </table>
     <div class="right-align">
         Created At 2023-03-29 06:37:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5275" class=".btn">#5275</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] Add log to show where we're reading the jwt from
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Add a log to print the path where we loaded the engine jwt for better ux.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-29 00:02:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5274" class=".btn">#5274</a>
-            </td>
-            <td>
-                <b>
-                    continue despite test failures
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I would like to propose some blasphemy:
-
-we should run the weekly sonarqube job with gradle --continue so it proceeds on, regardless of test failure.
-
-this week a flaky test failed, and so we got no analysis.
-the sonarqube job produces no artifacts of any use, it is meant as a weekly diagnostic, so while blasphemous, I believe this to be safe.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-28 18:41:48 +0000 UTC
     </div>
 </div>
 
