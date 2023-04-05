@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/373" class=".btn">#373</a>
+                PR <a href="https://github.com/hyperledger/transact/pull/376" class=".btn">#376</a>
             </td>
             <td>
                 <b>
-                    Remove RocketChat
+                    docs(readme): add link and explanation about lib sawtooth transition
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/transact
                 
             </td>
             <td>
-                <nil>
+                Fixes #375
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-01 16:31:28 +0000 UTC
+        Created At 2023-04-04 19:52:00 +0000 UTC
     </div>
 </div>
 

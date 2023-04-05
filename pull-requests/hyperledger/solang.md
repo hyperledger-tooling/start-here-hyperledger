@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                Closes #1240
+                The API of `wasm-tools` is quite different; `wasmparser` doesn't allow to modify the blob in-place. Instead, now we iterate over the sections and manually craft any section needing changes. 
+
+Closes #1240
             </td>
         </tr>
     </table>
