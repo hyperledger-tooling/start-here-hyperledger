@@ -14,37 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/153" class=".btn">#153</a>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/158" class=".btn">#158</a>
             </td>
             <td>
                 <b>
-                    Update SDK according to `2.0.0-pre-rc.14`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-24 12:46:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/152" class=".btn">#152</a>
-            </td>
-            <td>
-                <b>
-                    [DOPS: 2312] Create images with corepack 
+                    Fix: typos
                 </b>
             </td>
         </tr>
@@ -53,24 +27,64 @@ permalink: /pull-requests/hyperledger/iroha-javascript
                 
             </td>
             <td>
-                # Task
-
-[DOPS-2312] Create images with corepack
-
-## Changes
-
-1. Update pipeline
-
-## Author
-
-Signed-off-by: name <zaporozhets@soramitsu.co.jp>
-
-[DOPS-2312]: https://soramitsu.atlassian.net/browse/DOPS-2312
+                Fix: typos
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-24 08:37:23 +0000 UTC
+        Created At 2023-04-05 10:01:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/157" class=".btn">#157</a>
+            </td>
+            <td>
+                <b>
+                    change gitignore
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-05 08:31:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/156" class=".btn">#156</a>
+            </td>
+            <td>
+                <b>
+                    Feature/dops 2312/corepack
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-05 06:49:48 +0000 UTC
     </div>
 </div>
 

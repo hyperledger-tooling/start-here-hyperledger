@@ -140,7 +140,7 @@ Fixes #5300
                 This is a necessarily large PR, but it's mostly type removal/renaming/unification changes.
 I have added comments to highlight the interesting parts that require closer review.
 
-Currently, at least one reference test is breaking.
+Currently, one reference test file breaking due to invalid test inputs see https://github.com/hyperledger/besu/pull/5310#issuecomment-1497012579
 
 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
@@ -189,6 +189,9 @@ BftProtocolSchedule                MilestoneStreamingProtocolSchedule    Transit
 - [x] Automated coverage
 - [x] Local PoS block production with shanghai-at-genesis using https://github.com/siladu/beku-timestamp
 - [x] Local PoS block production with transition from paris -> shanghai  using https://github.com/rolfyone/playground/tree/main/capella/beku
+- [x] Local ethash block production
+- [x] Local QBFT single-node network byzantium -> berlin -> london -> validator contract mode
+- [x] Local IBFT2 single-node network berlin -> london
 - [ ] Snap Sync non-validating node with all public networks
 - [ ] Full sync goerli?
 - [ ] Deploy to validator on testnet (e.g. clc-sepolia)
@@ -677,106 +680,6 @@ Lots of changes to imports and build files, and some `fromPlugin` calls removed.
     </table>
     <div class="right-align">
         Created At 2023-03-30 18:53:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5284" class=".btn">#5284</a>
-            </td>
-            <td>
-                <b>
-                    [DRAFT] Insert missing nodes in the flat database
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-As part of this PR, we will be conducting tests on the previous PR #4546.
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-30 11:26:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5277" class=".btn">#5277</a>
-            </td>
-            <td>
-                <b>
-                    Make QBFT validator smart contract mode work with london fork
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This should work when gas fees are used as well as for free gas networks
-
-Override the transactionSimulator's default TransactionValidationParams with one that allows for exceeding the account balance (which effectively zeros the baseFee). This mimics the way that eth_estimateGas and eth_call are implemented.
-
-Fixes https://github.com/hyperledger/besu/issues/5249
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-29 07:50:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5276" class=".btn">#5276</a>
-            </td>
-            <td>
-                <b>
-                    Fix BFT creating invalid blocks on London when zero base fee is used
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-This fixes an issue where on IBFT and QBFT invalid blocks are created by the proposer when using London with a zeroBaseFee.
-
-The cause of this is that the ZeroBaseFeeMarket was returning true for the implementsDataFee check which meant that the excessDataGas field was added to the block header. This is only valid after Shanghai.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-fixes #5270 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-29 06:37:05 +0000 UTC
     </div>
 </div>
 

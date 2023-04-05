@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1252" class=".btn">#1252</a>
+            </td>
+            <td>
+                <b>
+                    Fix VariableDefinition Display impl
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                `pt::VariableDefinition` was missing a test case so a bug wasn't caught (missing whitespace when attributes are present) in #1237
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-05 12:05:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1250" class=".btn">#1250</a>
             </td>
             <td>
@@ -194,32 +220,6 @@ Closes #1240
     </table>
     <div class="right-align">
         Created At 2023-03-30 11:48:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1242" class=".btn">#1242</a>
-            </td>
-            <td>
-                <b>
-                    Improve code as suggested by clippy -W clippy::pedantic
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                clippy::pedantic can come up with some good suggestions. Implement some of them; there are more to be done.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-29 10:38:15 +0000 UTC
     </div>
 </div>
 
