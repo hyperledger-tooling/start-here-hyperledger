@@ -93,34 +93,3 @@ As detailed in those comments, once we improve the proxy handling, those files s
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/421" class=".btn">#421</a>
-            </td>
-            <td>
-                <b>
-                    Overhaul Python package build and install
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR does three things:
-- [ ] Switches the build for the SWIG Python bindings to use the updated cmake build infra (WIP)
-- [ ] Updates how the Python wheel is built
-- [ ] Ships the built wheel and updates documentation for installation
-
-**NOT TESTED YET**
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-29 01:38:22 +0000 UTC
-    </div>
-</div>
-

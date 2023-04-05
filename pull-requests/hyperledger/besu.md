@@ -14,6 +14,78 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5313" class=".btn">#5313</a>
+            </td>
+            <td>
+                <b>
+                    Attempt to fix flaky getBlockByNumberForLatest test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamGroot</span><span class="chip">mainnet</span>
+            </td>
+            <td>
+                Lock down timestamp
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+#5296
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-05 04:36:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5312" class=".btn">#5312</a>
+            </td>
+            <td>
+                <b>
+                    Configure gradle AT tasks to run junit5 tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Gradle tasks for the acceptance tests were not running any Junit5 tests.
+
+current mainnet tests: 61
+with this change mainnet tests: 137
+
+current non-mainnet tests: 271
+with this change non-mainnet tests: 279
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #5299 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-05 04:17:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5311" class=".btn">#5311</a>
             </td>
             <td>
@@ -65,18 +137,63 @@ Fixes #5300
                 
             </td>
             <td>
-                Currently, at least one reference test is breaking
+                This is a necessarily large PR, but it's mostly type removal/renaming/unification changes.
+I have added comments to highlight the interesting parts that require closer review.
+
+Currently, at least one reference test is breaking.
 
 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
 
+- Combine MutableProtocolSchedule and DefaultTimestampSchedule into `UnifiedProtocolSchedule`. 
+- Implement getByBlockHeader taking into account both timestamp-based and blockNumber-based forks
+- Unstitch timestampSchedule from TransitionProtocolSchedule
+- BftProtocolSchedule extends UnifiedProtocolSchedule (instead of MutableProtocolSchedule)
+- [TODO] Optimise getByBlockHeader algorithm (once all tests are passing)
+- [TODO next PR] Unify StreamingProtocolSchedules and extend UnifiedProtocolSchedule
+- [TODO next PR] Fold AbstractProtocolScheduleBuilder into ProtocolScheduleBuilder
+- [TODO next PR] Rename UnifiedProtocolSchedule -> DefaultProtocolSchedule
+- [TODO next PR] Tidy up WithdrawalsValidatorProvider
+
+
+Should end up with this hierarchy:
+
+```
+                            ----> PrivacySupportingProtocolSchedule 
+                           |
+                           | 
+                   ProtocolSchedule
+                    - public getByBlockHeader
+                           ^ 
+                           |
+         ----->    UnifiedProtocolSchedule  <------ ---------------------------------
+        |           - public getByBlockHeader      |                                 |
+        |           - private getByTimestamp       |                                 |
+        |           - private getByBlockNumber     |                                 |
+        |                                          |                                 |
+        |                                          |                                 |
+BftProtocolSchedule                MilestoneStreamingProtocolSchedule    TransitionProtocolSchedule
+ - public getByBlockNumber          - public streamMilestones             - public getByBlockNumber
+```
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
 
 #5260
+
+## Testing
+
+- [x] Automated coverage
+- [x] Local PoS block production with shanghai-at-genesis using https://github.com/siladu/beku-timestamp
+- [x] Local PoS block production with transition from paris -> shanghai  using https://github.com/rolfyone/playground/tree/main/capella/beku
+- [ ] Snap Sync non-validating node with all public networks
+- [ ] Full sync goerli?
+- [ ] Deploy to validator on testnet (e.g. clc-sepolia)
+- [ ] Ensure EVM tool works
+- [ ] Performance test? Since getByBlockHeader algorithm has significantly changed.
             </td>
         </tr>
     </table>
@@ -169,7 +286,7 @@ addresses static analysis alerts 597 and 810
 Fixes #4886
 
 - [ ] next release is 23.4
-- [ ] acceptanceTestsNonMainnet passed in CI
+- [x] acceptanceTestsNonMainnet passed in CI
 - [ ] Besu with other types of privacy still works as expected
 
             </td>
