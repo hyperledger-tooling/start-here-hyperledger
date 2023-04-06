@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5317" class=".btn">#5317</a>
+            </td>
+            <td>
+                <b>
+                    TrieLog shipping prep
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+prep bonsai for trielog shipping
+add zero reads of slot storage and accounts to bonsai accumulator storageToUpdate and accountsToUpdate
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+protocols-misc 707
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-06 00:51:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5315" class=".btn">#5315</a>
             </td>
             <td>
@@ -222,7 +258,7 @@ Currently, one reference test file breaking due to invalid test inputs see https
 - Implement getByBlockHeader taking into account both timestamp-based and blockNumber-based forks
 - Unstitch timestampSchedule from TransitionProtocolSchedule
 - BftProtocolSchedule extends UnifiedProtocolSchedule (instead of MutableProtocolSchedule)
-- [TODO] Optimise getByBlockHeader algorithm (once all tests are passing)
+- [DONE] ~Optimise getByBlockHeader algorithm (once all tests are passing)~
 - [TODO next PR] Unify StreamingProtocolSchedules and extend UnifiedProtocolSchedule
 - [TODO next PR] Fold AbstractProtocolScheduleBuilder into ProtocolScheduleBuilder
 - [TODO next PR] Rename UnifiedProtocolSchedule -> DefaultProtocolSchedule
@@ -457,7 +493,7 @@ https://github.com/usmansaleem/ethstats-proxy
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span><span class="chip">mainnet</span><span class="chip">EIP</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->

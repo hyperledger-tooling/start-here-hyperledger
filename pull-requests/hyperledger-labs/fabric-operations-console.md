@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/437" class=".btn">#437</a>
+            </td>
+            <td>
+                <b>
+                    destroy session on change password
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+The login session will now be destroyed after changing a user password.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-05 19:51:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/436" class=".btn">#436</a>
             </td>
             <td>
@@ -462,41 +497,6 @@ Pen test Input Validation update
     </table>
     <div class="right-align">
         Created At 2023-03-30 12:06:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/426" class=".btn">#426</a>
-            </td>
-            <td>
-                <b>
-                    update activity tracker doc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Documentation update
-
-#### Description
-Update the doc on activity tracker and allow it to be turned on* via the setting.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-29 20:22:23 +0000 UTC
     </div>
 </div>
 
