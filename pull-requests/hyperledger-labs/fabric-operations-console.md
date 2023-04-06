@@ -430,38 +430,3 @@ Fix the resource input validation for CPU, memory and storage.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/428" class=".btn">#428</a>
-            </td>
-            <td>
-                <b>
-                    Fix safelist port
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-Fixes the unsafe url error from the new safe-url validation when creating a peer or os. the port and hostname are in separate fields in this api and had to be combined to pass validation .
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-30 17:13:27 +0000 UTC
-    </div>
-</div>
-
