@@ -14,6 +14,122 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2207" class=".btn">#2207</a>
+            </td>
+            <td>
+                <b>
+                    0.8.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-05 22:39:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2206" class=".btn">#2206</a>
+            </td>
+            <td>
+                <b>
+                    BREAKING: Auto-remove flags for Presentation Exchanges
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The current `--preserve-exchange-records` configuration argument supports credential exchanges only. This PR introduces a new configuration for presentation exchanges and roles within those exchanges. 
+
+We want to preserve existing default behaviour: credential exchanges are removed, and presentation exchanges are stored. The credential exchanges could be saved by setting the'- preserve-exchange-records' configuration. Further override (to the issuer) specifies `auto_remove` in specific API payloads.
+
+The default behaviour remains (credential exchanges removed, presentation exchanges stored) with addition of specifying default removal behaviour for each exchange and role. Since the API payloads use `auto_remove=True/False`, the new configurations are named `--auto-remove-*` and require a "boolean" value: true means remove, and false means store.
+
+Truthy values are: `yes`, `true`, `t`, `y`, and `1`.
+Falsey values are: `no`, `false`, `f`, `n`, and `0`.
+
+Values are not case-sensitive.
+
+**Command line Arguments**
+
+```
+--auto-remove-cred-exch-records-issuer <boolean value>
+--auto-remove-cred-exch-records-holder <boolean value>
+--auto-remove-pres-exch-records-verifier <boolean value>
+--auto-remove-pres-exch-records-prover <boolean value>
+```
+
+**Environment Variables**
+
+```
+ACAPY_AUTO_REMOVE_CRED_EXCH_RECORDS_ISSUER=<true/false>
+ACAPY_AUTO_REMOVE_CRED_EXCH_RECORDS_HOLDER=<true/false>
+ACAPY_AUTO_REMOVE_PRES_EXCH_RECORDS_VERIFIER=<true/false>
+ACAPY_AUTO_REMOVE_PRES_EXCH_RECORDS_PROVER=<true/false>
+```
+
+The `--preserve-exhange-records` argument is deprecated but still accepted. It is equivalent to:
+
+```
+--auto-remove-cred-exch-records-issuer false
+--auto-remove-cred-exch-records-holder false
+```
+
+If none of the arguments are specified (system default) is equivalent to:
+
+```
+--auto-remove-cred-exch-records-issuer true
+--auto-remove-cred-exch-records-holder true
+--auto-remove-pres-exch-records-verifier false
+--auto-remove-pres-exch-records-prover false
+```
+
+Once arguments are parsed, the settings are:
+
+```
+settings.get("auto_remove_cred_exch_records_issuer")
+settings.get("auto_remove_cred_exch_records_holder")
+settings.get("auto_remove_pres_exch_records_verifier")
+settings.get("auto_remove_pres_exch_records_prover")
+```
+
+These settings should **always** be `True` or `False`, not `None`.
+
+
+**Important**
+
+While testing the previous behaviour, some stray credential exchanges remained when the system was set with `auto_remove = True` and API payload with no field named `auto_remove` to override the default behaviour.  Hopefully, no systems were built to take advantage of this unintended behaviour.
+
+
+Fixes #2126 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-05 22:06:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2204" class=".btn">#2204</a>
             </td>
             <td>
@@ -316,36 +432,6 @@ A couple of docker scripts for running aca-py and a postgres database
     </table>
     <div class="right-align">
         Created At 2023-03-30 21:30:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2187" class=".btn">#2187</a>
-            </td>
-            <td>
-                <b>
-                    3.7 and 3.10 unittests fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Disabled two tests related to this issue. Not sure on the resolution in the future. 
-https://github.com/hyperledger/aries-cloudagent-python/issues/2072#issuecomment-1489279654
-
-Updating two other dependencies resolved the other issues. See successful test run in my fork.
-https://github.com/Jsyro/aries-cloudagent-python/actions/runs/4568725894/jobs/8064139393
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-29 21:10:04 +0000 UTC
     </div>
 </div>
 
