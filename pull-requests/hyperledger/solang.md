@@ -251,29 +251,3 @@ Closes #1240
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1243" class=".btn">#1243</a>
-            </td>
-            <td>
-                <b>
-                    Bugfix: Struct with fields of BytesN types can not be encoded with memcpy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes an encoding bug: When a struct has any field with `BytesN` type, this field requires an endianess swap and can't be encoded or decoded directly (e.g. with a `MemCopy`).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-30 11:48:43 +0000 UTC
-    </div>
-</div>
-

@@ -54,7 +54,7 @@ protocols-misc 707
             </td>
             <td>
                 <b>
-                    Add flat database metrics for accounts and storage slots
+                    Add metrics for accounts and storage reads (Flat databasae vs MPT)
                 </b>
             </td>
         </tr>
@@ -63,16 +63,22 @@ protocols-misc 707
                 
             </td>
             <td>
-                
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-Add counters for getAccount and getStorageValueBySlotHash hits, and other counters to follow the number of accounts and slots retrieved from the flat database versus the number of accounts and slots retrieved from the Patricia Merkle Trie. 
+The objective of this PR is to introduce 8 new metrics (counters) that will track important aspects of account and storage reads. These metrics will include:
 
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
+- Total number of calls (for both accounts and storage)
+- Number of account or storage entries found in the flat database
+- Number of storage slots located in the merkle trie but not found in the flat database
+- Number of account or storage entries not found in either the flat database or the merkle trie
+
+The insights provided by these new metrics will be visualized through Grafana graphs, which will enable us to better monitor and analyze the performance of accounts and storage reads. By leveraging these graphs, we can gain a deeper understanding of the state of the flat database, the number of missing entries in Merkle Patricia Trie database and take steps to optimize performance.
+
+![image](https://user-images.githubusercontent.com/5099602/230375723-45db64d3-fb57-4059-a55a-89a35c58bbd6.png)
+
+
             </td>
         </tr>
     </table>
