@@ -76,6 +76,8 @@ The objective of this PR is to introduce 8 new metrics (counters) that will trac
 
 The insights provided by these new metrics will be visualized through Grafana graphs, which will enable us to better monitor and analyze the performance of accounts and storage reads. By leveraging these graphs, we can gain a deeper understanding of the state of the flat database, the number of missing entries in Merkle Patricia Trie database and take steps to optimize performance.
 
+It is important to keep in mind that we're not counting here all the calls to the Patricia Merkle Trie for accounts and storage, but we're are counting only 1 for getting the leaf from the trie, which in practice corresponds to several calls.
+
 ![image](https://user-images.githubusercontent.com/5099602/230375723-45db64d3-fb57-4059-a55a-89a35c58bbd6.png)
 
 
