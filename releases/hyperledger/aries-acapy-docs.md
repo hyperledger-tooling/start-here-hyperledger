@@ -15,6 +15,34 @@ permalink: /releases/hyperledger/aries-acapy-docs
         <tr>
             <td colspan="2">
                 <b>
+                    v0.8.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.8.1
+                </span>
+            </td>
+            <td>
+                ACA-Py documentation for Release 0.8.1.
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/aries-acapy-docs/releases/tag/v0.8.1" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-04-06 17:41:06 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v0.8.0
                 </b>
             </td>
