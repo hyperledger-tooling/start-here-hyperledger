@@ -384,29 +384,3 @@ Closes #2581  <!-- Replace with an actual number,  -->
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3339" class=".btn">#3339</a>
-            </td>
-            <td>
-                <b>
-                    Revert "BACKPORT [fix] #3330: Fix `untagged` enum de-serialization with `u128` leaves"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                Reverts hyperledger/iroha#3338
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-30 08:41:24 +0000 UTC
-    </div>
-</div>
-

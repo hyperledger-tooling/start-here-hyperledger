@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4150" class=".btn">#4150</a>
+            </td>
+            <td>
+                <b>
+                    add basic issue template/links
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                re #4143
+
+#### Type of change
+
+- Documentation update
+
+#### Description
+
+Ensure that communication link shows up
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-06 12:09:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4148" class=".btn">#4148</a>
             </td>
             <td>
