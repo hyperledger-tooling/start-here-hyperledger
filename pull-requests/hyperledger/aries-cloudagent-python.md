@@ -379,30 +379,3 @@ Things that are very broken right now:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2190" class=".btn">#2190</a>
-            </td>
-            <td>
-                <b>
-                    0.8.1-rc0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-31 02:07:24 +0000 UTC
-    </div>
-</div>
-
