@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1257" class=".btn">#1257</a>
+            </td>
+            <td>
+                <b>
+                    Ensure that only the last instruction is an edge
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-07 09:55:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1256" class=".btn">#1256</a>
             </td>
             <td>
@@ -301,32 +327,6 @@ Closes #1240
     </table>
     <div class="right-align">
         Created At 2023-03-31 16:45:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1244" class=".btn">#1244</a>
-            </td>
-            <td>
-                <b>
-                    Bugfix: Unwrap user types while processing WriteBuffer instructions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                User types can wrap `bytesN` which need an endianess swap during encoding.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-31 08:06:36 +0000 UTC
     </div>
 </div>
 

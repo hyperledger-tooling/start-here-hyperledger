@@ -292,29 +292,3 @@ Successful build on MacOS
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3342" class=".btn">#3342</a>
-            </td>
-            <td>
-                <b>
-                    [chore]: add @0x009922 to the CODEOWNERS
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                *Not much to say here.*
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-31 08:04:18 +0000 UTC
-    </div>
-</div>
-
