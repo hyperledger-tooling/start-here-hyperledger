@@ -406,32 +406,3 @@ Things that are very broken right now:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2189" class=".btn">#2189</a>
-            </td>
-            <td>
-                <b>
-                    Doc update and some test scripts
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update to the plug-in docs
-
-A couple of docker scripts for running aca-py and a postgres database
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-30 21:30:58 +0000 UTC
-    </div>
-</div>
-
