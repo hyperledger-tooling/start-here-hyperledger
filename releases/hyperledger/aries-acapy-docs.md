@@ -26,7 +26,7 @@ permalink: /releases/hyperledger/aries-acapy-docs
                 </span>
             </td>
             <td>
-                ACA-Py documentation for Release 0.8.1.
+                Documentation for Release 0.8.1 of Aries Cloud Agent Python.
             </td>
         </tr>
     </table>
@@ -34,7 +34,7 @@ permalink: /releases/hyperledger/aries-acapy-docs
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-04-06 17:41:06 +0000 UTC
+        Created At 2023-04-06 23:38:00 +0000 UTC
     </span>
 </div>
 
@@ -54,7 +54,7 @@ permalink: /releases/hyperledger/aries-acapy-docs
                 </span>
             </td>
             <td>
-                Documentation for ACA-Py 0.8.0.
+                Documentation for Release 0.8.0 of Aries Cloud Agent Python.
             </td>
         </tr>
     </table>
@@ -62,7 +62,7 @@ permalink: /releases/hyperledger/aries-acapy-docs
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-04-01 01:58:12 +0000 UTC
+        Created At 2023-04-06 22:14:05 +0000 UTC
     </span>
 </div>
 
