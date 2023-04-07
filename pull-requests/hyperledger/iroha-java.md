@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/313" class=".btn">#313</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/316" class=".btn">#316</a>
             </td>
             <td>
                 <b>
-                    Create `Maintainers.md`
+                    Merging latest LTS to iroha2-main
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                As required to fix #260 
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-09 15:35:00 +0000 UTC
+        Created At 2023-04-07 08:47:39 +0000 UTC
     </div>
 </div>
 
