@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1258" class=".btn">#1258</a>
+            </td>
+            <td>
+                <b>
+                    codegen::Expression should have named fields
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-07 17:20:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1257" class=".btn">#1257</a>
             </td>
             <td>
@@ -275,58 +301,6 @@ Closes #1240
     </table>
     <div class="right-align">
         Created At 2023-03-31 18:53:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1246" class=".btn">#1246</a>
-            </td>
-            <td>
-                <b>
-                    Pass by value types narrower than 8-bytes as suggested by `clippy::pedantic`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Clippy pedantic suggests that we pass by value types narrower than 8 bytes.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-31 17:25:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1245" class=".btn">#1245</a>
-            </td>
-            <td>
-                <b>
-                    Remove --math-overflow flag
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1216
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-31 16:45:17 +0000 UTC
     </div>
 </div>
 
