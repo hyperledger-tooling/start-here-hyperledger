@@ -550,30 +550,3 @@ Finally, you can contact us on https://mergify.com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4130" class=".btn">#4130</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade doc for v2.5.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Edits to the upgrade doc for v2.5.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-31 17:05:05 +0000 UTC
-    </div>
-</div>
-
