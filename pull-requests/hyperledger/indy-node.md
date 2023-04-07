@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1807" class=".btn">#1807</a>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1810" class=".btn">#1810</a>
             </td>
             <td>
                 <b>
-                    fixed test-automation tag
+                    docs: fixing broken links
                 </b>
             </td>
         </tr>
@@ -32,35 +32,7 @@ permalink: /pull-requests/hyperledger/indy-node
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-28 12:35:52 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1804" class=".btn">#1804</a>
-            </td>
-            <td>
-                <b>
-                    test-automation integration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                https://github.com/hyperledger/indy-test-automation/pull/130 needs to be merged first and the tag from test automation then inserted. 
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-23 16:13:13 +0000 UTC
+        Created At 2023-04-07 06:17:17 +0000 UTC
     </div>
 </div>
 
