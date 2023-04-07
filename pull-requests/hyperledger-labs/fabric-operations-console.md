@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/438" class=".btn">#438</a>
+            </td>
+            <td>
+                <b>
+                    decompress docs before migration edits settings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+The migration code that edits the settings doc prior to migration needs to decompress the backup data first. otherwise the edits do not happen and the new console is thrown into shenanigans. 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-06 19:14:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/437" class=".btn">#437</a>
             </td>
             <td>
@@ -392,41 +427,6 @@ Security recommendation, disable keep alives.
     </table>
     <div class="right-align">
         Created At 2023-04-03 18:54:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/429" class=".btn">#429</a>
-            </td>
-            <td>
-                <b>
-                    fix resource vaildation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-Fix the resource input validation for CPU, memory and storage.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-30 20:14:42 +0000 UTC
     </div>
 </div>
 
