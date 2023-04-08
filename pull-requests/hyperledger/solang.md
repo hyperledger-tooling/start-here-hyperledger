@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                Only changes in the syntax for `codegen::Expression`.
             </td>
         </tr>
     </table>
@@ -53,7 +53,7 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                This adds a check on the CFG ensuring that only the last instruction does control flow. 
             </td>
         </tr>
     </table>
