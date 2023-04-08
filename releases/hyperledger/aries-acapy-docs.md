@@ -34,7 +34,7 @@ permalink: /releases/hyperledger/aries-acapy-docs
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-04-06 23:38:00 +0000 UTC
+        Created At 2023-04-07 20:35:07 +0000 UTC
     </span>
 </div>
 
@@ -62,7 +62,7 @@ permalink: /releases/hyperledger/aries-acapy-docs
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-04-06 22:14:05 +0000 UTC
+        Created At 2023-04-06 23:38:35 +0000 UTC
     </span>
 </div>
 
