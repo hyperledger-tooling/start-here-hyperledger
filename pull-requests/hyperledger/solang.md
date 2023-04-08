@@ -278,29 +278,3 @@ Closes #1240
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1247" class=".btn">#1247</a>
-            </td>
-            <td>
-                <b>
-                    Update substrate contracts-ci-linux docker image
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                They were deleted from docker hub (it was not known we still use them)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-31 18:53:50 +0000 UTC
-    </div>
-</div>
-

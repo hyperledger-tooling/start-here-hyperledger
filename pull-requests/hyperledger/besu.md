@@ -375,6 +375,10 @@ BftProtocolSchedule                MilestoneStreamingProtocolSchedule    Transit
 
 ## PR description
 trunc sensitive data in trace logging, leaving enough for comparison 
+add jackson version metadata necessary for some gradle tasks
+
+It isn't clear why circle-ci and docker based builds require these older jackson dependencies.  I tried a few different ways to intercept and remap, but in the end just added the sha256 sums of these older packages into the verification-metadata.  I did confirm they are not leaking into the build artifact, since there are a handful of CVEs for prior jackson versions, e.g.:
+https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
