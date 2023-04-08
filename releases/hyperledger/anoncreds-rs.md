@@ -44,39 +44,3 @@ permalink: /releases/hyperledger/anoncreds-rs
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v0.1.0-dev.13
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v0.1.0-dev.13
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* chore(python): added pyproject.toml by @blu3beri in https://github.com/hyperledger/anoncreds-rs/pull/166
-* fix: cred def should still use master_secret by @TimoGlastra in https://github.com/hyperledger/anoncreds-rs/pull/173
-* feat(js): revocation status list from json by @TimoGlastra in https://github.com/hyperledger/anoncreds-rs/pull/172
-* chore: increase version to dev.13 by @TimoGlastra in https://github.com/hyperledger/anoncreds-rs/pull/174
-* fix: correctly generate header by @blu3beri in https://github.com/hyperledger/anoncreds-rs/pull/175
-
-
-**Full Changelog**: https://github.com/hyperledger/anoncreds-rs/compare/v0.1.0-dev.12...v0.1.0-dev.13
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/anoncreds-rs/releases/tag/v0.1.0-dev.13" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2023-04-01 13:19:14 +0000 UTC
-    </span>
-</div>
-
