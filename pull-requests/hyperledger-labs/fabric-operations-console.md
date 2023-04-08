@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/440" class=".btn">#440</a>
+            </td>
+            <td>
+                <b>
+                    Fix timeouts & streamline requests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+- conformed client timeouts to be used consistently, filled in some fabric calls that did not have custom timeouts
+  - some timeout values for certain http requests have changed
+- when checking a OS cluster for channel participation apis (aka osn admin features), the requests will now be sent in parallel 
+- avoids sending back a 408 http code to the browser to prevent automatic retries, uses 504 instead
+  - this dramatically improves performance on requests to non responsive endpoints
+- lowered the number of retries for component status call requests
+- increased the number of retries for component status call requests when components have just been created
+- increased the interval on the client logs to store them less often, to minimize traffic
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-07 20:02:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/439" class=".btn">#439</a>
             </td>
             <td>

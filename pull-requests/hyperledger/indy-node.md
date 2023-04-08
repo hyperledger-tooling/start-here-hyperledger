@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/indy-node
             </td>
             <td>
                 <b>
-                    docs: fixing broken links
+                    docs: fixing broken links and to fix cgroup error
                 </b>
             </td>
         </tr>
@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/indy-node
                 
             </td>
             <td>
-                <nil>
+                Added docs to fix #1765 
             </td>
         </tr>
     </table>
