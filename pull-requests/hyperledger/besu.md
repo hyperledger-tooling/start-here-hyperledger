@@ -636,33 +636,3 @@ With the fix: no errors
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5291" class=".btn">#5291</a>
-            </td>
-            <td>
-                <b>
-                    For PoS, use extraData that was configured in the miner-extra-data cli option
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span><span class="chip">mainnet</span>
-            </td>
-            <td>
-                This was hardcoded to "0x" as part of The Merge implementation. 
-
-Fixes https://github.com/hyperledger/besu/issues/4471
-
-Tested locally with https://github.com/siladu/beku-timestamp
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-01 05:22:45 +0000 UTC
-    </div>
-</div>
-
