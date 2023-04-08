@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1259" class=".btn">#1259</a>
+            </td>
+            <td>
+                <b>
+                    Resolve solidity error definitions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                These are not support on Substrate or Solana, however this will help with testing sema with evm contracts.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-08 17:19:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1258" class=".btn">#1258</a>
             </td>
             <td>
