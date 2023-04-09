@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 <b>
-                    Resolve solidity error definitions
+                     Parse error definitions and revert with custom errors
                 </b>
             </td>
         </tr>
@@ -27,7 +27,10 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                These are not support on Substrate or Solana, however this will help with testing sema with evm contracts.
+                These are not supported on Solana or Substrate, however this will help
+with testing sema with evm solidity contracts.
+
+This changes `revert()` from an builtin expression to a statement type. 
             </td>
         </tr>
     </table>
