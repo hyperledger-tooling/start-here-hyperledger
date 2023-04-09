@@ -14,27 +14,25 @@ permalink: /pull-requests/hyperledger-labs/bdls
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/bdls/pull/10" class=".btn">#10</a>
+                PR <a href="https://github.com/hyperledger-labs/bdls/pull/11" class=".btn">#11</a>
             </td>
             <td>
                 <b>
-                    updating the contributions Fabric fork repo info 
+                    Submit Request func
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">documentation</span>
+                <span class="chip">documentation</span><span class="chip">enhancement</span>
             </td>
             <td>
-                * adding the Fabric fork repo info for the protocol integration efforts.
-* adding the mentorship program info
-* adding more info regarding my contact info
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-20 17:12:24 +0000 UTC
+        Created At 2023-04-09 08:01:27 +0000 UTC
     </div>
 </div>
 
