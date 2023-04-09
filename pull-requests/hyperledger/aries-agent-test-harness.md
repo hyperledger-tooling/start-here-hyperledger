@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/663" class=".btn">#663</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/666" class=".btn">#666</a>
             </td>
             <td>
                 <b>
-                    Reduce frequency of runs to 3 times a week
+                    fix(javascript): mediator module initialization
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
                 
             </td>
             <td>
-                Given the lack of runners at Hyperledger, suggest we reduce the frequency of runs to 3 times a week from the current daily.  Randomly choos days 1, 3 and 6.
+                Another breaking change made agent initialization fail. 
+
+The good news is that, along that change, there is also a fix in AFJ that fix some revocation tests that were previously failing, so hopefully we are now in the same situation than for 0.3.x.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-30 14:00:39 +0000 UTC
+        Created At 2023-04-04 21:26:49 +0000 UTC
     </div>
 </div>
 

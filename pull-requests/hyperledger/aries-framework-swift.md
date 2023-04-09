@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/38" class=".btn">#38</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/41" class=".btn">#41</a>
             </td>
             <td>
                 <b>
-                    ci: Disable blanket_disable_command rule
+                    expose credential preview attribute constructor
                 </b>
             </td>
         </tr>
@@ -27,39 +27,19 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
                 
             </td>
             <td>
-                blanket_disable_command rule has been introduced recently. https://github.com/realm/SwiftLint/pull/4731
-Disable it for now.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-30 01:58:02 +0000 UTC
-    </div>
-</div>
+                # Checklist
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/37" class=".btn">#37</a>
-            </td>
-            <td>
-                <b>
-                    ci: Use strict option for swiftlint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
+- [x] have run AriesFrameworkTests
+- [x]  I have run AllTests
+
+# Description
+
+expose credential preview attribute constructor in public and set mime type as optional with default value (text/plain).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-29 11:42:07 +0000 UTC
+        Created At 2023-04-07 08:12:50 +0000 UTC
     </div>
 </div>
 

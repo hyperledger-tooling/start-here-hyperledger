@@ -14,6 +14,103 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/793" class=".btn">#793</a>
+            </td>
+            <td>
+                <b>
+                    Add get_revocation_id for IssuerCredential
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-06 08:28:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/792" class=".btn">#792</a>
+            </td>
+            <td>
+                <b>
+                    Bump time from 0.1.45 to 0.2.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span><span class="chip">rust</span>
+            </td>
+            <td>
+                Bumps [time](https://github.com/time-rs/time) from 0.1.45 to 0.2.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/time-rs/time/releases">time's releases</a>.</em></p>
+<blockquote>
+<h2>v0.2.0</h2>
+<p>See <a href="https://redirect.github.com/time-rs/time/issues/190">#190</a> for major details. This is essentially a new crate compared to v0.1, and only has a few methods for back-compatibility where trivially feasible.</p>
+<p>Minimum supported Rust version: 1.40.0</p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li>See full diff in <a href="https://github.com/time-rs/time/commits/v0.2.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=time&package-manager=cargo&previous-version=0.1.45&new-version=0.2.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-vcx/network/alerts).
+
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-05 13:46:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/790" class=".btn">#790</a>
             </td>
             <td>
@@ -29,7 +126,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
             <td>
                 Resolves: Issue https://github.com/hyperledger/aries-vcx/issues/772 - Move out post_message to shared_vcx
 
-###Short summary
+##Short summary
 -Migrated httpclient.rs file to shared_vcx directory
 -The issue requested that the post_message() function be moved, but there were other items within httpclient.rs that post_message() depended upon.
 -aries-vcx is successfully compiling with the changes provided.
@@ -64,73 +161,6 @@ permalink: /pull-requests/hyperledger/aries-vcx
     </table>
     <div class="right-align">
         Created At 2023-04-03 07:52:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/788" class=".btn">#788</a>
-            </td>
-            <td>
-                <b>
-                    CI: Read tag 'skip-ci' to skip majority of ci jobs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">skip-ci</span>
-            </td>
-            <td>
-                - CI update: If `skip-ci` is present on pull request, expensive jobs are skipped (reduces total CPU time from ~4 hours to 40 min) and CI duration to 38 mins
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-31 08:00:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/787" class=".btn">#787</a>
-            </td>
-            <td>
-                <b>
-                    Refactor/replacing messages
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">skip-ci</span>
-            </td>
-            <td>
-                Draft for the new `messages` crate integration.
-
-Status:
-    - [x] Integrated in `aries_vcx` - compiles
-    - [x] Integrated in `libvcx` - compiles
-    - [x] Integrated in the Rust agent - compiles.
-    - [x] Integrated in the UniFFI wrapper - does not compile.
-    - [x] Integrated in the napi-rs wrapper - compiles. 
-    - [ ] Test backwards compatibility when aries_vcx is used for a server.
-    - [ ] Test backwards compatibility when aries_vcx is used for a client.
-
-#### UniFFI
-The UniFFI wrapper doesn't compile because of a data type change in some parts of the code where instead of a `String` a `Url` is expected now. I tried to implement the `Url` in the UDL file, but it seems like adding an external type requires it's entire definition, as well as the definition of it's subtypes. And at some point, the `Url` depends on `std::net::Ipv4Addr` and `std::net::Ipv6Addr` which are wrappers over static arrays, which don't seem to be supported in UniFFI.
-
-#### NOTE: 
-This PR is simply to get rid of the old messages and implement the new ones. It's not performant, readable, or anything like that. I cut as many corners as I could because the real work will come with the `aries_vcx` and its state machines refactor. The goal here is to have things working as before, nothing more.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-30 14:16:45 +0000 UTC
     </div>
 </div>
 

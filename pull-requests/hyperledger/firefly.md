@@ -14,6 +14,97 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1265" class=".btn">#1265</a>
+            </td>
+            <td>
+                <b>
+                    Allow operations to change between "Failed" and "Succeeded"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1264
+Follow-up to #1257
+
+Operations now cannot move from Failed/Succeeded back to Pending, but they can change between Failed and Succeeded.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-07 16:10:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1262" class=".btn">#1262</a>
+            </td>
+            <td>
+                <b>
+                    Add route for deleting token pools
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This allows deleting any token pool, regardless of gateway or multiparty mode, along with all associated token transfers, balances, and approvals.
+
+Note that in multiparty mode, if you delete a token pool that was broadcast to the network, you will be voluntarily out of sync with other nodes.
+
+This represents the simplest implementation of (4) from https://github.com/hyperledger/firefly/issues/1220#issuecomment-1496422542, in the context of token pools only.
+
+Note that this does not purge event listeners from the token connector (events will just be ignored). Probably need to find a way to delete them though.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-05 17:00:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1261" class=".btn">#1261</a>
+            </td>
+            <td>
+                <b>
+                    Don't publish token pools by default, but allow publishing as a separate action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds a new `publish` boolean query parameter to the `/tokens/pools` creation route, which defaults to "false" and will create the token pool definition locally only. If "true", the definition will be published to the multiparty network.
+
+Adds a new `/tokens/pools/{id}/publish` route for publishing a previously-local definition to the multiparty network as a separate action.
+
+This represents a portion of the behavior defined in 1-2 of https://github.com/hyperledger/firefly/issues/1220#issuecomment-1496422542
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-04 19:51:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1260" class=".btn">#1260</a>
             </td>
             <td>
@@ -139,145 +230,6 @@ This will fix the failing integration test which relies on a new Fabric flag: ht
     </table>
     <div class="right-align">
         Created At 2023-04-03 10:03:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1253" class=".btn">#1253</a>
-            </td>
-            <td>
-                <b>
-                    fixing broken link for polygon testnet json-rpc endpoint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                the existing link is no longer available. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-31 16:49:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1251" class=".btn">#1251</a>
-            </td>
-            <td>
-                <b>
-                    Check message on-chain consistency before initializing context
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This prevents inserting a group from a malformed "group init" message.
-
-Possible/partial fix for https://github.com/hyperledger/firefly/issues/1247
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-31 12:45:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1249" class=".btn">#1249</a>
-            </td>
-            <td>
-                <b>
-                    Add support for evmconnect's "execution reverted" error code
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                When querying network version, look for the unique error codes returned by either ethconnect or evmconnect.
-
-Partial fix for #1245
-Depends on https://github.com/hyperledger/firefly-evmconnect/pull/67
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-30 18:49:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1248" class=".btn">#1248</a>
-            </td>
-            <td>
-                <b>
-                    Always send "group init" message with a registered signing key
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Private messages can be sent and signed by any arbitrary key if desired, but "group init" messages (which can be auto-triggered by a private message) must be signed by a registered key.
-
-Possible/partial fix for #1247
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-30 17:51:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1246" class=".btn">#1246</a>
-            </td>
-            <td>
-                <b>
-                    Actually start the legacy "ff_system" namespace when needed
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Partial fix for #1245
-
-Somewhere in the refactoring of namespace manager, it looks like we ended up in a situation where we _initialize_ but do not _start_ the legacy "ff_system" namespace.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-30 16:54:00 +0000 UTC
     </div>
 </div>
 

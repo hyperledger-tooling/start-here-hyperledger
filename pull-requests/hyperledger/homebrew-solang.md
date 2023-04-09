@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/homebrew-solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/homebrew-solang/pull/8" class=".btn">#8</a>
+                PR <a href="https://github.com/hyperledger/homebrew-solang/pull/10" class=".btn">#10</a>
             </td>
             <td>
                 <b>
-                    Add github settings.yml
+                    solang v0.2.3
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/homebrew-solang
                 
             </td>
             <td>
-                Signed-off-by: Sean Young <sean@mess.org>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-10 08:11:11 +0000 UTC
+        Created At 2023-04-07 10:47:37 +0000 UTC
     </div>
 </div>
 
