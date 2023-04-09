@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-methods-registry
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-methods-registry/pull/18" class=".btn">#18</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-methods-registry/pull/19" class=".btn">#19</a>
             </td>
             <td>
                 <b>
-                    Quick update to link
+                    chore(ci): update github actions
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/anoncreds-methods-registry
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Ry Jones <ry@linux.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-28 06:20:54 +0000 UTC
+        Created At 2023-04-06 16:59:06 +0000 UTC
     </div>
 </div>
 

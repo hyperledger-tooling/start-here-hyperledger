@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/117" class=".btn">#117</a>
-            </td>
-            <td>
-                <b>
-                    Retry blockchain calls with a back-off delay
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes https://github.com/hyperledger/firefly-tokens-erc1155/issues/114
-
-This is largely a port of the changes merged in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/128
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-29 16:32:25 +0000 UTC
-    </div>
-</div>
-

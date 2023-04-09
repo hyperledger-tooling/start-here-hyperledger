@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/207" class=".btn">#207</a>
+            </td>
+            <td>
+                <b>
+                    Feat/update redux store package to afj 0.4.x
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Replaces [this PR](https://github.com/hyperledger/aries-framework-javascript-ext/pull/204/files) as Jim has left and I don't have write access to repo.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-06 10:57:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/206" class=".btn">#206</a>
             </td>
             <td>
@@ -70,32 +98,6 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
     </table>
     <div class="right-align">
         Created At 2023-04-04 05:57:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/204" class=".btn">#204</a>
-            </td>
-            <td>
-                <b>
-                    feat: updated redux-store to AFJ 0.4.x
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-29 14:40:22 +0000 UTC
     </div>
 </div>
 

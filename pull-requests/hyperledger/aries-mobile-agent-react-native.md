@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/693" class=".btn">#693</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/703" class=".btn">#703</a>
             </td>
             <td>
                 <b>
-                    chore: peg ios build to xcode 14.2
+                    Feat update proof revocation branding
                 </b>
             </td>
         </tr>
@@ -29,9 +29,60 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
             <td>
                 # Summary of Changes
 
-As noted [here](https://github.com/facebook/react-native/issues/36758) there is a problem with the Yoga package in RN building with Xcode 14.3. This is a temporary work around to peg the build to 14.2 until this issue can be resolved more thoroughly.
+Added revocation detection to proof request cards and updated branding. I needed to use the `useCredentials` hook because the object returned by `agent.proofs.getRequestedCredentialsForProofRequest` doesn't include revocation information. additionally, using the `useCredentials` hook allowed me to access the credential exchange record, which allows me to access the credential issuer name when the oca branding isn't configured, previously the credential id would be displayed instead.
 
-Ref. [macOS runners](https://github.com/actions/runner-images/blob/main/images/macos/macos-12-Readme.md)
+
+
+# Related Issues
+
+N/A
+
+# Pull Request Checklist
+
+Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
+
+- [ ] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [ ] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [ ] Updated documentation as needed for changed code and new or modified features;
+- [ ] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+Pro Tip 🤓
+
+- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-07 00:02:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/702" class=".btn">#702</a>
+            </td>
+            <td>
+                <b>
+                    chore: fix outdated snapshots
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+Fix a broken snapshot.
 
 # Related Issues
 
@@ -43,6 +94,275 @@ Tick all boxes below to demonstrate that you have completed the respective task.
 
 - [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
 - [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [x] Updated documentation as needed for changed code and new or modified features;
+- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+Pro Tip 🤓
+
+- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-06 21:44:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/701" class=".btn">#701</a>
+            </td>
+            <td>
+                <b>
+                    fix: corrected getting of proof request template
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+Issue: The logic of getting the proof request template was incorrect because the function searched for the request in the default constant. Instead, it must search in the application configuration, so if the app overrides the templates the proper one will be found. 
+
+# Pull Request Checklist
+
+Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
+
+- [ ] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [ ] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [ ] Updated documentation as needed for changed code and new or modified features;
+- [ ] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+Pro Tip 🤓
+
+- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-06 08:10:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/698" class=".btn">#698</a>
+            </td>
+            <td>
+                <b>
+                    fix: add alias support for credential details and refactor
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+Extended support for alias fallbacks to credential details screen, and refactored the existing code for the fallbacks into a helper function.
+
+Before:
+![IMG_0021](https://user-images.githubusercontent.com/32586431/229936950-46e445c7-c182-4339-9b7e-508e9abeda3e.PNG)
+
+After:
+![IMG_0020](https://user-images.githubusercontent.com/32586431/229936977-55775fa4-4ac1-4e0e-92dd-680faea608d3.PNG)
+
+# Related Issues
+
+N/A
+
+# Pull Request Checklist
+
+Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
+
+- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [x] Updated documentation as needed for changed code and new or modified features;
+- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+Pro Tip 🤓
+
+- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-04 22:34:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/697" class=".btn">#697</a>
+            </td>
+            <td>
+                <b>
+                    fix: make connection flow configurable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+Adjusts the recently changed connection flow to be configurable. Simply add `autoRedirectConnectionToHome: true` to your configuration to use the new flow, or change nothing to go back to the old flow.
+
+# Related Issues
+
+N/A
+
+# Pull Request Checklist
+
+Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
+
+- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [x] Updated documentation as needed for changed code and new or modified features;
+- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+Pro Tip 🤓
+
+- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-04 19:59:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/696" class=".btn">#696</a>
+            </td>
+            <td>
+                <b>
+                    fix: oca branding fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+This PR:
+Commit 1- Add the shadow and the black text color inside the default icon:
+Before:
+![IMG_1009ABF33025-1](https://user-images.githubusercontent.com/24842909/229885934-7a5986fe-3df7-4fd7-8e1d-f1d8d7ffbdc6.jpeg)
+Now:
+![IMG_0183](https://user-images.githubusercontent.com/24842909/229882821-fce91e05-4d92-4246-b017-9f369d4f3151.jpg)
+
+Commit 2- Add the translation of the `issuerName` in the `credentialDetails` screen. 
+
+Commit 3- Put the default logo in the same order as the credentialCard11 (Name and after issuerName), so that the same letter is displayed.
+Before ( with the same credential as the previous pictures, but in the credentialDetails screen):
+![IMG_B113FFC2D4B0-1](https://user-images.githubusercontent.com/24842909/229884985-ac2eed15-41fe-4fa0-a51b-2363759317b5.jpeg)
+
+
+# Related Issues
+
+N/A
+
+# Pull Request Checklist
+
+Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
+
+- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [x] Updated documentation as needed for changed code and new or modified features;
+- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+Pro Tip 🤓
+
+- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-04 18:38:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/693" class=".btn">#693</a>
+            </td>
+            <td>
+                <b>
+                    chore: add patch to support xcode 14.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+As noted [here](https://github.com/facebook/react-native/issues/36758) there is a problem with the Yoga package in RN building with Xcode 14.3. This is a temporary work around patch `react-native` until this issue can be resolved by upgrading to or past RN 68.x.
+
+# Related Issues
+
+n/a
+
+# Pull Request Checklist
+
+Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
+
+- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [ ] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
 - [x] Updated documentation as needed for changed code and new or modified features;
 - [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
 
@@ -162,270 +482,6 @@ _PR template adapted from the Python attrs project._
     </table>
     <div class="right-align">
         Created At 2023-04-03 15:57:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/690" class=".btn">#690</a>
-            </td>
-            <td>
-                <b>
-                    feat: improve modal screens themes and animated components
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Summary of Changes
-
-- Some adjustments were made on theme to better handle modal screens when those have backgroundColor different from the other screens.
-- Static SVGs where moved to the theme, allowing to customize those images
-- Animated components where moved to a new provider, so it can be customized as well. The reason I didn't use the theme for this customization is that some of those components use themed styles (it would have a cyclic dependency).
-
-# Related Issues
-
-N/A
-
-# Pull Request Checklist
-
-Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
-
-- [X] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
-- [X] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
-- [X] Updated documentation as needed for changed code and new or modified features;
-- [X] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
-
-If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
-
-Pro Tip 🤓
-
-- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
-- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
-
-_PR template adapted from the Python attrs project._
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-31 12:58:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/688" class=".btn">#688</a>
-            </td>
-            <td>
-                <b>
-                    feat: NPM publishing setup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Summary of Changes
-
-Configures initial publishing processes to be able to manually release versions as well as does some refinement of the build config using TS. Draws on some configurations/structures used in AFJ. Used to manually release https://www.npmjs.com/package/@aries-bifold/oca & https://www.npmjs.com/package/@aries-bifold/core
-
-Also sets up a basic react native package with native modules for the new Core package. This _should_ put the OCA package in a place that we can get the OCA resolver code moved over and published for use.
-
-@cvarjao will be happy to note that I _think_ we may be able to do yarn 3 and lerna, so we may not have to downgrade to yarn 1 (but we can revisit if needed in the future). 
-
-I don't expect this PR to impact anything in the legacy core/app, but please let me know if it does cause any issues @bryce-mcmath (the most likely thing to impact it is the changes I made to the ./tsconfig.json).
-
-# Related Issues
-
-N/A
-
-# Pull Request Checklist
-
-Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
-
-- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
-- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
-- [x] Updated documentation as needed for changed code and new or modified features;
-- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
-
-If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
-
-Pro Tip 🤓
-
-- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
-- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
-
-_PR template adapted from the Python attrs project._
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-31 04:15:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/686" class=".btn">#686</a>
-            </td>
-            <td>
-                <b>
-                    fix: get git hooks working again
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Summary of Changes
-
-Git hooks like pre-commit-lint etc were disrupted by the recent reorg PR, this minor change fixes that
-
-# Related Issues
-
-N/A
-
-# Pull Request Checklist
-
-Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
-
-- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
-- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
-- [x] Updated documentation as needed for changed code and new or modified features;
-- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
-
-If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
-
-Pro Tip 🤓
-
-- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
-- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
-
-_PR template adapted from the Python attrs project._
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-30 21:11:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/685" class=".btn">#685</a>
-            </td>
-            <td>
-                <b>
-                    fix: Connection screen not navigating back to home screen (#552)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Summary of Changes
-
-Checks if reaching the connection timer the connection is ready and no offer/proof is available (otherwise, it will go home right after the offer/proof is shown).
-I also added a non-required configuration to override the current timer of 10000 ms. Be aware that if the timer is too short, the connection might not be active yet.
-
-# Related Issues
-
-(#552)
-
-# Pull Request Checklist
-
-Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
-
-- [X] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
-- [X] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
-- [X] Updated documentation as needed for changed code and new or modified features;
-- [X] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
-
-If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
-
-Pro Tip 🤓
-
-- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
-- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
-
-_PR template adapted from the Python attrs project._
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-30 17:20:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/684" class=".btn">#684</a>
-            </td>
-            <td>
-                <b>
-                    Docs for Component Effort
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Summary of Changes
-
-Inclusion of Documentation related to the Component Architecture effort.
-
-# Related Issues
-
-N/A
-
-# Pull Request Checklist
-
-Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
-
-- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
-- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
-- [x] Updated documentation as needed for changed code and new or modified features;
-- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
-
-If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
-
-Pro Tip 🤓
-
-- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
-- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
-
-_PR template adapted from the Python attrs project._
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-30 04:59:18 +0000 UTC
     </div>
 </div>
 

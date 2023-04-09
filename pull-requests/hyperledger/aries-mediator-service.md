@@ -14,6 +14,139 @@ permalink: /pull-requests/hyperledger/aries-mediator-service
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/74" class=".btn">#74</a>
+            </td>
+            <td>
+                <b>
+                    Update docs and settings in load testing sample.env
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Update ACA-Py set up to use Askar and Postgres 15
+- Update docs and settings in load testing sample.env
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-05 23:05:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/73" class=".btn">#73</a>
+            </td>
+            <td>
+                <b>
+                    Update ACA-Py set up to use Askar and Postgres 15
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-05 20:57:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/71" class=".btn">#71</a>
+            </td>
+            <td>
+                <b>
+                    fix: parameterize node version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Allow the node version to be passed in as an argument for better customization.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-05 16:25:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/70" class=".btn">#70</a>
+            </td>
+            <td>
+                <b>
+                    chore: update docs for clarity
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Final proof of docs adjusted for clarity and readability as needed.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-04 23:25:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/69" class=".btn">#69</a>
+            </td>
+            <td>
+                <b>
+                    chore: update docs on how to supply a URL
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Small change to docs to demonstrate how to override the URL the mediator uses to create the invitation.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-04 23:02:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/66" class=".btn">#66</a>
             </td>
             <td>
@@ -62,58 +195,6 @@ ToDo:
     </table>
     <div class="right-align">
         Created At 2023-04-03 21:14:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/62" class=".btn">#62</a>
-            </td>
-            <td>
-                <b>
-                    feat: add additional load tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add additional load tests.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-30 16:49:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/61" class=".btn">#61</a>
-            </td>
-            <td>
-                <b>
-                    feat: initial work on an AFJ mediator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Initial work on creating a containerized AFJ mediator and supporting Kubernets deplouyment manifests.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-29 16:22:56 +0000 UTC
     </div>
 </div>
 

@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/574" class=".btn">#574</a>
-            </td>
-            <td>
-                <b>
-                    Update Java dependencies to fix vulnerability scans
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Allow sceduled workflows to be manually triggered (using workflow_dispatch trigger).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-29 15:44:03 +0000 UTC
-    </div>
-</div>
-
