@@ -232,29 +232,3 @@ Signed-off-by: blu3beri <blu3beri@proton.me>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/177" class=".btn">#177</a>
-            </td>
-            <td>
-                <b>
-                    fix(rn): link secret is string instead of object
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Link secret has changed from object to just a string, but this wasn't reflected in the C++ layer
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-02 14:53:59 +0000 UTC
-    </div>
-</div>
-

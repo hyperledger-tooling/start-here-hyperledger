@@ -85,7 +85,7 @@ fixes #2157
             </td>
             <td>
                 <b>
-                    [corda] updated reset.yaml
+                    [ci-skip] updated reset.yaml
                 </b>
             </td>
         </tr>
