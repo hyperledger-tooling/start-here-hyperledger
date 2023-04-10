@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/bevel
             </td>
             <td>
                 <b>
-                    Updated contribution.md with create local branch & directory structure
+                    [docs] updated contribution.md with create local branch & directory structure
                 </b>
             </td>
         </tr>
