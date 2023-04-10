@@ -143,29 +143,3 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1417" class=".btn">#1417</a>
-            </td>
-            <td>
-                <b>
-                    feat: transaction endorsement draft
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-03 11:35:33 +0000 UTC
-    </div>
-</div>
-

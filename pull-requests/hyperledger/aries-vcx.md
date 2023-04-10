@@ -138,29 +138,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/789" class=".btn">#789</a>
-            </td>
-            <td>
-                <b>
-                    Fix iOS wrapper, connectionHandle
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix in the iOS wrapper, connectionHandle parameter as Number* instead of VcxHandle
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-03 07:52:45 +0000 UTC
-    </div>
-</div>
-

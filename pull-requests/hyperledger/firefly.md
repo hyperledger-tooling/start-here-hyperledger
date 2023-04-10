@@ -207,29 +207,3 @@ This will fix the failing integration test which relies on a new Fabric flag: ht
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1254" class=".btn">#1254</a>
-            </td>
-            <td>
-                <b>
-                    fixing broken test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                doesn't look like these changes are related to the single-line change. Therefore, I raised it as a separate PR. @nguyer 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-03 10:03:53 +0000 UTC
-    </div>
-</div>
-
