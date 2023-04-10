@@ -206,29 +206,3 @@ Signed-off-by: blu3beri <blu3beri@proton.me>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/178" class=".btn">#178</a>
-            </td>
-            <td>
-                <b>
-                    fix(js): inconsistencies in create revocation state
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes some inconsistencies and issues encountered when testing proving of revocable credentials. There's probably a few things that are broken in the verification / issuance as well, but I've mostly focused on the holder role now.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-02 19:18:13 +0000 UTC
-    </div>
-</div>
-
