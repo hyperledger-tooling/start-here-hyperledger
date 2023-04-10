@@ -37,31 +37,3 @@ permalink: /pull-requests/hyperledger/aries-askar
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/127" class=".btn">#127</a>
-            </td>
-            <td>
-                <b>
-                    fix(js)!: add argon2i(mod|int) support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
-
-- StoreKeyMethod can now be properly created with `argon2i`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-03 12:41:17 +0000 UTC
-    </div>
-</div>
-

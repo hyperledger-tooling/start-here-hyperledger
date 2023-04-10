@@ -1,13 +1,13 @@
 
+[318](https://github.com/hyperledger/iroha-java/pull/318) Added Allure IDs
+
+[794](https://github.com/hyperledger/aries-vcx/pull/794) Remove proof verifier legacy format deserialization support
+
+[1260](https://github.com/hyperledger/solang/pull/1260) Ensure that the last instruction of a block is reachable
+
+[165](https://github.com/hyperledger-labs/orion-sdk-go/pull/165) open ports detection
+
 [164](https://github.com/hyperledger-labs/orion-sdk-go/pull/164) client rest redirect from follower to leader of tx submission
-
-[2204](https://github.com/hyperledger/bevel/pull/2204) [ci-skip] reset fixes
-
-[2384](https://github.com/hyperledger/cacti/pull/2384) feat(relay): configurable db_open retry mechanism added and in driver
-
-[113](https://github.com/hyperledger/aries-javascript-docs/pull/113) docs: updates for 0.4.0
-
-[5321](https://github.com/hyperledger/besu/pull/5321) Add withdrawals to PayloadIdentifier to avoid collisions
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

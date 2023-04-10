@@ -252,30 +252,3 @@ Fixes #2202
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2196" class=".btn">#2196</a>
-            </td>
-            <td>
-                <b>
-                    Fix: Indy WalletAlreadyOpenedError during upgrade process
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - resolve #2195 
-- resolve #2197 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-03 15:16:56 +0000 UTC
-    </div>
-</div>
-

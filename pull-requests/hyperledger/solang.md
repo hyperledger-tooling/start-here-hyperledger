@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1260" class=".btn">#1260</a>
+            </td>
+            <td>
+                <b>
+                    Ensure that the last instruction of a block is reachable
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The PR supersedes #1257.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-10 17:28:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1259" class=".btn">#1259</a>
             </td>
             <td>
@@ -275,35 +301,6 @@ Closes #1240
     </table>
     <div class="right-align">
         Created At 2023-04-04 17:31:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1249" class=".btn">#1249</a>
-            </td>
-            <td>
-                <b>
-                    Refactor substrate dispatcher into codegen
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                * Implement the dispatch logic in codegen
-* Remove `Instr::AbiDecode`
-* Remove ABI encoding and decoding interfaces from `TargetRuntime`
-* Remove `substrate.c` from the stdlib
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-03 12:27:19 +0000 UTC
     </div>
 </div>
 
