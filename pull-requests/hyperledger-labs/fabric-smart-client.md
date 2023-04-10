@@ -170,29 +170,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/470" class=".btn">#470</a>
-            </td>
-            <td>
-                <b>
-                    go1.20 and fabric v2.5.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">enhancement</span>
-            </td>
-            <td>
-                This PR updates FSC to use Fabric 2.5.0 and go1.20
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-03 13:35:37 +0000 UTC
-    </div>
-</div>
-
