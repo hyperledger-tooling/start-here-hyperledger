@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/29" class=".btn">#29</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/31" class=".btn">#31</a>
             </td>
             <td>
                 <b>
-                    Remove Version 0.8.1
+                    Update to readme
                 </b>
             </td>
         </tr>
@@ -32,7 +32,33 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-10 00:13:00 +0000 UTC
+        Created At 2023-04-10 01:55:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/30" class=".btn">#30</a>
+            </td>
+            <td>
+                <b>
+                    Update ci.yml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Test updating the GitHub action to use Mike to delete an version before adding it.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-10 01:52:19 +0000 UTC
     </div>
 </div>
 
