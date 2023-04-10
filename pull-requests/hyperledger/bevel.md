@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2204" class=".btn">#2204</a>
+            </td>
+            <td>
+                <b>
+                    [ci-skip] reset fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">fabric</span>
+            </td>
+            <td>
+                Changes:
+ Updated the reset-network.yaml to have new roles under roles/delete, there new roles would delete  the  cluster roles, clusterrolebindings, patch and delete gitrepositories, patch and delete kustomizations, helm charts, helm releases and the namespaces
+
+         "delete/clusterrole"
+         "delete/clusterrolebindings"
+         "delete/gitrepositories"
+         "delete/kustomization" 
+         "delete/helm_charts"
+         "delete/helm_releases"
+         "delete/organizations_namespaces"
+         "delete/flux_namespaces"
+
+Reviewers:
+@suvajit-sarkar @sownak @jagpreetsinghsasan 
+
+Fixes:
+#2157 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-10 11:32:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2201" class=".btn">#2201</a>
             </td>
             <td>

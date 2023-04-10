@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2384" class=".btn">#2384</a>
+            </td>
+            <td>
+                <b>
+                    feat(relay): configurable db_open retry mechanism added and in driver
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added two env variables in driver and config variables in relay to configure retry mechanism while opening database:
+1. Max number of retries
+2. Backoff time in milli seconds.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-10 11:19:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2382" class=".btn">#2382</a>
             </td>
             <td>
@@ -246,75 +274,6 @@ Additionally rename weaver workflows jobs, so as to uniquely identify them by th
     </table>
     <div class="right-align">
         Created At 2023-04-04 15:50:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2363" class=".btn">#2363</a>
-            </td>
-            <td>
-                <b>
-                    feat(cactus-cmd-gui-app): extend common cacti gui app to operate with  fabric hyperledger
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add feature and options to switch in GUI app to visualize fabric hyperledger ledger data stored in supabase by persistence plugins
-
-Depends on: https://github.com/hyperledger/cacti/pull/2265
-Depends on: https://github.com/hyperledger/cacti/pull/2331
-
-Signed-off-by: Barnaba Pawelczak [barnaba.pawelczak@fujitsu.com](mailto:barnaba.pawelczak@fujitsu.com)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-03 10:44:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2362" class=".btn">#2362</a>
-            </td>
-            <td>
-                <b>
-                    fix(weaver): address vulnerability CVE-2020-28477 and many others
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - https://github.com/hyperledger/cacti/security/dependabot/434
-- https://github.com/hyperledger/cacti/security/dependabot/435
-- https://github.com/hyperledger/cacti/security/dependabot/423
-- https://github.com/hyperledger/cacti/security/dependabot/499
-- https://github.com/hyperledger/cacti/security/dependabot/570
-- https://github.com/hyperledger/cacti/security/dependabot/594
-- https://github.com/hyperledger/cacti/security/dependabot/592
-- https://github.com/hyperledger/cacti/security/dependabot/590
-- https://github.com/hyperledger/cacti/security/dependabot/589
-- https://github.com/hyperledger/cacti/security/dependabot/588
-- https://github.com/hyperledger/cacti/security/dependabot/594
-- https://github.com/hyperledger/cacti/security/dependabot/591
-- Remove unwanted dependencies in `weaver-besu-sdk`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-03 06:48:17 +0000 UTC
     </div>
 </div>
 
