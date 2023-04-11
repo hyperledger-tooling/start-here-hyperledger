@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/797" class=".btn">#797</a>
+            </td>
+            <td>
+                <b>
+                    Remove deps in `aries-vcx`: `env_logger`, `android_logger`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - `aries-vcx` should not specify `log` implementation, removed `env_logger` as well as android build dependency `android_logger`
+- similar changes in other crates as well
+- added `env_logger` to `vcx-napi-rs` along with its initialization (same as previously in `aries-vcx`) 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-11 07:41:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/796" class=".btn">#796</a>
             </td>
             <td>
@@ -27,7 +55,9 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                <nil>
+                - Removed unused dependencies across the board
+- `vdrtools`: Remove unused ffi wallet declarations (in `libvdrtools/indy-api-types/src/lib.rs`) and unsupported function for wallet plugin registration `register_wallet_storage`
+- Removed commented tests in vdrtools
             </td>
         </tr>
     </table>
@@ -53,7 +83,10 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                <nil>
+                - As planned in https://github.com/hyperledger/aries-vcx/pull/770 next release won't support legacy format of serialized verifier proofs. 
+
+- Follow migration guide in the PR linked above using aries-vcx `0.53.0` to reserialize your verifier proofs to the new format. The next `aries-vcx` release `0.54.0` will not support non-migrated verifier proofs created by `aries-vcx` `0.52.x` or older.
+
             </td>
         </tr>
     </table>
@@ -85,77 +118,6 @@ permalink: /pull-requests/hyperledger/aries-vcx
     </table>
     <div class="right-align">
         Created At 2023-04-06 08:28:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/792" class=".btn">#792</a>
-            </td>
-            <td>
-                <b>
-                    Bump time from 0.1.45 to 0.2.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span><span class="chip">rust</span>
-            </td>
-            <td>
-                Bumps [time](https://github.com/time-rs/time) from 0.1.45 to 0.2.0.
-<details>
-<summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/time-rs/time/releases">time's releases</a>.</em></p>
-<blockquote>
-<h2>v0.2.0</h2>
-<p>See <a href="https://redirect.github.com/time-rs/time/issues/190">#190</a> for major details. This is essentially a new crate compared to v0.1, and only has a few methods for back-compatibility where trivially feasible.</p>
-<p>Minimum supported Rust version: 1.40.0</p>
-</blockquote>
-</details>
-<details>
-<summary>Commits</summary>
-<ul>
-<li>See full diff in <a href="https://github.com/time-rs/time/commits/v0.2.0">compare view</a></li>
-</ul>
-</details>
-<br />
-
-
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=time&package-manager=cargo&previous-version=0.1.45&new-version=0.2.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
-
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
-
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
-
----
-
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger/aries-vcx/network/alerts).
-
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-05 13:46:38 +0000 UTC
     </div>
 </div>
 

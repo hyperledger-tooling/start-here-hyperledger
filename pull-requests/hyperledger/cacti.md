@@ -72,7 +72,7 @@ permalink: /pull-requests/hyperledger/cacti
             </td>
             <td>
                 <b>
-                    fix(iroha2-connector): fix flaky tests
+                    fix(iroha2-connector): fix flaky tests to solve #2370 and #2373
                 </b>
             </td>
         </tr>

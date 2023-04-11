@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/indy-vdr
             </td>
             <td>
                 <b>
-                    fix(js): return body as string to
+                    fix(js): return body as string
                 </b>
             </td>
         </tr>

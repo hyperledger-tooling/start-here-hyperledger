@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2207" class=".btn">#2207</a>
+            </td>
+            <td>
+                <b>
+                    [ci-skip] move common delete network roles
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                 **Change log**
+  Move common delete roles to shared folder
+  Update shared playbook names
+  Update site.yaml with better indentation
+  Refactor logic to delete flux resources
+  Docker username validation fix, add "-" in regex
+
+Fixes: #2157 #2206 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-11 11:02:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2204" class=".btn">#2204</a>
             </td>
             <td>

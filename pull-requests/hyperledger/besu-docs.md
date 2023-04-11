@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1302" class=".btn">#1302</a>
+            </td>
+            <td>
+                <b>
+                    Removed postman api link from Besu API Methods
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR removes Besu JSON-RPC APIs documentation in Postman format from Besu API methods
+
+## Issue fixed
+
+fixes #[1286](https://github.com/hyperledger/besu-docs/issues/1286)
+
+## Impacted parts
+
+For content changes:
+
+- [x] Documentation content
+- [ ] Documentation page organization
+
+For tool changes:
+
+- [ ] Github Actions workflow
+- [ ] Build and QA tools configuration (for example, lint rules or Vale style)
+- [ ] MkDocs templates
+- [ ] MkDocs configuration
+- [ ] Python dependencies
+- [ ] Node dependencies and JavaScript
+- [ ] Read the Docs configuration
+- [ ] GitHub integration
+
+## After creating your PR and tests have finished
+
+Make sure that:
+
+- [ ] You've fixed any issues raised by the tests.
+- [x] You've [previewed your changes on Read the Docs](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation)
+  and added a [preview link](#preview).
+
+## Preview
+
+[preview](https://hyperledger-besu--{1286}.org.readthedocs.build/en/{1286}/stable/public-networks/reference/api/)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-11 08:54:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1301" class=".btn">#1301</a>
             </td>
             <td>
@@ -268,8 +328,8 @@ For tool changes:
 
 Make sure that:
 
-- [ ] You've fixed any issues raised by the tests.
-- [ ] You've [previewed your changes on Read the Docs](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation)
+- [x] You've fixed any issues raised by the tests.
+- [x] You've [previewed your changes on Read the Docs](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation)
   and added a [preview link](#preview).
 
 ## Preview
@@ -279,6 +339,12 @@ Make sure that:
 The link format is "https://hyperledger-besu--{your PR number}.org.readthedocs.build/en/{your PR number}/",
 where {your PR number} is replaced by the number of this PR.
 -->
+
+`engine_exchangeCapabilities`: https://hyperledger-besu--1298.org.readthedocs.build/en/1298/public-networks/reference/engine-api/#engine_exchangecapabilities
+
+`engine_getPayloadBodiesByHashV1`: https://hyperledger-besu--1298.org.readthedocs.build/en/1298/public-networks/reference/engine-api/#engine_getpayloadbodiesbyhashv1
+
+`engine_getPayloadBodiesByRangeV1`: https://hyperledger-besu--1298.org.readthedocs.build/en/1298/public-networks/reference/engine-api/#engine_getpayloadbodiesbyrangev1
 
             </td>
         </tr>

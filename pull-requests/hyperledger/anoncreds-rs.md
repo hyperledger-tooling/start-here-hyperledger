@@ -180,29 +180,3 @@ Signed-off-by: blu3beri <blu3beri@proton.me>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/180" class=".btn">#180</a>
-            </td>
-            <td>
-                <b>
-                    chore: update version to dev.14
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-04 11:18:50 +0000 UTC
-    </div>
-</div>
-
