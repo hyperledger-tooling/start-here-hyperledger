@@ -1,13 +1,13 @@
 
-[318](https://github.com/hyperledger/iroha-java/pull/318) Added Allure IDs
+[5326](https://github.com/hyperledger/besu/pull/5326) Add withdrawals to PayloadIdentifier to avoid collisions (#5321)
 
-[794](https://github.com/hyperledger/aries-vcx/pull/794) Remove proof verifier legacy format deserialization support
+[5325](https://github.com/hyperledger/besu/pull/5325) Revert "add register useless response to multiple tasks (#5220)"
 
-[1260](https://github.com/hyperledger/solang/pull/1260) Ensure that the last instruction of a block is reachable
+[5324](https://github.com/hyperledger/besu/pull/5324) 23.1.3 bump
 
-[165](https://github.com/hyperledger-labs/orion-sdk-go/pull/165) open ports detection
+[5323](https://github.com/hyperledger/besu/pull/5323) Prep 23.1.3
 
-[164](https://github.com/hyperledger-labs/orion-sdk-go/pull/164) client rest redirect from follower to leader of tx submission
+[91](https://github.com/hyperledger-labs/karma-charity-platform/pull/91) Bump xml2js, typeorm and aws-sdk in /platform/backend
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

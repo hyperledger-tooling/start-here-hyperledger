@@ -225,30 +225,3 @@ Fixes #2202
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2198" class=".btn">#2198</a>
-            </td>
-            <td>
-                <b>
-                    0.8.1-rc2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-03 21:56:37 +0000 UTC
-    </div>
-</div>
-
