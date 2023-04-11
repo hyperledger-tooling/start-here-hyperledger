@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-ui
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/214" class=".btn">#214</a>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/215" class=".btn">#215</a>
             </td>
             <td>
                 <b>
-                    Add string for new contract_invoke_pin transaction type
+                    Misc UI cleanup around transactions and events
                 </b>
             </td>
         </tr>
@@ -27,13 +27,14 @@ permalink: /pull-requests/hyperledger/firefly-ui
                 
             </td>
             <td>
-                Part of [FIR-17](https://github.com/hyperledger/firefly-fir/pull/17)
-Required by https://github.com/hyperledger/firefly/pull/1213
+                * Only replace "Transaction Submitted" with transaction name on split views
+* Replace "Blockchain Operations" header with just "Operations"
+* Add a missing "undefined" check for token transfer events
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-09 02:30:15 +0000 UTC
+        Created At 2023-04-10 19:31:21 +0000 UTC
     </div>
 </div>
 

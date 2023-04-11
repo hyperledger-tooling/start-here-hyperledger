@@ -667,87 +667,15 @@ addresses static analysis alerts 597 and 810
                 Do not merge until the next release is 23.4
 Fixes #4886
 
-- [ ] next release is 23.4
+- [x] next release is 23.4
 - [x] acceptanceTestsNonMainnet passed in CI
-- [ ] Besu with other types of privacy still works as expected
+- [x] Besu with other types of privacy still works as expected
 
             </td>
         </tr>
     </table>
     <div class="right-align">
         Created At 2023-04-04 08:23:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5302" class=".btn">#5302</a>
-            </td>
-            <td>
-                <b>
-                    [23.4] Remove IBFT1 consensus mechanism
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This feature has been deprecated and is being removed in 23.4 (that is - do not merge until all other releases have been completed and 23.4 is the next release)
-
-Fixes #4922 
-
-- [x] next release is 23.4
-- [x] acceptanceTestsNonMainnet passed in CI
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-04 02:33:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5301" class=".btn">#5301</a>
-            </td>
-            <td>
-                <b>
-                    Ethstat retry fix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Fix ethstats retry logic. Attempt to connect with and without ssl. If `--ethstats` is specified without a port, use port 443 (for wss://) and port 80 (for ws://) as defaults instead of 3000. This will help in k8 or similar environment where ethstats is running behind a reverse proxy.
-
-Introduced optional `--ethstats-cacert-file`. This option specifies the path to the root CA (Certificate Authority) certificate file that has signed ethstats server certificate (or reverse proxy certificate). This option is optional. Useful in non-production setup.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-#4696 
-Potentially #3792 
-
-## Local Testing
-https://github.com/usmansaleem/ethstats-proxy
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-04 01:07:27 +0000 UTC
     </div>
 </div>
 

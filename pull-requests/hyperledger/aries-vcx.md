@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/796" class=".btn">#796</a>
+            </td>
+            <td>
+                <b>
+                    Remove unnecessary dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-10 20:13:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/794" class=".btn">#794</a>
             </td>
             <td>
@@ -130,37 +156,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2023-04-05 13:46:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/790" class=".btn">#790</a>
-            </td>
-            <td>
-                <b>
-                    post_message migration [Issue #772]
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Resolves: Issue https://github.com/hyperledger/aries-vcx/issues/772 - Move out post_message to shared_vcx
-
-##Short summary
--Migrated httpclient.rs file to shared_vcx directory
--The issue requested that the post_message() function be moved, but there were other items within httpclient.rs that post_message() depended upon.
--aries-vcx is successfully compiling with the changes provided.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-03 19:37:35 +0000 UTC
     </div>
 </div>
 

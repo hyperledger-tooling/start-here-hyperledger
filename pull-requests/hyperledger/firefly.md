@@ -43,56 +43,28 @@ Operations now cannot move from Failed/Succeeded back to Pending, but they can c
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1262" class=".btn">#1262</a>
-            </td>
-            <td>
-                <b>
-                    Add route for deleting token pools
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This allows deleting any token pool, regardless of gateway or multiparty mode, along with all associated token transfers, balances, and approvals.
-
-Note that in multiparty mode, if you delete a token pool that was broadcast to the network, you will be voluntarily out of sync with other nodes.
-
-This represents the simplest implementation of (4) from https://github.com/hyperledger/firefly/issues/1220#issuecomment-1496422542, in the context of token pools only.
-
-Note that this does not purge event listeners from the token connector (events will just be ignored). Probably need to find a way to delete them though.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-05 17:00:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1261" class=".btn">#1261</a>
             </td>
             <td>
                 <b>
-                    Don't publish token pools by default, but allow publishing as a separate action
+                    Separate "define" and "publish" for token pools, and allow deleting unpublished pools
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">migration_consideration</span>
             </td>
             <td>
-                Adds a new `publish` boolean query parameter to the `/tokens/pools` creation route, which defaults to "false" and will create the token pool definition locally only. If "true", the definition will be published to the multiparty network.
+                Add a new `publish` boolean query parameter to the `/tokens/pools` creation route, which defaults to "false" and will create the token pool definition locally only. If "true", the definition will be published to the multiparty network (note that this is a **change** to the default behavior, which is currently to publish all token pools in the context of a multiparty network).
 
-Adds a new `/tokens/pools/{id}/publish` route for publishing a previously-local definition to the multiparty network as a separate action.
+Add a new `/tokens/pools/{id}/publish` route for publishing a previously-local definition to the multiparty network as a separate action.
 
-This represents a portion of the behavior defined in 1-2 of https://github.com/hyperledger/firefly/issues/1220#issuecomment-1496422542
+Allow deleting token pools (along with associated transfers, approvals, and balances), but only if they have not been published.
+
+This represents most of the behavior proposed in https://github.com/hyperledger/firefly/issues/1220 (in the context of token pools only).
+
+We should also confirm that "publish" is the [correct word to use here](https://github.com/hyperledger/firefly/issues/1220#issuecomment-1496504327).
             </td>
         </tr>
     </table>
@@ -178,32 +150,6 @@ This will fix the failing integration test which relies on a new Fabric flag: ht
     </table>
     <div class="right-align">
         Created At 2023-04-04 14:30:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1257" class=".btn">#1257</a>
-            </td>
-            <td>
-                <b>
-                    Do not update operations once they enter succeeded/failed state
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1256
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-03 20:58:30 +0000 UTC
     </div>
 </div>
 

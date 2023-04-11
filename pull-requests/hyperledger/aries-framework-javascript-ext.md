@@ -75,29 +75,3 @@ This PR was generated with [Release Please](https://github.com/googleapis/releas
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/205" class=".btn">#205</a>
-            </td>
-            <td>
-                <b>
-                    fix(react-hooks): add missing exports
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-04 05:57:55 +0000 UTC
-    </div>
-</div>
-
