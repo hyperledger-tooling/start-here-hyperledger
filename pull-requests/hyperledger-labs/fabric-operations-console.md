@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/442" class=".btn">#442</a>
+            </td>
+            <td>
+                <b>
+                    add migration field on existing components
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+Add migration field to components on the original console.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-10 20:05:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/441" class=".btn">#441</a>
+            </td>
+            <td>
+                <b>
+                    conform "\"k8s\"" to "k8s" in cluster type api
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+Better parsing on the cluster type api to handle double quotes around the cluster type value. So this converts ` "\"k8s\""` to simply `"k8s"`
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-10 19:38:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/440" class=".btn">#440</a>
             </td>
             <td>
@@ -359,150 +429,6 @@ This fixes database connecting issues (with certain couchdb configurations) seen
     </table>
     <div class="right-align">
         Created At 2023-04-04 16:37:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/433" class=".btn">#433</a>
-            </td>
-            <td>
-                <b>
-                    tidy up console restart apis
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-- console restart apis will now log the process id that is restarting
-- added restart api that will kill the process (which kills the pod) `ak/api/v[123]/restart/force/hard`
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-03 19:11:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/432" class=".btn">#432</a>
-            </td>
-            <td>
-                <b>
-                    add debug log for couch db connection errors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-- during startup the console will now wait up to 90 seconds (was 60) for the database
-- adds connection error to log if the console cannot connect to couchdb during startup
-- also conforms the log messages
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-03 19:08:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/431" class=".btn">#431</a>
-            </td>
-            <td>
-                <b>
-                    disable keep alive on incoming connections
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-Security recommendation, disable keep alives.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-03 19:00:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/430" class=".btn">#430</a>
-            </td>
-            <td>
-                <b>
-                    compress console database backups and use fs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Improvement
-
-#### Description
-
-- console database backups will be temporary stored to the filesystem to avoid cloudant size limits
-- console database backups will be compressed to minimize transfer sizes during migration
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-03 18:54:39 +0000 UTC
     </div>
 </div>
 
