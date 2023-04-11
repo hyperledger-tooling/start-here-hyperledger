@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/114" class=".btn">#114</a>
+            </td>
+            <td>
+                <b>
+                    docs: Add cheqd setup instructions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-11 10:34:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/113" class=".btn">#113</a>
             </td>
             <td>

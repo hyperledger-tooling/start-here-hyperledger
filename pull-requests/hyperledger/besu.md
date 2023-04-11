@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5328" class=".btn">#5328</a>
+            </td>
+            <td>
+                <b>
+                    Rocksdb plugin to support OptimisticTransactionDb and TransactionDb
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Tis PR introduces some changes to the RocksDB plugin to allow using the DB in either pessimistic or optimistic transaction mode.
+Currently pessimistic is tied to the usage of Forest data format.
+
+The refactor was done with the intent to keep bonsai as it is currently with usage of the optimistic transaction db.
+
+This is just a initial draft not ready for review yet. 
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-11 11:45:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5326" class=".btn">#5326</a>
             </td>
             <td>
@@ -644,38 +683,6 @@ addresses static analysis alerts 597 and 810
     </table>
     <div class="right-align">
         Created At 2023-04-04 15:33:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5303" class=".btn">#5303</a>
-            </td>
-            <td>
-                <b>
-                    [23.4] Remove GoQuorum privacy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Do not merge until the next release is 23.4
-Fixes #4886
-
-- [x] next release is 23.4
-- [x] acceptanceTestsNonMainnet passed in CI
-- [x] Besu with other types of privacy still works as expected
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-04 08:23:43 +0000 UTC
     </div>
 </div>
 
