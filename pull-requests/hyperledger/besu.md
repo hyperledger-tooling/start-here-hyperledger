@@ -14,6 +14,108 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5331" class=".btn">#5331</a>
+            </td>
+            <td>
+                <b>
+                    Reduce UInt256 in EVMOperations
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+## PR description
+
+Improve the performance of the EVM by reducing the usage of UInt256 in almost all operations and moving the main switch to a Java 17 expression switch
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-11 16:21:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5330" class=".btn">#5330</a>
+            </td>
+            <td>
+                <b>
+                    Update get account method in the accumulator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Update get account method in the accumulator in order to not use the cache in this case
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-11 15:51:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5329" class=".btn">#5329</a>
+            </td>
+            <td>
+                <b>
+                    Add javadoc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-11 14:44:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5328" class=".btn">#5328</a>
             </td>
             <td>
@@ -656,33 +758,6 @@ addresses static analysis alerts 597 and 810
     </table>
     <div class="right-align">
         Created At 2023-04-04 19:45:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5305" class=".btn">#5305</a>
-            </td>
-            <td>
-                <b>
-                    Env var to debug child processes.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                export BESU_DEBUG_CHILD_PROCESS_PORT=5005 and when running ProcessBesuNodeRunner (i.e. acceptance tests) the child process will suspend and wait for a debugger to attach.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-04 15:33:10 +0000 UTC
     </div>
 </div>
 

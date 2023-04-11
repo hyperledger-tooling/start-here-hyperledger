@@ -276,31 +276,3 @@ This is part of my task to improve the account management on Solana. Please, rea
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1250" class=".btn">#1250</a>
-            </td>
-            <td>
-                <b>
-                    Use `wasm-tools` instead of `parity-wasm`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The API of `wasm-tools` is quite different; `wasmparser` doesn't allow to modify the blob in-place. Instead, now we iterate over the sections and manually craft any section needing changes. 
-
-Closes #1240
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-04 17:31:00 +0000 UTC
-    </div>
-</div>
-
