@@ -88,9 +88,15 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
                 
             </td>
             <td>
-                Added two env variables in driver and config variables in relay to configure retry mechanism while opening database:
-1. Max number of retries
-2. Backoff time in milli seconds.
+                To manage concurrent accesses to a LevelDB instance so that protocols
+don't fail because of temporary resource contention, added two env
+variables in driver and config variables in relay to configure retry
+mechanism while opening database:
+
+- Max number of retries
+- Backoff time in milli seconds.
+
+Additionally upgraded go versions to v1.20 in publish workflows.
             </td>
         </tr>
     </table>
@@ -249,39 +255,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2023-04-06 20:51:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2372" class=".btn">#2372</a>
-            </td>
-            <td>
-                <b>
-                    build(deps): upgrade lerna-lite from v1.4.0 to v1.17.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The upgrade is necessary in order to address this
-server side request forgery vulnerability:
-
-https://github.com/hyperledger/cacti/security/dependabot/240
-
-CVE-2022-2900
-
-Fixes #2371
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-05 01:35:41 +0000 UTC
     </div>
 </div>
 

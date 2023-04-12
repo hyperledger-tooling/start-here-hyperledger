@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             </td>
             <td>
                 <b>
-                    improvements + fabric2.5 + go1.20
+                    fabric2.5, go1.20, various improvements...
                 </b>
             </td>
         </tr>
@@ -27,7 +27,8 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 
             </td>
             <td>
-                <nil>
+                This PR brings in Fabric 2.5 and go1.20.
+In addition, the PR brings the following improvements:
             </td>
         </tr>
     </table>
