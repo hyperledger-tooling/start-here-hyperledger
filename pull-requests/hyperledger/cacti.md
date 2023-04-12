@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2388" class=".btn">#2388</a>
+            </td>
+            <td>
+                <b>
+                    fix(keychain-memory-wasm): wee_alloc is Unmaintained GHSA-rc23-xxgq-x27g
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Removed wee_alloc from being used entirely.
+The default Rust allocator will be used instead
+which is better maintained and poses less
+of a security threat.
+
+Fixes #2352
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-12 00:41:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2387" class=".btn">#2387</a>
+            </td>
+            <td>
+                <b>
+                    chore(deps): upgrade joi to v17.9.1 project-wide
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #2386
+
+Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-12 00:32:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2384" class=".btn">#2384</a>
             </td>
             <td>
@@ -221,59 +282,6 @@ Fixes #2371
     </table>
     <div class="right-align">
         Created At 2023-04-05 01:35:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2369" class=".btn">#2369</a>
-            </td>
-            <td>
-                <b>
-                    refactor(workflows): use 4vcpu runner for weaver data sharing workflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is to resolve data sharing worklow failing for abritrary reasons.
-Additionally rename weaver workflows jobs, so as to uniquely identify them by their name.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-04 16:56:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2368" class=".btn">#2368</a>
-            </td>
-            <td>
-                <b>
-                    chore(ci): update deprecated GitHub API
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Use current version of GitHub action
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-04 15:50:36 +0000 UTC
     </div>
 </div>
 

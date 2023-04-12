@@ -95,32 +95,6 @@ This changes `revert()` from an builtin expression to a statement type.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1257" class=".btn">#1257</a>
-            </td>
-            <td>
-                <b>
-                    Ensure that only the last instruction is an edge
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This adds a check on the CFG ensuring that only the last instruction does control flow. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-07 09:55:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1256" class=".btn">#1256</a>
             </td>
             <td>

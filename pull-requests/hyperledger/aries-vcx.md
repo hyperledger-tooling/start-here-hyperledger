@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/798" class=".btn">#798</a>
+            </td>
+            <td>
+                <b>
+                    Separate core into a standalone crate
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">skip-ci</span>
+            </td>
+            <td>
+                Relocates `BaseLedger`,` BaseAnonCreds`, `BaseWallet` trait definitions and their corresponding implementations (including the `indy` module and related `utils`) into a distinct crate called `aries_vcx_core`. As a result, `aries-vcx` now depends on `indy-vdr`, `indy-credx`, and  `libvdrtools` indirectly through this new crate, which doesn't reexport any of them.
+
+The primary objective of this pull request is the separation of these components, and no additional efforts were made to enhance the codebase beyond this specific aim.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-11 17:18:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/797" class=".btn">#797</a>
             </td>
             <td>

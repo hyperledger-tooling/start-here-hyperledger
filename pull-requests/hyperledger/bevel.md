@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2208" class=".btn">#2208</a>
+            </td>
+            <td>
+                <b>
+                    [docs] updated contribution.md with create local branch & directory structure
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Change log**
+
+Update Contribution.md by adding create local branch & directory structure section
+
+Fixes #2131 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-11 17:00:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2207" class=".btn">#2207</a>
             </td>
             <td>
@@ -82,32 +112,6 @@ Fixes:
     </table>
     <div class="right-align">
         Created At 2023-04-10 11:32:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2201" class=".btn">#2201</a>
-            </td>
-            <td>
-                <b>
-                    [docs] updated contribution.md with create local branch & directory structure
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-06 08:17:57 +0000 UTC
     </div>
 </div>
 
@@ -187,38 +191,6 @@ Added patching and deletion code for the following kubernetes resources
     </table>
     <div class="right-align">
         Created At 2023-04-05 08:49:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2197" class=".btn">#2197</a>
-            </td>
-            <td>
-                <b>
-                    [besu] add resource checks to reset.yaml
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Commit to be reviewed
-
-bug(besu): add resource checks to reset.yaml  
-
-    Added resource checks for the following K8s resources:
-     1. Gitrepositories
-     2. Kustomizations
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-04 13:56:22 +0000 UTC
     </div>
 </div>
 
