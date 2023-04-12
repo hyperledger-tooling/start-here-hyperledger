@@ -15,31 +15,31 @@ permalink: /releases/hyperledger/indy-shared-gha
         <tr>
             <td colspan="2">
                 <b>
-                    v1.0.12
+                    v1.0.13
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.0.12
+                    v1.0.13
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Move inactive maintainers to emeritus status by @ryjones in https://github.com/hyperledger/indy-shared-gha/pull/22
-* GHA deprecation fixes by @pSchlarb in https://github.com/hyperledger/indy-shared-gha/pull/23
+* Updated actions by @pSchlarb in https://github.com/hyperledger/indy-shared-gha/pull/24
+* Enforced LF by @pSchlarb in https://github.com/hyperledger/indy-shared-gha/pull/25
 
 
-**Full Changelog**: https://github.com/hyperledger/indy-shared-gha/compare/v1.0.11...v1.0.12
+**Full Changelog**: https://github.com/hyperledger/indy-shared-gha/compare/v1...v1.0.13
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/indy-shared-gha/releases/tag/v1.0.12" class=".btn">
+    <a href="https://github.com/hyperledger/indy-shared-gha/releases/tag/v1.0.13" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-12-08 12:38:08 +0000 UTC
+        Created At 2023-04-12 14:06:25 +0000 UTC
     </span>
 </div>
 
