@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/446" class=".btn">#446</a>
+            </td>
+            <td>
+                <b>
+                    fix join peer to channel regression
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+- Doc update
+
+#### Description
+- Fixes the client side error when joining a peer to a channel introduced in build -40.
+- adds new client side timeout
+- updates stitch documentation from changes added by build -40
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-12 16:03:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/445" class=".btn">#445</a>
             </td>
             <td>
@@ -336,41 +374,6 @@ The login session will now be destroyed after changing a user password.
     </table>
     <div class="right-align">
         Created At 2023-04-05 19:51:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/436" class=".btn">#436</a>
-            </td>
-            <td>
-                <b>
-                    fix file permissons on the _backups folder
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-Node user needs write permissions to the `_backups` folder
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-05 13:15:35 +0000 UTC
     </div>
 </div>
 

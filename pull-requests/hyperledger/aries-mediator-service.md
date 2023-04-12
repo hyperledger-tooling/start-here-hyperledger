@@ -65,29 +65,3 @@ permalink: /pull-requests/hyperledger/aries-mediator-service
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/71" class=".btn">#71</a>
-            </td>
-            <td>
-                <b>
-                    fix: parameterize node version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Allow the node version to be passed in as an argument for better customization.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-05 16:25:54 +0000 UTC
-    </div>
-</div>
-

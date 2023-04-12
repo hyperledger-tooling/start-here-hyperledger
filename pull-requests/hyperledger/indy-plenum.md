@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1635" class=".btn">#1635</a>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1636" class=".btn">#1636</a>
             </td>
             <td>
                 <b>
-                    Rocksdbfix
+                    Add announcement section to README.md
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-plenum
                 
             </td>
             <td>
-                Fixes #1634
+                - Inform people of the change to the branch structure.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-02 14:05:49 +0000 UTC
+        Created At 2023-04-12 13:07:46 +0000 UTC
     </div>
 </div>
 
