@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-shared-gha
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-shared-gha/pull/23" class=".btn">#23</a>
+                PR <a href="https://github.com/hyperledger/indy-shared-gha/pull/25" class=".btn">#25</a>
             </td>
             <td>
                 <b>
-                    GHA deprecation fixes
+                    Enforced LF
                 </b>
             </td>
         </tr>
@@ -27,12 +27,38 @@ permalink: /pull-requests/hyperledger/indy-shared-gha
                 
             </td>
             <td>
-                Signed-off-by: Philipp Schlarb <p.schlarb@esatus.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-08 11:06:37 +0000 UTC
+        Created At 2023-04-12 14:05:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/indy-shared-gha/pull/24" class=".btn">#24</a>
+            </td>
+            <td>
+                <b>
+                    Updated actions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-12 13:55:28 +0000 UTC
     </div>
 </div>
 

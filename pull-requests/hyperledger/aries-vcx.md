@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/800" class=".btn">#800</a>
+            </td>
+            <td>
+                <b>
+                    Bump time to `0.3.20`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR addresses the breaking changes in the `time` crate dependency.  
+This PR aims to upgrade `time` to `0.3.20`.  
+Fixes #795 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-12 17:26:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/798" class=".btn">#798</a>
             </td>
             <td>

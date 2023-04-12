@@ -198,7 +198,7 @@ Update get account method in the accumulator in order to not use the cache in th
         </tr>
         <tr>
             <td>
-                <span class="chip">TeamGroot</span>
+                <span class="chip">TeamGroot</span><span class="chip">mainnet</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -517,85 +517,6 @@ protocols-misc 707
     </table>
     <div class="right-align">
         Created At 2023-04-06 00:51:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5315" class=".btn">#5315</a>
-            </td>
-            <td>
-                <b>
-                    Add metrics for accounts and storage reads (Flat databasae vs MPT)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-The objective of this PR is to introduce 8 new metrics (counters) that will track important aspects of account and storage reads. These metrics will include:
-
-- Total number of calls (for both accounts and storage)
-- Number of account or storage entries found in the flat database
-- Number of storage slots located in the merkle trie but not found in the flat database
-- Number of account or storage entries not found in either the flat database or the merkle trie
-
-The insights provided by these new metrics will be visualized through Grafana graphs, which will enable us to better monitor and analyze the performance of accounts and storage reads. By leveraging these graphs, we can gain a deeper understanding of the state of the flat database, the number of missing entries in Merkle Patricia Trie database and take steps to optimize performance.
-
-It is important to keep in mind that we're not counting here all the calls to the Patricia Merkle Trie for accounts and storage, but we're are counting only 1 for getting the leaf from the trie, which in practice corresponds to several calls.
-
-![image](https://user-images.githubusercontent.com/5099602/230375723-45db64d3-fb57-4059-a55a-89a35c58bbd6.png)
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-05 14:47:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5314" class=".btn">#5314</a>
-            </td>
-            <td>
-                <b>
-                    Exclude sources and javadoc from dependencies verification to avoid IntelliJ failures
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Suggested by Gradle project https://docs.gradle.org/6.8.3/userguide/dependency_verification.html#sec:skipping-javadocs 
-See also: https://youtrack.jetbrains.com/issue/IDEA-258328
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-05 14:23:10 +0000 UTC
     </div>
 </div>
 

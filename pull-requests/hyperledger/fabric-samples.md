@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1015" class=".btn">#1015</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1018" class=".btn">#1018</a>
             </td>
             <td>
                 <b>
-                    Try BuildJet
+                    Update the npm-shirnkwrap.json (node 16 used)
                 </b>
             </td>
         </tr>
@@ -32,33 +32,7 @@ permalink: /pull-requests/hyperledger/fabric-samples
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-28 20:38:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1013" class=".btn">#1013</a>
-            </td>
-            <td>
-                <b>
-                    Cancel existing workflows on subsequent PR push
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Cancel existing workflows on subsequent PR push.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-22 16:13:04 +0000 UTC
+        Created At 2023-04-12 12:28:37 +0000 UTC
     </div>
 </div>
 

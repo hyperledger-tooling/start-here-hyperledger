@@ -66,29 +66,3 @@ To revoke a credential (or a number of credentials), `AnonCredsApi.updateRevocat
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1422" class=".btn">#1422</a>
-            </td>
-            <td>
-                <b>
-                    fix(anoncreds-rs): revocation status list as JSON
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Now that anoncreds-rs exposes revocation status list from JSON, there should not need in `AnonCredsRsVerifierService` to recreate an object, so here we pass it directly as JSON.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-05 13:49:06 +0000 UTC
-    </div>
-</div>
-
