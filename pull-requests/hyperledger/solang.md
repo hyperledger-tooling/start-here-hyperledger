@@ -224,29 +224,3 @@ This is part of my task to improve the account management on Solana. Please, rea
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1252" class=".btn">#1252</a>
-            </td>
-            <td>
-                <b>
-                    Fix VariableDefinition Display impl
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                `pt::VariableDefinition` was missing a test case so a bug wasn't caught (missing whitespace when attributes are present) in #1237
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-05 12:05:16 +0000 UTC
-    </div>
-</div>
-

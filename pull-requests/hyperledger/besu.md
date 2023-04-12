@@ -14,6 +14,78 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5335" class=".btn">#5335</a>
+            </td>
+            <td>
+                <b>
+                    Update OpenJ9 Docker image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Update OpenJ9 docker image to Ubuntu 22.04 as a base image.
+
+(add more metrics here after few hours of running)
+
+## Fixed Issue(s)
+https://github.com/hyperledger/besu/issues/5327
+
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-12 10:14:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5334" class=".btn">#5334</a>
+            </td>
+            <td>
+                <b>
+                    Update version to 23.4.0-SNAPSHOT
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Update main version to 23.4.0-SNAPSHOT ready for the next release so we can use 23.1.3-SNAPSHOT on the [release-23.1.x](https://github.com/hyperledger/besu/tree/release-23.1.x) branch
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-12 08:16:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5331" class=".btn">#5331</a>
             </td>
             <td>
@@ -126,7 +198,7 @@ Update get account method in the accumulator in order to not use the cache in th
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -143,6 +215,7 @@ This is just a initial draft not ready for review yet.
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
+Partially fixes #5300 
             </td>
         </tr>
     </table>
