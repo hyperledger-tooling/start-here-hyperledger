@@ -92,30 +92,3 @@ To revoke a credential (or a number of credentials), `AnonCredsApi.updateRevocat
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1421" class=".btn">#1421</a>
-            </td>
-            <td>
-                <b>
-                    fix: make revocation status list inline with the spec
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-05 12:15:33 +0000 UTC
-    </div>
-</div>
-

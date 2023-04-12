@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2389" class=".btn">#2389</a>
+            </td>
+            <td>
+                <b>
+                    fix(security): vulnerabilities found in cactus-whitepaper
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #2038
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-12 06:25:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2388" class=".btn">#2388</a>
             </td>
             <td>
