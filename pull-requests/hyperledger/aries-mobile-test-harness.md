@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/148" class=".btn">#148</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/150" class=".btn">#150</a>
             </td>
             <td>
                 <b>
-                    Initial BCW remove contact test defs
+                    updates for correct biometric setup and execution in local android emulator 
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
                 
             </td>
             <td>
-                This PR adds the initial gherkin for the BC Wallet Remove Contact tests in connect.feature.
-
-It also contains a small fix the the BC Person credential tests that were failing in the test Pipeline.
+                Updated for correct biometric setup in local emulator using adb instead of emulator UI 
+Added instructions to get attributes needed for appium capabilities for local run 
+Formatted the document
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-23 14:37:44 +0000 UTC
+        Created At 2023-04-11 19:18:51 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/188" class=".btn">#188</a>
+            </td>
+            <td>
+                <b>
+                    fix(js): integer list struct types
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Another issue found during testing credential revocation in AFJ: remove pointer for integer arrays
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-11 21:59:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/186" class=".btn">#186</a>
             </td>
             <td>
@@ -147,36 +173,6 @@ Signed-off-by: blu3beri <blu3beri@proton.me>
     </table>
     <div class="right-align">
         Created At 2023-04-05 11:01:38 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/181" class=".btn">#181</a>
-            </td>
-            <td>
-                <b>
-                    build(python): added CI/CD
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Co-authored-by: blu3beri <blu3beri@proton.me>
-Co-authored-by: Vickysomtee <victor@animo.id>
-
-Signed-off-by: blu3beri <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-04 12:55:06 +0000 UTC
     </div>
 </div>
 
