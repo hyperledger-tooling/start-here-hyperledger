@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                **  Still working on getting the tests passing, I will advise when complete :)  **
+                **  Still working on getting the tests passing :)  **
 
 Resolves: Issue https://github.com/hyperledger/aries-vcx/issues/772 - Move out post_message to shared_vcx
 
