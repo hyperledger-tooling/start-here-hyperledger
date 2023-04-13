@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/110" class=".btn">#110</a>
+                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/115" class=".btn">#115</a>
             </td>
             <td>
                 <b>
-                    fixing multi-ns for post
+                    Add form validation for Contract API
                 </b>
             </td>
         </tr>
@@ -27,73 +27,20 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
                 
             </td>
             <td>
-                Signed-off-by: Chengxuan Xing <chengxuan.xing@kaleido.io>
+                Hey all!
+
+Was trying out the sandbox and realised that I added an extra white space or special character to the Contract API Name and couldn't figure out why. All you get is a red icon next to latest Batch Pin:
+
+<img width="233" alt="image" src="https://user-images.githubusercontent.com/30461857/231773393-381690bf-9089-4754-b47c-fa8ed119e0f3.png">
+
+With this new change which is minimal and in the future could be extend to more fields, the user would see:
+
+<img width="791" alt="image" src="https://user-images.githubusercontent.com/30461857/231773357-107edf3b-ec59-4e6a-be5c-4faf573c2166.png">
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-11 12:12:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/109" class=".btn">#109</a>
-            </td>
-            <td>
-                <b>
-                    correct versions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Chengxuan Xing <chengxuan.xing@kaleido.io>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-09 18:44:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/108" class=".btn">#108</a>
-            </td>
-            <td>
-                <b>
-                    udpate sandbox UI to support mult-namespaces
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Chengxuan Xing <chengxuan.xing@kaleido.io>
-
-Todos:
-
-- [x] Pick up https://github.com/hyperledger/firefly-sdk-nodejs/pull/59 & https://github.com/hyperledger/firefly-sdk-nodejs/pull/58 
-- [x] have a strategy for websocket events of multiple namespaces
-
-inputs are welcome on whether the following two logic are good enough:
-- [ ] (discussion) currently the code add the query with namespace to all rest request in fetch util.
-- [ ]  (discussion) When a namespace is switched, a page reload is triggered.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-01-08 01:20:17 +0000 UTC
+        Created At 2023-04-13 13:30:07 +0000 UTC
     </div>
 </div>
 

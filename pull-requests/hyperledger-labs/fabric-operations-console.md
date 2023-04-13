@@ -14,6 +14,77 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/451" class=".btn">#451</a>
+            </td>
+            <td>
+                <b>
+                    limit length of text in channel tile
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+ - cuts off the orderer names on channel tiles if they are over 42 characters. Full names can still be viewed in the table layout.
+ - updates release notes
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-13 16:15:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/449" class=".btn">#449</a>
+            </td>
+            <td>
+                <b>
+                    fix associate orderer modal regression
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+Fixes the associate identity with orderer modal bug introduced in build -40. The identity drop down was not loading.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-13 14:39:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/448" class=".btn">#448</a>
             </td>
             <td>
