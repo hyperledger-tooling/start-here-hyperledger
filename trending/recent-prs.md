@@ -1,13 +1,13 @@
 
-[2211](https://github.com/hyperledger/bevel/pull/2211) [ci-skip] add delete for releases with org-namespace folder names
+[397](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/397) build(deps): Bump h2 from 0.3.16 to 0.3.17 in /core/relay
 
-[3377](https://github.com/hyperledger/iroha/pull/3377) [fix] #3330: Fix `untagged` enum de-serialization with `u128` leaves
+[396](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/396) build(deps): Bump h2 from 0.3.16 to 0.3.17 in /common/protos-rs
 
-[4159](https://github.com/hyperledger/fabric/pull/4159) Fix failure in 'basic checks'
+[2393](https://github.com/hyperledger/cacti/pull/2393) build(deps): bump h2 from 0.3.16 to 0.3.17 in /weaver/common/protos-rs
 
-[4158](https://github.com/hyperledger/fabric/pull/4158) Fix typo regarding current LTS release
+[803](https://github.com/hyperledger/aries-vcx/pull/803) Bump h2 from 0.3.15 to 0.3.17
 
-[794](https://github.com/hyperledger/fabric-docs-i18n/pull/794) [ja_JP] Translate private-data-arch.rst into Japanese
+[2392](https://github.com/hyperledger/cacti/pull/2392) build(deps): bump h2 from 0.3.12 to 0.3.17 in /packages/cactus-plugin-keychain-vault/src/cactus-keychain-vault-server/rust/gen
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

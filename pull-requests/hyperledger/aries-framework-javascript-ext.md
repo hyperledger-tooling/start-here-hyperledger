@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/207" class=".btn">#207</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/208" class=".btn">#208</a>
             </td>
             <td>
                 <b>
-                    Feat/update redux store package to afj 0.4.x
+                    Feat/update push notifications 0.4.x
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
                 
             </td>
             <td>
-                Replaces [this PR](https://github.com/hyperledger/aries-framework-javascript-ext/pull/204/files) as Jim has left and I don't have write access to repo.
-
-
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-06 10:57:48 +0000 UTC
+        Created At 2023-04-13 14:31:16 +0000 UTC
     </div>
 </div>
 
