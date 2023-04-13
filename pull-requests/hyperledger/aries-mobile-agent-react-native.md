@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
             </td>
             <td>
                 <b>
-                    fix: Set restrictions for requested attributes properly
+                    fix: set restrictions for requested attributes properly
                 </b>
             </td>
         </tr>
@@ -66,7 +66,7 @@ _PR template adapted from the Python attrs project._
             </td>
             <td>
                 <b>
-                    fix: #700: Show error when unable to generate a proof request message
+                    fix: show error when unable to generate a proof request message
                 </b>
             </td>
         </tr>
@@ -117,7 +117,7 @@ _PR template adapted from the Python attrs project._
             </td>
             <td>
                 <b>
-                    feat: Added revocation branding to proof
+                    feat: added revocation branding to proof
                 </b>
             </td>
         </tr>
@@ -185,7 +185,7 @@ Fix a broken snapshot.
 
 # Related Issues
 
-n/a
+Fixes #710
 
 # Pull Request Checklist
 

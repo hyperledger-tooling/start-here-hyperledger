@@ -14,6 +14,80 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/448" class=".btn">#448</a>
+            </td>
+            <td>
+                <b>
+                    decompress component docs during migration to edit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+During migration the  component documents need to be decompressed so we can actually edit the docs. New fields get added.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-12 22:35:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/447" class=".btn">#447</a>
+            </td>
+            <td>
+                <b>
+                    Fix NodeRestApi lib performance
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+More speed/network improvements to minimize requests made by the front end.
+- removed the function that calls the get-ALL-component-details api over and over for 1 component
+- hooked up the skip cache param in more places
+- can now filter multiple node types at once, so you don't have to call get-all-components multiple times when multiple component types are requested
+- now absorbs any deployer error if the API asks for `deployment_attrs` on a component, but it was unable to get them, AND cached responses were not allowed (the error is still logged, but the api no longer returns a error response w/503 code)
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-12 19:31:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/446" class=".btn">#446</a>
             </td>
             <td>
@@ -339,41 +413,6 @@ The migration code that edits the settings doc prior to migration needs to decom
     </table>
     <div class="right-align">
         Created At 2023-04-06 19:14:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/437" class=".btn">#437</a>
-            </td>
-            <td>
-                <b>
-                    destroy session on change password
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-The login session will now be destroyed after changing a user password.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-05 19:51:36 +0000 UTC
     </div>
 </div>
 

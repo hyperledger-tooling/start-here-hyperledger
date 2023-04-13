@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/801" class=".btn">#801</a>
+            </td>
+            <td>
+                <b>
+                    post_message migration [Issue #772]
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **  Still working on getting the tests passing, I will advise when complete :)  **
+
+Resolves: Issue https://github.com/hyperledger/aries-vcx/issues/772 - Move out post_message to shared_vcx
+
+**Short Summary**
+
+- Migrated httpclient.rs file to shared_vcx directory
+- The issue requested that the post_message() function be moved, but there were other items within httpclient.rs that post_message() depended upon.
+- aries-vcx is successfully compiling with the changes provided.
+
+Note: This is a new branch created from the work previously pushed to my fork's main (which has since been reset to sync w/ aries-vcx upstream repo).
+
+Old PR: https://github.com/hyperledger/aries-vcx/pull/790
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-12 20:00:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/800" class=".btn">#800</a>
             </td>
             <td>

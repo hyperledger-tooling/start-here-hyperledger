@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5337" class=".btn">#5337</a>
+            </td>
+            <td>
+                <b>
+                    Updating confusing --bonsai-maximum-back-layers-to-load option to --bonsai-historical-block-limit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span>
+            </td>
+            <td>
+                ## PR description
+
+Changed the mentioned flags. Alias used to keep backwards compatibility. Also removed now deprecated snapshots option. 
+
+## Fixed Issue(s)
+Ambiguity 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-12 20:15:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5335" class=".btn">#5335</a>
             </td>
             <td>
@@ -481,42 +512,6 @@ It's not clear from the spec whether FCU(2) should be different to FCU(1) but it
     </table>
     <div class="right-align">
         Created At 2023-04-07 09:22:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5317" class=".btn">#5317</a>
-            </td>
-            <td>
-                <b>
-                    TrieLog shipping prep
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-prep bonsai for trielog shipping
-add zero reads of slot storage and accounts to bonsai accumulator storageToUpdate and accountsToUpdate
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-protocols-misc 707
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-06 00:51:12 +0000 UTC
     </div>
 </div>
 

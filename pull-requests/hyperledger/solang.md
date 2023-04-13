@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1268" class=".btn">#1268</a>
+            </td>
+            <td>
+                <b>
+                    Disallow dynamic arrays for account metas
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Account metas do not support dynamic arrays and we do not inform that to the user.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-12 21:57:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1267" class=".btn">#1267</a>
             </td>
             <td>
@@ -219,60 +245,6 @@ This changes `revert()` from an builtin expression to a statement type.
     </table>
     <div class="right-align">
         Created At 2023-04-06 13:01:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1254" class=".btn">#1254</a>
-            </td>
-            <td>
-                <b>
-                    Unify `external_call` and `create_contract` on Solana
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                `create_contract` and `external_call` have basically the same meaning on Solana, so I united the functions we have in `solana.c`.
-
-This is part of my task to improve the account management on Solana. Please, read my task list #1251 To understand what I am trying to achieve.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-05 20:52:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1253" class=".btn">#1253</a>
-            </td>
-            <td>
-                <b>
-                    chore(ci): update github actions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-05 18:37:06 +0000 UTC
     </div>
 </div>
 
