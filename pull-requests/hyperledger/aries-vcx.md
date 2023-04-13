@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/802" class=".btn">#802</a>
+            </td>
+            <td>
+                <b>
+                    Release 0.54.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-13 07:20:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/801" class=".btn">#801</a>
             </td>
             <td>
@@ -90,7 +116,7 @@ Fixes #795
         </tr>
         <tr>
             <td>
-                <span class="chip">skip-ci</span>
+                
             </td>
             <td>
                 Relocates `BaseLedger`,` BaseAnonCreds`, `BaseWallet` trait definitions and their corresponding implementations (including the `indy` module and related `utils`) into a distinct crate called `aries_vcx_core`. As a result, `aries-vcx` now depends on `indy-vdr`, `indy-credx`, and  `libvdrtools` indirectly through this new crate, which doesn't reexport any of them.
@@ -186,32 +212,6 @@ The primary objective of this pull request is the separation of these components
     </table>
     <div class="right-align">
         Created At 2023-04-10 17:41:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/793" class=".btn">#793</a>
-            </td>
-            <td>
-                <b>
-                    Add get_revocation_id for IssuerCredential
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-06 08:28:46 +0000 UTC
     </div>
 </div>
 

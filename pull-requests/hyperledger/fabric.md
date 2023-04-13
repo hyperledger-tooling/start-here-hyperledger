@@ -14,6 +14,78 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4159" class=".btn">#4159</a>
+            </td>
+            <td>
+                <b>
+                    Fix failure in 'basic checks'
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Bug fix
+
+#### Description
+
+This patch fixes failure during 'basic checks' in the CI. It is possibly caused by the update of Go to v1.20.
+
+#### Additional details
+
+During the "basic checks" job, the command references are compared with the generated ones. Since the Go version is updated to v1.20, the CI job generates slightly different documents from those in the repository, which were generated with the previous versions of Go.
+
+#### Related issues
+
+#4157
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-13 09:47:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4158" class=".btn">#4158</a>
+            </td>
+            <td>
+                <b>
+                    Fix typo regarding current LTS release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Documentation update
+
+#### Description
+
+Fix typo regarding the current LTS release in README
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-13 09:39:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4157" class=".btn">#4157</a>
             </td>
             <td>
@@ -91,41 +163,6 @@ Finally, you can contact us on https://mergify.com
     </table>
     <div class="right-align">
         Created At 2023-04-10 19:24:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4150" class=".btn">#4150</a>
-            </td>
-            <td>
-                <b>
-                    add basic issue template/links
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                re #4143
-
-#### Type of change
-
-- Documentation update
-
-#### Description
-
-Ensure that communication link shows up
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-06 12:09:17 +0000 UTC
     </div>
 </div>
 

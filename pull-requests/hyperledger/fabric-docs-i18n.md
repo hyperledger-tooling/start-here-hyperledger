@@ -14,39 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/792" class=".btn">#792</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/794" class=".btn">#794</a>
             </td>
             <td>
                 <b>
-                    [ja_JP] Translate "membership.md" into Japanese
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">jaJP-docs-ongoing</span>
-            </td>
-            <td>
-                This patch translates source/membership/membership.md into Japanese.
-
-Resolves #116
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-06 02:30:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/791" class=".btn">#791</a>
-            </td>
-            <td>
-                <b>
-                    Update scenario.md
+                    [ja_JP] Translate private-data-arch.rst into Japanese
                 </b>
             </td>
         </tr>
@@ -55,41 +27,16 @@ Resolves #116
                 
             </td>
             <td>
-                更正错别字
+                This patch translates "Architecture Reference » Private Data" into Japanese.
+
+#568 
+
+Signed-off-by: Daiki Nakashima Nakashima.Daiki@df.MitsubishiElectric.co.jp
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-01 07:46:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/790" class=".btn">#790</a>
-            </td>
-            <td>
-                <b>
-                    [ja_JP] Translate "commands/cryptogen.md"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">jaJP-docs-ongoing</span>
-            </td>
-            <td>
-                This PR translates "Commands Reference >> cryptogen" into Japanese.
-It also contains a patch to fix the translation for "key material" to use the same Japanese word in "configtxlator" and "cryptogen" commands reference.
-
-Closes #612
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-01 00:13:38 +0000 UTC
+        Created At 2023-04-13 08:50:20 +0000 UTC
     </div>
 </div>
 
