@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3377" class=".btn">#3377</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #3330: Fix `untagged` enum de-serialization with `u128` leaves
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Backport of fix to LTS
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-13 10:09:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3373" class=".btn">#3373</a>
             </td>
             <td>

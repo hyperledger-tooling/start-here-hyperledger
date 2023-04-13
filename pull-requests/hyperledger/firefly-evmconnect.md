@@ -38,29 +38,3 @@ closes #70
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/71" class=".btn">#71</a>
-            </td>
-            <td>
-                <b>
-                    Add more clarity to logs for event enrichment failures
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-06 08:59:48 +0000 UTC
-    </div>
-</div>
-

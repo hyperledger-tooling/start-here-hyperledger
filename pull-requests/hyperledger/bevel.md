@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2211" class=".btn">#2211</a>
+            </td>
+            <td>
+                <b>
+                    [ci-skip] add delete for releases with org-namespace folder names
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Change log**
+
+- add delete for releases with org-namespace folder names
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-13 11:47:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2210" class=".btn">#2210</a>
+            </td>
+            <td>
+                <b>
+                    [docs] update the readme and docs with updated playbook names
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Change log**
+Fix add org playbook with new playbook names
+Fix typo in k8s_secret role
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-13 07:24:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2209" class=".btn">#2209</a>
             </td>
             <td>

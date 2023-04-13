@@ -1,13 +1,13 @@
 
-[4157](https://github.com/hyperledger/fabric/pull/4157) Add docs for 'ledgerutil verify'
+[2211](https://github.com/hyperledger/bevel/pull/2211) [ci-skip] add delete for releases with org-namespace folder names
 
-[5339](https://github.com/hyperledger/besu/pull/5339) Remove RocksDb deprecated option maxBackgroundCompactions 
+[3377](https://github.com/hyperledger/iroha/pull/3377) [fix] #3330: Fix `untagged` enum de-serialization with `u128` leaves
 
-[3373](https://github.com/hyperledger/iroha/pull/3373) [feature] #1786: Add iroha-native types for socket addresses
+[4159](https://github.com/hyperledger/fabric/pull/4159) Fix failure in 'basic checks'
 
-[5338](https://github.com/hyperledger/besu/pull/5338) Set version as 23.1.3 and minor changelog update
+[4158](https://github.com/hyperledger/fabric/pull/4158) Fix typo regarding current LTS release
 
-[448](https://github.com/hyperledger-labs/fabric-operations-console/pull/448) decompress component docs during migration to edit
+[794](https://github.com/hyperledger/fabric-docs-i18n/pull/794) [ja_JP] Translate private-data-arch.rst into Japanese
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/189" class=".btn">#189</a>
+            </td>
+            <td>
+                <b>
+                    fix(build): use cross for lower glibc compatibility
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: blu3beri <blu3beri@proton.me>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-13 07:48:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/188" class=".btn">#188</a>
             </td>
             <td>
@@ -61,35 +88,6 @@ Also, maybe more for a discussion or separate issue, but I find a bit odd to hav
     </table>
     <div class="right-align">
         Created At 2023-04-06 18:23:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/185" class=".btn">#185</a>
-            </td>
-            <td>
-                <b>
-                    chore: cleanup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Removed some of the unused delta related code
-- Moved the revocation registry to its own file
-- Some other minor fixes that do not change the functionality directly
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-06 07:35:45 +0000 UTC
     </div>
 </div>
 
