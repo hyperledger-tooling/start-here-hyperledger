@@ -1,13 +1,13 @@
 
+[40](https://github.com/hyperledger-labs/perun-eth-backend/pull/40) Go-Ethereum 1.11.3 compatibility (no version bump)
+
+[3380](https://github.com/hyperledger/iroha/pull/3380) Debug iroha CI
+
+[1270](https://github.com/hyperledger/solang/pull/1270) Use rationals rather than float for calculating flow
+
+[5346](https://github.com/hyperledger/besu/pull/5346) Improved error message when verifying enode syntax with xdns-enabled
+
 [5344](https://github.com/hyperledger/besu/pull/5344) [MINOR] fix Javadoc
-
-[5343](https://github.com/hyperledger/besu/pull/5343) Upgrade Reference Tests
-
-[5342](https://github.com/hyperledger/besu/pull/5342) updating issue template requesting logs
-
-[397](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/397) build(deps): Bump h2 from 0.3.16 to 0.3.17 in /core/relay
-
-[396](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/396) build(deps): Bump h2 from 0.3.16 to 0.3.17 in /common/protos-rs
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

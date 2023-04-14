@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1270" class=".btn">#1270</a>
+            </td>
+            <td>
+                <b>
+                    Use rationals rather than float for calculating flow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Flow calculation involves division followed by addition, e.g. 10/3 + 10/3 + 10/3 is not exactly 10 when using floats. So, use rationals instead.
+
+I *think* `Rational<usize>` will suffice but I chicked out and used BigRational instead.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-14 10:21:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1269" class=".btn">#1269</a>
             </td>
             <td>
