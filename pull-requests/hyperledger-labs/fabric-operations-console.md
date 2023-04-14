@@ -14,6 +14,77 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/453" class=".btn">#453</a>
+            </td>
+            <td>
+                <b>
+                    change proxy route cor settings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+Security improvement, by not accepting all http methods these "proxy" routes will no longer reply with CORS '*'.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-14 18:04:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/452" class=".btn">#452</a>
+            </td>
+            <td>
+                <b>
+                    bump node to 18 in dockerfile & add tag to image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+- change node 16 to 18 in dockerfile
+- adds our git tag to docker image tag
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-14 16:50:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/451" class=".btn">#451</a>
             </td>
             <td>
@@ -414,41 +485,6 @@ Better parsing on the cluster type api to handle double quotes around the cluste
     </table>
     <div class="right-align">
         Created At 2023-04-07 20:02:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/439" class=".btn">#439</a>
-            </td>
-            <td>
-                <b>
-                    fix node ou parsing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-The node ou parsing was not consistent. Sometimes the code expected a string, other times boolean. Added a helper function to conform and handle both cases.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-07 16:17:26 +0000 UTC
     </div>
 </div>
 
