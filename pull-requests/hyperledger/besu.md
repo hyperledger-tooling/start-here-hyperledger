@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5346" class=".btn">#5346</a>
+            </td>
+            <td>
+                <b>
+                    Improved error message when verifying enode syntax with xdns-enabled
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Improved error message when verifying enode syntax with xdns-enabled
+
+## Fixed Issue(s)
+https://github.com/hyperledger/besu/issues/2569
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-14 06:41:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5344" class=".btn">#5344</a>
             </td>
             <td>
@@ -427,6 +460,26 @@ This is just a initial draft not ready for review yet.
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
 Partially fixes #5300 
+
+Scenarios tested:
+
+**Sepolia**
+- [x] Fast-sync Forest (uses Pessimistic mode)
+- [x] Snap-sync Bonsai (uses Optimistic mode)   
+
+**Goerli**
+- [x] Fast-sync Forest (uses Pessimistic mode)
+- [x] Snap-sync Bonsai (uses Optimistic mode)
+
+**Mainnet**
+- [ ] Snap-sync Forest (uses Pessimistic mode) not finished yet
+- [x] Snap-sync Bonsai (uses Optimistic mode)
+- [ ] Checkpoint-sync Forest (uses Pessimistic mode) not finished yet 
+- [x] Checkpoint-sync Bonsai (uses Optimistic mode)
+
+**Backwards compatibility**
+- [x] Roll back a Forest synced node to 23.1.2 forcing it to use Optimistic 
+- [ ] Update a current synced Forest node that is using Optimistic to use the new version with pessimistic to ensure this won't require resyncs. (not done yet) 
             </td>
         </tr>
     </table>
@@ -659,39 +712,6 @@ It's not clear from the spec whether FCU(2) should be different to FCU(1) but it
     </table>
     <div class="right-align">
         Created At 2023-04-10 10:09:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5319" class=".btn">#5319</a>
-            </td>
-            <td>
-                <b>
-                    init flat db filling
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-07 09:22:10 +0000 UTC
     </div>
 </div>
 
