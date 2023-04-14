@@ -15,58 +15,43 @@ permalink: /releases/hyperledger/aries-vcx
         <tr>
             <td colspan="2">
                 <b>
-                    Release 0.53.0
+                    Release 0.54.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.53.0
+                    0.54.0
                 </span>
             </td>
             <td>
-                # Changelog
-
-## [0.53.0](https://github.com/hyperledger/aries-vcx/tree/0.53.0) (2023-03-22)
-
-[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.52.0...0.53.0)
-
-# global
-* Update readme files by @Patrik-Stas in https://github.com/hyperledger/aries-vcx/pull/757
-
-# aries-vcx
-
-### Breaking changes
-* Prover APIs:
-  * Proof verifier: add `get_revocation_status` method by @Patrik-Stas in https://github.com/hyperledger/aries-vcx/pull/769
-* Verifier APIs:
-  * Rename prover methods, extend test test_generate_self_attested_proof by @Patrik-Stas in https://github.com/hyperledger/aries-vcx/pull/764
-  * Changed Proof (Verifier) API for checking presentation status by @Patrik-Stas in https://github.com/hyperledger/aries-vcx/pull/770
-  * Sort error mapping by numeric code by @Patrik-Stas in https://github.com/hyperledger/aries-vcx/pull/771
-
-### Fixes
-* OOB invite attachment field conditional serialization, default to empty if not present by @mirgee in https://github.com/hyperledger/aries-vcx/pull/762
-
-### Features
-* Expose getting and clearing attributes from the ledger by @mirgee in https://github.com/hyperledger/aries-vcx/pull/767
+                ## What's Changed
+* Avoid misusing peer dependencies by @mirgee in https://github.com/hyperledger/aries-vcx/pull/783
+* Refactor/messages crate by @bobozaur in https://github.com/hyperledger/aries-vcx/pull/754
+* Add state machines implementation guidelines by @Patrik-Stas in https://github.com/hyperledger/aries-vcx/pull/781
+* Fix node publishing by @mirgee in https://github.com/hyperledger/aries-vcx/pull/784
+* Profiles refactoring by @Patrik-Stas in https://github.com/hyperledger/aries-vcx/pull/785
+* Fix iOS wrapper, connectionHandle by @pomfar in https://github.com/hyperledger/aries-vcx/pull/789
+* Bump openssl from 0.10.43 to 0.10.48 by @dependabot in https://github.com/hyperledger/aries-vcx/pull/782
+* CI: Read tag 'skip-ci' to skip majority of ci jobs by @Patrik-Stas in https://github.com/hyperledger/aries-vcx/pull/788
+* Add get_revocation_id for IssuerCredential by @Patrik-Stas in https://github.com/hyperledger/aries-vcx/pull/793
+* Vdrtools & Modular Libs as feature flags by @gmulhearn in https://github.com/hyperledger/aries-vcx/pull/763
+* Remove proof verifier legacy format deserialization support by @Patrik-Stas in https://github.com/hyperledger/aries-vcx/pull/794
+* Remove unnecessary dependencies by @Patrik-Stas in https://github.com/hyperledger/aries-vcx/pull/796
+* Separate core into a standalone crate by @mirgee in https://github.com/hyperledger/aries-vcx/pull/798
+* Release 0.54.0 by @Patrik-Stas in https://github.com/hyperledger/aries-vcx/pull/802
 
 
-# uniffi
-* UniFFI Proof of Concept by @gmulhearn in https://github.com/hyperledger/aries-vcx/pull/737
-
-# libvcx
-* Update nodejs in libvcx docker image to 18.14.2-r0 by @Patrik-Stas in https://github.com/hyperledger/aries-vcx/pull/760
-* Split libvcx in 2 crates, update diagrams by @Patrik-Stas in https://github.com/hyperledger/aries-vcx/pull/759
-
+**Full Changelog**: https://github.com/hyperledger/aries-vcx/compare/0.53.0...0.54.0
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-vcx/releases/tag/0.53.0" class=".btn">
+    <a href="https://github.com/hyperledger/aries-vcx/releases/tag/0.54.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-03-22 09:17:52 +0000 UTC
+        Created At 2023-04-13 17:41:23 +0000 UTC
     </span>
 </div>
 
