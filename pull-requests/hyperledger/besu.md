@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5344" class=".btn">#5344</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] fix Javadoc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add missing javadoc 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-14 01:18:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5343" class=".btn">#5343</a>
             </td>
             <td>
