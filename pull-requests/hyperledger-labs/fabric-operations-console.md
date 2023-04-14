@@ -452,38 +452,3 @@ The node ou parsing was not consistent. Sometimes the code expected a string, ot
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/438" class=".btn">#438</a>
-            </td>
-            <td>
-                <b>
-                    decompress docs before migration edits settings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-The migration code that edits the settings doc prior to migration needs to decompress the backup data first. otherwise the edits do not happen and the new console is thrown into shenanigans. 
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-06 19:14:47 +0000 UTC
-    </div>
-</div>
-
