@@ -14,6 +14,71 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5343" class=".btn">#5343</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade Reference Tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Upgrade reference tests to v12.1
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-13 22:16:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5342" class=".btn">#5342</a>
+            </td>
+            <td>
+                <b>
+                    updating issue template requesting logs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Update to request logs in the issue template 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-13 20:18:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5340" class=".btn">#5340</a>
             </td>
             <td>
@@ -55,7 +120,7 @@ Fixes https://github.com/hyperledger/besu/issues/5336
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span><span class="chip">mainnet</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
@@ -107,7 +172,7 @@ This PR cleans up the besu rocksDB plugin removing all the `maxBackgroundCompact
             </td>
             <td>
                 <b>
-                    Updating confusing --bonsai-maximum-back-layers-to-load option to --bonsai-historical-block-limit
+                    Updating confusing --bonsai-maximum-back-layers-to-load option to --bonsai-historical-block-limit + remove deprecated snapshots config 
                 </b>
             </td>
         </tr>
