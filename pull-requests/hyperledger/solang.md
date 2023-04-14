@@ -197,29 +197,3 @@ This changes `revert()` from an builtin expression to a statement type.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1258" class=".btn">#1258</a>
-            </td>
-            <td>
-                <b>
-                    codegen::Expression should have named fields
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Only changes in the syntax for `codegen::Expression`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-07 17:20:51 +0000 UTC
-    </div>
-</div>
-

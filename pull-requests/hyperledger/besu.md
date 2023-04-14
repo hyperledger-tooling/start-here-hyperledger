@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5347" class=".btn">#5347</a>
+            </td>
+            <td>
+                <b>
+                    Updating Sepolia bootnodes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Sepolia has had some peering troubles in the past, It seems like the old EF bootnodes weren't created properly or not added to the IaC stack we usually have our configs in, so I went ahead and setup new bootnodes on DigitalOcean. These have more liberal bandwidth limits and cost far lesser to run, they should be able to help with peering and sync performance on Sepolia.
+
+The bootnode configs have been commited to the private devops repo along with a reserved IP and the nodekey has been backed up. The bootnode has additionally been added to the DevOps monitoring and updating stack. We should be able to maintain these bootnodes far better in the future.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-14 17:22:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5346" class=".btn">#5346</a>
             </td>
             <td>
