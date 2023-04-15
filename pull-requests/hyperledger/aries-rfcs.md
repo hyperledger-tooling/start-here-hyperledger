@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/780" class=".btn">#780</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/781" class=".btn">#781</a>
             </td>
             <td>
                 <b>
-                    RFC 0780 -- Use Data URLs for Images and More in Credential Attributes
+                    using BTreeMap
                 </b>
             </td>
         </tr>
@@ -27,12 +27,28 @@ permalink: /pull-requests/hyperledger/aries-rfcs
                 
             </td>
             <td>
-                This PR is a new RFC proposing that verifiable credential issuers of attributes that contain or than strings and numbers use Data URLs (IETF Standard 2397) to convey to Holders and Verifiers the MIME Type and encoding of the attribute. This is particular useful for use cases of photos in attributes, and for attributes that hold a JSON data structure, such as an array of values.
+                `Use a HashMap when`:
+
+You want to associate arbitrary keys with an arbitrary value.
+
+You want a cache.
+
+You want a map, with no extra functionality.
+
+`Use a BTreeMap when`:
+
+You're interested in what the smallest or largest key-value pair is.
+
+You want to find the largest or smallest key that is smaller or larger than something.
+
+You want to be able to get all of the entries in order on-demand.
+
+You want a map sorted by its keys
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-03 19:31:36 +0000 UTC
+        Created At 2023-04-15 11:06:01 +0000 UTC
     </div>
 </div>
 

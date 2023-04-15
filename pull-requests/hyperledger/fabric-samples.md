@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1023" class=".btn">#1023</a>
+            </td>
+            <td>
+                <b>
+                    fixed test-network-k8s/scripts/test_network.sh missing  ${NGINX_HTTPS…
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fixed test-network-k8s/scripts/test_network.sh missing  ${NGINX_HTTPS}
+fixed test-network-k8s/scripts/channel.sh missing  ${NGINX_HTTPS}
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-15 07:55:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/1022" class=".btn">#1022</a>
             </td>
             <td>
