@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1273" class=".btn">#1273</a>
+            </td>
+            <td>
+                <b>
+                    modifiers are allowed in libraries
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Solang did not permit this, but solc does.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-15 12:25:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1272" class=".btn">#1272</a>
             </td>
             <td>
@@ -219,35 +245,6 @@ I *think* `Rational<usize>` will suffice but I chicked out and used BigRational 
     </table>
     <div class="right-align">
         Created At 2023-04-10 17:28:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1259" class=".btn">#1259</a>
-            </td>
-            <td>
-                <b>
-                     Parse error definitions and revert with custom errors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                These are not supported on Solana or Substrate, however this will help
-with testing sema with evm solidity contracts.
-
-This changes `revert()` from an builtin expression to a statement type. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-08 17:19:31 +0000 UTC
     </div>
 </div>
 
