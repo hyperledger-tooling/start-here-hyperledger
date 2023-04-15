@@ -7,7 +7,7 @@
 
 [0.54.0](https://github.com/hyperledger/aries-vcx/releases/tag/0.54.0) Release 0.54.0
 
-[v0.3.0-rc0](https://github.com/hyperledger/aries-acapy-tools/releases/tag/v0.3.0-rc0) v0.3.0-rc0
+[23.1.3](https://github.com/hyperledger/besu/releases/tag/23.1.3) 23.1.3
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)

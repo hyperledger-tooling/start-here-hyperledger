@@ -15,43 +15,35 @@ permalink: /releases/hyperledger/besu
         <tr>
             <td colspan="2">
                 <b>
-                    23.1.2
+                    23.1.3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    23.1.2
+                    23.1.3
                 </span>
             </td>
             <td>
-                ## 23.1.2
-This update is a mainnet-compatible Shanghai/Capella upgrade and is recommended for all Mainnet users. This update contains a small number of overall improvements and fixes but a large refactor of Bonsai. We have heard your issues loud and clear with the storage format and have taken the time to craft a new architecture that keeps the benefits (low storage, lightweight nodes) without the tradeoffs (worldstate issues, exceptions processing transactions, broken databases). Expect more details on this in a forthcoming blog post. We have also continued our cleanup of backwards sync and RPC. 
+                ## 23.1.3 - Nimbus Hotfix
 
-### Breaking Changes
-
-### Additions and Improvements
-- Schedule Shanghai (Shapella) fork for Mainnet [#5230](https://github.com/hyperledger/besu/pull/5230)
-- Increase default from 1000 to 5000 for `--rpc-max-logs-range` [#5209](https://github.com/hyperledger/besu/pull/5209)
-- Bonsai-safe refactor [#5123](https://github.com/hyperledger/besu/pull/5123)
-- Safe tracing [#5197](https://github.com/hyperledger/besu/pull/5197)
+This update is strongly recommended for anyone running Nimbus with Besu. Due to the way Nimbus send request data, this can lead to a missed block proposal in certain circumstances.
 
 ### Bug Fixes
-- Persist backward sync status to support resuming across restarts [#5182](https://github.com/hyperledger/besu/pull/5182)
+- Add withdrawals to payloadId calculation to avoid collisions [#5321](https://github.com/hyperledger/besu/pull/5321)
 
 ### Download Links
-https://hyperledger.jfrog.io/hyperledger/besu-binaries/besu/23.1.2/besu-23.1.2.tar.gz / sha256: 3d3a709a3aab993a0801b412a4719d74e319f942ddc13fb0f30b3c4a54d12538
-https://hyperledger.jfrog.io/hyperledger/besu-binaries/besu/23.1.2/besu-23.1.2.zip / sha256: 2a9ff091cb4349fc23625a52089400bb6529a831eb22d15d0221cb27039ab203
-
+https://hyperledger.jfrog.io/hyperledger/besu-binaries/besu/23.1.3/besu-23.1.3.tar.gz / sha256: 36898932a7535c4d126c1980443b33c9a4971f9354112992a18ee134c1777aa3
+https://hyperledger.jfrog.io/hyperledger/besu-binaries/besu/23.1.3/besu-23.1.3.zip / sha256: adb3b17e45217f86a56f07f09faba2e5d8a0eb8a585ad5307696d6cc58ee2f73
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/besu/releases/tag/23.1.2" class=".btn">
+    <a href="https://github.com/hyperledger/besu/releases/tag/23.1.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-03-18 03:56:07 +0000 UTC
+        Created At 2023-04-13 03:53:20 +0000 UTC
     </span>
 </div>
 
