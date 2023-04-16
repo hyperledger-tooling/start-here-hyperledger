@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger-labs/bdls
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/bdls/pull/11" class=".btn">#11</a>
-            </td>
-            <td>
-                <b>
-                    Submit Request func
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">documentation</span><span class="chip">enhancement</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-09 08:01:27 +0000 UTC
-    </div>
-</div>
-

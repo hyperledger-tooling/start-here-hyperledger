@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1274" class=".btn">#1274</a>
+            </td>
+            <td>
+                <b>
+                    [Fix] Removing the duplicate code.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fix: #1261
+
+Just wanna know If I am going in the right direction or not. Please guide me so I'll then fix other parts as I am trying to understand the codebase too.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-16 12:10:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1273" class=".btn">#1273</a>
             </td>
             <td>
