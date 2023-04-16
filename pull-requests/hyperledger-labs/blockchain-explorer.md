@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-explorer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/380" class=".btn">#380</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/382" class=".btn">#382</a>
             </td>
             <td>
                 <b>
-                    Updated run_e2e_test.sh
+                    move to ghcr registry
                 </b>
             </td>
         </tr>
@@ -33,7 +33,7 @@ permalink: /pull-requests/hyperledger-labs/blockchain-explorer
 
 #### What this PR does / why we need it:
 
-This PR fixes the bug related to run_e2e_test.sh
+This PR will start using ghcr.io as the container registry. This will create the `explorer` and `explorer-db` container image.
 
 #### Which issue(s) this PR fixes:
 <!--
@@ -41,7 +41,7 @@ This PR fixes the bug related to run_e2e_test.sh
 Usage: `Fixes #<issue number>`, or `Fixes (paste link of issue)`.
 _If PR is about `failing-tests`, please post the related issues/tests in a comment and do not use `Fixes`_*
 -->
-Fixes #379
+Fixes #348
 
 #### Special notes for your reviewer:
 
@@ -76,7 +76,7 @@ specific point in time, rather than a document that may change over time.
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-06 13:46:27 +0000 UTC
+        Created At 2023-04-16 13:31:14 +0000 UTC
     </div>
 </div>
 
