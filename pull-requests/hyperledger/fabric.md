@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4164" class=".btn">#4164</a>
+            </td>
+            <td>
+                <b>
+                    Fix cert sanitation with go v1.19 (backport #3774 release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update to go v1.19 and fix cert sanitation.
+Backport #3774 to release-2.2.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-17 16:19:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4161" class=".btn">#4161</a>
             </td>
             <td>

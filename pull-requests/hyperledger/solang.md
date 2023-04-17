@@ -97,7 +97,7 @@ Ideally, instead of adding a dedicated test for this bug, we might want to run a
                 
             </td>
             <td>
-                <nil>
+                Improve compatibility with solc.
             </td>
         </tr>
     </table>
@@ -343,32 +343,6 @@ I *think* `Rational<usize>` will suffice but I chicked out and used BigRational 
     </table>
     <div class="right-align">
         Created At 2023-04-12 15:35:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1260" class=".btn">#1260</a>
-            </td>
-            <td>
-                <b>
-                    Ensure that the last instruction of a block is reachable
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The PR supersedes #1257.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-10 17:28:12 +0000 UTC
     </div>
 </div>
 
