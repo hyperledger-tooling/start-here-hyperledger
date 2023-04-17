@@ -63,29 +63,3 @@ We want to detect why sometimes 127.0.0.1:33044 address is already in use.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/orion-sdk-go/pull/164" class=".btn">#164</a>
-            </td>
-            <td>
-                <b>
-                    client rest redirect from follower to leader of tx submission
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-10 11:57:16 +0000 UTC
-    </div>
-</div>
-
