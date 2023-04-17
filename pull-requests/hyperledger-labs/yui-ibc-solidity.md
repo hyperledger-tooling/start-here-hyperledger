@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/167" class=".btn">#167</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/169" class=".btn">#169</a>
             </td>
             <td>
                 <b>
-                    Update geth to v1.11.3
+                    Disallow STATE_TRY_OPEN as previous state in `connectionOpenAck`
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
                 
             </td>
             <td>
-                <nil>
+                fix #168 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-04 02:17:00 +0000 UTC
+        Created At 2023-04-17 05:57:32 +0000 UTC
     </div>
 </div>
 
