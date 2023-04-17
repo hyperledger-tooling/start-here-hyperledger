@@ -1,13 +1,13 @@
 
-[1277](https://github.com/hyperledger/solang/pull/1277) `memory_size_of()` needs guarded recursion
+[9](https://github.com/hyperledger-labs/documentation-template/pull/9) Update readme
 
-[1276](https://github.com/hyperledger/solang/pull/1276) Outside of modifiers _ is a regular identifier
+[96](https://github.com/hyperledger-labs/karma-charity-platform/pull/96) Bump @nestjs/core and @ts-core/backend-nestjs in /chaincode
 
-[1275](https://github.com/hyperledger/solang/pull/1275) Allow this.function.selector as bytesN and in pure mutability
+[95](https://github.com/hyperledger-labs/karma-charity-platform/pull/95) Bump @nestjs/core, @nestjs/platform-express, @nestjs/swagger and @ts-core/backend-nestjs in /explorer/backend
 
-[171](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/171) Fix channel handshake
+[94](https://github.com/hyperledger-labs/karma-charity-platform/pull/94) Bump @nestjs/core, @nestjs/platform-express, @nestjs/swagger and @ts-core/backend-nestjs in /platform/backend
 
-[170](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/170) 25-handler: remove previous id from connection and channel msgs
+[172](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/172) build(deps): bump @openzeppelin/contracts from 4.8.0 to 4.8.3
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
