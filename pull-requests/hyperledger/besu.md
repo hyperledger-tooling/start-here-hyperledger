@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5350" class=".btn">#5350</a>
+            </td>
+            <td>
+                <b>
+                    uncomment columns related to GoQuorum privacy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Addresses database backwards compatibility broken by https://github.com/hyperledger/besu/commit/067a26337411833ad92d649f208255b1a7954268
+
+Fixes `org.rocksdb.RocksDBException: Column families not opened:` error
+
+See #5303
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-16 22:20:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5349" class=".btn">#5349</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] Add database compatibility to the PR checklist
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-16 21:06:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5347" class=".btn">#5347</a>
             </td>
             <td>
