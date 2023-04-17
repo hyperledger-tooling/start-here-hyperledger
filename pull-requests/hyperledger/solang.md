@@ -14,6 +14,102 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1277" class=".btn">#1277</a>
+            </td>
+            <td>
+                <b>
+                    `memory_size_of()` needs guarded recursion
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This fixes the crash in ` ./solang-parser/testdata/solidity/test/libsolidity/syntaxTests/structs/recursion/return_recursive_structs2.sol`:
+
+```
+❯ cargo run -- compile --target substrate  ./solang-parser/testdata/solidity/test/libsolidity/syntaxTests/structs/recursion/return_recursive_structs2.sol
+
+error: struct 'S' has infinite size
+  ┌─ /home/cyrill/mess/solang/solang-parser/testdata/solidity/test/libsolidity/syntaxTests/structs/recursion/return_recursive_structs2.sol:4:12
+  │
+4 │     struct S { uint a; S[2][] sub; }
+  │            ^           ---------- recursive field 'sub'
+
+error: missing return statement
+  ┌─ /home/cyrill/mess/solang/solang-parser/testdata/solidity/test/libsolidity/syntaxTests/structs/recursion/return_recursive_structs2.sol:6:6
+  │
+6 │     }
+  │      ^
+```
+
+Ideally, instead of adding a dedicated test for this bug, we might want to run against all parser tests on CI too?
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-17 11:45:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1276" class=".btn">#1276</a>
+            </td>
+            <td>
+                <b>
+                    Outside of modifiers _ is a regular identifier
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-17 10:05:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1275" class=".btn">#1275</a>
+            </td>
+            <td>
+                <b>
+                    Allow this.function.selector as bytesN and in pure mutability
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-17 09:23:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1274" class=".btn">#1274</a>
             </td>
             <td>
