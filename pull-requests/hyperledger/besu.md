@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5359" class=".btn">#5359</a>
+            </td>
+            <td>
+                <b>
+                    Additional log to indicate that database is compacting
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">logging</span>
+            </td>
+            <td>
+                When Besu is restarted after running for a few days the startup can appear to be stuck:
+
+```
+2023-04-18 08:42:06.806+00:00 | main | INFO  | RocksDBKeyValueStorageFactory | Existing database detected at /var/lib/besu. Version 2
+2023-04-18 08:42:18.872+00:00 | main | INFO  | KeyPairUtil | Loaded public key 0x52e86b0e8c9cdd6579493a5371206946ef8442ee3b4b3144e1d1de1a8ed5ec6d41cfc977717b9358d1c403b915bbc9f8a1befabd71974a4f5ee7eda64a003a11 from /var/lib/besu/key
+```
+
+The example above shows a 12 seconds difference between the two log messages. In other occasions I've seen it taking longer than 30 seconds. Looking at Grafana it seems that the database is compacting during this time:
+
+<img width="922" alt="Screenshot 2023-04-18 at 11 07 44" src="https://user-images.githubusercontent.com/6727189/232729869-6d3d3a35-1522-471b-8ba7-cef64b97a307.png">
+
+This PR adds this information to the log message to tell the user what is going on, so they don´t think that there is a problem.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-18 09:10:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5357" class=".btn">#5357</a>
             </td>
             <td>
@@ -639,66 +676,6 @@ Update get account method in the accumulator in order to not use the cache in th
     </table>
     <div class="right-align">
         Created At 2023-04-11 14:44:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5328" class=".btn">#5328</a>
-            </td>
-            <td>
-                <b>
-                    Rocksdb plugin to support OptimisticTransactionDb and TransactionDb
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span><span class="chip">mainnet</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Tis PR introduces some changes to the RocksDB plugin to allow using the DB in either pessimistic or optimistic transaction mode.
-Currently pessimistic is tied to the usage of Forest data format.
-
-The refactor was done with the intent to keep bonsai as it is currently with usage of the optimistic transaction db.
-
-This is just a initial draft not ready for review yet. 
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Partially fixes #5300 
-
-Scenarios tested:
-
-**Sepolia**
-- [x] Fast-sync Forest (uses Pessimistic mode)
-- [x] Snap-sync Bonsai (uses Optimistic mode)   
-
-**Goerli**
-- [x] Fast-sync Forest (uses Pessimistic mode)
-- [x] Snap-sync Bonsai (uses Optimistic mode)
-
-**Mainnet**
-- [ ] Snap-sync Forest (uses Pessimistic mode) not finished yet
-- [x] Snap-sync Bonsai (uses Optimistic mode)
-- [ ] Checkpoint-sync Forest (uses Pessimistic mode) not finished yet 
-- [x] Checkpoint-sync Bonsai (uses Optimistic mode)
-
-**Backwards compatibility**
-- [x] Roll back a Forest synced node to 23.1.2 forcing it to use Optimistic 
-- [ ] Update a current synced Forest node that is using Optimistic to use the new version with pessimistic to ensure this won't require resyncs. (not done yet) 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-11 11:45:32 +0000 UTC
     </div>
 </div>
 
