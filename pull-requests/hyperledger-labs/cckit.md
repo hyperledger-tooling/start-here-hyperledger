@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/cckit
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/cckit/pull/30" class=".btn">#30</a>
+                PR <a href="https://github.com/hyperledger-labs/cckit/pull/32" class=".btn">#32</a>
             </td>
             <td>
                 <b>
-                    Add LockBatch and fix scales
+                    State list serializer test
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/cckit
                 
             </td>
             <td>
-                Add new function for group blocking utxos.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-11 11:32:56 +0000 UTC
+        Created At 2023-04-18 15:41:47 +0000 UTC
     </div>
 </div>
 

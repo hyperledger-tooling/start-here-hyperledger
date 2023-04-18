@@ -14,6 +14,128 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4168" class=".btn">#4168</a>
+            </td>
+            <td>
+                <b>
+                    Bump Go to 1.20.3 (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bump Go to 1.20.3.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-18 14:42:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4167" class=".btn">#4167</a>
+            </td>
+            <td>
+                <b>
+                    Bump Go to 1.20.3 (release-2.5)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bump Go to 1.20.3.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-18 14:25:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4166" class=".btn">#4166</a>
+            </td>
+            <td>
+                <b>
+                    Bump Go to 1.20.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bump Go to 1.20.3.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-18 14:20:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4165" class=".btn">#4165</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: prevent join to system channel
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+
+
+Change-Id: I8a8a0d8810bf8337b66c07434d3a6d392ca963f4
+
+#### Type of change
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Prevent a system channel block from being accepted as valid input to channel participation join.
+
+#### Related issues
+
+Issue: #3515 
+Epic: #3511 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-18 14:20:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4164" class=".btn">#4164</a>
             </td>
             <td>
@@ -27,8 +149,9 @@ permalink: /pull-requests/hyperledger/fabric
                 
             </td>
             <td>
-                Update to go v1.19 and fix cert sanitation.
-Backport #3774 to release-2.2.
+                -Update to go v1.19.
+-Fix cert sanitation to work on Go 1.19 (Backport https://github.com/hyperledger/fabric/pull/3774 to release-2.2)
+-Fix idemix revocation_test to work on Go 1.19
             </td>
         </tr>
     </table>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/153" class=".btn">#153</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/156" class=".btn">#156</a>
             </td>
             <td>
                 <b>
-                    force immediate shutdown of the network connection
+                    Fix release publishing to GitHub packages
                 </b>
             </td>
         </tr>
@@ -27,12 +27,42 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
                 
             </td>
             <td>
-                resolve #87 
+                Repository URL was incorrect, making release publishing fail.
+
+Refactored release workflow to extract shell scripting common between GitHub and Maven Central publish to a shellscript invoked by both jobs.
+
+Updated a few dependency versions.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-30 13:10:49 +0000 UTC
+        Created At 2023-04-18 16:02:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/155" class=".btn">#155</a>
+            </td>
+            <td>
+                <b>
+                    Update package version following v2.2.8 release
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-18 14:57:48 +0000 UTC
     </div>
 </div>
 
