@@ -1,13 +1,13 @@
 
-[3389](https://github.com/hyperledger/iroha/pull/3389) [feature] #2547: Add logo to `AssetDefinition`
+[3395](https://github.com/hyperledger/iroha/pull/3395) [tests]: Remove false negatives from coverage
 
-[1279](https://github.com/hyperledger/solang/pull/1279) Run Ethereum Solidity semantic tests through sema
+[3394](https://github.com/hyperledger/iroha/pull/3394) [fix] #3393: Break communication deadlock loop in actors
 
-[173](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/173) Introduce solhint
+[3391](https://github.com/hyperledger/iroha/pull/3391) [feature] #3304: [TEST]
 
-[1637](https://github.com/hyperledger/indy-plenum/pull/1637) Trigger Node Update
+[156](https://github.com/hyperledger/fabric-gateway-java/pull/156) Fix release publishing to GitHub packages
 
-[1812](https://github.com/hyperledger/indy-node/pull/1812) Repo Dispatches and dispatchable WF-Runs
+[32](https://github.com/hyperledger-labs/cckit/pull/32) State list serializer test
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
