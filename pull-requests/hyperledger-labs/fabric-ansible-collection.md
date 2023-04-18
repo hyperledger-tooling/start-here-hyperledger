@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/5" class=".btn">#5</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-ansible-collection/pull/6" class=".btn">#6</a>
             </td>
             <td>
                 <b>
-                    Modified main readme to remove ibp references and update links
+                    Added ability to specify zones 
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger-labs/fabric-ansible-collection
                 
             </td>
             <td>
-                <nil>
+                Ordering and endorsing organisation roles now have the ability to specify zones
+
+Added a task which check if the number of zones specified doesn't match the number of peers
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-29 15:13:50 +0000 UTC
+        Created At 2023-04-18 10:06:49 +0000 UTC
     </div>
 </div>
 
