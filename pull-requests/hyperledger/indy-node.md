@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1813" class=".btn">#1813</a>
+            </td>
+            <td>
+                <b>
+                    fix PR message from triggered update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-19 15:26:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-node/pull/1812" class=".btn">#1812</a>
             </td>
             <td>
@@ -35,32 +61,6 @@ Needs the `BOT_PR_PAT_NODE` secret set with a fine grained access token for sovr
     </table>
     <div class="right-align">
         Created At 2023-04-18 10:35:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1811" class=".btn">#1811</a>
-            </td>
-            <td>
-                <b>
-                    Add announcement section to README.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Inform people of the change to the branch structure.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-12 12:59:40 +0000 UTC
     </div>
 </div>
 

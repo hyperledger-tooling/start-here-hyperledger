@@ -14,6 +14,100 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4175" class=".btn">#4175</a>
+            </td>
+            <td>
+                <b>
+                    Revert "Fix firewall warnings for integration tests on Mac"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This reverts commit 412f3661cb05061a0a9413d16b24f5326f07b3fa.
+
+The change caused integration tests to fail on a number of developer macs (both amd64 and arm64).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-19 14:33:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4174" class=".btn">#4174</a>
+            </td>
+            <td>
+                <b>
+                    Update dependencies (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update dependencies to match the known good levels in release-2.5. This will simplify maintenance and support between the two LTS releases and resolve vulnerability issues in these dependencies.
+
+- github.com/docker/docker
+- github.com/opencontainers/runc
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-19 14:16:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4173" class=".btn">#4173</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: remove sys chan from registrar
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+#### Type of change
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Remove the system channel from the multichannel.Registrar
+
+#### Related issues
+
+#3515 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-19 14:04:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4171" class=".btn">#4171</a>
             </td>
             <td>

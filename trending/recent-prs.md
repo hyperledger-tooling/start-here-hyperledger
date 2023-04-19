@@ -1,13 +1,13 @@
 
-[1282](https://github.com/hyperledger/solang/pull/1282) Fixed Duplicate code - 1
+[455](https://github.com/hyperledger-labs/fabric-operations-console/pull/455) improve doc on audit logs and changing settings
 
-[3399](https://github.com/hyperledger/iroha/pull/3399) [feature] #3274: Add to `kagami` a subcommand that generates examples
+[5369](https://github.com/hyperledger/besu/pull/5369) Show correct revert reason data in priv_call
 
-[65](https://github.com/hyperledger/firefly-common/pull/65) feat: Add mTLS configuration for ffresty
+[1813](https://github.com/hyperledger/indy-node/pull/1813) fix PR message from triggered update
 
-[1281](https://github.com/hyperledger/solang/pull/1281) Do not panic if the value of a constant cannot be evaluated
+[668](https://github.com/hyperledger/fabric-sdk-node/pull/668) Document deprecation as of Fabric v2.5
 
-[176](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/176) Comply with ibc-go v7
+[1638](https://github.com/hyperledger/indy-plenum/pull/1638) publish Release fix
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

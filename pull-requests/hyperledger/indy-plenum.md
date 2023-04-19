@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-plenum
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1638" class=".btn">#1638</a>
+            </td>
+            <td>
+                <b>
+                    publish Release fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-19 15:15:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-plenum/pull/1637" class=".btn">#1637</a>
             </td>
             <td>
@@ -35,32 +61,6 @@ Needs https://github.com/hyperledger/indy-node/pull/1812 to be merged first or t
     </table>
     <div class="right-align">
         Created At 2023-04-18 10:36:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-plenum/pull/1636" class=".btn">#1636</a>
-            </td>
-            <td>
-                <b>
-                    Add announcement section to README.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Inform people of the change to the branch structure.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-12 13:07:46 +0000 UTC
     </div>
 </div>
 
