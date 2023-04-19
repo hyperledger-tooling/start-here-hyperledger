@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/73" class=".btn">#73</a>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/74" class=".btn">#74</a>
             </td>
             <td>
                 <b>
-                    add LRU cache for transaction info
+                    include from field on eth_call
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
                 
             </td>
             <td>
-                 - also removes unused TTL config option
+                calling `query` function on a contract API is always resulting in `sender` being passed as `0x0` because the `from` field is not included in the RPC call.
 
-closes #70 
+If `options.from` is provided to firefly core, it is being passed down to evmconnect but it is not being included in the RPC call in the case where the type is `query`. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-06 20:41:05 +0000 UTC
+        Created At 2023-04-14 00:17:18 +0000 UTC
     </div>
 </div>
 

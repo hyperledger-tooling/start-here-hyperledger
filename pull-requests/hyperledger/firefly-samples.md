@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-samples/pull/53" class=".btn">#53</a>
+                PR <a href="https://github.com/hyperledger/firefly-samples/pull/54" class=".btn">#54</a>
             </td>
             <td>
                 <b>
-                    Add a sample to showcase how to use Firefly to mint tokens on public chain
+                    update the node.js code setup for existing sample
                 </b>
             </td>
         </tr>
@@ -27,24 +27,14 @@ permalink: /pull-requests/hyperledger/firefly-samples
                 
             </td>
             <td>
-                PR to propose making sample in this repo more use-case / demo driven: https://github.com/hyperledger/firefly-samples/pull/52#issuecomment-1484959925
-
-We already have two repos contains example code of how to talk to a Firefly system using node.js code:
-https://github.com/hyperledger/firefly-sdk-nodejs/tree/main/examples
-https://github.com/hyperledger/firefly-sandbox
-
-And as those two repos all contain live code that people use, the code in those repos is more up-to-date than the ones in this sample repo. Therefore, I feel unless we find a distinct purpose that is different from those two repos, it's not going to be a motivating job to maintain code in this repo.
-
-One motivation I feel could work is, we use this repo to record demoable development tasks / use cases. These can be common use cases that we demo to new contributors or web3 developers.
-
-https://github.com/nguyer/global-forum-2022-firefly-workshop is what triggered the thought above ^^ 
-
-@awrichar @nguyer @peterbroadhurst @shorsher @matthew1001 please share your thoughts on this. 
+                - Cleaned up the logs
+- update env var command to use jq to set the address automatically
+- renamed files
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-31 16:10:03 +0000 UTC
+        Created At 2023-04-18 07:12:30 +0000 UTC
     </div>
 </div>
 

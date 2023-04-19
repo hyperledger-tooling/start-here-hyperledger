@@ -14,6 +14,108 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2216" class=".btn">#2216</a>
+            </td>
+            <td>
+                <b>
+                    [ci-skip] Ansible decoupling for create/users
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Primary Changes
+--------------
+1. Updated ca-tools chart
+2. Updated ca-tool tpl file
+3. Updated platforms/hyperledger-fabric/configuration/roles/create/ca-tools/peer role
+4. Deleted platforms/hyperledger-fabric/configuration/roles/create/users role
+
+Modifications in roles and tpl files
+-----------------------
+platforms/hyperledger-fabric/configuration/roles/create/ca-tools/peer/Readme.md 
+platforms/hyperledger-fabric/configuration/roles/create/ca-tools/peer/tasks/main.yaml 
+platforms/hyperledger-fabric/configuration/roles/create/users/Readme.md 
+platforms/hyperledger-fabric/configuration/roles/helm_component/templates/ca-tools.tpl
+
+Modifications in charts
+-------------------------
+platforms/hyperledger-fabric/charts/catools/templates/configmap.yaml 
+platforms/hyperledger-fabric/charts/catools/templates/deployment.yaml 
+platforms/hyperledger-fabric/charts/catools/values.yaml
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-18 07:08:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2215" class=".btn">#2215</a>
+            </td>
+            <td>
+                <b>
+                    [chore] Correct spelling
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-14 17:07:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2214" class=".btn">#2214</a>
+            </td>
+            <td>
+                <b>
+                    [chore] : rename shared roles
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Change log**
+
+- Renamed shared roles from platform/shared/configuration/roles/create/shared_helm_component to helm_component.
+- Renamed shared roles from platform/shared/configuration/roles/create/shared_k8s_secrets to k8s_secrets.
+- Renamed shared roles from platform/shared/configuration/roles/delete/shared_k8s_secrets to k8s_secrets.
+
+Fixes: https://github.com/hyperledger/bevel/issues/2129
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-14 13:54:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2211" class=".btn">#2211</a>
             </td>
             <td>
@@ -91,111 +193,6 @@ Fix typo in k8s_secret role
     </table>
     <div class="right-align">
         Created At 2023-04-12 17:20:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2208" class=".btn">#2208</a>
-            </td>
-            <td>
-                <b>
-                    [docs] updated contribution.md with create local branch & directory structure
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Change log**
-
-Update Contribution.md by adding create local branch & directory structure section
-
-Fixes #2131 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-11 17:00:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2207" class=".btn">#2207</a>
-            </td>
-            <td>
-                <b>
-                    [ci-skip] move common delete network roles
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                 **Change log**
-  Move common delete roles to shared folder
-  Update shared playbook names
-  Update site.yaml with better indentation
-  Refactor logic to delete flux resources
-  Docker username validation fix, add "-" in regex
-
-Fixes: #2157 #2206 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-11 11:02:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2204" class=".btn">#2204</a>
-            </td>
-            <td>
-                <b>
-                    [ci-skip] reset fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">fabric</span>
-            </td>
-            <td>
-                Changes:
- Updated the reset-network.yaml to have new roles under roles/delete, there new roles would delete  the  cluster roles, clusterrolebindings, patch and delete gitrepositories, patch and delete kustomizations, helm charts, helm releases and the namespaces
-
-         "delete/clusterrole"
-         "delete/clusterrolebindings"
-         "delete/gitrepositories"
-         "delete/kustomization" 
-         "delete/helm_charts"
-         "delete/helm_releases"
-         "delete/organizations_namespaces"
-         "delete/flux_namespaces"
-
-Reviewers:
-@suvajit-sarkar @sownak @jagpreetsinghsasan 
-
-Fixes:
-#2157 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-10 11:32:46 +0000 UTC
     </div>
 </div>
 

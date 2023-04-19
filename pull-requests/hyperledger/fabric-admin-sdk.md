@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-admin-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/115" class=".btn">#115</a>
+                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/116" class=".btn">#116</a>
             </td>
             <td>
                 <b>
-                    impl for get block from orderer
+                    try to enhanceCI
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-admin-sdk
                 
             </td>
             <td>
-                Hope by this PR we can support get block from orderer.
+                Try to update CI to avoid error from ginkgo.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-04 15:30:26 +0000 UTC
+        Created At 2023-04-16 01:35:27 +0000 UTC
     </div>
 </div>
 

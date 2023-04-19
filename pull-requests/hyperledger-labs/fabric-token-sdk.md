@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/467" class=".btn">#467</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/468" class=".btn">#468</a>
             </td>
             <td>
                 <b>
-                    fabric2.5, go1.20, various improvements...
+                    compute the sum of the outputs over those in the same action.
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
                 
             </td>
             <td>
-                This PR brings in Fabric 2.5 and go1.20.
-In addition, the PR brings the following improvements:
+                The code was picking outputs from any action.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-05 07:33:31 +0000 UTC
+        Created At 2023-04-19 06:51:05 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,122 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/808" class=".btn">#808</a>
+            </td>
+            <td>
+                <b>
+                    unit tests for credential_schema::Schema
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - fixes #775 
+- added tests for the functions `to_string_versioned`, `from_string_versioned`, `get_schema_id` 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-18 12:32:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/806" class=".btn">#806</a>
+            </td>
+            <td>
+                <b>
+                    Move post_message to shared_vcx  #772
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Issue #772 - Move out post_message to shared_vcx
+
+Move the code to shared_vcx instead
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-17 10:36:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/805" class=".btn">#805</a>
+            </td>
+            <td>
+                <b>
+                    Release 0.54.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-14 06:50:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/804" class=".btn">#804</a>
+            </td>
+            <td>
+                <b>
+                    Regression: Fix dependency tree when using aries_vcx_core
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                apologies, I should have manually checked this when approving the core PR.
+
+But since the aries_vcx_core crate was being pulled in without opting out of default features, this means that the aries_vcx crate now has no way to opt-out of depending on vdrtools.
+
+This fix addresses that regression whilst keeping vdrtools as the default flag (should not affect consumers who are happy with the default vdrtools flag)
+
+
+I also fix some of regressions in certain indy elements which should remain to be hidden behind the vdrtools.
+
+also added a CI step to check the aries_vcx compiles with some of the common feature flags
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-13 22:15:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/803" class=".btn">#803</a>
             </td>
             <td>
@@ -229,119 +345,6 @@ Fixes #795
     </table>
     <div class="right-align">
         Created At 2023-04-12 17:26:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/798" class=".btn">#798</a>
-            </td>
-            <td>
-                <b>
-                    Separate core into a standalone crate
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Relocates `BaseLedger`,` BaseAnonCreds`, `BaseWallet` trait definitions and their corresponding implementations (including the `indy` module and related `utils`) into a distinct crate called `aries_vcx_core`. As a result, `aries-vcx` now depends on `indy-vdr`, `indy-credx`, and  `libvdrtools` indirectly through this new crate, which doesn't reexport any of them.
-
-The primary objective of this pull request is the separation of these components, and no additional efforts were made to enhance the codebase beyond this specific aim.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-11 17:18:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/797" class=".btn">#797</a>
-            </td>
-            <td>
-                <b>
-                    Remove deps in `aries-vcx`: `env_logger`, `android_logger`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - `aries-vcx` should not specify `log` implementation, removed `env_logger` as well as android build dependency `android_logger`
-- similar changes in other crates as well
-- added `env_logger` to `vcx-napi-rs` along with its initialization (same as previously in `aries-vcx`) 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-11 07:41:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/796" class=".btn">#796</a>
-            </td>
-            <td>
-                <b>
-                    Remove unnecessary dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Removed unused dependencies across the board
-- `vdrtools`: Remove unused ffi wallet declarations (in `libvdrtools/indy-api-types/src/lib.rs`) and unsupported function for wallet plugin registration `register_wallet_storage`
-- Removed commented tests in vdrtools
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-10 20:13:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/794" class=".btn">#794</a>
-            </td>
-            <td>
-                <b>
-                    Remove proof verifier legacy format deserialization support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - As planned in https://github.com/hyperledger/aries-vcx/pull/770 next release won't support legacy format of serialized verifier proofs. 
-
-- Follow migration guide in the PR linked above using aries-vcx `0.53.0` to reserialize your verifier proofs to the new format. The next `aries-vcx` release `0.54.0` will not support non-migrated verifier proofs created by `aries-vcx` `0.52.x` or older.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-10 17:41:17 +0000 UTC
     </div>
 </div>
 

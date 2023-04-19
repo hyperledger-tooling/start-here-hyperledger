@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/62" class=".btn">#62</a>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/65" class=".btn">#65</a>
             </td>
             <td>
                 <b>
-                    Expose the mock provider for other packages to use in tests
+                    feat: Add mTLS configuration for ffresty
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/firefly-common
                 
             </td>
             <td>
-                <nil>
+                Adding the ability to supply a config to the ffresty client to setup TLS and mTLS.
+
+**NOTE** This changes the interface of that init function to now return an error as well, so every consumer of this library and that client on update will need to handle that error. We could avoid doing this by allowing the user to provide a TLS Config as an argument but the pattern seems to be to provide viper config!
+
+For testing I added a series of real and fake certificates and keys. I also explore standing up an mTLS mock server with the `httptest` but it proved cumbersome. I think validating that the correct certificates are added to the TLS Config should be good enough but happy to rectify
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-30 08:26:29 +0000 UTC
+        Created At 2023-04-19 10:03:58 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +44,11 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/61" class=".btn">#61</a>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/64" class=".btn">#64</a>
             </td>
             <td>
                 <b>
-                    Add `APIServer` utility, `showconf` Cobra command, and debug server
+                    Add "networkName" and "published" to FFI fields
                 </b>
             </td>
         </tr>
@@ -53,21 +57,14 @@ permalink: /pull-requests/hyperledger/firefly-common
                 
             </td>
             <td>
-                More items that can become common and avoid boilerplate in microservices built on this framework:
-- A fully fledged `APIServer` that gives an opinionated way to run an API Server
-   - Builds on the `httpserver` and `ffapi.Route`/`ffapi.Handler` framework making some opinionated decisions
-   - Uses generics to allow you to pass through a single `manager` instance, or generate a context struct for each request
-   - Includes metrics using the new metrics utilities recently added to common
-- Cobra command for `showconfig` that you can just add to your root command
-- Function to run the debug server with consistent config
+                These will be needed as part of https://github.com/hyperledger/firefly/issues/1220, based on its current trajectory. See notes there for an overview of plans and unanswered questions.
 
-Example of the code needed now to create an API Server:
-https://github.com/hyperledger/firefly-common/blob/e6af84602ced0f11c35c2e8efbbd2ef287e2d702/pkg/ffapi/apiserver_test.go#L99-L113
+The argument could be made that these fields may or may not belong in the base `fftypes.FFI` struct, and that some of this info is metadata specific to the functionality in FireFly core, and that perhaps the FFI type should be wrapped there. That would generate more work, but I wasn't sure how "pure" we want to be about adding extra fields to this struct.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-29 08:27:37 +0000 UTC
+        Created At 2023-04-17 21:03:21 +0000 UTC
     </div>
 </div>
 
