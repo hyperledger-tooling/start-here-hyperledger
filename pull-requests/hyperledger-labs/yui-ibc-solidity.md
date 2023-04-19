@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/176" class=".btn">#176</a>
+            </td>
+            <td>
+                <b>
+                    Comply with ibc-go v7
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                * 03-connection: add verifyConsensusState support
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-19 08:43:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/175" class=".btn">#175</a>
             </td>
             <td>

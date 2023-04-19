@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/128" class=".btn">#128</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/131" class=".btn">#131</a>
             </td>
             <td>
                 <b>
-                    Retry logic for blockchain calls
+                    Add REST call and event batch size metrics
                 </b>
             </td>
         </tr>
@@ -27,16 +27,68 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
                 
             </td>
             <td>
-                Closes https://github.com/hyperledger/firefly-tokens-erc20-erc721/issues/126 
-
-PR https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/122 discussed the idea of retrying token URI lookup calls but in the end it was decided it was out of scope.
-
-The changes in this PR are an attempt to provide a pragmatic approach to making any blockchain calls (which will include those driven by `tokenURI()`) retryable based on whether a given blockchain call returns an error that matches the configured regex pattern. For example setting the pattern to `.*ECONNREFUSED.*` causes the blockchain call to retry after a back-off delay.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-27 13:24:11 +0000 UTC
+        Created At 2023-04-18 14:04:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/130" class=".btn">#130</a>
+            </td>
+            <td>
+                <b>
+                    Add REST call and event batch size metrics
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes https://github.com/hyperledger/firefly-tokens-erc20-erc721/issues/89
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-18 07:55:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/129" class=".btn">#129</a>
+            </td>
+            <td>
+                <b>
+                    Encode the values passed in "poolData"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This ensures that the special character ":" (in particular) will be properly escaped.
+
+Also, send "poolData" back in pool creation/activation events (instead of only in transfers/approvals).
+
+See also https://github.com/hyperledger/firefly-tokens-erc1155/pull/119
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-17 15:45:26 +0000 UTC
     </div>
 </div>
 

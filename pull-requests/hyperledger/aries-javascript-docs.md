@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/114" class=".btn">#114</a>
+                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/115" class=".btn">#115</a>
             </td>
             <td>
                 <b>
-                    docs: Add cheqd setup instructions
+                    fix: various spell and typo fixes
                 </b>
             </td>
         </tr>
@@ -32,37 +32,7 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-11 10:34:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/113" class=".btn">#113</a>
-            </td>
-            <td>
-                <b>
-                    docs: updates for 0.4.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Several updates for the 0.4.0 release.
-
-Specifically it removes the agent config options that have been removed in 0.4.0 and documents missing / new config options.
-
-Fixes #112 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-10 10:09:45 +0000 UTC
+        Created At 2023-04-16 15:33:54 +0000 UTC
     </div>
 </div>
 

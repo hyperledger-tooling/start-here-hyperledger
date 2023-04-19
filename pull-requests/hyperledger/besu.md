@@ -139,8 +139,8 @@ Remove the merge block processor as block rewards are already disabled in the pr
 
 Testing that syncing still works
 - [x] Local test using Beku
-- [ ] Bonsai snapsync on Goerli
-- [ ] Bonsai snapsync on Sepolia
+- [x] Bonsai snapsync on Goerli
+- [x] Bonsai snapsync on Sepolia
 - [ ] Bonsai snapsync on Mainnet
 
 ## Fixed Issue(s)
@@ -555,92 +555,6 @@ Ambiguity
     </table>
     <div class="right-align">
         Created At 2023-04-12 20:15:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5335" class=".btn">#5335</a>
-            </td>
-            <td>
-                <b>
-                    Update OpenJ9 Docker image
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Update OpenJ9 docker image to Ubuntu 22.04 as a base image.
-I have different performance results depending on the OS. OpenJ9 x86_64 docker image has better block processing time that running natively Besu with a Hotspot JVM. The screenshots below are from AWS instances m6a.2xlarge
-
-![image](https://user-images.githubusercontent.com/5099602/232448468-d673a01d-8a78-4525-b5a7-e7ddabc445e9.png)
-
-OpenJ9 JVM demonstrates significantly lower memory usage compared to HotSpot JVM, resulting in a reduction of 6 GiB in this particular scenario.
-
-![image](https://user-images.githubusercontent.com/5099602/232454738-4c6b4c02-abfe-4c69-96d5-8a50b7cf3c29.png)
-
-
-OpenJ9 aarch64 docker image block processing is 6% slower than a hotspot docker image (on aarch64). 
-
-![image](https://user-images.githubusercontent.com/5099602/232451707-a5d30b2b-1983-47de-9a0a-5ab0bfca2928.png)
-
-Despite the HotSpot JVM's ability to free up memory, OpenJ9 still showcases very low memory usage on aarch64 architecture. Although HotSpot has caught up with OpenJ9 and now consumes a similar amount of memory, OpenJ9 remains a solid choice for those looking to minimize their memory footprint.
-
-![image](https://user-images.githubusercontent.com/5099602/232455019-8c88fe6f-c1ed-4805-bd8c-9834ede234b0.png)
-
-## Fixed Issue(s)
-https://github.com/hyperledger/besu/issues/5327
-
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-12 10:14:15 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5334" class=".btn">#5334</a>
-            </td>
-            <td>
-                <b>
-                    Update version to 23.4.0-SNAPSHOT
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Update main version to 23.4.0-SNAPSHOT ready for the next release so we can use 23.1.3-SNAPSHOT on the [release-23.1.x](https://github.com/hyperledger/besu/tree/release-23.1.x) branch
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-12 08:16:48 +0000 UTC
     </div>
 </div>
 
