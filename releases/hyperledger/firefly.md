@@ -15,6 +15,34 @@ permalink: /releases/hyperledger/firefly
         <tr>
             <td colspan="2">
                 <b>
+                    PreRelease with PUT fix
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v1.2.0-2023-04-19-001
+                </span>
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly/releases/tag/v1.2.0-2023-04-19-001" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-04-17 19:42:55 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v1.1.4
                 </b>
             </td>
