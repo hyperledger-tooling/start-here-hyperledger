@@ -1,13 +1,13 @@
 
-[4170](https://github.com/hyperledger/fabric/pull/4170) chore(ci): move to dedicated Fabric runners
+[383](https://github.com/hyperledger-labs/blockchain-explorer/pull/383) chaincode metadata changes added
 
-[1280](https://github.com/hyperledger/solang/pull/1280) chore(ci): switch to dedicated Solang runners
+[76](https://github.com/hyperledger-labs/hlf-connector/pull/76) Handle Transaction write requests that can contain multiple Private Data or Public data details
 
-[4169](https://github.com/hyperledger/fabric/pull/4169) Update dependencies (release-2.2)
+[175](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/175) 02-client, 05-port: Disallow self address registration
 
-[3395](https://github.com/hyperledger/iroha/pull/3395) [tests]: Remove false negatives from coverage
+[75](https://github.com/hyperledger-labs/hlf-connector/pull/75) Increment version after release
 
-[3394](https://github.com/hyperledger/iroha/pull/3394) [fix] #3393: Break communication deadlock loop in actors
+[4171](https://github.com/hyperledger/fabric/pull/4171) Update dependencies (release-2.2)
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

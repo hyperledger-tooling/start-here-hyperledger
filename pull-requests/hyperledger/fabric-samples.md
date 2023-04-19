@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1023" class=".btn">#1023</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1024" class=".btn">#1024</a>
             </td>
             <td>
                 <b>
-                    fixed test-network-k8s/scripts/test_network.sh missing  ${NGINX_HTTPS…
+                    fixed test-network-k8s/scripts/test_network.sh missing 
                 </b>
             </td>
         </tr>
@@ -27,13 +27,20 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                fixed test-network-k8s/scripts/test_network.sh missing  ${NGINX_HTTPS}
-fixed test-network-k8s/scripts/channel.sh missing  ${NGINX_HTTPS}
+                Hi, 
+
+I added ${NGINX_HTTPS_PORT} at test-network-k8s/scripts/test_network.sh and test-network-k8s/scripts/channel.sh. When I run test-network-k8s/network with setting NGINX_HTTPS_PORT=31401, I encounter bugs that fabric-ca-client still request for the port 443.
+
+Error: POST failure of request: POST https://org0-ca.zlpt.com/register
+{"id":"org0-orderer2","type":"orderer","secret":"ordererpw","affiliation":""}: Post "https://org0-ca.zlpt.com/register": dial tcp 127.0.0.1:443: connect: connection refused
+
+Now, everything works fine.
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-15 07:55:03 +0000 UTC
+        Created At 2023-04-19 02:40:23 +0000 UTC
     </div>
 </div>
 
