@@ -1,5 +1,5 @@
 
-[v1.2.3-metrics-18042023.1](https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v1.2.3-metrics-18042023.1) Metrics test
+[v1.2.3-metrics19042023-1](https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v1.2.3-metrics19042023-1) 
 
 [v1.1.4](https://github.com/hyperledger/firefly/releases/tag/v1.1.4) v1.1.4
 
