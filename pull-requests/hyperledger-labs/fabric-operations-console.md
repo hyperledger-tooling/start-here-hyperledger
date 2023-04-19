@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/455" class=".btn">#455</a>
+            </td>
+            <td>
+                <b>
+                    improve doc on audit logs and changing settings
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Documentation update
+
+#### Description
+Update markdown docs on the how to enable/disable activity tracker logs and added some lines about the basic console setting APIs.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-19 17:11:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/454" class=".btn">#454</a>
             </td>
             <td>
@@ -261,44 +295,6 @@ More speed/network improvements to minimize requests made by the front end.
     </table>
     <div class="right-align">
         Created At 2023-04-12 19:31:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/446" class=".btn">#446</a>
-            </td>
-            <td>
-                <b>
-                    fix join peer to channel regression
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-- Doc update
-
-#### Description
-- Fixes the client side error when joining a peer to a channel introduced in build -40.
-- adds new client side timeout
-- updates stitch documentation from changes added by build -40
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-12 16:03:55 +0000 UTC
     </div>
 </div>
 

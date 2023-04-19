@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5369" class=".btn">#5369</a>
+            </td>
+            <td>
+                <b>
+                    Show correct revert reason data in priv_call
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+priv_call was showing incorrect error -"invalid params" even when execution is reverted. PR fixes to show correct error - "REVERT_ERROR" and show correct revert reason data
+
+## Fixed Issue(s)
+https://github.com/hyperledger/besu/issues/5223
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-19 15:49:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5361" class=".btn">#5361</a>
             </td>
             <td>
