@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4170" class=".btn">#4170</a>
+            </td>
+            <td>
+                <b>
+                    chore(ci): move to dedicated Fabric runners
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This moves Fabric from a cluster of runners to a dedicated Fabric set
+
+#### Type of change
+
+- CI
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-19 00:42:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4169" class=".btn">#4169</a>
+            </td>
+            <td>
+                <b>
+                    Update dependencies (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update dependencies to match the known good levels in release-2.5. This will simplify maintenance and support between the two LTS releases.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-18 22:38:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4168" class=".btn">#4168</a>
             </td>
             <td>

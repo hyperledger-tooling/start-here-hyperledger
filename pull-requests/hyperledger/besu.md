@@ -66,6 +66,7 @@ permalink: /pull-requests/hyperledger/besu
 ## PR description
 
 ## Fixed Issue(s)
+See #5350 
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
             </td>
@@ -90,7 +91,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                <span class="chip">logging</span>
+                <span class="chip">mainnet</span><span class="chip">logging</span>
             </td>
             <td>
                 When Besu is restarted after running for a few days the startup can appear to be stuck:
@@ -540,7 +541,7 @@ This PR cleans up the besu rocksDB plugin removing all the `maxBackgroundCompact
         </tr>
         <tr>
             <td>
-                <span class="chip">doc-change-required</span>
+                
             </td>
             <td>
                 ## PR description
