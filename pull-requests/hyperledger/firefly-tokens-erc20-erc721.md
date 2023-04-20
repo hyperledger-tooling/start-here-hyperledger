@@ -40,32 +40,6 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/130" class=".btn">#130</a>
-            </td>
-            <td>
-                <b>
-                    Add REST call and event batch size metrics
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes https://github.com/hyperledger/firefly-tokens-erc20-erc721/issues/89
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-18 07:55:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/129" class=".btn">#129</a>
             </td>
             <td>

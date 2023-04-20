@@ -120,30 +120,3 @@ So here we are removing all references to RevocationRegistryDelta from both JS a
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/189" class=".btn">#189</a>
-            </td>
-            <td>
-                <b>
-                    fix(build): use cross for lower glibc compatibility
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-13 07:48:58 +0000 UTC
-    </div>
-</div>
-
