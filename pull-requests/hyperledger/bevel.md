@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2218" class=".btn">#2218</a>
+            </td>
+            <td>
+                <b>
+                    [ci-skip] Pods crashes post Kubernetes cluster nodes are restarted
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Primary Changes
+--------------
+1. Fixed permission denied error for vault.
+2. Fixed vault-auth bug 
+3. Fixed removal of vault policies for r3-corda
+
+Modifications in roles and tpl files
+-----------------------
+platforms/quorum/configuration/roles/create/k8_component/templates/reviewer_rbac.tpl 
+platforms/r3-corda-ent/configuration/roles/create/k8_component/templates/reviewer_rbac.tpl 
+platforms/r3-corda/configuration/roles/create/k8_component/templates/reviewer_rbac.tpl 
+platforms/r3-corda/configuration/roles/delete/vault_secrets/tasks/nested_main.yaml
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-20 06:48:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2216" class=".btn">#2216</a>
             </td>
             <td>
@@ -109,62 +146,6 @@ Fixes: https://github.com/hyperledger/bevel/issues/2129
     </table>
     <div class="right-align">
         Created At 2023-04-14 13:54:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2211" class=".btn">#2211</a>
-            </td>
-            <td>
-                <b>
-                    [ci-skip] add delete for releases with org-namespace folder names
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Change log**
-
-- add delete for releases with org-namespace folder names
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-13 11:47:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2210" class=".btn">#2210</a>
-            </td>
-            <td>
-                <b>
-                    [docs] update the readme and docs with updated playbook names
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Change log**
-Fix add org playbook with new playbook names
-Fix typo in k8s_secret role
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-13 07:24:16 +0000 UTC
     </div>
 </div>
 

@@ -534,34 +534,3 @@ Update to request logs in the issue template
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5340" class=".btn">#5340</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] Remove ENGINE_EXECUTE_PAYLOAD
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span><span class="chip">mainnet</span>
-            </td>
-            <td>
-                Think this was renamed to engine_newPayloadV1 so not actually used by anything currently
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Fixes https://github.com/hyperledger/besu/issues/5336
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-13 06:44:18 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3401" class=".btn">#3401</a>
+            </td>
+            <td>
+                <b>
+                    [refactor]: Disable wasmtime cache
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+This created permission problems for devops
+It's being removed as unnecessary ATM 
+
+### Linked issue
+
+Revert a change in  #3106 that enabled `wasmtime` cache. 
+Whether this should be implemented is to be investigated in #3400
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-20 09:28:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3399" class=".btn">#3399</a>
             </td>
             <td>
@@ -385,33 +442,6 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
     </table>
     <div class="right-align">
         Created At 2023-04-14 11:31:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3377" class=".btn">#3377</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #3330: Fix `untagged` enum de-serialization with `u128` leaves
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Backport of fix to LTS
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-13 10:09:13 +0000 UTC
     </div>
 </div>
 
