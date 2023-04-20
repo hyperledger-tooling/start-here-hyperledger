@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5371" class=".btn">#5371</a>
+            </td>
+            <td>
+                <b>
+                    Retire ECIP-1049 network
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+With the [withdraw](https://github.com/ethereumclassic/ECIPs/pull/486) of ECIP-1049 we can remove the network meant for testing.
+This PR also removes Keccak pow/hasher but I'm good with keeping those.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-20 00:13:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5369" class=".btn">#5369</a>
             </td>
             <td>
@@ -24,7 +52,7 @@ permalink: /pull-requests/hyperledger/besu
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">privacy</span><span class="chip">non mainnet (private networks)</span>
             </td>
             <td>
                 ## PR description
@@ -554,37 +582,6 @@ This PR cleans up the besu rocksDB plugin removing all the `maxBackgroundCompact
     </table>
     <div class="right-align">
         Created At 2023-04-13 02:30:49 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5337" class=".btn">#5337</a>
-            </td>
-            <td>
-                <b>
-                    Updating confusing --bonsai-maximum-back-layers-to-load option to --bonsai-historical-block-limit + remove deprecated snapshots config 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Changed the mentioned flags. Alias used to keep backwards compatibility. Also removed now deprecated snapshots option. 
-
-## Fixed Issue(s)
-Ambiguity 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-12 20:15:36 +0000 UTC
     </div>
 </div>
 
