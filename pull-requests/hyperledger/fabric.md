@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4176" class=".btn">#4176</a>
+            </td>
+            <td>
+                <b>
+                    Re-add Go to fabric-tools image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Since the images are no longer based on the golang alpine images, need to manually install go to the fabric-tools image. go is needed for users that use fabric-tools image to package go chaincodes.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-19 19:06:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4175" class=".btn">#4175</a>
             </td>
             <td>

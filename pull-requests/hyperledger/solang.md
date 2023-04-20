@@ -381,29 +381,3 @@ I *think* `Rational<usize>` will suffice but I chicked out and used BigRational 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1268" class=".btn">#1268</a>
-            </td>
-            <td>
-                <b>
-                    Disallow dynamic arrays for account metas
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Account metas do not support dynamic arrays and we do not inform that to the user.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-12 21:57:15 +0000 UTC
-    </div>
-</div>
-
