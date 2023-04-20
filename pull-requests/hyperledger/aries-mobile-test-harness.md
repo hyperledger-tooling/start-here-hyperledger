@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/151" class=".btn">#151</a>
-            </td>
-            <td>
-                <b>
-                    Feature/remove contact test dev
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                One working BC Wallet Test Scenario for Remove Contact. Others are stubbed into the feature file but will remain WIP until the Contacts UI is reworked. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-13 14:40:17 +0000 UTC
-    </div>
-</div>
-
