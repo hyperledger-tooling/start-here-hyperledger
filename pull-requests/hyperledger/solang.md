@@ -355,29 +355,3 @@ I *think* `Rational<usize>` will suffice but I chicked out and used BigRational 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1269" class=".btn">#1269</a>
-            </td>
-            <td>
-                <b>
-                    Rename more unchecked to overflowing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Recently unchecked was renamed overflowing in CFG. A few renames were missed.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-13 15:04:39 +0000 UTC
-    </div>
-</div>
-

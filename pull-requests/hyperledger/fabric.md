@@ -388,29 +388,3 @@ Epic: #3511
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4161" class=".btn">#4161</a>
-            </td>
-            <td>
-                <b>
-                    chore(ci): try new builers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-13 14:43:09 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1025" class=".btn">#1025</a>
+            </td>
+            <td>
+                <b>
+                    Fix erc-1155 sample README
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Instructions to setup the environment aren't quite right. This fixes it.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-20 12:32:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/1024" class=".btn">#1024</a>
             </td>
             <td>
@@ -52,7 +78,7 @@ Now, everything works fine.
             </td>
             <td>
                 <b>
-                    chaincode-typescript
+                    Add private data chaincode-typescript
                 </b>
             </td>
         </tr>
@@ -73,33 +99,6 @@ Kind regards
     </table>
     <div class="right-align">
         Created At 2023-04-14 14:32:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1021" class=".btn">#1021</a>
-            </td>
-            <td>
-                <b>
-                    chore(ci): use dedicated Fabric runners
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-Signed-off-by: Ry Jones <ry@linux.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-13 15:16:51 +0000 UTC
     </div>
 </div>
 
