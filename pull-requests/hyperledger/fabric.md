@@ -434,35 +434,3 @@ Fix typo regarding the current LTS release in README
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4157" class=".btn">#4157</a>
-            </td>
-            <td>
-                <b>
-                    Add docs for 'ledgerutil verify'
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Documentation update
-
-#### Description
-
-This is a backport of #4098 to release-2.5, fixing the failed automated backport #4153.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-13 05:27:01 +0000 UTC
-    </div>
-</div>
-

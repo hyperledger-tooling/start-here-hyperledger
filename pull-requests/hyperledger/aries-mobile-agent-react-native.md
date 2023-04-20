@@ -14,11 +14,66 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/720" class=".btn">#720</a>
+            </td>
+            <td>
+                <b>
+                    feat: oca package
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Based off ot PR #688. This PR adds the classes and interfaces required by the OCA resolver.
+
+# Summary of Changes
+
+- Data interfaces to map between OCA JSON and OCA TS classes
+- OCA TS classes
+- Utility functions used by OCA TS classes
+
+# Related Issues
+
+N/A
+
+# Pull Request Checklist
+
+Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
+
+- [ ] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [ ] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [ ] Updated documentation as needed for changed code and new or modified features;
+- [ ] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+Pro Tip 🤓
+
+- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-19 19:18:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/719" class=".btn">#719</a>
             </td>
             <td>
                 <b>
-                    fix: Use credential definition id as restriction for request templates
+                    fix: use credential definition id as restriction for request templates
                 </b>
             </td>
         </tr>
@@ -137,10 +192,10 @@ Please reference here any issue #'s that are relevant to this PR, or simply ente
 
 Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
 
-- [ ] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
-- [ ] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
-- [ ] Updated documentation as needed for changed code and new or modified features;
-- [ ] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [x] Updated documentation as needed for changed code and new or modified features;
+- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
 
 If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
 
@@ -167,7 +222,7 @@ _PR template adapted from the Python attrs project._
             </td>
             <td>
                 <b>
-                    Feature/remote oca
+                    feat: load remote OCA bundle 
                 </b>
             </td>
         </tr>

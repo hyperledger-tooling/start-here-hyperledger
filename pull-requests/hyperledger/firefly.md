@@ -285,7 +285,7 @@ Depends on https://github.com/hyperledger/firefly-common/pull/64
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">backport-candidate</span>
             </td>
             <td>
                 Resolves https://github.com/hyperledger/firefly/issues/1274
@@ -359,32 +359,6 @@ So this PR proposes:
     </table>
     <div class="right-align">
         Created At 2023-04-14 00:04:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1269" class=".btn">#1269</a>
-            </td>
-            <td>
-                <b>
-                    Try out large runners to see if they are faster.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                We are in a beta for large runners, and I want to see if this workflow is faster using them.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-12 15:28:02 +0000 UTC
     </div>
 </div>
 

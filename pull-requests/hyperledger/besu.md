@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5372" class=".btn">#5372</a>
+            </td>
+            <td>
+                <b>
+                    Bonsai TrieLogFactory serializer/deserializer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This PR introduces a TrieLogFactory interface and default implementation that will allow for a pluggable implementation of bonsai trie log serialization and deserialization.  
+
+This pr also introduces a StorageSlotKey record type that enables accumulators and serializers to utilize slotKeys and/or slotKeyHashes when writing trieLogs.
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+related to protocol-misc # 755
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-20 01:42:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5371" class=".btn">#5371</a>
             </td>
             <td>
@@ -524,64 +562,6 @@ Fixes https://github.com/hyperledger/besu/issues/5336
     </table>
     <div class="right-align">
         Created At 2023-04-13 06:44:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5339" class=".btn">#5339</a>
-            </td>
-            <td>
-                <b>
-                    Remove RocksDb deprecated option maxBackgroundCompactions 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span><span class="chip">mainnet</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-This PR cleans up the besu rocksDB plugin removing all the `maxBackgroundCompactions` usage. Might be useful to get a following PR to introduce `maxBackgroundJobs` if we still want to support this type of customisation in the plugin
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-13 04:33:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5338" class=".btn">#5338</a>
-            </td>
-            <td>
-                <b>
-                    Set version as 23.1.3 and minor changelog update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-13 02:30:49 +0000 UTC
     </div>
 </div>
 

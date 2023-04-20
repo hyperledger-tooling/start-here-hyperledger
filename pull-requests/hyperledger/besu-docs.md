@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1310" class=".btn">#1310</a>
+            </td>
+            <td>
+                <b>
+                    Adding new attestations page, credit Amez/Ben.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Before creating the pull request
+
+Make sure that:
+
+- [X] [All commits in this PR are signed off for the DCO](https://wiki.hyperledger.org/display/BESU/DCO).
+- [X] You've read the [contribution guidelines](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [X] You've [previewed your changes locally](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation).
+
+## Describe the change
+
+Adding page for attestations and changing proof of stake structure. 
+
+- [ ] You've fixed any issues raised by the tests.
+- [ ] You've [previewed your changes on Read the Docs](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation)
+  and added a [preview link](#preview).
+
+## Preview
+
+<!-- Add the link to preview your changes on Read the Docs.
+
+The link format is "https://hyperledger-besu--{your PR number}.org.readthedocs.build/en/{your PR number}/",
+where {your PR number} is replaced by the number of this PR.
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-19 18:13:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1308" class=".btn">#1308</a>
             </td>
             <td>
@@ -311,35 +360,6 @@ where {your PR number} is replaced by the number of this PR.
     </table>
     <div class="right-align">
         Created At 2023-04-17 14:07:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1303" class=".btn">#1303</a>
-            </td>
-            <td>
-                <b>
-                    Adding new RPC endpoints that were not catalogued + RPC/engine API cleanup 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added: 
-* DEBUG_RESYNC_WORLDSTATE
-* DEBUG_GET_RAW_HEADER
-* DEBUG_GET_RAW_BLOCK
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-12 19:02:02 +0000 UTC
     </div>
 </div>
 
