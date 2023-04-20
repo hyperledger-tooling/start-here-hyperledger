@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/solang-llvm
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang-llvm/pull/17" class=".btn">#17</a>
-            </td>
-            <td>
-                <b>
-                    Use large Windows runner
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-12 17:00:37 +0000 UTC
-    </div>
-</div>
-
