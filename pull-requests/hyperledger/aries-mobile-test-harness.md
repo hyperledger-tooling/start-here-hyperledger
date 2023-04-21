@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/152" class=".btn">#152</a>
-            </td>
-            <td>
-                <b>
-                    BCW working revocation notification test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is a BC Wallet related PR that adds a working revocation notification test scenario. The remaining revocation notification scenario set to WIP is blocked by a bug in BC Wallet.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-14 16:11:52 +0000 UTC
-    </div>
-</div>
-
