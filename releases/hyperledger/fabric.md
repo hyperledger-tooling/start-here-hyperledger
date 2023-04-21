@@ -15,82 +15,62 @@ permalink: /releases/hyperledger/fabric
         <tr>
             <td colspan="2">
                 <b>
-                    v2.5.0
+                    v2.2.11
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.5.0
+                    v2.2.11
                 </span>
             </td>
             <td>
-                v2.5.0 Release Notes - March 31, 2023
-=====================================
-
-New features
-------------
-
-**Purge history of private data**
-
-While it has always been possible to delete private data from current state, this new feature enables purging the history of private data from a peer while preserving a hash of the private data as immutable evidence on the blockchain.
-* Useful for purging private data on demand for privacy reasons or to adhere to government regulations.
-* Deletes private data from state and from peer’s private data history so that it can no longer be queried from block events or from other peers.
-* Available as a new chaincode API `PurgePrivateData()`.
-* Requires setting application capability to `V2_5` in channel configuration
-
-For more details, see the [Private data documentation](https://hyperledger-fabric.readthedocs.io/en/release-2.5/private-data/private-data.html#purging-private-data).
-
+                v2.2.11 Release Notes - April 21, 2023
+======================================
 
 Improvements
 ------------
 
-**Multi-architecture binaries and docker images are now available**
+**peer - Log peer configuration upon startup**
 
-The release binaries and docker images have been updated as follows:
-* Support for amd64 and arm64.
-* Release binaries are statically linked for maximum portability.
-* Docker images utilize dynamically linked binaries and are now based on Ubuntu (rather than Alpine) to make them more consistent with typical production runtime environments (production runtime environments are typically based on glibc and often require dynamic linking of HSM modules).
-
-**Orderer configuration SendBufferSize now defaults to 100**
-
-Orderer configuration SendBufferSize default has changed from `10` to `100` to improve performance of large workloads.
-
-**Peer gateway service now supports seamless resumption of chaincode event listening**
-
-Client applications can now resume chaincode event listening after a disconnect and reconnect without receiving any duplicate or missing events.
-The client must specify an AfterTransactionId property in addition to a start block number when requesting chaincode events in order to ensure no duplicate or missing events are returned.
+Log effective peer configuration upon startup at info level.
+Also log peer environment variables at debug level to help troubleshoot the source of peer config.
+[#4122](https://github.com/hyperledger/fabric/pull/4122)
 
 
 Fixes
 -----
-All fixes as of v2.4.9 are also included in v2.5.0.
+
+**peer and orderer - Restore support for PKCS11 MSPs that contain RSA certificate authorities**
+
+While Fabric has never supported RSA for transaction signatures or validation,
+certificate authorities included in MSP definitions could be associated with
+RSA keys. This ability was inadvertently removed during the development of
+release 2.0 and prevented migration of some networks to a 2.x version.
+v2.2.2 added toleration for RSA public keys in CA certificates for the SW MSP implementation.
+This change adds toleration for RSA public keys in CA certificates for the PKCS11 MSP implementation.
+[#4128](https://github.com/hyperledger/fabric/pull/4128)
 
 
 Dependencies
 ------------
-Fabric v2.5.0 has been tested with the following dependencies:
-* Go 1.20.2
+
+Fabric v2.2.11 updates third party Go dependencies.
+
+Fabric v2.2.11 has been tested with the following dependencies:
+* Go 1.20.3
 * CouchDB v3.2.2
 
-Fabric docker images on dockerhub utilize Ubuntu 20.04.
-
+Fabric docker images on dockerhub utilize Alpine 3.16.
 
 Deprecations (existing)
 -----------------------
 
-**Ordering service system channel is deprecated**
-
-v2.3 introduced the ability to manage an ordering service without a system channel.
-Managing an ordering service without a system channel has privacy, scalability,
-and operational benefits. The use of a system channel is deprecated and may be removed in a future release.
-For information about removal of the system channel, see the [Create a channel without system channel documentation](https://hyperledger-fabric.readthedocs.io/en/release-2.3/create_channel/create_channel_participation.html).
-
 **FAB-15754: The 'Solo' consensus type is deprecated.**
 
 The 'Solo' consensus type has always been marked non-production and should be in
-use only in test environments; however, for compatibility it is still available,
+use only in test environments, however for compatibility it is still available,
 but may be removed entirely in a future release.
 
 **FAB-16408: The 'Kafka' consensus type is deprecated.**
@@ -105,7 +85,7 @@ Additionally, the fabric-kafka and fabric-zookeeper docker images are no longer 
 **Fabric CouchDB image is deprecated**
 
 v2.2.0 added support for CouchDB 3.1.0 as the recommended and tested version of CouchDB.
-If prior versions are utilized, a Warning will appear in the peer log.
+If prior versions are utilized, a Warning will appear in peer log.
 Note that CouchDB 3.1.0 requires that an admin username and password be set,
 while this was optional in CouchDB v2.x. See the
 [Fabric CouchDB documentation](https://hyperledger-fabric.readthedocs.io/en/v2.2.0/couchdb_as_state_database.html#couchdb-configuration)
@@ -120,7 +100,7 @@ Utilize the new 'OrdererEndpoints' stanza within the channel configuration of an
 Configuring orderer endpoints at the organization level accommodates
 scenarios where orderers are run by different organizations. Using
 this configuration ensures that only the TLS CA certificates of that organization
-are used for orderer communications; in contrast to the global channel level endpoints which
+are used for orderer communications, in contrast to the global channel level endpoints which
 would cause an aggregation of all orderer TLS CA certificates across
 all orderer organizations to be used for orderer communications.
 
@@ -128,7 +108,7 @@ all orderer organizations to be used for orderer communications.
 
 The `--outputAnchorPeersUpdate` mechanism for updating anchor peers has always had
 limitations (for instance, it only works the first time anchor peers are updated).
-Instead, anchor peer updates should be performed through channel configuration updates.
+Instead, anchor peer updates should be performed through the normal config update flow.
 
 **FAB-15406: The fabric-tools docker image is deprecated**
 
@@ -141,7 +121,7 @@ to Fabric runtime components, regardless of where the Fabric components are runn
 
 Block dissemination via gossip is deprecated and may be removed in a future release.
 Fabric peers can be configured to receive blocks directly from an ordering service
-node, and not gossip blocks, by using the following configuration:
+node by using the following configuration:
 ```
 peer.gossip.orgLeader: true
 peer.gossip.useLeaderElection: false
@@ -162,11 +142,11 @@ for chaincodes. For more details see the
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric/releases/tag/v2.5.0" class=".btn">
+    <a href="https://github.com/hyperledger/fabric/releases/tag/v2.2.11" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-04-01 16:43:17 +0000 UTC
+        Created At 2023-04-21 16:09:44 +0000 UTC
     </span>
 </div>
 
