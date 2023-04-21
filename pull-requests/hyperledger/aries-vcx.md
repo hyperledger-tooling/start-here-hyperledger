@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/809" class=".btn">#809</a>
+            </td>
+            <td>
+                <b>
+                    Unit test for enum SerializableObjectWithState
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix: #774 
+Add unit test for `serialization` and `deserialization` of enum ``SerializeableObjectWithState``.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-21 11:08:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/808" class=".btn">#808</a>
             </td>
             <td>
@@ -62,32 +89,6 @@ Move the code to shared_vcx instead
     </table>
     <div class="right-align">
         Created At 2023-04-17 10:36:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/805" class=".btn">#805</a>
-            </td>
-            <td>
-                <b>
-                    Release 0.54.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-14 06:50:46 +0000 UTC
     </div>
 </div>
 

@@ -486,36 +486,3 @@ See #5303
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5346" class=".btn">#5346</a>
-            </td>
-            <td>
-                <b>
-                    Improved error message when verifying enode syntax with xdns-enabled
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Improved error message when verifying enode syntax with xdns-enabled
-
-## Fixed Issue(s)
-https://github.com/hyperledger/besu/issues/2569
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-14 06:41:02 +0000 UTC
-    </div>
-</div>
-
