@@ -27,10 +27,24 @@ permalink: /pull-requests/hyperledger/besu
                 <span class="chip">mainnet</span>
             </td>
             <td>
-                ## Fixed Issue(s)
+                Some straight forward refactorings and tidy up
+
+- [x] Fold AbstractProtocolScheduleBuilder into ProtocolScheduleBuilder
+- [x] Tidy up WithdrawalsValidatorProvider
+- [x] Maybe no need to createSchedule inside JsonRpcMethodsFactory, as per https://github.com/hyperledger/besu/pull/5310#discussion_r1172086249
+- [x] Unify StreamingProtocolSchedules and extend UnifiedProtocolSchedule
+- [x] Rename UnifiedProtocolSchedule -> DefaultProtocolSchedule
+
+## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
-Fixes https://github.com/hyperledger/besu/issues/5354
+Part of https://github.com/hyperledger/besu/issues/5354
+
+## Testing
+
+- [x] local validator interop (beku-timestamp) with tx-fuzz
+- [x] near head checkpoint sync sepolia
+- [x] checkpoint sync sepolia
             </td>
         </tr>
     </table>
@@ -280,7 +294,7 @@ This PR adds this information to the log message to tell the user what is going 
             </td>
             <td>
                 <b>
-                    Remove merge block processor as block rewards are already disabled in protocol schedule
+                    Remove merge block processor as block rewards are already disabled for Paris and above in the protocol schedule
                 </b>
             </td>
         </tr>
@@ -293,13 +307,13 @@ This PR adds this information to the log message to tell the user what is going 
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
-Remove the merge block processor as block rewards are already disabled in the protocol schedule by using skipZeroBlockRewards=false and blockreward=0.
+Remove the merge block processor as block rewards are already disabled in the protocol schedule by using skipZeroBlockRewards=true and blockreward=0.
 
 Testing that syncing still works
 - [x] Local test using Beku
 - [x] Bonsai snapsync on Goerli
 - [x] Bonsai snapsync on Sepolia
-- [ ] Bonsai snapsync on Mainnet
+- [x] Bonsai snapsync on Mainnet
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -502,32 +516,6 @@ https://github.com/hyperledger/besu/issues/2569
     </table>
     <div class="right-align">
         Created At 2023-04-14 06:41:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5344" class=".btn">#5344</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] fix Javadoc
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add missing javadoc 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-14 01:18:33 +0000 UTC
     </div>
 </div>
 
