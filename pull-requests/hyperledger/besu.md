@@ -14,11 +14,40 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5375" class=".btn">#5375</a>
+            </td>
+            <td>
+                <b>
+                    Unified protocol schedule tidy up
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span>
+            </td>
+            <td>
+                ## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+Fixes https://github.com/hyperledger/besu/issues/5354
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-20 23:54:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5374" class=".btn">#5374</a>
             </td>
             <td>
                 <b>
-                    Fix NullPointerException on createPayload (Issue #5370)
+                    Permissioning - Fix NullPointerException on createPayload (Issue #5370)
                 </b>
             </td>
         </tr>
@@ -324,7 +353,7 @@ Part of #5354
         </tr>
         <tr>
             <td>
-                <span class="chip">doc-change-required</span><span class="chip">dev experience</span><span class="chip">mainnet</span><span class="chip">dependencies</span>
+                <span class="chip">dev experience</span><span class="chip">mainnet</span><span class="chip">dependencies</span>
             </td>
             <td>
                 Fixes compilation errors (dependency not found)
@@ -499,71 +528,6 @@ https://github.com/hyperledger/besu/issues/2569
     </table>
     <div class="right-align">
         Created At 2023-04-14 01:18:33 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5343" class=".btn">#5343</a>
-            </td>
-            <td>
-                <b>
-                    Upgrade Reference Tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Upgrade reference tests to v12.1
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-13 22:16:00 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5342" class=".btn">#5342</a>
-            </td>
-            <td>
-                <b>
-                    updating issue template requesting logs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Update to request logs in the issue template 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-13 20:18:00 +0000 UTC
     </div>
 </div>
 

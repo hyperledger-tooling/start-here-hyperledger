@@ -144,35 +144,3 @@ This is mainly to fix https://github.com/hyperledger/aries-agent-test-harness/is
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1431" class=".btn">#1431</a>
-            </td>
-            <td>
-                <b>
-                    fix: issuance with unqualified identifiers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bigger PR than anticipated, but this fixes the issuance of credentials with unqualified identifiers. You can now issue with both unqulaiifed and did indy identifiers interchangeably, but only for the issuance side. the other sides don't work interchangeably yet. 
-
-I hope this is one of the last big tasks before releasing 0.4.0?
-
-Lot of code is moving around stuff and removing some of the duplicated code. We now have indy specific identifier code in the anoncreds package, but it's needed for the unqualified handling. As it's part of the spec, and it can provide the easiest migration path, that is okay by me. (it's not much, just some identifier parsing etc..)
-
-Hope this doesn't clash too much with your Revocation pr @genaris 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-13 18:57:20 +0000 UTC
-    </div>
-</div>
-
