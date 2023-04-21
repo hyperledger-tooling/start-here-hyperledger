@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2401" class=".btn">#2401</a>
+            </td>
+            <td>
+                <b>
+                    feat(driver): added Monitor to fabric driver for missed events and fabric testnet upgrade to 2.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. chore(testnet): upgrade fabric testnet to v2.5 in weaver and fix for mac
+2. feat(driver): added Monitor to fabric driver for missed events
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-20 19:12:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2400" class=".btn">#2400</a>
             </td>
             <td>
@@ -607,36 +634,6 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </table>
     <div class="right-align">
         Created At 2023-04-17 16:51:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2395" class=".btn">#2395</a>
-            </td>
-            <td>
-                <b>
-                    docs(examples): fix CVE-2020-36632 flat vulnerable to Prototype Pollution
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Bumping hardhat so that flat gets upgraded transitively/indirectly.
-
-Fixes #2394
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-13 23:11:16 +0000 UTC
     </div>
 </div>
 

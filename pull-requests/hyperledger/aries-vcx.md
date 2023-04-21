@@ -91,38 +91,3 @@ Move the code to shared_vcx instead
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/804" class=".btn">#804</a>
-            </td>
-            <td>
-                <b>
-                    Regression: Fix dependency tree when using aries_vcx_core
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                apologies, I should have manually checked this when approving the core PR.
-
-But since the aries_vcx_core crate was being pulled in without opting out of default features, this means that the aries_vcx crate now has no way to opt-out of depending on vdrtools.
-
-This fix addresses that regression whilst keeping vdrtools as the default flag (should not affect consumers who are happy with the default vdrtools flag)
-
-
-I also fix some of regressions in certain indy elements which should remain to be hidden behind the vdrtools.
-
-also added a CI step to check the aries_vcx compiles with some of the common feature flags
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-13 22:15:51 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1288" class=".btn">#1288</a>
+            </td>
+            <td>
+                <b>
+                    Fix 1287
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1287 
+
+In PR chain with #1280 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-20 18:50:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1286" class=".btn">#1286</a>
             </td>
             <td>
@@ -322,43 +350,6 @@ Backport of #1175 for 1.1.x
     </table>
     <div class="right-align">
         Created At 2023-04-17 13:08:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1271" class=".btn">#1271</a>
-            </td>
-            <td>
-                <b>
-                    Pass `key` on queries to blockchain, after resolving with an intent to query
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Currently on a `query` to a custom blockchain transaction:
-- FireFly resolves the `key` from the input, with an intent to `sign` a blockchain transaction (rather than do a query)
-- Discards the `key` without passing it to EVMConnect/FabConnect
-
-This is problematic in EVM based chains, where even you can simulate a transaction with `eth_call` from any signing address (without signing), and the result of the execution of that query might be different based on the input signing key.
-
-So this PR proposes:
-- Introducing a new `query` intent for resolving the key
-- Passing the `signingKey` to the connector
-- Updating Ethereum and Fabric implementations to pass this key to the connector
-
-> Also includes a manifest change to pull in https://github.com/hyperledger/firefly-evmconnect/pull/74
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-14 00:04:45 +0000 UTC
     </div>
 </div>
 
