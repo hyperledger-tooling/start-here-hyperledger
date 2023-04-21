@@ -18,13 +18,13 @@ permalink: /pull-requests/hyperledger/bevel
             </td>
             <td>
                 <b>
-                    [fabric] Fix remove org errors
+                    [ci-skip] Fix remove org errors
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">fabric</span>
             </td>
             <td>
                 Fixed following errors

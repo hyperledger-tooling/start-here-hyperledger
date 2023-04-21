@@ -56,6 +56,8 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
             </td>
             <td>
                 for https://github.com/hyperledger/firefly-transaction-manager/issues/21
+
+Not yet ready for the final review
             </td>
         </tr>
     </table>
