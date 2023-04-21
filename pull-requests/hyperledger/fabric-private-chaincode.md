@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/689" class=".btn">#689</a>
+                PR <a href="https://github.com/hyperledger/fabric-private-chaincode/pull/694" class=".btn">#694</a>
             </td>
             <td>
                 <b>
-                    Update env.sh
+                    Resolves #693, upgrade ego to v1.2
                 </b>
             </td>
         </tr>
@@ -27,9 +27,7 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
                 
             </td>
             <td>
-                Signed-off-by: Ravi Singh <59569106+singhravipratap@users.noreply.github.com>
-
-<!--  Thanks for sending a pull request!  Here are some tips for you:
+                <!--  Thanks for sending a pull request!  Here are some tips for you:
 
 1. If this is your first time, please read our code of conduct and contributor guidelines: 
      https://github.com/hyperledger/fabric-private-chaincode/blob/main/CONTRIBUTING.md
@@ -44,26 +42,29 @@ permalink: /pull-requests/hyperledger/fabric-private-chaincode
 -->
 
 **What this PR does / why we need it**:
-Fix code typo in the file env.sh
+Upgrade ego to v1.2, current ego version is v1.0
 
 **Which issue(s) this PR fixes**:
 <!--
-If trying to access the Org2 client then there are error stating "Failed to populate wallet contents:"
- -->
-Fixes #
-fixed the type error.
-export ORG_PATH=\$CONF_PATH/peerOrganizations/${ORG,,}.example.com" >> ${ORG}.env
+  list existing bug, feature and/or work-item which this PR addresses.
+  You might also consider creating an issue first for the PR.
+-->
+Fixes #693 
 
-
-
-
+**Special notes for your reviewer**:
+Successfully build docker-dev in local, how can I push the docker image to docker hub?
+**Does this PR introduce a user-facing changes and/or breaks backward compatability?**:
+<!--
+  If no, you can delete this section
+  If yes, describe what changes and/or what breaks ..
+-->
 ```
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-11-24 16:28:58 +0000 UTC
+        Created At 2023-04-21 15:01:05 +0000 UTC
     </div>
 </div>
 

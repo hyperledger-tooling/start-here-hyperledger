@@ -1,13 +1,13 @@
 
-[809](https://github.com/hyperledger/aries-vcx/pull/809) Unit test for enum SerializableObjectWithState
+[580](https://github.com/hyperledger/fabric-gateway/pull/580) Add implementations for all hashes supported by Fabric v2.5
 
-[37](https://github.com/hyperledger/firefly-signer/pull/37) feat: Update to latest ffresty
+[4178](https://github.com/hyperledger/fabric/pull/4178) Release commit for v2.2.11
 
-[318](https://github.com/hyperledger/iroha-2-docs/pull/318) Metadata and store assets
+[694](https://github.com/hyperledger/fabric-private-chaincode/pull/694) Resolves #693, upgrade ego to v1.2
 
-[1284](https://github.com/hyperledger/solang/pull/1284) Fix new clippy 1.69 lint
+[319](https://github.com/hyperledger/iroha-2-docs/pull/319) Update Rust SDK version (related to #308)
 
-[722](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/722) feat: in app tour
+[3409](https://github.com/hyperledger/iroha/pull/3409) [refactor]: rename permission validator into validator
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
