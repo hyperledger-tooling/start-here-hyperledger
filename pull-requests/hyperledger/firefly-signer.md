@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-signer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-signer/pull/36" class=".btn">#36</a>
+                PR <a href="https://github.com/hyperledger/firefly-signer/pull/37" class=".btn">#37</a>
             </td>
             <td>
                 <b>
-                    adding an option for outbound concurrency control
+                    feat: Update to latest ffresty
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/firefly-signer
                 
             </td>
             <td>
-                Some blockchain endpoint has a concurrent limit, add an option here to control the number of concurrent requests.
+                - Fix some deprecated APIs from ioutil
+
+**Note** still in draft as waiting on https://github.com/hyperledger/firefly-common/pull/65, tested using local version
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-14 13:47:13 +0000 UTC
+        Created At 2023-04-21 10:31:41 +0000 UTC
     </div>
 </div>
 
