@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1285" class=".btn">#1285</a>
+            </td>
+            <td>
+                <b>
+                    The next part of a for loop is an expression, not a statement
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This should not parse:
+
+	contract C {
+	    function f() external {
+		for (uint256 i = 0; i < 100; uint256 x = 0) {}
+	    }
+	}
+
+Fixes https://github.com/hyperledger/solang/issues/1283.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-22 14:31:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1284" class=".btn">#1284</a>
             </td>
             <td>
@@ -270,32 +304,6 @@ Just wanna know If I am going in the right direction or not. Please guide me so 
     </table>
     <div class="right-align">
         Created At 2023-04-16 12:10:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1273" class=".btn">#1273</a>
-            </td>
-            <td>
-                <b>
-                    modifiers are allowed in libraries
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Solang did not permit this, but solc does.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-15 12:25:43 +0000 UTC
     </div>
 </div>
 

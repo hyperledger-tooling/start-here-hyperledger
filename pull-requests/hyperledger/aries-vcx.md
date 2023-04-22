@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/811" class=".btn">#811</a>
+            </td>
+            <td>
+                <b>
+                    removed unused constants and reformatted constants in /aries-vcx/src/utils/constant.rs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - deleted unused constants from /aries-vcx/src/utils/constants.rs
+- Reformatted the JSON constants to multi-line format from single-line for better readability.
+- This PR is for issue #773 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-22 12:44:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/809" class=".btn">#809</a>
             </td>
             <td>
