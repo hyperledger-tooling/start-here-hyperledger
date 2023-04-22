@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/319" class=".btn">#319</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/322" class=".btn">#322</a>
             </td>
             <td>
                 <b>
-                    Updated Iroha image to the newest lts
+                    Restructured test model for permissions
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-13 13:07:03 +0000 UTC
+        Created At 2023-04-22 07:58:17 +0000 UTC
     </div>
 </div>
 
