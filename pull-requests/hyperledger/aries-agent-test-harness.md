@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/671" class=".btn">#671</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/673" class=".btn">#673</a>
             </td>
             <td>
                 <b>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-15 02:52:03 +0000 UTC
+        Created At 2023-04-22 03:08:29 +0000 UTC
     </div>
 </div>
 
