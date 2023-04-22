@@ -118,29 +118,3 @@ This is mainly to fix https://github.com/hyperledger/aries-agent-test-harness/is
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1433" class=".btn">#1433</a>
-            </td>
-            <td>
-                <b>
-                    fix(connections): store imageUrl when using DIDExchange
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                It was already fixed for Connection protocol in https://github.com/hyperledger/aries-framework-javascript/pull/896 but missing for DID Exchange.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-14 18:46:38 +0000 UTC
-    </div>
-</div>
-
