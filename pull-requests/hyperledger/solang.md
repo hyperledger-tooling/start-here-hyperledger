@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1286" class=".btn">#1286</a>
+            </td>
+            <td>
+                <b>
+                    [Fix] duplicate code (part 4)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Related token: #1264
+This PR addresses the issue of duplicate code (part 4). I have added a new function `process_event` that helps avoid code duplication.
+If this commit is good, I will continue working on resolving the remaining issues in separate commits.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-23 00:01:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1285" class=".btn">#1285</a>
             </td>
             <td>
