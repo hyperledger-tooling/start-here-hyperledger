@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/toc
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/94" class=".btn">#94</a>
-            </td>
-            <td>
-                <b>
-                    Fabric 2023 Q2 Project Report
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">quarterly-report</span>
-            </td>
-            <td>
-                Fabric 2023 Q2 Project Report.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-16 15:24:20 +0000 UTC
-    </div>
-</div>
-
