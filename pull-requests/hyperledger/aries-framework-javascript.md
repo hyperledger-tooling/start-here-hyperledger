@@ -90,31 +90,3 @@ Also included a setup-cheqd in ./.github/actions which starts a localnet for the
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1434" class=".btn">#1434</a>
-            </td>
-            <td>
-                <b>
-                    fix(indy-vdr): do not force indy-vdr version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I'm not sure if @hyperledger/indy-vdr-shared and @hyperledger/indy-vdr-nodejs versions are fixed to a particular version on purpose, but tests seem to work fine on the latest 0.1.0-dev.14.
-
-This is mainly to fix https://github.com/hyperledger/aries-agent-test-harness/issues/669. If the version should be fixed to dev.13, another possibility is to fix it in the AATH backchannel.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-16 14:56:42 +0000 UTC
-    </div>
-</div>
-
