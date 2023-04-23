@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Closes #579
+                Compatible change of Java Hash class to an enum since this allows hash algorithms to named following Java naming conventions as upper-case constants with underscores rather than as camel-case, which makes it much easier to distinguish SHA3 algorithms (for example, SHA3_256 rather than sha3256).
+
+Closes #579
             </td>
         </tr>
     </table>
