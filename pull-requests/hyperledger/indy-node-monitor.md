@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/indy-node-monitor
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node-monitor/pull/63" class=".btn">#63</a>
-            </td>
-            <td>
-                <b>
-                    Fix for decoding hex seed
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Using `openssl rand -hex 32` to generate a monitoring DID seed results in a 64 character string, which causes an error when used. This adds a check for a 64 character string and decodes it as hex.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-17 17:29:03 +0000 UTC
-    </div>
-</div>
-

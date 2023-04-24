@@ -62,31 +62,3 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1435" class=".btn">#1435</a>
-            </td>
-            <td>
-                <b>
-                    feat: Add cheqd demo and localnet for tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR adds the required Readme files and integrates cheqd modules in the demo
-
-Also included a setup-cheqd in ./.github/actions which starts a localnet for the tests to be run
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-17 12:33:54 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1291" class=".btn">#1291</a>
+            </td>
+            <td>
+                <b>
+                    Use a more optimistic approach when inserting token transfer events, …
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …assuming that they are new and can be inserted without conflict, then handle errors if not
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-24 15:43:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1290" class=".btn">#1290</a>
+            </td>
+            <td>
+                <b>
+                    feat: Upgrade to latest ffresty with mTLS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Depends on:
+- https://github.com/hyperledger/firefly-common/pull/65
+- https://github.com/hyperledger/firefly/pull/1289
+
+Once those are in I'll update this one
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-24 15:18:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1289" class=".btn">#1289</a>
             </td>
             <td>
@@ -322,60 +378,6 @@ Depends on https://github.com/hyperledger/firefly-common/pull/64
     </table>
     <div class="right-align">
         Created At 2023-04-18 03:27:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1275" class=".btn">#1275</a>
-            </td>
-            <td>
-                <b>
-                    Fix updating Contract APIs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-candidate</span>
-            </td>
-            <td>
-                Resolves https://github.com/hyperledger/firefly/issues/1274
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-17 17:15:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1273" class=".btn">#1273</a>
-            </td>
-            <td>
-                <b>
-                    Include signing key in batch processor identifier
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Messages from the same identity but different signing keys must be processed into different batches. If the signing key of the message does not match the signing key of the batch, the message will be rejected.
-
-Backport of #1175 for 1.1.x
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-17 13:08:45 +0000 UTC
     </div>
 </div>
 

@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
             </td>
             <td>
                 <b>
-                    removed unnessisary scroll
+                    fix: removed unnecessary scroll
                 </b>
             </td>
         </tr>
