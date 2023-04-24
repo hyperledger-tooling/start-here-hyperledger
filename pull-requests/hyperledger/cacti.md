@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2403" class=".btn">#2403</a>
+            </td>
+            <td>
+                <b>
+                    feat(openssl): version upgrade
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                …tements in cactus-plugin-keychain-vault package
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-24 03:20:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2402" class=".btn">#2402</a>
             </td>
             <td>
