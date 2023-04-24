@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
             </td>
             <td>
                 <b>
-                    Add new crates for DID parsing, document building, and DID resolution
+                    Add new crates for DID parsing, DID document building, and DID resolution
                 </b>
             </td>
         </tr>
@@ -27,15 +27,15 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 <span class="chip">feature</span><span class="chip">skip-ci</span>
             </td>
             <td>
-                This PR introduces new crates related to DID parsing, document building, and DID resolution, thus partially addressing issue #706 .
+                This PR introduces new crates related to DID parsing, DID document building, and DID resolution, thus partially addressing issue #706 .
 
 Some features in the added crates have no immediate use inside of AriesVCX, and we may consider moving some of these crates to a separate project, especially as the number of implemented resolvers begins to grow. However, their inclusion in the PR is due to the immediate need for a Sovrin DID method resolver, while striving to keep in line with following design goals:
 
 * suitability for use in AriesVCX, and
 * reusability in other projects, such as a driver for [universal-resolver](https://github.com/decentralized-identity/universal-resolver),
 * compliance with the relevant standards and specifications:
-  * [DID Core specification](https://www.w3.org/TR/did-core)
-  * [DID Resolution draft](https://w3c-ccg.github.io/did-resolution)
+  * [DID Core specification](https://www.w3.org/TR/did-core),
+  * [DID Resolution draft](https://w3c-ccg.github.io/did-resolution),
   * [Sovrin DID method specification](https://sovrin-foundation.github.io/sovrin/spec/did-method-spec-template.html).
 
  The following crates have been added:
@@ -143,34 +143,6 @@ Add unit test for `serialization` and `deserialization` of enum ``SerializeableO
     </table>
     <div class="right-align">
         Created At 2023-04-18 12:32:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/806" class=".btn">#806</a>
-            </td>
-            <td>
-                <b>
-                    Move post_message to shared_vcx  #772
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Issue #772 - Move out post_message to shared_vcx
-
-Move the code to shared_vcx instead
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-17 10:36:30 +0000 UTC
     </div>
 </div>
 
