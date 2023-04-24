@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/400" class=".btn">#400</a>
+            </td>
+            <td>
+                <b>
+                    fix(nodesdk): ecies decrypt bug when z is less than 32B
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix decryption bug in `weaver-fabric-interop-sdk`:
+Append leading 0 bytes to Z if Z is less than 32 bytes.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-24 18:18:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/399" class=".btn">#399</a>
             </td>
             <td>

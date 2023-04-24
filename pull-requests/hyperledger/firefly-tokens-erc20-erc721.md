@@ -40,33 +40,3 @@ A few more details of the approach I've used are in the issue.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/129" class=".btn">#129</a>
-            </td>
-            <td>
-                <b>
-                    Encode the values passed in "poolData"
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This ensures that the special character ":" (in particular) will be properly escaped.
-
-Also, send "poolData" back in pool creation/activation events (instead of only in transfers/approvals).
-
-See also https://github.com/hyperledger/firefly-tokens-erc1155/pull/119
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-17 15:45:26 +0000 UTC
-    </div>
-</div>
-
