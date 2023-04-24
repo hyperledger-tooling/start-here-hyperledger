@@ -15,14 +15,14 @@ permalink: /releases/hyperledger/firefly-tokens-erc20-erc721
         <tr>
             <td colspan="2">
                 <b>
-                    More prometheus tests
+                    Metrics
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.3-metrics21042023-2
+                    v1.2.3-metrics24042023-1
                 </span>
             </td>
             <td>
@@ -30,11 +30,11 @@ permalink: /releases/hyperledger/firefly-tokens-erc20-erc721
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v1.2.3-metrics21042023-2" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v1.2.3-metrics24042023-1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-04-21 13:46:39 +0000 UTC
+        Created At 2023-04-24 10:21:32 +0000 UTC
     </span>
 </div>
 
