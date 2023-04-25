@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/323" class=".btn">#323</a>
+            </td>
+            <td>
+                <b>
+                    [feature]: add CSD-RTGS stub for link to Matthias
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added a stub article with almost empty contents to provide link to Matthias.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-25 08:01:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/322" class=".btn">#322</a>
+            </td>
+            <td>
+                <b>
+                    Pip update for wheel issue #320
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                I am unsure of many details to put into the distribution and shell path updates, so I'll leave it as a draft. I am thinking about Ubuntu, Arch, and maybe some RedHat distros. As for the shells: Fish, Bash, and ZSH should be enough. Any ideas?
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-25 07:57:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/319" class=".btn">#319</a>
             </td>
             <td>
