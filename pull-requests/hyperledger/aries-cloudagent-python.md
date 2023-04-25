@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2211" class=".btn">#2211</a>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2216" class=".btn">#2216</a>
             </td>
             <td>
                 <b>
-                    Enhancements regarding the support of non Unix-like operating systems
+                    Add updated ELK stack for demos/testing
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                This would support execution on operating systems which uses a path seperator character different from '/' (e.g Windows).
+                The EFK stack was out of date and updating it was not as simple as changing version numbers. Decided to bring in a more robust, current and reliable stack to use for tracing demos. The main impetus for the ELK stack is for monitoring performance for the mediator service. 
+
+Documentation has been updated to reflect the removal of the EFK.
+
+Have also included examples for running the demos and the `multi-demo` with tracing events into ELK. Bumping the multi-demo postgres to 14.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-15 19:35:05 +0000 UTC
+        Created At 2023-04-24 22:54:44 +0000 UTC
     </div>
 </div>
 

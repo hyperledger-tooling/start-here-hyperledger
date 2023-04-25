@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/ursa-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/ursa-python/pull/12" class=".btn">#12</a>
+                PR <a href="https://github.com/hyperledger/ursa-python/pull/14" class=".btn">#14</a>
             </td>
             <td>
                 <b>
-                    Update pip-audit.yml to resolve issue #11
+                    Ursa to EOL
                 </b>
             </td>
         </tr>
@@ -27,16 +27,13 @@ permalink: /pull-requests/hyperledger/ursa-python
                 
             </td>
             <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-resolves #11 
-
-@ryjones -- flagging you on this since I notice you locked this @ v0.0.4, and it is now at v2.2.4.  Thoughts on changing the version?
+                Please see: [TOC issue](https://github.com/hyperledger/toc/issues/96)
+Ursa PR: https://github.com/hyperledger/ursa/pull/233
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-09-16 10:35:48 +0000 UTC
+        Created At 2023-04-24 20:25:01 +0000 UTC
     </div>
 </div>
 

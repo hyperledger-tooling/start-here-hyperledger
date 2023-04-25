@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5385" class=".btn">#5385</a>
+            </td>
+            <td>
+                <b>
+                    Permissioning - A better solution to fix NullPointerException on createPayload
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This is a more elegant solution then PR 5374 for issue 5370. When running on docker, URI returns null on gethHost() method but returns the correct hostname on the toString() method, owning to the 'underline character' on hostname in docker services.
+
+## Fixed Issue(s)
+#5370 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-24 21:51:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5380" class=".btn">#5380</a>
             </td>
             <td>

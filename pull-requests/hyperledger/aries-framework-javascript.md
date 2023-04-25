@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1438" class=".btn">#1438</a>
+            </td>
+            <td>
+                <b>
+                    feat: add role to credential and proof record
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds a role to the credential and proof records, as it's sometimes almost impossible to determine which role belongs to a record.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-24 19:21:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1437" class=".btn">#1437</a>
             </td>
             <td>

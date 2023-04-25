@@ -70,7 +70,7 @@ permalink: /pull-requests/hyperledger/cacti
             </td>
             <td>
                 <b>
-                    feat(driver): added Monitor to fabric driver for missed events and fabric testnet upgrade to 2.5
+                    feat(driver): added Monitor to fabric driver for missed events and other fixes
                 </b>
             </td>
         </tr>
@@ -81,6 +81,7 @@ permalink: /pull-requests/hyperledger/cacti
             <td>
                 1. chore(testnet): upgrade fabric testnet to v2.5 in weaver and fix for mac
 2. feat(driver): added Monitor to fabric driver for missed events
+3. fix(weaversdk): ecies decrypt bug when z is less than 32Bytes
             </td>
         </tr>
     </table>

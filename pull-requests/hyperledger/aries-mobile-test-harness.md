@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/154" class=".btn">#154</a>
-            </td>
-            <td>
-                <b>
-                    Fix BCW iOS 14 remove contact failure
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR should fix an issue in the remove contact test where we try and select view on the credential revocation notification. On iOS 14 and below the testID is not displayed (this is an issue we have not found a solution to), so the element is retrieved based on a partial xpath match and then clicked.  
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-17 20:54:11 +0000 UTC
-    </div>
-</div>
-

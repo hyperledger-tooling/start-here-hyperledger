@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/ursa-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/ursa-rfcs/pull/29" class=".btn">#29</a>
+                PR <a href="https://github.com/hyperledger/ursa-rfcs/pull/31" class=".btn">#31</a>
             </td>
             <td>
                 <b>
-                    Update CODEOWNERS
+                    Ursa to EOL
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/ursa-rfcs
                 
             </td>
             <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
+                Please see: [TOC issue](https://github.com/hyperledger/toc/issues/96)
+Ursa PR: https://github.com/hyperledger/ursa/pull/233
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-04-29 15:14:13 +0000 UTC
+        Created At 2023-04-24 20:23:00 +0000 UTC
     </div>
 </div>
 
