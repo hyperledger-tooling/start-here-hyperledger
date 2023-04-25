@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-docs/pull/68" class=".btn">#68</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-docs/pull/70" class=".btn">#70</a>
             </td>
             <td>
                 <b>
-                    Add docs-deploy.yml
+                    Remove docs
                 </b>
             </td>
         </tr>
@@ -27,16 +27,39 @@ permalink: /pull-requests/hyperledger-labs/yui-docs
                 
             </td>
             <td>
-                # Requirement
-* create gh-pages branch
-* setting github pages
-![スクリーンショット 2023-04-05 11 45 54](https://user-images.githubusercontent.com/126585618/229968027-618482ca-a8e6-446a-b90a-d7a678f03a0e.png)
+                Due to #68, there is no longer a need to manage the output of `yarn build` to the docs, so it will be removed.
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-05 02:46:26 +0000 UTC
+        Created At 2023-04-25 05:35:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-docs/pull/69" class=".btn">#69</a>
+            </td>
+            <td>
+                <b>
+                    Update contract.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updated the explanation to match the latest yui-ibc-solidity.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-25 04:09:38 +0000 UTC
     </div>
 </div>
 
