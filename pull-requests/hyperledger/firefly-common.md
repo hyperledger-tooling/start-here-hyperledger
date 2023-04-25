@@ -40,31 +40,3 @@ For testing I added a series of real and fake certificates and keys. I also expl
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/64" class=".btn">#64</a>
-            </td>
-            <td>
-                <b>
-                    Add "networkName" and "published" to FFI fields
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                These will be needed as part of https://github.com/hyperledger/firefly/issues/1220, based on its current trajectory. See notes there for an overview of plans and unanswered questions.
-
-The argument could be made that these fields may or may not belong in the base `fftypes.FFI` struct, and that some of this info is metadata specific to the functionality in FireFly core, and that perhaps the FFI type should be wrapped there. That would generate more work, but I wasn't sure how "pure" we want to be about adding extra fields to this struct.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-17 21:03:21 +0000 UTC
-    </div>
-</div>
-

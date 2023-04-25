@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/ursa-wrapper-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/ursa-wrapper-go/pull/43" class=".btn">#43</a>
+                PR <a href="https://github.com/hyperledger/ursa-wrapper-go/pull/44" class=".btn">#44</a>
             </td>
             <td>
                 <b>
-                    Move inactive maintainers to emeritus status
+                    Ursa to EOL
                 </b>
             </td>
         </tr>
@@ -27,21 +27,13 @@ permalink: /pull-requests/hyperledger/ursa-wrapper-go
                 
             </td>
             <td>
-                The TOC approved a requirement that maintainers
-that have not been active in over three to six
-months be move to emeritus status.
-
-These maintainers have not been active in over
-one year.
-
-hyperledger/toc#32
-
-Signed-off-by: Ry Jones <ry@linux.com>
+                Please see: [TOC issue](https://github.com/hyperledger/toc/issues/96)
+Ursa PR: https://github.com/hyperledger/ursa/pull/233
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-18 18:29:19 +0000 UTC
+        Created At 2023-04-24 20:19:15 +0000 UTC
     </div>
 </div>
 

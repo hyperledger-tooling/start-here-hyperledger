@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/ursa-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/ursa-docs/pull/22" class=".btn">#22</a>
+                PR <a href="https://github.com/hyperledger/ursa-docs/pull/24" class=".btn">#24</a>
             </td>
             <td>
                 <b>
-                    for anoncreds1 doc: added build.sh script, fixed missing references 
+                    Ursa to EOL
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/ursa-docs
                 
             </td>
             <td>
-                ( biber + bib-file)
+                Please see: [TOC issue](https://github.com/hyperledger/toc/issues/96)
+Ursa PR: https://github.com/hyperledger/ursa/pull/233
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-07 18:46:07 +0000 UTC
+        Created At 2023-04-24 20:26:38 +0000 UTC
     </div>
 </div>
 

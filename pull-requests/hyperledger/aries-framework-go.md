@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3565" class=".btn">#3565</a>
+            </td>
+            <td>
+                <b>
+                    feat: new component for data models - DIDs, signatures, JSON-LD
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                component/models/:
+- did: afgo's DID and DID Doc models.
+- ld: JSON-LD support - data models, context stores, LD-Proofs, canonicalization, etc.
+- signature: signing APIs used in DID Docs etc.
+- util: utility data models needed for other model implementations, but not specific to a given model.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-24 20:12:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3564" class=".btn">#3564</a>
             </td>
             <td>

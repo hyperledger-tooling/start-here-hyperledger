@@ -119,29 +119,3 @@ Corepack allows to specify a package manager with its exact version in `package.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/312" class=".btn">#312</a>
-            </td>
-            <td>
-                <b>
-                    [chore] Update Python SDK version warning
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                After discussing the Python SDK versioning with @QuentinI, I think we should update the SDK doc.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-17 18:43:47 +0000 UTC
-    </div>
-</div>
-
