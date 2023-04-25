@@ -14,6 +14,94 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1290" class=".btn">#1290</a>
+            </td>
+            <td>
+                <b>
+                    storage references return values must be set
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                solc permits returns values to not have a value assigned, unless its a storage reference. This means that
+
+	function foo() public returns (bool) {}
+
+compiles without warnings, however
+
+	function bar() public returns (string storage) {}
+
+fails with an error diagnostic.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-25 17:19:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1289" class=".btn">#1289</a>
+            </td>
+            <td>
+                <b>
+                    Solidity keywords were not correctly handled in yul
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Many Solidity keywords like `abstract` were incorrectly handled as keywords in yul. 
+
+Cc: @DaniPopes
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-25 16:10:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1288" class=".btn">#1288</a>
+            </td>
+            <td>
+                <b>
+                    Use ethereum solidity v0.8.19 testdata
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                After the testdata directory was moved out of solang-parser, the submodule commit was changed somehow (did not show up in git diff).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-25 12:28:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1287" class=".btn">#1287</a>
             </td>
             <td>

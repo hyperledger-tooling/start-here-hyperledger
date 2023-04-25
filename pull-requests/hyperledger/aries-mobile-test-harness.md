@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/157" class=".btn">#157</a>
+            </td>
+            <td>
+                <b>
+                    Calibrate Tests to BCW build 318
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR Accounts for the new In App Guide selection that shows on the Home page when the app starts. At this point it just dismisses the guide selector to continue with the tests. App Guide tests will come in the future. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-25 15:29:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/156" class=".btn">#156</a>
             </td>
             <td>
