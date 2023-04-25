@@ -119,30 +119,3 @@ Add unit test for `serialization` and `deserialization` of enum ``SerializeableO
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/808" class=".btn">#808</a>
-            </td>
-            <td>
-                <b>
-                    unit tests for credential_schema::Schema
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - fixes #775 
-- added tests for the functions `to_string_versioned`, `from_string_versioned`, `get_schema_id` 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-18 12:32:55 +0000 UTC
-    </div>
-</div>
-

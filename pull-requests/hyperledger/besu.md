@@ -28,7 +28,7 @@ permalink: /pull-requests/hyperledger/besu
             </td>
             <td>
                 ## PR description
-This is a more elegant solution then PR 5374 for issue 5370. When running on docker, URI returns null on gethHost() method but returns the correct hostname on the toString() method, owning to the 'underline character' on hostname in docker services.
+This is a more elegant solution then PR 5374 for issue 5370. When running on docker, URI returns null on getHost() method but returns the correct hostname on toString() method, owning to the 'underline character' on hostname in docker-compose services.
 
 ## Fixed Issue(s)
 #5370 
@@ -296,73 +296,6 @@ https://github.com/hyperledger/besu/issues/5223
     </table>
     <div class="right-align">
         Created At 2023-04-19 15:49:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5361" class=".btn">#5361</a>
-            </td>
-            <td>
-                <b>
-                    Remove deprecated tx-pool-future-max-by-account option
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-18 14:23:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5360" class=".btn">#5360</a>
-            </td>
-            <td>
-                <b>
-                    Quorum compatibility cleanup, and reorder private invalid reasons
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-See #5350 
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-18 12:55:53 +0000 UTC
     </div>
 </div>
 

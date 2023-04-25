@@ -14,6 +14,117 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3426" class=".btn">#3426</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #3415: Nix flake
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Add a Nix flake with basic `packages`, `apps` and `devShells` as a basis for all future Nix-related endeavors. 
+
+### Linked issue
+
+Closes #3415 
+
+### Benefits
+
+One-click runnable for people with Nix installed. Enables future Nix-based improvements as outlined in #3417
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-25 13:52:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3425" class=".btn">#3425</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #3411: Properly handle peers simultaneous connection
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Bug</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+- Prevent simultaneous connections by selecting who will be passive and active when connecting.
+- Prevent connection duplication by keeping track of outgoing connections.
+- If simultaneous connection happen add policy to resolve which connection to preserve. 
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #3411.
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+Test flakes at much smaller rate, i run it like 10000 times without any error + works a lot faster.
+
+There still can be cases where we can lose message (and thus `multiple_networks` test can fail).
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-25 13:01:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3421" class=".btn">#3421</a>
             </td>
             <td>
@@ -563,69 +674,6 @@ This feature will be helpful for our QA team, at least, and will reduce the comp
     </table>
     <div class="right-align">
         Created At 2023-04-19 08:14:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3394" class=".btn">#3394</a>
-            </td>
-            <td>
-                <b>
-                    [fix] #3393: Break communication deadlock loop in actors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-- Add tokio console support.
-- Fixed bug with communication deadlock.
-- Refactor sumeragi/network in terms of responsibility for connecting/disconnecting peers. 
-
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
-
-### Linked issue
-
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #3393, #3392 <!-- Replace with an actual number,  -->
-
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
-### Benefits
-
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
-
-### Checklist
-
-- [x] I've read `CONTRIBUTING.md`
-- [x] I've used the standard signed-off commit format (or will squash just before merging)
-- [x] All applicable CI checks pass (or I promised to make them pass later)
-- [ ] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
-
-<!-- HINT:  Add more points to checklist for large draft PRs-->
-
-<!-- USEFUL LINKS 
- - https://www.secondstate.io/articles/dco
- - https://discord.gg/hyperledger (please ask us any questions)
- - https://t.me/hyperledgeriroha (if you prefer telegram)
--->
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-18 17:20:24 +0000 UTC
     </div>
 </div>
 
