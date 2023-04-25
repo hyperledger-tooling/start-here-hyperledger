@@ -140,29 +140,3 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/173" class=".btn">#173</a>
-            </td>
-            <td>
-                <b>
-                    Introduce solhint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fix #125 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-18 11:33:22 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/115" class=".btn">#115</a>
+                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/116" class=".btn">#116</a>
             </td>
             <td>
                 <b>
-                    fix: various spell and typo fixes
+                    docs(cheqd): Minor updates
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-16 15:33:54 +0000 UTC
+        Created At 2023-04-25 11:36:37 +0000 UTC
     </div>
 </div>
 

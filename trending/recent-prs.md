@@ -1,13 +1,13 @@
 
-[70](https://github.com/hyperledger-labs/yui-docs/pull/70) Remove docs
+[116](https://github.com/hyperledger/aries-javascript-docs/pull/116) docs(cheqd): Minor updates
 
-[69](https://github.com/hyperledger-labs/yui-docs/pull/69) Update contract.md
+[323](https://github.com/hyperledger/iroha-java/pull/323) Make Iroha container configurable via WithIroha && Implement queries which are not yet presented in SDK
 
-[401](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/401) build(deps): Bump golang.org/x/net from 0.0.0-20200822124328-c89045814202 to 0.7.0 in /core/network/fabric-interop-cc/libs/testutils
+[3421](https://github.com/hyperledger/iroha/pull/3421) [fix] #3370: Serialize hash as hex string
 
-[234](https://github.com/hyperledger/ursa/pull/234) [feature]: remove `failure` and replace with `thiserror`
+[323](https://github.com/hyperledger/iroha-2-docs/pull/323) [feature]: add CSD-RTGS stub for link to Matthias
 
-[1315](https://github.com/hyperledger/besu-docs/pull/1315) Bump plantuml-markdown from 3.8.3 to 3.9.0 in /CI
+[322](https://github.com/hyperledger/iroha-2-docs/pull/322) Pip update for wheel issue #320
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

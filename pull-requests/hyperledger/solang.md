@@ -205,35 +205,3 @@ Thankyou !
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1279" class=".btn">#1279</a>
-            </td>
-            <td>
-                <b>
-                    Run Ethereum Solidity semantic tests through sema
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                There are many failures. First there are some tests which cause panics in sema. These are explicitly excluded. There are a further 1062 failures. Note the line:
-
-	assert_eq!(errors, 1062);
-
-To see the failures, see:
-
-	cargo test --test evm ethereum_solidity_tests -- --nocapture
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-18 12:08:56 +0000 UTC
-    </div>
-</div>
-
