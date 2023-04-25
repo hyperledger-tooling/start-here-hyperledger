@@ -15,14 +15,14 @@ permalink: /releases/hyperledger/firefly-tokens-erc20-erc721
         <tr>
             <td colspan="2">
                 <b>
-                    Metrics
+                    Metrics improvements
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.3-metrics24042023-1
+                    v1.2.3-metrics25042023-1
                 </span>
             </td>
             <td>
@@ -30,7 +30,7 @@ permalink: /releases/hyperledger/firefly-tokens-erc20-erc721
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v1.2.3-metrics24042023-1" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v1.2.3-metrics25042023-1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
