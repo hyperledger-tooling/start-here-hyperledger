@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/457" class=".btn">#457</a>
+            </td>
+            <td>
+                <b>
+                    update release notes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Documentation update
+
+#### Description
+Update release notes.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-25 20:22:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/456" class=".btn">#456</a>
             </td>
             <td>

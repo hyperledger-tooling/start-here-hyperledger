@@ -267,29 +267,3 @@ Thankyou !
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1280" class=".btn">#1280</a>
-            </td>
-            <td>
-                <b>
-                    chore(ci): switch to dedicated Solang runners
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-19 00:01:57 +0000 UTC
-    </div>
-</div>
-
