@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/119" class=".btn">#119</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/120" class=".btn">#120</a>
             </td>
             <td>
                 <b>
-                    Encode the values passed in "poolData"
+                    MTLS support
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
                 
             </td>
             <td>
-                This ensures that the special character ":" (in particular) will be properly escaped.
-
-Also, send "poolData" back in pool creation/activation events (instead of only in transfers/approvals).
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-17 15:44:34 +0000 UTC
+        Created At 2023-04-26 12:26:20 +0000 UTC
     </div>
 </div>
 
