@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4181" class=".btn">#4181</a>
+            </td>
+            <td>
+                <b>
+                    Add RELEASING.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                RELEASING.md describes the release process.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-25 20:48:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4178" class=".btn">#4178</a>
             </td>
             <td>
@@ -231,36 +258,6 @@ Remove the system channel from the multichannel.Registrar
     </table>
     <div class="right-align">
         Created At 2023-04-19 03:07:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4170" class=".btn">#4170</a>
-            </td>
-            <td>
-                <b>
-                    chore(ci): move to dedicated Fabric runners
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This moves Fabric from a cluster of runners to a dedicated Fabric set
-
-#### Type of change
-
-- CI
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-19 00:42:39 +0000 UTC
     </div>
 </div>
 

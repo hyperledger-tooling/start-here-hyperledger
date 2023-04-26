@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/indy-node-monitor
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node-monitor/pull/64" class=".btn">#64</a>
-            </td>
-            <td>
-                <b>
-                    Changed the variable order for detailed view.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Changed the order of variables for the detailed view so you can select Network first and Nodes based upon what network is selected.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-18 20:35:32 +0000 UTC
-    </div>
-</div>
-

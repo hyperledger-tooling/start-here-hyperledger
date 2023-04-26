@@ -270,29 +270,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2399" class=".btn">#2399</a>
-            </td>
-            <td>
-                <b>
-                    chore(ci): move to dedicated Cacti runners
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This puts Cacti into a tranche of runners
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-19 00:55:34 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/158" class=".btn">#158</a>
+            </td>
+            <td>
+                <b>
+                    Fix Test harness BasePage iOS scroll_to_bottom
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes an iOS scroll_to_bottom issue where it would occasionally fail, this is because the x and y of the window rect would come back as zeros in some cases. Now with iOS it does comparison on page source at after a scroll to determine is it is at the bottom. 
+
+This PR also contains a fix to the BCW app guides select dismiss button. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-25 20:26:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/157" class=".btn">#157</a>
             </td>
             <td>
