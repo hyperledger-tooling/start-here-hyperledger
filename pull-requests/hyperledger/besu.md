@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5392" class=".btn">#5392</a>
+            </td>
+            <td>
+                <b>
+                    remove zero lead bytes of log
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">performance</span><span class="chip">mainnet</span><span class="chip">TeamChupa</span><span class="chip">bonsai</span>
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-26 13:56:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5385" class=".btn">#5385</a>
             </td>
             <td>
@@ -266,36 +299,6 @@ This PR also removes Keccak pow/hasher but I'm good with keeping those.
     </table>
     <div class="right-align">
         Created At 2023-04-20 00:13:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5369" class=".btn">#5369</a>
-            </td>
-            <td>
-                <b>
-                    Show correct revert reason data in priv_call
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">privacy</span><span class="chip">non mainnet (private networks)</span>
-            </td>
-            <td>
-                ## PR description
-priv_call was showing incorrect error -"invalid params" even when execution is reverted. PR fixes to show correct error - "REVERT_ERROR" and show correct revert reason data
-
-## Fixed Issue(s)
-https://github.com/hyperledger/besu/issues/5223
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-19 15:49:26 +0000 UTC
     </div>
 </div>
 

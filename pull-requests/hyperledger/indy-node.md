@@ -40,29 +40,3 @@ Feel free to make changes to this PR, which is open for edits.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1813" class=".btn">#1813</a>
-            </td>
-            <td>
-                <b>
-                    fix PR message from triggered update
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-19 15:26:41 +0000 UTC
-    </div>
-</div>
-

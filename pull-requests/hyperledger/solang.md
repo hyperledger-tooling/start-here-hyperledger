@@ -36,6 +36,10 @@ compiles without warnings, however
 	function bar() public returns (string storage) {}
 
 fails with an error diagnostic.
+
+This PR also changes the `contract_testcases`. The expected diagnostics are listed in the source file, in the same way as this is done for solc tests. This makes the `contract_testcases` much more useful. 
+
+I am wondering if there is much justification for keeping the .dot files in the repo any more. 
             </td>
         </tr>
     </table>

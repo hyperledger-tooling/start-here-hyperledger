@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/132" class=".btn">#132</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/133" class=".btn">#133</a>
             </td>
             <td>
                 <b>
-                    mtls support
+                    Async event enrichment
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
                 
             </td>
             <td>
-                <nil>
+                - [x] Remove callback for pushing enriched messages onto the array
+- [ ] Return array of messages, not a single message
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-26 12:26:11 +0000 UTC
+        Created At 2023-04-26 16:10:46 +0000 UTC
     </div>
 </div>
 

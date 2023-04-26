@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/208" class=".btn">#208</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/209" class=".btn">#209</a>
             </td>
             <td>
                 <b>
-                    Feat/update push notifications 0.4.x
+                    Feat/push notification 040
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-13 14:31:16 +0000 UTC
+        Created At 2023-04-26 14:18:42 +0000 UTC
     </div>
 </div>
 

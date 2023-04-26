@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/65" class=".btn">#65</a>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/66" class=".btn">#66</a>
             </td>
             <td>
                 <b>
-                    feat: Add mTLS configuration for ffresty
+                    Cache utility needs namespace grouping and reset capability
                 </b>
             </td>
         </tr>
@@ -27,16 +27,16 @@ permalink: /pull-requests/hyperledger/firefly-common
                 
             </td>
             <td>
-                Adding the ability to supply a config to the ffresty client to setup TLS and mTLS.
+                Existing consumers of caches (core in particular) require the ability to group caches together under a `namespace`, using the same name in different namespaces.
 
-**NOTE** This changes the interface of that init function to now return an error as well, so every consumer of this library and that client on update will need to handle that error. We could avoid doing this by allowing the user to provide a TLS Config as an argument but the pattern seems to be to provide viper config!
+Then the ability to clear all caches that are in the same namespaces.
 
-For testing I added a series of real and fake certificates and keys. I also explore standing up an mTLS mock server with the `httptest` but it proved cumbersome. I think validating that the correct certificates are added to the TLS Config should be good enough but happy to rectify
+Consumers that don't need that function can simply specify an empty string for namespace (as it's possible to have multiple different managers as well).
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-19 10:03:58 +0000 UTC
+        Created At 2023-04-26 16:12:09 +0000 UTC
     </div>
 </div>
 
