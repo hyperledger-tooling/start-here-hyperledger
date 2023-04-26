@@ -1,24 +1,24 @@
 ---
 layout: default
-title: iroha-tui-client
+title: iroha-ed25519
 parent: Hyperledger
 grand_parent: Pull Requests
 has_children: false
-permalink: /pull-requests/hyperledger/iroha-tui-client
+permalink: /pull-requests/hyperledger/iroha-ed25519
 ---
 
-# iroha-tui-client <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/iroha-tui-client){: .btn .mr-4 }</span>
+# iroha-ed25519 <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/iroha-ed25519){: .btn .mr-4 }</span>
 
 
 <div>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-tui-client/pull/21" class=".btn">#21</a>
+                PR <a href="https://github.com/hyperledger/iroha-ed25519/pull/31" class=".btn">#31</a>
             </td>
             <td>
                 <b>
-                    Archive repo
+                    Create MAINTAINERS.md
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/iroha-tui-client
                 
             </td>
             <td>
-                fixes #18
+                fixes #30 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-26 16:01:05 +0000 UTC
+        Created At 2023-04-26 15:57:39 +0000 UTC
     </div>
 </div>
 
