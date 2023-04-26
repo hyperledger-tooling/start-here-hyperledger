@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/bevel-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel-samples/pull/19" class=".btn">#19</a>
+                PR <a href="https://github.com/hyperledger/bevel-samples/pull/22" class=".btn">#22</a>
             </td>
             <td>
                 <b>
-                    [fabric] Upgrade Fabric restserver to latest stable
+                    [chore] merge from main
                 </b>
             </td>
         </tr>
@@ -31,7 +31,7 @@ permalink: /pull-requests/hyperledger/bevel-samples
 --------------
 1. updated image name for expressapi
 2. updated flux namespace in tpl files
-2. updated restserver dependencies
+2. updated restserver
 
 Modifications in roles and tpl files
 -----------------------
@@ -53,7 +53,7 @@ Modifications for the reserver
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-24 12:56:05 +0000 UTC
+        Created At 2023-04-26 06:02:34 +0000 UTC
     </div>
 </div>
 

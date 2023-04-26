@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/325" class=".btn">#325</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #307: Support Mermaid diagrams
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+
+Render diagrams with [Mermaid | Diagramming and charting tool](https://mermaid.js.org/). Re-write existing diagrams with Mermaid syntax.
+
+### Features
+
+- Specify Mermaid blocks with <code>\`\`\`mermaid</code> (use `mmd` if you want just a code snippet with mermaid syntax highlighting)
+- Renders diagrams on **front-end**, dynamically. Back-end rendering increases compilation time and **resulting bundle size** a lot.
+- Reports error if the diagram is invalid
+
+### Downsides
+
+- I was not rewriting each diagram **VERY** carefully, so there might be semantic mistakes because of the syntax difference between Mermaid and PUML. Please review carefully.
+- There is no compile-time check whether a diagram is valid (e.g. will render without an error) or not
+
+### Related issues
+
+Closes #307
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-26 02:09:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/323" class=".btn">#323</a>
             </td>
             <td>
