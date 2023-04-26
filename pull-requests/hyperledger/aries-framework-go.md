@@ -231,37 +231,3 @@ PR commit had commit message and authorship broken due to a rebase, will re-push
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3559" class=".btn">#3559</a>
-            </td>
-            <td>
-                <b>
-                    fix: Match submission requirements not apply limited disclosure.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Title:**
-
-MatchSubmissionRequirement no longer applies limited disclosure on its results, now it just filters applicable credentials.
-
-**Summary:**
-
-Functionality that applies limited disclosure was factored from `filterConstraints` to separate function limitDisclosure.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-19 08:40:26 +0000 UTC
-    </div>
-</div>
-

@@ -14,39 +14,25 @@ permalink: /pull-requests/hyperledger/iroha-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/159" class=".btn">#159</a>
+                PR <a href="https://github.com/hyperledger/iroha-javascript/pull/160" class=".btn">#160</a>
             </td>
             <td>
                 <b>
-                    [DOPS-2312]: use corepack
+                    Release for `2.0.0-pre-rc.14`
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">iroha2</span>
             </td>
             <td>
-                # Task
-
-[DOPS-2312]: use corepack
-## Changes
-
-1. Added parameters to library
-
-Result:
-https://jenkins.soramitsu.co.jp/job/iroha/job/iroha-javascript/job/iroha2/118/
-
-## Author
-
-Signed-off-by: Nikita Zaporozhets <zaporozhets@soramitsu.co.jp>
-
-[DOPS-2312]: https://soramitsu.atlassian.net/browse/DOPS-2312
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-06 08:31:35 +0000 UTC
+        Created At 2023-04-26 07:12:52 +0000 UTC
     </div>
 </div>
 
