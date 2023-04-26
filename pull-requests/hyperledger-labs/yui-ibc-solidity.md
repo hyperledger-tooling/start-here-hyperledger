@@ -192,29 +192,3 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/175" class=".btn">#175</a>
-            </td>
-            <td>
-                <b>
-                    02-client, 05-port: Disallow self address registration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-19 04:05:53 +0000 UTC
-    </div>
-</div>
-

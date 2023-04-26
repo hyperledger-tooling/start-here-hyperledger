@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1440" class=".btn">#1440</a>
+            </td>
+            <td>
+                <b>
+                    feat: demo now runs under a temp HOME directory.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adjusted demo so that the Alice and Faber wallets are written to a temp directory created at demo runtime (via setting the HOME env variable in the script) rather than using the home directory of the user running the demo.
+
+Fix #1430
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-26 01:54:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1439" class=".btn">#1439</a>
             </td>
             <td>
