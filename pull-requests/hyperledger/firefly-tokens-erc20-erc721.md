@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/133" class=".btn">#133</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/134" class=".btn">#134</a>
             </td>
             <td>
                 <b>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
                 
             </td>
             <td>
-                - [x] Remove callback for pushing enriched messages onto the array
-- [ ] Return array of messages, not a single message
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-26 16:10:46 +0000 UTC
+        Created At 2023-04-27 08:57:35 +0000 UTC
     </div>
 </div>
 

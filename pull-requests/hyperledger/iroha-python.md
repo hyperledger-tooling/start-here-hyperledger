@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-python
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-python/pull/138" class=".btn">#138</a>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/144" class=".btn">#144</a>
             </td>
             <td>
                 <b>
-                    Update to LTS
+                    [ci]: Use Hyperledger org runner
                 </b>
             </td>
         </tr>
@@ -27,17 +27,64 @@ permalink: /pull-requests/hyperledger/iroha-python
                 
             </td>
             <td>
-                - Updated dependencies
-- Re-ran codegen
-- Fixed numerous bugs with queries and instruction submisson
-- Necessary adjustments for custom SerDe on iroha side
-
-Necessarily builds upon #135 , otherwise last bullet point would be quite hard
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-30 23:24:02 +0000 UTC
+        Created At 2023-04-27 09:33:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/143" class=".btn">#143</a>
+            </td>
+            <td>
+                <b>
+                    [ci]: Use Hyperledger org runner
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-27 09:33:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-python/pull/142" class=".btn">#142</a>
+            </td>
+            <td>
+                <b>
+                    [ci]: Use Hyperledger org runner
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-27 09:32:57 +0000 UTC
     </div>
 </div>
 

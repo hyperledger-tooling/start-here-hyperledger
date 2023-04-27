@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/yui-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/yui-docs/pull/71" class=".btn">#71</a>
+            </td>
+            <td>
+                <b>
+                    using yui-ibc-solidity v0.3.3
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-27 10:24:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/yui-docs/pull/70" class=".btn">#70</a>
             </td>
             <td>

@@ -38,31 +38,3 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/76" class=".btn">#76</a>
-            </td>
-            <td>
-                <b>
-                    add postgres db related classes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                for https://github.com/hyperledger/firefly-transaction-manager/issues/21
-
-Not yet ready for the final review
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-20 08:00:34 +0000 UTC
-    </div>
-</div>
-

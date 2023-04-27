@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/332" class=".btn">#332</a>
+            </td>
+            <td>
+                <b>
+                    Working with the cryptographic keys
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adds previous work on the topic of cryptographic keys.
+I've been looking into KeePass `gpg-agent` integration and am still seeking a solution.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-27 07:56:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/328" class=".btn">#328</a>
             </td>
             <td>

@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5397" class=".btn">#5397</a>
+            </td>
+            <td>
+                <b>
+                    Bug Fix eth_feeHistory - Issue-#4231 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span>
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Fix the eth_feeHistory response. Seems that more rewards, baseFeePerGas and gasUsedRatio are returned when highestBlock requested is lower than blockCount. This is due to the fact that for this case the range wasn't calculated properly and exceeded `resolvedHighestBlockNumber` with more than +1.
+## Fixed Issue(s)
+#4231 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-27 12:14:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5396" class=".btn">#5396</a>
             </td>
             <td>
