@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc20-erc721
                 
             </td>
             <td>
-                <nil>
+                This PR aims to improve the concurrency of event-enrichment.
+
+Today when a batch of events is received from the token connector, each event is processed synchronously. In the case of an NFT transfer event, processing that event involves a call to `getTokenURI()` which requires communication with the chain via the blockchain connector. These calls can be made in parallel so long as the original order of the events is maintained when the batch is sent on to FireFly core.
             </td>
         </tr>
     </table>

@@ -64,6 +64,8 @@ Some features in the added crates have no immediate use inside of AriesVCX, and 
   * [DID Resolution draft](https://w3c-ccg.github.io/did-resolution),
   * [Sovrin DID method specification](https://sovrin-foundation.github.io/sovrin/spec/did-method-spec-template.html).
 
+For example DID resolver HTTP(S) binding implementation using these crates, see [here](https://github.com/AbsaOSS/driver-did-sov).
+
  The following crates have been added:
 
 #### did_parser

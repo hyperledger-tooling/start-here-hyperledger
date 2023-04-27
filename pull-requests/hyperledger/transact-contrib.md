@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/transact-contrib
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact-contrib/pull/8" class=".btn">#8</a>
+                PR <a href="https://github.com/hyperledger/transact-contrib/pull/9" class=".btn">#9</a>
             </td>
             <td>
                 <b>
-                    Move inactive maintainers to emeritus status
+                    Move Transact to Dormant
                 </b>
             </td>
         </tr>
@@ -27,21 +27,12 @@ permalink: /pull-requests/hyperledger/transact-contrib
                 
             </td>
             <td>
-                The TOC approved a requirement that maintainers
-that have not been active in over three to six
-months be move to emeritus status.
-
-These maintainers have not been active in over
-one year.
-
-hyperledger/toc#32
-
-Signed-off-by: Ry Jones <ry@linux.com>
+                [pending vote](https://github.com/hyperledger/toc/issues/98)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-18 19:02:22 +0000 UTC
+        Created At 2023-04-27 16:27:33 +0000 UTC
     </div>
 </div>
 

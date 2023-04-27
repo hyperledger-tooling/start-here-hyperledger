@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/transact
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact/pull/376" class=".btn">#376</a>
+                PR <a href="https://github.com/hyperledger/transact/pull/377" class=".btn">#377</a>
             </td>
             <td>
                 <b>
-                    docs(readme): add link and explanation about lib sawtooth transition
+                    Move Transact to Dormant
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/transact
                 
             </td>
             <td>
-                Fixes #375
-
-Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
+                [pending vote](https://github.com/hyperledger/toc/issues/98)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-04 19:52:00 +0000 UTC
+        Created At 2023-04-27 16:27:41 +0000 UTC
     </div>
 </div>
 

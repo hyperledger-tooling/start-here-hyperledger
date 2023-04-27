@@ -14,34 +14,6 @@ permalink: /pull-requests/hyperledger/ursa
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/ursa/pull/234" class=".btn">#234</a>
-            </td>
-            <td>
-                <b>
-                    [feature]: remove `failure` and replace with `thiserror`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                One of the main problems for `cargo audit` is the outdated and unmaintained `failure` library. 
-
-We are slowly replacing the functionality with the `thiserror` crate. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-25 00:11:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/ursa/pull/233" class=".btn">#233</a>
             </td>
             <td>

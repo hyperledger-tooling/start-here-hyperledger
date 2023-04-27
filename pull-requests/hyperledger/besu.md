@@ -263,36 +263,3 @@ Part of https://github.com/hyperledger/besu/issues/5354
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5374" class=".btn">#5374</a>
-            </td>
-            <td>
-                <b>
-                    Permissioning - Fix NullPointerException on createPayload (Issue #5370)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">permissioning</span><span class="chip">non mainnet (private networks)</span>
-            </td>
-            <td>
-                ## PR description
-Tries not pass `null` value to `List.of` on method `org.hyperledger.besu.ethereum.permissioning.NodeSmartContractV2PermissioningController.createPayload`
-Sometimes method `enodeUrl.toURI().getHost()` returns `null`. In this case, we use `enodeUrl.getIpAsString()` to get IP address. And, if this method returns `null`, use empty String in `List.of`.
-
-## Fixed Issue(s)
-fixes #5370
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-20 17:56:22 +0000 UTC
-    </div>
-</div>
-
