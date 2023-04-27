@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5396" class=".btn">#5396</a>
+            </td>
+            <td>
+                <b>
+                    Add plugin API to select Transactions
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This PR adds an API that can be used to select Transactions while they are added to a block
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-27 06:10:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5392" class=".btn">#5392</a>
             </td>
             <td>
@@ -233,44 +261,6 @@ fixes #5370
     </table>
     <div class="right-align">
         Created At 2023-04-20 17:56:22 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5372" class=".btn">#5372</a>
-            </td>
-            <td>
-                <b>
-                    Bonsai TrieLogFactory serializer/deserializer
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-This PR introduces a TrieLogFactory interface and default implementation that will allow for a pluggable implementation of bonsai trie log serialization and deserialization.  
-
-This pr also introduces a StorageSlotKey record type that enables accumulators and serializers to utilize slotKeys and/or slotKeyHashes when writing trieLogs.
-
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-related to protocol-misc # 755
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-20 01:42:25 +0000 UTC
     </div>
 </div>
 
