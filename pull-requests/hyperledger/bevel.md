@@ -61,34 +61,3 @@ Fixes
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2219" class=".btn">#2219</a>
-            </td>
-            <td>
-                <b>
-                    [ci-skip] Fix remove org errors
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">fabric</span>
-            </td>
-            <td>
-                Fixed following errors
-- remove org for Fabric was failing because of latest shared changes, it was removing the flux 
-- Update to samples
-- Renamed shared files correctly
-- Updated Job waiting so that it succeeds even when pods were deleted but jobs were complete
-- Update helm uninstall
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-20 16:36:58 +0000 UTC
-    </div>
-</div>
-

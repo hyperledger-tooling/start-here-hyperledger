@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1292" class=".btn">#1292</a>
+            </td>
+            <td>
+                <b>
+                    Add proper WHERE clause to contract API updates
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Ensure that insert and update are executed correctly, and add a unique index on ID.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-27 15:08:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1291" class=".btn">#1291</a>
             </td>
             <td>

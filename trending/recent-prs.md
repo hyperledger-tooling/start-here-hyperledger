@@ -1,13 +1,13 @@
 
-[5397](https://github.com/hyperledger/besu/pull/5397) Bug Fix eth_feeHistory - Issue-#4231 
+[39](https://github.com/hyperledger/firefly-signer/pull/39) Correct typo in updated image tag
 
-[1291](https://github.com/hyperledger/solang/pull/1291) Rework substrate mock runtime
+[327](https://github.com/hyperledger/iroha-java/pull/327) iroha-304: can_burn_asset_with_definition should work for
 
-[473](https://github.com/hyperledger-labs/fabric-smart-client/pull/473) Idemix Revocation
+[1029](https://github.com/hyperledger/fabric-samples/pull/1029) Fix build failure in full-stack-asset-transfer
 
-[3570](https://github.com/hyperledger/aries-framework-go/pull/3570) fix: now get submission requirements can apply SD on result VCs
+[503](https://github.com/hyperledger/fabric-test/pull/503) Bump CouchDB to 3.3.2 (release-2.5)
 
-[71](https://github.com/hyperledger-labs/yui-docs/pull/71) using yui-ibc-solidity v0.3.3
+[3](https://github.com/hyperledger/anoncreds-spec-v2/pull/3) Add GHA to publish spec on merge
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

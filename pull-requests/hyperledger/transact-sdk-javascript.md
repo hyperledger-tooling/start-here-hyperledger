@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/transact-sdk-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/transact-sdk-javascript/pull/24" class=".btn">#24</a>
+                PR <a href="https://github.com/hyperledger/transact-sdk-javascript/pull/25" class=".btn">#25</a>
             </td>
             <td>
                 <b>
-                    Move inactive maintainers to emeritus status
+                    Move Transact to Dormant
                 </b>
             </td>
         </tr>
@@ -27,21 +27,12 @@ permalink: /pull-requests/hyperledger/transact-sdk-javascript
                 
             </td>
             <td>
-                The TOC approved a requirement that maintainers
-that have not been active in over three to six
-months be move to emeritus status.
-
-These maintainers have not been active in over
-one year.
-
-hyperledger/toc#32
-
-Signed-off-by: Ry Jones <ry@linux.com>
+                [pending vote](https://github.com/hyperledger/toc/issues/98)
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-18 19:06:19 +0000 UTC
+        Created At 2023-04-27 16:26:38 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1029" class=".btn">#1029</a>
+            </td>
+            <td>
+                <b>
+                    Fix build failure in full-stack-asset-transfer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                A typo in the 10-appdev-e2e.sh script caused the shell to exit with an error status, failing the build.
+
+Also:
+- Update sample application and smart contract to Node 18, using the latest fabric-contact-api release.
+- Use release versions of Fabric v2.5 and update tool versions in workflow set up.
+- Use GitHub Action to install just instead of curl of install script.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-27 17:20:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1028" class=".btn">#1028</a>
+            </td>
+            <td>
+                <b>
+                    Bump CouchDB to 3.3.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bump CouchDB to 3.3.2.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-27 14:33:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/1026" class=".btn">#1026</a>
             </td>
             <td>
@@ -35,32 +92,6 @@ Resolves https://github.com/hyperledger/fabric/issues/4155
     </table>
     <div class="right-align">
         Created At 2023-04-21 21:47:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1025" class=".btn">#1025</a>
-            </td>
-            <td>
-                <b>
-                    Fix erc-1155 sample README
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Instructions to setup the environment aren't quite right. This fixes it.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-20 12:32:51 +0000 UTC
     </div>
 </div>
 

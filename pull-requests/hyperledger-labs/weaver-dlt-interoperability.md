@@ -99,29 +99,3 @@ Append leading 0 bytes to Z if Z is less than 32 bytes.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/399" class=".btn">#399</a>
-            </td>
-            <td>
-                <b>
-                    fix(driver): monitor to always process events
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Monitor should always process events if there is a single block not yet read.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-20 18:15:20 +0000 UTC
-    </div>
-</div>
-

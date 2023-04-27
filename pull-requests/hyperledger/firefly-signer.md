@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/firefly-signer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-signer/pull/39" class=".btn">#39</a>
+            </td>
+            <td>
+                <b>
+                    Correct typo in updated image tag
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-27 18:12:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-signer/pull/38" class=".btn">#38</a>
+            </td>
+            <td>
+                <b>
+                    Error on negative unsigned value, dep updates, and coverage enhancements
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-27 16:41:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-signer/pull/37" class=".btn">#37</a>
             </td>
             <td>

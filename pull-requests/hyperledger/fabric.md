@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4188" class=".btn">#4188</a>
+            </td>
+            <td>
+                <b>
+                    Bump CouchDB to 3.3.2 (release-2.5)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bump CouchDB to 3.3.2.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-27 15:37:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4186" class=".btn">#4186</a>
+            </td>
+            <td>
+                <b>
+                    Bump CouchDB to 3.3.2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Bump CouchDB to 3.3.2.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-27 14:35:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4183" class=".btn">#4183</a>
             </td>
             <td>
