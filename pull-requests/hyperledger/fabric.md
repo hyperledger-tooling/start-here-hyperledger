@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4183" class=".btn">#4183</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: w/o sys chan, remove bootstrap package
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+
+
+Change-Id: I3b49dd6a6abf6d419842e09b663c3b534962f21f
+
+#### Type of change
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+Without the system channel, the bootstrap package is no longer needed.
+
+#### Related issues
+
+Issue: #3515 
+Epic: #3511 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-27 09:09:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4181" class=".btn">#4181</a>
             </td>
             <td>
@@ -60,58 +101,6 @@ permalink: /pull-requests/hyperledger/fabric
     </table>
     <div class="right-align">
         Created At 2023-04-21 15:48:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4177" class=".btn">#4177</a>
-            </td>
-            <td>
-                <b>
-                    Re-add Go to fabric-tools image (backport #4176)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is an automatic backport of pull request #4176 done by [Mergify](https://mergify.com).
-
-
----
-
-
-<details>
-<summary>Mergify commands and options</summary>
-
-<br />
-
-More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
-
-You can also trigger Mergify actions by commenting on this pull request:
-
-- `@Mergifyio refresh` will re-evaluate the rules
-- `@Mergifyio rebase` will rebase this PR on its base branch
-- `@Mergifyio update` will merge the base branch into this PR
-- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
-
-Additionally, on Mergify [dashboard](https://dashboard.mergify.com) you can:
-
-- look at your merge queues
-- generate the Mergify configuration with the config editor.
-
-Finally, you can contact us on https://mergify.com
-</details>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-20 12:18:23 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3570" class=".btn">#3570</a>
+            </td>
+            <td>
+                <b>
+                    fix: now get submission requirements can apply SD on result VCs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Title:**
+Now get submission requirements can apply SD on result VCs
+
+
+**Summary:**
+
+The option is added to MatchSubmissionRequirement that allows to apply selective disclosure to resulting VCs.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-27 11:13:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3568" class=".btn">#3568</a>
             </td>
             <td>

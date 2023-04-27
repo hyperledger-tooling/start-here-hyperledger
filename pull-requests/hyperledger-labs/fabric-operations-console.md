@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/459" class=".btn">#459</a>
+            </td>
+            <td>
+                <b>
+                    mustgather tool case and update in method to use xpath
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+- Test update
+
+#### Description
+Added mustgather tool case and update in method to use xpath
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-27 09:37:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/458" class=".btn">#458</a>
             </td>
             <td>
