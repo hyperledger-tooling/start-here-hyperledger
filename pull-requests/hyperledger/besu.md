@@ -274,31 +274,3 @@ related to protocol-misc # 755
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5371" class=".btn">#5371</a>
-            </td>
-            <td>
-                <b>
-                    Retire ECIP-1049 network
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-With the [withdraw](https://github.com/ethereumclassic/ECIPs/pull/486) of ECIP-1049 we can remove the network meant for testing.
-This PR also removes Keccak pow/hasher but I'm good with keeping those.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-20 00:13:30 +0000 UTC
-    </div>
-</div>
-
