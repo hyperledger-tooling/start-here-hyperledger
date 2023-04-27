@@ -15,18 +15,27 @@ permalink: /releases/hyperledger/aries-vcx
         <tr>
             <td colspan="2">
                 <b>
-                    Release 0.54.1
+                    Release 0.55.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.54.1
+                    0.55.0
                 </span>
             </td>
             <td>
                 # Changelog
+
+## [0.54.1](https://github.com/hyperledger/aries-vcx/tree/0.54.1) (2023-04-14)
+
+[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.54.0...0.54.1)
+
+### Other pull requests
+
+- Release 0.54.1 [\#805](https://github.com/hyperledger/aries-vcx/pull/805) ([Patrik-Stas](https://github.com/Patrik-Stas))
+- Regression: Fix dependency tree when using aries\_vcx\_core [\#804](https://github.com/hyperledger/aries-vcx/pull/804) ([gmulhearn-anonyome](https://github.com/gmulhearn-anonyome))
 
 ## [0.54.0](https://github.com/hyperledger/aries-vcx/tree/0.54.0) (2023-04-13)
 
@@ -143,7 +152,6 @@ permalink: /releases/hyperledger/aries-vcx
 
 ### Breaking changes
 
-- Remove PublicAgent and its usage [\#679](https://github.com/hyperledger/aries-vcx/issues/679)
 - Remove public agent [\#715](https://github.com/hyperledger/aries-vcx/pull/715) ([mirgee](https://github.com/mirgee))
 
 ### Changes to agents
@@ -202,7 +210,6 @@ permalink: /releases/hyperledger/aries-vcx
 
 - Release 0.49.1 [\#687](https://github.com/hyperledger/aries-vcx/pull/687) ([Patrik-Stas](https://github.com/Patrik-Stas))
 - Fix legacy wrapper ios release [\#686](https://github.com/hyperledger/aries-vcx/pull/686) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Handle did:sov service omitting routing\_keys attribute [\#676](https://github.com/hyperledger/aries-vcx/pull/676) ([guijd3p](https://github.com/guijd3p))
 
 ## [0.49.0](https://github.com/hyperledger/aries-vcx/tree/0.49.0) (2022-12-04)
 
@@ -216,10 +223,6 @@ permalink: /releases/hyperledger/aries-vcx
 ## [0.48.0](https://github.com/hyperledger/aries-vcx/tree/0.48.0) (2022-12-02)
 
 [Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.47.0...0.48.0)
-
-### Other pull requests
-
-- Release 0.48.0 [\#681](https://github.com/hyperledger/aries-vcx/pull/681) ([Patrik-Stas](https://github.com/Patrik-Stas))
 
 ## [0.47.0](https://github.com/hyperledger/aries-vcx/tree/0.47.0) (2022-11-22)
 
@@ -431,11 +434,11 @@ permalink: /releases/hyperledger/aries-vcx
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-vcx/releases/tag/0.54.1" class=".btn">
+    <a href="https://github.com/hyperledger/aries-vcx/releases/tag/0.55.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-04-14 09:00:57 +0000 UTC
+        Created At 2023-04-27 04:59:34 +0000 UTC
     </span>
 </div>
 
