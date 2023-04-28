@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/816" class=".btn">#816</a>
+            </td>
+            <td>
+                <b>
+                    Fix README for deprecated link
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                `libvcx` is deprecated, the docs need to reflect that. The link in the docs to the deprecation notice seems to be broken. This PR fixes that.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-28 12:47:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/813" class=".btn">#813</a>
             </td>
             <td>

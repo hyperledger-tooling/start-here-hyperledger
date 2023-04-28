@@ -130,29 +130,3 @@ Epic: #3511
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4178" class=".btn">#4178</a>
-            </td>
-            <td>
-                <b>
-                    Release commit for v2.2.11
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update release notes and doc for v2.2.11.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-21 15:48:34 +0000 UTC
-    </div>
-</div>
-

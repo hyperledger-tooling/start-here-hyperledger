@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/67" class=".btn">#67</a>
+            </td>
+            <td>
+                <b>
+                    feat: Add tls configuration for wsclient upgrade
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add a TLS configuration for the WS client.
+
+
+Notice I had to change the config `IsSet` function as it wasn't using the full prefix to find the value, and Viper needs the whole path to determine if a key is set
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-28 14:35:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-common/pull/66" class=".btn">#66</a>
             </td>
             <td>

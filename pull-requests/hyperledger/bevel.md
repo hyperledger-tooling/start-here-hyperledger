@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/bevel
             </td>
             <td>
                 <b>
-                    [shared] flux optimisation
+                    [ci-skip] flux optimisation
                 </b>
             </td>
         </tr>

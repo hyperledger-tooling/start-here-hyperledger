@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/586" class=".btn">#586</a>
+            </td>
+            <td>
+                <b>
+                    Flag dependency-check failures for CVSS score of Medium or higher
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Following security recommendations of OpenSSF Best Practices.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-28 14:34:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/585" class=".btn">#585</a>
             </td>
             <td>
@@ -60,34 +86,6 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     </table>
     <div class="right-align">
         Created At 2023-04-27 20:01:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/580" class=".btn">#580</a>
-            </td>
-            <td>
-                <b>
-                    Add implementations for all hashes supported by Fabric v2.5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Compatible change of Java Hash class to an enum since this allows hash algorithms to named following Java naming conventions as upper-case constants with underscores rather than as camel-case, which makes it much easier to distinguish SHA3 algorithms (for example, SHA3_256 rather than sha3256).
-
-Closes #579
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-21 16:41:47 +0000 UTC
     </div>
 </div>
 
