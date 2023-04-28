@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1442" class=".btn">#1442</a>
+            </td>
+            <td>
+                <b>
+                    ci: downgrade ubuntu docker image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update anoncreds-rs to 0.1.0-dev.15 which is compatible with an older GLIBC. This allows to revert recent changes in CI/CD to workaround this issue, which were using ubuntu 22.04 and a downgraded version of libssl (for indy compatibility).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-28 04:39:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1440" class=".btn">#1440</a>
             </td>
             <td>

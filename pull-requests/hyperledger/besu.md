@@ -14,6 +14,71 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5406" class=".btn">#5406</a>
+            </td>
+            <td>
+                <b>
+                    Ensure parisSpecificModifications are unapplied for all subsequent forks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">mainnet</span>
+            </td>
+            <td>
+                ...not just Shanghai
+
+This is because you could have a genesis configured with e.g. cancunTime but leave shanghaiTime unconfigured.
+
+Fixes #5404
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-28 05:00:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5405" class=".btn">#5405</a>
+            </td>
+            <td>
+                <b>
+                    Decompose putMilestone into putBlockNumberMilestone and putTimestampMilestone
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Minor refactor for readability and clarity.
+
+Originally, I was trying to avoid timestamp or blockNumber details leaking outside of the ProtocolSchedule and its Builder.
+I wanted to remove putMilestone from the public interface entirely, since for the mainnet use case, this detail can be kept inside the ProtocolScheduleBuilder. 
+This would have meant building the milestones first and passing them into ProtocolSchedule's constructor, but this was not feasible given the way the ProtocolScheduleBuilder works, specifically the fact that ProtocolSpecBuilder relies on receiving a ProtocolSchedule which implies milestones must be added after the ProtocolSchedule itself has been constructed.
+
+Since my original plan is not feasible, I think this is a better approach if we have to support a public put operation anyway.
+
+Fixes #5354
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-28 04:10:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5397" class=".btn">#5397</a>
             </td>
             <td>
@@ -56,7 +121,7 @@ Fix the eth_feeHistory response. Seems that more rewards, baseFeePerGas and gasU
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamRevenant</span><span class="chip">plugins</span>
             </td>
             <td>
                 ## PR description
