@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5407" class=".btn">#5407</a>
+            </td>
+            <td>
+                <b>
+                    add proofs to blobs bundle 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Add proofs to blobs bundle
+Add blobBundle to GetPayloadV3
+Todo: Possibly remove the EngineGetBlobsBundleV1 from the Engine API
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+Fixes #5398
+Fixes #5399
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-28 07:55:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5406" class=".btn">#5406</a>
             </td>
             <td>

@@ -38,11 +38,9 @@ Also validator can now carry state
 
 Closes #{issue_number} <!-- Replace with an actual number,  -->
 
-<!-- Link if e.g. JIRA issue or  from another repository -->
-
 ### Benefits
 
-<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+It's super easy for the writer of validator to plug in their own validation + they get to share state during validation
 
 ### Checklist
 

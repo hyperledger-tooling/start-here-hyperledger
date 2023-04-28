@@ -213,29 +213,3 @@ Maybe we can refer to `rc.15` at this point, but I am using https://github.com/h
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/318" class=".btn">#318</a>
-            </td>
-            <td>
-                <b>
-                    Metadata and store assets
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Part of https://github.com/hyperledger/iroha-2-docs/issues/308
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-21 07:59:19 +0000 UTC
-    </div>
-</div>
-

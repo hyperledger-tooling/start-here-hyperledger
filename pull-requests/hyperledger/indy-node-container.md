@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node-container
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node-container/pull/124" class=".btn">#124</a>
+                PR <a href="https://github.com/hyperledger/indy-node-container/pull/127" class=".btn">#127</a>
             </td>
             <td>
                 <b>
-                    update experimental ubuntu20 container to 1.13.2~rc5
+                    indy rc upgrade with explicit dependencies removed
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/indy-node-container
                 
             </td>
             <td>
-                Signed-off-by: Sebastian Schmittner <sebastian.schmittner@eecc.de>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-01-27 09:07:58 +0000 UTC
+        Created At 2023-04-28 08:35:55 +0000 UTC
     </div>
 </div>
 
