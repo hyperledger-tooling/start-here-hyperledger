@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/161" class=".btn">#161</a>
+            </td>
+            <td>
+                <b>
+                    BCW stop Scrolling for iOS
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR stops BC Wallet scrolling for iOS when a cred offer or proof request comes in. With large credentials it takes a long time to scroll. iOS will find the element anyway even if it is not in the viewport, unlike Android where scrolling has to happen. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-27 22:06:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/160" class=".btn">#160</a>
+            </td>
+            <td>
+                <b>
+                    Fix BCW environment setting for security tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The PR changes the ending of the security tests for BC Wallet which use to go ahead and change the environment to the test env. There is no need to do that in these tests, and saves minutes off of each test to remove it. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-27 18:48:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/159" class=".btn">#159</a>
             </td>
             <td>
@@ -113,32 +165,6 @@ This PR also contains a fix to the BCW app guides select dismiss button.
     </table>
     <div class="right-align">
         Created At 2023-04-24 18:13:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/155" class=".btn">#155</a>
-            </td>
-            <td>
-                <b>
-                    Only check for Camera Policy on iOS
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR is an attempt to fix the connection timeout issue that is frequently happening on Android in the test pIpeline. I have removed the check for the Camera policy for Android since that does take a little time determining if we are on that page. That policy doesn't show on Android when the `autoGrantPermissions` is set in the appium config. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-20 20:28:05 +0000 UTC
     </div>
 </div>
 

@@ -85,7 +85,7 @@ permalink: /pull-requests/hyperledger-labs/yui-docs
 - [x] Update interfaces
 - [x] Update links to comsos/ibc
 - [x] Update links to yui-ibc-solidity to v0.3.1
-  - [ ] Update to v0.3.3 
+  - [x] Update to v0.3.3 
 - [x] Update instruction for solidity-protobuf
             </td>
         </tr>

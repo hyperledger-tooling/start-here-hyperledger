@@ -145,31 +145,3 @@ Once those are in I'll update this one
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1288" class=".btn">#1288</a>
-            </td>
-            <td>
-                <b>
-                    Fix 1287
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #1287 
-
-In PR chain with #1280 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-20 18:50:57 +0000 UTC
-    </div>
-</div>
-
