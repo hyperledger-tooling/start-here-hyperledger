@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2224" class=".btn">#2224</a>
+            </td>
+            <td>
+                <b>
+                    [shared] flux optimisation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                    flux optimisation
+    - setting up strict flux version while installation
+    - skip watching other namespaces
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-28 05:44:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2223" class=".btn">#2223</a>
             </td>
             <td>
