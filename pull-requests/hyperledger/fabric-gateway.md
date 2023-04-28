@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/585" class=".btn">#585</a>
+            </td>
+            <td>
+                <b>
+                    Add CODEOWNERS file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Allows reviews to be automatically requested for pull requests.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-28 08:44:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/584" class=".btn">#584</a>
             </td>
             <td>

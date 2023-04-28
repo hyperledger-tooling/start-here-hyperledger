@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3574" class=".btn">#3574</a>
+            </td>
+            <td>
+                <b>
+                    Switch to using mathlib
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Title:**
+Use [mathlib](https://github.com/IBM/mathlib) as the implementation for elliptic curve operations.
+
+**Description:**
+This PR is an implementation of this [proposal](https://github.com/hyperledger/aries-framework-go/issues/3575).
+
+**Summary:**
+
+This PR changes the dependency used to handle the operations on elliptic curves needed by the BBS+ implementation. Instead of directly using the [kilic](https://github.com/kilic/bls12-381) implementation. we recommend switching to [mathlib](https://github.com/IBM/mathlib): mathlib is a module that exposes a common set of API backed by a number of different libraries ([amcl](https://github.com/hyperledger/fabric-amcl), [ConsenSys/gnark-crypto](https://github.com/ConsenSys/gnark-crypto) and [kilic](https://github.com/kilic/)). It currently supports the following curves: [FP256BN](https://neuromancer.sk/std/other/Fp256BN), [BN254](https://neuromancer.sk/std/bn/bn254), [BLS12_377](https://neuromancer.sk/std/bls/BLS12-377) and [BLS12_381](https://neuromancer.sk/std/bls/BLS12-381) (the latter in two different variants, standard and BBS compliant). mathlib is already being used by [fabric](https://github.com/hyperledger/fabric), the [idemix](https://github.com/IBM/idemix/) implementation used by fabric, the [fabric token sdk](https://github.com/hyperledger-labs/fabric-token-sdk) and the [fabric smart client](https://github.com/hyperledger-labs/fabric-smart-client).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-28 07:01:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3573" class=".btn">#3573</a>
             </td>
             <td>

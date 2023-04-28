@@ -251,29 +251,3 @@ Fixes https://github.com/hyperledger/solang/issues/1283.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1284" class=".btn">#1284</a>
-            </td>
-            <td>
-                <b>
-                    Fix new clippy 1.69 lint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Contains a drive by fix for the build. My guess is that the `ink` umbrella crate doesn't pin it's dependencies, which results in various `ink_* 4.2.0` dependencies being pulled in, despite explicitly pinning `ink = "=4.1.0"` in our `Cargo .toml`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-21 07:19:40 +0000 UTC
-    </div>
-</div>
-

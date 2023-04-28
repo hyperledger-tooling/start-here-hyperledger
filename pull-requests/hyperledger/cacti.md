@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2408" class=".btn">#2408</a>
+            </td>
+            <td>
+                <b>
+                    Update consortium-repository.ts
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-28 12:01:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2406" class=".btn">#2406</a>
             </td>
             <td>
@@ -29,11 +55,15 @@ permalink: /pull-requests/hyperledger/cacti
             <td>
                 Set publish target to cacti
 
-    - Update relay, drivers, iin-agent image registry to hyperledger/cacti
-    - Update npm packages (protos-js and sdks) registry to cacti
-    - Update maven packages registry to cacti
-    - Rename sdks/besu/interoperation-node-sdk to sdks/besu/node
-    - Change all packages version to v2.0.0-alpha-prerelease
+- Update relay, drivers, iin-agent image registry to hyperledger/cacti
+- Update npm packages (protos-js and sdks) registry to cacti
+- Update maven packages registry to cacti
+- Rename sdks/besu/interoperation-node-sdk to sdks/besu/node
+- Rename modules with following convention `<module-type>-<dlt-platform>`:
+    - For SDKs: `sdk.corda`, `sdk-fabric`, `sdk-besu`
+    - For drivers: `driver-corda`, `driver-fabric`
+    - For interoperation modules: `imodule.corda`
+- Change all packages version to v2.0.0-alpha-prerelease
             </td>
         </tr>
     </table>

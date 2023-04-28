@@ -120,30 +120,3 @@ Please review and let me know if any further changes are required.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/809" class=".btn">#809</a>
-            </td>
-            <td>
-                <b>
-                    Unit test for enum SerializableObjectWithState
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix: #774 
-Add unit test for `serialization` and `deserialization` of enum ``SerializeableObjectWithState``.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-21 11:08:58 +0000 UTC
-    </div>
-</div>
-

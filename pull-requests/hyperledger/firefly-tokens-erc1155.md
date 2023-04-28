@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/120" class=".btn">#120</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/121" class=".btn">#121</a>
             </td>
             <td>
                 <b>
-                    MTLS support
+                    Mtls support
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
                 
             </td>
             <td>
-                <nil>
+                Adds support for configuring the token connector with certificates to use when standing up the nest server. Providing the ceritificates will result in a TLS server that requests client certs on all API calls.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-26 12:26:20 +0000 UTC
+        Created At 2023-04-28 10:26:21 +0000 UTC
     </div>
 </div>
 
