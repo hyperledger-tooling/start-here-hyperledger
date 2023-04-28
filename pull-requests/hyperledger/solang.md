@@ -31,8 +31,8 @@ permalink: /pull-requests/hyperledger/solang
 
 - Updates to a `wasmi` version with the new API (that's a breaking change requiring some substantial changes anyways)
 - Reworked the API of `MockSubstrate` to hide all logic behind functions. This reduces the API surface to a set of functions on a struct, which will make future changes easier.
-- Re-implement the host functions so that they resemble pallet-contracts more closely
-- Introducing separation between Wasm modules (= code), contracts (= code + storage) and accounts (= address +balance + optional contract). This ties the mock implementation closer to how real nodes work, additionally it'll make implementing more features in the future easier.
+- Re-implement the host functions so that they resemble up-to-date pallet-contracts more closely
+- Introducing separation between Wasm modules (= code), contracts (= code + storage) and accounts (= address +balance + optional contract). This lines the mock implementation up a bit closer to how real nodes work, making implementing additional features in the future easier.
 
 I uncovered a bug in the process. The following contract (adapted from the `calls::try_catch_constructor` test) traps the execution with `MemoryOutOfBounds`:
 
@@ -62,7 +62,7 @@ contract other {
 }
 ```
 
-This code also fails on a real substrate contracts node. Hence I concluded that the out of bounds memory access likely stems from a bug in the compiler and disabled the failing test for now.
+This code also fails on a real substrate contracts node (though this returns just `ContractTrapped`, obscuring the underlying reason).. Hence I concluded that the out of bounds memory access most likely stems from a bug in the compiler and disabled the failing test for now.
             </td>
         </tr>
     </table>

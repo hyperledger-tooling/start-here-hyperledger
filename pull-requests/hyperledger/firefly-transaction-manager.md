@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/77" class=".btn">#77</a>
+                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/79" class=".btn">#79</a>
             </td>
             <td>
                 <b>
-                    feat: Update to latest firefly-common
+                    Update firefly-common
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
                 
             </td>
             <td>
-                **Note** still in draft as waiting on https://github.com/hyperledger/firefly-common/pull/65, tested using local version
-
-- incoporate the changes from ffresty that now returns an error on init
+                So that we can pull https://github.com/hyperledger/firefly-signer/releases/tag/v1.1.6 that uses this FF common, into firefly-evmconnect.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-20 13:37:54 +0000 UTC
+        Created At 2023-04-27 22:02:57 +0000 UTC
     </div>
 </div>
 

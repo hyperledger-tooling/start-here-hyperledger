@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/75" class=".btn">#75</a>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/79" class=".btn">#79</a>
             </td>
             <td>
                 <b>
-                    fix: Update to latest firefly-common resty
+                    Only require the -f parameter on the root command 
                 </b>
             </td>
         </tr>
@@ -27,14 +27,38 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
                 
             </td>
             <td>
-                **NOTE** This is an draft as it relies on a PR in firefly-common and firefly-transaction-manager
-- https://github.com/hyperledger/firefly-common/pull/65
-- https://github.com/hyperledger/firefly-transaction-manager/pull/77
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-20 15:43:43 +0000 UTC
+        Created At 2023-04-27 22:16:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/78" class=".btn">#78</a>
+            </td>
+            <td>
+                <b>
+                    Update signer to v1.1.6 and FFTM to v1.2.10
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-27 22:09:23 +0000 UTC
     </div>
 </div>
 

@@ -94,31 +94,3 @@ permalink: /pull-requests/hyperledger/cacti
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2401" class=".btn">#2401</a>
-            </td>
-            <td>
-                <b>
-                    feat(driver): added Monitor to fabric driver for missed events and other fixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. chore(testnet): upgrade fabric testnet to v2.5 in weaver and fix for mac
-2. feat(driver): added Monitor to fabric driver for missed events
-3. fix(weaversdk): ecies decrypt bug when z is less than 32Bytes
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-20 19:12:20 +0000 UTC
-    </div>
-</div>
-

@@ -1,13 +1,13 @@
 
-[39](https://github.com/hyperledger/firefly-signer/pull/39) Correct typo in updated image tag
+[79](https://github.com/hyperledger/firefly-evmconnect/pull/79) Only require the -f parameter on the root command 
 
-[327](https://github.com/hyperledger/iroha-java/pull/327) iroha-304: can_burn_asset_with_definition should work for
+[78](https://github.com/hyperledger/firefly-evmconnect/pull/78) Update signer to v1.1.6 and FFTM to v1.2.10
 
-[1029](https://github.com/hyperledger/fabric-samples/pull/1029) Fix build failure in full-stack-asset-transfer
+[161](https://github.com/hyperledger/aries-mobile-test-harness/pull/161) BCW stop Scrolling for iOS
 
-[503](https://github.com/hyperledger/fabric-test/pull/503) Bump CouchDB to 3.3.2 (release-2.5)
+[79](https://github.com/hyperledger/firefly-transaction-manager/pull/79) Update firefly-common
 
-[3](https://github.com/hyperledger/anoncreds-spec-v2/pull/3) Add GHA to publish spec on merge
+[3573](https://github.com/hyperledger/aries-framework-go/pull/3573) feat: support for optional field in presexch
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

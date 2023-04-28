@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/128" class=".btn">#128</a>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/132" class=".btn">#132</a>
             </td>
             <td>
                 <b>
-                    chore(js): update version
+                    fix(nodejs): compatible with Windows builds
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/aries-askar
                 
             </td>
             <td>
-                - When this is merged I will do a "publish wrappers" GH action.
-
+                closes #131 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-04 09:24:09 +0000 UTC
+        Created At 2023-04-27 18:49:50 +0000 UTC
     </div>
 </div>
 

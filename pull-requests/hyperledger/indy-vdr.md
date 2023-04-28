@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/182" class=".btn">#182</a>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/183" class=".btn">#183</a>
             </td>
             <td>
                 <b>
-                    fix(js): return body as string
+                    fix(nodejs): compatible with Windows builds
                 </b>
             </td>
         </tr>
@@ -27,14 +27,13 @@ permalink: /pull-requests/hyperledger/indy-vdr
                 
             </td>
             <td>
-                This is to prevent the reqId (which is a large number) from overflowing and changing
+                Signed-off-by: blu3beri <blu3beri@proton.me>
 
-We were running into this when implementing endorsement and needing to get the body of a request and send it to another agent. ACA-Py / the python wrapper als returns a string representation of the request when calling body
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-10 09:22:21 +0000 UTC
+        Created At 2023-04-27 18:49:52 +0000 UTC
     </div>
 </div>
 
