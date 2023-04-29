@@ -217,37 +217,3 @@ If this commit is good, I will continue working on resolving the remaining issue
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1285" class=".btn">#1285</a>
-            </td>
-            <td>
-                <b>
-                    The next part of a for loop is an expression, not a statement
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This should not parse:
-
-	contract C {
-	    function f() external {
-		for (uint256 i = 0; i < 100; uint256 x = 0) {}
-	    }
-	}
-
-Fixes https://github.com/hyperledger/solang/issues/1283.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-22 14:31:17 +0000 UTC
-    </div>
-</div>
-
