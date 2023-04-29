@@ -14,6 +14,77 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/463" class=".btn">#463</a>
+            </td>
+            <td>
+                <b>
+                    sync component data after fabric upgrade
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+When upgrading fabric, new features might become available. we need to sync the component data after a fabric upgrade.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-28 20:23:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/462" class=".btn">#462</a>
+            </td>
+            <td>
+                <b>
+                    fix doc links for different console builds
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Documentation update
+
+#### Description
+- Fix links to console documentation that were dependent on what type of console build it was.
+- removed some dead code
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-28 20:14:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/461" class=".btn">#461</a>
             </td>
             <td>
@@ -148,41 +219,6 @@ Update release notes.
     </table>
     <div class="right-align">
         Created At 2023-04-25 20:22:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/456" class=".btn">#456</a>
-            </td>
-            <td>
-                <b>
-                    fix the generic oauth strategy integration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-Fixes issues with the generic oauth login strategy. Its now possible to define your own scope.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-21 18:52:50 +0000 UTC
     </div>
 </div>
 

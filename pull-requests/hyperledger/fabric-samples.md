@@ -67,31 +67,3 @@ Also:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1026" class=".btn">#1026</a>
-            </td>
-            <td>
-                <b>
-                    Add test-network org3 affiliation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The org3 affiliation is needed when registering users for org3.
-
-Resolves https://github.com/hyperledger/fabric/issues/4155
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-21 21:47:54 +0000 UTC
-    </div>
-</div>
-
