@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4191" class=".btn">#4191</a>
+            </td>
+            <td>
+                <b>
+                    cleanup of the onboarding package + removed initializeEtcdraftConsenter
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. Cleaned dependencies on the onboarding package, so the package could be deleted.
+2. Removed initializeEtcdraftConsenter
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+- Test update
+
+#### Description
+
+As described in issue #4184.
+
+#### Additional details
+
+#### Related issues
+
+Issue: #4184.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-04-30 16:48:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4190" class=".btn">#4190</a>
             </td>
             <td>
@@ -35,6 +77,7 @@ permalink: /pull-requests/hyperledger/fabric
 #### Description
 
 Ordere v3: remove sys chan: clean consensus, remove InactiveChainRegistry from consenter
+Remove inactive.Chain
 
 #### Related issues
 
