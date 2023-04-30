@@ -81,7 +81,7 @@ Genesis isn't overloaded with inlined validator.
             </td>
             <td>
                 <b>
-                    [refactor]: Validator visitor
+                    [feature] #3435: Introduce validator visitor
                 </b>
             </td>
         </tr>
@@ -93,17 +93,17 @@ Genesis isn't overloaded with inlined validator.
                 ## Description
 
 `syn::visit::Visit` inspired visitor for validator. 
-Also validator can now carry state
+By the principle of least surprise the default implementation of `Validate` trait passes for every entity.
+Users can copy the code in `default_validator` and adjust it to their own needs if the require some sensible defaults
 
 ### Linked issue
 
-<!-- Duplicate the main issue and add additional issues closed by this PR. -->
-
-Closes #{issue_number} <!-- Replace with an actual number,  -->
+Closes  #3435
 
 ### Benefits
 
-It's super easy for the writer of validator to plug in their own validation + they get to share state during validation
+* It's easy for the writer of validator to plug in their own validation
+* users get to share state during validation
 
 ### Checklist
 
