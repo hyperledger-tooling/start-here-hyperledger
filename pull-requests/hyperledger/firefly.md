@@ -147,29 +147,3 @@ Once those are in I'll update this one
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1289" class=".btn">#1289</a>
-            </td>
-            <td>
-                <b>
-                    chore: remove deprecated config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">migration_consideration</span>
-            </td>
-            <td>
-                - Remove deprecated config for blockchain, tokens, factory, database, dex and shared storaged config
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-24 09:28:29 +0000 UTC
-    </div>
-</div>
-
