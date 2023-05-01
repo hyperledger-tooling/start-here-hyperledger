@@ -168,29 +168,3 @@ This PR also contains a fix to the BCW app guides select dismiss button.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/156" class=".btn">#156</a>
-            </td>
-            <td>
-                <b>
-                    Turn off retry attempts on failure for BCW tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR turns off the Test Failure Retry Attempts. The BC Wallet iOS full test run is taking up to 6 hours to run and is getting cancelled. This should cut the time down for the run so it doesn't get cancelled. When test failure are more infrequent, this can be turned back on.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-24 18:13:18 +0000 UTC
-    </div>
-</div>
-
