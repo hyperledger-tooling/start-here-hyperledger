@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mediator-service
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/74" class=".btn">#74</a>
+                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/76" class=".btn">#76</a>
             </td>
             <td>
                 <b>
-                    Update docs and settings in load testing sample.env
+                    WIP: Load Test against Multitenant Aca-Py
                 </b>
             </td>
         </tr>
@@ -27,41 +27,13 @@ permalink: /pull-requests/hyperledger/aries-mediator-service
                 
             </td>
             <td>
-                - Update ACA-Py set up to use Askar and Postgres 15
-- Update docs and settings in load testing sample.env
-
+                Very much a work in progress.
+Want to leverage locust load testing but against multitenant Aca-Py and log trace events for mediator AND multitenant Aca-Py into an ELK Stack.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-05 23:05:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/73" class=".btn">#73</a>
-            </td>
-            <td>
-                <b>
-                    Update ACA-Py set up to use Askar and Postgres 15
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-05 20:57:45 +0000 UTC
+        Created At 2023-04-30 18:41:18 +0000 UTC
     </div>
 </div>
 
