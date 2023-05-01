@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2225" class=".btn">#2225</a>
+            </td>
+            <td>
+                <b>
+                    [besu] add 'none' as a new option for transaction manager
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### **Commit to be reviewed.**
+---
+**feat(besu): add 'none' as a new option for transaction manager.**
+```
+Updated the following files to introduce the new option for transaction manager:
+	1. sample network-besu.yaml file.
+	2. deployment.yaml file of chart node_besu.
+	3. node_besu.tpl template.
+```
+
+fixes #2163
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-01 05:54:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2224" class=".btn">#2224</a>
             </td>
             <td>

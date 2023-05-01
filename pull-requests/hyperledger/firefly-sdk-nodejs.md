@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/65" class=".btn">#65</a>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/66" class=".btn">#66</a>
             </td>
             <td>
                 <b>
-                    Update sample so it works when copied & pasted into an empty file
+                    add `getTokenApprovals`
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-03 11:15:17 +0000 UTC
+        Created At 2023-05-01 02:56:04 +0000 UTC
     </div>
 </div>
 

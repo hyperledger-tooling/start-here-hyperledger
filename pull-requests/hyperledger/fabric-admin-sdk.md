@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-admin-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/121" class=".btn">#121</a>
+            </td>
+            <td>
+                <b>
+                    update document and release page CI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                update read me document and add release page CI prepare for v0.0.0 release.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-01 03:13:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/120" class=".btn">#120</a>
             </td>
             <td>
