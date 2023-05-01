@@ -5,7 +5,7 @@
 issues/hyperledger/*
 issues/hyperledger-labs/*
 issues/hyperledger/hyperledger.md @hyperledger-tooling/start-here-hyperledger-maintainers
-issues/hyperledger-labs/hyperledger-labs @hyperledger-tooling/start-here-hyperledger-maintainers
+issues/hyperledger-labs/hyperledger-labs.md @hyperledger-tooling/start-here-hyperledger-maintainers
 pull-requests/hyperledger/*
 pull-requests/hyperledger-labs/*
 pull-requests/hyperledger/hyperledger.md @hyperledger-tooling/start-here-hyperledger-maintainers
