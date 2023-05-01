@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1030" class=".btn">#1030</a>
+            </td>
+            <td>
+                <b>
+                    Fix DOKS section
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix markdown typo
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-01 17:55:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/1029" class=".btn">#1029</a>
             </td>
             <td>

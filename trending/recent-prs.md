@@ -1,13 +1,13 @@
 
-[1445](https://github.com/hyperledger/aries-framework-javascript/pull/1445) fix: Emit RoutingCreated event for mediator routing record
+[3578](https://github.com/hyperledger/aries-framework-go/pull/3578) chore: update component/models for transitive dependencies
 
-[1444](https://github.com/hyperledger/aries-framework-javascript/pull/1444) fix: migration of link secret
+[1030](https://github.com/hyperledger/fabric-samples/pull/1030) Fix DOKS section
 
-[3439](https://github.com/hyperledger/iroha/pull/3439) [refactor]: add prefix LOGGER_ to logger related environment variables
+[31](https://github.com/hyperledger-labs/weft/pull/31) Fix walletpath option in wallet command
 
-[4193](https://github.com/hyperledger/fabric/pull/4193) Update SmartBFT library to latest version
+[1446](https://github.com/hyperledger/aries-framework-javascript/pull/1446) feat: support for did:jwk and p-256, p-384, p-512
 
-[3438](https://github.com/hyperledger/iroha/pull/3438) [refactor]: Move `maximum_transactions_in_block` from queue to sumeragi config
+[464](https://github.com/hyperledger-labs/fabric-operations-console/pull/464) fixes orderer details panel not loading b/c bad id
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
