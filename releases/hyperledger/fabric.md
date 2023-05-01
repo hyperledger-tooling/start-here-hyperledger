@@ -15,62 +15,55 @@ permalink: /releases/hyperledger/fabric
         <tr>
             <td colspan="2">
                 <b>
-                    v2.2.11
+                    v2.5.1
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v2.2.11
+                    v2.5.1
                 </span>
             </td>
             <td>
-                v2.2.11 Release Notes - April 21, 2023
-======================================
-
-Improvements
-------------
-
-**peer - Log peer configuration upon startup**
-
-Log effective peer configuration upon startup at info level.
-Also log peer environment variables at debug level to help troubleshoot the source of peer config.
-[#4122](https://github.com/hyperledger/fabric/pull/4122)
-
+                v2.5.1 Release Notes - May 1, 2023
+==================================
 
 Fixes
 -----
 
-**peer and orderer - Restore support for PKCS11 MSPs that contain RSA certificate authorities**
+**Add go binary to fabric-tools docker image**
 
-While Fabric has never supported RSA for transaction signatures or validation,
-certificate authorities included in MSP definitions could be associated with
-RSA keys. This ability was inadvertently removed during the development of
-release 2.0 and prevented migration of some networks to a 2.x version.
-v2.2.2 added toleration for RSA public keys in CA certificates for the SW MSP implementation.
-This change adds toleration for RSA public keys in CA certificates for the PKCS11 MSP implementation.
-[#4128](https://github.com/hyperledger/fabric/pull/4128)
+Since the docker images are based on ubuntu rather than golang alpine image starting in v2.5,
+the go binary did not exist on the fabric-tools image as it did in prior releases.
+This change re-adds the go binary to the fabric-tools image,
+which is required if using the fabric-tools image to build and package go chaincodes.
+[#4177](https://github.com/hyperledger/fabric/pull/4177)
 
 
 Dependencies
 ------------
-
-Fabric v2.2.11 updates third party Go dependencies.
-
-Fabric v2.2.11 has been tested with the following dependencies:
+Fabric v2.5.1 has been tested with the following dependencies:
 * Go 1.20.3
-* CouchDB v3.2.2
+* CouchDB v3.3.2
 
-Fabric docker images on dockerhub utilize Alpine 3.16.
+Fabric docker images on dockerhub utilize Ubuntu 20.04.
+
 
 Deprecations (existing)
 -----------------------
 
+**Ordering service system channel is deprecated**
+
+v2.3 introduced the ability to manage an ordering service without a system channel.
+Managing an ordering service without a system channel has privacy, scalability,
+and operational benefits. The use of a system channel is deprecated and may be removed in a future release.
+For information about removal of the system channel, see the [Create a channel without system channel documentation](https://hyperledger-fabric.readthedocs.io/en/release-2.3/create_channel/create_channel_participation.html).
+
 **FAB-15754: The 'Solo' consensus type is deprecated.**
 
 The 'Solo' consensus type has always been marked non-production and should be in
-use only in test environments, however for compatibility it is still available,
+use only in test environments; however, for compatibility it is still available,
 but may be removed entirely in a future release.
 
 **FAB-16408: The 'Kafka' consensus type is deprecated.**
@@ -85,7 +78,7 @@ Additionally, the fabric-kafka and fabric-zookeeper docker images are no longer 
 **Fabric CouchDB image is deprecated**
 
 v2.2.0 added support for CouchDB 3.1.0 as the recommended and tested version of CouchDB.
-If prior versions are utilized, a Warning will appear in peer log.
+If prior versions are utilized, a Warning will appear in the peer log.
 Note that CouchDB 3.1.0 requires that an admin username and password be set,
 while this was optional in CouchDB v2.x. See the
 [Fabric CouchDB documentation](https://hyperledger-fabric.readthedocs.io/en/v2.2.0/couchdb_as_state_database.html#couchdb-configuration)
@@ -100,7 +93,7 @@ Utilize the new 'OrdererEndpoints' stanza within the channel configuration of an
 Configuring orderer endpoints at the organization level accommodates
 scenarios where orderers are run by different organizations. Using
 this configuration ensures that only the TLS CA certificates of that organization
-are used for orderer communications, in contrast to the global channel level endpoints which
+are used for orderer communications; in contrast to the global channel level endpoints which
 would cause an aggregation of all orderer TLS CA certificates across
 all orderer organizations to be used for orderer communications.
 
@@ -108,7 +101,7 @@ all orderer organizations to be used for orderer communications.
 
 The `--outputAnchorPeersUpdate` mechanism for updating anchor peers has always had
 limitations (for instance, it only works the first time anchor peers are updated).
-Instead, anchor peer updates should be performed through the normal config update flow.
+Instead, anchor peer updates should be performed through channel configuration updates.
 
 **FAB-15406: The fabric-tools docker image is deprecated**
 
@@ -121,7 +114,7 @@ to Fabric runtime components, regardless of where the Fabric components are runn
 
 Block dissemination via gossip is deprecated and may be removed in a future release.
 Fabric peers can be configured to receive blocks directly from an ordering service
-node by using the following configuration:
+node, and not gossip blocks, by using the following configuration:
 ```
 peer.gossip.orgLeader: true
 peer.gossip.useLeaderElection: false
@@ -142,11 +135,11 @@ for chaincodes. For more details see the
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/fabric/releases/tag/v2.2.11" class=".btn">
+    <a href="https://github.com/hyperledger/fabric/releases/tag/v2.5.1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-04-21 16:09:44 +0000 UTC
+        Created At 2023-05-01 07:17:38 +0000 UTC
     </span>
 </div>
 
