@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
                 
             </td>
             <td>
-                <nil>
+                Adding support for querying token approvals. 
             </td>
         </tr>
     </table>

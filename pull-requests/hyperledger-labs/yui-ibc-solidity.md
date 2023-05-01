@@ -166,29 +166,3 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/179" class=".btn">#179</a>
-            </td>
-            <td>
-                <b>
-                    Update ganache version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                use a new repository(`trufflesuite/ganache`) and update version to v7.8.0
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-24 07:19:52 +0000 UTC
-    </div>
-</div>
-
