@@ -163,29 +163,3 @@ Cc: @DaniPopes
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1287" class=".btn">#1287</a>
-            </td>
-            <td>
-                <b>
-                    Disable default features for lalrpop
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                `lalrpop` currently has [2 default features](https://docs.rs/crate/lalrpop/latest/features): `lexer`, and `pico-args` for the CLI binary. Neither are being used, and it is recommended to disable default features when the lalrpop lexer is not needed: <https://lalrpop.github.io/lalrpop/quick_start_guide.html>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-24 22:06:49 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1034" class=".btn">#1034</a>
+            </td>
+            <td>
+                <b>
+                    Update java chaincode to Fabric v2.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update java chaincode to use Fabric v2.5 shim.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-01 21:16:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1033" class=".btn">#1033</a>
+            </td>
+            <td>
+                <b>
+                    Update test-network-k8s to Fabric v2.5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update test-network-k8s to use Fabric v2.5.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-01 21:13:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1032" class=".btn">#1032</a>
+            </td>
+            <td>
+                <b>
+                    Update CI to Fabric v2.5.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update CI to use Fabric v2.5.1.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-01 21:11:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/1030" class=".btn">#1030</a>
             </td>
             <td>

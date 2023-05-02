@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/76" class=".btn">#76</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/77" class=".btn">#77</a>
             </td>
             <td>
                 <b>
-                    Handle Transaction write requests that can contain multiple Private Data or Public data details
+                    Add collection configuration file in the approve and commit
                 </b>
             </td>
         </tr>
@@ -27,38 +27,15 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
                 
             </td>
             <td>
-                This PR contains the changeset to handle write transaction requests that can contain multiple Private data or Public data details. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-19 04:23:37 +0000 UTC
-    </div>
-</div>
+                1. Pass the collection configuration file as json file in the approve and commit operation flows.
+2. The passed file will be passed along the lifecycle Fabric commands.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/75" class=".btn">#75</a>
-            </td>
-            <td>
-                <b>
-                    Increment version after release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">auto-version-increment</span>
-            </td>
-            <td>
-                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
+[Reviewers] Test cases will be added in later PRs.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-19 04:02:11 +0000 UTC
+        Created At 2023-05-01 21:53:07 +0000 UTC
     </div>
 </div>
 
