@@ -63,6 +63,10 @@ Updated the following files to introduce the new option for transaction manager:
 	1. sample network-besu.yaml file.
 	2. deployment.yaml file of chart node_besu.
 	3. node_besu.tpl template.
+	
+In addition to the above changes, I also made the following updates:
+	1. added a label to the job.yaml file of the generate_ambassador_certs chart
+	2. corrected playbook names in the add-new-organization.yaml file
 ```
 
 fixes #2163
