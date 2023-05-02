@@ -14,6 +14,90 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2223" class=".btn">#2223</a>
+            </td>
+            <td>
+                <b>
+                    Disable webhook trigger on initial response to multi-use connection invitation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Disable the webhook emitter when cloning a multi-use connection record, as it is "overhead": the webhook is fired once when the multi-use invitation is created, and subsequent interactions should only fire for subsequent updates of the new (cloned, contact-specific) connection record.
+
+Fixes #2217 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-02 18:08:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2222" class=".btn">#2222</a>
+            </td>
+            <td>
+                <b>
+                    Fix formatting and grammatical errors in different readme's
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Noticed some of the docs contain formatting errors and could do with some improved grammar. Content stays the same with grammar fixed (shoutout to GPT-4)
+
+Files improved:
+- AdminAPI.md
+- AnoncredsProofValidation.md
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-02 17:50:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2221" class=".btn">#2221</a>
+            </td>
+            <td>
+                <b>
+                    Fix broken link in README
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Link to the Trust Over IP framework PDF was broken, now fixed. All other links confirmed working
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-02 17:01:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2220" class=".btn">#2220</a>
             </td>
             <td>

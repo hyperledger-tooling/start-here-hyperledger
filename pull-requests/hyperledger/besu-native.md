@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/106" class=".btn">#106</a>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/107" class=".btn">#107</a>
             </td>
             <td>
                 <b>
-                    Add gnark mimc
+                    rename mimc to gnark
                 </b>
             </td>
         </tr>
@@ -27,31 +27,12 @@ permalink: /pull-requests/hyperledger/besu-native
                 
             </td>
             <td>
-                # Add gnark mimc to the besu native project
-
-Tested if we have memory link thanks to Visual VM and it's fine
-
-```java
- public static void main(String[] args) {
-        for (int j = 0; j < 1000000000; j++) {
-            MutableBytes input = MutableBytes.of(new byte[Bytes32.SIZE*16]);
-            for (int i = 0; i < 16; i++) {
-                input.set(Bytes32.SIZE*(i+1)-i,((byte)((byte) i+(byte) j)));
-            }
-            byte[] output = new byte[Bytes32.SIZE];
-            LibMimc.compute(input.toArrayUnsafe(), input.size(), output);
-            System.out.println(Bytes32.wrap(output));
-        }
-
-    }
-```
-![image](https://user-images.githubusercontent.com/26581503/228853172-297b909f-ae97-44b5-aa00-941d7d6358f0.png)
-
+                rename mimc library to gnark 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-30 13:32:39 +0000 UTC
+        Created At 2023-05-02 13:19:17 +0000 UTC
     </div>
 </div>
 
