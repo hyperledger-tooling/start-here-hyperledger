@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2228" class=".btn">#2228</a>
+            </td>
+            <td>
+                <b>
+                    [ci-skip] add app labels on helm chart jobs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Change log**
+
+- Fixes retry exhaust on job check roles
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-02 07:52:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2227" class=".btn">#2227</a>
+            </td>
+            <td>
+                <b>
+                    [ci-skip] Revert "flux optimisation"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Reverts hyperledger/bevel#2224
+
+Helm releases are not getting installed post this change, reverting the PR. Kindly test and and create PR. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-02 07:44:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2226" class=".btn">#2226</a>
             </td>
             <td>

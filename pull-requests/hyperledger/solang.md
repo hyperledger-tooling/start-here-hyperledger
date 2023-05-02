@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1293" class=".btn">#1293</a>
+            </td>
+            <td>
+                <b>
+                    Fix build with lalrpop 0.19.12
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The 0.19.12 version of the lalrpop crate broke the build.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-02 09:02:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1291" class=".btn">#1291</a>
             </td>
             <td>
@@ -134,32 +160,6 @@ Cc: @DaniPopes
     </table>
     <div class="right-align">
         Created At 2023-04-25 16:10:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1288" class=".btn">#1288</a>
-            </td>
-            <td>
-                <b>
-                    Use ethereum solidity v0.8.19 testdata
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                After the testdata directory was moved out of solang-parser, the submodule commit was changed somehow (did not show up in git diff).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-25 12:28:00 +0000 UTC
     </div>
 </div>
 
