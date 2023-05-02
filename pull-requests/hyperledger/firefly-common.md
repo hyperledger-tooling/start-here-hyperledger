@@ -29,8 +29,6 @@ permalink: /pull-requests/hyperledger/firefly-common
             <td>
                 Add a TLS configuration for the WS client.
 
-
-Notice I had to change the config `IsSet` function as it wasn't using the full prefix to find the value, and Viper needs the whole path to determine if a key is set
             </td>
         </tr>
     </table>
