@@ -248,31 +248,3 @@ PR commit had commit message and authorship broken due to a rebase, will re-push
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3566" class=".btn">#3566</a>
-            </td>
-            <td>
-                <b>
-                    perf: remove extra parsing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                verifySignature does not require parsed claims to do that functionality. we already parsing claims in many other places.
-![image](https://user-images.githubusercontent.com/3065048/234279813-37d7d469-fec9-4e60-8565-ed4a40ce6903.png)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-25 12:41:27 +0000 UTC
-    </div>
-</div>
-

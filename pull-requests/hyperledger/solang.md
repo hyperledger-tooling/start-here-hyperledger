@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1294" class=".btn">#1294</a>
+            </td>
+            <td>
+                <b>
+                    Update ink! caller integration test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updates the caller contract to use the latest ink! release. I also re-structured the solidity code to try and make what's going on in there obvious. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-02 14:25:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1293" class=".btn">#1293</a>
             </td>
             <td>
@@ -94,72 +120,6 @@ This code also fails on a real substrate contracts node (though this returns jus
     </table>
     <div class="right-align">
         Created At 2023-04-27 11:38:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1290" class=".btn">#1290</a>
-            </td>
-            <td>
-                <b>
-                    storage references return values must be set
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                solc permits returns values to not have a value assigned, unless its a storage reference. This means that
-
-	function foo() public returns (bool) {}
-
-compiles without warnings, however
-
-	function bar() public returns (string storage) {}
-
-fails with an error diagnostic.
-
-This PR also changes the `contract_testcases`. The expected diagnostics are listed in the source file, in the same way as this is done for solc tests. This makes the `contract_testcases` much more useful. 
-
-I am wondering if there is much justification for keeping the .dot files in the repo any more. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-25 17:19:11 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1289" class=".btn">#1289</a>
-            </td>
-            <td>
-                <b>
-                    Solidity keywords were not correctly handled in yul
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Many Solidity keywords like `abstract` were incorrectly handled as keywords in yul. 
-
-Cc: @DaniPopes
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-25 16:10:28 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/825" class=".btn">#825</a>
+            </td>
+            <td>
+                <b>
+                    Cleanup/ffi leftovers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-02 15:31:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/824" class=".btn">#824</a>
+            </td>
+            <td>
+                <b>
+                    Fix setting txn author agreement
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-02 14:58:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/823" class=".btn">#823</a>
+            </td>
+            <td>
+                <b>
+                    Refactor of the iOS CI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This refactor aims to improve the CI speed of the iOS build by removing unnecessary targets and vendoring our own build scripts for the libsodium and zeromq libraries (to avoid some unnecessary operations from the previous scripts).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-02 12:34:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/818" class=".btn">#818</a>
             </td>
             <td>

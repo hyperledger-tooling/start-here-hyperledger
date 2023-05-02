@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/bevel-samples
             </td>
             <td>
                 <b>
-                    feat(shared): updated repo and chart path
+                    [ci-skip] updated repo and chart path
                 </b>
             </td>
         </tr>
