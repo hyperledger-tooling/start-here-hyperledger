@@ -1,13 +1,13 @@
 
-[162](https://github.com/hyperledger/iroha-javascript/pull/162) Iroha `2.0.0-pre-rc.15` update
+[1295](https://github.com/hyperledger/solang/pull/1295) Casting a pointer to int will truncate the value on 64 bit (e.g. BPF)
 
-[1296](https://github.com/hyperledger/firefly/pull/1296) Retry tokens events consistent with FFDX, as we cannot push back nack
+[5428](https://github.com/hyperledger/besu/pull/5428) Fix the number of RocksDB log files to 5 with 100 MB each
 
-[5420](https://github.com/hyperledger/besu/pull/5420) TEST 
+[5426](https://github.com/hyperledger/besu/pull/5426) Fix RocksDB missing metrics issue
 
-[739](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/739) chore: update and export theme interfaces
+[5425](https://github.com/hyperledger/besu/pull/5425) Ban zero blob transactions
 
-[1295](https://github.com/hyperledger/firefly/pull/1295) Handle duplicate pool locators properly
+[4195](https://github.com/hyperledger/fabric/pull/4195) Remove requests from BFT memory pool when syncing
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

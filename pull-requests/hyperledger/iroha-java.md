@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/iroha-java
             </td>
             <td>
                 <b>
-                    feature (issue 320): added block streaming support + test
+                    [feature] (#320): added block streaming support + test
                 </b>
             </td>
         </tr>
@@ -70,7 +70,7 @@ permalink: /pull-requests/hyperledger/iroha-java
             </td>
             <td>
                 <b>
-                    iroha-324: Support JSON genesis block for integration tests
+                    [feature] (#324): Support JSON genesis block for integration tests
                 </b>
             </td>
         </tr>

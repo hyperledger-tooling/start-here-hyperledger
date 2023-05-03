@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">skip-ios</span><span class="chip">skip-android</span><span class="chip">skip-napi-m1</span>
             </td>
             <td>
                 <nil>
@@ -53,7 +53,8 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                <nil>
+                - 0.55.0 release contained bug that transaction author agreement doesn't get set up in global settings state of aries-vcx-core, therefore ledger writes doesn't work for indy ledgers which require transaction author agreement
+- this fixes the issue
             </td>
         </tr>
     </table>
@@ -166,32 +167,6 @@ Add unit test for serialization and deserialization of enum SerializeableObjectW
     </table>
     <div class="right-align">
         Created At 2023-04-28 12:47:09 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/813" class=".btn">#813</a>
-            </td>
-            <td>
-                <b>
-                    Release 0.55.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-26 09:09:14 +0000 UTC
     </div>
 </div>
 

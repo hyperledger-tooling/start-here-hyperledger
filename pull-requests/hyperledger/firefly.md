@@ -33,6 +33,8 @@ permalink: /pull-requests/hyperledger/firefly
 firefly_core_0_1  | [2023-04-30T00:35:08.431Z] DEBUG Calling TokenPoolCreated callback. Locator='address=0x8875e026c26cedc2ab9880ac56d31e328428db73&schema=ERC20WithData&type=fungible' TX=token_pool/66fffabe-5b11-4118-abc2-50b95877654d pid=1 proto=fftokens role=event-loop
 firefly_core_0_1  | [2023-04-30T00:35:08.431Z] ERROR Event loop exiting (FF10446: Namespace 'default' is not started). Terminating server! pid=1 proto=fftokens role=event-loop
 ```
+
+Also made a change to both FFDX and FFTokens to split `eventRetry` out from `retry` in the config, as I realized looking at this PR that the config was overlapping with the `ffresty` config for request retry.
             </td>
         </tr>
     </table>
