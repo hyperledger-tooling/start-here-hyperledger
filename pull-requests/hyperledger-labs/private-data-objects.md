@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/436" class=".btn">#436</a>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/438" class=".btn">#438</a>
             </td>
             <td>
                 <b>
-                    Move wawaka contract tests to cmake
+                    Rewrite docker support
                 </b>
             </td>
         </tr>
@@ -27,16 +27,36 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
                 
             </td>
             <td>
-                Move from the Makefile driven tests to cmake
-driven tests for the wawaka contracts. This also
-cleans up a fair amount of duplicate code from
-the Makefile and CMakefile. And it allows a service host to be specified for the tests (which means
-you can run the tests against an eservice on a different server.
+                Rewrite the docker containerization
+    
+This is a complete rewrite of the dockerization of PDO. This
+approach is designed to grealy simplify deployment of containers
+for long running services. There are very few management tools
+included in the PR (that would be a separate project), but the
+documentation includes a fair amount of information on different
+patterns of use.
+    
+Several important differences:
+  
+* The build process mostly implements the separation of build,
+install, configure and run. base dockerfile sets up the basic
+build environment; pdo_base and ccf_base build the services and
+can be used for development; client, ccf and services are for
+running configured containers.
+
+* There is now a single way for passing in the repository that
+is used for building. By default it will be created in the directory
+where the docker images are built.
+
+* The client is separated from the services for both testing and
+deployment. This should improve testing and provide an image for
+clients to install to "kick the tires"
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-25 23:38:13 +0000 UTC
+        Created At 2023-05-03 16:00:03 +0000 UTC
     </div>
 </div>
 

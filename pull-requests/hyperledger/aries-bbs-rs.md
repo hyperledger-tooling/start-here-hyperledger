@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-bbs-rs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-bbs-rs/pull/2" class=".btn">#2</a>
+            </td>
+            <td>
+                <b>
+                    Initial merge
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-03 18:15:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-bbs-rs/pull/1" class=".btn">#1</a>
             </td>
             <td>

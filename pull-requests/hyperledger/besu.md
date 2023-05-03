@@ -568,36 +568,3 @@ This PR adds an API that can be used to select Transactions while they are added
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5392" class=".btn">#5392</a>
-            </td>
-            <td>
-                <b>
-                    remove zero lead bytes of log
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">performance</span><span class="chip">mainnet</span><span class="chip">TeamChupa</span><span class="chip">forest</span><span class="chip">bonsai</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-26 13:56:30 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2230" class=".btn">#2230</a>
+            </td>
+            <td>
+                <b>
+                    [shared ]: fix job retries
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Change Log
+
+- fix job retries
+#2229 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-03 12:52:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2228" class=".btn">#2228</a>
             </td>
             <td>
@@ -159,57 +188,6 @@ fixes #2163
     </table>
     <div class="right-align">
         Created At 2023-04-28 05:44:31 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2223" class=".btn">#2223</a>
-            </td>
-            <td>
-                <b>
-                    [ci-skip] Reset network doesn't clean all git release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Primary Changes
---------------
-1. Fixed deletion of realese files.
-2. Fixed issue of detecting the completion of vault-k8s-job 
-3 .Fixed undefined variable error in task to check if vault-k8s-job has completed
-
-Modifications in roles and tpl files
------------------------
-platforms/r3-corda/configuration/roles/create/k8_component/Readme.md 
-platforms/r3-corda/configuration/roles/create/k8_component/tasks/main.yaml 
-platforms/r3-corda/configuration/roles/create/k8_component/vars/main.yaml 
-platforms/r3-corda/configuration/roles/create/node_component/Readme.md 
-platforms/r3-corda/configuration/roles/create/node_component/tasks/main.yaml 
-platforms/r3-corda/configuration/roles/setup/doorman/Readme.md 
-platforms/r3-corda/configuration/roles/setup/doorman/tasks/main.yml 
-platforms/r3-corda/configuration/roles/setup/nms/Readme.md 
-platforms/r3-corda/configuration/roles/setup/nms/tasks/main.yaml 
-platforms/r3-corda/configuration/roles/setup/node/Readme.md 
-platforms/r3-corda/configuration/roles/setup/node/tasks/main.yaml 
-platforms/r3-corda/configuration/roles/setup/notary/Readme.md 
-platforms/r3-corda/configuration/roles/setup/notary/tasks/main.yaml 
-platforms/r3-corda/releases/README.md
-platforms/shared/charts/vault-k8s-mgmt/templates/job.yaml platforms/shared/configuration/roles/check/helm_component/Readme.md platforms/shared/configuration/roles/check/helm_component/tasks/main.yaml platforms/shared/configuration/roles/setup/vault_kubernetes/tasks/main.yaml
-
-Fixes
-#2220 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-26 16:01:10 +0000 UTC
     </div>
 </div>
 

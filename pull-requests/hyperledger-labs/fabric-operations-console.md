@@ -186,38 +186,3 @@ fields:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/458" class=".btn">#458</a>
-            </td>
-            <td>
-                <b>
-                    fix docker tag
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-Change command to get tag from git, to add to docker image.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-26 14:03:47 +0000 UTC
-    </div>
-</div>
-
