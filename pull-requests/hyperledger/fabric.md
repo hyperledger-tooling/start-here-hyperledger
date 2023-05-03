@@ -236,30 +236,3 @@ Epic: #3511
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4181" class=".btn">#4181</a>
-            </td>
-            <td>
-                <b>
-                    Add RELEASING.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                RELEASING.md describes the release process.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-25 20:48:50 +0000 UTC
-    </div>
-</div>
-
