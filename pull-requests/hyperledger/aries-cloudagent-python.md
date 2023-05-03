@@ -55,11 +55,22 @@ Fixes #2217
                 
             </td>
             <td>
-                Noticed some of the docs contain formatting errors and could do with some improved grammar. Content stays the same with grammar fixed (shoutout to GPT-4)
+                I noticed some of the docs contain formatting errors and could do with some improved spelling/grammar. Content stays the same.
 
-Files improved:
+List of files changed:
+
+Very minor linting improvements, such as indenting or languages added for better code block formatting:
+- DIDMethods.md
+- DIDResolutions.md
+- Multitenancy.md
+- UnitTests.md
+
+Spellchecked as well (shoutout to GPT-4):
 - AdminAPI.md
 - AnoncredsProofValidation.md
+- UsingOpenAPI.md
+
+There are too many readme's to make a bunch more minor edits. Most others seem fine, but these above could do with improvement
             </td>
         </tr>
     </table>
