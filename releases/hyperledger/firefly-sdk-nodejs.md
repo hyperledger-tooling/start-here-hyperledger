@@ -15,6 +15,38 @@ permalink: /releases/hyperledger/firefly-sdk-nodejs
         <tr>
             <td colspan="2">
                 <b>
+                    v1.2.9
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v1.2.9
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Use Readable for return type of getDataBlob by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/68
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.2.8...v1.2.9
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.2.9" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-05-03 19:49:03 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v1.2.8
                 </b>
             </td>
