@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
             </td>
             <td>
                 <b>
-                    Remove truffle dependency and switch to use forge
+                    Switch to use forge for development
                 </b>
             </td>
         </tr>
@@ -27,7 +27,10 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
                 
             </td>
             <td>
-                <nil>
+                This PR aims to replace the following operations with forge:
+
+- Use the ABI definitions from the `forge build` artifacts to generate the contract bindings
+- Use `forge script` instead of truffle migrate
             </td>
         </tr>
     </table>
