@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4196" class=".btn">#4196</a>
+            </td>
+            <td>
+                <b>
+                    system channel clean up - msgprocessor package
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. Cleaned dependencies on system channel from the msgprocessor package.
+2. Removed templator usages.
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+- Test update
+
+#### Description
+
+As described in issue #4189.
+
+#### Additional details
+
+#### Related issues
+
+Issue: #4189.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-03 14:24:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4195" class=".btn">#4195</a>
             </td>
             <td>

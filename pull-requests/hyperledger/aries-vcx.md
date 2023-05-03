@@ -14,6 +14,86 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/828" class=".btn">#828</a>
+            </td>
+            <td>
+                <b>
+                    Basic implementation of did:web resolver
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">skip-ci</span>
+            </td>
+            <td>
+                Implementation of the `did:web` DID method resolver.
+
+https://w3c-ccg.github.io/did-method-web
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-03 14:41:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/827" class=".btn">#827</a>
+            </td>
+            <td>
+                <b>
+                    Do not run libvcx publishing from fork PRs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-03 14:25:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/826" class=".btn">#826</a>
+            </td>
+            <td>
+                <b>
+                     move common stuff from the messages crate to shared_vcx
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #821 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-03 13:55:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/825" class=".btn">#825</a>
             </td>
             <td>
@@ -24,7 +104,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
         <tr>
             <td>
-                <span class="chip">skip-ios</span><span class="chip">skip-android</span><span class="chip">skip-napi-m1</span>
+                
             </td>
             <td>
                 <nil>

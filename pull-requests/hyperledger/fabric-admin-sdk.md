@@ -62,31 +62,3 @@ permalink: /pull-requests/hyperledger/fabric-admin-sdk
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/118" class=".btn">#118</a>
-            </td>
-            <td>
-                <b>
-                    Improve performance of golangci-lint
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                For local linting (using 'make lint'), install and use Go binary, This runs much faster and does not require Docker to be running on the local machine.
-
-For automated builds, use the golangci-lint GitHub Action.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-26 14:38:42 +0000 UTC
-    </div>
-</div>
-
