@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4195" class=".btn">#4195</a>
+            </td>
+            <td>
+                <b>
+                    Remove requests from BFT memory pool when syncing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                When a BFT node commits a block, it goes through the transactions in the block and searches whether they exist in the in-memory pool, and if so, it removes them from the pool.
+
+When a follower node syncs blocks from another node, the requests of these blocks still remain in its request pool. They not only take up memory, but also holds the semaphore resources which throttle needlessly the client.
+
+This commit goes through the requests of a block that is committed through synchronization and removes them as well. This is needed because the library only sees the last block committed during synchronization and not the entire range.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-03 08:50:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4193" class=".btn">#4193</a>
             </td>
             <td>

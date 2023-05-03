@@ -114,29 +114,3 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/159" class=".btn">#159</a>
-            </td>
-            <td>
-                <b>
-                    BCW Dismiss app guide in dev mode
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR is for BC Wallet. The latest build, when dev mode is toggled redisplays the app guide on the home screen. This update dismisses that modal to continue with testing. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-26 10:57:21 +0000 UTC
-    </div>
-</div>
-
