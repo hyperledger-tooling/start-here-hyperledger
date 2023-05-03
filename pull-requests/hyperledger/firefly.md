@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1296" class=".btn">#1296</a>
+            </td>
+            <td>
+                <b>
+                    Retry tokens events consistent with FFDX, as we cannot push back nack
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Make this consistent with what we did for FFDX, and prevents a scenario on startup as seen in the integration test where a token event comes in before the namespace is started:
+
+```
+firefly_core_0_1  | [2023-04-30T00:35:08.431Z] DEBUG Calling TokenPoolCreated callback. Locator='address=0x8875e026c26cedc2ab9880ac56d31e328428db73&schema=ERC20WithData&type=fungible' TX=token_pool/66fffabe-5b11-4118-abc2-50b95877654d pid=1 proto=fftokens role=event-loop
+firefly_core_0_1  | [2023-04-30T00:35:08.431Z] ERROR Event loop exiting (FF10446: Namespace 'default' is not started). Terminating server! pid=1 proto=fftokens role=event-loop
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-03 04:24:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1295" class=".btn">#1295</a>
             </td>
             <td>
