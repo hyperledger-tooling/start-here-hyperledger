@@ -130,29 +130,3 @@ This PR changes the dependency used to handle the operations on elliptic curves 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3571" class=".btn">#3571</a>
-            </td>
-            <td>
-                <b>
-                    chore: update internal dependencies to latest component changes.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-27 14:33:11 +0000 UTC
-    </div>
-</div>
-

@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 <b>
-                    Solve YUL panics for EVM parsing tests
+                    Solve YUL panics for EVM semantic tests
                 </b>
             </td>
         </tr>
@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                I fixed a problem in which we were trying to fetch a function header that was not added to the set of processed headers, because there was an error in processing it.
             </td>
         </tr>
     </table>

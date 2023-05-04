@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/ursa
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/ursa/pull/233" class=".btn">#233</a>
+                PR <a href="https://github.com/hyperledger/ursa/pull/235" class=".btn">#235</a>
             </td>
             <td>
                 <b>
-                    Move to EOL
+                    Archive Ursa
                 </b>
             </td>
         </tr>
@@ -27,15 +27,14 @@ permalink: /pull-requests/hyperledger/ursa
                 
             </td>
             <td>
-                I propose moving Ursa to EOL status.
+                I merged the previous PR by accident.
 
-None of the maintainers have the time or bandwidth to work on it anymore.
-For any upstream projects, I'm happy to help migrate away from it within reason.
+@mikelodder7 once you publish a [new crate](https://crates.io/crates/ursa) let me know so I can merge this.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-24 20:01:42 +0000 UTC
+        Created At 2023-05-04 14:58:23 +0000 UTC
     </div>
 </div>
 
