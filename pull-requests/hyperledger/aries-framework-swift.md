@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/41" class=".btn">#41</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/43" class=".btn">#43</a>
             </td>
             <td>
                 <b>
-                    expose credential preview attribute constructor
+                    Fix proof request attribute bug.
                 </b>
             </td>
         </tr>
@@ -30,16 +30,16 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
                 # Checklist
 
 - [x] have run AriesFrameworkTests
-- [x]  I have run AllTests
+- [x] I have run AllTests
 
 # Description
 
-expose credential preview attribute constructor in public and set mime type as optional with default value (text/plain).
+ProofAttributeInfo.names should be an array type. counter party can request proof request with names.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-07 08:12:50 +0000 UTC
+        Created At 2023-05-04 01:41:02 +0000 UTC
     </div>
 </div>
 
