@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger-labs/private-data-objects
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/439" class=".btn">#439</a>
+            </td>
+            <td>
+                <b>
+                    Build python wheel for eservice and pservice
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">services</span><span class="chip">build</span>
+            </td>
+            <td>
+                This PR replaces the deprecated python .egg package format for the eservice and pservice with the python .whl format. This is achieved by using more recent python build and install tooling.
+
+Blocking #421. Addresses Task 1 of #437 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-03 23:27:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/private-data-objects/pull/438" class=".btn">#438</a>
             </td>
             <td>
