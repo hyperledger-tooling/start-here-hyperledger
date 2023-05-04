@@ -131,29 +131,3 @@ There are too many readme's to make a bunch more minor edits. Most others seem f
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2219" class=".btn">#2219</a>
-            </td>
-            <td>
-                <b>
-                    Update Alice Wants a JSON-LD Credential to fix invocation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Addresses issue #2215
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-26 21:03:41 +0000 UTC
-    </div>
-</div>
-
