@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/829" class=".btn">#829</a>
+            </td>
+            <td>
+                <b>
+                    First draft of new ledger traits
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">skip-ci</span>
+            </td>
+            <td>
+                PR aimed towards solving #815 as well as refactoring the other core traits (Wallet, AnonCreds).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-04 07:25:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/828" class=".btn">#828</a>
             </td>
             <td>
