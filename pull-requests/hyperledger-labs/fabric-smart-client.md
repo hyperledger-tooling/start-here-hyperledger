@@ -14,17 +14,17 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/473" class=".btn">#473</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-smart-client/pull/475" class=".btn">#475</a>
             </td>
             <td>
                 <b>
-                    Idemix Revocation
+                    introduce query policy
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">improvement</span>
             </td>
             <td>
                 <nil>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-smart-client
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-27 11:22:08 +0000 UTC
+        Created At 2023-05-04 12:56:00 +0000 UTC
     </div>
 </div>
 

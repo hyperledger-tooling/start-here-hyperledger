@@ -191,33 +191,3 @@ fields:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/460" class=".btn">#460</a>
-            </td>
-            <td>
-                <b>
-                    mustgather tool case 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-- Test update
-
-#### Description
- mustgather tool case and xpath method update
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-27 13:26:16 +0000 UTC
-    </div>
-</div>
-

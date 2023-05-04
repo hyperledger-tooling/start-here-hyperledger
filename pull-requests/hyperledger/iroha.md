@@ -152,9 +152,8 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
             <td>
                 ## Description
 
-<!-- Just describe what you did. -->
-
-<!-- Skip if the title of the PR is self-explanatory -->
+* removed support for asset conversion from the type system
+* improved ergonomics when using `Expression`s
 
 ### Linked issue
 

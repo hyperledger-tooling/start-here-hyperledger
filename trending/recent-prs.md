@@ -1,13 +1,13 @@
 
-[5432](https://github.com/hyperledger/besu/pull/5432) fix certs for PKCS11 acceptance tests
+[83](https://github.com/hyperledger/sawtooth-sdk-rust/pull/83) fix: Do not panic on channel send failures
 
-[2414](https://github.com/hyperledger/cacti/pull/2414) feat(openssl): version upgrade to v0.10.48 in cactus-plugin-keychain-vault
+[1299](https://github.com/hyperledger/firefly/pull/1299) Fix unique indexes for transfers/approvals to be per-namespace
 
-[829](https://github.com/hyperledger/aries-vcx/pull/829) First draft of new ledger traits
+[2](https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/2) Initial merge and workflow
 
-[79](https://github.com/hyperledger-labs/hlf-connector/pull/79) Increment version after release
+[99](https://github.com/hyperledger/homebrew-besu/pull/99) update version url and hash
 
-[329](https://github.com/hyperledger/iroha-java/pull/329) DONT MERGE
+[235](https://github.com/hyperledger/ursa/pull/235) Archive Ursa
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

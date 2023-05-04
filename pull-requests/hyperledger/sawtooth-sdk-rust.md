@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-rust
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-sdk-rust/pull/82" class=".btn">#82</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-sdk-rust/pull/83" class=".btn">#83</a>
             </td>
             <td>
                 <b>
-                    Move inactive maintainers to emeritus status
+                    fix: Do not panic on channel send failures
                 </b>
             </td>
         </tr>
@@ -27,21 +27,14 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-rust
                 
             </td>
             <td>
-                The TOC approved a requirement that maintainers
-that have not been active in over three to six
-months be move to emeritus status.
-
-These maintainers have not been active in over
-one year.
-
-hyperledger/toc#32
-
-Signed-off-by: Ry Jones <ry@linux.com>
+                * Use .map_err().ok() rather than expect, so message thread does not panic on rx drop
+* Lower logging to warm
+* Log socket errors
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-18 20:09:49 +0000 UTC
+        Created At 2023-05-04 17:48:05 +0000 UTC
     </div>
 </div>
 
