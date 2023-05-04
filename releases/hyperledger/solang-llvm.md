@@ -15,14 +15,14 @@ permalink: /releases/hyperledger/solang-llvm
         <tr>
             <td colspan="2">
                 <b>
-                    LLVM 15 release
+                    
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    llvm15-0
+                    llvm15-1
                 </span>
             </td>
             <td>
@@ -30,11 +30,11 @@ permalink: /releases/hyperledger/solang-llvm
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/solang-llvm/releases/tag/llvm15-0" class=".btn">
+    <a href="https://github.com/hyperledger/solang-llvm/releases/tag/llvm15-1" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-02-14 17:06:48 +0000 UTC
+        Created At 2023-05-04 15:24:09 +0000 UTC
     </span>
 </div>
 
