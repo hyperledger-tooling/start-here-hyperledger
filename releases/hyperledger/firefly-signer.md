@@ -15,6 +15,38 @@ permalink: /releases/hyperledger/firefly-signer
         <tr>
             <td colspan="2">
                 <b>
+                    v1.1.7
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v1.1.7
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* Update firefly-common to v1.2.10 by @peterbroadhurst in https://github.com/hyperledger/firefly-signer/pull/41
+
+
+**Full Changelog**: https://github.com/hyperledger/firefly-signer/compare/v1.1.6...v1.1.7
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/firefly-signer/releases/tag/v1.1.7" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-05-03 20:23:30 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     v1.1.6
                 </b>
             </td>
