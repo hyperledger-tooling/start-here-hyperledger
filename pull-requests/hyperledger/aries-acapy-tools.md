@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-tools
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-tools/pull/14" class=".btn">#14</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-tools/pull/15" class=".btn">#15</a>
             </td>
             <td>
                 <b>
-                    Update Dockerfile and publish workflow
+                    docs: minor corrections and clarifications to the README
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger/aries-acapy-tools
                 
             </td>
             <td>
-                - Add python version arg to Dockerfile
-- Publish workflow
-  - Add support for publishing pre-release images
-  - Add support for manually building off a git ref
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-12 17:30:29 +0000 UTC
+        Created At 2023-05-03 22:30:03 +0000 UTC
     </div>
 </div>
 

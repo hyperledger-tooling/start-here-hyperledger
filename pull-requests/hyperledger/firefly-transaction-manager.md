@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/80" class=".btn">#80</a>
+            </td>
+            <td>
+                <b>
+                    Update firefly-common to v1.2.10
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-03 20:25:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/79" class=".btn">#79</a>
             </td>
             <td>

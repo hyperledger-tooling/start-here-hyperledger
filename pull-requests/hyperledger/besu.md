@@ -263,7 +263,7 @@ next one would be ExecutionEngineCancunAcceptanceTest for shanghai -> cancun
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">testing</span><span class="chip">dev experience</span>
             </td>
             <td>
                 -validity 36500 needs to be specified for -gencert as well as -genkeypair
@@ -573,34 +573,6 @@ Fix the eth_feeHistory response. Seems that more rewards, baseFeePerGas and gasU
     </table>
     <div class="right-align">
         Created At 2023-04-27 12:14:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5396" class=".btn">#5396</a>
-            </td>
-            <td>
-                <b>
-                    Add plugin API to select Transactions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamRevenant</span><span class="chip">plugins</span>
-            </td>
-            <td>
-                ## PR description
-This PR adds an API that can be used to select Transactions while they are added to a block
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-27 06:10:30 +0000 UTC
     </div>
 </div>
 

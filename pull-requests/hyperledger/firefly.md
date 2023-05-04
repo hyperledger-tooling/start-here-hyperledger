@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1298" class=".btn">#1298</a>
+            </td>
+            <td>
+                <b>
+                    fix-1297
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #1297 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-03 19:03:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1296" class=".btn">#1296</a>
             </td>
             <td>
