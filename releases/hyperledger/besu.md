@@ -28,7 +28,7 @@ permalink: /releases/hyperledger/besu
             <td>
                 ## 23.4.0
 
-This quarterly update should be carefully reviewed by private network users before upgrading. This quarterly release contains a lot of new improvements but many breaking changes. We have deprecated GoQuorum-compatible privacy modes in this release, as well as IBFT1.0. If you require these, please consider migrating to new consensus algorithms or waiting for future releases. 
+This quarterly update is a recommended update for stakers, but should be carefully reviewed by private network users before upgrading. This quarterly release contains a lot of new improvements but many breaking changes. We have deprecated GoQuorum-compatible privacy modes in this release, as well as IBFT1.0. If you require these, please consider migrating to new consensus algorithms or waiting for future releases. 
 
 Highlights in this release include: 
 - RocksDB 8 upgrade that improves the performance of the underlying database.
