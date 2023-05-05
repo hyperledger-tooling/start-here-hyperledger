@@ -15,30 +15,30 @@ permalink: /releases/hyperledger/firefly-ethconnect
         <tr>
             <td colspan="2">
                 <b>
-                    v3.2.9
+                    v3.2.10
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v3.2.9
+                    v3.2.10
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Cleanup migrated contract JSON with full path by @peterbroadhurst in https://github.com/hyperledger/firefly-ethconnect/pull/231
+* Differentiate bytes vs. fixed length bytes in parameter packing by @jimthematrix  in https://github.com/hyperledger/firefly-ethconnect/pull/233
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.2.8...v3.2.9
+**Full Changelog**: https://github.com/hyperledger/firefly-ethconnect/compare/v3.2.9...v3.2.10
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.2.9" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-ethconnect/releases/tag/v3.2.10" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2022-10-12 14:42:46 +0000 UTC
+        Created At 2023-05-04 20:36:05 +0000 UTC
     </span>
 </div>
 
