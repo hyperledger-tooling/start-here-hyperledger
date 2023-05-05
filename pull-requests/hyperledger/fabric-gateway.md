@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/586" class=".btn">#586</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/587" class=".btn">#587</a>
             </td>
             <td>
                 <b>
-                    Flag dependency-check failures for CVSS score of Medium or higher
+                    Remove Netty dependency
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Following security recommendations of OpenSSF Best Practices.
+                Use Java gRPC instead of Netty API to establish TLS connections. Requires client application to add an appropriate gRPC channel service provider dependency, but also gives the client control of the library to be used rather than mandating Netty.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-28 14:34:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/585" class=".btn">#585</a>
-            </td>
-            <td>
-                <b>
-                    Add CODEOWNERS file
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Allows reviews to be automatically requested for pull requests.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-28 08:44:22 +0000 UTC
+        Created At 2023-05-05 14:33:47 +0000 UTC
     </div>
 </div>
 

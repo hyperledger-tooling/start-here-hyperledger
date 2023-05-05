@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/162" class=".btn">#162</a>
-            </td>
-            <td>
-                <b>
-                    BCW fix remove contact test to select testID
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR is for the BC Wallet Remove Contact test scenarios. The info/settings element for contacts has a new TestID and a changed accessibility label. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-28 13:43:08 +0000 UTC
-    </div>
-</div>
-

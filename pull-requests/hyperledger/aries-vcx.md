@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/830" class=".btn">#830</a>
+            </td>
+            <td>
+                <b>
+                    Verifier presentation failure adjustments
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes an emerging problem regarding the verifier not doing anything in case the presentation verification fails (a problem report might be generated, but not sent, so the prover would be in the dark). 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-05 08:39:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/829" class=".btn">#829</a>
             </td>
             <td>
@@ -247,32 +273,6 @@ Add unit test for serialization and deserialization of enum SerializeableObjectW
     </table>
     <div class="right-align">
         Created At 2023-04-30 16:45:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/816" class=".btn">#816</a>
-            </td>
-            <td>
-                <b>
-                    Fix README for deprecated link
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                `libvcx` is deprecated, the docs need to reflect that. The link in the docs to the deprecation notice seems to be broken. This PR fixes that.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-28 12:47:09 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-node/pull/1814" class=".btn">#1814</a>
+                PR <a href="https://github.com/hyperledger/indy-node/pull/1816" class=".btn">#1816</a>
             </td>
             <td>
                 <b>
-                    Documentation Updates
+                    fixed broken links
                 </b>
             </td>
         </tr>
@@ -27,16 +27,14 @@ permalink: /pull-requests/hyperledger/indy-node
                 
             </td>
             <td>
-                Cherry picked the `New Network from Scratch` documentation, 
-updated the `indy-cli` references to include `indy-cli-rs`
-and fixed the Python3.5 reference as pointed out in https://github.com/hyperledger/indy-node/pull/1811.
+                fixed broken links related to `auth_rules.md` in the page [Requests](https://hyperledger-indy.readthedocs.io/projects/node/en/latest/requests.html)
 
-Feel free to make changes to this PR, which is open for edits.
+issue #1683 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-24 10:32:03 +0000 UTC
+        Created At 2023-05-05 15:45:27 +0000 UTC
     </div>
 </div>
 
