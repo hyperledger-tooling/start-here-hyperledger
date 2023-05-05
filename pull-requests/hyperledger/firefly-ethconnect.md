@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/232" class=".btn">#232</a>
+                PR <a href="https://github.com/hyperledger/firefly-ethconnect/pull/233" class=".btn">#233</a>
             </td>
             <td>
                 <b>
-                    Create devcontainer.json
+                    Differentiate bytes vs. fixed bytes in encoding parameters
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/firefly-ethconnect
                 
             </td>
             <td>
-                Signed-off-by: octocat <106897621+lokera666@users.noreply.github.com>
+                fixes https://github.com/hyperledger/firefly-ethconnect/issues/133
+
+for a `bytes` parameter, to input an empty value, `0x` is the expected value. It fails the packing step and returns the error as described in the issue above.
+
+This fixes that issue by differentiating bytes vs. fixed length bytes, and returns a slice vs. fixed length array respectively
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-15 02:04:47 +0000 UTC
+        Created At 2023-05-04 20:33:31 +0000 UTC
     </div>
 </div>
 
