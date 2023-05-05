@@ -14,6 +14,74 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5439" class=".btn">#5439</a>
+            </td>
+            <td>
+                <b>
+                    Add option to send SNI header in TLS ClientHello message [#4894]
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+Adds an option to send an SNI header on a TLS ClientHello message.
+
+* add --Xp2p-tls-clienthello-sni option to enable the SNI header
+
+## Fixed Issue(s)
+fixes hyperledger#4894
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-05 09:59:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5438" class=".btn">#5438</a>
+            </td>
+            <td>
+                <b>
+                    Enable blobs on Blockchain and trie log column families
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Enable blobs on Blockchain and trie log column families.
+Only values that are bigger than 4 KiB are written to Blobs
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-05 09:09:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5436" class=".btn">#5436</a>
             </td>
             <td>
@@ -56,13 +124,18 @@ Implementation of this endpoint https://notes.ethereum.org/@yoav/SkaX2lS9j
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">doc-change-required</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+
+With this PR a new option (`--tx-pool-enable-save-restore`) is available, disabled by default, so current behavior is not changed, and when enabled it causes the txpool to save it content on file on shutdown and reloading it on startup, this is particularly useful to not lose locally submitted transactions during a restart, but could also useful to quickly warmup the txpool on restarts, without waiting for a good number of peers.
+From benchmark on a `m6a.xlarge` saving a txpool with 100000 transactions, takes less that a seconds, so it does not affect shutdown time, and restoring just few seconds, and it is done async, so it does not affect the startup time as well.
+
+On shutdown the content is save in a file, then after the reload is complete the file is deleted. By default the save file is located in the data dir, and named `txpool.dump`, but if needed it is possible to specify another path for the file with the option `--tx-pool-save-file`.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -534,43 +607,6 @@ allow custom module for json mapper
     </table>
     <div class="right-align">
         Created At 2023-04-28 14:55:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5407" class=".btn">#5407</a>
-            </td>
-            <td>
-                <b>
-                    add proofs to blobs bundle 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Add proofs to blobs bundle
-Add blobBundle to GetPayloadV3
-Todo: Possibly remove the EngineGetBlobsBundleV1 from the Engine API
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Fixes #5398
-Fixes #5399
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-28 07:55:02 +0000 UTC
     </div>
 </div>
 

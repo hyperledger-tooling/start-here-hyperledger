@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1298" class=".btn">#1298</a>
+            </td>
+            <td>
+                <b>
+                    Do not panic if variable accessor function has duplicate argument names
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This can only arise with nested mapping:
+
+```solidity
+contract test {
+    mapping(uint nameSame => mapping(uint name1 => mapping(uint nameSame => uint 
+name3) name6) name4) public name5;
+}
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-05 08:31:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1297" class=".btn">#1297</a>
             </td>
             <td>
@@ -70,7 +103,7 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 <b>
-                    Casting a pointer to int will truncate the value on 64 bit (e.g. BPF)
+                    Compare the full 64 bits address on Solana
                 </b>
             </td>
         </tr>
@@ -79,7 +112,12 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                vector_new() takes an initializer arguments, which has as special value
+for "no initializer". We should check the full 64 bits, rather than
+casting the lower 32 bits to int.
+
+This change exposes a bug in the old BPF target in Solana's LLVM fork. Switching 
+to the newer SBF target fixes the issue.
             </td>
         </tr>
     </table>
