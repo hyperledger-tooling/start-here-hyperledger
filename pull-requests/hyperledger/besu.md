@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5436" class=".btn">#5436</a>
+            </td>
+            <td>
+                <b>
+                    Send rawtx conditional
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Related to account abstraction. 
+
+Implementation of this endpoint https://notes.ethereum.org/@yoav/SkaX2lS9j
+* basically the same as eth_sendRawTransaction, with the ability to specify a number of conditions
+* have put X in the RPC name for now - spec may not be finalized
+* TODO check expected storageHash against blockchainQueries actual value (needs a new method to expose this)
+* TODO In case of repeated failures or knownAccounts too large, the error code SHOULD be -32005 (Limit exceeded) with a description of the error
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-05 05:24:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5434" class=".btn">#5434</a>
             </td>
             <td>
@@ -274,8 +306,6 @@ fixes #5401
 Splits Shanghai AT test cases out from paris.
 Idea is to have an AT per "fork transition", i.e. ExecutionEngineShanghaiAcceptanceTest for paris -> shanghai
 next one would be ExecutionEngineCancunAcceptanceTest for shanghai -> cancun
-
-(Currently built on top of https://github.com/hyperledger/besu/pull/5423
             </td>
         </tr>
     </table>
@@ -541,71 +571,6 @@ Fixes #5399
     </table>
     <div class="right-align">
         Created At 2023-04-28 07:55:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5406" class=".btn">#5406</a>
-            </td>
-            <td>
-                <b>
-                    Ensure parisSpecificModifications are unapplied for all subsequent forks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">mainnet</span>
-            </td>
-            <td>
-                ...not just Shanghai
-
-This is because you could have a genesis configured with e.g. cancunTime but leave shanghaiTime unconfigured.
-
-Fixes #5404
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-28 05:00:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5405" class=".btn">#5405</a>
-            </td>
-            <td>
-                <b>
-                    Decompose putMilestone into putBlockNumberMilestone and putTimestampMilestone
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Minor refactor for readability and clarity.
-
-Originally, I was trying to avoid timestamp or blockNumber details leaking outside of the ProtocolSchedule and its Builder.
-I wanted to remove putMilestone from the public interface entirely, since for the mainnet use case, this detail can be kept inside the ProtocolScheduleBuilder. 
-This would have meant building the milestones first and passing them into ProtocolSchedule's constructor, but this was not feasible given the way the ProtocolScheduleBuilder works, specifically the fact that ProtocolSpecBuilder relies on receiving a ProtocolSchedule which implies milestones must be added after the ProtocolSchedule itself has been constructed.
-
-Since my original plan is not feasible, I think this is a better approach if we have to support a public put operation anyway.
-
-Fixes #5354
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-28 04:10:32 +0000 UTC
     </div>
 </div>
 
