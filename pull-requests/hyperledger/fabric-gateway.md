@@ -62,30 +62,3 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/584" class=".btn">#584</a>
-            </td>
-            <td>
-                <b>
-                    Require at least Node 16 and Go 1.19
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Node 14 end of life is 2023-04-30.
-- Go 1.18 end of support 2023-02-01.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-27 20:01:28 +0000 UTC
-    </div>
-</div>
-

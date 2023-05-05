@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/165" class=".btn">#165</a>
+            </td>
+            <td>
+                <b>
+                    BCW Speed up Camera Policy Allow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR is for BC wallet tests. The Camera Policy page takes a long time to select Allow on iOS. Used the fastest find by routine (but still fairly long), hopefully that will be good enough. Revisit if not. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-04 19:28:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/164" class=".btn">#164</a>
             </td>
             <td>
@@ -85,58 +111,6 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     </table>
     <div class="right-align">
         Created At 2023-04-28 13:43:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/161" class=".btn">#161</a>
-            </td>
-            <td>
-                <b>
-                    BCW stop Scrolling for iOS
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR stops BC Wallet scrolling for iOS when a cred offer or proof request comes in. With large credentials it takes a long time to scroll. iOS will find the element anyway even if it is not in the viewport, unlike Android where scrolling has to happen. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-27 22:06:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/160" class=".btn">#160</a>
-            </td>
-            <td>
-                <b>
-                    Fix BCW environment setting for security tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The PR changes the ending of the security tests for BC Wallet which use to go ahead and change the environment to the test env. There is no need to do that in these tests, and saves minutes off of each test to remove it. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-27 18:48:36 +0000 UTC
     </div>
 </div>
 
