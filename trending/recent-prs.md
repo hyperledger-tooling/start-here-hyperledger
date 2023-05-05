@@ -1,11 +1,11 @@
 
+[233](https://github.com/hyperledger/firefly-ethconnect/pull/233) Differentiate bytes vs. fixed bytes in encoding parameters
+
+[466](https://github.com/hyperledger-labs/fabric-operations-console/pull/466) fix a few action buttons not rendering in modal + removed need for debug route
+
+[5434](https://github.com/hyperledger/besu/pull/5434) Txpool save restore
+
 [83](https://github.com/hyperledger/sawtooth-sdk-rust/pull/83) fix: Do not panic on channel send failures
-
-[1299](https://github.com/hyperledger/firefly/pull/1299) Fix unique indexes for transfers/approvals to be per-namespace
-
-[2](https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/2) Initial merge and workflow
-
-[99](https://github.com/hyperledger/homebrew-besu/pull/99) update version url and hash
 
 [235](https://github.com/hyperledger/ursa/pull/235) Archive Ursa
 

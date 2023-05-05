@@ -103,30 +103,3 @@ This PR changes the dependency used to handle the operations on elliptic curves 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3573" class=".btn">#3573</a>
-            </td>
-            <td>
-                <b>
-                    feat: support for optional field in presexch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Closes #3572
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-27 20:29:05 +0000 UTC
-    </div>
-</div>
-
