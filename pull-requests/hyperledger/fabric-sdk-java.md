@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/279" class=".btn">#279</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-java/pull/280" class=".btn">#280</a>
             </td>
             <td>
                 <b>
-                    Document deprecation as of Fabric v2.5
+                    Remove netty-tcnative-boringssl-static dependency
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-sdk-java
                 
             </td>
             <td>
-                <nil>
+                Not required since tcnative with BoringSSL is already included in grpc-netty-shaded dependency.
+    
+Also update Bouncy Castle dependency to implementations for Java 1.8 and later only.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-19 13:07:59 +0000 UTC
+        Created At 2023-05-05 14:03:40 +0000 UTC
     </div>
 </div>
 
