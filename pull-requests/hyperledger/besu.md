@@ -78,7 +78,7 @@ Creating a TrieLogService BesuService will be the last addition, still outstandi
             <td>
                 ## PR description
 
-Adds an option to send an SNI header on a TLS ClientHello message.
+Adds an option to send an SNI header on a TLS ClientHello message. Given the existing exposed options for the `TLSConfiguration`, I went for the `--Xp2p-tls-*` prefix for the new sni header option, in contrast to how it was stated in #4894 . Please let me know if you prefer otherwise.
 
 * add --Xp2p-tls-clienthello-sni option to enable the SNI header
 

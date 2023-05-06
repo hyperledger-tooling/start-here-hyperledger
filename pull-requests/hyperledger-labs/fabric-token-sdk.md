@@ -14,17 +14,17 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/470" class=".btn">#470</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-token-sdk/pull/471" class=".btn">#471</a>
             </td>
             <td>
                 <b>
-                    idemix revocation
+                    pp mgmt cleanup
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">cleanup</span>
             </td>
             <td>
                 <nil>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-28 12:52:25 +0000 UTC
+        Created At 2023-05-06 07:21:47 +0000 UTC
     </div>
 </div>
 
