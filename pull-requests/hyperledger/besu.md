@@ -14,6 +14,55 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5440" class=".btn">#5440</a>
+            </td>
+            <td>
+                <b>
+                    TrieLogFactory plugin support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Draft PR currently.  PR does some plumbing to get TrieLogs and TrieLogFactory into the plugin-api
+
+notable changes/rearrangement:
+    TrieLog, now plugin interface for TrieLogLayer
+    TrieLog.LogTuple, now plugin interface for BonsaiValue
+    TrieLogEvent
+    TrieLogObserver
+    TrieLogAccumulator, now plugin interface for BonsaiWorldStateUpdateAccumulator
+    StorageSlotKey, now in data-types
+    AccountValue, in data-types, now interface  for StateTrieAccountValue and BonsaiAccount
+    
+  writeRlp and writeInnerRlp moved from BonsaiValue into TrieLogFactory
+  TrieLog now exposes the account, code, and storage maps directly rather than only via stream
+    
+Creating a TrieLogService BesuService will be the last addition, still outstanding
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-06 02:35:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5439" class=".btn">#5439</a>
             </td>
             <td>
