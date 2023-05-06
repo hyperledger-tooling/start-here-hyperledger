@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/132" class=".btn">#132</a>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/137" class=".btn">#137</a>
             </td>
             <td>
                 <b>
-                    fix(nodejs): compatible with Windows builds
+                    fix(js): scan fetch record limit
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger/aries-askar
                 
             </td>
             <td>
-                closes #131 
+                There is an unnecessary chunk variable (inherited from previous Indy SDK implementation in AFJ) that is preventing `fetchAll` to retrieve all records when they are more than PAGE_SIZE. As a result, a given Scan cannot return more than 32 entries.
+
+Simply checking for `listHandle` (`scanNext` return value) validity seems to be enough to determine if there are no more matching records.
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-27 18:49:50 +0000 UTC
+        Created At 2023-05-05 18:22:31 +0000 UTC
     </div>
 </div>
 
