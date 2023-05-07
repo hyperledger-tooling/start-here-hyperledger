@@ -281,30 +281,3 @@ Fixes #799
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/817" class=".btn">#817</a>
-            </td>
-            <td>
-                <b>
-                    Unit test for enum SerializableObjectWithState
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix: https://github.com/hyperledger/aries-vcx/issues/774
-Add unit test for serialization and deserialization of enum SerializeableObjectWithState.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-30 16:45:04 +0000 UTC
-    </div>
-</div>
-

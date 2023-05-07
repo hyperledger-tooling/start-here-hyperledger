@@ -14,6 +14,82 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4208" class=".btn">#4208</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: remove ORDERER_TRANSACTION
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Change-Id: I97bdd9fbc60195bbaf7c4486e43dbf7f28bbff66
+
+#### Type of change
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+The ORDERER_TRANSACTION type is no longer used, reject it everywhere
+
+#### Related issues
+
+Issue: #3515 #4204
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-07 16:44:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4207" class=".btn">#4207</a>
+            </td>
+            <td>
+                <b>
+                    system channel cleanup - remove replicator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Cleaned dependencies on system channel from the `orderer/common/cluster/replication.go`.
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+- Test update
+
+#### Description
+
+As described in issue #4202 .
+
+#### Related issues
+
+Issue: #4202 .
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-07 15:14:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4201" class=".btn">#4201</a>
             </td>
             <td>
@@ -159,48 +235,6 @@ This commit goes through the requests of a block that is committed through synch
     </table>
     <div class="right-align">
         Created At 2023-05-01 02:44:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4191" class=".btn">#4191</a>
-            </td>
-            <td>
-                <b>
-                    cleanup of the onboarding package + removed initializeEtcdraftConsenter
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. Cleaned dependencies on the onboarding package, so the package could be deleted.
-2. Removed initializeEtcdraftConsenter
-
-#### Type of change
-
-- Improvement (improvement to code, performance, etc)
-- Test update
-
-#### Description
-
-As described in issue #4184.
-
-#### Additional details
-
-#### Related issues
-
-Issue: #4184.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-30 16:48:49 +0000 UTC
     </div>
 </div>
 
