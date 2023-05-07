@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/675" class=".btn">#675</a>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/678" class=".btn">#678</a>
             </td>
             <td>
                 <b>
-                    Changes by create-pull-request action
+                    fix(javascript): node-fetch types
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
                 
             </td>
             <td>
-                Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
+                Add node-fetch types to allow TypeScript compilation, and also downgrade base image to Ubuntu 20.04, as anoncreds-rs does not require a newer version of GLIBC anymore.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-26 02:47:48 +0000 UTC
+        Created At 2023-05-06 19:36:56 +0000 UTC
     </div>
 </div>
 

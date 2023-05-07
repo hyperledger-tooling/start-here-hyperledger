@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4201" class=".btn">#4201</a>
+            </td>
+            <td>
+                <b>
+                    Restrict WAL usage to node.go
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                See https://github.com/hyperledger/fabric/issues/4199
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-06 23:30:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4196" class=".btn">#4196</a>
             </td>
             <td>
