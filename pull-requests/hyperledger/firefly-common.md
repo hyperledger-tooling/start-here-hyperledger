@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/67" class=".btn">#67</a>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/68" class=".btn">#68</a>
             </td>
             <td>
                 <b>
-                    feat: Add tls configuration for wsclient upgrade
+                    Expose WrapCorsIfEnabled separate to HTTPServer
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-common
                 
             </td>
             <td>
-                Add a TLS configuration for the WS client.
-
+                … and address feedback from improved linter, some of which highlighted genuine issues.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-28 14:35:08 +0000 UTC
+        Created At 2023-05-07 16:40:12 +0000 UTC
     </div>
 </div>
 
