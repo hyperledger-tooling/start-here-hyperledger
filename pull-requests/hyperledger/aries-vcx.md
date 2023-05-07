@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/831" class=".btn">#831</a>
+            </td>
+            <td>
+                <b>
+                    this PR fixes #820 (Credential and Presentation attributes mime-type adjustments)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                as instructed AttrValue enum was created with two variants Plain and Encoded, the plain having { value: String } and Encoded with { value: String, mime_type: MaybeKnown<MimeType> }, which will facilitate in easy deserialization,
+
+the AttrValue has been used in both the attributes (CredentialAttr and PresentationAttr), and the unit tests have been adjusted accordingly,
+
+hope that this PR will solves the issue, any changes or feedback is welcomed
+
+Thank You,
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-07 10:09:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/830" class=".btn">#830</a>
             </td>
             <td>

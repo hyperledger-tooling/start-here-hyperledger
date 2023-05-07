@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2232" class=".btn">#2232</a>
+            </td>
+            <td>
+                <b>
+                    Add check-in condition "[indy]" for Indy test in PR title 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #734
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-07 07:30:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2231" class=".btn">#2231</a>
             </td>
             <td>
