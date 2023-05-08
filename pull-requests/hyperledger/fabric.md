@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4209" class=".btn">#4209</a>
+            </td>
+            <td>
+                <b>
+                    system channel cleanup - cleanup integration tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Cleaned dependencies on system channel from the integration tests.
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+- Test update
+
+#### Description
+
+As described in issue #4203 .
+
+#### Related issues
+
+Issue: #4203 .
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-08 11:58:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4208" class=".btn">#4208</a>
             </td>
             <td>
@@ -182,32 +221,6 @@ This commit goes through the requests of a block that is committed through synch
     </table>
     <div class="right-align">
         Created At 2023-05-03 08:50:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4193" class=".btn">#4193</a>
-            </td>
-            <td>
-                <b>
-                    Update SmartBFT library to latest version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-01 10:52:00 +0000 UTC
     </div>
 </div>
 

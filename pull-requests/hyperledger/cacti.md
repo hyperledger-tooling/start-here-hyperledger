@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2417" class=".btn">#2417</a>
+            </td>
+            <td>
+                <b>
+                    feat(connector-tcs-huawei):  Initial commit of feature tcs-huawei connector.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                tcs-huawei and the blockchains connected to tcs-huawei can be integrated to cactus by this connector.
+
+Signed-off-by: Wang Yinglun wangyinglun3@huawei.com 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-08 06:19:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2416" class=".btn">#2416</a>
             </td>
             <td>
