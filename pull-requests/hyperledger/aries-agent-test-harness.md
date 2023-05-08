@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/aries-agent-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/680" class=".btn">#680</a>
+            </td>
+            <td>
+                <b>
+                    Redis cluster for redis persistent queue
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Common component to provide a redis cluster if agents/plugins want to leverage in the future. 
+
+Alternate aca-py image that includes redis-events plugin and plugin config.
+
+To fix: 
+
+- [ ] Manage starting/stopping redis-cluster
+- [ ] Ensuring new network (with subnet) creation works
+- [ ] plugin startup param in backchannel is conditional
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-08 17:30:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-agent-test-harness/pull/679" class=".btn">#679</a>
             </td>
             <td>

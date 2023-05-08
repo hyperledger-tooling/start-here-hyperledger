@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1301" class=".btn">#1301</a>
+            </td>
+            <td>
+                <b>
+                    update dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updates some dependencies.
+
+Most notably inkwell 0.2.0 which now supports LLVM 16 :eyes: 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-08 13:49:28 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1300" class=".btn">#1300</a>
             </td>
             <td>

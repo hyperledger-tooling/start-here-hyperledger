@@ -115,37 +115,3 @@ The safe-url validation code was not working correctly if the legacy field `capo
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/464" class=".btn">#464</a>
-            </td>
-            <td>
-                <b>
-                    fixes orderer details panel not loading b/c bad id
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-Fixed the id error on the orderer details page.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-01 16:49:11 +0000 UTC
-    </div>
-</div>
-

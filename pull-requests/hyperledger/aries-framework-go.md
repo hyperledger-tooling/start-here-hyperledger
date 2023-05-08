@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3578" class=".btn">#3578</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3579" class=".btn">#3579</a>
             </td>
             <td>
                 <b>
-                    chore: update component/models for transitive dependencies
+                    chore: add ValidateJSONLDMap
                 </b>
             </td>
         </tr>
@@ -32,40 +32,7 @@ permalink: /pull-requests/hyperledger/aries-framework-go
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-01 18:07:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3577" class=".btn">#3577</a>
-            </td>
-            <td>
-                <b>
-                    fix: invalid creds IDs returned from match submission requirements.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-**Title:**
-Fix invalid creds IDs returned from MatchSubmissionRequirement.
-
-**Summary:**
-
-Credential returned MatchSubmissionRequirement had IDs with some random prefix. Now this is fixed.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-01 12:30:14 +0000 UTC
+        Created At 2023-05-08 16:39:55 +0000 UTC
     </div>
 </div>
 
