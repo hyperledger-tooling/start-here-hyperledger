@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/87" class=".btn">#87</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/92" class=".btn">#92</a>
             </td>
             <td>
                 <b>
-                    Remove unnecessary bullets in readme
+                    Update amd64 Dockerfile from alpine-based to ubuntu-based
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
                 
             </td>
             <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+                From 2.5.0, Fabric switches base docker images from golang-alpine to ubuntu 20.
+This patch follows this update.
+
+Resolves #91 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-06 14:35:25 +0000 UTC
+        Created At 2023-05-08 01:35:27 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3460" class=".btn">#3460</a>
+            </td>
+            <td>
+                <b>
+                    Update MAINTAINERS.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Description
+
+Let's update the maintainer list, adding Alexander Strokov and Michael Timofeev.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-08 04:44:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3459" class=".btn">#3459</a>
             </td>
             <td>
