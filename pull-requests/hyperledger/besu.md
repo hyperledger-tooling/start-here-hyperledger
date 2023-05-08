@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5442" class=".btn">#5442</a>
+            </td>
+            <td>
+                <b>
+                    Fix for block import withdrawals
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+The initial intent of this PR was to fix the withdrawals field missing from the RawBlockIterator class used by the block import subcommand. Ended up introducing a refactor on some of the core methods of Block and BlockBody classes (readFrom and writeTo) aiming to remove duplicated code and reuse the existing logic defined in BlockBody.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+Fixes #5431
+It also fixes all the hive tests broken due to the impossibility of importing blocks (rpc-compat for example) that contained withdrawals via the `blocks import` subcommand.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-08 04:48:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5440" class=".btn">#5440</a>
             </td>
             <td>
@@ -150,7 +186,7 @@ Implementation of this endpoint https://notes.ethereum.org/@yoav/SkaX2lS9j
 * basically the same as eth_sendRawTransaction, with the ability to specify a number of conditions
 * have put X in the RPC name for now - spec may not be finalized
 * TODO check expected storageHash against blockchainQueries actual value (needs a new method to expose this)
-* TODO In case of repeated failures or knownAccounts too large, the error code SHOULD be -32005 (Limit exceeded) with a description of the error
+
             </td>
         </tr>
     </table>

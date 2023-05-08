@@ -14,32 +14,6 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2232" class=".btn">#2232</a>
-            </td>
-            <td>
-                <b>
-                    Add check-in condition "[indy]" for Indy test in PR title 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #734
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-07 07:30:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2231" class=".btn">#2231</a>
             </td>
             <td>
@@ -180,46 +154,6 @@ Need reviews @sownak @suvajit-sarkar @jagpreetsinghsasan
     </table>
     <div class="right-align">
         Created At 2023-05-01 16:17:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2225" class=".btn">#2225</a>
-            </td>
-            <td>
-                <b>
-                    [besu] add 'none' as a new option for transaction manager
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### **Commit to be reviewed.**
----
-**feat(besu): add 'none' as a new option for transaction manager.**
-```
-Updated the following files to introduce the new option for transaction manager:
-	1. sample network-besu.yaml file.
-	2. deployment.yaml file of chart node_besu.
-	3. node_besu.tpl template.
-	
-In addition to the above changes, I also made the following updates:
-	1. added a label to the job.yaml file of the generate_ambassador_certs chart
-	2. corrected playbook names in the add-new-organization.yaml file
-```
-
-fixes #2163
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-01 05:54:28 +0000 UTC
     </div>
 </div>
 

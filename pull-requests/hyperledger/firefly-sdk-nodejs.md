@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/66" class=".btn">#66</a>
-            </td>
-            <td>
-                <b>
-                    add `getTokenApprovals`
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adding support for querying token approvals. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-01 02:56:04 +0000 UTC
-    </div>
-</div>
-
