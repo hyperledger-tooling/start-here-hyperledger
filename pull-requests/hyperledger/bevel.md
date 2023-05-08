@@ -95,31 +95,3 @@ Helm releases are not getting installed post this change, reverting the PR. Kind
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2226" class=".btn">#2226</a>
-            </td>
-            <td>
-                <b>
-                    Added application molecule test in CI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixes #738 
-
-Need reviews @sownak @suvajit-sarkar @jagpreetsinghsasan 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-01 16:17:50 +0000 UTC
-    </div>
-</div>
-

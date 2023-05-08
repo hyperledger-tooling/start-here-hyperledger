@@ -253,31 +253,3 @@ https://w3c-ccg.github.io/did-method-web
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/818" class=".btn">#818</a>
-            </td>
-            <td>
-                <b>
-                    remove all feature flags
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR aims to implement changes suggested here:
-https://github.com/hyperledger/aries-vcx/pull/797#pullrequestreview-1379809296.
-Fixes #799 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-01 15:53:17 +0000 UTC
-    </div>
-</div>
-
