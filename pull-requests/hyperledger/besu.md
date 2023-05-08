@@ -73,7 +73,7 @@ Creating a TrieLogService BesuService will be the last addition, still outstandi
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">doc-change-required</span>
             </td>
             <td>
                 ## PR description
