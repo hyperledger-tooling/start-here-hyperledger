@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/103" class=".btn">#103</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/108" class=".btn">#108</a>
             </td>
             <td>
                 <b>
-                    fix: E2E testing failed but displayed success
+                    Orderer: adding auto-cert renewal functionality and port changes from master
                 </b>
             </td>
         </tr>
@@ -27,42 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                Close #102 
-Close #104
-
-#102 Shows a situation where the test failed but showed success.(This is not correct.)
-#104 Shows that merge the current commit, the test fails and the display also fails.(This is correct.)
+                https://github.com/hyperledger-labs/fabric-operator/issues/107
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-15 01:44:24 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/101" class=".btn">#101</a>
-            </td>
-            <td>
-                <b>
-                    fix: when not using couchdb, the resources of peer's init container d…
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                …oes not take effect
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-15 01:24:10 +0000 UTC
+        Created At 2023-05-08 18:50:09 +0000 UTC
     </div>
 </div>
 

@@ -81,7 +81,10 @@ Most notably inkwell 0.2.0 which now supports LLVM 16 :eyes:
                 
             </td>
             <td>
-                <nil>
+                This PR introduces the following changes:
+1. Stdlib is now build directly with `cargo build`, so all the wasm and bpf files have been removed from the repository.
+2. Enable the tests for the stdlib. If nothing fails within two minutes, the test passes.
+3. Enable the linter `clang-format` for the stdlib. All C files have been reformatted.
             </td>
         </tr>
     </table>
