@@ -35,6 +35,8 @@ permalink: /pull-requests/hyperledger/firefly-common
 - Update `github.com/getkin/kin-openapi` to `v0.116.0` and address code change this requires in swagger generator
 - Provided `ReceiveExt` functionality on `wsclient` to allow `Reader` based streaming when receiving
   - An optional alternative to the whole `[]byte` payload being loaded into memory for each message
+- Provided `DisableReconnect` option on `wsclient`
+- Set read deadlines when heartbeating enabled, so if the backend connection fails the read doesn't hang indefinitely
             </td>
         </tr>
     </table>
