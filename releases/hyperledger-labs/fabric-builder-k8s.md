@@ -15,28 +15,30 @@ permalink: /releases/hyperledger-labs/fabric-builder-k8s
         <tr>
             <td colspan="2">
                 <b>
-                    v0.10.0
+                    v0.11.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v0.10.0
+                    v0.11.0
                 </span>
             </td>
             <td>
-                - Add FABRIC_K8S_BUILDER_SERVICE_ACCOUNT option
-- Fix issue with invalid Kubernetes object names
-- Stop publishing broken arm images
+                🎉 Update to the new Fabric 2.5 LTS release 🎉 
+
+New contributor:
+🥇 thanks to @satota2 for the [Update amd64 Dockerfile from alpine-based to ubuntu-based](https://github.com/hyperledger-labs/fabric-builder-k8s/pull/92) pull request!
+
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/releases/tag/v0.10.0" class=".btn">
+    <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/releases/tag/v0.11.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-01-27 20:26:56 +0000 UTC
+        Created At 2023-05-09 14:51:03 +0000 UTC
     </span>
 </div>
 
