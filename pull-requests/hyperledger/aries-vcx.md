@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/833" class=".btn">#833</a>
+            </td>
+            <td>
+                <b>
+                    Fix/notification problem report
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As per the [RFC](https://github.com/hyperledger/aries-rfcs/tree/main/features/0015-acks#relationship-to-problem-report) the `ProblemReport` message can be a part of the `notification` message family (which only contains the `ack` message that's borrowed to other protocols).
+
+This PR adds a `ProblemReport` message to the protocol to match the AFJ implementation (which is, technically, correct).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-09 13:23:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/832" class=".btn">#832</a>
             </td>
             <td>
@@ -197,59 +225,6 @@ https://w3c-ccg.github.io/did-method-web
     </table>
     <div class="right-align">
         Created At 2023-05-03 13:55:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/825" class=".btn">#825</a>
-            </td>
-            <td>
-                <b>
-                    Cleanup/ffi leftovers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-02 15:31:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/824" class=".btn">#824</a>
-            </td>
-            <td>
-                <b>
-                    Fix setting txn author agreement
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - 0.55.0 release contained bug that transaction author agreement doesn't get set up in global settings state of aries-vcx-core, therefore ledger writes doesn't work for indy ledgers which require transaction author agreement
-- this fixes the issue
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-02 14:58:53 +0000 UTC
     </div>
 </div>
 

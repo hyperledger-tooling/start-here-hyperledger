@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-bbssignatures-rs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-bbssignatures-rs/pull/7" class=".btn">#7</a>
+            </td>
+            <td>
+                <b>
+                    Add governance documents to the repo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-09 14:31:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-bbssignatures-rs/pull/6" class=".btn">#6</a>
             </td>
             <td>

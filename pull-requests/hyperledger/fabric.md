@@ -14,6 +14,57 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4212" class=".btn">#4212</a>
+            </td>
+            <td>
+                <b>
+                    test: use `t.Setenv` to set env vars
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Test update
+
+#### Description
+
+Starting from Go 1.17, we can use `t.Setenv` to set environment variable in test. The environment variable is automatically restored to its original value when the test and all its subtests complete. This ensures that each test does not start with leftover environment variables from previous completed tests.
+
+Reference: https://pkg.go.dev/testing#T.Setenv
+
+```go
+func TestFoo(t *testing.T) {
+	// before
+	os.Setenv(key, "new value")
+	defer os.Unsetenv(key)
+	
+	// after
+	t.Setenv(key, "new value")
+}
+```
+
+#### Additional details
+
+
+#### Related issues
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-09 16:02:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4210" class=".btn">#4210</a>
             </td>
             <td>
