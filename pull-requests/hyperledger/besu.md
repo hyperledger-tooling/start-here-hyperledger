@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5444" class=".btn">#5444</a>
+            </td>
+            <td>
+                <b>
+                    Update dependencies - commons-net
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">dependencies</span>
+            </td>
+            <td>
+                Refs #5386 
+This PR forces the commons-net version to be 3.9.0 but we can't do the same for antlr. antlr version needs to match the version in tuweni. So we need a tuweni release before we can update antlr.
+This PR has the version we want but it's not yet released https://github.com/apache/incubator-tuweni/pull/479
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-09 05:40:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5442" class=".btn">#5442</a>
             </td>
             <td>
@@ -184,8 +212,9 @@ Only values that are bigger than 4 KiB are written to Blobs
 
 Implementation of this endpoint https://notes.ethereum.org/@yoav/SkaX2lS9j
 * basically the same as eth_sendRawTransaction, with the ability to specify a number of conditions
-* have put X in the RPC name for now - spec may not be finalized
-* TODO check expected storageHash against blockchainQueries actual value (needs a new method to expose this)
+- [x] have put X in the RPC name for now - spec may not be finalized
+- [x] limit max number of user-specified constraints
+- [x]  check expected storageHash against blockchainQueries actual value (needs a new method to expose this)
 
             </td>
         </tr>

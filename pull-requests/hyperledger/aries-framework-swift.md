@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/46" class=".btn">#46</a>
+            </td>
+            <td>
+                <b>
+                    fix concurrency issues with replacing concurrent* to async*
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Checklist
+
+- [x] have run AriesFrameworkTests
+- [x] I have run AllTests
+
+# Description
+
+fix concurrency issues with replacing concurrent* to async*
+
+# Related Issues
+
+- #44
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-09 02:03:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/45" class=".btn">#45</a>
             </td>
             <td>

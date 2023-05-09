@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2419" class=".btn">#2419</a>
+            </td>
+            <td>
+                <b>
+                    chore(ci): Update codeql action
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Also, commitlint was out-of-date.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-09 01:40:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2418" class=".btn">#2418</a>
             </td>
             <td>
