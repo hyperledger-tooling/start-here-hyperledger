@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/832" class=".btn">#832</a>
+            </td>
+            <td>
+                <b>
+                    Remove extra warn log
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">skip-ios</span><span class="chip">skip-android</span><span class="chip">skip-napi-m1</span><span class="chip">skip-ci</span>
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-09 09:58:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/831" class=".btn">#831</a>
             </td>
             <td>
@@ -224,32 +250,6 @@ https://w3c-ccg.github.io/did-method-web
     </table>
     <div class="right-align">
         Created At 2023-05-02 14:58:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/823" class=".btn">#823</a>
-            </td>
-            <td>
-                <b>
-                    Refactor of the iOS CI
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This refactor aims to improve the CI speed of the iOS build by removing unnecessary targets and vendoring our own build scripts for the libsodium and zeromq libraries (to avoid some unnecessary operations from the previous scripts).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-02 12:34:02 +0000 UTC
     </div>
 </div>
 

@@ -367,7 +367,7 @@ Some tests started failing because of expired certificates. This PR fixes that
             </td>
             <td>
                 <b>
-                    Fix the number of RocksDB log files to 5 with 100 MB each
+                    Fix the number of RocksDB log files to the last one week
                 </b>
             </td>
         </tr>
@@ -384,6 +384,8 @@ Some tests started failing because of expired certificates. This PR fixes that
 ## PR description
 Fix the number of RocksDB LOG files to 5 with 100 MB for each LOG file.
 These logs are not to be confused with [number].log files which represent WAL files.
+
+EDIT : Following Simon suggestion and Fabio's idea, I changed the policy retention to keep 7 daily log files.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
