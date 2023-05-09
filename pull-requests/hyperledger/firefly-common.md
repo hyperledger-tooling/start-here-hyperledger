@@ -37,6 +37,7 @@ permalink: /pull-requests/hyperledger/firefly-common
   - An optional alternative to the whole `[]byte` payload being loaded into memory for each message
 - Provided `DisableReconnect` option on `wsclient`
 - Set read deadlines when heartbeating enabled, so if the backend connection fails the read doesn't hang indefinitely
+  - Without this, if the context cancels, or the send thread otherwise errors without the receive loop getting a socket error, the receive loop never exits
             </td>
         </tr>
     </table>

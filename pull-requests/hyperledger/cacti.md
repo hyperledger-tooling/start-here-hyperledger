@@ -201,30 +201,3 @@ Fixes:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2413" class=".btn">#2413</a>
-            </td>
-            <td>
-                <b>
-                    chore(ci): enable weaver deployment workflows triggered on tag release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                 - chore(ci): enable weaver deployment workflows triggered on tag release (except go modules)
- - feat(ci): pre-release test if all weaver module versions are same
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-02 12:43:34 +0000 UTC
-    </div>
-</div>
-

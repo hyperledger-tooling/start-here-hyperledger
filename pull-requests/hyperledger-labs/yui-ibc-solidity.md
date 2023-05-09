@@ -36,32 +36,3 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/188" class=".btn">#188</a>
-            </td>
-            <td>
-                <b>
-                    Switch to use forge for development
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR aims to replace the following operations with forge:
-
-- Use the ABI definitions from the `forge build` artifacts to generate the contract bindings
-- Use `forge script` instead of truffle migrate
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-02 11:21:41 +0000 UTC
-    </div>
-</div>
-

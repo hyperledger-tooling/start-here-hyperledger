@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1302" class=".btn">#1302</a>
+            </td>
+            <td>
+                <b>
+                    Using for not permitted in interfaces
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                `using` does not make any sense in interfaces, as they contain no function bodies.
+
+This PR also contains some tiny other drive-by fixes:
+ - `tx.origin` is not payable
+ - Added some EVM only builtins (improves evm semantic tests)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-09 08:30:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1301" class=".btn">#1301</a>
             </td>
             <td>
@@ -232,32 +262,6 @@ to the newer SBF target fixes the issue.
     </table>
     <div class="right-align">
         Created At 2023-05-02 14:25:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1293" class=".btn">#1293</a>
-            </td>
-            <td>
-                <b>
-                    Fix build with lalrpop 0.19.12
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The 0.19.12 version of the lalrpop crate broke the build.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-02 09:02:58 +0000 UTC
     </div>
 </div>
 
