@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/668" class=".btn">#668</a>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/671" class=".btn">#671</a>
             </td>
             <td>
                 <b>
-                    Document deprecation as of Fabric v2.5
+                    Reduce scheduled build frequency to weekly
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-19 15:18:58 +0000 UTC
+        Created At 2023-05-09 14:26:16 +0000 UTC
     </div>
 </div>
 

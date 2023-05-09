@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1038" class=".btn">#1038</a>
+            </td>
+            <td>
+                <b>
+                    Fix nano-bash-bft sample to work with channel-participation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                remove dependency on deprecated system-channel.
+add channel-participation.
+@yacovm
+
+Signed-off-by: Arkadi Piven arkadi.piven@ibm.com
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-09 14:10:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/1037" class=".btn">#1037</a>
             </td>
             <td>
@@ -33,61 +63,6 @@ permalink: /pull-requests/hyperledger/fabric-samples
     </table>
     <div class="right-align">
         Created At 2023-05-05 15:30:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1036" class=".btn">#1036</a>
-            </td>
-            <td>
-                <b>
-                    Use hyperledger-labs/microfab in full stack asset transfer sample
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-02 17:47:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1035" class=".btn">#1035</a>
-            </td>
-            <td>
-                <b>
-                    Fix error in full-stack-asset-transfer-guide docs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Set correct CERTIFICATE file name in application ChaincodeEvents exercise.
-- Add required environment variables to application AssetTransfer exercise, rather than rely on the RunApplication exercise being run in the same terminal first.
-
-Contributes to #928
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-02 15:55:07 +0000 UTC
     </div>
 </div>
 

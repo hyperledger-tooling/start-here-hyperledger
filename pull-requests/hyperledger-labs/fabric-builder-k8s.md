@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/fabric-builder-k8s
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/93" class=".btn">#93</a>
+            </td>
+            <td>
+                <b>
+                    Re-enable building arm docker images
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The peer images are based on Fabric 2.5 now, which should support arm
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-09 13:57:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-builder-k8s/pull/92" class=".btn">#92</a>
             </td>
             <td>

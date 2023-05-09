@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1446" class=".btn">#1446</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1450" class=".btn">#1450</a>
             </td>
             <td>
                 <b>
-                    feat: support for did:jwk and p-256, p-384, p-512
+                    fix: remove scope check from response
                 </b>
             </td>
         </tr>
@@ -27,12 +27,19 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                <nil>
+                Previously the `requestCredential` method would throw an error if the `scope` parameter was not present in the `access_token` response. This `scope` value was used to indicate the desired credential type when requesting the credential. However, this was incorrect, as this value is optional according to the specification.
+
+Because we still need to provide a credential type when requesting the credential, I have added an optional `scope` parameter to the `RequestCredentialOptions` interface. If the `access_token` response includes the `scope`, that value will be used. If the `scope` value is not present on the `access_token` response, the `scope` parameter from the `RequestCredentialOptions` interface will be used. If both are not present, an error will be thrown.
+
+Related to #1322 
+
+Signed-off-by: Karim Stekelenburg <karim@animo.id>
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-01 17:04:37 +0000 UTC
+        Created At 2023-05-09 17:51:18 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/589" class=".btn">#589</a>
+            </td>
+            <td>
+                <b>
+                    Improve Node GrpcClient API documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Clarify that a concrete gRPC Client should be used. Provide a link to the gRPC API documentation.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-09 14:17:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/587" class=".btn">#587</a>
             </td>
             <td>

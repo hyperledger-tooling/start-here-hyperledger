@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/157" class=".btn">#157</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway-java/pull/158" class=".btn">#158</a>
             </td>
             <td>
                 <b>
-                    Document deprecation as of Fabric v2.5
+                    Reduce scheduled build frequency to weekly
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/fabric-gateway-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-19 12:46:36 +0000 UTC
+        Created At 2023-05-09 14:30:46 +0000 UTC
     </div>
 </div>
 
