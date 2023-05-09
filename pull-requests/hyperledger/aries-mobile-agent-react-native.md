@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/749" class=".btn">#749</a>
+            </td>
+            <td>
+                <b>
+                    feat: new pin input
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+This PR adds the new pin input design, and updates some of the prompts on the pin create screen.
+
+Here's what it looks like on Android:
+![input_pin_android](https://user-images.githubusercontent.com/32586431/236963696-3722695a-e9bd-4ad9-96f5-dd02b39623f1.gif)
+
+Here's what it looks like on iOS (same behavior):
+![input_pin_ios_zoom](https://user-images.githubusercontent.com/32586431/236963743-e841e015-ccad-45b6-b183-17f0a4d9132a.PNG)
+![input_pin_ios](https://user-images.githubusercontent.com/32586431/236963746-85421479-d1fc-4862-b7b3-1a0a681ccc8e.PNG)
+![input_pin_ios_enter](https://user-images.githubusercontent.com/32586431/236963740-c4c0ead7-95ef-4a39-b49c-9db4354f76b5.PNG)
+
+# Related Issues
+
+N/A
+
+# Pull Request Checklist
+
+Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
+
+- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [x] Updated documentation as needed for changed code and new or modified features;
+- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+Pro Tip 🤓
+
+- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-09 00:22:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/748" class=".btn">#748</a>
             </td>
             <td>
@@ -84,6 +143,12 @@ _PR template adapted from the Python attrs project._
                 # Summary of Changes
 
 Update design of modals and unify the "remove" and "decline" modals throughout the application. These two modals are pretty similar in functionality and structure now so I think they should be merged into a single FC. Created #747 to do this work.
+
+<img width="335" alt="Screenshot 2023-05-08 at 11 58 06 AM" src="https://user-images.githubusercontent.com/390891/236909541-2619df3e-d12e-4842-a760-7c123f67a69b.png">
+<img width="334" alt="Screenshot 2023-05-08 at 11 58 22 AM" src="https://user-images.githubusercontent.com/390891/236909547-563dce8b-cb8b-4a02-8edf-ba82b9bfa860.png">
+<img width="336" alt="Screenshot 2023-05-08 at 11 58 59 AM" src="https://user-images.githubusercontent.com/390891/236909556-9d2f12df-232a-41d2-9523-1ab76e0ad9c6.png">
+<img width="336" alt="Screenshot 2023-05-08 at 11 59 52 AM" src="https://user-images.githubusercontent.com/390891/236909561-35537763-ab50-4d42-aaf0-0e253dc15610.png">
+
 
 # Related Issues
 
@@ -433,109 +498,6 @@ _PR template adapted from the Python attrs project._
     </table>
     <div class="right-align">
         Created At 2023-05-02 01:38:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/737" class=".btn">#737</a>
-            </td>
-            <td>
-                <b>
-                    chore: export images assets
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Summary of Changes
-
-Export image assets so they can be used and manipulated by by other themes.
-
-# Related Issues
-
-Please reference here any issue #'s that are relevant to this PR, or simply enter "N/A" if this PR does not relate to any existing issues.
-
-# Pull Request Checklist
-
-Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
-
-- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
-- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
-- [x] Updated documentation as needed for changed code and new or modified features;
-- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
-
-If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
-
-Pro Tip 🤓
-
-- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
-- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
-
-_PR template adapted from the Python attrs project._
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-01 22:46:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/736" class=".btn">#736</a>
-            </td>
-            <td>
-                <b>
-                    fixed truncation for long titles on chat screen
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Summary of Changes
-
-Set the max width property for headerTitleStyle attribute, stops long title in chat screen from pushing right header icon off the page
-![image](https://user-images.githubusercontent.com/36937407/235541446-f10641f1-a8c0-44e2-991a-e9382a03c9a1.png)
-
-# Related Issues
-
-N/A
-
-# Pull Request Checklist
-
-Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
-
-- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
-- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
-- [x] Updated documentation as needed for changed code and new or modified features;
-- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
-
-If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
-
-Pro Tip 🤓
-
-- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
-- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
-
-_PR template adapted from the Python attrs project._
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-01 22:21:55 +0000 UTC
     </div>
 </div>
 

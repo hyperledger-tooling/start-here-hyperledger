@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/firefly-common
             </td>
             <td>
                 <b>
-                    Expose WrapCorsIfEnabled separate to HTTPServer
+                    Set of proposed small enhancements to httpserver, WS support, and others
                 </b>
             </td>
         </tr>
@@ -27,7 +27,14 @@ permalink: /pull-requests/hyperledger/firefly-common
                 
             </td>
             <td>
-                … and address feedback from improved linter, some of which highlighted genuine issues.
+                - Expose `WrapCorsIfEnabled` independent of `HTTPServer`
+- Expose `CalcRequestTimeout` independent of `APIServer`
+- Address feedback from improved linter - some of which highlighted genuine issues.
+- Issue from linter: Fix recently added common `version.NewInfo` utility - was ignoring inputs
+- Fix missing `global.` on API Server config descriptions, causing re-definition in other packages
+- Update `github.com/getkin/kin-openapi` to `v0.116.0` and address code change this requires in swagger generator
+- Provided `ReceiveExt` functionality on `wsclient` to allow `Reader` based streaming when receiving
+  - An optional alternative to the whole `[]byte` payload being loaded into memory for each message
             </td>
         </tr>
     </table>

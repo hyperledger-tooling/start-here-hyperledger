@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/40" class=".btn">#40</a>
+                PR <a href="https://github.com/hyperledger/aries-acapy-docs/pull/41" class=".btn">#41</a>
             </td>
             <td>
                 <b>
-                    Fix spelling
+                    Latest updates to the ACA-Py documentation
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/aries-acapy-docs
                 
             </td>
             <td>
-                <nil>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-17 17:30:32 +0000 UTC
+        Created At 2023-05-08 23:57:50 +0000 UTC
     </div>
 </div>
 

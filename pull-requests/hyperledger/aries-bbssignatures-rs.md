@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-bbssignatures-rs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-bbssignatures-rs/pull/6" class=".btn">#6</a>
+            </td>
+            <td>
+                <b>
+                    Add workflow
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-08 19:37:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-bbssignatures-rs/pull/3" class=".btn">#3</a>
             </td>
             <td>
@@ -59,32 +85,6 @@ permalink: /pull-requests/hyperledger/aries-bbssignatures-rs
     </table>
     <div class="right-align">
         Created At 2023-05-03 18:15:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-bbssignatures-rs/pull/1" class=".btn">#1</a>
-            </td>
-            <td>
-                <b>
-                    Remove Contributing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-01 22:47:45 +0000 UTC
     </div>
 </div>
 

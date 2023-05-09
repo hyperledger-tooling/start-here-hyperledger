@@ -195,30 +195,3 @@ permalink: /pull-requests/hyperledger/toc
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/100" class=".btn">#100</a>
-            </td>
-            <td>
-                <b>
-                    Hyperledger AnonCreds 2023Q2 Quarterly Report
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">quarterly-report</span>
-            </td>
-            <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-01 19:03:32 +0000 UTC
-    </div>
-</div>
-
