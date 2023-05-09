@@ -15,6 +15,38 @@ permalink: /releases/hyperledger/aries-framework-go
         <tr>
             <td colspan="2">
                 <b>
+                    Release v0.3.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">
+                    v0.3.1
+                </span>
+            </td>
+            <td>
+                ## What's Changed
+* chore: add ValidateJSONLDMap by @skynet2 in https://github.com/hyperledger/aries-framework-go/pull/3579
+
+
+**Full Changelog**: https://github.com/hyperledger/aries-framework-go/compare/v0.3.0...v0.3.1
+            </td>
+        </tr>
+    </table>
+    <a href="https://github.com/hyperledger/aries-framework-go/releases/tag/v0.3.1" class=".btn">
+        View on GitHub
+    </a>
+    <span class="right-align">
+        Created At 2023-05-08 17:03:46 +0000 UTC
+    </span>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="2">
+                <b>
                     Release v0.3.0
                 </b>
             </td>
