@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3582" class=".btn">#3582</a>
+            </td>
+            <td>
+                <b>
+                    feat: support for optional field in presexch
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Title:**
+Support for optional field in presexch.
+
+
+**Summary:**
+Extended PresentationDefinition JSON Schema V1 with field `optional` and `contains`
+This filed is already exist in the [relevant struct](https://github.com/hyperledger/aries-framework-go/blob/main/pkg/doc/presexch/definition.go#L181), but wasn't a part of the Schema.
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-10 07:16:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3581" class=".btn">#3581</a>
             </td>
             <td>

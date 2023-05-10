@@ -84,7 +84,7 @@ permalink: /pull-requests/hyperledger/solang
             <td>
                 Updates some dependencies.
 
-Most notably inkwell 0.2.0 which now supports LLVM 16 :eyes: 
+~~Most notably inkwell 0.2.0 which now supports LLVM 16 :eyes:~~
             </td>
         </tr>
     </table>
@@ -230,37 +230,6 @@ name3) name6) name4) public name5;
     </table>
     <div class="right-align">
         Created At 2023-05-03 13:26:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1295" class=".btn">#1295</a>
-            </td>
-            <td>
-                <b>
-                    Compare the full 64 bits address on Solana
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                vector_new() takes an initializer arguments, which has as special value
-for "no initializer". We should check the full 64 bits, rather than
-casting the lower 32 bits to int.
-
-This change exposes a bug in the old BPF target in Solana's LLVM fork. Switching 
-to the newer SBF target fixes the issue.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-03 10:43:10 +0000 UTC
     </div>
 </div>
 
