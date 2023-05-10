@@ -61,7 +61,8 @@ To fix:
 
 - [x] Manage starting/stopping redis-cluster
 - [x] Ensuring new network (with subnet) creation works
-- [ ] plugin startup param in backchannel is conditional
+- [ ] ~~plugin startup param in backchannel is conditional~~
+- [ ] plugin-config.yml file management, there is a template, but unclear how it is used. 
             </td>
         </tr>
     </table>

@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/164" class=".btn">#164</a>
-            </td>
-            <td>
-                <b>
-                    BCW Fix Decline Multi-Cred Proof test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR fixes the Decline Multi-cred proof test T010.2-Proof. Corrects to proper app flow when decline is selected. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-03 15:28:10 +0000 UTC
-    </div>
-</div>
-

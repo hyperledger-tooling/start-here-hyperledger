@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/837" class=".btn">#837</a>
+            </td>
+            <td>
+                <b>
+                    Add indy-vdr-proxy profile
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">skip-ci</span>
+            </td>
+            <td>
+                Adds a new profile `VdrProxyProfile` which uses a running instance of [indy-vdr-proxy](https://github.com/hyperledger/indy-vdr/tree/main/indy-vdr-proxy) (through [indy-vdr-proxy-client](https://github.com/mirgee/indy-vdr/pull/1/files)) to read and write transactions instead of communicating with the ledger directly.
+
+This may be useful in situations where
+* a service is limited in its access to the public internet for security reasons or
+* the client wants quick and easy access to a ledger without necessarily having to obtain the genesis file and set up and maintain their own ledger connection.
+
+The `VdrProxyProfile` profile reuses existing `IndyVdrLedger` implementation of the `BaseLedger` trait and request submitting is injected through an implementation of the `RequestSubmitter` trait.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-10 13:03:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/833" class=".btn">#833</a>
             </td>
             <td>
@@ -145,86 +177,6 @@ Thank You,
     </table>
     <div class="right-align">
         Created At 2023-05-04 07:25:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/828" class=".btn">#828</a>
-            </td>
-            <td>
-                <b>
-                    Basic implementation of did:web resolver
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">skip-ci</span>
-            </td>
-            <td>
-                Implementation of the `did:web` DID method resolver.
-
-https://w3c-ccg.github.io/did-method-web
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-03 14:41:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/827" class=".btn">#827</a>
-            </td>
-            <td>
-                <b>
-                    Do not run libvcx publishing from fork PRs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-03 14:25:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/826" class=".btn">#826</a>
-            </td>
-            <td>
-                <b>
-                     move common stuff from the messages crate to shared_vcx
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes #821 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-03 13:55:57 +0000 UTC
     </div>
 </div>
 
