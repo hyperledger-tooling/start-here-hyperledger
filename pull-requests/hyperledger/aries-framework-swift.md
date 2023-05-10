@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
             </td>
             <td>
                 <b>
-                    Fix proof request attribute bug
+                    ProofAttributeInfo.names should be an array type
                 </b>
             </td>
         </tr>

@@ -1,13 +1,13 @@
 
-[47](https://github.com/hyperledger/aries-framework-swift/pull/47) Fix proof request attribute bug
+[1325](https://github.com/hyperledger/besu-docs/pull/1325) Add missing quotes in trace call example
 
-[751](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/751) chore: update create pin content
+[1324](https://github.com/hyperledger/besu-docs/pull/1324) python version bump
 
-[750](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/750) chore: make ios build step a release build not a debug build
+[681](https://github.com/hyperledger/aries-agent-test-harness/pull/681) Changes by create-pull-request action
 
-[31](https://github.com/hyperledger/aries-endorser-service/pull/31) Updating manage to work with docker v2 and tweak to docker-compose.yml
+[74](https://github.com/hyperledger-labs/fabric-opssc/pull/74) Bump Fabric to the latest
 
-[1039](https://github.com/hyperledger/fabric-samples/pull/1039) Update test-network-k8s to Fabric v2.5
+[47](https://github.com/hyperledger/aries-framework-swift/pull/47) ProofAttributeInfo.names should be an array type
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
