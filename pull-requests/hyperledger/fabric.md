@@ -14,6 +14,82 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4214" class=".btn">#4214</a>
+            </td>
+            <td>
+                <b>
+                    Update chaincode_lifecycle.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Content updates - docs #3276
+Changing from "new" to "v2.x"
+
+<!--- DELETE MARKDOWN COMMENTS BEFORE SUBMITTING PULL REQUEST. -->
+
+<!--- Provide a descriptive summary of your changes in the Title above. -->
+
+#### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+- New feature
+- Improvement (improvement to code, performance, etc)
+- Test update
+- Documentation update
+
+#### Description
+
+<!--- Describe your changes in detail, including motivation. -->
+
+#### Additional details
+
+<!--- Additional implementation details or comments to reviewers. -->
+<!--- Summarize how the pull request was tested (if not obvious from commit). -->
+
+#### Related issues
+
+<!--- Include a link to any associated issues, e.g. Jira issue or approved rfc. -->
+
+<!---
+#### Release Note
+If change impacts current users, uncomment Release Note heading and provide
+release note text.
+Also, copy release note text into the release specific /release_notes file.
+-->
+
+<!--
+Checklist (DELETE AFTER READING):
+
+- `Signed-off-by` added to commits (required for DCO check to pass)
+- Tests have been added/updated (required for bug fixes and features)
+- Unit and/or integration tests pass locally
+- Run linters and checks locally using 'make checks'
+- If change requires documentation updates, make updates in pull request,
+  or open a separate issue and provide link
+- Squash commits into a single commit, unless a stack of commits is
+  intentional to assist reviewers or to preserve review comments.
+- For additional contribution guidelines see the project's CONTRIBUTING.md file
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-10 13:37:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4213" class=".btn">#4213</a>
             </td>
             <td>
@@ -277,48 +353,6 @@ Issue: #4202 .
     </table>
     <div class="right-align">
         Created At 2023-05-06 23:30:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4196" class=".btn">#4196</a>
-            </td>
-            <td>
-                <b>
-                    system channel clean up - msgprocessor package
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1. Cleaned dependencies on system channel from the msgprocessor package.
-2. Removed templator usages.
-
-#### Type of change
-
-- Improvement (improvement to code, performance, etc)
-- Test update
-
-#### Description
-
-As described in issue #4189.
-
-#### Additional details
-
-#### Related issues
-
-Issue: #4189.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-03 14:24:05 +0000 UTC
     </div>
 </div>
 

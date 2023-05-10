@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1306" class=".btn">#1306</a>
+            </td>
+            <td>
+                <b>
+                    Add padding in account deserialization
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                According to Solana's C SDK, there is a padding between accounts: https://github.com/solana-labs/solana/blob/427ad7b5bde27fe71cff13a1ed0a6a3f26302ed4/sdk/bpf/c/inc/sol/deserialize.h#L50-L68
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-10 14:49:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1305" class=".btn">#1305</a>
+            </td>
+            <td>
+                <b>
+                    Implement chain extensions builtin
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Provide a builtin to call chain extensions. This is the building block for implementing more high level interfaces directly in Solidity.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-10 14:42:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1304" class=".btn">#1304</a>
+            </td>
+            <td>
+                <b>
+                    Unbreak readthedocs build
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-10 13:52:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1303" class=".btn">#1303</a>
             </td>
             <td>
@@ -204,32 +282,6 @@ name3) name6) name4) public name5;
     </table>
     <div class="right-align">
         Created At 2023-05-03 21:24:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1296" class=".btn">#1296</a>
-            </td>
-            <td>
-                <b>
-                    fixed the duplicate code by adding functions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixed duplicate code by replacing it using functions, kindly guide me if I am on right direction or not.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-03 13:26:58 +0000 UTC
     </div>
 </div>
 

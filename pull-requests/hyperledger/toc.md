@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/toc
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/toc/pull/111" class=".btn">#111</a>
+            </td>
+            <td>
+                <b>
+                    Add Project Best Practices document
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add Project Best Practices document.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-10 17:04:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/toc/pull/109" class=".btn">#109</a>
             </td>
             <td>
