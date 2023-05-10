@@ -27,9 +27,13 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
                 
             </td>
             <td>
-                Previously the `requestCredential` method would throw an error if the `scope` parameter was not present in the `access_token` response. This `scope` value was used to indicate the desired credential type when requesting the credential. However, this was incorrect, as this value is optional according to the specification.
+                Previously the `requestCredential` method would throw an error if the `scope` parameter was not present in the `access_token` response. This `scope` value was used to indicate the desired credential type when requesting the credential. However, this was incorrect, as this value is optional according to the [specification](https://www.rfc-editor.org/rfc/rfc6749.html#section-4.2.2).
 
-Because we still need to provide a credential type when requesting the credential, I have added an optional `scope` parameter to the `RequestCredentialOptions` interface. If the `access_token` response includes the `scope`, that value will be used. If the `scope` value is not present on the `access_token` response, the `scope` parameter from the `RequestCredentialOptions` interface will be used. If both are not present, an error will be thrown.
+This PR removes the requirement for the `scope` to be present on the `access_token` response. If the `scope` is present, it will be used to check if the server metadata indicates the requested credential format is supported for the requested credential type (indicated by the `scope`). If not, this validation is skipped.
+
+When the `access_token` response does not contain a `scope`, the `credentialType` value that is passed to the underlying Sphereon library will be undefined. When this happens, the Sphereon library will use the `credentialType` value from the issuance initiation request instead (relevant code [here](https://github.com/Sphereon-Opensource/OID4VCI/blob/56b16a33fe8826043906f1d82616f0a9a0873d75/lib/CredentialRequestClient.ts#L66)), which should always be present according to the [spec](https://openid.net/specs/openid-4-verifiable-credential-issuance-1_0-09.html#section-e.1.1.3).
+
+@TimoGlastra, @blu3beri, could one of you please verify these changes are in line with the specs? 
 
 Related to #1322 
 

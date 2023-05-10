@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/47" class=".btn">#47</a>
+            </td>
+            <td>
+                <b>
+                    Fix proof request attribute bug
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Checklist
+
+- [x] have run AriesFrameworkTests
+- [x] I have run AllTests
+
+# Description
+
+ProofAttributeInfo.names should be an array type. counter party can request proof request with names.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-10 00:27:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/46" class=".btn">#46</a>
             </td>
             <td>
@@ -70,39 +103,6 @@ fix concurrency issues with replacing concurrent* to async*
     </table>
     <div class="right-align">
         Created At 2023-05-08 10:03:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/43" class=".btn">#43</a>
-            </td>
-            <td>
-                <b>
-                    Fix proof request attribute bug.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Checklist
-
-- [x] have run AriesFrameworkTests
-- [x] I have run AllTests
-
-# Description
-
-ProofAttributeInfo.names should be an array type. counter party can request proof request with names.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-04 01:41:02 +0000 UTC
     </div>
 </div>
 

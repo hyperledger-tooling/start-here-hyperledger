@@ -33,8 +33,8 @@ Alternate aca-py image that includes redis-events plugin and plugin config.
 
 To fix: 
 
-- [ ] Manage starting/stopping redis-cluster
-- [ ] Ensuring new network (with subnet) creation works
+- [x] Manage starting/stopping redis-cluster
+- [x] Ensuring new network (with subnet) creation works
 - [ ] plugin startup param in backchannel is conditional
             </td>
         </tr>
