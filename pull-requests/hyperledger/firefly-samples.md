@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-samples/pull/54" class=".btn">#54</a>
+                PR <a href="https://github.com/hyperledger/firefly-samples/pull/55" class=".btn">#55</a>
             </td>
             <td>
                 <b>
-                    update the node.js code setup for existing sample
+                    Add token swap sample
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-samples
                 
             </td>
             <td>
-                - Cleaned up the logs
-- update env var command to use jq to set the address automatically
-- renamed files
+                This sample was demoed recently at a FireFly workshop. Adding it to the repository of samples so that other people can run it too.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-18 07:12:30 +0000 UTC
+        Created At 2023-05-09 19:57:52 +0000 UTC
     </div>
 </div>
 

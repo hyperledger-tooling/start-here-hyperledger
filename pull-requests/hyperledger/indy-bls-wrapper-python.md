@@ -1,24 +1,24 @@
 ---
 layout: default
-title: aries-endorser-service
+title: indy-bls-wrapper-python
 parent: Hyperledger
 grand_parent: Pull Requests
 has_children: false
-permalink: /pull-requests/hyperledger/aries-endorser-service
+permalink: /pull-requests/hyperledger/indy-bls-wrapper-python
 ---
 
-# aries-endorser-service <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/aries-endorser-service){: .btn .mr-4 }</span>
+# indy-bls-wrapper-python <span class="fs-3 right-align">[GitHub](https://github.com/hyperledger/indy-bls-wrapper-python){: .btn .mr-4 }</span>
 
 
 <div>
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-endorser-service/pull/31" class=".btn">#31</a>
+                PR <a href="https://github.com/hyperledger/indy-bls-wrapper-python/pull/15" class=".btn">#15</a>
             </td>
             <td>
                 <b>
-                    Updating manage to work with docker v2 and tweak to docker-compose.yml
+                    Initial governance and README docs for the repository
                 </b>
             </td>
         </tr>
@@ -33,7 +33,7 @@ permalink: /pull-requests/hyperledger/aries-endorser-service
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-09 22:26:30 +0000 UTC
+        Created At 2023-05-09 20:35:30 +0000 UTC
     </div>
 </div>
 

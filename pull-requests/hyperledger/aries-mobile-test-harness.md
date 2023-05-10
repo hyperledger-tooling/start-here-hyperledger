@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/166" class=".btn">#166</a>
+            </td>
+            <td>
+                <b>
+                    pin selenium at 4.9.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR sets the selenium version to 4.9.0 since 4.9.1 caused driver not to instantiate in the test harness. This can be removed when 4.9.1 is fixed. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-09 20:52:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/165" class=".btn">#165</a>
             </td>
             <td>
@@ -59,32 +85,6 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     </table>
     <div class="right-align">
         Created At 2023-05-03 15:28:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/163" class=".btn">#163</a>
-            </td>
-            <td>
-                <b>
-                    BCW fix multi-cred proof test
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR is for The BC Wallet Multi-cred proof tests. The new credential card layout needed test rework to make sure the right attributes were contained in the correct credential card. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-02 20:18:43 +0000 UTC
     </div>
 </div>
 

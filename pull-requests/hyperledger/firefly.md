@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1302" class=".btn">#1302</a>
+            </td>
+            <td>
+                <b>
+                    Update Fabric chaincode Dockerfile
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Building with this Dockerfile currently breaks because the batchpin folder isn't being copied
+
+
+```#10 2.414 go: downloading golang.org/x/text v0.3.2
+#10 5.161 chaincode/contract.go:8:2: no required module provides package github.com/hyperledger/firefly/chaincode-go/batchpin; to add it:
+#10 5.161       go get github.com/hyperledger/firefly/chaincode-go/batchpin
+------
+executor failed running [/bin/sh -c ls -la ./     && GO111MODULE=on GOOS=linux CGO_ENABLED=0 go build -o firefly.bin firefly.go]: exit code: 1```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-09 19:13:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1300" class=".btn">#1300</a>
             </td>
             <td>
@@ -118,34 +151,6 @@ Also made a change to both FFDX and FFTokens to split `eventRetry` out from `ret
     </table>
     <div class="right-align">
         Created At 2023-05-03 04:24:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1295" class=".btn">#1295</a>
-            </td>
-            <td>
-                <b>
-                    Handle duplicate pool locators properly
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Since there is a unique index on pool locators, it must be checked during token pool upsert.
-
-This behavior will be changing again in #1261, but this is a more immediate fix without pulling in all of that.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-02 21:45:49 +0000 UTC
     </div>
 </div>
 
