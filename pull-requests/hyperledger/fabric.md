@@ -241,11 +241,11 @@ Related PR: #4207 .
 
 #### Description
 
-As described in issue #4203 .
+As described in issue #4203 & #4205
 
 #### Related issues
 
-Issue: #4203 .
+Issue: #4203 #4205 
             </td>
         </tr>
     </table>

@@ -268,31 +268,3 @@ On shutdown the content is save in a file, then after the reload is complete the
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5432" class=".btn">#5432</a>
-            </td>
-            <td>
-                <b>
-                    fix certs for PKCS11 acceptance tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Some tests started failing because of expired certificates. This PR fixes that
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-04 11:09:39 +0000 UTC
-    </div>
-</div>
-
