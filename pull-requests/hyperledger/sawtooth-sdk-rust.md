@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/sawtooth-sdk-rust
                 
             </td>
             <td>
-                * Use .map_err().ok() rather than expect, so message thread does not panic on rx drop
+                The expect() calls here are problematic for async clients, as tasks may be cancelled before the reply channel can be serviced. This can result in spurious errors.
+
+* Use .map_err().ok() rather than expect, so message thread can not panic
 * Lower logging to warm
 * Log socket errors
             </td>

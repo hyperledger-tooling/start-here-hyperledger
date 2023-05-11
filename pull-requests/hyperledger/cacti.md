@@ -231,29 +231,3 @@ Fixes:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2414" class=".btn">#2414</a>
-            </td>
-            <td>
-                <b>
-                    feat(openssl): version upgrade to v0.10.48 in cactus-plugin-keychain-vault
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fix: issue #2365
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-04 10:58:52 +0000 UTC
-    </div>
-</div>
-
