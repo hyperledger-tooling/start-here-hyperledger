@@ -69,29 +69,3 @@ executor failed running [/bin/sh -c ls -la ./     && GO111MODULE=on GOOS=linux C
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1299" class=".btn">#1299</a>
-            </td>
-            <td>
-                <b>
-                    Fix unique indexes for transfers/approvals to be per-namespace
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-04 16:54:10 +0000 UTC
-    </div>
-</div>
-

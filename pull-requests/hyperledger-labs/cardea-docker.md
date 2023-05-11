@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/cardea-docker
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/cardea-docker/pull/19" class=".btn">#19</a>
+                PR <a href="https://github.com/hyperledger-labs/cardea-docker/pull/20" class=".btn">#20</a>
             </td>
             <td>
                 <b>
-                    Update CODEOWNERS
+                    chore: adding MAINTAINERS file
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/cardea-docker
                 
             </td>
             <td>
-                <nil>
+                adding maintainers for Cardea project
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-20 19:38:00 +0000 UTC
+        Created At 2023-05-11 17:07:31 +0000 UTC
     </div>
 </div>
 

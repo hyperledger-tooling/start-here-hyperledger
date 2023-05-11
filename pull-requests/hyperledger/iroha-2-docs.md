@@ -14,26 +14,25 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/332" class=".btn">#332</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/341" class=".btn">#341</a>
             </td>
             <td>
                 <b>
-                    Working with the cryptographic keys
+                    Added account switching and resolved permission token collision in transfering assets
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">documentation</span><span class="chip">iroha2</span>
             </td>
             <td>
-                Adds previous work on the topic of cryptographic keys.
-I've been looking into KeePass `gpg-agent` integration and am still seeking a solution.
+                Added account switching and resolved permission token collision in transfering assets to resolve this issue https://github.com/hyperledger/iroha-2-docs/issues/291
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-27 07:56:34 +0000 UTC
+        Created At 2023-05-11 15:20:46 +0000 UTC
     </div>
 </div>
 
