@@ -63,29 +63,3 @@ permalink: /pull-requests/hyperledger/anoncreds-clsignatures-rs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/2" class=".btn">#2</a>
-            </td>
-            <td>
-                <b>
-                    Initial merge and workflow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-04 15:45:48 +0000 UTC
-    </div>
-</div>
-

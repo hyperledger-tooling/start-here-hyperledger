@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/bevel-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel-samples/pull/23" class=".btn">#23</a>
+                PR <a href="https://github.com/hyperledger/bevel-samples/pull/24" class=".btn">#24</a>
             </td>
             <td>
                 <b>
-                    [ci-skip] updated repo and chart path
+                    [shared] Add delete roles
                 </b>
             </td>
         </tr>
@@ -27,19 +27,23 @@ permalink: /pull-requests/hyperledger/bevel-samples
                 
             </td>
             <td>
-                **updated repo and chart path in the new bevel-samples repository for following platforms**
+                Primary Changes
+--------------
+1. Added platforms/shared/configuration/roles/delete roles for deleting realese files and fluxes
+2. Added platforms/shared/configuration/delete-app.yaml playbook for execution of delete roles
 
-  1. Besu
-  2. Corda
-  3. Fabric
-  4. Quorum
+Modifications in platforms/shared/configuration
+-----------------------
+platforms/shared/configuration/delete-app.yaml
+platforms/shared/configuration/roles/delete/flux/tasks/main.yaml platforms/shared/configuration/roles/delete/flux/tasks/nested.yaml platforms/shared/configuration/roles/delete/gitops/README.md platforms/shared/configuration/roles/delete/gitops/tasks/main.yaml
 
-fixes #2222
+Fixes
+https://github.com/hyperledger/bevel/issues/2237
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-28 11:24:04 +0000 UTC
+        Created At 2023-05-11 16:01:28 +0000 UTC
     </div>
 </div>
 

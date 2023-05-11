@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5448" class=".btn">#5448</a>
+            </td>
+            <td>
+                <b>
+                    Fix 'locahost' typo in log config
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Fix minor typo in log host default value
+
+## Fixed Issue(s)
+None
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-11 16:16:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5444" class=".btn">#5444</a>
             </td>
             <td>

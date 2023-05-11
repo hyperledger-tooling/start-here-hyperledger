@@ -63,29 +63,3 @@ permalink: /pull-requests/hyperledger/aries-bbssignatures-rs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-bbssignatures-rs/pull/3" class=".btn">#3</a>
-            </td>
-            <td>
-                <b>
-                    Rename from aries-bbs-rs to aries-bbssignatures-rs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Rename from `aries-bbs-rs` to `aries-bbssignatures-rs`. The goal is to match the naming convention of the other 2 repos created for `indy-blssignatures-rs` and `anoncreds-clsignatures-rs`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-04 12:40:44 +0000 UTC
-    </div>
-</div>
-

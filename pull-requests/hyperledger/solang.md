@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1309" class=".btn">#1309</a>
+            </td>
+            <td>
+                <b>
+                    Fix the formatting in the chain extension documentation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Sorry for this annoyance. I should have checked it before. I just assumed because it rendered it would look fine :grin:
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-11 17:37:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1307" class=".btn">#1307</a>
             </td>
             <td>
@@ -107,7 +133,11 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                Longer term I would like to generate the docs in github actions rather then from readthedocs. If there is a failure we would like to know about it.
+
+So, this PR does a bunch of work to fix the docs build. Now, the correct version number is rendered.
+
+The pdf is not generated yet. Not sure if we care about the pdf though.
             </td>
         </tr>
     </table>
