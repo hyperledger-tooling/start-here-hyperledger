@@ -15,32 +15,34 @@ permalink: /releases/hyperledger/firefly-tokens-erc1155
         <tr>
             <td colspan="2">
                 <b>
-                    v1.2.2
+                    v1.2.3
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.2
+                    v1.2.3
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Retry blockchain calls with a back-off delay by @matthew1001 in https://github.com/hyperledger/firefly-tokens-erc1155/pull/117
+* log error when failing to get token URI by @shorsher in https://github.com/hyperledger/firefly-tokens-erc1155/pull/118
+* Encode the values passed in "poolData" by @awrichar in https://github.com/hyperledger/firefly-tokens-erc1155/pull/119
+* Mtls support by @chrisbygrave in https://github.com/hyperledger/firefly-tokens-erc1155/pull/121
 
 ## New Contributors
-* @matthew1001 made their first contribution in https://github.com/hyperledger/firefly-tokens-erc1155/pull/117
+* @chrisbygrave made their first contribution in https://github.com/hyperledger/firefly-tokens-erc1155/pull/121
 
-**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc1155/compare/v1.2.1...v1.2.2
+**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc1155/compare/v1.2.2...v1.2.3
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-tokens-erc1155/releases/tag/v1.2.2" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-tokens-erc1155/releases/tag/v1.2.3" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-03-29 17:58:39 +0000 UTC
+        Created At 2023-05-09 19:59:47 +0000 UTC
     </span>
 </div>
 

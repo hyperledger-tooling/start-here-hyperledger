@@ -15,26 +15,34 @@ permalink: /releases/hyperledger/firefly-tokens-erc20-erc721
         <tr>
             <td colspan="2">
                 <b>
-                    
+                    v1.2.4
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.3-async28042023-1
+                    v1.2.4
                 </span>
             </td>
             <td>
-                
+                ## What's Changed
+* Encode the values passed in "poolData" by @awrichar in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/129
+* Async event enrichment by @matthew1001 in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/134
+* Mtls support by @chrisbygrave in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/135
+
+## New Contributors
+* @chrisbygrave made their first contribution in https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/135
+
+**Full Changelog**: https://github.com/hyperledger/firefly-tokens-erc20-erc721/compare/v1.2.3...v1.2.4
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v1.2.3-async28042023-1" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v1.2.4" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-04-28 10:28:45 +0000 UTC
+        Created At 2023-05-09 19:59:34 +0000 UTC
     </span>
 </div>
 
