@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/117" class=".btn">#117</a>
+                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/119" class=".btn">#119</a>
             </td>
             <td>
                 <b>
-                    docs: Fix json syntaxes
+                    fix: agent init before link secret
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
                 
             </td>
             <td>
-                I noticed that there are some json codeblocks that are missing a `:` after a property. This can make it difficult to copy the codeblock into your own package.json file.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-25 12:50:23 +0000 UTC
+        Created At 2023-05-11 06:15:11 +0000 UTC
     </div>
 </div>
 
