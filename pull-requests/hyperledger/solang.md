@@ -259,29 +259,3 @@ name3) name6) name4) public name5;
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1297" class=".btn">#1297</a>
-            </td>
-            <td>
-                <b>
-                    Solve YUL panics for EVM semantic tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I fixed a problem in which we were trying to fetch a function header that was not added to the set of processed headers, because there was an error in processing it.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-03 21:24:54 +0000 UTC
-    </div>
-</div>
-
