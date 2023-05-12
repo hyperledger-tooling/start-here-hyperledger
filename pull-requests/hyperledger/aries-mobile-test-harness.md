@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/167" class=".btn">#167</a>
+            </td>
+            <td>
+                <b>
+                    feat: Add LambdaTest support to manage script
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## New Features ##
+
+* Added script for uploading app to LambdaTest
+* Added new device service handler for LambdaTest
+* Added new json config for LambdaTest (Android & iOS) 
+
+### Important ###
+
+LambdaTest only supports at the moment [camera image injection](https://www.lambdatest.com/support/docs/camera-image-injection/). Biometrics is not a feature that this platform can offer for now.
+
+Also, for iOS the minimum platformVersion they have for real devices is 14, which needs to be considered since the wallet app has the target configured for minimum deployments at 11.0.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-12 15:26:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/166" class=".btn">#166</a>
             </td>
             <td>

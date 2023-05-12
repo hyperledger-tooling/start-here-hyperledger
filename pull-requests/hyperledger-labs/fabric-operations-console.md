@@ -151,37 +151,3 @@ When joining a peer to a channel (and the anchor peer toggle was enabled) it was
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/467" class=".btn">#467</a>
-            </td>
-            <td>
-                <b>
-                    fix adding and removing of consortium members
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-This fixes adding and removing consortium members to the system channel of an ordering service.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-05 17:35:35 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/675" class=".btn">#675</a>
+            </td>
+            <td>
+                <b>
+                    Fix ts-scenario TypeScript transpile failure
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ts-scenario tests failed with Node 16 and 18 only, with the following error:
+
+TSError: ⨯ Unable to compile TypeScript:
+error TS6046: Argument for '--module' option must be: 'none', 'commonjs', 'amd', 'system', 'umd', 'es6', 'es2015', 'es2020', 'esnext'.
+
+ts-node was not correctly identifying the tsconfig.json for the ts-scenario tests and using some default values.
+
+Fix by avoiding transpile altogether, which should also provide some performance benefits. Instead compile the ts-scenario code using the TypeScript compiler, and run cucumber-js on the compiled output.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-12 12:52:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/674" class=".btn">#674</a>
             </td>
             <td>

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1456" class=".btn">#1456</a>
+            </td>
+            <td>
+                <b>
+                    fix!: return didcomm mime-type in http response
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+BREAKING CHANGE:
+previously the HttpInboundTransport would return a response content type of `application/json`. This is incorrect and lead to interoperability issues (especially with the Lissi wallet). As there's multiple mime-types that can be used the TransportSession.send method now takes an agentContext parameter to extract this from the config.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-12 12:59:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1454" class=".btn">#1454</a>
             </td>
             <td>

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/590" class=".btn">#590</a>
+            </td>
+            <td>
+                <b>
+                    Use compiled output in Node scenario tests instead of ts-node
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Avoid the overhead of runtime transpile and more accurately reflect real application conditions.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-12 13:42:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/589" class=".btn">#589</a>
             </td>
             <td>
@@ -33,32 +59,6 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     </table>
     <div class="right-align">
         Created At 2023-05-09 14:17:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/587" class=".btn">#587</a>
-            </td>
-            <td>
-                <b>
-                    Remove Netty dependency
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Use Java gRPC instead of Netty API to establish TLS connections. Requires client application to add an appropriate gRPC channel service provider dependency, but also gives the client control of the library to be used rather than mandating Netty.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-05 14:33:47 +0000 UTC
     </div>
 </div>
 

@@ -102,29 +102,3 @@ Signed-off-by: Arkadi Piven arkadi.piven@ibm.com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1037" class=".btn">#1037</a>
-            </td>
-            <td>
-                <b>
-                    Use Java gRPC instead of Netty API to establish TLS connections
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-05 15:30:55 +0000 UTC
-    </div>
-</div>
-

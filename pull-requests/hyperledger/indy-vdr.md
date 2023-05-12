@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/183" class=".btn">#183</a>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/184" class=".btn">#184</a>
             </td>
             <td>
                 <b>
-                    fix(nodejs): compatible with Windows builds
+                    Proxy client
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/indy-vdr
                 
             </td>
             <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
-
+                A Rust client for `indy-vdr-proxy`.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-27 18:49:52 +0000 UTC
+        Created At 2023-05-12 15:52:08 +0000 UTC
     </div>
 </div>
 
