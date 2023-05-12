@@ -14,6 +14,100 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2241" class=".btn">#2241</a>
+            </td>
+            <td>
+                <b>
+                    [besu] refactor crypto creation and genesis tasks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Change-log**
+
+- Move crypto create task to k8s jobs
+- Refactor genesis creation tasks
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-12 13:56:54 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2240" class=".btn">#2240</a>
+            </td>
+            <td>
+                <b>
+                    [substrate] Add support for Substrate based DSCP platform
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR makes the following changes
+- New platform `substrate` is introduced
+- Used `dscp-node` as the substrate node template which will be used in examples as well
+- Adds image automation for flux with flux version upgrade
+- Fixes formatting errors in docs so Maintainers are listed in readthedocs
+- A sample github actions file to deploy a DLT network with Bevel on GCP
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-12 13:42:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2239" class=".btn">#2239</a>
+            </td>
+            <td>
+                <b>
+                    [besu] Decopule Vault CURD Operations in helm charts 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Changes:
+
+Vault CURD operations have been decoupled and are moved to a script where the vault Script will be created as a configmap in each organizational namespace and will be mounted as a volume in helm charts.
+
+Reviewers:
+  @suvajit-sarkar @jagpreetsinghsasan @sownak 
+
+Issues:
+#2221 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-12 12:31:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2238" class=".btn">#2238</a>
             </td>
             <td>
@@ -38,6 +132,7 @@ Updated the following files to introduce the new option for transaction manager:
   3. deploy-network.yaml file.
   4. network-schema.json.
   5. sample network-quorum.yaml file.
+  6. sample network-quorum-constellation.yaml
 
 In addition, added a label to the job.yaml files of the following charts:
   1. certs-ambassador-quorum.

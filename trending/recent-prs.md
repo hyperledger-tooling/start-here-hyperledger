@@ -1,13 +1,13 @@
 
-[2238](https://github.com/hyperledger/bevel/pull/2238) [ci-skip]: add 'none' as a new option for transaction manager.
+[2232](https://github.com/hyperledger/aries-cloudagent-python/pull/2232) Multi-tenant self-managed mediation verkey lookup
 
-[25](https://github.com/hyperledger/bevel-samples/pull/25) [chore] Merge develop to main
+[764](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/764) chore: update readme
 
-[840](https://github.com/hyperledger/aries-vcx/pull/840) Fix/protocols problem report
+[84](https://github.com/hyperledger/sawtooth-sdk-rust/pull/84) Fix new lints
 
-[761](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/761) fix: replced any with appropriate data type
+[1310](https://github.com/hyperledger/solang/pull/1310) Use solc v0.8.20 testdata
 
-[5451](https://github.com/hyperledger/besu/pull/5451) Restore transactions from disk searially to avoid blocking other threads
+[184](https://github.com/hyperledger/indy-vdr/pull/184) Proxy client
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

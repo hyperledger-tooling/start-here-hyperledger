@@ -76,7 +76,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
         <tr>
             <td>
-                <span class="chip">skip-ci</span>
+                
             </td>
             <td>
                 Adds a new profile `VdrProxyProfile` which uses a running instance of [indy-vdr-proxy](https://github.com/hyperledger/indy-vdr/tree/main/indy-vdr-proxy) (through [indy-vdr-proxy-client](https://github.com/mirgee/indy-vdr/pull/1/files)) to read and write transactions instead of communicating with the ledger directly.
