@@ -46,7 +46,7 @@ Have to change `gomodule` names due to golang mandatory requirement that any ver
             </td>
             <td>
                 <b>
-                     style: open source day batch 8 #1357
+                    style: 2021-09-20 linter warnings batch 8 / 26  #1357
                 </b>
             </td>
         </tr>
@@ -197,37 +197,6 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </table>
     <div class="right-align">
         Created At 2023-05-05 17:34:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2415" class=".btn">#2415</a>
-            </td>
-            <td>
-                <b>
-                    chore(ci): publish weaver go modules
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Chore:
-- chore(ci): publish weaver go modules
-   This way of publishing all go modules in single commit will work as long as in the release commit, only version files are changed and script `go-gen-checksum.sh` in root directory is run, and no other changes are made between that commit and actual releasing (i.e. no other PR is merged affecting these go modules till release PR is merged).
-
-Fixes:
-- fix(ci): update version only if tag has version
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-05 06:37:28 +0000 UTC
     </div>
 </div>
 

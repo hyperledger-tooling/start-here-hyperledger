@@ -284,36 +284,3 @@ The pdf is not generated yet. Not sure if we care about the pdf though.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1298" class=".btn">#1298</a>
-            </td>
-            <td>
-                <b>
-                    Do not panic if variable accessor function has duplicate argument names
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This can only arise with nested mapping:
-
-```solidity
-contract test {
-    mapping(uint nameSame => mapping(uint name1 => mapping(uint nameSame => uint 
-name3) name6) name4) public name5;
-}
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-05 08:31:15 +0000 UTC
-    </div>
-</div>
-

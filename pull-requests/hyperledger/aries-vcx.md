@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/840" class=".btn">#840</a>
+            </td>
+            <td>
+                <b>
+                    Fix/protocols problem report
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR addresses #835 and #836, essentially adding a `ProblemReport` message to both the `IssueCredential` and `PresentProof` protocols.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-12 11:55:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/838" class=".btn">#838</a>
+            </td>
+            <td>
+                <b>
+                    Split publish_local_revocations in BaseAnoncreds
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Splits `publish_local_revocations` method associated with `BaseAnoncreds` trait into `get_rev_reg_delta` and `clear_rev_reg_delta` in order for `IndySdkAnonCreds` to not depend on a `PoolHandle`. Local revocations' publishing is now implemented in an already existing method associated with `RevocationRegistry` which exposes this functionality to the client code.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-12 07:54:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/837" class=".btn">#837</a>
             </td>
             <td>
@@ -125,32 +177,6 @@ Thank You,
     </table>
     <div class="right-align">
         Created At 2023-05-07 10:09:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/830" class=".btn">#830</a>
-            </td>
-            <td>
-                <b>
-                    Verifier presentation failure adjustments
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR fixes an emerging problem regarding the verifier not doing anything in case the presentation verification fails (a problem report might be generated, but not sent, so the prover would be in the dark). 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-05 08:39:31 +0000 UTC
     </div>
 </div>
 

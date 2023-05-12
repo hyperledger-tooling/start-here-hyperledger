@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-signer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-signer/pull/41" class=".btn">#41</a>
+                PR <a href="https://github.com/hyperledger/firefly-signer/pull/42" class=".btn">#42</a>
             </td>
             <td>
                 <b>
-                    Update firefly-common to v1.2.10
+                    fix: ABI decoding dynamic tuple arrays
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/firefly-signer
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-03 20:20:47 +0000 UTC
+        Created At 2023-05-12 10:08:41 +0000 UTC
     </div>
 </div>
 
