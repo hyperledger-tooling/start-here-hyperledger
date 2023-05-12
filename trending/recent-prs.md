@@ -1,13 +1,13 @@
 
-[81](https://github.com/hyperledger-labs/hlf-connector/pull/81) Increment version after release
+[2238](https://github.com/hyperledger/bevel/pull/2238) [ci-skip]: add 'none' as a new option for transaction manager.
 
-[80](https://github.com/hyperledger-labs/hlf-connector/pull/80) Make input parameters optional for the MultiDataPayload
+[25](https://github.com/hyperledger/bevel-samples/pull/25) [chore] Merge develop to main
 
-[5449](https://github.com/hyperledger/besu/pull/5449) Implement Limit on Resource-Intensive Batch Requests in JSON RPC
+[840](https://github.com/hyperledger/aries-vcx/pull/840) Fix/protocols problem report
 
-[472](https://github.com/hyperledger-labs/fabric-token-sdk/pull/472) Bump github.com/docker/distribution from 2.8.1+incompatible to 2.8.2+incompatible
+[761](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/761) fix: replced any with appropriate data type
 
-[476](https://github.com/hyperledger-labs/fabric-smart-client/pull/476) Bump github.com/docker/distribution from 2.8.1+incompatible to 2.8.2+incompatible
+[5451](https://github.com/hyperledger/besu/pull/5451) Restore transactions from disk searially to avoid blocking other threads
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

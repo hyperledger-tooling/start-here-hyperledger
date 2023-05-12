@@ -14,6 +14,80 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5451" class=".btn">#5451</a>
+            </td>
+            <td>
+                <b>
+                    Restore transactions from disk searially to avoid blocking other threads
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+I could happen that when restoring many transactions from disk, to have Vertx thread blocked exception, to avoid that is it safer to restore transactions serially than in parallel.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-12 10:11:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5450" class=".btn">#5450</a>
+            </td>
+            <td>
+                <b>
+                    Layered txpool reconcile sender
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Added a general way to detect nonce discrepancies between world state and the txpool view for a sender, that could happen during the small amount of time during block import when the world state is update while the txpool still does not process the confirmed txs, or when there is a reorg and the sender nonce goes back, and if a nonce discrepancy is detected the txs for the sender are reconciled according with the world state nonce.
+
+The new solution replace the solution that was in place to handle reorg, since it is general and covers all the cases of nonce discrepancies.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+
+fixes #5447 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-12 09:42:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5449" class=".btn">#5449</a>
             </td>
             <td>
@@ -29,7 +103,7 @@ permalink: /pull-requests/hyperledger/besu
             <td>
                 ## PR description
 
-This Pull Request introduces a new limitation mechanism for batch requests in Besu's JSON RPC that are deemed resource-intensive. Non-resource-intensive methods can be called without restrictions, while resource-intensive requests are now subject to a limit, which is defined by Besu's `JsonRpcConfiguration`.
+This Pull Request introduces a new limitation mechanism for batch requests in Besu's JSON RPC that are deemed resource-intensive. Non-resource-intensive methods can be called without restrictions, while resource-intensive requests are now subject to a limit, which is defined by Besu's `JsonRpcConfiguration`. Currently, the `eth_call` method is the only one marked as resource-intensive.
 
 Changes
 
@@ -37,8 +111,9 @@ Changes
 - Implemented an optional command-line interface parameter `rpc-http-max-resource-intensive-per-batch-size` allowing users to manually adjust the resource-intensive request limit as per their needs.
 - Established a new error response mechanism. If the number of resource-intensive requests exceeds the set limit, all subsequent resource-intensive requests will receive a specific error.
 
-For instance:
+For instance, given the limit of 1 for the resource-intensive eth_call method, the response to this batch of requests would be:
 
+Request
 ```
 [
   {"jsonrpc":"2.0", "method":"eth_call", "params":[{/*parameters for eth_call*/}], "id":1},
@@ -47,8 +122,7 @@ For instance:
   {"jsonrpc":"2.0", "method":"eth_getBlockByNumber", "params":[{/*parameters for eth_getBlockByNumber*/}], "id":4}
 ]
 ```
-Given the limit of 1 for the resource-intensive eth_call method, the response to this batch of requests would be:
-
+Response:
 ```
 [
   {
@@ -60,7 +134,7 @@ Given the limit of 1 for the resource-intensive eth_call method, the response to
     "jsonrpc": "2.0",
     "id": 2,
     "error": {
-      "code": -32600,
+      "code": -32005,
       "message": "Resource-Intensive Request Limit Exceeded",
     }
   },
@@ -231,74 +305,6 @@ fixes protocol-misc # 756
     </table>
     <div class="right-align">
         Created At 2023-05-06 02:35:01 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5439" class=".btn">#5439</a>
-            </td>
-            <td>
-                <b>
-                    Add option to send SNI header in TLS ClientHello message [#4894]
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">doc-change-required</span>
-            </td>
-            <td>
-                ## PR description
-
-Adds an option to send an SNI header on a TLS ClientHello message. Given the existing exposed options for the `TLSConfiguration`, I went for the `--Xp2p-tls-*` prefix for the new sni header option, instead of `p2p-tls-clienthello-sni` as it was stated in #4894 . Please let me know if you prefer otherwise.
-
-* add --Xp2p-tls-clienthello-sni option to enable the SNI header
-
-## Fixed Issue(s)
-fixes hyperledger#4894
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-05 09:59:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5438" class=".btn">#5438</a>
-            </td>
-            <td>
-                <b>
-                    Enable blobs on Blockchain and trie log column families
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Enable blobs on Blockchain and trie log column families.
-Only values that are bigger than 4 KiB are written to Blobs
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-05 09:09:06 +0000 UTC
     </div>
 </div>
 
