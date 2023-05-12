@@ -14,6 +14,81 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5449" class=".btn">#5449</a>
+            </td>
+            <td>
+                <b>
+                    Implement Limit on Resource-Intensive Batch Requests in JSON RPC
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamRevenant</span><span class="chip">mainnet</span><span class="chip">RPC</span>
+            </td>
+            <td>
+                ## PR description
+
+This Pull Request introduces a new limitation mechanism for batch requests in Besu's JSON RPC that are deemed resource-intensive. Non-resource-intensive methods can be called without restrictions, while resource-intensive requests are now subject to a limit, which is defined by Besu's `JsonRpcConfiguration`.
+
+Changes
+
+- Introduced a limit on the number of resource-intensive requests that can be executed in a batch of JSON RPC requests within Besu. The limit is configurable.
+- Implemented an optional command-line interface parameter `rpc-http-max-resource-intensive-per-batch-size` allowing users to manually adjust the resource-intensive request limit as per their needs.
+- Established a new error response mechanism. If the number of resource-intensive requests exceeds the set limit, all subsequent resource-intensive requests will receive a specific error.
+
+For instance:
+
+```
+[
+  {"jsonrpc":"2.0", "method":"eth_call", "params":[{/*parameters for eth_call*/}], "id":1},
+  {"jsonrpc":"2.0", "method":"eth_call", "params":[{/*parameters for eth_call*/}], "id":2},
+  {"jsonrpc":"2.0", "method":"eth_getTransactionCount", "params":[{/*parameters for eth_getTransactionCount*/}], "id":3},
+  {"jsonrpc":"2.0", "method":"eth_getBlockByNumber", "params":[{/*parameters for eth_getBlockByNumber*/}], "id":4}
+]
+```
+Given the limit of 1 for the resource-intensive eth_call method, the response to this batch of requests would be:
+
+```
+[
+  {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": { /* result of first eth_call */ }
+  },
+  {
+    "jsonrpc": "2.0",
+    "id": 2,
+    "error": {
+      "code": -32600,
+      "message": "Resource-Intensive Request Limit Exceeded",
+    }
+  },
+  {
+    "jsonrpc": "2.0",
+    "id": 3,
+    "result": { /* result of eth_getTransactionCount */ }
+  },
+  {
+    "jsonrpc": "2.0",
+    "id": 4,
+    "result": { /* result of eth_getBlockByNumber */ }
+  }
+]
+```
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-12 04:32:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5448" class=".btn">#5448</a>
             </td>
             <td>
@@ -224,39 +299,6 @@ Only values that are bigger than 4 KiB are written to Blobs
     </table>
     <div class="right-align">
         Created At 2023-05-05 09:09:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5436" class=".btn">#5436</a>
-            </td>
-            <td>
-                <b>
-                    Send rawtx conditional
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Related to account abstraction. 
-
-Implementation of this endpoint https://notes.ethereum.org/@yoav/SkaX2lS9j
-* basically the same as eth_sendRawTransaction, with the ability to specify a number of conditions
-- [x] have put X in the RPC name for now - spec may not be finalized
-- [x] limit max number of user-specified constraints
-- [x]  check expected storageHash against blockchainQueries actual value (needs a new method to expose this)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-05 05:24:30 +0000 UTC
     </div>
 </div>
 

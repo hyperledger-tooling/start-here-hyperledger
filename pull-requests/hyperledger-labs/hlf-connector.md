@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/79" class=".btn">#79</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/81" class=".btn">#81</a>
             </td>
             <td>
                 <b>
@@ -32,7 +32,35 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-04 06:29:56 +0000 UTC
+        Created At 2023-05-12 06:15:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/80" class=".btn">#80</a>
+            </td>
+            <td>
+                <b>
+                    Make input parameters optional for the MultiDataPayload
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1. Peer names are not always mandatory in the transaction request.
+2. Peer private payload is not always mandatory in the transaction request.
+3. Minor refactoring.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-12 05:51:20 +0000 UTC
     </div>
 </div>
 
