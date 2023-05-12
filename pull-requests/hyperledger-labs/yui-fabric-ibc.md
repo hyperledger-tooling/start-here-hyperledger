@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-fabric-ibc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-fabric-ibc/pull/55" class=".btn">#55</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-fabric-ibc/pull/56" class=".btn">#56</a>
             </td>
             <td>
                 <b>
-                    Bump github.com/docker/docker from 17.12.0-ce-rc1.0.20190628135806-70f67c6240bb+incompatible to 20.10.24+incompatible
+                    Bump github.com/docker/distribution from 2.7.1+incompatible to 2.8.2+incompatible
                 </b>
             </td>
         </tr>
@@ -27,65 +27,55 @@ permalink: /pull-requests/hyperledger-labs/yui-fabric-ibc
                 <span class="chip">dependencies</span>
             </td>
             <td>
-                Bumps [github.com/docker/docker](https://github.com/docker/docker) from 17.12.0-ce-rc1.0.20190628135806-70f67c6240bb+incompatible to 20.10.24+incompatible.
+                Bumps [github.com/docker/distribution](https://github.com/docker/distribution) from 2.7.1+incompatible to 2.8.2+incompatible.
 <details>
 <summary>Release notes</summary>
-<p><em>Sourced from <a href="https://github.com/docker/docker/releases">github.com/docker/docker's releases</a>.</em></p>
+<p><em>Sourced from <a href="https://github.com/docker/distribution/releases">github.com/docker/distribution's releases</a>.</em></p>
 <blockquote>
-<h2>v20.10.24</h2>
-<h2>20.10.24</h2>
-<h3>Bug fixes and enhancements</h3>
+<h2>v2.8.2</h2>
+<h2>What's Changed</h2>
 <ul>
-<li>Fixed a number of issues that can cause Swarm encrypted overlay networks
-to fail to uphold their guarantees, addressing <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28841">CVE-2023-28841</a>,
-<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28840">CVE-2023-28840</a>, and
-<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28842">CVE-2023-28842</a>.
+<li>Revert registry/client: set <code>Accept: identity</code> header when getting layers by <a href="https://github.com/ndeloof"><code>@​ndeloof</code></a> in <a href="https://redirect.github.com/distribution/distribution/pull/3783">distribution/distribution#3783</a></li>
+<li>Parse <code>http</code> forbidden as denied by <a href="https://github.com/vvoland"><code>@​vvoland</code></a> in <a href="https://redirect.github.com/distribution/distribution/pull/3914">distribution/distribution#3914</a></li>
+<li>Fix <a href="https://www.cve.org/CVERecord?id=CVE-2022-28391">CVE-2022-28391</a> by bumping alpine from 3.14 to 3.16 by <a href="https://github.com/thaJeztah"><code>@​thaJeztah</code></a> (<a href="https://redirect.github.com/distribution/distribution/pull/3650">#3650</a>)</li>
+<li>Fix <a href="https://www.cve.org/CVERecord?id=CVE-2023-2253">CVE-2023-2253</a> runaway allocation on /v2/_catalog  by <a href="https://github.com/josegomezr"><code>@​josegomezr</code></a> <a href="https://github.com/distribution/distribution/commit/521ea3d973cb0c7089ebbcdd4ccadc34be941f54"><code>521ea3d9</code></a></li>
+<li>Fix panic in inmemory driver by <a href="https://github.com/wy65701436"><code>@​wy65701436</code></a> in <a href="https://redirect.github.com/distribution/distribution/pull/3815">distribution/distribution#3815</a></li>
+<li>bump up golang version (alternative) by <a href="https://github.com/thaJeztah"><code>@​thaJeztah</code></a> in <a href="https://redirect.github.com/distribution/distribution/pull/3903">distribution/distribution#3903</a></li>
+<li>Dockerfile: update xx to v1.2.1 by <a href="https://github.com/thaJeztah"><code>@​thaJeztah</code></a> in <a href="https://redirect.github.com/distribution/distribution/pull/3907">distribution/distribution#3907</a></li>
+<li>update to go1.19.9 by <a href="https://github.com/thaJeztah"><code>@​thaJeztah</code></a> in <a href="https://redirect.github.com/distribution/distribution/pull/3908">distribution/distribution#3908</a></li>
+<li>Add code to handle pagination of parts. Fixes max layer size of 10GB bug by <a href="https://github.com/DavidSpek"><code>@​DavidSpek</code></a> in <a href="https://redirect.github.com/distribution/distribution/pull/3893">distribution/distribution#3893</a></li>
+<li>Dockerfile: fix filenames of artifacts by <a href="https://github.com/thaJeztah"><code>@​thaJeztah</code></a> in <a href="https://redirect.github.com/distribution/distribution/pull/3911">distribution/distribution#3911</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/distribution/distribution/compare/v2.8.1...v2.8.2">https://github.com/distribution/distribution/compare/v2.8.1...v2.8.2</a></p>
+<h2>v2.8.2-beta.2</h2>
+<h2>What's Changed</h2>
 <ul>
-<li>A lack of kernel support for encrypted overlay networks now reports
-as an error.</li>
-<li>Encrypted overlay networks are eagerly set up, rather than waiting for
-multiple nodes to attach.</li>
-<li>Encrypted overlay networks are now usable on Red Hat Enterprise Linux 9
-through the use of the <code>xt_bpf</code> kernel module.</li>
-<li>Users of Swarm overlay networks should review <a href="https://github.com/moby/moby/security/advisories/GHSA-vwm3-crmr-xfxw">GHSA-vwm3-crmr-xfxw</a>
-to ensure that unintentional exposure has not occurred.</li>
+<li>Fix <a href="https://www.cve.org/CVERecord?id=CVE-2022-28391">CVE-2022-28391</a> by bumping alpine from 3.14 to 3.16 by <a href="https://github.com/thaJeztah"><code>@​thaJeztah</code></a> (<a href="https://redirect.github.com/distribution/distribution/pull/3650">#3650</a>)</li>
+<li>Fix <a href="https://www.cve.org/CVERecord?id=CVE-2023-2253">CVE-2023-2253</a> runaway allocation on /v2/_catalog  by <a href="https://github.com/josegomezr"><code>@​josegomezr</code></a> <a href="https://github.com/distribution/distribution/commit/521ea3d973cb0c7089ebbcdd4ccadc34be941f54"><code>521ea3d9</code></a></li>
+<li>Fix panic in inmemory driver by <a href="https://github.com/wy65701436"><code>@​wy65701436</code></a> in <a href="https://redirect.github.com/distribution/distribution/pull/3815">distribution/distribution#3815</a></li>
+<li>bump up golang version (alternative) by <a href="https://github.com/thaJeztah"><code>@​thaJeztah</code></a> in <a href="https://redirect.github.com/distribution/distribution/pull/3903">distribution/distribution#3903</a></li>
+<li>Dockerfile: update xx to v1.2.1 by <a href="https://github.com/thaJeztah"><code>@​thaJeztah</code></a> in <a href="https://redirect.github.com/distribution/distribution/pull/3907">distribution/distribution#3907</a></li>
+<li>update to go1.19.9 by <a href="https://github.com/thaJeztah"><code>@​thaJeztah</code></a> in <a href="https://redirect.github.com/distribution/distribution/pull/3908">distribution/distribution#3908</a></li>
+<li>Add code to handle pagination of parts. Fixes max layer size of 10GB bug by <a href="https://github.com/DavidSpek"><code>@​DavidSpek</code></a> in <a href="https://redirect.github.com/distribution/distribution/pull/3893">distribution/distribution#3893</a></li>
+<li>Dockerfile: fix filenames of artifacts by <a href="https://github.com/thaJeztah"><code>@​thaJeztah</code></a> in <a href="https://redirect.github.com/distribution/distribution/pull/3911">distribution/distribution#3911</a></li>
 </ul>
-</li>
-<li>Upgrade github.com/containerd/fifo to v1.1.0 to fix a potential panic <a href="https://redirect.github.com/moby/moby/pull/45242">moby/moby#45216</a>.</li>
-<li>Fix missing Bash completion for installed cli-plugins <a href="https://redirect.github.com/docker/cli/pull/4091">docker/cli#4091</a>.</li>
-</ul>
-<h3>Packaging Updates</h3>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/distribution/distribution/compare/v2.8.1...v2.8.2-beta.2">https://github.com/distribution/distribution/compare/v2.8.1...v2.8.2-beta.2</a></p>
+<h2>v2.8.2-beta.1</h2>
+<h3><strong>NOTE: This is a pre-release that does not contain any artifacts!</strong></h3>
+<h2>What's Changed</h2>
 <ul>
-<li>Update Go runtime to <a href="https://go.dev/doc/devel/release#go1.19.minor">1.19.7</a>.</li>
-<li>Update Docker Buildx to <a href="https://github.com/docker/buildx/releases/tag/v0.10.4">v0.10.4</a>.</li>
-<li>Update containerd to <a href="https://github.com/containerd/containerd/releases/tag/v1.6.20">v1.6.20</a>.</li>
-<li>Update runc to <a href="https://github.com/opencontainers/runc/releases/tag/v1.1.5">v1.1.5</a>.</li>
+<li>Fix runaway allocation on /v2/_catalog by <a href="https://github.com/josegomezr"><code>@​josegomezr</code></a> <a href="https://github.com/distribution/distribution/commit/521ea3d973cb0c7089ebbcdd4ccadc34be941f54"><code>521ea3d9</code></a></li>
+<li>Fix CVE-2022-28391 by bumping alpine from 3.14 to 3.16 by <a href="https://github.com/thaJeztah"><code>@​thaJeztah</code></a> in <a href="https://redirect.github.com/distribution/distribution/pull/3650">distribution/distribution#3650</a></li>
+<li>Fix panic in inmemory driver by <a href="https://github.com/wy65701436"><code>@​wy65701436</code></a> in <a href="https://redirect.github.com/distribution/distribution/pull/3815">distribution/distribution#3815</a></li>
+<li>bump up golang version (alternative) by <a href="https://github.com/thaJeztah"><code>@​thaJeztah</code></a> in <a href="https://redirect.github.com/distribution/distribution/pull/3903">distribution/distribution#3903</a></li>
+<li>Dockerfile: update xx to v1.2.1 by <a href="https://github.com/thaJeztah"><code>@​thaJeztah</code></a> in <a href="https://redirect.github.com/distribution/distribution/pull/3907">distribution/distribution#3907</a></li>
+<li>update to go1.19.9 by <a href="https://github.com/thaJeztah"><code>@​thaJeztah</code></a> in <a href="https://redirect.github.com/distribution/distribution/pull/3908">distribution/distribution#3908</a></li>
+<li>Add code to handle pagination of parts. Fixes max layer size of 10GB bug by <a href="https://github.com/DavidSpek"><code>@​DavidSpek</code></a> in <a href="https://redirect.github.com/distribution/distribution/pull/3893">distribution/distribution#3893</a></li>
 </ul>
-<h2>v20.10.23</h2>
-<h3>Bug fixes and enhancements</h3>
-<ul>
-<li>
-<p>Fix an issue where <code>docker build</code> would fail when using <code>--add-host=host.docker.internal:host-gateway</code>
-with BuildKit enabled <a href="https://redirect.github.com/moby/moby/pull/44650">moby/moby#44650</a>.</p>
-</li>
-<li>
-<p>Revert seccomp: block socket calls to <code>AF_VSOCK</code> in default profile <a href="https://redirect.github.com/moby/moby/pull/44712">moby/moby#44712</a>.
-This change, while favorable from a security standpoint, caused a change
-in behavior for some use-cases. As such, we are reverting it to ensure
-stability and compatibility for the affected users.</p>
-<p>However, users of <code>AF_VSOCK</code> in containers should recognize that this
-(special) address family is not currently namespaced in any version of
-the Linux kernel, and may result in unexpected behavior, like containers
-communicating directly with host hypervisors.</p>
-<p>Future releases, will filter <code>AF_VSOCK</code>. Users who need to allow containers
-to communicate over the unnamespaced <code>AF_VSOCK</code> will need to turn off seccomp
-confinement or set a custom seccomp profile.</p>
-</li>
-</ul>
-<h3>Packaging Updates</h3>
-<ul>
-<li>Update Docker Compose to <a href="https://github.com/docker/compose/releases/tag/v2.15.1">v2.15.1</a>.</li>
-</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/distribution/distribution/compare/v2.8.1...v2.8.2-beta.1">https://github.com/distribution/distribution/compare/v2.8.1...v2.8.2-beta.1</a></p>
+<h2>v2.8.1</h2>
+<p>Welcome to the v2.8.1 release of registry!</p>
+<p>The 2.8.1 registry release fixes the Go module issues that have popped up in the v2.8.0</p>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -93,13 +83,23 @@ confinement or set a custom seccomp profile.</p>
 <details>
 <summary>Commits</summary>
 <ul>
-<li>See full diff in <a href="https://github.com/docker/docker/commits/v20.10.24">compare view</a></li>
+<li><a href="https://github.com/distribution/distribution/commit/7c354a4b40feeea21d7eeae4de91c8ff7951e672"><code>7c354a4</code></a> Merge pull request <a href="https://redirect.github.com/docker/distribution/issues/3915">#3915</a> from distribution/2.8.2-release-notes</li>
+<li><a href="https://github.com/distribution/distribution/commit/a173a9c625cdc84498580e4f486b36d4c9859065"><code>a173a9c</code></a> Add v2.8.2 release notes</li>
+<li><a href="https://github.com/distribution/distribution/commit/4894d35ecc831b114d86cd3795573e5f4f306ea7"><code>4894d35</code></a> Merge pull request <a href="https://redirect.github.com/docker/distribution/issues/3914">#3914</a> from vvoland/handle-forbidden-28</li>
+<li><a href="https://github.com/distribution/distribution/commit/f067f66d3de1fd82d6bf139d15130ff59d3db7e1"><code>f067f66</code></a> Merge pull request <a href="https://redirect.github.com/docker/distribution/issues/3783">#3783</a> from ndeloof/accept-encoding-28</li>
+<li><a href="https://github.com/distribution/distribution/commit/483ad69da3e3fb9ac885962d50834ff8619733a2"><code>483ad69</code></a> registry/errors: Parse http forbidden as denied</li>
+<li><a href="https://github.com/distribution/distribution/commit/2b0f84df21e062bd0cc3676557c6bee4cbb9e9bc"><code>2b0f84d</code></a> Revert &quot;registry/client: set Accept: identity header when getting layers&quot;</li>
+<li><a href="https://github.com/distribution/distribution/commit/320d6a141f17d11c44f98fd975b2368705e27971"><code>320d6a1</code></a> Merge pull request <a href="https://redirect.github.com/docker/distribution/issues/3912">#3912</a> from distribution/2.8.2-beta.2-release-notes</li>
+<li><a href="https://github.com/distribution/distribution/commit/5f3ca1b2fb6109705d729816e7260a6966d2b42d"><code>5f3ca1b</code></a> Add release notes for 2.8.2-beta.2 release</li>
+<li><a href="https://github.com/distribution/distribution/commit/cb840f63b3b27cce503aee5e3291750f3cd90c1c"><code>cb840f6</code></a> Merge pull request <a href="https://redirect.github.com/docker/distribution/issues/3911">#3911</a> from thaJeztah/2.8_backport_fix_releaser_filenames</li>
+<li><a href="https://github.com/distribution/distribution/commit/e884644fff38a5bf601a2272f434ee2b01dd2b17"><code>e884644</code></a> Dockerfile: fix filenames of artifacts</li>
+<li>Additional commits viewable in <a href="https://github.com/docker/distribution/compare/v2.7.1...v2.8.2">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/docker/docker&package-manager=go_modules&previous-version=17.12.0-ce-rc1.0.20190628135806-70f67c6240bb+incompatible&new-version=20.10.24+incompatible)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/docker/distribution&package-manager=go_modules&previous-version=2.7.1+incompatible&new-version=2.8.2+incompatible)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -130,7 +130,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-04 21:13:15 +0000 UTC
+        Created At 2023-05-11 20:41:35 +0000 UTC
     </div>
 </div>
 
