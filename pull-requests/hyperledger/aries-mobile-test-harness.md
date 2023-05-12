@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/165" class=".btn">#165</a>
-            </td>
-            <td>
-                <b>
-                    BCW Speed up Camera Policy Allow
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR is for BC wallet tests. The Camera Policy page takes a long time to select Allow on iOS. Used the fastest find by routine (but still fairly long), hopefully that will be good enough. Revisit if not. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-04 19:28:26 +0000 UTC
-    </div>
-</div>
-

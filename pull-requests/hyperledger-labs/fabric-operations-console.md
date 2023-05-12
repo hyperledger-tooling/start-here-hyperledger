@@ -185,39 +185,3 @@ This fixes adding and removing consortium members to the system channel of an or
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/466" class=".btn">#466</a>
-            </td>
-            <td>
-                <b>
-                    fix a few action buttons not rendering in modal + removed need for debug route
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- Bug fix
-
-#### Description
-- Fixes a few of the action buttons in the Orderer modal not rendering (and also just not working at all!), preventing things like updating capabilities, and toggling maintenance mode.
-- also we will now always show the `Open Channel Config` link in an orderer drill down. there's no longer a need to type out the `/debug/` route to activate this tool/link.
-- also fixes the block parameter sliders (found in the orderer advanced configuration modal) not reflecting the current settings (they were always showing the default values console sets for an ordering service instead of the current value)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-04 19:59:18 +0000 UTC
-    </div>
-</div>
-

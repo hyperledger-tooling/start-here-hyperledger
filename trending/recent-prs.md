@@ -1,13 +1,13 @@
 
-[1309](https://github.com/hyperledger/solang/pull/1309) Fix the formatting in the chain extension documentation
+[472](https://github.com/hyperledger-labs/fabric-token-sdk/pull/472) Bump github.com/docker/distribution from 2.8.1+incompatible to 2.8.2+incompatible
 
-[757](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/757) fix: update text on common decline modal
+[476](https://github.com/hyperledger-labs/fabric-smart-client/pull/476) Bump github.com/docker/distribution from 2.8.1+incompatible to 2.8.2+incompatible
 
-[20](https://github.com/hyperledger-labs/cardea-docker/pull/20) chore: adding MAINTAINERS file
+[152](https://github.com/hyperledger-labs/microfab/pull/152) Bump github.com/docker/distribution from 2.8.1+incompatible to 2.8.2+incompatible
 
-[16](https://github.com/hyperledger-labs/cardea/pull/16) chore: updating testenet schemas
+[706](https://github.com/hyperledger/fabric-private-chaincode/pull/706) Bump github.com/docker/distribution from 2.7.1+incompatible to 2.8.2+incompatible in /samples/deployment/fabric-smart-client/the-simple-testing-network
 
-[15](https://github.com/hyperledger-labs/cardea/pull/15) Chore/add maintainers
+[705](https://github.com/hyperledger/fabric-private-chaincode/pull/705) Bump github.com/docker/distribution from 2.7.1+incompatible to 2.8.2+incompatible in /integration/go_chaincode
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
