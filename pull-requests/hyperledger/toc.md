@@ -116,29 +116,3 @@ Please suggest any edits based on practices learned from other projects!
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/107" class=".btn">#107</a>
-            </td>
-            <td>
-                <b>
-                    Agenda for 2023-05-11
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-05 19:56:29 +0000 UTC
-    </div>
-</div>
-

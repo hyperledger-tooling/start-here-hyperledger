@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/159" class=".btn">#159</a>
+                PR <a href="https://github.com/hyperledger/sawtooth-lib/pull/170" class=".btn">#170</a>
             </td>
             <td>
                 <b>
-                    Move inactive maintainers to emeritus status
+                    Fix new lints
                 </b>
             </td>
         </tr>
@@ -27,21 +27,12 @@ permalink: /pull-requests/hyperledger/sawtooth-lib
                 
             </td>
             <td>
-                The TOC approved a requirement that maintainers
-that have not been active in over three to six
-months be move to emeritus status.
-
-These maintainers have not been active in over
-one year.
-
-hyperledger/toc#32
-
-Signed-off-by: Ry Jones <ry@linux.com>
+                Fix lints with the current version of rust.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-18 20:31:05 +0000 UTC
+        Created At 2023-05-12 18:47:46 +0000 UTC
     </div>
 </div>
 

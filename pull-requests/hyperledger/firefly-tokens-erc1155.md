@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/122" class=".btn">#122</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/123" class=".btn">#123</a>
             </td>
             <td>
                 <b>
-                    Make enrichment of events asynchronous
+                    Drop narrow "poolId" formatting in favor of "startId/endId"
                 </b>
             </td>
         </tr>
@@ -27,38 +27,23 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
                 
             </td>
             <td>
-                Work in progress PR to port ERC20/721 PR https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/134
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-04-28 14:17:18 +0000 UTC
-    </div>
-</div>
+                Pools on ERC1155 are really just ranges of the token ID space. Going forward,
+all pools will be expressed with a `startId` and `endId`. This makes the service
+logic much less bound to the specific decisions made in the sample contract
+around partitioning it in chunks of exactly 2^128.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/121" class=".btn">#121</a>
-            </td>
-            <td>
-                <b>
-                    Mtls support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds support for configuring the token connector with certificates to use when standing up the nest server. Providing the ceritificates will result in a TLS server that requests client certs on all API calls.
+The old poolId format such as "F1" or "N2" will still be parsed as expected,
+but will not be attached to any new pools.
+
+This is a step toward solving #104 and #98. The remaining work is mainly around
+ensuring we _don't_ require a preset factory contract to be configured, and allowing
+the user to pass in `startId`/`endId` when creating a pool, which will use them directly
+instead of calling `create`.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-28 10:26:21 +0000 UTC
+        Created At 2023-05-12 19:09:15 +0000 UTC
     </div>
 </div>
 
