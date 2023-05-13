@@ -281,32 +281,3 @@ The pdf is not generated yet. Not sure if we care about the pdf though.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1299" class=".btn">#1299</a>
-            </td>
-            <td>
-                <b>
-                    Enable tests for stdlib
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR introduces the following changes:
-1. Stdlib is now build directly with `cargo build`, so all the wasm and bpf files have been removed from the repository.
-2. Enable the tests for the stdlib. If nothing fails within two minutes, the test passes.
-3. Enable the linter `clang-format` for the stdlib. All C files have been reformatted.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-05 21:15:11 +0000 UTC
-    </div>
-</div>
-

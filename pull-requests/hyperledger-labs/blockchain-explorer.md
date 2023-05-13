@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-explorer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/383" class=".btn">#383</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/385" class=".btn">#385</a>
             </td>
             <td>
                 <b>
-                    chaincode metadata changes added
+                    Frontend Changes Channel Form
                 </b>
             </td>
         </tr>
@@ -32,19 +32,20 @@ permalink: /pull-requests/hyperledger-labs/blockchain-explorer
 
 
 #### What this PR does / why we need it:
-A new feature to display the chaincode metadata information in Blockchain Explorer. Explorer will look into the channel and identifies the chaincodes installed on it and enables the feature to view the metadata.
-Users can see the how the contract is structured and its associated metadata information.
-#### Which issue(s) this PR fixes: 
+Since, in current input fields label gets hidden behind th browse button. They look very different from input fields of name, org name.
+#### Which issue(s) this PR fixes:
 <!--
 *Automatically closes linked issue when PR is merged.
 Usage: `Fixes #<issue number>`, or `Fixes (paste link of issue)`.
 _If PR is about `failing-tests`, please post the related issues/tests in a comment and do not use `Fixes`_*
 -->
-Fixes #352 
+Fixes #384 
 
 #### Special notes for your reviewer:
+New channel form looks like this. 
 
-#### Does this PR introduce a user-facing change?
+![Screenshot from 2023-05-13 02-11-09](https://github.com/hyperledger-labs/blockchain-explorer/assets/103871275/876e2041-9f4d-48b4-9860-fdc1305747dc)
+
 <!--
 If no, just write "NONE" in the release-note block below.
 If yes, a release note is required:
@@ -52,10 +53,8 @@ Enter your extended release note in the block below. If the PR requires addition
 
 -->
 ```release-note
-None
-```
 
-#### Additional documentation, usage docs, etc.:
+```
 
 <!--
 This section can be blank if this pull request does not require a release note.
@@ -75,7 +74,7 @@ specific point in time, rather than a document that may change over time.
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-19 04:41:19 +0000 UTC
+        Created At 2023-05-12 21:06:09 +0000 UTC
     </div>
 </div>
 
