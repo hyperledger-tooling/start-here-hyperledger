@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/842" class=".btn">#842</a>
+            </td>
+            <td>
+                <b>
+                    refactor maybe_known.rs: MaybeKnown enum
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - fixes #839 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-13 07:14:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/840" class=".btn">#840</a>
             </td>
             <td>
