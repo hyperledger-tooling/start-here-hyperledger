@@ -42,32 +42,6 @@ Have to change `gomodule` names due to golang mandatory requirement that any ver
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2421" class=".btn">#2421</a>
-            </td>
-            <td>
-                <b>
-                    style: 2021-09-20 linter warnings batch 8 / 26  #1357
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixes issue  #1357 minus the linter warning ID 79 and 80 as they have been already solved in batch 9 #1478 .
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-10 08:53:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2420" class=".btn">#2420</a>
             </td>
             <td>
