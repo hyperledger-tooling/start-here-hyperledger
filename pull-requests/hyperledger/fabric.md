@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4217" class=".btn">#4217</a>
+            </td>
+            <td>
+                <b>
+                    Orderer v3: SmartBFT: eliminate Consnsus.Type in orderer.yaml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Change-Id: Ieddc902e711de7a0f7dabc76111dde100abb185e
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+Orderer v3: SmartBFT: eliminate Consnsus.Type in orderer.yaml
+
+#### Related issues
+
+#4216 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-14 15:29:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4214" class=".btn">#4214</a>
             </td>
             <td>
@@ -251,82 +290,6 @@ Issue: #4203 #4205
     </table>
     <div class="right-align">
         Created At 2023-05-08 11:58:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4208" class=".btn">#4208</a>
-            </td>
-            <td>
-                <b>
-                    Orderer v3: remove ORDERER_TRANSACTION
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Change-Id: I97bdd9fbc60195bbaf7c4486e43dbf7f28bbff66
-
-#### Type of change
-- Improvement (improvement to code, performance, etc)
-
-#### Description
-
-The ORDERER_TRANSACTION type is no longer used, reject it everywhere
-
-#### Related issues
-
-Issue: #3515 #4204
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-07 16:44:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4207" class=".btn">#4207</a>
-            </td>
-            <td>
-                <b>
-                    system channel cleanup - remove replicator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Cleaned dependencies on system channel from the `orderer/common/cluster/replication.go`.
-
-#### Type of change
-
-- Improvement (improvement to code, performance, etc)
-- Test update
-
-#### Description
-
-As described in issue #4202 .
-
-#### Related issues
-
-Issue: #4202 .
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-07 15:14:03 +0000 UTC
     </div>
 </div>
 
