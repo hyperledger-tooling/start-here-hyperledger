@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/844" class=".btn">#844</a>
+            </td>
+            <td>
+                <b>
+                    Support referrent-explicit format creating presentation request
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - When creating proof request, our API expected list of `<predicate_info>` objects (as they are defined in https://hyperledger.github.io/anoncreds-spec/#create-presentation-request). Aries-vcx implementation then auto-generated referent names, eg given:
+```
+[
+  { name: 'age', p_type: '>=', p_value: 18 }, 
+  { name: 'balance', p_type: '>=', p_value: 10000 }
+]
+```
+we transformed the input internally to anoncreds format
+```
+{
+  predicate_0: { name: 'age', p_type: '>=', p_value: 18 }, 
+  predicate_1: { name: 'balance', p_type: '>=', p_value: 10000 }
+}
+```
+- This PR enabled API called to simply supply entire `requested_predicates` object (as per anoncreds link above) and therefore letting the caller specify referents names eg.
+```
+{
+  is_adult: { name: 'age', p_type: '>=', p_value: 18 }, 
+  credit: { name: 'balance', p_type: '>=', p_value: 10000 }
+}
+```
+This is useful capability when inspecting presentations.
+
+#### Note
+- We should remove vector format, it's convenient but not very useful
+- String parsing should be happening on layer above `aries-vcx`
+- But these are for different PRs
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-14 18:19:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/843" class=".btn">#843</a>
             </td>
             <td>
