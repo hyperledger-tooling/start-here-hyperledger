@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2425" class=".btn">#2425</a>
+            </td>
+            <td>
+                <b>
+                     style: 2021-09-20 linter warnings batch 17 / 26; part 2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #2092
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-15 06:06:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2424" class=".btn">#2424</a>
             </td>
             <td>

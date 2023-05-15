@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/86" class=".btn">#86</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/87" class=".btn">#87</a>
             </td>
             <td>
                 <b>
-                    Corrected the set value of the HEIGHT value
+                    Bump up ibc-go to v7.0.0
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
                 
             </td>
             <td>
-                * Fixed headers at CreateMsgCreateClient and GetLatestFinalizedHeader
-* WithProof to add makeProof
-
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-30 07:13:45 +0000 UTC
+        Created At 2023-05-15 02:45:08 +0000 UTC
     </div>
 </div>
 
