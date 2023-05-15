@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5454" class=".btn">#5454</a>
+            </td>
+            <td>
+                <b>
+                    Log access denied error separately to other IO exceptions so cause is clearer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This PR logs `AccessDeniedException`s separately to generic `IOException`s when loading static node config.
+
+## Fixed Issue(s)
+Possibly fixes https://github.com/hyperledger/besu/issues/3986 (it looks there have been various commits that have improved the behaviour described in the issue. I think this PR further improves it by differentiating between access denied and general file IO issues, but whether it can actually be closed I'm not sure. Maybe the PR reviewer can comment on that and remove this `fixes` statement if they think the issue needs to remain open)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-15 10:45:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5453" class=".btn">#5453</a>
+            </td>
+            <td>
+                <b>
+                    Only create DB data dir if it doesn't already exist
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This PR skips creation of the database directory if it exists. While the call to `Files.createDirectories()` (which we use to initialise it if the DB needs creating) should be a no-op in this case, symlinks cause it to fail so the safer thing to do is confirm that the directory doesn't actually exist before making that call.
+
+## Fixed Issue(s)
+Fixed https://github.com/hyperledger/besu/issues/4043
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-15 09:58:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5452" class=".btn">#5452</a>
             </td>
             <td>

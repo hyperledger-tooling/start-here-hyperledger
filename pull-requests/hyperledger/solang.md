@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1311" class=".btn">#1311</a>
+            </td>
+            <td>
+                <b>
+                    Remove seal prefixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Since a while ago, the seal runtime API function imports do no longer need the `seal_` prefix. Since in Wasm the import name is found in the contract, it saves a few bytes in contract size. Unprefixed `return`  does not exist, and i left `seal_call` prefixed because it'll overwrite the `call` export.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-15 11:50:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1310" class=".btn">#1310</a>
             </td>
             <td>
@@ -252,32 +278,6 @@ The pdf is not generated yet. Not sure if we care about the pdf though.
     </table>
     <div class="right-align">
         Created At 2023-05-08 13:49:28 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1300" class=".btn">#1300</a>
-            </td>
-            <td>
-                <b>
-                    Update substrate-contracts-node to v0.25.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-08 09:59:12 +0000 UTC
     </div>
 </div>
 

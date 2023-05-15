@@ -1,13 +1,13 @@
 
-[2425](https://github.com/hyperledger/cacti/pull/2425)  style: 2021-09-20 linter warnings batch 17 / 26; part 2
+[1311](https://github.com/hyperledger/solang/pull/1311) Remove seal prefixes
 
-[5452](https://github.com/hyperledger/besu/pull/5452) Add info log to indicate Besu is waiting on CL to be synced
+[2426](https://github.com/hyperledger/cacti/pull/2426) fix(ci): multiple bug fixes in weaver deployment workflows
 
-[87](https://github.com/hyperledger-labs/yui-relayer/pull/87) Bump up ibc-go to v7.0.0
+[3586](https://github.com/hyperledger/aries-framework-go/pull/3586) perf: reuse same gjson parser
 
-[3480](https://github.com/hyperledger/iroha/pull/3480) [test] #2851: Remove ignore from tests that should work fine
+[5454](https://github.com/hyperledger/besu/pull/5454) Log access denied error separately to other IO exceptions so cause is clearer
 
-[3479](https://github.com/hyperledger/iroha/pull/3479) [fix] #3330: Manually implement `serde::de::Deserialize` for partially tagged enums
+[5453](https://github.com/hyperledger/besu/pull/5453) Only create DB data dir if it doesn't already exist
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

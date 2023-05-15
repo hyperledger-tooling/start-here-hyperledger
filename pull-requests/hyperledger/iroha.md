@@ -216,7 +216,7 @@ Also we should try to avoid using `Trap` because hard to work with when trying t
 
 <!-- Duplicate the main issue and add additional issues closed by this PR. -->
 
-Closes #{issue_number} <!-- Replace with an actual number,  -->
+Closes #3462
 
 <!-- Link if e.g. JIRA issue or  from another repository -->
 
@@ -339,7 +339,7 @@ Closes #2373
 
 <!-- Duplicate the main issue and add additional issues closed by this PR. -->
 
-Closes #{issue_number} <!-- Replace with an actual number,  -->
+Closes #3444
 
 <!-- Link if e.g. JIRA issue or  from another repository -->
 
