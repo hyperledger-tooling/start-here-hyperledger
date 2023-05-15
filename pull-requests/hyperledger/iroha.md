@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3481" class=".btn">#3481</a>
+            </td>
+            <td>
+                <b>
+                    Update commands.go
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                removed duplicate code in goSrc/srcvmCaller/iroha/commands.go: 478
+
+## Description
+
+The file "goSrc/srcvmCaller/iroha/commands.go" had duplicate code on line 478.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-15 14:54:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3480" class=".btn">#3480</a>
             </td>
             <td>

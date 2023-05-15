@@ -154,29 +154,3 @@ All APIs in original afgo pkg/ folders can continue to be used, these now transp
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3579" class=".btn">#3579</a>
-            </td>
-            <td>
-                <b>
-                    chore: add ValidateJSONLDMap
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-08 16:39:55 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/232" class=".btn">#232</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/233" class=".btn">#233</a>
             </td>
             <td>
                 <b>
-                    Propose Nidhi as Steward
+                    Fabric-EVM-Lab
                 </b>
             </td>
         </tr>
@@ -27,38 +27,15 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                Pending on TOC approval. @tkuhrt 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-29 17:36:52 +0000 UTC
-    </div>
-</div>
+                Fabric-EVM-Library is a complete virtual Blockchain node and Smart Contract execution engine. Fabric-EVM-Library is a distributed product that executes Smart Contracts and application code. Fabric-EVM-Library runs Ethereum Virtual Machine (EVM) and Web Assembly (WASM) Smart Contracts. The Fabric-EVM-Library will bring the option of the EVM to the Hyperledger Fabric developer and user community.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/231" class=".btn">#231</a>
-            </td>
-            <td>
-                <b>
-                    Retire Anand
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
+
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-29 17:25:29 +0000 UTC
+        Created At 2023-05-15 15:44:42 +0000 UTC
     </div>
 </div>
 

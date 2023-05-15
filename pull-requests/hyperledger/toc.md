@@ -90,29 +90,3 @@ Please suggest any edits based on practices learned from other projects!
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/108" class=".btn">#108</a>
-            </td>
-            <td>
-                <b>
-                    2023 Q2 Iroha report
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">quarterly-report</span>
-            </td>
-            <td>
-                This PR adds a second quarterly report for Iroha 2.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-08 17:18:14 +0000 UTC
-    </div>
-</div>
-
