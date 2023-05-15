@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/firefly-signer
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-signer/pull/43" class=".btn">#43</a>
+            </td>
+            <td>
+                <b>
+                    Fix coverage gaps from recent PRs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Note there was one path I believe it was impossible to reach, with a special case for a receiving a valid JSON payload, where the `.result` could not be parsed as JSON.
+So I change the code to not have a special branch for this, but still to ensure we capture the error if it ever happened.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-15 14:37:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-signer/pull/42" class=".btn">#42</a>
             </td>
             <td>
