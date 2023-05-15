@@ -15,29 +15,29 @@ permalink: /releases/hyperledger/bevel-operator-fabric
         <tr>
             <td colspan="2">
                 <b>
-                    Version 1.9.0-beta7
+                    Version 1.9.0-beta9
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.9.0-beta7
+                    v1.9.0-beta9
                 </span>
             </td>
             <td>
                 ## Changelog
-* 38eee6e Update .goreleaser.yml
+* 2cdfe2b Docker only amd64
 
 
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/bevel-operator-fabric/releases/tag/v1.9.0-beta7" class=".btn">
+    <a href="https://github.com/hyperledger/bevel-operator-fabric/releases/tag/v1.9.0-beta9" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-04-24 06:33:48 +0000 UTC
+        Created At 2023-05-15 15:36:57 +0000 UTC
     </span>
 </div>
 
