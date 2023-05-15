@@ -14,11 +14,40 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2426" class=".btn">#2426</a>
+            </td>
+            <td>
+                <b>
+                    fix(ci): multiple bug fixes in weaver deployment workflows
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes:
+1. Go publish workflows: Correct the tagnames
+2. Node workflows: fix typo in package.json after changing version (removed changing version in worklow)
+3. Fix a typo in relay deployment workflow
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-15 11:50:53 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2425" class=".btn">#2425</a>
             </td>
             <td>
                 <b>
-                     style: 2021-09-20 linter warnings batch 17 / 26; part 2
+                    style: 2021-09-20 linter warnings batch 17 / 26; part 2
                 </b>
             </td>
         </tr>
@@ -144,34 +173,6 @@ updates non-rivate htlc contract
     </table>
     <div class="right-align">
         Created At 2023-05-08 23:59:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2417" class=".btn">#2417</a>
-            </td>
-            <td>
-                <b>
-                    feat(connector-tcs-huawei):  Initial commit of feature tcs-huawei connector.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                tcs-huawei and the blockchains connected to tcs-huawei can be integrated to cactus by this connector.
-
-Signed-off-by: Wang Yinglun wangyinglun3@huawei.com 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-08 06:19:16 +0000 UTC
     </div>
 </div>
 

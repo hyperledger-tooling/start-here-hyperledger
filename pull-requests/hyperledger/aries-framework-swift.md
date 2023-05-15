@@ -80,29 +80,3 @@ fix concurrency issues with replacing concurrent* to async*
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/45" class=".btn">#45</a>
-            </td>
-            <td>
-                <b>
-                    ci: Fix workflow error - Change macos runner
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Macos runner version change causes cocoapods version mismatch. So, Fix it to macos-12.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-08 10:03:47 +0000 UTC
-    </div>
-</div>
-

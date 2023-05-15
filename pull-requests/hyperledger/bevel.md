@@ -127,18 +127,12 @@ feat(quorum): add 'none' as a new option for transaction manager.
 
 ```
 Updated the following files to introduce the new option for transaction manager:
-  1. deployment.yaml file of chart node_quorum_member.
-  2. memberquorum.tpl template.
-  3. deploy-network.yaml file.
-  4. network-schema.json.
-  5. sample network-quorum.yaml file.
+  1. deployment.yaml file of chart node_quorum_member
+  2. memberquorum.tpl template
+  3. deploy-network.yaml file
+  4. network-schema.json
+  5. sample network-quorum.yaml file
   6. sample network-quorum-constellation.yaml
-
-In addition, added a label to the job.yaml files of the following charts:
-  1. certs-ambassador-quorum.
-  2. crypto_ibft.
-  3. crypto_raft.
-  4. tessera_key_mgmt.
 ```
 
 fixes #2234
