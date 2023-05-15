@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5452" class=".btn">#5452</a>
+            </td>
+            <td>
+                <b>
+                    Add info log to indicate Besu is waiting on CL to be synced
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Add a info log so users can better understand why besu isn't doing anything when it's actually waiting on CL to send a FCU. 
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+Fixes #5416 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-15 03:25:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5451" class=".btn">#5451</a>
             </td>
             <td>
@@ -214,42 +249,6 @@ This PR has the version we want but it's not yet released https://github.com/apa
     </table>
     <div class="right-align">
         Created At 2023-05-09 05:40:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5442" class=".btn">#5442</a>
-            </td>
-            <td>
-                <b>
-                    Fix for block import withdrawals
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-The initial intent of this PR was to fix the withdrawals field missing from the RawBlockIterator class used by the block import subcommand. Ended up introducing a refactor on some of the core methods of Block and BlockBody classes (readFrom and writeTo) aiming to remove duplicated code and reuse the existing logic defined in BlockBody.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Fixes #5431
-It also fixes all the hive tests broken due to the impossibility of importing blocks (rpc-compat for example) that contained withdrawals via the `blocks import` subcommand.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-08 04:48:06 +0000 UTC
     </div>
 </div>
 
