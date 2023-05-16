@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-rfcs/pull/56" class=".btn">#56</a>
+                PR <a href="https://github.com/hyperledger/fabric-rfcs/pull/57" class=".btn">#57</a>
             </td>
             <td>
                 <b>
-                    Chaincode Builder for Kubernetes RFC
+                    BFT signatures: update
                 </b>
             </td>
         </tr>
@@ -27,12 +27,16 @@ permalink: /pull-requests/hyperledger/fabric-rfcs
                 
             </td>
             <td>
-                Signed-off-by: James Taylor <jamest@uk.ibm.com>
+                The RFC currently calls for adding a gRPC service for getting the Header+Signature stream (Block attestation).
+
+After reviewing the current (SmartBFT fabric v2.3) and proposed solution, it is clear that adding a gRPC service and multiple new proto messages needlessly duplicates code and bloats the code base. The task is realised in the current implementation by 6 lines of code - 3 in the orderer (set nil to the block payload, depending on the content type requested) and 3 in the peer (set the required content type).
+
+We therefore revert this part of the proposal and will simply migrate the code from SmartBFT fabric v2.3 for this functionality.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-12-16 13:44:48 +0000 UTC
+        Created At 2023-05-16 12:20:07 +0000 UTC
     </div>
 </div>
 

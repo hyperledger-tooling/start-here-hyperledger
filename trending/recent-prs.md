@@ -1,13 +1,13 @@
 
-[5462](https://github.com/hyperledger/besu/pull/5462) Fix NoClassDefFoundError for org.xerial.snappy.Snappy
+[57](https://github.com/hyperledger/fabric-rfcs/pull/57) BFT signatures: update
 
-[797](https://github.com/hyperledger/fabric-docs-i18n/pull/797) [ja_JP] Translate "discovery-cli.md" into Japanese
+[850](https://github.com/hyperledger/aries-vcx/pull/850) Rename crates: did_doc_builder->did_doc; rename diddoc->diddoc_legacy
 
-[75](https://github.com/hyperledger-labs/fabric-opssc/pull/75) doc(README): Update README to release v0.4.0
+[1313](https://github.com/hyperledger/solang/pull/1313) fix: Remove Duplicate Code
 
-[1329](https://github.com/hyperledger/besu-docs/pull/1329) Bump mkdocs-material from 9.1.11 to 9.1.12 in /CI
+[3482](https://github.com/hyperledger/iroha/pull/3482) removed duplicate code in goSrc/srcvmCaller/iroha/commands.go: 478
 
-[5458](https://github.com/hyperledger/besu/pull/5458) BodyHandler limit size and JSON array handling Improvements
+[83](https://github.com/hyperledger-labs/hlf-connector/pull/83) Increment version after release
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

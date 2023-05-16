@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1313" class=".btn">#1313</a>
+            </td>
+            <td>
+                <b>
+                    fix: Remove Duplicate Code
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR aims to remove the duplicate codes are mentioned in the issue #1261 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-16 09:56:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1312" class=".btn">#1312</a>
             </td>
             <td>
@@ -250,32 +276,6 @@ The pdf is not generated yet. Not sure if we care about the pdf though.
     </table>
     <div class="right-align">
         Created At 2023-05-09 14:57:13 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1302" class=".btn">#1302</a>
-            </td>
-            <td>
-                <b>
-                    Using for not permitted in interfaces
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                `using` does not make any sense in interfaces, as they contain no function bodies.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-09 08:30:25 +0000 UTC
     </div>
 </div>
 
