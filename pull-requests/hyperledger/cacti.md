@@ -179,30 +179,3 @@ update rtd so docs build.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2418" class=".btn">#2418</a>
-            </td>
-            <td>
-                <b>
-                    feat: add private htlcs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                adds private htlcs to the htlc package (with tests)
-updates non-rivate htlc contract
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-08 23:59:16 +0000 UTC
-    </div>
-</div>
-

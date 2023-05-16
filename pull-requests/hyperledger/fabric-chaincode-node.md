@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/396" class=".btn">#396</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/399" class=".btn">#399</a>
             </td>
             <td>
                 <b>
-                    Update COMPATIBILITY.md for Node 18.
+                    Update SetEvent documentation
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                Update COMPATIBILITY.md to indicate v2.5 uses Node.js 18. Other cleanup is also included.
+                Update SetEvent documentation to indicate that only a single chaincode event can be included in a transaction.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-31 16:50:32 +0000 UTC
+        Created At 2023-05-15 21:24:28 +0000 UTC
     </div>
 </div>
 
