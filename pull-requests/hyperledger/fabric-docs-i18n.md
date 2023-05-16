@@ -14,25 +14,27 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/796" class=".btn">#796</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/797" class=".btn">#797</a>
             </td>
             <td>
                 <b>
-                    a part of #795 contributing page.
+                    [ja_JP] Translate "discovery-cli.md" into Japanese
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">jaJP-docs-ongoing</span>
             </td>
             <td>
-                This is my 1st PR and I am starting do some contribution on document.
+                This patch translates source/discovery-cli.md into Japanese.
+
+Resolves #613
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-16 12:55:51 +0000 UTC
+        Created At 2023-05-16 04:06:03 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5462" class=".btn">#5462</a>
+            </td>
+            <td>
+                <b>
+                    Fix NoClassDefFoundError for org.xerial.snappy.Snappy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Fix Besu failing to start when using Docker 23.4.0 due to `NoClassDefFoundError` for `org.xerial.snappy.Snappy`.
+
+The cause was that we are using an older version of glibc for some Docker images due to the older version of the Ubuntu distro being used.
+
+Updated docker images to use Ubuntu 22.04 so that a newer version of glibc is used. This fixes an issue with snappy library where the library cannot be loaded.
+
+Related to update of the snappy library https://github.com/xerial/snappy-java/issues/417#issuecomment-1513916298
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+fixes #5463 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-16 04:45:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5458" class=".btn">#5458</a>
             </td>
             <td>
@@ -349,34 +390,6 @@ None
     </table>
     <div class="right-align">
         Created At 2023-05-11 16:16:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5444" class=".btn">#5444</a>
-            </td>
-            <td>
-                <b>
-                    Update dependencies - commons-net
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">dependencies</span>
-            </td>
-            <td>
-                Refs #5386 
-This PR forces the commons-net version to be 3.9.0 but we can't do the same for antlr. antlr version needs to match the version in tuweni. So we need a tuweni release before we can update antlr.
-This PR has the version we want but it's not yet released https://github.com/apache/incubator-tuweni/pull/479
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-09 05:40:29 +0000 UTC
     </div>
 </div>
 
