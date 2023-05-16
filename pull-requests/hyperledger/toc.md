@@ -90,29 +90,3 @@ Please suggest any edits based on practices learned from other projects!
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/109" class=".btn">#109</a>
-            </td>
-            <td>
-                <b>
-                    Add TOC meetings to template
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added a link to the calendar for upcoming meetings.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-09 17:28:39 +0000 UTC
-    </div>
-</div>
-
