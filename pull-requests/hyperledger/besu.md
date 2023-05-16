@@ -14,6 +14,74 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5458" class=".btn">#5458</a>
+            </td>
+            <td>
+                <b>
+                    BodyHandler limit size and JSON array handling Improvements
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+- Body Size Limit for BodyHandler in Vert.x Route: A limit on body size for the BodyHandler is introduced to prevent memory overuse and improve application robustness.
+
+- Separation of JsonObjectHandler and JsonArrayHandler: JsonObjectHandler and JsonArrayHandler are now distinct classes, enhancing code readability and maintainability.
+
+- Optimised JSON RPC Array Request Processing: Outputs of individual requests are now directly written to the JsonGenerator, enhancing performance, especially for larger request batches.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-15 23:55:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5457" class=".btn">#5457</a>
+            </td>
+            <td>
+                <b>
+                    Change to more user-friendly message
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Following the suggestion (https://github.com/hyperledger/besu/pull/5452#discussion_r1193426313) and changing to a more user-friendly message.
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+FIxes #5416 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-15 22:53:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5454" class=".btn">#5454</a>
             </td>
             <td>
