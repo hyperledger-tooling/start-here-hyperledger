@@ -151,31 +151,3 @@ Have to change `gomodule` names due to golang mandatory requirement that any ver
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2420" class=".btn">#2420</a>
-            </td>
-            <td>
-                <b>
-                    chore(ci): update actions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                many actions were using old versions.
-
-update rtd so docs build.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-09 14:35:22 +0000 UTC
-    </div>
-</div>
-

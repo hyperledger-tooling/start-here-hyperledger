@@ -72,33 +72,3 @@ https://github.com/hyperledger/fabric-samples/pull/1033
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1038" class=".btn">#1038</a>
-            </td>
-            <td>
-                <b>
-                    Fix nano-bash-bft sample to work with channel-participation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                remove dependency on deprecated system-channel.
-add channel-participation.
-@yacovm
-
-Signed-off-by: Arkadi Piven arkadi.piven@ibm.com
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-09 14:10:43 +0000 UTC
-    </div>
-</div>
-

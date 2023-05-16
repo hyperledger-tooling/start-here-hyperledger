@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1313" class=".btn">#1313</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1314" class=".btn">#1314</a>
             </td>
             <td>
                 <b>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/solang
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-16 09:56:58 +0000 UTC
+        Created At 2023-05-16 12:43:37 +0000 UTC
     </div>
 </div>
 
@@ -247,35 +247,6 @@ The pdf is not generated yet. Not sure if we care about the pdf though.
     </table>
     <div class="right-align">
         Created At 2023-05-10 13:52:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1303" class=".btn">#1303</a>
-            </td>
-            <td>
-                <b>
-                    Add missing evm builtins
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                 -   Added some EVM only builtins (improves evm semantic tests)
- -  tx.origin is not payable
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-09 14:57:13 +0000 UTC
     </div>
 </div>
 

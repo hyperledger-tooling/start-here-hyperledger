@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-native
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-native/pull/107" class=".btn">#107</a>
+                PR <a href="https://github.com/hyperledger/besu-native/pull/108" class=".btn">#108</a>
             </td>
             <td>
                 <b>
-                    rename mimc to gnark
+                    Change coordinates from native to nativelib
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/besu-native
                 
             </td>
             <td>
-                rename mimc library to gnark 
+                Migrate all maven coordinates that were `.native.` to `.nativelib.`. The old coordinate name presented problems in some auto-module systems for the JPMS.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-02 13:19:17 +0000 UTC
+        Created At 2023-05-16 17:35:59 +0000 UTC
     </div>
 </div>
 

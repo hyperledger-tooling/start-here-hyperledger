@@ -260,31 +260,3 @@ The `VdrProxyProfile` profile reuses existing `IndyVdrLedger` implementation of 
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/833" class=".btn">#833</a>
-            </td>
-            <td>
-                <b>
-                    Fix/notification problem report
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As per the [RFC](https://github.com/hyperledger/aries-rfcs/tree/main/features/0015-acks#relationship-to-problem-report) the `ProblemReport` message can be a part of the `notification` message family (which only contains the `ack` message that's borrowed to other protocols).
-
-This PR adds a `ProblemReport` message to the protocol to match the AFJ implementation (which is, technically, correct).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-09 13:23:53 +0000 UTC
-    </div>
-</div>
-

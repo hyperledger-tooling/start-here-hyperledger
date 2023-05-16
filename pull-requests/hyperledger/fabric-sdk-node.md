@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-sdk-node
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/676" class=".btn">#676</a>
+            </td>
+            <td>
+                <b>
+                    Release v2.2.18
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-16 17:11:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/675" class=".btn">#675</a>
             </td>
             <td>
@@ -70,32 +96,6 @@ Thus, this minor code change fixes this issue and we're able to decrease the num
     </table>
     <div class="right-align">
         Created At 2023-05-11 10:55:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-sdk-node/pull/671" class=".btn">#671</a>
-            </td>
-            <td>
-                <b>
-                    Reduce scheduled build frequency to weekly
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-09 14:26:16 +0000 UTC
     </div>
 </div>
 
