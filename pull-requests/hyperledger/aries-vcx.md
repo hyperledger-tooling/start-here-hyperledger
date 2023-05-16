@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/850" class=".btn">#850</a>
+            </td>
+            <td>
+                <b>
+                    Rename crates: did_doc_builder->did_doc; rename diddoc->diddoc_legacy
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Preliminary renaming ahead of https://github.com/hyperledger/aries-vcx/issues/849
+
+Rationale
+- `did_doc` seem more suitable named than `did_doc_builder`, as building is 1 part of the crate, but most importantly the crate contains data model for ddo
+- you might want to use diddoc without necessary using builder portion of the crate
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-16 11:12:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/848" class=".btn">#848</a>
             </td>
             <td>
@@ -255,32 +285,6 @@ This PR adds a `ProblemReport` message to the protocol to match the AFJ implemen
     </table>
     <div class="right-align">
         Created At 2023-05-09 13:23:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/832" class=".btn">#832</a>
-            </td>
-            <td>
-                <b>
-                    Remove extra warn log
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">skip-ios</span><span class="chip">skip-android</span><span class="chip">skip-napi-m1</span><span class="chip">skip-ci</span>
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-09 09:58:36 +0000 UTC
     </div>
 </div>
 

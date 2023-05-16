@@ -128,29 +128,3 @@ All APIs in original afgo pkg/ folders can continue to be used, these now transp
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3580" class=".btn">#3580</a>
-            </td>
-            <td>
-                <b>
-                    chore: add CreateDisplayCredentialBytes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-09 10:20:51 +0000 UTC
-    </div>
-</div>
-
