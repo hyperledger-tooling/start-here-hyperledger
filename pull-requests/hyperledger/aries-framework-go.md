@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3589" class=".btn">#3589</a>
+            </td>
+            <td>
+                <b>
+                    chore: update models component dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-17 14:21:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3588" class=".btn">#3588</a>
             </td>
             <td>
@@ -114,32 +140,6 @@ I added a code that calculates JWT field in limited disclosure VC based on exist
     </table>
     <div class="right-align">
         Created At 2023-05-15 11:07:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3585" class=".btn">#3585</a>
-            </td>
-            <td>
-                <b>
-                    feat: Revert feat: support for optional field in presexch (#3582)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-10 13:50:46 +0000 UTC
     </div>
 </div>
 

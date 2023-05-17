@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/70" class=".btn">#70</a>
+                PR <a href="https://github.com/hyperledger-labs/business-partner-agent-chart/pull/72" class=".btn">#72</a>
             </td>
             <td>
                 <b>
-                    Use correct bitnami source in release action
+                    remove gitpod
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/business-partner-agent-chart
                 
             </td>
             <td>
-                <nil>
+                see: https://github.com/hyperledger-labs/business-partner-agent-chart/issues/71
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-02-22 10:05:17 +0000 UTC
+        Created At 2023-05-17 15:18:03 +0000 UTC
     </div>
 </div>
 

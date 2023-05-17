@@ -14,6 +14,73 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5469" class=".btn">#5469</a>
+            </td>
+            <td>
+                <b>
+                    Log more info about proposed blocks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+at INFO level, instead of only logging this
+
+```
+Fetch block proposal by identifier: 0x0068a2d68ca65973, hash: 0x450b0b3269e8a90df99e41bd2436ac69e45b66d24c7a79e5c96448892becb137, number: 9017061, coinbase: 0x3826539cbd8d68dcf119e80b994557b4278cec9f, transaction count: 72
+```
+
+this is logged, additions are: the start of the block creation, and when the proposal is fetched the gas used and the reward.
+
+```
+Start building proposals for block 9017061 identified by 0x0068a2d68ca65973
+Fetch block proposal by identifier: 0x0068a2d68ca65973, hash: 0x450b0b3269e8a90df99e41bd2436ac69e45b66d24c7a79e5c96448892becb137, number: 9017061, coinbase: 0x3826539cbd8d68dcf119e80b994557b4278cec9f, transaction count: 72, gas used: 38.80%, reward: 19.00 finney
+```
+
+at DEBUG level every time a better block is found logs more info about the block
+```
+{"@timestamp":"2023-05-17T17:22:48,970","level":"DEBUG","thread":"PoS-Block-Builder-0","class":"PostMergeContext","message":"Current best proposal for block 9017091: txs 26, gas used 22.37%, reward 10.22 finney","throwable":""}
+{"@timestamp":"2023-05-17T17:22:49,482","level":"DEBUG","thread":"PoS-Block-Builder-0","class":"PostMergeContext","message":"Current best proposal for block 9017091: txs 29, gas used 22.98%, reward 13.12 finney","throwable":""}
+{"@timestamp":"2023-05-17T17:22:50,493","level":"DEBUG","thread":"PoS-Block-Builder-0","class":"PostMergeContext","message":"Current best proposal for block 9017091: txs 35, gas used 25.36%, reward 15.16 finney","throwable":""}
+{"@timestamp":"2023-05-17T17:22:51,000","level":"DEBUG","thread":"PoS-Block-Builder-0","class":"PostMergeContext","message":"Current best proposal for block 9017091: txs 37, gas used 27.19%, reward 15.16 finney","throwable":""}
+{"@timestamp":"2023-05-17T17:22:51,546","level":"DEBUG","thread":"PoS-Block-Builder-0","class":"PostMergeContext","message":"Current best proposal for block 9017091: txs 38, gas used 27.56%, reward 15.93 finney","throwable":""}
+{"@timestamp":"2023-05-17T17:22:51,990","level":"DEBUG","thread":"PoS-Block-Builder-0","class":"PostMergeContext","message":"Current best proposal for block 9017091: txs 40, gas used 27.70%, reward 16.30 finney","throwable":""}
+{"@timestamp":"2023-05-17T17:22:52,554","level":"DEBUG","thread":"PoS-Block-Builder-0","class":"PostMergeContext","message":"Current best proposal for block 9017091: txs 44, gas used 29.18%, reward 18.18 finney","throwable":""}
+{"@timestamp":"2023-05-17T17:22:53,024","level":"DEBUG","thread":"PoS-Block-Builder-0","class":"PostMergeContext","message":"Current best proposal for block 9017091: txs 46, gas used 29.46%, reward 18.33 finney","throwable":""}
+{"@timestamp":"2023-05-17T17:22:53,503","level":"DEBUG","thread":"PoS-Block-Builder-0","class":"PostMergeContext","message":"Current best proposal for block 9017091: txs 50, gas used 30.56%, reward 20.86 finney","throwable":""}
+{"@timestamp":"2023-05-17T17:22:54,003","level":"DEBUG","thread":"PoS-Block-Builder-0","class":"PostMergeContext","message":"Current best proposal for block 9017091: txs 53, gas used 31.07%, reward 21.66 finney","throwable":""}
+{"@timestamp":"2023-05-17T17:22:55,007","level":"DEBUG","thread":"PoS-Block-Builder-0","class":"PostMergeContext","message":"Current best proposal for block 9017091: txs 54, gas used 31.14%, reward 22.66 finney","throwable":""}
+{"@timestamp":"2023-05-17T17:22:55,528","level":"DEBUG","thread":"PoS-Block-Builder-0","class":"PostMergeContext","message":"Current best proposal for block 9017091: txs 57, gas used 31.57%, reward 23.27 finney","throwable":""}
+{"@timestamp":"2023-05-17T17:22:56,838","level":"DEBUG","thread":"PoS-Block-Builder-0","class":"PostMergeContext","message":"Current best proposal for block 9017091: txs 62, gas used 34.31%, reward 29.26 finney","throwable":""}
+{"@timestamp":"2023-05-17T17:22:57,285","level":"DEBUG","thread":"PoS-Block-Builder-0","class":"PostMergeContext","message":"Current best proposal for block 9017091: txs 64, gas used 34.93%, reward 31.24 finney","throwable":""}
+{"@timestamp":"2023-05-17T17:22:57,713","level":"DEBUG","thread":"PoS-Block-Builder-0","class":"PostMergeContext","message":"Current best proposal for block 9017091: txs 66, gas used 35.24%, reward 33.10 finney","throwable":""}
+{"@timestamp":"2023-05-17T17:22:58,811","level":"DEBUG","thread":"PoS-Block-Builder-0","class":"PostMergeContext","message":"Current best proposal for block 9017091: txs 69, gas used 43.41%, reward 34.15 finney","throwable":""}
+```
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-17 17:26:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5467" class=".btn">#5467</a>
             </td>
             <td>
