@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/851" class=".btn">#851</a>
+            </td>
+            <td>
+                <b>
+                    Ledger response parser
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">skip-ci</span>
+            </td>
+            <td>
+                Extracts ledger response parsing capability into the `indy-ledger-response-parser` crate which
+* returns types from `indy-data-types` (reexported by `indy-vdr`) and
+* defines its own types (taken from `libvdrtools`) for ledger responses.
+
+This crate is further integrated into `IndyVdrLedger` implementation to replace the current provisional constructions.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-17 10:07:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/850" class=".btn">#850</a>
             </td>
             <td>

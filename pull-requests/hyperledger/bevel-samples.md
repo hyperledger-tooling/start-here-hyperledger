@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/bevel-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel-samples/pull/29" class=".btn">#29</a>
+            </td>
+            <td>
+                <b>
+                    Fixed substrate app deployment
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-17 10:48:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel-samples/pull/28" class=".btn">#28</a>
             </td>
             <td>

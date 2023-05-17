@@ -14,32 +14,6 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1314" class=".btn">#1314</a>
-            </td>
-            <td>
-                <b>
-                    fix: Remove Duplicate Code
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR aims to remove the duplicate codes are mentioned in the issue #1261 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-16 12:43:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1312" class=".btn">#1312</a>
             </td>
             <td>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/137" class=".btn">#137</a>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/140" class=".btn">#140</a>
             </td>
             <td>
                 <b>
-                    fix(js): scan fetch record limit
+                    feat(js): allow custom native bindings for RN
                 </b>
             </td>
         </tr>
@@ -27,15 +27,39 @@ permalink: /pull-requests/hyperledger/aries-askar
                 
             </td>
             <td>
-                There is an unnecessary chunk variable (inherited from previous Indy SDK implementation in AFJ) that is preventing `fetchAll` to retrieve all records when they are more than PAGE_SIZE. As a result, a given Scan cannot return more than 32 entries.
-
-Simply checking for `listHandle` (`scanNext` return value) validity seems to be enough to determine if there are no more matching records.
-
+                Allows the user the supply custom native bindings to the reactnativeariesaskar class. This is done to make it easier to add support for Expo in the future.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-05 18:22:31 +0000 UTC
+        Created At 2023-05-17 11:51:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/139" class=".btn">#139</a>
+            </td>
+            <td>
+                <b>
+                    chore: lower iOS compatibility
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Use static libraries for iOS for lower version compatibility
+- Use rust 1.61.0 in CI as hashbrown needs 1.61.0 minimum.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-17 09:17:45 +0000 UTC
     </div>
 </div>
 
