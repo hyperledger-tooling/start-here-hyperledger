@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-ui
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-ui/pull/215" class=".btn">#215</a>
+                PR <a href="https://github.com/hyperledger/firefly-ui/pull/217" class=".btn">#217</a>
             </td>
             <td>
                 <b>
-                    Misc UI cleanup around transactions and events
+                    add chinese translation
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-ui
                 
             </td>
             <td>
-                * Only replace "Transaction Submitted" with transaction name on split views
-* Replace "Blockchain Operations" header with just "Operations"
-* Add a missing "undefined" check for token transfer events
+                add chinese translation
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-10 19:31:21 +0000 UTC
+        Created At 2023-05-17 04:05:22 +0000 UTC
     </div>
 </div>
 

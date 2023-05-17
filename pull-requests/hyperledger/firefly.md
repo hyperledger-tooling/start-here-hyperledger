@@ -14,32 +14,40 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1302" class=".btn">#1302</a>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1305" class=".btn">#1305</a>
             </td>
             <td>
                 <b>
-                    Update Fabric chaincode Dockerfile
+                    Replace token pool "confirmed" state with "active" bool
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">migration_consideration</span>
             </td>
             <td>
-                Building with this Dockerfile currently breaks because the batchpin folder isn't being copied
+                Token pool states were originally given similar names to message state, but this has ended up being confusing (because the token pool creation flow includes a message, but the token pool states have no relation to the identically named message states).
 
+Old terminology:
+When pool definition message is "confirmed", pool is created as "pending"
+When pool gets "activated" by the connector, pool is moved to "confirmed"
 
-```#10 2.414 go: downloading golang.org/x/text v0.3.2
-#10 5.161 chaincode/contract.go:8:2: no required module provides package github.com/hyperledger/firefly/chaincode-go/batchpin; to add it:
-#10 5.161       go get github.com/hyperledger/firefly/chaincode-go/batchpin
-------
-executor failed running [/bin/sh -c ls -la ./     && GO111MODULE=on GOOS=linux CGO_ENABLED=0 go build -o firefly.bin firefly.go]: exit code: 1```
+New terminology:
+When pool definition message is "confirmed", pool is created as "not active"
+When pool gets "activated" by the connector, pool is moved to "active"
+
+My hope is that the new terminology is easier to follow, since it does not overlap with messaging states and more clearly denotes the action of "activating" a token pool.
+
+This is technically a breaking API change, although I'm not aware of any significant usefulness of the "state" field to
+external applications (it's primarily an internal tracking field). The related _event_ called "token_pool_confirmed" will
+remain unchanged - it's still consistent with other definitions like datatypes, identities, etc, and I think it's still
+appropriate.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-09 19:13:55 +0000 UTC
+        Created At 2023-05-17 01:36:06 +0000 UTC
     </div>
 </div>
 
