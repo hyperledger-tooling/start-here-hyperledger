@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/47" class=".btn">#47</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/49" class=".btn">#49</a>
             </td>
             <td>
                 <b>
-                    ProofAttributeInfo.names should be an array type
+                    Support build on XCode 14
                 </b>
             </td>
         </tr>
@@ -27,19 +27,17 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
                 
             </td>
             <td>
-                # Checklist
+                Fix #48
 
-- [x] have run AriesFrameworkTests
-- [x] I have run AllTests
+XCode 14 requires the minimum deployment target to be ios11. Added a post-install script to adjust deployment targets following [this tip](https://github.com/CocoaPods/CocoaPods/issues/9884#issuecomment-908835911)
 
-# Description
-
-ProofAttributeInfo.names should be an array type. counter party can request proof request with names.
+The drawback of this approach is that users of this framework have to add the same script to their Podfile.
+Changing the podspec files of all the dependent pods by cloning them to our repo would be a very challenging task.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-10 00:27:32 +0000 UTC
+        Created At 2023-05-17 06:41:55 +0000 UTC
     </div>
 </div>
 

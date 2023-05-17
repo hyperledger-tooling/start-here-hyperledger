@@ -14,6 +14,61 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3588" class=".btn">#3588</a>
+            </td>
+            <td>
+                <b>
+                    feat: added JWT handling for limit disclosure Presentation Definition query
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Title:**
+Added JWT handling for limit disclosure Presentation Definition query.
+
+**Summary:**
+After new credential is created based on limit disclosure constraints:
+```
+credential, err = createNewCredential(constraints, credentialSrc, template, credential, opts...)
+if err != nil {
+     return nil, fmt.Errorf("create new credential: %w", err)
+}
+```
+it always returned in JSON-LD format.
+
+Then, down the code, we check is it JWT in `merge` func
+```
+vcFormat := FormatLDPVC
+if credential.JWT != "" {
+     vcFormat = FormatJWTVC
+}
+.....
+  desc := &InputDescriptorMapping{
+	PathNested: &InputDescriptorMapping{
+		Format: vcFormat,
+	},
+}
+```
+
+I added a code that calculates JWT field in limited disclosure VC based on existing claims. 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-17 09:14:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3587" class=".btn">#3587</a>
             </td>
             <td>
@@ -85,41 +140,6 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     </table>
     <div class="right-align">
         Created At 2023-05-10 13:50:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3582" class=".btn">#3582</a>
-            </td>
-            <td>
-                <b>
-                    feat: support for optional field in presexch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                **Title:**
-Support for optional field in presexch.
-
-
-**Summary:**
-Extended PresentationDefinition JSON Schema V1 with field `optional` and `contains`
-This filed is already exist in the [relevant struct](https://github.com/hyperledger/aries-framework-go/blob/main/pkg/doc/presexch/definition.go#L181), but wasn't a part of the Schema.
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-10 07:16:48 +0000 UTC
     </div>
 </div>
 
