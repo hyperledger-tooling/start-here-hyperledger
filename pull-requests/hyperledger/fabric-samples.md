@@ -39,36 +39,3 @@ it needs to be updated to use 0.11.0, which is derived from Fabric v2.5 image, a
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1039" class=".btn">#1039</a>
-            </td>
-            <td>
-                <b>
-                    Update test-network-k8s to Fabric v2.5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR updates test-network-k8s to use Fabric v2.5.
-
-This PR enhances the following PR.
-https://github.com/hyperledger/fabric-samples/pull/1033
-
-# Related Issues
-- https://github.com/hyperledger-labs/fabric-builder-k8s/pull/92
-- https://github.com/hyperledger/fabric-samples/issues/840
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-09 22:20:12 +0000 UTC
-    </div>
-</div>
-

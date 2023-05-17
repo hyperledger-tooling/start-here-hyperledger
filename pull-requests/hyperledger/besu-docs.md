@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1330" class=".btn">#1330</a>
+            </td>
+            <td>
+                <b>
+                    remove snippet
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Remove snippet causing build failure.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-16 21:52:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1329" class=".btn">#1329</a>
             </td>
             <td>
