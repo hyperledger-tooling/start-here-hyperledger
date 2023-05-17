@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5467" class=".btn">#5467</a>
+            </td>
+            <td>
+                <b>
+                    JsonRpcHttpService - Add BodyHandler limit size 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Body Size Limit for BodyHandler in Vert.x Route: A limit on body size for the BodyHandler is introduced to prevent memory overuse and improve application robustness. (Set to 100MB)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-17 02:10:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5465" class=".btn">#5465</a>
             </td>
             <td>
@@ -52,7 +80,7 @@ fix cases where BesuCommand is constructed without a dagger context
             </td>
             <td>
                 <b>
-                    Fix NoClassDefFoundError for org.xerial.snappy.Snappy
+                    Fix Docker image failing to start Besu with NoClassDefFoundError for org.xerial.snappy.Snappy
                 </b>
             </td>
         </tr>
@@ -69,9 +97,11 @@ Fix Besu failing to start when using Docker 23.4.0 due to `NoClassDefFoundError`
 
 The cause was that we are using an older version of glibc for some Docker images due to the older version of the Ubuntu distro being used.
 
-Updated docker images to use Ubuntu 22.04 so that a newer version of glibc is used. This fixes an issue with snappy library where the library cannot be loaded.
+Changes
+- Updated docker images to use Ubuntu 22.04 so that a newer version of glibc is used. This fixes an issue with snappy library where the library cannot be loaded.
+- Included ca-certificates-java as a separate install to fix Java install issue on Ubuntu https://github.com/adoptium/installer/issues/105
 
-Related to update of the snappy library https://github.com/xerial/snappy-java/issues/417#issuecomment-1513916298
+Related to the update of the snappy library https://github.com/xerial/snappy-java/issues/417#issuecomment-1513916298
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
@@ -93,7 +123,7 @@ fixes #5463
             </td>
             <td>
                 <b>
-                    BodyHandler limit size and JSON array handling Improvements
+                    JSON array handling Improvements
                 </b>
             </td>
         </tr>
@@ -104,12 +134,9 @@ fixes #5463
             <td>
                 ## PR description
 
-- Body Size Limit for BodyHandler in Vert.x Route: A limit on body size for the BodyHandler is introduced to prevent memory overuse and improve application robustness.
-
 - Separation of JsonObjectHandler and JsonArrayHandler: JsonObjectHandler and JsonArrayHandler are now distinct classes, enhancing code readability and maintainability.
 
-- Optimised JSON RPC Array Request Processing: Outputs of individual requests are now directly written to the JsonGenerator, enhancing performance, especially for larger request batches.
-
+- Optimised JSON RPC Array Request Processing: Outputs of individual requests are now directly written to the JsonGenerator
 
             </td>
         </tr>
