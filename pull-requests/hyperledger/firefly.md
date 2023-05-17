@@ -27,17 +27,17 @@ permalink: /pull-requests/hyperledger/firefly
                 <span class="chip">migration_consideration</span>
             </td>
             <td>
-                Token pool states were originally given similar names to message state, but this has ended up being confusing (because the token pool creation flow includes a message, but the token pool states have no relation to the identically named message states).
+                Token pool states were originally given similar names to message states, but this has ended up being confusing (because the token pool creation flow also includes a message, but the token pool states have no relation to the identically named message states).
 
 Old terminology:
 When pool definition message is "confirmed", pool is created as "pending"
 When pool gets "activated" by the connector, pool is moved to "confirmed"
 
-New terminology:
+New proposed terminology:
 When pool definition message is "confirmed", pool is created as "not active"
 When pool gets "activated" by the connector, pool is moved to "active"
 
-My hope is that the new terminology is easier to follow, since it does not overlap with messaging states and more clearly denotes the action of "activating" a token pool.
+My hope is that the new terminology is easier to follow, since it does not overlap with messaging states and more clearly denotes the action of "activating" a token pool. Also with #1261 in the works (which means a pool may get activated first and then _later_ be published by a broadcast message), I think it's better to separate the token pool and message terminology.
 
 This is technically a breaking API change, although I'm not aware of any significant usefulness of the "state" field to
 external applications (it's primarily an internal tracking field). The related _event_ called "token_pool_confirmed" will

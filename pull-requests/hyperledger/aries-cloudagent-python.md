@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2235" class=".btn">#2235</a>
+            </td>
+            <td>
+                <b>
+                    refactor: Extract verification method ID generation to a separate class
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently, the strategy to generate the verification key IDs only supports an arbitrary set of DID methods, and the IDs are derived from hardcoded strings, which can be too restrictive for some use cases.
+
+For example, if one adds DID methods (such as did:web) using third-party plugins, the current method will always raise an error. Also, one might want to have more advanced ways of deriving the verification key ID, for example when multiple verification methods are used for a given DID and are rotated regularly.
+
+This PR allows for more flexibility by extracting the verification key ID generation to a separate class so that plugins can switch implementations depending on the needs using injection. For example, for the key rotation use-case cited above, the implementation could be switched to one that dynamically returns the correct verkey ID, even if different did methods are used. I believe this solution avoids breaking changes, and keeping the current strategy as the default one allows keeping backward compatibility.
+
+Let me know if you have any comments/suggestions.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-17 15:42:15 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2234" class=".btn">#2234</a>
             </td>
             <td>
@@ -126,32 +158,6 @@ This was extremely helpful to diagnose and fix #2231
     </table>
     <div class="right-align">
         Created At 2023-05-11 19:46:16 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2229" class=".btn">#2229</a>
-            </td>
-            <td>
-                <b>
-                    Connection target should not be limited only to indy dids
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-10 13:00:01 +0000 UTC
     </div>
 </div>
 

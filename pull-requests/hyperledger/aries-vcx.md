@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
         <tr>
             <td>
-                <span class="chip">skip-ci</span>
+                
             </td>
             <td>
                 Extracts ledger response parsing capability into the `indy-ledger-response-parser` crate which
@@ -255,38 +255,6 @@ This is useful capability when inspecting presentations.
     </table>
     <div class="right-align">
         Created At 2023-05-12 07:54:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/837" class=".btn">#837</a>
-            </td>
-            <td>
-                <b>
-                    Add indy-vdr-proxy profile
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Adds a new profile `VdrProxyProfile` which uses a running instance of [indy-vdr-proxy](https://github.com/hyperledger/indy-vdr/tree/main/indy-vdr-proxy) (through [indy-vdr-proxy-client](https://github.com/mirgee/indy-vdr/pull/1/files)) to read and write transactions instead of communicating with the ledger directly.
-
-This may be useful in situations where
-* a service is limited in its access to the public internet for security reasons or
-* the client wants quick and easy access to a ledger without necessarily having to obtain the genesis file and set up and maintain their own ledger connection.
-
-The `VdrProxyProfile` profile reuses existing `IndyVdrLedger` implementation of the `BaseLedger` trait and request submitting is injected through an implementation of the `RequestSubmitter` trait.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-10 13:03:27 +0000 UTC
     </div>
 </div>
 

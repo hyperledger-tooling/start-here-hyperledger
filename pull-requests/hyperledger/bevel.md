@@ -14,6 +14,45 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2248" class=".btn">#2248</a>
+            </td>
+            <td>
+                <b>
+                    [ci-skip] kind cluster for test_molecule workflow 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Changes:
+
+exposed and published ports 8443 and 10080
+Removed the lint from provisioner and verifier in molucule.yml 
+upgraded the kind image to bsycorp/kind:latest-1.23 from bsycorp/kind:latest-1.19
+
+Note: This PR is just to fix the kind cluster, There are many roles which are being complained by molecule tests which will be fixed in other Issue
+
+Reviewers:
+@suvajit-sarkar @sownak @jagpreetsinghsasan 
+
+Issue:
+#2125 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-17 15:59:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2247" class=".btn">#2247</a>
             </td>
             <td>
@@ -267,43 +306,6 @@ fixes #2234
     </table>
     <div class="right-align">
         Created At 2023-05-12 12:09:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2236" class=".btn">#2236</a>
-            </td>
-            <td>
-                <b>
-                    [besu] Add extradata field in genesis file QBFT consensus
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Primary Changes
---------------
-1. Added extradata field in genesis file. platforms/hyperledger-besu/configuration/roles/create/genesis/qbft role
-2. Added templates to create genesis file
-
-Modifications in roles and tpl files
------------------------
-platforms/hyperledger-besu/configuration/roles/create/genesis/qbft/tasks/main.yaml 
-platforms/hyperledger-besu/configuration/roles/create/genesis/qbft/templates/qbftGenesisFile.tpl platforms/hyperledger-besu/configuration/roles/create/genesis/qbft/templates/qbftPermissionGenesisFile.tpl
-
-Fixes
-#2233 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-10 12:46:45 +0000 UTC
     </div>
 </div>
 

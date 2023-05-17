@@ -14,6 +14,161 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3485" class=".btn">#3485</a>
+            </td>
+            <td>
+                <b>
+                    [refactor]: Standardize transaction API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #{issue_number} <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+### Benefits
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [ ] I've read `CONTRIBUTING.md`
+- [ ] I've used the standard signed-off commit format (or will squash just before merging)
+- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-17 17:53:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3484" class=".btn">#3484</a>
+            </td>
+            <td>
+                <b>
+                    [refactor] #3472: Use persistent structures in `WorldStateView`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span><span class="chip">Refactor</span><span class="chip">Optimization</span>
+            </td>
+            <td>
+                ## Description
+
+Changes:
+
+- Add wsv related benchmarks;
+- Remove interior-mutability from wsv;
+- Optimize cloning of wsv for different actors;
+- Add persistent structures for wsv;
+
+<!-- Just describe what you did. -->
+
+<!-- Skip if the title of the PR is self-explanatory -->
+
+### Linked issue
+
+<!-- Duplicate the main issue and add additional issues closed by this PR. -->
+
+Closes #3472 <!-- Replace with an actual number,  -->
+
+<!-- Link if e.g. JIRA issue or  from another repository -->
+
+
+### Bemchmarks
+
+```text
+base:
+    time:   [1.6779 s 1.6927 s 1.7093 s]
+no interior mutability: 
+    time:   [1.2139 s 1.2439 s 1.2818 s]
+persitent structures:
+    time:   [12.324 s 12.386 s 12.446 s]
+```
+
+### Benefits
+
+- New benchmarks.
+- No interior mutability in the WSV, no potential for deadlock.
+- Clone is very cheep fir wsv and constant in time.
+
+### Downsides
+
+Isi execution became much slower (benchmark results) and cloning is taking not so much time comparing to the application of the block.
+
+What's more is that cloning could be minimized:
+1. Partially i did this in this PR for block_sync and gossiper actors, they clone wsv once per block.
+2. If @mversic idea with wasm executor will be pulled of, we wouldn't need to clone wsv for verification.
+
+Persistent data-structures is much slower compared to the std implementations (at least in `rpds` crate).
+
+### Notes 
+
+In current state i would like to merge everything except last commit where i introduced persistent data structures for wsv.
+
+<!-- EXAMPLE: users can't revoke their own right to revoke rights -->
+
+### Checklist
+
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
+- [ ] (optional) I've written unit tests for the code changes
+- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+
+<!-- HINT:  Add more points to checklist for large draft PRs-->
+
+<!-- USEFUL LINKS 
+ - https://www.secondstate.io/articles/dco
+ - https://discord.gg/hyperledger (please ask us any questions)
+ - https://t.me/hyperledgeriroha (if you prefer telegram)
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-17 17:16:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3482" class=".btn">#3482</a>
             </td>
             <td>

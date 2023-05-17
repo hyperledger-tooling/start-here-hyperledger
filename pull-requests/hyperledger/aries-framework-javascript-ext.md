@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/210" class=".btn">#210</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript-ext/pull/211" class=".btn">#211</a>
             </td>
             <td>
                 <b>
-                    fix: fixed broken 'packages' table
+                    chore(react-hooks): filtering untyped connections
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
                 
             </td>
             <td>
-                <nil>
+                Fixes an issue where the "excluded types" filter will filter connections with no type explicitly specified if it is used.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-01 22:53:37 +0000 UTC
+        Created At 2023-05-17 16:47:48 +0000 UTC
     </div>
 </div>
 

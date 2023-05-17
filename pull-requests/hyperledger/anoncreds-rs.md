@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/200" class=".btn">#200</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/206" class=".btn">#206</a>
             </td>
             <td>
                 <b>
-                    chore: update version
+                    build(python): add library
                 </b>
             </td>
         </tr>
@@ -33,7 +33,7 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-01 14:58:13 +0000 UTC
+        Created At 2023-05-17 18:07:21 +0000 UTC
     </div>
 </div>
 
@@ -41,11 +41,11 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/199" class=".btn">#199</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/205" class=".btn">#205</a>
             </td>
             <td>
                 <b>
-                    chore: lower ios compatibility
+                    Publish to PyPi
                 </b>
             </td>
         </tr>
@@ -54,13 +54,12 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
                 
             </td>
             <td>
-                Now using static libraries, which have a lower minimum iOS version suppport, does increase download and possible bundle size (last one is untested).
-
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-01 13:22:19 +0000 UTC
+        Created At 2023-05-17 14:36:18 +0000 UTC
     </div>
 </div>
 
