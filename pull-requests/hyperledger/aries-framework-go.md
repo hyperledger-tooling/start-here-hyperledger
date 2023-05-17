@@ -123,34 +123,3 @@ This filed is already exist in the [relevant struct](https://github.com/hyperled
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3581" class=".btn">#3581</a>
-            </td>
-            <td>
-                <b>
-                    refactor: VC, VP, and supporting models moved into components
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Verifiable Credentials and Presentation models are now in component/models/verifiable
-- SD-JWT package is now in component/models/sdjwt
-- move jsonld validator to component/models/ld
-- Key fingerprint helpers and JOSE extensions moved to component/kmscrypto
-
-All APIs in original afgo pkg/ folders can continue to be used, these now transparently refer/call the moved APIs.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-09 20:18:55 +0000 UTC
-    </div>
-</div>
-

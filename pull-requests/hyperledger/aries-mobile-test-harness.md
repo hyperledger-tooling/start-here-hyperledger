@@ -124,29 +124,3 @@ Also, for iOS the minimum platformVersion they have for real devices is 14, whic
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/166" class=".btn">#166</a>
-            </td>
-            <td>
-                <b>
-                    pin selenium at 4.9.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This PR sets the selenium version to 4.9.0 since 4.9.1 caused driver not to instantiate in the test harness. This can be removed when 4.9.1 is fixed. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-09 20:52:36 +0000 UTC
-    </div>
-</div>
-
