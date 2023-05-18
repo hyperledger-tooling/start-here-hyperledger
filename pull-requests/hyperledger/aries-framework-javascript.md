@@ -100,29 +100,3 @@ previously the HttpInboundTransport would return a response content type of `app
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1454" class=".btn">#1454</a>
-            </td>
-            <td>
-                <b>
-                    fix: jsonld document loader node 18
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes the JSON-LD document loader in node 18. For now the node document loader is copied, but if https://github.com/digitalcredentials/jsonld.js/pull/2 is merged and released we can remove the custom implementation in AFJ.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-11 09:53:01 +0000 UTC
-    </div>
-</div>
-

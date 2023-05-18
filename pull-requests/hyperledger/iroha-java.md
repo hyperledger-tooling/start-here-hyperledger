@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/329" class=".btn">#329</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/335" class=".btn">#335</a>
             </td>
             <td>
                 <b>
-                    DONT MERGE
+                    sample-app updated to 1483efbdad
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/iroha-java
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-04 05:39:39 +0000 UTC
+        Created At 2023-05-18 07:47:50 +0000 UTC
     </div>
 </div>
 

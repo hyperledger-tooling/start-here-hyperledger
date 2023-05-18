@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-perf-cli
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/56" class=".btn">#56</a>
+            </td>
+            <td>
+                <b>
+                    Set contract options for both local stack and remote stack testing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-18 12:12:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-perf-cli/pull/55" class=".btn">#55</a>
             </td>
             <td>
