@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript-ext
             </td>
             <td>
                 <b>
-                    chore(react-hooks): filtering untyped connections
+                    fix(react-hooks): filtering untyped connections
                 </b>
             </td>
         </tr>

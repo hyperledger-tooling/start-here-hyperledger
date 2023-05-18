@@ -482,16 +482,16 @@ Closes #2373
 
 - [x] Define all consts (like `docker-compose.yml`, `config` dir, `iroha-clone` dir, iroha repo etc)
 - [x] Don't serialize empty `command` field (now it is `command: null`)
-- [ ] Get git revision in the same way as main Iroha CLI does (remove `git-version` dependency)
+- [x] Get git revision in the same way as main Iroha CLI does (remove `git-version` dependency)
 - [ ] Remove Dockerhub support?
 - [x] UI: implement prompting (using `unquire`)
 - [x] UI: add logging throughout the process. Add spinner (using `spinoff`) during the long-running processes, like validator compilation and repo cloning
 - [x] Fix rest of Iroha according to updates in `ConfigurationProxy`
 - [ ] #3473: Support standalone validator compilation
 - [ ] Finish unit tests
-- [ ] **`git clone` doesn't work.** Fix.
-- [ ] Generalise UI: make it work with generic writers and readers. Not sure if it is possible with `spinoff` and `inquire`.
-- [ ] Should work with disabled colors (`NO_COLORS`) just fine
+- [x] **`git clone` doesn't work.** Fix.
+- ~~Generalise UI: make it work with generic writers and readers. Not sure if it is possible with `spinoff` and `inquire`.~~ **Not really needed**
+- ~~Should work with disabled colors (`NO_COLORS`) just fine~~ **Not really neede**
             </td>
         </tr>
     </table>
