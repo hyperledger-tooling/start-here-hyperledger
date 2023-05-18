@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5470" class=".btn">#5470</a>
+            </td>
+            <td>
+                <b>
+                    Add more backwards sync logging to debug nimbus issue
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Using this PR to deploy the code on a test node, may or may not want to merge this logging
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-17 23:31:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5469" class=".btn">#5469</a>
             </td>
             <td>

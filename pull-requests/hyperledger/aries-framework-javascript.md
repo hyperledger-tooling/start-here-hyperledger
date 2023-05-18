@@ -126,31 +126,3 @@ previously the HttpInboundTransport would return a response content type of `app
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1453" class=".btn">#1453</a>
-            </td>
-            <td>
-                <b>
-                    feat: support more key types in jws service
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ~~NOTE: this pr is dependant on #1446 and thus should be merged after that PR is merged.~~
-
-This PR refactors the JWK and JWS implementation to have better support for JWK / JWA, and also support more algs/key types in the JWS service. Basically the JWS service now supports all JWKs supported in AFJ, although it's limited by the algs and key types supported by the wallet (for askar we support EdDsa and ES256)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-10 19:29:27 +0000 UTC
-    </div>
-</div>
-

@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/toc
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">quarterly-report</span>
             </td>
             <td>
                 <nil>
@@ -59,34 +59,6 @@ permalink: /pull-requests/hyperledger/toc
     </table>
     <div class="right-align">
         Created At 2023-05-15 20:46:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/112" class=".btn">#112</a>
-            </td>
-            <td>
-                <b>
-                    Add GitHub Contribution Guide
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add GitHub Contribution Guide.
-The guide was based on the Fabric contribution guide - https://hyperledger-fabric.readthedocs.io/en/latest/github/github.html.
-Please suggest any edits based on practices learned from other projects!
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-10 21:51:20 +0000 UTC
     </div>
 </div>
 
