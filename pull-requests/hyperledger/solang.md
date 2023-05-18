@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1315" class=".btn">#1315</a>
+            </td>
+            <td>
+                <b>
+                    Virtual functions are available for calls
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Virtual functions may not have a body, but they should still be callable.
+
+Without this fix, the added testcase fails with this error which is wrong:
+
+```
+error: unknown function or type '_virtual'
+  ┌─ /home/glow/code/solang/tests/contract_testcases/substrate/functions/virtual.sol:3:9
+  │
+3 │         _virtual();
+  │         ^^^^^^^^
+```
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-18 17:23:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1312" class=".btn">#1312</a>
             </td>
             <td>
@@ -85,32 +121,6 @@ permalink: /pull-requests/hyperledger/solang
     </table>
     <div class="right-align">
         Created At 2023-05-12 17:18:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1309" class=".btn">#1309</a>
-            </td>
-            <td>
-                <b>
-                    Fix the formatting in the chain extension documentation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Sorry for this annoyance. I should have checked it before. I just assumed because it rendered it would look fine :grin:
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-11 17:37:49 +0000 UTC
     </div>
 </div>
 

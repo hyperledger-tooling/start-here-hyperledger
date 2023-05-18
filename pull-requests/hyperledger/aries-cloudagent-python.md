@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2236" class=".btn">#2236</a>
+            </td>
+            <td>
+                <b>
+                    Add updated ELK stack for demos.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Remove outdated EFK stack and update documentation.
+
+This is a restore for https://github.com/hyperledger/aries-cloudagent-python/pull/2216. Resetting / merging my repo branch rolled back the commits, so #2216 PR is empty.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-18 17:41:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2235" class=".btn">#2235</a>
             </td>
             <td>

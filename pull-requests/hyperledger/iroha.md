@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3490" class=".btn">#3490</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #3376: Add Iroha Client CLI pytest automation framework
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+This PR introduces automated tests for the Iroha Client CLI, using Python's Pytest framework. The new test suite includes a collection of tests that verify the functionality of the client CLI in various scenarios.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-18 14:07:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3489" class=".btn">#3489</a>
             </td>
             <td>

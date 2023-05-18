@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5471" class=".btn">#5471</a>
+            </td>
+            <td>
+                <b>
+                    Introduce variables storage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+This is the first PR of a series to reorganize the data in db, in order to pave the way to future optimizations.
+The first goal that we want to achieve is the optimization of the db for data that is static, leveraging [the BlobDB](https://github.com/facebook/rocksdb/wiki/BlobDB) feature.
+For static data like blockchain or trie logs, BlobDB is a better choice since it reduces a lot the write amplification during compaction, with the result of faster initial sync and less wear out of the disk.
+
+Now we have variable data mixed with static data in the blockchain column family, and this is not optimal, so this PR moved the _variabiles_ into the dedicated column family `VARIABLES` that we can further optimize for frequently changing data in future.
+
+The PR is meant to keep backward compatibility and is able to migrate existing variables to the new location on startup. 
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-18 15:45:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5470" class=".btn">#5470</a>
             </td>
             <td>
@@ -514,36 +555,6 @@ Response:
     </table>
     <div class="right-align">
         Created At 2023-05-12 04:32:55 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5448" class=".btn">#5448</a>
-            </td>
-            <td>
-                <b>
-                    Fix 'locahost' typo in log config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-Fix minor typo in log host default value
-
-## Fixed Issue(s)
-None
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-11 16:16:32 +0000 UTC
     </div>
 </div>
 

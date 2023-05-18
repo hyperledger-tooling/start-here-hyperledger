@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mediator-service
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/76" class=".btn">#76</a>
+                PR <a href="https://github.com/hyperledger/aries-mediator-service/pull/78" class=".btn">#78</a>
             </td>
             <td>
                 <b>
-                    WIP: Load Test against Multitenant Aca-Py
+                    Add redis-pq-demo
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/aries-mediator-service
                 
             </td>
             <td>
-                Very much a work in progress.
-Want to leverage locust load testing but against multitenant Aca-Py and log trace events for mediator AND multitenant Aca-Py into an ELK Stack.
+                Add a configuration that leverages the redis-persistent-queue plugin. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-30 18:41:18 +0000 UTC
+        Created At 2023-05-18 17:19:48 +0000 UTC
     </div>
 </div>
 
