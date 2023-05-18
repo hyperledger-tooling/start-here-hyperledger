@@ -27,8 +27,8 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
                 
             </td>
             <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
-
+                closes #202 
+partially `resolves` #203
             </td>
         </tr>
     </table>

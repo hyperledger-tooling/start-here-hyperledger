@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/toc
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">quarterly-report</span>
             </td>
             <td>
                 <nil>
