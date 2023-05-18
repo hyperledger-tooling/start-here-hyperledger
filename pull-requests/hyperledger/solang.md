@@ -114,31 +114,3 @@ permalink: /pull-requests/hyperledger/solang
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1307" class=".btn">#1307</a>
-            </td>
-            <td>
-                <b>
-                    Read compiler configurations from toml file.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                1- Refactor `solang.rs`
-2- Create a Struct `Configurations`, that can be created from the command line or from a `.toml` file.
-3- Create a new subcommand `solang new`, which creates a project directory that includes a solidity example `flipper.sol` and `Solang.toml`.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-11 02:10:23 +0000 UTC
-    </div>
-</div>
-

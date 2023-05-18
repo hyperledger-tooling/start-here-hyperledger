@@ -40,29 +40,3 @@ Please let me know if I have to do something else or undo something for this pul
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/119" class=".btn">#119</a>
-            </td>
-            <td>
-                <b>
-                    fix: agent init before link secret
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-11 06:15:11 +0000 UTC
-    </div>
-</div>
-

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/108" class=".btn">#108</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/110" class=".btn">#110</a>
             </td>
             <td>
                 <b>
-                    Orderer: adding auto-cert renewal functionality and port changes from master
+                    Removed IBM Confidencial License
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                https://github.com/hyperledger-labs/fabric-operator/issues/107
+                https://github.com/hyperledger-labs/fabric-operator/issues/109
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-08 18:50:09 +0000 UTC
+        Created At 2023-05-18 05:42:56 +0000 UTC
     </div>
 </div>
 

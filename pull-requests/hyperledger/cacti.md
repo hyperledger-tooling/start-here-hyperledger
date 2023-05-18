@@ -123,31 +123,3 @@ Signed-off-by: deepto98 [ddepp98@outlook.com](mailto:ddepp98@outlook.com)
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2422" class=".btn">#2422</a>
-            </td>
-            <td>
-                <b>
-                    chore(release): publish v2.0.0-alpha-prerelease
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Testing release with `alpha-prerelease`.
-
-Have to change `gomodule` names due to golang mandatory requirement that any version with v2 or above, must have major version suffixed to the `gomodule` name. Also had to modify `go-gen-checksum` script according to this convention.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-11 04:07:38 +0000 UTC
-    </div>
-</div>
-
