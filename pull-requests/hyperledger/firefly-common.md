@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/68" class=".btn">#68</a>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/69" class=".btn">#69</a>
             </td>
             <td>
                 <b>
-                    Set of proposed small enhancements to httpserver, WS support, and others
+                    TLS Client Auth - Subject DN Validation
                 </b>
             </td>
         </tr>
@@ -27,22 +27,14 @@ permalink: /pull-requests/hyperledger/firefly-common
                 
             </td>
             <td>
-                - Expose `WrapCorsIfEnabled` independent of `HTTPServer`
-- Expose `CalcRequestTimeout` independent of `APIServer`
-- Address feedback from improved linter - some of which highlighted genuine issues.
-- Issue from linter: Fix recently added common `version.NewInfo` utility - was ignoring inputs
-- Fix missing `global.` on API Server config descriptions, causing re-definition in other packages
-- Update `github.com/getkin/kin-openapi` to `v0.116.0` and address code change this requires in swagger generator
-- Provided `ReceiveExt` functionality on `wsclient` to allow `Reader` based streaming when receiving
-  - An optional alternative to the whole `[]byte` payload being loaded into memory for each message
-- Provided `DisableReconnect` option on `wsclient`
-- Set read deadlines when heartbeating enabled, so if the backend connection fails the read doesn't hang indefinitely
-  - Without this, if the context cancels, or the send thread otherwise errors without the receive loop getting a socket error, the receive loop never exits
+                In PR chain with #68 
+
+Provides subject distinguished name validation option, so that in addition to specifying the set of CAs that are valid, a set of match criteria can be applied to the subject of the certificate.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-07 16:40:12 +0000 UTC
+        Created At 2023-05-18 03:23:39 +0000 UTC
     </div>
 </div>
 
