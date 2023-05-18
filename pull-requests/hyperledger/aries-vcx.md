@@ -14,6 +14,110 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/855" class=".btn">#855</a>
+            </td>
+            <td>
+                <b>
+                    In memory response cacher
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Implements a simple naive in-memory ledger response cacher and uses it in `IndyVdrLedger`.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-18 11:54:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/854" class=".btn">#854</a>
+            </td>
+            <td>
+                <b>
+                    Feature/credx issuer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                TODO
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-18 10:27:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/853" class=".btn">#853</a>
+            </td>
+            <td>
+                <b>
+                    Remove dependency on BaseWallet from IndyVdrLedger
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Remove dependency on `BaseWallet` from `IndyVdrLedger` in favor of injecting a singing-specific trait implementation.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-18 09:03:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/852" class=".btn">#852</a>
+            </td>
+            <td>
+                <b>
+                    Implement txn endorsing for IndyVdrLedger
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Implements `endorse_transaction`, `set_endorser` and `get_txn_author_agreement` for `IndyVdrLedger` and enables `test_endorse_transaction` test.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-18 06:55:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/851" class=".btn">#851</a>
             </td>
             <td>
