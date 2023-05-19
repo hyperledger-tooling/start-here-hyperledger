@@ -635,7 +635,7 @@ Closes #2373
 - [x] UI: implement prompting (using `unquire`)
 - [x] UI: add logging throughout the process. Add spinner (using `spinoff`) during the long-running processes, like validator compilation and repo cloning
 - [x] Fix rest of Iroha according to updates in `ConfigurationProxy`
-- [ ] #3473: Support standalone validator compilation
+- ~~#3473: Support standalone validator compilation~~ **In a separate PR**
 - [ ] Finish unit tests
 - [x] **`git clone` doesn't work.** Fix.
 - ~~Generalise UI: make it work with generic writers and readers. Not sure if it is possible with `spinoff` and `inquire`.~~ **Not really needed**
