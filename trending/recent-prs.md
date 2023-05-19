@@ -1,13 +1,13 @@
 
+[5474](https://github.com/hyperledger/besu/pull/5474) remove old EF bootnodes
+
+[5473](https://github.com/hyperledger/besu/pull/5473) Invalid transaction type - report to user
+
+[1316](https://github.com/hyperledger/solang/pull/1316) Refactor Solang's CLI
+
+[2](https://github.com/hyperledger/aries-builder-images/pull/2) build: Initial setup
+
 [192](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/192) Update documents
-
-[3590](https://github.com/hyperledger/aries-framework-go/pull/3590) refactor: move presexch to component/models, VDR to component/vdr.
-
-[772](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/772) chore: improve ui look and accessibility when run in zoomed mode
-
-[1309](https://github.com/hyperledger/firefly/pull/1309) Confirm group init messages during dispatch
-
-[1](https://github.com/hyperledger/aries-builder-images/pull/1) Settings
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
