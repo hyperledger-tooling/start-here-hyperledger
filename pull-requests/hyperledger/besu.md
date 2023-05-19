@@ -66,9 +66,17 @@ Method is included in https://ethereum.github.io/execution-apis/api-documentatio
 
 ## PR description
 
+This PR is built on top of https://github.com/hyperledger/besu/pull/5471, so check it first.
+
+This PR introduces optimizations for RocksDB column families that contain static data, i.e. key value entries that are never changed, but only added, like an append log storage, the best example is the blockchain storage, that benefit if [BlobDB ](https://github.com/facebook/rocksdb/wiki/BlobDB) is used for them, since the write amplification is highly reduced, with the result of faster initial sync and less wear out of SSD.
+
+Preliminary test shows that checkpoint sync is faster with BlobDB enabled, more tests are ongoing, and will share the results later.
+
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
 <!-- Example: "fixes #2" -->
+
+fixes #4607 
             </td>
         </tr>
     </table>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1317" class=".btn">#1317</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1319" class=".btn">#1319</a>
             </td>
             <td>
                 <b>
-                    this is not a keyword
+                    v0.3.0 Venice
                 </b>
             </td>
         </tr>
@@ -27,7 +27,46 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                The parser and semantic analysis stage of Solang have been through [a security audit](https://github.com/solana-labs/security-audits/blob/master/solang/Trail_of_Bits_Solang_Final_report.pdf). All security issues have been fixed.
+
+### Added
+- The CLI now has a `--release` option which disables printing of errors
+- On Substrate, chain extensions can be now used. [xermicus](https://github.com/xermicus)
+
+### Fixed
+- Solidity error definitions are now parsed. [seanyoung](https://github.com/seanyoung)
+- The Ethereum Solidity parser and semantic analysis tests are now run on Solang sema during `cargo test`. [seanyoung](https://github.com/seanyoung)
+- If a function returned a `storage` reference, then not returning a value explicitly is an error, since the reference must post refer to an existing variable. [seanyoung](https://github.com/seanyoung)
+- Many small improvements have been made to the parser and semantic analysis, improving compatibility with Ethereum Solidity.
+
+### Changed
+- Addresses are now base58 encoded when formated with `"address:{}".format(address)`. [LucasSte](https://github.com/LucasSte)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-19 15:10:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1317" class=".btn">#1317</a>
+            </td>
+            <td>
+                <b>
+                    `this` is not a keyword
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                `this` should not be a keyword, and variables can be named `this` although this will hide the usual `this` which gives the current contract.
             </td>
         </tr>
     </table>
@@ -147,32 +186,6 @@ error: unknown function or type '_virtual'
     </table>
     <div class="right-align">
         Created At 2023-05-15 11:50:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1310" class=".btn">#1310</a>
-            </td>
-            <td>
-                <b>
-                    Use solc v0.8.20 testdata
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Ethereum Solidity 0.8.20 has been released. Update our tests to use their latest test files.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-12 17:18:45 +0000 UTC
     </div>
 </div>
 
