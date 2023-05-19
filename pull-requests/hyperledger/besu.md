@@ -14,6 +14,67 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5474" class=".btn">#5474</a>
+            </td>
+            <td>
+                <b>
+                    remove old EF bootnodes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This PR removes old EF bootnodes .Would like someone from the EF team validate this before we move forward with that.
+@skylenet @parithosh Could please confirm these bootnodes don't exist anymore?
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-19 05:20:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5473" class=".btn">#5473</a>
+            </td>
+            <td>
+                <b>
+                    Invalid transaction type - report to user
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">RPC</span><span class="chip">ux</span>
+            </td>
+            <td>
+                If transaction validation fails because of "Invalid transaction type", report that error back to the user (previously was "invalid params")
+This will make situations like this easier to troubleshoot -
+https://discord.com/channels/905194001349627914/938504958909747250/1108931495797727354
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-19 03:50:49 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5471" class=".btn">#5471</a>
             </td>
             <td>
@@ -158,11 +219,15 @@ at DEBUG level every time a better block is found logs more info about the block
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">doc-change-required</span><span class="chip">TeamRevenant</span><span class="chip">mainnet</span><span class="chip">RPC</span>
             </td>
             <td>
                 ## PR description
-Body Size Limit for BodyHandler in Vert.x Route: A limit on body size for the BodyHandler is introduced to prevent memory overuse and improve application robustness. (Set to 100MB)
+Body Size Limit for BodyHandler in Vert.x Route: A limit on body size for the BodyHandler is introduced to prevent memory overuse and improve application robustness. (Set to 5MB)
+
+`--rpc-http-max-request-content-length ` overrides the limit. 
+
+
 
             </td>
         </tr>
@@ -263,7 +328,7 @@ fixes #5463
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamRevenant</span><span class="chip">mainnet</span><span class="chip">RPC</span>
             </td>
             <td>
                 ## PR description
@@ -480,81 +545,6 @@ fixes #5447
     </table>
     <div class="right-align">
         Created At 2023-05-12 09:42:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5449" class=".btn">#5449</a>
-            </td>
-            <td>
-                <b>
-                    Implement Limit on Resource-Intensive Batch Requests in JSON RPC
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamRevenant</span><span class="chip">mainnet</span><span class="chip">RPC</span>
-            </td>
-            <td>
-                ## PR description
-
-This Pull Request introduces a new limitation mechanism for batch requests in Besu's JSON RPC that are deemed resource-intensive. Non-resource-intensive methods can be called without restrictions, while resource-intensive requests are now subject to a limit, which is defined by Besu's `JsonRpcConfiguration`. Currently, the `eth_call` method is the only one marked as resource-intensive.
-
-Changes
-
-- Introduced a limit on the number of resource-intensive requests that can be executed in a batch of JSON RPC requests within Besu. The limit is configurable.
-- Implemented an optional command-line interface parameter `rpc-http-max-resource-intensive-per-batch-size` allowing users to manually adjust the resource-intensive request limit as per their needs.
-- Established a new error response mechanism. If the number of resource-intensive requests exceeds the set limit, all subsequent resource-intensive requests will receive a specific error.
-
-For instance, given the limit of 1 for the resource-intensive eth_call method, the response to this batch of requests would be:
-
-Request
-```
-[
-  {"jsonrpc":"2.0", "method":"eth_call", "params":[{/*parameters for eth_call*/}], "id":1},
-  {"jsonrpc":"2.0", "method":"eth_call", "params":[{/*parameters for eth_call*/}], "id":2},
-  {"jsonrpc":"2.0", "method":"eth_getTransactionCount", "params":[{/*parameters for eth_getTransactionCount*/}], "id":3},
-  {"jsonrpc":"2.0", "method":"eth_getBlockByNumber", "params":[{/*parameters for eth_getBlockByNumber*/}], "id":4}
-]
-```
-Response:
-```
-[
-  {
-    "jsonrpc": "2.0",
-    "id": 1,
-    "result": { /* result of first eth_call */ }
-  },
-  {
-    "jsonrpc": "2.0",
-    "id": 2,
-    "error": {
-      "code": -32005,
-      "message": "Resource-Intensive Request Limit Exceeded",
-    }
-  },
-  {
-    "jsonrpc": "2.0",
-    "id": 3,
-    "result": { /* result of eth_getTransactionCount */ }
-  },
-  {
-    "jsonrpc": "2.0",
-    "id": 4,
-    "result": { /* result of eth_getBlockByNumber */ }
-  }
-]
-```
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-12 04:32:55 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1316" class=".btn">#1316</a>
+            </td>
+            <td>
+                <b>
+                    Refactor Solang's CLI
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Refactor Solang's CLI to prepare to parse CLI arguments easily from a `toml` file.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-19 02:29:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1315" class=".btn">#1315</a>
             </td>
             <td>
