@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-channeled-add-ons-gen
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-channeled-add-ons-gen/pull/10" class=".btn">#10</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-channeled-add-ons-gen/pull/12" class=".btn">#12</a>
             </td>
             <td>
                 <b>
-                    Add logout, and mnemonic encryption
+                    Add section about using different CCs
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger-labs/fabric-channeled-add-ons-gen
                 
             </td>
             <td>
-                Adds logout route.
+                Signed-off-by: Leonidas Avdelas <avdelasleonidas@gmail.com>
 
-Also adds encryption of the mnemonic with a passphrase. While this is not useful right now, it's a future extension that will help us not request the mnemonic later on.
+Closes #11 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-04 11:32:30 +0000 UTC
+        Created At 2023-05-19 13:40:10 +0000 UTC
     </div>
 </div>
 

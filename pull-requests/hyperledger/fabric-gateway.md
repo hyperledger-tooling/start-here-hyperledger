@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/590" class=".btn">#590</a>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/592" class=".btn">#592</a>
             </td>
             <td>
                 <b>
-                    Use compiled output in Node scenario tests instead of ts-node
+                    Add issue templates
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-gateway
                 
             </td>
             <td>
-                Avoid the overhead of runtime transpile and more accurately reflect real application conditions.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-12 13:42:41 +0000 UTC
+        Created At 2023-05-19 14:45:42 +0000 UTC
     </div>
 </div>
 

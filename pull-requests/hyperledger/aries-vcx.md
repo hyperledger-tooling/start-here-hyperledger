@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/857" class=".btn">#857</a>
+            </td>
+            <td>
+                <b>
+                    upgrade messages_macros deps to latest
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updated message macros dependencies to latest. Fixes #846 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-19 13:02:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/855" class=".btn">#855</a>
             </td>
             <td>

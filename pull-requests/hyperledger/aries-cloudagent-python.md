@@ -126,33 +126,3 @@ Let me know if you have any comments/suggestions.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2232" class=".btn">#2232</a>
-            </td>
-            <td>
-                <b>
-                    Multi-tenant self-managed mediation verkey lookup
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixes #2231 
-
-There are two ways to setup mediation for multitenancy. One is to have the base wallet mediate for all tenants, and the second is for each tenant to manage their own. In the second case, there was a bug when locating the verkey and packing the outbound message.
-
-This PR checks if the base wallet is mediating and decides which responder to use. If the tenant is managing their own mediation then we need the sub-wallet profile to create the responder NOT the base wallet profile.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-12 18:15:50 +0000 UTC
-    </div>
-</div>
-
