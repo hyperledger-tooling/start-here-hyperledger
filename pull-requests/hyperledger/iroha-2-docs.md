@@ -14,25 +14,51 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/341" class=".btn">#341</a>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/345" class=".btn">#345</a>
             </td>
             <td>
                 <b>
-                    Added account switching and resolved permission token collision in transfering assets
+                    update registering an account
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">documentation</span><span class="chip">iroha2</span>
+                
             </td>
             <td>
-                Added account switching and resolved permission token collision in transfering assets to resolve this issue https://github.com/hyperledger/iroha-2-docs/issues/291
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-11 15:20:46 +0000 UTC
+        Created At 2023-05-19 11:10:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/344" class=".btn">#344</a>
+            </td>
+            <td>
+                <b>
+                    update Iroha 2 Client Setup, Domain search and registration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-19 08:53:48 +0000 UTC
     </div>
 </div>
 
