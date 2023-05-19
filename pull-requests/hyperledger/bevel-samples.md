@@ -140,29 +140,3 @@ permalink: /pull-requests/hyperledger/bevel-samples
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel-samples/pull/25" class=".btn">#25</a>
-            </td>
-            <td>
-                <b>
-                    [chore] Merge develop to main
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-12 12:00:35 +0000 UTC
-    </div>
-</div>
-
