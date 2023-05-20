@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1040" class=".btn">#1040</a>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1042" class=".btn">#1042</a>
             </td>
             <td>
                 <b>
-                    Update FSAT to use Fabric 2.5 by default
+                    Nominate Tatsuya Sato as fabric-samples maintainer
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger/fabric-samples
                 
             </td>
             <td>
-                This patch updates full-stack-asset-transfer to Fabric 2.5 by default.
-
-In particular, since k8s-builder-peer is set as the default value for peer image,
-it needs to be updated to use 0.11.0, which is derived from Fabric v2.5 image, as the version default value.
+                Tatsuya has been helping to groom fabric-samples for multiple years. More recently, Tatsuya has helped to keep test-network-k8s and full-stack-asset-transfer samples working well. Tatsuya has expressed interest in becoming a maintainer and I would welcome the addition!
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-10 08:42:07 +0000 UTC
+        Created At 2023-05-20 13:56:45 +0000 UTC
     </div>
 </div>
 
