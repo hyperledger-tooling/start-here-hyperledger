@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5479" class=".btn">#5479</a>
+            </td>
+            <td>
+                <b>
+                    Remove bonsai accumulator trielogfactory
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Fixes a refactor omission.  TrieLogFactory was still statically constructed and used in accumulator.  This would lead to besu writing trie logs to its database with the default TrieLog serializer rather than one (potentially) configured via plugin.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-19 19:18:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5476" class=".btn">#5476</a>
             </td>
             <td>

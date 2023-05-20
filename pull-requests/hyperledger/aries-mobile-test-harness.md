@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/168" class=".btn">#168</a>
-            </td>
-            <td>
-                <b>
-                    Fix BCW security tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The PR fixes some test errors resulting from some BC Wallet PIN entry screen rework recently. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-12 20:55:02 +0000 UTC
-    </div>
-</div>
-
