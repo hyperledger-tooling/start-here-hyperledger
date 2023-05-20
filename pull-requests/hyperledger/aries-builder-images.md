@@ -27,38 +27,20 @@ permalink: /pull-requests/hyperledger/aries-builder-images
                 
             </td>
             <td>
-                fixes #3 
+                I'm adding the people listed bellow as the initial maintainers, please let know in the comments if you want to keep your name on the list or not:
+
+- [ ] @andrewwhitehead
+- [ ] @blu3beri
+- [ ] @cvarjao
+- [ ] @jleach
+- [ ] @TimoGlastra
+
+fixes #3 
             </td>
         </tr>
     </table>
     <div class="right-align">
         Created At 2023-05-19 18:00:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-builder-images/pull/4" class=".btn">#4</a>
-            </td>
-            <td>
-                <b>
-                    Remove duplicate calls
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-19 17:44:43 +0000 UTC
     </div>
 </div>
 

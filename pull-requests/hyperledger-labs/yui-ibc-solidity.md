@@ -62,29 +62,3 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/190" class=".btn">#190</a>
-            </td>
-            <td>
-                <b>
-                    update solidity-rlp and compiler versions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ref. https://github.com/hamdiallam/Solidity-RLP/issues/24
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-13 00:39:52 +0000 UTC
-    </div>
-</div>
-

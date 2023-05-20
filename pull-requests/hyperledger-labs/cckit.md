@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/cckit
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/cckit/pull/33" class=".btn">#33</a>
+                PR <a href="https://github.com/hyperledger-labs/cckit/pull/34" class=".btn">#34</a>
             </td>
             <td>
                 <b>
-                    Decimal sep pkg
+                    Expose additional protojson marshal options. 
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/cckit
                 
             </td>
             <td>
-                <nil>
+                This is in relation to issue #31 and storing the state a json objects. This exposes two additional options for json serialization and enables them by default for the json sterilization. The first option has it encode the enums as an int instead of a string. This will reduce the size of the objects stored in the ledger. The second option is to enable it to encode default values when translating the proto to json. This will ensure that the objects in the CouchDB will have the expected shape so that rich queries can be ran on the world state db for objects that have default values. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-24 15:57:20 +0000 UTC
+        Created At 2023-05-19 18:53:54 +0000 UTC
     </div>
 </div>
 

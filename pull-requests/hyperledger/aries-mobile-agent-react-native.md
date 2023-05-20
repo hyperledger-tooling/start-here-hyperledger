@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/775" class=".btn">#775</a>
+            </td>
+            <td>
+                <b>
+                    chore: refactor header button around a common component
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+Cleanup the navigation bar button items. There where quite a few with allot replicated code and style. This PR cleans this up anchoring around one common bar button.
+
+- [x] SettingsMenu
+- [x] HeaderRightHome
+- [x] HeaderRightSkip
+- [x] InfoIcon
+- [ ] HeaderLeftBack
+
+# Related Issues
+
+Fixes #744 
+
+# Pull Request Checklist
+
+Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
+
+- [ ] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [ ] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [ ] Updated documentation as needed for changed code and new or modified features;
+- [ ] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+Pro Tip 🤓
+
+- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-19 23:14:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/772" class=".btn">#772</a>
             </td>
             <td>
@@ -224,109 +281,6 @@ _PR template adapted from the Python attrs project._
     </table>
     <div class="right-align">
         Created At 2023-05-15 16:52:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/767" class=".btn">#767</a>
-            </td>
-            <td>
-                <b>
-                    feat: merged the two modals remove and decline
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Summary of Changes
-
-Merged the common decline and remove modules since they were essentially the same
-
-# Related Issues
-
-N/A
-
-# Pull Request Checklist
-
-Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
-
-- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
-- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
-- [x] Updated documentation as needed for changed code and new or modified features;
-- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
-
-If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
-
-Pro Tip 🤓
-
-- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
-- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
-
-_PR template adapted from the Python attrs project._
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-12 22:54:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/765" class=".btn">#765</a>
-            </td>
-            <td>
-                <b>
-                    feat: speed up watermark
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                # Summary of Changes
-
-Applied watermark speedup to oca 1.0 and 1.1 credential branding
-- Used OnLayout to fetch card 1.1 height and width
-- On card 1.0 height is determined by the width of the screen so we just use that calculation
-- Factored out some of the math used to compute watermark length
-# Related Issues
-N/A
-
-# Pull Request Checklist
-
-Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
-
-- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
-- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
-- [x] Updated documentation as needed for changed code and new or modified features;
-- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
-
-If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
-
-Pro Tip 🤓
-
-- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
-- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
-
-_PR template adapted from the Python attrs project._
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-12 18:27:58 +0000 UTC
     </div>
 </div>
 
