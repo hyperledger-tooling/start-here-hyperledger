@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/858" class=".btn">#858</a>
+            </td>
+            <td>
+                <b>
+                    move string parsing to libvcx_core
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #845 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-21 13:11:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/857" class=".btn">#857</a>
             </td>
             <td>
@@ -277,36 +303,6 @@ This is useful capability when inspecting presentations.
     </table>
     <div class="right-align">
         Created At 2023-05-14 18:19:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/843" class=".btn">#843</a>
-            </td>
-            <td>
-                <b>
-                    Refactor basewallet and corresponding consumers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fix: https://github.com/hyperledger/aries-vcx/issues/814
-
-- All JSON strings inputs replaced with rust structs.
-- consumers of `BaseWallet` in the code base  updated to use the new types rather than the JSON strings
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-14 16:58:54 +0000 UTC
     </div>
 </div>
 

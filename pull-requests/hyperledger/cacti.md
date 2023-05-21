@@ -121,31 +121,3 @@ Signed-off-by: deepto98 [ddepp98@outlook.com](mailto:ddepp98@outlook.com)
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2424" class=".btn">#2424</a>
-            </td>
-            <td>
-                <b>
-                    fix(webpack): fix broken bundling - cannot find webpack.config.js
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                The `examples/cactus-workshop-examples-2022-11-14` package was causing `yarn build:dev` to fail. This PR fixes the incorrect webpack config path in the example's `package.json` file and adds a missing `/src/main/typescript/index.web.ts` file.
-Fixes https://github.com/hyperledger/cacti/issues/2357
-Signed-off-by: deepto98 [ddepp98@outlook.com](mailto:ddepp98@outlook.com)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-14 15:43:36 +0000 UTC
-    </div>
-</div>
-
