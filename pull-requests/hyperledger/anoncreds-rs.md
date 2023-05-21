@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/209" class=".btn">#209</a>
+            </td>
+            <td>
+                <b>
+                    fix: small typo in the build.gradle
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: blu3beri <blu3beri@proton.me>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-21 11:53:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/208" class=".btn">#208</a>
             </td>
             <td>
