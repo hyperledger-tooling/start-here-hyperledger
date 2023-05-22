@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/123" class=".btn">#123</a>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/124" class=".btn">#124</a>
             </td>
             <td>
                 <b>
-                    Allow creating token pools from an existing ERC1155 contract
+                    Add status suffix to readiness probe
                 </b>
             </td>
         </tr>
@@ -27,30 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
                 
             </td>
             <td>
-                Pools on ERC1155 are really just ranges of the token ID space. Going forward,
-all pools will be expressed with a `startId` and `endId`. This makes the service
-logic much less bound to the specific decisions made in the sample contract
-around partitioning it in chunks of exactly 2^128.
-
-These `startId` and `endId` params can also be passed in on `config` (in
-addition to `address`) when creating a token pool, which will generate and
-return pool details immediately instead of expecting to call a `create` method.
-
-The old poolId format such as "F1" or "N2" will still be parsed as expected,
-but will not be attached to any new pools.
-
-Fixes #104
-Fixes #98
-
-**Breaking Change**
-There is a minor breaking change in that `info.typeId` on a token pool has
-been replaced with `info.startId` for consistency. Any applications that happen
-to rely on this field will need to change to the new spelling.
+                The readiness probe is configured to hit the root of the EVMConnect API - this will give a 405. It needs the status suffix. The ERC20-ERC721 connector already has this suffix.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-12 19:09:15 +0000 UTC
+        Created At 2023-05-22 15:38:20 +0000 UTC
     </div>
 </div>
 

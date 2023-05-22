@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/859" class=".btn">#859</a>
+            </td>
+            <td>
+                <b>
+                    Release 0.56.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-22 14:12:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/858" class=".btn">#858</a>
             </td>
             <td>
@@ -223,33 +249,6 @@ Rationale
     </table>
     <div class="right-align">
         Created At 2023-05-16 11:12:18 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/848" class=".btn">#848</a>
-            </td>
-            <td>
-                <b>
-                    Issue #847: Prover Handler Types
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #847 
-TODO
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-15 13:45:28 +0000 UTC
     </div>
 </div>
 
