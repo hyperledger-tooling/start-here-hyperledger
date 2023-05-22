@@ -30,10 +30,10 @@ permalink: /pull-requests/hyperledger/aries-builder-images
                 I'm adding the people listed bellow as the initial maintainers, please let know in the comments if you want to keep your name on the list or not:
 
 - [ ] @andrewwhitehead
-- [ ] @blu3beri
-- [ ] @cvarjao
+- [x] @blu3beri
+- [x] @cvarjao
 - [ ] @jleach
-- [ ] @TimoGlastra
+- [x] @TimoGlastra
 
 fixes #3 
             </td>
