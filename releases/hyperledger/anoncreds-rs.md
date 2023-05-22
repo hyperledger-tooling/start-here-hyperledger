@@ -32,6 +32,7 @@ permalink: /releases/hyperledger/anoncreds-rs
 * feat: react native > 0.71.x support by @blu3beri in https://github.com/hyperledger/anoncreds-rs/pull/208
 * fix: small typo in the build.gradle by @blu3beri in https://github.com/hyperledger/anoncreds-rs/pull/209
 * chore: update version by @blu3beri in https://github.com/hyperledger/anoncreds-rs/pull/210
+* feat(js): allow custom native bindings for React Native by @blu3beri in https://github.com/hyperledger/anoncreds-rs/pull/211
 
 
 **Full Changelog**: https://github.com/hyperledger/anoncreds-rs/compare/v0.1.0-dev.16...v0.1.0-dev.17
@@ -42,7 +43,7 @@ permalink: /releases/hyperledger/anoncreds-rs
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-05-22 07:38:18 +0000 UTC
+        Created At 2023-05-22 08:45:23 +0000 UTC
     </span>
 </div>
 
