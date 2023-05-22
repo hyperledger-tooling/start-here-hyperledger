@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4231" class=".btn">#4231</a>
+            </td>
+            <td>
+                <b>
+                    test that a join block does not define a system channel by verifying consortiums
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Test update
+
+#### Description
+
+Addition of an integration test to validate that when channel participation receives a join block, this block does not define a system channel
+
+#### Related issues
+
+issue: #4019 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-22 17:02:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4230" class=".btn">#4230</a>
             </td>
             <td>

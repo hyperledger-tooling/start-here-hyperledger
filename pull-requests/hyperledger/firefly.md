@@ -14,6 +14,62 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1313" class=".btn">#1313</a>
+            </td>
+            <td>
+                <b>
+                    Do not allow a batch to contain messages from different signing keys
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This reverts #1175 and allows a single batch processor to process messages from the same identity but different keys. Instead, it adds a new fix to immediately seal and dispatch the current batch if a new message is picked up that has a different signing key than the current in-flight batch assembly.
+
+This will ensure that only one batch processor is allocating nonces for a given context, _and_ that each batch contains only messages signed by a single key. May come at the expense of a slight performance decrease in edge cases that use a variety of signing keys for a single identity, but this is acceptable overall.
+
+Fixes #1311
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-22 16:47:32 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1312" class=".btn">#1312</a>
+            </td>
+            <td>
+                <b>
+                    fix: bug with init config
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Draft PR where I would appreciate some pointers on my approach!
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-22 16:47:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1309" class=".btn">#1309</a>
             </td>
             <td>
