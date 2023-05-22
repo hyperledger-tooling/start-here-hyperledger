@@ -117,29 +117,3 @@ I added a code that calculates JWT field in limited disclosure VC based on exist
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3586" class=".btn">#3586</a>
-            </td>
-            <td>
-                <b>
-                    perf: reuse same gjson parser
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-15 11:07:12 +0000 UTC
-    </div>
-</div>
-

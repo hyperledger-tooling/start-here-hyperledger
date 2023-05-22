@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1320" class=".btn">#1320</a>
+            </td>
+            <td>
+                <b>
+                    solc does not warn or error for duplicate @param tags
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Make it a warning and add note to previous doc tag, and fix the locations.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-22 11:10:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1319" class=".btn">#1319</a>
             </td>
             <td>
@@ -27,20 +53,34 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                The parser and semantic analysis stage of Solang have been through [a security audit](https://github.com/solana-labs/security-audits/blob/master/solang/Trail_of_Bits_Solang_Final_report.pdf). All security issues have been fixed.
+                The parser and semantic analysis stage of Solang have gone through
+[a security audit](https://github.com/solana-labs/security-audits/blob/master/solang/Trail_of_Bits_Solang_Final_report.pdf). All security issues have been fixed.
 
 ### Added
-- The CLI now has a `--release` option which disables printing of errors
-- On Substrate, chain extensions can be now used. [xermicus](https://github.com/xermicus)
+- The CLI now has a `--release` option, which disables printing of errors [salaheldinsoliman](https://github.com/salaheldinsoliman)
+- **Substrate**: chain extensions can be now used.
+  [xermicus](https://github.com/xermicus)
 
 ### Fixed
-- Solidity error definitions are now parsed. [seanyoung](https://github.com/seanyoung)
-- The Ethereum Solidity parser and semantic analysis tests are now run on Solang sema during `cargo test`. [seanyoung](https://github.com/seanyoung)
-- If a function returned a `storage` reference, then not returning a value explicitly is an error, since the reference must post refer to an existing variable. [seanyoung](https://github.com/seanyoung)
-- Many small improvements have been made to the parser and semantic analysis, improving compatibility with Ethereum Solidity.
+- Solidity error definitions are now parsed.
+  [seanyoung](https://github.com/seanyoung)
+- The Ethereum Solidity parser and semantic analysis tests are now run on Solang sema during
+  `cargo test`.
+  [seanyoung](https://github.com/seanyoung)
+- If a function returns a `storage` reference, then not returning a value explicitly is an error, since
+  the reference must refer to an existing storage variable.
+  [seanyoung](https://github.com/seanyoung)
+- Many small improvements have been made to the parser and semantic analysis, improving compatibility
+  with Ethereum Solidity.
+  [seanyoung](https://github.com/seanyoung)
+  [xermicus](https://github.com/xermicus)
+  [LucasSte](https://github.com/LucasSte)
 
 ### Changed
-- Addresses are now base58 encoded when formated with `"address:{}".format(address)`. [LucasSte](https://github.com/LucasSte)
+- **Solana**: Addresses are now base58 encoded when formated with `"address:{}".format(address)`.
+  [LucasSte](https://github.com/LucasSte)
+- **Substrate**: No longer use the prefixed names for seal runtime API calls, which grants small improvements in contract sizes. [xermicus](https://github.com/xermicus)
+
             </td>
         </tr>
     </table>
@@ -160,32 +200,6 @@ error: unknown function or type '_virtual'
     </table>
     <div class="right-align">
         Created At 2023-05-15 21:24:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1311" class=".btn">#1311</a>
-            </td>
-            <td>
-                <b>
-                    Remove seal prefixes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Since a while ago, the seal runtime API function imports do no longer need the `seal_` prefix. Since in Wasm the import name is found in the contract, it saves a few bytes in contract size. Unprefixed `return`  does not exist, and i left `seal_call` prefixed because it'll overwrite the `call` export.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-15 11:50:58 +0000 UTC
     </div>
 </div>
 

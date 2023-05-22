@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/211" class=".btn">#211</a>
+            </td>
+            <td>
+                <b>
+                    feat(js): allow custom native bindings for React Native
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Required for ease of use with unsupported platforms and Expo
+- Removed some of the file structure to make the library easier to maintain
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-22 08:23:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/210" class=".btn">#210</a>
+            </td>
+            <td>
+                <b>
+                    chore: update version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: blu3beri <blu3beri@proton.me>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-22 07:33:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/209" class=".btn">#209</a>
             </td>
             <td>

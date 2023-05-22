@@ -118,32 +118,3 @@ Signed-off-by: deepto98 [ddepp98@outlook.com](mailto:ddepp98@outlook.com)
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2426" class=".btn">#2426</a>
-            </td>
-            <td>
-                <b>
-                    fix(ci): multiple bug fixes in weaver deployment workflows
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fixes:
-1. Go publish workflows: Correct the tagnames
-2. Node workflows: fix typo in package.json after changing version (removed changing version in worklow)
-3. Fix a typo in relay deployment workflow
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-15 11:50:53 +0000 UTC
-    </div>
-</div>
-
