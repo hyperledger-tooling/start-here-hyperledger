@@ -548,38 +548,3 @@ Fixed https://github.com/hyperledger/besu/issues/4043
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5452" class=".btn">#5452</a>
-            </td>
-            <td>
-                <b>
-                    Add info log to indicate Besu is waiting on CL to be synced
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Add a info log so users can better understand why besu isn't doing anything when it's actually waiting on CL to send a FCU. 
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Fixes #5416 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-15 03:25:32 +0000 UTC
-    </div>
-</div>
-
