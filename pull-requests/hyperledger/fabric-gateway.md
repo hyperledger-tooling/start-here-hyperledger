@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/fabric-gateway
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-gateway/pull/593" class=".btn">#593</a>
+            </td>
+            <td>
+                <b>
+                    Include all linters checked by Go Report Card
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                See https://goreportcard.com/report/github.com/hyperledger/fabric-gateway
+
+Simplify chaincode deployment in scenario tests to pass cyclomatic complexity checks.
+
+For clarity, change golangci-lint configuration to explicitly specify the linters run rather than relying on default linters.
+
+Also fix Maven plugin warning in Java build.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-23 15:36:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-gateway/pull/592" class=".btn">#592</a>
             </td>
             <td>

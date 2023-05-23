@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-clsignatures-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/4" class=".btn">#4</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-clsignatures-rs/pull/6" class=".btn">#6</a>
             </td>
             <td>
                 <b>
-                    Add initial governance documents to the repository
+                    Fixed CI issues introduced by history recovery changes
                 </b>
             </td>
         </tr>
@@ -27,13 +27,12 @@ permalink: /pull-requests/hyperledger/anoncreds-clsignatures-rs
                 
             </td>
             <td>
-                Signed-off-by: Stephen Curran <swcurran@gmail.com>
-
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-09 21:35:22 +0000 UTC
+        Created At 2023-05-23 14:21:31 +0000 UTC
     </div>
 </div>
 

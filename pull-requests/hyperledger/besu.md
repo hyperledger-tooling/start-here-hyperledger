@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5483" class=".btn">#5483</a>
+            </td>
+            <td>
+                <b>
+                    Remove TOML table headings before checking for valid config parameters
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+This PR modifies the TOML parsing function `checkUnknownOptions()` to remove TOML headings before checking if all of the attributes are valid. E.g. for the following file:
+
+```
+[TxPool]
+tx-pool-max-size = 1024
+```
+
+the `TxPool` TOML parameter will be removed and ignored as per the discussion in the related issue.
+
+## Fixed Issue(s)
+https://github.com/hyperledger/besu/issues/5482
+
+Remaining tasks before PR review:
+
+- [ ] Add unit test
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-23 14:52:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5479" class=".btn">#5479</a>
             </td>
             <td>

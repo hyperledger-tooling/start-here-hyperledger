@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3592" class=".btn">#3592</a>
+            </td>
+            <td>
+                <b>
+                    chore: update component/models version in afgo
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-23 15:41:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3591" class=".btn">#3591</a>
+            </td>
+            <td>
+                <b>
+                    chore: update component dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-23 14:28:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3590" class=".btn">#3590</a>
             </td>
             <td>
@@ -88,32 +140,6 @@ I added a code that calculates JWT field in limited disclosure VC based on exist
     </table>
     <div class="right-align">
         Created At 2023-05-17 09:14:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3587" class=".btn">#3587</a>
-            </td>
-            <td>
-                <b>
-                    chore: update spi, kmscrypto module dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-16 14:59:22 +0000 UTC
     </div>
 </div>
 

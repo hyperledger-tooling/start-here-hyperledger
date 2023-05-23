@@ -686,8 +686,10 @@ More idiomatic and self-descriptive usage.
                 ## Description
 
 Rules:
-* Never use structs named `*Box` in the client code or integration tests. These structs exist only for serialization
-* Never refer to `V1` in any crate except `data_model` or in tests in other crates. Ideally, I would make them private
+* Never use structs named `*Box` in the client code or integration tests. 
+These structs exist only for serialization. If you write this type explicitly, this is a smell and user facing API should be updated.
+* Never refer to `V1` in any crate except `data_model` or in tests in other crates. 
+Ideally, any versioned struct(I mean `SignedTransaction` should be private, not `VersionedSignedTransaction`) should not be accessible from outside code. This isn't possible atm because of some tests. We want the code in `core`/`client` to be version agnostic
 
 ### Linked issue
 

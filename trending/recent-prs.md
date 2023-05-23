@@ -1,13 +1,13 @@
 
-[860](https://github.com/hyperledger/aries-vcx/pull/860) Remove vcx_schema_prepare_for_endorser
+[212](https://github.com/hyperledger/anoncreds-rs/pull/212) build(python): use correct matrix
 
-[4232](https://github.com/hyperledger/fabric/pull/4232) WIP: BFT: orderer can deliver header+sigs
+[1315](https://github.com/hyperledger/firefly/pull/1315) feat: background start for connector plugins
 
-[31](https://github.com/hyperledger/bevel-samples/pull/31) [substrate] Updated versions for application
+[3592](https://github.com/hyperledger/aries-framework-go/pull/3592) chore: update component/models version in afgo
 
-[405](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/405) Fixed Corda Driver Image Building Failure
+[593](https://github.com/hyperledger/fabric-gateway/pull/593) Include all linters checked by Go Report Card
 
-[8](https://github.com/hyperledger-labs/fabric-ansible-collection/pull/8) Fixed naming of the collection following change in the galaxy.yml file
+[1323](https://github.com/hyperledger/solang/pull/1323) Update to `ink!` v4.2 and bump MSRV to 1.68
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

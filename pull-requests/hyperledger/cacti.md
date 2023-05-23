@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2434" class=".btn">#2434</a>
+            </td>
+            <td>
+                <b>
+                    feat:  add ci action to check for unsorter package.json files
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                     - Remove not working check-package-json-sort.ts script.
+     - Add ci action to check for unsorted package.json files.
+
+Closes: #2356
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-23 12:49:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2433" class=".btn">#2433</a>
             </td>
             <td>
