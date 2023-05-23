@@ -38,31 +38,3 @@ Resolves #614
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/797" class=".btn">#797</a>
-            </td>
-            <td>
-                <b>
-                    [ja_JP] Translate "discovery-cli.md" into Japanese
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">jaJP-docs-ongoing</span>
-            </td>
-            <td>
-                This patch translates source/discovery-cli.md into Japanese.
-
-Resolves #613
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-16 04:06:03 +0000 UTC
-    </div>
-</div>
-

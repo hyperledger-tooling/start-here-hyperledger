@@ -50,7 +50,7 @@ permalink: /pull-requests/hyperledger/firefly
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">backport-candidate</span>
             </td>
             <td>
                 This reverts #1175 and allows a single batch processor to process messages from the same identity but different keys. Instead, it adds a new fix to immediately seal and dispatch the current batch if a new message is picked up that has a different signing key than the current in-flight batch assembly.
