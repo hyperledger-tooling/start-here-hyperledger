@@ -14,6 +14,48 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4232" class=".btn">#4232</a>
+            </td>
+            <td>
+                <b>
+                    WIP: BFT: orderer can deliver header+sigs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+
+
+Change-Id: I47e9767e7f322145291a8ffa498500ee99714cc6
+
+
+#### Type of change
+
+- New feature
+
+#### Description
+When the SeekInfo message SeekContentType is HEADER_WITH_SIGS, send a block with nil block.data.
+
+
+#### Related issues
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-23 11:41:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4231" class=".btn">#4231</a>
             </td>
             <td>

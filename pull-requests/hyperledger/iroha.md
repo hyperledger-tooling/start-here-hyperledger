@@ -821,33 +821,3 @@ In current state i would like to merge everything except last commit where i int
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3482" class=".btn">#3482</a>
-            </td>
-            <td>
-                <b>
-                    removed duplicate code in goSrc/srcvmCaller/iroha/commands.go: 478
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## Description
-
-The file "goSrc/srcvmCaller/iroha/commands.go" had duplicate code on line 478.
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-16 08:21:37 +0000 UTC
-    </div>
-</div>
-

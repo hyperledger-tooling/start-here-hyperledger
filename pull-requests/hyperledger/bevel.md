@@ -161,31 +161,3 @@ fixes #2243
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2245" class=".btn">#2245</a>
-            </td>
-            <td>
-                <b>
-                    [ci-skip]: fixed the job length.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                bug(fabric): fixed the job length in the network-schema.json
-
-fixes: #2212
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-16 06:51:10 +0000 UTC
-    </div>
-</div>
-
