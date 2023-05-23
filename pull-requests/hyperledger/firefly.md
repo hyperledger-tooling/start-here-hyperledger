@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1315" class=".btn">#1315</a>
+            </td>
+            <td>
+                <b>
+                    feat: background start for connector plugins
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-23 16:55:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1314" class=".btn">#1314</a>
             </td>
             <td>
@@ -63,32 +89,6 @@ Fixes #1311
     </table>
     <div class="right-align">
         Created At 2023-05-22 16:47:32 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1312" class=".btn">#1312</a>
-            </td>
-            <td>
-                <b>
-                    fix: bug with init config
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Draft PR where I would appreciate some pointers on my approach!
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-22 16:47:09 +0000 UTC
     </div>
 </div>
 

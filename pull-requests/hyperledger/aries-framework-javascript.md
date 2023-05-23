@@ -93,34 +93,3 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1458" class=".btn">#1458</a>
-            </td>
-            <td>
-                <b>
-                    feat: DIDComm V2 messaging support
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is follow up PR of: https://github.com/hyperledger/aries-framework-javascript/pull/1096
-Chanegs:
-* Merged with the main branch and solved conflicts
-* Used combination of Askar and AFJ methods to support DIDComm V2 messaging instead of using Sicpa library
-    * Implemented required crypto using Askar (Inds-SDK wallet do not support DIDComm V2)
-    * Implemented required didcomm logic using existing AFJ (DidDocument resolving, Forward wrapping)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-16 14:38:32 +0000 UTC
-    </div>
-</div>
-
