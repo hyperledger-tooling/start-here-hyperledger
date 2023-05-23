@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-ca
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-ca/pull/358" class=".btn">#358</a>
+                PR <a href="https://github.com/hyperledger/fabric-ca/pull/359" class=".btn">#359</a>
             </td>
             <td>
                 <b>
-                    Release commit for v1.5.6
+                    Update operations_guide.rst
                 </b>
             </td>
         </tr>
@@ -27,12 +27,29 @@ permalink: /pull-requests/hyperledger/fabric-ca
                 
             </td>
             <td>
-                Add release notes for v1.5.6.
+                FIX: CA Admin identities for org1, org2 must be properly registered as admin
+
+#### Type of change
+
+- Documentation update
+
+#### Description
+
+Following the documentation I got error on [create-and-join-channel](https://hyperledger-fabric-ca.readthedocs.io/en/latest/operations_guide.html#create-and-join-channel) part, getting the following error:
+```
+Error: got unexpected status: BAD_REQUEST -- error validating channel creation transaction for new channel 'mychannel', could not successfully apply update to template configuration: error authorizing update: error validating DeltaSet: policy for [Group]  /Channel/Application not satisfied: implicit policy evaluation failed - 0 sub-policies were satisfied, but this policy requires 1 of the 'Admins' sub-policies to be satisfied
+```
+I looked up orderer log to find out that OU being `user` is causing the problem not meeting the policy. I suggest the documentation to use `admin` OU for CA identities of org1 and org2.
+
+#### Additional details
+
+#### Related issues
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-31 21:04:52 +0000 UTC
+        Created At 2023-05-23 01:51:57 +0000 UTC
     </div>
 </div>
 
