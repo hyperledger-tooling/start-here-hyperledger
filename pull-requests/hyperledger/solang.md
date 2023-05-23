@@ -177,29 +177,3 @@ error: unknown function or type '_virtual'
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1312" class=".btn">#1312</a>
-            </td>
-            <td>
-                <b>
-                    Restrict external function callable scope
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                On Solc, external functions can exclusively be called outside a contract. In order for use to accomplish #1251, we need to restrict their scope to can declare and organize the accounts the function needs.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-15 21:24:41 +0000 UTC
-    </div>
-</div>
-

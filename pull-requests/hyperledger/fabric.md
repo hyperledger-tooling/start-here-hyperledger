@@ -217,32 +217,3 @@ Finally, you can contact us on https://mergify.com
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4221" class=".btn">#4221</a>
-            </td>
-            <td>
-                <b>
-                    Update event service documentation.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Remove outdated information about the original v1.0 event hub.
-- Provide summary of event service.
-- Clarify block events versus chaincode events.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-15 22:29:27 +0000 UTC
-    </div>
-</div>
-

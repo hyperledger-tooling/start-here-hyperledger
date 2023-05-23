@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/82" class=".btn">#82</a>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/83" class=".btn">#83</a>
             </td>
             <td>
                 <b>
-                    Update to fftm v1.2.11
+                    Update, common, FFTM, signer dependencies
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-03 20:35:44 +0000 UTC
+        Created At 2023-05-22 19:47:55 +0000 UTC
     </div>
 </div>
 
