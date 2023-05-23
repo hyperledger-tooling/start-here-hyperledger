@@ -15,18 +15,27 @@ permalink: /releases/hyperledger/aries-vcx
         <tr>
             <td colspan="2">
                 <b>
-                    Release 0.55.0
+                    Release 0.56.0
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    0.55.0
+                    0.56.0
                 </span>
             </td>
             <td>
                 # Changelog
+
+## [0.55.0](https://github.com/hyperledger/aries-vcx/tree/0.55.0) (2023-04-27)
+
+[Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.54.1...0.55.0)
+
+### Other pull requests
+
+- Release 0.55.0 [\#813](https://github.com/hyperledger/aries-vcx/pull/813) ([Patrik-Stas](https://github.com/Patrik-Stas))
+- Refactor/replacing messages [\#787](https://github.com/hyperledger/aries-vcx/pull/787) ([bobozaur](https://github.com/bobozaur))
 
 ## [0.54.1](https://github.com/hyperledger/aries-vcx/tree/0.54.1) (2023-04-14)
 
@@ -45,10 +54,6 @@ permalink: /releases/hyperledger/aries-vcx
 
 - Fix node publishing [\#784](https://github.com/hyperledger/aries-vcx/pull/784) ([mirgee](https://github.com/mirgee))
 - Avoid misusing peer dependencies [\#783](https://github.com/hyperledger/aries-vcx/pull/783) ([mirgee](https://github.com/mirgee))
-
-### Refactoring
-
-- Synchronize state machine approach [\#696](https://github.com/hyperledger/aries-vcx/issues/696)
 
 ### Other issues
 
@@ -110,16 +115,11 @@ permalink: /releases/hyperledger/aries-vcx
 
 - Revert hiding mocking behind test\_utils feature flag [\#729](https://github.com/hyperledger/aries-vcx/pull/729) ([mirgee](https://github.com/mirgee))
 
-### Refactoring
-
-- Split libvcx crate [\#700](https://github.com/hyperledger/aries-vcx/issues/700)
-
 ### Other issues
 
 - New serialization formats [\#745](https://github.com/hyperledger/aries-vcx/issues/745)
 - Aries-VCX/Typestate Connection [\#740](https://github.com/hyperledger/aries-vcx/issues/740)
 - Implement node FFI using napi-rs and publish node wrapper including pre-built node.js add-on [\#728](https://github.com/hyperledger/aries-vcx/issues/728)
-- Move vdrtools fork under aries-vcx repo [\#724](https://github.com/hyperledger/aries-vcx/issues/724)
 
 ### Other pull requests
 
@@ -133,92 +133,26 @@ permalink: /releases/hyperledger/aries-vcx
 - Remove unnecessary vdrtools code [\#736](https://github.com/hyperledger/aries-vcx/pull/736) ([Patrik-Stas](https://github.com/Patrik-Stas))
 - Remove generic UrsaError err mapping, handle possible UrsaErrors explicitly [\#734](https://github.com/hyperledger/aries-vcx/pull/734) ([Patrik-Stas](https://github.com/Patrik-Stas))
 - Import vdr-tools fork [\#732](https://github.com/hyperledger/aries-vcx/pull/732) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- CI: Do not use deprecated set-output, update artifact publishing action [\#720](https://github.com/hyperledger/aries-vcx/pull/720) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- CredxAnoncreds verifier functionality support [\#708](https://github.com/hyperledger/aries-vcx/pull/708) ([gmulhearn](https://github.com/gmulhearn))
 
 ## [0.51.1](https://github.com/hyperledger/aries-vcx/tree/0.51.1) (2023-01-10)
 
 [Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.51.0...0.51.1)
 
-### Other pull requests
-
-- Release 0.51.1 [\#727](https://github.com/hyperledger/aries-vcx/pull/727) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Update chrono dependency [\#726](https://github.com/hyperledger/aries-vcx/pull/726) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Do not bind to vdrtools FFI in ios wrapper [\#723](https://github.com/hyperledger/aries-vcx/pull/723) ([Patrik-Stas](https://github.com/Patrik-Stas))
-
 ## [0.51.0](https://github.com/hyperledger/aries-vcx/tree/0.51.0) (2023-01-09)
 
 [Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.50.0...0.51.0)
-
-### Breaking changes
-
-- Remove public agent [\#715](https://github.com/hyperledger/aries-vcx/pull/715) ([mirgee](https://github.com/mirgee))
-
-### Changes to agents
-
-- Replace failure crate with thiserror [\#684](https://github.com/hyperledger/aries-vcx/pull/684) ([mirgee](https://github.com/mirgee))
-
-### Refactoring
-
-- Extract `protocols` crate [\#698](https://github.com/hyperledger/aries-vcx/issues/698)
-- Simplify `messages` crate [\#697](https://github.com/hyperledger/aries-vcx/issues/697)
-
-### Updates
-
-- Unify Rust edition [\#693](https://github.com/hyperledger/aries-vcx/pull/693) ([mirgee](https://github.com/mirgee))
-
-### Other issues
-
-- Use `bs58` instead of `rust-base58` [\#694](https://github.com/hyperledger/aries-vcx/issues/694)
-- Support did:key \#689 [\#690](https://github.com/hyperledger/aries-vcx/issues/690)
-- Support did:key \(Aries RFC \#0360\) [\#689](https://github.com/hyperledger/aries-vcx/issues/689)
-
-### Other pull requests
-
-- Release 0.51.0 [\#725](https://github.com/hyperledger/aries-vcx/pull/725) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Bump tokio from 1.20.2 to 1.20.3 [\#722](https://github.com/hyperledger/aries-vcx/pull/722) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Improve mappings from vdrtools, refactor tests in libvcx [\#721](https://github.com/hyperledger/aries-vcx/pull/721) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Update readme.md files, update architecture diagram [\#719](https://github.com/hyperledger/aries-vcx/pull/719) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Nonmediated connection handles API [\#718](https://github.com/hyperledger/aries-vcx/pull/718) ([mirgee](https://github.com/mirgee))
-- Nonmediated connection \(de\)serialization [\#717](https://github.com/hyperledger/aries-vcx/pull/717) ([mirgee](https://github.com/mirgee))
-- Tweak u32 handle releasing handling [\#716](https://github.com/hyperledger/aries-vcx/pull/716) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Minor renames, remove unnecessary asyncs [\#714](https://github.com/hyperledger/aries-vcx/pull/714) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Clippy do not allow unwrap used [\#713](https://github.com/hyperledger/aries-vcx/pull/713) ([gmulhearn](https://github.com/gmulhearn))
-- Libvcx/minimize api c [\#711](https://github.com/hyperledger/aries-vcx/pull/711) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Libvcx/refactor [\#710](https://github.com/hyperledger/aries-vcx/pull/710) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- CI: Add clippy checks [\#705](https://github.com/hyperledger/aries-vcx/pull/705) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Refactor diddoc, extract as crate, create crate vcx\_shared [\#704](https://github.com/hyperledger/aries-vcx/pull/704) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Code formatting [\#703](https://github.com/hyperledger/aries-vcx/pull/703) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Refactor error handling [\#702](https://github.com/hyperledger/aries-vcx/pull/702) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- messages: reduce dependencies, propagate errors, remove dead code [\#701](https://github.com/hyperledger/aries-vcx/pull/701) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Replace rust-base58 by bs58 [\#695](https://github.com/hyperledger/aries-vcx/pull/695) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- 689 support didkey aries rfc 0360 [\#691](https://github.com/hyperledger/aries-vcx/pull/691) ([guijd3p](https://github.com/guijd3p))
 
 ## [0.50.0](https://github.com/hyperledger/aries-vcx/tree/0.50.0) (2022-12-05)
 
 [Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.49.1...0.50.0)
 
-### Other pull requests
-
-- Release 0.50.0 [\#688](https://github.com/hyperledger/aries-vcx/pull/688) ([Patrik-Stas](https://github.com/Patrik-Stas))
-
 ## [0.49.1](https://github.com/hyperledger/aries-vcx/tree/0.49.1) (2022-12-04)
 
 [Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.49.0...0.49.1)
 
-### Other pull requests
-
-- Release 0.49.1 [\#687](https://github.com/hyperledger/aries-vcx/pull/687) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Fix legacy wrapper ios release [\#686](https://github.com/hyperledger/aries-vcx/pull/686) ([Patrik-Stas](https://github.com/Patrik-Stas))
-
 ## [0.49.0](https://github.com/hyperledger/aries-vcx/tree/0.49.0) (2022-12-04)
 
 [Full Changelog](https://github.com/hyperledger/aries-vcx/compare/0.48.0...0.49.0)
-
-### Other pull requests
-
-- Add ios legacy wrapper [\#683](https://github.com/hyperledger/aries-vcx/pull/683) ([Patrik-Stas](https://github.com/Patrik-Stas))
-- Release 0.49.0 [\#682](https://github.com/hyperledger/aries-vcx/pull/682) ([Patrik-Stas](https://github.com/Patrik-Stas))
 
 ## [0.48.0](https://github.com/hyperledger/aries-vcx/tree/0.48.0) (2022-12-02)
 
@@ -434,11 +368,11 @@ permalink: /releases/hyperledger/aries-vcx
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/aries-vcx/releases/tag/0.55.0" class=".btn">
+    <a href="https://github.com/hyperledger/aries-vcx/releases/tag/0.56.0" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-04-27 04:59:34 +0000 UTC
+        Created At 2023-05-23 12:08:39 +0000 UTC
     </span>
 </div>
 
