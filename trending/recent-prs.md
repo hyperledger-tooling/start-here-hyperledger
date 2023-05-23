@@ -1,13 +1,13 @@
 
-[2433](https://github.com/hyperledger/cacti/pull/2433) build(deps): bump requests from 2.26.0 to 2.31.0 in /packages-python/cactus_validator_socketio_indy
+[860](https://github.com/hyperledger/aries-vcx/pull/860) Remove vcx_schema_prepare_for_endorser
 
-[2432](https://github.com/hyperledger/cacti/pull/2432) build(deps): bump requests from 2.26.0 to 2.31.0 in /packages-python/cactus_validator_socketio_indy/validator-python
+[4232](https://github.com/hyperledger/fabric/pull/4232) WIP: BFT: orderer can deliver header+sigs
 
-[359](https://github.com/hyperledger/fabric-ca/pull/359) Update operations_guide.rst
+[31](https://github.com/hyperledger/bevel-samples/pull/31) [substrate] Updated versions for application
 
-[84](https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/84) Bump requests from 2.25.1 to 2.31.0 in /org-repo-info
+[405](https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/405) Fixed Corda Driver Image Building Failure
 
-[83](https://github.com/hyperledger-labs/hyperledger-community-management-tools/pull/83) Bump requests from 2.25.1 to 2.31.0 in /list-old-repos
+[8](https://github.com/hyperledger-labs/fabric-ansible-collection/pull/8) Fixed naming of the collection following change in the galaxy.yml file
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

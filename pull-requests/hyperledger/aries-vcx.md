@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/860" class=".btn">#860</a>
+            </td>
+            <td>
+                <b>
+                    Remove vcx_schema_prepare_for_endorser
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">refactoring</span>
+            </td>
+            <td>
+                Removes:
+* `sign_and_submit_request` from `BaseLedger`
+* `build_schema_request` from `BaseLedger`
+* `vcx_schema_prepare_for_endorser` from `api_c`
+* `test_vcx_endorse_schema` test
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-23 12:06:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/859" class=".btn">#859</a>
             </td>
             <td>
@@ -131,7 +161,9 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                TODO
+                This PR completes the credx anoncreds implementation by adding proper handling for issuer operations. For tests, the `mixed_breed` feature flag was added (with teary eyes, since we want to get rid of them not add more) so that a new profile can be constructed.
+
+The mixed breed profile uses the credx anoncreds impl and the indy ledger and wallet impls.
             </td>
         </tr>
     </table>
@@ -219,36 +251,6 @@ This crate is further integrated into `IndyVdrLedger` implementation to replace 
     </table>
     <div class="right-align">
         Created At 2023-05-17 10:07:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/850" class=".btn">#850</a>
-            </td>
-            <td>
-                <b>
-                    Rename crates: did_doc_builder->did_doc; rename diddoc->diddoc_legacy
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Preliminary renaming ahead of https://github.com/hyperledger/aries-vcx/issues/849
-
-Rationale
-- `did_doc` seem more suitable named than `did_doc_builder`, as building is 1 part of the crate, but most importantly the crate contains data model for ddo
-- you might want to use diddoc without necessary using builder portion of the crate
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-16 11:12:18 +0000 UTC
     </div>
 </div>
 
