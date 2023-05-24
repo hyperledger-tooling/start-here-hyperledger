@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/406" class=".btn">#406</a>
+            </td>
+            <td>
+                <b>
+                    fix(weavercc): build with musl-gcc
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fix dockerfile to build go binary using musl-gcc as that is compatible with Alpine image at runtime.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-24 06:43:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/405" class=".btn">#405</a>
             </td>
             <td>

@@ -1,13 +1,13 @@
 
-[861](https://github.com/hyperledger/aries-vcx/pull/861) Split BaseLedger trait
+[4234](https://github.com/hyperledger/fabric/pull/4234) Improved sentences
 
-[1316](https://github.com/hyperledger/firefly/pull/1316) Derive batch signing key from messages in the batch
+[862](https://github.com/hyperledger/aries-vcx/pull/862) Split IndyVdrLedger and IndySdkLedger
 
-[125](https://github.com/hyperledger/firefly-tokens-erc1155/pull/125) Add /deactivatepool API for deleting listeners
+[1468](https://github.com/hyperledger/aries-framework-javascript/pull/1468) feat(w3cCredentials)!: add jwt vc support
 
-[687](https://github.com/hyperledger/aries-agent-test-harness/pull/687) Changes by create-pull-request action
+[1467](https://github.com/hyperledger/aries-framework-javascript/pull/1467) feat: openid4vci draft 11 support
 
-[136](https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/136) Add /deactivatepool API for deleting listeners
+[82](https://github.com/hyperledger/firefly-transaction-manager/pull/82) Add GasEstimate FFCAPI call
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
