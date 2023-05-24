@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-builder-images
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-builder-images/pull/7" class=".btn">#7</a>
+            </td>
+            <td>
+                <b>
+                    build: downgrade rust to 1.64.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-24 16:53:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-builder-images/pull/6" class=".btn">#6</a>
             </td>
             <td>

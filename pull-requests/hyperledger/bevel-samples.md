@@ -36,29 +36,3 @@ permalink: /pull-requests/hyperledger/bevel-samples
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel-samples/pull/30" class=".btn">#30</a>
-            </td>
-            <td>
-                <b>
-                    fix DSCP chainwatcher cronjob
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-17 13:54:47 +0000 UTC
-    </div>
-</div>
-

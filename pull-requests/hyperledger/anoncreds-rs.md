@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/213" class=".btn">#213</a>
+            </td>
+            <td>
+                <b>
+                    build(android): use custom cross images
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Using custom images for building with lower Android support
+- If this fully works the same will be done with https://github.com/hyperledger/aries-askar and https://github.com/hyperledger/indy-vdr
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-24 17:09:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/212" class=".btn">#212</a>
             </td>
             <td>
@@ -171,59 +199,6 @@ partially `resolves` #203
     </table>
     <div class="right-align">
         Created At 2023-05-17 19:56:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/206" class=".btn">#206</a>
-            </td>
-            <td>
-                <b>
-                    build(python): add library
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-17 18:07:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/205" class=".btn">#205</a>
-            </td>
-            <td>
-                <b>
-                    Publish to PyPi
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-17 14:36:18 +0000 UTC
     </div>
 </div>
 
