@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2436" class=".btn">#2436</a>
+            </td>
+            <td>
+                <b>
+                    style: 2021-09-20 linter warnings batch 8 / 26 #1357
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                submitting fixes for issue #1357  minus the linter warning ID 79 and 80 as they have been already solved in batch 9 #1478.
+created this new PR as the old one was getting a bit cluttered, sorry for the inconvineance.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-23 22:28:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2434" class=".btn">#2434</a>
             </td>
             <td>
