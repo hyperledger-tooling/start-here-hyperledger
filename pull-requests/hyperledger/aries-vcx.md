@@ -14,6 +14,36 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/862" class=".btn">#862</a>
+            </td>
+            <td>
+                <b>
+                    Split IndyVdrLedger and IndySdkLedger
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">refactoring</span>
+            </td>
+            <td>
+                Splits 
+* `IndyVdrLedger` -> `IndyVdrLedgerRead` & `IndyVdrLedgerWrite`, and
+* `IndySdkLedger` -> `IndySdkLedgerRead` & `IndySdkLedgerWrite`
+
+This allows each implementation to use only what it needs (e.g. `IndyVdrLedgerRead` variant doesn't need `RequestSigner`, `IndyVdrLedgerWrite` doesn't need `ResponseCacher` and `ResponseParser`). Moreover, since both are initialized separately, a `IndyLedgerRead` implementation can be used to initialize a `IndyLedgerWrite` implementation.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-24 10:55:30 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/861" class=".btn">#861</a>
             </td>
             <td>
@@ -258,36 +288,6 @@ The mixed breed profile uses the credx anoncreds impl and the indy ledger and wa
     </table>
     <div class="right-align">
         Created At 2023-05-18 06:55:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/851" class=".btn">#851</a>
-            </td>
-            <td>
-                <b>
-                    Ledger response parser
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Extracts ledger response parsing capability into the `indy-ledger-response-parser` crate which
-* returns types from `indy-data-types` (reexported by `indy-vdr`) and
-* defines its own types (taken from `libvdrtools`) for ledger responses.
-
-This crate is further integrated into `IndyVdrLedger` implementation to replace the current provisional constructions.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-17 10:07:34 +0000 UTC
     </div>
 </div>
 

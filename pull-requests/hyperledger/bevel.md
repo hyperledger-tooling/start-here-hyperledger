@@ -89,29 +89,3 @@ Issue:
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2247" class=".btn">#2247</a>
-            </td>
-            <td>
-                <b>
-                    [chore] fix flux role
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-17 10:50:34 +0000 UTC
-    </div>
-</div>
-

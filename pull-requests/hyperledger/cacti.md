@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2437" class=".btn">#2437</a>
+            </td>
+            <td>
+                <b>
+                    fix(security): vulnerabilities found in corda-4-8-all-in-one Fixes #2064 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-24 06:55:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2436" class=".btn">#2436</a>
             </td>
             <td>

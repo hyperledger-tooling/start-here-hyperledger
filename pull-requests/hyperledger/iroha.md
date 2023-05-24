@@ -674,7 +674,7 @@ More idiomatic and self-descriptive usage.
             </td>
             <td>
                 <b>
-                    [refactor]: Standardize transaction API
+                    [feature] #3525: Standardize transaction API
                 </b>
             </td>
         </tr>
@@ -690,12 +690,14 @@ Rules:
 These structs exist only for serialization. If you write this type explicitly, this is a smell and user facing API should be updated.
 * Never refer to `V1` in any crate except `data_model` or in tests in other crates. 
 Ideally, any versioned struct(I mean `SignedTransaction` should be private, not `VersionedSignedTransaction`) should not be accessible from outside code. This isn't possible atm because of some tests. We want the code in `core`/`client` to be version agnostic
+* there should be only one tranasction/block type in the `data_model` and it should be the 1st in the lifecycle
+except for the first, all other state transitions are internal and must not be exposed through `data_model`. This also means that `VersionedCommittedBlock` should be replaced with `VersionedSignedBlock`. This will be addressed in the next PR
 
 ### Linked issue
 
 <!-- Duplicate the main issue and add additional issues closed by this PR. -->
 
-Closes #{issue_number} <!-- Replace with an actual number,  -->
+Closes #3525
 
 <!-- Link if e.g. JIRA issue or  from another repository -->
 
