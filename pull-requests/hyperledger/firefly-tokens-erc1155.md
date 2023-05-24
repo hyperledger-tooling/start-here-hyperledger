@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-tokens-erc1155
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/125" class=".btn">#125</a>
+            </td>
+            <td>
+                <b>
+                    Add /deactivatepool API for deleting listeners
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-24 03:14:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-tokens-erc1155/pull/124" class=".btn">#124</a>
             </td>
             <td>

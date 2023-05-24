@@ -355,35 +355,3 @@ at DEBUG level every time a better block is found logs more info about the block
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5467" class=".btn">#5467</a>
-            </td>
-            <td>
-                <b>
-                    JsonRpcHttpService - Add BodyHandler limit size 
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">doc-change-required</span><span class="chip">TeamRevenant</span><span class="chip">mainnet</span><span class="chip">RPC</span>
-            </td>
-            <td>
-                ## PR description
-Body Size Limit for BodyHandler in Vert.x Route: A limit on body size for the BodyHandler is introduced to prevent memory overuse and improve application robustness. (Set to 5MB)
-
-`--rpc-http-max-request-content-length ` overrides the limit. 
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-17 02:10:01 +0000 UTC
-    </div>
-</div>
-
