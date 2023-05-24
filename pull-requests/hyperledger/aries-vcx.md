@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/861" class=".btn">#861</a>
+            </td>
+            <td>
+                <b>
+                    Split BaseLedger trait
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">refactoring</span>
+            </td>
+            <td>
+                Splits `BaseLedger` trait into smaller ones:
+* `AnoncredsLedgerRead` - methods for resolving Anoncreds primitives
+* `AnoncredsLedgerWrite` - methods for registering Anoncreds primitives
+* `IndyLedgerRead` - methods for reading Indy-specific transactions from the ledger
+* `IndyLedgerWrite` - methods for writing Indy-specific transactions to the Ledger
+
+Among other things, this allows eventual elimination of TAA stored in global state by building the "reader" which allows to obtain the TAA from ledger and use said TAA to construct a "writer" which needs TAA to write to the ledger.
+
+The associated methods `set_endorser` and `endorse_transaction` may stand out:
+* The method `set_endorser`, temporarily associated with `IndyLedgerRead`, does not read from the ledger, but merely modifies a transaction.
+* The method `endorse_transaction`, temporarily associated with `IndyLedgerWrite`, again only manipulates an existing transaction (adds a multisignature) before submitting.
+The pattern with the remaining methods is that a ledger-specific request is built from scratch using the supplied data and submitted to the ledger. Perhaps therefore, local modification of existing requests should not be the responsibility of mentioned traits.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-24 05:19:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/860" class=".btn">#860</a>
             </td>
             <td>
