@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4235" class=".btn">#4235</a>
+            </td>
+            <td>
+                <b>
+                    Method AppRootCAsByChain() not thread safe
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Bug fix
+
+#### Description
+
+As described in issue #4233 
+
+#### Related issues
+
+issue: #4233 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-24 14:03:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4234" class=".btn">#4234</a>
             </td>
             <td>

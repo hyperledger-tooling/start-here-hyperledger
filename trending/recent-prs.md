@@ -1,13 +1,13 @@
 
-[4234](https://github.com/hyperledger/fabric/pull/4234) Improved sentences
+[213](https://github.com/hyperledger/anoncreds-rs/pull/213) build(android): use custom cross images
 
-[862](https://github.com/hyperledger/aries-vcx/pull/862) Split IndyVdrLedger and IndySdkLedger
+[7](https://github.com/hyperledger/aries-builder-images/pull/7) build: downgrade rust to 1.64.0
 
-[1468](https://github.com/hyperledger/aries-framework-javascript/pull/1468) feat(w3cCredentials)!: add jwt vc support
+[2240](https://github.com/hyperledger/aries-cloudagent-python/pull/2240) fix: only cache completed connection targets
 
-[1467](https://github.com/hyperledger/aries-framework-javascript/pull/1467) feat: openid4vci draft 11 support
+[1318](https://github.com/hyperledger/firefly/pull/1318) First draft of changes for unset handler
 
-[82](https://github.com/hyperledger/firefly-transaction-manager/pull/82) Add GasEstimate FFCAPI call
+[236](https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/236) Rename TSC to TOC
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

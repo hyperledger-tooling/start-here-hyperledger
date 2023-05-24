@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/233" class=".btn">#233</a>
+                PR <a href="https://github.com/hyperledger-labs/hyperledger-labs.github.io/pull/236" class=".btn">#236</a>
             </td>
             <td>
                 <b>
-                    Fabric-EVM-Lab
+                    Rename TSC to TOC
                 </b>
             </td>
         </tr>
@@ -27,15 +27,12 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                Fabric-EVM-Library is a complete virtual Blockchain node and Smart Contract execution engine. Fabric-EVM-Library is a distributed product that executes Smart Contracts and application code. Fabric-EVM-Library runs Ethereum Virtual Machine (EVM) and Web Assembly (WASM) Smart Contracts. The Fabric-EVM-Library will bring the option of the EVM to the Hyperledger Fabric developer and user community.
-
-
-
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-15 15:44:42 +0000 UTC
+        Created At 2023-05-24 15:09:30 +0000 UTC
     </div>
 </div>
 

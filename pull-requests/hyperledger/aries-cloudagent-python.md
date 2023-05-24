@@ -14,6 +14,104 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2240" class=".btn">#2240</a>
+            </td>
+            <td>
+                <b>
+                    fix: only cache completed connection targets
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adjusts the caching behavior for connection targets to solve some issues seen in multi-replica setups under certain circumstances.
+
+### The Problem
+
+Given the following conditions,
+- ACA-Py is connecting to a remote agent through the remote agent's Public DID
+- ACA-Py is using more than one replica with loadbalancing such that one replica may start a DID Exchange/Connection and another may finish the exchange.
+- Following connection, ACA-Py attempts to issue a credential to the remote agent (or theoretically any other message where the protocol requires a connection)
+
+If the agent that initiates the credential issuance is not the same agent that completed the DID exchange, the agent will have a connection target cached that still contains the public DID and public routing info of the remote agent, causing the remote agent (if it's also running ACA-Py) to get errors like the following:
+
+```
+2023-05-23 18:18:55,358 aries_cloudagent.core.conductor ERROR Exception in message handler:
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/asyncio/tasks.py", line 256, in __step
+    result = coro.send(None)
+  File "/usr/lib/python3.9/site-packages/aries_cloudagent/core/dispatcher.py", line 264, in handle_message
+    await handler(context, responder)
+  File "/usr/lib/python3.9/site-packages/aries_cloudagent/protocols/issue_credential/v2_0/handlers/cred_offer_handler.py", line 51, in handle
+    raise HandlerException(
+aries_cloudagent.messaging.base_handler.HandlerException: No connection or associated connectionless exchange found for credential offer
+```
+
+This is because it received a message encrypted for it's public DID and key, which does not have a connection associated with it.
+
+Consider the following diagram. In this diagram, `alice0` and `alice1` represent two replicas of ACA-Py working collectively to represent an Alice agent. `bob` represents the remote agent.
+
+![offer-cred-cache-conn-failure](https://github.com/hyperledger/aries-cloudagent-python/assets/22032832/a9c36980-04ed-4704-9b35-2c49cd20b15c)
+
+If the loadbalancing of the replicas happens to cause the above handling of messages by the different replicas, we see the error pasted above on `bob`.
+
+This can also happen with a slightly different sequence of messages, as shown in this diagram:
+
+![issue-cred-cache-conn-failure](https://github.com/hyperledger/aries-cloudagent-python/assets/22032832/5ed1b63e-2273-4484-b706-2da01954e9ea)
+
+In this case, this results in the following error on `bob`:
+
+```
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/asyncio/tasks.py", line 256, in __step
+    result = coro.send(None)
+  File "/usr/lib/python3.9/site-packages/aries_cloudagent/core/dispatcher.py", line 264, in handle_message
+    await handler(context, responder)
+  File "/usr/lib/python3.9/site-packages/aries_cloudagent/protocols/issue_credential/v2_0/handlers/cred_issue_handler.py", line 49, in handle
+    raise HandlerException(
+aries_cloudagent.messaging.base_handler.HandlerException: No connection or associated connectionless exchange found for credential
+```
+
+### The Solution
+
+The solution implemented by this PR is to only cache connection targets on completion of a DID Exchange or connection; or, in other words, only cache connection targets for connections that have reached a `completed` state. Given that the connection target is intentionally changed in the process of these protocols (you could even say that's kind of the whole point of the protocol), I believe there is little benefit to caching the initial connection target anyways. This notion is supported by these lines:
+
+https://github.com/hyperledger/aries-cloudagent-python/blob/main/aries_cloudagent/connections/models/conn_record.py#L503-L513
+
+```
+    async def post_save(self, session: ProfileSession, *args, **kwargs):
+        """Perform post-save actions.
+
+        Args:
+            session: The active profile session
+        """
+        await super().post_save(session, *args, **kwargs)
+
+        # clear cache key set by connection manager
+        cache_key = f"connection_target::{self.connection_id}"
+        await self.clear_cached_key(session, cache_key)
+```
+
+After every save on the connection record (which will occur at basically every step of the did exchange or connection protocols), we're clearing the cache of the target.
+
+Given that the cache is being cleared, causing the connection target info to be recalled from the wallet record, I believe the changes made in this PR should not impact performance, though I have not tested this.
+
+I get the feeling this change could improve other scenarios we've seen previously that motivated the creation of the redis cache plugin but I have not tested these other scenarios.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-24 16:29:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2239" class=".btn">#2239</a>
             </td>
             <td>
@@ -188,38 +286,6 @@ This is a restore for https://github.com/hyperledger/aries-cloudagent-python/pul
     </table>
     <div class="right-align">
         Created At 2023-05-18 17:41:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2235" class=".btn">#2235</a>
-            </td>
-            <td>
-                <b>
-                    refactor: Extract verification method ID generation to a separate class
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Currently, the strategy to generate the verification key IDs only supports an arbitrary set of DID methods, and the IDs are derived from hardcoded strings, which can be too restrictive for some use cases.
-
-For example, if one adds DID methods (such as did:web) using third-party plugins, the current method will always raise an error. Also, one might want to have more advanced ways of deriving the verification key ID, for example when multiple verification methods are used for a given DID and are rotated regularly.
-
-This PR allows for more flexibility by extracting the verification key ID generation to a separate class so that plugins can switch implementations depending on the needs using injection. For example, for the key rotation use-case cited above, the implementation could be switched to one that dynamically returns the correct verkey ID, even if different did methods are used. I believe this solution avoids breaking changes, and keeping the current strategy as the default one allows keeping backward compatibility.
-
-Let me know if you have any comments/suggestions.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-17 15:42:15 +0000 UTC
     </div>
 </div>
 

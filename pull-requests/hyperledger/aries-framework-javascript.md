@@ -179,34 +179,3 @@ Everything passes now (with my local build of the OIDC4VC library) so we just ha
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1459" class=".btn">#1459</a>
-            </td>
-            <td>
-                <b>
-                    test: tests for DidComm V2 message packing
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Added tests for DidComm V2 message packing
-- Fixed issue to pass test vectors from the spec:  https://identity.foundation/didcomm-messaging/spec/#appendix
-
-**Issue with the current implementation**: we need to use DID Resolver to unpack messages properly:
-- resolve sender key from `skid`
-- resolve recipient key from `kid`
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-17 12:42:49 +0000 UTC
-    </div>
-</div>
-

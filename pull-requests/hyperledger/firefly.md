@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1318" class=".btn">#1318</a>
+            </td>
+            <td>
+                <b>
+                    First draft of changes for unset handler
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                There is probably more work to be done here, but this is what I started on to fix the bug https://github.com/hyperledger/firefly/issues/1317
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-24 15:31:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1316" class=".btn">#1316</a>
             </td>
             <td>

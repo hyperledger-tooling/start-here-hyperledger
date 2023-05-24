@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/863" class=".btn">#863</a>
+            </td>
+            <td>
+                <b>
+                    Remove reliance of IndyVdrLedger on global state
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">refactoring</span>
+            </td>
+            <td>
+                Makes `ProtocolVersion` and `TxnAuthrAgrmtAcceptanceData` injectable to `IndyVdrLedgerRead` and `IndyVdrLedgerWrite` on construction, thus removing their reliance on global `settings`. Also:
+* adds TAA ledger response parsing, and
+* `get_txn_author_agreement` now returns `VcxCoreResult<Option<String>>` instead of `VcxCoreResult<String>` - however all getter methods should follow the same pattern.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-24 13:48:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/862" class=".btn">#862</a>
             </td>
             <td>
