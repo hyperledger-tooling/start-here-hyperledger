@@ -1,13 +1,13 @@
 
-[v1.2.13](https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.2.13) v1.2.13
+[v0.1.0-dev.18](https://github.com/hyperledger/anoncreds-rs/releases/tag/v0.1.0-dev.18) v0.1.0-dev.18
 
-[v1.2.4](https://github.com/hyperledger/firefly-tokens-erc1155/releases/tag/v1.2.4) v1.2.4
+[weaver/core/network/fabric-interop-cc/libs/utils/v2.0.0-alpha.1](https://github.com/hyperledger/cacti/releases/tag/weaver/core/network/fabric-interop-cc/libs/utils/v2.0.0-alpha.1) v2.0.0-alpha.1 - GO Fabric Utils Library for Interoperation - May 25, 2023
 
-[v1.2.5](https://github.com/hyperledger/firefly-tokens-erc20-erc721/releases/tag/v1.2.5) v1.2.5
+[weaver/core/network/fabric-interop-cc/libs/assetexchange/v2.0.0-alpha.1](https://github.com/hyperledger/cacti/releases/tag/weaver/core/network/fabric-interop-cc/libs/assetexchange/v2.0.0-alpha.1) v2.0.0-alpha.1 - GO Fabric Library for Asset Exchange - May 25, 2023
 
-[core/network/fabric-interop-cc/contracts/interop/v1.5.15](https://github.com/hyperledger-labs/weaver-dlt-interoperability/releases/tag/core/network/fabric-interop-cc/contracts/interop/v1.5.15) v1.5.15 - GO Fabric Interop Chaincode - May 24, 2023
+[weaver/core/network/fabric-interop-cc/interfaces/asset-mgmt/v2.0.0-alpha.1](https://github.com/hyperledger/cacti/releases/tag/weaver/core/network/fabric-interop-cc/interfaces/asset-mgmt/v2.0.0-alpha.1) v2.0.0-alpha.1 - GO Fabric Asset Management Interface - May 25, 2023
 
-[0.56.0](https://github.com/hyperledger/aries-vcx/releases/tag/0.56.0) Release 0.56.0
+[weaver/core/network/fabric-interop-cc/contracts/interop/v2.0.0-alpha.1](https://github.com/hyperledger/cacti/releases/tag/weaver/core/network/fabric-interop-cc/contracts/interop/v2.0.0-alpha.1) v2.0.0-alpha.1 - GO Fabric Interop Chaincode - May 25, 2023
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
