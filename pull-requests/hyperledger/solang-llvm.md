@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang-llvm
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang-llvm/pull/20" class=".btn">#20</a>
+                PR <a href="https://github.com/hyperledger/solang-llvm/pull/21" class=".btn">#21</a>
             </td>
             <td>
                 <b>
-                    Use newer SBF target rather than BPF
+                    Bump rust, ubuntu and solana
                 </b>
             </td>
         </tr>
@@ -27,14 +27,12 @@ permalink: /pull-requests/hyperledger/solang-llvm
                 
             </td>
             <td>
-                Solana's LLVM fork has a new SBF target which should be used rather than the BPF target.
-
-Note that this creates a new ci image called `ci-2`, so that we can switch to the newer version of the CI image in a solang PR. This means there is should be no breakage.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-04 12:57:07 +0000 UTC
+        Created At 2023-05-25 11:18:08 +0000 UTC
     </div>
 </div>
 

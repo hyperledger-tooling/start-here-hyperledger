@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1326" class=".btn">#1326</a>
+            </td>
+            <td>
+                <b>
+                    Do not put huge numbers in diagnostics
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Displaying huge number will costs lots of memory, cpu and is of no benefit.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-25 10:43:40 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1325" class=".btn">#1325</a>
             </td>
             <td>
