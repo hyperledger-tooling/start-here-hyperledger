@@ -14,6 +14,85 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1322" class=".btn">#1322</a>
+            </td>
+            <td>
+                <b>
+                    Separate "define" and "publish" for contract APIs, and allow deleting unpublished APIs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">migration_consideration</span>
+            </td>
+            <td>
+                Part of the fix for https://github.com/hyperledger/firefly/issues/1220
+In a chain with https://github.com/hyperledger/firefly/pull/1279 and #1321
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-25 15:12:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1321" class=".btn">#1321</a>
+            </td>
+            <td>
+                <b>
+                    Clean up remaining definition tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In a chain with #1279
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-25 15:11:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1320" class=".btn">#1320</a>
+            </td>
+            <td>
+                <b>
+                    chore(docs): fix discord link
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-25 13:28:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1318" class=".btn">#1318</a>
             </td>
             <td>

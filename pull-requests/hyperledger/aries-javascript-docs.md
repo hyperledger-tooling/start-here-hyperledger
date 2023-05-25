@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/123" class=".btn">#123</a>
+            </td>
+            <td>
+                <b>
+                    Update index.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                HttpOutboundTransport and HttpInboundTransport  missing in full code Snippet
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-25 17:26:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/122" class=".btn">#122</a>
             </td>
             <td>

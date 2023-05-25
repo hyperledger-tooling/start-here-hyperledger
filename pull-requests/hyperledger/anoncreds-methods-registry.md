@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-methods-registry
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-methods-registry/pull/19" class=".btn">#19</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-methods-registry/pull/21" class=".btn">#21</a>
             </td>
             <td>
                 <b>
-                    chore(ci): update github actions
+                    chore(docs): fix discord link
                 </b>
             </td>
         </tr>
@@ -27,12 +27,38 @@ permalink: /pull-requests/hyperledger/anoncreds-methods-registry
                 
             </td>
             <td>
-                Signed-off-by: Ry Jones <ry@linux.com>
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-06 16:59:06 +0000 UTC
+        Created At 2023-05-25 13:32:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/anoncreds-methods-registry/pull/20" class=".btn">#20</a>
+            </td>
+            <td>
+                <b>
+                    Add did:web method entry
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Adding an entry for the did:web AnonCreds Method, based on the development being done by 2060.io and Digital Identity Lab of Canada.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-25 13:01:48 +0000 UTC
     </div>
 </div>
 

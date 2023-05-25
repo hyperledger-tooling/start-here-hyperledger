@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1327" class=".btn">#1327</a>
+            </td>
+            <td>
+                <b>
+                    chore(docs): fix discord link
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-25 13:24:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1326" class=".btn">#1326</a>
             </td>
             <td>
@@ -279,42 +305,6 @@ This is because with `ResolveTo::Unknown` the integers default to the smallest s
     </table>
     <div class="right-align">
         Created At 2023-05-19 02:29:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1315" class=".btn">#1315</a>
-            </td>
-            <td>
-                <b>
-                    Virtual functions are available for calls
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Virtual functions may not have a body, but they should still be callable.
-
-Without this fix, the added testcase fails with this error which is wrong:
-
-```
-error: unknown function or type '_virtual'
-  ┌─ /home/glow/code/solang/tests/contract_testcases/substrate/functions/virtual.sol:3:9
-  │
-3 │         _virtual();
-  │         ^^^^^^^^
-```
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-18 17:23:58 +0000 UTC
     </div>
 </div>
 

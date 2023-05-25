@@ -38,29 +38,3 @@ Most of the logic already existed for internal use in `TransactionPrepare` so th
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/83" class=".btn">#83</a>
-            </td>
-            <td>
-                <b>
-                    Update, common, FFTM, signer dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-22 19:47:55 +0000 UTC
-    </div>
-</div>
-
