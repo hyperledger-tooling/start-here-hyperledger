@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/121" class=".btn">#121</a>
+                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/122" class=".btn">#122</a>
             </td>
             <td>
                 <b>
-                    fixed a typo in mediator recipient setup
+                    chore: add version to install scripts
                 </b>
             </td>
         </tr>
@@ -27,16 +27,12 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
                 
             </td>
             <td>
-                
-I have mentioned the issue here. 
-https://github.com/hyperledger/aries-javascript-docs/issues/120
-
-Please let me know if I have to do something else or undo something for this pull request to be accepted. Thank you in advance. 
+                Adds versions to install scripts so we don't have inconsistent installs. Before we release 0.4.0 we can update all `@alpha` tags to `@^0.4.0`
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-14 17:33:48 +0000 UTC
+        Created At 2023-05-24 20:19:16 +0000 UTC
     </div>
 </div>
 

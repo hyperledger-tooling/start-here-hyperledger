@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1469" class=".btn">#1469</a>
+            </td>
+            <td>
+                <b>
+                    chore: add shared package as peer dependency
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                this should hopefully help a bit with the version mismatches we've encountered with the shared comonents. By making it a peer dep it will be installed by the nodejs / react-native package and thus always be in sync
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-24 20:38:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1468" class=".btn">#1468</a>
             </td>
             <td>

@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/firefly
             </td>
             <td>
                 <b>
-                    First draft of changes for unset handler
+                    Unset handlers when namespaces are deleted (but not when they are just reloaded)
                 </b>
             </td>
         </tr>
@@ -27,7 +27,18 @@ permalink: /pull-requests/hyperledger/firefly
                 
             </td>
             <td>
-                There is probably more work to be done here, but this is what I started on to fix the bug https://github.com/hyperledger/firefly/issues/1317
+                Proposed fix for https://github.com/hyperledger/firefly/issues/1317
+
+There is a scenario this fix still *does not cover*:
+- Load Namespace with plugin-set - including Tokens connector
+- Reload Namespace, to use different set of plugins - removing the tokens connector
+
+Now we've got the tokens connector with a handler, that's no longer required, and is pointing to a defunct `Orchestrator`.
+If the token connector gets an event, it's not going to be able to dispatch it.
+
+I assert this is a case we can fix either:
+1. In a follow-on fix
+2. When we move event listeners to be per-namespace
             </td>
         </tr>
     </table>

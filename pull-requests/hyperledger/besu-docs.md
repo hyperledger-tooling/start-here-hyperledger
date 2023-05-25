@@ -14,6 +14,63 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1334" class=".btn">#1334</a>
+            </td>
+            <td>
+                <b>
+                    Update for OpenJ9 instructions.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### Description
+Update to add instructions RE openJ9 images. 
+
+### Before creating the pull request
+
+Make sure that:
+
+- [X] [All commits in this PR are signed off for the DCO](https://wiki.hyperledger.org/display/BESU/DCO).
+- [X] You've read the [contribution guidelines](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [X] You've [previewed your changes locally](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation).
+
+## Describe the change
+
+Adding details for users should they choose to use OpenJ9 Java images. 
+
+## Impacted parts
+
+<!-- Check the item from the following lists that your PR impacts. You can check multiple boxes. -->
+
+For content changes:
+
+- [X] Documentation content
+- [ ] Documentation page organization
+
+
+
+Make sure that:
+
+- [ ] You've fixed any issues raised by the tests.
+- [ ] You've [previewed your changes on Read the Docs](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation)
+  and added a [preview link](#preview).
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-24 18:38:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1333" class=".btn">#1333</a>
             </td>
             <td>

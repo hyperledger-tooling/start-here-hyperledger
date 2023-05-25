@@ -164,7 +164,7 @@ Topology work correctly + new tests.
 - [x] I've used the standard signed-off commit format (or will squash just before merging)
 - [x] All applicable CI checks pass (or I promised to make them pass later)
 - [x] (optional) I've written unit tests for the code changes
-- [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
+- [x] I replied to all comments after code review, marking all implemented changes with thumbs up
 
 <!-- HINT:  Add more points to checklist for large draft PRs-->
 
@@ -233,7 +233,7 @@ Hopefully [`Coveralls` coverage tool](https://coveralls.io/repos) with help to s
             </td>
             <td>
                 <b>
-                    [refactor]: Rewrite macros for generating configuration
+                    [refactor] #3501: Rewrite macros for generating configuration
                 </b>
             </td>
         </tr>
@@ -252,7 +252,7 @@ Hopefully [`Coveralls` coverage tool](https://coveralls.io/repos) with help to s
 
 <!-- Duplicate the main issue and add additional issues closed by this PR. -->
 
-Closes #{issue_number} <!-- Replace with an actual number,  -->
+Closes #3501 
 
 <!-- Link if e.g. JIRA issue or  from another repository -->
 
@@ -262,9 +262,9 @@ Closes #{issue_number} <!-- Replace with an actual number,  -->
 
 ### Checklist
 
-- [ ] I've read `CONTRIBUTING.md`
-- [ ] I've used the standard signed-off commit format (or will squash just before merging)
-- [ ] All applicable CI checks pass (or I promised to make them pass later)
+- [x] I've read `CONTRIBUTING.md`
+- [x] I've used the standard signed-off commit format (or will squash just before merging)
+- [x] All applicable CI checks pass (or I promised to make them pass later)
 - [ ] (optional) I've written unit tests for the code changes
 - [ ] I replied to all comments after code review, marking all implemented changes with thumbs up
 
