@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/145" class=".btn">#145</a>
+            </td>
+            <td>
+                <b>
+                    chore: update version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: blu3beri <blu3beri@proton.me>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-25 17:08:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-askar/pull/144" class=".btn">#144</a>
             </td>
             <td>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/144" class=".btn">#144</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-spec/pull/146" class=".btn">#146</a>
             </td>
             <td>
                 <b>
-                    spec update adding link secret proof
+                    chore(docs): fix discord link
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/anoncreds-spec
                 
             </td>
             <td>
-                I add The Blinded Link Secret Correctness Proof, and I changed some notation. Also, I add the verifying the  Blinded Link Secret Correctness Proof under Verifying the Credential Request.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-09 11:49:51 +0000 UTC
+        Created At 2023-05-25 13:30:01 +0000 UTC
     </div>
 </div>
 

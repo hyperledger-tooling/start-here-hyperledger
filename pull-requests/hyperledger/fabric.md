@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4236" class=".btn">#4236</a>
+            </td>
+            <td>
+                <b>
+                    delete unnecessary preallocated
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                There is no need to exceed the memory allocation.
+Because more items can be added than you have allocated.
+It is misleading.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-25 14:32:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4235" class=".btn">#4235</a>
             </td>
             <td>

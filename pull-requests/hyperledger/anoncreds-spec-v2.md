@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/anoncreds-spec-v2
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-spec-v2/pull/3" class=".btn">#3</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-spec-v2/pull/4" class=".btn">#4</a>
             </td>
             <td>
                 <b>
-                    Add GHA to publish spec on merge
+                    chore(docs): fix discord link
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/anoncreds-spec-v2
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-27 16:59:39 +0000 UTC
+        Created At 2023-05-25 13:34:43 +0000 UTC
     </div>
 </div>
 
