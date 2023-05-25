@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/189" class=".btn">#189</a>
+            </td>
+            <td>
+                <b>
+                    build(android): use custom cross images
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                same as: https://github.com/hyperledger/anoncreds-rs/commit/5dacac80751971a90f8920e068f3434fe971d343
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-25 11:30:24 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-vdr/pull/188" class=".btn">#188</a>
             </td>
             <td>

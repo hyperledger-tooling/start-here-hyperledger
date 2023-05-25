@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/144" class=".btn">#144</a>
+            </td>
+            <td>
+                <b>
+                    build(android): use custom cross images
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Same as https://github.com/hyperledger/anoncreds-rs/commit/5dacac80751971a90f8920e068f3434fe971d343
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-25 11:27:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-askar/pull/143" class=".btn">#143</a>
             </td>
             <td>

@@ -14,6 +14,79 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5498" class=".btn">#5498</a>
+            </td>
+            <td>
+                <b>
+                    Stop evaluating txs for sender after the first skipped one
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+This PR is built on top of  #5492 and #5491 so check them first.
+
+This PR introduce a simple optimization to avoid to waste time validating transactions that will not be selected during the current block creation process. 
+Basically if a sender have more than one prioritized candidate transactions, and for some reason any of them is not selected during the block creation process, it make no sense to keep evaluating any more transaction after the skipped one, since it will not be selected due to the nonce gap.
+
+Enabling the selection stats implemented in #5492 is it possible to see the difference before and after this PR, the wasted validation work that we are removing is represented by the `INVALID_TRANSIENT(NONCE_TOO_HIGH)` label.
+
+Before
+```
+Selection stats: Totals[Evaluated=2000, Selected=109, Skipped=1891, Dropped=0]; Detailed[INVALID_TRANSIENT(GAS_PRICE_BELOW_CURRENT_BASE_FEE)=1712, INVALID_TRANSIENT(NONCE_TOO_HIGH)=158, INVALID_TRANSIENT(TX_TOO_LARGE_FOR_REMAINING_GAS)=21, SELECTED=109]
+```
+
+After
+```
+Selection stats: Totals[Evaluated=1743, Selected=126, Skipped=1617, Dropped=0]; Detailed[INVALID_TRANSIENT(GAS_PRICE_BELOW_CURRENT_BASE_FEE)=1600, INVALID_TRANSIENT(TX_TOO_LARGE_FOR_REMAINING_GAS)=17, SELECTED=126]
+```
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-25 09:26:12 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5497" class=".btn">#5497</a>
+            </td>
+            <td>
+                <b>
+                    Remove maybeHead from BackwardSyncContext
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Built on top of https://github.com/hyperledger/besu/pull/5470
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-25 07:31:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5496" class=".btn">#5496</a>
             </td>
             <td>
@@ -169,7 +242,7 @@ These results are also collected so at the end of the selection we can log detai
 
 Stats are logged at debug level, and here it is a sample:
 ```
-Selection stats: Totals[Evaluated=425, Selected=272, Skipped=153, Dropped=0]; Detailed[BLOCK_OCCUPANCY_ABOVE_THRESHOLD (stop=true, discard=false)=1, SELECTED (stop=false, discard=false)=272, INVALID_TRANSIENT (stop=false, discard=false)(GAS_PRICE_BELOW_CURRENT_BASE_FEE)=152]
+Selection stats: Totals[Evaluated=2693, Selected=353, Skipped=2340, Dropped=0]; Detailed[INVALID_TRANSIENT(GAS_PRICE_BELOW_CURRENT_BASE_FEE)=2321, INVALID_TRANSIENT(TX_TOO_LARGE_FOR_REMAINING_GAS)=19, SELECTED=353]
 ```
 
 This helped spotting some optimizations and understand [the effect of `min-block-occupancy-ratio` on PoS networks](https://github.com/hyperledger/besu/pull/5492)
