@@ -14,6 +14,138 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5496" class=".btn">#5496</a>
+            </td>
+            <td>
+                <b>
+                    GraphQL Support for withdrawals
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add support for withdrawals in GraphQL, including needed changes to testing infrastructure for shanghai-era blocks.
+Also align existing adapters with graphql schema optionality.
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-25 01:04:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5495" class=".btn">#5495</a>
+            </td>
+            <td>
+                <b>
+                    NPE in peer discovery disconnect
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+encountered during testing.  Quick fix.
+
+```
+...
+rocketpool_eth1  | 2023-05-24 23:45:06.677+00:00 | Timer-0 | INFO  | DNSResolver | Resolved 2409 nodes
+rocketpool_eth1  | 2023-05-24 23:45:34.417+00:00 | vert.x-eventloop-thread-3 | ERROR | ContextBase | Unhandled exception
+rocketpool_eth1  | java.lang.NullPointerException: Cannot invoke "java.util.Map.remove(java.lang.Object)" because "peerInteractionStateMap" is null
+rocketpool_eth1  |      at org.hyperledger.besu.ethereum.p2p.discovery.internal.PeerDiscoveryController$PeerInteractionState.execute(PeerDiscoveryController.java:802)
+rocketpool_eth1  |      at org.hyperledger.besu.ethereum.p2p.discovery.internal.PeerDiscoveryController$PeerInteractionState.lambda$execute$0(PeerDiscoveryController.java:797)
+rocketpool_eth1  |      at org.hyperledger.besu.ethereum.p2p.discovery.internal.VertxTimerUtil.lambda$setTimer$1(VertxTimerUtil.java:34)
+rocketpool_eth1  |      at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:932)
+rocketpool_eth1  |      at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:903)
+rocketpool_eth1  |      at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:55)
+rocketpool_eth1  |      at io.vertx.core.impl.ContextBase.emit(ContextBase.java:239)
+rocketpool_eth1  |      at io.vertx.core.impl.ContextInternal.emit(ContextInternal.java:194)
+rocketpool_eth1  |      at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:921)
+rocketpool_eth1  |      at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+rocketpool_eth1  |      at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:153)
+rocketpool_eth1  |      at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+rocketpool_eth1  |      at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+rocketpool_eth1  |      at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+rocketpool_eth1  |      at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:406)
+rocketpool_eth1  |      at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+rocketpool_eth1  |      at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+rocketpool_eth1  |      at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+rocketpool_eth1  |      at java.base/java.lang.Thread.run(Thread.java:857)
+```
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-24 23:55:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5493" class=".btn">#5493</a>
+            </td>
+            <td>
+                <b>
+                    Add MCOPY Operation (EIP-5656)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add the MCOPY operation targeting cancun.
+Testing required adding memory to the text fixture.
+
+<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-24 20:28:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5492" class=".btn">#5492</a>
             </td>
             <td>
@@ -335,32 +467,6 @@ The PR is meant to keep backward compatibility and is able to migrate existing v
     </table>
     <div class="right-align">
         Created At 2023-05-18 15:45:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5470" class=".btn">#5470</a>
-            </td>
-            <td>
-                <b>
-                    Add more backwards sync logging to debug nimbus issue
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Using this PR to deploy the code on a test node, may or may not want to merge this logging
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-17 23:31:04 +0000 UTC
     </div>
 </div>
 
