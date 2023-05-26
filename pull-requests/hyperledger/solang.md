@@ -14,6 +14,60 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1332" class=".btn">#1332</a>
+            </td>
+            <td>
+                <b>
+                    Update substrate docker to use cargo contract 3.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-26 09:15:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1331" class=".btn">#1331</a>
+            </td>
+            <td>
+                <b>
+                    Update link to solang-llvm releases in `installing.rst`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Change link to LLVM releases
+
+#1330
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-26 07:25:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1329" class=".btn">#1329</a>
             </td>
             <td>
@@ -305,32 +359,6 @@ This is because with `ResolveTo::Unknown` the integers default to the smallest s
     </table>
     <div class="right-align">
         Created At 2023-05-19 15:10:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1317" class=".btn">#1317</a>
-            </td>
-            <td>
-                <b>
-                    `this` is not a keyword
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                `this` should not be a keyword, and variables can be named `this` although this will hide the usual `this` which gives the current contract.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-19 11:01:08 +0000 UTC
     </div>
 </div>
 

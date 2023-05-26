@@ -492,29 +492,3 @@ Signed-off-by: Peter Somogyvari <peter.somogyvari@accenture.com>
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/cacti/pull/2429" class=".btn">#2429</a>
-            </td>
-            <td>
-                <b>
-                    chore(release): publish v2.0.0-alpha.1
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Another release to test the deployment workflows.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-19 06:50:52 +0000 UTC
-    </div>
-</div>
-

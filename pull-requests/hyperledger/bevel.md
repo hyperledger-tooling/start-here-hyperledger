@@ -14,6 +14,71 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2263" class=".btn">#2263</a>
+            </td>
+            <td>
+                <b>
+                    [besu] improve error handling mechanism for vault api calls
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### **Commit to be reviewed**
+---
+
+feat(besu): improve error handling mechanism for vault api calls
+
+```
+This pull request introduces improvements to the error handling mechanism and enhances troubleshooting capabilities in the bevel-vault.sh script. The changes made include:
+ • Implemented error handling at the individual function level.
+ • Enhanced error message logging for better visibility into failures.
+ • Improved error checking and validation.
+ • Updated paths in respect of the function calls to reflect the latest changes.
+```
+
+fixes #2260
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-26 11:51:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2262" class=".btn">#2262</a>
+            </td>
+            <td>
+                <b>
+                    [substrate] Update chart readme's
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added readme and updated Chart.yaml so that the helm charts can be made available as a repo.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-26 11:47:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2261" class=".btn">#2261</a>
             </td>
             <td>
@@ -61,13 +126,13 @@ permalink: /pull-requests/hyperledger/bevel
 Modifications in roles
 -----------------------
 platforms/hyperledger-besu/configuration/add-validator.yaml
-platforms/hyperledger-besu/configuration/roles/create/genesis/templates/ibftGenesisFile.tpl 
-platforms/hyperledger-besu/configuration/roles/create/validator_node/Readme.md 
-platforms/hyperledger-besu/configuration/roles/create/validator_node/tasks/add_to_vault.yaml 
-platforms/hyperledger-besu/configuration/roles/create/validator_node/tasks/check_vault.yaml 
-platforms/hyperledger-besu/configuration/roles/create/validator_node/tasks/create_enode.yaml 
-platforms/hyperledger-besu/configuration/roles/create/validator_node/tasks/main.yaml 
+platforms/hyperledger-besu/configuration/roles/create/crypto/node/tasks/main.yaml
+platforms/hyperledger-besu/configuration/roles/create/genesis/templates/ibftGenesisFile.tpl
+platforms/hyperledger-besu/configuration/roles/create/validator_node/Readme.md
+platforms/hyperledger-besu/configuration/roles/create/validator_node/tasks/check_vault.yaml
+platforms/hyperledger-besu/configuration/roles/create/validator_node/tasks/main.yaml
 platforms/hyperledger-besu/configuration/roles/create/validator_node/tasks/validator_vote.yaml
+
             </td>
         </tr>
     </table>
