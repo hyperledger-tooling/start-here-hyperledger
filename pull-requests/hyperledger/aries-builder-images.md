@@ -62,37 +62,3 @@ permalink: /pull-requests/hyperledger/aries-builder-images
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-builder-images/pull/5" class=".btn">#5</a>
-            </td>
-            <td>
-                <b>
-                    Create MAINTAINERS.md
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                I'm adding the people listed bellow as the initial maintainers, please let know in the comments if you want to keep your name on the list or not:
-
-- [ ] @andrewwhitehead
-- [x] @blu3beri
-- [x] @cvarjao
-- [ ] @jleach
-- [x] @TimoGlastra
-
-fixes #3 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-19 18:00:39 +0000 UTC
-    </div>
-</div>
-

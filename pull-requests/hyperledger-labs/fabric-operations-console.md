@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/480" class=".btn">#480</a>
+            </td>
+            <td>
+                <b>
+                    fix the oauth login revert logic
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+- fixes the oauth login timer, it will now clear after the first successful login by a manager
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-26 17:16:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/479" class=".btn">#479</a>
+            </td>
+            <td>
+                <b>
+                    Fix input option bug and table bug
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+- fixes dropdown menus not showing the selected value
+- fixes mutli select table errors which were creating a blank page
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-26 17:15:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/478" class=".btn">#478</a>
             </td>
             <td>

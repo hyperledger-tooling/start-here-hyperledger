@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1471" class=".btn">#1471</a>
+            </td>
+            <td>
+                <b>
+                    chore: improve ed25519 context url checks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                We got some errors for a did document that didn't conform, but they weren't very helpful (hiding the actual error).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-26 14:49:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1470" class=".btn">#1470</a>
             </td>
             <td>
