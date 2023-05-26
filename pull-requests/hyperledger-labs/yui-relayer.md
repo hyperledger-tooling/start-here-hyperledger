@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/87" class=".btn">#87</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-relayer/pull/88" class=".btn">#88</a>
             </td>
             <td>
                 <b>
-                    Bump up ibc-go to v7.0.0
+                    Release v0.4.0
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/yui-relayer
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-15 02:45:08 +0000 UTC
+        Created At 2023-05-26 11:22:47 +0000 UTC
     </div>
 </div>
 

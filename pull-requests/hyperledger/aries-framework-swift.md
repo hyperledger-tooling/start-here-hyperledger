@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/50" class=".btn">#50</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-swift/pull/51" class=".btn">#51</a>
             </td>
             <td>
                 <b>
-                    Fix crash when there are multiple attributes to prove
+                    Fix ack message expect response problem
                 </b>
             </td>
         </tr>
@@ -27,14 +27,19 @@ permalink: /pull-requests/hyperledger/aries-framework-swift
                 
             </td>
             <td>
-                fix #44
+                # Checklist
 
-Swift collections are not thread-safe, so we need a lock when updating them.
+- [x] have run AriesFrameworkTests
+- [x] I have run AllTests
+
+# Description
+
+Some agents, such as aca-py, wait for a response from it's handler with holding the inbound transport when the transport decorator is received. So, when client sends ack message with transport decorator with return_route attribute, the result is that client get a connection timeout error.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-18 07:25:28 +0000 UTC
+        Created At 2023-05-26 09:37:03 +0000 UTC
     </div>
 </div>
 

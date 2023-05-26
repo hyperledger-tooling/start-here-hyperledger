@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1470" class=".btn">#1470</a>
+            </td>
+            <td>
+                <b>
+                    feat: Split AFJ demo for two cases: Main and DidCommV2
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Started work on splitting the Alice/Faber demo into smaller cases. Using this we can add demos for various optional modules.
+
+- `Main` - general demo of issuing credentials and presenting the proof
+- `DidComm V2` - demo reflecting supported didcomm v2 protocols
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-26 08:42:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1469" class=".btn">#1469</a>
             </td>
             <td>
@@ -150,58 +181,6 @@ Everything passes now (with my local build of the OIDC4VC library) so we just ha
     </table>
     <div class="right-align">
         Created At 2023-05-24 09:46:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1462" class=".btn">#1462</a>
-            </td>
-            <td>
-                <b>
-                    fix: Registered Connection Problem report message handler
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-19 08:25:39 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1461" class=".btn">#1461</a>
-            </td>
-            <td>
-                <b>
-                    docs: update meeting link and time in  readme
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-19 07:57:55 +0000 UTC
     </div>
 </div>
 
