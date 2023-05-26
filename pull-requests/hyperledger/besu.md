@@ -14,6 +14,125 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5502" class=".btn">#5502</a>
+            </td>
+            <td>
+                <b>
+                    run non-mainnet ATs on PRs, split into 2 sets
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Run all ATs on PRs, but split into 
+* mainnet
+* Clique + BFT
+* Privacy + Permissioning
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-26 00:50:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5501" class=".btn">#5501</a>
+            </td>
+            <td>
+                <b>
+                    Release 23.4.1
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Release 23.4.1
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-26 00:49:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5500" class=".btn">#5500</a>
+            </td>
+            <td>
+                <b>
+                    Specify optional scheme (ws or wss) in Ethstats url option
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span><span class="chip">TeamGroot</span>
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+- Allow scheme (ws:// or wss://) optionally to be specified in ethstats url. If user specify the scheme, the connection logic doesn't need to switch from ssl to non-ssl on each retry logic.
+- Change order of ethstats service start after main ethereum loop is up because ethstats service needs local node address.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+Fixes #5494 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-25 23:36:23 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5499" class=".btn">#5499</a>
+            </td>
+            <td>
+                <b>
+                    Revert "Add plugin API to select Transactions (#5396)"
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This reverts commit 65bcc557e41cca2568588a21441aa5d8658a5e79.
+
+Due to breaking Clique (in the ATs at least)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-25 22:33:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5498" class=".btn">#5498</a>
             </td>
             <td>

@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1329" class=".btn">#1329</a>
+            </td>
+            <td>
+                <b>
+                    Bump lalrpop and other dependencies
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-25 21:27:25 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1328" class=".btn">#1328</a>
+            </td>
+            <td>
+                <b>
+                    Make GetAddress return a pointer to an address
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In the same lines of #1325, loading addresses in codegen instead of emit allows us to leverage pointers to create `AccountMeta` arrays.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-25 20:41:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1327" class=".btn">#1327</a>
             </td>
             <td>

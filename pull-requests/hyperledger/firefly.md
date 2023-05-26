@@ -234,31 +234,3 @@ Fixes #1311
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1309" class=".btn">#1309</a>
-            </td>
-            <td>
-                <b>
-                    Confirm group init messages during dispatch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                It is not possible for a group init message to fail at this phase. If it fails, it must fail earlier. If it makes it to dispatch, it should flow through to confirm.
-
-Fixes #1308
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-18 19:08:22 +0000 UTC
-    </div>
-</div>
-
