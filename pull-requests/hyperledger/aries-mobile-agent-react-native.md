@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
             </td>
             <td>
                 <b>
-                    chore: update snapshots
+                    chore: hide next button from accessibility as needed
                 </b>
             </td>
         </tr>

@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1335" class=".btn">#1335</a>
+            </td>
+            <td>
+                <b>
+                    First draft performance troubleshooting page.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Describe the change
+
+Adding troubleshooting page to help users with performance issues.
+- [ ] You've fixed any issues raised by the tests.
+- [ ] You've [previewed your changes on Read the Docs](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation)
+  and added a [preview link](#preview).
+
+## Preview
+
+<!-- Add the link to preview your changes on Read the Docs.
+
+The link format is "https://hyperledger-besu--{your PR number}.org.readthedocs.build/en/{your PR number}/",
+where {your PR number} is replaced by the number of this PR.
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-26 16:04:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu-docs/pull/1334" class=".btn">#1334</a>
             </td>
             <td>

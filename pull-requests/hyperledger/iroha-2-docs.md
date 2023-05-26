@@ -88,29 +88,3 @@ permalink: /pull-requests/hyperledger/iroha-2-docs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha-2-docs/pull/346" class=".btn">#346</a>
-            </td>
-            <td>
-                <b>
-                    update registering and minting assets
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-19 12:48:04 +0000 UTC
-    </div>
-</div>
-
