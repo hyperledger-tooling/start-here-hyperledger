@@ -14,11 +14,68 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5504" class=".btn">#5504</a>
+            </td>
+            <td>
+                <b>
+                    Prepare for next version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-26 04:38:03 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5503" class=".btn">#5503</a>
+            </td>
+            <td>
+                <b>
+                    Change disconnect peer message to debug level.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Change the peer disconnect message to debug level. Since that's not useful to end users.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-26 01:28:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5502" class=".btn">#5502</a>
             </td>
             <td>
                 <b>
-                    run non-mainnet ATs on PRs, split into 2 sets
+                    run non-mainnet ATs on PRs, split into sub groups
                 </b>
             </td>
         </tr>
@@ -557,67 +614,6 @@ fixes #4607
     </table>
     <div class="right-align">
         Created At 2023-05-19 09:29:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5474" class=".btn">#5474</a>
-            </td>
-            <td>
-                <b>
-                    remove old EF bootnodes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-This PR removes old EF bootnodes .Would like someone from the EF team validate this before we move forward with that.
-@skylenet @parithosh Could please confirm these bootnodes don't exist anymore?
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-19 05:20:36 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5473" class=".btn">#5473</a>
-            </td>
-            <td>
-                <b>
-                    Invalid transaction type - report to user
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">RPC</span><span class="chip">ux</span>
-            </td>
-            <td>
-                If transaction validation fails because of "Invalid transaction type", report that error back to the user (previously was "invalid params")
-This will make situations like this easier to troubleshoot -
-https://discord.com/channels/905194001349627914/938504958909747250/1108931495797727354
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-19 03:50:49 +0000 UTC
     </div>
 </div>
 
