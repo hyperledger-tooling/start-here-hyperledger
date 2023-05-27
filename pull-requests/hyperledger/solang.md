@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1335" class=".btn">#1335</a>
+            </td>
+            <td>
+                <b>
+                    Bump `lalrpop` to 0.20
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <https://github.com/lalrpop/lalrpop/blob/master/RELEASES.md#0200-2023-05-02>
+
+Test changes are due to "expected tokens in failed parses are more accurate".
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-27 14:28:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1332" class=".btn">#1332</a>
             </td>
             <td>

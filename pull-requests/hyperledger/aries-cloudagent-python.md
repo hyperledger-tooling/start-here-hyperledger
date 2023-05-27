@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
             </td>
             <td>
                 <b>
-                    Upgrade codegen tools used in `scripts/generate-open-api-spec` and publish Swagger 2.0 and OpenAPi 3.0 specs
+                    Upgrade codegen tools in `scripts/generate-open-api-spec` and publish Swagger 2.0 and OpenAPI 3.0 specs
                 </b>
             </td>
         </tr>
@@ -27,13 +27,19 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
                 
             </td>
             <td>
-                Now is as good a time as any to upgrade the codegen tools used in `scripts/generate-open-api-spec` so that that it uses the latest `swaggerapi/swagger-codegen-cli` release (it was ~3 years out of date). 
+                Now is as good a time as any to upgrade the codegen tools in `scripts/generate-open-api-spec` to use the latest `swaggerapi/swagger-codegen-cli` release (it was ~3 years out of date). 
 
 Additionally, I added the latest `openapitools/openapi-generator-cli`, so that the spec generation now provides both a Swagger 2.0 spec, and an OpenApi 3.0 spec. This way users don't need to manually upgrade the spec themselves.
 
-Previously the Swagger 2.0 spec was simply called `openapi.json`. This is now renamed `swagger.json`, with the 3.0 compatible spec in its place.
+Previously the Swagger 2.0 spec was simply called `openapi.json`. This is now renamed `swagger.json`, with the 3.0 compatible spec in its place. 
+
+Worth noting that the spec validation still only throws warnings that can be ignored:
+- the `swagger` spec validation only complains about some missing operationId's (and 'host' not defined);
+- and the `open-api` spec validation only complains about `example` fields being unexpected, and a single case of `attribute tags.tagsexternalDocs.url is missing`.
 
 Also, I updated the `UsingOpenAPI.md` file to reflect these changes, with some minor neatening up included.
+
+Review can be validated by running `scripts/generate-open-api-spec`.
 
 Discussion is welcome.
             </td>
