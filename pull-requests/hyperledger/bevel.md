@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2264" class=".btn">#2264</a>
+            </td>
+            <td>
+                <b>
+                    Fix formatting in contributing guidelines
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR fixes issue #2242
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-27 04:04:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2263" class=".btn">#2263</a>
             </td>
             <td>

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-admin-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/130" class=".btn">#130</a>
+            </td>
+            <td>
+                <b>
+                    try to impl list channel from peer
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fix #123 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-27 03:57:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/129" class=".btn">#129</a>
             </td>
             <td>
