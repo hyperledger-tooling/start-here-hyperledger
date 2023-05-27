@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang-llvm
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang-llvm/pull/21" class=".btn">#21</a>
+                PR <a href="https://github.com/hyperledger/solang-llvm/pull/22" class=".btn">#22</a>
             </td>
             <td>
                 <b>
-                    Bump rust, ubuntu and solana
+                    Bump rust and solana
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/solang-llvm
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-25 11:18:08 +0000 UTC
+        Created At 2023-05-26 21:55:43 +0000 UTC
     </div>
 </div>
 
