@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2246" class=".btn">#2246</a>
+            </td>
+            <td>
+                <b>
+                    Upgrade codegen tools used in `scripts/generate-open-api-spec` and publish Swagger 2.0 and OpenAPi 3.0 specs
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Now is as good a time as any to upgrade the codegen tools used in `scripts/generate-open-api-spec` so that that it uses the latest `swaggerapi/swagger-codegen-cli` release (it was ~3 years out of date). 
+
+Additionally, I added the latest `openapitools/openapi-generator-cli`, so that the spec generation now provides both a Swagger 2.0 spec, and an OpenApi 3.0 spec. This way users don't need to manually upgrade the spec themselves.
+
+Previously the Swagger 2.0 spec was simply called `openapi.json`. This is now renamed `swagger.json`, with the 3.0 compatible spec in its place.
+
+Also, I updated the `UsingOpenAPI.md` file to reflect these changes, with some minor neatening up included.
+
+Discussion is welcome.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-27 12:01:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2245" class=".btn">#2245</a>
             </td>
             <td>
