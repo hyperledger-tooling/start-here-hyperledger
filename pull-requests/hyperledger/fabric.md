@@ -14,6 +14,42 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4238" class=".btn">#4238</a>
+            </td>
+            <td>
+                <b>
+                    system channel cleanup - configtxgen document system channel no longer supported
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                configtxgen - document system channel no longer supported
+
+#### Type of change
+
+- Test update
+- Documentation update
+
+#### Related issues
+
+Issue: #4211 .
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-28 12:18:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4237" class=".btn">#4237</a>
             </td>
             <td>

@@ -169,7 +169,7 @@ Change the peer disconnect message to debug level. Since that's not useful to en
         </tr>
         <tr>
             <td>
-                <span class="chip">doc-change-required</span><span class="chip">TeamGroot</span>
+                <span class="chip">doc-change-required</span>
             </td>
             <td>
                 <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
