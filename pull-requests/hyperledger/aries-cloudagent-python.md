@@ -14,6 +14,38 @@ permalink: /pull-requests/hyperledger/aries-cloudagent-python
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2247" class=".btn">#2247</a>
+            </td>
+            <td>
+                <b>
+                    chore!: drop python 3.6 support
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Update setup.py minimum python version requirement.
+Update workflows to use Python 3.9 by default.
+Update container image docs.
+
+@swcurran @WadeBarnes I believe these are the relevant changes in workflows and setup files in order to officially drop Python 3.6. I think once we've made the transition, there are a number of dependencies that ought to be updated. I think those updates are best suited to a follow up PR.
+
+closes: #2244 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-27 20:01:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2246" class=".btn">#2246</a>
             </td>
             <td>

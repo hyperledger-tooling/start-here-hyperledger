@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4237" class=".btn">#4237</a>
+            </td>
+            <td>
+                <b>
+                    Fixes #4180 peer chaincode error message formatting
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Bug fix #4180
+
+#### Description
+
+Uses proto.MarshalTextString to insert the protocol buffer response message into the error string
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-27 23:25:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4236" class=".btn">#4236</a>
             </td>
             <td>
