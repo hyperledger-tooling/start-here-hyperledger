@@ -31,6 +31,7 @@ permalink: /releases/hyperledger/indy-vdr
 * feat: react native 0.71.x and Expo support by @blu3beri in https://github.com/hyperledger/indy-vdr/pull/186
 * build(android): use custom cross images by @blu3beri in https://github.com/hyperledger/indy-vdr/pull/189
 * chore: update version by @blu3beri in https://github.com/hyperledger/indy-vdr/pull/190
+* build(js): use local network by @blu3beri in https://github.com/hyperledger/indy-vdr/pull/192
 
 
 **Full Changelog**: https://github.com/hyperledger/indy-vdr/compare/v0.4.0-dev.14...v0.4.0-dev.15
@@ -41,7 +42,7 @@ permalink: /releases/hyperledger/indy-vdr
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-05-26 09:33:01 +0000 UTC
+        Created At 2023-05-27 20:42:51 +0000 UTC
     </span>
 </div>
 
