@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4239" class=".btn">#4239</a>
+            </td>
+            <td>
+                <b>
+                    configtxgen - add a check for V3 style signature - BFT consensus
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Add a check for V3 style signature - BFT consensus
+
+#### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Related issues
+
+Issue: #4228 .
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-28 15:55:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4238" class=".btn">#4238</a>
             </td>
             <td>
