@@ -14,6 +14,59 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5507" class=".btn">#5507</a>
+            </td>
+            <td>
+                <b>
+                    Revert the revert of the tx selection commit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The original PR (#5396) caused a problem when running on Frontier. The world state update was committed too late and the receipt was created with the old world state root hash. 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-29 05:13:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5506" class=".btn">#5506</a>
+            </td>
+            <td>
+                <b>
+                    RPC - default to internal error not invalid params
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                see #4212 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-29 04:20:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5505" class=".btn">#5505</a>
             </td>
             <td>
