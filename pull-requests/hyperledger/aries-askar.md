@@ -63,29 +63,3 @@ permalink: /pull-requests/hyperledger/aries-askar
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/143" class=".btn">#143</a>
-            </td>
-            <td>
-                <b>
-                    chore: update version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Discussed with @andrewwhitehead and we will do a quick 0.2.9-dev.1 release to make sure all the iOS fixes are correct and release 2.9.0 when everything is working.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-22 10:13:16 +0000 UTC
-    </div>
-</div>
-

@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2267" class=".btn">#2267</a>
+            </td>
+            <td>
+                <b>
+                    [ci-skip] Create operation guide on deploying cacti connector
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Primary Changes
+--------------
+1. Added operation guide on deploying fabric cacti connector
+
+Modifications in docs
+-----------------------
+docs/source/operationalguide.rst
+docs/source/operations/setup_cactus_connector_fabric.md
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-29 08:44:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2265" class=".btn">#2265</a>
             </td>
             <td>
@@ -150,46 +183,6 @@ fixes #2260
     </table>
     <div class="right-align">
         Created At 2023-05-25 13:30:54 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2254" class=".btn">#2254</a>
-            </td>
-            <td>
-                <b>
-                    [besu] Decouple crypto creation for Besu operations
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Primary Changes
---------------
-1. Added generation of cryptography through a job for besu operations
-2. Fixed syntax error in tpl file for generation of genesis for ibft consensus
-
-Modifications in roles
------------------------
-platforms/hyperledger-besu/configuration/add-validator.yaml
-platforms/hyperledger-besu/configuration/roles/create/crypto/node/tasks/main.yaml
-platforms/hyperledger-besu/configuration/roles/create/genesis/templates/ibftGenesisFile.tpl
-platforms/hyperledger-besu/configuration/roles/create/validator_node/Readme.md
-platforms/hyperledger-besu/configuration/roles/create/validator_node/tasks/check_vault.yaml
-platforms/hyperledger-besu/configuration/roles/create/validator_node/tasks/main.yaml
-platforms/hyperledger-besu/configuration/roles/create/validator_node/tasks/validator_vote.yaml
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-22 11:00:08 +0000 UTC
     </div>
 </div>
 

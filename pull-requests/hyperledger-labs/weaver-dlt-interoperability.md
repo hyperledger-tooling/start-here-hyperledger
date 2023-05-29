@@ -62,31 +62,3 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/404" class=".btn">#404</a>
-            </td>
-            <td>
-                <b>
-                    Package Dependency Updates in Fabric Interop CC and Besu Samples
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Updated 'solc' dependency in Besu 'simmpleasset' Truffle configuration to handle breaking change.
-- Updated go-ethereum version in Fabric Interop CC to ensure that latest dependencies are used.
-- Updated zlib version in Fabric Interop CC Dockerfile to avoid vulnerability.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-22 08:27:23 +0000 UTC
-    </div>
-</div>
-
