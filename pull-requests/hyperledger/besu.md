@@ -32,9 +32,15 @@ permalink: /pull-requests/hyperledger/besu
 
 ## PR description
 
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
+`AbstractRetryingPeerTask` has a way to understand if the result of a try is empty, but it only uses this information to discriminate if the result is a partial one, instead is very useful to also use the emptiness information to demote the peer and eventually disconnect it in case it sends too many useless responses, as done in this PR.
+In the making of this PR, I discovered that there were opportunities to improve the code and simplify the writing of retrying tasks, so I refactored and documented the code so that any class extending `AbstractRetryingPeerTask` should not set the final task result by themself, but instead implements the `emptyResult` and `successfulResult` to report the status of the request, so that the final setting of the task result is always a duty of `AbstractRetryingPeerTask`, removing the different approaches used before.
+
+## Tests
+
+- [ ] Checkpoint Sync
+- [ ] Snap Sync
+- [ ] Fast Sync
+- [ ] Full sync
             </td>
         </tr>
     </table>
@@ -64,6 +70,8 @@ permalink: /pull-requests/hyperledger/besu
 <!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
 
 ## PR description
+
+Built on top of #5509, so please check it first.
 
 ## Fixed Issue(s)
 <!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
