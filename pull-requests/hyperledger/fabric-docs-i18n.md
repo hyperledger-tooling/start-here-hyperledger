@@ -14,27 +14,27 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/798" class=".btn">#798</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/799" class=".btn">#799</a>
             </td>
             <td>
                 <b>
-                    [ja_JP] Translate "fabric-ca-commands.rst" into Japanese
+                    [ja_JP] Translate "peerchaincode.md" into Japanese
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">jaJP-docs-ongoing</span>
+                
             </td>
             <td>
-                This patch translates source/commands/fabric-ca-commands.rst into Japanese.
+                This patch translates source/commands/peerchaincode.md into Japanese.
 
-Resolves #614
+Resolves #605
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-17 04:02:36 +0000 UTC
+        Created At 2023-05-29 01:54:31 +0000 UTC
     </div>
 </div>
 
