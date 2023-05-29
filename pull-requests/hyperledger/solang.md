@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1335" class=".btn">#1335</a>
+                PR <a href="https://github.com/hyperledger/solang/pull/1336" class=".btn">#1336</a>
             </td>
             <td>
                 <b>
-                    Bump `lalrpop` to 0.20
+                    Destructure can assign to storage variables
                 </b>
             </td>
         </tr>
@@ -27,14 +27,25 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <https://github.com/lalrpop/lalrpop/blob/master/RELEASES.md#0200-2023-05-02>
+                Fix building of the following:
 
-Test changes are due to "expected tokens in failed parses are more accurate".
+        contract c {
+            address factory;
+            int decimals;
+
+            constructor() {
+                (factory, decimals) = foo();
+            }
+
+            function foo() internal pure returns (address, int) {
+                return (address(2), 5);
+            }
+        }
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-27 14:28:37 +0000 UTC
+        Created At 2023-05-29 09:45:08 +0000 UTC
     </div>
 </div>
 
@@ -308,32 +319,6 @@ This is because with `ResolveTo::Unknown` the integers default to the smallest s
     </table>
     <div class="right-align">
         Created At 2023-05-23 12:50:37 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1320" class=".btn">#1320</a>
-            </td>
-            <td>
-                <b>
-                    solc does not warn or error for duplicate @param tags
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Make it a warning and add note to previous doc tag, and fix the locations.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-22 11:10:13 +0000 UTC
     </div>
 </div>
 
