@@ -73,7 +73,7 @@ Also, I updated the `UsingOpenAPI.md` file to reflect these changes, with some m
 
 Review can be validated by running `scripts/generate-open-api-spec`.
 
-Discussion is welcome.
+Discussion re further edits is welcome.
             </td>
         </tr>
     </table>
