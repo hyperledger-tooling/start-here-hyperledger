@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/documentation-template
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/documentation-template/pull/9" class=".btn">#9</a>
+                PR <a href="https://github.com/hyperledger-labs/documentation-template/pull/10" class=".btn">#10</a>
             </td>
             <td>
                 <b>
-                    Update readme
+                    Integrated Stale bot for monitoring open issues & added PR & Issue templates 
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger-labs/documentation-template
                 
             </td>
             <td>
-                <nil>
+                ### Description
+
+Added a Stale bot for monitoring open issues & also integrated a few PR & Issue templates for contributors. 
+/cc: @bobbi28
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-17 18:00:49 +0000 UTC
+        Created At 2023-05-29 15:53:32 +0000 UTC
     </div>
 </div>
 

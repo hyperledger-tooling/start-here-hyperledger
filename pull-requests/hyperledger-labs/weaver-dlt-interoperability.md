@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/weaver-dlt-interoperability
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/408" class=".btn">#408</a>
+            </td>
+            <td>
+                <b>
+                    fix(corda-at): interoppayload parse bug
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Closes #407 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-29 16:37:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/weaver-dlt-interoperability/pull/406" class=".btn">#406</a>
             </td>
             <td>

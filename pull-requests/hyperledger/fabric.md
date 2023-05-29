@@ -259,7 +259,7 @@ Checklist (DELETE AFTER READING):
             </td>
             <td>
                 <b>
-                    WIP: BFT: orderer can deliver header+sigs
+                    BFT Block Puller: orderer can deliver header+sigs
                 </b>
             </td>
         </tr>
@@ -269,7 +269,6 @@ Checklist (DELETE AFTER READING):
             </td>
             <td>
                 
-
 
 Change-Id: I47e9767e7f322145291a8ffa498500ee99714cc6
 
@@ -284,49 +283,14 @@ When the SeekInfo message SeekContentType is HEADER_WITH_SIGS, send a block with
 
 #### Related issues
 
+Issue: #4241 
+
 
             </td>
         </tr>
     </table>
     <div class="right-align">
         Created At 2023-05-23 11:41:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4231" class=".btn">#4231</a>
-            </td>
-            <td>
-                <b>
-                    test that a join block does not define a system channel by verifying consortiums
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Test update
-
-#### Description
-
-Addition of an integration test to validate that when channel participation receives a join block, this block does not define a system channel
-
-#### Related issues
-
-issue: #4019 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-22 17:02:35 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,88 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1339" class=".btn">#1339</a>
+            </td>
+            <td>
+                <b>
+                    created calculate_mul_ovf to clean the repetitive code
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                closes #1263 
+
+cleaned up the duplicate code by creating `calculate_mul_ovf` function
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-29 14:56:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1338" class=".btn">#1338</a>
+            </td>
+            <td>
+                <b>
+                    functions that use .call() should be allowed to declared view or default mutability
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Neither option should produce a diagnostic.
+
+Fixes https://github.com/hyperledger/solang/issues/997
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-29 14:00:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1337" class=".btn">#1337</a>
+            </td>
+            <td>
+                <b>
+                    @inheritdoc should work with bases of bases
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                We were only checking the immediate base contracts of the current contract, not their bases.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-29 13:07:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1336" class=".btn">#1336</a>
             </td>
             <td>
