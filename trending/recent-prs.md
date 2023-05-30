@@ -1,13 +1,13 @@
 
-[5515](https://github.com/hyperledger/besu/pull/5515) Remove SSZ
+[1343](https://github.com/hyperledger/solang/pull/1343) Substrate: Write assumed environment configuration into metadata
 
-[5514](https://github.com/hyperledger/besu/pull/5514) PR checklist - remove checkbox for non-mainnet ATs
+[10](https://github.com/hyperledger-labs/fabric-ansible-collection/pull/10) Deibm doc tutorial joining
 
-[5513](https://github.com/hyperledger/besu/pull/5513) Update Tuweni to 2.4.0
+[9](https://github.com/hyperledger-labs/fabric-ansible-collection/pull/9) Removed IBP references from building doc
 
-[1340](https://github.com/hyperledger/solang/pull/1340) Allow .wrap() and .unwrap() user defined type methods in constants
+[4242](https://github.com/hyperledger/fabric/pull/4242) BFT Block Puller: verify attestation
 
-[5512](https://github.com/hyperledger/besu/pull/5512) refactor txpool options
+[3541](https://github.com/hyperledger/iroha/pull/3541) [fix] #3461: Logic error in defaults handling
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

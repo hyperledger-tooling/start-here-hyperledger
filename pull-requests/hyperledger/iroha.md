@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3541" class=".btn">#3541</a>
+            </td>
+            <td>
+                <b>
+                    [fix] #3461: Logic error in defaults handling
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Make config params not specified in env or config file fall back to defaults. 
+
+### Linked issue
+
+Helps #3461. 
+
+### Benefits
+
+Less tedium
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-30 08:55:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3538" class=".btn">#3538</a>
             </td>
             <td>
