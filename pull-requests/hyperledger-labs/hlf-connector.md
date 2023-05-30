@@ -27,11 +27,7 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
                 
             </td>
             <td>
-                Report: 
-[securityscan.pdf](https://github.com/hyperledger-labs/hlf-connector/files/11574478/securityscan.pdf)
-
-
-
+                0 high and medium vulnerabilities.
             </td>
         </tr>
     </table>
