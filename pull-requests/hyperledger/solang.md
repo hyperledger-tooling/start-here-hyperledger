@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1340" class=".btn">#1340</a>
+            </td>
+            <td>
+                <b>
+                    Allow .wrap() and .unwrap() user defined type methods in constants
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is valid Solidity:
+
+```
+type Int is int8;
+
+Int constant zero = Int.wrap(0);
+```
+Also, on solc `delete` on a local variable is a no-op. Make the error a warning.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-29 19:48:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1339" class=".btn">#1339</a>
             </td>
             <td>
