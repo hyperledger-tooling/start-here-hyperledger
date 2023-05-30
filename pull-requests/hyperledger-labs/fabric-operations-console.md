@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/483" class=".btn">#483</a>
+            </td>
+            <td>
+                <b>
+                    fix component dropdown option bug
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+- fixes the bug where it doesn't render the selected option in a fabric component dropdown input 
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-30 18:03:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/482" class=".btn">#482</a>
             </td>
             <td>
