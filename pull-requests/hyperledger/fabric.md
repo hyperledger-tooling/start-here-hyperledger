@@ -14,6 +14,47 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4242" class=".btn">#4242</a>
+            </td>
+            <td>
+                <b>
+                    BFT Block Puller: verify attestation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Change-Id: Ia34ff4536453581895c4f13b2d73f0e7066ce125
+
+#### Type of change
+
+- New feature
+
+#### Description
+
+BFT Block Puller: verify attestation. 
+Verify a block attestation, which is a block with block.Data=nil.
+Verification is the same as verifying a regular block, except computing the data hash and comparing it to the hash in the header, and extracting the channel ID.
+
+#### Related issues
+#4240 
+#4243 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-30 09:06:47 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4239" class=".btn">#4239</a>
             </td>
             <td>
@@ -248,49 +289,6 @@ Checklist (DELETE AFTER READING):
     </table>
     <div class="right-align">
         Created At 2023-05-24 12:07:46 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4232" class=".btn">#4232</a>
-            </td>
-            <td>
-                <b>
-                    BFT Block Puller: orderer can deliver header+sigs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                
-
-Change-Id: I47e9767e7f322145291a8ffa498500ee99714cc6
-
-
-#### Type of change
-
-- New feature
-
-#### Description
-When the SeekInfo message SeekContentType is HEADER_WITH_SIGS, send a block with nil block.data.
-
-
-#### Related issues
-
-Issue: #4241 
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-23 11:41:21 +0000 UTC
     </div>
 </div>
 
