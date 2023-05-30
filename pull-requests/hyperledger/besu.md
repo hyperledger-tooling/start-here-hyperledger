@@ -14,6 +14,71 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5513" class=".btn">#5513</a>
+            </td>
+            <td>
+                <b>
+                    Update Tuweni to 2.4.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Updates Tuweni to 2.4.0, updating group ID to io.tmio.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-29 21:03:36 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5512" class=".btn">#5512</a>
+            </td>
+            <td>
+                <b>
+                    refactor txpool options
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Add all tx-pool CLI options under a single group https://github.com/hyperledger/besu/issues/5466
+
+## Fixed Issue(s)
+Fixes, #5466 
+![Screenshot 2023-05-29 at 18 40 11](https://github.com/hyperledger/besu/assets/99179176/515ec024-9b4a-4c60-a4e1-ca4b50bd2b92)
+
+
+Result
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-29 18:24:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5509" class=".btn">#5509</a>
             </td>
             <td>
@@ -407,7 +472,7 @@ Selection stats: Totals[Evaluated=1743, Selected=126, Skipped=1617, Dropped=0]; 
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">TeamGroot</span>
             </td>
             <td>
                 Built on top of https://github.com/hyperledger/besu/pull/5470
