@@ -122,10 +122,11 @@ Add all tx-pool CLI options under a single group https://github.com/hyperledger/
 
 ## Fixed Issue(s)
 Fixes, #5466 
-![Screenshot 2023-05-29 at 18 40 11](https://github.com/hyperledger/besu/assets/99179176/515ec024-9b4a-4c60-a4e1-ca4b50bd2b92)
 
 
 Result
+![Screenshot 2023-05-30 at 19 40 37](https://github.com/hyperledger/besu/assets/99179176/f3d7a5e6-6290-4caa-96db-c7642536e265)
+
             </td>
         </tr>
     </table>
@@ -158,6 +159,9 @@ Result
 
 `AbstractRetryingPeerTask` has a way to understand if the result of a try is empty, but it only uses this information to discriminate if the result is a partial one, instead is very useful to also use the emptiness information to demote the peer and eventually disconnect it in case it sends too many useless responses, as done in this PR.
 In the making of this PR, I discovered that there were opportunities to improve the code and simplify the writing of retrying tasks, so I refactored and documented the code so that any class extending `AbstractRetryingPeerTask` should not set the final task result by themself, but instead implements the `emptyResult` and `successfulResult` to report the status of the request, so that the final setting of the task result is always a duty of `AbstractRetryingPeerTask`, removing the different approaches used before.
+
+relates to #5415 and #5271
+
 
 ## Tests
 
@@ -195,11 +199,11 @@ In the making of this PR, I discovered that there were opportunities to improve 
 
 ## PR description
 
-Built on top of #5509, so please check it first.
+Built on top of #5509, so please check it first. [Link to only see diff again #5509](https://github.com/fab-10/besu/compare/demote-peer-with-empty-responses-when-retrying...fab-10:besu:use-retry-switching-peer)
 
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
+With this PR all the world state download tasks used by snap sync are updated to use the retry switching peer strategy, to reduce the chance that we keep sending requests to the same bad peer.
+
+relates to https://github.com/hyperledger/besu/issues/5415 and #5271
             </td>
         </tr>
     </table>
@@ -748,47 +752,6 @@ So for PoS the `min-block-occupancy-ratio` option is ignored since we always try
     </table>
     <div class="right-align">
         Created At 2023-05-24 08:37:06 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5483" class=".btn">#5483</a>
-            </td>
-            <td>
-                <b>
-                    Remove TOML table headings before checking for valid config parameters
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-This PR modifies the TOML parsing function `checkUnknownOptions()` to remove TOML headings before checking if all of the attributes are valid. E.g. for the following file:
-
-```
-[TxPool]
-tx-pool-max-size = 1024
-```
-
-the `TxPool` TOML parameter will be removed and ignored as per the discussion in the related issue.
-
-## Fixed Issue(s)
-https://github.com/hyperledger/besu/issues/5482
-
-Remaining tasks before PR review:
-
-- [ ] Add unit test
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-23 14:52:29 +0000 UTC
     </div>
 </div>
 
