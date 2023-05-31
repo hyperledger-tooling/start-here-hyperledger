@@ -1,13 +1,13 @@
 
-[3593](https://github.com/hyperledger/aries-framework-go/pull/3593) feat: update jsongold
+[1047](https://github.com/hyperledger/fabric-samples/pull/1047) Fix test-network to work with BFT consensus.
 
-[473](https://github.com/hyperledger-labs/fabric-token-sdk/pull/473) load public params from file if the configuration says so
+[4248](https://github.com/hyperledger/fabric/pull/4248) Make AmMemberOf to use only the mspIDs in collection policy (release-2.2)
 
-[478](https://github.com/hyperledger-labs/fabric-smart-client/pull/478) standalone
+[486](https://github.com/hyperledger-labs/fabric-operations-console/pull/486) fixes passport setup during oauth switching
 
-[5520](https://github.com/hyperledger/besu/pull/5520) wip - added versioned hashes checking
+[3549](https://github.com/hyperledger/iroha/pull/3549) [fix] #3548: Fix IntoSchema transparent attribute
 
-[194](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/194) docs: fix broken link
+[4246](https://github.com/hyperledger/fabric/pull/4246) Make AmMemberOf to use only the mspIDs in collection policy (backport #4244)
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
