@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3592" class=".btn">#3592</a>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3593" class=".btn">#3593</a>
             </td>
             <td>
                 <b>
-                    chore: update component/models version in afgo
+                    feat: update jsongold
                 </b>
             </td>
         </tr>
@@ -27,38 +27,14 @@ permalink: /pull-requests/hyperledger/aries-framework-go
                 
             </td>
             <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-23 15:41:31 +0000 UTC
-    </div>
-</div>
+                according to diff most changes are related to error handling, linter and optimizations.
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3591" class=".btn">#3591</a>
-            </td>
-            <td>
-                <b>
-                    chore: update component dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
+initial reason for upgrade is https://github.com/piprate/json-gold/commit/c70834a618fd6c8f9202d23a851f578328cfec4b this change
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-23 14:28:29 +0000 UTC
+        Created At 2023-05-31 10:33:13 +0000 UTC
     </div>
 </div>
 
