@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/193" class=".btn">#193</a>
+                PR <a href="https://github.com/hyperledger-labs/yui-ibc-solidity/pull/194" class=".btn">#194</a>
             </td>
             <td>
                 <b>
-                    02-client: Avoid restoring the same commitment when there is no state update
+                    docs: fix broken link
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger-labs/yui-ibc-solidity
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-22 15:28:59 +0000 UTC
+        Created At 2023-05-31 05:13:03 +0000 UTC
     </div>
 </div>
 
