@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric
             </td>
             <td>
                 <b>
-                    [wip] Make AmMemberOf to use only the mspIDs in collection policy
+                    Make AmMemberOf to use only the mspIDs in collection policy
                 </b>
             </td>
         </tr>
@@ -39,7 +39,7 @@ permalink: /pull-requests/hyperledger/fabric
 
 #### Description
 
-<!--- Describe your changes in detail, including motivation. -->
+https://github.com/hyperledger/fabric/issues/4229
 
 #### Additional details
 
