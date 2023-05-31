@@ -15,30 +15,30 @@ permalink: /releases/hyperledger/firefly-sdk-nodejs
         <tr>
             <td colspan="2">
                 <b>
-                    v1.2.9
+                    v1.2.10
                 </b>
             </td>
         </tr>
         <tr>
             <td>
                 <span class="chip">
-                    v1.2.9
+                    v1.2.10
                 </span>
             </td>
             <td>
                 ## What's Changed
-* Use Readable for return type of getDataBlob by @awrichar in https://github.com/hyperledger/firefly-sdk-nodejs/pull/68
+* Add publish boolean parameter for creation of token pools, interfaces… by @chrisbygrave in https://github.com/hyperledger/firefly-sdk-nodejs/pull/69
 
 
-**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.2.8...v1.2.9
+**Full Changelog**: https://github.com/hyperledger/firefly-sdk-nodejs/compare/v1.2.9...v1.2.10
             </td>
         </tr>
     </table>
-    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.2.9" class=".btn">
+    <a href="https://github.com/hyperledger/firefly-sdk-nodejs/releases/tag/v1.2.10" class=".btn">
         View on GitHub
     </a>
     <span class="right-align">
-        Created At 2023-05-03 19:49:03 +0000 UTC
+        Created At 2023-05-31 12:56:09 +0000 UTC
     </span>
 </div>
 
