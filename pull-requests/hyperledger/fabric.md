@@ -14,6 +14,84 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4248" class=".btn">#4248</a>
+            </td>
+            <td>
+                <b>
+                    Make AmMemberOf to use only the mspIDs in collection policy (release-2.2)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Make AmMemberOf to use only the mspIDs in collection policy.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-31 14:41:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4246" class=".btn">#4246</a>
+            </td>
+            <td>
+                <b>
+                    Make AmMemberOf to use only the mspIDs in collection policy (backport #4244)
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This is an automatic backport of pull request #4244 done by [Mergify](https://mergify.com).
+
+
+---
+
+
+<details>
+<summary>Mergify commands and options</summary>
+
+<br />
+
+More conditions and actions can be found in the [documentation](https://docs.mergify.com/).
+
+You can also trigger Mergify actions by commenting on this pull request:
+
+- `@Mergifyio refresh` will re-evaluate the rules
+- `@Mergifyio rebase` will rebase this PR on its base branch
+- `@Mergifyio update` will merge the base branch into this PR
+- `@Mergifyio backport <destination>` will backport this PR on `<destination>` branch
+
+Additionally, on Mergify [dashboard](https://dashboard.mergify.com) you can:
+
+- look at your merge queues
+- generate the Mergify configuration with the config editor.
+
+Finally, you can contact us on https://mergify.com
+</details>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-31 12:51:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4244" class=".btn">#4244</a>
             </td>
             <td>
@@ -234,42 +312,6 @@ It is misleading.
     </table>
     <div class="right-align">
         Created At 2023-05-25 14:32:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4235" class=".btn">#4235</a>
-            </td>
-            <td>
-                <b>
-                    Method AppRootCAsByChain() not thread safe
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-- Bug fix
-
-#### Description
-
-As described in issue #4233 
-
-#### Related issues
-
-issue: #4233 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-24 14:03:05 +0000 UTC
     </div>
 </div>
 

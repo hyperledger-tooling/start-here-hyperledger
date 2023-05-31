@@ -168,7 +168,34 @@ cleaned up the duplicate code by creating `calculate_mul_ovf` function
                 
             </td>
             <td>
-                Neither option should produce a diagnostic.
+                Functions that modify the state, like the SPL-token `mint_to`, are not `view` functions, but the compiler warns that they can be declared as view.
+
+Example: 
+```solidity
+	function mint_to(address mint, address account, address authority, uint64 amount) internal {
+		bytes instr = new bytes(9);
+
+		instr[0] = uint8(TokenInstruction.MintTo);
+		instr.writeUint64LE(amount, 1);
+
+		AccountMeta[3] metas = [
+			AccountMeta({pubkey: mint, is_writable: true, is_signer: false}),
+			AccountMeta({pubkey: account, is_writable: true, is_signer: false}),
+			AccountMeta({pubkey: authority, is_writable: true, is_signer: true})
+		];
+
+		tokenProgramId.call{accounts: metas}(instr);
+	}
+```
+
+Warning:
+```
+warning: function can be declared 'view'
+   ┌─ /solang/solana-library/spl_token.sol:46:2
+   │
+46 │     function mint_to(address mint, address account, address authority, uint64 amount) internal {
+   │
+```
 
 Fixes https://github.com/hyperledger/solang/issues/997
             </td>

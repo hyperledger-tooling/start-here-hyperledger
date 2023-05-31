@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1047" class=".btn">#1047</a>
+            </td>
+            <td>
+                <b>
+                    Fix test-network to work with BFT consensus.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Added a new option for creating channel:
+Running ./network.sh createChannel -bft will initiate a channel running BFT orderers.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-31 17:16:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/1044" class=".btn">#1044</a>
             </td>
             <td>
