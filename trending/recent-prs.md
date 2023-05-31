@@ -1,13 +1,13 @@
 
+[3593](https://github.com/hyperledger/aries-framework-go/pull/3593) feat: update jsongold
+
+[473](https://github.com/hyperledger-labs/fabric-token-sdk/pull/473) load public params from file if the configuration says so
+
+[478](https://github.com/hyperledger-labs/fabric-smart-client/pull/478) standalone
+
+[5520](https://github.com/hyperledger/besu/pull/5520) wip - added versioned hashes checking
+
 [194](https://github.com/hyperledger-labs/yui-ibc-solidity/pull/194) docs: fix broken link
-
-[5519](https://github.com/hyperledger/besu/pull/5519) 4844 devnet 5b
-
-[485](https://github.com/hyperledger-labs/fabric-operations-console/pull/485) update passport strats for oauth on a auth change
-
-[3547](https://github.com/hyperledger/iroha/pull/3547) [fix] #3350: Core testing
-
-[5517](https://github.com/hyperledger/besu/pull/5517) Log worldstate availability
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)

@@ -264,30 +264,3 @@ I get the feeling this change could improve other scenarios we've seen previousl
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2239" class=".btn">#2239</a>
-            </td>
-            <td>
-                <b>
-                    Improve faber agent with ngrok selection and invitation_url output
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                - Update NGROK_ENDPOINT to select the tunnel with the specified AGENT_PORT
-- Add output of invitation_url using log_msg function
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-24 08:12:09 +0000 UTC
-    </div>
-</div>
-

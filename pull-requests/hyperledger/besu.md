@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5520" class=".btn">#5520</a>
+            </td>
+            <td>
+                <b>
+                    wip - added versioned hashes checking
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                refs #5487 
+still TBD whether this is added to V2 or V3. 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-31 06:46:22 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5519" class=".btn">#5519</a>
             </td>
             <td>
@@ -738,82 +765,6 @@ Testing required adding memory to the text fixture.
     </table>
     <div class="right-align">
         Created At 2023-05-24 20:28:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5492" class=".btn">#5492</a>
-            </td>
-            <td>
-                <b>
-                    Detailed transaction selection stats for layered txpool
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-Expand the transaction selection result adding more fine grained info specifically about the reason a transaction is skipped or tagged as invalid, and also specify if the selection ended due to block full or block over min occupancy ratio.
-These results are also collected so at the end of the selection we can log detailed stats, that are useful to understand which are the main reasons for a transaction not to be selected, and so improve the way transactions are prioritized, to avoid proposing these transactions in the first place.
-
-Stats are logged at debug level, and here it is a sample:
-```
-Selection stats: Totals[Evaluated=2693, Selected=353, Skipped=2340, Dropped=0]; Detailed[INVALID_TRANSIENT(GAS_PRICE_BELOW_CURRENT_BASE_FEE)=2321, INVALID_TRANSIENT(TX_TOO_LARGE_FOR_REMAINING_GAS)=19, SELECTED=353]
-```
-
-This helped spotting some optimizations and understand [the effect of `min-block-occupancy-ratio` on PoS networks](https://github.com/hyperledger/besu/pull/5492)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-24 12:27:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5491" class=".btn">#5491</a>
-            </td>
-            <td>
-                <b>
-                    Ignore min-block-occupancy-ratio option when on PoS
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">doc-change-required</span>
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-[`min-block-occupancy-ratio` option ](https://besu.hyperledger.org/en/stable/public-networks/reference/cli/options/#min-block-occupancy-ratio) make sense on PoW networks where you need to be faster that other nodes in finding a block, so you can set be satisfied when the block produced is enough filled, but on PoS you do not need to compete with other nodes, since you have an allocated slot to produce the block, so in this case make sense to always try to fill the block, until the remaining gas is less than the minimum needed for the smaller transaction.
-So for PoS the `min-block-occupancy-ratio` option is ignored since we always try to fill 100% of the block.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-24 08:37:06 +0000 UTC
     </div>
 </div>
 
