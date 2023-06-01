@@ -14,6 +14,65 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5526" class=".btn">#5526</a>
+            </td>
+            <td>
+                <b>
+                    preload only when value changed
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-01 11:25:21 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5525" class=".btn">#5525</a>
+            </td>
+            <td>
+                <b>
+                    [MINOR] switch QBFT tests to Junit5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">testing</span>
+            </td>
+            <td>
+                statemachine tests have plenty of unnecessary mockings so did not unpick that as part of this PR, went with lenient mockings instead.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-01 08:11:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5523" class=".btn">#5523</a>
             </td>
             <td>
@@ -628,140 +687,6 @@ Due to breaking Clique (in the ATs at least)
     </table>
     <div class="right-align">
         Created At 2023-05-25 22:33:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5498" class=".btn">#5498</a>
-            </td>
-            <td>
-                <b>
-                    Stop evaluating txs for sender after the first skipped one
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-This PR is built on top of  #5492 and #5491 so check them first.
-
-This PR introduce a simple optimization to avoid to waste time validating transactions that will not be selected during the current block creation process. 
-Basically if a sender have more than one prioritized candidate transactions, and for some reason any of them is not selected during the block creation process, it make no sense to keep evaluating any more transaction after the skipped one, since it will not be selected due to the nonce gap.
-
-Enabling the selection stats implemented in #5492 is it possible to see the difference before and after this PR, the wasted validation work that we are removing is represented by the `INVALID_TRANSIENT(NONCE_TOO_HIGH)` label.
-
-Before
-```
-Selection stats: Totals[Evaluated=2000, Selected=109, Skipped=1891, Dropped=0]; Detailed[INVALID_TRANSIENT(GAS_PRICE_BELOW_CURRENT_BASE_FEE)=1712, INVALID_TRANSIENT(NONCE_TOO_HIGH)=158, INVALID_TRANSIENT(TX_TOO_LARGE_FOR_REMAINING_GAS)=21, SELECTED=109]
-```
-
-After
-```
-Selection stats: Totals[Evaluated=1743, Selected=126, Skipped=1617, Dropped=0]; Detailed[INVALID_TRANSIENT(GAS_PRICE_BELOW_CURRENT_BASE_FEE)=1600, INVALID_TRANSIENT(TX_TOO_LARGE_FOR_REMAINING_GAS)=17, SELECTED=126]
-```
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-25 09:26:12 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5497" class=".btn">#5497</a>
-            </td>
-            <td>
-                <b>
-                    Remove maybeHead from BackwardSyncContext
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span>
-            </td>
-            <td>
-                # Summary of Changes
-
-* Remove what appears to be a redundant global variable, `maybeHead`. When backwards sync is performed, this can cause besu to incorrectly jump back to a much older block instead of a recent block.
-* Add logging to help debug these issues
-
-# Context 
-
-This is a partial fix for issues noticed on recent nimbus-besu combos: https://github.com/hyperledger/besu/issues/5411
-Note, there are still issues due to nimbus behaviour, so there is instability when restarting Nimbus for a period of about an hour where it gets in sync but falls out again repeatedly.
-
-It should prevent the issue where we see large "reorgs" in the logs e.g.:
-```
-{"@timestamp":"2023-04-27T00:47:24,241","level":"WARN","thread":"vert.x-worker-thread-0","class":"DefaultBlockchain","message":"Chain Reorganization +192 new / -0 old
-       Old - hash: 0xbca29e861aabf1b975cde3ee6f147a86ad8de3bfab1a39bfb2d98594a72eb63d, height: 3368145
-       New - hash: 0xd1fb6c37bf03b2ed56bfd07699e9097119f143b600f4a33e4010edee3261a75a, height: 3368337
-  Ancestor - hash: 0xbca29e861aabf1b975cde3ee6f147a86ad8de3bfab1a39bfb2d98594a72eb63d, height: 3368145","throwable":""}
-{"@timestamp":"2023-04-27T00:47:24,670","level":"WARN","thread":"nioEventLoopGroup-3-9","class":"DefaultBlockchain","message":"Chain Reorganization +0 new / -192 old
-       Old - hash: 0xd1fb6c37bf03b2ed56bfd07699e9097119f143b600f4a33e4010edee3261a75a, height: 3368337
-       New - hash: 0xbca29e861aabf1b975cde3ee6f147a86ad8de3bfab1a39bfb2d98594a72eb63d, height: 3368145
-  Ancestor - hash: 0xbca29e861aabf1b975cde3ee6f147a86ad8de3bfab1a39bfb2d98594a72eb63d, height: 3368145","throwable":""}
-  ```
-  
-because instead of rewinding back to an incorrectly maintained `maybeHead` hash, it will rewind back to the hash that was given to it in the FCU or newPayload.
-
-Note, we still see these reorgs when Prysm lock-steps syncs in batches of ~50 newPayloads
-
-# Testing
-
-This goal of this testing was to ensure the node could get back into sync in each scenario (and also explore the various CL syncing strategies but that's not relevant for this PR). Testing was done on Sepolia, unless otherwise mentioned
-
-- Initial Sync (performs backwards sync as last stage)
-- Scenario 1: CL restart
-- Scenario 2: CL short downtime: 30 - 120 mins
-- Scenario 3: CL long downtime: 7 hours
-- Scenario 4: Besu short downtime: 30 - 60 mins
-- Scenario 5: Besu long downtime: 3 - 5 hours
-- Scenario 6: Besu longer downtime: 20 hours
-
-| Scenario/CL | Nimbus | Teku | Prysm | Lighthouse | Lodestar | Nimbus Mainnet | Teku Mainnet |
---|--|--|--|--|--|--|--|
-| Initial Sync | ✅  | ✅ | ✅  | ✅  | ✅  | ✅ | ✅  |
-| Scenario 1 | ✅  | ✅ | ✅  | ✅  | ✅  | ✅  | ✅  |
-| Scenario 2 | ✅  | ✅ | ✅  | ✅  | ✅  |
-| Scenario 3 |  | ✅ | ❓* |  |   |
-| Scenario 4 | ✅  | ✅ | ✅  | ✅  |  |
-| Scenario 5 |  | ✅ |  ✅ |  | ✅  |
-| Scenario 6 |  | ✅ |  ✅  |  |  |
-
-* Prysm Scenario 3 was a 43 hour downtime. With Prysm's lock-step it is a slow recovery (so not actually backwards sync anyway)...it was quicker to recover by resyncing prysm.
-
-# Impact
-
-Scenario 1 with Nimbus (the main driver for this fix) before and after the fix:
-
-BEFORE
-<img width="1612" alt="nimbus-without-fix" src="https://github.com/hyperledger/besu/assets/2893793/18cf7810-034c-41a9-bc86-5b2ddb8d350e">
-
-AFTER
-<img width="1607" alt="nimbus-with-fix" src="https://github.com/hyperledger/besu/assets/2893793/95934c65-4c09-446f-862c-0db83c38f56f">
-
-After being restarted, Nimbus on Sepolia takes some time to find peers, so it is maybe getting more towards Scenario 2. No lock-step is attempted, instead Nimbus causes a few small backward syncs with some halts in between. 
-The main difference with before is that besu is only backward syncing a few blocks rather than many hundreds due to the Besu bug.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-25 07:31:43 +0000 UTC
     </div>
 </div>
 

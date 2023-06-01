@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/fabric-samples
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1049" class=".btn">#1049</a>
+            </td>
+            <td>
+                <b>
+                    Update token_contract.go, modify the overflow judgment condition for function add().
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The general overflow  judgment condition for function add is not in every case.
+for example, b = 5, q = -3, sum = 2, 
+if (sum < q) == (b >= 0 && q >= 0) wil be true.
+I modify this line for making it satisfied with every case.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-01 06:32:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-samples/pull/1048" class=".btn">#1048</a>
             </td>
             <td>
@@ -60,32 +89,6 @@ Running ./network.sh createChannel -bft will initiate a channel running BFT orde
     </table>
     <div class="right-align">
         Created At 2023-05-31 17:16:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-samples/pull/1044" class=".btn">#1044</a>
-            </td>
-            <td>
-                <b>
-                    chore(docs): fix discord link
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-25 13:25:28 +0000 UTC
     </div>
 </div>
 
