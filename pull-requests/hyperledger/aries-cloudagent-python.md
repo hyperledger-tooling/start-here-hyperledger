@@ -140,29 +140,3 @@ cc @lohanspies @ff137
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-cloudagent-python/pull/2241" class=".btn">#2241</a>
-            </td>
-            <td>
-                <b>
-                    Feat: Added support for Ed25519Signature2020 signature type
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-25 15:37:13 +0000 UTC
-    </div>
-</div>
-

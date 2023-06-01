@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/110" class=".btn">#110</a>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operator/pull/112" class=".btn">#112</a>
             </td>
             <td>
                 <b>
-                    Removed IBM Confidencial License
+                    Add peer/orderer config updates and handle upgrades
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger-labs/fabric-operator
                 
             </td>
             <td>
-                https://github.com/hyperledger-labs/fabric-operator/issues/109
+                https://github.com/hyperledger-labs/fabric-operator/issues/111
+
+Signed-off-by: asararatnakar <asara.ratnakar@gmail.com>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-18 05:42:56 +0000 UTC
+        Created At 2023-06-01 16:03:00 +0000 UTC
     </div>
 </div>
 
