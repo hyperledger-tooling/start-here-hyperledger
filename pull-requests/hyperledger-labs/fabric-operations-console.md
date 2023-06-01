@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/487" class=".btn">#487</a>
+            </td>
+            <td>
+                <b>
+                    Fix button size
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+Fixes the width of the button container to match the side panel
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-31 20:07:16 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/486" class=".btn">#486</a>
             </td>
             <td>

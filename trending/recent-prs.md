@@ -1,13 +1,13 @@
 
-[1047](https://github.com/hyperledger/fabric-samples/pull/1047) Fix test-network to work with BFT consensus.
+[1048](https://github.com/hyperledger/fabric-samples/pull/1048) Fix typo
 
-[4248](https://github.com/hyperledger/fabric/pull/4248) Make AmMemberOf to use only the mspIDs in collection policy (release-2.2)
+[5522](https://github.com/hyperledger/besu/pull/5522) Make docker commands easier to debug during upload and manifest creation
 
-[486](https://github.com/hyperledger-labs/fabric-operations-console/pull/486) fixes passport setup during oauth switching
+[1345](https://github.com/hyperledger/solang/pull/1345) `@payer` annotation should declare an account
 
-[3549](https://github.com/hyperledger/iroha/pull/3549) [fix] #3548: Fix IntoSchema transparent attribute
+[487](https://github.com/hyperledger-labs/fabric-operations-console/pull/487) Fix button size
 
-[4246](https://github.com/hyperledger/fabric/pull/4246) Make AmMemberOf to use only the mspIDs in collection policy (backport #4244)
+[3551](https://github.com/hyperledger/iroha/pull/3551) [feature] #3330: Extend `NumericValue` deserialisation
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
