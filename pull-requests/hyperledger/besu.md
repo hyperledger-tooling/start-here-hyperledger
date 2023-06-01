@@ -14,11 +14,41 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5522" class=".btn">#5522</a>
+            </td>
+            <td>
+                <b>
+                    Make docker commands easier to debug during upload and manifest creation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">TeamGroot</span>
+            </td>
+            <td>
+                Debugging for https://github.com/hyperledger/besu/issues/5521
+
+Print out commands being executed
+
+Separate out docker push and docker manifest push commands for release to make it easier to spot which one fails in #5521 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-31 22:31:20 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5520" class=".btn">#5520</a>
             </td>
             <td>
                 <b>
-                    wip - added versioned hashes checking
+                    [4844] wip - added versioned hashes checking
                 </b>
             </td>
         </tr>
@@ -627,144 +657,54 @@ Selection stats: Totals[Evaluated=1743, Selected=126, Skipped=1617, Dropped=0]; 
                 <span class="chip">TeamGroot</span>
             </td>
             <td>
-                Built on top of https://github.com/hyperledger/besu/pull/5470
+                # Summary
+
+* Remove what appears to be a redundant global variable, `maybeHead`. When backwards sync is performed, this can cause besu to incorrectly jump back to a much older block instead of a recent block.
+* Add logging to help debug these issues
+
+This is a partial fix for issues noticed on recent nimbus-besu combos: https://github.com/hyperledger/besu/issues/5411
+It may help with lock-step issues seen on prysm-besu combos as well.
+
+It should prevent the issue where we see large `reorgs` in the logs e.g.:
+```
+{"@timestamp":"2023-04-27T00:47:24,241","level":"WARN","thread":"vert.x-worker-thread-0","class":"DefaultBlockchain","message":"Chain Reorganization +192 new / -0 old
+       Old - hash: 0xbca29e861aabf1b975cde3ee6f147a86ad8de3bfab1a39bfb2d98594a72eb63d, height: 3368145
+       New - hash: 0xd1fb6c37bf03b2ed56bfd07699e9097119f143b600f4a33e4010edee3261a75a, height: 3368337
+  Ancestor - hash: 0xbca29e861aabf1b975cde3ee6f147a86ad8de3bfab1a39bfb2d98594a72eb63d, height: 3368145","throwable":""}
+{"@timestamp":"2023-04-27T00:47:24,670","level":"WARN","thread":"nioEventLoopGroup-3-9","class":"DefaultBlockchain","message":"Chain Reorganization +0 new / -192 old
+       Old - hash: 0xd1fb6c37bf03b2ed56bfd07699e9097119f143b600f4a33e4010edee3261a75a, height: 3368337
+       New - hash: 0xbca29e861aabf1b975cde3ee6f147a86ad8de3bfab1a39bfb2d98594a72eb63d, height: 3368145
+  Ancestor - hash: 0xbca29e861aabf1b975cde3ee6f147a86ad8de3bfab1a39bfb2d98594a72eb63d, height: 3368145","throwable":""}
+  ```
+  
+because instead of rewinding back to an incorrectly maintained `maybeHead` hash, it will rewind back to the hash that was given to it in the FCU or newPayload.
+
+# Testing
+
+This goal of this testing was to ensure the node could get back into sync in each scenario (and also explore the various CL syncing strategies but that's not relevant for this PR). Testing was done on Sepolia, unless otherwise mentioned
+
+- Initial Sync (performs backwards sync as last stage)
+- Scenario 1: CL restart
+- Scenario 2: CL short downtime: 30 - 120 mins
+- Scenario 3: CL long downtime: 7 hours
+- Scenario 4: Besu short downtime: 30 - 60 mins
+- Scenario 5: Besu long downtime: 3 - 5 hours
+- Scenario 6: Besu longer downtime: 20 hours
+
+| Scenario/CL | Nimbus | Teku | Prysm | Lighthouse | Lodestar | Nimbus Mainnet | Teku Mainnet |
+--|--|--|--|--|--|--|--|
+| Initial Sync | ✅  | ✅ | ✅  | ✅  | ✅  | ✅ | ✅  |
+| Scenario 1 | ✅  | ✅ | ✅  | ✅  | ✅  |
+| Scenario 2 | ✅  | ✅ | ✅  | ✅  | ✅  |
+| Scenario 3 |  | ✅ |  |  |   |
+| Scenario 4 | ✅  | ✅ | ✅  | ✅  |  |
+| Scenario 5 |  | ✅ |  ✅ |  | ✅  |
+| Scenario 6 |  | ✅ |  ✅  |  |  |
             </td>
         </tr>
     </table>
     <div class="right-align">
         Created At 2023-05-25 07:31:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5496" class=".btn">#5496</a>
-            </td>
-            <td>
-                <b>
-                    GraphQL Support for withdrawals
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add support for withdrawals in GraphQL, including needed changes to testing infrastructure for shanghai-era blocks.
-Also align existing adapters with graphql schema optionality.
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-25 01:04:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5495" class=".btn">#5495</a>
-            </td>
-            <td>
-                <b>
-                    NPE in peer discovery disconnect
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-encountered during testing.  Quick fix.
-
-```
-...
-rocketpool_eth1  | 2023-05-24 23:45:06.677+00:00 | Timer-0 | INFO  | DNSResolver | Resolved 2409 nodes
-rocketpool_eth1  | 2023-05-24 23:45:34.417+00:00 | vert.x-eventloop-thread-3 | ERROR | ContextBase | Unhandled exception
-rocketpool_eth1  | java.lang.NullPointerException: Cannot invoke "java.util.Map.remove(java.lang.Object)" because "peerInteractionStateMap" is null
-rocketpool_eth1  |      at org.hyperledger.besu.ethereum.p2p.discovery.internal.PeerDiscoveryController$PeerInteractionState.execute(PeerDiscoveryController.java:802)
-rocketpool_eth1  |      at org.hyperledger.besu.ethereum.p2p.discovery.internal.PeerDiscoveryController$PeerInteractionState.lambda$execute$0(PeerDiscoveryController.java:797)
-rocketpool_eth1  |      at org.hyperledger.besu.ethereum.p2p.discovery.internal.VertxTimerUtil.lambda$setTimer$1(VertxTimerUtil.java:34)
-rocketpool_eth1  |      at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:932)
-rocketpool_eth1  |      at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:903)
-rocketpool_eth1  |      at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:55)
-rocketpool_eth1  |      at io.vertx.core.impl.ContextBase.emit(ContextBase.java:239)
-rocketpool_eth1  |      at io.vertx.core.impl.ContextInternal.emit(ContextInternal.java:194)
-rocketpool_eth1  |      at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:921)
-rocketpool_eth1  |      at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
-rocketpool_eth1  |      at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:153)
-rocketpool_eth1  |      at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
-rocketpool_eth1  |      at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
-rocketpool_eth1  |      at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
-rocketpool_eth1  |      at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:406)
-rocketpool_eth1  |      at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-rocketpool_eth1  |      at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-rocketpool_eth1  |      at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-rocketpool_eth1  |      at java.base/java.lang.Thread.run(Thread.java:857)
-```
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-24 23:55:58 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5493" class=".btn">#5493</a>
-            </td>
-            <td>
-                <b>
-                    Add MCOPY Operation (EIP-5656)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add the MCOPY operation targeting cancun.
-Testing required adding memory to the text fixture.
-
-<!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-24 20:28:42 +0000 UTC
     </div>
 </div>
 

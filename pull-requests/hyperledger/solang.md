@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1345" class=".btn">#1345</a>
+            </td>
+            <td>
+                <b>
+                    `@payer` annotation should declare an account
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-31 20:22:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1343" class=".btn">#1343</a>
             </td>
             <td>
@@ -426,34 +452,6 @@ Fixes https://github.com/hyperledger/solang/issues/997
     </table>
     <div class="right-align">
         Created At 2023-05-25 10:43:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1325" class=".btn">#1325</a>
-            </td>
-            <td>
-                <b>
-                    Load readonly members in codegen
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Whenever I retrieve a `StructMember` of the `AccountInfo` struct, Solang loads the pointer in emit. As a consequence, if I need to use the pointer again in codegen, I must save values on the stack and get their stack address.
-
-For the new Solana account management, we are generating the `AccountMeta` array in codegen after retrieving the account addresses from `AccountInfo`. In this case, it is more efficient to use the pointer directly.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-24 21:05:38 +0000 UTC
     </div>
 </div>
 

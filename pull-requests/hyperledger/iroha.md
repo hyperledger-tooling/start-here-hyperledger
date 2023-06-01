@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3551" class=".btn">#3551</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #3330: Extend `NumericValue` deserialisation
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+Implemented manual deserialisation for `NumericValue` to circumvent https://github.com/serde-rs/json/issues/846. 
+
+All `NumericValue` instances can now be deserialised from a string directly. 
+
+All instances of `NumericValue::U128` are now preferentially serialised as tagged string-valued enums. Literal syntax deserialisation is supported but discouraged, given the slowness of processing. 
+
+### Linked issue
+
+Closes #3330 
+Closes #3539 
+
+### Benefits
+
+More flexible syntax
+
+### Drawbacks
+
+Potentially slower deserialsation
+
+### Checklist
+
+- [x] Implementation
+- [ ] Self-review
+- [x] tests
+  - [x] ser
+  - [x] de
+  - [x] ToString
+  - [x] FromString
+  - [x] tagged
+- [ ] Review comments
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-31 19:07:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3549" class=".btn">#3549</a>
             </td>
             <td>
