@@ -1,13 +1,13 @@
 
-[v0.2.9-dev.3](https://github.com/hyperledger/aries-askar/releases/tag/v0.2.9-dev.3) v0.2.9-dev.3
+[node_tessera-0.14.0](https://github.com/hyperledger/bevel/releases/tag/node_tessera-0.14.0) node_tessera-0.14.0
 
-[v0.4.0-dev.16](https://github.com/hyperledger/indy-vdr/releases/tag/v0.4.0-dev.16) v0.4.0-dev.16
+[node_orion-0.14.0](https://github.com/hyperledger/bevel/releases/tag/node_orion-0.14.0) node_orion-0.14.0
 
-[v1.2.12](https://github.com/hyperledger/firefly-evmconnect/releases/tag/v1.2.12) v1.2.12
+[v0.14.0.0](https://github.com/hyperledger/bevel/releases/tag/v0.14.0.0) Bevel Release 0.14.0
 
-[v1.2.14](https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.2.14) v1.2.14
+[tessera_key_mgmt-0.14.0](https://github.com/hyperledger/bevel/releases/tag/tessera_key_mgmt-0.14.0) tessera_key_mgmt-0.14.0
 
-[23.4.1](https://github.com/hyperledger/besu-docs/releases/tag/23.4.1) 23.4.1
+[orion_key_mgmt-0.14.0](https://github.com/hyperledger/bevel/releases/tag/orion_key_mgmt-0.14.0) orion_key_mgmt-0.14.0
 
 
 [See more >>>](https://start-here.hyperledger.org/releases)
