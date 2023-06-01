@@ -30,7 +30,7 @@ permalink: /releases/hyperledger/besu
 * A new (optional/experimental) tx pool format that builds great, more profitable local blocks if you are not using MEV-boost. 
 * Networking / peering updates
 * Database storage reductions
-* Fixes for dockers and RPC
+* Fixes for Docker and RPC
 * Mainnet Cancun fork development
 
 ### Breaking Changes
