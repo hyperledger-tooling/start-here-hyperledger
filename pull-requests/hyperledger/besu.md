@@ -14,6 +14,39 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5529" class=".btn">#5529</a>
+            </td>
+            <td>
+                <b>
+                    logging cleanup, giant new payload.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Moved newPayload logging to trace
+
+## Fixed Issue(s)
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-02 14:54:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5527" class=".btn">#5527</a>
             </td>
             <td>

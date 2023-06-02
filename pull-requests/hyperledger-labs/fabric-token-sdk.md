@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger-labs/fabric-token-sdk
             </td>
             <td>
                 <b>
-                    load public params from file if the configuration says so
+                    standalone
                 </b>
             </td>
         </tr>
