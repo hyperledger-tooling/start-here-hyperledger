@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2280" class=".btn">#2280</a>
+            </td>
+            <td>
+                <b>
+                    [ci-skip] enable cactus connector.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ### **Commit to be reviewed**
+---
+
+**feat(quorum): enable Cactus connector for the GoQuorum platform**
+
+```
+This commit introduces the integration of the Cactus connector into the GoQuorum platform. Key highlights of this integration include:
+ • Added Cactus connector to the Quorum platform
+ • The connector promotes interoperability between different decentralized networks, furthering the growth and adoption of blockchain technology.
+ • The integration improves the overall functionality of the system.
+```
+
+fixes #2253
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-02 12:28:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2279" class=".btn">#2279</a>
             </td>
             <td>
@@ -406,71 +444,6 @@ docs/source/operations/setup_cactus_connector_fabric.md
     </table>
     <div class="right-align">
         Created At 2023-05-27 04:04:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2263" class=".btn">#2263</a>
-            </td>
-            <td>
-                <b>
-                    [besu] improve error handling mechanism for vault api calls
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ### **Commit to be reviewed**
----
-
-feat(besu): improve error handling mechanism for vault api calls
-
-```
-This pull request introduces improvements to the error handling mechanism and enhances troubleshooting capabilities in the bevel-vault.sh script. The changes made include:
- • Implemented error handling at the individual function level.
- • Enhanced error message logging for better visibility into failures.
- • Improved error checking and validation.
- • Updated paths in respect of the function calls to reflect the latest changes.
-```
-
-fixes #2260
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-26 11:51:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2262" class=".btn">#2262</a>
-            </td>
-            <td>
-                <b>
-                    [substrate] Update chart readme's
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added readme and updated Chart.yaml so that the helm charts can be made available as a repo.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-26 11:47:31 +0000 UTC
     </div>
 </div>
 

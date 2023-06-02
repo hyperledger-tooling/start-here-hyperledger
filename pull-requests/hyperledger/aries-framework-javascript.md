@@ -183,34 +183,3 @@ You can limit which algs and credential formats you want to allow, so those aren
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1470" class=".btn">#1470</a>
-            </td>
-            <td>
-                <b>
-                    feat: Split AFJ demo for two cases: Main and DidCommV2
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Started work on splitting the Alice/Faber demo into smaller cases. Using this we can add demos for various optional modules.
-
-- `Main` - general demo of issuing credentials and presenting the proof
-- `DidComm V2` - demo reflecting supported didcomm v2 protocols
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-26 08:42:22 +0000 UTC
-    </div>
-</div>
-
