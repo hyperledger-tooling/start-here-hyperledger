@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/781" class=".btn">#781</a>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/784" class=".btn">#784</a>
             </td>
             <td>
                 <b>
-                    using BTreeMap
+                    [RFC0721] Add generic revocation format for anoncreds
                 </b>
             </td>
         </tr>
@@ -27,28 +27,16 @@ permalink: /pull-requests/hyperledger/aries-rfcs
                 
             </td>
             <td>
-                `Use a HashMap when`:
+                Adding a dedicated revocation format entry for AnonCreds in Revocation Notification V2 protocol.
 
-You want to associate arbitrary keys with an arbitrary value.
+I'm not sure if it's actually needed, as we can probably use the existing 'indy-anoncreds' if we consider it appropriate for both indy and the standardized anoncreds specification. At least from the formatting (with the :: as separator) it seems it suits pretty well if all AnonCreds object IDs are URIs.
 
-You want a cache.
-
-You want a map, with no extra functionality.
-
-`Use a BTreeMap when`:
-
-You're interested in what the smallest or largest key-value pair is.
-
-You want to find the largest or smallest key that is smaller or larger than something.
-
-You want to be able to get all of the entries in order on-demand.
-
-You want a map sorted by its keys
+Not sure also if it would be needed to version it (like `anoncreds-v1`) in case AnonCreds V2 data model require a different approach.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-04-15 11:06:01 +0000 UTC
+        Created At 2023-06-01 20:57:01 +0000 UTC
     </div>
 </div>
 
