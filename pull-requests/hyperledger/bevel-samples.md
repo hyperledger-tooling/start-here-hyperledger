@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/bevel-samples
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/bevel-samples/pull/31" class=".btn">#31</a>
+                PR <a href="https://github.com/hyperledger/bevel-samples/pull/32" class=".btn">#32</a>
             </td>
             <td>
                 <b>
-                    [substrate] Updated versions for application
+                    Fixed App cleanup
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/bevel-samples
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-23 11:13:23 +0000 UTC
+        Created At 2023-05-31 13:56:32 +0000 UTC
     </div>
 </div>
 

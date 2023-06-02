@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/214" class=".btn">#214</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/216" class=".btn">#216</a>
             </td>
             <td>
                 <b>
@@ -27,13 +27,13 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
                 
             </td>
             <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
+                Signed-off-by: Berend Sliedrecht <blu3beri@proton.me>
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-25 08:20:04 +0000 UTC
+        Created At 2023-05-31 07:24:15 +0000 UTC
     </div>
 </div>
 
@@ -41,11 +41,11 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/213" class=".btn">#213</a>
+                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/215" class=".btn">#215</a>
             </td>
             <td>
                 <b>
-                    build(android): use custom cross images
+                    fix(rn): android works with JSC and Hermes
                 </b>
             </td>
         </tr>
@@ -54,41 +54,17 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
                 
             </td>
             <td>
-                - Using custom images for building with lower Android support
-- If this fully works the same will be done with https://github.com/hyperledger/aries-askar and https://github.com/hyperledger/indy-vdr
+                Tested with:
 
+RN 66 - JSC 
+RN 66 - Hermes
+RN 71 - JSC
+RN 71 - Hermes
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-24 17:09:59 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/212" class=".btn">#212</a>
-            </td>
-            <td>
-                <b>
-                    build(python): use correct matrix
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-23 18:05:54 +0000 UTC
+        Created At 2023-05-30 18:44:56 +0000 UTC
     </div>
 </div>
 

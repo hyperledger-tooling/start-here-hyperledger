@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/84" class=".btn">#84</a>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/86" class=".btn">#86</a>
             </td>
             <td>
                 <b>
-                    Add GasEstimate FFCAPI implementation
+                    pick fftm 1.2.14 with fix for mtls in fftm client
                 </b>
             </td>
         </tr>
@@ -27,14 +27,40 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
                 
             </td>
             <td>
-                This PR implements the `GasEstimate` FFCAPI method added to `FireFly Transaction Manager` release 1.2.13 (https://github.com/hyperledger/firefly-transaction-manager/releases/tag/v1.2.13)
-
-Most of the logic already existed for internal use in `TransactionPrepare` so this PR primarily just exposes it as an FFCAPI endpoint.
+                pick fftm 1.2.14 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-24 21:12:23 +0000 UTC
+        Created At 2023-05-31 14:47:58 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/85" class=".btn">#85</a>
+            </td>
+            <td>
+                <b>
+                    Work through some untested logic, and update to firefly-signer 1.1.9
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Primary objective was picking up v1.1.9.
+
+I also worked through some logic that was missing unit tests, and did find a bug along the way.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-30 22:18:47 +0000 UTC
     </div>
 </div>
 

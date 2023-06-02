@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1347" class=".btn">#1347</a>
+            </td>
+            <td>
+                <b>
+                    Read compiler configurations from toml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                1- Implement taking solang's configurations from toml file. `solang compile --configuration-file`.
+2- Implement solang new. a command that creates a new directory with a flipper example as well as the corresponding toml file. `solang new --target substrate`.  
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-02 01:48:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1345" class=".btn">#1345</a>
             </td>
             <td>

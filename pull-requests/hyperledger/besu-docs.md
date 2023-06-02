@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/besu-docs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1335" class=".btn">#1335</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1338" class=".btn">#1338</a>
             </td>
             <td>
                 <b>
-                    First draft performance troubleshooting page.
+                    mkdocs to docusaurus
                 </b>
             </td>
         </tr>
@@ -27,10 +27,49 @@ permalink: /pull-requests/hyperledger/besu-docs
                 
             </td>
             <td>
-                ## Describe the change
+                ## Pull request checklist
 
-Adding troubleshooting page to help users with performance issues.
-- [ ] You've fixed any issues raised by the tests.
+Major changes to switch mkdocs -> docusaurus
+
+### Before creating the pull request
+
+Make sure that:
+
+- [X] [All commits in this PR are signed off for the DCO](https://wiki.hyperledger.org/display/BESU/DCO).
+- [X] You've read the [contribution guidelines](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [ ] You've [previewed your changes locally](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation).
+
+## Describe the change
+
+- Removing mkdocs and switching to docusaurus
+- Removing old versions from the versions list (still available as code though)
+- updating to use GHA 
+- will need to be set to use github pages
+## Impacted parts
+
+<!-- Check the item from the following lists that your PR impacts. You can check multiple boxes. -->
+
+For content changes:
+
+- [X] Documentation content
+- [X] Documentation page organization
+
+For tool changes:
+
+- [x] Github Actions workflow
+- [x] Build and QA tools configuration (for example, lint rules or Vale style)
+- [x] MkDocs templates
+- [x] MkDocs configuration
+- [x] Python dependencies
+- [x] Node dependencies and JavaScript
+- [x] Read the Docs configuration
+- [ ] GitHub integration
+
+## After creating your PR and tests have finished
+
+Make sure that:
+
+- [x] You've fixed any issues raised by the tests.
 - [ ] You've [previewed your changes on Read the Docs](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation)
   and added a [preview link](#preview).
 
@@ -46,7 +85,7 @@ where {your PR number} is replaced by the number of this PR.
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-26 16:04:57 +0000 UTC
+        Created At 2023-05-31 01:13:00 +0000 UTC
     </div>
 </div>
 
@@ -54,11 +93,11 @@ where {your PR number} is replaced by the number of this PR.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1334" class=".btn">#1334</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1337" class=".btn">#1337</a>
             </td>
             <td>
                 <b>
-                    Update for OpenJ9 instructions.
+                    Add link to staking calculator
                 </b>
             </td>
         </tr>
@@ -67,20 +106,20 @@ where {your PR number} is replaced by the number of this PR.
                 
             </td>
             <td>
-                ### Description
-Update to add instructions RE openJ9 images. 
-
-### Before creating the pull request
+                ### Before creating the pull request
 
 Make sure that:
 
-- [X] [All commits in this PR are signed off for the DCO](https://wiki.hyperledger.org/display/BESU/DCO).
-- [X] You've read the [contribution guidelines](https://wiki.hyperledger.org/display/BESU/Documentation).
-- [X] You've [previewed your changes locally](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation).
+- [x] [All commits in this PR are signed off for the DCO](https://wiki.hyperledger.org/display/BESU/DCO).
+- [x] You've read the [contribution guidelines](https://wiki.hyperledger.org/display/BESU/Documentation).
+- [x] You've [previewed your changes locally](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation).
 
 ## Describe the change
 
-Adding details for users should they choose to use OpenJ9 Java images. 
+Adding a link to Staking Rewards calculator for validators to see what they can expect to be rewarded.
+## Issue fixed
+
+None
 
 ## Impacted parts
 
@@ -88,22 +127,33 @@ Adding details for users should they choose to use OpenJ9 Java images.
 
 For content changes:
 
-- [X] Documentation content
+- [x] Documentation content
 - [ ] Documentation page organization
 
+For tool changes:
 
+- [ ] Github Actions workflow
+- [ ] Build and QA tools configuration (for example, lint rules or Vale style)
+- [ ] MkDocs templates
+- [ ] MkDocs configuration
+- [ ] Python dependencies
+- [ ] Node dependencies and JavaScript
+- [ ] Read the Docs configuration
+- [ ] GitHub integration
+
+## After creating your PR and tests have finished
 
 Make sure that:
 
-- [ ] You've fixed any issues raised by the tests.
-- [ ] You've [previewed your changes on Read the Docs](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation)
+- [x] You've fixed any issues raised by the tests.
+- [x] You've [previewed your changes on Read the Docs](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation)
   and added a [preview link](#preview).
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-24 18:38:56 +0000 UTC
+        Created At 2023-05-30 21:13:12 +0000 UTC
     </div>
 </div>
 
@@ -111,11 +161,11 @@ Make sure that:
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu-docs/pull/1333" class=".btn">#1333</a>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1336" class=".btn">#1336</a>
             </td>
             <td>
                 <b>
-                    Bump mkdocs-material from 9.1.12 to 9.1.14 in /CI
+                    Bump mkdocs-material from 9.1.14 to 9.1.15 in /CI
                 </b>
             </td>
         </tr>
@@ -124,18 +174,17 @@ Make sure that:
                 <span class="chip">DocOps</span>
             </td>
             <td>
-                Bumps [mkdocs-material](https://github.com/squidfunk/mkdocs-material) from 9.1.12 to 9.1.14.
+                Bumps [mkdocs-material](https://github.com/squidfunk/mkdocs-material) from 9.1.14 to 9.1.15.
 <details>
 <summary>Release notes</summary>
 <p><em>Sourced from <a href="https://github.com/squidfunk/mkdocs-material/releases">mkdocs-material's releases</a>.</em></p>
 <blockquote>
-<h2>mkdocs-material-9.1.14</h2>
+<h2>mkdocs-material-9.1.15</h2>
 <ul>
-<li>Updated Armenian and Greek translations</li>
-</ul>
-<h2>mkdocs-material-9.1.13</h2>
-<ul>
-<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5517">#5517</a>: Social plugin crashes for some fonts (e.g. Open Sans)</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5566">#5566</a>: Indicate color scheme to operating system</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5565">#5565</a>: Update <code>Dockerfile</code> to latest version of base image</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5554">#5554</a>: Add additional version tags (<code>9</code>, <code>9.1</code>) to Docker image</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5536">#5536</a>: Strip tags of ARIA labels in table of contents</li>
 </ul>
 </blockquote>
 </details>
@@ -143,6 +192,17 @@ Make sure that:
 <summary>Changelog</summary>
 <p><em>Sourced from <a href="https://github.com/squidfunk/mkdocs-material/blob/master/CHANGELOG">mkdocs-material's changelog</a>.</em></p>
 <blockquote>
+<p>mkdocs-material-9.1.15+insiders-4.35.2 (2023-05-29)</p>
+<ul>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5555">#5555</a>: Blog plugin crashes when computing readtime for emojis</li>
+</ul>
+<p>mkdocs-material-9.1.15 (2023-05-29)</p>
+<ul>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5566">#5566</a>: Indicate color scheme to operating system</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5565">#5565</a>: Update Dockerfile to latest version of base image</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5554">#5554</a>: Add additional version tags (9, 9.1) to Docker image</li>
+<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5536">#5536</a>: Strip tags of ARIA labels in table of contents</li>
+</ul>
 <p>mkdocs-material-9.1.14+insiders-4.35.1 (2023-05-20)</p>
 <ul>
 <li>Fixed internal handling of errors in social plugin</li>
@@ -182,18 +242,6 @@ Make sure that:
 <li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5446">#5446</a>: Built-in typeset plugin picks up headings in code blocks</li>
 </ul>
 <p>mkdocs-material-9.1.12+insiders-4.33.2 (2023-05-12)</p>
-<ul>
-<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5508">#5508</a>: Social plugin crashes trying to copy cards on Docker/Windows</li>
-<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5507">#5507</a>: Social plugin crashes on serve when layouts folder doesn't exist</li>
-<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5505">#5505</a>: Social plugin trying to resolve logo in wrong location</li>
-<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5496">#5496</a>: Annotations with nested lists incorrectly mounted</li>
-<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5493">#5493</a>: Social plugin crashes on Python 3.8</li>
-</ul>
-<p>mkdocs-material-9.1.12 (2023-05-12)</p>
-<ul>
-<li>Updated Bengali (Bangla) translations</li>
-<li>Fixed <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5503">#5503</a>: Docker image publish errors on uppercase characters</li>
-</ul>
 <!-- raw HTML omitted -->
 </blockquote>
 <p>... (truncated)</p>
@@ -201,23 +249,23 @@ Make sure that:
 <details>
 <summary>Commits</summary>
 <ul>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/d30fa86338505eba9152ee164f394a1d193f0b5e"><code>d30fa86</code></a> Prepare 9.1.14 release</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/f951cff69061bf3f38e871dc4c374e742f0c24cd"><code>f951cff</code></a> Updated translation template</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/168b8b8fdac1109eafe10b3a275d809b4f3d5d98"><code>168b8b8</code></a> Updated Armenian translations</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/bf43e32e0b9e6b52a1016c3be13027b8ee4cd859"><code>bf43e32</code></a> Added WebKit to users</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/d10badb0b277403515dac290282fadf77581939e"><code>d10badb</code></a> Updated Greek translations</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/84122937a9cc56eaedaccbcdbd66b64b59325ad4"><code>8412293</code></a> Updated Insiders changelog</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/7e6ee58da7a62200b71c0dc6e0feee5f4b4876fd"><code>7e6ee58</code></a> Prepare 9.1.13 release</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/0f4aed3d5753b0a138f6f31f5b64509b84b5248b"><code>0f4aed3</code></a> Merge pull request <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5518">#5518</a> from icebreakerone/master</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/fdf8362d5079189b120170b77fffabedd5f76220"><code>fdf8362</code></a> Merge remote-tracking branch 'upstream/master'</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material/commit/facfa5c218a04a6f264a94bb9be4f8610a6e3368"><code>facfa5c</code></a> Updated dependencies</li>
-<li>Additional commits viewable in <a href="https://github.com/squidfunk/mkdocs-material/compare/9.1.12...9.1.14">compare view</a></li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/06d1ba1337703bd6deed9b13b33516abc2e81b72"><code>06d1ba1</code></a> Prepare 9.1.15 release</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/3d706407d96fbc7d87b11f24da13d389e6879c36"><code>3d70640</code></a> Updated dependencies</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/0f1866b108d06eb18f9610f211439badb41cbca1"><code>0f1866b</code></a> Documentation</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/aa4befa429971e9e55af09c5021f9f9b2340a05d"><code>aa4befa</code></a> Merge branch 'master' of github.com:squidfunk/mkdocs-material</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/fe0c966a4da16861e3fbe9064afcae3cc3d7c6fa"><code>fe0c966</code></a> Added color-scheme property to indicate color scheme to OS</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/2fa92de28dd4f455f6206c958e79cbec1203bc98"><code>2fa92de</code></a> Merge pull request <a href="https://redirect.github.com/squidfunk/mkdocs-material/issues/5565">#5565</a> from yubiuser/update_docker</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/7c19f464ad5b42bb2497785b3a12ecc0daa95206"><code>7c19f46</code></a> Only user major.minor for python version</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/f37702a8fbb62ee35e45f57a462d8be540856c44"><code>f37702a</code></a> Added major.minor and major tags to Docker image</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/e0b3022be64456442aa51a90c57a8530998d576e"><code>e0b3022</code></a> Update Dockerfile to latest alpine</li>
+<li><a href="https://github.com/squidfunk/mkdocs-material/commit/f84725d4fcd8960090063d58f18fb01973b55370"><code>f84725d</code></a> Added tutorial on building custom social cards</li>
+<li>Additional commits viewable in <a href="https://github.com/squidfunk/mkdocs-material/compare/9.1.14...9.1.15">compare view</a></li>
 </ul>
 </details>
 <br />
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=mkdocs-material&package-manager=pip&previous-version=9.1.12&new-version=9.1.14)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=mkdocs-material&package-manager=pip&previous-version=9.1.14&new-version=9.1.15)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
 
 Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
 
@@ -248,7 +296,47 @@ You can trigger Dependabot actions by commenting on this PR:
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-22 23:58:28 +0000 UTC
+        Created At 2023-05-29 23:58:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu-docs/pull/1335" class=".btn">#1335</a>
+            </td>
+            <td>
+                <b>
+                    First draft performance troubleshooting page.
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## Describe the change
+
+Adding troubleshooting page to help users with performance issues.
+- [ ] You've fixed any issues raised by the tests.
+- [ ] You've [previewed your changes on Read the Docs](https://wiki.hyperledger.org/display/BESU/Preview+the+documentation)
+  and added a [preview link](#preview).
+
+## Preview
+
+<!-- Add the link to preview your changes on Read the Docs.
+
+The link format is "https://hyperledger-besu--{your PR number}.org.readthedocs.build/en/{your PR number}/",
+where {your PR number} is replaced by the number of this PR.
+-->
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-26 16:04:57 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/fabric-admin-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/131" class=".btn">#131</a>
+            </td>
+            <td>
+                <b>
+                    Update channel API for consistency with chaincode API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - Callers no longer need to know about and create their own protobuf client stubs. Instead, appropriate client stubs are created using a supplied gRPC connection.
+- Callers supply a Context that is used for gRPC invocations, which allows control of timeouts and cancellation of gRPC invocations. Previously invocations used context.Background() and could not be cancelled without terminating the client application.
+- Parameters for functions that drive gRPC invocations are of the form `func(ctx context.Context, connection grpc.ClientConnInterface, id identity.SigningIdentity, ...)`
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-31 13:38:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/130" class=".btn">#130</a>
             </td>
             <td>
