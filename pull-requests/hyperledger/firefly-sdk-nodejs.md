@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/68" class=".btn">#68</a>
+                PR <a href="https://github.com/hyperledger/firefly-sdk-nodejs/pull/69" class=".btn">#69</a>
             </td>
             <td>
                 <b>
-                    Use Readable for return type of getDataBlob
+                    Add publish boolean parameter for creation of token pools, interfaces…
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger/firefly-sdk-nodejs
                 
             </td>
             <td>
-                <nil>
+                …, and APIs
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-03 19:47:48 +0000 UTC
+        Created At 2023-05-31 09:51:40 +0000 UTC
     </div>
 </div>
 

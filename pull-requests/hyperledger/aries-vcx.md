@@ -14,136 +14,11 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/863" class=".btn">#863</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/867" class=".btn">#867</a>
             </td>
             <td>
                 <b>
-                    Remove reliance of IndyVdrLedger on global state
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span>
-            </td>
-            <td>
-                Makes `ProtocolVersion` and `TxnAuthrAgrmtAcceptanceData` injectable to `IndyVdrLedgerRead` and `IndyVdrLedgerWrite` on construction, thus removing their reliance on global `settings`. Also:
-* adds TAA ledger response parsing, and
-* `get_txn_author_agreement` now returns `VcxCoreResult<Option<String>>` instead of `VcxCoreResult<String>` - however all getter methods should follow the same pattern.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-24 13:48:44 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/862" class=".btn">#862</a>
-            </td>
-            <td>
-                <b>
-                    Split IndyVdrLedger and IndySdkLedger
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span>
-            </td>
-            <td>
-                Splits 
-* `IndyVdrLedger` -> `IndyVdrLedgerRead` & `IndyVdrLedgerWrite`, and
-* `IndySdkLedger` -> `IndySdkLedgerRead` & `IndySdkLedgerWrite`
-
-This allows each implementation to use only what it needs (e.g. `IndyVdrLedgerRead` variant doesn't need `RequestSigner`, `IndyVdrLedgerWrite` doesn't need `ResponseCacher` and `ResponseParser`). Moreover, since both are initialized separately, a `IndyLedgerRead` implementation can be used to initialize a `IndyLedgerWrite` implementation.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-24 10:55:30 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/861" class=".btn">#861</a>
-            </td>
-            <td>
-                <b>
-                    Split BaseLedger trait
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span>
-            </td>
-            <td>
-                Splits `BaseLedger` trait into smaller ones:
-* `AnoncredsLedgerRead` - methods for resolving Anoncreds primitives
-* `AnoncredsLedgerWrite` - methods for registering Anoncreds primitives
-* `IndyLedgerRead` - methods for reading Indy-specific transactions from the ledger
-* `IndyLedgerWrite` - methods for writing Indy-specific transactions to the Ledger
-
-Among other things, this allows eventual elimination of TAA stored in global state by building the "reader" which allows to obtain the TAA from ledger and use said TAA to construct a "writer" which needs TAA to write to the ledger.
-
-The associated methods `set_endorser` and `endorse_transaction` may stand out:
-* The method `set_endorser`, temporarily associated with `IndyLedgerRead`, does not read from the ledger, but merely modifies a transaction.
-* The method `endorse_transaction`, temporarily associated with `IndyLedgerWrite`, again only manipulates an existing transaction (adds a multisignature) before submitting.
-The pattern with the remaining methods is that a ledger-specific request is built from scratch using the supplied data and submitted to the ledger. Perhaps therefore, local modification of existing requests should not be the responsibility of mentioned traits.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-24 05:19:56 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/860" class=".btn">#860</a>
-            </td>
-            <td>
-                <b>
-                    Remove vcx_schema_prepare_for_endorser
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">refactoring</span>
-            </td>
-            <td>
-                Removes:
-* `sign_and_submit_request` from `BaseLedger`
-* `build_schema_request` from `BaseLedger`
-* `vcx_schema_prepare_for_endorser` from `api_c`
-* `test_vcx_endorse_schema` test
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-23 12:06:29 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/859" class=".btn">#859</a>
-            </td>
-            <td>
-                <b>
-                    Release 0.56.0
+                    Feature/cred migrator
                 </b>
             </td>
         </tr>
@@ -152,12 +27,107 @@ The pattern with the remaining methods is that a ledger-specific request is buil
                 
             </td>
             <td>
-                <nil>
+                TODO
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-22 14:12:27 +0000 UTC
+        Created At 2023-06-01 15:51:02 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/866" class=".btn">#866</a>
+            </td>
+            <td>
+                <b>
+                    Refactor messages crate tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fix: #822 
+
+Just want to know that the direction in which I'm going is upright! For using the `Static JSON` in message crate tests
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-01 13:57:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/865" class=".btn">#865</a>
+            </td>
+            <td>
+                <b>
+                    Make DidDocument's service generic over method-specific fields
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                As it was decided that `DidDocument` integration will be postponed, this PR cherry-picks those changes made in #864 which are isolated to the new crates and thus can be merged independently from the `DidDocument` integration.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-01 13:27:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/864" class=".btn">#864</a>
+            </td>
+            <td>
+                <b>
+                    WIP: DidDocument integration
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">breaking</span><span class="chip">integration</span>
+            </td>
+            <td>
+                Replaces the use of
+* `diddoc_legacy::aries::diddoc::AriesDidDoc` with `did_doc::schema::did_doc::DidDocument`, and
+* `diddoc_legacy::aries::service::AriesService` with `did_doc::schema::service::Service`
+across the aries-vcx codebase.
+
+Integration with mediated connection is skipped and `diddoc_legacy` will be removed along with `mediated_connection`.
+
+The method specific fields of the service struct are now set via a type associated with the `DidResolvable` trait, where only fields specific to the sovrin method are used in the codebase for now. This choice impacts the current implementation of the resolver registry, which needs to be reconsidered.
+
+Moreover, currently, the service type is set manually during the construction of the `DidDocument`, and the `accept` field is not set at all. However, as per the [Sovrin DID method specification](https://sovrin-foundation.github.io/sovrin/spec/did-method-spec-template.html#crud-operation-definitions), the value of those two fields is implied by the composition of / fields included in the service. This suggests that potentially we might want to wrap the `DidDocumentBuilder` in some kind of `DidDocumentBuilderSov` responsible for this method-specific logic in the future.
+
+This would be also useful because the extra fields are defined in `did_resolver_sov`. In some use-cases, the entire resolver is imported only for the extra fields needed in order to name the `DidDocument` or `Service` type.
+
+The DID parser fails to parse any did which is not fully qualified. This is desirable in cases where fully qualified DID is required as it forces early failure. But in situations where the method is implied, an unqualified DID may also be valid and usable. Therefore, perhaps a separate type should be created to be used in these cases.
+
+As it stands, this integration is a breaking change as it changes the format of the `did_doc` field in the serialized connection state machines in both non-backwards-compatible and non-forwards-compatible way (e.g. some fields optional in the legacy format are now required and `publicKey` used in the legacy format is not a valid DDO field - it can probably be mapped to another valid field when deserializing, but currently isn't).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-30 18:12:50 +0000 UTC
     </div>
 </div>
 

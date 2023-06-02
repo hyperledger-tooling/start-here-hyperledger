@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/toc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/120" class=".btn">#120</a>
+                PR <a href="https://github.com/hyperledger/toc/pull/122" class=".btn">#122</a>
             </td>
             <td>
                 <b>
-                    2023-06-01 Agenda
+                    Remove WG reference and add comment about dormancy
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/toc
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-25 16:41:44 +0000 UTC
+        Created At 2023-06-01 16:58:34 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/toc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/119" class=".btn">#119</a>
+                PR <a href="https://github.com/hyperledger/toc/pull/121" class=".btn">#121</a>
             </td>
             <td>
                 <b>
-                    Add merged project report links
+                    2023-06-08 TOC Meeting Agenda
                 </b>
             </td>
         </tr>
@@ -58,59 +58,7 @@ permalink: /pull-requests/hyperledger/toc
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-25 16:36:53 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/118" class=".btn">#118</a>
-            </td>
-            <td>
-                <b>
-                    Correct date in metadata
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-25 16:09:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/117" class=".btn">#117</a>
-            </td>
-            <td>
-                <b>
-                    May 25, 2023 Agenda
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-22 21:04:09 +0000 UTC
+        Created At 2023-06-01 16:53:23 +0000 UTC
     </div>
 </div>
 

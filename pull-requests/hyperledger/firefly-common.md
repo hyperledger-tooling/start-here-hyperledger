@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/69" class=".btn">#69</a>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/70" class=".btn">#70</a>
             </td>
             <td>
                 <b>
-                    TLS Client Auth - Subject DN Validation
+                    feat: Add nested array config
                 </b>
             </td>
         </tr>
@@ -27,14 +27,23 @@ permalink: /pull-requests/hyperledger/firefly-common
                 
             </td>
             <td>
-                In PR chain with #68 
+                As part of another feature I want to be able to add nested arrays such as:
+```
+namespaces:
+  predefined:
+  - name: myns
+    tlsConfigs:
+    - name: myconfig
+      tls:
+        enabled: true
+```
 
-Provides subject distinguished name validation option, so that in addition to specifying the set of CAs that are valid, a set of match criteria can be applied to the subject of the certificate.
+This is not currently possible and this PR adds that support. Let me know if I missed out on anything!
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-18 03:23:39 +0000 UTC
+        Created At 2023-05-31 10:58:02 +0000 UTC
     </div>
 </div>
 

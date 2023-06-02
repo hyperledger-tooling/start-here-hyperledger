@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/170" class=".btn">#170</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/171" class=".btn">#171</a>
             </td>
             <td>
                 <b>
-                    BCW remove credential declined page object
+                    BCW adjust remove contact test details
                 </b>
             </td>
         </tr>
@@ -27,38 +27,12 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
                 
             </td>
             <td>
-                The BC Wallet has changed the flow when declining a cred or proof, there is no longer a final Credential Declined page. When the credential decline is confirmed, it goes directly to the Home screen. 
+                The PR fixes some changed details when the BC Wallet user removes a contact. 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-15 19:02:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/169" class=".btn">#169</a>
-            </td>
-            <td>
-                <b>
-                    Anchor Appium at 2.9.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Android test may fail with 2.9.1+ of the Appium Python Client. The BCW tests that restarted the app, gave a message Unknown mobile command "activateApp". Pinning at 2.9.0 resolved this issue. May be able unpin when this issue is fixed in the library. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-15 18:17:53 +0000 UTC
+        Created At 2023-05-29 18:16:57 +0000 UTC
     </div>
 </div>
 

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/116" class=".btn">#116</a>
+                PR <a href="https://github.com/hyperledger/firefly-sandbox/pull/117" class=".btn">#117</a>
             </td>
             <td>
                 <b>
-                    chore(docs): fix discord link
+                    Add support for optionally publishing token pools, interfaces, and APIs
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/firefly-sandbox
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-25 13:31:39 +0000 UTC
+        Created At 2023-06-01 15:14:25 +0000 UTC
     </div>
 </div>
 

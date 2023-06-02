@@ -14,7 +14,7 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/145" class=".btn">#145</a>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/148" class=".btn">#148</a>
             </td>
             <td>
                 <b>
@@ -27,13 +27,13 @@ permalink: /pull-requests/hyperledger/aries-askar
                 
             </td>
             <td>
-                Signed-off-by: blu3beri <blu3beri@proton.me>
+                Signed-off-by: Berend Sliedrecht <blu3beri@proton.me>
 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-25 17:08:39 +0000 UTC
+        Created At 2023-06-01 07:12:22 +0000 UTC
     </div>
 </div>
 
@@ -41,11 +41,11 @@ permalink: /pull-requests/hyperledger/aries-askar
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/144" class=".btn">#144</a>
+                PR <a href="https://github.com/hyperledger/aries-askar/pull/147" class=".btn">#147</a>
             </td>
             <td>
                 <b>
-                    build(android): use custom cross images
+                    fix(rn): android works with JSC and Hermes
                 </b>
             </td>
         </tr>
@@ -54,12 +54,13 @@ permalink: /pull-requests/hyperledger/aries-askar
                 
             </td>
             <td>
-                - Same as https://github.com/hyperledger/anoncreds-rs/commit/5dacac80751971a90f8920e068f3434fe971d343
+                Signed-off-by: Berend Sliedrecht <blu3beri@proton.me>
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-25 11:27:21 +0000 UTC
+        Created At 2023-05-31 19:51:50 +0000 UTC
     </div>
 </div>
 

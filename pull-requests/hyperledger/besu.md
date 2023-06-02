@@ -268,39 +268,6 @@ Added in response to #5456, and seems suitable to add to main.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5515" class=".btn">#5515</a>
-            </td>
-            <td>
-                <b>
-                    [4844] Remove SSZ
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-30 01:55:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5514" class=".btn">#5514</a>
             </td>
             <td>
@@ -549,63 +516,6 @@ string values.
     </table>
     <div class="right-align">
         Created At 2023-05-26 19:32:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5504" class=".btn">#5504</a>
-            </td>
-            <td>
-                <b>
-                    Prepare for next version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-26 04:38:03 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5503" class=".btn">#5503</a>
-            </td>
-            <td>
-                <b>
-                    Change disconnect peer message to debug level.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Change the peer disconnect message to debug level. Since that's not useful to end users.
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-26 01:28:42 +0000 UTC
     </div>
 </div>
 

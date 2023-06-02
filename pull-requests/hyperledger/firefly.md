@@ -14,6 +14,152 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1331" class=".btn">#1331</a>
+            </td>
+            <td>
+                <b>
+                    Process batch of events from Blockchain connector, in a single DB TX
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                One of the outstanding observations from the performance testing in V1.2 was that we are performing a DB commit for each Blockchain event.
+
+These are sequential on the single logical delivery thread from the blockchain connector (which currently is server-wide, although that should itself become namespace-wide).
+
+This PR proposes that instead we update all the internal callback interfaces, to propagate the batch of events that come in over the wire from the connector, through to the event processor.
+
+This means a few things handled in this PR:
+1. Handling a batch that contains events of multiple types -  Batch Pin, Network Action, or custom Blockchain Event Listener
+2. Handling a batch that needs different events dispatching to different namespaces
+3. Continuing to handle old events that didn't come with a namespace at all (these are dispatched to all registered namespaces)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-01 05:48:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1330" class=".btn">#1330</a>
+            </td>
+            <td>
+                <b>
+                    feat: TLS Configs for Webhooks
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Sitting in draft as there is some more extend testing that needs to be done but this is the general idea I was going for. 
+
+Have tested it e2e with a local server secured with mTLS and it works.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-31 16:37:51 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1329" class=".btn">#1329</a>
+            </td>
+            <td>
+                <b>
+                    Do not perform key resolution when looking up multiparty root org
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Currently whenever we look up root org details in multiparty mode, we are also performing key resolution on the org's default signing key every time. This is ~~only needed when we actually intend to use the org's key to sign something~~ 
+ unnecessary, because in most instances we are only interested in the org name/DID. In the instances where the signing key is needed, it is separately resolved (so in these cases it is currently resolved twice).
+
+I've adjusted all instances of the root org lookup to remove the signing key verification, and have adjusted the naming of methods to make it clearer when key resolution will occur.
+
+Fixes #1328 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-30 20:53:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1327" class=".btn">#1327</a>
+            </td>
+            <td>
+                <b>
+                    Add unit test for "delete contract API" route
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-30 17:20:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1326" class=".btn">#1326</a>
+            </td>
+            <td>
+                <b>
+                    Perform nextpin calculations for both confirmed and rejected messages
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">backport-candidate</span>
+            </td>
+            <td>
+                Fixes #1324
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-05-30 17:19:35 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1325" class=".btn">#1325</a>
             </td>
             <td>
@@ -33,230 +179,6 @@ permalink: /pull-requests/hyperledger/firefly
     </table>
     <div class="right-align">
         Created At 2023-05-26 16:12:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1322" class=".btn">#1322</a>
-            </td>
-            <td>
-                <b>
-                    Separate "define" and "publish" for contract APIs, and allow deleting unpublished APIs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">migration_consideration</span>
-            </td>
-            <td>
-                Part of the fix for https://github.com/hyperledger/firefly/issues/1220
-In a chain with https://github.com/hyperledger/firefly/pull/1279 and #1321
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-25 15:12:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1321" class=".btn">#1321</a>
-            </td>
-            <td>
-                <b>
-                    Clean up remaining definition tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In a chain with #1279
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-25 15:11:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1320" class=".btn">#1320</a>
-            </td>
-            <td>
-                <b>
-                    chore(docs): fix discord link
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-25 13:28:57 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1318" class=".btn">#1318</a>
-            </td>
-            <td>
-                <b>
-                    Unset handlers when namespaces are deleted (but not when they are just reloaded)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Proposed fix for https://github.com/hyperledger/firefly/issues/1317
-
-There is a scenario this fix still *does not cover*:
-- Load Namespace with plugin-set - including Tokens connector
-- Reload Namespace, to use different set of plugins - removing the tokens connector
-
-Now we've got the tokens connector with a handler, that's no longer required, and is pointing to a defunct `Orchestrator`.
-If the token connector gets an event, it's not going to be able to dispatch it.
-
-I assert this is a case we can fix either:
-1. In a follow-on fix
-2. When we move event listeners to be per-namespace
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-24 15:31:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1316" class=".btn">#1316</a>
-            </td>
-            <td>
-                <b>
-                    Derive batch signing key from messages in the batch
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-candidate</span>
-            </td>
-            <td>
-                Follow-up to #1313
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-24 04:17:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1315" class=".btn">#1315</a>
-            </td>
-            <td>
-                <b>
-                    feat: background start for connector plugins
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-23 16:55:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1314" class=".btn">#1314</a>
-            </td>
-            <td>
-                <b>
-                    Update firefly-common v1.2.11 and firefly-signer v1.1.8
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-22 19:18:40 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1313" class=".btn">#1313</a>
-            </td>
-            <td>
-                <b>
-                    Do not allow a batch to contain messages from different signing keys
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-candidate</span>
-            </td>
-            <td>
-                This reverts #1175 and allows a single batch processor to process messages from the same identity but different keys. Instead, it adds a new fix to immediately seal and dispatch the current batch if a new message is picked up that has a different signing key than the current in-flight batch assembly.
-
-This will ensure that only one batch processor is allocating nonces for a given context, _and_ that each batch contains only messages signed by a single key. May come at the expense of a slight performance decrease in edge cases that use a variety of signing keys for a single identity, but this is acceptable overall.
-
-Fixes #1311
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-22 16:47:32 +0000 UTC
     </div>
 </div>
 
