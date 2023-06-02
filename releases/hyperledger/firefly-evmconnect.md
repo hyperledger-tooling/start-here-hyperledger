@@ -45,35 +45,3 @@ permalink: /releases/hyperledger/firefly-evmconnect
     </span>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td colspan="2">
-                <b>
-                    v1.2.11
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">
-                    v1.2.11
-                </span>
-            </td>
-            <td>
-                ## What's Changed
-* Add GasEstimate FFCAPI implementation by @matthew1001 in https://github.com/hyperledger/firefly-evmconnect/pull/84
-
-
-**Full Changelog**: https://github.com/hyperledger/firefly-evmconnect/compare/v1.2.10...v1.2.11
-            </td>
-        </tr>
-    </table>
-    <a href="https://github.com/hyperledger/firefly-evmconnect/releases/tag/v1.2.11" class=".btn">
-        View on GitHub
-    </a>
-    <span class="right-align">
-        Created At 2023-05-25 16:55:37 +0000 UTC
-    </span>
-</div>
-
