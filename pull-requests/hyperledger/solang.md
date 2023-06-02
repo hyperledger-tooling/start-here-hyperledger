@@ -27,7 +27,14 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                We aim to declare accounts for a function using only annotations. This PR is the first step towards this. The `@payer` annotation in the constructor now declares an account that is going to appear in the IDL. When a constructor is called from an external function, we automatically generate the `AccountMeta` array for the call so developers do not have to initialize such an array themselves. In addition, as we always need the account key in the transaction, `@payer` does not support addresses literals anymore.
+
+This PR lays ground for the `@reader`, `@mutable` and `@mutableReader` annotations we wish to introduce later #1251 .
+
+This PR already touches 45 files, so these changes are going to be in another PR:
+1. When an annotation refers to a constructor argument, it should precede the argument declaration (just like Java). Right now, `@payer(account)` declares something while `@seed(arg1)` points to an argument. Such a syntax will lead to confusion.
+2. We can't yet access the payer `AccountInfo` with the syntax `tx.accounts.payer`. This new command needs further changes in sema, codegen and emit.
+3. The C function `external_call` will become useless as soon as I implement the account management for external calls, so it will be removed in the future.
             </td>
         </tr>
     </table>
@@ -348,58 +355,6 @@ Fixes https://github.com/hyperledger/solang/issues/997
     </table>
     <div class="right-align">
         Created At 2023-05-26 07:25:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1329" class=".btn">#1329</a>
-            </td>
-            <td>
-                <b>
-                    Bump lalrpop and other dependencies
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-25 21:27:25 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1328" class=".btn">#1328</a>
-            </td>
-            <td>
-                <b>
-                    Make GetAddress return a pointer to an address
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                In the same lines of #1325, loading addresses in codegen instead of emit allows us to leverage pointers to create `AccountMeta` arrays.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-25 20:41:36 +0000 UTC
     </div>
 </div>
 

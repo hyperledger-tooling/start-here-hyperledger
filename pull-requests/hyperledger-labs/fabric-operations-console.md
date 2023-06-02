@@ -14,6 +14,76 @@ permalink: /pull-requests/hyperledger-labs/fabric-operations-console
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/489" class=".btn">#489</a>
+            </td>
+            <td>
+                <b>
+                    use absolute paths for logout/login links
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+- changes the logout/login links from a url + path, to just an absolute path. more robust this way
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-01 19:48:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/488" class=".btn">#488</a>
+            </td>
+            <td>
+                <b>
+                    fix the deployer sync timing
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+<!--- What type of change? Pick one option and delete the others. -->
+
+- Bug fix
+
+#### Description
+- fixes the component data sync with deployer, now waits for the deployer changes to write to the db before rebuilding the url safelist
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-01 19:46:48 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/487" class=".btn">#487</a>
             </td>
             <td>
@@ -325,47 +395,6 @@ added comments and check orderer version to show/hide channel participation cont
     </table>
     <div class="right-align">
         Created At 2023-05-26 17:15:17 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger-labs/fabric-operations-console/pull/478" class=".btn">#478</a>
-            </td>
-            <td>
-                <b>
-                    Auth Overhaul
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                #### Type of change
-
-<!--- What type of change? Pick one option and delete the others. -->
-
-- New feature
-
-#### Description
-- adds ability to switch user login authentication schemes 
-    - `couchdb`- this is the old way with local usernames and passwords
-    - `oauth` - this is a new login scheme that can use a 3rd party OAuth2.0 service
-- renames the `"Users"` tab to `"Access"`
-- adds ability to manage api keys from the "Access" tab
-- adds ability for new users that can login via an external oauth2 service to request access to the console
-- removed ability to change admin contact email, and deletes most references to the admin contact email
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-25 21:33:47 +0000 UTC
     </div>
 </div>
 
