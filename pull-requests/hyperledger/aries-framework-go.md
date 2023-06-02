@@ -14,6 +14,44 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3595" class=".btn">#3595</a>
+            </td>
+            <td>
+                <b>
+                    Pull mathlib with support for 32-bit builds
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                **Title:**
+
+Pull mathlib with support for 32-bit builds
+
+**Description:**
+
+After the switch to [mathlib](https://github.com/IBM/mathlib/), builds on 32-bit platforms failed, owing to the fact that mathlib was using a version of [fabric-amcl](https://github.com/hyperledger/fabric-amcl) which didn't include 32-bit implementations. Pulling the latest mathlib fixes the issue.
+
+**Summary:**
+
+We just update all the `go.mod` to refer to the latest mathlib.
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-02 15:27:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3593" class=".btn">#3593</a>
             </td>
             <td>

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1348" class=".btn">#1348</a>
+            </td>
+            <td>
+                <b>
+                    Substrate: Custom CI image
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-02 15:33:42 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1347" class=".btn">#1347</a>
             </td>
             <td>
@@ -219,7 +245,7 @@ cleaned up the duplicate code by creating `calculate_mul_ovf` function
             </td>
             <td>
                 <b>
-                    functions that use .call() should be allowed to declared view or default mutability
+                    functions that use .call() should be not allowed in view functions
                 </b>
             </td>
         </tr>
@@ -258,6 +284,8 @@ warning: function can be declared 'view'
 ```
 
 Fixes https://github.com/hyperledger/solang/issues/997
+
+Another PR will implement staticcall for Solana, which is allowed in view functions.
             </td>
         </tr>
     </table>

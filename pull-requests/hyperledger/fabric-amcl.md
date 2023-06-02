@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-amcl
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-amcl/pull/20" class=".btn">#20</a>
+                PR <a href="https://github.com/hyperledger/fabric-amcl/pull/22" class=".btn">#22</a>
             </td>
             <td>
                 <b>
-                    Move inactive maintainers to emeritus status
+                    Correct build tags
                 </b>
             </td>
         </tr>
@@ -27,21 +27,48 @@ permalink: /pull-requests/hyperledger/fabric-amcl
                 
             </td>
             <td>
-                The TOC approved a requirement that maintainers
-that have not been active in over three to six
-months be move to emeritus status.
+                The previous patch used
 
-These maintainers have not been active in over
-one year.
+```
+//go:build amd64 || arm64
+```
 
-hyperledger/toc#32
+as build tag for 64-bit architectures. However this was unvoluntarily discarding other 64-bit platforms (such as `wasm`) that were previously supported. The issue has been fixed by replacing the tag with
 
-Signed-off-by: Ry Jones <ry@linux.com>
+```
+//go:build !386 && !arm
+```
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2022-10-18 18:55:15 +0000 UTC
+        Created At 2023-06-02 17:36:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-amcl/pull/21" class=".btn">#21</a>
+            </td>
+            <td>
+                <b>
+                    32bit
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR adds support for 32-bit platforms (and also pulls the latest sources from miracl/core)
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-02 14:49:03 +0000 UTC
     </div>
 </div>
 
