@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1350" class=".btn">#1350</a>
+            </td>
+            <td>
+                <b>
+                    Do not allow push and pop in fixed length arrays
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                We presently allow pushed and pops from fixed length arrays, leading to a panic in emit. This PR disallows such operations.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-02 19:14:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1348" class=".btn">#1348</a>
             </td>
             <td>

@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-protos
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-protos/pull/184" class=".btn">#184</a>
+                PR <a href="https://github.com/hyperledger/fabric-protos/pull/187" class=".btn">#187</a>
             </td>
             <td>
                 <b>
-                    system channel cleanup - make HeaderType_ORDERER_TRANSACTION deprecated
+                    Update tool versions and dependencies
                 </b>
             </td>
         </tr>
@@ -27,14 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-protos
                 
             </td>
             <td>
-                Making field ORDERER_TRANSACTION in HeaderType deprecated, as it used only by the system channel.
-
-Issue: https://github.com/hyperledger/fabric/issues/4206
+                - Remove several unnecessary dependencies from Java package.
+- Update Makefile to latest toolchain and to work on Arm64 Mac.
+- Add security vulnerability scan.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-14 12:54:38 +0000 UTC
+        Created At 2023-06-02 18:43:51 +0000 UTC
     </div>
 </div>
 

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/868" class=".btn">#868</a>
+            </td>
+            <td>
+                <b>
+                    Minor DDO service builder improvement
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Use the typestate pattern to statically ensure service type was set.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-02 13:32:34 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/867" class=".btn">#867</a>
             </td>
             <td>

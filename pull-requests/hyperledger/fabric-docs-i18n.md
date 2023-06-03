@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/801" class=".btn">#801</a>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/803" class=".btn">#803</a>
             </td>
             <td>
                 <b>
-                    index page translation
+                    Cherry picks
                 </b>
             </td>
         </tr>
@@ -32,7 +32,33 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-02 01:15:24 +0000 UTC
+        Created At 2023-06-02 15:45:46 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/802" class=".btn">#802</a>
+            </td>
+            <td>
+                <b>
+                    add zh page for advice for writers
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-02 14:03:16 +0000 UTC
     </div>
 </div>
 

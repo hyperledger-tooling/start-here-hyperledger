@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/indy-vdr
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/indy-vdr/pull/196" class=".btn">#196</a>
+            </td>
+            <td>
+                <b>
+                    chore(js): update to stable version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Berend Sliedrecht <blu3beri@proton.me>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-02 14:11:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/indy-vdr/pull/195" class=".btn">#195</a>
             </td>
             <td>
