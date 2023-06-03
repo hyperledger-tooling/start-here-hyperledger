@@ -91,29 +91,3 @@ permalink: /pull-requests/hyperledger/indy-vdr
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/192" class=".btn">#192</a>
-            </td>
-            <td>
-                <b>
-                    build(js): use local network
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fixes #191 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-27 16:02:46 +0000 UTC
-    </div>
-</div>
-
