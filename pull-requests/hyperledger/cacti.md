@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2442" class=".btn">#2442</a>
+            </td>
+            <td>
+                <b>
+                    test: fix path of and name of RIFUtil.test.ts #1515
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Changed name of `RIFUtil.test.ts` to `rifUtil.test.ts` and moved the file to unit test directory.
+
+fixes: #1515
+Signed-off-by: Arnab Nandi <arnabnandi2002@gmail.com>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-03 08:01:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2441" class=".btn">#2441</a>
             </td>
             <td>
