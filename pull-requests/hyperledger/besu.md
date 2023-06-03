@@ -519,36 +519,3 @@ relates to https://github.com/hyperledger/besu/issues/5415 and #5271
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5505" class=".btn">#5505</a>
-            </td>
-            <td>
-                <b>
-                    GraphQL: Migrate Long types to strings
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                ## PR description
-
-Migrate from EIP specified numeric values to execution-spec specified
-string values.
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-26 19:32:21 +0000 UTC
-    </div>
-</div>
-

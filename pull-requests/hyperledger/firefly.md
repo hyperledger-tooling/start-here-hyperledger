@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1332" class=".btn">#1332</a>
+            </td>
+            <td>
+                <b>
+                    Add fftokens docs on /deactivatepool
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                New API added to fftokens API spec by these PRs:
+
+https://github.com/hyperledger/firefly-tokens-erc20-erc721/pull/136
+https://github.com/hyperledger/firefly-tokens-erc1155/pull/125
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-02 14:21:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1331" class=".btn">#1331</a>
             </td>
             <td>
@@ -153,32 +182,6 @@ Fixes #1328
     </table>
     <div class="right-align">
         Created At 2023-05-30 17:19:35 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1325" class=".btn">#1325</a>
-            </td>
-            <td>
-                <b>
-                    docs: add mTLS section
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-26 16:12:14 +0000 UTC
     </div>
 </div>
 
