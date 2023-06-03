@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">ci-test</span>
             </td>
             <td>
                 Release version 0.4.0

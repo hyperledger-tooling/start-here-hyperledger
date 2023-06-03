@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-javascript-docs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/126" class=".btn">#126</a>
+            </td>
+            <td>
+                <b>
+                    fix: corrected two links
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The two links to askar and indy storage setup 404'd currently, corrected them so they point to the right location like the links immediately below them work.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-03 15:31:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-javascript-docs/pull/125" class=".btn">#125</a>
             </td>
             <td>
