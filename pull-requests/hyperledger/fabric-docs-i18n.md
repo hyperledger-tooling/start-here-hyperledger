@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/804" class=".btn">#804</a>
+            </td>
+            <td>
+                <b>
+                    Introduction page
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                partial translation
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-03 07:48:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/803" class=".btn">#803</a>
             </td>
             <td>
