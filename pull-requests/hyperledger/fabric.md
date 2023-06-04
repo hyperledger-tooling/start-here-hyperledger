@@ -14,6 +14,88 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4260" class=".btn">#4260</a>
+            </td>
+            <td>
+                <b>
+                    BFT BlockPuller: clean redundant map
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                #### Type of change
+
+- Improvement (improvement to code, performance, etc)
+
+#### Description
+
+The gossip service:
+- It contains a map of channelID -> DeliverService (an interface).
+- The DeliveryService is  implemented by a deliveryServiceImpl, which contains blockProviders a map of channelID -> Deliverer.
+- The implementation shows that the external and internal maps are always keyed together, with the same channelID, which means that the internal map has always a single entry...
+
+Remove the redundant internal map.
+
+#### Related issues
+
+#4261 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-04 16:16:19 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4258" class=".btn">#4258</a>
+            </td>
+            <td>
+                <b>
+                    BFT Block Puller: block deliverer, connection source
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Change-Id: I4c2d9b8f74a4004d55e779438e41e7a80b274504
+
+#### Type of change
+- New feature
+
+#### Description
+
+- Introduce an abstraction BlockDeliverer that can CFT/BFT implementations
+- Expose ConnectionSource method Endpoints
+
+#### Related issues
+
+Issue #4259 
+Story #4240 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-04 14:36:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4257" class=".btn">#4257</a>
             </td>
             <td>
@@ -338,41 +420,6 @@ Verification is the same as verifying a regular block, except computing the data
     </table>
     <div class="right-align">
         Created At 2023-05-30 09:06:47 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4239" class=".btn">#4239</a>
-            </td>
-            <td>
-                <b>
-                    configtxgen - add a check for V3 style signature - BFT consensus
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Add a check for V3 style signature - BFT consensus
-
-#### Type of change
-
-- Improvement (improvement to code, performance, etc)
-
-#### Related issues
-
-Issue: #4228 .
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-28 15:55:19 +0000 UTC
     </div>
 </div>
 
