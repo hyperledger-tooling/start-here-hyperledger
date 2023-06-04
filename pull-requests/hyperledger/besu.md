@@ -331,7 +331,7 @@ Added in response to #5456, and seems suitable to add to main.
             </td>
             <td>
                 <b>
-                    Update Tuweni to 2.4.0
+                    Update Tuweni to 2.4.1
                 </b>
             </td>
         </tr>
@@ -341,7 +341,7 @@ Added in response to #5456, and seems suitable to add to main.
             </td>
             <td>
                 ## PR description
-Updates Tuweni to 2.4.0, updating group ID to io.tmio.
+Updates Tuweni to 2.4.1, updating group ID to io.tmio.
 
             </td>
         </tr>
