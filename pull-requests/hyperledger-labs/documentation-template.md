@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/documentation-template
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/documentation-template/pull/11" class=".btn">#11</a>
+                PR <a href="https://github.com/hyperledger-labs/documentation-template/pull/15" class=".btn">#15</a>
             </td>
             <td>
                 <b>
-                    Create pull_request_template.md
+                    Update to an action
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/documentation-template
                 
             </td>
             <td>
-                Created a pull request template 
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-05 08:58:56 +0000 UTC
+        Created At 2023-06-05 17:36:56 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger-labs/documentation-template
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/documentation-template/pull/10" class=".btn">#10</a>
+                PR <a href="https://github.com/hyperledger-labs/documentation-template/pull/14" class=".btn">#14</a>
             </td>
             <td>
                 <b>
-                    Integrated Stale bot for monitoring open issues & added PR & Issue templates 
+                    Move to correct location
                 </b>
             </td>
         </tr>
@@ -53,15 +53,64 @@ permalink: /pull-requests/hyperledger-labs/documentation-template
                 
             </td>
             <td>
-                ### Description
-
-Added a Stale bot for monitoring open issues & also integrated a few PR & Issue templates for contributors. 
-/cc: @bobbi28
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-29 15:53:32 +0000 UTC
+        Created At 2023-06-05 16:49:26 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/documentation-template/pull/13" class=".btn">#13</a>
+            </td>
+            <td>
+                <b>
+                    Move to correct location
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-05 16:38:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger-labs/documentation-template/pull/12" class=".btn">#12</a>
+            </td>
+            <td>
+                <b>
+                    Update PULL_REQUEST_TEMPLATE.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Updated the existing pull request template with some changes.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-05 16:17:29 +0000 UTC
     </div>
 </div>
 

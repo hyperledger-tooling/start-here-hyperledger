@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4263" class=".btn">#4263</a>
+            </td>
+            <td>
+                <b>
+                    Raft WAL deadlock test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - There was a bug described at issue #4201. 
+- The bug caused a deadlock on etcd raft orderer chain apply change on orderer startup.
+- Issue #4201 fixed the issue. 
+- We wanted to add a test can check this scenario with high probability (because of the multiple go routines, and how the code is built, this can't be 100% test.)
+- We simulated the scenario of the deadlock using a test and debug logs (on the unfixed code) in #4262.
+- This PR adds the same test but without the debug logs.
+
+#### Type of change
+
+- Bug fix
+- Test update
+
+#### Description
+
+Please look at #4199, PR #4201 and PR #4262.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-05 13:12:17 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4262" class=".btn">#4262</a>
             </td>
             <td>

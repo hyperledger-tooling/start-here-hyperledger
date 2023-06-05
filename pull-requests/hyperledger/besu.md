@@ -14,6 +14,85 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5537" class=".btn">#5537</a>
+            </td>
+            <td>
+                <b>
+                    Call operation performance optimizations 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+- Introduce "undoable" journoled collections: set, map, table, and list
+- Move values that are the same or shared across the transaction to
+  TxValues record
+- Move warm and cold storage to undoable sets and tables.
+- Move transient storage to undoable table.
+- Move address hashing inside of address with a memoized field.
+- lazy create EOF return stack
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-05 18:04:31 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5536" class=".btn">#5536</a>
+            </td>
+            <td>
+                <b>
+                    EIP - 4844
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Implements EIP-4844. 
+
+- introduces a Hardfork class to the protocol schedule system
+- new Engine APIs required for CL to work on 4844
+- new DataGas type for tracking block cost for 4844 data
+- new VersionedHash type to reflect that a versioned hash is not quite a pure sha256
+- incorporates wrapped jc-kzg library for KZG point evaluations
+- New transaction type, and domain objects for constituent parts to represent the Blobs, KZGCommitments, and Proofs used for 4844
+- RLP encoders and decoders to support new transaction type
+- gas pricing calculators for the new type of gas
+- plugin-api version was changed
+
+- TODO: KZGprecompile tests are failing, likely due to switch to big endian. Test is disabled, investigation ongoing.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-05 14:57:14 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5534" class=".btn">#5534</a>
             </td>
             <td>
