@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/399" class=".btn">#399</a>
+                PR <a href="https://github.com/hyperledger/fabric-chaincode-node/pull/401" class=".btn">#401</a>
             </td>
             <td>
                 <b>
-                    Update SetEvent documentation
+                    Using the CLI provided gRPC configurations when starting the chaincode
                 </b>
             </td>
         </tr>
@@ -27,12 +27,15 @@ permalink: /pull-requests/hyperledger/fabric-chaincode-node
                 
             </td>
             <td>
-                Update SetEvent documentation to indicate that only a single chaincode event can be included in a transaction.
+                in external mode (#318)
+
+When utilizing the chaincode as a service, it is possible to pass some gRPC options as an argument, such as grpc.max_send_message_length. However, these server options were not utilized when declaring the server.
+Resolves #318
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-15 21:24:28 +0000 UTC
+        Created At 2023-06-05 14:31:11 +0000 UTC
     </div>
 </div>
 

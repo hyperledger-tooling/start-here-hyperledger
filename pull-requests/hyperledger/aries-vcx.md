@@ -14,6 +14,37 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/871" class=".btn">#871</a>
+            </td>
+            <td>
+                <b>
+                    Sovrin-specific DDO facade
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Introduces wrappers around `DidDocument` and `Service` in order to
+* handle logic specific to the Sovrin method, e.g.
+    * setting and validating `type` and `accept` fields based on the composition of the service extra fields,
+    * dereferencing service keys (?)
+* remove definition of the Sovrin extra fields from `did_resolver_sov`,
+* simplify common Sovrin DDO usage patterns (e.g. retrieving recipient / routing key from the first service in the `service` field, etc.).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-05 15:01:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/869" class=".btn">#869</a>
             </td>
             <td>
@@ -24,7 +55,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">skip-ios</span><span class="chip">skip-android</span><span class="chip">skip-napi-m1</span>
             </td>
             <td>
                 In PR https://github.com/hyperledger/aries-vcx/pull/863 we have eliminated global state used by modular profile. However:

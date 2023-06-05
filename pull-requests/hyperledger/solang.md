@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1355" class=".btn">#1355</a>
+            </td>
+            <td>
+                <b>
+                    Fix Anchor integration test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-05 14:04:13 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1353" class=".btn">#1353</a>
             </td>
             <td>
@@ -286,117 +312,6 @@ Also, on solc `delete` on a local variable is a no-op. Make the error a warning.
     </table>
     <div class="right-align">
         Created At 2023-05-29 19:48:19 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1339" class=".btn">#1339</a>
-            </td>
-            <td>
-                <b>
-                    created calculate_mul_ovf to clean the repetitive code
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                closes #1263 
-
-cleaned up the duplicate code by creating `calculate_mul_ovf` function
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-29 14:56:10 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1338" class=".btn">#1338</a>
-            </td>
-            <td>
-                <b>
-                    functions that use .call() should be not allowed in view functions
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Functions that modify the state, like the SPL-token `mint_to`, are not `view` functions, but the compiler warns that they can be declared as view.
-
-Example: 
-```solidity
-	function mint_to(address mint, address account, address authority, uint64 amount) internal {
-		bytes instr = new bytes(9);
-
-		instr[0] = uint8(TokenInstruction.MintTo);
-		instr.writeUint64LE(amount, 1);
-
-		AccountMeta[3] metas = [
-			AccountMeta({pubkey: mint, is_writable: true, is_signer: false}),
-			AccountMeta({pubkey: account, is_writable: true, is_signer: false}),
-			AccountMeta({pubkey: authority, is_writable: true, is_signer: true})
-		];
-
-		tokenProgramId.call{accounts: metas}(instr);
-	}
-```
-
-Warning:
-```
-warning: function can be declared 'view'
-   ┌─ /solang/solana-library/spl_token.sol:46:2
-   │
-46 │     function mint_to(address mint, address account, address authority, uint64 amount) internal {
-   │
-```
-
-Fixes https://github.com/hyperledger/solang/issues/997
-
-Another PR will implement staticcall for Solana, which is allowed in view functions.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-29 14:00:48 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1337" class=".btn">#1337</a>
-            </td>
-            <td>
-                <b>
-                    @inheritdoc should work with bases of bases
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                We were only checking the immediate base contracts of the current contract, not their bases.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-29 13:07:14 +0000 UTC
     </div>
 </div>
 

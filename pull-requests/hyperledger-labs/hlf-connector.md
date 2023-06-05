@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/92" class=".btn">#92</a>
+                PR <a href="https://github.com/hyperledger-labs/hlf-connector/pull/93" class=".btn">#93</a>
             </td>
             <td>
                 <b>
-                    High severity vulnerability fixes
+                    Register Event-Listeners after context refresh
                 </b>
             </td>
         </tr>
@@ -27,12 +27,12 @@ permalink: /pull-requests/hyperledger-labs/hlf-connector
                 
             </td>
             <td>
-                0 high and medium vulnerabilities.
+                <nil>
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-26 11:00:37 +0000 UTC
+        Created At 2023-06-05 12:59:30 +0000 UTC
     </div>
 </div>
 
