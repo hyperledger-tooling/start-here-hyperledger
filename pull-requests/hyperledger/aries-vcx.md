@@ -14,6 +14,40 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/869" class=".btn">#869</a>
+            </td>
+            <td>
+                <b>
+                    Extend Profile trait with update_taa_configuration method
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                In PR https://github.com/hyperledger/aries-vcx/pull/863 we have eliminated global state used by modular profile. However:
+- we didn't have way to set up TAA in runtime without having to rebuild entire Profile
+- that was manifested by `ModularLibsProfile` having fields with `public(crate)` visibility so we could accommodate different initialization flow which needs indy writer with TAA (also resulting in some code duplication in `aries_vcx/src/utils/devsetup.rs`)
+- equally we would run into hiccups when we integrate `ModularLibsProfile` with `vcx-napi-rs` and try sync up  implementation for `set_active_txn_author_agreement_meta`
+
+
+This PR introduces interior mutability within `ModularLibsProfile` such that it's possible to update TAA setup for ledger writer in runtime - doing so by wrapping the `anoncreds_ledger_write`, `indy_ledger_write` in `RwLock` - note these wrapped trait objects are the same instance under the hood.
+
+As RwLocks has been added wrapping the ledger write trait objects, in order to prevent having to modify codebase across many files and deal with locks everywhere, obtaining locks has been encapsulated into `IndyLedgerWriteProxy`, `AnoncredsLedgerWriteProxy` which implement `IndyLedgerWriteProxy`, `AnoncredsLedgerWriteProxy` respectively. This enabled us to introduce RwLocks without surrounding code consuming Profile trait being aware of it.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-05 09:30:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/868" class=".btn">#868</a>
             </td>
             <td>

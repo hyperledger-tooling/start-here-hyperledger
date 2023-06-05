@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/bevel
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/bevel/pull/2281" class=".btn">#2281</a>
+            </td>
+            <td>
+                <b>
+                    [ci-skip] Upgrade Hashicorp Vault version
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Primary Changes
+--------------
+1. Update Hashicorp Vault version to 1.13.1. To carry out the tests, a vault has been deployed following the steps in this video. https://www.youtube.com/watch?v=eKMDgKshjQ8&list=PL0MZ85B_96CFJUzic2ZF9rposfx2hr2rm.
+Using  version of helm search repo hashicorp/vault --versions.
+![image](https://github.com/hyperledger/bevel/assets/83813093/ea76cc54-e256-4914-8f33-19c83c42131a)
+
+Modifications
+-------------
+docs/source/faq.md
+docs/source/prerequisites.md
+platforms/shared/configuration/roles/setup/vault/defaults/main.yaml
+
+Fixes
+#2282
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-05 10:27:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/bevel/pull/2280" class=".btn">#2280</a>
             </td>
             <td>
@@ -385,39 +425,6 @@ platforms/shared/configuration/roles/setup/vault-script/tasks/main.yml
     </table>
     <div class="right-align">
         Created At 2023-05-29 12:57:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2267" class=".btn">#2267</a>
-            </td>
-            <td>
-                <b>
-                    [ci-skip] Create operation guide on deploying cacti connector
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Primary Changes
---------------
-1. Added operation guide on deploying fabric cacti connector
-
-Modifications in docs
------------------------
-docs/source/operationalguide.rst
-docs/source/operations/setup_cactus_connector_fabric.md
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-29 08:44:05 +0000 UTC
     </div>
 </div>
 

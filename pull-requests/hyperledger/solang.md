@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 <b>
-                    …
+                    Do not pin `ink!` dependencies
                 </b>
             </td>
         </tr>
@@ -397,45 +397,6 @@ Another PR will implement staticcall for Solana, which is allowed in view functi
     </table>
     <div class="right-align">
         Created At 2023-05-29 13:07:14 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1336" class=".btn">#1336</a>
-            </td>
-            <td>
-                <b>
-                    Destructure can assign to storage variables
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Fix building of the following:
-
-        contract c {
-            address factory;
-            int decimals;
-
-            constructor() {
-                (factory, decimals) = foo();
-            }
-
-            function foo() internal pure returns (address, int) {
-                return (address(2), 5);
-            }
-        }
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-29 09:45:08 +0000 UTC
     </div>
 </div>
 

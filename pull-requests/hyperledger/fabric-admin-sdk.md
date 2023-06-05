@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/fabric-admin-sdk
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/133" class=".btn">#133</a>
+            </td>
+            <td>
+                <b>
+                    implement parse SignaturePolicyEnvelope to human readable expression
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fix #127
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-05 08:53:09 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/132" class=".btn">#132</a>
+            </td>
+            <td>
+                <b>
+                    implements for PeerMembershipQuery
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                fix #125 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-05 06:37:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-admin-sdk/pull/131" class=".btn">#131</a>
             </td>
             <td>
