@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/iroha-java
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/iroha-java/pull/337" class=".btn">#337</a>
+                PR <a href="https://github.com/hyperledger/iroha-java/pull/339" class=".btn">#339</a>
             </td>
             <td>
                 <b>
-                    Covered Peer and Queries tests suites by Allure Ids
+                    feature (issue 268): fixed deserializer test
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/iroha-java
                 
             </td>
             <td>
-                <nil>
+                fixed deserializer test
+deserializers refactoring
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-25 15:13:14 +0000 UTC
+        Created At 2023-06-05 05:59:19 +0000 UTC
     </div>
 </div>
 
