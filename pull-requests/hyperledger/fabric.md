@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4262" class=".btn">#4262</a>
+            </td>
+            <td>
+                <b>
+                    WIP: Raft WAL deadlock test
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                WAL deadlock recreation
+
+#### Type of change
+
+- Bug fix
+- Test update
+
+#### Description
+
+Please look at #4199, and PR #4201 .
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-05 09:32:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4260" class=".btn">#4260</a>
             </td>
             <td>

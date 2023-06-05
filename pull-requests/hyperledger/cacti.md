@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/cacti
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/cacti/pull/2443" class=".btn">#2443</a>
+            </td>
+            <td>
+                <b>
+                    chore(besu): remove web3-eea typings file
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes 1218
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-05 07:36:41 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/cacti/pull/2442" class=".btn">#2442</a>
             </td>
             <td>

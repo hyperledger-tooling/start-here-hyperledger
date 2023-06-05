@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger-labs/documentation-template
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger-labs/documentation-template/pull/11" class=".btn">#11</a>
+            </td>
+            <td>
+                <b>
+                    Create pull_request_template.md
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Created a pull request template 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-05 08:58:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger-labs/documentation-template/pull/10" class=".btn">#10</a>
             </td>
             <td>

@@ -14,6 +14,58 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/807" class=".btn">#807</a>
+            </td>
+            <td>
+                <b>
+                    update with couchdb_tutorial a part of #795
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                try to update example from marbles to ledger
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-04 15:58:57 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/806" class=".btn">#806</a>
+            </td>
+            <td>
+                <b>
+                    Base RTD yaml
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-04 15:55:55 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/805" class=".btn">#805</a>
             </td>
             <td>
@@ -137,34 +189,6 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     </table>
     <div class="right-align">
         Created At 2023-05-31 13:50:20 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/799" class=".btn">#799</a>
-            </td>
-            <td>
-                <b>
-                    [ja_JP] Translate "peerchaincode.md" into Japanese
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This patch translates source/commands/peerchaincode.md into Japanese.
-
-Resolves #605
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-29 01:54:31 +0000 UTC
     </div>
 </div>
 

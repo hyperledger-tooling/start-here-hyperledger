@@ -14,6 +14,64 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/802" class=".btn">#802</a>
+            </td>
+            <td>
+                <b>
+                    feat: add content gradient to identify scrollable content
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+Adds gradient to signify scrollable content
+
+### Here's what it looks like on Android:
+![gradient_android](https://github.com/hyperledger/aries-mobile-agent-react-native/assets/32586431/1cdba5a4-566f-418d-9d09-20541e20dcc5)
+
+### Here's some screenshots of iOS:
+![IMG_0037](https://github.com/hyperledger/aries-mobile-agent-react-native/assets/32586431/03bb5008-8d61-4902-81d0-39135b81e7e7)
+![IMG_FE07BFB4C883-1](https://github.com/hyperledger/aries-mobile-agent-react-native/assets/32586431/516ac353-8a6a-4618-be73-a12fa522ee4e)
+
+# Related Issues
+
+N/A
+
+# Pull Request Checklist
+
+Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
+
+- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [x] Updated documentation as needed for changed code and new or modified features;
+- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+Pro Tip 🤓
+
+- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-04 21:52:08 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/801" class=".btn">#801</a>
             </td>
             <td>
