@@ -14,6 +14,46 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4265" class=".btn">#4265</a>
+            </td>
+            <td>
+                <b>
+                    Follower: revert check of join block different from fetched block
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Change-Id: I7089df4f1bfc200a5f17582df0da7d4172f8f09b
+
+
+#### Type of change
+
+- Bug fix
+
+#### Description
+
+Follower: revert check of join block different from fetched block
+
+#### Related issues
+
+Addresses #4264 
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-06 10:37:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4263" class=".btn">#4263</a>
             </td>
             <td>
@@ -454,47 +494,6 @@ Also, copy release note text into the release specific /release_notes file.
     </table>
     <div class="right-align">
         Created At 2023-05-30 18:25:23 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric/pull/4242" class=".btn">#4242</a>
-            </td>
-            <td>
-                <b>
-                    BFT Block Puller: verify attestation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Change-Id: Ia34ff4536453581895c4f13b2d73f0e7066ce125
-
-#### Type of change
-
-- New feature
-
-#### Description
-
-BFT Block Puller: verify attestation. 
-Verify a block attestation, which is a block with block.Data=nil.
-Verification is the same as verifying a regular block, except computing the data hash and comparing it to the hash in the header, and extracting the channel ID.
-
-#### Related issues
-#4240 
-#4243 
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-30 09:06:47 +0000 UTC
     </div>
 </div>
 

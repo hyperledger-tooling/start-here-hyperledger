@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/809" class=".btn">#809</a>
+            </td>
+            <td>
+                <b>
+                    Docs id_ID translation 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                hi, @ryjones I push this commit from the new branch of release-2.5 as you said before.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-06 07:33:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/807" class=".btn">#807</a>
             </td>
             <td>
