@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger-labs/blockchain-explorer
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/391" class=".btn">#391</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/396" class=".btn">#396</a>
             </td>
             <td>
                 <b>
-                    updates for dashboard UI responsiveness for cards and pie chart
+                    Circleci project setup
                 </b>
             </td>
         </tr>
@@ -32,7 +32,6 @@ permalink: /pull-requests/hyperledger-labs/blockchain-explorer
 
 
 #### What this PR does / why we need it:
-This feature will make Dashboard page more accessible on different screen sizes.
 
 #### Which issue(s) this PR fixes:
 <!--
@@ -40,13 +39,9 @@ This feature will make Dashboard page more accessible on different screen sizes.
 Usage: `Fixes #<issue number>`, or `Fixes (paste link of issue)`.
 _If PR is about `failing-tests`, please post the related issues/tests in a comment and do not use `Fixes`_*
 -->
-Fixes #390 
+Fixes #
 
 #### Special notes for your reviewer:
-Design changes
-<img width="274" alt="image" src="https://github.com/hyperledger-labs/blockchain-explorer/assets/97180942/00c6635a-46ad-444c-b901-52044ee79025">
-
-<img width="280" alt="image" src="https://github.com/hyperledger-labs/blockchain-explorer/assets/97180942/c2e420d3-360e-4483-8583-3fe8a2a26760">
 
 #### Does this PR introduce a user-facing change?
 <!--
@@ -56,10 +51,11 @@ Enter your extended release note in the block below. If the PR requires addition
 
 -->
 ```release-note
-yes
+
 ```
 
 #### Additional documentation, usage docs, etc.:
+
 <!--
 This section can be blank if this pull request does not require a release note.
 
@@ -78,7 +74,7 @@ specific point in time, rather than a document that may change over time.
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-15 20:40:04 +0000 UTC
+        Created At 2023-06-06 12:17:11 +0000 UTC
     </div>
 </div>
 
@@ -86,11 +82,11 @@ specific point in time, rather than a document that may change over time.
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/389" class=".btn">#389</a>
+                PR <a href="https://github.com/hyperledger-labs/blockchain-explorer/pull/395" class=".btn">#395</a>
             </td>
             <td>
                 <b>
-                    Register Form
+                    Circleci editor/140/circleci project setup
                 </b>
             </td>
         </tr>
@@ -104,7 +100,6 @@ specific point in time, rather than a document that may change over time.
 
 
 #### What this PR does / why we need it:
-I would like to improve the form's user interface by adding icons to each field. This will help users quickly identify the purpose of each field and provide a better user experience.
 
 #### Which issue(s) this PR fixes:
 <!--
@@ -112,11 +107,11 @@ I would like to improve the form's user interface by adding icons to each field.
 Usage: `Fixes #<issue number>`, or `Fixes (paste link of issue)`.
 _If PR is about `failing-tests`, please post the related issues/tests in a comment and do not use `Fixes`_*
 -->
-Fixes #388 
+Fixes #
 
 #### Special notes for your reviewer:
-![Screenshot from 2023-05-15 22-00-26](https://github.com/hyperledger-labs/blockchain-explorer/assets/103871275/f72fc22c-097f-4c46-9744-57401fd56c41)
 
+#### Does this PR introduce a user-facing change?
 <!--
 If no, just write "NONE" in the release-note block below.
 If yes, a release note is required:
@@ -127,6 +122,7 @@ Enter your extended release note in the block below. If the PR requires addition
 
 ```
 
+#### Additional documentation, usage docs, etc.:
 
 <!--
 This section can be blank if this pull request does not require a release note.
@@ -146,7 +142,7 @@ specific point in time, rather than a document that may change over time.
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-15 18:26:51 +0000 UTC
+        Created At 2023-06-06 12:16:13 +0000 UTC
     </div>
 </div>
 

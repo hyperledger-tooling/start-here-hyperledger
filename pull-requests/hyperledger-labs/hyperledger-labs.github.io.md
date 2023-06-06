@@ -27,7 +27,7 @@ permalink: /pull-requests/hyperledger-labs/hyperledger-labs.github.io
                 
             </td>
             <td>
-                Hyperledger Lab Harmonia is a repo and mailing list dedicated to capturing the unique constraints and requirements faced by regulated blockchain networks seeking to interoperate, underpinned by a set of design documents, protocol definitions and sample code.
+                Harmonia is a repo and mailing list dedicated to capturing the unique constraints and requirements faced by regulated blockchain networks seeking to interoperate, underpinned by a set of design documents, protocol definitions and sample code.
             </td>
         </tr>
     </table>
