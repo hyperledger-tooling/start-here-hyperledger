@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-transaction-manager
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/84" class=".btn">#84</a>
+                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/85" class=".btn">#85</a>
             </td>
             <td>
                 <b>
-                    Move over LevelDB to new persistence model for TXHistory and ManagedTX
+                    Persistence enhancements - including adding PostgreSQL support
                 </b>
             </td>
         </tr>
@@ -48,7 +48,7 @@ Aiming to make the impact on policy engine extensions as minimal as possible, bu
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-02 05:18:00 +0000 UTC
+        Created At 2023-06-06 03:11:17 +0000 UTC
     </div>
 </div>
 

@@ -462,29 +462,3 @@ Added in response to #5456, and seems suitable to add to main.
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5514" class=".btn">#5514</a>
-            </td>
-            <td>
-                <b>
-                    PR checklist - remove checkbox for non-mainnet ATs
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                these are now run in CI on each PR per #5502 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-30 01:37:46 +0000 UTC
-    </div>
-</div>
-
