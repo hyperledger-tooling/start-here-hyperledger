@@ -288,29 +288,3 @@ fixes #2260
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/bevel/pull/2271" class=".btn">#2271</a>
-            </td>
-            <td>
-                <b>
-                    [shared] Add chart release
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Added `release_charts.yml` Github Action to release charts. This automatically updates the gh-pages as well. To trigger this workflow correctly, the Chart versions need to be updated, as demonstrated in the update for Fabric charts.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-30 15:07:05 +0000 UTC
-    </div>
-</div>
-

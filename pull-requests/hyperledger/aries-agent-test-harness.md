@@ -52,7 +52,7 @@ The uniresolver was hardcoded to use the LEDGER_URL. It now will use the GENESIS
 ```
 ./manage run -d acapy-main -t @AcceptanceTest -t @AIP20 -t ~@wip -t @T004-RFC0211
 ```
-The genesis transaction was setup and the agent started but would through this error. 
+The genesis transaction was setup and the agent started but would throw this error. 
 ```
 2023-06-05 18:54:30,258 aries_cloudagent.commands.start ERROR Exception during startup:
 Traceback (most recent call last):

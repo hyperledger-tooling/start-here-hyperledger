@@ -27,7 +27,17 @@ permalink: /pull-requests/hyperledger/aries-vcx
                 
             </td>
             <td>
-                <nil>
+                `Profile` abstraction has been introduced to enable smooth transition from `vdrtools` to modular libs (credx/anoncreds, indy-vdr, askar). `Profile` represents basket of trait objects to perform variety of operations.
+
+Previously `Profile` was widely present in `aries-vcx` codebase as a convenient way to access various lower-level APIs. However this was at the price of:
+- passing references to objects down the stack, even though they were never used,
+- requiring `aries-vcx` consumers to build entire "Profile", even though the APIs they've consequently used only used limited number of profile's components (eg, you don't need access to ledger in order to build credential proposal, for example)
+- forcing `aries-vcx` to store building blocks in particular way (Profiles) - but consuming applications might want to store/handle things differntly.
+
+This PR modifies `aries-vcx` and `aries-vcx-core` method signatures to be unaware of `Profile` abstraction - the APIs now only speak in terms of individual components such as `dyn BaseAnoncreds`, `dyn AnoncredsLedgerRead` - so the APIs ask only for what they really need.
+Additional extra benefit is that it's now much easier to spot fishy stuff, like "oh, this method requires access to ledger? That's weird, why is that???"
+
+
             </td>
         </tr>
     </table>
@@ -227,47 +237,6 @@ Just want to know that the direction in which I'm going is upright! For using th
     </table>
     <div class="right-align">
         Created At 2023-06-01 13:27:08 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/864" class=".btn">#864</a>
-            </td>
-            <td>
-                <b>
-                    WIP: DidDocument integration
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">breaking</span><span class="chip">integration</span>
-            </td>
-            <td>
-                Replaces the use of
-* `diddoc_legacy::aries::diddoc::AriesDidDoc` with `did_doc::schema::did_doc::DidDocument`, and
-* `diddoc_legacy::aries::service::AriesService` with `did_doc::schema::service::Service`
-across the aries-vcx codebase.
-
-Integration with mediated connection is skipped and `diddoc_legacy` will be removed along with `mediated_connection`.
-
-The method specific fields of the service struct are now set via a type associated with the `DidResolvable` trait, where only fields specific to the sovrin method are used in the codebase for now. This choice impacts the current implementation of the resolver registry, which needs to be reconsidered.
-
-Moreover, currently, the service type is set manually during the construction of the `DidDocument`, and the `accept` field is not set at all. However, as per the [Sovrin DID method specification](https://sovrin-foundation.github.io/sovrin/spec/did-method-spec-template.html#crud-operation-definitions), the value of those two fields is implied by the composition of / fields included in the service. This suggests that potentially we might want to wrap the `DidDocumentBuilder` in some kind of `DidDocumentBuilderSov` responsible for this method-specific logic in the future.
-
-This would be also useful because the extra fields are defined in `did_resolver_sov`. In some use-cases, the entire resolver is imported only for the extra fields needed in order to name the `DidDocument` or `Service` type.
-
-The DID parser fails to parse any did which is not fully qualified. This is desirable in cases where fully qualified DID is required as it forces early failure. But in situations where the method is implied, an unqualified DID may also be valid and usable. Therefore, perhaps a separate type should be created to be used in these cases.
-
-As it stands, this integration is a breaking change as it changes the format of the `did_doc` field in the serialized connection state machines in both non-backwards-compatible and non-forwards-compatible way (e.g. some fields optional in the legacy format are now required and `publicKey` used in the legacy format is not a valid DDO field - it can probably be mapped to another valid field when deserializing, but currently isn't).
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-30 18:12:50 +0000 UTC
     </div>
 </div>
 

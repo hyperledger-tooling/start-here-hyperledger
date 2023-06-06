@@ -14,6 +14,43 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5538" class=".btn">#5538</a>
+            </td>
+            <td>
+                <b>
+                    remove PoW header validation if merge is enabled
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+Remove the Attached PoW rule used for the merge, as we are well past merge and this attached version of the PoW rule is causing unnecessary Ethash during chain sync:
+![image](https://github.com/hyperledger/besu/assets/1238512/638f5c1f-e523-4ddb-a80a-10e4c3b6488e)
+
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+relates to #5539 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-06 15:57:59 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5537" class=".btn">#5537</a>
             </td>
             <td>
