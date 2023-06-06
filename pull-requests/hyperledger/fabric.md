@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/fabric
             </td>
             <td>
                 <b>
-                    Follower: revert check of join block different from fetched block
+                    Follower: check if join block different from fetched block
                 </b>
             </td>
         </tr>

@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1333" class=".btn">#1333</a>
+            </td>
+            <td>
+                <b>
+                    fix: multiple named tuple result from contract
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-06 14:38:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1332" class=".btn">#1332</a>
             </td>
             <td>
@@ -130,58 +156,6 @@ Fixes #1328
     </table>
     <div class="right-align">
         Created At 2023-05-30 20:53:04 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1327" class=".btn">#1327</a>
-            </td>
-            <td>
-                <b>
-                    Add unit test for "delete contract API" route
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <nil>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-30 17:20:26 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1326" class=".btn">#1326</a>
-            </td>
-            <td>
-                <b>
-                    Perform nextpin calculations for both confirmed and rejected messages
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">backport-candidate</span>
-            </td>
-            <td>
-                Fixes #1324
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-30 17:19:35 +0000 UTC
     </div>
 </div>
 
