@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-rfcs
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-rfcs/pull/785" class=".btn">#785</a>
+            </td>
+            <td>
+                <b>
+                    Revise the well known goal codes aries.rel and aries.rel.build
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Signed-off-by: Stephen Curran <swcurran@gmail.com>
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-05 22:39:45 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-rfcs/pull/784" class=".btn">#784</a>
             </td>
             <td>

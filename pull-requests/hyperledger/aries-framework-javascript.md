@@ -14,6 +14,35 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1479" class=".btn">#1479</a>
+            </td>
+            <td>
+                <b>
+                    fix: encode tales url
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Some schema names can have characters that are not supported by URL loaders without being encoded. This PR fixes this issue by url encoding before passing the URL off to the loading mechanics. I tested this change agains the issue that reports the problem and it does fix the problem.
+
+Fixes #1478
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-05 21:01:29 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1477" class=".btn">#1477</a>
             </td>
             <td>
