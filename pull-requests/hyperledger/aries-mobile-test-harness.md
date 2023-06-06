@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/171" class=".btn">#171</a>
+                PR <a href="https://github.com/hyperledger/aries-mobile-test-harness/pull/172" class=".btn">#172</a>
             </td>
             <td>
                 <b>
-                    BCW adjust remove contact test details
+                    Replace pcft verifier in Test Harness and BC Wallet tests
                 </b>
             </td>
         </tr>
@@ -27,12 +27,13 @@ permalink: /pull-requests/hyperledger/aries-mobile-test-harness
                 
             </td>
             <td>
-                The PR fixes some changed details when the BC Wallet user removes a contact. 
+                This PR replaces the Pan Canadian Chat verifier with an AATH verifier agent to do connectionless proof requests with CANdy Unverified Person Credentials. Half of the work for this was done in aries-agent-test-harness PR https://github.com/hyperledger/aries-agent-test-harness/pull/692.
+
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-29 18:16:57 +0000 UTC
+        Created At 2023-06-05 21:07:40 +0000 UTC
     </div>
 </div>
 

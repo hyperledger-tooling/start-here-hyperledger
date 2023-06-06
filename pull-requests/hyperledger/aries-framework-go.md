@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3596" class=".btn">#3596</a>
+            </td>
+            <td>
+                <b>
+                    chore: improve stability of flaky tests
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - add retry to mediator.Service.GetConnections
+- add retry to ld/store.RemoteProviderStore.Save
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-05 19:53:33 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3595" class=".btn">#3595</a>
             </td>
             <td>
