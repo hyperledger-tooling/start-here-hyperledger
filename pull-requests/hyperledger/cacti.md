@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/cacti
             </td>
             <td>
                 <b>
-                    chore(besu): remove web3-eea typings file
+                    chore(besu): remove web3-eea typings file 
                 </b>
             </td>
         </tr>
@@ -27,7 +27,9 @@ permalink: /pull-requests/hyperledger/cacti
                 
             </td>
             <td>
-                Fixes 1218
+                Fixes hyperledger#1218
+
+Signed-off-by: micoferdinand98 <ferdinand.m.b.mico@accenture.com>
             </td>
         </tr>
     </table>
