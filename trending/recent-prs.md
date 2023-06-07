@@ -1,13 +1,13 @@
 
-[1335](https://github.com/hyperledger/firefly/pull/1335) Update idempotency.md to fix sentence
+[1338](https://github.com/hyperledger/firefly/pull/1338) v1.2: Backport fixes
 
-[874](https://github.com/hyperledger/aries-vcx/pull/874) Add logs collection
+[5542](https://github.com/hyperledger/besu/pull/5542) Improve log of p2p messages
 
-[61](https://github.com/hyperledger/firefly-perf-cli/pull/61) Retrieve worker ID from token_transfer events when supportsData is set
+[1337](https://github.com/hyperledger/firefly/pull/1337) Fix coverage drop in aggregator
 
-[810](https://github.com/hyperledger/fabric-docs-i18n/pull/810) Docs id_ID translation
+[809](https://github.com/hyperledger/aries-mobile-agent-react-native/pull/809) fix: toggle switch accessibility labels 
 
-[4266](https://github.com/hyperledger/fabric/pull/4266) Fix typo in logger name
+[1336](https://github.com/hyperledger/firefly/pull/1336) Surface message rejection reason to API
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
