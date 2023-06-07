@@ -24,10 +24,52 @@ permalink: /pull-requests/hyperledger/firefly
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">backport-candidate</span>
             </td>
             <td>
-                <nil>
+                Fixes EVM queries for:
+
+### Functions with multiple return values
+
+```solidity
+function myFunction() public view returns (uint256, uint256) 
+```
+
+Result of JSON will become:
+
+```js
+{
+  "output": "12345",
+  "output1": "12345" // prior to this PR, this value was missing
+}
+```
+
+### Functions with  named return values
+
+```solidity
+function myFunction() public view returns (myvalue uint256) 
+```
+
+```js
+{
+  "myvalue": "12345" // prior to this PR, this value was missing (empty object returned)
+}
+```
+
+### Functions with multiple named return values
+
+```solidity
+function myFunction() public view returns (my1 uint256, my2 uint256, my3 uint256) 
+```
+
+```js
+{
+  "my1": "12345", // all these values were missing (empty object returned)
+  "my2": "12345",
+  "my3": "12345" 
+}
+```
+
             </td>
         </tr>
     </table>
@@ -125,37 +167,6 @@ Have tested it e2e with a local server secured with mTLS and it works.
     </table>
     <div class="right-align">
         Created At 2023-05-31 16:37:51 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1329" class=".btn">#1329</a>
-            </td>
-            <td>
-                <b>
-                    Do not perform key resolution when looking up multiparty root org
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Currently whenever we look up root org details in multiparty mode, we are also performing key resolution on the org's default signing key every time. This is ~~only needed when we actually intend to use the org's key to sign something~~ 
- unnecessary, because in most instances we are only interested in the org name/DID. In the instances where the signing key is needed, it is separately resolved (so in these cases it is currently resolved twice).
-
-I've adjusted all instances of the root org lookup to remove the signing key verification, and have adjusted the naming of methods to make it clearer when key resolution will occur.
-
-Fixes #1328 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-30 20:53:04 +0000 UTC
     </div>
 </div>
 

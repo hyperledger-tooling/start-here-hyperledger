@@ -90,34 +90,3 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/215" class=".btn">#215</a>
-            </td>
-            <td>
-                <b>
-                    fix(rn): android works with JSC and Hermes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Tested with:
-
-RN 66 - JSC 
-RN 66 - Hermes
-RN 71 - JSC
-RN 71 - Hermes
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-30 18:44:56 +0000 UTC
-    </div>
-</div>
-
