@@ -36,31 +36,3 @@ permalink: /pull-requests/hyperledger/firefly-evmconnect
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-evmconnect/pull/85" class=".btn">#85</a>
-            </td>
-            <td>
-                <b>
-                    Work through some untested logic, and update to firefly-signer 1.1.9
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Primary objective was picking up v1.1.9.
-
-I also worked through some logic that was missing unit tests, and did find a bug along the way.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-30 22:18:47 +0000 UTC
-    </div>
-</div>
-
