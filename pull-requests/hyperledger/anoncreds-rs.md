@@ -63,30 +63,3 @@ permalink: /pull-requests/hyperledger/anoncreds-rs
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/anoncreds-rs/pull/216" class=".btn">#216</a>
-            </td>
-            <td>
-                <b>
-                    chore: update version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Berend Sliedrecht <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-31 07:24:15 +0000 UTC
-    </div>
-</div>
-

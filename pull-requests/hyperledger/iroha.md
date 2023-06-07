@@ -29,7 +29,7 @@ permalink: /pull-requests/hyperledger/iroha
             <td>
                 ## Description
 
-Use `NonZeroU62` for block streaming to prevent user from sending 0 as block height.
+Use `NonZeroU64` for block streaming to prevent user from sending 0 as block height.
 
 <!-- Just describe what you did. -->
 

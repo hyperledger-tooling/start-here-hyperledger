@@ -52,34 +52,3 @@ Aiming to make the impact on policy engine extensions as minimal as possible, bu
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly-transaction-manager/pull/83" class=".btn">#83</a>
-            </td>
-            <td>
-                <b>
-                    add tls support for FFMT client to that evmconnect client mode can use it
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                needed so that evmconnect client mode commands can call an evmconnect runtime with mtls enabled
-
-Addtional info: the choice of cmd flag names was made to match the `curl` equivalent flags  `--cacert, --cert, --key`
-
-
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-31 10:48:24 +0000 UTC
-    </div>
-</div>
-
