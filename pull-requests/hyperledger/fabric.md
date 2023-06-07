@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/fabric
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/fabric/pull/4266" class=".btn">#4266</a>
+            </td>
+            <td>
+                <b>
+                    Fix typo in logger name
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                commmon -> common
+
+
+#### Type of change
+
+- Bug fix
+
+#### Description
+
+Typo in the word _common_ being written with 3 `m`'s instead of only 2.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-07 06:30:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/fabric/pull/4265" class=".btn">#4265</a>
             </td>
             <td>

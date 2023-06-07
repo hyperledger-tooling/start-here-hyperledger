@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/874" class=".btn">#874</a>
+            </td>
+            <td>
+                <b>
+                    Add logs collection
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-07 09:41:44 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/873" class=".btn">#873</a>
             </td>
             <td>
@@ -60,7 +86,7 @@ Additional extra benefit is that it's now much easier to spot fishy stuff, like 
         </tr>
         <tr>
             <td>
-                <span class="chip">skip-ios</span><span class="chip">skip-android</span><span class="chip">skip-napi-m1</span>
+                
             </td>
             <td>
                 <nil>

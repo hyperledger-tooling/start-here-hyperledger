@@ -410,30 +410,3 @@ Separate out docker push and docker manifest push commands for release to make i
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5520" class=".btn">#5520</a>
-            </td>
-            <td>
-                <b>
-                    [4844] wip - added versioned hashes checking
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                refs #5487 
-still TBD whether this is added to V2 or V3. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-31 06:46:22 +0000 UTC
-    </div>
-</div>
-
