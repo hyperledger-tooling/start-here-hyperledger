@@ -14,6 +14,72 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5542" class=".btn">#5542</a>
+            </td>
+            <td>
+                <b>
+                    Improve log of p2p messages
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+For most p2p messages the `toString` was not implemented, and that made it harder to trace exchanged messages. This PR implements a base `toString` that prints the raw data, and if implemented in the sub class also the decoded format of the data.
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-07 17:55:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5540" class=".btn">#5540</a>
+            </td>
+            <td>
+                <b>
+                    Remove deprecated Rinkeby network
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">doc-change-required</span>
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Rinkeby has been [deprecated for removal](https://blog.ethereum.org/2022/06/21/testnet-deprecation) since last year and from June 1st it has been shutdown
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-07 12:31:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5538" class=".btn">#5538</a>
             </td>
             <td>

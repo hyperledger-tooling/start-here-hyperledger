@@ -14,6 +14,91 @@ permalink: /pull-requests/hyperledger/firefly
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1338" class=".btn">#1338</a>
+            </td>
+            <td>
+                <b>
+                    v1.2: Backport fixes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Backport of the following fixes:
+
+https://github.com/hyperledger/firefly/pull/1249
+https://github.com/hyperledger/firefly/pull/1275
+https://github.com/hyperledger/firefly/pull/1313
+https://github.com/hyperledger/firefly/pull/1316
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-07 18:14:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1337" class=".btn">#1337</a>
+            </td>
+            <td>
+                <b>
+                    Fix coverage drop in aggregator
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-07 16:38:39 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/firefly/pull/1336" class=".btn">#1336</a>
+            </td>
+            <td>
+                <b>
+                    Surface message rejection reason to API
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Proposal to add a "reject_reason" to messages (ie to database and API), which will be populated with the error text whenever a message is rejected. Previously this reason would only be logged, so the hope is that this assists in debugging when a message is rejected for an unexpected reason.
+
+Note that this does slightly reduce the performance of inserting rejected messages, because we must insert them one-by-one instead of in one large update (but I think the net benefit of having the extra info far outweighs the cost, since this is a non-happy path anyway).
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-07 15:40:00 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly/pull/1335" class=".btn">#1335</a>
             </td>
             <td>
@@ -191,34 +276,6 @@ This means a few things handled in this PR:
     </table>
     <div class="right-align">
         Created At 2023-06-01 05:48:27 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1330" class=".btn">#1330</a>
-            </td>
-            <td>
-                <b>
-                    feat: TLS Configs for Webhooks
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Sitting in draft as there is some more extend testing that needs to be done but this is the general idea I was going for. 
-
-Have tested it e2e with a local server secured with mTLS and it works.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-31 16:37:51 +0000 UTC
     </div>
 </div>
 

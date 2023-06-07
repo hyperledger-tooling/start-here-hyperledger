@@ -24,7 +24,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">skip-ios</span><span class="chip">skip-android</span><span class="chip">skip-napi-m1</span>
             </td>
             <td>
                 <nil>
@@ -50,7 +50,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
         <tr>
             <td>
-                
+                <span class="chip">skip-ios</span><span class="chip">skip-android</span><span class="chip">skip-napi-m1</span>
             </td>
             <td>
                 `Profile` abstraction has been introduced to enable smooth transition from `vdrtools` to modular libs (credx/anoncreds, indy-vdr, askar). `Profile` represents basket of trait objects to perform variety of operations.

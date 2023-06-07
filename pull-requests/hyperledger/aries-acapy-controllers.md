@@ -150,30 +150,3 @@ You can disable automated security fix PRs for this repo from the [Security Aler
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-acapy-controllers/pull/90" class=".btn">#90</a>
-            </td>
-            <td>
-                <b>
-                    Add QR code to new connection page on faber and acme controller
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Related to : https://github.com/hyperledger/aries-acapy-controllers/issues/88#issue-1728720771 and https://github.com/hyperledger/aries-acapy-controllers/issues/89
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-31 16:25:38 +0000 UTC
-    </div>
-</div>
-

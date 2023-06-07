@@ -218,29 +218,3 @@ permalink: /pull-requests/hyperledger/fabric-docs-i18n
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-docs-i18n/pull/800" class=".btn">#800</a>
-            </td>
-            <td>
-                <b>
-                    Newtranslation for Bahasa Indonesia
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                This is my first pull request for Bahasa Indonesia Translation. 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-31 13:50:20 +0000 UTC
-    </div>
-</div>
-
