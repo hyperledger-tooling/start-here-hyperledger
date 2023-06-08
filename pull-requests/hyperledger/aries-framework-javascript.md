@@ -80,7 +80,7 @@ You can disable automated security fix PRs for this repo from the [Security Aler
             </td>
             <td>
                 <b>
-                    fix: encode tales url
+                    fix: encode tails url
                 </b>
             </td>
         </tr>

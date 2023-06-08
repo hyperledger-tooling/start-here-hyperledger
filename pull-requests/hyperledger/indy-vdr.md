@@ -64,30 +64,3 @@ permalink: /pull-requests/hyperledger/indy-vdr
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/indy-vdr/pull/194" class=".btn">#194</a>
-            </td>
-            <td>
-                <b>
-                    fix(rn): android works with JSC and Hermes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Berend Sliedrecht <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-31 19:52:02 +0000 UTC
-    </div>
-</div>
-

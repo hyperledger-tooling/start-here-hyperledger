@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/solang
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/solang/pull/1360" class=".btn">#1360</a>
+            </td>
+            <td>
+                <b>
+                    WIP tornado cash on Substrate  :rocket: 
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <nil>
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-07 18:44:04 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/solang/pull/1359" class=".btn">#1359</a>
             </td>
             <td>
@@ -260,39 +286,6 @@ Fixes #1351
     </table>
     <div class="right-align">
         Created At 2023-06-02 01:48:07 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/solang/pull/1345" class=".btn">#1345</a>
-            </td>
-            <td>
-                <b>
-                    `@payer` annotation should declare an account
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                We aim to declare accounts for a function using only annotations. This PR is the first step towards this. The `@payer` annotation in the constructor now declares an account that is going to appear in the IDL. When a constructor is called from an external function, we automatically generate the `AccountMeta` array for the call so developers do not have to initialize such an array themselves. In addition, as we always need the account key in the transaction, `@payer` does not support addresses literals anymore.
-
-This PR lays ground for the `@reader`, `@mutable` and `@mutableReader` annotations we wish to introduce later #1251 .
-
-This PR already touches 45 files, so these changes are going to be in another PR:
-1. When an annotation refers to a constructor argument, it should precede the argument declaration (just like Java). Right now, `@payer(account)` declares something while `@seed(arg1)` points to an argument. Such a syntax will lead to confusion.
-2. We can't yet access the payer `AccountInfo` with the syntax `tx.accounts.payer`. This new command needs further changes in sema, codegen and emit.
-3. The C function `external_call` will become useless as soon as I implement the account management for external calls, so it will be removed in the future.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-31 20:22:35 +0000 UTC
     </div>
 </div>
 

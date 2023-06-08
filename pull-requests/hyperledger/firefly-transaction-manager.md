@@ -43,6 +43,9 @@ Aiming to make the impact on policy engine extensions as minimal as possible, bu
       - LevelDB continues to be a single fat JSON payload
 - Rather than a single `WriteTransaction` function  with a `new` boolean, moved to `InsertTransaction` and `UpdateTransaction` - with clearer update semantics
       - This avoid re-writing huge JSON blobs to SQL DBs when simply tweaking a status field
+- Updating `Confirmations` notification system:
+      - Notifying for all confirmations as we detect them, rather than only once the full set is completed (UX improvement)
+      - Providing a more rich confirmations notification that can distinguish incremental adding of confirmations, from a new fork
 
             </td>
         </tr>

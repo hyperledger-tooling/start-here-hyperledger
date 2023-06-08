@@ -14,66 +14,45 @@ permalink: /pull-requests/hyperledger-labs/perun-node
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger-labs/perun-node/pull/247" class=".btn">#247</a>
+                PR <a href="https://github.com/hyperledger-labs/perun-node/pull/255" class=".btn">#255</a>
             </td>
             <td>
                 <b>
-                    Bump golang.org/x/net from 0.0.0-20210813160813-60bc85c4be6d to 0.7.0
+                    docs: Correct link to perunnodeui README.md
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">dependencies</span>
+                
             </td>
             <td>
-                Bumps [golang.org/x/net](https://github.com/golang/net) from 0.0.0-20210813160813-60bc85c4be6d to 0.7.0.
-<details>
-<summary>Commits</summary>
-<ul>
-<li>See full diff in <a href="https://github.com/golang/net/commits/v0.7.0">compare view</a></li>
-</ul>
-</details>
-<br />
+                Small fix in the main readme, the link to the tutorial doesn't work unless the file name is all caps. 
+
+##### Category
+Docs 
+
+#### Testing
+<!-- Tell us how you have tested the changes. -->
+
+Clicking on the link in my branch loads the tutorial. 
 
 
-[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=golang.org/x/net&package-manager=go_modules&previous-version=0.0.0-20210813160813-60bc85c4be6d&new-version=0.7.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+#### Checklist 
+<!-- Please check if the pull request fulfils these requirements: -->
 
-Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+- [ ] Name is added to the NOTICE file, if it is not present already.
+- [x] Changes are rebased onto the target branch.
 
-[//]: # (dependabot-automerge-start)
-[//]: # (dependabot-automerge-end)
 
----
+I don't feel like my name needs to be added to the NOTICE file, if this is inappropriate feel free to close the PR and make the change yourself. 
 
-<details>
-<summary>Dependabot commands and options</summary>
-<br />
-
-You can trigger Dependabot actions by commenting on this PR:
-- `@dependabot rebase` will rebase this PR
-- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
-- `@dependabot merge` will merge this PR after your CI passes on it
-- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
-- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
-- `@dependabot reopen` will reopen this PR if it is closed
-- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
-- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
-- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
-- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
-- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
-- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
-
-You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/hyperledger-labs/perun-node/network/alerts).
-
-</details>
+Thank you! 
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-06 23:36:31 +0000 UTC
+        Created At 2023-06-07 21:55:34 +0000 UTC
     </div>
 </div>
 
