@@ -63,30 +63,3 @@ permalink: /pull-requests/hyperledger/aries-askar
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/148" class=".btn">#148</a>
-            </td>
-            <td>
-                <b>
-                    chore: update version
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Berend Sliedrecht <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-01 07:12:22 +0000 UTC
-    </div>
-</div>
-

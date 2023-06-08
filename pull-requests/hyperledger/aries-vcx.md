@@ -14,17 +14,17 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/874" class=".btn">#874</a>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/876" class=".btn">#876</a>
             </td>
             <td>
                 <b>
-                    Add logs collection
+                    Fix ci
                 </b>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="chip">skip-ios</span><span class="chip">skip-android</span><span class="chip">skip-napi-m1</span>
+                
             </td>
             <td>
                 <nil>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-07 09:41:44 +0000 UTC
+        Created At 2023-06-08 06:53:57 +0000 UTC
     </div>
 </div>
 
