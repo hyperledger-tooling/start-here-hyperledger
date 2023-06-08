@@ -446,33 +446,3 @@ Partially fixes #5516
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5522" class=".btn">#5522</a>
-            </td>
-            <td>
-                <b>
-                    Make docker commands easier to debug during upload and manifest creation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">TeamGroot</span>
-            </td>
-            <td>
-                Debugging for https://github.com/hyperledger/besu/issues/5521
-
-Print out commands being executed
-
-Separate out docker push and docker manifest push commands for release to make it easier to spot which one fails in #5521 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-31 22:31:20 +0000 UTC
-    </div>
-</div>
-

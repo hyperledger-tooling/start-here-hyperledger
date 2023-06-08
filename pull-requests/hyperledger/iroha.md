@@ -14,6 +14,53 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3585" class=".btn">#3585</a>
+            </td>
+            <td>
+                <b>
+                    [feature] #2373: `kagami swarm file` and `kagami swarm dir`
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">Enhancement</span><span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+#3475 introduces `kagami swarm` command, but it works only in directory mode. Now it is possible to produce both a "battery-included" directory and just a single file. The latter usage is especially helpful to generate sample docker-compose configurations to store them in the repo (`docker-compose.yml`, `docker-compose.single.yml` etc):
+
+```bash
+kagami swarm file ./docker-compose.yml --config-dir ./configs/peer --peers 4 --seed "Kagami"
+```
+
+### Linked issue
+
+Closes #2373
+
+### Benefits
+
+We can automatise Docker Compose configurations generation and avoid problems with having outdated files in the repo. It will help the community.
+
+### Checklist
+
+- [x] Remove `--outfile` and `--outdir` options, use positionals instead
+- [ ] Create an issue to include compose files generation into CI
+- [ ] Self-review
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-08 00:25:43 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3575" class=".btn">#3575</a>
             </td>
             <td>
@@ -459,64 +506,6 @@ Closes #3552
     </table>
     <div class="right-align">
         Created At 2023-06-01 07:35:42 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/iroha/pull/3551" class=".btn">#3551</a>
-            </td>
-            <td>
-                <b>
-                    [feature] #3330: Extend `NumericValue` deserialisation
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">iroha2</span>
-            </td>
-            <td>
-                ## Description
-
-Implemented manual deserialisation for `NumericValue` to circumvent https://github.com/serde-rs/json/issues/846. 
-
-All `NumericValue` instances can now be deserialised from a string directly. 
-
-All instances of `NumericValue::U128` are now preferentially serialised as tagged string-valued enums. Literal syntax deserialisation is supported but discouraged, given the slowness of processing. 
-
-### Linked issue
-
-Closes #3330 
-Closes #3539 
-
-### Benefits
-
-More flexible syntax
-
-### Drawbacks
-
-Potentially slower deserialsation
-
-### Checklist
-
-- [x] Self-review
-- [x] Implementation
-- [x] Review comments
-- [x] tests
-  - [x] ser
-  - [x] de
-  - [x] ToString
-  - [x] FromString
-  - [x] tagged
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-31 19:07:09 +0000 UTC
     </div>
 </div>
 

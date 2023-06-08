@@ -90,30 +90,3 @@ permalink: /pull-requests/hyperledger/aries-askar
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-askar/pull/147" class=".btn">#147</a>
-            </td>
-            <td>
-                <b>
-                    fix(rn): android works with JSC and Hermes
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Signed-off-by: Berend Sliedrecht <blu3beri@proton.me>
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-05-31 19:51:50 +0000 UTC
-    </div>
-</div>
-
