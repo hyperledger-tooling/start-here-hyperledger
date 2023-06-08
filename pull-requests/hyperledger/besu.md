@@ -14,6 +14,41 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5548" class=".btn">#5548</a>
+            </td>
+            <td>
+                <b>
+                    Fix graphql storageAt for bonsai
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+This PR adds a check to the AccountAdapter used by the graphQL suite to ensure that if the account is a bonsaiAccount we open a new snapshot to retrieve the storage slot requested.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+Fixes #5524
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-08 07:00:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5547" class=".btn">#5547</a>
             </td>
             <td>
@@ -439,65 +474,6 @@ Currently evaluating to ensure there is no noticeable performance regression.
     </table>
     <div class="right-align">
         Created At 2023-06-01 23:56:05 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5526" class=".btn">#5526</a>
-            </td>
-            <td>
-                <b>
-                    preload only when value changed
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-01 11:25:21 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5525" class=".btn">#5525</a>
-            </td>
-            <td>
-                <b>
-                    [MINOR] switch QBFT tests to Junit5
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">testing</span>
-            </td>
-            <td>
-                statemachine tests have plenty of unnecessary mockings so did not unpick that as part of this PR, went with lenient mockings instead.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-01 08:11:43 +0000 UTC
     </div>
 </div>
 

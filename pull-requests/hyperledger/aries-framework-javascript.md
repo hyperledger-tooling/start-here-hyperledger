@@ -127,29 +127,3 @@ Fixes #1478
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1475" class=".btn">#1475</a>
-            </td>
-            <td>
-                <b>
-                    chore(release): v0.4.0
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span class="chip">ci-test</span>
-            </td>
-            <td>
-                Release version 0.4.0
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-01 12:10:46 +0000 UTC
-    </div>
-</div>
-
