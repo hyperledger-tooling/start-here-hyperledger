@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/aries-framework-javascript
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1482" class=".btn">#1482</a>
+            </td>
+            <td>
+                <b>
+                    docs: Update DEVREADME.md setup-indy-ledger links
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixed links for setting up an indy ledger.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-08 15:06:06 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-javascript/pull/1481" class=".btn">#1481</a>
             </td>
             <td>
