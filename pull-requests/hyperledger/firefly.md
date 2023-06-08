@@ -244,38 +244,3 @@ https://github.com/hyperledger/firefly-tokens-erc1155/pull/125
     </div>
 </div>
 
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/firefly/pull/1331" class=".btn">#1331</a>
-            </td>
-            <td>
-                <b>
-                    Process batch of events from Blockchain connector, in a single DB TX
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                One of the outstanding observations from the performance testing in V1.2 was that we are performing a DB commit for each Blockchain event.
-
-These are sequential on the single logical delivery thread from the blockchain connector (which currently is server-wide, although that should itself become namespace-wide).
-
-This PR proposes that instead we update all the internal callback interfaces, to propagate the batch of events that come in over the wire from the connector, through to the event processor.
-
-This means a few things handled in this PR:
-1. Handling a batch that contains events of multiple types -  Batch Pin, Network Action, or custom Blockchain Event Listener
-2. Handling a batch that needs different events dispatching to different namespaces
-3. Continuing to handle old events that didn't come with a namespace at all (these are dispatched to all registered namespaces)
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-01 05:48:27 +0000 UTC
-    </div>
-</div>
-
