@@ -14,6 +14,49 @@ permalink: /pull-requests/hyperledger/iroha
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/iroha/pull/3586" class=".btn">#3586</a>
+            </td>
+            <td>
+                <b>
+                    [documentation]: remove Kagami documentation from README
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="chip">iroha2</span>
+            </td>
+            <td>
+                ## Description
+
+After a discussion with the team, we decided that it is better to not have Kagami documentation in README than having an outdated one. Since it is a CLI tool with no stable API, having reliable help message (thanks to `clap`) is enough.
+
+See https://github.com/hyperledger/iroha/issues/3509#issuecomment-1581766055
+
+### Linked issue
+
+_No issue_
+
+### Benefits
+
+Lower chance to have outdated documentation in the README. Therefore, lower chance to confuse future users.
+
+### Checklist
+
+- [ ] Peers review
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-08 01:48:38 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/iroha/pull/3585" class=".btn">#3585</a>
             </td>
             <td>
@@ -47,7 +90,7 @@ We can automatise Docker Compose configurations generation and avoid problems wi
 
 - [x] Remove `--outfile` and `--outdir` options, use positionals instead
 - [ ] Create an issue to include compose files generation into CI
-- [ ] Self-review
+- [x] Self-review
 
             </td>
         </tr>

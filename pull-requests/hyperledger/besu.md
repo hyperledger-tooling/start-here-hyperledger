@@ -14,6 +14,99 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5547" class=".btn">#5547</a>
+            </td>
+            <td>
+                <b>
+                    Make the return of hardforkfor optional
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Make the return of hardforkfor optional.
+
+For the EngineGetPayloadV3, when Shanghai and Cancun had the same milestone, an exception was 
+
+```
+java.lang.IllegalStateException: No hardfork found for predicate org.hyperledger.besu.ethereum.api.jsonrpc.internal.methods.engine.EngineGetPayloadV3$$Lambda$840/0x00000008010a4838@237b2852
+	at org.hyperledger.besu.ethereum.mainnet.DefaultProtocolSchedule.lambda$hardforkFor$4(DefaultProtocolSchedule.java:132)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at org.hyperledger.besu.ethereum.mainnet.DefaultProtocolSchedule.hardforkFor(DefaultProtocolSchedule.java:131)
+	at org.hyperledger.besu.consensus.merge.TransitionProtocolSchedule.lambda$hardforkFor$3(TransitionProtocolSchedule.java:210)
+	at org.hyperledger.besu.consensus.merge.TransitionUtils.dispatchFunctionAccordingToMergeState(TransitionUtils.java:75)
+	at org.hyperledger.besu.consensus.merge.TransitionProtocolSchedule.hardforkFor(TransitionProtocolSchedule.java:209)
+	at org.hyperledger.besu.ethereum.api.jsonrpc.internal.methods.engine.EngineGetPayloadV3.<init>(EngineGetPayloadV3.java:55)
+	at org.hyperledger.besu.ethereum.api.jsonrpc.methods.ExecutionEngineJsonRpcMethods.create(ExecutionEngineJsonRpcMethods.java:157)
+	at org.hyperledger.besu.ethereum.api.jsonrpc.methods.ApiGroupJsonRpcMethods.create(ApiGroupJsonRpcMethods.java:30)
+	at org.hyperledger.besu.ethereum.api.jsonrpc.methods.JsonRpcMethodsFactory.methods(JsonRpcMethodsFactory.java:144)
+	at org.hyperledger.besu.RunnerBuilder.jsonRpcMethods(RunnerBuilder.java:1201)
+	at org.hyperledger.besu.RunnerBuilder.build(RunnerBuilder.java:831)
+	at org.hyperledger.besu.cli.BesuCommand.synchronize(BesuCommand.java:3086)
+	at org.hyperledger.besu.cli.BesuCommand.buildRunner(BesuCommand.java:1725)
+	at org.hyperledger.besu.cli.BesuCommand.run(BesuCommand.java:1560)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2026)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at org.hyperledger.besu.cli.util.ConfigOptionSearchAndRunHandler.handle(ConfigOptionSearchAndRunHandler.java:62)
+	at org.hyperledger.besu.cli.util.ConfigOptionSearchAndRunHandler.handle(ConfigOptionSearchAndRunHandler.java:33)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at org.hyperledger.besu.cli.BesuCommand.parse(BesuCommand.java:1717)
+	at org.hyperledger.besu.cli.BesuCommand.parse(BesuCommand.java:1512)
+	at org.hyperledger.besu.Besu.main(Besu.java:39)
+```
+
+
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-08 06:07:05 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5546" class=".btn">#5546</a>
+            </td>
+            <td>
+                <b>
+                    validate versioned hashes
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                compare versioned hashes passed in with those from blob tx
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-08 05:35:01 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5542" class=".btn">#5542</a>
             </td>
             <td>
@@ -405,44 +498,6 @@ Currently evaluating to ensure there is no noticeable performance regression.
     </table>
     <div class="right-align">
         Created At 2023-06-01 08:11:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5523" class=".btn">#5523</a>
-            </td>
-            <td>
-                <b>
-                    Fix code availability in graphQL
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-This PR loads the account code when we still have the ws snapshot available. This avoids the issue caused in graph
-QL api when we try to fetch the Account code in the AccountAdapter and the ws snapshot is already closed.
-Another possibility would be to pass the block number to the AccountAdapter and get another open another snapshot to query the accounts code and storage in the AccountAdapter which has the enough context to know what slot is being requested.
-This can be attempted in a separate PR and if we decide to move forward with that we can transfer this tiny change to the AccountAdapter as well. 
-
-## Fixed Issue(s)
-<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
-<!-- Example: "fixes #2" -->
-Partially fixes #5516 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-01 02:29:58 +0000 UTC
     </div>
 </div>
 

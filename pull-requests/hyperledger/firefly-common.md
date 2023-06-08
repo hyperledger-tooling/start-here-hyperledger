@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/firefly-common/pull/70" class=".btn">#70</a>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/71" class=".btn">#71</a>
             </td>
             <td>
                 <b>
-                    feat: Add nested array config
+                    Allow any string for ID column, and support collections without an `updated` column
                 </b>
             </td>
         </tr>
@@ -27,23 +27,18 @@ permalink: /pull-requests/hyperledger/firefly-common
                 
             </td>
             <td>
-                As part of another feature I want to be able to add nested arrays such as:
-```
-namespaces:
-  predefined:
-  - name: myns
-    tlsConfigs:
-    - name: myconfig
-      tls:
-        enabled: true
-```
+                Couple of constraints that while working on FFTM/EVMConnect I found were unnecessary.
 
-This is not currently possible and this PR adds that support. Let me know if I missed out on anything!
+1. Allowing any string for ID
+  - The default example `ResourceBase` still uses fftypes.UUID
+  - This allows FFTM to use the `namesace:UUID` convention from FF Core (established historically)
+2. Allowing collections without an `updated` column
+  - The previous code allowed you to map the `created`/`updated` columns to any fields in your business object, but required them. This was a pain for write-or-delete-only data, which is true for performance sensitive transaction history records in FFTM/EVMConnect
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-05-31 10:58:02 +0000 UTC
+        Created At 2023-06-08 02:20:31 +0000 UTC
     </div>
 </div>
 

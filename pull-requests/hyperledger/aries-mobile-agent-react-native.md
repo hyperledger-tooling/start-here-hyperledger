@@ -14,6 +14,72 @@ permalink: /pull-requests/hyperledger/aries-mobile-agent-react-native
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/810" class=".btn">#810</a>
+            </td>
+            <td>
+                <b>
+                    feat: contacts UI update
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                # Summary of Changes
+
+Various UI updates for the contact list, contact details, and what are contacts screens. Also capitalized all instances of Contact / Contacts as it was inconsistently capitalized previously.
+
+### Here is the old contact list:
+![contacts_list_old](https://github.com/hyperledger/aries-mobile-agent-react-native/assets/32586431/2120ee79-8a4f-4fba-83cc-e3218331ce76)
+
+### Here is the new contact list:
+![contacts_list_new](https://github.com/hyperledger/aries-mobile-agent-react-native/assets/32586431/1ac1b074-c530-4a5a-9747-35e830e68125)
+
+### Here is the new contact details:
+![contact_details](https://github.com/hyperledger/aries-mobile-agent-react-native/assets/32586431/e167dfbf-10c9-43b5-a50a-ee64cd6aafe5)
+
+### Here is the new what are contacts screen:
+![what_are_contacts](https://github.com/hyperledger/aries-mobile-agent-react-native/assets/32586431/eafc3993-d945-449b-be47-3082fe7046e0)
+
+### Here is the new empty contacts list:
+![empty_contacts](https://github.com/hyperledger/aries-mobile-agent-react-native/assets/32586431/3334449c-2cdd-4162-a6d5-f543fb2f46c6)
+
+# Related Issues
+
+N/A
+
+# Pull Request Checklist
+
+Tick all boxes below to demonstrate that you have completed the respective task. If the item does not apply to your this PR **check it anyway** to make it apparent that there's nothing to do.
+
+- [x] All commits contain a DCO `Signed-off-by` line (we use the [DCO GitHub app](https://github.com/apps/dco) to enforce this);
+- [x] Updated LICENSE-3RD-PARTY.md for any added dependencies or vendored components;
+- [x] Updated documentation as needed for changed code and new or modified features;
+- [x] Added sufficient [tests](../__tests__/) so that overall code coverage is not reduced.
+
+If you have _any_ questions to _any_ of the points above, just **submit and ask**! This checklist is here to _help_ you, not to deter you from contributing!
+
+Pro Tip 🤓
+
+- Read our [contribution guide](../CONTRIBUTING.md) at least once; it will save you a few review cycles!
+- Your PR will likely not be reviewed until all the above boxes are checked and all automated tests have passed.
+
+_PR template adapted from the Python attrs project._
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-08 04:40:10 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-mobile-agent-react-native/pull/809" class=".btn">#809</a>
             </td>
             <td>
