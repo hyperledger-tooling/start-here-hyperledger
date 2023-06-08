@@ -14,6 +14,32 @@ permalink: /pull-requests/hyperledger/firefly-common
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/firefly-common/pull/72" class=".btn">#72</a>
+            </td>
+            <td>
+                <b>
+                    Add configurable connection timeout for WebSocket client
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                The underlying WebSocket client library that we are using supports a connection timeout, but we previously did not expose a way to configure it. The default was 45 seconds, which is too long for the firefly-perf-cli as it normally only gives 30 seconds before considering a transaction a failure. This PR adds a configuration option to the websocket client. If the timeout is exceeded and a connection has not been established, the client will automatically try again unless auto reconnections are disabled.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-08 14:09:52 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/firefly-common/pull/71" class=".btn">#71</a>
             </td>
             <td>

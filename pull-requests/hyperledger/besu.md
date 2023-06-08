@@ -14,6 +14,66 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5551" class=".btn">#5551</a>
+            </td>
+            <td>
+                <b>
+                    Fix blob encoding/decoding for network issues
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+Fix encoding/decoding issues with Blob Transactions for network
+
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-08 18:00:07 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5550" class=".btn">#5550</a>
+            </td>
+            <td>
+                <b>
+                    Renumber EOF and Transient storage
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                ## PR description
+
+As per a recent ACD, the opcode numbers for EOF and Transient Storage have been updated.  Update the code and test cases for the new numbers.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-08 14:43:11 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5548" class=".btn">#5548</a>
             </td>
             <td>
@@ -160,6 +220,8 @@ java.lang.IllegalStateException: No hardfork found for predicate org.hyperledger
 
 ## PR description
 For most p2p messages the `toString` was not implemented, and that made it harder to trace exchanged messages. This PR implements a base `toString` that prints the raw data, and if implemented in the sub class also the decoded format of the data.
+
+Since message data could be quite large, the log system is configured to easily change the max amount of data written, according to the user needs, by default 1000 chars are written for raw data and decoded data.
 
             </td>
         </tr>

@@ -14,6 +14,33 @@ permalink: /pull-requests/hyperledger/aries-framework-go
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3598" class=".btn">#3598</a>
+            </td>
+            <td>
+                <b>
+                    wip: pEx refactoring
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                - pEx implementation no longer needs to replace Credential ID temporarily
+- assorted cleanup
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-08 13:47:37 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-framework-go/pull/3596" class=".btn">#3596</a>
             </td>
             <td>

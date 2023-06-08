@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/fabric-contract-api-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/101" class=".btn">#101</a>
+                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/104" class=".btn">#104</a>
             </td>
             <td>
                 <b>
-                    Update test chaincodes to fabric-contract-api-go v1.2.1
+                    Update checkout GitHub action
                 </b>
             </td>
         </tr>
@@ -27,12 +27,14 @@ permalink: /pull-requests/hyperledger/fabric-contract-api-go
                 
             </td>
             <td>
-                Update test chaincodes to fabric-contract-api-go v1.2.1. Also run 'go mod tidy' to ensure chaincode dependences are up to date.
+                Update deprecated actions/checkout to avoid the following build warning:
+
+> Node.js 12 actions are deprecated. Please update the following actions to use Node.js 16: actions/checkout@v2
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-01 13:45:58 +0000 UTC
+        Created At 2023-06-08 17:02:10 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +42,11 @@ permalink: /pull-requests/hyperledger/fabric-contract-api-go
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/100" class=".btn">#100</a>
+                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/103" class=".btn">#103</a>
             </td>
             <td>
                 <b>
-                    Remove changelog requirement for release.
+                    Only use govulncheck for vulnerability scan
                 </b>
             </td>
         </tr>
@@ -53,68 +55,12 @@ permalink: /pull-requests/hyperledger/fabric-contract-api-go
                 
             </td>
             <td>
-                Since github manages changelogs now, there is no need for a manual changelog. Other repositories have also shifted to this technique.
+                Govulncheck provides more intelligent scanning and is lighter weight than Nancy. Remove use of nancy in vulnerability scan.
             </td>
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-03-01 12:16:50 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/99" class=".btn">#99</a>
-            </td>
-            <td>
-                <b>
-                    Update Maintainers
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Request to add Mr Mark Leiws;
-
-Move Mr James Taylor, to Maintainer Emeritus 
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-03-01 09:38:45 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/fabric-contract-api-go/pull/98" class=".btn">#98</a>
-            </td>
-            <td>
-                <b>
-                    Update dependencies (Go 1.19, latest fabric-chaincode-go, etc)
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                Update dependencies (Go 1.19, latest fabric-chaincode-go, etc)
-
-Signed-off-by: David Enyeart <enyeart@us.ibm.com>
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-02-28 21:42:48 +0000 UTC
+        Created At 2023-06-08 16:03:42 +0000 UTC
     </div>
 </div>
 

@@ -50,7 +50,7 @@ permalink: /pull-requests/hyperledger/aries-vcx
         </tr>
         <tr>
             <td>
-                <span class="chip">skip-ios</span><span class="chip">skip-android</span><span class="chip">skip-napi-m1</span>
+                
             </td>
             <td>
                 `Profile` abstraction has been introduced to enable smooth transition from `vdrtools` to modular libs (credx/anoncreds, indy-vdr, askar). `Profile` represents basket of trait objects to perform variety of operations.
@@ -183,86 +183,6 @@ This PR introduces interior mutability within `IndyVdrLedgerWrite` such that it'
     </table>
     <div class="right-align">
         Created At 2023-06-02 13:32:34 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/867" class=".btn">#867</a>
-            </td>
-            <td>
-                <b>
-                    Feature/cred migrator
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                TODO
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-01 15:51:02 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/866" class=".btn">#866</a>
-            </td>
-            <td>
-                <b>
-                    Refactor messages crate tests
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                fix: #822 
-
-Just want to know that the direction in which I'm going is upright! For using the `Static JSON` in message crate tests
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-01 13:57:41 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/aries-vcx/pull/865" class=".btn">#865</a>
-            </td>
-            <td>
-                <b>
-                    Make DidDocument's service generic over method-specific fields
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                As it was decided that `DidDocument` integration will be postponed, this PR cherry-picks those changes made in #864 which are isolated to the new crates and thus can be merged independently from the `DidDocument` integration.
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-01 13:27:08 +0000 UTC
     </div>
 </div>
 
