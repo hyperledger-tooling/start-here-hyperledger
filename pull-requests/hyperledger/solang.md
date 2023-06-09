@@ -18,7 +18,7 @@ permalink: /pull-requests/hyperledger/solang
             </td>
             <td>
                 <b>
-                    WIP tornado cash on Substrate  :rocket: 
+                    Tornado cash on Substrate  :rocket: 
                 </b>
             </td>
         </tr>
@@ -27,7 +27,13 @@ permalink: /pull-requests/hyperledger/solang
                 
             </td>
             <td>
-                <nil>
+                Adding [tornado cash](https://github.com/tornadocash/tornado-core) as a Substrate integration test.
+
+- The tornado contracts contain minor mechanical changes to compile fine on Substrate. Side note: During the process I discovered a couple of bugs (all fixed in previous PRs); ideally we add many more real world state of the art dApps as integration test.
+- For simplicity reasons, the ZK-SNARK setup is just the same as the ETH Tornado on mainnet uses. Because the withdraw key is quite large (600K line json file) I decided to add it as a sub module.
+- For compatible proof generation, I factored out the relevant parts from the [tornado CLI](https://github.com/tornadocash/tornado-cli). The tornado CLI code is very tightly coupled to ETH and related chains, no chance to re-use it directly. 
+- `circomlib` provides the MiMC sponge hash function as EVM bytecode only, so I implemented them directly in the node as chain extension. I found and tested a Solidity version, but it was so horribly gas-inefficient that merkle tree heights > 4 led to exceeding the transaction refTime limit (tornado uses a merkle tree of height 20). It uses the `u256` type heavily so I don't expect it to be particularly efficient, but it shouldn't be that bad; should be investigated further.
+- Addition, multiplication and pairing operations on the `bn128` curve are precompiles on EVM. To make live easy I basically just converted the moonbeam precompiles into a chain extension on our substrate CI node.
             </td>
         </tr>
     </table>
