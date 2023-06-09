@@ -14,11 +14,11 @@ permalink: /pull-requests/hyperledger/toc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/122" class=".btn">#122</a>
+                PR <a href="https://github.com/hyperledger/toc/pull/125" class=".btn">#125</a>
             </td>
             <td>
                 <b>
-                    Remove WG reference and add comment about dormancy
+                    Encourage projects to set annual goals
                 </b>
             </td>
         </tr>
@@ -32,7 +32,7 @@ permalink: /pull-requests/hyperledger/toc
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-01 16:58:34 +0000 UTC
+        Created At 2023-06-08 23:36:59 +0000 UTC
     </div>
 </div>
 
@@ -40,11 +40,11 @@ permalink: /pull-requests/hyperledger/toc
     <table>
         <tr>
             <td>
-                PR <a href="https://github.com/hyperledger/toc/pull/121" class=".btn">#121</a>
+                PR <a href="https://github.com/hyperledger/toc/pull/124" class=".btn">#124</a>
             </td>
             <td>
                 <b>
-                    2023-06-08 TOC Meeting Agenda
+                    On-demand trigger for reminders
                 </b>
             </td>
         </tr>
@@ -58,7 +58,33 @@ permalink: /pull-requests/hyperledger/toc
         </tr>
     </table>
     <div class="right-align">
-        Created At 2023-06-01 16:53:23 +0000 UTC
+        Created At 2023-06-08 22:32:27 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/toc/pull/123" class=".btn">#123</a>
+            </td>
+            <td>
+                <b>
+                    Annual review
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                @hyperledger/toc : Opening a draft pull request so people can comment on the contents for the project annual review process.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-08 20:02:34 +0000 UTC
     </div>
 </div>
 

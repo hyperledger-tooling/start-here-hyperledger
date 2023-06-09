@@ -14,6 +14,34 @@ permalink: /pull-requests/hyperledger/aries-vcx
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/aries-vcx/pull/878" class=".btn">#878</a>
+            </td>
+            <td>
+                <b>
+                    Fix 877: Connection Requests with empty DIDDoc pubkey controller
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                Fixes #877 , pls see ticket for more info.
+
+i can write a test if desired, but I've tested this fix against ACA-py 0.8.1 and confirmed the problem is resolved. this bug was likely just an oversight, as all other AriesDidDoc constructions (exception this one) involved setting the `id` first.
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-08 23:09:50 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/aries-vcx/pull/876" class=".btn">#876</a>
             </td>
             <td>
