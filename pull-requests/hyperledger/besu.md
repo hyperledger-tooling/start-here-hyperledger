@@ -14,6 +14,68 @@ permalink: /pull-requests/hyperledger/besu
     <table>
         <tr>
             <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5575" class=".btn">#5575</a>
+            </td>
+            <td>
+                <b>
+                    Migrate EVM module to JUnit 5
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
+<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
+
+## PR description
+
+Migrate EVM module tests to JUnit 5.
+Mostly parameterized test and mockito support changes.
+
+## Fixed Issue(s)
+<!-- Please link to fixed issue(s) here using format: fixes #<issue number> -->
+<!-- Example: "fixes #2" -->
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-09 17:28:56 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                PR <a href="https://github.com/hyperledger/besu/pull/5574" class=".btn">#5574</a>
+            </td>
+            <td>
+                <b>
+                    Migrate crypto tests from JUnit 4.0 to JUnit 5.0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                This PR should resolve #5568 
+            </td>
+        </tr>
+    </table>
+    <div class="right-align">
+        Created At 2023-06-09 13:01:18 +0000 UTC
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>
                 PR <a href="https://github.com/hyperledger/besu/pull/5573" class=".btn">#5573</a>
             </td>
             <td>
@@ -576,39 +638,6 @@ Now you can start either besu or push gateway in any order.
     </table>
     <div class="right-align">
         Created At 2023-06-04 20:43:43 +0000 UTC
-    </div>
-</div>
-
-<div>
-    <table>
-        <tr>
-            <td>
-                PR <a href="https://github.com/hyperledger/besu/pull/5529" class=".btn">#5529</a>
-            </td>
-            <td>
-                <b>
-                    logging cleanup, giant new payload.
-                </b>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                
-            </td>
-            <td>
-                <!-- Thanks for sending a pull request! Please check out our contribution guidelines: -->
-<!-- https://github.com/hyperledger/besu/blob/main/CONTRIBUTING.md -->
-
-## PR description
-Moved newPayload logging to trace
-
-## Fixed Issue(s)
-
-            </td>
-        </tr>
-    </table>
-    <div class="right-align">
-        Created At 2023-06-02 14:54:51 +0000 UTC
     </div>
 </div>
 

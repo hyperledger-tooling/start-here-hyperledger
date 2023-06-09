@@ -1,13 +1,13 @@
 
-[3593](https://github.com/hyperledger/iroha/pull/3593) [fix] #3592: fix config files updating on release
+[5575](https://github.com/hyperledger/besu/pull/5575) Migrate EVM module to JUnit 5
 
-[2262](https://github.com/hyperledger/aries-cloudagent-python/pull/2262) feat(did creation route): reject unregistered did methods
+[14](https://github.com/hyperledger-labs/harmonia/pull/14) Added first draft of a sample protocol implementation
 
-[5573](https://github.com/hyperledger/besu/pull/5573) [MINOR] errorprone-checks - migrate to junit5
+[441](https://github.com/hyperledger-labs/private-data-objects/pull/441) Update service database
 
-[3589](https://github.com/hyperledger/iroha/pull/3589) [fix] #0000:  configuration macro test
+[13](https://github.com/hyperledger-labs/harmonia/pull/13) Added Atomic Settlement
 
-[5572](https://github.com/hyperledger/besu/pull/5572) [MINOR] Datatypes - junit5
+[12](https://github.com/hyperledger-labs/harmonia/pull/12) R3domfox/architecture principles
 
 
 [See more >>>](https://start-here.hyperledger.org/pull-requests)
